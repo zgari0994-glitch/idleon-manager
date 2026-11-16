@@ -4,8 +4,8 @@ plus idleon_transcripts.zip. Safe to stop and re-run: finished videos are skippe
 
 Faster version:
 - ONE request per video: yt-dlp gets the details and the captions together.
-- Uses your Brave YouTube login (cookies) so YouTube throttles less. CLOSE BRAVE before running.
-  If the cookies can't be read, it carries on without them.
+- Optional: put a cookies.txt (YouTube cookies exported from your browser) next to this script and it
+  uses your login so YouTube throttles less. Without it, runs logged out.
 - Priority order across all three creators: account reviews first, then guides, then playthroughs, then streams.
 
 Setup (Windows, once):  py -m pip install -U yt-dlp youtube-transcript-api
@@ -19,7 +19,7 @@ CREATORS = {
     'pulseidle': 'https://www.youtube.com/@PulseIdle',
     'nocturne': 'https://www.youtube.com/@NocturneGamingOfficial',
 }
-BROWSER = 'brave'
+COOKIEFILE = 'cookies.txt'  # optional: YouTube cookies exported from your browser, next to this script
 ROOT = os.path.join('idleon_transcripts', 'sources', 'creators')
 TMP = os.path.join('idleon_transcripts', '_tmp')
 MIN_SECONDS = 120
@@ -28,12 +28,12 @@ COOLDOWN = 600
 SKIP_IDS = {'N2EFqfVHNMM'}  # 21-hour Remastered Movie (excluded by Zack)
 IDLEON = re.compile(r'idle\s?on|legends of idleon', re.I)
 ORDER = {'review': 0, 'guide': 1, 'playthrough': 2, 'stream': 3}
-COOKIES = True
+COOKIES = os.path.exists(COOKIEFILE)
 
 def base_opts():
     o = {'quiet': True, 'no_warnings': True, 'skip_download': True}
     if COOKIES:
-        o['cookiesfrombrowser'] = (BROWSER,)
+        o['cookiefile'] = COOKIEFILE
     return o
 
 def kind(title, from_streams=False, was_live=False):
@@ -49,8 +49,10 @@ def list_tab(url):
         with yt_dlp.YoutubeDL({**base_opts(), 'extract_flat': True}) as y:
             info = y.extract_info(url, download=False) or {}
     except Exception as ex:
+        if 'does not have a' in str(ex):
+            return []  # channel has no such tab (e.g. no Streams)
         if COOKIES:
-            print(f'  Could not use {BROWSER} cookies ({str(ex)[:100]}). Close Brave and rerun to use your login; continuing without.')
+            print(f'  cookies.txt not usable ({str(ex)[:100]}); continuing without.')
             COOKIES = False
             return list_tab(url)
         raise
@@ -113,6 +115,7 @@ def writer(name):
     return f, w
 
 def main():
+    print('Using cookies.txt login' if COOKIES else 'No cookies.txt: running logged out')
     pick = sys.argv[1:] or list(CREATORS)
     queue = []
     for name in pick:
