@@ -18,7 +18,7 @@ characters:
       - {job: Lab, sections: [], skill: Laboratory, basis: class, note: "18/18 nodes on; 5/24 jewels missing (new); weekly character chips"}
       - {job: Summoning, sections: [Summoning], skill: Summoning, basis: class}
       - {job: Tesseract, sections: [The Tesseract], basis: class}
-      - {job: Killroy, sections: [Killroy], basis: griffy}
+      - {job: "Kilroy (weekly, mage line)", sections: [Killroy], basis: zack, weekly: killroy}
   Autisticles:    # Siege Breaker
     jobs:
       - {job: Sailing, sections: [Sailing, Islands], skill: Sailing, basis: class}
@@ -30,6 +30,7 @@ characters:
       - {job: Gaming, sections: [Gaming], skill: Gaming, basis: class}
       - {job: "Royal Guardian #1 (unlock ASAP: 250 orb at Bored Beans)", sections: [Royal Armory], basis: griffy}
       - {job: Godshard set, sections: [Armor Sets], basis: zack}
+      - {job: "Kilroy (weekly, warrior line)", sections: [Killroy], basis: zack, weekly: killroy}
   Autistabish:    # Elemental Sorcerer
     jobs:
       - {job: "Worship: souls + prayers (W3 town)", sections: [Prayers], skill: Worship, basis: zack}
@@ -43,6 +44,7 @@ characters:
       - {job: "Trapping (collect + set)", sections: [Trapping], skill: Trapping, basis: zack}
       - {job: Compass, sections: [Compass], basis: class}
       - {job: Tower Defense fighting, sections: [], basis: griffy}
+      - {job: "Kilroy (weekly, archer line)", sections: [Killroy], basis: zack, weekly: killroy}
   Autistotle:     # Voidwalker
     jobs:
       - {job: "Maestro: #1 in every skill", sections: [], rule: maestro, basis: zack}
@@ -68,6 +70,7 @@ characters:
       - {job: "2nd AFK farm: his own Super CHOWs (100M)", sections: [Death Note], basis: griffy}
       - {job: "Account shops: Stamps, Upgrade Vault, Equinox, Salt Lick, Library", sections: [Stamps, Upgrade Vault, Equinox, Salt Lick, Library], basis: light}
       - {job: Achievements, sections: [Achievements], basis: light}
+      - {job: "World bosses (daily keys, when up)", sections: [], basis: light, timer: boss}
   Autistachio:    # Beginner, held until the next master class (Griffy)
     jobs:
       - {job: Divinity to 40, sections: [Divinity], basis: autoreview}

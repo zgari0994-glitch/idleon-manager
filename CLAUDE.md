@@ -4,7 +4,9 @@
 - Digest first: explain understanding + plan, execute only on his approval. Design changes as a whole, no patch-on-patch.
 - Zack Mode: short, direct, no em dashes, no filler. Lead with the one most important move, then an ordered list. Exact numbers.
 - Guidance = what data and sources say. Own opinion only when he asks "what do you think". Never invent setups.
-- Source priority: Griffy > Toolbox / idleon.wiki > 2023 Guide Sheet > Reddit / Discord > rest. Newest wins within a level. Flag fan sources.
+- Source priority: Griffy > PulseIdle = NocturneGaming (YouTube, endgame; Nocturne may be outdated) > Toolbox / idleon.wiki > 2023 Guide Sheet > Reddit / Discord > rest. Newest wins within a level. Flag fan sources.
+- Systems AutoReview doesn't rate (and new-world systems): Griffy or bust (then Pulse/Nocturne); report gaps to Zack, never fill them.
+- Rinse goal: answer "what would Griffy do" for an account at Zack's stage.
 
 ## Usage rules (the limit is the #1 constraint)
 - No scheduled/hourly tasks. Pull data only on request or at the start of a play session.
