@@ -58,15 +58,6 @@
        "goal": "54",
        "optional": false,
        "score": 133
-      },
-      {
-       "section": "Farming",
-       "group": "Continue Farming",
-       "label": "Stacks for Evolution Gmo (200 crops)",
-       "cur": "0",
-       "goal": "116",
-       "optional": false,
-       "score": 133
       }
      ]
     },
@@ -92,15 +83,6 @@
        "label": "Level up the remaining 74 meals to 1504,687 remaining levels = 1,566 NMLB triggers. No Meal Left Behind helps you up to level 150",
        "cur": "0",
        "goal": "74",
-       "optional": false,
-       "score": 133
-      },
-      {
-       "section": "Cooking",
-       "group": "Progress Cooking",
-       "label": "Unlock max level 180 plates",
-       "cur": "90",
-       "goal": "180",
        "optional": false,
        "score": 133
       }
@@ -130,15 +112,6 @@
        "goal": "5",
        "optional": false,
        "score": 125
-      },
-      {
-       "section": "The Grimoire",
-       "group": "Level up the following account-wide Grimoire Upgrades",
-       "label": "Sacrifice of Harvest",
-       "cur": "10",
-       "goal": "20",
-       "optional": false,
-       "score": 125
       }
      ]
     },
@@ -166,15 +139,6 @@
        "goal": "400",
        "optional": false,
        "score": 129
-      },
-      {
-       "section": "Post Office",
-       "group": "Progression Tiers",
-       "label": "Autiszemo: Potion Package",
-       "cur": "100",
-       "goal": "400",
-       "optional": false,
-       "score": 129
       }
      ]
     },
@@ -199,15 +163,6 @@
        "group": "Complete a minimum of Eclipse Skull (1B) in W4",
        "label": "Purp Mushroom in Spaceway Raceway (43M remaining)",
        "cur": "96%",
-       "goal": "100%",
-       "optional": false,
-       "score": 127
-      },
-      {
-       "section": "Death Note",
-       "group": "Complete a minimum of Eclipse Skull (1B) in W4",
-       "label": "Choccie in Cocoa Tunnel (62M remaining)",
-       "cur": "94%",
        "goal": "100%",
        "optional": false,
        "score": 127
@@ -248,15 +203,6 @@
        "label": "Stronk Tools (Printing!)",
        "cur": "176",
        "goal": "280",
-       "optional": false,
-       "score": 138
-      },
-      {
-       "section": "Bubbles",
-       "group": "Level Orange sample-boosting bubbles",
-       "label": "Multorange",
-       "cur": "91",
-       "goal": "120",
        "optional": false,
        "score": 138
       }
@@ -301,28 +247,25 @@
        "goal": "10",
        "optional": false,
        "score": 125
-      },
-      {
-       "section": "The Tesseract",
-       "group": "Level up the following account-wide Tesseract Upgrades",
-       "label": "Ethereal Opals",
-       "cur": "0",
-       "goal": "10",
-       "optional": false,
-       "score": 125
       }
      ]
     },
     {
-     "job": "Killroy",
-     "basis": "griffy",
+     "job": "Kilroy (weekly, mage line)",
+     "basis": "zack",
      "tiers": {
       "Killroy": "untiered"
      },
-     "next": []
+     "next": [],
+     "weekly": {
+      "week_start": "2026-11-15",
+      "done": false
+     }
     }
    ],
-   "flags": []
+   "flags": [
+    "Weekly killroy: not confirmed for week of 2026-11-15"
+   ]
   },
   {
    "slot": 3,
@@ -356,15 +299,6 @@
        "goal": "4",
        "optional": false,
        "score": 129
-      },
-      {
-       "section": "Sailing",
-       "group": "Amass booty! Collect all artifacts",
-       "label": "Chilled Yarn",
-       "cur": "3",
-       "goal": "4",
-       "optional": false,
-       "score": 129
       }
      ]
     },
@@ -392,15 +326,6 @@
        "goal": "10.0M",
        "optional": false,
        "score": 132
-      },
-      {
-       "section": "Sampling",
-       "group": "Improve material samples",
-       "label": "Oak Logs",
-       "cur": "4.42B",
-       "goal": "10.0B",
-       "optional": false,
-       "score": 132
       }
      ]
     },
@@ -425,15 +350,6 @@
        "group": "Beef up those statues",
        "label": "Level up Seesaw Statue: Candy or Active ES at Cryosnakes",
        "cur": "25",
-       "goal": "40",
-       "optional": false,
-       "score": 131
-      },
-      {
-       "section": "Statues",
-       "group": "Beef up those statues",
-       "label": "Level up Essence Statue: Crystals with DK at Minichiefs",
-       "cur": "2",
        "goal": "40",
        "optional": false,
        "score": 131
@@ -547,15 +463,6 @@
        "goal": "50",
        "optional": false,
        "score": 126
-      },
-      {
-       "section": "Atom Collider",
-       "group": "Level Priority Atoms",
-       "label": "Neon - Damage N' Cheapener",
-       "cur": "30",
-       "goal": "50",
-       "optional": false,
-       "score": 126
       }
      ]
     },
@@ -599,20 +506,25 @@
        "goal": "1",
        "optional": false,
        "score": 126
-      },
-      {
-       "section": "Armor Sets",
-       "group": "Progression Tiers",
-       "label": "Complete the Prehistoric Set: 1.00x EXP Gain in all World 7 Skills",
-       "cur": "0",
-       "goal": "1",
-       "optional": false,
-       "score": 126
       }
      ]
+    },
+    {
+     "job": "Kilroy (weekly, warrior line)",
+     "basis": "zack",
+     "tiers": {
+      "Killroy": "untiered"
+     },
+     "next": [],
+     "weekly": {
+      "week_start": "2026-11-15",
+      "done": false
+     }
     }
    ],
-   "flags": []
+   "flags": [
+    "Weekly killroy: not confirmed for week of 2026-11-15"
+   ]
   },
   {
    "slot": 5,
@@ -643,15 +555,6 @@
        "label": "Zerg Rushogen",
        "cur": "0",
        "goal": "20",
-       "optional": false,
-       "score": 129
-      },
-      {
-       "section": "Prayers",
-       "group": "Recommended Prayers",
-       "label": "Jawbreaker",
-       "cur": "0",
-       "goal": "50",
        "optional": false,
        "score": 129
       }
@@ -726,15 +629,6 @@
        "goal": "13",
        "optional": false,
        "score": 133
-      },
-      {
-       "section": "Breeding",
-       "group": "Level Shinies",
-       "label": "Base Efficiency for All Skills: Mashed Potato56.13 base days to level",
-       "cur": "5",
-       "goal": "12",
-       "optional": false,
-       "score": 133
       }
      ]
     },
@@ -770,15 +664,6 @@
        "goal": "22",
        "optional": false,
        "score": 125
-      },
-      {
-       "section": "Compass",
-       "group": "Level up the following Compass Upgrades",
-       "label": "Survival-0: Survival Path",
-       "cur": "14",
-       "goal": "18",
-       "optional": false,
-       "score": 125
       }
      ]
     },
@@ -787,9 +672,23 @@
      "basis": "griffy",
      "tiers": {},
      "next": []
+    },
+    {
+     "job": "Kilroy (weekly, archer line)",
+     "basis": "zack",
+     "tiers": {
+      "Killroy": "untiered"
+     },
+     "next": [],
+     "weekly": {
+      "week_start": "2026-11-15",
+      "done": false
+     }
     }
    ],
-   "flags": []
+   "flags": [
+    "Weekly killroy: not confirmed for week of 2026-11-15"
+   ]
   },
   {
    "slot": 7,
@@ -854,15 +753,6 @@
        "goal": "1",
        "optional": false,
        "score": 129
-      },
-      {
-       "section": "Greenstacks",
-       "group": "Collect Greenstacks to complete Equinox Dreams",
-       "label": "Collect 250 Greenstacks",
-       "cur": "165",
-       "goal": "250",
-       "optional": false,
-       "score": 129
       }
      ]
     },
@@ -921,15 +811,6 @@
        "goal": "10.0M",
        "optional": false,
        "score": 132
-      },
-      {
-       "section": "Sampling",
-       "group": "Improve material samples",
-       "label": "Oak Logs",
-       "cur": "4.42B",
-       "goal": "10.0B",
-       "optional": false,
-       "score": 132
       }
      ]
     },
@@ -954,15 +835,6 @@
        "group": "Beef up those statues",
        "label": "Level up Seesaw Statue: Candy or Active ES at Cryosnakes",
        "cur": "25",
-       "goal": "40",
-       "optional": false,
-       "score": 131
-      },
-      {
-       "section": "Statues",
-       "group": "Beef up those statues",
-       "label": "Level up Essence Statue: Crystals with DK at Minichiefs",
-       "cur": "2",
        "goal": "40",
        "optional": false,
        "score": 131
@@ -1025,15 +897,6 @@
        "goal": "10.0M",
        "optional": false,
        "score": 132
-      },
-      {
-       "section": "Sampling",
-       "group": "Improve material samples",
-       "label": "Oak Logs",
-       "cur": "4.42B",
-       "goal": "10.0B",
-       "optional": false,
-       "score": 132
       }
      ]
     },
@@ -1087,15 +950,6 @@
        "goal": "100%",
        "optional": false,
        "score": 127
-      },
-      {
-       "section": "Death Note",
-       "group": "Complete a minimum of Eclipse Skull (1B) in W4",
-       "label": "Choccie in Cocoa Tunnel (62M remaining)",
-       "cur": "94%",
-       "goal": "100%",
-       "optional": false,
-       "score": 127
       }
      ]
     },
@@ -1127,15 +981,6 @@
        "goal": "85",
        "optional": false,
        "score": 132
-      },
-      {
-       "section": "Stamps",
-       "group": "Improve high-priority Stamps",
-       "label": "Skill: Ladle Stamp",
-       "cur": "80",
-       "goal": "100",
-       "optional": false,
-       "score": 132
       }
      ]
     },
@@ -1163,17 +1008,14 @@
        "goal": "2",
        "optional": false,
        "score": 129
-      },
-      {
-       "section": "Achievements",
-       "group": "Complete achievements for Monster Respawn",
-       "label": "W2 Two Desserts!: 5% Mob Respawn in W2",
-       "cur": "1",
-       "goal": "2",
-       "optional": false,
-       "score": 129
       }
      ]
+    },
+    {
+     "job": "World bosses (daily keys, when up)",
+     "basis": "light",
+     "tiers": {},
+     "next": []
     }
    ],
    "flags": []

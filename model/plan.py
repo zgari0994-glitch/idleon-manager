@@ -2,7 +2,7 @@
 For each job: its AutoReview tier + the next open targets (AutoReview order for now; Griffy-weighted rinse
 replaces the ordering later). Writes plans/<save>.md and plans/latest.json (dashboard feed).
 Usage: python model/plan.py [N targets per job, default 3]"""
-import json, gzip, os, sys, yaml
+import json, gzip, os, sys, yaml, re
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 stamp = open(os.path.join(R, 'snapshots', 'LATEST')).read().strip()
 snap = os.path.join(R, 'snapshots', stamp)
@@ -62,6 +62,16 @@ def tier(n):
     t = s['tier'] or '-'
     return 'untiered' if t == '0/0' else t
 
+# weekly jobs: show from weekly reset until confirmed in state/confirmed.json
+import datetime as _dt
+tp = os.path.join(snap, 'timers.json')
+week_start = None
+if os.path.exists(tp):
+    T = json.load(open(tp)); w = T['resets'].get('Weekly', '')
+    m = re.findall(r'(\d+)([dhm])', w); wsecs = sum(int(n) * {'d': 86400, 'h': 3600, 'm': 60}[u] for n, u in m)
+    cap = _dt.datetime.fromisoformat(T['captured_utc'].replace('Z', '+00:00'))
+    week_start = (cap + _dt.timedelta(seconds=wsecs) - _dt.timedelta(days=7)).strftime('%Y-%m-%d')
+CONF = json.load(open(os.path.join(R, 'state', 'confirmed.json')))
 cards = []
 for name, cfg in Y['characters'].items():
     c = by_name[name]
@@ -79,6 +89,11 @@ for name, cfg in Y['characters'].items():
             card['flags'].append(f"Maestro: behind in {len(behind)}/{len(SK)} skills")
         if j.get('note'):
             jd['note'] = j['note']
+        if j.get('weekly'):
+            done = name in CONF.get(week_start or '', {}).get(j['weekly'], [])
+            jd['weekly'] = {'week_start': week_start, 'done': done}
+            if not done:
+                card['flags'].append(f"Weekly {j['weekly']}: not confirmed for week of {week_start or '?'}")
         card['jobs'].append(jd)
     for s in (Y.get('extra_light') or {}).get(name, []):
         card['jobs'].append({'job': s, 'basis': 'light', 'tiers': {s: tier(s)}, 'next': targets(s, name)[:1]})
