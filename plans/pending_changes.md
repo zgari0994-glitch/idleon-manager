@@ -33,3 +33,20 @@ Build all of these as one design change, not as patches. Each line was approved 
 
 ## Correction
 - "Nitrogen - Construction Trimmer 20 -> 40/50" is an Atom Collider upgrade (Autistastic's job), not an alchemy liquid.
+
+## Daily game loop (Zack, 2026-11-16) - cards and dashboard follow this
+1. Morning quick run, around 7am M-F, PC + Steam: refresh first, then a short checklist of things that are full/maxed or on timers (e.g. sailing chests full) plus dailies that must be done then.
+2. Workday: game stays open on the PC doing the active task(s). The card names the active task and its attached notes (e.g. Cranium Cooking on Wurms).
+3. After 3pm: Zack cloud saves from Steam, switches to the tablet. Refresh again, then the daily lists per character one at a time, ending on active play.
+- Refresh twice a day max: start of the morning run and after the 3pm cloud save. Always show save age.
+- Dashboard checkboxes are per device (localStorage), so the PC and tablet won't share ticks. Decide later if that matters.
+
+## Autisticles
+- Sampling tier 8 goal: Oak Logs 4.42B -> 10B (Autistronaut's log prints). Fly 131.29M -> 454M is the bug-print fallback.
+- Active-time option: "print burst" session that swaps prints to push weak samples. Check sample mechanics before carding it (gap).
+- Sailing: Winz Lantern 3 -> 4 (tier 17), then 11 artifacts 3 -> 4 (tier 18). Artifact 3 -> 4 method = gap.
+- Sailing speed levers cross-routed: Sailboat Stamp 94 -> 160 (Autistopher), Popped Corn 90 -> 180 (Autiszemo cooking cap), Kattlekruk card 4 -> 7 and Crawler card 5 -> 7 (Autistronaut).
+- Islands: Fractal Island 0 -> 1 (unlock path = gap).
+- Statues tier 6: Box 25 -> 40, Seesaw 25 -> 40, Essence 2 -> 40; tier 11 Dragon 4 -> 150. Statue Exp bubble 171 -> 240 goes on Autistocat.
+- Royal Sampler prayer not needed on any character (AutoReview); route to Autistabish's prayer check.
+- W7 minis all need goals from sources/Toolbox map: Clam Work, Jelly Operator, The Button, Advice Fish, Sushi Station, Zenith Market at 0; Legend Talents 44 pts; Menagerie rank 3 (Endless Summoning 88/100 -> Autistocat). Zenith Market currency unknown.
