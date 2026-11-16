@@ -1,0 +1,93 @@
+"""Build the dashboard page from the latest plan + mechanics -> dashboard/index.html (self-contained).
+Publish/republish with the artifacts publish_files tool (slug in dashboard/ARTIFACT)."""
+import json, gzip, os, html
+R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+stamp = open(os.path.join(R, 'snapshots', 'LATEST')).read().strip()
+plan = json.load(open(os.path.join(R, 'plans', 'latest.json')))
+mech = json.load(open(os.path.join(R, 'model', 'mechanics.json')))
+review = json.load(gzip.open(os.path.join(R, 'snapshots', stamp, 'review.json.gz')))
+secs = {s['name']: s['tier'] for w in review['worlds'] for s in w['sections']}
+
+side = {
+    'stage': {'high': secs.get('Pinchy high'), 'low': secs.get('Pinchy low')},
+    'watch': [
+        'Royal Guardian x2: unlock ASAP (250 orb at Bored Beans), don\'t push early (Griffy)',
+        'Elite Class Swap Token: watch gem shop -> Autistronaut to Arcane Cultist',
+        'Idle Skilling (Steam): slow roll for the Idle Skiller trophy; first character name = Autiszemo',
+        'Griffy rinse formula: tabled (6 reviews picked)',
+    ],
+    'trophies_missing': mech['gallery_missing'].get('trophy', []),
+    'capes_missing': mech['capes_missing'],
+    'ach': {'done': mech['achievements_done'], 'open': len(mech['achievements_open'])},
+    'companions': len(mech['companions']),
+    'packs': len(mech['packs_owned']),
+    'doot': next((c['effect'] for c in mech['companions'] if c['name'] == 'King Doot'), ''),
+}
+data = {'meta': plan['meta'], 'cards': sorted(plan['cards'], key=lambda c: c['slot']), 'side': side, 'stamp': stamp}
+
+PAGE = """<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IdleOn Manager</title>
+<style>
+:root{--bg:#1c1220;--panel:#271a2d;--line:#3d2b45;--ink:#efe6f2;--mute:#a993b3;--gold:#e2b857;--em:#3fbf8f;--warn:#e07a5f}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:13px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}
+header{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline;padding:12px 16px;border-bottom:1px solid var(--line)}
+h1{font-size:16px;margin:0;color:var(--gold);letter-spacing:.3px}.pill{color:var(--mute)}.pill b{color:var(--ink);font-weight:600}
+.age.old b{color:var(--warn)}
+main{display:grid;grid-template-columns:55fr 45fr;gap:14px;padding:14px 16px}
+@media(max-width:860px){main{grid-template-columns:1fr}}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px;align-content:start}
+.card,.box{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 11px}
+.card h2{font-size:13px;margin:0 0 2px;display:flex;justify-content:space-between;gap:6px}.card h2 span{color:var(--gold)}
+.sub{color:var(--mute);font-size:12px;margin-bottom:6px}.flag{color:var(--warn);font-size:12px;margin:2px 0}
+.job{margin-top:6px}.job>.t{font-weight:600}.job .tier{color:var(--mute);font-weight:400;font-size:12px}
+.job ul{list-style:none;margin:3px 0 0;padding:0}.job li{display:flex;gap:6px;align-items:flex-start;font-size:12px;color:#d9cde0;padding:1px 0}
+.job li input{accent-color:var(--em);margin-top:2px}.job li.done span{text-decoration:line-through;color:var(--mute)}
+.job li.done span::before{content:"✓ ";color:var(--em)}
+.arrow{color:var(--em)}
+.box{margin-bottom:10px}.box h3{margin:0 0 6px;font-size:12px;text-transform:uppercase;letter-spacing:.6px;color:var(--gold)}
+.box ul{margin:0;padding-left:16px}.box li{margin:2px 0}.tags{display:flex;flex-wrap:wrap;gap:4px}
+.tag{border:1px solid var(--line);border-radius:10px;padding:1px 7px;font-size:11.5px;color:#d9cde0}
+.muted{color:var(--mute)}
+</style></head><body>
+<header><h1>IdleOn Manager · Autiszemo</h1>
+<span class="pill age" id="age"></span><span class="pill" id="stage"></span><span class="pill muted">Ordering: AutoReview (Griffy rinse pending)</span></header>
+<main><section class="cards" id="cards"></section><aside id="side"></aside></main>
+<script>
+const D = __DATA__;
+const el=(t,c,txt)=>{const e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e};
+const store={get(k){try{return JSON.parse(localStorage.getItem(k)||'{}')}catch(e){return{}}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const KEY='idleon-done-'+D.stamp; let done=store.get(KEY);
+const save=new Date(D.meta.game_save_utc), hrs=(Date.now()-save)/36e5;
+const age=document.getElementById('age');
+age.innerHTML='';age.append('Game save ',Object.assign(el('b'),{textContent:D.meta.game_save_et}),' · ',Object.assign(el('b'),{textContent:(hrs<48?hrs.toFixed(1)+' h':(hrs/24).toFixed(1)+' days')+' old'}));
+if(hrs>12)age.classList.add('old');
+document.getElementById('stage').textContent='Stage: strongest '+(D.side.stage.high||'?')+' · weakest '+(D.side.stage.low||'?');
+const C=document.getElementById('cards');
+D.cards.forEach(cd=>{const c=el('div','card');c.id='slot-'+cd.slot;
+ const h=el('h2');h.append(el('span',null,cd.slot+'. '+cd.name),el('small','muted',cd.level));c.append(h);
+ c.append(el('div','sub',cd.class+' · AFK '+cd.afk));
+ cd.flags.forEach(f=>c.append(el('div','flag','⚑ '+f)));
+ cd.jobs.forEach((j,ji)=>{const b=el('div','job');const t=el('div','t',j.job);
+  const tiers=Object.entries(j.tiers||{}).map(([k,v])=>k+' '+v).join(', ');if(tiers)t.append(' ',el('span','tier','('+tiers+')'));b.append(t);
+  if(j.note)b.append(el('div','sub',j.note));
+  if(j.next&&j.next.length){const ul=el('ul');j.next.forEach((x,xi)=>{const id=cd.slot+'-'+ji+'-'+xi;const li=el('li',done[id]?'done':'');
+   const cb=el('input');cb.type='checkbox';cb.checked=!!done[id];cb.onchange=()=>{done[id]=cb.checked;li.classList.toggle('done',cb.checked);store.set(KEY,done)};
+   const s=el('span');s.append(x.label+': '+(x.cur||'?')+' ',el('span','arrow','→'),' '+(x.goal||'?'));li.append(cb,s);ul.append(li)});b.append(ul)}
+  c.append(b)});
+ C.append(c)});
+const S=document.getElementById('side'),sd=D.side;
+const box=(title,node)=>{const b=el('div','box');b.append(el('h3',null,title),node);S.append(b)};
+const list=a=>{const u=el('ul');a.forEach(x=>u.append(el('li',null,x)));return u};
+const tags=a=>{const d=el('div','tags');a.forEach(x=>d.append(el('span','tag',x)));if(!a.length)d.append(el('span','muted','none'));return d};
+box('Watch list',list(sd.watch));
+box('Rule-changers owned',list(['King Doot: '+sd.doot,sd.companions+' companions · '+sd.packs+' packs (details in repo model/mechanics.md)']));
+box('Achievements',list([sd.ach.done+' done · '+sd.ach.open+' open','Completable-now list: coming with the wiki source pass']));
+box('Trophies missing ('+sd.trophies_missing.length+')',tags(sd.trophies_missing));
+box('Capes missing ('+sd.capes_missing.length+')',tags(sd.capes_missing));
+box('Timers & resets',el('div','muted','Not wired yet: needs verified timer sources (random events, Owl, Poppy, Bubba, resets).'));
+</script></body></html>"""
+os.makedirs(os.path.join(R, 'dashboard'), exist_ok=True)
+out = PAGE.replace('__DATA__', json.dumps(data).replace('</', '<\\/'))
+open(os.path.join(R, 'dashboard', 'index.html'), 'w').write(out)
+print('dashboard', len(out), 'bytes')
