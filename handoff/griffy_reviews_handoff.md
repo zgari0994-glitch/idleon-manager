@@ -1,5 +1,7 @@
 # Handoff for ChatGPT: pull raw IdleOn creator transcripts into the repo
 
+**UPDATE:** Zack runs `get_transcripts.py` on his PC and gives you `idleon_transcripts.zip`. It already holds the raw transcripts and `index.csv` per creator in the exact layout below (with extra columns `coverage` and `max_gap_s`). So skip Steps 1-2: unzip, commit `sources/creators/` as-is, then do Step 4 (verdict files) for every `type=review` video and any guide where they rank systems. Videos with status `failed` or `partial`: list them in your report.
+
 You have access to the private GitHub repo `zgari0994-glitch/idleon-manager`. Your job is to fill `sources/creators/` with **raw, full transcripts** (YouTube captions, word for word, NOT summaries) plus a structured verdict file per review video. Another assistant reads these files with code, so exact formats matter more than prose.
 
 ## Hard rules
