@@ -1,60 +1,81 @@
-# Layer 2: who owns what. Curated once, edited only on Zack's approval.
-# Goal metric = the AutoReview section tier (sourced, measurable, recomputed every snapshot).
-# `skill`: account-best rule for that skill. `needs`: a decision/source still missing (never invented).
-# Sources: Class-Jobs-Map.md (2026-11-14) + Zack's later roster changes. Griffy weighting comes later (rinse).
+# Layer 2: who owns what. Locked 2026-11-16 with Zack. Change only on his approval.
+# Goal metric = AutoReview section tier (sourced, recomputed every snapshot).
+# Rules (Zack): class whose skills buff the activity always wins; same class -> better one keeps class jobs,
+# the other takes account jobs; no class owner -> lightest load (basis: light). Never guess.
+# basis: griffy | zack | autoreview | class | light
 
 characters:
-  Autiszemo:      # Death Bringer
+  Autiszemo:      # Death Bringer #1
     jobs:
-      - {job: Farming,    sections: [Farming, Beanstalk], skill: Farming}
-      - {job: Cooking,    sections: [Cooking], skill: Cooking}
-      - {job: Grimoire,   sections: [The Grimoire]}
-      - {job: Post Office, sections: [Post Office]}
+      - {job: Farming, sections: [Farming, Beanstalk], skill: Farming, basis: class}
+      - {job: Cooking, sections: [Cooking], skill: Cooking, basis: class}
+      - {job: Grimoire, sections: [The Grimoire], basis: class}
+      - {job: Post Office, sections: [Post Office], basis: zack}
+      - {job: "ZOWs + CHOWs W1-W6 (100K / 1M kills)", sections: [Death Note], basis: zack}
   Autistocat:     # Arcane Cultist
     jobs:
-      - {job: Alchemy,    sections: [Bubbles, Vials, Sigils], skill: Alchemy}
-      - {job: Lab,        sections: [], skill: Laboratory, needs: "no AutoReview section; goal source TBD"}
-      - {job: Summoning,  sections: [Summoning], skill: Summoning}
-      - {job: Tesseract,  sections: [The Tesseract]}
-      - {job: Killroy,    sections: [Killroy]}
+      - {job: Alchemy, sections: [Bubbles, Vials, Sigils], skill: Alchemy, basis: class}
+      - {job: Lab, sections: [], skill: Laboratory, basis: class, note: "18/18 nodes on; 5/24 jewels missing (new); weekly character chips"}
+      - {job: Summoning, sections: [Summoning], skill: Summoning, basis: class}
+      - {job: Tesseract, sections: [The Tesseract], basis: class}
+      - {job: Killroy, sections: [Killroy], basis: griffy}
   Autisticles:    # Siege Breaker
     jobs:
-      - {job: Sailing,    sections: [Sailing, Islands], skill: Sailing}
-      - {job: Bug prints, sections: [Sampling], skill: Catching}
-  Autistastic:    # Divine Knight
+      - {job: Sailing, sections: [Sailing, Islands], skill: Sailing, basis: class}
+      - {job: Bug prints, sections: [Sampling], skill: Catching, basis: griffy}
+      - {job: "Statue turn-ins (farmed by Autistomatic)", sections: [Statues], basis: zack}
+  Autistastic:    # Divine Knight #1
     jobs:
-      - {job: Construction, sections: [Buildings, Atom Collider], skill: Construction}
-      - {job: Gaming,     sections: [Gaming], skill: Gaming}
-      - {job: Royal Guardian, sections: [Royal Armory], needs: "which DK becomes RG"}
-      - {job: Godshard set, sections: [Armor Sets]}
+      - {job: Construction, sections: [Buildings, Atom Collider], skill: Construction, basis: class}
+      - {job: Gaming, sections: [Gaming], skill: Gaming, basis: class}
+      - {job: "Royal Guardian #1 (unlock ASAP: 250 orb at Bored Beans)", sections: [Royal Armory], basis: griffy}
+      - {job: Godshard set, sections: [Armor Sets], basis: zack}
   Autistabish:    # Elemental Sorcerer
     jobs:
-      - {job: Worship / TD, sections: [Prayers], skill: Worship}
-      - {job: Divinity,   sections: [Divinity], skill: Divinity}
+      - {job: "Worship: souls + prayers (W3 town)", sections: [Prayers], skill: Worship, basis: zack}
+      - {job: Divinity, sections: [Divinity], skill: Divinity, basis: class}
+      - {job: Caverns, sections: [Villagers, Shallow Caverns, Glowshroom Tunnels, Underground Overgrowth], basis: light}
+      - {job: Slab, sections: [Slab], basis: light}
   Autistacular:   # Wind Walker
     jobs:
-      - {job: Sneaking,   sections: [Sneaking], skill: Sneaking}
-      - {job: Breeding / shiny fence, sections: [Breeding], skill: Breeding}
-      - {job: Trapping,   sections: [Trapping], skill: Trapping}
-      - {job: Compass,    sections: [Compass]}
+      - {job: Sneaking, sections: [Sneaking], skill: Sneaking, basis: class}
+      - {job: Breeding / shiny fence, sections: [Breeding], skill: Breeding, basis: class}
+      - {job: "Trapping (collect + set)", sections: [Trapping], skill: Trapping, basis: zack}
+      - {job: Compass, sections: [Compass], basis: class}
+      - {job: Tower Defense fighting, sections: [], basis: griffy}
   Autistotle:     # Voidwalker
     jobs:
-      - {job: "Maestro: #1 in every skill", sections: [], rule: maestro}
-      - {job: Statues,    sections: [Statues]}
-  Autistomatic:   # Divine Knight
+      - {job: "Maestro: #1 in every skill", sections: [], rule: maestro, basis: zack}
+      - {job: Research, sections: [Research], skill: Research, basis: zack}
+      - {job: Greenstacks, sections: [Greenstacks, Endangered Greenstacks], basis: light}
+      - {job: "Gem / Event shops + votes", sections: [Gem Shop, Event Shop, Bonus Ballot, Meritocracy], basis: light}
+  Autistomatic:   # Divine Knight #2
     jobs:
-      - {job: "Construction #2", sections: [Buildings], skill: Construction}
-      - {job: Ore prints, sections: [Sampling], skill: Mining}
-  Autistronaut:   # Elemental Sorcerer (planned swap to Arcane Cultist)
+      - {job: "Construction #2", sections: [Buildings], skill: Construction, basis: class}
+      - {job: Ore prints, sections: [Sampling], skill: Mining, basis: griffy}
+      - {job: Statue farming, sections: [Statues], basis: griffy}
+      - {job: Money / Green Mushroom kills, sections: [], basis: griffy}
+      - {job: "Royal Guardian #2 (unlock ASAP)", sections: [Royal Armory], basis: griffy}
+  Autistronaut:   # Elemental Sorcerer
     jobs:
-      - {job: Cards / materials, sections: [Cards]}
-      - {job: Log prints, sections: [Sampling], skill: Chopping}
-      - {job: "Lab #2",     sections: [], skill: Laboratory}
-    needs: "jobs change after the Elite Class Swap to AC"
-  Autistopher:    # Death Bringer (rebuilt 2026-11-14)
+      - {job: Cards / materials, sections: [Cards], basis: griffy}
+      - {job: Log prints, sections: [Sampling], skill: Chopping, basis: class}
+      - {job: "Lab #2", sections: [], skill: Laboratory, basis: class}
+      - {job: "Spelunking (until an RG takes it)", sections: [Spelunking], skill: Spelunking, basis: zack}
+    plan: "Elite Class Swap Token (not in shop 2026-11-15) -> Bubonic Conjuror -> Arcane Cultist"
+  Autistopher:    # Death Bringer #2
     jobs:
-      - {job: 2nd AFK farm, sections: [Death Note], needs: "old SB plunder-kill job no longer applies; confirm DB #2 jobs"}
-  Autistachio:    # Beginner, held until next master class
+      - {job: "2nd AFK farm: his own Super CHOWs (100M)", sections: [Death Note], basis: griffy}
+      - {job: "Account shops: Stamps, Upgrade Vault, Equinox, Salt Lick, Library", sections: [Stamps, Upgrade Vault, Equinox, Salt Lick, Library], basis: light}
+      - {job: Achievements, sections: [Achievements], basis: light}
+  Autistachio:    # Beginner, held until the next master class (Griffy)
     jobs:
-      - {job: Divinity to 40, sections: [Divinity]}
-      - {job: Traps,      sections: [Trapping]}
+      - {job: Divinity to 40, sections: [Divinity], basis: autoreview}
+      - {job: Traps, sections: [Trapping], basis: autoreview}
+      - {job: "Gallery: trophies, hats, capes", sections: [Gallery, Cape Vine], basis: light}
+      - {job: "W7 reef: Coral Reef, Dancing Coral, Coral Kid", sections: [Coral Reef, Dancing Coral, Coral Kid], basis: light}
+      - {job: Emperor, sections: [Emperor], basis: light}
+
+# W7 minis with no class source, parked on the lightest loads (move on Zack's call)
+extra_light:
+  Autisticles: [Clam Work, Jelly Operator, The Button, Advice Fish, Sushi Station, Zenith Market, Luminous Menagerie, Arcade, Legend Talents]

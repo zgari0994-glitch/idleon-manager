@@ -1,0 +1,993 @@
+{
+ "meta": {
+  "game_save_utc": "2026-11-16T02:40:13.958660+00:00",
+  "game_save_et": "2026-11-15 09:40 PM ET",
+  "review_run_et": "2026-11-16 12:26 PM ET",
+  "autoreview_last_update": "Nov 16, 2026, 2:40:13 AM UTC",
+  "switches": {
+   "autoloot": "on",
+   "doot": "on",
+   "riftslug": "on",
+   "sheepie": "on",
+   "tabbed_advice_groups": "on"
+  },
+  "chars": [
+   "Autiszemo",
+   "Autistocat",
+   "Autisticles",
+   "Autistastic",
+   "Autistabish",
+   "Autistacular",
+   "Autistotle",
+   "Autistomatic",
+   "Autistronaut",
+   "Autistopher",
+   "Autistachio"
+  ]
+ },
+ "cards": [
+  {
+   "slot": 1,
+   "name": "Autiszemo",
+   "class": "Death Bringer",
+   "level": 832,
+   "afk": "W7 map 301",
+   "jobs": [
+    {
+     "job": "Farming",
+     "basis": "class",
+     "tiers": {
+      "Farming": "2/9",
+      "Beanstalk": "0/4"
+     },
+     "next": [
+      {
+       "section": "Farming",
+       "group": "Continue Farming",
+       "label": "Stronger Vines:+78/112% chance for +1 crop when fully grown",
+       "cur": "39",
+       "goal": "56",
+       "optional": false
+      },
+      {
+       "section": "Farming",
+       "group": "Continue Farming",
+       "label": "Nutritious Soil:+35/54% growth speed for all land",
+       "cur": "35",
+       "goal": "54",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Cooking",
+     "basis": "class",
+     "tiers": {
+      "Cooking": "10/13"
+     },
+     "next": [
+      {
+       "section": "Cooking",
+       "group": "Progress Cooking",
+       "label": "Unlock max level 150 plates",
+       "cur": "90",
+       "goal": "150",
+       "optional": false
+      },
+      {
+       "section": "Cooking",
+       "group": "Progress Cooking",
+       "label": "Level up the remaining 74 meals to 1504,687 remaining levels = 1,566 NMLB triggers. No Meal Left Behind helps you up to ",
+       "cur": "0",
+       "goal": "74",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Grimoire",
+     "basis": "class",
+     "tiers": {
+      "The Grimoire": "1/10"
+     },
+     "next": [
+      {
+       "section": "The Grimoire",
+       "group": "Purchase more Total Grimoire Upgrades",
+       "label": "Total Grimoire Upgrades",
+       "cur": "549",
+       "goal": "900",
+       "optional": false
+      },
+      {
+       "section": "The Grimoire",
+       "group": "Purchase more Total Grimoire Upgrades",
+       "label": "Total Grimoire Upgrades",
+       "cur": "549",
+       "goal": "1900",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Post Office",
+     "basis": "zack",
+     "tiers": {
+      "Post Office": "0/2"
+     },
+     "next": [
+      {
+       "section": "Post Office",
+       "group": "Progression Tiers",
+       "label": "Autistocat: Box of Gosh",
+       "cur": "0",
+       "goal": "800",
+       "optional": false
+      },
+      {
+       "section": "Post Office",
+       "group": "Progression Tiers",
+       "label": "Autisticles: Blacksmith Box",
+       "cur": "0",
+       "goal": "400",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "ZOWs + CHOWs W1-W6 (100K / 1M kills)",
+     "basis": "zack",
+     "tiers": {
+      "Death Note": "15/23"
+     },
+     "next": [
+      {
+       "section": "Death Note",
+       "group": "Complete a minimum of Eclipse Skull (1B) in W3",
+       "label": "Bloodbone in Hell Hath Frozen Over (611M remaining)",
+       "cur": "39%",
+       "goal": "100%",
+       "optional": false
+      },
+      {
+       "section": "Death Note",
+       "group": "Complete a minimum of Eclipse Skull (1B) in W4",
+       "label": "Purp Mushroom in Spaceway Raceway (43M remaining)",
+       "cur": "96%",
+       "goal": "100%",
+       "optional": false
+      }
+     ]
+    }
+   ],
+   "flags": []
+  },
+  {
+   "slot": 2,
+   "name": "Autistocat",
+   "class": "Arcane Cultist",
+   "level": 822,
+   "afk": "W5 map 213",
+   "jobs": [
+    {
+     "job": "Alchemy",
+     "basis": "class",
+     "tiers": {
+      "Bubbles": "5/12",
+      "Vials": "22/28",
+      "Sigils": "1/8"
+     },
+     "next": [
+      {
+       "section": "Bubbles",
+       "group": "Level Orange sample-boosting bubbles",
+       "label": "Dream Of Ironfish",
+       "cur": "68",
+       "goal": "70",
+       "optional": false
+      },
+      {
+       "section": "Bubbles",
+       "group": "Level Orange sample-boosting bubbles",
+       "label": "Stronk Tools (Printing!)",
+       "cur": "176",
+       "goal": "280",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Lab",
+     "basis": "class",
+     "tiers": {},
+     "next": [],
+     "note": "18/18 nodes on; 5/24 jewels missing (new); weekly character chips"
+    },
+    {
+     "job": "Summoning",
+     "basis": "class",
+     "tiers": {
+      "Summoning": "untiered"
+     },
+     "next": []
+    },
+    {
+     "job": "Tesseract",
+     "basis": "class",
+     "tiers": {
+      "The Tesseract": "1/10"
+     },
+     "next": [
+      {
+       "section": "The Tesseract",
+       "group": "Purchase more Total Tesseract Upgrades",
+       "label": "Total Tesseract Upgrades",
+       "cur": "543",
+       "goal": "1250",
+       "optional": false
+      },
+      {
+       "section": "The Tesseract",
+       "group": "Purchase more Total Tesseract Upgrades",
+       "label": "Total Tesseract Upgrades",
+       "cur": "543",
+       "goal": "1650",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Killroy",
+     "basis": "griffy",
+     "tiers": {
+      "Killroy": "untiered"
+     },
+     "next": []
+    }
+   ],
+   "flags": []
+  },
+  {
+   "slot": 3,
+   "name": "Autisticles",
+   "class": "Siege Breaker",
+   "level": 831,
+   "afk": "W7 map 311",
+   "jobs": [
+    {
+     "job": "Sailing",
+     "basis": "class",
+     "tiers": {
+      "Sailing": "16/22",
+      "Islands": "3/4"
+     },
+     "next": [
+      {
+       "section": "Sailing",
+       "group": "Amass booty! Collect all artifacts",
+       "label": "The Winz Lantern",
+       "cur": "3",
+       "goal": "4",
+       "optional": false
+      },
+      {
+       "section": "Sailing",
+       "group": "Amass booty! Collect all artifacts",
+       "label": "Fun Hippoete",
+       "cur": "3",
+       "goal": "4",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Bug prints",
+     "basis": "griffy",
+     "tiers": {
+      "Sampling": "7/10"
+     },
+     "next": [
+      {
+       "section": "Sampling",
+       "group": "Improve material samples",
+       "label": "Goldfish",
+       "cur": "111.85M",
+       "goal": "150.0M",
+       "optional": false
+      },
+      {
+       "section": "Sampling",
+       "group": "Improve material samples",
+       "label": "Spore Cap",
+       "cur": "1.44M",
+       "goal": "10.0M",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Statue turn-ins (farmed by Autistomatic)",
+     "basis": "zack",
+     "tiers": {
+      "Statues": "5/11"
+     },
+     "next": [
+      {
+       "section": "Statues",
+       "group": "Beef up those statues",
+       "label": "Level up Box Statue: Candy or Active ES at Penguins",
+       "cur": "25",
+       "goal": "40",
+       "optional": false
+      },
+      {
+       "section": "Statues",
+       "group": "Beef up those statues",
+       "label": "Level up Seesaw Statue: Candy or Active ES at Cryosnakes",
+       "cur": "25",
+       "goal": "40",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Clam Work",
+     "basis": "light",
+     "tiers": {
+      "Clam Work": "-"
+     },
+     "next": []
+    },
+    {
+     "job": "Jelly Operator",
+     "basis": "light",
+     "tiers": {
+      "Jelly Operator": "-"
+     },
+     "next": []
+    },
+    {
+     "job": "The Button",
+     "basis": "light",
+     "tiers": {
+      "The Button": "-"
+     },
+     "next": []
+    },
+    {
+     "job": "Advice Fish",
+     "basis": "light",
+     "tiers": {
+      "Advice Fish": "-"
+     },
+     "next": []
+    },
+    {
+     "job": "Sushi Station",
+     "basis": "light",
+     "tiers": {
+      "Sushi Station": "-"
+     },
+     "next": []
+    },
+    {
+     "job": "Zenith Market",
+     "basis": "light",
+     "tiers": {
+      "Zenith Market": "-"
+     },
+     "next": []
+    },
+    {
+     "job": "Luminous Menagerie",
+     "basis": "light",
+     "tiers": {
+      "Luminous Menagerie": "-"
+     },
+     "next": []
+    },
+    {
+     "job": "Arcade",
+     "basis": "light",
+     "tiers": {
+      "Arcade": "untiered"
+     },
+     "next": []
+    },
+    {
+     "job": "Legend Talents",
+     "basis": "light",
+     "tiers": {
+      "Legend Talents": "-"
+     },
+     "next": []
+    }
+   ],
+   "flags": []
+  },
+  {
+   "slot": 4,
+   "name": "Autistastic",
+   "class": "Divine Knight",
+   "level": 835,
+   "afk": "W5 map 216",
+   "jobs": [
+    {
+     "job": "Construction",
+     "basis": "class",
+     "tiers": {
+      "Buildings": "untiered",
+      "Atom Collider": "11/13"
+     },
+     "next": [
+      {
+       "section": "Atom Collider",
+       "group": "Level Priority Atoms",
+       "label": "Helium - Talent Power Stacker",
+       "cur": "8",
+       "goal": "9",
+       "optional": false
+      },
+      {
+       "section": "Atom Collider",
+       "group": "Level Priority Atoms",
+       "label": "Aluminium - Stamp Supercharger",
+       "cur": "0",
+       "goal": "50",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Gaming",
+     "basis": "class",
+     "tiers": {
+      "Gaming": "untiered"
+     },
+     "next": []
+    },
+    {
+     "job": "Royal Guardian #1 (unlock ASAP: 250 orb at Bored Beans)",
+     "basis": "griffy",
+     "tiers": {
+      "Royal Armory": "Not Yet Evaluated"
+     },
+     "next": []
+    },
+    {
+     "job": "Godshard set",
+     "basis": "zack",
+     "tiers": {
+      "Armor Sets": "4/6"
+     },
+     "next": [
+      {
+       "section": "Armor Sets",
+       "group": "Progression Tiers",
+       "label": "Complete the Godshard Set: 1.00x Higher Winners Bonuses from Summoning",
+       "cur": "0",
+       "goal": "1",
+       "optional": false
+      },
+      {
+       "section": "Armor Sets",
+       "group": "Progression Tiers",
+       "label": "Complete the Emperor Set: Ribbons and Exalted Stamps give 1.00x more multi",
+       "cur": "0",
+       "goal": "1",
+       "optional": false
+      }
+     ]
+    }
+   ],
+   "flags": []
+  },
+  {
+   "slot": 5,
+   "name": "Autistabish",
+   "class": "Elemental Sorcerer",
+   "level": 835,
+   "afk": "W7 map 311",
+   "jobs": [
+    {
+     "job": "Worship: souls + prayers (W3 town)",
+     "basis": "zack",
+     "tiers": {
+      "Prayers": "5/7"
+     },
+     "next": [
+      {
+       "section": "Prayers",
+       "group": "Recommended Prayers",
+       "label": "Midas Minded",
+       "cur": "35",
+       "goal": "50",
+       "optional": false
+      },
+      {
+       "section": "Prayers",
+       "group": "Recommended Prayers",
+       "label": "Zerg Rushogen",
+       "cur": "0",
+       "goal": "20",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Divinity",
+     "basis": "class",
+     "tiers": {
+      "Divinity": "11/12"
+     },
+     "next": []
+    },
+    {
+     "job": "Caverns",
+     "basis": "light",
+     "tiers": {
+      "Villagers": "untiered",
+      "Shallow Caverns": "untiered",
+      "Glowshroom Tunnels": "untiered",
+      "Underground Overgrowth": "untiered"
+     },
+     "next": []
+    },
+    {
+     "job": "Slab",
+     "basis": "light",
+     "tiers": {
+      "Slab": "untiered"
+     },
+     "next": []
+    }
+   ],
+   "flags": []
+  },
+  {
+   "slot": 6,
+   "name": "Autistacular",
+   "class": "Wind Walker",
+   "level": 848,
+   "afk": "W2 map 65",
+   "jobs": [
+    {
+     "job": "Sneaking",
+     "basis": "class",
+     "tiers": {
+      "Sneaking": "untiered"
+     },
+     "next": []
+    },
+    {
+     "job": "Breeding / shiny fence",
+     "basis": "class",
+     "tiers": {
+      "Breeding": "8/11"
+     },
+     "next": [
+      {
+       "section": "Breeding",
+       "group": "Level Shinies",
+       "label": "Bonuses from All Meals: Sheepie88.77 base days to level",
+       "cur": "5",
+       "goal": "13",
+       "optional": false
+      },
+      {
+       "section": "Breeding",
+       "group": "Level Shinies",
+       "label": "Bonuses from All Meals: Red Mushroom89.02 base days to level",
+       "cur": "5",
+       "goal": "13",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Trapping (collect + set)",
+     "basis": "zack",
+     "tiers": {
+      "Trapping": "done"
+     },
+     "next": []
+    },
+    {
+     "job": "Compass",
+     "basis": "class",
+     "tiers": {
+      "Compass": "3/10"
+     },
+     "next": [
+      {
+       "section": "Compass",
+       "group": "Level up the following Compass Upgrades",
+       "label": "Elemental-0: Elemental Path",
+       "cur": "12",
+       "goal": "15",
+       "optional": false
+      },
+      {
+       "section": "Compass",
+       "group": "Level up the following Compass Upgrades",
+       "label": "Elemental-0: Elemental Path",
+       "cur": "12",
+       "goal": "20",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Tower Defense fighting",
+     "basis": "griffy",
+     "tiers": {},
+     "next": []
+    }
+   ],
+   "flags": []
+  },
+  {
+   "slot": 7,
+   "name": "Autistotle",
+   "class": "Voidwalker",
+   "level": 781,
+   "afk": "W7 map 305",
+   "jobs": [
+    {
+     "job": "Maestro: #1 in every skill",
+     "basis": "zack",
+     "tiers": {},
+     "next": [],
+     "maestro_behind": [
+      "Mining 135/137 (Autistomatic)",
+      "Smithing 98/114 (Autistastic)",
+      "Chopping 101/124 (Autistronaut)",
+      "Alchemy 110/126 (Autistocat)",
+      "Catching 100/136 (Autisticles)",
+      "Trapping 69/70 (Autistastic)",
+      "Construction 430/985 (Autistastic)",
+      "Worship 94/101 (Autistastic)",
+      "Cooking 17/62 (Autiszemo)",
+      "Laboratory 76/252 (Autistocat)",
+      "Sailing 138/142 (Autisticles)",
+      "Divinity 193/196 (Autistocat)",
+      "Sneaking 283/285 (Autistocat)",
+      "Spelunking 17/30 (Autistronaut)",
+      "Research 8/10 (Autistacular)"
+     ]
+    },
+    {
+     "job": "Research",
+     "basis": "zack",
+     "tiers": {
+      "Research": "-"
+     },
+     "next": []
+    },
+    {
+     "job": "Greenstacks",
+     "basis": "light",
+     "tiers": {
+      "Greenstacks": "165 out of max (realistic) 452",
+      "Endangered Greenstacks": "0/1"
+     },
+     "next": [
+      {
+       "section": "Greenstacks",
+       "group": "Collect Greenstacks to complete Equinox Dreams",
+       "label": "Collect 200 Greenstacks",
+       "cur": "165",
+       "goal": "200",
+       "optional": false
+      },
+      {
+       "section": "Greenstacks",
+       "group": "Collect Greenstacks to complete Equinox Dreams",
+       "label": "Turn in Equinox Dream 29",
+       "cur": "0",
+       "goal": "1",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Gem / Event shops + votes",
+     "basis": "light",
+     "tiers": {
+      "Gem Shop": "269/406",
+      "Event Shop": "untiered",
+      "Bonus Ballot": "untiered",
+      "Meritocracy": "-"
+     },
+     "next": []
+    }
+   ],
+   "flags": [
+    "Maestro: behind in 15/20 skills"
+   ]
+  },
+  {
+   "slot": 8,
+   "name": "Autistomatic",
+   "class": "Divine Knight",
+   "level": 823,
+   "afk": "W1 map 1",
+   "jobs": [
+    {
+     "job": "Construction #2",
+     "basis": "class",
+     "tiers": {
+      "Buildings": "untiered"
+     },
+     "next": []
+    },
+    {
+     "job": "Ore prints",
+     "basis": "griffy",
+     "tiers": {
+      "Sampling": "7/10"
+     },
+     "next": [
+      {
+       "section": "Sampling",
+       "group": "Improve material samples",
+       "label": "Goldfish",
+       "cur": "111.85M",
+       "goal": "150.0M",
+       "optional": false
+      },
+      {
+       "section": "Sampling",
+       "group": "Improve material samples",
+       "label": "Spore Cap",
+       "cur": "1.44M",
+       "goal": "10.0M",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Statue farming",
+     "basis": "griffy",
+     "tiers": {
+      "Statues": "5/11"
+     },
+     "next": [
+      {
+       "section": "Statues",
+       "group": "Beef up those statues",
+       "label": "Level up Box Statue: Candy or Active ES at Penguins",
+       "cur": "25",
+       "goal": "40",
+       "optional": false
+      },
+      {
+       "section": "Statues",
+       "group": "Beef up those statues",
+       "label": "Level up Seesaw Statue: Candy or Active ES at Cryosnakes",
+       "cur": "25",
+       "goal": "40",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Money / Green Mushroom kills",
+     "basis": "griffy",
+     "tiers": {},
+     "next": []
+    },
+    {
+     "job": "Royal Guardian #2 (unlock ASAP)",
+     "basis": "griffy",
+     "tiers": {
+      "Royal Armory": "Not Yet Evaluated"
+     },
+     "next": []
+    }
+   ],
+   "flags": []
+  },
+  {
+   "slot": 9,
+   "name": "Autistronaut",
+   "class": "Elemental Sorcerer",
+   "level": 827,
+   "afk": "W7 map 311",
+   "jobs": [
+    {
+     "job": "Cards / materials",
+     "basis": "griffy",
+     "tiers": {
+      "Cards": "47/78"
+     },
+     "next": []
+    },
+    {
+     "job": "Log prints",
+     "basis": "class",
+     "tiers": {
+      "Sampling": "7/10"
+     },
+     "next": [
+      {
+       "section": "Sampling",
+       "group": "Improve material samples",
+       "label": "Goldfish",
+       "cur": "111.85M",
+       "goal": "150.0M",
+       "optional": false
+      },
+      {
+       "section": "Sampling",
+       "group": "Improve material samples",
+       "label": "Spore Cap",
+       "cur": "1.44M",
+       "goal": "10.0M",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Lab #2",
+     "basis": "class",
+     "tiers": {},
+     "next": []
+    },
+    {
+     "job": "Spelunking (until an RG takes it)",
+     "basis": "zack",
+     "tiers": {
+      "Spelunking": "untiered"
+     },
+     "next": []
+    }
+   ],
+   "flags": [
+    "PLAN: Elite Class Swap Token (not in shop 2026-11-15) -> Bubonic Conjuror -> Arcane Cultist"
+   ]
+  },
+  {
+   "slot": 10,
+   "name": "Autistopher",
+   "class": "Death Bringer",
+   "level": 777,
+   "afk": "W7 map 311",
+   "jobs": [
+    {
+     "job": "2nd AFK farm: his own Super CHOWs (100M)",
+     "basis": "griffy",
+     "tiers": {
+      "Death Note": "15/23"
+     },
+     "next": [
+      {
+       "section": "Death Note",
+       "group": "Complete a minimum of Eclipse Skull (1B) in W3",
+       "label": "Bloodbone in Hell Hath Frozen Over (611M remaining)",
+       "cur": "39%",
+       "goal": "100%",
+       "optional": false
+      },
+      {
+       "section": "Death Note",
+       "group": "Complete a minimum of Eclipse Skull (1B) in W4",
+       "label": "Purp Mushroom in Spaceway Raceway (43M remaining)",
+       "cur": "96%",
+       "goal": "100%",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Account shops: Stamps, Upgrade Vault, Equinox, Salt Lick, Library",
+     "basis": "light",
+     "tiers": {
+      "Stamps": "13/20",
+      "Upgrade Vault": "0/7",
+      "Equinox": "5/12",
+      "Salt Lick": "7/10",
+      "Library": "0/8"
+     },
+     "next": [
+      {
+       "section": "Stamps",
+       "group": "Improve your total stamp levels",
+       "label": "Total Stamp Levels",
+       "cur": "9222",
+       "goal": "11000",
+       "optional": false
+      },
+      {
+       "section": "Stamps",
+       "group": "Improve your total stamp levels",
+       "label": "Total Stamp Levels",
+       "cur": "9222",
+       "goal": "13000",
+       "optional": false
+      }
+     ]
+    },
+    {
+     "job": "Achievements",
+     "basis": "light",
+     "tiers": {
+      "Achievements": "1/4"
+     },
+     "next": [
+      {
+       "section": "Achievements",
+       "group": "Complete achievements for EZ Access",
+       "label": "W6 Doctor Repellant: W6 Shop",
+       "cur": "0",
+       "goal": "10000",
+       "optional": false
+      },
+      {
+       "section": "Achievements",
+       "group": "Complete achievements for Monster Respawn",
+       "label": "W1 Two-Time Savior: 5% Mob Respawn in W1",
+       "cur": "1",
+       "goal": "2",
+       "optional": false
+      }
+     ]
+    }
+   ],
+   "flags": []
+  },
+  {
+   "slot": 11,
+   "name": "Autistachio",
+   "class": "Beginner",
+   "level": 712,
+   "afk": "W7 map 304",
+   "jobs": [
+    {
+     "job": "Divinity to 40",
+     "basis": "autoreview",
+     "tiers": {
+      "Divinity": "11/12"
+     },
+     "next": []
+    },
+    {
+     "job": "Traps",
+     "basis": "autoreview",
+     "tiers": {
+      "Trapping": "done"
+     },
+     "next": []
+    },
+    {
+     "job": "Gallery: trophies, hats, capes",
+     "basis": "light",
+     "tiers": {
+      "Gallery": "-",
+      "Cape Vine": "-"
+     },
+     "next": []
+    },
+    {
+     "job": "W7 reef: Coral Reef, Dancing Coral, Coral Kid",
+     "basis": "light",
+     "tiers": {
+      "Coral Reef": "-",
+      "Dancing Coral": "-",
+      "Coral Kid": "-"
+     },
+     "next": []
+    },
+    {
+     "job": "Emperor",
+     "basis": "light",
+     "tiers": {
+      "Emperor": "untiered"
+     },
+     "next": []
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

@@ -4,7 +4,7 @@ R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 snap = os.path.join(R, 'snapshots', open(os.path.join(R, 'snapshots', 'LATEST')).read().strip())
 review = json.load(gzip.open(os.path.join(snap, 'review.json.gz')))
 chars = json.load(open(os.path.join(snap, 'chars.json')))['characters']
-jobs = yaml.safe_load(open(os.path.join(R, 'model', 'jobs.yaml')))['characters']
+yaml_all = yaml.safe_load(open(os.path.join(R, 'model', 'jobs.yaml'))); jobs = yaml_all['characters']
 
 tiers = {s['name']: s for w in review['worlds'] for s in w['sections']}
 owned = set()
@@ -42,11 +42,19 @@ for name, cfg in jobs.items():
             tied = [s for s in SKILLS if best[s]['skills'][s] == vw['skills'][s] and best[s]['character_name'] != vw['character_name']]
             bits.append(f"behind in {len(behind)}/{len(SKILLS)}: " + ', '.join(behind) if behind else 'top in all skills')
             if tied: bits.append('tied (not ahead) in: ' + ', '.join(tied))
+        if j.get('note'):
+            bits.append(j['note'])
         if j.get('needs'):
             bits.append(f"NEEDS: {j['needs']}")
         out.append(f"- **{j['job']}**: " + ' · '.join(bits))
     if cfg.get('needs'):
         out.append(f"- NEEDS: {cfg['needs']}")
+    if cfg.get('plan'):
+        out.append(f"- PLAN: {cfg['plan']}")
+    extra = (yaml_all.get('extra_light') or {}).get(name)
+    if extra:
+        for sec in extra: owned.add(sec)
+        out.append('- **W7 minis (light)**: ' + ', '.join(f"{x} {tier(x)}" for x in extra))
     out.append('')
 skip = {'Pinchy high', 'Pinchy low', 'Pinchy all'}
 unowned = [f"{n} {tier(n)}" for n in tiers if n not in owned and n not in skip and tier(n) not in ('done',)]
