@@ -1,0 +1,60 @@
+# Layer 2: who owns what. Curated once, edited only on Zack's approval.
+# Goal metric = the AutoReview section tier (sourced, measurable, recomputed every snapshot).
+# `skill`: account-best rule for that skill. `needs`: a decision/source still missing (never invented).
+# Sources: Class-Jobs-Map.md (2026-11-14) + Zack's later roster changes. Griffy weighting comes later (rinse).
+
+characters:
+  Autiszemo:      # Death Bringer
+    jobs:
+      - {job: Farming,    sections: [Farming, Beanstalk], skill: Farming}
+      - {job: Cooking,    sections: [Cooking], skill: Cooking}
+      - {job: Grimoire,   sections: [The Grimoire]}
+      - {job: Post Office, sections: [Post Office]}
+  Autistocat:     # Arcane Cultist
+    jobs:
+      - {job: Alchemy,    sections: [Bubbles, Vials, Sigils], skill: Alchemy}
+      - {job: Lab,        sections: [], skill: Laboratory, needs: "no AutoReview section; goal source TBD"}
+      - {job: Summoning,  sections: [Summoning], skill: Summoning}
+      - {job: Tesseract,  sections: [The Tesseract]}
+      - {job: Killroy,    sections: [Killroy]}
+  Autisticles:    # Siege Breaker
+    jobs:
+      - {job: Sailing,    sections: [Sailing, Islands], skill: Sailing}
+      - {job: Bug prints, sections: [Sampling], skill: Catching}
+  Autistastic:    # Divine Knight
+    jobs:
+      - {job: Construction, sections: [Buildings, Atom Collider], skill: Construction}
+      - {job: Gaming,     sections: [Gaming], skill: Gaming}
+      - {job: Royal Guardian, sections: [Royal Armory], needs: "which DK becomes RG"}
+      - {job: Godshard set, sections: [Armor Sets]}
+  Autistabish:    # Elemental Sorcerer
+    jobs:
+      - {job: Worship / TD, sections: [Prayers], skill: Worship}
+      - {job: Divinity,   sections: [Divinity], skill: Divinity}
+  Autistacular:   # Wind Walker
+    jobs:
+      - {job: Sneaking,   sections: [Sneaking], skill: Sneaking}
+      - {job: Breeding / shiny fence, sections: [Breeding], skill: Breeding}
+      - {job: Trapping,   sections: [Trapping], skill: Trapping}
+      - {job: Compass,    sections: [Compass]}
+  Autistotle:     # Voidwalker
+    jobs:
+      - {job: "Maestro: #1 in every skill", sections: [], rule: maestro}
+      - {job: Statues,    sections: [Statues]}
+  Autistomatic:   # Divine Knight
+    jobs:
+      - {job: "Construction #2", sections: [Buildings], skill: Construction}
+      - {job: Ore prints, sections: [Sampling], skill: Mining}
+  Autistronaut:   # Elemental Sorcerer (planned swap to Arcane Cultist)
+    jobs:
+      - {job: Cards / materials, sections: [Cards]}
+      - {job: Log prints, sections: [Sampling], skill: Chopping}
+      - {job: "Lab #2",     sections: [], skill: Laboratory}
+    needs: "jobs change after the Elite Class Swap to AC"
+  Autistopher:    # Death Bringer (rebuilt 2026-11-14)
+    jobs:
+      - {job: 2nd AFK farm, sections: [Death Note], needs: "old SB plunder-kill job no longer applies; confirm DB #2 jobs"}
+  Autistachio:    # Beginner, held until next master class
+    jobs:
+      - {job: Divinity to 40, sections: [Divinity]}
+      - {job: Traps,      sections: [Trapping]}

@@ -25,8 +25,9 @@ Game save = `data.TimeAway.GlobalTime` (UTC epoch). Store UTC, show Eastern. Alw
 
 ## Layout
 - `tools/` decode_pull.py, run_ar.py (AutoReview code -> structured JSON), snapshot.sh
-- `snapshots/` one folder per game save: raw.json.gz, review.json.gz, meta.json
-- Planned: `model/` account map (systems -> characters -> jobs -> goals), `rinse/` formula, `plans/` daily per-character plans, dashboard artifact.
+- `snapshots/` one folder per game save: raw.json.gz, review.json.gz, chars.json (per-character facts), systems.json.gz (105 parsed systems), meta.json
+- `model/` jobs.yaml (layer 2, curated), build_map.py -> map.md (layer 1 facts + layer 2 jobs + tiers)
+- Planned: `rinse/` formula, `plans/` daily per-character plans, dashboard artifact.
 
 ## Status (2026-11-16)
-Done: hourly task deleted, refresh route proven, AutoReview code validated (81 sections / 7,086 rows). Next: account map. Griffy transcripts tabled (6 picks: RnnRamcdjQ0, aUdMKlRf_v4, kD7KZ5zX6Ss, d3A2hYegsm4, x4_MMA9sNO4, R3YZ6D-EHHE).
+Done: hourly task deleted, refresh route proven, AutoReview code validated (81 sections / 7,086 rows). Layer 1 facts + layer 2 draft done; layer 2 awaiting Zack decisions (see map.md NEEDS + unowned list). Griffy transcripts tabled (6 picks: RnnRamcdjQ0, aUdMKlRf_v4, kD7KZ5zX6Ss, d3A2hYegsm4, x4_MMA9sNO4, R3YZ6D-EHHE).

@@ -12,7 +12,7 @@ fi
 (cd "$W/ar/mysite" && PYTHONPATH=. python3 "$REPO/tools/run_ar.py" "$W/live.json" "$W/review.json" 2>/dev/null | tail -1)
 STAMP=$(python3 -c "import json;m=json.load(open('$W/review.json'))['meta'];print(m['game_save_utc'][:16].replace(':','').replace('-',''))")
 D="$REPO/snapshots/$STAMP"; mkdir -p "$D"
-gzip -c "$W/live.json" > "$D/raw.json.gz"; gzip -c "$W/review.json" > "$D/review.json.gz"
+gzip -c "$W/live.json" > "$D/raw.json.gz"; gzip -c "$W/review.json" > "$D/review.json.gz"; cp "$W/review_chars.json" "$D/chars.json"; cp "$W/review_systems.json.gz" "$D/systems.json.gz"
 python3 -c "import json;json.dump(json.load(open('$W/review.json'))['meta'],open('$D/meta.json','w'),indent=1)"
 echo "$STAMP" > "$REPO/snapshots/LATEST"
 echo "saved snapshots/$STAMP"

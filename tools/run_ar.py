@@ -13,6 +13,7 @@ _orig = taskSuggester.main
 def _wrap(*a, **k):
     r = _orig(*a, **k)
     captured['r'] = r
+    captured['acc'] = taskSuggester.session_data.account
     return r
 taskSuggester.main = _wrap
 
@@ -82,3 +83,45 @@ meta = {
 }
 json.dump({'meta': meta, 'worlds': worlds}, open(out, 'w'), ensure_ascii=False)
 print(json.dumps(meta), sum(len(w['sections']) for w in worlds), 'sections')
+
+# ---------- Facts export (AutoReview's parsed Account) ----------
+acc = captured['acc']
+def ser(o, depth=0, seen=None):
+    seen = seen or set()
+    if isinstance(o, (str, int, float, bool)) or o is None:
+        return o
+    if depth > 5 or id(o) in seen:
+        return str(o)[:80]
+    seen = seen | {id(o)}
+    if isinstance(o, dict):
+        return {str(k): ser(v, depth + 1, seen) for k, v in list(o.items())[:2000]}
+    if isinstance(o, (list, tuple, set)):
+        return [ser(v, depth + 1, seen) for v in list(o)[:2000]]
+    if hasattr(o, '__dict__'):
+        return {k: ser(v, depth + 1, seen) for k, v in vars(o).items() if not k.startswith('__')}
+    return str(o)[:200]
+
+CH_FIELDS = ['character_index', 'character_name', 'class_name', 'base_class', 'sub_class', 'elite_class',
+             'master_class', 'combat_level', 'current_map_index', 'alchemy_job_string', 'active_talent_preset',
+             'divinity_link', 'equipped_prayers', 'specialized_skills', 'equipped_star_signs', 'skills',
+             'equipped_lab_chips', 'po_boxes_invested']
+chars = []
+for c in acc.characters:
+    d = {k: ser(getattr(c, k, None)) for k in CH_FIELDS}
+    d['world'] = (d['current_map_index'] // 50) + 1 if isinstance(d['current_map_index'], int) else None
+    chars.append(d)
+SKIP = {'raw_data', 'characters', 'all_assets', 'stored_assets', 'worn_assets', 'alerts_Advices'}
+systems = {}
+for k, v in vars(acc).items():
+    if k in SKIP:
+        continue
+    try:
+        systems[k] = ser(v)
+    except Exception as e:
+        systems[k] = f'<unserializable: {e}>'
+import gzip as _gz, os as _os
+base = _os.path.splitext(out)[0]
+json.dump({'meta': meta, 'characters': chars}, open(base + '_chars.json', 'w'), ensure_ascii=False, indent=1)
+with _gz.open(base + '_systems.json.gz', 'wt') as f:
+    json.dump({'meta': meta, 'systems': systems}, f, ensure_ascii=False, default=str)
+print('facts:', len(chars), 'characters,', len(systems), 'systems')
