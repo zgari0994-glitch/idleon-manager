@@ -76,7 +76,7 @@ def fetch(vid):
     """One yt-dlp call: details + captions. Returns (info, lines, caption_kind)."""
     os.makedirs(TMP, exist_ok=True)
     opts = {**base_opts(), 'writesubtitles': True, 'writeautomaticsub': True,
-            'subtitleslangs': ['en', 'en-US', 'en-GB', 'en-orig'], 'subtitlesformat': 'vtt',
+            'subtitleslangs': ['en'], 'subtitlesformat': 'vtt',
             'outtmpl': os.path.join(TMP, '%(id)s')}
     with yt_dlp.YoutubeDL(opts) as y:
         info = y.extract_info(f'https://www.youtube.com/watch?v={vid}', download=True)
