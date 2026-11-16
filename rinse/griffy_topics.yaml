@@ -1,0 +1,70 @@
+# Griffy topic recurrence: how many of the 101 GriffyBit video notes in the knowledge base cover each topic.
+# Source: Project Index.md "KB (N)" counts, built 2026-11-13 from IdleOn-Knowledge-Base.md (Griffy only, no Discord).
+# Used by rinse.py as GriffyFactor = 1 + 0.2 * count / total  (Thigh Gap formula, ChatGPT build v2).
+total: 101
+# AutoReview section name -> KB count (most specific topic that matches)
+sections:
+  Bubbles: 51
+  Vials: 17
+  Sigils: 6
+  Pay2Win: 51
+  Stamps: 28
+  Statues: 24
+  Star Signs: 25
+  Library: 62
+  Post Office: 16
+  Upgrade Vault: 8
+  Owl: 2
+  Bribes: 5
+  Smithing: 16
+  Sampling: 30
+  Trapping: 26
+  Prayers: 16
+  Refinery: 23
+  Salt Lick: 7
+  Buildings: 26
+  Death Note: 9
+  Atom Collider: 6
+  Equinox: 9
+  Armor Sets: 4
+  Breeding: 32
+  Cooking: 33
+  Rift: 9
+  Sailing: 17
+  Islands: 8
+  Divinity: 19
+  Gaming: 7
+  Slab: 4
+  Villagers: 27
+  Shallow Caverns: 27
+  Glowshroom Tunnels: 27
+  Underground Overgrowth: 27
+  Farming: 32
+  Beanstalk: 13
+  Sneaking: 16
+  Summoning: 12
+  Emperor: 2
+  Greenstacks: 17
+  Endangered Greenstacks: 17
+  Cards: 30
+  Gem Shop: 30
+  Arcade: 10
+  Killroy: 6
+  Bonus Ballot: 3
+  Meritocracy: 3
+  Achievements: 18
+  Combat Levels: 79
+  Secret Class Path: 20
+  Regular Candy: 30
+  The Grimoire: 2
+  Compass: 2
+  The Tesseract: 1
+  Royal Armory: 14
+  Research: 4
+  Coral Reef: 4
+  Clam Work: 4
+  Jelly Operator: 4
+  The Button: 4
+  Gallery: 4
+  Legend Talents: 2
+  Drop Rate: 25

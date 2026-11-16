@@ -21,9 +21,10 @@
 - Public fallback (older, only as fresh as last Upload): profiles.idleontoolbox.workers.dev/api/profiles/?profile=Autiszemo (fetch from a Toolbox tab; workspace shell and WebFetch are blocked).
 
 ## Play-session flow (keep it this short)
-1. Refresh (above). 2. `python3 model/plan.py` -> plans/<save>.md + plans/latest.json. 3. `python3 model/mechanics.py`.
-4. `python3 model/dashboard.py` -> republish dashboard/index.html with publish_files (slug + version in dashboard/ARTIFACT; update version after).
-5. Guide Zack one character at a time from that character's card only (finish every job before moving on). Never dump all 11.
+1. Refresh (above). 1b. Timers: `preview_start` https://idleontoolbox.com/dashboard, wait ~6s, javascript_tool: click every "Show N more", then return `'TBDASH|'+new Date().toISOString()+'|'+document.querySelector('main').innerText+'|END|'+'x'.repeat(60000)`; close tab; `python3 tools/timers.py <file> snapshots/<LATEST>/timers.json`.
+2. `python3 model/mechanics.py` 3. `python3 rinse/rinse.py` 4. `python3 model/plan.py` 5. `python3 model/acquire.py` (wiki sources in sources/ are static; re-pull only after a game update)
+6. `python3 model/dashboard.py` -> republish dashboard/index.html with publish_files (slug + version in dashboard/ARTIFACT; update version after).
+7. Guide Zack one character at a time from that character's card only (finish every job before moving on). Never dump all 11.
 
 ## Clocks
 Game save = `data.TimeAway.GlobalTime` (UTC epoch). Store UTC, show Eastern. Always tell Zack the game-save age; data is only as fresh as the game's last cloud save.
@@ -34,7 +35,9 @@ Game save = `data.TimeAway.GlobalTime` (UTC epoch). Store UTC, show Eastern. Alw
 - `model/` jobs.yaml (layer 2, curated), build_map.py -> map.md (layer 1 facts + layer 2 jobs + tiers)
 - `model/` also: mechanics.py -> mechanics.md/json (rule-changers, packs, achievements, trophies/capes), plan.py (daily cards), dashboard.py
 - `plans/` per-save daily plans; `dashboard/` page + ARTIFACT pointer
-- Planned: `rinse/` Griffy-weighted ordering (replaces AutoReview order in plan.py); wiki source pass for achievements + trophy/cape/hat sources; timers.
+- `rinse/` rinse.py = Thigh Gap v2 formula (ChatGPT build) with Griffy recurrence from griffy_topics.yaml; latest.json
+- `model/acquire.py` -> acquire.md/json (missing trophies/capes/nametags/hats + open achievements, wiki sources, in-game vs paid vs event)
+- `tools/timers.py` (Toolbox dashboard timers + AFK spots) · `plans/w7_push.md` (Griffy W7 path + gaps)
 
 ## Status (2026-11-16)
-Done: hourly task deleted, refresh route proven, AutoReview code validated (81 sections / 7,086 rows). Layer 2 locked (jobs.yaml). Mechanics layer, plan generator, dashboard live. Kill split: Autiszemo does ZOWs/CHOWs W1-W6, Autistopher his own Super CHOWs. Statues farmed by Autistomatic, turned in by Autisticles. Griffy transcripts tabled (6 picks: RnnRamcdjQ0, aUdMKlRf_v4, kD7KZ5zX6Ss, d3A2hYegsm4, x4_MMA9sNO4, R3YZ6D-EHHE).
+Done: hourly task deleted, refresh route proven, AutoReview code validated (81 sections / 7,086 rows). Layer 2 locked (jobs.yaml). Mechanics layer, plan generator, dashboard live. Kill split: Autiszemo does ZOWs/CHOWs W1-W6, Autistopher his own Super CHOWs. Statues farmed by Autistomatic, turned in by Autisticles. Rinse live (Thigh Gap v2), acquisition map, Toolbox timers, W7 plan done. Griffy has no dedicated W7 push guide; next W7 source = tabled transcript kD7KZ5zX6Ss. Griffy transcripts tabled (6 picks: RnnRamcdjQ0, aUdMKlRf_v4, kD7KZ5zX6Ss, d3A2hYegsm4, x4_MMA9sNO4, R3YZ6D-EHHE).

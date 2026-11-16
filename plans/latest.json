@@ -47,7 +47,8 @@
        "label": "Stronger Vines:+78/112% chance for +1 crop when fully grown",
        "cur": "39",
        "goal": "56",
-       "optional": false
+       "optional": false,
+       "score": 133
       },
       {
        "section": "Farming",
@@ -55,7 +56,17 @@
        "label": "Nutritious Soil:+35/54% growth speed for all land",
        "cur": "35",
        "goal": "54",
-       "optional": false
+       "optional": false,
+       "score": 133
+      },
+      {
+       "section": "Farming",
+       "group": "Continue Farming",
+       "label": "Stacks for Evolution Gmo (200 crops)",
+       "cur": "0",
+       "goal": "116",
+       "optional": false,
+       "score": 133
       }
      ]
     },
@@ -72,15 +83,26 @@
        "label": "Unlock max level 150 plates",
        "cur": "90",
        "goal": "150",
-       "optional": false
+       "optional": false,
+       "score": 133
       },
       {
        "section": "Cooking",
        "group": "Progress Cooking",
-       "label": "Level up the remaining 74 meals to 1504,687 remaining levels = 1,566 NMLB triggers. No Meal Left Behind helps you up to ",
+       "label": "Level up the remaining 74 meals to 1504,687 remaining levels = 1,566 NMLB triggers. No Meal Left Behind helps you up to level 150",
        "cur": "0",
        "goal": "74",
-       "optional": false
+       "optional": false,
+       "score": 133
+      },
+      {
+       "section": "Cooking",
+       "group": "Progress Cooking",
+       "label": "Unlock max level 180 plates",
+       "cur": "90",
+       "goal": "180",
+       "optional": false,
+       "score": 133
       }
      ]
     },
@@ -97,15 +119,26 @@
        "label": "Total Grimoire Upgrades",
        "cur": "549",
        "goal": "900",
-       "optional": false
+       "optional": false,
+       "score": 125
       },
       {
        "section": "The Grimoire",
-       "group": "Purchase more Total Grimoire Upgrades",
-       "label": "Total Grimoire Upgrades",
-       "cur": "549",
-       "goal": "1900",
-       "optional": false
+       "group": "Level up the following account-wide Grimoire Upgrades",
+       "label": "Pure Opals",
+       "cur": "0",
+       "goal": "5",
+       "optional": false,
+       "score": 125
+      },
+      {
+       "section": "The Grimoire",
+       "group": "Level up the following account-wide Grimoire Upgrades",
+       "label": "Sacrifice of Harvest",
+       "cur": "10",
+       "goal": "20",
+       "optional": false,
+       "score": 125
       }
      ]
     },
@@ -119,18 +152,29 @@
       {
        "section": "Post Office",
        "group": "Progression Tiers",
-       "label": "Autistocat: Box of Gosh",
+       "label": "Autiszemo: Blacksmith Box",
        "cur": "0",
-       "goal": "800",
-       "optional": false
+       "goal": "400",
+       "optional": false,
+       "score": 129
       },
       {
        "section": "Post Office",
        "group": "Progression Tiers",
-       "label": "Autisticles: Blacksmith Box",
+       "label": "Autiszemo: Taped Up Timber",
        "cur": "0",
        "goal": "400",
-       "optional": false
+       "optional": false,
+       "score": 129
+      },
+      {
+       "section": "Post Office",
+       "group": "Progression Tiers",
+       "label": "Autiszemo: Potion Package",
+       "cur": "100",
+       "goal": "400",
+       "optional": false,
+       "score": 129
       }
      ]
     },
@@ -147,7 +191,8 @@
        "label": "Bloodbone in Hell Hath Frozen Over (611M remaining)",
        "cur": "39%",
        "goal": "100%",
-       "optional": false
+       "optional": false,
+       "score": 127
       },
       {
        "section": "Death Note",
@@ -155,7 +200,17 @@
        "label": "Purp Mushroom in Spaceway Raceway (43M remaining)",
        "cur": "96%",
        "goal": "100%",
-       "optional": false
+       "optional": false,
+       "score": 127
+      },
+      {
+       "section": "Death Note",
+       "group": "Complete a minimum of Eclipse Skull (1B) in W4",
+       "label": "Choccie in Cocoa Tunnel (62M remaining)",
+       "cur": "94%",
+       "goal": "100%",
+       "optional": false,
+       "score": 127
       }
      ]
     }
@@ -184,7 +239,8 @@
        "label": "Dream Of Ironfish",
        "cur": "68",
        "goal": "70",
-       "optional": false
+       "optional": false,
+       "score": 138
       },
       {
        "section": "Bubbles",
@@ -192,7 +248,17 @@
        "label": "Stronk Tools (Printing!)",
        "cur": "176",
        "goal": "280",
-       "optional": false
+       "optional": false,
+       "score": 138
+      },
+      {
+       "section": "Bubbles",
+       "group": "Level Orange sample-boosting bubbles",
+       "label": "Multorange",
+       "cur": "91",
+       "goal": "120",
+       "optional": false,
+       "score": 138
       }
      ]
     },
@@ -224,15 +290,26 @@
        "label": "Total Tesseract Upgrades",
        "cur": "543",
        "goal": "1250",
-       "optional": false
+       "optional": false,
+       "score": 125
       },
       {
        "section": "The Tesseract",
-       "group": "Purchase more Total Tesseract Upgrades",
-       "label": "Total Tesseract Upgrades",
-       "cur": "543",
-       "goal": "1650",
-       "optional": false
+       "group": "Level up the following account-wide Tesseract Upgrades",
+       "label": "Parallel Statues",
+       "cur": "0",
+       "goal": "10",
+       "optional": false,
+       "score": 125
+      },
+      {
+       "section": "The Tesseract",
+       "group": "Level up the following account-wide Tesseract Upgrades",
+       "label": "Ethereal Opals",
+       "cur": "0",
+       "goal": "10",
+       "optional": false,
+       "score": 125
       }
      ]
     },
@@ -268,7 +345,8 @@
        "label": "The Winz Lantern",
        "cur": "3",
        "goal": "4",
-       "optional": false
+       "optional": false,
+       "score": 129
       },
       {
        "section": "Sailing",
@@ -276,7 +354,17 @@
        "label": "Fun Hippoete",
        "cur": "3",
        "goal": "4",
-       "optional": false
+       "optional": false,
+       "score": 129
+      },
+      {
+       "section": "Sailing",
+       "group": "Amass booty! Collect all artifacts",
+       "label": "Chilled Yarn",
+       "cur": "3",
+       "goal": "4",
+       "optional": false,
+       "score": 129
       }
      ]
     },
@@ -293,7 +381,8 @@
        "label": "Goldfish",
        "cur": "111.85M",
        "goal": "150.0M",
-       "optional": false
+       "optional": false,
+       "score": 132
       },
       {
        "section": "Sampling",
@@ -301,7 +390,17 @@
        "label": "Spore Cap",
        "cur": "1.44M",
        "goal": "10.0M",
-       "optional": false
+       "optional": false,
+       "score": 132
+      },
+      {
+       "section": "Sampling",
+       "group": "Improve material samples",
+       "label": "Oak Logs",
+       "cur": "4.42B",
+       "goal": "10.0B",
+       "optional": false,
+       "score": 132
       }
      ]
     },
@@ -318,7 +417,8 @@
        "label": "Level up Box Statue: Candy or Active ES at Penguins",
        "cur": "25",
        "goal": "40",
-       "optional": false
+       "optional": false,
+       "score": 131
       },
       {
        "section": "Statues",
@@ -326,7 +426,17 @@
        "label": "Level up Seesaw Statue: Candy or Active ES at Cryosnakes",
        "cur": "25",
        "goal": "40",
-       "optional": false
+       "optional": false,
+       "score": 131
+      },
+      {
+       "section": "Statues",
+       "group": "Beef up those statues",
+       "label": "Level up Essence Statue: Crystals with DK at Minichiefs",
+       "cur": "2",
+       "goal": "40",
+       "optional": false,
+       "score": 131
       }
      ]
     },
@@ -426,7 +536,8 @@
        "label": "Helium - Talent Power Stacker",
        "cur": "8",
        "goal": "9",
-       "optional": false
+       "optional": false,
+       "score": 126
       },
       {
        "section": "Atom Collider",
@@ -434,7 +545,17 @@
        "label": "Aluminium - Stamp Supercharger",
        "cur": "0",
        "goal": "50",
-       "optional": false
+       "optional": false,
+       "score": 126
+      },
+      {
+       "section": "Atom Collider",
+       "group": "Level Priority Atoms",
+       "label": "Neon - Damage N' Cheapener",
+       "cur": "30",
+       "goal": "50",
+       "optional": false,
+       "score": 126
       }
      ]
     },
@@ -467,7 +588,8 @@
        "label": "Complete the Godshard Set: 1.00x Higher Winners Bonuses from Summoning",
        "cur": "0",
        "goal": "1",
-       "optional": false
+       "optional": false,
+       "score": 126
       },
       {
        "section": "Armor Sets",
@@ -475,7 +597,17 @@
        "label": "Complete the Emperor Set: Ribbons and Exalted Stamps give 1.00x more multi",
        "cur": "0",
        "goal": "1",
-       "optional": false
+       "optional": false,
+       "score": 126
+      },
+      {
+       "section": "Armor Sets",
+       "group": "Progression Tiers",
+       "label": "Complete the Prehistoric Set: 1.00x EXP Gain in all World 7 Skills",
+       "cur": "0",
+       "goal": "1",
+       "optional": false,
+       "score": 126
       }
      ]
     }
@@ -502,7 +634,8 @@
        "label": "Midas Minded",
        "cur": "35",
        "goal": "50",
-       "optional": false
+       "optional": false,
+       "score": 129
       },
       {
        "section": "Prayers",
@@ -510,7 +643,17 @@
        "label": "Zerg Rushogen",
        "cur": "0",
        "goal": "20",
-       "optional": false
+       "optional": false,
+       "score": 129
+      },
+      {
+       "section": "Prayers",
+       "group": "Recommended Prayers",
+       "label": "Jawbreaker",
+       "cur": "0",
+       "goal": "50",
+       "optional": false,
+       "score": 129
       }
      ]
     },
@@ -572,7 +715,8 @@
        "label": "Bonuses from All Meals: Sheepie88.77 base days to level",
        "cur": "5",
        "goal": "13",
-       "optional": false
+       "optional": false,
+       "score": 133
       },
       {
        "section": "Breeding",
@@ -580,7 +724,17 @@
        "label": "Bonuses from All Meals: Red Mushroom89.02 base days to level",
        "cur": "5",
        "goal": "13",
-       "optional": false
+       "optional": false,
+       "score": 133
+      },
+      {
+       "section": "Breeding",
+       "group": "Level Shinies",
+       "label": "Base Efficiency for All Skills: Mashed Potato56.13 base days to level",
+       "cur": "5",
+       "goal": "12",
+       "optional": false,
+       "score": 133
       }
      ]
     },
@@ -605,15 +759,26 @@
        "label": "Elemental-0: Elemental Path",
        "cur": "12",
        "goal": "15",
-       "optional": false
+       "optional": false,
+       "score": 125
       },
       {
        "section": "Compass",
        "group": "Level up the following Compass Upgrades",
-       "label": "Elemental-0: Elemental Path",
-       "cur": "12",
-       "goal": "20",
-       "optional": false
+       "label": "Fighter-0: Fighter Path",
+       "cur": "15",
+       "goal": "22",
+       "optional": false,
+       "score": 125
+      },
+      {
+       "section": "Compass",
+       "group": "Level up the following Compass Upgrades",
+       "label": "Survival-0: Survival Path",
+       "cur": "14",
+       "goal": "18",
+       "optional": false,
+       "score": 125
       }
      ]
     },
@@ -678,7 +843,8 @@
        "label": "Collect 200 Greenstacks",
        "cur": "165",
        "goal": "200",
-       "optional": false
+       "optional": false,
+       "score": 129
       },
       {
        "section": "Greenstacks",
@@ -686,7 +852,17 @@
        "label": "Turn in Equinox Dream 29",
        "cur": "0",
        "goal": "1",
-       "optional": false
+       "optional": false,
+       "score": 129
+      },
+      {
+       "section": "Greenstacks",
+       "group": "Collect Greenstacks to complete Equinox Dreams",
+       "label": "Collect 250 Greenstacks",
+       "cur": "165",
+       "goal": "250",
+       "optional": false,
+       "score": 129
       }
      ]
     },
@@ -734,7 +910,8 @@
        "label": "Goldfish",
        "cur": "111.85M",
        "goal": "150.0M",
-       "optional": false
+       "optional": false,
+       "score": 132
       },
       {
        "section": "Sampling",
@@ -742,7 +919,17 @@
        "label": "Spore Cap",
        "cur": "1.44M",
        "goal": "10.0M",
-       "optional": false
+       "optional": false,
+       "score": 132
+      },
+      {
+       "section": "Sampling",
+       "group": "Improve material samples",
+       "label": "Oak Logs",
+       "cur": "4.42B",
+       "goal": "10.0B",
+       "optional": false,
+       "score": 132
       }
      ]
     },
@@ -759,7 +946,8 @@
        "label": "Level up Box Statue: Candy or Active ES at Penguins",
        "cur": "25",
        "goal": "40",
-       "optional": false
+       "optional": false,
+       "score": 131
       },
       {
        "section": "Statues",
@@ -767,7 +955,17 @@
        "label": "Level up Seesaw Statue: Candy or Active ES at Cryosnakes",
        "cur": "25",
        "goal": "40",
-       "optional": false
+       "optional": false,
+       "score": 131
+      },
+      {
+       "section": "Statues",
+       "group": "Beef up those statues",
+       "label": "Level up Essence Statue: Crystals with DK at Minichiefs",
+       "cur": "2",
+       "goal": "40",
+       "optional": false,
+       "score": 131
       }
      ]
     },
@@ -816,7 +1014,8 @@
        "label": "Goldfish",
        "cur": "111.85M",
        "goal": "150.0M",
-       "optional": false
+       "optional": false,
+       "score": 132
       },
       {
        "section": "Sampling",
@@ -824,7 +1023,17 @@
        "label": "Spore Cap",
        "cur": "1.44M",
        "goal": "10.0M",
-       "optional": false
+       "optional": false,
+       "score": 132
+      },
+      {
+       "section": "Sampling",
+       "group": "Improve material samples",
+       "label": "Oak Logs",
+       "cur": "4.42B",
+       "goal": "10.0B",
+       "optional": false,
+       "score": 132
       }
      ]
     },
@@ -867,7 +1076,8 @@
        "label": "Bloodbone in Hell Hath Frozen Over (611M remaining)",
        "cur": "39%",
        "goal": "100%",
-       "optional": false
+       "optional": false,
+       "score": 127
       },
       {
        "section": "Death Note",
@@ -875,7 +1085,17 @@
        "label": "Purp Mushroom in Spaceway Raceway (43M remaining)",
        "cur": "96%",
        "goal": "100%",
-       "optional": false
+       "optional": false,
+       "score": 127
+      },
+      {
+       "section": "Death Note",
+       "group": "Complete a minimum of Eclipse Skull (1B) in W4",
+       "label": "Choccie in Cocoa Tunnel (62M remaining)",
+       "cur": "94%",
+       "goal": "100%",
+       "optional": false,
+       "score": 127
       }
      ]
     },
@@ -896,15 +1116,26 @@
        "label": "Total Stamp Levels",
        "cur": "9222",
        "goal": "11000",
-       "optional": false
+       "optional": false,
+       "score": 132
       },
       {
        "section": "Stamps",
-       "group": "Improve your total stamp levels",
-       "label": "Total Stamp Levels",
-       "cur": "9222",
-       "goal": "13000",
-       "optional": false
+       "group": "Improve high-priority Stamps",
+       "label": "Skill: Drippy Drop Stamp",
+       "cur": "75",
+       "goal": "85",
+       "optional": false,
+       "score": 132
+      },
+      {
+       "section": "Stamps",
+       "group": "Improve high-priority Stamps",
+       "label": "Skill: Ladle Stamp",
+       "cur": "80",
+       "goal": "100",
+       "optional": false,
+       "score": 132
       }
      ]
     },
@@ -921,7 +1152,8 @@
        "label": "W6 Doctor Repellant: W6 Shop",
        "cur": "0",
        "goal": "10000",
-       "optional": false
+       "optional": false,
+       "score": 129
       },
       {
        "section": "Achievements",
@@ -929,7 +1161,17 @@
        "label": "W1 Two-Time Savior: 5% Mob Respawn in W1",
        "cur": "1",
        "goal": "2",
-       "optional": false
+       "optional": false,
+       "score": 129
+      },
+      {
+       "section": "Achievements",
+       "group": "Complete achievements for Monster Respawn",
+       "label": "W2 Two Desserts!: 5% Mob Respawn in W2",
+       "cur": "1",
+       "goal": "2",
+       "optional": false,
+       "score": 129
       }
      ]
     }

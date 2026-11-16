@@ -11,6 +11,8 @@ chars = json.load(open(os.path.join(snap, 'chars.json')))['characters']
 Y = yaml.safe_load(open(os.path.join(R, 'model', 'jobs.yaml')))
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 3
 meta = review['meta']
+RN = json.load(open(os.path.join(R, 'rinse', 'latest.json')))
+SCORE = {(r['section'], r['label']): r['score'] for r in RN['rows']}
 secs = {s['name']: s for w in review['worlds'] for s in w['sections']}
 by_name = {c['character_name']: c for c in chars}
 SK = [k for k in chars[0]['skills'] if k != 'Combat' and 'Lol' not in k]
@@ -42,10 +44,16 @@ def targets(sec_name, who):
             # tabbed (per-character) groups: keep only this character's tab when tabs are names
             if gname in by_name and gname != who:
                 continue
-            out.append({'section': sec_name, 'group': gname[:80], 'label': a['label'][:120],
+            pre = a['label'].split(':', 1)[0].strip()
+            if pre in by_name and pre != who:  # per-character rows (e.g. Post Office boxes) stay on their own card
+                continue
+            out.append({'section': sec_name, 'group': gname[:80], 'label': a['label'][:140],
                         'cur': a['cur'], 'goal': a['goal'], 'optional': bool(a.get('optional') or g.get('optional'))})
-    req = [t for t in out if not t['optional']]
-    return (req or out)
+    seen, ded = set(), []
+    for t in out:  # next step only
+        if t['label'] not in seen:
+            seen.add(t['label']); t['score'] = SCORE.get((sec_name, t['label']), 0); ded.append(t)
+    return sorted(ded, key=lambda t: -t['score'])
 
 def tier(n):
     s = secs.get(n)
@@ -63,7 +71,7 @@ for name, cfg in Y['characters'].items():
         jd = {'job': j['job'], 'basis': j.get('basis'), 'tiers': {s: tier(s) for s in j.get('sections', [])}, 'next': []}
         for s in j.get('sections', []):
             jd['next'] += targets(s, name)[:N]
-        jd['next'] = jd['next'][:N]
+        jd['next'] = sorted(jd['next'], key=lambda t: -t['score'])[:N]
         if j.get('rule') == 'maestro':
             behind = [f"{s} {c['skills'].get(s,0)}/{best[s]['skills'][s]} ({best[s]['character_name']})"
                       for s in SK if best[s]['skills'][s] > c['skills'].get(s, 0)]
@@ -80,7 +88,7 @@ for name, cfg in Y['characters'].items():
 
 os.makedirs(os.path.join(R, 'plans'), exist_ok=True)
 json.dump({'meta': meta, 'cards': cards}, open(os.path.join(R, 'plans', 'latest.json'), 'w'), indent=1)
-L = [f"# Daily plan · game save {meta['game_save_et']} · ordering: AutoReview (Griffy rinse pending)", '']
+L = [f"# Daily plan · game save {meta['game_save_et']} · ordering: Griffy rinse (Thigh Gap v2)", '']
 for cd in sorted(cards, key=lambda x: x['slot']):
     L.append(f"## {cd['slot']}. {cd['name']} · {cd['class']} {cd['level']} · AFK {cd['afk']}")
     for f in cd['flags']:
@@ -89,7 +97,7 @@ for cd in sorted(cards, key=lambda x: x['slot']):
         t = ', '.join(f"{k} {v}" for k, v in j['tiers'].items())
         L.append(f"- **{j['job']}**" + (f" ({t})" if t else '') + (f" · {j['note']}" if j.get('note') else ''))
         for x in j['next']:
-            L.append(f"  - {x['label']}: {x['cur']} → {x['goal']}")
+            L.append(f"  - [{x['score']}] {x['label']}: {x['cur']} → {x['goal']}")
     L.append('')
 open(os.path.join(R, 'plans', f'{stamp}.md'), 'w').write('\n'.join(L))
 print('\n'.join(L)[:6000])

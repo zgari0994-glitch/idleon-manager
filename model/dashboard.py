@@ -7,6 +7,14 @@ plan = json.load(open(os.path.join(R, 'plans', 'latest.json')))
 mech = json.load(open(os.path.join(R, 'model', 'mechanics.json')))
 review = json.load(gzip.open(os.path.join(R, 'snapshots', stamp, 'review.json.gz')))
 secs = {s['name']: s['tier'] for w in review['worlds'] for s in w['sections']}
+rinse = json.load(open(os.path.join(R, 'rinse', 'latest.json')))
+tp = os.path.join(R, 'snapshots', stamp, 'timers.json')
+timers = json.load(open(tp)) if os.path.exists(tp) else None
+acq = json.load(open(os.path.join(R, 'model', 'acquire.json')))
+spots = {c['name']: c for c in (timers or {}).get('characters', [])}
+for c in plan['cards']:
+    sp = spots.get(c['name'])
+    if sp: c['afk'] = f"{sp['spot']} ({sp['afk_for']})"
 
 side = {
     'stage': {'high': secs.get('Pinchy high'), 'low': secs.get('Pinchy low')},
@@ -14,13 +22,16 @@ side = {
         'Royal Guardian x2: unlock ASAP (250 orb at Bored Beans), don\'t push early (Griffy)',
         'Elite Class Swap Token: watch gem shop -> Autistronaut to Arcane Cultist',
         'Idle Skilling (Steam): slow roll for the Idle Skiller trophy; first character name = Autiszemo',
-        'Griffy rinse formula: tabled (6 reviews picked)',
+        
     ],
     'trophies_missing': mech['gallery_missing'].get('trophy', []),
     'capes_missing': mech['capes_missing'],
     'ach': {'done': mech['achievements_done'], 'open': len(mech['achievements_open'])},
     'companions': len(mech['companions']),
     'packs': len(mech['packs_owned']),
+    'gaps': [{'score': r['score'], 'section': r['section'], 'label': r['label'][:90], 'cur': r['cur'], 'goal': r['goal']} for r in rinse['by_section'][:12]],
+    'timers': timers,
+    'ingame': {k: [x['name'] + ' (' + (x.get('bonus') or '') + ')' for x in acq[k] if x['kind'] == 'in-game'] for k in ('trophies', 'nametags', 'hats')},
     'doot': next((c['effect'] for c in mech['companions'] if c['name'] == 'King Doot'), ''),
 }
 data = {'meta': plan['meta'], 'cards': sorted(plan['cards'], key=lambda c: c['slot']), 'side': side, 'stamp': stamp}
@@ -51,7 +62,7 @@ main{display:grid;grid-template-columns:55fr 45fr;gap:14px;padding:14px 16px}
 .muted{color:var(--mute)}
 </style></head><body>
 <header><h1>IdleOn Manager · Autiszemo</h1>
-<span class="pill age" id="age"></span><span class="pill" id="stage"></span><span class="pill muted">Ordering: AutoReview (Griffy rinse pending)</span></header>
+<span class="pill age" id="age"></span><span class="pill" id="stage"></span><span class="pill muted">Ordering: Griffy rinse (Thigh Gap v2)</span></header>
 <main><section class="cards" id="cards"></section><aside id="side"></aside></main>
 <script>
 const D = __DATA__;
@@ -80,12 +91,18 @@ const S=document.getElementById('side'),sd=D.side;
 const box=(title,node)=>{const b=el('div','box');b.append(el('h3',null,title),node);S.append(b)};
 const list=a=>{const u=el('ul');a.forEach(x=>u.append(el('li',null,x)));return u};
 const tags=a=>{const d=el('div','tags');a.forEach(x=>d.append(el('span','tag',x)));if(!a.length)d.append(el('span','muted','none'));return d};
+const gl=el('ul');sd.gaps.forEach(g=>{const li=el('li');li.append(el('b',null,g.score+' '),g.section+': '+g.label+' ',el('span','arrow',(g.cur||'?')+' → '+(g.goal||'?')));gl.append(li)});
+box('Biggest Thigh Gaps (Griffy rinse, one per system)',gl);
+if(sd.timers){const t=sd.timers,d=el('div');const cap=new Date(t.captured_utc);d.append(el('div','muted','Captured '+cap.toLocaleString()+' (countdowns are as of then)'));
+ d.append(el('div',null,'Resets: '+Object.entries(t.resets).map(([k,v])=>k+' '+v).join(' · ')));
+ ['READY NOW','NEXT 24 HOURS','THIS WEEK'].forEach(b=>{if(!(t.timers[b]||[]).length)return;d.append(el('div','sub',b));d.append(tags(t.timers[b].map(x=>x.name+(x.value?': '+x.value:''))))});
+ box('Timers (Toolbox)',d)}
 box('Watch list',list(sd.watch));
 box('Rule-changers owned',list(['King Doot: '+sd.doot,sd.companions+' companions · '+sd.packs+' packs (details in repo model/mechanics.md)']));
 box('Achievements',list([sd.ach.done+' done · '+sd.ach.open+' open','Completable-now list: coming with the wiki source pass']));
 box('Trophies missing ('+sd.trophies_missing.length+')',tags(sd.trophies_missing));
 box('Capes missing ('+sd.capes_missing.length+')',tags(sd.capes_missing));
-box('Timers & resets',el('div','muted','Not wired yet: needs verified timer sources (random events, Owl, Poppy, Bubba, resets).'));
+box('Get by playing (trophies / nametags / hats)',list([].concat(sd.ingame.trophies.map(x=>'Trophy: '+x),sd.ingame.nametags.map(x=>'Nametag: '+x),sd.ingame.hats.slice(0,12).map(x=>'Hat: '+x))));
 </script></body></html>"""
 os.makedirs(os.path.join(R, 'dashboard'), exist_ok=True)
 out = PAGE.replace('__DATA__', json.dumps(data).replace('</', '<\\/'))

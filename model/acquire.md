@@ -1,0 +1,178 @@
+# Acquisition map (wiki sources, captured 2026-11-16)
+
+kind: in-game = obtainable by playing; paid = gem shop/bundle; event = limited-time; trophies/nametags count only in a Gallery showcase slot.
+
+## Trophies missing (11)
+- **Baller** [in-game] 3% All Stats, 3% All AFK Gain · Swishy Hoops minigame (40+ points)
+- **Dice Dynamo** [in-game] 2% LUK, +5 LUK · Special Talents: Roll Da Dice book (W1 monster drop)
+- **Heroic Spirit** [in-game] 10% AFK Gains Multi, 20% Damage Multi · Potti: Spirit of the Hero quest
+- **Idle Skiller** [in-game] 15% Skill Efficiency, +20 all stats · Idle Skilling crossover (Steam)
+- **King of Food** [in-game] 20% Food Effect, +10 all stats · Picnic Stowaway quest line (King of Food)
+- **Luckiest Lad** [in-game] 777% Drop Rate · Rare drop: Crystal Cuttlefish, Equinox Broadbass, Doodlefish, Eamsy Earl, Shellslug, Balloonfish and more
+- **Master of Nothing** [in-game] 10% All AFK Gain, 70% Skill Exp, +26 all stats · Island Expeditions (Fractal Island)
+- **Megalodon** [in-game] 15% Crit Chance, 10% Total Damage · Catch the Megalodon in the Fishing minigame
+- **Nebula Royal** [in-game] 50% Skill Exp, +10 all stats · Royal Worm: Royal Bidding quest
+- **Nine Dart Finish** [in-game] 9% Drop Rate Multi, 9% AFK Gains Multi · Throwy Darts minigame (9 bullseyes in a row)
+- **Ultra Unboxer** [in-game] 3% Drop Rate, +3 all stats · Guild Giftbox
+
+## Capes missing (10)
+- **Angel Wings** [paid] 11% All AFK Gain · Gem Shop random cape, Bundle
+- **Beeg Egg** [paid] 300% Bigger Damage, 10% AFK Gains Multi · Gem Shop
+- **Bladed Rucksack** [paid] 500% Bigger Damage · Gem Shop
+- **Crystal Crescent** [paid] 200% Class Exp Multi · Gem Shop (Armadillius Superius Pack)
+- **Dragonroll Mantlepiece** [paid] 100% More Kills, 100% Bigger Damage · Gem Shop
+- **Easter Egg Backpack** [paid] 10% Total Damage · Bundle
+- **Giant Rose** [paid/event] 7% All AFK Gain · Choco Box, Gem Shop
+- **Giant Starflower** [paid/event] 13% All AFK Gain · Gem Shop, Choco Box
+- **Giant Violet** [paid/event] 10% All Stats · Gem Shop, Choco Box
+- **Lovely Balloon** [paid] 250% Drop Rate · Gem Shop
+
+## Nametags missing (25)
+- **Reliquarium Nametag** [in-game] 20% Drop Rate Multi, 20% AFK Gains Multi · Secrets
+- **Tome Elite Nametag** [in-game] 12% Damage Multi, 12% Multikill per Tier · Tome rank reward (Tome score tiers)
+- **Tome Expert Nametag** [in-game] 10% Total Damage, 10% Mob Respawn · Tome rank reward (Tome score tiers)
+- **Tome Journeyman Nametag** [in-game] 7% Fight AFK, 7% Skill AFK · Tome rank reward (Tome score tiers)
+- **Tome Legend Nametag** [in-game] 20% Drop Rate Multi, 20% AFK Gains Multi · Tome rank reward (Tome score tiers)
+- **Tome Master Nametag** [in-game] 17% Bonus Kills, 17% All Stats · Tome rank reward (Tome score tiers)
+- **Tome Pro Nametag** [in-game] 15% Class Exp Multi, 15% Money · Tome rank reward (Tome score tiers)
+- **Trash Tuna Nametag** [in-game] 200% Fishing XP · Island Expedition (Trash Island shop)
+- **3rd Anniversary IdleOn Nametag** [paid/event] 3% All AFK Gain, 3% Drop Rate · Anniversary Box, Events, Gem Shop
+- **4th Anniversary IdleOn Nametag** [event] 14% All AFK Gain, 14% Damage Multi · Anniversary Box, Events
+- **5th Anniversary IdleOn Nametag** [event] 5% Drop Rate Multi, 5% Damage Multi · Anniversary Box, Events
+- **All That Glitters Nametag** [event] 250% Monster XP, 50% Class Exp Multi · Events
+- **Deadbones Nametag** [paid/event] 25% Drop Rate Multi, 35% Drop Rate · Events, Gem Shop, Summer Event
+- **Emerald Nametag** [event] 25% Kills in World 6 · Edible Coin, Events, Potluck
+- **Grand Egg Nametag** [paid] 25% AFK Gains Multi, 25% Bigger Damage · Gem Shop
+- **Lovely Day Nametag** [paid/event] 60% Damage, 200% Money · Events, Gem Shop
+- **Pot of Gold Nametag** [event] 30% Drop Rate Multi, 100% Money · Events, Potluck
+- **Singed Nametag** [event] 50% Damage, 10% Kills in World 7 · Events
+- **Spectacular 4th Year Nametag** [paid/event] 144% Class Exp Multi, 44% All AFK Gain · Events, Gem Shop
+- **Spooky Scary Nametag** [event] 100% Research Exp · Events
+- **Spring Flowers Nametag** [paid/event] 15% Skill Exp · Spring Splendor Event, Golden Oyster, Spring Baggie, Gem Shop, Golden Gift
+- **Summer Shovel Nametag** [paid/event] 15% Monster XP, 4% All Stats · Summer Cooler, Gem Shop, Summer Spirit
+- **Sweet Chocolate Nametag** [event] 25% Monster XP, 10% Drop Rate · Choco Box, Events
+- **Treasure Nametag** [event] 25% Drop Rate, 25% Money · Summer Cooler, Events, Summer Event
+- **Wonderful 5th Year Nametag** [event] 25% Kills in World 7, 55% Class Exp Multi · Events
+
+## Hats (rack) missing (58)
+- **Festive Beast Mask** [in-game] 15% Bonus Money · Lantern Spirit
+- **Funky Hat** [in-game] 1% Afk Gains Multi · River Spirit
+- **Heiress Headdress** [in-game] 5% Masterclass Drops · Mama Troll
+- **Ice Guard Helmet** [in-game] 5% XP From Monsters · Ice Guard
+- **Shiny Bored Beanie** [in-game] 1% Damage Multi · Smithing (Tab 5, Recipe 34)
+- **The Crow Perch** [in-game] 1% Damage Multi · The Crow Perch
+- **3rd Anniversary Ice Cream Topper** [event] 4% XP From Monsters, 3% Drop Rate · Anniversary Box, IdleOn 4th Anniversary
+- **Bamboo Hat** [event] 1% Drop Rate Multi · Edible Coin, Bamboo Spirit, Luckulyte
+- **Bandit Bob Mask** [paid/event] 2% Drop Rate · Halloween Treat, Spring Baggie, Spring Splendor, Halloween Pumpkin, Gem Shop
+- **Bedsheet with Holes** [event] 2% Bonus Kills · Halloween Treat, Giftmas Present, Giftmas Gift, Big Ol Giftmas Box, Halloween Pumpkin, Halloween Grave
+- **Big Pretty Bow** [event] 5% XP From Monsters · Anniversary Box, Choco Box, Chocco Box, Valenslimes Day Event
+- **Blonde Hairpiece** [event] 1% Class Exp Multi · Anniversary Box, IdleOn 5th Anniversary
+- **Bloo Creamer** [event] 15% Skill Exp · Summer Cooler, Summer Spirit
+- **Bloque Mask** [event] 1% Bonus Kills · Halloween Treat, Giftmas Gift, Big Ol Giftmas Box, Halloween Pumpkin, Halloween Grave
+- **Borzoi Topper** [paid] 1% Class Exp Multi · Gem Shop
+- **Bunny Ears** [event] 4% XP From Monsters · Egg Capsule, Spring Baggie, Spring Splendor, Easter Event
+- **Celebration Mane** [paid/event] 10% Damage Multi · Anniversary Box, Gem Shop – Celebrate Mane Hat, IdleOn 4th Anniversary, IdleOn 5th Anniversary
+- **Dairy Dunk** [paid/event] 5% Skill Efficiency · Summer Cooler, Choco Box, Chocco Box, Gem Shop (Retired)
+- **Deathbringer Hood of Death** [paid] 25% Extra Bones · Gem Shop
+- **Ele Sorcerer Pointed Hat** [paid] 5% All Stats · Gem Shop – Elemental Sorcerer Hat
+- **Fanned Blossomage** [event] 2% Drop Rate Multi · Royal Egg
+- **Farmer Brimest** [event] 5% Class Exp Multi · Anniversary Box, IdleOn 4th Anniversary
+- **Fudd Hat** [event] 1% Damage Multi · Cropfall Basket, Bort The Cornhusk
+- **Funny Hat** [event] 6% Skill Efficiency · Events/Idle Skilling Crossover
+- **Giftmas Snoozy Cap** [paid] 10% All Afk Gain · Bundle
+- **Glublin Mask** [event] 1% Damage Multi · Halloween Treat, Edible Coin, Halloween Pumpkin, Luckulyte, Halloween Grave
+- **Goldberry** [event] 10% Drop Rate · Anniversary Box, IdleOn 4th Anniversary
+- **Green Beanie** [paid/event] 3% Drop Rate · Edible Coin, Luckulyte, Gem Shop (Limited)
+- **Halloween Pumpkin (Premium Helmet)** [event]  · Halloween Treat, Halloween Grave
+- **Helper Elf Hat** [event] 2% Divinity Exp · Giftmas Gift, Big Ol Giftmas Box
+- **Hotdog Hero** [paid/event] 5% Skill Efficiency · Summer Cooler, Anniversary Box, Cropfall Basket, Gem Shop
+- **Husky Hat** [event] 2% Class Exp Multi · Giftmas Present, Anniversary Box, IdleOn 5th Anniversary
+- **Ice Cream Sundae** [event] 25% Money · Choco Box
+- **Legion Commander Bicorne** [paid] 3% Marble Drop · Gem Shop – Legion Commander Hat
+- **Leprechaun Hat** [event] 2% Drop Rate · Edible Coin, Luckulyte
+- **Lovely Top Hat** [event] 1% Damage Multi · Choco Box, Chocco Box
+- **Lucky Ducky Brim** [event] 1% Damage Multi · Edible Coin, Luckulyte
+- **Native Headdress** [event] 1% Skill Exp · Anniversary Box, IdleOn 5th Anniversary
+- **Paper Bag** [paid/event] 10% Bonus Money · Anniversary Box, Gem Shop
+- **Parasite** [paid/event] 3% Drop Rate · Anniversary Box, Choco Box, Gem Shop
+- **Pink Beanie** [event] 5% XP From Monsters · Choco Box
+- **Pink Headband** [event] 4% Masterclass Drops · Pink Headband, Twitch Prizes
+- **Polkadot Beanie** [event] 1% Drop Rate · Choco Box, Chocco Box
+- **Pop Cat** [event] 3% Damage Multi · Summer Cooler, Choco Box, Anniversary Box, Chocco Box, IdleOn 4th Anniversary
+- **Seal Team Skipper Hat** [paid] 100% Drop Rate · Gem Shop
+- **Smitty's Bubble Blowing Hat** [event] 3% Skill Efficiency · Halloween Treat, Halloween Pumpkin
+- **Snowman (Premium Helmet)** [unknown]  · —
+- **Starry Hairpins** [event] 1% Drop Rate · Anniversary Box, IdleOn 5th Anniversary
+- **Stiltmole Mask** [event] 1% Drop Rate · Halloween Treat, Halloween Grave
+- **Strawbiggy** [paid/event] 4% Drop Rate · Anniversary Box, Summer Cooler, Cropfall Basket, Gem Shop – Strawberry Hat, Summer Spirit, Bort The Cornhusk
+- **Summer Shell** [event] 5% XP From Monsters · Summer Cooler, Summer Spirit, Summer Break Event
+- **Sun Hat** [event] 1% Class Exp Multi · Summer Cooler, Summer Spirit
+- **The Classic** [paid/event] 2% Afk Gains Multi · Anniversary Box, Gem Shop
+- **Time Traveler Top Hat** [paid] 30% Class Exp Multi, 30% Bonus Kills · Gem Shop
+- **Umbrella Brim** [event] 10% Bonus Money · Summer Cooler, Summer Spirit
+- **Warlock Hat** [paid] 50% Damage Multi, 50% Class Exp Multi · Gem Shop
+- **Witch Hat (Halloween 2026)** [event] 1% Class Exp Multi · Halloween Treat, Halloween Grave
+- **Yellow Beanie** [event] 2% Bonus Kills · Summer Cooler, Summer Spirit
+
+## Achievements open (61)
+- **Hitting the Mark**: Chop 15 yellow sections in a row during the Choppin' Minigame → +5% Chopping EXP for all characters
+- **Minecart Maniac**: Slam on a yellow ore vein in the Mining Minigame, which gives 3 points! → +5% Mining EXP Bonus for all characters
+- **Spike Minigame Master**: Get a score of 13 in the spike minigame. Remember to say 'If u love me let me go' → 20 Gem , 4 HR Time Candy (Score means winning at least 13 Gems, not getting to round 13.)
+- **Minecart Master**: Get a score of 103-- in the Mining Minigame, beating the developers highscore! → 25 Gem , 2 4 HR Time Candy
+- **Choppin' to the Beat**: Get a score of 141-- in the Choppin' Minigame, beating the developer's highscore! → 25 Gem , 4 HR Time Candy
+- **Decked Out in Gold**: Equip Gold Helmet , Chestplate, Pants, Shoes, two Golden tools, and the Defenders Dignity ring. → +3% Arcade balls/hr
+- **Two-Time Savior**: Equip the Blunder Hero Trophy, while also having another in your inventory. → +5% Faster Respawn for all Blunder Hills mobs
+- **What a View!**: Climb the 2nd tallest tree in all of Blunder Hills, and say 'Great view, 1 star' → +1% Arcade balls/hr (Climb the rightmost tree in the Birch Enclave and type 'Great view, 1 star' into chat.)
+- **Seriousleaf-ast!**: Score a point in the Choppin' Minigame while the leaf is zooming at hyperspeed → +1% Arcade balls/hr (Every time the leaf hits the side, it speeds up (you need to score points to see the speed increase). "Hyperspeed" is around 30 minutes of waiting.)
+- **Heyo!**: Say 'Hi' to 250 different people without closing the game. → +5 Tab 1 Talent Pts, +1% Arcade balls/hr (World changing is allowed and is Case-Sensitive)
+- **Golden Fly**: Pass through the small golden hoop in the Catching Minigame. It's worth 3 points! → +5% Catching Efficiency
+- **Wassup Yo!**: Say 'Hi' to 100 unique people without closing the game or changing Servers. → +2 Tab 2 Talent Pts, +2% Arcade balls/hr
+- **Fishing Finesse**: Get a score of 67+ in the Fishing Minigame, beating the developers highscore! → 25 Gem , 2 4 HR Time Candy
+- **Catching Coronation**: Get a score of 128+ in the Catching Minigame, beating the developers highscore! → 25 Gem , 4 HR Time Candy
+- **A Fish Too Far**: Catch a total of 1000 fish across all Fishing Minigame plays. → ">30px|link= Beach Background for Title Screen (This means landing your bobber on 1000 total fish within the minigame, not collecting fish item drops.)
+- **Monocle No More**: Defeat 160 Sand Giants within 10 minutes of entering the map. Auto must be off. → ">30px|link= Twilight Desert BG for Title Screen
+- **Threadin' the Needle**: Pass through the teenie tiny Lava hoop in the Catching Minigame. It only appears if you go through 20 hoops in a row! → +5% catching EXP for all characters
+- **Two Desserts!**: Have the YumYum Sheriff trophy equipped, while also having another in your inventory. → +5% faster respawn for YumYum Desert Monsters
+- **WAAAAAAAHH!**: Complete all available Treasure Hunts! You can find them on Youtube, just search for it! → +3% Arcade balls/hr
+- **Fish Aint Biting**: I'm tellin' ya, the fish ain't bitin' today gosh darn it! → +5% Fishing Exp for all characters (Miss 100 times in a row in the fishing minigame, then catch a fish.)
+- **Wazzzzam!**: Wazam 125 rooms in Snakenhotep's Dungeon by performing exceptionally well in a room. → +6% Multikill bonus for all characters
+- **Just Passing By**: Pass 30 rooms in Snakenhotep's Dungeon by doing the thingy the room says to do. → +2% Multikill bonus for all characters
+- **Good Times Roll**: Beat wave 50 in Glublin Gorefest using ONLY Boulder Roller wizards. No freeze, no confetti, just boulder. → RNG Item (Genesis Sphere)
+- **Giant Slayer**: Defeat 5 Giant Mobs of each type; Bloque, Mamooth, Snowman, Penguin, and Thermister. Do it in order too, so 5 Bloques first, then 5 Mamooths, etc → " >30px|link= Tundra Outback BG for Title Screen (A message appears on screen for any five giants killed, not just the ones in the achievement. The message is just a visual bug, only the listed giant monsters c)
+- **There Can Be Only 1**: Beat wave 50 of Wakawaka War without using more than 1 of any specific tower. Can't have 2 pulsers, or 2 frozones! → 25 Gem , 3 12 HR Time Candy
+- **Knock on Wood**: Beat wave 50 of Acorn Assault with just 4 towers active. Place down a 5th tower at any time, and it wont count! → +3% Arcade balls/hr
+- **Sepia Vision**: Have a stack of exactly 500 Black Lense s in your Storage Chest. Better complete this before I make it 1,000! → " >30px|link= Crystal Caverns BG for Title Screen (You can manually drag a second stack into your storage chest. Use "split stack" to get the exact amount.)
+- **A Most Nice Sale**: You SOLD gems to the World 3 town store...? All at once? How many...? Nice. → 1 Gem , 1 24 HR Time Candy (Sell a stack of exactly 69 gems to the world 3 town store. You can manually drag a second stack into your inventory using the split stack feature.)
+- **Boss Defeated**: Defeat Glaciaxus on its 1st difficulty → +2% Total DMG for all characters outside of dungeons
+- **Manager Defeated**: Defeat Glaciaxus on its 2nd difficulty → +3% Total DMG for all characters outside of dungeons
+- **Kingpin Defeated**: Defeat Glaciaxus on its 3rd difficulty → +5% Total DMG for all characters outside of dungeons
+- **Capitalist Win**: Complete 1000 jobs within the Glacial Basement dungeon. → +5% Class EXP bonus for all characters outside of dungeons
+- **Matrix Wickermen**: Accumulate 8760 hours, or an entire year, of Lab AFK time across all players. → RNG Item (Triad of Manafine)
+- **Bland Dish**: What exactly were you expecting to cook, an invisible meal? → +6 Tab 1 Talent Pts (Attempt to discover a new recipe by cooking without any Spices)
+- **Lv. 5 Nothing**: Ah, I see you enjoy reading upgrade flavor text as well! → 30 Gem , 2 12 HR Time Candy (Level up the "No Upgrade Selected" upgrade to level 5 in the "Upgrade" tab of the Breeding menu)
+- **I LOVE These Mobs**:  → reward n/a
+- **Chippin' Away**: Claim 25 chips from the Chip Repository. I was gonna make this 250 chips, but people from the future told me not to. → +2% Arcade balls/hr
+- **Hunned Times a Day**: Claim spices by any means 10,000 times. Like, individual claims. → +8 Tab 2 Talent Pts
+- **Space Party!!!**: Dance with at least 5 other people while you're all in World 4 town! → +2% Arcade balls/hr (Type '/dance' in chat to do a little jig.)
+- **Hibernating Gamer**: Glaim 110,000 hours of AFK time. Jeez, thats like an entire year of all characters idling to the max. → 100 Gem , 1 '72hr time candy'
+- **Soda Poisoning**: Beat wave 50 of Clash of Cans with 3 Poisonic Elders at Lv 5 or higher. Also, you can't sell towers. → ">30px|link= Starfield Belt BG for Title Screen
+- **The True Pirate**: Reach a total of 1 million Plunderous Kills. This one is the true challenge of the three. → +15 Tab 4 Talent Pts, +1% Total Dmg
+- **The True Emperor**: Reach a total of 1 million Wormhole Kills. → +12 Tab 4 Talent Pts
+- **Maple Logger**: Have a stack of exactly 200,000 Maple Logs in your Storage Chest. → +1% Damage for all characters
+- **No Krakens? ):**: Reach Wave 50 of Citric Conflict tower defence without placing a single Kraken Towers. Not even one. → +25% Class EXP
+- **Maroon Warship**: Upgrade a boat to Lv 300 in Sailing. This is the pinnacle of naval prowess, it doesn't get fancier than this! → +1 Lv to all Talents for all characters
+- **POiNG Champion**: Get a POiNG score of 25,000 or more! My personal highscore is 38,323 at the time of coding this! → +10 'Tab 4' Talent Pts
+- **Chemical Collector**: Harvest a total of 1000 Chemical-type Plants in Gaming. → +3% Damage for all characters
+- **Perfect Trade Deal**: Make a trade deal with Blobby G worth exactly 777K Gold Bars. You get a bit of wiggle room, like within 500 Gold Bars. → +1 additional Treasure Per Chest for Sailing
+- **Legendary Flag**: On your Siege Breaker, get a Flag Score of 150 or more on Erruption River. This is the number above your Flag! → +2% Damage for all characters
+- **Legendary Wormhole**: On your Elemental Sorcerer, get a Wormhole Score of 83 or more on Niagrilled Falls. This is the number above your Wormhole! → +10% Divinity Points Gained
+- **Sneaky Stealing**: Walk to a uh... weird location? Well it's not that weird, but it's just like, what ya doin' back there? → +25% Shop Capacity for all Town Shops (Walk to the left of the W5 Shop mole.)
+- **Hug from Timmy**: The lil' fella REALLY likes icecream! → 10% Monument AFK (Complete Little Timmy's four Ice Cream Justice encounters.)
+- **That's MY Crown**: Have a stack of exactly 100000000 Royal Headpiece in your Storage Chest. → " >30px|link= Dharma Mesa BG
+- **Leet Lanterns**: Oh yea that's a good number. Sure it's no 69420 but it's vintage! → +4% Damage for all characters (Have a stack of exactly 1337 Dark Lantern in your storage)
+- **Doctor Repellant**: Have 10000 or more Apple crops in your Depot at once. You can lock the first crop before it grows to guarantee an apple! → W6 Shop EZ Access
+- **Cob Enjoyer**: Have 1000000 or more Corn crops in your Depot at once. Mmmm Corn! → +15% All Skill EXP
+- **Legumulucky**: Make a crop trade with the Legumulyte worth exactly 777 magic beans. → +2% Damage for all characters
+- **Yellow Belt**: Find a +50 Yellow Belt Sneaking Charm. Yes exactly +50. → +10% Sneaking EXP gain
+- **Penta Defence**: Reach Wave 50 in Breezy Battle without placing more than 5 Towers in total. → " >30px|link= Lullaby Airways BG
+- **Beanstacker Prodigy**: Add 14 different golden foods to The Beanstalk. → +3% All Golden Food Bonuses
