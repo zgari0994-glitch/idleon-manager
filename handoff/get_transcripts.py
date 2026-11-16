@@ -17,7 +17,9 @@ CREATORS = {
 }
 ROOT = os.path.join('idleon_transcripts', 'sources', 'creators')
 MIN_SECONDS = 120          # skip shorts
-PAUSE = (3, 7)             # seconds between videos, be polite to YouTube
+PAUSE = (8, 15)            # seconds between videos, be polite to YouTube
+SKIP_IDS = {'N2EFqfVHNMM'}  # 21-hour Remastered Movie (excluded by Zack)
+COOLDOWN = 600             # seconds to wait after a 429 Too Many Requests
 IDLEON = re.compile(r'idle\s?on|legends of idleon', re.I)
 YDL = {'quiet': True, 'no_warnings': True, 'skip_download': True}
 
@@ -86,7 +88,7 @@ def run(name, url):
         if new: w.writerow(['video_id', 'date', 'title', 'duration_min', 'type', 'captions', 'words', 'coverage', 'max_gap_s', 'status'])
         for i, (e, from_streams) in enumerate(entries, 1):
             vid = e['id']
-            if vid in done: continue
+            if vid in done or vid in SKIP_IDS: continue
             try:
                 info = video_info(vid)
             except Exception as ex:
@@ -108,7 +110,11 @@ def run(name, url):
                     try:
                         lines, caps = fetch_ytdlp(vid); break
                     except Exception as ex2:
-                        err = f'{err} | {str(ex2)[:120]}'; time.sleep(20 * (attempt + 1))
+                        err = f'{err} | {str(ex2)[:120]}'
+                        if '429' in err or 'Too Many' in err:
+                            print(f'  rate limited, cooling down {COOLDOWN // 60} min...'); time.sleep(COOLDOWN)
+                        else:
+                            time.sleep(20 * (attempt + 1))
             if not lines:
                 print(f'  [{i}] {vid} FAILED: {err}')
                 w.writerow([vid, date, title, round(dur / 60, 1), typ, '', 0, '', '', 'failed']); f.flush()
