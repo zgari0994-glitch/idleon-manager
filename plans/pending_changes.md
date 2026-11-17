@@ -151,3 +151,12 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Tacular refinements: (1) Compass plan covers ALL perks; "dump everything until level X" is fine if that's truly best. (3) Overnight active slot is ACCOUNT-wide: pick the best character/task for the night, not Tacular by default. (5) Talent list: top 10 must-max talents per character, built from transcripts/guides, cross-referenced during research (DK/AC farming perks etc.).
 - Sneaking (Zack): was easy to Mastery 1, then stalled. Needs everything: method (slow roll vs open doors fast), best-in-slot items (check if changed), floor assignment per character, point spending, how to find Pristine Charms (all his were bought).
 - Trapping auto-collect: Zack recalls a W3 construction-area thing with toggles (auto-grab traps after 24 hrs + 2 more settings), next to the Atom Collider / max books. Likely the Trapper Drone building (AutoReview Buildings C tier, 26 -> 50). Verify name + settings.
+
+## Autistotle requirements (Zack, 2026-11-16)
+- Observations: Zack found several today (incl. one at the snakes), failed one, ran out of daily tries. Card should track found/unfound + daily tries.
+- Research needs a full path: which grid nodes, in what order, when to take a node to 1 vs to 4, where each magnifier/monocle goes (highest XP/hr observation), the extra-monocle perk Zack sees available now. Show node NAMES and positions, not just codes like G7 (hidden perks aren't visible in game).
+- Jelly Operator: Linguistics likely needs only 1 point; Jelly is in Jellofish Fields (W7 map) which Zack may not have reached. Check map access before spending.
+- Greenstacks list = good active job (time candy / 1-hr skips through the closest items).
+- Maestro: needs a catch-up AND stay-ahead plan per skill: how to get him #1 in each behind skill and keep him there while other characters get EXP buffs. Ignore Construction. Lab: park him in the Lab (lab gear/rings); Divinity: Divinity gear (slippers, necklace/rings). Include other skill-EXP gear per skill.
+- Coral Kid: Zack bought the Fishbowl (W7 town). Coral Kid asks for a "present": 10% chance, costs 20M, Zack has 612,000 (likely Divinity PTS: Coral Kid turns Divinity PTS into Singularity Spirals). All Coral Kid upgrades show unlocked at level 0, incl. upgrade 0 "link the divinity of your choice to ALL players". Mechanic = gap. Owner Autistachio.
+- Coral Reef costs: Anemone Coral unlock 15, Carnation Coral 5,000 (reef coral). Autistachio's card.
