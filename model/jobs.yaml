@@ -20,7 +20,6 @@ characters:
       - {job: Grimoire, sections: [The Grimoire], basis: class}
       - {job: Post Office, sections: [Post Office], basis: zack}
       - {job: "ZOWs + CHOWs W1-W6", sections: [{s: Death Note, m: "Autiszemo|Eclipse Skull.*in W[1-6]\\b"}], basis: zack}
-      - {job: "Super CHOWs + WOWs (own)", sections: [], basis: zack, note: "Zack: both DBs do them. AutoReview lists them for Autistopher only: Zemo's counts from raw = gap #3"}
   Autistocat:     # Arcane Cultist
     afk: {text: "Active-first class (master class progress is active-only without its AFK mechanic). Runs Cranium Cooking active; plain AFK spot = GAP", src: "Griffy N5yJ4-tZLbY 00:52 (2026-10-04)"}
     active: [cranium]
@@ -95,7 +94,7 @@ characters:
     afk: {text: "His own Super CHOWs (100M)", src: griffy}
     active: [achievements]
     jobs:
-      - {job: "Super CHOWs + WOWs (own)", sections: [{s: Death Note, rest: true}], basis: griffy}
+      - {job: "Super CHOWs", sections: [{s: Death Note, rest: true}], basis: griffy}
       - {job: "Stamps", sections: [Stamps], basis: light, note: "95%-off and Exalted stamp use = sourced only"}
       - {job: "Upgrade Vault", sections: [Upgrade Vault], basis: light, note: "Kitchen Dream-mare 251 -> 500 (cooking speed)"}
       - {job: "Equinox", sections: [Equinox], basis: light}
