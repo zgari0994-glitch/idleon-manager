@@ -6,5 +6,7 @@ Loop: card run-through (1 by 1, dailies + tasks) -> Zack says what is wrong / un
 ## Open
 | # | date | card / system | gap (Zack's words) | status |
 |---|---|---|---|---|
+| 1 | 2026-11-17 | Autistopher / Bubba (clickers/bubba) | No AutoReview section: needs goals, upgrade order, daily steps | open |
+| 2 | 2026-11-17 | Autistopher / Poppy (clickers/kangaroo) | No AutoReview section: needs goals, upgrade order, daily steps | open |
 
 ## Done
