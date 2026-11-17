@@ -192,3 +192,14 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Cards: Zack doesn't know how to get set-tier cards. Card cards need "where it drops + how": Fire Forge card drops when taking bars out of Forge tab 1 (Puff Puff Go forge upgrade raises it); Bandit Bob is fought in Bandit Bob's Hideout (W2), entered with a Sesame Seed (1/100 from ACTIVE Mimics). Explain set tiers (Bronze..Ruby/Majestic) and what each "N more cards for X" means.
 - Lab: full hole. Every part mapped to max (nodes, chips, jewels: Zack thinks jewels missing), what's needed and its account impact.
 - Elite Class Swap Token: swap to Bubonic Conjuror -> Arcane Cultist the day it's in the shop.
+
+## Autistopher + account (Zack, 2026-11-17)
+- MAJOR PRIORITY: raise max talent book level (299 of 441): Fury Relic artifact 4 -> 7, Summoning +29 -> 96, plus any other sources. Track as an account goal.
+- Every character card lists its own AutoReview Library talents: High / Medium / Low priority, Combat and Skilling separately (not only on the Library owner).
+- Stamps: group by Combat / Skills / Misc so Zack can find them fast. Each upgrade shows resources needed + whether he has them + coin cost vs money. Plan uses of 95%-off stamp discounts (Hydrogen) and the 1 Exalted Stamp from sources only. Track every way to get more Exalted Stamps. AutoReview stamp targets are valid; budget money for them.
+- Cooking speed is the priority right now: Upgrade Vault Kitchen Dream-mare 251 -> 500 is a sourced lever.
+- Account ALERT (not tied to a character): Equinox upgrade available -> anyone spends the point. Add to alerts.
+- Salt Lick close-out plan: Damage 152 -> 250, Refinery Speed 71 -> 100, Cooking Mastery 30 -> 100, with resources needed and how to get them.
+- Achievements: map all of them (needs, completable now, easy, table for later). Achievement runs = active task to clear as many as possible.
+- Death Note: explain ZOW / CHOW / Super CHOW / WOW and how it works with two Death Bringers (per character?). Decide after Griffy's 2nd-DB meta video (transcripts).
+- Minehead (Autistopher): full build from research: what it is, upgrade plan, best targets/upgrades, next step.
