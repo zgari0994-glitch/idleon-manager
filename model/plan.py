@@ -204,11 +204,13 @@ for al in Y.get('alerts', []):
 salts = [f"{a['label']} {a.get('cur','')}".strip() for g, path, a in leaves('Refinery') if g.get('name', '').startswith('Salt Excess')]
 lp = os.path.join(R, 'model', 'ledger.json')
 ledger = json.load(open(lp)) if os.path.exists(lp) else None
+cp = os.path.join(R, 'model', 'coins.json')
+coins = json.load(open(cp)) if os.path.exists(cp) else None
 ranked = sorted(ATASKS, key=lambda t: (t['importance'], t['minutes']))
 account = {'money': {'total': sum(money.values()) + bank, 'bank': bank, 'per_char': money,
                      'holder': max(money, key=money.get)},
            'alerts': alerts + [{'name': f"{r['name']} ({r['value']})", 'owner': r['owner'], 'hits': [r['note']] if r['note'] else []} for r in ready_now if r['owner'] in ('anyone', 'unrouted')],
-           'timers_captured': TM['captured_utc'] if TM else None, 'salts': salts, 'ledger': ledger, 'active_ranked': ranked,
+           'timers_captured': TM['captured_utc'] if TM else None, 'salts': salts, 'ledger': ledger, 'coins': {k: coins[k] for k in ('richest', 'vault', 'advice_fish', 'vendor', 'caveats')} if coins else None, 'active_ranked': ranked,
            'quick_mode': [t for t in ranked if t['minutes'] <= 15],
            'unassigned': Y.get('unassigned', []),
            'loop': ['7am PC: refresh, full/maxed/timers checklist, dailies due now',
