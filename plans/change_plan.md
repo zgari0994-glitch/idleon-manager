@@ -23,6 +23,9 @@ Goal: every card shows everything we already have data for, in the agreed format
 8. Active-task list for play time, ranked by importance and time to finish, with a quick-wins mode. Includes: Cranium Cooking session (+ its 3 notes), statue farming with map per statue, Compass Nomadic push, achievement runs, bag sweep, Green Mushroom 1M, observation hunt, greenstack runs, Bandit Bob/Mimic seeds, overnight active slot (account-wide pick).
 9. Daily loop on the dashboard: morning quick run (7am PC), workday active task, 3pm tablet lists. Two refreshes a day max, save age always shown.
 
+## Phase 1b: System index
+- model/system_index.yaml: every system -> Toolbox page(s) + tools -> raw-save fields -> AutoReview section -> creator topics. Cards and answers pull data through it first.
+
 ## Phase 2: Gap catcher + research (needs transcripts + ChatGPT Toolbox map)
 Goal: replace every "gap" with sourced guidance. Order: Griffy -> Pulse/Nocturne -> idleon.wiki/Toolbox -> Discord. Each finding goes to Zack as a plan; approved -> card.
 1. Gap register file listing every open gap from the session (W7 bubble unlock, Hole per-cavern guides, Gaming full system, Research grid path, Lab full map, Sneaking, Breeding full review, Worship/souls ramp, Trapping flow + auto-collect, Compass dust/perks, prints redo, card presets per role, talent top-10 per character + raising the 441 cap, money farming, Death Note with 2 DBs, Emperor/boss ownership, Minehead, reef, Gallery, capes, Tesseract/Arcanist, cauldron upgrades, cooking mastery, Clamworks, Advice Fish later, Legend Talents, Zenith fastest statue, Lunarheim/Spelunking POW, Coral Kid present, Fractal Island, artifact Maw).
