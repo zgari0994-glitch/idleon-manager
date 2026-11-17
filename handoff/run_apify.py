@@ -74,15 +74,19 @@ def main():
         rows = list(csv.DictReader(f))
     have = done_ids()
     todo = [r for r in rows if r['video_id'] not in have]
+    # very long videos (e.g. the 21-hour F2P movie) go last, one per run, so they can't sink a whole batch
+    long_ = [r for r in todo if float(r.get('duration_min') or 0) > 180]
+    todo = [r for r in todo if r not in long_]
     print(f'{len(rows)} videos on the list, {len(rows) - len(todo)} already saved, {len(todo)} to fetch.')
     spent, saved, missing = 0.0, 0, []
-    for i in range(0, len(todo), BATCH):
+    batches = [todo[i:i + BATCH] for i in range(0, len(todo), BATCH)] + [[r] for r in long_]
+    for n, batch in enumerate(batches, 1):
         if spent >= TOTAL_CAP_USD: print(f'Total cap ${TOTAL_CAP_USD} reached, stopping.'); break
-        batch = todo[i:i + BATCH]; by_id = {r['video_id']: r for r in batch}
+        by_id = {r['video_id']: r for r in batch}
         body = {'videos': [f'https://www.youtube.com/watch?v={r["video_id"]}' for r in batch],
                 'includeSegments': True, 'language': 'en', 'maxTotalChargeUsd': min(BATCH_CAP_USD, TOTAL_CAP_USD - spent)}
         run = call('POST', f'/acts/{ACTOR}/runs', token, body)['data']
-        print(f'Batch {i // BATCH + 1}: {len(batch)} videos, run {run["id"]} started...')
+        print(f'Batch {n}/{len(batches)}: {len(batch)} videos, run {run["id"]} started...')
         while run['status'] in ('READY', 'RUNNING'):
             time.sleep(15); run = call('GET', f'/actor-runs/{run["id"]}', token)['data']
         if run['status'] != 'SUCCEEDED':
