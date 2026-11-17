@@ -69,3 +69,4 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Menagerie missions: show them on the card with owners and a "claim now" flag (AutoReview has claim alerts).
 - Minehead assigned to Autistopher (lowest load: 4 jobs, tied with Autistabish/Autistotle/Autistronaut; Autistopher already the designated lightest schedule). Autisticles has 3 jobs + 9 W7 minis, so not lightest. Zack: AutoReview has holes; we find them and plan them.
 - World bosses move off Autistopher to a Divine Knight for drop rate (Zack). Which DK (Autistastic or Autistomatic) = pending Zack's pick.
+- World bosses + world minibosses -> Autistastic (DK, drop rate). Minibosses (e.g. the W4 mob you spawn by dropping an item) only show on the card when stored spawns are at max capacity; world bosses shown as needed / when keys are available.
