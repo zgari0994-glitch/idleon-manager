@@ -82,7 +82,7 @@ def pick(e, who):
     """open leaves of one section entry for one character."""
     out = []
     for g, path, a in leaves(e['s']):
-        if not is_open(a) or any(re.search(x, a['label'], re.I) for x in Y.get('exclude', [])): continue
+        if not is_open(a) or any(re.search(x, a['label'], re.I) for x in Y.get('exclude', [])) or any(x in path for x in Y.get('exclude_paths', [])): continue
         tab_owner = owner_of_tab(path)
         if tab_owner and tab_owner != who: continue
         mw = re.search(r'with (Autis\w+)', g.get('name', '') + ' ' + path)
@@ -264,9 +264,6 @@ for name, cfg in Y['characters'].items():
             if fin: st.append(f"Push: {fin[0]['label'][:80]} {fin[0]['cur']} -> {fin[0]['goal']}")
             if not st: st.append('No rinse data: ' + (j.get('note') or j.get('state') or 'needs a playbook'))
         daily.append({'block': j['job'], 'kind': kind, 'steps': st})
-    if card['active']:
-        daily.append({'block': 'Active (after dailies, if this is the active pick)', 'kind': 'active',
-                      'steps': [t['task'] + (' · ' + '; '.join(t.get('notes', [])) if t.get('notes') else '') for t in card['active']]})
     card['daily'] = daily
     cards.append(card)
 

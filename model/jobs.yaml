@@ -11,6 +11,8 @@
 exclude:   # leaves never shown (Zack's calls)
   - "Prayer not needed"   # Royal Sampler stays on (Zack)
   - "more WOWs with"      # WOWs skipped (Griffy, findings/death_note_two_dbs.md)
+exclude_paths:   # whole groups hidden while locked (Zack's facts); listed under locked below
+  - "Regular Battles/Teal"   # Teal summoning is unlocked from Spelunking (Zack 2026-11-17)
 
 account_priority: {text: "Cooking speed", set_by: zack, date: 2026-11-17}
 
@@ -125,7 +127,7 @@ unassigned:
   - {job: Emperor, sections: [Emperor], note: "Off Chio. Research who owns it (RG drop rate vs best fighter)"}
 
 active_tasks:   # importance 1 = top. minutes = rough session length. Quick win = <= 15 min.
-  - {id: cranium, owner: Autistocat, task: "Cranium Cooking on Wurms", importance: 1, minutes: 480, notes: ["Disconnect Viaduct of the Gods in Lab", "Move sigil char to a liquid", "Cauldron pts -> W7 bubble rolls"], src: zack}
+  - {id: cranium, owner: Autistocat, daily: false, task: "Cranium Cooking on Wurms (big alchemy days only, not dailies)", importance: 1, minutes: 480, notes: ["Disconnect Viaduct of the Gods in Lab", "Move sigil char to a liquid", "Cauldron pts -> W7 bubble rolls"], src: zack}
   - {id: compass_nomadic, owner: Autistacular, task: "Compass Nomadic push (Atomic Cost Crash 15, Atomic Potential 17, Aluminium 32)", importance: 1, minutes: 120, src: "AutoReview Compass + game"}
   - {id: statues_es, owner: Autistabish, task: "Box (Penguins) then Seesaw (Cryosnakes) 25 -> 40", importance: 2, minutes: 60, src: "AutoReview statue table"}
   - {id: dk_crystals, owner: Autistomatic, task: "DK crystals at Minichiefs: Essence Statue 2 -> 40", importance: 2, minutes: 60, src: "AutoReview statue table"}
@@ -145,6 +147,7 @@ locked:   # never hidden: what unlocks it + where that sits
   - {feature: "Cavern 16 Fountain", unlock: "Polonai level 16 (15 now, 30.1%)", owner: Autistabish}
   - {feature: "Jelly Operator / The Button", unlock: "W7 map push + Research level", owner: "Autistotle, Autisticles"}
   - {feature: "Isotope Discovery superbit (+10 atom max)", unlock: "Gaming superbits (20/72)", owner: Autistastic}
+  - {feature: "Teal Summoning battles (Danny 9.75x DMG, Monty 1.59x artifact find...)", unlock: "Spelunking (Zack)", owner: "Autistronaut, Autistocat"}
   - {feature: "Elite Class Swap Token", unlock: "Gem shop rotation (watch)", owner: Autistronaut}
 
 alerts:   # account-wide, routed. m = regex on "group/tab :: label"; when = ready (cur >= goal) | match

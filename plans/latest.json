@@ -1486,33 +1486,6 @@
      },
      "subs": [
       {
-       "name": "Summoning: Regular Battles",
-       "state": "open",
-       "items": [
-        {
-         "section": "Summoning",
-         "group": "Regular Battles",
-         "label": "Danny and his Shiny FishiesReward: 9.75x Total DMG",
-         "cur": "0",
-         "goal": "1",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "section": "Summoning",
-         "group": "Regular Battles",
-         "label": "Monty and his Dastardly DoodlefishReward: 1.59x Artifact Find",
-         "cur": "0",
-         "goal": "2",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 16
-      },
-      {
        "name": "Summoning: Upcoming Endless Rewards",
        "state": "open",
        "items": [
@@ -1624,30 +1597,30 @@
      "next": [
       {
        "section": "Summoning",
-       "group": "Regular Battles",
-       "label": "Danny and his Shiny FishiesReward: 9.75x Total DMG",
-       "cur": "0",
-       "goal": "1",
+       "group": "Upcoming Endless Rewards",
+       "label": "Offsides RuleReward: +15% Class EXP",
+       "cur": "88",
+       "goal": "89",
        "score": 0,
        "ready": false,
        "infinite": false
       },
       {
        "section": "Summoning",
-       "group": "Regular Battles",
-       "label": "Monty and his Dastardly DoodlefishReward: 1.59x Artifact Find",
-       "cur": "0",
-       "goal": "2",
+       "group": "Upcoming Endless Rewards",
+       "label": "Triple Overtime (10x HP)Reward: 1.03x Amber Gain",
+       "cur": "88",
+       "goal": "90",
        "score": 0,
        "ready": false,
        "infinite": false
       },
       {
        "section": "Summoning",
-       "group": "Regular Battles",
-       "label": "Rhea and her Eccentric EelsReward: +17.5% Drop Rate",
-       "cur": "0",
-       "goal": "3",
+       "group": "Upcoming Endless Rewards",
+       "label": "Zerg SurpriseReward: +1 Equinox Max LV",
+       "cur": "88",
+       "goal": "91",
        "score": 0,
        "ready": false,
        "infinite": false
@@ -1913,7 +1886,8 @@
     {
      "id": "cranium",
      "owner": "Autistocat",
-     "task": "Cranium Cooking on Wurms",
+     "daily": false,
+     "task": "Cranium Cooking on Wurms (big alchemy days only, not dailies)",
      "importance": 1,
      "minutes": 480,
      "notes": [
@@ -1924,7 +1898,13 @@
      "src": "zack"
     }
    ],
-   "locked": [],
+   "locked": [
+    {
+     "feature": "Teal Summoning battles (Danny 9.75x DMG, Monty 1.59x artifact find...)",
+     "unlock": "Spelunking (Zack)",
+     "owner": "Autistronaut, Autistocat"
+    }
+   ],
    "talents": {
     "Skilling High": [
      "Essential Essence 271/299",
@@ -1985,7 +1965,7 @@
      "src": "rinse (Griffy-weighted AutoReview)"
     },
     {
-     "do": "ACTIVE Cranium Cooking on Wurms \u00b7 Disconnect Viaduct of the Gods in Lab; Move sigil char to a liquid; Cauldron pts -> W7 bubble rolls",
+     "do": "ACTIVE Cranium Cooking on Wurms (big alchemy days only, not dailies) \u00b7 Disconnect Viaduct of the Gods in Lab; Move sigil char to a liquid; Cauldron pts -> W7 bubble rolls",
      "done": "480 min session",
      "src": "zack"
     }
@@ -2009,7 +1989,7 @@
      "block": "Summoning",
      "kind": "rinse",
      "steps": [
-      "Push: Danny and his Shiny FishiesReward: 9.75x Total DMG 0 -> 1"
+      "Push: Offsides RuleReward: +15% Class EXP 88 -> 89"
      ]
     },
     {
@@ -2024,13 +2004,6 @@
      "kind": "rinse",
      "steps": [
       "Push: Current Skull Ratio 29.41% -> 66.67%"
-     ]
-    },
-    {
-     "block": "Active (after dailies, if this is the active pick)",
-     "kind": "active",
-     "steps": [
-      "Cranium Cooking on Wurms \u00b7 Disconnect Viaduct of the Gods in Lab; Move sigil char to a liquid; Cauldron pts -> W7 bubble rolls"
      ]
     }
    ]
@@ -5437,13 +5410,6 @@
      "steps": [
       "Push: Level up Box Statue: Candy or Active ES at Penguins 25 -> 40"
      ]
-    },
-    {
-     "block": "Active (after dailies, if this is the active pick)",
-     "kind": "active",
-     "steps": [
-      "Box (Penguins) then Seesaw (Cryosnakes) 25 -> 40"
-     ]
     }
    ]
   },
@@ -6299,15 +6265,6 @@
      "kind": "rinse",
      "steps": [
       "Push: Current Skull Ratio 29.41% -> 66.67%"
-     ]
-    },
-    {
-     "block": "Active (after dailies, if this is the active pick)",
-     "kind": "active",
-     "steps": [
-      "Compass Nomadic push (Atomic Cost Crash 15, Atomic Potential 17, Aluminium 32)",
-      "Worship totems: Breezy Battle 10, Citric Conflict 28 (need 500 total)",
-      "Active WW breeding (overnight candidate)"
      ]
     }
    ]
@@ -7441,14 +7398,6 @@
      "steps": [
       "Push: Conjuror Pts (Caverns) 0 -> 1"
      ]
-    },
-    {
-     "block": "Active (after dailies, if this is the active pick)",
-     "kind": "active",
-     "steps": [
-      "Greenstack runs (closest items, candy/skips)",
-      "Research observations (daily tries)"
-     ]
     }
    ]
   },
@@ -7760,14 +7709,6 @@
      "kind": "rinse",
      "steps": [
       "No rinse data: no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
-     ]
-    },
-    {
-     "block": "Active (after dailies, if this is the active pick)",
-     "kind": "active",
-     "steps": [
-      "DK crystals at Minichiefs: Essence Statue 2 -> 40",
-      "Redo all prints, then Royal Sampler off (Zack keeps it on for now)"
      ]
     }
    ]
@@ -8357,6 +8298,11 @@
    "quick": [],
    "active": [],
    "locked": [
+    {
+     "feature": "Teal Summoning battles (Danny 9.75x DMG, Monty 1.59x artifact find...)",
+     "unlock": "Spelunking (Zack)",
+     "owner": "Autistronaut, Autistocat"
+    },
     {
      "feature": "Elite Class Swap Token",
      "unlock": "Gem shop rotation (watch)",
@@ -9686,13 +9632,6 @@
      "steps": [
       "Push: Hard Resources- Godshard Ore card:+150/210% Forge Cap and SPD (Passive) 5 -> 7"
      ]
-    },
-    {
-     "block": "Active (after dailies, if this is the active pick)",
-     "kind": "active",
-     "steps": [
-      "Achievement runs (easiest open first)"
-     ]
     }
    ]
   },
@@ -10244,13 +10183,6 @@
      "steps": [
       "+3% Spelunking Amber gain per Crystal Shrine level above 200Unlock for 248 Glowi (1,875 / 248) READY",
       "Push: Unlock Carnation Coral: Instantly gives Shells for the Luminous Menagerie! 0 -> 13"
-     ]
-    },
-    {
-     "block": "Active (after dailies, if this is the active pick)",
-     "kind": "active",
-     "steps": [
-      "1M Green Mushrooms for W2 weekly boss"
      ]
     }
    ]
@@ -11169,7 +11101,8 @@
    {
     "id": "cranium",
     "owner": "Autistocat",
-    "task": "Cranium Cooking on Wurms",
+    "daily": false,
+    "task": "Cranium Cooking on Wurms (big alchemy days only, not dailies)",
     "importance": 1,
     "minutes": 480,
     "notes": [

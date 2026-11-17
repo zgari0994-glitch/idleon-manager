@@ -16,5 +16,8 @@ Loop: card run-through (1 by 1, dailies + tasks) -> Zack says what is wrong / un
 | 8 | 2026-11-17 | All cards | What is this character working toward for the account goal | open |
 | 9 | 2026-11-17 | All cards | Too informational, not guided: needs do-this-now steps | open |
 | 10 | 2026-11-17 | Dashboard | Not visible on phone: guide in chat from the card until fixed | open |
+| 11 | 2026-11-17 | Autistocat / Lab | Is Lab a priority now, and what to do there (Griffy: big multipliers; Choco Chip prep) | open |
+| 12 | 2026-11-17 | Autistocat / Tesseract | How to push Tesseract; it needs active play until ~1,000 of its currency (Zack) | open |
+| 13 | 2026-11-17 | Autistocat / all | Daily run still has no real guidance (rinse lines only): playbooks | open |
 
 ## Done
