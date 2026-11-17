@@ -136,3 +136,4 @@ Build all of these as one design change, not as patches. Each line was approved 
   14 Gambit: last run near 98,804 points; how to prepare, when to run.
   15 Temple: what to level beyond golem cards/opals.
   Villagers: Polonai (is Sentinel Passages released / worth more opals?), Kaipu (level with opals? shop priority = faster cavern resources first), Cosmos (Conjuror pts), Minau (measurement focus), Bolaia (study target).
+- Zack challenge: Bish is the statue guy, so AFKing him at a Monument is wrong. Agreed. Proposed: Bish AFKs Penguins (Box 25 -> 40, candy there), then Cryosnakes (Seesaw 25 -> 40). Monument AFK (Justice/Wisdom) moves to the lowest-load character (proposal: Autistopher). Pending Zack's OK.
