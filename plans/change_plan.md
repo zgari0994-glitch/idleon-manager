@@ -39,6 +39,7 @@ Goal: replace every "gap" with sourced guidance. Order: Griffy -> Pulse/Nocturne
 2. Republish the dashboard.
 
 ## Rules carried into every phase
+- Every recommendation considers the raw data, and follows the Toolbox map protocol (sources/creators/idleon-toolbox-guide.md): evidence -> action -> benefit -> cost -> verify/stop.
 - Digest first, build only on approval. No patch-on-patch.
 - Guidance = sources. My opinion only when asked, always labeled.
 - Never judge from Toolbox text what the game shows differently (passive cards lesson).
