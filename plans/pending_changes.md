@@ -116,3 +116,23 @@ Build all of these as one design change, not as patches. Each line was approved 
 3. Weekly review by code over 7 closes: what moved and by how much, what we changed that week, which ETAs shrank, where we worked but nothing moved.
 4. Rinse gets a measured-impact factor: real days saved toward goals, weighted by Griffy importance; weights tuned weekly from results.
 5. Rule: Griffy sets direction; measurements rank inside it and flag non-paying work. Conflicts flagged to Zack. All computed by code, never read by Claude whole.
+
+## The Hole: Zack's questions (requirements for the Hole guide, per cavern; answer from transcripts first)
+- Zack corrections: Royal Sampler stays on (his call). Worship totems belong to the Beast Master line (Autistacular); Bish only uses the town worship mechanic to pull souls from totems. Justice Monument AFK for Bish approved until it reaches an acceptable point. Well: 4 trades done. Evertree layer 6 broken.
+- General: what are Opals for and where should they go (Polonai vs Kaipu vs Cosmos vs Minau); is it just an Opal race; how to get the materials for unbought Kaipu schematics; Study (Bolaia) target: was on Harp all break, now on The Well (Zack thinks Well is the bottleneck).
+- Per cavern, Zack needs: how it works, what to level, when to run/check it, when to stop, the goal:
+  1 Well: what goes in each of the 6 buckets, goal, sediments to unlock.
+  2 Motherlode: when to stop mining a layer, when to push.
+  3 Den: when to run, ultimate goal.
+  4 Bravery: which bonuses to level (cooking speed one), how to push hours.
+  5 Bell: which improvement method to level, when to switch off ringing.
+  6 Harp: string adjusting (Zack buys every note item, then switches notes).
+  7 Lamp: where to put wishes, daily/weekly routine.
+  8 Hive: when to catch bugs.
+  9 Grotto: good statue spot; Gloomie statue feeds a new strong stamp from golems; Zenith that statue too. Add to statue farming.
+  10 Justice / 13 Wisdom: AFK monuments; jar value bonus in Wisdom.
+  11 Jar: what Zack is working toward with Break All + 2 Great Jars.
+  12 Evertree: when/why to check.
+  14 Gambit: last run near 98,804 points; how to prepare, when to run.
+  15 Temple: what to level beyond golem cards/opals.
+  Villagers: Polonai (is Sentinel Passages released / worth more opals?), Kaipu (level with opals? shop priority = faster cavern resources first), Cosmos (Conjuror pts), Minau (measurement focus), Bolaia (study target).
