@@ -70,3 +70,11 @@ Goal: replace every "gap" with sourced guidance. Order: Griffy -> Pulse/Nocturne
 - Daily run per character lists EVERY job every day. Job with a playbook = playbook steps (exact actions, live numbers, measurable goals with a reason). Job without = rinse steps (ready items + top rinse target), tagged [rinse], until its playbook exists.
 - Playbook build: Toolbox page computes the numbers (read during refresh), Griffy rules from tagged rows + capped index (findings/<system>.md), generator makes the steps. Built on partial transcripts as v1, tightened as tags land. Order: Zemo Farming + Cooking first, then rinse order.
 - Cards (details, rinse, sources) stay as Claude's working file; Zack sees the daily run.
+
+### Goal chains (Zack approved 2026-11-17)
+- Every aspect of the game gets a goal chain: top goal (measurable, sourced) -> what it needs -> what that needs ... -> first doable step.
+- Each refresh a walker finds the first unfinished step per chain and plugs the owner character into it: daily run (quick steps) or active list (focused/active steps). Shown with "toward <goal>".
+- Unknown requirements stop the chain = gap (tells playbooks/ChatGPT exactly what to research). Finished chains are logged with the buff gained (stacking, weekly review).
+- Playbooks say HOW to do a step well; chains say WHICH step matters.
+- First priorities (Zack, in order): 1) cooking speed, 2) start W7 activities not started yet, 3) push W5/W6/W7 systems started but neglected (e.g. Spelunking).
+- Order: finish card run-through -> build chains for the 3 priorities -> playbooks (Farming + Cooking first) -> all other systems.

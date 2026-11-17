@@ -13,6 +13,10 @@ exclude:   # leaves never shown (Zack's calls)
   - "more WOWs with"      # WOWs skipped (Griffy, findings/death_note_two_dbs.md)
 
 account_priority: {text: "Cooking speed", set_by: zack, date: 2026-11-17}
+priorities:   # Zack 2026-11-17, in order. Chains (goal trees) get built for these first.
+  - "Cooking speed"
+  - "Start W7 activities not started yet"
+  - "Push W5 / W6 / W7 systems started but neglected during the hiatus (e.g. Spelunking)"
 
 characters:
   Autiszemo:      # Death Bringer #1
