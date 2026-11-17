@@ -141,4 +141,20 @@ alerts:   # account-wide, routed. m = regex on "group/tab :: label"; when = read
   - {name: "Menagerie mission claimable", section: Luminous Menagerie, m: "^Missions.*Mission \\d", when: ready, owner: "mission owner"}
   - {name: "Refinery salt deficit", section: Refinery, m: "^Salt Excess.*:: .*deficit", when: match, owner: Autistastic}
   - {name: "Kaipu schematics affordable", section: Villagers, m: "Unpurchased Schematics", when: ready, owner: Autistabish}
-# Equinox "point available": needs the raw-save field (not in AutoReview) -> Phase 1b system index
+
+timer_routes:   # Toolbox dashboard READY NOW timers -> owner (shown as alerts + on the owner's card)
+  - {m: "Equinox bar", owner: anyone, note: "spend the Equinox point"}
+  - {m: "companion", owner: anyone}
+  - {m: "sailing trade|Greatest Catch", owner: Autisticles}
+  - {m: "Dr Defecaus|Baba Yaga|Slush|Mush|Magmus|Spiritlord", owner: Autistastic, note: "boss/miniboss (minibosses only when stored at max)"}
+  - {m: "Feather|Fisheroo|Megaflesh", owner: anyone, note: "minigame restart"}
+  - {m: "printer", owner: Autistomatic, note: "printer cycle"}
+  - {m: "trap", owner: Autistacular}
+  - {m: "building", owner: Autistastic}
+  - {m: "Library", owner: Autistopher, note: "books ready: max-first talents per card"}
+  - {m: "monument", owner: Autistachio, note: "Pulse: max the reward multi before fighting (Blinding Lanterns)"}
+  - {m: "crop", owner: Autiszemo}
+  - {m: "Sushi", owner: Autisticles}
+  - {m: "worship", owner: Autistabish}
+  - {m: "salt", owner: Autistastic}
+  - {m: "Research", owner: Autistotle}

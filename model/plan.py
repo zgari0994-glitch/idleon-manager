@@ -137,7 +137,20 @@ def bags(who):
     return [f"{a['label']}" for g, path, a in leaves('Storage')
             if g.get('name', '').startswith('Collect more inventory') and owner_of_tab(path) == who and is_open(a)]
 
+SI = yaml.safe_load(open(os.path.join(R, 'model', 'system_index.yaml'))) if os.path.exists(os.path.join(R, 'model', 'system_index.yaml')) else {}
+SEC2SYS = {}
+for k, v in SI.items():
+    for a in v['autoreview']: SEC2SYS.setdefault(a, []).append(k)
 ATASKS = Y.get('active_tasks', [])
+# Toolbox dashboard timers (newest timers.json across snapshots; age shown)
+tfiles = sorted(os.path.join(R, 'snapshots', d, 'timers.json') for d in os.listdir(os.path.join(R, 'snapshots'))
+                if os.path.exists(os.path.join(R, 'snapshots', d, 'timers.json')))
+TM = json.load(open(tfiles[-1])) if tfiles else None
+ready_now = []
+if TM:
+    for x in TM['timers'].get('READY NOW', []):
+        rt = next((r for r in Y.get('timer_routes', []) if re.search(r['m'], x['name'], re.I)), {'owner': 'unrouted'})
+        ready_now.append({'name': x['name'], 'value': x.get('value', ''), 'owner': rt['owner'], 'note': rt.get('note', '')})
 cards = []
 for name, cfg in Y['characters'].items():
     c = by_name[name]
@@ -153,6 +166,9 @@ for name, cfg in Y['characters'].items():
               'subs': subsystems(items, list(dict.fromkeys(e['s'] for e in ents))),
               'next': sorted(items, key=lambda i: (not i['ready'], i['infinite'], -i['score']))[:3]}
         if j.get('note'): jd['note'] = j['note']
+        sysk = list(dict.fromkeys(k for e in ents for k in SEC2SYS.get(e['s'], [])))
+        jd['where'] = [{'system': k, 'toolbox': [t.split(' (')[0] for t in SI[k]['toolbox']],
+                        'sources': (f"{SI[k]['transcripts']['tagged_rows']} tagged / {SI[k]['transcripts']['index_chunks']} chunks" if isinstance(SI[k]['transcripts'], dict) else 'no slug')} for k in sysk]
         if j.get('findings'): jd['findings'] = [f"sources/findings/{f}.md" for f in j['findings']]
         if not ents: jd['state'] = 'no AutoReview section: plan from sources/Toolbox map (gap pipeline)'
         if j.get('rule') == 'maestro':
@@ -171,6 +187,7 @@ for name, cfg in Y['characters'].items():
         if i['ready']: qg.setdefault((i['job'], i['group']), []).append(i)
     card['quick'] = [f"{g[0][:30]} / {g[1][:40]}: {v[0]['label'][:90]} ({v[0]['cur']} / {v[0]['goal']})" + (f" +{len(v)-1} more ready" if len(v) > 1 else '')
                      for g, v in qg.items()][:8]
+    card['quick'] = [f"READY (Toolbox): {r['name']} {r['value']}" + (f" · {r['note']}" if r['note'] else '') for r in ready_now if r['owner'] == name] + card['quick']
     card['active'] = [t for t in ATASKS if name in str(t['owner'])]
     card['locked'] = [l for l in Y.get('locked', []) if name in str(l['owner'])]
     card['talents'] = library(name)
@@ -190,7 +207,8 @@ ledger = json.load(open(lp)) if os.path.exists(lp) else None
 ranked = sorted(ATASKS, key=lambda t: (t['importance'], t['minutes']))
 account = {'money': {'total': sum(money.values()) + bank, 'bank': bank, 'per_char': money,
                      'holder': max(money, key=money.get)},
-           'alerts': alerts, 'salts': salts, 'ledger': ledger, 'active_ranked': ranked,
+           'alerts': alerts + [{'name': f"{r['name']} ({r['value']})", 'owner': r['owner'], 'hits': [r['note']] if r['note'] else []} for r in ready_now if r['owner'] in ('anyone', 'unrouted')],
+           'timers_captured': TM['captured_utc'] if TM else None, 'salts': salts, 'ledger': ledger, 'active_ranked': ranked,
            'quick_mode': [t for t in ranked if t['minutes'] <= 15],
            'unassigned': Y.get('unassigned', []),
            'loop': ['7am PC: refresh, full/maxed/timers checklist, dailies due now',
@@ -218,6 +236,7 @@ for cd in sorted(cards, key=lambda x: x['slot']):
         t = ', '.join(f"{k} {v}" for k, v in j['tiers'].items())
         L.append(f"- **{j['job']}**" + (f" ({t})" if t else '') + (f" · {j['note']}" if j.get('note') else '') + (f" · {j['state']}" if j.get('state') else ''))
         for f in j.get('findings', []): L.append(f"  - findings: {f}")
+        for w in j.get('where', []): L.append(f"  - data: {w['system']} · Toolbox {', '.join(w['toolbox'])} · sources {w['sources']}")
         if j.get('maestro_behind'): L.append(f"  - behind: {', '.join(j['maestro_behind'])}")
         for s in j['subs']:
             L.append(f"  - {s['name']}: " + '; '.join(f"{i['label'][:80]} {i['cur']} -> {i['goal']}" + (' READY' if i['ready'] else '') for i in s['items']) + (f" (+{s['more']} more)" if s.get('more', 0) > 0 else ''))

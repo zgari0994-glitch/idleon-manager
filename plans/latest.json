@@ -284,6 +284,22 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "farming",
+       "toolbox": [
+        "world-6/farming"
+       ],
+       "sources": "44 tagged / 1137 chunks"
+      },
+      {
+       "system": "beanstalk",
+       "toolbox": [
+        "world-6/beanstalk"
+       ],
+       "sources": "5 tagged / 98 chunks"
+      }
      ]
     },
     {
@@ -424,7 +440,23 @@
        "infinite": false
       }
      ],
-     "note": "Cooking speed = account priority now (Upgrade Vault Kitchen Dream-mare on Autistopher)"
+     "note": "Cooking speed = account priority now (Upgrade Vault Kitchen Dream-mare on Autistopher)",
+     "where": [
+      {
+       "system": "cooking",
+       "toolbox": [
+        "world-4/cooking"
+       ],
+       "sources": "30 tagged / 622 chunks"
+      },
+      {
+       "system": "meals",
+       "toolbox": [
+        "world-4/cooking"
+       ],
+       "sources": "30 tagged / 622 chunks"
+      }
+     ]
     },
     {
      "job": "Grimoire",
@@ -600,6 +632,15 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "grimoire",
+       "toolbox": [
+        "class-specific/grimoire"
+       ],
+       "sources": "24 tagged / 167 chunks"
+      }
      ]
     },
     {
@@ -694,6 +735,15 @@
        "score": 129,
        "ready": false,
        "infinite": false
+      }
+     ],
+     "where": [
+      {
+       "system": "post_office",
+       "toolbox": [
+        "GAP: no Toolbox page mapped"
+       ],
+       "sources": "no slug"
       }
      ]
     },
@@ -942,6 +992,15 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "death_note",
+       "toolbox": [
+        "world-3/death-note"
+       ],
+       "sources": "10 tagged / 433 chunks"
+      }
      ]
     }
    ],
@@ -950,7 +1009,9 @@
     "text": "Farming: Nutritious Soil:+35/54% growth speed for all land 35 -> 54",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
-   "quick": [],
+   "quick": [
+    "READY (Toolbox): Next crop fully grown Crops ready"
+   ],
    "active": [],
    "locked": [],
    "talents": {
@@ -1375,7 +1436,30 @@
        "infinite": false
       }
      ],
-     "note": "Daily: bubbles, vials, liquids, sigils, P2W, cauldron boosts. Liquids: Equinox Liquidvestment 5 -> 11 first"
+     "note": "Daily: bubbles, vials, liquids, sigils, P2W, cauldron boosts. Liquids: Equinox Liquidvestment 5 -> 11 first",
+     "where": [
+      {
+       "system": "alchemy_bubbles",
+       "toolbox": [
+        "world-2/bubbles"
+       ],
+       "sources": "14 tagged / 638 chunks"
+      },
+      {
+       "system": "alchemy_vials",
+       "toolbox": [
+        "world-2/vials"
+       ],
+       "sources": "4 tagged / 212 chunks"
+      },
+      {
+       "system": "alchemy_p2w",
+       "toolbox": [
+        "world-2/cauldrons"
+       ],
+       "sources": "6 tagged / 142 chunks"
+      }
+     ]
     },
     {
      "job": "Lab",
@@ -1384,6 +1468,7 @@
      "subs": [],
      "next": [],
      "note": "Full Lab map = Lane B gap",
+     "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
     },
     {
@@ -1560,6 +1645,15 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "summoning",
+       "toolbox": [
+        "world-6/summoning"
+       ],
+       "sources": "45 tagged / 233 chunks"
+      }
      ]
     },
     {
@@ -1709,6 +1803,15 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "tesseract",
+       "toolbox": [
+        "class-specific/tesseract"
+       ],
+       "sources": "3 tagged / 12 chunks"
+      }
      ]
     },
     {
@@ -1776,6 +1879,15 @@
        "score": 0,
        "ready": false,
        "infinite": false
+      }
+     ],
+     "where": [
+      {
+       "system": "killroy",
+       "toolbox": [
+        "world-2/killroy"
+       ],
+       "sources": "0 tagged / 15 chunks"
       }
      ],
      "weekly": {
@@ -2055,6 +2167,22 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "sailing",
+       "toolbox": [
+        "world-5/sailing"
+       ],
+       "sources": "24 tagged / 345 chunks"
+      },
+      {
+       "system": "islands",
+       "toolbox": [
+        "world-2/islands"
+       ],
+       "sources": "7 tagged / 0 chunks"
+      }
      ]
     },
     {
@@ -2177,6 +2305,16 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "printer",
+       "toolbox": [
+        "world-3/printer",
+        "tools/sampling-companion"
+       ],
+       "sources": "33 tagged / 677 chunks"
+      }
      ]
     },
     {
@@ -2271,6 +2409,15 @@
        "score": 0,
        "ready": false,
        "infinite": false
+      }
+     ],
+     "where": [
+      {
+       "system": "statues",
+       "toolbox": [
+        "GAP: no Toolbox page mapped"
+       ],
+       "sources": "15 tagged / 411 chunks"
       }
      ]
     },
@@ -2754,7 +2901,72 @@
        "infinite": false
       }
      ],
-     "note": "Gate: Research level ~10 (Autistotle). Jelly/Button maps = W7 map push"
+     "note": "Gate: Research level ~10 (Autistotle). Jelly/Button maps = W7 map push",
+     "where": [
+      {
+       "system": "sushi_station",
+       "toolbox": [
+        "world-7/sushi-station"
+       ],
+       "sources": "51 tagged / 49 chunks"
+      },
+      {
+       "system": "menagerie",
+       "toolbox": [
+        "world-7/menagerie"
+       ],
+       "sources": "18 tagged / 156 chunks"
+      },
+      {
+       "system": "clam_work",
+       "toolbox": [
+        "world-7/clam-work"
+       ],
+       "sources": "0 tagged / 76 chunks"
+      },
+      {
+       "system": "jelly_operator",
+       "toolbox": [
+        "world-7/jelly-operator"
+       ],
+       "sources": "2 tagged / 35 chunks"
+      },
+      {
+       "system": "the_button",
+       "toolbox": [
+        "world-7/the-button"
+       ],
+       "sources": "1 tagged / 14 chunks"
+      },
+      {
+       "system": "advice_fish",
+       "toolbox": [
+        "world-7/advice-fish"
+       ],
+       "sources": "1 tagged / 2 chunks"
+      },
+      {
+       "system": "zenith_market",
+       "toolbox": [
+        "world-7/zenith-market"
+       ],
+       "sources": "4 tagged / 26 chunks"
+      },
+      {
+       "system": "legend_talents",
+       "toolbox": [
+        "world-7/legend-talents"
+       ],
+       "sources": "2 tagged / 25 chunks"
+      },
+      {
+       "system": "arcade",
+       "toolbox": [
+        "world-2/arcade-shop"
+       ],
+       "sources": "1 tagged / 112 chunks"
+      }
+     ]
     }
    ],
    "flags": [],
@@ -2762,7 +2974,10 @@
     "text": "Bug prints: Goldfish 111.85M -> 150.0M",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
-   "quick": [],
+   "quick": [
+    "READY (Toolbox): Next sailing trade Open",
+    "READY (Toolbox): Sushi fuel full Full"
+   ],
    "active": [],
    "locked": [
     {
@@ -3165,7 +3380,31 @@
        "infinite": false
       }
      ],
-     "note": "Collider ON at 1050M (Zack: OFF gains nothing)"
+     "note": "Collider ON at 1050M (Zack: OFF gains nothing)",
+     "where": [
+      {
+       "system": "construction_buildings",
+       "toolbox": [
+        "world-3/buildings",
+        "world-3/construction"
+       ],
+       "sources": "8 tagged / 482 chunks"
+      },
+      {
+       "system": "atom_collider",
+       "toolbox": [
+        "world-3/atom-collider"
+       ],
+       "sources": "1 tagged / 90 chunks"
+      },
+      {
+       "system": "refinery",
+       "toolbox": [
+        "world-3/refinery"
+       ],
+       "sources": "6 tagged / 322 chunks"
+      }
+     ]
     },
     {
      "job": "Gaming",
@@ -3234,7 +3473,16 @@
        "infinite": false
       }
      ],
-     "note": "AutoReview covers snail only: fertilizer/mutations/imports/superbits/palette = Lane B gap"
+     "note": "AutoReview covers snail only: fertilizer/mutations/imports/superbits/palette = Lane B gap",
+     "where": [
+      {
+       "system": "gaming",
+       "toolbox": [
+        "world-5/gaming"
+       ],
+       "sources": "32 tagged / 429 chunks"
+      }
+     ]
     },
     {
      "job": "Royal Guardian #1 (top unlock)",
@@ -3243,7 +3491,16 @@
       "Royal Armory": "Not Yet Evaluated"
      },
      "subs": [],
-     "next": []
+     "next": [],
+     "where": [
+      {
+       "system": "royal_armory",
+       "toolbox": [
+        "class-specific/royal-armory"
+       ],
+       "sources": "93 tagged / 252 chunks"
+      }
+     ]
     },
     {
      "job": "Godshard set",
@@ -3446,6 +3703,15 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "armor_sets",
+       "toolbox": [
+        "world-3/armor-smithy"
+       ],
+       "sources": "no slug"
+      }
      ]
     },
     {
@@ -3455,6 +3721,7 @@
      "subs": [],
      "next": [],
      "note": "Minibosses only when stored spawns are max; bosses when keys are up",
+     "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
     },
     {
@@ -3519,6 +3786,15 @@
        "score": 0,
        "ready": false,
        "infinite": true
+      }
+     ],
+     "where": [
+      {
+       "system": "statues",
+       "toolbox": [
+        "GAP: no Toolbox page mapped"
+       ],
+       "sources": "15 tagged / 411 chunks"
       }
      ]
     },
@@ -3589,6 +3865,15 @@
        "infinite": false
       }
      ],
+     "where": [
+      {
+       "system": "killroy",
+       "toolbox": [
+        "world-2/killroy"
+       ],
+       "sources": "0 tagged / 15 chunks"
+      }
+     ],
      "weekly": {
       "week_start": null,
       "done": false
@@ -3602,7 +3887,10 @@
     "text": "Statue: Dragon (AFK golems): Level up Dragon Statue: AFK Cavern 15 4 -> 150",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
-   "quick": [],
+   "quick": [
+    "READY (Toolbox): Dr Defecaus Up \u00b7 Killed \u00b7 boss/miniboss (minibosses only when stored at max)",
+    "READY (Toolbox): Closest building Ready"
+   ],
    "active": [],
    "locked": [
     {
@@ -3765,7 +4053,16 @@
        "infinite": false
       }
      ],
-     "note": "Totem waves are Autistacular's"
+     "note": "Totem waves are Autistacular's",
+     "where": [
+      {
+       "system": "prayers",
+       "toolbox": [
+        "world-3/prayers"
+       ],
+       "sources": "10 tagged / 180 chunks"
+      }
+     ]
     },
     {
      "job": "Divinity",
@@ -3886,6 +4183,15 @@
        "score": 0,
        "ready": false,
        "infinite": false
+      }
+     ],
+     "where": [
+      {
+       "system": "divinity",
+       "toolbox": [
+        "world-5/divinity"
+       ],
+       "sources": "23 tagged / 1270 chunks"
       }
      ]
     },
@@ -4395,6 +4701,15 @@
        "infinite": false
       }
      ],
+     "where": [
+      {
+       "system": "caverns",
+       "toolbox": [
+        "world-5/hole"
+       ],
+       "sources": "114 tagged / 3478 chunks"
+      }
+     ],
      "findings": [
       "sources/findings/hole_caverns_1-5.md"
      ]
@@ -4546,6 +4861,15 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "slab",
+       "toolbox": [
+        "world-5/slab"
+       ],
+       "sources": "7 tagged / 88 chunks"
+      }
      ]
     },
     {
@@ -4603,6 +4927,15 @@
        "score": 131,
        "ready": false,
        "infinite": false
+      }
+     ],
+     "where": [
+      {
+       "system": "statues",
+       "toolbox": [
+        "GAP: no Toolbox page mapped"
+       ],
+       "sources": "15 tagged / 411 chunks"
       }
      ]
     }
@@ -4818,6 +5151,15 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "sneaking",
+       "toolbox": [
+        "world-6/sneaking"
+       ],
+       "sources": "31 tagged / 217 chunks"
+      }
      ]
     },
     {
@@ -4994,6 +5336,15 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "breeding",
+       "toolbox": [
+        "world-4/breeding"
+       ],
+       "sources": "36 tagged / 658 chunks"
+      }
      ]
     },
     {
@@ -5004,7 +5355,17 @@
      },
      "subs": [],
      "next": [],
-     "note": "Check Trapper Drone building (Buildings C tier) for auto-collect"
+     "note": "Check Trapper Drone building (Buildings C tier) for auto-collect",
+     "where": [
+      {
+       "system": "trapping",
+       "toolbox": [
+        "tools/traps",
+        "world-3/traps"
+       ],
+       "sources": "25 tagged / 501 chunks"
+      }
+     ]
     },
     {
      "job": "Compass",
@@ -5235,7 +5596,16 @@
        "infinite": false
       }
      ],
-     "note": "Nomadic Path 12/38: pos 15 Atomic Cost Crash, 17 Atomic Potential, 32 Aluminium Atom"
+     "note": "Nomadic Path 12/38: pos 15 Atomic Cost Crash, 17 Atomic Potential, 32 Aluminium Atom",
+     "where": [
+      {
+       "system": "compass",
+       "toolbox": [
+        "class-specific/compass"
+       ],
+       "sources": "99 tagged / 87 chunks"
+      }
+     ]
     },
     {
      "job": "Worship totems (waves)",
@@ -5244,6 +5614,7 @@
      "subs": [],
      "next": [],
      "note": "Waves 440/500 for Menagerie mission. Lowest: Breezy Battle 10, Citric Conflict 28",
+     "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
     },
     {
@@ -5313,6 +5684,15 @@
        "infinite": false
       }
      ],
+     "where": [
+      {
+       "system": "killroy",
+       "toolbox": [
+        "world-2/killroy"
+       ],
+       "sources": "0 tagged / 15 chunks"
+      }
+     ],
      "weekly": {
       "week_start": null,
       "done": false
@@ -5326,7 +5706,9 @@
     "text": "Breeding: Bonuses from All Meals: Sheepie88.77 base days to level 5 -> 13",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
-   "quick": [],
+   "quick": [
+    "READY (Toolbox): Closest trap Ready"
+   ],
    "active": [
     {
      "id": "compass_nomadic",
@@ -5424,6 +5806,7 @@
      "tiers": {},
      "subs": [],
      "next": [],
+     "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)",
      "maestro_behind": [
       "Mining 135/137 (Autistomatic)",
@@ -5565,7 +5948,16 @@
        "infinite": false
       }
      ],
-     "note": "Gates W7 minis (Sushi, Jelly). The Maw G7 0 -> 4 = artifact finds"
+     "note": "Gates W7 minis (Sushi, Jelly). The Maw G7 0 -> 4 = artifact finds",
+     "where": [
+      {
+       "system": "research",
+       "toolbox": [
+        "world-7/research"
+       ],
+       "sources": "7 tagged / 151 chunks"
+      }
+     ]
     },
     {
      "job": "Greenstacks",
@@ -6066,6 +6458,15 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "greenstacks",
+       "toolbox": [
+        "misc/storage"
+       ],
+       "sources": "3 tagged / 50 chunks"
+      }
      ]
     },
     {
@@ -6360,6 +6761,36 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "gemshop",
+       "toolbox": [
+        "prem-currency/gem-shop"
+       ],
+       "sources": "12 tagged / 580 chunks"
+      },
+      {
+       "system": "event_points_shop",
+       "toolbox": [
+        "misc/event-shop"
+       ],
+       "sources": "no slug"
+      },
+      {
+       "system": "ballot",
+       "toolbox": [
+        "world-2/vote-ballot"
+       ],
+       "sources": "no slug"
+      },
+      {
+       "system": "meritocracy",
+       "toolbox": [
+        "GAP: no Toolbox page mapped"
+       ],
+       "sources": "0 tagged / 209 chunks"
+      }
      ]
     }
    ],
@@ -6456,6 +6887,7 @@
      "subs": [],
      "next": [],
      "note": "Shares Tastic's Buildings list",
+     "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
     },
     {
@@ -6524,6 +6956,16 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "printer",
+       "toolbox": [
+        "world-3/printer",
+        "tools/sampling-companion"
+       ],
+       "sources": "33 tagged / 677 chunks"
+      }
      ]
     },
     {
@@ -6582,6 +7024,15 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "statues",
+       "toolbox": [
+        "GAP: no Toolbox page mapped"
+       ],
+       "sources": "15 tagged / 411 chunks"
+      }
      ]
     },
     {
@@ -6591,6 +7042,7 @@
      "subs": [],
      "next": [],
      "note": "Goal: afford all Upgrade Vault + shops. Best money farmer = GAP (fan: DK)",
+     "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
     },
     {
@@ -6599,6 +7051,7 @@
      "tiers": {},
      "subs": [],
      "next": [],
+     "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
     }
    ],
@@ -6607,7 +7060,9 @@
     "text": "Ore prints: Copper Ore 1.34B -> 8.0B",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
-   "quick": [],
+   "quick": [
+    "READY (Toolbox): Next printer cycle Ready \u00b7 printer cycle"
+   ],
    "active": [
     {
      "id": "dk_crystals",
@@ -7052,6 +7507,15 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "cards",
+       "toolbox": [
+        "tools/card-search"
+       ],
+       "sources": "24 tagged / 842 chunks"
+      }
      ]
     },
     {
@@ -7120,6 +7584,16 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "printer",
+       "toolbox": [
+        "world-3/printer",
+        "tools/sampling-companion"
+       ],
+       "sources": "33 tagged / 677 chunks"
+      }
      ]
     },
     {
@@ -7128,6 +7602,7 @@
      "tiers": {},
      "subs": [],
      "next": [],
+     "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
     },
     {
@@ -7222,6 +7697,15 @@
        "score": 0,
        "ready": false,
        "infinite": false
+      }
+     ],
+     "where": [
+      {
+       "system": "spelunk",
+       "toolbox": [
+        "world-7/spelunking"
+       ],
+       "sources": "90 tagged / 236 chunks"
       }
      ]
     }
@@ -7447,6 +7931,15 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "death_note",
+       "toolbox": [
+        "world-3/death-note"
+       ],
+       "sources": "10 tagged / 433 chunks"
+      }
      ]
     },
     {
@@ -7624,7 +8117,16 @@
        "infinite": false
       }
      ],
-     "note": "95%-off and Exalted stamp use = sourced only"
+     "note": "95%-off and Exalted stamp use = sourced only",
+     "where": [
+      {
+       "system": "stamps",
+       "toolbox": [
+        "world-1/stamps"
+       ],
+       "sources": "30 tagged / 519 chunks"
+      }
+     ]
     },
     {
      "job": "Upgrade Vault",
@@ -7720,7 +8222,16 @@
        "infinite": false
       }
      ],
-     "note": "Kitchen Dream-mare 251 -> 500 (cooking speed)"
+     "note": "Kitchen Dream-mare 251 -> 500 (cooking speed)",
+     "where": [
+      {
+       "system": "vault",
+       "toolbox": [
+        "misc/upgrade-vault"
+       ],
+       "sources": "1 tagged / 73 chunks"
+      }
+     ]
     },
     {
      "job": "Equinox",
@@ -7805,6 +8316,15 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "equinox",
+       "toolbox": [
+        "world-3/equinox"
+       ],
+       "sources": "0 tagged / 73 chunks"
+      }
      ]
     },
     {
@@ -7872,6 +8392,15 @@
        "score": 127,
        "ready": false,
        "infinite": false
+      }
+     ],
+     "where": [
+      {
+       "system": "saltlick",
+       "toolbox": [
+        "world-3/salt-lick"
+       ],
+       "sources": "0 tagged / 28 chunks"
       }
      ]
     },
@@ -7942,7 +8471,16 @@
        "infinite": false
       }
      ],
-     "note": "MAJOR: raise max talent level 299/441"
+     "note": "MAJOR: raise max talent level 299/441",
+     "where": [
+      {
+       "system": "library",
+       "toolbox": [
+        "GAP: no Toolbox page mapped"
+       ],
+       "sources": "9 tagged / 108 chunks"
+      }
+     ]
     },
     {
      "job": "Achievements",
@@ -8054,6 +8592,15 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "achievements",
+       "toolbox": [
+        "task-board/achievements"
+       ],
+       "sources": "7 tagged / 250 chunks"
+      }
      ]
     },
     {
@@ -8063,6 +8610,7 @@
      "subs": [],
      "next": [],
      "note": "No AutoReview section: Lane B gap",
+     "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
     }
    ],
@@ -8071,7 +8619,9 @@
     "text": "Stamps: Total Stamp Levels 9247 -> 11000",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
-   "quick": [],
+   "quick": [
+    "READY (Toolbox): Library 73 books \u00b7 books ready: max-first talents per card"
+   ],
    "active": [
     {
      "id": "achievements",
@@ -8149,6 +8699,7 @@
      "tiers": {},
      "subs": [],
      "next": [],
+     "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
     },
     {
@@ -8158,6 +8709,7 @@
      "subs": [],
      "next": [],
      "note": "Order: Justice 0, Wisdom 0, then Bravery 118 -> 300",
+     "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
     },
     {
@@ -8166,6 +8718,7 @@
      "tiers": {},
      "subs": [],
      "next": [],
+     "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
     },
     {
@@ -8342,6 +8895,22 @@
        "score": 0,
        "ready": false,
        "infinite": false
+      }
+     ],
+     "where": [
+      {
+       "system": "gallery",
+       "toolbox": [
+        "world-7/gallery"
+       ],
+       "sources": "0 tagged / 219 chunks"
+      },
+      {
+       "system": "cape_vine",
+       "toolbox": [
+        "world-4/cape-vine"
+       ],
+       "sources": "1 tagged / 50 chunks"
       }
      ]
     },
@@ -8521,6 +9090,29 @@
        "ready": false,
        "infinite": false
       }
+     ],
+     "where": [
+      {
+       "system": "coral_reef",
+       "toolbox": [
+        "world-7/coral-reef"
+       ],
+       "sources": "1 tagged / 82 chunks"
+      },
+      {
+       "system": "dancing_coral",
+       "toolbox": [
+        "GAP: no Toolbox page mapped"
+       ],
+       "sources": "no slug"
+      },
+      {
+       "system": "coral_kid",
+       "toolbox": [
+        "GAP: no Toolbox page mapped"
+       ],
+       "sources": "no slug"
+      }
      ]
     }
    ],
@@ -8530,6 +9122,9 @@
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
+    "READY (Toolbox): Bravery monument 7.50x / 2.40x \u00b7 Fight \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)",
+    "READY (Toolbox): Justice monument 7.55x / 2.40x \u00b7 Fight \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)",
+    "READY (Toolbox): Wisdom monument 7.43x / 2.40x \u00b7 Fight \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)",
     "W7 reef / Bonuses: +3% Spelunking Amber gain per Crystal Shrine level above 200Unlock for 248 Glowing Coral ( (1,875 / 248)"
    ],
    "active": [
@@ -8575,7 +9170,35 @@
    },
    "holder": "Autisticles"
   },
-  "alerts": [],
+  "alerts": [
+   {
+    "name": "Next free companion (Claim)",
+    "owner": "anyone",
+    "hits": []
+   },
+   {
+    "name": "Feather Restart (Restart available)",
+    "owner": "anyone",
+    "hits": [
+     "minigame restart"
+    ]
+   },
+   {
+    "name": "Fisheroo Reset (Restart available)",
+    "owner": "anyone",
+    "hits": [
+     "minigame restart"
+    ]
+   },
+   {
+    "name": "Equinox bar full (Full)",
+    "owner": "anyone",
+    "hits": [
+     "spend the Equinox point"
+    ]
+   }
+  ],
+  "timers_captured": "2026-11-16T19:19:58.135Z",
   "salts": [
    "Rank 29 Red Salt: excess",
    "Rank 22 Orange Salt: excess",

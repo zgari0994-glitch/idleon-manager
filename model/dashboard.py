@@ -88,6 +88,7 @@ D.cards.forEach(cd=>{const c=el('div','card');c.id='slot-'+cd.slot;
   const tiers=Object.entries(j.tiers||{}).map(([k,v])=>k+' '+v).join(', ');if(tiers)t.append(' ',el('span','tier','('+tiers+')'));b.append(t);
   if(j.note)b.append(el('div','sub',j.note));if(j.state)b.append(el('div','sub',j.state));
   (j.findings||[]).forEach(f=>b.append(el('div','sub','findings: '+f)));
+  (j.where||[]).forEach(w=>b.append(el('div','sub','data: '+w.system+' · Toolbox '+w.toolbox.join(', ')+' · sources '+w.sources)));
   if(j.maestro_behind)b.append(el('div','sub','behind: '+j.maestro_behind.join(', ')));
   const ul=el('ul');let xi=0;(j.subs||[]).forEach(sb=>{ul.append(el('li','sh',sb.name+(sb.more>0?' (+'+sb.more+' more)':'')));
    sb.items.forEach(x=>{const id=cd.slot+'-'+ji+'-'+(xi++);const li=el('li',done[id]?'done':'');
