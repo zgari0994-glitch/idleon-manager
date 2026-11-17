@@ -14,7 +14,7 @@ acq = json.load(open(os.path.join(R, 'model', 'acquire.json')))
 spots = {c['name']: c for c in (timers or {}).get('characters', [])}
 for c in plan['cards']:
     sp = spots.get(c['name'])
-    if sp: c['afk'] = f"{sp['spot']} ({sp['afk_for']})"
+    if sp: c['afk_now'] = f"{sp['spot']} ({sp['afk_for']})"
 
 side = {
     'stage': {'high': secs.get('Pinchy high'), 'low': secs.get('Pinchy low')},
@@ -34,7 +34,7 @@ side = {
     'ingame': {k: [x['name'] + ' (' + (x.get('bonus') or '') + ')' for x in acq[k] if x['kind'] == 'in-game'] for k in ('trophies', 'nametags', 'hats')},
     'doot': next((c['effect'] for c in mech['companions'] if c['name'] == 'King Doot'), ''),
 }
-data = {'meta': plan['meta'], 'cards': sorted(plan['cards'], key=lambda c: c['slot']), 'side': side, 'stamp': stamp}
+data = {'account': plan.get('account', {}), 'meta': plan['meta'], 'cards': sorted(plan['cards'], key=lambda c: c['slot']), 'side': side, 'stamp': stamp}
 
 PAGE = """<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -55,7 +55,7 @@ main{display:grid;grid-template-columns:55fr 45fr;gap:14px;padding:14px 16px}
 .job ul{list-style:none;margin:3px 0 0;padding:0}.job li{display:flex;gap:6px;align-items:flex-start;font-size:12px;color:#d9cde0;padding:1px 0}
 .job li input{accent-color:var(--em);margin-top:2px}.job li.done span{text-decoration:line-through;color:var(--mute)}
 .job li.done span::before{content:"✓ ";color:var(--em)}
-.arrow{color:var(--em)}
+.arrow{color:var(--em)}.move,.quick,.act,.afk,.lock{font-size:12px;margin:2px 0}.move b{color:var(--gold)}.quick b{color:var(--em)}.act b{color:#7fb3ff}.afk b{color:var(--mute)}.lock b{color:var(--warn)}.sh{color:var(--gold);font-size:11.5px;margin-top:3px}summary{cursor:pointer}
 .box{margin-bottom:10px}.box h3{margin:0 0 6px;font-size:12px;text-transform:uppercase;letter-spacing:.6px;color:var(--gold)}
 .box ul{margin:0;padding-left:16px}.box li{margin:2px 0}.tags{display:flex;flex-wrap:wrap;gap:4px}
 .tag{border:1px solid var(--line);border-radius:10px;padding:1px 7px;font-size:11.5px;color:#d9cde0}
@@ -77,19 +77,36 @@ document.getElementById('stage').textContent='Stage: strongest '+(D.side.stage.h
 const C=document.getElementById('cards');
 D.cards.forEach(cd=>{const c=el('div','card');c.id='slot-'+cd.slot;
  const h=el('h2');h.append(el('span',null,cd.slot+'. '+cd.name),el('small','muted',cd.level));c.append(h);
- c.append(el('div','sub',cd.class+' · AFK '+cd.afk));
+ c.append(el('div','sub',cd.class+' · coins '+Number(cd.money).toExponential(2)+(cd.afk_now?' · now '+cd.afk_now:'')));
+ const line=(cls,lab,txt)=>{const d=el('div',cls);d.append(el('b',null,lab+' '),txt);c.append(d)};
+ line('move','MOVE',cd.move.text+' ['+cd.move.src+']');
+ cd.quick.forEach(q=>line('quick','QUICK',q));
+ cd.active.forEach(t=>line('act','ACTIVE',t.task+(t.notes?' · '+t.notes.join('; '):'')));
+ line('afk','AFK',cd.afk.text+' ['+cd.afk.src+']');
  cd.flags.forEach(f=>c.append(el('div','flag','⚑ '+f)));
- cd.jobs.forEach((j,ji)=>{const b=el('div','job');const t=el('div','t',j.job);
+ cd.jobs.forEach((j,ji)=>{const b=el('details','job');const t=el('summary','t',j.job);
   const tiers=Object.entries(j.tiers||{}).map(([k,v])=>k+' '+v).join(', ');if(tiers)t.append(' ',el('span','tier','('+tiers+')'));b.append(t);
-  if(j.note)b.append(el('div','sub',j.note));
-  if(j.next&&j.next.length){const ul=el('ul');j.next.forEach((x,xi)=>{const id=cd.slot+'-'+ji+'-'+xi;const li=el('li',done[id]?'done':'');
+  if(j.note)b.append(el('div','sub',j.note));if(j.state)b.append(el('div','sub',j.state));
+  (j.findings||[]).forEach(f=>b.append(el('div','sub','findings: '+f)));
+  if(j.maestro_behind)b.append(el('div','sub','behind: '+j.maestro_behind.join(', ')));
+  const ul=el('ul');let xi=0;(j.subs||[]).forEach(sb=>{ul.append(el('li','sh',sb.name+(sb.more>0?' (+'+sb.more+' more)':'')));
+   sb.items.forEach(x=>{const id=cd.slot+'-'+ji+'-'+(xi++);const li=el('li',done[id]?'done':'');
    const cb=el('input');cb.type='checkbox';cb.checked=!!done[id];cb.onchange=()=>{done[id]=cb.checked;li.classList.toggle('done',cb.checked);store.set(KEY,done)};
-   const s=el('span');s.append(x.label+': '+(x.cur||'?')+' ',el('span','arrow','→'),' '+(x.goal||'?'));li.append(cb,s);ul.append(li)});b.append(ul)}
-  c.append(b)});
+   const s=el('span');s.append(x.label.slice(0,110)+': '+(x.cur||'?')+' ',el('span','arrow','→'),' '+(x.goal||'?')+(x.ready?' READY':''));li.append(cb,s);ul.append(li)})});
+  b.append(ul);c.append(b)});
+ cd.locked.forEach(l=>line('lock','LOCKED',l.feature+' ← '+l.unlock));
+ const tl=Object.entries(cd.talents||{});if(tl.length){const b=el('details','job');b.append(el('summary','t','Library talents'));tl.forEach(([k,v])=>b.append(el('div','sub',k+': '+v.join(', '))));c.append(b)}
+ if(cd.bags.length)line('sub','Bags missing',cd.bags.join('; '));
  C.append(c)});
 const S=document.getElementById('side'),sd=D.side;
 const box=(title,node)=>{const b=el('div','box');b.append(el('h3',null,title),node);S.append(b)};
 const list=a=>{const u=el('ul');a.forEach(x=>u.append(el('li',null,x)));return u};
+const A=D.account||{};
+if(A.loop)box('Daily loop',list(A.loop));
+if(A.alerts)box('Account alerts',list(A.alerts.length?A.alerts.map(a=>a.name+' → '+a.owner+': '+a.hits.join('; ')):['none']));
+if(A.active_ranked)box('Active tasks (ranked)',list(A.active_ranked.map(t=>t.importance+' · '+t.owner+': '+t.task+' ('+t.minutes+'m)')));
+if(A.money)box('Money',list(['Total '+Number(A.money.total).toExponential(2)+' · bank '+Number(A.money.bank).toExponential(2),A.money.holder+' holds the most']));
+if(A.unassigned)box('Unassigned',list(A.unassigned.map(u=>u.job+': '+u.note)));
 const tags=a=>{const d=el('div','tags');a.forEach(x=>d.append(el('span','tag',x)));if(!a.length)d.append(el('span','muted','none'));return d};
 const gl=el('ul');sd.gaps.forEach(g=>{const li=el('li');li.append(el('b',null,g.score+' '),g.section+': '+g.label+' ',el('span','arrow',(g.cur||'?')+' → '+(g.goal||'?')));gl.append(li)});
 box('Biggest Thigh Gaps (Griffy rinse, one per system)',gl);

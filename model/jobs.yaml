@@ -1,84 +1,144 @@
-# Layer 2: who owns what. Locked 2026-11-16 with Zack. Change only on his approval.
-# Goal metric = AutoReview section tier (sourced, recomputed every snapshot).
-# Rules (Zack): class whose skills buff the activity always wins; same class -> better one keeps class jobs,
-# the other takes account jobs; no class owner -> lightest load (basis: light). Never guess.
+# Layer 2: who owns what. v2 2026-11-17 (Phase 1 card engine). Change only on Zack's approval.
+# Rules (Zack): class whose skills buff the activity wins; same class -> better one keeps class jobs, the other
+# takes account jobs; no class owner -> lightest load (basis: light). Never guess. Never skip a job: defer with a reason.
 # basis: griffy | zack | autoreview | class | light
+# Section entry: "Name" (every open item) or {s: Name, m: regex, rest: true}
+#   m    = keep only leaves whose "group/tab :: label" matches (case-insensitive)
+#   rest = keep leaves of that section NOT claimed by any m-filter elsewhere
+# afk / move / locked: {text, src}. src = creator + video, AutoReview, wiki, zack, fan (flagged), or GAP.
+# active: ids from active_tasks below.
+
+exclude:   # leaves never shown (Zack's calls)
+  - "Prayer not needed"   # Royal Sampler stays on (Zack)
 
 characters:
   Autiszemo:      # Death Bringer #1
+    afk: {text: "ZOW/CHOW targets W1-W6 (Death Note kills)", src: zack}
     jobs:
-      - {job: Farming, sections: [Farming, Beanstalk], skill: Farming, basis: class}
-      - {job: Cooking, sections: [Cooking], skill: Cooking, basis: class}
+      - {job: Farming, sections: [Farming, Beanstalk], basis: class}
+      - {job: Cooking, sections: [Cooking], basis: class, note: "Cooking speed = account priority now (Upgrade Vault Kitchen Dream-mare on Autistopher)"}
       - {job: Grimoire, sections: [The Grimoire], basis: class}
       - {job: Post Office, sections: [Post Office], basis: zack}
-      - {job: "ZOWs + CHOWs W1-W6 (100K / 1M kills)", sections: [Death Note], basis: zack}
+      - {job: "ZOWs + CHOWs W1-W6", sections: [{s: Death Note, m: "Zow|Chow|W[1-6]"}], basis: zack}
   Autistocat:     # Arcane Cultist
+    afk: {text: "GAP: no sourced AFK spot yet", src: GAP}
+    active: [cranium]
     jobs:
-      - {job: Alchemy, sections: [Bubbles, Vials, Sigils], skill: Alchemy, basis: class}
-      - {job: Lab, sections: [], skill: Laboratory, basis: class, note: "18/18 nodes on; 5/24 jewels missing (new); weekly character chips"}
-      - {job: Summoning, sections: [Summoning], skill: Summoning, basis: class}
+      - {job: Alchemy, sections: [Bubbles, Vials, Sigils, Pay2Win], basis: class, note: "Daily: bubbles, vials, liquids, sigils, P2W, cauldron boosts. Liquids: Equinox Liquidvestment 5 -> 11 first"}
+      - {job: Lab, sections: [], basis: class, note: "Full Lab map = Lane B gap"}
+      - {job: Summoning, sections: [Summoning], basis: class}
       - {job: Tesseract, sections: [The Tesseract], basis: class}
       - {job: "Kilroy (weekly, mage line)", sections: [Killroy], basis: zack, weekly: killroy}
   Autisticles:    # Siege Breaker
+    afk: {text: "GAP: no sourced AFK spot yet", src: GAP}
     jobs:
-      - {job: Sailing, sections: [Sailing, Islands], skill: Sailing, basis: class}
-      - {job: Bug prints, sections: [Sampling], skill: Catching, basis: griffy}
-      - {job: "Statue turn-ins (farmed by Autistomatic)", sections: [Statues], basis: zack}
+      - {job: Sailing, sections: [Sailing, Islands], basis: class}
+      - {job: Bug prints, sections: [{s: Sampling, rest: true}], basis: griffy}
+      - {job: "Statue turn-ins (farmed by others)", sections: [{s: Statues, rest: true}], basis: zack}
+      - {job: "W7 minis", sections: [Sushi Station, Luminous Menagerie, Clam Work, Jelly Operator, The Button, Advice Fish, Zenith Market, Legend Talents, Arcade], basis: light, note: "Gate: Research level ~10 (Autistotle). Jelly/Button maps = W7 map push"}
   Autistastic:    # Divine Knight #1
+    afk: {text: "Cavern 15 Temple (Ancient Golems): Dragon Statue 4 -> 150 + golem card", src: "AutoReview statue table"}
     jobs:
-      - {job: Construction, sections: [Buildings, Atom Collider], skill: Construction, basis: class}
-      - {job: Gaming, sections: [Gaming], skill: Gaming, basis: class}
-      - {job: "Royal Guardian #1 (unlock ASAP: 250 orb at Bored Beans)", sections: [Royal Armory], basis: griffy}
+      - {job: Construction, sections: [Buildings, Atom Collider, Refinery], basis: class, note: "Collider ON at 1050M (Zack: OFF gains nothing)"}
+      - {job: Gaming, sections: [Gaming], basis: class, note: "AutoReview covers snail only: fertilizer/mutations/imports/superbits/palette = Lane B gap"}
+      - {job: "Royal Guardian #1 (top unlock)", sections: [Royal Armory], basis: griffy}
       - {job: Godshard set, sections: [Armor Sets], basis: zack}
+      - {job: "World bosses + minibosses (DK drop rate)", sections: [], basis: zack, note: "Minibosses only when stored spawns are max; bosses when keys are up"}
+      - {job: "Statue: Dragon (AFK golems)", sections: [{s: Statues, m: "Dragon"}], basis: autoreview}
       - {job: "Kilroy (weekly, warrior line)", sections: [Killroy], basis: zack, weekly: killroy}
   Autistabish:    # Elemental Sorcerer
+    afk: {text: "Penguins (Box Statue 25 -> 40), then Cryosnakes (Seesaw 25 -> 40). Candy or Active ES", src: "AutoReview statue table"}
+    move: {text: "Move Well buckets onto the rock layer: Cobaltine 124,895 left gates #27, #30, #53", src: "Griffy gPQrOK53BDI + findings/hole_caverns_1-5.md"}
     jobs:
-      - {job: "Worship: souls + prayers (W3 town)", sections: [Prayers], skill: Worship, basis: zack}
-      - {job: Divinity, sections: [Divinity], skill: Divinity, basis: class}
-      - {job: Caverns, sections: [Villagers, Shallow Caverns, Glowshroom Tunnels, Underground Overgrowth], basis: light}
+      - {job: "Worship: souls + prayers (town)", sections: [Prayers], basis: zack, note: "Totem waves are Autistacular's"}
+      - {job: Divinity, sections: [Divinity], basis: class}
+      - {job: "The Hole (all 15 caverns + villagers)", sections: [Villagers, Shallow Caverns, Glowshroom Tunnels, Underground Overgrowth], basis: light, findings: [hole_caverns_1-5]}
       - {job: Slab, sections: [Slab], basis: light}
+      - {job: "Statues: ES (Box, Seesaw)", sections: [{s: Statues, m: "ES at"}], basis: autoreview}
   Autistacular:   # Wind Walker
+    afk: {text: "W7: push the cave until his tasks are planned", src: zack}
+    active: [compass_nomadic, breeding_ww, worship_totems]
     jobs:
-      - {job: Sneaking, sections: [Sneaking], skill: Sneaking, basis: class}
-      - {job: Breeding / shiny fence, sections: [Breeding], skill: Breeding, basis: class}
-      - {job: "Trapping (collect + set)", sections: [Trapping], skill: Trapping, basis: zack}
-      - {job: Compass, sections: [Compass], basis: class}
-      - {job: Tower Defense fighting, sections: [], basis: griffy}
+      - {job: Sneaking, sections: [Sneaking], basis: class}
+      - {job: Breeding, sections: [Breeding], basis: class}
+      - {job: "Trapping (collect + set)", sections: [Trapping], basis: zack, note: "Check Trapper Drone building (Buildings C tier) for auto-collect"}
+      - {job: Compass, sections: [Compass], basis: class, note: "Nomadic Path 12/38: pos 15 Atomic Cost Crash, 17 Atomic Potential, 32 Aluminium Atom"}
+      - {job: "Worship totems (waves)", sections: [], basis: zack, note: "Waves 440/500 for Menagerie mission. Lowest: Breezy Battle 10, Citric Conflict 28"}
       - {job: "Kilroy (weekly, archer line)", sections: [Killroy], basis: zack, weekly: killroy}
   Autistotle:     # Voidwalker
+    afk: {text: "Lab (Maestro Lab catch-up)", src: zack}
+    active: [greenstacks, observations]
     jobs:
       - {job: "Maestro: #1 in every skill", sections: [], rule: maestro, basis: zack}
-      - {job: Research, sections: [Research], skill: Research, basis: zack}
+      - {job: Research, sections: [Research], basis: zack, note: "Gates W7 minis (Sushi, Jelly). The Maw G7 0 -> 4 = artifact finds"}
       - {job: Greenstacks, sections: [Greenstacks, Endangered Greenstacks], basis: light}
       - {job: "Gem / Event shops + votes", sections: [Gem Shop, Event Shop, Bonus Ballot, Meritocracy], basis: light}
   Autistomatic:   # Divine Knight #2
+    afk: {text: "W3 snakes map (statue work, Zack's call)", src: zack}
+    active: [dk_crystals]
     jobs:
-      - {job: "Construction #2", sections: [Buildings], skill: Construction, basis: class}
-      - {job: Ore prints, sections: [Sampling], skill: Mining, basis: griffy}
-      - {job: Statue farming, sections: [Statues], basis: griffy}
-      - {job: Money / Green Mushroom kills, sections: [], basis: griffy}
-      - {job: "Royal Guardian #2 (unlock ASAP)", sections: [Royal Armory], basis: griffy}
+      - {job: "Construction #2", sections: [], basis: class, note: "Shares Tastic's Buildings list"}
+      - {job: Ore prints, sections: [{s: Sampling, m: ":: .*\\bOre\\b"}], basis: griffy}
+      - {job: "Statues: DK crystals", sections: [{s: Statues, m: "DK at"}], basis: griffy}
+      - {job: "Money", sections: [], basis: griffy, note: "Goal: afford all Upgrade Vault + shops. Best money farmer = GAP (fan: DK)"}
+      - {job: "Royal Guardian #2", sections: [], basis: griffy}
   Autistronaut:   # Elemental Sorcerer
+    afk: {text: "W7 Spelunking tunnels (Spelunking levels)", src: "fan (DigitalTQ), unverified"}
     jobs:
-      - {job: Cards / materials, sections: [Cards], basis: griffy}
-      - {job: Log prints, sections: [Sampling], skill: Chopping, basis: class}
-      - {job: "Lab #2", sections: [], skill: Laboratory, basis: class}
-      - {job: "Spelunking (until an RG takes it)", sections: [Spelunking], skill: Spelunking, basis: zack}
-    plan: "Elite Class Swap Token (not in shop 2026-11-15) -> Bubonic Conjuror -> Arcane Cultist"
+      - {job: Cards, sections: [Cards], basis: griffy}
+      - {job: Log prints, sections: [{s: Sampling, m: ":: .*\\bLogs?\\b"}], basis: class}
+      - {job: "Lab #2", sections: [], basis: class}
+      - {job: "Spelunking (until an RG takes it)", sections: [Spelunking], basis: zack}
+    plan: "Elite Class Swap Token -> Bubonic Conjuror -> Arcane Cultist"
   Autistopher:    # Death Bringer #2
+    afk: {text: "His own Super CHOWs (100M)", src: griffy}
+    active: [achievements]
     jobs:
-      - {job: "2nd AFK farm: his own Super CHOWs (100M)", sections: [Death Note], basis: griffy}
-      - {job: "Account shops: Stamps, Upgrade Vault, Equinox, Salt Lick, Library", sections: [Stamps, Upgrade Vault, Equinox, Salt Lick, Library], basis: light}
+      - {job: "Super CHOWs", sections: [{s: Death Note, rest: true}], basis: griffy}
+      - {job: "Stamps", sections: [Stamps], basis: light, note: "95%-off and Exalted stamp use = sourced only"}
+      - {job: "Upgrade Vault", sections: [Upgrade Vault], basis: light, note: "Kitchen Dream-mare 251 -> 500 (cooking speed)"}
+      - {job: "Equinox", sections: [Equinox], basis: light}
+      - {job: "Salt Lick", sections: [Salt Lick], basis: light}
+      - {job: "Library (account-wide)", sections: [{s: Library, m: "^Account Wide"}], basis: light, note: "MAJOR: raise max talent level 299/441"}
       - {job: Achievements, sections: [Achievements], basis: light}
-      - {job: "World bosses (daily keys, when up)", sections: [], basis: light, timer: boss}
-  Autistachio:    # Beginner, held until the next master class (Griffy)
+      - {job: "Minehead", sections: [], basis: light, note: "No AutoReview section: Lane B gap"}
+  Autistachio:    # Beginner
+    afk: {text: "Divinity (Divinity slippers)", src: zack}
     jobs:
-      - {job: Divinity to 40, sections: [Divinity], basis: autoreview}
-      - {job: Traps, sections: [Trapping], basis: autoreview}
-      - {job: "Gallery: trophies, hats, capes", sections: [Gallery, Cape Vine], basis: light}
-      - {job: "W7 reef: Coral Reef, Dancing Coral, Coral Kid", sections: [Coral Reef, Dancing Coral, Coral Kid], basis: light}
-      - {job: Emperor, sections: [Emperor], basis: light}
+      - {job: Divinity to 40, sections: [], basis: autoreview}
+      - {job: "Monuments (after Divinity)", sections: [], basis: zack, note: "Order: Justice 0, Wisdom 0, then Bravery 118 -> 300"}
+      - {job: Traps, sections: [], basis: autoreview}
+      - {job: "Gallery + capes", sections: [Gallery, Cape Vine], basis: light}
+      - {job: "W7 reef", sections: [Coral Reef, Dancing Coral, Coral Kid], basis: light}
 
-# W7 minis with no class source, parked on the lightest loads (move on Zack's call)
-extra_light:
-  Autisticles: [Clam Work, Jelly Operator, The Button, Advice Fish, Sushi Station, Zenith Market, Luminous Menagerie, Arcade, Legend Talents]
+unassigned:
+  - {job: Emperor, sections: [Emperor], note: "Off Chio. Research who owns it (RG drop rate vs best fighter)"}
+
+active_tasks:   # importance 1 = top. minutes = rough session length. Quick win = <= 15 min.
+  - {id: cranium, owner: Autistocat, task: "Cranium Cooking on Wurms", importance: 1, minutes: 480, notes: ["Disconnect Viaduct of the Gods in Lab", "Move sigil char to a liquid", "Cauldron pts -> W7 bubble rolls"], src: zack}
+  - {id: compass_nomadic, owner: Autistacular, task: "Compass Nomadic push (Atomic Cost Crash 15, Atomic Potential 17, Aluminium 32)", importance: 1, minutes: 120, src: "AutoReview Compass + game"}
+  - {id: statues_es, owner: Autistabish, task: "Box (Penguins) then Seesaw (Cryosnakes) 25 -> 40", importance: 2, minutes: 60, src: "AutoReview statue table"}
+  - {id: dk_crystals, owner: Autistomatic, task: "DK crystals at Minichiefs: Essence Statue 2 -> 40", importance: 2, minutes: 60, src: "AutoReview statue table"}
+  - {id: worship_totems, owner: Autistacular, task: "Worship totems: Breezy Battle 10, Citric Conflict 28 (need 500 total)", importance: 2, minutes: 30, src: "AutoReview + Menagerie mission"}
+  - {id: greenstacks, owner: Autistotle, task: "Greenstack runs (closest items, candy/skips)", importance: 3, minutes: 30, src: zack}
+  - {id: observations, owner: Autistotle, task: "Research observations (daily tries)", importance: 2, minutes: 10, src: zack}
+  - {id: achievements, owner: Autistopher, task: "Achievement runs (easiest open first)", importance: 3, minutes: 30, src: zack}
+  - {id: breeding_ww, owner: Autistacular, task: "Active WW breeding (overnight candidate)", importance: 3, minutes: 480, src: zack}
+  - {id: bag_sweep, owner: "best-DR RG", task: "Bag sweep: farm missing bags once, store, each char pulls", importance: 3, minutes: 45, src: zack}
+  - {id: green_mush, owner: Autistachio, task: "1M Green Mushrooms for W2 weekly boss", importance: 3, minutes: 240, src: AutoReview}
+  - {id: prints_redo, owner: Autistomatic, task: "Redo all prints, then Royal Sampler off (Zack keeps it on for now)", importance: 3, minutes: 20, src: zack}
+
+locked:   # never hidden: what unlocks it + where that sits
+  - {feature: "Aluminium Atom", unlock: "Compass Nomadic Path pos 32 (now 12/38)", owner: Autistacular}
+  - {feature: "Royal Guardian x2", unlock: "DK 600+, Masterius (W6 Troll Playground), 250 Orb kills at Bored Beans (fan steps)", owner: "Autistastic, Autistomatic"}
+  - {feature: "Cobaltine / Brunite / Freezium sediments", unlock: "Well rock layers 124.9K / 1.5M / 20M", owner: Autistabish}
+  - {feature: "Cavern 16 Fountain", unlock: "Polonai level 16 (15 now, 30.1%)", owner: Autistabish}
+  - {feature: "Jelly Operator / The Button", unlock: "W7 map push + Research level", owner: "Autistotle, Autisticles"}
+  - {feature: "Isotope Discovery superbit (+10 atom max)", unlock: "Gaming superbits (20/72)", owner: Autistastic}
+  - {feature: "Elite Class Swap Token", unlock: "Gem shop rotation (watch)", owner: Autistronaut}
+
+alerts:   # account-wide, routed. m = regex on "group/tab :: label"; when = ready (cur >= goal) | match
+  - {name: "Menagerie mission claimable", section: Luminous Menagerie, m: "^Missions.*Mission \\d", when: ready, owner: "mission owner"}
+  - {name: "Refinery salt deficit", section: Refinery, m: "^Salt Excess.*:: .*deficit", when: match, owner: Autistastic}
+  - {name: "Kaipu schematics affordable", section: Villagers, m: "Unpurchased Schematics", when: ready, owner: Autistabish}
+# Equinox "point available": needs the raw-save field (not in AutoReview) -> Phase 1b system index
