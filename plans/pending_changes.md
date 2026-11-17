@@ -137,3 +137,4 @@ Build all of these as one design change, not as patches. Each line was approved 
   15 Temple: what to level beyond golem cards/opals.
   Villagers: Polonai (is Sentinel Passages released / worth more opals?), Kaipu (level with opals? shop priority = faster cavern resources first), Cosmos (Conjuror pts), Minau (measurement focus), Bolaia (study target).
 - Zack challenge: Bish is the statue guy, so AFKing him at a Monument is wrong. Agreed. Proposed: Bish AFKs Penguins (Box 25 -> 40, candy there), then Cryosnakes (Seesaw 25 -> 40). Monument AFK (Justice/Wisdom) moves to the lowest-load character (proposal: Autistopher). Pending Zack's OK.
+- RULE (Zack): monuments and other "just needs AFK hours" spots go to character 11 (Autistachio), or to any character whose AFK spot isn't progressing something better. Bish AFKs statues (Penguins, then Cryosnakes). Monument order for Autistachio: Justice (0 hrs) / Wisdom (0 hrs), then Bravery (118 -> 300).
