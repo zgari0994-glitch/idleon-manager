@@ -21,7 +21,7 @@ characters:
       - {job: Post Office, sections: [Post Office], basis: zack}
       - {job: "ZOWs + CHOWs W1-W6", sections: [{s: Death Note, m: "Zow|Chow|W[1-6]"}], basis: zack}
   Autistocat:     # Arcane Cultist
-    afk: {text: "GAP: no sourced AFK spot yet", src: GAP}
+    afk: {text: "Active-first class (master class progress is active-only without its AFK mechanic). Runs Cranium Cooking active; plain AFK spot = GAP", src: "Griffy N5yJ4-tZLbY 00:52 (2026-10-04)"}
     active: [cranium]
     jobs:
       - {job: Alchemy, sections: [Bubbles, Vials, Sigils, Pay2Win], basis: class, note: "Daily: bubbles, vials, liquids, sigils, P2W, cauldron boosts. Liquids: Equinox Liquidvestment 5 -> 11 first"}
@@ -30,7 +30,7 @@ characters:
       - {job: Tesseract, sections: [The Tesseract], basis: class}
       - {job: "Kilroy (weekly, mage line)", sections: [Killroy], basis: zack, weekly: killroy}
   Autisticles:    # Siege Breaker
-    afk: {text: "GAP: no sourced AFK spot yet", src: GAP}
+    afk: {text: "His best kills/hr map: Melting Every Day turns AFK kills into forge progress (bars). Feeds Copper Bar 1B shortage. Exact map = GAP", src: "Griffy ypb7kpQov30 00:01 (2026-08-03)"}
     jobs:
       - {job: Sailing, sections: [Sailing, Islands], basis: class}
       - {job: Bug prints, sections: [{s: Sampling, rest: true}], basis: griffy}

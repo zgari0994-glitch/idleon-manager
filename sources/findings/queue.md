@@ -5,6 +5,7 @@ Lane A (gap orders from cards) always goes first. Lane B (proactive, thinnest sy
 ## Lane A: gap orders
 1. hole | Pulse 0DX3KPt_VlM + glvAam8Mol8 | monument hour targets (Bravery/Justice/Wisdom): exact numbers + reasoning
 2. hole | Griffy + Pulse, any Well section | bucket split between rock layer and sediments
+3. afk_spots | Griffy ypb7kpQov30 00:00-00:10 + streams | best AFK map for Siege Breaker (forge) and Arcane Cultist
 
 ## Lane B: proactive (tagged rows now -> order)
 - clam_work (0 rows): pulseidle wL0qRyP7GGU (2026-10-16) 00:14-00:17 [3 hits]; pulseidle DiimMepKdIs (2026-10-19) 00:13-00:16 [3 hits]; griffybit KZH_HUZf8rc (2025-12-27) 00:02-01:25 [2 hits]
