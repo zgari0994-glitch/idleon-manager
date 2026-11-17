@@ -94,5 +94,8 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Slab: missing stacks listed by source (quests, W7 town vendor incl. Fishbowl, anvil tabs IV-VII, dungeon drops).
 - Worship has no AutoReview section in this run: hole. Where to spend Conjuror pts / which schematics first = gap.
 - AFK spot for Bish = gap (no source yet).
-- Bish AFK: save (7:42 PM) shows him on W7 map 11, Coralcave Crab. AutoReview's statue table says Dragon Statue = "AFK Cavern 15" (Ancient Golem). Dragon Statue 4 -> 150 is Statues tier 11 and boosts ALL statue bonuses. Zack farms golems for cards, so Cavern 15 covers golem cards + Dragon Statue. Proposed AFK for Bish: Cavern 15.
+- Bish AFK: save (7:42 PM) shows him on W7 map 11, Coralcave Crab. AutoReview's statue table says Dragon Statue = "AFK Cavern 15" (Ancient Golem). Dragon Statue 4 -> 150 is Statues tier 11 and boosts ALL statue bonuses. Zack farms golems for cards, so Cavern 15 covers golem cards + Dragon Statue. Correction: Autistastic is the one at golems (Cavern 15), not Bish. Keep Tastic there.
 - AFK-spot pass: use AutoReview's per-statue "Farmer" table plus card targets to give every character a sourced AFK spot.
+- Ancient Golem card goal (AutoReview Drop Rate section): level 2 -> 7 (max, 6 star). Next step Silver: 25,559 owned, 14,442 more. Smolderin' Plateau set 80/85 for Platinum.
+- Golem tie-ins: Kaipu Schematic #82 Sanctum of LOOT (+20% DR per Sanctum cleared), #87 Sanctum of EXP, #92 Sanctum of DMG, #86 Roaring Flame (unbought); Minau Measurement #16 scales with Golem Kills (775.65M); Compass medallion Ancient Golem 0 -> 1 (Autistacular).
+- Bish AFK still open (on Coralcave Crab, W7 map 11).
