@@ -14,14 +14,18 @@ CREATORS = {
 }
 ALL_IDLEON = {'griffybit', 'pulseidle'}  # IdleOn-only channels
 MIN_SECONDS = 120
-SKIP_IDS = {'N2EFqfVHNMM'}  # 21-hour Remastered Movie (excluded by Zack)
+SKIP_IDS = set()  # nothing excluded. N2EFqfVHNMM = Griffy's 21-hour F2P Remastered Movie: kept, flagged for Zack
 IDLEON = re.compile(r'idle\s?on|lavaflame|\bw[1-7]\b|world [1-7]|master ?class|death ?bringer|wind ?walker|'
                     r'arcane cultist|royal guardian|voidwalker|vman|alchemy|sailing|divinity|summoning|sneaking|'
                     r'farming|breeding|spelunk|account review|roast|bingo|\brg\b|manic|purity|grimoire|compass|'
                     r'tesseract|research|sushi|jelly|clam|menagerie|zenith|statue|caverns?|the hole|gaming|lab\b|'
                     r'equinox|vault|shimmerfin|emperor|kattlekruk', re.I)
 ROOT = 'idleon_transcripts'
-NOCTURNE_OK = re.compile(r'idle\s?on', re.I)  # every real Nocturne IdleOn video says IdleOn in the title
+NOCTURNE_OK = re.compile(r'idle\s?on', re.I)
+# Nocturne posts other games too. Titles with IdleOn keywords but no "IdleOn" are kept as 'check' (reviewed by hand),
+# unless they name one of his other games.
+OTHER_GAMES = re.compile(r'golf|valheim|forts|zomboid|risk of rain|deep rock|throne and liberty|move or die|content warning|'
+                         r'lovers in a dangerous|subscriber|milestone|minecraft|lethal company|phasmophobia', re.I)
 
 
 def kind(title, from_streams):
@@ -56,27 +60,31 @@ def _list_tab(url):
 def main():
     os.makedirs(ROOT, exist_ok=True)
     out = os.path.join(ROOT, 'video_list.csv')
-    rows = []
+    rows, seen = [], set()
     for name, url in CREATORS.items():
         for tab, from_streams in (('/videos', False), ('/streams', True)):
             entries = list_tab(url + tab)
             print(f'  {name}{tab}: {len(entries)} found')
             for e in entries:
                 vid, title, dur = e['id'], e.get('title') or '', int(e.get('duration') or 0)
+                if vid in seen: continue  # same video in both tabs
+                seen.add(vid)
                 d = e.get('upload_date') or ''
                 date = f'{d[:4]}-{d[4:6]}-{d[6:]}' if len(d) == 8 else ''
                 if vid in SKIP_IDS: why, inc = 'excluded by Zack', 'no'
                 elif dur and dur < MIN_SECONDS: why, inc = 'under 2 min', 'no'
                 elif name in ALL_IDLEON or NOCTURNE_OK.search(title): why, inc = 'idleon', 'yes'
+                elif IDLEON.search(re.sub(r'nocturne\s*gaming', '', title, flags=re.I)) and not OTHER_GAMES.search(title): why, inc = 'keyword match, check by hand', 'check'
                 else: why, inc = 'title not idleon', 'no'
+                if vid == 'N2EFqfVHNMM': why = 'idleon (21-hour F2P Remastered Movie: confirm with Zack)'
                 rows.append([name, vid, date, title, round(dur / 60, 1), kind(title, from_streams), tab[1:], inc, why])
         print(f'{name}: listed')
     with open(out, 'w', newline='', encoding='utf-8') as f:
         w = csv.writer(f)
         w.writerow(['creator', 'video_id', 'date', 'title', 'duration_min', 'type', 'tab', 'include', 'why'])
         w.writerows(rows)
-    yes = [r for r in rows if r[7] == 'yes']
-    print(f'Done: {len(rows)} videos listed, {len(yes)} IdleOn videos to transcribe. File: {out}')
+    yes = [r for r in rows if r[7] == 'yes']; chk = [r for r in rows if r[7] == 'check']
+    print(f'Done: {len(rows)} videos listed, {len(yes)} IdleOn videos, {len(chk)} to check by hand. File: {out}')
 
 
 if __name__ == '__main__':
