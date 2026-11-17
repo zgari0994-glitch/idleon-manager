@@ -1,0 +1,71 @@
+"""Step 1 of the Apify transcript run: list every IdleOn video from Griffy, Pulse and Nocturne.
+No transcripts are fetched here (listing is not rate limited the way transcripts were).
+
+Run in Downloads:  py list_videos.py
+Writes: idleon_transcripts\\video_list.csv (every video with include = yes/no and why)
+"""
+import csv, os, re
+import yt_dlp
+
+CREATORS = {
+    'griffybit': 'https://www.youtube.com/@GriffyBit',
+    'pulseidle': 'https://www.youtube.com/@PulseIdle',
+    'nocturne': 'https://www.youtube.com/@NocturneGamingOfficial',
+}
+ALL_IDLEON = {'griffybit', 'pulseidle'}  # IdleOn-only channels
+MIN_SECONDS = 120
+SKIP_IDS = {'N2EFqfVHNMM'}  # 21-hour Remastered Movie (excluded by Zack)
+IDLEON = re.compile(r'idle\s?on|lavaflame|\bw[1-7]\b|world [1-7]|master ?class|death ?bringer|wind ?walker|'
+                    r'arcane cultist|royal guardian|voidwalker|vman|alchemy|sailing|divinity|summoning|sneaking|'
+                    r'farming|breeding|spelunk|account review|roast|bingo|\brg\b|manic|purity|grimoire|compass|'
+                    r'tesseract|research|sushi|jelly|clam|menagerie|zenith|statue|caverns?|the hole|gaming|lab\b|'
+                    r'equinox|vault|shimmerfin|emperor|kattlekruk', re.I)
+ROOT = 'idleon_transcripts'
+
+
+def kind(title, from_streams):
+    t = (title or '').lower()
+    if re.search(r'review|roast|bingo', t): return 'review'
+    if from_streams: return 'stream'
+    if re.search(r'\bep\.?\s?\d|episode|f2p|playthrough|next chapter|beginner', t): return 'playthrough'
+    return 'guide'
+
+
+def list_tab(url):
+    opts = {'quiet': True, 'no_warnings': True, 'extract_flat': True,
+            'extractor_args': {'youtubetab': {'approximate_date': ['']}}}
+    try:
+        with yt_dlp.YoutubeDL(opts) as y:
+            info = y.extract_info(url, download=False) or {}
+    except Exception as ex:
+        if 'does not have a' in str(ex): return []
+        raise
+    return [e for e in (info.get('entries') or []) if e and e.get('id')]
+
+
+def main():
+    os.makedirs(ROOT, exist_ok=True)
+    out = os.path.join(ROOT, 'video_list.csv')
+    rows = []
+    for name, url in CREATORS.items():
+        for tab, from_streams in (('/videos', False), ('/streams', True)):
+            for e in list_tab(url + tab):
+                vid, title, dur = e['id'], e.get('title') or '', int(e.get('duration') or 0)
+                d = e.get('upload_date') or ''
+                date = f'{d[:4]}-{d[4:6]}-{d[6:]}' if len(d) == 8 else ''
+                if vid in SKIP_IDS: why, inc = 'excluded by Zack', 'no'
+                elif dur and dur < MIN_SECONDS: why, inc = 'under 2 min', 'no'
+                elif name in ALL_IDLEON or IDLEON.search(title): why, inc = 'idleon', 'yes'
+                else: why, inc = 'title not idleon', 'no'
+                rows.append([name, vid, date, title, round(dur / 60, 1), kind(title, from_streams), tab[1:], inc, why])
+        print(f'{name}: listed')
+    with open(out, 'w', newline='', encoding='utf-8') as f:
+        w = csv.writer(f)
+        w.writerow(['creator', 'video_id', 'date', 'title', 'duration_min', 'type', 'tab', 'include', 'why'])
+        w.writerows(rows)
+    yes = [r for r in rows if r[7] == 'yes']
+    print(f'Done: {len(rows)} videos listed, {len(yes)} IdleOn videos to transcribe. File: {out}')
+
+
+if __name__ == '__main__':
+    main()

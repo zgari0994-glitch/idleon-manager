@@ -22,12 +22,14 @@ CREATORS = {
 }
 ROOT = os.path.join('idleon_transcripts', 'sources', 'creators')
 MIN_SECONDS = 120
-PAUSE = (4, 8)
-COOLDOWN = 900
+PAUSE = (25, 45)   # gentler: v7
+COOLDOWN = 2700    # 45 min after a rate limit
 SKIP_IDS = {'N2EFqfVHNMM'}  # 21-hour Remastered Movie (excluded by Zack)
 IDLEON = re.compile(r'idle\s?on|lavaflame|\bw[1-7]\b|world [1-7]|master ?class|death ?bringer|wind ?walker|'
                     r'arcane cultist|royal guardian|voidwalker|vman|alchemy|sailing|divinity|summoning|sneaking|'
-                    r'farming|breeding|spelunk|account review|roast|bingo', re.I)
+                    r'farming|breeding|spelunk|account review|roast|bingo|\brg\b|manic|purity|grimoire|compass|tesseract|'
+                    r'research|sushi|jelly|clam|menagerie|zenith|statue|caverns?|the hole|gaming|lab\b|equinox|vault', re.I)
+ALL_IDLEON = {'griffybit', 'pulseidle'}  # IdleOn-only channels: fetch every title
 ORDER = {'review': 0, 'guide': 1, 'playthrough': 2, 'stream': 3}
 API = YouTubeTranscriptApi()
 
@@ -62,7 +64,7 @@ def load_done(name):
     p = os.path.join(ROOT, name, 'index.csv')
     if not os.path.exists(p) or os.path.getsize(p) == 0: return set()
     with open(p, encoding='utf-8') as f:
-        return {r['video_id'] for r in csv.DictReader(f) if r.get('status') in ('ok', 'partial', 'skipped', 'unclear')}
+        return {r['video_id'] for r in csv.DictReader(f) if r.get('status') in ('ok', 'partial', 'skipped')}
 
 def writer(name):
     base = os.path.join(ROOT, name); os.makedirs(os.path.join(base, 'transcripts'), exist_ok=True)
@@ -85,7 +87,7 @@ def main():
                 date = f'{d[:4]}-{d[4:6]}-{d[6:]}' if len(d) == 8 else ''
                 if vid in done or vid in SKIP_IDS: continue
                 if dur and dur < MIN_SECONDS: continue
-                if not IDLEON.search(title):
+                if name not in ALL_IDLEON and not IDLEON.search(title):
                     w.writerow([vid, date, title, round(dur / 60, 1), '', '', 0, '', '', 'unclear']); unclear += 1; continue
                 queue.append((ORDER[kind(title, from_streams)], name, vid, title, dur, date, from_streams)); n += 1
         f.flush()
