@@ -197,6 +197,42 @@ for name, cfg in Y['characters'].items():
     card['talents'] = library(name)
     card['bags'] = bags(name)
     if cfg.get('plan'): card['flags'].append('PLAN: ' + cfg['plan'])
+    # PARK: data rule (Zack-approved): DBs park on the open target with the fewest kills left
+    rule = cfg.get('afk', {}).get('park_rule')
+    card['park'] = {'text': cfg.get('afk', {}).get('text', 'GAP'), 'src': cfg.get('afk', {}).get('src', 'GAP')}
+    if rule:
+        cand = []
+        for g, path, a in leaves('Death Note'):
+            if rule in g.get('name', '') + path and is_open(a):
+                mm = re.search(r'\(([\d.,]+[KMB]?) remaining\)', a['label'])
+                if mm: cand.append((num(mm.group(1)), -(num(a.get('cur')) or 0), a['label'].split(' (')[0], g.get('name', '')))
+        if cand:
+            r0 = min(cand)
+            card['park'] = {'text': f"{r0[2]} ({r0[0]:,.0f} kills left, {-r0[1]:.0f}% done) · fewest kills left of {len(cand)} open", 'src': 'data rule (Zack-approved) on AutoReview Death Note'}
+    # WORKING TOWARD: rinse #1 for this character; flag when it is not on the account priority
+    pri = Y.get('account_priority', {}).get('text', '')
+    pjobs = [j['job'] for j in cfg['jobs'] if j.get('feeds') == 'priority']
+    rin = max(finite or [{}], key=lambda i: i.get('score', 0)) if finite else None
+    card['toward'] = {'priority': pri, 'priority_jobs': pjobs,
+                      'rinse1': f"{rin['job']}: {rin['label'][:90]} {rin['cur']} -> {rin['goal']} (score {rin['score']})" if rin else 'none',
+                      'flag': (f"Rinse ranks {rin['job']} first, not your priority ({pri})" if rin and rin['job'] not in pjobs and pjobs else '')}
+    # TODAY: ordered steps
+    steps = []
+    for r in ready_now:
+        if r['owner'] == name: steps.append({'do': f"{r['name']}: {r['value']}", 'done': 'claimed / restarted', 'src': 'Toolbox timer' + (' · ' + r['note'] if r['note'] else '')})
+    pitems = [i for i in finite if i['job'] in pjobs]
+    if pitems:
+        pi = max(pitems, key=lambda i: (i['ready'], i['score']))
+        if pi['section'] == 'Death Note' and rule:
+            steps.append({'do': f"PRIORITY ({pri}): {pi['job']} at PARK: {card['park']['text'].split(' · ')[0]}", 'done': 'target cleared, then next fewest-left', 'src': card['park']['src']})
+        else:
+            steps.append({'do': f"PRIORITY ({pri}): {pi['job']}: {pi['label'][:90]} {pi['cur']} -> {pi['goal']}", 'done': f"{pi['goal']}", 'src': 'rinse within your priority jobs'})
+    if card['move']['src'] != 'GAP': steps.append({'do': card['move']['text'], 'done': 'goal reached or next step', 'src': card['move']['src']})
+    for v in qg.values():
+        i = v[0]; steps.append({'do': f"{i['job']}: {i['label'][:90]}", 'done': f"{i['goal']}", 'src': 'AutoReview (ready now)' + (f", +{len(v)-1} more" if len(v) > 1 else '')})
+    for t in card['active']:
+        steps.append({'do': f"ACTIVE {t['task']}" + (' · ' + '; '.join(t.get('notes', [])) if t.get('notes') else ''), 'done': f"{t['minutes']} min session", 'src': t['src']})
+    card['today'] = steps[:10]
     cards.append(card)
 
 # ---------- account block ----------
@@ -233,19 +269,21 @@ L += [f"- Unassigned: {u['job']} ({u['note']})" for u in account['unassigned']]
 L.append('')
 for cd in sorted(cards, key=lambda x: x['slot']):
     L.append(f"## {cd['slot']}. {cd['name']} · {cd['class']} {cd['level']} · coins {m(cd['money'])}")
-    L.append(f"- MOVE: {cd['move']['text']} [{cd['move']['src']}]")
-    for q in cd['quick']: L.append(f"- QUICK: {q}")
-    for t in cd['active']: L.append(f"- ACTIVE: {t['task']}" + (' · ' + '; '.join(t.get('notes', [])) if t.get('notes') else ''))
-    L.append(f"- AFK: {cd['afk']['text']} [{cd['afk']['src']}] (save shows {cd['save_map']})")
+    tw = cd['toward']
+    L.append(f"WORKING TOWARD: {tw['priority']} via {', '.join(tw['priority_jobs']) or 'none of his jobs'} · rinse #1: {tw['rinse1']}")
+    if tw['flag']: L.append(f"FLAG: {tw['flag']}")
+    L.append(f"PARK: {cd['park']['text']} [{cd['park']['src']}] (save shows {cd['save_map']})")
+    L.append('TODAY:')
+    for n, st in enumerate(cd['today'], 1): L.append(f"  {n}. {st['do']} · done when {st['done']} · {st['src']}")
     for f in cd['flags']: L.append(f"- FLAG {f}")
+    L.append('DETAILS:')
     for j in cd['jobs']:
         t = ', '.join(f"{k} {v}" for k, v in j['tiers'].items())
         L.append(f"- **{j['job']}**" + (f" ({t})" if t else '') + (f" · {j['note']}" if j.get('note') else '') + (f" · {j['state']}" if j.get('state') else ''))
         for f in j.get('findings', []): L.append(f"  - findings: {f}")
-        for w in j.get('where', []): L.append(f"  - data: {w['system']} · Toolbox {', '.join(w['toolbox'])} · sources {w['sources']}")
         if j.get('maestro_behind'): L.append(f"  - behind: {', '.join(j['maestro_behind'])}")
-        for s in j['subs']:
-            L.append(f"  - {s['name']}: " + '; '.join(f"{i['label'][:80]} {i['cur']} -> {i['goal']}" + (' READY' if i['ready'] else '') for i in s['items']) + (f" (+{s['more']} more)" if s.get('more', 0) > 0 else ''))
+        for sb in j['subs']:
+            L.append(f"  - {sb['name']}: " + '; '.join(f"{i['label'][:80]} {i['cur']} -> {i['goal']}" + (' READY' if i['ready'] else '') for i in sb['items']) + (f" (+{sb['more']} more)" if sb.get('more', 0) > 0 else ''))
     for l in cd['locked']: L.append(f"- LOCKED: {l['feature']} <- {l['unlock']}")
     for k, v in cd['talents'].items(): L.append(f"- Talents {k}: " + ', '.join(v))
     if cd['bags']: L.append('- Bags missing: ' + '; '.join(b[:50] for b in cd['bags']))

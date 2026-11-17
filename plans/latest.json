@@ -33,7 +33,8 @@
    "level": 832,
    "afk": {
     "text": "ZOW/CHOW targets W1-W6 (Death Note kills)",
-    "src": "zack"
+    "src": "zack",
+    "park_rule": "with Autiszemo"
    },
    "save_map": "W1 map 16",
    "money": 9.909666240519515e+29,
@@ -415,8 +416,8 @@
      ]
     },
     {
-     "job": "Grimoire",
-     "basis": "class",
+     "job": "Grimoire + Wraith Form (bones)",
+     "basis": "zack",
      "tiers": {
       "The Grimoire": "1/10"
      },
@@ -589,6 +590,7 @@
        "infinite": false
       }
      ],
+     "note": "Zemo always runs Wraith Form (outfit buffs him)",
      "where": [
       {
        "system": "grimoire",
@@ -984,6 +986,35 @@
     "Inventory Bag H: 2 slots (Quest)",
     "Peeper Pouch: 3 slots (Crafted)",
     "Loot Luggage: 1 slots (Vendor)"
+   ],
+   "park": {
+    "text": "Ancientfish in Ancient Fissure (100,000 kills left, 0% done) \u00b7 fewest kills left of 35 open",
+    "src": "data rule (Zack-approved) on AutoReview Death Note"
+   },
+   "toward": {
+    "priority": "Cooking speed",
+    "priority_jobs": [
+     "Cooking"
+    ],
+    "rinse1": "Farming: Stronger Vines:+90/112% chance for +1 crop when fully grown 45 -> 56 (score 133)",
+    "flag": "Rinse ranks Farming first, not your priority (Cooking speed)"
+   },
+   "today": [
+    {
+     "do": "Next crop fully grown: Crops ready",
+     "done": "claimed / restarted",
+     "src": "Toolbox timer"
+    },
+    {
+     "do": "PRIORITY (Cooking speed): Cooking: Unlock max level 150 plates 90 -> 150",
+     "done": "150",
+     "src": "rinse within your priority jobs"
+    },
+    {
+     "do": "Farming: Stronger Vines:+90/112% chance for +1 crop when fully grown 45 -> 56",
+     "done": "goal reached or next step",
+     "src": "rinse (Griffy-weighted AutoReview)"
+    }
    ]
   },
   {
@@ -1888,6 +1919,28 @@
     "Peeper Pouch: 3 slots (Crafted)",
     "Rucksack Of Riches: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
+   ],
+   "park": {
+    "text": "Active-first class (master class progress is active-only without its AFK mechanic). Runs Cranium Cooking active; plain AFK spot = GAP",
+    "src": "Griffy N5yJ4-tZLbY 00:52 (2026-10-04)"
+   },
+   "toward": {
+    "priority": "Cooking speed",
+    "priority_jobs": [],
+    "rinse1": "Alchemy: Dream Of Ironfish 68 -> 70 (score 138)",
+    "flag": ""
+   },
+   "today": [
+    {
+     "do": "Alchemy: Dream Of Ironfish 68 -> 70",
+     "done": "goal reached or next step",
+     "src": "rinse (Griffy-weighted AutoReview)"
+    },
+    {
+     "do": "ACTIVE Cranium Cooking on Wurms \u00b7 Disconnect Viaduct of the Gods in Lab; Move sigil char to a liquid; Cauldron pts -> W7 bubble rolls",
+     "done": "480 min session",
+     "src": "zack"
+    }
    ]
   },
   {
@@ -2955,6 +3008,38 @@
    "bags": [
     "Rucksack Of Riches: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
+   ],
+   "park": {
+    "text": "His best kills/hr map: Melting Every Day turns AFK kills into forge progress (bars). Feeds Copper Bar 1B shortage. Exact map = GAP",
+    "src": "Griffy ypb7kpQov30 00:01 (2026-08-03)"
+   },
+   "toward": {
+    "priority": "Cooking speed",
+    "priority_jobs": [],
+    "rinse1": "Bug prints: Goldfish 111.85M -> 150.0M (score 132)",
+    "flag": ""
+   },
+   "today": [
+    {
+     "do": "Next sailing trade: Open",
+     "done": "claimed / restarted",
+     "src": "Toolbox timer"
+    },
+    {
+     "do": "Greatest Catch: Restart available",
+     "done": "claimed / restarted",
+     "src": "Toolbox timer"
+    },
+    {
+     "do": "Sushi fuel full: Full",
+     "done": "claimed / restarted",
+     "src": "Toolbox timer"
+    },
+    {
+     "do": "Bug prints: Goldfish 111.85M -> 150.0M",
+     "done": "goal reached or next step",
+     "src": "rinse (Griffy-weighted AutoReview)"
+    }
    ]
   },
   {
@@ -3995,6 +4080,38 @@
     "Inventory Bag D: 2 slots (Quest)",
     "Inventory Bag H: 2 slots (Quest)",
     "Loot Luggage: 1 slots (Vendor)"
+   ],
+   "park": {
+    "text": "Cavern 15 Temple (Ancient Golems): Dragon Statue 4 -> 150 + golem card",
+    "src": "AutoReview statue table"
+   },
+   "toward": {
+    "priority": "Cooking speed",
+    "priority_jobs": [],
+    "rinse1": "Statue: Dragon (AFK golems): Level up Dragon Statue: AFK Cavern 15 4 -> 150 (score 131)",
+    "flag": ""
+   },
+   "today": [
+    {
+     "do": "Dr Defecaus: Up \u00b7 Killed",
+     "done": "claimed / restarted",
+     "src": "Toolbox timer \u00b7 boss/miniboss (minibosses only when stored at max)"
+    },
+    {
+     "do": "Closest building: Ready",
+     "done": "claimed / restarted",
+     "src": "Toolbox timer"
+    },
+    {
+     "do": "Gaming: Step 2: Choose a safety level. 90.0% safety = 12 unspent mail 4 -> 12",
+     "done": "goal reached or next step",
+     "src": "rinse (Griffy-weighted AutoReview)"
+    },
+    {
+     "do": "Gaming: Step 2: Choose a safety level. 90.0% safety = 12 unspent mail",
+     "done": "12",
+     "src": "AutoReview (ready now), +2 more"
+    }
    ]
   },
   {
@@ -5055,6 +5172,38 @@
     "Peeper Pouch: 3 slots (Crafted)",
     "Rucksack Of Riches: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
+   ],
+   "park": {
+    "text": "Penguins (Box Statue 25 -> 40), then Cryosnakes (Seesaw 25 -> 40). Candy or Active ES",
+    "src": "AutoReview statue table"
+   },
+   "toward": {
+    "priority": "Cooking speed",
+    "priority_jobs": [],
+    "rinse1": "Statues: ES (Box, Seesaw): Level up Box Statue: Candy or Active ES at Penguins 25 -> 40 (score 131)",
+    "flag": ""
+   },
+   "today": [
+    {
+     "do": "Move Well buckets onto the rock layer: Cobaltine 124,895 left gates #27, #30, #53",
+     "done": "goal reached or next step",
+     "src": "Griffy gPQrOK53BDI + findings/hole_caverns_1-5.md"
+    },
+    {
+     "do": "The Hole (all 15 caverns + villagers): You have 12 unspent Conjuror Pts!",
+     "done": "34",
+     "src": "AutoReview (ready now)"
+    },
+    {
+     "do": "The Hole (all 15 caverns + villagers): Level 4 More Wishes: Unlock the next Wish Type",
+     "done": "25",
+     "src": "AutoReview (ready now), +9 more"
+    },
+    {
+     "do": "ACTIVE Box (Penguins) then Seesaw (Cryosnakes) 25 -> 40",
+     "done": "60 min session",
+     "src": "AutoReview statue table"
+    }
    ]
   },
   {
@@ -5822,6 +5971,43 @@
     "Peeper Pouch: 3 slots (Crafted)",
     "Rucksack Of Riches: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
+   ],
+   "park": {
+    "text": "W7: push the cave until his tasks are planned",
+    "src": "zack"
+   },
+   "toward": {
+    "priority": "Cooking speed",
+    "priority_jobs": [],
+    "rinse1": "Breeding: Bonuses from All Meals: Sheepie88.77 base days to level 5 -> 13 (score 133)",
+    "flag": ""
+   },
+   "today": [
+    {
+     "do": "Closest trap: Ready",
+     "done": "claimed / restarted",
+     "src": "Toolbox timer"
+    },
+    {
+     "do": "Breeding: Bonuses from All Meals: Sheepie88.77 base days to level 5 -> 13",
+     "done": "goal reached or next step",
+     "src": "rinse (Griffy-weighted AutoReview)"
+    },
+    {
+     "do": "ACTIVE Compass Nomadic push (Atomic Cost Crash 15, Atomic Potential 17, Aluminium 32)",
+     "done": "120 min session",
+     "src": "AutoReview Compass + game"
+    },
+    {
+     "do": "ACTIVE Worship totems: Breezy Battle 10, Citric Conflict 28 (need 500 total)",
+     "done": "30 min session",
+     "src": "AutoReview + Menagerie mission"
+    },
+    {
+     "do": "ACTIVE Active WW breeding (overnight candidate)",
+     "done": "480 min session",
+     "src": "zack"
+    }
    ]
   },
   {
@@ -6896,6 +7082,33 @@
     "Inventory Bag H: 2 slots (Quest)",
     "Peeper Pouch: 3 slots (Crafted)",
     "Loot Luggage: 1 slots (Vendor)"
+   ],
+   "park": {
+    "text": "Lab (Maestro Lab catch-up)",
+    "src": "zack"
+   },
+   "toward": {
+    "priority": "Cooking speed",
+    "priority_jobs": [],
+    "rinse1": "Greenstacks: Collect 200 Greenstacks 166 -> 200 (score 129)",
+    "flag": ""
+   },
+   "today": [
+    {
+     "do": "Greenstacks: Collect 200 Greenstacks 166 -> 200",
+     "done": "goal reached or next step",
+     "src": "rinse (Griffy-weighted AutoReview)"
+    },
+    {
+     "do": "ACTIVE Greenstack runs (closest items, candy/skips)",
+     "done": "30 min session",
+     "src": "zack"
+    },
+    {
+     "do": "ACTIVE Research observations (daily tries)",
+     "done": "10 min session",
+     "src": "zack"
+    }
    ]
   },
   {
@@ -7143,6 +7356,33 @@
     "Peeper Pouch: 3 slots (Crafted)",
     "Rucksack Of Riches: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
+   ],
+   "park": {
+    "text": "W3 snakes map (statue work, Zack's call)",
+    "src": "zack"
+   },
+   "toward": {
+    "priority": "Cooking speed",
+    "priority_jobs": [],
+    "rinse1": "Ore prints: Copper Ore 1.34B -> 8.0B (score 132)",
+    "flag": ""
+   },
+   "today": [
+    {
+     "do": "Ore prints: Copper Ore 1.34B -> 8.0B",
+     "done": "goal reached or next step",
+     "src": "rinse (Griffy-weighted AutoReview)"
+    },
+    {
+     "do": "ACTIVE DK crystals at Minichiefs: Essence Statue 2 -> 40",
+     "done": "60 min session",
+     "src": "AutoReview statue table"
+    },
+    {
+     "do": "ACTIVE Redo all prints, then Royal Sampler off (Zack keeps it on for now)",
+     "done": "20 min session",
+     "src": "zack"
+    }
    ]
   },
   {
@@ -7780,6 +8020,23 @@
     "Inventory Bag H: 2 slots (Quest)",
     "Bummo Bag: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
+   ],
+   "park": {
+    "text": "W7 Spelunking tunnels (Spelunking levels)",
+    "src": "fan (DigitalTQ), unverified"
+   },
+   "toward": {
+    "priority": "Cooking speed",
+    "priority_jobs": [],
+    "rinse1": "Log prints: Oak Logs 4.42B -> 10.0B (score 132)",
+    "flag": ""
+   },
+   "today": [
+    {
+     "do": "Log prints: Oak Logs 4.42B -> 10.0B",
+     "done": "goal reached or next step",
+     "src": "rinse (Griffy-weighted AutoReview)"
+    }
    ]
   },
   {
@@ -7789,13 +8046,14 @@
    "level": 824,
    "afk": {
     "text": "His own Super CHOWs (100M)",
-    "src": "griffy"
+    "src": "griffy",
+    "park_rule": "Super CHOWs with Autistopher"
    },
    "save_map": "W1 map 8",
    "money": 1.4351782475767715e+29,
    "jobs": [
     {
-     "job": "Super CHOWs",
+     "job": "Super CHOWs (cooking speed 1.1x each, count only on him)",
      "basis": "griffy",
      "tiers": {
       "Death Note": "15/23"
@@ -7942,6 +8200,7 @@
        "infinite": false
       }
      ],
+     "note": "WOWs skipped (Griffy: weak scaling). findings/death_note_two_dbs.md",
      "where": [
       {
        "system": "death_note",
@@ -8895,6 +9154,41 @@
     "Inventory Bag H: 2 slots (Quest)",
     "Rucksack Of Riches: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
+   ],
+   "park": {
+    "text": "Dedotated Ram in Wam Wonderland (7,000,000 kills left, 93% done) \u00b7 fewest kills left of 97 open",
+    "src": "data rule (Zack-approved) on AutoReview Death Note"
+   },
+   "toward": {
+    "priority": "Cooking speed",
+    "priority_jobs": [
+     "Super CHOWs (cooking speed 1.1x each, count only on him)",
+     "Upgrade Vault"
+    ],
+    "rinse1": "Stamps: Total Stamp Levels 9539 -> 11000 (score 132)",
+    "flag": "Rinse ranks Stamps first, not your priority (Cooking speed)"
+   },
+   "today": [
+    {
+     "do": "Library: 46 books",
+     "done": "claimed / restarted",
+     "src": "Toolbox timer \u00b7 books ready: max-first talents per card"
+    },
+    {
+     "do": "PRIORITY (Cooking speed): Super CHOWs (cooking speed 1.1x each, count only on him) at PARK: Dedotated Ram in Wam Wonderland (7,000,000 kills left, 93% done)",
+     "done": "target cleared, then next fewest-left",
+     "src": "data rule (Zack-approved) on AutoReview Death Note"
+    },
+    {
+     "do": "Stamps: Total Stamp Levels 9539 -> 11000",
+     "done": "goal reached or next step",
+     "src": "rinse (Griffy-weighted AutoReview)"
+    },
+    {
+     "do": "ACTIVE Achievement runs (easiest open first)",
+     "done": "30 min session",
+     "src": "zack"
+    }
    ]
   },
   {
@@ -9363,6 +9657,43 @@
     "Sack Of Success: 2 slots (Vendor)",
     "Treasure Totebag: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
+   ],
+   "park": {
+    "text": "Divinity (Divinity slippers)",
+    "src": "zack"
+   },
+   "toward": {
+    "priority": "Cooking speed",
+    "priority_jobs": [],
+    "rinse1": "Gallery + capes: King of Food20% Food Effect 0 -> 1 (score 0)",
+    "flag": ""
+   },
+   "today": [
+    {
+     "do": "Bravery monument: 7.51x / 2.40x \u00b7 Fight",
+     "done": "claimed / restarted",
+     "src": "Toolbox timer \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)"
+    },
+    {
+     "do": "Wisdom monument: 7.44x / 2.40x \u00b7 Fight",
+     "done": "claimed / restarted",
+     "src": "Toolbox timer \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)"
+    },
+    {
+     "do": "W7 reef: +3% Spelunking Amber gain per Crystal Shrine level above 200Unlock for 248 Glowing Coral (Dropped by Litterfish) 1,875 -> 248",
+     "done": "goal reached or next step",
+     "src": "rinse (Griffy-weighted AutoReview)"
+    },
+    {
+     "do": "W7 reef: +3% Spelunking Amber gain per Crystal Shrine level above 200Unlock for 248 Glowing Coral (",
+     "done": "248",
+     "src": "AutoReview (ready now)"
+    },
+    {
+     "do": "ACTIVE 1M Green Mushrooms for W2 weekly boss",
+     "done": "240 min session",
+     "src": "AutoReview"
+    }
    ]
   }
  ],

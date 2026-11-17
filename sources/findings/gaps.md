@@ -8,7 +8,7 @@ Loop: card run-through (1 by 1, dailies + tasks) -> Zack says what is wrong / un
 |---|---|---|---|---|
 | 1 | 2026-11-17 | Autistopher / Bubba (clickers/bubba) | No AutoReview section: needs goals, upgrade order, daily steps | open |
 | 2 | 2026-11-17 | Autistopher / Poppy (clickers/kangaroo) | No AutoReview section: needs goals, upgrade order, daily steps | open |
-| 3 | 2026-11-17 | Autiszemo / Death Note | Both DBs need Super CHOWs + WOWs. AutoReview only lists them for Autistopher: Zemo's own counts must come from raw kills | open |
+| 3 | 2026-11-17 | Autistopher / Death Note | Plan Topher's Super CHOW rebuild (13 now): which maps first. Settled: counts only on him, WOWs skipped (findings/death_note_two_dbs.md) | open |
 | 4 | 2026-11-17 | Autiszemo / Cooking | Cooking mastery ranks need a source (what to take, order) | open |
 | 5 | 2026-11-17 | Autiszemo / Cooking | Which meals get ribbons and when | open |
 | 6 | 2026-11-17 | Autiszemo / Cooking | Card says cooking needs a lot but gives no plan: needs speed levers ranked by current values + steps | open |

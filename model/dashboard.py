@@ -79,6 +79,9 @@ D.cards.forEach(cd=>{const c=el('div','card');c.id='slot-'+cd.slot;
  const h=el('h2');h.append(el('span',null,cd.slot+'. '+cd.name),el('small','muted',cd.level));c.append(h);
  c.append(el('div','sub',cd.class+' · coins '+Number(cd.money).toExponential(2)+(cd.afk_now?' · now '+cd.afk_now:'')));
  const line=(cls,lab,txt)=>{const d=el('div',cls);d.append(el('b',null,lab+' '),txt);c.append(d)};
+ if(cd.toward){line('move','WORKING TOWARD',cd.toward.priority+' via '+(cd.toward.priority_jobs.join(', ')||'none')+' · rinse #1: '+cd.toward.rinse1);if(cd.toward.flag)c.append(el('div','flag','⚑ '+cd.toward.flag))}
+ if(cd.park)line('afk','PARK',cd.park.text+' ['+cd.park.src+']');
+ if(cd.today){const ol=el('ol');cd.today.forEach(st=>ol.append(el('li',null,st.do+' · done when '+st.done+' · '+st.src)));c.append(el('div','sub','TODAY'),ol)}
  line('move','MOVE',cd.move.text+' ['+cd.move.src+']');
  cd.quick.forEach(q=>line('quick','QUICK',q));
  cd.active.forEach(t=>line('act','ACTIVE',t.task+(t.notes?' · '+t.notes.join('; '):'')));

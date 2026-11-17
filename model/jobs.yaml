@@ -10,14 +10,17 @@
 
 exclude:   # leaves never shown (Zack's calls)
   - "Prayer not needed"   # Royal Sampler stays on (Zack)
+  - "more WOWs with"      # WOWs skipped (Griffy, findings/death_note_two_dbs.md)
+
+account_priority: {text: "Cooking speed", set_by: zack, date: 2026-11-17}
 
 characters:
   Autiszemo:      # Death Bringer #1
-    afk: {text: "ZOW/CHOW targets W1-W6 (Death Note kills)", src: zack}
+    afk: {text: "ZOW/CHOW targets W1-W6 (Death Note kills)", src: zack, park_rule: "with Autiszemo"}
     jobs:
       - {job: Farming, sections: [Farming, Beanstalk], basis: class}
-      - {job: Cooking, sections: [Cooking], basis: class, note: "Cooking speed = account priority now (Upgrade Vault Kitchen Dream-mare on Autistopher)"}
-      - {job: Grimoire, sections: [The Grimoire], basis: class}
+      - {job: Cooking, sections: [Cooking], basis: class, feeds: priority, note: "Cooking speed = account priority now (Upgrade Vault Kitchen Dream-mare on Autistopher)"}
+      - {job: "Grimoire + Wraith Form (bones)", sections: [The Grimoire], basis: zack, note: "Zemo always runs Wraith Form (outfit buffs him)"}
       - {job: Post Office, sections: [Post Office], basis: zack}
       - {job: "ZOWs + CHOWs W1-W6", sections: [{s: Death Note, m: "Autiszemo|Eclipse Skull.*in W[1-6]\\b"}], basis: zack}
   Autistocat:     # Arcane Cultist
@@ -91,12 +94,12 @@ characters:
       - {job: "Spelunking (until an RG takes it)", sections: [Spelunking], basis: zack}
     plan: "Elite Class Swap Token -> Bubonic Conjuror -> Arcane Cultist"
   Autistopher:    # Death Bringer #2
-    afk: {text: "His own Super CHOWs (100M)", src: griffy}
+    afk: {text: "His own Super CHOWs (100M)", src: griffy, park_rule: "Super CHOWs with Autistopher"}
     active: [achievements]
     jobs:
-      - {job: "Super CHOWs", sections: [{s: Death Note, rest: true}], basis: griffy}
+      - {job: "Super CHOWs (cooking speed 1.1x each, count only on him)", sections: [{s: Death Note, rest: true}], basis: griffy, feeds: priority, note: "WOWs skipped (Griffy: weak scaling). findings/death_note_two_dbs.md"}
       - {job: "Stamps", sections: [Stamps], basis: light, note: "95%-off and Exalted stamp use = sourced only"}
-      - {job: "Upgrade Vault", sections: [Upgrade Vault], basis: light, note: "Kitchen Dream-mare 251 -> 500 (cooking speed)"}
+      - {job: "Upgrade Vault", sections: [Upgrade Vault], basis: light, feeds: priority, note: "Kitchen Dream-mare 251 -> 500 (cooking speed)"}
       - {job: "Equinox", sections: [Equinox], basis: light}
       - {job: "Salt Lick", sections: [Salt Lick], basis: light}
       - {job: "Library (account-wide)", sections: [{s: Library, m: "^Account Wide"}], basis: light, note: "MAJOR: raise max talent level 299/441"}
