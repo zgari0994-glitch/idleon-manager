@@ -145,6 +145,10 @@ SI = yaml.safe_load(open(os.path.join(R, 'model', 'system_index.yaml'))) if os.p
 SEC2SYS = {}
 for k, v in SI.items():
     for a in v['autoreview']: SEC2SYS.setdefault(a, []).append(k)
+MAPS = {v.replace('_', ' '): int(k) for k, v in json.load(open(os.path.join(R, 'sources', 'toolbox', 'map_names.json'))).items()}
+def world_of(map_name):
+    i = MAPS.get(map_name)
+    return None if i is None else min(7, i // 50 + 1)
 ATASKS = Y.get('active_tasks', [])
 # Toolbox dashboard timers (newest timers.json across snapshots; age shown)
 tfiles = sorted(os.path.join(R, 'snapshots', d, 'timers.json') for d in os.listdir(os.path.join(R, 'snapshots'))
@@ -206,28 +210,37 @@ for name, cfg in Y['characters'].items():
             if rule in g.get('name', '') + path and is_open(a):
                 mm = re.search(r'\(([\d.,]+[KMB]?) remaining\)', a['label'])
                 if mm: cand.append((num(mm.group(1)), -(num(a.get('cur')) or 0), a['label'].split(' (')[0], g.get('name', '')))
-        if cand:
-            r0 = min(cand)
-            card['park'] = {'text': f"{r0[2]} ({r0[0]:,.0f} kills left, {-r0[1]:.0f}% done) · fewest kills left of {len(cand)} open", 'src': 'data rule (Zack-approved) on AutoReview Death Note'}
+        started = [c for c in cand if c[1] < 0]   # he has kills there = he can reach it (proxy)
+        pool = started or cand
+        if pool:
+            r0 = min(pool)
+            mp = r0[2].split(' in ', 1)[-1]; wd = world_of(mp)
+            card['park'] = {'text': f"W{wd if wd else '?'} {mp} ({r0[2].split(' in ')[0]}) · {r0[0]:,.0f} kills left, {-r0[1]:.0f}% done · fewest kills left of {len(started)} started targets" + ('' if started else ' (none started: may be unreachable)'), 'src': 'data rule (Zack-approved) on AutoReview Death Note'}
     # WORKING TOWARD: rinse #1 for this character; flag when it is not on the account priority
     pri = Y.get('account_priority', {}).get('text', '')
     pjobs = [j['job'] for j in cfg['jobs'] if j.get('feeds') == 'priority']
+    first = cfg.get('first')  # Zack override: this job goes above the priority on this card
     rin = max(finite or [{}], key=lambda i: i.get('score', 0)) if finite else None
-    card['toward'] = {'priority': pri, 'priority_jobs': pjobs,
+    card['toward'] = {'first': first, 'priority': pri, 'priority_jobs': pjobs,
                       'rinse1': f"{rin['job']}: {rin['label'][:90]} {rin['cur']} -> {rin['goal']} (score {rin['score']})" if rin else 'none',
-                      'flag': (f"Rinse ranks {rin['job']} first, not your priority ({pri})" if rin and rin['job'] not in pjobs and pjobs else '')}
+                      'flag': (f"Rinse ranks {rin['job']} first, not your priority ({pri})" if rin and rin['job'] not in pjobs and rin['job'] != first and pjobs else '')}
     # TODAY: ordered steps
     steps = []
     for r in ready_now:
         if r['owner'] == name: steps.append({'do': f"{r['name']}: {r['value']}", 'done': 'claimed / restarted', 'src': 'Toolbox timer' + (' · ' + r['note'] if r['note'] else '')})
     pitems = [i for i in finite if i['job'] in pjobs]
+    if first:
+        fi = [i for i in finite if i['job'] == first]
+        if fi:
+            f0 = max(fi, key=lambda i: (i['ready'], i['score']))
+            steps.append({'do': f"FIRST ({first}, Zack's order): {f0['label'][:90]} {f0['cur']} -> {f0['goal']}", 'done': f"{f0['goal']}", 'src': 'rinse within that job'})
     if pitems:
         pi = max(pitems, key=lambda i: (i['ready'], i['score']))
         if pi['section'] == 'Death Note' and rule:
             steps.append({'do': f"PRIORITY ({pri}): {pi['job']} at PARK: {card['park']['text'].split(' · ')[0]}", 'done': 'target cleared, then next fewest-left', 'src': card['park']['src']})
         else:
             steps.append({'do': f"PRIORITY ({pri}): {pi['job']}: {pi['label'][:90]} {pi['cur']} -> {pi['goal']}", 'done': f"{pi['goal']}", 'src': 'rinse within your priority jobs'})
-    if card['move']['src'] != 'GAP': steps.append({'do': card['move']['text'], 'done': 'goal reached or next step', 'src': card['move']['src']})
+    if card['move']['src'] != 'GAP' and not (first and card['move']['text'].startswith(first)): steps.append({'do': card['move']['text'], 'done': 'goal reached or next step', 'src': card['move']['src']})
     for v in qg.values():
         i = v[0]; steps.append({'do': f"{i['job']}: {i['label'][:90]}", 'done': f"{i['goal']}", 'src': 'AutoReview (ready now)' + (f", +{len(v)-1} more" if len(v) > 1 else '')})
     for t in card['active']:
@@ -270,7 +283,7 @@ L.append('')
 for cd in sorted(cards, key=lambda x: x['slot']):
     L.append(f"## {cd['slot']}. {cd['name']} · {cd['class']} {cd['level']} · coins {m(cd['money'])}")
     tw = cd['toward']
-    L.append(f"WORKING TOWARD: {tw['priority']} via {', '.join(tw['priority_jobs']) or 'none of his jobs'} · rinse #1: {tw['rinse1']}")
+    L.append((f"WORKING TOWARD: {tw['first']} first (Zack), then " if tw.get('first') else "WORKING TOWARD: ") + f"{tw['priority']} via {', '.join(tw['priority_jobs']) or 'none of his jobs'} · rinse #1: {tw['rinse1']}")
     if tw['flag']: L.append(f"FLAG: {tw['flag']}")
     L.append(f"PARK: {cd['park']['text']} [{cd['park']['src']}] (save shows {cd['save_map']})")
     L.append('TODAY:')

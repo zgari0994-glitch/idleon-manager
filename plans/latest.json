@@ -988,16 +988,17 @@
     "Loot Luggage: 1 slots (Vendor)"
    ],
    "park": {
-    "text": "Ancientfish in Ancient Fissure (100,000 kills left, 0% done) \u00b7 fewest kills left of 35 open",
+    "text": "W1 The Office (Poops) \u00b7 639,000 kills left, 36% done \u00b7 fewest kills left of 3 started targets",
     "src": "data rule (Zack-approved) on AutoReview Death Note"
    },
    "toward": {
+    "first": "Farming",
     "priority": "Cooking speed",
     "priority_jobs": [
      "Cooking"
     ],
     "rinse1": "Farming: Stronger Vines:+90/112% chance for +1 crop when fully grown 45 -> 56 (score 133)",
-    "flag": "Rinse ranks Farming first, not your priority (Cooking speed)"
+    "flag": ""
    },
    "today": [
     {
@@ -1006,14 +1007,14 @@
      "src": "Toolbox timer"
     },
     {
+     "do": "FIRST (Farming, Zack's order): Stronger Vines:+90/112% chance for +1 crop when fully grown 45 -> 56",
+     "done": "56",
+     "src": "rinse within that job"
+    },
+    {
      "do": "PRIORITY (Cooking speed): Cooking: Unlock max level 150 plates 90 -> 150",
      "done": "150",
      "src": "rinse within your priority jobs"
-    },
-    {
-     "do": "Farming: Stronger Vines:+90/112% chance for +1 crop when fully grown 45 -> 56",
-     "done": "goal reached or next step",
-     "src": "rinse (Griffy-weighted AutoReview)"
     }
    ]
   },
@@ -1925,6 +1926,7 @@
     "src": "Griffy N5yJ4-tZLbY 00:52 (2026-10-04)"
    },
    "toward": {
+    "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
     "rinse1": "Alchemy: Dream Of Ironfish 68 -> 70 (score 138)",
@@ -3014,6 +3016,7 @@
     "src": "Griffy ypb7kpQov30 00:01 (2026-08-03)"
    },
    "toward": {
+    "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
     "rinse1": "Bug prints: Goldfish 111.85M -> 150.0M (score 132)",
@@ -4086,6 +4089,7 @@
     "src": "AutoReview statue table"
    },
    "toward": {
+    "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
     "rinse1": "Statue: Dragon (AFK golems): Level up Dragon Statue: AFK Cavern 15 4 -> 150 (score 131)",
@@ -5178,6 +5182,7 @@
     "src": "AutoReview statue table"
    },
    "toward": {
+    "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
     "rinse1": "Statues: ES (Box, Seesaw): Level up Box Statue: Candy or Active ES at Penguins 25 -> 40 (score 131)",
@@ -5977,6 +5982,7 @@
     "src": "zack"
    },
    "toward": {
+    "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
     "rinse1": "Breeding: Bonuses from All Meals: Sheepie88.77 base days to level 5 -> 13 (score 133)",
@@ -7088,6 +7094,7 @@
     "src": "zack"
    },
    "toward": {
+    "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
     "rinse1": "Greenstacks: Collect 200 Greenstacks 166 -> 200 (score 129)",
@@ -7362,6 +7369,7 @@
     "src": "zack"
    },
    "toward": {
+    "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
     "rinse1": "Ore prints: Copper Ore 1.34B -> 8.0B (score 132)",
@@ -8026,6 +8034,7 @@
     "src": "fan (DigitalTQ), unverified"
    },
    "toward": {
+    "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
     "rinse1": "Log prints: Oak Logs 4.42B -> 10.0B (score 132)",
@@ -9156,10 +9165,11 @@
     "Loot Luggage: 1 slots (Vendor)"
    ],
    "park": {
-    "text": "Dedotated Ram in Wam Wonderland (7,000,000 kills left, 93% done) \u00b7 fewest kills left of 97 open",
+    "text": "W3 Wam Wonderland (Dedotated Ram) \u00b7 7,000,000 kills left, 93% done \u00b7 fewest kills left of 28 started targets",
     "src": "data rule (Zack-approved) on AutoReview Death Note"
    },
    "toward": {
+    "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [
      "Super CHOWs (cooking speed 1.1x each, count only on him)",
@@ -9175,7 +9185,7 @@
      "src": "Toolbox timer \u00b7 books ready: max-first talents per card"
     },
     {
-     "do": "PRIORITY (Cooking speed): Super CHOWs (cooking speed 1.1x each, count only on him) at PARK: Dedotated Ram in Wam Wonderland (7,000,000 kills left, 93% done)",
+     "do": "PRIORITY (Cooking speed): Super CHOWs (cooking speed 1.1x each, count only on him) at PARK: W3 Wam Wonderland (Dedotated Ram)",
      "done": "target cleared, then next fewest-left",
      "src": "data rule (Zack-approved) on AutoReview Death Note"
     },
@@ -9663,6 +9673,7 @@
     "src": "zack"
    },
    "toward": {
+    "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
     "rinse1": "Gallery + capes: King of Food20% Food Effect 0 -> 1 (score 0)",

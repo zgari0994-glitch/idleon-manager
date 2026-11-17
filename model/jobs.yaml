@@ -16,6 +16,7 @@ account_priority: {text: "Cooking speed", set_by: zack, date: 2026-11-17}
 
 characters:
   Autiszemo:      # Death Bringer #1
+    first: Farming   # Zack 2026-11-17: farming above cooking
     afk: {text: "ZOW/CHOW targets W1-W6 (Death Note kills)", src: zack, park_rule: "with Autiszemo"}
     jobs:
       - {job: Farming, sections: [Farming, Beanstalk], basis: class}
