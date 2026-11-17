@@ -259,12 +259,20 @@ for name, cfg in Y['characters'].items():
         if j['job'] in PB: st += PB[j['job']]; kind = 'playbook'
         else:
             kind = 'rinse'
-            rd = [i for i in its if i['ready']]
-            st += [f"{i['label'][:80]} ({i['cur']} / {i['goal']}) READY" for i in rd[:3]]
-            fin = sorted([i for i in its if not i['ready'] and not i['infinite']], key=lambda i: -i['score'])
-            if fin:
-                f0 = fin[0]
-                st.append(f"Push: {f0['label'][:80]} {f0['cur']} -> {f0['goal']}" + (f" · {f0['locked']}" if f0.get('locked') else ''))
+            secs_in_job = list(dict.fromkeys(i['section'] for i in its))
+            multi = len(secs_in_job) > 1
+            for sec in secs_in_job:   # every sub-system of the job gets its own line(s)
+                si = [i for i in its if i['section'] == sec]
+                pre = f"{sec}: " if multi else ''
+                rd = [i for i in si if i['ready']]
+                st += [f"{pre}{i['label'][:80]} ({i['cur']} / {i['goal']}) READY" for i in rd[:2]]
+                fin = sorted([i for i in si if not i['ready'] and not i['infinite']], key=lambda i: -i['score'])
+                seen_g = []
+                for f0 in fin:   # best push per group, up to 3 per sub-system
+                    if f0['group'] in seen_g: continue
+                    seen_g.append(f0['group'])
+                    st.append(f"{pre}Push: {f0['label'][:80]} {f0['cur']} -> {f0['goal']}" + (f" · {f0['locked']}" if f0.get('locked') else ''))
+                    if len(seen_g) == 3: break
             if not st: st.append('No rinse data: ' + (j.get('note') or j.get('state') or 'needs a playbook'))
         daily.append({'block': j['job'], 'kind': kind, 'steps': st})
     for l in card['locked']:

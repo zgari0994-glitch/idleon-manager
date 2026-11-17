@@ -32,7 +32,7 @@ characters:
     afk: {text: "Active-first class (master class progress is active-only without its AFK mechanic). Runs Cranium Cooking active; plain AFK spot = GAP", src: "Griffy N5yJ4-tZLbY 00:52 (2026-10-04)"}
     active: [cranium]
     jobs:
-      - {job: Alchemy, sections: [Bubbles, Vials, Sigils, Pay2Win], basis: class, note: "Daily: bubbles, vials, liquids, sigils, P2W, cauldron boosts. Liquids: Equinox Liquidvestment 5 -> 11 first"}
+      - {job: Alchemy, sections: [Bubbles, Vials, Sigils, Pay2Win], basis: class, daily_fixed: ["Liquids: Equinox Liquidvestment 5 -> 11 first (approved 11/16)"], note: "Daily: bubbles, vials, liquids, sigils, P2W, cauldron boosts. Liquids: Equinox Liquidvestment 5 -> 11 first"}
       - {job: Lab, sections: [], basis: class, note: "Full Lab map = Lane B gap"}
       - {job: Summoning, sections: [Summoning], basis: class}
       - {job: Tesseract, sections: [The Tesseract], basis: class}
