@@ -12,20 +12,22 @@ CREATORS = {
     'pulseidle': 'https://www.youtube.com/@PulseIdle',
     'nocturne': 'https://www.youtube.com/@NocturneGamingOfficial',
 }
-ALL_IDLEON = {'griffybit', 'pulseidle'}  # IdleOn-only channels
+ALL_IDLEON = {'pulseidle'}  # IdleOn-only channel (Griffy posts other games too)
 MIN_SECONDS = 120
 SKIP_IDS = set()  # nothing excluded. N2EFqfVHNMM = Griffy's 21-hour F2P Remastered Movie: kept, flagged for Zack
 IDLEON = re.compile(r'idle\s?on|lavaflame|\bw[1-7]\b|world [1-7]|master ?class|death ?bringer|wind ?walker|'
                     r'arcane cultist|royal guardian|voidwalker|vman|alchemy|sailing|divinity|summoning|sneaking|'
                     r'farming|breeding|spelunk|account review|roast|bingo|\brg\b|manic|purity|grimoire|compass|'
                     r'tesseract|research|sushi|jelly|clam|menagerie|zenith|statue|caverns?|the hole|gaming|lab\b|'
-                    r'equinox|vault|shimmerfin|emperor|kattlekruk', re.I)
+                    r'equinox|vault|shimmerfin|emperor|kattlekruk|cranium|legendary points|kpk|f2p', re.I)
 ROOT = 'idleon_transcripts'
 NOCTURNE_OK = re.compile(r'idle\s?on', re.I)
 # Nocturne posts other games too. Titles with IdleOn keywords but no "IdleOn" are kept as 'check' (reviewed by hand),
 # unless they name one of his other games.
 OTHER_GAMES = re.compile(r'golf|valheim|forts|zomboid|risk of rain|deep rock|throne and liberty|move or die|content warning|'
-                         r'lovers in a dangerous|subscriber|milestone|minecraft|lethal company|phasmophobia', re.I)
+                         r'lovers in a dangerous|subscriber|milestone|minecraft|lethal company|phasmophobia|stream raiders|pok[eé]mon|nuzlocke|'
+                         r'archvale|shovel knight|skul|vexlands|all hail the orb|lay of the land|scale the depths|pixel art|'
+                         r'phoenix point|ape escape|gacha|early access|\bfps\b|crit.s challenge|this ant|i am griffybit', re.I)
 
 
 def kind(title, from_streams):
@@ -74,6 +76,7 @@ def main():
                 if vid in SKIP_IDS: why, inc = 'excluded by Zack', 'no'
                 elif dur and dur < MIN_SECONDS: why, inc = 'under 2 min', 'no'
                 elif name in ALL_IDLEON or NOCTURNE_OK.search(title): why, inc = 'idleon', 'yes'
+                elif name == 'griffybit' and from_streams: why, inc = 'griffy stream (idleon)', 'yes'
                 elif IDLEON.search(re.sub(r'nocturne\s*gaming', '', title, flags=re.I)) and not OTHER_GAMES.search(title): why, inc = 'keyword match, check by hand', 'check'
                 else: why, inc = 'title not idleon', 'no'
                 if vid == 'N2EFqfVHNMM': why = 'idleon (21-hour F2P Remastered Movie: confirm with Zack)'
