@@ -1,9 +1,9 @@
 {
  "meta": {
-  "game_save_utc": "2026-11-17T00:42:12.201000+00:00",
-  "game_save_et": "2026-11-16 07:42 PM ET",
-  "review_run_et": "2026-11-16 07:43 PM ET",
-  "autoreview_last_update": "Nov 17, 2026, 12:42:12 AM UTC",
+  "game_save_utc": "2026-11-17T19:59:15.994000+00:00",
+  "game_save_et": "2026-11-17 02:59 PM ET",
+  "review_run_et": "2026-11-17 03:00 PM ET",
+  "autoreview_last_update": "Nov 17, 2026, 7:59:15 PM UTC",
   "switches": {
    "autoloot": "on",
    "doot": "on",
@@ -35,8 +35,8 @@
     "text": "ZOW/CHOW targets W1-W6 (Death Note kills)",
     "src": "zack"
    },
-   "save_map": "W4 map 151",
-   "money": 9.90930970155169e+29,
+   "save_map": "W1 map 16",
+   "money": 9.909666240519515e+29,
    "jobs": [
     {
      "job": "Farming",
@@ -53,9 +53,9 @@
         {
          "section": "Farming",
          "group": "Continue Farming",
-         "label": "Nutritious Soil:+35/54% growth speed for all land",
-         "cur": "35",
-         "goal": "54",
+         "label": "Stronger Vines:+90/112% chance for +1 crop when fully grown",
+         "cur": "45",
+         "goal": "56",
          "score": 133,
          "ready": false,
          "infinite": false
@@ -63,9 +63,9 @@
         {
          "section": "Farming",
          "group": "Continue Farming",
-         "label": "Stacks for Evolution Gmo (200 crops)",
-         "cur": "9",
-         "goal": "116",
+         "label": "Nutritious Soil:+35/54% growth speed for all land",
+         "cur": "35",
+         "goal": "54",
          "score": 133,
          "ready": false,
          "infinite": false
@@ -188,15 +188,25 @@
         {
          "section": "Farming",
          "group": "Rank Database",
-         "label": "Seed of Stats:Gives a +0/43.54% All Stat bonus to your charactersUnlocked at 3500 total land ranks",
-         "cur": "0",
-         "goal": "4",
+         "label": "Seed of Stealth:Increases the Stealth of all Ninja Twins by +17.42/21.77% per Farming LV",
+         "cur": "4",
+         "goal": "5",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "section": "Farming",
+         "group": "Rank Database",
+         "label": "Seed of Loot:Increases the Drop Rate of all characters by +87.08/108.85%",
+         "cur": "4",
+         "goal": "5",
          "score": 0,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": -1
+       "more": 2
       },
       {
        "name": "Beanstalk: Deposit Golden Foods to the Beanstalk",
@@ -232,7 +242,7 @@
         {
          "section": "Beanstalk",
          "group": "Golden Food Bonus",
-         "label": "Golden Peanut:Increases Mining Efficiency by 0/657.35%.",
+         "label": "Golden Peanut:Increases Mining Efficiency by 0/657.43%.",
          "cur": "0",
          "goal": "3",
          "score": 0,
@@ -242,7 +252,7 @@
         {
          "section": "Beanstalk",
          "group": "Golden Food Bonus",
-         "label": "Butter Bar:Increases your Base Accuracy by 961/1314.71. And tastes great! This is technically golden food!",
+         "label": "Butter Bar:Increases your Base Accuracy by 961.11/1314.86. And tastes great! This is technically golden food!",
          "cur": "2",
          "goal": "3",
          "score": 0,
@@ -257,6 +267,16 @@
       {
        "section": "Farming",
        "group": "Continue Farming",
+       "label": "Stronger Vines:+90/112% chance for +1 crop when fully grown",
+       "cur": "45",
+       "goal": "56",
+       "score": 133,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "section": "Farming",
+       "group": "Continue Farming",
        "label": "Nutritious Soil:+35/54% growth speed for all land",
        "cur": "35",
        "goal": "54",
@@ -268,16 +288,6 @@
        "section": "Farming",
        "group": "Continue Farming",
        "label": "Stacks for Evolution Gmo (200 crops)",
-       "cur": "9",
-       "goal": "116",
-       "score": 133,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "section": "Farming",
-       "group": "Continue Farming",
-       "label": "Stacks for Speed Gmo (1000 crops)",
        "cur": "9",
        "goal": "116",
        "score": 133,
@@ -326,9 +336,9 @@
         {
          "section": "Cooking",
          "group": "Progress Cooking",
-         "label": "Unlock max level 180 plates",
-         "cur": "90",
-         "goal": "180",
+         "label": "Level up the remaining 74 meals to 1504,681 remaining levels = 1,564 NMLB triggers. No Meal Left Behind helps you up to level 150",
+         "cur": "0",
+         "goal": "74",
          "score": 133,
          "ready": false,
          "infinite": false
@@ -343,8 +353,8 @@
         {
          "section": "Cooking",
          "group": "Meal priorities for your current tier",
-         "label": "Info - Total Meal Levels (6,904 levels to go!)",
-         "cur": "6416",
+         "label": "Info - Total Meal Levels (6,901 levels to go!)",
+         "cur": "6419",
          "goal": "13320",
          "score": 0,
          "ready": false,
@@ -422,9 +432,9 @@
       {
        "section": "Cooking",
        "group": "Progress Cooking",
-       "label": "Unlock max level 180 plates",
-       "cur": "90",
-       "goal": "180",
+       "label": "Level up the remaining 74 meals to 1504,681 remaining levels = 1,564 NMLB triggers. No Meal Left Behind helps you up to level 150",
+       "cur": "0",
+       "goal": "74",
        "score": 133,
        "ready": false,
        "infinite": false
@@ -432,10 +442,10 @@
       {
        "section": "Cooking",
        "group": "Progress Cooking",
-       "label": "Level up the remaining 74 meals to 1504,684 remaining levels = 1,565 NMLB triggers. No Meal Left Behind helps you up to level 150",
-       "cur": "0",
-       "goal": "74",
-       "score": 0,
+       "label": "Unlock max level 180 plates",
+       "cur": "90",
+       "goal": "180",
+       "score": 133,
        "ready": false,
        "infinite": false
       }
@@ -473,8 +483,8 @@
          "section": "The Grimoire",
          "group": "Purchase more Total Grimoire Upgrades",
          "label": "Total Grimoire Upgrades",
-         "cur": "752",
-         "goal": "900",
+         "cur": "1207",
+         "goal": "1900",
          "score": 125,
          "ready": false,
          "infinite": false
@@ -483,8 +493,8 @@
          "section": "The Grimoire",
          "group": "Purchase more Total Grimoire Upgrades",
          "label": "Total Grimoire Upgrades",
-         "cur": "752",
-         "goal": "1900",
+         "cur": "1207",
+         "goal": "3150",
          "score": 125,
          "ready": false,
          "infinite": false
@@ -517,7 +527,7 @@
          "infinite": false
         }
        ],
-       "more": 6
+       "more": 5
       },
       {
        "name": "The Grimoire: Build up the following Knockout/Elimination/Annihilation Stacks",
@@ -527,7 +537,7 @@
          "section": "The Grimoire",
          "group": "Build up the following Knockout/Elimination/Annihilation Stacks",
          "label": "Knockout Stacks",
-         "cur": "8",
+         "cur": "13",
          "goal": "16",
          "score": 125,
          "ready": false,
@@ -537,7 +547,7 @@
          "section": "The Grimoire",
          "group": "Build up the following Knockout/Elimination/Annihilation Stacks",
          "label": "Elimination Stacks",
-         "cur": "0",
+         "cur": "4",
          "goal": "16",
          "score": 125,
          "ready": false,
@@ -553,9 +563,9 @@
         {
          "section": "The Grimoire",
          "group": "Grimoire Currencies",
-         "label": "Fight with Wraith Form enabled to collect 1,000 Charred Fragments, then use the stack. This enables AFK Fighting on Death Bringers to produce 1 Charre",
-         "cur": "296",
-         "goal": "1000",
+         "label": "Pristine Charms - Glimmerchain:1.3x Extra Deathbringer Bones",
+         "cur": "0",
+         "goal": "1",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -563,15 +573,15 @@
         {
          "section": "The Grimoire",
          "group": "Grimoire Currencies",
-         "label": "Pristine Charms - Glimmerchain:1.3x Extra Deathbringer Bones",
-         "cur": "0",
-         "goal": "1",
+         "label": "199/299 booked Grimoire:Max Preset Level 265 on Autistopher including bonus talent levels",
+         "cur": "199",
+         "goal": "299",
          "score": 0,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 8
+       "more": 7
       },
       {
        "name": "The Grimoire: Grimoire Upgrades",
@@ -580,8 +590,8 @@
         {
          "section": "The Grimoire",
          "group": "Grimoire Upgrades",
-         "label": "Wraith Damage: +75.0 Base Damage in Wraith Form(1.00 per level after Writhing Grimoire)",
-         "cur": "75",
+         "label": "Wraith Damage: +86.0 Base Damage in Wraith Form(1.00 per level after Writhing Grimoire)",
+         "cur": "86",
          "goal": "999999",
          "score": 0,
          "ready": false,
@@ -590,15 +600,15 @@
         {
          "section": "The Grimoire",
          "group": "Grimoire Upgrades",
-         "label": "Wraith Accuracy: +139.0 Base Accuracy in Wraith Form(1.00 per level after Writhing Grimoire)",
-         "cur": "139",
+         "label": "Wraith Accuracy: +168.0 Base Accuracy in Wraith Form(1.00 per level after Writhing Grimoire)",
+         "cur": "168",
          "goal": "999999",
          "score": 0,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 49
+       "more": 48
       }
      ],
      "next": [
@@ -606,17 +616,7 @@
        "section": "The Grimoire",
        "group": "Purchase more Total Grimoire Upgrades",
        "label": "Total Grimoire Upgrades",
-       "cur": "752",
-       "goal": "900",
-       "score": 125,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "section": "The Grimoire",
-       "group": "Purchase more Total Grimoire Upgrades",
-       "label": "Total Grimoire Upgrades",
-       "cur": "752",
+       "cur": "1207",
        "goal": "1900",
        "score": 125,
        "ready": false,
@@ -626,8 +626,18 @@
        "section": "The Grimoire",
        "group": "Purchase more Total Grimoire Upgrades",
        "label": "Total Grimoire Upgrades",
-       "cur": "752",
+       "cur": "1207",
        "goal": "3150",
+       "score": 125,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "section": "The Grimoire",
+       "group": "Purchase more Total Grimoire Upgrades",
+       "label": "Total Grimoire Upgrades",
+       "cur": "1207",
+       "goal": "4100",
        "score": 125,
        "ready": false,
        "infinite": false
@@ -761,8 +771,8 @@
         {
          "section": "Death Note",
          "group": "Complete a minimum of Eclipse Skull (1B) in W3",
-         "label": "Bloodbone in Hell Hath Frozen Over (611M remaining)",
-         "cur": "39%",
+         "label": "Bloodbone in Hell Hath Frozen Over (64M remaining)",
+         "cur": "94%",
          "goal": "100%",
          "score": 127,
          "ready": false,
@@ -796,7 +806,7 @@
          "infinite": false
         }
        ],
-       "more": 6
+       "more": 5
       },
       {
        "name": "Death Note: Complete a minimum of Eclipse Skull (1B) in W5",
@@ -907,12 +917,12 @@
        "more": 17
       },
       {
-       "name": "Death Note: Complete 3 more Super CHOWs with Autistopher (12/15)",
+       "name": "Death Note: Complete 2 more Super CHOWs with Autistopher (13/15)",
        "state": "open",
        "items": [
         {
          "section": "Death Note",
-         "group": "Complete 3 more Super CHOWs with Autistopher (12/15)",
+         "group": "Complete 2 more Super CHOWs with Autistopher (13/15)",
          "label": "Red Mushroom in Birch Enclave (100M remaining)",
          "cur": "0%",
          "goal": "100%",
@@ -922,8 +932,8 @@
         },
         {
          "section": "Death Note",
-         "group": "Complete 3 more Super CHOWs with Autistopher (12/15)",
-         "label": "Poop in Poopy Sewers (100M remaining)",
+         "group": "Complete 2 more Super CHOWs with Autistopher (13/15)",
+         "label": "Baby Boa in Winding Willows (100M remaining)",
          "cur": "0%",
          "goal": "100%",
          "score": 127,
@@ -931,7 +941,7 @@
          "infinite": false
         }
        ],
-       "more": 96
+       "more": 95
       },
       {
        "name": "Death Note: Complete 77 more WOWs with Autistopher (3/80)",
@@ -950,7 +960,7 @@
         {
          "section": "Death Note",
          "group": "Complete 77 more WOWs with Autistopher (3/80)",
-         "label": "Poop in Poopy Sewers (1B remaining)",
+         "label": "Baby Boa in Winding Willows (1000M remaining)",
          "cur": "0%",
          "goal": "100%",
          "score": 127,
@@ -965,8 +975,8 @@
       {
        "section": "Death Note",
        "group": "Complete a minimum of Eclipse Skull (1B) in W3",
-       "label": "Bloodbone in Hell Hath Frozen Over (611M remaining)",
-       "cur": "39%",
+       "label": "Bloodbone in Hell Hath Frozen Over (64M remaining)",
+       "cur": "94%",
        "goal": "100%",
        "score": 127,
        "ready": false,
@@ -1006,7 +1016,7 @@
    ],
    "flags": [],
    "move": {
-    "text": "Farming: Nutritious Soil:+35/54% growth speed for all land 35 -> 54",
+    "text": "Farming: Stronger Vines:+90/112% chance for +1 crop when fully grown 45 -> 56",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
@@ -1061,13 +1071,13 @@
    "slot": 2,
    "name": "Autistocat",
    "class": "Arcane Cultist",
-   "level": 822,
+   "level": 824,
    "afk": {
     "text": "Active-first class (master class progress is active-only without its AFK mechanic). Runs Cranium Cooking active; plain AFK spot = GAP",
     "src": "Griffy N5yJ4-tZLbY 00:52 (2026-10-04)"
    },
-   "save_map": "W7 map 311",
-   "money": 8.41415804076006e+27,
+   "save_map": "W2 map 53",
+   "money": 2.364496961655048e+29,
    "jobs": [
     {
      "job": "Alchemy",
@@ -1671,7 +1681,7 @@
          "section": "The Tesseract",
          "group": "Purchase more Total Tesseract Upgrades",
          "label": "Total Tesseract Upgrades",
-         "cur": "545",
+         "cur": "639",
          "goal": "1250",
          "score": 125,
          "ready": false,
@@ -1681,7 +1691,7 @@
          "section": "The Tesseract",
          "group": "Purchase more Total Tesseract Upgrades",
          "label": "Total Tesseract Upgrades",
-         "cur": "545",
+         "cur": "639",
          "goal": "1650",
          "score": 125,
          "ready": false,
@@ -1725,7 +1735,7 @@
          "section": "The Tesseract",
          "group": "Tesseract Currencies",
          "label": "Fight with Arcane Form enabled to collect 1,000 Arcane Fragments, then use the stack. This enables AFK Fighting on Arcane Cultists to produce 1 Arcane",
-         "cur": "177",
+         "cur": "283",
          "goal": "1000",
          "score": 0,
          "ready": false,
@@ -1734,8 +1744,8 @@
         {
          "section": "The Tesseract",
          "group": "Tesseract Currencies",
-         "label": "Tesseract Upgrade 'Ripple in Spacetime':+0% Tachyons",
-         "cur": "0",
+         "label": "Tesseract Upgrade 'Ripple in Spacetime':+26% Tachyons",
+         "cur": "13",
          "goal": "999999",
          "score": 0,
          "ready": false,
@@ -1761,8 +1771,8 @@
         {
          "section": "The Tesseract",
          "group": "Tesseract Upgrades",
-         "label": "Arcanist Accuracy: +75 Base Accuracy in Arcanist Form",
-         "cur": "75",
+         "label": "Arcanist Accuracy: +84 Base Accuracy in Arcanist Form",
+         "cur": "84",
          "goal": "999999",
          "score": 0,
          "ready": false,
@@ -1777,7 +1787,7 @@
        "section": "The Tesseract",
        "group": "Purchase more Total Tesseract Upgrades",
        "label": "Total Tesseract Upgrades",
-       "cur": "545",
+       "cur": "639",
        "goal": "1250",
        "score": 125,
        "ready": false,
@@ -1787,7 +1797,7 @@
        "section": "The Tesseract",
        "group": "Purchase more Total Tesseract Upgrades",
        "label": "Total Tesseract Upgrades",
-       "cur": "545",
+       "cur": "639",
        "goal": "1650",
        "score": 125,
        "ready": false,
@@ -1797,7 +1807,7 @@
        "section": "The Tesseract",
        "group": "Purchase more Total Tesseract Upgrades",
        "label": "Total Tesseract Upgrades",
-       "cur": "545",
+       "cur": "639",
        "goal": "2750",
        "score": 125,
        "ready": false,
@@ -1891,14 +1901,12 @@
       }
      ],
      "weekly": {
-      "week_start": null,
-      "done": false
+      "week_start": "2026-11-15",
+      "done": true
      }
     }
    ],
-   "flags": [
-    "Weekly killroy: not confirmed for week of ?"
-   ],
+   "flags": [],
    "move": {
     "text": "Alchemy: Dream Of Ironfish 68 -> 70",
     "src": "rinse (Griffy-weighted AutoReview)"
@@ -1940,18 +1948,18 @@
      "The Family Guy 225/299"
     ],
     "Combat High": [
-     "Tesseract 100/299",
-     "Backup Energy 155/299",
-     "Arcane Crystals 100/299"
+     "Tesseract 240/299",
+     "Backup Energy 291/299",
+     "Arcane Crystals 266/299"
     ],
     "Combat Medium": [
-     "Arcanist Form 100/299",
-     "Ghastly Power 205/299",
-     "Ghoulish Power 212/299",
+     "Arcanist Form 297/299",
+     "Ghastly Power 253/299",
+     "Ghoulish Power 217/299",
      "Labotomizer 213/299"
     ],
     "Combat Low": [
-     "Overwhelming Energy 100/299",
+     "Overwhelming Energy 290/299",
      "Primo Prisma 218/299"
     ]
    },
@@ -1967,13 +1975,13 @@
    "slot": 3,
    "name": "Autisticles",
    "class": "Siege Breaker",
-   "level": 840,
+   "level": 841,
    "afk": {
     "text": "His best kills/hr map: Melting Every Day turns AFK kills into forge progress (bars). Feeds Copper Bar 1B shortage. Exact map = GAP",
     "src": "Griffy ypb7kpQov30 00:01 (2026-08-03)"
    },
    "save_map": "W7 map 311",
-   "money": 1.33091737691916e+31,
+   "money": 9.732294427649325e+30,
    "jobs": [
     {
      "job": "Sailing",
@@ -2226,8 +2234,8 @@
         {
          "section": "Sampling",
          "group": "Sources of Printer Sample Rate (90% Hardcap)",
-         "label": "Sample It bubble: +9.00/10%",
-         "cur": "120",
+         "label": "Sample It bubble: +9.06/10%",
+         "cur": "123",
          "goal": "200",
          "score": 0,
          "ready": false,
@@ -2247,14 +2255,14 @@
        "more": 0
       },
       {
-       "name": "Sampling: Sources of Printer Output. Grand Total: 51.943 - 311.660x",
+       "name": "Sampling: Sources of Printer Output. Grand Total: 53.872 - 323.230x",
        "state": "open",
        "items": [
         {
          "section": "Sampling",
-         "group": "Sources of Printer Output. Grand Total: 51.943 - 311.660x",
-         "label": "Sailing: Level 4 Gold Relic:2.30x (26/100 days)",
-         "cur": "26",
+         "group": "Sources of Printer Output. Grand Total: 53.872 - 323.230x",
+         "label": "Sailing: Level 4 Gold Relic:2.35x (27/100 days)",
+         "cur": "27",
          "goal": "100",
          "score": 0,
          "ready": false,
@@ -2262,7 +2270,7 @@
         },
         {
          "section": "Sampling",
-         "group": "Sources of Printer Output. Grand Total: 51.943 - 311.660x",
+         "group": "Sources of Printer Output. Grand Total: 53.872 - 323.230x",
          "label": "Event Shop: Supreme Wiring:1.00x (0/50 days)",
          "cur": "0",
          "goal": "50",
@@ -2525,7 +2533,7 @@
          "section": "Luminous Menagerie",
          "group": "Missions",
          "label": "Mission 1: Reach a Total Account LV of 10,000",
-         "cur": "8932",
+         "cur": "9017",
          "goal": "10000",
          "score": 0,
          "ready": false,
@@ -2976,6 +2984,7 @@
    },
    "quick": [
     "READY (Toolbox): Next sailing trade Open",
+    "READY (Toolbox): Greatest Catch Restart available",
     "READY (Toolbox): Sushi fuel full Full"
    ],
    "active": [],
@@ -3032,14 +3041,14 @@
   {
    "slot": 4,
    "name": "Autistastic",
-   "class": "Divine Knight",
+   "class": "Royal Guardian",
    "level": 835,
    "afk": {
     "text": "Cavern 15 Temple (Ancient Golems): Dragon Statue 4 -> 150 + golem card",
     "src": "AutoReview statue table"
    },
-   "save_map": "W3 map 100",
-   "money": 1.98902660331582e+29,
+   "save_map": "W5 map 216",
+   "money": 1.9469927896237834e+29,
    "jobs": [
     {
      "job": "Construction",
@@ -3420,21 +3429,21 @@
         {
          "section": "Gaming",
          "group": "Snail Ranks",
-         "label": "Current Snail Rank: 13",
-         "cur": "13",
-         "goal": "49",
+         "label": "Step 2: Choose a safety level. 90.0% safety = 12 unspent mail",
+         "cur": "4",
+         "goal": "12",
          "score": 0,
-         "ready": false,
+         "ready": true,
          "infinite": false
         },
         {
          "section": "Gaming",
          "group": "Snail Ranks",
-         "label": "Step 2: Choose a safety level. 90.0% safety = 12 unspent mail",
-         "cur": "0",
-         "goal": "12",
+         "label": "Step 2: Choose a safety level. 95.0% safety = 18 unspent mail",
+         "cur": "4",
+         "goal": "18",
          "score": 0,
-         "ready": false,
+         "ready": true,
          "infinite": false
         }
        ],
@@ -3445,31 +3454,31 @@
       {
        "section": "Gaming",
        "group": "Snail Ranks",
-       "label": "Current Snail Rank: 13",
-       "cur": "13",
-       "goal": "49",
-       "score": 0,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "section": "Gaming",
-       "group": "Snail Ranks",
        "label": "Step 2: Choose a safety level. 90.0% safety = 12 unspent mail",
-       "cur": "0",
+       "cur": "4",
        "goal": "12",
        "score": 0,
-       "ready": false,
+       "ready": true,
        "infinite": false
       },
       {
        "section": "Gaming",
        "group": "Snail Ranks",
        "label": "Step 2: Choose a safety level. 95.0% safety = 18 unspent mail",
-       "cur": "0",
+       "cur": "4",
        "goal": "18",
        "score": 0,
-       "ready": false,
+       "ready": true,
+       "infinite": false
+      },
+      {
+       "section": "Gaming",
+       "group": "Snail Ranks",
+       "label": "Step 2: Choose a safety level. 99.0% safety = 36 unspent mail",
+       "cur": "4",
+       "goal": "36",
+       "score": 0,
+       "ready": true,
        "infinite": false
       }
      ],
@@ -3488,10 +3497,150 @@
      "job": "Royal Guardian #1 (top unlock)",
      "basis": "griffy",
      "tiers": {
-      "Royal Armory": "Not Yet Evaluated"
+      "Royal Armory": "untiered"
      },
-     "subs": [],
-     "next": [],
+     "subs": [
+      {
+       "name": "Royal Armory: Armory Upgrades",
+       "state": "open",
+       "items": [
+        {
+         "section": "Royal Armory",
+         "group": "Armory Upgrades",
+         "label": "Royal Talent Points I: +10 Talent PTS for the Royal Guardian class.",
+         "cur": "10",
+         "goal": "200",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "section": "Royal Armory",
+         "group": "Armory Upgrades",
+         "label": "Solo Militia Status: Active kills now count towards clearing monsters to build outposts! @ Also, each kill has a 36% chance to count as extra!",
+         "cur": "9",
+         "goal": "1000",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 65
+      },
+      {
+       "name": "Royal Armory: Royal Statues",
+       "state": "open",
+       "items": [
+        {
+         "section": "Royal Armory",
+         "group": "Royal Statues",
+         "label": "Heracles the Mighty: Not built (1/25)1.00x Total Damage",
+         "cur": "0",
+         "goal": "1",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "section": "Royal Armory",
+         "group": "Royal Statues",
+         "label": "Plutus the Prosperous: Not built (1/50)1.00x Drop Rate",
+         "cur": "0",
+         "goal": "1",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 4
+      },
+      {
+       "name": "Royal Armory: Statue Flair",
+       "state": "open",
+       "items": [
+        {
+         "section": "Royal Armory",
+         "group": "Statue Flair",
+         "label": "Menagerie Unlock 18: Boosts max Flair LV of Statues to ElegantCosts 11.68M Lumi, needs a higher Menagerie Rank",
+         "cur": "0",
+         "goal": "1",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "section": "Royal Armory",
+         "group": "Statue Flair",
+         "label": "Power Statue Flair: No Flair",
+         "cur": "0",
+         "goal": "3",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 31
+      },
+      {
+       "name": "Royal Armory: Lil' Orblet Shop",
+       "state": "open",
+       "items": [
+        {
+         "section": "Royal Armory",
+         "group": "Lil' Orblet Shop",
+         "label": "Emulsion: 0% chance to get 1M statues worth of Statue EXP when a Zenith Cluster is formed!",
+         "cur": "0",
+         "goal": "5",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "section": "Royal Armory",
+         "group": "Lil' Orblet Shop",
+         "label": "Hydration: +0% Resource Collection for all OutpostsLocked - level the previous slot first",
+         "cur": "0",
+         "goal": "200",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 8
+      }
+     ],
+     "next": [
+      {
+       "section": "Royal Armory",
+       "group": "Armory Upgrades",
+       "label": "Royal Talent Points I: +10 Talent PTS for the Royal Guardian class.",
+       "cur": "10",
+       "goal": "200",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "section": "Royal Armory",
+       "group": "Armory Upgrades",
+       "label": "Solo Militia Status: Active kills now count towards clearing monsters to build outposts! @ Also, each kill has a 36% chance to count as extra!",
+       "cur": "9",
+       "goal": "1000",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "section": "Royal Armory",
+       "group": "Armory Upgrades",
+       "label": "Blunder Outpost PTS: All of your Outposts in World 1 get +0 PTS to spend on upgrades!",
+       "cur": "0",
+       "goal": "999999",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      }
+     ],
      "where": [
       {
        "system": "royal_armory",
@@ -3875,21 +4024,20 @@
       }
      ],
      "weekly": {
-      "week_start": null,
-      "done": false
+      "week_start": "2026-11-15",
+      "done": true
      }
     }
    ],
-   "flags": [
-    "Weekly killroy: not confirmed for week of ?"
-   ],
+   "flags": [],
    "move": {
-    "text": "Statue: Dragon (AFK golems): Level up Dragon Statue: AFK Cavern 15 4 -> 150",
+    "text": "Gaming: Step 2: Choose a safety level. 90.0% safety = 12 unspent mail 4 -> 12",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
     "READY (Toolbox): Dr Defecaus Up \u00b7 Killed \u00b7 boss/miniboss (minibosses only when stored at max)",
-    "READY (Toolbox): Closest building Ready"
+    "READY (Toolbox): Closest building Ready",
+    "Gaming / Snail Ranks: Step 2: Choose a safety level. 90.0% safety = 12 unspent mail (4 / 12) +2 more ready"
    ],
    "active": [],
    "locked": [
@@ -3913,32 +4061,15 @@
     ],
     "Skilling Medium": [
      "Haungry for Gold 239/299",
+     "Built Different 100/299",
      "Overblown Testosterone 201/299",
-     "'STR'ess Tested Garb 223/299",
-     "Firmly Grasp It 185/299"
+     "'STR'ess Tested Garb 223/299"
     ],
     "Skilling Low": [
      "Health Overdrive 280/299",
      "Shieldiest Statues 246/299",
      "Strength in Numbers 227/299",
      "Health Booster 163/299"
-    ],
-    "Combat High": [
-     "Shockwave Slash 274/287",
-     "Knightly Disciple 143/299",
-     "Imbued Shockwaves 274/299",
-     "Daggerang 237/287"
-    ],
-    "Combat Medium": [
-     "King of the Remembered 296/299",
-     "Blocky Bottles 163/299",
-     "Precision Power 199/299",
-     "Carry a Big Stick 267/299"
-    ],
-    "Combat Low": [
-     "Idle Brawling 182/299",
-     "Sharpened Axe 274/299",
-     "Gamer Strength 200/299"
     ]
    },
    "bags": [
@@ -3951,13 +4082,13 @@
    "slot": 5,
    "name": "Autistabish",
    "class": "Elemental Sorcerer",
-   "level": 835,
+   "level": 842,
    "afk": {
     "text": "Penguins (Box Statue 25 -> 40), then Cryosnakes (Seesaw 25 -> 40). Candy or Active ES",
     "src": "AutoReview statue table"
    },
-   "save_map": "W7 map 311",
-   "money": 5.19220813491677e+29,
+   "save_map": "W3 map 108",
+   "money": 1.5330130018256874e+30,
    "jobs": [
     {
      "job": "Worship: souls + prayers (town)",
@@ -4078,25 +4209,15 @@
         {
          "section": "Divinity",
          "group": "Offerings",
-         "label": "1% Offering: Olive Branch",
-         "cur": "7.89%",
-         "goal": "100%",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "section": "Divinity",
-         "group": "Offerings",
          "label": "25% Offering: Tithe",
-         "cur": "0.32%",
+         "cur": "5.31%",
          "goal": "100%",
          "score": 0,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 0
+       "more": -1
       },
       {
        "name": "Divinity: Unmaxed Blessings",
@@ -4157,18 +4278,8 @@
       {
        "section": "Divinity",
        "group": "Offerings",
-       "label": "1% Offering: Olive Branch",
-       "cur": "7.89%",
-       "goal": "100%",
-       "score": 0,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "section": "Divinity",
-       "group": "Offerings",
        "label": "25% Offering: Tithe",
-       "cur": "0.32%",
+       "cur": "5.31%",
        "goal": "100%",
        "score": 0,
        "ready": false,
@@ -4179,6 +4290,16 @@
        "group": "Unmaxed Blessings",
        "label": "Nobisect Blessing",
        "cur": "74",
+       "goal": "100",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "section": "Divinity",
+       "group": "Unmaxed Blessings",
+       "label": "Goharut Blessing",
+       "cur": "58",
        "goal": "100",
        "score": 0,
        "ready": false,
@@ -4223,7 +4344,7 @@
          "section": "Villagers",
          "group": "Level 15 Polonai, The Explorer",
          "label": "Next level progress",
-         "cur": "30.1%",
+         "cur": "30.2%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -4250,41 +4371,41 @@
          "section": "Villagers",
          "group": "Level 27 Kaipu, The Engineer",
          "label": "Next level progress",
-         "cur": "2.6%",
+         "cur": "3.0%",
          "goal": "100%",
          "score": 0,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 59
+       "more": 58
       },
       {
-       "name": "Villagers: Level 33 Cosmos, The Conjuror",
+       "name": "Villagers: Level 34 Cosmos, The Conjuror",
        "state": "open",
        "items": [
         {
          "section": "Villagers",
-         "group": "Level 33 Cosmos, The Conjuror",
-         "label": "You have 11 unspent Conjuror Pts!",
+         "group": "Level 34 Cosmos, The Conjuror",
+         "label": "You have 12 unspent Conjuror Pts!",
          "cur": "22",
-         "goal": "33",
+         "goal": "34",
          "score": 0,
          "ready": true,
          "infinite": false
         },
         {
          "section": "Villagers",
-         "group": "Level 33 Cosmos, The Conjuror",
+         "group": "Level 34 Cosmos, The Conjuror",
          "label": "Cosmos, The Conjuror level for all implemented unlocks",
-         "cur": "33",
+         "cur": "34",
          "goal": "66",
          "score": 0,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 15
+       "more": 16
       },
       {
        "name": "Villagers: Level 16 Minau, The Measurer",
@@ -4304,7 +4425,7 @@
          "section": "Villagers",
          "group": "Level 16 Minau, The Measurer",
          "label": "Next level progress",
-         "cur": "18.7%",
+         "cur": "19.0%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -4321,7 +4442,7 @@
          "section": "Villagers",
          "group": "Level 69 Bolaia, The Librarian",
          "label": "Next level progress",
-         "cur": "40.4%",
+         "cur": "42.2%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -4347,18 +4468,18 @@
         {
          "section": "Shallow Caverns",
          "group": "Cavern 1- The Well",
-         "label": "Next Opal trade: 41.98K Gravel",
-         "cur": "100.0+%",
+         "label": "Next Opal trade: 67.38M Gravel",
+         "cur": "32.3%",
          "goal": "100%",
          "score": 0,
-         "ready": true,
+         "ready": false,
          "infinite": false
         },
         {
          "section": "Shallow Caverns",
          "group": "Cavern 1- The Well",
-         "label": "Gravel: 32 expansions23,107,763 owned43,143,988 to expand",
-         "cur": "53.6%",
+         "label": "Gravel: 32 expansions21,771,244 owned43,143,988 to expand",
+         "cur": "50.5%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -4374,8 +4495,8 @@
         {
          "section": "Shallow Caverns",
          "group": "Cavern 2- Motherlode",
-         "label": "Ore remaining to break Layer 8: 84.9K",
-         "cur": "0.9%",
+         "label": "Ore remaining to break Layer 8: 83.8K",
+         "cur": "2.2%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -4490,7 +4611,7 @@
          "section": "Glowshroom Tunnels",
          "group": "Cavern 7- The Lamp",
          "label": "Level 4 More Wishes: Unlock the next Wish Type",
-         "cur": "40",
+         "cur": "42",
          "goal": "25",
          "score": 0,
          "ready": true,
@@ -4500,7 +4621,7 @@
          "section": "Glowshroom Tunnels",
          "group": "Cavern 7- The Lamp",
          "label": "Level 1 Another Try: Reset investments for Opals, Conjuror PTS, Jar Collectible Enhancements, or Summoning Doublers",
-         "cur": "40",
+         "cur": "42",
          "goal": "6",
          "score": 0,
          "ready": true,
@@ -4550,9 +4671,9 @@
         {
          "section": "Glowshroom Tunnels",
          "group": "Cavern 10- Justice Monument",
-         "label": "1 hour bonus: Story Minigame unlocked with Coins",
-         "cur": "0",
-         "goal": "1",
+         "label": "80 hour bonus: Start with +1 Mental Health",
+         "cur": "5",
+         "goal": "80",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -4560,30 +4681,20 @@
         {
          "section": "Glowshroom Tunnels",
          "group": "Cavern 10- Justice Monument",
-         "label": "80 hour bonus: Start with +1 Mental Health",
-         "cur": "0",
-         "goal": "80",
+         "label": "300 hour bonus: You can dismiss 1 case per story",
+         "cur": "5",
+         "goal": "300",
          "score": 0,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 21
+       "more": 20
       },
       {
        "name": "Underground Overgrowth: Cavern 11- The Jar",
        "state": "open",
        "items": [
-        {
-         "section": "Underground Overgrowth",
-         "group": "Cavern 11- The Jar",
-         "label": "Magenta Rupies: 0.00Collected from Great Jars once you have 10K+ Yellow Rupies",
-         "cur": "0",
-         "goal": "1",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
         {
          "section": "Underground Overgrowth",
          "group": "Cavern 11- The Jar",
@@ -4593,9 +4704,19 @@
          "score": 0,
          "ready": false,
          "infinite": false
+        },
+        {
+         "section": "Underground Overgrowth",
+         "group": "Cavern 11- The Jar",
+         "label": "Ultramarine Rupies: 0.00Collected from Epic Jars once you have 6M+ Orange Rupies",
+         "cur": "0",
+         "goal": "1",
+         "score": 0,
+         "ready": false,
+         "infinite": false
         }
        ],
-       "more": 53
+       "more": 52
       },
       {
        "name": "Underground Overgrowth: Cavern 12- Evertree",
@@ -4604,11 +4725,11 @@
         {
          "section": "Underground Overgrowth",
          "group": "Cavern 12- Evertree",
-         "label": "Logs remaining to break Layer 6: -3.5M",
-         "cur": "100.0%",
+         "label": "Logs remaining to break Layer 7: 25.5K",
+         "cur": "34.5%",
          "goal": "100%",
          "score": 0,
-         "ready": true,
+         "ready": false,
          "infinite": false
         }
        ],
@@ -4672,20 +4793,10 @@
      "next": [
       {
        "section": "Villagers",
-       "group": "Level 33 Cosmos, The Conjuror",
-       "label": "You have 11 unspent Conjuror Pts!",
+       "group": "Level 34 Cosmos, The Conjuror",
+       "label": "You have 12 unspent Conjuror Pts!",
        "cur": "22",
-       "goal": "33",
-       "score": 0,
-       "ready": true,
-       "infinite": false
-      },
-      {
-       "section": "Shallow Caverns",
-       "group": "Cavern 1- The Well",
-       "label": "Next Opal trade: 41.98K Gravel",
-       "cur": "100.0+%",
-       "goal": "100%",
+       "goal": "34",
        "score": 0,
        "ready": true,
        "infinite": false
@@ -4694,8 +4805,18 @@
        "section": "Glowshroom Tunnels",
        "group": "Cavern 7- The Lamp",
        "label": "Level 4 More Wishes: Unlock the next Wish Type",
-       "cur": "40",
+       "cur": "42",
        "goal": "25",
+       "score": 0,
+       "ready": true,
+       "infinite": false
+      },
+      {
+       "section": "Glowshroom Tunnels",
+       "group": "Cavern 7- The Lamp",
+       "label": "Level 1 Another Try: Reset investments for Opals, Conjuror PTS, Jar Collectible Enhancements, or Summoning Doublers",
+       "cur": "42",
+       "goal": "6",
        "score": 0,
        "ready": true,
        "infinite": false
@@ -4765,7 +4886,7 @@
         {
          "section": "Slab",
          "group": "Could be purchased from a Vendor",
-         "label": "Fishbowl",
+         "label": "Unstable Reliquarium",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -4773,7 +4894,7 @@
          "infinite": false
         }
        ],
-       "more": 4
+       "more": 3
       },
       {
        "name": "Slab: Could be crafted at the Anvil",
@@ -4946,10 +5067,8 @@
     "src": "Griffy gPQrOK53BDI + findings/hole_caverns_1-5.md"
    },
    "quick": [
-    "The Hole (all 15 caverns + vil / Level 33 Cosmos, The Conjuror: You have 11 unspent Conjuror Pts! (22 / 33)",
-    "The Hole (all 15 caverns + vil / Cavern 1- The Well: Next Opal trade: 41.98K Gravel (100.0+% / 100%)",
-    "The Hole (all 15 caverns + vil / Cavern 7- The Lamp: Level 4 More Wishes: Unlock the next Wish Type (40 / 25) +9 more ready",
-    "The Hole (all 15 caverns + vil / Cavern 12- Evertree: Logs remaining to break Layer 6: -3.5M (100.0% / 100%)"
+    "The Hole (all 15 caverns + vil / Level 34 Cosmos, The Conjuror: You have 12 unspent Conjuror Pts! (22 / 34)",
+    "The Hole (all 15 caverns + vil / Cavern 7- The Lamp: Level 4 More Wishes: Unlock the next Wish Type (42 / 25) +9 more ready"
    ],
    "active": [
     {
@@ -5028,8 +5147,8 @@
     "text": "W7: push the cave until his tasks are planned",
     "src": "zack"
    },
-   "save_map": "W2 map 65",
-   "money": 9.16200036359545e+29,
+   "save_map": "W7 map 311",
+   "money": 9.162177751183499e+29,
    "jobs": [
     {
      "job": "Sneaking",
@@ -5203,7 +5322,7 @@
         {
          "section": "Breeding",
          "group": "Sources of Shiny Pet Level Rate",
-         "label": "Farming Crop Depot - Crayon:+1382.94/3650.95% Mobs",
+         "label": "Farming Crop Depot - Crayon:+1522.5/4019.4% Mobs",
          "cur": "125",
          "goal": "330",
          "score": 0,
@@ -5409,7 +5528,7 @@
          "section": "Compass",
          "group": "Slay more Abominations",
          "label": "Abominations Slain",
-         "cur": "15",
+         "cur": "16",
          "goal": "19",
          "score": 125,
          "ready": false,
@@ -5419,7 +5538,7 @@
          "section": "Compass",
          "group": "Slay more Abominations",
          "label": "Abominations Slain",
-         "cur": "15",
+         "cur": "16",
          "goal": "25",
          "score": 125,
          "ready": false,
@@ -5436,7 +5555,7 @@
          "section": "Compass",
          "group": "Collect more Medallions",
          "label": "Medallions Collected",
-         "cur": "25",
+         "cur": "27",
          "goal": "39",
          "score": 125,
          "ready": false,
@@ -5446,7 +5565,7 @@
          "section": "Compass",
          "group": "Collect more Medallions",
          "label": "Medallions Collected",
-         "cur": "25",
+         "cur": "27",
          "goal": "50",
          "score": 125,
          "ready": false,
@@ -5489,7 +5608,7 @@
         {
          "section": "Compass",
          "group": "Abominations",
-         "label": "The... undefeated in W3Weakness: Grass",
+         "label": "Bob... undefeated in W3Weakness: Grass",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -5499,7 +5618,7 @@
         {
          "section": "Compass",
          "group": "Abominations",
-         "label": "Bob... undefeated in W3Weakness: Grass",
+         "label": "Ove... undefeated in W3Weakness: Grass",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -5507,7 +5626,7 @@
          "infinite": false
         }
        ],
-       "more": 18
+       "more": 17
       },
       {
        "name": "Compass: Medallions",
@@ -5516,8 +5635,8 @@
         {
          "section": "Compass",
          "group": "Medallions",
-         "label": "Total Medallions Collected: 25/132",
-         "cur": "25",
+         "label": "Total Medallions Collected: 27/132",
+         "cur": "27",
          "goal": "132",
          "score": 0,
          "ready": false,
@@ -5534,7 +5653,7 @@
          "infinite": false
         }
        ],
-       "more": 106
+       "more": 104
       },
       {
        "name": "Compass: tabbed",
@@ -5694,14 +5813,12 @@
       }
      ],
      "weekly": {
-      "week_start": null,
-      "done": false
+      "week_start": "2026-11-15",
+      "done": true
      }
     }
    ],
-   "flags": [
-    "Weekly killroy: not confirmed for week of ?"
-   ],
+   "flags": [],
    "move": {
     "text": "Breeding: Bonuses from All Meals: Sheepie88.77 base days to level 5 -> 13",
     "src": "rinse (Griffy-weighted AutoReview)"
@@ -5797,8 +5914,8 @@
     "text": "Lab (Maestro Lab catch-up)",
     "src": "zack"
    },
-   "save_map": "W7 map 305",
-   "money": 1.22852899109595e+29,
+   "save_map": "W4 map 150",
+   "money": 1.2275989910866268e+29,
    "jobs": [
     {
      "job": "Maestro: #1 in every skill",
@@ -5809,22 +5926,18 @@
      "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)",
      "maestro_behind": [
-      "Mining 135/137 (Autistomatic)",
-      "Smithing 98/114 (Autistastic)",
+      "Smithing 98/115 (Autistastic)",
       "Chopping 101/124 (Autistronaut)",
-      "Alchemy 110/126 (Autistocat)",
+      "Alchemy 111/126 (Autistocat)",
       "Catching 100/136 (Autisticles)",
       "Trapping 69/70 (Autistastic)",
-      "Worship 94/101 (Autistastic)",
+      "Worship 96/101 (Autistastic)",
       "Cooking 17/62 (Autiszemo)",
-      "Laboratory 76/252 (Autistocat)",
-      "Sailing 138/143 (Autisticles)",
+      "Laboratory 191/252 (Autistocat)",
       "Divinity 193/196 (Autistocat)",
-      "Gaming 203/204 (Autistastic)",
-      "Farming 157/172 (Autiszemo)",
       "Sneaking 283/285 (Autistocat)",
       "Spelunking 17/30 (Autistronaut)",
-      "Research 8/10 (Autiszemo)"
+      "Research 14/17 (Autiszemo)"
      ]
     },
     {
@@ -5878,7 +5991,7 @@
         {
          "section": "Research",
          "group": "Observations",
-         "label": "Dogbone Tombstone (Encroaching Forest Villas)Found in World 1, the final resting place of a poor villager",
+         "label": "Corange Coral (Doodle Reef)Found in World 7, growing among the doodlefish",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -5886,7 +5999,7 @@
          "infinite": false
         }
        ],
-       "more": 37
+       "more": 34
       },
       {
        "name": "Research: Posty Notes",
@@ -5963,7 +6076,7 @@
      "job": "Greenstacks",
      "basis": "light",
      "tiers": {
-      "Greenstacks": "165 out of max (realistic) 452",
+      "Greenstacks": "166 out of max (realistic) 452",
       "Endangered Greenstacks": "0/1"
      },
      "subs": [
@@ -5975,7 +6088,7 @@
          "section": "Greenstacks",
          "group": "Collect Greenstacks to complete Equinox Dreams",
          "label": "Collect 200 Greenstacks",
-         "cur": "165",
+         "cur": "166",
          "goal": "200",
          "score": 129,
          "ready": false,
@@ -6002,7 +6115,7 @@
          "section": "Greenstacks",
          "group": "Timegated Item recommendations",
          "label": "Potent Strength Potion (W4 Town)",
-         "cur": "39%",
+         "cur": "43%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -6012,7 +6125,7 @@
          "section": "Greenstacks",
          "group": "Timegated Item recommendations",
          "label": "Potent Speed Potion (W4 Town)",
-         "cur": "36%",
+         "cur": "40%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -6056,7 +6169,7 @@
          "section": "Greenstacks",
          "group": "Difficulty Group 4 Item recommendations",
          "label": "Potent Strength Potion (W4 Town)",
-         "cur": "39%",
+         "cur": "43%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -6066,7 +6179,7 @@
          "section": "Greenstacks",
          "group": "Difficulty Group 4 Item recommendations",
          "label": "Potent Speed Potion (W4 Town)",
-         "cur": "36%",
+         "cur": "40%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -6083,7 +6196,7 @@
          "section": "Greenstacks",
          "group": "Difficulty Group 5 Item recommendations",
          "label": "Dune Soul",
-         "cur": "82%",
+         "cur": "87%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -6147,7 +6260,7 @@
          "section": "Greenstacks",
          "group": "Difficulty Group 7 Item recommendations",
          "label": "Small Mana Potion",
-         "cur": "45%",
+         "cur": "51%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -6190,8 +6303,8 @@
         {
          "section": "Greenstacks",
          "group": "Difficulty Group 9 Item recommendations",
-         "label": "Mountain Bread",
-         "cur": "99%",
+         "label": "Average EXP Potion",
+         "cur": "16%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -6200,15 +6313,15 @@
         {
          "section": "Greenstacks",
          "group": "Difficulty Group 9 Item recommendations",
-         "label": "Average EXP Potion",
-         "cur": "16%",
+         "label": "Dung Beat",
+         "cur": "14%",
          "goal": "100%",
          "score": 0,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 7
+       "more": 6
       },
       {
        "name": "Greenstacks: Difficulty Group 10 Item recommendations",
@@ -6406,8 +6519,8 @@
         {
          "section": "Endangered Greenstacks",
          "group": "Still obtainable",
-         "label": "Monster Rating- XxX_Cattleprod_XxX: Ok, NOW it's Peak Gaming!",
-         "cur": "6%",
+         "label": "Loomi's Room Key- Loominadi: Rhyming is Key!",
+         "cur": "0%",
          "goal": "100%",
          "score": 129,
          "ready": false,
@@ -6416,7 +6529,7 @@
         {
          "section": "Endangered Greenstacks",
          "group": "Still obtainable",
-         "label": "Time Thingy- Funguy: Partycrastination",
+         "label": "Triumphant Treason- Goldric: Only Winners have Portraits",
          "cur": "0%",
          "goal": "100%",
          "score": 129,
@@ -6432,7 +6545,7 @@
        "section": "Greenstacks",
        "group": "Collect Greenstacks to complete Equinox Dreams",
        "label": "Collect 200 Greenstacks",
-       "cur": "165",
+       "cur": "166",
        "goal": "200",
        "score": 129,
        "ready": false,
@@ -6452,7 +6565,7 @@
        "section": "Greenstacks",
        "group": "Collect Greenstacks to complete Equinox Dreams",
        "label": "Collect 250 Greenstacks",
-       "cur": "165",
+       "cur": "166",
        "goal": "250",
        "score": 129,
        "ready": false,
@@ -6473,7 +6586,7 @@
      "job": "Gem / Event shops + votes",
      "basis": "light",
      "tiers": {
-      "Gem Shop": "269/406",
+      "Gem Shop": "270/406",
       "Event Shop": "untiered",
       "Bonus Ballot": "untiered",
       "Meritocracy": "untiered"
@@ -6602,7 +6715,7 @@
          "section": "Gem Shop",
          "group": "True Max",
          "label": "Card Presets (Inventory and Storage)",
-         "cur": "3",
+         "cur": "4",
          "goal": "5",
          "score": 0,
          "ready": false,
@@ -6796,7 +6909,7 @@
    ],
    "flags": [],
    "move": {
-    "text": "Greenstacks: Collect 200 Greenstacks 165 -> 200",
+    "text": "Greenstacks: Collect 200 Greenstacks 166 -> 200",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [],
@@ -6863,22 +6976,20 @@
     "Inventory Bag D: 2 slots (Quest)",
     "Inventory Bag H: 2 slots (Quest)",
     "Peeper Pouch: 3 slots (Crafted)",
-    "Treasure Totebag: 1 slots (Vendor)",
-    "Rucksack Of Riches: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
    ]
   },
   {
    "slot": 8,
    "name": "Autistomatic",
-   "class": "Divine Knight",
+   "class": "Royal Guardian",
    "level": 823,
    "afk": {
     "text": "W3 snakes map (statue work, Zack's call)",
     "src": "zack"
    },
-   "save_map": "W1 map 1",
-   "money": 7.34690793612809e+23,
+   "save_map": "W5 map 216",
+   "money": 3.958925588229495e+24,
    "jobs": [
     {
      "job": "Construction #2",
@@ -7060,9 +7171,7 @@
     "text": "Ore prints: Copper Ore 1.34B -> 8.0B",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
-   "quick": [
-    "READY (Toolbox): Next printer cycle Ready \u00b7 printer cycle"
-   ],
+   "quick": [],
    "active": [
     {
      "id": "dk_crystals",
@@ -7097,33 +7206,15 @@
     ],
     "Skilling Medium": [
      "Haungry for Gold 198/299",
+     "Built Different 100/299",
      "Overblown Testosterone 286/299",
-     "'STR'ess Tested Garb 160/299",
-     "Firmly Grasp It 269/299"
+     "'STR'ess Tested Garb 160/299"
     ],
     "Skilling Low": [
      "Health Overdrive 181/299",
      "Shieldiest Statues 173/299",
      "Strength in Numbers 203/299",
      "Health Booster 250/299"
-    ],
-    "Combat High": [
-     "Orb of Remembrance 288/299",
-     "Shockwave Slash 280/287",
-     "Knightly Disciple 194/299",
-     "Imbued Shockwaves 296/299"
-    ],
-    "Combat Medium": [
-     "King of the Remembered 291/299",
-     "Blocky Bottles 100/299",
-     "Precision Power 171/299",
-     "Carry a Big Stick 277/299"
-    ],
-    "Combat Low": [
-     "Idle Brawling 257/299",
-     "Sharpened Axe 268/299",
-     "Charred Skulls 284/299",
-     "Gamer Strength 276/299"
     ]
    },
    "bags": [
@@ -7139,13 +7230,13 @@
    "slot": 9,
    "name": "Autistronaut",
    "class": "Elemental Sorcerer",
-   "level": 827,
+   "level": 830,
    "afk": {
     "text": "W7 Spelunking tunnels (Spelunking levels)",
     "src": "fan (DigitalTQ), unverified"
    },
-   "save_map": "W7 map 311",
-   "money": 1.51204693658106e+29,
+   "save_map": "W3 map 111",
+   "money": 4.450114291736623e+29,
    "jobs": [
     {
      "job": "Cards",
@@ -7179,7 +7270,7 @@
          "infinite": false
         }
        ],
-       "more": 4
+       "more": 3
       },
       {
        "name": "Cards: Yum-Yum Desert: Collect 1 more cards for Ruby (83/84)",
@@ -7206,7 +7297,7 @@
          "section": "Cards",
          "group": "Easy Resources: Collect 1 more cards for Ruby (77/78)",
          "label": "Fire Forge:+20/28% Smithing EXP (Passive)",
-         "cur": "3,792",
+         "cur": "3,759",
          "goal": "Ruby",
          "score": 0,
          "ready": false,
@@ -7222,8 +7313,8 @@
         {
          "section": "Cards",
          "group": "Medium Resources: Collect 13 more cards for Ruby (173/186)",
-         "label": "Rooted Soul:+24/42 Starting Pts in Worship",
-         "cur": "12",
+         "label": "Frigid Soul:+28/49% Max Charge",
+         "cur": "11",
          "goal": "Platinum",
          "score": 0,
          "ready": false,
@@ -7232,8 +7323,8 @@
         {
          "section": "Cards",
          "group": "Medium Resources: Collect 13 more cards for Ruby (173/186)",
-         "label": "Frigid Soul:+28/49% Max Charge",
-         "cur": "15",
+         "label": "Rooted Soul:+24/42 Starting Pts in Worship",
+         "cur": "12",
          "goal": "Platinum",
          "score": 0,
          "ready": false,
@@ -7260,12 +7351,12 @@
        "more": -1
       },
       {
-       "name": "Cards: Hard Resources: Collect 36 more cards for Gold (108/144)",
+       "name": "Cards: Hard Resources: Collect 35 more cards for Gold (109/144)",
        "state": "open",
        "items": [
         {
          "section": "Cards",
-         "group": "Hard Resources: Collect 36 more cards for Gold (108/144)",
+         "group": "Hard Resources: Collect 35 more cards for Gold (109/144)",
          "label": "Squishy Soul:+10/35% Charge Rate",
          "cur": "6",
          "goal": "Silver",
@@ -7275,7 +7366,7 @@
         },
         {
          "section": "Cards",
-         "group": "Hard Resources: Collect 36 more cards for Gold (108/144)",
+         "group": "Hard Resources: Collect 35 more cards for Gold (109/144)",
          "label": "Oozie Soul:+10/70% Max Charge",
          "cur": "6",
          "goal": "Bronze",
@@ -7375,7 +7466,7 @@
          "section": "Cards",
          "group": "Shimmerfin Deep: Collect 9 more cards for Unlock (16/25)",
          "label": "Eamsy Earl:+3/21% Class EXP Multi",
-         "cur": "3,422",
+         "cur": "3,326",
          "goal": "Bronze",
          "score": 0,
          "ready": false,
@@ -7734,10 +7825,10 @@
      "Leaf Thief 266/299"
     ],
     "Skilling Medium": [
-     "Utmost Intellect 160/299",
+     "Utmost Intellect 245/299",
      "Unt'WIS'ted Robes 239/299",
-     "Individual Insight 159/299",
-     "Wis Wumbo 100/299"
+     "Wis Wumbo 146/299",
+     "Active Afk'er 177/299"
     ],
     "Skilling Low": [
      "Mana Overdrive 200/299",
@@ -7746,22 +7837,22 @@
      "The Family Guy 100/299"
     ],
     "Combat High": [
-     "Mana Is Life 100/299",
-     "Lightning Barrage 100/299",
-     "Radiant Chainbolt 100/299",
-     "Tornado 100/299"
+     "Mana Is Life 275/299",
+     "Lightning Barrage 190/299",
+     "Radiant Chainbolt 199/299",
+     "Tornado 168/299"
     ],
     "Combat Medium": [
      "Wormhole Emperor 172/299",
-     "Fuscia Flasks 100/299",
-     "Paperwork, Great 100/299",
+     "Fuscia Flasks 208/299",
+     "Paperwork, Great 159/299",
      "Knowledge Is Power 229/299"
     ],
     "Combat Low": [
      "Idle Casting 250/299",
      "Sharpened Axe 183/299",
-     "Memorial Skulls 100/299",
-     "Choppin It Up Ez 136/299"
+     "Memorial Skulls 249/299",
+     "Mini Fireball 215/299"
     ]
    },
    "bags": [
@@ -7776,13 +7867,13 @@
    "slot": 10,
    "name": "Autistopher",
    "class": "Death Bringer",
-   "level": 777,
+   "level": 824,
    "afk": {
     "text": "His own Super CHOWs (100M)",
     "src": "griffy"
    },
-   "save_map": "W7 map 311",
-   "money": 4.78023218804695e+29,
+   "save_map": "W1 map 8",
+   "money": 1.4351782475767715e+29,
    "jobs": [
     {
      "job": "Super CHOWs",
@@ -7864,7 +7955,7 @@
          "group": "All kills for Autiszemo without a filter. Have fun",
          "label": "Poops in The Office",
          "cur": "",
-         "goal": "341,826",
+         "goal": "360,533",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -7946,7 +8037,7 @@
      "job": "Stamps",
      "basis": "light",
      "tiers": {
-      "Stamps": "13/20"
+      "Stamps": "15/20"
      },
      "subs": [
       {
@@ -7957,7 +8048,7 @@
          "section": "Stamps",
          "group": "Improve your total stamp levels",
          "label": "Total Stamp Levels",
-         "cur": "9247",
+         "cur": "9539",
          "goal": "11000",
          "score": 132,
          "ready": false,
@@ -7967,7 +8058,7 @@
          "section": "Stamps",
          "group": "Improve your total stamp levels",
          "label": "Total Stamp Levels",
-         "cur": "9247",
+         "cur": "9539",
          "goal": "13000",
          "score": 132,
          "ready": false,
@@ -7984,8 +8075,8 @@
          "section": "Stamps",
          "group": "Improve high-priority Stamps",
          "label": "Skill: Drippy Drop Stamp",
-         "cur": "75",
-         "goal": "85",
+         "cur": "95",
+         "goal": "100",
          "score": 132,
          "ready": false,
          "infinite": false
@@ -7994,14 +8085,14 @@
          "section": "Stamps",
          "group": "Improve high-priority Stamps",
          "label": "Skill: Ladle Stamp",
-         "cur": "80",
-         "goal": "100",
+         "cur": "160",
+         "goal": "180",
          "score": 132,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 3
+       "more": 9
       },
       {
        "name": "Stamps: Sources of Carry Capacity",
@@ -8064,7 +8155,7 @@
         {
          "section": "Stamps",
          "group": "Exalted Stamps",
-         "label": "Skill: Drippy Drop Stamp",
+         "label": "Skill: Multitool Stamp",
          "cur": "0",
          "goal": "1",
          "score": 132,
@@ -8074,7 +8165,7 @@
         {
          "section": "Stamps",
          "group": "Exalted Stamps",
-         "label": "Skill: Bag o Heads Stamp",
+         "label": "Skill: Matty Bag Stamp",
          "cur": "0",
          "goal": "1",
          "score": 132,
@@ -8090,7 +8181,7 @@
        "section": "Stamps",
        "group": "Improve your total stamp levels",
        "label": "Total Stamp Levels",
-       "cur": "9247",
+       "cur": "9539",
        "goal": "11000",
        "score": 132,
        "ready": false,
@@ -8100,7 +8191,7 @@
        "section": "Stamps",
        "group": "Improve your total stamp levels",
        "label": "Total Stamp Levels",
-       "cur": "9247",
+       "cur": "9539",
        "goal": "13000",
        "score": 132,
        "ready": false,
@@ -8110,8 +8201,8 @@
        "section": "Stamps",
        "group": "Improve high-priority Stamps",
        "label": "Skill: Drippy Drop Stamp",
-       "cur": "75",
-       "goal": "85",
+       "cur": "95",
+       "goal": "100",
        "score": 132,
        "ready": false,
        "infinite": false
@@ -8132,7 +8223,7 @@
      "job": "Upgrade Vault",
      "basis": "light",
      "tiers": {
-      "Upgrade Vault": "0/7"
+      "Upgrade Vault": "4/7"
      },
      "subs": [
       {
@@ -8142,9 +8233,9 @@
         {
          "section": "Upgrade Vault",
          "group": "Progression Tiers",
-         "label": "Go Go Secret Owl: +750.00% Feathers/sec for Orion the Horned Owl (7.50 per level after Vault Mastery 1)",
-         "cur": "100",
-         "goal": "102",
+         "label": "Wicked Smart: +990.00% Class EXP Gain. Leveling up gives you Talent Pts!(3.00 per level after Vault Mastery 1)",
+         "cur": "330",
+         "goal": "387",
          "score": 127,
          "ready": false,
          "infinite": false
@@ -8152,15 +8243,15 @@
         {
          "section": "Upgrade Vault",
          "group": "Progression Tiers",
-         "label": "Major Discount: All upgrades in the Vault are % cheaper (4.00 per level: Not scaled by Vault Mastery 1)",
-         "cur": "80",
-         "goal": "81",
+         "label": "Bullseye: +660.00 Accuracy. Useful when you start missing! (1.50 per level after Vault Mastery 1)",
+         "cur": "440",
+         "goal": "500",
          "score": 127,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 2
+       "more": 67
       },
       {
        "name": "Upgrade Vault: Vault Upgrades",
@@ -8169,9 +8260,9 @@
         {
          "section": "Upgrade Vault",
          "group": "Vault Upgrades",
-         "label": "Major Discount: All upgrades in the Vault are % cheaper (4.00 per level: Not scaled by Vault Mastery 1)",
-         "cur": "80",
-         "goal": "81",
+         "label": "Wicked Smart: +990.00% Class EXP Gain. Leveling up gives you Talent Pts!(3.00 per level after Vault Mastery 1)",
+         "cur": "330",
+         "goal": "514",
          "score": 127,
          "ready": false,
          "infinite": false
@@ -8179,24 +8270,24 @@
         {
          "section": "Upgrade Vault",
          "group": "Vault Upgrades",
-         "label": "Go Go Secret Owl: +750.00% Feathers/sec for Orion the Horned Owl (7.50 per level after Vault Mastery 1)",
-         "cur": "100",
-         "goal": "102",
+         "label": "Bullseye: +660.00 Accuracy. Useful when you start missing! (1.50 per level after Vault Mastery 1)",
+         "cur": "440",
+         "goal": "500",
          "score": 127,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 25
+       "more": 21
       }
      ],
      "next": [
       {
        "section": "Upgrade Vault",
        "group": "Progression Tiers",
-       "label": "Go Go Secret Owl: +750.00% Feathers/sec for Orion the Horned Owl (7.50 per level after Vault Mastery 1)",
-       "cur": "100",
-       "goal": "102",
+       "label": "Wicked Smart: +990.00% Class EXP Gain. Leveling up gives you Talent Pts!(3.00 per level after Vault Mastery 1)",
+       "cur": "330",
+       "goal": "387",
        "score": 127,
        "ready": false,
        "infinite": false
@@ -8204,9 +8295,9 @@
       {
        "section": "Upgrade Vault",
        "group": "Progression Tiers",
-       "label": "Major Discount: All upgrades in the Vault are % cheaper (4.00 per level: Not scaled by Vault Mastery 1)",
-       "cur": "80",
-       "goal": "81",
+       "label": "Bullseye: +660.00 Accuracy. Useful when you start missing! (1.50 per level after Vault Mastery 1)",
+       "cur": "440",
+       "goal": "500",
        "score": 127,
        "ready": false,
        "infinite": false
@@ -8214,9 +8305,9 @@
       {
        "section": "Upgrade Vault",
        "group": "Progression Tiers",
-       "label": "Major Discount: All upgrades in the Vault are % cheaper (4.00 per level: Not scaled by Vault Mastery 1)",
-       "cur": "80",
-       "goal": "81",
+       "label": "Kitchen Dream-mare: 23.59x meal cooking speed Go on lad, turn that kitchen around!(9.00 per level after Vault Mastery 2)",
+       "cur": "251",
+       "goal": "327",
        "score": 127,
        "ready": false,
        "infinite": false
@@ -8275,7 +8366,7 @@
          "section": "Equinox",
          "group": "Upgrade more Equinox Bonuses",
          "label": "Liquidvestment",
-         "cur": "6",
+         "cur": "9",
          "goal": "11",
          "score": 0,
          "ready": false,
@@ -8310,7 +8401,7 @@
        "section": "Equinox",
        "group": "Upgrade more Equinox Bonuses",
        "label": "Liquidvestment",
-       "cur": "6",
+       "cur": "9",
        "goal": "11",
        "score": 0,
        "ready": false,
@@ -8824,11 +8915,11 @@
    ],
    "flags": [],
    "move": {
-    "text": "Stamps: Total Stamp Levels 9247 -> 11000",
+    "text": "Stamps: Total Stamp Levels 9539 -> 11000",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
-    "READY (Toolbox): Library 73 books \u00b7 books ready: max-first talents per card"
+    "READY (Toolbox): Library 46 books \u00b7 books ready: max-first talents per card"
    ],
    "active": [
     {
@@ -8883,8 +8974,6 @@
     "Inventory Bag D: 2 slots (Quest)",
     "Inventory Bag G: 2 slots (Dropped)",
     "Inventory Bag H: 2 slots (Quest)",
-    "Bummo Bag: 1 slots (Vendor)",
-    "Peeper Pouch: 3 slots (Crafted)",
     "Rucksack Of Riches: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
    ]
@@ -8893,13 +8982,13 @@
    "slot": 11,
    "name": "Autistachio",
    "class": "Beginner",
-   "level": 712,
+   "level": 737,
    "afk": {
     "text": "Divinity (Divinity slippers)",
     "src": "zack"
    },
-   "save_map": "W7 map 304",
-   "money": 5.86153892308141e+27,
+   "save_map": "W5 map 200",
+   "money": 1.6000253795803123e+28,
    "jobs": [
     {
      "job": "Divinity to 40",
@@ -9330,9 +9419,8 @@
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
-    "READY (Toolbox): Bravery monument 7.50x / 2.40x \u00b7 Fight \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)",
-    "READY (Toolbox): Justice monument 7.55x / 2.40x \u00b7 Fight \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)",
-    "READY (Toolbox): Wisdom monument 7.43x / 2.40x \u00b7 Fight \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)",
+    "READY (Toolbox): Bravery monument 7.51x / 2.40x \u00b7 Fight \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)",
+    "READY (Toolbox): Wisdom monument 7.44x / 2.40x \u00b7 Fight \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)",
     "W7 reef / Bonuses: +3% Spelunking Amber gain per Crystal Shrine level above 200Unlock for 248 Glowing Coral ( (1,875 / 248)"
    ],
    "active": [
@@ -9361,29 +9449,24 @@
  ],
  "account": {
   "money": {
-   "total": 1.6700785492756604e+31,
+   "total": 1.433093416953459e+31,
    "bank": 0,
    "per_char": {
-    "Autiszemo": 9.90930970155169e+29,
-    "Autistocat": 8.41415804076006e+27,
-    "Autisticles": 1.33091737691916e+31,
-    "Autistastic": 1.98902660331582e+29,
-    "Autistabish": 5.19220813491677e+29,
-    "Autistacular": 9.16200036359545e+29,
-    "Autistotle": 1.22852899109595e+29,
-    "Autistomatic": 7.34690793612809e+23,
-    "Autistronaut": 1.51204693658106e+29,
-    "Autistopher": 4.78023218804695e+29,
-    "Autistachio": 5.86153892308141e+27
+    "Autiszemo": 9.909666240519515e+29,
+    "Autistocat": 2.364496961655048e+29,
+    "Autisticles": 9.732294427649325e+30,
+    "Autistastic": 1.9469927896237834e+29,
+    "Autistabish": 1.5330130018256874e+30,
+    "Autistacular": 9.162177751183499e+29,
+    "Autistotle": 1.2275989910866268e+29,
+    "Autistomatic": 3.958925588229495e+24,
+    "Autistronaut": 4.450114291736623e+29,
+    "Autistopher": 1.4351782475767715e+29,
+    "Autistachio": 1.6000253795803123e+28
    },
    "holder": "Autisticles"
   },
   "alerts": [
-   {
-    "name": "Next free companion (Claim)",
-    "owner": "anyone",
-    "hits": []
-   },
    {
     "name": "Feather Restart (Restart available)",
     "owner": "anyone",
@@ -9406,7 +9489,7 @@
     ]
    }
   ],
-  "timers_captured": "2026-11-16T19:19:58.135Z",
+  "timers_captured": "2026-11-17T20:00:42.025Z",
   "salts": [
    "Rank 29 Red Salt: excess",
    "Rank 22 Orange Salt: excess",
@@ -9418,37 +9501,26 @@
   "ledger": {
    "stamps": [
     {
-     "stamp": "Ladle Stamp",
-     "level": 80,
-     "max": 80,
-     "target": 180,
-     "coins": 138839544068333563,
-     "material": "Sand Shark",
-     "owned": 69277074,
-     "next_raise": 41346.42050375765,
-     "total_mat": 100097823.21071331
+     "stamp": "Golden Apple Stamp",
+     "level": 64,
+     "max": 64,
+     "target": 100,
+     "coins": 6185823235111,
+     "material": "Golden Nomwich",
+     "owned": 400477,
+     "next_raise": 35917.38457803634,
+     "total_mat": 10979142.081689902
     },
     {
      "stamp": "Bag o Heads Stamp",
-     "level": 96,
-     "max": 96,
+     "level": 120,
+     "max": 120,
      "target": 224,
-     "coins": 23143282174034,
+     "coins": 23134882054612,
      "material": "Butterfly",
-     "owned": 301424430,
-     "next_raise": 1989522.6551878296,
-     "total_mat": 1771713850050.7783
-    },
-    {
-     "stamp": "Drippy Drop Stamp",
-     "level": 75,
-     "max": 75,
-     "target": 100,
-     "coins": 134371859296,
-     "material": "Pocket Sand",
-     "owned": 1046743530,
-     "next_raise": 16015183.844886953,
-     "total_mat": 762638386.9814062
+     "owned": 288372449,
+     "next_raise": 33368015.826520592,
+     "total_mat": 1771693458572.299
     },
     {
      "stamp": "Choppin' Bag Stamp",
@@ -9457,9 +9529,31 @@
      "target": 330,
      "coins": 22275281333266,
      "material": "Carrot Cube",
-     "owned": 846243265,
+     "owned": 846348383,
      "next_raise": 180051690.12581494,
      "total_mat": 6643585344129.883
+    },
+    {
+     "stamp": "Ladle Stamp",
+     "level": 160,
+     "max": 160,
+     "target": 180,
+     "coins": 123131011018311363,
+     "material": "Sand Shark",
+     "owned": 68526606,
+     "next_raise": 25179901.586920485,
+     "total_mat": 78179862.46768272
+    },
+    {
+     "stamp": "Drippy Drop Stamp",
+     "level": 95,
+     "max": 95,
+     "target": 110,
+     "coins": 386848822182,
+     "material": "Pocket Sand",
+     "owned": 1016836879,
+     "next_raise": 432124056.30195594,
+     "total_mat": 3514939897.258701
     },
     {
      "stamp": "Bugsack Stamp",
@@ -9479,7 +9573,7 @@
      "target": 160,
      "coins": 24988946111202,
      "material": "Glass Shard",
-     "owned": 8592,
+     "owned": 8732,
      "next_raise": 17436.762333716375,
      "total_mat": 164182044.07647136
     },
@@ -9495,6 +9589,17 @@
      "total_mat": 1539857782193.6477
     },
     {
+     "stamp": "Multitool Stamp",
+     "level": 180,
+     "max": 180,
+     "target": 210,
+     "coins": 2584243440298134192128,
+     "material": "Dust Mote",
+     "owned": 1049920000,
+     "next_raise": 25728490393.812965,
+     "total_mat": 257873409444.34894
+    },
+    {
      "stamp": "Matty Bag Stamp",
      "level": 200,
      "max": 200,
@@ -9504,77 +9609,63 @@
      "owned": 0,
      "next_raise": 149.29383785680668,
      "total_mat": 183828.60457898222
+    },
+    {
+     "stamp": "Potion Stamp",
+     "level": 45,
+     "max": 45,
+     "target": 60,
+     "coins": 1541605495,
+     "material": "Icing Ironbite",
+     "owned": 0,
+     "next_raise": 292083.8417680772,
+     "total_mat": 3651090.0433939174
     }
    ],
-   "stamp": "20261117T0042",
-   "vs": "20261116T0240",
-   "hours": 22.032845094468858,
+   "stamp": "20261117T1959",
+   "vs": "20261117T0042",
+   "hours": 19.284386944439674,
    "watch": [
     {
      "item": "Tangled Cords",
-     "owned": 413149,
-     "rate_hr": 14484.965451879767,
+     "owned": 512329,
+     "rate_hr": 5143.020635592301,
      "owner": "Autistocat",
      "why": "Dream of Ironfish 68 -> 70 (exact cost: check bubble cost)"
     },
     {
      "item": "Void Bar",
-     "owned": 176,
-     "rate_hr": 0.0,
+     "owned": 224,
+     "rate_hr": 2.4890601987137573,
      "owner": "Autistastic",
      "why": "ran out before (Zack); construction/printer use"
     },
     {
      "item": "Copper Bar",
-     "owned": 153852778,
-     "rate_hr": 745551.286253256,
+     "owned": 161685147,
+     "rate_hr": 406150.79040707235,
      "owner": "Autistocat",
      "why": "Barium Mixture 12 -> 13 needs 1B Copper Bars (Toolbox map finding)",
      "target": 1000000000,
-     "shortage": 846147222,
-     "eta_days": 47.288677385533816
+     "shortage": 838314853,
+     "eta_days": 86.00201296335685
     }
    ],
-   "runout": []
+   "runout": [
+    {
+     "item": "Skelefish",
+     "owned": 34956168,
+     "rate_hr": -755144.928483135,
+     "runout_days": 1.9287780994910422
+    }
+   ]
   },
   "coins": {
    "richest": "Autisticles",
    "vault": [
     {
-     "buy_richest": 20,
-     "buy_cost": 4.562789474696463e+28,
-     "i": 82,
-     "name": "Sneaking Knowledge",
-     "level": 80,
-     "max": 100,
-     "next": 7.240621345319491e+25,
-     "to_max": 4.562789474696463e+28,
-     "next_ok": [
-      "Autiszemo",
-      "Autistocat",
-      "Autisticles",
-      "Autistastic",
-      "Autistabish",
-      "Autistacular",
-      "Autistotle",
-      "Autistronaut",
-      "Autistopher",
-      "Autistachio"
-     ],
-     "max_ok": [
-      "Autiszemo",
-      "Autisticles",
-      "Autistastic",
-      "Autistabish",
-      "Autistacular",
-      "Autistotle",
-      "Autistronaut",
-      "Autistopher"
-     ]
-    },
-    {
-     "buy_richest": 47,
-     "buy_cost": 1.311498558750932e+31,
+     "buy_richest": 45,
+     "buy_cost": 8.39345915900274e+30,
      "i": 67,
      "name": "Sailing Loot",
      "level": 150,
@@ -9596,8 +9687,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 72,
-     "buy_cost": 1.171148521237719e+31,
+     "buy_richest": 70,
+     "buy_cost": 9.011391662568432e+30,
      "i": 60,
      "name": "Cooking Knowledge",
      "level": 310,
@@ -9619,8 +9710,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 43,
-     "buy_cost": 1.1854487114540794e+31,
+     "buy_richest": 42,
+     "buy_cost": 9.716379139326447e+30,
      "i": 81,
      "name": "Finders Keepers",
      "level": 120,
@@ -9643,30 +9734,7 @@
     },
     {
      "buy_richest": 41,
-     "buy_cost": 1.0971277049816138e+31,
-     "i": 68,
-     "name": "Mega Bits",
-     "level": 175,
-     "max": 300,
-     "next": 6.951073138819341e+26,
-     "to_max": 1.9706432576315745e+38,
-     "next_ok": [
-      "Autiszemo",
-      "Autistocat",
-      "Autisticles",
-      "Autistastic",
-      "Autistabish",
-      "Autistacular",
-      "Autistotle",
-      "Autistronaut",
-      "Autistopher",
-      "Autistachio"
-     ],
-     "max_ok": []
-    },
-    {
-     "buy_richest": 43,
-     "buy_cost": 1.1885031226665988e+31,
+     "buy_cost": 8.252062814879399e+30,
      "i": 54,
      "name": "Kitchen Dream-mare",
      "level": 251,
@@ -9688,8 +9756,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 38,
-     "buy_cost": 1.1381596646663601e+31,
+     "buy_richest": 37,
+     "buy_cost": 9.252514403910298e+30,
      "i": 65,
      "name": "Go Go Bubba the Seal",
      "level": 180,
@@ -9711,8 +9779,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 35,
-     "buy_cost": 1.3302270062360866e+31,
+     "buy_richest": 33,
+     "buy_cost": 8.511509325060882e+30,
      "i": 57,
      "name": "Teh TOM",
      "level": 200,
@@ -9734,8 +9802,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 39,
-     "buy_cost": 1.2789750268585417e+31,
+     "buy_richest": 37,
+     "buy_cost": 8.878577729717385e+30,
      "i": 83,
      "name": "White Essentials",
      "level": 125,
@@ -9757,14 +9825,14 @@
      "max_ok": []
     },
     {
-     "buy_richest": 33,
-     "buy_cost": 1.2219686096483247e+31,
+     "buy_richest": 31,
+     "buy_cost": 8.352309005854782e+30,
      "i": 3,
      "name": "Wicked Smart",
      "level": 330,
      "max": 500,
-     "next": 5.537975176519465e+27,
-     "to_max": 1.180406315482757e+42,
+     "next": 5.485730127684375e+27,
+     "to_max": 1.1692704068461271e+42,
      "next_ok": [
       "Autiszemo",
       "Autistocat",
@@ -9780,14 +9848,14 @@
      "max_ok": []
     },
     {
-     "buy_richest": 15,
-     "buy_cost": 1.0883494584576758e+30,
-     "i": 84,
-     "name": "Summoning Knowledge",
-     "level": 85,
-     "max": 100,
-     "next": 6.505908691225829e+27,
-     "to_max": 1.0883494584576758e+30,
+     "buy_richest": 14,
+     "buy_cost": 7.545126930542754e+30,
+     "i": 80,
+     "name": "Raw Damage",
+     "level": 70,
+     "max": 500,
+     "next": 1.2967287862275801e+28,
+     "to_max": 1.3586905084353235e+104,
      "next_ok": [
       "Autiszemo",
       "Autistocat",
@@ -9797,51 +9865,8 @@
       "Autistacular",
       "Autistotle",
       "Autistronaut",
-      "Autistopher"
-     ],
-     "max_ok": [
-      "Autisticles"
-     ]
-    },
-    {
-     "buy_richest": 6,
-     "buy_cost": 5.704550565828112e+30,
-     "i": 73,
-     "name": "Smarter Villagers",
-     "level": 30,
-     "max": 50,
-     "next": 1.256728168007152e+28,
-     "to_max": 5.407717117466943e+37,
-     "next_ok": [
-      "Autiszemo",
-      "Autisticles",
-      "Autistastic",
-      "Autistabish",
-      "Autistacular",
-      "Autistotle",
-      "Autistronaut",
-      "Autistopher"
-     ],
-     "max_ok": []
-    },
-    {
-     "buy_richest": 15,
-     "buy_cost": 1.1330657683676413e+31,
-     "i": 80,
-     "name": "Raw Damage",
-     "level": 70,
-     "max": 500,
-     "next": 1.2967287862275801e+28,
-     "to_max": 1.3586905084353235e+104,
-     "next_ok": [
-      "Autiszemo",
-      "Autisticles",
-      "Autistastic",
-      "Autistabish",
-      "Autistacular",
-      "Autistotle",
-      "Autistronaut",
-      "Autistopher"
+      "Autistopher",
+      "Autistachio"
      ],
      "max_ok": []
     },
@@ -9856,6 +9881,75 @@
      "to_max": 1.88817385007222e+48,
      "next_ok": [
       "Autiszemo",
+      "Autistocat",
+      "Autisticles",
+      "Autistastic",
+      "Autistabish",
+      "Autistacular",
+      "Autistotle",
+      "Autistronaut",
+      "Autistopher",
+      "Autistachio"
+     ],
+     "max_ok": []
+    },
+    {
+     "buy_richest": 26,
+     "buy_cost": 9.04469475328258e+30,
+     "i": 87,
+     "name": "Rest of the Essentials",
+     "level": 90,
+     "max": 200,
+     "next": 1.5941234792868859e+28,
+     "to_max": 4.0872295270780618e+37,
+     "next_ok": [
+      "Autiszemo",
+      "Autistocat",
+      "Autisticles",
+      "Autistastic",
+      "Autistabish",
+      "Autistacular",
+      "Autistotle",
+      "Autistronaut",
+      "Autistopher",
+      "Autistachio"
+     ],
+     "max_ok": []
+    },
+    {
+     "buy_richest": 19,
+     "buy_cost": 7.898263947109567e+30,
+     "i": 88,
+     "name": "Topheavy Charms",
+     "level": 50,
+     "max": 100,
+     "next": 1.631962305258614e+28,
+     "to_max": 2.708666968754475e+34,
+     "next_ok": [
+      "Autiszemo",
+      "Autistocat",
+      "Autisticles",
+      "Autistastic",
+      "Autistabish",
+      "Autistacular",
+      "Autistotle",
+      "Autistronaut",
+      "Autistopher"
+     ],
+     "max_ok": []
+    },
+    {
+     "buy_richest": 23,
+     "buy_cost": 8.574202318314095e+30,
+     "i": 78,
+     "name": "Croppius Evolvius",
+     "level": 150,
+     "max": 250,
+     "next": 1.7015121270624683e+28,
+     "to_max": 7.237996291197204e+37,
+     "next_ok": [
+      "Autiszemo",
+      "Autistocat",
       "Autisticles",
       "Autistastic",
       "Autistabish",
@@ -9868,78 +9962,16 @@
     },
     {
      "buy_richest": 28,
-     "buy_cost": 1.3059431161271225e+31,
-     "i": 87,
-     "name": "Rest of the Essentials",
-     "level": 90,
-     "max": 200,
-     "next": 1.5941234792868859e+28,
-     "to_max": 4.0872295270780618e+37,
-     "next_ok": [
-      "Autiszemo",
-      "Autisticles",
-      "Autistastic",
-      "Autistabish",
-      "Autistacular",
-      "Autistotle",
-      "Autistronaut",
-      "Autistopher"
-     ],
-     "max_ok": []
-    },
-    {
-     "buy_richest": 20,
-     "buy_cost": 1.0284062754295024e+31,
-     "i": 88,
-     "name": "Topheavy Charms",
-     "level": 50,
-     "max": 100,
-     "next": 1.631962305258614e+28,
-     "to_max": 2.708666968754475e+34,
-     "next_ok": [
-      "Autiszemo",
-      "Autisticles",
-      "Autistastic",
-      "Autistabish",
-      "Autistacular",
-      "Autistotle",
-      "Autistronaut",
-      "Autistopher"
-     ],
-     "max_ok": []
-    },
-    {
-     "buy_richest": 25,
-     "buy_cost": 1.3009854407811004e+31,
-     "i": 78,
-     "name": "Croppius Evolvius",
-     "level": 150,
-     "max": 250,
-     "next": 1.7015121270624683e+28,
-     "to_max": 7.237996291197204e+37,
-     "next_ok": [
-      "Autiszemo",
-      "Autisticles",
-      "Autistastic",
-      "Autistabish",
-      "Autistacular",
-      "Autistotle",
-      "Autistronaut",
-      "Autistopher"
-     ],
-     "max_ok": []
-    },
-    {
-     "buy_richest": 30,
-     "buy_cost": 1.286000411187238e+31,
+     "buy_cost": 9.547514734872917e+30,
      "i": 4,
      "name": "Bullseye",
      "level": 440,
      "max": 500,
-     "next": 2.8198332189214117e+28,
-     "to_max": 9.16711143905406e+32,
+     "next": 2.7932310187429075e+28,
+     "to_max": 9.080629255666758e+32,
      "next_ok": [
       "Autiszemo",
+      "Autistocat",
       "Autisticles",
       "Autistastic",
       "Autistabish",
@@ -9951,8 +9983,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 3,
-     "buy_cost": 1.2144218730866371e+31,
+     "buy_richest": 2,
+     "buy_cost": 8.062551854516559e+29,
      "i": 74,
      "name": "Super Slab",
      "level": 13,
@@ -9961,6 +9993,7 @@
      "to_max": 6.14983286922186e+35,
      "next_ok": [
       "Autiszemo",
+      "Autistocat",
       "Autisticles",
       "Autistastic",
       "Autistabish",
@@ -9982,6 +10015,7 @@
      "to_max": 4.279194405546374e+30,
      "next_ok": [
       "Autiszemo",
+      "Autistocat",
       "Autisticles",
       "Autistastic",
       "Autistabish",
@@ -9992,6 +10026,53 @@
      ],
      "max_ok": [
       "Autisticles"
+     ]
+    },
+    {
+     "buy_richest": 15,
+     "buy_cost": 8.539796605964325e+30,
+     "i": 68,
+     "name": "Mega Bits",
+     "level": 200,
+     "max": 300,
+     "next": 1.0024151576183921e+29,
+     "to_max": 1.9706432531067374e+38,
+     "next_ok": [
+      "Autiszemo",
+      "Autistocat",
+      "Autisticles",
+      "Autistastic",
+      "Autistabish",
+      "Autistacular",
+      "Autistotle",
+      "Autistronaut",
+      "Autistopher"
+     ],
+     "max_ok": []
+    },
+    {
+     "buy_richest": 3,
+     "buy_cost": 6.047851058042008e+29,
+     "i": 84,
+     "name": "Summoning Knowledge",
+     "level": 97,
+     "max": 100,
+     "next": 1.5157521448726837e+29,
+     "to_max": 6.047851058042008e+29,
+     "next_ok": [
+      "Autiszemo",
+      "Autistocat",
+      "Autisticles",
+      "Autistastic",
+      "Autistabish",
+      "Autistacular",
+      "Autistronaut"
+     ],
+     "max_ok": [
+      "Autiszemo",
+      "Autisticles",
+      "Autistabish",
+      "Autistacular"
      ]
     },
     {
@@ -10008,14 +10089,14 @@
       "Autisticles",
       "Autistabish",
       "Autistacular",
-      "Autistopher"
+      "Autistronaut"
      ],
      "max_ok": [
       "Autiszemo",
       "Autisticles",
       "Autistabish",
       "Autistacular",
-      "Autistopher"
+      "Autistronaut"
      ]
     },
     {
@@ -10030,11 +10111,13 @@
      "next_ok": [
       "Autiszemo",
       "Autisticles",
+      "Autistabish",
       "Autistacular"
      ],
      "max_ok": [
       "Autiszemo",
       "Autisticles",
+      "Autistabish",
       "Autistacular"
      ]
     },
@@ -10050,7 +10133,23 @@
      "next_ok": [
       "Autiszemo",
       "Autisticles",
+      "Autistabish",
       "Autistacular"
+     ],
+     "max_ok": []
+    },
+    {
+     "buy_richest": 2,
+     "buy_cost": 5.134896109103038e+30,
+     "i": 73,
+     "name": "Smarter Villagers",
+     "level": 34,
+     "max": 50,
+     "next": 1.237324363639182e+30,
+     "to_max": 5.407717060501498e+37,
+     "next_ok": [
+      "Autisticles",
+      "Autistabish"
      ],
      "max_ok": []
     },
@@ -10095,6 +10194,7 @@
      "max_bonus": 8.0,
      "next_ok": [
       "Autiszemo",
+      "Autistocat",
       "Autisticles",
       "Autistastic",
       "Autistabish",
@@ -10110,9 +10210,7 @@
      "next": 1.0314695266356493e+31,
      "bonus_now": 0.0,
      "max_bonus": 20.0,
-     "next_ok": [
-      "Autisticles"
-     ]
+     "next_ok": []
     },
     {
      "name": "Advice on Murder One",
@@ -10225,6 +10323,7 @@
      "ok": [
       "Autiszemo",
       "Autisticles",
+      "Autistabish",
       "Autistacular"
      ],
      "check": false

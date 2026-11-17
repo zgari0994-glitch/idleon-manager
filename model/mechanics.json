@@ -490,7 +490,7 @@
   },
   {
    "name": "Card Presets",
-   "lv": 3,
+   "lv": 4,
    "max": 5,
    "section": "Usables"
   },
@@ -526,7 +526,7 @@
   },
   {
    "name": "4 Star Cardifier",
-   "lv": 7,
+   "lv": 8,
    "max": 100000,
    "section": "Usables"
   },
@@ -636,6 +636,12 @@
    "name": "Richelin Kitchen",
    "lv": 10,
    "max": 10,
+   "section": "Bonuses"
+  },
+  {
+   "name": "Mainframe Jewel",
+   "lv": 2,
+   "max": 2,
    "section": "Bonuses"
   },
   {
@@ -1456,8 +1462,8 @@
   },
   {
    "class": "Royal Guardian",
-   "level": 0,
-   "value": 0.0
+   "level": 835,
+   "value": 4.6879150066401065
   },
   {
    "class": "Archer",
@@ -1466,7 +1472,7 @@
   },
   {
    "class": "Bowman",
-   "level": 831,
+   "level": 841,
    "value": null
   },
   {
@@ -1476,7 +1482,7 @@
   },
   {
    "class": "Siege Breaker",
-   "level": 831,
+   "level": 841,
    "value": null
   },
   {
@@ -1491,32 +1497,32 @@
   },
   {
    "class": "Mage",
-   "level": 835,
+   "level": 842,
    "value": null
   },
   {
    "class": "Wizard",
-   "level": 835,
-   "value": 135
+   "level": 842,
+   "value": 136
   },
   {
    "class": "Shaman",
-   "level": 822,
-   "value": 1.3552071668533034
+   "level": 824,
+   "value": 1.3553072625698324
   },
   {
    "class": "Elemental Sorcerer",
-   "level": 835,
-   "value": 13.727598566308243
+   "level": 842,
+   "value": 13.766696349065004
   },
   {
    "class": "Bubonic Conjuror",
-   "level": 822,
+   "level": 824,
    "value": null
   },
   {
    "class": "Arcane Cultist",
-   "level": 822,
+   "level": 824,
    "value": null
   }
  ],
@@ -1524,22 +1530,22 @@
   {
    "name": "Archlord of the Pirates",
    "type": "Drop Rate and Class EXP",
-   "kills": 5998,
-   "value": 15.044226853115221,
+   "kills": 6009,
+   "value": 15.047395543311714,
    "how": "Farm more Plunder Kills with Siege Breaker for Drop Rate Crystal Setup at W5 Citringes for ~20k per day"
   },
   {
    "name": "King of the Remembered",
    "type": "Printer Output",
-   "kills": 2648839,
+   "kills": 2653262,
    "value": 0.0,
    "how": "Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from"
   },
   {
    "name": "Wormhole Emperor",
    "type": "Damage",
-   "kills": 484215,
-   "value": 4.5673816689605315,
+   "kills": 487620,
+   "value": 5.292064557537519,
    "how": "Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns"
   }
  ],

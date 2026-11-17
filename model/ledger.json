@@ -1,37 +1,26 @@
 {
  "stamps": [
   {
-   "stamp": "Ladle Stamp",
-   "level": 80,
-   "max": 80,
-   "target": 180,
-   "coins": 138839544068333563,
-   "material": "Sand Shark",
-   "owned": 69277074,
-   "next_raise": 41346.42050375765,
-   "total_mat": 100097823.21071331
+   "stamp": "Golden Apple Stamp",
+   "level": 64,
+   "max": 64,
+   "target": 100,
+   "coins": 6185823235111,
+   "material": "Golden Nomwich",
+   "owned": 400477,
+   "next_raise": 35917.38457803634,
+   "total_mat": 10979142.081689902
   },
   {
    "stamp": "Bag o Heads Stamp",
-   "level": 96,
-   "max": 96,
+   "level": 120,
+   "max": 120,
    "target": 224,
-   "coins": 23143282174034,
+   "coins": 23134882054612,
    "material": "Butterfly",
-   "owned": 301424430,
-   "next_raise": 1989522.6551878296,
-   "total_mat": 1771713850050.7783
-  },
-  {
-   "stamp": "Drippy Drop Stamp",
-   "level": 75,
-   "max": 75,
-   "target": 100,
-   "coins": 134371859296,
-   "material": "Pocket Sand",
-   "owned": 1046743530,
-   "next_raise": 16015183.844886953,
-   "total_mat": 762638386.9814062
+   "owned": 288372449,
+   "next_raise": 33368015.826520592,
+   "total_mat": 1771693458572.299
   },
   {
    "stamp": "Choppin' Bag Stamp",
@@ -40,9 +29,31 @@
    "target": 330,
    "coins": 22275281333266,
    "material": "Carrot Cube",
-   "owned": 846243265,
+   "owned": 846348383,
    "next_raise": 180051690.12581494,
    "total_mat": 6643585344129.883
+  },
+  {
+   "stamp": "Ladle Stamp",
+   "level": 160,
+   "max": 160,
+   "target": 180,
+   "coins": 123131011018311363,
+   "material": "Sand Shark",
+   "owned": 68526606,
+   "next_raise": 25179901.586920485,
+   "total_mat": 78179862.46768272
+  },
+  {
+   "stamp": "Drippy Drop Stamp",
+   "level": 95,
+   "max": 95,
+   "target": 110,
+   "coins": 386848822182,
+   "material": "Pocket Sand",
+   "owned": 1016836879,
+   "next_raise": 432124056.30195594,
+   "total_mat": 3514939897.258701
   },
   {
    "stamp": "Bugsack Stamp",
@@ -62,7 +73,7 @@
    "target": 160,
    "coins": 24988946111202,
    "material": "Glass Shard",
-   "owned": 8592,
+   "owned": 8732,
    "next_raise": 17436.762333716375,
    "total_mat": 164182044.07647136
   },
@@ -78,6 +89,17 @@
    "total_mat": 1539857782193.6477
   },
   {
+   "stamp": "Multitool Stamp",
+   "level": 180,
+   "max": 180,
+   "target": 210,
+   "coins": 2584243440298134192128,
+   "material": "Dust Mote",
+   "owned": 1049920000,
+   "next_raise": 25728490393.812965,
+   "total_mat": 257873409444.34894
+  },
+  {
    "stamp": "Matty Bag Stamp",
    "level": 200,
    "max": 200,
@@ -87,36 +109,54 @@
    "owned": 0,
    "next_raise": 149.29383785680668,
    "total_mat": 183828.60457898222
+  },
+  {
+   "stamp": "Potion Stamp",
+   "level": 45,
+   "max": 45,
+   "target": 60,
+   "coins": 1541605495,
+   "material": "Icing Ironbite",
+   "owned": 0,
+   "next_raise": 292083.8417680772,
+   "total_mat": 3651090.0433939174
   }
  ],
- "stamp": "20261117T0042",
- "vs": "20261116T0240",
- "hours": 22.032845094468858,
+ "stamp": "20261117T1959",
+ "vs": "20261117T0042",
+ "hours": 19.284386944439674,
  "watch": [
   {
    "item": "Tangled Cords",
-   "owned": 413149,
-   "rate_hr": 14484.965451879767,
+   "owned": 512329,
+   "rate_hr": 5143.020635592301,
    "owner": "Autistocat",
    "why": "Dream of Ironfish 68 -> 70 (exact cost: check bubble cost)"
   },
   {
    "item": "Void Bar",
-   "owned": 176,
-   "rate_hr": 0.0,
+   "owned": 224,
+   "rate_hr": 2.4890601987137573,
    "owner": "Autistastic",
    "why": "ran out before (Zack); construction/printer use"
   },
   {
    "item": "Copper Bar",
-   "owned": 153852778,
-   "rate_hr": 745551.286253256,
+   "owned": 161685147,
+   "rate_hr": 406150.79040707235,
    "owner": "Autistocat",
    "why": "Barium Mixture 12 -> 13 needs 1B Copper Bars (Toolbox map finding)",
    "target": 1000000000,
-   "shortage": 846147222,
-   "eta_days": 47.288677385533816
+   "shortage": 838314853,
+   "eta_days": 86.00201296335685
   }
  ],
- "runout": []
+ "runout": [
+  {
+   "item": "Skelefish",
+   "owned": 34956168,
+   "rate_hr": -755144.928483135,
+   "runout_days": 1.9287780994910422
+  }
+ ]
 }
