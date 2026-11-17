@@ -185,3 +185,10 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Prayers + Salt Lick + every system: real achievable goals with the resource, where to get it, and a plan of action. "Level it 15 levels" alone is not acceptable.
 - My error: told Zack an active spot (Minichiefs) as an AFK spot. AFK spot and active spot must be separate lines on every card.
 - Zack left Autistomatic on the snakes map working statues for now.
+
+## Autistronaut (Zack, 2026-11-16)
+- Spelunking is Naut's only "until an RG takes it" (RG build is Kingdom & Spelunking). Move Spelunking to an RG once Tastic/Matic are RG. Zack wants Spelunking pushed.
+- Lunarheim (DigitalTQ, fan): a Spelunking cave; its objects need POW from 60T up to 18Q (Skull Pile 60T ... Heroic Remains 18Q). Reward +30 max meal LV, +1 Super Talent PT, +2 Gallery slots. Plan = raise Spelunking POW (Cookies meal = Total Spelunking POW, S tier per gameslikefinder) + Spelunking levels (AFK at W7 Spelunking tunnels).
+- Cards: Zack doesn't know how to get set-tier cards. Card cards need "where it drops + how": Fire Forge card drops when taking bars out of Forge tab 1 (Puff Puff Go forge upgrade raises it); Bandit Bob is fought in Bandit Bob's Hideout (W2), entered with a Sesame Seed (1/100 from ACTIVE Mimics). Explain set tiers (Bronze..Ruby/Majestic) and what each "N more cards for X" means.
+- Lab: full hole. Every part mapped to max (nodes, chips, jewels: Zack thinks jewels missing), what's needed and its account impact.
+- Elite Class Swap Token: swap to Bubonic Conjuror -> Arcane Cultist the day it's in the shop.
