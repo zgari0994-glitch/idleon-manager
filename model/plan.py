@@ -185,10 +185,12 @@ for al in Y.get('alerts', []):
             and (al.get('when') == 'match' or ready(a))]
     if hits: alerts.append({'name': al['name'], 'owner': al['owner'], 'hits': hits[:4]})
 salts = [f"{a['label']} {a.get('cur','')}".strip() for g, path, a in leaves('Refinery') if g.get('name', '').startswith('Salt Excess')]
+lp = os.path.join(R, 'model', 'ledger.json')
+ledger = json.load(open(lp)) if os.path.exists(lp) else None
 ranked = sorted(ATASKS, key=lambda t: (t['importance'], t['minutes']))
 account = {'money': {'total': sum(money.values()) + bank, 'bank': bank, 'per_char': money,
                      'holder': max(money, key=money.get)},
-           'alerts': alerts, 'salts': salts, 'active_ranked': ranked,
+           'alerts': alerts, 'salts': salts, 'ledger': ledger, 'active_ranked': ranked,
            'quick_mode': [t for t in ranked if t['minutes'] <= 15],
            'unassigned': Y.get('unassigned', []),
            'loop': ['7am PC: refresh, full/maxed/timers checklist, dailies due now',

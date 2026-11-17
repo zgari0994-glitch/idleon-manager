@@ -105,6 +105,8 @@ const A=D.account||{};
 if(A.loop)box('Daily loop',list(A.loop));
 if(A.alerts)box('Account alerts',list(A.alerts.length?A.alerts.map(a=>a.name+' → '+a.owner+': '+a.hits.join('; ')):['none']));
 if(A.active_ranked)box('Active tasks (ranked)',list(A.active_ranked.map(t=>t.importance+' · '+t.owner+': '+t.task+' ('+t.minutes+'m)')));
+if(A.ledger){const lw=A.ledger.watch.map(w=>w.item+': '+Math.round(w.owned).toLocaleString()+(w.target?' / '+w.target.toLocaleString()+(w.eta_days?' · ETA '+w.eta_days.toFixed(1)+' d':''):'')+(w.rate_hr!=null?' · '+(w.rate_hr>=0?'+':'')+Math.round(w.rate_hr).toLocaleString()+'/hr':'')+(w.runout_days?' · RUNS OUT '+w.runout_days.toFixed(1)+' d':'')+(w.flag?' · '+w.flag:'')+' ('+w.owner+')');
+ box('Materials (vs '+(A.ledger.vs||'n/a')+')',list(lw.concat(A.ledger.runout.length?A.ledger.runout.map(x=>'FALLING '+x.item+': out in '+x.runout_days.toFixed(1)+' d'):['Nothing running out within 7 days'])))}
 if(A.money)box('Money',list(['Total '+Number(A.money.total).toExponential(2)+' · bank '+Number(A.money.bank).toExponential(2),A.money.holder+' holds the most']));
 if(A.unassigned)box('Unassigned',list(A.unassigned.map(u=>u.job+': '+u.note)));
 const tags=a=>{const d=el('div','tags');a.forEach(x=>d.append(el('span','tag',x)));if(!a.length)d.append(el('span','muted','none'));return d};
