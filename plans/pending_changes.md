@@ -94,3 +94,5 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Slab: missing stacks listed by source (quests, W7 town vendor incl. Fishbowl, anvil tabs IV-VII, dungeon drops).
 - Worship has no AutoReview section in this run: hole. Where to spend Conjuror pts / which schematics first = gap.
 - AFK spot for Bish = gap (no source yet).
+- Bish AFK: save (7:42 PM) shows him on W7 map 11, Coralcave Crab. AutoReview's statue table says Dragon Statue = "AFK Cavern 15" (Ancient Golem). Dragon Statue 4 -> 150 is Statues tier 11 and boosts ALL statue bonuses. Zack farms golems for cards, so Cavern 15 covers golem cards + Dragon Statue. Proposed AFK for Bish: Cavern 15.
+- AFK-spot pass: use AutoReview's per-statue "Farmer" table plus card targets to give every character a sourced AFK spot.
