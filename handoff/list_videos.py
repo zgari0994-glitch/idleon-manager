@@ -8,7 +8,7 @@ import csv, os, re
 import yt_dlp
 
 CREATORS = {
-    'griffybit': 'https://www.youtube.com/@GriffyBit',
+    'griffybit': 'https://www.youtube.com/channel/UCt5WC8O9Jrb-UeNcI5T9BoQ',
     'pulseidle': 'https://www.youtube.com/@PulseIdle',
     'nocturne': 'https://www.youtube.com/@NocturneGamingOfficial',
 }
@@ -35,6 +35,7 @@ def kind(title, from_streams):
 def list_tab(url, tries=3):
     for t in range(tries):
         got = _list_tab(url)
+        if got is None: return []  # channel has no such tab
         if got: return got
         print(f'  {url}: 0 videos, retrying ({t + 1}/{tries})')
     return []
@@ -47,7 +48,7 @@ def _list_tab(url):
         with yt_dlp.YoutubeDL(opts) as y:
             info = y.extract_info(url, download=False) or {}
     except Exception as ex:
-        if 'does not have a' in str(ex): return []
+        if 'does not have a' in str(ex): return None
         raise
     return [e for e in (info.get('entries') or []) if e and e.get('id')]
 
