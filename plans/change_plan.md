@@ -52,3 +52,10 @@ Goal: replace every "gap" with sourced guidance. Order: Griffy -> Pulse/Nocturne
 - Guidance = sources. My opinion only when asked, always labeled.
 - Never judge from Toolbox text what the game shows differently (passive cards lesson).
 - Usage: all heavy lifting in code; never read big files whole.
+
+### Gap pipeline (approved 2026-11-17)
+- Card gap -> I check findings, tagged rows, index (capped). Covered = save to sources/findings/<system>.md.
+- Huge gap (index hits, no tagged rows, multi-video) -> Lane A order in sources/findings/queue.md.
+- ChatGPT never idles: Lane A first, else Lane B proactive (thinnest tagged systems first). Stacks over time.
+- Returned orders -> findings file once, every card reuses it. No re-research unless new video/patch.
+- No creator coverage at all -> report to Zack, never fill.
