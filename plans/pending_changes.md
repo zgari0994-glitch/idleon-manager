@@ -70,3 +70,13 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Minehead assigned to Autistopher (lowest load: 4 jobs, tied with Autistabish/Autistotle/Autistronaut; Autistopher already the designated lightest schedule). Autisticles has 3 jobs + 9 W7 minis, so not lightest. Zack: AutoReview has holes; we find them and plan them.
 - World bosses move off Autistopher to a Divine Knight for drop rate (Zack). Which DK (Autistastic or Autistomatic) = pending Zack's pick.
 - World bosses + world minibosses -> Autistastic (DK, drop rate). Minibosses (e.g. the W4 mob you spawn by dropping an item) only show on the card when stored spawns are at max capacity; world bosses shown as needed / when keys are available.
+
+## Autistastic (fresh save 2026-11-16 7:42 PM ET)
+- Kilroy week of 2026-11-15 confirmed (state/confirmed.json). Tracking starts from this refresh.
+- Atom Collider settings (AutoReview code): keep the switch OFF ("avoid nuking your storage from a single misclick") and Storage Limit at 1050M (max). No alerts fired, so both are already right. Gap: whether OFF stops particle income, and when to turn it on.
+- Atoms: max level 40 now. +10 max from Gaming superbit Isotope Discovery (locked), +20 from Compass Nomadic-17, + Menagerie Boost 18. Lithium/Boron/Hydrogen/Beryllium capped at 40.
+- Particles 56,019,911. Next costs: Aluminium 104,552; Silicon 130,690; Phosphorus 209,105; Nitrogen 498,766; Sulfur 784,143; Oxygen 897,761; Magnesium 986,680; Chlorine 5.23M; Carbon 5.44M; Sodium 14.45M; Fluoride 20.17M; Neon 31.58M; Helium 522.76M. Zack sees Neon unaffordable and no Aluminium in game: verify against the game screen.
+- AutoReview atom tiers: 12 = Helium 9 (522.76M, far). 14 = Aluminium, Neon, Nitrogen, Carbon (+ capped atoms at 50 after Isotope).
+- Nitrogen = gold trimmed construction slots build faster (+15% per level) and adds trimmed slots: feeds the Buildings priority list.
+- Salts/refinery + all 3D printer materials must be tracked proactively (Zack ran out of Void Bars). Part of the material-foresight build. Refinery ranks: Red 29, Orange 22, Blue 21, Green 18, Purple 15, Nullo 13.
+- Gaming is a big hole: AutoReview only covers the snail. Need daily steps + guidance for fertilizer (value 361, speed 403), mutations, imports, superbits (20/72; next: Plant evo II, Spice Is Nicer, Even Moar Bubbles, Isotope Discovery), palette, snail. Sources needed (Griffy/Pulse/Nocturne, then Toolbox map).
