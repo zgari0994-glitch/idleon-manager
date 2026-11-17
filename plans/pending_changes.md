@@ -227,3 +227,7 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Raw save already holds most of this (anvil, forge, traps, refinery, cards, presets): the build should compute these checks from raw data, not rely on Toolbox pages.
 - RULE (Zack, 2026-11-17): the Toolbox map can never be skipped. For any system on a card (e.g. cooking), gather that system's data from the mapped Toolbox page(s) / raw save -> rinse it with AutoReview + Griffy -> give direction. Never "I didn't verify" or "not sure which is better": the data exists and its location is known. Use Toolbox tools/optimizers whenever they help.
 - Build: a system -> Toolbox page -> raw-save fields -> AutoReview section -> transcript topics index (model/system_index.yaml), so every decision pulls the right data first. When transcripts land, map each transcript section to the pages it needs.
+- RULES (Zack, 2026-11-17):
+  1. No character, account job or task is ever skipped or left unconsidered. It can be deferred only when its gains are smaller than other places right now, and the card says so with the reason.
+  2. Raw data is always the reference when pushing anything. If Griffy says "increase cooking speed", the card shows current cooking speed and which upgrades raise it most now (unless the source already names them).
+  3. Dailies stay about the same day to day / week to week. Short and long term goals get the best available upgrade wins, or a specific goal Zack states.
