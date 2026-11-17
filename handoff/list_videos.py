@@ -21,6 +21,7 @@ IDLEON = re.compile(r'idle\s?on|lavaflame|\bw[1-7]\b|world [1-7]|master ?class|d
                     r'tesseract|research|sushi|jelly|clam|menagerie|zenith|statue|caverns?|the hole|gaming|lab\b|'
                     r'equinox|vault|shimmerfin|emperor|kattlekruk', re.I)
 ROOT = 'idleon_transcripts'
+NOCTURNE_OK = re.compile(r'idle\s?on', re.I)  # every real Nocturne IdleOn video says IdleOn in the title
 
 
 def kind(title, from_streams):
@@ -31,7 +32,15 @@ def kind(title, from_streams):
     return 'guide'
 
 
-def list_tab(url):
+def list_tab(url, tries=3):
+    for t in range(tries):
+        got = _list_tab(url)
+        if got: return got
+        print(f'  {url}: 0 videos, retrying ({t + 1}/{tries})')
+    return []
+
+
+def _list_tab(url):
     opts = {'quiet': True, 'no_warnings': True, 'extract_flat': True,
             'extractor_args': {'youtubetab': {'approximate_date': ['']}}}
     try:
@@ -49,13 +58,15 @@ def main():
     rows = []
     for name, url in CREATORS.items():
         for tab, from_streams in (('/videos', False), ('/streams', True)):
-            for e in list_tab(url + tab):
+            entries = list_tab(url + tab)
+            print(f'  {name}{tab}: {len(entries)} found')
+            for e in entries:
                 vid, title, dur = e['id'], e.get('title') or '', int(e.get('duration') or 0)
                 d = e.get('upload_date') or ''
                 date = f'{d[:4]}-{d[4:6]}-{d[6:]}' if len(d) == 8 else ''
                 if vid in SKIP_IDS: why, inc = 'excluded by Zack', 'no'
                 elif dur and dur < MIN_SECONDS: why, inc = 'under 2 min', 'no'
-                elif name in ALL_IDLEON or IDLEON.search(title): why, inc = 'idleon', 'yes'
+                elif name in ALL_IDLEON or NOCTURNE_OK.search(title): why, inc = 'idleon', 'yes'
                 else: why, inc = 'title not idleon', 'no'
                 rows.append([name, vid, date, title, round(dur / 60, 1), kind(title, from_streams), tab[1:], inc, why])
         print(f'{name}: listed')
