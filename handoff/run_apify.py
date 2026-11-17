@@ -13,6 +13,7 @@ Already-saved transcripts are skipped. Spending is capped per batch and in total
 import csv, json, os, shutil, sys, time, urllib.request
 
 ACTOR = 'om_kh~youtube-transcript-api'
+FALLBACK_ACTOR = 'apihq~youtube-transcript-scraper'  # used for whatever the main actor could not do (e.g. very long videos)
 API = 'https://api.apify.com/v2'
 LIST = os.path.join('idleon_transcripts', 'final_video_list.csv')
 ROOT = os.path.join('idleon_transcripts', 'sources', 'creators')
@@ -67,6 +68,35 @@ def save(item, meta):
         w.writerow([vid, date, title, round(dur / 60, 1), typ, 'auto' if item.get('is_generated', True) else 'manual', words, '', '', 'ok'])
 
 
+def normalize_fallback(it):
+    md = it.get('metadata') or {}
+    return {'video_id': it.get('video_id'), 'title': md.get('title'), 'video_length_seconds': md.get('duration_seconds') or 0,
+            'is_generated': it.get('is_auto_generated', True), 'segments': it.get('transcript') or [], 'published_at': ''}
+
+
+def run_fallback(token, todo):
+    print(f'Fallback actor for {len(todo)} remaining videos...')
+    saved, missing = 0, []
+    for i in range(0, len(todo), 50):
+        batch = todo[i:i + 50]; by_id = {r['video_id']: r for r in batch}
+        run = call('POST', f'/acts/{FALLBACK_ACTOR}/runs', token,
+                   {'videoIds': list(by_id), 'language': 'en', 'maxTotalChargeUsd': 0.50})['data']
+        while run['status'] in ('READY', 'RUNNING'):
+            time.sleep(15); run = call('GET', f'/actor-runs/{run["id"]}', token)['data']
+        items = call('GET', f'/datasets/{run["defaultDatasetId"]}/items?clean=1&format=json', token)
+        items = items if isinstance(items, list) else items.get('data', [])
+        got = set()
+        for it in items:
+            vid = it.get('video_id')
+            if it.get('success') and vid in by_id and it.get('transcript'):
+                save(normalize_fallback(it), by_id[vid]); got.add(vid); saved += 1
+            elif vid in by_id:
+                print(f'  {by_id[vid]["title"][:55]}: {it.get("code") or it.get("error") or "no transcript"}')
+        missing += [by_id[v]['title'] for v in by_id if v not in got]
+        print(f'  run {run["status"]}: saved {len(got)}/{len(batch)}')
+    return saved, missing
+
+
 def main():
     token = os.environ.get('APIFY_TOKEN')
     if not token: sys.exit('APIFY_TOKEN not set. Run:  setx APIFY_TOKEN "your-token"  then open a NEW command window.')
@@ -74,6 +104,12 @@ def main():
         rows = list(csv.DictReader(f))
     have = done_ids()
     todo = [r for r in rows if r['video_id'] not in have]
+    if '--fallback' in sys.argv:
+        saved, missing = run_fallback(token, todo)
+        print(f'Done: {saved} saved by fallback, {len(missing)} still missing.')
+        with open(os.path.join('idleon_transcripts', 'missing.txt'), 'w', encoding='utf-8') as f: f.write('\n'.join(missing))
+        shutil.make_archive('idleon_transcripts', 'zip', 'idleon_transcripts'); print('Zipped: idleon_transcripts.zip')
+        return
     # very long videos (e.g. the 21-hour F2P movie) go last, one per run, so they can't sink a whole batch
     long_ = [r for r in todo if float(r.get('duration_min') or 0) > 180]
     todo = [r for r in todo if r not in long_]
