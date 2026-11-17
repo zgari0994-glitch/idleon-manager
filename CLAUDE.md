@@ -32,6 +32,9 @@
 7. Guide Zack one character at a time from that character's card only (finish every job before moving on). Never dump all 11.
 8. Zack flags what's wrong / unwanted / missing -> after his OK, add to `sources/findings/gaps.md`. Morning run = gap review (findings, tagged rows, index; huge -> ChatGPT Lane A in queue.md).
 
+## Locked = target (Zack rule)
+Never hide or drop a locked item. Show it with exactly what unlocks it, where the character is now on that path, and put the unlock on the owner's daily run.
+
 ## Clocks
 Game save = `data.TimeAway.GlobalTime` (UTC epoch). Store UTC, show Eastern. Always tell Zack the game-save age; data is only as fresh as the game's last cloud save.
 

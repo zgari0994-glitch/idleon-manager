@@ -11,8 +11,6 @@
 exclude:   # leaves never shown (Zack's calls)
   - "Prayer not needed"   # Royal Sampler stays on (Zack)
   - "more WOWs with"      # WOWs skipped (Griffy, findings/death_note_two_dbs.md)
-exclude_paths:   # whole groups hidden while locked (Zack's facts); listed under locked below
-  - "Regular Battles/Teal"   # Teal summoning is unlocked from Spelunking (Zack 2026-11-17)
 
 account_priority: {text: "Cooking speed", set_by: zack, date: 2026-11-17}
 
@@ -147,7 +145,7 @@ locked:   # never hidden: what unlocks it + where that sits
   - {feature: "Cavern 16 Fountain", unlock: "Polonai level 16 (15 now, 30.1%)", owner: Autistabish}
   - {feature: "Jelly Operator / The Button", unlock: "W7 map push + Research level", owner: "Autistotle, Autisticles"}
   - {feature: "Isotope Discovery superbit (+10 atom max)", unlock: "Gaming superbits (20/72)", owner: Autistastic}
-  - {feature: "Teal Summoning battles (Danny 9.75x DMG, Monty 1.59x artifact find...)", unlock: "Spelunking (Zack)", owner: "Autistronaut, Autistocat"}
+  - {feature: "Teal Summoning battles (Danny 9.75x DMG, Monty 1.59x artifact find...)", match: "Regular Battles/Teal", unlock: "Defeat the lore boss of Spelunking cave 5 Chucklemire. Now: Pebble Cove boss done, deepest Pebble Cove 9 / Sedimeadow 8; Rustbelt 03, Blushpit, Chucklemire not reached", src: "Toolbox source (summoning.ts TEAL_ROCK_LORE_CAVE=4; game text 'Teal Summoning is now available')", owner: "Autistronaut, Autistocat"}
   - {feature: "Elite Class Swap Token", unlock: "Gem shop rotation (watch)", owner: Autistronaut}
 
 alerts:   # account-wide, routed. m = regex on "group/tab :: label"; when = ready (cur >= goal) | match

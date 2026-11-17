@@ -92,7 +92,8 @@ def pick(e, who):
         k = key(e['s'], path, a)
         if e.get('m') and not re.search(e['m'], path + ' :: ' + a['label'], re.I): continue
         if e.get('rest') and k in claimed: continue
-        out.append({'section': e['s'], 'group': g.get('name', '')[:70], 'label': re.sub(r'\s+', ' ', a['label'])[:150],
+        lk = next((l for l in Y.get('locked', []) if l.get('match') and l['match'] in path), None)
+        out.append({'locked': f"LOCKED -> {lk['unlock']}" if lk else '', 'section': e['s'], 'group': g.get('name', '')[:70], 'label': re.sub(r'\s+', ' ', a['label'])[:150],
                     'cur': a.get('cur', ''), 'goal': a.get('goal', ''), 'score': SCORE.get((e['s'], a['label']), 0),
                     'ready': ready(a), 'infinite': '∞' in str(a.get('goal')) or a.get('cur') == 'Linear'})
     return out
@@ -261,9 +262,13 @@ for name, cfg in Y['characters'].items():
             rd = [i for i in its if i['ready']]
             st += [f"{i['label'][:80]} ({i['cur']} / {i['goal']}) READY" for i in rd[:3]]
             fin = sorted([i for i in its if not i['ready'] and not i['infinite']], key=lambda i: -i['score'])
-            if fin: st.append(f"Push: {fin[0]['label'][:80]} {fin[0]['cur']} -> {fin[0]['goal']}")
+            if fin:
+                f0 = fin[0]
+                st.append(f"Push: {f0['label'][:80]} {f0['cur']} -> {f0['goal']}" + (f" · {f0['locked']}" if f0.get('locked') else ''))
             if not st: st.append('No rinse data: ' + (j.get('note') or j.get('state') or 'needs a playbook'))
         daily.append({'block': j['job'], 'kind': kind, 'steps': st})
+    for l in card['locked']:
+        daily.append({'block': f"Unlock: {l['feature']}", 'kind': 'unlock', 'steps': [l['unlock']]})
     card['daily'] = daily
     cards.append(card)
 
