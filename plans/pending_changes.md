@@ -105,3 +105,4 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Card drop levers (AutoReview): Card Stamp 250 -> 330 (Autistopher), Card Champ bubble 68 (Autistocat, very low vs 3,960), Guild C2 Card Spotter 18 -> 50.
 - CORRECTION: Snelbie and Sir Stache are passive in game (P marker). Toolbox card text does not show passive status, so never judge passive from card text. I built a card preset from my own read of card values: that breaks "never invent setups". Withdrawn.
 - New active task, every character: card presets fixed per role from Griffy (then Pulse/Nocturne). Until sourced, no card setup advice. Gap catcher item.
+- Bish (Elemental Sorcerer) sourced task (AutoReview statue table): "Candy or Active ES at Penguins" for Box Statue 25 -> 40, then "Candy or Active ES at Cryosnakes" for Seesaw Statue 25 -> 40 (Statues tier 6). Active task / candy dump, not plain AFK. Plain AFK spot for Bish still a gap.
