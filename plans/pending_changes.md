@@ -82,3 +82,6 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Gaming is a big hole: AutoReview only covers the snail. Need daily steps + guidance for fertilizer (value 361, speed 403), mutations, imports, superbits (20/72; next: Plant evo II, Spice Is Nicer, Even Moar Bubbles, Isotope Discovery), palette, snail. Sources needed (Griffy/Pulse/Nocturne, then Toolbox map).
 - Collider is ON at 1050M limit (Zack: OFF gains no atoms; AutoReview's "keep it off" advice conflicts with that). Daily check: atoms owned vs next costs vs tier goals.
 - Aluminium confirmed locked: unlocked by the Compass upgrade "Aluminium Atom" on the Nomadic Path (path position 32). Nomadic Path is 12/38. Same path also holds Atomic Cost Crash (pos 15, cheaper atoms) and Atomic Potential (pos 17, +max atom LV up to +20). Route to Autistacular (Compass). Verify in game that path position = Nomadic Path level needed.
+- Active list: Autistacular (Wind Walker) Compass push on the Nomadic Path (Atomic Cost Crash, Atomic Potential, Aluminium Atom and more). Active task, not AFK.
+- Active list: achievement hunting (Autistopher owns Achievements).
+- HOLE: no ideal AFK spot has been suggested for any character. Every card needs "AFK here and why" (source-backed: AutoReview where it says, e.g. Bubo at W5 Wurms/W6 Minichiefs, statue farming spots, Griffy otherwise).
