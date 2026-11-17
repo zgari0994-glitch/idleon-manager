@@ -109,3 +109,10 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Active list: statue farming with map locations for every statue below target (AutoReview statue table): Box -> Penguins (Candy/Active ES, Bish); Seesaw -> Cryosnakes (Candy/Active ES, Bish); Essence 2 -> 40/80 -> Crystals with DK at Minichiefs (Autistomatic); Dragon 4 -> 150 -> AFK Cavern 15 (Tastic). Support: Statue Exp bubble 171 -> 240 (Autistocat).
 - Bish full card adds: Worship totem waves 100/80/82/70/70/28/10 = 440 (Menagerie mission needs 500: +60, lowest Citric Conflict 28 and Breezy Battle 10); Well opal trade ready; Evertree layer 6 ready to break; Den next opal at 75.4%; Bravery Monument 118 -> 300 hrs; Justice and Wisdom Monuments at 0 hrs (AFK targets); Harp strings 7/11 (Schematics #52, #66); Lamp wishes; Grotto 1.03B kills to Monarch; Jar rupies locked by thresholds.
 - Zack wants my best call labeled as opinion where sources are missing, not silence.
+
+## Growth tracking (approved 2026-11-16, build with everything else after the last character)
+1. Daily close = second refresh of the day (after the 3pm cloud save): save each character's card + a stats sheet (cooking speed per meal, liquid rates, bubble/vial levels, statue levels, atoms owned, sample sizes, Research EXP, tier counts per section).
+2. Rates + ETAs from consecutive closes: time to each "current -> goal"; long ETAs flagged as bottlenecks, then find the multiplier that fixes them (e.g. a cooking speed bonus = days saved to max meal level).
+3. Weekly review by code over 7 closes: what moved and by how much, what we changed that week, which ETAs shrank, where we worked but nothing moved.
+4. Rinse gets a measured-impact factor: real days saved toward goals, weighted by Griffy importance; weights tuned weekly from results.
+5. Rule: Griffy sets direction; measurements rank inside it and flag non-paying work. Conflicts flagged to Zack. All computed by code, never read by Claude whole.
