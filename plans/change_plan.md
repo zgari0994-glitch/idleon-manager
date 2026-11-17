@@ -27,6 +27,11 @@ Goal: every card shows everything we already have data for, in the agreed format
 - model/system_index.yaml: every system -> Toolbox page(s) + tools -> raw-save fields -> AutoReview section -> creator topics. Cards and answers pull data through it first.
 
 ## Phase 2: Gap catcher + research (needs transcripts + ChatGPT Toolbox map)
+Method (approved 2026-11-17, replaces tagging all 327 transcripts):
+- tools/transcript_index.py = free keyword index (15,121 one-minute chunks tagged by system). One gap at a time: find top passages (newest Griffy first), read only those, capped.
+- For depth: Claude writes ChatGPT a small work order (specific videos + timestamp ranges, full tagging spec). Never whole-corpus tagging.
+- Every conclusion saved once in sources/findings/<system>.md (conclusion, timestamps, date). Cards read findings; one finding serves every character. Revisit only when a new video/patch touches the system.
+- Research is triggered by need (gap register ranked by rinse, or what Zack is doing now), never "just in case".
 Goal: replace every "gap" with sourced guidance. Order: Griffy -> Pulse/Nocturne -> idleon.wiki/Toolbox -> Discord. Each finding goes to Zack as a plan; approved -> card.
 1. Gap register file listing every open gap from the session (W7 bubble unlock, Hole per-cavern guides, Gaming full system, Research grid path, Lab full map, Sneaking, Breeding full review, Worship/souls ramp, Trapping flow + auto-collect, Compass dust/perks, prints redo, card presets per role, talent top-10 per character + raising the 441 cap, money farming, Death Note with 2 DBs, Emperor/boss ownership, Minehead, reef, Gallery, capes, Tesseract/Arcanist, cauldron upgrades, cooking mastery, Clamworks, Advice Fish later, Legend Talents, Zenith fastest statue, Lunarheim/Spelunking POW, Coral Kid present, Fractal Island, artifact Maw).
 2. Rebuild the rinse from creator verdict CSVs (recency-weighted, wider range), shown to Zack before it goes live.
