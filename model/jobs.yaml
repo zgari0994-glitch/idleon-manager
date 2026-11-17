@@ -102,6 +102,7 @@ characters:
       - {job: "Library (account-wide)", sections: [{s: Library, m: "^Account Wide"}], basis: light, note: "MAJOR: raise max talent level 299/441"}
       - {job: Achievements, sections: [Achievements], basis: light}
       - {job: "Minehead", sections: [], basis: light, note: "No AutoReview section: Lane B gap"}
+      - {job: "Maintenance (maxed tiers): Bribes, Owl, Rift, Star Signs, Smithing", sections: [Bribes, Owl, Rift, Star Signs, Smithing], basis: zack, note: "Zack: a Rift bonus may make all star signs active for all players (verify on Toolbox world-4/rift)"}
   Autistachio:    # Beginner
     afk: {text: "Divinity (Divinity slippers)", src: zack}
     jobs:
@@ -110,6 +111,10 @@ characters:
       - {job: Traps, sections: [], basis: autoreview}
       - {job: "Gallery + capes", sections: [Gallery, Cape Vine], basis: light}
       - {job: "W7 reef", sections: [Coral Reef, Dancing Coral, Coral Kid], basis: light}
+
+account_wide:   # Zack 2026-11-17: shown once on the account block, not on a card
+  - {job: "Minigames (anyone)", sections: [Basketball, Darts]}
+  - {job: "Drop Rate / Storage / World progress", sections: [Drop Rate, Storage, Pinchy high, Pinchy low]}
 
 unassigned:
   - {job: Emperor, sections: [Emperor], note: "Off Chio. Research who owns it (RG drop rate vs best fighter)"}

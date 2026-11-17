@@ -30,6 +30,7 @@
 2. `python3 tools/build_system_index.py` (only after jobs.yaml/source changes) · `python3 model/ledger.py` (materials vs last save) · `python3 model/coins.py` (coin costs vs money) then `python3 model/mechanics.py` 3. `python3 rinse/rinse.py` 4. `python3 model/plan.py` 5. `python3 model/acquire.py` (wiki sources in sources/ are static; re-pull only after a game update)
 6. `python3 model/dashboard.py` -> republish dashboard/index.html with publish_files (slug + version in dashboard/ARTIFACT; update version after).
 7. Guide Zack one character at a time from that character's card only (finish every job before moving on). Never dump all 11.
+8. Zack flags what's wrong / unwanted / missing -> after his OK, add to `sources/findings/gaps.md`. Morning run = gap review (findings, tagged rows, index; huge -> ChatGPT Lane A in queue.md).
 
 ## Clocks
 Game save = `data.TimeAway.GlobalTime` (UTC epoch). Store UTC, show Eastern. Always tell Zack the game-save age; data is only as fresh as the game's last cloud save.
@@ -45,5 +46,6 @@ Game save = `data.TimeAway.GlobalTime` (UTC epoch). Store UTC, show Eastern. Alw
 - `model/system_index.yaml` (system -> Toolbox page -> AutoReview -> sources -> owners; built by tools/build_system_index.py) · `model/ledger.py` (materials) · `sources/findings/` (saved research + queue.md for ChatGPT)
 - `tools/timers.py` (Toolbox dashboard timers + AFK spots) · `plans/w7_push.md` (Griffy W7 path + gaps)
 
-## Status (2026-11-16)
-Done: hourly task deleted, refresh route proven, AutoReview code validated (81 sections / 7,086 rows). Layer 2 locked (jobs.yaml). Mechanics layer, plan generator, dashboard live. Kill split: Autiszemo does ZOWs/CHOWs W1-W6, Autistopher his own Super CHOWs. Statues farmed by Autistomatic, turned in by Autisticles. Rinse live (Thigh Gap v2), acquisition map, Toolbox timers, W7 plan done. Griffy has no dedicated W7 push guide; next W7 source = tabled transcript kD7KZ5zX6Ss. Griffy transcripts tabled (6 picks: RnnRamcdjQ0, aUdMKlRf_v4, kD7KZ5zX6Ss, d3A2hYegsm4, x4_MMA9sNO4, R3YZ6D-EHHE).
+## Status (2026-11-17)
+Done: Phase 1 card engine v2 (fixed layout, all sub-systems, matching fixes, untiered sections, account block, ranked active list, daily loop), Phase 1b system index (105 systems), material ledger (+ AutoReview-targeted stamp needs), coin costs vs money (Upgrade Vault, Advice Fish, vendor; Toolbox formulas, tools/stamp_cost.py), Toolbox ready-timer routing, Hole 1-5 findings, ChatGPT queue (Lane A gaps / Lane B proactive), gap loop. Owners: maintenance systems on Autistopher, minigames + drop rate/storage/world progress account-wide, Emperor unassigned.
+Next: 3pm refresh = first daily close (Phase 3 growth tracking), card run-through, morning gap reviews. Pending in-game checks: Kitchen Dream-mare next ~9.36e26, Blackheart next max raise ~36,626 Purple Screws, Bummo Bag price.

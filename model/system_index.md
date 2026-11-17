@@ -16,7 +16,7 @@
 | basketball | GAP: no Toolbox page mapped | Basketball | gap | unassigned in jobs.yaml |
 | beanstalk | world-6/beanstalk | Beanstalk | 5/98 | Autiszemo |
 | breeding | world-4/breeding | Breeding | 36/658 | Autistacular |
-| bribes | world-1/bribes | Bribes | 1/0 | unassigned in jobs.yaml |
+| bribes | world-1/bribes | Bribes | 1/0 | Autistopher |
 | cape_vine | world-4/cape-vine | Cape Vine | 1/50 | Autistachio |
 | cards | tools/card-search | Cards | 24/842 | Autistronaut |
 | caverns | world-5/hole | Villagers, Shallow Caverns, Glowshroom Tunnels, Underground Overgrowth | 114/3478 | Autistabish |
@@ -43,7 +43,7 @@
 | event_points_shop | misc/event-shop | Event Shop | gap | Autistotle |
 | family_bonuses | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | farming | world-6/farming | Farming | 44/1137 | Autiszemo |
-| forge_upgrades | world-1/anvil, world-1/forge | Smithing | gap | unassigned in jobs.yaml |
+| forge_upgrades | world-1/anvil, world-1/forge | Smithing | gap | Autistopher |
 | friend_bonuses | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | gallery | world-7/gallery | Gallery | 0/219 | Autistachio |
 | gaming | world-5/gaming | Gaming | 32/429 | Autistastic |
@@ -75,7 +75,7 @@
 | minehead | world-7/minehead | none (AutoReview does not rate it) | 2/0 | unassigned in jobs.yaml |
 | npc_tokens | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | obols | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
-| owl | clickers/owl | Owl | 2/0 | unassigned in jobs.yaml |
+| owl | clickers/owl | Owl | 2/0 | Autistopher |
 | post_office | GAP: no Toolbox page mapped | Post Office | gap | Autiszemo |
 | prayers | world-3/prayers | Prayers | 10/180 | Autistabish |
 | printer | world-3/printer, tools/sampling-companion | Sampling | 33/677 | Autisticles, Autistomatic, Autistronaut |
@@ -83,7 +83,7 @@
 | refinery | world-3/refinery | Refinery | 6/322 | Autistastic |
 | research | world-7/research | Research | 7/151 | Autistotle |
 | reset_counters | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
-| rift | world-4/rift | Rift | 18/130 | unassigned in jobs.yaml |
+| rift | world-4/rift | Rift | 18/130 | Autistopher |
 | royal_armory | class-specific/royal-armory | Royal Armory | 93/252 | Autistastic |
 | sailing | world-5/sailing | Sailing | 24/345 | Autisticles |
 | saltlick | world-3/salt-lick | Salt Lick | 0/28 | Autistopher |
@@ -92,7 +92,7 @@
 | sneaking | world-6/sneaking | Sneaking | 31/217 | Autistacular |
 | spelunk | world-7/spelunking | Spelunking | 90/236 | Autistronaut |
 | stamps | world-1/stamps | Stamps | 30/519 | Autistopher |
-| star_signs | misc/constellations | Star Signs | gap | unassigned in jobs.yaml |
+| star_signs | misc/constellations | Star Signs | gap | Autistopher |
 | statues | GAP: no Toolbox page mapped | Statues | 15/411 | Autistabish, Autistastic, Autisticles, Autistomatic |
 | storage | misc/storage | Storage | 3/549 | unassigned in jobs.yaml |
 | summoning | world-6/summoning | Summoning | 45/233 | Autistocat |
@@ -110,5 +110,5 @@
 
 ## Gaps
 - no_toolbox: autoloot, basketball, class_kill_talents, cog_board, colo_scores, companions, coral_kid, crystal_spawn_chance, dancing_coral, darts, data_source, drop_rate, family_bonuses, friend_bonuses, guild_bonuses, highest_dmg, inventory, item_filter, library, library_group_characters, manual_tome_score, max_subgroups, meritocracy, npc_tokens, obols, post_office, reset_counters, shrines, statues, tabbed_advice_groups, version, world_progress
-- no_owner: basketball, bribes, darts, drop_rate, emperor, forge_upgrades, owl, rift, star_signs, storage, world_progress
+- no_owner: basketball, darts, drop_rate, emperor, storage, world_progress
 - thin_sources: achievements, advice_fish, alchemy_cauldrons, alchemy_p2w, alchemy_vials, arcade, atom_collider, beanstalk, bribes, cape_vine, clam_work, construction_buildings, coral_reef, dungeons, emperor, equinox, gallery, glimbo, greenstacks, islands, jelly_operator, killroy, legend_talents, library, meritocracy, merits, minehead, owl, refinery, research, saltlick, slab, storage, tesseract, the_button, tome, vault, world_progress, zenith_market

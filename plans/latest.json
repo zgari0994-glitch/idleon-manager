@@ -8612,6 +8612,171 @@
      "note": "No AutoReview section: Lane B gap",
      "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
+    },
+    {
+     "job": "Maintenance (maxed tiers): Bribes, Owl, Rift, Star Signs, Smithing",
+     "basis": "zack",
+     "tiers": {
+      "Bribes": "done",
+      "Owl": "3/3",
+      "Rift": "done",
+      "Star Signs": "done",
+      "Smithing": "done"
+     },
+     "subs": [
+      {
+       "name": "Owl: Collect Mega Feathers and Bonuses of Orion",
+       "state": "open",
+       "items": [
+        {
+         "section": "Owl",
+         "group": "Collect Mega Feathers and Bonuses of Orion",
+         "label": "MF21: Restart 28 times first",
+         "cur": "12",
+         "goal": "28",
+         "score": 63,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "section": "Owl",
+         "group": "Collect Mega Feathers and Bonuses of Orion",
+         "label": "MF22: Restart 29 times first",
+         "cur": "0",
+         "goal": "29",
+         "score": 63,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 3
+      },
+      {
+       "name": "Smithing: Sources of Forge Ore Capacity",
+       "state": "open",
+       "items": [
+        {
+         "section": "Smithing",
+         "group": "Sources of Forge Ore Capacity",
+         "label": "Hard Resources- Godshard Ore card:+150/210% Forge Cap and SPD (Passive)",
+         "cur": "5",
+         "goal": "7",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "section": "Smithing",
+         "group": "Sources of Forge Ore Capacity",
+         "label": "Stamps - Forge Stamp: +34.29% Forge Capacity",
+         "cur": "100",
+         "goal": "240",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 2
+      },
+      {
+       "name": "Smithing: Total Capacity and Bar thresholds",
+       "state": "open",
+       "items": [
+        {
+         "section": "Smithing",
+         "group": "Total Capacity and Bar thresholds",
+         "label": "137 Godshard Bars.11,823 cap to next bar",
+         "cur": "3177",
+         "goal": "15000",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "section": "Smithing",
+         "group": "Total Capacity and Bar thresholds",
+         "label": "514 Marble Bars.1,823 cap to next bar",
+         "cur": "2177",
+         "goal": "4000",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 9
+      }
+     ],
+     "next": [
+      {
+       "section": "Owl",
+       "group": "Collect Mega Feathers and Bonuses of Orion",
+       "label": "MF21: Restart 28 times first",
+       "cur": "12",
+       "goal": "28",
+       "score": 63,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "section": "Owl",
+       "group": "Collect Mega Feathers and Bonuses of Orion",
+       "label": "MF22: Restart 29 times first",
+       "cur": "0",
+       "goal": "29",
+       "score": 63,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "section": "Owl",
+       "group": "Collect Mega Feathers and Bonuses of Orion",
+       "label": "MF23: Restart 30 times first",
+       "cur": "0",
+       "goal": "30",
+       "score": 63,
+       "ready": false,
+       "infinite": false
+      }
+     ],
+     "note": "Zack: a Rift bonus may make all star signs active for all players (verify on Toolbox world-4/rift)",
+     "where": [
+      {
+       "system": "bribes",
+       "toolbox": [
+        "world-1/bribes"
+       ],
+       "sources": "1 tagged / 0 chunks"
+      },
+      {
+       "system": "owl",
+       "toolbox": [
+        "clickers/owl"
+       ],
+       "sources": "2 tagged / 0 chunks"
+      },
+      {
+       "system": "rift",
+       "toolbox": [
+        "world-4/rift"
+       ],
+       "sources": "18 tagged / 130 chunks"
+      },
+      {
+       "system": "star_signs",
+       "toolbox": [
+        "misc/constellations"
+       ],
+       "sources": "no slug"
+      },
+      {
+       "system": "forge_upgrades",
+       "toolbox": [
+        "world-1/anvil",
+        "world-1/forge"
+       ],
+       "sources": "no slug"
+      }
+     ]
     }
    ],
    "flags": [],
@@ -9208,6 +9373,96 @@
    "Rank 13 Nullo Salt: excess"
   ],
   "ledger": {
+   "stamps": [
+    {
+     "stamp": "Ladle Stamp",
+     "level": 80,
+     "max": 80,
+     "target": 180,
+     "coins": 138839544068333563,
+     "material": "Sand Shark",
+     "owned": 69277074,
+     "next_raise": 41346.42050375765,
+     "total_mat": 100097823.21071331
+    },
+    {
+     "stamp": "Bag o Heads Stamp",
+     "level": 96,
+     "max": 96,
+     "target": 224,
+     "coins": 23143282174034,
+     "material": "Butterfly",
+     "owned": 301424430,
+     "next_raise": 1989522.6551878296,
+     "total_mat": 1771713850050.7783
+    },
+    {
+     "stamp": "Drippy Drop Stamp",
+     "level": 75,
+     "max": 75,
+     "target": 100,
+     "coins": 134371859296,
+     "material": "Pocket Sand",
+     "owned": 1046743530,
+     "next_raise": 16015183.844886953,
+     "total_mat": 762638386.9814062
+    },
+    {
+     "stamp": "Choppin' Bag Stamp",
+     "level": 190,
+     "max": 190,
+     "target": 330,
+     "coins": 22275281333266,
+     "material": "Carrot Cube",
+     "owned": 846243265,
+     "next_raise": 180051690.12581494,
+     "total_mat": 6643585344129.883
+    },
+    {
+     "stamp": "Bugsack Stamp",
+     "level": 120,
+     "max": 120,
+     "target": 224,
+     "coins": 23134882054612,
+     "material": "Hermit Can",
+     "owned": 37496609,
+     "next_raise": 33368015.826520592,
+     "total_mat": 1771693458572.299
+    },
+    {
+     "stamp": "Mason Jar Stamp",
+     "level": 84,
+     "max": 84,
+     "target": 160,
+     "coins": 24988946111202,
+     "material": "Glass Shard",
+     "owned": 8592,
+     "next_raise": 17436.762333716375,
+     "total_mat": 164182044.07647136
+    },
+    {
+     "stamp": "Lil' Mining Baggy Stamp",
+     "level": 210,
+     "max": 210,
+     "target": 310,
+     "coins": 7532065901280,
+     "material": "Jungle Logs",
+     "owned": 58483151,
+     "next_raise": 883898939.0850905,
+     "total_mat": 1539857782193.6477
+    },
+    {
+     "stamp": "Matty Bag Stamp",
+     "level": 200,
+     "max": 200,
+     "target": 410,
+     "coins": 1532169834709474,
+     "material": "Cramped Material Pouch",
+     "owned": 0,
+     "next_raise": 149.29383785680668,
+     "total_mat": 183828.60457898222
+    }
+   ],
    "stamp": "20261117T0042",
    "vs": "20261116T0240",
    "hours": 22.032845094468858,
@@ -10071,6 +10326,24 @@
      "Emperor"
     ],
     "note": "Off Chio. Research who owns it (RG drop rate vs best fighter)"
+   }
+  ],
+  "account_wide": [
+   {
+    "job": "Minigames (anyone)",
+    "sections": [
+     "Basketball",
+     "Darts"
+    ]
+   },
+   {
+    "job": "Drop Rate / Storage / World progress",
+    "sections": [
+     "Drop Rate",
+     "Storage",
+     "Pinchy high",
+     "Pinchy low"
+    ]
    }
   ],
   "loop": [

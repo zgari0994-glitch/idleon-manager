@@ -3,7 +3,7 @@ Owned = storage chest + every character inventory, from the raw save. Rate = cha
 Flags: any item falling with a run-out ETA under RUNOUT_DAYS, watchlist items (ledger.yaml) with targets:
 net shortage = max(0, target - owned); ETA = shortage / net rate (no ETA when rate <= 0: change the producer).
 Writes model/ledger.json + ledger.md. Usage: python3 model/ledger.py"""
-import json, gzip, os, sys, yaml, datetime as dt
+import json, gzip, os, sys, re, yaml, datetime as dt
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, '/home/claude/ar/mysite')
 try:
@@ -60,7 +60,29 @@ for k, r in rate.items():
     elif r < 0 and own.get(k, 0) == 0:
         runout.append({'item': NAME.get(k, k), 'owned': 0, 'rate_hr': r, 'runout_days': 0})
 runout.sort(key=lambda x: x['runout_days'])
-out = {'stamp': cur_stamp, 'vs': prev[-1] if prev else None, 'hours': hours, 'watch': watch, 'runout': runout[:25]}
+# stamp material needs: only stamps AutoReview targets (data-driven, never picked by hand)
+sys.path.insert(0, os.path.join(R, 'tools'))
+from stamp_cost import cost as stamp_cost
+review = json.load(gzip.open(os.path.join(R, 'snapshots', cur_stamp, 'review.json.gz')))
+st = next(s for w in review['worlds'] for s in w['sections'] if s['name'] == 'Stamps')
+targets = {}
+def walk(n):
+    for a in n.get('items', []):
+        if 'items' in a: walk(a); continue
+        m = re.match(r"(?:\w+: )?(.+? Stamp)\b", a.get('label', ''))
+        if m and not a.get('completed') and str(a.get('goal', '')).isdigit() and 'Exalt' not in n.get('name', '') + n.get('tab', ''):
+            targets[m.group(1)] = max(targets.get(m.group(1), 0), int(a['goal']))
+    for t in n.get('tabs', []): walk(t)
+for gr in st['groups']:
+    if 'Exalt' not in gr.get('name', ''): walk(gr)
+stamps = []
+for nm, tg in targets.items():
+    try: c = stamp_cost(nm, tg)
+    except StopIteration: continue
+    if c['level'] >= tg: continue
+    stamps.append({k: c[k] for k in ('stamp', 'level', 'max', 'target', 'coins', 'material', 'owned', 'next_raise', 'total_mat')})
+stamps.sort(key=lambda x: x['next_raise'] / max(1, x['owned']))
+out = {'stamps': stamps, 'stamp': cur_stamp, 'vs': prev[-1] if prev else None, 'hours': hours, 'watch': watch, 'runout': runout[:25]}
 json.dump(out, open(os.path.join(R, 'model', 'ledger.json'), 'w'), indent=1)
 f = lambda x: f"{x:,.0f}" if x is not None else '?'
 L = [f"# Material ledger · save {cur_stamp} vs {out['vs']} ({hours or 0:.1f} h)", '', '## Watchlist']
@@ -71,5 +93,7 @@ for w in watch:
              + (f" · {w['flag']}" if w.get('flag') else '') + f" · {w['owner']}: {w['why']}")
 L += ['', f'## Falling, out within {RUNOUT_DAYS} days']
 L += [f"- {x['item']}: {f(x['owned'])} at {x['rate_hr']:+,.0f}/hr -> {x['runout_days']:.1f} d" for x in runout[:25]] or ['- none']
+L += ['', '## Stamp material needs (AutoReview targets; vial cap applied, sigil/atom reducers not)']
+L += [f"- {x['stamp']} {x['level']} (max {x['max']}) -> {x['target']}: next raise {x['next_raise']:,.0f} {x['material']} (own {x['owned']:,})" + (' READY' if x['next_raise'] <= x['owned'] else '') + f" · to target {x['total_mat']:,.0f}" for x in stamps]
 open(os.path.join(R, 'model', 'ledger.md'), 'w').write('\n'.join(L) + '\n')
 print('\n'.join(L))

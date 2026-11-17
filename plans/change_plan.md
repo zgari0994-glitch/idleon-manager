@@ -59,3 +59,9 @@ Goal: replace every "gap" with sourced guidance. Order: Griffy -> Pulse/Nocturne
 - ChatGPT never idles: Lane A first, else Lane B proactive (thinnest tagged systems first). Stacks over time.
 - Returned orders -> findings file once, every card reuses it. No re-research unless new video/patch.
 - No creator coverage at all -> report to Zack, never fill.
+
+### Gap loop (Zack, 2026-11-17)
+- Gaps are added only after Zack confirms them (sources/findings/gaps.md).
+- Gap review = mornings (7am run), not during the 3pm run-through.
+- Loop: cards 1 by 1 -> Zack flags wrong / unwanted / missing -> gaps.md -> morning review -> findings or ChatGPT Lane A -> card. Repeat until gaps.md is empty.
+- Phase 3 growth tracking starts with the 2026-11-17 3pm refresh (first daily close).
