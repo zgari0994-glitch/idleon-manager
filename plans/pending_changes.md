@@ -85,3 +85,12 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Active list: Autistacular (Wind Walker) Compass push on the Nomadic Path (Atomic Cost Crash, Atomic Potential, Aluminium Atom and more). Active task, not AFK.
 - Active list: achievement hunting (Autistopher owns Achievements).
 - HOLE: no ideal AFK spot has been suggested for any character. Every card needs "AFK here and why" (source-backed: AutoReview where it says, e.g. Bubo at W5 Wurms/W6 Minichiefs, statue farming spots, Griffy otherwise).
+
+## Autistabish (Elemental Sorcerer, W7 map 311, linked to Snehebatu)
+- Quick wins: 11 unspent Conjuror Pts (Cosmos); 39 Kaipu schematics unlocked but not bought (87 unlocked, 48 bought); Royal Sampler prayer equipped but not needed (AutoReview).
+- Prayers tier 6: Midas Minded 35 -> 50. Tier 7: Zerg Rushogen 0 -> 20, Jawbreaker 0 -> 50, Ruck Sack 0 -> 50.
+- Divinity 11/12: unmaxed blessings Nobisect 74, Goharut 58, Kattlekruk 45, Omniphau 40, Bagur 40, Flutterbis 35 (all -> 100). Arctis +12 breakpoints need 60-65 Divinity (at 66 Divinity, needs Big P).
+- Caverns: Polonai 15 caverns found, next Cavern #16 Fountain. Bolaia study, Cosmos majiks (Equinox Maxim 0 -> 5 untouched).
+- Slab: missing stacks listed by source (quests, W7 town vendor incl. Fishbowl, anvil tabs IV-VII, dungeon drops).
+- Worship has no AutoReview section in this run: hole. Where to spend Conjuror pts / which schematics first = gap.
+- AFK spot for Bish = gap (no source yet).
