@@ -161,3 +161,10 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Coral Kid: Zack bought the Fishbowl (W7 town). Coral Kid asks for a "present": 10% chance, costs 20M, Zack has 612,000 (likely Divinity PTS: Coral Kid turns Divinity PTS into Singularity Spirals). All Coral Kid upgrades show unlocked at level 0, incl. upgrade 0 "link the divinity of your choice to ALL players". Mechanic = gap. Owner Autistachio.
 - Coral Reef costs: Anemone Coral unlock 15, Carnation Coral 5,000 (reef coral). Autistachio's card.
 - RULE (Zack): locked features are never hidden or brushed off. If a locked system/map/node could push progress (e.g. Jelly Operator behind a W7 map), the card says what unlocks it and puts the unlock on a plan (e.g. W7 map push). Never "not unlocked yet, don't worry", never "why isn't it unlocked" without a path.
+
+## Autistomatic (DK, W1 Green Mushroom, Construction 956)
+- plan.py bugs: his card shows Box/Seesaw (ES tasks, belong to Bish) and Goldfish/Spore Cap under "Ore prints" (not ore). Fix job-section matching: DK statue tasks = "Crystals with DK at X" rows; ore prints = ore rows only (Copper Ore 1.34B -> 8B for Sampling tier 8).
+- DK statue farming (AutoReview table): Essence Statue 2 -> 40 (tier 6) / 80 (tier 10) via Crystals with DK at Minichiefs; other DK crystal spots: Beans, W1-W3 crystals, Sandy Pot/Tyson, Bloodbones, Clammies, Tremor Wurms, W7 crystals. Zenith Clusters need 1M of one statue.
+- Money/Green Mushroom: goal not defined (what does the money unlock, how much is needed). Zack is money-limited (Advice Fish too expensive, Fishbowl was first affordable). Needs a source for why Green Mushroom and a target.
+- RG#2: Royal Guardian not unlocked on either DK (AutoReview Royal Armory "come back after unlocking"). Job says 250 orb at Bored Beans. Needs unlock steps.
+- Construction #2: shares the trimmed-slot priority list with Tastic.
