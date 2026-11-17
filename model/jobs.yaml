@@ -102,7 +102,8 @@ characters:
       - {job: "Library (account-wide)", sections: [{s: Library, m: "^Account Wide"}], basis: light, note: "MAJOR: raise max talent level 299/441"}
       - {job: Achievements, sections: [Achievements], basis: light}
       - {job: "Minehead", sections: [], basis: light, note: "No AutoReview section: Lane B gap"}
-      - {job: "Maintenance (maxed tiers): Bribes, Owl, Rift, Star Signs, Smithing", sections: [Bribes, Owl, Rift, Star Signs, Smithing], basis: zack, note: "Zack: a Rift bonus may make all star signs active for all players (verify on Toolbox world-4/rift)"}
+      - {job: "Clickers: Owl, Bubba, Poppy (all three)", sections: [Owl], basis: zack, note: "AutoReview rates Owl only. Bubba = Toolbox clickers/bubba, Poppy = Toolbox clickers/kangaroo: no AutoReview section (gap pipeline)"}
+      - {job: "Maintenance (maxed tiers): Bribes, Rift, Star Signs, Smithing", sections: [Bribes, Rift, Star Signs, Smithing], basis: zack, note: "Zack: a Rift bonus may make all star signs active for all players (verify on Toolbox world-4/rift)"}
   Autistachio:    # Beginner
     afk: {text: "Divinity (Divinity slippers)", src: zack}
     jobs:

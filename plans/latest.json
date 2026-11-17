@@ -8614,14 +8614,10 @@
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
     },
     {
-     "job": "Maintenance (maxed tiers): Bribes, Owl, Rift, Star Signs, Smithing",
+     "job": "Clickers: Owl, Bubba, Poppy (all three)",
      "basis": "zack",
      "tiers": {
-      "Bribes": "done",
-      "Owl": "3/3",
-      "Rift": "done",
-      "Star Signs": "done",
-      "Smithing": "done"
+      "Owl": "3/3"
      },
      "subs": [
       {
@@ -8650,7 +8646,61 @@
         }
        ],
        "more": 3
+      }
+     ],
+     "next": [
+      {
+       "section": "Owl",
+       "group": "Collect Mega Feathers and Bonuses of Orion",
+       "label": "MF21: Restart 28 times first",
+       "cur": "12",
+       "goal": "28",
+       "score": 63,
+       "ready": false,
+       "infinite": false
       },
+      {
+       "section": "Owl",
+       "group": "Collect Mega Feathers and Bonuses of Orion",
+       "label": "MF22: Restart 29 times first",
+       "cur": "0",
+       "goal": "29",
+       "score": 63,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "section": "Owl",
+       "group": "Collect Mega Feathers and Bonuses of Orion",
+       "label": "MF23: Restart 30 times first",
+       "cur": "0",
+       "goal": "30",
+       "score": 63,
+       "ready": false,
+       "infinite": false
+      }
+     ],
+     "note": "AutoReview rates Owl only. Bubba = Toolbox clickers/bubba, Poppy = Toolbox clickers/kangaroo: no AutoReview section (gap pipeline)",
+     "where": [
+      {
+       "system": "owl",
+       "toolbox": [
+        "clickers/owl"
+       ],
+       "sources": "2 tagged / 0 chunks"
+      }
+     ]
+    },
+    {
+     "job": "Maintenance (maxed tiers): Bribes, Rift, Star Signs, Smithing",
+     "basis": "zack",
+     "tiers": {
+      "Bribes": "done",
+      "Rift": "done",
+      "Star Signs": "done",
+      "Smithing": "done"
+     },
+     "subs": [
       {
        "name": "Smithing: Sources of Forge Ore Capacity",
        "state": "open",
@@ -8708,32 +8758,32 @@
      ],
      "next": [
       {
-       "section": "Owl",
-       "group": "Collect Mega Feathers and Bonuses of Orion",
-       "label": "MF21: Restart 28 times first",
-       "cur": "12",
-       "goal": "28",
-       "score": 63,
+       "section": "Smithing",
+       "group": "Sources of Forge Ore Capacity",
+       "label": "Hard Resources- Godshard Ore card:+150/210% Forge Cap and SPD (Passive)",
+       "cur": "5",
+       "goal": "7",
+       "score": 0,
        "ready": false,
        "infinite": false
       },
       {
-       "section": "Owl",
-       "group": "Collect Mega Feathers and Bonuses of Orion",
-       "label": "MF22: Restart 29 times first",
-       "cur": "0",
-       "goal": "29",
-       "score": 63,
+       "section": "Smithing",
+       "group": "Sources of Forge Ore Capacity",
+       "label": "Stamps - Forge Stamp: +34.29% Forge Capacity",
+       "cur": "100",
+       "goal": "240",
+       "score": 0,
        "ready": false,
        "infinite": false
       },
       {
-       "section": "Owl",
-       "group": "Collect Mega Feathers and Bonuses of Orion",
-       "label": "MF23: Restart 30 times first",
+       "section": "Smithing",
+       "group": "Sources of Forge Ore Capacity",
+       "label": "Arcade Bonus 26: +0/201% Forge Capacity",
        "cur": "0",
-       "goal": "30",
-       "score": 63,
+       "goal": "101",
+       "score": 0,
        "ready": false,
        "infinite": false
       }
@@ -8746,13 +8796,6 @@
         "world-1/bribes"
        ],
        "sources": "1 tagged / 0 chunks"
-      },
-      {
-       "system": "owl",
-       "toolbox": [
-        "clickers/owl"
-       ],
-       "sources": "2 tagged / 0 chunks"
       },
       {
        "system": "rift",
