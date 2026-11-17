@@ -246,6 +246,27 @@ for name, cfg in Y['characters'].items():
     for t in card['active']:
         steps.append({'do': f"ACTIVE {t['task']}" + (' · ' + '; '.join(t.get('notes', [])) if t.get('notes') else ''), 'done': f"{t['minutes']} min session", 'src': t['src']})
     card['today'] = steps[:10]
+    # DAILY RUN (Zack 2026-11-17): every job listed every day. Playbook steps when a playbook exists,
+    # else rinse steps (ready items first, then the job's top rinse target). Then park.
+    PB = {}  # job -> playbook steps (filled as playbooks get built)
+    daily = []
+    tim = [f"{r['name']}: {r['value']}" for r in ready_now if r['owner'] == name]
+    if tim: daily.append({'block': 'Timers ready (Toolbox)', 'kind': 'timer', 'steps': tim})
+    for t in card['active']:
+        pass
+    for j, jcfg in zip(card['jobs'], cfg['jobs']):
+        its = [dict(i, job=j['job']) for sb in j['subs'] for i in sb['items']]
+        st = list(jcfg.get('daily_fixed', []))
+        if j['job'] in PB: st += PB[j['job']]; kind = 'playbook'
+        else:
+            kind = 'rinse'
+            rd = [i for i in its if i['ready']]
+            st += [f"{i['label'][:80]} ({i['cur']} / {i['goal']}) READY" for i in rd[:3]]
+            fin = sorted([i for i in its if not i['ready'] and not i['infinite']], key=lambda i: -i['score'])
+            if fin: st.append(f"Push: {fin[0]['label'][:80]} {fin[0]['cur']} -> {fin[0]['goal']}")
+            if not st: st.append('No rinse data: ' + (j.get('note') or j.get('state') or 'needs a playbook'))
+        daily.append({'block': j['job'], 'kind': kind, 'steps': st})
+    card['daily'] = daily
     cards.append(card)
 
 # ---------- account block ----------
@@ -286,8 +307,13 @@ for cd in sorted(cards, key=lambda x: x['slot']):
     L.append((f"WORKING TOWARD: {tw['first']} first (Zack), then " if tw.get('first') else "WORKING TOWARD: ") + f"{tw['priority']} via {', '.join(tw['priority_jobs']) or 'none of his jobs'} · rinse #1: {tw['rinse1']}")
     if tw['flag']: L.append(f"FLAG: {tw['flag']}")
     L.append(f"PARK: {cd['park']['text']} [{cd['park']['src']}] (save shows {cd['save_map']})")
-    L.append('TODAY:')
-    for n, st in enumerate(cd['today'], 1): L.append(f"  {n}. {st['do']} · done when {st['done']} · {st['src']}")
+    L.append('DAILY RUN:')
+    n = 0
+    for b in cd['daily']:
+        L.append(f"  {b['block'].upper()}" + ('' if b['kind'] == 'playbook' else f"  [{b['kind']}]"))
+        for st in b['steps']:
+            n += 1; L.append(f"   {n}. {st}")
+    L.append(f"  PARK: {cd['park']['text']}")
     for f in cd['flags']: L.append(f"- FLAG {f}")
     L.append('DETAILS:')
     for j in cd['jobs']:

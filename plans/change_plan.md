@@ -65,3 +65,8 @@ Goal: replace every "gap" with sourced guidance. Order: Griffy -> Pulse/Nocturne
 - Gap review = mornings (7am run), not during the 3pm run-through.
 - Loop: cards 1 by 1 -> Zack flags wrong / unwanted / missing -> gaps.md -> morning review -> findings or ChatGPT Lane A -> card. Repeat until gaps.md is empty.
 - Phase 3 growth tracking starts with the 2026-11-17 3pm refresh (first daily close).
+
+### Playbooks = #1 project priority (Zack, 2026-11-17)
+- Daily run per character lists EVERY job every day. Job with a playbook = playbook steps (exact actions, live numbers, measurable goals with a reason). Job without = rinse steps (ready items + top rinse target), tagged [rinse], until its playbook exists.
+- Playbook build: Toolbox page computes the numbers (read during refresh), Griffy rules from tagged rows + capped index (findings/<system>.md), generator makes the steps. Built on partial transcripts as v1, tightened as tags land. Order: Zemo Farming + Cooking first, then rinse order.
+- Cards (details, rinse, sources) stay as Claude's working file; Zack sees the daily run.

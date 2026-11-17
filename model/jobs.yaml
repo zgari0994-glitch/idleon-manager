@@ -19,9 +19,9 @@ characters:
     first: Farming   # Zack 2026-11-17: farming above cooking
     afk: {text: "ZOW/CHOW targets W1-W6 (Death Note kills)", src: zack, park_rule: "with Autiszemo"}
     jobs:
-      - {job: Farming, sections: [Farming, Beanstalk], basis: class}
+      - {job: Farming, sections: [Farming, Beanstalk], basis: class, daily_fixed: ["Collect all crops, replant"]}
       - {job: Cooking, sections: [Cooking], basis: class, feeds: priority, note: "Cooking speed = account priority now (Upgrade Vault Kitchen Dream-mare on Autistopher)"}
-      - {job: "Grimoire + Wraith Form (bones)", sections: [The Grimoire], basis: zack, note: "Zemo always runs Wraith Form (outfit buffs him)"}
+      - {job: "Grimoire + Wraith Form (bones)", sections: [The Grimoire], basis: zack, daily_fixed: ["Wraith Form on (outfit buffs him)"], note: "Zemo always runs Wraith Form (outfit buffs him)"}
       - {job: Post Office, sections: [Post Office], basis: zack}
       - {job: "ZOWs + CHOWs W1-W6", sections: [{s: Death Note, m: "Autiszemo|Eclipse Skull.*in W[1-6]\\b"}], basis: zack}
   Autistocat:     # Arcane Cultist
