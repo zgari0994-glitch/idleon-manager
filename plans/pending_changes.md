@@ -203,3 +203,12 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Achievements: map all of them (needs, completable now, easy, table for later). Achievement runs = active task to clear as many as possible.
 - Death Note: explain ZOW / CHOW / Super CHOW / WOW and how it works with two Death Bringers (per character?). Decide after Griffy's 2nd-DB meta video (transcripts).
 - Minehead (Autistopher): full build from research: what it is, upgrade plan, best targets/upgrades, next step.
+
+## Autistachio (Zack, 2026-11-17)
+- AFK: Divinity (already there, wearing Divinity slippers). Divinity 1 -> 40 first; once it's high enough to earn Divinity EXP without being stationed, he also takes monuments. Monuments stay his job.
+- Reef (Coral Reef, Dancing Coral, Coral Kid, corals): map everything: what each does, how, where it is, can Zack access it, can he afford each upgrade, how to unlock each coral.
+- Emperor OFF his card (non-fighter, fight scales). Research (video) whether Emperor and boss fights are handled the same, and who should own them: best RG (drop rate) vs best fighter (push levels). Decide before assigning.
+- Gallery: map ALL trophies + nametags: obtainable now, not available (seasonal/limited, can't get again), paywalled (cost + why not), and gallery mechanics (easy ways to level trophies, getting the most out of the gallery).
+- Cape Vine: every cape in the game, how to get it, available now, paid options, flag when one shows up in a shop.
+- Bag sweep (revised): one active task on one character (likely the RG with best drop rate) farms every needed bag, stores them, then each character pulls only the bags it's missing.
+- Future active task: kill 1M Green Mushrooms for the W2 weekly boss (139.64K -> 1M).
