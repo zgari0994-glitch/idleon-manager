@@ -178,3 +178,10 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Active task: redo all prints (research the best print per needed resource), then turn Royal Sampler off on every character.
 - Prayers are on Bish's job (Worship souls/prayers): Midas Minded 35 -> 50 (tier 6), Zerg Rushogen/Jawbreaker/Ruck Sack for tier 7; souls come from Tacular's totem pushes. Show prayer material needs.
 - Salt Lick T7 -> T8 is on Autistopher (account shops); show it.
+- Zenith target: fastest-to-1M statue (Zack's guess: Power statue), research-backed; not "closest to 1M".
+- Two statue farmers explained: AutoReview's table splits statues by method. DK crystal statues -> Autistomatic. "Candy or Active ES" statues (Box, Seesaw) -> an Elemental Sorcerer. Proposal: give the ES statues to Autistronaut (also an ES) or keep on Bish, so one DK + one ES cover all statues. Decide on Naut's card.
+- RG unlock steps (DigitalTQ, fan): DK lvl 600+, reached W6; talk to Masterius at Troll Playground (W6); then at Valley of the Beans (W1) get 250 Orb of Remembrance kills before the orb disappears; return to Masterius. Talent Library books on Orb of Remembrance make it last longer. "Barracks" = gap (RG outposts/Royal Armory; Griffy said expand barracks first).
+- Money: DigitalTQ/gameslikefinder (fan) say DK is the best money farmer and best active crystal drop farmer. Verify with Griffy.
+- Prayers + Salt Lick + every system: real achievable goals with the resource, where to get it, and a plan of action. "Level it 15 levels" alone is not acceptable.
+- My error: told Zack an active spot (Minichiefs) as an AFK spot. AFK spot and active spot must be separate lines on every card.
+- Zack left Autistomatic on the snakes map working statues for now.
