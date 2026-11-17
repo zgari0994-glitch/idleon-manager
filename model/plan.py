@@ -85,6 +85,8 @@ def pick(e, who):
         if not is_open(a) or any(re.search(x, a['label'], re.I) for x in Y.get('exclude', [])): continue
         tab_owner = owner_of_tab(path)
         if tab_owner and tab_owner != who: continue
+        mw = re.search(r'with (Autis\w+)', g.get('name', '') + ' ' + path)
+        if mw and mw.group(1) in by_name and mw.group(1) != who: continue
         pre = a['label'].split(':', 1)[0].strip()
         if pre in by_name and pre != who: continue
         k = key(e['s'], path, a)
@@ -111,6 +113,8 @@ def subsystems(items, sec_list):
         for g in s['groups']:
             its = [i for i in items if i['section'] == sec and i['group'] == g.get('name', '')[:70]]
             its.sort(key=lambda i: (not i['ready'], i['infinite'], -i['score']))
+            nm = f"{sec}: {g.get('name','')}"[:90]
+            if its and any(x['name'] == nm for x in subs): continue
             if its: subs.append({'name': f"{sec}: {g.get('name','')}"[:90], 'state': 'open', 'items': its[:2], 'more': len(its) - 2})
     return subs
 

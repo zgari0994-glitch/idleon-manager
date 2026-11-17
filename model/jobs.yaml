@@ -19,7 +19,7 @@ characters:
       - {job: Cooking, sections: [Cooking], basis: class, note: "Cooking speed = account priority now (Upgrade Vault Kitchen Dream-mare on Autistopher)"}
       - {job: Grimoire, sections: [The Grimoire], basis: class}
       - {job: Post Office, sections: [Post Office], basis: zack}
-      - {job: "ZOWs + CHOWs W1-W6", sections: [{s: Death Note, m: "Zow|Chow|W[1-6]"}], basis: zack}
+      - {job: "ZOWs + CHOWs W1-W6", sections: [{s: Death Note, m: "Autiszemo|Eclipse Skull.*in W[1-6]\\b"}], basis: zack}
   Autistocat:     # Arcane Cultist
     afk: {text: "Active-first class (master class progress is active-only without its AFK mechanic). Runs Cranium Cooking active; plain AFK spot = GAP", src: "Griffy N5yJ4-tZLbY 00:52 (2026-10-04)"}
     active: [cranium]
