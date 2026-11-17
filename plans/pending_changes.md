@@ -212,3 +212,8 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Cape Vine: every cape in the game, how to get it, available now, paid options, flag when one shows up in a shop.
 - Bag sweep (revised): one active task on one character (likely the RG with best drop rate) farms every needed bag, stores them, then each character pulls only the bags it's missing.
 - Future active task: kill 1M Green Mushrooms for the W2 weekly boss (139.64K -> 1M).
+
+## Transcripts via Apify (Zack approved 2026-11-17, do tomorrow)
+- Old script stopped (YouTube IP block since ~4 PM 11/16). Switch to Apify YouTube Transcript Scraper (~$1-5 per 1,000). Budget under $10.
+- Compile the full list: ALL IdleOn content from Griffy, Pulse, Nocturne (Nocturne filtered to IdleOn only), including Griffy streams, all Griffy reviews, content videos, and his F2P/beginner series. Zack signs up + enters his own API key; Claude adapts the script.
+- Order tomorrow: ChatGPT Toolbox map (morning) -> compile list -> first Apify run after work -> then the change plan build.
