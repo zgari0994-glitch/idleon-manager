@@ -16,7 +16,7 @@ ACTOR = 'om_kh~youtube-transcript-api'
 API = 'https://api.apify.com/v2'
 LIST = os.path.join('idleon_transcripts', 'final_video_list.csv')
 ROOT = os.path.join('idleon_transcripts', 'sources', 'creators')
-BATCH = 100
+BATCH = 20   # 100-video runs failed on Apify; 20 worked
 BATCH_CAP_USD = 1.00
 TOTAL_CAP_USD = 3.00
 
@@ -85,7 +85,14 @@ def main():
         print(f'Batch {i // BATCH + 1}: {len(batch)} videos, run {run["id"]} started...')
         while run['status'] in ('READY', 'RUNNING'):
             time.sleep(15); run = call('GET', f'/actor-runs/{run["id"]}', token)['data']
-        if run['status'] != 'SUCCEEDED': print(f'  run ended {run["status"]}; saving whatever it returned.')
+        if run['status'] != 'SUCCEEDED':
+            print(f'  run ended {run["status"]}: {run.get("statusMessage") or "no message"}; saving whatever it returned.')
+            try:
+                req = urllib.request.Request(f'{API}/actor-runs/{run["id"]}/log', headers={'Authorization': f'Bearer {token}'})
+                with urllib.request.urlopen(req, timeout=60) as r:
+                    print('  last log lines:\n    ' + '\n    '.join(r.read().decode(errors='ignore').strip().splitlines()[-8:]))
+            except Exception as ex:
+                print(f'  (could not read log: {ex})')
         items = call('GET', f'/datasets/{run["defaultDatasetId"]}/items?clean=1&format=json', token)
         items = items if isinstance(items, list) else items.get('data', [])
         got = set()
