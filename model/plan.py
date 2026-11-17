@@ -252,8 +252,6 @@ for name, cfg in Y['characters'].items():
     daily = []
     tim = [f"{r['name']}: {r['value']}" for r in ready_now if r['owner'] == name]
     if tim: daily.append({'block': 'Timers ready (Toolbox)', 'kind': 'timer', 'steps': tim})
-    for t in card['active']:
-        pass
     for j, jcfg in zip(card['jobs'], cfg['jobs']):
         its = [dict(i, job=j['job']) for sb in j['subs'] for i in sb['items']]
         st = list(jcfg.get('daily_fixed', []))
@@ -266,6 +264,9 @@ for name, cfg in Y['characters'].items():
             if fin: st.append(f"Push: {fin[0]['label'][:80]} {fin[0]['cur']} -> {fin[0]['goal']}")
             if not st: st.append('No rinse data: ' + (j.get('note') or j.get('state') or 'needs a playbook'))
         daily.append({'block': j['job'], 'kind': kind, 'steps': st})
+    if card['active']:
+        daily.append({'block': 'Active (after dailies, if this is the active pick)', 'kind': 'active',
+                      'steps': [t['task'] + (' · ' + '; '.join(t.get('notes', [])) if t.get('notes') else '') for t in card['active']]})
     card['daily'] = daily
     cards.append(card)
 
