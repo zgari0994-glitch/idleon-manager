@@ -67,3 +67,4 @@ Build all of these as one design change, not as patches. Each line was approved 
 - Dancing Coral: first bonus unlock costs 248 Glowing Coral, Zack has 1,875 (Litterfish drop). Unlock chain gates the next 4 (Pantheon, Clover, Summereading, Crescent shrines above 200).
 - Coral Kid: every bonus shows 0. Menagerie tooltip says drop the Fishbowl on him. Check if the Fishbowl was dropped (Balloon Bay).
 - Menagerie missions: show them on the card with owners and a "claim now" flag (AutoReview has claim alerts).
+- Minehead assigned to Autistopher (lowest load: 4 jobs, tied with Autistabish/Autistotle/Autistronaut; Autistopher already the designated lightest schedule). Autisticles has 3 jobs + 9 W7 minis, so not lightest. Zack: AutoReview has holes; we find them and plan them.
