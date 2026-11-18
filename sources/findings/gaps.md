@@ -37,5 +37,14 @@ Loop: card run-through (1 by 1, dailies + tasks) -> Zack says what is wrong / un
 | 29 | 2026-11-17 | Autistabish / Lamp | What to wish for (42 stored). No Griffy rule found yet; costs known | open |
 | 30 | 2026-11-17 | Autistabish / Conjuror | Remaining Conjuror pts after Griffy's 3 picks (5 left): what next | open |
 | 31 | 2026-11-17 | Autistabish / Hole | Per-cavern actions: Den (when to run), Motherlode/Hive/Evertree (who AFKs there), villager leveling | open |
+| 32 | 2026-11-17 | Autistacular / Trapping | Is trapping worth it, W3 auto-grab every 24h (Trapper Drone?), trap setup + what to target | open |
+| 33 | 2026-11-17 | Autistacular / Sneaking | Talent pushes must say HOW: Generational Gemstones 368 -> 372 is past the 299 book cap; Max Book checkout vs saving, what raises it | open |
+| 34 | 2026-11-17 | Autistacular / Sneaking | Science Fancy Pen: where it comes from (Jade shop?) and cost | open |
+| 35 | 2026-11-17 | Autistacular / Sneaking | Sneaking plan: mastery 1 -> 2, best-in-slot gear per character, what to target, charms (11 -> 23) | open |
+| 36 | 2026-11-17 | Autistacular / Breeding | Fence plan from his actual pets: which shinies in, which out, Sheepie 5 -> 13 worth it? | open |
+| 37 | 2026-11-17 | Autistacular / Breeding | Total Heart VII+ pets 0 -> 68: what it is (heart pets in fence + level?), priority vs shinies, which pets are closest | open |
+| 38 | 2026-11-17 | Autistacular / Breeding | Crop Depot Crayon 125 -> 330: what it is (farming?) | open |
+| 39 | 2026-11-17 | Autistacular / Worship | Breezy Battle (10) + Citric Conflict (28): one-time proper push plan; worship 500+ needed for Equinox + Menagerie | open |
+| 40 | 2026-11-17 | All cards | Run-through output is information, not guidance: makes Zack anxious. Every line must say what to do + how, or not show | open |
 
 ## Done
