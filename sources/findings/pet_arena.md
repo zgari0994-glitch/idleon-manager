@@ -1,0 +1,6 @@
+# Pet Arena past wave 120 (findings, 2026-11-17)
+Sources are 2022 (pre-W7): flag as possibly outdated.
+- Nocturne 0rY28QmL_fA (2022-07-22) cleared wave 125 with: Borger (tank only, don't use its ability: Refiller would waste refills on it), Refiller (5s buff: non-basic hits refill random abilities), Badumdum (everything revolves around it: basic attack speed stacks; refreshes only when a basic attack lands), Looter (sustain via Forager / Breedability / Miasma + Defender/Shell buffs), Rattler (do NOT use its ability until ~wave 50-60, or waves clear too fast to build Badumdum stacks). Clearing 125 unlocks the 6th pet slot. Beast Master Arena Spirit = multiple entries + 15% pet dmg; Wedding Cake meal = pet dmg.
+- Griffy 0giiOpSlL8A (2022-07-28) round 200: Rattler + Borger must be juiced (15-20K+ each), rest matters less; spam everything except Borger + Defender early to build Whale (Badumdum) stacks; drop Looter use if it rolls Alchemic. Pet damage %: Croissant meal, Condensed Zap (stilt seekers) for Electric lights.
+- Griffy (2026-01-15 gPQrOK53BDI 00:52): main damage dealer in the back, Looter right behind it, auto-use abilities except the tank.
+- Zack's best stored pets (11/17 save, power): Refiller = Walking Stick 391.7K; Looter = Mamooth 346.5K; Rattler = TV 315.7K; Borger = Stilted Seeker 270.2K; Badumdum = Whale 219.6K; Defender = Mimic 273.4K.

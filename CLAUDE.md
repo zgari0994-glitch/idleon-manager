@@ -35,6 +35,9 @@
 ## Never say "no data" (Zack rule)
 Before a card says no data / gap, check the Toolbox map (sources/creators/idleon-toolbox-guide.md), the system index, the dashboard timers and the raw save. If Toolbox shows it, the card uses it.
 
+## Talent levels (lesson 2026-11-17)
+A talent's shown level = book level + bonus levels. Check the book level (max book now 299): Generational Gemstones 368 -> 372 = book 295 -> 299, so it IS a Library checkout.
+
 ## Locked = target (Zack rule)
 Never hide or drop a locked item. Show it with exactly what unlocks it, where the character is now on that path, and put the unlock on the owner's daily run.
 
