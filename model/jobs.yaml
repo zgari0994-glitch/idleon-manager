@@ -28,6 +28,7 @@ characters:
       - {job: Cooking, sections: [Cooking], basis: class, feeds: priority, note: "Cooking speed = account priority now (Upgrade Vault Kitchen Dream-mare on Autistopher)"}
       - {job: "Grimoire + Wraith Form (bones)", sections: [The Grimoire], basis: zack, daily_fixed: ["Wraith Form on (outfit buffs him)"], note: "Zemo always runs Wraith Form (outfit buffs him)"}
       - {job: Post Office, sections: [Post Office], basis: zack}
+      - {job: Fish prints, sections: [{s: Sampling, itype: FISH}], basis: zack, note: "Zack 11/17: Zemo prints fish"}
       - {job: "ZOWs + CHOWs W1-W6", sections: [{s: Death Note, m: "Autiszemo|Eclipse Skull.*in W[1-6]\\b"}], basis: zack}
   Autistocat:     # Arcane Cultist
     afk: {text: "Active-first class (master class progress is active-only without its AFK mechanic). Runs Cranium Cooking active; plain AFK spot = GAP", src: "Griffy N5yJ4-tZLbY 00:52 (2026-10-04)"}
@@ -41,8 +42,8 @@ characters:
   Autisticles:    # Siege Breaker
     afk: {text: "His best kills/hr map: Melting Every Day turns AFK kills into forge progress (bars). Feeds Copper Bar 1B shortage. Exact map = GAP", src: "Griffy ypb7kpQov30 00:01 (2026-08-03)"}
     jobs:
-      - {job: Sailing, sections: [Sailing, Islands], basis: class}
-      - {job: Bug prints, sections: [{s: Sampling, rest: true}], basis: griffy}
+      - {job: Sailing, sections: [Sailing], basis: class}
+      - {job: Bug prints, sections: [{s: Sampling, itype: BUG, levers: true}], basis: griffy}
       - {job: "Statue turn-ins (farmed by others)", sections: [{s: Statues, rest: true}], basis: zack}
       - {job: "W7 minis", sections: [Sushi Station, Luminous Menagerie, Clam Work, Jelly Operator, The Button, Advice Fish, Zenith Market, Legend Talents, Arcade], basis: light, note: "Gate: Research level ~10 (Autistotle). Jelly/Button maps = W7 map push"}
   Autistastic:    # Divine Knight #1
@@ -51,6 +52,7 @@ characters:
       - {job: Construction, sections: [Buildings, Atom Collider, Refinery], basis: class, note: "Collider ON at 1050M (Zack: OFF gains nothing)"}
       - {job: Gaming, sections: [Gaming], basis: class, note: "AutoReview covers snail only: fertilizer/mutations/imports/superbits/palette = Lane B gap"}
       - {job: "Royal Guardian #1 (top unlock)", sections: [Royal Armory], basis: griffy}
+      - {job: "Islands", sections: [Islands], basis: zack, note: "Zack 11/17: Ticles can't reach the islands; Tastic does them"}
       - {job: Godshard set, sections: [Armor Sets], basis: zack}
       - {job: "World bosses + minibosses (DK drop rate)", sections: [], basis: zack, note: "Minibosses only when stored spawns are max; bosses when keys are up"}
       - {job: "Statue: Dragon (AFK golems)", sections: [{s: Statues, m: "Dragon"}], basis: autoreview}

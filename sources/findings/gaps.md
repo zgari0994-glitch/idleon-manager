@@ -30,8 +30,8 @@ Loop: card run-through (1 by 1, dailies + tasks) -> Zack says what is wrong / un
 | 22 | 2026-11-17 | Autistomatic / Zenith | 1M of one statue for Zenith Market: active-day plan | open |
 | 23 | 2026-11-17 | Autisticles / Arcade | Arcade Bonus 0 11 -> 101: how, is it possible | open |
 | 24 | 2026-11-17 | Autisticles / AFK | Siege Breaker forge AFK: which map (Zack guesses Green Mushrooms) + how it works | open |
-| 25 | 2026-11-17 | Account / Prints | Fish + other prints (Goldfish, Spore Cap) sit under Ticles bug prints: owner to be confirmed by Zack (prints stay as set until then) | open |
-| 26 | 2026-11-17 | Autisticles / Islands | Islands stay on Ticles (Zack); which islands benefit from drop rate, worth an RG visit | open |
+| 25 | 2026-11-17 | Account / Prints | Spore Cap (monster drop, not ore/log/bug/fish) has no print owner | open |
+| 26 | 2026-11-17 | Autistastic / Islands | Which islands benefit from drop rate (Tastic owns islands) | open |
 | 27 | 2026-11-17 | All / Legend Talents | Held until transcripts reviewed; Blue Ribbon was an AutoReview target, not Griffy-certified | open |
 
 ## Done
