@@ -23,6 +23,7 @@ characters:
   Autiszemo:      # Death Bringer #1
     first: Farming   # Zack 2026-11-17: farming above cooking
     afk: {text: "ZOW/CHOW targets W1-W6 (Death Note kills)", src: zack, park_rule: "with Autiszemo"}
+    active: [crayon_crops]
     jobs:
       - {job: Farming, sections: [Farming, Beanstalk], basis: class, daily_fixed: ["Collect all crops, replant"]}
       - {job: Cooking, sections: [Cooking], basis: class, feeds: priority, note: "Cooking speed = account priority now (Upgrade Vault Kitchen Dream-mare on Autistopher)"}
@@ -147,7 +148,8 @@ active_tasks:   # importance 1 = top. minutes = rough session length. Quick win 
   - {id: greenstacks, owner: Autistotle, task: "Greenstack runs (closest items, candy/skips)", importance: 3, minutes: 30, src: zack}
   - {id: observations, owner: Autistotle, task: "Research observations (daily tries)", importance: 2, minutes: 10, src: zack}
   - {id: achievements, owner: Autistopher, task: "Achievement runs (easiest open first)", importance: 3, minutes: 30, src: zack}
-  - {id: breeding_ww, owner: Autistacular, task: "Active WW breeding (overnight candidate)", importance: 3, minutes: 480, src: zack}
+  - {id: breeding_ww, owner: Autistacular, task: "Active WW breeding overnight (normal form, Whale Wallop on bar). Fence = one type at a time: drop rate shinies Slime 5->20, Choccie 5->20, Xylobone 10->20 (cap 20 until Menagerie unlock 12)", importance: 2, minutes: 480, notes: ["Method: Pulse 6JgdYbiEKus 23:23 (one type to cap, then next)", "Rate pets = ~0.2% faster per level (my math): low value, swapped off fence", "Night 1 (11/17): rate pets +18-21K shiny days each"], src: "Pulse + AutoReview + my read"}
+  - {id: crayon_crops, owner: Autiszemo, task: "Discover new crop types: Crop Depot Crayon 125 -> 330 (shiny rate +1522% -> +4019%, ~2x total; 200 = Menagerie mission)", importance: 1, minutes: 20, src: "AutoReview Shiny Rate sources + Menagerie"}
   - {id: bag_sweep, owner: "best-DR RG", task: "Bag sweep: farm missing bags once, store, each char pulls", importance: 3, minutes: 45, src: zack}
   - {id: green_mush, owner: Autistachio, task: "1M Green Mushrooms for W2 weekly boss", importance: 3, minutes: 240, src: AutoReview}
   - {id: prints_redo, owner: Autistomatic, task: "Redo all prints, then Royal Sampler off (Zack keeps it on for now)", importance: 3, minutes: 20, src: zack}
