@@ -295,7 +295,7 @@ for name, cfg in Y['characters'].items():
                 pre = f"{sec}: " if multi else ''
                 rd = [i for i in si if i['ready']]
                 st += [f"{pre}{i['label'][:80]} ({i['cur']} / {i['goal']}) READY" for i in rd[:2]]
-                fin = sorted([i for i in si if not i['ready'] and not i['infinite']], key=lambda i: -i['score'])
+                fin = [] if jcfg.get('daily') == 'ready_only' else sorted([i for i in si if not i['ready'] and not i['infinite']], key=lambda i: -i['score'])
                 seen_g = []
                 for f0 in fin:   # best push per group, up to 3 per sub-system
                     if f0['group'] in seen_g: continue
@@ -306,7 +306,7 @@ for name, cfg in Y['characters'].items():
                         st.append(f"{pre}Lever on {ro}: {f0['label'][:60]}"); continue
                     st.append(f"{pre}Push: {f0['label'][:80]} {f0['cur']} -> {f0['goal']}" + (f" · {f0['locked']}" if f0.get('locked') else ''))
                     if len(seen_g) == 3: break
-            if not st: st.append('No rinse data: ' + (j.get('note') or j.get('state') or 'needs a playbook'))
+            if not st: st.append(('Nothing to do today' if jcfg.get('daily') == 'ready_only' else 'No rinse data') + ': ' + (j.get('note') or j.get('state') or 'needs a playbook'))
         daily.append({'block': j['job'], 'kind': kind, 'steps': st})
     for l in card['locked']:
         daily.append({'block': f"Unlock: {l['feature']}", 'kind': 'unlock', 'steps': [l['unlock']]})

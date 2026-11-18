@@ -34,5 +34,8 @@ Loop: card run-through (1 by 1, dailies + tasks) -> Zack says what is wrong / un
 | 26 | 2026-11-17 | Autistastic / Islands | Which islands benefit from drop rate (Tastic owns islands) | open |
 | 27 | 2026-11-17 | All / Legend Talents | Held until transcripts reviewed; Blue Ribbon was an AutoReview target, not Griffy-certified | open |
 | 28 | 2026-11-17 | Autistastic / World bosses | Biggie Hours (babaHour) + King Doot (babaMummy): Baba Yaga line, Death Note 'Mini boss', 24h respawn (Toolbox monster data). Not on the Toolbox dashboard, no location in Toolbox wiki. Need: where/how they spawn, whether there's a reason to run them (Death Note rank, drops), then plan on Tastic. Zack: Tastic owns every world boss + Emperor; key-based bosses need tracking | open |
+| 29 | 2026-11-17 | Autistabish / Lamp | What to wish for (42 stored). No Griffy rule found yet; costs known | open |
+| 30 | 2026-11-17 | Autistabish / Conjuror | Remaining Conjuror pts after Griffy's 3 picks (5 left): what next | open |
+| 31 | 2026-11-17 | Autistabish / Hole | Per-cavern actions: Den (when to run), Motherlode/Hive/Evertree (who AFKs there), villager leveling | open |
 
 ## Done

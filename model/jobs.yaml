@@ -64,8 +64,8 @@ characters:
     jobs:
       - {job: "Worship: souls + prayers (town)", sections: [Prayers], basis: zack, note: "Totem waves are Autistacular's"}
       - {job: Divinity, sections: [Divinity], basis: class}
-      - {job: "The Hole (all 15 caverns + villagers)", sections: [Villagers, Shallow Caverns, Glowshroom Tunnels, Underground Overgrowth], basis: light, findings: [hole_caverns_1-5]}
-      - {job: Slab, sections: [Slab], basis: light}
+      - {job: "The Hole (all 15 caverns + villagers)", sections: [Villagers, Shallow Caverns, Glowshroom Tunnels, Underground Overgrowth], basis: light, findings: [hole_caverns_1-5], daily: ready_only, daily_fixed: ["Opals: 10 each into Cosmos (Conjuror), Minau (Measurer), Kaipu (Engineer) = 20 each (every 10th opal +150% that villager's EXP; Griffy: Conjuror first, then Measurer, keep 1+ in every villager)"]}
+      - {job: Slab, sections: [Slab], basis: light, daily: ready_only, note: "Collection: items get picked up when you meet them, no daily action"}
       - {job: "Statues: ES (Box, Seesaw)", sections: [{s: Statues, m: "ES at"}], basis: autoreview}
   Autistacular:   # Wind Walker
     afk: {text: "W7: push the cave until his tasks are planned", src: zack}
