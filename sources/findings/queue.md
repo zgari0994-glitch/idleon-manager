@@ -1,5 +1,7 @@
 # ChatGPT work queue
 
+**2026-11-17: replaced by the packet run.** ChatGPT follows `handoff/TAGGER.md` over `handoff/packets/` (ORDER.csv: Lane A AFK video first, then tag_priority tiers 1-6). Lane B is dropped (everything gets tagged in order). New Lane A gaps: Claude moves those videos to the front by re-running tools/make_packets.py with LANE_A updated. Below is history.
+
 Lane A (gap orders from cards) always goes first. Lane B (proactive, thinnest systems first) runs whenever Lane A is empty. One order = 1 system, max 3 videos, listed ranges only. Long ranges (streams): read only the keyword-hit minutes +-2 min (run `python3 tools/transcript_index.py find <system> --creator X` to get them), not the whole span. Bias to systems on Zack's active cards. Output: tags CSV per tagging_spec.md.
 
 ## Lane A: gap orders
