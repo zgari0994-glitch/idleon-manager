@@ -1,0 +1,181 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,pets,piggy,,mechanic,any,,Piggy provides autoloot and unlimited teleportation and remote storage access.,yes,3
+00:00:00,00:00:31,pets,piggy,,account_note,any,piggies=15,The creator won fifteen Piggies from Lava's dart challenge.,yes,3
+00:00:31,00:01:01,friends,friend_bonus,,account_note,any,account_level=10000,The creator offers friend bonuses from a ten thousand level main account.,yes,3
+00:01:01,00:01:31,characters,pre_troll_farming,,account_note,w4,character_level=233;farming_days=1,The creator farmed Stilted Seekers for key materials then Floms for money and reached level 233.,yes,3
+00:01:31,00:02:03,general,troll_keys,,account_note,w4,attempts=6,Six Troll attempts are available.,yes,3
+00:02:03,00:02:33,general,troll_mechanics,,mechanic,w4,restricted_damage=10,Complete Troll's assigned tasks to enable meaningful damage rather than the restricted ten damage hits.,yes,3
+00:02:03,00:02:33,general,troll_tasks,,mechanic,w4,time_limit_seconds=35,One Troll task requires killing all spawned enemies within thirty five seconds.,yes,3
+00:02:33,00:03:03,general,troll_crabs,,how_to,w4,,Remove the weapon during the crab task then re equip it to damage Troll.,yes,3
+00:03:03,00:03:33,tasks,troll_task_skip,,mechanic,w4,,Completing relevant task board objectives eventually allows farming Troll without repeating its tasks.,yes,3
+00:03:03,00:03:33,general,troll_farming,,meta_change,w4,,Troll originally lacked the task skipping option and took much longer to farm.,yes,3
+00:03:33,00:04:05,general,troll_hit_task,,mechanic,w4,required_lines=100;double_hit_lines=2,The one hundred damage line task counts double hits as two lines.,yes,3
+00:03:33,00:04:05,general,troll_hit_task,,how_to,w4,,Use unarmed auto attacks to complete the hit task while avoiding green mushrooms.,yes,3
+00:03:33,00:04:05,lab|construction,shrine_placement,,setup,w4,,Leave shrines in town when the townwide shrine lab bonus is active.,yes,3
+00:04:05,00:04:36,general,troll_failure,,mechanic,w4,,Troll heals when a task is failed.,yes,3
+00:04:05,00:04:36,general,troll_damage,,mechanic,w4,,Troll does not require extreme damage because successful tasks matter more than burst damage.,yes,3
+00:04:36,00:05:07,general,troll_readiness,,threshold,w4,,A character strong enough to reach Troll can generally defeat its minions and complete the fight.,yes,3
+00:04:36,00:05:07,pets,free_roll,,priority,any,reset=weekly,Use the weekly free companion roll.,yes,3
+00:05:07,00:05:38,general,world_five_unlock,,mechanic,w4,,Troll drops the Magma Geode needed to enter world five.,yes,3
+00:05:38,00:06:10,cooking,corn,,mechanic,any,,Corn improves skill efficiency.,yes,3
+00:05:38,00:06:10,cooking,salad,,mechanic,any,,Salad improves monster cash gains.,yes,3
+00:05:38,00:06:10,cooking,meal_unlocks,,account_note,w4,,The creator unlocked additional spices and meals including a lab XP bonus.,yes,3
+00:05:38,00:06:10,quests,world_five_unlock,,how_to,w4,,Talk to the toucan after obtaining the Magma Geode to unlock world five.,yes,3
+00:06:10,00:06:41,general,world_progression,,priority,w5,target_world=6,Keep pushing toward world six because worlds five and six provide enormous account bonuses.,yes,3
+00:06:10,00:06:41,general,world_five_skills,,mechanic,w5,,World five systems rely heavily on random outcomes.,yes,3
+00:06:41,00:07:12,quests,world_five_tutorial,,priority,w5,,Follow the introductory quest line to learn each world five skill.,yes,3
+00:07:12,00:07:42,sailing,first_boat,siege_breaker,how_to,w5,,Assign the captain to a boat and drag that boat to Safari Island on the map.,yes,3
+00:07:12,00:07:42,sailing,shared_progress,,mechanic,w5,,Sailing is shared across the account and is Siege Breaker's specialty.,yes,3
+00:07:12,00:07:42,sailing,captain_slots,,mechanic,w5,,Buying more sailors requires sailing levels.,yes,3
+00:07:12,00:07:42,sailing,loot_pile,,mechanic,w5,,The loot pile displays ordinary island materials on the left and rare materials on the right.,yes,3
+00:07:42,00:08:13,sailing,map_controls,,how_to,w5,,Drag boats to islands for artifacts or clouds to discover new islands.,yes,3
+00:07:42,00:08:13,sailing,boat_upgrades,,mechanic,w5,,Spend island treasure through the crew menu to upgrade boats.,yes,3
+00:08:13,00:08:45,sailing,captain_replacement,,how_to,w5,,Remove a captain from its boat before deleting it to make space for a replacement.,yes,3
+00:08:13,00:08:45,sailing,slots,,mechanic,w5,,Boat slots and captain slots are separate upgrades.,yes,3
+00:08:13,00:08:45,sailing,boat_stats,,mechanic,w5,,Boats have loot value and speed upgrades.,yes,3
+00:08:45,00:09:16,sailing,captain_perks,,mechanic,w5,max_perks=2,Captains can roll two perks including loot value and speed and artifact chance and cloud discovery rate.,yes,3
+00:08:45,00:09:16,sailing,captain_priority,,priority,w5,,Prioritize captain loot value and boat speed.,yes,3
+00:09:16,00:09:48,sailing,captain_priority,,setup,late,,Later captains can prioritize double loot value once sufficient sailing speed is established.,yes,3
+00:09:16,00:09:48,sailing,islands,,mechanic,w5,approx_islands=12,The creator estimates sailing contains around twelve islands.,yes,2
+00:09:16,00:09:48,sailing,artifact_upgrades,,mechanic,w5,,Find artifacts for bonuses and find them again at lower odds to upgrade them.,yes,3
+00:09:48,00:10:18,sailing|rift,artifact_tiers,,mechanic,any,,Artifacts progress from normal to ancient then Eldritch after a rift unlock.,yes,3
+00:09:48,00:10:18,sailing,sovereign_artifacts,,mechanic,w6,unlock_world=6,Sovereign artifact access unlocks in world six.,yes,3
+00:09:48,00:10:18,sailing,early_artifacts,,priority,w5,,Focus first on artifact unlocks with selected early artifact upgrades when useful.,yes,3
+00:10:18,00:10:48,sailing,captain_base_rolls,,mechanic,w5,starting_level=1,New captains begin at level one and their perk values rise as they level.,yes,3
+00:10:48,00:11:19,sailing,captain_base_rolls,,mechanic,w5,illustrative_initial=3%;illustrative_level=10;illustrative_final=15%_or_18%,The speaker illustrates perk growth with arbitrary numbers rather than an exact leveling formula.,yes,2
+00:11:19,00:11:49,sailing,captain_replacement,,priority,any,,Replace low base roll captains with stronger base rolls because the replacements eventually surpass them at equal levels.,yes,3
+00:11:19,00:11:49,sailing,early_slots,,priority,w5,,Prioritize unlocking captain slots and boat slots.,yes,3
+00:11:49,00:12:20,sailing,fleet_balance,,setup,w5,captains_per_boat=1,Keep equal numbers of captains and boats so every captain can sail.,yes,3
+00:11:49,00:12:20,sailing,boat_costs,,mechanic,w5,initial_boats=4,The creator believes the first four boats primarily use gold bars for upgrades.,yes,2
+00:11:49,00:12:20,sailing,boat_upgrades,,mechanic,w5,speed_before=10;speed_after=15;loot_before=0;loot_after=10,The displayed upgrades raise speed from ten to fifteen and loot value from zero to ten.,yes,3
+00:11:49,00:12:20,sailing,artifact_odds,,mechanic,w5,,Artifact odds cannot be directly upgraded through boat upgrades.,yes,3
+00:12:20,00:12:50,sailing|bubbles,materials,,mechanic,w5,,Island materials fund boat upgrades and some later alchemy bubbles.,yes,3
+00:12:20,00:12:50,sailing,crew_identity,,how_to,w5,,Enable boat identity display to see which captain runs each boat.,yes,3
+00:12:50,00:13:20,sailing,material_identification,,how_to,w5,,Loot pile rows correspond to island order and reveal which island supplies a needed upgrade material.,yes,3
+00:13:20,00:13:51,sailing,travel_time,,mechanic,w5,displayed_hours=3;stated_outbound_hours=3;stated_return_hours=3,The speaker initially describes a three hour trip as three hours outbound plus three hours returning.,yes,2
+00:13:20,00:13:51,sailing,loot_delivery,,mechanic,w5,,Treasure becomes available only when a boat returns to the home island.,yes,3
+00:13:51,00:14:22,sailing,storage,,mechanic,w5,,Sailing materials stay in a separate loot pile and do not consume ordinary storage space.,yes,3
+00:13:51,00:14:22,sailing,minimum_travel,siege_breaker,mechanic,w5,base_minimum_hours=2,Base sailing time cannot fall below two hours without special minimum time bonuses.,yes,3
+00:13:51,00:14:22,sailing|breeding,minimum_travel,,mechanic,w5,,Siege Breaker and shiny pet bonuses can reduce minimum sailing time.,yes,3
+00:14:22,00:14:54,sailing,island_distance,,mechanic,w5,first_distance=25m;first_time_hours=3;second_time_hours=10,Farther islands require more sailing speed and the shown next island takes ten hours.,yes,3
+00:14:54,00:15:24,sailing,chest_generation,,mechanic,w5,absence_hours=6;trip_hours=3;trips=2;chests=2,The later example says six hours yields two trips and two chests on a three hour route.,yes,3
+00:14:54,00:15:24,sailing,chest_rewards,,mechanic,w5,,Each completed trip supplies a chest with ordinary materials and possible rare materials.,yes,3
+00:15:24,00:15:55,sailing,chest_capacity,,mechanic,w5,endgame_capacity=29;estimated_start_capacity=7,Chest capacity limits accumulated rewards; the creator's main holds twenty nine and estimates starting capacity around seven.,yes,2
+00:15:24,00:15:55,sailing|gem_shop|tasks,chest_capacity,,mechanic,w5,,Task board and gem shop upgrades increase sailing chest capacity.,yes,3
+00:15:55,00:16:25,gem_shop|sailing,miracle_chest,,skip,w5,treasure_multiplier=20;artifact_multiplier=30,Do not buy Miracle Chests despite twenty times treasure and thirty times artifact chance.,yes,3
+00:15:55,00:16:25,gem_shop|sailing,bottled_wind,,skip,w5,,Avoid buying Bottled Wind unless spending heavily.,yes,3
+00:16:25,00:16:56,gem_shop|sailing,chest_slots,,priority,w5,capacity_per_purchase=1,Sailing chest slot purchases are reasonable because each adds one loot pile slot.,yes,3
+00:16:25,00:16:56,gem_shop|sailing,artifact_purchase,,skip,w5,,The shown artifact related purchase is poor value now that Eldritch and Sovereign tiers exist.,yes,2
+00:16:56,00:17:26,gem_shop|divinity,sparkies,,priority,w5,,Divinity Sparkies are a good purchase for accelerating divinity.,yes,3
+00:16:56,00:17:26,gem_shop|gaming,golden_sprinkler,,priority,w5,recommended_count=1,Buy one Golden Sprinkler eventually but it is not an urgent priority.,yes,3
+00:17:26,00:17:57,gem_shop|gaming,fertilizer,,skip,w5,,Do not buy Gaming Fertilizer.,yes,3
+00:17:26,00:17:57,gem_shop|gaming,lava_sprouts,,priority,w5,,Lava Sprout purchases are reasonable for gaming.,yes,3
+00:17:57,00:18:28,event_shop|gem_shop,gem_budget,,priority,any,,Save substantial gems for events because recent event upgrades are exceptionally powerful.,yes,3
+00:18:28,00:18:58,gem_shop,free_to_play_priorities,,priority,any,,Free to play accounts should still obtain core upgrades such as Crystal 3D Printer and Infinity Hammer.,yes,3
+00:18:58,00:19:28,gem_shop,limited_shop,,priority,any,pendant_cost=1150,Save gems for strong limited shop items such as the shown 1150 gem pendant.,yes,3
+00:19:28,00:19:58,gem_shop|cards,cardifier,,opinion,any,,Card Star Cardifier is an excellent purchase.,yes,3
+00:19:28,00:19:58,gem_shop,draconic_cauldron,,priority,any,,Pick up Draconic Cauldrons when available because they appear infrequently.,yes,3
+00:19:28,00:19:58,gem_shop,super_tier_ribbons,,priority,any,,Take free Super Tier Ribbons but carefully assess paying for them.,yes,3
+00:19:28,00:19:58,gem_shop|arcade,cosmic_balls,,skip,any,,Most players should avoid Cosmic Balls because they will not benefit enough.,yes,3
+00:19:58,00:20:30,gem_shop|money,emerald_bling_pendant,,mechanic,any,stated_base_multiplier=3;stated_upgraded_multiplier=6,The Emerald Bling Pendant provides a true multiplier applied after other money bonuses.,yes,3
+00:20:30,00:21:01,lab|money,pendant_doubler,,mechanic,any,base_money=1;added_money=3;combined_money=4;doubled_money=8,The speaker describes the pendant as reaching four times money then eight times through the lab pendant doubler.,yes,3
+00:20:30,00:21:01,gem_shop,time_candy,,skip,any,,Never buy time candy with gems.,yes,3
+00:21:01,00:21:32,gaming,basic_loop,,mechanic,w5,,Harvest sprouts for bits and spend bits to upgrade the garden.,yes,3
+00:21:32,00:22:03,gaming,tutorial,divine_knight,how_to,w5,required_upgrades=3,The gaming tutorial requires three garden upgrades and gaming is Divine Knight's specialty.,yes,3
+00:21:32,00:22:03,achievements,sneaky_stealing,,mechanic,w5,,The underground computer area includes the Sneaky Stealing achievement.,yes,2
+00:21:32,00:22:03,sailing|gaming,quest_consumables,,priority,w5,,Save quest rewarded Bottled Wind and Gaming Fertilizer for later.,yes,3
+00:21:32,00:22:03,stamps|refinery,refinery_stamp,,priority,w5,,Buy the refinery stamp when possible to boost refinery progress.,yes,3
+00:22:03,00:22:33,general,world_five_stones,,priority,w5,,Start buying and stockpiling world five upgrade stones immediately upon entry.,yes,3
+00:22:03,00:22:33,general,world_five_stones,,comparison,w5,old_stated_chance=20%;new_stated_chance=30%;difference=10%;extra_defense=3;extra_main_stat=2,World five stones improve the stated chance and grant three more defense and two more main stat than world four stones.,yes,2
+00:22:33,00:23:04,guild,guild_gifts,,account_note,w5,gems=25,Guild gifts yield twenty five gems.,yes,3
+00:23:34,00:24:05,gaming,sprout_capacity,,mechanic,w5,initial_slots=3;gem_slot_increment=1;achievable_slots=20;endgame_slots=22,The initial garden holds three sprouts while twenty slots are achievable and twenty two require advanced endgame progress.,yes,3
+00:24:05,00:24:35,gaming,locked_upgrade,,meta_change,w5,displayed_level=999;unlock_world=7,The level 999 placeholder upgrade is described as awaiting the world seven release.,yes,2
+00:24:05,00:24:35,gaming,bits,,mechanic,w5,,Bits are the main currency used throughout gaming.,yes,3
+00:24:35,00:25:05,gaming|bubbles,bit_costs,,mechanic,w5,,Some alchemy bubbles consume bits but their costs scale quickly.,yes,3
+00:25:05,00:25:36,gaming,upgrades,,mechanic,w5,growth_cycle_hours=10.6,Early garden upgrades improve bit yield and growth cycle speed and maximum sprout count.,yes,3
+00:25:05,00:26:06,gaming,evolution,,mechanic,w5,total_tiers_about=7,Plants have a chance to evolve each growth cycle and higher evolutions award more bits.,yes,2
+00:25:36,00:26:06,gaming,evolution_rewards,,account_note,w5,lower_yield=9;higher_yield=27,Different plant evolution tiers yielded nine versus twenty seven bits.,yes,3
+00:26:06,00:26:36,gaming,upgrade_priority,,priority,w5,new_capacity=4,Always buy another sprout slot when affordable.,yes,3
+00:26:06,00:26:36,gaming,upgrade_priority,,priority,w5,,Balance bit yield and growth speed upgrades with an early preference for faster growth.,yes,3
+00:26:36,00:27:06,gaming,upgrade_effect,,account_note,w5,bit_yield_before=1;bit_yield_after=10;hours_before=about_11;hours_after=about_10,Initial upgrades increase bit yield tenfold while modestly shortening the growth cycle.,yes,3
+00:26:36,00:27:06,gaming,late_progression,,mechanic,late,sprouts=20,Later gaming can regenerate an entire twenty plant garden almost instantly.,yes,3
+00:27:06,00:27:38,gaming,bit_denominations,,mechanic,late,stated_conversion=1QQ;alternative_notation=1000Q,The speaker tentatively describes one QQ as the conversion threshold to a green bit.,yes,2
+00:27:38,00:28:08,gaming,bit_denominations,,mechanic,late,stated_conversion=1QQ,The speaker describes green bits converting to red and red to purple at one QQ each.,yes,2
+00:27:38,00:28:08,gaming,genetics,,threshold,w5,required_level=10,Level ten gaming unlocks genetics and new plant types.,yes,3
+00:28:08,00:28:40,gaming,fertilizer,,priority,w5,,Save fertilizer because it provides far more value after gaming bonuses improve.,yes,3
+00:28:08,00:28:40,gaming,logbook,,mechanic,w5,collections_required=1,Collecting each unique plant evolution once increases the logbook multiplier.,yes,3
+00:28:40,00:29:11,gaming,afk_progress,divine_knight,mechanic,w5,example_afk_hours=8;example_gaming_hours=8,Divine Knight can roll matching gaming progress on AFK claims but not candy claims.,yes,3
+00:28:40,00:29:11,gaming,afk_progress,divine_knight,mechanic,w5,,The gaming AFK talent only triggers from that character's claims.,yes,3
+00:29:11,00:29:42,gaming,shared_xp,divine_knight,mechanic,w5,example_level=115,Thousand Hours Played increases shared gaming XP and every character has the same gaming level.,yes,3
+00:29:11,00:29:42,gaming,bitty_litty,divine_knight,setup,w5,,Invest in Bitty Litty on the skilling preset for account wide bits per gaming level.,yes,3
+00:29:42,00:30:12,gaming,bitty_litty,,account_note,any,,Bitty Litty was named after the Itty Bitty Army and Litty Army guilds.,yes,3
+00:30:12,00:30:43,divinity,basic_loop,elemental_sorcerer,mechanic,w5,,Meditate at the altar for points then spend them on offerings to unlock gods.,yes,3
+00:30:43,00:31:13,divinity,character_assignment,,setup,w5,,Assign inactive characters to meditation while continuing other activities on the main pusher.,yes,3
+00:30:43,00:31:13,divinity,god_links,,mechanic,w5,base_links=1,Each character normally connects to one god.,yes,3
+00:31:13,00:31:45,divinity|lab,early_targets,,target,w5,divinity_level=40;lab_level=75,Aim for level forty divinity and seventy five lab on every character.,yes,3
+00:31:45,00:32:15,divinity,meditation_styles,,mechanic,w5,,Divinity level thresholds unlock new meditation styles with different point and XP generation.,yes,3
+00:31:45,00:32:15,divinity,kinesis,,mechanic,w5,points_per_hour=1;xp_per_hour=1;next_level_xp=15,Kinesis initially provides one divinity point and one XP per hour.,yes,3
+00:32:15,00:32:48,divinity,early_styles,,mechanic,w5,style_unlock_level=5;approx_points_per_hour=2;approx_xp_per_hour=2,The level five style increases point and XP generation to roughly two each per hour.,yes,2
+00:32:15,00:32:48,divinity,tranquility,,threshold,w5,unlock_level=40,Tranquility unlocks at forty and grants divinity XP while away from the altar.,yes,3
+00:32:48,00:33:18,divinity,tranquility,,setup,w5,,Use Tranquility on characters not meditating at the altar.,yes,3
+00:32:48,00:33:18,divinity,tranquility,,warning,w5,,The creator believes Tranquility does not work during active play but still recommends selecting it.,yes,2
+00:33:18,00:33:48,divinity,style_choice,,priority,w5,,Use the meditation style providing the best current value and update it as new styles unlock.,yes,3
+00:33:18,00:33:48,divinity,shared_xp_style,,mechanic,w5,xp_per_character=1;points=0;stacked_xp_per_hour=10,An XP sharing style gives one XP to every character and can stack across characters at the cost of point generation.,yes,3
+00:33:18,00:33:48,divinity,balanced_style,,mechanic,w5,points_per_hour=8;xp_per_hour=8,A later style can provide eight points and eight XP per hour.,yes,2
+00:33:48,00:34:18,divinity,early_target,,priority,w5,target_level=40,Reaching Tranquility allows ending dedicated divinity grinding when appropriate.,yes,3
+00:34:18,00:34:48,divinity,snake_god,,mechanic,w5,stated_afk_bonus=30%,The creator tentatively describes the snake god as granting accuracy and defense plus thirty percent AFK gains when linked.,yes,2
+00:34:18,00:34:48,divinity,blessings,,mechanic,w5,,Gods have linked bonuses and separate passive blessings.,yes,3
+00:35:18,00:35:49,hole|divinity,multiple_links,,priority,w5,,Rush the hole to unlock bonuses allowing multiple god effects.,yes,3
+00:35:49,00:36:21,pets|divinity,king_doot,,mechanic,w5,,King Doot makes all world five divinities count as active simultaneously.,yes,3
+00:36:21,00:36:52,pets|divinity,king_doot,,threshold,w5,required_divinity_level=2,Each character needs level two divinity for King Doot to function.,yes,3
+00:36:52,00:37:22,divinity,polytheism,elemental_sorcerer,mechanic,w5,god_links=2,Elemental Sorcerer's Polytheism talent allows two linked gods.,yes,3
+00:37:22,00:37:53,divinity,link_changes,,mechanic,w5,changes_per_week=2,The creator believes god links can be changed twice weekly.,yes,2
+00:37:22,00:37:53,divinity,blessing_upgrades,,mechanic,w5,,Spend divinity points to increase god blessings.,yes,3
+00:37:53,00:38:28,divinity,blessings,,mechanic,w5,,Blessings can grant sailing speed and skill efficiency and damage.,yes,3
+00:37:53,00:38:28,divinity,offerings,,mechanic,w5,low_chance=1%;high_example_chance=25%;high_example_cost=25,Offerings trade specified divinity points for a chance at the next god.,yes,3
+00:38:28,00:38:59,divinity,offering_rolls,,mechanic,w5,low_chances=1%|5%|10%;high_chances=25%|50%|100%,Each offering attempt rerolls available chances and a bubble can refund spent points.,yes,3
+00:38:59,00:39:30,divinity,offering_costs,,mechanic,w5,,Unlocking each successive god increases offering costs.,yes,3
+00:38:59,00:40:00,divinity,god_unlock_strategy,,priority,w5,reroll_chances=1%|5%|10%;target_chance=100%,Use cheap offerings until a guaranteed offering appears then save enough points for it.,yes,3
+00:38:59,00:40:00,divinity,god_unlock_strategy,,skip,w5,avoided_chance=25%;optional_chance=50%,Avoid twenty five percent offerings and generally prefer guaranteed progression over fifty percent gambling.,yes,3
+00:40:00,00:40:30,divinity,god_unlock_effect,,mechanic,w5,,A successful offering displays sparkles and reveals a god whose bonuses can be inspected.,yes,3
+00:40:30,00:41:01,divinity|lab,goat_god,,priority,w5,,Push toward the goat god to gain divinity and lab progress simultaneously while in lab.,yes,3
+00:41:01,00:41:32,divinity|lab,goat_god,,mechanic,w5,,With the goat linked lab occupants generate divinity XP and points according to their meditation style.,yes,3
+00:41:32,00:42:02,pets|divinity,king_doot,,mechanic,w5,required_level=2,Doot activates all god effects at level two even when those gods have not been unlocked.,yes,3
+00:41:32,00:42:02,pets|divinity,king_doot,,warning,w5,,Doot does not let players upgrade blessings for locked gods.,yes,3
+00:42:02,00:42:32,divinity,initial_priority,,priority,w5,,Prioritize divinity even if other hourly gains are temporarily sacrificed.,yes,3
+00:42:32,00:43:02,divinity,initial_assignment,,setup,w5,,Place most characters in divinity while maintaining a world pusher.,yes,3
+00:42:32,00:43:02,pets|divinity,king_doot_setup,,setup,w5,approx_days=1,With Doot the creator would initially meditate on everyone to activate its benefits before pushing.,yes,3
+00:43:02,00:43:34,divinity|lab,bear_god,,mechanic,w5,,Bear links make characters count as present in lab without earning lab XP.,yes,3
+00:43:02,00:43:34,divinity|lab,bear_god,,setup,w5,lab_kill_multiplier=2,Use bear links to maintain lab nodes such as double kills while characters farm elsewhere.,yes,3
+00:43:34,00:44:05,divinity,mantis_vs_bear,,comparison,w5,mantis_kill_multiplier=2,Choose bear when lab connectivity matters more than Mantis's double kills.,yes,3
+00:43:34,00:44:05,divinity,polytheism,elemental_sorcerer,mechanic,w5,,Polytheism's second link requires an unlocked god and also increases divinity point gains.,yes,3
+00:44:05,00:44:38,divinity,polytheism,elemental_sorcerer,how_to,w5,,Talent levels cycle through gods; adjust the level to select the desired second link.,yes,3
+00:44:05,00:44:38,divinity|upgrade_vault,polytheism,elemental_sorcerer,how_to,w5,,Stand at Omniphau or use the vault talent reduction feature to lower Polytheism's level.,yes,3
+00:44:38,00:45:10,divinity,shared_beliefs,elemental_sorcerer,priority,w5,xp_bonus=43%;resulting_xp_per_hour=2,Prioritize Shared Beliefs for multiplicative divinity XP because few bonuses affect the skill.,yes,3
+00:45:10,00:45:40,divinity,shared_beliefs,elemental_sorcerer,setup,w5,,Invest spare talent points in Shared Beliefs while meditating or doing tasks that do not need combat stats.,yes,3
+00:45:10,00:45:40,divinity,god_ranks,,mechanic,w5,,God ranks unlock after all gods are obtained and can scale account damage through a talent.,yes,3
+00:45:40,00:46:12,divinity,god_ranks,,mechanic,w5,,God ranks use a similar offering system and increase divinity XP as ranks rise.,yes,3
+00:45:40,00:46:12,general,elite_skill_bonuses,,comparison,w5,,World five skills depend less on elite class talents than earlier world skills.,yes,3
+00:46:12,00:46:42,divinity,generation,,account_note,w5,total_points_per_hour=11;xp_per_hour=2,The account generates eleven divinity points per hour with two XP per character from Shared Beliefs.,yes,3
+00:46:42,00:47:12,divinity,shared_beliefs,,comparison,w5,original_wait_hours=15;new_wait_hours=7.5,The improved XP rate halves the initial level wait from fifteen hours to seven and a half.,yes,3
+00:46:42,00:47:12,divinity|lab,active_play,,warning,w5,,Divinity and lab do not generate XP while actively sitting on the character.,yes,3
+00:46:42,00:47:12,sailing|gaming,active_play,,comparison,w5,,Active waiting does not speed sailing; gaming is the main actively operated world five skill.,yes,3
+00:47:12,00:48:13,slab,collection,,mechanic,w5,,Slab records every unique collected item including equipment and recipes and stamps and dungeon items and event items.,yes,3
+00:48:13,00:48:43,slab,bonuses,,mechanic,w5,,Slab collection later powers account wide bonuses such as damage and sailing speed and gaming bits.,yes,3
+00:48:13,00:48:43,slab,hunter_comparison,hunter,comparison,w5,,Slab resembles Hunter's collected item damage scaling but supports account wide effects.,yes,3
+00:48:43,00:49:15,slab|bubbles,bonus_thresholds,,mechanic,w5,illustrative_threshold=500,Some slab bonuses scale above item thresholds and alchemy also interacts with slab.,yes,2
+00:49:15,00:49:45,slab,missable_items,,warning,any,,Some slab entries are event limited or depend on specific quest states.,yes,3
+00:49:15,00:49:45,slab,precrime_box,,how_to,any,,The creator tentatively says Precrime Box requires level up gift farming before a particular Goldric quest.,yes,1
+00:49:45,00:50:15,slab|dungeons,dungeon_items,,priority,any,,Progress party dungeons to collect their equipment and weapon entries for slab.,yes,3
+00:50:15,00:50:47,general,catchup_changes,,meta_change,any,,New world releases reduce difficulty in previous worlds.,yes,3
+00:50:47,00:51:17,general,world_push_comparison,,comparison,w5,,World five to six can take less effort than world four to five depending on RNG.,yes,3
+00:51:17,00:51:47,general,world_push_comparison,,mechanic,w5,,World five pushing benefits from stronger random unlocks and no repeated elite class unlock detours.,yes,3
+00:51:47,00:52:17,divinity,mantis,,priority,w5,,Try to unlock Mantis before the main world five push.,yes,3
+00:51:47,00:52:17,general,time_candy_push,,priority,w5,target_world=6,Spend most available candy pushing through world five toward world six.,yes,3
+00:51:47,00:52:17,general,world_six_bonuses,,mechanic,w6,,World six provides major damage multipliers and multikill and refinery progress and library levels and accuracy and defense.,yes,3
+00:52:47,00:53:18,general,main_account_playtime,,account_note,endgame,years=4;hours_over=25000,The creator has played consistently for four years and over twenty five thousand hours.,yes,3
+00:53:18,00:53:48,general,nothing_trophy,,account_note,endgame,,The creator assigns all main account characters to farming nothing while taking a break from intensive play.,yes,3
+00:53:48,00:54:19,general,update_cycles,,warning,endgame,,Expect fewer interim updates while the solo developer focuses on a new world.,yes,3
+00:54:50,00:55:20,pets,companion_targets,,priority,any,,Prioritize Doot and Rift Slug and Ram; Crystal Custard is desirable but secondary.,yes,3
+00:55:20,00:55:20,pets,ram,,priority,any,,Ram's remote storage provides a major quality of life improvement.,yes,3
+00:55:20,00:55:20,pets,sheepie,,account_note,w5,all_skill_xp=20%,The free roll gives a companion described as providing twenty percent all skill XP.,yes,2
