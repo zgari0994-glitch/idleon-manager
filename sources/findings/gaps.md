@@ -33,5 +33,6 @@ Loop: card run-through (1 by 1, dailies + tasks) -> Zack says what is wrong / un
 | 25 | 2026-11-17 | Account / Prints | Spore Cap prints: Zack thinks Maestro + speedruns (Autistotle); confirm from transcripts | open |
 | 26 | 2026-11-17 | Autistastic / Islands | Which islands benefit from drop rate (Tastic owns islands) | open |
 | 27 | 2026-11-17 | All / Legend Talents | Held until transcripts reviewed; Blue Ribbon was an AutoReview target, not Griffy-certified | open |
+| 28 | 2026-11-17 | Autistastic / World bosses | Other world bosses ("hourglass guy", "king dude"): when they're runnable and planning for them. Toolbox dashboard tracks only Dr Defecaus (daily reset) + Baba Yaga (22h20m respawn) | open |
 
 ## Done
