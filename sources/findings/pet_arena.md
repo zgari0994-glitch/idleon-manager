@@ -4,3 +4,7 @@ Sources are 2022 (pre-W7): flag as possibly outdated.
 - Griffy 0giiOpSlL8A (2022-07-28) round 200: Rattler + Borger must be juiced (15-20K+ each), rest matters less; spam everything except Borger + Defender early to build Whale (Badumdum) stacks; drop Looter use if it rolls Alchemic. Pet damage %: Croissant meal, Condensed Zap (stilt seekers) for Electric lights.
 - Griffy (2026-01-15 gPQrOK53BDI 00:52): main damage dealer in the back, Looter right behind it, auto-use abilities except the tank.
 - Zack's best stored pets (11/17 save, power): Refiller = Walking Stick 391.7K; Looter = Mamooth 346.5K; Rattler = TV 315.7K; Borger = Stilted Seeker 270.2K; Badumdum = Whale 219.6K; Defender = Mimic 273.4K.
+
+## Dream #21: round 115 with 4 pets or less (Equinox, unlocks next Equinox upgrade)
+- Team left to right (gameslikefinder, fan source): Looter, Peapeapod, Refiller, Borger. Aim ~50K pet power.
+- Zack's picks: Mamooth (Looter 346.5K), Hedgehog (Peapeapod 472.5K), Walking Stick (Refiller 391.7K), Stilted Seeker (Borger 270.2K).
