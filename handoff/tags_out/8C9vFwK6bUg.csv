@@ -1,0 +1,197 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,pets,companion accessibility,,meta_change,any,,Recent event tokens and player trading make companion bonuses more accessible.,yes,3
+00:00:00,00:00:30,pets,ranking method,,account_note,any,,The ranking emphasizes bonuses and accessibility and quality of life rather than price.,yes,3
+00:00:30,00:00:30,pets,companion count,,mechanic,any,companions=80,Eighty pets exist excluding championship pets.,yes,3
+00:00:30,00:01:01,pets|divinity,King Doot,,threshold,any,minimum_divinity_level=2,Each character needs at least level-two Divinity to activate Doot's bonuses.,yes,3
+00:00:30,00:01:01,pets|divinity,King Doot,,mechanic,w5,,Doot activates all gods even those not yet unlocked when entering World 5.,yes,3
+00:01:01,00:01:32,pets,King Doot ranking,,opinion,any,tier=S,Doot remains S tier for early-to-late-game power and convenience but is no longer the strongest pet and declines at endgame.,yes,3
+00:01:32,00:02:02,pets|talent_points,Rift Slug,,mechanic,any,bonus_levels=25;minimum_allocated_points=1;example_resulting_level=26,Rift Slug adds twenty-five levels to talents with at least one invested point rather than granting spendable talent points.,yes,3
+00:01:32,00:02:02,pets,Rift Slug ranking,,opinion,any,tier=A,Rift Slug is excellent early and deserves A tier but its twenty-five levels no longer justify S.,yes,3
+00:02:02,00:02:33,pets|storage,Dedotated Ram,,mechanic,any,,Ram enables storage from anywhere through Quick Ref.,yes,3
+00:02:02,00:02:33,pets,Dedotated Ram,,comparison,any,,Ram is easy to obtain and free-to-play friendly with major convenience but Piggy is better.,yes,3
+00:02:33,00:03:04,pets|drop_rate|class_exp,Crystal Custard,,mechanic,any,drop_rate_percent=100;class_xp_percent=100,Crystal Custard gives 100% drop rate and class XP which he believes are additive.,yes,3
+00:02:33,00:03:04,pets,Crystal Custard scaling,,comparison,any,,Crystal Custard helps early but falls off when drop rate reaches thousands or hundreds of thousands.,yes,3
+00:03:04,00:03:35,pets|bubbles,Sheepie,,mechanic,any,,Sheepie passively equips all big alchemy bubbles.,yes,3
+00:03:04,00:03:35,pets,Sheepie benefits,,priority,any,,Sheepie supports gems and samples plus sailing and gaming procs and multikill without manual bubble swaps.,yes,3
+00:03:35,00:03:35,pets,Sheepie versus Doot,,comparison,any,doot_divinity_level=2,Doot becomes powerful at level-two Divinity while Sheepie needs developed big bubbles to become comparably potent.,yes,3
+00:03:35,00:04:06,pets,Sheepie ranking,,opinion,any,tier=S,Sheepie deserves S tier for power and convenience and is easy to obtain.,yes,3
+00:03:35,00:04:06,pets,Mutated Mush,,mechanic,any,all_skill_efficiency_percent=5,Mutated Mush grants 5% all-skill efficiency.,yes,3
+00:04:06,00:04:06,pets,Mutated Mush ranking,,opinion,any,tier=D,After initially considering C he creates D tier and places Mutated Mush there.,yes,3
+00:04:06,00:04:36,pets,Bored Bean,,mechanic,any,fighting_and_skill_afk_percent=5,Bored Bean grants 5% AFK gains for combat and skills.,yes,3
+00:04:36,00:04:36,pets,Bored Bean ranking,,opinion,any,tier=D,Bored Bean's 5% helps early but falls off quickly so he ranks it D despite joking about F.,yes,3
+00:04:36,00:05:07,pets|arcade,Slime,,mechanic,any,golden_ball_gain_percent=25,Slime increases arcade golden-ball earnings by 25%.,yes,3
+00:05:07,00:05:07,pets,Slime ranking,,opinion,any,tier=C,Slime deserves C because capped arcade-ball acquisition makes golden-ball bonuses useful even though progression remains slow.,yes,3
+00:05:07,00:05:38,pets,Sandy Pot,,mechanic,any,base_all_stats=15,Sandy Pot grants fifteen base all stats which scale with all-stat percentage.,yes,3
+00:05:38,00:05:38,pets,Sandy Pot scaling,,comparison,late,comparison_efficiency_percent=5,Sandy Pot's base stats can outscale weaker pets and may provide more efficiency than Mutated Mush's 5% later.,yes,3
+00:05:38,00:06:09,pets,Bloque,,mechanic,any,additive_skill_xp_percent=20,Bloque grants 20% additive all-skill XP.,yes,3
+00:06:09,00:06:09,pets,Bloque ranking,,opinion,any,tier=F,Bloque is F tier because a small skill-XP bonus has little impact even early.,yes,3
+00:06:09,00:06:40,pets,Frog,,mechanic,any,additive_damage_percent=10,Frog supplies 10% additive total damage.,yes,3
+00:06:09,00:06:40,pets,Frog ranking,,opinion,any,proposed_tier=C_or_top_D,He considers Frog around C or upper D while noting Sandy Pot's base stats eventually scale better.,yes,3
+00:06:09,00:06:40,pets,legacy menu,,how_to,any,,Use the top-left eye button to switch to the legacy companion pool.,yes,3
+00:06:40,00:06:40,pets,legacy priorities,,priority,any,priority_pet_count=3-4,Roll legacy pets first targeting Sheepie and Ram and Rift Slug plus Doot if possible.,yes,3
+00:06:40,00:07:10,pets|damage,Ancient Golem,,mechanic,any,damage_multiplier=10,Ancient Golem gives a true ten-times damage multiplier on top of other bonuses.,yes,3
+00:06:40,00:07:10,pets,Ancient Golem ranking,,opinion,any,,He rejects A tier as too low for Ancient Golem's true damage multiplier.,yes,3
+00:07:10,00:07:40,damage,bonus buckets,,mechanic,any,,Multipliers within one bucket add together while a final separate true-multiplier bucket multiplies preceding buckets.,yes,3
+00:07:40,00:08:11,pets,Ancient Golem test,,account_note,any,reference_damage=17.5trillion;mentioned_test_cost_green_gems=4000,He tests Ancient Golem using a 17.5-trillion damage reference and concludes it is a true multiplier.,yes,3
+00:07:40,00:08:11,drop_rate,true multipliers,,priority,any,,True multipliers are especially valuable for drop rate as well as damage.,yes,3
+00:07:40,00:08:11,pets|hole,Samurai Guardian,,mechanic,any,villager_xp_multiplier=3;opals=25,Samurai Guardian grants three-times villager XP and twenty-five opals.,yes,3
+00:08:11,00:08:42,pets,Samurai Guardian value,,comparison,any,,The bonus helps unlock hole progression through conjuror and study rate and engineer schematics especially on younger accounts.,yes,3
+00:08:42,00:08:42,pets,Samurai Guardian ranking,,opinion,any,tier=B,He lowers Samurai Guardian from possible strong A to B because its impact falls off later.,yes,3
+00:08:42,00:09:12,pets|death_note,Rift Joc,,mechanic,any,kill_multiplier=2,Rift Joc doubles kills credited toward portals and Death Note.,yes,3
+00:08:42,00:09:42,pets,Rift Joc ranking,,opinion,any,tier=top_A,Rift Joc belongs near the top of A for new-world pushing and speedruns plus Death Note and green mushroom farming.,yes,3
+00:09:12,00:09:42,lab|money,Fungi Finger Pocketer,,mechanic,any,gmush_kill_interval=1000000;cash_percent=3.5,With the lab jewel Fungi Finger Pocketer grants 3.5% cash per million green mushroom kills.,yes,3
+00:09:42,00:09:42,pets|equinox,Leek Spirit,,mechanic,any,fill_rate_multiplier=3.5,Leek Spirit multiplies Equinox bar fill rate by 3.5.,yes,3
+00:09:42,00:10:12,pets,Leek Spirit ranking,,opinion,any,tier=top_B,He ranks Leek Spirit above Samurai Guardian near the top of B.,yes,3
+00:09:42,00:10:12,pets|lab|divinity,Crystal Capybara,,mechanic,any,lab_xp_multiplier=1.75;divinity_xp_multiplier=1.75,Crystal Capybara grants 1.75-times lab and divinity XP.,yes,3
+00:10:12,00:10:12,pets,Crystal Capybara scaling,,comparison,any,,Crystal Capybara is particularly helpful early and remains useful for pushing later skill levels.,yes,3
+00:10:12,00:10:43,pets|printer,Big Mole,,mechanic,any,daily_sample_growth_percent=1;growth_days=100;maximum_growth_percent=100,Big Mole grows printer samples one percent daily for one hundred days up to one hundred percent growth.,yes,3
+00:10:12,00:10:43,pets,Big Mole ranking,,opinion,any,tier=top_B,He ranks Big Mole below Ram and Rift Slug around upper B.,yes,3
+00:10:43,00:11:13,pets,Big Mole time gate,,warning,early,peak_days=100;approximate_months=3,Big Mole takes about three months to peak so an early account may leave early game before fully benefiting.,yes,3
+00:10:43,00:11:13,pets,Gigafrog,,mechanic,any,carry_capacity_percent=25,Gigafrog grants 25% carry capacity for every item type.,yes,3
+00:10:43,00:11:43,pets,Gigafrog ranking,,opinion,any,tier=A,Carry capacity deserves A because larger golden-food stacks increase drop rate and AFK gains plus stats and damage.,yes,3
+00:11:13,00:11:43,pets|ballot,Mashed Potato,,mechanic,any,ballot_bonus_percent=5;ballot_world=2,Mashed Potato adds 5% to the World 2 Ballot bonus multiplier.,yes,3
+00:11:43,00:11:43,pets,Mashed Potato ranking,,opinion,any,tier=D,He settles on D because the small bonus still improves divinity-point weeks.,yes,3
+00:11:43,00:12:14,pets|talent_points,Flying Worm,,mechanic,any,talent_points=30,Flying Worm grants thirty talent points for classes.,yes,3
+00:12:14,00:12:14,pets,Flying Worm restriction,,mechanic,any,,Flying Worm's points do not apply to masterclass talents.,yes,3
+00:11:43,00:12:14,pets,Flying Worm ranking,,opinion,any,tier=F,Flying Worm is F tier; ordinary character leveling supplies points and the masterclass exception removes its proposed niche.,yes,3
+00:12:14,00:12:14,pets,Poisonic Frog,,mechanic,any,defense_percent=15,Poisonic Frog supplies 15% defense.,yes,3
+00:12:14,00:12:14,pets,Poisonic Frog value,,comparison,any,,Enough FMJ makes the small Poisonic Frog defense bonus negligible.,yes,3
+00:12:14,00:12:44,pets,Quenchie,,mechanic,any,drop_rate_percent=15,Quenchie grants 15% drop rate which he considers small despite valuing drop rate.,yes,3
+00:12:44,00:13:14,pets,Green Mushroom,,mechanic,any,accuracy_percent=15,Green Mushroom supplies 15% accuracy.,yes,3
+00:12:44,00:13:14,pets,Green Mushroom ranking,,opinion,any,tier=F,Green Mushroom belongs in F because normal progression solves accuracy.,yes,3
+00:13:14,00:13:44,pets|legend_talents,Walamus,,mechanic,any,class_xp_multiplier=10;legend_talent_points=10,Walamus provides ten-times class XP and ten legend talent points.,yes,3
+00:13:14,00:13:44,legend_talents,points,,mechanic,w7,,In World 7 character level thresholds award legend points for strong bonuses.,yes,3
+00:13:14,00:13:44,pets,Walamus ranking,,opinion,any,,He retracts an initial S ranking because Walamus supplies a strong head start rather than overwhelming lasting power.,yes,3
+00:13:44,00:14:14,pets|money|masterclass,Balloonfish,,mechanic,any,coin_multiplier=4;masterclass_drop_multiplier=4,Balloonfish quadruples monster coins and masterclass drops.,yes,3
+00:13:44,00:14:14,pets,Balloonfish value,,priority,any,,Balloonfish greatly accelerates time-gated masterclass benefits such as Prisma bubbles and exalted stamps.,yes,3
+00:14:14,00:14:14,pets,Balloonfish future value,,opinion,any,,Balloonfish could become stronger if future masterclasses add more drops.,yes,3
+00:14:14,00:14:44,pets|merits,Pufferblob,,mechanic,any,meritocracy_bonus_percent=50,Pufferblob adds 50% Meritocracy bonus multiplier.,yes,3
+00:14:14,00:14:44,pets,Pufferblob ranking,,opinion,any,tier=strong_A,Pufferblob is strong A but below Poppy's different level of power.,yes,3
+00:14:14,00:14:44,merits,weekly planning,,priority,w7,,Once sufficiently progressed in World 7 Meritocracy largely determines the week's activity priorities.,yes,3
+00:14:44,00:15:15,pets|coral_reef,Shell Slug,,mechanic,any,daily_coral_multiplier=1.75,Shell Slug grants 1.75-times daily reef coral.,yes,3
+00:14:44,00:15:15,pets,Shell Slug account context,,account_note,any,owned_since_day=3,He has owned Shell Slug since about day three and has abundant coral.,yes,3
+00:15:15,00:15:45,pets,Shell Slug ranking,,opinion,any,tier=top_C_or_low_B,Shell Slug ranks around upper C or lower B because there are not enough essential coral purchases.,yes,3
+00:15:15,00:15:45,pets|ballot,Crystal Cuttlefish,,mechanic,any,ballot_bonus_percent=40;ballot_world=2,Crystal Cuttlefish adds 40% World 2 Ballot bonus multiplier.,yes,3
+00:15:45,00:16:16,pets,Crystal Cuttlefish ranking,,opinion,any,tier=B,He settles on B because Ballot has powerful weeks but also weak additive-XP weeks.,yes,3
+00:15:45,00:16:16,ballot,weekly bonuses,,comparison,any,,Kills-per-kill and divinity weeks are strong while additive XP weeks are weak.,yes,3
+00:16:16,00:16:46,ballot|merits,endgame routine,,mechanic,endgame,,Endgame weekly priorities usually depend on a combination of Ballot and Meritocracy.,yes,3
+00:16:16,00:16:46,pets,ranking principle,,opinion,any,,A pet's potency should not be judged solely by players voting poorly.,yes,3
+00:16:16,00:16:46,pets|gallery,Easy Earl,,mechanic,any,grade_increase=1;showcases=2,Easy Earl adds one grade to two gallery showcases.,yes,2
+00:16:46,00:17:18,pets,Easy Earl ranking,,opinion,any,tier_without_slots=C;tier_with_slots=bottom_D;personal_tier=F,Easy Earl can help without all gallery slots but becomes weak or useless once those slots are purchased.,yes,3
+00:16:46,00:17:18,pets|sailing,Litterfish,,mechanic,any,artifact_find_multiplier=1.25,Litterfish grants 1.25-times artifact find chance.,yes,3
+00:17:18,00:17:49,pets,Litterfish value,,opinion,any,,Litterfish is a nice incidental bonus but not crucial because sailing favors quantity over quality.,yes,3
+00:17:18,00:17:49,pets|friends,Spearfish,,mechanic,any,additional_friend_slots=1,Spearfish adds one friend-bonus slot.,yes,3
+00:17:49,00:18:20,friends,early bonuses,,comparison,early,example_account_level=>18000,High-level friends can grant enough damage and efficiency for beginners to one-shot World 1 and 2 monsters.,yes,3
+00:17:18,00:17:49,friends,bonus quality,,comparison,any,,Some friend bonuses are weak additive XP while others are useful especially early.,yes,3
+00:17:49,00:18:20,pets|money,Equinox Broadbass,,mechanic,any,monster_coin_multiplier=1.5,Equinox Broadbass multiplies monster coins by 1.5.,yes,3
+00:18:20,00:18:51,pets,Equinox Broadbass ranking,,opinion,any,tier=top_B,He revises Broadbass from A to upper B because stronger coin-multiplier pets exist.,yes,3
+00:18:20,00:18:51,money|upgrade_vault,coin value,,priority,any,,Money remains useful for vault and other expensive upgrades and coin multipliers combine strongly with green mushroom bonuses.,yes,3
+00:18:20,00:18:51,pets|cauldrons_liquids,Mafioso,,mechanic,any,brew_speed_percent=15,Mafioso grants 15% alchemy brew speed.,yes,3
+00:18:51,00:18:51,pets,Mafioso ranking,,opinion,any,tier=F,Mafioso's small brew-speed bonus is F tier.,yes,3
+00:18:51,00:19:23,pets|class_exp,Baby Boa,,mechanic,any,additive_class_xp_percent=10,Baby Boa grants 10% additive class XP.,yes,3
+00:18:51,00:19:23,pets,Baby Boa ranking,,opinion,any,,He considers Baby Boa worse than Mafioso and poor value.,yes,3
+00:18:51,00:19:23,characters,Ramsay premium hat,,account_note,any,price_dollars=20;additive_xp_percent=11,He recalls buying a twenty-dollar Ramsay premium hat for 11% additive XP.,yes,3
+00:19:23,00:19:53,pets,Purple Mushroom,,mechanic,any,golden_food_bonus_percent=5,Purple Mushroom grants 5% golden-food bonus which he considers negligible.,yes,3
+00:19:53,00:20:25,pets|money,Cool,,mechanic,any,monster_coin_multiplier=4,Cool quadruples monster coins versus Broadbass's 1.5-times bonus.,yes,3
+00:19:53,00:20:25,pets,Cool ranking,,opinion,any,tier=high_A,He ranks Cool high A near Walamus because money is important.,yes,3
+00:19:53,00:20:25,pets,Axolotl,,mechanic,any,additive_afk_gains_percent=50,Axolotl supplies 50% additive AFK gains.,yes,3
+00:20:25,00:20:57,pets,Axolotl ranking,,opinion,any,tier=low_B,Axolotl belongs around lower B rather than S though its AFK bonus benefits from the golden-food AFK multiplier.,yes,3
+00:20:25,00:20:57,pets|drop_rate,Mallard,,mechanic,any,drop_rate_multiplier=1.3,Mallard grants 1.3-times drop rate which he considers extremely strong.,yes,3
+00:20:57,00:21:29,pets|arcade,Spirit Reindeer,,mechanic,any,shop_bonus_multiplier=2,Spirit Reindeer doubles gold-ball shop bonuses.,yes,3
+00:20:57,00:21:29,pets,Spirit Reindeer account context,,account_note,endgame,,His arcade upgrades are all maxed and cosmic making Reindeer especially powerful for him.,yes,3
+00:21:29,00:22:00,pets,Spirit Reindeer ranking,,opinion,any,tier=bottom_S,He chooses lower S because Reindeer covers many bonuses but needs substantial arcade investment.,yes,3
+00:22:00,00:22:00,pets|arcade,Spirit Reindeer burger,,mechanic,any,,Reindeer supports what he calls the game's highest burger percentage.,yes,2
+00:22:00,00:22:31,pets,Spirit Reindeer timing,,priority,late,,Obtain Spirit Reindeer only with a strong arcade shop; it is poor value early and good later.,yes,3
+00:22:00,00:22:31,pets|gallery,Riptide,,mechanic,w7,world7_skill_afk_percent=30;world_class_slots=1,Riptide grants 30% World 7 skill AFK gains and one world-class gallery showcase slot.,yes,3
+00:22:31,00:23:01,gallery,world-class trophies,,setup,w7,maximum_world_class_showcases=3;world_trophy=6,Use world-class showcases for the World 6 trophy and Luckiest Lad and Darter trophies.,yes,3
+00:22:31,00:23:01,gallery,trophy bonuses,,mechanic,w7,,These trophies supply large account bonuses including AFK and damage and drop-rate multipliers plus drop-rate percentage.,yes,2
+00:23:01,00:23:32,pets,Riptide ranking,,opinion,w7,tier=S;practical_tier=Aplus,He leaves Riptide in S but considers it closer to A-plus if the other showcases are already owned.,yes,3
+00:23:32,00:24:03,pets|death_note,Squirrel,,mechanic,any,kill_multiplier=1.5,Squirrel multiplies portal and Death Note kill credit by 1.5.,yes,3
+00:23:32,00:24:03,pets,Squirrel ranking,,opinion,any,,He places Squirrel near Rift Joc and rejects B as too low despite its weaker multiplier.,yes,3
+00:24:03,00:24:33,pets|friends|storage,Piggy,,mechanic,any,friend_bonus_multiplier=2;extra_friend_slots=2,Piggy doubles friend bonuses and adds two slots plus auto-loot and Quick Ref storage and infinite teleports.,yes,3
+00:24:03,00:24:33,pets,Piggy token,,priority,any,,He strongly recommends tokening tradable Piggy for fully free-to-play players.,yes,3
+00:24:33,00:25:05,pets,Piggy convenience,,comparison,any,,Piggy removes the need to buy storage or roll Ram and provides valuable infinite teleporting and auto-loot.,yes,3
+00:24:33,00:25:05,pets,Piggy sufficiency,,opinion,any,,He believes the whole game can be played free-to-play with Piggy alone and no further pet purchases.,yes,3
+00:25:05,00:25:35,pets,Piggy ranking,,opinion,any,tier=top_S,Piggy is top S for the general player base especially new players avoiding spending.,yes,3
+00:25:35,00:26:06,pets|hat_rack,Wild Boar,,mechanic,any,hat_rack_bonus_percent=15,Wild Boar adds 15% Hat Rack bonus multiplier.,yes,3
+00:25:35,00:26:06,pets,Wild Boar ranking,,opinion,any,tier=top_C,He ranks Wild Boar around upper C because its value depends heavily on owning older limited hats.,yes,3
+00:26:06,00:26:06,hat_rack,Diamond Horns,,account_note,any,,He bought Diamond Horns and found the bonus disappointing.,yes,3
+00:26:06,00:26:36,pets|class_exp,Whale,,mechanic,any,class_xp_multiplier=2;all_skill_xp_multiplier=2,Whale doubles class XP and all-skill XP.,yes,3
+00:26:06,00:26:36,pets,Whale ranking,,opinion,any,tier=B,Whale belongs in B because the multipliers are useful but modest.,yes,3
+00:26:06,00:26:36,pets|damage|class_exp,Chippy,,mechanic,any,damage_multiplier=2;class_xp_multiplier=2,Chippy doubles total damage and class XP.,yes,3
+00:26:36,00:26:36,pets,Chippy ranking,,opinion,any,,He refuses to put Chippy as low as the discussed C-tier pets.,yes,3
+00:26:36,00:27:08,pets|class_exp,Bunny,,mechanic,any,class_xp_multiplier=3,Bunny triples class XP.,yes,3
+00:26:36,00:27:08,pets,Bunny ranking,,opinion,any,,He ranks Bunny above C and thinks viewers underestimate class-XP multipliers.,yes,3
+00:27:08,00:27:08,general,paid stat bonuses,,opinion,any,,Paid damage and drop rate and class XP are so common that players underestimate how much power comes from purchases.,yes,3
+00:27:08,00:27:38,pets|refinery,Panda,,mechanic,any,salt_multiplier=2,Panda doubles salts produced by refinery.,yes,3
+00:27:08,00:27:38,pets,Panda value,,priority,early,,Panda helps one of the largest early time gates especially Nullo salts.,yes,3
+00:27:38,00:28:09,refinery,salt requirements,,mechanic,any,vial_level=13,Salts are needed for level-thirteen vials and traps plus gear and tools so double production eases many progression gates.,yes,3
+00:27:38,00:28:09,pets|arcade,Hedgehog,,mechanic,any,golden_ball_gain_percent=200,Hedgehog grants 200% golden-ball gains.,yes,3
+00:28:09,00:28:09,pets,Hedgehog ranking,,opinion,any,tier=B;slime_tier=C,Hedgehog belongs in B if Slime is C.,yes,3
+00:28:09,00:28:40,pets|gallery,Bubba the Seal,,mechanic,w7,gallery_multiplier_percent=30,Bubba the Seal adds 30% gallery multiplier.,yes,3
+00:28:40,00:29:11,pets,Bubba the Seal comparison,,comparison,w7,trophies=3;bonus_percent=30,After clarifying it affects trophies he considers boosting all three by 30% better than improving one showcase via Riptide.,yes,3
+00:28:40,00:29:11,pets|class_exp|drop_rate,Santa Snake,,mechanic,any,additive_class_xp_percent=25;additive_drop_rate_percent=25;class_xp_multiplier=1.1;drop_rate_multiplier=1.01,Santa Snake combines additive class XP and drop rate with 1.1-times class XP and 1.01-times drop rate.,yes,3
+00:29:11,00:29:42,pets,Santa Snake ranking,,opinion,any,tier=low_C,Santa Snake ranks low C and scales better than Crystal Custard because it includes multipliers.,yes,3
+00:29:11,00:29:42,pets|owl|kangaroo|bubba,Santa's Little Helper,,mechanic,any,clicker_bonus_multiplier=3,Santa's Little Helper triples Orion and Poppy and Bubba bonuses and applies to future clickers.,yes,3
+00:29:42,00:29:42,pets,Santa's Little Helper ranking,,opinion,any,,He rejects low rankings for Santa's Little Helper and places it around below Panda while urging players to develop clickers.,yes,3
+00:29:42,00:30:12,pets|research,Jellyfish,,mechanic,any,research_xp_multiplier=1.5,Jellyfish grants 1.5-times research XP.,yes,3
+00:29:42,00:30:12,pets,Jellyfish ranking,,opinion,w7,tier=A,Jellyfish deserves A because research gates many World 7 unlocks and should be pushed aggressively.,yes,3
+00:30:12,00:30:42,pets|gaming,Koifish,,mechanic,any,gaming_bits_multiplier=100,Koifish multiplies gaming bits by one hundred and speeds progress.,yes,3
+00:30:12,00:30:42,pets,Koifish late-game perception,,opinion,endgame,discussed_snail_level=48-49,He discounts a near-max-Snail player's low assessment because that account already has unusually many bits.,yes,3
+00:30:42,00:31:15,pets|research,Neon Scale,,mechanic,any,new_shapes=1;research_level=20,Neon Scale adds one research shape after research level twenty.,yes,3
+00:30:42,00:31:15,pets,Neon Scale value,,mechanic,any,,Because shapes appear in sequence the additional shape helps progress toward stronger shapes and bonuses.,yes,3
+00:31:15,00:31:46,pets|research,Pirate Deckhand,,mechanic,any,research_grid_multiplier=1.15,Pirate Deckhand multiplies every research-grid bonus by 1.15.,yes,3
+00:31:15,00:31:46,pets,Pirate Deckhand ranking,,opinion,any,tier=A_or_S,He considers Pirate Deckhand at least A and a possible S gatekeeper including its palette-luck benefit.,yes,3
+00:31:15,00:31:46,pets|glimbo,Dreadnought Captain,,mechanic,any,cost_divisor=5,Dreadnought Captain makes Glimbo swap-meet prices five times cheaper.,yes,3
+00:31:46,00:31:46,pets,Dreadnought Captain value,,opinion,w7,,A five-times Glimbo cost reduction is extremely strong.,yes,3
+00:31:46,00:32:16,pets|class_exp,Baby Troll,,mechanic,any,additive_class_xp_percent=100;class_xp_multiplier=1.5,Baby Troll grants 100% additive class XP and 1.5-times class XP.,yes,3
+00:31:46,00:32:16,pets|drop_rate,Mama Troll,,mechanic,any,additive_drop_rate_percent=100;drop_rate_multiplier=1.5,Mama Troll grants 100% additive drop rate and a 1.5-times multiplier making it better than Mallard.,yes,3
+00:31:46,00:32:16,pets|spelunking|minehead,Boomy Mine,,mechanic,any,spelunking_power_multiplier=20;minehead_currency_multiplier=2,Boomy Mine gives twenty-times spelunking power and double Minehead currency.,yes,3
+00:32:16,00:32:47,pets,Boomy Mine ranking,,opinion,any,,He lowers Boomy Mine below Deckhand because spelunking power becomes redundant and Minehead remains heavily time-gated.,yes,3
+00:32:16,00:32:47,pets|death_note|sailing,Glimbo,,mechanic,any,kill_multiplier=1.6;artifact_find_multiplier=2,Glimbo grants 1.6-times kills and doubles sailing artifact find chance.,yes,3
+00:32:47,00:33:17,pets,Glimbo ranking,,opinion,any,,He raises the kill-multiplier pets because the extra kills remain valuable alongside sailing benefits.,yes,2
+00:32:47,00:33:17,pets,Vanilla,,mechanic,any,additive_golden_food_percent=2500,Vanilla supplies 2500% additive golden-food bonus.,yes,3
+00:32:47,00:33:17,pets,Vanilla ranking,,opinion,any,tier=top_C,He places Vanilla at the top of C.,yes,3
+00:32:47,00:33:17,pets,Valentine Slime,,mechanic,any,total_damage_percent=15;frog_damage_percent=10,Valentine Slime grants 15% total damage or five percentage points more than Frog.,yes,3
+00:33:17,00:33:47,pets|upgrade_vault,Crystnake,,mechanic,any,vault_cost_reduction_percent=50,Crystnake makes all vault upgrades fifty percent cheaper.,yes,2
+00:33:17,00:33:47,pets,Crystnake ranking,,opinion,any,tier=bottom_A,He places Crystnake near bottom A because Glimbo makes vault cost reductions increasingly valuable.,yes,2
+00:33:17,00:33:47,pets|construction,Mechanical Mouse,,mechanic,any,build_speed_multiplier=2,Mechanical Mouse doubles construction build speed as a true multiplier.,yes,3
+00:33:47,00:34:18,pets,Mechanical Mouse ranking,,opinion,any,,He places Mechanical Mouse above the carry-capacity pet because its construction multiplier is strong.,yes,3
+00:33:47,00:34:18,construction,endgame progression,,warning,endgame,example_tower_level=100,Construction does not end at level-one-hundred towers; even dedicated endgame players remain unfinished.,yes,3
+00:33:47,00:34:18,pets,unidentified XP and drop pet,,mechanic,any,class_xp_percent=100;drop_rate_percent=100,An unnamed pet is described as granting 100% class XP and drop rate.,yes,1
+00:34:18,00:34:18,pets|class_exp,Egg Roll,,mechanic,any,class_xp_multiplier=3,Egg Roll triples class XP and is ranked next to Bunny.,yes,3
+00:34:18,00:34:18,pets,Lucky Slug,,mechanic,any,drop_rate_percent=15,Lucky Slug grants the same 15% drop rate as Quenchie.,yes,3
+00:34:18,00:34:49,pets,Lucky Slug ranking,,opinion,any,tier=D,He places Lucky Slug higher within D largely for appearance despite the identical bonus.,yes,3
+00:34:18,00:34:49,pets|money,Hot Luck,,mechanic,any,monster_coin_multiplier=2.5,Hot Luck multiplies monster coins by 2.5 and ranks near upper B.,yes,2
+00:34:18,00:34:49,pets|the_button,Manta Ray,,mechanic,w7,button_bonus_multiplier=1.5,Manta Ray multiplies all Button bonuses by 1.5.,yes,3
+00:34:49,00:35:21,the_button,bonus coverage,,mechanic,w7,,Button bonuses include XP and artifacts plus cooking and Minehead and masterclass resources and crop evolution and sushi and spelunking.,yes,3
+00:34:49,00:35:21,pets|cooking,Wickerlight Spirit,,mechanic,any,meal_cost_divisor=5;meal_bonus_multiplier=1.25,Wickerlight Spirit makes meals five times cheaper to level and multiplies their bonuses by 1.25.,yes,3
+00:35:21,00:35:21,drop_rate,golden cakes,,priority,any,,Golden cakes are among the largest sources of drop-rate improvement.,yes,3
+00:35:21,00:35:51,pets|cooking,Rift Spooker,,mechanic,any,cooking_mastery_xp_multiplier=3;cooking_mastery_points=5,Rift Spooker triples cooking mastery XP and grants five cooking mastery points.,yes,3
+00:35:21,00:35:51,pets,Rift Spooker ranking,,opinion,any,initial_tier=top_B_or_A,He initially places Rift Spooker around upper B or A and rejects S.,yes,3
+00:35:51,00:36:22,pets,Rift Spooker reassessment,,opinion,any,,He revises upward after considering Yummy Peach Ring scaling and argues its multiplier should be valued consistently with meal multipliers.,yes,3
+00:35:51,00:36:22,pets|tesseract,Rift Hive Mind,,mechanic,any,prisma_bonus_percent=50;prisma_bubbles=5;prisma_fragments=50,Rift Hive Mind gives 50% Prisma bonus multiplier and fifty fragments equivalent to five Prisma bubbles.,yes,3
+00:36:22,00:36:22,pets,Rift Hive Mind value,,priority,any,,He considers the Prisma multiplier extremely strong especially for players who missed earlier gem-shop Prisma sales.,yes,3
+00:36:22,00:36:52,pets|research,Riftstalker,,mechanic,any,research_points=10;research_afk_percent=20;research_xp_multiplier=2;magnifiers=1,Riftstalker grants ten research points and 20% research AFK gains plus double research XP and one magnifier.,yes,3
+00:36:22,00:36:52,pets,Riftstalker ranking,,opinion,any,tier=top_A_or_S,He considers Riftstalker upper A or S and would place it above Panda.,yes,3
+00:36:52,00:37:23,pets|sneaking,Smoke Devil,,mechanic,any,jade_multiplier=100;stealth_multiplier=40;sneaking_multiplier=2.5,Smoke Devil grants one-hundred-times jade and forty-times ninja stealth plus a 2.5-times sneaking bonus.,yes,3
+00:36:52,00:37:23,pets,Smoke Devil comparison,,comparison,any,,Funeral Flower lowers Smoke Devil's relative value because dying more provides an alternative progression method.,yes,3
+00:37:23,00:37:54,pets|hole,Royal Egg,,mechanic,any,monument_level_multiplier=2,Royal Egg doubles monument levels when selecting rewards rather than doubling all existing bonuses.,yes,3
+00:37:23,00:37:54,pets,Royal Egg ranking,,opinion,any,tier=B,He ranks Royal Egg around B because newer bonuses let players largely neglect the mechanic despite some endless rewards.,yes,3
+00:37:54,00:38:25,pets,Abacus Frog,,mechanic,any,,Abacus Frog currently does nothing.,yes,3
+00:37:54,00:38:25,pets,Abacus Frog ranking,,opinion,any,,He jokingly puts Abacus Frog in its own lawsuit tier because it resembles Yoshi.,yes,3
+00:37:54,00:38:25,pets|class_exp|drop_rate,Crystal Clam,,mechanic,any,class_xp_multiplier=1.4;drop_rate_multiplier=1.3;corrected_kill_multiplier=1.2,Crystal Clam gives 1.4-times class XP and 1.3-times drop rate plus a corrected 1.2-times kill multiplier.,yes,3
+00:38:25,00:38:25,pets,Crystal Clam ranking,,comparison,any,,He ranks Crystal Clam above comparable drop-rate-only pets because it includes additional benefits.,yes,3
+00:38:25,00:38:56,pets,Glunko Supreme,,skip,any,,Glunko Supreme is excluded because it does not exist.,yes,3
+00:38:25,00:38:56,pets|damage|class_exp|drop_rate,Glunko the Massive,,mechanic,any,damage_multiplier=3;class_xp_multiplier=5;drop_rate_multiplier=1.5,Glunko the Massive triples total damage and gives five-times class XP plus 1.5-times drop rate.,yes,3
+00:38:25,00:38:56,pets|ballot|merits,Poppy,,mechanic,any,bonus_multiplier=2,Poppy doubles Ballot and Meritocracy bonuses.,yes,3
+00:38:56,00:39:27,pets,Poppy ranking,,opinion,any,,Poppy may be the strongest pet overall and even better than Piggy for power.,yes,3
+00:38:56,00:39:27,pets,Piggy accessibility,,comparison,any,,Piggy remains the most free-to-play friendly because tokens and trading bypass its paid pack.,yes,3
+00:38:56,00:39:27,pets|grimoire,Bin Goosey,,mechanic,any,plus1_chance_percent=55;plus3_chance_percent=45;plus5_chance_percent=10,Bin Goosey gives daily ribbons the stated chances of extra tiers: fifty-five percent plus one and forty-five plus three and ten plus five.,yes,2
+00:39:27,00:39:57,pets,Bin Goosey ranking,,opinion,any,tier=top_A_or_bottom_S,He places Bin Goosey around upper A or lower S depending on account needs.,yes,3
+00:39:27,00:39:57,grimoire|cooking,ribbons,,mechanic,any,,Ribbons attach to meal plates and improve their effects.,yes,3
+00:39:57,00:40:27,pets,ranking distribution,,opinion,any,,Companions are unusually strong overall so the tier list naturally contains many A and S pets.,yes,3
+00:39:57,00:40:27,pets,first token,,priority,early,,For fully free-to-play players lacking Ram and auto-loot he strongly recommends Piggy first.,yes,3
+00:40:27,00:40:58,pets,second token,,priority,w5,,Choose Doot next for immediate World 5 benefits before the account can fully exploit Poppy.,yes,3
+00:40:27,00:40:58,pets,token refund,,how_to,any,,Continue free legacy rolls; rolling Doot naturally refunds the token previously spent on its bonus.,yes,3
+00:40:27,00:40:58,pets,Poppy token,,priority,late,,Ultimately put the refunded token on Poppy because its weekly bonuses define the current late-game meta.,yes,3
