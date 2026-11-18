@@ -1,0 +1,87 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+jvcxwsBebQI,griffybit,2026-02-21,00:00:00,00:00:30,w7_push,,Trench update,,meta_change,w7,update_part=2,The Trench update adds the new research skill and additional World Seven content.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:00:30,00:01:00,w7_push,,Treacherous Trench,,meta_change,w7,new_maps=7,Seven maps extend ocean progression while existing pushing penalties remain.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:01:00,00:01:31,research,world-7/research,active experience,,mechanic,w7,active_characters=1;active_xp=100%;baseline_afk_xp=about_10%,Keep at least one character active for full research experience; fully offline gains depend on the AFK percentage.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:01:00,00:01:31,research,world-7/research,observation hints,,how_to,w7,,Question marks on the clipboard provide hints to observation locations across the game.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:01:31,00:02:02,research,world-7/research,observation unlocks,,mechanic,w7,,Roll high enough at an observation to unlock it then drag a magnifying glass onto it for experience.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:01:31,00:02:02,research,world-7/research,points,,mechanic,w7,,Research experience grants levels and points that purchase grid upgrades.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:01:31,00:02:02,research,world-7/research,new sigil tier,,meta_change,w7,,Research unlocks a new higher sigil tier.,yes,2
+jvcxwsBebQI,griffybit,2026-02-21,00:01:31,00:02:02,sigils,world-2/sigils,new sigil tier,,meta_change,w7,,Research unlocks a new higher sigil tier.,yes,2
+jvcxwsBebQI,griffybit,2026-02-21,00:01:31,00:02:02,research,world-7/research,Transcendent artifacts,,meta_change,w7,,Research unlocks the difficult Transcendent artifact tier.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:01:31,00:02:02,sailing,world-5/sailing,Transcendent artifacts,,meta_change,w7,,Research unlocks the difficult Transcendent artifact tier.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:02:02,00:02:34,research,world-7/research,Tiny Cogs,,mechanic,w7,,Tiny Cogs provide substantial build rate.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:02:02,00:02:34,construction,world-3/construction,Tiny Cogs,,mechanic,w7,,Tiny Cogs provide substantial build rate.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:02:02,00:02:34,research,world-7/research,Sticker Depot,,mechanic,w7,,Plants can overgrow into Mega Crops that award Sticker Depot bonuses.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:02:02,00:02:34,farming,world-6/farming,Sticker Depot,,mechanic,w7,,Plants can overgrow into Mega Crops that award Sticker Depot bonuses.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:02:02,00:02:34,farming,world-6/farming,sticker types,,mechanic,w7,stickers_per_seed_type=1,Each seed type has its own sticker and multiple copies can be collected.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:02:02,00:02:34,farming,world-6/farming,sticker setup,,setup,w7,plots_per_crop=6,With all plots unlocked plant six of each crop type for sticker farming.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:02:34,00:03:04,farming,world-6/farming,crop medals,,meta_change,w7,,The update adds many new crops for medal progression.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:02:34,00:03:04,research,world-7/research,Zuper Bits,,meta_change,w7,,Research unlocks Zuper Bits and a new higher bit type.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:02:34,00:03:04,gaming,world-5/gaming,Zuper Bits,,meta_change,w7,,Research unlocks Zuper Bits and a new higher bit type.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:02:34,00:03:04,gaming,world-5/gaming,Royale Plant,,meta_change,w7,,Rat King unlocks the Royale or crown plant.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:03:04,00:03:35,gaming,world-5/gaming,crown coins,,mechanic,w7,,Rat King supplies crown currency and chemicals and Log can affect crown acquisition.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:03:04,00:03:35,gaming,world-5/gaming,plant crowns,,mechanic,w7,crowns_per_plant=1,Each plant can receive a crown that grants a bit multiplier.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:03:04,00:03:35,gaming,world-5/gaming,Zuper Bits,,warning,w7,,Completing Zuper Bits will take substantial time.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:03:04,00:03:35,minehead,world-7/minehead,unlock,,mechanic,w7,,Mr Minehead is a minigame unlocked through the research tree.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:03:35,00:04:05,minehead,world-7/minehead,attack scaling,,mechanic,w7,base_damage=5;tile_values=1_or_2;example_damage=5_or_2x5,Revealed tile values multiply the base attack damage against the mine.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:03:35,00:04:05,minehead,world-7/minehead,lives and attempts,,mechanic,w7,health_lost_per_mine=1;initial_health=3;daily_attempts=about_3,Clicking mines costs health and losing all health ends the attempt.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:04:05,00:04:35,minehead,world-7/minehead,upgrades,,mechanic,w7,,Upgrades expand the grid and improve damage while providing account bonuses.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:04:05,00:04:35,minehead,world-7/minehead,safe strategy,,how_to,w7,tiles_before_attack=1,Reveal one tile and attack to reset the board; unlimited attacks allow a slower low-risk approach.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:04:35,00:05:05,minehead,world-7/minehead,depth charges,,mechanic,w7,,Depth charges indicate how many mines are placed in the grid.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:04:35,00:05:05,minehead,world-7/minehead,location,,how_to,w7,,Find the research-unlocked minigame on the Minefield map.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:04:35,00:05:05,glimbo,world-7/glimbo,trades,,mechanic,w7,,Glimbo trades various resources for World Seven Vault bonuses.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:04:35,00:05:05,upgrade_vault,account/misc/upgrade-vault,trades,,mechanic,w7,,Glimbo trades various resources for World Seven Vault bonuses.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:05:05,00:05:36,glimbo,world-7/glimbo,trade materials,,mechanic,w7,,Trade Coral and Divinity Pearls and shiny critters for bonuses including monster attack levels that increase cash.,yes,2
+jvcxwsBebQI,griffybit,2026-02-21,00:05:05,00:05:36,research,world-7/research,Polymer Salts,,meta_change,w7,refinery_tier=3,Research introduces Polymer Salts and a third refinery tier.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:05:05,00:05:36,refinery,world-3/refinery,Polymer Salts,,meta_change,w7,refinery_tier=3,Research introduces Polymer Salts and a third refinery tier.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:05:36,00:06:06,refinery,world-3/refinery,cycle duration,,comparison,w7,tier2_cycle=15_minutes;tier3_cycle=30_minutes,The new refinery tier cycles twice as slowly as the second tier.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:05:36,00:06:06,armor_smithy,world-3/armor-smithy,future boss armor,,opinion,w7,,The creator expects World Seven boss armor may require the newly introduced salts.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:05:36,00:06:06,minehead,world-7/minehead,magnifying glass,,priority,w7,magnifying_glasses=2,Progress Minehead until unlocking another magnifying glass for simultaneous observation research.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:05:36,00:06:06,research,world-7/research,magnifying glass,,priority,w7,magnifying_glasses=2,Progress Minehead until unlocking another magnifying glass for simultaneous observation research.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:06:06,00:06:37,research,world-7/research,Post-it Notes,,threshold,w7,research_level=10;simultaneous_observations=3,Level ten unlocks Post-it Notes and another magnifying glass for three simultaneous observations.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:06:06,00:06:37,research,world-7/research,experience route,,priority,w7,all_night_studying_xp=100%,Prioritize research experience including All Night Studying before rushing external bonuses.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:06:37,00:07:09,research,world-7/research,observation rolls,,priority,w7,daily_rolls=4;immediate_roll_per_purchase=1,Buy the daily observation-roll upgrades which also grant extra rolls immediately and some research experience.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:07:09,00:07:40,research,world-7/research,Taking Notes,,mechanic,w7,upgrade_level=4;xp_multiplier=1.48,Taking Notes supplies a substantial true research-experience multiplier.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:07:09,00:07:40,research,world-7/research,Points Every Ten,,mechanic,w7,level_interval=10;extra_points=1,Points Every Ten adds a research point per ten research levels.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:07:09,00:07:40,research,world-7/research,early route,,warning,w7,,Rushing every external bonus before experience upgrades risks slower long-term progression.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:07:40,00:08:10,research,world-7/research,Optical Monocle,,mechanic,w7,,Optical Monocle unlocks Insight which levels observations for more research experience.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:07:40,00:08:10,research,world-7/research,Insight timing,,skip,w7,,The creator is uncertain about Insight's early value and tentatively recommends waiting until stronger.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:08:10,00:08:42,sigils,world-2/sigils,new tier,,skip,w7,,Hold off on the new sigil progression because its times remain very long even with Sigil Syrup.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:08:10,00:08:42,research,world-7/research,Tiny Cogs,,priority,w7,cogs_per_day=1,Unlock Tiny Cogs before daily reset because acquisition is limited to one per day initially.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:08:10,00:08:42,construction,world-3/construction,Tiny Cogs,,priority,w7,cogs_per_day=1,Unlock Tiny Cogs before daily reset because acquisition is limited to one per day initially.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:08:10,00:08:42,w7_push,,Kelfish,,blocker,w7,,Current map progression stops around Kelfish.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:08:10,00:08:42,w7_push,,Pirate Deck door,,mechanic,w7,character_requirement=11,A Pirate Deck door displays an eleven-character requirement.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:08:42,00:09:13,characters,,eleventh slot,,opinion,w7,character_slot=11,The creator interprets the locked door as a hint that an eleventh character is coming.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:08:42,00:09:13,spelunking,world-7/spelunking,Scout Post,,meta_change,w7,,The update adds Scout Post and reduces difficulty in earlier spelunking tunnels.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:09:13,00:09:44,spelunking,world-7/spelunking,new shapes,,mechanic,w7,,The second-to-last tunnel unlocks new research shapes whose function is not yet understood in this recap.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:09:13,00:09:44,research,world-7/research,new shapes,,mechanic,w7,,The second-to-last tunnel unlocks new research shapes whose function is not yet understood in this recap.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:09:13,00:09:44,sneaking,world-6/sneaking,Science Junk,,priority,w7,,Buy Science Junk in Jade Emporium.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:09:13,00:09:44,money,,coin denominations,,meta_change,w7,new_coin_types=5,The update adds five coin denominations.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:09:13,00:09:44,gaming,world-5/gaming,additional upgrades,,meta_change,w7,,The update adds further Duper Bits and Gambit and cavern-five content.,yes,2
+jvcxwsBebQI,griffybit,2026-02-21,00:09:13,00:09:44,hole,world-5/hole,additional upgrades,,meta_change,w7,,The update adds further Duper Bits and Gambit and cavern-five content.,yes,2
+jvcxwsBebQI,griffybit,2026-02-21,00:09:13,00:09:44,islands,world-2/islands,Nothing Trophy,,account_note,any,nothing_hours=180000,The creator still lacks Nothing Trophy despite extensive accumulated nothing hours.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:09:44,00:10:14,breeding,world-4/breeding,terminology,,meta_change,any,,Breeding pets are now called mobs while pets refers to companions.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:09:44,00:10:14,pets,account/prem-currency/pets,terminology,,meta_change,any,,Breeding pets are now called mobs while pets refers to companions.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:09:44,00:10:14,breeding,world-4/breeding,new spice,,meta_change,w7,new_meals=3,A new mob battle supplies a new spice that unlocks three meals.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:09:44,00:10:14,cooking,world-4/cooking,new spice,,meta_change,w7,new_meals=3,A new mob battle supplies a new spice that unlocks three meals.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:09:44,00:10:14,cooking,world-4/cooking,Tasty Treat,,mechanic,w7,,Tasty Treat improves Polymer refinery speed.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:09:44,00:10:14,cooking,world-4/cooking,Giga Chip,,priority,w7,,Giga Chip improves research experience and should receive a ribbon.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:10:14,00:10:46,cooking,world-4/cooking,Wedding Cake,,mechanic,w7,,The new Wedding Cake improves Minehead mine-currency gain despite sharing a name with an existing meal.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:10:14,00:10:46,gaming,world-5/gaming,Magenta palette,,meta_change,w7,,Gaming gains a Magenta palette.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:10:14,00:10:46,death_note,world-3/death-note,new monsters,,meta_change,w7,new_entries=6,The new monster types add six Death Note entries.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:10:14,00:10:46,summoning,world-6/summoning,Teal extension,,meta_change,w7,new_rounds=6;existing_wall=11,Teal gains six rounds without corresponding new summoning upgrades to address the previous difficulty wall.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:10:46,00:11:18,tournament,account/misc/tournament,companion battles,,meta_change,any,participants=1024,Register owned companions for a large battle tournament regardless of tradeability or whether they were purchased.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:11:18,00:11:48,tournament,account/misc/tournament,champion reward,,mechanic,any,,Battles can be watched live and the final champion receives a statless cosmetic companion.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:11:18,00:11:48,pets,account/prem-currency/pets,Pet Mart,,meta_change,any,,Pet Mart allows purchasing companions with green gems.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:11:18,00:11:48,tournament,account/misc/tournament,pay-to-win assessment,,opinion,any,,The creator is cautiously positive because tournament outcomes involve RNG and prizes are cosmetic.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:11:48,00:12:18,tournament,account/misc/tournament,championship,,meta_change,any,date=March_7;time=12_PM_PST,The recap mentions a planned major championship on March seventh.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:11:48,00:12:18,bundles,account/prem-currency/bundles,POW companion,,mechanic,w7,pow_multiplier=20,A new paid companion provides twentyfold spelunking power.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:11:48,00:12:18,spelunking,world-7/spelunking,POW companion,,mechanic,w7,pow_multiplier=20,A new paid companion provides twentyfold spelunking power.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:12:18,00:12:48,bundles,account/prem-currency/bundles,bit companion,,mechanic,w7,bit_multiplier=100,Another paid companion provides a hundredfold gaming-bit multiplier.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:12:18,00:12:48,gaming,world-5/gaming,bit companion,,mechanic,w7,bit_multiplier=100,Another paid companion provides a hundredfold gaming-bit multiplier.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:12:18,00:12:48,bubbles,world-2/bubbles,Quick Slap,,meta_change,any,nerf_count=2,Quick Slap receives another nerf and the creator considers it poor value.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:12:48,00:13:19,statues,,stack size,,meta_change,any,old_cap=10000000;new_cap=1000000000,Statue stacks can now hold one billion instead of ten million.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:12:48,00:13:19,statues,,crystal timing,,meta_change,any,spawn_interval=2_seconds;daily_crystals=about_1400;previous_orb=near_10000,Crystal spawns are spaced out which prevents the previous enormous Orb counts from simultaneous daily crystals.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:12:48,00:13:19,characters,,crystal timing,,meta_change,any,spawn_interval=2_seconds;daily_crystals=about_1400;previous_orb=near_10000,Crystal spawns are spaced out which prevents the previous enormous Orb counts from simultaneous daily crystals.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:13:19,00:13:49,statues,,crystal change impact,,comparison,any,,The creator considers statue and Zenith-cluster farming weaker after the timing change but acknowledges reduced lag.,yes,3
+jvcxwsBebQI,griffybit,2026-02-21,00:13:19,00:13:49,zenith_market,world-7/zenith-market,crystal change impact,,comparison,any,,The creator considers statue and Zenith-cluster farming weaker after the timing change but acknowledges reduced lag.,yes,3
