@@ -176,7 +176,7 @@
          "goal": "10K",
          "score": 128,
          "ready": false,
-         "infinite": false
+         "infinite": true
         },
         {
          "locked": "",
@@ -187,7 +187,7 @@
          "goal": "10K",
          "score": 128,
          "ready": false,
-         "infinite": false
+         "infinite": true
         }
        ],
        "more": 1
@@ -323,7 +323,7 @@
          "goal": "13320",
          "score": 0,
          "ready": false,
-         "infinite": false
+         "infinite": true
         }
        ],
        "more": -1
@@ -571,9 +571,9 @@
          "locked": "",
          "section": "The Grimoire",
          "group": "Grimoire Upgrades",
-         "label": "Wraith Damage: +86.0 Base Damage in Wraith Form(1.00 per level after Writhing Grimoire)",
-         "cur": "86",
-         "goal": "999999",
+         "label": "Ribbon Winning: Get +1 Daily Ribbon, +18.0% chance for rare quality(1.00 per level after Writhing Grimoire)",
+         "cur": "18",
+         "goal": "50",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -582,9 +582,9 @@
          "locked": "",
          "section": "The Grimoire",
          "group": "Grimoire Upgrades",
-         "label": "Wraith Accuracy: +168.0 Base Accuracy in Wraith Form(1.00 per level after Writhing Grimoire)",
-         "cur": "168",
-         "goal": "999999",
+         "label": "Land Rank Database Maxim: +4 Max LV for 5th column Land Rank upgrades(1.00 per level: Not scaled by Writhing Grimoire)",
+         "cur": "4",
+         "goal": "10",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -928,9 +928,9 @@
          "locked": "",
          "section": "Death Note",
          "group": "All kills for Autiszemo without a filter. Have fun",
-         "label": "Rift Monsters in The Rift",
+         "label": "Nutto in The Roots",
          "cur": "",
-         "goal": "683,471,334",
+         "goal": "0",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -939,9 +939,9 @@
          "locked": "",
          "section": "Death Note",
          "group": "All kills for Autiszemo without a filter. Have fun",
-         "label": "Poops in The Office",
+         "label": "Green Mushroom in Mummy Memorial",
          "cur": "",
-         "goal": "360,533",
+         "goal": "0",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -1094,7 +1094,6 @@
       "Farming: Push: Stronger Vines:+90/112% chance for +1 crop when fully grown 45 -> 56",
       "Farming: Push: Medal Crop 20 chance8.6e+45 for 100% chance 0.00% -> 100%",
       "Farming: Push: More Beenz:+74/1000% magic beans gained when trading in crops 37 -> 500",
-      "Beanstalk: Push: Golden Peanut: Smithing 6.36K -> 10K",
       "Beanstalk: Push: Golden Peanut:Increases Mining Efficiency by 0/657.43%. 0 -> 3"
      ]
     },
@@ -1103,8 +1102,8 @@
      "kind": "rinse",
      "steps": [
       "Push: Unlock max level 150 plates 90 -> 150",
-      "Push: Info - Total Meal Levels (6,901 levels to go!) 6419 -> 13320",
-      "Push: Artifact: Omnipotent Causticolumn 0 -> 1"
+      "Push: Artifact: Omnipotent Causticolumn 0 -> 1",
+      "Push: Turkey of Thank: +1,229.999% Total DamageTier 10 Ribbon = 2.350x multi 90 -> 180"
      ]
     },
     {
@@ -1708,9 +1707,9 @@
          "locked": "",
          "section": "Summoning",
          "group": "Doublers and Upgrades",
-         "label": "13 Summoning Doublers earned from Cavern 14- GambitNext Doubler at 123.118K Total Gambit PTS (34,648 to go!)",
-         "cur": "88.470K",
-         "goal": "123.118K",
+         "label": "20/23 total doublers spent",
+         "cur": "20",
+         "goal": "23",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -1719,9 +1718,9 @@
          "locked": "",
          "section": "Summoning",
          "group": "Doublers and Upgrades",
-         "label": "20/23 total doublers spent",
-         "cur": "20",
-         "goal": "23",
+         "label": "Familiar",
+         "cur": "0",
+         "goal": "25",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -1859,9 +1858,9 @@
          "locked": "",
          "section": "The Tesseract",
          "group": "Tesseract Currencies",
-         "label": "Tesseract Upgrade 'Ripple in Spacetime':+26% Tachyons",
-         "cur": "13",
-         "goal": "999999",
+         "label": "Lab Jewel - Eternal Energy Jewel: +0/75%",
+         "cur": "0",
+         "goal": "1",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -1877,9 +1876,9 @@
          "locked": "",
          "section": "The Tesseract",
          "group": "Tesseract Upgrades",
-         "label": "Arcanist Damage: +101 Base Damage in Arcanist Form",
-         "cur": "101",
-         "goal": "999999",
+         "label": "Tenteyecle Nostalgia: Tenteyecle now works again, but only has a $% chance",
+         "cur": "41",
+         "goal": "50",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -1888,9 +1887,9 @@
          "locked": "",
          "section": "The Tesseract",
          "group": "Tesseract Upgrades",
-         "label": "Arcanist Accuracy: +84 Base Accuracy in Arcanist Form",
-         "cur": "84",
-         "goal": "999999",
+         "label": "Arcanist Crits: +25% Critical Hit chance in Arcanist Form",
+         "cur": "25",
+         "goal": "70",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -2440,7 +2439,7 @@
          "goal": "150.0M",
          "score": 132,
          "ready": false,
-         "infinite": false
+         "infinite": true
         },
         {
          "locked": "",
@@ -2451,7 +2450,7 @@
          "goal": "10.0M",
          "score": 132,
          "ready": false,
-         "infinite": false
+         "infinite": true
         }
        ],
        "more": 9
@@ -2519,33 +2518,33 @@
       {
        "locked": "",
        "section": "Sampling",
-       "group": "Improve material samples",
-       "label": "Goldfish",
-       "cur": "111.85M",
-       "goal": "150.0M",
-       "score": 132,
+       "group": "Sources of Printer Sample Rate (90% Hardcap)",
+       "label": "Sample It bubble: +9.06/10%",
+       "cur": "123",
+       "goal": "200",
+       "score": 0,
        "ready": false,
        "infinite": false
       },
       {
        "locked": "",
        "section": "Sampling",
-       "group": "Improve material samples",
-       "label": "Spore Cap",
-       "cur": "1.44M",
-       "goal": "10.0M",
-       "score": 132,
+       "group": "Sources of Printer Sample Rate (90% Hardcap)",
+       "label": "Arcade Bonus 5: +0/8.04% Sample Size",
+       "cur": "0",
+       "goal": "101",
+       "score": 0,
        "ready": false,
        "infinite": false
       },
       {
        "locked": "",
        "section": "Sampling",
-       "group": "Improve material samples",
-       "label": "Goldfish",
-       "cur": "0.11B",
-       "goal": "1.0B",
-       "score": 132,
+       "group": "Sources of Printer Output. Grand Total: 53.872 - 323.230x",
+       "label": "Sailing: Level 4 Gold Relic:2.35x (27/100 days)",
+       "cur": "27",
+       "goal": "100",
+       "score": 0,
        "ready": false,
        "infinite": false
       }
@@ -2695,9 +2694,9 @@
          "locked": "",
          "section": "Sushi Station",
          "group": "Sushi Station Upgrades",
-         "label": "Hourly Wage Meter:Adds a display to the Top Right of the Sushi Station which shows total Hourly Bucks generated by all your sushi.Also, +5/9999% total",
-         "cur": "5",
-         "goal": "9999",
+         "label": "Sushi Service Bonuses:Creating a new sushi type gives a new IdleOn bonus for the REST of the game! Check them out in the BONUS tap, top right corner.",
+         "cur": "0",
+         "goal": "1",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -2706,9 +2705,9 @@
          "locked": "",
          "section": "Sushi Station",
          "group": "Sushi Station Upgrades",
-         "label": "Fastburn Fuel I:+150/149985% faster Fuel generation!Your current rate is $",
-         "cur": "10",
-         "goal": "9999",
+         "label": "Sushi Slot:Adds a new slot for your Sushi Station!",
+         "cur": "0",
+         "goal": "50",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -2782,9 +2781,9 @@
          "locked": "",
          "section": "Luminous Menagerie",
          "group": "Missions",
-         "label": "Mission 1: Reach a Total Account LV of 10,000",
-         "cur": "9017",
-         "goal": "10000",
+         "label": "Mission 2: Reach Sneaking Mastery 2",
+         "cur": "1",
+         "goal": "2",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -2793,9 +2792,9 @@
          "locked": "",
          "section": "Luminous Menagerie",
          "group": "Missions",
-         "label": "Mission 2: Reach Sneaking Mastery 2",
-         "cur": "1",
-         "goal": "2",
+         "label": "Mission 3: Achieve 500 Total Spelunking Depths",
+         "cur": "17",
+         "goal": "500",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -2956,9 +2955,9 @@
          "locked": "",
          "section": "Jelly Operator",
          "group": "Jelly Operator Upgrades",
-         "label": "Bloodcell Coagulation:You now get +1.0 Bloodcells every 1 DMG dealt!This is currency, spend them on upgrades!This upgrade gives +0/49995% Bloodcell Ga",
+         "label": "Operational Bonuses:Each successful operation gives a new IdleOn bonus for the REST of the game! Check them out in the BONUS tap, top right corner.",
          "cur": "0",
-         "goal": "9999",
+         "goal": "1",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -2967,7 +2966,7 @@
          "locked": "",
          "section": "Jelly Operator",
          "group": "Jelly Operator Upgrades",
-         "label": "Operational Bonuses:Each successful operation gives a new IdleOn bonus for the REST of the game! Check them out in the BONUS tap, top right corner.",
+         "label": "Slot Unlocking:You can now unlock more slots to place Cells in!You currently have 0 slot unlocks left, use them wisely!",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -3157,31 +3156,31 @@
        "locked": "",
        "section": "Sushi Station",
        "group": "Sushi Station Upgrades",
-       "label": "Hourly Wage Meter:Adds a display to the Top Right of the Sushi Station which shows total Hourly Bucks generated by all your sushi.Also, +5/9999% total",
-       "cur": "5",
-       "goal": "9999",
-       "score": 0,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Sushi Station",
-       "group": "Sushi Station Upgrades",
-       "label": "Fastburn Fuel I:+150/149985% faster Fuel generation!Your current rate is $",
-       "cur": "10",
-       "goal": "9999",
-       "score": 0,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Sushi Station",
-       "group": "Sushi Station Upgrades",
        "label": "Sushi Service Bonuses:Creating a new sushi type gives a new IdleOn bonus for the REST of the game! Check them out in the BONUS tap, top right corner.",
        "cur": "0",
        "goal": "1",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Sushi Station",
+       "group": "Sushi Station Upgrades",
+       "label": "Sushi Slot:Adds a new slot for your Sushi Station!",
+       "cur": "0",
+       "goal": "50",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Sushi Station",
+       "group": "Sushi Station Upgrades",
+       "label": "Superior Sushi Skillz:You can now click the Sushi on your fuel bar to change which sushi you cook, up to Tier $. This also increases fuel cost.",
+       "cur": "0",
+       "goal": "45",
        "score": 0,
        "ready": false,
        "infinite": false
@@ -3257,7 +3256,7 @@
    ],
    "flags": [],
    "move": {
-    "text": "Bug prints: Goldfish 111.85M -> 150.0M",
+    "text": "Sailing: The Winz Lantern 3 -> 4",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
@@ -3323,7 +3322,7 @@
     "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
-    "rinse1": "Bug prints: Goldfish 111.85M -> 150.0M (score 132)",
+    "rinse1": "Sailing: The Winz Lantern 3 -> 4 (score 129)",
     "flag": ""
    },
    "today": [
@@ -3343,7 +3342,7 @@
      "src": "Toolbox timer"
     },
     {
-     "do": "Bug prints: Goldfish 111.85M -> 150.0M",
+     "do": "Sailing: The Winz Lantern 3 -> 4",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
     }
@@ -3374,7 +3373,6 @@
      "block": "Bug prints",
      "kind": "rinse",
      "steps": [
-      "Push: Goldfish 111.85M -> 150.0M",
       "Push: Sample It bubble: +9.06/10% 123 -> 200",
       "Push: Sailing: Level 4 Gold Relic:2.35x (27/100 days) 27 -> 100"
      ]
@@ -3391,14 +3389,14 @@
      "block": "W7 minis",
      "kind": "rinse",
      "steps": [
-      "Sushi Station: Push: Hourly Wage Meter:Adds a display to the Top Right of the Sushi Station which sho 5 -> 9999",
+      "Sushi Station: Push: Sushi Service Bonuses:Creating a new sushi type gives a new IdleOn bonus for the 0 -> 1",
       "Sushi Station: Push: Unique Sushi (consecutive tiers cooked): 5 5 -> 64",
       "Luminous Menagerie: Push: Shells needed for Menagerie Rank 4 0 -> 3",
-      "Luminous Menagerie: Push: Mission 1: Reach a Total Account LV of 10,000 9017 -> 10000",
+      "Luminous Menagerie: Push: Mission 2: Reach Sneaking Mastery 2 1 -> 2",
       "Luminous Menagerie: Push: Unlock 4: Unlock the Pink Jellyfish within the MenagerieThe Menagerie is located 0 -> 1",
       "Clam Work: Push: +1 Grade for 2 Gallery Slots 0 -> 1",
       "Jelly Operator: Push: Amoeba:Unlock the Amoeba Cell! Drag it from the Petri Dish onto any Jelly Slot,  0 -> 1",
-      "Jelly Operator: Push: Bloodcell Coagulation:You now get +1.0 Bloodcells every 1 DMG dealt!This is curr 0 -> 9999",
+      "Jelly Operator: Push: Operational Bonuses:Each successful operation gives a new IdleOn bonus for the R 0 -> 1",
       "Jelly Operator: Push: Obstruction 1 - Longbone:1.5x multiplier to Research EXP gainAlso, +2 Jelly Oper 0 -> 1",
       "Advice Fish: Push: Advice on Life and Death:Level 1: +0.1/10% faster W7 mob respawn rate 0.99% -> 100%",
       "Zenith Market: Push: TRUE ZEN:1.0x higher bonuses from Zenith Statues 0 -> 250",
@@ -4051,9 +4049,9 @@
        "locked": "",
        "section": "Royal Armory",
        "group": "Armory Upgrades",
-       "label": "Blunder Outpost PTS: All of your Outposts in World 1 get +0 PTS to spend on upgrades!",
+       "label": "Royal Marble: Mobs in maps with outposts have a 1 in $ chance to drop special Marble items, which are used to unlock the Royal Statues!",
        "cur": "0",
-       "goal": "999999",
+       "goal": "50",
        "score": 0,
        "ready": false,
        "infinite": false
@@ -5259,7 +5257,7 @@
          "goal": "1.03B",
          "score": 0,
          "ready": false,
-         "infinite": false
+         "infinite": true
         }
        ],
        "more": -1
@@ -5830,7 +5828,7 @@
       "Glowshroom Tunnels: Level 1 Another Try: Reset investments for Opals, Conjuror PTS, Jar Collectible  (42 / 6) READY",
       "Glowshroom Tunnels: Push: Villager Cosmos Majik - String is Strung: Adds 3/5 more string to your harp, clu 3 -> 5",
       "Glowshroom Tunnels: Push: Bugs remaining to break Layer 15: 10.7M 50.1% -> 100%",
-      "Glowshroom Tunnels: Push: Kills before Monarch: 1.03B 0.00B -> 1.03B",
+      "Glowshroom Tunnels: Push: 80 hour bonus: Start with +1 Mental Health 5 -> 80",
       "Underground Overgrowth: Push: Turquoise Rupies: 0.00Collected from Great Jars once you have 500K+ Magenta Rupi 0 -> 1",
       "Underground Overgrowth: Push: Logs remaining to break Layer 7: 25.5K 34.5% -> 100%",
       "Underground Overgrowth: Push: 1 hour bonus: Start with # Attempts 0 -> 1"
@@ -5964,9 +5962,9 @@
          "locked": "",
          "section": "Sneaking",
          "group": "Pristine Charm Odds and Collection",
-         "label": "Nomadic-30: Pristine Collector: x1 higher chance to find Pristine Charms in Sneaking(+2% per level)",
+         "label": "Glowing Veil:1.4x Artifact Find Chance",
          "cur": "0",
-         "goal": "999999",
+         "goal": "1",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -6340,9 +6338,9 @@
          "locked": "",
          "section": "Compass",
          "group": "Compass Currencies",
-         "label": "Survival-13: Mountains of Dust: +0.00% Extra Dust(1.00 per level)",
+         "label": "Tempest Ring of Gold:Base Range: 20 - 50%Max + 3/3 10 PCT stones: 125%",
          "cur": "0",
-         "goal": "999999",
+         "goal": "2",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -6351,9 +6349,9 @@
          "locked": "",
          "section": "Compass",
          "group": "Compass Currencies",
-         "label": "Survival-8: Solardust Hoarding: +0.00% Extra Dust per POW 10 Solardust owned @ Total Bonus: $%(1.00 per level)3.956 stacks = 0.000% total",
-         "cur": "0",
-         "goal": "999999",
+         "label": "256/299 booked Eternal Hunt:Max Preset Level 329 on Autistacular including bonus talent levels",
+         "cur": "256",
+         "goal": "299",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -6438,9 +6436,9 @@
          "locked": "",
          "section": "Compass",
          "group": "tabbed",
-         "label": "Elemental-5: Weapon Drops: +55.00% drop chance for all Tempest Weapons(1.00 per level after Circle Multis)",
-         "cur": "55",
-         "goal": "999999",
+         "label": "Elemental-6: Elemental Destruction: All elemental damage is +20.00% higher. In other words, this is a damage multi, but it only works when using the r",
+         "cur": "10",
+         "goal": "50",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -8039,7 +8037,7 @@
          "goal": "8.0B",
          "score": 132,
          "ready": false,
-         "infinite": false
+         "infinite": true
         },
         {
          "locked": "",
@@ -8050,7 +8048,7 @@
          "goal": "15.0B",
          "score": 132,
          "ready": false,
-         "infinite": false
+         "infinite": true
         }
        ],
        "more": 1
@@ -8066,7 +8064,7 @@
        "goal": "8.0B",
        "score": 132,
        "ready": false,
-       "infinite": false
+       "infinite": true
       },
       {
        "locked": "",
@@ -8077,7 +8075,7 @@
        "goal": "15.0B",
        "score": 132,
        "ready": false,
-       "infinite": false
+       "infinite": true
       },
       {
        "locked": "",
@@ -8088,7 +8086,7 @@
        "goal": "250.0B",
        "score": 132,
        "ready": false,
-       "infinite": false
+       "infinite": true
       }
      ],
      "where": [
@@ -8195,7 +8193,7 @@
    ],
    "flags": [],
    "move": {
-    "text": "Ore prints: Copper Ore 1.34B -> 8.0B",
+    "text": "Statues: DK crystals: Level up Essence Statue: Crystals with DK at Minichiefs 2 -> 40",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [],
@@ -8260,12 +8258,12 @@
     "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
-    "rinse1": "Ore prints: Copper Ore 1.34B -> 8.0B (score 132)",
+    "rinse1": "Statues: DK crystals: Level up Essence Statue: Crystals with DK at Minichiefs 2 -> 40 (score 131)",
     "flag": ""
    },
    "today": [
     {
-     "do": "Ore prints: Copper Ore 1.34B -> 8.0B",
+     "do": "Statues: DK crystals: Level up Essence Statue: Crystals with DK at Minichiefs 2 -> 40",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
     },
@@ -8292,7 +8290,7 @@
      "block": "Ore prints",
      "kind": "rinse",
      "steps": [
-      "Push: Copper Ore 1.34B -> 8.0B"
+      "No rinse data: needs a playbook"
      ]
     },
     {
@@ -8754,7 +8752,7 @@
          "goal": "10.0B",
          "score": 132,
          "ready": false,
-         "infinite": false
+         "infinite": true
         },
         {
          "locked": "",
@@ -8765,7 +8763,7 @@
          "goal": "22.0B",
          "score": 132,
          "ready": false,
-         "infinite": false
+         "infinite": true
         }
        ],
        "more": 1
@@ -8781,7 +8779,7 @@
        "goal": "10.0B",
        "score": 132,
        "ready": false,
-       "infinite": false
+       "infinite": true
       },
       {
        "locked": "",
@@ -8792,7 +8790,7 @@
        "goal": "22.0B",
        "score": 132,
        "ready": false,
-       "infinite": false
+       "infinite": true
       },
       {
        "locked": "",
@@ -8803,7 +8801,7 @@
        "goal": "100.0B",
        "score": 132,
        "ready": false,
-       "infinite": false
+       "infinite": true
       }
      ],
      "where": [
@@ -8942,7 +8940,7 @@
     "PLAN: Elite Class Swap Token -> Bubonic Conjuror -> Arcane Cultist"
    ],
    "move": {
-    "text": "Log prints: Oak Logs 4.42B -> 10.0B",
+    "text": "Cards: Stamps - Card Stamp: +250% Card Drop Rate 250 -> 330",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [],
@@ -9014,12 +9012,12 @@
     "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
-    "rinse1": "Log prints: Oak Logs 4.42B -> 10.0B (score 132)",
+    "rinse1": "Cards: Stamps - Card Stamp: +250% Card Drop Rate 250 -> 330 (score 0)",
     "flag": ""
    },
    "today": [
     {
-     "do": "Log prints: Oak Logs 4.42B -> 10.0B",
+     "do": "Cards: Stamps - Card Stamp: +250% Card Drop Rate 250 -> 330",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
     }
@@ -9038,7 +9036,7 @@
      "block": "Log prints",
      "kind": "rinse",
      "steps": [
-      "Push: Oak Logs 4.42B -> 10.0B"
+      "No rinse data: needs a playbook"
      ]
     },
     {
@@ -9187,9 +9185,9 @@
          "locked": "",
          "section": "Death Note",
          "group": "All kills for Autistopher without a filter. Have fun",
-         "label": "Rift Monsters in The Rift",
+         "label": "Nutto in The Roots",
          "cur": "",
-         "goal": "23,070,588",
+         "goal": "0",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -9198,7 +9196,7 @@
          "locked": "",
          "section": "Death Note",
          "group": "All kills for Autistopher without a filter. Have fun",
-         "label": "Nutto in The Roots",
+         "label": "Poops in The Office",
          "cur": "",
          "goal": "0",
          "score": 0,
@@ -9275,7 +9273,7 @@
          "goal": "11000",
          "score": 132,
          "ready": false,
-         "infinite": false
+         "infinite": true
         },
         {
          "locked": "",
@@ -9286,7 +9284,7 @@
          "goal": "13000",
          "score": 132,
          "ready": false,
-         "infinite": false
+         "infinite": true
         }
        ],
        "more": 0
@@ -9412,21 +9410,10 @@
       {
        "locked": "",
        "section": "Stamps",
-       "group": "Improve your total stamp levels",
-       "label": "Total Stamp Levels",
-       "cur": "9539",
-       "goal": "11000",
-       "score": 132,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Stamps",
-       "group": "Improve your total stamp levels",
-       "label": "Total Stamp Levels",
-       "cur": "9539",
-       "goal": "13000",
+       "group": "Improve high-priority Stamps",
+       "label": "Skill: Drippy Drop Stamp",
+       "cur": "95",
+       "goal": "100",
        "score": 132,
        "ready": false,
        "infinite": false
@@ -9435,9 +9422,20 @@
        "locked": "",
        "section": "Stamps",
        "group": "Improve high-priority Stamps",
-       "label": "Skill: Drippy Drop Stamp",
-       "cur": "95",
-       "goal": "100",
+       "label": "Skill: Ladle Stamp",
+       "cur": "160",
+       "goal": "180",
+       "score": 132,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Stamps",
+       "group": "Improve high-priority Stamps",
+       "label": "Skill: Bugsack Stamp",
+       "cur": "120",
+       "goal": "168",
        "score": 132,
        "ready": false,
        "infinite": false
@@ -9851,7 +9849,7 @@
          "goal": "10000",
          "score": 129,
          "ready": false,
-         "infinite": false
+         "infinite": true
         }
        ],
        "more": -1
@@ -9919,17 +9917,6 @@
       {
        "locked": "",
        "section": "Achievements",
-       "group": "Complete achievements for EZ Access",
-       "label": "W6 Doctor Repellant: W6 Shop",
-       "cur": "0",
-       "goal": "10000",
-       "score": 129,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Achievements",
        "group": "Complete achievements for Monster Respawn",
        "label": "W1 Two-Time Savior: 5% Mob Respawn in W1",
        "cur": "1",
@@ -9945,6 +9932,17 @@
        "label": "W2 Two Desserts!: 5% Mob Respawn in W2",
        "cur": "1",
        "goal": "2",
+       "score": 129,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Achievements",
+       "group": "Complete achievements for Other Nice Rewards",
+       "label": "W5 Legendary Wormhole: +10% Divinity Points",
+       "cur": "0",
+       "goal": "IDK",
        "score": 129,
        "ready": false,
        "infinite": false
@@ -10100,9 +10098,9 @@
          "locked": "",
          "section": "Smithing",
          "group": "Total Capacity and Bar thresholds",
-         "label": "137 Godshard Bars.11,823 cap to next bar",
-         "cur": "3177",
-         "goal": "15000",
+         "label": "514 Marble Bars.1,823 cap to next bar",
+         "cur": "2177",
+         "goal": "4000",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -10111,9 +10109,9 @@
          "locked": "",
          "section": "Smithing",
          "group": "Total Capacity and Bar thresholds",
-         "label": "514 Marble Bars.1,823 cap to next bar",
-         "cur": "2177",
-         "goal": "4000",
+         "label": "2,058 Dreadlo Bars.823 cap to next bar",
+         "cur": "177",
+         "goal": "1000",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -10193,7 +10191,7 @@
    ],
    "flags": [],
    "move": {
-    "text": "Stamps: Total Stamp Levels 9539 -> 11000",
+    "text": "Stamps: Skill: Drippy Drop Stamp 95 -> 100",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
@@ -10266,7 +10264,7 @@
      "Super CHOWs (cooking speed 1.1x each, count only on him)",
      "Upgrade Vault"
     ],
-    "rinse1": "Stamps: Total Stamp Levels 9539 -> 11000 (score 132)",
+    "rinse1": "Stamps: Skill: Drippy Drop Stamp 95 -> 100 (score 132)",
     "flag": "Rinse ranks Stamps first, not your priority (Cooking speed)"
    },
    "today": [
@@ -10281,7 +10279,7 @@
      "src": "data rule (Zack-approved) on AutoReview Death Note"
     },
     {
-     "do": "Stamps: Total Stamp Levels 9539 -> 11000",
+     "do": "Stamps: Skill: Drippy Drop Stamp 95 -> 100",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
     },
@@ -10312,9 +10310,9 @@
      "block": "Stamps",
      "kind": "rinse",
      "steps": [
-      "Push: Total Stamp Levels 9539 -> 11000",
       "Push: Skill: Drippy Drop Stamp 95 -> 100",
-      "Push: Skill: Multitool Stamp 0 -> 1"
+      "Push: Skill: Multitool Stamp 0 -> 1",
+      "Push: Lil' Mining Baggy Stamp: +525 Mining Carry Cap 210 -> 310"
      ]
     },
     {
@@ -10351,7 +10349,6 @@
      "block": "Achievements",
      "kind": "rinse",
      "steps": [
-      "Push: W6 Doctor Repellant: W6 Shop 0 -> 10000",
       "Push: W1 Two-Time Savior: 5% Mob Respawn in W1 1 -> 2",
       "Push: W5 Legendary Wormhole: +10% Divinity Points 0 -> IDK"
      ]
@@ -10375,7 +10372,7 @@
      "kind": "rinse",
      "steps": [
       "Push: Hard Resources- Godshard Ore card:+150/210% Forge Cap and SPD (Passive) 5 -> 7",
-      "Push: 137 Godshard Bars.11,823 cap to next bar 3177 -> 15000"
+      "Push: 514 Marble Bars.1,823 cap to next bar 2177 -> 4000"
      ]
     }
    ]

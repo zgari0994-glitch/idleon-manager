@@ -95,7 +95,7 @@ def pick(e, who):
         lk = next((l for l in Y.get('locked', []) if l.get('match') and l['match'] in path), None)
         out.append({'locked': f"LOCKED -> {lk['unlock']}" if lk else '', 'section': e['s'], 'group': g.get('name', '')[:70], 'label': re.sub(r'\s+', ' ', a['label'])[:150],
                     'cur': a.get('cur', ''), 'goal': a.get('goal', ''), 'score': SCORE.get((e['s'], a['label']), 0),
-                    'ready': ready(a), 'infinite': '∞' in str(a.get('goal')) or a.get('cur') == 'Linear'})
+                    'ready': ready(a), 'infinite': '∞' in str(a.get('goal')) or a.get('cur') == 'Linear' or (num(a.get('goal')) or 0) >= 9999})
     return out
 
 def tier(n):
