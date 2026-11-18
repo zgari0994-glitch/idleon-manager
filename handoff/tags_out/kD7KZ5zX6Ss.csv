@@ -1,0 +1,268 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:01:02,00:01:32,pets,companions,,account_note,any,,The reviewed young account owns nearly every companion.,yes,2
+00:01:32,00:02:03,general,limited-time availability,,opinion,any,starting_world=3,Missing old limited-time items creates substantial progression disadvantages.,yes,3
+00:01:32,00:02:03,printer,skill obols,,setup,any,,For samples use Emperor sparkle obols and Slush hexagon obols rather than keeping ordinary chopping obols indefinitely.,yes,2
+00:02:03,00:02:33,drop_rate,obol setup,,setup,any,,Use silver POP obols and gold Double Sixes then Hyper or Ice Guard obols and eventually Mega hexagons.,yes,2
+00:02:03,00:02:33,drop_rate,sparkle obols,,setup,any,,Keep Kruk sparkle obols for the drop-rate setup.,yes,2
+00:02:33,00:03:03,printer,obol sets,,how_to,any,personal_sets_per_skill=1;family_sets_per_skill=1,Maintain personal and family chopping and mining sets then use drop-rate obols for everything else.,yes,3
+00:02:33,00:03:03,general,trapping and worship obols,,skip,any,,Spending time on trapping or worship obols is not worthwhile.,yes,3
+00:02:33,00:03:03,general,Hyper and construction obols,,opinion,any,,Hyper obols are losing value unless they provide multikill per tier and construction obols are less valuable than before.,yes,3
+00:03:03,00:03:33,death_note,multikill obols,,comparison,any,,Prefer multikill per tier over flat multikill obols.,yes,3
+00:03:03,00:03:33,printer,Emperor obols,,comparison,any,,Emperor sparkle obols outperform Dementia obols for chopping and mining.,yes,2
+00:03:33,00:04:03,characters,equipment,,warning,any,keychains=47;tier=3,The account bought many tier-three keychains but has not equipped them or completed basic tool slots.,yes,3
+00:04:03,00:04:34,storage,equipment management,,warning,any,tarantulites_per_group=3,Useful equipment remains unused in inventory despite missing equipment on characters.,yes,3
+00:04:03,00:04:34,constellations,progression,,priority,any,,Complete star-sign progression.,yes,3
+00:04:34,00:05:04,constellations|breeding,infinite signs,,mechanic,any,active_signs=3,current_star_sign_count=1,Unlock three star-sign slots and use breeding to obtain infinite star signs.,yes,2
+00:05:04,00:05:34,library,talent books,,warning,any,,Rift Slug does not replace upgrading talents with library books.,yes,3
+00:05:34,00:06:05,class_choice,active setups,,priority,any,,Build functional Divine Knight and Bubonic Conjuror setups as major progression characters.,yes,3
+00:05:34,00:06:05,characters,Orb,divine_knight,priority,any,,Upgrade Orb heavily to make Divine Knight a strong loot farmer.,yes,3
+00:05:34,00:06:05,characters,Coliseums,bubonic_conjuror,comparison,any,worlds=5-6,Bubonic Conjuror is better for World Five and Six Coliseums.,yes,3
+00:06:05,00:06:35,characters,core talents,bubonic_conjuror,target,any,tenteyecle=200;cranium_cooking=200;sizzling_skull=200,Raise Tenteyecle and Cranium Cooking and Sizzling Skull to at least two hundred.,yes,2
+00:06:05,00:06:35,characters,support talents,bubonic_conjuror,priority,any,,Also develop Flatulent Spirit and Plague Stricken and Raise Dead and Symbols.,yes,2
+00:06:05,00:06:35,characters,Plague Stricken,bubonic_conjuror,mechanic,any,,Plague Stricken stacks skull effects through basic attacks.,yes,2
+00:06:05,00:06:35,characters,skulls,bubonic_conjuror,skip,w7,,Skulls become useless in World Seven.,yes,2
+00:06:35,00:07:05,characters,talent levels,bubonic_conjuror,target,any,ideal_level=400;current_goal=200,Four-hundred-level talents are ideal but two hundred is the realistic immediate target.,yes,3
+00:06:35,00:07:05,characters,Orb,divine_knight,account_note,any,base_level=230;effective_level=380,The account has invested somewhat in Orb.,yes,3
+00:07:05,00:07:36,characters,Statue and Megarang,divine_knight,priority,any,,Improve Statue and Megarang and address talent deficiencies through alchemy.,yes,3
+00:07:05,00:07:36,lab,chips,,priority,any,,Buy weekly chips if spending heavily and obtain Omega Nanochip and Omega Motherboard for every character.,yes,3
+00:07:05,00:07:36,lab,chips,,setup,any,,Aim for trophy and star-sign chips on every character and Choco Chips for several characters.,yes,3
+00:07:36,00:08:09,lab,mob respawn chips,,priority,any,,Mob-respawn chips are extremely strong and should be acquired early.,yes,3
+00:07:36,00:08:09,storage,carry capacity,,target,any,,Upgrade carry capacity to at least Void and preferably Marble.,yes,3
+00:08:09,00:08:39,characters,tools,,priority,any,,Equip skulls and traps and splicers on every character.,yes,3
+00:08:09,00:08:39,owl,progression,,account_note,any,progress=14,The reviewed Owl progression is reasonable for the account's age.,yes,2
+00:08:09,00:08:39,kangaroo,progression,,account_note,any,progress=7,The account has progressed Kangaroo while neglecting equipment.,yes,2
+00:08:39,00:09:09,anvil|storage,capacity,,mechanic,any,,Increasing carry capacity raises production storage capacity and helps prevent the demonstrated anvil overflow.,yes,2
+00:09:09,00:09:40,characters,equipment,,priority,any,account_age=about_3_weeks,Even a young account should equip basic armor such as Amarok.,yes,3
+00:09:40,00:10:10,stamps,Multitool Stamp,,priority,any,,Multitool is one of the strongest stamps especially when exalted.,yes,3
+00:09:40,00:10:10,stamps,Crystallin Stamp,,account_note,any,,Exalting Crystallin Stamp is a good choice.,yes,3
+00:09:40,00:10:10,islands,trash,,blocker,any,,Trash farming for the related stamp is time gated.,yes,3
+00:10:10,00:10:41,stamps,food-effect stamps,,priority,any,,Collect and improve both golden-food-effect and ordinary-food-effect stamps.,yes,3
+00:10:10,00:10:41,stamps,Purple Frog Stamp,,priority,any,,Purple Frog Stamp is a valuable trapping improvement.,yes,3
+00:10:10,00:10:41,stamps,collection,,priority,any,,Return to earlier content and collect missing stamps even on a heavily funded account.,yes,3
+00:10:41,00:11:11,stamps|spelunking,time gates,,how_to,w7,,Work on older upgrades while waiting for spelunking stamina and other World Seven time gates.,yes,3
+00:10:41,00:11:42,stamps,Multitool Stamp,,how_to,w5,divinity_levels=79-80,Complete Pogg's quest at Lampars to obtain Multitool Stamp then farm its materials and exalt it.,yes,2
+00:11:42,00:12:12,bubbles|cauldrons_liquids,Tremor Wurms,bubonic_conjuror,how_to,w5,,Use a functional Bubonic Conjuror at Tremors to generate liquid and unlock all bubbles.,yes,3
+00:11:42,00:12:12,bubbles,bubble unlocks,,priority,any,,Unlocking every alchemy bubble is a major priority.,yes,3
+00:11:42,00:12:12,bubbles|cooking,Diamond Chef,,mechanic,any,,Diamond Chef strongly accelerates cooking progression.,yes,3
+00:12:12,00:12:42,bubbles,Tri bubbles,,priority,any,bubbles=1-3,Unlock the three Tri damage bubbles because their damage contribution is substantial and often overlooked.,yes,2
+00:12:12,00:12:42,bubbles,Big P and sailing bubble,,priority,any,,Unlock the missing Big P and sailing-related bubbles.,yes,2
+00:12:12,00:12:42,statues,Bored Beans,,how_to,any,,Bored Beans can be used to farm statues with Choco Chip and adequate crystal bonuses.,yes,2
+00:12:42,00:13:12,statues,crystal farming,,account_note,any,card_stars=5;drop_rate=115,Five-star cards and Crystallin Stamp make statue farming feasible although the demonstrated drop rate is not fast.,yes,3
+00:13:12,00:13:44,sigils,early allocation,,skip,any,,Avoid assigning characters to sigils while core alchemy remains incomplete.,yes,3
+00:13:12,00:13:44,arcade,multikill per tier,,priority,any,,Multikill per tier is a strong arcade-shop bonus.,yes,3
+00:13:44,00:14:16,arcade,trapping critters,,opinion,any,,The trapping-critter arcade bonus is poor value.,yes,3
+00:14:16,00:14:46,arcade,Burger,,priority,any,,Always prioritize Burger as an exceptionally strong arcade bonus.,yes,2
+00:14:16,00:14:46,arcade,Emperor and sneaking and summoning,,priority,any,,Emperor bonuses and sneaking multiplier and summoning experience are worthwhile arcade choices.,yes,3
+00:14:46,00:15:16,islands,next unlock,,priority,any,,Choose Shimmer or Seasalt next depending on gear progression; Shimmer is preferable while salt locked.,yes,3
+00:14:46,00:15:16,islands,Fractal and Crystal,,skip,any,,Skip Fractal and Crystal for this account because buying candy reduces Crystal's value.,yes,3
+00:15:16,00:15:46,islands|stamps,Trash Island,,target,any,,Farm enough trash to obtain Golden Sixes Stamp.,yes,3
+00:15:16,00:15:46,islands,Rando Island,,warning,any,,Do not spend bottles on Rando.,yes,3
+00:15:16,00:15:46,islands,Shimmer Island,,priority,any,artifact_multipliers=2-5,Initially spend weekly Shimmer challenge points on skill efficiency because later artifacts multiply its value.,yes,3
+00:15:46,00:16:17,killroy,weekly routine,,priority,any,paid_multiplier=2,Run Killroy every week and purchase its doubling and reset options if already spending heavily.,yes,3
+00:15:46,00:16:17,killroy,long-term value,,mechanic,any,,Killroy begins weak but its heavily time-gated progression becomes highly rewarding.,yes,3
+00:16:17,00:16:48,killroy,Plinko income,,target,any,balls_per_week=500,Build enough Killroy progression to sustain five hundred weekly Plinko balls.,yes,3
+00:16:17,00:16:48,killroy,bonuses,,priority,any,,Killroy and Billy and Killwar Prime provide crop evolution and artifact chance and masterclass and gallery bonuses.,yes,3
+00:16:48,00:17:18,printer|prayers,Royal Sampler,,blocker,any,sample_rate=52%,Missing or unequipped Royal Sampler contributes to the poor sample rate.,yes,3
+00:17:18,00:17:48,printer,log samples,elemental_sorcerer,setup,any,oak_samples=1,Use Elemental Sorcerer for logs and always retain an oak sample.,yes,3
+00:17:18,00:17:48,printer,bug samples,siege_breaker,setup,any,fly_samples=1,Use Siege Breaker for bugs and always retain a fly sample.,yes,3
+00:17:18,00:17:48,printer,fish samples,death_bringer,setup,any,copper_samples=1,Use Death Bringer for fish with one copper-ore sample for atoms.,yes,3
+00:17:48,00:18:19,printer,ore samples,divine_knight,setup,any,copper_samples=1,Use the mining character for ores and retain a copper sample.,yes,2
+00:17:48,00:18:19,printer|refinery,monster samples,wind_walker,setup,any,,Use Wind Walker and Voidwalker for refinery monster materials including spores and sand and eyes and wool.,yes,3
+00:17:48,00:18:19,printer|vials,extra samples,voidwalker,how_to,any,vial_level=13,After covering refinery inputs use additional speedrun samples to pursue level-thirteen vials.,yes,3
+00:18:19,00:18:51,class_choice,old composition,,account_note,any,siege_breakers=2;elemental_sorcerers=2,The account follows an older composition with two Siege Breakers and two Elemental Sorcerers.,yes,3
+00:18:19,00:18:51,class_choice,class reset,,warning,any,resets=1,The class reset is limited rather than repeatedly purchasable.,yes,3
+00:18:51,00:19:21,class_choice,upcoming masterclasses,,skip,any,,Delay composition changes because upcoming masterclasses may alter the preferred setup.,yes,3
+00:18:51,00:19:21,refinery,red and green salts,,priority,any,,Keep red and green running and rank them up rather than using autorefine.,yes,3
+00:19:21,00:19:52,refinery,cycle balance,,how_to,any,,Watch cycle sustainability and manually refine when production cannot keep up.,yes,2
+00:19:21,00:19:52,refinery|damage,rank scaling,divine_knight,mechanic,any,creator_damage_bonus=30000%,High refinery ranks substantially increase Divine Knight damage.,yes,3
+00:19:52,00:20:24,refinery,late rank progression,,account_note,endgame,ranks=10000;claim_interval=about_2_minutes,Highly progressed accounts can have enormous refinery ranks and claim very frequently.,yes,2
+00:19:52,00:20:24,atom_collider,Boron,,priority,any,,Prioritize Boron because it makes alchemy upgrading much easier.,yes,3
+00:20:24,00:20:55,atom_collider|bubbles,Boron reset,,mechanic,any,,Upgrading Boron resets remaining daily atom bubble purchases to the newly available allowance.,yes,3
+00:20:55,00:21:26,atom_collider|bubbles,Boron reset loop,,how_to,any,,Spend all daily atom purchases then upgrade Boron and repeat to obtain extra purchases.,yes,3
+00:20:55,00:21:26,printer|atom_collider,Dementia sample,,priority,any,,Acquire a Dementia sample to support reaching Boron quickly.,yes,3
+00:21:26,00:21:57,bubbles,Larry and Diamond Chef,,priority,any,,Prioritize Larry when using Boron resets and then improve bubbles such as Diamond Chef.,yes,3
+00:21:26,00:21:57,equinox,Liquid Investment,,target,any,bonus=99%,Raise Liquid Investment to ninety-nine percent for strong Cranium Cooking farming support.,yes,3
+00:21:26,00:21:57,equinox,Matching Scims,,skip,any,,Leave Matching Scims alone initially.,yes,2
+00:21:57,00:22:27,equinox|worship,Slow Roast Wiz,,priority,any,,Slow Roast Wiz is important for high tower-defense progression.,yes,3
+00:21:57,00:22:27,equinox|gaming,Metal Detector,,priority,any,,Metal Detector helps obtain larger nuggets.,yes,3
+00:21:57,00:22:27,equinox|legend_talents,Metal Detector and Obsolete No More,,mechanic,any,,Combine Metal Detector with the no-reset nugget talent to keep improving nugget progression.,yes,3
+00:22:27,00:22:57,equinox,Equinox Symbols,,mechanic,any,,Equinox Symbols adds bonus talent levels similarly to Rift Slug.,yes,3
+00:22:27,00:22:57,equinox,Laboratory Fuse and Food Lust,,skip,any,,Do not prioritize Laboratory Fuse or Food Lust.,yes,3
+00:22:27,00:22:57,equinox,Faux Jewels and Matching Scims,,priority,any,,Leave these upgrades until more important Equinox bonuses are completed.,yes,2
+00:22:27,00:22:57,equinox,Voter Rights,,opinion,any,,Voter Rights matters little when players vote for additive experience bonuses.,yes,3
+00:22:57,00:23:29,dungeons,Happy Hour,,priority,any,rank=40;boosted_runs=48;credits=187,Run Happy Hours and obtain carries while spending available credits on upgrades.,yes,3
+00:23:29,00:24:00,upgrade_vault,progression,,account_note,any,,The account has the necessary Vault upgrades and lacks money for higher ones.,yes,3
+00:23:29,00:24:00,event_shop,purchases,,account_note,any,,The account bought extensive event upgrades including Golden Tome and automated mail and research-related bonuses.,yes,3
+00:24:00,00:24:30,vials,unlock brute force,,how_to,any,,Split materials into many stacks then stand at the vial cauldron and rapidly quick-drop them using shift.,yes,3
+00:24:30,00:25:01,buildings,Tiny Cogs,,mechanic,any,,Tiny Cogs removes material requirements so affected construction upgrades require only salt.,yes,2
+00:24:30,00:25:01,buildings,shrines,,account_note,any,,The account has unlocked all shrines.,yes,3
+00:25:01,00:25:31,construction,cog setup,divine_knight,setup,any,divine_knights=2,Rearrange construction around the two Divine Knights.,yes,3
+00:25:31,00:26:02,construction,character placement,divine_knight,how_to,any,,Use only Divine Knights on the board and direct booster cogs onto them.,yes,3
+00:25:31,00:26:02,construction,jeweled cogs,,comparison,any,purple_booster_limit=65%,Eventually replace weaker cogs with jeweled cogs whose rolls can surpass purple boosters.,yes,3
+00:26:02,00:26:32,death_note,Eclipse skulls,,account_note,any,,Farming Eclipse skulls is worthwhile progression.,yes,3
+00:26:02,00:26:32,w7_push,Litterfish and Demon Blob,,target,w7,,Push to Litterfish for Billy and potentially Demon Blob for Meritocracy then pause further pushing.,yes,3
+00:26:32,00:27:02,w7_push,Reliquary name tag?,,target,w7,comparison_rank=top_0.1%,A later name-tag milestone provides gains comparable to the top-point-one-percent tag.,yes,2
+00:27:02,00:27:33,w7_push,later milestones,,target,w7,,Later map goals unlock spelunking progression and Glimbo trades and the research mining minigame.,yes,2
+00:27:02,00:27:33,apocalypses|cooking,kill farming,death_bringer,priority,any,,Use Death Bringer for kill progression to build Wow and Chow and Super Chow bonuses for cooking.,yes,2
+00:27:33,00:28:03,worship,character levels,,priority,any,levels=41/1/61/42/89/65/77/50/1/15,Raise worship on every character instead of leaving several severely underleveled.,yes,3
+00:28:03,00:28:33,worship,Gospel Leader,,mechanic,any,max_charge=24%;levels=10,Gospel Leader increases maximum charge per ten worship levels.,yes,3
+00:28:03,00:28:33,worship,Breezy Battle and Puffer Blob,,priority,any,,Complete these tower defenses to unlock additional soul generation.,yes,3
+00:28:33,00:29:04,worship,pearls,,target,any,pearls=6000;minimum_level=50,Use the abundant pearls from Flutterby to raise every character's worship to at least fifty.,yes,3
+00:29:04,00:29:34,prayers,equipping prayers,,priority,any,,Equip appropriate prayers rather than relying entirely on passive prayer bonuses.,yes,3
+00:29:34,00:30:04,prayers,Big Brain Time,,skip,any,,Skip Big Brain Time.,yes,3
+00:29:34,00:30:04,prayers,Skilled Dimwit,,priority,any,,Max Skilled Dimwit.,yes,3
+00:29:34,00:30:04,prayers,Unending Energy,,skip,any,,Never use Unending Energy.,yes,3
+00:29:34,00:30:04,prayers,Shiny Snitch,,priority,any,,Eventually max Shiny Snitch when developing trapping.,yes,3
+00:29:34,00:30:04,prayers|gaming,No More Praying,,mechanic,any,passive_bonus=1/5,No More Praying grants a fraction of all prayer bonuses without curses.,yes,3
+00:30:04,00:30:35,prayers,No More Praying,,comparison,any,later_passive_bonus=3/5,Even improved passive prayer bonuses do not justify abandoning powerful equipped prayers.,yes,3
+00:30:04,00:30:35,prayers|spelunking,Skilled Dimwit,,mechanic,w7,,Skilled Dimwit also benefits spelunking.,yes,3
+00:30:04,00:30:35,prayers,experience curse,,mechanic,any,starting_multiplier=3;penalty=20%;resulting_multiplier=2.8,The experience penalty is additive rather than reducing the entire multiplier proportionally.,yes,3
+00:30:35,00:31:05,prayers,Skilled Dimwit,,account_note,w7,initial_value=500000;initial_xp=23_billion;value_gain=300000,Equipping Skilled Dimwit substantially raises the demonstrated World Seven skill value.,yes,2
+00:31:05,00:31:36,prayers,Zerg Rushogen,,priority,any,,Run Zerg Rushogen on non-active characters.,yes,2
+00:31:05,00:31:36,prayers,Tachion of the Titans,,warning,any,passive_fractions=1/5_or_2/5_or_3/5,Passive fractional prayer bonuses do not spawn giants so equip the giant prayer to obtain their candy.,yes,2
+00:31:05,00:31:36,prayers,Precision Balance,,skip,any,,Do not use Precision Balance.,yes,3
+00:31:05,00:31:36,prayers,Midas Minded,,priority,any,,Max Midas Minded for activities such as boss farming.,yes,3
+00:31:36,00:32:06,prayers,Jawbreaker,,mechanic,any,,Jawbreaker provides a true money multiplier and should be maxed.,yes,3
+00:31:36,00:32:06,prayers|money,Coral Guardians,,account_note,w7,money=13_cinema?,Equipping Jawbreaker greatly increases the demonstrated AFK money.,yes,1
+00:32:06,00:32:38,prayers|printer,Royal Sampler,,target,any,current_sample_rate=54%;passive_gain=about_2%;target_sample_rate=90%,Upgrade and equip Royal Sampler to approach ninety-percent sample size.,yes,3
+00:32:38,00:33:08,prayers,Royal Sampler,,mechanic,any,stated_penalty=80%,Royal Sampler's experience penalty is additive rather than removing eighty percent of total experience.,yes,3
+00:32:38,00:33:08,prayers,Antifun and Circular Criticals,,skip,any,,Do not prioritize Antifun or Circular Criticals.,yes,3
+00:32:38,00:33:08,prayers,Ruck Sack,,setup,any,,Ruck Sack is useful for active characters.,yes,3
+00:32:38,00:33:39,prayers,Fibers of Absence,,how_to,any,damage_tiers=about_51-52,Use Fibers of Absence later with substantial multikill or when unable to reach multikill for extra kills.,yes,2
+00:33:08,00:33:39,prayers,Beefy For Real,,opinion,any,,Beefy For Real is worth obtaining but not especially important.,yes,3
+00:33:08,00:33:39,prayers,Vacuous Tissue?,,priority,any,,The dungeon prayer is particularly useful during Happy Hour.,yes,2
+00:33:08,00:33:39,prayers,Balance of Pain,,priority,any,,Max Balance of Pain for multikill per tier.,yes,3
+00:33:08,00:33:39,prayers|traps,The Royal Proficiency,,how_to,any,,Use the efficiency-for-experience prayer with Nature Traps because trapping experience does not require efficiency.,yes,2
+00:33:39,00:34:10,prayers,Glitterbug,wind_walker,how_to,any,,Glitterbug helps Wind Walker medallion farming.,yes,3
+00:33:39,00:34:10,traps,Nature Traps,,priority,any,,Equip and develop Nature Traps while salt shortages prevent stronger traps.,yes,3
+00:34:10,00:34:40,traps,equipped traps,,mechanic,any,,Higher equipped traps unlock lower trap types for placement and also function as stat equipment.,yes,3
+00:34:10,00:34:40,traps,Silkskin Traps,,how_to,any,,Use Silkskin Traps initially for improved shiny chance and critter quantity.,yes,3
+00:34:40,00:35:11,traps|rift,Nature Traps,,how_to,any,quantity=0;duration=20_hours,With Critter Vacuum place twenty-hour Nature Traps for automated experience farming.,yes,3
+00:34:40,00:35:11,traps,Egalitarian Traps,,target,any,,Progress from Silkskin to Egalitarian Traps for stronger shiny farming.,yes,3
+00:35:11,00:35:42,traps|prayers,experience setup,voidwalker,how_to,any,,Place Nature Traps through Voidwalker using Transfusion and the proficiency prayer.,yes,3
+00:35:11,00:35:42,traps,experience scaling,,mechanic,any,,Trapping experience depends on skill-experience bonuses while efficiency affects critter quantity.,yes,3
+00:35:42,00:36:13,armor_smithy,early sets,,priority,any,,Complete Amarok and Efaunt and Dementia and Void armor sets before harder gear progression.,yes,3
+00:36:13,00:36:43,armor_smithy,Troll armor,,priority,any,,Prioritize Troll armor despite salt requirements because it supports the main upgrade path.,yes,3
+00:36:13,00:36:43,armor_smithy,Diabolical armor,,warning,any,sets=1,Only make one Diabolical set for collection bonuses because its upgrade path ends there.,yes,3
+00:36:43,00:37:13,armor_smithy,dead-end sets,,mechanic,any,,Chizoar and Efaunt and Amarok are dead-end equipment paths but one set is useful for set bonuses.,yes,3
+00:36:43,00:37:13,hat_rack,progression,,blocker,any,,The account is too early for substantial Hat Rack development and needs further sneaking progression.,yes,3
+00:37:13,00:37:44,forge|hole,forge capacity,,priority,any,,Build forge capacity especially through Hole bonuses to accelerate large bar claims.,yes,3
+00:37:13,00:37:44,forge,Smelting Everyday,,mechanic,any,,Smelting Everyday grants a chance of forge progress per kill and works with AFK kills.,yes,3
+00:37:44,00:38:14,forge|buildings,time candy,,how_to,any,candy=1_hour;comparison_candy=72_hours,Use one-hour candy at Green Mushrooms because forge capacity caps output and Automation Arm refills only after claims.,yes,3
+00:38:14,00:38:44,forge,Smelting Everyday demonstration,,account_note,any,ore=448_million;proc_chance=44%;progress=10_seconds;candy=1_hour;bars=168_million,High capacity and Smelting Everyday yield a large bar claim from one hour of candy.,yes,3
+00:39:14,00:39:45,cooking,ladle production,,blocker,any,,Purchased meal progression exceeds the account's cooking efficiency and reliable ladle production.,yes,3
+00:39:45,00:40:15,cooking,meal progression,,how_to,any,,Go through the full meal list and level each meal.,yes,3
+00:39:45,00:40:15,cooking,Blood Marrow,voidwalker,target,any,cap=about_296;safe_target=300,Book and raise the cooking-scaling talent toward its cap to exploit accumulated meal levels.,yes,2
+00:40:15,00:40:46,cooking,Yumi Peach Ring,,priority,any,ribbon_tier=20,Make Yumi Peach Ring the first tier-twenty ribbon because it is the strongest meal.,yes,3
+00:40:46,00:41:16,cooking,Cauliflower,,target,any,ribbon_tier=8-9,Give Cauliflower a tier-eight or nine ribbon for major attack-speed improvements to active farming.,yes,3
+00:40:46,00:41:16,cooking,Cannoli,,target,any,ribbon_tier=about_10,Consider a tier-ten Cannoli ribbon for increased worship points.,yes,3
+00:41:16,00:41:47,breeding|constellations,infinite signs,,priority,any,,Complete star-sign unlocks because infinite star signs are already available.,yes,3
+00:41:16,00:41:47,breeding,territory setup,,setup,any,targeters=3;fleeters=1,Try three Targeters and a Fleeter before transitioning to whales.,yes,2
+00:41:47,00:42:18,breeding,arena,,account_note,any,arena_round=68,The account's arena progression is far behind its other systems.,yes,3
+00:41:47,00:42:18,breeding|characters,Voidwalker support,voidwalker,target,any,talent_level=250,Raise the support talent to two hundred fifty so Wind Walker active kills grant breeding progression.,yes,2
+00:41:47,00:42:18,lab,jewels,,priority,any,,Buy jewels weekly if pursuing paid progression.,yes,3
+00:42:18,00:42:49,lab,jewel purchases,,mechanic,any,,Gem-shop jewel purchases are guaranteed unlocks rather than random duplicate rolls.,yes,3
+00:42:18,00:42:49,lab,level unlocks,,target,any,total_levels=2100;jewels=3,Reach twenty-one hundred total lab levels for three jewel unlocks.,yes,3
+00:42:18,00:42:49,lab,later jewels,arcane_cultist,mechanic,any,jewels=3,Three later jewels are tied to Arcane Cultist progression.,yes,2
+00:42:18,00:42:49,rift,Skill Mastery,,priority,any,,Target passive skill cards through Skill Mastery.,yes,3
+00:42:49,00:43:20,rift|library,Construction Mastery,,target,any,additional_levels=100,Reach the next Construction Mastery milestone for higher library books and refinery-related progression.,yes,2
+00:42:49,00:43:20,tome,early ranking,,skip,early,account_age=3_weeks,Do not focus on Tome ranking this early.,yes,3
+00:43:20,00:43:50,tome,top ranking,,threshold,any,target_rank=0.1%;minimum_time=6_months,Even extreme spending requires months of sustained play to approach top-point-one-percent Tome because of time gates.,yes,3
+00:43:20,00:43:50,sailing|library,Fury Relic,,warning,any,artifact_tier=Eldritch,The account already has Eldritch Fury Relic and should have much better talent levels.,yes,3
+00:43:50,00:44:20,sailing,upkeep,,priority,any,,Keep upgrading sailing and work toward stronger later captains.,yes,3
+00:43:50,00:44:20,divinity,Harriep,,setup,any,linked_characters=1,Keep at least one character linked to Harriep.,yes,2
+00:43:50,00:44:20,divinity|zenith_market,Arctis,,priority,any,,Raise divinity levels to maximize Arctis talent points as Zenith clusters amplify the bonus.,yes,3
+00:44:20,00:44:50,gaming,snail,,blocker,any,account_age=3_weeks;bit_tier=red,The account has strong early gaming progression but is bottlenecked by snail.,yes,3
+00:44:50,00:45:20,gaming|spelunking,snail mail,,how_to,w7,stamina_restore_chance=30%;characters_per_run=3,With ample stamina run the first spelunking map deeply using stamina potions and rotate three-character groups for snail mail.,yes,3
+00:45:20,00:45:52,gaming,snail,,account_note,any,snail_level=3,Level-three snail is a rough progression bottleneck.,yes,3
+00:45:20,00:45:52,hole,progression,,blocker,any,,Hole progression is heavily time gated through required hours.,yes,3
+00:45:20,00:45:52,hole,Bell,,priority,any,,Bell upgrades provide the best immediate progression value for this account.,yes,3
+00:45:52,00:46:24,hole,Bell bonuses,,mechanic,any,,Bell improves bucket fill and villager experience and harp notes and wishes and rupee chance and double torches.,yes,3
+00:45:52,00:46:24,hole,Bell priorities,,priority,any,,Prioritize villager experience and daily wishes; bucket fill is helpful but less necessary.,yes,3
+00:46:24,00:46:55,hole,wishes,,warning,any,,Never spend wishes on Bring Them Back.,yes,3
+00:46:24,00:46:55,hole,wish allocation,,priority,any,,Use wishes for World Five and infinite resources and World Six then World Seven and World Four bonuses and opals.,yes,3
+00:46:55,00:47:27,hole,Grotto,,mechanic,any,,Grotto provides substantial villager experience.,yes,3
+00:46:55,00:47:27,hole|statues,Temple,,mechanic,any,,Temple provides Dragon Statues that multiply other statue bonuses.,yes,3
+00:46:55,00:47:27,statues|zenith_market,print scaling,,opinion,any,print_contribution=99%,Zenith and statue doubling make statue bonuses overwhelmingly important for samples.,yes,2
+00:47:27,00:47:59,hole,Grotto farming,,priority,any,,Assign several characters to AFK Grotto after unlocking it.,yes,3
+00:47:27,00:47:59,hole|statues,multikill per tier,,setup,any,temple_number=15,Use multikill per tier for Grotto Glooies and Temple Golems because their relevant drops occupy the first loot slot.,yes,3
+00:47:59,00:48:30,statues,Dragon Statue drops,,mechanic,any,,Multikill per tier increases Dragon Statue drops because Dragon Statues are first on the relevant loot table.,yes,3
+00:47:59,00:48:30,slab,easy collection,,priority,any,,Collect easy missing items such as marbles and Bone Meal and Icebreaker.,yes,2
+00:48:30,00:49:00,farming,bean trade,,priority,any,,Perform a bean trade immediately to unlock Overgrowth.,yes,3
+00:48:30,00:49:31,farming,Overgrowth,,mechanic,any,multipliers=1/2/4/8/16/32/64,Overgrowth repeatedly doubles crop output and greatly accelerates progression.,yes,3
+00:49:00,00:49:31,farming,Evolution GMO,,mechanic,any,crops_each=200,Accumulating two hundred of each crop improves crop evolution through Evolution GMO.,yes,3
+00:49:00,00:49:31,farming,Speed GMO,,mechanic,any,crops_each=1000,Accumulating one thousand of each crop improves growth speed through Speed GMO.,yes,3
+00:49:00,00:49:31,farming,bean trade,,account_note,any,beans=335,The available bean trade is sufficient to begin the needed reset and unlock progression.,yes,3
+00:49:31,00:50:02,farming,Land Ranks,,blocker,any,,Land Ranks require enough crop progression before they can unlock.,yes,3
+00:50:02,00:50:33,farming,early Night Market,,how_to,any,,Unlock Overgrowth then invest in Evolution GMO and Speed GMO until Land Ranks become available.,yes,3
+00:50:02,00:50:33,farming,post-Land Ranks,,priority,any,,After Land Ranks unlock invest more in Product Value and develop Speed and Evolution and Value GMO.,yes,3
+00:50:33,00:51:03,farming,Product Value,,target,any,cap=10000,Aim for the ten-thousand Product Value cap before Exotic Market raises it.,yes,3
+00:50:33,00:51:03,farming,Day Market,,priority,any,,Prioritize land plots with Strong Vines and Nutritious Soil also important.,yes,3
+00:50:33,00:51:03,farming,Day Market,,skip,any,,Do not focus on Smarter Seeds or Biology yet.,yes,3
+00:51:03,00:51:34,farming,Product Doubler,,priority,any,,Product Doubler is a worthwhile Day Market upgrade.,yes,3
+00:51:03,00:51:34,farming|research,stickers,,account_note,any,,The account has begun obtaining stickers and their bonuses.,yes,3
+00:51:03,00:52:04,farming,growth speed,,comparison,any,sushi_time=1_hour_51_minutes;mushroom_time=2_hours;optimized_time=0.3?,Night Market bonuses can reduce hour-long crops to effectively instant harvests faster than their animations.,yes,2
+00:52:04,00:52:34,sneaking,starter build,,setup,any,double_lotus_characters=2,After Charmed I'm Sure use Brown Veil and Beads on most characters with double Lotus on two supports.,yes,3
+00:52:34,00:53:04,sneaking,Veil and Beads,,mechanic,any,,Veil and Beads combine multiplicatively.,yes,3
+00:52:34,00:53:04,sneaking,Lotus supports,,mechanic,any,,Double-Lotus supports may be caught immediately but still provide stealth to the other characters.,yes,3
+00:52:34,00:53:04,sneaking,later pushing,,setup,any,pushers=1,Use one Veil-and-Beads pusher with Yellow Belt and Lotus on everyone else.,yes,3
+00:53:04,00:53:35,sneaking,gemstone farming,,setup,any,,Use Yellow Belt and Meteorite at lower difficulty to farm gemstones.,yes,3
+00:53:04,00:53:35,sneaking,gemstones,,priority,any,,Gemstones scale strongly and are an important progression target.,yes,3
+00:53:04,00:53:35,summoning,Endless,,priority,any,progress=15/215,Push Endless when possible although Teal progression is difficult.,yes,2
+00:53:35,00:54:05,summoning,Sharpened Spikes,,priority,any,,Double Sharpened Spikes for a major damage source.,yes,3
+00:53:35,00:54:05,summoning,Final Card,,priority,any,,Final Card is valuable for mana generation.,yes,3
+00:53:35,00:54:05,summoning,Seeing Red,,priority,any,,Double Seeing Red to support Endless damage scaling.,yes,3
+00:54:05,00:54:36,summoning,Seeing Red strategy,,how_to,any,health_lost=90%,Lose most health to scale damage then push back with stronger spikes.,yes,3
+00:54:05,00:54:36,summoning,Honderei?,,mechanic,any,mana_spent_multiple=100,The later upgrade grants additional damage when summoning spends one hundred times a unit's mana cost.,yes,2
+00:54:36,00:55:06,summoning,later upgrades,,priority,any,,Develop Serrated Spikes and mana regeneration then improve direct damage upgrades.,yes,3
+00:54:36,00:55:06,beanstalk,Golden Dumplings,,target,any,quantity=100000,Hand in one hundred thousand Golden Dumplings for account-wide benefits.,yes,3
+00:55:06,00:55:36,beanstalk,Golden Grilled Cheese,,target,any,quantity=100000,Aim to deposit one hundred thousand Golden Grilled Cheese.,yes,3
+00:55:06,00:55:36,beanstalk,priority foods,,priority,any,,Focus on Golden Ham and Golden Cheese and Golden Grilled Cheese and Golden Hamsters and Golden Dumplings.,yes,3
+00:55:06,00:55:36,beanstalk,later foods,,skip,any,,Leave Golden Cake and Golden Saltwater Taffy for later while deprioritizing Golden Bread and Golden Ribs deposits.,yes,3
+00:55:36,00:56:07,characters,endgame food setup,,setup,endgame,,Generally equip Golden Cake and Golden Dumplings and Golden Grilled Cheese and Golden Cheese and Golden Ham.,yes,3
+00:55:36,00:56:07,characters,golden food effects,,mechanic,endgame,,The core golden foods support skill experience and shrine experience and all-stat percentage and AFK gains and drop rate.,yes,3
+00:55:36,00:56:07,characters,Golden Bread,divine_knight,setup,any,,Swap to Golden Bread for Divine Knight money farming.,yes,3
+00:55:36,00:56:07,printer,golden foods,,setup,any,,Use Golden Peanuts and Golden Ribs conditionally for samples.,yes,3
+00:56:07,00:56:37,characters,Golden Kebabs,,warning,any,,Golden Kebabs are worthwhile with Samurai and a full weapon-power-food setup but weak without that combination.,yes,3
+00:56:07,00:56:37,emperor,progression,,priority,any,,Increase damage to advance Emperor.,yes,3
+00:56:07,00:56:37,spelunking,POW,,priority,w7,,Spelunking offers the account's largest immediate POW progression gains.,yes,3
+00:56:37,00:57:07,spelunking,Warhammer,,priority,w7,,Hard-focus the Warhammer upgrade tab.,yes,3
+00:56:37,00:57:07,spelunking,Elixirs,,priority,w7,,Elixirs are the next major source of progression after Warhammer upgrades.,yes,3
+00:56:37,00:57:07,spelunking|gaming,snail mail unlock,,mechanic,w7,levels=1,One level in the relevant upgrade enables snail-mail drops from spelunking.,yes,3
+00:57:07,00:57:39,spelunking,stamina allocation,,warning,w7,,Do not spend all stamina on snail-mail farming before its unlock; prioritize POW and amber upgrades first.,yes,3
+00:57:07,00:57:39,spelunking,lore,,priority,w7,,Focus lore discoveries because they strongly improve early POW and amber generation.,yes,3
+00:57:39,00:58:10,spelunking,Discovering POW,,mechanic,w7,,Discovering POW multiplies POW for each discovery made.,yes,3
+00:57:39,00:58:10,spelunking,Amber on the Brain,,priority,w7,,Amber on the Brain is a useful early upgrade.,yes,3
+00:57:39,00:58:10,spelunking,Rope Subsidy,,mechanic,w7,,Rope Subsidy multiplies amber when taking a rope.,yes,3
+00:58:10,00:58:40,spelunking,Grand Discoveries,,skip,w7,,Grand Discoveries matters later but is not an immediate target for this account.,yes,3
+00:58:10,00:58:40,spelunking,Special Features,,how_to,w7,depths=12,Improve best hauls across spelunking depths because their combined records provide valuable bonuses.,yes,2
+00:58:40,00:59:10,research,Tiny Cogs,,target,w7,needed_level=1;unnecessary_level=4,Only one Tiny Cogs level is necessary rather than maxing all four immediately.,yes,3
+00:59:10,00:59:42,research,Gaming Zuper and Smart Eye,,priority,w7,,Avoid excessive Gaming Zuper investment and prioritize more Smart Eye levels.,yes,2
+00:59:10,00:59:42,research,Mass Research and Spelunking Research,,priority,w7,,Mass Research and Spelunking Research are good investments.,yes,3
+00:59:42,01:00:13,research,Game Design,,priority,w7,upgrades=101_and_102,Game Design 101 and 102 are important missing upgrades.,yes,3
+00:59:42,01:00:13,research,early experience,,how_to,w7,,Initially build flat research experience and multipliers then use Kaleidoscope bonuses to scale them.,yes,3
+01:00:13,01:00:44,research,Insight,,priority,endgame,,Large Insight amounts across observations become the central late research-experience source.,yes,3
+01:00:13,01:00:44,research,duplicate notes,,threshold,w7,level=40;duplicates=2,At level forty equip duplicate notes such as two Kaleidoscopes or two Magnifying Glasses.,yes,3
+01:00:13,01:00:44,research,shape layout,,warning,w7,,The displayed shape layout is not necessarily optimized and should not be copied blindly.,yes,3
+01:00:44,01:01:14,gallery,priority exhibits,,priority,w7,targets=3;owned=1,Prioritize Luckiest Lad and Heroic Spirit and Darter Trophy.,yes,2
+01:00:44,01:01:14,legend_talents,Obsolete No More,,priority,w7,,Obsolete No More is strong alongside Metal Detector.,yes,3
+01:00:44,01:01:14,legend_talents,Extended Database,,skip,w7,,Extended Database is unnecessary before Land Ranks unlock.,yes,3
+01:01:14,01:01:44,legend_talents,cog talent,,target,w7,levels=1,At least one point in the jeweled-cog talent would help.,yes,2
+01:01:14,01:01:44,legend_talents,Summoning Fill Me?,,priority,w7,,The summoning-related talent is exceptionally strong.,yes,2
+01:01:14,01:01:44,legend_talents,portal and Death Note kills,,priority,w7,,Acquire the extra-kill talent for portals and Death Note while multikill remains limited.,yes,3
+01:01:44,01:02:14,legend_talents,skill experience,,priority,w7,,The experience talent benefiting skills except World Seven research is worthwhile.,yes,2
+01:01:44,01:02:14,legend_talents,sigils,,skip,w7,,Do not prioritize sigil-related talent investment yet.,yes,3
+01:01:44,01:02:14,legend_talents,Refinery Cycle,,priority,w7,,Invest in refinery-cycle bonuses while salt locked.,yes,3
+01:01:44,01:02:14,legend_talents,Purebred Eggs,,priority,w7,,Purebred Eggs becomes useful when pushing breeding.,yes,3
+01:01:44,01:02:14,legend_talents,Davy Jones,,priority,w7,,Davy Jones helps later sailing progression.,yes,3
+01:01:44,01:02:14,legend_talents,Exotic Market and gold charms,,skip,w7,,Delay Exotic Market and gold-charm and faster-regeneration talents for now.,yes,3
+01:01:44,01:02:14,legend_talents,Opal Style,,priority,w7,,Opal Style may be useful for villager experience.,yes,2
+01:02:14,01:02:45,legend_talents,Poppy multiplier,,account_note,w7,multiplier=5,The fivefold Poppy bonus helps explain the account's rapid progression.,yes,3
+01:02:14,01:02:45,legend_talents,active card bonus,,priority,w7,,The talent increasing actively equipped card bonuses is very strong.,yes,3
+01:02:14,01:02:45,legend_talents,ballot multiplier,,priority,w7,,The ballot multiplier talent is a good choice.,yes,3
+01:02:14,01:02:45,coral_reef,coral gain,,blocker,w7,,Low coral generation limits further related progression.,yes,3
+01:02:45,01:03:15,zenith_market|clam_work|advice_fish|minehead|glimbo,later systems,,skip,w7,,The account has not progressed far enough for these later systems to be immediate review targets.,yes,3
+01:02:45,01:03:15,cards,Chaotic Troll,,priority,any,,Farm Chaotic Troll and double its card when using skill-efficiency setups.,yes,3
+01:03:15,01:03:46,statues,Onyx versus Zenith,,threshold,any,onyx_drop_rate=about_30;zenith_drop_rate=300_plus;current_drop_rate=100,The account can finish Onyx statues but lacks sufficient drop rate for efficient Zenith farming.,yes,3
+01:03:15,01:03:46,cards,chaotic bosses,,how_to,any,potential_drop_rate=300,Use available boss keys to farm chaotic cards with an improved drop-rate setup.,yes,2
+01:03:46,01:04:18,characters,account balance,,warning,any,account_age=3_weeks,The account has advanced quickly but should stop neglecting individual characters.,yes,3
