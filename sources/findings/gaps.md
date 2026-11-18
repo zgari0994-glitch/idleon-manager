@@ -19,5 +19,19 @@ Loop: card run-through (1 by 1, dailies + tasks) -> Zack says what is wrong / un
 | 11 | 2026-11-17 | Autistocat / Lab | Is Lab a priority now, and what to do there (Griffy: big multipliers; Choco Chip prep) | open |
 | 12 | 2026-11-17 | Autistocat / Tesseract | How to push Tesseract; it needs active play until ~1,000 of its currency (Zack) | open |
 | 13 | 2026-11-17 | Autistocat / all | Daily run still has no real guidance (rinse lines only): playbooks | open |
+| 14 | 2026-11-17 | Autisticles / Statues | Onyx base bonus 3 -> 7: what it means and what to do | open |
+| 15 | 2026-11-17 | Autistomatic / Statues | Demon Genie card row says 'minimum 3 star' but shows 6 -> 7: what is it really (6 star is max?) | open |
+| 16 | 2026-11-17 | Autisticles / Sushi | What to do at Sushi Station: keep combining? method? | open |
+| 17 | 2026-11-17 | Autisticles / Menagerie | How to get Shells (3 for rank 4) | open |
+| 18 | 2026-11-17 | Autisticles / Menagerie | Pink Jellyfish unlock: what it takes | open |
+| 19 | 2026-11-17 | Autistacular / Sneaking | Path to Sneaking Mastery 2 (Menagerie mission) | open |
+| 20 | 2026-11-17 | Autisticles / Clam Work | How to push Clam Work (likely active) | open |
+| 21 | 2026-11-17 | Autisticles / Jelly Operator | Unlock plan + who unlocks it | open |
+| 22 | 2026-11-17 | Autistomatic / Zenith | 1M of one statue for Zenith Market: active-day plan | open |
+| 23 | 2026-11-17 | Autisticles / Arcade | Arcade Bonus 0 11 -> 101: how, is it possible | open |
+| 24 | 2026-11-17 | Autisticles / AFK | Siege Breaker forge AFK: which map (Zack guesses Green Mushrooms) + how it works | open |
+| 25 | 2026-11-17 | Account / Prints | Fish + other prints (Goldfish, Spore Cap) need an owner | open |
+| 26 | 2026-11-17 | Autistastic / Islands | Which islands benefit from drop rate (RG #1 owns islands) | open |
+| 27 | 2026-11-17 | All / Legend Talents | Held until transcripts reviewed; Blue Ribbon was an AutoReview target, not Griffy-certified | open |
 
 ## Done

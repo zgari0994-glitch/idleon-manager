@@ -92,10 +92,14 @@ def pick(e, who):
         k = key(e['s'], path, a)
         if e.get('m') and not re.search(e['m'], path + ' :: ' + a['label'], re.I): continue
         if e.get('rest') and k in claimed: continue
+        if e.get('itype'):
+            t = ITYPE.get(a['label'].split(':')[0].strip().lower())
+            if t is None and not e.get('levers'): continue          # non-item rows (levers) only on the job marked levers
+            if t is not None and t != e['itype']: continue
         lk = next((l for l in Y.get('locked', []) if l.get('match') and l['match'] in path), None)
         out.append({'locked': f"LOCKED -> {lk['unlock']}" if lk else '', 'section': e['s'], 'group': g.get('name', '')[:70], 'label': re.sub(r'\s+', ' ', a['label'])[:150],
                     'cur': a.get('cur', ''), 'goal': a.get('goal', ''), 'score': SCORE.get((e['s'], a['label']), 0),
-                    'ready': ready(a), 'infinite': '∞' in str(a.get('goal')) or a.get('cur') == 'Linear' or (num(a.get('goal')) or 0) >= 9999})
+                    'ready': ready(a), 'infinite': '∞' in str(a.get('goal')) or a.get('cur') == 'Linear' or bool(re.fullmatch(r'9{4,}', str(a.get('goal', '')).replace(',', '')))})
     return out
 
 def tier(n):
@@ -150,6 +154,18 @@ MAPS = {v.replace('_', ' '): int(k) for k, v in json.load(open(os.path.join(R, '
 def world_of(map_name):
     i = MAPS.get(map_name)
     return None if i is None else min(7, i // 50 + 1)
+import sys as _sys
+_sys.path.insert(0, '/home/claude/ar/mysite')
+from consts.generated.raw_item_data import raw_item_data as _RD
+ITYPE = {}
+for _v in _RD.values():
+    if isinstance(_v, dict) and _v.get('Name'): ITYPE.setdefault(_v['Name'].lower(), _v.get('Type', ''))
+ROUTES = Y.get('lever_routes', [])
+def route_of(label):
+    for r in ROUTES:
+        if re.search(r['m'], label, re.I): return r['owner']
+    return None
+ROUTED = {}
 ATASKS = Y.get('active_tasks', [])
 # Toolbox dashboard timers (newest timers.json across snapshots; age shown)
 tfiles = sorted(os.path.join(R, 'snapshots', d, 'timers.json') for d in os.listdir(os.path.join(R, 'snapshots'))
@@ -271,6 +287,10 @@ for name, cfg in Y['characters'].items():
                 for f0 in fin:   # best push per group, up to 3 per sub-system
                     if f0['group'] in seen_g: continue
                     seen_g.append(f0['group'])
+                    ro = route_of(f0['label'])
+                    if ro and ro != name:
+                        if not any(f0['label'][:60] in x for x in ROUTED.get(ro, [])): ROUTED.setdefault(ro, []).append(f"{f0['label'][:80]} {f0['cur']} -> {f0['goal']} (toward {name} {j['job']})")
+                        st.append(f"{pre}Lever on {ro}: {f0['label'][:60]}"); continue
                     st.append(f"{pre}Push: {f0['label'][:80]} {f0['cur']} -> {f0['goal']}" + (f" · {f0['locked']}" if f0.get('locked') else ''))
                     if len(seen_g) == 3: break
             if not st: st.append('No rinse data: ' + (j.get('note') or j.get('state') or 'needs a playbook'))
@@ -280,6 +300,9 @@ for name, cfg in Y['characters'].items():
     card['daily'] = daily
     cards.append(card)
 
+for cd in cards:
+    if ROUTED.get(cd['name']):
+        cd['daily'].insert(len(cd['daily']), {'block': 'Levers for other jobs', 'kind': 'lever', 'steps': ROUTED[cd['name']][:6]})
 # ---------- account block ----------
 alerts = []
 for al in Y.get('alerts', []):

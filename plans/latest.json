@@ -176,7 +176,7 @@
          "goal": "10K",
          "score": 128,
          "ready": false,
-         "infinite": true
+         "infinite": false
         },
         {
          "locked": "",
@@ -187,7 +187,7 @@
          "goal": "10K",
          "score": 128,
          "ready": false,
-         "infinite": true
+         "infinite": false
         }
        ],
        "more": 1
@@ -323,7 +323,7 @@
          "goal": "13320",
          "score": 0,
          "ready": false,
-         "infinite": true
+         "infinite": false
         }
        ],
        "more": -1
@@ -928,9 +928,9 @@
          "locked": "",
          "section": "Death Note",
          "group": "All kills for Autiszemo without a filter. Have fun",
-         "label": "Nutto in The Roots",
+         "label": "Rift Monsters in The Rift",
          "cur": "",
-         "goal": "0",
+         "goal": "683,471,334",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -939,9 +939,9 @@
          "locked": "",
          "section": "Death Note",
          "group": "All kills for Autiszemo without a filter. Have fun",
-         "label": "Green Mushroom in Mummy Memorial",
+         "label": "Poops in The Office",
          "cur": "",
-         "goal": "0",
+         "goal": "360,533",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -1094,6 +1094,7 @@
       "Farming: Push: Stronger Vines:+90/112% chance for +1 crop when fully grown 45 -> 56",
       "Farming: Push: Medal Crop 20 chance8.6e+45 for 100% chance 0.00% -> 100%",
       "Farming: Push: More Beenz:+74/1000% magic beans gained when trading in crops 37 -> 500",
+      "Beanstalk: Push: Golden Peanut: Smithing 6.36K -> 10K",
       "Beanstalk: Push: Golden Peanut:Increases Mining Efficiency by 0/657.43%. 0 -> 3"
      ]
     },
@@ -1102,8 +1103,8 @@
      "kind": "rinse",
      "steps": [
       "Push: Unlock max level 150 plates 90 -> 150",
-      "Push: Artifact: Omnipotent Causticolumn 0 -> 1",
-      "Push: Turkey of Thank: +1,229.999% Total DamageTier 10 Ribbon = 2.350x multi 90 -> 180"
+      "Push: Info - Total Meal Levels (6,901 levels to go!) 6419 -> 13320",
+      "Push: Artifact: Omnipotent Causticolumn 0 -> 1"
      ]
     },
     {
@@ -1707,9 +1708,9 @@
          "locked": "",
          "section": "Summoning",
          "group": "Doublers and Upgrades",
-         "label": "20/23 total doublers spent",
-         "cur": "20",
-         "goal": "23",
+         "label": "13 Summoning Doublers earned from Cavern 14- GambitNext Doubler at 123.118K Total Gambit PTS (34,648 to go!)",
+         "cur": "88.470K",
+         "goal": "123.118K",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -1718,9 +1719,9 @@
          "locked": "",
          "section": "Summoning",
          "group": "Doublers and Upgrades",
-         "label": "Familiar",
-         "cur": "0",
-         "goal": "25",
+         "label": "20/23 total doublers spent",
+         "cur": "20",
+         "goal": "23",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -2180,6 +2181,14 @@
      "steps": [
       "Defeat the lore boss of Spelunking cave 5 Chucklemire. Now: Pebble Cove boss done, deepest Pebble Cove 9 / Sedimeadow 8; Rustbelt 03, Blushpit, Chucklemire not reached"
      ]
+    },
+    {
+     "block": "Levers for other jobs",
+     "kind": "lever",
+     "steps": [
+      "Sample It bubble: +9.06/10% 123 -> 200 (toward Autisticles Bug prints)",
+      "Kruk be Bubblin': Kattlekruk gives +0 more Bubble LVs per day for each of his bu 0 -> 5 (toward Autisticles W7 minis)"
+     ]
     }
    ]
   },
@@ -2199,8 +2208,7 @@
      "job": "Sailing",
      "basis": "class",
      "tiers": {
-      "Sailing": "16/22",
-      "Islands": "3/4"
+      "Sailing": "16/22"
      },
      "subs": [
       {
@@ -2289,82 +2297,6 @@
         }
        ],
        "more": 39
-      },
-      {
-       "name": "Islands: Unlock all Islands",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Islands",
-         "group": "Unlock all Islands",
-         "label": "Unlock Fractal Island",
-         "cur": "0",
-         "goal": "1",
-         "score": 127,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": -1
-      },
-      {
-       "name": "Islands: Fractal Nothing hour rewards",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Islands",
-         "group": "Fractal Nothing hour rewards",
-         "label": "1 in 100000 chance for Master of Nothing Trophy per hour of Nothing AFK",
-         "cur": "0",
-         "goal": "24",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Islands",
-         "group": "Fractal Nothing hour rewards",
-         "label": "1.25x Dungeon Credits and Flurbos gained",
-         "cur": "0",
-         "goal": "200",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 6
-      },
-      {
-       "name": "Islands: 1/7 Unique Random Event drops found",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Islands",
-         "group": "1/7 Unique Random Event drops found",
-         "label": "Grumbie the Hatchet Hammer (Mega Grumblo)",
-         "cur": "0",
-         "goal": "1",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Islands",
-         "group": "1/7 Unique Random Event drops found",
-         "label": "Skewered Snek (Snake Swarm)",
-         "cur": "0",
-         "goal": "1",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 4
       }
      ],
      "next": [
@@ -2409,13 +2341,6 @@
         "world-5/sailing"
        ],
        "sources": "24 tagged / 345 chunks"
-      },
-      {
-       "system": "islands",
-       "toolbox": [
-        "world-2/islands"
-       ],
-       "sources": "7 tagged / 0 chunks"
       }
      ]
     },
@@ -2434,26 +2359,26 @@
          "locked": "",
          "section": "Sampling",
          "group": "Improve material samples",
-         "label": "Goldfish",
-         "cur": "111.85M",
-         "goal": "150.0M",
+         "label": "Fly",
+         "cur": "131.29M",
+         "goal": "454.0M",
          "score": 132,
          "ready": false,
-         "infinite": true
+         "infinite": false
         },
         {
          "locked": "",
          "section": "Sampling",
          "group": "Improve material samples",
-         "label": "Spore Cap",
-         "cur": "1.44M",
-         "goal": "10.0M",
+         "label": "Fly",
+         "cur": "0.13B",
+         "goal": "1.0B",
          "score": 132,
          "ready": false,
-         "infinite": true
+         "infinite": false
         }
        ],
-       "more": 9
+       "more": 1
       },
       {
        "name": "Sampling: Sources of Printer Sample Rate (90% Hardcap)",
@@ -2518,33 +2443,33 @@
       {
        "locked": "",
        "section": "Sampling",
-       "group": "Sources of Printer Sample Rate (90% Hardcap)",
-       "label": "Sample It bubble: +9.06/10%",
-       "cur": "123",
-       "goal": "200",
-       "score": 0,
+       "group": "Improve material samples",
+       "label": "Fly",
+       "cur": "131.29M",
+       "goal": "454.0M",
+       "score": 132,
        "ready": false,
        "infinite": false
       },
       {
        "locked": "",
        "section": "Sampling",
-       "group": "Sources of Printer Sample Rate (90% Hardcap)",
-       "label": "Arcade Bonus 5: +0/8.04% Sample Size",
-       "cur": "0",
-       "goal": "101",
-       "score": 0,
+       "group": "Improve material samples",
+       "label": "Fly",
+       "cur": "0.13B",
+       "goal": "1.0B",
+       "score": 132,
        "ready": false,
        "infinite": false
       },
       {
        "locked": "",
        "section": "Sampling",
-       "group": "Sources of Printer Output. Grand Total: 53.872 - 323.230x",
-       "label": "Sailing: Level 4 Gold Relic:2.35x (27/100 days)",
-       "cur": "27",
-       "goal": "100",
-       "score": 0,
+       "group": "Improve material samples",
+       "label": "Fly",
+       "cur": "0.13B",
+       "goal": "8.0B",
+       "score": 132,
        "ready": false,
        "infinite": false
       }
@@ -2781,9 +2706,9 @@
          "locked": "",
          "section": "Luminous Menagerie",
          "group": "Missions",
-         "label": "Mission 2: Reach Sneaking Mastery 2",
-         "cur": "1",
-         "goal": "2",
+         "label": "Mission 1: Reach a Total Account LV of 10,000",
+         "cur": "9017",
+         "goal": "10000",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -2792,9 +2717,9 @@
          "locked": "",
          "section": "Luminous Menagerie",
          "group": "Missions",
-         "label": "Mission 3: Achieve 500 Total Spelunking Depths",
-         "cur": "17",
-         "goal": "500",
+         "label": "Mission 2: Reach Sneaking Mastery 2",
+         "cur": "1",
+         "goal": "2",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -3100,9 +3025,9 @@
          "locked": "",
          "section": "Legend Talents",
          "group": "Legend Talents",
-         "label": "Blue Ribbon Certification: Get +0 more Ribbons every day for your Ribbon Shelf in CookingNext Lv: +1 more daily Ribbons",
+         "label": "Kruk be Bubblin': Kattlekruk gives +0 more Bubble LVs per day for each of his bubblesNext Lv: +10 LVs per day from Kattlekruk",
          "cur": "0",
-         "goal": "4",
+         "goal": "5",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -3111,7 +3036,7 @@
          "locked": "",
          "section": "Legend Talents",
          "group": "Legend Talents",
-         "label": "Extended Database: +0 Max LV for 5th column of Farming Land Rank DatabaseNext Lv: +10 Max LV for 5th column",
+         "label": "Daily Shopping Spree: The first 0 upgrades you buy each day for Masterclasses are 80% cheaperNext Lv: +8 daily cheap upgrades",
          "cur": "0",
          "goal": "3",
          "score": 0,
@@ -3119,7 +3044,7 @@
          "infinite": false
         }
        ],
-       "more": 21
+       "more": 19
       },
       {
        "name": "Arcade: Arcade Shop Currency and Bonuses",
@@ -3256,7 +3181,7 @@
    ],
    "flags": [],
    "move": {
-    "text": "Sailing: The Winz Lantern 3 -> 4",
+    "text": "Bug prints: Fly 131.29M -> 454.0M",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
@@ -3322,7 +3247,7 @@
     "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
-    "rinse1": "Sailing: The Winz Lantern 3 -> 4 (score 129)",
+    "rinse1": "Bug prints: Fly 131.29M -> 454.0M (score 132)",
     "flag": ""
    },
    "today": [
@@ -3342,7 +3267,7 @@
      "src": "Toolbox timer"
     },
     {
-     "do": "Sailing: The Winz Lantern 3 -> 4",
+     "do": "Bug prints: Fly 131.29M -> 454.0M",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
     }
@@ -3361,19 +3286,17 @@
      "block": "Sailing",
      "kind": "rinse",
      "steps": [
-      "Sailing: Push: The Winz Lantern 3 -> 4",
-      "Sailing: Push: Anyone Minor Linked to Purrmep: +0.00% 0 -> 1",
-      "Sailing: Push: Moai HeadGet bonuses from all shrines from any map! You must be in same map/worl 5 -> 7",
-      "Islands: Push: Unlock Fractal Island 0 -> 1",
-      "Islands: Push: 1 in 100000 chance for Master of Nothing Trophy per hour of Nothing AFK 0 -> 24",
-      "Islands: Push: Grumbie the Hatchet Hammer (Mega Grumblo) 0 -> 1"
+      "Push: The Winz Lantern 3 -> 4",
+      "Push: Anyone Minor Linked to Purrmep: +0.00% 0 -> 1",
+      "Push: Moai HeadGet bonuses from all shrines from any map! You must be in same map/worl 5 -> 7"
      ]
     },
     {
      "block": "Bug prints",
      "kind": "rinse",
      "steps": [
-      "Push: Sample It bubble: +9.06/10% 123 -> 200",
+      "Push: Fly 131.29M -> 454.0M",
+      "Lever on Autistocat: Sample It bubble: +9.06/10%",
       "Push: Sailing: Level 4 Gold Relic:2.35x (27/100 days) 27 -> 100"
      ]
     },
@@ -3381,7 +3304,7 @@
      "block": "Statue turn-ins (farmed by others)",
      "kind": "rinse",
      "steps": [
-      "Push: Minimum 3 star Hyperion Nebula- Demon Genie card:+90/105% Crystal Mob Spawn Chan 6 -> 7",
+      "Lever on Autistronaut: Minimum 3 star Hyperion Nebula- Demon Genie card:+90/105% Cr",
       "Push: Onyx base bonus: 2/2xTotal including The Onyx Lantern : 2.9/4.1x 3 -> 7"
      ]
     },
@@ -3392,7 +3315,7 @@
       "Sushi Station: Push: Sushi Service Bonuses:Creating a new sushi type gives a new IdleOn bonus for the 0 -> 1",
       "Sushi Station: Push: Unique Sushi (consecutive tiers cooked): 5 5 -> 64",
       "Luminous Menagerie: Push: Shells needed for Menagerie Rank 4 0 -> 3",
-      "Luminous Menagerie: Push: Mission 2: Reach Sneaking Mastery 2 1 -> 2",
+      "Luminous Menagerie: Push: Mission 1: Reach a Total Account LV of 10,000 9017 -> 10000",
       "Luminous Menagerie: Push: Unlock 4: Unlock the Pink Jellyfish within the MenagerieThe Menagerie is located 0 -> 1",
       "Clam Work: Push: +1 Grade for 2 Gallery Slots 0 -> 1",
       "Jelly Operator: Push: Amoeba:Unlock the Amoeba Cell! Drag it from the Petri Dish onto any Jelly Slot,  0 -> 1",
@@ -3400,7 +3323,7 @@
       "Jelly Operator: Push: Obstruction 1 - Longbone:1.5x multiplier to Research EXP gainAlso, +2 Jelly Oper 0 -> 1",
       "Advice Fish: Push: Advice on Life and Death:Level 1: +0.1/10% faster W7 mob respawn rate 0.99% -> 100%",
       "Zenith Market: Push: TRUE ZEN:1.0x higher bonuses from Zenith Statues 0 -> 250",
-      "Legend Talents: Push: Blue Ribbon Certification: Get +0 more Ribbons every day for your Ribbon Shelf i 0 -> 4",
+      "Legend Talents: Lever on Autistocat: Kruk be Bubblin': Kattlekruk gives +0 more Bubble LVs per da",
       "Arcade: Push: Bonus 0: +22/404 Base Damage 11 -> 101"
      ]
     },
@@ -4068,6 +3991,136 @@
      ]
     },
     {
+     "job": "Islands (drop-rate islands; anyone can grab)",
+     "basis": "zack",
+     "tiers": {
+      "Islands": "3/4"
+     },
+     "subs": [
+      {
+       "name": "Islands: Unlock all Islands",
+       "state": "open",
+       "items": [
+        {
+         "locked": "",
+         "section": "Islands",
+         "group": "Unlock all Islands",
+         "label": "Unlock Fractal Island",
+         "cur": "0",
+         "goal": "1",
+         "score": 127,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": -1
+      },
+      {
+       "name": "Islands: Fractal Nothing hour rewards",
+       "state": "open",
+       "items": [
+        {
+         "locked": "",
+         "section": "Islands",
+         "group": "Fractal Nothing hour rewards",
+         "label": "1 in 100000 chance for Master of Nothing Trophy per hour of Nothing AFK",
+         "cur": "0",
+         "goal": "24",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "locked": "",
+         "section": "Islands",
+         "group": "Fractal Nothing hour rewards",
+         "label": "1.25x Dungeon Credits and Flurbos gained",
+         "cur": "0",
+         "goal": "200",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 6
+      },
+      {
+       "name": "Islands: 1/7 Unique Random Event drops found",
+       "state": "open",
+       "items": [
+        {
+         "locked": "",
+         "section": "Islands",
+         "group": "1/7 Unique Random Event drops found",
+         "label": "Grumbie the Hatchet Hammer (Mega Grumblo)",
+         "cur": "0",
+         "goal": "1",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "locked": "",
+         "section": "Islands",
+         "group": "1/7 Unique Random Event drops found",
+         "label": "Skewered Snek (Snake Swarm)",
+         "cur": "0",
+         "goal": "1",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 4
+      }
+     ],
+     "next": [
+      {
+       "locked": "",
+       "section": "Islands",
+       "group": "Unlock all Islands",
+       "label": "Unlock Fractal Island",
+       "cur": "0",
+       "goal": "1",
+       "score": 127,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Islands",
+       "group": "Fractal Nothing hour rewards",
+       "label": "1 in 100000 chance for Master of Nothing Trophy per hour of Nothing AFK",
+       "cur": "0",
+       "goal": "24",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Islands",
+       "group": "Fractal Nothing hour rewards",
+       "label": "1.25x Dungeon Credits and Flurbos gained",
+       "cur": "0",
+       "goal": "200",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      }
+     ],
+     "note": "Zack 11/17: islands go to the first Royal Guardian (best drop rate)",
+     "where": [
+      {
+       "system": "islands",
+       "toolbox": [
+        "world-2/islands"
+       ],
+       "sources": "7 tagged / 0 chunks"
+      }
+     ]
+    },
+    {
      "job": "Godshard set",
      "basis": "zack",
      "tiers": {
@@ -4589,6 +4642,15 @@
       "Push: Royal Talent Points I: +10 Talent PTS for the Royal Guardian class. 10 -> 200",
       "Push: Heracles the Mighty: Not built (1/25)1.00x Total Damage 0 -> 1",
       "Push: Menagerie Unlock 18: Boosts max Flair LV of Statues to ElegantCosts 11.68M Lumi, 0 -> 1"
+     ]
+    },
+    {
+     "block": "Islands (drop-rate islands; anyone can grab)",
+     "kind": "rinse",
+     "steps": [
+      "Push: Unlock Fractal Island 0 -> 1",
+      "Push: 1 in 100000 chance for Master of Nothing Trophy per hour of Nothing AFK 0 -> 24",
+      "Push: Grumbie the Hatchet Hammer (Mega Grumblo) 0 -> 1"
      ]
     },
     {
@@ -5257,7 +5319,7 @@
          "goal": "1.03B",
          "score": 0,
          "ready": false,
-         "infinite": true
+         "infinite": false
         }
        ],
        "more": -1
@@ -5828,7 +5890,7 @@
       "Glowshroom Tunnels: Level 1 Another Try: Reset investments for Opals, Conjuror PTS, Jar Collectible  (42 / 6) READY",
       "Glowshroom Tunnels: Push: Villager Cosmos Majik - String is Strung: Adds 3/5 more string to your harp, clu 3 -> 5",
       "Glowshroom Tunnels: Push: Bugs remaining to break Layer 15: 10.7M 50.1% -> 100%",
-      "Glowshroom Tunnels: Push: 80 hour bonus: Start with +1 Mental Health 5 -> 80",
+      "Glowshroom Tunnels: Push: Kills before Monarch: 1.03B 0.00B -> 1.03B",
       "Underground Overgrowth: Push: Turquoise Rupies: 0.00Collected from Great Jars once you have 500K+ Magenta Rupi 0 -> 1",
       "Underground Overgrowth: Push: Logs remaining to break Layer 7: 25.5K 34.5% -> 100%",
       "Underground Overgrowth: Push: 1 hour bonus: Start with # Attempts 0 -> 1"
@@ -6737,7 +6799,9 @@
      "steps": [
       "Push: Bonuses from All Meals: Sheepie88.77 base days to level 5 -> 13",
       "Push: Farming Crop Depot - Crayon:+1522.5/4019.4% Mobs 125 -> 330",
-      "Push: Hyperion Nebula- Demon Genie card:+90/105% Crystal Mob Spawn Chance 6 -> 7"
+      "Lever on Autistronaut: Hyperion Nebula- Demon Genie card:+90/105% Crystal Mob Spawn",
+      "Push: Total Heart VII+ pets 0 -> 68",
+      "Push: Breeding Upgrade - Blooming Axe: +12% 2 -> 10"
      ]
     },
     {
@@ -8037,7 +8101,7 @@
          "goal": "8.0B",
          "score": 132,
          "ready": false,
-         "infinite": true
+         "infinite": false
         },
         {
          "locked": "",
@@ -8048,7 +8112,7 @@
          "goal": "15.0B",
          "score": 132,
          "ready": false,
-         "infinite": true
+         "infinite": false
         }
        ],
        "more": 1
@@ -8064,7 +8128,7 @@
        "goal": "8.0B",
        "score": 132,
        "ready": false,
-       "infinite": true
+       "infinite": false
       },
       {
        "locked": "",
@@ -8075,7 +8139,7 @@
        "goal": "15.0B",
        "score": 132,
        "ready": false,
-       "infinite": true
+       "infinite": false
       },
       {
        "locked": "",
@@ -8086,7 +8150,7 @@
        "goal": "250.0B",
        "score": 132,
        "ready": false,
-       "infinite": true
+       "infinite": false
       }
      ],
      "where": [
@@ -8193,7 +8257,7 @@
    ],
    "flags": [],
    "move": {
-    "text": "Statues: DK crystals: Level up Essence Statue: Crystals with DK at Minichiefs 2 -> 40",
+    "text": "Ore prints: Copper Ore 1.34B -> 8.0B",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [],
@@ -8258,12 +8322,12 @@
     "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
-    "rinse1": "Statues: DK crystals: Level up Essence Statue: Crystals with DK at Minichiefs 2 -> 40 (score 131)",
+    "rinse1": "Ore prints: Copper Ore 1.34B -> 8.0B (score 132)",
     "flag": ""
    },
    "today": [
     {
-     "do": "Statues: DK crystals: Level up Essence Statue: Crystals with DK at Minichiefs 2 -> 40",
+     "do": "Ore prints: Copper Ore 1.34B -> 8.0B",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
     },
@@ -8290,7 +8354,7 @@
      "block": "Ore prints",
      "kind": "rinse",
      "steps": [
-      "No rinse data: needs a playbook"
+      "Push: Copper Ore 1.34B -> 8.0B"
      ]
     },
     {
@@ -8752,7 +8816,7 @@
          "goal": "10.0B",
          "score": 132,
          "ready": false,
-         "infinite": true
+         "infinite": false
         },
         {
          "locked": "",
@@ -8763,7 +8827,7 @@
          "goal": "22.0B",
          "score": 132,
          "ready": false,
-         "infinite": true
+         "infinite": false
         }
        ],
        "more": 1
@@ -8779,7 +8843,7 @@
        "goal": "10.0B",
        "score": 132,
        "ready": false,
-       "infinite": true
+       "infinite": false
       },
       {
        "locked": "",
@@ -8790,7 +8854,7 @@
        "goal": "22.0B",
        "score": 132,
        "ready": false,
-       "infinite": true
+       "infinite": false
       },
       {
        "locked": "",
@@ -8801,7 +8865,7 @@
        "goal": "100.0B",
        "score": 132,
        "ready": false,
-       "infinite": true
+       "infinite": false
       }
      ],
      "where": [
@@ -8940,7 +9004,7 @@
     "PLAN: Elite Class Swap Token -> Bubonic Conjuror -> Arcane Cultist"
    ],
    "move": {
-    "text": "Cards: Stamps - Card Stamp: +250% Card Drop Rate 250 -> 330",
+    "text": "Log prints: Oak Logs 4.42B -> 10.0B",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [],
@@ -9012,12 +9076,12 @@
     "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
-    "rinse1": "Cards: Stamps - Card Stamp: +250% Card Drop Rate 250 -> 330 (score 0)",
+    "rinse1": "Log prints: Oak Logs 4.42B -> 10.0B (score 132)",
     "flag": ""
    },
    "today": [
     {
-     "do": "Cards: Stamps - Card Stamp: +250% Card Drop Rate 250 -> 330",
+     "do": "Log prints: Oak Logs 4.42B -> 10.0B",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
     }
@@ -9027,7 +9091,7 @@
      "block": "Cards",
      "kind": "rinse",
      "steps": [
-      "Push: Stamps - Card Stamp: +250% Card Drop Rate 250 -> 330",
+      "Lever on Autistopher: Stamps - Card Stamp: +250% Card Drop Rate",
       "Push: Bandit Bob:+5/7% Money from Monsters 175 -> Ruby",
       "Push: Fire Forge:+20/28% Smithing EXP (Passive) 3,759 -> Ruby"
      ]
@@ -9036,7 +9100,7 @@
      "block": "Log prints",
      "kind": "rinse",
      "steps": [
-      "No rinse data: needs a playbook"
+      "Push: Oak Logs 4.42B -> 10.0B"
      ]
     },
     {
@@ -9066,6 +9130,14 @@
      "kind": "unlock",
      "steps": [
       "Gem shop rotation (watch)"
+     ]
+    },
+    {
+     "block": "Levers for other jobs",
+     "kind": "lever",
+     "steps": [
+      "Minimum 3 star Hyperion Nebula- Demon Genie card:+90/105% Crystal Mob Spawn Chan 6 -> 7 (toward Autisticles Statue turn-ins (farmed by others))",
+      "Hard Resources- Godshard Ore card:+150/210% Forge Cap and SPD (Passive) 5 -> 7 (toward Autistopher Maintenance (maxed tiers): Bribes, Rift, Star Signs, Smithing)"
      ]
     }
    ]
@@ -9185,9 +9257,9 @@
          "locked": "",
          "section": "Death Note",
          "group": "All kills for Autistopher without a filter. Have fun",
-         "label": "Nutto in The Roots",
+         "label": "Rift Monsters in The Rift",
          "cur": "",
-         "goal": "0",
+         "goal": "23,070,588",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -9196,7 +9268,7 @@
          "locked": "",
          "section": "Death Note",
          "group": "All kills for Autistopher without a filter. Have fun",
-         "label": "Poops in The Office",
+         "label": "Nutto in The Roots",
          "cur": "",
          "goal": "0",
          "score": 0,
@@ -9273,7 +9345,7 @@
          "goal": "11000",
          "score": 132,
          "ready": false,
-         "infinite": true
+         "infinite": false
         },
         {
          "locked": "",
@@ -9284,7 +9356,7 @@
          "goal": "13000",
          "score": 132,
          "ready": false,
-         "infinite": true
+         "infinite": false
         }
        ],
        "more": 0
@@ -9410,32 +9482,32 @@
       {
        "locked": "",
        "section": "Stamps",
+       "group": "Improve your total stamp levels",
+       "label": "Total Stamp Levels",
+       "cur": "9539",
+       "goal": "11000",
+       "score": 132,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Stamps",
+       "group": "Improve your total stamp levels",
+       "label": "Total Stamp Levels",
+       "cur": "9539",
+       "goal": "13000",
+       "score": 132,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Stamps",
        "group": "Improve high-priority Stamps",
        "label": "Skill: Drippy Drop Stamp",
        "cur": "95",
        "goal": "100",
-       "score": 132,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Stamps",
-       "group": "Improve high-priority Stamps",
-       "label": "Skill: Ladle Stamp",
-       "cur": "160",
-       "goal": "180",
-       "score": 132,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Stamps",
-       "group": "Improve high-priority Stamps",
-       "label": "Skill: Bugsack Stamp",
-       "cur": "120",
-       "goal": "168",
        "score": 132,
        "ready": false,
        "infinite": false
@@ -9849,7 +9921,7 @@
          "goal": "10000",
          "score": 129,
          "ready": false,
-         "infinite": true
+         "infinite": false
         }
        ],
        "more": -1
@@ -9917,6 +9989,17 @@
       {
        "locked": "",
        "section": "Achievements",
+       "group": "Complete achievements for EZ Access",
+       "label": "W6 Doctor Repellant: W6 Shop",
+       "cur": "0",
+       "goal": "10000",
+       "score": 129,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Achievements",
        "group": "Complete achievements for Monster Respawn",
        "label": "W1 Two-Time Savior: 5% Mob Respawn in W1",
        "cur": "1",
@@ -9932,17 +10015,6 @@
        "label": "W2 Two Desserts!: 5% Mob Respawn in W2",
        "cur": "1",
        "goal": "2",
-       "score": 129,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Achievements",
-       "group": "Complete achievements for Other Nice Rewards",
-       "label": "W5 Legendary Wormhole: +10% Divinity Points",
-       "cur": "0",
-       "goal": "IDK",
        "score": 129,
        "ready": false,
        "infinite": false
@@ -10098,9 +10170,9 @@
          "locked": "",
          "section": "Smithing",
          "group": "Total Capacity and Bar thresholds",
-         "label": "514 Marble Bars.1,823 cap to next bar",
-         "cur": "2177",
-         "goal": "4000",
+         "label": "137 Godshard Bars.11,823 cap to next bar",
+         "cur": "3177",
+         "goal": "15000",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -10109,9 +10181,9 @@
          "locked": "",
          "section": "Smithing",
          "group": "Total Capacity and Bar thresholds",
-         "label": "2,058 Dreadlo Bars.823 cap to next bar",
-         "cur": "177",
-         "goal": "1000",
+         "label": "514 Marble Bars.1,823 cap to next bar",
+         "cur": "2177",
+         "goal": "4000",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -10191,7 +10263,7 @@
    ],
    "flags": [],
    "move": {
-    "text": "Stamps: Skill: Drippy Drop Stamp 95 -> 100",
+    "text": "Stamps: Total Stamp Levels 9539 -> 11000",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
@@ -10264,7 +10336,7 @@
      "Super CHOWs (cooking speed 1.1x each, count only on him)",
      "Upgrade Vault"
     ],
-    "rinse1": "Stamps: Skill: Drippy Drop Stamp 95 -> 100 (score 132)",
+    "rinse1": "Stamps: Total Stamp Levels 9539 -> 11000 (score 132)",
     "flag": "Rinse ranks Stamps first, not your priority (Cooking speed)"
    },
    "today": [
@@ -10279,7 +10351,7 @@
      "src": "data rule (Zack-approved) on AutoReview Death Note"
     },
     {
-     "do": "Stamps: Skill: Drippy Drop Stamp 95 -> 100",
+     "do": "Stamps: Total Stamp Levels 9539 -> 11000",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
     },
@@ -10310,9 +10382,9 @@
      "block": "Stamps",
      "kind": "rinse",
      "steps": [
+      "Push: Total Stamp Levels 9539 -> 11000",
       "Push: Skill: Drippy Drop Stamp 95 -> 100",
-      "Push: Skill: Multitool Stamp 0 -> 1",
-      "Push: Lil' Mining Baggy Stamp: +525 Mining Carry Cap 210 -> 310"
+      "Push: Skill: Multitool Stamp 0 -> 1"
      ]
     },
     {
@@ -10349,6 +10421,7 @@
      "block": "Achievements",
      "kind": "rinse",
      "steps": [
+      "Push: W6 Doctor Repellant: W6 Shop 0 -> 10000",
       "Push: W1 Two-Time Savior: 5% Mob Respawn in W1 1 -> 2",
       "Push: W5 Legendary Wormhole: +10% Divinity Points 0 -> IDK"
      ]
@@ -10371,8 +10444,15 @@
      "block": "Maintenance (maxed tiers): Bribes, Rift, Star Signs, Smithing",
      "kind": "rinse",
      "steps": [
-      "Push: Hard Resources- Godshard Ore card:+150/210% Forge Cap and SPD (Passive) 5 -> 7",
-      "Push: 514 Marble Bars.1,823 cap to next bar 2177 -> 4000"
+      "Lever on Autistronaut: Hard Resources- Godshard Ore card:+150/210% Forge Cap and SP",
+      "Push: 137 Godshard Bars.11,823 cap to next bar 3177 -> 15000"
+     ]
+    },
+    {
+     "block": "Levers for other jobs",
+     "kind": "lever",
+     "steps": [
+      "Stamps - Card Stamp: +250% Card Drop Rate 250 -> 330 (toward Autistronaut Cards)"
      ]
     }
    ]
@@ -11979,6 +12059,11 @@
    }
   ],
   "unassigned": [
+   {
+    "job": "Fish + other prints (Goldfish, Spore Cap...)",
+    "sections": [],
+    "note": "Not bugs: needs an owner (Zack). Best fisher = Autistotle 139"
+   },
    {
     "job": "Emperor",
     "sections": [

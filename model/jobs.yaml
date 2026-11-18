@@ -11,6 +11,7 @@
 exclude:   # leaves never shown (Zack's calls)
   - "Prayer not needed"   # Royal Sampler stays on (Zack)
   - "more WOWs with"      # WOWs skipped (Griffy, findings/death_note_two_dbs.md)
+  - "^Blue Ribbon Certification|^Extended Database"   # Legend Talents held until transcripts reviewed (Zack 11/16)
 
 account_priority: {text: "Cooking speed", set_by: zack, date: 2026-11-17}
 priorities:   # Zack 2026-11-17, in order. Chains (goal trees) get built for these first.
@@ -40,8 +41,8 @@ characters:
   Autisticles:    # Siege Breaker
     afk: {text: "His best kills/hr map: Melting Every Day turns AFK kills into forge progress (bars). Feeds Copper Bar 1B shortage. Exact map = GAP", src: "Griffy ypb7kpQov30 00:01 (2026-08-03)"}
     jobs:
-      - {job: Sailing, sections: [Sailing, Islands], basis: class}
-      - {job: Bug prints, sections: [{s: Sampling, rest: true}], basis: griffy}
+      - {job: Sailing, sections: [Sailing], basis: class}
+      - {job: Bug prints, sections: [{s: Sampling, itype: BUG, levers: true}], basis: griffy}
       - {job: "Statue turn-ins (farmed by others)", sections: [{s: Statues, rest: true}], basis: zack}
       - {job: "W7 minis", sections: [Sushi Station, Luminous Menagerie, Clam Work, Jelly Operator, The Button, Advice Fish, Zenith Market, Legend Talents, Arcade], basis: light, note: "Gate: Research level ~10 (Autistotle). Jelly/Button maps = W7 map push"}
   Autistastic:    # Divine Knight #1
@@ -50,6 +51,7 @@ characters:
       - {job: Construction, sections: [Buildings, Atom Collider, Refinery], basis: class, note: "Collider ON at 1050M (Zack: OFF gains nothing)"}
       - {job: Gaming, sections: [Gaming], basis: class, note: "AutoReview covers snail only: fertilizer/mutations/imports/superbits/palette = Lane B gap"}
       - {job: "Royal Guardian #1 (top unlock)", sections: [Royal Armory], basis: griffy}
+      - {job: "Islands (drop-rate islands; anyone can grab)", sections: [Islands], basis: zack, note: "Zack 11/17: islands go to the first Royal Guardian (best drop rate)"}
       - {job: Godshard set, sections: [Armor Sets], basis: zack}
       - {job: "World bosses + minibosses (DK drop rate)", sections: [], basis: zack, note: "Minibosses only when stored spawns are max; bosses when keys are up"}
       - {job: "Statue: Dragon (AFK golems)", sections: [{s: Statues, m: "Dragon"}], basis: autoreview}
@@ -86,7 +88,7 @@ characters:
     active: [dk_crystals]
     jobs:
       - {job: "Construction #2", sections: [], basis: class, note: "Shares Tastic's Buildings list"}
-      - {job: Ore prints, sections: [{s: Sampling, m: ":: .*\\bOre\\b"}], basis: griffy}
+      - {job: Ore prints, sections: [{s: Sampling, itype: ORE}], basis: griffy}
       - {job: "Statues: DK crystals", sections: [{s: Statues, m: "DK at"}], basis: griffy}
       - {job: "Money", sections: [], basis: griffy, note: "Goal: afford all Upgrade Vault + shops. Best money farmer = GAP (fan: DK)"}
       - {job: "Royal Guardian #2", sections: [], basis: griffy}
@@ -94,7 +96,7 @@ characters:
     afk: {text: "W7 Spelunking tunnels (Spelunking levels)", src: "fan (DigitalTQ), unverified"}
     jobs:
       - {job: Cards, sections: [Cards], basis: griffy}
-      - {job: Log prints, sections: [{s: Sampling, m: ":: .*\\bLogs?\\b"}], basis: class}
+      - {job: Log prints, sections: [{s: Sampling, itype: LOG}], basis: class}
       - {job: "Lab #2", sections: [], basis: class}
       - {job: "Spelunking (until an RG takes it)", sections: [Spelunking], basis: zack}
     plan: "Elite Class Swap Token -> Bubonic Conjuror -> Arcane Cultist"
@@ -121,11 +123,19 @@ characters:
       - {job: "Gallery + capes", sections: [Gallery, Cape Vine], basis: light}
       - {job: "W7 reef", sections: [Coral Reef, Dancing Coral, Coral Kid], basis: light}
 
+lever_routes:   # a lever listed under one job but done by another character's job -> shows on that owner's run, "toward <job>"
+  - {m: "bubble", owner: Autistocat}
+  - {m: "^Vial|vial ", owner: Autistocat}
+  - {m: "Stamp", owner: Autistopher}
+  - {m: "^Sailing:|Relic", owner: Autisticles}
+  - {m: "card", owner: Autistronaut}
+
 account_wide:   # Zack 2026-11-17: shown once on the account block, not on a card
   - {job: "Minigames (anyone)", sections: [Basketball, Darts]}
   - {job: "Drop Rate / Storage / World progress", sections: [Drop Rate, Storage, Pinchy high, Pinchy low]}
 
 unassigned:
+  - {job: "Fish + other prints (Goldfish, Spore Cap...)", sections: [], note: "Not bugs: needs an owner (Zack). Best fisher = Autistotle 139"}
   - {job: Emperor, sections: [Emperor], note: "Off Chio. Research who owns it (RG drop rate vs best fighter)"}
 
 active_tasks:   # importance 1 = top. minutes = rough session length. Quick win = <= 15 min.
