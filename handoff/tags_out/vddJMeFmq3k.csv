@@ -1,0 +1,179 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,pets,Piggy,,mechanic,any,,Piggy provides autoloot and unlimited teleports and remote storage.,yes,3
+00:02:04,00:02:35,armor_smithy|printer,sampling preparation,,priority,w5,remaining_wait=1_day,Delay the planned sampling refresh until Armor Smithy passive set bonuses unlock.,yes,3
+00:03:36,00:04:07,kangaroo,Nautilus Megafish,,mechanic,any,new_spirals=2;reset_points=5,Nautilus unlocks two additional reset spirals and grants extra points on Fisheroo resets.,yes,3
+00:04:07,00:04:39,kangaroo,Megafish progression,,priority,any,other_reset_bonus_multiplier=18.68,Stockpile Megafish progress before Fisheroo resets and develop the spiral multiplying other reset bonuses.,yes,3
+00:04:39,00:05:11,kangaroo,spiral allocation,,setup,any,golden_spiral=110;other_spirals=30;tartar_spiral=30;red_point_share=about_90%,After initial investments put most points into the red other-reset-bonuses spiral.,yes,3
+00:05:11,00:05:42,kangaroo,Tartar and Shiny Speed,,mechanic,any,shiny_spiral_level=110,Tartar and Shiny Speed have soft caps so shift later investment toward other spirals.,yes,3
+00:05:11,00:05:42,kangaroo,shiny progression,,priority,any,,Shiny Speed builds Bluefin multipliers that accelerate Megafish progression.,yes,3
+00:05:42,00:06:13,kangaroo,account gains,,account_note,any,megafish=6;time=4_hours;accuracy=36%;total_damage=30%;fishing_efficiency=63%;afk_gain=9%;defense=63;cash=54%,Focused Roo sessions produced major account bonuses and several Megafish unlocks.,yes,3
+00:06:13,00:06:43,kangaroo|owl,World Five value,,comparison,w5,,Roo's percentage accuracy and damage become especially valuable as Owl's flat-stat contribution begins falling off.,yes,3
+00:06:13,00:06:43,kangaroo,Tar Pit,,mechanic,any,initial_upgrades=3,The first Tar Pit upgrades improve Bluefin catches and shiny catches and Bluefin quantity.,yes,3
+00:06:43,00:07:15,kangaroo,Megafish bonuses,,mechanic,any,poppy_multipliers=1.5_and_2;new_tar_upgrades=3;tartar_gain_multiplier=3,Megafish milestones multiply account bonuses and unlock more Tar Pit upgrades and Tartar production.,yes,3
+00:07:15,00:07:46,kangaroo,Leech Megafish,,mechanic,any,base_buddies=5;extra_bluefin_per_level=50%;extra_shiny_speed_per_level=50%,Leech makes Fishing Buddy levels beyond five grant additional Bluefin catches and shiny speed.,yes,3
+00:07:46,00:08:17,kangaroo,Fishing Buddy,,priority,any,,Buy Fishing Buddy whenever practical because it provides exceptional value and shiny speed.,yes,3
+00:07:46,00:08:17,kangaroo,shiny collection,,how_to,any,minimum_per_type=1,Collect shinies whenever available while upgrading and obtain at least one of each type to stack multipliers.,yes,3
+00:08:17,00:08:47,kangaroo,stacked multipliers,,account_note,any,illustrative_multiplier=1000_to_20_million;bluefish_count=20;bluefish_multiplier=about_30;current_count=104,Collecting all shiny types can massively increase the combined production multiplier.,yes,3
+00:08:17,00:08:47,kangaroo,Megafish account bonus,,mechanic,any,bonus_multiplier=2.5,A later Megafish increases all Poppy account bonuses to two-and-a-half times their base.,yes,3
+00:08:47,00:09:17,kangaroo,Multipliers,,mechanic,any,multipliers=4/5/10;example_fish=1000;boosted_fish=10000-20000;estimated_cap=20%,The later Tar Pit upgrade adds catch multipliers that greatly increase individual fish rewards.,yes,2
+00:09:17,00:09:47,kangaroo,Kingworm,,mechanic,any,displayed_extra_fish=10000;extra_per_upgrade=1000,Kingworm adds extra fish to catches.,yes,2
+00:09:17,00:09:47,kangaroo,Megafish account bonus,,mechanic,any,bonus_multiplier=3,A later Megafish triples the base Poppy bonuses.,yes,3
+00:09:17,00:09:47,kangaroo,Eel Megafish,,mechanic,any,shiny_speed_per_tasty_fishbait_level=1%,Eel improves shiny speed based on Tasty Fishbait levels.,yes,3
+00:09:47,00:10:18,kangaroo,Kingworm discount,,mechanic,any,discount_per_level=5%;ordinary_discount_slowdown=about_90%,Kingworm levels reduce all upgrade costs including Tar Pit and supplement diminishing ordinary discounts.,yes,3
+00:10:18,00:10:48,kangaroo,final Megafish,,mechanic,any,,The final Megafish stage begins repeatable bonus stacking like Fractal Feathers.,yes,2
+00:10:48,00:11:21,kangaroo,reset preparation,,how_to,any,minimum_currency=1QQ,Buy Fisheroo upgrades while retaining enough currency for the reset itself.,yes,2
+00:10:48,00:11:21,kangaroo,reset preparation,,account_note,any,next_cost=54QQ;stated_points=70_plus_4;stated_total=84;megafish_extra=5,The creator uses additional Kingworm discounts to squeeze another reset-point upgrade before resetting.,yes,2
+00:11:21,00:11:53,kangaroo,Celtic Megafish,,mechanic,any,bonus_multiplier=3.5,Celtic Megafish raises Poppy bonuses to three-and-a-half times their initial amount and continues stacking.,yes,3
+00:11:53,00:12:24,kangaroo,post-reset allocation,,account_note,any,available_points=99;red_target=500;other_upgrades=10,The creator concentrates reset points in red with smaller increases to cheaper upgrades and Bluefish.,yes,3
+00:12:24,00:12:54,kangaroo,reset restart,,how_to,any,,Buy shiny and fishing speed first then collect shinies continually while upgrading production and discounts.,yes,3
+00:12:54,00:13:24,kangaroo,multiplier setup,,target,any,fish_types=6,Get all six fish multipliers running and buy as many Fishing Buddy levels as possible.,yes,3
+00:13:24,00:13:55,kangaroo,Tar Pit order,,priority,any,shiny_spiral=110,Prioritize extra shiny catches and some catch multipliers before heavier Tartar investment.,yes,3
+00:13:55,00:14:26,kangaroo,shiny ramp,,mechanic,any,,Higher shiny speed and quantity plus catch multipliers accelerate the combined multiplier before leaving the run idle.,yes,3
+00:14:26,00:14:56,kangaroo,late-run spending,,how_to,any,,When upgrades become too expensive pause spending and let fish accumulate rather than repeatedly delaying the reset target.,yes,3
+00:14:56,00:15:26,kangaroo,Fisheroo reset costs,,mechanic,any,target_points=100,Each Fisheroo reset raises future cost and discounts cannot reset that underlying progression.,yes,3
+00:15:26,00:15:57,kangaroo,Fisheroo reset threshold,,target,any,minimum_points=100,At this advanced Megafish stage aim for at least one hundred reset points without hoarding indefinitely.,yes,3
+00:15:57,00:16:27,kangaroo,early exception,,warning,early,target_points=100,The hundred-point rule does not apply to earlier stages such as Leech where that amount may be unrealistic.,yes,3
+00:15:57,00:16:27,kangaroo,leave-ready setup,,warning,any,,Do not leave a fresh run before obtaining every shiny multiplier.,yes,3
+00:16:27,00:16:57,kangaroo,Bluefish multiplier,,account_note,any,multiplier_before=400000;multiplier_after=24.1_million,The final Bluefish catch dramatically increases the demonstrated multiplier.,yes,3
+00:16:27,00:16:57,kangaroo,Nautilus route,,account_note,any,time=few_hours;fisheroo_resets=0,The creator cleared most remaining Megafish after Nautilus without additional Fisheroo resets.,yes,3
+00:16:57,00:17:28,owl,Megafeather,,account_note,any,total_damage=92%;all_stats=92,Another Megafeather improves Owl bonuses which remain useful despite declining relative flat-stat value.,yes,3
+00:17:28,00:17:59,owl|kangaroo,clicker timing,,how_to,any,roo_bonus=12000,Wait for stronger production bonuses before intensive clicker pushing so time is spent more efficiently.,yes,2
+00:18:29,00:18:59,dungeons|armor_smithy,Rex Rings,,target,any,skilling_sets=3,Use Happy Hour rewards to obtain Rex Rings for strength and agility and wisdom skilling sets.,yes,3
+00:19:30,00:20:01,dungeons,Happy Hour,,account_note,any,reward_multiplier=20;elapsed=4_minutes;current_frog=2,A full group progresses toward the third frog with boosted rewards.,yes,3
+00:20:01,00:20:31,dungeons,Arcane Cultist,arcane_cultist,mechanic,any,,Arcane Cultist's basic attacks spawn skulls which can dominate the dungeon visually.,yes,3
+00:20:01,00:20:31,dungeons|damage,fourth frog,,target,any,frog=4,Defeating the fourth frog would unlock another damage bonus.,yes,3
+00:20:31,00:21:02,storage,quick drop,,how_to,any,,Double-tap Shift to enable quick dropping items.,yes,3
+00:21:02,00:21:32,dungeons,required drops,,blocker,any,,Poor eye-drop RNG delays the group's frog progression.,yes,3
+00:21:32,00:22:04,dungeons,Stardew Drop,,setup,any,,Disable active spells when relying on Stardew Drop's full-mana benefits.,yes,3
+00:22:04,00:22:34,dungeons,participation,,warning,any,,Players going AFK during the run undermine the group's ability to reach later frogs.,yes,3
+00:22:04,00:22:34,dungeons,Flurbo upgrades,,priority,any,,Spend Flurbos on accuracy and weapon power and talent points and some defense.,yes,3
+00:22:34,00:23:05,damage,Mega Crit,,mechanic,any,crit_threshold=100%;example_crit=101%;example_mega_chance=1%;estimated_crit_damage=600%,Critical chance beyond one hundred percent becomes Mega Crit chance after unlocking the talent.,yes,2
+00:23:05,00:23:36,bundles,popups,,opinion,any,,Paid-pack popups appear excessively often and discourage the creator rather than encouraging purchases.,yes,3
+00:23:36,00:24:06,sailing,Fauxory Tusk?,,mechanic,w5,bonus_per_sailing_level=1%;current_bonus=3%,The acquired tusk artifact scales its bonus with sailing level.,yes,2
+00:23:36,00:24:06,sailing|buildings,shrine artifact,,mechanic,w5,,The shrine artifact applies shrine bonuses from any map in their world.,yes,3
+00:24:06,00:24:36,sailing,early progression,,account_note,w5,voyage=10_hours;starting_chest_cap=5,The account purchases another captain while exploring longer voyages and managing the initial chest cap.,yes,3
+00:24:06,00:24:36,buildings,Summer Reading Shrine,,mechanic,any,,Summer Reading Shrine grants class experience.,yes,3
+00:24:36,00:25:06,armor_smithy,upgrade stones,,priority,w5,,Buy upgrade stones daily to prepare additional gear sets.,yes,3
+00:25:06,00:25:38,armor_smithy,strength upgrades,divine_knight,setup,w5,accuracy=60000,With sufficient accuracy shift new gear upgrades toward strength for more damage.,yes,3
+00:25:06,00:25:38,gaming,mutations,,mechanic,w5,,Harvesting sprouts provides DNA for researching new plant mutations.,yes,3
+00:25:38,00:26:08,gaming,mutation attempts,,how_to,w5,example_chance=6.9%;late_chance=3%,Attempt research after each harvest rather than stockpiling large DNA quantities for diminishing chance improvements.,yes,3
+00:26:08,00:26:38,divinity,early gods,,account_note,w5,successful_chances=10%_and_1%;gods=2,The account unlocked two gods through lucky low-percentage attempts.,yes,3
+00:26:38,00:27:08,divinity|lab,Arctis,,mechanic,w5,,Arctis keeps characters active in the lab mainframe without granting lab experience.,yes,3
+00:26:38,00:27:08,divinity|lab,divinity training,,how_to,w5,,Link Arctis to retain lab bonuses while characters train divinity.,yes,3
+00:27:08,00:27:39,divinity,unlinking,,how_to,w5,unlinks_per_week=2,Select all desired characters before confirming an unlink so the group uses one weekly unlink allowance.,yes,3
+00:27:39,00:28:10,divinity|printer,unlink planning,,how_to,w5,,Batch unlinking for sample setups and use the second unlink to restore normal assignments afterward.,yes,3
+00:27:39,00:28:10,divinity,link scaling,,mechanic,w5,,Main link effects are fixed while minor link bonuses scale with divinity level.,yes,3
+00:28:10,00:28:40,divinity|pets,Doot scaling,,mechanic,late,,Doot grants all minor link bonuses so higher divinity levels substantially improve its value.,yes,3
+00:28:10,00:28:40,divinity,minor bonuses,,priority,late,,Raise divinity for additional talent points and Snake's accuracy and defense.,yes,3
+00:28:40,00:29:11,divinity,blessings,,mechanic,w5,,Blessings are passive bonuses affecting every character.,yes,3
+00:29:11,00:29:41,divinity,Chakra,,setup,w5,chakra_points=2;chakra_xp=2;previous_points=1;previous_xp=1;tranquility_level=40,Switch eligible characters to Chakra for better rates while progressing toward Tranquility.,yes,3
+00:29:41,00:30:11,cooking,French Fries and Apples,,mechanic,any,breeding_odds=25%,French Fries improve breeding odds while Apples improve defense.,yes,3
+00:29:41,00:30:11,breeding,Targeter,,mechanic,any,foraging_multiplier=5,Targeter contributes fivefold foraging speed when the pet above is also a Targeter.,yes,3
+00:30:11,00:30:41,breeding,Targeter arrangement,,how_to,any,speed_before=4380;speed_after=5490,Stack Targeters vertically to improve spice-production speed.,yes,3
+00:30:41,00:31:11,breeding,Fleeter transition,,priority,any,,Replace appropriate supporting pets with Fleeters to further amplify the Targeter setup.,yes,3
+00:31:11,00:31:41,breeding,Fleeter,,mechanic,any,all_pet_multiplier=1.3;compared_pet_multiplier=2,Fleeter's bonus affects all pets including Targeters rather than only its own contribution.,yes,3
+00:31:41,00:32:11,divinity|lab,Killer's Brightside,,mechanic,w5,kill_multiplier=2,Arctis allows a pushing character to retain the lab's doubled-kill bonus.,yes,3
+00:31:41,00:32:11,lab,movement chip,,mechanic,any,movement_bonus=30%;speed_threshold=170%;current_speed=120%,The new chip improves movement speed below its threshold and helps the active character.,yes,2
+00:32:42,00:33:19,characters,Cosmic Candy,elemental_sorcerer,account_note,w5,starting_damage=500000;claim=5_days_2_hours,A Cosmic Candy produces a large claim and substantial Elemental Sorcerer progression.,yes,3
+00:33:49,00:34:20,quests,W5 tasks,,how_to,w5,,Turn in Sugma Ash and Plated Crumbs and Sundried Glass to progress the World Five tutorial and task unlock.,yes,2
+00:34:20,00:34:50,sailing|gaming,consumable savings,,priority,w5,,Save Bottled Wind and fertilizer for later focused pushes rather than using them immediately.,yes,3
+00:34:20,00:34:50,sailing,Bottled Wind,,how_to,w5,,Use saved wind when focusing on a specific artifact to maximize acquisition chances.,yes,3
+00:34:50,00:35:20,characters,base versus total stats,,mechanic,any,,All-stat percentage multiplies base stats but does not multiply total-stat bonuses.,yes,3
+00:35:20,00:35:50,characters,stat example,,mechanic,any,all_stat=100%;base_before=10;base_after=20;total_before=10;total_after=10,Base stats benefit from all-stat percentage while the equivalent total-stat bonus remains unchanged.,yes,3
+00:35:20,00:35:50,merits|sailing,Loot Pile,,priority,w5,,Prioritize Loot Pile capacity for more sailing chests and artifact chances before stat-overload upgrades.,yes,3
+00:35:50,00:36:20,recipe_unlocks,gear unlock timing,,skip,w5,,Delay the later gear-related unlock until Troll gear is available.,yes,2
+00:36:20,00:36:51,merits,Stat Overload,,mechanic,w5,max_total_stat=300,Maxing the stat upgrade still provides useful total stats but is expensive.,yes,3
+00:36:20,00:36:51,merits,mob respawn,,priority,w5,,Mob respawn is a useful option alongside Loot Pile capacity.,yes,3
+00:36:51,00:37:21,merits,skill experience,,comparison,w5,,Choose between respawn and skill experience based largely on whether divinity experience is the current priority.,yes,3
+00:36:51,00:37:21,merits,atom reduction,,skip,w5,,Delay atom-cost reduction because the account lacks the bonuses to use atoms meaningfully.,yes,3
+00:37:21,00:37:51,merits,talent points,,skip,w5,,Early tab-four point purchases offer limited value because leveling and alchemy can supply the needed points.,yes,3
+00:37:21,00:37:51,gem_shop,card slot,,account_note,any,,The creator buys another card slot after acquiring additional Brimstone slots.,yes,3
+00:38:56,00:39:26,class_choice,secret-class character,beginner,setup,any,,Create the next character as a Beginner and allocate luck for the secret-class path.,yes,3
+00:39:26,00:39:58,class_choice,secret-class path,beginner,warning,any,,Do not choose a normal class on the intended secret-class character.,yes,3
+00:39:26,00:39:58,class_choice,secret-class strength,,warning,early,,The secret class requires considerable development before becoming useful.,yes,3
+00:39:58,00:40:28,quests,secret peanut NPC,,how_to,w1,peanuts_to_drop=1,Drop only one peanut at the sign because the NPC consumes the whole dropped stack.,yes,3
+00:40:28,00:40:58,quests,Peanut recipe,,how_to,w1,,Complete Picnic Stowaway quests on the frog map to obtain the Peanut recipe.,yes,3
+00:40:58,00:41:29,quests,Picnic Stowaway early objectives,,how_to,w1,,Craft Orange Shirt and farm frog condiments then complete mushroom kills for early inventory and weapon rewards.,yes,3
+00:41:29,00:42:00,quests,Golden Jam reward,,account_note,w1,golden_jam=5,The quest chain provides Golden Jam that helps the current damage setup.,yes,2
+00:42:00,00:42:30,quests,Peanut recipe unlock,,mechanic,w1,,Continuing Picnic Stowaway unlocks Peanut crafting but further quests are needed for the desired star talent.,yes,3
+00:42:00,00:42:30,worship,skull preparation,,target,any,worship_level=25,Use available worship charge to reach the next skull-equipment requirement and prepare Dune Souls.,yes,2
+00:43:00,00:43:30,quests,Picnic materials,,how_to,w1,crafted_peanuts=600,Prepare Peanuts and then Crude Oil and Iron Bars and Sculpting Tools to continue the chain.,yes,3
+00:43:30,00:44:00,quests,hot tea,,warning,w1,,Run to the Carrot map without teleporting or the timed tea objective fails.,yes,3
+00:43:30,00:44:00,quests,hot tea enemy,,how_to,w1,,Defeat the special Sandy Pot on the Carrot map then return to turn in the quest.,yes,3
+00:44:30,00:45:02,quests,Picnic equipment turn-in,,threshold,w1,kebabs=500,Turn in Iron Helmet and five hundred Kebabs for the next Picnic objective.,yes,3
+00:45:02,00:45:33,quests,Magic Meatloaf,,warning,any,,Save Magic Meatloaf for required materials rather than consuming its healing effect.,yes,3
+00:45:33,00:46:03,quests,Crystals 4 Dayys,,mechanic,any,,Finishing the relevant Picnic quest awards the star talent that increases crystal spawn chance.,yes,3
+00:45:33,00:46:03,characters,Crystals 4 Dayys,,skip,any,,Do not invest points in the crystal-spawn talent yet while focusing on world pushing.,yes,3
+00:46:03,00:46:34,quests,Baba Yaga talent,,how_to,w1,,Farm Baba Yaga for the food-effect star talent that helps Icing Ironbite and Saucy Logfries sampling setups.,yes,2
+00:46:34,00:47:04,quests,quest damage,,mechanic,any,,Additional quest completions also increase the account's damage bonus.,yes,3
+00:47:49,00:48:20,quests,Stone Peanut,,how_to,w1,turnins=50/200/400;summon_peanut=1,Complete the three peanut turn-ins to receive Stone Peanut after summoning the hidden NPC with one peanut.,yes,3
+00:48:20,00:48:52,quests,suspicious rock,,how_to,w1,inventory_peanuts=1000,Drop Stone Peanut at the suspicious rock on the frog map then satisfy the thousand-peanut inventory objective.,yes,3
+00:48:52,00:49:23,quests,Golden Peanut recipe,,threshold,w1,turnin_peanuts=500,Hand in five hundred Peanuts for the Golden Peanut recipe.,yes,3
+00:49:23,00:49:56,characters,Golden Peanuts,,mechanic,any,,Golden Peanuts improve mining efficiency.,yes,3
+00:49:56,00:50:29,quests,secret-class completion,,target,w1,golden_peanuts=5,Craft five Golden Peanuts to complete the remaining secret-class requirement.,yes,3
+00:50:29,00:51:00,class_choice,Journeyman,journeyman,mechanic,any,,Journeyman specializes in looting and provides access to a secret equipment-set path.,yes,3
+00:51:00,00:51:32,characters,Best Class talent,,mechanic,any,weapon_power=1;level_interval=10,The rewarded star talent grants one base weapon power per ten levels.,yes,3
+00:51:00,00:51:32,characters,luck scaling,journeyman,mechanic,any,,Luck supplies both Journeyman accuracy and damage.,yes,3
+00:51:32,00:52:03,characters,starting talents,journeyman,setup,early,,Prioritize Sharpened Axe and Gilded Sword and luck with optional fighting AFK gains.,yes,3
+00:51:32,00:52:03,characters,combat weakness,journeyman,warning,early,,Journeyman is weak at combat and requires focused development.,yes,3
+00:52:03,00:52:33,characters,Gimme Gimme,journeyman,mechanic,any,loot_multiplier=2,Gimme Gimme can double loot quantity rather than increasing drop rate.,yes,3
+00:52:03,00:52:33,characters,boss farming,journeyman,priority,any,,Use Journeyman or its upgrades for boss farming when damage permits because of the extra-loot talent.,yes,3
+00:52:03,00:52:33,characters,damage limitation,journeyman,warning,any,,The secret-class line has extremely low damage compared with other classes.,yes,3
+00:52:33,00:53:03,characters,Indiana Attack,journeyman,priority,early,,Raise Indiana Attack and luck for AFK kills and accuracy with Lucky Hit also useful.,yes,3
+00:53:03,00:53:39,characters,leveling candy,journeyman,account_note,w5,candy=2_hours;xp_rate=114_million;claim_xp=229_million,A short candy claim provides substantial experience once the new character can survive.,yes,3
+00:53:39,00:54:10,characters,Piggy Bank,journeyman,target,any,talent_points=1;weapon_power_gain=6,Add one point to Piggy Bank while using new levels for more weapon power and combat talents.,yes,3
+00:54:10,00:54:42,divinity,new character,journeyman,setup,w5,,Park Journeyman in divinity until ready to develop it further.,yes,3
+00:54:42,00:55:12,bubbles,Bubble Breakthrough,,setup,any,,Use the proper Bubble Breakthrough setup before attempting new bubbles.,yes,3
+00:54:42,00:55:12,bubbles,Fly In Mind,,mechanic,any,,Fly In Mind grants catching AFK gains.,yes,3
+00:54:42,00:55:12,bubbles,Diamond Chef,,account_note,any,unlock_chance=9%,Diamond Chef is the next major bubble target.,yes,3
+00:55:12,00:55:43,stamps,easy unlocks,,priority,any,,Collect accessible stamps from Mr Piggybank and Hamish and Baby Boas and Gigafrogs.,yes,3
+00:55:43,00:56:15,stamps,Cattleprod,,how_to,w2,stamps=4,Check stamp sources and complete Cattleprod's quests for several additional stamps.,yes,3
+00:56:15,00:56:45,constellations,timing,,skip,any,,Delay the major star-sign push until more required content and multikill are available.,yes,3
+00:56:45,00:57:16,storage,Telekinetic Storage,,warning,any,,Use Telekinetic Storage without Ram but collect important drops first because it destroys items left on the ground.,yes,3
+00:57:47,00:58:18,account_structure,World Six push,,priority,w5,maps_remaining=5,Prioritize reaching World Six because its bonuses offer major multiplicative improvements.,yes,3
+00:58:18,00:58:48,account_structure,W6 bonuses,,mechanic,w6,,World Six improves damage and money and talents and skill efficiency and many skill speeds.,yes,3
+00:58:48,00:59:19,account_structure,W6 skills,,mechanic,w6,,World Six skills progress through regular management rather than traditional character skill-efficiency requirements.,yes,3
+00:59:19,00:59:50,damage,W6 scaling,,comparison,w6,damage_multiplier=10-50;with_companions=at_least_100,The creator considers World Six the largest damage jump among worlds especially with companion bonuses.,yes,3
+00:59:50,01:00:20,w7_push,release pacing,,mechanic,w7,initial_skills=1-2;initial_maps=about_half,World Seven releases in segments so players have time to catch up.,yes,3
+01:00:50,01:01:21,storage,active farming,elemental_sorcerer,warning,any,,Elemental Sorcerer fills bags rapidly and unattended ground drops can cause heavy lag.,yes,3
+01:01:51,01:02:26,armor_smithy,Icebreaker,,account_note,any,base_weapon_power=33;power_per_stone=5;stones=4;added_power=20,The creator crafts Icebreaker and applies weapon-power upgrade stones.,yes,3
+01:02:26,01:02:57,armor_smithy,weapon damage,,account_note,any,damage_before=5.4_million;damage_after=7.5_million,The upgraded weapon substantially increases displayed damage.,yes,3
+01:02:26,01:02:57,armor_smithy,Doot Scythe,,target,any,black_lenses=2,Farm Eternal Lords through Trapper Drone to prepare Doot Scythe while the required Black Lenses are already available.,yes,3
+01:03:27,01:03:58,hole,DNA Rock Tumbler,,mechanic,w5,proc_chance=60%,DNA Rock Tumbler provides extra gray DNA when trashing breeding pets.,yes,3
+01:03:27,01:03:58,hole,Motherlode synergy,,mechanic,w5,,Destroyed Motherlode layers improve bucket fill rate through the related schematic.,yes,3
+01:03:58,01:04:28,hole,Green Amplifier,,mechanic,w5,,Green Amplifier uses accuracy to improve the Dog's Den multiplier.,yes,3
+01:03:58,01:04:28,hole,Expander Extravaganza,,mechanic,w5,fill_bonus_per_expansion=20%,Each completed sediment-bar expansion increases bucket fill rate.,yes,3
+01:04:28,01:05:00,hole,Story Changes Over Time,,mechanic,w5,min_damage=1;max_damage=10;afk_interval=6_hours,The schematic improves Bravery sword damage for each six hours spent AFK at the monument.,yes,3
+01:05:00,01:05:31,hole,sediment progression,,how_to,w5,,Destroy rock layers to unlock new sediment types while prioritizing bucket fill and needed Gold Dust.,yes,3
+01:05:00,01:05:31,hole,Motherlode,,mechanic,w5,,Use sufficient efficiency to clear Motherlode layers and receive opals.,yes,3
+01:05:31,01:06:03,hole,Dog's Den,,mechanic,w5,next_opal_score=1800,Dog's Den rewards opals at score thresholds while amplifiers modify enemy stats and score multipliers.,yes,3
+01:06:03,01:06:34,hole,Dog's Den fear,,mechanic,w5,current_multiplier=2.37,Surviving hounds fill the fear meter and a full meter ends the run.,yes,3
+01:06:34,01:07:04,hole,Dog's Den strategy,,how_to,w5,,Kill hounds quickly to prevent them from filling the fear meter.,yes,3
+01:07:04,01:07:36,hole,Dog's Den scaling,,mechanic,w5,enemy_damage_setting=122000;target_score=1800,Hounds grow stronger over the run and later amplifiers help push further.,yes,3
+01:07:36,01:08:06,hole,best-run bucket bonus,,mechanic,w5,fill_rate=10;hounds=100;warrior_kills=33;displayed_gain=3,The schematic grants bucket fill based on combined best hound kills across base classes.,yes,3
+01:07:36,01:08:06,class_choice,Beginner classification,,mechanic,any,,Maestro and its secret-class line still count as Beginner for class-based bonuses.,yes,3
+01:08:06,01:08:37,hole,Dog's Den stats,,priority,w5,,Higher damage and defense and accuracy all improve Dog's Den progression.,yes,3
+01:08:37,01:09:07,hole,Bravery swords,,mechanic,w5,swords=3;damage_range=3-25;example_target=25,Combine randomly rolled sword damage to meet the encounter's health requirement.,yes,3
+01:09:07,01:09:37,hole,Bravery rewards,,mechanic,w5,reward_choices=3,Successful encounters offer choices such as bucket fill and cooking speed and mining efficiency.,yes,3
+01:09:37,01:10:08,hole,Bravery risk,,warning,w5,,Failing a later encounter loses the current run's rewards but never removes bonuses banked in prior runs.,yes,3
+01:10:08,01:10:39,hole,Bell bonuses,,mechanic,w5,bonus_types=6,Ringing Bell randomly awards bonuses including bucket fill and villager experience and rupee chance and lamp wishes.,yes,3
+01:10:39,01:11:10,hole,Bell priority,,priority,w5,,Bell is the first major cavern acceleration point and deserves early attention.,yes,3
+01:10:39,01:11:10,hole,Pinging Bell,,mechanic,w5,,Pinging Bell earns opals that improve villager experience.,yes,3
+01:11:10,01:11:41,hole,Cleaning Bell,,mechanic,w5,rate=10_per_hour;requirement=100;time=10_hours,Cleaning Bell unlocks improvement methods that accelerate future bell progress.,yes,3
+01:11:41,01:12:12,hole,Renewing Bell,,mechanic,w5,bonuses_reset=6,Renewing resets accumulated Bell bonuses and counters rising ring costs.,yes,3
+01:12:12,01:12:43,hole,Bell renew timing,,how_to,w5,later_level_multipliers=2/3/200_plus,Renew after obtaining stronger multi-level upgrades to rebuild desired bonuses more efficiently.,yes,3
+01:12:43,01:13:13,hole,Lamp Wishes,,target,w5,cavern=6,Later Bell resets can target lamp wishes once the next cavern unlocks.,yes,3
+01:13:13,01:13:43,hole|divinity,Conjuror,,mechanic,w5,simultaneous_gods=2,Conjuror unlocks the ability to run multiple gods simultaneously.,yes,3
+01:13:43,01:14:13,hole|divinity,Snake and Arctis,,setup,w5,afk_gains=30%,Combine Snake's AFK gains and level-scaled accuracy and defense with Arctis lab connectivity.,yes,3
+01:14:13,01:14:44,hole|printer,Pocket Divinity,,priority,w5,afk_gains=30%,The added AFK gain strongly benefits upcoming samples and is especially valuable without Doot.,yes,3
+01:14:44,01:15:15,hole,Conjuror categories,,mechanic,w5,,Hole Magic affects cavern systems while Village Magic largely improves villagers and IdleOn Magic grants outside-account bonuses.,yes,3
+01:15:15,01:15:45,hole,opal experience bonus,,mechanic,w5,opal_interval=10,Every tenth opal invested in a villager increases that villager's own experience percentage.,yes,3
+01:15:45,01:16:16,hole,monument bonus,,mechanic,w5,current_monuments=3,Conjuror monument upgrades amplify Bravery and Justice and Wisdom bonuses.,yes,3
+01:16:16,01:16:46,hole,Conjuror points,,mechanic,w5,,Leveling Conjuror supplies additional upgrade points.,yes,3
+01:16:46,01:17:16,hole,Lamp resets,,mechanic,w5,cavern=6,Lamp permits resetting opals and Conjuror points so early allocations can later be revised.,yes,3
+01:17:16,01:17:46,hole|divinity,combined gods,,mechanic,w5,,Multiple-god access allows retaining lab connectivity while benefiting from another god during pushing or sampling.,yes,3
+01:17:46,01:18:18,hole|pets,Doot replacement,,mechanic,w5,,With Doot the multiple-god Conjuror upgrade instead supplies all-stat percentage.,yes,3
+01:18:18,01:18:50,hole|divinity,maximum links,,mechanic,w5,ordinary_gods=3;elemental_sorcerer_gods=4,The upgraded system permits three gods per character and four for Elemental Sorcerer.,yes,3
+01:19:21,01:19:53,printer|divinity,AFK improvement,,account_note,w5,old_afk=105%;new_afk=135%;additional_prayer_slots=2,Snake improves sample-related AFK gains and Elemental Sorcerer levels unlock more prayer slots.,yes,3
+01:19:53,01:20:23,damage,multiplicative bonus,,account_note,w5,before=7.8_million;bonus=2.4%;after=7.9_million,A small multiplicative bonus moves displayed damage close to eight million.,yes,3
+01:20:23,01:20:54,damage,session progression,,account_note,w5,start=5.4_million;end=almost_8_million,Equipment and account upgrades substantially improve damage while unlocking Journeyman.,yes,3
