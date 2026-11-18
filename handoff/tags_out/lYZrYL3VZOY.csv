@@ -1,0 +1,170 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:32,bubba,push strategy,,warning,any,,This strategy requires prerequisites and is not a beginner guide.,yes,3
+00:00:32,00:01:03,bubba,Grand Salmon,,threshold,any,,Have at least Grand Salmon before attempting this push strategy.,yes,3
+00:00:32,00:01:03,bubba,Big Tenderloin,,priority,any,,Big Tenderloin makes the strategy especially worthwhile.,yes,3
+00:01:03,00:01:33,bubba,Big Slice,,mechanic,any,meat_per_gift=20,Big Slice increases meat production and generates meat when using Open Gift.,yes,3
+00:01:03,00:01:33,bubba,Slab Cake,,mechanic,any,smoked_meat_multiplier=10,Slab Cake gives a chance to receive ten times smoked meat.,yes,3
+00:01:03,00:01:33,bubba,smoked meat,,priority,any,,Smoked meat supplies the biggest multiplier for farming meat slices and drives most pushing.,yes,3
+00:01:03,00:01:33,bubba,meat slice bonuses,,setup,any,,Acquire bonuses specifically increasing meat slice production.,yes,3
+00:01:33,00:02:04,bubba,Go Bubba the Seal,,priority,any,multiplier=80,Strongly recommend Go Bubba the Seal before attempting the strategy because it massively increases meat slices.,yes,3
+00:01:33,00:02:04,bubba,Bubba Forever,,meta_change,any,,Crystal Cove added the Bubba Forever fountain bonus.,yes,3
+00:01:33,00:02:04,bubba,Bubba Forever,,warning,any,,Do not expect to obtain Bubba Forever soon.,yes,3
+00:02:04,00:02:34,bubba,fun gifts,,setup,any,choices=2;slab_cake_gift_order=5,After resetting select Big Slice and Slab Cake as the two fun gifts.,yes,3
+00:02:04,00:02:34,bubba,patting,,skip,any,,Leave Bubba unpatted at the beginning of the strategy.,yes,3
+00:02:04,00:02:34,bubba,Happy Boy and Buyer Grin,,skip,any,,Initially leave Happy Boy and Buyer Grin unupgraded if production is sufficient.,yes,3
+00:02:34,00:03:05,bubba,Happy Boy and Buyer Grin,,how_to,any,levels=100,Wait until coins unlock before dumping roughly one hundred levels into Happy Boy and Buyer Grin.,yes,3
+00:02:34,00:03:05,bubba,Mindful,,priority,any,,Max Mindful first before prioritizing Hustle or Rizz.,yes,3
+00:02:34,00:03:05,bubba,Rizz,,mechanic,any,,Rizz reduces upgrade costs.,yes,3
+00:02:34,00:03:05,bubba,Mindful,,mechanic,any,levels_multiplier=2,Mindful procs give double levels without increasing the upgrade cost.,yes,3
+00:03:05,00:03:35,bubba,Mindful versus Rizz,,comparison,any,cost_reduction_comparison=10x_less,Mindful can cost ten times less long term than relying on Rizz because double levels avoid cost scaling.,yes,3
+00:03:05,00:03:35,bubba,initial upgrades,,warning,any,,Keep initial upgrade levels low to avoid scaling their costs excessively before setup.,yes,3
+00:03:35,00:04:05,bubba,Charisma,,priority,any,,Raise Charisma as much as practical during the initial ramp.,yes,3
+00:03:35,00:04:05,bubba,Mindful,,how_to,any,wait=about_1_day,Wait or use consumable meat to max Mindful before progressing further.,yes,3
+00:03:35,00:04:05,bubba,Mindful,,mechanic,any,,A higher initial Mindful proc chance improves subsequent upgrade efficiency.,yes,3
+00:03:35,00:04:05,bubba,Mindful,,account_note,any,meat=1;hours=2;level=81,One two-hour meat brought Mindful to level eighty-one in this demonstration.,yes,3
+00:04:05,00:04:36,bubba,Mindful,,account_note,any,level=97,The next meat use brought Mindful to ninety-seven.,yes,3
+00:04:05,00:04:36,bubba,Mindful,,target,any,level=120,Bring Mindful to level one hundred twenty.,yes,3
+00:04:05,00:04:36,bubba,production upgrades,,how_to,any,consumable_hours=2,Buy some production upgrades before consuming another two-hour meat to improve its return.,yes,3
+00:04:36,00:05:07,bubba,Emulsify?,,mechanic,any,multiplier=2,The selected charisma effect is doubled by the ability referred to as multiply.,yes,2
+00:04:36,00:05:07,bubba,dice roll,,skip,any,,Delay dice rolls while setting up Hustle and Rizz.,yes,3
+00:04:36,00:05:07,bubba,Hustle and Rizz,,setup,any,split=50/75,Level Hustle next and aim for a roughly fifty/seventy-five split between Hustle and Rizz.,yes,2
+00:04:36,00:05:07,bubba,Joy,,opinion,any,,Joy can assist the final Bubba push but the creator prefers a simpler setup without it.,yes,3
+00:05:07,00:05:37,bubba,Hustle,,mechanic,any,,Hustle increases the meat received from consumable meats.,yes,3
+00:05:07,00:05:37,bubba,Super Chart,,mechanic,any,,Super Chart improves Charisma bonuses and therefore strengthens Mindful.,yes,2
+00:05:07,00:05:37,bubba,Smoker,,priority,any,,Push toward Smoker to make the selected gift strategy stronger.,yes,3
+00:05:07,00:05:37,bubba,dice roll,,how_to,any,rolls=1,Optionally use one early dice roll to establish a multiplier.,yes,3
+00:05:37,00:06:07,bubba,dice roll,,skip,any,,Early dice rolls are unnecessary because better dice become available later.,yes,3
+00:05:37,00:06:07,bubba,Super Chart,,mechanic,any,,Mindful can proc on Super Chart upgrades.,yes,3
+00:05:37,00:06:07,bubba,Super Chart,,account_note,any,mindful_before=37%;mindful_after=38%,A Super Chart upgrade increased the demonstrated Mindful chance.,yes,3
+00:05:37,00:06:07,bubba,Super Chart,,priority,any,,Reserve most spending for Super Chart while continuing to avoid Happy Boy and Buyer Grin.,yes,3
+00:06:07,00:06:37,bubba,Hustle,,how_to,any,,Emulsify Hustle before using meat consumables or leaving Bubba.,yes,2
+00:06:07,00:06:37,bubba,More Dice,,how_to,any,upgrades=1,Purchase More Dice to improve the dice-roll multiplier.,yes,3
+00:06:07,00:06:37,bubba,dice roll,,setup,any,,Usually select Rizz when using dice rolls.,yes,2
+00:06:07,00:06:37,bubba,Great Meat,,priority,any,,Use Mindful and invest heavily into Great Meat for the best current value.,yes,3
+00:06:37,00:07:08,bubba,Smoker,,how_to,any,check_frequency=once_per_day,After reaching Smoker the setup can progress with daily maintenance.,yes,3
+00:06:37,00:07:08,bubba,happiness,,warning,any,,Using consumable meat removes the current happiness bonus.,yes,3
+00:06:37,00:07:08,bubba,consumable meat,,mechanic,any,,The strategy works without consumable meat although meat makes progression easier.,yes,3
+00:07:08,00:07:40,bubba,Rizz,,setup,any,hustle_points=38,Switch to Rizz after unlocking Smoker once Hustle provides sufficient production.,yes,3
+00:07:08,00:07:40,bubba,Smoker,,account_note,any,stored_hours=254,The demonstration starts Smoker with stored time.,yes,3
+00:07:08,00:07:40,bubba,Smoker,,target,any,hours=10,Aim to use Smoker at ten hours.,yes,3
+00:07:08,00:07:40,bubba,Big Tenderloin,,mechanic,any,free_meat_chance=75%,Big Tenderloin can grant free meat when upgrading the smoke room without resetting stored duration.,yes,3
+00:07:40,00:08:10,bubba,Slab Cake,,account_note,any,smoked_meat=10,A Slab Cake proc granted ten smoked meat while retaining stored duration.,yes,3
+00:07:40,00:08:10,bubba,Smoker,,account_note,any,smoked_meat=1,The subsequent single max-meat reward reset stored duration.,yes,3
+00:07:40,00:08:10,bubba,Smoker,,setup,any,,Use Rizz for Smoker because Mindful does not affect it.,yes,3
+00:08:10,00:08:40,bubba,Charisma,,target,any,cost=1_bill,Raise Charisma toward the demonstrated billion cost for its useful bonus.,yes,2
+00:08:10,00:08:40,bubba,dice roll,,account_note,any,multiplier=4.89,An additional dice upgrade produced a higher demonstrated roll.,yes,3
+00:08:10,00:08:40,bubba,More Dice,,priority,any,,Build Rizz cost reductions and acquire more dice while meat production ramps slowly.,yes,3
+00:08:10,00:08:40,bubba,consumable meat,,how_to,any,batch=5;hours_each=2,The creator prefers using saved two-hour meat in batches of five.,yes,3
+00:08:40,00:09:11,bubba,Smoker,,how_to,any,wait_hours=10,Without consumables wait ten hours and maintain upgrades while hoping for strong Smoker procs.,yes,3
+00:08:40,00:09:11,bubba,Smoker,,mechanic,any,wait_hours=10,The ten-hour waiting constraint matters mainly early because later currency generation removes that concern.,yes,3
+00:08:40,00:09:11,bubba,More Sides and More Dice,,how_to,any,,Use production gains to buy More Sides and More Dice for a larger multiplier.,yes,3
+00:09:11,00:09:42,bubba,dice roll,,account_note,any,multiplier=14.4,The upgraded dice produced a substantially larger multiplier.,yes,3
+00:09:11,00:09:42,bubba,Mindful,,how_to,any,,Switch back to Mindful when buying general upgrades.,yes,3
+00:09:11,00:09:42,bubba,Happy Boy and pats,,how_to,any,,Small early Happy Boy investments and pats are optional but delaying them is usually better.,yes,3
+00:09:11,00:09:42,bubba,Rizz,,account_note,any,reduction=29.1%,The demonstrated Rizz bonus improves further when emulsified.,yes,2
+00:09:42,00:10:12,bubba,Uber Gifts,,mechanic,any,,Uber Gifts strengthens fun gifts including Slab Cake's tenfold smoked-meat chance.,yes,3
+00:09:42,00:10:12,bubba,Uber Gifts,,priority,any,,Upgrade Uber Gifts as much as possible.,yes,3
+00:09:42,00:10:12,bubba,Slab Cake,,account_note,any,base_chance=15%;upgraded_chance=17%;meat_multiplier=10,Uber Gifts raised the demonstrated Slab Cake proc chance.,yes,3
+00:09:42,00:10:12,bubba,Super Chart,,priority,any,,Keep Super Chart high alongside Uber Gifts.,yes,3
+00:10:12,00:10:43,bubba,Mindful,,account_note,any,proc_chance=50%;levels_multiplier=2,Super Chart raised Mindful to a fifty-percent double-level chance.,yes,3
+00:10:12,00:10:43,bubba,upgrade spending,,account_note,any,cost_targets=10_trill_or_25_trill,The creator raises upgrade spending into trillions while building discounts and production.,yes,2
+00:10:12,00:10:43,bubba,consumable meat,,account_note,any,batch=5;currency=19Q,Another five meats advanced the demonstrated currency total.,yes,3
+00:10:43,00:11:13,bubba,Smoker,,how_to,any,,Repeat Smoker uses and upgrade production until reaching the next objective.,yes,3
+00:10:43,00:11:13,bubba,consumable meat,,warning,any,,The demonstration wastes consumable meat through careless timing to accelerate the video.,yes,3
+00:10:43,00:11:13,bubba,Smoker,,account_note,any,proc_meat=10;multiplier=3.55,A ten-meat proc increased the demonstrated smoked-meat multiplier.,yes,3
+00:11:13,00:11:44,bubba,Happy Boy,,how_to,any,purchases=1,A single Happy Boy purchase can generate extra funds without significantly disrupting the strategy.,yes,3
+00:11:13,00:11:44,bubba,Happy Boy,,warning,any,,Avoid excessive Happy Boy upgrades before the intended setup point.,yes,3
+00:11:13,00:11:44,bubba,Cost Saver,,mechanic,any,,Cost Saver reduces upgrade costs and can receive Mindful procs.,yes,3
+00:11:44,00:12:15,bubba,early happiness upgrades,,account_note,any,spend=1_trillion;multiplier=11.5,A limited early happiness investment can build a useful multiplier.,yes,2
+00:11:44,00:12:15,bubba,upgrade scaling,,warning,any,,Overleveling upgrades can gate further progress and lock the run into a problematic state.,yes,3
+00:11:44,00:12:15,bubba,Slab Cake,,account_note,any,proc_chance=18%,Slab Cake reaches an eighteen-percent proc chance in the demonstration.,yes,3
+00:12:15,00:12:45,bubba,maintenance,,how_to,any,,At this stage stop accelerating aggressively and let the setup progress with maintenance.,yes,3
+00:12:15,00:12:45,bubba,More Sides,,priority,any,,Take More Sides as soon as possible for larger dice multipliers.,yes,3
+00:12:45,00:13:15,bubba,upgrade loop,,how_to,any,,Repeatedly upgrade highest meat production then Super Chart then Uber Gifts then discounts and Smoker.,yes,3
+00:13:15,00:13:47,bubba,Mindful,,setup,any,,Keep Mindful emulsified when purchasing the affected upgrades.,yes,2
+00:13:15,00:13:47,bubba,Best Meat,,priority,any,currency=55Q,On unlocking Best Meat invest heavily because it substantially improves production.,yes,3
+00:13:47,00:14:19,bubba,Smoker,,how_to,any,currency=703Q;proc_chance=18-19%;cost_target=about_10_trillion,With sufficient currency and a decent Slab Cake chance use Rizz to buy Smoker upgrades toward the suggested cost.,yes,2
+00:13:47,00:14:19,bubba,Smoker,,account_note,any,multiplier=81.4,The demonstrated smoked-meat multiplier substantially improves subsequent production.,yes,3
+00:14:19,00:14:49,bubba,Hustle and Rizz,,target,any,hustle_current=71;hustle_target=approximately_75,Bring Hustle to approximately seventy-five then allocate the rest to Rizz.,yes,3
+00:14:19,00:14:49,bubba,Mindful,,how_to,any,,Use Mindful for extensive purchases while upgrade costs remain low.,yes,3
+00:14:19,00:14:49,bubba,Rizz,,account_note,any,cost=12_trillion,Rizz remains inexpensive enough to keep upgrading during this phase.,yes,3
+00:14:49,00:15:20,bubba,Spare Coins,,priority,any,current=12QQ;target=20QQ,Push toward unlocking coins as the next major objective.,yes,3
+00:14:49,00:15:20,bubba,consumable meat,,comparison,any,,Progression without consumable meat uses the same strategy but requires more time and maintenance.,yes,3
+00:15:20,00:15:51,bubba,Smoker,,warning,any,,Avoid letting stored Smoker time sit capped unnecessarily.,yes,3
+00:15:20,00:15:51,bubba,Open Gift,,warning,any,,Using Open Gift too early can seriously disrupt the final push.,yes,3
+00:15:20,00:15:51,bubba,Happy Boy and Buyer Grin,,warning,any,,Premature Happy Boy and Buyer Grin purchases set progress back without necessarily ruining the run.,yes,3
+00:15:20,00:15:51,bubba,Smoker,,warning,any,,Buying all Smoker charges immediately is a major mistake.,yes,3
+00:15:51,00:16:21,bubba,Real Love,,mechanic,any,,Real Love increases happiness gained from all sources.,yes,3
+00:15:51,00:16:21,bubba,Real Love,,skip,any,,Delay Real Love upgrades while pushing to the nearby coin unlock.,yes,3
+00:16:21,00:16:52,bubba,Smoker,,how_to,any,cost_target=1Q,With stronger Slab Cake and Super Chart use Rizz to push Smoker purchases further.,yes,3
+00:16:21,00:16:52,bubba,Big Tenderloin,,mechanic,any,free_meat_chance=75%;slab_cake_multiplier=10,Repeated free Smoker procs and occasional tenfold rewards rapidly compound the multiplier.,yes,3
+00:16:52,00:17:22,bubba,production,,account_note,any,gain=47QQ,The next production claim benefits substantially from the stronger Smoker multiplier.,yes,2
+00:16:52,00:17:22,bubba,dice roll,,account_note,any,multiplier=71.5,Further dice upgrades produced a larger multiplier.,yes,3
+00:16:52,00:17:22,bubba,Spare Coins,,mechanic,any,,Spare Coins unlocks pennies and nickels and quarters and dollars.,yes,3
+00:16:52,00:17:22,bubba,Spare Coins,,account_note,any,currency=309Q,The demonstrated run reaches Spare Coins after further production and discount upgrades.,yes,2
+00:17:22,00:17:53,bubba,Buyer Grin,,mechanic,any,,Buyer Grin grants Bubba happiness for each upgrade purchase.,yes,3
+00:17:22,00:17:53,bubba,Spare Coins,,mechanic,any,,Each upgrade purchase can collect a penny or nickel or quarter or dollar.,yes,3
+00:17:22,00:17:53,bubba,Happy Boy and Buyer Grin,,how_to,any,,After unlocking Spare Coins upgrade the previously saved Happy Boy and Buyer Grin levels to build the coin multiplier.,yes,3
+00:17:22,00:17:53,bubba,Spare Coins,,account_note,any,multiplier=2;upgrade_cost_target=1Q,Cheap saved upgrades quickly build the coin multiplier.,yes,3
+00:17:53,00:18:24,bubba,upgrade purchases,,how_to,any,cost_target=roughly_100Q,Upgrade broadly to the demonstrated cost range to build the coin multiplier.,yes,3
+00:17:53,00:18:24,bubba,Real Love,,priority,any,,Upgrade Real Love before mass purchasing other upgrades to amplify happiness gains.,yes,3
+00:18:24,00:18:54,bubba,maintenance,,how_to,any,,Stop aggressive pushing after establishing the major multipliers and transition into maintenance.,yes,3
+00:18:54,00:19:25,bubba,Crossover,,skip,any,,Crossover is not yet necessary during this maintenance stage.,yes,3
+00:18:54,00:19:25,bubba,Super Chart and Uber Gifts,,priority,any,,Focus maintenance on Super Chart and Uber Gifts until ready for the final push.,yes,3
+00:18:54,00:19:25,bubba,upgrade costs,,mechanic,any,,Rising upgrade costs relative to production create diminishing returns at this stage.,yes,3
+00:19:25,00:19:55,bubba,dice roll,,priority,any,roll=181,Maintain dice upgrades to keep obtaining higher multipliers.,yes,3
+00:19:25,00:19:55,bubba,Slab Cake,,account_note,any,proc_chance=22%,The demonstrated Slab Cake chance reaches twenty-two percent.,yes,3
+00:19:25,00:19:55,bubba,Smoker and coins,,mechanic,any,,Smoker purchases build both smoked-meat and coin multipliers.,yes,3
+00:19:55,00:20:26,bubba,consumable meat,,comparison,any,time_without_meat=couple_of_days,Reaching this ramp without consumable meat takes a couple of days.,yes,3
+00:19:55,00:20:26,bubba,charisma allocation,,target,any,mindful=120;hustle=73;rizz=60,The demonstrated Mindful and Hustle and Rizz allocation is close to the desired setup.,yes,3
+00:20:26,00:20:57,bubba,Loaded Dice,,mechanic,any,,Loaded Dice improves other dice and is a strong upgrade.,yes,3
+00:20:26,00:20:57,bubba,Smoker,,account_note,any,meat_consumed=5;cost_target=2Q,Additional consumable meat enables more expensive Smoker upgrades and rapid multiplier growth.,yes,3
+00:20:26,00:20:57,bubba,post-ramp options,,how_to,any,,After ramping choose between boon farming and maintenance before another major push.,yes,3
+00:20:57,00:21:29,bubba,maintenance,,how_to,any,frequency=once_per_day,Check Bubba once daily during maintenance before the next big push.,yes,3
+00:20:57,00:21:29,bubba,Big Tenderloin,,priority,any,,Grand Salmon is sufficient but waiting until Big Tenderloin is strongly recommended.,yes,3
+00:20:57,00:21:29,bubba,Big Slice and Slab Cake,,setup,any,,Ensure Big Slice and Slab Cake are selected for the strategy.,yes,3
+00:20:57,00:21:29,bubba,Mindful,,priority,any,level=120,Reach Mindful one hundred twenty before working on Hustle or Rizz.,yes,3
+00:20:57,00:21:29,bubba,Smoker,,how_to,any,,Delay dice rolls until dice upgrades improve and begin spending on Smoker according to current prices.,yes,3
+00:21:29,00:22:00,bubba,Smoker,,how_to,any,initial_cycles=couple;hours_per_cycle=10,After initial ten-hour cycles switch to Rizz and repeatedly purchase Smoker upgrades to accelerate growth.,yes,3
+00:21:29,00:22:00,bubba,Tenderloin progression,,account_note,any,next_unlocks=3;time=about_2_days,The creator obtained the next three rewards from Tenderloin in about two days using this strategy.,yes,2
+00:22:00,00:22:31,bubba,final push,,setup,any,,Prepare smoked-meat stacks and coin stacks and other multipliers before the final push.,yes,3
+00:22:00,00:22:31,bubba,Rizz,,account_note,any,currency=7.59E29;discount=91.9%,The final-push demonstration uses emulsified Rizz for a large discount.,yes,2
+00:22:31,00:23:02,bubba,Chromatic Meat,,mechanic,any,owned=2;display=2.2,Chromatic Meat progress may be clearer from its multiplier than the apparent upgrade display.,yes,3
+00:22:31,00:23:02,bubba,patting,,setup,any,,Save all pats for the final push.,yes,3
+00:22:31,00:23:02,bubba,optimizer,,how_to,any,,A Bubba optimizer exists to help progression but the creator does not use or vouch for it.,yes,3
+00:23:02,00:23:32,bubba,final upgrades,,how_to,any,levels_multiplier=2;cost_target=about_100QQQ,Use Mindful for final production upgrades while limiting currency depletion.,yes,2
+00:23:32,00:24:02,bubba,final push spending,,warning,any,,Avoid spending too much currency immediately before trying to finish the run.,yes,3
+00:23:32,00:24:02,bubba,dice roll,,account_note,any,extra_rolls=1,The creator attempts one final dice roll before the push.,yes,3
+00:23:32,00:24:02,bubba,Buyer Grin and Happy Boy,,priority,any,,Strengthen Buyer Grin and Happy Boy for the finale.,yes,3
+00:24:02,00:24:32,bubba,Smoker,,how_to,any,smoked_meat_multiplier=2,Use Rizz to purchase additional Smoker upgrades and maximize the final multiplier.,yes,3
+00:24:02,00:24:32,bubba,final push,,how_to,any,pats=50;big_slices_per_gift=20,Switch to Hustle then use available pats and open gifts to generate meat with the boosted happiness multiplier.,yes,3
+00:24:02,00:24:32,bubba,patting,,mechanic,any,,The happiness multiplier gains diminish as more pats are used.,yes,3
+00:24:32,00:25:03,bubba,final push,,warning,any,,After spending pats there is a short window to complete the gift push.,yes,3
+00:24:32,00:25:03,bubba,Rizz,,how_to,any,,Switch to Rizz when making the final target purchase.,yes,3
+00:24:32,00:25:03,bubba,final push,,account_note,any,currency=6.93E29,The demonstrated gift push falls short but unlocks Perma Sale and Big Old Coin.,yes,3
+00:25:03,00:25:33,bubba,Perma Sale and Bargain Tags,,how_to,any,,Use Mindful to purchase more cost reductions after a push falls short.,yes,3
+00:25:03,00:25:33,bubba,cost reductions,,mechanic,any,,Cost-reduction upgrades also reduce the costs of other cost-reduction upgrades.,yes,3
+00:25:33,00:26:03,bubba,Rizz,,account_note,any,target_cost_initial=1.6E29;target_cost_reduced=1.3E29;currency_scale=E28,Switching from Mindful to Rizz lowers the target price but the demonstration remains short.,yes,3
+00:25:33,00:26:03,bubba,Bubba Boon,,how_to,any,,Choose a Bubba Boon instead if the main push falls short and that reward is preferable.,yes,3
+00:26:03,00:26:33,bubba,recovery push,,how_to,any,upgrade_cost_scale=E24;stated_target=1E39,After missing the threshold use Rizz to buy more multiplier upgrades and then consume additional meat.,yes,2
+00:26:33,00:27:03,bubba|kangaroo,Crossover,,mechanic,any,power=10,The Poppy fishing pond's power of ten provides a strong meat-production bonus.,yes,2
+00:26:33,00:27:03,bubba,recovery upgrades,,priority,any,cost_target=E24,Prioritize Super Chart and Best Meat and Crossover and Third Slice and Smoker while rebuilding the push.,yes,3
+00:26:33,00:27:03,bubba,cost reductions,,priority,any,,Buy cost reductions and lower-tier meat upgrades when their prices are sufficiently reduced.,yes,3
+00:26:33,00:27:03,bubba,Spare Coins,,mechanic,any,,All these purchases also build the coin multiplier.,yes,3
+00:27:03,00:27:34,bubba,recovery production,,account_note,any,production=2.23E25,The creator can either wait for more production or spend leftover event meat after missing the target.,yes,3
+00:27:34,00:28:05,bubba,recovery push,,account_note,any,target=1.3E29,Reaching the missed target through additional meat is costly in this demonstration.,yes,3
+00:27:34,00:28:05,bubba,Smoker,,how_to,any,hours=10,Use enough meat to reach the optimized ten-hour Smoker duration and improve the multiplier.,yes,3
+00:27:34,00:28:05,bubba,More Sides,,how_to,any,,Buy More Sides at reduced cost for another chance at a higher dice multiplier.,yes,3
+00:28:05,00:28:36,bubba,Hustle,,account_note,any,value=6.45E24,The improved setup increases the demonstrated Hustle value.,yes,2
+00:28:05,00:28:36,bubba,final push,,how_to,any,pats=50,Prepare enough beforehand that fifty pats and multiple Open Gifts allow immediate purchase of the target.,yes,3
+00:28:05,00:28:36,bubba,optimizer,,how_to,any,,Consider using the optimizer to avoid underestimating the final push requirements.,yes,3
+00:28:05,00:28:36,bubba,Chromatic Meat,,mechanic,any,owned=2,Further Chromatic Meat progression takes longer after already owning two.,yes,3
+00:28:36,00:29:07,bubba,Mega Flush,,account_note,any,meat_consumed=100;rizz_discount=92.9%,The creator spends one hundred meat to recover from the failed push and reach Mega Flush.,yes,3
+00:28:36,00:29:07,bubba,Chromatic Meat,,comparison,any,target_chromatic=3,Earlier Chromatic Meat pushes are easier because later costs scale substantially.,yes,3
+00:28:36,00:29:07,bubba,Bubba Boon,,how_to,any,,Players commonly farm Bubba Boons at this stage instead of immediately pursuing further Chromatic Meat.,yes,3
+00:29:07,00:29:38,bubba,Bubba Boon versus Chromatic Meat,,comparison,any,boon_cost_scale=E25;chromatic_cost_scale=E29,Bubba Boon is substantially cheaper than the demonstrated next Chromatic Meat reward.,yes,3
+00:29:07,00:29:38,bubba,final preparation,,how_to,any,,Emulsify Mindful for relevant upgrades while preserving enough currency to avoid a deficit.,yes,3
+00:29:07,00:29:38,bubba,final preparation,,how_to,any,,Purchase discounts and continue Smoker upgrades while their cost remains reasonable.,yes,3
+00:29:38,00:30:09,bubba,Spare Coins,,how_to,any,,Buy cheap upgrades even if otherwise unnecessary to increase the coin multiplier.,yes,3
+00:29:38,00:30:09,bubba|kangaroo,Crossover,,setup,any,,Before resetting stockpile plenty of Roo fish to maximize Crossover.,yes,3
+00:30:09,00:30:47,bubba,push strategy,,warning,any,accuracy=not_100%,The creator presents a personal strategy that may admit further optimization.,yes,3
