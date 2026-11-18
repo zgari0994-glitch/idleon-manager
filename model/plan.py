@@ -272,6 +272,18 @@ for name, cfg in Y['characters'].items():
     for j, jcfg in zip(card['jobs'], cfg['jobs']):
         its = [dict(i, job=j['job']) for sb in j['subs'] for i in sb['items']]
         st = list(jcfg.get('daily_fixed', []))
+        if jcfg.get('timers') and TM:   # job driven by Toolbox dashboard timers (all buckets)
+            mx = jcfg.get('miniboss_max', {})
+            for bucket, xs in TM['timers'].items():
+                for x in xs:
+                    if not re.search(jcfg['timers'], x['name'], re.I): continue
+                    if x['name'] in mx:
+                        mc = re.search(r'Current (\d+)', x.get('value', ''))
+                        cur = int(mc.group(1)) if mc else 0
+                        st.append(f"{x['name']}: {cur}/{mx[x['name']]} stored" + (" · RUN NOW (max)" if cur >= mx[x['name']] else f" · wait, run at {mx[x['name']]} ({x.get('value','')})"))
+                    else:
+                        v = x.get('value', '')
+                        st.append(f"{x['name']}: {v}" + (" · already killed this window" if 'Killed' in v else (" · RUN" if bucket == 'READY NOW' else '')))
         if j['job'] in PB: st += PB[j['job']]; kind = 'playbook'
         else:
             kind = 'rinse'
