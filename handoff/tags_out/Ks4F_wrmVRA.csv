@@ -1,0 +1,77 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,merits,Meritocracy voting,,mechanic,w7,,Meritocracy unlocks in World Seven and selects the highest-voted bonus similarly to Ballot but with stronger effects.,yes,3
+00:00:31,00:01:03,merits|ballot,Ballot multiplier,,opinion,w7,tier=C,The Ballot multiplier is situational because a strong matching Ballot week and correct votes must coincide.,yes,3
+00:00:31,00:01:03,merits|ballot,Ballot availability,,warning,w7,,The creator has not yet observed this option in rotation and is unsure whether it is available.,yes,3
+00:01:03,00:01:34,merits|ballot,Ballot examples,,comparison,w7,shrine_xp_tier=S;mining_tier=F,Amplifying Shrine XP would be excellent while amplifying a mining bonus would be poor.,yes,2
+00:01:03,00:01:34,merits|atom_collider,Beryllium,,mechanic,w7,pens_max=1,Beryllium's Meritocracy bonus multiplies daily Post Office boxes while consuming at most one Silver Pen.,yes,3
+00:01:34,00:02:05,merits|atom_collider,Beryllium,,opinion,w7,tier=F,Post Office is easy enough that this bonus mainly benefits a small group of early players.,yes,3
+00:01:34,00:02:05,merits|gaming,bit multiplier,,mechanic,w7,,The gaming option multiplies all gaming bits.,yes,3
+00:01:34,00:02:05,merits|gaming,bit multiplier,,priority,w7,tier=low_A,Extra bits help World Seven players still progressing Superbits even before Duper Bits or late palettes.,yes,3
+00:02:05,00:02:35,merits|statues,daily crystals,,mechanic,w7,,The crystal option multiplies guaranteed daily crystal monsters.,yes,3
+00:02:05,00:02:35,merits|statues,daily crystals,,opinion,w7,current_tier=high_A;without_lag=low_S;lag_time=45_minutes,Crystal farming would rank higher without severe lag especially for Zenith farming.,yes,3
+00:02:35,00:03:05,merits|coral_reef|bubbles,Brain Coral,,mechanic,w7,example_multiplier=5.3,The Brain Coral option multiplies daily Grind Time bubble levels.,yes,3
+00:02:35,00:03:35,merits|bubbles,Grind Time,,opinion,w7,tier=F;daily_levels=700-800,Grind Time has fallen off badly since later worlds and Hole making its daily-level multiplier a poor vote.,yes,3
+00:03:35,00:04:05,merits|damage,monster damage,,opinion,w7,tier=C;example_multiplier=5,The damage multiplier is situational and may not materially help players already approaching Reliquary tags.,yes,2
+00:03:35,00:04:05,merits|ballot,damage comparison,,comparison,w7,,A matching Ballot amplification week could outperform the direct damage option.,yes,2
+00:04:05,00:04:36,merits|class_exp,class experience,,mechanic,w7,baseline_multiplier=about_2.5,The class-experience option is multiplicative rather than additive.,yes,3
+00:04:05,00:04:36,merits|class_exp,class experience,,opinion,w7,tier=B,Class experience is useful but less compelling once equipment requirements and key talent-point needs are satisfied.,yes,3
+00:04:36,00:05:07,class_exp,late level value,,mechanic,w7,presets=2,Players at Coral Guardians should already have most needed legend and masterclass talent points across two presets.,yes,2
+00:04:36,00:05:07,merits|sneaking,Jade gain,,mechanic,w7,,The Jade option multiplies Jade found by ninja twins.,yes,3
+00:04:36,00:05:38,merits|sneaking,Jade gain,,opinion,w7,tier=B;mastery_completion=4-5;emporium_completion=about_2,Rank Jade below class experience because mastery progression and Wind Walker already provide ample Jade.,yes,3
+00:05:38,00:06:09,merits|hole,monument multiplier,,mechanic,w7,example_before=20;example_after=100,The monument option multiplies reward chests rather than all previously accumulated monument bonuses.,yes,2
+00:06:09,00:06:41,merits|hole,monument scope,,mechanic,w7,,The multiplier applies to Bravery and Justice and Wisdom and potentially future monuments.,yes,3
+00:06:09,00:06:41,merits|hole,monument value,,opinion,w7,tier=high_A;bad_justice_chests=5;bravery_hours=60000-100000,Monument value depends heavily on progression and invested hours and successful runs.,yes,3
+00:06:41,00:07:11,merits|divinity|bubbles,Kattlekruk,,mechanic,w7,bubbles_with_zenith=8,The Kattlekruk god option multiplies daily levels for eligible bubbles including main stats and several linear bubbles.,yes,3
+00:06:41,00:07:11,bubbles,Kattlekruk targets,,mechanic,w7,,Eligible targets include strength and wisdom and agility and luck and Hammer and Call Me Bob and Larry and Call Me Ash.,yes,3
+00:07:11,00:07:42,bubbles,main-stat scaling,,meta_change,any,,A recent nerf introduced diminishing returns to main-stat bubbles.,yes,3
+00:07:11,00:07:42,merits|bubbles,Kattlekruk value,,opinion,w7,tier=A;main_stat_levels=over_200000;larry_levels=200000,Kattlekruk remains useful despite reduced personal value at very high bubble levels.,yes,3
+00:07:11,00:07:42,merits|stamps,Kattlekruk setup,,mechanic,w7,,Kattlekruk's gains depend partly on stamp procs and can snowball for appropriately progressed accounts.,yes,2
+00:07:42,00:08:12,merits|gaming,snail mail,,mechanic,w7,example_multiplier=4.2,The snail-mail option multiplies the chance to receive double daily mail.,yes,3
+00:08:12,00:08:45,merits|gaming,snail mail,,opinion,w7,tier=bottom_C;normal_daily_mail=8-10;proc_daily_mail=about_15,The small daily gain makes snail mail a poor choice though still better than Brain Coral or Beryllium.,yes,3
+00:08:12,00:08:45,merits|killroy,skull chance,,mechanic,w7,example_multiplier=5.3,The Killroy option multiplies skull-drop chance.,yes,3
+00:08:45,00:09:16,merits|killroy,skull chance,,priority,w7,tier=S,Vote for Killroy because it supplies substantial candy and arcade balls and other progression bonuses.,yes,3
+00:09:16,00:09:46,merits|masterclass,AFK items,,mechanic,w7,max_claim=48_hours;example_multiplier=5.3,The masterclass AFK option multiplies special items from claims of forty-eight hours or less.,yes,3
+00:09:16,00:09:46,merits|masterclass,AFK items,arcane_cultist,account_note,w7,characters=2;duration=1_week;arcane_rocks=2000,The creator farmed two Arcane Cultists for a week and obtained two thousand Arcane Rocks.,yes,3
+00:09:16,00:09:46,merits|masterclass,AFK items,,priority,w7,tier=S,AFK-item multiplication immediately benefits anyone who has unlocked the relevant mechanic without extra setup.,yes,3
+00:09:46,00:10:17,merits|killroy,relative placement,,opinion,w7,tier=low_S,Killroy is strong but sits below the best Meritocracy options.,yes,3
+00:09:46,00:10:17,merits|masterclass,resource multiplier,,mechanic,w7,,The resource option multiplies bones and dust and tachyons from masterclasses.,yes,3
+00:09:46,00:10:17,merits|masterclass,resource multiplier,,priority,w7,tier=S,Masterclass resource multiplication is excellent but benefits from already developed resource multipliers.,yes,3
+00:10:17,00:10:48,merits|masterclass,resource versus AFK,,comparison,w7,rocks=2000;resource_multiplier=5.3;time_saved=over_8000_hours,Choose AFK items when lacking rocks and resource multiplication when stocked because the two bonuses strongly complement each other.,yes,3
+00:10:48,00:11:18,merits|masterclass,relative placement,,opinion,w7,,The two masterclass bonuses are effectively equal but the creator places AFK items first for general player usefulness.,yes,3
+00:11:18,00:11:49,merits|gaming,palette luck,,opinion,w7,tier=high_B,Palette luck helps both unfinished and progressed palettes but is weaker than guaranteed bit gains.,yes,3
+00:11:49,00:12:20,merits|gaming,palette uncertainty,,warning,w7,hypothetical_levels=5,The option increases chance rather than levels and its exact additive-versus-multiplicative behavior remains uncertain.,yes,3
+00:12:20,00:12:50,merits|owl|kangaroo,clicker production,,mechanic,w7,example_multiplier=about_200,The clicker option multiplies Orion feathers and Poppy fish production but does not affect Bubba.,yes,3
+00:12:20,00:12:50,merits|owl|kangaroo,clicker production,,priority,w7,tier=A;claimed_time_saved=4.5_years,Rank the clicker multiplier above gaming bits because it can save enormous progression time especially with consumables.,yes,2
+00:12:50,00:13:20,merits|owl|kangaroo,clicker uncertainty,,warning,w7,,The option has not yet appeared in rotation so its exact multiplier behavior is unconfirmed.,yes,3
+00:12:50,00:13:20,pets|legend_talents|owl|kangaroo,clicker bonuses,,mechanic,w7,,The new Bubba companion and legend talents make Orion and Poppy progression bonuses more valuable.,yes,3
+00:13:20,00:13:50,merits|cooking,ribbon quantity,,mechanic,w7,example_multiplier=3.15,The ribbon option increases daily shelf quantity rather than ribbon quality.,yes,3
+00:13:20,00:13:50,merits|cooking,ribbon value,,comparison,w7,no_peach_ribbon_tier=S;established_tier=B;peach_ribbon=20;other_ribbons=15,Ribbons are much more valuable before obtaining a strong Yumi Peach Ring ribbon and diminish afterward.,yes,3
+00:13:50,00:14:22,merits|cooking,ribbon ranking,,opinion,w7,tier=A,Place ribbons above gaming bits but below the clicker multiplier.,yes,3
+00:13:50,00:14:22,merits|traps,shiny snapshots,,warning,w7,,Shiny rewards are calculated at collection and cannot preserve the weekly bonus through placement snapshots.,yes,3
+00:14:22,00:14:53,merits|traps,shiny quantity,,opinion,w7,example_multiplier=10;trap_duration=20_minutes;tier=B,The shiny multiplier is useful with frequent twenty-minute collections but ranks below palette luck.,yes,3
+00:14:22,00:14:53,merits|sigils,sigil multiplier,,mechanic,w7,example_multiplier=1.8,The sigil option multiplies unlocked sigil bonuses including useful respawn and AFK effects.,yes,3
+00:14:53,00:15:23,merits|sigils,sigil multiplier,,opinion,w7,tier=B,Sigil multiplication can help late accounts and samples but needs developed sigils and merit levels to matter.,yes,3
+00:14:53,00:15:23,sigils,Sigil Syrup,,mechanic,any,,Sigil Syrup makes sigils easier to level and improves the potential value of their multiplier.,yes,3
+00:15:23,00:15:53,merits|slab,Slab multiplier,,mechanic,w7,,The Slab option amplifies bonuses including POW and sailing speed and bits and essence and Jade and divinity and damage.,yes,3
+00:15:53,00:16:23,merits|slab,Slab multiplier,,opinion,w7,tier=C;items_owned=1800;items_total=1852,Slab bonuses remain modest and mostly additive even near collection completion so place the option just above snail mail.,yes,3
+00:15:53,00:16:23,merits|stamps,material discounts,,mechanic,w7,example_discount=3x_lower,The stamp option reduces material requirements for raising stamp maximum levels.,yes,3
+00:16:23,00:16:55,merits|stamps,material discounts,,priority,w7,tier=A;example_crafted_bags=86-100,Stamp discounts immediately help expensive crafted-material caps without the setup and proc dependence of Kattlekruk.,yes,3
+00:16:55,00:17:26,merits|spelunking,stamina regeneration,,mechanic,w7,creator_multiplier=5;baseline=about_2,The spelunking option accelerates stamina regeneration.,yes,3
+00:16:55,00:17:26,merits|spelunking,stamina value,,priority,w7,tier=S,Extra stamina supports discoveries and boss progression and deeper runs and amber farming so ranks above Killroy.,yes,3
+00:17:26,00:17:56,merits,skill experience,,mechanic,w7,example_multiplier=3.6,The skill-experience option multiplies experience across all skills.,yes,3
+00:17:26,00:18:26,merits,skill experience,,priority,w7,tier=S,Skill experience benefits the account broadly without special setup and ranks above stamina regeneration.,yes,3
+00:17:56,00:18:26,merits|hole,monument reassessment,,opinion,w7,temporary_tier=S;personal_preference=A,The creator temporarily moves monuments to S after audience pressure while personally preferring A.,yes,3
+00:18:26,00:18:56,merits|spelunking,skill experience,,target,w7,spelunking_level=300,The skill-experience multiplier helps reach very high spelunking levels.,yes,3
+00:18:26,00:18:56,merits|traps,experience snapshot,voidwalker,how_to,w7,possible_duration=1_year,Snapshot Nature Trap experience using Voidwalker Transfusion during the bonus week then retain those placements long term.,yes,3
+00:18:56,00:19:26,merits|constellations|lab,star-sign multiplier,,mechanic,w7,,The star-sign option compounds with infinite signs and star-sign chips for food effects and respawn and AFK and stats and capacity.,yes,3
+00:18:56,00:19:26,merits|constellations,star-sign value,,priority,w7,tier=high_A,Carry-capacity bonuses allow more golden food and make the star-sign multiplier especially valuable.,yes,3
+00:18:56,00:19:26,merits|constellations,Sheriff uncertainty,,warning,w7,sheriff_multiplier=1.1;level_interval=20_something,Whether the option fully multiplies Sheriff remains unconfirmed and could increase its value.,yes,2
+00:19:26,00:19:57,merits|statues|printer,statue multiplier,,priority,w7,example_multiplier=2;sample_contribution=95%;tier=top_S,The creator considers statue multiplication the best option and a strong reason to refresh samples.,yes,3
+00:19:26,00:19:57,merits|statues,Dragon Statue interaction,,warning,w7,,Multiplying Dragon Statue could make the bonus exceptional but exact additive-versus-true-multiplier behavior remains uncertain.,yes,3
+00:19:57,00:20:27,merits|vials,vial multiplier,,mechanic,w7,example_multiplier=2,The vial option improves bonuses such as Equinox fill rate and cog speed.,yes,3
+00:19:57,00:20:27,merits|vials,vial value,,priority,w7,tier=A,The turtle vial alone makes vial multiplication worthwhile although its effects are less dramatic than statue multiplication.,yes,3
+00:20:27,00:20:57,merits|vials,relative placement,,opinion,w7,tier=mid_A,Place vials below stamp discounts and above Kattlekruk because their existing mastery bonuses already contribute much of their strength.,yes,3
+00:20:27,00:20:57,merits|worship,worship points,,mechanic,w7,creator_multiplier=3.1;baseline_multiplier=1.4-1.5,The worship option multiplies points earned during tower defense.,yes,3
+00:20:57,00:21:28,worship|tome,tower-defense value,,comparison,w7,duration=8-16_hours,Extra points can help tower progression and Tome but long runs and mostly additive MSA bonuses limit value.,yes,3
+00:21:28,00:21:58,merits|worship,worship ranking,,opinion,w7,final_tier=low_B;example_waves=200,The creator ultimately ranks worship points near the bottom of B because usefulness depends on willingness to run tower defense.,yes,3
+00:21:58,00:22:29,merits|hole,final monument ranking,,opinion,w7,final_tier=A,The creator moves monuments back to A at the end of the video.,yes,3
