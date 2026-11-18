@@ -1,0 +1,180 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,pets,piggy,,mechanic,any,,Piggy grants autoloot unlimited teleports and remote storage.,yes,3
+00:01:02,00:02:05,lab,absence,,account_note,w4,afk_hours=612,Characters remained in laboratory during an extended absence.,yes,3
+00:01:33,00:02:05,general,rollback_bug,,warning,any,chance_spoken=one_in_a_thousand;lost_days=couple,A rare crashing loop reportedly rolls back progress after relogging.,yes,2
+00:02:05,00:02:35,lab,levels,,account_note,w4,expected_levels=20-25,Long laboratory claims provide unusually high early lab levels.,yes,3
+00:02:05,00:02:35,statues,afk_claims,,account_note,w4,level=6;current=287;required=514,Accumulated AFK claims substantially improve statues across characters.,yes,3
+00:02:35,00:03:08,anvil,production,,priority,w4,,Remember to handle anvil production.,yes,3
+00:03:08,00:03:39,pets,weekly_claim,,priority,any,,Claim the free weekly pet and hope for Ram.,yes,3
+00:03:08,00:03:39,lab,leveling,,account_note,w4,level=27;time=one_month,A month in laboratory only yielded level twenty-seven.,yes,3
+00:04:10,00:04:41,lab|printer,wired_in,,mechanic,w4,resource_multiplier=2,Wired In doubles printer resources.,yes,3
+00:04:10,00:05:12,lab|bubbles,no_bubble_left_behind,,mechanic,w4,interval_hours=24;bubbles=3;levels=1,No Bubble Left Behind adds one level to the three lowest eligible bubbles at daily reset.,yes,3
+00:04:10,00:04:41,dashboard,daily_timer,,how_to,w4,,Check the Codex daily timer to identify daily reset.,yes,3
+00:04:41,00:05:12,lab,no_bubble_left_behind,,setup,w4,,Activate No Bubble Left Behind before the daily timer reaches zero.,yes,3
+00:04:41,00:05:12,bubbles,no_bubble_left_behind,,setup,w4,,Manage bubble levels so automatic upgrades favor important bubbles.,yes,3
+00:04:41,00:05:12,bubbles,no_bubble_left_behind,,mechanic,w4,bubbles_per_cauldron=15,Initial No Bubble Left Behind eligibility covers the first fifteen bubbles of each cauldron.,yes,3
+00:05:12,00:05:44,bubbles,no_bubble_left_behind,,meta_change,w4,,The updated interface displays how many bubbles and levels automatic upgrades provide.,yes,3
+00:05:44,00:06:15,lab,killer_brightside,,priority,w4,kill_multiplier=2,Unlock Killer's Brightside for double kills during portal pushing.,yes,3
+00:05:44,00:06:15,death_note,multikill,,mechanic,any,,Multikill increases base resource gains.,yes,3
+00:05:44,00:06:15,characters,mob_respawn,,mechanic,any,,Monster respawn improves kills and resources.,yes,3
+00:06:15,00:06:46,lab|death_note,kills_per_kill,,mechanic,w4,,Kills per kill affects portals and Death Note but does not increase materials.,yes,3
+00:06:15,00:06:46,lab|refinery,gilded_cyclical_tubing,,mechanic,w4,speed_multiplier=3,Gilded Cyclical Tubing triples refinery speed.,yes,3
+00:06:46,00:07:18,lab,gilded_cyclical_tubing,,blocker,w4,,Current laboratory setup cannot reach refinery speed bonus.,yes,3
+00:06:46,00:07:48,buildings,shrines,,account_note,w4,level=9,Shrines reached level nine during the extended absence.,yes,3
+00:07:18,00:07:48,buildings,shrines,,warning,w4,,Moving shrines currently loses accumulated AFK hours.,yes,3
+00:07:18,00:07:48,lab|talent_points,levels,,mechanic,w4,,Laboratory levels provide additional talent points.,yes,3
+00:07:48,00:08:18,lab,leveling,,comparison,w4,days=30,Reaching this progress does not require spending thirty days in laboratory.,yes,3
+00:07:48,00:08:18,pets,weekly_claim,,warning,any,,Missing weekly claims loses opportunities for free companions.,yes,3
+00:08:18,00:08:51,pets,legacy,,priority,w4,,Target Rift Slug Doot or Ram from legacy companions.,yes,3
+00:08:18,00:08:51,pets,sheepie,,account_note,w4,,Already owns Sheepie.,yes,3
+00:08:18,00:08:51,pets,crystal_custard,,opinion,w4,,Crystal Custard is useful but not currently necessary.,yes,3
+00:08:51,00:09:23,pets,damage,,account_note,w4,total_damage=10%,The new companion provides ten percent total damage.,yes,3
+00:08:51,00:09:54,class_choice,elite_classes,,opinion,w4,,Elite classes make World Four the point where the game becomes more enjoyable.,yes,3
+00:09:23,00:09:54,talent_points,hemoglobin,,account_note,w4,level=10;maximum=10,Maxing Hemoglobin restores full survivability.,yes,3
+00:09:54,00:10:25,quests,elite_class,,priority,w4,accuracy=45%,Prioritize elite class unlocking even with poor accuracy and use some candy if necessary.,yes,3
+00:10:25,00:10:56,quests,elite_class,,how_to,w4,,Only the green monsters must be defeated for the elite class quest.,yes,3
+00:10:25,00:10:56,class_choice,divine_knight,divine_knight,opinion,w4,,Divine Knight is the creator's favorite class with good health damage and mobbing.,yes,3
+00:10:56,00:11:27,talent_points,divine_intervention,divine_knight,mechanic,w4,points=1;potency=100%,One point gives full respawn potency when every monster on the screen dies.,yes,3
+00:10:56,00:11:27,class_choice,elite_order,divine_knight,priority,w4,,Unlock Divine Knight first because Divine Intervention is immediately powerful.,yes,3
+00:11:27,00:11:57,talent_points,imbued_shockwaves,divine_knight,mechanic,w4,,Basic spear attacks can trigger shockwaves that scale from Shockwave Slash.,yes,3
+00:11:57,00:12:29,talent_points,imbued_shockwaves,divine_knight,target,w4,proc_chance=30%,Initially invest enough for thirty percent shockwave chance.,yes,3
+00:11:57,00:12:29,talent_points,symbols_beyond,divine_knight,mechanic,w4,initial_points=1;eligible_level=>1;increment=20;breakpoints=1|20|40|60|80|100,Symbols Beyond adds talent levels and improves every twenty levels.,yes,3
+00:12:29,00:13:00,talent_points,symbols_beyond,divine_knight,priority,w4,,One point provides many effective talent points for free.,yes,3
+00:12:29,00:13:00,talent_points,orb_of_remembrance,divine_knight,setup,w4,points=1,Invest one point in Orb despite its limited early strength.,yes,3
+00:12:29,00:13:00,talent_points,orb_of_remembrance,divine_knight,mechanic,any,,Orb improves active experience and drop quantity rather than actual drop rate.,yes,3
+00:13:00,00:13:31,talent_points,orb_of_remembrance,divine_knight,mechanic,any,orb=100;baseline_quantity=2,One hundred orb guarantees a doubled baseline drop quantity.,yes,3
+00:13:00,00:13:31,talent_points,orb_of_remembrance,divine_knight,mechanic,any,orb=200;baseline_quantity=3,Two hundred orb provides a baseline of three drops.,yes,3
+00:13:31,00:14:01,talent_points,orb_of_remembrance,divine_knight,mechanic,any,orb=250;baseline_quantity=3;extra_chance=50%;extra_quantity=4,Two hundred fifty orb gives three drops with a fifty percent chance of four.,yes,3
+00:13:31,00:14:01,statues,orb_farming,divine_knight,how_to,mid,orb=1000,High orb counts generate large quantities of statues.,yes,3
+00:13:31,00:14:32,characters,miniboss_farming,divine_knight,how_to,mid,orb=400,Build orb before fighting Dilapidated Slush for more obols and resources.,yes,3
+00:14:01,00:14:32,breeding|cooking,mutated_mush,divine_knight,how_to,w4,,Use Divine Knight with Orb in the colosseum to farm Mutated Mush for eggs and ladles.,yes,3
+00:14:32,00:15:02,talent_points,orb_of_remembrance,divine_knight,warning,w4,,Orb becomes powerful only after substantial investment.,yes,3
+00:14:32,00:15:02,class_choice,elite_classes,,mechanic,w4,,Many elite class benefits require active play.,yes,3
+00:15:02,00:15:32,general,active_play,,comparison,any,,Logging out forfeits substantial resources available through active play.,yes,3
+00:15:02,00:15:32,talent_points,mega_mongorang,divine_knight,mechanic,w4,size_increase=100%;extra_targets=2,The passive enlarges Daggerang and increases its target count.,yes,3
+00:15:32,00:16:03,talent_points,knightly_disciple,divine_knight,mechanic,w4,,Knightly Disciple summons a knight whose shockwaves scale with Shockwave Slash.,yes,3
+00:16:03,00:16:35,class_choice,divine_knight,divine_knight,comparison,w4,,Divine Knight trades some damage scaling for low mana costs strong basic attacks and defense.,yes,3
+00:16:03,00:16:35,talent_points,damage_scaling,,mechanic,w4,,Wizard damage benefits from collecting stamps while shaman benefits from level four vials.,yes,3
+00:16:03,00:16:35,talent_points,knightly_disciple,divine_knight,mechanic,w4,,Leveling Knightly Disciple primarily extends its duration.,yes,3
+00:16:35,00:17:06,talent_points,bricky_skin,divine_knight,mechanic,w4,block=60%,Bricky Skin supplies substantial damage protection.,yes,3
+00:16:35,00:17:06,talent_points,mana,divine_knight,account_note,w4,mana=416,Tests Whirl instead of Daggerang while managing current mana.,yes,3
+00:17:06,00:17:36,talent_points,hotbar,divine_knight,setup,w4,,Prioritize Divine Intervention then Orb and Knightly Disciple with Shockwave Slash as filler.,yes,3
+00:17:06,00:17:36,talent_points,hotbar,divine_knight,setup,w4,,Normally place Daggerang before backup Shockwave Slash.,yes,3
+00:18:06,00:18:37,talent_points,divine_intervention,divine_knight,mechanic,w4,uptime=100%,Divine Intervention can maintain continuous uptime and substantially improve active kill rate.,yes,3
+00:18:37,00:19:09,lab,killer_brightside,,account_note,w4,kills_per_hour=2400,Killer's Brightside raises current portal kills per hour.,yes,3
+00:18:37,00:19:09,talent_points,hemoglobin,,how_to,w4,,Increase maximum health to improve survivability with maxed Hemoglobin.,yes,3
+00:18:37,00:19:40,characters,upgrade_stones,,priority,w4,,Buy upgrade stones regularly.,yes,3
+00:19:09,00:19:40,buildings,shrines,,setup,w4,,Place shrines on the farming map for defense damage and other bonuses.,yes,3
+00:19:09,00:19:40,characters,food,,setup,w4,,Equip food for additional survivability.,yes,3
+00:19:09,00:19:40,characters,amarok_gear,,account_note,w4,upgrade_slots=5,Amarok equipment is incomplete and available upgrade slots remain.,yes,3
+00:19:40,00:20:11,class_choice,elite_order,elemental_sorcerer,priority,w4,,Unlock Elemental Sorcerer next for base monster materials and accuracy farming.,yes,3
+00:20:11,00:20:41,class_choice,elite_order,blood_berserker,priority,w4,,Consider Blood Berserker to improve cooking.,yes,3
+00:20:11,00:20:41,class_choice,elite_order,beast_master,priority,w4,,Consider Beast Master to catch up on breeding.,yes,3
+00:20:41,00:21:13,characters,upgrade_stones,,mechanic,w4,stone_tier=4+,World Four and later armor stones provide the upgrading character's main stat.,yes,3
+00:20:41,00:21:13,characters,upgrade_stones,divine_knight,how_to,w4,,Use shaman to upgrade Divine Knight gear with wisdom for accuracy.,yes,3
+00:21:43,00:22:16,characters,gear_sets,,account_note,w4,,Upgraded gear provides damage and accuracy sets for Divine Knight and mages.,yes,3
+00:22:16,00:22:49,characters,accuracy,divine_knight,account_note,w4,accuracy_steps=3.63k|5.9k|7.56k,Changing upgraded equipment substantially raises accuracy.,yes,3
+00:22:16,00:23:20,armor_smithy,set_bonus,,account_note,w4,,Uncertain whether the set bonus requires equipping the complete set or remains passive.,yes,2
+00:22:49,00:23:20,armor_smithy,unlock_timer,,account_note,w4,elapsed_days=26;displayed_days=19,Questions whether the unlock timer requires daily logins.,yes,2
+00:23:20,00:23:56,characters,accuracy,divine_knight,blocker,w4,,Accuracy supports early World Four pushing but not the entire world.,yes,3
+00:23:56,00:24:57,talent_points,mana,divine_knight,target,w4,initial_points=50;later_points=70;mana=700,Increase mana talent investment until automatic attacks are sustainable.,yes,3
+00:24:27,00:24:57,class_choice,pushing,divine_knight,priority,w4,,Usually uses Divine Knight as active pusher through World Six.,yes,3
+00:24:57,00:25:28,talent_points,health,divine_knight,priority,w4,,Prefer health improvements over equipment strength when building Hemoglobin survivability.,yes,3
+00:24:57,00:25:28,talent_points,mana,divine_knight,setup,w4,,Use spare points for mana and reclaim them when better books become available.,yes,3
+00:26:03,00:26:34,characters,survivability,divine_knight,account_note,w4,incoming_damage=14,A large health pool and Hemoglobin sustain the current incoming damage.,yes,3
+00:26:03,00:26:34,talent_points,charged_skulls,divine_knight,mechanic,w4,strength_per_scaling=1000;current_strength=425,Charged Skulls provides portal and Death Note kills per kill based on strength.,yes,3
+00:26:03,00:26:34,talent_points,charged_skulls,divine_knight,skip,w4,,Current strength is too low for Charged Skulls to provide much value.,yes,3
+00:26:34,00:27:04,gaming,unlock,,mechanic,w5,,Gaming is a World Five skill.,yes,3
+00:26:34,00:27:04,talent_points,fist_of_rage,divine_knight,mechanic,w4,,Fist of Rage grants percentage strength.,yes,3
+00:27:04,00:27:35,talent_points,printer_output,divine_knight,setup,w4,,Add a little printer output with spare points.,yes,3
+00:27:04,00:27:35,talent_points,knightly_disciple,divine_knight,comparison,w4,points=1;duration_seconds=10;points_other=25;extra_seconds=4;points_higher=50;extra_seconds_higher=8,Additional Disciple duration feels less valuable than shockwave chance for this setup.,yes,3
+00:27:04,00:27:35,talent_points,imbued_shockwaves,divine_knight,target,w4,points=25;chance=41%;target_chance=50%,Prefer investing in basic attack shockwave chance.,yes,3
+00:27:35,00:28:07,talent_points,precision_power,divine_knight,blocker,w4,,Insufficient accuracy prevents using Precision Power effectively.,yes,3
+00:27:35,00:28:07,talent_points,strength,divine_knight,setup,w4,,Use strength as filler until more impactful investments become available.,yes,3
+00:28:07,00:28:39,talent_points,hotbar,divine_knight,setup,w4,,Restore Daggerang when mana is sustainable and keep Bricky Skin and Firmly Grasp It active.,yes,3
+00:28:07,00:28:39,talent_points,power_strike,divine_knight,opinion,w4,,Power Strike feels weak and lackluster.,yes,3
+00:28:39,00:29:10,characters,active_vs_afk,divine_knight,comparison,w4,displayed_kills_per_hour=1100,AFK statistics understate actual active Divine Knight kill speed.,yes,3
+00:28:39,00:29:10,buildings,shrines,,how_to,w4,,Established shrines help other characters reach elite classes.,yes,3
+00:29:10,00:29:42,lab,killer_brightside,,account_note,w4,expected_kills_per_hour=2000,Reactivating double kills improves the displayed rate.,yes,3
+00:29:10,00:30:14,characters,character_slots,,warning,w4,missed_days=26,An unlocked character slot went unused and missed laboratory and construction progress.,yes,3
+00:29:42,00:30:14,account_structure,second_divine_knight,divine_knight,setup,w4,,Create a second Divine Knight primarily for construction.,yes,3
+00:31:16,00:31:47,lab,killer_brightside,,mechanic,w4,kill_multiplier=2,Double kills accelerate a new character's progression.,yes,3
+00:31:16,00:31:47,characters,boxing_gloves,,skip,w4,,Boxing gloves are not strictly necessary for the new character.,yes,3
+00:31:47,00:32:17,characters,teleports,,account_note,w4,teleports=96,Available teleports reached the current cap.,yes,3
+00:31:47,00:32:17,cauldrons_liquids,new_characters,,priority,early,,Make every new character touch alchemy.,yes,3
+00:32:17,00:32:48,general,progression,,opinion,any,,IdleOn is a very long term game depending on how far the player progresses.,yes,3
+00:32:48,00:33:20,class_choice,second_divine_knight,,setup,w4,,Promote the new character through Warrior and Squire.,yes,3
+00:32:48,00:33:20,death_note,multikill,,mechanic,w4,kills_per_hit=4,Existing multikill makes fresh character progression much faster.,yes,3
+00:33:20,00:33:50,cards,wood_mushroom,elemental_sorcerer,priority,w4,,Farm Wood Mushroom for percentage accuracy after unlocking Elemental Sorcerer.,yes,3
+00:33:20,00:33:50,cards,world_one,,mechanic,w4,,World One cards are relatively easy to obtain.,yes,3
+00:33:50,00:34:21,cards,farming,elemental_sorcerer,priority,any,,Elemental Sorcerer is the best class for card farming.,yes,3
+00:34:21,00:34:51,general,early_progression,,opinion,early,,Many mechanics and sluggish progression can discourage early players.,yes,3
+00:34:21,00:34:51,dungeons,happy_hour,,active_task,w4,,Join the available party dungeon.,yes,3
+00:35:23,00:35:53,achievements,dungeon_rich,,account_note,w4,,Unlocks Dungeon Rich during the dungeon run.,yes,3
+00:35:53,00:36:24,dungeons,boosters,,account_note,w4,,Many dungeon boosters have accumulated unused.,yes,3
+00:36:24,00:36:55,dungeons,party_size,,priority,any,,Wait for a full dungeon group when possible because more players grant more flurbos.,yes,3
+00:37:56,00:38:28,dungeons,class_choice,divine_knight,priority,w4,,Use Divine Knight because automatic Shockwave Slash works in dungeons.,yes,3
+00:38:28,00:39:30,general,free_to_play,,opinion,any,,Solo free to play progression is possible despite a substantial difference from paid progression.,yes,3
+00:40:30,00:41:02,dungeons,run_result,,account_note,w4,frog=3;rank=23,The party defeats the third frog and reaches dungeon rank twenty-three.,yes,3
+00:41:02,00:41:32,dungeons,rewards,,account_note,w4,roll=95;monster_experience=14%;defense=3,The reward roll grants monster experience and a small defense item.,yes,3
+00:41:32,00:42:02,quests|lab,amarok_keys,,priority,w4,,Unlock the new character's Amarok keys before leaving it in laboratory.,yes,3
+00:49:15,00:49:46,quests,amarok_keys,,account_note,w4,keys_per_day=7;expected_claim=18,The new character increases daily Amarok keys but the claimed quantity seems lower than expected.,yes,3
+00:49:46,00:50:17,talent_points,new_warrior,warrior,setup,w4,accuracy=1.88k,Use Whirl and some wisdom for the new warrior's class push.,yes,3
+00:50:17,00:50:48,class_choice|lab,new_squire,squire,priority,w4,,Push directly to Squire then leave the character in laboratory.,yes,3
+00:50:17,00:50:48,quests,side_quests,,skip,w4,,Defer other questlines while unlocking the new character's subclass.,yes,3
+00:50:17,00:50:48,tasks,skilling_box,,priority,w4,orders=62,Prioritize mining toward the skilling box.,yes,2
+00:50:48,00:51:18,killroy,routine,,priority,w4,,Do Killroy even when unable to finish everything.,yes,2
+00:50:48,00:51:18,refinery,blue_salts,,account_note,w4,,Refines available salts and unlocks blue salts.,yes,3
+00:51:18,00:51:50,buildings,library,,mechanic,w4,,Building library upgrades do not raise maximum book level.,yes,3
+00:51:18,00:51:50,salt_lick,upgrades,,priority,w4,,Prioritize Salt Lick upgrades over the library building here.,yes,3
+00:51:50,00:52:23,traps,critters,,account_note,w4,interval_hours=1,Scorpions and crabs appear to be set on hourly traps.,yes,2
+00:51:50,00:52:23,salt_lick,multikill,,mechanic,w4,,Salt Lick can improve multikill.,yes,3
+00:51:50,00:52:23,refinery,refining,,warning,w4,,Normally avoid manually refining salts as done here.,yes,3
+00:52:55,00:53:25,construction,experience,divine_knight,priority,w4,divine_knights=2,Use both Divine Knights and prioritize construction experience.,yes,3
+00:53:25,00:53:56,construction,cogs,,priority,w4,,Unlock corner spaces next and replace cogs with experience percentage cogs.,yes,3
+00:53:25,00:53:56,construction,build_rate,divine_knight,mechanic,w4,share=99%;divine_knights=2,Most build rate comes from the two Divine Knights.,yes,3
+00:53:25,00:53:56,construction,cogs,,skip,w4,,Avoid spending excessive time rerolling build rate cogs at this stage.,yes,3
+00:53:56,00:54:26,construction,experience,,mechanic,w4,,Placing a character on the board may increase experience gain.,yes,2
+00:53:56,00:54:26,printer,samples,,priority,w4,samples=2,Set up missing prints for the newest character.,yes,3
+00:54:26,00:54:56,owl,fractal_feathers,,account_note,w4,fractal_feathers=4,Four Fractal Feathers are sufficient for the moment.,yes,3
+00:54:26,00:54:56,bubba,megafish,,account_note,w4,megafish=1,Has obtained one Megafish.,yes,3
+00:54:56,00:55:27,kangaroo,progression,,account_note,w4,,Kangaroo progression is substantially behind.,yes,3
+00:56:28,00:56:58,bubba,fisheroo_reset,,warning,early,,Avoid Fisheroo reset until obtaining Megafish upgrades.,yes,3
+00:56:58,00:57:30,kangaroo,map_transition,,how_to,w4,,Entering and leaving Roo's map can help move through the class quest area.,yes,2
+00:57:30,00:58:00,arcade,balls,,priority,w4,balls=173,Spend accumulated arcade balls.,yes,3
+00:57:30,00:58:00,cauldrons_liquids,progression,,priority,w4,,Catch up on alchemy.,yes,3
+00:57:30,00:58:00,constellations,star_signs,,priority,w4,,Continue star sign progression.,yes,3
+00:58:00,00:58:30,storage,deposit_all,,warning,any,,Deposit All can move unlocked gear or items intentionally kept in inventory.,yes,3
+00:58:00,00:59:00,statues|greenstacks,deposit_all,,warning,late,greenstack_quantity=10million,Depositing all statues can destroy stored greenstacks.,yes,3
+01:00:31,01:01:34,lab,gilded_cyclical_tubing,squire,account_note,w4,refinery_multiplier=3,Placing the new Squire in laboratory activates triple refinery speed.,yes,3
+01:01:03,01:01:34,cauldrons_liquids,progression,,priority,w4,,Handle alchemy before continuing the Elemental Sorcerer unlock.,yes,3
+01:01:34,01:02:04,bubbles,carpenter,,mechanic,w4,,Carpenter gives construction speed per construction level and is unaffected by Warriors Rule.,yes,3
+01:01:34,01:02:04,bubbles,carpenter,,priority,w4,,Invest in Carpenter immediately after unlocking it.,yes,3
+01:02:04,01:02:36,bubbles,call_me_bob,,priority,w4,,Call Me Bob is valuable for construction experience.,yes,3
+01:02:04,01:02:36,bubbles|construction,warrior_scaling,divine_knight,mechanic,w4,,Construction bubbles explain much of Divine Knight's superior build rate.,yes,3
+01:02:36,01:03:08,bubbles,talent_points,,priority,late,,Talent point bubbles are particularly useful for the secret class and maximizing talents.,yes,3
+01:02:36,01:03:08,bubbles,talent_points,,mechanic,late,,Talent point bubbles benefit from multiplier bubbles and can eventually maximize one preset except masterclass talents.,yes,3
+01:03:08,01:03:39,bubbles,talent_points,,mechanic,any,,Talent point bubbles scale linearly without diminishing returns.,yes,3
+01:03:39,01:04:11,bubbles,diamond_chef,,target,w4,,Continue unlocking yellow bubbles toward Diamond Chef.,yes,3
+01:04:11,01:04:41,bubbles,diamond_chef,,account_note,w4,,The account is not ready to fully exploit Diamond Chef yet.,yes,3
+01:04:11,01:04:41,bubbles|printer,shaquracy,,priority,w4,estimated_accuracy_increase=5%,Spend accumulated printed bloaches on Shaquracy.,yes,3
+01:04:41,01:05:12,breeding,splicers,,setup,w4,daily_purchases=12,Buy a splicer for each character.,yes,3
+01:05:12,01:05:44,dungeons,action_frenzy,,target,w4,required_roll=80;chances=2,Aim for Action Frenzy when spending dungeon currency.,yes,3
+01:05:12,01:05:44,dungeons,elf_rings,,priority,w4,rings=2,Buy two defense rings.,yes,3
+01:05:44,01:06:14,dungeons,action_frenzy,,account_note,w4,roll=96,The roll enables Action Frenzy next but exhausts available purchasing resources.,yes,3
+01:06:14,01:06:44,characters,elf_rings,,account_note,w4,required_level=4;accuracy=4.14k;defense=663,Elf rings provide useful early defense.,yes,3
+01:06:14,01:06:44,cooking,eggs,,priority,w4,,Cook eggs to improve cooking speed.,yes,3
+01:06:44,01:07:15,breeding,splicing,,target,w4,,Unlock gene splicing.,yes,2
+01:06:44,01:07:15,breeding,looter,,target,w4,,Obtaining Looter would be valuable.,yes,3
+01:07:45,01:08:17,characters,shared_gear,wizard,how_to,w4,,Transfer Amarok gear to wizard for additional damage.,yes,3
+01:08:17,01:08:49,traps,scorpions,,how_to,w2,,Scorpions are located at Tyson's map after Snelbies Sand Giants and Moonmen.,yes,3
+01:08:49,01:09:20,characters,minibosses,,blocker,w4,,Current damage may be insufficient for accumulated minibosses.,yes,3
+01:09:20,01:09:53,characters,active_vs_afk,,comparison,w4,,A character can survive active combat despite poor displayed AFK survivability.,yes,3
+01:09:53,01:10:24,characters,health_potions,,how_to,w4,health_before=900;health_after=1200;survivability=100%,Health potions combine with Hemoglobin to improve AFK survivability and candy efficiency.,yes,3
+01:10:24,01:10:55,characters,health_potions,,account_note,w4,survivability_before=26%;survivability_after=100%;kills_before=780;kills_after=almost_3000;maps=2,Health potions dramatically improve current candy kill returns.,yes,3
+01:10:55,01:11:26,characters,food,,setup,w4,,Combine food with health potions for stronger candy pushing.,yes,3
+01:10:55,01:11:26,cards,crystal_spawn,,warning,early,incoming_damage=200,Do not build crystal spawn early because crystal monsters can overwhelm the character.,yes,3
+01:11:26,01:11:57,talent_points,hemoglobin,,priority,any,,Hemoglobin is among the most important talents because it heals through incoming damage.,yes,3
+01:11:26,01:11:57,buildings,shrines,,mechanic,late,,Later bonuses prevent losing shrine hours and allow their effects more broadly.,yes,3
+01:11:57,01:12:27,buildings,shrines,,account_note,w4,incoming_damage=14;extra_damage=30000,Moving shrines improves health defense and damage.,yes,3
+01:12:27,01:12:58,characters,candy,,priority,w4,survivability=100%;candy_hours=4,Save candy and farm actively because multiple characters still need elite unlocks.,yes,3
