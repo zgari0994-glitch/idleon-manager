@@ -1,0 +1,290 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,account_structure,series return,,account_note,w6,days_away_approximate=320,The free-to-play account returns after roughly 320 days away.,yes,3
+00:00:30,00:01:01,account_structure,series goal,,target,w6,start_world=6;goal_world=7,The next chapter targets World 7 from World 6 while explaining mechanics.,yes,3
+00:01:01,00:01:31,account_structure,AFK locations,,account_note,w6,afk_days=326,Characters have up to 326 AFK days; most are in Divinity while one has been doing nothing.,yes,3
+00:01:31,00:01:31,general,large AFK claims,,warning,any,problem_days=>200,Claims beyond roughly two hundred days may freeze the client and potentially lose gains; he is unsure of the exact cause.,yes,3
+00:02:10,00:02:44,general,recording version,,account_note,any,version=1.21,The recording uses the Royal Guard update around version 1.21 with Taskmaster and Cropfall available.,yes,3
+00:02:44,00:03:14,event_shop,series restrictions,,account_note,any,,He will discard daily Cropfall baskets and avoid event participation apart from the companion-token exception.,yes,3
+00:03:14,00:03:47,pets,pet bonus tokens,,mechanic,any,remaining_uses=1,Enemy drops can supply pet bonus tokens; he has one use available through the trade interface.,yes,3
+00:03:47,00:04:17,pets|divinity,Doot and Omniphau,,priority,w6,,Choose Doot to use Omniphau's AFK-time procs on the account's accumulated hours.,yes,3
+00:03:47,00:04:17,divinity,Omniphau,,mechanic,any,,Omniphau can apply AFK hours to systems such as refinery and sailing and breeding.,yes,3
+00:04:17,00:04:47,pets,Piggy,,priority,any,,For strict free-to-play without auto-loot he strongly recommends Piggy.,yes,3
+00:04:47,00:04:47,pets,Doot,,priority,any,,If auto-loot is already available Doot is a good token choice.,yes,3
+00:04:47,00:04:47,pets|divinity,Doot,,mechanic,any,,Doot permanently activates all divinities even if they are not unlocked.,yes,3
+00:04:47,00:05:17,pets|ballot|merits,Poppy,,priority,w7,bonus_multiplier=2,Consider Poppy around World 7 for doubled Ballot and Meritocracy bonuses.,yes,3
+00:05:17,00:05:47,pets,Poppy,,opinion,any,bonus_multiplier=2,He considers Poppy the strongest pet because doubled Ballot and Meritocracy effects can be extremely powerful.,yes,3
+00:05:47,00:05:47,tournament,pet registration,,mechanic,any,,Tournament allows registering owned pets.,yes,3
+00:05:47,00:05:47,pets,Pet Mart,,how_to,any,,Claim free gems through Pet Mart.,yes,3
+00:05:47,00:06:17,pets,token refund,,mechanic,any,,Rolling a pet whose bonus was obtained by token refunds the token.,yes,3
+00:06:17,00:06:47,pets,Doot token strategy,,priority,any,,Token Doot for early bonuses then reuse the refunded token on Poppy if Doot is rolled later.,yes,3
+00:06:17,00:06:47,pets,Doot,,account_note,any,,He uses the token on an available King Doot.,yes,3
+00:06:47,00:06:47,pets,token ownership,,mechanic,any,,Tokens grant passive bonuses rather than the pet itself; tokened Doot appears in bonuses but not the pet yard.,yes,3
+00:06:47,00:07:17,pets,free rolls,,meta_change,any,old_frequency=weekly;new_frequency=daily,Free pet rolls are now daily instead of weekly.,yes,3
+00:07:17,00:07:48,masterclass|talent_points,unlock preparation,,target,w6,talent_levels_approximate=200,Aim for roughly level-200 talents to prepare for World 6 masterclass unlocks.,yes,3
+00:07:17,00:07:48,masterclass,unlock difficulty,,comparison,w6,,Deathbringer and Wind Walker are usually easier to unlock than Royal Guard and Arcane Cultist which need stronger talents.,yes,3
+00:07:48,00:08:18,pets,Rift Slug,,target,w6,,Target Rift Slug for additional talent levels while retaining a rare chance to roll Doot.,yes,3
+00:07:48,00:08:18,pets|storage,Ram,,blocker,any,,The account lacks Ram and therefore cannot access storage from anywhere.,yes,3
+00:08:49,00:09:20,divinity,unlocked gods,,account_note,w6,,The account initially has only basic gods such as Arctis and Nobisect and Mantis unlocked despite Doot activating later bonuses.,yes,2
+00:08:49,00:09:20,divinity,Purrmep,,blocker,any,minimum_linked_characters=1,Purrmep requires at least one actual character link even with Doot.,yes,3
+00:09:20,00:09:20,divinity,Purrmep,,mechanic,any,divinity_multiplier=2;divinity_xp_multiplier=2,Without a Purrmep link the account cannot receive doubled divinity and divinity XP.,yes,3
+00:09:20,00:09:20,divinity,AFK bonus,,mechanic,any,afk_gains_percent=30,A divinity bonus provides 30% AFK gains for all activities.,yes,3
+00:09:20,00:09:51,divinity|lab,Arctis,,mechanic,any,,Arctis counts characters as connected to the lab mainframe but gives no lab XP unless they occupy tubes.,yes,3
+00:09:20,00:09:51,divinity,kill credit,,mechanic,any,kill_multiplier=2,Divinity doubles credited kills across characters.,yes,3
+00:09:51,00:09:51,divinity|printer,Harriep,,mechanic,any,resource_multiplier=3,Harriep triples printer resources for all characters with Doot.,yes,3
+00:09:51,00:10:22,divinity|lab,Goharut,,mechanic,any,simultaneous_skills=2,Characters physically in lab tubes also count at the divinity altar through Goharut and can level both skills.,yes,3
+00:10:22,00:10:54,divinity,Omniphau,,mechanic,any,,Non-candy AFK claims can advance refinery or printing or cooking or breeding or sailing or gaming by the claimed time.,yes,3
+00:10:54,00:11:26,divinity,Flutterbis,,mechanic,any,trigger_skill_level=>50;pearl_xp_percent=40;eligible_skill_level=<50,Leveling a skill above fifty drops a divinity pearl granting 40% XP to a skill below fifty.,yes,3
+00:10:54,00:11:26,divinity,pearls,,priority,any,,Divinity pearls help difficult skill levels and meeting tool requirements.,yes,3
+00:10:54,00:11:26,divinity|bubbles,Kattlecruk,,mechanic,any,bubble_levels_per_day=1,Kattlecruk grants a daily alchemy bubble level when playing.,yes,3
+00:11:26,00:11:26,divinity|zenith_market,Kattlecruk,,blocker,w6,required_world=7,Kattlecruk's bubble benefit is not useful yet because it needs the World 7 Zenith Market.,yes,3
+00:11:26,00:11:26,divinity,Badger,,mechanic,any,,Badger currently does nothing.,yes,3
+00:11:26,00:11:59,pets,token availability,,opinion,any,,He believes pet bonus tokens only drop during events but does not consider them event-exclusive because they remain usable afterward.,yes,3
+00:11:59,00:12:31,pets,token allowances,,account_note,any,his_allowance=1;earlier_players_allowance=2,He has one use from attending one eligible event while earlier players may have two.,yes,3
+00:11:59,00:12:31,pets,token progression,,setup,any,,With two tokens use Piggy and Doot then replace Doot with Poppy after rolling Doot naturally.,yes,3
+00:12:31,00:13:02,pets|damage,Ancient Golem,,mechanic,any,damage_multiplier=10,Ancient Golem provides ten-times multiplicative damage.,yes,3
+00:13:02,00:13:32,damage,stat buckets,,mechanic,any,example_buckets=4;same_bucket_bonuses=2|3;combined_bonus=5;incorrect_bonus=6,In his example two-times and three-times damage within the same bucket add to five rather than multiply to six.,yes,3
+00:13:32,00:14:03,damage,Ancient Golem bucket,,mechanic,any,final_multiplier=10,Ancient Golem occupies its own final bucket so it multiplies the preceding damage total by ten.,yes,3
+00:14:03,00:14:33,drop_rate,stat buckets,,comparison,any,,Drop rate in earlier buckets can be weaker than expected; a final true-multiplier bucket is especially powerful.,yes,3
+00:14:33,00:15:03,account_structure,balanced progression,,priority,w6,,Avoid pushing immediately without supporting systems because the account could fall behind; prioritize Rift Slug and account development.,yes,3
+00:15:03,00:15:34,sailing,Emerald Relic,,account_note,any,,He obtained Emerald Relic which unlocks treasure-to-gold-bar trading through Blobby G.,yes,3
+00:15:34,00:16:05,sailing,Blobby G,,mechanic,any,,Trade treasures for gold bars to upgrade boats or buy captain slots; higher loot value strengthens this progression.,yes,3
+00:16:05,00:16:05,sailing,artifact priorities,,priority,any,,Fauxory Tusk is valuable for artifact chance; the printer artifact is less useful while samples reset frequently.,yes,2
+00:16:05,00:16:36,sailing,voyage times,,account_note,any,example_voyage_hours=12,The shown sailing setup takes about twelve hours for one voyage.,yes,3
+00:16:36,00:17:06,sailing|divinity,Omniphau catch-up,,setup,any,possible_trip_days=49|11|6;possible_trip_hours=25;claimed_potential_days=360,He considers distant voyages because roughly 360 stored AFK days could produce large Omniphau sailing progress.,yes,3
+00:17:06,00:17:06,gaming,claim sequencing,,how_to,any,current_bits=581000,Collect one plant then upgrade before collecting more to improve returns; he did not follow that sequence here.,yes,3
+00:17:06,00:17:37,gaming,Cactus research,,account_note,any,research_chance_percent=62,He succeeds at the 62% research attempt and unlocks Cactus.,yes,3
+00:17:06,00:17:37,gaming,preclaim upgrades,,setup,any,,Add some gaming speed and increase returns before large AFK claims.,yes,3
+00:17:37,00:17:37,buildings,shrine levels,,account_note,any,,The long AFK claims will substantially level shrines.,yes,3
+00:17:37,00:18:08,farming,account state,,account_note,w6,,The account's farming progression is still weak.,yes,3
+00:17:37,00:18:08,summoning,slime XP,,priority,w6,,Begin generating more slime experience.,yes,3
+00:18:08,00:18:08,summoning,early battle stats,,setup,early,displayed_values=9|6|9,Aim to one-shot enemies and upgrade unit damage for the shown early battle.,yes,2
+00:18:08,00:18:39,summoning,mana and dodge,,priority,early,,Upgrade mana regeneration and Dodge Roll to support reliable early battles.,yes,3
+00:18:39,00:18:39,summoning,multiple-number cards,,mechanic,any,,Numbered cards can be played multiple times and have lower costs.,yes,3
+00:18:39,00:18:39,summoning,plus-one upgrades,,priority,any,upgrade_increment=1,Upgrades displaying plus one are usually valuable.,yes,3
+00:18:39,00:19:10,summoning,balanced spending,,setup,early,,With abundant essence he levels upgrades broadly while emphasizing damage and mana regeneration.,yes,3
+00:19:10,00:19:41,summoning,green essence and Rumby,,account_note,early,,Green essence and the next summoning tier are now available toward Rumby.,yes,3
+00:19:10,00:19:41,summoning,Essence Champ,,setup,early,target_cost=2000,Upgrade Essence Champ and other upgrades toward costs of two thousand to improve essence production.,yes,3
+00:19:10,00:19:41,summoning,white essence generation,,mechanic,any,,White essence generation scales with summoning level.,yes,3
+00:19:41,00:20:14,summoning,mana generation,,priority,any,,Prioritize strong mana generation so units can be summoned frequently.,yes,3
+00:20:14,00:20:44,summoning|hole,damage scaling,,blocker,any,hole_world=5,Later summoning damage remains difficult until specific World 5 hole bonuses become available.,yes,3
+00:20:14,00:20:44,summoning,account progression,,priority,w6,,Summoning creates a major account power spike and should not be neglected.,yes,3
+00:20:44,00:21:14,farming|summoning,World 6 skills,,priority,w6,,Develop farming and summoning before heavily pushing World 7 because World 6 skills accelerate account progress.,yes,3
+00:20:44,00:21:14,summoning,essence reward,,account_note,any,essence_multiplier=1.25,The shown reward grants 1.25-times essence.,yes,3
+00:21:14,00:21:44,summoning|library|masterclass,maximum talents,,priority,w6,,Summoning increases maximum talent levels needed for masterclasses and specific Rift challenges.,yes,3
+00:21:44,00:22:16,general,free-to-play pushing,,warning,w6,,Free-to-play accounts cannot rely on mindless pushing without building supporting systems.,yes,3
+00:22:48,00:23:20,summoning,career wins,,account_note,early,white_progress=5/9;green_progress=1/15,His displayed career progress is five of nine and one of fifteen.,yes,2
+00:22:48,00:23:20,summoning,first green win,,priority,early,required_wins=1,Winning one green battle starts green essence production toward Rumby.,yes,3
+00:23:20,00:23:51,summoning,early battle rule,,threshold,early,enemy_hits_survivable=2;hits_to_kill=1,Being able to survive two hits while one-shotting enemies usually guarantees early summoning wins.,yes,3
+00:23:51,00:24:23,summoning,spike meta,,comparison,early,,Spikes are excellent for early pushing but scaling slows until further essence colors unlock.,yes,3
+00:24:23,00:24:23,summoning,spikes,,priority,early,,Unlock spikes as soon as available to accelerate pushing.,yes,3
+00:24:23,00:24:53,summoning|sneaking,battle rewards,,mechanic,w6,,Summoning rewards supply sneaking bonuses that help push sneaking quickly.,yes,3
+00:24:53,00:25:24,sneaking,account bonuses,,priority,w6,,Sneaking contains many valuable account-progression bonuses.,yes,3
+00:24:53,00:25:24,tesseract|bubbles,Prisma bubbles,arcane_cultist,mechanic,any,fragments=10;prisma_bubbles=1,Ten fragments create one Prisma bubble that boosts a passive small alchemy bubble or jade-gain passive small bubble.,yes,3
+00:25:24,00:26:26,tesseract|bubbles,Diamond Chef,arcane_cultist,priority,w6,first_prisma=1,Use the first Prisma bubble on Diamond Chef to greatly accelerate cooking.,yes,3
+00:25:55,00:26:26,bubbles|cooking,Diamond Chef,,mechanic,any,,Diamond Chef increases meal cooking and kitchen fire speed; Prisma makes its exponential effect much stronger.,yes,3
+00:26:26,00:26:56,summoning,battle selection,,account_note,early,displayed_values=55|82|17|39;hits_each_side=2,He chooses a fight where both sides need two hits while noting the other displayed battle stats.,yes,2
+00:26:56,00:26:56,summoning,top-lane rush,,warning,any,,Throwing summons along the top can win but depends heavily on luck.,yes,3
+00:26:56,00:26:56,summoning|gem_shop,lives,,skip,any,free_lives_daily=3,Only three free lives are available daily; he advises against spending gems on more.,yes,3
+00:26:56,00:27:26,account_structure,series priorities,,account_note,w6,,This chapter emphasizes skilling and resampling plus rounded account development instead of the previous chapter's direct pushing.,yes,3
+00:27:26,00:27:57,characters,spirit locks,,blocker,w6,,Spirit locks stop progress unless enough characters are developed.,yes,3
+00:27:26,00:27:57,characters,Sky Doggies,,meta_change,w6,old_required_characters=9,World 7's release nerfed spirit locks so Sky Doggies no longer requires nine characters.,yes,3
+00:27:57,00:28:28,summoning|damage,total damage reward,,mechanic,any,,Summoning rewards can grant multiplicative total damage.,yes,3
+00:28:28,00:28:28,damage,current damage,,account_note,w6,damage=236000000,His displayed damage has reached 236 million.,yes,3
+00:28:28,00:29:00,summoning,spike preparation,,blocker,early,displayed_values=25|58,The next battle looks difficult; wait for essence and move closer to unlocking spikes.,yes,2
+00:29:00,00:29:30,farming,Mama Trolls,,target,w6,,Reach Mama Trolls to unlock night-bean trading for farming progression.,yes,3
+00:29:00,00:29:30,farming,Night Market,,blocker,w6,,More discovered crops are needed to unlock Night Market.,yes,3
+00:29:30,00:30:00,farming,Overgrowth,,mechanic,any,example_multipliers=2|4|16,After maturity Overgrowth can multiply crop yields at progressively lower chances without additional growing time.,yes,3
+00:30:00,00:30:30,farming,apple evolution,,account_note,early,growth_hours=3.7;approximate_hours=4;evolution_chance_percent=63,His apples have about a 63% chance for a new crop after roughly four hours.,yes,3
+00:30:30,00:30:30,gem_shop,Insta-Grow Generator,,account_note,any,,He regrets not buying an Insta-Grow Generator before the long absence.,yes,3
+00:30:30,00:31:01,gem_shop,previous purchases,,account_note,any,brimstone_slots=4;sample_spaces=1,The account has four Brimstone slots and Infinity Hammer plus Crystal 3D Printer and one sample-space purchase.,yes,3
+00:30:30,00:30:30,gem_shop|cauldrons_liquids,Bleach Cauldrons,,skip,any,,Missing Bleach Cauldrons is acceptable because Arcane Cultist can help alchemy later.,yes,3
+00:30:30,00:30:30,gem_shop|divinity|printer,Crystal 3D Printer,,mechanic,any,,Crystal 3D Printer works well with the rabbit god.,yes,3
+00:30:30,00:31:01,gem_shop,burned books,,skip,any,,Stay away from burned-book purchases.,yes,2
+00:31:01,00:31:01,gem_shop,mainframe jewels,,skip,w6,,Do not roll mainframe jewels yet.,yes,3
+00:31:01,00:31:01,gem_shop,meal purchases,,skip,w6,,Buying meals with gems is unnecessary for this account.,yes,3
+00:31:01,00:31:33,gem_shop,Snehebatu link,,skip,any,cost_gems=950;afk_gains_percent=30,Do not buy the 950-gem link for 30% AFK gains even without Doot; he considers it poor value.,yes,2
+00:31:33,00:31:33,gem_shop|farming,Insta-Grow Generator,,mechanic,any,instagrows_per_day_per_purchase=2;additional_crop_chance_yield=1,Each generator purchase grants two daily Insta-Grows on login and an additional chance of one extra mature crop.,yes,3
+00:31:33,00:31:33,gem_shop|farming,Insta-Grow Generator,,priority,any,recommended_purchases=1,Free-to-play players should buy one Insta-Grow Generator if affordable.,yes,3
+00:32:03,00:32:33,sneaking,kunai unlock,,how_to,early,jade_coins=500000,Use the newly opened floor to find a kunai and free the next ninja; he has five hundred thousand jade coins.,yes,3
+00:32:03,00:32:33,sneaking,item chance,,account_note,early,displayed_chance_percent=6,The shown initial sneaking chance is six percent.,yes,2
+00:32:33,00:33:04,sneaking,early upgrades,,priority,early,,Prioritize successful item finding and jade gain then useful sneaking bonuses while avoiding unnecessary spending.,yes,3
+00:32:33,00:33:04,sneaking,charm levels,,mechanic,early,,The newly available upgrades include increasing maximum charm levels.,yes,3
+00:33:04,00:33:04,sneaking,instant revive,,mechanic,any,uses_per_day=1,The purchased revive upgrade restores a knocked-out ninja once daily by moving it down and back up.,yes,3
+00:33:04,00:33:35,sneaking,untie damage,,account_note,early,,Untying-damage upgrades are still expensive for the account.,yes,3
+00:33:35,00:34:08,sneaking,action speed,,priority,early,upgrade_number=4,Prioritize the fourth upgrade for action speed to perform actions and find items faster.,yes,3
+00:33:35,00:34:08,sneaking,current stats,,account_note,early,action_minutes=17;detection_percent=0;item_find_percent=31;additional_multiplier=1.5,His upgrades produce seventeen-minute actions with zero detection and 31% item finding plus a 1.5-times modifier.,yes,3
+00:34:08,00:34:38,cauldrons_liquids|bubbles,saved attempts,bubonic_conjuror,setup,any,cauldron_attempts=858|1100|1100|1100,Use Bubonic Conjuror before spending the accumulated 858 and three sets of eleven hundred brewing attempts.,yes,3
+00:34:38,00:34:38,sneaking,MSA Expander,,account_note,any,,MSA Expander is available in Jade Emporium.,yes,3
+00:34:38,00:35:09,sneaking|stamps,Level Exemption,,mechanic,any,reduced_chopping_efficiency=17;full_chopping_efficiency=65,Level Exemption permanently removes underlevel stamp penalties; the shown chopping stamp rises from seventeen to sixty-five efficiency.,yes,3
+00:34:38,00:35:09,sneaking|printer,Level Exemption,,priority,any,,Removing stamp penalties improves printer samples.,yes,3
+00:35:09,00:35:09,sneaking|lab,laboratory horizon,,priority,any,,He also wants the laboratory-horizon extension even though the account cannot reach it yet.,yes,3
+00:35:09,00:35:41,farming,crop transfer tickets,,priority,w6,,Crop transfer tickets are not immediately necessary but can be bought daily when affordable.,yes,3
+00:35:41,00:35:41,equinox,Bob Joe Pickle,,priority,any,,Buy Bob Joe Pickles because they are needed for an Equinox mechanic.,yes,3
+00:35:41,00:36:13,farming,night-bean trading,,mechanic,w6,,Crop transfer tickets are required for night-bean trading in Mama Trolls' deep bamboo forest.,yes,3
+00:36:13,00:36:44,characters,existing gear,,account_note,w6,,The account had begun replacing Amarok with Dementia and already owned Deus Scythe and Chizoar Scarf.,yes,3
+00:36:44,00:36:44,masterclass|grimoire,ribbons,death_bringer,priority,w6,,Unlock Deathbringer to access ribbons for further account bonuses.,yes,3
+00:36:44,00:37:15,breeding,breedability,,account_note,any,breedability=4,The long absence raised the shown breedability to four.,yes,3
+00:37:15,00:37:15,breeding,pet progress,,account_note,any,current_pet_value=722,The shown pet value is 722; he keeps useful pets and discards weaker rolls.,yes,2
+00:37:15,00:37:15,breeding,arena readiness,,skip,early,,Do not enter arena yet despite the prompt because the account is not ready.,yes,3
+00:37:15,00:37:46,pets|lab,Doot,,account_note,any,,Doot lets all characters count as connected in the current lab setup.,yes,3
+00:37:46,00:37:46,lab|stamps,Certified Stamp Book,,mechanic,any,stamp_bonus_multiplier=2,Certified Stamp Book doubles combat and skilling stamps but excludes miscellaneous stamps.,yes,3
+00:37:46,00:37:46,lab,Spelunking Opal,,mechanic,any,jewel_effect_multiplier=1.5,Spelunking Opal multiplies lab jewel effects by 1.5 but the account has no jewels yet.,yes,3
+00:37:46,00:38:18,lab,weekly chip offers,,opinion,any,,He considers the current weekly offerings poor.,yes,3
+00:38:18,00:38:18,lab,Jewel Spinner,,priority,any,purchases_required=1,Work toward affording Jewel Spinner; one purchase is permanently owned.,yes,3
+00:38:18,00:38:49,lab,Chocolatey Chip,,mechanic,any,,Chocolatey Chip can spawn another crystal when a crystal dies and would be useful to obtain early.,yes,3
+00:38:18,00:38:49,lab,Chocolatey Chip,,account_note,w6,,The account has no Chocolatey Chip and is not ready to exploit it fully yet.,yes,3
+00:38:49,00:39:21,hat_rack,hat collection,,mechanic,any,,Hat Rack grants bonuses for found premium hats and later sneaking hats.,yes,3
+00:38:49,00:39:21,hat_rack,early priority,,skip,w6,,Hat Rack is not an immediate concern but becomes strong later.,yes,3
+00:39:21,00:39:21,library,maximum talents,,target,w6,current_maximum=116;available_maximum=135;goal=200;remaining_gap=65,Current books reach 116 with 135 available; the target is 200 leaving sixty-five levels beyond that available maximum.,yes,3
+00:39:21,00:39:21,construction|death_note,Death Note upgrade,,priority,any,,Continue building Death Note.,yes,3
+00:39:21,00:39:52,construction,Automation Arm,,account_note,any,,Automation Arm reached another unlock.,yes,3
+00:39:21,00:39:52,atom_collider,readiness,,skip,w6,,The account is not ready for Atom Collider so postpone it.,yes,3
+00:39:52,00:39:52,construction|worship,Poisonic Elder,,account_note,any,,Poisonic Elder is unlocked.,yes,3
+00:39:52,00:39:52,buildings,Crescent Shrine,,priority,any,,Build Crescent Shrine for increased crystal and giant mob spawn chances.,yes,3
+00:39:52,00:39:52,buildings,Undead Shrine,,target,any,,Undead Shrine is another upcoming shrine.,yes,3
+00:39:52,00:40:24,construction,supreme cogs,,account_note,any,,The account can now make supreme cogs and is comparing flag rate and build rate and XP bonuses.,yes,3
+00:40:24,00:40:55,construction,cog replacement,,account_note,any,displayed_cog_value=35;build_rate_gain=2000,He selects a cog showing thirty-five and gains about two thousand build rate.,yes,2
+00:40:55,00:41:29,construction,cog placement,,setup,any,affected_characters=2,Arrange the directional flag-rate cog to affect both relevant characters.,yes,3
+00:40:55,00:41:29,construction,flag progress,,account_note,any,displayed_percentages=16|8|13;displayed_costs=300000|188000|188000,The displayed cog bonuses and flag costs favor opening corner positions.,yes,2
+00:41:29,00:41:29,construction,flag rate,,account_note,any,rate_per_hour=3550,Flag progress is roughly 3550 per hour so opening new spaces will take time.,yes,3
+00:41:29,00:41:59,construction,idle character,,setup,any,,Put the unused character on the shelf because it had not been accumulating construction XP.,yes,3
+00:41:59,00:41:59,equinox,dream requirements,,account_note,any,total_refinery_ranks=30;single_character_level=100;killroy_kills=400,Current dreams include thirty refinery ranks and a single-character level-one-hundred target plus four hundred Kilroy kills and a greenstack.,yes,2
+00:41:59,00:42:29,refinery,salt stock,,account_note,any,displayed_salts=8000|1820,The shown salt stocks are eight thousand and 1820.,yes,2
+00:42:29,00:42:29,refinery|worship,blue and green salts,,priority,any,,Enable blue salt production to reach green salts and support Poisonic Elder progression.,yes,3
+00:42:29,00:42:29,worship,Poisonic Elder,,comparison,any,,Poisonic Elder will outscale Boulder Rollers in tower defense.,yes,3
+00:42:29,00:42:59,arcade,ball spending,,account_note,any,balls=60,He launches the sixty available arcade balls.,yes,3
+00:42:59,00:42:59,arcade,gold-bar multiplier,,priority,any,,Usually wait for a gold-bar multiplier before spending arcade balls.,yes,3
+00:43:31,00:44:02,arcade|construction,build-speed bonus,,priority,early,build_speed_percent=16,He upgrades arcade construction speed to around 16% because it helps immediately.,yes,3
+00:43:31,00:44:02,arcade|royal_armory,kingdom resources,,mechanic,any,,Kingdom-resource bonuses apply to Royal Guard's system.,yes,3
+00:43:31,00:44:02,arcade|tesseract,Prisma bonus,,mechanic,any,,The arcade Prisma bonus affects Prisma bubbles.,yes,3
+00:43:31,00:44:02,arcade|hole,fountain speed,,mechanic,any,hole_world=5,Fountain speed applies to the World 5 hole mechanic.,yes,3
+00:43:31,00:44:02,arcade|research,research XP,,mechanic,any,system_world=7,Research is a World 7 mechanic.,yes,3
+00:44:02,00:44:32,arcade,upgrade preferences,,priority,any,,Kingdom resources and Prisma bonuses are good; fountain speed is useful and research XP is a must.,yes,3
+00:44:02,00:44:32,arcade|emperor,Emperor bonus,,opinion,any,boss_world=6,He considers the World 6 Emperor bonus mediocre.,yes,3
+00:44:02,00:44:32,arcade|farming,mega crop,,opinion,any,,Mega-crop bonus is acceptable but the account has not unlocked the mechanic.,yes,3
+00:44:32,00:44:32,arcade|grimoire,Deathbringer bones,,priority,any,,Deathbringer bone bonuses are useful for its masterclass resource.,yes,3
+00:44:32,00:44:32,arcade,new crowns,,priority,any,,New-crown bonuses are useful for a later mechanic but the account is still far away.,yes,2
+00:45:03,00:45:35,bubba,clicker progression,,comparison,early,,Bubba is another clicker like Orion and Roo or Poppy but starts extremely slowly.,yes,3
+00:45:35,00:45:35,bubba,early upgrades,,setup,early,initial_points=1,He usually avoids heavy Happy Boy investment and buys one point in the multiplier upgrade.,yes,2
+00:45:35,00:46:06,bubba,Bubba Boon,,mechanic,any,build_rate_percent=10;next_critter_gain_percent=5,The first shown boon gives 10% build rate and the next offers 5% critter gain.,yes,3
+00:46:06,00:46:36,bubba,Bargain Tag,,mechanic,any,,Bargain Tag reduces upgrade costs but he usually wants it higher before relying on it.,yes,3
+00:46:06,00:46:36,bubba,early start,,priority,early,,Begin Bubba early because initial progression is slow and getting started helps later growth.,yes,3
+00:46:36,00:47:07,bubba,Happy Boy,,skip,early,,Happy Boy is not necessary yet because resets will happen before it becomes useful.,yes,3
+00:46:36,00:47:07,bubba,patting,,how_to,any,interval_hours=1,Pat Bubba once an hour for a multiplier boost when available.,yes,3
+00:47:07,00:47:39,bubba,charisma,,mechanic,any,,Charisma lets the player select which attribute bonus to level.,yes,3
+00:47:39,00:48:10,bubba,charisma priorities,,priority,any,mindful_maximum_level=120;possible_split=1:2|1:1,Prioritize Mindful then Rizz and Hustle; Mindful caps at 120 and he suggests roughly one-to-two or even splits afterward.,yes,2
+00:47:39,00:48:10,bubba,Mindful,,mechanic,any,level_gain_multiplier=2,Mindful can double level gains without increasing upgrade costs accordingly.,yes,3
+00:48:10,00:48:41,bubba,Mindful versus Rizz,,comparison,any,,Mindful's cost-free extra levels can beat Rizz's apparent cost reduction by producing more upgrades at lower effective cost.,yes,3
+00:48:41,00:48:41,bubba,Emulsify,,mechanic,late,,Later Emulsify allows double-tapping a bonus to strengthen it.,yes,3
+00:48:41,00:49:12,bubba,charisma timing,,priority,early,current_selection_seconds=15,Start charisma early while changing attributes takes fifteen seconds; later selections take longer.,yes,3
+00:49:12,00:49:43,bubba,starting attributes,,comparison,early,mindful_level=120,Early resets can use Rizz or Hustle but he teaches Mindful first because other attributes become slow after Mindful reaches 120.,yes,3
+00:49:43,00:50:15,owl,feather reset,,how_to,any,,Perform a feather reset and upgrade shiny feathers.,yes,3
+00:50:15,00:50:15,owl,fractal feathers,,account_note,any,fractal_feathers=11,The account previously had eleven fractal feathers.,yes,3
+00:50:15,00:50:46,owl|bubbles,all stats and Shaquracy,,priority,w6,,All-stat bonuses help Shaquracy and reduce upcoming accuracy problems.,yes,3
+00:50:46,00:51:16,kangaroo,boons and fisher points,,setup,any,reset_requirement=1.1e25,Collect more boons and invest in fisher points while preserving the 1.1e25 needed for the reset.,yes,2
+00:51:16,00:51:46,kangaroo,Greatest Catch reset,,account_note,any,mega_fish_tier=4,He performs a Greatest Catch reset and reaches Celtic Mega Fish four for more bonuses.,yes,2
+00:51:16,00:52:17,kangaroo,red and blue upgrades,,setup,any,displayed_levels=80|150;red_target=1000;later_ratio=2:4|1:2,Focus red upgrades to about one thousand before adding blue upgrades at roughly a one-to-two ratio.,yes,2
+00:52:17,00:52:48,daily_routine,clicker multitasking,,priority,any,,Work on clickers while another character is actively pushing rather than doing nothing else.,yes,3
+00:52:17,00:52:48,tournament,bronze registration,,priority,any,,Register for bronze tournament progression.,yes,3
+00:52:48,00:53:19,tournament,raid difficulty,,warning,early,,The account's current pets cannot realistically compete against strong raid teams.,yes,3
+00:52:48,00:53:19,tournament|pets,raid pets,,mechanic,any,,Raids can award unique pets including one granting multiplicative damage.,yes,3
+00:53:19,00:53:19,tournament|royal_armory,raid pet bonuses,,mechanic,any,,Another raid pet increases parchment and marble drops which matter after Royal Guard unlocks.,yes,3
+00:53:19,00:53:19,pets,Pipsqueak,,mechanic,any,,Pipsqueak currently provides no effect at recording time.,yes,3
+00:53:19,00:53:51,tournament,Grand Tourney rewards,,comparison,early,,Pipsqueak and Veteran are difficult Grand Tourney rewards for this account; rotating rewards do not disappear permanently.,yes,3
+00:53:19,00:53:51,lab,mainframe placement,,setup,any,,Place the character in the lab tube to generate XP while managing other characters.,yes,3
+00:53:51,00:54:24,islands,Fractal Island,,account_note,any,nothing_hours_days=360,He considers preserving roughly 360 days of nothing time for Fractal Island and a possible Nothing Trophy.,yes,3
+00:54:24,00:54:54,divinity,offerings,,account_note,any,attempt_chances_percent=50|25|50,He unlocks rabbit and goat gods after mixed twenty-five and fifty-percent offering attempts.,yes,3
+00:54:54,00:55:24,divinity,Omniphau unlock,,account_note,any,attempt_chance_percent=25,Another twenty-five-percent attempt unlocks Omniphau.,yes,3
+00:55:24,00:55:54,divinity,god upgrades,,how_to,any,,Spend available resources including money on Harriep to improve divinity point gains.,yes,2
+00:55:54,00:55:54,divinity|gaming,Omniphau proc,,account_note,any,spoken_progress_hours=326,He reports an Omniphau proc granting 326 hours of gaming progress.,yes,3
+00:55:54,00:56:25,gaming,Cactus,,mechanic,any,,Cactus can evolve nearby plants within its radius to the next tier for more bits.,yes,3
+00:55:54,00:56:25,gaming,garden expansion,,account_note,any,displayed_cost=625,He buys another garden plot at the displayed 625 cost.,yes,2
+00:56:25,00:56:25,gaming,Blossom,,account_note,any,mutation_chance_percent=13,He unlocks Blossom on a thirteen-percent mutation attempt.,yes,3
+00:56:25,00:56:25,gaming,Blossom,,mechanic,any,harvest_multiplier=2;gaming_xp_multiplier=5,Blossom gives double rewards when picked and five-times gaming XP.,yes,3
+00:56:56,00:56:56,divinity|sailing,Omniphau proc,,account_note,any,,Sailing did not receive the hoped-for Omniphau proc.,yes,3
+00:56:56,00:57:27,ballot,weekly choice,,priority,any,time_remaining_days=3,He votes AFK gains over extra stats despite the latter helping accuracy; the vote ends in three days.,yes,3
+00:57:27,00:57:27,islands,Fractal Island,,mechanic,any,,Fractal Island uses nothing hours to generate bonuses.,yes,3
+00:57:27,00:58:00,islands,Fractal Island,,blocker,any,,Even after the long absence the account lacks enough bottles to unlock Fractal.,yes,3
+00:58:00,00:58:30,islands,Seasalt Island,,priority,any,,Prioritize Seasalt Island over gambling on Fractal's Nothing Trophy because sea salt helps gear upgrades.,yes,3
+00:58:00,00:58:30,islands,Trash Island,,how_to,any,,Collect accumulated trash from Trash Island.,yes,3
+00:58:30,00:59:02,islands|stamps,stamp purchases,elemental_sorcerer,priority,any,,Buy missing island stamps before duplicates; additional stamps also improve Elemental Sorcerer damage.,yes,3
+00:59:02,00:59:02,upgrade_vault|pets,Doggy travel,,how_to,any,,Use the vault route to teleport to Doggy.,yes,3
+00:59:02,00:59:32,stamps|lab,drop-rate stamp,,mechanic,any,displayed_drop_rate_percent=2.2;effective_percent=4.4,The displayed 2.2% drop-rate stamp bonus becomes 4.4% with the lab bonus.,yes,3
+00:59:32,01:00:04,upgrade_vault,Vault Mastery 3,,meta_change,any,mastery=3,Vault Mastery three opens additional account bonuses.,yes,3
+00:59:32,01:00:35,upgrade_vault|sailing,sailing upgrades,,priority,any,,Prioritize sailing speed and artifact find chance because current sailing speed is very poor.,yes,3
+01:00:04,01:00:04,upgrade_vault|storage,carry capacity,,priority,any,,Improve carry capacity while the account lacks Ram.,yes,3
+01:00:04,01:00:35,upgrade_vault,Bubba Skull Trick,,mechanic,any,,Bubba Skull Trick helps portal opening.,yes,3
+01:00:35,01:01:05,divinity|refinery,Omniphau claim,,account_note,any,refinery_progress_minutes=8,An eight-minute claim gave eight minutes of refinery progress.,yes,3
+01:01:05,01:01:05,divinity|refinery,hourly checking,,mechanic,any,example_claim_hours=1,Hourly claims can give an extra hour across refinery but the proc is not guaranteed.,yes,3
+01:01:05,01:01:44,bubbles,Roy Rolling Ramsay,,priority,any,,Switch to Roy Rolling Ramsay to unlock alchemy bubbles.,yes,3
+01:01:44,01:01:44,achievements,Komaos Gamer,,account_note,any,gems=32;achievement_value=30000,The Komaos Gamer achievement supplies thirty-two gems and displays thirty thousand.,yes,2
+01:01:44,01:01:44,general,Steam,,priority,any,,He still recommends playing through Steam.,yes,3
+01:01:44,01:02:15,divinity,Purrmep,,target,any,offering_chance_percent=25;linked_characters=1,He attempts to unlock Purrmep so one character can link to it.,yes,3
+01:01:44,01:02:15,divinity,Vitalic,,mechanic,any,divinity_per_hour=2;xp_per_hour=7,Vitalic provides two divinity points and seven XP per hour.,yes,3
+01:02:15,01:02:46,divinity|stamps,Multitool Stamp,,target,any,divinity_level=50,Set characters to Vitalic and aim for level-fifty Divinity to obtain the strong base-efficiency Multitool Stamp.,yes,3
+01:02:46,01:03:16,divinity,Mantra,,opinion,any,,He dislikes Mantra because he prefers also generating divinity points.,yes,3
+01:02:46,01:03:16,divinity,style selection,,setup,any,,Choose the most suitable available style; he likes Tranqi for a lone character but has not unlocked it yet.,yes,3
+01:03:16,01:03:47,bubbles,new unlocks,,account_note,any,displayed_chances_percent=3|2|1.62,Several bubble attempts succeed at displayed chances around three and two and 1.62 percent.,yes,3
+01:03:47,01:03:47,bubbles,Big P,,mechanic,any,,Big P increases the linked deity's minor bonus above its displayed value.,yes,3
+01:03:47,01:03:47,pets|bubbles,Sheepie,,mechanic,any,,Sheepie already activates the newly unlocked big-bubble benefit.,yes,3
+01:03:47,01:03:47,bubbles|sailing,Boaty Bubble,,mechanic,any,,Boaty Bubble increases boat sailing speed.,yes,3
+01:03:47,01:03:47,bubbles|gaming,More Bits,,mechanic,any,,More Bits improves gaming bits.,yes,3
+01:03:47,01:04:17,bubbles|rift,Hitting the Rift,,mechanic,any,,Hitting the Rift grants shiny-mob chance for each new Rift level reached.,yes,2
+01:04:17,01:04:17,bubbles|cooking,Diamond Chef,,priority,any,discount_percent=90,Use the daily ninety-percent discount to gradually raise Diamond Chef and improve cooking.,yes,3
+01:04:17,01:04:47,bubbles|divinity,Gifts Abound,,mechanic,any,,Gifts Abound gives a chance not to consume divinity points when offering gifts.,yes,3
+01:04:47,01:05:17,bubbles,brewing progress,,account_note,any,attempt_chances_percent=5.3|3.7|2.64|1.86|1.3|0.9|0.6,Accumulated brewing attempts unlock many bubbles despite progressively lower success chances.,yes,3
+01:04:47,01:05:17,bubbles,Tree Sleeper,,mechanic,any,,Tree Sleeper increases chopping AFK gains.,yes,3
+01:04:47,01:05:17,bubbles,Hyper Swift,,mechanic,any,,Hyper Swift grants attack speed.,yes,3
+01:04:47,01:05:17,bubbles|lab,Matrix Evolved,,mechanic,any,,Matrix Evolved increases lab XP.,yes,3
+01:05:17,01:05:17,bubbles,Wand Power,,mechanic,any,,Wand Power provides additional weapon power.,yes,3
+01:05:17,01:05:17,bubbles|slab,Slabo Logsoul,,mechanic,any,slab_item_interval=100;slab_world=5,Slabo Logsoul increases chopping and worship power per hundred items discovered in World 5 Slab.,yes,2
+01:05:17,01:05:17,bubbles|divinity,Pious at Heart,,mechanic,any,,Pious at Heart provides divinity XP.,yes,2
+01:05:17,01:05:47,bubbles,Slab Wisdom,,account_note,any,,He also unlocks Slab Wisdom.,yes,2
+01:05:47,01:05:47,bubbles,Kills per Kill,,mechanic,any,,The kills-per-kill bubble adds kill credit while pushing.,yes,3
+01:05:47,01:05:47,bubbles,Fly in Mind,,mechanic,any,,Fly in Mind increases catching AFK gains.,yes,2
+01:05:47,01:06:17,bubbles,double AFK XP,,mechanic,any,xp_multiplier=2,The AFK XP bubble gives a chance for claimed AFK experience to count double.,yes,3
+01:05:47,01:06:17,bubbles,Bow Power,,mechanic,any,,Bow Power increases weapon power while using bows.,yes,3
+01:06:17,01:06:17,bubbles|slab,Slabo Critterbug,,mechanic,any,slab_item_interval=100;slab_world=5,Slabo Critterbug increases catching and trapping power per hundred Slab items.,yes,3
+01:06:17,01:06:48,bubbles|sailing,Sailor at Heart,,mechanic,any,,Sailor at Heart can convert an AFK claim into equal sailing time.,yes,3
+01:06:17,01:06:48,sailing,Golden Hamsters,,mechanic,any,mob_world=5,Golden Hamsters from World 5 add sailing-proc chance and stack with Sailor at Heart.,yes,3
+01:06:48,01:06:48,bubbles|slab,Slabo Agility,,mechanic,any,slab_item_interval=100,Slabo Agility grants agility and luck per hundred Slab items.,yes,3
+01:06:48,01:07:19,bubbles,Shimmeron,,mechanic,any,,Shimmeron grants golden-food effect and will be valuable later.,yes,3
+01:06:48,01:07:19,bubbles,Bite But Not Chew,,mechanic,any,,Bite But Not Chew supplies food nonconsumption chance but he considers it unremarkable.,yes,3
+01:07:19,01:07:19,bubbles,Spear Power,,account_note,any,,He unlocks Spear Power.,yes,3
+01:07:19,01:07:19,bubbles|slab,Slabo Ore Fish,,mechanic,any,interval=100,Slabo Ore Fish increases mining power with a hundred-unit Slab interval; the spoken unit is garbled.,yes,1
+01:07:19,01:07:19,bubbles|gaming,Gamer at Heart,,mechanic,any,,Gamer at Heart gives AFK claims a chance to award gaming progress.,yes,3
+01:07:19,01:07:50,bubbles,Slabby Strength,,mechanic,any,,Slabby Strength grants base strength.,yes,3
+01:07:19,01:07:50,bubbles,Power of TriOne,warrior,mechanic,any,strength_interval=250,Power of TriOne grants total damage per 250 warrior strength and also benefits from Warriors Rule.,yes,3
+01:07:50,01:08:20,characters,base versus total stats,,comparison,any,,Base strength is affected by all-stat percentage while total strength is not; prefer base strength and agility and wisdom or luck.,yes,3
+01:08:20,01:08:20,vials,account state,,account_note,any,,Vials still need attention.,yes,3
+01:08:20,01:08:51,sailing|summoning|library,maximum talents,,priority,w6,,Prioritize sailing speed and artifact chance plus summoning and Rift Slug to increase maximum library talent levels.,yes,3
+01:08:51,01:09:21,talent_points|cauldrons_liquids|tesseract,level-200 goal,,target,w6,talent_level=200,Level-200 talents should accelerate alchemy and unlock Prisma progression for cooking before further world pushing.,yes,3
+01:09:51,01:10:22,general,overwhelm,,opinion,any,played_hours=>30000;approaching_hours=35000,Even with nearly thirty-five thousand hours he forgets mechanics; temporary overwhelm or missing tasks is normal.,yes,3
+01:10:53,01:11:23,cooking|bubbles,diamond meals,,target,any,meal_level=11,Start turkey and raise all meals to eleven for Diamond Chef.,yes,3
+01:11:23,01:11:23,gaming,Omniphau catch-up,,account_note,any,progress_days=320;attempt_chance_percent=2,Another claim provides 320 gaming days and a two-percent attempt succeeds.,yes,3
+01:11:23,01:11:53,gaming,imports and Half-Open Box,,mechanic,any,,Half-Open Box unlocks a sprinkler through gaming imports.,yes,3
+01:11:53,01:12:23,gem_shop|gaming,Golden Sprinkler,,mechanic,any,cost_gems=425;charge_preservation_percent=30;additional_purchase_multiplier=1.15,Golden Sprinkler costs 425 gems and grants 30% charge preservation; further purchases multiply that chance by 1.15.,yes,3
+01:11:53,01:12:23,gem_shop|gaming,Golden Sprinkler,,mechanic,any,,Buying Golden Sprinkler instantly unlocks the sprinkler if it was unavailable.,yes,3
+01:11:53,01:12:23,gaming,sprinkler,,mechanic,any,,The sprinkler instantly regrows sprouts.,yes,3
+01:12:23,01:12:53,gaming,sprinkler usage,,how_to,any,displayed_sprinkler=0/7,After harvesting all plants use the sprinkler to repopulate the garden.,yes,3
+01:12:23,01:12:53,gaming,Spaded Box,,mechanic,any,,Spaded Box unlocks digging for gold nuggets.,yes,3
+01:12:53,01:13:23,gaming,nuggets,,mechanic,any,,Only the largest nugget found affects the bit multiplier.,yes,3
+01:12:53,01:13:23,gaming,saved digging attempts,,opinion,any,nugget_multiplier=3,He suspects the many digging opportunities are retroactive from his long absence.,yes,3
+01:13:23,01:13:56,gaming,nugget progress,,account_note,any,nugget_multipliers=3.47|5.37;bit_multiplier=40,Nugget upgrades reach 3.47 then 5.37 while the displayed overall bit multiplier is forty.,yes,3
+01:13:23,01:13:56,gaming,Kitsune Container,,target,any,cost=1.5Q,Kitsune Container is a later important import costing the displayed 1.5Q.,yes,3
+01:13:56,01:14:27,gaming,nugget progress,,account_note,any,nugget_multiplier=8;bit_multiplier=63,An eight-times nugget raises the shown total bit multiplier to sixty-three.,yes,3
+01:14:27,01:14:58,gaming,nugget progress,,account_note,any,nugget_multipliers=10|21.7;intermediate_bit_multiplier=77;final_bit_multiplier=164;original_bit_multiplier=20,Further nuggets raise the displayed bit multiplier through seventy-seven to 164 versus an earlier twenty.,yes,3
+01:14:27,01:14:58,gaming,catch-up pace,,warning,any,claimed_hours=thousands,His rapid nugget progress uses thousands of saved hours and should not be expected on a normal account.,yes,3
+01:14:58,01:15:28,divinity,bit spending,,how_to,any,,Spend some gaming bits on divinity efficiency upgrades.,yes,2
+01:15:28,01:15:28,buildings,Crescent Shrine,,warning,any,,Place new shrines before large claims; he forgot Crescent Shrine and lost substantial shrine XP.,yes,3
+01:15:28,01:15:58,summoning,Familiar Merging,,mechanic,any,slime_familiars=3;rumby_familiars=1;summoning_xp_multiplier=4,Three slime familiars merge into one Rumby familiar giving four-times summoning XP.,yes,3
+01:15:58,01:16:37,summoning,Familiar Merging,,warning,any,,Familiar merging affects the idle XP-producing familiars rather than units during summoning battles.,yes,3
+01:16:37,01:17:07,divinity,Purrmep offerings,,priority,any,chance_percent=100,He recommends waiting for a guaranteed offering because Purrmep is valuable.,yes,3
+01:17:07,01:18:09,general,save mixing,,account_note,any,,He suspects local and server save mixing wrongly unlocked turtles and other content in earlier recordings.,yes,3
+01:18:09,01:18:40,vials,turtle vial,,account_note,any,,He checks turtle availability after realizing viewers had only been getting blobfish.,yes,3
+01:18:40,01:18:40,vials,turtle vial,,priority,any,,The turtle vial is exceptionally strong because its bonus is multiplicative.,yes,3
+01:18:40,01:19:10,vials,turtle attempts,,how_to,any,desired_roll=99,He drops multiple turtle stacks hoping to hit a ninety-nine roll.,yes,3
+01:19:10,01:19:40,vials,turtle vial,,account_note,any,,The turtle vial was already unlocked; that explains why additional attempts appeared ineffective.,yes,3
+01:19:40,01:20:11,divinity,offerings,,account_note,any,planned_chance_percent=50,He now plans to save enough for a fifty-percent offering.,yes,2
+01:20:11,01:20:41,guild,applications,,account_note,any,,He rejects old guild applications and plans to accept new viewers applying after episode one releases.,yes,3
+01:20:41,01:21:13,guild,series restrictions,,account_note,any,,He permits YouTube recruitment for the free-to-play guild while retaining the restriction against Discord promotion.,yes,3
