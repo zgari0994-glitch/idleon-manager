@@ -1,9 +1,9 @@
 {
  "meta": {
-  "game_save_utc": "2026-11-18T13:11:22.929000+00:00",
-  "game_save_et": "2026-11-18 08:11 AM ET",
-  "review_run_et": "2026-11-18 08:13 AM ET",
-  "autoreview_last_update": "Nov 18, 2026, 1:11:22 PM UTC",
+  "game_save_utc": "2026-11-18T17:24:53.400000+00:00",
+  "game_save_et": "2026-11-18 12:24 PM ET",
+  "review_run_et": "2026-11-18 12:30 PM ET",
+  "autoreview_last_update": "Nov 18, 2026, 5:24:53 PM UTC",
   "switches": {
    "autoloot": "on",
    "doot": "on",
@@ -36,14 +36,14 @@
     "src": "zack",
     "park_rule": "with Autiszemo"
    },
-   "save_map": "W1 map 8",
-   "money": 9.909823350889128e+29,
+   "save_map": "W3 map 105",
+   "money": 1.021077980705019e+30,
    "jobs": [
     {
      "job": "Farming",
      "basis": "class",
      "tiers": {
-      "Farming": "2/9",
+      "Farming": "5/9",
       "Beanstalk": "0/4"
      },
      "subs": [
@@ -55,9 +55,9 @@
          "locked": "",
          "section": "Farming",
          "group": "Continue Farming",
-         "label": "Nutritious Soil:+35/54% growth speed for all land",
-         "cur": "35",
-         "goal": "54",
+         "label": "Stacks for Evolution Gmo (200 crops)",
+         "cur": "71",
+         "goal": "127",
          "score": 133,
          "ready": false,
          "infinite": false
@@ -66,15 +66,15 @@
          "locked": "",
          "section": "Farming",
          "group": "Continue Farming",
-         "label": "Stacks for Evolution Gmo (200 crops)",
-         "cur": "14",
-         "goal": "116",
+         "label": "Stacks for Speed Gmo (1000 crops)",
+         "cur": "71",
+         "goal": "127",
          "score": 133,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 12
+       "more": 19
       },
       {
        "name": "Farming: tabbed",
@@ -113,8 +113,8 @@
          "locked": "",
          "section": "Farming",
          "group": "Sources of Magic Bean Bonus",
-         "label": "More Beenz:+74/1000% magic beans gained when trading in crops",
-         "cur": "37",
+         "label": "More Beenz:+110/1000% magic beans gained when trading in crops",
+         "cur": "55",
          "goal": "500",
          "score": 0,
          "ready": false,
@@ -142,26 +142,15 @@
          "locked": "",
          "section": "Farming",
          "group": "Rank Database",
-         "label": "Seed of Stealth:Increases the Stealth of all Ninja Twins by +17.42/21.77% per Farming LV",
-         "cur": "4",
-         "goal": "5",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Farming",
-         "group": "Rank Database",
-         "label": "Seed of Loot:Increases the Drop Rate of all characters by +87.08/108.85%",
-         "cur": "4",
+         "label": "Seed of Stats:Gives a +0/54.42% All Stat bonus to your charactersUnlocked at 3500 total land ranks",
+         "cur": "0",
          "goal": "5",
          "score": 0,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 2
+       "more": -1
       },
       {
        "name": "Beanstalk: Deposit Golden Foods to the Beanstalk",
@@ -200,7 +189,7 @@
          "locked": "",
          "section": "Beanstalk",
          "group": "Golden Food Bonus",
-         "label": "Golden Peanut:Increases Mining Efficiency by 0/663.35%.",
+         "label": "Golden Peanut:Increases Mining Efficiency by 0/663.36%.",
          "cur": "0",
          "goal": "3",
          "score": 0,
@@ -211,7 +200,7 @@
          "locked": "",
          "section": "Beanstalk",
          "group": "Golden Food Bonus",
-         "label": "Butter Bar:Increases your Base Accuracy by 969.76/1326.7. And tastes great! This is technically golden food!",
+         "label": "Butter Bar:Increases your Base Accuracy by 969.77/1326.72. And tastes great! This is technically golden food!",
          "cur": "2",
          "goal": "3",
          "score": 0,
@@ -227,20 +216,9 @@
        "locked": "",
        "section": "Farming",
        "group": "Continue Farming",
-       "label": "Nutritious Soil:+35/54% growth speed for all land",
-       "cur": "35",
-       "goal": "54",
-       "score": 133,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Farming",
-       "group": "Continue Farming",
        "label": "Stacks for Evolution Gmo (200 crops)",
-       "cur": "14",
-       "goal": "116",
+       "cur": "71",
+       "goal": "127",
        "score": 133,
        "ready": false,
        "infinite": false
@@ -250,8 +228,19 @@
        "section": "Farming",
        "group": "Continue Farming",
        "label": "Stacks for Speed Gmo (1000 crops)",
-       "cur": "13",
-       "goal": "116",
+       "cur": "71",
+       "goal": "127",
+       "score": 133,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Farming",
+       "group": "Continue Farming",
+       "label": "Stacks for Value Gmo (10000 crops)",
+       "cur": "48",
+       "goal": "127",
        "score": 133,
        "ready": false,
        "infinite": false
@@ -838,7 +827,7 @@
      "job": "ZOWs + CHOWs W1-W6",
      "basis": "zack",
      "tiers": {
-      "Death Note": "15/23"
+      "Death Note": "16/23"
      },
      "subs": [
       {
@@ -849,8 +838,8 @@
          "locked": "",
          "section": "Death Note",
          "group": "Complete a minimum of Eclipse Skull (1B) in W4",
-         "label": "Choccie in Cocoa Tunnel (62M remaining)",
-         "cur": "94%",
+         "label": "Gelatinous Cuboid in Jelly Cube Bridge (134M remaining)",
+         "cur": "87%",
          "goal": "100%",
          "score": 127,
          "ready": false,
@@ -860,15 +849,15 @@
          "locked": "",
          "section": "Death Note",
          "group": "Complete a minimum of Eclipse Skull (1B) in W4",
-         "label": "Gelatinous Cuboid in Jelly Cube Bridge (134M remaining)",
-         "cur": "87%",
+         "label": "Flying Worm in Wurm Highway (392M remaining)",
+         "cur": "61%",
          "goal": "100%",
          "score": 127,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 5
+       "more": 4
       },
       {
        "name": "Death Note: Complete a minimum of Eclipse Skull (1B) in W5",
@@ -1007,7 +996,7 @@
          "group": "All kills for Autiszemo without a filter. Have fun",
          "label": "Poops in The Office",
          "cur": "",
-         "goal": "360,533",
+         "goal": "379,677",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -1017,17 +1006,6 @@
       }
      ],
      "next": [
-      {
-       "locked": "",
-       "section": "Death Note",
-       "group": "Complete a minimum of Eclipse Skull (1B) in W4",
-       "label": "Choccie in Cocoa Tunnel (62M remaining)",
-       "cur": "94%",
-       "goal": "100%",
-       "score": 127,
-       "ready": false,
-       "infinite": false
-      },
       {
        "locked": "",
        "section": "Death Note",
@@ -1049,6 +1027,17 @@
        "score": 127,
        "ready": false,
        "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Death Note",
+       "group": "Complete a minimum of Eclipse Skull (1B) in W4",
+       "label": "Soda Can in Mountainous Deugh (572M remaining)",
+       "cur": "43%",
+       "goal": "100%",
+       "score": 127,
+       "ready": false,
+       "infinite": false
       }
      ],
      "where": [
@@ -1064,7 +1053,7 @@
    ],
    "flags": [],
    "move": {
-    "text": "Farming: Nutritious Soil:+35/54% growth speed for all land 35 -> 54",
+    "text": "Farming: Stacks for Evolution Gmo (200 crops) 71 -> 127",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
@@ -1118,13 +1107,10 @@
     ]
    },
    "bags": [
-    "Inventory Bag D: 2 slots (Quest)",
-    "Inventory Bag H: 2 slots (Quest)",
-    "Peeper Pouch: 3 slots (Crafted)",
     "Loot Luggage: 1 slots (Vendor)"
    ],
    "park": {
-    "text": "W1 The Office (Poops) \u00b7 639,000 kills left, 36% done \u00b7 fewest kills left of 3 started targets",
+    "text": "W1 The Office (Poops) \u00b7 620,000 kills left, 38% done \u00b7 fewest kills left of 3 started targets",
     "src": "data rule (Zack-approved) on AutoReview Death Note"
    },
    "toward": {
@@ -1133,7 +1119,7 @@
     "priority_jobs": [
      "Cooking"
     ],
-    "rinse1": "Farming: Nutritious Soil:+35/54% growth speed for all land 35 -> 54 (score 133)",
+    "rinse1": "Farming: Stacks for Evolution Gmo (200 crops) 71 -> 127 (score 133)",
     "flag": ""
    },
    "today": [
@@ -1143,8 +1129,8 @@
      "src": "Toolbox timer"
     },
     {
-     "do": "FIRST (Farming, Zack's order): Nutritious Soil:+35/54% growth speed for all land 35 -> 54",
-     "done": "54",
+     "do": "FIRST (Farming, Zack's order): Stacks for Evolution Gmo (200 crops) 71 -> 127",
+     "done": "127",
      "src": "rinse within that job"
     },
     {
@@ -1171,11 +1157,11 @@
      "kind": "rinse",
      "steps": [
       "Collect all crops, replant",
-      "Farming: Push: Nutritious Soil:+35/54% growth speed for all land 35 -> 54",
+      "Farming: Push: Stacks for Evolution Gmo (200 crops) 71 -> 127",
       "Farming: Push: Medal Crop 20 chance8.6e+45 for 100% chance 0.00% -> 100%",
-      "Farming: Push: More Beenz:+74/1000% magic beans gained when trading in crops 37 -> 500",
+      "Farming: Push: More Beenz:+110/1000% magic beans gained when trading in crops 55 -> 500",
       "Beanstalk: Push: Golden Peanut: Smithing 6.36K -> 10K",
-      "Beanstalk: Push: Golden Peanut:Increases Mining Efficiency by 0/663.35%. 0 -> 3"
+      "Beanstalk: Push: Golden Peanut:Increases Mining Efficiency by 0/663.36%. 0 -> 3"
      ]
     },
     {
@@ -1216,7 +1202,7 @@
      "block": "ZOWs + CHOWs W1-W6",
      "kind": "rinse",
      "steps": [
-      "Push: Choccie in Cocoa Tunnel (62M remaining) 94% -> 100%",
+      "Push: Gelatinous Cuboid in Jelly Cube Bridge (134M remaining) 87% -> 100%",
       "Push: Crawler in Crawly Catacombs (384M remaining) 62% -> 100%",
       "Push: Baby Troll in Troll Playground (38M remaining) 96% -> 100%"
      ]
@@ -1245,19 +1231,19 @@
    "slot": 2,
    "name": "Autistocat",
    "class": "Arcane Cultist",
-   "level": 826,
+   "level": 830,
    "afk": {
     "text": "Active-first class (master class progress is active-only without its AFK mechanic). Runs Cranium Cooking active; plain AFK spot = GAP",
     "src": "Griffy N5yJ4-tZLbY 00:52 (2026-10-04)"
    },
    "save_map": "W7 map 311",
-   "money": 5.146944307486299e+29,
+   "money": 1.3941174052681106e+30,
    "jobs": [
     {
      "job": "Alchemy",
      "basis": "class",
      "tiers": {
-      "Bubbles": "5/12",
+      "Bubbles": "6/12",
       "Vials": "22/28",
       "Sigils": "1/8",
       "Pay2Win": "done"
@@ -1300,9 +1286,9 @@
          "locked": "",
          "section": "Bubbles",
          "group": "Level Orange sample-boosting bubbles",
-         "label": "Dream Of Ironfish",
-         "cur": "68",
-         "goal": "70",
+         "label": "Multorange",
+         "cur": "123",
+         "goal": "170",
          "score": 138,
          "ready": false,
          "infinite": false
@@ -1311,15 +1297,15 @@
          "locked": "",
          "section": "Bubbles",
          "group": "Level Orange sample-boosting bubbles",
-         "label": "Multorange",
-         "cur": "123",
+         "label": "Dream Of Ironfish",
+         "cur": "78",
          "goal": "170",
          "score": 138,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 7
+       "more": 8
       },
       {
        "name": "Bubbles: Level Green sample-boosting bubbles",
@@ -1474,10 +1460,10 @@
          "locked": "",
          "section": "Vials",
          "group": "Early Vial Goals",
-         "label": "Unlock 9 more vials",
-         "cur": "73",
+         "label": "Unlock 8 more vials",
+         "cur": "74",
          "goal": "82",
-         "score": 129,
+         "score": 0,
          "ready": false,
          "infinite": false
         },
@@ -1485,10 +1471,10 @@
          "locked": "",
          "section": "Vials",
          "group": "Early Vial Goals",
-         "label": "Unlock 13 more vials",
-         "cur": "73",
+         "label": "Unlock 12 more vials",
+         "cur": "74",
          "goal": "86",
-         "score": 65,
+         "score": 0,
          "ready": false,
          "infinite": false
         }
@@ -1504,7 +1490,7 @@
          "section": "Vials",
          "group": "Late Vial Goals",
          "label": "Max 52 total vials",
-         "cur": "48",
+         "cur": "49",
          "goal": "52",
          "score": 129,
          "ready": false,
@@ -1515,7 +1501,7 @@
          "section": "Vials",
          "group": "Late Vial Goals",
          "label": "Max 56 total vials",
-         "cur": "48",
+         "cur": "49",
          "goal": "56",
          "score": 129,
          "ready": false,
@@ -1532,8 +1518,8 @@
          "locked": "",
          "section": "Vials",
          "group": "Sources of bonus Vial Effect",
-         "label": "Total Vial Effect bonus: 4.52x",
-         "cur": "4.52x",
+         "label": "Total Vial Effect bonus: 4.56x",
+         "cur": "4.56x",
          "goal": "5.96x",
          "score": 0,
          "ready": false,
@@ -1543,8 +1529,8 @@
          "locked": "",
          "section": "Vials",
          "group": "Sources of bonus Vial Effect",
-         "label": "You have 48/84 maxed Vials",
-         "cur": "48",
+         "label": "You have 49/84 maxed Vials",
+         "cur": "49",
          "goal": "84",
          "score": 0,
          "ready": false,
@@ -1583,13 +1569,13 @@
        "more": 14
       },
       {
-       "name": "Sigils: Sources of Sigil Charging Speed. Grand total: 63.491x",
+       "name": "Sigils: Sources of Sigil Charging Speed. Grand total: 63.686x",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Sigils",
-         "group": "Sources of Sigil Charging Speed. Grand total: 63.491x",
+         "group": "Sources of Sigil Charging Speed. Grand total: 63.686x",
          "label": "Sigil: Level 1 Pea Pod: +100/4800%",
          "cur": "1",
          "goal": "5",
@@ -1600,7 +1586,7 @@
         {
          "locked": "",
          "section": "Sigils",
-         "group": "Sources of Sigil Charging Speed. Grand total: 63.491x",
+         "group": "Sources of Sigil Charging Speed. Grand total: 63.686x",
          "label": "Artifact: Chilled Yarn: 4/8x(Already applied to Pea Pod Sigil above)",
          "cur": "3",
          "goal": "7",
@@ -1617,17 +1603,6 @@
        "locked": "",
        "section": "Bubbles",
        "group": "Level Orange sample-boosting bubbles",
-       "label": "Dream Of Ironfish",
-       "cur": "68",
-       "goal": "70",
-       "score": 138,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Bubbles",
-       "group": "Level Orange sample-boosting bubbles",
        "label": "Multorange",
        "cur": "123",
        "goal": "170",
@@ -1640,8 +1615,19 @@
        "section": "Bubbles",
        "group": "Level Orange sample-boosting bubbles",
        "label": "Dream Of Ironfish",
-       "cur": "68",
+       "cur": "78",
        "goal": "170",
+       "score": 138,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Bubbles",
+       "group": "Level Orange sample-boosting bubbles",
+       "label": "Multorange",
+       "cur": "123",
+       "goal": "270",
        "score": 138,
        "ready": false,
        "infinite": false
@@ -2140,7 +2126,7 @@
     "Weekly killroy: not confirmed for week of ?"
    ],
    "move": {
-    "text": "Alchemy: Dream Of Ironfish 68 -> 70",
+    "text": "Alchemy: Multorange 123 -> 170",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [],
@@ -2206,9 +2192,6 @@
    },
    "bags": [
     "Inventory Bag D: 2 slots (Quest)",
-    "Inventory Bag H: 2 slots (Quest)",
-    "Peeper Pouch: 3 slots (Crafted)",
-    "Rucksack Of Riches: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
    ],
    "park": {
@@ -2219,12 +2202,12 @@
     "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
-    "rinse1": "Alchemy: Dream Of Ironfish 68 -> 70 (score 138)",
+    "rinse1": "Alchemy: Multorange 123 -> 170 (score 138)",
     "flag": ""
    },
    "today": [
     {
-     "do": "Alchemy: Dream Of Ironfish 68 -> 70",
+     "do": "Alchemy: Multorange 123 -> 170",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
     },
@@ -2240,12 +2223,12 @@
      "kind": "rinse",
      "steps": [
       "Liquids: Equinox Liquidvestment 5 -> 11 first (approved 11/16)",
-      "Bubbles: Push: Dream Of Ironfish 68 -> 70",
+      "Bubbles: Push: Multorange 123 -> 170",
       "Bubbles: Push: Premigreen 73 -> 270",
       "Bubbles: Push: Tree Sleeper 78 -> 160",
-      "Vials: Push: Unlock 9 more vials 73 -> 82",
-      "Vials: Push: Max 52 total vials 48 -> 52",
-      "Vials: Push: Total Vial Effect bonus: 4.52x 4.52x -> 5.96x",
+      "Vials: Push: Max 52 total vials 49 -> 52",
+      "Vials: Push: Unlock 8 more vials 74 -> 82",
+      "Vials: Push: Total Vial Effect bonus: 4.56x 4.56x -> 5.96x",
       "Sigils: Push: Level up Envelope Pile 24.22 -> 2500",
       "Sigils: Push: Sigil: Level 1 Pea Pod: +100/4800% 1 -> 5"
      ]
@@ -2329,13 +2312,13 @@
    "slot": 3,
    "name": "Autisticles",
    "class": "Siege Breaker",
-   "level": 844,
+   "level": 846,
    "afk": {
     "text": "His best kills/hr map: Melting Every Day turns AFK kills into forge progress (bars). Feeds Copper Bar 1B shortage. Exact map = GAP",
     "src": "Griffy ypb7kpQov30 00:01 (2026-08-03)"
    },
    "save_map": "W7 map 311",
-   "money": 3.804038517350666e+29,
+   "money": 1.314618886441248e+30,
    "jobs": [
     {
      "job": "Sailing",
@@ -2781,8 +2764,8 @@
          "locked": "",
          "section": "Sushi Station",
          "group": "Unique Sushi Bonuses",
-         "label": "Unique Sushi (consecutive tiers cooked): 6",
-         "cur": "6",
+         "label": "Unique Sushi (consecutive tiers cooked): 10",
+         "cur": "10",
          "goal": "64",
          "score": 0,
          "ready": false,
@@ -2792,7 +2775,7 @@
          "locked": "",
          "section": "Sushi Station",
          "group": "Unique Sushi Bonuses",
-         "label": "Unique Sushi #7: All Spelunk Shop upgrades are 30% cheaper",
+         "label": "Unique Sushi #11: All your breeding Mobs deal 2x damage when fighting",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -2800,7 +2783,7 @@
          "infinite": false
         }
        ],
-       "more": 57
+       "more": 53
       },
       {
        "name": "Luminous Menagerie: Shells",
@@ -2840,7 +2823,7 @@
          "section": "Luminous Menagerie",
          "group": "Missions",
          "label": "Mission 1: Reach a Total Account LV of 10,000",
-         "cur": "9029",
+         "cur": "9036",
          "goal": "10000",
          "score": 0,
          "ready": false,
@@ -3446,9 +3429,9 @@
      "kind": "rinse",
      "steps": [
       "Sushi Station: Push: Sushi Slot:Adds a new slot for your Sushi Station! 0 -> 50",
-      "Sushi Station: Push: Unique Sushi (consecutive tiers cooked): 6 6 -> 64",
+      "Sushi Station: Push: Unique Sushi (consecutive tiers cooked): 10 10 -> 64",
       "Luminous Menagerie: Push: Shells needed for Menagerie Rank 4 0 -> 3",
-      "Luminous Menagerie: Push: Mission 1: Reach a Total Account LV of 10,000 9029 -> 10000",
+      "Luminous Menagerie: Push: Mission 1: Reach a Total Account LV of 10,000 9036 -> 10000",
       "Luminous Menagerie: Push: Unlock 4: Unlock the Pink Jellyfish within the MenagerieThe Menagerie is located 0 -> 1",
       "Clam Work: Push: +1 Grade for 2 Gallery Slots 0 -> 1",
       "Jelly Operator: Push: Amoeba:Unlock the Amoeba Cell! Drag it from the Petri Dish onto any Jelly Slot,  0 -> 1",
@@ -3535,8 +3518,8 @@
     "text": "Cavern 15 Temple (Ancient Golems): Dragon Statue 4 -> 150 + golem card",
     "src": "AutoReview statue table"
    },
-   "save_map": "W5 map 216",
-   "money": 1.96158939104314e+29,
+   "save_map": "W5 map 200",
+   "money": 1.961589402218848e+29,
    "jobs": [
     {
      "job": "Construction",
@@ -3556,7 +3539,7 @@
          "section": "Buildings",
          "group": "S Tier",
          "label": "Kraken Cosplayer",
-         "cur": "80",
+         "cur": "81",
          "goal": "90",
          "score": 0,
          "ready": false,
@@ -3567,7 +3550,7 @@
          "section": "Buildings",
          "group": "S Tier",
          "label": "Poisonic Elder",
-         "cur": "69",
+         "cur": "70",
          "goal": "90",
          "score": 0,
          "ready": false,
@@ -3585,7 +3568,7 @@
          "section": "Buildings",
          "group": "A Tier",
          "label": "Stormcaller",
-         "cur": "88",
+         "cur": "89",
          "goal": "90",
          "score": 0,
          "ready": false,
@@ -3643,7 +3626,7 @@
          "section": "Buildings",
          "group": "C Tier",
          "label": "Voidinator",
-         "cur": "43",
+         "cur": "44",
          "goal": "240",
          "score": 0,
          "ready": false,
@@ -3654,7 +3637,7 @@
          "section": "Buildings",
          "group": "C Tier",
          "label": "Atom Collider",
-         "cur": "18",
+         "cur": "19",
          "goal": "200",
          "score": 0,
          "ready": false,
@@ -3769,8 +3752,8 @@
          "locked": "",
          "section": "Atom Collider",
          "group": "Sources of Atom Collider Cost Reduction",
-         "label": "Atom Collider building: 1.8/20.0%",
-         "cur": "18",
+         "label": "Atom Collider building: 1.9/20.0%",
+         "cur": "19",
          "goal": "200",
          "score": 0,
          "ready": false,
@@ -3943,22 +3926,22 @@
          "locked": "",
          "section": "Gaming",
          "group": "Snail Ranks",
-         "label": "Step 2: Choose a safety level. 90.0% safety = 12 unspent mail",
-         "cur": "1",
-         "goal": "12",
+         "label": "Current Snail Rank: 13",
+         "cur": "13",
+         "goal": "49",
          "score": 0,
-         "ready": true,
+         "ready": false,
          "infinite": false
         },
         {
          "locked": "",
          "section": "Gaming",
          "group": "Snail Ranks",
-         "label": "Step 2: Choose a safety level. 95.0% safety = 18 unspent mail",
-         "cur": "1",
-         "goal": "18",
+         "label": "Step 2: Choose a safety level. 90.0% safety = 12 unspent mail",
+         "cur": "0",
+         "goal": "12",
          "score": 0,
-         "ready": true,
+         "ready": false,
          "infinite": false
         }
        ],
@@ -3970,11 +3953,22 @@
        "locked": "",
        "section": "Gaming",
        "group": "Snail Ranks",
+       "label": "Current Snail Rank: 13",
+       "cur": "13",
+       "goal": "49",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Gaming",
+       "group": "Snail Ranks",
        "label": "Step 2: Choose a safety level. 90.0% safety = 12 unspent mail",
-       "cur": "1",
+       "cur": "0",
        "goal": "12",
        "score": 0,
-       "ready": true,
+       "ready": false,
        "infinite": false
       },
       {
@@ -3982,21 +3976,10 @@
        "section": "Gaming",
        "group": "Snail Ranks",
        "label": "Step 2: Choose a safety level. 95.0% safety = 18 unspent mail",
-       "cur": "1",
+       "cur": "0",
        "goal": "18",
        "score": 0,
-       "ready": true,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Gaming",
-       "group": "Snail Ranks",
-       "label": "Step 2: Choose a safety level. 99.0% safety = 36 unspent mail",
-       "cur": "1",
-       "goal": "36",
-       "score": 0,
-       "ready": true,
+       "ready": false,
        "infinite": false
       }
      ],
@@ -4828,13 +4811,12 @@
     "Weekly killroy: not confirmed for week of ?"
    ],
    "move": {
-    "text": "Gaming: Step 2: Choose a safety level. 90.0% safety = 12 unspent mail 1 -> 12",
+    "text": "Statue: Dragon (AFK golems): Level up Dragon Statue: AFK Cavern 15 4 -> 150",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
     "READY (Toolbox): Dr Defecaus Up \u00b7 Killed \u00b7 boss/miniboss (minibosses only when stored at max)",
-    "READY (Toolbox): Closest building Ready",
-    "Gaming / Snail Ranks: Step 2: Choose a safety level. 90.0% safety = 12 unspent mail (1 / 12) +2 more ready"
+    "READY (Toolbox): Closest building Ready"
    ],
    "active": [],
    "locked": [
@@ -4871,7 +4853,6 @@
    },
    "bags": [
     "Inventory Bag D: 2 slots (Quest)",
-    "Inventory Bag H: 2 slots (Quest)",
     "Loot Luggage: 1 slots (Vendor)"
    ],
    "park": {
@@ -4897,14 +4878,9 @@
      "src": "Toolbox timer"
     },
     {
-     "do": "Gaming: Step 2: Choose a safety level. 90.0% safety = 12 unspent mail 1 -> 12",
+     "do": "Statue: Dragon (AFK golems): Level up Dragon Statue: AFK Cavern 15 4 -> 150",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
-    },
-    {
-     "do": "Gaming: Step 2: Choose a safety level. 90.0% safety = 12 unspent mail",
-     "done": "12",
-     "src": "AutoReview (ready now), +2 more"
     }
    ],
    "daily": [
@@ -4920,8 +4896,8 @@
      "block": "Construction",
      "kind": "rinse",
      "steps": [
-      "Buildings: Push: Kraken Cosplayer 80 -> 90",
-      "Buildings: Push: Stormcaller 88 -> 90",
+      "Buildings: Push: Kraken Cosplayer 81 -> 90",
+      "Buildings: Push: Stormcaller 89 -> 90",
       "Buildings: Push: Woodular Shrine 142 -> 200",
       "Atom Collider: Push: Helium - Talent Power Stacker 8 -> 9",
       "Atom Collider: Push: Helium - Talent Power Stacker: All talents that give more bonus per 'Power of 10 8 -> 40",
@@ -4935,8 +4911,7 @@
      "block": "Gaming",
      "kind": "rinse",
      "steps": [
-      "Step 2: Choose a safety level. 90.0% safety = 12 unspent mail (1 / 12) READY",
-      "Step 2: Choose a safety level. 95.0% safety = 18 unspent mail (1 / 18) READY"
+      "Push: Current Snail Rank: 13 13 -> 49"
      ]
     },
     {
@@ -5037,7 +5012,7 @@
     "src": "AutoReview statue table"
    },
    "save_map": "W3 map 108",
-   "money": 1.53285377161748e+30,
+   "money": 1.5328724778184807e+30,
    "jobs": [
     {
      "job": "Worship: souls + prayers (town)",
@@ -5339,7 +5314,7 @@
          "section": "Villagers",
          "group": "Level 27 Kaipu, The Engineer",
          "label": "Next level progress",
-         "cur": "3.7%",
+         "cur": "4.0%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -5368,7 +5343,7 @@
          "section": "Villagers",
          "group": "Level 34 Cosmos, The Conjuror",
          "label": "Next level progress",
-         "cur": "2.0%",
+         "cur": "2.3%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -5397,7 +5372,7 @@
          "section": "Villagers",
          "group": "Level 16 Minau, The Measurer",
          "label": "Next level progress",
-         "cur": "19.5%",
+         "cur": "19.6%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -5415,7 +5390,7 @@
          "section": "Villagers",
          "group": "Level 69 Bolaia, The Librarian",
          "label": "Next level progress",
-         "cur": "44.0%",
+         "cur": "44.4%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -5509,7 +5484,7 @@
          "section": "Shallow Caverns",
          "group": "Cavern 4- Bravery Monument",
          "label": "300 hour bonus: You can Re-Throw 5 swords per story",
-         "cur": "166",
+         "cur": "194",
          "goal": "300",
          "score": 0,
          "ready": false,
@@ -5520,7 +5495,7 @@
          "section": "Shallow Caverns",
          "group": "Cavern 4- Bravery Monument",
          "label": "750 hour bonus: +1 additional Sword",
-         "cur": "166",
+         "cur": "194",
          "goal": "750",
          "score": 0,
          "ready": false,
@@ -6147,8 +6122,6 @@
    },
    "bags": [
     "Inventory Bag D: 2 slots (Quest)",
-    "Inventory Bag H: 2 slots (Quest)",
-    "Peeper Pouch: 3 slots (Crafted)",
     "Rucksack Of Riches: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
    ],
@@ -6270,13 +6243,13 @@
    "slot": 6,
    "name": "Autistacular",
    "class": "Wind Walker",
-   "level": 855,
+   "level": 856,
    "afk": {
     "text": "W7: push the cave until his tasks are planned",
     "src": "zack"
    },
-   "save_map": "W1 map 1",
-   "money": 2.4590979871868376e+30,
+   "save_map": "W7 map 311",
+   "money": 2.6179856997027133e+30,
    "jobs": [
     {
      "job": "Sneaking",
@@ -6462,8 +6435,8 @@
          "locked": "",
          "section": "Breeding",
          "group": "Sources of Shiny Pet Level Rate",
-         "label": "Farming Crop Depot - Crayon:+1522.5/4019.4% Mobs",
-         "cur": "125",
+         "label": "Farming Crop Depot - Crayon:+1668.66/4019.4% Mobs",
+         "cur": "137",
          "goal": "330",
          "score": 0,
          "ready": false,
@@ -7078,8 +7051,6 @@
    },
    "bags": [
     "Inventory Bag D: 2 slots (Quest)",
-    "Inventory Bag H: 2 slots (Quest)",
-    "Peeper Pouch: 3 slots (Crafted)",
     "Rucksack Of Riches: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
    ],
@@ -7143,7 +7114,7 @@
      "kind": "rinse",
      "steps": [
       "Push: Bonuses from All Meals: Sheepie88.77 base days to level 5 -> 13",
-      "Push: Farming Crop Depot - Crayon:+1522.5/4019.4% Mobs 125 -> 330",
+      "Push: Farming Crop Depot - Crayon:+1668.66/4019.4% Mobs 137 -> 330",
       "Lever on Autistronaut: Hyperion Nebula- Demon Genie card:+90/105% Crystal Mob Spawn",
       "Push: Total Heart VII+ pets 0 -> 68",
       "Push: Breeding Upgrade - Blooming Axe: +12% 2 -> 10"
@@ -7232,11 +7203,13 @@
       "Trapping 69/70 (Autistastic)",
       "Worship 96/101 (Autistastic)",
       "Cooking 17/62 (Autiszemo)",
-      "Laboratory 243/252 (Autistocat)",
+      "Laboratory 251/252 (Autistocat)",
+      "Sailing 144/145 (Autisticles)",
       "Divinity 193/196 (Autistocat)",
+      "Gaming 205/207 (Autistastic)",
+      "Farming 209/212 (Autistocat)",
       "Sneaking 286/296 (Autistomatic)",
-      "Spelunking 17/30 (Autistronaut)",
-      "Research 19/23 (Autistacular)"
+      "Spelunking 17/30 (Autistronaut)"
      ]
     },
     {
@@ -7312,7 +7285,7 @@
          "locked": "",
          "section": "Research",
          "group": "Posty Notes",
-         "label": "Adds a new shape to your Research Grid, which boosts the bonuses of all squares it touches!",
+         "label": "Adds another shape to your Research Grid! Keep in mind, each grid upgrade can only be boosted by one shape at a time. No point in overlapping shapes!",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -7323,7 +7296,7 @@
          "locked": "",
          "section": "Research",
          "group": "Posty Notes",
-         "label": "Adds another shape to your Research Grid! Keep in mind, each grid upgrade can only be boosted by one shape at a time. No point in overlapping shapes!",
+         "label": "You can now place TWO magnifiers on the same Observation!",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -7331,7 +7304,7 @@
          "infinite": false
         }
        ],
-       "more": 11
+       "more": 10
       }
      ],
      "next": [
@@ -7384,7 +7357,7 @@
      "job": "Greenstacks",
      "basis": "light",
      "tiers": {
-      "Greenstacks": "166 out of max (realistic) 452",
+      "Greenstacks": "169 out of max (realistic) 452",
       "Endangered Greenstacks": "0/1"
      },
      "subs": [
@@ -7397,7 +7370,7 @@
          "section": "Greenstacks",
          "group": "Collect Greenstacks to complete Equinox Dreams",
          "label": "Collect 200 Greenstacks",
-         "cur": "166",
+         "cur": "169",
          "goal": "200",
          "score": 129,
          "ready": false,
@@ -7570,8 +7543,8 @@
          "locked": "",
          "section": "Greenstacks",
          "group": "Difficulty Group 7 Item recommendations",
-         "label": "Small Mana Potion",
-         "cur": "97%",
+         "label": "Average Strength Potion",
+         "cur": "62%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -7581,15 +7554,15 @@
          "locked": "",
          "section": "Greenstacks",
          "group": "Difficulty Group 7 Item recommendations",
-         "label": "Average Strength Potion",
-         "cur": "62%",
+         "label": "Frigid Soul",
+         "cur": "66%",
          "goal": "100%",
          "score": 0,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 3
+       "more": 2
       },
       {
        "name": "Greenstacks: Difficulty Group 8 Item recommendations",
@@ -7611,7 +7584,7 @@
          "section": "Greenstacks",
          "group": "Difficulty Group 8 Item recommendations",
          "label": "Squishy Soul",
-         "cur": "12%",
+         "cur": "11%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -7676,7 +7649,7 @@
          "infinite": false
         }
        ],
-       "more": 11
+       "more": 10
       },
       {
        "name": "Greenstacks: Difficulty Group 11 Item recommendations",
@@ -7698,7 +7671,7 @@
          "section": "Greenstacks",
          "group": "Difficulty Group 11 Item recommendations",
          "label": "Godshard Bar",
-         "cur": "18%",
+         "cur": "19%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -7734,7 +7707,7 @@
          "infinite": false
         }
        ],
-       "more": 51
+       "more": 50
       },
       {
        "name": "Greenstacks: Difficulty Group 13 Item recommendations",
@@ -7860,8 +7833,8 @@
          "locked": "",
          "section": "Endangered Greenstacks",
          "group": "Still obtainable",
-         "label": "Claiming Cashe- Goldric: Only Winners have Portraits",
-         "cur": "0%",
+         "label": "Monster Rating- XxX_Cattleprod_XxX: Ok, NOW it's Peak Gaming!",
+         "cur": "6%",
          "goal": "100%",
          "score": 129,
          "ready": false,
@@ -7871,7 +7844,7 @@
          "locked": "",
          "section": "Endangered Greenstacks",
          "group": "Still obtainable",
-         "label": "Triumphant Treason- Goldric: Only Winners have Portraits",
+         "label": "Employment Statistics- TP Pete: The Rats are to Blame!",
          "cur": "0%",
          "goal": "100%",
          "score": 129,
@@ -7888,7 +7861,7 @@
        "section": "Greenstacks",
        "group": "Collect Greenstacks to complete Equinox Dreams",
        "label": "Collect 200 Greenstacks",
-       "cur": "166",
+       "cur": "169",
        "goal": "200",
        "score": 129,
        "ready": false,
@@ -7910,7 +7883,7 @@
        "section": "Greenstacks",
        "group": "Collect Greenstacks to complete Equinox Dreams",
        "label": "Collect 250 Greenstacks",
-       "cur": "166",
+       "cur": "169",
        "goal": "250",
        "score": 129,
        "ready": false,
@@ -7931,7 +7904,7 @@
      "job": "Gem / Event shops + votes",
      "basis": "light",
      "tiers": {
-      "Gem Shop": "270/406",
+      "Gem Shop": "271/406",
       "Event Shop": "untiered",
       "Bonus Ballot": "untiered",
       "Meritocracy": "untiered"
@@ -8275,7 +8248,7 @@
    ],
    "flags": [],
    "move": {
-    "text": "Greenstacks: Collect 200 Greenstacks 166 -> 200",
+    "text": "Greenstacks: Collect 200 Greenstacks 169 -> 200",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [],
@@ -8340,8 +8313,6 @@
    },
    "bags": [
     "Inventory Bag D: 2 slots (Quest)",
-    "Inventory Bag H: 2 slots (Quest)",
-    "Peeper Pouch: 3 slots (Crafted)",
     "Loot Luggage: 1 slots (Vendor)"
    ],
    "park": {
@@ -8352,12 +8323,12 @@
     "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
-    "rinse1": "Greenstacks: Collect 200 Greenstacks 166 -> 200 (score 129)",
+    "rinse1": "Greenstacks: Collect 200 Greenstacks 169 -> 200 (score 129)",
     "flag": ""
    },
    "today": [
     {
-     "do": "Greenstacks: Collect 200 Greenstacks 166 -> 200",
+     "do": "Greenstacks: Collect 200 Greenstacks 169 -> 200",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
     },
@@ -8386,17 +8357,17 @@
      "steps": [
       "Push: Cellular Warfare (F3):Multiplies all damage dealt by your cells during operation 0 -> 4",
       "Push: Corange Coral (Doodle Reef)Found in World 7, growing among the doodlefish 0 -> 1",
-      "Push: Adds a new shape to your Research Grid, which boosts the bonuses of all squares  0 -> 1"
+      "Push: Adds another shape to your Research Grid! Keep in mind, each grid upgrade can on 0 -> 1"
      ]
     },
     {
      "block": "Greenstacks",
      "kind": "rinse",
      "steps": [
-      "Greenstacks: Push: Collect 200 Greenstacks 166 -> 200",
+      "Greenstacks: Push: Collect 200 Greenstacks 169 -> 200",
       "Greenstacks: Push: Potent Strength Potion (W4 Town) 43% -> 100%",
       "Greenstacks: Push: Glublin Ear 77% -> 100%",
-      "Endangered Greenstacks: Push: Claiming Cashe- Goldric: Only Winners have Portraits 0% -> 100%"
+      "Endangered Greenstacks: Push: Monster Rating- XxX_Cattleprod_XxX: Ok, NOW it's Peak Gaming! 6% -> 100%"
      ]
     },
     {
@@ -8434,8 +8405,8 @@
    "class": "Royal Guardian",
    "level": 823,
    "afk": {
-    "text": "W3 snakes map (statue work, Zack's call)",
-    "src": "zack"
+    "text": "W7 Spelunking: furthest tunnel (RG perks help spelunking; Pulse: Pit of Pages works for RGs)",
+    "src": "zack + Pulse 6JgdYbiEKus 24:00"
    },
    "save_map": "W7 map 304",
    "money": 3.95892558822949e+24,
@@ -8622,6 +8593,118 @@
      "next": [],
      "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
+    },
+    {
+     "job": "Spelunking",
+     "basis": "zack",
+     "tiers": {
+      "Spelunking": "untiered"
+     },
+     "subs": [
+      {
+       "name": "Spelunking: Cave Bonuses",
+       "state": "open",
+       "items": [
+        {
+         "locked": "",
+         "section": "Spelunking",
+         "group": "Cave Bonuses",
+         "label": "Sedimeadow:Superbits in Gaming now has a 2nd page full of new upgrades!",
+         "cur": "0",
+         "goal": "1",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "locked": "",
+         "section": "Spelunking",
+         "group": "Cave Bonuses",
+         "label": "Rustbelt 03:Cards can now be upgraded to 6-Star Majestic quality!",
+         "cur": "0",
+         "goal": "1",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 7
+      },
+      {
+       "name": "Spelunking: tabbed",
+       "state": "open",
+       "items": [
+        {
+         "locked": "",
+         "section": "Spelunking",
+         "group": "tabbed",
+         "label": "Level 23: +22.48/1000% Total Spelunking EfficiencyRequired pages: 2000",
+         "cur": "2.25%",
+         "goal": "100%",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "locked": "",
+         "section": "Spelunking",
+         "group": "tabbed",
+         "label": "Level 0: +0/30% Faster Spelunking SpeedRequired pages: 25000",
+         "cur": "0.00%",
+         "goal": "100%",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 22
+      }
+     ],
+     "next": [
+      {
+       "locked": "",
+       "section": "Spelunking",
+       "group": "Cave Bonuses",
+       "label": "Sedimeadow:Superbits in Gaming now has a 2nd page full of new upgrades!",
+       "cur": "0",
+       "goal": "1",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Spelunking",
+       "group": "Cave Bonuses",
+       "label": "Rustbelt 03:Cards can now be upgraded to 6-Star Majestic quality!",
+       "cur": "0",
+       "goal": "1",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Spelunking",
+       "group": "Cave Bonuses",
+       "label": "Blushpit:Unlocks the Exotic Market tab & Medal seed type in Farming!",
+       "cur": "0",
+       "goal": "1",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      }
+     ],
+     "note": "Zack 11/18: RG perks help spelunking (moved from Autistronaut)",
+     "where": [
+      {
+       "system": "spelunk",
+       "toolbox": [
+        "world-7/spelunking"
+       ],
+       "sources": "90 tagged / 236 chunks"
+      }
+     ]
     }
    ],
    "flags": [],
@@ -8677,15 +8760,12 @@
    },
    "bags": [
     "Inventory Bag D: 2 slots (Quest)",
-    "Inventory Bag H: 2 slots (Quest)",
-    "Sack Of Success: 2 slots (Vendor)",
-    "Peeper Pouch: 3 slots (Crafted)",
     "Rucksack Of Riches: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
    ],
    "park": {
-    "text": "W3 snakes map (statue work, Zack's call)",
-    "src": "zack"
+    "text": "W7 Spelunking: furthest tunnel (RG perks help spelunking; Pulse: Pit of Pages works for RGs)",
+    "src": "zack + Pulse 6JgdYbiEKus 24:00"
    },
    "toward": {
     "first": null,
@@ -8748,6 +8828,14 @@
      ]
     },
     {
+     "block": "Spelunking",
+     "kind": "rinse",
+     "steps": [
+      "Push: Sedimeadow:Superbits in Gaming now has a 2nd page full of new upgrades! 0 -> 1",
+      "Push: Level 23: +22.48/1000% Total Spelunking EfficiencyRequired pages: 2000 2.25% -> 100%"
+     ]
+    },
+    {
      "block": "Unlock: Royal Guardian x2",
      "kind": "unlock",
      "steps": [
@@ -8763,11 +8851,11 @@
    "class": "Elemental Sorcerer",
    "level": 830,
    "afk": {
-    "text": "W7 Spelunking tunnels (Spelunking levels)",
-    "src": "fan (DigitalTQ), unverified"
+    "text": "AFK spot = GAP (was spelunking; moved to Autistomatic 11/18)",
+    "src": "zack"
    },
    "save_map": "W3 map 111",
-   "money": 4.45048903019675e+29,
+   "money": 4.4507206449617656e+29,
    "jobs": [
     {
      "job": "Cards",
@@ -8832,7 +8920,7 @@
          "section": "Cards",
          "group": "Easy Resources: Collect 1 more cards for Ruby (77/78)",
          "label": "Fire Forge:+20/28% Smithing EXP (Passive)",
-         "cur": "3,751",
+         "cur": "3,701",
          "goal": "Ruby",
          "score": 0,
          "ready": false,
@@ -8926,7 +9014,7 @@
          "section": "Cards",
          "group": "Hyperion Nebula: Collect 9 more cards for Ruby (75/84)",
          "label": "Choccie:+12.5/17.5 Weapon Power",
-         "cur": "1,559",
+         "cur": "1,155",
          "goal": "Ruby",
          "score": 0,
          "ready": false,
@@ -8955,7 +9043,7 @@
          "section": "Cards",
          "group": "Smolderin' Plateau: Collect 5 more cards for Platinum (80/85)",
          "label": "Ancient Golem:+8/28% Total Drop Rate (Passive)",
-         "cur": "9,761",
+         "cur": "7,607",
          "goal": "Silver",
          "score": 0,
          "ready": false,
@@ -9257,117 +9345,6 @@
      "next": [],
      "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
-    },
-    {
-     "job": "Spelunking (until an RG takes it)",
-     "basis": "zack",
-     "tiers": {
-      "Spelunking": "untiered"
-     },
-     "subs": [
-      {
-       "name": "Spelunking: Cave Bonuses",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Spelunking",
-         "group": "Cave Bonuses",
-         "label": "Sedimeadow:Superbits in Gaming now has a 2nd page full of new upgrades!",
-         "cur": "0",
-         "goal": "1",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Spelunking",
-         "group": "Cave Bonuses",
-         "label": "Rustbelt 03:Cards can now be upgraded to 6-Star Majestic quality!",
-         "cur": "0",
-         "goal": "1",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 7
-      },
-      {
-       "name": "Spelunking: tabbed",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Spelunking",
-         "group": "tabbed",
-         "label": "Level 0: +0/1000% Total Spelunking EfficiencyRequired pages: 2000",
-         "cur": "0.00%",
-         "goal": "100%",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Spelunking",
-         "group": "tabbed",
-         "label": "Level 0: +0/30% Faster Spelunking SpeedRequired pages: 25000",
-         "cur": "0.00%",
-         "goal": "100%",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 22
-      }
-     ],
-     "next": [
-      {
-       "locked": "",
-       "section": "Spelunking",
-       "group": "Cave Bonuses",
-       "label": "Sedimeadow:Superbits in Gaming now has a 2nd page full of new upgrades!",
-       "cur": "0",
-       "goal": "1",
-       "score": 0,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Spelunking",
-       "group": "Cave Bonuses",
-       "label": "Rustbelt 03:Cards can now be upgraded to 6-Star Majestic quality!",
-       "cur": "0",
-       "goal": "1",
-       "score": 0,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Spelunking",
-       "group": "Cave Bonuses",
-       "label": "Blushpit:Unlocks the Exotic Market tab & Medal seed type in Farming!",
-       "cur": "0",
-       "goal": "1",
-       "score": 0,
-       "ready": false,
-       "infinite": false
-      }
-     ],
-     "where": [
-      {
-       "system": "spelunk",
-       "toolbox": [
-        "world-7/spelunking"
-       ],
-       "sources": "90 tagged / 236 chunks"
-      }
-     ]
     }
    ],
    "flags": [
@@ -9433,14 +9410,11 @@
    },
    "bags": [
     "Inventory Bag D: 2 slots (Quest)",
-    "Inventory Bag G: 2 slots (Dropped)",
-    "Inventory Bag H: 2 slots (Quest)",
-    "Bummo Bag: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
    ],
    "park": {
-    "text": "W7 Spelunking tunnels (Spelunking levels)",
-    "src": "fan (DigitalTQ), unverified"
+    "text": "AFK spot = GAP (was spelunking; moved to Autistomatic 11/18)",
+    "src": "zack"
    },
    "toward": {
     "first": null,
@@ -9463,7 +9437,7 @@
      "steps": [
       "Lever on Autistopher: Stamps - Card Stamp: +250% Card Drop Rate",
       "Push: Bandit Bob:+5/7% Money from Monsters 175 -> Ruby",
-      "Push: Fire Forge:+20/28% Smithing EXP (Passive) 3,751 -> Ruby"
+      "Push: Fire Forge:+20/28% Smithing EXP (Passive) 3,701 -> Ruby"
      ]
     },
     {
@@ -9478,14 +9452,6 @@
      "kind": "rinse",
      "steps": [
       "No rinse data: no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
-     ]
-    },
-    {
-     "block": "Spelunking (until an RG takes it)",
-     "kind": "rinse",
-     "steps": [
-      "Push: Sedimeadow:Superbits in Gaming now has a 2nd page full of new upgrades! 0 -> 1",
-      "Push: Level 0: +0/1000% Total Spelunking EfficiencyRequired pages: 2000 0.00% -> 100%"
      ]
     },
     {
@@ -9540,14 +9506,14 @@
     "src": "griffy",
     "park_rule": "Super CHOWs with Autistopher"
    },
-   "save_map": "W5 map 211",
-   "money": 1.43527014742571e+29,
+   "save_map": "W4 map 158",
+   "money": 1.4417428774521093e+29,
    "jobs": [
     {
      "job": "Super CHOWs (cooking speed 1.1x each, count only on him)",
      "basis": "griffy",
      "tiers": {
-      "Death Note": "15/23"
+      "Death Note": "16/23"
      },
      "subs": [
       {
@@ -9580,13 +9546,13 @@
        "more": 19
       },
       {
-       "name": "Death Note: Complete 1 more Super CHOW with Autistopher (14/15)",
+       "name": "Death Note: Complete 11 more Super CHOWs with Autistopher (15/26)",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Death Note",
-         "group": "Complete 1 more Super CHOW with Autistopher (14/15)",
+         "group": "Complete 11 more Super CHOWs with Autistopher (15/26)",
          "label": "Red Mushroom in Birch Enclave (100M remaining)",
          "cur": "0%",
          "goal": "100%",
@@ -9597,7 +9563,7 @@
         {
          "locked": "",
          "section": "Death Note",
-         "group": "Complete 1 more Super CHOW with Autistopher (14/15)",
+         "group": "Complete 11 more Super CHOWs with Autistopher (15/26)",
          "label": "Baby Boa in Winding Willows (100M remaining)",
          "cur": "0%",
          "goal": "100%",
@@ -9606,7 +9572,7 @@
          "infinite": false
         }
        ],
-       "more": 94
+       "more": 93
       },
       {
        "name": "Death Note: Complete 76 more WOWs with Autistopher (4/80)",
@@ -9671,7 +9637,7 @@
       {
        "locked": "",
        "section": "Death Note",
-       "group": "Complete 1 more Super CHOW with Autistopher (14/15)",
+       "group": "Complete 11 more Super CHOWs with Autistopher (15/26)",
        "label": "Red Mushroom in Birch Enclave (100M remaining)",
        "cur": "0%",
        "goal": "100%",
@@ -9682,7 +9648,7 @@
       {
        "locked": "",
        "section": "Death Note",
-       "group": "Complete 1 more Super CHOW with Autistopher (14/15)",
+       "group": "Complete 11 more Super CHOWs with Autistopher (15/26)",
        "label": "Baby Boa in Winding Willows (100M remaining)",
        "cur": "0%",
        "goal": "100%",
@@ -9693,7 +9659,7 @@
       {
        "locked": "",
        "section": "Death Note",
-       "group": "Complete 1 more Super CHOW with Autistopher (14/15)",
+       "group": "Complete 11 more Super CHOWs with Autistopher (15/26)",
        "label": "Glublin in Forest Outskirts (100M remaining)",
        "cur": "0%",
        "goal": "100%",
@@ -10444,7 +10410,7 @@
          "section": "Owl",
          "group": "Collect Mega Feathers and Bonuses of Orion",
          "label": "MF21: Restart 28 times first",
-         "cur": "12",
+         "cur": "13",
          "goal": "28",
          "score": 63,
          "ready": false,
@@ -10471,7 +10437,7 @@
        "section": "Owl",
        "group": "Collect Mega Feathers and Bonuses of Orion",
        "label": "MF21: Restart 28 times first",
-       "cur": "12",
+       "cur": "13",
        "goal": "28",
        "score": 63,
        "ready": false,
@@ -10708,14 +10674,12 @@
    },
    "bags": [
     "Inventory Bag D: 2 slots (Quest)",
-    "Inventory Bag G: 2 slots (Dropped)",
-    "Inventory Bag H: 2 slots (Quest)",
     "Rucksack Of Riches: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
    ],
    "park": {
-    "text": "His own Super CHOWs (100M)",
-    "src": "griffy"
+    "text": "W3 Wam Wonderland (Dedotated Ram) \u00b7 7,000,000 kills left, 93% done \u00b7 fewest kills left of 28 started targets",
+    "src": "data rule (Zack-approved) on AutoReview Death Note"
    },
    "toward": {
     "first": null,
@@ -10734,9 +10698,9 @@
      "src": "Toolbox timer \u00b7 books ready: max-first talents per card"
     },
     {
-     "do": "PRIORITY (Cooking speed): Super CHOWs (cooking speed 1.1x each, count only on him) at PARK: His own Super CHOWs (100M)",
+     "do": "PRIORITY (Cooking speed): Super CHOWs (cooking speed 1.1x each, count only on him) at PARK: W3 Wam Wonderland (Dedotated Ram)",
      "done": "target cleared, then next fewest-left",
-     "src": "griffy"
+     "src": "data rule (Zack-approved) on AutoReview Death Note"
     },
     {
      "do": "Stamps: Total Stamp Levels 9565 -> 11000",
@@ -10825,7 +10789,7 @@
      "block": "Clickers: Owl, Bubba, Poppy (all three)",
      "kind": "rinse",
      "steps": [
-      "Push: MF21: Restart 28 times first 12 -> 28"
+      "Push: MF21: Restart 28 times first 13 -> 28"
      ]
     },
     {
@@ -11047,7 +11011,7 @@
          "section": "Cape Vine",
          "group": "Golden Vines",
          "label": "Golden Vines: 1Ask Cathie for the next one at class Lv 1000",
-         "cur": "855",
+         "cur": "856",
          "goal": "1000",
          "score": 0,
          "ready": false,
@@ -11359,12 +11323,7 @@
    "talents": {},
    "bags": [
     "Inventory Bag D: 2 slots (Quest)",
-    "Inventory Bag G: 2 slots (Dropped)",
-    "Inventory Bag H: 2 slots (Quest)",
-    "Blunderbag: 4 slots (Crafted)",
-    "Sandy Satchel: 4 slots (Crafted)",
     "Sack Of Success: 2 slots (Vendor)",
-    "Treasure Totebag: 1 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
    ],
    "park": {
@@ -11443,7 +11402,7 @@
       "Gallery: Push: Riftwalker Nametag70.5% Xp From MonstersLevel Multi: 1x 1 -> 5",
       "Cape Vine: Push: Angel Wings+11% All Afk GainNot deposited 0 -> 1",
       "Cape Vine: Push: +1% Cape Vine Multi per deposited cape: +13% 13 -> 23",
-      "Cape Vine: Push: Golden Vines: 1Ask Cathie for the next one at class Lv 1000 855 -> 1000"
+      "Cape Vine: Push: Golden Vines: 1Ask Cathie for the next one at class Lv 1000 856 -> 1000"
      ]
     },
     {
@@ -11472,19 +11431,19 @@
  ],
  "account": {
   "money": {
-   "total": 6.801531345073541e+30,
+   "total": 8.804841854228898e+30,
    "bank": 0,
    "per_char": {
-    "Autiszemo": 9.909823350889128e+29,
-    "Autistocat": 5.146944307486299e+29,
-    "Autisticles": 3.804038517350666e+29,
-    "Autistastic": 1.96158939104314e+29,
-    "Autistabish": 1.53285377161748e+30,
-    "Autistacular": 2.4590979871868376e+30,
+    "Autiszemo": 1.021077980705019e+30,
+    "Autistocat": 1.3941174052681106e+30,
+    "Autisticles": 1.314618886441248e+30,
+    "Autistastic": 1.961589402218848e+29,
+    "Autistabish": 1.5328724778184807e+30,
+    "Autistacular": 2.6179856997027133e+30,
     "Autistotle": 1.22759899108663e+29,
     "Autistomatic": 3.95892558822949e+24,
-    "Autistronaut": 4.45048903019675e+29,
-    "Autistopher": 1.43527014742571e+29,
+    "Autistronaut": 4.4507206449617656e+29,
+    "Autistopher": 1.4417428774521093e+29,
     "Autistachio": 1.60002537958031e+28
    },
    "holder": "Autistacular"

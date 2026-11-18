@@ -86,8 +86,8 @@ characters:
       - {job: Research, sections: [Research], basis: zack, note: "Gates W7 minis (Sushi, Jelly). The Maw G7 0 -> 4 = artifact finds"}
       - {job: Greenstacks, sections: [Greenstacks, Endangered Greenstacks], basis: light}
       - {job: "Gem / Event shops + votes", sections: [Gem Shop, Event Shop, Bonus Ballot, Meritocracy], basis: light}
-  Autistomatic:   # Divine Knight #2
-    afk: {text: "W3 snakes map (statue work, Zack's call)", src: zack}
+  Autistomatic:   # Royal Guardian #2
+    afk: {text: "W7 Spelunking: furthest tunnel (RG perks help spelunking; Pulse: Pit of Pages works for RGs)", src: "zack + Pulse 6JgdYbiEKus 24:00"}
     active: [dk_crystals]
     jobs:
       - {job: "Construction #2", sections: [], basis: class, note: "Shares Tastic's Buildings list"}
@@ -95,13 +95,13 @@ characters:
       - {job: "Statues: DK crystals", sections: [{s: Statues, m: "DK at"}], basis: griffy}
       - {job: "Money", sections: [], basis: griffy, note: "Goal: afford all Upgrade Vault + shops. Best money farmer = GAP (fan: DK)"}
       - {job: "Royal Guardian #2", sections: [], basis: griffy}
+      - {job: Spelunking, sections: [Spelunking], basis: zack, note: "Zack 11/18: RG perks help spelunking (moved from Autistronaut)"}
   Autistronaut:   # Elemental Sorcerer
-    afk: {text: "W7 Spelunking tunnels (Spelunking levels)", src: "fan (DigitalTQ), unverified"}
+    afk: {text: "AFK spot = GAP (was spelunking; moved to Autistomatic 11/18)", src: zack}
     jobs:
       - {job: Cards, sections: [Cards], basis: griffy}
       - {job: Log prints, sections: [{s: Sampling, m: ":: .*\\bLogs?\\b"}], basis: class}
       - {job: "Lab #2", sections: [], basis: class}
-      - {job: "Spelunking (until an RG takes it)", sections: [Spelunking], basis: zack}
     plan: "Elite Class Swap Token -> Bubonic Conjuror -> Arcane Cultist"
   Autistopher:    # Death Bringer #2
     afk: {text: "His own Super CHOWs (100M)", src: griffy, park_rule: "Super CHOWs with Autistopher"}
