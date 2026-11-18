@@ -35,6 +35,10 @@
 ## Never say "no data" (Zack rule)
 Before a card says no data / gap, check the Toolbox map (sources/creators/idleon-toolbox-guide.md), the system index, the dashboard timers and the raw save. If Toolbox shows it, the card uses it.
 
+## Guiding before the knowledge base is done (Zack 2026-11-17)
+Zack wants guidance now. Where Griffy/Pulse/Nocturne have nothing yet, guide from the data (save, Toolbox, AutoReview, game formulas) plus my best read, clearly labeled "my read". Sources upgrade it later; never stay silent just because creators haven't covered it.
+Active time focus: push every attainable missing buff source (model/buffs.md). Dailies = bare minimum: check jobs, make sure nothing is wasting.
+
 ## Buff sources (Zack 2026-11-17)
 Before explaining any level/stat (talent levels past book cap, plate levels, drop rate...), read its list in model/buffs.md. Never guess where levels come from.
 
