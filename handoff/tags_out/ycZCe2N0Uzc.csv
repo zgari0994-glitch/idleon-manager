@@ -1,0 +1,225 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:05,00:00:36,dungeons,W2 completion,,account_note,w2,boss=third_snake;rank=33,Defeating the third snake completed the dungeon objective at rank thirty-three.,yes,3
+00:00:05,00:00:36,quests,quest damage,,mechanic,any,damage=1%,Completing another quest grants another percent damage.,yes,2
+00:00:05,00:00:36,dungeons,W2 strategy,,how_to,w2,,World Two dungeon requires active play and understanding mechanics rather than overwhelming stats.,yes,3
+00:00:36,00:01:06,dungeons,W3 difficulty,,comparison,w3,,World Three dungeon is harder but remains possible.,yes,3
+00:00:36,00:01:06,dungeons,dungeon cards,,setup,any,,Dungeon cards make runs easier; the preceding run used none.,yes,3
+00:00:36,00:01:06,dungeons,W3 quests,,target,w3,jobs=15;knights=12,The dungeon quest chain requires completing jobs and killing knights.,yes,3
+00:01:06,00:01:36,dungeons,knights,,mechanic,w3,knights_per_phase=6;required_knights=12;runs=1,Twelve knight kills can be completed in one run across two boss phases.,yes,3
+00:01:06,00:01:36,dungeons,platinum job,,how_to,w3,ore=3,Mine the platinum on the right and kill nearby enemies while preparing the job.,yes,3
+00:01:36,00:02:07,dungeons,More Mobs,,priority,w3,,Always choose More Mobs first because it accelerates enemy respawning.,yes,3
+00:01:36,00:02:07,dungeons,job preparation,,how_to,w3,,If unable to chop Wispy Lumber prepare goldfish and jellyfish for future fishing jobs.,yes,2
+00:02:07,00:02:37,dungeons,temporary storage,,mechanic,w3,,Collected resources enter hidden temporary storage and can automatically complete later jobs.,yes,3
+00:02:07,00:02:37,dungeons,early damage,,mechanic,w3,,High damage is not essential at the beginning of the dungeon.,yes,3
+00:02:37,00:03:07,dungeons,total damage,,priority,w3,damage_bonus=50%,Choose total damage after More Mobs and leave RNG-item purchases until later.,yes,3
+00:02:37,00:03:07,dungeons,ice cubes,,mechanic,w3,,Ice cubes can drop from any enemy.,yes,3
+00:02:37,00:03:07,dungeons,ice cube job,,how_to,w3,,Alternate between snowman and ice-cube enemy platforms to complete the collection job.,yes,3
+00:03:07,00:03:37,dungeons,block job,,how_to,w3,damage_blocked=1;time=31_seconds,Keep farming while waiting to block damage and delay attacking the boss.,yes,3
+00:03:37,00:04:07,dungeons,movement speed,,priority,w3,,Choose movement speed next to navigate jobs faster.,yes,3
+00:03:37,00:04:07,dungeons,Thermistors,,how_to,w3,,Find Thermistors at the top.,yes,3
+00:03:37,00:04:07,dungeons,guard bypass,,how_to,w3,,Take damage from another enemy and use the invulnerability window to run past a guard.,yes,3
+00:04:07,00:04:37,dungeons,RNG items,,how_to,w3,,Once guard-damage upgrades are obtained focus on RNG items to build damage.,yes,3
+00:04:07,00:04:37,dungeons,boss rush,,target,w3,time_remaining=4_minutes_30_seconds,Start pushing the boss around the four-minute-thirty-second mark.,yes,3
+00:04:37,00:05:08,dungeons,ice guards,,how_to,w3,,Kill all ice guards if working on their quest.,yes,3
+00:04:37,00:05:08,dungeons,enemy scaling,,mechanic,w3,phase=2,All enemies become stronger after entering the second boss phase.,yes,3
+00:04:37,00:05:08,dungeons,jobs,,priority,w3,,Complete most jobs early before enemy scaling makes them harder.,yes,3
+00:05:08,00:05:40,dungeons,bunnies,,how_to,w3,,Look for bunnies on the middle platforms and check the right side if absent on the left.,yes,2
+00:05:08,00:05:40,dungeons,jobs,,mechanic,w3,,Completing additional enemy and blocking jobs builds substantial spending money.,yes,3
+00:05:40,00:06:10,dungeons,boss push,,account_note,w3,time_remaining=3_minutes,The creator begins buying combat RNG items and pushing the next boss phase with three minutes remaining.,yes,3
+00:06:10,00:06:40,dungeons,penguin collection,,how_to,w3,,Pick up penguins while moving between objectives because they enter temporary storage.,yes,3
+00:06:10,00:06:40,dungeons,top guard,,blocker,w3,,The top guard must be killed to pass its shield.,yes,2
+00:06:40,00:07:10,dungeons,damage recovery,,how_to,w3,,Return to the shop and buy additional damage items if boss damage is insufficient.,yes,3
+00:07:10,00:07:40,dungeons,W3 completion,,comparison,w3,time_remaining=1.5_minutes,World Three is the hardest dungeon to finish because it requires substantial damage.,yes,3
+00:07:10,00:08:11,dungeons,Horn of the Foal?,,priority,w3,,A strong horn item is effectively required for pushing far in World Three dungeon.,yes,2
+00:07:40,00:08:11,dungeons,boss rush,,how_to,w3,time_remaining=4_minutes_30_seconds,Start the boss rush at four minutes thirty seconds while collecting easy jobs along the way.,yes,3
+00:08:11,00:08:41,dungeons,W2 versus W3,,comparison,any,,World Two completion is easier through favorable RNG while World Three demands much more damage.,yes,3
+00:08:11,00:08:41,dungeons,boss attack,,warning,w3,,The demonstrated boss attack kills instantly if it hits.,yes,2
+00:08:11,00:08:41,dungeons,job quest,,how_to,w3,jobs=15,Stay in the first boss phase while completing the fifteen-job objective.,yes,3
+00:08:41,00:09:13,dungeons,knight quest,,how_to,w3,first_phase_knights=6;second_phase_knights=6;total=12,Kill six knights in each of the first two phases to complete the knight quest.,yes,3
+00:08:41,00:09:13,dungeons,Glaciaxus?,,account_note,w3,kills=2,The demonstrated run completed two boss kills.,yes,2
+00:08:41,00:09:13,dungeons,quest time,,comparison,w3,,The World Three quest objectives take less time than World Two but full completion needs a good run.,yes,2
+00:09:13,00:09:45,traps,Nature Traps,beast_master,account_note,any,start_level=43;end_level=47;levels_gained=4;duration=8_hours;previous_start=31;previous_end=43,Nature-trap claims rapidly raised the Beast Master's trapping level.,yes,3
+00:09:45,00:10:15,traps,Nature Traps,beast_master,mechanic,any,quantity=0,Nature Traps provide no critters but grant substantial trapping experience.,yes,3
+00:09:45,00:10:15,traps,placement,beast_master,how_to,any,,Place Nature Traps for every character through Beast Master to benefit from its higher experience.,yes,3
+00:10:15,00:10:46,traps,early experience,,how_to,any,turtle_traps=1,Keep necessary shiny and refinery critters while replacing one trap with turtles for experience.,yes,3
+00:10:15,00:10:46,traps,turtles,,how_to,any,,Use a shiny turtle trap for experience before Nature Traps become available.,yes,3
+00:10:46,00:11:17,traps,Pingies,,account_note,any,turtle_traps=1;shiny_pingies=50_or_47,The creator farmed Pingies with one turtle trap to accumulate shiny penguins for equipment.,yes,2
+00:10:46,00:11:17,traps,Nature Trap crafting,,threshold,any,naked_moleos=4;traps_crafted=2,Farm enough shiny mice to craft two Nature Traps.,yes,3
+00:11:17,00:11:47,traps,Steel Traps,,mechanic,any,traps_crafted=2;extra_slot=1,Steel Traps add another trap slot and enable returning to broader shiny farming.,yes,3
+00:11:17,00:11:47,traps,experience maintenance,,how_to,any,turtle_traps=1,Keep one turtle trap for ongoing experience while farming needed critters.,yes,3
+00:11:47,00:12:19,traps,Lord of the Hunt,,meta_change,any,,This trapping progression became accessible after its Lord of the Hunt quest restriction was removed.,yes,3
+00:11:47,00:12:19,traps,Transfusion,maestro,mechanic,any,,Transfusion reduces efficiency but substantially increases skill experience.,yes,3
+00:11:47,00:12:19,traps,experience scaling,,mechanic,any,,Trapping experience is unaffected by efficiency.,yes,3
+00:12:19,00:12:50,traps,efficiency,,mechanic,any,,Efficiency affects critter quantity rather than trapping experience.,yes,3
+00:12:19,00:12:50,traps|prayers,experience setup,maestro,how_to,any,,Place experience traps using Maestro with Transfusion and the skill-experience prayer that reduces efficiency.,yes,3
+00:12:19,00:12:50,traps,Godshard Trap,,target,any,trapping_level=120,The experience setup can push trapping toward the level required for Godshard Trap.,yes,3
+00:12:50,00:13:20,armor_smithy,Blankie versus Camouflage Pendant,,comparison,any,,Chaotic Chizoar's Blankie barely beats Camouflage Pendant while being much harder to obtain.,yes,2
+00:13:20,00:13:50,armor_smithy,Doot Scythe,,account_note,any,,The creator crafts Doot Scythe and applies upgrade stones.,yes,3
+00:13:50,00:14:21,armor_smithy,Doot Scythe,divine_knight,account_note,any,weapon_power=60;strength=40;reach=88;crit_damage=5%;damage=43_million,The upgraded Doot Scythe provides a substantial displayed damage increase.,yes,3
+00:14:21,00:14:51,armor_smithy,Void armor set,,target,any,afk_gains=10%,Prepare a complete Void armor set to obtain its AFK-gain bonus.,yes,3
+00:14:21,00:14:51,traps,Steel Traps,,account_note,any,traps=2;extra_slot=1,Two Steel Traps are ready and provide another trapping slot.,yes,3
+00:14:51,00:15:21,worship,Horn Skulls,,account_note,any,,Horn Skulls improve maximum charge capacity across the account.,yes,3
+00:14:51,00:15:21,traps|bubbles,trap capacity,,account_note,any,total_traps=6;bubble_extra_slot=1;trapping_power=44,Steel Traps and the big bubble support six placed traps with improved trapping power.,yes,3
+00:15:21,00:15:52,damage,displayed damage,divine_knight,account_note,any,damage=49_million,The Divine Knight now displays forty-nine million damage.,yes,3
+00:15:21,00:16:23,constellations,Bulwark,,mechanic,any,total_damage=20%;movement_speed=-12%,Bulwark provides total damage at the cost of movement speed.,yes,3
+00:15:52,00:16:23,constellations,Bulwark,,account_note,any,damage_without=41_million;damage_with=49_million;gain=8_million,Bulwark alone adds eight million displayed damage in this setup.,yes,3
+00:15:52,00:16:23,constellations,Mount Eaterest?,,mechanic,any,food_effect=15%,Mount Eaterest increases food effect and provides a chance not to consume food.,yes,2
+00:15:52,00:16:23,constellations,Mount Eaterest?,,how_to,any,,Use its food effect for Icing Ironbite action speed and stronger damage potions.,yes,2
+00:16:23,00:16:53,constellations,Mount Eaterest?,,mechanic,any,,Its food-effect bonus also increases the health supplied by health potions.,yes,2
+00:16:23,00:16:53,constellations,Ned Kelly,,mechanic,any,weapon_power=2;defense=6%,Ned Kelly supplies weapon power and defense.,yes,3
+00:16:23,00:16:53,constellations,Hydron and Seraph,,mechanic,any,additional_unlocks_for_seraph=20,Unlocking enough star signs opens later constellation tabs.,yes,3
+00:16:23,00:16:53,constellations,Cronus Cosmos,,mechanic,any,simultaneous_signs=2,Cronus Cosmos allows each character to align two star signs.,yes,3
+00:16:23,00:16:53,constellations,additional alignment,,mechanic,any,simultaneous_signs=3,A later unlock allows three simultaneous star signs.,yes,3
+00:16:53,00:17:23,constellations|quests,constellation preparation,,how_to,any,worlds=1-4,Complete quests first to stockpile time candy for constellation objectives across the first four worlds.,yes,3
+00:17:23,00:17:53,constellations,Trapsoidburg,,mechanic,any,critter_trap=20%,Trapsoidburg improves trapping critters and efficiency.,yes,2
+00:17:23,00:17:53,constellations,The Forsaken,,mechanic,any,total_hp=-80%;defense=-50%;fight_afk_gains=6%,The Forsaken trades health and defense for fighting AFK gains.,yes,3
+00:17:23,00:17:53,constellations|printer,The Forsaken,,how_to,any,,Use The Forsaken for low-tier monster samples where health and defense are unnecessary.,yes,3
+00:17:53,00:18:24,account_structure,W6 preparation,,opinion,w6,,Completing these basic account chores prepares players better than many newly arrived World Six accounts.,yes,3
+00:18:24,00:18:54,constellations,W1 objectives,,account_note,w1,valley_characters=4;other_objective_characters=3,The creator completed Valley of the Beans and another multi-character reach objective.,yes,2
+00:18:24,00:18:54,constellations,Doctor Defecaus?,,skip,w1,,The creator skipped the Doctor Death objective but considers it optional.,yes,2
+00:18:24,00:18:54,constellations,Freefall Caverns,,how_to,w1,candies=1,Use balloons or a single time candy for the easy Freefall Caverns objective.,yes,3
+00:18:54,00:19:24,constellations,Winding Willows,,how_to,w1,,Complete Winding Willows using spare candy or by waiting normally.,yes,3
+00:18:54,00:19:24,constellations,W1 Coliseum,,priority,w1,players=3,Clear the World One Coliseum on three players for its easy constellation objective.,yes,3
+00:18:54,00:19:24,constellations,Amarok,,target,w1,time=20_seconds;players=3,Defeat Amarok within twenty seconds on three players.,yes,3
+00:18:54,00:19:24,constellations,Echoing Egress?,,skip,w1,,Skip the Void Ore constellation because the required progression is too expensive at this stage.,yes,2
+00:19:24,00:19:55,constellations,Mimic Hole and Faraway Piers,,how_to,w2,,Mimic Hole and Faraway Piers are easy constellation objectives.,yes,3
+00:19:24,00:19:55,constellations,mage objective,elemental_sorcerer,account_note,w2,,Earlier Scooby-Doo quest progression made the mage constellation objective easy.,yes,2
+00:19:24,00:19:55,constellations,four-hour objective,,how_to,w2,candy_duration=4_hours,Use a four-hour candy for the four-hour objective.,yes,3
+00:19:24,00:19:55,constellations,Slamabam Straightaway,,account_note,w2,,The creator completed Slamabam Straightaway.,yes,3
+00:19:24,00:19:55,constellations|merits,W2 Coliseum,,priority,w2,players=4,Clear Coliseum on four players and invest the relevant merit point for a Cardiovascular talent-book chance.,yes,2
+00:19:55,00:20:25,constellations,Efaunt,journeyman,how_to,w2,,Push Journeyman to Efaunt for the constellation objective.,yes,3
+00:19:55,00:20:25,constellations,W2 completion,,account_note,w2,skipped=1,The creator completed Yum Grotto and skipped only Up Up Down Down.,yes,2
+00:20:25,00:20:55,constellations,Frostbite Tundra,,target,w3,level=90;players=6,Reach level ninety on six players for the easy Frostbite Tundra objective.,yes,3
+00:20:25,00:20:55,constellations,Sheep and Chippy Folly,,how_to,w3,,The sheep objective is easy and earlier trapping progression makes Chippy Folly easy.,yes,2
+00:20:25,00:20:55,constellations,Refrigeration Station and Thermonuclear,,skip,w3,,Skip these objectives for now because they consume too much time candy.,yes,3
+00:20:25,00:20:55,constellations,Rolling Tundra,,skip,w3,,Delay Rolling Tundra because it requires the next tower-defense progression.,yes,3
+00:20:55,00:21:26,constellations,Crystal Basecamp,,skip,w3,,Delay pushing several characters through World Three until multikill improves.,yes,3
+00:20:55,00:21:26,constellations,Bloodbones,,skip,w3,characters=4,Skip the four-character Bloodbones objective for the same multikill limitation.,yes,3
+00:20:55,00:21:26,constellations,Outer World Town,,target,w4,level=120,Reach level one hundred twenty on every character for the World Four objective.,yes,3
+00:21:26,00:21:56,class_exp,Sugmas and Maccies,,how_to,w5,candy_each=4_hours;total_per_character=8_hours;start_level=80;end_level=about_130;total_candies=about_16,Use one four-hour candy at Sugmas and another at Maccies to rapidly raise character levels.,yes,3
+00:21:26,00:21:56,class_exp,time candy,,opinion,w5,,Spending candy to catch up character levels is worthwhile.,yes,3
+00:21:26,00:21:56,constellations,mushroom objective,,account_note,w4,,The creator defeated all mushrooms before respawn on every required character.,yes,3
+00:21:56,00:22:26,constellations|cooking,cooking objective,,how_to,w4,level=15;players=4;small_balloons=about_7-8;medium_balloons=about_3,Use quest-reward balloons to reach cooking fifteen on four players.,yes,3
+00:22:26,00:22:56,constellations,World Four reach objective,,how_to,w4,players=3;additional_maps=2,Push elite-class characters through cans to worms for the next reach objective.,yes,2
+00:22:26,00:22:56,constellations,time candy,,priority,any,,Spend candy strategically on account bonuses that make later pushing easier.,yes,3
+00:22:56,00:23:26,constellations,skill efficiency signs,,setup,any,,Unlock catching and chopping and mining and fishing efficiency signs for skill samples.,yes,3
+00:23:26,00:23:57,constellations,fishing signs,,mechanic,any,,Fishing signs also help multifish.,yes,3
+00:23:26,00:23:57,constellations,Fallen Titans,,mechanic,any,crit_chance=4%;total_damage=3%,Fallen Titans provides inexpensive critical chance and total damage.,yes,3
+00:23:26,00:23:57,constellations,Ned Kelly,,mechanic,any,defense=6%;weapon_power=2%,The creator describes Ned Kelly as providing defense and weapon power.,yes,2
+00:23:26,00:23:57,constellations,Gumdrop,,priority,any,,Gumdrop is useful for the chance to obtain time candy.,yes,3
+00:23:57,00:24:28,constellations,The Forsaken,,priority,any,,Unlock The Forsaken because it is useful for most samples.,yes,3
+00:23:57,00:24:28,constellations,Hydron route,,how_to,any,,Unlock enough inexpensive signs to open Hydron then route directly toward Bulwark.,yes,3
+00:23:57,00:24:28,constellations,secondary bonuses,,mechanic,any,,Other unlocked signs provide respawn and multikill and construction experience and boss damage and card drop.,yes,3
+00:24:28,00:24:58,constellations,damage contribution,,account_note,any,without_signs=40_million;with_signs=almost_50_million;gain=10_million;power_share=1/5,Star signs supply a major portion of the demonstrated damage.,yes,3
+00:24:58,00:25:28,constellations|cards,food effect,,account_note,any,damage_before=57_million;damage_after=56_million,Removing food-effect bonuses reduces displayed boss damage.,yes,3
+00:25:28,00:25:59,constellations,Mount Eaterest?,,priority,any,,Food effect supports damage and health potions as well as action speed and samples.,yes,2
+00:25:28,00:25:59,damage,Golden Kebabs,,priority,late,,Golden Kebabs are among the strongest late-game golden foods for damage.,yes,3
+00:25:59,00:26:32,cards,Snailbies and Sir Stache,,account_note,any,,The creator farmed Snailbie and Sir Stache cards alongside card-drop improvements.,yes,3
+00:25:59,00:26:32,cards|equinox,Bloodbones,elemental_sorcerer,how_to,any,start_stars=1;end_stars=3;extra_damage=12%,Farm Bloodbones with damage and drop-rate bonuses after pushing there for Equinox.,yes,3
+00:26:32,00:27:02,cards,Bloodbones,,account_note,any,without_card=49_million;with_card=54_million,Equipping the improved Bloodbones card increases displayed damage.,yes,3
+00:26:32,00:27:02,cards,Snowmen,,how_to,any,,Snowmen offer another card-farming option for damage.,yes,3
+00:27:02,00:27:33,cards,Bloodbones versus Citringes,,comparison,any,,Citringes can offer more damage but Bloodbones gives better returns with current progression and card drop.,yes,3
+00:27:02,00:27:33,bubbles,ongoing upgrades,,priority,any,,Continue upgrading alchemy alongside other skills.,yes,3
+00:27:33,00:28:04,cauldrons_liquids,liquid shortage,,blocker,any,,Liquid availability rather than materials now limits alchemy upgrades.,yes,3
+00:27:33,00:28:04,general,Post Office orders,,priority,any,,Complete available daily boxes to unlock additional orders.,yes,2
+00:28:04,00:28:34,death_note,kill progression,,account_note,any,,The creator has spent time progressing Death Note.,yes,3
+00:28:04,00:28:34,refinery,orange and blue salts,,account_note,any,,The creator consumes red salts to maintain orange production and supply blue salts despite generally advising against it.,yes,3
+00:28:04,00:28:34,buildings,Automation Arm,,mechanic,any,,The unlocked Automation Arm upgrade replenishes consumed food and potions from storage during AFK claims.,yes,3
+00:28:34,00:29:04,buildings,food replenishment,,mechanic,any,,Damage and speed potions can automatically refill from storage.,yes,3
+00:28:34,00:29:04,buildings,food replenishment,,opinion,any,,The creator usually avoids automatic food replenishment because sufficient defense removes the need.,yes,3
+00:28:34,00:29:04,characters,survivability food,,how_to,w6,,World Six may require health food to maintain survivability.,yes,3
+00:29:04,00:29:35,buildings,Icing Ironbite replenishment,,warning,any,,Automatic replenishment can consume the entire Icing Ironbite stock while mining if production cannot keep up.,yes,3
+00:29:04,00:29:35,buildings|forge,Forge Conveyor Belt,,how_to,any,,With large forge capacity use the conveyor once to fill it then disable it to avoid consuming all ore.,yes,3
+00:29:35,00:30:05,breeding,pet unlocks,,account_note,any,,The creator unlocked mercenaries and mimics and improved pet strength.,yes,2
+00:29:35,00:30:36,cooking,Cabbage,,mechanic,any,cooking_speed=20%;kitchen_levels=10,Cabbage grants cooking speed per ten kitchen levels.,yes,3
+00:30:05,00:30:36,cooking,Cabbage,,priority,any,,Prioritize Cabbage while progressing toward stronger cooking bonuses.,yes,3
+00:30:05,00:30:36,breeding,Golden Dogs,,blocker,any,,The account does not yet have Golden Dogs.,yes,3
+00:30:36,00:31:06,cooking|bubbles,Diamond Chef,,account_note,any,beach_dock_spices=2,Two Beach Docks spices enabled another Diamond Chef upgrade.,yes,3
+00:30:36,00:31:06,bubbles,Diamond Chef and Mr Massacre,,how_to,any,bargain_tag_discount=90%,Use a ninety-percent Bargain Tag discount before upgrading expensive bubbles such as Diamond Chef and Mr Massacre.,yes,3
+00:31:06,00:31:36,tome,ranking,,account_note,any,rank=top_80%,The account reached the top eighty percent.,yes,2
+00:31:06,00:31:36,sailing,artifact progression,,priority,any,,After clearing another cloud prioritize the sailing-speed artifact.,yes,3
+00:31:06,00:31:36,sailing,Ankh,,opinion,any,,The Ankh unlocks another chest slot but the creator considers it less important.,yes,2
+00:31:36,00:32:07,sailing,gold,,blocker,any,,Further sailing progression is waiting on more gold.,yes,3
+00:31:36,00:32:07,gaming,progression,,account_note,any,,Gaming progresses slowly while attempting new unlocks.,yes,3
+00:32:07,00:32:37,damage,Kattlekruk attempt,divine_knight,account_note,w5,damage=63_million,The account attempts Kattlekruk with sixty-three million displayed damage.,yes,3
+00:32:37,00:33:07,characters,Kattlekruk adds,divine_knight,how_to,w5,,Use statues to hold off adds while attacking Kattlekruk.,yes,3
+00:33:07,00:33:37,characters,Kattlekruk adds,divine_knight,how_to,w5,,Shockwave Slash controls one side while a statue handles the other side.,yes,3
+00:33:37,00:34:08,account_structure,progression strategy,,mechanic,any,,The demonstrated preparation strategy works for both free and paying players.,yes,3
+00:34:08,00:34:38,owl,Roo and Owl?,,priority,any,,Progressing Roo and Owl contributed substantially to reaching World Six.,yes,2
+00:34:08,00:34:38,upgrade_vault,W6 entry,,account_note,w6,,The account reached World Six before fully maxing Upgrade Vault.,yes,3
+00:34:08,00:34:38,class_choice,Divine Knight and Elemental Sorcerer,,priority,any,,Develop Divine Knight and Elemental Sorcerer early because both are central to this progression strategy.,yes,3
+00:34:38,00:35:09,characters,accuracy damage,divine_knight,priority,any,,Push Divine Knight accuracy to increase its damage.,yes,3
+00:34:38,00:35:09,pets,Megalodon,,mechanic,w6,,Megalodon is not required to reach World Six.,yes,3
+00:34:38,00:35:09,account_structure,W6 unlock,,account_note,w6,,The free-to-play account defeats Kattlekruk and reaches World Six.,yes,3
+00:35:09,00:35:39,armor_smithy,W6 upgrade stones,,priority,w6,success_chance=75%,Buy World Six upgrade stones immediately and expect to use many.,yes,3
+00:35:39,00:36:09,armor_smithy,Doot Scythe stones,,opinion,w6,,The creator rejects delaying earlier Doot Scythe upgrades solely to wait for World Six stones.,yes,3
+00:36:09,00:36:39,account_structure,W6 skills,,priority,w6,,World Six skills help address the new damage and accuracy and defense shortages.,yes,3
+00:36:39,00:37:09,farming,basic loop,,mechanic,w6,,Plant seeds then harvest crops and spend crops on upgrades.,yes,3
+00:36:39,00:37:09,farming,Basic Seed,,account_note,w6,,Only Basic Seed is initially available.,yes,3
+00:37:09,00:37:40,farming,Day Market,,mechanic,w6,,Spend crops at Day Market for extra plots and farming speed.,yes,3
+00:37:40,00:38:11,farming,crop evolution,,mechanic,w6,,Crops can evolve into different crops such as apples becoming oranges.,yes,3
+00:37:40,00:38:11,farming,Lock Crop,,how_to,w6,,Lock a crop before planting when farming a specific unevolved crop.,yes,3
+00:37:40,00:38:11,farming,first crop evolution,,warning,w6,,The first vegetable or mushroom or fruit in a crop group can automatically evolve.,yes,2
+00:38:11,00:38:41,farming,Lock Crop,,priority,late,,Build the habit of locking before planting because later evolution can happen instantly.,yes,3
+00:38:11,00:38:41,farming,tutorial apples,,account_note,w6,growth_time=4_hours,The first apple harvest takes four hours without acceleration.,yes,3
+00:38:41,00:39:11,farming,compost,,how_to,w6,apples=2;compost_used=2;extra_plots=1,Use compost for the tutorial apple quest to unlock another plot.,yes,3
+00:38:41,00:39:11,farming,early evolution,,account_note,w6,,The creator observes that the initial tutorial crop does not evolve.,yes,3
+00:39:11,00:39:41,farming,early progression,,opinion,w6,,Early free-to-play farming is very slow and the creator recommends consulting dedicated farming guides.,yes,3
+00:39:11,00:39:41,farming,crop count,,mechanic,w6,crops=over_200,There are more than two hundred crops.,yes,3
+00:39:41,00:40:11,sneaking,tutorial,,target,w6,,Find Jade Coins then upgrade Looting Ambition and obtain and equip nunchucks.,yes,3
+00:40:11,00:40:41,sneaking,action timer,,mechanic,w6,example_time=34_minutes,The timer underneath a character shows time until its next action.,yes,3
+00:40:41,00:41:13,sneaking,equipment actions,,mechanic,w6,,Equipment determines whether a character searches for items or breaks doors or unties captured characters.,yes,3
+00:40:41,00:41:13,sneaking,Jade upgrades,,how_to,w6,,Spend Jade on Way of Stealth and Looting Ambition while progressing toward nunchucks.,yes,3
+00:41:13,00:41:43,sneaking,first area,,account_note,w6,detection=52%;jade_per_action=100;xp_per_action=40;action_interval=about_45-60_minutes,The first searchable area provides Jade and experience with a detection risk each action.,yes,3
+00:41:13,00:41:43,sneaking,Sands of Time,,mechanic,w6,progress=6_hours,Sands of Time advances sneaking progress by six hours.,yes,3
+00:41:43,00:42:13,sneaking,experience,,mechanic,w6,,Only the currently participating sneaking character receives levels at this initial stage.,yes,3
+00:41:43,00:42:13,sneaking,Nunchuck Grip,,how_to,w6,looting_ambition=1;nunchuck_grip=1,Buy Looting Ambition and Nunchuck Grip then spend remaining Jade on reducing detection.,yes,3
+00:41:43,00:42:13,sneaking,detection,,account_note,w6,detection=31%,The initial stealth upgrades reduce detection to thirty-one percent.,yes,3
+00:42:13,00:42:44,sneaking,nunchucks,,mechanic,w6,damage=12,Nunchucks damage doors and the demonstrated pair deals twelve damage per action.,yes,3
+00:42:13,00:42:44,sneaking,gloves,,mechanic,w6,,Gloves increase action speed.,yes,3
+00:42:13,00:42:44,sneaking,kunai,,mechanic,w6,,Kunai release tied-up characters in the sneaking tower.,yes,3
+00:42:44,00:43:14,sneaking,character unlocks,,priority,w6,detection=14%,Reduce detection and break doors to unlock more characters as the main early objective.,yes,3
+00:43:14,00:43:45,sneaking,Jade Emporium,,mechanic,w6,,Jade Emporium spends Jade Coins on permanent bonuses including Quick Ref and MSA Expander.,yes,3
+00:43:14,00:43:45,sneaking|stamps,Level Exemption,,mechanic,w6,,Level Exemption removes penalties from underleveled skill stamps.,yes,3
+00:43:45,00:44:15,sneaking,door attacks,,mechanic,w6,,Characters attacking doors do not generate Jade Coins.,yes,3
+00:43:45,00:44:15,sneaking,Jade farming,,how_to,w6,,Unequip nunchucks temporarily to generate Jade for the tutorial Emporium purchase.,yes,3
+00:44:15,00:44:46,sneaking,Jade Emporium,,mechanic,w6,,Each Emporium purchase unlocks another upgrade.,yes,3
+00:44:15,00:44:46,sneaking,Quick Ref,,priority,w6,,Buy Quick Ref to inspect sneaking and access Jade Emporium while doing other activities.,yes,3
+00:44:15,00:44:46,sneaking|lab,laboratory extension,,skip,w6,,The next laboratory-extension purchase is not needed yet at this early stage.,yes,3
+00:44:46,00:45:16,sneaking,early upgrades,,priority,w6,detection=8%,Prioritize stealth to reduce detection with some optional item-drop investment.,yes,3
+00:44:46,00:45:16,sneaking,Sands of Time,,skip,w6,,Save remaining Sands of Time for now.,yes,3
+00:45:16,00:45:46,summoning,battle objective,,mechanic,w6,,Send slimes to the opponent's side to deplete its health bar while defending your own side.,yes,3
+00:45:46,00:46:16,summoning,unit stats,,mechanic,w6,example_enemy_damage=1;example_enemy_health=2,All enemy units in a match share the displayed enemy damage and health.,yes,3
+00:46:16,00:46:47,summoning,mana,,mechanic,w6,,Mana generates over time up to a cap and is spent on summoning cards with individual costs.,yes,3
+00:46:47,00:47:17,summoning|gem_shop,daily lives,,mechanic,w6,lives_per_day=3,Receive three daily lives with additional lives purchasable from the gem shop.,yes,3
+00:46:47,00:47:17,summoning,first reward,,account_note,w6,total_damage_multiplier=1.28;displayed_damage=83_million,The tutorial victory rewards a total-damage multiplier.,yes,3
+00:47:17,00:47:48,summoning,W6 priority,,priority,w6,damage_gain=20_million;multikill_tiers=3,Reaching World Six quickly provides major immediate damage and multikill gains through summoning.,yes,3
+00:47:48,00:48:19,summoning,essence,,mechanic,w6,,Essence generates passively and purchases summoning upgrades.,yes,3
+00:47:48,00:48:19,summoning,Summoning Stones,,mechanic,w6,generation=4_hours,Summoning Stones grant four hours of essence generation.,yes,3
+00:47:48,00:48:19,summoning,upgrade tree,,mechanic,w6,,Purchasing upgrades unlocks further upgrades including health and damage and mana generation.,yes,3
+00:48:19,00:48:50,summoning,second match,,how_to,w6,enemy_damage=3;hits_to_die=2,When both sides die in two hits faster player summoning can provide the advantage.,yes,3
+00:48:50,00:49:20,summoning,low-health strategy,,how_to,w6,remaining_hp=1,Later bonuses can reward taking damage and pushing at one remaining health.,yes,3
+00:49:20,00:49:50,summoning,card cycling,,mechanic,w6,,Using all available cards can generate more mana.,yes,3
+00:49:20,00:49:50,summoning,unit variety,,mechanic,w6,,Later battles involve dodge chance and fast or tanky or explosive or mana-generating slimes.,yes,3
+00:49:50,00:50:26,summoning,lane strategy,,how_to,w6,,Concentrate on one outer lane and accept some damage to force units through.,yes,3
+00:50:26,00:50:56,summoning|sneaking,second reward,,account_note,w6,jade_multiplier=1.53,The second victory grants a Jade-gain multiplier.,yes,3
+00:50:56,00:51:26,characters,Gloopies,,threshold,w6,accuracy=75000;damage_taken=73;defense_requirement=30000,Gloopies present a substantial accuracy requirement and survivability demand.,yes,2
+00:51:26,00:51:57,summoning,early W6 progression,,priority,w6,,Return to account systems and summoning instead of immediately forcing further World Six combat progression.,yes,3
+00:51:26,00:51:57,summoning,combat breakpoints,,how_to,w6,enemy_damage=4;player_health=5;hits_to_die=2,Compare hits required to kill each side before attempting a match.,yes,3
+00:51:57,00:52:28,summoning,outer lane,,how_to,w6,,Push the top lane because middle-lane slimes collide with more enemies.,yes,3
+00:52:28,00:52:58,summoning,offense and defense,,how_to,w6,,Continue sneaking units through the top while reserving enough summons to block incoming threats.,yes,3
+00:52:58,00:53:28,summoning|construction,construction bonuses,,priority,w6,,Prioritize summoning because its construction-speed bonuses are enormous.,yes,3
+00:52:58,00:53:28,summoning,difficulty,,meta_change,w6,,Summoning has become considerably easier over time.,yes,3
+00:53:59,00:54:30,summoning,enemy spawn rate,,mechanic,w6,,Enemy spawn rates increase during a match.,yes,3
+00:53:59,00:54:30,summoning,spawn reset,,how_to,w6,,Leave the map or enter the gem shop before a new match to reset enemy spawn rates.,yes,3
+00:54:30,00:55:01,summoning,health breakpoint,,account_note,w6,health=7,The attempted health upgrade did not change the relevant hits-to-kill breakpoint.,yes,3
+00:55:01,00:55:31,summoning,rush strategy,,how_to,w6,,Accept early damage to rush one lane before enemy spawn rates become overwhelming.,yes,3
+00:55:31,00:56:02,summoning|farming,battle reward,,account_note,w6,farming_speed_multiplier=1.11,The next victory grants farming speed.,yes,3
+00:56:02,00:56:33,summoning,Summoning Stones,,priority,w6,,Save stones instead of spending them impulsively because passive essence generation is already useful.,yes,3
+00:56:02,00:56:33,summoning,damage breakpoint,,blocker,w6,current_hits=3;additional_damage_needed=1,One more damage would improve the next battle's kill breakpoint.,yes,3
+00:56:02,00:56:33,summoning,spikes,,mechanic,w6,,Green progression unlocks spikes that damage enemies landing on them.,yes,3
+00:56:33,00:57:05,summoning,spawn reset,,how_to,w6,,Enter and exit the gem shop before retrying if enemy spawns have remained fast.,yes,3
+00:57:05,00:57:38,summoning,mana banking,,how_to,w6,,Alternatively build mana first and respond after observing enemy lane placement.,yes,3
+00:57:38,00:58:09,summoning,lane RNG,,account_note,w6,,The top-lane rush failed when all enemies spawned top and a bottom push would have been preferable.,yes,3
+00:58:39,00:59:09,general,free-to-play access,,opinion,any,,The game has pay-to-win advantages but no gameplay content locked behind paid progression.,yes,3
+00:59:39,01:00:09,lab|divinity|summoning,between episodes,,account_note,w6,,The creator considers parking characters in lab and divinity while progressing summoning before World Seven.,yes,3
