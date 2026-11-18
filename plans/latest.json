@@ -2208,7 +2208,8 @@
      "job": "Sailing",
      "basis": "class",
      "tiers": {
-      "Sailing": "16/22"
+      "Sailing": "16/22",
+      "Islands": "3/4"
      },
      "subs": [
       {
@@ -2297,6 +2298,82 @@
         }
        ],
        "more": 39
+      },
+      {
+       "name": "Islands: Unlock all Islands",
+       "state": "open",
+       "items": [
+        {
+         "locked": "",
+         "section": "Islands",
+         "group": "Unlock all Islands",
+         "label": "Unlock Fractal Island",
+         "cur": "0",
+         "goal": "1",
+         "score": 127,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": -1
+      },
+      {
+       "name": "Islands: Fractal Nothing hour rewards",
+       "state": "open",
+       "items": [
+        {
+         "locked": "",
+         "section": "Islands",
+         "group": "Fractal Nothing hour rewards",
+         "label": "1 in 100000 chance for Master of Nothing Trophy per hour of Nothing AFK",
+         "cur": "0",
+         "goal": "24",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "locked": "",
+         "section": "Islands",
+         "group": "Fractal Nothing hour rewards",
+         "label": "1.25x Dungeon Credits and Flurbos gained",
+         "cur": "0",
+         "goal": "200",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 6
+      },
+      {
+       "name": "Islands: 1/7 Unique Random Event drops found",
+       "state": "open",
+       "items": [
+        {
+         "locked": "",
+         "section": "Islands",
+         "group": "1/7 Unique Random Event drops found",
+         "label": "Grumbie the Hatchet Hammer (Mega Grumblo)",
+         "cur": "0",
+         "goal": "1",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "locked": "",
+         "section": "Islands",
+         "group": "1/7 Unique Random Event drops found",
+         "label": "Skewered Snek (Snake Swarm)",
+         "cur": "0",
+         "goal": "1",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 4
       }
      ],
      "next": [
@@ -2341,6 +2418,13 @@
         "world-5/sailing"
        ],
        "sources": "24 tagged / 345 chunks"
+      },
+      {
+       "system": "islands",
+       "toolbox": [
+        "world-2/islands"
+       ],
+       "sources": "7 tagged / 0 chunks"
       }
      ]
     },
@@ -2359,9 +2443,9 @@
          "locked": "",
          "section": "Sampling",
          "group": "Improve material samples",
-         "label": "Fly",
-         "cur": "131.29M",
-         "goal": "454.0M",
+         "label": "Goldfish",
+         "cur": "111.85M",
+         "goal": "150.0M",
          "score": 132,
          "ready": false,
          "infinite": false
@@ -2370,15 +2454,15 @@
          "locked": "",
          "section": "Sampling",
          "group": "Improve material samples",
-         "label": "Fly",
-         "cur": "0.13B",
-         "goal": "1.0B",
+         "label": "Spore Cap",
+         "cur": "1.44M",
+         "goal": "10.0M",
          "score": 132,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 1
+       "more": 9
       },
       {
        "name": "Sampling: Sources of Printer Sample Rate (90% Hardcap)",
@@ -2444,9 +2528,9 @@
        "locked": "",
        "section": "Sampling",
        "group": "Improve material samples",
-       "label": "Fly",
-       "cur": "131.29M",
-       "goal": "454.0M",
+       "label": "Goldfish",
+       "cur": "111.85M",
+       "goal": "150.0M",
        "score": 132,
        "ready": false,
        "infinite": false
@@ -2455,20 +2539,20 @@
        "locked": "",
        "section": "Sampling",
        "group": "Improve material samples",
-       "label": "Fly",
-       "cur": "0.13B",
+       "label": "Spore Cap",
+       "cur": "1.44M",
+       "goal": "10.0M",
+       "score": 132,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Sampling",
+       "group": "Improve material samples",
+       "label": "Goldfish",
+       "cur": "0.11B",
        "goal": "1.0B",
-       "score": 132,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Sampling",
-       "group": "Improve material samples",
-       "label": "Fly",
-       "cur": "0.13B",
-       "goal": "8.0B",
        "score": 132,
        "ready": false,
        "infinite": false
@@ -3181,7 +3265,7 @@
    ],
    "flags": [],
    "move": {
-    "text": "Bug prints: Fly 131.29M -> 454.0M",
+    "text": "Bug prints: Goldfish 111.85M -> 150.0M",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
@@ -3247,7 +3331,7 @@
     "first": null,
     "priority": "Cooking speed",
     "priority_jobs": [],
-    "rinse1": "Bug prints: Fly 131.29M -> 454.0M (score 132)",
+    "rinse1": "Bug prints: Goldfish 111.85M -> 150.0M (score 132)",
     "flag": ""
    },
    "today": [
@@ -3267,7 +3351,7 @@
      "src": "Toolbox timer"
     },
     {
-     "do": "Bug prints: Fly 131.29M -> 454.0M",
+     "do": "Bug prints: Goldfish 111.85M -> 150.0M",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
     }
@@ -3286,16 +3370,19 @@
      "block": "Sailing",
      "kind": "rinse",
      "steps": [
-      "Push: The Winz Lantern 3 -> 4",
-      "Push: Anyone Minor Linked to Purrmep: +0.00% 0 -> 1",
-      "Push: Moai HeadGet bonuses from all shrines from any map! You must be in same map/worl 5 -> 7"
+      "Sailing: Push: The Winz Lantern 3 -> 4",
+      "Sailing: Push: Anyone Minor Linked to Purrmep: +0.00% 0 -> 1",
+      "Sailing: Push: Moai HeadGet bonuses from all shrines from any map! You must be in same map/worl 5 -> 7",
+      "Islands: Push: Unlock Fractal Island 0 -> 1",
+      "Islands: Push: 1 in 100000 chance for Master of Nothing Trophy per hour of Nothing AFK 0 -> 24",
+      "Islands: Push: Grumbie the Hatchet Hammer (Mega Grumblo) 0 -> 1"
      ]
     },
     {
      "block": "Bug prints",
      "kind": "rinse",
      "steps": [
-      "Push: Fly 131.29M -> 454.0M",
+      "Push: Goldfish 111.85M -> 150.0M",
       "Lever on Autistocat: Sample It bubble: +9.06/10%",
       "Push: Sailing: Level 4 Gold Relic:2.35x (27/100 days) 27 -> 100"
      ]
@@ -3991,136 +4078,6 @@
      ]
     },
     {
-     "job": "Islands (drop-rate islands; anyone can grab)",
-     "basis": "zack",
-     "tiers": {
-      "Islands": "3/4"
-     },
-     "subs": [
-      {
-       "name": "Islands: Unlock all Islands",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Islands",
-         "group": "Unlock all Islands",
-         "label": "Unlock Fractal Island",
-         "cur": "0",
-         "goal": "1",
-         "score": 127,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": -1
-      },
-      {
-       "name": "Islands: Fractal Nothing hour rewards",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Islands",
-         "group": "Fractal Nothing hour rewards",
-         "label": "1 in 100000 chance for Master of Nothing Trophy per hour of Nothing AFK",
-         "cur": "0",
-         "goal": "24",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Islands",
-         "group": "Fractal Nothing hour rewards",
-         "label": "1.25x Dungeon Credits and Flurbos gained",
-         "cur": "0",
-         "goal": "200",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 6
-      },
-      {
-       "name": "Islands: 1/7 Unique Random Event drops found",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Islands",
-         "group": "1/7 Unique Random Event drops found",
-         "label": "Grumbie the Hatchet Hammer (Mega Grumblo)",
-         "cur": "0",
-         "goal": "1",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Islands",
-         "group": "1/7 Unique Random Event drops found",
-         "label": "Skewered Snek (Snake Swarm)",
-         "cur": "0",
-         "goal": "1",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 4
-      }
-     ],
-     "next": [
-      {
-       "locked": "",
-       "section": "Islands",
-       "group": "Unlock all Islands",
-       "label": "Unlock Fractal Island",
-       "cur": "0",
-       "goal": "1",
-       "score": 127,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Islands",
-       "group": "Fractal Nothing hour rewards",
-       "label": "1 in 100000 chance for Master of Nothing Trophy per hour of Nothing AFK",
-       "cur": "0",
-       "goal": "24",
-       "score": 0,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Islands",
-       "group": "Fractal Nothing hour rewards",
-       "label": "1.25x Dungeon Credits and Flurbos gained",
-       "cur": "0",
-       "goal": "200",
-       "score": 0,
-       "ready": false,
-       "infinite": false
-      }
-     ],
-     "note": "Zack 11/17: islands go to the first Royal Guardian (best drop rate)",
-     "where": [
-      {
-       "system": "islands",
-       "toolbox": [
-        "world-2/islands"
-       ],
-       "sources": "7 tagged / 0 chunks"
-      }
-     ]
-    },
-    {
      "job": "Godshard set",
      "basis": "zack",
      "tiers": {
@@ -4642,15 +4599,6 @@
       "Push: Royal Talent Points I: +10 Talent PTS for the Royal Guardian class. 10 -> 200",
       "Push: Heracles the Mighty: Not built (1/25)1.00x Total Damage 0 -> 1",
       "Push: Menagerie Unlock 18: Boosts max Flair LV of Statues to ElegantCosts 11.68M Lumi, 0 -> 1"
-     ]
-    },
-    {
-     "block": "Islands (drop-rate islands; anyone can grab)",
-     "kind": "rinse",
-     "steps": [
-      "Push: Unlock Fractal Island 0 -> 1",
-      "Push: 1 in 100000 chance for Master of Nothing Trophy per hour of Nothing AFK 0 -> 24",
-      "Push: Grumbie the Hatchet Hammer (Mega Grumblo) 0 -> 1"
      ]
     },
     {
@@ -12059,11 +12007,6 @@
    }
   ],
   "unassigned": [
-   {
-    "job": "Fish + other prints (Goldfish, Spore Cap...)",
-    "sections": [],
-    "note": "Not bugs: needs an owner (Zack). Best fisher = Autistotle 139"
-   },
    {
     "job": "Emperor",
     "sections": [
