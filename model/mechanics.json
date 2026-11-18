@@ -495,6 +495,12 @@
    "section": "Usables"
   },
   {
+   "name": "Daily Minigame Plays",
+   "lv": 1,
+   "max": 4,
+   "section": "Usables"
+  },
+  {
    "name": "Subclass Swap Token",
    "lv": 1,
    "max": 2,
@@ -1380,7 +1386,7 @@
  "research": [
   {
    "name": "Sushi Station Linguistics",
-   "lv": 1,
+   "lv": 3,
    "effect": "You can now speak to the knife found in the map past Glimbo to play the Sushi Station game!<br>Also, }x more Bucks gained from your Sushi!"
   },
   {
@@ -1394,14 +1400,39 @@
    "effect": "You can now speak to Glimbo, and make trades with him! Also boosts coins dropped by monsters by }x!"
   },
   {
+   "name": "Eclectic Sigils",
+   "lv": 1,
+   "effect": "Sigils can be upgraded a 5th time to Eclectic!<br>NOTE:You must defeat Lore Boss 7 in Spelunking first!"
+  },
+  {
    "name": "Mr Minehead Linguistics",
    "lv": 1,
    "effect": "You can now speak to Mr Minehead and play his Depth Charge game! Also, +{ base Minehead Currency/hr"
   },
   {
+   "name": "Rat King of Olde",
+   "lv": 1,
+   "effect": "You can now buy the Rat King from the Import Shop in Gaming! Also, +{% King Tokens per hour!"
+  },
+  {
    "name": "Transcendent Artifacts",
    "lv": 1,
    "effect": "Unlocks Transcendent Sailing Artifacts tier, and boosts Artifact Find Chance by a smol +{%"
+  },
+  {
+   "name": "All Night Studying",
+   "lv": 2,
+   "effect": "Boosts Research EXP gain by +{%<br>You'll be filling out this Grid in no time at all!"
+  },
+  {
+   "name": "Gaming Zuperbits",
+   "lv": 1,
+   "effect": "Unlocks the Zuperbits page of Superbits in Gaming! Yea, you ain't done with those just yet! Also gives }x Gaming Bit Multi!"
+  },
+  {
+   "name": "Sticker Depot",
+   "lv": 1,
+   "effect": "Unlocks the Sticker mechanic for Farming! Also, boosts Megacrop growth chance by }x"
   },
   {
    "name": "Tiny Cogs",
@@ -1410,8 +1441,18 @@
   },
   {
    "name": "Observationalistic",
-   "lv": 1,
+   "lv": 4,
    "effect": "Gives you +| more Daily Rolls for getting new Observations! Also, +{% Research EXP gain!"
+  },
+  {
+   "name": "Takin' Notes",
+   "lv": 4,
+   "effect": "Multiplies Research EXP gain by }x, TRUE multiplier style! So this bonus will never be additive!"
+  },
+  {
+   "name": "Pts Every Ten",
+   "lv": 1,
+   "effect": "Get +| extra Research PTS every 10 Research LVs! Also, +{% Research EXP Gain!"
   }
  ],
  "family_bonuses": [
@@ -1467,32 +1508,32 @@
   },
   {
    "class": "Archer",
-   "level": 848,
+   "level": 856,
    "value": null
   },
   {
    "class": "Bowman",
-   "level": 841,
+   "level": 846,
    "value": null
   },
   {
    "class": "Hunter",
-   "level": 848,
+   "level": 856,
    "value": null
   },
   {
    "class": "Siege Breaker",
-   "level": 841,
+   "level": 846,
    "value": null
   },
   {
    "class": "Wind Walker",
-   "level": 848,
+   "level": 856,
    "value": null
   },
   {
    "class": "Beast Master",
-   "level": 848,
+   "level": 856,
    "value": null
   },
   {
@@ -1507,8 +1548,8 @@
   },
   {
    "class": "Shaman",
-   "level": 824,
-   "value": 1.3553072625698324
+   "level": 830,
+   "value": 1.3556048834628192
   },
   {
    "class": "Elemental Sorcerer",
@@ -1517,12 +1558,12 @@
   },
   {
    "class": "Bubonic Conjuror",
-   "level": 824,
+   "level": 830,
    "value": null
   },
   {
    "class": "Arcane Cultist",
-   "level": 824,
+   "level": 830,
    "value": null
   }
  ],
@@ -1530,22 +1571,22 @@
   {
    "name": "Archlord of the Pirates",
    "type": "Drop Rate and Class EXP",
-   "kills": 6009,
-   "value": 15.047395543311714,
+   "kills": 6015,
+   "value": 15.049121475796882,
    "how": "Farm more Plunder Kills with Siege Breaker for Drop Rate Crystal Setup at W5 Citringes for ~20k per day"
   },
   {
    "name": "King of the Remembered",
    "type": "Printer Output",
-   "kills": 2653262,
-   "value": 0.0,
+   "kills": 2655609,
+   "value": 22.83729781194848,
    "how": "Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from"
   },
   {
    "name": "Wormhole Emperor",
    "type": "Damage",
-   "kills": 487620,
-   "value": 5.292064557537519,
+   "kills": 488354,
+   "value": 5.292672316711091,
    "how": "Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns"
   }
  ],
@@ -1560,11 +1601,11 @@
   },
   {
    "god": "Nobisect",
-   "blessing": 74
+   "blessing": 110
   },
   {
    "god": "Harriep",
-   "blessing": 100
+   "blessing": 129
   },
   {
    "god": "Goharut",
@@ -1572,11 +1613,11 @@
   },
   {
    "god": "Omniphau",
-   "blessing": 40
+   "blessing": 80
   },
   {
    "god": "Purrmep",
-   "blessing": 100
+   "blessing": 129
   },
   {
    "god": "Flutterbis",
@@ -1584,11 +1625,11 @@
   },
   {
    "god": "Kattlekruk",
-   "blessing": 45
+   "blessing": 73
   },
   {
    "god": "Bagur",
-   "blessing": 40
+   "blessing": 60
   }
  ],
  "achievements_done": 207,

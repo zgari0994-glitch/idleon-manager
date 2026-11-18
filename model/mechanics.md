@@ -1,4 +1,4 @@
-# Mechanics layer · game save 2026-11-17 02:59 PM ET
+# Mechanics layer · game save 2026-11-18 01:58 PM ET
 
 Rule-changers and account-wide buffs you own. Facts from the save; sources for missing items added separately.
 
@@ -59,8 +59,8 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 - Owned: Lava Supporter Pack, New Year Pack, Easter Bundle, Totally Chill Pack, Summer Bundle, Giftmas Bundle, Auto-Loot Pack, Super Hot Fire Pack, Riftwalker Pack, Bloomin' Pet Pack, Island Explorer Pack, Equinox Pack, Calm Serenity Pack, Sacred Methods Pack, Timeless Pack, Ancient Echos Pack, Deathbringer Pack, Windwalker Pack, Arcane Cultist Pack, Fallen Spirits Pet Pack, Storage Ram Pack, Blazing Star Anniversary Pack, Midnight Tide Anniversary Pack, Lush Emerald Anniversary Pack, Eternal Hunter Pack, Gilded Treasure, Lil' Squirrel Pack, Ocean Raider Pack, Piggy Pal, Autumn Breeze Pack, Chonky Seal Pack, Giftmas Bunny Pack, Giftmas Hedgehog Pack, Giftmas Panda Pack, Santa's Little Helper Pack
 - Not owned: Starter Pack, Dungeon Bundle, Outta This World Pack, Eggscellent Pack, Gem Motherlode Pack, Valenslime Day Pack, The Robot Pack, Glimbo Pack, Heavy Armor Pack, Vanillie Pack, Potluck Pack, Eggroll Pack, Wicker Spirit Anniversary Pack, Time Traveler Pack, Beeg Egg Pack, Spooker Pack, Crystal Glunko Pack, Boaring Pack, Armadillo Pack, Coralcave Guardian Pack, Daydreamer Pack, Gelatinous Pack, Alpha Omega Pack, Imperial Power Pack, Pack of Magnificence, Halloween Pack, Cathie's Big Day Pack
 
-## Gem shop upgrades owned (60)
-- Parallel Villagers 5/5; Resource Boost 10/10; Item Backpack Space 6/6; Storage Chest Space 12/12; Carry Capacity 10/10; Food Slot 2/2; More Storage Space 10/10; Card Presets 4/5; Subclass Swap Token 1/2; Complete Class Redo 1/1; Ancient Card Pack 3/100000; Eternal Card Pack 3/100000; Extra Card Slot 4/4; 4 Star Cardifier 8/100000; Biggy Arcade Balls 2/100000; Tier 3 Keychain 2/100000; World 6 Kills Ring 1/2; Infinity Hammer 1/1; Brimstone Forge Slot 16/16; Ivory Bubble Cauldrons 4/4; Bleach Liquid Cauldrons 4/4; Obol Storage Space 2/12; Sigil Supercharge 10/10; Crystal 3D Printer 1/1; More Sample Spaces 6/6; Burning Bad Books 4/4; Zen Cogs 8/8; Cog Inventory Space 10/20; Tower Building Slots 4/4; Fluorescent Flaggies 6/6; Royal Egg Cap 5/5; Richelin Kitchen 10/10; Mainframe Jewel 2/2; Souped Up Tube 5/5; Mob Storage 3/12; Fenceyard Space 6/6; New Meal 5/100000; Davey Jones Training 8/8; Chest Sluggo 12/12; Divinity Sparkie 8/8; Golden Sprinkler 4/4; Lava Sprouts 6/6; Snehebatu Link 1/1; Plot Of Land 12/12; Shroom Familiar 6/6; Novelty Jade Coins 7/7; Instagrow Generator 8/8; King Of All Winners 5/5; Gallery Showcases 6/6; More Coral 5/10; Legend Talent Pts 5/5; Super Auto Mode 4/4; Bling Bags 8/8; Professional Papers 2/10; Parallel Villagers The Explorer 1/1; Parallel Villagers The Engineer 1/1; Parallel Villagers The Conjuror 1/1; Parallel Villagers The Measurer 1/1; Parallel Villagers The Librarian 1/1; Dragonic Liquid Cauldron 1/4
+## Gem shop upgrades owned (61)
+- Parallel Villagers 5/5; Resource Boost 10/10; Item Backpack Space 6/6; Storage Chest Space 12/12; Carry Capacity 10/10; Food Slot 2/2; More Storage Space 10/10; Card Presets 4/5; Daily Minigame Plays 1/4; Subclass Swap Token 1/2; Complete Class Redo 1/1; Ancient Card Pack 3/100000; Eternal Card Pack 3/100000; Extra Card Slot 4/4; 4 Star Cardifier 8/100000; Biggy Arcade Balls 2/100000; Tier 3 Keychain 2/100000; World 6 Kills Ring 1/2; Infinity Hammer 1/1; Brimstone Forge Slot 16/16; Ivory Bubble Cauldrons 4/4; Bleach Liquid Cauldrons 4/4; Obol Storage Space 2/12; Sigil Supercharge 10/10; Crystal 3D Printer 1/1; More Sample Spaces 6/6; Burning Bad Books 4/4; Zen Cogs 8/8; Cog Inventory Space 10/20; Tower Building Slots 4/4; Fluorescent Flaggies 6/6; Royal Egg Cap 5/5; Richelin Kitchen 10/10; Mainframe Jewel 2/2; Souped Up Tube 5/5; Mob Storage 3/12; Fenceyard Space 6/6; New Meal 5/100000; Davey Jones Training 8/8; Chest Sluggo 12/12; Divinity Sparkie 8/8; Golden Sprinkler 4/4; Lava Sprouts 6/6; Snehebatu Link 1/1; Plot Of Land 12/12; Shroom Familiar 6/6; Novelty Jade Coins 7/7; Instagrow Generator 8/8; King Of All Winners 5/5; Gallery Showcases 6/6; More Coral 5/10; Legend Talent Pts 5/5; Super Auto Mode 4/4; Bling Bags 8/8; Professional Papers 2/10; Parallel Villagers The Explorer 1/1; Parallel Villagers The Engineer 1/1; Parallel Villagers The Conjuror 1/1; Parallel Villagers The Measurer 1/1; Parallel Villagers The Librarian 1/1; Dragonic Liquid Cauldron 1/4
 
 ## Event shop (16 owned)
 - Equinox Enhancement: Get 1.5x faster Bar Fill Rate in Equinox Valley in World 3
@@ -104,21 +104,28 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 - Sushi Station Linguistics: You can now speak to the knife found in the map past Glimbo to play the Sushi Station game!<br>Also, }x more Bucks gained from your Sushi!
 - Glimbo BOGO Offer: Some of Glimbo's trades give +| additional LVs! This works retroactively. Also, }x Coin gain
 - Glimbo Linguistics: You can now speak to Glimbo, and make trades with him! Also boosts coins dropped by monsters by }x!
+- Eclectic Sigils: Sigils can be upgraded a 5th time to Eclectic!<br>NOTE:You must defeat Lore Boss 7 in Spelunking first!
 - Mr Minehead Linguistics: You can now speak to Mr Minehead and play his Depth Charge game! Also, +{ base Minehead Currency/hr
+- Rat King of Olde: You can now buy the Rat King from the Import Shop in Gaming! Also, +{% King Tokens per hour!
 - Transcendent Artifacts: Unlocks Transcendent Sailing Artifacts tier, and boosts Artifact Find Chance by a smol +{%
+- All Night Studying: Boosts Research EXP gain by +{%<br>You'll be filling out this Grid in no time at all!
+- Gaming Zuperbits: Unlocks the Zuperbits page of Superbits in Gaming! Yea, you ain't done with those just yet! Also gives }x Gaming Bit Multi!
+- Sticker Depot: Unlocks the Sticker mechanic for Farming! Also, boosts Megacrop growth chance by }x
 - Tiny Cogs: Unlocks the Tiny Cog board, and generates a single Tiny Cog per day! Also boosts Flaggy Rate by }x
 - Observationalistic: Gives you +| more Daily Rolls for getting new Observations! Also, +{% Research EXP gain!
+- Takin' Notes: Multiplies Research EXP gain by }x, TRUE multiplier style! So this bonus will never be additive!
+- Pts Every Ten: Get +| extra Research PTS every 10 Research LVs! Also, +{% Research EXP Gain!
 
 ## Kill-count talents
-- Archlord of the Pirates (Drop Rate and Class EXP): 6009 kills, value 15.05. Farm more Plunder Kills with Siege Breaker for Drop Rate Crystal Setup at W5 Citringes for ~20k per day
-- King of the Remembered (Printer Output): 2653262 kills, value 0. Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from
-- Wormhole Emperor (Damage): 487620 kills, value 5.29. Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns
+- Archlord of the Pirates (Drop Rate and Class EXP): 6015 kills, value 15.05. Farm more Plunder Kills with Siege Breaker for Drop Rate Crystal Setup at W5 Citringes for ~20k per day
+- King of the Remembered (Printer Output): 2655609 kills, value 22.84. Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from
+- Wormhole Emperor (Damage): 488354 kills, value 5.29. Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns
 
 ## Family bonuses (top level of each class, account-wide)
-- Journeyman 781; Maestro 781; Voidwalker 781; Warrior 835; Barbarian 832; Squire 835; Blood Berserker 832; Death Bringer 832; Divine Knight 835; Royal Guardian 835; Archer 848; Bowman 841; Hunter 848; Siege Breaker 841; Wind Walker 848; Beast Master 848; Mage 842; Wizard 842; Shaman 824; Elemental Sorcerer 842; Bubonic Conjuror 824; Arcane Cultist 824
+- Journeyman 781; Maestro 781; Voidwalker 781; Warrior 835; Barbarian 832; Squire 835; Blood Berserker 832; Death Bringer 832; Divine Knight 835; Royal Guardian 835; Archer 856; Bowman 846; Hunter 856; Siege Breaker 846; Wind Walker 856; Beast Master 856; Mage 842; Wizard 842; Shaman 830; Elemental Sorcerer 842; Bubonic Conjuror 830; Arcane Cultist 830
 
 ## Divinity blessings
-- Snehebatu 100; Arctis 100; Nobisect 74; Harriep 100; Goharut 58; Omniphau 40; Purrmep 100; Flutterbis 35; Kattlekruk 45; Bagur 40
+- Snehebatu 100; Arctis 100; Nobisect 110; Harriep 129; Goharut 58; Omniphau 80; Purrmep 129; Flutterbis 35; Kattlekruk 73; Bagur 60
 
 ## Achievements: 207 done, 61 open
 - Open: Hitting the Mark, Minecart Maniac, Spike Minigame Master, Minecart Master, Choppin' to the Beat, Decked Out in Gold, Two-Time Savior, What a View!, Seriousleaf-ast!, Heyo!, Golden Fly, Wassup Yo!, Fishing Finesse, Catching Coronation, A Fish Too Far, Monocle No More, Threadin' the Needle, Two Desserts!, WAAAAAAAHH!, Fish Aint Biting, Wazzzzam!, Just Passing By, Good Times Roll, Giant Slayer, There Can Be Only 1, Knock on Wood, Sepia Vision, A Most Nice Sale, Boss Defeated, Manager Defeated, Kingpin Defeated, Capitalist Win, Matrix Wickermen, Bland Dish, Lv. 5 Nothing, I LOVE These Mobs, Chippin' Away, Hunned Times a Day, Space Party!!!, Hibernating Gamer, Soda Poisoning, The True Pirate, The True Emperor, Maple Logger, No Krakens? ):, Maroon Warship, POiNG Champion, Chemical Collector, Perfect Trade Deal, Legendary Flag, Legendary Wormhole, Sneaky Stealing, Hug from Timmy, That's MY Crown, Leet Lanterns, Doctor Repellant, Cob Enjoyer, Legumulucky, Yellow Belt, Penta Defence, Beanstacker Prodigy
