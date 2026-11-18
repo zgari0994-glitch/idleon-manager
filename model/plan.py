@@ -333,7 +333,7 @@ account = {'money': {'total': sum(money.values()) + bank, 'bank': bank, 'per_cha
            'alerts': alerts + [{'name': f"{r['name']} ({r['value']})", 'owner': r['owner'], 'hits': [r['note']] if r['note'] else []} for r in ready_now if r['owner'] in ('anyone', 'unrouted')],
            'timers_captured': TM['captured_utc'] if TM else None, 'salts': salts, 'ledger': ledger, 'coins': {k: coins[k] for k in ('richest', 'vault', 'advice_fish', 'vendor', 'caveats')} if coins else None, 'active_ranked': ranked,
            'quick_mode': [t for t in ranked if t['minutes'] <= 15],
-           'unassigned': Y.get('unassigned', []), 'account_wide': Y.get('account_wide', []),
+           'unassigned': Y.get('unassigned') or [], 'account_wide': Y.get('account_wide', []),
            'loop': ['7am PC: refresh, full/maxed/timers checklist, dailies due now',
                     'Workday: active task(s) running (top of the ranked list)',
                     '3pm: cloud save, refresh, then cards one character at a time on the tablet']}
