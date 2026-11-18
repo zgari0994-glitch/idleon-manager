@@ -1,0 +1,217 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,pets,piggy,,mechanic,any,,Piggy provides autoloot infinite teleports and remote storage.,yes,3
+00:01:00,00:01:30,class_choice,elite_classes,,priority,w4,,Unlock elite classes on all characters.,yes,3
+00:01:30,00:02:30,characters,candy,,account_note,w4,accuracy=<100%;kills_per_hour=2563;hours=5.3-6,Using candy to unlock Elemental Sorcerer despite incomplete accuracy.,yes,3
+00:02:00,00:02:30,talent_points,afk_gains,,priority,w4,,Increase AFK talent before using candy.,yes,3
+00:02:30,00:03:01,cards,wood_mushroom,elemental_sorcerer,target,w4,,Farm Wood Mushroom accuracy cards overnight to push deeper into World Four.,yes,3
+00:02:30,00:03:01,lab,occupancy,,warning,w4,,Avoid removing everyone from the laboratory.,yes,3
+00:03:34,00:04:04,breeding,refiller,,mechanic,w4,,Goblin Refiller accelerates pet abilities.,yes,3
+00:03:34,00:04:04,breeding,defender,,mechanic,w4,,Mimic provides Defender.,yes,3
+00:04:04,00:04:34,breeding,defender,,mechanic,w4,block_chance=80%,Defender shields block attacks.,yes,3
+00:04:04,00:04:34,breeding,rattler,,priority,w4,,Rattler supplies the main pet battle damage.,yes,3
+00:04:04,00:04:34,breeding,refiller,,mechanic,w4,,Walking Stick is another Refiller.,yes,3
+00:04:04,00:04:34,breeding,nutto,,mechanic,w4,,Nutto provides a large burger tank.,yes,2
+00:04:34,00:05:05,breeding,monolith,,mechanic,w4,,Snelbie stops time so the team can ramp up.,yes,3
+00:05:05,00:05:37,breeding,fence_yard,,mechanic,w4,,Fence yard increases breedability multipliers for unlocking new pets.,yes,3
+00:05:37,00:06:07,breeding,egg_rarity,,mechanic,w4,,Egg rarity upgrades improve the rarity of capped eggs.,yes,3
+00:05:37,00:06:07,breeding,past_present_brood,,mechanic,w4,,Previous world pet unlocks improve breeding in the next world.,yes,3
+00:06:07,00:06:37,breeding,fail_safe,,mechanic,w4,,Failed attempts increase new pet chances.,yes,3
+00:06:07,00:06:37,breeding,eggs,,mechanic,w4,egg_chance=2;starting_eggs=1;possible_eggs=10,Later upgrades can generate extra eggs when the nest is empty.,yes,2
+00:06:37,00:07:08,breeding,upgrades,,priority,w4,,Prioritize accessible egg rarity and Past Present Brood upgrades.,yes,3
+00:06:37,00:07:08,stamps,breeding,,how_to,w4,,Use stamps to improve breeding.,yes,3
+00:06:37,00:07:08,breeding,experience,,mechanic,w4,,Leaving upgrades unselected provides breeding experience.,yes,2
+00:07:08,00:07:45,breeding,pet_battles,,account_note,w4,,Healer and Boomer setup lacks enough damage.,yes,3
+00:07:45,00:08:16,prayers,balance_of_precision,,mechanic,w3,accuracy=30%;damage=-5%;wave=31,Balance of Precision improves accuracy at a damage cost.,yes,3
+00:08:16,00:08:49,prayers,tachion_titans,,target,w4,,Unlock Tachion of the Titans.,yes,3
+00:08:16,00:08:49,prayers,royal_sampler,,target,w4,,Unlock Royal Sampler.,yes,3
+00:08:16,00:08:49,buildings,boulder_roller,,blocker,w4,,Upgrade Boulder Roller to handle difficult Acorn Assault waves.,yes,3
+00:08:16,00:08:49,killroy|arcade,routine,,priority,w4,,Do Killroy and arcade.,yes,3
+00:08:49,00:09:20,arcade,fragments,,mechanic,any,,Arcade frag rewards are obol fragments.,yes,3
+00:09:52,00:10:24,gem_shop,nugget_regeneration,,opinion,any,,Nugget regeneration is mediocre value.,yes,3
+00:09:52,00:10:24,gem_shop,tower_defense,,opinion,early,,Starting tower defense points are useful early.,yes,3
+00:09:52,00:10:24,gem_shop,afk_gains,,opinion,any,,The discussed AFK gain purchase has low value.,yes,2
+00:09:52,00:10:24,gem_shop,essence,,opinion,any,,The discussed essence purchase has low value.,yes,2
+00:09:52,00:10:24,gem_shop,breedability,,skip,any,,Avoid buying breedability unless spending heavily.,yes,3
+00:09:52,00:10:24,gem_shop|emperor,bonus,,opinion,w6,,Emperor bonus is extremely valuable.,yes,3
+00:09:52,00:10:24,gem_shop|hole,villager_experience,,opinion,any,,Villager experience multiplier is extremely valuable.,yes,3
+00:09:52,00:10:24,gem_shop|sneaking,experience,,opinion,any,,Sneaking experience multiplier is extremely valuable.,yes,3
+00:10:24,00:10:58,death_note,multikill,,opinion,any,,Multikill per tier appears small but adds value across tiers.,yes,3
+00:10:58,00:11:30,characters,kebabs,,opinion,any,,Kebabs scale strongly.,yes,2
+00:11:30,00:12:00,characters,candy,elemental_sorcerer,priority,w4,,Generally save candy early but spending it to unlock Elemental Sorcerer is worthwhile.,yes,3
+00:12:00,00:12:30,quests,elite_class,,warning,w4,,Green elite quest monsters hit harder than purple monsters.,yes,3
+00:12:30,00:13:02,class_choice,elite_classes,,opinion,w4,,Elemental Sorcerer and Divine Knight are excellent early elite classes.,yes,3
+00:12:30,00:13:02,cards,farming,elemental_sorcerer,priority,w4,,Use Elemental Sorcerer for card farming.,yes,3
+00:12:30,00:13:02,talent_points,symbols_beyond,elemental_sorcerer,setup,w4,points=1,Put one point in Symbols Beyond.,yes,3
+00:13:02,00:13:33,talent_points,chaotic_force,elemental_sorcerer,mechanic,w4,selected_chance=10%,Basic attacks can trigger fireball tornado or volcano.,yes,3
+00:13:02,00:13:33,talent_points,chaotic_force,elemental_sorcerer,comparison,w4,,Chaotic Force is weaker than Shockwave Slash.,yes,3
+00:13:02,00:14:05,talent_points,dimensional_wormhole,elemental_sorcerer,mechanic,w4,,Wormhole creates special variants of map monsters.,yes,3
+00:13:02,00:13:33,talent_points,dimensional_wormhole,elemental_sorcerer,mechanic,w4,,Wormhole kills scale experience and actual drop rate.,yes,3
+00:13:02,00:13:33,talent_points,wormhole_emperor,elemental_sorcerer,mechanic,w4,kills_scaling=powers_of_10,Wormhole Emperor grants account damage per power of ten wormhole kills.,yes,3
+00:13:33,00:14:05,talent_points,dimensional_wormhole,elemental_sorcerer,mechanic,w4,,Wormhole monsters become stronger with each kill.,yes,3
+00:14:05,00:14:35,talent_points,dimensional_wormhole,elemental_sorcerer,mechanic,w4,,Wormhole monsters do not advance map portal kill requirements.,yes,3
+00:14:05,00:14:35,talent_points,dimensional_wormhole,elemental_sorcerer,mechanic,w4,,Wormhole accelerates normal monster respawns.,yes,3
+00:14:05,00:14:35,talent_points,dimensional_wormhole,elemental_sorcerer,priority,w4,,Drop rate is Wormhole's main value despite additional experience and money.,yes,3
+00:14:35,00:15:06,cards,drop_chance,,mechanic,any,,Card drop chance and ordinary drop rate separately improve card farming.,yes,3
+00:14:35,00:15:06,upgrade_vault|cards,passive_cards,,setup,w4,,After vault makes card chance cards passive equip ordinary drop rate cards.,yes,2
+00:15:06,00:15:37,money,spending,,priority,w4,,Spend on accuracy and defense because damage is already sufficient.,yes,3
+00:15:37,00:16:07,talent_points,radiant_chainbolt,elemental_sorcerer,mechanic,w4,damage=62%;bounces=3,Chainbolt bounces between enemies with reduced damage per bounce.,yes,3
+00:15:37,00:16:07,talent_points,radiant_chainbolt,elemental_sorcerer,mechanic,late,,A later bonus reduces Chainbolt's bounce penalty.,yes,3
+00:15:37,00:16:07,talent_points,hotbar,elemental_sorcerer,setup,w4,,Place Wormhole first on the hotbar to prioritize respawns.,yes,3
+00:16:07,00:16:37,talent_points,hotbar,elemental_sorcerer,mechanic,w4,,Hotbar position controls skill priority.,yes,3
+00:16:07,00:16:37,talent_points,fireball,elemental_sorcerer,setup,w4,,Remove fireball from the bar when basic attacks already trigger it.,yes,3
+00:16:07,00:16:37,talent_points,mana,elemental_sorcerer,warning,w4,,Manage mana carefully on the new Elemental Sorcerer.,yes,3
+00:16:07,00:16:37,talent_points,levels,elemental_sorcerer,account_note,w4,level=96,Lower character level leaves fewer talent points than the Divine Knight.,yes,3
+00:16:37,00:17:07,tasks,maximum_hit,elemental_sorcerer,how_to,w2,,Use a strong lightning attack for the maximum damage task.,yes,2
+00:17:07,00:17:39,talent_points,lightning_barrage,elemental_sorcerer,mechanic,w4,level=3;damage=724%;targets=2,Lightning Barrage provides strong damage for bosses.,yes,3
+00:17:07,00:17:39,talent_points,meteor_shower,elemental_sorcerer,mechanic,w4,meteors=10;damage=28%,Meteor Shower drops multiple meteors.,yes,3
+00:17:07,00:18:43,talent_points,meteor_shower,elemental_sorcerer,warning,any,later_meteors=30-40,Meteor Shower can cause lag on phones and weak computers.,yes,3
+00:17:39,00:18:43,talent_points,meteor_shower,elemental_sorcerer,opinion,w4,,Meteor Shower has a useful short cooldown.,yes,3
+00:17:39,00:18:43,talent_points,dimensional_wormhole,elemental_sorcerer,account_note,w4,lifespan_seconds=44,Current Wormhole lasts forty-four seconds.,yes,3
+00:18:43,00:19:16,talent_points,build,elemental_sorcerer,priority,w4,,Prioritize Meteor Shower Lightning Barrage Chainbolt and Wormhole.,yes,3
+00:18:43,00:19:16,talent_points,chaotic_force,elemental_sorcerer,setup,w4,,Chaotic Force is optional for saving mana.,yes,3
+00:19:16,00:20:18,talent_points,wisdom,elemental_sorcerer,priority,w4,,Use flat wisdom as filler and percentage wisdom after stats scale.,yes,3
+00:19:16,00:20:18,talent_points,family_guy,elemental_sorcerer,priority,late,,Invest in Family Guy later.,yes,3
+00:19:16,00:20:18,talent_points,polytheism,elemental_sorcerer,priority,w5,,Polytheism and god ranks become relevant later.,yes,3
+00:19:16,00:20:18,talent_points,damage,elemental_sorcerer,opinion,w4,,The multiplicative damage talent is useful.,yes,3
+00:19:16,00:20:18,talent_points,symbols_beyond,elemental_sorcerer,priority,w4,,Always take Symbols Beyond.,yes,3
+00:20:18,00:20:48,talent_points,builds,,how_to,any,,Use Toolbox talent builds.,yes,3
+00:20:18,00:20:48,characters,kills,elemental_sorcerer,account_note,w4,kills_per_hour=3400,Current kill rate includes double kills.,yes,3
+00:20:48,00:21:50,talent_points,mana,elemental_sorcerer,blocker,w4,,Wormhole depletes available mana so allocate more points to mana.,yes,3
+00:21:50,00:22:22,cards,accuracy,elemental_sorcerer,target,w4,stars=3,Farm Wood Mushroom and Sand Castle cards overnight toward three stars.,yes,3
+00:22:22,00:22:53,class_choice,pushing,divine_knight,comparison,w4,,Divine Knight pushes more consistently through accuracy Brick Skin Divine Intervention and fewer mana problems.,yes,3
+00:22:53,00:23:23,talent_points,hotbar,elemental_sorcerer,setup,w4,,Remove expensive attacks to preserve mana.,yes,3
+00:23:23,00:23:53,characters,fishing_line,,priority,w4,,Use It's a Boy celebration fishing line as the best option.,yes,3
+00:23:23,00:23:53,characters,candy,,account_note,w4,kills=5000;candy_hours=1,One hour candy can cover the current route requirement.,yes,3
+00:23:53,00:24:25,cards,trunk,,account_note,w4,average_hours_per_card=8,Trunk card farming is slow at the current rate.,yes,3
+00:24:25,00:24:55,talent_points,hotbar,elemental_sorcerer,setup,w4,,Drop Lightning Barrage while retaining Meteor Shower Chainbolt and Tornado for manageable mana consumption.,yes,3
+00:24:55,00:25:27,cards,wood_mushroom,,account_note,w4,average_hours_per_card=2,Current Wood Mushroom card rate is one per two hours.,yes,3
+00:24:55,00:25:27,cards,loadout,,setup,w4,,Equip available drop rate cards before farming cards.,yes,3
+00:25:27,00:25:57,cards,snelbie,,target,w4,,Farm Snelbie cards for drop rate.,yes,3
+00:25:27,00:25:57,cards,loadout,elemental_sorcerer,setup,w4,,Fill remaining slots with damage wisdom and movement speed.,yes,3
+00:25:57,00:27:01,characters,portal,,account_note,w4,kills=7000,Sand Castle portal requires seven thousand kills.,yes,3
+00:25:57,00:27:01,talent_points,area_damage,elemental_sorcerer,priority,w4,,Use area attacks so Wormhole monsters do not consume all attacks.,yes,3
+00:27:31,00:28:01,class_choice,pushing,,comparison,w4,,Choose Elemental Sorcerer with sustainable mana or Divine Knight for accuracy Brick Skin and candy pushing.,yes,3
+00:28:31,00:29:03,talent_points,dimensional_wormhole,elemental_sorcerer,warning,w4,,Unkillable Wormhole monsters can stall automatic combat until the portal expires.,yes,3
+00:29:03,00:29:34,talent_points,family_bonus,elemental_sorcerer,mechanic,w4,,Elemental Sorcerer family bonus increases talent levels above one.,yes,3
+00:29:03,00:29:34,talent_points,family_guy,elemental_sorcerer,mechanic,w4,,Family Guy further increases talent levels through the family bonus.,yes,3
+00:29:03,00:29:34,talent_points,meteor_shower,elemental_sorcerer,account_note,w4,additional_meteors=2,Further investment adds two meteors.,yes,3
+00:29:34,00:30:06,talent_points,scaling,,opinion,w4,,Mage classes require high talent levels.,yes,3
+00:30:06,00:30:36,talent_points,scaling,bubonic_conjuror,comparison,w4,talent_level=200;performance=80%;divine_knight_points=1,Bubo needs high talent levels while Divine Knight performs strongly with single point talents.,yes,2
+00:30:36,00:31:07,bubbles,diamond_chef,,priority,w4,,Unlock Diamond Chef after Shaquracy FMJ and Rattata.,yes,3
+00:30:36,00:31:07,constellations,progression,,how_to,w4,,Map pushing and multikill support star sign progression.,yes,3
+00:31:07,00:31:39,lab|divinity,progression,,blocker,w4,,Lab and divinity impose major time gates.,yes,3
+00:31:07,00:31:39,cards,sand_castle,,account_note,w4,average_hours_per_card=3,Sand Castle cards currently average one per three hours.,yes,3
+00:31:39,00:32:09,cards,accuracy,,target,w4,stars=3,Expect overnight farming to reach three stars on both accuracy cards.,yes,2
+00:31:39,00:32:09,characters,wood_mushroom_drops,,mechanic,any,,Wood Mushrooms drop Red Frisbees and possibly Woodular Circles.,yes,2
+00:32:09,00:32:39,characters,frisbee_ring,,meta_change,any,,Frisbee Ring accuracy was once useful but the ring is now poor.,yes,3
+00:32:39,00:33:17,characters,void_boots,,meta_change,any,copper_boots=52,Void Boots formerly required fifty-two Copper Boots.,yes,3
+00:33:17,00:33:47,upgrade_vault|cards,accuracy,,comparison,w4,,Higher monster money for vault accuracy may outperform card farming.,yes,2
+00:33:17,00:34:19,buildings,boulder_roller,,target,w4,,Obtain stronger Boulder Roller and Kraken for Waka Waka War.,yes,3
+00:34:19,00:35:21,cards,farming,,account_note,w4,drop_rate=2.5,Current drop rate produces no cards during the short test.,yes,3
+00:34:50,00:35:21,cards,drop_chance,,priority,w4,,Improve card chance before extended Wood Mushroom farming.,yes,3
+00:34:50,00:35:21,characters,accuracy,,comparison,w4,,Levels and upgrade stones may improve accuracy more efficiently than early card farming.,yes,2
+00:35:58,00:36:28,cards,farming,elemental_sorcerer,account_note,w4,rotations=2,Two Wormhole rotations produced no cards and overnight testing remains necessary.,yes,3
+00:36:28,00:37:30,bubba,megafish,,warning,early,resets=1,A viewer reports needing one Fisheroo reset before Megafish to unlock fish bonuses.,yes,2
+00:37:30,00:38:01,cards,accuracy,,target,w4,,Walking Stick and Wood Mushroom cards can help elite class accuracy requirements.,yes,3
+00:38:01,00:38:32,kangaroo,knockouts,,account_note,w4,,Kangaroo knockouts and Neptune progression are current.,yes,2
+00:38:32,00:39:03,armor_smithy,copper_set,,comparison,w4,,Copper armor benefits mining and chopping efficiency while Amarok helps accuracy and defense.,yes,3
+00:39:03,00:40:34,talent_points,chopping,,setup,w4,,Use Smart Efficiency Book of the Wise Log on Logs wisdom and Skill Wiz for chopping.,yes,3
+00:40:34,00:41:39,armor_smithy,copper_set,,account_note,w4,efficiency=7000;bonus=60%,Copper set bonus appears to persist when changing equipped armor.,yes,2
+00:41:39,00:42:09,prayers,skilled_dimwit,,priority,w4,,Use Skilled Dimwit for substantially higher efficiency.,yes,3
+00:41:39,00:42:09,library,log_on_logs,,priority,w4,checkouts=30,Use available checkouts to improve Log on Logs.,yes,3
+00:42:09,00:42:40,library,log_on_logs,,account_note,w4,level=119;log_bonus_increase=30%,The new Log on Logs book increases the log bonus.,yes,3
+00:42:40,00:43:10,cards,chopping,,setup,w4,skill_afk=12%,Equip skill AFK and chopping efficiency cards.,yes,3
+00:43:10,00:43:42,printer,oak,,account_note,w4,sample=1800;previous_spoken=1.6,New oak sample improves on the previous sample.,yes,2
+00:43:42,00:44:45,printer|stamps,chopping,,priority,w4,,Sample birch and improve stamps.,yes,3
+00:44:45,00:45:16,quests,stiltz,,how_to,w4,,Use Stiltz quest rewards to build candy reserves.,yes,3
+00:45:16,00:45:47,characters,kills,,account_note,w4,kills_per_hour=6000,Current character reaches six thousand kills per hour.,yes,3
+00:45:16,00:45:47,forge|buildings,boulder_roller,,priority,w4,,Make bars needed for Boulder Roller upgrades.,yes,3
+00:45:16,00:45:47,characters,candy,,priority,w4,,Conserve candy.,yes,3
+00:45:47,00:46:18,characters,chaotic_amarok_pendant,,opinion,w4,,Initially considers Chaotic Amarok pendant unnecessary.,yes,3
+00:45:47,00:46:18,characters,accuracy,,account_note,w4,accuracy=5.3k;accuracy_other=6.33k,Current accuracy remains limited.,yes,2
+00:46:18,00:47:22,general,progression,,warning,early,,Do not rush worlds while neglecting basic systems and learning their mechanics.,yes,3
+00:47:22,00:47:53,traps,silk_skin,,target,w4,trap_level=5,Work toward Silk Skin traps.,yes,2
+00:47:22,00:47:53,quests,redox,,mechanic,w4,poison_frogs=1,Redox requires a poison frog.,yes,3
+00:47:53,00:48:24,characters,tools,squire,how_to,w4,,Upgrade iron tools with wisdom for accuracy.,yes,3
+00:48:24,00:48:56,dungeons,serrated_rex,,mechanic,w4,iron_bars_each=1000,Serrated Rex rings require one thousand iron bars each.,yes,3
+00:48:24,00:48:56,characters,elf_rings,,priority,w4,,Cheap elf rings provide underrated defense and are easy to obtain for everyone.,yes,3
+00:48:56,00:49:26,account_structure,investment,,setup,w4,duplicates=3,Invest less in duplicate classes while developing one main character of each class.,yes,3
+00:49:26,00:49:56,account_structure,pushing,,priority,w4,characters=1-2,Prioritizing one or two characters for world pushing is reasonable.,yes,3
+00:49:56,00:50:26,printer,materials,,comparison,w4,,Reprinting ores offers less improvement than bloach and fruit fly samples.,yes,3
+00:50:26,00:50:56,printer|bubbles,wisdom,,setup,w4,,Print oak and bleach logs for wisdom bubble upgrades.,yes,3
+00:50:56,00:51:26,vials,goldfish,,mechanic,early,kill_count_bonus=1.2%,Goldfish vial provides a small kill count bonus that matters early.,yes,3
+00:51:26,00:51:56,prayers,tachion_titans,,priority,w4,,Get Tachion of the Titans for candy farming.,yes,3
+00:51:56,00:52:27,characters,candy,,priority,w5,,Save candy for pushing World Five to World Six.,yes,3
+00:51:56,00:52:27,characters,candy,,warning,w6,,Candy cannot be used in the latest world until the next world update.,yes,3
+00:52:27,00:53:27,talent_points,damage,divine_knight,setup,w4,,Use Sharpened Axe Gilded Sword Meat Shank and Carry a Big Stick for damage.,yes,3
+00:52:27,00:53:27,talent_points,imbued_shockwaves,divine_knight,skip,w4,,Additional Imbued Shockwaves investment is unnecessary here.,yes,3
+00:53:27,00:54:29,dungeons,serrated_rex,,mechanic,w4,defense=5;efficiency=8%;slots=3,Serrated Rex provides defense efficiency and upgrade slots.,yes,3
+00:53:27,00:54:29,characters,elf_rings,,how_to,w4,,Pass old elf rings to other characters.,yes,3
+00:55:29,00:56:31,characters,upgraded_gear,,account_note,w4,defense_each=26;wisdom_each=17;other_defense=62;other_wisdom=28,Upgraded gear supplies substantial wisdom and defense.,yes,3
+00:56:31,00:57:04,characters,chaotic_amarok_pendant,,priority,w4,accuracy=11.1k,Reconsiders Chaotic Amarok pendant as worthwhile for wisdom.,yes,3
+00:57:04,00:57:37,characters,chaotic_amarok,,account_note,w4,,Chaotic Amarok dies easily and drops gems and candy.,yes,3
+00:57:37,00:58:08,characters,chaotic_amarok_pendant,,blocker,w4,distilled_water_required=25;available=24,One missing distilled water blocks pendant crafting.,yes,3
+00:58:08,00:58:40,quests,carpetiem,,mechanic,w4,bullets=225;distilled_water=15,Carpetiem quest offers fifteen distilled water for the bullet requirement.,yes,2
+00:58:40,00:59:10,talent_points,cranium_cooking,bubonic_conjuror,how_to,w4,,Move Aura points into Cranium Cooking and kill slimes sticks or nuts for water production.,yes,3
+00:59:10,00:59:41,talent_points,hotbar,bubonic_conjuror,setup,w4,,Cancel other automatic attacks during the Cranium Cooking setup.,yes,2
+00:59:41,01:00:13,cauldrons_liquids,distilled_water,,account_note,w4,water=25,Obtains enough distilled water but Cranium Cooking's contribution is uncertain.,yes,2
+01:00:13,01:00:45,characters,chaotic_amarok,,target,w4,,Kill Chaotic Amarok again for the pendant.,yes,3
+01:00:45,01:01:16,characters,chaotic_amarok_pendant,,mechanic,w4,wisdom=12;drop_rate=5%;total_damage=20%;weapon_power=2,Chaotic Amarok pendant provides wisdom drop rate total damage and weapon power.,yes,3
+01:01:16,01:01:47,characters,upgrade_stones,shaman,how_to,w4,,Transfer upgrade stones through the laboratory shaman.,yes,2
+01:01:47,01:02:18,characters,chaotic_amarok_pendant,,account_note,w4,defense=14;wisdom=20;remaining_slots=2;accuracy_before=11.1k;accuracy_after=12.1k,Upgraded pendant raises accuracy substantially.,yes,3
+01:02:18,01:02:50,characters,accuracy,,threshold,w4,stiltz=16k;floms=15k;clammies=12k;hit_chance=100%,Later World Four monsters need progressively higher accuracy.,yes,3
+01:02:50,01:03:20,owl|stamps,progression,,priority,w4,,Push for experience and money while improving owl and stamps.,yes,3
+01:03:20,01:03:51,characters,tools,,priority,w4,,Upgrade tools for additional wisdom.,yes,3
+01:03:51,01:04:22,characters,iron_axe,,target,w4,level=8;candy=1,Reach the tool level requirement using candy.,yes,3
+01:03:51,01:04:22,characters,copper_tools,,mechanic,w4,slots=2,Copper tools provide two upgrade slots.,yes,3
+01:04:22,01:05:23,characters,fishing_tools,,comparison,w4,bars=300;copper_level=4,Choose the copper fishing tool to avoid expensive bars and distilled water.,yes,3
+01:04:22,01:05:23,characters,fishing,,how_to,w4,,Use the fishing minigame to reach the tool requirement.,yes,3
+01:05:23,01:06:57,characters,skulls_traps,,skip,w4,slots=1,Save materials instead of upgrading skulls and traps for only one slot.,yes,3
+01:06:57,01:07:27,quests|stamps,defense,,target,w3,,Complete the World Three quest for a defense stamp.,yes,3
+01:06:57,01:07:27,stamps|printer,accuracy,,priority,w4,,Improve base accuracy stamps using printed materials.,yes,3
+01:07:27,01:09:31,statues,bullseye,,account_note,w4,accuracy=12.4k;statue=9,Bullseye statues contribute to current accuracy.,yes,2
+01:09:31,01:10:03,stamps,accuracy,,target,w4,,Cereal resources support accuracy stamp upgrades.,yes,2
+01:09:31,01:10:03,stamps,triple_shot,,target,w4,,A donut-related Triple Shot stamp is considered.,yes,1
+01:09:31,01:10:03,tasks,maximum_hit,elemental_sorcerer,how_to,w2,,Lightning Barrage makes the maximum hit task easy.,yes,3
+01:10:03,01:11:05,merits,world_three,,priority,w3,library_increase=6,Prioritize maximum library level sample size and refinery merits.,yes,3
+01:11:05,01:11:35,library,books,,account_note,w4,initial=106;reroll=129;maximum=131,Rerolling the library book obtains a much higher level.,yes,3
+01:11:05,01:11:35,talent_points,refinery_damage,divine_knight,setup,w4,,Move Daggerang points into refinery damage.,yes,3
+01:11:35,01:12:36,construction,cogs,,priority,w4,,Favor experience cogs even though identifying them takes effort.,yes,3
+01:12:36,01:13:06,buildings,boulder_roller,,target,w4,level=10,Upgrade Boulder Roller toward level ten.,yes,3
+01:13:06,01:13:42,stamps,new_pet_chance,,priority,w4,,Buy inexpensive new pet chance stamp upgrades.,yes,3
+01:13:06,01:14:12,stamps,cooking_recipe_speed,,priority,w4,speed_increase=30%,Buy inexpensive cooking recipe speed stamp upgrades.,yes,3
+01:13:42,01:14:12,quests,cooking,,account_note,w4,meals=3;level=2,The three meals at level two quest may be bugged.,yes,2
+01:14:12,01:14:42,quests,orange_tea,,target,w4,,Complete Orange Tea's questline for Crystals for Days.,yes,3
+01:14:12,01:14:42,quests,orange_tea,,blocker,w4,,Prerequisites include party invite coconut criminal moonmen fishing minigame and giant eye quests.,yes,2
+01:14:42,01:15:12,quests,redox,,target,w4,,Complete Redox quest for Buckler stamp.,yes,3
+01:14:42,01:15:12,quests,purple_mushroom_caps,,mechanic,w4,distilled_water=15,Purple mushroom cap quest rewards fifteen distilled water.,yes,3
+01:15:12,01:15:43,merits,no_bubble_left_behind,,priority,w4,,Prioritize No Bubble Left Behind in World Four merits.,yes,3
+01:15:12,01:15:43,recipe_unlocks,progression,,target,w4,recipes=12;tab=3,Work toward recipe unlocks and the third tab.,yes,2
+01:15:43,01:16:13,characters,royal_slasher,divine_knight,how_to,w4,,Craft Royal Slasher using Enforced Slasher nougat cakes and hides.,yes,3
+01:16:13,01:17:14,characters,weapon_stones,divine_knight,setup,w4,,Upgrade the weapon with wisdom for Precision Power.,yes,3
+01:17:14,01:17:44,characters,splicer,divine_knight,setup,w4,strength=17,Replace strength-focused splicer upgrades with wisdom.,yes,3
+01:17:14,01:17:44,characters,pickaxe,,setup,w4,,Keep strength on the iron pickaxe for mining.,yes,3
+01:17:14,01:17:44,cauldrons_liquids,distilled_water,,blocker,w4,,Distilled water remains scarce.,yes,3
+01:17:44,01:18:44,characters,tool_upgrades,,account_note,w4,slots=3;reach=80;wisdom_before=4;strength=11;wisdom_after=13,Tool upgrades increase wisdom.,yes,2
+01:18:44,01:19:14,breeding,splicing,,mechanic,w4,,An equipped splicer enables splicing AFK claims and candy after breeding unlocks.,yes,3
+01:19:14,01:19:44,breeding,splicing,,warning,w4,,Splicing sacrifices ordinary AFK loot.,yes,3
+01:20:15,01:20:46,characters,accuracy,divine_knight,account_note,w4,accuracy_steps=13.3k|13.8k|14.5k|15.3k,Upgrading almost all gear with wisdom provides enough accuracy for World Four.,yes,3
+01:20:46,01:21:16,characters,accuracy,divine_knight,priority,w4,remaining_wisdom=2;accuracy_target=16k,Offstat equipment upgrades are highly effective for accuracy.,yes,3
+01:21:16,01:21:48,characters,demon_genies,divine_knight,account_note,w4,kills_per_hour=2275;incoming_damage=4;damage=1.4million,Current Demon Genie performance works without everyone in the laboratory.,yes,3
+01:21:48,01:22:50,upgrade_vault,damage,,priority,w4,,Buy vault damage upgrades.,yes,3
+01:22:50,01:23:21,upgrade_vault|money,active_farming,,priority,w4,,Actively kill monsters and invest money in vault upgrades.,yes,3
+01:23:21,01:23:51,storage,slots,,priority,w4,extra_slots=5,Prioritize five additional storage slots.,yes,3
+01:23:51,01:24:23,characters|lab,pushing,,setup,w4,accuracy=4.5k,Try pushing an archer while maintaining laboratory connections.,yes,3
+01:24:23,01:24:54,characters,food,,priority,w4,,Equip food to solve missing survivability.,yes,3
+01:24:23,01:24:54,characters,elf_rings,,priority,w4,defense_each=15;defense_total=30,Elf rings can provide enough defense to change the fight outcome.,yes,3
+01:24:54,01:25:25,class_exp|lab,shaman,shaman,priority,w4,,Level the shaman for more talent points and laboratory benefits.,yes,3
+01:24:54,01:25:25,characters,pushing,,account_note,w4,survivability=100%;hours=2;minutes=2;kills=100,Current setup reaches full survivability and rapid progression.,yes,3
+01:25:25,01:25:55,cards,glunko,,account_note,w4,stars=3;weapon_power=8,Three star Glunko provides eight weapon power.,yes,3
+01:25:25,01:25:55,cards,wisdom,,target,w4,base_wisdom=10,World Three cards can provide valuable base wisdom.,yes,3
+01:25:55,01:26:25,cards,accuracy,divine_knight,account_note,w4,accuracy=15.2k;additional_wisdom=7;final_accuracy=almost_17k,Wisdom cards substantially increase accuracy for pushing toward World Five.,yes,3
+01:26:25,01:26:56,class_choice,elite_classes,,priority,w4,,Rotate characters through map progression and elite class unlocks.,yes,3
+01:26:56,01:27:27,constellations,star_signs,,priority,w4,,Work on star signs for more accuracy and damage.,yes,3
+01:26:56,01:27:27,owl,accuracy,,priority,w4,,Improve owl for additional accuracy.,yes,3
+01:26:56,01:27:27,stamps,stats,,priority,w4,,Upgrade stamps for broader stat improvements.,yes,3
+01:27:27,01:27:58,printer|stamps,accuracy,,setup,w4,,Printing cereal flies will support further accuracy stamp upgrades.,yes,2
+01:27:27,01:27:58,library|printer,sample_size,,priority,w4,,Use a higher book for printer sample size and improve samples after additional upgrades.,yes,3
