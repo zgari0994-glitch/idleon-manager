@@ -383,7 +383,8 @@ data_source:
 death_note:
   autoreview:
   - Death Note
-  findings: []
+  findings:
+  - death_note_two_dbs
   owners:
   - Autistopher
   - Autiszemo
@@ -438,7 +439,7 @@ emperor:
   - Emperor
   findings: []
   owners:
-  - unassigned in jobs.yaml
+  - Autistastic
   raw_key: emperor
   toolbox:
   - world-6/emperor (guide L156)
@@ -637,7 +638,7 @@ islands:
   - Islands
   findings: []
   owners:
-  - Autisticles
+  - Autistastic
   raw_key: islands
   toolbox:
   - world-2/islands (guide L83)
@@ -920,6 +921,7 @@ printer:
   - Autisticles
   - Autistomatic
   - Autistronaut
+  - Autiszemo
   raw_key: printer
   toolbox:
   - world-3/printer (guide L92)

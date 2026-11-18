@@ -1,4 +1,4 @@
-# System index · 105 systems · save 20261117T0042
+# System index · 105 systems · save 20261117T1959
 
 | system | Toolbox | AutoReview | tagged/chunks | owners |
 |---|---|---|---|---|
@@ -38,7 +38,7 @@
 | divinity | world-5/divinity | Divinity | 23/1270 | Autistabish |
 | drop_rate | GAP: no Toolbox page mapped | Drop Rate | 10/591 | unassigned in jobs.yaml |
 | dungeons | misc/dungeons | none (AutoReview does not rate it) | 1/0 | unassigned in jobs.yaml |
-| emperor | world-6/emperor | Emperor | 1/56 | unassigned in jobs.yaml |
+| emperor | world-6/emperor | Emperor | 1/56 | Autistastic |
 | equinox | world-3/equinox | Equinox | 0/73 | Autistopher |
 | event_points_shop | misc/event-shop | Event Shop | gap | Autistotle |
 | family_bonuses | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
@@ -55,7 +55,7 @@
 | hat_rack | world-3/hat-rack | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | highest_dmg | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | inventory | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
-| islands | world-2/islands | Islands | 7/0 | Autisticles |
+| islands | world-2/islands | Islands | 7/0 | Autistastic |
 | item_filter | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | jelly_operator | world-7/jelly-operator | Jelly Operator | 2/35 | Autisticles |
 | killroy | world-2/killroy | Killroy | 0/15 | Autistacular, Autistastic, Autistocat |
@@ -78,7 +78,7 @@
 | owl | clickers/owl | Owl | 2/0 | Autistopher |
 | post_office | GAP: no Toolbox page mapped | Post Office | gap | Autiszemo |
 | prayers | world-3/prayers | Prayers | 10/180 | Autistabish |
-| printer | world-3/printer, tools/sampling-companion | Sampling | 33/677 | Autisticles, Autistomatic, Autistronaut |
+| printer | world-3/printer, tools/sampling-companion | Sampling | 33/677 | Autisticles, Autistomatic, Autistronaut, Autiszemo |
 | quests | misc/quests | none (AutoReview does not rate it) | 24/0 | unassigned in jobs.yaml |
 | refinery | world-3/refinery | Refinery | 6/322 | Autistastic |
 | research | world-7/research | Research | 7/151 | Autistotle |
@@ -110,5 +110,5 @@
 
 ## Gaps
 - no_toolbox: autoloot, basketball, class_kill_talents, cog_board, colo_scores, companions, coral_kid, crystal_spawn_chance, dancing_coral, darts, data_source, drop_rate, family_bonuses, friend_bonuses, guild_bonuses, highest_dmg, inventory, item_filter, library, library_group_characters, manual_tome_score, max_subgroups, meritocracy, npc_tokens, obols, post_office, reset_counters, shrines, statues, tabbed_advice_groups, version, world_progress
-- no_owner: basketball, darts, drop_rate, emperor, storage, world_progress
+- no_owner: basketball, darts, drop_rate, storage, world_progress
 - thin_sources: achievements, advice_fish, alchemy_cauldrons, alchemy_p2w, alchemy_vials, arcade, atom_collider, beanstalk, bribes, cape_vine, clam_work, construction_buildings, coral_reef, dungeons, emperor, equinox, gallery, glimbo, greenstacks, islands, jelly_operator, killroy, legend_talents, library, meritocracy, merits, minehead, owl, refinery, research, saltlick, slab, storage, tesseract, the_button, tome, vault, world_progress, zenith_market

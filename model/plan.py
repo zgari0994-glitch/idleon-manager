@@ -267,6 +267,7 @@ for name, cfg in Y['characters'].items():
     # else rinse steps (ready items first, then the job's top rinse target). Then park.
     PB = {}  # job -> playbook steps (filled as playbooks get built)
     daily = []
+    if cfg.get('move'): daily.append({'block': 'Top move (sourced)', 'kind': 'move', 'steps': [f"{cfg['move']['text']} [{cfg['move']['src']}]"]})
     tim = [f"{r['name']}: {r['value']}" for r in ready_now if r['owner'] == name]
     if tim: daily.append({'block': 'Timers ready (Toolbox)', 'kind': 'timer', 'steps': tim})
     for j, jcfg in zip(card['jobs'], cfg['jobs']):

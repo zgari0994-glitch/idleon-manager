@@ -4439,6 +4439,118 @@
      ]
     },
     {
+     "job": "Emperor",
+     "basis": "zack",
+     "tiers": {
+      "Emperor": "untiered"
+     },
+     "subs": [
+      {
+       "name": "Emperor: Total Currencies and Bonuses",
+       "state": "open",
+       "items": [
+        {
+         "locked": "",
+         "section": "Emperor",
+         "group": "Total Currencies and Bonuses",
+         "label": "4.49x Ninja Stealth+0.3x per level",
+         "cur": "11",
+         "goal": "\u221e",
+         "score": 0,
+         "ready": false,
+         "infinite": true
+        },
+        {
+         "locked": "",
+         "section": "Emperor",
+         "group": "Total Currencies and Bonuses",
+         "label": "1.47x Deathbringer Extra Bones+0.05x per level",
+         "cur": "9",
+         "goal": "\u221e",
+         "score": 0,
+         "ready": false,
+         "infinite": true
+        }
+       ],
+       "more": 10
+      },
+      {
+       "name": "Emperor: Upcoming Showdowns",
+       "state": "open",
+       "items": [
+        {
+         "locked": "",
+         "section": "Emperor",
+         "group": "Upcoming Showdowns",
+         "label": "Showdown 55HP: 1.80e+24Reward: +0.3x Ninja Stealth",
+         "cur": "54",
+         "goal": "55",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "locked": "",
+         "section": "Emperor",
+         "group": "Upcoming Showdowns",
+         "label": "Showdown 56HP: 2.78e+24Reward: 20% cheaper Farming Upgrades",
+         "cur": "54",
+         "goal": "56",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 18
+      }
+     ],
+     "next": [
+      {
+       "locked": "",
+       "section": "Emperor",
+       "group": "Upcoming Showdowns",
+       "label": "Showdown 55HP: 1.80e+24Reward: +0.3x Ninja Stealth",
+       "cur": "54",
+       "goal": "55",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Emperor",
+       "group": "Upcoming Showdowns",
+       "label": "Showdown 56HP: 2.78e+24Reward: 20% cheaper Farming Upgrades",
+       "cur": "54",
+       "goal": "56",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Emperor",
+       "group": "Upcoming Showdowns",
+       "label": "Showdown 57HP: 4.28e+24Reward: +0.05x Windwalker Extra Dust",
+       "cur": "54",
+       "goal": "57",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      }
+     ],
+     "note": "Zack 11/17: Tastic (RG) runs every world boss + Emperor",
+     "where": [
+      {
+       "system": "emperor",
+       "toolbox": [
+        "world-6/emperor"
+       ],
+       "sources": "1 tagged / 56 chunks"
+      }
+     ]
+    },
+    {
      "job": "World bosses + minibosses (DK drop rate)",
      "basis": "zack",
      "tiers": {},
@@ -4751,6 +4863,13 @@
       "Push: Complete the Godshard Set: 1.00x Higher Winners Bonuses from Summoning 0 -> 1",
       "Push: Tatters of the Gods 0 -> 1",
       "Push: Emperor Kabuto 0 -> 1"
+     ]
+    },
+    {
+     "block": "Emperor",
+     "kind": "rinse",
+     "steps": [
+      "Push: Showdown 55HP: 1.80e+24Reward: +0.3x Ninja Stealth 54 -> 55"
      ]
     },
     {
@@ -5954,6 +6073,13 @@
     }
    ],
    "daily": [
+    {
+     "block": "Top move (sourced)",
+     "kind": "move",
+     "steps": [
+      "Move Well buckets onto the rock layer: Cobaltine 124,895 left gates #27, #30, #53 [Griffy gPQrOK53BDI + findings/hole_caverns_1-5.md]"
+     ]
+    },
     {
      "block": "Worship: souls + prayers (town)",
      "kind": "rinse",
@@ -12154,15 +12280,7 @@
     "src": "zack"
    }
   ],
-  "unassigned": [
-   {
-    "job": "Emperor",
-    "sections": [
-     "Emperor"
-    ],
-    "note": "Off Chio. Research who owns it (RG drop rate vs best fighter)"
-   }
-  ],
+  "unassigned": null,
   "account_wide": [
    {
     "job": "Minigames (anyone)",
