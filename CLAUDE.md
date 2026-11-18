@@ -27,13 +27,16 @@
 
 ## Play-session flow (keep it this short)
 1. Refresh (above). 1b. Timers: `preview_start` https://idleontoolbox.com/dashboard, wait ~6s, javascript_tool: click every "Show N more", then return `'TBDASH|'+new Date().toISOString()+'|'+document.querySelector('main').innerText+'|END|'+'x'.repeat(60000)`; close tab; `python3 tools/timers.py <file> snapshots/<LATEST>/timers.json`.
-2. `python3 tools/build_system_index.py` (only after jobs.yaml/source changes) · `python3 model/ledger.py` (materials vs last save) · `python3 model/coins.py` (coin costs vs money) then `python3 model/mechanics.py` 3. `python3 rinse/rinse.py` 4. `python3 model/plan.py` 5. `python3 model/acquire.py` (wiki sources in sources/ are static; re-pull only after a game update)
+2. `python3 tools/build_system_index.py` (only after jobs.yaml/source changes) · `python3 model/ledger.py` (materials vs last save) · `python3 model/coins.py` (coin costs vs money) · `python3 model/buffs.py` (buff sources: every stat's sources owned/missing, routed to owners; run before plan.py) then `python3 model/mechanics.py` 3. `python3 rinse/rinse.py` 4. `python3 model/plan.py` 5. `python3 model/acquire.py` (wiki sources in sources/ are static; re-pull only after a game update)
 6. `python3 model/dashboard.py` -> republish dashboard/index.html with publish_files (slug + version in dashboard/ARTIFACT; update version after).
 7. Guide Zack one character at a time from that character's card only (finish every job before moving on). Never dump all 11.
 8. Zack flags what's wrong / unwanted / missing -> after his OK, add to `sources/findings/gaps.md`. Morning run = gap review (findings, tagged rows, index; huge -> ChatGPT Lane A in queue.md).
 
 ## Never say "no data" (Zack rule)
 Before a card says no data / gap, check the Toolbox map (sources/creators/idleon-toolbox-guide.md), the system index, the dashboard timers and the raw save. If Toolbox shows it, the card uses it.
+
+## Buff sources (Zack 2026-11-17)
+Before explaining any level/stat (talent levels past book cap, plate levels, drop rate...), read its list in model/buffs.md. Never guess where levels come from.
 
 ## Talent levels (lesson 2026-11-17)
 A talent's shown level = book level + bonus levels. Check the book level (max book now 299): Generational Gemstones 368 -> 372 = book 295 -> 299, so it IS a Library checkout.

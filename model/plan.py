@@ -325,13 +325,16 @@ for al in Y.get('alerts', []):
 salts = [f"{a['label']} {a.get('cur','')}".strip() for g, path, a in leaves('Refinery') if g.get('name', '').startswith('Salt Excess')]
 lp = os.path.join(R, 'model', 'ledger.json')
 ledger = json.load(open(lp)) if os.path.exists(lp) else None
+bp = os.path.join(R, 'model', 'buffs.json')
+buffs = json.load(open(bp)) if os.path.exists(bp) else None
+for cd in cards: cd['buffs_missing'] = (buffs or {}).get('missing_by_owner', {}).get(cd['name'], [])
 cp = os.path.join(R, 'model', 'coins.json')
 coins = json.load(open(cp)) if os.path.exists(cp) else None
 ranked = sorted(ATASKS, key=lambda t: (t['importance'], t['minutes']))
 account = {'money': {'total': sum(money.values()) + bank, 'bank': bank, 'per_char': money,
                      'holder': max(money, key=money.get)},
            'alerts': alerts + [{'name': f"{r['name']} ({r['value']})", 'owner': r['owner'], 'hits': [r['note']] if r['note'] else []} for r in ready_now if r['owner'] in ('anyone', 'unrouted')],
-           'timers_captured': TM['captured_utc'] if TM else None, 'salts': salts, 'ledger': ledger, 'coins': {k: coins[k] for k in ('richest', 'vault', 'advice_fish', 'vendor', 'caveats')} if coins else None, 'active_ranked': ranked,
+           'timers_captured': TM['captured_utc'] if TM else None, 'salts': salts, 'ledger': ledger, 'buffs': {'newly_owned': buffs['newly_owned'], 'account_missing': buffs['missing_by_owner'].get('account', []), 'stats': [{'stat': x['stat'], 'section': x['section'], 'owned': x['owned'], 'missing': x['missing']} for x in buffs['stats']]} if buffs else None, 'coins': {k: coins[k] for k in ('richest', 'vault', 'advice_fish', 'vendor', 'caveats')} if coins else None, 'active_ranked': ranked,
            'quick_mode': [t for t in ranked if t['minutes'] <= 15],
            'unassigned': Y.get('unassigned') or [], 'account_wide': Y.get('account_wide', []),
            'loop': ['7am PC: refresh, full/maxed/timers checklist, dailies due now',
@@ -373,6 +376,7 @@ for cd in sorted(cards, key=lambda x: x['slot']):
     for l in cd['locked']: L.append(f"- LOCKED: {l['feature']} <- {l['unlock']}")
     for k, v in cd['talents'].items(): L.append(f"- Talents {k}: " + ', '.join(v))
     if cd['bags']: L.append('- Bags missing: ' + '; '.join(b[:50] for b in cd['bags']))
+    if cd.get('buffs_missing'): L.append(f"- BUFF SOURCES MISSING ({len(cd['buffs_missing'])}, model/buffs.md): " + ' | '.join(cd['buffs_missing'][:8]))
     L.append('')
 open(os.path.join(R, 'plans', f'{stamp}.md'), 'w').write('\n'.join(L))
 print(f"{len(cards)} cards, {sum(len(j['subs']) for c in cards for j in c['jobs'])} sub-systems, {len(alerts)} alerts -> plans/{stamp}.md")

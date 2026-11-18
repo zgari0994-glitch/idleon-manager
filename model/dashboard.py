@@ -101,6 +101,7 @@ D.cards.forEach(cd=>{const c=el('div','card');c.id='slot-'+cd.slot;
  cd.locked.forEach(l=>line('lock','LOCKED',l.feature+' ← '+l.unlock));
  const tl=Object.entries(cd.talents||{});if(tl.length){const b=el('details','job');b.append(el('summary','t','Library talents'));tl.forEach(([k,v])=>b.append(el('div','sub',k+': '+v.join(', '))));c.append(b)}
  if(cd.bags.length)line('sub','Bags missing',cd.bags.join('; '));
+ if((cd.buffs_missing||[]).length){const b=el('details','job');b.append(el('summary','t','Buff sources missing ('+cd.buffs_missing.length+')'));const u=el('ul');cd.buffs_missing.forEach(x=>u.append(el('li',null,x)));b.append(u);c.append(b)}
  C.append(c)});
 const S=document.getElementById('side'),sd=D.side;
 const box=(title,node)=>{const b=el('div','box');b.append(el('h3',null,title),node);S.append(b)};
@@ -114,6 +115,9 @@ if(A.ledger){const lw=A.ledger.watch.map(w=>w.item+': '+Math.round(w.owned).toLo
 if(A.coins){const e=x=>Number(x).toExponential(2);const C2=A.coins;
  box('Coins: Upgrade Vault (cheapest next)',list(C2.vault.slice(0,15).map(v=>v.name+' '+v.level+'/'+v.max+': next '+e(v.next)+' · '+C2.richest+' can buy +'+v.buy_richest+' ('+e(v.buy_cost)+')')));
  box('Coins: Advice Fish + vendor',list(C2.advice_fish.map(f=>f.name+' lv '+f.level+': next '+e(f.next)+' · '+(f.next_ok.slice(0,2).join(', ')||'nobody')).concat(C2.vendor.map(v=>v.name+': '+e(v.price)+' · '+(v.ok.slice(0,2).join(', ')||'nobody')+(v.check?' · check price':'')),C2.caveats)))}
+if(A.buffs){box('Buff sources (stats with sources owned/missing)',list(A.buffs.stats.map(x=>x.section+': '+x.stat.slice(0,60)+' · '+x.owned+' owned / '+x.missing+' missing')));
+ box('Newly unlocked buffs since last save',list(A.buffs.newly_owned.length?A.buffs.newly_owned:['none yet']));
+ box('Account-wide buff sources missing ('+A.buffs.account_missing.length+')',list(A.buffs.account_missing))}
 if(A.money)box('Money',list(['Total '+Number(A.money.total).toExponential(2)+' · bank '+Number(A.money.bank).toExponential(2),A.money.holder+' holds the most']));
 if(A.unassigned)box('Unassigned',list(A.unassigned.map(u=>u.job+': '+u.note)));
 const tags=a=>{const d=el('div','tags');a.forEach(x=>d.append(el('span','tag',x)));if(!a.length)d.append(el('span','muted','none'));return d};

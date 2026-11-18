@@ -1,0 +1,3689 @@
+{
+ "stamp": "20261117T1959",
+ "vs": "20261117T0042",
+ "stats": [
+  {
+   "stat": "Sources of Crystal Spawn Chance",
+   "section": "Active",
+   "owned": 10,
+   "missing": 5,
+   "rows": [
+    {
+     "source": "Chocolatey Chip for more Crystal Mobs",
+     "tab": "Account Wide",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "account"
+    },
+    {
+     "source": "Hyperion Nebula- Demon Genie card:+90/105% Crystal Mob Spawn Chance",
+     "tab": "Account Wide",
+     "cur": "6",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Blunder Hills- Poop card:+60/70% Crystal Mob Spawn Chance",
+     "tab": "Account Wide",
+     "cur": "6",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Omega Nanochip: Top Left card doubler",
+     "tab": "Account Wide",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Omega Motherboard: Bottom Right card doubler",
+     "tab": "Account Wide",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Stamps - Crystallin: +185.09% Spawn Chance",
+     "tab": "Account Wide",
+     "cur": "180",
+     "goal": "270",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Level 24 Crescent Shrine: +300%Shrines have no Max level. Goal of 32 is arbitrary",
+     "tab": "Account Wide",
+     "cur": "24",
+     "goal": "32",
+     "state": "missing",
+     "owner": "Autistastic"
+    },
+    {
+     "source": "Chaotic Chizoar card to increase Shrine (1.35x multi already included)",
+     "tab": "Account Wide",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Sailing: Moai Head artifact to apply Shrines everywhere",
+     "tab": "Account Wide",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 127/299 booked Cmon Out Crystals talent (Jman only)",
+     "tab": "Character Specific",
+     "cur": "127",
+     "goal": "299",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Crystals 4 Dayys star talent: 2.16x at level 100",
+     "tab": "Character Specific",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "account"
+    },
+    {
+     "source": "Non Predatory Loot Box: +39% at 400 crates",
+     "tab": "Character Specific",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "account"
+    },
+    {
+     "source": "Note: Crescent Shrine and PO Box are additive: 4.394xThe cards also add together. Everything else is a unique multiplier.",
+     "tab": "Total",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Best Crystal Spawn Chance on Non-Jman: 5.4112% (1 in 18.48)",
+     "tab": "Total",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "account"
+    },
+    {
+     "source": "Best Crystal Spawn Chance on Jman: 18.0927% (1 in 5.53)",
+     "tab": "Total",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "account"
+    }
+   ]
+  },
+  {
+   "stat": "Account wide sources of Drop Rate (+3428.9%)",
+   "section": "Drop Rate",
+   "owned": 31,
+   "missing": 50,
+   "rows": [
+    {
+     "source": "Bosses n Nightmares- Domeo Magmus card:+3/10.5% Total Drop Rate (Passive)",
+     "tab": "General - +321.5% Total Drop Rate",
+     "cur": "2",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Smolderin' Plateau- Ancient Golem card:+8/28% Total Drop Rate (Passive)",
+     "tab": "General - +321.5% Total Drop Rate",
+     "cur": "2",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Smolderin' Plateau- Crystal Glunko card:+0/42% Total Drop Rate (Passive)",
+     "tab": "General - +321.5% Total Drop Rate",
+     "cur": "0",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Events- IdleOn 4th Anniversary card:+0/14% Drop Rate (Passive)",
+     "tab": "General - +321.5% Total Drop Rate",
+     "cur": "0",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Events- Luckulyte card:+0/21% Drop Rate (Passive)",
+     "tab": "General - +321.5% Total Drop Rate",
+     "cur": "0",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Guild Bonus - Gold Charm:+12.97% Total Drop Rate",
+     "tab": "General - +321.5% Total Drop Rate",
+     "cur": "24",
+     "goal": "50",
+     "state": "missing",
+     "owner": "account"
+    },
+    {
+     "source": "Codex - Drop Rate Friend Bonus: +22.49/75% Drop RateFrom IdleOnLech (1844)",
+     "tab": "General - +321.5% Total Drop Rate",
+     "cur": "22.49",
+     "goal": "75",
+     "state": "missing",
+     "owner": "account"
+    },
+    {
+     "source": "Upgrade Vault - Drops for Days: +75.00% Drop Rate, also known by the IdleOn community as DR(1.50 per level after Vault Mastery 1)",
+     "tab": "General - +321.5% Total Drop Rate",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Gem Shop - Deathbringer Pack: +200/200% Drop Rate",
+     "tab": "General - +321.5% Total Drop Rate",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Skull of Major Droprate: +0.0% Drop Rate bonus for all characters, always!(1.00 per level after Writhing Grimoire)Requires 4393 more Upgrades to unlock",
+     "tab": "Master Classes - +0.0% Total Drop Rate, x1 Drop Rate Multi",
+     "cur": "0",
+     "goal": "999999",
+     "state": "missing",
+     "owner": "account"
+    },
+    {
+     "source": "Plutus the Prosperous: Not built (1/50)1.00x Drop Rate",
+     "tab": "Master Classes - +0.0% Total Drop Rate, x1 Drop Rate Multi",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "account"
+    },
+    {
+     "source": "Owl - Drop Rate:+165% Drop Rate",
+     "tab": "World 1 - +191.5% Total Drop Rate",
+     "cur": "10",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Stamps - Golden Sixes Stamp: +26.47% Drop RateNote: Can be increased by Exalting the stamp",
+     "tab": "World 1 - +191.5% Total Drop Rate",
+     "cur": "90",
+     "goal": "210",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Arcade Bonus 27: +26.29/60.3% Drop Rate",
+     "tab": "World 2 - +200.0% Total Drop Rate",
+     "cur": "78",
+     "goal": "101",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Obols - Family Obols: +104/228% Drop RateNote: Includes Rare and Hyper Obols, each rerolled with +1% DR",
+     "tab": "World 2 - +200.0% Total Drop Rate",
+     "cur": "104",
+     "goal": "228",
+     "state": "missing",
+     "owner": "account"
+    },
+    {
+     "source": "Alchemy Bubbles - Droppin Loads: +29.71/39.6% Drop RateNext breakpoint: 80% value at level 280",
+     "tab": "World 2 - +200.0% Total Drop Rate",
+     "cur": "202",
+     "goal": "6930",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Artifacts - Chilled Yarn: 4/8x Sigil BonusesNote: Improves the sigil below",
+     "tab": "World 2 - +200.0% Total Drop Rate",
+     "cur": "3",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Sigils - Trove Sigil: +40/1200% Drop Rate",
+     "tab": "World 2 - +200.0% Total Drop Rate",
+     "cur": "1",
+     "goal": "5",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Weekly Ballot - Drop Rate: +0.0/76.76%(Buff is Inactive)",
+     "tab": "World 2 - +200.0% Total Drop Rate",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "account"
+    },
+    {
+     "source": "Equinox: Faux Jewels: +0/160% Drop Rate",
+     "tab": "World 3 - +25.0% Total Drop Rate",
+     "cur": "0",
+     "goal": "32",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Armor Set - Efaunt Set: +25.0% Drop Rate",
+     "tab": "World 3 - +25.0% Total Drop Rate",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "account"
+    },
+    {
+     "source": "Hat Rack - Drop Rate: +176.67%41 hats, 1.51x multi",
+     "tab": "World 3 - Hat Rack",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "account"
+    },
+    {
+     "source": "Hat Rack - Drop Rate Multi: +1.51%41 hats, 1.51x multi",
+     "tab": "World 3 - Hat Rack",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "account"
+    },
+    {
+     "source": "Breeding - Shiny Slime: +5/20% Drop Rate",
+     "tab": "World 4 - +154.4% Total Drop Rate",
+     "cur": "5",
+     "goal": "20",
+     "state": "missing",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Breeding - Shiny Xylobone: +10/20% Drop Rate",
+     "tab": "World 4 - +154.4% Total Drop Rate",
+     "cur": "10",
+     "goal": "20",
+     "state": "missing",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Breeding - Shiny Choccie: +5/20% Drop Rate",
+     "tab": "World 4 - +154.4% Total Drop Rate",
+     "cur": "5",
+     "goal": "20",
+     "state": "missing",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Grey Tome Book: 1.23x higher bonuses from the Tome(1.00 per level: Not scaled by Writhing Grimoire)",
+     "tab": "World 4 - +154.4% Total Drop Rate",
+     "cur": "23",
+     "goal": "150",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Tome- Red Pages:+134.4% Drop Rate31,321 Total Tome PointsIncreases every 100 points over 8000",
+     "tab": "World 4 - +154.4% Total Drop Rate",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "account"
+    },
+    {
+     "source": "Cape Vine - Chains of the Gilded Vaultguard+11.3% Drop Rate MultiPlain Vine: 0.28x",
+     "tab": "World 4 - Cape Vine",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Cape Vine - Lovely Balloon+250% Drop RateNot deposited",
+     "tab": "World 4 - Cape Vine",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Cape Vine - Molten Cloak+8.47% Drop RatePlain Vine: 0.28x",
+     "tab": "World 4 - Cape Vine",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Cape Vine - Gilded Emperor Wings+2.82% Drop RatePlain Vine: 0.28x",
+     "tab": "World 4 - Cape Vine",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Caverns - Measurement #16:+0.00% Drop Rate (scales with Golem Kills)",
+     "tab": "World 5 - +0.0% Total Drop Rate",
+     "cur": "0",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Schematic #45 - Gloomie Lootie:+5% Drop Rate for each Colony of Gloomie Mushrooms defeated! Drop rate here as in like, the one for stuff outside of the Caverns.",
+     "tab": "World 5 - +0.0% Total Drop Rate",
+     "cur": "0",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Schematic #82 - Sanctum of LOOT:+20% Drop Rate for each Sanctum of Ancient Golems you've cleared!Total Bonus: +0%",
+     "tab": "World 5 - +0.0% Total Drop Rate",
+     "cur": "0",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Cavern 13- Wisdom Monument:+0.0% Player Drop Rate",
+     "tab": "World 5 - +0.0% Total Drop Rate",
+     "cur": "0",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Achievements - Big Big Hampter: +4/4% Drop Rate",
+     "tab": "World 6 - +371.6% Total Drop Rate",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Achievements - Summoning GM: +6/6% Drop Rate",
+     "tab": "World 6 - +371.6% Total Drop Rate",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Farming Crop Depot - Highlighter:+43.5/400.2% DR",
+     "tab": "World 6 - +371.6% Total Drop Rate",
+     "cur": "125",
+     "goal": "330",
+     "state": "missing",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Land Ranks - Seed of Loot:Increases the Drop Rate of all characters by +87.08/108.85%",
+     "tab": "World 6 - +371.6% Total Drop Rate",
+     "cur": "4",
+     "goal": "5",
+     "state": "missing",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Exotic Market - POMMELION SEED:+0/25% Drop Rate",
+     "tab": "World 6 - +371.6% Total Drop Rate",
+     "cur": "0",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Armor Set - Secret Set: 1.00x Gold Food effectNote: Increases Golden Food bonus. See character-specific sections",
+     "tab": "World 6 - +371.6% Total Drop Rate",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "account"
+    },
+    {
+     "source": "Summoning Bonus:+210% Drop Rate",
+     "tab": "World 6 - +371.6% Total Drop Rate",
+     "cur": "210",
+     "goal": "262.5",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Emperor Showdown:+21% Drop Rate",
+     "tab": "World 6 - +371.6% Total Drop Rate",
+     "cur": "2",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autistastic"
+    },
+    {
+     "source": "Legend Talent - Greatest Drop Party Ever: +2000% Drop Rate for all players! This bonus is additive, not a multiplier.",
+     "tab": "World 7 - +2000.0% Total Drop Rate",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Spelunking - Golden Hardhat:+0/500% Drop Rate. For all characters, all the time, except for the past. Only works starting now!",
+     "tab": "World 7 - +2000.0% Total Drop Rate",
+     "cur": "0",
+     "goal": "500",
+     "state": "missing",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Research - Divine Design (N4):Arctis nods in approval... all Research Grid bonuses are 1.05x higher. Also, +0/25% Drop Rate.",
+     "tab": "World 7 - +2000.0% Total Drop Rate",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Gallery - Deadbones Nametag25% Drop Rate Multi35% Drop Rate",
+     "tab": "World 7 - Gallery",
+     "cur": "0",
+     "goal": "5",
+     "state": "missing",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Gallery - Nine Dart Finish9% Drop Rate Multi",
+     "tab": "World 7 - Gallery",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Gallery - One of the Divine148.06% Drop RatePodium Multi: 2.5x",
+     "tab": "World 7 - Gallery",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Gallery - Luckiest Lad777% Drop Rate",
+     "tab": "World 7 - Gallery",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Gallery - Luckier Lad141.01% Drop RatePodium Multi: 2x",
+     "tab": "World 7 - Gallery",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Gallery - Lucky Lad14.81% Drop RatePodium Multi: 1.5x",
+     "tab": "World 7 - Gallery",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Gallery - Ultra Unboxer3% Drop Rate",
+     "tab": "World 7 - Gallery",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Gallery - Balling Nametag141.01% Drop RateLevel Multi: 2.5x",
+     "tab": "World 7 - Gallery",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Gallery - Treasure Nametag25% Drop Rate",
+     "tab": "World 7 - Gallery",
+     "cur": "0",
+     "goal": "5",
+     "state": "missing",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Gallery - Aethermoon Nametag14.1% Drop RateLevel Multi: 1x",
+     "tab": "World 7 - Gallery",
+     "cur": "1",
+     "goal": "5",
+     "state": "missing",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Gallery - 3rd Anniversary IdleOn Nametag3% Drop Rate",
+     "tab": "World 7 - Gallery",
+     "cur": "0",
+     "goal": "5",
+     "state": "missing",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Companions - Crystal Custard:+100% Drop Rate and Class Exp",
+     "tab": "Companions - +165.0% Drop Rate, x1.31 Drop Rate Multi",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "account"
+    },
+    {
+     "source": "Companions - Quenchie:+15% Drop Rate",
+     "tab": "Companions - +165.0% Drop Rate, x1.31 Drop Rate Multi",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "account"
+    },
+    {
+     "source": "Companions - Santa Snake+:+50% Class EXP, +50% Drop Rate, 1.01x Class EXP, and 1.01x Drop RateUpgraded with Pet Mart+",
+     "tab": "Companions - +165.0% Drop Rate, x1.31 Drop Rate Multi",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Companions - Clammie:+100% Class EXP and Drop Rate",
+     "tab": "Companions - +165.0% Drop Rate, x1.31 Drop Rate Multi",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Companions - Lucky Slug:+15% Drop Rate",
+     "tab": "Companions - +165.0% Drop Rate, x1.31 Drop Rate Multi",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "account"
+    },
+    {
+     "source": "Companions - Mama Troll:+100% Drop Rate and 1.50x Drop Rate Multi",
+     "tab": "Companions - +165.0% Drop Rate, x1.31 Drop Rate Multi",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "account"
+    },
+    {
+     "source": "Companions - Glunko The Massive:3x Total Damage, 5x Class EXP gain, 1.5x Drop Rate",
+     "tab": "Companions - +165.0% Drop Rate, x1.31 Drop Rate Multi",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "account"
+    },
+    {
+     "source": "Companions - Crystal Glunko:1.50x Damage, 1.40x Class EXP, 1.30x Drop Rate, and 1.20x extra Kills",
+     "tab": "Companions - +165.0% Drop Rate, x1.31 Drop Rate Multi",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "account"
+    },
+    {
+     "source": "Companions - Mallay:1.30x Drop Rate",
+     "tab": "Companions - +165.0% Drop Rate, x1.31 Drop Rate Multi",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "account"
+    },
+    {
+     "source": "These bonuses are applied after the flat account-wide and character-specific bonuses in the shown order.",
+     "tab": "Special bonuses",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "account"
+    },
+    {
+     "source": "Siege Breaker Talent - Archlord of the Pirates: 1.15047/1.18944x Drop Rate MULTILevel 296/762 with your current kills",
+     "tab": "Special bonuses",
+     "cur": "0.01M",
+     "goal": "1.00M",
+     "state": "missing",
+     "owner": "account"
+    },
+    {
+     "source": "Rift - Sneaking Mastery: +30/30% Drop Rate",
+     "tab": "Special bonuses",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Gem Shop - Island Explorer Pack: 1.2/1.2x Drop Rate MULTI",
+     "tab": "Special bonuses",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Map-specific: Drop Rate MULTI from Arcane Cultist's 'Overwhelming Energy' talent. See character-specific sections",
+     "tab": "Special bonuses",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Pristine Charms - Cotton Candy:1.15x Drop Rate",
+     "tab": "Special bonuses",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Unique Sushi #49: 1.1x Drop Rate",
+     "tab": "Special bonuses",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Obstruction 15 - Gold Bangle:1.05x Drop Rate",
+     "tab": "Special bonuses",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "account"
+    },
+    {
+     "source": "Research - Glimbo Insider Trading Secrets (I4):+0/1% Drop Rate TRUE Multi per 100 Glimbo Trades!Total Bonus:1x DR",
+     "tab": "Special bonuses",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Tome - Drop Rate Multi: 1x Drop Rate MULTIRequires Singed Tome from the Event Shop",
+     "tab": "Special bonuses",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Research - Minehead Opponent 1:1.1x Total Damage and 1.1x Drop Rate!",
+     "tab": "Special bonuses",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Equinox - Nightmare 34: 1/1.05x Drop Rate MULTI",
+     "tab": "Special bonuses",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Vial - Shipinabottle: 1x Drop Rate MULTI",
+     "tab": "Special bonuses",
+     "cur": "0",
+     "goal": "13",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Character-specific: Drop Rate MULTI from Equipment. See character-specific sections",
+     "tab": "Special bonuses",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "account"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Card Drop Chance",
+   "section": "Cards",
+   "owned": 11,
+   "missing": 5,
+   "rows": [
+    {
+     "source": "Total Card Drop Chance bonus: 11.75x (12.36x if Jman)",
+     "tab": "Total: 11.75x (12.36x if Jman)",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Passive +20% bonus. Not multiplied by other Multi Groups",
+     "tab": "Base Chance: +20%",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Bribe: Five Aces in the Deck: 1.2/1.2x",
+     "tab": "Multi Group A - account-wide",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Vial - Anearful: +117.52%",
+     "tab": "Multi Group A - account-wide",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Stamps - Card Stamp: +250% Card Drop Rate",
+     "tab": "Multi Group A - account-wide",
+     "cur": "250",
+     "goal": "330",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Alchemy Bubbles - Card Champ: +62.96/100%",
+     "tab": "Multi Group A - account-wide",
+     "cur": "68",
+     "goal": "3960",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Guild Bonus - C2 Card Spotter:+15.88% Card Drop Rate",
+     "tab": "Multi Group A - account-wide",
+     "cur": "18",
+     "goal": "50",
+     "state": "missing",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Blunder Hills- Gigafrog card:+35/35% Card Drop Chance",
+     "tab": "Multi Group A - character-specific",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Yum-Yum Desert- Snelbie card:+56/56% Card Drop Chance",
+     "tab": "Multi Group A - character-specific",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Frostbite Tundra- Sir Stache card:+54/63% Card Drop Chance",
+     "tab": "Multi Group A - character-specific",
+     "cur": "6",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Events- Egggulyte card:+0/7% Card Drop Chance",
+     "tab": "Multi Group A - character-specific",
+     "cur": "0",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Star Signs - Pokaminni: +15% if equipped",
+     "tab": "Multi Group A - character-specific",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Full Card Drop Chance Obols: +191%Both personal and family, all rerolled for +1% Card Drop Chance",
+     "tab": "Multi Group A - character-specific",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "2x 8 Ball Keychains: 2x +10%",
+     "tab": "Multi Group A - character-specific",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Cards Galore Talent: +43.22% if maxed (Jman only)",
+     "tab": "Multi Group A - class-specific",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Star Talent \"Cardiovascular!\": 1.38x if maxed",
+     "tab": "Multi Group B: 1.38x (character-specific)",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistronaut"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Carry Capacity",
+   "section": "Stamps",
+   "owned": 14,
+   "missing": 12,
+   "rows": [
+    {
+     "source": "Jade Emporium - Level Exemption:Completely and utterly removes the UNDER-LEVELED bonus reduction of all stamps in your collection, now and forever. Amen.",
+     "tab": "Stamps",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Lab Bonus - Certified Stamp Book: 2/2x",
+     "tab": "Stamps",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Pristine Charms - Liqorice Rolle:1.25x Bigger Bonuses of Non Misc Stamps",
+     "tab": "Stamps",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Lil' Mining Baggy Stamp: +525 Mining Carry Cap",
+     "tab": "Stamps",
+     "cur": "210",
+     "goal": "310",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Choppin' Bag Stamp: +475 Choppin Carry Cap",
+     "tab": "Stamps",
+     "cur": "190",
+     "goal": "330",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Matty Bag Stamp: +500 Material Carry Cap",
+     "tab": "Stamps",
+     "cur": "200",
+     "goal": "410",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Bag o Heads Stamp: +300% Fish Carry Cap",
+     "tab": "Stamps",
+     "cur": "120",
+     "goal": "224",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Bugsack Stamp: +300% Bug Carry Cap",
+     "tab": "Stamps",
+     "cur": "120",
+     "goal": "224",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Mason Jar Stamp: +180.6% All Carry Cap",
+     "tab": "Stamps",
+     "cur": "84",
+     "goal": "160",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Bribe: Bottomless Bags: +5/5%",
+     "tab": "Account Wide",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Guild Bonus - Rucksack:+17.76% Total Carry Cap",
+     "tab": "Account Wide",
+     "cur": "17",
+     "goal": "50",
+     "state": "missing",
+     "owner": "account"
+    },
+    {
+     "source": "Level 24 Pantheon Shrine: +76%Shrines have no Max level. Goal of 32 is arbitrary",
+     "tab": "Account Wide",
+     "cur": "24",
+     "goal": "32",
+     "state": "missing",
+     "owner": "Autistastic"
+    },
+    {
+     "source": "Chaotic Chizoar card to increase Shrine (1.35x multi already included)",
+     "tab": "Account Wide",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Gem Shop - Carry Capacity (Inventory and Storage): +250/250%",
+     "tab": "Account Wide",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Star Sign - Seraph Cosmos: Multis Passive signs by 1.949/5x. Increases every 20 Summoning levels. (Note: Some lower leveled characters have less)",
+     "tab": "Account Wide",
+     "cur": "126",
+     "goal": "140",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Silkrode Nanochip: None Owned. Would double other signs if equipped.",
+     "tab": "Character Specific",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Starsign: Mr No Sleep: 30/30% base",
+     "tab": "Character Specific",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Starsign: Pack Mule: 10/10% base",
+     "tab": "Character Specific",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Starsign: The OG Skiller: 5/5% base",
+     "tab": "Character Specific",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Total Starsign Value: 87.69%",
+     "tab": "Character Specific",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Jman's Extra Bags talent (Materials only)",
+     "tab": "Character Specific",
+     "cur": "250",
+     "goal": "441",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "113 available Inventory Slots",
+     "tab": "Character Specific",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Highest Type-Specific Capacity Bag crafted",
+     "tab": "Character Specific",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Prayer: Ruck Sack: 0/177%",
+     "tab": "Character Specific",
+     "cur": "0",
+     "goal": "50",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Prayer: REMOVE ZERG RUSHOGEN (-0% Carry Capacity)",
+     "tab": "Character Specific",
+     "cur": "\u274c",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Star Talent: Telekinetic Storage",
+     "tab": "Character Specific",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Stamp Cost Reduction",
+   "section": "Stamps",
+   "owned": 4,
+   "missing": 2,
+   "rows": [
+    {
+     "source": "Vial - Blue Flav (Platinum Ore): 88.14%",
+     "tab": "Vials",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Vial - Venison Malt (Mongo Worm Slices): 117.52%",
+     "tab": "Vials",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Total Vial reduction (90% hardcap)",
+     "tab": "Vials",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Sigil: Envelope Pile",
+     "tab": "Uncapped",
+     "cur": "1",
+     "goal": "5",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Jade Emporium - Ionized Sigils:Sigils can now be upgraded a 3rd time. Push past lame ol' yellow, and further increasing those sigil boosts!",
+     "tab": "Uncapped",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Artifact: Chilled Yarn increases sigil by 4x",
+     "tab": "Uncapped",
+     "cur": "3",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autisticles"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Forge Ore Capacity",
+   "section": "Smithing",
+   "owned": 6,
+   "missing": 4,
+   "rows": [
+    {
+     "source": "Achievements - Vitamin D-licious: +50/50%",
+     "tab": "Static Sources",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Bribe: Forge Cap Smuggling: 1.3/1.3x",
+     "tab": "Static Sources",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Rift #16: Skill Mastery unlocked",
+     "tab": "Static Sources",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Rift - Skill Mastery at 300 Smithing: +25/25%",
+     "tab": "Static Sources",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Forge Upgrade: Ore Capacity Boost: +13250/13250",
+     "tab": "Scaling Sources",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Hard Resources- Godshard Ore card:+150/210% Forge Cap and SPD (Passive)",
+     "tab": "Scaling Sources",
+     "cur": "5",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Stamps - Forge Stamp: +34.29% Forge Capacity",
+     "tab": "Scaling Sources",
+     "cur": "100",
+     "goal": "240",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Arcade Bonus 26: +0/201% Forge Capacity",
+     "tab": "Scaling Sources",
+     "cur": "0",
+     "goal": "101",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Villager Cosmos Majik - Beeg Beeg Forge: Increase the forge capacity by 3/243x",
+     "tab": "Scaling Sources",
+     "cur": "1",
+     "goal": "5",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Upgrade Vault - Beeg Forge: +750.00% higher Forge Capacity (7.50 per level after Vault Mastery 1)",
+     "tab": "Scaling Sources",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    }
+   ]
+  },
+  {
+   "stat": "Statue Effect multis and Statue bonuses",
+   "section": "Statues",
+   "owned": 5,
+   "missing": 35,
+   "rows": [
+    {
+     "source": "Voidwalker talent - Voodoo Statufication: 2.17x",
+     "tab": "Effect bonuses",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Onyx base bonus: 2/2xTotal including The Onyx Lantern : 2.9/4.1x",
+     "tab": "Effect bonuses",
+     "cur": "3",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "TRUE ZEN:1.0x higher bonuses from Zenith Statues",
+     "tab": "Effect bonuses",
+     "cur": "0",
+     "goal": "250",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "MeritocracyAll of your Statues give 1.5x higher bonuses than normalBonus not active",
+     "tab": "Effect bonuses",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Event Shop - Smiley Statue: 1/1.3x",
+     "tab": "Effect bonuses",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 4 Dragon Statue: 1.05x",
+     "tab": "Effect bonuses",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Upgrade Vault - Statue Bonanza: 2.50x higher bonuses from Power, Speed, Mining, and Lumberbob Statues(3.00 per level after Vault Mastery 1)",
+     "tab": "Effect bonuses",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Total Multi for all statues: 9.9xVault statues: 24.75x",
+     "tab": "Effect bonuses",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 251 Zenith Power Statue: +18,634.4 Base Damage",
+     "tab": "Statue Effects",
+     "cur": "251",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 303 Zenith Speed Statue: +749.83% Move Speed",
+     "tab": "Statue Effects",
+     "cur": "303",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 291 Zenith Mining Statue: +2,160.41 Mining Power",
+     "tab": "Statue Effects",
+     "cur": "291",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 319 Zenith Feasty Statue: +3,157.71% Food Effect",
+     "tab": "Statue Effects",
+     "cur": "319",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 247 Zenith Health Statue: +7,334.98 Base Health",
+     "tab": "Statue Effects",
+     "cur": "247",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 18 Onyx Kachow Statue: +47.51% Crit Damage",
+     "tab": "Statue Effects",
+     "cur": "18",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 291 Zenith Lumberbob Statue: +2,160.41 Choppin Power",
+     "tab": "Statue Effects",
+     "cur": "291",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 301 Zenith Thicc Skin Statue: +2,979.53 Base Defence",
+     "tab": "Statue Effects",
+     "cur": "301",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 301 Zenith Oceanman Statue: +893.86 Fishing Power",
+     "tab": "Statue Effects",
+     "cur": "301",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 301 Zenith Ol Reliable Statue: +893.86 Catchin Power",
+     "tab": "Statue Effects",
+     "cur": "301",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 230 Zenith Exp Statue: +227.67% Class Exp",
+     "tab": "Statue Effects",
+     "cur": "230",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 261 Zenith Anvil Statue: +1,291.79% Product Spd",
+     "tab": "Statue Effects",
+     "cur": "261",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 245 Zenith Cauldron Statue: +1,212.6% Alchemy Exp",
+     "tab": "Statue Effects",
+     "cur": "245",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 292 Zenith Beholder Statue: +578.09% Crit Chance",
+     "tab": "Statue Effects",
+     "cur": "292",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 261 Zenith Bullseye Statue: +2,066.86% Accuracy",
+     "tab": "Statue Effects",
+     "cur": "261",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 25 Onyx Box Statue: +49.49 Trappin Power",
+     "tab": "Statue Effects",
+     "cur": "25",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 153 Zenith Twosoul Statue: +454.35 Worship Power",
+     "tab": "Statue Effects",
+     "cur": "153",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 226 Zenith Ehexpee Statue: +223.71% Skill Exp",
+     "tab": "Statue Effects",
+     "cur": "226",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 25 Onyx Seesaw Statue: +82.49% Cons Exp",
+     "tab": "Statue Effects",
+     "cur": "25",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 216 Zenith Pecunia Statue: +2,138.13% Coins",
+     "tab": "Statue Effects",
+     "cur": "216",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 201 Zenith Mutton Statue: +596.9% Cooking Exp",
+     "tab": "Statue Effects",
+     "cur": "201",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Level 178 Zenith Egg Statue: +704.79% Breeding Exp",
+     "tab": "Statue Effects",
+     "cur": "178",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Level 228 Zenith Battleaxe Statue: +451.38% Damage",
+     "tab": "Statue Effects",
+     "cur": "228",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 164 Zenith Spiral Statue: +1,623.4% Divinity Exp",
+     "tab": "Statue Effects",
+     "cur": "164",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Level 198 Zenith Boat Statue: +979.98% Sailing Spd",
+     "tab": "Statue Effects",
+     "cur": "198",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 211 Zenith Compost Statue: +835.46% Farming Exp",
+     "tab": "Statue Effects",
+     "cur": "211",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Level 300 Zenith Stealth Statue: +890.89% Stealth",
+     "tab": "Statue Effects",
+     "cur": "300",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 2 Onyx Essence Statue: +7.92% White Ess",
+     "tab": "Statue Effects",
+     "cur": "2",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 210 Zenith Villager Statue: +623.62% Villager Exp",
+     "tab": "Statue Effects",
+     "cur": "210",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 4 Onyx Dragon Statue: +5.03% Statues Bonus",
+     "tab": "Statue Effects",
+     "cur": "4",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 0 Gold Spelunky Statue: +0% Spelunk Exp",
+     "tab": "Statue Effects",
+     "cur": "0",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Level 0 Gold Coral Statue: +0% Daily Coral",
+     "tab": "Statue Effects",
+     "cur": "0",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of bonus Vial Effect",
+   "section": "Vials",
+   "owned": 3,
+   "missing": 2,
+   "rows": [
+    {
+     "source": "Total Vial Effect bonus: 4.52x",
+     "tab": "Total: 4.52x",
+     "cur": "4.52x",
+     "goal": "5.96x",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Upgrade Vault - Vial Overtune: All vials give 1.30x higher bonuses. (10.00 per level: Not scaled by Vault Mastery 2)",
+     "tab": "Multi Group A: 2.26x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Rift #36: Vial Mastery unlocked: +96%",
+     "tab": "Multi Group A: 2.26x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "You have 48/84 maxed Vials",
+     "tab": "Multi Group A: 2.26x",
+     "cur": "48",
+     "goal": "84",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Lab Bonus - My 1st Chemistry Set: 2/2x",
+     "tab": "Multi Group B: 2.00x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistocat"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Sigil Charging Speed. Grand total: 63.491x",
+   "section": "Sigils",
+   "owned": 5,
+   "missing": 6,
+   "rows": [
+    {
+     "source": "W2 Achievement: Vial Junkee: +20/20%",
+     "tab": "Multi Group A: 6.754x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Gem Shop - Sigil Supercharge (W1&2): +200/200%",
+     "tab": "Multi Group A: 6.754x",
+     "cur": "10",
+     "goal": "10",
+     "state": "owned",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Sigil: Level 1 Pea Pod: +100/4800%",
+     "tab": "Multi Group A: 6.754x",
+     "cur": "1",
+     "goal": "5",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Artifact: Chilled Yarn: 4/8x(Already applied to Pea Pod Sigil above)",
+     "tab": "Multi Group A: 6.754x",
+     "cur": "3",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Vial - Willow Sippy (Willow Logs): +235.040",
+     "tab": "Multi Group A: 6.754x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Stamps - Sigil Stamp: +20.39% Sigil Charge rate",
+     "tab": "Multi Group A: 6.754x",
+     "cur": "156",
+     "goal": "324",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Summoning Bonus:9.4x Sigil SPD",
+     "tab": "Summoning: 9.4x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Vial - Turtle Tisane (Tuttle): 1.000x",
+     "tab": "Multi Group C: 1.000x",
+     "cur": "0",
+     "goal": "13",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Weekly Ballot - 1.000/2.616x(Buff is Inactive)",
+     "tab": "Multi Group D: 1.000x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Arcade Bonus 43: +0/404% Sigil Speed",
+     "tab": "Multi Group E: 1.000x",
+     "cur": "0",
+     "goal": "101",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Legend Talent - Big Sig Fig: All your Sigils in Alchemy level up 1.0x faster than normalNext Lv: 2.5x Sigil level up speed",
+     "tab": "Multi Group F: 1x",
+     "cur": "0",
+     "goal": "3",
+     "state": "missing",
+     "owner": "Autistocat"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Bonus Ballot Multi",
+   "section": "Bonus Ballot",
+   "owned": 4,
+   "missing": 4,
+   "rows": [
+    {
+     "source": "Equinox: Voter Rights: +0/41% Ballot Bonus",
+     "tab": "Total Multi: 2.02x",
+     "cur": "0",
+     "goal": "41",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Villager Cosmos Majik - Voter Integrity: Get +6/30% Ballot Box bonus multiplier! This way you can be even MORE emotionally invested in the vote outcome!",
+     "tab": "Total Multi: 2.02x",
+     "cur": "1",
+     "goal": "5",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Event Shop - Gilded Vote Button: Get +17% higher Ballot Bonus Multi from Voting",
+     "tab": "Total Multi: 2.02x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Event Shop - Royal Vote Button: Get +30% higher Ballot Bonus Multi instead of +17%",
+     "tab": "Total Multi: 2.02x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Endless Summoning Bonus:+21% Ballot Bonus",
+     "tab": "Total Multi: 2.02x",
+     "cur": "88",
+     "goal": "94",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Companions - Mashed Potato:+5% Ballot Bonus Multi (World 2 feature)",
+     "tab": "Total Multi: 2.02x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Companions - Crystal Cuttlefish:+40% Ballot Bonus Multi (World 2 feature)",
+     "tab": "Total Multi: 2.02x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Legend Talent - Democracy FTW: The Bonus Ballot gives a +0% higher bonus for the winning bonus of the weekNext Lv: +25% higher Ballot Bonus",
+     "tab": "Total Multi: 2.02x",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autisticles"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Printer Sample Rate (90% Hardcap)",
+   "section": "Sampling",
+   "owned": 15,
+   "missing": 13,
+   "rows": [
+    {
+     "source": "Vial - Snow Slurry: +29.38/30%",
+     "tab": "Account-Wide: +82.92%",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Sample It bubble: +9.06/10%",
+     "tab": "Account-Wide: +82.92%",
+     "cur": "123",
+     "goal": "200",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Salt Lick bonus: +10/10%",
+     "tab": "Account-Wide: +82.92%",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "W3 merit: +5/5%",
+     "tab": "Account-Wide: +82.92%",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Maestro Family Bonus: 5.30/4.5% at Class Level 781",
+     "tab": "Account-Wide: +82.92%",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "account"
+    },
+    {
+     "source": "Stamps - Amplestample Stamp: +6.45% Sample Size",
+     "tab": "Account-Wide: +82.92%",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Stamps - Stample Stamp: +6.67% Sample Size",
+     "tab": "Account-Wide: +82.92%",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Lab Bonus - Certified Stamp Book: 2/2x(Already applied to Stamps above)",
+     "tab": "Account-Wide: +82.92%",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Pristine Charms - Liqorice Rolle:1.25x Bigger Bonuses of Non Misc Stamps",
+     "tab": "Account-Wide: +82.92%",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Arcade Bonus 5: +0/8.04% Sample Size",
+     "tab": "Account-Wide: +82.92%",
+     "cur": "0",
+     "goal": "101",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "W3 Achievement: Saharan Skull: 1/1%",
+     "tab": "Account-Wide: +82.92%",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Star Talent: Printer Sampling: 10.075% at minimum level 1",
+     "tab": "Account-Wide: +82.92%",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Star Talent: Printer Sampling: Additional 7.43% at max level 100",
+     "tab": "Character-Specific: Up to +10.758% or +17.95% for Squires",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Post Office: Utilitarian Capsule: +3.33% at max 400 crates",
+     "tab": "Character-Specific: Up to +10.758% or +17.95% for Squires",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Squire only: Super Samples: +7.20% at max book level 299",
+     "tab": "Character-Specific: Up to +10.758% or +17.95% for Squires",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Prayer: Royal Sampler: +43.5% Printer Sample Rate",
+     "tab": "Which Characters need Royal Sampler?",
+     "cur": "20",
+     "goal": "20",
+     "state": "owned",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Character's Printer Sample Rate below is calculated WITHOUT the prayer's bonus.",
+     "tab": "Which Characters need Royal Sampler?",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Autiszemo: Prayer not needed. You may remove if desired. \ud83d\udc4d",
+     "tab": "Which Characters need Royal Sampler?",
+     "cur": "93.7%",
+     "goal": "90%",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Autistocat: Prayer not needed. You may remove if desired. \ud83d\udc4d",
+     "tab": "Which Characters need Royal Sampler?",
+     "cur": "93.7%",
+     "goal": "90%",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Autisticles: Prayer not needed. You may remove if desired. \ud83d\udc4d",
+     "tab": "Which Characters need Royal Sampler?",
+     "cur": "93.7%",
+     "goal": "90%",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Autistastic: Prayer not needed. You may remove if desired. \ud83d\udc4d",
+     "tab": "Which Characters need Royal Sampler?",
+     "cur": "100.9%",
+     "goal": "90%",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Autistabish: Prayer not needed. You may remove if desired. \ud83d\udc4d",
+     "tab": "Which Characters need Royal Sampler?",
+     "cur": "93.7%",
+     "goal": "90%",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Autistacular: Prayer not needed. You may remove if desired. \ud83d\udc4d",
+     "tab": "Which Characters need Royal Sampler?",
+     "cur": "93.7%",
+     "goal": "90%",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Autistotle: Prayer not needed. You may remove if desired. \ud83d\udc4d",
+     "tab": "Which Characters need Royal Sampler?",
+     "cur": "93.7%",
+     "goal": "90%",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Autistomatic: Prayer not needed. You may remove if desired. \ud83d\udc4d",
+     "tab": "Which Characters need Royal Sampler?",
+     "cur": "100.9%",
+     "goal": "90%",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Autistronaut: Prayer not needed. You may remove if desired. \ud83d\udc4d",
+     "tab": "Which Characters need Royal Sampler?",
+     "cur": "93.7%",
+     "goal": "90%",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Autistopher: Prayer not needed. You may remove if desired. \ud83d\udc4d",
+     "tab": "Which Characters need Royal Sampler?",
+     "cur": "93.7%",
+     "goal": "90%",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Autistachio: Prayer not needed, not worn. \ud83d\udc4d",
+     "tab": "Which Characters need Royal Sampler?",
+     "cur": "93.7%",
+     "goal": "90%",
+     "state": "missing",
+     "owner": "Autistabish"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Printer Output. Grand Total: 53.872 - 323.230x",
+   "section": "Sampling",
+   "owned": 9,
+   "missing": 5,
+   "rows": [
+    {
+     "source": "Blue Dot before your sample = Only 2x from Lab is active",
+     "tab": "Character Specific: Up to 6x",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Yellow Star = Only 3x from Harriep is active",
+     "tab": "Character Specific: Up to 6x",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Purple Swirl = 6x total from Lab and Harriep",
+     "tab": "Character Specific: Up to 6x",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Lab Bonus: Wired In: 2x (Thanks Doot!)",
+     "tab": "Account Wide: 53.872x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Divinity: Harriep Major Link bonus: 3x (Thanks Doot!)",
+     "tab": "Account Wide: 53.872x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "DK's King of the Remembered: 1.228xNot max booked!Not max leveled in any preset!",
+     "tab": "Account Wide: 53.872x",
+     "cur": "1.228x",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Sailing: Level 4 Gold Relic:2.35x (27/100 days)",
+     "tab": "Account Wide: 53.872x",
+     "cur": "27",
+     "goal": "100",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Event Shop: Supreme Wiring:1.00x (0/50 days)",
+     "tab": "Account Wide: 53.872x",
+     "cur": "0",
+     "goal": "50",
+     "state": "missing",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Companions - Biggole Mole:3d Printer samples grow +1%/day for 100 days",
+     "tab": "Account Wide: 53.872x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Compass: Nomadic-3: Moon of Print: 1.08x (5/100 days)",
+     "tab": "Account Wide: 53.872x",
+     "cur": "5",
+     "goal": "100",
+     "state": "missing",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Legend Talent: Yet Another Printer Multi (Lv 0/2):1.00x (0/20 days)",
+     "tab": "Account Wide: 53.872x",
+     "cur": "0",
+     "goal": "20",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Weekly Ballot - 1.000/1.404x(Buff is Inactive)",
+     "tab": "Account Wide: 53.872x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Rift: Skill Mastery: base 7%Additional 1% per Skill at 750: 12/18%",
+     "tab": "Account Wide - Additive Group: 1.44x",
+     "cur": "19%",
+     "goal": "25%",
+     "state": "missing",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Pristine Charms - Lolly Flower:+25% Printer Output",
+     "tab": "Account Wide - Additive Group: 1.44x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistacular"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Max Book Levels (299/441)",
+   "section": "Library",
+   "owned": 5,
+   "missing": 2,
+   "rows": [
+    {
+     "source": "Construction: Talent Book Library built: +25/25",
+     "tab": "Static Sources: +140/215",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "W3 Achievement: Checkout Takeout: +5/5",
+     "tab": "Static Sources: +140/215",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Atom Collider: Oxygen: +10/10",
+     "tab": "Static Sources: +140/215",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistastic"
+    },
+    {
+     "source": "Artifact - Fury Relic+25 Max Talent Book LV at the library.Sovereign Bonus: The artifact's main bonus is quadrupled!",
+     "tab": "Static Sources: +140/215",
+     "cur": "4",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "W3 Max Book level Merit: +10/10",
+     "tab": "Scaling Sources: +30/30",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Salt Lick: +20/20",
+     "tab": "Scaling Sources: +30/30",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Summoning Bonus:+29 Library Max",
+     "tab": "Summoning: +29/96",
+     "cur": "29",
+     "goal": "96",
+     "state": "missing",
+     "owner": "Autistocat"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of bonus talent levels beyond book levels",
+   "section": "Library",
+   "owned": 35,
+   "missing": 6,
+   "rows": [
+    {
+     "source": "Set bonus: Kattlekruk Set: +5/5",
+     "tab": "Account Wide: +43",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistastic"
+    },
+    {
+     "source": "Companion: Rift Slug: +25/25",
+     "tab": "Account Wide: +43",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "ES Family Bonus: +13.Next increase at Class Level:",
+     "tab": "Account Wide: +43",
+     "cur": "842",
+     "goal": "885",
+     "state": "missing",
+     "owner": "account"
+    },
+    {
+     "source": "Equinox: Equinox Symbols: +0/20",
+     "tab": "Account Wide: +43",
+     "cur": "0",
+     "goal": "20",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "W5 Achievement: Maroon Warship: +0/1",
+     "tab": "Account Wide: +43",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Rift: Sneaking Mastery: +0/5 (Mastery III)",
+     "tab": "Account Wide: +43",
+     "cur": "1",
+     "goal": "3",
+     "state": "missing",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Grimoire: Skull of Major Talent: +0/30",
+     "tab": "Account Wide: +43",
+     "cur": "0",
+     "goal": "30",
+     "state": "missing",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Tesseract: Universe Talent: +0/5",
+     "tab": "Account Wide: +43",
+     "cur": "0",
+     "goal": "5",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Divinity: Arctis Minor Link: +15/15",
+     "tab": "Autiszemo the Death Bringer: +30",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Symbols of Beyond: +15/15",
+     "tab": "Autiszemo the Death Bringer: +30",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Final talent level: 372",
+     "tab": "Autiszemo the Death Bringer: +30",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Divinity: Arctis Minor Link: +15/15",
+     "tab": "Autistocat the Arcane Cultist: +30",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Symbols of Beyond: +15/15",
+     "tab": "Autistocat the Arcane Cultist: +30",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Final talent level: 372",
+     "tab": "Autistocat the Arcane Cultist: +30",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Divinity: Arctis Minor Link: +15/15",
+     "tab": "Autisticles the Siege Breaker: +29",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Symbols of Beyond: +14/15",
+     "tab": "Autisticles the Siege Breaker: +29",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Final talent level: 371",
+     "tab": "Autisticles the Siege Breaker: +29",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Divinity: Arctis Minor Link: +15/15",
+     "tab": "Autistastic the Royal Guardian: +30",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Symbols of Beyond: +15/15",
+     "tab": "Autistastic the Royal Guardian: +30",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Final talent level: 372",
+     "tab": "Autistastic the Royal Guardian: +30",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Divinity: Arctis Minor Link: +13/13",
+     "tab": "Autistabish the Elemental Sorcerer: +32",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Symbols of Beyond: +14/15",
+     "tab": "Autistabish the Elemental Sorcerer: +32",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "ES Family Guy: +5",
+     "tab": "Autistabish the Elemental Sorcerer: +32",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Final talent level: 374",
+     "tab": "Autistabish the Elemental Sorcerer: +32",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Divinity: Arctis Minor Link: +15/15",
+     "tab": "Autistacular the Wind Walker: +30",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Symbols of Beyond: +15/15",
+     "tab": "Autistacular the Wind Walker: +30",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Final talent level: 372",
+     "tab": "Autistacular the Wind Walker: +30",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Divinity: Arctis Minor Link: +15/15",
+     "tab": "Autistotle the Voidwalker: +15",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Final talent level: 357",
+     "tab": "Autistotle the Voidwalker: +15",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Divinity: Arctis Minor Link: +15/15",
+     "tab": "Autistomatic the Royal Guardian: +30",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Symbols of Beyond: +15/15",
+     "tab": "Autistomatic the Royal Guardian: +30",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Final talent level: 372",
+     "tab": "Autistomatic the Royal Guardian: +30",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Divinity: Arctis Minor Link: +12/12",
+     "tab": "Autistronaut the Elemental Sorcerer: +32",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Symbols of Beyond: +15/15",
+     "tab": "Autistronaut the Elemental Sorcerer: +32",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "ES Family Guy: +5",
+     "tab": "Autistronaut the Elemental Sorcerer: +32",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Final talent level: 374",
+     "tab": "Autistronaut the Elemental Sorcerer: +32",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Divinity: Arctis Minor Link: +15/15",
+     "tab": "Autistopher the Death Bringer: +23",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Symbols of Beyond: +8/15",
+     "tab": "Autistopher the Death Bringer: +23",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Final talent level: 365",
+     "tab": "Autistopher the Death Bringer: +23",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Divinity: Arctis Minor Link: +8/8",
+     "tab": "Autistachio the Beginner: +8",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Final talent level: 350",
+     "tab": "Autistachio the Beginner: +8",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Checkout Speed",
+   "section": "Library",
+   "owned": 4,
+   "missing": 4,
+   "rows": [
+    {
+     "source": "Meal - Fortune Cookie: +1,046.808% Library Checkout Spd",
+     "tab": "default",
+     "cur": "90",
+     "goal": "180",
+     "state": "missing",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Oxygen - Library Booker: 40/60%",
+     "tab": "default",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Talent Book Library building: 655/680%",
+     "tab": "default",
+     "cur": "132",
+     "goal": "136",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Ignore Overdues bubble: 67.2/100%",
+     "tab": "default",
+     "cur": "123",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Vial - Chonker Chug: +40.68%",
+     "tab": "default",
+     "cur": "9",
+     "goal": "13",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Stamps - Biblio Stamp: +42% Faster Books",
+     "tab": "default",
+     "cur": "42",
+     "goal": "66",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Superbit: Library Checkouts: +1% per Gaming Level",
+     "tab": "default",
+     "cur": "204",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistastic"
+    },
+    {
+     "source": "W3 Achievement: Checkout Takeout: +30%",
+     "tab": "default",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Max Atom Levels",
+   "section": "Atom Collider",
+   "owned": 1,
+   "missing": 3,
+   "rows": [
+    {
+     "source": "Purchasing the final SuperBit in Gaming will increase the max level of all Atoms by 10",
+     "tab": "default",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autistastic"
+    },
+    {
+     "source": "Nomadic-17: Atomic Potential: +0.00 Max LV for all atoms in the Atom Collider(1.00 per level)",
+     "tab": "default",
+     "cur": "0",
+     "goal": "20",
+     "state": "missing",
+     "owner": "Autistastic"
+    },
+    {
+     "source": "Event Shop - Higgs Boson: All atoms have a +20 higher Max LV",
+     "tab": "default",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistastic"
+    },
+    {
+     "source": "Menagerie - Boost 18: +0 Max LVs for all AtomsNeeds a higher Menagerie Rank",
+     "tab": "default",
+     "cur": "0",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autistastic"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Atom Collider Cost Reduction",
+   "section": "Atom Collider",
+   "owned": 5,
+   "missing": 5,
+   "rows": [
+    {
+     "source": "W5 Taskboard Merit: 28/28%The in-game display is incorrect. Don't @ me.",
+     "tab": "default",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Neon - Damage N' Cheapener: 30/40%",
+     "tab": "default",
+     "cur": "30",
+     "goal": "40",
+     "state": "missing",
+     "owner": "Autistastic"
+    },
+    {
+     "source": "Superbit: Atom Redux: 10/10%",
+     "tab": "default",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistastic"
+    },
+    {
+     "source": "Atom Collider building: 1.5/20.0%",
+     "tab": "default",
+     "cur": "15",
+     "goal": "200",
+     "state": "missing",
+     "owner": "Autistastic"
+    },
+    {
+     "source": "Atom Split bubble: 9.45/14%",
+     "tab": "default",
+     "cur": "83",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Stamps - Atomic Stamp: +12.59% lower Atom upgrade costs",
+     "tab": "default",
+     "cur": "136",
+     "goal": "144",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Death of the Atom Price: All Atoms are +0.0% cheaper to upgrade(1.00 per level after Writhing Grimoire)Requires 6293 more Upgrades to unlock",
+     "tab": "default",
+     "cur": "0",
+     "goal": "999999",
+     "state": "missing",
+     "owner": "Autistastic"
+    },
+    {
+     "source": "Nomadic-15: Atomic Cost Crash: All Atoms are +0.00% cheaper to upgrade(1.00 per level)",
+     "tab": "default",
+     "cur": "0",
+     "goal": "999999",
+     "state": "missing",
+     "owner": "Autistastic"
+    },
+    {
+     "source": "Remaining cost: 52.21%",
+     "tab": "default",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistastic"
+    },
+    {
+     "source": "Total discount: 47.79% off",
+     "tab": "default",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistastic"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Shiny Pet Level Rate",
+   "section": "Breeding",
+   "owned": 4,
+   "missing": 6,
+   "rows": [
+    {
+     "source": "Summoning Bonus:10.97x Shiny EXP",
+     "tab": "Multi Group A- Summoning Winner Bonus",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Lamp Wish: World 4 Stuff: +130.0%",
+     "tab": "Multi Group B- Lamp Wish",
+     "cur": "130.0",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Farming Crop Depot - Crayon:+1522.5/4019.4% Mobs",
+     "tab": "Multi Group C- Everything Else",
+     "cur": "125",
+     "goal": "330",
+     "state": "missing",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Lab Jewel - Emerald Ulthurite: +45/45%",
+     "tab": "Multi Group C- Everything Else",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Faster Shiny Mob Lv Up Rate Shiny Pets: +132% total",
+     "tab": "Multi Group C- Everything Else",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Breeding Upgrade - Grand Martial of Shinytown: +60%",
+     "tab": "Multi Group C- Everything Else",
+     "cur": "12",
+     "goal": "300",
+     "state": "missing",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Star Sign: Breedabilli: +15/15%",
+     "tab": "Multi Group C- Everything Else",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Star Sign - Seraph Cosmos: Multis Passive signs by 1.949/5x. Increases every 20 Summoning levels. (Note: Some lower leveled characters have less)",
+     "tab": "Multi Group C- Everything Else",
+     "cur": "126",
+     "goal": "140",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Silkrode Nanochip: None Owned. Would double other signs if equipped.",
+     "tab": "Multi Group C- Everything Else",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Shiny OverLV (Shiny LVs above 20): 1.0xNeeds Menagerie Unlock 12",
+     "tab": "Multi Group D- Shiny OverLV",
+     "cur": "0",
+     "goal": "680",
+     "state": "missing",
+     "owner": "Autistacular"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Pet Damage",
+   "section": "Breeding",
+   "owned": 5,
+   "missing": 5,
+   "rows": [
+    {
+     "source": "Total Pet Damage bonus: 20.16x",
+     "tab": "Total: 20.16x",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Breeding Upgrade - Blooming Axe: +12%",
+     "tab": "Multi Group A: 1.12x",
+     "cur": "2",
+     "goal": "10",
+     "state": "missing",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Vial - Electrolyte: +117.52%",
+     "tab": "Multi Group B: 18.0x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Achievement - Barley Lost: +5%",
+     "tab": "Multi Group B: 18.0x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Meal - Croissant: +261.70%",
+     "tab": "Multi Group B: 18.0x",
+     "cur": "90",
+     "goal": "180",
+     "state": "missing",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Meal - Wedding Cake: +523.40%",
+     "tab": "Multi Group B: 18.0x",
+     "cur": "90",
+     "goal": "180",
+     "state": "missing",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Beast Master Talent passive- Arena Spirit: +12.66%",
+     "tab": "Multi Group B: 18.0x",
+     "cur": "73",
+     "goal": "372",
+     "state": "missing",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Star Sign - Power Bowower: +30% if equipped",
+     "tab": "Multi Group B: 18.0x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Arcade Bonus 30: +0/80.4% Breeding Mob DMG",
+     "tab": "Multi Group B: 18.0x",
+     "cur": "0",
+     "goal": "101",
+     "state": "missing",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Upgrade Vault - Pet Punchies: +750.00% Mob Damage for all Mobs, so you can win Mob battles easier and collect new spices!(3.00 per level after Vault Mastery 2)",
+     "tab": "Multi Group B: 18.0x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistacular"
+    }
+   ]
+  },
+  {
+   "stat": "Remaining sources of max plate levels",
+   "section": "Cooking",
+   "owned": 0,
+   "missing": 6,
+   "rows": [
+    {
+     "source": "Artifact: Omnipotent Causticolumn",
+     "tab": "default",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Artifact: Transcendent Causticolumn",
+     "tab": "default",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Artifact: Verisimilitude Causticolumn",
+     "tab": "default",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Upgrade \"Supreme Head Chef Status\" within The Grimoire",
+     "tab": "default",
+     "cur": "0",
+     "goal": "20",
+     "state": "missing",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Spelunking:Defeat the Boss of the Lunarheim Cave",
+     "tab": "default",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Menagerie Unlock 21: Boost the Max Cooking LV by +10Costs 29.75M Lumi, needs a higher Menagerie Rank",
+     "tab": "default",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autiszemo"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Sailing Speed",
+   "section": "Sailing",
+   "owned": 9,
+   "missing": 10,
+   "rows": [
+    {
+     "source": "Total Sailing Speed bonus: 6976.8x",
+     "tab": "Total: 6976.8x",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Anyone Minor Linked to Purrmep: +0.00%",
+     "tab": "Multi Group A: 1.95x",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Smolderin' Plateau- Crawler card:+20/28% Sailing Speed (Passive)",
+     "tab": "Multi Group A: 1.95x",
+     "cur": "5",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Bosses n Nightmares- Kattlekruk card:+24/42% Sailing Speed (Passive)",
+     "tab": "Multi Group A: 1.95x",
+     "cur": "4",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Alchemy Bubbles - Boaty Bubble: +74.42/135%",
+     "tab": "Multi Group A: 1.95x",
+     "cur": "86",
+     "goal": "10000",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Goharut Blessing: +232%",
+     "tab": "Multi Group B: 3.32x",
+     "cur": "58",
+     "goal": "100",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Purrmep Blessing: +300%",
+     "tab": "Multi Group C: 4.0x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Weekly Ballot: 1.0x/2.01x(Buff is Inactive)",
+     "tab": "Multi Group D: 1.0x",
+     "cur": "0",
+     "goal": "1",
+     "state": "owned",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Bagur Blessing: +200%",
+     "tab": "Multi Group E: 48.11x",
+     "cur": "40",
+     "goal": "100",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Sailing: Level 5 10 AD Tablet: +2500.0%",
+     "tab": "Multi Group E: 48.11x",
+     "cur": "5",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Stamps - Sailboat Stamp: +237.5% Sailing Speed",
+     "tab": "Multi Group E: 48.11x",
+     "cur": "95",
+     "goal": "160",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Level 198 Boat Statue: +979.98%",
+     "tab": "Multi Group E: 48.11x",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Meal - Popped Corn: +1,774.340% Sailing Speed",
+     "tab": "Multi Group E: 48.11x",
+     "cur": "90",
+     "goal": "180",
+     "state": "missing",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Vial - Oj Jooce: +117.52%",
+     "tab": "Multi Group E: 48.11x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Rift - Sailing Skill Mastery > 200: +15%",
+     "tab": "Multi Group E: 48.11x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "MSA Sailing: +44% (+1% per 10 waves in Worship)",
+     "tab": "Multi Group E: 48.11x",
+     "cur": "440",
+     "goal": "2100",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Star Signs - C. Shanti Minor: +20% if equipped",
+     "tab": "Multi Group E: 48.11x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Gem Shop - Davey Jones Training (W5)",
+     "tab": "Multi Group F: 5.6x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Legend Talent - Davey Jones Returns: 1.6x bonus to all the same stats that 'Davey Jones Training' gives, check it in W5 Gemshop. Also, -60% Minimum Travel Time",
+     "tab": "Multi Group F: 5.6x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autisticles"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Magic Bean Bonus",
+   "section": "Farming",
+   "owned": 3,
+   "missing": 2,
+   "rows": [
+    {
+     "source": "Magic Beans Bonus: 3.202x",
+     "tab": "Total: 3.20x",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "More Beenz:+74/1000% magic beans gained when trading in crops",
+     "tab": "Day Market: 1.74x",
+     "cur": "37",
+     "goal": "500",
+     "state": "missing",
+     "owner": "Autiszemo"
+    },
+    {
+     "source": "Jade Emporium - Deal Sweetening:Earn +25% more Magic Beans from the mysterious Legumulyte bean merchant found in the Troll Broodnest map.",
+     "tab": "Emporium + Achievement + Exotic + Vault: 1.84x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "W6 Achievement: Crop Flooding: +5/5%",
+     "tab": "Emporium + Achievement + Exotic + Vault: 1.84x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Upgrade Vault - Bigger Better Beans: Get +54.00% more Magic Beans to spend at the Night Market!(2.00 per level: Not scaled by Vault Mastery 3)",
+     "tab": "Emporium + Achievement + Exotic + Vault: 1.84x",
+     "cur": "27",
+     "goal": "50",
+     "state": "missing",
+     "owner": "Autiszemo"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of Bonuses Multi",
+   "section": "Summoning",
+   "owned": 6,
+   "missing": 6,
+   "rows": [
+    {
+     "source": "Regular Battles Bonuses Multi: 3x",
+     "tab": "Summary",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Library Max Bonus Multi: 2.81x",
+     "tab": "Summary",
+     "cur": "",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Pristine Charms - Crystal Comb:1.3x Bigger Summoning Winner Bonuses",
+     "tab": "Multi Group A: 1x",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Gem Shop - King Of All Winners (W6): 1.5/1.5x",
+     "tab": "Multi Group B: 1.5x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Emperor Showdown:1.01x Summoning Winner Bonuses",
+     "tab": "Multi Group C: 2x",
+     "cur": "1",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "1.12x Winner Bonuses",
+     "tab": "Multi Group C: 2x",
+     "cur": "88",
+     "goal": "96",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Artifact - The Winz LanternAll Winner Bonuses from Summoning are 1.25x Bigger!Eldritch Bonus: The artifact's main bonus is tripled!",
+     "tab": "Multi Group C: 2x",
+     "cur": "3",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "W6 Larger Winner bonuses merit: +10/10%",
+     "tab": "Multi Group C: 2x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "W6 Achievement: Spectre Stars: +1/1%",
+     "tab": "Multi Group C: 2x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "W6 Achievement: Regalis My Beloved: +1/1%",
+     "tab": "Multi Group C: 2x",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Armor Set: Godshard Set: +0/15%",
+     "tab": "Multi Group C: 2x",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autistabish"
+    },
+    {
+     "source": "Gemshop - Daydreamer Pack:+0/50% Summoning Winner Bonuses",
+     "tab": "Multi Group C: 2x",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autistocat"
+    }
+   ]
+  },
+  {
+   "stat": "Sources of daily Corals",
+   "section": "Coral Reef",
+   "owned": 3,
+   "missing": 12,
+   "rows": [
+    {
+     "source": "Base daily corals: 10",
+     "tab": "Base: 10",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Companions - Shellslug:1.75x Daily Reef Coral (World 7 feature)",
+     "tab": "Multi Group A: x1.75",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Event Shop - Coolral: x1.0/x1.3 Daily Corals",
+     "tab": "Multi Group B: x1",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "Gem Shop - More Coral (W7): x2.0/x3.0 Daily Corals",
+     "tab": "Multi Group C: x2",
+     "cur": "5",
+     "goal": "10",
+     "state": "missing",
+     "owner": "Autistotle"
+    },
+    {
+     "source": "You now generate 0% more Daily Coral for the Coral Reef back in W7 town!",
+     "tab": "Multi Group D: x1.07",
+     "cur": "0",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "+2% Daily Reef Coral per Woodular Shrine level above 200Total Bonus: +0% Daily Reef Coral",
+     "tab": "Multi Group D: x1.07",
+     "cur": "142",
+     "goal": "",
+     "state": "owned",
+     "owner": "Autistastic"
+    },
+    {
+     "source": "Clam Work: +0% Daily Corals past level 5",
+     "tab": "Multi Group D: x1.07",
+     "cur": "0",
+     "goal": "6",
+     "state": "missing",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Killroy: +0% Daily Corals",
+     "tab": "Multi Group D: x1.07",
+     "cur": "0",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autistachio"
+    },
+    {
+     "source": "Stamps - Unlock Corale Stamp",
+     "tab": "Multi Group D: x1.07",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autistopher"
+    },
+    {
+     "source": "Vial - Scale On Ice: +0% Daily Corals",
+     "tab": "Multi Group D: x1.07",
+     "cur": "0",
+     "goal": "13",
+     "state": "missing",
+     "owner": "Autistocat"
+    },
+    {
+     "source": "Legend Talent - Coral Restoration: +0% more Daily Coral gained each and every day!Next Lv: +30% Daily Coral gain",
+     "tab": "Multi Group D: x1.07",
+     "cur": "0",
+     "goal": "2",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Arcade Bonus 57: +4.73/20.1% Daily Coral",
+     "tab": "Multi Group D: x1.07",
+     "cur": "31",
+     "goal": "101",
+     "state": "missing",
+     "owner": "Autisticles"
+    },
+    {
+     "source": "Jade Emporium - Coral Conservationism:Boosts daily coral gain at the Coral Reef in World 7 in Shimmerfin Deep Town in the game IdleOn on the Left side of the ma",
+     "tab": "Multi Group D: x1.07",
+     "cur": "0",
+     "goal": "1",
+     "state": "missing",
+     "owner": "Autistacular"
+    },
+    {
+     "source": "Shimmerfin Deep- Demonblub card:+2/14% Daily Coral (Passive)",
+     "tab": "Multi Group D: x1.07",
+     "cur": "1",
+     "goal": "7",
+     "state": "missing",
+     "owner": "Autistronaut"
+    },
+    {
+     "source": "Level 0 Coral Statue: +0.00%",
+     "tab": "Multi Group D: x1.07",
+     "cur": "0",
+     "goal": "\u221e",
+     "state": "missing",
+     "owner": "Autisticles"
+    }
+   ]
+  }
+ ],
+ "newly_owned": [],
+ "missing_by_owner": {
+  "Autistronaut": [
+   "Sources of Crystal Spawn Chance \u00b7 Hyperion Nebula- Demon Genie card:+90/105% Crystal Mob Spawn Chance 6 -> 7",
+   "Sources of Crystal Spawn Chance \u00b7 Blunder Hills- Poop card:+60/70% Crystal Mob Spawn Chance 6 -> 7",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Bosses n Nightmares- Domeo Magmus card:+3/10.5% Total Drop Rate (Passive) 2 -> 7",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Smolderin' Plateau- Ancient Golem card:+8/28% Total Drop Rate (Passive) 2 -> 7",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Smolderin' Plateau- Crystal Glunko card:+0/42% Total Drop Rate (Passive) 0 -> 7",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Events- IdleOn 4th Anniversary card:+0/14% Drop Rate (Passive) 0 -> 7",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Events- Luckulyte card:+0/21% Drop Rate (Passive) 0 -> 7",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Spelunking - Golden Hardhat:+0/500% Drop Rate. For all characters, all the time, except fo 0 -> 500",
+   "Sources of Card Drop Chance \u00b7 Guild Bonus - C2 Card Spotter:+15.88% Card Drop Rate 18 -> 50",
+   "Sources of Card Drop Chance \u00b7 Frostbite Tundra- Sir Stache card:+54/63% Card Drop Chance 6 -> 7",
+   "Sources of Card Drop Chance \u00b7 Events- Egggulyte card:+0/7% Card Drop Chance 0 -> 7",
+   "Sources of Forge Ore Capacity \u00b7 Hard Resources- Godshard Ore card:+150/210% Forge Cap and SPD (Passive) 5 -> 7",
+   "Remaining sources of max plate levels \u00b7 Spelunking:Defeat the Boss of the Lunarheim Cave 0 -> 1",
+   "Sources of Sailing Speed \u00b7 Smolderin' Plateau- Crawler card:+20/28% Sailing Speed (Passive) 5 -> 7",
+   "Sources of Sailing Speed \u00b7 Bosses n Nightmares- Kattlekruk card:+24/42% Sailing Speed (Passive) 4 -> 7",
+   "Sources of daily Corals \u00b7 Shimmerfin Deep- Demonblub card:+2/14% Daily Coral (Passive) 1 -> 7"
+  ],
+  "Autistopher": [
+   "Sources of Crystal Spawn Chance \u00b7 Stamps - Crystallin: +185.09% Spawn Chance 180 -> 270",
+   "Sources of Crystal Spawn Chance \u00b7 Level 127/299 booked Cmon Out Crystals talent (Jman only) 127 -> 299",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Owl - Drop Rate:+165% Drop Rate 10 -> \u221e",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Stamps - Golden Sixes Stamp: +26.47% Drop RateNote: Can be increased by Exalting the stamp 90 -> 210",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Equinox: Faux Jewels: +0/160% Drop Rate 0 -> 32",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Grey Tome Book: 1.23x higher bonuses from the Tome(1.00 per level: Not scaled by Writhing  23 -> 150",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Equinox - Nightmare 34: 1/1.05x Drop Rate MULTI 0 -> 1",
+   "Sources of Card Drop Chance \u00b7 Stamps - Card Stamp: +250% Card Drop Rate 250 -> 330",
+   "Sources of Carry Capacity \u00b7 Lil' Mining Baggy Stamp: +525 Mining Carry Cap 210 -> 310",
+   "Sources of Carry Capacity \u00b7 Choppin' Bag Stamp: +475 Choppin Carry Cap 190 -> 330",
+   "Sources of Carry Capacity \u00b7 Matty Bag Stamp: +500 Material Carry Cap 200 -> 410",
+   "Sources of Carry Capacity \u00b7 Bag o Heads Stamp: +300% Fish Carry Cap 120 -> 224",
+   "Sources of Carry Capacity \u00b7 Bugsack Stamp: +300% Bug Carry Cap 120 -> 224",
+   "Sources of Carry Capacity \u00b7 Mason Jar Stamp: +180.6% All Carry Cap 84 -> 160",
+   "Sources of Carry Capacity \u00b7 Silkrode Nanochip: None Owned. Would double other signs if equipped. 0 -> 1",
+   "Sources of Carry Capacity \u00b7 Jman's Extra Bags talent (Materials only) 250 -> 441",
+   "Sources of Forge Ore Capacity \u00b7 Stamps - Forge Stamp: +34.29% Forge Capacity 100 -> 240",
+   "Sources of Sigil Charging Speed. Grand total: \u00b7 Stamps - Sigil Stamp: +20.39% Sigil Charge rate 156 -> 324",
+   "Sources of Bonus Ballot Multi \u00b7 Equinox: Voter Rights: +0/41% Ballot Bonus 0 -> 41",
+   "Sources of bonus talent levels beyond book le \u00b7 Equinox: Equinox Symbols: +0/20 0 -> 20",
+   "Sources of bonus talent levels beyond book le \u00b7 W5 Achievement: Maroon Warship: +0/1 0 -> 1",
+   "Sources of Checkout Speed \u00b7 Talent Book Library building: 655/680% 132 -> 136",
+   "Sources of Checkout Speed \u00b7 Stamps - Biblio Stamp: +42% Faster Books 42 -> 66",
+   "Sources of Atom Collider Cost Reduction \u00b7 Stamps - Atomic Stamp: +12.59% lower Atom upgrade costs 136 -> 144",
+   "Sources of Shiny Pet Level Rate \u00b7 Silkrode Nanochip: None Owned. Would double other signs if equipped. 0 -> 1",
+   "Sources of Sailing Speed \u00b7 Stamps - Sailboat Stamp: +237.5% Sailing Speed 95 -> 160",
+   "Sources of daily Corals \u00b7 Stamps - Unlock Corale Stamp 0 -> 1"
+  ],
+  "Autistastic": [
+   "Sources of Crystal Spawn Chance \u00b7 Level 24 Crescent Shrine: +300%Shrines have no Max level. Goal of 32 is arbitrary 24 -> 32",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Emperor Showdown:+21% Drop Rate 2 -> \u221e",
+   "Sources of Carry Capacity \u00b7 Level 24 Pantheon Shrine: +76%Shrines have no Max level. Goal of 32 is arbitrary 24 -> 32",
+   "Sources of Max Atom Levels \u00b7 Purchasing the final SuperBit in Gaming will increase the max level of all Atoms by 10 0 -> 1",
+   "Sources of Max Atom Levels \u00b7 Nomadic-17: Atomic Potential: +0.00 Max LV for all atoms in the Atom Collider(1.00 per lev 0 -> 20",
+   "Sources of Max Atom Levels \u00b7 Menagerie - Boost 18: +0 Max LVs for all AtomsNeeds a higher Menagerie Rank 0 -> \u221e",
+   "Sources of Atom Collider Cost Reduction \u00b7 Neon - Damage N' Cheapener: 30/40% 30 -> 40",
+   "Sources of Atom Collider Cost Reduction \u00b7 Atom Collider building: 1.5/20.0% 15 -> 200",
+   "Sources of Atom Collider Cost Reduction \u00b7 Death of the Atom Price: All Atoms are +0.0% cheaper to upgrade(1.00 per level after Writh 0 -> 999999",
+   "Sources of Atom Collider Cost Reduction \u00b7 Nomadic-15: Atomic Cost Crash: All Atoms are +0.00% cheaper to upgrade(1.00 per level) 0 -> 999999"
+  ],
+  "account": [
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Guild Bonus - Gold Charm:+12.97% Total Drop Rate 24 -> 50",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Codex - Drop Rate Friend Bonus: +22.49/75% Drop RateFrom IdleOnLech (1844) 22.49 -> 75",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Skull of Major Droprate: +0.0% Drop Rate bonus for all characters, always!(1.00 per level  0 -> 999999",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Plutus the Prosperous: Not built (1/50)1.00x Drop Rate 0 -> 1",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Obols - Family Obols: +104/228% Drop RateNote: Includes Rare and Hyper Obols, each rerolle 104 -> 228",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Armor Set - Secret Set: 1.00x Gold Food effectNote: Increases Golden Food bonus. See chara 0 -> 1",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Companions - Lucky Slug:+15% Drop Rate 0 -> 1",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Companions - Mama Troll:+100% Drop Rate and 1.50x Drop Rate Multi 0 -> 1",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Companions - Glunko The Massive:3x Total Damage, 5x Class EXP gain, 1.5x Drop Rate 0 -> 1",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Companions - Crystal Glunko:1.50x Damage, 1.40x Class EXP, 1.30x Drop Rate, and 1.20x extr 0 -> 1",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Siege Breaker Talent - Archlord of the Pirates: 1.15047/1.18944x Drop Rate MULTILevel 296/ 0.01M -> 1.00M",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Obstruction 15 - Gold Bangle:1.05x Drop Rate 0 -> 1",
+   "Sources of Carry Capacity \u00b7 Guild Bonus - Rucksack:+17.76% Total Carry Cap 17 -> 50",
+   "Sources of bonus talent levels beyond book le \u00b7 ES Family Bonus: +13.Next increase at Class Level: 842 -> 885"
+  ],
+  "Autisticles": [
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Arcade Bonus 27: +26.29/60.3% Drop Rate 78 -> 101",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Artifacts - Chilled Yarn: 4/8x Sigil BonusesNote: Improves the sigil below 3 -> 7",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Companions - Clammie:+100% Class EXP and Drop Rate 0 -> 1",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Unique Sushi #49: 1.1x Drop Rate 0 -> 1",
+   "Sources of Stamp Cost Reduction \u00b7 Artifact: Chilled Yarn increases sigil by 4x 3 -> 7",
+   "Sources of Forge Ore Capacity \u00b7 Arcade Bonus 26: +0/201% Forge Capacity 0 -> 101",
+   "Statue Effect multis and Statue bonuses \u00b7 Onyx base bonus: 2/2xTotal including The Onyx Lantern : 2.9/4.1x 3 -> 7",
+   "Statue Effect multis and Statue bonuses \u00b7 TRUE ZEN:1.0x higher bonuses from Zenith Statues 0 -> 250",
+   "Statue Effect multis and Statue bonuses \u00b7 Event Shop - Smiley Statue: 1/1.3x 0 -> 1",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 251 Zenith Power Statue: +18,634.4 Base Damage 251 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 303 Zenith Speed Statue: +749.83% Move Speed 303 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 291 Zenith Mining Statue: +2,160.41 Mining Power 291 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 319 Zenith Feasty Statue: +3,157.71% Food Effect 319 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 247 Zenith Health Statue: +7,334.98 Base Health 247 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 18 Onyx Kachow Statue: +47.51% Crit Damage 18 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 291 Zenith Lumberbob Statue: +2,160.41 Choppin Power 291 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 301 Zenith Thicc Skin Statue: +2,979.53 Base Defence 301 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 301 Zenith Oceanman Statue: +893.86 Fishing Power 301 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 301 Zenith Ol Reliable Statue: +893.86 Catchin Power 301 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 230 Zenith Exp Statue: +227.67% Class Exp 230 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 261 Zenith Anvil Statue: +1,291.79% Product Spd 261 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 245 Zenith Cauldron Statue: +1,212.6% Alchemy Exp 245 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 292 Zenith Beholder Statue: +578.09% Crit Chance 292 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 261 Zenith Bullseye Statue: +2,066.86% Accuracy 261 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 25 Onyx Box Statue: +49.49 Trappin Power 25 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 153 Zenith Twosoul Statue: +454.35 Worship Power 153 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 226 Zenith Ehexpee Statue: +223.71% Skill Exp 226 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 25 Onyx Seesaw Statue: +82.49% Cons Exp 25 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 216 Zenith Pecunia Statue: +2,138.13% Coins 216 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 228 Zenith Battleaxe Statue: +451.38% Damage 228 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 198 Zenith Boat Statue: +979.98% Sailing Spd 198 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 300 Zenith Stealth Statue: +890.89% Stealth 300 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 2 Onyx Essence Statue: +7.92% White Ess 2 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 210 Zenith Villager Statue: +623.62% Villager Exp 210 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 4 Onyx Dragon Statue: +5.03% Statues Bonus 4 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 0 Gold Spelunky Statue: +0% Spelunk Exp 0 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 0 Gold Coral Statue: +0% Daily Coral 0 -> \u221e",
+   "Sources of Sigil Charging Speed. Grand total: \u00b7 Artifact: Chilled Yarn: 4/8x(Already applied to Pea Pod Sigil above) 3 -> 7",
+   "Sources of Sigil Charging Speed. Grand total: \u00b7 Arcade Bonus 43: +0/404% Sigil Speed 0 -> 101",
+   "Sources of Bonus Ballot Multi \u00b7 Legend Talent - Democracy FTW: The Bonus Ballot gives a +0% higher bonus for the winning b 0 -> 1",
+   "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Arcade Bonus 5: +0/8.04% Sample Size 0 -> 101",
+   "Sources of Printer Output. Grand Total: 53.87 \u00b7 Sailing: Level 4 Gold Relic:2.35x (27/100 days) 27 -> 100",
+   "Sources of Printer Output. Grand Total: 53.87 \u00b7 Legend Talent: Yet Another Printer Multi (Lv 0/2):1.00x (0/20 days) 0 -> 20",
+   "Sources of Max Book Levels (299/441) \u00b7 Artifact - Fury Relic+25 Max Talent Book LV at the library.Sovereign Bonus: The artifact's 4 -> 7",
+   "Remaining sources of max plate levels \u00b7 Artifact: Omnipotent Causticolumn 0 -> 1",
+   "Remaining sources of max plate levels \u00b7 Artifact: Transcendent Causticolumn 0 -> 1",
+   "Remaining sources of max plate levels \u00b7 Artifact: Verisimilitude Causticolumn 0 -> 1",
+   "Sources of Sailing Speed \u00b7 Anyone Minor Linked to Purrmep: +0.00% 0 -> 1",
+   "Sources of Sailing Speed \u00b7 Goharut Blessing: +232% 58 -> 100",
+   "Sources of Sailing Speed \u00b7 Bagur Blessing: +200% 40 -> 100",
+   "Sources of Sailing Speed \u00b7 Sailing: Level 5 10 AD Tablet: +2500.0% 5 -> 7",
+   "Sources of Sailing Speed \u00b7 MSA Sailing: +44% (+1% per 10 waves in Worship) 440 -> 2100",
+   "Sources of daily Corals \u00b7 Legend Talent - Coral Restoration: +0% more Daily Coral gained each and every day!Next Lv: 0 -> 2",
+   "Sources of daily Corals \u00b7 Arcade Bonus 57: +4.73/20.1% Daily Coral 31 -> 101",
+   "Sources of daily Corals \u00b7 Level 0 Coral Statue: +0.00% 0 -> \u221e"
+  ],
+  "Autistocat": [
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Alchemy Bubbles - Droppin Loads: +29.71/39.6% Drop RateNext breakpoint: 80% value at level 202 -> 6930",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Sigils - Trove Sigil: +40/1200% Drop Rate 1 -> 5",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Summoning Bonus:+210% Drop Rate 210 -> 262.5",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Vial - Shipinabottle: 1x Drop Rate MULTI 0 -> 13",
+   "Sources of Card Drop Chance \u00b7 Alchemy Bubbles - Card Champ: +62.96/100% 68 -> 3960",
+   "Sources of Carry Capacity \u00b7 Star Sign - Seraph Cosmos: Multis Passive signs by 1.949/5x. Increases every 20 Summoning  126 -> 140",
+   "Sources of Stamp Cost Reduction \u00b7 Sigil: Envelope Pile 1 -> 5",
+   "Sources of bonus Vial Effect \u00b7 Total Vial Effect bonus: 4.52x 4.52x -> 5.96x",
+   "Sources of bonus Vial Effect \u00b7 You have 48/84 maxed Vials 48 -> 84",
+   "Sources of Sigil Charging Speed. Grand total: \u00b7 Sigil: Level 1 Pea Pod: +100/4800% 1 -> 5",
+   "Sources of Sigil Charging Speed. Grand total: \u00b7 Vial - Turtle Tisane (Tuttle): 1.000x 0 -> 13",
+   "Sources of Sigil Charging Speed. Grand total: \u00b7 Legend Talent - Big Sig Fig: All your Sigils in Alchemy level up 1.0x faster than normalNe 0 -> 3",
+   "Sources of Bonus Ballot Multi \u00b7 Endless Summoning Bonus:+21% Ballot Bonus 88 -> 94",
+   "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Sample It bubble: +9.06/10% 123 -> 200",
+   "Sources of Max Book Levels (299/441) \u00b7 Summoning Bonus:+29 Library Max 29 -> 96",
+   "Sources of bonus talent levels beyond book le \u00b7 Tesseract: Universe Talent: +0/5 0 -> 5",
+   "Sources of Checkout Speed \u00b7 Vial - Chonker Chug: +40.68% 9 -> 13",
+   "Sources of Shiny Pet Level Rate \u00b7 Star Sign - Seraph Cosmos: Multis Passive signs by 1.949/5x. Increases every 20 Summoning  126 -> 140",
+   "Sources of Sailing Speed \u00b7 Alchemy Bubbles - Boaty Bubble: +74.42/135% 86 -> 10000",
+   "Sources of Bonuses Multi \u00b7 Emperor Showdown:1.01x Summoning Winner Bonuses 1 -> \u221e",
+   "Sources of Bonuses Multi \u00b7 1.12x Winner Bonuses 88 -> 96",
+   "Sources of Bonuses Multi \u00b7 Artifact - The Winz LanternAll Winner Bonuses from Summoning are 1.25x Bigger!Eldritch Bon 3 -> 7",
+   "Sources of Bonuses Multi \u00b7 Gemshop - Daydreamer Pack:+0/50% Summoning Winner Bonuses 0 -> 1",
+   "Sources of daily Corals \u00b7 Vial - Scale On Ice: +0% Daily Corals 0 -> 13"
+  ],
+  "Autistacular": [
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Breeding - Shiny Slime: +5/20% Drop Rate 5 -> 20",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Breeding - Shiny Xylobone: +10/20% Drop Rate 10 -> 20",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Breeding - Shiny Choccie: +5/20% Drop Rate 5 -> 20",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 178 Zenith Egg Statue: +704.79% Breeding Exp 178 -> \u221e",
+   "Sources of Printer Output. Grand Total: 53.87 \u00b7 Compass: Nomadic-3: Moon of Print: 1.08x (5/100 days) 5 -> 100",
+   "Sources of bonus talent levels beyond book le \u00b7 Rift: Sneaking Mastery: +0/5 (Mastery III) 1 -> 3",
+   "Sources of Shiny Pet Level Rate \u00b7 Lamp Wish: World 4 Stuff: +130.0% 130.0 -> \u221e",
+   "Sources of Shiny Pet Level Rate \u00b7 Breeding Upgrade - Grand Martial of Shinytown: +60% 12 -> 300",
+   "Sources of Shiny Pet Level Rate \u00b7 Shiny OverLV (Shiny LVs above 20): 1.0xNeeds Menagerie Unlock 12 0 -> 680",
+   "Sources of Pet Damage \u00b7 Breeding Upgrade - Blooming Axe: +12% 2 -> 10",
+   "Sources of Pet Damage \u00b7 Beast Master Talent passive- Arena Spirit: +12.66% 73 -> 372",
+   "Sources of Pet Damage \u00b7 Arcade Bonus 30: +0/80.4% Breeding Mob DMG 0 -> 101",
+   "Sources of Bonuses Multi \u00b7 Pristine Charms - Crystal Comb:1.3x Bigger Summoning Winner Bonuses 0 -> 1",
+   "Sources of daily Corals \u00b7 Jade Emporium - Coral Conservationism:Boosts daily coral gain at the Coral Reef in World 7 0 -> 1"
+  ],
+  "Autistachio": [
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Cape Vine - Lovely Balloon+250% Drop RateNot deposited 0 -> 1",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Gallery - Deadbones Nametag25% Drop Rate Multi35% Drop Rate 0 -> 5",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Gallery - Treasure Nametag25% Drop Rate 0 -> 5",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Gallery - Aethermoon Nametag14.1% Drop RateLevel Multi: 1x 1 -> 5",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Gallery - 3rd Anniversary IdleOn Nametag3% Drop Rate 0 -> 5",
+   "Sources of daily Corals \u00b7 You now generate 0% more Daily Coral for the Coral Reef back in W7 town! 0 -> \u221e",
+   "Sources of daily Corals \u00b7 Clam Work: +0% Daily Corals past level 5 0 -> 6",
+   "Sources of daily Corals \u00b7 Killroy: +0% Daily Corals 0 -> \u221e"
+  ],
+  "Autistabish": [
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Caverns - Measurement #16:+0.00% Drop Rate (scales with Golem Kills) 0 -> \u221e",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Schematic #45 - Gloomie Lootie:+5% Drop Rate for each Colony of Gloomie Mushrooms defeated 0 -> \u221e",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Schematic #82 - Sanctum of LOOT:+20% Drop Rate for each Sanctum of Ancient Golems you've c 0 -> \u221e",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Cavern 13- Wisdom Monument:+0.0% Player Drop Rate 0 -> \u221e",
+   "Sources of Carry Capacity \u00b7 Prayer: Ruck Sack: 0/177% 0 -> 50",
+   "Sources of Forge Ore Capacity \u00b7 Villager Cosmos Majik - Beeg Beeg Forge: Increase the forge capacity by 3/243x 1 -> 5",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 164 Zenith Spiral Statue: +1,623.4% Divinity Exp 164 -> \u221e",
+   "Sources of Bonus Ballot Multi \u00b7 Villager Cosmos Majik - Voter Integrity: Get +6/30% Ballot Box bonus multiplier! This way  1 -> 5",
+   "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autiszemo: Prayer not needed. You may remove if desired. \ud83d\udc4d 93.7% -> 90%",
+   "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistocat: Prayer not needed. You may remove if desired. \ud83d\udc4d 93.7% -> 90%",
+   "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autisticles: Prayer not needed. You may remove if desired. \ud83d\udc4d 93.7% -> 90%",
+   "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistastic: Prayer not needed. You may remove if desired. \ud83d\udc4d 100.9% -> 90%",
+   "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistabish: Prayer not needed. You may remove if desired. \ud83d\udc4d 93.7% -> 90%",
+   "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistacular: Prayer not needed. You may remove if desired. \ud83d\udc4d 93.7% -> 90%",
+   "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistotle: Prayer not needed. You may remove if desired. \ud83d\udc4d 93.7% -> 90%",
+   "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistomatic: Prayer not needed. You may remove if desired. \ud83d\udc4d 100.9% -> 90%",
+   "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistronaut: Prayer not needed. You may remove if desired. \ud83d\udc4d 93.7% -> 90%",
+   "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistopher: Prayer not needed. You may remove if desired. \ud83d\udc4d 93.7% -> 90%",
+   "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistachio: Prayer not needed, not worn. \ud83d\udc4d 93.7% -> 90%",
+   "Sources of Bonuses Multi \u00b7 Armor Set: Godshard Set: +0/15% 0 -> 1"
+  ],
+  "Autiszemo": [
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Farming Crop Depot - Highlighter:+43.5/400.2% DR 125 -> 330",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Land Ranks - Seed of Loot:Increases the Drop Rate of all characters by +87.08/108.85% 4 -> 5",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Exotic Market - POMMELION SEED:+0/25% Drop Rate 0 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 201 Zenith Mutton Statue: +596.9% Cooking Exp 201 -> \u221e",
+   "Statue Effect multis and Statue bonuses \u00b7 Level 211 Zenith Compost Statue: +835.46% Farming Exp 211 -> \u221e",
+   "Sources of Printer Output. Grand Total: 53.87 \u00b7 Rift: Skill Mastery: base 7%Additional 1% per Skill at 750: 12/18% 19% -> 25%",
+   "Sources of bonus talent levels beyond book le \u00b7 Grimoire: Skull of Major Talent: +0/30 0 -> 30",
+   "Sources of Checkout Speed \u00b7 Meal - Fortune Cookie: +1,046.808% Library Checkout Spd 90 -> 180",
+   "Sources of Shiny Pet Level Rate \u00b7 Farming Crop Depot - Crayon:+1522.5/4019.4% Mobs 125 -> 330",
+   "Sources of Pet Damage \u00b7 Meal - Croissant: +261.70% 90 -> 180",
+   "Sources of Pet Damage \u00b7 Meal - Wedding Cake: +523.40% 90 -> 180",
+   "Remaining sources of max plate levels \u00b7 Upgrade \"Supreme Head Chef Status\" within The Grimoire 0 -> 20",
+   "Remaining sources of max plate levels \u00b7 Menagerie Unlock 21: Boost the Max Cooking LV by +10Costs 29.75M Lumi, needs a higher Mena 0 -> 1",
+   "Sources of Sailing Speed \u00b7 Meal - Popped Corn: +1,774.340% Sailing Speed 90 -> 180",
+   "Sources of Magic Bean Bonus \u00b7 More Beenz:+74/1000% magic beans gained when trading in crops 37 -> 500",
+   "Sources of Magic Bean Bonus \u00b7 Upgrade Vault - Bigger Better Beans: Get +54.00% more Magic Beans to spend at the Night Ma 27 -> 50"
+  ],
+  "Autistotle": [
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Research - Divine Design (N4):Arctis nods in approval... all Research Grid bonuses are 1.0 0 -> 1",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Research - Glimbo Insider Trading Secrets (I4):+0/1% Drop Rate TRUE Multi per 100 Glimbo T 0 -> 1",
+   "Account wide sources of Drop Rate (+3428.9%) \u00b7 Tome - Drop Rate Multi: 1x Drop Rate MULTIRequires Singed Tome from the Event Shop 0 -> 1",
+   "Sources of Printer Output. Grand Total: 53.87 \u00b7 Event Shop: Supreme Wiring:1.00x (0/50 days) 0 -> 50",
+   "Sources of daily Corals \u00b7 Event Shop - Coolral: x1.0/x1.3 Daily Corals 0 -> 1",
+   "Sources of daily Corals \u00b7 Gem Shop - More Coral (W7): x2.0/x3.0 Daily Corals 5 -> 10"
+  ]
+ }
+}
