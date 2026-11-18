@@ -1,0 +1,156 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,ballot,tier_list,,setup,any,world=2,The ballot ranking considers usefulness across progression rather than only endgame.,yes,3
+00:00:31,00:01:02,ballot,fishing,,mechanic,any,,Fishing ballot boosts fishing XP and efficiency.,yes,3
+00:00:31,00:01:02,ballot,fishing,,opinion,any,,Fishing ballot belongs in C tier.,yes,3
+00:00:31,00:01:02,ballot,afk_gains,,comparison,any,,AFK gains probably scale better than fishing efficiency for sampling.,yes,2
+00:01:02,00:01:32,ballot,fishing,,mechanic,early,,Fishing efficiency can help early players obtain bloaches.,yes,3
+00:01:02,00:01:32,ballot,golden_food,,mechanic,any,,Golden food ballot adds to golden food effect.,yes,3
+00:01:02,00:01:32,ballot,golden_food,,comparison,endgame,,Golden food effect helps endgame players more.,yes,3
+00:01:02,00:01:32,ballot|stamps,golden_food,,comparison,any,bonus=30%,The additive golden food bonus is smaller than a stamp bonus.,yes,3
+00:01:32,00:02:03,ballot,golden_food,,opinion,any,,Golden food ballot belongs in B tier.,yes,3
+00:01:32,00:02:03,ballot|dungeons,credits_flurbos,,mechanic,any,,Dungeon ballot multiplies dungeon credits and flurbo gains.,yes,3
+00:02:03,00:02:34,dungeons,rings,,priority,any,,Many players still need flurbo upgrades and best in slot dungeon rings.,yes,3
+00:02:03,00:02:34,dungeons|tome,dungeon_progress,,mechanic,endgame,,Dungeon progress still contributes to Tome score.,yes,3
+00:02:03,00:02:34,dungeons,emperor_bouquet,,mechanic,any,,The dungeon bouquet upgrades into the best sampling necklace.,yes,2
+00:02:34,00:03:04,ballot|dungeons,credits_flurbos,,opinion,any,,Dungeon ballot belongs at the top of B tier.,yes,3
+00:02:34,00:03:04,ballot|gaming,gold_nuggets,,mechanic,any,,Nugget ballot increases golden nuggets found using the shovel.,yes,3
+00:02:34,00:03:04,ballot|gaming,gold_nuggets,,opinion,any,,Golden nugget ballot is an easy S tier choice.,yes,3
+00:02:34,00:03:04,gaming,gold_nuggets,,account_note,unknown,,The previous week's nugget ballot produced enormous gains.,yes,3
+00:03:04,00:03:35,ballot|gaming,gold_nuggets,,mechanic,early,,The multiplicative nugget bonus helps newer players who have few instant shovel procs.,yes,3
+00:03:04,00:03:35,ballot|death_note,kills_per_kill,,mechanic,any,,Kills per kill ballot increases portal and Death Note kill progress.,yes,3
+00:03:04,00:03:35,ballot,kills_per_kill,,opinion,any,,Kills per kill belongs in S tier and arguably ranks above nuggets.,yes,3
+00:03:35,00:04:05,ballot,kills_per_kill,,mechanic,any,worlds=2|3|5|6|7,Kills per kill benefits players across worlds rather than only a particular progression group.,yes,3
+00:03:35,00:04:05,ballot|w7_push,kills_per_kill,,mechanic,any,target_world=6;push_world=7,Kills per kill accelerates reaching world six and pushing world seven.,yes,3
+00:03:35,00:04:05,ballot|death_note,green_mushrooms,,mechanic,any,,Kills per kill increases green mushroom kills.,yes,3
+00:03:35,00:04:05,ballot,bonus_strength,,mechanic,any,,Increasing ballot bonus strength improves every ballot option.,yes,3
+00:04:05,00:04:35,ballot,kills_per_kill,,comparison,any,,Kills per kill versus nuggets depends on progression but kills per kill likely benefits more players.,yes,3
+00:04:05,00:04:35,ballot,voting,,priority,any,,Either kills per kill or nuggets is a good vote when both appear.,yes,3
+00:04:05,00:04:35,ballot|guild,guild_points,,mechanic,any,,Guild ballot increases guild points earned from daily logins.,yes,3
+00:04:35,00:05:05,ballot|guild,guild_points,,opinion,any,,Guild points ballot belongs in F tier.,yes,3
+00:04:35,00:05:05,guild,new_guilds,,priority,any,year=2026,Join an existing guild instead of starting a new guild.,yes,3
+00:05:05,00:05:36,ballot|lab,lab_xp,,mechanic,any,base_bonus=90%,Lab XP ballot gives an additive XP bonus.,yes,2
+00:05:05,00:05:36,lab,xp_sources,,mechanic,any,,Lab has relatively few XP gain sources.,yes,3
+00:05:05,00:05:36,ballot|lab,lab_xp,,priority,mid,,Lab XP ballot particularly helps players still spending prolonged time in lab.,yes,3
+00:05:05,00:05:36,legend_talents|lab,lab_xp,,mechanic,w7,world=7,World seven legendary points provide a lab XP multiplier unavailable to earlier players.,yes,3
+00:05:36,00:06:06,lab,levels,,target,any,lab_level=210,Players need level 210 lab.,yes,3
+00:05:36,00:06:06,lab|tome,skill_levels,,mechanic,any,,Lab levels contribute to Tome skill level score.,yes,3
+00:05:36,00:06:06,ballot|lab,lab_xp,,opinion,any,,Lab XP belongs near the bottom of B tier and benefits many players.,yes,3
+00:06:06,00:06:37,ballot,mining,,mechanic,any,bonus=42%,Mining ballot provides additive mining XP and efficiency.,yes,3
+00:06:06,00:06:37,ballot,mining,,comparison,any,,Mining efficiency ranks above fishing but AFK gains likely scale better than either.,yes,2
+00:06:06,00:06:37,ballot|money,monster_cash,,mechanic,any,bonus=52%,Monster cash ballot gives an additive cash bonus.,yes,3
+00:06:37,00:07:08,ballot|money,monster_cash,,skip,any,,Stop voting for monster cash because its bonus is too small to matter.,yes,3
+00:06:37,00:07:08,money|upgrade_vault,world_progress,,priority,early,,Pushing through worlds provides cash for upgrade vault progression.,yes,3
+00:06:37,00:07:08,ballot|refinery,cycles,,mechanic,any,bonus=50%,Refinery ballot adds refinery cycle speed.,yes,3
+00:07:08,00:07:39,ballot|refinery,cycles,,opinion,any,,Refinery belongs at the top of A tier.,yes,3
+00:07:08,00:07:39,refinery|armor_smithy,troll_gear,,blocker,w7,world=7,Many players still struggle with refinery progression and lack troll gear even in world seven.,yes,3
+00:07:39,00:08:09,ballot|refinery,cycles,,comparison,any,,Refinery is useful but does not merit the same tier as kills per kill.,yes,3
+00:07:39,00:08:09,ballot|sailing,captain_xp_speed,,mechanic,any,,Sailing ballot multiplies captain XP gain and sailing speed.,yes,3
+00:07:39,00:08:09,sailing,speed,,blocker,any,,Reaching the final artifacts requires enormous sailing speed.,yes,3
+00:08:09,00:08:39,sailing,speed,,mechanic,any,,Sailing speed remains important throughout most sailing progression.,yes,3
+00:08:09,00:08:39,sailing|tome,captain_levels,,mechanic,any,,Captain levels probably contribute to Tome score.,yes,2
+00:08:39,00:09:09,ballot|sailing,captain_xp_speed,,opinion,any,,Sailing speed and captain XP ballot ranks above dungeon flurbos in B tier.,yes,3
+00:08:39,00:09:09,ballot|construction,shrine_xp,,mechanic,any,base_multiplier=1.53x,Shrine XP ballot provides a multiplicative XP bonus.,yes,3
+00:09:09,00:09:40,construction,shrines,,blocker,any,,Shrine progression is heavily time gated.,yes,3
+00:09:09,00:09:40,construction,shrines,,mechanic,any,,Shrines provide drop rate and carry capacity and respawn rate and crystal spawn chance.,yes,3
+00:09:09,00:09:40,ballot|construction,shrine_xp,,opinion,w3,unlock_world=3,Shrine XP ranks at the top of S tier and helps from world three onward.,yes,3
+00:09:09,00:09:40,ballot|sigils,sigil_xp,,mechanic,any,,Sigil ballot multiplies sigil XP gain.,yes,3
+00:09:40,00:10:10,ballot|sigils|lab,sigil_xp,,mechanic,any,base_multiplier=1.8x,Sigil XP ballot still requires sigils activated in lab.,yes,3
+00:09:40,00:10:10,sigils|spelunking,sigil_syrup,,comparison,w7,world=7,Players finishing alchemy will likely access world seven spelunking and sigil syrup.,yes,3
+00:09:40,00:10:10,ballot|sigils,sigil_xp,,skip,any,,Sigil syrup makes voting for sigil speed unnecessary.,yes,3
+00:09:40,00:10:10,bubbles|sigils,bubble_unlocks,,priority,early,,Newer players should finish unlocking alchemy bubbles before prioritizing sigils.,yes,3
+00:10:10,00:10:41,spelunking|sigils|cauldrons_liquids,sigil_syrup,,mechanic,w7,,Spelunking sigil syrup can grant liquids or advance sigil leveling.,yes,3
+00:10:41,00:11:13,ballot|sigils,red_purple_sigils,,priority,endgame,,Players pursuing red or purple sigils should vote only for S tier options.,yes,3
+00:10:41,00:11:13,spelunking|sigils,sigil_syrup,,mechanic,endgame,,Players pursuing advanced sigils should already have plentiful syrups from spelunking.,yes,3
+00:10:41,00:11:13,ballot|sneaking,stealth_xp,,mechanic,any,,Sneaking ballot boosts stealth and XP for every ninja twin.,yes,3
+00:11:13,00:11:43,ballot|sneaking,stealth_xp,,mechanic,any,xp_multiplier=1.65x;stealth_bonus=65%,The stated base sneaking bonus is 1.65 times XP and 65 percent stealth.,yes,3
+00:11:13,00:11:43,ballot|sneaking,stealth_xp,,opinion,any,,Sneaking ballot belongs in A tier below refinery.,yes,3
+00:11:13,00:11:43,sneaking,mastery,,mechanic,late,,Sneaking mastery bonuses keep sneaking useful after completing Jade Emporium upgrades.,yes,3
+00:11:13,00:11:43,refinery,ranks,,account_note,unknown,,The creator is actively pushing refinery ranks.,yes,3
+00:11:43,00:12:13,refinery|sneaking,relative_value,,comparison,any,,Refinery is used more broadly than sneaking.,yes,3
+00:11:43,00:12:13,ballot|summoning,xp_essence,,mechanic,any,,Summoning ballot adds XP and multiplies all essence gains.,yes,3
+00:11:43,00:12:13,ballot|summoning,essence,,priority,any,,Essence multipliers are powerful especially with teal essence available.,yes,3
+00:12:13,00:12:43,ballot|summoning,xp_essence,,opinion,any,,Summoning belongs at the top of A tier just below S tier.,yes,3
+00:12:13,00:12:43,ballot|traps|worship,xp,,mechanic,any,base_bonus=45%,Trapping and worship XP ballot gives an additive bonus.,yes,3
+00:12:43,00:13:13,traps,snapshot_xp,,mechanic,any,,Trap XP can be snapshotted and persists after the ballot week changes.,yes,3
+00:12:43,00:13:13,traps,snapshot_stats,,mechanic,any,,Traps retain their original stats until replaced.,yes,3
+00:12:43,00:13:13,ballot|traps,nature_traps,,opinion,mid,world_requirement=7,Trapping XP belongs in B tier for nature trap users lacking world seven merit bonuses.,yes,3
+00:12:13,00:12:43,merits|traps,nature_traps,,comparison,w7,,Meritocracy offers a multiplicative XP alternative for nature traps.,yes,3
+00:13:13,00:13:44,traps,nature_traps,,account_note,unknown,,The creator's free to play account obtained nature traps.,yes,3
+00:13:13,00:13:44,ballot|printer,output,,mechanic,any,base_multiplier=1.2x,Printer ballot multiplies resources produced by the printer.,yes,3
+00:13:13,00:13:44,ballot|printer,output,,warning,any,,Printer ballot increases output rather than sample size.,yes,3
+00:13:44,00:14:14,printer|atom_collider,aluminum,,mechanic,endgame,,Extra printer production remains useful for aluminum atom upgrades in endgame.,yes,3
+00:13:44,00:14:14,printer|bubbles,resource_upgrades,,mechanic,early,,Extra printer output helps newer players fund resource based upgrades.,yes,2
+00:13:44,00:14:14,printer|divinity,divinity_points,,mechanic,any,,Printer output can support divinity point gains.,yes,2
+00:13:44,00:14:14,printer,power_of_ten,,mechanic,any,,Extra printer resources support power of ten efficiency scaling.,yes,3
+00:14:14,00:14:44,ballot|printer,output,,opinion,any,,Printer output belongs at the top of B tier.,yes,3
+00:14:14,00:14:44,ballot,afk_gains,,mechanic,any,base_bonus=15%,AFK ballot adds fighting and skilling AFK gains for all characters.,yes,3
+00:14:14,00:14:44,ballot|printer,afk_gains,,priority,any,,AFK gains is the best ballot for sampling and makes a good sampling week.,yes,3
+00:14:14,00:14:44,ballot,afk_gains,,mechanic,early,bonus=15%,The AFK gain bonus is especially powerful early.,yes,3
+00:14:44,00:15:16,merits|statues,statue_bonus,,mechanic,any,,Meritocracy's statue bonus also improves the dragon statue.,yes,3
+00:14:44,00:15:16,merits|printer,print_week,,mechanic,any,,Monument reward multipliers and stronger statues can influence the best sampling week.,yes,2
+00:14:44,00:15:16,ballot,afk_gains,,opinion,any,,AFK gains helps sampling but the creator hesitates to place it in S tier.,yes,3
+00:14:44,00:15:16,ballot|sailing,artifact_find,,mechanic,any,base_multiplier=1.31x,Artifact find ballot multiplies artifact discovery chance.,yes,3
+00:15:16,00:15:47,ballot|sailing,artifact_find,,priority,any,,Choose artifact find chance before obtaining all artifacts and sailing speed after obtaining them.,yes,3
+00:15:16,00:15:47,ballot,all_stats,,mechanic,any,,All stats ballot additively increases strength and agility and wisdom and luck for all characters.,yes,3
+00:15:47,00:16:19,ballot,all_stats,,account_note,unknown,bonus=48%,The creator's strengthened all stats ballot gives 48 percent.,yes,3
+00:15:47,00:16:19,ballot,all_stats,,mechanic,early,approx_stats=50,For low level players the all stats ballot may provide only about 50 stats.,yes,3
+00:15:47,00:16:19,ballot,all_stats,,opinion,any,,All stats belongs in F tier because it provides little practical benefit.,yes,3
+00:16:19,00:16:50,ballot|cauldrons_liquids,generation,,mechanic,any,,Liquid ballot boosts generation for all alchemy liquids.,yes,3
+00:16:50,00:17:20,ballot|cauldrons_liquids,generation,,mechanic,any,base_bonus=25%,Liquid generation ballot is reportedly multiplicative.,yes,2
+00:16:50,00:17:20,killroy|bubbles|farming,neglected_systems,,opinion,any,,Killroy and alchemy and farming are frequently neglected.,yes,3
+00:17:20,00:17:50,cauldrons_liquids|bubbles,liquid_value,,warning,any,,Dismissing liquids as useless for alchemy reflects a misunderstanding of their value.,yes,3
+00:17:20,00:17:50,ballot|construction,build_rate_xp,,mechanic,any,,Construction ballot boosts build rate and construction XP.,yes,3
+00:17:50,00:18:21,ballot|construction,build_rate_xp,,mechanic,any,base_bonus=40%,Construction ballot is additive rather than multiplicative.,yes,3
+00:17:50,00:18:21,ballot|construction,build_rate_xp,,opinion,any,,Construction belongs around low B or high C but above golden food.,yes,3
+00:17:50,00:18:21,ballot,catching,,mechanic,any,bonus=154%,The displayed catching ballot boosts catching XP and efficiency by 154 percent.,yes,3
+00:17:50,00:18:21,ballot,catching,,opinion,any,,Catching efficiency belongs in C tier alongside other skill efficiency ballots.,yes,3
+00:17:50,00:18:21,ballot|cooking,xp_speed,,mechanic,any,,Cooking ballot boosts cooking XP and speed.,yes,3
+00:18:21,00:18:52,ballot|cooking,speed,,mechanic,any,,Cooking speed from the ballot is multiplicative.,yes,3
+00:18:21,00:18:52,bubbles|cooking,diamond_chef,arcane_cultist,blocker,any,,Many players cannot yet obtain prismatic Diamond Chef through Arcane Cultist.,yes,3
+00:18:21,00:18:52,ballot|cooking,ladles,,priority,any,,Cooking ballot week is a good time to spend some ladles.,yes,3
+00:18:21,00:18:52,cooking,no_meal_left_behind,,blocker,any,,Reaching No Meal Left Behind takes significant progression.,yes,3
+00:18:21,00:18:52,ballot|cooking,xp_speed,,opinion,any,,Cooking belongs in B tier and should not rank above refinery.,yes,3
+00:18:52,00:19:22,ballot,chopping,,opinion,any,,Chopping XP and efficiency belongs in C tier with other skill efficiency ballots.,yes,3
+00:18:52,00:19:22,ballot|divinity,points_xp,,mechanic,any,,Divinity ballot multiplies points and adds divinity gains.,yes,2
+00:18:52,00:19:22,divinity|coral_reef,coral_kid,,meta_change,endgame,,Coral Kid makes divinity bonuses relevant in endgame.,yes,3
+00:19:22,00:19:53,ballot|divinity,points,,priority,early,,Extra divinity points help early divinity players unlock gods.,yes,3
+00:19:22,00:19:53,ballot|divinity,points_xp,,comparison,any,,Divinity ranks above nuggets because it benefits more progression stages.,yes,3
+00:19:22,00:19:53,ballot,defense_accuracy,,mechanic,any,base_bonus=30%,Defense and accuracy ballot gives an additive bonus to every character.,yes,3
+00:19:22,00:19:53,ballot,defense_accuracy,,mechanic,early,,Defense and accuracy may help fresh accounts push slightly faster.,yes,3
+00:19:53,00:20:25,upgrade_vault,accuracy_defense,,account_note,early,,The creator's free to play account had minimal accuracy or defense issues with vault upgrades.,yes,3
+00:19:53,00:20:25,ballot,defense_accuracy,,opinion,any,,Defense and accuracy belongs in F tier.,yes,3
+00:19:53,00:20:25,bubbles,accuracy_defense,,priority,any,,Improve alchemy instead of relying on the defense and accuracy ballot.,yes,3
+00:19:53,00:20:25,ballot|damage,damage_multiplier,,mechanic,any,base_multiplier=1.25x,Damage ballot multiplies damage against enemies for every character.,yes,3
+00:20:25,00:20:56,ballot|damage,damage_multiplier,,opinion,any,,Damage multiplier belongs in B tier immediately above golden food.,yes,3
+00:20:25,00:20:56,damage|emperor,kills,,mechanic,any,,More damage can help with Emperor kills.,yes,3
+00:20:25,00:20:56,damage|w7_push,one_shots,,mechanic,w7,world=7,Some world seven players still need damage to kill enemies in one hit.,yes,3
+00:20:25,00:20:56,damage|death_note,multikill,,mechanic,any,,More damage increases multikill tiers and helps obtain eclipse skulls.,yes,3
+00:20:56,00:21:26,ballot|farming,crop_value_xp_chance,,mechanic,any,base_bonus=40%,Farming ballot additively boosts crop value and farming XP and next crop chance.,yes,3
+00:20:56,00:21:26,ballot|farming,crop_value_xp_chance,,opinion,any,,Farming ballot belongs near the top of B tier.,yes,3
+00:20:56,00:21:26,farming,progression,,priority,any,,Many players have unfinished farming and farming provides numerous bonuses.,yes,3
+00:21:26,00:21:56,farming|sailing,progression,,comparison,any,,Farming is very slow and harder to progress than sailing.,yes,3
+00:21:26,00:21:56,ballot|gaming,new_species,,mechanic,any,base_multiplier=1.8x,DNA ballot multiplies new species chance when using DNA.,yes,3
+00:21:26,00:21:56,gaming,new_species,,how_to,any,,Repeatedly claim and attempt mutations to brute force new species.,yes,3
+00:21:56,00:22:27,ballot|gaming,new_species,,skip,any,,Never vote for the DNA species chance ballot; it belongs in F tier.,yes,3
+00:21:56,00:22:27,gaming,chemical_unlock,,mechanic,any,chance=0.3%;illustrative_boost=4%|6%,The speaker describes low chemical mutation odds and garbled boosted percentages.,yes,1
+00:21:56,00:22:27,ballot|drop_rate,drop_rate,,mechanic,any,,Drop rate ballot gives an additive bonus to all characters.,yes,3
+00:22:27,00:22:57,ballot|drop_rate,drop_rate,,opinion,any,,The flat drop rate bonus is too small to justify the initial top S ranking.,yes,3
+00:22:27,00:22:57,ballot|breeding,incubation_xp,,mechanic,any,base_bonus=50%,Breeding ballot adds egg incubation speed and breeding XP.,yes,3
+00:22:27,00:22:57,ballot|breeding,incubation_xp,,opinion,any,,Breeding ballot belongs in C tier.,yes,3
+00:22:57,00:23:28,breeding,egg_farming,divine_knight,how_to,any,,Farm most eggs from mutated mushrooms using Divine Knight.,yes,3
+00:22:57,00:23:28,breeding,egg_generation,wind_walker,comparison,any,,Wind Walker handles egg progression better than the breeding ballot.,yes,3
+00:22:57,00:23:28,merits|breeding,egg_xp,,priority,any,,Wait for Meritocracy's XP multiplier before dropping many eggs for breeding XP.,yes,3
+00:22:57,00:23:28,ballot|equinox,fill_rate,,mechanic,any,base_multiplier=1.4x,Equinox ballot multiplicatively boosts bar fill rate.,yes,3
+00:23:28,00:23:59,equinox,progression,,blocker,any,,Equinox is one of the largest time gates in the game.,yes,3
+00:23:28,00:23:59,equinox,liquid_investment,,opinion,any,,Liquid Investment is an S tier upgrade.,yes,3
+00:23:28,00:23:59,equinox|talent_points,equinox_symbols,,mechanic,any,,Equinox Symbols provides many extra talent levels.,yes,3
+00:23:28,00:23:59,equinox|damage,matching_scims,,mechanic,any,,Matching Scims provides multiplicative damage.,yes,2
+00:23:28,00:23:59,equinox,slow_roast_wiz,,mechanic,any,,Slow Roast Wiz makes higher waves possible.,yes,2
+00:23:59,00:24:31,equinox|gaming,metal_detector,,mechanic,any,,Metal Detector enables large golden nugget gains.,yes,3
+00:23:59,00:24:31,ballot|class_exp,class_xp,,mechanic,any,base_bonus=60%,Class XP ballot adds monster class XP for all characters.,yes,3
+00:23:59,00:24:31,ballot|class_exp,class_xp,,opinion,any,,Additive class XP is the worst ballot option.,yes,3
+00:24:31,00:25:02,ballot|gaming,class_xp_vs_dna,,comparison,any,,Even DNA chance for chemicals is preferable to additive class XP.,yes,3
+00:24:31,00:25:02,merits|ballot,xp_votes,,warning,any,,The creator criticizes voting for brain coral in merit and additive class XP in ballot.,yes,3
+00:25:02,00:25:33,ballot,voting,,priority,any,,Always choose an S tier option when available.,yes,3
+00:25:33,00:26:04,ballot,voting,,priority,any,,Choose A tier options when no S tier option is available.,yes,3
+00:25:33,00:26:04,ballot,voting,,skip,any,,Avoid B tier or lower options when better choices exist.,yes,3
