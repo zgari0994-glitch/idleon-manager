@@ -1,0 +1,166 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,pets,piggies giveaway,,meta_change,any,pets=15,Won 15 piggy pet companions from a dart minigame; they give auto loot and infinite teleport and storage access from anywhere; giving them away to viewers.,yes,3
+00:00:30,00:01:00,friends,friend bonuses,,account_note,any,,Giveaway winner gets piggy and is added as a friend to receive the bonuses from his 10k main account.,yes,3
+00:01:30,00:02:00,kangaroo,Fisheroo bonuses,,comparison,any,,Rue/Fisheroo gives substantially better bonuses than owl: fishing efficiency; defense; fishing XP; accuracy; total damage; AFK gains; cash.,yes,2
+00:02:00,00:02:31,kangaroo,shiny fish multiplier,,mechanic,any,multi_before=2.84;multi_after=113,Number of different shiny fish determines total multiplier on blue fish; blue fish is main currency and other fish mostly serve as multiplier.,yes,2
+00:02:31,00:03:04,kangaroo,shiny fish,,priority,any,,Quality over quantity: go for multiple different fish; the main fish doesn't matter much; it is RNG and fills faster over time.,yes,2
+00:02:31,00:03:35,kangaroo,Fisheroo reset,,warning,early,reset_cost_mil=12.5,Don't use the Fisheroo reset until you have all mega fish; cost scales and you lose many free points.,yes,3
+00:03:04,00:03:35,kangaroo,reset points upgrade,,warning,early,,Common mistake: not putting points into Fisheroo reset points upgrade which gives more points for bonuses; losing hundreds of points.,yes,2
+00:04:08,00:04:39,kangaroo|owl,point distribution,,opinion,any,,Doesn't know how to optimize points; TLDR click the buttons and get rewards; no spreadsheet guide from him.,yes,3
+00:04:39,00:05:42,printer,print assignments,,setup,early,,Plan: this guy mining prints; another bug prints; Rolling Ramsay chopping; Hungabanga fishing; only do sigils monster materials for refinery upkeep.,yes,2
+00:05:10,00:05:42,refinery|printer,upkeep prints,wizard,setup,early,,Next character will be wizard; doing monster materials; Rolling Ramsay takes gigafrog horns to keep refinery going and bounce between two.,yes,2
+00:05:42,00:06:12,printer,bloach and root fly prints,,priority,early,,Main priority: get Unabonga able to print bloaches and Gus Chungus root flies; even a small amount is winning; might need book and fishing pole.,yes,2
+00:06:12,00:06:42,printer,gear swapping,squire,warning,early,,Swapping gear for prints is tedious but you have to do it later on; his squire setup may not be best.,yes,2
+00:06:42,00:07:13,talent_points,star talents,,how_to,early,,Put spare points in star talents until you start booking.,yes,2
+00:06:42,00:07:13,talent_points,multi-ore and sample size,squire,how_to,early,multi_ore_drop_pct=11;sample_size_pct=5,Squire points: pickaxe; firmly grasp it for strength; multi-ore drop gives 11%; sample size 5%; skip absolute unit for now.,yes,2
+00:07:13,00:07:43,talent_points,simmer and printer sample,squire,how_to,early,printer_sample_pct=15,Max attack on simmer for big pick; put remaining points in printer sample.,yes,2
+00:07:13,00:07:43,printer,printer sample rate,,how_to,any,sample_rate_pct=19.6,Check printer sample rate in skill info under construction; it is a percent of your overall AFK gain for the skill.,yes,3
+00:07:43,00:08:13,printer,mob prints,,mechanic,any,,Print sample is easy to calculate for skilling but hard for mobs because it isn't a flat percent of kills.,yes,3
+00:08:13,00:08:44,cards,card sets,,how_to,early,,Equip skill efficiency card set for prints; he doesn't have it yet; food effect set doesn't affect golden food which is a separate multiplier.,yes,2
+00:08:44,00:09:15,tasks|cooking,boost foods,,how_to,early,mining_speed_pct=15.5;chopping_speed_pct=15;fishing_speed_pct=20;catching_speed_pct=20,Unlock boost foods in tasks unlocks: icing iron bites and saucy log fries; second tab gives fishing and catching speed boosts.,yes,2
+00:09:15,00:09:45,printer|cooking,boost food during print,,how_to,early,,Equip boost food only when taking a print then remove it; you get the bonus without consuming any food.,yes,3
+00:10:15,00:10:45,printer|cooking,boost food example,,comparison,early,copper_before=454;copper_after=518,Copper print rose from 454 to 518 with boost food equipped.,yes,3
+00:10:45,00:11:16,cooking,boost food consumption,,warning,early,,Remove boost food after printing or it consumes all of it; early game you go through food too fast.,yes,3
+00:11:16,00:11:46,talent_points|statues,Isakian shrine,squire,opinion,early,,Could drop Isakian shrine since it scales off health from Hardy Diggy but not worth it yet.,yes,2
+00:11:46,00:12:48,printer,mining print,squire,how_to,early,mining_power_before=6;mining_power_after=16;print_before=514;print_after=1023,Pickaxe upgrade stones raised mining power from 6 to 16 and print from about 514 to 1023.,yes,2
+00:12:16,00:12:48,tasks,account level unlocks,,mechanic,any,,Unlocks from tasks are account level shared across characters; you don't need one character at a high level.,yes,2
+00:12:48,00:13:20,cards,accuracy cards,,afk_spot,early,,Sand Capsules is a really good place to farm accuracy cards; wood mushrooms also work but less well.,yes,3
+00:12:48,00:13:20,printer,checklist,,warning,any,,Common mistake: forgetting things on the print checklist.,yes,2
+00:13:20,00:13:52,printer,copper iron prints,,account_note,early,iron_print=583,Took copper and iron prints; iron 583.,yes,2
+00:13:52,00:14:22,printer,gold print,,account_note,early,gold_print=509,Gold print 509 gold; only item type that fit available.,yes,2
+00:13:52,00:14:22,printer|storage,full storage,,warning,any,,Make sure printed item already exists in storage; if storage is full the print is lost forever.,yes,3
+00:14:22,00:14:52,printer|characters,class item gear,warrior,how_to,early,,Take off gear except the militia helm since only warriors can use class items.,yes,2
+00:14:22,00:15:22,speedrun,time candy,,how_to,early,,Save time candy for the right moment such as printing; one candy got great value.,yes,3
+00:15:22,00:15:52,printer|characters,gear sets,,setup,early,,Want one agility set; one strength set; one wisdom set so any character can take prints; give class gear to correct class.,yes,3
+00:15:52,00:16:22,talent_points,fishing build,,how_to,early,,HP doesn't matter for fishing; book if needed; prefer points in firmly grasp it and absolute unit to push efficiency.,yes,2
+00:16:22,00:16:54,printer,copper print,,opinion,early,,Copper print only later and only if really needed; efficiency is what matters most.,yes,2
+00:16:22,00:16:54,general,fishing minigame,,how_to,early,,Do the fishing minigame to gain fishing power for fishing prints.,yes,2
+00:16:54,00:17:56,printer,bloach print,,account_note,early,bloach_chance_pct=2.1;shack_upgrade_hours=72;bloaches=1,Bloach chance 2.1%; got a singular bloach; one shack upgrade takes 72 hours; fishing prints are always the worst.,yes,2
+00:17:56,00:18:27,characters|prayers,wizard requirement,wizard,warning,early,,Forgot skill dimwit and prayers are locked until you have a wizard; should've made wizard first.,yes,3
+00:18:27,00:18:57,printer|post_office,hermit cans,,how_to,early,craft_level=24,Hermit cans need craft level 24; get fishing power from minigames; hermit cans also unlock post office.,yes,2
+00:18:57,00:19:29,general,fishing minigame,,account_note,any,megalodons=20,Has over 20 megalodons; his early fishing minigame guide video covers it.,yes,2
+00:19:59,00:20:29,general,fishing minigame,,mechanic,any,,If a fish and a mine are at the same time the game prioritizes the fish so a shot where fish is on mine is safe.,yes,3
+00:21:01,00:21:31,general,fishing minigame,,target,early,max_score=38,Max score possible is 38 at this stage; unlock next stage to do better.,yes,2
+00:21:31,00:22:04,general,fishing minigame,,account_note,early,fishing_power=14;fishing_xp=5,Minigame gave 14 fishing power; worm gives plus 15 and plus 5 fishing XP; used time candy for goldfish for gear.,yes,2
+00:22:04,00:23:06,printer,fishing rod,,how_to,early,bars=200;goldfish=180,Fishing rod needs 200 bars and 180 goldfish in tab one; craft speed fishing food and hermit cans.,yes,2
+00:23:06,00:23:36,printer,fishing power,squire,how_to,early,fishing_power=14,Put upgrade stones on squire and fail hundreds of times to get fishing power; 14 power without rod.,yes,2
+00:23:36,00:24:07,cards,skill efficiency,,how_to,early,efficiency_pct=5,Two Rex rings give 5% skill efficiency; mining efficiency card is good late game for AFK.,yes,2
+00:24:07,00:24:38,speedrun,time candy,,how_to,early,level=15,Used time candy to hit level 15 for efficiency; also gives cards and statues.,yes,2
+00:24:38,00:25:41,gem_shop,stage purchases,,how_to,early,,In next stage buy all fishing lines immediately; also buy storage chests if you have money.,yes,3
+00:25:41,00:26:11,general,bottle world town teleport,,how_to,early,,Bottle world town teleport consumable lets you travel between worlds and towns for free; saves travel in early game.,yes,3
+00:26:11,00:26:41,upgrade_vault|printer,fishing lines,,how_to,early,,Vault makes world upgrades cheap; buy all lines; set up bloach goldfish or jellyfish hermit can prints and pick up stamps.,yes,2
+00:26:41,00:27:12,stamps,fishing stamps,,how_to,early,twine_purple=10;steel=30,Fishing twine gives plus 10 purple helping bloaches; chose plus 2 speed over fishing power; speed might give more per hour.,yes,2
+00:27:12,00:28:13,general,fishing minigame,,how_to,early,rope_1_5=1.5;dash=3;best=4;gap=5;dash_six=6;edge=7,Dock strat: rope is guideline; first dash 1; next 1.5; then 3; before best 4; between 5; dash 6; edge 7.,yes,2
+00:28:13,00:28:43,general,fishing minigame,,mechanic,early,,Consecutive fish catches raise chance of higher fish; rarer fish are easier to catch; choose risky four or guaranteed three.,yes,2
+00:28:43,00:29:44,general,fishing minigame,,how_to,any,,Squid unlocks after other fish; decide between greedy shot and safe route; missing resets score or whale attempt.,yes,2
+00:29:13,00:30:15,general,fishing minigame,,how_to,any,whales=3,Megalodon: catch first and second whale; catch other fish five or six times; megalodon appears on third whale; missing keeps checkpoint.,yes,2
+00:30:15,00:30:46,general,fishing minigame,,opinion,any,,Megalodon trophy helps defense but not mandatory; usually goes for trophy on speedruns.,yes,2
+00:31:19,00:31:49,general,fishing minigame,,how_to,any,,Lower numbers are better; go guaranteed shots; far shots like six need early throw and lining up.,yes,3
+00:31:49,00:32:19,general,fishing minigame,,target,early,min_score=38,Needs minimum score of 38 to get all fishing power needed; can go risky six or safe five.,yes,3
+00:32:19,00:32:50,general,fishing minigame,,mechanic,any,,Squid hit box is massive compared to normal fish.,yes,3
+00:34:54,00:35:25,general,fishing minigame,,how_to,any,,If you can't make a shot just whiff it and take time; go for whole numbers since three and a half or quarter are less likely.,yes,3
+00:36:57,00:38:00,general,megalodon trophy,,account_note,any,weapon_power=5;strength=15;defense=30;crit_chance=9,Megalodon trophy gives 5 weapon power; 15 strength; 30 defense; 9 crit chance.,yes,3
+00:37:28,00:38:00,general,megalodon trophy,,opinion,any,,Realistic for F2P? No; hard and took him long to learn.,yes,2
+00:38:31,00:39:03,printer|general,fishing power,,account_note,early,trophy_points=500;fishing_power=38,Trophy gave 500 points; 38 fishing power now makes buying more fishing power viable.,yes,2
+00:39:03,00:39:34,printer,fishing pools,,afk_spot,early,,First pool best for goldfish; second hermit cans; third jellyfish; far pool best for bloaches.,yes,2
+00:39:03,00:39:34,printer,fishing print,,account_note,early,goldfish=91;jellyfish=18;hermit_cans=40;bloaches_before=1;bloaches_after=12,Print rose from one bloach to 12 with higher fishing power.,yes,3
+00:39:34,00:41:06,printer,event food,,how_to,early,line_bonus=15;bloaches=15,Event food also helps print; gave plus 15 for fishing line; ended with 15 bloaches.,yes,2
+00:40:06,00:40:36,general,megalodon trophy,,opinion,any,,Doesn't expect viewers to get Megalodon; free-to-play series is unrealistic with it.,yes,2
+00:41:06,00:41:36,printer,print keep,,how_to,any,,Print keeps your biggest result so no need to worry about reprinting.,yes,3
+00:41:36,00:42:06,printer,fruit fly priority,,priority,early,,Need to work up to fruit fly prints; with fruit fly prints looking really good.,yes,2
+00:42:06,00:43:07,printer,copper net,,how_to,early,,Copper net needs jungle logs and flies; craft on Chungus who has stones ready.,yes,2
+00:43:38,00:44:09,speedrun|cooking,butterflies and boost food,,how_to,early,time_candy_cost=327,Butterflies allow boost food; area unlock needed time candy 327.,yes,2
+00:44:09,00:44:39,printer,butterfly area,,afk_spot,early,efficiency=605,Butterflies area near Bandit Bob; efficiency 605 means booking needed.,yes,2
+00:44:39,00:45:14,general,lava hoop minigame,,how_to,early,,Flappy Bird hoop minigame: orange 1; green 2; gold 3; lava hoop for gems; use achievements for crystal printer gems.,yes,2
+00:45:14,00:45:45,characters,wizard timing,wizard,opinion,early,butterflies=174,Getting wizard right at the start would have been better; a misplay on his part.,yes,2
+00:45:45,00:46:16,construction|refinery,buildings,,how_to,early,,Build fire lobbers; boulder roller; crystal shrine needing gold bars.,yes,2
+00:46:16,00:46:46,talent_points,AFK gains,,how_to,early,telekinetic_logs_pct=40,Anvil points and agility; AFK gains most ideal and agility larger effect.,yes,2
+00:47:17,00:47:48,construction,shack accuracy,,mechanic,early,accuracy_pct=3,Shack accuracy gives bonuses; next tab trick will make wisdom more effective for warrior and strength for archer.,yes,2
+00:47:17,00:48:18,printer,construction skill info,,account_note,early,construction=17.5;fruit_flies=60,Construction at 17.5; got 60 fruit flies print.,yes,2
+00:48:18,00:48:50,printer|cooking,butterfly kebab,,how_to,early,butterflies=5;kebab=1,Five butterflies and one kebab increase print.,yes,2
+00:48:50,00:49:20,printer,print slots,,account_note,early,slots=4,Only four print slots so far; take flies butterflies fruit flies.,yes,2
+00:49:20,00:49:52,cards,agility build,,how_to,early,,Build for full agility; boost food effect card set for agility.,yes,2
+00:49:52,00:50:55,printer,fly prints,,account_note,early,fruit_flies=60;print=138;per_hour=74,Fishing and fly prints are horrible; 60 is good enough; 138 then 74 an hour.,yes,2
+00:50:55,00:51:26,printer,gigafrog prints,,priority,early,,Push only do sigils to gigafrogs to unlock gigafrog prints; Rolling Ramsay needs logs and one gigafrog print.,yes,2
+00:51:57,00:52:27,printer,print results,,account_note,early,,Two main prints needed were fruit flies and bloaches; now has both.,yes,3
+00:51:57,00:52:58,characters|printer,skilling preset,,warning,early,,Character didn't get kills because he was in a skilling preset; a classic mistake.,yes,2
+00:52:27,00:52:58,construction,boulder roller cogs,,how_to,early,,Build boulder roller; replace small cogs; booster cogs are non-replaceable; full conversion soon.,yes,2
+00:52:58,00:53:29,refinery|talent_points,spore caps,,account_note,early,logs_on_logs=215,Running out of green mushroom spore caps; logs on logs is crazy strong.,yes,2
+00:53:29,00:53:59,cooking,diamond chef,,priority,early,,Next goal diamond chef to speed up world four skill; sooner unlocked the better.,yes,2
+00:53:59,00:55:00,speedrun,time candy,wizard,priority,early,,Plan: finish prints; level wizard for prayers and subclass; use time candy for walking sticks nuts to enable knockouts through W1 W2 and start of W3.,yes,2
+00:55:33,00:56:06,construction|tasks,build and unlocks,,how_to,early,gems_needed=400,Build Salt Lick; unlock another character for extra 2%; need about 400 gems.,yes,2
+00:56:06,00:57:08,printer|gem_shop,crystal 3D printer,,priority,early,gems_needed=165;gems_current=710,Needs 165 more gems for crystal 3D printer allowing double prints; buying gem unlocks even though normally last.,yes,2
+00:56:37,00:57:08,gem_shop,gem unlock deficit,,account_note,early,gems_per_unlock=25;total=785;remaining=90,Takes deficit on other unlocks to get 785 gems; needs 90 more.,yes,2
+00:57:08,00:58:08,printer|forge,boring bricks hatchet,,how_to,early,,Silver hatchet needs boring bricks and jungle logs not iron.,yes,2
+00:58:08,00:58:39,talent_points,logs on logs,,how_to,early,,Mana booster for Hocus Choppus; education; logs on logs points.,yes,2
+00:58:39,00:59:12,talent_points,missing points,,warning,early,level=54,Character at level 54 is missing many star talent points; needs leveling.,yes,2
+00:59:12,00:59:45,printer|cooking,saucy log fries,,how_to,early,,Forgot saucy log fries; make jungle logs and health bats; double check cards.,yes,2
+00:59:12,00:59:45,cards,wisdom card,,mechanic,early,,No wisdom card for world two as far as he remembers.,yes,1
+00:59:45,01:00:16,cauldrons_liquids,card slots,,opinion,early,,Card slots feel very important since cards carry much of the game; considering brimstone slots and bleach cauldron.,yes,2
+01:00:16,01:00:46,printer,forest fiber,,priority,early,jungle_logs=62000,Chose jungle logs over forest fibers for print.,yes,2
+01:00:46,01:01:17,printer,gigafrog horns,,blocker,early,,Can't unlock gigafrog horns yet; use wizard on other page; attack on simmer benefits more.,yes,2
+01:01:17,01:01:50,class_exp,AFK gains,shaman,opinion,early,per_hour=15,Shaman is terrible AFK gain wise.,yes,2
+01:01:50,01:02:21,printer,spore caps,,account_note,early,spore_caps=45,Refinery character gets 45 spore caps.,yes,2
+01:02:21,01:03:22,speedrun,time candy,,how_to,early,kills=1500;kills_needed=45000,Takes candy; needs 45000 kills.,yes,1
+01:03:22,01:03:53,printer,print setup,,how_to,early,gold=508,Printer setup: gold into furnace; fruit flies for FMJ; logs; gigafrog horns; fishing for bloaches; spore caps for refinery.,yes,2
+01:04:23,01:04:54,talent_points,armor power strike,,how_to,early,survivability_pct=71,Needs armor power strike for more AFK kills; wrong preset caused lower survivability.,yes,2
+01:04:54,01:05:56,printer,bloach farming,,priority,early,chance_pct=7.9;per_hour=567,One character hard farming bloaches while another hard farms; 7.9% chance; 567 per hour.,yes,2
+01:05:56,01:06:26,printer,fruit flies,,priority,early,,Gus Chungus farms fruit flies for couple years for shack accuracy and FMJ.,yes,2
+01:06:26,01:06:57,damage,DPS build,,how_to,early,damage=97000,Swap to DPS build 97k damage; more mana increases damage more; can run daggerang.,yes,2
+01:06:57,01:07:27,damage,accuracy,,opinion,early,damage=98000;defense=410,98k damage; accuracy weakest part; maybe boost accuracy.,yes,2
+01:07:27,01:07:59,speedrun,time candy,,account_note,early,hours=2,Slimes 1800; used time candy irresponsibly; beginner recipe.,yes,1
+01:07:59,01:08:29,constellations|statues,star signs,,priority,early,damage_pct=177,Star sign tree unlocks star signs for every character; bullseye statue gave 177% damage and should have been done earlier.,yes,2
+01:08:29,01:08:29,statues,bullseye statue,,opinion,early,,Bullseye statue gives a smidge of accuracy.,yes,2
+01:09:01,01:09:01,constellations,star signs unlock,,mechanic,early,,Said star signs unlock only for this character and would have to be done on every character (later retracted at 01:12:05),yes,3
+01:09:01,01:09:01,constellations,star signs unlock,,opinion,early,,Doesn't want to spend that much time candy on unlocking star signs per character,yes,3
+01:09:01,01:09:31,constellations,star signs unlock,,mechanic,early,,Unlocking star signs via the telescope should not take long once you have multi-kill and elite classes,no,1
+01:09:31,01:10:01,constellations,constellation,,mechanic,early,,Constellations each have a task; completing it gives a constellation point used to unlock new star signs,yes,2
+01:10:01,01:10:31,constellations,star sign,,how_to,early,,Start star signs are Flexo Bendo Buff Guy Buzzy Dice Bookworm; buy Dwarfo Beardus next; Cronis lets you equip two star signs,yes,2
+01:10:31,01:10:31,constellations,star sign tab,,priority,mid,,Hydron is the next tab; Midame is where you should start hard focusing and unlocking for everybody,yes,2
+01:10:31,01:11:01,constellations,constellation location,,mechanic,early,,Constellation tasks are located across worlds 1 to 6 and require specific things; he has videos of locations,yes,3
+01:11:01,01:11:01,constellations,star sign,,warning,early,,Common mistake is unlocking random star signs; push straight to Cronis ASAP then unlock until Hydron,yes,3
+01:11:01,01:11:32,constellations,star sign slots,,priority,early,slots=3,Get to Hydron and start working on it instantly because it lets you equip three star signs at a time,yes,3
+01:11:01,01:11:32,constellations,Ned Kelly,,how_to,early,level=30;players=4,Early Ned Kelly constellation: reach level 30 on four players; he could do it instantly,yes,2
+01:11:32,01:12:05,constellations,constellation task,,how_to,early,level=65,Has enough characters to do the level 65 constellation task as well,yes,2
+01:11:32,01:11:32,constellations,spike minigame,,skip,early,wait_min=20,Skipping the 20 minute spike mini game constellation for now,yes,2
+01:12:05,01:12:36,constellations,star signs unlock,,meta_change,early,,Correction: star signs now unlock for all characters; no need to interact with telescope on every character,yes,3
+01:12:36,01:13:07,constellations,star signs,,priority,early,,Doing star signs sooner could be advantageous; check which constellations can be completed right away,yes,2
+01:13:07,01:13:37,constellations,Ned Kelly,,target,early,,Ned Kelly star sign gives weapon power and accuracy; the one star sign he is aiming for,yes,3
+01:13:07,01:13:37,constellations,constellation task,,mechanic,early,,Some constellation tasks are basic like AFK for an amount of time; one at Amarok needs killing it on multiple characters,yes,2
+01:13:37,01:14:08,general,walking sticks,,opinion,early,damage=200000,Should have done walking sticks a long time ago for the damage,yes,2
+01:14:08,01:14:38,constellations,star sign,,opinion,early,,Pirate Booty all stat and Fatty Doodoo are decent star signs for now; close to Cronis,yes,2
+01:14:38,01:15:08,characters,new character,,priority,early,,First objective should have been making a new character immediately; delaying it hurt progression,yes,3
+01:15:08,01:15:38,general,walking sticks,,opinion,early,,Would prioritize walking sticks earlier; amazed by the damage they gave,yes,2
+01:15:08,01:15:08,general,knockouts,,mechanic,early,,Knockouts give extra damage percent,yes,1
+01:15:38,01:16:08,owl,shiny feathers,,mechanic,early,generation_pct=23,Shiny feathers increase feather generation by 23% when you get one,yes,2
+01:16:08,01:16:39,owl,mega feather,,target,early,mega_feather_cost=100000000000;next_upgrade=29000000000,Next mega feather costs 100 billion; next upgrade is 29 billion so he may wait for it,yes,2
+01:16:08,01:16:39,characters,monster progression,,mechanic,early,,Star sign up goes to sandy pots rather than wood mushrooms; missing out on a lot of damage,no,1
+01:16:39,01:17:11,general,early game,,account_note,early,,Relearning the early game; most of what he said is still relevant just slightly quality of life changed,yes,3
+01:17:11,01:17:42,characters,rats,,active_task,early,requirement=20000;hours=11,Rats needs 20k and would take about 11 hours but he pushes it for the extra damage,yes,2
+01:17:42,01:18:14,characters,mashed potatoes,,mechanic,early,damage_gain=20000;damage_pct_start=56;damage_pct_now=124,Pushing past rats gives about 20k extra damage; damage percent went from about 56% to 124%,yes,2
+01:18:14,01:18:48,characters,crit chance,,mechanic,early,crit_before=9,Crit chance roughly doubled thanks to the Magalon trophy (was about 9%),yes,2
+01:18:14,01:18:48,characters,damage,,account_note,early,,Big damage and no shrine attached yet; expects to push well,no,2
+01:18:48,01:18:48,characters,boss progression,,target,early,,Aims to reach world three boss (Chizoar?) by the end of tomorrow,yes,1
+01:18:48,01:19:18,characters,Balance of Precision,squire,priority,early,damage_loss_pct=5;accuracy_gain_pct=30,Balance of Precision at level 1 loses 5% damage but gains 30% accuracy; very solid for world three,yes,2
+01:19:18,01:19:48,printer,royal sampler,,priority,early,,Royal (printer?) sampler talent is huge; force it ASAP at the bottom of the tree by going right,yes,1
+01:19:18,01:19:48,construction,crystal shrine,,active_task,early,,Still need to build the crystal shrine; checking construction builds,yes,2
+01:19:48,01:20:19,characters,squire,squire,comparison,early,damage_a=78;damage_b=105,Compared damage between his warrior and the other squire; the other squire is substantially stronger,yes,2
+01:19:48,01:20:19,characters,accuracy,,mechanic,w3,,Accuracy problems won't be as bad in world four; world three is a little panic spot to get through,yes,3
+01:20:19,01:20:51,characters,dedotated rams,,blocker,w3,,Will get stopped by Dedotated Rams; also needs platinum for the defense buckler,yes,2
+01:20:51,01:21:22,characters,damage,,account_note,early,damage_now=182000;damage_start=90000,Damage doubled today from about 90k to 182k; still an 81% hit,yes,2
+01:21:22,01:21:53,characters,accuracy,,how_to,early,accuracy_bonus_pct=4,Fix accuracy with swap accuracy wisdom and 4% accuracy bonuses; cards and shrines not yet equipped,yes,2
+01:21:53,01:22:24,characters,damage,,account_note,early,damage_total=200000,Should be well over 200k damage once cards and shrines are equipped; free to play,yes,2
+01:21:53,01:22:24,characters,new character,,active_task,early,,Creates a new character after so long,yes,3
+01:22:24,01:22:54,characters,seventh character,,account_note,early,characters=7,Still a little way from the seventh character slot; will probably avoid making the class decision,yes,2
+01:22:54,01:23:25,class_choice,secret class,voidwalker,mechanic,early,,There is a secret fourth class; before elite classes it was insane but now more of a support class,yes,2
+01:23:25,01:23:57,class_choice,secret class,voidwalker,opinion,early,,Secret class is the best boss killer in the game,yes,2
+01:23:25,01:23:57,construction,cogs,,mechanic,early,cog_level=15,Can't build decent cogs yet since characters aren't level 15; putting characters in for build rate is an option,yes,2
+01:23:57,01:24:31,class_choice,wizard,wizard,opinion,early,,Wizard is pretty good for AFK and even better active,yes,3
+01:23:57,01:24:31,class_choice,active classes,divine_knight|beast_master|bubonic_conjuror|elemental_sorcerer|death_bringer,opinion,mid,,Best active characters are divine knight beast master bubonic conjuror elemental sorcerer death bringer; secret class is mid active,yes,3
+01:24:31,01:25:01,bribes,bribes,,priority,early,,Buy more bribes for total boost damage and total accuracy; now caught up on bribes,yes,3
+01:25:01,01:25:32,printer|gem_shop,crystal 3D printer,,mechanic,early,,Crystal 3D printer gives an extra slot doubling fruit flies bloaches gigafrog horns and big juice,yes,3
+01:25:32,01:26:02,printer|gem_shop,crystal 3D printer,,how_to,early,,Use the extra slot to build surplus of everything and double up on gold; crystal 3D printer is broken,yes,2
+01:26:02,01:26:32,printer|gem_shop,crystal 3D printer,,mechanic,early,,Extra slot lets you make two things at once or double one output,yes,3
+01:26:02,01:26:32,gem_shop,infinity hammer|crystal 3D printer,,priority,early,,Infinity hammer and crystal 3D printer are the two most important early game gem shop bonuses,yes,3
+01:26:32,01:27:32,characters,walking sticks,,setup,early,,Leaving weaker character overnight pushing walking sticks instead of sheep for more damage,yes,3
+01:27:02,01:27:32,construction,tower defense,,mechanic,early,,Pushing walking sticks unlocks the next tower defense attempt which helps get balance,yes,2

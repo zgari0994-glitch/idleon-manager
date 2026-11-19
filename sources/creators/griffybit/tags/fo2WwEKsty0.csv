@@ -1,0 +1,275 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+fo2WwEKsty0,griffybit,2025-11-28,00:00:00,00:00:31,legend_talents,world-7/legend-talents,super_talents,,mechanic,w7,bonus_levels=50,Super talents add bonus levels to selected talents.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:00:31,00:01:02,legend_talents,world-7/legend-talents,super_talent_points,,mechanic,w7,levels_per_point=100;examples=500|600|700,The yellow super talent unlock grants points based on each character's level.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:00:31,00:01:02,legend_talents,world-7/legend-talents,super_duper,,mechanic,w7,extra_levels=50;total_levels=100,Super Duper increases the baseline super talent level bonus.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:01:02,00:01:32,zenith_market,world-7/zenith-market,super_duper,,mechanic,w7,purchased=10,Zenith Market sells increasingly expensive additional Super Duper upgrades.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:01:02,00:01:32,spelunking,world-7/spelunking,lunar_heim,,mechanic,w7,extra_points=1,Lunar Heim grants another super talent point rather than increasing bonus levels.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:01:32,00:02:03,legend_talents,world-7/legend-talents,selection,,warning,w7,,Recommendations are opinion based and many talents have diminishing returns.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:02:03,00:02:33,legend_talents,world-7/legend-talents,super_talents,siege_breaker,opinion,w7,,Siege Breaker benefits least from super talents before its masterclass.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:02:03,00:02:33,talent_points,,elusive_efficiency,siege_breaker,priority,w7,,Super Elusive Efficiency on the skilling preset because efficiency scales strongly.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:02:03,00:02:33,talent_points,,piercing_arrow,siege_breaker,skip,w7,,Do not super Piercing Arrow because other attacks are better and scaling is weak.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:02:33,00:03:04,talent_points,,kung_fu_kick,siege_breaker,skip,w7,,Extra knockback distance does not justify a super point.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:02:33,00:03:04,talent_points,,health_mana,siege_breaker,skip,w7,,Archer gains little from supering health or mana talents.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:02:33,00:03:04,talent_points,,movement_speed,siege_breaker,skip,w7,,Existing movement speed is already abundant.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:02:33,00:03:04,talent_points,,multishot,siege_breaker,skip,w7,,Supering Multishot is unnecessary.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:02:33,00:03:04,talent_points,,veins_of_the_infernal,siege_breaker,meta_change,w7,damage=32%;smithing_levels=10,Recent caps reduced Veins of the Infernal's value.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:03:04,00:03:34,talent_points,,veins_of_the_infernal,siege_breaker,skip,w7,,Weak scaling makes Veins of the Infernal unsuitable for supering.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:03:04,00:03:34,talent_points,,polymorph_limbs,siege_breaker,skip,w7,,Polymorph Limbs falls off later despite a strong start.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:03:04,00:04:06,talent_points,,garb_of_unagi_quality,siege_breaker,priority,w7,,Super equipment agility because base gear stats multiply strongly with all stat percentage.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:03:34,00:04:06,talent_points,,garb_of_unagi_quality,siege_breaker,setup,w7,,Use equipment agility for skilling and potentially combat.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:03:34,00:04:06,talent_points,,acme_anvil,siege_breaker,how_to,w7,,Temporarily super Acme Anvil for smithing points then respec.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:04:06,00:04:36,talent_points,,homing_arrows,siege_breaker,priority,w7,,Super Homing Arrows for more arrows and combat damage.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:04:06,00:04:36,talent_points,,speed_dna,siege_breaker,meta_change,w7,,Movement speed caps limit Speed DNA scaling.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:04:36,00:05:07,talent_points,,speed_dna,siege_breaker,skip,w7,,Supering Speed DNA provides poor damage value.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:04:36,00:05:07,talent_points,,agi_again,siege_breaker,setup,w7,,Super Agi Again only with spare points after higher priorities.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:05:07,00:05:37,talent_points,,telekinetic_logs,siege_breaker,priority,w7,scaling=powers_of_10_oak_logs,Super Telekinetic Logs for catching efficiency and larger prints.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:05:07,00:05:37,talent_points,,briar_patch_runner,siege_breaker,priority,w7,,Super Briar Patch Runner to increase agility's effect on catching efficiency.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:05:37,00:06:08,talent_points,,catching_experience,siege_breaker,setup,w7,,Catching experience and AFK talents are situational for leveling but efficiency talents are preferred.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:05:37,00:06:08,talent_points,,sunset_on_the_hives,siege_breaker,skip,w7,,Sunset on the Hives gains too little from supering.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:06:08,00:06:39,talent_points,,cannonball,siege_breaker,skip,w7,,Cannonball is not recommended for supering.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:06:08,00:06:39,talent_points,,suppressing_fire,siege_breaker,priority,w7,,Super Suppressing Fire for multiple hits and better Shimmer Island dummy performance.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:06:39,00:07:09,talent_points,,suppressing_fire,siege_breaker,how_to,w7,,Extra small projectiles improve Plunderous farming when monsters already die in one hit.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:06:39,00:07:09,talent_points,,bomb,siege_breaker,skip,w7,,Random bomb placement makes the bomb talent unattractive to super.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:06:39,00:07:09,talent_points,,pirate_flag,siege_breaker,priority,w7,,Super Pirate Flag for higher experience and drop rewards despite tougher Plunderous monsters.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:07:09,00:07:39,talent_points,,doubloons,siege_breaker,skip,w7,plunderous_kills=150,Voidwalker enhancement and repeated resets already maintain coin duration so supering doubloons is redundant.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:07:39,00:08:10,talent_points,,stacked_skulls,siege_breaker,priority,w7,kills_per_kill=34%;agility=1000,Super Stacked Skulls for strong kills per kill scaling with agility.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:08:10,00:08:40,talent_points,,stacked_skulls,siege_breaker,warning,w7,,The stat-based kills per kill talent does not work in World Seven after the nerf.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:08:10,00:08:40,talent_points,,stacked_skulls,siege_breaker,priority,w7,,Stacked Skulls remains excellent for progression in other worlds.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:08:10,00:08:40,talent_points,,skill_ambidexterity,siege_breaker,priority,w7,,Super Skill Ambidexterity for skilling before Agi Again.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:08:40,00:09:10,talent_points,,adaptation_revelation,siege_breaker,setup,w7,,Super Adaptation Revelation only with spare points.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:08:40,00:09:40,talent_points,,archlord_of_the_pirates,siege_breaker,priority,w7,kills=1million;drop_rate=almost_30%,Super Archlord of the Pirates for multiplicative drop rate and experience.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:09:10,00:09:40,talent_points,,symbols_beyond,,mechanic,w7,,Symbols Beyond cannot be supered.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:09:40,00:10:10,talent_points,,elusive_efficiency,wind_walker,priority,w7,,Super Elusive Efficiency for skilling.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:09:40,00:10:10,talent_points,,kung_fu_kick,wind_walker,setup,w7,,Super Kung Fu Kick only for tower defense use.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:09:40,00:10:10,talent_points,,garb_of_unagi_quality,wind_walker,priority,w7,,Super equipment agility for the same base stat scaling benefits.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:09:40,00:10:10,talent_points,,acme_anvil,wind_walker,how_to,w7,,Temporarily super Acme Anvil for additional smithing points.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:10:10,00:10:41,talent_points,,360_no_scope,wind_walker,skip,w7,,Splitting damage between targets makes 360 No Scope unattractive.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:10:10,00:10:41,talent_points,,bear_trap,wind_walker,skip,w7,,Bear Trap only hits one enemy and does not justify supering without an augment.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:10:10,00:10:41,talent_points,,uwu_roar,wind_walker,skip,w7,,The deer respawn mechanic outclasses the old roar.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:10:41,00:11:12,talent_points,,stop_right_there,wind_walker,setup,w7,,Super Stop Right There only for tower defense control.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:10:41,00:11:12,talent_points,,multihit,wind_walker,skip,w7,,Do not super the multihit talent.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:10:41,00:11:12,talent_points,,looty_mcshooty,wind_walker,skip,w7,,Looty McShooty damage scaling is too small.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:11:12,00:11:43,talent_points,,eagle_eye,wind_walker,priority,w7,,Super Eagle Eye for more critters and experience.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:11:12,00:11:43,talent_points,,reflective_eyesight,wind_walker,priority,w7,,Super Reflective Eyesight for shiny chance especially when Shiny Snitch reduces it.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:11:12,00:11:43,talent_points,,trapping_efficiency,wind_walker,skip,w7,,Abundant trapping bonuses make supering trapping efficiency or experience unnecessary.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:11:43,00:12:14,talent_points,,ballista,wind_walker,priority,w7,,Super Ballista to improve automatic attack damage and target count.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:11:43,00:12:14,talent_points,,boar_rush,wind_walker,skip,w7,,Boar Rush is too mediocre to super.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:11:43,00:12:14,talent_points,,whale_wallop,wind_walker,priority,w7,,Super Whale Wallop for more whales and damage.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:11:43,00:12:14,talent_points,,nacho_party,wind_walker,skip,w7,,Nacho attacks are too mediocre to prioritize.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:12:14,00:12:44,talent_points,,stacked_skulls,wind_walker,priority,w7,,Super Stacked Skulls for strong stat-based kill scaling.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:12:14,00:12:44,talent_points,,skill_ambidexterity,wind_walker,setup,w7,,Skill Ambidexterity is situational because trapping needs little additional efficiency.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:12:14,00:12:44,talent_points,,adaptation_revelation,wind_walker,setup,w7,,Use Adaptation Revelation only with spare super points.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:12:44,00:13:15,talent_points,,arena_spirit,wind_walker,setup,w7,,Arena Spirit is situational for extra arena attempts or pet damage.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:12:44,00:13:15,talent_points,,curviture_of_the_paw,wind_walker,setup,w7,,Super pet power only when pushing Tome or spice battles.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:12:44,00:13:15,talent_points,,tempest_form,wind_walker,setup,w7,,Super Tempest Form when actively using the form.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:13:15,00:13:46,talent_points,,compass,wind_walker,setup,w7,,Super Compass for dust gains only in Tempest Form.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:13:15,00:13:46,talent_points,,spirit_ballista,wind_walker,priority,w7,,Super Spirit Ballista for stronger automatic attacks.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:13:15,00:13:46,talent_points,,eternal_hunt,wind_walker,priority,w7,,Super Eternal Hunt for respawns and more dust per deer kill in Tempest Form.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:13:15,00:14:18,talent_points,,some_commandments,wind_walker,priority,w7,,Super Some Commandments for longer roar doubled boar and nacho chances and faster whale cooldown.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:13:46,00:14:18,talent_points,,windborne,wind_walker,skip,w7,,Tempest Form already supplies abundant accuracy and defense.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:13:46,00:14:18,talent_points,,elemental_mayhem,wind_walker,setup,w7,,Super Elemental Mayhem only when using Tempest Form.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:13:46,00:14:18,talent_points,,pumpin_power,wind_walker,skip,w7,,Existing critical chance makes additional investment unnecessary.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:14:18,00:14:49,talent_points,,unreal_agility,wind_walker,setup,w7,,Unreal Agility is a situational super choice.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:14:18,00:14:49,talent_points,,medallions,wind_walker,setup,w7,,Super medallions only when farming a relevant monster such as samurais for experience.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:14:49,00:15:20,talent_points,,ninja_knowledge,wind_walker,priority,w7,,Super the ninja knowledge discount talent to support sneaking.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:14:49,00:15:20,talent_points,,sneaking_experience,wind_walker,priority,w7,,Super sneaking experience to improve progression.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:14:49,00:15:20,talent_points,,sneaking_gemstones,wind_walker,priority,w7,new_gemstones=2;bonus_multiplier=3,Super the gemstone talent for stronger sneaking bonuses.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:14:49,00:15:20,talent_points,,dustwalker,wind_walker,setup,w7,,Super Dustwalker only while using Tempest Form.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:15:20,00:15:51,talent_points,,experience_farming,wind_walker,setup,w7,,Use the final experience talent with abundant bombs and spare super points.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:15:20,00:15:51,legend_talents,world-7/legend-talents,super_talents,wind_walker,opinion,w7,,Windwalker supers are strongest as sneaking support rather than print or combat improvements.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:15:20,00:15:51,talent_points,,brute_efficiency,divine_knight,priority,w7,,Super Brute Efficiency while skipping other first tab talents.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:15:51,00:16:22,talent_points,,power_strike_whirl,divine_knight,skip,w7,,Power Strike and Whirl are not worth supering.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:15:51,00:16:22,talent_points,,health_overdrive,divine_knight,setup,w7,,Health Overdrive is situational mainly for skilling.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:15:51,00:16:22,talent_points,,double_hit,divine_knight,skip,w7,,Double Hit is too mediocre to super.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:15:51,00:16:22,talent_points,,firmly_grasp_it,divine_knight,priority,w7,,Firmly Grasp It gives substantial long-lasting strength for little cost.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:15:51,00:16:22,talent_points,,strength_in_numbers,divine_knight,setup,w7,,Strength in Numbers is situational for skilling health but scales damage poorly.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:16:22,00:16:52,talent_points,,stress_test_garbs,divine_knight,priority,w7,,Super equipment strength for base stat scaling.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:16:22,00:16:52,talent_points,,carry_a_big_stick,divine_knight,skip,w7,,Testing showed insufficient weapon power scaling to justify a super point.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:16:52,00:17:23,talent_points,,absolute_unit,divine_knight,setup,w7,,Super base strength only with leftover points.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:16:52,00:17:23,talent_points,,golden_food,divine_knight,skip,w7,level=554;bonus=48%;super_gain=1-2%,Golden food scaling provides too little additional value.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:16:52,00:17:23,talent_points,,big_pick,divine_knight,priority,w7,,Super Big Pick on skilling builds for substantial mining efficiency.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:17:23,00:17:54,talent_points,,copper_collector,divine_knight,priority,w7,scaling=powers_of_10_copper_ore,Super Copper Collector for mining efficiency from stored copper ore.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:17:23,00:17:54,talent_points,,motherlode_miner,divine_knight,skip,w7,,Existing base multi-ore drops make Motherlode unnecessary.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:17:23,00:17:54,talent_points,,tool_proficiency,divine_knight,priority,w7,mining_levels=10,Super Tool Proficiency for additional mining power and larger prints.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:17:23,00:17:54,talent_points,,shockwave_slash,divine_knight,priority,w7,,Super Shockwave Slash because it supports most of Divine Knight's combat kit.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:17:54,00:18:25,talent_points,,daggerang,divine_knight,priority,w7,,Super Mega Mongorang first and Daggerang afterward when spare points remain.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:17:54,00:18:25,talent_points,,accuracy_mastery,divine_knight,skip,w7,,Existing accuracy and mastery make these talents low priorities.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:18:25,00:18:55,talent_points,,precision_power,divine_knight,skip,w7,refinery_rank_low=2000;refinery_rank_mid=5000,Precision Power scales poorly at ordinary late-game refinery ranks.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:18:25,00:18:55,talent_points,,precision_power,divine_knight,setup,endgame,refinery_rank=10000+,Extremely high refinery ranks might justify supering Precision Power but testing still showed weak scaling.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:18:55,00:19:26,talent_points,,strength_and_more,divine_knight,setup,w7,,Super additional strength only situationally with spare points.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:18:55,00:19:26,talent_points,,refinery_throttle,divine_knight,setup,w7,,Refinery Throttle is situational at low refinery progression and negligible once cycles become fast.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:18:55,00:19:26,talent_points,,redox_rates,divine_knight,priority,w7,,Super Redox Rates for build speed because construction remains lengthy.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:19:26,00:19:57,talent_points,,sharper_saws,divine_knight,skip,w7,,Extra construction experience is too small to justify supering Sharper Saws.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:19:26,00:19:57,talent_points,,super_sample_back_to_basics,divine_knight,skip,w7,,Do not super Super Sample or Back to Basics.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:19:26,00:19:57,talent_points,,knightly_disciple,divine_knight,priority,w7,,Super Knightly Disciple for longer duration and more active knights using Shockwave Slash.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:19:26,00:19:57,talent_points,,mega_mongorang,divine_knight,priority,w7,,Super Mega Mongorang for size and more targets while scaling from Daggerang.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:19:57,00:20:28,talent_points,,divine_intervention,divine_knight,skip,w7,,Critical damage scaling is too small to justify supering Divine Intervention.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:19:57,00:20:28,talent_points,,orb_of_remembrance,divine_knight,meta_change,w7,,Recent orb and portal fixes make longer Orb duration worth supering.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:20:28,00:20:59,talent_points,,imbued_shockwaves,divine_knight,setup,w7,extra_chance=2%,Imbued Shockwaves is situational because supering adds only a small proc chance.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:20:28,00:20:59,talent_points,,charged_skulls,divine_knight,priority,w7,kills_per_kill=166000%;strength=almost_5million,Super Charged Skulls for exceptional stat-based kill scaling.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:20:28,00:20:59,talent_points,,skill_strengthen,divine_knight,priority,w7,,Super Skill Strengthen to increase ore prints.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:20:28,00:20:59,talent_points,,overblown_testosterone,divine_knight,setup,w7,,Overblown Testosterone is situational.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:20:59,00:21:29,talent_points,,bitty_litty,divine_knight,setup,w7,,Bitty Litty is a situational choice for gaming.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:20:59,00:21:29,talent_points,,king_of_the_remembered,divine_knight,skip,w7,,Existing printer output makes additional super investment negligible.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:20:59,00:21:29,talent_points,,one_hundred_thousand_ahead,divine_knight,skip,w7,,The gaming experience increase is too small.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:20:59,00:21:29,talent_points,,undying_passion,divine_knight,skip,w7,,Already reliable gaming procs leave little value in supering Undying Passion.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:21:29,00:22:00,talent_points,,brute_efficiency,death_bringer,priority,w7,,Super Brute Efficiency and the same warrior mining talents for copper ore prints.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:21:29,00:22:00,talent_points,,bear_swipe,death_bringer,skip,w7,,Bear Swipe scales too poorly to prioritize.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:22:00,00:22:30,talent_points,,axe_hurl,death_bringer,priority,w7,,Super Axe Hurl because it supports automatic attack scaling.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:22:00,00:22:30,talent_points,,mocking_shout,death_bringer,skip,w7,,Deathbringer area damage kills enemies before Mocking Shout helps.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:22:00,00:22:30,talent_points,,no_pain_no_gain,death_bringer,skip,w7,,Total damage percentage scales too poorly to justify supering No Pain No Gain.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:22:30,00:23:00,talent_points,,monster_decimator,death_bringer,priority,w7,,Super Monster Decimator to improve the class with the highest kill count.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:22:30,00:23:00,talent_points,,apocalypse_zow,death_bringer,skip,w7,,Apocalypse Zow has poor super scaling.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:22:30,00:23:00,talent_points,,obols,death_bringer,skip,w7,,Obol scaling is weak and strength obols are rarely used.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:22:30,00:23:00,talent_points,,strongest_statues,death_bringer,skip,w7,,Statue scaling is too weak to super.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:23:00,00:23:30,talent_points,,strength_summore,death_bringer,setup,w7,,Additional strength is situational with spare super points.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:23:00,00:23:30,talent_points,,worming_undercover,death_bringer,priority,w7,,Super Worming Undercover for fishing efficiency.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:23:00,00:23:30,talent_points,,bobbin_bobbers,death_bringer,skip,w7,cap_level=167,Bobbin Bobbers is capped and gains no useful super benefit.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:23:00,00:23:30,talent_points,,fishing_experience,death_bringer,skip,w7,,Fishing experience is already abundant.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:23:00,00:23:30,talent_points,,catching_some_zs,death_bringer,skip,w7,,Fishing AFK gain scaling is poor.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:23:30,00:24:00,printer,world-3/printer,copper_ore,death_bringer,priority,w7,,Prioritize copper ore prints because fish become largely redundant later.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:23:30,00:24:00,talent_points,,fired_up,death_bringer,skip,w7,,Cauliflower makes the attack speed talent unnecessary.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:23:30,00:24:00,talent_points,,combustion,death_bringer,skip,w7,damage=950%;targets=34,Deathbringer upgrades remove the need to super the older combustion talent.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:23:30,00:24:00,talent_points,,serrated_swipe,death_bringer,skip,w7,,Serrated Swipe is not worth using or supering.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:24:00,00:24:31,talent_points,,ember_bear,death_bringer,skip,w7,,The bear provides insufficient value for a super point.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:24:00,00:24:31,talent_points,,ferocity_strike,death_bringer,skip,w7,,Additional strike scaling is poor.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:24:00,00:24:31,talent_points,,charged_skulls,death_bringer,priority,w7,,Super Charged Skulls for the same kill scaling as Divine Knight.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:24:00,00:24:31,talent_points,,skill_strengthen,death_bringer,priority,w7,,Super Skill Strengthen for larger prints.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:24:00,00:24:31,talent_points,,overblown_testosterone,death_bringer,setup,w7,,Overblown Testosterone remains situational.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:24:00,00:24:31,talent_points,,plate_unlocks,death_bringer,skip,w7,,All meals should already be unlocked at this stage.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:24:31,00:25:01,talent_points,,cooking_efficiency,death_bringer,setup,w7,,Cooking efficiency can be supered for additional ladles.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:24:31,00:25:01,talent_points,,cooking_afk,death_bringer,skip,w7,,Cooking AFK gain scaling is poor.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:24:31,00:25:01,talent_points,,overflowing_ladles,death_bringer,opinion,w7,,More AFK time per ladle is useful but the spoken recommendation is contradictory.,yes,1
+fo2WwEKsty0,griffybit,2025-11-28,00:24:31,00:25:01,talent_points,,wraith_form,death_bringer,setup,w7,,Super Wraith Form when using the form.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:24:31,00:25:01,talent_points,,grimoire,death_bringer,setup,w7,,Super Grimoire for bone gains when using Wraith Form.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:25:01,00:25:32,talent_points,,sentient_axes,death_bringer,priority,w7,,Super sentient axes for larger automatic attacks and stronger main damage.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:25:01,00:25:32,talent_points,,graveyard_shift,death_bringer,priority,w7,,Super Graveyard Shift to improve the respawn mechanic.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:25:01,00:25:32,talent_points,,detonation,death_bringer,priority,w7,,Super Detonation for larger combustion range even with guaranteed proc chance.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:25:01,00:25:32,talent_points,,brawler_style,death_bringer,setup,w7,,Super Brawler Style only in Wraith Form.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:25:32,00:26:02,talent_points,,bulwark_style,death_bringer,skip,w7,,Grimoire already provides sufficient health and defense.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:25:32,00:26:02,talent_points,,famine_fish,death_bringer,skip,w7,,Famine Fish scaling is not worthwhile.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:25:32,00:26:02,talent_points,,built_different,death_bringer,setup,w7,,Built Different is situational especially for skilling.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:25:32,00:26:02,talent_points,,ribbons,death_bringer,priority,w7,ribbon_level=20,Super ribbons because reaching level twenty takes a long time.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:25:32,00:26:33,talent_points,,mass_irrigation,death_bringer,setup,w7,selected_crop_growth=2x,Mass Irrigation is situational while pushing farming but metal crops reduce its importance.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:26:02,00:26:33,talent_points,,agriculture_appreciation,death_bringer,priority,w7,,Super Agriculture Appreciation for farming and land rank experience including Tome progression.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:26:02,00:26:33,talent_points,,dank_ranks,death_bringer,priority,w7,rightmost_rank=41,Super Dank Ranks for stronger land rank bonuses including stealth drop rate damage and all stats.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:26:33,00:27:03,talent_points,,wraith_overload,death_bringer,priority,w7,,Super Wraith Overload for multiplicative damage.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:26:33,00:27:03,talent_points,,apocalypse_wow,death_bringer,skip,w7,,Apocalypse Wow scales poorly.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:27:03,00:27:34,talent_points,,smart_efficiency,elemental_sorcerer,priority,w7,,Super Smart Efficiency for larger log prints.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:27:03,00:27:34,talent_points,,mana_overdrive,elemental_sorcerer,skip,w7,,Hocus Choppus scales less effectively than Hardy Diggy so extra mana is not a priority.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:27:03,00:27:34,talent_points,,knowledge_is_power,elemental_sorcerer,setup,w7,,Knowledge Is Power is situational with acceptable scaling.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:27:34,00:28:04,talent_points,,untwisited_robes,elemental_sorcerer,priority,w7,,Super equipment wisdom for base stat scaling.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:27:34,00:28:04,talent_points,,power_overwhelming,elemental_sorcerer,skip,w7,,Power Overwhelming scales poorly.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:27:34,00:28:04,talent_points,,free_meal,elemental_sorcerer,skip,w7,chance=99%,Existing free meal chance makes super investment unnecessary.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:27:34,00:28:04,talent_points,,individual_insight,elemental_sorcerer,setup,w7,,Extra wisdom is a situational super choice.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:27:34,00:28:04,talent_points,,logs_on_logs,elemental_sorcerer,priority,w7,,Super Logs on Logs for a major increase to chopping prints.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:28:04,00:28:34,talent_points,,leaf_thief,elemental_sorcerer,priority,w7,,Super Leaf Thief for larger prints.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:28:04,00:28:34,talent_points,,deforesting_all_doubt,elemental_sorcerer,priority,w7,,Super wisdom-based chopping efficiency.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:28:04,00:28:34,talent_points,,chopping_experience,elemental_sorcerer,skip,w7,extra_experience=100%,Extra chopping experience is not worth the super point.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:28:34,00:29:04,talent_points,,skill_experience,,warning,w7,,Keep other characters below Voidwalker in relevant skills to preserve its efficiency support.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:28:34,00:29:04,talent_points,,choppin_it_up_ez,elemental_sorcerer,skip,w7,,Chopping AFK scaling is poor.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:28:34,00:29:04,talent_points,,ice_shards,elemental_sorcerer,skip,w7,,Ice Shards is not recommended.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:28:34,00:29:04,talent_points,,floor_is_lava,elemental_sorcerer,setup,w7,,Floor Is Lava is situational and scaled less than expected in testing.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:29:04,00:29:35,talent_points,,tornado,elemental_sorcerer,priority,w7,,Super Tornado as a strong combat ability.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:29:04,00:29:35,talent_points,,speedy_book,elemental_sorcerer,skip,w7,,Speedy Book scales poorly.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:29:04,00:29:35,talent_points,,mana_is_life,elemental_sorcerer,skip,w7,,Mana Is Life scales poorly.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:29:04,00:29:35,talent_points,,paperwork_great,elemental_sorcerer,skip,w7,,Stamp-based damage scales poorly for super investment.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:29:04,00:29:35,talent_points,,occult_obols,elemental_sorcerer,skip,w7,,Drop rate obols are preferred over wisdom obols.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:29:04,00:29:35,talent_points,,statues,elemental_sorcerer,skip,w7,,Statue talent scaling is weak.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:29:35,00:30:05,talent_points,,wis_wumbo,elemental_sorcerer,setup,w7,,Super Wis Wumbo only with spare points.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:29:35,00:30:05,talent_points,,charge_syphon,elemental_sorcerer,priority,w7,soul_cost_example=100trillion,Super Charge Syphon for abundant souls needed by expensive alchemy bubbles.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:29:35,00:30:05,talent_points,,worship_efficiency,elemental_sorcerer,priority,w7,,Super worship efficiency to improve skill output.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:29:35,00:30:05,talent_points,,worship_experience,elemental_sorcerer,skip,w7,,Avoid supering worship experience to keep Voidwalker ahead.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:30:05,00:30:36,talent_points,,nearby_outlet,elemental_sorcerer,skip,w7,,Testing showed poor value from supering worship charge rate.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:30:05,00:30:36,talent_points,,earlier_education,elemental_sorcerer,skip,w7,,Get talent points from alchemy instead.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:30:05,00:30:36,talent_points,,meteor_shower,elemental_sorcerer,priority,w7,,Super Meteor Shower for more meteors and faster map clears.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:30:05,00:30:36,talent_points,,lightning_barrage,elemental_sorcerer,setup,w7,,Lightning Barrage is situational for bosses high single hit damage or difficult portals.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:30:05,00:30:36,talent_points,,radiant_chainbolt,elemental_sorcerer,priority,w7,,Super Chainbolt for more area damage.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:30:36,00:31:06,talent_points,,dimensional_wormhole,elemental_sorcerer,meta_change,w7,,Recent orb and portal improvements make supering Wormhole worthwhile.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:30:36,00:31:06,talent_points,,chaotic_force,elemental_sorcerer,skip,w7,,Chaotic Force scales poorly.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:30:36,00:31:06,talent_points,,believers_strength,elemental_sorcerer,skip,w7,,Believer's Strength scales poorly.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:30:36,00:31:06,talent_points,,memorial_skulls,elemental_sorcerer,priority,w7,,Super Memorial Skulls for stat-based kill scaling.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:30:36,00:31:06,talent_points,,skill_wiz,elemental_sorcerer,priority,w7,,Super Skill Wiz for improved skill output.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:30:36,00:31:06,talent_points,,utmost_intellect,elemental_sorcerer,setup,w7,,Utmost Intellect is situational like other percentage stat talents.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:30:36,00:31:06,talent_points,,family_guy,elemental_sorcerer,skip,w7,,Do not super Family Guy.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:30:36,00:31:06,talent_points,,polytheism,elemental_sorcerer,mechanic,w7,,Polytheism cannot be supered but should still be maxed for divinity points.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:31:06,00:31:36,talent_points,,shared_beliefs,elemental_sorcerer,priority,w7,,Super Shared Beliefs for more divinity experience across characters.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:31:06,00:31:36,talent_points,,god_ranks,elemental_sorcerer,skip,w7,god_ranks=12;damage=85%,God rank damage remains too weak to prioritize.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:31:06,00:31:36,talent_points,,wormhole_emperor,elemental_sorcerer,priority,w7,,Max and super Wormhole Emperor for multiplicative damage.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:31:36,00:32:06,talent_points,,chopping,arcane_cultist,priority,w7,,Use the same mage efficiency and log talents for supered chopping builds.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:31:36,00:32:06,talent_points,,crazy_concoctions,arcane_cultist,skip,w7,,Crazy Concoctions is not recommended.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:31:36,00:32:06,talent_points,,auspicious_aura,arcane_cultist,setup,w7,,Auspicious Aura is situational for wider coverage and Dog's Den.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:32:06,00:32:37,talent_points,,sizzling_skull,arcane_cultist,priority,w7,,Super Sizzling Skull because it drives automatic attack damage.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:32:06,00:32:37,talent_points,,tenteyecle,arcane_cultist,priority,w7,cooldown_reduction_seconds=5;speculative_seconds=6;speculative_level=700,Super Tenteyecle for stronger cooldown reduction though the next threshold is uncertain.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:32:37,00:33:08,talent_points,,invincibility,arcane_cultist,skip,w7,,Existing survivability makes invincibility unnecessary.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:32:37,00:33:08,talent_points,,virile_vials,arcane_cultist,skip,w7,,Vial damage scales poorly.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:32:37,00:33:08,talent_points,,peculiar_obols,arcane_cultist,skip,w7,,Drop rate obols make stat obol investment unattractive.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:32:37,00:33:08,talent_points,,stupendous_statues,arcane_cultist,skip,w7,,Statue damage scaling is poor.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:33:08,00:33:38,talent_points,,wis_wumbo,arcane_cultist,setup,w7,,Additional wisdom is situational for log prints.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:33:08,00:33:38,talent_points,,cranium_cooking,arcane_cultist,priority,w7,,Super Cranium Cooking because it drives alchemy progression.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:33:08,00:33:38,talent_points,,busy_brewin,arcane_cultist,skip,w7,,Colored cauldron brew speed is unnecessary once alchemy unlocks are completed.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:33:08,00:33:38,talent_points,,bubble_breakthrough,arcane_cultist,setup,w7,,Bubble Breakthrough is situational for alchemy experience.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:33:08,00:33:38,talent_points,,sharing_some_smarts,arcane_cultist,skip,w7,,Additional shared alchemy experience has little late-game value.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:33:38,00:34:08,talent_points,,earlier_education,arcane_cultist,skip,w7,,Use alchemy for talent points instead.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:33:38,00:34:08,talent_points,,chemical_warfare,arcane_cultist,skip,w7,,Chemical Warfare is rarely used and is sufficient without a super.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:33:38,00:34:08,talent_points,,flatulent_spirit,arcane_cultist,skip,w7,,Rapid respawns limit spirit casts and scaling is weak.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:33:38,00:34:08,talent_points,,tampered_injection,arcane_cultist,skip,w7,,Tampered Injection is not used enough to justify supering.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:34:08,00:34:38,talent_points,,plague_stricken,arcane_cultist,skip,w7,,Plague Stricken scales poorly despite supporting skull attacks.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:34:08,00:34:38,talent_points,,raise_dead,arcane_cultist,skip,w7,,Raise Dead already covers the map so additional range is unnecessary.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:34:08,00:34:38,talent_points,,memorial_skulls,arcane_cultist,priority,w7,,Super Memorial Skulls for stat-based kill scaling.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:34:08,00:34:38,talent_points,,skill_wiz,arcane_cultist,priority,w7,,Super Skill Wiz for skilling output.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:34:08,00:34:38,talent_points,,utmost_intellect,arcane_cultist,setup,w7,,Utmost Intellect is situational.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:34:08,00:34:38,talent_points,,purple_tube,arcane_cultist,skip,w7,,Laboratory line width eventually reaches everything without extra investment.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:34:38,00:35:08,talent_points,,green_tube,arcane_cultist,setup,w7,,Green Tube is situational for all skill experience when using the Voidwalker enhancement.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:34:38,00:35:08,talent_points,,essence_of_the_lab,arcane_cultist,skip,w7,,Additional laboratory experience and efficiency are unnecessary at this stage.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:34:38,00:35:08,talent_points,,arcanist_form,arcane_cultist,setup,w7,,Super Arcanist Form only while using the form.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:34:38,00:35:08,talent_points,,tesseract,arcane_cultist,setup,w7,,Super the Tesseract talent when using Arcanist Form.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:35:08,00:35:40,talent_points,,arcane_skulls,arcane_cultist,priority,w7,,Super Arcane Skulls for longer duration and more kills.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:35:08,00:35:40,talent_points,,arcane_crystals,arcane_cultist,priority,w7,,Super Arcane Crystals to create more arcane monsters.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:35:08,00:35:40,talent_points,,overwhelming_energy,arcane_cultist,setup,w7,threshold=1.5,Overwhelming Energy is situational when pushing beyond the stated threshold.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:35:08,00:35:40,tesseract,account/class-specific/tesseract,map_progression,arcane_cultist,priority,w7,threshold=1.5,Move to another map rather than lingering beyond the threshold on ramps or Zeff.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:35:40,00:36:11,talent_points,,ghastly_power,arcane_cultist,setup,w7,,Super Ghastly Power when using Arcanist Form.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:35:40,00:36:11,talent_points,,ghoulish_power,arcane_cultist,skip,w7,,Additional arcanist accuracy is unnecessary.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:35:40,00:36:11,talent_points,,lobotomizer,arcane_cultist,setup,w7,,Lobotomizer is situational if Arcanist Form needs more critical chance.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:36:11,00:36:41,talent_points,,individuality,arcane_cultist,setup,w7,,Super Individuality for wisdom only with spare points.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:36:11,00:36:41,talent_points,,primo_prismas,arcane_cultist,setup,w7,,Super Primo Prismas when specifically farming them.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:36:11,00:36:41,talent_points,,essential_essences,arcane_cultist,priority,w7,,Super Essential Essences to reduce summoning upgrade costs and push Endless faster.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:36:11,00:36:41,talent_points,,summoning_experience,arcane_cultist,priority,w7,,Super summoning experience and familiar doubling especially with the new legend talent.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:36:41,00:37:11,talent_points,,summoning_doublers,arcane_cultist,priority,w7,,Super Summoning Doublers to improve summoning progression.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:36:41,00:37:11,talent_points,,tachyon_truth,arcane_cultist,skip,w7,,Tachyon Truth is not a priority.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:36:41,00:37:11,talent_points,,backup_energy,arcane_cultist,priority,w7,,Super Backup Energy for fewer Arcanist kill requirements and increased tachyon gains.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:37:11,00:37:41,talent_points,,carry_capacity,voidwalker,priority,w7,,Super carry capacity for stamp upgrades and Tome's green mushroom storage objective.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:37:11,00:37:41,talent_points,,indiana_attack,voidwalker,skip,w7,,Indiana attack is not worth supering.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:37:11,00:37:41,talent_points,,breaking_the_bank,voidwalker,skip,w7,,Breaking the Bank scales poorly.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:37:11,00:38:11,class_choice,,role,voidwalker,opinion,w7,,Voidwalker is primarily for bossing and skilling rather than ordinary combat farming.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:37:41,00:38:11,talent_points,,two_punch_man,voidwalker,skip,w7,,Two Punch Man is not worth supering.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:37:41,00:38:11,talent_points,,gimme_gimme,voidwalker,priority,w7,loot_multiplier=2,Super Gimme Gimme for more double loot chance.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:37:41,00:38:11,talent_points,,lucky_hit,voidwalker,skip,w7,,Lucky Hit scales poorly.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:37:41,00:38:11,talent_points,,equipment_luck,voidwalker,skip,w7,,Equipment luck scaling is not worthwhile.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:37:41,00:38:11,talent_points,,straight_up_cash,voidwalker,skip,w7,,Do not use Voidwalker to farm money.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:37:41,00:38:11,talent_points,,lucky_horseshoe,voidwalker,skip,w7,,Lucky Horseshoe is not recommended for supering.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:37:41,00:38:11,talent_points,,curse_of_mr_looty,voidwalker,skip,w7,,Loot-for-damage investment does not fit the intended bossing and skilling role.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:38:11,00:38:42,talent_points,,its_your_birthday,voidwalker,skip,w7,,It's Your Birthday scales poorly.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:38:11,00:38:42,talent_points,,come_out_crystals,voidwalker,skip,w7,,Crystal spawn scaling is poor and crystal farming is not recommended here.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:38:11,00:38:42,talent_points,,cards_galore,voidwalker,setup,w7,,Cards Galore is optional but scales poorly.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:38:11,00:38:42,talent_points,,rarity,voidwalker,skip,w7,,The rare item talent scales poorly.,yes,2
+fo2WwEKsty0,griffybit,2025-11-28,00:38:42,00:39:13,talent_points,,reroll_pls,voidwalker,priority,w7,,Super Reroll Please to improve chances of obtaining the Nothing trophy.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:38:42,00:39:13,talent_points,,coin_toss,voidwalker,skip,w7,,Coin Toss is not recommended.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:38:42,00:39:13,talent_points,,skillage_damage,voidwalker,skip,w7,,Skill-based damage scales poorly.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:38:42,00:39:44,talent_points,,printer_go_brrr,voidwalker,priority,w7,hours_per_proc=17,Super Printer Go Brrr for more printed hours even if proc chance may be capped.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:39:13,00:39:44,talent_points,,triple_jab,voidwalker,skip,w7,,Triple Jab is not recommended.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:39:13,00:39:44,talent_points,,one_step_ahead,voidwalker,priority,w7,extra_void_points=about_100,Super One Step Ahead for additional Voidwalker talent points.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:39:13,00:39:44,talent_points,,lucky_charms,voidwalker,skip,w7,,Lucky Charms scales poorly.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:39:44,00:40:15,talent_points,,blessed_chips,voidwalker,setup,w7,,Blessed Chips has decent scaling and is useful for additional skill experience.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:39:44,00:40:15,talent_points,,containers,voidwalker,mechanic,w7,,Container talents cannot be supered.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:39:44,00:40:15,talent_points,,maestro_transfusion,voidwalker,skip,w7,,Supering Transfusion can reduce efficiency enough to lower actual experience gains.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:39:44,00:40:46,talent_points,,crystal_countdown,voidwalker,skip,w7,,Creator does not recommend supering Crystal Countdown.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:40:15,00:40:46,talent_points,,left_hand_of_learning,voidwalker,priority,w7,,Super Left Hand of Learning for more experience when Voidwalker leads skill levels.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:40:15,00:40:46,talent_points,,right_hand_of_action,voidwalker,priority,w7,,Super Right Hand of Action for other characters' skill efficiency and larger prints.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:40:46,00:41:16,talent_points,,jman_was_better,voidwalker,skip,w7,,Do not super Jman Was Better.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:40:46,00:41:16,talent_points,,void_trial_rerun,voidwalker,priority,w7,,Super Void Trial Rerun for more speedrun duration.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:40:46,00:41:16,talent_points,,void_radius,voidwalker,priority,w7,,Super Void Radius for larger attack range and multikill per tier that improves prints.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:41:16,00:41:48,talent_points,,bossing_vain,voidwalker,priority,w7,,Super Bossing Vain during speedruns for respawn and larger green mushroom spore samples.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:41:16,00:41:48,talent_points,,quad_jab,voidwalker,skip,w7,,Quad Jab is not recommended.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:41:16,00:41:48,talent_points,,enhancement_eclipse,voidwalker,skip,w7,cap=250,Enhancement does not improve beyond level two hundred fifty.,yes,3
+fo2WwEKsty0,griffybit,2025-11-28,00:41:16,00:41:48,talent_points,,other_voidwalker_talents,voidwalker,mechanic,w7,,Most remaining Voidwalker talents cannot be supered.,yes,3

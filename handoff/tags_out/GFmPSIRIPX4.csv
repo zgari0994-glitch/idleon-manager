@@ -1,0 +1,127 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,pets,piggies,,mechanic,any,pets=15,"Piggy pets give auto loot, infinite teleport and storage access from anywhere; he won them in a dart minigame and gives them away.",yes,3
+00:01:00,00:01:00,general,star_signs,,meta_change,any,,Star sign menu no longer in codex since world 7; choose star signs at the telescope at top of the tree.,yes,3
+00:03:04,00:03:34,owl,great_reset,,mechanic,w3,,Great mega reset gives a mega feather that provides Orion bonuses.,yes,3
+00:03:34,00:04:05,owl,mega_feather,,mechanic,w3,feather_number=10,Each mega feather is different until the 10th; from the 10th on it repeats.,yes,3
+00:04:05,00:04:36,owl,mega_feather,,mechanic,w3,feather_generation_mult=10,Maple mega feather multiplies all feather generation by 10x multiplicatively; another one doubles Orion bonus base values.,yes,2
+00:04:36,00:05:39,owl,mega_feather,,mechanic,w3,feather_restart_mult_before=3;feather_restart_mult_after=5;cheapener_bonus_seconds=2;super_cheapener_seconds=4,"Pristine mega feather changes feather restart multiplier from x3 to x5; cheapener upgrades gain +2 and +4 seconds per level; evergreen is triple.",yes,2
+00:05:39,00:06:09,owl,fractal_mega_feather,,target,w3,class_xp=150,"Fractal mega feather 3 gives massive Orion bonuses: 150% class XP, base damage, total damage, skill XP, drop rate, all stat.",yes,3
+00:06:09,00:06:42,owl,orion_bonus,,priority,early,,"Total damage percent and all stat are the two big Orion bonuses, especially early game.",yes,3
+00:06:09,00:06:42,owl,orion_bonus,,how_to,w3,cost_a=6.8E27;cost_b=1.7E24,Bounce between upgrading Orion bonus and great mega feather depending on which is cheaper.,yes,3
+00:06:42,00:07:13,owl,mega_feather,,mechanic,w3,,After collecting the first nine feathers the tenth repeats and gets more expensive; pressing it upgrades all bonuses.,yes,2
+00:07:13,00:07:44,owl,fractal_mega_feather,,how_to,w3,time_hours=5,He got fractal mega feather 3 in about five hours off camera.,yes,2
+00:07:13,00:07:44,owl,upgrades,,priority,w3,feathers_per_second=625,Wait for the Go Secret Owl upgrade before grinding feathers: 625% feathers per second for Orion.,yes,3
+00:08:50,00:09:20,owl|upgrade_vault,vault_mastery,,how_to,w3,time_hours=5;go_secret_owl_bonus=125;base_bonus=500,Vault Mastery affects Orion; with it plus Go Secret Owl's 625% he can do the feather push in about 5 hours.,yes,2
+00:09:20,00:09:51,owl,orion_farming,,account_note,w3,,He put off farming Orion until he reached the 625% point and farmed elsewhere meanwhile.,yes,2
+00:09:20,00:10:21,armor_smithy,serrated_rex_ring,,target,w3,skill_efficiency=8;normal_skill_efficiency=5;upgrade_slots=3,"Serrated Rex ring (from Baba Yaga recipe, upgraded from party dungeon Rex ring) gives 8% skill efficiency, defense, 3 slots.",yes,3
+00:09:51,00:10:21,armor_smithy,serrated_rex_ring,,priority,mid,,Serrated Rex ring will be your main ring source until later game like Emperor Obless; keep it for skilling gear afterwards.,yes,3
+00:10:21,00:10:53,armor_smithy,amarok_helmet,,setup,w3,wiggler_circles=5,"Two characters farming walking sticks got five wiggler circles, needed for Amarok helmet.",yes,3
+00:10:53,00:11:23,armor_smithy|gem_shop,amarok_set,,priority,w4,set_bonus_accuracy_defense=40;gems=2000,Amarok set bonus gives 40% accuracy and defense; he skipped the 2000 gems bonus but recommends Amarok gear if you spent them.,yes,2
+00:11:23,00:11:54,pets,companion_pull,,priority,any,,Always pull companions from Legacy first.,yes,3
+00:11:23,00:11:54,pets,companion_pull,,target,any,,"Companions to hope for: King Doot, Rift Slug, Ram and Sheepy; Sheepy and Ram would be the best.",yes,3
+00:12:25,00:13:26,pets|bubbles,companion_bonus,,mechanic,w3,,"New companion bonus makes all alchemy bubbles count as equipped for all characters, including level up gift.",yes,3
+00:13:26,00:13:58,bundles|gem_shop,sacred_methods_pack,,opinion,any,,"Sacred Methods pack is S tier but pop-up prompts are too intrusive; he wants them reduced.",yes,3
+00:13:58,00:14:30,armor_smithy,amarok_helmet,,how_to,w3,forest_fibers=2500,Amarok helmet needs 2500 forest fibers plus Amarok drops (slobberinos?).,yes,2
+00:14:30,00:15:01,printer,sample_printing,,account_note,w3,caps=38,He's out of caps at 38 and has been printing double.,yes,2
+00:14:30,00:15:01,tasks,hemoglobin,,priority,w3,hemoglobin=50,Finish hemoglobin task before world four (about 50 boar beans with no weapons); craft three weapons; pack meu and naked knuckle boxer are easy.,yes,2
+00:15:34,00:16:04,printer,3d_printer,,mechanic,w3,printer_level=10,Getting 3D printer 10 out of 10 allows printing with every character.,yes,3
+00:15:34,00:16:04,worship,tower_defense_shrines,,mechanic,w3,,"Shrines: Woodler gives attack percent, Isen health and defense, Crystal levels other shrines faster, Pantheon carry capacity, Clever drop rate.",yes,2
+00:16:04,00:16:34,worship,towers,,mechanic,w3,,"Fire Lobber is an arcing AoE; Boulder Roller throws boulders hitting multiple enemies and is his main tower until the next one, far away.",yes,2
+00:16:34,00:17:06,worship,towers,,mechanic,w3,,Stormaller helps single target damage and crit chance; Frozen Malone slows enemies for more damage and fewer leaks.,yes,2
+00:17:06,00:17:37,worship,tower_defense,beast_master,priority,w3,,"Wait for Party Starter or Kraken Cosplayer towers, avoid them for now; attempt unlocked tower defense for Beast Master but level the Hunter first for life.",yes,2
+00:17:37,00:18:09,construction,cogs,,setup,w3,,Place booster cogs in a square so all directly hit the main build rate character.,yes,3
+00:17:37,00:18:40,construction,cog_levels,,mechanic,w3,,Cog level drops depend on your highest level character in construction; higher level gives more build rate.,yes,3
+00:18:09,00:19:11,construction,booster_cogs,,mechanic,w3,ultimate_booster_max=65;yellow_booster_max=15,"Booster cogs max 65% on ultimate cog board, ~8% on others, yellow about 15%; ultimate cogs are the only way for boosters.",yes,2
+00:19:11,00:19:41,refinery,salts,,priority,w3,,"Ranked up orange salts; could unlock blue salts but holding off, since upgrades may still need orange salt.",yes,2
+00:19:41,00:20:11,salt_lick,overview,,mechanic,mid,,You give salt to the salt lick and it gives bonuses; matters from midgame and should be finished late.,yes,3
+00:20:11,00:20:43,salt_lick|printer,bonuses,,mechanic,mid,,"Salt lick gives bonuses like multi-kill and bigger 3D printer samples taken, going past 90% guarantee.",yes,2
+00:20:43,00:21:14,salt_lick,early_game,,warning,early,,Salt lick isn't worth it early; people hard focus it and set themselves back since salt takes long.,yes,3
+00:21:14,00:21:45,salt_lick,upgrades,,how_to,early,,Only do the first couple upgrades like red salts since you print salts rapidly.,yes,3
+00:21:14,00:21:45,refinery,salts,,account_note,w3,,Refinery ate his orange salts so he couldn't buy the upgrade; he needs more green mushrooms.,yes,2
+00:21:45,00:22:15,cauldrons_liquids,liquid_nitrogen,,mechanic,w3,,Unlocked liquid nitrogen which levels new tiers of bubbles; waiting for the next page.,yes,2
+00:22:15,00:22:46,cauldrons_liquids,bargain_tag,,priority,w3,,"Wait for next cauldron page for Bargain Tag, purchased with water, which reduces bubble upgrade costs.",yes,3
+00:22:46,00:23:18,bubbles,bubble_choices,,setup,w3,,"Level strength bubbles for damage, agility for all-around stats, and a passive bubble.",yes,2
+00:23:18,00:23:48,talent_points,warrior_build,squire,setup,w3,double_strike_points=29;double_strike_bonus=40,"Focus whirl strength and numbers, carry a big stick, firmly grasp it, and 29 points in double strike for 40%.",yes,2
+00:23:48,00:24:19,talent_points,precision_power,squire,how_to,w3,bricky_skin_block=60;bricky_skin_base=35,Put points in precision power only if you have enough accuracy; otherwise bricky skin (blocks 60% damage and +35 base).,yes,3
+00:24:49,00:25:21,characters,leveling,,setup,w3,,Characters on fruit flies to squeeze levels before world four; pull them out once they reach world four.,yes,3
+00:24:49,00:25:21,armor_smithy,amarok_set,,target,w4,amarok_sets=3,Goal: three sets of Amarok gear (no helmet needed) to flip between strength wisdom agility characters; pull everyone to push elite classes in world four.,yes,3
+00:25:52,00:26:54,general,diamond_chef_minigame,,how_to,w3,,"Stand on middle platform or bottom left spot; other spots hit a spike every time and kill you.",yes,2
+00:26:54,00:27:27,stamps,stamp_farming,wizard,priority,w3,,Waiting on the wizard's elite class before deciding stamp farming; not stamp farming yet.,yes,3
+00:27:27,00:27:57,merits,world_2,,priority,w3,hemoglobin=50,"Still working hemoglobin to 50; world 2 yum, desert and obless maxed before the oals attempt; skipped gem drops until ready for bosses.",yes,2
+00:27:57,00:28:29,merits,shop_purchases,,setup,w3,food_slots=2;build_slots=2,"Bought oals, AFK gains, yum, desert, mob respawn plus two food slots and two build slots.",yes,2
+00:27:57,00:28:29,merits,max_talent_books,,priority,w3,,Next pick max possible talent books for bigger talents and more damage.,yes,3
+00:28:29,00:29:00,merits,alternatives,,how_to,w3,telekinetic_points=1,"Alternatives: printer sample size, or one point in telekinetic connect storage if you lack RAM and have few teleports; the talent deletes ground items.",yes,2
+00:29:00,00:29:30,merits,carry_capacity,,opinion,w3,,Only other reason for more points is carry capacity but he won't waste star talents there.,yes,1
+00:30:01,00:30:32,vials|killroy,skulls,,mechanic,w3,,Some vials need active play; skull gains come from just doing Killroy each week.,yes,2
+00:31:02,00:31:32,bubbles,lil_larry,,opinion,any,double_upgrade_chance=1.19,"Larry bubble is S tier: each upgrade has 1.19% chance to upgrade twice free, scaling toward +4.",yes,2
+00:31:32,00:32:03,bubbles,breakthrough,,account_note,w3,,"Breakthrough got cogs for hands, sample size, brew speed, all for the kill; will invest in cogs for hands.",yes,2
+00:32:03,00:32:34,bubbles,call_me_ash,,opinion,early,,Bojack is decent early game and Call Me Ash is really good.,yes,2
+00:32:34,00:33:04,bubbles|traps,cheapy,,mechanic,w3,,Cheapy bubble gives another placeable trap and trapping efficiency; I Catch Them All raises shiny critter chance.,yes,2
+00:33:04,00:33:35,bubbles,spears,,mechanic,w3,,Spears bubble gives more total damage percent.,yes,2
+00:33:04,00:33:35,bubbles,call_me_bob,,priority,w3,construction_xp=60,Call Me Bob gives free construction XP (60%) so put many points; Carpenter right after gives build rate and is even better.,yes,3
+00:33:35,00:34:06,printer,gold_print,,account_note,w3,gold=74000,"Has 74k gold and too much, so he printed rat's tails and gold samples.",yes,2
+00:36:43,00:37:14,talent_points,shaman_build,shaman,setup,w3,tentacle_eye_chance=50,"Max Gilded Sword, put more in fireball or mana, max Tentacle Eye for 50% chance to do two.",yes,2
+00:37:14,00:37:47,talent_points,cranium_cooking,shaman,skip,w3,,Skip Cranium Cooking for now; put points in AFK gains talents because he's not actively playing shaman.,yes,2
+00:37:14,00:37:47,characters,shaman,shaman,opinion,w3,,Actively playing shaman is bad at this point; Hugoblin should be next.,yes,2
+00:38:19,00:38:49,bubbles,multi_kill_rate,,opinion,early,multi_kill=2,"Multi-kill rate for all worlds is great early game, bad later; 2% is a big increase now.",yes,1
+00:38:49,00:39:21,guild,gifts,,account_note,any,gems=50;members=1,Opened guild gifts for 50 gems; his guild has one member.,yes,3
+00:40:22,00:40:54,traps,critter_placement,,setup,w3,scorpions=2;frogs=2;crabs=2,"Place two scorpions, two frogs and two crabs, matching what others are using.",yes,2
+00:40:54,00:41:27,printer,iron_ore,,how_to,w3,,Include iron ore in 3D printing to get ore.,yes,2
+00:42:00,00:42:30,characters,wizard_unlock,wizard,account_note,w3,level_needed=10,Needs about ten more levels to be able to make the character a wizard (500 total levels).,yes,2
+00:42:30,00:43:02,talent_points,wizard_build,wizard,setup,w3,,"Specialty worship; take sharpened axe, gilded sword, agility for accuracy and overclocked energy because MP equals damage.",yes,2
+00:43:02,00:43:32,talent_points,wizard_build,wizard,setup,w3,,"Usually work on power overwhelming, knowledge is power and fireball; do more once Amarok gear arrives for combat.",yes,2
+00:43:32,00:44:03,talent_points,wizard_build,wizard,priority,w3,,"Take ice shards, floors, lava and tornado; frozen is weak; one ability requiring auto attacks is bad and only for AFK.",yes,2
+00:44:03,00:44:35,talent_points,mana_is_life,wizard,mechanic,w3,,Mana's life gives multi-kill per damage and is strong; multi-kill gives increased base mob materials so wizard farms them well.,yes,3
+00:44:35,00:45:36,talent_points,paperwork,wizard,priority,w3,paperwork_points=25,Paperwork gives stamps bonus and is a task-based bonus; max first with about 25 points; all stamp farming will be on this wizard.,yes,2
+00:45:05,00:45:36,talent_points,speedy_book,wizard,setup,w3,speedy_book_points=25;kills=4;seconds=4;attack_rate=15,Speedy book triggers on four kills in 4 seconds for +15% attack rate for 4 seconds; he puts 25 points but isn't sure of its function.,yes,2
+00:45:36,00:46:38,talent_points,tornado,wizard,comparison,w3,,Tornado is better than lava early; lava gets much better later; so tornado gets remaining points.,yes,3
+00:47:09,00:47:39,worship,charge,wizard,how_to,w3,,Needs a skull and a trap on the wizard because otherwise he can't generate much charge.,yes,2
+00:47:09,00:47:39,printer,wisdom_character,wizard,account_note,w3,,"Wizard's specialty is wisdom, and his 3D print is logs.",yes,2
+00:47:39,00:48:09,talent_points,multi_kill_talent,wizard,warning,w3,,Multi-kill talent must be on your bar when going AFK or you won't get the extra multi-kill per tier bonus.,yes,3
+00:48:09,00:48:40,armor_smithy,armor_building,,opinion,w3,double_damage=36,He's not building armor because he's lazy; mentions a 36% double damage bonus.,yes,1
+00:49:10,00:49:40,kangaroo,fisheroo_points,,priority,w3,,"Get fisheroo points and buy whenever not more expensive than the greatest catch, but avoid fisher reset as long as possible.",yes,3
+00:49:10,00:49:40,kangaroo,fisher_reset,,warning,w3,,Stay away from fisher reset until you can actually benefit from more fisher points; it gets expensive fast.,yes,3
+00:49:40,00:50:10,kangaroo,mega_fish,,mechanic,w3,,Reset lets you gain a mega fish; first mega fish was a squid.,yes,2
+00:49:40,00:50:42,kangaroo,tar_pit,,mechanic,w3,,Tar pit unlocked; once it fills you get a tarfish usable for three options and it speeds up over time.,yes,2
+00:50:42,00:51:44,kangaroo,upgrades,,mechanic,w3,,Upgrades after reset include mega fish upgrade; possibly mega fish requirement not retroactive; he's unsure and admits the misinformation.,yes,1
+00:51:44,00:52:14,kangaroo,leveling,,account_note,w3,,Done with Owl but barely touched Roo; Roo levels up through upgrade system for now.,yes,2
+00:52:14,00:52:46,knockout,neptune,,account_note,w3,,Completed all knockouts up to Neptune.,yes,1
+00:52:46,00:53:17,statues|money,void_coin,,mechanic,w3,,Got first void coin and used it for statues; unlocked the next world four statues; skip bottle spiral boat or dragon villager essence.,yes,2
+00:52:46,00:53:17,w7_push,goal,,priority,w3,,Main goal now is reaching world four after a little tower defense.,yes,3
+00:53:17,00:53:49,armor_smithy,amarok_farm,,how_to,w3,keys=72;keys_needed=20,"Needs to farm Amarok for helmet; 72 keys, around day five or six of the account.",yes,2
+00:53:49,00:54:20,speedrun,world_six_days,,comparison,any,days_main=7;days_griffy_estimate=8,"Idol Main Zed reached world six in seven days; Griffy thinks he could do about eight, maybe seven.",yes,2
+00:54:20,00:55:23,armor_smithy,gmos_disguise,,mechanic,early,upgrade_stones=6;defense=5;wisdom=15;xp=7,"Gmos disguise gives 6 upgrade stones, 5 defense, 15 wisdom and 7% XP; great alternative early game, good accuracy for warrior.",yes,2
+00:55:23,00:55:54,armor_smithy,gmos_disguise,,how_to,w3,,Dress other characters in Gmos disguise; he drops world four stones on it and treats it like the helmet.,yes,2
+00:57:28,00:57:58,armor_smithy,amarok_drop,,account_note,w3,stars=3,A three-star Amarok drop gives juicy AFK gains for skills.,yes,1
+00:58:32,00:59:02,armor_smithy,gmos_disguise,,opinion,early,,Three Gmos disguises are actually a lot better than you think.,yes,2
+01:00:34,01:01:36,armor_smithy,amarok_set,,target,w3,sets=3;needed=42;more_needed=20,Needs three Amarok sets (42 pieces) and about 20 more; not making two more helmets or farming wiggler circles.,yes,2
+01:01:04,01:01:36,armor_smithy,amarok_set,,how_to,w3,,Might use remaining time candy to push to world four.,yes,1
+01:01:36,01:02:36,armor_smithy,amarok_opal,,target,w3,attempts=20,Amarok opal gives a lot of defense for free; about 20 attempts left to try for it.,yes,2
+01:04:40,01:06:12,talent_points,bowman_build,bowman,setup,w3,homing_arrow_speed_dna=27,"Max AFK gain talent, strength, agility, homing arrow speed DNA at 27%, big damage 10 and dungeonic; extendo range optional for accuracy.",yes,1
+01:06:42,01:07:13,construction,chain_links,,account_note,w3,chain_links=3144;needed_per_piece=300,Has 3144 chain links and needs 300 per piece for the sets; kernels and gigafrog horns may be short.,yes,2
+01:07:13,01:07:44,armor_smithy,wiggler_circles,,account_note,w3,wiggler_circles=13,Has 13 wiggler circles and tried to get more from walking sticks.,yes,2
+01:07:44,01:08:15,armor_smithy,wiggler_circles,,how_to,w3,drop_chance=1/20000,Throw everyone on walking sticks to get wiggler circles for three sets of Amarok gear (1 in 20000 drop).,yes,2
+01:08:46,01:09:16,talent_points,multi_kill,wizard,opinion,w3,kills=4000,Wizard multi-kill ability is insane: 4k kills on slimes already versus the others.,yes,2
+01:09:16,01:09:48,armor_smithy,amarok_helmet,,account_note,w3,,"Wizard to finally make the Amarok helmet; no more time candy, which was dumb.",yes,3
+01:09:48,01:10:48,armor_smithy,amarok_set,,mechanic,w3,,"Amarok set bonus appeared briefly after unlocking, then gone when gear removed; he considers it a bug.",yes,2
+01:10:48,01:10:48,traps,critter_souls,,priority,w3,,Plans to go for critters with more souls next.,yes,1
+01:11:51,01:12:21,anvil,amarok helmet,,opinion,early,,He tells viewers the Amarok helmet is not worth it in F2P guides but always ends up making it himself.,yes,2
+01:12:21,01:12:52,worship,tower defense,,priority,early,,Before continuing he needs to level up tower defense and says there is a trick for leveling worship or trapping.,yes,2
+01:12:52,01:12:52,general,boss progression,,target,early,hours=7;needed=7000,About 7 more hours of waiting means he could fight Chizoar and start pushing the next world.,yes,1
+01:13:53,01:14:35,worship|traps,tower defense,,how_to,early,,Level worship by summoning a tower and throwing it onto the ground so critters get stood on; he demonstrates it in tower defense.,yes,2
+01:14:35,01:14:35,worship|balloons,tower defense,,mechanic,early,,The worship trick can be done with balloons but you must be in tower defense; he thinks the MSA allows it later.,yes,2
+01:14:35,01:14:35,traps|worship,critters,,how_to,early,,The same trick works with trapping if you make sure you are standing on the critters.,yes,2
+01:14:35,01:14:35,worship,souls,,mechanic,early,souls=500,He got about 500 souls at once because of an increased soul critter amount.,yes,2
+01:14:35,01:15:06,worship,tower defense level,,target,early,worship_level=31,Level 31 worship is high enough to proceed; a higher score was possible but not needed.,yes,2
+01:15:39,01:16:12,prayers|printer,royal sampler,,priority,early,printer_sample_size=15,Royal Sampler prayer is needed because it gives 15% 3D printer sample size.,yes,3
+01:16:12,01:16:44,prayers,royal sampler,,mechanic,early,xp_curse=-30,Royal Sampler's curse of -30% all XP is additive rather than multiplicative.,yes,3
+01:16:12,01:16:44,prayers,royal sampler,,comparison,early,example_xp=10;multiplicative=7;additive=9.7,With 10x XP a multiplicative 30% penalty would give 7x but the additive penalty gives 9.7x so the difference is small.,yes,3
+01:16:44,01:16:44,prayers,royal sampler,,priority,early,,Royal Sampler is worth having equipped at all times.,yes,3
+01:16:44,01:16:44,prayers,accuracy prayer,,target,early,,He also wants to get the Waka-related war prayer that gives accuracy; garbled name.,yes,1
+01:16:44,01:17:14,prayers,prayer slots,wizard,mechanic,early,prayer_slots=2,Unlocking the wizard lets him equip two prayers at once.,yes,2
+01:17:14,01:17:44,worship,tower defense towers,,setup,early,,Max out Stop and Kung Fu Kick as the two main towers for the run.,yes,2
+01:17:14,01:17:44,worship,tower defense towers,,mechanic,early,,Stop knocks characters back and Kung Fu Kick makes them immobile.,yes,2
+01:17:14,01:17:44,worship,tower defense enemies,,warning,early,,Upcoming yellow enemies will stun your buildings so you must prevent that.,yes,2
+01:17:44,01:18:14,worship,tower defense strategy,,setup,early,,Plan is to place Frozen Malone then Boulder Roller repeatedly in alternation.,yes,2
+01:19:10,01:20:13,worship,tower defense failure,,account_note,early,,Run failed: he lacked points to place a tower and small enemies caused problems.,yes,2
+01:19:41,01:20:13,worship,tower defense lava wave,,warning,early,nutto_count=7000000,Lava appeared and the boss summoned a huge swarm of nuttos that rushed him and ended the run.,yes,2

@@ -24,9 +24,10 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'handoff/tags_out/*.csv'))):
     for i, r in enumerate(csv.DictReader(open(f, encoding='utf-8'))):
         r = {k.strip(): (v or '').strip() for k, v in r.items() if k}
         for s in (r.get('system') or 'general').split('|'):
-            s = s.strip()
+            s = s.strip().replace(' ', '_')
             e = []
-            if s not in SYSTEMS: e.append('system=' + s)
+            if s not in SYSTEMS:  # unknown slug -> general, keep the topic in subsystem
+                r['subsystem'] = (s + '; ' + r.get('subsystem', '')).strip('; '); s = 'general'
             if r.get('claim_type') not in TYPES and s != 'none': e.append('type=' + r.get('claim_type', ''))
             if not TS.match(r.get('t_start', '')): e.append('t_start')
             if not r.get('statement'): e.append('statement')
