@@ -20,6 +20,59 @@ NAMES = list(by_name)
 SK = [k for k in chars[0]['skills'] if k != 'Combat' and 'Lol' not in k]
 best = {s: max(chars, key=lambda c: c['skills'].get(s, 0)) for s in SK}
 
+# ---------- guidance (2026-11-19): creator HOW from all tagged videos + prerequisites ----------
+import sys as _sys
+_sys.path.insert(0, os.path.join(R, 'model'))
+import guidance as GD
+from rapidfuzz import fuzz as _fz
+SI_ALL = yaml.safe_load(open(os.path.join(R, 'model', 'system_index.yaml')))
+SEC_OWNER = {}
+for _k, _v in SI_ALL.items():
+    for _sec in _v.get('autoreview', []) or []:
+        if _v.get('owners'): SEC_OWNER.setdefault(_sec, _v['owners'][0])
+DONE = {}
+for _w in review['worlds']:
+    for _s in _w['sections']:
+        for _g in _s['groups']:
+            for _t in [_g] + list(_g.get('tabs', [])):
+                for _a in _t.get('items', []):
+                    for _b in (_a.get('items') or [_a]):
+                        if _b.get('completed') and _b.get('label'): DONE.setdefault(_s['name'], []).append(GD.label_name(_b['label']))
+
+def creator_take(sec, n=2):
+    # skip narration ("he uses...") - not an instruction
+    """Top creator claims for a whole system, minus ones about things already done."""
+    pool = [x for sl in GD._sec2slug().get(sec, []) for x in GD._idx().get(sl, []) if x['type'] in ('priority', 'how_to', 'blocker', 'warning')]
+    done = DONE.get(sec, [])
+    keep = []
+    for x in pool:
+        if x['k'] and any(_fz.token_set_ratio(x['k'], d) >= 92 for d in done if len(d) > 4): continue
+        if NARR.search(x['say']) or x['date'] < '2024-06': continue
+        keep.append(x)
+        if len(keep) >= 6: break
+    return [GD.fmt(c) for c in GD._dedupe(keep)[:n]]
+
+def how_line(sec, label):
+    cs, kind = GD.how(sec, label, 2)
+    return [(GD.tag(c), GD.fmt(c)) for c in cs] if kind == 'exact' else []
+NARR = re.compile(r'\b(he|his|him|she|her|they|their)\b', re.I)
+INFO_ONLY = re.compile(r'^(Info\b|Grand Total|Suggestion:|Note:)', re.I)
+
+LOCK_RE = re.compile(r'(Locked[^.;]*|Needs [^.;]+|Requires [^.;]+|Unlocks? (?:at|by|with|from) [^.;]+)', re.I)
+PREREQ = {}   # owner -> list of 'unblocks' lines (filled while building cards)
+
+def prereq_of(label, sec, who):
+    """(unlock text, owner of the unlocking system) when an AutoReview line says it's locked."""
+    m = LOCK_RE.search(label)
+    if not m: return None
+    txt = m.group(1).strip()
+    if re.search(r'previous', txt, re.I): return (txt, who)
+    best, own = 0, None
+    for sname, o in SEC_OWNER.items():
+        sc = _fz.partial_ratio(sname.lower(), txt.lower())
+        if sc > best and len(sname) > 4: best, own = sc, o
+    return (txt, own if best >= 90 else None)
+
 # ---------- helpers ----------
 MULT = {'K': 1e3, 'M': 1e6, 'B': 1e9, 'T': 1e12, 'Q': 1e15}
 def num(x):
@@ -290,30 +343,59 @@ for name, cfg in Y['characters'].items():
             kind = 'rinse'
             secs_in_job = list(dict.fromkeys(i['section'] for i in its))
             multi = len(secs_in_job) > 1
+            seen_ct = set()
             for sec in secs_in_job:   # every sub-system of the job gets its own line(s)
                 si = [i for i in its if i['section'] == sec]
                 pre = f"{sec}: " if multi else ''
+                for ct in creator_take(sec):
+                    if ct[:60] in seen_ct: continue
+                    seen_ct.add(ct[:60]); st.append(f"{pre}CREATORS: {ct}")
                 rd = [i for i in si if i['ready']]
-                st += [f"{pre}{i['label'][:80]} ({i['cur']} / {i['goal']}) READY" for i in rd[:2]]
+                st += [f"{pre}{i['label'][:80]} ({i['cur']} / {i['goal']}) READY" for i in rd[:2] if not INFO_ONLY.search(i['label'])]
                 fin = [] if jcfg.get('daily') == 'ready_only' else sorted([i for i in si if not i['ready'] and not i['infinite']], key=lambda i: -i['score'])
                 seen_g = []
+                seen_l = set()
                 for f0 in fin:   # best push per group, up to 3 per sub-system
-                    if f0['group'] in seen_g: continue
+                    if f0['group'] in seen_g or INFO_ONLY.search(f0['label']): continue
+                    ln = re.sub(r'^Autis\w+:\s*', '', f0['label'])[:60]
+                    if ln in seen_l: continue
+                    seen_l.add(ln)
                     seen_g.append(f0['group'])
                     ro = route_of(f0['label'])
                     if ro and ro != name:
                         if not any(f0['label'][:60] in x for x in ROUTED.get(ro, [])): ROUTED.setdefault(ro, []).append(f"{f0['label'][:80]} {f0['cur']} -> {f0['goal']} (toward {name} {j['job']})")
                         st.append(f"{pre}Lever on {ro}: {f0['label'][:60]}"); continue
-                    st.append(f"{pre}Push: {f0['label'][:80]} {f0['cur']} -> {f0['goal']}" + (f" · {f0['locked']}" if f0.get('locked') else ''))
+                    pq = prereq_of(f0['label'], sec, name)
+                    if pq and pq[1] and pq[1] != name:
+                        PREREQ.setdefault(pq[1], []).append(f"Unblocks {name}: {pq[0][:90]} (so {name} can push {GD.label_name(f0['label'])[:40]})")
+                    st.append(f"{pre}Push: {re.sub(r'^Autis[a-z]+:\s*', '', f0['label'])[:80]} {f0['cur']} -> {f0['goal']}" + (f" · {f0['locked']}" if f0.get('locked') else '')
+                              + (f" · BLOCKED: {pq[0][:80]}" + (f" ({pq[1]}'s job)" if pq[1] and pq[1] != name else '') if pq else ''))
+                    for tg, h in how_line(sec, f0['label']):
+                        st.append(f"{pre}  {tg}: {h}")
                     if len(seen_g) == 3: break
-            if not st: st.append(('Nothing to do today' if jcfg.get('daily') == 'ready_only' else 'No rinse data') + ': ' + (j.get('note') or j.get('state') or 'needs a playbook'))
+            if not st: st.append(('Nothing to do today' if jcfg.get('daily') == 'ready_only' else 'PLAN') + ': ' + (j.get('note') or j.get('state') or 'needs a playbook'))
         daily.append({'block': j['job'], 'kind': kind, 'steps': st})
     for l in card['locked']:
         daily.append({'block': f"Unlock: {l['feature']}", 'kind': 'unlock', 'steps': [l['unlock']]})
     card['daily'] = daily
     cards.append(card)
 
+for l in Y.get('locked', []):
+    o_unlock = None; best = 0
+    for sname, o in SEC_OWNER.items():
+        sc = _fz.partial_ratio(sname.lower(), l['unlock'].lower())
+        if sc > best and len(sname) > 4: best, o_unlock = sc, o
+    for feat_owner in [x.strip() for x in str(l['owner']).split(',')]:
+        if best >= 90 and o_unlock and o_unlock != feat_owner and feat_owner in by_name:
+            PREREQ.setdefault(o_unlock, []).append(f"Unblocks {feat_owner}: {l['unlock'][:100]} (unlocks {l['feature']})")
+            for cd in cards:
+                if cd['name'] == feat_owner:
+                    for b in cd['daily']:
+                        if b['kind'] == 'unlock' and l['feature'] in b['block']: b['steps'].append(f"BLOCKED on {o_unlock}'s job")
 for cd in cards:
+    if PREREQ.get(cd['name']):
+        cd['daily'].insert(1 if cd['daily'] and cd['daily'][0]['kind'] == 'move' else 0,
+                           {'block': 'Unblocks other characters (do these first)', 'kind': 'prereq', 'steps': list(dict.fromkeys(PREREQ[cd['name']]))[:6]})
     if ROUTED.get(cd['name']):
         cd['daily'].insert(len(cd['daily']), {'block': 'Levers for other jobs', 'kind': 'lever', 'steps': ROUTED[cd['name']][:6]})
 # ---------- account block ----------

@@ -15,14 +15,24 @@ import json, gzip, os, re, sys, yaml
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 stamp = open(os.path.join(R, 'snapshots', 'LATEST')).read().strip()
 review = json.load(gzip.open(os.path.join(R, 'snapshots', stamp, 'review.json.gz')))
-G = yaml.safe_load(open(os.path.join(R, 'rinse', 'griffy_topics.yaml')))
-TOTAL = G['total']
+# 2026-11-19: creator push from ALL tagged videos (Griffy 3x, Pulse/Nocturne 2x, recency + stage weighted),
+# replacing the old 101-video griffy_topics.yaml counts. Same factor shape: 1 + 0.2 x push (normalized, capped at 1).
+sys.path.insert(0, os.path.join(R, 'model'))
+import guidance as GD
+PUSH = GD.push_weight()
+SI = yaml.safe_load(open(os.path.join(R, 'model', 'system_index.yaml')))
+SEC_PUSH = {}
+for k, v in SI.items():
+    slug = v.get('transcripts', {}).get('slug') if isinstance(v.get('transcripts'), dict) else None
+    for sec in v.get('autoreview', []) or []:
+        SEC_PUSH[sec] = max(SEC_PUSH.get(sec, 0), PUSH.get(slug, 0))
+P90 = sorted(SEC_PUSH.values())[int(len(SEC_PUSH) * 0.9)] or 1
 ADJUST = {}  # e.g. {'section': multiplier}  (none yet)
 TIER = re.compile(r'^\s*(T\s*\d+|Tier\s*\d+|\d+\s*/\s*\d+)\s*$', re.I)
 SKIP = {'Pinchy high', 'Pinchy low', 'Pinchy all'}
 
 def griffy(section):
-    return 1 + 0.2 * G['sections'].get(section, 0) / TOTAL
+    return 1 + 0.2 * min(1.0, SEC_PUSH.get(section, 0) / P90)
 
 def actionability(cur, goal):
     if (cur and TIER.match(cur)) or (goal and TIER.match(goal)):
@@ -75,7 +85,7 @@ by_section = []
 for r in rows:
     if r['section'] not in {x['section'] for x in by_section}:
         by_section.append(r)
-json.dump({'meta': review['meta'], 'formula': 'Thigh Gap v2', 'by_section': by_section, 'rows': rows},
+json.dump({'meta': review['meta'], 'formula': 'Thigh Gap v2 (creator push from all tags)', 'by_section': by_section, 'rows': rows},
           open(os.path.join(R, 'rinse', 'latest.json'), 'w'), indent=1)
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 15
 print(len(rows), 'scored rows')
