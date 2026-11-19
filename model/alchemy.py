@@ -75,7 +75,10 @@ def card_lines(o):
              "your save shows Autistachio's Pea Pod gaining ~63/hr, so it works now.")
     lp = next((s for s in o['sigils'] if s['name'] == 'Loot Pile'), None)
     if lp: L.append(f"Loot Pile sigil (Sailing chest capacity): undiscovered, {lp['cur']:,}/{lp['goal']:,} = {lp['hours_1char']:,}h for 1 character ({lp['hours_1char'] / 24:.0f} days). Pea Pod's next level (15,000) adds +100% in sigil speed group 1 (6.78x -> 7.78x, about +15% on every sigil).")
-    L.append('Cauldron seats: ' + '; '.join(f"{s}: {', '.join(cs)}" for s, cs in by.items()) + '. GAP: per-cauldron value vs a sigil seat is not modeled yet, so seat moves are your call.')
+    L.append('Cauldron seats: ' + '; '.join(f"{s}: {', '.join(cs)}" for s, cs in by.items()) + '.')
+    L.append("Seat rule (Zack: need outweighs math): seats follow the bigger current need, not the lowest tier. Focus sigils only while a need is waiting on them, "
+             "never strip the cauldrons. Needs on sigils now: Loot Pile (Sailing chest capacity, Autisticles), Envelope Pile (-48% stamp max-level costs, Stamps). "
+             "Needs on cauldrons: W8 bubble unlocks (Bubbles tier), sample bubbles like Warriors Rule (printing), Diamond Chef (cooking speed = account priority).")
     L.append(f"Bubbles (tier {s_tiers.get('Bubbles')}): daily auto-levels {o['daily'].get('Kattlekruk levels per day')} (Kattlekruk link) and {o['daily'].get('Grind Time levels per day')} Grind Time (Coral Reef). "
              'Targets: ' + '; '.join(o['bubble_targets'][:8]) + '. GAP: bubble costs are not on the Toolbox page text, so bubble buys are not efficiency-ranked yet.')
     if o['vials_next']: L.append(f"Vials (tier {s_tiers.get('Vials')}), max next without breaking greenstacks: " + '; '.join(o['vials_next'][:6]) +

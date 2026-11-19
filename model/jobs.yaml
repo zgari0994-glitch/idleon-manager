@@ -137,7 +137,10 @@ lever_routes:   # a lever listed under one job but done by another character's j
 
 account_wide:   # Zack 2026-11-17: shown once on the account block, not on a card
   - {job: "Minigames (anyone, when we look there)", sections: [Basketball, Darts]}
-  - {job: "Storage / World progress (AutoReview Pinchy = where the account sits per world)", sections: [Storage, Pinchy high, Pinchy low, Pinchy all]}
+  - {job: "Storage", sections: [Storage]}
+
+reference_only:   # Zack 2026-11-19: AutoReview data to cite when needed, owned by no one
+  - {name: "Pinchy (AutoReview account stage per world)", sections: [Pinchy high, Pinchy low, Pinchy all]}
 
 every_character:   # Zack 2026-11-19: systems every character considers in its own right (own needs/goals). Lines naming a character go to that card; the rest stays on the account block.
   - {job: Prayers, sections: [Prayers], facts: prayers, note: "Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling)"}
