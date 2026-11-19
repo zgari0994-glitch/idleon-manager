@@ -159,13 +159,13 @@ characters:
       text: 'AFK spot: not set (auto setup)'
       src: GAP
     jobs:
-    - job: 'Worship: souls + prayers (town)'
-      sections:
-      - Prayers
+    - job: 'Worship: souls (town)'
+      sections: []
       basis: auto
     - job: Divinity
       sections:
       - Divinity
+      - Coral Kid
       basis: auto
     - job: The Hole (all 15 caverns + villagers)
       sections:
@@ -222,18 +222,21 @@ characters:
       sections:
       - Owl
       basis: auto
-    - job: 'Maintenance (maxed tiers): Bribes, Rift, Star Signs, Smithing'
+    - job: 'Maintenance (maxed tiers): Bribes, Rift, Star Signs'
       sections:
       - Bribes
       - Rift
       - Star Signs
-      - Smithing
       basis: auto
   IdleOnLechVII:
     afk:
       text: 'AFK spot: not set (auto setup)'
       src: GAP
     jobs:
+    - job: Secret Class Path (Vman)
+      sections:
+      - Secret Class Path
+      basis: auto
     - job: 'Maestro: #1 in every skill'
       sections: []
       rule: maestro
@@ -314,7 +317,6 @@ characters:
       sections:
       - Coral Reef
       - Dancing Coral
-      - Coral Kid
       basis: auto
   IdleOnLechX:
     afk:
@@ -336,10 +338,13 @@ characters:
       - s: Statues
         rest: true
       basis: auto
+    - job: Luminous Menagerie (own intervention)
+      sections:
+      - Luminous Menagerie
+      basis: auto
     - job: W7 minis
       sections:
       - Sushi Station
-      - Luminous Menagerie
       - Clam Work
       - Jelly Operator
       - The Button
@@ -360,16 +365,16 @@ lever_routes:
 - m: card
   owner: IdleOnLechIX
 account_wide:
-- job: Minigames (anyone)
+- job: Minigames (anyone, when we look there)
   sections:
   - Basketball
   - Darts
-- job: Drop Rate / Storage / World progress
+- job: Storage / World progress (AutoReview Pinchy = where the account sits per world)
   sections:
-  - Drop Rate
   - Storage
   - Pinchy high
   - Pinchy low
+  - Pinchy all
 unassigned: null
 active_tasks: []
 locked: []

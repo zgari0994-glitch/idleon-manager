@@ -2,7 +2,7 @@
  "meta": {
   "game_save_utc": "2026-11-19T17:46:00.073000+00:00",
   "game_save_et": "2026-11-19 12:46 PM ET",
-  "review_run_et": "2026-11-19 01:49 PM ET",
+  "review_run_et": "2026-11-19 01:50 PM ET",
   "autoreview_last_update": "Nov 19, 2026, 5:46:00 PM UTC",
   "switches": {
    "autoloot": "on",
@@ -173,7 +173,7 @@
        "toolbox": [
         "world-6/sneaking"
        ],
-       "sources": "31 tagged / 217 chunks"
+       "sources": "312 tagged / 217 chunks"
       }
      ]
     },
@@ -342,7 +342,7 @@
        "toolbox": [
         "world-4/breeding"
        ],
-       "sources": "36 tagged / 658 chunks"
+       "sources": "593 tagged / 658 chunks"
       }
      ]
     },
@@ -443,7 +443,7 @@
         "tools/traps",
         "world-3/traps"
        ],
-       "sources": "25 tagged / 501 chunks"
+       "sources": "586 tagged / 501 chunks"
       }
      ]
     },
@@ -699,7 +699,7 @@
        "toolbox": [
         "class-specific/compass"
        ],
-       "sources": "99 tagged / 87 chunks"
+       "sources": "125 tagged / 87 chunks"
       }
      ]
     },
@@ -790,7 +790,7 @@
        "toolbox": [
         "world-2/killroy"
        ],
-       "sources": "0 tagged / 15 chunks"
+       "sources": "167 tagged / 15 chunks"
       }
      ],
      "weekly": {
@@ -1109,7 +1109,7 @@
          "label": "Helium - Talent Power Stacker",
          "cur": "2",
          "goal": "3",
-         "score": 128,
+         "score": 129,
          "ready": false,
          "infinite": false
         },
@@ -1120,7 +1120,7 @@
          "label": "Nitrogen - Construction Trimmer",
          "cur": "0",
          "goal": "1",
-         "score": 128,
+         "score": 129,
          "ready": false,
          "infinite": false
         }
@@ -1299,7 +1299,7 @@
        "label": "Helium - Talent Power Stacker",
        "cur": "2",
        "goal": "3",
-       "score": 128,
+       "score": 129,
        "ready": false,
        "infinite": false
       },
@@ -1310,7 +1310,7 @@
        "label": "Nitrogen - Construction Trimmer",
        "cur": "0",
        "goal": "1",
-       "score": 128,
+       "score": 129,
        "ready": false,
        "infinite": false
       },
@@ -1321,7 +1321,7 @@
        "label": "Oxygen - Library Booker",
        "cur": "0",
        "goal": "1",
-       "score": 128,
+       "score": 129,
        "ready": false,
        "infinite": false
       }
@@ -1333,21 +1333,21 @@
         "world-3/buildings",
         "world-3/construction"
        ],
-       "sources": "8 tagged / 482 chunks"
+       "sources": "97 tagged / 482 chunks"
       },
       {
        "system": "atom_collider",
        "toolbox": [
         "world-3/atom-collider"
        ],
-       "sources": "1 tagged / 90 chunks"
+       "sources": "110 tagged / 90 chunks"
       },
       {
        "system": "refinery",
        "toolbox": [
         "world-3/refinery"
        ],
-       "sources": "6 tagged / 322 chunks"
+       "sources": "202 tagged / 322 chunks"
       }
      ]
     },
@@ -1396,7 +1396,7 @@
        "toolbox": [
         "world-5/gaming"
        ],
-       "sources": "32 tagged / 429 chunks"
+       "sources": "397 tagged / 429 chunks"
       }
      ]
     },
@@ -1565,7 +1565,7 @@
        "toolbox": [
         "class-specific/royal-armory"
        ],
-       "sources": "93 tagged / 252 chunks"
+       "sources": "291 tagged / 252 chunks"
       }
      ]
     },
@@ -1734,7 +1734,7 @@
        "toolbox": [
         "world-2/islands"
        ],
-       "sources": "7 tagged / 0 chunks"
+       "sources": "109 tagged / 0 chunks"
       }
      ]
     },
@@ -2130,7 +2130,7 @@
        "toolbox": [
         "world-6/emperor"
        ],
-       "sources": "1 tagged / 56 chunks"
+       "sources": "30 tagged / 56 chunks"
       }
      ]
     },
@@ -2188,7 +2188,7 @@
        "toolbox": [
         "GAP: no Toolbox page mapped"
        ],
-       "sources": "15 tagged / 411 chunks"
+       "sources": "365 tagged / 411 chunks"
       }
      ]
     },
@@ -2270,7 +2270,7 @@
        "toolbox": [
         "world-2/killroy"
        ],
-       "sources": "0 tagged / 15 chunks"
+       "sources": "167 tagged / 15 chunks"
       }
      ],
      "weekly": {
@@ -2375,7 +2375,7 @@
      "kind": "rinse",
      "steps": [
       "CREATORS: After harvesting all plants use the sprinkler to repopulate the garden. [displayed_sprinkler=0/7] (Griffy 2026-09 @01:12:23)",
-      "CREATORS: Elegant Seashell upgrades are a good way to improve bit gain. (Griffy 2026-11 @00:08:00)",
+      "CREATORS: Completing additional quests builds the multiplier for Gaming bits. (Griffy 2026-11 @00:06:59)",
       "Push: Snail import not yet unlocked 0 -> 49 \u00b7 BLOCKED: locked"
      ]
     },
@@ -2406,6 +2406,8 @@
      "block": "Godshard set",
      "kind": "rinse",
      "steps": [
+      "CREATORS: Still craft a void armor set for armor-set completion. [armor_sets=1] (Griffy 2026-10 @00:22:29)",
+      "CREATORS: Farm boss armor for set bonuses even when the armor will not be worn. (Griffy 2026-10 @00:01:33)",
       "Push: Complete the Lustre Set: +0.0% Total Damage 0 -> 1",
       "Push: Lustre Veil 0 -> 1",
       "Push: Diabolical Headcase 0 -> 1"
@@ -2478,6 +2480,7 @@
     "Statue Effect multis and Statue bonuses \u00b7 Level 0 Gold Dragon Statue: +0% Statues Bonus 0 -> \u221e",
     "Statue Effect multis and Statue bonuses \u00b7 Level 0 Gold Spelunky Statue: +0% Spelunk Exp 0 -> \u221e",
     "Statue Effect multis and Statue bonuses \u00b7 Level 0 Gold Coral Statue: +0% Daily Coral 0 -> \u221e",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Prayer: Royal Sampler: +15.0% Printer Sample Rate 1 -> 20",
     "Sources of Max Book Levels (155/441) \u00b7 Atom Collider: Oxygen: +0/10 0 -> 1",
     "Sources of bonus talent levels beyond book le \u00b7 Set bonus: Kattlekruk Set: +0/5 0 -> 1",
     "Sources of Max Atom Levels \u00b7 Purchasing the final SuperBit in Gaming will increase the max level of all Atoms by 10 0 -> 1",
@@ -2726,7 +2729,7 @@
          "label": "Unlock 2 more vials",
          "cur": "36",
          "goal": "38",
-         "score": 133,
+         "score": 134,
          "ready": false,
          "infinite": false
         },
@@ -2737,7 +2740,7 @@
          "label": "Unlock 15 more vials",
          "cur": "36",
          "goal": "51",
-         "score": 133,
+         "score": 134,
          "ready": false,
          "infinite": false
         }
@@ -2755,7 +2758,7 @@
          "label": "Gold Guzzle (Gold Ore)Ready for level 5",
          "cur": "1000.0+%",
          "goal": "100%",
-         "score": 133,
+         "score": 134,
          "ready": true,
          "infinite": false
         },
@@ -2766,7 +2769,7 @@
          "label": "Max 4 total vials",
          "cur": "2",
          "goal": "4",
-         "score": 133,
+         "score": 134,
          "ready": false,
          "infinite": false
         }
@@ -2869,7 +2872,7 @@
        "label": "Gold Guzzle (Gold Ore)Ready for level 5",
        "cur": "1000.0+%",
        "goal": "100%",
-       "score": 133,
+       "score": 134,
        "ready": true,
        "infinite": false
       },
@@ -2902,21 +2905,21 @@
        "toolbox": [
         "world-2/bubbles"
        ],
-       "sources": "14 tagged / 638 chunks"
+       "sources": "1037 tagged / 638 chunks"
       },
       {
        "system": "alchemy_vials",
        "toolbox": [
         "world-2/vials"
        ],
-       "sources": "4 tagged / 212 chunks"
+       "sources": "241 tagged / 212 chunks"
       },
       {
        "system": "alchemy_p2w",
        "toolbox": [
         "world-2/cauldrons"
        ],
-       "sources": "6 tagged / 142 chunks"
+       "sources": "204 tagged / 142 chunks"
       }
      ]
     },
@@ -3123,7 +3126,7 @@
        "toolbox": [
         "world-6/summoning"
        ],
-       "sources": "45 tagged / 233 chunks"
+       "sources": "416 tagged / 233 chunks"
       }
      ]
     },
@@ -3310,7 +3313,7 @@
        "toolbox": [
         "class-specific/tesseract"
        ],
-       "sources": "3 tagged / 12 chunks"
+       "sources": "32 tagged / 12 chunks"
       }
      ]
     },
@@ -3392,7 +3395,7 @@
        "toolbox": [
         "world-2/killroy"
        ],
-       "sources": "0 tagged / 15 chunks"
+       "sources": "167 tagged / 15 chunks"
       }
      ],
      "weekly": {
@@ -3504,6 +3507,8 @@
       "Vials:   HOW: To unlock vials attempt it and drop thread and copper ore on the ground; never needs doing again. (Griffy 2025-11 @01:04:42)",
       "Vials: Push: Max 4 total vials 2 -> 4",
       "Vials: Push: Total Vial Effect bonus: 2.60x 2.60x -> 5.96x",
+      "Sigils: CREATORS: Players pursuing red or purple sigils should vote only for S tier options. (Griffy 2026-01 @00:10:41)",
+      "Sigils: CREATORS: Big Sig Fig is hard C tier: sigils aren't the most insane mechanic and it's a massive point hog. [tier=C] (Pulse 2026-09 @00:24:09)",
       "Sigils: Push: Unlock Wizardly Hat 4.64 -> 24",
       "Sigils: Push: Sigil: Level 0 Pea Pod: +0/4800% 0 -> 5"
      ]
@@ -3530,8 +3535,8 @@
      "block": "Tesseract",
      "kind": "rinse",
      "steps": [
-      "CREATORS: Use the first Prisma bubble on Diamond Chef to greatly accelerate cooking. [first_prisma=1] (Griffy 2026-09 @00:25:24)",
       "CREATORS: Move to another map rather than lingering beyond the threshold on ramps or Zeff. [threshold=1.5] (Griffy 2025-11 @00:35:08)",
+      "CREATORS: Massavon is really strong drop rate; crossfire and emperor gamut are whatever. (Pulse 2026-09 @00:13:23)",
       "Push: Total Tesseract Upgrades 268 -> 415",
       "Push: Parallel Statues 0 -> 10",
       "Push: Reach Yolkrock Basin (World 6) 0 -> 1"
@@ -3801,14 +3806,14 @@
        "toolbox": [
         "world-6/farming"
        ],
-       "sources": "44 tagged / 1137 chunks"
+       "sources": "630 tagged / 1137 chunks"
       },
       {
        "system": "beanstalk",
        "toolbox": [
         "world-6/beanstalk"
        ],
-       "sources": "5 tagged / 98 chunks"
+       "sources": "60 tagged / 98 chunks"
       }
      ]
     },
@@ -3830,7 +3835,7 @@
          "label": "Unlock and level Diamond Chef bubble to at least 15",
          "cur": "12",
          "goal": "15",
-         "score": 147,
+         "score": 149,
          "ready": false,
          "infinite": false
         },
@@ -3841,7 +3846,7 @@
          "label": "Unlock Fluoride - Void Plate Chef in the Atom Collider from W3 Construction skill",
          "cur": "0",
          "goal": "1",
-         "score": 147,
+         "score": 149,
          "ready": false,
          "infinite": false
         }
@@ -3944,7 +3949,7 @@
        "label": "Unlock and level Diamond Chef bubble to at least 15",
        "cur": "12",
        "goal": "15",
-       "score": 147,
+       "score": 149,
        "ready": false,
        "infinite": false
       },
@@ -3955,7 +3960,7 @@
        "label": "Unlock Fluoride - Void Plate Chef in the Atom Collider from W3 Construction skill",
        "cur": "0",
        "goal": "1",
-       "score": 147,
+       "score": 149,
        "ready": false,
        "infinite": false
       },
@@ -3966,7 +3971,7 @@
        "label": "Reach 500+ total meal levels",
        "cur": "244",
        "goal": "500",
-       "score": 147,
+       "score": 149,
        "ready": false,
        "infinite": false
       }
@@ -3977,14 +3982,14 @@
        "toolbox": [
         "world-4/cooking"
        ],
-       "sources": "30 tagged / 622 chunks"
+       "sources": "646 tagged / 622 chunks"
       },
       {
        "system": "meals",
        "toolbox": [
         "world-4/cooking"
        ],
-       "sources": "30 tagged / 622 chunks"
+       "sources": "646 tagged / 622 chunks"
       }
      ]
     },
@@ -4006,7 +4011,7 @@
          "label": "Total Grimoire Upgrades",
          "cur": "644",
          "goal": "900",
-         "score": 130,
+         "score": 129,
          "ready": false,
          "infinite": false
         },
@@ -4017,7 +4022,7 @@
          "label": "Total Grimoire Upgrades",
          "cur": "644",
          "goal": "1900",
-         "score": 130,
+         "score": 129,
          "ready": false,
          "infinite": false
         }
@@ -4035,7 +4040,7 @@
          "label": "Ribbon Winning",
          "cur": "11",
          "goal": "15",
-         "score": 130,
+         "score": 129,
          "ready": false,
          "infinite": false
         },
@@ -4046,7 +4051,7 @@
          "label": "Pure Opals",
          "cur": "4",
          "goal": "5",
-         "score": 130,
+         "score": 129,
          "ready": false,
          "infinite": false
         }
@@ -4064,7 +4069,7 @@
          "label": "Knockout Stacks",
          "cur": "15",
          "goal": "16",
-         "score": 130,
+         "score": 129,
          "ready": false,
          "infinite": false
         },
@@ -4075,7 +4080,7 @@
          "label": "Elimination Stacks",
          "cur": "0",
          "goal": "16",
-         "score": 130,
+         "score": 129,
          "ready": false,
          "infinite": false
         }
@@ -4149,7 +4154,7 @@
        "label": "Total Grimoire Upgrades",
        "cur": "644",
        "goal": "900",
-       "score": 130,
+       "score": 129,
        "ready": false,
        "infinite": false
       },
@@ -4160,7 +4165,7 @@
        "label": "Total Grimoire Upgrades",
        "cur": "644",
        "goal": "1900",
-       "score": 130,
+       "score": 129,
        "ready": false,
        "infinite": false
       },
@@ -4171,7 +4176,7 @@
        "label": "Total Grimoire Upgrades",
        "cur": "644",
        "goal": "3150",
-       "score": 130,
+       "score": 129,
        "ready": false,
        "infinite": false
       }
@@ -4182,7 +4187,7 @@
        "toolbox": [
         "class-specific/grimoire"
        ],
-       "sources": "24 tagged / 167 chunks"
+       "sources": "68 tagged / 167 chunks"
       }
      ]
     },
@@ -4376,7 +4381,7 @@
         "world-3/printer",
         "tools/sampling-companion"
        ],
-       "sources": "33 tagged / 677 chunks"
+       "sources": "750 tagged / 677 chunks"
       }
      ]
     },
@@ -4394,7 +4399,7 @@
        "toolbox": [
         "world-3/death-note"
        ],
-       "sources": "10 tagged / 433 chunks"
+       "sources": "218 tagged / 433 chunks"
       }
      ]
     },
@@ -4795,7 +4800,7 @@
        "toolbox": [
         "world-3/death-note"
        ],
-       "sources": "10 tagged / 433 chunks"
+       "sources": "218 tagged / 433 chunks"
       }
      ]
     }
@@ -4917,14 +4922,22 @@
      "block": "Post Office",
      "kind": "rinse",
      "steps": [
+      "CREATORS: Slow down and complete prerequisites before rushing everything. (Griffy 2026-10 @00:11:14)",
+      "CREATORS: Allocating time to the right systems can save substantial time overall. (Griffy 2026-10 @00:11:44)",
       "Push: Deaths Storage Unit 0 -> 400",
       "Push: Locally Sourced Organs 0 -> 400"
      ]
     },
     {
      "block": "Fish prints",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "Printing: Kraken (836), Bloach (6.97e+03) | samples held: Copper Ore 8.89e+04, Kraken 836, Hermit Can 1.81e+04, Bloach 6.97e+03",
+      "SWAP print Kraken -> Hermit Can (sample 1.81e+04; Bugsack Stamp 56 -> 224 needs 1.77e+12 (have 4.06e+03)). Changing a print does not take a sample, so Gold Relic keeps its days.",
+      "Gold Relic 2/60 days (1.05x printer output, +5% per day, resets when you take a sample). Rule: don't take new samples until 100 days unless a sample target is worth the reset (my read; Gold Relic text is the source of the growth rule).",
+      "2 print swaps toward needed materials (on each owner's prints block). Needs come from the material ledger (runouts, watch list, stamp materials).",
+      "Printer multi still x1: Supreme Wiring (event shop) 0/50 days, Yet Another Printer Multi (legend talent) 0/20 days, Moon of Print (compass) 11/100 days",
+      "AutoReview tier 8 needs one sample target: Oak Logs 4.42B -> 10B is the closest (2.3x). Taking that sample resets Gold Relic.",
       "CREATORS: Book talents before taking new printer samples. (Griffy 2026-10 @00:01:00)",
       "CREATORS: Food nonconsumption currently helps health food and preserves skilling food during sampling but becomes irrelevant later. (Griffy 2026-10 @00:03:02)",
       "Push: Goldfish 0.00K -> 5.0K"
@@ -4954,6 +4967,16 @@
     "Account wide sources of Drop Rate (+562.6%) \u00b7 Exotic Market - POMMELION SEED:+0/25% Drop Rate 0 -> \u221e",
     "Statue Effect multis and Statue bonuses \u00b7 Level 22 Gold Mutton Statue: +11% Cooking Exp 22 -> \u221e",
     "Statue Effect multis and Statue bonuses \u00b7 Level 19 Gold Compost Statue: +12.67% Farming Exp 19 -> \u221e",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLech: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 62.5% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechII: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 68.6% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechIII: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 62.5% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechIV: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 62.5% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechV: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 62.5% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechVI: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 62.5% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechVII: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 62.5% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechVIII: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 68.6% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechIX: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 62.5% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechX: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 62.5% -> 90%",
     "Sources of Printer Output. Grand Total: 9.737 \u00b7 Rift: Skill Mastery: base 7%Additional 1% per Skill at 750: 2/18% 9% -> 25%",
     "Sources of bonus talent levels beyond book le \u00b7 Grimoire: Skull of Major Talent: +0/30 0 -> 30",
     "Sources of Checkout Speed \u00b7 Meal - Fortune Cookie: +0.000% Library Checkout Spd 0 -> 180",
@@ -4979,139 +5002,20 @@
    "money": 997839356729204700,
    "jobs": [
     {
-     "job": "Worship: souls + prayers (town)",
+     "job": "Worship: souls (town)",
      "basis": "auto",
-     "tiers": {
-      "Prayers": "1/7"
-     },
-     "subs": [
-      {
-       "name": "Prayers: Recommended Prayers",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Prayers",
-         "group": "Recommended Prayers",
-         "label": "Skilled Dimwit",
-         "cur": "4",
-         "goal": "20",
-         "score": 134,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Prayers",
-         "group": "Recommended Prayers",
-         "label": "Balance of Pain",
-         "cur": "0",
-         "goal": "11",
-         "score": 134,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 2
-      },
-      {
-       "name": "Prayers: Situational Prayers you may consider leveling",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Prayers",
-         "group": "Situational Prayers you may consider leveling",
-         "label": "Unending Energy",
-         "cur": "1",
-         "goal": "50",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Prayers",
-         "group": "Situational Prayers you may consider leveling",
-         "label": "Big Brain Time",
-         "cur": "19",
-         "goal": "50",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 3
-      },
-      {
-       "name": "Prayers: Ignorable Prayer",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Prayers",
-         "group": "Ignorable Prayer",
-         "label": "Circular Criticals",
-         "cur": "0",
-         "goal": "1",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": -1
-      }
-     ],
-     "next": [
-      {
-       "locked": "",
-       "section": "Prayers",
-       "group": "Recommended Prayers",
-       "label": "Skilled Dimwit",
-       "cur": "4",
-       "goal": "20",
-       "score": 134,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Prayers",
-       "group": "Recommended Prayers",
-       "label": "Balance of Pain",
-       "cur": "0",
-       "goal": "11",
-       "score": 134,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Prayers",
-       "group": "Recommended Prayers",
-       "label": "Skilled Dimwit",
-       "cur": "4",
-       "goal": "35",
-       "score": 134,
-       "ready": false,
-       "infinite": false
-      }
-     ],
-     "where": [
-      {
-       "system": "prayers",
-       "toolbox": [
-        "world-3/prayers"
-       ],
-       "sources": "10 tagged / 180 chunks"
-      }
-     ]
+     "tiers": {},
+     "subs": [],
+     "next": [],
+     "where": [],
+     "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
     },
     {
      "job": "Divinity",
      "basis": "auto",
      "tiers": {
-      "Divinity": "5/12"
+      "Divinity": "5/12",
+      "Coral Kid": "n/a"
      },
      "subs": [
       {
@@ -5125,7 +5029,7 @@
          "label": "Unlock Omniphau",
          "cur": "0",
          "goal": "1",
-         "score": 146,
+         "score": 147,
          "ready": false,
          "infinite": false
         },
@@ -5136,7 +5040,7 @@
          "label": "Unlock Purrmep",
          "cur": "0",
          "goal": "1",
-         "score": 146,
+         "score": 147,
          "ready": false,
          "infinite": false
         }
@@ -5218,6 +5122,11 @@
         }
        ],
        "more": 5
+      },
+      {
+       "name": "Coral Kid",
+       "state": "no AutoReview section",
+       "items": []
       }
      ],
      "next": [
@@ -5228,7 +5137,7 @@
        "label": "Unlock Omniphau",
        "cur": "0",
        "goal": "1",
-       "score": 146,
+       "score": 147,
        "ready": false,
        "infinite": false
       },
@@ -5239,7 +5148,7 @@
        "label": "Unlock Purrmep",
        "cur": "0",
        "goal": "1",
-       "score": 146,
+       "score": 147,
        "ready": false,
        "infinite": false
       },
@@ -5250,7 +5159,7 @@
        "label": "Unlock Flutterbis",
        "cur": "0",
        "goal": "1",
-       "score": 146,
+       "score": 147,
        "ready": false,
        "infinite": false
       }
@@ -5261,7 +5170,14 @@
        "toolbox": [
         "world-5/divinity"
        ],
-       "sources": "23 tagged / 1270 chunks"
+       "sources": "576 tagged / 1270 chunks"
+      },
+      {
+       "system": "coral_kid",
+       "toolbox": [
+        "GAP: no Toolbox page mapped"
+       ],
+       "sources": "no slug"
       }
      ]
     },
@@ -5713,7 +5629,7 @@
        "toolbox": [
         "world-5/hole"
        ],
-       "sources": "114 tagged / 3478 chunks"
+       "sources": "717 tagged / 3478 chunks"
       }
      ]
     },
@@ -5882,7 +5798,7 @@
        "toolbox": [
         "world-5/slab"
        ],
-       "sources": "7 tagged / 88 chunks"
+       "sources": "95 tagged / 88 chunks"
       }
      ]
     },
@@ -5904,7 +5820,7 @@
          "label": "Raise Bullseye Statue to Onyx: Active ES at Wood Mushroom or Candy at Nutto",
          "cur": "1",
          "goal": "20000",
-         "score": 136,
+         "score": 138,
          "ready": false,
          "infinite": false
         },
@@ -5915,7 +5831,7 @@
          "label": "Raise Box Statue to Onyx: Candy or Active ES at Penguins",
          "cur": "0",
          "goal": "20000",
-         "score": 136,
+         "score": 138,
          "ready": false,
          "infinite": false
         }
@@ -5931,7 +5847,7 @@
        "label": "Raise Bullseye Statue to Onyx: Active ES at Wood Mushroom or Candy at Nutto",
        "cur": "1",
        "goal": "20000",
-       "score": 136,
+       "score": 138,
        "ready": false,
        "infinite": false
       },
@@ -5942,7 +5858,7 @@
        "label": "Raise Box Statue to Onyx: Candy or Active ES at Penguins",
        "cur": "0",
        "goal": "20000",
-       "score": 136,
+       "score": 138,
        "ready": false,
        "infinite": false
       },
@@ -5953,7 +5869,7 @@
        "label": "Raise Twosoul Statue to Onyx: Candy or Active ES at Quenchies",
        "cur": "0",
        "goal": "20000",
-       "score": 136,
+       "score": 138,
        "ready": false,
        "infinite": false
       }
@@ -5964,7 +5880,7 @@
        "toolbox": [
         "GAP: no Toolbox page mapped"
        ],
-       "sources": "15 tagged / 411 chunks"
+       "sources": "365 tagged / 411 chunks"
       }
      ]
     }
@@ -6035,7 +5951,7 @@
     "first": null,
     "priority": "Not set (auto setup)",
     "priority_jobs": [],
-    "rinse1": "Divinity: Unlock Omniphau 0 -> 1 (score 146)",
+    "rinse1": "Divinity: Unlock Omniphau 0 -> 1 (score 147)",
     "flag": ""
    },
    "today": [
@@ -6047,19 +5963,10 @@
    ],
    "daily": [
     {
-     "block": "Worship: souls + prayers (town)",
+     "block": "Worship: souls (town)",
      "kind": "rinse",
      "steps": [
-      "CREATORS: Place experience traps using Maestro with Transfusion and the skill-experience prayer that reduces efficiency. (Griffy 2026-05 @00:12:19)",
-      "CREATORS: Equip appropriate prayers rather than relying entirely on passive prayer bonuses. (Griffy 2026-04 @00:29:04)",
-      "Push: Skilled Dimwit 4 -> 20",
-      "  HOW: Max Skilled Dimwit. (Griffy 2026-04 @00:29:34)",
-      "  HOW: Level Skilled Dimwit to obtain much larger samples. (Griffy 2026-07 @00:15:17)",
-      "Push: Unending Energy 1 -> 50",
-      "  HOW: Never use Unending Energy. (Griffy 2026-04 @00:29:34)",
-      "  HOW: Avoid Unending Energy if likely to forget it because long absences still award only ten hours. [example_absence_hours=72;claim_cap_hours=10] (Griffy 2026-01 @00:33:36)",
-      "Push: Circular Criticals 0 -> 1",
-      "  HOW: Do not prioritize Antifun or Circular Criticals. (Griffy 2026-04 @00:32:38)"
+      "PLAN: no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
      ]
     },
     {
@@ -6104,21 +6011,9 @@
     "Account wide sources of Drop Rate (+562.6%) \u00b7 Schematic #45 - Gloomie Lootie:+5% Drop Rate for each Colony of Gloomie Mushrooms defeated 0 -> \u221e",
     "Account wide sources of Drop Rate (+562.6%) \u00b7 Schematic #82 - Sanctum of LOOT:+20% Drop Rate for each Sanctum of Ancient Golems you've c 0 -> \u221e",
     "Account wide sources of Drop Rate (+562.6%) \u00b7 Cavern 13- Wisdom Monument:+0.0% Player Drop Rate 0 -> \u221e",
-    "Sources of Carry Capacity \u00b7 Prayer: Ruck Sack: 0/177% 0 -> 50",
     "Sources of Forge Ore Capacity \u00b7 Villager Cosmos Majik - Beeg Beeg Forge: Increase the forge capacity by 3/243x 1 -> 5",
     "Statue Effect multis and Statue bonuses \u00b7 Level 14 Gold Spiral Statue: +23.33% Divinity Exp 14 -> \u221e",
     "Sources of Bonus Ballot Multi \u00b7 Villager Cosmos Majik - Voter Integrity: Get +0/30% Ballot Box bonus multiplier! This way  0 -> 5",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Prayer: Royal Sampler: +15.0% Printer Sample Rate 1 -> 20",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLech: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 62.5% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechII: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 68.6% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechIII: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 62.5% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechIV: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 62.5% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechV: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 62.5% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechVI: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 62.5% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechVII: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 62.5% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechVIII: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 68.6% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechIX: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 62.5% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechX: \u26a0\ufe0fEquip the Prayer for +15.00%0/400 PO Boxes invested 62.5% -> 90%",
     "Sources of Bonuses Multi \u00b7 Armor Set: Godshard Set: +0/15% 0 -> 1"
    ]
   },
@@ -6357,7 +6252,7 @@
        "toolbox": [
         "world-1/stamps"
        ],
-       "sources": "30 tagged / 519 chunks"
+       "sources": "490 tagged / 519 chunks"
       }
      ]
     },
@@ -6468,7 +6363,7 @@
        "toolbox": [
         "misc/upgrade-vault"
        ],
-       "sources": "1 tagged / 73 chunks"
+       "sources": "107 tagged / 73 chunks"
       }
      ]
     },
@@ -6546,7 +6441,7 @@
        "toolbox": [
         "world-3/equinox"
        ],
-       "sources": "0 tagged / 73 chunks"
+       "sources": "130 tagged / 73 chunks"
       }
      ]
     },
@@ -6628,7 +6523,7 @@
        "toolbox": [
         "world-3/salt-lick"
        ],
-       "sources": "0 tagged / 28 chunks"
+       "sources": "53 tagged / 28 chunks"
       }
      ]
     },
@@ -6710,7 +6605,7 @@
        "toolbox": [
         "GAP: no Toolbox page mapped"
        ],
-       "sources": "9 tagged / 108 chunks"
+       "sources": "150 tagged / 108 chunks"
       }
      ]
     },
@@ -6879,7 +6774,7 @@
        "toolbox": [
         "task-board/achievements"
        ],
-       "sources": "7 tagged / 250 chunks"
+       "sources": "274 tagged / 250 chunks"
       }
      ]
     },
@@ -6970,18 +6865,17 @@
        "toolbox": [
         "clickers/owl"
        ],
-       "sources": "2 tagged / 0 chunks"
+       "sources": "70 tagged / 0 chunks"
       }
      ]
     },
     {
-     "job": "Maintenance (maxed tiers): Bribes, Rift, Star Signs, Smithing",
+     "job": "Maintenance (maxed tiers): Bribes, Rift, Star Signs",
      "basis": "auto",
      "tiers": {
       "Bribes": "5/6",
       "Rift": "3/11",
-      "Star Signs": "3/6",
-      "Smithing": "0/6"
+      "Star Signs": "3/6"
      },
      "subs": [
       {
@@ -7059,93 +6953,6 @@
         }
        ],
        "more": 7
-      },
-      {
-       "name": "Smithing: Purchase Anvil Points with Monster Materials on the following characters",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Smithing",
-         "group": "Purchase Anvil Points with Monster Materials on the following characte",
-         "label": "IdleOnLechVI",
-         "cur": "0",
-         "goal": "85",
-         "score": 125,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Smithing",
-         "group": "Purchase Anvil Points with Monster Materials on the following characte",
-         "label": "IdleOnLechVI",
-         "cur": "0",
-         "goal": "150",
-         "score": 125,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 1
-      },
-      {
-       "name": "Smithing: Sources of Forge Ore Capacity",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Smithing",
-         "group": "Sources of Forge Ore Capacity",
-         "label": "Achievements - Vitamin D-licious: +0/50%",
-         "cur": "0",
-         "goal": "1",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Smithing",
-         "group": "Sources of Forge Ore Capacity",
-         "label": "Bribe: Forge Cap Smuggling: 1/1.3x",
-         "cur": "0",
-         "goal": "1",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 4
-      },
-      {
-       "name": "Smithing: Total Capacity and Bar thresholds",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Smithing",
-         "group": "Total Capacity and Bar thresholds",
-         "label": "29 Godshard Bars.7,496 cap to next bar",
-         "cur": "7504",
-         "goal": "15000",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Smithing",
-         "group": "Total Capacity and Bar thresholds",
-         "label": "110 Marble Bars.1,496 cap to next bar",
-         "cur": "2504",
-         "goal": "4000",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 9
       }
      ],
      "next": [
@@ -7189,27 +6996,19 @@
        "toolbox": [
         "world-1/bribes"
        ],
-       "sources": "1 tagged / 0 chunks"
+       "sources": "30 tagged / 0 chunks"
       },
       {
        "system": "rift",
        "toolbox": [
         "world-4/rift"
        ],
-       "sources": "18 tagged / 130 chunks"
+       "sources": "138 tagged / 130 chunks"
       },
       {
        "system": "star_signs",
        "toolbox": [
         "misc/constellations"
-       ],
-       "sources": "no slug"
-      },
-      {
-       "system": "forge_upgrades",
-       "toolbox": [
-        "world-1/anvil",
-        "world-1/forge"
        ],
        "sources": "no slug"
       }
@@ -7364,12 +7163,12 @@
      "kind": "rinse",
      "steps": [
       "CREATORS: Perform a feather reset and upgrade shiny feathers. (Griffy 2026-09 @00:49:43)",
-      "CREATORS: All-stat bonuses help Shaquracy and reduce upcoming accuracy problems. (Griffy 2026-09 @00:50:15)",
+      "CREATORS: The option has not yet appeared in rotation so its exact multiplier behavior is unconfirmed. (Griffy 2026-02 @00:12:50)",
       "Push: MF23: Restart 30 times first 25 -> 30"
      ]
     },
     {
-     "block": "Maintenance (maxed tiers): Bribes, Rift, Star Signs, Smithing",
+     "block": "Maintenance (maxed tiers): Bribes, Rift, Star Signs",
      "kind": "rinse",
      "steps": [
       "Bribes: CREATORS: Complete achievements and shop-access bribes to improve convenience. (Griffy 2026-10 @00:09:40)",
@@ -7378,10 +7177,9 @@
       "Rift: CREATORS: Eventually begin working on Rift. (Griffy 2026-10 @00:10:11)",
       "Rift: CREATORS: Use portal kills and respawns for consistent progress; switch to Divine Knight if the attempt fails. [shown portal count=66] (Griffy 2026-10 @00:25:32)",
       "Rift: Push: Eclipse Skulls 15 -> 20",
-      "Star Signs: Push: Unlock 6 more Star Signs (Min to unlock The Seraph tab) 52 -> 58",
-      "Smithing: Push: IdleOnLechVI 0 -> 85",
-      "Smithing: Push: Achievements - Vitamin D-licious: +0/50% 0 -> 1",
-      "Smithing: Push: 29 Godshard Bars.7,496 cap to next bar 7504 -> 15000"
+      "Star Signs: CREATORS: Higher character levels make completing more star signs worthwhile including multiplicative cooking speed. (Griffy 2026-10 @00:43:22)",
+      "Star Signs: CREATORS: Coordinate Dr Defecaus kills on three characters for the star-sign objective. [characters=3] (Griffy 2026-10 @00:53:18)",
+      "Star Signs: Push: Unlock 6 more Star Signs (Min to unlock The Seraph tab) 52 -> 58"
      ]
     },
     {
@@ -7414,6 +7212,7 @@
     "Sources of Carry Capacity \u00b7 Mason Jar Stamp: +36% All Carry Cap 36 -> 160",
     "Sources of Carry Capacity \u00b7 Silkrode Nanochip: None Owned. Would double other signs if equipped. 0 -> 1",
     "Sources of Carry Capacity \u00b7 Jman's Extra Bags talent (Materials only) 100 -> 441",
+    "Sources of Carry Capacity \u00b7 Prayer: Ruck Sack: 0/177% 0 -> 50",
     "Sources of Carry Capacity \u00b7 Star Talent: Telekinetic Storage 35 -> 50",
     "Sources of Forge Ore Capacity \u00b7 Achievements - Vitamin D-licious: +0/50% 0 -> 1",
     "Sources of Forge Ore Capacity \u00b7 Bribe: Forge Cap Smuggling: 1/1.3x 0 -> 1",
@@ -7453,6 +7252,109 @@
    "save_map": "W4 map 150",
    "money": 4059858048715482600,
    "jobs": [
+    {
+     "job": "Secret Class Path (Vman)",
+     "basis": "auto",
+     "tiers": {
+      "Secret Class Path": "3/3"
+     },
+     "subs": [
+      {
+       "name": "Secret Class Path: IdleOnLechVII is not best in 4 Right Hand Skills",
+       "state": "open",
+       "items": [
+        {
+         "locked": "",
+         "section": "Secret Class Path",
+         "group": "IdleOnLechVII is not best in 4 Right Hand Skills",
+         "label": "IdleOnLechVII not best in Chopping",
+         "cur": "36",
+         "goal": "63",
+         "score": 62,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "locked": "",
+         "section": "Secret Class Path",
+         "group": "IdleOnLechVII is not best in 4 Right Hand Skills",
+         "label": "IdleOnLechVII not best in Fishing",
+         "cur": "28",
+         "goal": "63",
+         "score": 62,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 2
+      },
+      {
+       "name": "Secret Class Path: Your Maestro is the highest level in 2/6 Right Hand skills. Be careful ",
+       "state": "open",
+       "items": [
+        {
+         "locked": "",
+         "section": "Secret Class Path",
+         "group": "Your Maestro is the highest level in 2/6 Right Hand skills. Be careful",
+         "label": "IdleOnLechVIII can level Mining",
+         "cur": "81",
+         "goal": "86",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "locked": "",
+         "section": "Secret Class Path",
+         "group": "Your Maestro is the highest level in 2/6 Right Hand skills. Be careful",
+         "label": "IdleOnLechII can level Mining",
+         "cur": "80",
+         "goal": "86",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 6
+      }
+     ],
+     "next": [
+      {
+       "locked": "",
+       "section": "Secret Class Path",
+       "group": "IdleOnLechVII is not best in 4 Right Hand Skills",
+       "label": "IdleOnLechVII not best in Chopping",
+       "cur": "36",
+       "goal": "63",
+       "score": 62,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Secret Class Path",
+       "group": "IdleOnLechVII is not best in 4 Right Hand Skills",
+       "label": "IdleOnLechVII not best in Fishing",
+       "cur": "28",
+       "goal": "63",
+       "score": 62,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Secret Class Path",
+       "group": "IdleOnLechVII is not best in 4 Right Hand Skills",
+       "label": "IdleOnLechVII not best in Catching",
+       "cur": "58",
+       "goal": "70",
+       "score": 62,
+       "ready": false,
+       "infinite": false
+      }
+     ],
+     "where": []
+    },
     {
      "job": "Maestro: #1 in every skill",
      "basis": "auto",
@@ -7496,7 +7398,7 @@
        "toolbox": [
         "world-7/research"
        ],
-       "sources": "7 tagged / 151 chunks"
+       "sources": "232 tagged / 151 chunks"
       }
      ]
     },
@@ -8038,7 +7940,7 @@
          "locked": "",
          "section": "Endangered Greenstacks",
          "group": "Still obtainable",
-         "label": "Ketchup Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce",
+         "label": "Loomi's Room Key- Loominadi: Rhyming is Key!",
          "cur": "0%",
          "goal": "100%",
          "score": 126,
@@ -8049,7 +7951,7 @@
          "locked": "",
          "section": "Endangered Greenstacks",
          "group": "Still obtainable",
-         "label": "Dog Bone- Dog Bone: Why he Die???",
+         "label": "Corporatube Sub- Mutton: 7 Figure Followers",
          "cur": "0%",
          "goal": "100%",
          "score": 126,
@@ -8101,7 +8003,7 @@
        "toolbox": [
         "misc/storage"
        ],
-       "sources": "3 tagged / 50 chunks"
+       "sources": "50 tagged / 50 chunks"
       }
      ]
     },
@@ -8452,7 +8354,7 @@
        "toolbox": [
         "prem-currency/gem-shop"
        ],
-       "sources": "12 tagged / 580 chunks"
+       "sources": "854 tagged / 580 chunks"
       },
       {
        "system": "event_points_shop",
@@ -8473,7 +8375,7 @@
        "toolbox": [
         "GAP: no Toolbox page mapped"
        ],
-       "sources": "0 tagged / 209 chunks"
+       "sources": "401 tagged / 209 chunks"
       }
      ]
     }
@@ -8556,6 +8458,16 @@
    ],
    "daily": [
     {
+     "block": "Secret Class Path (Vman)",
+     "kind": "rinse",
+     "steps": [
+      "CREATORS: Every account should have at least one Void Walker. [minimum_voidwalkers=1] (Griffy 2026-08 @00:11:11)",
+      "CREATORS: Leave the eleventh character as a beginner until remaining masterclasses clarify the optimal duplicate. [character_slot=11] (Griffy 2026-08 @00:15:48)",
+      "Push: IdleOnLechVII not best in Chopping 36 -> 63",
+      "Push: IdleOnLechVIII can level Mining 81 -> 86"
+     ]
+    },
+    {
      "block": "Maestro: #1 in every skill",
      "kind": "rinse",
      "steps": [
@@ -8578,7 +8490,7 @@
       "Greenstacks: Push: Collect 75 Greenstacks 29 -> 75",
       "Greenstacks: Push: Plasma Barrel (W6 Town) 2% -> 100%",
       "Greenstacks: Push: Tropilogs 5% -> 100%",
-      "Endangered Greenstacks: Push: Ketchup Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce 0% -> 100%"
+      "Endangered Greenstacks: Push: Loomi's Room Key- Loominadi: Rhyming is Key! 0% -> 100%"
      ]
     },
     {
@@ -8592,8 +8504,12 @@
       "Gem Shop: Push: Tower Building Slots (W3) 0 -> 1",
       "Gem Shop: Push: Carry Capacity (Inventory and Storage) 2 -> 4",
       "Gem Shop:   HOW: Bleach cauldron beats brimstone: more carry capacity and faster liquid regen means bigger bubbles. (Griffy nodate @07:12:47)",
+      "Event Shop: CREATORS: Save substantial gems for events because recent event upgrades are exceptionally powerful. (Griffy 2026-01 @00:17:57)",
+      "Event Shop: CREATORS: Buying event spins with gems is worth it even for free to play; name tag is a true research multiplier worth about 20 research levels; AI advice disagreed. [research_levels=20] (Pulse 2026-11 @00:02:35)",
       "Event Shop: Stamp Stack: Get +3 Stamp LVs every day for a random Stamp (33 / 30) READY",
       "Event Shop: Bubble Broth: Get +5 LVs for a random Alchemy Bubble every day (33 / 20) READY",
+      "Bonus Ballot: CREATORS: Consider Poppy around World 7 for doubled Ballot and Meritocracy bonuses. [bonus_multiplier=2] (Griffy 2026-09 @00:04:47)",
+      "Bonus Ballot: CREATORS: Players pursuing red or purple sigils should vote only for S tier options. (Griffy 2026-01 @00:10:41)",
       "Bonus Ballot: Push: Equinox: Voter Rights: +0/30% Ballot Bonus 0 -> 30"
      ]
     }
@@ -8714,7 +8630,7 @@
         "world-3/printer",
         "tools/sampling-companion"
        ],
-       "sources": "33 tagged / 677 chunks"
+       "sources": "750 tagged / 677 chunks"
       }
      ]
     },
@@ -8736,7 +8652,7 @@
          "label": "Raise Power Statue to Onyx: Crystals with DK at Beans",
          "cur": "6",
          "goal": "20000",
-         "score": 136,
+         "score": 138,
          "ready": false,
          "infinite": false
         },
@@ -8747,7 +8663,7 @@
          "label": "Raise Mining Statue to Onyx: Crystals with DK at Beans",
          "cur": "6",
          "goal": "20000",
-         "score": 136,
+         "score": 138,
          "ready": false,
          "infinite": false
         }
@@ -8763,7 +8679,7 @@
        "label": "Raise Power Statue to Onyx: Crystals with DK at Beans",
        "cur": "6",
        "goal": "20000",
-       "score": 136,
+       "score": 138,
        "ready": false,
        "infinite": false
       },
@@ -8774,7 +8690,7 @@
        "label": "Raise Mining Statue to Onyx: Crystals with DK at Beans",
        "cur": "6",
        "goal": "20000",
-       "score": 136,
+       "score": 138,
        "ready": false,
        "infinite": false
       },
@@ -8785,7 +8701,7 @@
        "label": "Raise Health Statue to Onyx: Crystals with DK at Beans",
        "cur": "3",
        "goal": "20000",
-       "score": 136,
+       "score": 138,
        "ready": false,
        "infinite": false
       }
@@ -8796,7 +8712,7 @@
        "toolbox": [
         "GAP: no Toolbox page mapped"
        ],
-       "sources": "15 tagged / 411 chunks"
+       "sources": "365 tagged / 411 chunks"
       }
      ]
     },
@@ -8838,7 +8754,7 @@
        "toolbox": [
         "world-7/spelunking"
        ],
-       "sources": "90 tagged / 236 chunks"
+       "sources": "548 tagged / 236 chunks"
       }
      ]
     }
@@ -8914,8 +8830,9 @@
     },
     {
      "block": "Ore prints",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "Printing: Dementia Ore (4.61e+04), Starfire Ore (9.22e+03) | samples held: Copper Ore 5.72e+05, Void Ore 2.77e+04, Dementia Ore 4.61e+04, Starfire Ore 9.22e+03",
       "CREATORS: Book talents before taking new printer samples. (Griffy 2026-10 @00:01:00)",
       "CREATORS: Food nonconsumption currently helps health food and preserves skilling food during sampling but becomes irrelevant later. (Griffy 2026-10 @00:03:02)",
       "Push: Copper Ore 0.57M -> 20.0M",
@@ -9397,7 +9314,7 @@
        "toolbox": [
         "tools/card-search"
        ],
-       "sources": "24 tagged / 842 chunks"
+       "sources": "788 tagged / 842 chunks"
       }
      ]
     },
@@ -9480,7 +9397,7 @@
         "world-3/printer",
         "tools/sampling-companion"
        ],
-       "sources": "33 tagged / 677 chunks"
+       "sources": "750 tagged / 677 chunks"
       }
      ]
     },
@@ -9653,14 +9570,14 @@
        "toolbox": [
         "world-7/gallery"
        ],
-       "sources": "0 tagged / 219 chunks"
+       "sources": "48 tagged / 219 chunks"
       },
       {
        "system": "cape_vine",
        "toolbox": [
         "world-4/cape-vine"
        ],
-       "sources": "1 tagged / 50 chunks"
+       "sources": "27 tagged / 50 chunks"
       }
      ]
     },
@@ -9669,8 +9586,7 @@
      "basis": "auto",
      "tiers": {
       "Coral Reef": "n/a",
-      "Dancing Coral": "n/a",
-      "Coral Kid": "n/a"
+      "Dancing Coral": "n/a"
      },
      "subs": [
       {
@@ -9682,11 +9598,6 @@
        "name": "Dancing Coral",
        "state": "no AutoReview section",
        "items": []
-      },
-      {
-       "name": "Coral Kid",
-       "state": "no AutoReview section",
-       "items": []
       }
      ],
      "next": [],
@@ -9696,17 +9607,10 @@
        "toolbox": [
         "world-7/coral-reef"
        ],
-       "sources": "1 tagged / 82 chunks"
+       "sources": "38 tagged / 82 chunks"
       },
       {
        "system": "dancing_coral",
-       "toolbox": [
-        "GAP: no Toolbox page mapped"
-       ],
-       "sources": "no slug"
-      },
-      {
-       "system": "coral_kid",
        "toolbox": [
         "GAP: no Toolbox page mapped"
        ],
@@ -9808,8 +9712,9 @@
     },
     {
      "block": "Log prints",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "Printing: Forest Fibres (3.49e+04), Wispy Lumber (8.47e+03) | samples held: Oak Logs 1.26e+05, Forest Fibres 3.49e+04, Wispy Lumber 8.47e+03",
       "CREATORS: Book talents before taking new printer samples. (Griffy 2026-10 @00:01:00)",
       "CREATORS: Food nonconsumption currently helps health food and preserves skilling food during sampling but becomes irrelevant later. (Griffy 2026-10 @00:03:02)",
       "Push: Oak Logs 207.84K -> 300.0K",
@@ -10092,7 +9997,7 @@
        "toolbox": [
         "world-5/sailing"
        ],
-       "sources": "24 tagged / 345 chunks"
+       "sources": "432 tagged / 345 chunks"
       }
      ]
     },
@@ -10233,7 +10138,7 @@
         "world-3/printer",
         "tools/sampling-companion"
        ],
-       "sources": "33 tagged / 677 chunks"
+       "sources": "750 tagged / 677 chunks"
       }
      ]
     },
@@ -10255,7 +10160,7 @@
          "label": "Raise Speed Statue to Onyx: W1-W3 Crystals with DK",
          "cur": "8",
          "goal": "20000",
-         "score": 136,
+         "score": 138,
          "ready": false,
          "infinite": false
         },
@@ -10266,7 +10171,7 @@
          "label": "Raise Feasty Statue to Onyx: W1-W3 Crystals with DK",
          "cur": "7",
          "goal": "20000",
-         "score": 136,
+         "score": 138,
          "ready": false,
          "infinite": false
         }
@@ -10340,7 +10245,7 @@
        "label": "Raise Speed Statue to Onyx: W1-W3 Crystals with DK",
        "cur": "8",
        "goal": "20000",
-       "score": 136,
+       "score": 138,
        "ready": false,
        "infinite": false
       },
@@ -10351,7 +10256,7 @@
        "label": "Raise Feasty Statue to Onyx: W1-W3 Crystals with DK",
        "cur": "7",
        "goal": "20000",
-       "score": 136,
+       "score": 138,
        "ready": false,
        "infinite": false
       },
@@ -10362,7 +10267,7 @@
        "label": "Raise Kachow Statue to Onyx: Monolith Quest on All characters",
        "cur": "6",
        "goal": "20000",
-       "score": 136,
+       "score": 138,
        "ready": false,
        "infinite": false
       }
@@ -10373,7 +10278,31 @@
        "toolbox": [
         "GAP: no Toolbox page mapped"
        ],
-       "sources": "15 tagged / 411 chunks"
+       "sources": "365 tagged / 411 chunks"
+      }
+     ]
+    },
+    {
+     "job": "Luminous Menagerie (own intervention)",
+     "basis": "auto",
+     "tiers": {
+      "Luminous Menagerie": "n/a"
+     },
+     "subs": [
+      {
+       "name": "Luminous Menagerie",
+       "state": "no AutoReview section",
+       "items": []
+      }
+     ],
+     "next": [],
+     "where": [
+      {
+       "system": "menagerie",
+       "toolbox": [
+        "world-7/menagerie"
+       ],
+       "sources": "290 tagged / 156 chunks"
       }
      ]
     },
@@ -10382,7 +10311,6 @@
      "basis": "auto",
      "tiers": {
       "Sushi Station": "n/a",
-      "Luminous Menagerie": "n/a",
       "Clam Work": "n/a",
       "Jelly Operator": "n/a",
       "The Button": "n/a",
@@ -10394,11 +10322,6 @@
      "subs": [
       {
        "name": "Sushi Station",
-       "state": "no AutoReview section",
-       "items": []
-      },
-      {
-       "name": "Luminous Menagerie",
        "state": "no AutoReview section",
        "items": []
       },
@@ -10503,63 +10426,56 @@
        "toolbox": [
         "world-7/sushi-station"
        ],
-       "sources": "51 tagged / 49 chunks"
-      },
-      {
-       "system": "menagerie",
-       "toolbox": [
-        "world-7/menagerie"
-       ],
-       "sources": "18 tagged / 156 chunks"
+       "sources": "88 tagged / 49 chunks"
       },
       {
        "system": "clam_work",
        "toolbox": [
         "world-7/clam-work"
        ],
-       "sources": "0 tagged / 76 chunks"
+       "sources": "34 tagged / 76 chunks"
       },
       {
        "system": "jelly_operator",
        "toolbox": [
         "world-7/jelly-operator"
        ],
-       "sources": "2 tagged / 35 chunks"
+       "sources": "157 tagged / 35 chunks"
       },
       {
        "system": "the_button",
        "toolbox": [
         "world-7/the-button"
        ],
-       "sources": "1 tagged / 14 chunks"
+       "sources": "7 tagged / 14 chunks"
       },
       {
        "system": "advice_fish",
        "toolbox": [
         "world-7/advice-fish"
        ],
-       "sources": "1 tagged / 2 chunks"
+       "sources": "68 tagged / 2 chunks"
       },
       {
        "system": "zenith_market",
        "toolbox": [
         "world-7/zenith-market"
        ],
-       "sources": "4 tagged / 26 chunks"
+       "sources": "39 tagged / 26 chunks"
       },
       {
        "system": "legend_talents",
        "toolbox": [
         "world-7/legend-talents"
        ],
-       "sources": "2 tagged / 25 chunks"
+       "sources": "310 tagged / 25 chunks"
       },
       {
        "system": "arcade",
        "toolbox": [
         "world-2/arcade-shop"
        ],
-       "sources": "1 tagged / 112 chunks"
+       "sources": "221 tagged / 112 chunks"
       }
      ]
     }
@@ -10658,12 +10574,12 @@
     },
     {
      "block": "Bug prints",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "Printing: Fly (1.99e+04), Sentient Cereal (5.19e+03) | samples held: Fly 1.99e+04, Sentient Cereal 5.19e+03",
       "CREATORS: Book talents before taking new printer samples. (Griffy 2026-10 @00:01:00)",
       "CREATORS: Food nonconsumption currently helps health food and preserves skilling food during sampling but becomes irrelevant later. (Griffy 2026-10 @00:03:02)",
       "Push: Fly 111.24K -> 900.0K",
-      "Lever on IdleOnLechIII: Vial - Snow Slurry: +10.40/30%",
       "Push: Sailing: Level 2 Gold Relic:1.05x (2/60 days) 2 -> 60"
      ]
     },
@@ -10676,6 +10592,13 @@
       "Push: Raise Speed Statue to Onyx: W1-W3 Crystals with DK 8 -> 20000",
       "Push: Complete the Monolith NPC's questline to unlock Onyx Statues 0 -> 1",
       "Push: Onyx base bonus: 0/2xTotal including The Onyx Lantern : 2/4.1x 0 -> 7"
+     ]
+    },
+    {
+     "block": "Luminous Menagerie (own intervention)",
+     "kind": "rinse",
+     "steps": [
+      "PLAN: needs a playbook"
      ]
     },
     {
@@ -11896,22 +11819,23 @@
   "unassigned": [],
   "account_wide": [
    {
-    "job": "Minigames (anyone)",
+    "job": "Minigames (anyone, when we look there)",
     "sections": [
      "Basketball",
      "Darts"
     ]
    },
    {
-    "job": "Drop Rate / Storage / World progress",
+    "job": "Storage / World progress (AutoReview Pinchy = where the account sits per world)",
     "sections": [
-     "Drop Rate",
      "Storage",
      "Pinchy high",
-     "Pinchy low"
+     "Pinchy low",
+     "Pinchy all"
     ]
    }
   ],
+  "every_character": [],
   "loop": [
    "7am PC: refresh, full/maxed/timers checklist, dailies due now",
    "Workday: active task(s) running (top of the ranked list)",
