@@ -40,6 +40,17 @@ def build():
         pr.append({'name': m.group(1).strip(), 'lv': int(m.group(2)), 'max': int(m.group(3)), 'maxed': bool(m.group(4)), 'bonus': m.group(5), 'curse': m.group(6),
                    'equipped_by': re.findall(r'Autis\w+', body), 'to_max': _n(cost.group(1)) if cost else None, 'next': _n(cost.group(3)) if cost else None,
                    'soul': cur, 'unlock': (re.search(r'Unlocks at\n([^\n]+)', body) or [0, ''])[1]})
+    waves = {}
+    try:
+        wt = (SNAP / 'toolbox' / 'worship.txt').read_text()
+        waves = {a.strip(): int(b) for a, b in re.findall(r'\n([A-Z][A-Za-z ]+)\n\t(\d+)\t', wt)}
+    except Exception:
+        pass
+    for p in pr:
+        m = re.match(r'Wave (\d+) in (.+)', p['unlock'] or '')
+        if m and m.group(2).strip() in waves:
+            p['wave_need'], p['totem'], p['wave_now'] = int(m.group(1)), m.group(2).strip(), waves[m.group(2).strip()]
+            p['locked'] = p['wave_now'] < p['wave_need']
     Y = yaml.safe_load(open(ROOT / 'model' / 'jobs.yaml'))
     tasks = {}
     for cn, c in Y['characters'].items():
@@ -58,7 +69,7 @@ def build():
                             targets[x['label']] = (x['cur'], x['goal'], g['name'])
     opts = []
     for p in pr:
-        if p['maxed'] or not p['next'] or not p['soul']: continue
+        if p['maxed'] or not p['next'] or not p['soul'] or p.get('locked'): continue
         tg = targets.get(p['name'])
         opts.append({'item': f"{p['name']} {p['lv']}/{p['max']}", 'currency': p['soul'], 'balance': bal.get(p['soul']), 'cost': p['next'],
                      'gain_pct': None, 'stat': p['bonus'][:40], 'weight': 2 if tg and 'Recommended' in tg[2] else 1,
@@ -117,6 +128,8 @@ def card_lines(o):
                          f"Buying {x['item'].split(' ')[0]} spends {x['cost']:,.0f}; {rates.replace_line(x['currency'], x['cost'])}. Replace via {pr_['replace']}.")
     except Exception:
         pass
+    lk = [p for p in o['prayers'] if p.get('locked')]
+    if lk: L.append('Locked prayers (worship wave needed, so not buyable yet): ' + '; '.join(f"{p['name']} needs wave {p['wave_need']} in {p['totem']} (best {p['wave_now']})" for p in lk))
     L.append('Loadouts are fluid: each card shows its own prayers vs that character\'s task (AFK or active). Change prayers when the task changes.')
     return L
 
