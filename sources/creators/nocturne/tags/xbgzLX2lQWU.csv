@@ -79,8 +79,8 @@ xbgzLX2lQWU,nocturne,2023-08-12,00:18:29,00:18:59,bubbles,world-2/bubbles,stable
 xbgzLX2lQWU,nocturne,2023-08-12,00:18:29,00:18:59,bubbles,world-2/bubbles,mages best,shaman,mechanic,w2,multiplier=2.7,Mages best multiplies purple bubbles by 2.7 when logged into a mage-based class such as shaman.,yes,2
 xbgzLX2lQWU,nocturne,2023-08-12,00:18:59,00:19:29,bubbles,world-2/bubbles,hocus choppus,,priority,w2,,Hocus choppus gives chopping efficiency per power of 10 of max mana; why the mana gear set matters; can be snapshotted.,yes,3
 xbgzLX2lQWU,nocturne,2023-08-12,00:19:29,00:19:59,bubbles,world-2/bubbles,hocus choppus,,mechanic,w2,mana_power=10;eff_at_10=45;eff_at_15=45;extra_pct=22.5,At 10 mana you get 45 chopping efficiency; at 15 mana you get 45 plus an additional 22.5 percent; scales with mana.,yes,2
-xbgzLX2lQWU,nocturne,2023-08-12,00:19:59,00:20:31,bubbles,world-2/bubbles,multilogo,,priority,w2,max_multilog=300;default_cap=100,Multilogo is one of the most important big bubbles to equip; without it multi-log chance never exceeds 100.,yes,3
-xbgzLX2lQWU,nocturne,2023-08-12,00:19:59,00:20:31,bubbles,world-2/bubbles,multilogo,,threshold,w2,bubble_level=185,Level 185 on the bubble alone gives 300 but star sign and stamps mean you don't need 185.,yes,3
+xbgzLX2lQWU,nocturne,2023-08-12,00:19:59,00:20:31,bubbles,world-2/bubbles,Multilog,,priority,w2,max_multilog=300;default_cap=100,Multilogo is one of the most important big bubbles to equip; without it multi-log chance never exceeds 100.,yes,3
+xbgzLX2lQWU,nocturne,2023-08-12,00:19:59,00:20:31,bubbles,world-2/bubbles,Multilog,,threshold,w2,bubble_level=185,Level 185 on the bubble alone gives 300 but star sign and stamps mean you don't need 185.,yes,3
 xbgzLX2lQWU,nocturne,2023-08-12,00:20:31,00:21:01,bubbles,world-2/bubbles,lebrain tools,,priority,w2,skill_power=60,Lebrain tools gives 60 percent more skilling power to hatchets; one of the most important bubbles to level.,yes,3
 xbgzLX2lQWU,nocturne,2023-08-12,00:20:31,00:21:01,bubbles,world-2/bubbles,purple bubbles,,priority,w2,,Mobile 17 / severa purple is a multiplier to first and third bubble specifically helping chopping efficiency.,yes,2
 xbgzLX2lQWU,nocturne,2023-08-12,00:21:01,00:21:31,bubbles,world-2/bubbles,tree sleeper,,priority,w2,,Tree sleeper gives a direct increase to chopping AFK gain rate.,yes,3
@@ -166,7 +166,7 @@ xbgzLX2lQWU,nocturne,2023-08-12,00:40:56,00:41:26,cards,,card sets,,meta_change,
 xbgzLX2lQWU,nocturne,2023-08-12,00:41:26,00:41:56,cards,,optimal set,,setup,any,skill_eff=60,Optimal set: chaotic troll (60 skill efficiency),blighted cheese or trimmer worm,stilted seekers (all stats)
 xbgzLX2lQWU,nocturne,2023-08-12,00:41:56,00:42:26,cards,,optimal set,,setup,any,boost_food=24;all_skill_afk=15,Choco box (24 boost food effect) and mrap card (15 all skill AFK gain) complete the optimal set.,yes,2
 xbgzLX2lQWU,nocturne,2023-08-12,00:41:56,00:42:26,cards,,card doublers,,warning,any,,Put key cards in top left and bottom right slots as card doublers double those two.,yes,3
-xbgzLX2lQWU,nocturne,2023-08-12,00:42:26,00:42:58,cards,,non-rift set,,setup,any,,Without rift bonuses use chaotic troll,maple logs (AFK gain),maple tree
+xbgzLX2lQWU,nocturne,2023-08-12,00:42:26,00:42:58,cards,,Rift,,setup,any,,Without rift bonuses use chaotic troll,maple logs (AFK gain),maple tree
 xbgzLX2lQWU,nocturne,2023-08-12,00:42:26,00:42:58,rift,world-4/rift,passive cards,,mechanic,any,,With rift bonus,cards marked P are passive so the other (optimal) setup is used.,yes
 xbgzLX2lQWU,nocturne,2023-08-12,00:42:26,00:42:58,cards,,passive cards,,mechanic,any,,With rift bonus,cards marked P are passive so the other (optimal) setup is used.,yes
 xbgzLX2lQWU,nocturne,2023-08-12,00:42:58,00:43:29,cards,,mana set,,setup,any,,Mana set: goldfish (percent mana),frog (base MP),rest wisdom or all stats; use until snapshot then switch to main set.

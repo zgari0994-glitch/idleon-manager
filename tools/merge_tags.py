@@ -1,6 +1,6 @@
 """Validate ChatGPT packet tags (handoff/tags_out) and write full-spec CSVs to sources/creators/<c>/tags/.
 Run on "check tags". Prints per-video row counts, errors and rows/min."""
-import csv, glob, os, re
+import csv, glob, json, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SPEC = open(os.path.join(ROOT, 'handoff/tagging_spec.md'), encoding='utf-8').read()
@@ -11,6 +11,7 @@ TYPES = set('priority blocker target threshold how_to setup afk_spot active_task
 OUTCOLS = 'video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence'.split(',')
 TS = re.compile(r'^\d\d:\d\d:\d\d$')
 
+FIXES = json.load(open(os.path.join(ROOT, 'sources/findings/name_fixes.json'))) if os.path.exists(os.path.join(ROOT, 'sources/findings/name_fixes.json')) else {}
 order = {r['video_id']: r for r in csv.DictReader(open(os.path.join(ROOT, 'handoff/packets/ORDER.csv')))}
 tot = bad = 0
 for f in sorted(glob.glob(os.path.join(ROOT, 'handoff/tags_out/*.csv'))):
@@ -39,7 +40,11 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'handoff/tags_out/*.csv'))):
             if not r.get('statement'): e.append('statement')
             if e: errs.append('row %d: %s' % (i + 2, ','.join(e)))
             row = dict(r, video_id=vid, creator=o['creator'], date=o['date'], system=s, toolbox_page=PAGES.get(s, ''))
-            out.append({k: row.get(k, '') for k in OUTCOLS})
+            row_out = {k: row.get(k, '') for k in OUTCOLS}
+            fx = FIXES.get(f"{vid}|{row_out['t_start']}|{row_out['subsystem'].strip()}")
+            if fx:  # cleanup pass (Haiku, reviewed): garble fixes / off-game rows -> none
+                row_out.update(fx); row_out['toolbox_page'] = PAGES.get(row_out['system'], '')
+            out.append(row_out)
     dst = os.path.join(ROOT, 'sources/creators', o['creator'], 'tags', vid + '.csv')
     os.makedirs(os.path.dirname(dst), exist_ok=True)
     with open(dst, 'w', newline='', encoding='utf-8') as fh:
