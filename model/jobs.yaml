@@ -76,7 +76,7 @@ characters:
       - {job: Sneaking, sections: [Sneaking], basis: class}
       - {job: Breeding, sections: [Breeding], basis: class}
       - {job: "Trapping (collect + set)", sections: [Trapping], basis: zack, note: "Check Trapper Drone building (Buildings C tier) for auto-collect"}
-      - {job: Compass, sections: [Compass], basis: class, note: "Nomadic Path 12/38: pos 15 Atomic Cost Crash, 17 Atomic Potential, 32 Aluminium Atom"}
+      - {job: Compass, sections: [Compass], basis: class, note: "Planner: model/compass.py (portals, dust buys, abominations, medallions)"}
       - {job: "Worship totems (waves)", sections: [], basis: zack, note: "Beast Master runs the totems (Zack 2026-11-19). Menagerie 500-wave mission met (602)"}
       - {job: "Kilroy (weekly, archer line)", sections: [Killroy], basis: zack, weekly: killroy}
   Autistotle:     # Voidwalker
@@ -169,7 +169,7 @@ active_tasks:   # importance 1 = top. minutes = rough session length. Quick win 
   - {id: prints_redo, owner: Autistomatic, task: "Redo all prints, then Royal Sampler off (Zack keeps it on for now)", importance: 3, minutes: 20, src: zack}
 
 locked:   # never hidden: what unlocks it + where that sits
-  - {feature: "Aluminium Atom", unlock: "Compass Nomadic Path pos 32 (now 12/38)", owner: Autistacular}
+  - {feature: "Aluminium Atom", unlock: "Compass Nomadic Path pos 32 (now 16/38)", owner: Autistacular}
   - {feature: "Royal Guardian x2", unlock: "DK 600+, Masterius (W6 Troll Playground), 250 Orb kills at Bored Beans (fan steps)", owner: "Autistastic, Autistomatic"}
   - {feature: "Cobaltine / Brunite / Freezium sediments", unlock: "Well rock layers 124.9K / 1.5M / 20M", owner: Autistabish}
   - {feature: "Cavern 16 Fountain", unlock: "Polonai level 16 (15 now, 30.1%)", owner: Autistabish}

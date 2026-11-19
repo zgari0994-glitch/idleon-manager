@@ -1187,9 +1187,16 @@
     },
     {
      "block": "Grimoire + Wraith Form (bones)",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
-      "Wraith Form on (outfit buffs him)",
+      "TOP: buy now (Toolbox optimizer, damage): Femur Hoarding 34 -> 35 for 992K (+7,687.43 (+2.43%)); Knockout! 20 -> 21 for 1.29M (+10,213.16 (+3.16%))",
+      "Cheap AutoReview targets (under 2% of balance, buy now): Supreme Head Chef Status 0 -> 10 (29.4K Ribcage next level) [Cooking]",
+      "Next unlock: Skull of Major Experience at 1,475 total levels (1,291 now, 184 to go). Cheapest Femur levels run 33.7K to 665K; Femur 10.9M held.",
+      "AutoReview To reach Tier 3 (now 2/10): Ribbon Winning 18 -> 20 (344K Femur) [Cooking (meal ribbons)]; Knockout Stacks 13 -> 16; Elimination Stacks 4 -> 16",
+      "AutoReview To reach Tier 4 (now 2/10): Total Grimoire Upgrades 1291 -> 1900; Ribbon Winning 18 -> 30 (344K Femur) [Cooking (meal ribbons)]; Pure Opals 10 -> 15 (731K Ribcage) [The Hole (villager opals)]; Grey Tome Book 26 -> 30 (1.42M Ribcage) [Talents]; Supreme Head Chef Status 0 -> 10 (29.4K Ribcage) [Cooking]; Knockout Stacks 13 -> 20; Elimination Stacks 4 -> 20",
+      "Feeds other systems: Ribbon Winning Lv 18/50 -> Cooking (meal ribbons) (344K Femur), Land Rank Database Maxim Lv 4/10 -> Farming (land rank) (1.22M Femur), Pure Opals Lv 10/25 -> The Hole (villager opals) (731K Ribcage), Sacrifice of Harvest Lv 145 -> Farming (781K Femur), Grey Tome Book Lv 26/150 -> Talents (1.42M Ribcage), Superior Crop Research Lv 11/200 -> Farming (210K Femur), Supreme Head Chef Status Lv 0/20 -> Cooking (29.4K Ribcage), Villager Extraciricular Lv 0 -> The Hole (villagers) (46.4K None), Talents for Me, not for Thee Lv 0/200 -> Talents (64.4K None)",
+      "Most bones per drop: Magni Pufferfin (Molten Edge) 11.5B, Ancientfish (Ancient Fissure) 8.29B, Glowfish (The Glowing Underbelly) 6.12B (AFK spot pick vs his Death Note targets).",
+      "Griffy 2026-10: max AFK gains before spending bones; damage + accuracy first (AFK Info shows if accuracy hits the target). Griffy 2026-08: Yummy Peach Ring is one of the first ribbons to rank 20.",
       "CREATORS: Maximize AFK gains before spending accumulated bones for large resource payouts. (Griffy 2026-10 @00:51:37)",
       "CREATORS: Unlock AFK bone accumulation early even before serious Wraith progression; it is accessible from the first mob. [available_mob=1] (Griffy 2026-10 @00:52:07)",
       "Push: Total Grimoire Upgrades 1291 -> 1900",
@@ -1233,8 +1240,15 @@
     },
     {
      "block": "ZOWs + CHOWs W1-W6",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "AutoReview: You could complete 14 more ZOWs with Autiszemo (94/108). Next: Noble Clam in The Clamworks (100K remaining), Spearfish in Pinpoint Summit (100K remaining), Coralcave Guardian in Coralcave Perimeter (100K remaining), Pirate Underling in Pirate Upper Deck (100K remaining), Eggroll in Sushi Perimeter (100K remaining), Jellofish in Jellofish Fields (100K remaining)...",
+      "AutoReview: You could complete 16 more CHOWs with Autiszemo (92/108). Next: Noble Clam in The Clamworks (1M remaining), Spearfish in Pinpoint Summit (1M remaining), Coralcave Guardian in Coralcave Perimeter (1M remaining), Pirate Underling in Pirate Upper Deck (1M remaining), Eggroll in Sushi Perimeter (1M remaining), Jellofish in Jellofish Fields (1M remaining)...",
+      "AutoReview: All kills for Autiszemo without a filter. Have fun. Next: Rift Monsters in The Rift, Poops in The Office, Boops in Meel's Crypt, Nutto in The Roots, Green Mushroom in Mummy Memorial, Dedotated Ram in Equinox Valley...",
+      "Closest Eclipse skulls (1B): Baby Troll (Spirited Valley) 37M left, Gelatinous Cuboid (Hyperion Nebula) 133M left, Crawler (Smolderin' Plateau) 384M left, Flying Worm (Hyperion Nebula) 391M left",
+      "Eclipse skulls 61 (+305% damage). Multikill: Blunder Hills 300%, Yum Yum Desert 220%, Frostbite Tundra 280%, Hyperion Nebula 200%, Smolderin' Plateau 190%, Spirited Valley 220%, World 7 140%, Minibosses 0%",
+      "Kill-rate ETAs start after the next Toolbox Death Note read (needs two reads).",
+      "Griffy: Eclipse skulls are painfully slow without big multikill; the Death Note building upgrade is worth it for multikill. WOWs skipped (weak scaling).",
       "CREATORS: Continue building Death Note. (Griffy 2026-09 @00:39:21)",
       "CREATORS: World 1 Eclipse Skulls would strongly help Blood Berserker progression. [world=1] (Griffy 2026-07 @00:13:23)",
       "Push: Gelatinous Cuboid in Jelly Cube Bridge (134M remaining) 87% -> 100%",
@@ -6571,6 +6585,13 @@
      ]
     },
     {
+     "block": "Levers for other jobs",
+     "kind": "lever",
+     "steps": [
+      "Hole opals (Zemo's Grimoire): Pure Opals Lv 10/25, next 731K Ribcage. AutoReview wants 15 for Grimoire tier 4."
+     ]
+    },
+    {
      "block": "Every character: Prayers",
      "kind": "every",
      "steps": [
@@ -7259,7 +7280,7 @@
        "infinite": false
       }
      ],
-     "note": "Nomadic Path 12/38: pos 15 Atomic Cost Crash, 17 Atomic Potential, 32 Aluminium Atom",
+     "note": "Planner: model/compass.py (portals, dust buys, abominations, medallions)",
      "where": [
       {
        "system": "compass",
@@ -7403,7 +7424,7 @@
    "locked": [
     {
      "feature": "Aluminium Atom",
-     "unlock": "Compass Nomadic Path pos 32 (now 12/38)",
+     "unlock": "Compass Nomadic Path pos 32 (now 16/38)",
      "owner": "Autistacular"
     }
    ],
@@ -7531,8 +7552,20 @@
     },
     {
      "block": "Compass",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "TOP: open these portals (hold 2s), stardust: Tunnels Entrance P1 207, Freefall Caverns P1 289, The Ol' Straightaway P1 428, Echoing Egress P1 508, Freefall Caverns P2 531, Echoing Egress P2 561, Slip Slidy Ledges P1 593, Deepwater Docks P1 7.45K = 10.6K of 8.9M. Check the portal character lock in game.",
+      "Moondust portals (keeps 40% for upgrades): Spaceway Raceway 1.26M, TV Outpost 3.9M, Donut Drive-In 7.6M = 12.8M of 23M.",
+      "AutoReview To reach Tier 4 (now 3/10): Elemental Path 12 -> 15. Next level 18.4M Stardust, short 9.5M.",
+      "AutoReview To reach Tier 4 (now 3/10): Abominations Slain 16 -> 19.",
+      "AutoReview To reach Tier 4 (now 3/10): Medallions Collected 27 -> 39.",
+      "Later AutoReview tiers also want: Aluminium Atom, Atomic Cost Crash, Atomic Potential, Exalted Stamps, Fighter Path, Medallion Magnate, Moon of Damage, Nomadic Path, Novadust Discovery, Opa Opa Opa!, Survival Path",
+      "Toolbox optimizer (damage): Abomination Slayer I 95 -> 105: +6,732.98 (+2.52%) for 846K",
+      "Under 1% of balance (just buy): Stone Failsafe 0->1 6 Sola, Printer Sale I 0->1 384 Moon, Jade Coinage 60->61 820 Star, Ring Drops II 70->71 4.9K Moon, Critter Culture 20->21 5.19K Star, Moondust Hoarding 20->21 6.3K Star, Solardust Hoarding 0->1 6.96K Moon, Moon of Sneak 65->66 10.2K Moon",
+      "Exalted Stamps Lv 3 -> 4: 7.01M Stardust (affordable). One more exalt use (stamps planner exalt order). Griffy 2026-11: use moons for another Exalted Stamp. Shares stardust with Elemental Path (tier 4): buying it pushes that back by 7.01M. Need outweighs math: pick by which is the bigger need (Zack).",
+      "Print day: Moon of Print Lv 102/200 (3d Printer Samples grow by +2.04% every day for 100 days); next level 539K Stardust on Autistacular's Compass. (one of the 6 print buffs; printer planner tracks its day counter).",
+      "Abominations 16 killed. Next: Bobo the Fractured (World 3 \u00b7 Waterlogged Entrance, HP 55.4B). Tempest Form enters the World 3 town at 17 abominations killed: 1 more to go.",
+      "Griffy 2026-10: farm all medallions (Tempest damage + accuracy per medallion), kill every abomination for class XP. Toolbox should show Total levels up from 2,724 after buys.",
       "CREATORS: Farm all medallions to strengthen bonuses including Tempest damage and improve progression. (Griffy 2026-10 @01:08:00)",
       "CREATORS: Eventually defeat all abominations for additional class XP as regular leveling slows. (Griffy 2026-10 @01:11:07)",
       "Push: Elemental-0: Elemental Path 12 -> 15",
@@ -7570,7 +7603,7 @@
      "block": "Unlock: Aluminium Atom",
      "kind": "unlock",
      "steps": [
-      "Compass Nomadic Path pos 32 (now 12/38)"
+      "Compass Nomadic Path pos 32 (now 16/38)"
      ]
     },
     {
@@ -11350,8 +11383,10 @@
     },
     {
      "block": "Super CHOWs (cooking speed 1.1x each, count only on him)",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "TOP (Death Note tier 16/23 -> next): AutoReview: Complete 10 more Super CHOWs with Autistopher (16/26). Next: Red Mushroom in Birch Enclave (100M remaining), Baby Boa in Winding Willows (100M remaining), Glublin in Forest Outskirts (100M remaining), Wode Board in Encroaching Forest Villa (100M remaining), Wood Mushroom in Where the Branches End (100M remaining), Slime in Jungle Perimeter (100M remaining)...",
+      "AutoReview: All kills for Autistopher without a filter. Have fun. Next: Rift Monsters in The Rift, Nutto in The Roots, Poops in The Office, Boops in Meel's Crypt, Green Mushroom in Mummy Memorial, Dedotated Ram in Equinox Valley...",
       "CREATORS: Continue building Death Note. (Griffy 2026-09 @00:39:21)",
       "CREATORS: World 1 Eclipse Skulls would strongly help Blood Berserker progression. [world=1] (Griffy 2026-07 @00:13:23)",
       "Push: Red Mushroom in Birch Enclave (100M remaining) 0% -> 100%",

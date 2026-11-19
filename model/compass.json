@@ -1,0 +1,2577 @@
+{
+ "snapshot": "20261119T0212",
+ "balance": {
+  "Stardust": 8900000.0,
+  "Moondust": 23000000.0,
+  "Solardust": 9050.0,
+  "Cooldust": 0.0,
+  "Novadust": 0.0
+ },
+ "total_levels": "2,724",
+ "extra_dust": "43.67x",
+ "upgrades": [
+  {
+   "name": "Pathfinder",
+   "lv": 1,
+   "max": 1,
+   "maxed": true,
+   "next": null,
+   "cost": null,
+   "currency": null,
+   "desc": "You can open portals using dust dropped by mobs, simply hold down on a portal for 2 seconds!"
+  },
+  {
+   "name": "Worldfinder",
+   "lv": 1,
+   "max": 1,
+   "maxed": true,
+   "next": null,
+   "cost": null,
+   "currency": null,
+   "desc": "You can open portals to the next world by defeating enough Abominations. The amount is shown above each town portal!"
+  },
+  {
+   "name": "Stop Drop and Roll",
+   "lv": 1,
+   "max": 1,
+   "maxed": true,
+   "next": null,
+   "cost": null,
+   "currency": null,
+   "desc": "You can now toggle Tempest drops. Just click off the TOGGLE button found in the description of the 'tempest drop' upgrades!"
+  },
+  {
+   "name": "Grumblo's Guarantee",
+   "lv": 1,
+   "max": 1,
+   "maxed": true,
+   "next": null,
+   "cost": null,
+   "currency": null,
+   "desc": "You can now GUARANTEE a Tempest stone to succeed by dragging a stack of 500 at once. This will use up 500 stones."
+  },
+  {
+   "name": "Elemental Path",
+   "lv": 12,
+   "max": 24,
+   "maxed": false,
+   "next": "13 (+1)",
+   "cost": 18400000.0,
+   "currency": "Stardust",
+   "desc": "Unlocks a new Elemental upgrade, right here in The Compass!"
+  },
+  {
+   "name": "Weapon Drop",
+   "lv": 1,
+   "max": 1,
+   "maxed": true,
+   "next": null,
+   "cost": null,
+   "currency": null,
+   "desc": "Certain mobs can now drop Tempest Weapons at a 1 in 135 chance. Check AFK Info to see what Tempest Items can be found!"
+  },
+  {
+   "name": "Elemental Vision",
+   "lv": 1,
+   "max": 1,
+   "maxed": true,
+   "next": null,
+   "cost": null,
+   "currency": null,
+   "desc": "You can now see the elemental weakness of abominations, as well as mobs in AFK Info. Your current element is Grass, with 7.76x bonus dmg"
+  },
+  {
+   "name": "Stone Drop",
+   "lv": 1,
+   "max": 1,
+   "maxed": true,
+   "next": null,
+   "cost": null,
+   "currency": null,
+   "desc": "All mobs can now drop Tempest Upgrade Stones, at a 1 in 52 chance"
+  },
+  {
+   "name": "Medallion Collection",
+   "lv": 1,
+   "max": 1,
+   "maxed": true,
+   "next": null,
+   "cost": null,
+   "currency": null,
+   "desc": "All mobs can now drop their very own commemorative Medallion! They have a 1 in 8,100 chance of dropping, and only while in Tempest Form!"
+  },
+  {
+   "name": "Weapon Drops",
+   "lv": 55,
+   "max": null,
+   "maxed": false,
+   "next": "56% (+1%)",
+   "cost": 72200.0,
+   "currency": "Stardust",
+   "desc": "+55% drop chance for all Tempest Weapons"
+  },
+  {
+   "name": "Elemental Destruction",
+   "lv": 10,
+   "max": 50,
+   "maxed": false,
+   "next": "22% (+2%)",
+   "cost": 118000.0,
+   "currency": "Stardust",
+   "desc": "All elemental damage is +20% higher. In other words, this is a damage multi, but it only works when using the right element!"
+  },
+  {
+   "name": "Ring Drop",
+   "lv": 1,
+   "max": 1,
+   "maxed": true,
+   "next": null,
+   "cost": null,
+   "currency": null,
+   "desc": "Certain mobs can now drop Tempest Rings at a 1 in 154 chance. Check AFK Info to see what Tempest Items can be found!"
+  },
+  {
+   "name": "Medallion Magnate",
+   "lv": 3,
+   "max": null,
+   "maxed": false,
+   "next": "8% (+2%)",
+   "cost": 185000000.0,
+   "currency": "Moondust",
+   "desc": "Medallions now show up visually next to the monster's name in its Card Info."
+  },
+  {
+   "name": "The Luck Factor",
+   "lv": 4,
+   "max": 25,
+   "maxed": false,
+   "next": "5% (+1%)",
+   "cost": 200000000.0,
+   "currency": "Moondust",
+   "desc": "Boosts the drop chance of ALL Tempest items, including medallions, by 4% of your normal Drop Rate."
+  },
+  {
+   "name": "Medallion Drops",
+   "lv": 48,
+   "max": null,
+   "maxed": false,
+   "next": "49% (+1%)",
+   "cost": 6390000.0,
+   "currency": "Moondust",
+   "desc": "+48% drop chance for all monster Medallions"
+  },
+  {
+   "name": "Ring Drops II",
+   "lv": 70,
+   "max": null,
+   "maxed": false,
+   "next": "71% (+1%)",
+   "cost": 4900.0,
+   "currency": "Moondust",
+   "desc": "+70% drop chance for all Tempest Rings"
+  },
+  {
+   "name": "Weapon Improvement",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "2% (+2%)",
+   "cost": 517000.0,
+   "currency": "Moondust",
+   "desc": "Tempest Weapons dropped by mobs now have higher weapon power the more HP the mob has!"
+  },
+  {
+   "name": "Stone Drops I",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "2% (+2%)",
+   "cost": 1450000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Lucky Drops III",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 4059999.9999999995,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Top of the Mornin'",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": null,
+   "cost": null,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Stone Drops II",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "3% (+3%)",
+   "cost": 31800000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Stone Failsafe",
+   "lv": 0,
+   "max": 25,
+   "maxed": false,
+   "next": "2% (+2%)",
+   "cost": 6.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Wind Weapon Drops",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 250000000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Fire Weapon Drops",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 699000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Grass Weapon Drops",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 1960000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Ice Weapon Drops",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 5490000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Lucky Drops II",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 15400000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Ring Drops I",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 43100000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Lucky Drops I",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 121000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Fighter Path",
+   "lv": 15,
+   "max": 31,
+   "maxed": false,
+   "next": "16 (+1)",
+   "cost": 13400000.0,
+   "currency": "Stardust",
+   "desc": "Unlocks a new Fighter upgrade, right here in The Compass!"
+  },
+  {
+   "name": "Tempest Damage",
+   "lv": 97,
+   "max": null,
+   "maxed": false,
+   "next": "98 (+1)",
+   "cost": 185000.0,
+   "currency": "Stardust",
+   "desc": "Boosts your Base Damage in Tempest Form by +97"
+  },
+  {
+   "name": "Tempest Accuracy",
+   "lv": 134,
+   "max": null,
+   "maxed": false,
+   "next": "135 (+1)",
+   "cost": 85300.0,
+   "currency": "Stardust",
+   "desc": "+134 Base Accuracy in Tempest Form"
+  },
+  {
+   "name": "Tempest Damage I",
+   "lv": 218,
+   "max": null,
+   "maxed": false,
+   "next": "219% (+1%)",
+   "cost": 207000.0,
+   "currency": "Stardust",
+   "desc": "+218% damage in Tempest Form"
+  },
+  {
+   "name": "Multishot",
+   "lv": 32,
+   "max": null,
+   "maxed": false,
+   "next": "165% (+5%)",
+   "cost": 129000.0,
+   "currency": "Stardust",
+   "desc": "+160% chance to shoot multiple arrows while in Tempest Form"
+  },
+  {
+   "name": "Tempest Accuracy I",
+   "lv": 182,
+   "max": null,
+   "maxed": false,
+   "next": "183% (+1%)",
+   "cost": 56200.0,
+   "currency": "Stardust",
+   "desc": "+182% accuracy in Tempest Form"
+  },
+  {
+   "name": "Tempest Crits",
+   "lv": 13,
+   "max": 25,
+   "maxed": false,
+   "next": "42% (+3%)",
+   "cost": 652000.0,
+   "currency": "Stardust",
+   "desc": "+39% Critical Hit chance in Tempest Form"
+  },
+  {
+   "name": "Tempest Mega Damage",
+   "lv": 50,
+   "max": null,
+   "maxed": false,
+   "next": "204 (+4)",
+   "cost": 1820000.0,
+   "currency": "Moondust",
+   "desc": "Boosts your Base Damage in Tempest Form by +200"
+  },
+  {
+   "name": "Tempest Rapidshot",
+   "lv": 10,
+   "max": null,
+   "maxed": false,
+   "next": "22% (+2%)",
+   "cost": 1150000.0,
+   "currency": "Moondust",
+   "desc": "+20% Basic Attack speed in Tempest Form"
+  },
+  {
+   "name": "Tempest Damage II",
+   "lv": 64,
+   "max": null,
+   "maxed": false,
+   "next": "65% (+1%)",
+   "cost": 133000.0,
+   "currency": "Stardust",
+   "desc": "+64% damage in Tempest Form"
+  },
+  {
+   "name": "Tempest Accuracy II",
+   "lv": 41,
+   "max": null,
+   "maxed": false,
+   "next": "84% (+2%)",
+   "cost": 138000.0,
+   "currency": "Stardust",
+   "desc": "+82% accuracy in Tempest Form"
+  },
+  {
+   "name": "Tempest Bullseye",
+   "lv": 28,
+   "max": null,
+   "maxed": false,
+   "next": "116 (+4)",
+   "cost": 686000.0,
+   "currency": "Moondust",
+   "desc": "+112 Base Accuracy in Tempest Form"
+  },
+  {
+   "name": "Tempest Damage III",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "2% (+2%)",
+   "cost": 178000.0,
+   "currency": "Stardust",
+   "desc": "+0% damage in Tempest Form"
+  },
+  {
+   "name": "Tempest Maxhit",
+   "lv": 5,
+   "max": null,
+   "maxed": false,
+   "next": "6% (+1%)",
+   "cost": 2029999.9999999998,
+   "currency": "Moondust",
+   "desc": "+5% Crit DMG in Tempest Form"
+  },
+  {
+   "name": "Tempest Damage IV",
+   "lv": 10,
+   "max": null,
+   "maxed": false,
+   "next": "22% (+2%)",
+   "cost": 2060000.0,
+   "currency": "Moondust",
+   "desc": "+20% damage in Tempest Form"
+  },
+  {
+   "name": "Stardust Hoarding",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 2920000.0,
+   "currency": "Solardust",
+   "desc": "+0% Tempest Accuracy per POW 10 Stardust owned"
+  },
+  {
+   "name": "Tempest Damage V",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "3% (+3%)",
+   "cost": 7410000.0,
+   "currency": "Moondust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Accuracy III",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 18900000.0,
+   "currency": "Moondust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Damage VI",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "3% (+3%)",
+   "cost": 47900000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Accuracy IV",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "3% (+3%)",
+   "cost": 122000000.0,
+   "currency": "Moondust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Accuracy V",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "4% (+4%)",
+   "cost": 310000000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Damage VII",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "4% (+4%)",
+   "cost": 786000000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Accuracy VI",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "5% (+5%)",
+   "cost": 2000000000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Ultra Damage",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "10 (+10)",
+   "cost": 5080000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest One Huuuundred and Eighty",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "10 (+10)",
+   "cost": 13000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Damage VIII",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "4% (+4%)",
+   "cost": 32900000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Accuracy VII",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "6% (+6%)",
+   "cost": 83400000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Cooldust Hoarding",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 212000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Damage IX",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "5% (+5%)",
+   "cost": 539000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Mastery Destruction",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1.02x (+0.02x)",
+   "cost": 1370000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Accuracy VIII",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "7% (+7%)",
+   "cost": 3490000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Damage X",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "6% (+6%)",
+   "cost": 1110000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Survival Path",
+   "lv": 14,
+   "max": 26,
+   "maxed": false,
+   "next": "15 (+1)",
+   "cost": 14900000.0,
+   "currency": "Stardust",
+   "desc": "Unlocks a new Survival upgrade, right here in The Compass!"
+  },
+  {
+   "name": "Tempest Heartbeat",
+   "lv": 117,
+   "max": null,
+   "maxed": false,
+   "next": "354 (+3)",
+   "cost": 50500.0,
+   "currency": "Stardust",
+   "desc": "+351 Base HP in Tempest Form"
+  },
+  {
+   "name": "Tempest Defence",
+   "lv": 84,
+   "max": null,
+   "maxed": false,
+   "next": "255 (+3)",
+   "cost": 50800.0,
+   "currency": "Stardust",
+   "desc": "+252 Base Defence in Tempest Form"
+  },
+  {
+   "name": "De Dust I",
+   "lv": 74,
+   "max": null,
+   "maxed": false,
+   "next": "75% (+1%)",
+   "cost": 53400.0,
+   "currency": "Stardust",
+   "desc": "+74% Extra Dust"
+  },
+  {
+   "name": "Tempest Defence I",
+   "lv": 103,
+   "max": null,
+   "maxed": false,
+   "next": "104% (+1%)",
+   "cost": 52200.0,
+   "currency": "Stardust",
+   "desc": "+103% defence in Tempest Form"
+  },
+  {
+   "name": "Moondust Hoarding",
+   "lv": 20,
+   "max": null,
+   "maxed": false,
+   "next": "21% (+1%)",
+   "cost": 6300.0,
+   "currency": "Stardust",
+   "desc": "+20% Tempest Defence per POW 10 Moondust owned"
+  },
+  {
+   "name": "De Dust II",
+   "lv": 35,
+   "max": null,
+   "maxed": false,
+   "next": "36% (+1%)",
+   "cost": 71700.0,
+   "currency": "Moondust",
+   "desc": "+35% Extra Dust"
+  },
+  {
+   "name": "Solardust Hoarding",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 6960.0,
+   "currency": "Moondust",
+   "desc": "+0% Extra Dust per POW 10 Solardust owned"
+  },
+  {
+   "name": "Tempest Health I",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 19000.0,
+   "currency": "Moondust",
+   "desc": "+0% total health in Tempest Form"
+  },
+  {
+   "name": "Tempest Defence II",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "2% (+2%)",
+   "cost": 51800.0,
+   "currency": "Stardust",
+   "desc": "+0% defence in Tempest Form"
+  },
+  {
+   "name": "Tempest Reach",
+   "lv": 0,
+   "max": 100,
+   "maxed": false,
+   "next": "3 (+3)",
+   "cost": 142000.0,
+   "currency": "Moondust",
+   "desc": "+0 Pixels of Reach in Tempest Mode"
+  },
+  {
+   "name": "De Dust III",
+   "lv": 10,
+   "max": null,
+   "maxed": false,
+   "next": "22% (+2%)",
+   "cost": 998000.0,
+   "currency": "Moondust",
+   "desc": "+20% Extra Dust"
+  },
+  {
+   "name": "Mountains of Dust",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 1050000.0,
+   "currency": "Stardust",
+   "desc": "+0% Extra Dust"
+  },
+  {
+   "name": "Can't Touch This",
+   "lv": 0,
+   "max": 30,
+   "maxed": false,
+   "next": "0.1 (+0.1)",
+   "cost": 2870000.0,
+   "currency": "Solardust",
+   "desc": "Increases invulnerability time in Tempest Form by +0 sec"
+  },
+  {
+   "name": "Tempest Defence III",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "3% (+3%)",
+   "cost": 7800000.0,
+   "currency": "Moondust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Spire of Dust",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1.01x (+0.01x)",
+   "cost": 21300000.0,
+   "currency": "Moondust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Health II",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "2% (+2%)",
+   "cost": 58100000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Novadust Discovery",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "10% (+10%)",
+   "cost": 159000000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Defence IV",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "4% (+4%)",
+   "cost": 432000000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Knockoff Compass",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1 (+1)",
+   "cost": 1180000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "De Dust IV",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "2% (+2%)",
+   "cost": 3210000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Accuracy..?",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "3% (+3%)",
+   "cost": 8750000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "De Dust V",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "3% (+3%)",
+   "cost": 23900000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Defence V",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "5% (+5%)",
+   "cost": 65099999999.99999,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Circle Supremacy",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1.01x (+0.01x)",
+   "cost": 178000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Tempest Defence VI",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "6% (+6%)",
+   "cost": 484000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Nomadic Path",
+   "lv": 16,
+   "max": 38,
+   "maxed": false,
+   "next": "17 (+1)",
+   "cost": 88500000.0,
+   "currency": "Stardust",
+   "desc": "Unlocks a new Nomadic upgrade, right here in The Compass!"
+  },
+  {
+   "name": "Critter Culture",
+   "lv": 20,
+   "max": null,
+   "maxed": false,
+   "next": "21% (+1%)",
+   "cost": 5190.0,
+   "currency": "Stardust",
+   "desc": "+20 base Critter per Trap, and +20% higher Trap-O-Vision collection rate!"
+  },
+  {
+   "name": "Jade Coinage",
+   "lv": 60,
+   "max": null,
+   "maxed": false,
+   "next": "2.83x (+0.03x)",
+   "cost": 820.0,
+   "currency": "Stardust",
+   "desc": "2.80x Jade Coin gain in Sneaking"
+  },
+  {
+   "name": "Moon of Print",
+   "lv": 102,
+   "max": 200,
+   "maxed": false,
+   "next": "2.06% (+0.02%)",
+   "cost": 539000.0,
+   "currency": "Stardust",
+   "desc": "3d Printer Samples grow by +2.04% every day for 100 days"
+  },
+  {
+   "name": "Exalted Stamps",
+   "lv": 3,
+   "max": null,
+   "maxed": false,
+   "next": "4 (+1)",
+   "cost": 7010000.0,
+   "currency": "Stardust",
+   "desc": "+3 Exalted Stamp uses. Apply them to a stamp to PERMANENTLY double its bonus! Other sources can push Exalted Stamps beyond 2x!"
+  },
+  {
+   "name": "Moon of Sneak",
+   "lv": 65,
+   "max": null,
+   "maxed": false,
+   "next": "2.32x (+0.02x)",
+   "cost": 10200.0,
+   "currency": "Moondust",
+   "desc": "2.30x higher Stealth for all ninja twins. You know what, I'll DOUBLE this bonus every 50 levels, trust me bro!"
+  },
+  {
+   "name": "Printer Sale I",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "5% (+5%)",
+   "cost": 384.0,
+   "currency": "Moondust",
+   "desc": "+0% reduction in cost for the Moon of Print upgrade"
+  },
+  {
+   "name": "Sneaky Sale I",
+   "lv": 107,
+   "max": null,
+   "maxed": false,
+   "next": "540% (+5%)",
+   "cost": 167000.0,
+   "currency": "Moondust",
+   "desc": "+535% reduction in cost for the Moon of Sneak upgrade"
+  },
+  {
+   "name": "Magnesium Atom",
+   "lv": 1,
+   "max": 1,
+   "maxed": true,
+   "next": null,
+   "cost": null,
+   "currency": null,
+   "desc": "Unlocks a new atom in the Atom Collider in World 3"
+  },
+  {
+   "name": "Sneaky Sale II",
+   "lv": 18,
+   "max": null,
+   "maxed": false,
+   "next": "190% (+10%)",
+   "cost": 25500.0,
+   "currency": "Moondust",
+   "desc": "+180% reduction in cost for the Moon of Sneak upgrade"
+  },
+  {
+   "name": "All Knowing Eye",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1.01x (+0.01x)",
+   "cost": 10500.0,
+   "currency": "Moondust",
+   "desc": "1.00x higher Sneaking EXP Gain for all ninja twins"
+  },
+  {
+   "name": "Moon of Damage",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 14900.0,
+   "currency": "Solardust",
+   "desc": "+0% higher damage for all characters. Not tempest damage, just good ol' classic IdleOn damage."
+  },
+  {
+   "name": "Damage Sale I",
+   "lv": 12,
+   "max": null,
+   "maxed": false,
+   "next": "65% (+5%)",
+   "cost": 171000.0,
+   "currency": "Moondust",
+   "desc": "+60% reduction in cost for the Moon of Damage upgrade"
+  },
+  {
+   "name": "Talented Masters",
+   "lv": 15,
+   "max": null,
+   "maxed": false,
+   "next": "16 (+1)",
+   "cost": 2450000.0,
+   "currency": "Moondust",
+   "desc": "+15 Talent PTS for all other Master Classes"
+  },
+  {
+   "name": "Opa Opa Opa!",
+   "lv": 0,
+   "max": 25,
+   "maxed": false,
+   "next": "1 (+1)",
+   "cost": 284000.0,
+   "currency": "Solardust",
+   "desc": "+0 Opals to give to Villagers"
+  },
+  {
+   "name": "Atomic Cost Crash",
+   "lv": 4,
+   "max": null,
+   "maxed": false,
+   "next": "5% (+1%)",
+   "cost": 1260000.0,
+   "currency": "Moondust",
+   "desc": "All Atoms are +4% cheaper to upgrade"
+  },
+  {
+   "name": "Damage Sale II",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "10% (+10%)",
+   "cost": 1480000.0,
+   "currency": "Solardust",
+   "desc": "+0% reduction in cost for the Moon of Damage upgrade"
+  },
+  {
+   "name": "Atomic Potential",
+   "lv": 0,
+   "max": 20,
+   "maxed": false,
+   "next": "1 (+1)",
+   "cost": 3370000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Damage Sale III",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "15% (+15%)",
+   "cost": 7690000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Sneaky Sale III",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "20% (+20%)",
+   "cost": 17600000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "My Talent is Best Talent",
+   "lv": 0,
+   "max": 200,
+   "maxed": false,
+   "next": "1 (+1)",
+   "cost": 40100000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Moon of Experience",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "15% (+15%)",
+   "cost": 91500000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Printer Sale II",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "10% (+10%)",
+   "cost": 209000000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Experience Sale III",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "15% (+15%)",
+   "cost": 477000000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Monument Homage",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 1090000000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Experience Sale II",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "10% (+10%)",
+   "cost": 2490000000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Moon of Sleep",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "0.2% (+0.2%)",
+   "cost": 5670000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Experience Sale I",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "5% (+5%)",
+   "cost": 13000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Snoozer Sale I",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "5% (+5%)",
+   "cost": 29600000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Experience Sale V",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "25% (+25%)",
+   "cost": 67400000000.00001,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Pristine Collector",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "2% (+2%)",
+   "cost": 154000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Snoozer Sale III",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "15% (+15%)",
+   "cost": 351000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Aluminium Atom",
+   "lv": 0,
+   "max": 1,
+   "maxed": false,
+   "next": "1 (+1)",
+   "cost": 281000000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Experience Sale IV",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "20% (+20%)",
+   "cost": 1830000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Snoozer Sale II",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "10% (+10%)",
+   "cost": 4179999999999.9995,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Pristine Sale I",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "5% (+5%)",
+   "cost": 9530000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Snoozer Sale IV",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "20% (+20%)",
+   "cost": 21800000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Pristine Sale II",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "10% (+10%)",
+   "cost": 49700000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Villagerz Learnz",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1.01x (+0.01x)",
+   "cost": 114000000000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer I",
+   "lv": 95,
+   "max": null,
+   "maxed": false,
+   "next": "96 (+1)",
+   "cost": 53100.0,
+   "currency": "Stardust",
+   "desc": "You have slain the green mushroom abomination!"
+  },
+  {
+   "name": "Abomination Slayer II",
+   "lv": 88,
+   "max": null,
+   "maxed": false,
+   "next": "89 (+1)",
+   "cost": 54100.0,
+   "currency": "Stardust",
+   "desc": "You have slain the bored bean abomination!"
+  },
+  {
+   "name": "Abomination Slayer III",
+   "lv": 41,
+   "max": null,
+   "maxed": false,
+   "next": "42% (+1%)",
+   "cost": 60700.0,
+   "currency": "Stardust",
+   "desc": "You have slain the carrot abomination!"
+  },
+  {
+   "name": "Abomination Slayer IV",
+   "lv": 78,
+   "max": null,
+   "maxed": false,
+   "next": "79 (+1)",
+   "cost": 82300.0,
+   "currency": "Stardust",
+   "desc": "You have slain the gigafrog abomination!"
+  },
+  {
+   "name": "Abomination Slayer V",
+   "lv": 94,
+   "max": null,
+   "maxed": false,
+   "next": "95% (+1%)",
+   "cost": 751000.0,
+   "currency": "Stardust",
+   "desc": "You have slain the acorn abomination!"
+  },
+  {
+   "name": "Abomination Slayer VI",
+   "lv": 90,
+   "max": null,
+   "maxed": false,
+   "next": "91 (+1)",
+   "cost": 1020000.0,
+   "currency": "Stardust",
+   "desc": "You have slain the rat abomination!"
+  },
+  {
+   "name": "Abomination Slayer VII",
+   "lv": 9,
+   "max": null,
+   "maxed": false,
+   "next": "10% (+1%)",
+   "cost": 30100000.0,
+   "currency": "Moondust",
+   "desc": "You have slain the sandypot abomination!"
+  },
+  {
+   "name": "Abomination Slayer VIII",
+   "lv": 11,
+   "max": null,
+   "maxed": false,
+   "next": "12 (+1)",
+   "cost": 2650000.0,
+   "currency": "Moondust",
+   "desc": "You have slain the crabcake abomination!"
+  },
+  {
+   "name": "Abomination Slayer IX",
+   "lv": 70,
+   "max": null,
+   "maxed": false,
+   "next": "71% (+1%)",
+   "cost": 1190000.0,
+   "currency": "Moondust",
+   "desc": "You have slain the sandcastle abomination!"
+  },
+  {
+   "name": "Abomination Slayer X",
+   "lv": 15,
+   "max": null,
+   "maxed": false,
+   "next": "16% (+1%)",
+   "cost": 1310000.0,
+   "currency": "Stardust",
+   "desc": "You have slain the mashed potato abomination!"
+  },
+  {
+   "name": "Abomination Slayer XI",
+   "lv": 4,
+   "max": null,
+   "maxed": false,
+   "next": "5% (+1%)",
+   "cost": 4010000.0,
+   "currency": "Moondust",
+   "desc": "You have slain the moonmoon abomination!"
+  },
+  {
+   "name": "Abomination Slayer XII",
+   "lv": 23,
+   "max": null,
+   "maxed": false,
+   "next": "24 (+1)",
+   "cost": 106000.0,
+   "currency": "Stardust",
+   "desc": "You have slain the fishcrate abomination!"
+  },
+  {
+   "name": "Abomination Slayer XIII",
+   "lv": 70,
+   "max": null,
+   "maxed": false,
+   "next": "71% (+1%)",
+   "cost": 18500000.0,
+   "currency": "Moondust",
+   "desc": "You have slain the snelbie abomination!"
+  },
+  {
+   "name": "Abomination Slayer XIV",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 46500.0,
+   "currency": "Moondust",
+   "desc": "You have slain the flake abomination!"
+  },
+  {
+   "name": "Abomination Slayer XV",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 92300.0,
+   "currency": "Stardust",
+   "desc": "You have slain the bloque abomination!"
+  },
+  {
+   "name": "Abomination Slayer XVI",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 184000.0,
+   "currency": "Moondust",
+   "desc": "You have slain the snowman abomination!"
+  },
+  {
+   "name": "Abomination Slayer XVII",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 364000.0,
+   "currency": "Moondust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XVIII",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 724000.0,
+   "currency": "Stardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XIX",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 1440000.0,
+   "currency": "Stardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XX",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 2860000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XXI",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 5670000.0,
+   "currency": "Moondust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XXII",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1 (+1)",
+   "cost": 11300000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XXIII",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "3% (+3%)",
+   "cost": 22400000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XXIV",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 44500000.0,
+   "currency": "Moondust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XXV",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 88200000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XXVI",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 176000000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XXVII",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 348000000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XXVIII",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1 (+1)",
+   "cost": 692000000.0,
+   "currency": "Stardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XXIX",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "0.1 (+0.1)",
+   "cost": 1380000000.0,
+   "currency": "Moondust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XXX",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 2730000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XXXI",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 5420000000.0,
+   "currency": "Moondust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XXXII",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 10800000000.0,
+   "currency": null,
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XXXIII",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 21400000000.0,
+   "currency": "Stardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XXXIV",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 42500000000.0,
+   "currency": "Solardust",
+   "desc": "Locked"
+  },
+  {
+   "name": "Abomination Slayer XXXV",
+   "lv": 0,
+   "max": null,
+   "maxed": false,
+   "next": "1% (+1%)",
+   "cost": 84400000000.0,
+   "currency": null,
+   "desc": "Locked"
+  }
+ ],
+ "targets": [
+  {
+   "tab": "To reach Tier 4",
+   "name": "Elemental Path",
+   "cur": "12",
+   "goal": "15",
+   "up": {
+    "name": "Elemental Path",
+    "lv": 12,
+    "max": 24,
+    "maxed": false,
+    "next": "13 (+1)",
+    "cost": 18400000.0,
+    "currency": "Stardust",
+    "desc": "Unlocks a new Elemental upgrade, right here in The Compass!"
+   }
+  },
+  {
+   "tab": "To reach Tier 5",
+   "name": "Elemental Path",
+   "cur": "12",
+   "goal": "20",
+   "up": {
+    "name": "Elemental Path",
+    "lv": 12,
+    "max": 24,
+    "maxed": false,
+    "next": "13 (+1)",
+    "cost": 18400000.0,
+    "currency": "Stardust",
+    "desc": "Unlocks a new Elemental upgrade, right here in The Compass!"
+   }
+  },
+  {
+   "tab": "To reach Tier 5",
+   "name": "Fighter Path",
+   "cur": "15",
+   "goal": "22",
+   "up": {
+    "name": "Fighter Path",
+    "lv": 15,
+    "max": 31,
+    "maxed": false,
+    "next": "16 (+1)",
+    "cost": 13400000.0,
+    "currency": "Stardust",
+    "desc": "Unlocks a new Fighter upgrade, right here in The Compass!"
+   }
+  },
+  {
+   "tab": "To reach Tier 5",
+   "name": "Survival Path",
+   "cur": "14",
+   "goal": "18",
+   "up": {
+    "name": "Survival Path",
+    "lv": 14,
+    "max": 26,
+    "maxed": false,
+    "next": "15 (+1)",
+    "cost": 14900000.0,
+    "currency": "Stardust",
+    "desc": "Unlocks a new Survival upgrade, right here in The Compass!"
+   }
+  },
+  {
+   "tab": "To reach Tier 5",
+   "name": "Nomadic Path",
+   "cur": "16",
+   "goal": "20",
+   "up": {
+    "name": "Nomadic Path",
+    "lv": 16,
+    "max": 38,
+    "maxed": false,
+    "next": "17 (+1)",
+    "cost": 88500000.0,
+    "currency": "Stardust",
+    "desc": "Unlocks a new Nomadic upgrade, right here in The Compass!"
+   }
+  },
+  {
+   "tab": "To reach Tier 5",
+   "name": "Exalted Stamps",
+   "cur": "3",
+   "goal": "6",
+   "up": {
+    "name": "Exalted Stamps",
+    "lv": 3,
+    "max": null,
+    "maxed": false,
+    "next": "4 (+1)",
+    "cost": 7010000.0,
+    "currency": "Stardust",
+    "desc": "+3 Exalted Stamp uses. Apply them to a stamp to PERMANENTLY double its bonus! Other sources can push Exalted Stamps beyond 2x!"
+   }
+  },
+  {
+   "tab": "To reach Tier 5",
+   "name": "Medallion Magnate",
+   "cur": "3",
+   "goal": "4",
+   "up": {
+    "name": "Medallion Magnate",
+    "lv": 3,
+    "max": null,
+    "maxed": false,
+    "next": "8% (+2%)",
+    "cost": 185000000.0,
+    "currency": "Moondust",
+    "desc": "Medallions now show up visually next to the monster's name in its Card Info."
+   }
+  },
+  {
+   "tab": "To reach Tier 5",
+   "name": "Moon of Damage",
+   "cur": "0",
+   "goal": "120",
+   "up": {
+    "name": "Moon of Damage",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": "1% (+1%)",
+    "cost": 14900.0,
+    "currency": "Solardust",
+    "desc": "+0% higher damage for all characters. Not tempest damage, just good ol' classic IdleOn damage."
+   }
+  },
+  {
+   "tab": "To reach Tier 5",
+   "name": "Opa Opa Opa!",
+   "cur": "0",
+   "goal": "8",
+   "up": {
+    "name": "Opa Opa Opa!",
+    "lv": 0,
+    "max": 25,
+    "maxed": false,
+    "next": "1 (+1)",
+    "cost": 284000.0,
+    "currency": "Solardust",
+    "desc": "+0 Opals to give to Villagers"
+   }
+  },
+  {
+   "tab": "To reach Tier 6",
+   "name": "Elemental Path",
+   "cur": "12",
+   "goal": "24",
+   "up": {
+    "name": "Elemental Path",
+    "lv": 12,
+    "max": 24,
+    "maxed": false,
+    "next": "13 (+1)",
+    "cost": 18400000.0,
+    "currency": "Stardust",
+    "desc": "Unlocks a new Elemental upgrade, right here in The Compass!"
+   }
+  },
+  {
+   "tab": "To reach Tier 6",
+   "name": "Fighter Path",
+   "cur": "15",
+   "goal": "31",
+   "up": {
+    "name": "Fighter Path",
+    "lv": 15,
+    "max": 31,
+    "maxed": false,
+    "next": "16 (+1)",
+    "cost": 13400000.0,
+    "currency": "Stardust",
+    "desc": "Unlocks a new Fighter upgrade, right here in The Compass!"
+   }
+  },
+  {
+   "tab": "To reach Tier 6",
+   "name": "Survival Path",
+   "cur": "14",
+   "goal": "26",
+   "up": {
+    "name": "Survival Path",
+    "lv": 14,
+    "max": 26,
+    "maxed": false,
+    "next": "15 (+1)",
+    "cost": 14900000.0,
+    "currency": "Stardust",
+    "desc": "Unlocks a new Survival upgrade, right here in The Compass!"
+   }
+  },
+  {
+   "tab": "To reach Tier 6",
+   "name": "Nomadic Path",
+   "cur": "16",
+   "goal": "38",
+   "up": {
+    "name": "Nomadic Path",
+    "lv": 16,
+    "max": 38,
+    "maxed": false,
+    "next": "17 (+1)",
+    "cost": 88500000.0,
+    "currency": "Stardust",
+    "desc": "Unlocks a new Nomadic upgrade, right here in The Compass!"
+   }
+  },
+  {
+   "tab": "To reach Tier 6",
+   "name": "Aluminium Atom",
+   "cur": "0",
+   "goal": "1",
+   "up": {
+    "name": "Aluminium Atom",
+    "lv": 0,
+    "max": 1,
+    "maxed": false,
+    "next": "1 (+1)",
+    "cost": 281000000000000.0,
+    "currency": null,
+    "desc": "Locked"
+   }
+  },
+  {
+   "tab": "To reach Tier 6",
+   "name": "Exalted Stamps",
+   "cur": "3",
+   "goal": "8",
+   "up": {
+    "name": "Exalted Stamps",
+    "lv": 3,
+    "max": null,
+    "maxed": false,
+    "next": "4 (+1)",
+    "cost": 7010000.0,
+    "currency": "Stardust",
+    "desc": "+3 Exalted Stamp uses. Apply them to a stamp to PERMANENTLY double its bonus! Other sources can push Exalted Stamps beyond 2x!"
+   }
+  },
+  {
+   "tab": "To reach Tier 6",
+   "name": "Medallion Magnate",
+   "cur": "3",
+   "goal": "6",
+   "up": {
+    "name": "Medallion Magnate",
+    "lv": 3,
+    "max": null,
+    "maxed": false,
+    "next": "8% (+2%)",
+    "cost": 185000000.0,
+    "currency": "Moondust",
+    "desc": "Medallions now show up visually next to the monster's name in its Card Info."
+   }
+  },
+  {
+   "tab": "To reach Tier 6",
+   "name": "Opa Opa Opa!",
+   "cur": "0",
+   "goal": "16",
+   "up": {
+    "name": "Opa Opa Opa!",
+    "lv": 0,
+    "max": 25,
+    "maxed": false,
+    "next": "1 (+1)",
+    "cost": 284000.0,
+    "currency": "Solardust",
+    "desc": "+0 Opals to give to Villagers"
+   }
+  },
+  {
+   "tab": "To reach Tier 6",
+   "name": "Moon of Damage",
+   "cur": "0",
+   "goal": "220",
+   "up": {
+    "name": "Moon of Damage",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": "1% (+1%)",
+    "cost": 14900.0,
+    "currency": "Solardust",
+    "desc": "+0% higher damage for all characters. Not tempest damage, just good ol' classic IdleOn damage."
+   }
+  },
+  {
+   "tab": "To reach Tier 6",
+   "name": "Novadust Discovery",
+   "cur": "0",
+   "goal": "25",
+   "up": {
+    "name": "Novadust Discovery",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": "10% (+10%)",
+    "cost": 159000000.0,
+    "currency": "Solardust",
+    "desc": "Locked"
+   }
+  },
+  {
+   "tab": "To reach Tier 6",
+   "name": "Atomic Cost Crash",
+   "cur": "4",
+   "goal": "55",
+   "up": {
+    "name": "Atomic Cost Crash",
+    "lv": 4,
+    "max": null,
+    "maxed": false,
+    "next": "5% (+1%)",
+    "cost": 1260000.0,
+    "currency": "Moondust",
+    "desc": "All Atoms are +4% cheaper to upgrade"
+   }
+  },
+  {
+   "tab": "To reach Tier 6",
+   "name": "Atomic Potential",
+   "cur": "0",
+   "goal": "12",
+   "up": {
+    "name": "Atomic Potential",
+    "lv": 0,
+    "max": 20,
+    "maxed": false,
+    "next": "1 (+1)",
+    "cost": 3370000.0,
+    "currency": "Solardust",
+    "desc": "Locked"
+   }
+  },
+  {
+   "tab": "To reach Tier 4",
+   "name": "Abominations Slain",
+   "cur": "16",
+   "goal": "19",
+   "up": null
+  },
+  {
+   "tab": "To reach Tier 5",
+   "name": "Abominations Slain",
+   "cur": "16",
+   "goal": "25",
+   "up": null
+  },
+  {
+   "tab": "To reach Tier 6",
+   "name": "Abominations Slain",
+   "cur": "16",
+   "goal": "28",
+   "up": null
+  },
+  {
+   "tab": "To reach Tier 4",
+   "name": "Medallions Collected",
+   "cur": "27",
+   "goal": "39",
+   "up": null
+  },
+  {
+   "tab": "To reach Tier 5",
+   "name": "Medallions Collected",
+   "cur": "27",
+   "goal": "50",
+   "up": null
+  },
+  {
+   "tab": "To reach Tier 6",
+   "name": "Medallions Collected",
+   "cur": "27",
+   "goal": "57",
+   "up": null
+  }
+ ],
+ "optimizer": [
+  "Abomination Slayer I 95 -> 105: +6,732.98 (+2.52%) for 846K"
+ ],
+ "portals": [
+  {
+   "map": "Tunnels Entrance",
+   "portal": 1,
+   "cost": 207.0,
+   "currency": "Stardust",
+   "afford": true
+  },
+  {
+   "map": "Freefall Caverns",
+   "portal": 1,
+   "cost": 289.0,
+   "currency": "Stardust",
+   "afford": true
+  },
+  {
+   "map": "Freefall Caverns",
+   "portal": 2,
+   "cost": 531.0,
+   "currency": "Stardust",
+   "afford": true
+  },
+  {
+   "map": "The Ol' Straightaway",
+   "portal": 1,
+   "cost": 428.0,
+   "currency": "Stardust",
+   "afford": true
+  },
+  {
+   "map": "Echoing Egress",
+   "portal": 1,
+   "cost": 508.0,
+   "currency": "Stardust",
+   "afford": true
+  },
+  {
+   "map": "Echoing Egress",
+   "portal": 2,
+   "cost": 561.0,
+   "currency": "Stardust",
+   "afford": true
+  },
+  {
+   "map": "Slip Slidy Ledges",
+   "portal": 1,
+   "cost": 593.0,
+   "currency": "Stardust",
+   "afford": true
+  },
+  {
+   "map": "Deepwater Docks",
+   "portal": 1,
+   "cost": 7450.0,
+   "currency": "Stardust",
+   "afford": true
+  },
+  {
+   "map": "Waterlogged Entrance",
+   "portal": 1,
+   "cost": 12000000.0,
+   "currency": "Moondust",
+   "afford": true
+  },
+  {
+   "map": "Cryo Catacombs",
+   "portal": 1,
+   "cost": 19000000.0,
+   "currency": "Moondust",
+   "afford": true
+  },
+  {
+   "map": "Overpass of Sound",
+   "portal": 1,
+   "cost": 39200000.0,
+   "currency": "Moondust",
+   "afford": false
+  },
+  {
+   "map": "Wam Wonderland",
+   "portal": 1,
+   "cost": 799000000.0,
+   "currency": "Moondust",
+   "afford": false
+  },
+  {
+   "map": "Spaceway Raceway",
+   "portal": 1,
+   "cost": 1260000.0,
+   "currency": "Moondust",
+   "afford": true
+  },
+  {
+   "map": "TV Outpost",
+   "portal": 1,
+   "cost": 3900000.0,
+   "currency": "Moondust",
+   "afford": true
+  },
+  {
+   "map": "Donut Drive-In",
+   "portal": 1,
+   "cost": 7600000.0,
+   "currency": "Moondust",
+   "afford": true
+  },
+  {
+   "map": "Outskirts of Fallstar Isle",
+   "portal": 1,
+   "cost": 13800000.0,
+   "currency": "Moondust",
+   "afford": true
+  },
+  {
+   "map": "Mountainous Deugh",
+   "portal": 1,
+   "cost": 28600000.0,
+   "currency": "Moondust",
+   "afford": false
+  },
+  {
+   "map": "Wurm Highway",
+   "portal": 1,
+   "cost": 55700000.0,
+   "currency": "Moondust",
+   "afford": false
+  },
+  {
+   "map": "Jelly Cube Bridge",
+   "portal": 1,
+   "cost": 109000000.0,
+   "currency": "Moondust",
+   "afford": false
+  },
+  {
+   "map": "Cocoa Tunnel",
+   "portal": 1,
+   "cost": 188000000.0,
+   "currency": "Moondust",
+   "afford": false
+  },
+  {
+   "map": "Standstill Plains",
+   "portal": 1,
+   "cost": 306000000.0,
+   "currency": "Moondust",
+   "afford": false
+  },
+  {
+   "map": "Shelled Shores",
+   "portal": 1,
+   "cost": 503000000.0,
+   "currency": "Moondust",
+   "afford": false
+  },
+  {
+   "map": "The Untraveled Octopath",
+   "portal": 1,
+   "cost": 861000000.0,
+   "currency": "Moondust",
+   "afford": false
+  },
+  {
+   "map": "Flamboyant Bayou",
+   "portal": 1,
+   "cost": 1350000000.0,
+   "currency": "Moondust",
+   "afford": false
+  },
+  {
+   "map": "Enclave of Eyes",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Moondust",
+   "afford": false
+  },
+  {
+   "map": "Naut Sake Perimeter",
+   "portal": 1,
+   "cost": 15000000.0,
+   "currency": "Solardust",
+   "afford": false
+  },
+  {
+   "map": "Niagrilled Falls",
+   "portal": 1,
+   "cost": 32500000.0,
+   "currency": "Solardust",
+   "afford": false
+  },
+  {
+   "map": "The Killer Roundabout",
+   "portal": 1,
+   "cost": 67500000.0,
+   "currency": "Solardust",
+   "afford": false
+  },
+  {
+   "map": "The Killer Roundabout",
+   "portal": 2,
+   "cost": 3120.0,
+   "currency": "Solardust",
+   "afford": true
+  },
+  {
+   "map": "Cracker Jack Lake",
+   "portal": 1,
+   "cost": 110000000.0,
+   "currency": "Solardust",
+   "afford": false
+  },
+  {
+   "map": "The Great Molehill",
+   "portal": 1,
+   "cost": 214000000.0,
+   "currency": "Solardust",
+   "afford": false
+  },
+  {
+   "map": "Erruption River",
+   "portal": 1,
+   "cost": 371000000.0,
+   "currency": "Solardust",
+   "afford": false
+  },
+  {
+   "map": "Mount Doomish",
+   "portal": 1,
+   "cost": 964000000.0,
+   "currency": "Solardust",
+   "afford": false
+  },
+  {
+   "map": "OJ Bay",
+   "portal": 1,
+   "cost": 1880000000.0,
+   "currency": "Solardust",
+   "afford": false
+  },
+  {
+   "map": "Lampar Lake",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Solardust",
+   "afford": false
+  },
+  {
+   "map": "Spitfire River",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Solardust",
+   "afford": false
+  },
+  {
+   "map": "Miner Mole Outskirts",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Solardust",
+   "afford": false
+  },
+  {
+   "map": "Crawly Catacombs",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Solardust",
+   "afford": false
+  },
+  {
+   "map": "Gooble Goop Creek",
+   "portal": 1,
+   "cost": 120000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Picnic Bridgeways",
+   "portal": 1,
+   "cost": 260000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Irrigation Station",
+   "portal": 1,
+   "cost": 675000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Troll Playground",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Edge of the Valley",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Bamboo Laboredge",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Lightway Path",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Troll Broodnest",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Above the Clouds",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Sleepy Skyline",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Dozey Dogpark",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Yolkrock Basin",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Chieftain Stairway",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Refraction Bend",
+   "portal": 1,
+   "cost": 1600000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Doodle Reef",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Seaweed Street",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Seaweed Street",
+   "portal": 2,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Barnacle Curb",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Balloon Bay",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Balloon Bay",
+   "portal": 2,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "The Clamworks",
+   "portal": 1,
+   "cost": 4670.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Plastic Basin",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Plastic Basin",
+   "portal": 2,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Puffpuff Overpass",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Pinpoint Summit",
+   "portal": 1,
+   "cost": 4710.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Middle of Nowhere",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Middle of Nowhere",
+   "portal": 2,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Coralcave Outskirts",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Coralcave Perimeter",
+   "portal": 1,
+   "cost": 4760.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Deep End of the Koipond",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Minefield",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Pirate Upper Deck",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Pirate Upper Deck",
+   "portal": 2,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Sushi Perimeter",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Jellofish Fields",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Where the Kelp Meets Trench",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Trench Precipice",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "The Glowing Underbelly",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Ancient Fissure",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Molten Edge",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Pirate Mess Hall",
+   "portal": 1,
+   "cost": 2000000000.0,
+   "currency": "Cooldust",
+   "afford": false
+  },
+  {
+   "map": "Dreadnaught Chamber",
+   "portal": 1,
+   "cost": 4970.0,
+   "currency": "Cooldust",
+   "afford": false
+  }
+ ],
+ "abom_killed": 16,
+ "abom_next": [
+  "Bobo the Fractured",
+  "World 3 \u00b7 Waterlogged Entrance",
+  "55.4B"
+ ],
+ "gate": "Tempest Form enters the World 3 town at 17 abominations killed: 1 more to go.",
+ "ar_tier": "3/10"
+}
