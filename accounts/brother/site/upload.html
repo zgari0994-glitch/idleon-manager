@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Update my IdleOn dashboard</title>
+<style>
+  body{font-family:system-ui,sans-serif;background:#141018;color:#eee;max-width:640px;margin:32px auto;padding:0 16px}
+  h1{font-size:22px} ol{line-height:1.6} textarea{width:100%;height:140px;background:#1e1924;color:#ddd;border:1px solid #3a3242;border-radius:8px;padding:8px;font-size:12px}
+  input{width:100%;padding:8px;background:#1e1924;color:#eee;border:1px solid #3a3242;border-radius:8px;margin:6px 0 12px}
+  button{background:#c9a227;color:#141018;border:0;border-radius:8px;padding:12px 18px;font-weight:700;font-size:16px;cursor:pointer}
+  #msg{margin-top:14px;font-weight:600} a{color:#c9a227}
+</style>
+</head>
+<body>
+<h1>Update my IdleOn dashboard</h1>
+<ol>
+  <li>In game: cloud save.</li>
+  <li>On <a href="https://idleontoolbox.com" target="_blank" rel="noopener">Idleon Toolbox</a> (signed in): Account menu (top right) &rarr; <b>Copy raw data</b>.</li>
+  <li>Paste below and hit Update.</li>
+</ol>
+<label>Passcode</label>
+<input id="pc" type="password" autocomplete="current-password">
+<label>Raw data</label>
+<textarea id="raw" placeholder="Paste here"></textarea>
+<p><button id="go">Update</button></p>
+<div id="msg"></div>
+<p><a href="/">Open dashboard</a></p>
+<script>
+const $ = id => document.getElementById(id);
+try { $('pc').value = localStorage.getItem('pc') || ''; } catch (e) {}
+$('go').onclick = async () => {
+  const msg = $('msg'), s = $('raw').value.trim();
+  let j;
+  try { j = JSON.parse(s); } catch (e) { msg.textContent = 'That is not the raw data. Use Account menu -> Copy raw data.'; return; }
+  if (!j.data || !Array.isArray(j.charNames)) { msg.textContent = 'That is not the raw data. Use Account menu -> Copy raw data.'; return; }
+  msg.textContent = 'Uploading...';
+  const gz = new Uint8Array(await new Response(new Blob([s]).stream().pipeThrough(new CompressionStream('gzip'))).arrayBuffer());
+  let b = ''; for (let i = 0; i < gz.length; i += 32768) b += String.fromCharCode.apply(null, gz.subarray(i, i + 32768));
+  const r = await fetch('/upload', { method: 'POST', headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ passcode: $('pc').value, first: j.charNames[0], gz_b64: btoa(b) }) });
+  const t = await r.text();
+  if (r.ok) { try { localStorage.setItem('pc', $('pc').value); } catch (e) {} $('raw').value = '';
+    msg.textContent = 'Uploaded. Your dashboard updates in about 3 minutes.'; }
+  else msg.textContent = 'Upload failed: ' + t;
+};
+</script>
+</body>
+</html>

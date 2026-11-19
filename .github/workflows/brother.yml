@@ -1,0 +1,48 @@
+# Brother (IdleOnLech) dashboard: rebuilds when his upload page commits a new raw save.
+# Runs on GitHub's free runners: no Claude usage. Zack's own account is not touched (accounts/brother/ only).
+name: brother-dashboard
+on:
+  push:
+    paths: ['accounts/brother/inbox/**']
+  workflow_dispatch:
+    inputs:
+      force: {description: 'Rebuild even if this save was already stored', type: boolean, default: false}
+permissions:
+  contents: write
+concurrency:
+  group: brother
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 1}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.13', cache: pip, cache-dependency-path: accounts/brother/requirements.txt}
+      - name: Install
+        run: pip install -q -r accounts/brother/requirements.txt
+      - name: Build dashboard
+        run: |
+          gunzip -c accounts/brother/inbox/raw.json.gz > /tmp/raw.json
+          INSTALL=1 FORCE=${{ inputs.force && '1' || '0' }} WORK=/tmp/bro_work accounts/brother/run.sh /tmp/raw.json
+      - name: Save results to the repo
+        run: |
+          git config user.name "brother-dashboard[bot]"
+          git config user.email "brother-dashboard@users.noreply.github.com"
+          git add accounts/brother
+          git diff --cached --quiet && { echo "nothing new"; exit 0; }
+          git commit -q -m "brother: refresh $(cat accounts/brother/snapshots/LATEST)"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done; exit 1
+      - name: Deploy to Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          cd accounts/brother/site
+          rm -rf _out && mkdir _out && cp ../dashboard/index.html upload.html _out/
+          npx -y wrangler@4 pages project create idleon-brother --production-branch main 2>/dev/null || true
+          echo "${{ secrets.UPLOAD_PASSCODE }}" | npx -y wrangler@4 pages secret put UPLOAD_PASSCODE --project-name idleon-brother
+          echo "${{ secrets.UPLOAD_GH_TOKEN }}" | npx -y wrangler@4 pages secret put UPLOAD_GH_TOKEN --project-name idleon-brother
+          npx -y wrangler@4 pages deploy _out --project-name idleon-brother --branch main --commit-dirty=true

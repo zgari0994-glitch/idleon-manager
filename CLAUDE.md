@@ -22,6 +22,9 @@
 - Done: Sailing (`model/sailing.py`, Autisticles + odds levers routed), Farming (`model/farming.py`, Zemo), Cooking (`model/cooking.py`, Zemo), Divinity (`model/divinity.py`, Bish), Breeding (`model/breeding.py`, Tacular), 3D Printer (`model/printer.py`, per-character slots), Alchemy (`model/alchemy.py`, Cat). Map sweep: tools/resection.py re-files mis-tagged creator advice; every_character jobs in jobs.yaml. Buys are ranked with `model/spend.py` (gain per share of balance, per currency, source-weighted). Planners register in plan.py PLANNERS. Order next: Farming, Cooking, Breeding, 3D Printer, Alchemy, Stamps, Statues+Greenstacks, Prayers+Worship, Compass/Grimoire/Death Note, Equinox/Atom/Tesseract/Vault/Salt Lick/PO/Armor, rest.
 - Per system: report to Zack what system + what was discovered BEFORE building it.
 
+## Brother's account (Zack 2026-11-19)
+- `accounts/brother/` = his separate dashboard (IdleOnLech, 10 chars), fully automatic via his upload page + GitHub Action + Cloudflare Pages (no Claude usage). See accounts/brother/README.md. Never mix his data into Zack's snapshots/plans; Zack's own flow below is unchanged.
+
 ## Usage rules (the limit is the #1 constraint)
 - No scheduled/hourly tasks. Pull data only on request or at the start of a play session.
 - Never read big docs whole. Read `snapshots/$(cat snapshots/LATEST)/meta.json` first, then only the sections/characters the question needs (query with python/jq).
