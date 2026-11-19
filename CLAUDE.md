@@ -19,7 +19,7 @@
 ## System planners (Zack 2026-11-19: "this level for all aspects")
 - Standard per system: Toolbox numbers + breakdowns + bundle formulas -> model -> concrete moves on owner cards with exact gains -> a "Toolbox should now show N" check -> phases (now / later / gate) -> recomputed every refresh.
 - Read a Toolbox page: preview_start the page, paste `tools/tb_read.js` into javascript_tool (all tabs, Details on, every breakdown dialog), close tab, `python3 tools/tb_save.py <result file> <system>` -> snapshots/<LATEST>/toolbox/<system>.json.
-- Done: Sailing (`model/sailing.py`, Autisticles + odds levers routed), Farming (`model/farming.py`, Zemo: GMO stacks, evo math, rank pts, night/day/exotic). Planners register in plan.py PLANNERS. Order next: Farming, Cooking, Breeding, 3D Printer, Alchemy, Stamps, Statues+Greenstacks, Prayers+Worship, Compass/Grimoire/Death Note, Equinox/Atom/Tesseract/Vault/Salt Lick/PO/Armor, rest.
+- Done: Sailing (`model/sailing.py`, Autisticles + odds levers routed), Farming (`model/farming.py`, Zemo), Cooking (`model/cooking.py`, Zemo: plate cap path, meal choice, spice, mastery). Planners register in plan.py PLANNERS. Order next: Farming, Cooking, Breeding, 3D Printer, Alchemy, Stamps, Statues+Greenstacks, Prayers+Worship, Compass/Grimoire/Death Note, Equinox/Atom/Tesseract/Vault/Salt Lick/PO/Armor, rest.
 - Per system: report to Zack what system + what was discovered BEFORE building it.
 
 ## Usage rules (the limit is the #1 constraint)
