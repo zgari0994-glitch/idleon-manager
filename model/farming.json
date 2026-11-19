@@ -1,6 +1,80 @@
 {
  "snapshot": "20261119T0212",
  "found": 140,
+ "night_rank": [
+  {
+   "item": "EXP Gmo 15/100",
+   "currency": "beans",
+   "balance": 89555.4224569779,
+   "cost": 80.0,
+   "gain_pct": 4.0,
+   "stat": "+15% farming EXP gain crop you have 2500",
+   "weight": 1,
+   "share": 0.0008933015757748416,
+   "afford": true,
+   "score": 4477.771122848895
+  },
+  {
+   "item": "Og Fertilizer 60/500",
+   "currency": "beans",
+   "balance": 89555.4224569779,
+   "cost": 455.0,
+   "gain_pct": 0.6250000000000001,
+   "stat": "1.60x higher chance for Overgrowth to oc",
+   "weight": 1,
+   "share": 0.005080652712219412,
+   "afford": true,
+   "score": 123.01569018815648
+  },
+  {
+   "item": "Evolution Gmo 141/500",
+   "currency": "beans",
+   "balance": 89555.4224569779,
+   "cost": 267000.0,
+   "gain_pct": 3.826876062030893,
+   "stat": "2.13x crop evolution chance per crop you",
+   "weight": 2,
+   "share": 2.981394009148534,
+   "afford": false,
+   "score": 2.567172302814027
+  },
+  {
+   "item": "Super Gmo 42/50",
+   "currency": "beans",
+   "balance": 89555.4224569779,
+   "cost": 183000.0,
+   "gain_pct": 1.3274336283185841,
+   "stat": "+21% all 'GMO' bonuses per crop you have",
+   "weight": 3,
+   "share": 2.04342735458495,
+   "afford": false,
+   "score": 1.948834087994587
+  },
+  {
+   "item": "Value Gmo 51/500",
+   "currency": "beans",
+   "balance": 89555.4224569779,
+   "cost": 21100.0,
+   "gain_pct": 0.18148820326678766,
+   "stat": "+1.02% crop value per per crop you have ",
+   "weight": 1,
+   "share": 0.23560829061061447,
+   "afford": true,
+   "score": 0.7702963371808079
+  },
+  {
+   "item": "Speed Gmo 67/500",
+   "currency": "beans",
+   "balance": 89555.4224569779,
+   "cost": 135000.0,
+   "gain_pct": 0.9966777408637876,
+   "stat": "+20.1% growth speed per crop you have 10",
+   "weight": 1,
+   "share": 1.5074464091200452,
+   "afford": false,
+   "score": 0.6611696010112803
+  }
+ ],
  "stacks": {
   "Evolution GMO": 10,
   "Speed GMO": 10,
@@ -729,7 +803,7 @@
    "maxed": false,
    "have": 89600.0,
    "cost": 267000.0,
-   "desc": "NEXT COST"
+   "desc": "2.13x crop evolution chance per crop you have 200 of"
   },
   {
    "name": "Speed Gmo",
@@ -739,7 +813,7 @@
    "maxed": false,
    "have": 89600.0,
    "cost": 135000.0,
-   "desc": "NEXT COST"
+   "desc": "+20.1% growth speed per crop you have 1000 of"
   },
   {
    "name": "Og Fertilizer",
@@ -749,7 +823,7 @@
    "maxed": false,
    "have": 89600.0,
    "cost": 455.0,
-   "desc": "NEXT COST"
+   "desc": "1.60x higher chance for Overgrowth to occur"
   },
   {
    "name": "EXP Gmo",
@@ -759,7 +833,7 @@
    "maxed": false,
    "have": 89600.0,
    "cost": 80.0,
-   "desc": "NEXT COST"
+   "desc": "+15% farming EXP gain crop you have 2500 of"
   },
   {
    "name": "Value Gmo",
@@ -769,7 +843,7 @@
    "maxed": false,
    "have": 89600.0,
    "cost": 21100.0,
-   "desc": "NEXT COST"
+   "desc": "+1.02% crop value per per crop you have 10000 of"
   },
   {
    "name": "Super Gmo",
@@ -779,7 +853,7 @@
    "maxed": false,
    "have": 89600.0,
    "cost": 183000.0,
-   "desc": "NEXT COST"
+   "desc": "+21% all 'GMO' bonuses per crop you have 100K"
   }
  ],
  "day": [
@@ -791,7 +865,7 @@
    "maxed": false,
    "have": 0.0,
    "cost": 52800.0,
-   "desc": "NEXT COST"
+   "desc": "+184% chance for +1 crop when fully grown"
   },
   {
    "name": "Nutritious Soil",
@@ -801,7 +875,7 @@
    "maxed": false,
    "have": 797000.0,
    "cost": 28000000.0,
-   "desc": "NEXT COST"
+   "desc": "+151% growth speed for all land"
   },
   {
    "name": "Smarter Seeds",
@@ -811,7 +885,7 @@
    "maxed": false,
    "have": 0.0,
    "cost": 28600.0,
-   "desc": "NEXT COST"
+   "desc": "+300% farming EXP gain from all sources"
   },
   {
    "name": "Biology Boost",
@@ -821,7 +895,7 @@
    "maxed": false,
    "have": 0.0,
    "cost": 47600.0,
-   "desc": "NEXT COST"
+   "desc": "+1,500% chance of crop evolution, or 'next crop' chance"
   },
   {
    "name": "Product Doubler",
@@ -831,7 +905,7 @@
    "maxed": false,
    "have": 0.0,
    "cost": 11000.0,
-   "desc": "NEXT COST"
+   "desc": "+126% chance for crops to be worth 2x when collected"
   },
   {
    "name": "More Beenz",
@@ -841,7 +915,7 @@
    "maxed": false,
    "have": 0.0,
    "cost": 18800.0,
-   "desc": "NEXT COST"
+   "desc": "+110% magic beans gained when trading in crops"
   },
   {
    "name": "Rank Boost",
@@ -851,7 +925,7 @@
    "maxed": false,
    "have": 0.0,
    "cost": 235000.0,
-   "desc": "NEXT COST"
+   "desc": "Plots earn +165% more Rank XP when a crop is collected"
   }
  ],
  "exotic_left": [

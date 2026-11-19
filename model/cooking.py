@@ -3,6 +3,7 @@
 Inputs: snapshots/<LATEST>/toolbox/cooking.json (tb_read.js), review.json.gz (AutoReview Cooking), model/sailing.json (Causticolumn odds).
 """
 import gzip, json, re
+import spend
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -89,14 +90,20 @@ def card_lines(o):
             w, how = CAP_SRC[n]; L.append(f"  {how} [{w}]")
         if o['causticolumn']:
             L.append(f"  Causticolumn next form (+10): {o['causticolumn'][0]}, 1 in {o['causticolumn'][1]:,} chests [Autisticles, Sailing 'Later']")
-    cheap = []
+    opts = []
+    tot = sum(sum(k[n][0] for n in ('speed', 'fire', 'luck')) for k in o['kitchens'])
     for k in o['kitchens']:
         for nm in ('speed', 'fire', 'luck'):
             lv, hv, cost = k[nm]
-            if cost and hv >= cost * 20: cheap.append(f"K{k['k']} {nm.title()} {lv} (cost {cost:,.0f}, have {hv:,.0f})")
-    if cheap:
-        L.append(f"Spice to spend (cost under 5% of what you hold): {'; '.join(cheap[:12])}{' +' + str(len(cheap) - 12) + ' more' if len(cheap) > 12 else ''}. "
-                 "Griffy (older clip): level every kitchen upgrade, every 10 levels adds kitchen speed.")
+            if not cost: continue
+            gain = 100 * (1 / (10 + lv)) / len(o['kitchens']) if nm == 'speed' else None   # Toolbox: kitchen speed x(1 + speed lv/10); share of all kitchens
+            opts.append({'item': f"K{k['k']} {nm.title()} {lv}", 'currency': f"spice pool {spend.h(hv)}", 'balance': hv, 'cost': cost, 'gain_pct': gain,
+                         'stat': 'total meal speed' if nm == 'speed' else 'counts toward Kitchen Eff (every 10 upgrade levels)'})
+    rk = [x for ops in spend.rank(opts).values() for x in ops if x['afford']]
+    rk.sort(key=lambda x: (x['score'] is None, -(x['score'] or 0), x['share'] or 1))
+    if rk:
+        L.append(f"Spice, best value first (speed levels add meal speed directly; Fire/Luck levels still count toward Kitchen Eff per 10 total upgrade levels, now {tot}; "
+                 f"Griffy older clip: level every kitchen upgrade): " + ' > '.join(spend.fmt(x) for x in rk[:8]) + f" (+{max(0, len(rk) - 8)} more affordable)")
     if o['spice_claims']: L.append(f"Spice claims {o['spice_claims'][0]}/{o['spice_claims'][1]}.")
     m = o['mastery']
     if m['lv'] is not None:

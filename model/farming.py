@@ -4,6 +4,7 @@ Inputs: raw save (FarmCrop counts, FarmUpg levels+beans), snapshots/<LATEST>/too
 Output: model/farming.json ; card_lines(o) for plan.py.
 """
 import gzip, json, math, re
+import spend
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -42,7 +43,7 @@ def market(text):
         out.append({'name': m.group(1).strip(), 'lv': int(m.group(2).replace(',', '')), 'max': int(m.group(3).replace(',', '')),
                     'market': m.group(4), 'maxed': 'Maxed' in body[:40],
                     'have': _n(nc.group(1)) if nc else None, 'cost': _n(nc.group(2)) if nc else None,
-                    'desc': (re.search(r'\n\n([^\n]+)\n', body) or [None, ''])[1]})
+                    'desc': next((x.strip() for x in body.split('\n') if x.strip() and x.strip() != 'Maxed'), '')})
     return out
 
 
@@ -98,7 +99,24 @@ def build():
             nm = m.group(1).strip()
             note = next((v for k, v in EXOTIC_SRC.items() if nm.startswith(k)), None)
             rot.append({'name': nm, 'lv': int(m.group(2).replace(',', '')), 'returns': m.group(3), 'desc': m.group(4), 'creator': note})
-    out = {'snapshot': SNAP.name, 'found': found, 'stacks': stacks, 'beans': beans, 'evo_base': base, 'evo_multi': multi,
+    # Night Market buys ranked by gain per share of beans (marginal % of each GMO's own effect, x stacks it applies to)
+    st_for = {'Evolution Gmo': 'Evolution GMO', 'Speed Gmo': 'Speed GMO', 'EXP Gmo': 'EXP GMO', 'Value Gmo': 'Value GMO', 'Super Gmo': 'Super GMO'}
+    wt = {'Super Gmo': 3, 'Evolution Gmo': 2}   # Pulse 2026-11: Super GMO most important; raise Evolution GMO for deeper crops
+    opts = []
+    for u in night:
+        if not u['cost']: continue
+        num = re.search(r'([\d.]+)(x|%)', u['desc']); gain = None
+        if num and u['lv']:
+            v = float(num.group(1)); per = (v - (1 if num.group(2) == 'x' else 0)) / u['lv']
+            if u['name'] in st_for:
+                k = stacks.get(st_for[u['name']], 0)
+                if num.group(2) == 'x': gain = 100 * (((v + per) / v) ** k - 1)
+                else: gain = 100 * per * k / (100 + v * k)
+            elif num.group(2) == 'x': gain = 100 * per / v
+        opts.append({'item': f"{u['name']} {u['lv']}/{u['max']}", 'currency': 'beans', 'balance': beans, 'cost': u['cost'], 'gain_pct': gain,
+                     'stat': u['desc'][:40], 'weight': wt.get(u['name'], 1)})
+    night_rank = spend.rank(opts).get('beans', [])
+    out = {'snapshot': SNAP.name, 'found': found, 'night_rank': night_rank, 'stacks': stacks, 'beans': beans, 'evo_base': base, 'evo_multi': multi,
            'evo_chance': chance, 'evo_gmo_x': gmo_x, 'per_stack': per_stack, 'stacks_for_next_crop': need_stacks,
            'under_200': [{'crop': i, 'family': fam(i)[0], 'have': v} for i, v in under],
            'family_stacks': fam_need, 'rank_unspent': unspent, 'rank_plan': plan,
@@ -125,10 +143,9 @@ def card_lines(o):
     if o['rank_unspent'] > 0:
         L.append(f"{o['rank_unspent']} Land Rank points unspent. Toolbox Rank Optimizer (Crop Evolution) puts points into: " +
                  ', '.join(f"{n} (now {a})" for n, a, b, _ in o['rank_plan'][:4]) + '. Pulse 2026-11: resetting and repushing the rank database raises next-crop chance.')
-    sg = next((u for u in o['night'] if u['name'] == 'Super Gmo'), None)
-    cheap = [u for u in o['night'] if u['cost'] and u['cost'] <= o['beans'] * 0.01]
-    L.append(f"Night Market: {o['beans']:,.0f} beans. " + (f"Super GMO {sg['lv']}/{sg['max']} next {sg['cost']:,.0f} (Pulse 2026-11: most important Night Market upgrade). " if sg else '') +
-             ('Cheap now (<1% of beans each, my read: buy): ' + ', '.join(f"{u['name']} {u['lv']} next {u['cost']:,.0f}" for u in cheap) if cheap else ''))
+    nr = o.get('night_rank', [])
+    L.append(f"Night Market ({o['beans']:,.0f} beans), best value first (gain per share of beans; Super GMO weighted up per Pulse 2026-11, Evolution GMO per Pulse): " +
+             ' > '.join(spend.fmt(x) + ('' if x['afford'] else ' (save up)') for x in nr) + '. GMO gains scale with stacks, so they rise as you hold crops.')
     blocked = [u for u in o['day'] if u['have'] is not None and u['cost'] and u['have'] < u['cost']]
     if blocked:
         L.append('Day Market is paid in crops; blocked now: ' + ', '.join(f"{u['name']} {u['lv']} (have {u['have']:,.0f} / {u['cost']:,.0f})" for u in blocked[:6]) + '. Holding crops unblocks these too.')

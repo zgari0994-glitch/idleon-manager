@@ -102,7 +102,8 @@ def card_lines(o):
     for c, g in o['links'].items(): lk.setdefault(g, []).append(c)
     L.append('Links (save): ' + '; '.join(f"{g}: {', '.join(cs)}" for g, cs in lk.items()) +
              (f". CONFLICT: Toolbox lists {', '.join(c for c, _ in o['purrmep_shown'])} under Purrmep; confirm in game." if o['purrmep_shown'] else ''))
-    L.append('GAP: best god per class/character is not in any tagged creator clip; links stay as-is until a source says otherwise.')
+    L.append("Links per Griffy (review list, sources/findings/review_list.md): 1 Elemental Sorcerer on Purrmep via the bottom-left Divinity talent (2x Divinity + EXP), "
+             "keep 1 on Harriep (3x printer), Arctis for the rest (talent levels + Lab mainframe), Snehebatu over Nobisect, Goharut for anyone in Lab tubes. Coral Kid 1 god choice: open.")
     if o['pts_x1']: L.append('Divinity PTS sources still x1: ' + ', '.join(o['pts_x1']))
     return L
 
