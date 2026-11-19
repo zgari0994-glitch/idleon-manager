@@ -392,17 +392,22 @@ for l in Y.get('locked', []):
                 if cd['name'] == feat_owner:
                     for b in cd['daily']:
                         if b['kind'] == 'unlock' and l['feature'] in b['block']: b['steps'].append(f"BLOCKED on {o_unlock}'s job")
-# ---------- sailing playbook (model/sailing.py) on the Sailing block ----------
-try:
-    import sailing as SAIL
-    _so = SAIL.build(); _sl = SAIL.card_lines(_so)
-    for _w, _ls in SAIL.routed(_so).items(): ROUTED.setdefault(_w, []).extend(_ls)
-    for cd in cards:
-        for b in cd['daily']:
-            if 'Sailing' in b['block']:
-                b['steps'] = _sl + [x for x in b['steps'] if 'Push:' in x or 'HOW:' in x or 'WHY:' in x]; b['kind'] = 'playbook'
-except Exception as e:
-    print('sailing planner failed:', e)
+# ---------- system planners (model/<system>.py: build() + card_lines(); optional routed()) ----------
+import importlib
+PLANNERS = [('sailing', 'Sailing'), ('farming', 'Farming')]   # (module, daily block name contains)
+for _mod, _blk in PLANNERS:
+    try:
+        _m = importlib.import_module(_mod)
+        _o = _m.build(); _sl = _m.card_lines(_o)
+        if hasattr(_m, 'routed'):
+            for _w, _ls in _m.routed(_o).items(): ROUTED.setdefault(_w, []).extend(_ls)
+        for cd in cards:
+            for b in cd['daily']:
+                if _blk in b['block']:
+                    b['steps'] = _sl + [x for x in b['steps'] if any(k in x for k in ('Push:', 'HOW:', 'WHY:', 'CREATORS:', 'READY', 'Collect'))]
+                    b['kind'] = 'playbook'
+    except Exception as e:
+        print(f'{_mod} planner failed:', e)
 for cd in cards:
     if PREREQ.get(cd['name']):
         cd['daily'].insert(1 if cd['daily'] and cd['daily'][0]['kind'] == 'move' else 0,

@@ -1136,8 +1136,16 @@
     },
     {
      "block": "Farming",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "TOP: hold 200+ of every crop you've found. Evolution GMO stacks 10/140 (x2.13 evo chance each). Lock crops before a bean trade so the trade can't take them to 0 (Griffy 2026-11 locks crops he needs; show-lock-all setting).",
+      "Why: open plots' next-crop chance is 5.6e-15 per harvest (base 1.4e-39 x multi 4.03e+24). ~44 more 200-stacks make it ~100%. Check: Toolbox Plot > Crop evolution breakdown, 'Evolution GMO' should climb from x4,304.",
+      "Stacks by family (200+ / found): Mushie 1/23, Earthy 3/25, Bulbo 2/15, Glassy 3/33, Sushi 1/23, Basic 0/21. Basic grows in 1m46s, so it's the fastest place to build stacks. Pulse 2026-11: farm the low-quantity families first, then Basic.",
+      "Other GMO stacks: Speed (1,000) 10, EXP (2,500) 10, Value (10,000) 10, Super (100,000) 6.",
+      "31 Land Rank points unspent. Toolbox Rank Optimizer (Crop Evolution) puts points into: Evolution Ultraboost (now 292), Evolution Superboost (now 291), Evolution Megaboost (now 285), Evolution Boost (now 295). Pulse 2026-11: resetting and repushing the rank database raises next-crop chance.",
+      "Night Market: 89,555 beans. Super GMO 42/50 next 183,000 (Pulse 2026-11: most important Night Market upgrade). Cheap now (<1% of beans each, my read: buy): Og Fertilizer 60 next 455, EXP Gmo 15 next 80",
+      "Day Market is paid in crops; blocked now: Stronger Vines 92 (have 0 / 52,800), Nutritious Soil 151 (have 797,000 / 28,000,000), Smarter Seeds 100 (have 0 / 28,600), Biology Boost 100 (have 0 / 47,600), Product Doubler 42 (have 0 / 11,000), More Beenz 55 (have 0 / 18,800). Holding crops unblocks these too.",
+      "Exotic Market: 4/4 purchases left, rotation ends in 6d 7h. Every exotic is Lv 0. Creator picks in this rotation: Geneology III (returns 6w, Pulse 2026-10: a few levels, it returns rarely); Sap Surge (returns 9w, Pulse 2026-10: strong, ~6th (Spelunking amber)) GAP: exotic cost per purchase not mapped yet.",
       "Collect all crops, replant",
       "Farming: CREATORS: Before Overgrowth, focus on crop discoveries and possibly additional plots. (Griffy 2026-10 @00:22:14)",
       "Farming: CREATORS: Develop farming and summoning before heavily pushing World 7 because World 6 skills accelerate account progress. (Griffy 2026-09 @00:20:44)",
@@ -3448,6 +3456,8 @@
       "Artifact odds 3,281x (no captain). Sources still at x1: Sticker, Nightmariner, Companion (Glimbo), Killroy Bonus, The Maw (Grid 106), Vial - Turtle Tisane, Purple Chest Slugs, Jelly Operator, Tome, Sneaking - Glowing Veil, Summoning - Vote Bonus, Companion (Magni Pufferfin)",
       "AFC captains: Q +323% (boat 18), N +289% (boat 6), O +272% (boat 15), J +208% (boat 10), T +182% (boat 17), R +162% (boat 19), C +144% (boat 3), A +119% (boat 1). Each +100% AFC = +8% odds.",
       "Shop captains with AFC: Cloud Discover Rate 10%/lv / Artifact Find Chance 12%/lv; Artifact Find Chance 14%/lv / Cloud Discover Rate 30%/lv (only worth it if a captain slot is free)",
+      "CREATORS: Wait for good sailing trades to support upgrades. (Griffy 2026-10 @00:28:38)",
+      "CREATORS: Prioritize sailing speed and artifact find chance because current sailing speed is very poor. (Griffy 2026-09 @00:59:32)",
       "Push: The Winz Lantern 3 -> 4",
       "Push: Anyone Minor Linked to Purrmep: +0.00% 0 -> 1",
       "Push: Moai HeadGet bonuses from all shrines from any map! You must be in same map/worl 5 -> 7"
