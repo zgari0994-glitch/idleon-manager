@@ -394,17 +394,20 @@ for l in Y.get('locked', []):
                         if b['kind'] == 'unlock' and l['feature'] in b['block']: b['steps'].append(f"BLOCKED on {o_unlock}'s job")
 # ---------- system planners (model/<system>.py: build() + card_lines(); optional routed()) ----------
 import importlib
-PLANNERS = [('sailing', 'Sailing'), ('farming', 'Farming'), ('cooking', 'Cooking'), ('divinity', 'Divinity'), ('breeding', 'Breeding')]   # (module, daily block name contains)
+PLANNERS = [('sailing', 'Sailing'), ('farming', 'Farming'), ('cooking', 'Cooking'), ('divinity', 'Divinity'), ('breeding', 'Breeding'), ('printer', 'prints'), ('alchemy', 'Alchemy')]   # (module, daily block name contains)
 for _mod, _blk in PLANNERS:
     try:
         _m = importlib.import_module(_mod)
         _o = _m.build(); _sl = _m.card_lines(_o)
         if hasattr(_m, 'routed'):
             for _w, _ls in _m.routed(_o).items(): ROUTED.setdefault(_w, []).extend(_ls)
+        _first = True
         for cd in cards:
             for b in cd['daily']:
                 if _blk in b['block']:
-                    b['steps'] = _sl + [x for x in b['steps'] if any(k in x for k in ('Push:', 'HOW:', 'WHY:', 'CREATORS:', 'READY', 'Collect'))]
+                    head = _m.char_lines(_o, cd['name']) + (_sl if _first else []) if hasattr(_m, 'char_lines') else _sl
+                    _first = False
+                    b['steps'] = head + [x for x in b['steps'] if any(k in x for k in ('Push:', 'HOW:', 'WHY:', 'CREATORS:', 'READY', 'Collect'))]
                     b['kind'] = 'playbook'
     except Exception as e:
         print(f'{_mod} planner failed:', e)
@@ -415,6 +418,10 @@ for cd in cards:
     if ROUTED.get(cd['name']):
         cd['daily'].insert(len(cd['daily']), {'block': 'Levers for other jobs', 'kind': 'lever', 'steps': ROUTED[cd['name']][:6]})
 # ---------- every_character jobs (Zack 2026-11-19): each card gets its own slice ----------
+try:
+    import printer as _P; _PO = json.load(open(os.path.join(R, 'model', 'printer.json')))
+except Exception:
+    pass
 EVERY = []
 _chars_facts = {c['character_name']: c for c in chars}
 for ej in Y.get('every_character', []):
@@ -433,6 +440,11 @@ for ej in Y.get('every_character', []):
         f = _chars_facts.get(cd['name'], {})
         if ej.get('facts') == 'prayers': steps.insert(0, f"Equipped: {', '.join(f.get('equipped_prayers') or []) or 'none'}")
         if ej.get('facts') == 'combat': steps.insert(0, f"Combat Lv {f.get('combat_level')}")
+        if ej.get('facts') == 'printer':
+            if any('prints' in b['block'] for b in cd['daily']): continue
+            try:
+                import printer as _P; steps = _P.char_lines(_PO, cd['name']) if '_PO' in globals() else []
+            except Exception: steps = []
         if steps: cd['daily'].append({'block': f"Every character: {ej['job']}", 'kind': 'every', 'steps': steps + ([f"({ej['note']})"] if ej.get('note') else [])})
     EVERY.append({'job': ej['job'], 'shared': shared[:12], 'note': ej.get('note', '')})
 

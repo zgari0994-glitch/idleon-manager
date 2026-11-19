@@ -1211,8 +1211,14 @@
     },
     {
      "block": "Fish prints",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "Printing: Skelefish (1.08e+07), Goldfish (1.12e+08) | samples held: Equinox Fish 2.18e+06, Goldfish 1.12e+08, Hermit Can 7.46e+07, Bloach 1.7e+07, Jellyfish 4.03e+07",
+      "Gold Relic 28/100 days (2.4x printer output, +5% per day, resets when you take a sample). Rule: don't take new samples until 100 days unless a sample target is worth the reset (my read; Gold Relic text is the source of the growth rule).",
+      "Atoms: 126,711.584/hr (prints over the 1.05B threshold feed atoms, so big stacks are not wasted).",
+      "1 print swaps toward needed materials (on each owner's prints block). Needs come from the material ledger (runouts, watch list, stamp materials).",
+      "Printer multi still x1: Supreme Wiring (event shop) 0/50 days, Yet Another Printer Multi (legend talent) 0/20 days, Moon of Print (compass) 6/100 days",
+      "AutoReview tier 8 needs one sample target: Oak Logs 4.42B -> 10B is the closest (2.3x). Taking that sample resets Gold Relic.",
       "CREATORS: Book talents before taking new printer samples. (Griffy 2026-10 @00:01:00)",
       "CREATORS: Food nonconsumption currently helps health food and preserves skilling food during sampling but becomes irrelevant later. (Griffy 2026-10 @00:03:02)",
       "Push: Goldfish 111.85M -> 150.0M"
@@ -2264,9 +2270,13 @@
    "daily": [
     {
      "block": "Alchemy",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
-      "Liquids: Equinox Liquidvestment 5 -> 11 first (approved 11/16)",
+      "TOP: sigils are AutoReview tier 1/8, the weakest Alchemy part. Only Autistachio charges a sigil (Pea Pod). One character charges ~64 points/hr (measured: Pea Pod +454 in 7.2h). Cheapest next levels for 1 character: Big Muscle 1.5h (-> +80), Pumped Kicks 2.3h (-> +80), Odd Litearture 3.1h (-> +80), Good Fortune 4.1h (-> +80), Plunging Sword 10.9h (-> +900).",
+      "Sources: Griffy 2026-01: sigils are not an early priority, finish unlocking bubbles first; sigil XP ballot needs sigils active. Griffy 2026-02 (sigil options): Loot Pile (more sailing chests = artifact rolls) and mob respawn. Pulse 2026-09 said the 11th character gives no sigil progress; your save shows Autistachio's Pea Pod gaining ~63/hr, so it works now.",
+      "Loot Pile sigil (Sailing chest capacity): undiscovered, 0/23,000 = 361.1h for 1 character (15 days). Pea Pod's next level (15,000) adds +100% in sigil speed group 1 (6.78x -> 7.78x, about +15% on every sigil).",
+      "Cauldron seats: Purple: Autiszemo, Autistabish; Green: Autistocat, Autistotle; Orange: Autisticles, Autistacular, Autistopher; Yellow: Autistastic, Autistomatic; Liquid Nitrogen: Autistronaut; Pea Pod: Autistachio. GAP: per-cauldron value vs a sigil seat is not modeled yet, so seat moves are your call.",
+      "Bubbles (tier 6/12): daily auto-levels 22 (Kattlekruk link) and 150 Grind Time (Coral Reef). Targets: Stronk Tools 284 -> 397; Multorange 123 -> 170; Dream Of Ironfish 78 -> 170; Warriors Rule (Printing!) 286 -> 450; Hearty Diggy 570 -> 900; Stronk Tools 284 -> 630; Multorange 123 -> 270; Dream Of Ironfish 78 -> 270. GAP: bubble costs are not on the Toolbox page text, so bubble buys are not efficiency-ranked yet.",
       "Bubbles: CREATORS: Focus Kill per Kill and Mr Massacre while preparing to push World 6. (Griffy 2026-11 @00:25:37)",
       "Bubbles: CREATORS: Make sure all bubbles are unlocked. (Griffy 2026-10 @00:09:40)",
       "Bubbles: Push: Stronk Tools 284 -> 397",
@@ -2365,6 +2375,14 @@
       "Autistocat- Kill 1M Choccies for W2 Weekly Boss (123.29K -> 1000K)",
       "Autistocat- Kill 1M Stiltmoles for W2 Weekly Boss (75.00K -> 1000K)",
       "(Any character may play active; what is best active for that character)"
+     ]
+    },
+    {
+     "block": "Every character: 3D Printer slots",
+     "kind": "every",
+     "steps": [
+      "Printing: Oak Logs (4.05e+09), Oak Logs (4.05e+09) | samples held: Oak Logs 4.05e+09, Bleach Logs 2.49e+09, Jungle Logs 1.69e+09, Potty Rolls 5.14e+08, Wispy Lumber 2.41e+08",
+      "(Every character has 2 print slots; owners of Fish/Bug/Ore/Log prints see this on their prints block)"
      ]
     }
    ],
@@ -3569,12 +3587,12 @@
     },
     {
      "block": "Bug prints",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "Printing: Fly (1.31e+08), Fly (1.31e+08) | samples held: Fly 1.31e+08, Butterfly 6.33e+07, Sentient Cereal 3.6e+07, Fruitfly 2.04e+07, Worker Bee 7.9e+06",
       "CREATORS: Book talents before taking new printer samples. (Griffy 2026-10 @00:01:00)",
       "CREATORS: Food nonconsumption currently helps health food and preserves skilling food during sampling but becomes irrelevant later. (Griffy 2026-10 @00:03:02)",
       "Push: Fly 131.29M -> 454.0M",
-      "Lever on Autistocat: Sample It bubble: +9.06/10%",
       "Push: Sailing: Level 4 Gold Relic:2.40x (28/100 days) 28 -> 100"
      ]
     },
@@ -3651,7 +3669,8 @@
       "Sailing artifact odds: Purple Chest Slugs is still x1 (Autisticles' artifact hunt)",
       "Sailing artifact odds: Button Bonus is still x1 (Autisticles' artifact hunt)",
       "Cooking plate cap (Zemo): Menagerie unlock 21: +10 max cooking LV, costs 29.75M Lumi and a higher Menagerie rank",
-      "Breeding (Tacular): Luminous Menagerie unlocks the Crucible (10x/20x cooking speed waves) and Shiny OverLVs (unlock 12)"
+      "Breeding (Tacular): Luminous Menagerie unlocks the Crucible (10x/20x cooking speed waves) and Shiny OverLVs (unlock 12)",
+      "Alchemy (Cat): Loot Pile sigil adds sailing chest capacity, 0/23,000 undiscovered"
      ]
     },
     {
@@ -5256,6 +5275,14 @@
       "Combat Lv 835",
       "(Each character has its own combat goals)"
      ]
+    },
+    {
+     "block": "Every character: 3D Printer slots",
+     "kind": "every",
+     "steps": [
+      "Printing: Copper Ore (1.3e+09), Godshard Ore (8.54e+06) | samples held: Copper Ore 1.3e+09, Iron Ore 7.14e+08, Gold Ore 3.57e+08, Dementia Ore 9.72e+07, Void Ore 7.04e+07",
+      "(Every character has 2 print slots; owners of Fish/Bug/Ore/Log prints see this on their prints block)"
+     ]
     }
    ],
    "buffs_missing": [
@@ -6501,6 +6528,14 @@
       "Autistabish- Kill 1M Choccies for W2 Weekly Boss (120.47K -> 1000K)",
       "(Any character may play active; what is best active for that character)"
      ]
+    },
+    {
+     "block": "Every character: 3D Printer slots",
+     "kind": "every",
+     "steps": [
+      "Printing: Oak Logs (3.5e+09), Effervescent Logs (1.1e+07) | samples held: Oak Logs 3.5e+09, Bleach Logs 1.41e+09, Forest Fibres 6.25e+08, Potty Rolls 2.91e+08, Tropilogs 4.52e+08",
+      "(Every character has 2 print slots; owners of Fish/Bug/Ore/Log prints see this on their prints block)"
+     ]
     }
    ],
    "buffs_missing": [
@@ -7490,6 +7525,14 @@
      "steps": [
       "Autistacular- Kill 1M Choccies for W2 Weekly Boss (125.12K -> 1000K)",
       "(Any character may play active; what is best active for that character)"
+     ]
+    },
+    {
+     "block": "Every character: 3D Printer slots",
+     "kind": "every",
+     "steps": [
+      "Printing: Spore Cap (1.44e+06), Spore Cap (1.44e+06) | samples held: Spore Cap 1.44e+06, Bullfrog Horn 2.38e+05, Pocket Sand 3.86e+05, Floof Ploof 1.73e+05, Cracked Glass 1.89e+05",
+      "(Every character has 2 print slots; owners of Fish/Bug/Ore/Log prints see this on their prints block)"
      ]
     }
    ],
@@ -8839,6 +8882,14 @@
       "Combat Lv 781",
       "(Each character has its own combat goals)"
      ]
+    },
+    {
+     "block": "Every character: 3D Printer slots",
+     "kind": "every",
+     "steps": [
+      "Printing: Spore Cap (1.2e+06), Spore Cap (1.2e+06) | samples held: Spore Cap 1.2e+06, Glublin Ear 2.71e+04, Snake Skin 2.96e+04",
+      "(Every character has 2 print slots; owners of Fish/Bug/Ore/Log prints see this on their prints block)"
+     ]
     }
    ],
    "buffs_missing": [
@@ -9259,8 +9310,9 @@
     },
     {
      "block": "Ore prints",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "Printing: Dreadlo Ore (1.81e+07), Prehistrium Ore (2.54e+06) | samples held: Copper Ore 1.34e+09, Iron Ore 7.32e+08, Gold Ore 3.66e+08, Platinum Ore 1.8e+08, Void Ore 7.2e+07",
       "CREATORS: Book talents before taking new printer samples. (Griffy 2026-10 @00:01:00)",
       "CREATORS: Food nonconsumption currently helps health food and preserves skilling food during sampling but becomes irrelevant later. (Griffy 2026-10 @00:03:02)",
       "Push: Copper Ore 1.34B -> 8.0B",
@@ -9947,8 +9999,9 @@
     },
     {
      "block": "Log prints",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "Printing: Oak Logs (4.42e+09), Oak Logs (4.42e+09) | samples held: Oak Logs 4.42e+09, Bleach Logs 2.69e+08, Jungle Logs 1.83e+08, Potty Rolls 5.55e+07, Wispy Lumber 2.6e+07",
       "CREATORS: Book talents before taking new printer samples. (Griffy 2026-10 @00:01:00)",
       "CREATORS: Food nonconsumption currently helps health food and preserves skilling food during sampling but becomes irrelevant later. (Griffy 2026-10 @00:03:02)",
       "Push: Oak Logs 4.42B -> 10.0B",
@@ -11283,6 +11336,15 @@
       "Autistopher- Kill 1M Crabcakes for W2 Weekly Boss (0.19K -> 1000K)",
       "(Any character may play active; what is best active for that character)"
      ]
+    },
+    {
+     "block": "Every character: 3D Printer slots",
+     "kind": "every",
+     "steps": [
+      "Printing: Firefly (5.82e+05), Firefly (5.82e+05) | samples held: Fly 9.95e+07, Butterfly 4.89e+06, Sentient Cereal 2.76e+06, Fruitfly 1.57e+06, Mosquisnow 9.81e+05",
+      "SWAP print Firefly -> Butterfly (sample 4.89e+06; Bag o Heads Stamp 120 -> 224 needs 1.77e+12 (have 2.88e+08)). Changing a print does not take a sample, so Gold Relic keeps its days.",
+      "(Every character has 2 print slots; owners of Fish/Bug/Ore/Log prints see this on their prints block)"
+     ]
     }
    ],
    "buffs_missing": [
@@ -11897,6 +11959,14 @@
       "Autistachio- Kill 1M Dedotated Rams for W2 Weekly Boss (261.58K -> 1000K)",
       "Autistachio- Kill 1M Choccies for W2 Weekly Boss (192.22K -> 1000K)",
       "(Any character may play active; what is best active for that character)"
+     ]
+    },
+    {
+     "block": "Every character: 3D Printer slots",
+     "kind": "every",
+     "steps": [
+      "No samples and no prints on this character: 2 print slots idle. Take samples on it (resets Gold Relic? unconfirmed per character; check before).",
+      "(Every character has 2 print slots; owners of Fish/Bug/Ore/Log prints see this on their prints block)"
      ]
     }
    ],
@@ -13209,6 +13279,11 @@
     "job": "Candy",
     "shared": [],
     "note": "Anyone, as long as the candy goes to that job efficiently"
+   },
+   {
+    "job": "3D Printer slots",
+    "shared": [],
+    "note": "Every character has 2 print slots; owners of Fish/Bug/Ore/Log prints see this on their prints block"
    }
   ],
   "loop": [

@@ -146,6 +146,7 @@ every_character:   # Zack 2026-11-19: systems every character considers in its o
   - {job: "Active play setup", sections: [Active], note: "Any character may play active; what is best active for that character"}
   - {job: "Drop rate", sections: [Drop Rate], note: "All need it; some drive it more"}
   - {job: Candy, sections: [Regular Candy, Variable Candy], note: "Anyone, as long as the candy goes to that job efficiently"}
+  - {job: "3D Printer slots", sections: [], facts: printer, note: "Every character has 2 print slots; owners of Fish/Bug/Ore/Log prints see this on their prints block"}
 
 unassigned:
 
