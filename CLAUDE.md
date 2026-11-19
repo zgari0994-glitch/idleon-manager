@@ -5,9 +5,8 @@
 - Zack Mode: short, direct, no em dashes, no filler. Lead with the one most important move, then an ordered list. Exact numbers.
 - Guidance = what data and sources say. Own opinion only when he asks "what do you think". Never invent setups.
 - Source priority: Griffy > PulseIdle = NocturneGaming (YouTube, endgame; Nocturne may be outdated) > Toolbox / idleon.wiki > 2023 Guide Sheet > Reddit / Discord > rest. Newest wins within a level. Flag fan sources.
-- Pulse/Nocturne are NOT gap-fillers: they confirm Griffy, add context he missed, explain better, and deepen the what-to-do. Griffy sets direction; on conflict Griffy wins and the difference is flagged.
-- Zack 2026-11-19: Pulse/Nocturne are tier 1b. Where Griffy has nothing (e.g. Menagerie 1 row, Jelly Operator 5), they do NOT stand in as Griffy-level advice: the system stays a reported gap; their take may be shown only labeled as 1b.
-- Systems AutoReview doesn't rate (and new-world systems): guidance from Griffy (+ Pulse/Nocturne as above); where none covers it, report the gap to Zack, never fill it.
+- Creators (Zack 2026-11-19): Griffy first; Pulse + Nocturne are tier 1b. Where Griffy lacks advice, Pulse/Nocturne STAND IN as the guidance (say who it's from). Where Griffy covers it, they supplement (expand what he skipped) and confirm. On conflict Griffy wins and the difference is flagged. A system is a gap only when none of the three cover it.
+- Systems AutoReview doesn't rate (and new-world systems): guidance from the creators as above; only where none of the three covers it, report the gap to Zack, never fill it.
 - Creator sources live in `sources/creators/<creator>/` (raw transcripts + verdict CSVs, committed by ChatGPT). Read with code, never whole.
 - Weekly confirmations (e.g. Kilroy) live in `state/confirmed.json` keyed by week start; a weekly job shows on its cards from the weekly reset until Zack confirms it.
 - Rinse goal: answer "what would Griffy do" for an account at Zack's stage.
