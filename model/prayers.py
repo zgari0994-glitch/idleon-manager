@@ -107,6 +107,16 @@ def card_lines(o):
     if buys: L.append('Safe prayer buys now (inside the reserve, AutoReview-recommended first): ' + ' > '.join(spend.fmt(x) for x in buys[:8]))
     held = [x for ops in o['ranked'].values() for x in ops if x['afford'] and x['share'] and x['share'] > SOUL_RESERVE_SHARE]
     if held: L.append('Held (over the reserve): ' + ', '.join(spend.fmt(x) for x in held[:4]))
+    try:
+        prot = json.load(open(ROOT / 'model' / 'protect.json'))
+        import rates
+        for x in buys + held:
+            if x['currency'] in prot:
+                pr_ = prot[x['currency']]
+                L.append(f"  {x['currency']} is on the greenstack protect list ({pr_['owned']:,.0f}, {pr_['need_for_stack']:,.0f} short of 10M). "
+                         f"Buying {x['item'].split(' ')[0]} spends {x['cost']:,.0f}; {rates.replace_line(x['currency'], x['cost'])}. Replace via {pr_['replace']}.")
+    except Exception:
+        pass
     L.append('Loadouts are fluid: each card shows its own prayers vs that character\'s task (AFK or active). Change prayers when the task changes.')
     return L
 
