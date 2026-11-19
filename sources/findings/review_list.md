@@ -21,4 +21,10 @@ Proposed links (to review):
 4. Snehebatu: Bish now; if Bish takes Purrmep, Snehebatu moves to whoever AFKs most.
 5. Goharut: any character that sits in Lab tubes while Divinity training.
 6. Coral Kid upgrade 1 (link a god to ALL): OPEN QUESTION, no source picks the god yet.
-Open: does Zack own King Doot / Pet Mart+ (Divinity PTS breakdown shows King Doot x1)?
+Save says has_king_doot = TRUE (printer data). Griffy 2026-02/09: Doot grants all minor link bonuses. OPEN: does that free the 8 Arctis links for other gods (Arctis minor = talent levels would still come via Doot)? Check what Doot covers in game before moving anyone. Divinity PTS breakdown shows 'Companion (King Doot) Pet Mart+ x1' (Pet Mart+ not active).
+
+## 2. Prayers: Royal Sampler on 10 characters
+AutoReview (Sampling): every character's printer sample rate is already at/over the 90% hardcap, 'Prayer not needed, you may remove'. 10 characters wear Royal Sampler.
+To review: which prayer replaces it per character (Prayers system build).
+
+## 3. Turtle Tisane vial (0 -> 13) shows up x1 in Sailing artifact odds, Kitchen speed and Sigil speed. One unlock, three systems.
