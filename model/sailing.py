@@ -279,7 +279,12 @@ def card_lines(o):
         L.append('Later (too costly per chest right now): ' + '; '.join(f"{x['island']}: " + ', '.join(t.split(' (')[0] for t in x['targets'][:2]) for x in o['later'][:6]))
     und = [a['name'] for a in o['artifacts'] if a['acq'] == 0]
     L.append(f"Never found ({len(und)}): {', '.join(und)}. The Maw (Fang, Nomenclature, Me First Dollar, Bloodclot) is locked: needs cloud discovery at 200B distance; fastest boat after swaps ~{max([w['speed'] for w in o['we_boats'].values()] or [0])/1e9:.1f}B = {200e9/max([w['speed'] for w in o['we_boats'].values()] or [1])/1:.0f}h per trip. GAP: cloud discovery math not mapped yet.")
-    if not o.get('purrmep_linked'): L.append("Speed for every boat: nobody is Minor Linked to Purrmep in Divinity (+speed group A). Ballot 'Sailing Speed 2.01x' halves World's End trips the week it's up.")
+    try:
+        pm = json.load(open(ROOT / 'model' / 'divinity.json')).get('purrmep_shown') or []
+    except Exception:
+        pm = []
+    L.append((f"Purrmep minor link (boat speed): Toolbox shows {', '.join(c for c, _ in pm)} linked (+{pm[0][1]}%); AutoReview reads none, confirm in game. " if pm else
+              "Speed for every boat: nobody is Minor Linked to Purrmep in Divinity (+speed group A). ") + "Ballot 'Sailing Speed 2.01x' halves World's End trips the week it's up.")
     L.append(f"Artifact odds {o['base_odds']:,.0f}x (no captain). Sources still at x1: {', '.join(o['odds_missing_multipliers'][:12])}")
     afc = [c for c in o['captains'] if c['afc']]
     L.append('AFC captains: ' + ', '.join(f"{c['captain']} +{c['afc']:g}% (boat {c['boat']})" for c in afc) + f". Each +100% AFC = +{100 / (100 + o['additive_wo_captain']) * 100:.0f}% odds.")
