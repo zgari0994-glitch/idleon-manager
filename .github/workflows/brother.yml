@@ -35,6 +35,13 @@ jobs:
           git diff --cached --quiet && { echo "nothing new"; exit 0; }
           git commit -q -m "brother: refresh $(cat accounts/brother/snapshots/LATEST)"
           for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done; exit 1
+      - name: Check upload token (prints status only)
+        env: {T: "${{ secrets.UPLOAD_GH_TOKEN }}"}
+        run: |
+          [ -n "$T" ] || { echo "UPLOAD_GH_TOKEN is EMPTY or missing"; exit 1; }
+          code=$(curl -s -o /dev/null -w '%{http_code}' -H "Authorization: Bearer $T" -H "User-Agent: check" https://api.github.com/repos/${{ github.repository }}/contents/accounts/brother/inbox/raw.json.gz)
+          echo "UPLOAD_GH_TOKEN length ${#T}, GitHub answered $code (200 = good)"
+          [ "$code" = 200 ] || exit 1
       - name: Deploy to Cloudflare Pages
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
