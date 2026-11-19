@@ -36,8 +36,8 @@ def build():
         for x in L.get('runout', []): need[x['item']] = f"runs out in {x['runout_days']:.1f} days"
         for x in L.get('watch', []): need.setdefault(x['item'], x['why'][:70])
         for s in L.get('stamps', []):
-            if s.get('total_mat') and s.get('owned') is not None and s['owned'] < s['total_mat']:
-                need.setdefault(s['material'], f"{s['stamp']} {s['level']} -> {s['target']} needs {s['total_mat']:.3g} (have {s['owned']:.3g})")
+            if s.get('next_raise') and s.get('owned') is not None and s['owned'] < s['next_raise']:   # only the NEXT raise counts as a need
+                need.setdefault(s['material'], f"{s['stamp']} next max raise needs {s['next_raise']:.3g} (have {s['owned']:.3g})")
     except Exception:
         pass
     # never swap away from AutoReview sample-target items (Oak, Copper, Goldfish, Fly, Spore Cap): Griffy prints for refinery/salts too
@@ -58,7 +58,26 @@ def build():
             m = re.search(k + r'\n([^\n]+)', T); tb[k] = m and m.group(1)
     except Exception:
         pass
-    out = {'snapshot': SNAP.name, 'per_char': per, 'needs': need, 'swaps': swaps, 'gold_relic': (pr.get('gold_relic_days'), pr.get('gold_relic_max_days'), pr.get('gold_relic_multi')),
+    # print buffs from AutoReview Sampling sources, closest to done first (Zack: push the close ones before print day)
+    close = []
+    try:
+        rv = json.load(gzip.open(SNAP / 'review.json.gz'))
+        for w in rv['worlds']:
+            for sec in (w.get('sections') or []):
+                if sec.get('name') != 'Sampling': continue
+                for g in sec['groups']:
+                    if not g['name'].startswith('Sources'): continue
+                    for it in g['items']:
+                        for x in it.get('items', []):
+                            if x.get('completed') or x['label'].startswith(('Autis', 'Prayer')): continue
+                            c = re.findall(r'[\d.]+', str(x['cur'])); gl = re.findall(r'[\d.]+', str(x['goal']))
+                            if c and gl and float(gl[0]) > 0:
+                                f = float(c[0]) / float(gl[0])
+                                if f < 1: close.append({'label': x['label'][:90], 'cur': x['cur'], 'goal': x['goal'], 'frac': round(f, 2)})
+        close.sort(key=lambda x: -x['frac'])
+    except Exception:
+        pass
+    out = {'snapshot': SNAP.name, 'per_char': per, 'close_buffs': close, 'needs': need, 'swaps': swaps, 'gold_relic': (pr.get('gold_relic_days'), pr.get('gold_relic_max_days'), pr.get('gold_relic_multi')),
            'x1': {'Supreme Wiring (event shop)': (pr.get('supreme_wiring_days'), 50), 'Yet Another Printer Multi (legend talent)': (pr.get('yet_another_printer_multi_days'), 20),
                   'Moon of Print (compass)': (pr.get('moon_of_print_days'), 100)}, 'tb': tb, 'doot': pr.get('has_king_doot')}
     json.dump(out, open(ROOT / 'model' / 'printer.json', 'w'), indent=1)
@@ -86,6 +105,8 @@ def card_lines(o):
     L.append((f"{len(sw)} print swaps toward needed materials (on each owner's prints block). " if sw else 'No print swaps: every slot either prints a needed item or no needed item is in that character\'s samples. ') +
              'Needs come from the material ledger (runouts, watch list, stamp materials).')
     L.append('Printer multi still x1: ' + ', '.join(f"{k} {a}/{b} days" for k, (a, b) in o['x1'].items() if (a or 0) < b))
+    cb = o.get('close_buffs') or []
+    if cb: L.append('Print buffs to push before print day (closest first): ' + '; '.join(f"{x['label']} ({x['cur']} -> {x['goal']})" for x in cb[:6]))
     L.append("AutoReview tier 8 needs one sample target: Oak Logs 4.42B -> 10B is the closest (2.3x). Taking that sample resets Gold Relic.")
     return L
 

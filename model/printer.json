@@ -338,32 +338,62 @@
    "printing": []
   }
  },
+ "close_buffs": [
+  {
+   "label": "Rift: Skill Mastery: base 7%Additional 1% per Skill at 750: 12/18%",
+   "cur": "19%",
+   "goal": "25%",
+   "frac": 0.76
+  },
+  {
+   "label": "Sample It bubble: +9.06/10%",
+   "cur": "123",
+   "goal": "200",
+   "frac": 0.61
+  },
+  {
+   "label": "Sailing: Level 4 Gold Relic:2.40x (28/100 days)",
+   "cur": "28",
+   "goal": "100",
+   "frac": 0.28
+  },
+  {
+   "label": "Compass: Nomadic-3: Moon of Print: 1.12x (6/100 days)",
+   "cur": "6",
+   "goal": "100",
+   "frac": 0.06
+  },
+  {
+   "label": "Arcade Bonus 5: +0/8.04% Sample Size",
+   "cur": "0",
+   "goal": "101",
+   "frac": 0.0
+  },
+  {
+   "label": "Event Shop: Supreme Wiring:1.00x (0/50 days)",
+   "cur": "0",
+   "goal": "50",
+   "frac": 0.0
+  },
+  {
+   "label": "Legend Talent: Yet Another Printer Multi (Lv 0/2):1.00x (0/20 days)",
+   "cur": "0",
+   "goal": "20",
+   "frac": 0.0
+  }
+ ],
  "needs": {
   "Skelefish": "runs out in 1.9 days",
   "Tangled Cords": "Dream of Ironfish 68 -> 70 (exact cost: check bubble cost)",
   "Void Bar": "ran out before (Zack); construction/printer use",
   "Copper Bar": "Barium Mixture 12 -> 13 needs 1B Copper Bars (Toolbox map finding)",
-  "Golden Nomwich": "Golden Apple Stamp 64 -> 100 needs 1.1e+07 (have 4e+05)",
-  "Butterfly": "Bag o Heads Stamp 120 -> 224 needs 1.77e+12 (have 2.88e+08)",
-  "Carrot Cube": "Choppin' Bag Stamp 190 -> 330 needs 6.64e+12 (have 8.46e+08)",
-  "Sand Shark": "Ladle Stamp 160 -> 180 needs 7.82e+07 (have 6.85e+07)",
-  "Pocket Sand": "Drippy Drop Stamp 95 -> 110 needs 3.51e+09 (have 1.02e+09)",
-  "Hermit Can": "Bugsack Stamp 120 -> 224 needs 1.77e+12 (have 3.75e+07)",
-  "Glass Shard": "Mason Jar Stamp 84 -> 160 needs 1.64e+08 (have 8.73e+03)",
-  "Jungle Logs": "Lil' Mining Baggy Stamp 210 -> 310 needs 1.54e+12 (have 5.85e+07)",
-  "Dust Mote": "Multitool Stamp 180 -> 210 needs 2.58e+11 (have 1.05e+09)",
-  "Cramped Material Pouch": "Matty Bag Stamp 200 -> 410 needs 1.84e+05 (have 0)",
-  "Icing Ironbite": "Potion Stamp 45 -> 60 needs 3.65e+06 (have 0)"
+  "Glass Shard": "Mason Jar Stamp next max raise needs 1.74e+04 (have 8.73e+03)",
+  "Jungle Logs": "Lil' Mining Baggy Stamp next max raise needs 8.84e+08 (have 5.85e+07)",
+  "Dust Mote": "Multitool Stamp next max raise needs 2.57e+10 (have 1.05e+09)",
+  "Cramped Material Pouch": "Matty Bag Stamp next max raise needs 149 (have 0)",
+  "Icing Ironbite": "Potion Stamp next max raise needs 2.92e+05 (have 0)"
  },
- "swaps": [
-  {
-   "char": "Autistopher",
-   "from": "Firefly",
-   "to": "Butterfly",
-   "sample": 4891359.04013447,
-   "why": "Bag o Heads Stamp 120 -> 224 needs 1.77e+12 (have 2.88e+08)"
-  }
- ],
+ "swaps": [],
  "gold_relic": [
   28,
   100,

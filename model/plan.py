@@ -394,7 +394,7 @@ for l in Y.get('locked', []):
                         if b['kind'] == 'unlock' and l['feature'] in b['block']: b['steps'].append(f"BLOCKED on {o_unlock}'s job")
 # ---------- system planners (model/<system>.py: build() + card_lines(); optional routed()) ----------
 import importlib
-PLANNERS = [('sailing', 'Sailing'), ('farming', 'Farming'), ('cooking', 'Cooking'), ('divinity', 'Divinity'), ('breeding', 'Breeding'), ('printer', 'prints'), ('alchemy', 'Alchemy')]   # (module, daily block name contains)
+PLANNERS = [('sailing', 'Sailing'), ('farming', 'Farming'), ('cooking', 'Cooking'), ('divinity', 'Divinity'), ('breeding', 'Breeding'), ('printer', 'prints'), ('alchemy', 'Alchemy'), ('stamps', 'Stamps')]   # (module, daily block name contains)
 for _mod, _blk in PLANNERS:
     try:
         _m = importlib.import_module(_mod)
@@ -438,7 +438,13 @@ for ej in Y.get('every_character', []):
     for cd in cards:
         steps = list(dict.fromkeys(per.get(cd['name'], [])))[:4]
         f = _chars_facts.get(cd['name'], {})
-        if ej.get('facts') == 'prayers': steps.insert(0, f"Equipped: {', '.join(f.get('equipped_prayers') or []) or 'none'}")
+        if ej.get('facts') == 'prayers':
+            try:
+                import prayers as _PR
+                if '_PRO' not in globals(): _PRO = _PR.build(); EVERY_SHARED_EXTRA = _PR.card_lines(_PRO)
+                steps = _PR.char_lines(_PRO, cd['name']) + steps
+            except Exception as e:
+                steps.insert(0, f"Equipped: {', '.join(f.get('equipped_prayers') or []) or 'none'} (prayers planner failed: {e})")
         if ej.get('facts') == 'combat': steps.insert(0, f"Combat Lv {f.get('combat_level')}")
         if ej.get('facts') == 'printer':
             if any('prints' in b['block'] for b in cd['daily']): continue
@@ -446,7 +452,8 @@ for ej in Y.get('every_character', []):
                 import printer as _P; steps = _P.char_lines(_PO, cd['name']) if '_PO' in globals() else []
             except Exception: steps = []
         if steps: cd['daily'].append({'block': f"Every character: {ej['job']}", 'kind': 'every', 'steps': steps + ([f"({ej['note']})"] if ej.get('note') else [])})
-    EVERY.append({'job': ej['job'], 'shared': shared[:12], 'note': ej.get('note', '')})
+    if ej.get('facts') == 'prayers' and 'EVERY_SHARED_EXTRA' in globals(): shared = EVERY_SHARED_EXTRA + shared
+    EVERY.append({'job': ej['job'], 'shared': shared[:14], 'note': ej.get('note', '')})
 
 # ---------- account block ----------
 alerts = []

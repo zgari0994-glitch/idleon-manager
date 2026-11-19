@@ -1216,8 +1216,9 @@
       "Printing: Skelefish (1.08e+07), Goldfish (1.12e+08) | samples held: Equinox Fish 2.18e+06, Goldfish 1.12e+08, Hermit Can 7.46e+07, Bloach 1.7e+07, Jellyfish 4.03e+07",
       "Gold Relic 28/100 days (2.4x printer output, +5% per day, resets when you take a sample). Rule: don't take new samples until 100 days unless a sample target is worth the reset (my read; Gold Relic text is the source of the growth rule).",
       "Atoms: 126,711.584/hr (prints over the 1.05B threshold feed atoms, so big stacks are not wasted).",
-      "1 print swaps toward needed materials (on each owner's prints block). Needs come from the material ledger (runouts, watch list, stamp materials).",
+      "No print swaps: every slot either prints a needed item or no needed item is in that character's samples. Needs come from the material ledger (runouts, watch list, stamp materials).",
       "Printer multi still x1: Supreme Wiring (event shop) 0/50 days, Yet Another Printer Multi (legend talent) 0/20 days, Moon of Print (compass) 6/100 days",
+      "Print buffs to push before print day (closest first): Rift: Skill Mastery: base 7%Additional 1% per Skill at 750: 12/18% (19% -> 25%); Sample It bubble: +9.06/10% (123 -> 200); Sailing: Level 4 Gold Relic:2.40x (28/100 days) (28 -> 100); Compass: Nomadic-3: Moon of Print: 1.12x (6/100 days) (6 -> 100); Arcade Bonus 5: +0/8.04% Sample Size (0 -> 101); Event Shop: Supreme Wiring:1.00x (0/50 days) (0 -> 50)",
       "AutoReview tier 8 needs one sample target: Oak Logs 4.42B -> 10B is the closest (2.3x). Taking that sample resets Gold Relic.",
       "CREATORS: Book talents before taking new printer samples. (Griffy 2026-10 @00:01:00)",
       "CREATORS: Food nonconsumption currently helps health food and preserves skilling food during sampling but becomes irrelevant later. (Griffy 2026-10 @00:03:02)",
@@ -1246,7 +1247,10 @@
      "block": "Every character: Prayers",
      "kind": "every",
      "steps": [
-      "Equipped: Skilled Dimwit, The Royal Sampler, Shiny Snitch",
+      "Equipped now: Skilled Dimwit, The Royal Sampler, Shiny Snitch. Task: ZOW/CHOW targets W1-W6 (Death Note kills) Farming Cooking Grimoire + Wraith Form (bones) P",
+      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP) (Griffy (drop rate/EXP prayers until 200 crit))",
+      "Royal Sampler: keep until print day (it only unequips by clearing samples).",
+      "CHECK: Shiny Snitch is on, but this character's task isn't trapping. It only pays while trapping and its curse lowers shiny chance (prayer text).",
       "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
      ]
     },
@@ -2357,7 +2361,11 @@
      "block": "Every character: Prayers",
      "kind": "every",
      "steps": [
-      "Equipped: Skilled Dimwit, The Royal Sampler, Shiny Snitch",
+      "Equipped now: Skilled Dimwit, The Royal Sampler, Shiny Snitch. Task: Active-first class (master class progress is active-only without its AFK mechanic). Runs C",
+      "giant-monster prayers: remove before the weekly reset so giant-kill quests still count (Griffy 2026-11)",
+      "Unending Energy: +Class & Skill EXP, but AFK caps at 10h: only when you claim within 10h (prayer text)",
+      "Royal Sampler: keep until print day (it only unequips by clearing samples).",
+      "CHECK: Shiny Snitch is on, but this character's task isn't trapping. It only pays while trapping and its curse lowers shiny chance (prayer text).",
       "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
      ]
     },
@@ -3678,7 +3686,10 @@
      "block": "Every character: Prayers",
      "kind": "every",
      "steps": [
-      "Equipped: Skilled Dimwit, The Royal Sampler, Shiny Snitch",
+      "Equipped now: Skilled Dimwit, The Royal Sampler, Shiny Snitch. Task: His best kills/hr map: Melting Every Day turns AFK kills into forge progress (bars). Feeds",
+      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP) (Griffy (drop rate/EXP prayers until 200 crit))",
+      "Royal Sampler: keep until print day (it only unequips by clearing samples).",
+      "CHECK: Shiny Snitch is on, but this character's task isn't trapping. It only pays while trapping and its curse lowers shiny chance (prayer text).",
       "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
      ]
     },
@@ -5265,7 +5276,10 @@
      "block": "Every character: Prayers",
      "kind": "every",
      "steps": [
-      "Equipped: Skilled Dimwit, Shiny Snitch, The Royal Sampler, Vacuous Tissue",
+      "Equipped now: Skilled Dimwit, Shiny Snitch, The Royal Sampler, Vacuous Tissue. Task: Cavern 15 Temple (Ancient Golems): Dragon Statue 4 -> 150 + golem card Construction Gaming",
+      "giant-monster prayers: remove before the weekly reset so giant-kill quests still count (Griffy 2026-11)",
+      "Royal Sampler: keep until print day (it only unequips by clearing samples).",
+      "CHECK: Shiny Snitch is on, but this character's task isn't trapping. It only pays while trapping and its curse lowers shiny chance (prayer text).",
       "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
      ]
     },
@@ -6508,7 +6522,10 @@
      "block": "Every character: Prayers",
      "kind": "every",
      "steps": [
-      "Equipped: Skilled Dimwit, The Royal Sampler, Shiny Snitch",
+      "Equipped now: Skilled Dimwit, The Royal Sampler, Shiny Snitch. Task: Penguins (Box Statue 25 -> 40), then Cryosnakes (Seesaw 25 -> 40). Candy or Active ES Wors",
+      "Unending Energy: +Class & Skill EXP, but AFK caps at 10h: only when you claim within 10h (prayer text)",
+      "Royal Sampler: keep until print day (it only unequips by clearing samples).",
+      "CHECK: Shiny Snitch is on, but this character's task isn't trapping. It only pays while trapping and its curse lowers shiny chance (prayer text).",
       "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
      ]
     },
@@ -7508,7 +7525,13 @@
      "block": "Every character: Prayers",
      "kind": "every",
      "steps": [
-      "Equipped: The Royal Sampler, Shiny Snitch, Skilled Dimwit",
+      "Equipped now: The Royal Sampler, Shiny Snitch, Skilled Dimwit. Task: W7: push the cave until his tasks are planned Sneaking Breeding Trapping (collect + set) C",
+      "Skilled Dimwit + Unending Energy: equip while PLACING traps, unequip after (snapshotted) (Griffy (traps clip))",
+      "Shiny Snitch: only while trapping (bundles of shiny critters; curse lowers shiny chance) (prayer text)",
+      "giant-monster prayers: remove before the weekly reset so giant-kill quests still count (Griffy 2026-11)",
+      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP) (Griffy (drop rate/EXP prayers until 200 crit))",
+      "Royal Sampler: keep until print day (it only unequips by clearing samples).",
+      "CHECK: Skilled Dimwit (+skill efficiency, -skill EXP) on a fighting task.",
       "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
      ]
     },
@@ -8872,7 +8895,10 @@
      "block": "Every character: Prayers",
      "kind": "every",
      "steps": [
-      "Equipped: The Royal Sampler, Skilled Dimwit, Shiny Snitch",
+      "Equipped now: The Royal Sampler, Skilled Dimwit, Shiny Snitch. Task: Lab (Maestro Lab catch-up) Secret Class Path (Vman) Maestro: #1 in every skill Research Gr",
+      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP) (Griffy (drop rate/EXP prayers until 200 crit))",
+      "Royal Sampler: keep until print day (it only unequips by clearing samples).",
+      "CHECK: Shiny Snitch is on, but this character's task isn't trapping. It only pays while trapping and its curse lowers shiny chance (prayer text).",
       "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
      ]
     },
@@ -9372,7 +9398,9 @@
      "block": "Every character: Prayers",
      "kind": "every",
      "steps": [
-      "Equipped: Skilled Dimwit, The Royal Sampler",
+      "Equipped now: Skilled Dimwit, The Royal Sampler. Task: W7 Spelunking: furthest tunnel (RG perks help spelunking; Pulse: Pit of Pages works for RG",
+      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP) (Griffy (drop rate/EXP prayers until 200 crit))",
+      "Royal Sampler: keep until print day (it only unequips by clearing samples).",
       "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
      ]
     },
@@ -10044,7 +10072,9 @@
      "block": "Every character: Prayers",
      "kind": "every",
      "steps": [
-      "Equipped: Shiny Snitch, The Royal Sampler, Skilled Dimwit",
+      "Equipped now: Shiny Snitch, The Royal Sampler, Skilled Dimwit. Task: AFK spot = GAP (was spelunking; moved to Autistomatic 11/18) Cards Log prints Lab #2",
+      "Royal Sampler: keep until print day (it only unequips by clearing samples).",
+      "CHECK: Shiny Snitch is on, but this character's task isn't trapping. It only pays while trapping and its curse lowers shiny chance (prayer text).",
       "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
      ]
     },
@@ -11219,8 +11249,21 @@
     },
     {
      "block": "Stamps",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "TOP: 1 exalt unspent (2/3 used). AutoReview's recommended order: Summoner Stone Stamp, Multitool Stamp, Matty Bag Stamp, Golden Sixes Stamp.",
+      "Total stamp levels 9565 -> 11000 for AutoReview tier 18.",
+      "Capped by max level (raise with materials):",
+      "  Drippy Drop Stamp 95/95 -> 110 [To reach Tier 16]: next max raise 432M Pocket Sand (have 995M, OK)",
+      "  Ladle Stamp 160/160 -> 180 [To reach Tier 16]: next max raise 25.2M Sand Shark (have 68.5M, OK)",
+      "  Bugsack Stamp 120/120 -> 168 [To reach Tier 17]: next max raise 33.4M Hermit Can (have 37.5M, OK)",
+      "  Bag o Heads Stamp 120/120 -> 168 [To reach Tier 17]: next max raise 33.4M Butterfly (have 288M, OK) - Butterfly also printer prints (Bug prints)",
+      "  Multitool Stamp 180/180 -> 210 [To reach Tier 17]: next max raise 25.7B Dust Mote (have 1.05B, SHORT)",
+      "  Potion Stamp 45/45 -> 60 [To reach Tier 17]: next max raise 292K Icing Ironbite (have 0, SHORT)",
+      "  Mason Jar Stamp 84/84 -> 88 [To reach Tier 18]: next max raise 17.4K Glass Shard (have 8.74K, SHORT)",
+      "  Matty Bag Stamp 200/200 -> 280 [To reach Tier 18]: next max raise 149 Cramped Material Pouch (have 0, SHORT)",
+      "  Golden Apple Stamp 80/80 -> 100 [To reach Tier 18]: next max raise 446K Golden Nomwich (have 106K, SHORT)",
+      "Resource rule (Zack): stamp materials that other systems also use are flagged; if a stamp pushes a priority section (Cooking speed now), focus it first. Envelope Pile sigil cuts max-raise costs (-48% at its next level, Alchemy).",
       "CREATORS: Capitalist Stamp is a rare drop from World 6 monsters. (Griffy 2026-11 @00:08:59)",
       "CREATORS: Farm Sand Castle materials rapidly on Elemental Sorcerer or print them for stamp upgrades. (Griffy 2026-10 @00:41:50)",
       "Push: Total Stamp Levels 9565 -> 11000",
@@ -11318,7 +11361,9 @@
      "block": "Every character: Prayers",
      "kind": "every",
      "steps": [
-      "Equipped: Skilled Dimwit, Balance of Precision, The Royal Sampler",
+      "Equipped now: Skilled Dimwit, Balance of Precision, The Royal Sampler. Task: His own Super CHOWs (100M) Super CHOWs (cooking speed 1.1x each, count only on him) Stamps",
+      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP) (Griffy (drop rate/EXP prayers until 200 crit))",
+      "Royal Sampler: keep until print day (it only unequips by clearing samples).",
       "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
      ]
     },
@@ -11343,7 +11388,6 @@
      "kind": "every",
      "steps": [
       "Printing: Firefly (5.82e+05), Firefly (5.82e+05) | samples held: Fly 9.95e+07, Butterfly 4.89e+06, Sentient Cereal 2.76e+06, Fruitfly 1.57e+06, Mosquisnow 9.81e+05",
-      "SWAP print Firefly -> Butterfly (sample 4.89e+06; Bag o Heads Stamp 120 -> 224 needs 1.77e+12 (have 2.88e+08)). Changing a print does not take a sample, so Gold Relic keeps its days.",
       "(Every character has 2 print slots; owners of Fish/Bug/Ore/Log prints see this on their prints block)"
      ]
     }
@@ -11939,7 +11983,9 @@
      "block": "Every character: Prayers",
      "kind": "every",
      "steps": [
-      "Equipped: none",
+      "Equipped now: none. Task: Divinity (Divinity slippers) Divinity to 40 Monuments (after Divinity) Traps Gallery + cap",
+      "Skilled Dimwit + Unending Energy: equip while PLACING traps, unequip after (snapshotted) (Griffy (traps clip))",
+      "Shiny Snitch: only while trapping (bundles of shiny critters; curse lowers shiny chance) (prayer text)",
       "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
      ]
     },
@@ -13202,6 +13248,12 @@
    {
     "job": "Prayers",
     "shared": [
+     "PRINT DAY plan (Royal Sampler, worn by 10): it unequips only by clearing samples, so dropping it = full resample day. Pulse 2026-10: statue week is the yearly resample time (copper prints first). Gold Relic is 28/100 days and resets on a sample, so print day = statue week or day 100.",
+     "Before print day (Griffy): book talents first (2026-10), Voidwalker in speedrun form while sampling (2026-08), keep Maestro's skills above the others (Right Hand, 2026-09), multi-resource bubbles (Sploosh Sploosh, Bug Squared, Molto Loggo, 2026-07), Island stamp toward 90% sample size (2026-10), extra sample slots (gems, 2026-10). Griffy 2026-10: the Royal Sampler EXP curse is additive (10x EXP becomes ~9.4x, not 4x), so waiting costs less than the -87% reads.",
+     "Souls: Forest 12.3M, Dune 9.13M, Rooted 3.03M, Frigid 6.58M, Squishy 1.09M. Reserve rule (my read until salt/stamp/vial soul needs are modeled): a prayer buy may use at most 5% of that soul type. Souls also feed stamps, vials (Sippy Soul), bubbles and your salt chain.",
+     "Safe prayer buys now (inside the reserve, AutoReview-recommended first): Jawbreaker 0/50 (+40% Coins from Monsters, next 1.5K, 0.0164% of balance) [AutoReview 0 -> 50] > Zerg Rushogen 0/20 (+5% AFK Gain Rate, next 3K, 0.0244% of balance) [AutoReview 0 -> 20] > Ruck Sack 0/50 (+30% Carry Capacity, next 4.5K, 0.149% of balance) [AutoReview 0 -> 50] > Big Brain Time 1/50 (+30% Class EXP, next 500, 0.00407% of balance) [AutoReview 1 -> 50] > Fibers of Absence 1/50 (+30% Kills for Deathnote and opening por, next 552, 0.00839% of balance) [AutoReview 1 -> 50] > Beefy For Real 0/40 (+20% Total Damage, next 5K, 0.076% of balance) [AutoReview 0 -> 40] > Antifun Spirit 1/10 (+700% Minigame Reward Multi, next 3.24K, 0.107% of balance) > Circular Criticals 1/20 (+10% Critical Hit Chance, next 10.9K, 0.36% of balance)",
+     "Held (over the reserve): Unending Energy 40/50 (+123% Class and Skill EXP, next 1.43M, 11.6% of balance) [AutoReview 40 -> 50], Midas Minded 35/50 (+88% Drop Rate, next 1.02M, 11.2% of balance) [AutoReview 35 -> 50]",
+     "Loadouts are fluid: each card shows its own prayers vs that character's task (AFK or active). Change prayers when the task changes.",
      "Prayers: Midas Minded (35 -> 50)",
      "Prayers: Zerg Rushogen (0 -> 20)",
      "Prayers: Jawbreaker (0 -> 50)",
@@ -13209,8 +13261,7 @@
      "Prayers: Unending Energy (40 -> 50)",
      "Prayers: Big Brain Time (1 -> 50)",
      "Prayers: Fibers of Absence (1 -> 50)",
-     "Prayers: Beefy For Real (0 -> 40)",
-     "Prayers: Glitterbug (0 -> 25)"
+     "Prayers: Beefy For Real (0 -> 40)"
     ],
     "note": "Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling)"
    },
@@ -13228,7 +13279,9 @@
      "Smithing: 8,232 Lustre Bars.73 cap to next bar (177 -> 250)",
      "Smithing: 20,581 Void Bars.23 cap to next bar (77 -> 100)",
      "Smithing: 51,454 Dementia Bars.23 cap to next bar (17 -> 40)",
-     "Smithing: 128,636 Platinum Bars.15 cap to next bar (1 -> 16)"
+     "Smithing: 128,636 Platinum Bars.15 cap to next bar (1 -> 16)",
+     "Smithing: 294,025 Gold Bars.5 cap to next bar (2 -> 7)",
+     "Smithing: 514,544 Iron Bars.3 cap to next bar (1 -> 4)"
     ],
     "note": "Zack: archers may be best, but every character considers smithing"
    },
@@ -13251,7 +13304,9 @@
      "Active: Blunder Hills- Poop card:+60/70% Crystal Mob Spawn Chance (6 -> 7)",
      "Active: Smolderin' Plateau- Mister Brightside card:+36/42% Total Drop Rate (6 -> 7)",
      "Active: Frostbite Tundra- Bop Box card:+21/24.5% Total Drop Rate (6 -> 7)",
-     "Active: Bosses n Nightmares- Chaotic Troll card:+60/70% All Skill Efficiency (6 -> 7)"
+     "Active: Bosses n Nightmares- Chaotic Troll card:+60/70% All Skill Efficiency (6 -> 7)",
+     "Active: Bosses n Nightmares- Amarok card:+12.5/17.5% Skill AFK gain rate (5 -> 7)",
+     "Active: Spirited Valley- Mama Troll card:+4/14% Skill AFK gain rate (2 -> 7)"
     ],
     "note": "Any character may play active; what is best active for that character"
    },
@@ -13269,7 +13324,9 @@
      "Drop Rate: Plutus the Prosperous: Not built (1/50)1.00x Drop Rate (0 -> 1)",
      "Drop Rate: Owl - Drop Rate:+165% Drop Rate (10 -> \u221e)",
      "Drop Rate: Stamps - Golden Sixes Stamp: +26.47% Drop RateNote: Can be increased by Exalting the stamp (90 -> 210)",
-     "Drop Rate: Arcade Bonus 27: +26.29/60.3% Drop Rate (78 -> 101)"
+     "Drop Rate: Arcade Bonus 27: +26.29/60.3% Drop Rate (78 -> 101)",
+     "Drop Rate: Obols - Family Obols: +104/228% Drop RateNote: Includes Rare and Hyper Obols, each rerolled with +1% DR (104 -> 228)",
+     "Drop Rate: Alchemy Bubbles - Droppin Loads: +29.71/39.6% Drop RateNext breakpoint: 80% value at level 280 (202 -> 6930)"
     ],
     "note": "All need it; some drive it more"
    },
