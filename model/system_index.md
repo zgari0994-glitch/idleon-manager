@@ -43,7 +43,7 @@
 | event_points_shop | misc/event-shop | Event Shop | gap | Autistotle |
 | family_bonuses | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | farming | world-6/farming | Farming | 630/1137 | Autiszemo |
-| forge_upgrades | world-1/anvil, world-1/forge | Smithing | gap | Autistopher |
+| forge_upgrades | world-1/anvil, world-1/forge | Smithing | gap | unassigned in jobs.yaml |
 | friend_bonuses | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | gallery | world-7/gallery | Gallery | 48/219 | Autistachio |
 | gaming | world-5/gaming | Gaming | 397/429 | Autistastic |
@@ -77,7 +77,7 @@
 | obols | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | owl | clickers/owl | Owl | 70/0 | Autistopher |
 | post_office | GAP: no Toolbox page mapped | Post Office | gap | Autiszemo |
-| prayers | world-3/prayers | Prayers | 265/180 | Autistabish |
+| prayers | world-3/prayers | Prayers | 265/180 | unassigned in jobs.yaml |
 | printer | world-3/printer, tools/sampling-companion | Sampling | 750/677 | Autisticles, Autistomatic, Autistronaut, Autiszemo |
 | quests | misc/quests | none (AutoReview does not rate it) | 696/0 | unassigned in jobs.yaml |
 | refinery | world-3/refinery | Refinery | 202/322 | Autistastic |
@@ -110,5 +110,5 @@
 
 ## Gaps
 - no_toolbox: autoloot, basketball, class_kill_talents, cog_board, colo_scores, companions, coral_kid, crystal_spawn_chance, dancing_coral, darts, data_source, drop_rate, family_bonuses, friend_bonuses, guild_bonuses, highest_dmg, inventory, item_filter, library, library_group_characters, manual_tome_score, max_subgroups, meritocracy, npc_tokens, obols, post_office, reset_counters, shrines, statues, tabbed_advice_groups, version, world_progress
-- no_owner: basketball, darts, drop_rate, storage, world_progress
+- no_owner: basketball, darts, drop_rate, forge_upgrades, prayers, storage, world_progress
 - thin_sources: the_button

@@ -1235,6 +1235,22 @@
      "steps": [
       "Sailing artifact odds: Exotic Market is still x1 (Autisticles' artifact hunt)"
      ]
+    },
+    {
+     "block": "Every character: Prayers",
+     "kind": "every",
+     "steps": [
+      "Equipped: Skilled Dimwit, The Royal Sampler, Shiny Snitch",
+      "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
+     ]
+    },
+    {
+     "block": "Every character: Combat level",
+     "kind": "every",
+     "steps": [
+      "Combat Lv 832",
+      "(Each character has its own combat goals)"
+     ]
     }
    ],
    "buffs_missing": [
@@ -2325,6 +2341,31 @@
       "Sailing artifact odds: Vial - Turtle Tisane is still x1 (Autisticles' artifact hunt)",
       "Sailing artifact odds: Summoning - Vote Bonus is still x1 (Autisticles' artifact hunt)"
      ]
+    },
+    {
+     "block": "Every character: Prayers",
+     "kind": "every",
+     "steps": [
+      "Equipped: Skilled Dimwit, The Royal Sampler, Shiny Snitch",
+      "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
+     ]
+    },
+    {
+     "block": "Every character: Combat level",
+     "kind": "every",
+     "steps": [
+      "Combat Lv 830",
+      "(Each character has its own combat goals)"
+     ]
+    },
+    {
+     "block": "Every character: Active play setup",
+     "kind": "every",
+     "steps": [
+      "Autistocat- Kill 1M Choccies for W2 Weekly Boss (123.29K -> 1000K)",
+      "Autistocat- Kill 1M Stiltmoles for W2 Weekly Boss (75.00K -> 1000K)",
+      "(Any character may play active; what is best active for that character)"
+     ]
     }
    ],
    "buffs_missing": [
@@ -2759,78 +2800,12 @@
      ]
     },
     {
-     "job": "W7 minis",
-     "basis": "light",
+     "job": "Luminous Menagerie (own intervention)",
+     "basis": "zack",
      "tiers": {
-      "Sushi Station": "untiered",
-      "Luminous Menagerie": "untiered",
-      "Clam Work": "untiered",
-      "Jelly Operator": "untiered",
-      "The Button": "untiered",
-      "Advice Fish": "untiered",
-      "Zenith Market": "untiered",
-      "Legend Talents": "untiered",
-      "Arcade": "untiered"
+      "Luminous Menagerie": "untiered"
      },
      "subs": [
-      {
-       "name": "Sushi Station: Sushi Station Upgrades",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Sushi Station",
-         "group": "Sushi Station Upgrades",
-         "label": "Sushi Slot:Adds a new slot for your Sushi Station!",
-         "cur": "5",
-         "goal": "50",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Sushi Station",
-         "group": "Sushi Station Upgrades",
-         "label": "Superior Sushi Skillz:You can now click the Sushi on your fuel bar to change which sushi you cook, up to Tier $. This also increases fuel cost.",
-         "cur": "0",
-         "goal": "45",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 42
-      },
-      {
-       "name": "Sushi Station: Unique Sushi Bonuses",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Sushi Station",
-         "group": "Unique Sushi Bonuses",
-         "label": "Unique Sushi (consecutive tiers cooked): 10",
-         "cur": "10",
-         "goal": "64",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Sushi Station",
-         "group": "Unique Sushi Bonuses",
-         "label": "Unique Sushi #11: All your breeding Mobs deal 2x damage when fighting",
-         "cur": "0",
-         "goal": "1",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 53
-      },
       {
        "name": "Luminous Menagerie: Shells",
        "state": "open",
@@ -2975,6 +2950,125 @@
         }
        ],
        "more": 7
+      }
+     ],
+     "next": [
+      {
+       "locked": "",
+       "section": "Luminous Menagerie",
+       "group": "Missions",
+       "label": "Mission 6: Reach 500 total Best Waves in WorshipReady to claim!",
+       "cur": "602",
+       "goal": "500",
+       "score": 0,
+       "ready": true,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Luminous Menagerie",
+       "group": "Shells",
+       "label": "Shells needed for Menagerie Rank 4",
+       "cur": "0",
+       "goal": "3",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Luminous Menagerie",
+       "group": "Shells",
+       "label": "Unlock 4: Unlock the Pink Jellyfish within the MenagerieThe Menagerie is located in the Molten Edge map, 15 maps away from town!Costs 258.57 Lumi, nee",
+       "cur": "0",
+       "goal": "1",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      }
+     ],
+     "note": "Zack 2026-11-19: own job. Gates plate cap +10, Breeding Crucible, Shiny OverLVs, Night Marina artifact odds, Cooking T13 Blue Jellyfish",
+     "where": [
+      {
+       "system": "menagerie",
+       "toolbox": [
+        "world-7/menagerie"
+       ],
+       "sources": "290 tagged / 156 chunks"
+      }
+     ]
+    },
+    {
+     "job": "W7 minis",
+     "basis": "light",
+     "tiers": {
+      "Sushi Station": "untiered",
+      "Clam Work": "untiered",
+      "Jelly Operator": "untiered",
+      "The Button": "untiered",
+      "Advice Fish": "untiered",
+      "Zenith Market": "untiered",
+      "Legend Talents": "untiered",
+      "Arcade": "untiered"
+     },
+     "subs": [
+      {
+       "name": "Sushi Station: Sushi Station Upgrades",
+       "state": "open",
+       "items": [
+        {
+         "locked": "",
+         "section": "Sushi Station",
+         "group": "Sushi Station Upgrades",
+         "label": "Sushi Slot:Adds a new slot for your Sushi Station!",
+         "cur": "5",
+         "goal": "50",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "locked": "",
+         "section": "Sushi Station",
+         "group": "Sushi Station Upgrades",
+         "label": "Superior Sushi Skillz:You can now click the Sushi on your fuel bar to change which sushi you cook, up to Tier $. This also increases fuel cost.",
+         "cur": "0",
+         "goal": "45",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 42
+      },
+      {
+       "name": "Sushi Station: Unique Sushi Bonuses",
+       "state": "open",
+       "items": [
+        {
+         "locked": "",
+         "section": "Sushi Station",
+         "group": "Unique Sushi Bonuses",
+         "label": "Unique Sushi (consecutive tiers cooked): 10",
+         "cur": "10",
+         "goal": "64",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "locked": "",
+         "section": "Sushi Station",
+         "group": "Unique Sushi Bonuses",
+         "label": "Unique Sushi #11: All your breeding Mobs deal 2x damage when fighting",
+         "cur": "0",
+         "goal": "1",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 53
       },
       {
        "name": "Clam Work: Clam Work Compensations",
@@ -3241,17 +3335,6 @@
      "next": [
       {
        "locked": "",
-       "section": "Luminous Menagerie",
-       "group": "Missions",
-       "label": "Mission 6: Reach 500 total Best Waves in WorshipReady to claim!",
-       "cur": "602",
-       "goal": "500",
-       "score": 0,
-       "ready": true,
-       "infinite": false
-      },
-      {
-       "locked": "",
        "section": "Sushi Station",
        "group": "Sushi Station Upgrades",
        "label": "Sushi Slot:Adds a new slot for your Sushi Station!",
@@ -3271,6 +3354,17 @@
        "score": 0,
        "ready": false,
        "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Sushi Station",
+       "group": "Sushi Station Upgrades",
+       "label": "Salt Shaker:Click to use once per day. When used, all sushi have a chance of getting a Tier Up! By default, you get +1 shaker use every day, just sayi",
+       "cur": "0",
+       "goal": "1",
+       "score": 0,
+       "ready": false,
+       "infinite": false
       }
      ],
      "note": "Gate: Research level ~10 (Autistotle). Jelly/Button maps = W7 map push",
@@ -3281,13 +3375,6 @@
         "world-7/sushi-station"
        ],
        "sources": "88 tagged / 49 chunks"
-      },
-      {
-       "system": "menagerie",
-       "toolbox": [
-        "world-7/menagerie"
-       ],
-       "sources": "290 tagged / 156 chunks"
       },
       {
        "system": "clam_work",
@@ -3343,14 +3430,14 @@
    ],
    "flags": [],
    "move": {
-    "text": "W7 minis: Mission 6: Reach 500 total Best Waves in WorshipReady to claim! 602 -> 500",
+    "text": "Luminous Menagerie (own intervention): Mission 6: Reach 500 total Best Waves in WorshipReady to claim! 602 -> 500",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
     "READY (Toolbox): Next sailing trade Open",
     "READY (Toolbox): Greatest Catch Restart available",
     "READY (Toolbox): Sushi fuel full Full",
-    "W7 minis / Missions: Mission 6: Reach 500 total Best Waves in WorshipReady to claim! (602 / 500)"
+    "Luminous Menagerie (own interv / Missions: Mission 6: Reach 500 total Best Waves in WorshipReady to claim! (602 / 500)"
    ],
    "active": [],
    "locked": [
@@ -3430,12 +3517,12 @@
      "src": "Toolbox timer"
     },
     {
-     "do": "W7 minis: Mission 6: Reach 500 total Best Waves in WorshipReady to claim! 602 -> 500",
+     "do": "Luminous Menagerie (own intervention): Mission 6: Reach 500 total Best Waves in WorshipReady to claim! 602 -> 500",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
     },
     {
-     "do": "W7 minis: Mission 6: Reach 500 total Best Waves in WorshipReady to claim!",
+     "do": "Luminous Menagerie (own intervention): Mission 6: Reach 500 total Best Waves in WorshipReady to claim!",
      "done": "500",
      "src": "AutoReview (ready now)"
     }
@@ -3502,6 +3589,18 @@
      ]
     },
     {
+     "block": "Luminous Menagerie (own intervention)",
+     "kind": "rinse",
+     "steps": [
+      "CREATORS: Extra Menagerie missions boost scales aggressively; 19 levels at roughly 6-7 hours per level; critical for progressing missions. [levels=19;hours_per_level=6-7;per_level=+1 mission] (Pulse 2026-10 @00:00:30)",
+      "CREATORS: Keep missions boost and second shelf second upgrade roughly level with slight priority on the second shelf. (Pulse 2026-10 @00:01:01)",
+      "Mission 6: Reach 500 total Best Waves in WorshipReady to claim! (602 / 500) READY",
+      "Push: Shells needed for Menagerie Rank 4 0 -> 3",
+      "Push: Mission 1: Reach a Total Account LV of 10,000 9036 -> 10000",
+      "Push: Unlock 4: Unlock the Pink Jellyfish within the MenagerieThe Menagerie is located 0 -> 1"
+     ]
+    },
+    {
      "block": "W7 minis",
      "kind": "rinse",
      "steps": [
@@ -3509,12 +3608,6 @@
       "Sushi Station: CREATORS: After the cascade leaves one tier 28, merge tier-27 sushi to restart paired upgrades. [remaining tier=28;new tier=27] (Griffy 2026-04 @00:06:45)",
       "Sushi Station: Push: Sushi Slot:Adds a new slot for your Sushi Station! 5 -> 50",
       "Sushi Station: Push: Unique Sushi (consecutive tiers cooked): 10 10 -> 64",
-      "Luminous Menagerie: CREATORS: Extra Menagerie missions boost scales aggressively; 19 levels at roughly 6-7 hours per level; critical for progressing missions. [levels=19;hours_per_level=6-7;per_level=+1 mission] (Pulse 2026-10 @00:00:30)",
-      "Luminous Menagerie: CREATORS: Keep missions boost and second shelf second upgrade roughly level with slight priority on the second shelf. (Pulse 2026-10 @00:01:01)",
-      "Luminous Menagerie: Mission 6: Reach 500 total Best Waves in WorshipReady to claim! (602 / 500) READY",
-      "Luminous Menagerie: Push: Shells needed for Menagerie Rank 4 0 -> 3",
-      "Luminous Menagerie: Push: Mission 1: Reach a Total Account LV of 10,000 9036 -> 10000",
-      "Luminous Menagerie: Push: Unlock 4: Unlock the Pink Jellyfish within the MenagerieThe Menagerie is located 0 -> 1",
       "Clam Work: CREATORS: Void Walker's additional rerolls improve the chance of stronger pearls from clams. (Griffy 2026-08 @00:12:11)",
       "Clam Work: CREATORS: Pollen Faction gives more pearls, accelerating the mechanic; the upgrade to care about until later upgrades. (Pulse 2026-10 @00:13:21)",
       "Clam Work: Push: +1 Grade for 2 Gallery Slots 0 -> 1",
@@ -3559,6 +3652,22 @@
       "Sailing artifact odds: Button Bonus is still x1 (Autisticles' artifact hunt)",
       "Cooking plate cap (Zemo): Menagerie unlock 21: +10 max cooking LV, costs 29.75M Lumi and a higher Menagerie rank",
       "Breeding (Tacular): Luminous Menagerie unlocks the Crucible (10x/20x cooking speed waves) and Shiny OverLVs (unlock 12)"
+     ]
+    },
+    {
+     "block": "Every character: Prayers",
+     "kind": "every",
+     "steps": [
+      "Equipped: Skilled Dimwit, The Royal Sampler, Shiny Snitch",
+      "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
+     ]
+    },
+    {
+     "block": "Every character: Combat level",
+     "kind": "every",
+     "steps": [
+      "Combat Lv 846",
+      "(Each character has its own combat goals)"
      ]
     }
    ],
@@ -5131,6 +5240,22 @@
      "steps": [
       "Sailing artifact odds: Palette Bonus is still x1 (Autisticles' artifact hunt)"
      ]
+    },
+    {
+     "block": "Every character: Prayers",
+     "kind": "every",
+     "steps": [
+      "Equipped: Skilled Dimwit, Shiny Snitch, The Royal Sampler, Vacuous Tissue",
+      "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
+     ]
+    },
+    {
+     "block": "Every character: Combat level",
+     "kind": "every",
+     "steps": [
+      "Combat Lv 835",
+      "(Each character has its own combat goals)"
+     ]
     }
    ],
    "buffs_missing": [
@@ -5159,116 +5284,14 @@
    "money": 1.5328956395870277e+30,
    "jobs": [
     {
-     "job": "Worship: souls + prayers (town)",
+     "job": "Worship: souls (town)",
      "basis": "zack",
-     "tiers": {
-      "Prayers": "5/7"
-     },
-     "subs": [
-      {
-       "name": "Prayers: Recommended Prayers",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Prayers",
-         "group": "Recommended Prayers",
-         "label": "Midas Minded",
-         "cur": "35",
-         "goal": "50",
-         "score": 136,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Prayers",
-         "group": "Recommended Prayers",
-         "label": "Zerg Rushogen",
-         "cur": "0",
-         "goal": "20",
-         "score": 136,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 2
-      },
-      {
-       "name": "Prayers: Situational Prayers you may consider leveling",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Prayers",
-         "group": "Situational Prayers you may consider leveling",
-         "label": "Unending Energy",
-         "cur": "40",
-         "goal": "50",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Prayers",
-         "group": "Situational Prayers you may consider leveling",
-         "label": "Big Brain Time",
-         "cur": "1",
-         "goal": "50",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 3
-      }
-     ],
-     "next": [
-      {
-       "locked": "",
-       "section": "Prayers",
-       "group": "Recommended Prayers",
-       "label": "Midas Minded",
-       "cur": "35",
-       "goal": "50",
-       "score": 136,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Prayers",
-       "group": "Recommended Prayers",
-       "label": "Zerg Rushogen",
-       "cur": "0",
-       "goal": "20",
-       "score": 136,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Prayers",
-       "group": "Recommended Prayers",
-       "label": "Jawbreaker",
-       "cur": "0",
-       "goal": "50",
-       "score": 136,
-       "ready": false,
-       "infinite": false
-      }
-     ],
-     "note": "Totem waves are Autistacular's",
-     "where": [
-      {
-       "system": "prayers",
-       "toolbox": [
-        "world-3/prayers"
-       ],
-       "sources": "265 tagged / 180 chunks"
-      }
-     ]
+     "tiers": {},
+     "subs": [],
+     "next": [],
+     "note": "Totem waves are Autistacular's. Prayers moved to every_character 2026-11-19",
+     "where": [],
+     "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
     },
     {
      "job": "Divinity",
@@ -6373,17 +6396,10 @@
      ]
     },
     {
-     "block": "Worship: souls + prayers (town)",
+     "block": "Worship: souls (town)",
      "kind": "rinse",
      "steps": [
-      "CREATORS: Place experience traps using Maestro with Transfusion and the skill-experience prayer that reduces efficiency. (Griffy 2026-05 @00:12:19)",
-      "CREATORS: Equip appropriate prayers rather than relying entirely on passive prayer bonuses. (Griffy 2026-04 @00:29:04)",
-      "Push: Midas Minded 35 -> 50",
-      "  HOW: Max Midas Minded for activities such as boss farming. (Griffy 2026-04 @00:31:05)",
-      "  HOW: Midas Mind unlocks at wave seventy one but is not useful for the current account stage. [unlock_wave=71] (Griffy 2026-01 @00:41:44)",
-      "Push: Unending Energy 40 -> 50",
-      "  HOW: Never use Unending Energy. (Griffy 2026-04 @00:29:34)",
-      "  HOW: Avoid Unending Energy if likely to forget it because long absences still award only ten hours. [example_absence_hours=72;claim_cap_hours=10] (Griffy 2026-01 @00:33:36)"
+      "PLAN: Totem waves are Autistacular's. Prayers moved to every_character 2026-11-19"
      ]
     },
     {
@@ -6458,6 +6474,32 @@
      "kind": "unlock",
      "steps": [
       "Polonai level 16 (15 now, 30.1%)"
+     ]
+    },
+    {
+     "block": "Every character: Prayers",
+     "kind": "every",
+     "steps": [
+      "Equipped: Skilled Dimwit, The Royal Sampler, Shiny Snitch",
+      "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
+     ]
+    },
+    {
+     "block": "Every character: Combat level",
+     "kind": "every",
+     "steps": [
+      "Combat Lv 842",
+      "(Each character has its own combat goals)"
+     ]
+    },
+    {
+     "block": "Every character: Active play setup",
+     "kind": "every",
+     "steps": [
+      "Autistabish- Kill 1M Crabcakes for W2 Weekly Boss (316.05K -> 1000K)",
+      "Autistabish- Kill 1M Dedotated Rams for W2 Weekly Boss (0.00K -> 1000K)",
+      "Autistabish- Kill 1M Choccies for W2 Weekly Boss (120.47K -> 1000K)",
+      "(Any character may play active; what is best active for that character)"
      ]
     }
    ],
@@ -7425,6 +7467,30 @@
       "Sailing artifact odds: Killroy Bonus is still x1 (Autisticles' artifact hunt)",
       "Sailing artifact odds: Sneaking - Glowing Veil is still x1 (Autisticles' artifact hunt)"
      ]
+    },
+    {
+     "block": "Every character: Prayers",
+     "kind": "every",
+     "steps": [
+      "Equipped: The Royal Sampler, Shiny Snitch, Skilled Dimwit",
+      "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
+     ]
+    },
+    {
+     "block": "Every character: Combat level",
+     "kind": "every",
+     "steps": [
+      "Combat Lv 856",
+      "(Each character has its own combat goals)"
+     ]
+    },
+    {
+     "block": "Every character: Active play setup",
+     "kind": "every",
+     "steps": [
+      "Autistacular- Kill 1M Choccies for W2 Weekly Boss (125.12K -> 1000K)",
+      "(Any character may play active; what is best active for that character)"
+     ]
     }
    ],
    "buffs_missing": [
@@ -7456,6 +7522,110 @@
    "save_map": "W3 map 107",
    "money": 1.22767336461377e+29,
    "jobs": [
+    {
+     "job": "Secret Class Path (Vman)",
+     "basis": "zack",
+     "tiers": {
+      "Secret Class Path": "3/3"
+     },
+     "subs": [
+      {
+       "name": "Secret Class Path: Autistotle is not best in 3 Right Hand Skills",
+       "state": "open",
+       "items": [
+        {
+         "locked": "",
+         "section": "Secret Class Path",
+         "group": "Autistotle is not best in 3 Right Hand Skills",
+         "label": "Autistotle not best in Chopping",
+         "cur": "102",
+         "goal": "125",
+         "score": 62,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "locked": "",
+         "section": "Secret Class Path",
+         "group": "Autistotle is not best in 3 Right Hand Skills",
+         "label": "Autistotle not best in Catching",
+         "cur": "100",
+         "goal": "137",
+         "score": 62,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 1
+      },
+      {
+       "name": "Secret Class Path: Your Maestro is the highest level in 3/6 Right Hand skills. Be careful ",
+       "state": "open",
+       "items": [
+        {
+         "locked": "",
+         "section": "Secret Class Path",
+         "group": "Your Maestro is the highest level in 3/6 Right Hand skills. Be careful",
+         "label": "Autistomatic can level Mining",
+         "cur": "137",
+         "goal": "140",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        },
+        {
+         "locked": "",
+         "section": "Secret Class Path",
+         "group": "Your Maestro is the highest level in 3/6 Right Hand skills. Be careful",
+         "label": "Autistastic can level Mining",
+         "cur": "89",
+         "goal": "140",
+         "score": 0,
+         "ready": false,
+         "infinite": false
+        }
+       ],
+       "more": 8
+      }
+     ],
+     "next": [
+      {
+       "locked": "",
+       "section": "Secret Class Path",
+       "group": "Autistotle is not best in 3 Right Hand Skills",
+       "label": "Autistotle not best in Chopping",
+       "cur": "102",
+       "goal": "125",
+       "score": 62,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Secret Class Path",
+       "group": "Autistotle is not best in 3 Right Hand Skills",
+       "label": "Autistotle not best in Catching",
+       "cur": "100",
+       "goal": "137",
+       "score": 62,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Secret Class Path",
+       "group": "Autistotle is not best in 3 Right Hand Skills",
+       "label": "Autistotle not best in Worship",
+       "cur": "96",
+       "goal": "113",
+       "score": 62,
+       "ready": false,
+       "infinite": false
+      }
+     ],
+     "note": "Zack 2026-11-19: secret class = Vman",
+     "where": []
+    },
     {
      "job": "Maestro: #1 in every skill",
      "basis": "zack",
@@ -8579,6 +8749,16 @@
      ]
     },
     {
+     "block": "Secret Class Path (Vman)",
+     "kind": "rinse",
+     "steps": [
+      "CREATORS: Every account should have at least one Void Walker. [minimum_voidwalkers=1] (Griffy 2026-08 @00:11:11)",
+      "CREATORS: Leave the eleventh character as a beginner until remaining masterclasses clarify the optimal duplicate. [character_slot=11] (Griffy 2026-08 @00:15:48)",
+      "Push: Autistotle not best in Chopping 102 -> 125",
+      "Push: Autistomatic can level Mining 137 -> 140"
+     ]
+    },
+    {
      "block": "Maestro: #1 in every skill",
      "kind": "rinse",
      "steps": [
@@ -8642,6 +8822,22 @@
      "steps": [
       "Sailing artifact odds: The Maw (Grid 106) is still x1 (Autisticles' artifact hunt)",
       "Sailing artifact odds: Jelly Operator is still x1 (Autisticles' artifact hunt)"
+     ]
+    },
+    {
+     "block": "Every character: Prayers",
+     "kind": "every",
+     "steps": [
+      "Equipped: The Royal Sampler, Skilled Dimwit, Shiny Snitch",
+      "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
+     ]
+    },
+    {
+     "block": "Every character: Combat level",
+     "kind": "every",
+     "steps": [
+      "Combat Lv 781",
+      "(Each character has its own combat goals)"
      ]
     }
    ],
@@ -9117,6 +9313,33 @@
      "kind": "lever",
      "steps": [
       "Cooking plate cap (Zemo): Defeat the Lunarheim cave lore boss in Spelunking: +10"
+     ]
+    },
+    {
+     "block": "Every character: Prayers",
+     "kind": "every",
+     "steps": [
+      "Equipped: Skilled Dimwit, The Royal Sampler",
+      "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
+     ]
+    },
+    {
+     "block": "Every character: Combat level",
+     "kind": "every",
+     "steps": [
+      "Combat Lv 823",
+      "(Each character has its own combat goals)"
+     ]
+    },
+    {
+     "block": "Every character: Active play setup",
+     "kind": "every",
+     "steps": [
+      "Autistomatic- Kill 1M Crabcakes for W2 Weekly Boss (7.05K -> 1000K)",
+      "Autistomatic- Kill 1M Dedotated Rams for W2 Weekly Boss (0.00K -> 1000K)",
+      "Autistomatic- Kill 1M Choccies for W2 Weekly Boss (133.57K -> 1000K)",
+      "Autistomatic- Kill 1M Stiltmoles for W2 Weekly Boss (77.08K -> 1000K)",
+      "(Any character may play active; what is best active for that character)"
      ]
     }
    ],
@@ -9760,8 +9983,32 @@
      "block": "Levers for other jobs",
      "kind": "lever",
      "steps": [
-      "Minimum 3 star Hyperion Nebula- Demon Genie card:+90/105% Crystal Mob Spawn Chan 6 -> 7 (toward Autisticles Statue turn-ins (farmed by others))",
-      "Hard Resources- Godshard Ore card:+150/210% Forge Cap and SPD (Passive) 5 -> 7 (toward Autistopher Maintenance (maxed tiers): Bribes, Rift, Star Signs, Smithing)"
+      "Minimum 3 star Hyperion Nebula- Demon Genie card:+90/105% Crystal Mob Spawn Chan 6 -> 7 (toward Autisticles Statue turn-ins (farmed by others))"
+     ]
+    },
+    {
+     "block": "Every character: Prayers",
+     "kind": "every",
+     "steps": [
+      "Equipped: Shiny Snitch, The Royal Sampler, Skilled Dimwit",
+      "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
+     ]
+    },
+    {
+     "block": "Every character: Combat level",
+     "kind": "every",
+     "steps": [
+      "Combat Lv 830",
+      "(Each character has its own combat goals)"
+     ]
+    },
+    {
+     "block": "Every character: Active play setup",
+     "kind": "every",
+     "steps": [
+      "Autistronaut- Kill 1M Crabcakes for W2 Weekly Boss (0.72K -> 1000K)",
+      "Autistronaut- Kill 1M Choccies for W2 Weekly Boss (127.60K -> 1000K)",
+      "(Any character may play active; what is best active for that character)"
      ]
     }
    ],
@@ -10764,109 +11011,15 @@
      ]
     },
     {
-     "job": "Maintenance (maxed tiers): Bribes, Rift, Star Signs, Smithing",
+     "job": "Maintenance (maxed tiers): Bribes, Rift, Star Signs",
      "basis": "zack",
      "tiers": {
       "Bribes": "done",
       "Rift": "done",
-      "Star Signs": "done",
-      "Smithing": "done"
+      "Star Signs": "done"
      },
-     "subs": [
-      {
-       "name": "Smithing: Sources of Forge Ore Capacity",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Smithing",
-         "group": "Sources of Forge Ore Capacity",
-         "label": "Hard Resources- Godshard Ore card:+150/210% Forge Cap and SPD (Passive)",
-         "cur": "5",
-         "goal": "7",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Smithing",
-         "group": "Sources of Forge Ore Capacity",
-         "label": "Stamps - Forge Stamp: +34.29% Forge Capacity",
-         "cur": "100",
-         "goal": "240",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 2
-      },
-      {
-       "name": "Smithing: Total Capacity and Bar thresholds",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Smithing",
-         "group": "Total Capacity and Bar thresholds",
-         "label": "137 Godshard Bars.11,823 cap to next bar",
-         "cur": "3177",
-         "goal": "15000",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Smithing",
-         "group": "Total Capacity and Bar thresholds",
-         "label": "514 Marble Bars.1,823 cap to next bar",
-         "cur": "2177",
-         "goal": "4000",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 9
-      }
-     ],
-     "next": [
-      {
-       "locked": "",
-       "section": "Smithing",
-       "group": "Sources of Forge Ore Capacity",
-       "label": "Hard Resources- Godshard Ore card:+150/210% Forge Cap and SPD (Passive)",
-       "cur": "5",
-       "goal": "7",
-       "score": 0,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Smithing",
-       "group": "Sources of Forge Ore Capacity",
-       "label": "Stamps - Forge Stamp: +34.29% Forge Capacity",
-       "cur": "100",
-       "goal": "240",
-       "score": 0,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Smithing",
-       "group": "Sources of Forge Ore Capacity",
-       "label": "Arcade Bonus 26: +0/201% Forge Capacity",
-       "cur": "0",
-       "goal": "101",
-       "score": 0,
-       "ready": false,
-       "infinite": false
-      }
-     ],
+     "subs": [],
+     "next": [],
      "note": "Zack: a Rift bonus may make all star signs active for all players (verify on Toolbox world-4/rift)",
      "where": [
       {
@@ -10887,14 +11040,6 @@
        "system": "star_signs",
        "toolbox": [
         "misc/constellations"
-       ],
-       "sources": "no slug"
-      },
-      {
-       "system": "forge_upgrades",
-       "toolbox": [
-        "world-1/anvil",
-        "world-1/forge"
        ],
        "sources": "no slug"
       }
@@ -11102,13 +11247,10 @@
      ]
     },
     {
-     "block": "Maintenance (maxed tiers): Bribes, Rift, Star Signs, Smithing",
+     "block": "Maintenance (maxed tiers): Bribes, Rift, Star Signs",
      "kind": "rinse",
      "steps": [
-      "CREATORS: Produce Purple Screws ahead of crafting a full Lustre set. (Griffy 2026-11 @00:27:25)",
-      "CREATORS: Produce Pinion Spurs for the upcoming Choco Chip purchase. (Griffy 2026-11 @00:57:56)",
-      "Lever on Autistronaut: Hard Resources- Godshard Ore card:+150/210% Forge Cap and SP",
-      "Push: 137 Godshard Bars.11,823 cap to next bar 3177 -> 15000"
+      "PLAN: Zack: a Rift bonus may make all star signs active for all players (verify on Toolbox world-4/rift)"
      ]
     },
     {
@@ -11116,6 +11258,30 @@
      "kind": "lever",
      "steps": [
       "Stamps - Card Stamp: +250% Card Drop Rate 250 -> 330 (toward Autistronaut Cards)"
+     ]
+    },
+    {
+     "block": "Every character: Prayers",
+     "kind": "every",
+     "steps": [
+      "Equipped: Skilled Dimwit, Balance of Precision, The Royal Sampler",
+      "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
+     ]
+    },
+    {
+     "block": "Every character: Combat level",
+     "kind": "every",
+     "steps": [
+      "Combat Lv 824",
+      "(Each character has its own combat goals)"
+     ]
+    },
+    {
+     "block": "Every character: Active play setup",
+     "kind": "every",
+     "steps": [
+      "Autistopher- Kill 1M Crabcakes for W2 Weekly Boss (0.19K -> 1000K)",
+      "(Any character may play active; what is best active for that character)"
      ]
     }
    ],
@@ -11704,6 +11870,33 @@
       "Coral Reef: Push: Event Shop - Coolral: x1.0/x1.3 Daily Corals 0 -> 1",
       "Dancing Coral: +3% Spelunking Amber gain per Crystal Shrine level above 200Unlock for 248 Glowi (1,875 / 248) READY",
       "Dancing Coral: Push: 1.04x Class EXP gain per Pantheon Shrine level above 200Unlock the previous bonu 0 -> 1"
+     ]
+    },
+    {
+     "block": "Every character: Prayers",
+     "kind": "every",
+     "steps": [
+      "Equipped: none",
+      "(Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))"
+     ]
+    },
+    {
+     "block": "Every character: Combat level",
+     "kind": "every",
+     "steps": [
+      "Combat Lv 737",
+      "(Each character has its own combat goals)"
+     ]
+    },
+    {
+     "block": "Every character: Active play setup",
+     "kind": "every",
+     "steps": [
+      "Autistachio- Kill 1M Green Mushrooms for W2 Weekly Boss (139.64K -> 1000K)",
+      "Autistachio- Kill 1M Crabcakes for W2 Weekly Boss (26.04K -> 1000K)",
+      "Autistachio- Kill 1M Dedotated Rams for W2 Weekly Boss (261.58K -> 1000K)",
+      "Autistachio- Kill 1M Choccies for W2 Weekly Boss (192.22K -> 1000K)",
+      "(Any character may play active; what is best active for that character)"
      ]
     }
    ],
@@ -12921,20 +13114,101 @@
   "unassigned": [],
   "account_wide": [
    {
-    "job": "Minigames (anyone)",
+    "job": "Minigames (anyone, when we look there)",
     "sections": [
      "Basketball",
      "Darts"
     ]
    },
    {
-    "job": "Drop Rate / Storage / World progress",
+    "job": "Storage / World progress (AutoReview Pinchy = where the account sits per world)",
     "sections": [
-     "Drop Rate",
      "Storage",
      "Pinchy high",
-     "Pinchy low"
+     "Pinchy low",
+     "Pinchy all"
     ]
+   }
+  ],
+  "every_character": [
+   {
+    "job": "Prayers",
+    "shared": [
+     "Prayers: Midas Minded (35 -> 50)",
+     "Prayers: Zerg Rushogen (0 -> 20)",
+     "Prayers: Jawbreaker (0 -> 50)",
+     "Prayers: Ruck Sack (0 -> 50)",
+     "Prayers: Unending Energy (40 -> 50)",
+     "Prayers: Big Brain Time (1 -> 50)",
+     "Prayers: Fibers of Absence (1 -> 50)",
+     "Prayers: Beefy For Real (0 -> 40)",
+     "Prayers: Glitterbug (0 -> 25)"
+    ],
+    "note": "Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling)"
+   },
+   {
+    "job": "Smithing",
+    "shared": [
+     "Smithing: Hard Resources- Godshard Ore card:+150/210% Forge Cap and SPD (Passive) (5 -> 7)",
+     "Smithing: Stamps - Forge Stamp: +34.29% Forge Capacity (100 -> 240)",
+     "Smithing: Arcade Bonus 26: +0/201% Forge Capacity (0 -> 101)",
+     "Smithing: Villager Cosmos Majik - Beeg Beeg Forge: Increase the forge capacity by 3/243x (1 -> 5)",
+     "Smithing: 137 Godshard Bars.11,823 cap to next bar (3177 -> 15000)",
+     "Smithing: 514 Marble Bars.1,823 cap to next bar (2177 -> 4000)",
+     "Smithing: 2,058 Dreadlo Bars.823 cap to next bar (177 -> 1000)",
+     "Smithing: 4,116 Starfire Bars.323 cap to next bar (177 -> 500)",
+     "Smithing: 8,232 Lustre Bars.73 cap to next bar (177 -> 250)",
+     "Smithing: 20,581 Void Bars.23 cap to next bar (77 -> 100)",
+     "Smithing: 51,454 Dementia Bars.23 cap to next bar (17 -> 40)",
+     "Smithing: 128,636 Platinum Bars.15 cap to next bar (1 -> 16)"
+    ],
+    "note": "Zack: archers may be best, but every character considers smithing"
+   },
+   {
+    "job": "Combat level",
+    "shared": [],
+    "note": "Each character has its own combat goals"
+   },
+   {
+    "job": "Active play setup",
+    "shared": [
+     "Active: Hyperion Nebula- Demon Genie card:+90/105% Crystal Mob Spawn Chance (6 -> 7)",
+     "Active: Blunder Hills- Poop card:+60/70% Crystal Mob Spawn Chance (6 -> 7)",
+     "Active: Stamps - Crystallin: +185.09% Spawn Chance (180 -> 270)",
+     "Active: Level 24 Crescent Shrine: +300%Shrines have no Max level. Goal of 32 is arbitrary (24 -> 32)",
+     "Active: Level 127/299 booked Cmon Out Crystals talent (Jman only) (127 -> 299)",
+     "Active: Farm Dice Obols for Sparkle slots with DK at Sandy Pots (2 -> 5)",
+     "Active: Frostbite Tundra- Sir Stache card:+54/63% Card Drop Chance (6 -> 7)",
+     "Active: Hyperion Nebula- Demon Genie card:+90/105% Crystal Mob Spawn Chance (6 -> 7)",
+     "Active: Blunder Hills- Poop card:+60/70% Crystal Mob Spawn Chance (6 -> 7)",
+     "Active: Smolderin' Plateau- Mister Brightside card:+36/42% Total Drop Rate (6 -> 7)",
+     "Active: Frostbite Tundra- Bop Box card:+21/24.5% Total Drop Rate (6 -> 7)",
+     "Active: Bosses n Nightmares- Chaotic Troll card:+60/70% All Skill Efficiency (6 -> 7)"
+    ],
+    "note": "Any character may play active; what is best active for that character"
+   },
+   {
+    "job": "Drop rate",
+    "shared": [
+     "Drop Rate: Bosses n Nightmares- Domeo Magmus card:+3/10.5% Total Drop Rate (Passive) (2 -> 7)",
+     "Drop Rate: Smolderin' Plateau- Ancient Golem card:+8/28% Total Drop Rate (Passive) (2 -> 7)",
+     "Drop Rate: Smolderin' Plateau- Crystal Glunko card:+0/42% Total Drop Rate (Passive) (0 -> 7)",
+     "Drop Rate: Events- IdleOn 4th Anniversary card:+0/14% Drop Rate (Passive) (0 -> 7)",
+     "Drop Rate: Events- Luckulyte card:+0/21% Drop Rate (Passive) (0 -> 7)",
+     "Drop Rate: Guild Bonus - Gold Charm:+12.97% Total Drop Rate (24 -> 50)",
+     "Drop Rate: Codex - Drop Rate Friend Bonus: +22.49/75% Drop RateFrom IdleOnLech (1844) (22.49 -> 75)",
+     "Drop Rate: Skull of Major Droprate: +0.0% Drop Rate bonus for all characters, always!(1.00 per level after Writhing Grimo (0 -> 999999)",
+     "Drop Rate: Plutus the Prosperous: Not built (1/50)1.00x Drop Rate (0 -> 1)",
+     "Drop Rate: Owl - Drop Rate:+165% Drop Rate (10 -> \u221e)",
+     "Drop Rate: Stamps - Golden Sixes Stamp: +26.47% Drop RateNote: Can be increased by Exalting the stamp (90 -> 210)",
+     "Drop Rate: Arcade Bonus 27: +26.29/60.3% Drop Rate (78 -> 101)"
+    ],
+    "note": "All need it; some drive it more"
+   },
+   {
+    "job": "Candy",
+    "shared": [],
+    "note": "Anyone, as long as the candy goes to that job efficiently"
    }
   ],
   "loop": [

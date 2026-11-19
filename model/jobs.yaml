@@ -46,7 +46,8 @@ characters:
       - {job: Sailing, sections: [Sailing], basis: class}
       - {job: Bug prints, sections: [{s: Sampling, itype: BUG, levers: true}], basis: griffy}
       - {job: "Statue turn-ins (farmed by others)", sections: [{s: Statues, rest: true}], basis: zack}
-      - {job: "W7 minis", sections: [Sushi Station, Luminous Menagerie, Clam Work, Jelly Operator, The Button, Advice Fish, Zenith Market, Legend Talents, Arcade], basis: light, note: "Gate: Research level ~10 (Autistotle). Jelly/Button maps = W7 map push"}
+      - {job: "Luminous Menagerie (own intervention)", sections: [Luminous Menagerie], basis: zack, note: "Zack 2026-11-19: own job. Gates plate cap +10, Breeding Crucible, Shiny OverLVs, Night Marina artifact odds, Cooking T13 Blue Jellyfish"}
+      - {job: "W7 minis", sections: [Sushi Station, Clam Work, Jelly Operator, The Button, Advice Fish, Zenith Market, Legend Talents, Arcade], basis: light, note: "Gate: Research level ~10 (Autistotle). Jelly/Button maps = W7 map push"}
   Autistastic:    # Divine Knight #1
     afk: {text: "Cavern 15 Temple (Ancient Golems): Dragon Statue 4 -> 150 + golem card", src: "AutoReview statue table"}
     jobs:
@@ -63,7 +64,7 @@ characters:
     afk: {text: "Penguins (Box Statue 25 -> 40), then Cryosnakes (Seesaw 25 -> 40). Candy or Active ES", src: "AutoReview statue table"}
     move: {text: "Move Well buckets onto the rock layer: Cobaltine 124,895 left gates #27, #30, #53", src: "Griffy gPQrOK53BDI + findings/hole_caverns_1-5.md"}
     jobs:
-      - {job: "Worship: souls + prayers (town)", sections: [Prayers], basis: zack, note: "Totem waves are Autistacular's"}
+      - {job: "Worship: souls (town)", sections: [], basis: zack, note: "Totem waves are Autistacular's. Prayers moved to every_character 2026-11-19"}
       - {job: Divinity, sections: [Divinity, Coral Kid], basis: class, note: "Coral Kid upgrades are Divinity (Toolbox Divinity page); moved from W7 reef 2026-11-19"}
       - {job: "The Hole (all 15 caverns + villagers)", sections: [Villagers, Shallow Caverns, Glowshroom Tunnels, Underground Overgrowth], basis: light, findings: [hole_caverns_1-5], daily: ready_only, daily_fixed: ["Opals: 10 each into Cosmos (Conjuror), Minau (Measurer), Kaipu (Engineer) = 20 each (every 10th opal +150% that villager's EXP; Griffy: Conjuror first, then Measurer, keep 1+ in every villager)"]}
       - {job: Slab, sections: [Slab], basis: light, daily: ready_only, note: "Collection: items get picked up when you meet them, no daily action"}
@@ -82,6 +83,7 @@ characters:
     afk: {text: "Lab (Maestro Lab catch-up)", src: zack}
     active: [greenstacks, observations]
     jobs:
+      - {job: "Secret Class Path (Vman)", sections: [Secret Class Path], basis: zack, note: "Zack 2026-11-19: secret class = Vman"}
       - {job: "Maestro: #1 in every skill", sections: [], rule: maestro, basis: zack}
       - {job: Research, sections: [Research], basis: zack, note: "Gates W7 minis (Sushi, Jelly). The Maw G7 0 -> 4 = artifact finds"}
       - {job: Greenstacks, sections: [Greenstacks, Endangered Greenstacks], basis: light}
@@ -116,7 +118,7 @@ characters:
       - {job: Achievements, sections: [Achievements], basis: light}
       - {job: "Minehead", sections: [], basis: light, note: "No AutoReview section: Lane B gap"}
       - {job: "Clickers: Owl, Bubba, Poppy (all three)", sections: [Owl], basis: zack, note: "AutoReview rates Owl only. Bubba = Toolbox clickers/bubba, Poppy = Toolbox clickers/kangaroo: no AutoReview section (gap pipeline)"}
-      - {job: "Maintenance (maxed tiers): Bribes, Rift, Star Signs, Smithing", sections: [Bribes, Rift, Star Signs, Smithing], basis: zack, note: "Zack: a Rift bonus may make all star signs active for all players (verify on Toolbox world-4/rift)"}
+      - {job: "Maintenance (maxed tiers): Bribes, Rift, Star Signs", sections: [Bribes, Rift, Star Signs], basis: zack, note: "Zack: a Rift bonus may make all star signs active for all players (verify on Toolbox world-4/rift)"}
   Autistachio:    # Beginner
     afk: {text: "Divinity (Divinity slippers)", src: zack}
     jobs:
@@ -134,8 +136,16 @@ lever_routes:   # a lever listed under one job but done by another character's j
   - {m: "card", owner: Autistronaut}
 
 account_wide:   # Zack 2026-11-17: shown once on the account block, not on a card
-  - {job: "Minigames (anyone)", sections: [Basketball, Darts]}
-  - {job: "Drop Rate / Storage / World progress", sections: [Drop Rate, Storage, Pinchy high, Pinchy low]}
+  - {job: "Minigames (anyone, when we look there)", sections: [Basketball, Darts]}
+  - {job: "Storage / World progress (AutoReview Pinchy = where the account sits per world)", sections: [Storage, Pinchy high, Pinchy low, Pinchy all]}
+
+every_character:   # Zack 2026-11-19: systems every character considers in its own right (own needs/goals). Lines naming a character go to that card; the rest stays on the account block.
+  - {job: Prayers, sections: [Prayers], facts: prayers, note: "Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling)"}
+  - {job: Smithing, sections: [Smithing], note: "Zack: archers may be best, but every character considers smithing"}
+  - {job: "Combat level", sections: [Combat Levels], facts: combat, note: "Each character has its own combat goals"}
+  - {job: "Active play setup", sections: [Active], note: "Any character may play active; what is best active for that character"}
+  - {job: "Drop rate", sections: [Drop Rate], note: "All need it; some drive it more"}
+  - {job: Candy, sections: [Regular Candy, Variable Candy], note: "Anyone, as long as the candy goes to that job efficiently"}
 
 unassigned:
 

@@ -414,6 +414,28 @@ for cd in cards:
                            {'block': 'Unblocks other characters (do these first)', 'kind': 'prereq', 'steps': list(dict.fromkeys(PREREQ[cd['name']]))[:6]})
     if ROUTED.get(cd['name']):
         cd['daily'].insert(len(cd['daily']), {'block': 'Levers for other jobs', 'kind': 'lever', 'steps': ROUTED[cd['name']][:6]})
+# ---------- every_character jobs (Zack 2026-11-19): each card gets its own slice ----------
+EVERY = []
+_chars_facts = {c['character_name']: c for c in chars}
+for ej in Y.get('every_character', []):
+    shared = []
+    per = {cd['name']: [] for cd in cards}
+    for sec in ej['sections']:
+        for g, path, a in leaves(sec):
+            if not is_open(a): continue
+            line = f"{a['label'][:110]} ({a.get('cur')} -> {a.get('goal')})"
+            hit = [n for n in per if n.lower() in (path + ' ' + a['label']).lower()]
+            if hit:
+                for n in hit: per[n].append(line)
+            else: shared.append(f"{sec}: {line}")
+    for cd in cards:
+        steps = list(dict.fromkeys(per.get(cd['name'], [])))[:4]
+        f = _chars_facts.get(cd['name'], {})
+        if ej.get('facts') == 'prayers': steps.insert(0, f"Equipped: {', '.join(f.get('equipped_prayers') or []) or 'none'}")
+        if ej.get('facts') == 'combat': steps.insert(0, f"Combat Lv {f.get('combat_level')}")
+        if steps: cd['daily'].append({'block': f"Every character: {ej['job']}", 'kind': 'every', 'steps': steps + ([f"({ej['note']})"] if ej.get('note') else [])})
+    EVERY.append({'job': ej['job'], 'shared': shared[:12], 'note': ej.get('note', '')})
+
 # ---------- account block ----------
 alerts = []
 for al in Y.get('alerts', []):
@@ -434,7 +456,7 @@ account = {'money': {'total': sum(money.values()) + bank, 'bank': bank, 'per_cha
            'alerts': alerts + [{'name': f"{r['name']} ({r['value']})", 'owner': r['owner'], 'hits': [r['note']] if r['note'] else []} for r in ready_now if r['owner'] in ('anyone', 'unrouted')],
            'timers_captured': TM['captured_utc'] if TM else None, 'salts': salts, 'ledger': ledger, 'buffs': {'newly_owned': buffs['newly_owned'], 'account_missing': buffs['missing_by_owner'].get('account', []), 'stats': [{'stat': x['stat'], 'section': x['section'], 'owned': x['owned'], 'missing': x['missing']} for x in buffs['stats']]} if buffs else None, 'coins': {k: coins[k] for k in ('richest', 'vault', 'advice_fish', 'vendor', 'caveats')} if coins else None, 'active_ranked': ranked,
            'quick_mode': [t for t in ranked if t['minutes'] <= 15],
-           'unassigned': Y.get('unassigned') or [], 'account_wide': Y.get('account_wide', []),
+           'unassigned': Y.get('unassigned') or [], 'account_wide': Y.get('account_wide', []), 'every_character': EVERY,
            'loop': ['7am PC: refresh, full/maxed/timers checklist, dailies due now',
                     'Workday: active task(s) running (top of the ranked list)',
                     '3pm: cloud save, refresh, then cards one character at a time on the tablet']}
