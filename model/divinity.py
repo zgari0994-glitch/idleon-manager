@@ -86,8 +86,8 @@ def card_lines(o):
              "Points only come while a character is meditating at the Divinity altar (W5); Pulse 2026-11: put characters on the Divinity platform before Super week, Mindful is the best style.")
     L.append('Styles now: ' + '; '.join(f"{s} ({o['styles'][s]['gives']}): {', '.join(u)}" for s, u in used.items()))
     g = o['gods'].get('Goharut', {})
-    L.append("My read (verify): Goharut's major bonus says being in the Lab counts as being at the altar. A character linked to Goharut who sits in the Lab earns Divinity while doing Lab. "
-             "Check: Toolbox Divinity PTS/hr goes above 0 after the change.")
+    L.append("Goharut trick (Pulse 2026-10 + Griffy 2026-09): characters linked to Goharut who sit in Lab tubes count as at the altar, so they earn Divinity and Lab EXP at once. "
+             "Pulse 2026-10: his first Arcane Cultist sits in Lab on Goharut for both. Check: Toolbox Divinity PTS/hr goes above 0 after the change.")
     nxt = [c for c in o['coral'] if c['lv'] == 0]
     if nxt:
         L.append(f"Coral Kid (all Lv 0, total Divinity LV {h['Total Divinity LV']} meets every LV requirement shown). In cost order with {spend.h(o['points'])} points:")
