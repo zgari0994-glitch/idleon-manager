@@ -1267,6 +1267,14 @@
       "Combat Lv 832",
       "(Each character has its own combat goals)"
      ]
+    },
+    {
+     "block": "Every character: Worship",
+     "kind": "every",
+     "steps": [
+      "Worship Lv 98 (Dreadnaught Skull), charge 90 / 8,614, 388.32%/day, full in 21d 23h.",
+      "(Zack 2026-11-19: everyone levels worship + collects charge; Autistacular runs totems, Autistabish owns the soul budget)"
+     ]
     }
    ],
    "buffs_missing": [
@@ -2390,6 +2398,14 @@
       "Autistocat- Kill 1M Choccies for W2 Weekly Boss (123.29K -> 1000K)",
       "Autistocat- Kill 1M Stiltmoles for W2 Weekly Boss (75.00K -> 1000K)",
       "(Any character may play active; what is best active for that character)"
+     ]
+    },
+    {
+     "block": "Every character: Worship",
+     "kind": "every",
+     "steps": [
+      "Worship Lv 95 (Dreadnaught Skull), charge 151 / 10,276, 387.36%/day, full in 26d 3h.",
+      "(Zack 2026-11-19: everyone levels worship + collects charge; Autistacular runs totems, Autistabish owns the soul budget)"
      ]
     },
     {
@@ -3708,6 +3724,15 @@
      "steps": [
       "Combat Lv 846",
       "(Each character has its own combat goals)"
+     ]
+    },
+    {
+     "block": "Every character: Worship",
+     "kind": "every",
+     "steps": [
+      "Worship Lv 84 (Luciferian Skull), charge 111 / 7,236, 300.24%/day, full in 23d 17h.",
+      "Charge rate below the group median 387%/day: a higher skull or worship levels close it.",
+      "(Zack 2026-11-19: everyone levels worship + collects charge; Autistacular runs totems, Autistabish owns the soul budget)"
      ]
     }
    ],
@@ -5154,8 +5179,18 @@
     },
     {
      "block": "Construction",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "TOP: Refinery Throttle READY on Autistastic, Autistomatic (Squire cycles, use them).",
+      "Redox Salts rank 30 (max safe 4,831, capped by Spore Cap), +4,500/hr, auto refine off. Per cycle: Spore Cap 1,640, Copper Ore 820. Room to rank up.",
+      "Explosive Salts rank 23 (max safe 30, capped by Redox Salts), +630/hr, auto refine off. Per cycle: Bullfrog Horn 1,100, Forest Fibres 550, Redox Salts 116. Room to rank up.",
+      "Spontaneity Salts rank 22 (max safe 23, capped by Explosive Salts), +8,971.13/hr, auto refine off. Per cycle: Pocket Sand 5,150, Goldfish 3,090, Fly 4,120, Explosive Salts 110. Room to rank up.",
+      "Dioxide Synthesis rank 19 (max safe 108, capped by Spontaneity Salts), +566.04/hr, auto refine off. Per cycle: Floof Ploof 820, Dune Soul 164, Scorpie 82, Spontaneity Salts 45. Room to rank up.",
+      "Purple Salt rank 15 (max safe 19, capped by Dioxide Synthesis), +158.49/hr, auto refine off. Per cycle: Cracked Glass 1,450, Bloach 290, Sentient Cereal 290, Mousey 290, Dioxide Synthesis 66. Room to rank up.",
+      "Nullo Salt rank 14 (max safe 15, capped by Purple Salt), +1,381.13/hr, auto refine off. Per cycle: Contact Lense 2,600, Void Bar 260, Wispy Lumber 260, Flycicle 260, Frigid Soul 260, Purple Salt 60. Room to rank up.",
+      "Souls the salt chain eats: Dune Soul 3,713/hr (89,119/day), Frigid Soul 5,887/hr (141,286/day). Worship has to cover this before any prayer/stamp soul spend.",
+      "Griffy: red salts first, keep explosive/blue/green levels limited, aim for perpetual motion; refinery cycles are S tier in the skull shop. Prints feed the salts (Spore Cap + Copper -> Redox, Goldfish + Fly + Pocket Sand -> Spontaneity), so those prints stay locked.",
+      "Locked salts: Crosslink Salt, Propagated Salt, Anionic Salt",
       "Buildings: CREATORS: Build Crescent Shrine for increased crystal and giant mob spawn chances. (Griffy 2026-09 @00:39:52)",
       "Buildings: CREATORS: Upgrade Death Note while its construction cost remains cheap. (Griffy 2026-10 @01:02:26)",
       "Buildings: Push: Kraken Cosplayer 82 -> 90",
@@ -5298,6 +5333,14 @@
      "steps": [
       "Combat Lv 835",
       "(Each character has its own combat goals)"
+     ]
+    },
+    {
+     "block": "Every character: Worship",
+     "kind": "every",
+     "steps": [
+      "Worship Lv 101 (Dreadnaught Skull), charge 131 / 8,716, 389.28%/day, full in 22d 1h.",
+      "(Zack 2026-11-19: everyone levels worship + collects charge; Autistacular runs totems, Autistabish owns the soul budget)"
      ]
     },
     {
@@ -6557,6 +6600,18 @@
      ]
     },
     {
+     "block": "Every character: Worship",
+     "kind": "every",
+     "steps": [
+      "Worship Lv 112 (Dreadnaught Skull), charge 241 / 10,736, 667.2%/day, full in 15d 18h.",
+      "Fastest charger (1.7x median): Elemental Sorcerer, so likely the mage worship talents (my read; verify in talents).",
+      "Owns the soul budget: refinery eats Dune + Frigid first, prayers/stamps spend only above reserve.",
+      "Dune Soul: 9,130,000 held, salts eat 89,119/day (102 days cover).",
+      "Frigid Soul: 6,580,000 held, salts eat 141,286/day (47 days cover).",
+      "(Zack 2026-11-19: everyone levels worship + collects charge; Autistacular runs totems, Autistabish owns the soul budget)"
+     ]
+    },
+    {
      "block": "Every character: 3D Printer slots",
      "kind": "every",
      "steps": [
@@ -7221,7 +7276,7 @@
      "tiers": {},
      "subs": [],
      "next": [],
-     "note": "Waves 440/500 for Menagerie mission. Lowest: Breezy Battle 10, Citric Conflict 28",
+     "note": "Beast Master runs the totems (Zack 2026-11-19). Menagerie 500-wave mission met (602)",
      "where": [],
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)"
     },
@@ -7332,14 +7387,6 @@
      "src": "AutoReview Compass + game"
     },
     {
-     "id": "worship_totems",
-     "owner": "Autistacular",
-     "task": "Worship totems: Breezy Battle 10, Citric Conflict 28 (need 500 total)",
-     "importance": 2,
-     "minutes": 30,
-     "src": "AutoReview + Menagerie mission"
-    },
-    {
      "id": "breeding_ww",
      "owner": "Autistacular",
      "task": "Active WW breeding overnight (normal form, Whale Wallop on bar). Fence = one type at a time: drop rate shinies Slime 5->20, Choccie 5->20, Xylobone 10->20 (cap 20 until Menagerie unlock 12)",
@@ -7431,11 +7478,6 @@
      "src": "AutoReview Compass + game"
     },
     {
-     "do": "ACTIVE Worship totems: Breezy Battle 10, Citric Conflict 28 (need 500 total)",
-     "done": "30 min session",
-     "src": "AutoReview + Menagerie mission"
-    },
-    {
      "do": "ACTIVE Active WW breeding overnight (normal form, Whale Wallop on bar). Fence = one type at a time: drop rate shinies Slime 5->20, Choccie 5->20, Xylobone 10->20 (cap 20 until Menagerie unlock 12) \u00b7 Method: Pulse 6JgdYbiEKus 23:23 (one type to cap, then next); Rate pets = ~0.2% faster per level (my math): low value, swapped off fence; Night 1 (11/17): rate pets +18-21K shiny days each",
      "done": "480 min session",
      "src": "Pulse + AutoReview + my read"
@@ -7501,9 +7543,18 @@
     },
     {
      "block": "Worship totems (waves)",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
-      "PLAN: Waves 440/500 for Menagerie mission. Lowest: Breezy Battle 10, Citric Conflict 28"
+      "Worship Lv 82 (Dreadnaught Skull), charge 63 / 8,642, 382.8%/day, full in 22d 10h.",
+      "Runs the totems: spend charge on the wave pushes in the Worship block, then the lowest-wave totem.",
+      "TOP: Pufferblob Brawl has never been run (wave 0). Every new wave adds to the Worship totalizer (total 602).",
+      "Wave pushes that unlock prayers: Goblin Gorefest 100 -> 121 unlocks Zerg Rushogen; Wakawaka War 80 -> 101 unlocks Jawbreaker; Acorn Assault 82 -> 111 unlocks Ruck Sack; Frosty Firefight 70 -> 121 unlocks Beefy For Real; Clash of Cans 70 -> 131 unlocks Glitterbug",
+      "Best waves: Goblin Gorefest 100, Wakawaka War 80, Acorn Assault 82, Frosty Firefight 70, Clash of Cans 70, Citric Conflict 90, Breezy Battle 110, Pufferblob Brawl 0. (Zack: passed 100 on the W6 totem yesterday, after this save.)",
+      "Totalizer bonuses: DMG 60%, Class XP 67.2%, Skill XP 60%, Spelunking Pow 0%, Research Exp 0%",
+      "Soul budget: Dune Soul 9,130,000 held; the salt chain eats 3,713/hr (89,119/day). Refill: Wakawaka War runs (totem-soul map is my read, verify).",
+      "Soul budget: Frigid Soul 6,580,000 held; the salt chain eats 5,887/hr (141,286/day). Refill: Frosty Firefight runs (totem-soul map is my read, verify).",
+      "Charge (spent on totem runs): Autistronaut 201 / 10,037 (668.16%/day, full in 14d 17h), Autistabish 241 / 10,736 (667.2%/day, full in 15d 18h), Autistomatic 116 / 8,512 (384.72%/day, full in 21d 20h) fill first.",
+      "Griffy 2026-10 towers: get Voidinator ASAP, Frozen as the last line, Kraken for small enemies, don't call two tiny-enemy waves together. Pulse 2026-10: Clash of Cans soul is best for worship XP."
      ]
     },
     {
@@ -7558,6 +7609,15 @@
      "steps": [
       "Autistacular- Kill 1M Choccies for W2 Weekly Boss (125.12K -> 1000K)",
       "(Any character may play active; what is best active for that character)"
+     ]
+    },
+    {
+     "block": "Every character: Worship",
+     "kind": "every",
+     "steps": [
+      "Worship Lv 82 (Dreadnaught Skull), charge 63 / 8,642, 382.8%/day, full in 22d 10h.",
+      "Runs the totems: spend charge on the wave pushes in the Worship block, then the lowest-wave totem.",
+      "(Zack 2026-11-19: everyone levels worship + collects charge; Autistacular runs totems, Autistabish owns the soul budget)"
      ]
     },
     {
@@ -8929,6 +8989,14 @@
      ]
     },
     {
+     "block": "Every character: Worship",
+     "kind": "every",
+     "steps": [
+      "Worship Lv 96 (Dreadnaught Skull), charge 60 / 8,744, 387.6%/day, full in 22d 10h.",
+      "(Zack 2026-11-19: everyone levels worship + collects charge; Autistacular runs totems, Autistabish owns the soul budget)"
+     ]
+    },
+    {
      "block": "Every character: 3D Printer slots",
      "kind": "every",
      "steps": [
@@ -9348,9 +9416,18 @@
     },
     {
      "block": "Construction #2",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
-      "PLAN: Shares Tastic's Buildings list"
+      "TOP: Refinery Throttle READY on Autistastic, Autistomatic (Squire cycles, use them).",
+      "Redox Salts rank 30 (max safe 4,831, capped by Spore Cap), +4,500/hr, auto refine off. Per cycle: Spore Cap 1,640, Copper Ore 820. Room to rank up.",
+      "Explosive Salts rank 23 (max safe 30, capped by Redox Salts), +630/hr, auto refine off. Per cycle: Bullfrog Horn 1,100, Forest Fibres 550, Redox Salts 116. Room to rank up.",
+      "Spontaneity Salts rank 22 (max safe 23, capped by Explosive Salts), +8,971.13/hr, auto refine off. Per cycle: Pocket Sand 5,150, Goldfish 3,090, Fly 4,120, Explosive Salts 110. Room to rank up.",
+      "Dioxide Synthesis rank 19 (max safe 108, capped by Spontaneity Salts), +566.04/hr, auto refine off. Per cycle: Floof Ploof 820, Dune Soul 164, Scorpie 82, Spontaneity Salts 45. Room to rank up.",
+      "Purple Salt rank 15 (max safe 19, capped by Dioxide Synthesis), +158.49/hr, auto refine off. Per cycle: Cracked Glass 1,450, Bloach 290, Sentient Cereal 290, Mousey 290, Dioxide Synthesis 66. Room to rank up.",
+      "Nullo Salt rank 14 (max safe 15, capped by Purple Salt), +1,381.13/hr, auto refine off. Per cycle: Contact Lense 2,600, Void Bar 260, Wispy Lumber 260, Flycicle 260, Frigid Soul 260, Purple Salt 60. Room to rank up.",
+      "Souls the salt chain eats: Dune Soul 3,713/hr (89,119/day), Frigid Soul 5,887/hr (141,286/day). Worship has to cover this before any prayer/stamp soul spend.",
+      "Griffy: red salts first, keep explosive/blue/green levels limited, aim for perpetual motion; refinery cycles are S tier in the skull shop. Prints feed the salts (Spore Cap + Copper -> Redox, Goldfish + Fly + Pocket Sand -> Spontaneity), so those prints stay locked.",
+      "Locked salts: Crosslink Salt, Propagated Salt, Anionic Salt"
      ]
     },
     {
@@ -9439,6 +9516,14 @@
       "Autistomatic- Kill 1M Choccies for W2 Weekly Boss (133.57K -> 1000K)",
       "Autistomatic- Kill 1M Stiltmoles for W2 Weekly Boss (77.08K -> 1000K)",
       "(Any character may play active; what is best active for that character)"
+     ]
+    },
+    {
+     "block": "Every character: Worship",
+     "kind": "every",
+     "steps": [
+      "Worship Lv 87 (Dreadnaught Skull), charge 116 / 8,512, 384.72%/day, full in 21d 20h.",
+      "(Zack 2026-11-19: everyone levels worship + collects charge; Autistacular runs totems, Autistabish owns the soul budget)"
      ]
     }
    ],
@@ -10111,6 +10196,15 @@
       "Autistronaut- Kill 1M Crabcakes for W2 Weekly Boss (0.72K -> 1000K)",
       "Autistronaut- Kill 1M Choccies for W2 Weekly Boss (127.60K -> 1000K)",
       "(Any character may play active; what is best active for that character)"
+     ]
+    },
+    {
+     "block": "Every character: Worship",
+     "kind": "every",
+     "steps": [
+      "Worship Lv 84 (Dreadnaught Skull), charge 201 / 10,037, 668.16%/day, full in 14d 17h.",
+      "Fastest charger (1.7x median): Elemental Sorcerer, so likely the mage worship talents (my read; verify in talents).",
+      "(Zack 2026-11-19: everyone levels worship + collects charge; Autistacular runs totems, Autistabish owns the soul budget)"
      ]
     }
    ],
@@ -11402,6 +11496,14 @@
      ]
     },
     {
+     "block": "Every character: Worship",
+     "kind": "every",
+     "steps": [
+      "Worship Lv 74 (Dreadnaught Skull), charge 58 / 8,409, 379.44%/day, full in 22d.",
+      "(Zack 2026-11-19: everyone levels worship + collects charge; Autistacular runs totems, Autistabish owns the soul budget)"
+     ]
+    },
+    {
      "block": "Every character: 3D Printer slots",
      "kind": "every",
      "steps": [
@@ -12024,6 +12126,15 @@
       "Autistachio- Kill 1M Dedotated Rams for W2 Weekly Boss (261.58K -> 1000K)",
       "Autistachio- Kill 1M Choccies for W2 Weekly Boss (192.22K -> 1000K)",
       "(Any character may play active; what is best active for that character)"
+     ]
+    },
+    {
+     "block": "Every character: Worship",
+     "kind": "every",
+     "steps": [
+      "Worship Lv 70 (Dreadnaught Skull), charge 113 / 8,409, 377.76%/day, full in 21d 23h.",
+      "Lowest worship level on the account: AFK a few hours at a totem to catch up (my read).",
+      "(Zack 2026-11-19: everyone levels worship + collects charge; Autistacular runs totems, Autistabish owns the soul budget)"
      ]
     },
     {
@@ -13159,14 +13270,6 @@
     "src": "zack"
    },
    {
-    "id": "worship_totems",
-    "owner": "Autistacular",
-    "task": "Worship totems: Breezy Battle 10, Citric Conflict 28 (need 500 total)",
-    "importance": 2,
-    "minutes": 30,
-    "src": "AutoReview + Menagerie mission"
-   },
-   {
     "id": "statues_es",
     "owner": "Autistabish",
     "task": "Box (Penguins) then Seesaw (Cryosnakes) 25 -> 40",
@@ -13352,6 +13455,11 @@
     "job": "Candy",
     "shared": [],
     "note": "Anyone, as long as the candy goes to that job efficiently"
+   },
+   {
+    "job": "Worship",
+    "shared": [],
+    "note": "Zack 2026-11-19: everyone levels worship + collects charge; Autistacular runs totems, Autistabish owns the soul budget"
    },
    {
     "job": "3D Printer slots",

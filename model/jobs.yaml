@@ -71,13 +71,13 @@ characters:
       - {job: "Statues: ES (Box, Seesaw)", sections: [{s: Statues, m: "ES at"}], basis: autoreview}
   Autistacular:   # Wind Walker
     afk: {text: "W7: push the cave until his tasks are planned", src: zack}
-    active: [compass_nomadic, breeding_ww, worship_totems]
+    active: [compass_nomadic, breeding_ww]
     jobs:
       - {job: Sneaking, sections: [Sneaking], basis: class}
       - {job: Breeding, sections: [Breeding], basis: class}
       - {job: "Trapping (collect + set)", sections: [Trapping], basis: zack, note: "Check Trapper Drone building (Buildings C tier) for auto-collect"}
       - {job: Compass, sections: [Compass], basis: class, note: "Nomadic Path 12/38: pos 15 Atomic Cost Crash, 17 Atomic Potential, 32 Aluminium Atom"}
-      - {job: "Worship totems (waves)", sections: [], basis: zack, note: "Waves 440/500 for Menagerie mission. Lowest: Breezy Battle 10, Citric Conflict 28"}
+      - {job: "Worship totems (waves)", sections: [], basis: zack, note: "Beast Master runs the totems (Zack 2026-11-19). Menagerie 500-wave mission met (602)"}
       - {job: "Kilroy (weekly, archer line)", sections: [Killroy], basis: zack, weekly: killroy}
   Autistotle:     # Voidwalker
     afk: {text: "Lab (Maestro Lab catch-up)", src: zack}
@@ -149,6 +149,7 @@ every_character:   # Zack 2026-11-19: systems every character considers in its o
   - {job: "Active play setup", sections: [Active], note: "Any character may play active; what is best active for that character"}
   - {job: "Drop rate", sections: [Drop Rate], note: "All need it; some drive it more"}
   - {job: Candy, sections: [Regular Candy, Variable Candy], note: "Anyone, as long as the candy goes to that job efficiently"}
+  - {job: Worship, sections: [], facts: worship, note: "Zack 2026-11-19: everyone levels worship + collects charge; Autistacular runs totems, Autistabish owns the soul budget"}
   - {job: "3D Printer slots", sections: [], facts: printer, note: "Every character has 2 print slots; owners of Fish/Bug/Ore/Log prints see this on their prints block"}
 
 unassigned:
@@ -158,7 +159,6 @@ active_tasks:   # importance 1 = top. minutes = rough session length. Quick win 
   - {id: compass_nomadic, owner: Autistacular, task: "Compass Nomadic push (Atomic Cost Crash 15, Atomic Potential 17, Aluminium 32)", importance: 1, minutes: 120, src: "AutoReview Compass + game"}
   - {id: statues_es, owner: Autistabish, task: "Box (Penguins) then Seesaw (Cryosnakes) 25 -> 40", importance: 2, minutes: 60, src: "AutoReview statue table"}
   - {id: dk_crystals, owner: Autistomatic, task: "DK crystals at Minichiefs: Essence Statue 2 -> 40", importance: 2, minutes: 60, src: "AutoReview statue table"}
-  - {id: worship_totems, owner: Autistacular, task: "Worship totems: Breezy Battle 10, Citric Conflict 28 (need 500 total)", importance: 2, minutes: 30, src: "AutoReview + Menagerie mission"}
   - {id: greenstacks, owner: Autistotle, task: "Greenstack runs (closest items, candy/skips)", importance: 3, minutes: 30, src: zack}
   - {id: observations, owner: Autistotle, task: "Research observations (daily tries)", importance: 2, minutes: 10, src: zack}
   - {id: achievements, owner: Autistopher, task: "Achievement runs (easiest open first)", importance: 3, minutes: 30, src: zack}

@@ -394,7 +394,7 @@ for l in Y.get('locked', []):
                         if b['kind'] == 'unlock' and l['feature'] in b['block']: b['steps'].append(f"BLOCKED on {o_unlock}'s job")
 # ---------- system planners (model/<system>.py: build() + card_lines(); optional routed()) ----------
 import importlib
-PLANNERS = [('sailing', 'Sailing'), ('farming', 'Farming'), ('cooking', 'Cooking'), ('divinity', 'Divinity'), ('breeding', 'Breeding'), ('printer', 'prints'), ('alchemy', 'Alchemy'), ('stamps', 'Stamps'), ('greenstacks', 'Greenstacks'), ('statues', 'Statue turn-ins')]   # (module, daily block name contains)
+PLANNERS = [('sailing', 'Sailing'), ('farming', 'Farming'), ('cooking', 'Cooking'), ('divinity', 'Divinity'), ('breeding', 'Breeding'), ('printer', 'prints'), ('alchemy', 'Alchemy'), ('stamps', 'Stamps'), ('greenstacks', 'Greenstacks'), ('statues', 'Statue turn-ins'), ('refinery', 'Construction'), ('worship', 'Worship totems')]   # (module, daily block name contains)
 for _mod, _blk in PLANNERS:
     try:
         _m = importlib.import_module(_mod)
@@ -445,6 +445,12 @@ for ej in Y.get('every_character', []):
                 steps = _PR.char_lines(_PRO, cd['name']) + steps
             except Exception as e:
                 steps.insert(0, f"Equipped: {', '.join(f.get('equipped_prayers') or []) or 'none'} (prayers planner failed: {e})")
+        if ej.get('facts') == 'worship':
+            try:
+                import worship as _W
+                if '_WO' not in globals(): _WO = _W.build()
+                steps = _W.char_lines(_WO, cd['name']) + steps
+            except Exception as e: steps.insert(0, f"(worship planner failed: {e})")
         if ej.get('facts') == 'combat': steps.insert(0, f"Combat Lv {f.get('combat_level')}")
         if ej.get('facts') == 'printer':
             if any('prints' in b['block'] for b in cd['daily']): continue
