@@ -10,7 +10,7 @@ export async function onRequestPost({ request, env }) {
   let body;
   try { body = await request.json(); } catch { return new Response('bad request', { status: 400 }); }
   if (!env.UPLOAD_PASSCODE || body.passcode !== env.UPLOAD_PASSCODE) return new Response('wrong passcode', { status: 403 });
-  if (body.first !== EXPECT_FIRST) return new Response('that is not the ' + EXPECT_FIRST + ' account', { status: 400 });
+  if (body.first != null && body.first !== EXPECT_FIRST) return new Response('that is not the ' + EXPECT_FIRST + ' account', { status: 400 });
   if (typeof body.gz_b64 !== 'string' || body.gz_b64.length < 1000 || body.gz_b64.length > 5_000_000)
     return new Response('raw data looks wrong', { status: 400 });
 

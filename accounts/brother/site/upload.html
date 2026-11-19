@@ -33,12 +33,14 @@ $('go').onclick = async () => {
   const msg = $('msg'), s = $('raw').value.trim();
   let j;
   try { j = JSON.parse(s); } catch (e) { msg.textContent = 'That is not the raw data. Use Account menu -> Copy raw data.'; return; }
-  if (!j.data || !Array.isArray(j.charNames)) { msg.textContent = 'That is not the raw data. Use Account menu -> Copy raw data.'; return; }
+  // Toolbox "Copy raw data" = bare save (CogO, PlayerStuff_...); profile JSON = {data, charNames}
+  const bare = j && typeof j === 'object' && !j.data && j.CogO !== undefined;
+  if (!bare && (!j.data || !Array.isArray(j.charNames))) { msg.textContent = 'That is not the raw data. Use Account menu -> Copy raw data.'; return; }
   msg.textContent = 'Uploading...';
   const gz = new Uint8Array(await new Response(new Blob([s]).stream().pipeThrough(new CompressionStream('gzip'))).arrayBuffer());
   let b = ''; for (let i = 0; i < gz.length; i += 32768) b += String.fromCharCode.apply(null, gz.subarray(i, i + 32768));
   const r = await fetch('/upload', { method: 'POST', headers: { 'content-type': 'application/json' },
-    body: JSON.stringify({ passcode: $('pc').value, first: j.charNames[0], gz_b64: btoa(b) }) });
+    body: JSON.stringify({ passcode: $('pc').value, first: bare ? null : j.charNames[0], gz_b64: btoa(b) }) });
   const t = await r.text();
   if (r.ok) { try { localStorage.setItem('pc', $('pc').value); } catch (e) {} $('raw').value = '';
     msg.textContent = 'Uploaded. Your dashboard updates in about 3 minutes.'; }

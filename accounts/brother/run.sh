@@ -8,10 +8,23 @@ B="$REPO/accounts/brother"
 W="${WORK:-/tmp/bro_work}"; mkdir -p "$W"
 RAW="$1"
 
-python3 - "$RAW" <<'EOF'
+python3 - "$RAW" "$B/charnames.json" <<'EOF'
+# Accept both shapes: profile JSON {data, charNames} or Toolbox "Copy raw data" (bare save, no names list).
+# Bare saves get the stored slot order (charnames.json); refuse if the roster changed.
 import sys, json
-j = json.load(open(sys.argv[1]))
-assert 'data' in j and j.get('charNames'), 'not a Toolbox raw save (missing data/charNames)'
+raw, cn = sys.argv[1], sys.argv[2]
+j = json.load(open(raw))
+if 'data' not in j:
+    assert 'CogO' in j, 'not a Toolbox raw save'
+    cog = j['CogO']; cog = json.loads(cog) if isinstance(cog, str) else cog
+    names = {k[7:] for k in cog if k.startswith('Player_')}
+    order = json.load(open(cn))
+    assert names == set(order), f'roster changed: save has {sorted(names)}, stored order {order}. Upload once via the profile route or update charnames.json'
+    j = {'data': j, 'charNames': order}
+    json.dump(j, open(raw, 'w'))
+else:
+    assert j.get('charNames'), 'missing charNames'
+    json.dump(j['charNames'], open(cn, 'w'))
 print('raw ok:', len(j['charNames']), 'characters, first', j['charNames'][0])
 EOF
 
