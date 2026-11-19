@@ -8,10 +8,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SNAP = ROOT / 'snapshots' / (ROOT / 'snapshots' / 'LATEST').read_text().strip()
-# plate-cap sources not yet owned -> (owner, how). Owners from model/system_index.yaml; Lunarheim = Spelunking (no owner yet)
+# plate-cap sources not yet owned -> (owner, how). Owners from model/jobs.yaml (Spelunking = Autistomatic)
 CAP_SRC = {'Grimoire (at most 20)': ('Autiszemo', 'Grimoire upgrade "Supreme Head Chef Status" 0 -> 20 (+1 max plate level each)'),
            'Menagerie': ('Autisticles', 'Menagerie unlock 21: +10 max cooking LV, costs 29.75M Lumi and a higher Menagerie rank'),
-           'Lore boss': ('Spelunking (no owner yet)', 'Defeat the Lunarheim cave lore boss in Spelunking: +10')}
+           'Lore boss': ('Autistomatic', 'Defeat the Lunarheim cave lore boss in Spelunking: +10')}
 
 
 def _t(s):

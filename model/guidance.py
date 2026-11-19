@@ -39,6 +39,8 @@ def norm(s):
 
 def build():
     rows = []
+    rf = os.path.join(R, 'sources', 'findings', 'resection.json')
+    RESECT = json.load(open(rf)) if os.path.exists(rf) else {}   # tools/resection.py: advice filed under the wrong system
     for f in glob.glob(os.path.join(R, 'sources', 'creators', '*', 'tags', '*.csv')):
         for r in csv.DictReader(open(f, encoding='utf-8')):
             if r['system'] in ('none', '') or r['claim_type'] in NOT_GUIDANCE or not r.get('statement'):
@@ -51,7 +53,13 @@ def build():
             narr = 0.55 if re.match(r"(he|his|she|they|their|we|i|the player|this player)\b", st, re.I) else 1.0
             w = (CREATOR.get(r['creator'], 1) * TYPE.get(r['claim_type'], 0.5) * STAGE.get(r.get('stage') or 'unknown', 0.7)
                  * (1.0 if r.get('confidence') in ('3', '') else 0.85) * (1 / (1 + 0.6 * age)) * narr)
-            rows.append({'sys': r['system'], 'sub': r.get('subsystem', ''), 'k': norm(r.get('subsystem', '')),
+            rs = RESECT.get(f"{r['video_id']}|{r['t_start']}|{r.get('subsystem', '')}")
+            sysname = rs['to'] if rs and rs['act'] == 'move' else r['system']
+            if rs and rs['act'] == 'also':
+                rows.append({'sys': rs['to'], 'sub': r.get('subsystem', ''), 'k': norm(r.get('subsystem', '')), 'type': r['claim_type'], 'stage': r.get('stage', ''),
+                             'num': r.get('numbers', ''), 'say': r['statement'], 'who': r['creator'], 'date': r.get('date') or '', 'vid': r['video_id'],
+                             't': r['t_start'], 'w': round(w, 4), 'refiled_from': r['system']})
+            rows.append({'sys': sysname, 'sub': r.get('subsystem', ''), 'k': norm(r.get('subsystem', '')),
                          'type': r['claim_type'], 'stage': r.get('stage', ''), 'num': r.get('numbers', ''),
                          'say': r['statement'], 'who': r['creator'], 'date': r.get('date') or '', 'vid': r['video_id'],
                          't': r['t_start'], 'w': round(w, 4)})
@@ -69,10 +77,17 @@ def _idx():
     return json.load(open(OUT))
 
 
+# AutoReview sections the system index never tied to a transcript slug (sweep 2026-11-19)
+SEC_OVERRIDE = {'Sigils': ['sigils'], 'Event Shop': ['event_shop'], 'Smithing': ['anvil', 'forge'], 'Star Signs': ['constellations'],
+                'Bonus Ballot': ['ballot'], 'Armor Sets': ['armor_smithy'], 'Dancing Coral': ['coral_reef'], 'Coral Kid': ['divinity', 'coral_reef'],
+                'Combat Levels': ['characters'], 'Secret Class Path': ['class_choice'], 'Drop Rate': ['drop_rate'], 'Storage': ['storage'],
+                'Regular Candy': ['general'], 'Post Office': ['general']}
+
+
 @lru_cache(None)
 def _sec2slug():
     si = yaml.safe_load(open(os.path.join(R, 'model', 'system_index.yaml')))
-    m = {}
+    m = {k: list(v) for k, v in SEC_OVERRIDE.items()}
     for k, v in si.items():
         slug = v.get('transcripts', {}).get('slug') if isinstance(v.get('transcripts'), dict) else None
         for sec in v.get('autoreview', []) or []:

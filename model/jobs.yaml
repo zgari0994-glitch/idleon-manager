@@ -64,7 +64,7 @@ characters:
     move: {text: "Move Well buckets onto the rock layer: Cobaltine 124,895 left gates #27, #30, #53", src: "Griffy gPQrOK53BDI + findings/hole_caverns_1-5.md"}
     jobs:
       - {job: "Worship: souls + prayers (town)", sections: [Prayers], basis: zack, note: "Totem waves are Autistacular's"}
-      - {job: Divinity, sections: [Divinity], basis: class}
+      - {job: Divinity, sections: [Divinity, Coral Kid], basis: class, note: "Coral Kid upgrades are Divinity (Toolbox Divinity page); moved from W7 reef 2026-11-19"}
       - {job: "The Hole (all 15 caverns + villagers)", sections: [Villagers, Shallow Caverns, Glowshroom Tunnels, Underground Overgrowth], basis: light, findings: [hole_caverns_1-5], daily: ready_only, daily_fixed: ["Opals: 10 each into Cosmos (Conjuror), Minau (Measurer), Kaipu (Engineer) = 20 each (every 10th opal +150% that villager's EXP; Griffy: Conjuror first, then Measurer, keep 1+ in every villager)"]}
       - {job: Slab, sections: [Slab], basis: light, daily: ready_only, note: "Collection: items get picked up when you meet them, no daily action"}
       - {job: "Statues: ES (Box, Seesaw)", sections: [{s: Statues, m: "ES at"}], basis: autoreview}
@@ -124,7 +124,7 @@ characters:
       - {job: "Monuments (after Divinity)", sections: [], basis: zack, note: "Order: Justice 0, Wisdom 0, then Bravery 118 -> 300"}
       - {job: Traps, sections: [], basis: autoreview}
       - {job: "Gallery + capes", sections: [Gallery, Cape Vine], basis: light}
-      - {job: "W7 reef", sections: [Coral Reef, Dancing Coral, Coral Kid], basis: light}
+      - {job: "W7 reef", sections: [Coral Reef, Dancing Coral], basis: light}
 
 lever_routes:   # a lever listed under one job but done by another character's job -> shows on that owner's run, "toward <job>"
   - {m: "bubble", owner: Autistocat}
