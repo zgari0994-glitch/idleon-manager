@@ -1,9 +1,9 @@
 {
  "meta": {
-  "game_save_utc": "2026-11-19T00:10:58.168000+00:00",
-  "game_save_et": "2026-11-18 07:10 PM ET",
-  "review_run_et": "2026-11-18 07:12 PM ET",
-  "autoreview_last_update": "Nov 19, 2026, 12:10:58 AM UTC",
+  "game_save_utc": "2026-11-19T02:12:54.168000+00:00",
+  "game_save_et": "2026-11-18 09:12 PM ET",
+  "review_run_et": "2026-11-19 11:29 AM ET",
+  "autoreview_last_update": "Nov 19, 2026, 2:12:54 AM UTC",
   "switches": {
    "autoloot": "on",
    "doot": "on",
@@ -36,8 +36,8 @@
     "src": "zack",
     "park_rule": "with Autiszemo"
    },
-   "save_map": "W6 map 250",
-   "money": 1.02109156246502e+30,
+   "save_map": "W7 map 302",
+   "money": 1.0210969096209326e+30,
    "jobs": [
     {
      "job": "Farming",
@@ -55,26 +55,26 @@
          "locked": "",
          "section": "Farming",
          "group": "Continue Farming",
-         "label": "Grand Total Magic Bean Cost remaining in this Tier",
-         "cur": "5311.91K",
-         "goal": "172.72K",
+         "label": "Product Doubler:+126/150% chance for crops to be worth 2x when collected",
+         "cur": "42",
+         "goal": "50",
          "score": 150,
-         "ready": true,
+         "ready": false,
          "infinite": false
         },
         {
          "locked": "",
          "section": "Farming",
          "group": "Continue Farming",
-         "label": "Grand Total Magic Bean Cost remaining in this Tier",
-         "cur": "5.31M",
-         "goal": "1.57M",
+         "label": "Stacks for Evolution Gmo (200 crops)",
+         "cur": "10",
+         "goal": "127",
          "score": 150,
-         "ready": true,
+         "ready": false,
          "infinite": false
         }
        ],
-       "more": 18
+       "more": 27
       },
       {
        "name": "Farming: tabbed",
@@ -198,31 +198,31 @@
        "locked": "",
        "section": "Farming",
        "group": "Continue Farming",
-       "label": "Grand Total Magic Bean Cost remaining in this Tier",
-       "cur": "5311.91K",
-       "goal": "172.72K",
-       "score": 150,
-       "ready": true,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Farming",
-       "group": "Continue Farming",
-       "label": "Grand Total Magic Bean Cost remaining in this Tier",
-       "cur": "5.31M",
-       "goal": "1.57M",
-       "score": 150,
-       "ready": true,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Farming",
-       "group": "Continue Farming",
        "label": "Product Doubler:+126/150% chance for crops to be worth 2x when collected",
        "cur": "42",
        "goal": "50",
+       "score": 150,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Farming",
+       "group": "Continue Farming",
+       "label": "Stacks for Evolution Gmo (200 crops)",
+       "cur": "10",
+       "goal": "127",
+       "score": 150,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Farming",
+       "group": "Continue Farming",
+       "label": "Stacks for Speed Gmo (1000 crops)",
+       "cur": "10",
+       "goal": "127",
        "score": 150,
        "ready": false,
        "infinite": false
@@ -1035,12 +1035,11 @@
    ],
    "flags": [],
    "move": {
-    "text": "Farming: Grand Total Magic Bean Cost remaining in this Tier 5311.91K -> 172.72K",
+    "text": "Farming: Product Doubler:+126/150% chance for crops to be worth 2x when collected 42 -> 50",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
-    "READY (Toolbox): Next crop fully grown Crops ready",
-    "Farming / Continue Farming: Grand Total Magic Bean Cost remaining in this Tier (5311.91K / 172.72K) +1 more ready"
+    "READY (Toolbox): Next crop fully grown Crops ready"
    ],
    "active": [
     {
@@ -1093,7 +1092,7 @@
     "Loot Luggage: 1 slots (Vendor)"
    ],
    "park": {
-    "text": "W7 Doodle Reef (Doodlefish) \u00b7 685,000 kills left, 31% done \u00b7 fewest kills left of 2 started targets",
+    "text": "W7 Doodle Reef (Doodlefish) \u00b7 676,000 kills left, 32% done \u00b7 fewest kills left of 2 started targets",
     "src": "data rule (Zack-approved) on AutoReview Death Note"
    },
    "toward": {
@@ -1112,19 +1111,14 @@
      "src": "Toolbox timer"
     },
     {
-     "do": "FIRST (Farming, Zack's order): Grand Total Magic Bean Cost remaining in this Tier 5311.91K -> 172.72K",
-     "done": "172.72K",
+     "do": "FIRST (Farming, Zack's order): Product Doubler:+126/150% chance for crops to be worth 2x when collected 42 -> 50",
+     "done": "50",
      "src": "rinse within that job"
     },
     {
      "do": "PRIORITY (Cooking speed): Cooking: Unlock max level 150 plates 90 -> 150",
      "done": "150",
      "src": "rinse within your priority jobs"
-    },
-    {
-     "do": "Farming: Grand Total Magic Bean Cost remaining in this Tier",
-     "done": "172.72K",
-     "src": "AutoReview (ready now), +1 more"
     },
     {
      "do": "ACTIVE Discover new crop types: Crop Depot Crayon 125 -> 330 (shiny rate +1522% -> +4019%, ~2x total; 200 = Menagerie mission)",
@@ -1147,6 +1141,9 @@
       "Collect all crops, replant",
       "Farming: CREATORS: Before Overgrowth, focus on crop discoveries and possibly additional plots. (Griffy 2026-10 @00:22:14)",
       "Farming: CREATORS: Develop farming and summoning before heavily pushing World 7 because World 6 skills accelerate account progress. (Griffy 2026-09 @00:20:44)",
+      "Farming: Push: Product Doubler:+126/150% chance for crops to be worth 2x when collected 42 -> 50",
+      "Farming:   HOW: Product Doubler is a worthwhile Day Market upgrade. (Griffy 2026-04 @00:51:03)",
+      "Farming:   WHY: Production boost gives crops harvested a percent per plot rank; mega boost and super boost are flat multipliers, all multiply with product doubler. (Nocturne 2024-07 @00:09:13)",
       "Farming: Push: Medal Crop 20 chance8.6e+45 for 100% chance 0.00% -> 100%",
       "Farming:   HOW: The update adds many new crops for medal progression. (Griffy 2026-02 @00:02:34)",
       "Farming:   HOW: The medal hack no longer works; medal crops now mainly progress through quick growth and are an exception to normal sticker ordering. (Pulse 2026-11 @00:17:02)",
@@ -1211,14 +1208,14 @@
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Farming Crop Depot - Highlighter:+64.38/400.2% DR 137 -> 330",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Exotic Market - POMMELION SEED:+0/25% Drop Rate 0 -> \u221e",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Farming Crop Depot - Highlighter:+69.6/400.2% DR 140 -> 330",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Exotic Market - POMMELION SEED:+0/25% Drop Rate 0 -> \u221e",
     "Statue Effect multis and Statue bonuses \u00b7 Level 201 Zenith Mutton Statue: +596.9% Cooking Exp 201 -> \u221e",
     "Statue Effect multis and Statue bonuses \u00b7 Level 211 Zenith Compost Statue: +835.46% Farming Exp 211 -> \u221e",
     "Sources of Printer Output. Grand Total: 57.17 \u00b7 Rift: Skill Mastery: base 7%Additional 1% per Skill at 750: 12/18% 19% -> 25%",
     "Sources of bonus talent levels beyond book le \u00b7 Grimoire: Skull of Major Talent: +0/30 0 -> 30",
     "Sources of Checkout Speed \u00b7 Meal - Fortune Cookie: +1,046.808% Library Checkout Spd 90 -> 180",
-    "Sources of Shiny Pet Level Rate \u00b7 Farming Crop Depot - Crayon:+1668.66/4019.4% Mobs 137 -> 330",
+    "Sources of Shiny Pet Level Rate \u00b7 Farming Crop Depot - Crayon:+1705.2/4019.4% Mobs 140 -> 330",
     "Sources of Pet Damage \u00b7 Meal - Croissant: +261.70% 90 -> 180",
     "Sources of Pet Damage \u00b7 Meal - Wedding Cake: +523.40% 90 -> 180",
     "Remaining sources of max plate levels \u00b7 Upgrade \"Supreme Head Chef Status\" within The Grimoire 0 -> 20",
@@ -2297,10 +2294,10 @@
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Alchemy Bubbles - Droppin Loads: +29.71/39.6% Drop RateNext breakpoint: 80% value at level 202 -> 6930",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Sigils - Trove Sigil: +40/1200% Drop Rate 1 -> 5",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Summoning Bonus:+210% Drop Rate 210 -> 262.5",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Vial - Shipinabottle: 1x Drop Rate MULTI 0 -> 13",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Alchemy Bubbles - Droppin Loads: +29.71/39.6% Drop RateNext breakpoint: 80% value at level 202 -> 6930",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Sigils - Trove Sigil: +40/1200% Drop Rate 1 -> 5",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Summoning Bonus:+210% Drop Rate 210 -> 262.5",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Vial - Shipinabottle: 1x Drop Rate MULTI 0 -> 13",
     "Sources of Card Drop Chance \u00b7 Alchemy Bubbles - Card Champ: +62.96/100% 68 -> 3960",
     "Sources of Carry Capacity \u00b7 Star Sign - Seraph Cosmos: Multis Passive signs by 1.949/5x. Increases every 20 Summoning  126 -> 140",
     "Sources of Stamp Cost Reduction \u00b7 Sigil: Envelope Pile 1 -> 5",
@@ -2751,7 +2748,7 @@
          "section": "Sushi Station",
          "group": "Sushi Station Upgrades",
          "label": "Sushi Slot:Adds a new slot for your Sushi Station!",
-         "cur": "0",
+         "cur": "5",
          "goal": "50",
          "score": 0,
          "ready": false,
@@ -3224,7 +3221,7 @@
        "section": "Sushi Station",
        "group": "Sushi Station Upgrades",
        "label": "Sushi Slot:Adds a new slot for your Sushi Station!",
-       "cur": "0",
+       "cur": "5",
        "goal": "50",
        "score": 0,
        "ready": false,
@@ -3421,10 +3418,23 @@
     },
     {
      "block": "Sailing",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
-      "CREATORS: Wait for good sailing trades to support upgrades. (Griffy 2026-10 @00:28:38)",
-      "CREATORS: Prioritize sailing speed and artifact find chance because current sailing speed is very poor. (Griffy 2026-09 @00:59:32)",
+      "Claim chests every session: pile holds 30, 20 boats fill it in ~48 min (min travel 32 min). Every chest is an artifact roll.",
+      "MOVE 7 boats (best per-chest odds for the artifacts still cheap to finish):",
+      "  Boat 9 (Captain P): World's End -> Dungeon Cove (0.232% -> 0.224% per chest, trip 23.5h -> 32 min)",
+      "  Boat 10 (Captain J): Crystal Enclave -> Isle of Note (0.23% -> 0.375% per chest)",
+      "  Boat 11 (Captain K): The Edge -> Dungeon Cove (0.445% -> 0.224% per chest)",
+      "  Boat 12 (Captain L): World's End -> Candied Island (0.232% -> 0.726% per chest, trip 9.5h -> 32 min)",
+      "  Boat 13 (Captain M): Stormy North -> Rocky Peaks (1.359% -> 1.586% per chest)",
+      "  Boat 16 (Captain I): The Edge -> Isolated Woods (0.445% -> 30.561% per chest)",
+      "  Boat 20 (Captain S): World's End -> Beachy Coast (0.232% -> 4.695% per chest, trip 5.6h -> 32 min)",
+      "Island targets now: Isolated Woods x1: Fun Hippoete Eldritch->Sovereign 1/3, Emerald Relic Sovereign->Omnipotent 1/53; Beachy Coast x1: Gold Relic Sovereign->Omnipotent 1/42, Genie Lamp Sovereign->Omnipotent 1/42; Rocky Peaks x1: Ashen Urn Sovereign->Omnipotent 1/63; Stormy North x1: Triagulon Sovereign->Omnipotent 1/74; Candied Island x1: Dreamcatcher Eldritch->Sovereign 1/275, Gummy Orb Eldritch->Sovereign 1/275; Snowy South x1: Chilled Yarn Eldritch->Sovereign 1/161; Cloudy Quay x2: Cloud Urn Eldritch->Sovereign 1/389, Weatherbook Eldritch->Sovereign 1/389; The Edge x3: The Onyx Lantern Eldritch->Sovereign 1/673, The Shim Lantern Eldritch->Sovereign 1/673, The Winz Lantern Eldritch->Sovereign 1/673; Isle of Note x3: Opera Mask Eldritch->Sovereign 1/616, Socrates Eldritch->Sovereign 1/616; Dungeon Cove x2: Giants Eye Eldritch->Sovereign 1/445; Crystal Enclave x2: Crystal Steak Eldritch->Sovereign 1/502; Petulent Garage x2: Trilobite Rock Eldritch->Sovereign 1/559",
+      "Later (too costly per chest right now): Beachy Coast: Silver Ankh Omnipotent->Transcendent; Rocky Peaks: Arrowhead Omnipotent->Transcendent, 10 AD Tablet Omnipotent->Transcendent; Stormy North: Amberite Omnipotent->Transcendent, Billcye Tri Omnipotent->Transcendent; Snowy South: Frost Relic Omnipotent->Transcendent; The Edge: The True Lantern Sovereign->Omnipotent; World's End: Obsidian Undiscovered->Base, Ender Pearl Undiscovered->Base",
+      "Never found (7): Obsidian, Pointagon, Ender Pearl, Fang of the Gods, Nomenclature, Me First Dollar, Bloodclot. World's End trips take 5.6h+ (5B distance, best speed 888M); The Maw needs 200B and is locked. Speed is the gate there, not odds.",
+      "Artifact odds 3,281x (no captain). Sources still at x1: Sticker, Nightmariner, Companion (Glimbo), Killroy Bonus, The Maw (Grid 106), Vial - Turtle Tisane, Purple Chest Slugs, Jelly Operator, Tome, Sneaking - Glowing Veil, Summoning - Vote Bonus, Companion (Magni Pufferfin)",
+      "AFC captains: Q +323% (boat 18), N +289% (boat 14), O +272% (boat 15), J +208% (boat 10), T +182% (boat 17), R +162% (boat 19), C +144% (boat 3), A +119% (boat 1). Each +100% AFC = +8% odds.",
+      "Shop captains with AFC: Cloud Discover Rate 10%/lv / Artifact Find Chance 12%/lv; Artifact Find Chance 14%/lv / Cloud Discover Rate 30%/lv (only worth it if a captain slot is free)",
       "Push: The Winz Lantern 3 -> 4",
       "Push: Anyone Minor Linked to Purrmep: +0.00% 0 -> 1",
       "Push: Moai HeadGet bonuses from all shrines from any map! You must be in same map/worl 5 -> 7"
@@ -3457,7 +3467,7 @@
      "steps": [
       "Sushi Station: CREATORS: The sushi strategy obtains high tiers without excessive spending. (Griffy 2026-04 @00:01:18)",
       "Sushi Station: CREATORS: After the cascade leaves one tier 28, merge tier-27 sushi to restart paired upgrades. [remaining tier=28;new tier=27] (Griffy 2026-04 @00:06:45)",
-      "Sushi Station: Push: Sushi Slot:Adds a new slot for your Sushi Station! 0 -> 50",
+      "Sushi Station: Push: Sushi Slot:Adds a new slot for your Sushi Station! 5 -> 50",
       "Sushi Station: Push: Unique Sushi (consecutive tiers cooked): 10 10 -> 64",
       "Luminous Menagerie: CREATORS: Extra Menagerie missions boost scales aggressively; 19 levels at roughly 6-7 hours per level; critical for progressing missions. [levels=19;hours_per_level=6-7;per_level=+1 mission] (Pulse 2026-10 @00:00:30)",
       "Luminous Menagerie: CREATORS: Keep missions boost and second shelf second upgrade roughly level with slight priority on the second shelf. (Pulse 2026-10 @00:01:01)",
@@ -3503,10 +3513,10 @@
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Arcade Bonus 27: +26.29/60.3% Drop Rate 78 -> 101",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Artifacts - Chilled Yarn: 4/8x Sigil BonusesNote: Improves the sigil below 3 -> 7",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Companions - Clammie:+100% Class EXP and Drop Rate 0 -> 1",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Unique Sushi #49: 1.1x Drop Rate 0 -> 1",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Arcade Bonus 27: +26.29/60.3% Drop Rate 78 -> 101",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Artifacts - Chilled Yarn: 4/8x Sigil BonusesNote: Improves the sigil below 3 -> 7",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Companions - Clammie:+100% Class EXP and Drop Rate 0 -> 1",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Unique Sushi #49: 1.1x Drop Rate 0 -> 1",
     "Sources of Stamp Cost Reduction \u00b7 Artifact: Chilled Yarn increases sigil by 4x 3 -> 7",
     "Sources of Forge Ore Capacity \u00b7 Arcade Bonus 26: +0/201% Forge Capacity 0 -> 101",
     "Statue Effect multis and Statue bonuses \u00b7 Onyx base bonus: 2/2xTotal including The Onyx Lantern : 2.9/4.1x 3 -> 7",
@@ -3554,7 +3564,7 @@
     "Sources of Sailing Speed \u00b7 Goharut Blessing: +232% 58 -> 100",
     "Sources of Sailing Speed \u00b7 Bagur Blessing: +300% 60 -> 100",
     "Sources of Sailing Speed \u00b7 Sailing: Level 5 10 AD Tablet: +2525.0% 5 -> 7",
-    "Sources of Sailing Speed \u00b7 MSA Sailing: +44% (+1% per 10 waves in Worship) 440 -> 2100",
+    "Sources of Sailing Speed \u00b7 MSA Sailing: +60% (+1% per 10 waves in Worship) 602 -> 2100",
     "Sources of daily Corals \u00b7 Legend Talent - Coral Restoration: +0% more Daily Coral gained each and every day!Next Lv: 0 -> 2",
     "Sources of daily Corals \u00b7 Arcade Bonus 57: +4.73/20.1% Daily Coral 31 -> 101",
     "Sources of daily Corals \u00b7 Level 0 Coral Statue: +0.00% 0 -> \u221e"
@@ -5066,13 +5076,13 @@
    ],
    "buffs_missing": [
     "Sources of Crystal Spawn Chance \u00b7 Level 24 Crescent Shrine: +300%Shrines have no Max level. Goal of 32 is arbitrary 24 -> 32",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Emperor Showdown:+21% Drop Rate 2 -> \u221e",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Emperor Showdown:+21% Drop Rate 2 -> \u221e",
     "Sources of Carry Capacity \u00b7 Level 24 Pantheon Shrine: +76%Shrines have no Max level. Goal of 32 is arbitrary 24 -> 32",
     "Sources of Max Atom Levels \u00b7 Purchasing the final SuperBit in Gaming will increase the max level of all Atoms by 10 0 -> 1",
     "Sources of Max Atom Levels \u00b7 Nomadic-17: Atomic Potential: +0.00 Max LV for all atoms in the Atom Collider(1.00 per lev 0 -> 20",
     "Sources of Max Atom Levels \u00b7 Menagerie - Boost 18: +0 Max LVs for all AtomsNeeds a higher Menagerie Rank 0 -> \u221e",
     "Sources of Atom Collider Cost Reduction \u00b7 Neon - Damage N' Cheapener: 30/40% 30 -> 40",
-    "Sources of Atom Collider Cost Reduction \u00b7 Atom Collider building: 2.1/20.0% 21 -> 200",
+    "Sources of Atom Collider Cost Reduction \u00b7 Atom Collider building: 2.3/20.0% 23 -> 200",
     "Sources of Atom Collider Cost Reduction \u00b7 Death of the Atom Price: All Atoms are +0.0% cheaper to upgrade(1.00 per level after Writh 0 -> 999999",
     "Sources of Atom Collider Cost Reduction \u00b7 Nomadic-15: Atomic Cost Crash: All Atoms are +4.00% cheaper to upgrade(1.00 per level) 4 -> 999999"
    ]
@@ -5087,7 +5097,7 @@
     "src": "AutoReview statue table"
    },
    "save_map": "W3 map 108",
-   "money": 1.53288898394836e+30,
+   "money": 1.5328956395870277e+30,
    "jobs": [
     {
      "job": "Worship: souls + prayers (town)",
@@ -5389,7 +5399,7 @@
          "section": "Villagers",
          "group": "Level 27 Kaipu, The Engineer",
          "label": "Next level progress",
-         "cur": "4.4%",
+         "cur": "4.5%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -5418,7 +5428,7 @@
          "section": "Villagers",
          "group": "Level 34 Cosmos, The Conjuror",
          "label": "Next level progress",
-         "cur": "2.9%",
+         "cur": "3.0%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -5465,7 +5475,7 @@
          "section": "Villagers",
          "group": "Level 69 Bolaia, The Librarian",
          "label": "Next level progress",
-         "cur": "45.1%",
+         "cur": "45.3%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -6312,10 +6322,10 @@
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Caverns - Measurement #16:+0.00% Drop Rate (scales with Golem Kills) 0 -> \u221e",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Schematic #45 - Gloomie Lootie:+5% Drop Rate for each Colony of Gloomie Mushrooms defeated 0 -> \u221e",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Schematic #82 - Sanctum of LOOT:+20% Drop Rate for each Sanctum of Ancient Golems you've c 0 -> \u221e",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Cavern 13- Wisdom Monument:+0.0% Player Drop Rate 0 -> \u221e",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Caverns - Measurement #16:+0.00% Drop Rate (scales with Golem Kills) 0 -> \u221e",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Schematic #45 - Gloomie Lootie:+5% Drop Rate for each Colony of Gloomie Mushrooms defeated 0 -> \u221e",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Schematic #82 - Sanctum of LOOT:+20% Drop Rate for each Sanctum of Ancient Golems you've c 0 -> \u221e",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Cavern 13- Wisdom Monument:+0.0% Player Drop Rate 0 -> \u221e",
     "Sources of Carry Capacity \u00b7 Prayer: Ruck Sack: 0/177% 0 -> 50",
     "Sources of Forge Ore Capacity \u00b7 Villager Cosmos Majik - Beeg Beeg Forge: Increase the forge capacity by 3/243x 1 -> 5",
     "Statue Effect multis and Statue bonuses \u00b7 Level 164 Zenith Spiral Statue: +1,623.4% Divinity Exp 164 -> \u221e",
@@ -6722,7 +6732,7 @@
          "label": "Elemental-0: Elemental Path",
          "cur": "12",
          "goal": "15",
-         "score": 134,
+         "score": 133,
          "ready": false,
          "infinite": false
         },
@@ -6733,7 +6743,7 @@
          "label": "Elemental-0: Elemental Path",
          "cur": "12",
          "goal": "20",
-         "score": 134,
+         "score": 133,
          "ready": false,
          "infinite": false
         }
@@ -6751,7 +6761,7 @@
          "label": "Abominations Slain",
          "cur": "16",
          "goal": "19",
-         "score": 134,
+         "score": 133,
          "ready": false,
          "infinite": false
         },
@@ -6762,7 +6772,7 @@
          "label": "Abominations Slain",
          "cur": "16",
          "goal": "25",
-         "score": 134,
+         "score": 133,
          "ready": false,
          "infinite": false
         }
@@ -6780,7 +6790,7 @@
          "label": "Medallions Collected",
          "cur": "27",
          "goal": "39",
-         "score": 134,
+         "score": 133,
          "ready": false,
          "infinite": false
         },
@@ -6791,7 +6801,7 @@
          "label": "Medallions Collected",
          "cur": "27",
          "goal": "50",
-         "score": 134,
+         "score": 133,
          "ready": false,
          "infinite": false
         }
@@ -6923,7 +6933,7 @@
        "label": "Elemental-0: Elemental Path",
        "cur": "12",
        "goal": "15",
-       "score": 134,
+       "score": 133,
        "ready": false,
        "infinite": false
       },
@@ -6934,7 +6944,7 @@
        "label": "Elemental-0: Elemental Path",
        "cur": "12",
        "goal": "20",
-       "score": 134,
+       "score": 133,
        "ready": false,
        "infinite": false
       },
@@ -6945,7 +6955,7 @@
        "label": "Fighter-0: Fighter Path",
        "cur": "15",
        "goal": "22",
-       "score": 134,
+       "score": 133,
        "ready": false,
        "infinite": false
       }
@@ -7264,9 +7274,9 @@
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Breeding - Shiny Slime: +5/20% Drop Rate 5 -> 20",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Breeding - Shiny Xylobone: +10/20% Drop Rate 10 -> 20",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Breeding - Shiny Choccie: +5/20% Drop Rate 5 -> 20",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Breeding - Shiny Slime: +5/20% Drop Rate 5 -> 20",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Breeding - Shiny Xylobone: +10/20% Drop Rate 10 -> 20",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Breeding - Shiny Choccie: +5/20% Drop Rate 5 -> 20",
     "Statue Effect multis and Statue bonuses \u00b7 Level 178 Zenith Egg Statue: +704.79% Breeding Exp 178 -> \u221e",
     "Sources of Printer Output. Grand Total: 57.17 \u00b7 Compass: Nomadic-3: Moon of Print: 1.12x (6/100 days) 6 -> 100",
     "Sources of bonus talent levels beyond book le \u00b7 Rift: Sneaking Mastery: +0/5 (Mastery III) 1 -> 3",
@@ -7628,7 +7638,7 @@
          "section": "Greenstacks",
          "group": "Difficulty Group 7 Item recommendations",
          "label": "Frigid Soul",
-         "cur": "66%",
+         "cur": "65%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -7906,7 +7916,7 @@
          "locked": "",
          "section": "Endangered Greenstacks",
          "group": "Still obtainable",
-         "label": "Strange Rock- Stiltzcho: No Stone Unturned",
+         "label": "Ketchup Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce",
          "cur": "0%",
          "goal": "100%",
          "score": 126,
@@ -7917,7 +7927,7 @@
          "locked": "",
          "section": "Endangered Greenstacks",
          "group": "Still obtainable",
-         "label": "Mustard Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce",
+         "label": "Claiming Cashe- Goldric: Only Winners have Portraits",
          "cur": "0%",
          "goal": "100%",
          "score": 126,
@@ -8221,7 +8231,7 @@
          "group": "Meritocracy Bonuses",
          "label": "Multiplies your chance to get Double Snail Mail each day by 2.5x",
          "cur": "",
-         "goal": "16%",
+         "goal": "17%",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -8232,7 +8242,7 @@
          "group": "Meritocracy Bonuses",
          "label": "Multiplies your Monument Reward Multi by 3x",
          "cur": "",
-         "goal": "52%",
+         "goal": "51%",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -8441,7 +8451,7 @@
       "Greenstacks: Push: Collect 200 Greenstacks 172 -> 200",
       "Greenstacks: Push: Potent Strength Potion (W4 Town) 43% -> 100%",
       "Greenstacks: Push: Potent Speed Potion (W4 Town) 40% -> 100%",
-      "Endangered Greenstacks: Push: Strange Rock- Stiltzcho: No Stone Unturned 0% -> 100%"
+      "Endangered Greenstacks: Push: Ketchup Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce 0% -> 100%"
      ]
     },
     {
@@ -8459,7 +8469,7 @@
       "Bonus Ballot: Push: Equinox: Voter Rights: +0/42% Ballot Bonus 0 -> 42",
       "Meritocracy: CREATORS: Consider Poppy around World 7 for doubled Ballot and Meritocracy bonuses. [bonus_multiplier=2] (Griffy 2026-09 @00:04:47)",
       "Meritocracy: CREATORS: Once sufficiently progressed in World 7 Meritocracy largely determines the week's activity priorities. (Griffy 2026-07 @00:14:14)",
-      "Meritocracy: Push: Multiplies your chance to get Double Snail Mail each day by 2.5x  -> 16%"
+      "Meritocracy: Push: Multiplies your chance to get Double Snail Mail each day by 2.5x  -> 17%"
      ]
     },
     {
@@ -8471,12 +8481,11 @@
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Research - Divine Design (N4):Arctis nods in approval... all Research Grid bonuses are 1.0 0 -> 1",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Research - Glimbo Insider Trading Secrets (I4):+0/1% Drop Rate TRUE Multi per 100 Glimbo T 0 -> 1",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Tome - Drop Rate Multi: 1x Drop Rate MULTIRequires Singed Tome from the Event Shop 0 -> 1",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Research - Divine Design (N4):Arctis nods in approval... all Research Grid bonuses are 1.0 0 -> 1",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Research - Glimbo Insider Trading Secrets (I4):+0/1% Drop Rate TRUE Multi per 100 Glimbo T 0 -> 1",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Tome - Drop Rate Multi: 1x Drop Rate MULTIRequires Singed Tome from the Event Shop 0 -> 1",
     "Sources of Printer Output. Grand Total: 57.17 \u00b7 Event Shop: Supreme Wiring:1.00x (0/50 days) 0 -> 50",
-    "Sources of daily Corals \u00b7 Event Shop - Coolral: x1.0/x1.3 Daily Corals 0 -> 1",
-    "Sources of daily Corals \u00b7 Gem Shop - More Coral (W7): x2.0/x3.0 Daily Corals 5 -> 10"
+    "Sources of daily Corals \u00b7 Event Shop - Coolral: x1.0/x1.3 Daily Corals 0 -> 1"
    ]
   },
   {
@@ -8932,7 +8941,7 @@
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Spelunking - Golden Hardhat:+0/500% Drop Rate. For all characters, all the time, except fo 0 -> 500",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Spelunking - Golden Hardhat:+0/500% Drop Rate. For all characters, all the time, except fo 0 -> 500",
     "Remaining sources of max plate levels \u00b7 Spelunking:Defeat the Boss of the Lunarheim Cave 0 -> 1"
    ]
   },
@@ -9585,11 +9594,11 @@
    "buffs_missing": [
     "Sources of Crystal Spawn Chance \u00b7 Hyperion Nebula- Demon Genie card:+90/105% Crystal Mob Spawn Chance 6 -> 7",
     "Sources of Crystal Spawn Chance \u00b7 Blunder Hills- Poop card:+60/70% Crystal Mob Spawn Chance 6 -> 7",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Bosses n Nightmares- Domeo Magmus card:+3/10.5% Total Drop Rate (Passive) 2 -> 7",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Smolderin' Plateau- Ancient Golem card:+8/28% Total Drop Rate (Passive) 2 -> 7",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Smolderin' Plateau- Crystal Glunko card:+0/42% Total Drop Rate (Passive) 0 -> 7",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Events- IdleOn 4th Anniversary card:+0/14% Drop Rate (Passive) 0 -> 7",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Events- Luckulyte card:+0/21% Drop Rate (Passive) 0 -> 7",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Bosses n Nightmares- Domeo Magmus card:+3/10.5% Total Drop Rate (Passive) 2 -> 7",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Smolderin' Plateau- Ancient Golem card:+8/28% Total Drop Rate (Passive) 2 -> 7",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Smolderin' Plateau- Crystal Glunko card:+0/42% Total Drop Rate (Passive) 0 -> 7",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Events- IdleOn 4th Anniversary card:+0/14% Drop Rate (Passive) 0 -> 7",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Events- Luckulyte card:+0/21% Drop Rate (Passive) 0 -> 7",
     "Sources of Card Drop Chance \u00b7 Guild Bonus - C2 Card Spotter:+15.88% Card Drop Rate 18 -> 50",
     "Sources of Card Drop Chance \u00b7 Frostbite Tundra- Sir Stache card:+54/63% Card Drop Chance 6 -> 7",
     "Sources of Card Drop Chance \u00b7 Events- Egggulyte card:+0/7% Card Drop Chance 0 -> 7",
@@ -9800,7 +9809,7 @@
          "label": "Total Stamp Levels",
          "cur": "9565",
          "goal": "11000",
-         "score": 146,
+         "score": 145,
          "ready": false,
          "infinite": false
         },
@@ -9811,7 +9820,7 @@
          "label": "Total Stamp Levels",
          "cur": "9565",
          "goal": "13000",
-         "score": 146,
+         "score": 145,
          "ready": false,
          "infinite": false
         }
@@ -9829,7 +9838,7 @@
          "label": "Skill: Drippy Drop Stamp",
          "cur": "95",
          "goal": "100",
-         "score": 146,
+         "score": 145,
          "ready": false,
          "infinite": false
         },
@@ -9840,7 +9849,7 @@
          "label": "Skill: Ladle Stamp",
          "cur": "160",
          "goal": "180",
-         "score": 146,
+         "score": 145,
          "ready": false,
          "infinite": false
         }
@@ -9916,7 +9925,7 @@
          "label": "Skill: Multitool Stamp",
          "cur": "0",
          "goal": "1",
-         "score": 146,
+         "score": 145,
          "ready": false,
          "infinite": false
         },
@@ -9927,7 +9936,7 @@
          "label": "Skill: Matty Bag Stamp",
          "cur": "0",
          "goal": "1",
-         "score": 146,
+         "score": 145,
          "ready": false,
          "infinite": false
         }
@@ -9943,7 +9952,7 @@
        "label": "Total Stamp Levels",
        "cur": "9565",
        "goal": "11000",
-       "score": 146,
+       "score": 145,
        "ready": false,
        "infinite": false
       },
@@ -9954,7 +9963,7 @@
        "label": "Total Stamp Levels",
        "cur": "9565",
        "goal": "13000",
-       "score": 146,
+       "score": 145,
        "ready": false,
        "infinite": false
       },
@@ -9965,7 +9974,7 @@
        "label": "Skill: Drippy Drop Stamp",
        "cur": "95",
        "goal": "100",
-       "score": 146,
+       "score": 145,
        "ready": false,
        "infinite": false
       }
@@ -10791,7 +10800,7 @@
      "Super CHOWs (cooking speed 1.1x each, count only on him)",
      "Upgrade Vault"
     ],
-    "rinse1": "Stamps: Total Stamp Levels 9565 -> 11000 (score 146)",
+    "rinse1": "Stamps: Total Stamp Levels 9565 -> 11000 (score 145)",
     "flag": "Rinse ranks Stamps first, not your priority (Cooking speed)"
    },
    "today": [
@@ -10937,11 +10946,11 @@
    "buffs_missing": [
     "Sources of Crystal Spawn Chance \u00b7 Stamps - Crystallin: +185.09% Spawn Chance 180 -> 270",
     "Sources of Crystal Spawn Chance \u00b7 Level 127/299 booked Cmon Out Crystals talent (Jman only) 127 -> 299",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Owl - Drop Rate:+165% Drop Rate 10 -> \u221e",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Stamps - Golden Sixes Stamp: +26.47% Drop RateNote: Can be increased by Exalting the stamp 90 -> 210",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Equinox: Faux Jewels: +0/165% Drop Rate 0 -> 33",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Grey Tome Book: 1.26x higher bonuses from the Tome(1.00 per level: Not scaled by Writhing  26 -> 150",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Equinox - Nightmare 34: 1/1.05x Drop Rate MULTI 0 -> 1",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Owl - Drop Rate:+165% Drop Rate 10 -> \u221e",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Stamps - Golden Sixes Stamp: +26.47% Drop RateNote: Can be increased by Exalting the stamp 90 -> 210",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Equinox: Faux Jewels: +0/165% Drop Rate 0 -> 33",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Grey Tome Book: 1.26x higher bonuses from the Tome(1.00 per level: Not scaled by Writhing  26 -> 150",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Equinox - Nightmare 34: 1/1.05x Drop Rate MULTI 0 -> 1",
     "Sources of Card Drop Chance \u00b7 Stamps - Card Stamp: +250% Card Drop Rate 250 -> 330",
     "Sources of Carry Capacity \u00b7 Lil' Mining Baggy Stamp: +525 Mining Carry Cap 210 -> 310",
     "Sources of Carry Capacity \u00b7 Choppin' Bag Stamp: +475 Choppin Carry Cap 190 -> 330",
@@ -11552,11 +11561,11 @@
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Cape Vine - Lovely Balloon+250% Drop RateNot deposited 0 -> 1",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Gallery - Deadbones Nametag25% Drop Rate Multi35% Drop Rate 0 -> 5",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Gallery - Treasure Nametag25% Drop Rate 0 -> 5",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Gallery - Aethermoon Nametag14.1% Drop RateLevel Multi: 1x 1 -> 5",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Gallery - 3rd Anniversary IdleOn Nametag3% Drop Rate 0 -> 5",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Cape Vine - Lovely Balloon+250% Drop RateNot deposited 0 -> 1",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Gallery - Deadbones Nametag25% Drop Rate Multi35% Drop Rate 0 -> 5",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Gallery - Treasure Nametag25% Drop Rate 0 -> 5",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Gallery - Aethermoon Nametag14.1% Drop RateLevel Multi: 1x 1 -> 5",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Gallery - 3rd Anniversary IdleOn Nametag3% Drop Rate 0 -> 5",
     "Sources of daily Corals \u00b7 You now generate 0% more Daily Coral for the Coral Reef back in W7 town! 0 -> \u221e",
     "Sources of daily Corals \u00b7 Clam Work: +0% Daily Corals past level 5 0 -> 6",
     "Sources of daily Corals \u00b7 Killroy: +0% Daily Corals 0 -> \u221e"
@@ -11565,14 +11574,14 @@
  ],
  "account": {
   "money": {
-   "total": 6.312500578725433e+30,
+   "total": 6.312512581520013e+30,
    "bank": 0,
    "per_char": {
-    "Autiszemo": 1.02109156246502e+30,
+    "Autiszemo": 1.0210969096209326e+30,
     "Autistocat": 1.39411740526811e+30,
     "Autisticles": 1.31461888644125e+30,
     "Autistastic": 1.96727787846733e+29,
-    "Autistabish": 1.53288898394836e+30,
+    "Autistabish": 1.5328956395870277e+30,
     "Autistacular": 1.24990359782173e+29,
     "Autistotle": 1.22767336461377e+29,
     "Autistomatic": 3.95896219847278e+24,
@@ -11786,18 +11795,17 @@
   "buffs": {
    "newly_owned": [],
    "account_missing": [
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Guild Bonus - Gold Charm:+12.97% Total Drop Rate 24 -> 50",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Codex - Drop Rate Friend Bonus: +22.49/75% Drop RateFrom IdleOnLech (1844) 22.49 -> 75",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Skull of Major Droprate: +0.0% Drop Rate bonus for all characters, always!(1.00 per level  0 -> 999999",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Plutus the Prosperous: Not built (1/50)1.00x Drop Rate 0 -> 1",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Obols - Family Obols: +104/228% Drop RateNote: Includes Rare and Hyper Obols, each rerolle 104 -> 228",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Armor Set - Secret Set: 1.00x Gold Food effectNote: Increases Golden Food bonus. See chara 0 -> 1",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Companions - Lucky Slug:+15% Drop Rate 0 -> 1",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Companions - Mama Troll:+100% Drop Rate and 1.50x Drop Rate Multi 0 -> 1",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Companions - Glunko The Massive:3x Total Damage, 5x Class EXP gain, 1.5x Drop Rate 0 -> 1",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Companions - Crystal Glunko:1.50x Damage, 1.40x Class EXP, 1.30x Drop Rate, and 1.20x extr 0 -> 1",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Siege Breaker Talent - Archlord of the Pirates: 1.15049/1.18946x Drop Rate MULTILevel 296/ 0.01M -> 1.00M",
-    "Account wide sources of Drop Rate (+3476.8%) \u00b7 Obstruction 15 - Gold Bangle:1.05x Drop Rate 0 -> 1",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Guild Bonus - Gold Charm:+12.97% Total Drop Rate 24 -> 50",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Codex - Drop Rate Friend Bonus: +22.49/75% Drop RateFrom IdleOnLech (1844) 22.49 -> 75",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Skull of Major Droprate: +0.0% Drop Rate bonus for all characters, always!(1.00 per level  0 -> 999999",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Plutus the Prosperous: Not built (1/50)1.00x Drop Rate 0 -> 1",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Obols - Family Obols: +104/228% Drop RateNote: Includes Rare and Hyper Obols, each rerolle 104 -> 228",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Armor Set - Secret Set: 1.00x Gold Food effectNote: Increases Golden Food bonus. See chara 0 -> 1",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Companions - Lucky Slug:+15% Drop Rate 0 -> 1",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Companions - Mama Troll:+100% Drop Rate and 1.50x Drop Rate Multi 0 -> 1",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Companions - Glunko The Massive:3x Total Damage, 5x Class EXP gain, 1.5x Drop Rate 0 -> 1",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Siege Breaker Talent - Archlord of the Pirates: 1.15049/1.18946x Drop Rate MULTILevel 296/ 0.01M -> 1.00M",
+    "Account wide sources of Drop Rate (+3482.4%) \u00b7 Obstruction 15 - Gold Bangle:1.05x Drop Rate 0 -> 1",
     "Sources of Carry Capacity \u00b7 Guild Bonus - Rucksack:+17.76% Total Carry Cap 17 -> 50",
     "Sources of bonus talent levels beyond book le \u00b7 ES Family Bonus: +13.Next increase at Class Level: 842 -> 885"
    ],
@@ -11809,10 +11817,10 @@
      "missing": 5
     },
     {
-     "stat": "Account wide sources of Drop Rate (+3476.8%)",
+     "stat": "Account wide sources of Drop Rate (+3482.4%)",
      "section": "Drop Rate",
-     "owned": 32,
-     "missing": 49
+     "owned": 33,
+     "missing": 48
     },
     {
      "stat": "Sources of Card Drop Chance",
@@ -11943,8 +11951,8 @@
     {
      "stat": "Sources of daily Corals",
      "section": "Coral Reef",
-     "owned": 3,
-     "missing": 12
+     "owned": 4,
+     "missing": 11
     }
    ]
   },

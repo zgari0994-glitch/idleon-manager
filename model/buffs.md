@@ -1,5 +1,5 @@
-# Buff sources · save 20261118T1858 vs 20261118T1724
-24 stats, 198 sources owned, 209 missing
+# Buff sources · save 20261119T0212 vs 20261119T0010
+24 stats, 200 sources owned, 207 missing
 
 ## Active: Sources of Crystal Spawn Chance  (10 owned / 5 missing)
 - [x] Chocolatey Chip for more Crystal Mobs
@@ -18,7 +18,7 @@
 - [x] Best Crystal Spawn Chance on Non-Jman: 5.4112% (1 in 18.48)
 - [x] Best Crystal Spawn Chance on Jman: 18.0927% (1 in 5.53)
 
-## Drop Rate: Account wide sources of Drop Rate (+3476.8%)  (32 owned / 49 missing)
+## Drop Rate: Account wide sources of Drop Rate (+3482.4%)  (33 owned / 48 missing)
 - [ ] Bosses n Nightmares- Domeo Magmus card:+3/10.5% Total Drop Rate (Passive) 2 -> 7 · Autistronaut
 - [ ] Smolderin' Plateau- Ancient Golem card:+8/28% Total Drop Rate (Passive) 2 -> 7 · Autistronaut
 - [ ] Smolderin' Plateau- Crystal Glunko card:+0/42% Total Drop Rate (Passive) 0 -> 7 · Autistronaut
@@ -46,18 +46,18 @@
 - [ ] Breeding - Shiny Xylobone: +10/20% Drop Rate 10 -> 20 · Autistacular
 - [ ] Breeding - Shiny Choccie: +5/20% Drop Rate 5 -> 20 · Autistacular
 - [ ] Grey Tome Book: 1.26x higher bonuses from the Tome(1.00 per level: Not scaled by Writhing Grimoire) 26 -> 150 · Autistopher
-- [x] Tome- Red Pages:+139.6% Drop Rate31,921 Total Tome PointsIncreases every 100 points over 8000
-- [x] Cape Vine - Chains of the Gilded Vaultguard+11.3% Drop Rate MultiPlain Vine: 0.28x
+- [x] Tome- Red Pages:+140% Drop Rate32,037 Total Tome PointsIncreases every 100 points over 8000
+- [x] Cape Vine - Chains of the Gilded Vaultguard+11.5% Drop Rate MultiPlain Vine: 0.29x
 - [ ] Cape Vine - Lovely Balloon+250% Drop RateNot deposited 0 -> 1 · Autistachio
-- [x] Cape Vine - Molten Cloak+8.47% Drop RatePlain Vine: 0.28x
-- [x] Cape Vine - Gilded Emperor Wings+2.82% Drop RatePlain Vine: 0.28x
+- [x] Cape Vine - Molten Cloak+8.62% Drop RatePlain Vine: 0.29x
+- [x] Cape Vine - Gilded Emperor Wings+2.88% Drop RatePlain Vine: 0.29x
 - [ ] Caverns - Measurement #16:+0.00% Drop Rate (scales with Golem Kills) 0 -> ∞ · Autistabish
 - [ ] Schematic #45 - Gloomie Lootie:+5% Drop Rate for each Colony of Gloomie Mushrooms defeated! Drop rate here as  0 -> ∞ · Autistabish
 - [ ] Schematic #82 - Sanctum of LOOT:+20% Drop Rate for each Sanctum of Ancient Golems you've cleared!Total Bonus:  0 -> ∞ · Autistabish
 - [ ] Cavern 13- Wisdom Monument:+0.0% Player Drop Rate 0 -> ∞ · Autistabish
 - [x] Achievements - Big Big Hampter: +4/4% Drop Rate
 - [x] Achievements - Summoning GM: +6/6% Drop Rate
-- [ ] Farming Crop Depot - Highlighter:+64.38/400.2% DR 137 -> 330 · Autiszemo
+- [ ] Farming Crop Depot - Highlighter:+69.6/400.2% DR 140 -> 330 · Autiszemo
 - [x] Land Ranks - Seed of Loot:Increases the Drop Rate of all characters by +108.85%
 - [ ] Exotic Market - POMMELION SEED:+0/25% Drop Rate 0 -> ∞ · Autiszemo
 - [ ] Armor Set - Secret Set: 1.00x Gold Food effectNote: Increases Golden Food bonus. See character-specific sectio 0 -> 1 · account
@@ -84,7 +84,7 @@
 - [ ] Companions - Lucky Slug:+15% Drop Rate 0 -> 1 · account
 - [ ] Companions - Mama Troll:+100% Drop Rate and 1.50x Drop Rate Multi 0 -> 1 · account
 - [ ] Companions - Glunko The Massive:3x Total Damage, 5x Class EXP gain, 1.5x Drop Rate 0 -> 1 · account
-- [ ] Companions - Crystal Glunko:1.50x Damage, 1.40x Class EXP, 1.30x Drop Rate, and 1.20x extra Kills 0 -> 1 · account
+- [x] Companions - Crystal Glunko:1.50x Damage, 1.40x Class EXP, 1.30x Drop Rate, and 1.20x extra Kills
 - [x] Companions - Mallay:1.30x Drop Rate
 - [x] These bonuses are applied after the flat account-wide and character-specific bonuses in the shown order.
 - [ ] Siege Breaker Talent - Archlord of the Pirates: 1.15049/1.18946x Drop Rate MULTILevel 296/762 with your curren 0.01M -> 1.00M · account
@@ -357,18 +357,18 @@
 - [x] W5 Taskboard Merit: 28/28%The in-game display is incorrect. Don't @ me.
 - [ ] Neon - Damage N' Cheapener: 30/40% 30 -> 40 · Autistastic
 - [x] Superbit: Atom Redux: 10/10%
-- [ ] Atom Collider building: 2.1/20.0% 21 -> 200 · Autistastic
+- [ ] Atom Collider building: 2.3/20.0% 23 -> 200 · Autistastic
 - [x] Atom Split bubble: 9.45/14%
 - [ ] Stamps - Atomic Stamp: +12.59% lower Atom upgrade costs 136 -> 144 · Autistopher
 - [ ] Death of the Atom Price: All Atoms are +0.0% cheaper to upgrade(1.00 per level after Writhing Grimoire)Require 0 -> 999999 · Autistastic
 - [ ] Nomadic-15: Atomic Cost Crash: All Atoms are +4.00% cheaper to upgrade(1.00 per level) 4 -> 999999 · Autistastic
-- [x] Remaining cost: 50.98%
-- [x] Total discount: 49.02% off
+- [x] Remaining cost: 50.93%
+- [x] Total discount: 49.07% off
 
 ## Breeding: Sources of Shiny Pet Level Rate  (4 owned / 6 missing)
 - [x] Summoning Bonus:10.97x Shiny EXP
 - [ ] Lamp Wish: World 4 Stuff: +180.0% 180.0 -> ∞ · Autistacular
-- [ ] Farming Crop Depot - Crayon:+1668.66/4019.4% Mobs 137 -> 330 · Autiszemo
+- [ ] Farming Crop Depot - Crayon:+1705.2/4019.4% Mobs 140 -> 330 · Autiszemo
 - [x] Lab Jewel - Emerald Ulthurite: +45/45%
 - [x] Faster Shiny Mob Lv Up Rate Shiny Pets: +156% total
 - [ ] Breeding Upgrade - Grand Martial of Shinytown: +60% 12 -> 300 · Autistacular
@@ -398,7 +398,7 @@
 - [ ] Menagerie Unlock 21: Boost the Max Cooking LV by +10Costs 29.75M Lumi, needs a higher Menagerie Rank 0 -> 1 · Autiszemo
 
 ## Sailing: Sources of Sailing Speed  (9 owned / 10 missing)
-- [x] Total Sailing Speed bonus: 8672.57x
+- [x] Total Sailing Speed bonus: 8693.76x
 - [ ] Anyone Minor Linked to Purrmep: +0.00% 0 -> 1 · Autisticles
 - [ ] Smolderin' Plateau- Crawler card:+20/28% Sailing Speed (Passive) 5 -> 7 · Autistronaut
 - [ ] Bosses n Nightmares- Kattlekruk card:+24/42% Sailing Speed (Passive) 4 -> 7 · Autistronaut
@@ -413,7 +413,7 @@
 - [ ] Meal - Popped Corn: +1,774.340% Sailing Speed 90 -> 180 · Autiszemo
 - [x] Vial - Oj Jooce: +118.56%
 - [x] Rift - Sailing Skill Mastery > 200: +15%
-- [ ] MSA Sailing: +44% (+1% per 10 waves in Worship) 440 -> 2100 · Autisticles
+- [ ] MSA Sailing: +60% (+1% per 10 waves in Worship) 602 -> 2100 · Autisticles
 - [x] Star Signs - C. Shanti Minor: +20% if equipped
 - [x] Gem Shop - Davey Jones Training (W5)
 - [x] Legend Talent - Davey Jones Returns: 1.6x bonus to all the same stats that 'Davey Jones Training' gives, check
@@ -439,11 +439,11 @@
 - [ ] Armor Set: Godshard Set: +0/15% 0 -> 1 · Autistabish
 - [ ] Gemshop - Daydreamer Pack:+0/50% Summoning Winner Bonuses 0 -> 1 · Autistocat
 
-## Coral Reef: Sources of daily Corals  (3 owned / 12 missing)
+## Coral Reef: Sources of daily Corals  (4 owned / 11 missing)
 - [x] Base daily corals: 10
 - [x] Companions - Shellslug:1.75x Daily Reef Coral (World 7 feature)
 - [ ] Event Shop - Coolral: x1.0/x1.3 Daily Corals 0 -> 1 · Autistotle
-- [ ] Gem Shop - More Coral (W7): x2.0/x3.0 Daily Corals 5 -> 10 · Autistotle
+- [x] Gem Shop - More Coral (W7): x3.0/x3.0 Daily Corals
 - [ ] You now generate 0% more Daily Coral for the Coral Reef back in W7 town! 0 -> ∞ · Autistachio
 - [x] +2% Daily Reef Coral per Woodular Shrine level above 200Total Bonus: +0% Daily Reef Coral
 - [ ] Clam Work: +0% Daily Corals past level 5 0 -> 6 · Autistachio

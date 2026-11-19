@@ -1,0 +1,3112 @@
+{
+ "meta": {
+  "game_save_utc": "2026-11-19T02:12:54.168000+00:00",
+  "game_save_et": "2026-11-18 09:12 PM ET",
+  "review_run_et": "2026-11-19 11:29 AM ET",
+  "autoreview_last_update": "Nov 19, 2026, 2:12:54 AM UTC",
+  "switches": {
+   "autoloot": "on",
+   "doot": "on",
+   "riftslug": "on",
+   "sheepie": "on",
+   "tabbed_advice_groups": "on"
+  },
+  "chars": [
+   "Autiszemo",
+   "Autistocat",
+   "Autisticles",
+   "Autistastic",
+   "Autistabish",
+   "Autistacular",
+   "Autistotle",
+   "Autistomatic",
+   "Autistronaut",
+   "Autistopher",
+   "Autistachio"
+  ]
+ },
+ "characters": [
+  {
+   "character_index": 0,
+   "character_name": "Autiszemo",
+   "class_name": "Death Bringer",
+   "base_class": "Warrior",
+   "sub_class": "Barbarian",
+   "elite_class": "Blood Berserker",
+   "master_class": "Death Bringer",
+   "combat_level": 832,
+   "current_map_index": 302,
+   "alchemy_job_string": "Purple",
+   "active_talent_preset": 1,
+   "divinity_link": "Arctis",
+   "equipped_prayers": [
+    "Skilled Dimwit",
+    "The Royal Sampler",
+    "Shiny Snitch"
+   ],
+   "specialized_skills": [
+    "Mining",
+    "Fishing",
+    "Cooking",
+    "Farming"
+   ],
+   "equipped_star_signs": [
+    53,
+    51,
+    41
+   ],
+   "skills": {
+    "Combat": 832,
+    "Mining": 50,
+    "Smithing": 109,
+    "Chopping": 34,
+    "Fishing": 64,
+    "Alchemy": 111,
+    "Catching": 23,
+    "Trapping": 69,
+    "Construction": 419,
+    "Worship": 98,
+    "Cooking": 62,
+    "Breeding": 90,
+    "Laboratory": 112,
+    "Sailing": 145,
+    "Divinity": 192,
+    "Gaming": 209,
+    "Farming": 237,
+    "Sneaking": 280,
+    "Summoning": 126,
+    "Spelunking": 26,
+    "Research": 25,
+    "Skill 3 Lol": -1
+   },
+   "equipped_lab_chips": [
+    "Poker Chip",
+    "Conductive Software",
+    "Wood Chip",
+    "Silkrode Software",
+    "Silkrode Motherboard",
+    "Potato Chip",
+    "Wood Chip"
+   ],
+   "po_boxes_invested": {
+    "Civil War Memory Box": {
+     "name": "Civil War Memory Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 400,
+     "bonus_2_value": 8.478260869565217,
+     "bonus_3_value": 6.0
+    },
+    "Locally Sourced Organs": {
+     "name": "Locally Sourced Organs",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 201,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 18.0
+    },
+    "Magician Starterpack": {
+     "name": "Magician Starterpack",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 134,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 10.2
+    },
+    "Box of Unwanted Stats": {
+     "name": "Box of Unwanted Stats",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 100.0,
+     "bonus_2_value": 112.5,
+     "bonus_3_value": 18.51063829787234
+    },
+    "Dwarven Supplies": {
+     "name": "Dwarven Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 9.473684210526315
+    },
+    "Blacksmith Box": {
+     "name": "Blacksmith Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 48.91304347826087,
+     "bonus_3_value": 20.0
+    },
+    "Taped Up Timber": {
+     "name": "Taped Up Timber",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 314,
+     "bonus_1_value": 30.544747081712064,
+     "bonus_2_value": 26.332574031890662,
+     "bonus_3_value": 8.251928020565552
+    },
+    "Carepack From Mum": {
+     "name": "Carepack From Mum",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 15.333333333333334,
+     "bonus_2_value": 19.565217391304348,
+     "bonus_3_value": 18.0
+    },
+    "Sealed Fishheads": {
+     "name": "Sealed Fishheads",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 9.473684210526315
+    },
+    "Potion Package": {
+     "name": "Potion Package",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 100,
+     "bonus_1_value": 23.333333333333332,
+     "bonus_2_value": 20.0,
+     "bonus_3_value": 0.0
+    },
+    "Bug Hunting Supplies": {
+     "name": "Bug Hunting Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 286,
+     "bonus_1_value": 29.4238683127572,
+     "bonus_2_value": 25.401459854014597,
+     "bonus_3_value": 7.728531855955679
+    },
+    "Non Predatory Loot Box": {
+     "name": "Non Predatory Loot Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 93.75,
+     "bonus_3_value": 39.0
+    },
+    "Deaths Storage Unit": {
+     "name": "Deaths Storage Unit",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 14.666666666666666,
+     "bonus_2_value": 10.714285714285714,
+     "bonus_3_value": 9.0
+    },
+    "Utilitarian Capsule": {
+     "name": "Utilitarian Capsule",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 3.3333333333333335,
+     "bonus_2_value": 9.782608695652174,
+     "bonus_3_value": 23.4
+    },
+    "Lazzzy Lootcrate": {
+     "name": "Lazzzy Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 20.0,
+     "bonus_2_value": 22.82608695652174,
+     "bonus_3_value": 21.0
+    },
+    "Science Spare Parts": {
+     "name": "Science Spare Parts",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Trapping Lockbox": {
+     "name": "Trapping Lockbox",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Construction Container": {
+     "name": "Construction Container",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Crate of the Creator": {
+     "name": "Crate of the Creator",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Chefs Essentials": {
+     "name": "Chefs Essentials",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 1600,
+     "bonus_2_value": 39.130434782608695,
+     "bonus_3_value": 52.8
+    },
+    "Myriad Crate": {
+     "name": "Myriad Crate",
+     "tab": "Charlie's Crates",
+     "max_level": 100000,
+     "level": 1013,
+     "bonus_1_value": 19.283300813781945,
+     "bonus_2_value": 43.65705542007364,
+     "bonus_3_value": 3.442282624438758
+    },
+    "Scurvy C'arr'ate": {
+     "name": "Scurvy C'arr'ate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 5.333333333333333,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    },
+    "Box of Gosh": {
+     "name": "Box of Gosh",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Gaming Lootcrate": {
+     "name": "Gaming Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 9.333333333333334,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    }
+   },
+   "world": 7
+  },
+  {
+   "character_index": 1,
+   "character_name": "Autistocat",
+   "class_name": "Arcane Cultist",
+   "base_class": "Mage",
+   "sub_class": "Shaman",
+   "elite_class": "Bubonic Conjuror",
+   "master_class": "Arcane Cultist",
+   "combat_level": 830,
+   "current_map_index": 311,
+   "alchemy_job_string": "Green",
+   "active_talent_preset": 0,
+   "divinity_link": "Harriep",
+   "equipped_prayers": [
+    "Skilled Dimwit",
+    "The Royal Sampler",
+    "Shiny Snitch"
+   ],
+   "specialized_skills": [
+    "Chopping",
+    "Alchemy",
+    "Laboratory",
+    "Summoning"
+   ],
+   "equipped_star_signs": [
+    53,
+    51,
+    41
+   ],
+   "skills": {
+    "Combat": 830,
+    "Mining": 26,
+    "Smithing": 100,
+    "Chopping": 64,
+    "Fishing": 33,
+    "Alchemy": 126,
+    "Catching": 28,
+    "Trapping": 69,
+    "Construction": 465,
+    "Worship": 95,
+    "Cooking": 17,
+    "Breeding": 89,
+    "Laboratory": 252,
+    "Sailing": 144,
+    "Divinity": 196,
+    "Gaming": 205,
+    "Farming": 212,
+    "Sneaking": 285,
+    "Summoning": 126,
+    "Spelunking": 25,
+    "Research": 24,
+    "Skill 3 Lol": -1
+   },
+   "equipped_lab_chips": [
+    "Chocolatey Chip",
+    "Conductive Software",
+    "Poker Chip",
+    "Omega Nanochip",
+    "Grounded Software",
+    "Potato Chip",
+    "Omega Motherboard"
+   ],
+   "po_boxes_invested": {
+    "Civil War Memory Box": {
+     "name": "Civil War Memory Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 400,
+     "bonus_2_value": 8.478260869565217,
+     "bonus_3_value": 6.0
+    },
+    "Locally Sourced Organs": {
+     "name": "Locally Sourced Organs",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 201,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 18.0
+    },
+    "Magician Starterpack": {
+     "name": "Magician Starterpack",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 134,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 10.2
+    },
+    "Box of Unwanted Stats": {
+     "name": "Box of Unwanted Stats",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 100.0,
+     "bonus_2_value": 112.5,
+     "bonus_3_value": 18.51063829787234
+    },
+    "Dwarven Supplies": {
+     "name": "Dwarven Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Blacksmith Box": {
+     "name": "Blacksmith Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Taped Up Timber": {
+     "name": "Taped Up Timber",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 9.473684210526315
+    },
+    "Carepack From Mum": {
+     "name": "Carepack From Mum",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 15.333333333333334,
+     "bonus_2_value": 19.565217391304348,
+     "bonus_3_value": 18.0
+    },
+    "Sealed Fishheads": {
+     "name": "Sealed Fishheads",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Potion Package": {
+     "name": "Potion Package",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 46.666666666666664,
+     "bonus_2_value": 42.857142857142854,
+     "bonus_3_value": 30.0
+    },
+    "Bug Hunting Supplies": {
+     "name": "Bug Hunting Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Non Predatory Loot Box": {
+     "name": "Non Predatory Loot Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 93.75,
+     "bonus_3_value": 39.0
+    },
+    "Deaths Storage Unit": {
+     "name": "Deaths Storage Unit",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 14.666666666666666,
+     "bonus_2_value": 10.714285714285714,
+     "bonus_3_value": 9.0
+    },
+    "Utilitarian Capsule": {
+     "name": "Utilitarian Capsule",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 3.3333333333333335,
+     "bonus_2_value": 9.782608695652174,
+     "bonus_3_value": 23.4
+    },
+    "Lazzzy Lootcrate": {
+     "name": "Lazzzy Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Science Spare Parts": {
+     "name": "Science Spare Parts",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 1600,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 18.0
+    },
+    "Trapping Lockbox": {
+     "name": "Trapping Lockbox",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 32.608695652173914,
+     "bonus_3_value": 27.0
+    },
+    "Construction Container": {
+     "name": "Construction Container",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 100.0,
+     "bonus_2_value": 48.91304347826087,
+     "bonus_3_value": 150.0
+    },
+    "Crate of the Creator": {
+     "name": "Crate of the Creator",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 200,
+     "bonus_1_value": 25.0,
+     "bonus_2_value": 93.33333333333333,
+     "bonus_3_value": 30.0
+    },
+    "Chefs Essentials": {
+     "name": "Chefs Essentials",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Myriad Crate": {
+     "name": "Myriad Crate",
+     "tab": "Charlie's Crates",
+     "max_level": 100000,
+     "level": 600,
+     "bonus_1_value": 11.650485436893204,
+     "bonus_2_value": 24.390243902439025,
+     "bonus_3_value": 1.477832512315271
+    },
+    "Scurvy C'arr'ate": {
+     "name": "Scurvy C'arr'ate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 5.333333333333333,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    },
+    "Box of Gosh": {
+     "name": "Box of Gosh",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Gaming Lootcrate": {
+     "name": "Gaming Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 502,
+     "bonus_1_value": 7.791574279379158,
+     "bonus_2_value": 90.4,
+     "bonus_3_value": 10.754985754985755
+    }
+   },
+   "world": 7
+  },
+  {
+   "character_index": 2,
+   "character_name": "Autisticles",
+   "class_name": "Siege Breaker",
+   "base_class": "Archer",
+   "sub_class": "Bowman",
+   "elite_class": "Siege Breaker",
+   "master_class": "None",
+   "combat_level": 846,
+   "current_map_index": 311,
+   "alchemy_job_string": "Orange",
+   "active_talent_preset": 1,
+   "divinity_link": "Arctis",
+   "equipped_prayers": [
+    "Skilled Dimwit",
+    "The Royal Sampler",
+    "Shiny Snitch"
+   ],
+   "specialized_skills": [
+    "Smithing",
+    "Catching",
+    "Sailing",
+    null
+   ],
+   "equipped_star_signs": [
+    76,
+    63,
+    61
+   ],
+   "skills": {
+    "Combat": 846,
+    "Mining": 25,
+    "Smithing": 108,
+    "Chopping": 48,
+    "Fishing": 26,
+    "Alchemy": 112,
+    "Catching": 136,
+    "Trapping": 51,
+    "Construction": 373,
+    "Worship": 84,
+    "Cooking": 16,
+    "Breeding": 89,
+    "Laboratory": 111,
+    "Sailing": 145,
+    "Divinity": 192,
+    "Gaming": 205,
+    "Farming": 212,
+    "Sneaking": 281,
+    "Summoning": 126,
+    "Spelunking": 28,
+    "Research": 24,
+    "Skill 3 Lol": -1
+   },
+   "equipped_lab_chips": [
+    "Grounded Software",
+    "Galvanic Motherboard",
+    "Galvanic Processor",
+    "Grounded Nanochip",
+    "Galvanic Processor",
+    "Potato Chip",
+    "Omega Motherboard"
+   ],
+   "po_boxes_invested": {
+    "Civil War Memory Box": {
+     "name": "Civil War Memory Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 400,
+     "bonus_2_value": 8.478260869565217,
+     "bonus_3_value": 6.0
+    },
+    "Locally Sourced Organs": {
+     "name": "Locally Sourced Organs",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 201,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 18.0
+    },
+    "Magician Starterpack": {
+     "name": "Magician Starterpack",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 134,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 10.2
+    },
+    "Box of Unwanted Stats": {
+     "name": "Box of Unwanted Stats",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 100.0,
+     "bonus_2_value": 112.5,
+     "bonus_3_value": 18.51063829787234
+    },
+    "Dwarven Supplies": {
+     "name": "Dwarven Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Blacksmith Box": {
+     "name": "Blacksmith Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Taped Up Timber": {
+     "name": "Taped Up Timber",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Carepack From Mum": {
+     "name": "Carepack From Mum",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 15.333333333333334,
+     "bonus_2_value": 19.565217391304348,
+     "bonus_3_value": 18.0
+    },
+    "Sealed Fishheads": {
+     "name": "Sealed Fishheads",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 25,
+     "bonus_1_value": 5.555555555555555,
+     "bonus_2_value": 0.0,
+     "bonus_3_value": 0
+    },
+    "Potion Package": {
+     "name": "Potion Package",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 44,
+     "bonus_1_value": 12.62295081967213,
+     "bonus_2_value": 6.745562130177515,
+     "bonus_3_value": 0
+    },
+    "Bug Hunting Supplies": {
+     "name": "Bug Hunting Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 9.473684210526315
+    },
+    "Non Predatory Loot Box": {
+     "name": "Non Predatory Loot Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 93.75,
+     "bonus_3_value": 39.0
+    },
+    "Deaths Storage Unit": {
+     "name": "Deaths Storage Unit",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 14.666666666666666,
+     "bonus_2_value": 10.714285714285714,
+     "bonus_3_value": 9.0
+    },
+    "Utilitarian Capsule": {
+     "name": "Utilitarian Capsule",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 3.3333333333333335,
+     "bonus_2_value": 9.782608695652174,
+     "bonus_3_value": 23.4
+    },
+    "Lazzzy Lootcrate": {
+     "name": "Lazzzy Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Science Spare Parts": {
+     "name": "Science Spare Parts",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Trapping Lockbox": {
+     "name": "Trapping Lockbox",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Construction Container": {
+     "name": "Construction Container",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Crate of the Creator": {
+     "name": "Crate of the Creator",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Chefs Essentials": {
+     "name": "Chefs Essentials",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Myriad Crate": {
+     "name": "Myriad Crate",
+     "tab": "Charlie's Crates",
+     "max_level": 100000,
+     "level": 2035,
+     "bonus_1_value": 36.94122986158384,
+     "bonus_2_value": 88.21518121723274,
+     "bonus_3_value": 7.982516678168852
+    },
+    "Scurvy C'arr'ate": {
+     "name": "Scurvy C'arr'ate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 5.333333333333333,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    },
+    "Box of Gosh": {
+     "name": "Box of Gosh",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Gaming Lootcrate": {
+     "name": "Gaming Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 9.333333333333334,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    }
+   },
+   "world": 7
+  },
+  {
+   "character_index": 3,
+   "character_name": "Autistastic",
+   "class_name": "Royal Guardian",
+   "base_class": "Warrior",
+   "sub_class": "Squire",
+   "elite_class": "Divine Knight",
+   "master_class": "Royal Guardian",
+   "combat_level": 835,
+   "current_map_index": 216,
+   "alchemy_job_string": "Yellow",
+   "active_talent_preset": 1,
+   "divinity_link": "Arctis",
+   "equipped_prayers": [
+    "Skilled Dimwit",
+    "Shiny Snitch",
+    "The Royal Sampler",
+    "Vacuous Tissue"
+   ],
+   "specialized_skills": [
+    "Mining",
+    "Construction",
+    "Gaming",
+    "Spelunking"
+   ],
+   "equipped_star_signs": [
+    41,
+    14,
+    76
+   ],
+   "skills": {
+    "Combat": 835,
+    "Mining": 89,
+    "Smithing": 115,
+    "Chopping": 31,
+    "Fishing": 32,
+    "Alchemy": 109,
+    "Catching": 30,
+    "Trapping": 70,
+    "Construction": 987,
+    "Worship": 101,
+    "Cooking": 10,
+    "Breeding": 89,
+    "Laboratory": 205,
+    "Sailing": 145,
+    "Divinity": 191,
+    "Gaming": 209,
+    "Farming": 212,
+    "Sneaking": 280,
+    "Summoning": 126,
+    "Spelunking": 27,
+    "Research": 25,
+    "Skill 3 Lol": -1
+   },
+   "equipped_lab_chips": [
+    "Chocolatey Chip",
+    "Omega Nanochip",
+    "Poker Chip",
+    "Galvanic Nanochip",
+    "Silkrode Processor",
+    "Potato Chip",
+    "Omega Motherboard"
+   ],
+   "po_boxes_invested": {
+    "Civil War Memory Box": {
+     "name": "Civil War Memory Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 400,
+     "bonus_2_value": 8.478260869565217,
+     "bonus_3_value": 6.0
+    },
+    "Locally Sourced Organs": {
+     "name": "Locally Sourced Organs",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 201,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 18.0
+    },
+    "Magician Starterpack": {
+     "name": "Magician Starterpack",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 134,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 10.2
+    },
+    "Box of Unwanted Stats": {
+     "name": "Box of Unwanted Stats",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 100.0,
+     "bonus_2_value": 112.5,
+     "bonus_3_value": 18.51063829787234
+    },
+    "Dwarven Supplies": {
+     "name": "Dwarven Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 9.473684210526315
+    },
+    "Blacksmith Box": {
+     "name": "Blacksmith Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Taped Up Timber": {
+     "name": "Taped Up Timber",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Carepack From Mum": {
+     "name": "Carepack From Mum",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 15.333333333333334,
+     "bonus_2_value": 19.565217391304348,
+     "bonus_3_value": 18.0
+    },
+    "Sealed Fishheads": {
+     "name": "Sealed Fishheads",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Potion Package": {
+     "name": "Potion Package",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Bug Hunting Supplies": {
+     "name": "Bug Hunting Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Non Predatory Loot Box": {
+     "name": "Non Predatory Loot Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 93.75,
+     "bonus_3_value": 39.0
+    },
+    "Deaths Storage Unit": {
+     "name": "Deaths Storage Unit",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 14.666666666666666,
+     "bonus_2_value": 10.714285714285714,
+     "bonus_3_value": 9.0
+    },
+    "Utilitarian Capsule": {
+     "name": "Utilitarian Capsule",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 3.3333333333333335,
+     "bonus_2_value": 9.782608695652174,
+     "bonus_3_value": 23.4
+    },
+    "Lazzzy Lootcrate": {
+     "name": "Lazzzy Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 20.0,
+     "bonus_2_value": 22.82608695652174,
+     "bonus_3_value": 21.0
+    },
+    "Science Spare Parts": {
+     "name": "Science Spare Parts",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Trapping Lockbox": {
+     "name": "Trapping Lockbox",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 32.608695652173914,
+     "bonus_3_value": 27.0
+    },
+    "Construction Container": {
+     "name": "Construction Container",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 100.0,
+     "bonus_2_value": 48.91304347826087,
+     "bonus_3_value": 150.0
+    },
+    "Crate of the Creator": {
+     "name": "Crate of the Creator",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Chefs Essentials": {
+     "name": "Chefs Essentials",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Myriad Crate": {
+     "name": "Myriad Crate",
+     "tab": "Charlie's Crates",
+     "max_level": 100000,
+     "level": 904,
+     "bonus_1_value": 17.298124760811326,
+     "bonus_2_value": 38.64641415112478,
+     "bonus_3_value": 2.93146961754999
+    },
+    "Scurvy C'arr'ate": {
+     "name": "Scurvy C'arr'ate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 5.333333333333333,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    },
+    "Box of Gosh": {
+     "name": "Box of Gosh",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Gaming Lootcrate": {
+     "name": "Gaming Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 9.333333333333334,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    }
+   },
+   "world": 5
+  },
+  {
+   "character_index": 4,
+   "character_name": "Autistabish",
+   "class_name": "Elemental Sorcerer",
+   "base_class": "Mage",
+   "sub_class": "Wizard",
+   "elite_class": "Elemental Sorcerer",
+   "master_class": "None",
+   "combat_level": 842,
+   "current_map_index": 108,
+   "alchemy_job_string": "Purple",
+   "active_talent_preset": 1,
+   "divinity_link": "Snehebatu",
+   "equipped_prayers": [
+    "Skilled Dimwit",
+    "The Royal Sampler",
+    "Shiny Snitch"
+   ],
+   "specialized_skills": [
+    "Chopping",
+    "Worship",
+    "Divinity",
+    null
+   ],
+   "equipped_star_signs": [
+    76,
+    70,
+    41
+   ],
+   "skills": {
+    "Combat": 842,
+    "Mining": 29,
+    "Smithing": 101,
+    "Chopping": 89,
+    "Fishing": 25,
+    "Alchemy": 110,
+    "Catching": 22,
+    "Trapping": 70,
+    "Construction": 372,
+    "Worship": 112,
+    "Cooking": 14,
+    "Breeding": 90,
+    "Laboratory": 82,
+    "Sailing": 145,
+    "Divinity": 116,
+    "Gaming": 209,
+    "Farming": 229,
+    "Sneaking": 280,
+    "Summoning": 99,
+    "Spelunking": 27,
+    "Research": 25,
+    "Skill 3 Lol": -1
+   },
+   "equipped_lab_chips": [
+    "Chocolatey Chip",
+    "Grounded Software",
+    "Galvanic Software",
+    "Poker Chip",
+    "Potato Chip",
+    "Omega Motherboard"
+   ],
+   "po_boxes_invested": {
+    "Civil War Memory Box": {
+     "name": "Civil War Memory Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 400,
+     "bonus_2_value": 8.478260869565217,
+     "bonus_3_value": 6.0
+    },
+    "Locally Sourced Organs": {
+     "name": "Locally Sourced Organs",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 201,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 18.0
+    },
+    "Magician Starterpack": {
+     "name": "Magician Starterpack",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 134,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 10.2
+    },
+    "Box of Unwanted Stats": {
+     "name": "Box of Unwanted Stats",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 100.0,
+     "bonus_2_value": 112.5,
+     "bonus_3_value": 18.51063829787234
+    },
+    "Dwarven Supplies": {
+     "name": "Dwarven Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Blacksmith Box": {
+     "name": "Blacksmith Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Taped Up Timber": {
+     "name": "Taped Up Timber",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 9.473684210526315
+    },
+    "Carepack From Mum": {
+     "name": "Carepack From Mum",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 15.333333333333334,
+     "bonus_2_value": 19.565217391304348,
+     "bonus_3_value": 18.0
+    },
+    "Sealed Fishheads": {
+     "name": "Sealed Fishheads",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Potion Package": {
+     "name": "Potion Package",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Bug Hunting Supplies": {
+     "name": "Bug Hunting Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Non Predatory Loot Box": {
+     "name": "Non Predatory Loot Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 93.75,
+     "bonus_3_value": 39.0
+    },
+    "Deaths Storage Unit": {
+     "name": "Deaths Storage Unit",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 14.666666666666666,
+     "bonus_2_value": 10.714285714285714,
+     "bonus_3_value": 9.0
+    },
+    "Utilitarian Capsule": {
+     "name": "Utilitarian Capsule",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 3.3333333333333335,
+     "bonus_2_value": 9.782608695652174,
+     "bonus_3_value": 23.4
+    },
+    "Lazzzy Lootcrate": {
+     "name": "Lazzzy Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 300,
+     "bonus_1_value": 18.0,
+     "bonus_2_value": 20.263157894736842,
+     "bonus_3_value": 17.5
+    },
+    "Science Spare Parts": {
+     "name": "Science Spare Parts",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Trapping Lockbox": {
+     "name": "Trapping Lockbox",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Construction Container": {
+     "name": "Construction Container",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Crate of the Creator": {
+     "name": "Crate of the Creator",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Chefs Essentials": {
+     "name": "Chefs Essentials",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Myriad Crate": {
+     "name": "Myriad Crate",
+     "tab": "Charlie's Crates",
+     "max_level": 100000,
+     "level": 1309,
+     "bonus_1_value": 24.57177718334976,
+     "bonus_2_value": 57.00410203215616,
+     "bonus_3_value": 4.802703603217669
+    },
+    "Scurvy C'arr'ate": {
+     "name": "Scurvy C'arr'ate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 5.333333333333333,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    },
+    "Box of Gosh": {
+     "name": "Box of Gosh",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 50.0,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 18.0
+    },
+    "Gaming Lootcrate": {
+     "name": "Gaming Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 9.333333333333334,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    }
+   },
+   "world": 3
+  },
+  {
+   "character_index": 5,
+   "character_name": "Autistacular",
+   "class_name": "Wind Walker",
+   "base_class": "Archer",
+   "sub_class": "Hunter",
+   "elite_class": "Beast Master",
+   "master_class": "Wind Walker",
+   "combat_level": 856,
+   "current_map_index": 109,
+   "alchemy_job_string": "Orange",
+   "active_talent_preset": 0,
+   "divinity_link": "Arctis",
+   "equipped_prayers": [
+    "The Royal Sampler",
+    "Shiny Snitch",
+    "Skilled Dimwit"
+   ],
+   "specialized_skills": [
+    "Smithing",
+    "Trapping",
+    "Breeding",
+    "Sneaking"
+   ],
+   "equipped_star_signs": [
+    75,
+    76,
+    73
+   ],
+   "skills": {
+    "Combat": 856,
+    "Mining": 50,
+    "Smithing": 110,
+    "Chopping": 55,
+    "Fishing": 50,
+    "Alchemy": 111,
+    "Catching": 16,
+    "Trapping": 61,
+    "Construction": 379,
+    "Worship": 82,
+    "Cooking": 32,
+    "Breeding": 90,
+    "Laboratory": 97,
+    "Sailing": 145,
+    "Divinity": 193,
+    "Gaming": 209,
+    "Farming": 216,
+    "Sneaking": 287,
+    "Summoning": 126,
+    "Spelunking": 27,
+    "Research": 25,
+    "Skill 3 Lol": -1
+   },
+   "equipped_lab_chips": [
+    "Galvanic Nanochip",
+    "Conductive Software",
+    "Grounded Nanochip",
+    "Grounded Nanochip"
+   ],
+   "po_boxes_invested": {
+    "Civil War Memory Box": {
+     "name": "Civil War Memory Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 400,
+     "bonus_2_value": 8.478260869565217,
+     "bonus_3_value": 6.0
+    },
+    "Locally Sourced Organs": {
+     "name": "Locally Sourced Organs",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 201,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 18.0
+    },
+    "Magician Starterpack": {
+     "name": "Magician Starterpack",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 134,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 10.2
+    },
+    "Box of Unwanted Stats": {
+     "name": "Box of Unwanted Stats",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 100.0,
+     "bonus_2_value": 112.5,
+     "bonus_3_value": 18.51063829787234
+    },
+    "Dwarven Supplies": {
+     "name": "Dwarven Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Blacksmith Box": {
+     "name": "Blacksmith Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Taped Up Timber": {
+     "name": "Taped Up Timber",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Carepack From Mum": {
+     "name": "Carepack From Mum",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 15.333333333333334,
+     "bonus_2_value": 19.565217391304348,
+     "bonus_3_value": 18.0
+    },
+    "Sealed Fishheads": {
+     "name": "Sealed Fishheads",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Potion Package": {
+     "name": "Potion Package",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 183,
+     "bonus_1_value": 33.44647519582245,
+     "bonus_2_value": 30.77922077922078,
+     "bonus_3_value": 8.3
+    },
+    "Bug Hunting Supplies": {
+     "name": "Bug Hunting Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 9.473684210526315
+    },
+    "Non Predatory Loot Box": {
+     "name": "Non Predatory Loot Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 93.75,
+     "bonus_3_value": 39.0
+    },
+    "Deaths Storage Unit": {
+     "name": "Deaths Storage Unit",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 14.666666666666666,
+     "bonus_2_value": 10.714285714285714,
+     "bonus_3_value": 9.0
+    },
+    "Utilitarian Capsule": {
+     "name": "Utilitarian Capsule",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 3.3333333333333335,
+     "bonus_2_value": 9.782608695652174,
+     "bonus_3_value": 23.4
+    },
+    "Lazzzy Lootcrate": {
+     "name": "Lazzzy Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 20.0,
+     "bonus_2_value": 22.82608695652174,
+     "bonus_3_value": 21.0
+    },
+    "Science Spare Parts": {
+     "name": "Science Spare Parts",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Trapping Lockbox": {
+     "name": "Trapping Lockbox",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 32.608695652173914,
+     "bonus_3_value": 27.0
+    },
+    "Construction Container": {
+     "name": "Construction Container",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Crate of the Creator": {
+     "name": "Crate of the Creator",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 130.43478260869566,
+     "bonus_3_value": 54.0
+    },
+    "Chefs Essentials": {
+     "name": "Chefs Essentials",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Myriad Crate": {
+     "name": "Myriad Crate",
+     "tab": "Charlie's Crates",
+     "max_level": 100000,
+     "level": 1521,
+     "bonus_1_value": 28.270061800102226,
+     "bonus_2_value": 66.33677232622193,
+     "bonus_3_value": 5.75373450827011
+    },
+    "Scurvy C'arr'ate": {
+     "name": "Scurvy C'arr'ate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 5.333333333333333,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    },
+    "Box of Gosh": {
+     "name": "Box of Gosh",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Gaming Lootcrate": {
+     "name": "Gaming Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 9.333333333333334,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    }
+   },
+   "world": 3
+  },
+  {
+   "character_index": 6,
+   "character_name": "Autistotle",
+   "class_name": "Voidwalker",
+   "base_class": "Journeyman",
+   "sub_class": "Maestro",
+   "elite_class": "Voidwalker",
+   "master_class": "None",
+   "combat_level": 781,
+   "current_map_index": 107,
+   "alchemy_job_string": "Green",
+   "active_talent_preset": 0,
+   "divinity_link": "Arctis",
+   "equipped_prayers": [
+    "The Royal Sampler",
+    "Skilled Dimwit",
+    "Shiny Snitch"
+   ],
+   "specialized_skills": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "equipped_star_signs": [
+    11,
+    29,
+    25
+   ],
+   "skills": {
+    "Combat": 781,
+    "Mining": 141,
+    "Smithing": 100,
+    "Chopping": 102,
+    "Fishing": 139,
+    "Alchemy": 111,
+    "Catching": 100,
+    "Trapping": 69,
+    "Construction": 432,
+    "Worship": 96,
+    "Cooking": 17,
+    "Breeding": 90,
+    "Laboratory": 254,
+    "Sailing": 145,
+    "Divinity": 193,
+    "Gaming": 209,
+    "Farming": 216,
+    "Sneaking": 287,
+    "Summoning": 126,
+    "Spelunking": 17,
+    "Research": 25,
+    "Skill 3 Lol": -1
+   },
+   "equipped_lab_chips": [
+    "Galvanic Motherboard",
+    "Conductive Motherboard",
+    "Conductive Nanochip",
+    "Conductive Processor"
+   ],
+   "po_boxes_invested": {
+    "Civil War Memory Box": {
+     "name": "Civil War Memory Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Locally Sourced Organs": {
+     "name": "Locally Sourced Organs",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 1,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Magician Starterpack": {
+     "name": "Magician Starterpack",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 1,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Box of Unwanted Stats": {
+     "name": "Box of Unwanted Stats",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 100.0,
+     "bonus_2_value": 112.5,
+     "bonus_3_value": 18.51063829787234
+    },
+    "Dwarven Supplies": {
+     "name": "Dwarven Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 9.473684210526315
+    },
+    "Blacksmith Box": {
+     "name": "Blacksmith Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 48.91304347826087,
+     "bonus_3_value": 20.0
+    },
+    "Taped Up Timber": {
+     "name": "Taped Up Timber",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 9.473684210526315
+    },
+    "Carepack From Mum": {
+     "name": "Carepack From Mum",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 15.333333333333334,
+     "bonus_2_value": 19.565217391304348,
+     "bonus_3_value": 18.0
+    },
+    "Sealed Fishheads": {
+     "name": "Sealed Fishheads",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 9.473684210526315
+    },
+    "Potion Package": {
+     "name": "Potion Package",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 46.666666666666664,
+     "bonus_2_value": 42.857142857142854,
+     "bonus_3_value": 30.0
+    },
+    "Bug Hunting Supplies": {
+     "name": "Bug Hunting Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 9.473684210526315
+    },
+    "Non Predatory Loot Box": {
+     "name": "Non Predatory Loot Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 93.75,
+     "bonus_3_value": 39.0
+    },
+    "Deaths Storage Unit": {
+     "name": "Deaths Storage Unit",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Utilitarian Capsule": {
+     "name": "Utilitarian Capsule",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 3.3333333333333335,
+     "bonus_2_value": 9.782608695652174,
+     "bonus_3_value": 23.4
+    },
+    "Lazzzy Lootcrate": {
+     "name": "Lazzzy Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 20.0,
+     "bonus_2_value": 22.82608695652174,
+     "bonus_3_value": 21.0
+    },
+    "Science Spare Parts": {
+     "name": "Science Spare Parts",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 1600,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 18.0
+    },
+    "Trapping Lockbox": {
+     "name": "Trapping Lockbox",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 32.608695652173914,
+     "bonus_3_value": 27.0
+    },
+    "Construction Container": {
+     "name": "Construction Container",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 100.0,
+     "bonus_2_value": 48.91304347826087,
+     "bonus_3_value": 150.0
+    },
+    "Crate of the Creator": {
+     "name": "Crate of the Creator",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 130.43478260869566,
+     "bonus_3_value": 54.0
+    },
+    "Chefs Essentials": {
+     "name": "Chefs Essentials",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 1600,
+     "bonus_2_value": 39.130434782608695,
+     "bonus_3_value": 52.8
+    },
+    "Myriad Crate": {
+     "name": "Myriad Crate",
+     "tab": "Charlie's Crates",
+     "max_level": 100000,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Scurvy C'arr'ate": {
+     "name": "Scurvy C'arr'ate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 400,
+     "bonus_1_value": 4.0,
+     "bonus_2_value": 70.0,
+     "bonus_3_value": 8.333333333333334
+    },
+    "Box of Gosh": {
+     "name": "Box of Gosh",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 400,
+     "bonus_1_value": 37.5,
+     "bonus_2_value": 70.0,
+     "bonus_3_value": 10.0
+    },
+    "Gaming Lootcrate": {
+     "name": "Gaming Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 400,
+     "bonus_1_value": 7.0,
+     "bonus_2_value": 70.0,
+     "bonus_3_value": 8.333333333333334
+    }
+   },
+   "world": 3
+  },
+  {
+   "character_index": 7,
+   "character_name": "Autistomatic",
+   "class_name": "Royal Guardian",
+   "base_class": "Warrior",
+   "sub_class": "Squire",
+   "elite_class": "Divine Knight",
+   "master_class": "Royal Guardian",
+   "combat_level": 823,
+   "current_map_index": 301,
+   "alchemy_job_string": "Yellow",
+   "active_talent_preset": 1,
+   "divinity_link": "Arctis",
+   "equipped_prayers": [
+    "Skilled Dimwit",
+    "The Royal Sampler"
+   ],
+   "specialized_skills": [
+    "Mining",
+    "Construction",
+    "Gaming",
+    "Spelunking"
+   ],
+   "equipped_star_signs": [
+    45,
+    52,
+    51
+   ],
+   "skills": {
+    "Combat": 823,
+    "Mining": 137,
+    "Smithing": 90,
+    "Chopping": 1,
+    "Fishing": 1,
+    "Alchemy": 109,
+    "Catching": 6,
+    "Trapping": 70,
+    "Construction": 959,
+    "Worship": 87,
+    "Cooking": 17,
+    "Breeding": 90,
+    "Laboratory": 80,
+    "Sailing": 145,
+    "Divinity": 193,
+    "Gaming": 209,
+    "Farming": 216,
+    "Sneaking": 296,
+    "Summoning": 126,
+    "Spelunking": 29,
+    "Research": 24,
+    "Skill 3 Lol": -1
+   },
+   "equipped_lab_chips": [
+    "Grounded Processor",
+    "Conductive Motherboard",
+    "Grounded Motherboard",
+    "Grounded Nanochip",
+    "Grounded Nanochip",
+    "Grounded Software"
+   ],
+   "po_boxes_invested": {
+    "Civil War Memory Box": {
+     "name": "Civil War Memory Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 400,
+     "bonus_2_value": 8.478260869565217,
+     "bonus_3_value": 6.0
+    },
+    "Locally Sourced Organs": {
+     "name": "Locally Sourced Organs",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 201,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 18.0
+    },
+    "Magician Starterpack": {
+     "name": "Magician Starterpack",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 134,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 10.2
+    },
+    "Box of Unwanted Stats": {
+     "name": "Box of Unwanted Stats",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 100.0,
+     "bonus_2_value": 112.5,
+     "bonus_3_value": 18.51063829787234
+    },
+    "Dwarven Supplies": {
+     "name": "Dwarven Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 9.473684210526315
+    },
+    "Blacksmith Box": {
+     "name": "Blacksmith Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 48.91304347826087,
+     "bonus_3_value": 20.0
+    },
+    "Taped Up Timber": {
+     "name": "Taped Up Timber",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Carepack From Mum": {
+     "name": "Carepack From Mum",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 15.333333333333334,
+     "bonus_2_value": 19.565217391304348,
+     "bonus_3_value": 18.0
+    },
+    "Sealed Fishheads": {
+     "name": "Sealed Fishheads",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Potion Package": {
+     "name": "Potion Package",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Bug Hunting Supplies": {
+     "name": "Bug Hunting Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Non Predatory Loot Box": {
+     "name": "Non Predatory Loot Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 93.75,
+     "bonus_3_value": 39.0
+    },
+    "Deaths Storage Unit": {
+     "name": "Deaths Storage Unit",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 14.666666666666666,
+     "bonus_2_value": 10.714285714285714,
+     "bonus_3_value": 9.0
+    },
+    "Utilitarian Capsule": {
+     "name": "Utilitarian Capsule",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 3.3333333333333335,
+     "bonus_2_value": 9.782608695652174,
+     "bonus_3_value": 23.4
+    },
+    "Lazzzy Lootcrate": {
+     "name": "Lazzzy Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Science Spare Parts": {
+     "name": "Science Spare Parts",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 1600,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 18.0
+    },
+    "Trapping Lockbox": {
+     "name": "Trapping Lockbox",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Construction Container": {
+     "name": "Construction Container",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 100.0,
+     "bonus_2_value": 48.91304347826087,
+     "bonus_3_value": 150.0
+    },
+    "Crate of the Creator": {
+     "name": "Crate of the Creator",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Chefs Essentials": {
+     "name": "Chefs Essentials",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Myriad Crate": {
+     "name": "Myriad Crate",
+     "tab": "Charlie's Crates",
+     "max_level": 100000,
+     "level": 409,
+     "bonus_1_value": 8.016071341075016,
+     "bonus_2_value": 15.21492934167118,
+     "bonus_3_value": 0.5420458501168631
+    },
+    "Scurvy C'arr'ate": {
+     "name": "Scurvy C'arr'ate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 5.333333333333333,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    },
+    "Box of Gosh": {
+     "name": "Box of Gosh",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 50.0,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 18.0
+    },
+    "Gaming Lootcrate": {
+     "name": "Gaming Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 9.333333333333334,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    }
+   },
+   "world": 7
+  },
+  {
+   "character_index": 8,
+   "character_name": "Autistronaut",
+   "class_name": "Elemental Sorcerer",
+   "base_class": "Mage",
+   "sub_class": "Wizard",
+   "elite_class": "Elemental Sorcerer",
+   "master_class": "None",
+   "combat_level": 830,
+   "current_map_index": 111,
+   "alchemy_job_string": "Liquid Nitrogen",
+   "active_talent_preset": 0,
+   "divinity_link": "Kattlekruk",
+   "equipped_prayers": [
+    "Shiny Snitch",
+    "The Royal Sampler",
+    "Skilled Dimwit"
+   ],
+   "specialized_skills": [
+    "Chopping",
+    "Worship",
+    "Divinity",
+    null
+   ],
+   "equipped_star_signs": [
+    47,
+    52,
+    51
+   ],
+   "skills": {
+    "Combat": 830,
+    "Mining": 40,
+    "Smithing": 91,
+    "Chopping": 124,
+    "Fishing": 16,
+    "Alchemy": 115,
+    "Catching": 9,
+    "Trapping": 64,
+    "Construction": 452,
+    "Worship": 84,
+    "Cooking": 21,
+    "Breeding": 90,
+    "Laboratory": 233,
+    "Sailing": 145,
+    "Divinity": 96,
+    "Gaming": 209,
+    "Farming": 216,
+    "Sneaking": 287,
+    "Summoning": 126,
+    "Spelunking": 30,
+    "Research": 25,
+    "Skill 3 Lol": -1
+   },
+   "equipped_lab_chips": [
+    "Grounded Processor",
+    "Grounded Software",
+    "Grounded Motherboard",
+    "Grounded Nanochip",
+    "Grounded Nanochip",
+    "Grounded Software"
+   ],
+   "po_boxes_invested": {
+    "Civil War Memory Box": {
+     "name": "Civil War Memory Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 400,
+     "bonus_2_value": 8.478260869565217,
+     "bonus_3_value": 6.0
+    },
+    "Locally Sourced Organs": {
+     "name": "Locally Sourced Organs",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 201,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 18.0
+    },
+    "Magician Starterpack": {
+     "name": "Magician Starterpack",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 134,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 10.2
+    },
+    "Box of Unwanted Stats": {
+     "name": "Box of Unwanted Stats",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 100.0,
+     "bonus_2_value": 112.5,
+     "bonus_3_value": 18.51063829787234
+    },
+    "Dwarven Supplies": {
+     "name": "Dwarven Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Blacksmith Box": {
+     "name": "Blacksmith Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 48.91304347826087,
+     "bonus_3_value": 20.0
+    },
+    "Taped Up Timber": {
+     "name": "Taped Up Timber",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 9.473684210526315
+    },
+    "Carepack From Mum": {
+     "name": "Carepack From Mum",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 15.333333333333334,
+     "bonus_2_value": 19.565217391304348,
+     "bonus_3_value": 18.0
+    },
+    "Sealed Fishheads": {
+     "name": "Sealed Fishheads",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Potion Package": {
+     "name": "Potion Package",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Bug Hunting Supplies": {
+     "name": "Bug Hunting Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Non Predatory Loot Box": {
+     "name": "Non Predatory Loot Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 93.75,
+     "bonus_3_value": 39.0
+    },
+    "Deaths Storage Unit": {
+     "name": "Deaths Storage Unit",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 14.666666666666666,
+     "bonus_2_value": 10.714285714285714,
+     "bonus_3_value": 9.0
+    },
+    "Utilitarian Capsule": {
+     "name": "Utilitarian Capsule",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 3.3333333333333335,
+     "bonus_2_value": 9.782608695652174,
+     "bonus_3_value": 23.4
+    },
+    "Lazzzy Lootcrate": {
+     "name": "Lazzzy Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Science Spare Parts": {
+     "name": "Science Spare Parts",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 1600,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 18.0
+    },
+    "Trapping Lockbox": {
+     "name": "Trapping Lockbox",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Construction Container": {
+     "name": "Construction Container",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Crate of the Creator": {
+     "name": "Crate of the Creator",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 130.43478260869566,
+     "bonus_3_value": 54.0
+    },
+    "Chefs Essentials": {
+     "name": "Chefs Essentials",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Myriad Crate": {
+     "name": "Myriad Crate",
+     "tab": "Charlie's Crates",
+     "max_level": 100000,
+     "level": 409,
+     "bonus_1_value": 8.016071341075016,
+     "bonus_2_value": 15.21492934167118,
+     "bonus_3_value": 0.5420458501168631
+    },
+    "Scurvy C'arr'ate": {
+     "name": "Scurvy C'arr'ate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 5.333333333333333,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    },
+    "Box of Gosh": {
+     "name": "Box of Gosh",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 50.0,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 18.0
+    },
+    "Gaming Lootcrate": {
+     "name": "Gaming Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 9.333333333333334,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    }
+   },
+   "world": 3
+  },
+  {
+   "character_index": 9,
+   "character_name": "Autistopher",
+   "class_name": "Death Bringer",
+   "base_class": "Warrior",
+   "sub_class": "Barbarian",
+   "elite_class": "Blood Berserker",
+   "master_class": "Death Bringer",
+   "combat_level": 824,
+   "current_map_index": 261,
+   "alchemy_job_string": "Orange",
+   "active_talent_preset": 0,
+   "divinity_link": "Arctis",
+   "equipped_prayers": [
+    "Skilled Dimwit",
+    "Balance of Precision",
+    "The Royal Sampler"
+   ],
+   "specialized_skills": [
+    "Mining",
+    "Fishing",
+    "Cooking",
+    "Farming"
+   ],
+   "equipped_star_signs": [
+    20,
+    55,
+    7
+   ],
+   "skills": {
+    "Combat": 824,
+    "Mining": 29,
+    "Smithing": 97,
+    "Chopping": 30,
+    "Fishing": 1,
+    "Alchemy": 112,
+    "Catching": 120,
+    "Trapping": 66,
+    "Construction": 374,
+    "Worship": 74,
+    "Cooking": 20,
+    "Breeding": 89,
+    "Laboratory": 87,
+    "Sailing": 144,
+    "Divinity": 193,
+    "Gaming": 205,
+    "Farming": 209,
+    "Sneaking": 285,
+    "Summoning": 126,
+    "Spelunking": 25,
+    "Research": 25,
+    "Skill 3 Lol": -1
+   },
+   "equipped_lab_chips": [
+    "Grounded Processor",
+    "Grounded Software",
+    "Grounded Motherboard",
+    "Grounded Nanochip",
+    "Grounded Nanochip",
+    "Grounded Software",
+    "Conductive Processor"
+   ],
+   "po_boxes_invested": {
+    "Civil War Memory Box": {
+     "name": "Civil War Memory Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 400,
+     "bonus_2_value": 8.478260869565217,
+     "bonus_3_value": 6.0
+    },
+    "Locally Sourced Organs": {
+     "name": "Locally Sourced Organs",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 201,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 18.0
+    },
+    "Magician Starterpack": {
+     "name": "Magician Starterpack",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 134,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 10.2
+    },
+    "Box of Unwanted Stats": {
+     "name": "Box of Unwanted Stats",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 100.0,
+     "bonus_2_value": 112.5,
+     "bonus_3_value": 18.51063829787234
+    },
+    "Dwarven Supplies": {
+     "name": "Dwarven Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Blacksmith Box": {
+     "name": "Blacksmith Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 48.91304347826087,
+     "bonus_3_value": 20.0
+    },
+    "Taped Up Timber": {
+     "name": "Taped Up Timber",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Carepack From Mum": {
+     "name": "Carepack From Mum",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 15.333333333333334,
+     "bonus_2_value": 19.565217391304348,
+     "bonus_3_value": 18.0
+    },
+    "Sealed Fishheads": {
+     "name": "Sealed Fishheads",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Potion Package": {
+     "name": "Potion Package",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Bug Hunting Supplies": {
+     "name": "Bug Hunting Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 9.473684210526315
+    },
+    "Non Predatory Loot Box": {
+     "name": "Non Predatory Loot Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 93.75,
+     "bonus_3_value": 39.0
+    },
+    "Deaths Storage Unit": {
+     "name": "Deaths Storage Unit",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 14.666666666666666,
+     "bonus_2_value": 10.714285714285714,
+     "bonus_3_value": 9.0
+    },
+    "Utilitarian Capsule": {
+     "name": "Utilitarian Capsule",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 3.3333333333333335,
+     "bonus_2_value": 9.782608695652174,
+     "bonus_3_value": 23.4
+    },
+    "Lazzzy Lootcrate": {
+     "name": "Lazzzy Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Science Spare Parts": {
+     "name": "Science Spare Parts",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 1600,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 18.0
+    },
+    "Trapping Lockbox": {
+     "name": "Trapping Lockbox",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Construction Container": {
+     "name": "Construction Container",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Crate of the Creator": {
+     "name": "Crate of the Creator",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Chefs Essentials": {
+     "name": "Chefs Essentials",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Myriad Crate": {
+     "name": "Myriad Crate",
+     "tab": "Charlie's Crates",
+     "max_level": 100000,
+     "level": 809,
+     "bonus_1_value": 15.550963525397664,
+     "bonus_2_value": 34.23632237191559,
+     "bonus_3_value": 2.4818372421863573
+    },
+    "Scurvy C'arr'ate": {
+     "name": "Scurvy C'arr'ate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 5.333333333333333,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    },
+    "Box of Gosh": {
+     "name": "Box of Gosh",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 50.0,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 18.0
+    },
+    "Gaming Lootcrate": {
+     "name": "Gaming Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 9.333333333333334,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    }
+   },
+   "world": 6
+  },
+  {
+   "character_index": 10,
+   "character_name": "Autistachio",
+   "class_name": "Beginner",
+   "base_class": "Beginner",
+   "sub_class": "None",
+   "elite_class": "None",
+   "master_class": "None",
+   "combat_level": 737,
+   "current_map_index": 216,
+   "alchemy_job_string": "Pea Pod",
+   "active_talent_preset": 0,
+   "divinity_link": "Arctis",
+   "equipped_prayers": [],
+   "specialized_skills": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "equipped_star_signs": [
+    14
+   ],
+   "skills": {
+    "Combat": 737,
+    "Mining": 17,
+    "Smithing": 88,
+    "Chopping": 9,
+    "Fishing": 8,
+    "Alchemy": 93,
+    "Catching": 13,
+    "Trapping": 41,
+    "Construction": 165,
+    "Worship": 70,
+    "Cooking": 1,
+    "Breeding": 90,
+    "Laboratory": 61,
+    "Sailing": 145,
+    "Divinity": 54,
+    "Gaming": 209,
+    "Farming": 216,
+    "Sneaking": 235,
+    "Summoning": 126,
+    "Spelunking": 1,
+    "Research": 24,
+    "Skill 3 Lol": 0
+   },
+   "equipped_lab_chips": [
+    "Grounded Software",
+    "Grounded Nanochip"
+   ],
+   "po_boxes_invested": {
+    "Civil War Memory Box": {
+     "name": "Civil War Memory Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 400,
+     "bonus_2_value": 8.478260869565217,
+     "bonus_3_value": 6.0
+    },
+    "Locally Sourced Organs": {
+     "name": "Locally Sourced Organs",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 201,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 18.0
+    },
+    "Magician Starterpack": {
+     "name": "Magician Starterpack",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 134,
+     "bonus_2_value": 37.5,
+     "bonus_3_value": 10.2
+    },
+    "Box of Unwanted Stats": {
+     "name": "Box of Unwanted Stats",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 100.0,
+     "bonus_2_value": 112.5,
+     "bonus_3_value": 18.51063829787234
+    },
+    "Dwarven Supplies": {
+     "name": "Dwarven Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Blacksmith Box": {
+     "name": "Blacksmith Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 48.91304347826087,
+     "bonus_3_value": 20.0
+    },
+    "Taped Up Timber": {
+     "name": "Taped Up Timber",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Carepack From Mum": {
+     "name": "Carepack From Mum",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 15.333333333333334,
+     "bonus_2_value": 19.565217391304348,
+     "bonus_3_value": 18.0
+    },
+    "Sealed Fishheads": {
+     "name": "Sealed Fishheads",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Potion Package": {
+     "name": "Potion Package",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Bug Hunting Supplies": {
+     "name": "Bug Hunting Supplies",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Non Predatory Loot Box": {
+     "name": "Non Predatory Loot Box",
+     "tab": "Bob's Boxes",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 33.333333333333336,
+     "bonus_2_value": 93.75,
+     "bonus_3_value": 39.0
+    },
+    "Deaths Storage Unit": {
+     "name": "Deaths Storage Unit",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 14.666666666666666,
+     "bonus_2_value": 10.714285714285714,
+     "bonus_3_value": 9.0
+    },
+    "Utilitarian Capsule": {
+     "name": "Utilitarian Capsule",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 3.3333333333333335,
+     "bonus_2_value": 9.782608695652174,
+     "bonus_3_value": 23.4
+    },
+    "Lazzzy Lootcrate": {
+     "name": "Lazzzy Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 20.0,
+     "bonus_2_value": 22.82608695652174,
+     "bonus_3_value": 21.0
+    },
+    "Science Spare Parts": {
+     "name": "Science Spare Parts",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 400,
+     "bonus_1_value": 1600,
+     "bonus_2_value": 28.571428571428573,
+     "bonus_3_value": 18.0
+    },
+    "Trapping Lockbox": {
+     "name": "Trapping Lockbox",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Construction Container": {
+     "name": "Construction Container",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Crate of the Creator": {
+     "name": "Crate of the Creator",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0.0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Chefs Essentials": {
+     "name": "Chefs Essentials",
+     "tab": "Charlie's Crates",
+     "max_level": 400,
+     "level": 0,
+     "bonus_1_value": 0,
+     "bonus_2_value": 0,
+     "bonus_3_value": 0
+    },
+    "Myriad Crate": {
+     "name": "Myriad Crate",
+     "tab": "Charlie's Crates",
+     "max_level": 100000,
+     "level": 750,
+     "bonus_1_value": 14.457831325301205,
+     "bonus_2_value": 31.476997578692494,
+     "bonus_3_value": 2.2004889975550124
+    },
+    "Scurvy C'arr'ate": {
+     "name": "Scurvy C'arr'ate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 5.333333333333333,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    },
+    "Box of Gosh": {
+     "name": "Box of Gosh",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 50.0,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 18.0
+    },
+    "Gaming Lootcrate": {
+     "name": "Gaming Lootcrate",
+     "tab": "Charlie's Crates",
+     "max_level": 800,
+     "level": 800,
+     "bonus_1_value": 9.333333333333334,
+     "bonus_2_value": 150.0,
+     "bonus_3_value": 15.0
+    }
+   },
+   "world": 5
+  }
+ ]
+}

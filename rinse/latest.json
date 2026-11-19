@@ -1,9 +1,9 @@
 {
  "meta": {
-  "game_save_utc": "2026-11-19T00:10:58.168000+00:00",
-  "game_save_et": "2026-11-18 07:10 PM ET",
-  "review_run_et": "2026-11-18 07:12 PM ET",
-  "autoreview_last_update": "Nov 19, 2026, 12:10:58 AM UTC",
+  "game_save_utc": "2026-11-19T02:12:54.168000+00:00",
+  "game_save_et": "2026-11-18 09:12 PM ET",
+  "review_run_et": "2026-11-19 11:29 AM ET",
+  "autoreview_last_update": "Nov 19, 2026, 2:12:54 AM UTC",
   "switches": {
    "autoloot": "on",
    "doot": "on",
@@ -43,14 +43,14 @@
    }
   },
   {
-   "_i": 1756,
+   "_i": 1773,
    "score": 150,
    "section": "Farming",
    "world": "Spirited Valley",
    "group": "Continue Farming",
-   "label": "Evolution Gmo:1.6/1.7x crop evolution chance per crop you have 200 ofTotal cost: 35,706",
-   "cur": "75",
-   "goal": "88",
+   "label": "Evolution Gmo:2.13/2.5x crop evolution chance per crop you have 200 ofTotal cost: 111,702,124",
+   "cur": "141",
+   "goal": "187",
    "factors": {
     "gap": 1.0,
     "act": 1.25,
@@ -84,12 +84,12 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.179
+    "griffy": 1.177
    }
   },
   {
    "_i": 167,
-   "score": 146,
+   "score": 145,
    "section": "Stamps",
    "world": "Blunder Hills",
    "group": "Improve high-priority Stamps",
@@ -99,7 +99,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.164
+    "griffy": 1.163
    }
   },
   {
@@ -114,7 +114,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -129,7 +129,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -144,22 +144,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.086
-   }
-  },
-  {
-   "_i": 69,
-   "score": 134,
-   "section": "Compass",
-   "world": "Master Classes",
-   "group": "Slay more Abominations",
-   "label": "Abominations Slain",
-   "cur": "16",
-   "goal": "19",
-   "factors": {
-    "gap": 1.0,
-    "act": 1.25,
-    "griffy": 1.07
+    "griffy": 1.087
    }
   },
   {
@@ -174,7 +159,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.073
+    "griffy": 1.072
    }
   },
   {
@@ -193,6 +178,21 @@
    }
   },
   {
+   "_i": 69,
+   "score": 133,
+   "section": "Compass",
+   "world": "Master Classes",
+   "group": "Slay more Abominations",
+   "label": "Abominations Slain",
+   "cur": "16",
+   "goal": "19",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.063
+   }
+  },
+  {
    "_i": 252,
    "score": 133,
    "section": "Vials",
@@ -204,7 +204,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.068
+    "griffy": 1.067
    }
   },
   {
@@ -249,7 +249,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.037
+    "griffy": 1.036
    }
   },
   {
@@ -294,7 +294,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.022
+    "griffy": 1.023
    }
   },
   {
@@ -309,11 +309,11 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.017
+    "griffy": 1.016
    }
   },
   {
-   "_i": 1772,
+   "_i": 1781,
    "score": 126,
    "section": "Beanstalk",
    "world": "Spirited Valley",
@@ -328,7 +328,7 @@
    }
   },
   {
-   "_i": 16,
+   "_i": 18,
    "score": 126,
    "section": "Endangered Greenstacks",
    "world": "General",
@@ -975,14 +975,44 @@
    }
   },
   {
-   "_i": 1756,
+   "_i": 1773,
    "score": 150,
    "section": "Farming",
    "world": "Spirited Valley",
    "group": "Continue Farming",
-   "label": "Evolution Gmo:1.6/1.7x crop evolution chance per crop you have 200 ofTotal cost: 35,706",
-   "cur": "75",
-   "goal": "88",
+   "label": "Evolution Gmo:2.13/2.5x crop evolution chance per crop you have 200 ofTotal cost: 111,702,124",
+   "cur": "141",
+   "goal": "187",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.2
+   }
+  },
+  {
+   "_i": 1776,
+   "score": 150,
+   "section": "Farming",
+   "world": "Spirited Valley",
+   "group": "Continue Farming",
+   "label": "Exp Gmo:+15/100% farming EXP gain crop you have 2500 ofTotal cost: 1,902,116",
+   "cur": "15",
+   "goal": "100",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.2
+   }
+  },
+  {
+   "_i": 1778,
+   "score": 150,
+   "section": "Farming",
+   "world": "Spirited Valley",
+   "group": "Continue Farming",
+   "label": "Grand Total Magic Bean Cost remaining in this Tier",
+   "cur": "0.09M",
+   "goal": "147.85M",
    "factors": {
     "gap": 1.0,
     "act": 1.25,
@@ -995,9 +1025,9 @@
    "section": "Farming",
    "world": "Spirited Valley",
    "group": "Continue Farming",
-   "label": "Evolution Gmo:1.6/2x crop evolution chance per crop you have 200 ofTotal cost: 953,241",
-   "cur": "75",
-   "goal": "125",
+   "label": "More Beenz:+110/200% magic beans gained when trading in crops",
+   "cur": "55",
+   "goal": "100",
    "factors": {
     "gap": 1.0,
     "act": 1.25,
@@ -1005,14 +1035,14 @@
    }
   },
   {
-   "_i": 1759,
+   "_i": 1775,
    "score": 150,
    "section": "Farming",
    "world": "Spirited Valley",
    "group": "Continue Farming",
-   "label": "Grand Total Magic Bean Cost remaining in this Tier",
-   "cur": "5311.91K",
-   "goal": "172.72K",
+   "label": "Og Fertilizer:1.6/3x higher chance for Overgrowth to occurTotal cost: 26,458,076",
+   "cur": "60",
+   "goal": "200",
    "factors": {
     "gap": 1.0,
     "act": 1.25,
@@ -1035,14 +1065,59 @@
    }
   },
   {
-   "_i": 1757,
+   "_i": 1765,
    "score": 150,
    "section": "Farming",
    "world": "Spirited Valley",
    "group": "Continue Farming",
-   "label": "Speed Gmo:+12.6/15% growth speed per crop you have 1000 ofTotal cost: 51,226",
+   "label": "Product Doubler:+126/300% chance for crops to be worth 2x when collected",
    "cur": "42",
-   "goal": "50",
+   "goal": "100",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.2
+   }
+  },
+  {
+   "_i": 1762,
+   "score": 150,
+   "section": "Farming",
+   "world": "Spirited Valley",
+   "group": "Continue Farming",
+   "label": "Raise Farming skill level",
+   "cur": "237",
+   "goal": "300",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.2
+   }
+  },
+  {
+   "_i": 1767,
+   "score": 150,
+   "section": "Farming",
+   "world": "Spirited Valley",
+   "group": "Continue Farming",
+   "label": "Rank Boost:Plots earn +165/300% more Rank XP when a crop is collected",
+   "cur": "55",
+   "goal": "100",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.2
+   }
+  },
+  {
+   "_i": 1774,
+   "score": 150,
+   "section": "Farming",
+   "world": "Spirited Valley",
+   "group": "Continue Farming",
+   "label": "Speed Gmo:+20.1/24% growth speed per crop you have 1000 ofTotal cost: 4,778,992",
+   "cur": "67",
+   "goal": "80",
    "factors": {
     "gap": 1.0,
     "act": 1.25,
@@ -1056,7 +1131,7 @@
    "world": "Spirited Valley",
    "group": "Continue Farming",
    "label": "Stacks for Evolution Gmo (200 crops)",
-   "cur": "0",
+   "cur": "10",
    "goal": "127",
    "factors": {
     "gap": 1.0,
@@ -1071,7 +1146,7 @@
    "world": "Spirited Valley",
    "group": "Continue Farming",
    "label": "Stacks for Speed Gmo (1000 crops)",
-   "cur": "0",
+   "cur": "10",
    "goal": "127",
    "factors": {
     "gap": 1.0,
@@ -1086,7 +1161,7 @@
    "world": "Spirited Valley",
    "group": "Continue Farming",
    "label": "Stacks for Super Gmo (100000 crops)",
-   "cur": "0",
+   "cur": "6",
    "goal": "127",
    "factors": {
     "gap": 1.0,
@@ -1101,7 +1176,7 @@
    "world": "Spirited Valley",
    "group": "Continue Farming",
    "label": "Stacks for Value Gmo (10000 crops)",
-   "cur": "0",
+   "cur": "10",
    "goal": "127",
    "factors": {
     "gap": 1.0,
@@ -1110,7 +1185,22 @@
    }
   },
   {
-   "_i": 1765,
+   "_i": 1764,
+   "score": 150,
+   "section": "Farming",
+   "world": "Spirited Valley",
+   "group": "Continue Farming",
+   "label": "Stronger Vines:+184/340% chance for +1 crop when fully grown",
+   "cur": "92",
+   "goal": "170",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.2
+   }
+  },
+  {
+   "_i": 1761,
    "score": 150,
    "section": "Farming",
    "world": "Spirited Valley",
@@ -1125,13 +1215,28 @@
    }
   },
   {
+   "_i": 1772,
+   "score": 150,
+   "section": "Farming",
+   "world": "Spirited Valley",
+   "group": "Continue Farming",
+   "label": "Suggestion: 1e+91 to 1e+93x Evo Chance",
+   "cur": "0e+93",
+   "goal": "1e+93",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.2
+   }
+  },
+  {
    "_i": 1755,
    "score": 150,
    "section": "Farming",
    "world": "Spirited Valley",
    "group": "Continue Farming",
    "label": "Suggestion: 250 to 400x Speed",
-   "cur": "20",
+   "cur": "135",
    "goal": "400",
    "factors": {
     "gap": 1.0,
@@ -1140,14 +1245,14 @@
    }
   },
   {
-   "_i": 1758,
+   "_i": 1777,
    "score": 150,
    "section": "Farming",
    "world": "Spirited Valley",
    "group": "Continue Farming",
-   "label": "Super Gmo:+10/15% all 'GMO' bonuses per crop you have 100KTotal cost: 85,786",
-   "cur": "20",
-   "goal": "30",
+   "label": "Super Gmo:+21/25% all 'GMO' bonuses per crop you have 100KTotal cost: 3,010,327",
+   "cur": "42",
+   "goal": "50",
    "factors": {
     "gap": 1.0,
     "act": 1.25,
@@ -1155,22 +1260,7 @@
    }
   },
   {
-   "_i": 1767,
-   "score": 150,
-   "section": "Farming",
-   "world": "Spirited Valley",
-   "group": "Continue Farming",
-   "label": "Super Gmo:+10/20% all 'GMO' bonuses per crop you have 100KTotal cost: 616,987",
-   "cur": "20",
-   "goal": "40",
-   "factors": {
-    "gap": 1.0,
-    "act": 1.25,
-    "griffy": 1.2
-   }
-  },
-  {
-   "_i": 1760,
+   "_i": 1756,
    "score": 150,
    "section": "Farming",
    "world": "Spirited Valley",
@@ -1185,14 +1275,14 @@
    }
   },
   {
-   "_i": 1768,
+   "_i": 1763,
    "score": 150,
    "section": "Farming",
    "world": "Spirited Valley",
    "group": "Continue Farming",
-   "label": "Value Gmo:+0.2/0.4% crop value per per crop you have 10000 ofTotal cost: 3,014",
-   "cur": "10",
-   "goal": "20",
+   "label": "Unlock 40 more crop types",
+   "cur": "140",
+   "goal": "180",
    "factors": {
     "gap": 1.0,
     "act": 1.25,
@@ -1286,7 +1376,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.179
+    "griffy": 1.177
    }
   },
   {
@@ -1301,7 +1391,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.179
+    "griffy": 1.177
    }
   },
   {
@@ -1316,7 +1406,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.179
+    "griffy": 1.177
    }
   },
   {
@@ -1331,7 +1421,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.179
+    "griffy": 1.177
    }
   },
   {
@@ -1346,12 +1436,12 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.179
+    "griffy": 1.177
    }
   },
   {
    "_i": 167,
-   "score": 146,
+   "score": 145,
    "section": "Stamps",
    "world": "Blunder Hills",
    "group": "Improve high-priority Stamps",
@@ -1361,12 +1451,12 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.164
+    "griffy": 1.163
    }
   },
   {
    "_i": 168,
-   "score": 146,
+   "score": 145,
    "section": "Stamps",
    "world": "Blunder Hills",
    "group": "Improve high-priority Stamps",
@@ -1376,12 +1466,12 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.164
+    "griffy": 1.163
    }
   },
   {
    "_i": 165,
-   "score": 146,
+   "score": 145,
    "section": "Stamps",
    "world": "Blunder Hills",
    "group": "Improve high-priority Stamps",
@@ -1391,12 +1481,12 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.164
+    "griffy": 1.163
    }
   },
   {
    "_i": 164,
-   "score": 146,
+   "score": 145,
    "section": "Stamps",
    "world": "Blunder Hills",
    "group": "Improve high-priority Stamps",
@@ -1406,12 +1496,12 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.164
+    "griffy": 1.163
    }
   },
   {
    "_i": 161,
-   "score": 146,
+   "score": 145,
    "section": "Stamps",
    "world": "Blunder Hills",
    "group": "Improve high-priority Stamps",
@@ -1421,12 +1511,12 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.164
+    "griffy": 1.163
    }
   },
   {
    "_i": 160,
-   "score": 146,
+   "score": 145,
    "section": "Stamps",
    "world": "Blunder Hills",
    "group": "Improve high-priority Stamps",
@@ -1436,12 +1526,12 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.164
+    "griffy": 1.163
    }
   },
   {
    "_i": 158,
-   "score": 146,
+   "score": 145,
    "section": "Stamps",
    "world": "Blunder Hills",
    "group": "Improve high-priority Stamps",
@@ -1451,12 +1541,12 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.164
+    "griffy": 1.163
    }
   },
   {
    "_i": 159,
-   "score": 146,
+   "score": 145,
    "section": "Stamps",
    "world": "Blunder Hills",
    "group": "Improve high-priority Stamps",
@@ -1466,12 +1556,12 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.164
+    "griffy": 1.163
    }
   },
   {
    "_i": 166,
-   "score": 146,
+   "score": 145,
    "section": "Stamps",
    "world": "Blunder Hills",
    "group": "Improve high-priority Stamps",
@@ -1481,12 +1571,12 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.164
+    "griffy": 1.163
    }
   },
   {
    "_i": 162,
-   "score": 146,
+   "score": 145,
    "section": "Stamps",
    "world": "Blunder Hills",
    "group": "Improve high-priority Stamps",
@@ -1496,12 +1586,12 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.164
+    "griffy": 1.163
    }
   },
   {
    "_i": 156,
-   "score": 146,
+   "score": 145,
    "section": "Stamps",
    "world": "Blunder Hills",
    "group": "Improve your total stamp levels",
@@ -1511,7 +1601,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.164
+    "griffy": 1.163
    }
   },
   {
@@ -1526,7 +1616,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1541,7 +1631,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1556,7 +1646,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1571,7 +1661,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1586,7 +1676,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1601,7 +1691,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1616,7 +1706,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1631,7 +1721,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1646,7 +1736,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1661,7 +1751,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1676,7 +1766,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1691,7 +1781,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1706,7 +1796,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1721,7 +1811,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1736,7 +1826,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1751,7 +1841,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1766,7 +1856,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1781,7 +1871,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1796,7 +1886,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1811,7 +1901,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.115
+    "griffy": 1.114
    }
   },
   {
@@ -1826,7 +1916,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -1841,7 +1931,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -1856,7 +1946,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -1871,7 +1961,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -1886,7 +1976,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -1901,7 +1991,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -1916,7 +2006,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -1931,7 +2021,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -1946,7 +2036,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -1961,7 +2051,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -1976,7 +2066,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -1991,7 +2081,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -2006,7 +2096,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -2021,7 +2111,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -2036,7 +2126,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -2051,7 +2141,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -2066,7 +2156,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -2081,7 +2171,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -2096,7 +2186,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -2111,7 +2201,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.089
+    "griffy": 1.087
    }
   },
   {
@@ -2126,7 +2216,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.086
+    "griffy": 1.087
    }
   },
   {
@@ -2141,7 +2231,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.086
+    "griffy": 1.087
    }
   },
   {
@@ -2156,7 +2246,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.086
+    "griffy": 1.087
    }
   },
   {
@@ -2171,217 +2261,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.086
-   }
-  },
-  {
-   "_i": 69,
-   "score": 134,
-   "section": "Compass",
-   "world": "Master Classes",
-   "group": "Slay more Abominations",
-   "label": "Abominations Slain",
-   "cur": "16",
-   "goal": "19",
-   "factors": {
-    "gap": 1.0,
-    "act": 1.25,
-    "griffy": 1.07
-   }
-  },
-  {
-   "_i": 48,
-   "score": 134,
-   "section": "Compass",
-   "world": "Master Classes",
-   "group": "Level up the following Compass Upgrades",
-   "label": "Elemental-0: Elemental Path",
-   "cur": "12",
-   "goal": "15",
-   "factors": {
-    "gap": 1.0,
-    "act": 1.25,
-    "griffy": 1.07
-   }
-  },
-  {
-   "_i": 54,
-   "score": 134,
-   "section": "Compass",
-   "world": "Master Classes",
-   "group": "Level up the following Compass Upgrades",
-   "label": "Elemental-8: Medallion Magnate",
-   "cur": "3",
-   "goal": "4",
-   "factors": {
-    "gap": 1.0,
-    "act": 1.25,
-    "griffy": 1.07
-   }
-  },
-  {
-   "_i": 50,
-   "score": 134,
-   "section": "Compass",
-   "world": "Master Classes",
-   "group": "Level up the following Compass Upgrades",
-   "label": "Fighter-0: Fighter Path",
-   "cur": "15",
-   "goal": "22",
-   "factors": {
-    "gap": 1.0,
-    "act": 1.25,
-    "griffy": 1.07
-   }
-  },
-  {
-   "_i": 72,
-   "score": 134,
-   "section": "Compass",
-   "world": "Master Classes",
-   "group": "Collect more Medallions",
-   "label": "Medallions Collected",
-   "cur": "27",
-   "goal": "39",
-   "factors": {
-    "gap": 1.0,
-    "act": 1.25,
-    "griffy": 1.07
-   }
-  },
-  {
-   "_i": 52,
-   "score": 134,
-   "section": "Compass",
-   "world": "Master Classes",
-   "group": "Level up the following Compass Upgrades",
-   "label": "Nomadic-0: Nomadic Path",
-   "cur": "16",
-   "goal": "20",
-   "factors": {
-    "gap": 1.0,
-    "act": 1.25,
-    "griffy": 1.07
-   }
-  },
-  {
-   "_i": 55,
-   "score": 134,
-   "section": "Compass",
-   "world": "Master Classes",
-   "group": "Level up the following Compass Upgrades",
-   "label": "Nomadic-11: Moon of Damage",
-   "cur": "0",
-   "goal": "120",
-   "factors": {
-    "gap": 1.0,
-    "act": 1.25,
-    "griffy": 1.07
-   }
-  },
-  {
-   "_i": 56,
-   "score": 134,
-   "section": "Compass",
-   "world": "Master Classes",
-   "group": "Level up the following Compass Upgrades",
-   "label": "Nomadic-14: Opa Opa Opa!",
-   "cur": "0",
-   "goal": "8",
-   "factors": {
-    "gap": 1.0,
-    "act": 1.25,
-    "griffy": 1.07
-   }
-  },
-  {
-   "_i": 67,
-   "score": 134,
-   "section": "Compass",
-   "world": "Master Classes",
-   "group": "Level up the following Compass Upgrades",
-   "label": "Nomadic-15: Atomic Cost Crash",
-   "cur": "4",
-   "goal": "55",
-   "factors": {
-    "gap": 1.0,
-    "act": 1.25,
-    "griffy": 1.07
-   }
-  },
-  {
-   "_i": 68,
-   "score": 134,
-   "section": "Compass",
-   "world": "Master Classes",
-   "group": "Level up the following Compass Upgrades",
-   "label": "Nomadic-17: Atomic Potential",
-   "cur": "0",
-   "goal": "12",
-   "factors": {
-    "gap": 1.0,
-    "act": 1.25,
-    "griffy": 1.07
-   }
-  },
-  {
-   "_i": 61,
-   "score": 134,
-   "section": "Compass",
-   "world": "Master Classes",
-   "group": "Level up the following Compass Upgrades",
-   "label": "Nomadic-32: Aluminium Atom",
-   "cur": "0",
-   "goal": "1",
-   "factors": {
-    "gap": 1.0,
-    "act": 1.25,
-    "griffy": 1.07
-   }
-  },
-  {
-   "_i": 53,
-   "score": 134,
-   "section": "Compass",
-   "world": "Master Classes",
-   "group": "Level up the following Compass Upgrades",
-   "label": "Nomadic-4: Exalted Stamps",
-   "cur": "3",
-   "goal": "6",
-   "factors": {
-    "gap": 1.0,
-    "act": 1.25,
-    "griffy": 1.07
-   }
-  },
-  {
-   "_i": 51,
-   "score": 134,
-   "section": "Compass",
-   "world": "Master Classes",
-   "group": "Level up the following Compass Upgrades",
-   "label": "Survival-0: Survival Path",
-   "cur": "14",
-   "goal": "18",
-   "factors": {
-    "gap": 1.0,
-    "act": 1.25,
-    "griffy": 1.07
-   }
-  },
-  {
-   "_i": 66,
-   "score": 134,
-   "section": "Compass",
-   "world": "Master Classes",
-   "group": "Level up the following Compass Upgrades",
-   "label": "Survival-18: Novadust Discovery",
-   "cur": "0",
-   "goal": "25",
-   "factors": {
-    "gap": 1.0,
-    "act": 1.25,
-    "griffy": 1.07
+    "griffy": 1.087
    }
   },
   {
@@ -2396,7 +2276,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.073
+    "griffy": 1.072
    }
   },
   {
@@ -2411,7 +2291,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.073
+    "griffy": 1.072
    }
   },
   {
@@ -2426,7 +2306,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.073
+    "griffy": 1.072
    }
   },
   {
@@ -2441,7 +2321,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.073
+    "griffy": 1.072
    }
   },
   {
@@ -2550,6 +2430,216 @@
    }
   },
   {
+   "_i": 69,
+   "score": 133,
+   "section": "Compass",
+   "world": "Master Classes",
+   "group": "Slay more Abominations",
+   "label": "Abominations Slain",
+   "cur": "16",
+   "goal": "19",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.063
+   }
+  },
+  {
+   "_i": 48,
+   "score": 133,
+   "section": "Compass",
+   "world": "Master Classes",
+   "group": "Level up the following Compass Upgrades",
+   "label": "Elemental-0: Elemental Path",
+   "cur": "12",
+   "goal": "15",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.063
+   }
+  },
+  {
+   "_i": 54,
+   "score": 133,
+   "section": "Compass",
+   "world": "Master Classes",
+   "group": "Level up the following Compass Upgrades",
+   "label": "Elemental-8: Medallion Magnate",
+   "cur": "3",
+   "goal": "4",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.063
+   }
+  },
+  {
+   "_i": 50,
+   "score": 133,
+   "section": "Compass",
+   "world": "Master Classes",
+   "group": "Level up the following Compass Upgrades",
+   "label": "Fighter-0: Fighter Path",
+   "cur": "15",
+   "goal": "22",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.063
+   }
+  },
+  {
+   "_i": 72,
+   "score": 133,
+   "section": "Compass",
+   "world": "Master Classes",
+   "group": "Collect more Medallions",
+   "label": "Medallions Collected",
+   "cur": "27",
+   "goal": "39",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.063
+   }
+  },
+  {
+   "_i": 52,
+   "score": 133,
+   "section": "Compass",
+   "world": "Master Classes",
+   "group": "Level up the following Compass Upgrades",
+   "label": "Nomadic-0: Nomadic Path",
+   "cur": "16",
+   "goal": "20",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.063
+   }
+  },
+  {
+   "_i": 55,
+   "score": 133,
+   "section": "Compass",
+   "world": "Master Classes",
+   "group": "Level up the following Compass Upgrades",
+   "label": "Nomadic-11: Moon of Damage",
+   "cur": "0",
+   "goal": "120",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.063
+   }
+  },
+  {
+   "_i": 56,
+   "score": 133,
+   "section": "Compass",
+   "world": "Master Classes",
+   "group": "Level up the following Compass Upgrades",
+   "label": "Nomadic-14: Opa Opa Opa!",
+   "cur": "0",
+   "goal": "8",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.063
+   }
+  },
+  {
+   "_i": 67,
+   "score": 133,
+   "section": "Compass",
+   "world": "Master Classes",
+   "group": "Level up the following Compass Upgrades",
+   "label": "Nomadic-15: Atomic Cost Crash",
+   "cur": "4",
+   "goal": "55",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.063
+   }
+  },
+  {
+   "_i": 68,
+   "score": 133,
+   "section": "Compass",
+   "world": "Master Classes",
+   "group": "Level up the following Compass Upgrades",
+   "label": "Nomadic-17: Atomic Potential",
+   "cur": "0",
+   "goal": "12",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.063
+   }
+  },
+  {
+   "_i": 61,
+   "score": 133,
+   "section": "Compass",
+   "world": "Master Classes",
+   "group": "Level up the following Compass Upgrades",
+   "label": "Nomadic-32: Aluminium Atom",
+   "cur": "0",
+   "goal": "1",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.063
+   }
+  },
+  {
+   "_i": 53,
+   "score": 133,
+   "section": "Compass",
+   "world": "Master Classes",
+   "group": "Level up the following Compass Upgrades",
+   "label": "Nomadic-4: Exalted Stamps",
+   "cur": "3",
+   "goal": "6",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.063
+   }
+  },
+  {
+   "_i": 51,
+   "score": 133,
+   "section": "Compass",
+   "world": "Master Classes",
+   "group": "Level up the following Compass Upgrades",
+   "label": "Survival-0: Survival Path",
+   "cur": "14",
+   "goal": "18",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.063
+   }
+  },
+  {
+   "_i": 66,
+   "score": 133,
+   "section": "Compass",
+   "world": "Master Classes",
+   "group": "Level up the following Compass Upgrades",
+   "label": "Survival-18: Novadust Discovery",
+   "cur": "0",
+   "goal": "25",
+   "factors": {
+    "gap": 1.0,
+    "act": 1.25,
+    "griffy": 1.063
+   }
+  },
+  {
    "_i": 252,
    "score": 133,
    "section": "Vials",
@@ -2561,7 +2651,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.068
+    "griffy": 1.067
    }
   },
   {
@@ -2576,7 +2666,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.068
+    "griffy": 1.067
    }
   },
   {
@@ -2591,7 +2681,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.068
+    "griffy": 1.067
    }
   },
   {
@@ -2606,7 +2696,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.068
+    "griffy": 1.067
    }
   },
   {
@@ -2621,7 +2711,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.068
+    "griffy": 1.067
    }
   },
   {
@@ -2636,7 +2726,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.068
+    "griffy": 1.067
    }
   },
   {
@@ -2651,7 +2741,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.068
+    "griffy": 1.067
    }
   },
   {
@@ -2666,7 +2756,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.068
+    "griffy": 1.067
    }
   },
   {
@@ -2681,7 +2771,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.068
+    "griffy": 1.067
    }
   },
   {
@@ -2696,7 +2786,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.068
+    "griffy": 1.067
    }
   },
   {
@@ -2711,7 +2801,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.068
+    "griffy": 1.067
    }
   },
   {
@@ -2726,7 +2816,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.068
+    "griffy": 1.067
    }
   },
   {
@@ -2741,7 +2831,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.068
+    "griffy": 1.067
    }
   },
   {
@@ -2786,7 +2876,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.037
+    "griffy": 1.036
    }
   },
   {
@@ -2801,7 +2891,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.037
+    "griffy": 1.036
    }
   },
   {
@@ -2816,7 +2906,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.037
+    "griffy": 1.036
    }
   },
   {
@@ -2831,7 +2921,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.037
+    "griffy": 1.036
    }
   },
   {
@@ -2846,7 +2936,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.037
+    "griffy": 1.036
    }
   },
   {
@@ -2861,7 +2951,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.037
+    "griffy": 1.036
    }
   },
   {
@@ -2876,7 +2966,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.037
+    "griffy": 1.036
    }
   },
   {
@@ -2891,7 +2981,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.037
+    "griffy": 1.036
    }
   },
   {
@@ -2906,7 +2996,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.037
+    "griffy": 1.036
    }
   },
   {
@@ -2921,7 +3011,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.037
+    "griffy": 1.036
    }
   },
   {
@@ -6401,7 +6491,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.022
+    "griffy": 1.023
    }
   },
   {
@@ -6416,7 +6506,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.022
+    "griffy": 1.023
    }
   },
   {
@@ -6431,7 +6521,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.022
+    "griffy": 1.023
    }
   },
   {
@@ -6446,7 +6536,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.022
+    "griffy": 1.023
    }
   },
   {
@@ -6461,7 +6551,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.022
+    "griffy": 1.023
    }
   },
   {
@@ -6476,7 +6566,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.022
+    "griffy": 1.023
    }
   },
   {
@@ -6491,7 +6581,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.022
+    "griffy": 1.023
    }
   },
   {
@@ -6506,7 +6596,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.022
+    "griffy": 1.023
    }
   },
   {
@@ -6521,7 +6611,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.022
+    "griffy": 1.023
    }
   },
   {
@@ -6536,7 +6626,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.022
+    "griffy": 1.023
    }
   },
   {
@@ -6551,7 +6641,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.022
+    "griffy": 1.023
    }
   },
   {
@@ -6566,7 +6656,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.017
+    "griffy": 1.016
    }
   },
   {
@@ -6581,7 +6671,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.017
+    "griffy": 1.016
    }
   },
   {
@@ -6596,7 +6686,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.017
+    "griffy": 1.016
    }
   },
   {
@@ -6611,7 +6701,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.017
+    "griffy": 1.016
    }
   },
   {
@@ -6626,7 +6716,7 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.017
+    "griffy": 1.016
    }
   },
   {
@@ -6641,11 +6731,11 @@
    "factors": {
     "gap": 1.0,
     "act": 1.25,
-    "griffy": 1.017
+    "griffy": 1.016
    }
   },
   {
-   "_i": 1772,
+   "_i": 1781,
    "score": 126,
    "section": "Beanstalk",
    "world": "Spirited Valley",
@@ -6660,7 +6750,7 @@
    }
   },
   {
-   "_i": 1771,
+   "_i": 1780,
    "score": 126,
    "section": "Beanstalk",
    "world": "Spirited Valley",
@@ -6675,7 +6765,7 @@
    }
   },
   {
-   "_i": 1770,
+   "_i": 1779,
    "score": 126,
    "section": "Beanstalk",
    "world": "Spirited Valley",
@@ -6690,7 +6780,7 @@
    }
   },
   {
-   "_i": 16,
+   "_i": 18,
    "score": 126,
    "section": "Endangered Greenstacks",
    "world": "General",
@@ -6705,7 +6795,7 @@
    }
   },
   {
-   "_i": 13,
+   "_i": 11,
    "score": 126,
    "section": "Endangered Greenstacks",
    "world": "General",
@@ -6735,7 +6825,7 @@
    }
   },
   {
-   "_i": 19,
+   "_i": 10,
    "score": 126,
    "section": "Endangered Greenstacks",
    "world": "General",
@@ -6765,7 +6855,7 @@
    }
   },
   {
-   "_i": 17,
+   "_i": 12,
    "score": 126,
    "section": "Endangered Greenstacks",
    "world": "General",
@@ -6780,7 +6870,7 @@
    }
   },
   {
-   "_i": 11,
+   "_i": 17,
    "score": 126,
    "section": "Endangered Greenstacks",
    "world": "General",
@@ -6795,7 +6885,7 @@
    }
   },
   {
-   "_i": 10,
+   "_i": 19,
    "score": 126,
    "section": "Endangered Greenstacks",
    "world": "General",
@@ -6810,7 +6900,7 @@
    }
   },
   {
-   "_i": 18,
+   "_i": 13,
    "score": 126,
    "section": "Endangered Greenstacks",
    "world": "General",
@@ -6825,7 +6915,7 @@
    }
   },
   {
-   "_i": 12,
+   "_i": 16,
    "score": 126,
    "section": "Endangered Greenstacks",
    "world": "General",
@@ -8781,7 +8871,7 @@
    "world": "Yum-Yum Desert",
    "group": "Unlock and level important Sigils",
    "label": "Level up Pea Pod (Being leveled by 1 character)",
-   "cur": "1503",
+   "cur": "1632",
    "goal": "15000",
    "factors": {
     "gap": 1.0,
@@ -9041,7 +9131,7 @@
    "factors": {
     "gap": 0.5,
     "act": 1.25,
-    "griffy": 1.068
+    "griffy": 1.067
    }
   },
   {
@@ -14585,8 +14675,8 @@
    "section": "Death Note",
    "world": "Frostbite Tundra",
    "group": "You could complete 16 more CHOWs with Autiszemo (92/108)",
-   "label": "Doodlefish in Doodle Reef (685K remaining)",
-   "cur": "31%",
+   "label": "Doodlefish in Doodle Reef (676K remaining)",
+   "cur": "32%",
    "goal": "100%",
    "factors": {
     "gap": 0.5,

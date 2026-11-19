@@ -392,6 +392,16 @@ for l in Y.get('locked', []):
                 if cd['name'] == feat_owner:
                     for b in cd['daily']:
                         if b['kind'] == 'unlock' and l['feature'] in b['block']: b['steps'].append(f"BLOCKED on {o_unlock}'s job")
+# ---------- sailing playbook (model/sailing.py) on the Sailing block ----------
+try:
+    import sailing as SAIL
+    _so = SAIL.build(); _sl = SAIL.card_lines(_so)
+    for cd in cards:
+        for b in cd['daily']:
+            if 'Sailing' in b['block']:
+                b['steps'] = _sl + [x for x in b['steps'] if 'Push:' in x or 'HOW:' in x or 'WHY:' in x]; b['kind'] = 'playbook'
+except Exception as e:
+    print('sailing planner failed:', e)
 for cd in cards:
     if PREREQ.get(cd['name']):
         cd['daily'].insert(1 if cd['daily'] and cd['daily'][0]['kind'] == 'move' else 0,
