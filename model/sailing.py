@@ -81,6 +81,10 @@ def parse_toolbox(txt):
     return boats, caps, shop
 
 
+def b_speed(boats, bn):
+    return next(b['speed'] for b in boats if b['boat'] == bn)
+
+
 def build():
     sy = json.load(gzip.open(SNAP / 'systems.json.gz'))['systems']['sailing']
     bd = json.load(open(SNAP / 'toolbox' / 'sail_breakdowns.json'))
@@ -149,6 +153,31 @@ def build():
                         'buffs': [f"{n} +{val:g}%" for n, val, _ in v['buffs']]} for c, v in caps.items()), key=lambda r: -r['afc'])
     shop_rank = [{'buffs': s['buffs'], 'afc_at_avg': sum(p for n, p in s['buffs'] if n == 'Artifact Find Chance') * lv_avg} for s in shop]
 
+    # ---- Phase 2: speed captains on the highest speed-level boats -> World's End boats
+    spd = lambda c: sum(v for n, v, _ in caps[c]['buffs'] if n == 'Boat Speed') if c in caps else 0
+    base_spd = {b['boat']: b['speed'] / (1 + spd(b['captain']) / 100) for b in boats if b['speed']}
+    we = isl["World's End"]['distance']; swaps = []; we_boats = {}
+    scap = sorted([c for c in caps if spd(c) >= 300], key=lambda c: -spd(c))
+    sboat = sorted(base_spd, key=lambda b: -base_spd[b])
+    bcap = {b['boat']: b['captain'] for b in boats}
+    for c, bn in zip(scap, sboat):
+        new = base_spd[bn] * (1 + spd(c) / 100); trip = we / new
+        if trip > 2.0: continue
+        old_c = bcap[bn]; old_b = caps[c]['boat']
+        if old_c != c:
+            swaps.append({'captain': c, 'to_boat': bn, 'from_boat': old_b, 'other': old_c,
+                          'speed_now': b_speed(boats, bn), 'speed_new': new, 'we_trip_h': round(trip, 2), 'ballot_trip_h': round(we / (new * 2.01), 2)})
+            bcap[bn], bcap[old_b] = c, old_c
+        we_boats[bn] = {'captain': c, 'speed': new, 'trip_h': max(min_t, trip), 'ballot_trip_h': max(min_t, we / (new * 2.01))}
+    for b in boats:
+        b['captain'] = bcap[b['boat']]
+    plan = [p for p in plan if p['boat'] not in we_boats]
+    for p in plan: p['captain'] = bcap[p['boat']]
+    for w in swaps:
+        caps[w['captain']]['boat'] = w['to_boat']
+        if w['other'] in caps: caps[w['other']]['boat'] = w['from_boat']
+    for r in cap_rank: r['boat'] = caps[r['captain']]['boat']
+
     # ---- allocation: spread boats over islands with cheap targets so every claim pushes several artifacts
     CHEAP = 1500   # chests; above this a target is a later phase (needs more odds or speed)
     for r in rank:
@@ -157,7 +186,7 @@ def build():
         r['cheap'] = [n for n in r['n_chests'] if n <= CHEAP]
     md = sorted(b['min_dist'] for b in boats if b['speed'])
     cheap_isl = [r for r in rank if r['cheap'] and r['distance'] <= md[len(md) // 2]]   # reachable in min travel time by most boats
-    nb = len(boats)
+    nb = len(plan)
     w = {r['island']: max(r['cheap']) for r in cheap_isl}
     alloc = {i: 1 for i in w}
     for _ in range(max(0, nb - len(alloc))):   # give the next boat to the island with most chests per boat left
@@ -169,11 +198,16 @@ def build():
         else: free.append(p)
     order = sorted([i for i in need for _ in range(need[i])], key=lambda i: -isl[i]['distance'])   # far islands first
     mdist = {b['boat']: b['min_dist'] for b in boats}
+    for bn, w_ in we_boats.items():
+        o_ = odds_of(w_['captain'])
+        nb_ = next(b for b in boats if b['boat'] == bn)
+        moves.append({'boat': bn, 'captain': w_['captain'], 'now': nb_['island'], 'go': "World's End", 'we': True,
+                      'now_pct': round(100 * chance(o_, nb_['island'], k), 3), 'go_pct': 0, 'trip_h': w_['trip_h']})
     for i in order:
         cand = [p for p in free if mdist[p['boat']] >= isl[i]['distance']] or free
         if not cand: break
         p = cand[0]; free.remove(p); p['go'] = i; moves.append(p)
-    for p in plan:
+    for p in plan + [m for m in moves if m['boat'] in we_boats]:
         p['go_pct'] = round(100 * chance(odds_of(p['captain']), p.get('go', p['now']), k), 3)
     later = [{'island': r['island'], 'targets': [t for t, n in zip(r['targets'], r['n_chests']) if n > CHEAP]} for r in rank if any(n > CHEAP for n in r['n_chests'])]
 
@@ -182,7 +216,9 @@ def build():
     chests_per_h = len(boats) / min_t
     out = {'snapshot': SNAP.name, 'k_calibration': round(k, 4), 'min_travel_min': bd['min_travel_min'], 'base_odds': round(base_odds, 2),
            'odds_multi_group': round(multi, 2), 'additive_wo_captain': round(add_wo, 1), 'pile_fill_min': round(30 / chests_per_h * 60),
-           'alloc': alloc, 'moves': [{'boat': p['boat'], 'captain': p['captain'], 'from': p['now'], 'to': p['go'], 'pct_from': p['now_pct'], 'pct_to': p['go_pct'], 'trip_from_h': round(p['trip_h'], 1)} for p in moves],
+           'alloc': alloc, 'speed_swaps': swaps, 'we_boats': {str(k): {kk: (round(vv, 2) if isinstance(vv, float) else vv) for kk, vv in v.items()} for k, v in we_boats.items()},
+           'speed_multi': sy.get('speed_multi'), 'speed_groups': {k: sy.get(k) for k in ['speed_multi_a', 'speed_multi_b', 'speed_multi_c', 'speed_multi_d', 'speed_multi_e', 'speed_multi_f']},
+           'purrmep_linked': sy.get('purrmep_linked'), 'ballot': sy.get('_ballot_buff'), 'moves': [{'boat': p['boat'], 'captain': p['captain'], 'from': p['now'], 'to': p['go'], 'pct_from': p['now_pct'], 'pct_to': p['go_pct'], 'trip_from_h': round(p['trip_h'], 1), 'we': p.get('we', False)} for p in moves],
            'later': later, 'chests_per_hour': round(chests_per_h, 1),
            'islands': rank, 'boats': plan, 'captains': cap_rank, 'shop': shop_rank, 'artifacts': arts,
            'odds_missing_multipliers': missing_multi, 'odds_missing_additive': missing_add, 'tier_cap': tier_cap,
@@ -199,30 +235,51 @@ if __name__ == '__main__':
     for m in o['moves']: print(m)
 
 
-ROUTE = [  # odds source -> system keyword used to find its owner on the cards
-    ('Killroy', 'Killroy'), ('Vial', 'Alchemy'), ('Tome', 'Tome'), ('Sneaking', 'Sneaking'), ('Summoning - Vote', 'Summoning'),
-    ('Monument', 'Monument'), ('Exotic Market', 'Farming'), ('Palette', 'Gaming'), ('Spelunking', 'Spelunking'),
-    ('Button', 'Button'), ('The Maw', 'Research'), ('Jelly', 'Research'), ('Nightmariner', 'Menagerie'),
-    ('Purple Chest Slugs', 'Sushi'), ('Companion', 'Companions'), ('Sticker', 'Sticker'), ('Fractal', 'Fractal')]
+ROUTE = [  # odds source -> system_index key (owners come from model/system_index.yaml)
+    ('Killroy', 'killroy'), ('Vial', 'alchemy_vials'), ('Tome', 'tome'), ('Sneaking', 'sneaking'), ('Summoning - Win', 'summoning'),
+    ('Summoning - Vote', 'summoning'), ('Exotic Market', 'farming'), ('Palette', 'gaming'), ('Spelunking', 'spelunking'),
+    ('Button', 'the_button'), ('The Maw', 'research'), ('Jelly', 'research'), ('Nightmariner', 'menagerie'),
+    ('Purple Chest Slugs', 'sushi_station'), ('Companion', 'companions'), ('Monument', 'monument'), ('Sticker', 'stickers'), ('Fractal', 'fractal')]
+
+
+def routed(o):
+    """owner -> lines for each artifact-odds source still at x1/+0."""
+    import yaml
+    si = yaml.safe_load(open(ROOT / 'model' / 'system_index.yaml'))
+    si = si if isinstance(si, dict) else {x.get('system'): x for x in si}
+    out = {}
+    for src in o['odds_missing_multipliers'] + o['odds_missing_additive']:
+        key = next((k for w, k in ROUTE if w in src), None)
+        owners = (si.get(key) or {}).get('owners', []) if key else []
+        owners = [w for w in owners if w.startswith('Autis')][:1] or ['Account-wide']
+        for w in owners:
+            out.setdefault(w, []).append(f"Sailing artifact odds: {src} is still {'x1' if src in o['odds_missing_multipliers'] else '+0%'} (Autisticles' artifact hunt)")
+    return out
 
 
 def card_lines(o):
     """Daily lines for the Siege Breaker's Sailing block. Top move first."""
     L = []
-    mv = o['moves']
+    mv = [m for m in o['moves'] if m['from'] != m['to']]
     L.append(f"Claim chests every session: pile holds 30, 20 boats fill it in ~{o['pile_fill_min']} min (min travel {o['min_travel_min']} min). Every chest is an artifact roll.")
     if mv:
         L.append(f"MOVE {len(mv)} boats (best per-chest odds for the artifacts still cheap to finish):")
         for m in sorted(mv, key=lambda m: m['boat']):
-            slow = f", trip {m['trip_from_h']}h -> {o['min_travel_min']} min" if m.get('trip_from_h', 0) > o['min_travel_min'] / 60 + .05 else ''
+            slow = (f", trip ~{m['trip_from_h']}h after the captain swap" if m.get('we') else
+                    f", trip {m['trip_from_h']}h -> {o['min_travel_min']} min" if m.get('trip_from_h', 0) > o['min_travel_min'] / 60 + .05 else '')
             L.append(f"  Boat {m['boat']} (Captain {m['captain']}): {m['from']} -> {m['to']} ({m['pct_from']}% -> {m['pct_to']}% per chest{slow})")
+    for w in o['speed_swaps']:
+        L.append(f"  SWAP Captain {w['captain']} (speed) onto Boat {w['to_boat']}, Captain {w['other']} goes to Boat {w['from_boat']}: Boat {w['to_boat']} speed {w['speed_now']/1e9:.2f}B -> ~{w['speed_new']/1e9:.2f}B, World's End trip ~{w['we_trip_h']}h ({w['ballot_trip_h']}h in a Sailing Speed ballot week)")
+    if o['we_boats']:
+        L.append(f"World's End boats: {', '.join('Boat ' + k for k in o['we_boats'])}. They hunt the never-found ones (Deathskull 1/730, Pointagon 1/1,316, Obsidian 1/6,582 chests).")
     keep = {i: n for i, n in o['alloc'].items()}
     L.append('Island targets now: ' + '; '.join(f"{r['island']} x{keep[r['island']]}: " + ', '.join(t.split(' (')[0] + f" 1/{n:,}" for t, n in zip(r['targets'], r['n_chests']) if n <= 1500)
                                                  for r in o['islands'] if r['island'] in keep))
     if o['later']:
         L.append('Later (too costly per chest right now): ' + '; '.join(f"{x['island']}: " + ', '.join(t.split(' (')[0] for t in x['targets'][:2]) for x in o['later'][:6]))
     und = [a['name'] for a in o['artifacts'] if a['acq'] == 0]
-    L.append(f"Never found ({len(und)}): {', '.join(und)}. World's End trips take 5.6h+ (5B distance, best speed 888M); The Maw needs 200B and is locked. Speed is the gate there, not odds.")
+    L.append(f"Never found ({len(und)}): {', '.join(und)}. The Maw (Fang, Nomenclature, Me First Dollar, Bloodclot) is locked: needs cloud discovery at 200B distance; fastest boat after swaps ~{max([w['speed'] for w in o['we_boats'].values()] or [0])/1e9:.1f}B = {200e9/max([w['speed'] for w in o['we_boats'].values()] or [1])/1:.0f}h per trip. GAP: cloud discovery math not mapped yet.")
+    if not o.get('purrmep_linked'): L.append("Speed for every boat: nobody is Minor Linked to Purrmep in Divinity (+speed group A). Ballot 'Sailing Speed 2.01x' halves World's End trips the week it's up.")
     L.append(f"Artifact odds {o['base_odds']:,.0f}x (no captain). Sources still at x1: {', '.join(o['odds_missing_multipliers'][:12])}")
     afc = [c for c in o['captains'] if c['afc']]
     L.append('AFC captains: ' + ', '.join(f"{c['captain']} +{c['afc']:g}% (boat {c['boat']})" for c in afc) + f". Each +100% AFC = +{100 / (100 + o['additive_wo_captain']) * 100:.0f}% odds.")

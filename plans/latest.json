@@ -1205,6 +1205,13 @@
       "Push: Crawler in Crawly Catacombs (384M remaining) 62% -> 100%",
       "Push: Baby Troll in Troll Playground (38M remaining) 96% -> 100%"
      ]
+    },
+    {
+     "block": "Levers for other jobs",
+     "kind": "lever",
+     "steps": [
+      "Sailing artifact odds: Exotic Market is still x1 (Autisticles' artifact hunt)"
+     ]
     }
    ],
    "buffs_missing": [
@@ -2289,7 +2296,9 @@
      "kind": "lever",
      "steps": [
       "Sample It bubble: +9.06/10% 123 -> 200 (toward Autisticles Bug prints)",
-      "Kruk be Bubblin': Kattlekruk gives +0 more Bubble LVs per day for each of his bu 0 -> 5 (toward Autisticles W7 minis)"
+      "Kruk be Bubblin': Kattlekruk gives +0 more Bubble LVs per day for each of his bu 0 -> 5 (toward Autisticles W7 minis)",
+      "Sailing artifact odds: Vial - Turtle Tisane is still x1 (Autisticles' artifact hunt)",
+      "Sailing artifact odds: Summoning - Vote Bonus is still x1 (Autisticles' artifact hunt)"
      ]
     }
    ],
@@ -3423,17 +3432,21 @@
       "Claim chests every session: pile holds 30, 20 boats fill it in ~48 min (min travel 32 min). Every chest is an artifact roll.",
       "MOVE 7 boats (best per-chest odds for the artifacts still cheap to finish):",
       "  Boat 9 (Captain P): World's End -> Dungeon Cove (0.232% -> 0.224% per chest, trip 23.5h -> 32 min)",
-      "  Boat 10 (Captain J): Crystal Enclave -> Isle of Note (0.23% -> 0.375% per chest)",
-      "  Boat 11 (Captain K): The Edge -> Dungeon Cove (0.445% -> 0.224% per chest)",
-      "  Boat 12 (Captain L): World's End -> Candied Island (0.232% -> 0.726% per chest, trip 9.5h -> 32 min)",
+      "  Boat 10 (Captain J): Crystal Enclave -> Dungeon Cove (0.23% -> 0.26% per chest)",
+      "  Boat 11 (Captain K): The Edge -> Candied Island (0.445% -> 0.726% per chest)",
       "  Boat 13 (Captain M): Stormy North -> Rocky Peaks (1.359% -> 1.586% per chest)",
-      "  Boat 16 (Captain I): The Edge -> Isolated Woods (0.445% -> 30.561% per chest)",
+      "  Boat 14 (Captain F): The Edge -> World's End (0.445% -> 0.232% per chest, trip ~1.1h after the captain swap)",
+      "  Boat 16 (Captain L): The Edge -> Isolated Woods (0.445% -> 30.561% per chest)",
       "  Boat 20 (Captain S): World's End -> Beachy Coast (0.232% -> 4.695% per chest, trip 5.6h -> 32 min)",
-      "Island targets now: Isolated Woods x1: Fun Hippoete Eldritch->Sovereign 1/3, Emerald Relic Sovereign->Omnipotent 1/53; Beachy Coast x1: Gold Relic Sovereign->Omnipotent 1/42, Genie Lamp Sovereign->Omnipotent 1/42; Rocky Peaks x1: Ashen Urn Sovereign->Omnipotent 1/63; Stormy North x1: Triagulon Sovereign->Omnipotent 1/74; Candied Island x1: Dreamcatcher Eldritch->Sovereign 1/275, Gummy Orb Eldritch->Sovereign 1/275; Snowy South x1: Chilled Yarn Eldritch->Sovereign 1/161; Cloudy Quay x2: Cloud Urn Eldritch->Sovereign 1/389, Weatherbook Eldritch->Sovereign 1/389; The Edge x3: The Onyx Lantern Eldritch->Sovereign 1/673, The Shim Lantern Eldritch->Sovereign 1/673, The Winz Lantern Eldritch->Sovereign 1/673; Isle of Note x3: Opera Mask Eldritch->Sovereign 1/616, Socrates Eldritch->Sovereign 1/616; Dungeon Cove x2: Giants Eye Eldritch->Sovereign 1/445; Crystal Enclave x2: Crystal Steak Eldritch->Sovereign 1/502; Petulent Garage x2: Trilobite Rock Eldritch->Sovereign 1/559",
+      "  SWAP Captain F (speed) onto Boat 14, Captain N goes to Boat 6: Boat 14 speed 0.61B -> ~4.67B, World's End trip ~1.07h (0.53h in a Sailing Speed ballot week)",
+      "  SWAP Captain I (speed) onto Boat 12, Captain L goes to Boat 16: Boat 12 speed 0.53B -> ~3.17B, World's End trip ~1.58h (0.78h in a Sailing Speed ballot week)",
+      "World's End boats: Boat 14, Boat 12. They hunt the never-found ones (Deathskull 1/730, Pointagon 1/1,316, Obsidian 1/6,582 chests).",
+      "Island targets now: Isolated Woods x1: Fun Hippoete Eldritch->Sovereign 1/3, Emerald Relic Sovereign->Omnipotent 1/53; Beachy Coast x1: Gold Relic Sovereign->Omnipotent 1/42, Genie Lamp Sovereign->Omnipotent 1/42; Rocky Peaks x1: Ashen Urn Sovereign->Omnipotent 1/63; Stormy North x1: Triagulon Sovereign->Omnipotent 1/74; Candied Island x1: Dreamcatcher Eldritch->Sovereign 1/275, Gummy Orb Eldritch->Sovereign 1/275; Snowy South x1: Chilled Yarn Eldritch->Sovereign 1/161; Cloudy Quay x2: Cloud Urn Eldritch->Sovereign 1/389, Weatherbook Eldritch->Sovereign 1/389; The Edge x2: The Onyx Lantern Eldritch->Sovereign 1/673, The Shim Lantern Eldritch->Sovereign 1/673, The Winz Lantern Eldritch->Sovereign 1/673; Isle of Note x2: Opera Mask Eldritch->Sovereign 1/616, Socrates Eldritch->Sovereign 1/616; Dungeon Cove x2: Giants Eye Eldritch->Sovereign 1/445; Crystal Enclave x2: Crystal Steak Eldritch->Sovereign 1/502; Petulent Garage x2: Trilobite Rock Eldritch->Sovereign 1/559",
       "Later (too costly per chest right now): Beachy Coast: Silver Ankh Omnipotent->Transcendent; Rocky Peaks: Arrowhead Omnipotent->Transcendent, 10 AD Tablet Omnipotent->Transcendent; Stormy North: Amberite Omnipotent->Transcendent, Billcye Tri Omnipotent->Transcendent; Snowy South: Frost Relic Omnipotent->Transcendent; The Edge: The True Lantern Sovereign->Omnipotent; World's End: Obsidian Undiscovered->Base, Ender Pearl Undiscovered->Base",
-      "Never found (7): Obsidian, Pointagon, Ender Pearl, Fang of the Gods, Nomenclature, Me First Dollar, Bloodclot. World's End trips take 5.6h+ (5B distance, best speed 888M); The Maw needs 200B and is locked. Speed is the gate there, not odds.",
+      "Never found (7): Obsidian, Pointagon, Ender Pearl, Fang of the Gods, Nomenclature, Me First Dollar, Bloodclot. The Maw (Fang, Nomenclature, Me First Dollar, Bloodclot) is locked: needs cloud discovery at 200B distance; fastest boat after swaps ~4.7B = 43h per trip. GAP: cloud discovery math not mapped yet.",
+      "Speed for every boat: nobody is Minor Linked to Purrmep in Divinity (+speed group A). Ballot 'Sailing Speed 2.01x' halves World's End trips the week it's up.",
       "Artifact odds 3,281x (no captain). Sources still at x1: Sticker, Nightmariner, Companion (Glimbo), Killroy Bonus, The Maw (Grid 106), Vial - Turtle Tisane, Purple Chest Slugs, Jelly Operator, Tome, Sneaking - Glowing Veil, Summoning - Vote Bonus, Companion (Magni Pufferfin)",
-      "AFC captains: Q +323% (boat 18), N +289% (boat 14), O +272% (boat 15), J +208% (boat 10), T +182% (boat 17), R +162% (boat 19), C +144% (boat 3), A +119% (boat 1). Each +100% AFC = +8% odds.",
+      "AFC captains: Q +323% (boat 18), N +289% (boat 6), O +272% (boat 15), J +208% (boat 10), T +182% (boat 17), R +162% (boat 19), C +144% (boat 3), A +119% (boat 1). Each +100% AFC = +8% odds.",
       "Shop captains with AFC: Cloud Discover Rate 10%/lv / Artifact Find Chance 12%/lv; Artifact Find Chance 14%/lv / Cloud Discover Rate 30%/lv (only worth it if a captain slot is free)",
       "Push: The Winz Lantern 3 -> 4",
       "Push: Anyone Minor Linked to Purrmep: +0.00% 0 -> 1",
@@ -3509,6 +3522,15 @@
      "steps": [
       "W7 map push + Research level",
       "BLOCKED on Autistotle's job"
+     ]
+    },
+    {
+     "block": "Levers for other jobs",
+     "kind": "lever",
+     "steps": [
+      "Sailing artifact odds: Nightmariner is still x1 (Autisticles' artifact hunt)",
+      "Sailing artifact odds: Purple Chest Slugs is still x1 (Autisticles' artifact hunt)",
+      "Sailing artifact odds: Button Bonus is still x1 (Autisticles' artifact hunt)"
      ]
     }
    ],
@@ -5071,6 +5093,13 @@
      "kind": "unlock",
      "steps": [
       "Gaming superbits (20/72)"
+     ]
+    },
+    {
+     "block": "Levers for other jobs",
+     "kind": "lever",
+     "steps": [
+      "Sailing artifact odds: Palette Bonus is still x1 (Autisticles' artifact hunt)"
      ]
     }
    ],
@@ -7271,6 +7300,14 @@
      "steps": [
       "Compass Nomadic Path pos 32 (now 12/38)"
      ]
+    },
+    {
+     "block": "Levers for other jobs",
+     "kind": "lever",
+     "steps": [
+      "Sailing artifact odds: Killroy Bonus is still x1 (Autisticles' artifact hunt)",
+      "Sailing artifact odds: Sneaking - Glowing Veil is still x1 (Autisticles' artifact hunt)"
+     ]
     }
    ],
    "buffs_missing": [
@@ -8477,6 +8514,14 @@
      "kind": "unlock",
      "steps": [
       "W7 map push + Research level"
+     ]
+    },
+    {
+     "block": "Levers for other jobs",
+     "kind": "lever",
+     "steps": [
+      "Sailing artifact odds: The Maw (Grid 106) is still x1 (Autisticles' artifact hunt)",
+      "Sailing artifact odds: Jelly Operator is still x1 (Autisticles' artifact hunt)"
      ]
     }
    ],

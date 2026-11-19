@@ -14,21 +14,97 @@
   "Candied Island": 1,
   "Snowy South": 1,
   "Cloudy Quay": 2,
-  "The Edge": 3,
-  "Isle of Note": 3,
+  "The Edge": 2,
+  "Isle of Note": 2,
   "Dungeon Cove": 2,
   "Crystal Enclave": 2,
   "Petulent Garage": 2
  },
+ "speed_swaps": [
+  {
+   "captain": "F",
+   "to_boat": 14,
+   "from_boat": 6,
+   "other": "N",
+   "speed_now": 610000000.0,
+   "speed_new": 4672600000.0,
+   "we_trip_h": 1.07,
+   "ballot_trip_h": 0.53
+  },
+  {
+   "captain": "I",
+   "to_boat": 12,
+   "from_boat": 16,
+   "other": "L",
+   "speed_now": 525000000.0,
+   "speed_new": 3171000000.0,
+   "we_trip_h": 1.58,
+   "ballot_trip_h": 0.78
+  }
+ ],
+ "we_boats": {
+  "14": {
+   "captain": "F",
+   "speed": 4672600000.0,
+   "trip_h": 1.07,
+   "ballot_trip_h": 0.53
+  },
+  "12": {
+   "captain": "I",
+   "speed": 3171000000.0,
+   "trip_h": 1.58,
+   "ballot_trip_h": 0.78
+  }
+ },
+ "speed_multi": 8693.76,
+ "speed_groups": {
+  "speed_multi_a": 1.95,
+  "speed_multi_b": 3.32,
+  "speed_multi_c": 4.87,
+  "speed_multi_d": 1.0,
+  "speed_multi_e": 49.24,
+  "speed_multi_f": 5.6
+ },
+ "purrmep_linked": null,
+ "ballot": {
+  "index": 24,
+  "base_value": 50,
+  "value": 101.0,
+  "image": "ballot-24",
+  "description": "Boosts Sailing Captain EXP gain and Sailing Speed by 2.010x",
+  "active": false,
+  "_status_known": true
+ },
  "moves": [
+  {
+   "boat": 14,
+   "captain": "F",
+   "from": "The Edge",
+   "to": "World's End",
+   "pct_from": 0.445,
+   "pct_to": 0.232,
+   "trip_from_h": 1.1,
+   "we": true
+  },
+  {
+   "boat": 12,
+   "captain": "I",
+   "from": "World's End",
+   "to": "World's End",
+   "pct_from": 0.232,
+   "pct_to": 0.232,
+   "trip_from_h": 1.6,
+   "we": true
+  },
   {
    "boat": 10,
    "captain": "J",
    "from": "Crystal Enclave",
-   "to": "Isle of Note",
+   "to": "Dungeon Cove",
    "pct_from": 0.23,
-   "pct_to": 0.375,
-   "trip_from_h": 0.5
+   "pct_to": 0.26,
+   "trip_from_h": 0.5,
+   "we": false
   },
   {
    "boat": 9,
@@ -37,25 +113,18 @@
    "to": "Dungeon Cove",
    "pct_from": 0.232,
    "pct_to": 0.224,
-   "trip_from_h": 23.5
+   "trip_from_h": 23.5,
+   "we": false
   },
   {
    "boat": 11,
    "captain": "K",
    "from": "The Edge",
-   "to": "Dungeon Cove",
-   "pct_from": 0.445,
-   "pct_to": 0.224,
-   "trip_from_h": 0.5
-  },
-  {
-   "boat": 12,
-   "captain": "L",
-   "from": "World's End",
    "to": "Candied Island",
-   "pct_from": 0.232,
+   "pct_from": 0.445,
    "pct_to": 0.726,
-   "trip_from_h": 9.5
+   "trip_from_h": 0.5,
+   "we": false
   },
   {
    "boat": 13,
@@ -64,16 +133,18 @@
    "to": "Rocky Peaks",
    "pct_from": 1.359,
    "pct_to": 1.586,
-   "trip_from_h": 0.5
+   "trip_from_h": 0.5,
+   "we": false
   },
   {
    "boat": 16,
-   "captain": "I",
+   "captain": "L",
    "from": "The Edge",
    "to": "Isolated Woods",
    "pct_from": 0.445,
    "pct_to": 30.561,
-   "trip_from_h": 0.5
+   "trip_from_h": 0.5,
+   "we": false
   },
   {
    "boat": 20,
@@ -82,7 +153,8 @@
    "to": "Beachy Coast",
    "pct_from": 0.232,
    "pct_to": 4.695,
-   "trip_from_h": 5.6
+   "trip_from_h": 5.6,
+   "we": false
   }
  ],
  "later": [
@@ -542,7 +614,7 @@
   },
   {
    "boat": 6,
-   "captain": "F",
+   "captain": "N",
    "now": "The Edge",
    "now_pct": 0.445,
    "best": "Isolated Woods",
@@ -557,7 +629,7 @@
    "loot_lv": 98,
    "trip_h": 0.5333333333333333,
    "go": "The Edge",
-   "go_pct": 0.445
+   "go_pct": 0.543
   },
   {
    "boat": 7,
@@ -629,8 +701,8 @@
    "speed_lv": 72,
    "loot_lv": 109,
    "trip_h": 0.5333333333333333,
-   "go": "Isle of Note",
-   "go_pct": 0.375
+   "go": "Dungeon Cove",
+   "go_pct": 0.26
   },
   {
    "boat": 11,
@@ -648,25 +720,6 @@
    "speed_lv": 115,
    "loot_lv": 141,
    "trip_h": 0.5333333333333333,
-   "go": "Dungeon Cove",
-   "go_pct": 0.224
-  },
-  {
-   "boat": 12,
-   "captain": "L",
-   "now": "World's End",
-   "now_pct": 0.232,
-   "best": "Isolated Woods",
-   "best_pct": 30.561,
-   "move": true,
-   "speed_buy": [
-    140,
-    2
-   ],
-   "loot_buy": null,
-   "speed_lv": 138,
-   "loot_lv": 100,
-   "trip_h": 9.523809523809524,
    "go": "Candied Island",
    "go_pct": 0.726
   },
@@ -690,28 +743,6 @@
    "go_pct": 1.586
   },
   {
-   "boat": 14,
-   "captain": "N",
-   "now": "The Edge",
-   "now_pct": 0.543,
-   "best": "Isolated Woods",
-   "best_pct": 37.097,
-   "move": true,
-   "speed_buy": [
-    147,
-    2
-   ],
-   "loot_buy": [
-    112,
-    7
-   ],
-   "speed_lv": 145,
-   "loot_lv": 105,
-   "trip_h": 0.5333333333333333,
-   "go": "The Edge",
-   "go_pct": 0.543
-  },
-  {
    "boat": 15,
    "captain": "O",
    "now": "Crystal Enclave",
@@ -732,7 +763,7 @@
   },
   {
    "boat": 16,
-   "captain": "I",
+   "captain": "L",
    "now": "The Edge",
    "now_pct": 0.445,
    "best": "Isolated Woods",
@@ -852,7 +883,7 @@
   {
    "captain": "N",
    "level": 17,
-   "boat": 14,
+   "boat": 6,
    "afc": 289.0,
    "buffs": [
     "Artifact Find Chance +153%",
@@ -952,7 +983,7 @@
   {
    "captain": "F",
    "level": 18,
-   "boat": 6,
+   "boat": 14,
    "afc": 0,
    "buffs": [
     "Boat Speed +666%",
@@ -982,7 +1013,7 @@
   {
    "captain": "I",
    "level": 18,
-   "boat": 16,
+   "boat": 12,
    "afc": 0,
    "buffs": [
     "Boat Speed +252%",
@@ -1002,7 +1033,7 @@
   {
    "captain": "L",
    "level": 18,
-   "boat": 12,
+   "boat": 16,
    "afc": 0,
    "buffs": [
     "Loot Value +486%",

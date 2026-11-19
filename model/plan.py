@@ -396,6 +396,7 @@ for l in Y.get('locked', []):
 try:
     import sailing as SAIL
     _so = SAIL.build(); _sl = SAIL.card_lines(_so)
+    for _w, _ls in SAIL.routed(_so).items(): ROUTED.setdefault(_w, []).extend(_ls)
     for cd in cards:
         for b in cd['daily']:
             if 'Sailing' in b['block']:

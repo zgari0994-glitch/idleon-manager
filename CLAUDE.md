@@ -16,6 +16,12 @@
 - Card line = Push (AutoReview What) + HOW/WHY (creator claim matched to that item, 2024-06+) ; CREATORS = top system-level how_to/priority/blocker/warning (no narration, 2024-06+).
 - Prereqs: AR lock phrases + jobs.yaml `locked` route "Unblocks X" to the unlocking owner's card (top block) and "BLOCKED on Y's job" on the waiting card.
 
+## System planners (Zack 2026-11-19: "this level for all aspects")
+- Standard per system: Toolbox numbers + breakdowns + bundle formulas -> model -> concrete moves on owner cards with exact gains -> a "Toolbox should now show N" check -> phases (now / later / gate) -> recomputed every refresh.
+- Read a Toolbox page: preview_start the page, paste `tools/tb_read.js` into javascript_tool (all tabs, Details on, every breakdown dialog), close tab, `python3 tools/tb_save.py <result file> <system>` -> snapshots/<LATEST>/toolbox/<system>.json.
+- Done: Sailing (`model/sailing.py` -> sailing.json, Sailing block on Autisticles + odds levers routed to owners). Order next: Farming, Cooking, Breeding, 3D Printer, Alchemy, Stamps, Statues+Greenstacks, Prayers+Worship, Compass/Grimoire/Death Note, Equinox/Atom/Tesseract/Vault/Salt Lick/PO/Armor, rest.
+- Per system: report to Zack what system + what was discovered BEFORE building it.
+
 ## Usage rules (the limit is the #1 constraint)
 - No scheduled/hourly tasks. Pull data only on request or at the start of a play session.
 - Never read big docs whole. Read `snapshots/$(cat snapshots/LATEST)/meta.json` first, then only the sections/characters the question needs (query with python/jq).
