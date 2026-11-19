@@ -54,6 +54,10 @@ def card_lines(o):
     L.append("Griffy: red salts first, keep explosive/blue/green levels limited, aim for perpetual motion; refinery cycles are S tier in the skull shop. "
              "Prints feed the salts (Spore Cap + Copper -> Redox, Goldfish + Fly + Pocket Sand -> Spontaneity), so those prints stay locked.")
     if o['locked']: L.append('Locked salts: ' + ', '.join(o['locked']))
+    try:
+        import saltlick; sl = saltlick.refinery_line(saltlick.build())
+        if sl: L.append(sl + '.')
+    except Exception: pass
     return L
 
 

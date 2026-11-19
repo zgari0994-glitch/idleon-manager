@@ -611,117 +611,6 @@
      ]
     },
     {
-     "job": "Post Office",
-     "basis": "zack",
-     "tiers": {
-      "Post Office": "0/2"
-     },
-     "subs": [
-      {
-       "name": "Post Office: Progression Tiers",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Post Office",
-         "group": "Progression Tiers",
-         "label": "Autiszemo: Taped Up Timber",
-         "cur": "314",
-         "goal": "400",
-         "score": 125,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Post Office",
-         "group": "Progression Tiers",
-         "label": "Autiszemo: Potion Package",
-         "cur": "100",
-         "goal": "400",
-         "score": 125,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 7
-      },
-      {
-       "name": "Post Office: tabbed",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Post Office",
-         "group": "tabbed",
-         "label": "Taped Up Timber",
-         "cur": "314",
-         "goal": "400",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        },
-        {
-         "locked": "",
-         "section": "Post Office",
-         "group": "tabbed",
-         "label": "Potion Package",
-         "cur": "100",
-         "goal": "400",
-         "score": 0,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": 108
-      }
-     ],
-     "next": [
-      {
-       "locked": "",
-       "section": "Post Office",
-       "group": "Progression Tiers",
-       "label": "Autiszemo: Taped Up Timber",
-       "cur": "314",
-       "goal": "400",
-       "score": 125,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Post Office",
-       "group": "Progression Tiers",
-       "label": "Autiszemo: Potion Package",
-       "cur": "100",
-       "goal": "400",
-       "score": 125,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Post Office",
-       "group": "Progression Tiers",
-       "label": "Autiszemo: Bug Hunting Supplies",
-       "cur": "286",
-       "goal": "400",
-       "score": 125,
-       "ready": false,
-       "infinite": false
-      }
-     ],
-     "where": [
-      {
-       "system": "post_office",
-       "toolbox": [
-        "GAP: no Toolbox page mapped"
-       ],
-       "sources": "no slug"
-      }
-     ]
-    },
-    {
      "job": "Fish prints",
      "basis": "zack",
      "tiers": {
@@ -1206,17 +1095,6 @@
      ]
     },
     {
-     "block": "Post Office",
-     "kind": "rinse",
-     "steps": [
-      "CREATORS: Slow down and complete prerequisites before rushing everything. (Griffy 2026-10 @00:11:14)",
-      "CREATORS: Allocating time to the right systems can save substantial time overall. (Griffy 2026-10 @00:11:44)",
-      "Push: Taped Up Timber 314 -> 400",
-      "Push: Potion Package 100 -> 400",
-      "  HOW: Max potion package at PO box in world 2 (400 boxes) for flat +30 seconds Cranium duration. [boxes=400;duration_added_sec=30] (Griffy 2025-06 @00:01:32)"
-     ]
-    },
-    {
      "block": "Fish prints",
      "kind": "playbook",
      "steps": [
@@ -1267,7 +1145,7 @@
      "block": "Every character: Prayers",
      "kind": "every",
      "steps": [
-      "Equipped now: Skilled Dimwit, The Royal Sampler, Shiny Snitch. Task: ZOW/CHOW targets W1-W6 (Death Note kills) Farming Cooking Grimoire + Wraith Form (bones) P",
+      "Equipped now: Skilled Dimwit, The Royal Sampler, Shiny Snitch. Task: ZOW/CHOW targets W1-W6 (Death Note kills) Farming Cooking Grimoire + Wraith Form (bones) F",
       "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP) (Griffy (drop rate/EXP prayers until 200 crit))",
       "Royal Sampler: keep until print day (it only unequips by clearing samples).",
       "CHECK: Shiny Snitch is on, but this character's task isn't trapping. It only pays while trapping and its curse lowers shiny chance (prayer text).",
@@ -1280,6 +1158,15 @@
      "steps": [
       "Combat Lv 832",
       "(Each character has its own combat goals)"
+     ]
+    },
+    {
+     "block": "Every character: Post Office boxes",
+     "kind": "every",
+     "steps": [
+      "PO box: Taped Up Timber 314 -> 400 (AutoReview Post Office tier 0/2)",
+      "PO box: Potion Package 100 -> 400 (AutoReview Post Office tier 0/2)",
+      "(Zack 2026-11-19: each character has its own box target (AutoReview); Beryllium atom converts 280 silver pens/day)"
      ]
     },
     {
@@ -2349,8 +2236,14 @@
     },
     {
      "block": "Tesseract",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "Next unlock: Ring Drops at 670 total levels (639 now, 31 to go).",
+      "TOP: 14 upgrades affordable now, cheapest: Spheres of Gold 0->1 1.69K Brown, Arcanist Defence II 17->18 2.43K Brown, Arcanist of All Trades 0->1 11.2K Brown, Singulon Hoarding 24->25 11.7K Brown, Arcanist Supercharge 13->14 13.5K Brown, Arcanist Cataclysm II 0->1 15.4K Brown (each counts toward the next unlock).",
+      "AutoReview (tier 1/10): Parallel Statues 0 -> 10 (3.04K of a tachyon you hold 0 of), Ethereal Opals 0 -> 10 (17K of a tachyon you hold 0 of), Parallel Golden Food 0 -> 10 (17.1K of a tachyon you hold 0 of), My Talents, and Mine Alone 0 -> 30 (24.7K of a tachyon you hold 0 of), Villager Indoctrination 0 -> 20 (43.5K of a tachyon you hold 0 of)",
+      "Tachyons: Purple 1.34M, Brown 27.4K, Green 0, Red 0, Silver 4.99K, Gold 0.",
+      "No Green, Red, Gold tachyons yet: those come from later-world maps (Toolbox Maps tab shows per-map drops; colour per map not in the page text, GAP).",
+      "Toolbox optimizer: Arcanist Damage III 0->10 +721.47 (+11.67%) for 19.2K (ready in 798d)",
       "CREATORS: Move to another map rather than lingering beyond the threshold on ramps or Zeff. [threshold=1.5] (Griffy 2025-11 @00:35:08)",
       "CREATORS: Massavon is really strong drop rate; crossfire and emperor gamut are whatever. (Pulse 2026-09 @00:13:23)",
       "Push: Total Tesseract Upgrades 639 -> 1250",
@@ -2412,6 +2305,15 @@
       "Autistocat- Kill 1M Choccies for W2 Weekly Boss (123.29K -> 1000K)",
       "Autistocat- Kill 1M Stiltmoles for W2 Weekly Boss (75.00K -> 1000K)",
       "(Any character may play active; what is best active for that character)"
+     ]
+    },
+    {
+     "block": "Every character: Post Office boxes",
+     "kind": "every",
+     "steps": [
+      "PO box: Box of Gosh 0 -> 800 (AutoReview Post Office tier 0/2)",
+      "PO box: Dwarven Supplies 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "(Zack 2026-11-19: each character has its own box target (AutoReview); Beryllium atom converts 280 silver pens/day)"
      ]
     },
     {
@@ -3738,6 +3640,15 @@
      "steps": [
       "Combat Lv 846",
       "(Each character has its own combat goals)"
+     ]
+    },
+    {
+     "block": "Every character: Post Office boxes",
+     "kind": "every",
+     "steps": [
+      "PO box: Blacksmith Box 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "PO box: Dwarven Supplies 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "(Zack 2026-11-19: each character has its own box target (AutoReview); Beryllium atom converts 280 silver pens/day)"
      ]
     },
     {
@@ -5205,6 +5116,7 @@
       "Souls the salt chain eats: Dune Soul 3,713/hr (89,119/day), Frigid Soul 5,887/hr (141,286/day). Worship has to cover this before any prayer/stamp soul spend.",
       "Griffy: red salts first, keep explosive/blue/green levels limited, aim for perpetual motion; refinery cycles are S tier in the skull shop. Prints feed the salts (Spore Cap + Copper -> Redox, Goldfish + Fly + Pocket Sand -> Spontaneity), so those prints stay locked.",
       "Locked salts: Crosslink Salt, Propagated Salt, Anionic Salt",
+      "Salt Lick Refinery Speed 71/100: +1 buyable now (Autistopher).",
       "Buildings: CREATORS: Build Crescent Shrine for increased crystal and giant mob spawn chances. (Griffy 2026-09 @00:39:52)",
       "Buildings: CREATORS: Upgrade Death Note while its construction cost remains cheap. (Griffy 2026-10 @01:02:26)",
       "Buildings: Push: Kraken Cosplayer 82 -> 90",
@@ -5225,7 +5137,12 @@
       "Refinery:   HOW: Bingo square: rank 1000 on Red salt? Stark did not have it and needs to do better. [rank=1000] (Griffy 2024-10 @00:05:41)",
       "Refinery: Push: Green Salt 19 -> 8332",
       "Refinery:   HOW: Enable blue salt production to reach green salts and support Poisonic Elder progression. (Griffy 2026-09 @00:42:29)",
-      "Refinery:   HOW: Upgrade red salts first; limit explosive and blue and green salts levels; aim for perpetual motion (Griffy nodate @04:51:40)"
+      "Refinery:   HOW: Upgrade red salts first; limit explosive and blue and green salts levels; aim for perpetual motion (Griffy nodate @04:51:40)",
+      "TOP: Neon 30 -> 31 for 29M (of 87.7M particles). Neon is +1% damage and -1% on every atom cost per level, so it goes before the big saves (my read from Toolbox cost-cut breakdown; Neon is 27.5% of your cut).",
+      "Particles 87.7M, +132K/hr (3.16M/day). Atoms unlocked 12/17. Cost cut 52.14%.",
+      "AutoReview priority (tier 11/13): Helium 8 -> 9 (479M, 123d 17h), Aluminium 0 -> 50 (locked), Neon 30 -> 50 (29M), Hydrogen 40 -> 45 (maxed/locked), Lithium 40 -> 50 (maxed/locked), Boron 40 -> 50 (maxed/locked), Nitrogen 20 -> 50 (457K), Carbon 30 -> 50 (4.98M), Oxygen 20 -> 50 (822K), Fluoride 30 -> 50 (18.5M), Magnesium 5 -> 50 (904K)",
+      "Also affordable now: Nitrogen (Construction Trimmer) 20->21 457K, Oxygen (Library Booker) 20->21 822K, Magnesium (Trap Compounder) 5->6 904K, Carbon (Wizard Maximizer) 30->31 4.98M, Sodium (Snail Kryptonite) 8->9 13.3M, Fluoride (Void Plate Chef) 30->31 18.5M",
+      "Max level 40 (base 20 + event 20). More max: Compass Atomic Potential (Autistacular), Isotope Discovery superbit (Gaming), Menagerie boost 18."
      ]
     },
     {
@@ -5239,8 +5156,13 @@
     },
     {
      "block": "Royal Guardian #1 (top unlock)",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "Toolbox Royal Armory page did not load on the last read: re-read it next refresh (costs + optimizer).",
+      "Royal Statues: Heracles the Mighty: Tier 13.00x Total Damage 1 -> \u221e; Plutus the Prosperous: Not built (1/50)1.00x Drop Rate 0 -> 1; Ymir the Frostborne: Not built (1/100)1.00x Extra Kills 0 -> 1; Minerva the Resolute: Not built (1/250)1.00x Class EXP 0 -> 1; Hephaestus the Unbroken: Not built (1/500)Bonus unconfirmed 0 -> 1",
+      "Armory Upgrades: Royal Talent Points I: +45 Talent PTS for the Royal Guardian 45 -> 200; Solo Militia Status: Active kills now count towards clearing 21 -> 1000; Blunder Outpost PTS: All of your Outposts in World 1 get +0  0 -> 999999; Royal Marble: Mobs in maps with outposts have a 1 in $ chanc 1 -> 50; Resource Replenish: All 'Empty' resources get refilled every 11 -> 1000",
+      "Lil' Orblet Shop: Emulsion: 0% chance to get 1M statues worth of Statue EXP wh 0 -> 5; Hydration: +0% Resource Collection for all OutpostsLocked -  0 -> 200; Talented: +0 Talent Points for Royal GuardiansLocked - level 0 -> 100; Full Clear: +0% extra kills for Clearing Mobs in order to bu 0 -> 50; Outposts Glorified: 0/5 0 -> 5",
+      "Statue Flair: Menagerie Unlock 18: Boosts max Flair LV of Statues to Elega 0 -> 1; Power Statue Flair: No Flair 0 -> 3; Speed Statue Flair: No Flair 0 -> 3; Mining Statue Flair: No Flair 0 -> 3; Feasty Statue Flair: No Flair 0 -> 3",
       "CREATORS: Assign the initial ability, open Royal Armory, acquire the resource tool, collect wheat, and build an outpost on the frog map. [initial talent points=1] (Griffy 2026-10 @00:32:35)",
       "CREATORS: Find marble in each world with Royal Guardian and spend it attempting statue unlocks that grant account-wide bonuses. (Griffy 2026-10 @00:33:54)",
       "Push: Royal Talent Points I: +45 Talent PTS for the Royal Guardian class. 45 -> 200",
@@ -5261,8 +5183,13 @@
     },
     {
      "block": "Godshard set",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "Armor sets 15/19 (AutoReview tier 4/6).",
+      "Godshard set 5 / 11 (1.15x Higher Winners Bonuses from Summoning). Missing: Destroyer of the Mollo Gomme, Annihilator of the Yggdrasil, Angler of the Iliunne, Wrangler of the Qoxzul, Containment of the Zrgyios, Crystal Skull of Esquire Vnoze, Mittens of the Gods, Doublestring Godshooter, Magnifique Godcaster",
+      "Emperor set 2 / 7 (Ribbons and Exalted Stamps give 1.20x more multi). Missing: Emperor Kabuto, Emperor Sokutai Ho, Emperor Zubon, Emperor Geta",
+      "Secret set 0 / 5 (1.25x Gold Food effect). Missing: Mittens of the Gods, Vman Nametag",
+      "Prehistoric set 0 / 11 (2.00x EXP Gain in all World 7 Skills). Missing: Prehistoric Battlehair, Prehistoric Parka, Prehistoric Pantaloons, Prehistoric Bracers, Prehistoric Pickaxe, Prehistoric Choppah, Prehistoric Rod, Prehistoric Net, Prehistoric Traps, Crystal Skull of Esquire Vnoze, Talon of the Hawk, Sabertoothed Gorehacker, Raptor Shardslinger, Beastly Orblauncher",
       "CREATORS: Still craft a void armor set for armor-set completion. [armor_sets=1] (Griffy 2026-10 @00:22:29)",
       "CREATORS: Farm boss armor for set bonuses even when the armor will not be worn. (Griffy 2026-10 @00:01:33)",
       "Push: Complete the Godshard Set: 1.00x Higher Winners Bonuses from Summoning 0 -> 1",
@@ -5347,6 +5274,15 @@
      "steps": [
       "Combat Lv 835",
       "(Each character has its own combat goals)"
+     ]
+    },
+    {
+     "block": "Every character: Post Office boxes",
+     "kind": "every",
+     "steps": [
+      "PO box: Blacksmith Box 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "PO box: Taped Up Timber 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "(Zack 2026-11-19: each character has its own box target (AutoReview); Beryllium atom converts 280 silver pens/day)"
      ]
     },
     {
@@ -6621,6 +6557,15 @@
      ]
     },
     {
+     "block": "Every character: Post Office boxes",
+     "kind": "every",
+     "steps": [
+      "PO box: Crate of the Creator 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "PO box: Dwarven Supplies 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "(Zack 2026-11-19: each character has its own box target (AutoReview); Beryllium atom converts 280 silver pens/day)"
+     ]
+    },
+    {
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
@@ -7642,6 +7587,15 @@
      "steps": [
       "Autistacular- Kill 1M Choccies for W2 Weekly Boss (125.12K -> 1000K)",
       "(Any character may play active; what is best active for that character)"
+     ]
+    },
+    {
+     "block": "Every character: Post Office boxes",
+     "kind": "every",
+     "steps": [
+      "PO box: Blacksmith Box 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "PO box: Dwarven Supplies 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "(Zack 2026-11-19: each character has its own box target (AutoReview); Beryllium atom converts 280 silver pens/day)"
      ]
     },
     {
@@ -9022,6 +8976,15 @@
      ]
     },
     {
+     "block": "Every character: Post Office boxes",
+     "kind": "every",
+     "steps": [
+      "PO box: Magician Starterpack 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "PO box: Civil War Memory Box 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "(Zack 2026-11-19: each character has its own box target (AutoReview); Beryllium atom converts 280 silver pens/day)"
+     ]
+    },
+    {
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
@@ -9460,7 +9423,13 @@
       "Nullo Salt rank 14 (max safe 15, capped by Purple Salt), +1,381.13/hr, auto refine off. Per cycle: Contact Lense 2,600, Void Bar 260, Wispy Lumber 260, Flycicle 260, Frigid Soul 260, Purple Salt 60. Room to rank up.",
       "Souls the salt chain eats: Dune Soul 3,713/hr (89,119/day), Frigid Soul 5,887/hr (141,286/day). Worship has to cover this before any prayer/stamp soul spend.",
       "Griffy: red salts first, keep explosive/blue/green levels limited, aim for perpetual motion; refinery cycles are S tier in the skull shop. Prints feed the salts (Spore Cap + Copper -> Redox, Goldfish + Fly + Pocket Sand -> Spontaneity), so those prints stay locked.",
-      "Locked salts: Crosslink Salt, Propagated Salt, Anionic Salt"
+      "Locked salts: Crosslink Salt, Propagated Salt, Anionic Salt",
+      "Salt Lick Refinery Speed 71/100: +1 buyable now (Autistopher).",
+      "TOP: Neon 30 -> 31 for 29M (of 87.7M particles). Neon is +1% damage and -1% on every atom cost per level, so it goes before the big saves (my read from Toolbox cost-cut breakdown; Neon is 27.5% of your cut).",
+      "Particles 87.7M, +132K/hr (3.16M/day). Atoms unlocked 12/17. Cost cut 52.14%.",
+      "AutoReview priority (tier 11/13): Helium 8 -> 9 (479M, 123d 17h), Aluminium 0 -> 50 (locked), Neon 30 -> 50 (29M), Hydrogen 40 -> 45 (maxed/locked), Lithium 40 -> 50 (maxed/locked), Boron 40 -> 50 (maxed/locked), Nitrogen 20 -> 50 (457K), Carbon 30 -> 50 (4.98M), Oxygen 20 -> 50 (822K), Fluoride 30 -> 50 (18.5M), Magnesium 5 -> 50 (904K)",
+      "Also affordable now: Nitrogen (Construction Trimmer) 20->21 457K, Oxygen (Library Booker) 20->21 822K, Magnesium (Trap Compounder) 5->6 904K, Carbon (Wizard Maximizer) 30->31 4.98M, Sodium (Snail Kryptonite) 8->9 13.3M, Fluoride (Void Plate Chef) 30->31 18.5M",
+      "Max level 40 (base 20 + event 20). More max: Compass Atomic Potential (Autistacular), Isotope Discovery superbit (Gaming), Menagerie boost 18."
      ]
     },
     {
@@ -9549,6 +9518,15 @@
       "Autistomatic- Kill 1M Choccies for W2 Weekly Boss (133.57K -> 1000K)",
       "Autistomatic- Kill 1M Stiltmoles for W2 Weekly Boss (77.08K -> 1000K)",
       "(Any character may play active; what is best active for that character)"
+     ]
+    },
+    {
+     "block": "Every character: Post Office boxes",
+     "kind": "every",
+     "steps": [
+      "PO box: Taped Up Timber 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "PO box: Sealed Fishheads 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "(Zack 2026-11-19: each character has its own box target (AutoReview); Beryllium atom converts 280 silver pens/day)"
      ]
     },
     {
@@ -10229,6 +10207,15 @@
       "Autistronaut- Kill 1M Crabcakes for W2 Weekly Boss (0.72K -> 1000K)",
       "Autistronaut- Kill 1M Choccies for W2 Weekly Boss (127.60K -> 1000K)",
       "(Any character may play active; what is best active for that character)"
+     ]
+    },
+    {
+     "block": "Every character: Post Office boxes",
+     "kind": "every",
+     "steps": [
+      "PO box: Dwarven Supplies 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "PO box: Sealed Fishheads 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "(Zack 2026-11-19: each character has its own box target (AutoReview); Beryllium atom converts 280 silver pens/day)"
      ]
     },
     {
@@ -11424,8 +11411,18 @@
     },
     {
      "block": "Upgrade Vault",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "TOP (account priority): Kitchen Dream-mare 251 -> 327. Next level 9.36e+08QQ coins; Autisticles (9.73e+12QQ) can buy 41 levels now (8.25e+12QQ).",
+      "Cooking Knowledge 310 -> 428: next 1.31e+08QQ, richest alone could buy 70 levels",
+      "Wicked Smart 330 -> 387: next 5.49e+09QQ, richest alone could buy 31 levels",
+      "Bullseye 440 -> 500: next 2.79e+10QQ, richest alone could buy 28 levels",
+      "Teh TOM 200 -> 261: next 1.35e+09QQ, richest alone could buy 33 levels",
+      "Artifact Find Chance 237 -> 250: next 8.82e+10QQ, richest alone could buy 13 levels",
+      "Go Go Bubba the Seal 180 -> 247: next 1e+09QQ, richest alone could buy 37 levels",
+      "Sailing Loot 150 -> 200: next 9.14e+07QQ, richest alone could buy 45 levels",
+      "Level counts assume all of that character's coins go to that one upgrade; buy the TOP one first, then re-check.",
+      "AutoReview Upgrade Vault tier 4/7. Coins are per character: buy on Autisticles first. Toolbox Upgrade Vault total levels should rise by what you bought.",
       "CREATORS: Additional money is valuable for vault progression. (Griffy 2026-10 @00:29:09)",
       "CREATORS: Use the vault route to teleport to Doggy. (Griffy 2026-09 @00:59:02)",
       "Push: Wicked Smart: +990.00% Class EXP Gain. Leveling up gives you Talent Pts!(3.00 pe 330 -> 387",
@@ -11434,8 +11431,16 @@
     },
     {
      "block": "Equinox",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "TOP: Equinox bar 2,391/2,391 FULL, spend it now. Fills 3,552/hr = full from empty in 40 min, so it caps between sessions: spend every session.",
+      "Claim now (requirements met): Get a single sample of 1 billion or more of any item. 10 digit sample  -> +10 Max LV for 'Faux Jewels' Equinox Upgrade; Get 100 5 star ruby cards. Or, get 1 500 star card. The latter does no -> +4 Max LV for 'Equinox Symbols' Equinox Upgrade; Reach a total Cooking Meal Upgrade Lv of 4242 across all meals -> 'Food Lust' Equinox Upg now reduces cost by -42% per stack",
+      "Fill-rate challenges: Defeat the Caustic Glaciaxus in a party with others or alone (0 / 1) -> +25% Equinox Bar fill rate; Get 2000 kills in a single Killroy run. Seems like a lot, bu (1,296 / 2,000) -> +35% Equinox Bar fill rate; Successfully take a Red Frisbee sample at Wood Mushrooms. Ye (0 / 1) -> +40% Equinox Bar fill rate; Requires Research G8 (0 / 3) -> +60% Equinox Bar fill rate; Requires Research G8 (0 / 48) -> +65% Equinox Bar fill rate; Requires Research G8 (293 / 300) -> +75% Equinox Bar fill rate; Requires Research G8 (69 / 200) -> 1.03x Equinox Bar fill rate, MULTI!; Requires Research G8 (73 / 150) -> +90% Equinox Bar fill rate; Requires Research G8 (88,470 / 10M) -> +100% Equinox Bar fill rate; Requires Research G8 (20 / 60) -> 1.05x Equinox Bar fill rate, MULTI!; Requires Research G8 (37,738 / 100M) -> +120% Equinox Bar fill rate; Requires Research G8 (2 / 60) -> 1.06x Equinox Bar fill rate, MULTI!; Requires Research G8 (2 / 16) -> +150% Equinox Bar fill rate; Requires Research G8 (1,510 / 1,850) -> +160% Equinox Bar fill rate; Requires Research G8 (20 / 82) -> +170% Equinox Bar fill rate; Requires Research G8 (30,375 / 1B) -> 1.07x Equinox Bar fill rate, MULTI!; Requires Research G8 (0 / 1) -> +185% Equinox Bar fill rate; Requires Research G8 (0 / 1) -> +190% Equinox Bar fill rate; Requires Research G8 (0 / 210) -> +195% Equinox Bar fill rate; Requires Research G8 (0 / 70) -> +200% Equinox Bar fill rate; Requires Research G8 (6 / 500) -> 1.07x Equinox Bar fill rate, MULTI!; Requires Research G8 (2 / 80) -> +220% Equinox Bar fill rate; Requires Research G8 (7 / 90) -> +250% Equinox Bar fill rate",
+      "Locked upgrades (target): Faux Jewels: Reach round 115 in the Mob Arena, but only using a team of 4 Mobs or l (Done); Food Lust: Have 15 chemical plants just chillin' in your Gaming Garden all at onc (1 / 15); Equinox Symbols: Greenstack 200 different items in your Storage Chest (169 / 200); Voter Rights: Acquire all 10 Megafeathers from Orion the Great Owl, and all 12 Megaf (21 / 22); Nonstop Studies: Hit a bomb instantly while playing Mr. Minehead's Depth Charge 5 times (Requires Research G8)",
+      "Check in game: Faux Jewels shows Locked but its unlock reads Done.",
+      "AutoReview (tier 7/12): Metal Detector 0 -> 18, Slow Roast Wiz 4 -> 23, Matching Scims 3 -> 55, Laboratory Fuse 0 -> 10",
+      "Dreams: Complete all 76 possible Dreams 19/76",
+      "Links: Greenstack 200 items unlocks Equinox Symbols (+1 all talent LVs), see the greenstacks block on Autistotle.",
       "CREATORS: Farm Bloodbones with damage and drop-rate bonuses after pushing there for Equinox. [start_stars=1;end_stars=3;extra_damage=12%] (Griffy 2026-05 @00:25:59)",
       "CREATORS: Slow Roast Wiz is important for high tower-defense progression. (Griffy 2026-04 @00:21:57)",
       "Push: Complete all 76 possible Dreams 19 -> 76",
@@ -11446,8 +11451,10 @@
     },
     {
      "block": "Salt Lick",
-     "kind": "rinse",
+     "kind": "playbook",
      "steps": [
+      "TOP: buy now: +142% Refinery Speed for all cycle types 71 -> 72 (+1); +15.2% Total Damage dealt. 152 -> 191 (+39); +30% Cooking Mastery EXP gain, a feature unlocked  30 -> 32 (+2)",
+      "AutoReview tier 7/10: to max +142% Refinery Speed for all cycle types 71/100, +15.2% Total Damage dealt. 152/250, +30% Cooking Mastery EXP gain, a feature 30/100. Toolbox should show the new levels after buying.",
       "CREATORS: Prioritize Salt Lick upgrades over the library building here. (Griffy 2025-12 @00:51:18)",
       "CREATORS: Upgrade red salts first; limit explosive and blue and green salts levels; aim for perpetual motion (Griffy nodate @04:51:40)",
       "Push: Damage 152 -> 250"
@@ -11528,6 +11535,15 @@
      "steps": [
       "Autistopher- Kill 1M Crabcakes for W2 Weekly Boss (0.19K -> 1000K)",
       "(Any character may play active; what is best active for that character)"
+     ]
+    },
+    {
+     "block": "Every character: Post Office boxes",
+     "kind": "every",
+     "steps": [
+      "PO box: Chefs Essentials 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "PO box: Sealed Fishheads 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "(Zack 2026-11-19: each character has its own box target (AutoReview); Beryllium atom converts 280 silver pens/day)"
      ]
     },
     {
@@ -12161,6 +12177,15 @@
       "Autistachio- Kill 1M Dedotated Rams for W2 Weekly Boss (261.58K -> 1000K)",
       "Autistachio- Kill 1M Choccies for W2 Weekly Boss (192.22K -> 1000K)",
       "(Any character may play active; what is best active for that character)"
+     ]
+    },
+    {
+     "block": "Every character: Post Office boxes",
+     "kind": "every",
+     "steps": [
+      "PO box: Dwarven Supplies 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "PO box: Taped Up Timber 0 -> 400 (AutoReview Post Office tier 0/2)",
+      "(Zack 2026-11-19: each character has its own box target (AutoReview); Beryllium atom converts 280 silver pens/day)"
      ]
     },
     {
@@ -13490,6 +13515,11 @@
     "job": "Candy",
     "shared": [],
     "note": "Anyone, as long as the candy goes to that job efficiently"
+   },
+   {
+    "job": "Post Office boxes",
+    "shared": [],
+    "note": "Zack 2026-11-19: each character has its own box target (AutoReview); Beryllium atom converts 280 silver pens/day"
    },
    {
     "job": "Worship",

@@ -28,7 +28,6 @@ characters:
       - {job: Farming, sections: [Farming, Beanstalk], basis: class, daily_fixed: ["Collect all crops, replant"]}
       - {job: Cooking, sections: [Cooking], basis: class, feeds: priority, note: "Cooking speed = account priority now (Upgrade Vault Kitchen Dream-mare on Autistopher)"}
       - {job: "Grimoire + Wraith Form (bones)", sections: [The Grimoire], basis: zack, daily_fixed: ["Wraith Form on (outfit buffs him)"], note: "Zemo always runs Wraith Form (outfit buffs him)"}
-      - {job: Post Office, sections: [Post Office], basis: zack}
       - {job: Fish prints, sections: [{s: Sampling, itype: FISH}], basis: zack, note: "Zack 11/17: Zemo prints fish"}
       - {job: "ZOWs + CHOWs W1-W6", sections: [{s: Death Note, m: "Autiszemo|Eclipse Skull.*in W[1-6]\\b"}], basis: zack}
   Autistocat:     # Arcane Cultist
@@ -149,6 +148,7 @@ every_character:   # Zack 2026-11-19: systems every character considers in its o
   - {job: "Active play setup", sections: [Active], note: "Any character may play active; what is best active for that character"}
   - {job: "Drop rate", sections: [Drop Rate], note: "All need it; some drive it more"}
   - {job: Candy, sections: [Regular Candy, Variable Candy], note: "Anyone, as long as the candy goes to that job efficiently"}
+  - {job: "Post Office boxes", sections: [], facts: postoffice, note: "Zack 2026-11-19: each character has its own box target (AutoReview); Beryllium atom converts 280 silver pens/day"}
   - {job: Worship, sections: [], facts: worship, note: "Zack 2026-11-19: everyone levels worship + collects charge; Autistacular runs totems, Autistabish owns the soul budget"}
   - {job: "3D Printer slots", sections: [], facts: printer, note: "Every character has 2 print slots; owners of Fish/Bug/Ore/Log prints see this on their prints block"}
 

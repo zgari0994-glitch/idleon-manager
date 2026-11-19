@@ -394,7 +394,7 @@ for l in Y.get('locked', []):
                         if b['kind'] == 'unlock' and l['feature'] in b['block']: b['steps'].append(f"BLOCKED on {o_unlock}'s job")
 # ---------- system planners (model/<system>.py: build() + card_lines(); optional routed()) ----------
 import importlib
-PLANNERS = [('sailing', 'Sailing'), ('farming', 'Farming'), ('cooking', 'Cooking'), ('divinity', 'Divinity'), ('breeding', 'Breeding'), ('printer', 'prints'), ('alchemy', 'Alchemy'), ('stamps', 'Stamps'), ('greenstacks', 'Greenstacks'), ('statues', 'Statue turn-ins'), ('refinery', 'Construction'), ('worship', 'Worship totems'), ('compass', 'Compass'), ('grimoire', 'Grimoire'), ('deathnote', 'CHOW')]   # (module, daily block name contains)
+PLANNERS = [('sailing', 'Sailing'), ('farming', 'Farming'), ('cooking', 'Cooking'), ('divinity', 'Divinity'), ('breeding', 'Breeding'), ('printer', 'prints'), ('alchemy', 'Alchemy'), ('stamps', 'Stamps'), ('greenstacks', 'Greenstacks'), ('statues', 'Statue turn-ins'), ('refinery', 'Construction'), ('worship', 'Worship totems'), ('compass', 'Compass'), ('grimoire', 'Grimoire'), ('deathnote', 'CHOW'), ('equinox', 'Equinox'), ('atom', 'Construction'), ('saltlick', 'Salt Lick'), ('armor', 'Godshard'), ('vault', 'Upgrade Vault'), ('tesseract', 'Tesseract'), ('royal_armory', 'Royal Guardian #1')]   # (module, daily block name contains)
 for _mod, _blk in PLANNERS:
     try:
         _m = importlib.import_module(_mod)
@@ -407,7 +407,8 @@ for _mod, _blk in PLANNERS:
                 if _blk in b['block']:
                     head = _m.char_lines(_o, cd['name']) + (_sl if _first else []) if hasattr(_m, 'char_lines') else _sl
                     _first = False
-                    b['steps'] = head + [x for x in b['steps'] if any(k in x for k in ('Push:', 'HOW:', 'WHY:', 'CREATORS:', 'READY', 'Collect'))]
+                    if b.get('kind') == 'playbook': b['steps'] = b['steps'] + head   # second planner on the same block appends
+                    else: b['steps'] = head + [x for x in b['steps'] if any(k in x for k in ('Push:', 'HOW:', 'WHY:', 'CREATORS:', 'READY', 'Collect'))]
                     b['kind'] = 'playbook'
     except Exception as e:
         print(f'{_mod} planner failed:', e)
@@ -451,6 +452,12 @@ for ej in Y.get('every_character', []):
                 if '_WO' not in globals(): _WO = _W.build()
                 steps = _W.char_lines(_WO, cd['name']) + steps
             except Exception as e: steps.insert(0, f"(worship planner failed: {e})")
+        if ej.get('facts') == 'postoffice':
+            try:
+                import postoffice as _PO2
+                if '_POO' not in globals(): _POO = _PO2.build()
+                steps = _PO2.char_lines(_POO, cd['name']) + steps
+            except Exception as e: steps.insert(0, f"(post office planner failed: {e})")
         if ej.get('facts') == 'combat': steps.insert(0, f"Combat Lv {f.get('combat_level')}")
         if ej.get('facts') == 'printer':
             if any('prints' in b['block'] for b in cd['daily']): continue
