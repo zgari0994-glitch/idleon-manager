@@ -106,7 +106,21 @@ def card_lines(o):
              'Needs come from the material ledger (runouts, watch list, stamp materials).')
     L.append('Printer multi still x1: ' + ', '.join(f"{k} {a}/{b} days" for k, (a, b) in o['x1'].items() if (a or 0) < b))
     cb = o.get('close_buffs') or []
-    if cb: L.append('Print buffs to push before print day (closest first): ' + '; '.join(f"{x['label']} ({x['cur']} -> {x['goal']})" for x in cb[:6]))
+    if cb:
+        import datetime as _dt
+        etas = []
+        for x in cb[:6]:
+            if 'days' in x['label']:   # day counters tick 1/day
+                c, g = [float(v) for v in (re.findall(r'[\d.]+', str(x['cur']))[0], re.findall(r'[\d.]+', str(x['goal']))[0])]
+                etas.append((x, int(g - c)))
+            else:
+                etas.append((x, None))
+        known = [d for _, d in etas if d is not None and d > 0]
+        when = (_dt.date.today() + _dt.timedelta(days=max(known))).isoformat() if known else '?'
+        L.append(f"PRINT DAY = when all {len(etas)} print buffs are done (Zack 2026-11-19). Earliest by the day counters: {when} ({max(known) if known else '?'} days); "
+                 "the level-based ones need pushing by then:")
+        for x, dd in etas:
+            L.append(f"  {x['label']} ({x['cur']} -> {x['goal']})" + (f": {dd} days, ticks daily" if dd else ': push it (levels, not days)'))
     L.append("AutoReview tier 8 needs one sample target: Oak Logs 4.42B -> 10B is the closest (2.3x). Taking that sample resets Gold Relic.")
     return L
 
