@@ -1,0 +1,38 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,general,post office,,meta_change,any,,Guide on spending post office boxes based on his opinion and Twitch chat; two phases: early-mid and late game.,yes,3
+00:00:00,00:00:00,general,post office,,setup,any,early_boxes=800;late_boxes=800,Early to mid game is about 800 post boxes or less; late game is 800 plus.,yes,3
+00:00:00,00:00:30,general,post office civil war box,,priority,early,target_level=200,Early game: level the Civil War box to 200 first.,yes,2
+00:00:30,00:00:30,general,post office civil war box,,mechanic,early,,Civil War box gives base damage AFK gains and crit chance; mostly used for fight AFK gains.,yes,2
+00:00:30,00:00:30,general,post office civil war box,,opinion,late,,Fight AFK gains from the box are practically bad late game (garbled).,yes,1
+00:00:30,00:01:00,general|dungeons,post office boxes of wanted stats,,skip,early,,Skip the box with base defense accuracy and monster XP because flurbos from party dungeons easily provide those stats.,yes,2
+00:00:30,00:01:00,general|dungeons,flurbos,,mechanic,early,,Flurbos acquired from party dungeons can be spent to get base defense base accuracy and monster XP.,yes,2
+00:00:30,00:01:00,general,post office skilling box,archer,priority,early,target_level=200,Archers put 200 boxes in the smithing box.,yes,3
+00:00:30,00:01:00,general,post office skilling box,warrior,priority,early,target_level=200,Warriors put 200 boxes in the mining box.,yes,3
+00:00:30,00:01:00,general,post office skilling box,mage,priority,early,target_level=200,Mages put 200 boxes in the chopping box.,yes,3
+00:00:30,00:01:00,general,post office skilling box,,opinion,any,,Skilling boxes picked this way will still be used in late game.,yes,3
+00:01:00,00:01:00,general,post office skilling box,,target,early,target_level=400,After reaching 200 in the skilling box max it to 400.,yes,3
+00:01:00,00:01:31,general,post office care package for mum,,priority,early,target_level=200;total_boxes=800,Then prioritize Care Package for Mum to about 200 which reaches 800 boxes spent.,yes,3
+00:01:00,00:01:31,general|cooking,post office care package for mum,,mechanic,late,,Care Package is underrated and very powerful late game since it does not consume food.,yes,2
+00:01:00,00:01:31,general|advice_fish,post office alchemy fishing catching box,,skip,any,,Fishing and catching boxes are not a priority early or late; full AFK gains are possible without them.,yes,3
+00:01:31,00:02:01,general|cauldrons_liquids,post office alchemy box,,opinion,late,,Alchemy box is an optional choice later in the game but not a priority to spend boxes on.,yes,3
+00:01:31,00:02:01,general,post office non-predatory loot box,maestro,priority,early,,Maestro and Journeyman should instantly put all post office boxes into the Non-Predatory Loot Box.,yes,3
+00:01:31,00:02:01,general|drop_rate,post office non-predatory loot box,,mechanic,any,,Non-Predatory Loot Box gives drop rarity luck and crystal mob spawn.,yes,3
+00:01:31,00:02:01,general,post office non-predatory loot box,journeyman,priority,early,,Journeyman should also instantly put all boxes into the Non-Predatory Loot Box.,yes,3
+00:02:01,00:02:31,general,post office boxes,maestro,setup,early,nonpredatory=400;care_package=200,Maestro split: 400 into Non-Predatory Loot Box and 200 into Care Package for Mum.,yes,3
+00:02:01,00:02:31,general,post office civil war box,,skip,late,,Late game Civil War box base damage becomes irrelevant except for fight AFK gains; could still use it.,yes,2
+00:02:01,00:02:31,general,post office skilling box,,target,late,skillers=3;target_level=400,Late game with three main skillers put 400 in each respective skilling box.,yes,3
+00:02:31,00:03:01,general,post office death storage box,,priority,late,target_level=400,Death storage box is by far the strongest; invest 400 in it for weapon power attack speed and total damage.,yes,2
+00:02:31,00:03:01,general,post office death storage box,,mechanic,mid,,Death storage helps progress through world three and soon world four.,yes,2
+00:02:31,00:03:01,general|printer,post office ulian capsule box,,priority,late,,Level up Ulian Capsule box: gives percent printer sample percent multi-kill and percent cash from mobs.,yes,2
+00:02:31,00:03:01,general|printer,post office ulian capsule box,,opinion,late,,Ulian Capsule is a mid-max tool making late game a breeze.,yes,2
+00:03:01,00:03:32,general,post office boxes,,opinion,late,,Once main boxes are maxed you are free to branch into alchemy construction worship or trapping.,yes,3
+00:03:01,00:03:32,general|worship|traps|construction,post office boxes,squire,account_note,late,,Squire can go construction; wizard worship; hunter trapping after main boxes are done.,yes,3
+00:03:32,00:03:32,cauldrons_liquids,alchemy,,opinion,late,,Late game alchemy is the true late game so prioritize spending money on it.,yes,3
+00:03:32,00:04:04,general,post office boxes,,setup,early,civil_war=200;skilling=400;care_package=200,Early recap: 200 Civil War box 400 respective skilling box 200 care package for mum.,yes,3
+00:03:32,00:04:04,general,post office boxes,maestro,setup,early,nonpredatory=400;care_package=200,Maestro recap: instantly 400 non-predatory loot box and 200 care package for mum.,yes,2
+00:03:32,00:04:35,general,post office boxes,,setup,late,skilling=400;death_storage=400;care_package=200,Late recap: 400 world one skilling box 400 death storage and 200 care package for mum.,yes,3
+00:04:04,00:04:35,general|printer,post office ulian capsule box,,priority,late,,Prioritize Ulian Capsule over getting care package to 400 to get 3D prints out for farming later.,yes,2
+00:04:04,00:04:35,general,post office care package for mum,,target,endgame,target_level=400,Care package can eventually reach 400 but it takes long.,yes,2
+00:04:04,00:04:35,general,post office boxes,,target,endgame,total_boxes=1400,He calculated about 1400 boxes for the full setup.,yes,2
+00:04:04,00:04:35,general|gem_shop,post office,,opinion,any,,Following this setup means you won't need to spend gems to respec boxes.,yes,2
+00:04:35,00:05:05,general|gem_shop,post office,,warning,any,,Post office is daunting especially needing gems to respec.,yes,2

@@ -1,0 +1,57 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+VcGwQShHSag,griffybit,2024-11-09,00:00:00,00:00:00,hole,world-5/hole,access,,how_to,unknown,,Access the hole via Thermeister map in World 5 or teleport; complete a short quest line to unlock it,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:00:30,00:00:30,hole,world-5/hole,opals,,mechanic,unknown,,Opals are the primary resource for progressing in the hole and leveling villagers,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:00:30,00:00:30,hole,world-5/hole,villagers,,mechanic,unknown,,Without Opals villagers cannot gain XP,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:00:30,00:00:30,hole,world-5/hole,opals,,how_to,unknown,,To invest Opals click a villager then choose invest then give Opal,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:00:30,00:00:30,hole,world-5/hole,opals,,mechanic,unknown,,Opal reset is available in Cavern 7 if you make a mistake,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:00:30,00:01:01,hole,world-5/hole,opals,,warning,unknown,,Opals may be limited depending on account progression so prioritize carefully,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:01:01,00:01:01,hole,world-5/hole,explorer,,priority,unknown,,Explorer needs much more XP per level than others so prioritize Opals there,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:01:01,00:01:01,hole,world-5/hole,explorer,,mechanic,unknown,,Each Explorer level fills a bar and a new Cavern is discovered,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:01:01,00:01:01,hole,world-5/hole,engineer,,mechanic,unknown,,Engineer unlocks schematics giving powerful cavern buffs; some affect outside the cavern,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:01:01,00:01:01,hole,world-5/hole,engineer,,mechanic,unknown,,Schematics require ores from the wells and notes from the harp so keep them stocked,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:01:01,00:01:34,hole,world-5/hole,conjurer,,mechanic,unknown,sections=3,Conjurer has three upgrade sections: Hole Magic Village Magic and IdleOn Magic,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:01:34,00:01:34,hole,world-5/hole,conjurer,,mechanic,unknown,,Hole Magic boosts hole activities: harp notes Bravery monument scaling and extra lamp wishes,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:01:34,00:01:34,hole,world-5/hole,conjurer,,mechanic,unknown,bonus_multiplier=1.25,Village Magic improves villager XP such as XP per schematic and extra XP per 10 Opals invested; measurement bonuses 1.25x,yes,2
+VcGwQShHSag,griffybit,2024-11-09,00:01:34,00:01:34,hole,world-5/hole,conjurer,,mechanic,unknown,all_stat=30%;forge_capacity=243x,IdleOn Magic affects outside the hole: 30% all stat boost Forge capacity up to 243x and ballot bonus multipliers,yes,2
+VcGwQShHSag,griffybit,2024-11-09,00:01:34,00:01:34,forge,world-1/forge,conjurer,,mechanic,unknown,all_stat=30%;forge_capacity=243x,IdleOn Magic affects outside the hole: 30% all stat boost Forge capacity up to 243x and ballot bonus multipliers,yes,2
+VcGwQShHSag,griffybit,2024-11-09,00:01:34,00:01:34,ballot,world-2/vote-ballot,conjurer,,mechanic,unknown,all_stat=30%;forge_capacity=243x,IdleOn Magic affects outside the hole: 30% all stat boost Forge capacity up to 243x and ballot bonus multipliers,yes,2
+VcGwQShHSag,griffybit,2024-11-09,00:01:34,00:02:05,hole,world-5/hole,conjurer,,priority,early,,Start Conjurer upgrades in the blue section: blue one two and three for villager XP,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:02:05,00:02:05,hole,world-5/hole,opals,,target,unknown,explorer=2;engineer=1;conjurer=1,Suggested Opal ratio 2:1:1 for Explorer Engineer Conjurer,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:02:05,00:02:35,hole,world-5/hole,cavern_1_well,,mechanic,unknown,,Well cavern uses buckets to farm gravel gold Redstone mythril and more,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:02:35,00:02:35,hole,world-5/hole,cavern_1_well,,mechanic,unknown,,You can remove Rock layers in the well to access new resources,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:02:35,00:02:35,hole,world-5/hole,cavern_1_well,,priority,unknown,,Prioritize bucket fill rate more buckets and bar expandorama upgrades for efficiency,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:02:35,00:02:35,hole,world-5/hole,cavern_1_well,,mechanic,unknown,,Resources collected in the well can be traded for Opals,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:02:35,00:02:35,hole,world-5/hole,cavern_2_motherlode,,mechanic,unknown,opal_per_layer=1,Motherlode: break layers with mining efficiency for one opal per layer; efficiency requirement rises but opal reward stays constant,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:02:35,00:03:06,hole,world-5/hole,cavern_2_motherlode,,mechanic,unknown,,Motherload and bucket synergy bonus boosts bucket fill rate based on layers destroyed; very strong,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:03:06,00:03:06,hole,world-5/hole,cavern_3_dawg_den,,mechanic,unknown,,Dawg Den is a stat check minigame testing accuracy defense damage; each score threshold earns an opal,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:03:06,00:03:06,hole,world-5/hole,cavern_3_dawg_den,,mechanic,unknown,,Amplifiers increase base multiplier so score targets are reached faster,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:03:06,00:03:06,hole,world-5/hole,cavern_3_dawg_den,,warning,unknown,,Too many mobs on screen max the furom meter and end your run,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:03:06,00:03:06,hole,world-5/hole,cavern_3_dawg_den,,mechanic,unknown,,You can attempt Dawg Den unlimited times like Coliseum,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:03:06,00:03:36,hole,world-5/hole,cavern_4_monument,,mechanic,unknown,,Monument is an AFK area where each AFK hour increases reward multiplier,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:03:36,00:03:36,hole,world-5/hole,cavern_4_monument,,mechanic,unknown,swords_start=3;swords_max=5;afk_hours=80,Monument battle is text-based using sword damage and dice rolls; start with three swords rising to five after 80 hours AFK,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:03:36,00:03:36,hole,world-5/hole,cavern_4_monument,,mechanic,unknown,,After each round select an upgrade such as bucket fill rate mining efficiency or villager XP,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:03:36,00:03:36,hole,world-5/hole,cavern_4_monument,,warning,unknown,,Losing the battle loses all your bonuses,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:03:36,00:03:36,hole,world-5/hole,cavern_4_monument,,priority,unknown,,Worth building AFK hours for higher reward multiplier and sword damage,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:03:36,00:03:36,hole,world-5/hole,cavern_4_monument,,mechanic,unknown,lockout_hours=24,After a battle you are locked out 24 hours not tied to daily reset,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:03:36,00:04:07,hole,world-5/hole,cavern_5_bell,,mechanic,unknown,ring_rate_per_purchase=2%,Bell cavern: spend money to increase hourly ring rate by 2% per purchase; four bell types,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:04:07,00:04:07,hole,world-5/hole,cavern_5_bell,,mechanic,unknown,,Ringing the bell adds plus one each hour granting random boosts like harp note gains bucket fill rate or villager XP,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:04:07,00:04:07,hole,world-5/hole,cavern_5_bell,,mechanic,unknown,ping_per_hour=10,Pinging the bell is 10 an hour and each ping gives an opal,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:04:07,00:04:07,hole,world-5/hole,cavern_5_bell,,mechanic,unknown,clean_per_hour=10;unlock_chance=60%,Cleaning the bell is 10 an hour with 60% chance to unlock new improvements,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:04:07,00:04:07,hole,world-5/hole,cavern_5_bell,,mechanic,unknown,,Renewing the bell is a prestige resetting upgrade costs while pursuing improvement methods and earned opals,yes,2
+VcGwQShHSag,griffybit,2024-11-09,00:04:07,00:04:37,hole,world-5/hole,cavern_6_harp,,mechanic,unknown,heart_power=100%,At 100% heart power you can strum strings by clicking and dragging; each strum permanently levels strings,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:04:37,00:04:37,hole,world-5/hole,cavern_6_harp,,mechanic,unknown,,C strings give notes used as currency; E strings give chance for an opal; unlock more strings and notes,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:04:37,00:05:07,gem_shop,account/prem-currency/gem-shop,ancients_echo_pack,,mechanic,unknown,green_gems=1250;blue_gems=4500;damage=2x;afk_gain=30%;villager_xp=1.5x,Ancient's Echo pack includes attire giving 2x damage as true multiplier 30% AFK gain and 1.5x villager XP,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:04:37,00:05:07,hole,world-5/hole,ancients_echo_pack,,mechanic,unknown,green_gems=1250;blue_gems=4500;damage=2x;afk_gain=30%;villager_xp=1.5x,Ancient's Echo pack includes attire giving 2x damage as true multiplier 30% AFK gain and 1.5x villager XP,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:05:07,00:05:07,gem_shop,account/prem-currency/gem-shop,ancients_echo_pack,,opinion,unknown,,Rates Ancient's Echo pack top of A or low S; godly but not close to Autoloot or Sacred Methods,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:05:07,00:05:07,hole,world-5/hole,cavern_7_genies_lamp,,mechanic,unknown,,Genie's Lamp uses charges to unlock wishes or reset Opals or Conjurer points,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:05:07,00:05:07,hole,world-5/hole,cavern_7_genies_lamp,,priority,unknown,,Charges are slow so start by unlocking new wishes,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:05:07,00:05:37,hole,world-5/hole,taker_of_measurements,,opinion,unknown,,Taker of Measurements villager is incredibly busted with insane upgrades,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:05:37,00:05:37,hole,world-5/hole,taker_of_measurements,,priority,unknown,opals=1,Hold one opal to get Taker of Measurements gaining XP; he is unlocked in Cavern 7,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:05:37,00:05:37,hole,world-5/hole,cavern_5_bell,,priority,unknown,bell_per_hour_before=200;bell_per_hour_after=2200,Cleaning the bell gives god-tier improvements raising bell generation from 200 to 2200 an hour,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:05:37,00:06:09,hole,world-5/hole,engineer,,priority,unknown,,Improvement Stacking engineer schematic upgrade is very strong but requires notes,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:05:37,00:06:09,hole,world-5/hole,cavern_6_harp,,priority,unknown,,Run a lot of C notes to get currency to unlock new notes,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:06:09,00:06:09,hole,world-5/hole,cavern_4_monument,,mechanic,unknown,swords_rethrow=5,New Monument unlock lets you rethrow five swords per story reducing RNG,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:06:09,00:06:09,hole,world-5/hole,cavern_4_monument,,priority,unknown,,Battle upgrade priority: Bravery Opal Percent Opals Villager XP Bucket Fill Rate Mining Efficiency,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:06:41,00:06:41,hole,world-5/hole,general,,opinion,unknown,,Explanations given will take you weeks in advance; free-to-play players can get far in decent time,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:06:41,00:06:41,gem_shop,account/prem-currency/gem-shop,conjurer_points,,comparison,unknown,,Gem shop Conjurer points are super strong and an extra opal purchasable per day helps paying players,yes,3
+VcGwQShHSag,griffybit,2024-11-09,00:06:41,00:06:41,hole,world-5/hole,conjurer_points,,comparison,unknown,,Gem shop Conjurer points are super strong and an extra opal purchasable per day helps paying players,yes,3

@@ -1,0 +1,36 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:01,00:00:01,dungeons,Chaotic Chizoar,,mechanic,w3,location=Crystal Base Camp Frostbite Tundra,Chaotic Chizoar is located at the end of the Frostbite Tundra map in Crystal Base Camp,yes,3
+00:00:01,00:00:33,dungeons,Chaotic Chizoar,,threshold,w3,boss_hp=2000000000,Chizoar has 2 billion HP so you need a lot of damage output to fight him,yes,3
+00:00:33,00:00:33,shrines|dungeons,shrine,,how_to,w3,,Use everything at your disposal including Shrines to kill the boss in a reasonable time,yes,3
+00:00:33,00:01:07,dungeons,Chaotic Chizoar,,threshold,w3,accuracy_5pct_hit=3750;accuracy_100pct_hit=11300,Needs 3750 accuracy for 5% hit chance and 11300 accuracy for 100% hit chance,yes,3
+00:00:33,00:01:07,cards,accuracy,,how_to,w3,,Get as much base accuracy as you can then use accuracy cards,yes,3
+00:01:07,00:01:07,cards,accuracy,,how_to,w3,,Brown Mushroom and Sand Castle cards give a lot of accuracy,yes,3
+00:01:07,00:01:07,cards,Neyeptune,,how_to,w3,,If you need even more accuracy look at Neyeptune card if you have gold cards,yes,2
+00:01:07,00:01:39,cards,card set,,how_to,w3,accuracy_defense_bonus_pct=20,Frostbite Tundra card set gives up to 20% additional accuracy and defense; good for the fight if lacking those stats,yes,3
+00:01:07,00:01:39,dungeons,Chaotic Chizoar,,warning,w3,,Boss hits very hard so make sure you have plenty of defense,yes,3
+00:01:39,00:01:39,dungeons,Chaotic Chizoar,,threshold,w3,defense_min=400;defense_good=600,Go in with at least 400 defense; near 600 makes the fight a lot easier,yes,3
+00:01:39,00:01:39,dungeons,Chaotic Chizoar,,how_to,w3,keys=5,Enter the dungeon by clicking the doorway and select Chaotic Mode; it requires 5 keys,yes,3
+00:02:09,00:02:09,shrines|dungeons,shrine,,mechanic,w3,,Shrines stay placed in the boss room after each attempt,yes,3
+00:02:09,00:02:09,shrines|dungeons,shrine,,warning,w3,,Place shrines out of the way as they can interfere with clicking crystals when they spawn,yes,3
+00:02:09,00:02:43,dungeons,Front Stomp,,mechanic,w3,,Front Stomp: second leg lifts and stomps creating dust cloud hitting everything in melee range,yes,3
+00:02:43,00:02:43,dungeons,Front Stomp,,how_to,w3,,Standing at the very front leg takes no damage from front stomp but other melee positions take significant damage,yes,2
+00:02:43,00:03:17,dungeons,Back Stomp,,mechanic,w3,,Back Stomp happens only if you stand in range of far back leg; summons line of ice spikes across the map,yes,3
+00:02:43,00:03:17,dungeons,Back Stomp,,how_to,w3,,Easily avoided by not being near the back leg,yes,3
+00:03:17,00:03:17,dungeons,tusks,,warning,w3,,Tusks can hit you anywhere in range up to the platform and deal decent damage,yes,3
+00:03:17,00:03:48,dungeons,Falling Ice Spikes,,mechanic,w3,,Lifting front leg summons ice spikes raining from ceiling; one of the lower damaging abilities,yes,3
+00:03:48,00:03:48,dungeons,Falling Ice Spikes,,warning,w3,,Spikes happen frequently in large numbers so bring plenty of food,yes,3
+00:03:48,00:04:20,dungeons,crystals,,mechanic,w3,crystal_count=5-6;respawn_seconds=30,Boss spins forehead crystal as telegraph then 5 to 6 crystals spawn and re-spawn about every 30 seconds,yes,3
+00:04:20,00:04:20,dungeons,crystals,,warning,w3,,Bring enough damage to one-shot crystals or you spend more time killing crystals than fighting boss,yes,3
+00:04:20,00:04:53,dungeons,Chaotic Chizoar,,account_note,w3,damage=850000;accuracy=11700;defense=739,His stats for the fight: almost 850K damage 11.7K accuracy 739 defense,yes,3
+00:04:53,00:04:53,dungeons,Chaotic Chizoar,,account_note,w3,kill_time_minutes=80,It took him 1 hour 20 minutes to kill while paying attention the whole time,yes,3
+00:04:53,00:05:24,dungeons,crystals,,how_to,w3,,Manually click each crystal then the next as auto-attack waits until you can swing again; this saves time,yes,3
+00:05:24,00:05:24,dungeons,crystals,,how_to,w3,crystal_interval_seconds=30,Maximize damage to legs before crystals respawn every 30 seconds with 5 or 6 crystals,yes,2
+00:05:24,00:05:54,dungeons,abilities,,how_to,w3,,Use abilities that hit farther out to damage multiple legs such as axe on back leg,yes,3
+00:05:24,00:05:54,dungeons,Tornado,wizard,how_to,w3,legs_hit=2-3,Wizard's Tornado can hit 2 or 3 legs multiple times,yes,3
+00:05:54,00:05:54,dungeons,Coin Toss,maestro,how_to,w3,legs_hit=2-3,Maestro's Coin Toss bounces between two legs hitting 2 or 3 times per coin,yes,3
+00:07:53,00:08:24,dungeons,drops,,mechanic,w3,,Main drop is Chizoar Spike used to craft his armor from World 3 Merits and Tasks,yes,3
+00:08:24,00:08:24,dungeons,drops,,mechanic,w3,,Chizoar can drop Distilled Water or the Statues,yes,2
+00:08:24,00:08:24,dungeons,drops,,mechanic,w3,,Chizoar Stalagmite drops from Chaotic Chizoar and is needed for Chizoar Caustic Scarf,yes,3
+00:08:24,00:08:24,dungeons,drops,,mechanic,w3,drop_chance=1/300,Chizoar Blankie pendant is a rare 1 in 300 drop from Chaotic Chizoar also required for the scarf,yes,3
+00:08:24,00:08:55,dungeons,drops,,mechanic,w3,weapon_power=4;defense=2;total_damage_pct=4,Frozen Obol of Chizoar's Rage drops with 4 weapon power 2 defense and +4% total damage,yes,3
+00:08:55,00:08:55,dungeons,drops,,mechanic,w3,,Rest of his loot is the Super Drop Table,yes,3

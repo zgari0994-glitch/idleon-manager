@@ -1,0 +1,87 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,hole,harp,,mechanic,unknown,,Cavern 6 (the harp) is the first Glow Room tunnels cavern and is a resource generation cavern similar to the well and Cavern 1,yes,3
+00:00:00,00:00:32,hole,harp,,mechanic,unknown,,Harp main purposes: unlock engineer schematics and upgrade measurer bonuses and the harp itself,yes,3
+00:00:32,00:00:32,hole,harp,,mechanic,unknown,harp_power_pct=5;interval_min=1.5;full_min=30,Harp power starts at 5% every 1.5 minutes giving 100% every 30 minutes,yes,3
+00:00:32,00:00:32,hole,harp,,mechanic,unknown,,Leveling the E string reduces the harp power generation rate as one of its bonuses,yes,2
+00:01:03,00:01:03,hole,harp,,how_to,unknown,,Select which note the harp is tuned to in order to generate that resource if the right string is selected,yes,3
+00:01:35,00:01:35,hole,harp,,mechanic,unknown,notes_total=10;notes_unlocked=8,Teach-note NPC unlocks next note when you give a few hundred of the current one; 10 notes in total,yes,2
+00:02:06,00:02:06,hole,harp,,mechanic,unknown,,Opals are found using the D string; total Opals found is displayed on the right,yes,3
+00:02:36,00:02:36,hole,harp,,mechanic,unknown,,Each strummed string generates notes if proper string selected and gives experience to the string selected which levels its bonuses,yes,3
+00:03:08,00:03:40,hole,harp,,mechanic,unknown,,C string generates an amount of the note you are tuned to and its level bonus gives harp note gain percentage,yes,3
+00:03:40,00:04:10,hole,harp,,mechanic,unknown,,Notes per strum equal harp power times bonuses and are per string not total,yes,3
+00:04:10,00:04:40,hole,harp,,how_to,unknown,,Click the letter on a string to cycle which note each string uses; you can mix them or set all the same,yes,3
+00:04:40,00:04:40,hole,harp,,mechanic,unknown,string_bonus_pct=25,Last string strummed gets a multiplier based on how many strings you strum; each string adds 25% bonus to the last,yes,2
+00:05:11,00:05:11,hole,harp,,opinion,early,,Harp is very min-maxy early and later becomes about generating big numbers; spend resources effectively on bonuses,yes,3
+00:05:41,00:06:12,hole,harp,,mechanic,unknown,opals_found=4,D string gives a small chance at an opal per strum multiplied by harp power; opals very hard to get at start,yes,3
+00:06:12,00:06:12,hole,harp,,mechanic,early,string_level=20;opals_found=4;strings_tuned_d=3,Author got about four opals with D string around level 20 and two or three strings tuned to D,yes,3
+00:06:12,00:06:43,hole,harp,,priority,early,,Early on balance leveling C and D strings by tuning one string to C and one to D,yes,3
+00:06:43,00:07:14,hole,harp,,mechanic,unknown,,E string does no note generation but gives more harp power per power; level it fairly early and balance with D and C,yes,2
+00:06:43,00:07:14,hole,harp,,warning,early,,Don't overlevel E early because unlocking the G note makes leveling much easier,yes,2
+00:07:14,00:08:16,hole,harp,,mechanic,unknown,note_gen_millions=7.3;fraction_of_c=0.25,F string generates about a quarter of C's notes but also gives the adjacent two notes so three types at 3/4 total potential,yes,3
+00:07:45,00:08:16,hole,harp,,how_to,unknown,,Use F string tuned to the middle note to generate multiple types of notes at once when needing several resources,yes,2
+00:08:16,00:08:16,hole,harp,,mechanic,unknown,,F string level bonus is harp note gain so balance it out,yes,3
+00:08:16,00:09:17,hole,harp,,mechanic,unknown,exp_per_hour=161000;strings=7;engineer_bonus_pct=25;multiplier_pct=150;last_string_exp=380000,G string (melodic twine) gives experience to all strings per string; with engineer schematic and 7 strings last string gives about 380k exp,yes,2
+00:09:17,00:09:48,hole,harp,,mechanic,unknown,,G string level bonus multiplies string EXP and works even when tuned to another note,yes,3
+00:09:17,00:09:48,hole,harp,,mechanic,unknown,,Strumming across all seven strings tuned to G could give a full level on all strings,yes,2
+00:09:48,00:10:18,hole,harp,,how_to,unknown,days=3;hours_harp_power=12,Use G string about every 3 days with roughly 12 hours of harp power to level all strings and balance them,yes,2
+00:10:18,00:10:49,hole,harp,,priority,unknown,,Select C note most of the time for most notes and spend it on engineer schematics and measurer bonuses to level notes and exp per hour,yes,3
+00:10:49,00:11:20,hole,harp|hole,engineer,mechanic,unknown,string_count_from=3;string_count_to=4;gain_pct=30,Loaded harp engineer bonus adds a string going from three to four strings for about 30% more gains,yes,3
+00:11:20,00:11:52,hole,harp,engineer,mechanic,unknown,,Engineer unlock E string gives more harp power per hour; base is one experience per 100% harp power so leveling is slow,yes,2
+00:11:52,00:11:52,hole,harp,engineer,mechanic,unknown,multiplier_pct=15,Stringy effect engineer bonus gives strings 15% more notes experience and opal chance,yes,2
+00:11:52,00:12:24,hole,harp,engineer,mechanic,unknown,pct_per_string=20,Domino effect gives 20% more string plucked per string to last string and doubles harp power,yes,2
+00:12:24,00:12:24,hole,harp,engineer,mechanic,unknown,strings=7;multiplier_pct=140,With seven strings the domino effect multiplier on the last string is 140%,yes,3
+00:12:24,00:12:54,hole,harp,engineer,mechanic,unknown,,Engineer unlocks F string and G string which makes leveling the rest of your strings easier,yes,3
+00:12:54,00:13:24,hole,harp,engineer,mechanic,unknown,strings=7;cap_strings=9;multiplier_pct=180,Author has seven strings; nine is current cap and gives 180% multiplier on last string,yes,2
+00:13:24,00:13:55,hole,harp,measurer,mechanic,unknown,level=86;harp_note_gain_pct=132,Measurer harp note gain bonus requires notes and multiplies with slab; author level 86 gives 132%,yes,3
+00:13:55,00:14:25,hole,harp,measurer,priority,unknown,,String C as much as possible to level harp note gain so you can get specific resources more easily,yes,2
+00:14:25,00:14:56,hole,harp,measurer,mechanic,unknown,level=7;exp_bonus_pct=1144;string_exp=4500,Measurer level 7 bonus gives harp string experience using sharp notes multiplied by total account level,yes,2
+00:14:56,00:15:28,hole,harp,measurer,priority,unknown,level=9,Level 9 measurer gives harp note gain at higher multiplier so level measurer as soon as possible,yes,3
+00:15:28,00:15:59,hole,harp,,mechanic,unknown,,Harp is back and forth between leveling measurer and harp with notes; G string leveling also gives harp gain,yes,3
+00:15:28,00:15:59,hole,harp,,mechanic,unknown,,Bell bonus also gives harp note gain when leveled up,yes,3
+00:15:59,00:16:31,hole,lamp,,mechanic,unknown,,Cavern 7 lamp is daily resource generation based on wishes from measurer conjurer and wish system,yes,3
+00:16:31,00:16:31,hole,lamp,,mechanic,unknown,,Initially you have one wish that gives more wishes; each wish unlock costs more than the last,yes,3
+00:16:31,00:17:02,hole,lamp,,mechanic,unknown,cost_start=1;cost_next=4;cost_later=16,Wish costs go from one to four to six then 16 quickly so it becomes very expensive,yes,2
+00:17:02,00:17:33,hole,lamp,,mechanic,unknown,,Another try wish resets all opals invested letting you reinvest them in villagers for experience per hour more efficiently,yes,3
+00:17:02,00:17:33,hole,lamp,,priority,unknown,,Save up wishes for another try and decide timing based on your progress,yes,2
+00:17:33,00:18:04,hole,lamp,,how_to,mid,engineer_level=25;measurer_level=12,Reset opals after unlocking Cavern 9 or 10 and invest them in engineer to level 20-25 and measurer to 10-12,yes,2
+00:18:04,00:18:04,hole,lamp,,mechanic,unknown,measurer_max_seen=10;engineer_max_seen=17,Highest measurer level seen is 10 and highest engineer level seen is 16 or 17,yes,2
+00:18:04,00:18:34,hole,lamp|hole,,how_to,late,caverns=11-15;opals=120,Reset opals when new caverns 11 to 15 unlock and dump about 120 opals into Explorer rather than a month of grinding,yes,2
+00:18:34,00:19:04,hole,lamp,,mechanic,unknown,,Wish resets conjurer points to put into idleon magic like forge capacity or multi then reset back into hole magic,yes,2
+00:19:04,00:19:34,hole,lamp,,mechanic,unknown,wishes_per_day=4.86,Author generates 4.86 wishes a day; base is one wish a day; leveling measurer and Bell increases it,yes,3
+00:19:34,00:19:34,hole,lamp,,how_to,unknown,wishes_saved=15,Stack wishes about 12 or 15 to reset for resampling then reset back into the hole,yes,2
+00:19:34,00:20:05,hole,lamp,,mechanic,unknown,wish_cost_first=1;wish_cost_next=4,1 million Opals wish gives one opal; first costs one wish then four wishes per opal,yes,2
+00:20:05,00:20:05,hole,lamp,,opinion,unknown,,Author does not want to spend wishes on the opal wish because one opal won't change the game,yes,3
+00:20:05,00:20:35,hole,lamp,,mechanic,unknown,afk_hours=12;wish_cost=2,Bring them back wish grants 12 hours of AFK time to the Bravery Monument for two wishes,yes,3
+00:20:35,00:21:06,hole,lamp,,opinion,unknown,,Bring them back hasn't been worth it yet but may let you get AFK time without jailing characters at monuments,yes,2
+00:21:06,00:21:37,hole,lamp,measurer,mechanic,unknown,bonus_pct=74.8;crops_found=160,Measurer gives 74.8% more daily lamp wishes multiplied by crops found; 160 crops is max currently,yes,2
+00:21:37,00:22:09,hole,lamp,,mechanic,unknown,hole_magic_pct=90,Hole magic gives up to 90% additional wishes at lamp every day,yes,3
+00:22:09,00:22:09,hole,lamp,,mechanic,unknown,wishes_per_day=5,Bell also generates small daily lamp wishes; author gets almost five wishes per day,yes,3
+00:22:09,00:22:40,hole,lamp,,target,unknown,wishes_per_day=6,Author thinks they could push to six wishes a day with some effort,yes,2
+00:22:09,00:22:40,hole,hive,archer,mechanic,unknown,,Cavern 8 hive is like motherload but catching; use archer-based classes to catch flies to unlock hive layers,yes,3
+00:22:40,00:23:10,hole,hive,,mechanic,unknown,,Hive needs catching efficiency; first five or ten layers easy then much harder as layers need more bugs and efficiency,yes,3
+00:23:10,00:23:10,hole,hive,,mechanic,unknown,opals_per_layer=1,Each destroyed hive layer gives one opal,yes,3
+00:23:10,00:23:41,hole,hive,engineer,mechanic,unknown,,Currently unlocked engineer bonuses give skill efficiency from hive and from motherload,yes,2
+00:23:10,00:24:13,hole,hive,,mechanic,unknown,multiplier_pct=10,Fractal fly in harp synergy gives 10% harp note production multiplier based on hive layers destroyed,yes,2
+00:24:13,00:24:13,hole,grotto,,mechanic,unknown,,Cavern 9 Grotto is last cavern with content; Cavern 10 is unlockable but has nothing yet,yes,3
+00:24:13,00:24:43,hole,grotto,,setup,unknown,,Grotto is a fighting cavern like the dogon; bring combat gear and focus on kill percentage with enough damage,yes,3
+00:24:43,00:24:43,hole,grotto,bubonic_conjuror|divine_knight|siege_breaker,mechanic,unknown,,Mob respawn from bubonic conjurer or divine knight doesn't work in Grotto but siege breaker's pirate flag does,yes,3
+00:24:43,00:25:13,hole,grotto,siege_breaker,setup,unknown,,Equip enough mob respawn plus pirate flag for plunderous mobs to keep mobs respawning,yes,3
+00:25:13,00:25:13,hole,grotto,siege_breaker,priority,unknown,health_billion=2.5,Get as much multi-kill as possible since mobs have 2.5 billion health; multi-kill works on active characters; siege breaker is go-to,yes,3
+00:25:13,00:25:45,hole,grotto,,mechanic,unknown,,Kill enough mushrooms in layers to challenge the Monarch; each Monarch kill gives an opal,yes,3
+00:25:45,00:26:15,cards|hole,grotto,,mechanic,w5,,Mushrooms drop a new world 5 card gloomy mushroom giving more village exp passive and can spawn crystal mobs,yes,3
+00:25:45,00:26:15,statues|hole,grotto,,mechanic,unknown,,Mushrooms have a chance at dropping the new Dragon Warrior statue at very low drop rate,yes,3
+00:26:45,00:27:16,hole,grotto,siege_breaker,setup,unknown,,Pirate flag buff and plunderous kills generate skull coins and get mobs respawning; crystal mobs drop golden foods and potions,yes,2
+00:27:16,00:27:16,statues|hole,grotto,,target,unknown,days=4,Author needs a lot of Dragon Warrior statues to onyx and level it; so far three or four days of farming,yes,2
+00:27:16,00:27:16,hole,grotto,siege_breaker,setup,unknown,drop_rate=37;damage=22Q,Author's farming stats: about 37x drop rate and about 22 Q damage,yes,2
+00:27:16,00:27:47,hole,grotto,siege_breaker,setup,unknown,,Setup for mob respawn and multi-kill: respawn pendants damage multipliers and world 5 rings for 30% more kills,yes,2
+00:27:16,00:27:47,hole,grotto,siege_breaker,setup,unknown,ring_kill_pct=30,World five rings give 30% more kills,yes,2
+00:27:47,00:28:17,hole,grotto,siege_breaker,setup,unknown,,Special equipment should have mob respawn damage and drop chance; cards use drop rate and multi-kill,yes,2
+00:27:47,00:28:17,hole,grotto,siege_breaker,opinion,unknown,,Author hasn't found the optimal card setup yet and thinks a better one exists,yes,3
+00:28:17,00:28:47,hole,grotto,siege_breaker,setup,unknown,multi_kill_pct=280;drop_rate_pct=264,Author's character has 280% multi-kill and 264% drop rate,yes,2
+00:28:17,00:28:47,hole,grotto,siege_breaker,how_to,unknown,,Use snapshotting to generate cards and more multi-kill and damage; killing plunderous mobs is only effective way found,yes,2
+00:28:47,00:29:19,hole,grotto,,mechanic,unknown,,Boss HP and mushrooms needed rise per layer but gloomy mushroom HP does not change so don't fear new layers,yes,3
+00:28:47,00:29:19,hole,grotto,,priority,unknown,,Generate as many opals as you can from Monarch kills,yes,2
+00:29:19,00:29:50,statues,dragon_warrior,,mechanic,unknown,,Dragon Warrior statue gives percentage multiplier to all statue bonuses so definitely level it,yes,3
+00:29:19,00:29:50,statues,dragon_warrior,,account_note,unknown,statues_deposited=20;level=14;bonus_pct=6,Author deposited 20 dragon statues to reach level 14 for 6% bonus,yes,3
+00:29:50,00:29:50,statues,dragon_warrior,,mechanic,unknown,bonus_pct=10,Onyx Dragon Warrior doubles its bonus and gives 10% more statue points making leveling easier,yes,2
+00:29:50,00:30:21,statues,dragon_warrior,,warning,unknown,,You still need to spend resources to golden statue all of them so the multiplier applies across characters,yes,2

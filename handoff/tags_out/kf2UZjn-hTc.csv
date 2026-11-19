@@ -1,0 +1,100 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,speedrun|printer,voidwalker sampling,voidwalker,mechanic,any,,Voidwalker sampling is one of the best ways to get monster materials for alchemy and stamps and crafting,yes,3
+00:00:00,00:00:00,printer,sample size,voidwalker,comparison,any,voidwalker_multiplier=10,Printer shows Voidwalker can pull more than 10x the monster materials of any other character,yes,3
+00:00:00,00:00:32,speedrun|printer,build,voidwalker,setup,any,,Sampling build is very similar to the Voidwalker speedrun build with a few changes,yes,3
+00:00:32,00:01:03,characters,gear movement speed,voidwalker,priority,any,movement_speed_cap=350,First gear priority is reaching the 350% movement speed cap; excess still gives a little damage,yes,3
+00:01:03,00:01:03,characters,gear damage,voidwalker,priority,any,,Second gear priority is as much damage as possible; borrowed a higher-tier helmet from another character for the extra damage,yes,3
+00:01:03,00:01:33,characters,gear mob respawn,voidwalker,setup,any,,Use damage and mob respawn gear instead of multi-kill gear to help sampling,yes,3
+00:01:33,00:01:33,speedrun,mob respawn,voidwalker,mechanic,any,,More bosses killed gives more mob respawn so pushing further helps sampling,yes,3
+00:01:33,00:02:05,characters,equipment,voidwalker,setup,any,all_afk_gain_a=13;all_afk_gain_b=11,Equipment: pick AFK gain rate and total damage; use the 13% or 11% all AFK gain rate pieces if available else damage,yes,3
+00:02:05,00:02:05,characters,equipment wings,voidwalker,setup,any,,Blighted Chizoar Wings are a damage option if no AFK gain gear,yes,2
+00:02:05,00:02:05,characters,name tag and premium helmet,voidwalker,setup,any,,Use multi-kill per tier name tag and any AFK gain or multi-kill premium helmet,yes,3
+00:02:05,00:02:37,characters,keychains,voidwalker,setup,any,,Keychains: multi-kill or AFK gain rate or percent luck are all decent; more damage is recommended if damage is short for damage tier,yes,3
+00:02:37,00:02:37,characters,keychains multikill,voidwalker,mechanic,any,,Multi-kill keychains are flat but reaching the next damage tier gives more multi-kill per tier from other sources,yes,3
+00:02:37,00:03:07,characters,keychains AFK gain,voidwalker,comparison,any,,AFK gain keychains depend on how far you can push portals; enough damage to kill another boss gives more than AFK gain keychains,yes,3
+00:02:37,00:03:07,characters,tools,voidwalker,setup,any,,Tools: use anything giving more LUK-based stats and use upgrade slots; they are stat sticks and more LUK increases damage,yes,3
+00:03:07,00:03:07,characters,food,voidwalker,setup,any,,Foods: use movement speed foods,yes,3
+00:03:07,00:03:40,characters,potions,voidwalker,setup,any,,Potions are an easy way to cap movement speed; otherwise anything giving stats and damage for more boss kills,yes,3
+00:03:40,00:03:40,characters,talents tab 1-3,voidwalker,setup,any,,Basic talent tabs: as much damage and LUK as you can get,yes,3
+00:03:40,00:03:40,characters,talent Void Trial Rerun,voidwalker,priority,any,,Void Trial Rerun is a top-three talent; gives speedrun more time to kill more bosses before sampling at the end,yes,3
+00:03:40,00:04:12,characters,talent Void Radius,voidwalker,priority,any,,Void Radius is where sampling takes a huge spike and is a top-three talent,yes,3
+00:04:12,00:04:12,characters,talent Void Radius,voidwalker,mechanic,any,multikill_per_tier=1460;duration_s=20,Void Radius gives 1460% more multi-kill per tier for 20 seconds during the speedrun giving huge sample sizes,yes,3
+00:04:12,00:04:12,characters,talent Void Radius timing,voidwalker,how_to,any,,Use Void Radius at the very end of the speedrun after bosses are killed,yes,3
+00:04:12,00:04:45,characters|bubbles,Bossing Vain,voidwalker,mechanic,any,amarok=40;efaunt=84;chizoar=126,Bossing Vain mob respawn grows with kills: Amarok 40% Efaunt 84% Chizoar 126%,yes,3
+00:04:45,00:04:45,speedrun|printer,strategy,voidwalker,how_to,any,void_radius_duration_s=20,Get through bosses quickly then use the 20 seconds of Void Radius to get good samples,yes,3
+00:04:45,00:05:16,characters,priority damage multikill,voidwalker,priority,any,,Damage and multi-kill remain higher priority than AFK gain rate since more bosses killed is better,yes,3
+00:04:45,00:05:16,characters,talent Master of the System,voidwalker,priority,any,,After the first three talents max Master of the System for more multi-kill per tier,yes,3
+00:05:16,00:05:16,characters,talent Master of the System,voidwalker,mechanic,any,,Better speedrun high score gives more multi-kill per tier from Master of the System,yes,3
+00:05:16,00:05:16,characters|statues,talent Voodoo Statufication,voidwalker,priority,any,,Next Voodoo Statufication boosts statues improving movement speed and Feasty statue effect and damage,yes,3
+00:05:16,00:05:47,characters,talent Eternal LUK,voidwalker,priority,any,,Eternal LUK is next for more damage from LUK; everything else is optional,yes,3
+00:05:47,00:05:47,characters,talents Quad Jab and Power Orb,voidwalker,priority,any,,Quad Jab then Power Orb are about equal priority depending on damage and need to one-shot each mob,yes,3
+00:05:47,00:06:21,characters,star talents,voidwalker,priority,any,,Star talents: Tick Tock and Attack on Simmer give AFK gain rate which affects sample size so put points in,yes,3
+00:06:21,00:06:21,characters,star talents,voidwalker,setup,any,,Everything else in star talents is normal damage setup,yes,3
+00:06:21,00:06:54,printer|characters,Printer Sampling star talent,voidwalker,priority,any,sampling_rate_cap_a=90;sampling_rate_cap_b=95,Get as much printer sampling rate as possible and cap 90% or 95%; see Printer Go Brrr guide,yes,3
+00:06:54,00:06:54,printer,sampling rate,voidwalker,warning,any,,If sample rate is not maxed you are hurting yourself overall,yes,3
+00:06:54,00:06:54,characters,star talent Frothy Malk,voidwalker,setup,any,,Frothy Malk gives a good bonus to boost foods for more damage and movement speed,yes,3
+00:06:54,00:07:27,cards,card priorities,voidwalker,priority,any,,Card priorities: total damage then multi-kill per tier then fight AFK gain rate; card doubler on fight AFK gain,yes,3
+00:07:27,00:07:27,cards,card sets,voidwalker,setup,any,,Use Bosses and Nightmares card sets for damage,yes,3
+00:07:27,00:07:27,cards,Smoldering Plateau,voidwalker,how_to,any,bosses_cleared=3,If you can comfortably clear at least three bosses consider Smoldering Plateau for fight AFK gain rate,yes,3
+00:07:27,00:08:02,characters,star sign,voidwalker,setup,any,fight_afk_gain=4,Star sign priority is AFK gain rate; unlike speedrun skip The Overachiever due to AFK penalty and take 4% fight AFK gain,yes,3
+00:08:02,00:08:33,characters,star sign,voidwalker,setup,any,total_damage_a=6;total_damage_b=20;multikill_flat=15,Take 6% and 20% total damage star signs since movement speed is capped; flat 15% multi-kill not worth it,yes,3
+00:08:33,00:08:33,bubbles,Kill per Kill,voidwalker,priority,any,,Top large bubble Kill per Kill opens more portals so farther in speedrun,yes,3
+00:08:33,00:08:33,bubbles,Mr Massacre,voidwalker,priority,any,,Next Mr Massacre for more multi-kill helps portals and sampling,yes,3
+00:08:33,00:09:06,bubbles|divinity,Big P,,priority,any,,Use the Big P bubble on all characters because it boosts AFK gain rate through divinity minor link,yes,3
+00:09:06,00:09:06,buildings,post office damaged box,voidwalker,priority,any,,Post office: Damaged Boxes give more damage,yes,3
+00:09:06,00:09:06,buildings,post office health box,voidwalker,priority,any,,Health Box gives faster mob respawn rate for better samples,yes,3
+00:09:06,00:09:37,buildings,post office mana box,voidwalker,priority,any,,Mana Box gives faster cooldowns important for Void Radius cooldown to be as low as possible,yes,3
+00:09:37,00:09:37,buildings,post office loot box,voidwalker,priority,any,,Non-Predatory Loot Box gives drop rarity and LUK,yes,3
+00:09:37,00:09:37,buildings,post office food and utility box,voidwalker,priority,any,,Food box helps boost food effects and Utility Box gives multi-kill per tier and printer sample size,yes,3
+00:09:37,00:10:07,buildings,post office,voidwalker,priority,any,,Get as many boxes as possible maxing damage and multi-kill and printer sample size,yes,3
+00:10:07,00:10:07,prayers,Royal Sampler,voidwalker,priority,any,,Royal Sampler prayer gives more sample size and is needed,yes,3
+00:10:07,00:10:07,prayers,Zerg Rushogen,voidwalker,priority,any,,Zerg Rushogen prayer gives more AFK gain rate for better samples,yes,3
+00:10:07,00:10:38,prayers,Balance of Pain,voidwalker,priority,any,,Balance of Pain gives more multi-kill per damage tier and is important for getting through speedruns,yes,3
+00:10:38,00:10:38,lab,card doubler chips,voidwalker,priority,any,,Card Doubler chips are first priority to multiply damage or fight AFK gain or multi-kill per tier cards,yes,3
+00:10:38,00:11:10,lab,fight AFK gain chip,voidwalker,priority,any,,Next priority fight AFK gain rate chip but only one can be used,yes,3
+00:10:38,00:11:10,lab,doubling chips,voidwalker,priority,any,,Use at least one of the doubling chips,yes,3
+00:11:10,00:11:10,lab,pendant chip,voidwalker,setup,any,,Uses Pendant doubling chip for damage and mob respawn; alternatives keychain chip or star sign chip,yes,3
+00:11:10,00:11:41,lab,multikill chips,voidwalker,opinion,any,chip_bonus_per_tier=15;chips_used=3,Multi-kill per damage tier chips are most important at 15% per tier; uses three and would use more with slots,yes,3
+00:11:41,00:11:41,lab,multikill chips,voidwalker,account_note,any,chips_used=3;total_multikill=45,Three multi-kill chips give 45% more multi-kill per tier,yes,3
+00:11:41,00:12:13,divinity|printer,unlinking gods,voidwalker,blocker,any,,Time gate for best printer sampling is waiting to unlink different gods,yes,3
+00:11:41,00:12:13,divinity,Snake God,voidwalker,priority,any,all_activities=30,Voidwalker first choice is AFK gain Snake God giving 30% to all activities for printer sampling,yes,3
+00:12:13,00:12:45,divinity,Nobisect,voidwalker,how_to,any,,Use Nobisect instead if stuck near killing the third boss or lacking time to reach sampling for more kills,yes,3
+00:12:45,00:12:45,divinity,Nobisect vs Snake,voidwalker,comparison,any,,Killing another boss via Nobisect and Snake AFK gain are roughly equivalent in gains so both viable,yes,2
+00:12:45,00:13:17,divinity,link bonuses Goat God,,setup,any,other_characters=9,Ideal setup is Goat God linked on nine other characters; he has only eight due to a misclick,yes,3
+00:13:17,00:13:17,divinity,Goat God link,,mechanic,any,afk_per_character=2-3;big_p_bonus=26,Each Goat-linked character gives another 2-3% AFK gain on all characters with Big P adding 26% to minor link bonus,yes,3
+00:13:17,00:13:47,divinity,Goat God total,,mechanic,any,characters=9;afk_total=30,Nine characters with Goat God gives about 30% overall AFK gain rate,yes,3
+00:13:47,00:14:17,divinity,Goat plus Snake,voidwalker,mechanic,any,total_afk=60,Goat on nine characters plus Snake on Voidwalker totals 60% more AFK gain rates,yes,3
+00:13:47,00:14:17,divinity,minor link bonus level,,warning,any,low_value=1,Minor link bonus depends on divinity level; may be as low as about 1% if not leveled,yes,3
+00:14:17,00:14:50,printer|speedrun,guides,voidwalker,meta_change,any,,Other bonuses covered in Voidwalker speedrun guide and Printer Go Brrr guide for sampling rate,yes,3
+00:14:17,00:14:50,printer,sample list,voidwalker,how_to,any,mobs_to_sample=10,Before starting decide the 10 mobs to sample and keep a list since you are time limited,yes,3
+00:14:50,00:14:50,printer|speedrun,sampling time,voidwalker,mechanic,any,time_s=20;samples_per_window=3-4,Only 20 seconds to teleport and grab samples so around three to four samples per window,yes,3
+00:14:50,00:15:20,printer|speedrun,sampling list,voidwalker,warning,any,runs=10,Without a list you will need around 10 runs to get your samples done,yes,3
+00:14:50,00:15:20,speedrun,early run,voidwalker,how_to,any,,Get through portals to the first boss as quickly as possible,yes,3
+00:15:20,00:15:20,speedrun,teleports,voidwalker,how_to,any,,Ignore extra portals; use teleports to skip through maps as soon as you hit a mob and use auto kill to save time,yes,3
+00:15:20,00:15:54,speedrun,Wode Boards boss,voidwalker,how_to,any,,At Wode Boards after hitting one turn off auto and head to the boss fight,yes,3
+00:15:54,00:15:54,speedrun,Void Radius use,voidwalker,how_to,any,,After killing the boss exit portal and use Void Radius before teleporting to the next map,yes,3
+00:15:54,00:16:26,speedrun,Gigafrogs,voidwalker,skip,any,,No need to teleport to Gigafrogs there; it was a mistake,yes,3
+00:16:26,00:16:26,speedrun,portal popup,voidwalker,how_to,any,,On Mafiosos just look for the portal popup then teleport again,yes,3
+00:16:26,00:16:56,speedrun,Void Radius,voidwalker,how_to,any,,Do not use Void Radius on a mob nearly done; use it on Pincermen,yes,3
+00:16:56,00:16:56,speedrun,Void Radius timing,voidwalker,how_to,any,,Save Void Radius for Sand Giants since that map takes a while; use it there and teleport to Snelbies,yes,3
+00:16:56,00:17:29,speedrun,Snelbies,voidwalker,how_to,any,,One kill at Snelbies then turn off auto and head to boss door,yes,3
+00:17:29,00:17:29,speedrun,boss fight arms,voidwalker,how_to,any,,In the boss fight use abilities properly; fight the first three arms quickly,yes,2
+00:17:29,00:18:00,speedrun,Coin Toss,voidwalker,how_to,any,,On the platform use Coin Toss straight up to kill all three arms then go into World 3,yes,3
+00:18:00,00:18:00,speedrun,Sheepie map,voidwalker,how_to,any,,Sheepie map is easy so do not waste Void Radius there; teleport to Sir Staches to maximize Void Radius,yes,3
+00:18:00,00:18:32,speedrun,World 3 goal,voidwalker,priority,early,,Goal is to get into World 3 for the best mob respawn early game,yes,3
+00:18:00,00:18:32,speedrun,Chizoar,voidwalker,how_to,late,,With enough multi-kill across all worlds you can push for Chizoar as well,yes,3
+00:18:32,00:19:06,speedrun|printer,when to sample,voidwalker,how_to,any,,When about a quarter of the way down and not close to Chizoar start sampling; use the remaining time,yes,3
+00:19:06,00:19:06,speedrun,Void Radius Tundra,voidwalker,how_to,any,,Save Void Radius or use as soon as you enter Rolling Tundra; with only four mobs it is not helpful,yes,2
+00:19:06,00:19:41,printer|speedrun,sampling start,voidwalker,how_to,any,,Start sampling when you cannot reach Chizoar; here he starts sampling starting with Gigafrogs,yes,2
+00:19:41,00:20:12,printer|speedrun,sampling Bullfrog Horn,voidwalker,how_to,any,,Samples Bullfrog Horn then Void Radius time runs out so back to pushing,yes,2
+00:20:12,00:20:42,printer|speedrun,sampling route,voidwalker,how_to,any,,Teleport to Beans in World 1 for sample then Snakes then Mimics then back to World 3 Thermisters,yes,2
+00:20:42,00:21:15,printer|speedrun,sampling route,voidwalker,how_to,any,,Sample Mamooths then Sheepies and Snow Balls; not enough time for Chizoar so sample other things,yes,2
+00:21:15,00:21:15,characters,improve damage,voidwalker,priority,any,,Biggest improvement is increasing damage for example upgrading gloves for more benefit from multi-kill per tier,yes,3
+00:21:15,00:21:47,death_note|characters,improve Death Note,voidwalker,priority,any,,Second priority is upgrading Death Note and anything giving multi-kill per tier,yes,3
+00:21:47,00:21:47,speedrun|printer,extra boss,voidwalker,mechanic,any,mob_respawn=40;sample_gain=10-15,Each extra boss killed gives extra 40% mob respawn increasing samples by another 10-15%,yes,3
+00:21:47,00:22:19,speedrun|printer,after Chizoar sampling,voidwalker,how_to,late,,One or two sampling sessions after killing Chizoar gives pretty big gains,yes,3
+00:21:47,00:22:19,printer,sample result,voidwalker,account_note,any,bullfrog_before=7000;bullfrog_after=650000,Bullfrog sample went from 7K before the speedrun to 650K after,yes,3
+00:22:19,00:22:19,printer|speedrun,sample gain,voidwalker,account_note,any,gain=100;bullfrog_potential=700000,Almost 100x gain with two bosses killed; third boss would push it to actual 100x or over 700K,yes,3
+00:22:19,00:22:52,printer|divinity,Snow Balls god bonus,voidwalker,account_note,any,snowballs_before=300000,Snow Balls were 300K before he had gods set up,yes,3
+00:22:52,00:22:52,printer|divinity,god bonuses,voidwalker,account_note,any,afk_bonus=60;snowballs_gain_per_hour=200000,Goat and Snake bonuses 60% AFK gain gave another 200K Snow Balls per hour,yes,3
+00:22:52,00:22:52,printer,sample results,voidwalker,account_note,any,sheepies=600000;beans=1300000,Other samples: 600K Sheepies and 1.3 million Beans; Spore Caps did not change much,yes,3

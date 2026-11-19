@@ -1,0 +1,117 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+ngC28VobGpE,nocturne,2022-11-17,00:00:00,00:00:00,general,,catching efficiency,,priority,any,,Catching Efficiency is the primary catching stat; more is better since it raises bug catch chance and later Multi-Bug Chance.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:00:00,00:00:31,general,,catching speed,,priority,w3,,Do not focus Catching Speed early; it matters around World 3 once 3D Printer Sampling unlocks.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:00:31,00:00:31,printer,world-3/printer,sample size,,mechanic,w3,,Catching Speed increases overall 3D Printer sample size once Sampling is unlocked.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:00:31,00:00:31,general,,multi-bug chance,,priority,late,,Multi-Bug Chance is a later-game stat; more increases overall catching gains.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:00:31,00:00:31,general,,afk info,,how_to,any,,Use the AFK Info window to see bugs per hour and EXP per hour; Efficiency Requirement at the bottom is most important.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:01:05,00:01:05,general,,efficiency requirement,,mechanic,any,,Each bug has a different Efficiency Requirement shown at the bottom of the AFK Info window.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:01:05,00:01:05,general,,efficiency requirement,,threshold,any,efficiency=62500;catch_chance=5%,At 62.5K efficiency he has only a 5% chance to catch that particular bug.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:01:05,00:01:05,general,,efficiency requirement,,threshold,any,efficiency=2500000;catch_chance=100%,At 2.5 million efficiency he has a 100% catch chance on that bug.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:01:05,00:01:36,general,,efficiency requirement,,mechanic,any,,The bar has two phases: first shows percent catch chance; exceeding it unlocks the next bar.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:01:36,00:01:36,general,,efficiency requirement,,threshold,any,efficiency=19500000;quantity=2x,Reaching 19.5 million efficiency raises quantity per drop to 2x which increases multi-bug output.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:02:06,00:02:06,general,,efficiency requirement,,mechanic,any,,Efficiency determines overall bugs per hour.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:02:06,00:02:06,anvil,world-1/anvil,sleek coif,,setup,any,catching_efficiency=10%;anvil_tab=2,Sleek Coif helmet gives 10% Catching Efficiency; crafted in Anvil Tab 2.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:02:06,00:02:06,anvil,world-1/anvil,feral leatherings,,setup,any,catching_efficiency=10%;anvil_tab=2,Feral Leatherings give 10% Catching Efficiency; crafted in Anvil Tab 2.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:02:06,00:02:36,anvil,world-1/anvil,bandito pantaloons,,setup,any,catching_efficiency=12%;anvil_tab=1,Bandito Pantaloons give 12% Catching Efficiency; crafted in Anvil Tab 1.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:02:36,00:02:36,anvil,world-1/anvil,boots,,setup,any,catching_efficiency=35%;anvil_tab=4,Unnamed boots give 35% Catching Efficiency; crafted in Anvil Tab 4.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:02:36,00:02:36,anvil,world-1/anvil,boots,,priority,early,catching_efficiency=20%;anvil_tab=2,Boots from Anvil Tab 2 give 20% Catching Efficiency; make them as soon as possible.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:02:36,00:03:07,dungeons,account/misc/dungeons,flurbo shop,,setup,late,skill_afk_gain=15%,Persephone's Bouquet gives 15% Skill AFK Gain Rate; bought from Flurbo Shop for many Flurbos so likely later.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:03:07,00:03:07,dungeons,account/misc/dungeons,flurbo shop,,setup,late,skill_efficiency=8%,Serrated Rex Ring upgraded from Flurbo Shop Rex Ring gives 8% Skill Efficiency per ring.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:03:07,00:03:07,anvil,world-1/anvil,serrated rex ring,,mechanic,late,,Crafting the Serrated Rex Ring needs a recipe drop from Baba Yaga.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:03:37,00:03:37,gem_shop,account/prem-currency/gem-shop,premium helmet,,setup,any,,Use any premium helmet or ring that gives an Agility boost; more Agility gives more Catching Efficiency.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:03:37,00:03:37,general,,trinkets,,setup,any,,Use trinkets or keychains with All AFK Gain Rates; Skill AFK Gain Rate; Skill Speed; or percent Agility.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:04:08,00:04:41,anvil,world-1/anvil,tools,,priority,any,,Craft the best net possible; mind material cost and do not over-craft past level requirement.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:04:08,00:04:08,anvil,world-1/anvil,net,,mechanic,any,,Catching Power from the net is one of the highest bonuses to Catching Efficiency.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:04:08,00:04:41,anvil,world-1/anvil,upgrade slots,,priority,any,,Use tool Upgrade Slots with the latest World 4 or better Upgrade Stones to increase Catching Power.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:04:41,00:04:41,general,,food,,setup,any,,Golden Ham gives a Skill EXP boost.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:04:41,00:04:41,general,,food,,setup,any,,Mistleberries and Buttered Toasted Butter increase Catching Speed.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:05:14,00:05:14,general,,food,,skip,any,,Mistleberries are an event item; do not use unless going for a better sample since they are consumed quickly.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:05:14,00:05:14,general,,food,,warning,any,,Buttered Toasted Butter is crafted and consumed quickly; make sure you have resources to keep up.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:05:14,00:05:14,talent_points,,class choice,bowman,priority,any,,Play a Bowman for catching since it has all the good talents; other classes with Focus and Agility do decently.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:05:48,00:05:48,talent_points,,elusive efficiency,bowman,priority,any,tab=1,Tab 1 first priority is Elusive Efficiency for more Total Efficiency in specialized skills.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:05:48,00:05:48,talent_points,,quickness boots,bowman,priority,any,tab=1,Next take Quickness Boots for more Agility which raises Catching Efficiency.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:05:48,00:05:48,talent_points,,broken time,bowman,opinion,any,tab=1,Everything else on tab 1 is optional but recommends Broken Time for production like Smithing and Alchemy.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:05:48,00:06:20,talent_points,,agility talents,bowman,priority,any,tab=2,Tab 2 priority is points that give more Agility.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:06:20,00:06:20,talent_points,,garb of un'agi'ng quality,bowman,priority,any,tab=2,Garb of Un'AGI'ng Quality gives more Agility from equipment.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:06:20,00:06:20,talent_points,,sanic speed,bowman,priority,any,tab=2,Sanic Speed gives more base Agility.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:06:20,00:06:20,talent_points,,focus soul,bowman,opinion,any,tab=2,Focus Soul gives EXP gain for specialized skills; bottom-row Smithing efficiency talents are optional.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:06:20,00:06:50,talent_points,,tab 3,bowman,priority,any,tab=3,Tab 3 gives most of the big benefits; starting with the four talents at the bottom.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:06:50,00:06:50,talent_points,,teleki'net'ic logs,bowman,priority,any,tab=3,Teleki'NET'ic Logs gives Catching Efficiency based on Oak Logs in storage.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:06:50,00:06:50,talent_points,,briar patch runner,bowman,priority,any,tab=3,Briar Patch Runner gives Catching Efficiency based on your Agility.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:06:50,00:06:50,talent_points,,bug enthusiast,bowman,warning,any,tab=3,Bug Enthusiast gives Catching EXP but be careful not to out-level your Maestro.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:06:50,00:07:23,talent_points,,sunset on the hives,bowman,priority,any,tab=3,Sunset on the Hives gives more AFK Gain Rate while catching.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:07:23,00:07:23,talent_points,,agi again,bowman,priority,any,tab=3,AGI Again for more max talent levels for Quickness Boots on Tab 1.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:07:23,00:07:23,talent_points,,swifty statues,bowman,priority,any,tab=3,Swifty Statues boosts Old Reliable Statue; more Catching Power from it is a good boost.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:07:23,00:07:54,talent_points,,shoeful of obols,bowman,opinion,any,tab=3,Shoeful of Obols boosts Agility but only a very small amount; do not prioritize.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:07:54,00:07:54,talent_points,,symbols of beyond,bowman,opinion,any,tab=4,Tab 4 has little; Symbols of Beyond gives more talent points to other talents with at least one point.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:07:54,00:07:54,talent_points,,adaptation revelation,bowman,priority,any,tab=4,Adaptation Revelation gives more Agility and Quickness Boots talent levels.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:07:54,00:08:27,talent_points,,unnamed talent,bowman,priority,any,tab=4;skill_efficiency_from_agility=34%,An unpronounced talent gives 34% more Skill Efficiency from Agility.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:08:27,00:08:27,talent_points,,the family guy,bowman,opinion,any,tab=4,The Family Guy bonuses are small but usable if you have nothing else to spend points on.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:08:27,00:08:27,talent_points,,tick tock,bowman,priority,any,star_talent_tab=1,First Star Talent priority is Tick Tock for more AFK Gain Rates.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:08:27,00:08:59,talent_points,,toilet paper postage,bowman,priority,any,star_talent_tab=1,Toilet Paper Postage is another to invest in.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:08:59,00:08:59,stamps,world-1/stamps,toilet paper postage,,mechanic,any,,Toilet Paper Postage value depends on having good enough World 1 Stamps.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:08:59,00:08:59,talent_points,,will of the eldest,bowman,priority,any,agility_gain=20,A few points into Will of the Eldest for base stats including Agility; gives him 20 Agility.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:08:59,00:08:59,talent_points,,super source,bowman,priority,any,star_talent_tab=2,Star Talent Tab 2 priority: Super Source for more base Efficiency in skills.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:08:59,00:09:30,talent_points,,action frenzy,bowman,priority,any,star_talent_tab=2,Action Frenzy gives more Skill Speed for all skills.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:09:30,00:09:30,talent_points,,frothy malk,bowman,opinion,any,,Frothy Malk gives bonuses to speed foods.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:09:30,00:09:30,talent_points,,star talents,bowman,opinion,any,shrine_architect_points=1,Also puts points into Telekinetic Storage and Printer Sampling and one point into Shrine Architect.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:09:30,00:09:30,constellations,account/misc/constellations,shoe fly,,priority,any,,Always have Shoe Fly star sign for Catching Efficiency and Multi-Bug Chance.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:09:30,00:10:02,constellations,account/misc/constellations,the og skiller,,priority,any,points=1,Put one into The OG Skiller for Skill AFK Gain Rate and Skill Prowess effect.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:10:02,00:10:02,constellations,account/misc/constellations,the big comatose,,priority,any,,The Big Comatose gives more Skill AFK Gain Rate.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:10:02,00:10:02,constellations,account/misc/constellations,the comatose major,,priority,any,,The Comatose Major on Hydron tab gives more Skill AFK Gain Rate.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:10:02,00:10:02,constellations,account/misc/constellations,agi star sign,,priority,any,agility=3%,If you lack the AFK-gain star signs use the AGI one for 3% more Agility.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:10:02,00:10:32,cards,,chaotic troll,,priority,any,,Chaotic Troll card gives more All Skill Efficiency.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:10:32,00:10:32,cards,,amarok,,priority,any,,Amarok card gives more AFK Gain Rate for all skills.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:10:32,00:10:32,cards,,catching cards,,priority,any,,Skill-specific cards: Fairies for Catching Speed; Bumblebee for Total Catching Efficiency.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:10:32,00:10:32,cards,,catching cards,,priority,any,,Flycicle gives Catching AFK Gain Rate; Mosquisnow gives Total Catching Efficiency.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:10:32,00:11:03,cards,,my fruitflies,,priority,any,stars=1,My FruitFlies at one star is pitiful but gives Catching AFK Gain Rate.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:11:03,00:11:03,cards,,butterflies,,priority,any,,Butterflies gives more Total Catching Efficiency.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:11:03,00:11:03,cards,,card set,,priority,any,,Use Hard Resources set for Skill AFK Gain Rate or Easy Resources set for more Skill Efficiency.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:11:03,00:11:03,stamps,world-1/stamps,catch net stamp,,priority,w1,,Catch Net Stamp gives base Catching Efficiency.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:11:03,00:11:03,stamps,world-1/stamps,fly intel stamp,,priority,w1,,Fly Intel Stamp gives Catching EXP Gain Rate.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:11:35,00:11:35,stamps,world-1/stamps,bugsack stamp,,priority,w1,,Bugsack Stamp gives carry capacity.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:11:35,00:11:35,stamps,world-1/stamps,buzz stamp,,priority,w1,,Buzz Stamp gives Multi-Bug Chance.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:11:35,00:11:35,stamps,world-1/stamps,agile stamp,,priority,w1,,Agile Stamp and Hermes Stamp in combat tab give base Agility.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:11:35,00:12:05,statues,,feasty statue,,priority,w1,,Feasty Statue gives more food effect.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:12:05,00:12:05,statues,,old reliable statue,,priority,w1,,Old Reliable Statue gives more Catching Power.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:12:05,00:12:05,statues,,golden statues,,priority,any,,Grab Golden Statues since they make statues account-wide so character spent on doesn't matter.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:12:05,00:12:36,bubbles,world-2/bubbles,swift steppin,,priority,w2,,Swift Steppin bubble gives more Total Agility.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:12:36,00:12:36,bubbles,world-2/bubbles,archer or bust,archer,priority,w2,,Archer Or Bust about doubles his small passive bubbles but only while online on an Archer-based character.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:12:36,00:12:36,bubbles,world-2/bubbles,archer or bust,bowman,warning,w2,,Archer Or Bust inactive on a Warrior; useful when actively playing Bowman or Hunter.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:12:36,00:13:07,bubbles,world-2/bubbles,sanic tools,,priority,w2,,Sanic Tools gives more skilling power from catching nets.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:13:07,00:13:07,bubbles,world-2/bubbles,bug squared,,priority,w2,,Bug Squared gives Multi-Bug Chance; it is a larger bubble so equip it on the right-hand side.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:13:07,00:13:07,bubbles,world-2/bubbles,permigreen,,priority,w2,,Permigreen gives a multiplier to certain bubbles; good for Bubble Number One which gives Agility.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:13:07,00:13:37,bubbles,world-2/bubbles,fly in mind,,priority,w2,,Fly in Mind gives more catching AFK Gain Rate.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:13:37,00:13:37,vials,world-2/vials,ew gross,,priority,w2,,Ew Gross vial gives a big bonus to Total Catching Efficiency.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:13:37,00:13:37,general,,post_office; bug hunting supplies,,priority,w2,,Bug Hunting Supplies box gives Catching Efficiency; Prowess Effect; and Catching AFK Gain Rate.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:13:37,00:14:08,general,,prowess effect,,mechanic,late,,Prowess Effect is important later; it reduces the Catching Efficiency needed for the next multiplier.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:14:08,00:14:08,general,,prowess effect,,mechanic,late,requirement=19.5M;reduced=18M,Example: with enough Prowess the 2x requirement of 19.5 (said billion) million could be 18 million.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:14:08,00:14:08,general,,post_office; myriad crate,,priority,w2,,Myriad Crate gives base stats; base efficiency; and all skill EXP gain rate.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:14:08,00:14:08,general,,post_office; utilitarian capsule,,priority,w2,,Utilitarian Capsule gives a larger Printer sample size.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:14:08,00:14:41,money,,obols,,priority,w2,,Get as many Catching Power obols as possible; they also give Agility.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:14:41,00:14:41,money,,obols,,priority,w2,,If short on Catching Power obols use Agility-only obols for a small Catching Efficiency boost.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:14:41,00:15:15,money,,obols,,account_note,w2,agility=70,Agility from obols is small; even with talents he gets only about 70 Agility.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:15:15,00:15:15,prayers,world-3/prayers,skilled dimwit,,priority,w3,,Skilled Dimwit prayer at Prayer Obelisk gives big Skill Efficiency but large Skill EXP penalty.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:15:15,00:15:15,prayers,world-3/prayers,balance of proficiency,maestro,comparison,w3,,Balance of Proficiency gives more skill EXP at cost of efficiency; useful for Maestro class.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:15:15,00:15:45,prayers,world-3/prayers,royal sampler,,priority,w3,,Royal Sampler increases 3D Printer sample size.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:15:45,00:15:45,prayers,world-3/prayers,royal sampler,,warning,w3,,Royal Sampler gives an EXP penalty removable only by removing all active or equipped samples.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:15:45,00:16:15,cooking,world-4/cooking,corn,,priority,w4,,Dinner Menu Corn gives a large Skill Efficiency benefit.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:15:45,00:16:15,cooking,world-4/cooking,rice ball,,priority,w4,,Rice Ball gives another Skill Efficiency boost.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:16:15,00:16:15,cooking,world-4/cooking,leek,,priority,w4,,Leek gives a large Skilling Prowess Effect boost.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:16:15,00:16:15,lab,world-4/laboratory,certified stamp book,,priority,w4,,Certified Stamp Book doubles all bonuses from Stamps.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:16:15,00:16:45,lab,world-4/laboratory,my 1st chemistry set,,priority,w4,,My 1st Chemistry Set doubles all bonuses from Vials and Alchemy.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:16:45,00:16:45,lab,world-4/laboratory,emerald navette,,priority,w4,,Emerald Navette gives Base Efficiency and Skill Action Speed.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:16:45,00:16:45,lab,world-4/laboratory,emerald navette,,mechanic,w4,jewels=5,Emerald Navette bonus applies twice if all five green jewels are activated.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:16:45,00:16:45,lab,world-4/laboratory,black diamond rhinestone,,priority,w4,,Black Diamond Rhinestone boosts Dinner Menu so Corn and Rice Ball give more skilling efficiency.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:16:45,00:16:45,cooking,world-4/cooking,black diamond rhinestone,,priority,w4,,Black Diamond Rhinestone boosts Dinner Menu so Corn and Rice Ball give more skilling efficiency.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:16:45,00:17:15,lab,world-4/laboratory,chips,,priority,w4,,Console chips: Red chip in middle of second row gives more Total Skill Efficiency for all skills.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:17:15,00:17:15,lab,world-4/laboratory,spread shift,,priority,w4,base_efficiency=250,Spread Shift chip on far right of second row gives plus 250 Base Efficiency for all skills.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:17:15,00:17:45,lab,world-4/laboratory,orange chips,,priority,w4,,Three orange bottom-row chips double a misc bonus on trophy; upper keychain slot; and pendant.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:17:45,00:17:45,lab,world-4/laboratory,gray chips,,mechanic,w4,,Gray chips on bottom corners double the bonus of a specific card slot.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:17:45,00:18:17,lab,world-4/laboratory,gray chips,,setup,w4,efficiency=50%,Use gray chips with Chaotic Troll which gives 50% more All Skill Efficiency.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:17:45,00:18:17,cards,,gray chips,,setup,w4,efficiency=50%,Use gray chips with Chaotic Troll which gives 50% more All Skill Efficiency.,yes,2
+ngC28VobGpE,nocturne,2022-11-17,00:18:17,00:18:17,lab,world-4/laboratory,gray chips,,setup,w4,,Alternatively use gray chip on Amarok for more Skill AFK Gain Rate.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:18:17,00:18:17,cards,,gray chips,,setup,w4,,Alternatively use gray chip on Amarok for more Skill AFK Gain Rate.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:18:17,00:18:17,talent_points,,right hand of action,maestro,priority,any,,Maestro Right Hand of Action gives a very large Skill Efficiency bonus to other characters.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:18:17,00:18:50,talent_points,,right hand of action,maestro,mechanic,any,maestro_catching=44;bowman_catching=46,Right Hand of Action only works if Maestro skill level is higher than the other character; his Maestro is 44 and Bowman 46.,yes,3
+ngC28VobGpE,nocturne,2022-11-17,00:18:50,00:18:50,talent_points,,right hand of action,maestro,target,any,skill_efficiency=75%,Raising Maestro catching above Bowman gives a 75% Skill Efficiency bonus to the Bowman.,yes,3

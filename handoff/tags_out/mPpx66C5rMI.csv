@@ -1,0 +1,83 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,traps,trapping efficiency,,mechanic,any,,Trapping Efficiency increases the amount of critters you get across all maps,yes,3
+00:00:00,00:00:30,traps,shiny critter chance,,mechanic,any,,Shiny Critter Chance raises shiny critter odds and is only shown in the trap interface when placing or collecting traps,yes,3
+00:00:30,00:00:30,quests|traps,lord of the hunt,,how_to,early,,Unlock trapping via Lord of the Hunt quests in Trapper's Folly in World 3 Frostbite Tundra,yes,3
+00:00:30,00:00:30,quests|traps,lord of the hunt quest 1,,how_to,early,shrapshells=10;snake_skins=12;cardboard_trap=1,"Quest 1: 10 Shrapshells from Snelbies, 12 Snake Skins from Baby Boas, and buy 1 Cardboard Trap from the W3 vendor",yes,3
+00:00:30,00:01:00,quests|traps,lord of the hunt quest 2,,how_to,early,froges=100;poison_froge=1,Quest 2 needs 100 Froges and 1 Poison Froge; this is the start of trapping,yes,3
+00:01:00,00:01:00,traps,critter unlock,,mechanic,any,,Completing a critter's quest lets you trap that critter across all your characters,yes,3
+00:01:00,00:01:00,quests|traps,lord of the hunt,,mechanic,any,,Other Lord of the Hunt quests are required to access new trapping areas with different critters,yes,3
+00:01:00,00:01:00,traps,cardboard trap,,mechanic,early,traps_at_once=1,Early on you only have Cardboard Traps and are limited to 1 trap at a time,yes,3
+00:01:00,00:01:00,traps|bubbles,trap count,,mechanic,early,traps_at_once=2,Trap limit can be upgraded to 2 using Alchemy,yes,3
+00:01:00,00:01:34,traps,placing,,how_to,early,,Navigate to the map you want to catch critters on to place a trap,yes,3
+00:01:34,00:01:34,traps,froge location,,afk_spot,early,,Froges are located in the Jungle Perimeter in World 1,yes,3
+00:01:34,00:01:34,traps,place trap menu,,how_to,any,,Click Place Trap in the top left corner to open the menu,yes,3
+00:01:34,00:01:34,traps,trap tier selector,,mechanic,any,,Arrows at the top select the trap tier; you can use your tier trap and any lower tier,yes,3
+00:01:34,00:02:07,traps,trap placement,,mechanic,any,,Traps are placed individually so you can have traps on different critters (Froges then Crabbos) collecting simultaneously,yes,3
+00:02:07,00:02:07,traps,rewards box,,mechanic,any,,Rewards box shows how many critters and how much EXP you will gain,yes,3
+00:02:07,00:02:37,traps,timers,,mechanic,any,,Each timer has different quantity and EXP multipliers; longer timers give lower EXP bonus but sometimes higher quantity,yes,3
+00:02:37,00:02:37,traps,timers,,warning,any,,Select a time you can actually collect the trap at so it does not sit completed wasting time,yes,3
+00:02:37,00:02:37,traps,silkskin boxes,,mechanic,any,,Silkskin Boxes give a Shiny Bonus multiplier instead of the EXP multiplier: more shinies but less EXP,yes,3
+00:02:37,00:03:07,traps,bonus critters from efficiency,,mechanic,any,,Bonus Critters from Efficiency at the bottom grows as your efficiency increases,yes,3
+00:03:07,00:03:38,traps,higher tier timers,,mechanic,mid,timer_min_hours=3;timer_max_days=5,Higher level traps drop the 20 minute timers; timers start at 3 hours and go up to 5 days for more EXP or quantity,yes,3
+00:03:38,00:03:38,traps,placing,,how_to,any,traps_per_platform=8,Double click the timer to place a box trap; step aside and repeat; you can fit 6 or even 8 traps along the platform,yes,3
+00:03:38,00:04:09,traps,trap info,,mechanic,any,,Clicking a trap shows critters you will receive shiny chance and remaining time,yes,3
+00:04:09,00:04:09,traps,collecting,,mechanic,any,,Manually collected traps must be manually placed again,yes,3
+00:04:09,00:04:41,traps,multiple characters,,how_to,any,,Place traps on all your characters in any location; all on one critter or spread out,yes,3
+00:04:41,00:05:11,construction|traps,trapper drone,,how_to,mid,,Trapper Drone is unlocked via the Construction Workbench in W3; lets you place and collect traps remotely; one of the best recent features,yes,3
+00:05:11,00:05:11,construction|traps,trapper drone,,mechanic,mid,,Drone menu can collect all traps (same menu as Eagle Eye) and delete all traps for that character,yes,3
+00:05:11,00:05:45,traps,eagle eye,hunter,mechanic,any,,Eagle Eye is a Tab 3 Hunter talent assignable to attack bar; shows all traps across characters with timers and collect all,yes,3
+00:05:45,00:05:45,traps,eagle eye,hunter,mechanic,any,,Eagle Eye collect all gives critters from all traps and automatically replaces them in the same location,yes,3
+00:05:45,00:06:15,traps,snapshot,,warning,any,,Placing a trap snapshots EXP critter gain and shiny chance so use all bonuses before placing,yes,3
+00:05:45,00:06:15,traps,afk,,how_to,any,,After placing traps you can return to combat resets or other activities,yes,3
+00:06:15,00:06:15,traps,snapshot,,warning,any,,After a large efficiency gain delete all traps and replace them to get the new benefit,yes,3
+00:06:15,00:06:15,traps,gear,,priority,any,,Primary gear: get as much Agility as possible,yes,3
+00:06:15,00:06:15,traps|dungeons,rex ring,,priority,any,,Use Rex Rings for skill efficiency bonus; acquired from the Dungeons Flurbo Shop,yes,3
+00:06:15,00:06:45,traps,tools,,priority,any,,Use the highest tier trap you can for more trapping power agility and more traps placeable,yes,3
+00:06:45,00:06:45,traps,food,,priority,any,,Critter Numnums is the only food worth mentioning; increases shiny odds,yes,3
+00:06:45,00:06:45,traps,food,,warning,any,,Critter Numnums are consumed every time you collect a trap,yes,3
+00:06:45,00:07:18,traps,talent eagle eye,hunter,priority,any,level1_critters_pct=50;level1_exp_pct=40,Hunter specializes in trapping; first max Eagle Eye; at level 1 only 50% critters and 40% EXP,yes,3
+00:07:18,00:07:18,traps,talent eagle eye,hunter,threshold,any,points=200;critters_pct=100;exp_pct=80,200 points in Eagle Eye gives 100% critters but only 80% EXP; it gives EXP to all characters at once,yes,3
+00:07:18,00:07:18,traps,talent invasive species,hunter,priority,any,,Invasive Species gives trapping efficiency based on Froge critters in storage,yes,3
+00:07:18,00:07:51,traps,talent shroom bait,hunter,opinion,any,,Shroom Bait gives EXP gain but he usually avoids it to not out level his Maestro,yes,3
+00:07:51,00:07:51,traps,talent reflective eyesight,hunter,priority,any,trapping_levels=10,Reflective Eyesight increases shiny critter chance per 10 trapping levels,yes,3
+00:07:51,00:07:51,traps,talent agility,hunter,priority,any,,Agility talent gives more max talent level for Quickness Boots in Tab 1,yes,2
+00:07:51,00:07:51,traps,talent shoeful of obol,hunter,priority,any,,Shoeful of Obol gives more Agility from obols,yes,3
+00:07:51,00:08:24,traps,talent yeah i already know,hunter,priority,any,,Tab 2 priority Yeah I Already Know gives EXP; personal choice skip if you do not want to out level Maestro,yes,3
+00:08:24,00:08:24,traps,talent focused soul,hunter,opinion,any,,Focused Soul is an EXP gain talent and use is a personal choice,yes,3
+00:08:24,00:08:24,traps,talent sanic speed,hunter,priority,any,,Sanic Speed gives more base Agility,yes,3
+00:08:24,00:08:24,traps,talent garb of unaging quality,hunter,priority,any,,Garb of Unaging Quality gives more Agility from equipment,yes,3
+00:08:24,00:08:24,traps,talent elusive efficiency,hunter,priority,any,,Tab 1 priority is Elusive Efficiency for more efficiency in specialized skills,yes,3
+00:08:24,00:08:54,traps,talent quickness boots,hunter,priority,any,,Quickness Boots gives more base Agility; everything else in Tab 1 is pretty much extra,yes,3
+00:08:54,00:08:54,traps,star talent super source,hunter,priority,any,,Star talent priority is Super Source for more base efficiency,yes,3
+00:08:54,00:08:54,traps|stamps,star talent toilet paper postage,hunter,priority,any,,Toilet Paper Postage gives more skill efficiency from stamps,yes,3
+00:08:54,00:08:54,traps,star talent will of the eldest,hunter,priority,any,,Will of the Eldest is nice for more base stats,yes,3
+00:08:54,00:08:54,traps,star talent frothy malk,hunter,priority,any,,Frothy Malk gives more bonuses to foods,yes,3
+00:08:54,00:09:25,cards|traps,crabbo dung beat,,priority,any,,Top card priority Crabbo Card and Dung Beat Card both give skill efficiency,yes,3
+00:09:25,00:09:25,cards|traps,froge mousey pingy,,priority,any,,Froge Mousey and Pingy cards each give more shiny critter chance,yes,3
+00:09:25,00:09:25,cards|traps|fishing,blop fish,,priority,any,,Blop Fish card from World 4 fishing also gives more shiny chance,yes,3
+00:09:25,00:09:57,cards|traps,chaotic troll,,priority,any,,Next get Chaotic Troll Card for all skill efficiency,yes,3
+00:09:25,00:09:57,cards|traps,bloque,,opinion,any,,After that choose between more skill EXP or base stats like Agility from the Bloque Card,yes,3
+00:09:57,00:09:57,cards|traps,easy resources,,priority,any,,Card set to get is Easy Resources for more skill efficiency,yes,3
+00:09:57,00:09:57,bubbles|traps,call me ash,,priority,any,,Top alchemy bubble Call Me Ash gives one additional trap and more trapping efficiency,yes,3
+00:09:57,00:09:57,bubbles|traps,because i catch them all,,priority,any,,Because I Catch Them All gives higher chance to catch shiny critters,yes,3
+00:09:57,00:10:29,bubbles|traps,sanic tools,,priority,any,,Sanic Tools gives skilling power from traps; says catching nets but also affects trapping efficiency,yes,3
+00:10:29,00:10:29,bubbles|traps,swift steppin,,priority,any,,Swift Steppin gives more base Agility,yes,3
+00:10:29,00:10:29,vials|traps,fur refresher orange malt,,priority,any,,Vial priority Fur Refresher and Orange Malt both give higher shiny critter chance,yes,3
+00:10:29,00:10:29,vials|traps,poison tincture,,priority,any,,Poison Tincture gives more critters when using Eagle Eye if you can get it,yes,3
+00:10:29,00:10:59,vials|traps,goosey glug,,how_to,any,,With high enough trapping and The Honkers you can unlock Goosey Glug for more base critters,yes,2
+00:10:59,00:10:59,traps,obols,,priority,any,,Obols increase trapping power and Agility,yes,3
+00:10:59,00:10:59,traps,obols personal tab,,setup,any,,Fill personal obol tab with as many trapping obols as possible then agility obols for the rest,yes,3
+00:10:59,00:10:59,traps,obols family tab,,setup,any,,Family tab is shared between all characters and is a nice trapping boost across the account,yes,3
+00:10:59,00:11:29,traps,post office trapping lockbox,,priority,any,efficiency_pct=33,Unlock Trapping Lockbox in second Post Office upgrade tab for up to 33% more trapping efficiency,yes,3
+00:11:29,00:11:29,traps,post office trapping lockbox,,threshold,any,boxes=25;boxes_2=100,At 25 boxes you gain more trapping EXP and at 100 boxes more critters trapped,yes,3
+00:11:29,00:12:01,stamps|traps,hidey box purp froge spikemouth,,priority,any,,Skills tab stamps: Hidey Box for base trapping efficiency Purp Froge for shiny rate Spikemouth for trapping EXP,yes,3
+00:12:01,00:12:01,statues|traps,box trap statue,,priority,any,,Collect plenty of Box Trap statues for more trapping power,yes,3
+00:12:01,00:12:01,statues|traps,feasty statue,,priority,any,,Feasty Statue gives more food effect for Critter Numnums,yes,3
+00:12:01,00:12:01,statues,golden statues,,priority,any,,Get the Golden Statues upgrade to make statues account wide,yes,3
+00:12:01,00:12:34,prayers|traps,skilled dimwit,,priority,any,,World 3 Prayer Obelisk prayer Skilled Dimwit gives more skill efficiency at cost of less skill EXP,yes,3
+00:12:34,00:12:34,prayers|traps,skilled dimwit,,mechanic,any,efficiency_pct=30;exp_pct=-30,Skilled Dimwit base is 30% skill efficiency for -30% skill EXP; upgrades cost quite a bit of Forest Souls,yes,3
+00:12:34,00:12:34,prayers|traps|characters,skilled dimwit,maestro,setup,any,,Skilled Dimwit pairs well with Maestro Right Hand of Action which gives efficiency while trapping level is below Maestro's,yes,3
+00:12:34,00:13:07,prayers|traps,shiny snitch,,mechanic,any,shiny_drop=20;shiny_chance_divisor=15,Shiny Snitch drops 20 shiny critters instead of 1 at cost of shiny drop chance being 15x lower,yes,3
+00:13:07,00:13:37,cooking|traps,corn,,mechanic,any,efficiency_pct_per_level=2,Cooking boosts skill efficiency from unlocking Corn at 2% per level and other things increase it at higher cooking levels,yes,3
+00:13:37,00:13:37,lab|traps,chips,,priority,any,,Recommended lab chips: Total Skilling Efficiency for all skills and Base Efficiency for all skills,yes,3
+00:13:37,00:14:08,lab|cards|traps,card doubling chips,,priority,any,,Niche chip doubles bonus of cards in bottom right corner; a similar chip doubles top left corner cards,yes,3

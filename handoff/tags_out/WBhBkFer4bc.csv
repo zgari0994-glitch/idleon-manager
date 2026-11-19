@@ -1,0 +1,96 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,menagerie,luminous menagerie boosts,,meta_change,w7,,Video covers Luminous Menagerie boosts and doublers; doublers discussed at the end for easy reference.,yes,3
+00:00:30,00:01:01,menagerie,extra missions boost,,priority,w7,levels=19;hours_per_level=6-7;per_level=+1 mission,Extra Menagerie missions boost scales aggressively; 19 levels at roughly 6-7 hours per level; critical for progressing missions.,yes,3
+00:01:01,00:01:33,menagerie,mission boost rank up,,mechanic,w7,,Ranking up gives more Lumi boosts so keep mission boost progressing.,yes,2
+00:01:01,00:01:33,menagerie,shelf upgrades,,priority,w7,,Keep missions boost and second shelf second upgrade roughly level with slight priority on the second shelf.,yes,3
+00:01:01,00:01:33,menagerie,extra Lumi boost,,mechanic,w7,,Straight extra Lumi boost scales maybe best of all Lumi boosts.,yes,3
+00:01:01,00:02:04,menagerie,extra Lumi boost,,priority,w7,,Never neglect extra Lumi boost; stay on it to pump Lumi gains since it unlocks everything else; near necessity for free-to-play.,yes,3
+00:02:04,00:02:35,menagerie|research,research EXP boost,,mechanic,w7,level=35;multiplier=4.5x;research_exp_current=110 billion;research_exp_gain_setup=300 billion,Research EXP boost is a strong cheap multiplier; level 35 gives 4.5x; about 110 billion currently or ~300 billion on gain setup.,yes,3
+00:02:35,00:03:05,menagerie|research,research nodes E4 F4,,mechanic,w7,,Research EXP lets you buy nodes E4 (extra Menagerie missions and hourly Lumi) and F4 (baby menagerie Lumi multiplier).,yes,3
+00:03:05,00:03:35,menagerie|research,F4 node square shape,,mechanic,w7,research_level=90,F4 Lumi multiplier is multiplied by rotated square shape past research level 90; it was what held him back from million range.,yes,2
+00:03:05,00:03:35,research|menagerie,research,,priority,w7,,Recommends pushing deeper into research because the Lumi multiplier scales harder than expected.,yes,3
+00:03:35,00:04:07,menagerie|cooking,cooking speed boost,,mechanic,w7,meal_level_before=140s;meal_level_now=150s,Cooking speed boost is a very strong multiplier; his meals went from 140s to upper 150s.,yes,3
+00:03:35,00:04:07,cooking,meal levels,,target,w7,meal_level=154-155,He plans to get remaining meals to the 154-155 range then restart from the top.,yes,2
+00:03:35,00:04:07,menagerie|cooking,cooking speed boost,,priority,w7,,Cooking speed boost is highly worth your time.,yes,3
+00:04:07,00:04:39,menagerie|construction,shrines max level boost,,target,w7,shrine_max_level=+30,Get shrine max level boost to around his level; maybe one more; mainly for Crescent shrine Lumi gain after the next coral upgrade.,yes,2
+00:04:39,00:05:10,menagerie|construction,shrines max level boost,,mechanic,w7,bonus=140,Shrine boost is a big additive bonus (140) and scales aggressively; do a level two or three.,yes,2
+00:04:39,00:05:10,menagerie|summoning,summoning upgrade cost doubler,,skip,w7,discount=2x per 50 levels,2x cheaper summoning upgrades per 50 levels is probably good but he is holding off until he needs it.,yes,3
+00:05:10,00:05:40,summoning|menagerie,endless summoning,,comparison,w7,endless_summoning_endgamer=400;endless_summoning_own=383,Endgamers going deeper on this shelf upgrade reached about 400 endless summoning versus his 383; only about 20 levels.,yes,3
+00:05:10,00:05:40,summoning,endless summoning,,mechanic,any,,Endless summoning is one of the big four mechanics he points people to when accounts have problems.,yes,3
+00:05:40,00:06:11,menagerie|summoning,summoning upgrade cost doubler,,skip,w7,,Not worth your time in the first couple days of pen archery; leave until week two or three.,yes,3
+00:05:40,00:06:11,menagerie|sailing,sailing treasure value boost,,mechanic,w7,level=5;multiplier=2x,Extra value for all sailing treasure is a big multi; level 5 already 2x; scales slowly.,yes,3
+00:06:11,00:06:41,sailing|menagerie,sailing treasure boost,,mechanic,w7,,Sailing treasure boost gives major increases across captains; costs very high even from minimal investment.,yes,3
+00:06:41,00:07:13,sailing,claims,,account_note,w7,,He keeps forgetting sailing claims; plans to build blue currency before another claim as gold bars may now go crazy.,yes,2
+00:06:41,00:07:13,general,click and hold,,meta_change,w7,,Many things in this patch got a click-and-hold mechanic.,yes,3
+00:07:13,00:07:43,menagerie,boost choice,,priority,w7,,Pick and choose mechanic-specific boosts; put a few points in each to get rolling then focus on the ones you want to push.,yes,3
+00:07:13,00:07:43,menagerie|cooking,cooking speed boost,,account_note,w7,,He currently favors cooking speed; sailing-focused players might favor sailing; summoning gain also has two types.,yes,3
+00:07:43,00:08:14,menagerie|sushi,sushi doubler,,skip,w7,,Sushi doubler skipped for now.,yes,3
+00:07:43,00:08:44,menagerie|forge,forge speed boost,,skip,w7,chance=45%;seconds=11,Forge speed boost is the most useless in Menagerie; archer candy kill tech gives 45% chance of ~11 seconds of progress so forge speed is never needed.,yes,3
+00:08:44,00:09:14,menagerie|forge,forge speed doubler,,warning,w7,,Forge speed doubler just burns Lumi for no reason; maybe a future mechanic needs it.,yes,3
+00:08:44,00:09:14,menagerie|greenstacks,shiny critters value boost,,opinion,w7,multiplier=2x,Shiny critter value boost reportedly makes green stacking possible; he is skeptical but admits it is a strong multiplier.,yes,2
+00:09:14,00:09:45,menagerie|summoning,summoning essence boost,,skip,w7,,Summoning essence boost with the shrine is needed to reach the 400 range; not worthwhile until a few weeks later.,yes,3
+00:09:45,00:10:17,menagerie|worship,slow roast wiz,,mechanic,w7,seconds_per_level=600;minutes_per_level=10;points=6;total=1 hour,Slow roast wiz gives 10 minutes of progress per level; 6 points means starting every worship at an hour of progress.,yes,3
+00:10:17,00:10:48,menagerie|worship,slow roast wiz,,warning,w7,,Slow roast wiz is bugged and not giving time; do not invest until a bug fix.,yes,3
+00:10:17,00:10:48,menagerie,Orion first upgrade cheaper,,skip,w7,cost_reduction=6x,Orion first upgrade cheaper is expensive for about 6x; not worth it for now.,yes,3
+00:10:48,00:11:19,menagerie,Orion first upgrade cheaper,,skip,w7,before=e52;after=2.9e51,Orion boost brought his value from around e52 to 2.9e51; he considers it a month one or two thing.,yes,2
+00:10:48,00:11:19,menagerie|sailing,feather restart,,account_note,w7,,He is closing on his next feather restart but needs a lot outside a merit week.,no,1
+00:11:19,00:11:49,menagerie|atom_collider,atoms boost,,mechanic,w7,front_runners=32-33;some_34=yes,Atoms boost gives plus one level; he says front runners are in the 32-33 range with maybe a couple 34s.,yes,1
+00:11:19,00:11:49,menagerie|atom_collider,atoms boost,,opinion,w7,,Plus one atom level is good since some atoms benefit from a couple extra levels.,yes,3
+00:11:49,00:12:19,atom_collider,construction atom,,opinion,w7,,Construction atom is decent; trim slot is really nice; book atom is whatever.,yes,2
+00:11:49,00:12:19,atom_collider,wood plate,,opinion,w7,increase=6-7 QQ,Wood plate scales hard; increase was around six or seven QQ.,yes,2
+00:11:49,00:12:19,atom_collider,star crypt,,warning,w7,,Star crypt atom is useless; he wasted atoms buying it.,yes,2
+00:12:19,00:12:50,atom_collider,magnesium stamp supercharger,,opinion,w7,,Magnesium is fine; stamp supercharger is really good.,yes,2
+00:12:19,00:12:50,atom_collider,real estate atoms,,opinion,w7,,Minehead currency atom sushi books and jelly blood cell juicer atoms are fine; Lumi gain atom of course.,yes,2
+00:12:19,00:12:50,atom_collider,helium,,mechanic,w7,helium_level=20;helium_max=71,Helium atom is very expensive to level; he is only at about 20 of 71.,yes,2
+00:12:50,00:13:21,atom_collider,helium,,mechanic,w7,,Helium doesn't work for the majority of power per 10 resource things anyway.,yes,2
+00:12:50,00:13:21,menagerie,Idleon Toolbox,,how_to,w7,,See the rest of the boosts on Idleon Toolbox; he avoids spoiling himself.,yes,3
+00:13:21,00:13:52,menagerie,doubler tier list,,meta_change,w7,,Hendo and Stack made a doubler priority tier list on Discord; he thinks it is accurate for this early.,yes,3
+00:13:21,00:14:23,minehead|menagerie,mighty farmer doubler,,priority,w7,rank=1,Minehead mighty farmer (income) doubler should be your first; huge extra income.,yes,3
+00:13:52,00:14:23,minehead|menagerie,base damage two doubler,,priority,w7,rank=2,Base damage two is a shoe-in second because it scales harder than base damage one.,yes,3
+00:13:52,00:14:54,minehead|menagerie,better numbers doubler,,warning,w7,damage_multiplier=1.3x,Better numbers is only about 1.3x overall damage; people were baited; hold off if not yet bought.,yes,3
+00:14:23,00:14:54,minehead|menagerie,more multi doubler,,mechanic,w7,,More multi increases chance of higher multiplier tiles; monumental bonus.,yes,3
+00:14:54,00:15:56,minehead|menagerie,final round fury,,mechanic,w7,,Final round fury is what the meta revolves around: reach the last life then uncover the board; combines with triple crown hunter and multipliers.,yes,3
+00:15:26,00:15:56,minehead|menagerie,final round fury,,priority,w7,,He would rank final round fury ahead of more multi and tied second with base damage two.,yes,3
+00:15:56,00:16:26,minehead|menagerie,doubler order,,priority,w7,,His ordering: mighty farmer first; final round fury and base damage two tied second; then more multi.,yes,3
+00:15:56,00:16:26,minehead,experience,,account_note,w7,,He says he is not the minehead guy; take it with a pinch of salt.,yes,3
+00:16:26,00:17:27,minehead|menagerie,legal cheating button,,opinion,w7,average_buttons=4;break_chance=25%;range=5-8,Legal cheating button is good since you fish for many buttons on the final round; average about 4 with 25% break chance.,yes,3
+00:16:56,00:17:58,minehead|menagerie,legal cheating button,,how_to,w7,uses_remaining=8,Even if a cheating button breaks you keep remaining uses; attack and go next for more on later runs.,yes,2
+00:17:27,00:17:58,minehead|menagerie,mega damage one,,opinion,w7,,Mega damage one multiplier is really strong; better numbers okay but much further down.,yes,3
+00:17:27,00:18:28,minehead|menagerie,golden tiles and extra lives,,skip,w7,,Golden tiles are not good; extra lives only lengthen runs for additive bonuses and are not worth it.,yes,3
+00:17:58,00:18:28,minehead|menagerie,jackpot doublers,,opinion,w7,,Bottom jackpot doublers could be strong later once there is more minehead income but not now.,yes,2
+00:18:28,00:18:58,jelly_operator|menagerie,daily transfusion,,priority,w7,rank=1,Daily transfusion should be number one even though he hasn't done it yet.,yes,3
+00:18:28,00:18:58,jelly_operator|menagerie,daily transfusion,,mechanic,w7,extra_runs=2;blood_cells=200%,Daily transfusion equals an extra two runs per day giving 200% of max blood cells or biggest run.,yes,3
+00:18:58,00:19:29,jelly_operator|menagerie,daily transfusion,,warning,w7,,Daily transfusion gets better the earlier you do it; he regrets not taking it first.,yes,3
+00:18:58,00:19:29,jelly_operator|menagerie,virus injection,,comparison,w7,tier_rank=2;his_rank=4,Virus injection is strong but he would rank it about fourth because strongroid is better now though viral injection scales later.,yes,3
+00:19:29,00:20:00,jelly_operator|menagerie,cell mutation,,priority,w7,tier_rank=4;his_rank=2,Cell mutation is a huge damage buff not replaceable by other doublers; he ranks it first or second.,yes,3
+00:19:29,00:20:31,jelly_operator|menagerie,doubler order,,priority,w7,,His order: daily transfusion then cell mutation then strongroid then viral injection then cell dialysis.,yes,3
+00:20:00,00:20:31,jelly_operator|menagerie,mitochondria,,opinion,w7,,Mitochondria is not as good as going backwards and grabbing other stuff.,yes,2
+00:20:00,00:21:02,jelly_operator,diamond pit,,warning,w7,,Don't sprint past diamond pit because the next one attacks faster and nukes blood cell gains.,yes,3
+00:20:31,00:21:02,jelly_operator,sepsis vs rash,,how_to,w7,,Sandbag by going for sepsis over rash; rash would explode his run; eventually he must clear it.,yes,3
+00:21:02,00:21:33,farming|menagerie,crop rotation doubler,,mechanic,w7,choices=8,Farming doublers can't be selected until they come up in rotation; he has a choice of eight.,yes,3
+00:21:02,00:21:33,farming|menagerie,crop rotation doubler,,skip,w7,,He is saving his choice this week and covering it in weekly videos; wouldn't choose any right now.,yes,2
+00:21:33,00:22:03,farming|menagerie,legumiosso land rank,,warning,w7,,Some chose legumes; a code post says land ranks never worked for exotic market.,yes,2
+00:21:33,00:22:03,farming|menagerie,grapevine,,opinion,w7,,Grapevine is possibly good as a strong multiplier; villager EXP not cared about.,yes,2
+00:21:33,00:22:03,farming|menagerie,free exotic better exotic,,priority,w7,rank=1;rank=2,He agrees free exotic and better exotic are number one and two.,yes,3
+00:22:03,00:22:37,farming|menagerie,plump database,,priority,w7,top=5,Plump database should be top five.,yes,3
+00:22:03,00:22:37,farming|menagerie,data digging,,opinion,w7,bonus=+9 or +10,Data digging agreed good; likely increases to plus nine or ten for the fifth database column.,yes,2
+00:22:37,00:23:07,farming|menagerie,science-terrific,,priority,w7,,Science-terrific gives extra bonuses from crop scientists and is amazing.,yes,3
+00:22:37,00:23:38,farming|menagerie,sap surge gravel pound,,priority,w7,sap_rank=6;gravel_rank=7,Sap surge and gravel pound are strong; he'd put sap sixth and gravel seventh.,yes,3
+00:23:07,00:23:38,farming|menagerie,stalk value,,priority,w7,,Stalk value would fill out the rest of the top ten.,yes,2
+00:23:38,00:24:08,farming|menagerie,prismarine exalted artifact find,,opinion,w7,,Prismarine exalted is probably too small a boost; artifact find maybe.,yes,2
+00:23:38,00:24:08,farming|menagerie,exotic crops,,advice,w7,,Hold onto some unused exotic crop doublers because more exotic crops may come in future.,yes,2
+00:24:08,00:24:40,farming|menagerie,doubler tier list,,opinion,w7,,He mostly agrees with the farming tier list but would swap some rankings.,yes,3
+00:24:40,00:25:12,sushi|menagerie,wholesale pricing,,priority,w7,,Wholesale pricing is straight cost reduction and agreed good.,yes,3
+00:24:40,00:25:12,sushi|menagerie,bottomless shakers,,priority,w7,,Bottomless shakers doubles chance of extra free usage; maybe number one with wholesale pricing second.,yes,3
+00:25:12,00:25:44,sushi|menagerie,second and third degree searing,,priority,w7,,Late sushi revolves around sushi EXP; do third degree searing first then second degree searing.,yes,3
+00:25:44,00:26:15,sushi|menagerie,saffron shaker,,priority,w7,rank=4-5;hours_of_books=42,Saffron shaker gives about 42 hours of books instead of one; he'd rank it four or five not three.,yes,2
+00:26:15,00:26:46,sushi|menagerie,no tax,,opinion,w7,,No tax multiplies all books by a huge multiplier; good.,yes,3
+00:26:15,00:26:46,sushi|menagerie,doubler list,,advice,w7,count=7,He would add two extra upgrades to the list bringing it to seven; if worried wait another week for it to be figured out.,yes,3
+00:26:15,00:27:16,sushi|menagerie,shakers,,priority,w7,,Both shakers are best for time-gated sushi; buy and never look back as the meta revolves around the three shakers.,yes,3
+00:27:16,00:27:47,gaming|menagerie,prisma bubble violet and honey yellow,,priority,w7,points_each=2,Gaming planet: Prisma bubble bonus for Violet and honey yellow for higher exalt stamp bonus; put two in each; do this and never look back.,yes,3
+00:27:16,00:27:47,gaming|menagerie,build rate,,priority,w7,rank=3,Build rate is a massive multiplier needed for jellyfish and shrines; go for it third.,yes,3
+00:27:47,00:28:18,gaming|menagerie,ballot,,priority,w7,rank=4;bonus=50%,Ballot is the correct fourth pick; effectively extra 50% for him.,yes,3
+00:27:47,00:28:48,gaming|menagerie,bonus pal multiplier,,priority,w7,pal=1e40,Most players should take bonus pal multiplier first; he took splonking pal which quadrupled his pal to 1e40.,yes,2
+00:28:18,00:29:20,arcade|menagerie,arcade tier list,,opinion,w7,,He will update his arcade tier list; omega worthy ones are probably just the S-tier ones.,yes,2
+00:28:48,00:29:20,arcade|event_shop,shop rotation,,mechanic,w7,rotation=74;weeks=4-6,Current shop rotation is 74 and changes every four to six weeks; he thinks it should be weekly; covered in weekly video.,yes,2
+00:29:20,00:29:50,menagerie,doublers,,account_note,w7,,He believes he covered all doublers and luminous monoliths; ask in comments if missed.,yes,3

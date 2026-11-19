@@ -1,0 +1,59 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,bubbles,yellow cauldron,,meta_change,any,,Final episode of the alchemy bubble tier list; covers the Kazam cauldron (yellow bubbles).,yes,3
+00:00:00,00:00:30,bubbles,Lotto Skill,,mechanic,any,,Lotto Skill is a linear bubble giving luck and requires red material; it is total luck not base luck so all-stat percent does not scale it.,yes,2
+00:00:30,00:00:30,bubbles,Lotto Skill,,warning,any,,Lotto Skill cannot really be scaled: you can't hourly click it and it isn't worth using atoms on it.,yes,2
+00:00:30,00:00:30,bubbles,Lotto Skill,,comparison,any,tier=C_top,Lotto Skill is top of C tier; of the four bubbles in its group it's not quite there.,yes,2
+00:00:30,00:01:01,bubbles,Larry?,,mechanic,any,upgrade_chance_threshold=100;extra_upgrades=3,"Larry: chance for a bubble upgrade to apply twice for free; above 100% it can give +3. Takes dementia? material, easy to get.",yes,2
+00:01:01,00:01:01,bubbles,Larry?,,priority,any,tier=S,"Larry bubble is required for decent alchemy, easily S tier in his books.",yes,2
+00:01:01,00:01:33,bubbles|cogs,Cogs for Hands,,mechanic,early_w3,,"Cogs for Hands: linear bubble giving percent cog production speed, costs frost flakes from early world 3.",yes,3
+00:01:01,00:01:33,bubbles|cogs,Cogs for Hands,,comparison,any,tier=low_B,Cogs for Hands is crucial for cog grinding but you don't start cog grinding until later game; low B tier.,yes,2
+00:01:01,00:01:33,bubbles|printer,Sample It,,mechanic,any,,Sample It gives sample size for 3D printer sampling and costs Dune Souls; scaling is terrible.,yes,3
+00:01:33,00:01:33,bubbles|printer,Sample It,,priority,endgame,,Only hard-prioritize Sample It when trying to drop Royal Sampler which is an endgame thing; otherwise no bubble left behind covers it.,yes,2
+00:01:33,00:02:03,bubbles,Big Game Hunter,,mechanic,any,chance_pct=52,Big Game Hunter must be equipped: killing a giant monster has 52% chance to not decrease giant mob spawn odds; resets weekly; costs scorpion.,yes,2
+00:01:33,00:02:03,bubbles,Big Game Hunter,,opinion,any,,Big Game Hunter is a super solid bubble but expensive; S tier-ish for active players.,yes,2
+00:02:03,00:02:03,bubbles|prayers,Big Game Hunter,,mechanic,any,,Big Game Hunter pairs with the Titan-related prayer (taxation?) reducing giant mob chance; idle players won't benefit.,yes,1
+00:02:03,00:02:34,bubbles|library,Ignore Overdues,,mechanic,any,,Ignore Overdues gives percent book checkout speed so library refreshes books faster; requires wispy lumber from Quenches.,yes,3
+00:02:03,00:02:34,bubbles|library,Ignore Overdues,,opinion,late,,Ignore Overdues is really good late game but can't be scaled or leveled early; depends on whether you get automation arm.,yes,2
+00:02:34,00:03:04,bubbles,Yellow Bargain Tag,,mechanic,any,,Yellow Bargain Tag lowers material cost of yellow bubbles by percent; it does not get multiplied unlike other bargain tags; costs pingies.,yes,2
+00:02:34,00:03:04,bubbles,Yellow Bargain Tag,,comparison,any,,Yellow Bargain Tag goes at the bottom of the pack.,yes,2
+00:02:34,00:03:04,bubbles,Mr Massacre,,mechanic,any,damage_tier_example=15,Mr Massacre gives multi-kill per damage tier not flat multi-kill; with 15 damage tiers on a mob the percentage stacks 15 times.,yes,2
+00:03:04,00:03:04,bubbles,Mr Massacre,,mechanic,w4,,Mr Massacre costs blue salts? and is a world 4 bubble; hard for no bubble left behind to level; early scaling needed to make it strong.,yes,2
+00:03:04,00:03:04,bubbles,Mr Massacre,,opinion,mid,,Mr Massacre can be skipped alongside bargain tag; for mid game players it is top of its tier.,yes,1
+00:03:04,00:03:35,bubbles|breeding,Egg Ink,,mechanic,any,,Egg Ink gives percent faster egg incubation in pet nest; helps egg rarity; requires first spice of breeding.,yes,3
+00:03:04,00:03:35,bubbles|breeding,Egg Ink,,skip,any,,You're never going to prioritize Egg Ink; spices are very time gated and don't get good until you have converter pet.,yes,3
+00:03:35,00:03:35,bubbles,Egg Ink,,comparison,any,,Egg Ink placed below Lotto Skill.,yes,2
+00:03:35,00:04:06,bubbles|cooking,Diamond Chef,,mechanic,any,meal_level_threshold=11,Diamond Chef is a multiplier making meal and kitchen speed faster for every meal at 11 plus; costs beach dog? salts.,yes,2
+00:03:35,00:04:06,bubbles|cooking,Diamond Chef,,priority,any,tier=S,"Diamond Chef is one of the biggest snowballs in cooking until enough plates for V-man enhancements; worth building a build to farm its salts, S tier.",yes,2
+00:04:06,00:04:36,bubbles|cards,Card Shaft?,,mechanic,any,,"Card drop chance for all card types including party dungeon cards; requires purple salts; additive, not multiplicative.",yes,2
+00:04:06,00:04:36,bubbles|cards,Card Shaft?,,comparison,any,tier=C,Card bubble is stupidly expensive for what it gives so placed C tier right above bargain tag.,yes,2
+00:04:36,00:05:06,bubbles|drop_rate,Dropping Loads,,mechanic,any,,Dropping Loads gives percent drop rate and requires goldfish only.,yes,3
+00:04:36,00:05:06,bubbles|drop_rate,Dropping Loads,,priority,early,tier=A_top,Dropping Loads scaling is bad at first but scales fast early to mid game; easy to cap out; top of A tier.,yes,2
+00:04:36,00:05:06,bubbles|traps,Petting the Rift,,mechanic,any,,Petting the Rift gives percent shiny chance per new Rift level reached and costs blobfish.,yes,2
+00:05:06,00:05:06,bubbles|traps|rift,Petting the Rift,,skip,any,,Petting the Rift: by the time you can use it you'll have 1-to-1 shiny chance anyway; never focus it; leave at level one.,yes,2
+00:05:06,00:05:38,bubbles|sailing,Booty Bubbles,,mechanic,early,,Booty Bubbles give sailing speed for all boats; costs bits? so not atomable.,yes,2
+00:05:06,00:05:38,bubbles|sailing,Booty Bubbles,,comparison,early,tier=top_B,Booty Bubbles are solid for early sailing but scale quickly and cap; almost A tier but top of B.,yes,3
+00:05:38,00:06:08,bubbles|divinity|sailing,Big P,,mechanic,any,,Big P multiplies the minor link bonus of your gods in Divinity; requires first sailing material.,yes,3
+00:05:38,00:06:08,bubbles|divinity,Big P,,comparison,any,tier=top_B,Big P is a multiplier that helps minor god bonuses and scales okay; top of its tier.,yes,2
+00:05:38,00:06:08,bubbles|gaming,Bit by Bit,,mechanic,any,,Bit by Bit gives percent more bits earned in gaming; costs dandelion logs.,yes,2
+00:06:08,00:06:08,bubbles|gaming,Bit by Bit,,comparison,any,tier=B,Bit by Bit scaling is less crazy and ramps slowly; placed right below Booty Bubbles in B tier.,yes,2
+00:06:08,00:06:38,bubbles|divinity,Gifts Abound,,mechanic,any,,Gifts Abound gives percent chance to not use up points when offering a gift; requires dust moths?; second to last bubble unlocked.,yes,2
+00:06:08,00:06:38,bubbles|divinity,Gifts Abound,,comparison,any,tier=low_C,Gifts Abound has small infrequent proc; low C tier right above bargain tag.,yes,2
+00:06:38,00:07:09,bubbles|atom_collider,Atom Split,,mechanic,late,bubble_number=25;atoms=6410;cost=1_billion,Atom Split gives percent lower particle cost for upgrading atoms; costs tremor worms; omega late bubble; 6410 atoms at 1 billion?,yes,1
+00:06:38,00:07:09,bubbles|atom_collider,Atom Split,,comparison,late,tier=C,Atom Split is C tier and not a priority.,yes,3
+00:06:38,00:07:09,bubbles|statues,Stat You Exp?,,mechanic,any,reset_pct=2,Leveling a statue resets XP bar to two percent instead of zero; costs sand from sandy pots.,yes,2
+00:07:09,00:07:09,bubbles|statues,Stat You Exp?,,opinion,any,,Solid overall bubble that saves hundreds to hundreds of thousands worth of statue levels; very cheap and easily scalable; toward bottom of pack.,yes,2
+00:07:09,00:07:39,bubbles,Level Up Gift,,mechanic,early,,"Level Up Gift: percent chance to drop a gift on any level up (XP balloon, gem, fun flags); costs crab cake material; cheap early bubble.",yes,3
+00:07:09,00:07:39,bubbles,Level Up Gift,,comparison,any,tier=top_C,Level Up Gift is top of C tier because it becomes completely useless late game.,yes,2
+00:07:39,00:08:10,bubbles,Prowessian?,,mechanic,any,cap=2.0,Prowess bonus multiplier for skills; lowers efficiency needed for multiple quantities per drop; prowess caps at 2.0; costs soy logs.,yes,2
+00:07:39,00:08:10,bubbles,Prowessian?,,comparison,mid,,Solid early to mid game but becomes a low C tier by early late game; put at bottom of its pack.,yes,1
+00:08:10,00:08:41,bubbles|stamps,Stamp Tramp?,,mechanic,late,,Stamp bubble raises max level of the Toilet Paper Postage star talent and potency of skilling stamps; linear +1 per level; costs butterflies.,yes,2
+00:08:10,00:08:41,bubbles|stamps,Stamp Tramp?,,warning,early,,Don't put points in the stamp bubble early game; prioritize Action Frenzy and Super Source and Frothy Milk instead.,yes,3
+00:08:10,00:08:41,bubbles|stamps,Stamp Tramp?,,comparison,late,tier=bottom_C,Decently strong late game; very bottom of C tier.,yes,2
+00:08:41,00:09:11,bubbles,Undeveloped Costs,,mechanic,any,,Undeveloped Costs reduces material cost of alchemy bubbles by percentage; requires jellyfish.,yes,3
+00:08:41,00:09:11,bubbles|atom_collider,Undeveloped Costs,,warning,late,,Good early-to-mid discount but like other bargain tags becomes garbage late game since you'll get atoms ASAP; bottom of pack.,yes,2
+00:09:11,00:09:11,bubbles|cauldrons_liquids,Daily Drip,,mechanic,any,,Daily Drip increases max cap of every liquid by a plus amount based on combined alchemy level of all characters; costs leather.,yes,2
+00:09:11,00:09:11,bubbles|cauldrons_liquids,Daily Drip,,comparison,late,,"Daily Drip is very strong for max liquid, but only costs leather and isn't potent until later in game so placed in a mid-low tier.",yes,1
+00:09:11,00:09:42,bubbles|class_exp,Grind Time,,mechanic,any,xp_multiplier_low=40;xp_multiplier_high=70,Grind Time requires only liquids to level and gives XP; how you reach roughly x40 to x70 XP multiplier.,yes,2
+00:09:11,00:09:42,bubbles|class_exp,Grind Time,,priority,any,,Grind Time is one of the best bubbles: one of the cheapest to level up and gives a reason to hyper farm it.,yes,3
+00:09:42,00:09:42,bubbles|class_exp|cards|talent_points,Grind Time,,how_to,any,,Stacking Grind Time with a couple cards makes it possible to get equipment and more talent points.,yes,2
+00:09:42,00:09:42,bubbles|cooking|class_exp,Grind Time,,comparison,any,,Grind Time is basically tied with Diamond Chef but scales higher so becomes better over time.,yes,3

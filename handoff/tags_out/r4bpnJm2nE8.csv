@@ -1,0 +1,71 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,equinox|general,tower defense requirement,,setup,unknown,,Build needs the slow roast wisdom bonus in Equinox so damage scales up over time,yes,2
+00:00:00,00:00:31,cooking|general,canoli meal,,setup,unknown,,Build needs a decently leveled Canoli in the dinner menu,yes,3
+00:00:00,00:00:31,cooking|general,meal ribbon,,mechanic,unknown,points_bonus_pct=1000,With meal ribbons you can get over 1000% extra points earned in tower defense,yes,3
+00:00:00,00:00:31,general,tower defense Acorn Assault,beast_master,opinion,unknown,,Using your beast master is optional but can help during the run,yes,3
+00:00:31,00:01:01,general,tower defense Acorn Assault,beast_master,how_to,unknown,,Use the stop right there attack talent to prevent mistakes during high enemy count waves,yes,3
+00:00:31,00:01:01,equinox|general,tower defense Acorn Assault,,account_note,unknown,,Guide works for anyone with the Equinox bonus unlocked,yes,3
+00:00:31,00:01:01,general|construction|cooking,tower defense Acorn Assault,,warning,unknown,,Waves you can complete depend on tower levels and construction or Canoli bonus,yes,3
+00:00:31,00:01:31,general,tower defense Acorn Assault,,how_to,unknown,,Start by summoning a poisonic elder on the top platform next to the portal then a voidinator beside it,yes,3
+00:01:01,00:01:31,general,tower defense Acorn Assault,,how_to,unknown,kraken_towers=1,Place a Kraken tower right below the poisonic elder,yes,3
+00:01:01,00:01:31,general,tower defense Acorn Assault,,how_to,unknown,kraken_towers=2;frozone_towers=1,Summon two more Kraken towers and a frozone tower to set up the first part of the defensive line,yes,3
+00:01:01,00:01:31,general,tower defense Acorn Assault,,how_to,unknown,party_starters=4,Summon four party starter towers on the bottom platform near the totem,yes,3
+00:01:01,00:01:31,general,tower defense Acorn Assault,,how_to,unknown,party_starter_level=5,Level party starters to level 5 immediately since they do nothing until you select a trait,yes,3
+00:01:31,00:02:01,general,tower defense Acorn Assault,,how_to,unknown,,Start with trait A on the four party starter towers,yes,3
+00:01:31,00:02:01,equinox|general,tower defense Acorn Assault,,mechanic,unknown,waves_per_summon=10,Always fight 10 waves at a time because Equinox damage stacking resets each time you summon a wave,yes,3
+00:01:31,00:02:01,general,tower defense Acorn Assault,,warning,unknown,,If enemies are summoned slowly they can break through by glitching at the end of the platform,yes,3
+00:01:31,00:02:01,general,tower defense Acorn Assault,,how_to,unknown,level=5,Level towers to 5 starting with poisonic elder using trait A,yes,3
+00:02:01,00:02:32,general,tower defense Acorn Assault,,how_to,unknown,level=5,Level voidinator to 5 with trait B to increase attack speed so mobs with abilities don't leak,yes,3
+00:02:01,00:02:32,general,tower defense Acorn Assault,,how_to,unknown,level=5,Kraken towers each get trait B first,yes,3
+00:02:01,00:02:32,general,tower defense Acorn Assault,,how_to,unknown,level=5,Frozone towers always select trait A,yes,3
+00:02:01,00:02:32,general,tower defense Acorn Assault,,how_to,unknown,poisonic_elders=3,Summon three more poisonic elders on the platform below the Kraken and Frozone towers,yes,3
+00:02:01,00:02:32,general,tower defense Acorn Assault,,how_to,unknown,stormcaller=1,Summon a single storm caller at the end of the poisonic elders,yes,2
+00:02:32,00:03:03,general,tower defense Acorn Assault,,how_to,unknown,level=5,Level each new tower to 5 immediately using trait A for poisonic elders and trait B for storm callers,yes,3
+00:02:32,00:03:03,general,tower defense Acorn Assault,,mechanic,unknown,,Storm caller trait B increases crit chance of all other towers,yes,3
+00:02:32,00:03:03,general,tower defense Acorn Assault,,how_to,unknown,level=10,With decent points level towers to 10 selecting trait A again for all four party starters,yes,3
+00:03:03,00:03:34,general,tower defense Acorn Assault,,how_to,unknown,level=10,Krakens select trait A at level 10 so all three have B then A,yes,3
+00:03:03,00:03:34,general,tower defense Acorn Assault,,how_to,unknown,level=10,Frozone towers use trait A,yes,3
+00:03:03,00:03:34,general,tower defense Acorn Assault,,how_to,unknown,level=10,Poisonic elders select trait B at level 10 giving A then B on all four,yes,3
+00:03:03,00:03:34,general,tower defense Acorn Assault,,how_to,unknown,level=10,Storm caller selects trait B again for more crit chance,yes,2
+00:03:34,00:04:06,general,tower defense Acorn Assault,,how_to,unknown,level=10;damage_bonus_pct=20,Voidinator upgrades are expensive so may wait but trait B at level 10 gives 20% more damage,yes,3
+00:03:34,00:04:06,general,tower defense Acorn Assault,,how_to,unknown,level=15,After all towers are level 10 upgrade everything to 15 asap,yes,3
+00:03:34,00:04:06,general,tower defense Acorn Assault,,how_to,unknown,level=15,At level 15 party starters krakens frozones and poisonic elders select trait A,yes,3
+00:03:34,00:04:06,general,tower defense Acorn Assault,,how_to,unknown,level=15,At level 15 storm caller and voidinator select trait B for crit chance and damage,yes,3
+00:04:06,00:04:36,general|cooking,tower defense Acorn Assault,,mechanic,unknown,,Time to get all towers to 15 depends on your Canoli level,yes,3
+00:04:06,00:04:36,general,tower defense Acorn Assault,,how_to,unknown,level=20;voidinator_level=15,Creator waits until leveling all towers to 20 before leveling voidinator to 15,yes,3
+00:04:06,00:04:36,general,tower defense Acorn Assault,,target,unknown,wave_min=100;wave_max=110,Around wave 100 to 110 have the defensive line completed; earlier makes it easier,yes,3
+00:04:06,00:04:36,general,tower defense Acorn Assault,,how_to,unknown,kraken_towers=4,Summon four more Kraken towers after the Frozone tower; they cost quite a bit,yes,3
+00:04:36,00:05:06,general,tower defense Acorn Assault,,how_to,unknown,frozone_towers=1;kraken_towers=2;last_kraken_cost=750000,Then a Frozone followed by two more Krakens; the last Kraken costs about 750000 points,yes,3
+00:04:36,00:05:06,general,tower defense Acorn Assault,,how_to,unknown,,If you can't afford all towers level affordable ones first and place the rest in later waves,yes,3
+00:04:36,00:05:06,general|cooking,tower defense Acorn Assault,,how_to,unknown,krakens=3;frozone=1;extra_krakens=2,Without a meal ribbon on Canoli use one less Kraken: three krakens a frozone then two more krakens,yes,3
+00:04:36,00:05:06,general,tower defense Acorn Assault,,how_to,unknown,level=15,Level new towers to 15 using the same traits as before,yes,3
+00:05:06,00:05:37,general,tower defense Acorn Assault,,how_to,unknown,level=20,At level 20 plus poisonic elders select trait B,yes,3
+00:05:06,00:05:37,general,tower defense Acorn Assault,,how_to,unknown,level=20,Storm caller to level 20 selecting trait B,yes,3
+00:05:06,00:05:37,general,tower defense Acorn Assault,,how_to,unknown,level=20,Krakens select trait A and frozones trait A at level 20,yes,3
+00:05:06,00:05:37,general,tower defense Acorn Assault,,how_to,unknown,level=20,Level party starters to 20 selecting trait A for more attack speed,yes,3
+00:05:37,00:06:08,general,tower defense Acorn Assault,,target,unknown,kraken_speed_min=0.3;kraken_speed_max=0.35,Goal is Kraken tower attack speed of about 0.3 to 0.35 seconds,yes,3
+00:05:37,00:06:08,general,tower defense Acorn Assault,,warning,unknown,level=25;cost=1100000,Leveling to 25 is very expensive about 1.1 million points per Kraken,yes,3
+00:05:37,00:06:08,general,tower defense Acorn Assault,,how_to,unknown,level=25,At level 25 krakens select trait A but leave them for last as not yet necessary,yes,3
+00:06:08,00:06:38,general,tower defense Acorn Assault,,how_to,unknown,level=25;crit_chance_pct=100,Level storm caller to 25 with trait B for a total of 100% crit chance,yes,3
+00:06:08,00:06:38,general,tower defense Acorn Assault,,how_to,unknown,level=25,Poisonic elders select trait B again giving ABAB setup for max damage,yes,3
+00:06:08,00:06:38,general,tower defense Acorn Assault,,how_to,unknown,level=25,Party starters take trait B at 25 for more damage since Krakens have enough speed,yes,3
+00:06:38,00:07:08,general,tower defense Acorn Assault,,target,unknown,duration_hours_min=2.5;duration_hours_max=3,With all towers level 25 the run to end of wave 200 takes about 2.5 to 3 hours,yes,3
+00:06:38,00:07:08,general,tower defense Acorn Assault,beast_master,how_to,unknown,,Before going AFK turn on auto attack with stop right there on your bar,yes,3
+00:06:38,00:07:08,general,tower defense Acorn Assault,beast_master,warning,unknown,wave=180;mobs=400,Around wave 180 over 400 mobs spawn in 10 waves pushing towers to the limit,yes,3
+00:06:38,00:07:08,general,tower defense Acorn Assault,beast_master,mechanic,unknown,,Stop right there prevents mobs glitching through and speeds kills by keeping mobs in tower range,yes,3
+00:07:08,00:07:39,general,tower defense Acorn Assault,,how_to,unknown,waves_per_summon=10,Summon all 10 waves at a time or the run takes significantly longer,yes,3
+00:07:08,00:07:39,general,tower defense Acorn Assault,,how_to,unknown,mobs_left=18;wave=200,Last phase starts at 18 mobs left on wave 200: sell defensive line except two Krakens and a Frozone,yes,3
+00:07:08,00:07:39,general,tower defense Acorn Assault,,warning,unknown,krakens=2;frozone=1,Creator sold one extra Kraken and let enemies slip; two Krakens and a Frozone is enough,yes,3
+00:07:08,00:07:39,general,tower defense Acorn Assault,,how_to,unknown,,Keep the two Krakens next to the Frozone in order Kraken Frozone Kraken on the row,yes,3
+00:07:08,00:07:39,general,tower defense Acorn Assault,,how_to,unknown,,Sell the voidinator tower at the top,yes,3
+00:07:39,00:08:10,general,tower defense Acorn Assault,,how_to,unknown,poisonic_elders=1,Summon a poisonic elder on the top row where the voidinator was,yes,3
+00:07:39,00:08:10,general,tower defense Acorn Assault,,how_to,unknown,poisonic_elders=2,Summon two more poisonic elders below the two up top and another behind krakens and frozone,yes,2
+00:07:39,00:08:10,general,tower defense Acorn Assault,,how_to,unknown,stormcaller=1,Summon one storm caller behind all of that,yes,3
+00:07:39,00:08:10,general,tower defense Acorn Assault,,how_to,unknown,party_starters=5,Summon five more party starter towers on the next row down,yes,3
+00:08:10,00:08:44,general,tower defense Acorn Assault,,how_to,unknown,trait_A=3;trait_B=2,On one party starter select three A traits and two B traits,yes,3
+00:08:10,00:08:44,general,tower defense Acorn Assault,,how_to,unknown,trait_B=5,On the other four party starters select five B traits for more damage,yes,3
+00:08:10,00:08:44,general,tower defense Acorn Assault,,how_to,unknown,trait_A=5;hp_threshold_pct=60,Storm caller gets five trait A giving more damage to mobs below 60% HP,yes,3
+00:08:10,00:08:44,general,tower defense Acorn Assault,,how_to,unknown,,Poisonic elders use same traits as before: A B B,yes,2
+00:08:44,00:09:14,general,tower defense Acorn Assault,,target,unknown,duration_hours=1,After final setup wait about another hour for all mobs to die to clear wave 200,yes,3
+00:08:44,00:09:14,general,tower defense Acorn Assault,,warning,unknown,wave=201,Let wave 201 mobs kill the totem and do not forfeit as it can lose progress,yes,3
+00:08:44,00:09:14,general,tower defense Acorn Assault,,opinion,unknown,wave=200,If towers are strong enough 200 may not be your limit,yes,3

@@ -1,0 +1,132 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,farming,stats,,mechanic,w6,,Farming has no skill efficiency; instead it has new stats: farming speed multiplier controls how fast crops grow and becomes important later.,yes,3
+00:00:31,00:01:02,farming,crop evolution,,mechanic,w6,,Crop evolution multi gives better chance to unlock new plants; unlocking plants is the main way to get farming rewards.,yes,3
+00:00:31,00:01:02,farming,experience multiplier,,mechanic,w6,,Farming EXP multiplier matters because higher farming level unlocks more seeds and thus more plants to unlock.,yes,3
+00:00:31,00:01:02,farming,magic bean bonus,,mechanic,w6,,Magic bean bonus is a prestige-like system explained later.,yes,3
+00:01:02,00:01:34,farming|sneaking,crop depot,,mechanic,w6,,Main farming rewards come from crop depot; rewards depend on Jade Emporium unlocks and are multiplied by number of crops unlocked.,yes,3
+00:01:34,00:02:04,farming|sneaking,crop depot jade emporium,,mechanic,w6,,Crop depot bonuses from Jade Emporium include a large character damage multiplier.,yes,3
+00:01:34,00:02:04,farming|gaming,crop depot,,mechanic,w6,,Crop depot gives gaming evolution chance bonus for evolving gaming plants.,yes,3
+00:01:34,00:02:04,farming|sneaking,crop depot jade emporium,,mechanic,w6,,Crop depot gives more jade gain which helps progress Jade Emporium via sneaking.,yes,3
+00:02:04,00:02:35,farming|cooking,crop depot,,mechanic,w6,,Crop depot unlocks meal speed for the world 4 dinner menu.,yes,3
+00:02:04,00:02:35,farming|money,crop depot,,mechanic,w6,,Crop depot unlocks more cash from monsters to help with stamps and other money costs.,yes,3
+00:02:04,00:02:35,farming|pets|breeding,crop depot,,mechanic,w6,,Crop depot pet rate bonus increases shiny pet level-up rate and breedability multiplier for unlocking new pets.,yes,3
+00:02:35,00:03:06,farming,plots,,priority,w6,,Unlocking more plots makes you progress faster in the skill because you get more plants overall.,yes,3
+00:03:06,00:03:39,farming|gem_shop,plots,,how_to,w6,,Plots can be unlocked via the day market or by buying them in the gem shop.,yes,3
+00:03:06,00:03:39,farming|gem_shop,plots,,priority,w6,,Highly recommends buying farming plots with free gems or bought gems since it helps farming.,yes,3
+00:03:06,00:03:39,farming,seed types,,mechanic,w6,seed_types=6;max_level=120,Compost bag shows six seed types requiring progressively higher levels up to level 120 for the glassy seed.,yes,3
+00:03:39,00:04:09,farming,seed types,,mechanic,w6,,Higher seed tiers give lower evolution chances but higher EXP and new plants; first seeds are easier to unlock from the new seed than later seeds.,yes,2
+00:03:39,00:04:09,farming,seed types,,priority,w6,,Unlock more seeds as fast as you can.,yes,3
+00:04:09,00:04:39,farming,seed types,,how_to,w6,,Easiest way to unlock new seeds is growing the highest level seed you have.,yes,3
+00:04:09,00:04:39,farming,collect all,,mechanic,w6,,Collect all button harvests everything on screen.,yes,3
+00:04:09,00:04:39,farming,handyman tools remove seed,,mechanic,w6,,Remove seed clears chosen seed type from plots so you can plant a different seed.,yes,3
+00:04:39,00:05:10,farming,evolution reset,,mechanic,w6,,You cannot go backwards in evolution; remove seed is a way to reset a plant and regrow back up.,yes,3
+00:04:39,00:05:10,farming,remove all,,warning,w6,clicks=2,Remove all takes two clicks and removes every plant on the ground so don't use it.,yes,3
+00:04:39,00:05:10,farming,plant all,,mechanic,w6,,Plant all is the only way to plant crops; it plants the selected seed in every available plot.,yes,3
+00:05:10,00:05:41,farming,lock crop,,mechanic,w6,,Lock crop prevents evolution; unlocked crops all have a chance to evolve on their first growth cycle.,yes,3
+00:05:41,00:06:11,farming,lock crop,,how_to,w6,,Selectively lock plants to prevent them evolving to the next tier; important for one phase of farming.,yes,3
+00:05:41,00:06:11,farming,instagrow,,mechanic,w6,,Instagrow button instantly grows a single plot.,yes,3
+00:06:11,00:06:41,farming,instagrow,,mechanic,w6,,Multiple instagrow charges can complete overgrowth but follow the same chances so probably not worth it.,yes,3
+00:06:11,00:06:41,farming,instagrow,,mechanic,w6,,Instagrow has limited charges each day so use them wisely.,yes,3
+00:06:11,00:06:41,farming,instagrow,,priority,w6,,Use instagrow charges to help unlock new plants and get more crop depot bonuses.,yes,3
+00:06:41,00:07:12,farming,crop info,,mechanic,w6,,Crop info window question mark switches between normal growth cycle and overgrowth cycle once overgrowth is unlocked; shows time and evolution chance.,yes,3
+00:07:12,00:07:45,farming,lock crop,,warning,w6,,Deselect lock if you don't want to lock crops; accidentally locking a crop can screw up plans.,yes,3
+00:07:12,00:07:45,farming,overgrowth,,mechanic,w6,,Overgrowth icon means plant is fully grown and rolling for a chance to overgrow; overgrowth has a level based on completed cycles.,yes,3
+00:07:45,00:08:16,farming,overgrowth,,mechanic,w6,multipliers=2x;4x;8x;16x,Each overgrowth level doubles the multiplier: 2x then 4x then 8x then 16x.,yes,3
+00:07:45,00:08:16,farming,overgrowth,,opinion,w6,,Overgrowth can be worth it if you can't harvest frequently since you get some gains back.,yes,3
+00:08:16,00:08:46,farming,overgrowth,,warning,early,level1_chance=30,Overgrowth chance at level one was down to 30% so time invested may not be worth it; harvest more frequently if possible.,yes,3
+00:08:16,00:08:46,farming,overgrowth,,mechanic,early,,Overgrowth percentage chances are bad in early game but there are ways to increase them.,yes,3
+00:08:46,00:09:17,farming,overgrowth,,mechanic,w6,level2=2;level3=4.7;level4=1.9,Overgrowth chance drops with each tier (2% then 4.7% then 1.9% as shown) and gets exponentially worse at higher tiers.,yes,2
+00:08:46,00:09:17,farming,overgrowth,,account_note,w6,max_multiplier=128;offline_hours=24,He has seen up to 128x on a single plant after 24 hours offline.,yes,3
+00:09:17,00:09:47,farming,overgrowth,,mechanic,w6,,Overgrowth cycle takes same time as normal growth, so more speed makes overgrowth cycles easier.,yes,3
+00:09:47,00:10:18,farming,grow timers,,account_note,w6,timer1_min=5;timer2_min=7;timer3_min=11,His grow timers are about 5 minutes on first seed 7 on second and 11 on third.,yes,3
+00:09:47,00:10:18,farming,crop evolution,,mechanic,w6,,Seeds already at end of their evolution show 0% chance and are farmed just for resources.,yes,3
+00:10:18,00:10:48,farming,crop evolution,,account_note,w6,evolve_chance=6.9,He keeps growing a seed with 6.9% evolve chance because he needs two more mushroom seeds unlocked.,yes,2
+00:10:18,00:10:48,farming|cauldrons_liquids,crop evolution night market,,mechanic,w6,,Evolution chances get extremely low and one main way to increase crop evolution is the night market.,yes,3
+00:10:48,00:11:19,farming,day market,,mechanic,w6,,Day market is the basis of farming and one of the first things unlocked; bonuses unlock as you unlock more plants but then need upgrading.,yes,3
+00:11:19,00:11:49,farming,day market,,mechanic,w6,max_levels=500,Each day market upgrade has 500 levels and scales in cost and in plant difficulty requiring harder crop depot plants.,yes,3
+00:11:49,00:12:20,farming,day market land plots,,mechanic,w6,,Land plots upgrade needs basic crops first then moves to next plant as you spend; it skips plants so you may grow through several first.,yes,3
+00:11:49,00:12:20,farming,day market,,how_to,w6,,When you reach the needed plant lock it and farm enough of that resource to unlock the upgrade.,yes,2
+00:12:20,00:12:50,farming,land plots,,priority,w6,,Unlock as many land plots as early as possible but don't spend too much time on it.,yes,3
+00:12:20,00:12:50,farming,night market,,how_to,w6,,Night market increases overgrowth and growth speed so plots can be unlocked much faster in the night market phase.,yes,3
+00:12:50,00:13:20,farming,crops,,priority,w6,,Unlock a few land plots then unlock as many different crops as you can to unlock night market bonuses.,yes,3
+00:12:50,00:13:20,farming,day market stronger vines,,mechanic,w6,cost1=13000;cost2=1470,Stronger vines upgrade costs rise progressively then switch to a higher plant type like raspberries needing more of them.,yes,2
+00:13:20,00:13:51,farming,night market,,advice,w6,,Use night market upgrades to get more plants per hour instead of farming low amounts up to almost 2000 of a plant.,yes,2
+00:13:51,00:14:23,farming,day market growth speed,,warning,w6,,Some night market bonuses need a certain plant count so don't spend crops below that threshold for other bonuses.,yes,3
+00:14:23,00:14:55,farming,day market product doubler,,mechanic,w6,doubler_chance=51,Product doubler gives a chance to multiply harvest yield; he has 51%.,yes,2
+00:14:23,00:14:55,farming,day market more beans,,mechanic,w6,,Harvest more beans is one of few ways to get more magic beans when trading in.,yes,3
+00:14:23,00:14:55,farming,day market enhanced deeds,,mechanic,w6,,Enhanced deeds bonus is not yet unlocked/implemented.,yes,2
+00:14:55,00:15:25,farming,night market overgrowth unlock,,priority,w6,,Unlock overgrowth in the night market as soon as you can; until then harvest as soon as ready because there is no overgrowth chance.,yes,3
+00:14:55,00:15:25,farming,night market overgrowth unlock,,mechanic,w6,,Unlocking overgrowth requires magic beans.,yes,3
+00:15:25,00:15:57,farming,night market evolution GMO,,mechanic,w6,crop_threshold=200,Evolution GMO gives crop evolution chance for every crop you have 200 of; more upgrades increase the multiplier.,yes,3
+00:15:25,00:15:57,farming,night market evolution GMO,,account_note,w6,crops_maxed=113;evolution_multiplier=181000,With 113 crops maxed he gets about 181000 times more evolution chance.,yes,2
+00:15:25,00:15:57,farming,night market evolution GMO,,opinion,w6,,Significant crop evolution is needed to unlock the last seeds.,yes,2
+00:15:57,00:16:28,farming,night market speed GMO,,mechanic,w6,crop_threshold=1000,Speed GMO gives more grow speed per crop you have 1000 of.,yes,3
+00:15:57,00:16:28,farming,night market speed GMO,,account_note,w6,qualified_crops=112;speed_multiplier=7.4;seed1_hours=4;cycle_min=5,With 112 qualified crops he gets 7.4x growth speed taking the first seed from 4 hours to a 5 minute cycle.,yes,3
+00:16:28,00:16:58,farming,night market speed GMO,,target,mid,target_range=2-5%,Getting speed GMO to a reasonable 2-5% range is a good starting point.,yes,2
+00:16:28,00:16:58,farming,night market OG fertilizer,,priority,w6,,Need enough upgrades in OG fertilizer for growth speed to matter.,yes,3
+00:16:58,00:17:30,farming,night market OG fertilizer,,warning,w6,,Without enough overgrowth chance you get locked out at about 2-4x; speed GMO won't give more plants per hour.,yes,3
+00:16:58,00:17:30,farming,night market OG fertilizer,,mechanic,w6,,OG fertilizer is a big break point in farming where more speed becomes more meaningful.,yes,3
+00:17:30,00:18:02,farming,night market OG fertilizer,,threshold,w6,multiplier=2.5,At 2.5 times multiplier on OG fertilizer overgrowth one is guaranteed.,yes,3
+00:17:30,00:18:02,farming,night market OG fertilizer,,mechanic,w6,,At that point waiting for second growth cycle is equivalent or better so you can harvest less often for same resources.,yes,2
+00:18:02,00:18:33,farming,night market OG fertilizer,,threshold,w6,multiplier=3.125,At 3.125 the second tick of overgrowth becomes more effective than harvesting at first tick.,yes,3
+00:18:02,00:18:33,farming,night market OG fertilizer,,threshold,w6,multiplier=3.83,At around 3.83 the third overgrowth tick becomes more effective.,yes,2
+00:18:02,00:18:33,farming,night market OG fertilizer,,mechanic,w6,cycle_min=5,More OG fertilizer means less frequent harvesting needed; otherwise you would harvest every 5 minutes.,yes,3
+00:18:33,00:19:03,farming,night market OG fertilizer,,threshold,w6,break1=2.5;break2=3.125;break3=3.83,Break points recap: 2.5 makes overgrowth 1 as effective; 3.125 makes tier 2 effective; 3.83 makes tier 3 as effective or slightly more.,yes,3
+00:19:03,00:19:34,farming,night market XP GMO,,mechanic,w6,crop_threshold=2500,XP GMO gives more farming EXP if you have 2500 of each crop type.,yes,3
+00:19:03,00:19:34,farming,night market XP GMO,,skip,early,max_level=120,Don't invest in XP GMO early game since level 120 is easy enough to reach; may matter later.,yes,3
+00:19:03,00:19:34,farming,land rank,,mechanic,w6,,Land rank has nothing yet but similar thoughts seen in tome and night market.,yes,2
+00:19:34,00:20:04,farming,night market value GMO,,mechanic,w6,crop_threshold=10000,Value GMO gives percent crop value per crop you have 10000 of; not early game and exact effect unknown.,yes,3
+00:20:04,00:20:35,farming,night market super GMO,,mechanic,endgame,crop_threshold=100000,Super GMO is super late game giving more GMO bonuses per crop you have 100000 of.,yes,3
+00:20:04,00:20:35,farming,night market,,account_note,w6,max_per_crop=10000,About 10000 is the most he could realistically farm per plant and it takes a lot of time.,yes,3
+00:20:35,00:21:07,farming,crop depot,,mechanic,w6,,Crop depot shows how many of each plant you have and which are unlocked.,yes,3
+00:20:35,00:21:07,farming,magic beans,,mechanic,w6,,Day market upgrades need plants; night market upgrades need magic beans.,yes,3
+00:20:35,00:21:07,farming,magic beans,,how_to,w6,,To get magic beans you need plants in crop depot and a crop transfer ticket.,yes,3
+00:21:07,00:21:38,farming,crop transfer ticket,,mechanic,w6,daily_tickets=1;daily_tickets_with_stamp=2,Crop transfer tickets are bought from world 6 shop one per day or two with the shop quantity stamp.,yes,3
+00:21:07,00:21:38,farming,crop transfer ticket,,priority,w6,,Stock up on crop transfer tickets even if not farming magic beans yet since you need many later.,yes,3
+00:21:07,00:21:38,farming,magic beans,,mechanic,w6,,Magic beans depend on how many plants and which type you have; higher tier plants give more.,yes,3
+00:21:38,00:22:08,farming,magic beans,,mechanic,w6,,Apple versus orange difference in beans is negligible but becomes significant at pineapples up to golden blueberries.,yes,3
+00:21:38,00:22:08,farming,magic beans,,priority,w6,,Grow the highest tier plant you can to get more magic beans.,yes,3
+00:22:08,00:22:40,farming,magic beans,,comparison,w6,,A lower level seed that you can grow in more quantity may yield more beans per cycle than higher-tier seed due to growth time and overgrowth.,yes,2
+00:22:08,00:22:40,farming,magic beans,,mechanic,w6,,Higher level and evolution of each seed gives more beans per crop in general.,yes,3
+00:22:40,00:23:11,farming,magic beans,,mechanic,w6,,Magic beans have diminishing returns: first plants give more beans than later ones.,yes,3
+00:22:40,00:23:42,farming,magic beans,,account_note,w6,crops_total=115000;beans=5200,With 115000+ crops he gets about 5200 magic beans.,yes,2
+00:23:11,00:23:42,farming,crop transfer ticket,,how_to,w6,,Go to bamboo forest map and drop crop transfer ticket on the NPC to turn in crops.,yes,3
+00:23:42,00:24:12,farming,crop transfer ticket,,warning,w6,,Turning in is a prestige that wipes your crop depot; don't do it if relying on faster growth speeds.,yes,3
+00:23:42,00:24:12,farming,crop transfer ticket,,mechanic,w6,tickets_per_turnin=1,Each turn-in consumes one ticket whether you drop one or a stack.,yes,3
+00:24:12,00:24:43,farming,crop transfer ticket,,mechanic,w6,timer_before_min=5;timer_after_min=34,After turn-in his 5 minute timer became 34 minutes since crop depot bonuses were lost.,yes,3
+00:24:12,00:24:43,farming,crop transfer ticket,,mechanic,w6,,Without crops the speed GMO and crop evolution bonuses go down to 1x.,yes,3
+00:24:43,00:25:13,farming,magic beans,,how_to,w6,hours=12,Turn in crops as often as you can to avoid diminishing returns; with two tickets per day turning in every 12 hours is most effective.,yes,3
+00:24:43,00:25:13,farming,magic beans,,how_to,w6,,If you have stocked plants turn in every growth cycle depending on overgrowth chance.,yes,2
+00:25:13,00:26:14,farming,magic beans,,account_note,w6,plants=84;beans=82,Test: about 84 total plants turned in for 82 magic beans.,yes,3
+00:26:14,00:26:44,farming,magic beans,,account_note,w6,plants=109;beans=268,Test: roughly doubling or tripling the crops gave only 268 beans.,yes,2
+00:26:44,00:27:14,farming,magic beans,,account_note,w6,corn_before=110;corn_after=215;beans_before=268;beans_after=368,Test: doubling all crops gained only 100 more beans so turn in as often as tickets allow.,yes,3
+00:27:14,00:27:44,farming,instagrow magic beans,,warning,w6,,Ideally don't spend instagrows on plants for beans; if you do keep growth time below the 4 hour mark.,yes,2
+00:27:14,00:27:44,farming,instagrow magic beans,,how_to,w6,hours=2,His best option would be growing shrimp at 2 hours with time skip for overgrowth chance.,yes,2
+00:27:44,00:28:15,farming,magic beans,,how_to,w6,,Wait to use speed items or bean harvesting until the board is full of the latest-evolution golden shrimp.,yes,2
+00:27:44,00:28:15,farming,magic beans,,mechanic,w6,,Better seeds give more beans per plant but the best seed may not be best beans per hour due to timing.,yes,3
+00:28:15,00:28:48,farming,magic beans,,priority,w6,,Farm magic beans to dump into overgrowth chance, speed GMO, crop evolution and some farming exp gain.,yes,3
+00:28:48,00:29:20,farming|stamps,crop evo stamp,,mechanic,w1,,Crop evo stamp in skills tab gives crop evolution chance.,yes,3
+00:28:48,00:29:20,farming|statues,compost statue,,mechanic,w1,,Compost statue gives farming EXP, important for leveling to unlock seeds.,yes,3
+00:29:20,00:29:53,farming|cards,lantern spirit,,mechanic,w6,exp_per_level=2;max_exp=12,Lantern Spirit card gives 2% farming EXP per level up to 12%.,yes,3
+00:29:20,00:29:53,farming|constellations,star signs,,mechanic,w1,crop_evo_per_level=3;overgrow_chance=15,Three star signs help: 3% crop evolution per farming level, more farming EXP and 15% overgrow chance.,yes,2
+00:29:20,00:29:53,farming|constellations,star signs,,advice,w1,,Infinite star signs make these basically free farming bonuses.,yes,2
+00:29:53,00:30:23,farming|bubbles,crop chapter,,mechanic,w2,tome_points_step=2000;tome_points_base=5000,Crop chapter (last orange bubble) gives crop evolution per 2000 tome points above 5000.,yes,3
+00:29:53,00:30:23,farming|bubbles,cus max mapper,,mechanic,w2,,Cus max mapper bubble gives crop evolution chance per world 6 map unlocked.,yes,2
+00:30:23,00:30:54,farming|vials,rice cake,,priority,w2,,Rice cake vial gives more farming speed and is worth grabbing.,yes,3
+00:30:23,00:30:54,farming|vials,cif fish vial,,priority,w2,,Sif fish vial gives crop evolution chance.,yes,2
+00:30:23,00:30:54,farming|vials,deep dead sap,,priority,w2,,Deep dead sap vial gives more farming experience.,yes,2
+00:30:23,00:30:54,farming|sneaking,msa totalizer,,mechanic,w3,,MSA totalizer gives chance for more farming EXP based on totems; bonus comes from Jade Emporium.,yes,2
+00:30:54,00:31:25,farming|pets,shiny pets,,mechanic,w4,pets=5;exp_per_level=1;pet_level=7;total_exp=35,Five shiny pets give 1% farming EXP per level; his are level 7 for 35%.,yes,3
+00:30:54,00:31:25,farming|cooking,seasoned marrow,,mechanic,w4,,Seasoned marrow meal gives more farming experience.,yes,2
+00:30:54,00:31:25,farming|cooking,bill jack pepper,,mechanic,w4,upgrade=5,Bill Jack pepper meal gives crop evolution chance; he can upgrade for another 5%.,yes,2
+00:31:25,00:31:56,farming|cooking,neon borger,,mechanic,w4,double_level=50;triple_level=100,Neon burger gives crop evolution chance doubled at summoning level 50 and tripled at 100, not reflected in displayed crop evo.,yes,2
+00:31:25,00:31:56,farming|cooking|summoning,neon borger,,account_note,w4,summoning_level=64;total_crop_evo=1242;base=621,At summoning level 64 he has 1242% crop evolution instead of displayed 621%.,yes,2
+00:31:56,00:32:26,farming|armor_smithy,onyx lantern,,mechanic,w5,statue_mult=30;tier_mult=3.2;base=2,Onyx Lantern artifact multiplies onyx statues by 30% base, up to 3.2x at Sovereign instead of 2x, boosting compost statue.,yes,2
+00:32:26,00:32:56,farming|summoning,winds lantern,,mechanic,w5,bonus=25;max_mult=2,Winds Lantern multiplies summoning winner bonuses 25% base up to 2x at max tier.,yes,2
+00:32:26,00:32:56,farming|summoning,summoning bonuses,,mechanic,w6,,World 6 skills link together with bonuses from all three; summoning provides farming speed.,yes,3
+00:32:56,00:33:26,farming|summoning,summoning bonuses,,account_note,w6,speed=2.7;exp=3.39;crop_evo=1.8;winds_lantern_extra=75,Summoning gives him 2.7x farming speed, 3.39x farming EXP and 1.8x crop evolution, plus 75% from winds lantern not displayed.,yes,2
+00:33:26,00:33:59,farming|sneaking,jade emporium,,mechanic,w6,,Jade Emporium has farming-related bonuses like MSA expander for farming EXP and crop depot scientist unlocking depot bonuses.,yes,3
+00:33:26,00:33:59,farming|sneaking|gaming|traps,jade emporium,,mechanic,w6,,Science pin helps gaming chance and science paintbrush gives more critters per trap (not yet unlocked).,yes,2
+00:33:59,00:34:31,farming|lab,jewels,,mechanic,w6,,Laboratory bling jewels give account-wide bonuses that affect farming slightly.,yes,2
+00:33:59,00:34:31,farming|sneaking,jade emporium,,mechanic,w6,unlocked_remaining=15,At least 15 other Jade Emporium upgrades are not yet unlocked.,yes,2
+00:33:59,00:34:31,class_choice,elite classes,warrior,opinion,w6,,He theorizes the new elite class upgrade will be warrior-based based on orange alchemy bubbles for farming.,yes,2

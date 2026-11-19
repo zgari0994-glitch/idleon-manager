@@ -1,0 +1,44 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,weekly_boss,Kattlekruk entrance,,mechanic,w5,,Kattlekruk boss entrance is in World 5 map Miner Mole Outskirts,yes,3
+00:00:00,00:00:00,weekly_boss,Kruk's Volcano Keys,,mechanic,w5,keys_per_attempt=1,One Kruk's Volcano Key is needed for each attempt on Kattlekruk,yes,3
+00:00:00,00:00:32,quests,sleepy mole quest 1,,how_to,w5,kills=6000000;keys=10,Sleepy mole quest 1: kill 6M Biggole Moles for 10 Kruk's Volcano Keys,yes,3
+00:00:32,00:00:32,quests,sleepy mole quest 2,,how_to,w5,kills=10000000;keys=25,Sleepy mole quest 2: kill 10M Crawlers (next map down) for 25 Kruk's Volcano Keys,yes,3
+00:00:32,00:00:32,quests,portal requirements,,mechanic,w5,kills=6000000,Key quests line up with portal requirements; killing 6M Biggole Moles lets you move to the next map,yes,3
+00:00:32,00:01:07,quests,third Kruk quest,,mechanic,late,,Third quest only available once you can complete Nightmare; requires equipping the Divine Scarf,yes,3
+00:01:07,00:01:07,weekly_boss|achievements,Divine Scarf craft,,mechanic,late,,Kattlekruk Cape drops only from Nightmare; several achievements needed to unlock crafting Divine Scarf; quest gives a trophy,yes,2
+00:01:07,00:01:39,weekly_boss|cards,Biggole Mole key drop,,mechanic,w5,drop_chance=1/75000,Biggole Mole has a 1 in 75K drop chance for a Kruk key,yes,3
+00:01:39,00:01:39,weekly_boss|drop_rate,offline key drops,,mechanic,w5,,Key drop chance counts for offline kills so high multi-kill with hundreds of thousands offline kills yields several keys,yes,3
+00:01:39,00:02:09,weekly_boss,Crawler key drop,,mechanic,w5,drop_chance=1/50000,Crawlers drop keys at 1 in 50K; you get more keys per hour going up to Crawlers if damage is enough,yes,3
+00:01:39,00:02:09,weekly_boss,Tremor Worm key drop,,mechanic,w5,drop_chance=1/25000,Tremor Worms drop keys at 1 in 25K,yes,3
+00:02:09,00:02:39,weekly_boss,Tremor Worm farming,,priority,w5,,Farming Tremor Worms effectively is the biggest source of Kruk keys; he gets more kills per hour there with same damage,yes,3
+00:02:09,00:02:39,weekly_boss,accuracy requirement,,threshold,w5,accuracy=900,Minor requirement: only 900 accuracy needed if damage is high enough to avoid Biggole Moles,yes,3
+00:02:39,00:03:09,weekly_boss,accuracy requirement,,threshold,w5,accuracy=54000;hit_chance=100,Need 54K accuracy for 100% hit chance on Biggole Moles in boss fight; otherwise painful or impossible,yes,3
+00:02:39,00:02:39,weekly_boss,accuracy requirement,,opinion,w5,,Accuracy should be one of your lesser concerns in World 5,yes,3
+00:03:09,00:03:09,weekly_boss,boss HP,,mechanic,w5,boss_hp=100000000000,Kattlekruk has 100 billion HP and a healing mechanic,yes,3
+00:03:09,00:03:43,weekly_boss,damage breakpoint,,threshold,w5,shots_to_kill_mole=2,Suggested breakpoint: be able to 1 or 2 shot Biggole Moles since they spawn in the fight and heal the boss on reaching it,yes,3
+00:03:43,00:04:17,weekly_boss,mole healing,,mechanic,w5,heal_pct=1-1.5,Each Biggole Mole reaching the boss heals it for about 1-1.5% of its HP; goal is damage while preventing moles reaching boss,yes,3
+00:04:17,00:04:17,weekly_boss,DPS race,,mechanic,w5,,If moles reach the boss it becomes a DPS race to out-damage the healing; may be a struggle depending on difficulty,yes,3
+00:04:17,00:04:48,weekly_boss,wave clear,divine_knight|elemental_sorcerer|bubonic_conjuror,setup,w5,,If damage is low use wave clear: Divine Knight Slash and Statue; Elemental Sorcerer Meteors and Molten Volcanoes; Bubonic Conjuror Poison Clouds,yes,3
+00:04:48,00:04:48,weekly_boss,later difficulties,maestro,warning,late,,Maestro struggles with the mole waves; will be a big challenge on later boss difficulties,yes,3
+00:04:48,00:05:21,weekly_boss,rewards,,mechanic,w5,main_rewards=5,Kattlekruk normal mode has five main rewards plus rare drop tables with statues and coins,yes,3
+00:05:21,00:05:21,cards|sailing,Kattlekruk card,,priority,w5,,Kattlekruk card gives passive sailing speed; level it up as much and as soon as possible,yes,3
+00:05:21,00:05:52,weekly_boss,Kruk Tooth,,mechanic,w5,,Kruk Tooth is a regular drop needed to craft new boss gear weapons and a pendant once Nightmare is clearable,yes,2
+00:05:52,00:05:52,weekly_boss,Strung Tooth pendant,,mechanic,w5,,Strung Tooth pendant is a base drop and is also used in the Divine Scarf recipe,yes,2
+00:05:52,00:06:23,weekly_boss,Strung Tooth stats,,mechanic,w5,weapon_power=8;base_stats=6;defense=30;total_damage_pct=20;all_stats_pct=5;upgrade_slots=5,Strung Tooth gives 8 weapon power 6 base stats 30 defense 20% total damage 5% all stats and five upgrade slots,yes,2
+00:05:52,00:06:23,weekly_boss,Strung Tooth stats,,comparison,w5,,Strung Tooth is a pretty good upgrade from Chizoar's Blankie,yes,3
+00:06:23,00:06:55,weekly_boss,Molten Obol,,mechanic,w5,weapon_power=7;base_stats=15;afk_gains_pct=5;total_damage_pct=2,Base Molten Obol gives 7 weapon power 15 base stats 5% AFK gains and 2% total damage,yes,3
+00:06:23,00:06:55,weekly_boss,Molten Obol,,priority,w5,,Molten Obol is best in slot for pretty much every character for AFK fighters sampling and skilling AFKers,yes,3
+00:06:55,00:06:55,weekly_boss|drop_rate,Molten Obol,,warning,w5,,Not best in slot when actively farming since drop rate and multi-kill may outweigh it,yes,3
+00:06:55,00:07:27,weekly_boss,Molten Obol reroll,,mechanic,w5,afk_gains_pct=6;obols=4;total_afk_pct=30,Obol can be rerolled up to 6% AFK gains; 3-4 on family page plus personal gives potential 30% more AFK gains,yes,3
+00:07:27,00:07:27,weekly_boss,Molten Obol,,opinion,w5,,It is a decent amount of farming but a good benefit,yes,3
+00:07:27,00:08:00,weekly_boss|armor_smithy,armor upgrade stones,,mechanic,w5,success_chance_pct=60,Boss armor upgrade stones have about 60% chance to apply; slot is used even if it fails,yes,3
+00:07:27,00:08:00,weekly_boss|armor_smithy,armor upgrade stones,,mechanic,w5,weapon_power=1;defense=13;main_stat=8,Each stone gives +1 weapon power 13 defense and 8 main stat to armor,yes,3
+00:07:27,00:08:00,weekly_boss|armor_smithy,armor upgrade stones,,comparison,w5,,Significant upgrade over World 5 vendored armor upgrade stones but risk of wasting slot,yes,3
+00:08:00,00:08:32,merits|weekly_boss,Merit Shop,,mechanic,w5,upgrades=9;free_upgrades=3,Completing normal mode lets you buy first three of nine World 5 Merit Shop upgrades,yes,3
+00:08:00,00:08:32,merits|armor_smithy,boss armor,,mechanic,w5,pieces=3,First three merit upgrades allow building new boots pants and chest piece,yes,3
+00:08:32,00:08:32,armor_smithy,boss armor recipe,,mechanic,w5,,Each new armor piece requires Kruk Tooth and the respective Magma Core Gear piece,yes,3
+00:08:32,00:09:05,armor_smithy,boss armor,,comparison,w5,,New pieces lose percent to all stats but have higher base stats an extra upgrade slot and new bonuses,yes,3
+00:08:32,00:09:05,armor_smithy,boots,,mechanic,w5,total_damage_pct=8;drop_chance_pct=15,Boots give 8% total damage and 15% drop chance plus decent base stats,yes,3
+00:08:32,00:09:05,armor_smithy,pants and chest,,mechanic,w5,,Pants and chest piece each give mob respawn and total damage,yes,3
+00:09:05,00:09:05,armor_smithy,boss armor,,warning,w5,,Damage with this set is similar; some characters lose damage some gain; can lose damage so be careful,yes,3
+00:09:05,00:09:05,armor_smithy|drop_rate,boss armor,,comparison,w5,,Benefit of the set is additional mob respawn and drop rate,yes,3

@@ -1,0 +1,23 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,talent_points|class_exp,apocalypse talent,barbarian,mechanic,late,level=132;damage_percent=6;kills_per_step=100000,Barbarian Apocalypse talent at level 132 gives 6% damage per 100k kills per mob type.,yes,3
+00:00:00,00:00:30,talent_points,apocalypse talent,barbarian,threshold,late,level_for_7_percent=165;damage_percent=7,Barbarian Apocalypse needs level 165 to reach 7% damage per 100k kills.,yes,3
+00:00:00,00:00:30,cooking|class_exp,apocalypse chow,blood_berserker,mechanic,late,kills_per_step=1000000,Blood berserker talent Apocalypse Chow gives cooking efficiency and XP percent per 1 million kills on each mob type.,yes,3
+00:00:00,00:00:30,general,update,blood_berserker,meta_change,any,version=1.57,Update 1.57 introduced the new elite classes mainly the blood berserker.,yes,3
+00:00:30,00:01:00,cooking|apocalypses,apocalypse chow,blood_berserker,how_to,late,,Used a juiced multi-kill build plus time candies and splice gun to farm kills for Apocalypse Chow and boost cooking ladles.,yes,2
+00:01:00,00:01:30,cooking|death_note,time candy usage,,warning,late,,Warns his build is very late game with a full Blurble death note so time candy needs vary per person.,yes,3
+00:01:00,00:01:30,cooking,ladles,,account_note,late,starting_ladles=119,Starting point was 119 ladles before the chow test.,yes,2
+00:01:00,00:01:30,prayers|apocalypses,multi-kill prayer,,setup,late,,Used the multi-kill prayer while splicing and AFKing for kills.,yes,2
+00:02:02,00:02:32,apocalypses,wood mushrooms,,opinion,unknown,,Says wood mushrooms have always been a mistake.,yes,2
+00:02:32,00:03:03,apocalypses|cooking,time candy,,account_note,late,ladles_so_far=185,Reached 185 ladles partway through using time candies on kills.,yes,2
+00:03:03,00:03:33,apocalypses,time candy,,warning,late,candy_hours=12,Accidentally used a 12 hour time candy when it was too many.,yes,2
+00:03:33,00:04:04,cooking|apocalypses,apocalypse chow,blood_berserker,threshold,late,efficiency_percent=298;ladles=800,After more candies he reached 298 efficiency on cooking from Apocalypse Chow.,yes,2
+00:04:04,00:04:35,apocalypses,time candy,,how_to,late,kills=110000,Swapped in AFK time candy for an extra 160; still only 110k kills on rams.,yes,1
+00:04:35,00:05:08,apocalypses,time candy,,how_to,late,kills=400000;candy_hours=4,Mostly using four hour time candies at this point to reach 400k kills.,yes,2
+00:05:08,00:05:38,cooking|apocalypses,apocalypse chow,blood_berserker,comparison,late,start_ladles=117;start_percent=30;end_percent=432,Ended with 432 percent efficiency after starting at 117 ladles and 30 percent from chow across worlds 1-3.,yes,2
+00:05:38,00:06:09,cooking,ladles,blood_berserker,comparison,late,ladles_start=60;ladles_end=160,Chow took him from about 60 ladles to 160 ladles.,yes,1
+00:06:09,00:06:41,apocalypses,kills,blood_berserker,account_note,late,start_chows=3,Started with three chows since he already had kills from world 4 and rams from world 3.,yes,3
+00:06:09,00:06:41,apocalypses,time candy,,account_note,late,kills_min=100000;kills_max=400000,Time candy did not reach a million kills because he already had 100k to 400k kills on many mobs.,yes,3
+00:06:09,00:06:41,cooking,efficiency,blood_berserker,mechanic,late,,Chow efficiency percent is an additive multiplier not multiplicative.,yes,3
+00:06:41,00:07:12,cooking,efficiency,blood_berserker,comparison,late,start_efficiency=312000;gain=417000;total=729000,Efficiency went from 312k at start gaining 417k to a total of 729k.,yes,3
+00:06:41,00:07:12,cooking|apocalypses,apocalypse chow,blood_berserker,opinion,late,extra_ladles=40;afk_ladles=110,Not worth it: only about 40 extra ladles for many candies unless at his level; better to just AFK at 110.,yes,2
+00:07:12,00:07:12,apocalypses,time candy,,account_note,late,total_hours=250,Time candy counter showed hours worth not candy count; total 250 hours of time candy including mistakes.,yes,3

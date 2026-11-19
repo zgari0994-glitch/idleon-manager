@@ -1,0 +1,149 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+J8k9B2TfTxE,nocturne,2023-02-23,00:00:00,00:00:00,gaming,world-5/gaming,unlock,,mechanic,w5,world=5,The Gaming skill is unlocked in World 5 and has only a few mechanics.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:00:00,00:00:00,gaming,world-5/gaming,pixels,,mechanic,any,,Main goal in Gaming is generating Pixels as a currency for other parts of the game.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:00:00,00:00:32,gaming,world-5/gaming,pixels,,mechanic,any,,Most Pixels go back into Gaming to upgrade the various multipliers.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:00:00,00:00:32,gaming,world-5/gaming,plants,,mechanic,any,,Plants are grown on the main screen and harvested to generate Gaming Pixels.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:00:32,00:00:32,gaming,world-5/gaming,plants,,mechanic,any,,Each plant type has different bonuses; these come from the mutations.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:00:32,00:00:32,gaming,world-5/gaming,plant counter,,mechanic,any,,The plant counter shows current plants grown and the maximum plants for your game board.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:00:32,00:00:32,gaming,world-5/gaming,imports,,mechanic,any,,Water Droplet,Golden Nugget and Acorn correspond to benefits unlocked through the Imports tab.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:01:02,00:01:02,gaming,world-5/gaming,harvest all,,warning,any,,Harvesting order matters before you use the Harvest All button.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:01:02,00:01:02,gaming,world-5/gaming,pixels,,mechanic,any,,Pixels can be spent in Gaming itself and also in Alchemy and Divinity.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:01:02,00:01:02,general,,alchemy; pixels,,mechanic,any,,Pixels can be spent in Gaming itself and also in Alchemy and Divinity.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:01:02,00:01:02,divinity,world-5/divinity,alchemy; pixels,,mechanic,any,,Pixels can be spent in Gaming itself and also in Alchemy and Divinity.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:01:36,00:01:36,gaming,world-5/gaming,logbook,,mechanic,any,plant_levels=4,Logbook gives a Pixel multiplier for each plant discovered and each of its 4 levels.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:01:36,00:01:36,gaming,world-5/gaming,logbook,,priority,early,times=1,Early game let each newly unlocked plant grow to maximum level at least once for the Logbook multiplier.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:01:36,00:01:36,gaming,world-5/gaming,logbook,,account_note,unknown,logbook_have=28;logbook_total=72;multiplier=9,He has 28 of 72 Logbook plants and gets almost 9x more Pixels from it.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:02:13,00:02:13,gaming,world-5/gaming,fertilizer,,mechanic,early,options=3,Fertilizer tab has 3 options available as soon as Gaming is unlocked.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:02:13,00:02:47,gaming,world-5/gaming,fertilizer garden capacity,,priority,early,priority=1,First Fertilizer priority is garden capacity so more plants can be grown each check.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:02:47,00:02:47,gaming,world-5/gaming,fertilizer base value,,priority,early,priority=2,Second priority is base value of plants; spend more here than on Growth Cycle.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:02:47,00:02:47,gaming,world-5/gaming,fertilizer base value,,mechanic,any,,Base value multiplies all other multipliers including imports and mutations.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:02:47,00:03:20,gaming,world-5/gaming,fertilizer growth cycle,,priority,any,check_interval_hours=1-2,If checking Gaming every hour or two spend about as much on Growth Cycle as on base value.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:03:20,00:03:20,gaming,world-5/gaming,fertilizer growth cycle,,priority,any,check_interval_days=1-2,If checking only every day or two put much less into Growth Cycle.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:03:20,00:03:51,gaming,world-5/gaming,fertilizer growth cycle,,mechanic,any,max_evolutions=4;growth_cycle_hours=1.74,Plants can only evolve 4 times; at 1.74 hours he reaches max growth cycle in under a day.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:03:51,00:03:51,gaming,world-5/gaming,mutations,,mechanic,any,,Mutations unlock new plant types; which plant grows is random and cannot be influenced.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:03:51,00:03:51,gaming,world-5/gaming,mutations,,priority,early,,Unlock mutations as soon as possible since each is better than the base Leaf plant.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:03:51,00:04:22,gaming,world-5/gaming,mutations dna splices,,how_to,early,,Spend DNA Splices from harvesting plants to get a percentage chance to unlock the next mutation.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:04:22,00:04:22,gaming,world-5/gaming,mutations dna splices,,mechanic,early,fungi_splices=10-20,Fungi takes only about 10-20 splices to unlock.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:04:22,00:04:54,gaming,world-5/gaming,mutations dna splices,,mechanic,late,mutation=7;splices=400;chance_pct=3,Later mutations need more splices; at 7th mutation with 400 splices he has only about 3% chance.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:04:22,00:04:54,gaming,world-5/gaming,mutations dna splices,,comparison,late,,The last mutation will have an even worse unlock chance than the 7th.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:04:54,00:04:54,gaming,world-5/gaming,fungi,,mechanic,any,fungi_pixels=4,Fungi gives 4 Pixels when picked but no Gaming EXP.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:04:54,00:04:54,gaming,world-5/gaming,bonsai,,mechanic,any,,Bonsai gives more Pixels per evolution.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:04:54,00:04:54,gaming,world-5/gaming,blossom,,mechanic,any,,Blossom gives more Pixels and more Gaming EXP.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:04:54,00:04:54,gaming,world-5/gaming,cactus,,mechanic,any,,Cactus instantly increases Growth Cycle of nearby plants; higher cactus evolution triggers more cycles.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:04:54,00:05:24,gaming,world-5/gaming,voraci,,mechanic,any,,Harvesting a Voraci has a chance to instantly grow a new plant.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:05:24,00:05:24,gaming,world-5/gaming,voraci|cactus,,setup,any,,Voraci combines really well with the Cactus.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:05:24,00:05:24,gaming,world-5/gaming,berry bush,,mechanic,any,multiplier=7,Berry Bush gives 7x more Pixels and more Gaming EXP.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:05:24,00:05:24,gaming,world-5/gaming,mutations,,opinion,any,,Mutations are good but random so do not pay too much attention to them.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:05:24,00:05:54,gaming,world-5/gaming,fertilizer evolve chance,,mechanic,any,,One section increases the chance to evolve with each Growth Cycle.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:05:54,00:05:54,gaming,world-5/gaming,fertilizer evolve chance,,priority,any,,Evolve chance is more important than overall Growth Cycle.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:05:54,00:06:25,gaming,world-5/gaming,fertilizer evolve chance,,mechanic,any,start_pct=10;levels=70;gain_pct=6,Evolve chance starts around 10% and rises slowly; 70 levels in he gained only 6%.,yes,2
+J8k9B2TfTxE,nocturne,2023-02-23,00:06:25,00:06:25,gaming,world-5/gaming,imports,,mechanic,any,,Imports tab unlocks Sprinkler,Shovel,Squirrel
+J8k9B2TfTxE,nocturne,2023-02-23,00:06:25,00:06:25,gaming,world-5/gaming,sprinkler,,mechanic,early,,Sprinkler is unlocked very early and instantly grows Sprouts but needs time to recharge.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:06:25,00:06:57,gaming,world-5/gaming,sprinkler,,mechanic,any,recharge_pct_per_upgrade=1,Each Sprinkler upgrade reduces recharge time by 1%; cost scales relatively slowly.,yes,2
+J8k9B2TfTxE,nocturne,2023-02-23,00:06:57,00:06:57,gaming,world-5/gaming,dirty shovel,,mechanic,any,,Dirty Shovel is the second import and unlocks the Golden Nugget.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:06:57,00:07:27,gaming,world-5/gaming,dirty shovel,,mechanic,any,,More Shovel upgrades raise the chance of bigger Nuggets by increasing the minimum value.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:07:27,00:07:27,gaming,world-5/gaming,dirty shovel,,mechanic,any,,Maximum Nugget value is always possible even at low levels,just at very low chance.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:07:27,00:07:27,gaming,world-5/gaming,autumn squirrel,,mechanic,any,,Autumn Squirrel is the third import and gathers Acorns.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:07:27,00:08:00,gaming,world-5/gaming,acorns,,mechanic,any,,Acorns are spent on two multipliers: base Pixels and plant growth rate,like Fertilizer.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:08:00,00:08:00,gaming,world-5/gaming,autumn squirrel,,mechanic,any,,Spending Pixels on the Squirrel finds more Acorns and makes upgrading easier.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:08:00,00:08:00,gaming,world-5/gaming,elegant seashell,,priority,early,,Elegant Seashell is one of the best unlocks; he would spend a couple days to get it ASAP.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:08:00,00:08:35,gaming,world-5/gaming,elegant seashell,,mechanic,any,,Seashell gives more Pixels per Rank and ranks up by evolving plants while active on the board.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:08:00,00:08:35,gaming,world-5/gaming,elegant seashell,,priority,early,,The earlier Seashell is unlocked the more evolutions and multiplier you get.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:08:35,00:08:35,gaming,world-5/gaming,elegant seashell,,mechanic,any,pct_per_rank_per_upgrade=1,Each Seashell upgrade gives 1% more per Rank.,yes,2
+J8k9B2TfTxE,nocturne,2023-02-23,00:08:35,00:08:35,gaming,world-5/gaming,elegant seashell,,account_note,unknown,rank=8;bonus_pct=160,He is at Rank 8 and gains 160% more Pixels from the Seashell.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:08:35,00:09:07,gaming,world-5/gaming,kitsune roxie,,mechanic,any,,Kitsune Roxie makes plants grow faster but give fewer Pixels; good if checking often.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:09:07,00:09:07,gaming,world-5/gaming,kitsune roxie,,threshold,any,check_min=30;check_max_min=60,Kitsune Roxie needs checking every 30 minutes to an hour.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:09:07,00:09:37,gaming,world-5/gaming,kitsune roxie,,skip,any,,Do not focus on the Roxie if you cannot check the game frequently.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:09:37,00:09:37,gaming,world-5/gaming,harvest order,,how_to,any,,Two special plants matter for harvest order: Voraci and Cactus.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:09:37,00:10:07,gaming,world-5/gaming,harvest order voraci,,how_to,any,,Harvest Voraci first,after harvesting a couple leaves to make slots so new plants can grow.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:09:37,00:10:07,gaming,world-5/gaming,harvest order cactus,,how_to,any,,Harvest leaves around the Cacti to give best chance of new plants near them.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:10:07,00:10:07,gaming,world-5/gaming,harvest order cactus,,how_to,any,,If nothing is near the Cactus harvest further ones to benefit most from the Cactus.,yes,2
+J8k9B2TfTxE,nocturne,2023-02-23,00:10:07,00:10:39,gaming,world-5/gaming,harvest order,,how_to,any,,After Voraci grows new leaves,move on to the Cacti.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:10:39,00:10:39,gaming,world-5/gaming,cactus,,mechanic,any,,Cacti evolve all plants around them,including other Cacti.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:10:39,00:10:39,gaming,world-5/gaming,harvest order cactus,,how_to,any,,Harvest farther Cacti first to upgrade a Cactus so it reaches further plants.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:10:39,00:10:39,gaming,world-5/gaming,harvest all,,how_to,any,,After special plants are handled,just click Harvest All.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:11:13,00:11:13,gaming,world-5/gaming,sprinkler,,mechanic,any,,AFK or AFK boosts give more Water Droplets.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:11:13,00:11:13,gaming,world-5/gaming,sprinkler,,mechanic,any,,Using the Sprinkler spends droplets and grows plants equal to the number of droplets.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:11:13,00:11:44,gaming,world-5/gaming,golden sprinkler,,mechanic,any,,Golden Sprinkler from the Gem Shop gives a chance not to spend Water Droplets,allowing multiple Growth Cycles.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:11:13,00:11:44,gem_shop,account/prem-currency/gem-shop,golden sprinkler,,mechanic,any,,Golden Sprinkler from the Gem Shop gives a chance not to spend Water Droplets,allowing multiple Growth Cycles.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:11:44,00:11:44,gaming,world-5/gaming,dirty shovel,,mechanic,any,,Dirty Shovel is a base-level multiplier.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:11:44,00:12:15,gaming,world-5/gaming,dirty shovel,,mechanic,any,hours_nugget1=1;hours_nugget2=3;hours_nugget3=4,Away 1 hour gives one Nugget to harvest,3 hours total for two,4 hours for the third.
+J8k9B2TfTxE,nocturne,2023-02-23,00:11:44,00:12:15,gaming,world-5/gaming,dirty shovel,,priority,any,,Check back as frequently as you can for Nuggets,but still collect when you can.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:12:15,00:12:15,gaming,world-5/gaming,dirty shovel,,mechanic,any,,Each Golden Nugget is random with a chance of higher levels,not guaranteed.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:12:15,00:12:47,gaming,world-5/gaming,dirty shovel,,account_note,unknown,multiplier=479,His Nugget multiplier is 479x Pixels; he plans to upgrade Shovel import for bigger Nuggets.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:12:15,00:12:47,gaming,world-5/gaming,dirty shovel,,priority,any,,Unlock the Shovel and check back as frequently as possible.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:12:47,00:12:47,gaming,world-5/gaming,autumn squirrel,,mechanic,any,,Squirrel is a passive Acorn generator; more import upgrades give more Acorns.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:12:47,00:12:47,gaming,world-5/gaming,acorns,,priority,any,,Spend Acorns on more Pixels rather than plant growth,since growth depends on how often you check.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:12:47,00:13:18,gaming,world-5/gaming,autumn squirrel,,warning,any,,You do not gain Acorns until you click the Squirrel at least once when you log in.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:13:18,00:13:18,gaming,world-5/gaming,elegant seashell,,mechanic,any,,Seashell is passive and counts plant evolutions nearby,even offline.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:13:18,00:13:48,gaming,world-5/gaming,elegant seashell,,mechanic,any,evolutions=720;rank=8,More evolutions give more Rank,which multiplies the Imports bonus; he has 720 evolutions,nearly Rank 8.
+J8k9B2TfTxE,nocturne,2023-02-23,00:13:48,00:13:48,gaming,world-5/gaming,elegant seashell,,priority,early,,Seashell grows quickly and gives huge gains,so unlock it as soon as possible.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:13:48,00:13:48,gaming,world-5/gaming,kitsune roxie,,warning,any,,Kitsune Rock is not very useful while AFK but beneficial if online or checking frequently.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:13:48,00:14:18,gaming,world-5/gaming,kitsune roxie,,mechanic,any,,The Rock can only be toggled on or off while the board is completely cleared.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:14:18,00:14:18,gaming,world-5/gaming,kitsune roxie,,warning,any,,While active you gain fewer Pixels per plant,but it is worth it if checking often.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:14:18,00:14:50,gaming,world-5/gaming,gamejoy stamp,,mechanic,w1,,GameJoy Stamp in World 1 increases Gaming EXP.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:14:18,00:14:50,stamps,world-1/stamps,gamejoy stamp,,mechanic,w1,,GameJoy Stamp in World 1 increases Gaming EXP.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:14:18,00:14:50,gaming,world-5/gaming,gaming exp,,opinion,any,,Gaming EXP is not super important but gives a little extra.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:14:50,00:14:50,gaming,world-5/gaming,statues,,mechanic,w1,,There are no Statues for Gaming.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:14:50,00:14:50,statues,,statues,,mechanic,w1,,There are no Statues for Gaming.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:14:50,00:14:50,gaming,world-5/gaming,gamer at heart,,mechanic,w2,,Gamer At Heart is a large bubble that must be equipped; gives chance of Gaming progress equal to claimed AFK gains.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:14:50,00:14:50,bubbles,world-2/bubbles,gamer at heart,,mechanic,w2,,Gamer At Heart is a large bubble that must be equipped; gives chance of Gaming progress equal to claimed AFK gains.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:14:50,00:14:50,gaming,world-5/gaming,gamer at heart,,opinion,w2,,Gamer At Heart is really useful and stacks with other bonuses,shown at the video end.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:14:50,00:14:50,bubbles,world-2/bubbles,gamer at heart,,opinion,w2,,Gamer At Heart is really useful and stacks with other bonuses,shown at the video end.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:14:50,00:15:23,gaming,world-5/gaming,bit by bit,,mechanic,w5,,Bit by Bit is the third yellow bubble released with World 5.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:14:50,00:15:23,bubbles,world-2/bubbles,bit by bit,,mechanic,w5,,Bit by Bit is the third yellow bubble released with World 5.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:15:23,00:15:23,gaming,world-5/gaming,bit by bit,,mechanic,w2,,Bit by Bit gives more Gaming Pixels per bubble level.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:15:23,00:15:23,bubbles,world-2/bubbles,bit by bit,,mechanic,w2,,Bit by Bit gives more Gaming Pixels per bubble level.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:15:23,00:15:23,gaming,world-5/gaming,dust mote,,mechanic,w2,exp_pct_per_level=3,Dust Mote vial needs a Catching item and gives 3% Gaming EXP per level.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:15:23,00:15:23,vials,world-2/vials,dust mote,,mechanic,w2,exp_pct_per_level=3,Dust Mote vial needs a Catching item and gives 3% Gaming EXP per level.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:15:23,00:15:53,gaming,world-5/gaming,oozie soul,,mechanic,w2,bits_pct_per_level=1,Oozie Soul vial gives 1% more Bits per level.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:15:23,00:15:53,vials,world-2/vials,oozie soul,,mechanic,w2,bits_pct_per_level=1,Oozie Soul vial gives 1% more Bits per level.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:15:53,00:15:53,gaming,world-5/gaming,vials,,mechanic,any,,Vials are doubled by the Laboratory bonus,so they help Gaming progress.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:15:53,00:15:53,vials,world-2/vials,vials,,mechanic,any,,Vials are doubled by the Laboratory bonus,so they help Gaming progress.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:15:53,00:15:53,lab,world-4/laboratory,vials,,mechanic,any,,Vials are doubled by the Laboratory bonus,so they help Gaming progress.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:15:53,00:15:53,gaming,world-5/gaming,post office gaming loot crate,,mechanic,w2,afk_gains_pct=9,Post Office Gaming Loot Crate makes 9% of AFK gains count toward Gaming; it needs many boxes.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:15:53,00:16:23,gaming,world-5/gaming,gamer at heart,,setup,any,,Loot Crate stacks well with Gamer at Heart bubble.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:15:53,00:16:23,bubbles,world-2/bubbles,gamer at heart,,setup,any,,Loot Crate stacks well with Gamer at Heart bubble.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:23,00:16:23,gaming,world-5/gaming,world 3,,mechanic,w3,,There are currently no Gaming bonuses in World 3.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:23,00:16:23,gaming,world-5/gaming,head chef bread,,mechanic,w4,bits_pct_per_plate=4,Head Chef Bread gives roughly 4% more Bits per plate level.,yes,2
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:23,00:16:23,cooking,world-4/cooking,head chef bread,,mechanic,w4,bits_pct_per_plate=4,Head Chef Bread gives roughly 4% more Bits per plate level.,yes,2
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:23,00:16:23,gaming,world-5/gaming,giant tomato,,mechanic,w4,exp_pct_per_plate=5,Giant Tomato gives 5% more Gaming EXP per plate level.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:23,00:16:23,cooking,world-4/cooking,giant tomato,,mechanic,w4,exp_pct_per_plate=5,Giant Tomato gives 5% more Gaming EXP per plate level.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:23,00:16:55,gaming,world-5/gaming,saucy sausage,,mechanic,w4,bits_pct_per_plate=6,Saucy Sausage gives 6% more Bits per plate level in the Dinner menu.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:23,00:16:55,cooking,world-4/cooking,saucy sausage,,mechanic,w4,bits_pct_per_plate=6,Saucy Sausage gives 6% more Bits per plate level in the Dinner menu.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:23,00:16:55,gaming,world-5/gaming,artifacts,,mechanic,w5,artifacts=2,Two Sailing artifacts benefit Gaming.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:23,00:16:55,sailing,world-5/sailing,artifacts,,mechanic,w5,artifacts=2,Two Sailing artifacts benefit Gaming.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:55,00:16:55,gaming,world-5/gaming,gummy orb,,mechanic,w5,,Gummy Orb from Candied Island gives more Gaming Bits depending on Slab progress.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:55,00:16:55,sailing,world-5/sailing,gummy orb,,mechanic,w5,,Gummy Orb from Candied Island gives more Gaming Bits depending on Slab progress.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:55,00:16:55,gaming,world-5/gaming,weather book,,mechanic,w5,,Weather Book from Cloudy Quay gives more Bits based on Gaming level.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:55,00:16:55,sailing,world-5/sailing,weather book,,mechanic,w5,,Weather Book from Cloudy Quay gives more Bits based on Gaming level.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:55,00:16:55,gaming,world-5/gaming,artifacts,,skip,late,,These artifacts are late game,so do not focus on them too early.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:55,00:16:55,sailing,world-5/sailing,artifacts,,skip,late,,These artifacts are late game,so do not focus on them too early.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:55,00:17:29,gaming,world-5/gaming,purrmep statue,,mechanic,w5,,Purrmep Statue is the one Divinity statue that benefits Gaming.,yes,2
+J8k9B2TfTxE,nocturne,2023-02-23,00:16:55,00:17:29,divinity,world-5/divinity,purrmep statue,,mechanic,w5,,Purrmep Statue is the one Divinity statue that benefits Gaming.,yes,2
+J8k9B2TfTxE,nocturne,2023-02-23,00:17:29,00:17:29,gaming,world-5/gaming,purrmep statue,,mechanic,late,max_growth_speed_pct=50,Linked bonus gives account-wide Gaming plant growth speed based on Divinity level,up to 50%,very late game.
+J8k9B2TfTxE,nocturne,2023-02-23,00:17:29,00:17:29,divinity,world-5/divinity,purrmep statue,,mechanic,late,max_growth_speed_pct=50,Linked bonus gives account-wide Gaming plant growth speed based on Divinity level,up to 50%,very late game.
+J8k9B2TfTxE,nocturne,2023-02-23,00:17:29,00:17:29,gaming,world-5/gaming,statues,,warning,any,,A few Divinity Statues require Gaming Pixels to upgrade.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:17:29,00:17:29,divinity,world-5/divinity,statues,,warning,any,,A few Divinity Statues require Gaming Pixels to upgrade.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:17:29,00:17:29,gaming,world-5/gaming,undying passion,divine_knight,mechanic,any,,Divine Knight talent Undying Passion gives chance of Gaming progress when claiming AFK gains.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:17:29,00:17:29,talent_points,,undying passion,divine_knight,mechanic,any,,Divine Knight talent Undying Passion gives chance of Gaming progress when claiming AFK gains.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:17:29,00:18:00,gaming,world-5/gaming,1000 hours played,divine_knight,mechanic,any,,Divine Knight talent 1000 Hours Played gives more overall Gaming EXP.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:17:29,00:18:00,talent_points,,1000 hours played,divine_knight,mechanic,any,,Divine Knight talent 1000 Hours Played gives more overall Gaming EXP.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:18:00,00:18:00,gaming,world-5/gaming,bitty litty,divine_knight,mechanic,any,,Divine Knight talent Bitty Litty gives more Bits gained.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:18:00,00:18:00,talent_points,,bitty litty,divine_knight,mechanic,any,,Divine Knight talent Bitty Litty gives more Bits gained.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:18:00,00:18:00,gaming,world-5/gaming,divine knight talents,divine_knight,mechanic,any,,These talents apply regardless of active character but must be on an active preset of one character.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:18:00,00:18:00,talent_points,,divine knight talents,divine_knight,mechanic,any,,These talents apply regardless of active character but must be on an active preset of one character.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:18:00,00:18:33,gaming,world-5/gaming,divine knight talents,divine_knight,setup,any,,Put these talents on a character stuck in the Lab or on the Divinity Altar.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:18:00,00:18:33,talent_points,,divine knight talents,divine_knight,setup,any,,Put these talents on a character stuck in the Lab or on the Divinity Altar.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:18:00,00:18:33,lab,world-4/laboratory,divine knight talents,divine_knight,setup,any,,Put these talents on a character stuck in the Lab or on the Divinity Altar.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:18:00,00:18:33,divinity,world-5/divinity,divine knight talents,divine_knight,setup,any,,Put these talents on a character stuck in the Lab or on the Divinity Altar.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:18:33,00:18:33,gaming,world-5/gaming,afk claim trick,divine_knight,how_to,any,,Maximize Gaming gains by using Divine Knight talent plus Gamer at Heart bubble when claiming AFK gains.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:18:33,00:18:33,bubbles,world-2/bubbles,afk claim trick,divine_knight,how_to,any,,Maximize Gaming gains by using Divine Knight talent plus Gamer at Heart bubble when claiming AFK gains.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:18:33,00:18:33,talent_points,,afk claim trick,divine_knight,how_to,any,,Maximize Gaming gains by using Divine Knight talent plus Gamer at Heart bubble when claiming AFK gains.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:18:33,00:19:04,gaming,world-5/gaming,afk claim trick,,how_to,any,,Harvest plants,activate Kitsune Roxie,then log onto another character with at least an hour of AFK progress and bubbles active.
+J8k9B2TfTxE,nocturne,2023-02-23,00:19:04,00:19:04,gaming,world-5/gaming,afk claim trick,,mechanic,any,,Claiming AFK gains gives a chance of extra Gaming progress,and it may take a few characters.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:19:04,00:19:36,gaming,world-5/gaming,afk claim trick,,account_note,unknown,hours=98,He got 98 hours of Gaming progress and plants were fully grown.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:19:04,00:19:36,gaming,world-5/gaming,afk claim trick,,how_to,any,hours=1,This works even when claiming just 1 hour of AFK gains.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:19:36,00:19:36,gaming,world-5/gaming,kitsune roxie,,mechanic,any,,Kitsune Roxie maximizes time gained from AFK progress,giving several evolutions worth of time.,yes
+J8k9B2TfTxE,nocturne,2023-02-23,00:19:36,00:20:09,gaming,world-5/gaming,afk claim trick,,warning,any,days=1,Not useful with days of time; do not claim more than about a day of AFK with Roxie active.,yes,3
+J8k9B2TfTxE,nocturne,2023-02-23,00:19:36,00:20:09,gaming,world-5/gaming,kitsune roxie,,warning,any,,Roxie gives fewer Bits,so check back frequently.,yes

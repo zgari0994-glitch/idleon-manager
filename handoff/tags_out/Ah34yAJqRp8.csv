@@ -1,0 +1,28 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:01,00:00:01,quests,King Doot location,,mechanic,w2,world=2,King Doot is a World 2 mini boss located in the Sands of Time second to last zone of Yum-Yum Desert,yes,3
+00:00:01,00:00:01,anvil,Dootjat Eye,,how_to,w2,,Summoning King Doot requires a Dootjat Eye crafted at the Anvil,yes,3
+00:00:01,00:00:33,anvil,Dootjat Eye recipe,,how_to,w2,silver_antique=1;gold_bars=80;ghost=1,Dootjat Eye requires 1 Silver Antique and 80 Gold Bars and a Ghost,yes,3
+00:00:01,00:00:33,general,Silver Antique,,how_to,w2,per_day=1,Silver Antique is bought from a vendor in Encroaching Forest Villas; limited to 1 per day,yes,3
+00:00:33,00:00:33,anvil,Gold Bars,,how_to,w2,gold_bars=80,The 80 Gold Bars come from Mining and Forging,yes,3
+00:00:33,00:00:33,drop_rate,Ghost,,afk_spot,w2,,Ghost is a rare drop from Moonmen in the Up Down zone one zone before Sands of Time,yes,3
+00:00:33,00:00:33,anvil,Dootjat Eye portal,,how_to,w2,,Craft the Dootjat Eye at the Anvil then bring it to the Sands of Time to summon a portal to the boss room,yes,3
+00:00:33,00:01:05,general,King Doot first kill requirement,,mechanic,w2,extra_players=2,First kill requires bringing 2 other people with you,yes,3
+00:01:05,00:01:05,general,King Doot party classes,,mechanic,w2,classes=3,First kill needs one Warrior and one Archer and one Mage,yes,3
+00:01:05,00:01:05,general,King Doot subclasses,warrior,mechanic,w2,,Any subclass counts for the base class such as Barbarian or Squire for Warrior,yes,3
+00:01:05,00:01:05,general,King Doot subclasses,archer,mechanic,w2,,Bowmen and Hunter count for the Archer class,yes,3
+00:01:05,00:01:05,general,King Doot subclasses,mage,mechanic,w2,,Wizard and Shaman count for the Mage class,yes,3
+00:01:05,00:01:37,general,King Doot accuracy,,threshold,w2,accuracy_for_5pct=500;accuracy_for_100pct=1500,Boss room needs 500 Accuracy for 5% hit chance and 1500 Accuracy for 100% hit chance,yes,3
+00:01:37,00:01:37,general,Dootjat Eye consumption,,mechanic,w2,,The Dootjat Eye is consumed each time you open the portal,yes,3
+00:01:37,00:02:09,general,King Doot pillars,,how_to,w2,,Each class stands in front of its pillar and types in chat to activate the speech bubble,yes,3
+00:02:09,00:02:09,general,Dootophone,,mechanic,w2,dootophone_drop_chance=100,After the first kill the Dootophone is a 100% drop and lets you bypass needing the other 2 classes,yes,3
+00:02:09,00:02:09,general,Dootophone,,how_to,w2,,Click and hold the Dootophone to summon the boss,yes,2
+00:02:09,00:02:41,general,King Doot attacks,,mechanic,w2,,Boss summons a line of fire and walks doing damage and has a bouncing spike ball,yes,3
+00:02:41,00:02:41,general,King Doot spike ball,,how_to,w2,,Spike ball bounces in the same pattern so you can stay in a safe spot,yes,3
+00:02:41,00:02:41,general,King Doot blue flames,,mechanic,w2,,If you chase the boss blue flames periodically come at you,yes,3
+00:02:41,00:03:12,general,King Doot damage,,warning,early,defense=300;damage_low=13;damage_high=20,Even with over 300 Defense the boss hits for 13 to 20 per hit,yes,3
+00:03:12,00:03:12,general,King Doot food,,warning,early,,Bring food with you especially if fighting this earlier in the game,yes,3
+00:03:12,00:03:44,general,King Doot drops,,mechanic,w2,,Main drops are the Efaunt Key which is near guaranteed but can miss sometimes,yes,3
+00:03:44,00:03:44,general,King Doot drops,,mechanic,w2,,He normally drops Gems and has a good chance of dropping Time Candy,yes,3
+00:03:44,00:03:44,armor_smithy,Efaunt Armor,,mechanic,w2,,Midnight Cookie drop is used to craft Efaunt Armor later in World 2,yes,3
+00:03:44,00:04:14,armor_smithy,Trimmed Rune Platelegs,,mechanic,w2,strength=4;agility=2;defense=20;armor_defense_pct=10,Trimmed Rune Platelegs are one of the best World 2 armors with 4 Strength and 2 Agility and 20 Defense and 10% Defense to all armor,yes,3
+00:04:14,00:04:14,drop_rate,Trimmed Rune Platelegs,,mechanic,w2,drop_chance=1/25,Trimmed Rune Platelegs are a fairly rare drop at about 1 in 25 chance,yes,3

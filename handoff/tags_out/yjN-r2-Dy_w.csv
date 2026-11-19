@@ -1,0 +1,84 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:01:33,00:02:04,forge,furnace upgrade,,account_note,early,,He forgot to upgrade the furnace and will do it tomorrow; wants to aim for the big upgrades there later.,yes,2
+00:02:04,00:03:07,characters,class reset,beginner,account_note,early,level=400,After a class reset a character went back to beginner and reached level 400 in one hit on world six mobs.,yes,2
+00:03:07,00:03:39,dungeons,coliseum,,how_to,early,,Claim your free coliseum ticket but don't use the tickets yet.,yes,3
+00:03:07,00:03:39,quests,strange rocks,,how_to,early,,A quest requires strange rocks so he equips one to farm them.,yes,2
+00:03:39,00:04:12,gem_shop|armory,sculpting tool,,how_to,early,,Reach map three and buy the sculpting tool; goldie boy gives extra bonus.,yes,1
+00:04:12,00:04:43,speedrun,amarok,hunter,priority,early,,Speedrun the character to Amarok as soon as possible so he can become a hunter.,yes,3
+00:05:14,00:05:46,talent_points,kills,,how_to,early,kills_needed=16,Assign talent points into spells and potency to increase kills per run for pushing.,yes,2
+00:05:46,00:06:17,class_exp,class xp multi,,mechanic,early,,Class XP multiplier now shows in the top left corner as a new UI element.,yes,2
+00:06:17,00:06:48,quests,baba yaga,,target,early,,Attempt Baba Yaga to try for a special drop he needs.,yes,2
+00:11:59,00:12:30,dungeons,party dungeon,,how_to,any,,Stay in the session because the leader started it; phasing issue can occur but isn't a problem if not phased from the leader.,yes,2
+00:11:59,00:12:30,dungeons,happy hour,,how_to,any,tickets=20;multiplier=20,Use 20 happy hour passes at once for 20 times the rewards.,yes,3
+00:12:30,00:13:00,dungeons,party dungeon,,target,early,,Getting fourth frog would be huge for rewards.,yes,3
+00:13:30,00:14:02,dungeons,party dungeon,warrior,priority,any,,Warrior is the best class for party dungeons because of AoE auto attacks.,yes,3
+00:13:30,00:14:02,dungeons|achievements,final boss achievement,,how_to,any,total_damage_pct=40,Carry world tours in world one two three and beating the final boss achievement gives up to about 40% total damage.,yes,3
+00:14:33,00:15:04,dungeons,party dungeon,,mechanic,any,reagents=3,Goal is not to die; drop three reagents in front of the cauldron to summon the first boss.,yes,3
+00:15:04,00:15:35,dungeons,dungeon items,,how_to,any,,Buy items mid-run for upgrades such as armadillo helping heart and dead book.,yes,2
+00:16:07,00:16:38,dungeons,rewards,,mechanic,any,,Run items give boosts for the run; the D drop gives credits for after the dungeon and flurbo drops help outside dungeons.,yes,2
+00:16:38,00:17:09,dungeons,frogs,,mechanic,any,frogs=4,Four big frogs summon; the fourth turns grayscale and is an Eldritch frog.,yes,2
+00:16:38,00:17:09,dungeons,dungeon items,,how_to,any,,Took sucker punch because he is building a bit of crit chance.,yes,2
+00:16:38,00:17:09,dungeons,respawn,,how_to,any,minus=2,When about to die he respawns and takes the minus two instead of surviving.,yes,2
+00:17:09,00:17:44,dungeons,party dungeon,,warning,any,,Belly would have helped survival; should have grabbed more damage.,yes,1
+00:17:44,00:18:18,dungeons,find party,,warning,any,,People AFK in find party randoms make runs slow and low-rank players hurt progress.,yes,2
+00:19:48,00:20:19,dungeons,eldritch frogs,,skip,any,,Don't touch the grayscale Eldritch frog stage; just chill.,yes,2
+00:19:48,00:20:19,dungeons,carry,,account_note,any,people=10,On his main account he can carry 10 people in one go with some sweat; one or two good players makes it easy.,yes,3
+00:19:48,00:20:19,dungeons,carry,,warning,any,rank=50,Anyone under rank 50 usually makes a carry not possible.,yes,2
+00:20:19,00:20:50,dungeons,horn of the fall,,mechanic,any,,Horn of the Fall gives lots of crit damage but you do no damage if you don't crit; good with high crit chance.,yes,3
+00:20:50,00:21:21,dungeons,keychains,,mechanic,any,,Dice rolls give a chance at keychains such as big King Doot ones.,yes,1
+00:21:21,00:21:53,dungeons,party dungeon,,priority,any,time_rewards=3,Worth doing one more run because he is getting three time rewards.,yes,2
+00:21:53,00:22:24,dungeons,flurbo upgrades,,priority,early,gray_items=2;drop_chance_pct_per_gray=1,Taking start dungeon with two gray RNG items; each gray gives 1% drop chance to get more flurbos.,yes,2
+00:21:53,00:22:24,dungeons,flurbo upgrades,,target,early,,Max HP and base damage are ideal stat boosts; two defense-giving books are massive for early defense.,yes,2
+00:22:24,00:22:54,dungeons,rng items,,mechanic,early,roll=88,One book gives base efficiency for all skills and he rolled it at 88.,yes,2
+00:22:54,00:23:26,dungeons,talent points,,priority,early,talent_points_per_tab=5,Talent point upgrade gives plus five per tab; main focus is accuracy and defense.,yes,3
+00:23:26,00:23:56,dungeons,flurbo upgrades,,skip,early,,Master cash isn't needed and AFK gains are kind of nothing.,yes,2
+00:23:56,00:24:28,dungeons,flurbo upgrades,,account_note,early,defense_each=7;defense_total=14,Two defense upgrades give seven defense each for 14 total right off the bat.,yes,2
+00:24:28,00:26:01,dungeons,find party,,opinion,any,,Find party randoms start without a full group and are bad; he admits find party criticism was right.,yes,3
+00:26:31,00:27:02,armor_smithy,rex rings,,priority,early,,Buy Rex rings after defense rings; they give skill efficiency and are among the best rings for a long time.,yes,3
+00:27:02,00:27:34,armor_smithy,serrated rex rings,,how_to,early,,Get a recipe from Baba Yaga to turn Rex rings into serrated Rex rings which last a long time.,yes,3
+00:28:06,00:28:36,dungeons,credits,,mechanic,any,,You get more credits than flurbos depending on party size so a smaller party yields less.,yes,1
+00:28:36,00:29:06,dungeons,eldritch frogs,,warning,any,damage_per_hit=20;hp=48,Eldritch croakers hit for about 20 per hit so low HP characters get two-tapped.,yes,2
+00:29:06,00:29:37,dungeons,party dungeon,divine_knight,comparison,early,,Divine knight (squire upgrade class) is better for this party dungeon; unlocked on reaching world four.,yes,2
+00:29:06,00:29:37,general,world progression,,opinion,any,,World three is where things start to take off; world four ramps; world five is a stat stick that gets berserk with RNG.,yes,3
+00:30:37,00:31:09,dungeons,damage check,,threshold,any,,Needs at least a minute left to kill the last boss unless you have two Horn of the Fall.,yes,2
+00:32:39,00:33:09,dungeons,flurbo upgrades,,priority,early,,Focus base damage and total damage because total damage can't scale without base damage.,yes,3
+00:33:09,00:33:39,dungeons,flurbo upgrades,,priority,early,,For world one grinding the best stats are base damage then total damage then crit chance and drop rarity.,yes,3
+00:33:09,00:33:39,drop_rate,drop rarity,,mechanic,any,,Drop chance and drop rarity are the same thing in this game; upgrades with either name are probably the same.,yes,3
+00:33:39,00:34:09,dungeons,flurbo upgrades,,how_to,early,multiplier=20,Buying times 20 was worth it; spend about 20 each on base damage then rest on total damage percent.,yes,2
+00:34:09,00:34:39,armor_smithy,rex rings,,account_note,early,skill_efficiency_each=5;skill_efficiency_total=10,Rex rings give 5 skill efficiency each for 10% total but he keeps defense rings for now.,yes,3
+00:34:39,00:35:12,armor_smithy,rex rings,,how_to,early,base_efficiency=116,Swap Rex rings onto characters that need to max skills; one reached 116 base efficiency.,yes,2
+00:36:16,00:36:46,dungeons|achievements,party dungeon,,account_note,early,total_damage_pct=10,Doing the party dungeon gave about 10% total damage percent.,yes,2
+00:36:16,00:36:46,anvil,production,,priority,early,,Burning and turning copper ore now; later iron ore and move from oak logs to bleach logs to ramp production.,yes,2
+00:36:46,00:37:17,dungeons,talent points,,account_note,early,,Party dungeon gave extra talent points that he put into talents.,yes,2
+00:37:17,00:37:47,general,white screen,,how_to,any,,White screen flashbang is fixed with Control R on Steam or web; likely a memory leak that sets progress back a little.,yes,3
+00:37:47,00:38:19,merits,amarok shop,,how_to,early,,Spend merit shop points on strength for now and unlock some Amarok stuff.,yes,2
+00:37:47,00:38:19,quests,desert davey,,blocker,early,,Desert Davey needs steel axe and birch long quarterstaff; blocked until bleach logs and copper bars.,yes,2
+00:38:49,00:39:20,speedrun,amarok,,target,early,kills_needed=2,World three skills are close; needs to kill Amarok two more times to get there.,yes,3
+00:39:20,00:39:50,cards,amarok card,,priority,early,,Normal Amarok card gives skill AFK gains and is good to put on all other characters.,yes,3
+00:39:50,00:40:57,quests,amarok tasks,,how_to,early,,Amarok tasks: defeat with boxing gloves from start; defeat without taking a hit; defeat on first second third in order; these unlock gear crafts.,yes,3
+00:40:57,00:41:28,armor_smithy,amarok gear,,how_to,early,smithing_level=21,Amarok body plate hinds and paws require 21 smithing to craft; make threads early to get the XP.,yes,3
+00:40:57,00:41:28,slab|characters,slabs,,how_to,early,slabs_needed=25;slabs_owned=7,Need 25 slabs on every character; has seven and holds off for now.,yes,2
+00:41:28,00:41:58,quests,unlocks,,how_to,early,,Wants sleek shank and steel bands plus a fishing rod and a net; greeds gems for infinity hammer.,yes,2
+00:41:58,00:42:28,anvil|gem_shop,infinity hammer,,how_to,early,brimstone=4;production_at_once=3,Got infinity hammer then four brimstone upgrades so he produces three items at a time.,yes,1
+00:42:28,00:42:58,anvil,production,,how_to,early,,Swap every character to produce three items to stock production materials so a long absence doesn't hurt even though XP is worse.,yes,2
+00:42:28,00:42:58,stamps,priority,,priority,early,,Stamps weren't done today; not needed yet because some farming is needed first but will be a focus.,yes,2
+00:42:58,00:43:28,speedrun,subclass,,how_to,early,kills=107;kills_needed_more=18,Push the character to Amarok to reach his subclass pushing and goblins are quick for the remaining 18 kills.,yes,2
+00:43:28,00:43:59,upgrade_vault,vault,,opinion,early,,The vault makes the early game much easier; he's getting used to it.,yes,3
+00:43:59,00:44:33,upgrade_vault|anvil,anvil upgrades,,how_to,early,slots=16,Anvil can have 16 slots in total; wants to get to a plat; anvil XP gain is pretty good.,yes,2
+00:43:59,00:44:33,anvil,extra bar chance,,priority,early,,Extra bar chance is huge because it saves resources; card drop chance is also nice.,yes,2
+00:44:33,00:45:04,quests,baba yaga,,active_task,early,,Still needs to do Baba Yaga and a couple of other things; so much to do on the islands that it's easy to forget.,yes,2
+00:45:04,00:45:35,afk_spot,walking sticks,,afk_spot,early,,Walking sticks is a really good AFK XP spot and its base materials can be sold.,yes,2
+00:45:35,00:46:06,quests,baba yaga,,mechanic,early,time_candy=1;spawns_per_day=1,Baba Yaga now spawns once a day instead of every hour; he used a 1 hour time candy for serrated Rex rings.,yes,3
+00:45:35,00:46:06,dungeons,coliseum,,warning,early,,Don't use coliseum tickets for Baba Yaga; he considers that a waste.,yes,3
+00:46:06,00:46:37,dungeons,house flipper,,mechanic,early,,House flipper gives an RNG item for party dungeons.,yes,2
+00:46:37,00:47:08,achievements,steam only,,how_to,early,gems=10,Steam-only achievement keep the oil precious oil gives 10 gems and a 1 hour time candy.,yes,2
+00:46:37,00:47:38,dungeons|achievements,frog achievements,,mechanic,early,first_frog=2;third_frog=5;total=10;fourth_frog_extra=5,Frog achievements give total damage: 2% first frog and 3% and 5% for later frogs for 10%; fourth frog adds 5% more.,yes,2
+00:47:08,00:47:38,dungeons,party dungeon,,priority,early,,Do your party dungeons; they are really important.,yes,3
+00:47:38,00:48:08,armor_smithy,defense rings,,account_note,early,defense=14,Defense rings give an extra 14 defense which is substantial in the early game.,yes,2
+00:48:08,00:48:38,class_exp,active xp,,mechanic,any,,Active XP doesn't show in overall class XP but still works.,yes,3
+00:48:38,00:49:08,cards,preset,,setup,early,skill_afk_gains_pct=5,Swap to a card preset giving 5% skill AFK gains and Amarok card since farming Amarok.,yes,2
+00:49:38,00:50:09,talent_points,piercing arrow,archer,how_to,early,,Should have put more points in Piercing Arrow for more kills per hour.,yes,2
+00:49:38,00:50:09,dungeons,dungeonic damage,,mechanic,early,damage_pct=10;damage_before=15000;damage_after=18200,Dungeonic damage gives damage based on credits earned in party dungeons; basically free 10% and raised damage from 15k to 18.2k.,yes,3
+00:50:09,00:50:40,characters,main pusher,squire,setup,early,,Main pusher is a squire because of very low MP usage thanks to shockwave and good for active clearing.,yes,3
+00:50:09,00:51:10,characters,build setup,,setup,early,,Bowman on flies; one chopping; copper being mined then iron for Amarok armor bars; push to Amarok then hunter subclass.,yes,2
+00:51:10,00:51:40,stamps,plan,,target,early,,Next day plan is working on stamps and getting past a couple of maps toward the next boss.,yes,2

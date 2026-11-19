@@ -1,0 +1,76 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,drop_rate,overview,,meta_change,any,,Review focuses on three areas: drop rate and spelunking and tome; drop rate starts with the carry cap and G cakes on the main DK.,yes,2
+00:00:00,00:00:30,cooking|drop_rate,G cakes,divine_knight,blocker,any,carry_cap=1100,G cakes are usually the biggest drop rate culprit; this account's G cakes and carry cap (1100) are both low.,yes,2
+00:00:30,00:01:00,cooking|drop_rate,G cakes,divine_knight,priority,any,,Need G cakes on all characters but especially the primary DK; the second DK is starving.,yes,2
+00:01:00,00:01:31,cooking|drop_rate,G fruit,,priority,any,,G cakes and the rest of the G fruit need to be sorted out.,yes,2
+00:01:00,00:01:31,cooking|drop_rate,G cakes materials,,how_to,any,drop_rate=1000,At nearly 1000 drop rate you can go to Perlas and Moon Moons in world 2 to farm materials for G cakes.,yes,2
+00:01:31,00:02:02,storage|drop_rate,carry cap,,blocker,any,carry_cap_million=3-4,A 3-4 million carry cap for an account like this seems too low and needs investigating.,yes,2
+00:01:31,00:02:02,storage,telekinetic storage,,priority,any,telekinetic_bonus_pct=13,Level telekinetic storage; it is a big carry cap source (13%) and must be on the active preset when capping food.,yes,2
+00:02:02,00:02:33,guild,carry cap bonus,,priority,any,,Be in a guild with carry cap maxed; it is a true multiplier and the best guild buff that leaders often forget.,yes,3
+00:02:02,00:02:33,stamps,mason jar,,priority,any,,Mason jar stamp gives carry cap for all item types and can be pushed much higher using world 2 glass shards.,yes,2
+00:02:33,00:03:04,stamps|storage,mason jar,,how_to,any,,Push mason jar with candy as far as it goes until burning candy no longer seems worth it.,yes,2
+00:02:33,00:03:04,pets|storage,ramp pet|plus pet,,target,any,,Ramp pet and plus pet are further carry cap sources and the plus pet is a true multi.,yes,2
+00:03:04,00:03:34,storage|drop_rate,carry cap,,target,any,carry_cap_million=10,After the quick fixes the carry cap should reach over 10 million which matters as G cakes are a top drop rate source.,yes,2
+00:03:04,00:03:34,cooking,yummy pet ring,,account_note,any,ring_rank=17,Yummy pet ring is rank 17 on this account and has had decent investment.,yes,2
+00:03:34,00:04:04,cooking,yummy pet ring,,priority,any,target_rank=20,Hard focus the Yummy pet ring to rank 20 and ignore other rings; the account is overinvested in meal cooking.,yes,3
+00:03:34,00:04:04,cooking,cooking mastery node,,account_note,any,,Cooking mastery node is already being pushed on the ring which is good.,yes,2
+00:03:34,00:04:04,cooking|summoning,yummy pet ring,,mechanic,any,,Yummy pet ring is buffed by world 6 summoning and endless summoning so push endless summoning.,yes,3
+00:04:04,00:04:35,summoning,endless summoning winner bonuses,,target,any,battles=217;target_easy=300;target_great=350,Endless is at 217 battles; reaching 300 is easy now and 350 would be amazing; winner bonuses are low.,yes,3
+00:04:04,00:04:35,summoning|cooking|drop_rate,winner bonuses,,mechanic,any,,Winner bonuses feed meal bonuses then Yummy feasting then gold food then GK and drop rate.,yes,3
+00:04:04,00:04:35,summoning|gem_shop,blue gems,,how_to,any,,Blue gems for summoning are farmable and there is a gem guide on the old Discord.,yes,2
+00:04:35,00:05:07,summoning,winner bonuses world 6,,account_note,w6,,World six winner bonuses are maxed on this account.,yes,3
+00:04:35,00:05:07,pets|gem_shop|cooking,pay-to-win pets,,opinion,any,winner_bonus_mult=1.5,New pay-to-win pets boost food and a new winner bonus pet gives 1.5x; highly recommended for non free-to-play players.,yes,2
+00:05:07,00:05:37,cards|drop_rate,card setup,,setup,any,,Current best setup is a doubled genie card plus one drop rate multi card in another slot.,yes,2
+00:05:37,00:06:09,cards|drop_rate,drop rate multi cards,,priority,any,,Push one drop rate multi card fast: Colosseum Guardian or Manta Ray or the new ancient fish card; then double it.,yes,3
+00:05:37,00:06:09,drop_rate,overall,,target,any,drop_rate=3000-4000,With all these fixes drop rate can reach 3-4k pretty easily.,yes,2
+00:05:37,00:06:09,drop_rate|talent_points,talent,,priority,any,talent_points_invested=1;talent_max=4,Sub-1000 drop rate suggests the Wanemous? talents are missing; only 1 of 4 invested.,yes,1
+00:06:09,00:06:40,drop_rate|talent_points,drop rate talent,,priority,any,flat_drop_rate=500,Drop some talent points into the drop rate talent since it is a flat 500% additive drop rate.,yes,2
+00:06:09,00:06:40,drop_rate,additive sources,,priority,any,,Increase additive drop rate sources directly so they can then be multiplied; gold food alone is not enough.,yes,3
+00:06:40,00:07:10,spelunking,upgrades column two,,priority,w7,,Max column two as fast as possible including stamina resurgence and over stem.,yes,2
+00:07:10,00:07:40,spelunking,uncanny ability to find narrow passages,,priority,w7,,Uncanny Ability to Find Narrow Passages is one of the biggest sources of finding rope and caps very early.,yes,3
+00:07:10,00:07:40,spelunking,rope subsidy,,priority,w7,,Rope Subsidy is a big deal and highly recommended to push.,yes,3
+00:07:10,00:07:40,spelunking,free refills,,priority,w7,,Free Refills is fantastic.,yes,3
+00:07:10,00:07:40,spelunking,shadow strike,,priority,w7,,Shadow Strike is lower priority than the others listed but still good to have.,yes,2
+00:07:10,00:07:40,spelunking,critical impact,,priority,w7,,Critical Impact gets neglected but is needed in later caverns to punch through bosses and notes; he struggled on the newest cave.,yes,3
+00:07:40,00:08:10,spelunking,jobs all done|rope sub cd|over stem,,priority,w7,,Jobs All Done and Rope Sub CD and Over Stem are the big three; prioritize them after early-capping upgrades.,yes,2
+00:08:10,00:08:40,spelunking,grand discoveries,,target,w7,,Grand Discoveries are 10 out of 10 pushed; get everything up to Bizzario and push Glitter to about 5 out of 10.,yes,2
+00:08:10,00:08:40,spelunking,grand discoveries,,target,w7,glitter_target=5;glitter_max=10,Glitter Grand Discovery should reach roughly 5 of 10.,yes,2
+00:08:40,00:09:12,spelunking,normal discoveries,,target,w7,progress_target=70-80,Normal discoveries are easy to finish now; progress of 70 or 75 or 80 is achievable.,yes,2
+00:08:40,00:09:42,spelunking,grand discoveries,,priority,w7,,Focus Grand Discoveries because they feed everything: amber boosts EXP and pal and he notices the extra pal most.,yes,3
+00:09:12,00:09:42,spelunking,grand discoveries,,priority,w7,,If struggling with later caves finishing Grand Discoveries now is the best thing to do.,yes,3
+00:09:12,00:09:42,spelunking,grand vein talent,royal_guardian,priority,w7,,New Royal Guardian talent Grand Vein is really good; max it before buying upgrades.,yes,3
+00:09:12,00:10:12,spelunking,amber heart talent,,how_to,w7,,Max the Amber Heart talent on the left before any upgrades; maybe put it on a second loadout.,yes,2
+00:09:42,00:10:12,spelunking,buy phase,,how_to,w7,,Stack up amber and then buy all upgrades at once in a big buy phase before going back to what you were doing.,yes,3
+00:09:42,00:10:44,cooking|spelunking,meal bunker,,priority,w7,tier=20,A meal at the very bottom (bunker cost one watermelon) is a huge multiplier; he has it over tier 20.,yes,1
+00:10:12,00:10:44,spelunking,metal stickers,,target,w7,stickers_easy=3,Metal stickers are annoying but two or three are easy; beyond that you are gated by the pay-to-win doggy sticker event item.,yes,2
+00:10:44,00:11:15,spelunking,manic runs,,priority,w7,,Get manic runs done; they are a big mana hog.,yes,3
+00:10:44,00:11:45,spelunking,manic runs,,how_to,w7,nova_potion_picks=5;depth_low=80;depth_high=130,Economy option: send one character into each cave to pick Nova potion five times and go as deep as possible (80-130).,yes,3
+00:11:15,00:11:45,spelunking,manic runs,,mechanic,w7,,Manic runs give a lot of extra pow plus efficiency and Grand Discovery progress.,yes,2
+00:11:45,00:12:15,spelunking,manic grand discovery,,how_to,w7,grand_discovery_threshold=1/5,If Grand Discovery is at about one of five or below and you struggle on the last three caves manic discovery will sort it.,yes,1
+00:12:15,00:12:45,spelunking|research,lore cabin four extra chapters,royal_guardian,priority,w7,k4_target=8x2.5 million,Push Cabin four extra chapters now if you can reach 8 x 2.5 million on K4 with the Royal Guardian pit of pages talent.,yes,2
+00:12:15,00:12:45,spelunking,lore cabin three over stem,,priority,w7,,Put at least some points into over stem in Cabin three.,yes,3
+00:12:45,00:13:15,spelunking,gospel three over stem,,opinion,w7,multiple=3,Over stem buff from Gospel three beats all other stamina income sources combined times three and gets slept on.,yes,3
+00:12:45,00:13:15,spelunking,lore order,,priority,w7,,After No Escape and Gospel move to Decay Surrounds then a little Fear Within; account is over 1000 in both.,yes,2
+00:13:15,00:13:45,spelunking,decay surrounds vs fear within,,comparison,w7,,Decay Surrounds is a bit better than Fear Within; extra XP and power and amber are solid multipliers.,yes,2
+00:13:15,00:13:45,spelunking,speed vs efficiency,,mechanic,w7,,Spelunking speed multiplier scales terribly unless No Escape is large and efficiency matters more.,yes,2
+00:13:45,00:14:17,spelunking,second plunder|kill primeval,,skip,w7,,Stop doing second plunder and kill primeval; fine late-game objectives but not worth rates right now.,yes,2
+00:14:17,00:14:47,tome|bubbles,total bubble level,,target,any,bubble_level=1000000,Push total bubble level to 1 million; bubbles costing farming or sailing materials are cheap and reach 30k-50k easily.,yes,3
+00:14:17,00:14:47,tome|bubbles,big P bubble,,target,any,big_p_level=200000,Big P bubble is also easy and many people have it around 200k.,yes,2
+00:14:47,00:15:18,tome|bubbles,total bubble level,,target,any,tome_points=700;tome_pct_current=25;tome_pct_target=10,Pushing bubbles to 1 million gives over 700 tome points straight up; he says account is at 25%.,yes,1
+00:14:47,00:15:18,tome,low hanging fruit,,account_note,any,,Chaos noted trophies and TDs; many tome categories have zero points so there is low-hanging fruit.,yes,2
+00:15:18,00:15:48,tome|traps,spike trap,,how_to,any,tome_points=3,Go to spike trap right now since it happens every hour on the hour for three tome points.,yes,2
+00:15:18,00:15:48,tome,trophies,,priority,any,,Trophies give a big amount per trophy; get them done.,yes,3
+00:15:48,00:16:18,tome|quests,king of food trophy,,how_to,any,days=3,King of Food counts every character; pre-stack materials and do it once per character per day to finish in three days.,yes,3
+00:15:48,00:16:18,tome,nine dots of finish trophy,,how_to,any,time_weeks=1-2,Nine Dots of Finish is a pain but takes about a week or two of consistent effort; get it done.,yes,2
+00:15:48,00:16:18,tome|quests,frost britain trophy,,how_to,any,,Frost Britain's is just completing your world quest.,yes,2
+00:16:18,00:16:49,tome|guild,ultron boxer trophy,,account_note,any,,Account seems to have guild problems; make sure to be in a good guild.,yes,2
+00:16:18,00:16:49,tome|drop_rate,luckiest lad trophy,,how_to,any,,Luckiest Lad comes once you buff drop rate; Trail Blazer is pay-to-win.,yes,2
+00:16:18,00:16:49,tome,world four trophies,,priority,w4,,Get the world four trophies done; the remaining trophies besides Megalodon are easy.,yes,2
+00:16:49,00:17:22,tome|bubbles,mega flash,,target,any,mega_flash_level=15;days=1-3,Push mega flash bubble to 15 or beyond; you should get a flash every one to three days or maybe daily.,yes,2
+00:17:22,00:17:52,tome,non-dupe or fast,,priority,any,,Non-dupe or fast is pretty much free real estate.,yes,2
+00:17:22,00:17:52,tome|prayers,pray upgrade level,,priority,any,,Push pray upgrade level.,yes,2
+00:17:22,00:17:52,tome|speedrun,speed run,,target,any,speed_run=100;time_seconds=45,Push around 100 speed run; getting under 45 seconds is easy.,yes,2
+00:17:22,00:17:52,tome,rec rounds,,target,any,rec_rounds=60,Get rec rounds over 60 super easily.,yes,2
+00:17:52,00:18:22,tome,wisdom and pure memory,royal_guardian,priority,any,,Wisdom and pure memory are free points but the Royal Guardian is not deep enough on this account yet.,yes,2
+00:18:22,00:18:52,tome,overall,,target,any,tome_pct_target=10,Pushing everything hard could reach 10% tome by tomorrow or the day after.,yes,2
+00:18:22,00:18:52,general,review process,,meta_change,any,,Paid reviews get a video and are done faster; free reviews are submitted through Discord and paid ones subsidize everyone.,yes,3

@@ -1,0 +1,174 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+hcx5Dkb751E,nocturne,2023-02-17,00:00:00,00:00:34,sailing,world-5/sailing,skill,,mechanic,w5,world=5,Sailing is unlocked in World 5 and is fairly complicated.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:00:00,00:00:34,sailing,world-5/sailing,trader,,mechanic,w5,,The Trader is unlocked using an artifact.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:00:34,00:01:04,sailing,world-5/sailing,map tab,,how_to,any,,Click and drag a Captain from the Port Area to an island to start the journey and its timer.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:00:34,00:01:04,sailing,world-5/sailing,map tab,,mechanic,any,,The Port Area holds all Captains with their boats until you choose an island.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:01:04,00:01:34,sailing,world-5/sailing,island,,mechanic,any,distance_m=25,Travel is one-way: 25 meters to the island and 25 back.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:01:04,00:01:34,sailing,world-5/sailing,island,,mechanic,any,min_time_each_way_min=105;round_trip_min=210,Minimum time requirement is 105 minutes each way or 210 minutes for the round trip.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:01:04,00:01:34,sailing,world-5/sailing,island,,mechanic,any,,Selecting an island shows its name and the resource you gain from it.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:01:34,00:02:05,sailing,world-5/sailing,artifact,,mechanic,any,,Artifacts have 3 stages: black box (not found) and green check (first bonus unlocked).,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:01:34,00:02:05,sailing,world-5/sailing,artifact,,mechanic,any,ancient_chance=100x_less,Ancient Form is about 100x rarer than base form so may take many trips.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:01:34,00:02:05,sailing,world-5/sailing,artifact,,mechanic,any,,Yellow check mark is the Ancient Form and unlocks the secondary bonus.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:02:05,00:02:35,sailing,world-5/sailing,island,,mechanic,any,,Each island has a different travel distance.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:02:05,00:02:35,sailing,world-5/sailing,island,,priority,any,,Stick with one island until boats have enough speed to cover the distance in the minimum time.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:02:05,00:02:35,sailing,world-5/sailing,island,,warning,any,,Without enough speed it takes much longer to gain loot which slows overall progression.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:02:05,00:02:35,sailing,world-5/sailing,artifact,,skip,any,,Exception to sticking with an island: going to a specific island for a specific artifact.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:02:05,00:02:35,sailing,world-5/sailing,artifact,,skip,any,,Exception to sticking with an island: going to a specific island for a specific artifact.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:02:35,00:03:08,sailing,world-5/sailing,island,,priority,early,hours=4,Stay on Beginner Islands until speed can make the Beachy Coast round trip in about four hours instead of days.,yes,2
+hcx5Dkb751E,nocturne,2023-02-17,00:02:35,00:03:08,sailing,world-5/sailing,island,,warning,late,,Travel distances get insane at later islands so speed matters even more.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:02:35,00:03:08,sailing,world-5/sailing,clouds,,mechanic,early,,You start with only Safari Island until you unlock Cloud 1 or 2.,yes,2
+hcx5Dkb751E,nocturne,2023-02-17,00:03:08,00:03:40,sailing,world-5/sailing,clouds,,mechanic,any,,Clouds have the same travel distance as the island so travel takes the same time.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:03:08,00:03:40,sailing,world-5/sailing,clouds,,warning,any,,Do not go to clouds without enough speed or you waste time going back and forth.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:03:08,00:03:40,sailing,world-5/sailing,clouds,,mechanic,mid,cloud=10;one_way_days=1;round_trip_days=2,Example: Cloud 10 would take about a day one way and 2 days for one unit of progress; weeks to unlock.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:03:40,00:04:10,sailing,world-5/sailing,show identity,,how_to,any,,Show Identity button displays boat numbers and captain letters on the map crew tab and docks.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:03:40,00:04:10,sailing,world-5/sailing,show identity,,how_to,any,,Use the identity labels to decide if a boat's speed is high enough for a particular island.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:04:10,00:04:42,sailing,world-5/sailing,minimum chest,,setup,any,,Keep Minimum Chest on Wooden Chest as much as possible.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:04:10,00:04:42,sailing,world-5/sailing,minimum chest,,how_to,any,check_hours=1-2,To keep Wooden Chest minimum you should check the game every hour or two.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:04:10,00:04:42,sailing,world-5/sailing,loot pile,,mechanic,any,,Nearly every trip gives a Wooden Chest depending on boat speed.,yes,2
+hcx5Dkb751E,nocturne,2023-02-17,00:04:42,00:05:17,sailing,world-5/sailing,minimum chest,,setup,any,,If you cannot check often move the minimum chest up to Iron Chest or higher if checking every couple days.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:04:42,00:05:17,sailing,world-5/sailing,return ship,,how_to,any,,Return Ship button returns a selected ship to port to reset the journey or choose a new island.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:04:42,00:05:17,sailing,world-5/sailing,return ship,,warning,any,,Returning a ship cancels the journey at any point and you gain no loot from it.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:05:17,00:05:53,sailing,world-5/sailing,captain,,mechanic,any,tiers=6,There are six Captain tiers (white red bandana tier 1; pink tier 2; blue tier 4).,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:05:17,00:05:53,sailing,world-5/sailing,captain,,mechanic,any,,Tiers only raise the maximum value of bonuses not the minimum.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:05:53,00:06:23,sailing,world-5/sailing,captain,,mechanic,any,t1_min=1;t1_max=4;t2_min=1;t2_max=11,Tier 1 boat speed is 1-4% while tier 2 is 1-11%.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:05:53,00:06:23,sailing,world-5/sailing,captain,,warning,any,,A higher tier is not necessarily better since tier roll is separate from value rolls.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:06:23,00:06:53,sailing,world-5/sailing,captain,,warning,any,,Even a Tier 6 Captain can be worse than a Tier 1 Captain.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:06:23,00:06:53,sailing,world-5/sailing,captain,,priority,any,max_bonuses=2,Each Captain can have up to 2 bonuses; replace a Captain with only 1 bonus as soon as possible.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:06:23,00:06:53,sailing,world-5/sailing,captain,,mechanic,any,bonus_types=5,Five bonuses: Boat Speed (green icon) Loot Value Artifact Find Chance Cloud Discover Rate and Rare Chest Chance.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:06:53,00:07:25,sailing,world-5/sailing,captain,,priority,any,,Boat Speed is first priority on Captains: speed is king and more trips mean more loot.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:07:25,00:07:59,sailing,world-5/sailing,captain,,priority,any,,Loot Value is a very close second priority: more loot means more upgrades and more speed.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:07:25,00:07:59,sailing,world-5/sailing,captain,,priority,any,,Artifact Find Chance is third priority but only have a few Captains with it.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:07:59,00:08:31,sailing,world-5/sailing,captain,,warning,any,,Do not invest heavily in Artifact Find Chance since it's not needed once all artifacts are found.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:07:59,00:08:31,sailing,world-5/sailing,captain,,priority,any,,Cloud Discover Rate is fourth: lets you unlock clouds faster then go back to Speed and Loot Captains.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:07:59,00:08:31,sailing,world-5/sailing,captain,,priority,late,,Rare Chest Chance last and recommended only later in the game as it adds loot value.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:08:31,00:09:02,sailing,world-5/sailing,captain,,mechanic,any,,Rare Chests give more loot in general so Rare Chest Chance is useful at any point but not early focus.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:08:31,00:09:02,sailing,world-5/sailing,captain,,setup,any,,Ideal Captains have Speed and Loot Value to maximize benefit.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:08:31,00:09:02,sailing,world-5/sailing,captain,,mechanic,late,boat_level=300,Boat speed won't be needed eventually once all boats are level 300 or similar.,yes,2
+hcx5Dkb751E,nocturne,2023-02-17,00:09:02,00:09:36,sailing,world-5/sailing,captain,,how_to,any,,Captains must be out of boats and walking on docks to be trashed.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:09:02,00:09:36,sailing,world-5/sailing,captain,,warning,any,,Trashing deletes the Captain and you must hire a replacement so be careful.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:09:02,00:09:36,sailing,world-5/sailing,captain,,mechanic,any,,Captain level is a multiplier for its bonuses.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:09:36,00:10:08,sailing,world-5/sailing,captain,,mechanic,any,lvl1=15;lvl2=30,Example: level 1 gives 15% Rare Chest Chance and level 2 gives 30%.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:09:36,00:10:08,sailing,world-5/sailing,captain,,account_note,any,level=10;boat_speed_base=4,His level 10 Captain has a base 4% Boat Speed and he wants to replace it soon.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:09:36,00:10:08,sailing,world-5/sailing,captain,,warning,any,,Unlocking later-level Captains costs lots of gold and each needs a boat with different resources.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:10:08,00:10:40,sailing,world-5/sailing,captain,,warning,early,,Spending gold too early on Captains when you can't upgrade boats is a waste.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:10:08,00:10:40,sailing,world-5/sailing,boat,,mechanic,any,,Boats tab Loot Value includes boat and captain values; the game does the math.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:10:08,00:10:40,sailing,world-5/sailing,boat,,mechanic,any,,Loot Value is a multiplier for loot from each treasure chest the boat brings back.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:10:40,00:11:13,sailing,world-5/sailing,boat,,mechanic,any,speed_per_hour=200000;min_time_min=105;distance=300000,His boat travels about 200000 meters per hour; for the 300000 meter minimum distance it takes under 2 hours.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:10:40,00:11:13,sailing,world-5/sailing,boat,,target,any,,Goal is an island whose distance the boat covers in the minimum time.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:10:40,00:11:13,sailing,world-5/sailing,boat,,mechanic,any,hours=4,At this speed he gets a treasure chest in a little under four hours.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:11:13,00:11:43,sailing,world-5/sailing,island,,mechanic,any,one_way_hours=5;round_trip_hours=10,An island taking 5 hours each way means a 10 hour round trip per chest.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:11:13,00:11:43,sailing,world-5/sailing,boat,,target,any,,Find an island the boat can travel in under the minimum time.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:11:13,00:11:43,sailing,world-5/sailing,boat,,mechanic,any,,Artifact Odds Chance is a multiplier for artifact odds from chests that boat brings back.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:11:13,00:11:43,sailing,world-5/sailing,boat,,mechanic,any,,Every boat has different loot and artifact multipliers.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:11:43,00:12:19,sailing,world-5/sailing,boat upgrade,,mechanic,any,,Boat 1 requires gold to upgrade Loot and Speed.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:11:43,00:12:19,sailing,world-5/sailing,boat upgrade,,mechanic,any,,Boat 2 requires gold for Loot and Safari Fruits for Speed.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:11:43,00:12:19,sailing,world-5/sailing,boat upgrade,,priority,early,boats=2|3|4,Ignore Boats 2 3 and 4 until much later.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:12:19,00:12:52,sailing,world-5/sailing,boat upgrade,,priority,early,boat=1,Spend all gold on Boat 1 for best value.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:12:19,00:12:52,sailing,world-5/sailing,boat upgrade,,priority,early,boat=5,Spend Safari Fruits on Boat 5 Loot Value upgrades.,yes,2
+hcx5Dkb751E,nocturne,2023-02-17,00:12:19,00:12:52,sailing,world-5/sailing,boat upgrade,,account_note,early,,He ignored his own advice early because he did not know; this is most effective until you can spend thousands freely.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:12:52,00:13:24,sailing,world-5/sailing,boat upgrade,,mechanic,any,levels=8;loot_jump=5000;normal_upgrade=200,Every 8 upgrade levels gives a large stat jump (about 5000 loot vs 200 per normal upgrade).,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:12:52,00:13:24,sailing,world-5/sailing,boat upgrade,,mechanic,any,,Break points are separate for Loot and Speed.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:13:24,00:13:56,sailing,world-5/sailing,boat upgrade,,mechanic,any,levels=8,You need 8 individual levels in a stat to reach its break point; 3 Loot and 5 Speed won't combine.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:13:24,00:13:56,sailing,world-5/sailing,boat upgrade,,mechanic,any,speed_jump=30000;normal_speed=2000,One speed upgrade gave about 30000 speed versus 2000 normally for similar resources.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:13:24,00:13:56,sailing,world-5/sailing,captain,,how_to,any,,You can switch which boat a Captain is in by selecting the boat and clicking the white box to remove them.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:13:56,00:14:27,sailing,world-5/sailing,captain recruitment,,mechanic,any,,Captain recruitment area resets each daily reset and should be checked regularly for the best Captains.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:13:56,00:14:27,sailing,world-5/sailing,captain recruitment,,mechanic,early,,Early game it may take several days to hire enough Captains.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:14:27,00:15:01,sailing,world-5/sailing,captain recruitment,,mechanic,any,level_pillar2=15;level_pillar3=25;level_pillar4=35,Pillars unlock by level: 1 at first then level 15 25 and 35 for the second third and fourth.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:14:27,00:15:01,sailing,world-5/sailing,captain recruitment,,mechanic,any,tier_min=0;tier_max=6,Captain tier is completely random from 0 to 6.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:14:27,00:15:01,sailing,world-5/sailing,captain recruitment,,mechanic,any,bonus_types=5,Captain traits are random; any of 5 choices can be in either slot.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:15:01,00:15:35,sailing,world-5/sailing,captain recruitment,,mechanic,any,,Trait values are random so good Captains need RNG.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:15:01,00:15:35,sailing,world-5/sailing,captain recruitment,,mechanic,any,,Hire cost is a set amount of gold; higher tier costs more.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:15:01,00:15:35,sailing,world-5/sailing,captain recruitment,,comparison,any,tier=3;boat_speed=9;boat_speed_max=18;cloud=21;cloud_max=31,Example tier 3 Captain: 9% Boat Speed (max 18) and 21% Cloud Discover (max 31).,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:15:35,00:16:08,sailing,world-5/sailing,captain recruitment,,opinion,any,,Tier 3 example Captain is fairly useless but fine if it is the best you have.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:15:35,00:16:08,sailing,world-5/sailing,captain recruitment,,skip,any,tier=2,Avoid the Tier 2 Captain with poor rolls and 2x Cloud Discover Rate as you need speed to reach clouds.,yes,2
+hcx5Dkb751E,nocturne,2023-02-17,00:16:08,00:16:42,sailing,world-5/sailing,captain recruitment,,skip,any,,Third choice with Loot and Artifact Find low rolls is a trash Captain.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:16:08,00:16:42,sailing,world-5/sailing,captain recruitment,,comparison,any,tier=5;loot=34;loot_max=55;rare_chest_max=22,Tier 5 Captain with 34% Loot Value (max 55) and Rare Chest up to 22% is a good roll.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:16:42,00:17:15,sailing,world-5/sailing,captain recruitment,,priority,any,,He prefers Speed over Loot and Rare Chest so won't waste gold on the good tier 5 Captain.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:16:42,00:17:15,sailing,world-5/sailing,loot pile,,mechanic,any,,Loot Pile shows resources; gold bars come from any island and nearly any chest.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:17:15,00:17:47,sailing,world-5/sailing,loot pile,,mechanic,any,,Each island gives its own resource plus a chance at that island's rare resource.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:17:15,00:17:47,sailing,world-5/sailing,boat upgrade,,mechanic,mid,boats=6|7|8|9,From Boat 6 you need rare resources to upgrade Speed; boats 6 7 8 and 9 need rare resources 6 7 8 and 9.,yes,2
+hcx5Dkb751E,nocturne,2023-02-17,00:17:47,00:18:18,sailing,world-5/sailing,boat upgrade,,warning,late,,Later boats need rare resources harder to obtain so you spend more time on particular islands.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:17:47,00:18:18,sailing,world-5/sailing,chest,,mechanic,any,miracle_chest_per_day=3,Miracle Chest is the highest and rare; you can buy 3 per day in the Gem Shop.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:17:47,00:18:18,gem_shop,account/prem-currency/gem-shop,chest,,mechanic,any,miracle_chest_per_day=3,Miracle Chest is the highest and rare; you can buy 3 per day in the Gem Shop.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:18:18,00:18:50,sailing,world-5/sailing,chest,,mechanic,any,,Each chest tier gives another roll of resources: Wooden 1 roll and Iron 2 rolls.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:18:50,00:19:21,sailing,world-5/sailing,chest,,how_to,any,,Rarer chests give more loot overall; if you can't check often Iron Chests give more value for AFK time.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:18:50,00:19:21,sailing,world-5/sailing,chest,,mechanic,any,gold_piles=2;resource_piles=3,Example chest opening gave 2 gold piles and 3 resource piles.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:19:21,00:19:54,sailing,world-5/sailing,chest,,mechanic,any,artifact_chance_max=1;iron_rolls=2;gilded_rolls=3,Lollipop Island chest had under 1% artifact chance; Iron gives 2 rolls and Gilded gives 3 rolls.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:19:21,00:19:54,sailing,world-5/sailing,chest,,how_to,any,,Open chests each day to collect treasure and hope for artifacts.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:19:54,00:20:25,sailing,world-5/sailing,trader,,mechanic,any,,The Trader lets you sell a random resource for gold; it needs specific amounts of a specific resource.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:19:54,00:20:25,sailing,world-5/sailing,trader,,how_to,any,,The Trader is unlocked by the Emerald Relic found on Isolated Woods Island.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:20:25,00:20:56,sailing,world-5/sailing,trader,,mechanic,any,,Extra Trader gold lets you upgrade Boat 1 higher and unlock more pirate or boat slots.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:20:25,00:20:56,sailing,world-5/sailing,gold,,mechanic,any,,Gold is also needed for an Alchemy bubble and a Divinity Statue level up.,yes,2
+hcx5Dkb751E,nocturne,2023-02-17,00:20:25,00:20:56,bubbles,world-2/bubbles,gold,,mechanic,any,,Gold is also needed for an Alchemy bubble and a Divinity Statue level up.,yes,2
+hcx5Dkb751E,nocturne,2023-02-17,00:20:25,00:20:56,divinity,world-5/divinity,gold,,mechanic,any,,Gold is also needed for an Alchemy bubble and a Divinity Statue level up.,yes,2
+hcx5Dkb751E,nocturne,2023-02-17,00:20:56,00:21:27,sailing,world-5/sailing,trader,,how_to,any,,Trader is a way to use leftover unneeded resources especially after leveling boats.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:20:56,00:21:27,sailing,world-5/sailing,artifact,,mechanic,any,,Relics give big benefits across the entire game and always apply once found.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:20:56,00:21:27,sailing,world-5/sailing,artifact,,mechanic,early,,Fauxory Tusk is found relatively early and gives Artifact Find Chance per Sailing Level.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:21:27,00:21:57,sailing,world-5/sailing,artifact,,mechanic,any,bonus=100,Ancient Form doubles Fauxory Tusk; he gains another 100% Artifact Find Chance.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:21:27,00:21:57,sailing,world-5/sailing,artifact,,priority,any,,Genie Lamp gives more Loot Value per Sailing Level; unlock it as soon as possible.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:21:27,00:21:57,sailing,world-5/sailing,artifact,,priority,any,,Don't worry about Genie Lamp Ancient Form early but at least unlock the base form.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:21:57,00:22:29,sailing,world-5/sailing,artifact,,mechanic,any,items_threshold=500;items_per_step=10,10 AD Tablet gives Sailing Speed for every 10 items found after 500 in the Slab.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:21:57,00:22:29,slab,world-5/slab,artifact,,mechanic,any,items_threshold=500;items_per_step=10,10 AD Tablet gives Sailing Speed for every 10 items found after 500 in the Slab.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:21:57,00:22:29,sailing,world-5/sailing,artifact,,mechanic,any,,Other artifact benefits include doubling Shrine bonuses and placing anywhere plus more Printer Samples and Post Office Boxes.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:21:57,00:22:29,printer,world-3/printer,artifact,,mechanic,any,,Other artifact benefits include doubling Shrine bonuses and placing anywhere plus more Printer Samples and Post Office Boxes.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:21:57,00:22:29,gem_shop,account/prem-currency/gem-shop,artifact,,mechanic,any,,Other artifact benefits include doubling Shrine bonuses and placing anywhere plus more Printer Samples and Post Office Boxes.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:22:29,00:22:59,sailing,world-5/sailing,artifact,,mechanic,any,,Fury Relic gives more Max Talent Book Level at the Library which changes the game.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:22:29,00:22:59,library,account/misc/general,artifact,,mechanic,any,,Fury Relic gives more Max Talent Book Level at the Library which changes the game.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:22:29,00:22:59,sailing,world-5/sailing,stamps,,mechanic,w1,,Sailboat Stamp in World 1 gives Sailing Speed.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:22:29,00:22:59,stamps,world-1/stamps,stamps,,mechanic,w1,,Sailboat Stamp in World 1 gives Sailing Speed.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:22:59,00:23:29,sailing,world-5/sailing,stamps,,mechanic,w4,,Sailboat Stamp bonus is doubled by the Laboratory bonus in World 4.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:22:59,00:23:29,stamps,world-1/stamps,stamps,,mechanic,w4,,Sailboat Stamp bonus is doubled by the Laboratory bonus in World 4.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:22:59,00:23:29,lab,world-4/laboratory,stamps,,mechanic,w4,,Sailboat Stamp bonus is doubled by the Laboratory bonus in World 4.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:22:59,00:23:29,sailing,world-5/sailing,statue,,mechanic,w1,,World 1 Statue bonuses give a small Sailing Speed bump.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:22:59,00:23:29,statues,,statue,,mechanic,w1,,World 1 Statue bonuses give a small Sailing Speed bump.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:22:59,00:23:29,sailing,world-5/sailing,statue,,how_to,w1,,Unlock the Golden Statue with a few Dementia Coin to make the statue benefit account wide.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:22:59,00:23:29,statues,,statue,,how_to,w1,,Unlock the Golden Statue with a few Dementia Coin to make the statue benefit account wide.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:22:59,00:23:29,sailing,world-5/sailing,bubble,,setup,w2,,Sailor at Heart is a large bubble that must be equipped and gives a really good gain.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:22:59,00:23:29,bubbles,world-2/bubbles,bubble,,setup,w2,,Sailor at Heart is a large bubble that must be equipped and gives a really good gain.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:23:29,00:24:01,sailing,world-5/sailing,bubble,,mechanic,w2,,Sailor at Heart gives a chance for more Sailing progress when you collect AFK gains.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:23:29,00:24:01,bubbles,world-2/bubbles,bubble,,mechanic,w2,,Sailor at Heart gives a chance for more Sailing progress when you collect AFK gains.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:23:29,00:24:01,sailing,world-5/sailing,bubble,,how_to,w2,,Log into one character at a time and check Sailing progress between to maximize Sailor at Heart procs and chests.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:23:29,00:24:01,bubbles,world-2/bubbles,bubble,,how_to,w2,,Log into one character at a time and check Sailing progress between to maximize Sailor at Heart procs and chests.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:23:29,00:24:01,sailing,world-5/sailing,bubble,,warning,w2,,Sailor at Heart proc is small chance so may not proc on every character; watch when collecting AFK gains.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:23:29,00:24:01,bubbles,world-2/bubbles,bubble,,warning,w2,,Sailor at Heart proc is small chance so may not proc on every character; watch when collecting AFK gains.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:24:01,00:24:32,sailing,world-5/sailing,bubble,,mechanic,w2,,Boaty Bubble gives flat Sailing Speed at a good rate but costs many Gaming Pixels.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:24:01,00:24:32,bubbles,world-2/bubbles,bubble,,mechanic,w2,,Boaty Bubble gives flat Sailing Speed at a good rate but costs many Gaming Pixels.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:24:01,00:24:32,gaming,world-5/gaming,bubble,,mechanic,w2,,Boaty Bubble gives flat Sailing Speed at a good rate but costs many Gaming Pixels.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:24:01,00:24:32,sailing,world-5/sailing,vial,,mechanic,w2,,OJ Jooce vial gives Sailing Speed and is doubled by the Lab bonus; cheap and good.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:24:01,00:24:32,vials,world-2/vials,vial,,mechanic,w2,,OJ Jooce vial gives Sailing Speed and is doubled by the Lab bonus; cheap and good.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:24:01,00:24:32,lab,world-4/laboratory,vial,,mechanic,w2,,OJ Jooce vial gives Sailing Speed and is doubled by the Lab bonus; cheap and good.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:24:32,00:25:04,sailing,world-5/sailing,vial,,mechanic,w2,,Hampter Drippy vial gives more Sailing EXP but Hampters are rare drops.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:24:32,00:25:04,vials,world-2/vials,vial,,mechanic,w2,,Hampter Drippy vial gives more Sailing EXP but Hampters are rare drops.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:24:32,00:25:04,sailing,world-5/sailing,post office,,mechanic,w2,,An artifact unlocks a new Post Office crate giving AFK counts for Sailing and minor bonuses.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:25:04,00:25:35,sailing,world-5/sailing,post office,,opinion,w2,,The Post Office box is a lot of boxes to spend for a very small gain.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:25:04,00:25:35,sailing,world-5/sailing,meal,,mechanic,w4,popped_corn=2,Popped Corn dinner menu gives 2% Sailing Speed per plate level.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:25:04,00:25:35,cooking,world-4/cooking,meal,,mechanic,w4,popped_corn=2,Popped Corn dinner menu gives 2% Sailing Speed per plate level.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:25:04,00:25:35,sailing,world-5/sailing,world3,,account_note,w3,,There are no active Sailing benefits in World 3.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:25:35,00:26:09,sailing,world-5/sailing,statue,,mechanic,w5,goat_speed=4,Goat Statue gives 4% Sailing Speed per level as a passive blessing.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:25:35,00:26:09,divinity,world-5/divinity,statue,,mechanic,w5,goat_speed=4,Goat Statue gives 4% Sailing Speed per level as a passive blessing.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:25:35,00:26:09,sailing,world-5/sailing,statue,,mechanic,w5,,Goat Statue needs Gaming Bits to level up but is a decent bonus.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:25:35,00:26:09,divinity,world-5/divinity,statue,,mechanic,w5,,Goat Statue needs Gaming Bits to level up but is a decent bonus.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:25:35,00:26:09,gaming,world-5/gaming,statue,,mechanic,w5,,Goat Statue needs Gaming Bits to level up but is a decent bonus.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:25:35,00:26:09,sailing,world-5/sailing,statue,,mechanic,w5,purrmep_link=22.7,Linking a character to Purrmep Statue gives 22.7% Boat Sailing Speed.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:25:35,00:26:09,divinity,world-5/divinity,statue,,mechanic,w5,purrmep_link=22.7,Linking a character to Purrmep Statue gives 22.7% Boat Sailing Speed.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:25:35,00:26:09,sailing,world-5/sailing,statue,,setup,w5,,Link a higher level Divinity character to Purrmep Statue since the bonus scales with Divinity level.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:25:35,00:26:09,divinity,world-5/divinity,statue,,setup,w5,,Link a higher level Divinity character to Purrmep Statue since the bonus scales with Divinity level.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:26:09,00:26:40,sailing,world-5/sailing,statue,,mechanic,w5,purrmep_blessing=3,Purrmep blessing gives about 3% Sailing Speed per level and only needs coins to level.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:26:09,00:26:40,divinity,world-5/divinity,statue,,mechanic,w5,purrmep_blessing=3,Purrmep blessing gives about 3% Sailing Speed per level and only needs coins to level.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:26:09,00:26:40,sailing,world-5/sailing,talent,siege_breaker,mechanic,w5,talents=4,Newly updated Siege Breaker has 4 new Sailing talents; first is Unending Loot Search.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:26:09,00:26:40,sailing,world-5/sailing,talent,siege_breaker,mechanic,w5,,Unending Loot Search lets chests in the Loot Pile be upgraded.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:26:40,00:27:12,sailing,world-5/sailing,talent,siege_breaker,mechanic,w5,,Unending Loot Search does not add chests but replaces a Wooden Chest with a better one brought back.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:26:40,00:27:12,sailing,world-5/sailing,talent,siege_breaker,mechanic,w5,points=100;chest_loot=35,Unending Loot Search gives about 35% more chest loot at 100 points.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:26:40,00:27:12,sailing,world-5/sailing,talent,siege_breaker,mechanic,w5,,Expertly Sailed gives more Sailing EXP to all characters though Sailing is a shared level.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:27:12,00:27:42,sailing,world-5/sailing,talent,siege_breaker,mechanic,w5,,More Sailing level raises artifact values based on Sailing Level.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:27:12,00:27:42,sailing,world-5/sailing,talent,siege_breaker,mechanic,w5,,Captain Peptalk gives more Captain EXP so Captains level faster for more multiplier on bonuses.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:27:12,00:27:42,sailing,world-5/sailing,talent,siege_breaker,mechanic,w5,,Archlord of the Pirates gives more EXP and Drop Rate per power of 10 kills of Plunderous Mobs.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:27:12,00:27:42,drop_rate,,talent,siege_breaker,mechanic,w5,,Archlord of the Pirates gives more EXP and Drop Rate per power of 10 kills of Plunderous Mobs.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:27:12,00:27:42,class_exp,,talent,siege_breaker,mechanic,w5,,Archlord of the Pirates gives more EXP and Drop Rate per power of 10 kills of Plunderous Mobs.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:27:12,00:27:42,sailing,world-5/sailing,talent,siege_breaker,mechanic,w5,,Plunderous Mobs come from using the Pirate Flag.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:27:42,00:28:16,sailing,world-5/sailing,talent,siege_breaker,how_to,w5,,Play Siege Breaker actively to get more Plunderous Mob kills; benefit applies to all characters.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:27:42,00:28:16,sailing,world-5/sailing,talent,siege_breaker,warning,w5,,The 4 Sailing talents must be on the Active talent preset not a secondary preset.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:27:42,00:28:16,sailing,world-5/sailing,family bonus,siege_breaker,mechanic,w5,,Siege Breaker has a Family Bonus giving faster minimum boat travel time.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:27:42,00:28:16,class_exp,,family bonus,siege_breaker,mechanic,w5,,Siege Breaker has a Family Bonus giving faster minimum boat travel time.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:28:16,00:28:47,sailing,world-5/sailing,family bonus,siege_breaker,mechanic,w5,base_hours=2;bonus=12.4;with_bonus_min=105;base_min=120,Base minimum is 2 hours; his Siege Breaker has 12.4% faster giving 105 minutes versus 120.,yes,3
+hcx5Dkb751E,nocturne,2023-02-17,00:28:16,00:28:47,sailing,world-5/sailing,talent,siege_breaker,priority,w5,,Leveling Siege Breaker and keeping these talents active greatly increases Sailing gains.,yes,3

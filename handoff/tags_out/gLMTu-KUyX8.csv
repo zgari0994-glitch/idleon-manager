@@ -1,0 +1,59 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,lab,node,,priority,w4,,Push lab to Killer Bright Side and No Bubble Left Behind as early as possible for progression,yes,3
+00:00:00,00:00:30,lab,mainframe,,mechanic,w4,,Lab needs characters uploaded to the main frame in a daisy chain; you keep a node's bonus while it stays connected,yes,3
+00:00:30,00:00:30,lab|bubbles,no bubble left behind,,mechanic,w4,frequency=once per day;bubbles=15,Once per day it randomly upgrades a few of your lowest-level bubbles within the first 15 bubbles of each cauldron,yes,3
+00:00:30,00:00:30,lab,killer bright side,,mechanic,w4,kills_multiplier=2,Killer Bright Side grants double kills which makes world progression smoother,yes,3
+00:00:30,00:00:30,lab|gem_shop,souped-up lab tubes,,how_to,w4,,Buy souped-up lab tubes from the gem shop to speed up getting connected in the lab,yes,3
+00:00:30,00:01:01,cooking,phase 1,,priority,early,,Phase one cooking powerhouses are egg and corn dog and cabbage with cabbage the best,yes,3
+00:01:01,00:01:01,cooking|bubbles,diamond chef,,mechanic,mid,meal_level=11,Phase two needs the Diamond Chef bubble in the yellow cauldron which boosts cooking speed per diamond plate (meal level 11),yes,3
+00:01:01,00:01:31,cooking|bubbles,bargain tag,,how_to,mid,cost_reduction_pct=90,Stockpile the bleach dock salts spice and only spend it with bargain tag; one upgrade gets up to 90% cost reduction,yes,2
+00:01:31,00:01:31,cooking|talent,blood marrow,blood_berserker,mechanic,late,,Phase three revolves around Vman's blood marrow which multiplies cooking speed per level in each meal for several trillion percent quickly,yes,3
+00:01:31,00:02:01,cooking|talent,super chow,blood_berserker,mechanic,late,speed_per_mob=1.1;kills_required=100000000;total_multiplier=2480,Eclipse gives Blood Berserker Super Chow: 1.1x cooking speed per mob with 100M+ kills for a 2480x multiplier,yes,3
+00:02:01,00:02:01,cooking|hole|atom_collider,fluoride,,mechanic,late,,Hole (world 5) and atom collider fluoride also give huge cooking speed bonuses,yes,2
+00:02:01,00:02:01,cooking|bubbles,diamond chef,,mechanic,late,,Later boron lets you upgrade Diamond Chef without using spices,yes,2
+00:02:01,00:02:32,class_choice,elite class,divine_knight,priority,w4,,At Demon Gits (4th map of world 4) you unlock the next class upgrade; first priority is Divine Knight from Squire,yes,3
+00:02:32,00:02:32,class_choice|talent,imbued shockwave|divine intervention,divine_knight,mechanic,w4,,Divine Knight is among the best to push in w4-5 thanks to Imbued Shockwave (free shockwave chance) and Divine Intervention (respawns all monsters when cleared),yes,3
+00:02:32,00:03:02,class_choice|talent,divine intervention,divine_knight,comparison,w4,,Bubo is faster at clearing portals but needs lots of investment to be potent,yes,2
+00:03:02,00:03:02,talent_points|talent,divine intervention,divine_knight,mechanic,w4,talent_points=1;effectiveness_pct=100,Divine Knight needs only one talent point for 100% Divine Intervention effectiveness so more points go to attack talents,yes,3
+00:03:02,00:03:02,class_choice,mana,divine_knight,mechanic,w4,,Divine Knight uses the least mana in the game which helps keep active kills per hour up,yes,3
+00:03:02,00:03:34,class_choice,afk,divine_knight,warning,w4,,Divine Knight is not strong AFK with poor AFK kills per hour so it is mostly used actively,yes,3
+00:03:02,00:03:34,class_choice,elite class,blood_berserker|beast_master|bubonic_conjuror,priority,w4,,After Divine Knight prioritize Blood Berserker and Beastmaster and Bubonic Conjuror to get the most out of the world 4 skills,yes,2
+00:03:34,00:03:34,class_choice|talent,voidwalker,voidwalker,priority,w4,,Unlock Voidwalker as soon as possible for some of the best account-wide bonuses in the game,yes,3
+00:03:34,00:04:06,traps|worship|cooking|statues|talent,voidwalker bonuses,voidwalker,mechanic,w4,,Voidwalker gives trapping and worship soul multiplier from species epoch and cooking speed from blood marrow and statue multiplier from voodoo statification and eternal stat talents,yes,2
+00:03:34,00:04:06,class_choice|talent,eclipse,voidwalker,mechanic,w4,,Eclipse upgrades at least one talent from each of the other classes,yes,3
+00:04:06,00:04:06,breeding|talent,whale wallop,beast_master,mechanic,w4,max_whale_summons=25;chance_pct=50;incubator_reduction_sec=3,Eclipse'd whale wallop gives +25 max whale summons and range and 50% per kill to cut egg incubator time by 3 seconds including all kills,yes,3
+00:04:06,00:04:36,class_choice|quests,voidwalker unlock,maestro,how_to,w4,maestro_level=50,Voidwalker needs a maestro from the secret world 1 quest line at level 50 and completing three Nebulite quests,yes,2
+00:04:06,00:04:36,quests,nebulite,maestro,how_to,w4,level=150,Nebulite sits under the world 5 portal and you must be on your maestro at level 150 to start the quests,yes,2
+00:04:36,00:04:36,quests|death_note,nebulite quests,maestro,how_to,w4,death_note_kills=1000000;green_mushroom_kills=12000000,Quests: 1M death note kills on all world 1-3 monsters and defeat cheese on chaotic and 12M green mushroom kills on maestro,yes,3
+00:04:36,00:04:36,quests|cards,time candy,,how_to,w4,,You can use time candies to speed up the Nebulite quest kill requirements,yes,3
+00:04:36,00:05:07,lab,line width,,mechanic,w4,,Line width is the connection between players and increases when you level a character's lab skill,yes,3
+00:05:07,00:05:07,lab,connection range,,mechanic,w4,,Connection range between player and node does not increase with lab level; it comes from other sources so you must be close to the node,yes,3
+00:05:07,00:05:38,storage,world 4 shop,,priority,w4,,Once farming in world 4 with enough coins hitting the world 4 shop should be a top priority,yes,3
+00:05:38,00:06:08,lab|gem_shop,processor chips|strong jewels,,how_to,w4,,Buy multiple processor chips and strong jewels to unlock the new shop by the lab selling lab jewels and chips on weekly rotation,yes,3
+00:06:08,00:06:08,tome,blue tome page,,how_to,w4,,Buy blue tome pages from the world 4 shop to unlock a new percent skill efficiency bonus in the tome,yes,3
+00:06:08,00:06:08,lab,sappy dna splicers,,how_to,w4,,Pick up sappy DNA splicers from the shop as extra stat sticks for characters,yes,2
+00:06:08,00:06:38,storage|stamps,shop purchases,,how_to,w4,,At this point you can probably afford all storage chest bags and stamps from every shop up to world 4 so grab them,yes,3
+00:06:08,00:06:38,cooking,meals,,mechanic,any,meals=67,There are currently 67 meals and each gives a specific stat bonus across the game,yes,3
+00:06:38,00:06:38,cooking,ribbons,,mechanic,late,golden_food_pct=1800;basic_attack_speed=800,Ribbons multiply meal bonuses massively like 1800% all golden food from Yumi Peach Ring or 800 basic attack speed from Cauliflower,yes,2
+00:06:38,00:07:08,cooking|talent,blood marrow,blood_berserker,how_to,any,,Blood marrow gives cooking speed based on total meal levels so level up even meals that seem poor,yes,3
+00:07:08,00:07:38,talent|drop_rate,orb of remembrance,divine_knight,how_to,w4,,Orb of Remembrance on Divine Knight in the coliseum or purple mushroom map's mutated mush miniboss gives more loot with a bigger orb,yes,3
+00:07:08,00:07:38,breeding|cooking,pet eggs,divine_knight,afk_spot,w4,eggs=100,Farm mutated mush with a high orb count to get pet eggs and ladles; you can net around 100 eggs in the late game,yes,3
+00:07:38,00:07:38,breeding,gray dna,,mechanic,any,,Gray DNA is very hard to get and the only way is by treasuring pets,yes,3
+00:07:38,00:08:09,breeding,upgrade priority,,priority,early,,Prioritize breedability pulse and rarity of eggs and past present brood first when upgrading breeding,yes,3
+00:08:09,00:08:09,breeding,breedability pulse,,mechanic,early,,One level of breedability pulse unlocks breeding breedable pets; pets in the fence yard raise the breedability meter and you can stack several,yes,3
+00:08:09,00:08:40,breeding,rarity of eggs,,mechanic,early,,Rarity of eggs upgrades eggs from base to bronze to silver and so on raising new pet chance,yes,3
+00:08:40,00:08:40,breeding,past present brood,,mechanic,mid,,Past present brood boosts new pet chance based on pets unlocked in the previous world,yes,3
+00:08:40,00:08:40,breeding,blooming axe,,opinion,any,,Blooming axe is a nice upgrade for foraging spices and the other breeding upgrades are pretty solid,yes,2
+00:08:40,00:09:10,lab|gem_shop,choco chip,,mechanic,w4,,Choco chip comes from the chip repository shop and is a god-tier chip with a terrible rotation,yes,3
+00:09:10,00:09:10,lab,choco chip,,warning,w4,wait_months=6,The choco chip rotation can mean waiting up to 6 months before it shows up again,yes,3
+00:09:10,00:09:10,lab|cooking|anvil,choco chip,,how_to,w4,,To unlock choco chip you need cheese and the beach spice from cooking and pinion spurs from the anvil,yes,2
+00:09:10,00:09:41,lab,choco chip,,mechanic,w4,respawn_chance_pct=75,Choco chip gives a 75% chance to respawn another crystal mob when one dies for crystal farming,yes,3
+00:09:41,00:09:41,gem_shop|lab,choco chip,,opinion,w4,,Gambling for choco chip in the gem shop is not suggested,yes,3
+00:09:41,00:10:11,rift,access,,how_to,w4,,Complete Rift Ripper's quest line in the Octodar map to access the rift,yes,2
+00:10:11,00:10:41,rift,challenges,,priority,w4,challenges=10,Every five rift challenges unlock a bonus; push through the first 10 as soon as you can,yes,3
+00:10:11,00:10:41,rift|constellations,infinite star sign,,mechanic,w4,rift_level=10,Rift 10 unlocks infinite star signs making all star signs active at all times with no penalty,yes,3
+00:10:41,00:10:41,rift|pets,infinite star sign,,setup,w4,,Infinite star sign requires leveling some shiny pets first,yes,3
+00:10:41,00:10:41,rift|cards,rift unlocks,,mechanic,w4,,Later rift unlocks include auto-collect pets and a new card tier and big damage multipliers,yes,3
+00:10:41,00:11:11,armor_smithy,troll armor,,priority,w4,nolos=10000,Start saving resources for troll armor by the end of world 4 since it is the turning point in gear progression,yes,3
+00:10:41,00:11:11,armor_smithy,troll armor,,blocker,w4,nolos=10000,Troll armor requires 10000 nolos which is a hard hurdle,yes,2
+00:11:11,00:11:43,armor_smithy|salt_lick,troll armor,,warning,w4,,Being salt locked hampers early mid and late game; stockpile now though it is more of a world 6 thing,yes,2

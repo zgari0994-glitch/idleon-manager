@@ -1,0 +1,44 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,general,game overview,,mechanic,any,max_characters=10,"Idle RPG with guild and party dungeon multiplayer, level up to 10 characters through skills, combat and questing.",yes,3
+00:00:30,00:01:02,general,afk gains,,mechanic,any,,"Game shines in AFK management; can increase AFK gains, XP and drop chance, not just attack and stats, without spending money.",yes,3
+00:01:34,00:02:06,general,world 4 update,,meta_change,w4,,"World 4 update added elite classes, new 10th character Killroy, world 2 party dungeon updates, and three new skills: cooking, breeding, lab.",yes,3
+00:01:34,00:02:06,killroy|characters,10th character,,meta_change,w4,character_slot=10,Killroy is the new 10th character added with the World 4 update.,yes,3
+00:01:34,00:02:06,dungeons,party dungeon,,meta_change,w4,,World 2 party dungeon updates came with the World 4 update.,yes,2
+00:01:34,00:02:06,cooking|breeding|lab,new skills,,meta_change,w4,,"Cooking, breeding and lab are new skills added in World 4 update.",yes,3
+00:02:06,00:02:36,recipe_unlocks,world 1-3 farming,,meta_change,w4,,New recipes make you farm world 1, 2 and 3 even more to get them.,yes,3
+00:02:36,00:03:07,general,newbie accessibility,,opinion,any,,Mechanics are not explained well; more worlds will make the game daunting for new players.,yes,3
+00:03:07,00:03:37,gem_shop,world 4 upgrades,,opinion,w4,cooking_speed_multiplier=3,"World 4 gem shop upgrades like 3x cooking speed, more money and damage are overpowered; pay-to-win in terms of saving time.",yes,3
+00:03:37,00:03:37,gem_shop,jewels and ships,,comparison,w4,,"Free-to-play would take months to get a fraction of what a paid player gets from jewels and ships.",yes,2
+00:03:37,00:04:08,account_structure,account status,,account_note,late,,"Creator says he is in super late game; alchemy growing, construction strong, meals getting void plated, lab slow but steady.",yes,3
+00:03:37,00:04:08,bubbles,alchemy,,account_note,late,,Alchemy is growing nicely.,yes,3
+00:03:37,00:04:08,construction,,,account_note,late,,Construction is pumping.,yes,3
+00:03:37,00:04:08,cooking,meals,,account_note,late,,Meals are getting void plated.,yes,3
+00:03:37,00:04:08,lab,,,account_note,late,,Lab is going slowly but steadily.,yes,3
+00:03:37,00:04:08,lab|farming,chips,,target,mid,chip_access_level=75,Farming people up to level 75 for full chip access.,yes,2
+00:04:08,00:04:08,characters,levels,,account_note,late,character_level=200,All characters are almost level 200 and everyone reached end of world four.,yes,3
+00:04:08,00:04:08,characters,world 4 boss,,account_note,w4,,Waiting for the World 4 boss update.,yes,2
+00:04:08,00:04:39,printer,3d printing,,account_note,late,,Getting massive prints so never starving for refinery.,yes,2
+00:04:08,00:04:39,refinery,rank,,opinion,late,refinery_rank=46,Leveling refinery is stupidly painful; currently rank 46.,yes,3
+00:04:08,00:04:39,dungeons|event_shop,emperor ovals,,account_note,late,emperor_ovals=13;flurbos_each=10000,Obtained 13 emperor ovals at 10k flurbos each; last ring in party dungeon flurbo shop.,yes,3
+00:04:08,00:04:39,dungeons,flurbo shop,,account_note,late,upgrades_maxed_percent=90,Has 90 of everything maxed in party dungeons shop.,yes,2
+00:04:39,00:04:39,dungeons,carrying,,account_note,late,people_carried=50,"Has killed fourth frog, third snake and third glasses (Jerry) and carried over 50 people.",yes,2
+00:04:39,00:04:39,prayers,tower defense,,account_note,late,,Tower defense is solid for prayers.,yes,2
+00:04:39,00:04:39,fishing|general,mini games,,account_note,late,,Has high scores in minigames and megalodons on all characters.,yes,2
+00:04:39,00:05:10,general,post office,,account_note,late,,Post office going great with new choco chip from World 4 for crystal mobs bomb and crazed to drop silver pens.,yes,2
+00:04:39,00:05:10,characters,apocalypse,blood_berserker,account_note,late,,Apocalypse Chow has been fully achieved on blood berserker.,yes,2
+00:04:39,00:05:10,characters,,bubonic_conjuror,opinion,late,,Bubonic conjuror still overpowered.,yes,3
+00:04:39,00:05:10,breeding,eggs,beast_master,opinion,late,,Beast master cranks out eggs with huge pet gains.,yes,3
+00:04:39,00:05:10,breeding,pets,,account_note,late,,Just unlocked the last pet for World 1; two worlds to go.,yes,3
+00:05:10,00:05:40,daily_routine,maintenance mode,,account_note,late,,"Daily routine in maintenance mode: log in, do dailies, claim refinery scrap, cogs, level alchemy and stamps.",yes,3
+00:05:10,00:05:40,stamps|bubbles|refinery,daily,,active_task,late,,"Daily: claim refinery scrap, cogs, level alchemy, level stamps.",yes,3
+00:05:10,00:05:40,daily_routine,happy hour,,active_task,late,happy_hour_multiplier=40,Run happy hour for times 40.,yes,2
+00:05:10,00:05:40,killroy,weekly,,active_task,late,,Do Killroy weekly.,yes,3
+00:05:10,00:05:40,daily_routine|traps,,,active_task,late,,"Also does AFK gambling, collecting souls, and collecting traps via trapping drone, chilling in the lab.",yes,2
+00:05:40,00:06:10,printer,3d prints,,target,late,,Remaining goals include 3D prints.,yes,2
+00:05:40,00:06:10,dungeons,carries,,target,late,,More carries.,yes,2
+00:05:40,00:06:10,general,diabolical gear,,target,late,,Farming for diabolical gear and star metal tools plus lots of skilling.,yes,2
+00:06:10,00:06:10,characters,opal slot,,target,late,character_level=250,Get every character to level 250 to unlock the last opal slot.,yes,3
+00:06:10,00:06:41,rift,,,meta_change,late,,Upcoming content: pet follower update and rift update.,yes,3
+00:06:41,00:07:12,general,recommendation,,opinion,any,,"Creator recommends the game; suggests traversing world 1 and 2 and waiting until world 3 to decide, as it's slow at the start.",yes,3
+00:07:12,00:07:44,general,monetization,,opinion,any,,Free-to-play cross-platform with no ads is game changing.,yes,3
+00:07:44,00:08:15,guild,,,meta_change,any,,Guild has a big waiting list; new sister guild looking for dedicated members.,yes,3

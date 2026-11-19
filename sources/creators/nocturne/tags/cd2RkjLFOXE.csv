@@ -1,0 +1,22 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+cd2RkjLFOXE,nocturne,2022-04-04,00:00:00,00:00:00,general,,mutated mush location,,mechanic,w4,,Mutated Mush is the World 4 mini boss located in the Spaceway Raceway map,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:00:00,00:00:34,general,,mutated mush requirements,,setup,w4,,To fight Mutated Mush you need either a Barrel of Toxic Sludge or Radioactive Waste,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:00:00,00:00:34,drop_rate,,toxic sludge,,how_to,w1,,Toxic Sludge is a common drop from Jungle Slimes in World 1,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:00:00,00:00:34,tasks,account/task-board/tasks,post office,,how_to,w4,,Radioactive Waste is a random reward from turning in Post Office orders,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:00:34,00:00:34,general,,mutated mush accuracy,,threshold,w4,accuracy_5pct_hit=2250;accuracy_100pct_hit=6750,Need at least 2250 accuracy for 5% hit chance or 6750 for 100% hit chance against Mutated Mush,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:00:34,00:01:09,general,,mutated mush damage,,warning,w4,,He hits very hard so bring plenty of food; not currently possible to get enough defense to ignore his damage,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:00:34,00:01:09,general,,mutated mush summon,,how_to,w4,,Summon the boss on the top platform of Spaceway Raceway by dropping Barrels on top of the mushrooms,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:01:09,00:01:40,general,,mutated mush respawn,,mechanic,w4,mushrooms_on_platform=3;min_respawn_days=4,Mushrooms disappear on summon and respawn on a timer with a minimum of 4 days for the first mushroom,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:01:09,00:01:40,general,,mutated mush respawn,,mechanic,w4,max_mushrooms=8;days_to_max=67,Mushrooms accumulate so you needn't fight every four days but the timer slows with each; up to 8 accumulate over 67 days,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:01:40,00:01:40,general,,mutated mush respawn,,mechanic,w4,,Days only accumulate on days you log into at least one character; log in daily for minimum timer,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:01:40,00:01:40,general,,mutated mush respawn,,mechanic,w4,,You do not need to visit the map for the respawn days to count,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:02:10,00:02:10,general,,mutated mush fight,,mechanic,w4,,He damages you when he runs over you but mainly summons lightning storms similar to Amarok,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:02:10,00:02:41,general,,mutated mush fight,,mechanic,w4,boss_hp=120000000,Each mushroom boss has about 120 million HP; damage is not that bad with a full Dementia gear set,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:02:41,00:03:15,drop_rate,,mutated mush loot,,mechanic,w4,,Common drops include Coins XP Balloons and Time Candies,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:03:15,00:03:15,cards,,mutated mushroom card,,mechanic,w4,,Main drop is the Mutated Mushroom card,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:03:15,00:03:47,recipe_unlocks,account/task-board/unlocks,dawn stopwatch recipe,,mechanic,w4,skill_afk_gain=2;skill_efficiency=1,Boss can drop Dawn Stopwatch Recipe giving 2% skill AFK gain rate and 1% skill efficiency,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:03:15,00:03:47,lab,world-4/laboratory,dawn stopwatch recipe,,mechanic,w4,skill_afk_gain=2;skill_efficiency=1,Boss can drop Dawn Stopwatch Recipe giving 2% skill AFK gain rate and 1% skill efficiency,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:03:15,00:03:47,recipe_unlocks,account/task-board/unlocks,souped lab ring recipe,,mechanic,w4,lab_xp=25;lab_efficiency=35,Boss can drop Souped Lab Ring Recipe giving 25% Lab XP and 35% Lab efficiency,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:03:15,00:03:47,lab,world-4/laboratory,souped lab ring recipe,,mechanic,w4,lab_xp=25;lab_efficiency=35,Boss can drop Souped Lab Ring Recipe giving 25% Lab XP and 35% Lab efficiency,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:03:15,00:03:47,breeding,world-4/breeding,pet eggs,,mechanic,w4,,Boss can drop Pet Eggs for more breeding chances,yes,3
+cd2RkjLFOXE,nocturne,2022-04-04,00:03:47,00:03:47,cooking,world-4/cooking,ladles,,mechanic,w4,,Boss can drop Cooking Ladles to speed up cooking,yes,3

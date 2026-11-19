@@ -1,0 +1,163 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,characters,chopping sampling stats,,mechanic,any,stats=5,"Five main stats matter for chopping sampling: chopping efficiency, chopping speed, multi-log chance, printer sample rate, AFK gain rate; hard to rank them.",yes,3
+00:00:00,00:00:31,characters,chopping efficiency,,priority,any,,Chopping efficiency is the base stat for all chopping; more is better and it affects multi-log drop chance.,yes,3
+00:00:31,00:00:31,characters,chopping efficiency,,warning,any,,Push efficiency as high as possible as long as you do not sacrifice too much of the other stats.,yes,3
+00:00:31,00:01:02,characters,chopping speed,,threshold,any,speed_cap=62,Chopping speed is capped at 62 per minute; once reached it doesn't matter if all foods are equipped.,yes,3
+00:00:31,00:01:02,characters,chopping speed,,mechanic,any,,Chopping speed comes mainly from boost foods and skill level; higher chopping level needs fewer boost foods to hit 62.,yes,3
+00:01:02,00:01:33,bubbles,multi-log bubble,,threshold,any,multilog_cap=300,Multi-log drop chance caps at 300 percent and you only reach it with the multilog bubble equipped; more beyond is wasted.,yes,3
+00:01:02,00:01:33,bubbles,multi-log bubble,,target,any,multilog_target=300,Make sure you reach 300 percent multi-log chance.,yes,3
+00:01:33,00:01:33,bubbles,multi-log bubble,,threshold,any,bubble_level_low=150;bubble_level_high=185,Reaching 300 percent usually needs about level 150 to 185 in the multilog bubble; varies with other sources.,yes,2
+00:01:33,00:02:04,construction|printer,sample rate,,threshold,any,sample_rate_cap=90,Printer sample rate caps at 90 percent; check it in the construction tab.,yes,3
+00:02:04,00:02:04,construction|printer,sample rate,,priority,any,,Printer sample rate is one of the most effective ways to increase printer sampling gains so cap it out.,yes,3
+00:02:04,00:02:36,characters,AFK gain rate,,priority,any,,AFK gain rate is arguably the most important stat; it makes all other stats more effective.,yes,3
+00:02:36,00:02:36,characters,AFK gain rate,,comparison,any,afk_gain_gain=10,Sacrificing a little efficiency for another 10 AFK gain rate gives the most bang for the buck; it's a balance.,yes,3
+00:02:36,00:03:06,armor_smithy,magma gear set,,setup,any,pieces=3,Use three pieces of the magma (dreadlo) gear set because they give more base efficiency through wisdom and percent all stats.,yes,3
+00:03:06,00:03:36,armor_smithy,fibrous footings,,setup,any,chop_efficiency=35,Use fibrous footings as the fourth piece because 35 chop efficiency outweighs the dreadlo boots' wisdom.,yes,3
+00:03:06,00:03:36,armor_smithy,dreadlo boots,,setup,any,,Still need dreadlo boots for the second (snapshot) gear set.,yes,3
+00:03:36,00:03:36,armor_smithy,crafted pieces,,setup,any,,If you can't craft or wear magma pieces use other crafted chopping pieces; magma gives more efficiency.,yes,3
+00:03:36,00:04:08,armor_smithy,funny hat,,opinion,any,skill_eff=6;chop_eff=10,He gets more skill efficiency from the funny hat despite 6 percent skill efficiency vs 10 chop efficiency; unsure why.,yes,2
+00:04:08,00:04:39,armor_smithy,divine scarf,,setup,any,all_afk_gain=25,Divine scarf is current best-in-slot pendant for almost everything: 25 percent all AFK gain plus big base stat.,yes,3
+00:04:08,00:04:39,armor_smithy,divine scarf,,setup,any,,Use wisdom upgrade stones on the chopping character or the scarf's base stat is less effective.,yes,3
+00:04:39,00:05:11,armor_smithy,persephone's bouquet,,comparison,any,bouquet_afk=15;scarf_afk=25,Persephone's bouquet (15 percent) is still very good if you can't use the scarf due to level or crafting requirements.,yes,3
+00:04:39,00:05:11,armor_smithy,serrated rex rings,,setup,any,skill_eff=8;sets=3,Serrated Rex rings give 8 percent skill efficiency each; optimize for wisdom on this character; need basically three sets.,yes,3
+00:05:11,00:05:42,armor_smithy,miss snoozy cap,,setup,any,all_afk_gain=10,Gift Miss Snoozy cap gives 10 percent all AFK gain; ideally has wisdom as main stat rather than strength.,yes,3
+00:05:11,00:05:42,gem_shop,stat reset,,account_note,any,,He messed up the cap's stat and hasn't wanted to spend gems on resetting it.,yes,2
+00:05:42,00:06:13,armor_smithy,trophy,,setup,any,skill_eff=15,Idle skiller trophy is best in slot with 15 percent more skill efficiency.,yes,2
+00:05:42,00:06:13,armor_smithy,trophy,,comparison,any,afk_gain=3,Alternatives: king of food trophy for boost food effect or blunder hills trophy for 3 percent AFK gain.,yes,2
+00:05:42,00:06:13,armor_smithy,wings,,setup,any,all_afk_gain=13,Wing slot: giant star flower is best in slot with 13 all AFK gain; angel wings are the alternative.,yes,3
+00:06:13,00:06:44,armor_smithy,keychains,,setup,any,,While sampling use all-AFK-gain pendants/keychains; keep pieces with more percent base wisdom for the second gear set.,yes,3
+00:06:13,00:06:44,armor_smithy,tools,,setup,any,,Use the best axe/hatchet you can; it gives most speed and chopping power and can be upgraded to huge wisdom.,yes,3
+00:06:44,00:07:16,armor_smithy,tools,,mechanic,any,hatchet_display_wisdom=62;hatchet_real_wisdom=500;multiplier=9,Hatchet wisdom is about nine times what is displayed; 62 displayed gives a little over 500 almost 600 wisdom.,yes,3
+00:06:44,00:07:16,armor_smithy,tools,,setup,any,,Make all other tools with max wisdom too and for each gear set; one wisdom set traded between characters is fine.,yes,3
+00:07:16,00:07:48,cooking,golden grilled cheese nomwich,,setup,any,all_stats=31,Equip golden grilled cheese nomwich for 31 percent more base stats including wisdom.,yes,3
+00:07:16,00:07:48,cooking,skilling speed foods,,setup,any,,Use saucy log fries and the chalk dog as skilling speed foods for chopping speed.,yes,2
+00:07:48,00:08:19,cooking,skilling speed foods,,warning,any,speed_cap=62,As you level you may not need both speed foods to hit the 62 cap; check and don't leave them equipped.,yes,3
+00:07:48,00:08:19,cooking|random_events,boost foods,,warning,any,,Like the automation arm it's easy to use up all your chagnogs and they can't be replaced until an event drops them.,yes,2
+00:08:19,00:08:49,characters,secondary gear set,,setup,any,,Secondary gear set is for snapshotting mana right before sampling since bubbles scale skill efficiency with max mana.,yes,3
+00:08:49,00:09:19,armor_smithy,secondary gear set,,setup,any,,Without the divine scarf use the chaotic amarok pendant; also opal rings and boots with more all stats/wisdom.,yes,3
+00:08:49,00:09:19,armor_smithy,giant violet,,setup,any,all_stats=10,Giant violet gives 10 percent all stats for the mana set; add wisdom keychains.,yes,2
+00:09:19,00:09:50,armor_smithy,keychains,,setup,any,keychain_pct=6,Put the best percent-wisdom keychain in the top slot because of the keychain doubler.,yes,3
+00:09:19,00:09:50,cards,card sets,,meta_change,any,,Cards will be covered later because a few things affect the card setups.,yes,3
+00:09:50,00:10:21,characters,talent,shaman,priority,any,,Tab 1 talents: smart efficiency (efficiency for specialized skill; chopping for shaman) is hugely important.,yes,3
+00:09:50,00:10:21,characters,talent,shaman,priority,any,,Put as many points as you can into book of the wise.,yes,3
+00:09:50,00:10:21,characters,talent,shaman,priority,any,,Active AFK air gives large AFK gain rates; you miss stats without points in it.,yes,2
+00:10:21,00:10:21,characters,talent,,skip,any,,Everything else on talent tab 1 is optional and excess points need not be spent.,yes,3
+00:10:21,00:10:52,characters,talent,shaman,priority,any,,Tab 2: log on logs is free logs in sampling and majorly important to have.,yes,3
+00:10:52,00:10:52,characters,talent,shaman,priority,any,leaves_low=10;leaves_high=100,Leaf thief matters with enough leaves in storage; atom collider makes it worthwhile even with 10 to 100 leaves.,yes,3
+00:10:52,00:11:22,characters,talent,shaman,priority,any,,Deforesting all doubt makes wisdom give more chopping efficiency; third most important tab 2 talent.,yes,3
+00:11:22,00:11:22,characters,talent,shaman,skip,any,,Inner peace (exp) and chopping it easy (mini game rewards) are not important.,yes,3
+00:11:22,00:11:53,characters,talent,shaman,priority,any,,Max untwisted robes (equipment gives more wisdom) and individual insight for base wisdom.,yes,3
+00:11:22,00:11:53,characters,talent,shaman,opinion,any,,Free meal with spare points is not bad to protect boost foods but not needed.,yes,3
+00:11:53,00:12:23,characters,talent,shaman,priority,any,,Tab 3: Wiz Wombo adds talent points into book of the wise; stupendous statues boosts Lumber Bob statue more with more statues.,yes,2
+00:12:23,00:12:23,characters,talent,shaman,opinion,any,,Occult ovals gives a bit depending on ovals used; with chopping opals giving wisdom he puts points in it.,yes,2
+00:12:23,00:12:53,characters,talent,shaman,priority,any,,Tab 4: utmost intellect gives wisdom and book of the wise levels; skill whiz is very important for wisdom's impact on skill efficiency.,yes,3
+00:12:53,00:13:25,characters,talent,shaman,priority,any,talent_levels=11,Symbols of Beyond gives plus 11 levels to every talent with at least one point; useful.,yes,3
+00:12:53,00:13:25,characters,family bonus,shaman,setup,any,,Use the shaman family bonus: more base wisdom and bigger golden food bonus plus base stats.,yes,3
+00:13:25,00:13:55,characters,star talent,,priority,any,scaling_point=1.5,Toilet paper postage stamp is useful but scales poorly beyond about 1.5 so stop dumping points then.,yes,3
+00:13:55,00:13:55,characters,star talent,,opinion,any,,He dumps spare points in toilet paper postage since nothing else needs them.,yes,2
+00:13:55,00:14:25,characters,star talent,,priority,any,,Will of the eldest gives base stats based on highest level characters.,yes,2
+00:13:55,00:14:25,characters,star talent,,priority,any,,Frothy mock boosts potions and boost foods; super source gives base skill efficiency; action frenzy gives skilling speed.,yes,2
+00:14:25,00:14:55,characters,star talent,,skip,any,wisdom=300,Third tab only stat overload matters (flat 300 wisdom); not a big priority.,yes,3
+00:14:25,00:14:55,constellations,star signs,,setup,any,skill_afk_gain=4,Use comatose major for 4 percent skill AFK gain; three star signs are majorly important.,yes,3
+00:14:55,00:15:27,constellations,star signs,,setup,any,chop_eff=5;multilog=20,Use hipster lager for 5 percent chop efficiency and 20 multi-log chance.,yes,3
+00:14:55,00:15:27,constellations,star signs,,setup,any,food_effect=15,Use Mount Idoris for 15 percent all food effects affecting golden grilled cheese and boost foods.,yes,3
+00:14:55,00:15:27,constellations,star signs,,comparison,any,skill_afk_gain=2;chop_eff=5,At speed cap or if you can give up 5 percent chop efficiency use the 2 percent skill AFK sign; he gets best samples with his current two.,yes,2
+00:15:27,00:15:57,statues,lumber bob,,setup,w1,,Use lumber bob statue for chopping power and feasty statue for food effect.,yes,3
+00:15:57,00:16:27,stamps,hatchet stamp,,priority,w1,base_shown=115;base_actual=89,Hatchet stamp gives chopping efficiency; keep leveling despite the under-leveled notice; he gets 89 of 115.,yes,3
+00:15:57,00:16:27,stamps,duplog stamp,,priority,w1,,Duplog stamp increases multi-log chance; swaggy swingy tool stamp gives chopping efficiency.,yes,3
+00:16:27,00:16:57,stamps,multi-tool stamp,,priority,w1,,Multi-tool stamp gives base skill efficiency to all skills; level it up.,yes,3
+00:16:27,00:16:57,stamps,combat stamps,,priority,w1,,In the combat tab get stamps giving wisdom: book stamp and arcane stamp; a bit from stat graph stamp.,yes,3
+00:16:57,00:17:28,pets,companions sandy pot,,priority,w1,all_stats=15,Sandy pot companion gives plus 15 all base stats helping wisdom.,yes,2
+00:16:57,00:17:28,pets,companions,,priority,w1,afk_gain=5;skill_eff=5,Board bean gives 5 percent skill AFK gain; multi gives 5 percent all skill efficiency.,yes,2
+00:16:57,00:17:28,pets,companions sheepy,,priority,w1,,Sheepy gives all big bubbles all the time so you don't forget small bonuses when picking bubbles.,yes,3
+00:17:28,00:17:58,pets,rift slug,,priority,w1,talent_levels=25,Rift slug gives 25 levels to all talents with at least one point; a direct increase to sampling.,yes,2
+00:17:58,00:18:29,pets,king dude,,comparison,any,afk_gain_diff_low=3;afk_gain_diff_high=4,King dude lets you sample in one day; not required (min-max prayers each week) and worth about 3-4 percent AFK gain.,yes,2
+00:18:29,00:18:59,bubbles,stable genius,,priority,w2,wisdom_per_level=1;effective=5,Stable genius gives 1 wisdom per level but multipliers make it about 5 per level.,yes,3
+00:18:29,00:18:59,bubbles,mages best,shaman,mechanic,w2,multiplier=2.7,Mages best multiplies purple bubbles by 2.7 when logged into a mage-based class such as shaman.,yes,2
+00:18:59,00:19:29,bubbles,hocus choppus,,priority,w2,,Hocus choppus gives chopping efficiency per power of 10 of max mana; why the mana gear set matters; can be snapshotted.,yes,3
+00:19:29,00:19:59,bubbles,hocus choppus,,mechanic,w2,mana_power=10;eff_at_10=45;eff_at_15=45;extra_pct=22.5,At 10 mana you get 45 chopping efficiency; at 15 mana you get 45 plus an additional 22.5 percent; scales with mana.,yes,2
+00:19:59,00:20:31,bubbles,multilogo,,priority,w2,max_multilog=300;default_cap=100,Multilogo is one of the most important big bubbles to equip; without it multi-log chance never exceeds 100.,yes,3
+00:19:59,00:20:31,bubbles,multilogo,,threshold,w2,bubble_level=185,Level 185 on the bubble alone gives 300 but star sign and stamps mean you don't need 185.,yes,3
+00:20:31,00:21:01,bubbles,lebrain tools,,priority,w2,skill_power=60,Lebrain tools gives 60 percent more skilling power to hatchets; one of the most important bubbles to level.,yes,3
+00:20:31,00:21:01,bubbles,purple bubbles,,priority,w2,,Mobile 17 / severa purple is a multiplier to first and third bubble specifically helping chopping efficiency.,yes,2
+00:21:01,00:21:31,bubbles,tree sleeper,,priority,w2,,Tree sleeper gives a direct increase to chopping AFK gain rate.,yes,3
+00:21:01,00:21:31,bubbles,slab log sole,,mechanic,w2,items_per=100;cap_items=1400;chopping_power=28,Slab log sole gives chopping power per 100 slab items; cap around 1400 items so under 28 power and doesn't get hatchet multipliers.,yes,2
+00:21:31,00:22:02,bubbles,slab wisdom,,mechanic,w2,items=1400;wisdom=200,Slab wisdom bubble gives a little over 200 wisdom from 1400 items; small bonus.,yes,2
+00:22:02,00:22:32,bubbles,prowess area,,threshold,w2,prowess_cap=2;current=2.08,Prowess effect caps at 2x from all sources; his bubble gives 2.08 so post office and dinner menu leeks don't add.,yes,2
+00:22:32,00:23:02,bubbles,prowess area,,priority,w2,,If you hit 2x from leeks, post office and prowess area bubble together you're capped and can stop worrying.,yes,2
+00:22:32,00:23:02,bubbles|stamps,stamp max bubble,,priority,w2,,Stamp max bubble gives more max levels to toilet paper postage stamp making stamps more effective.,yes,2
+00:22:32,00:23:02,bubbles|printer,sample size bubble,,priority,w2,sample_cap=90,A sample-size bubble increases printer sampling size which caps at 90 percent.,yes,2
+00:23:02,00:23:33,printer,printer sampling guide,,meta_change,any,,See his printer sampling guide (linked) for how to max the 90 percent sample rate.,yes,3
+00:23:02,00:23:33,bubbles|divinity,big p,,priority,w2,,Big P directly increases Divinity bonuses and should be equipped on every character.,yes,3
+00:23:33,00:24:04,bubbles|divinity,big p,,mechanic,w2,multiplier=1.3,Big P gives a 1.3 multiplier to minor link bonuses; very useful for the goat god.,yes,3
+00:23:33,00:24:04,vials,level 13 vials,,mechanic,w4,vial_level=13,Rift bonuses mean every vial at level 13 increases all other vials; three vials worth maxing.,yes,3
+00:24:04,00:24:34,vials,spanish sahara,,priority,w2,,Spanish sahara gives lots of chopping efficiency and is doubled by lab and rift bonuses.,yes,2
+00:24:04,00:24:34,vials,snow slurry,,priority,w2,,Snow slurry gives more printer sampling size.,yes,3
+00:24:04,00:24:34,vials,pearl seltzer,,priority,w2,,Pearl seltzer gives more base stats; level it if you can afford it.,yes,3
+00:24:34,00:25:04,sigils,odd literature,,priority,w2,golden_food_bonus=25,Odd literature sigil gives more base wisdom golden food bonus (25 percent base).,yes,2
+00:24:34,00:25:04,sigils,dream catcher,,priority,w2,skill_afk_gain=3;points_needed=50000,Dream catcher gives 3 percent skill AFK gain when golden at 50000 points; takes a while but decent.,yes,2
+00:25:04,00:25:34,sigils|sailing,sailing relics,,mechanic,w2,multiplier_low=4;multiplier_high=6,Sailing relics multiply sigil bonuses about four or six times what is displayed.,yes,2
+00:25:04,00:25:34,construction,post office,,priority,w2,,The chopping box gives chopping efficiency, prowess effect and chopping AFK gain.,yes,3
+00:25:34,00:26:05,construction,post office,,priority,w2,,Put points in food box (boost food effect), mana box (max mana) and on tab two the utility box (sample rate).,yes,3
+00:25:34,00:26:05,construction,post office,,priority,w2,,Divinity box gives base wisdom; Myriad crate gives skill efficiency but needs 100000 boxes.,yes,2
+00:25:34,00:26:05,construction,post office,,skip,w2,boxes=100000,Don't invest in the Myriad crate initially; worry about it last because it's a grind of 100000 boxes.,yes,3
+00:26:05,00:26:36,research,chopping ovals,,setup,w2,,He uses chopping ovals on circles, squares and hexagons.,yes,3
+00:26:05,00:26:36,research,dilapidated slush ovals,,comparison,w2,skill_eff=4;normal=2,Dilapidated slush ovals give 4 percent all skill efficiency instead of 2 and are more effective; he lacks enough.,yes,2
+00:26:36,00:27:06,research,sparkle opal,,comparison,w2,all_afk_gain=5;chop_eff=8,Sparkle opal gives 5 percent base all AFK gain; he finds it more effective than the 8 percent chopping efficiency sparkle oval.,yes,2
+00:27:06,00:27:38,research,family ovals,,setup,w2,,On family tab he keeps regular circle ovals due to space, uses chopping ovals on squares and dilapidated slush on hexagons.,yes,2
+00:27:38,00:28:09,prayers,royal sampler,,setup,w3,,Equip the royal sampler prayer for 3D printer sample size.,yes,3
+00:27:38,00:28:09,prayers|printer,royal sampler,,warning,w3,,Don't over level royal sampler; many sources exist and it kills exp on that character.,yes,2
+00:28:09,00:28:39,prayers,zerg rush,,setup,w3,,Use zerg rush (AFK gain rate) and skilled dimwit (skill efficiency) prayers.,yes,3
+00:28:09,00:28:39,prayers,rucksack,,warning,w3,,Avoid rucksack (decreases AFK gain) and balance of proficiency (decreases skill efficiency) while sampling.,yes,3
+00:28:39,00:29:09,atom_collider,helium atom,,priority,w3,leaf_zeros=6,Helium atom adds to power-of-10 talents like leaf thief (currently plus 6 zeros); level it each time you reach the next tier.,yes,3
+00:29:09,00:29:39,lab,mainframe,,priority,w4,all_stats=4.5,Four main lab mainframe bonuses; sapphire navette gives 4.5 percent all stats boosting wisdom.,yes,3
+00:29:09,00:29:39,lab,mainframe,,priority,w4,,Certified stamp book doubles stamps; my first chemistry set doubles vials.,yes,3
+00:29:39,00:30:09,lab,black diamond rhinestone,,priority,w4,meal_bonus=24,Black diamond rhinestone gives 24 percent more bonuses to all dinner menu meals.,yes,2
+00:30:09,00:30:41,lab,chip console,,setup,any,,Console: card doublers on top left and bottom right card slots, both very large bonuses.,yes,3
+00:30:09,00:30:41,lab,chip console,,setup,any,skill_afk_gain=15,Blue chip gives 15 percent more skilling AFK gain.,yes,3
+00:30:41,00:31:11,lab,chip console,,setup,any,trophy_skill_eff=15,Orange doublers: star signs doubler, trophy doubler (idle skilling trophy 15 percent skill efficiency).,yes,3
+00:31:11,00:31:43,lab,chip console,,setup,any,wisdom=6;pendant_afk=25;doubled=50,Keychain doubler (AFK set and wisdom for snapshot set) and pendant doubler: divine scarf 25 becomes 50 percent AFK gain; bouquet 15.,yes,3
+00:31:43,00:32:14,cooking,dinner menu,,priority,w4,corn=2,Dinner menu skill efficiency: corn gives 2 percent per level; rice ball gives 3 percent skill efficiency.,yes,2
+00:32:14,00:32:44,cooking,dinner menu,,priority,w4,leeks=100;whipped_cocoa=4;lab_bonus=24,Leeks give 100 percent skilling prowess effect, capped at 2x; whipped cocoa 4 percent per level; lab adds 24 percent hidden.,yes,2
+00:32:44,00:33:16,pets,shiny pet passives,,priority,w4,,Shiny pet passives that help: bonuses to all meals, base efficiency for all skills, base stats/wisdom (e.g. bot box).,yes,2
+00:33:16,00:33:46,rift,skill mastery,,mechanic,w4,,Skill mastery gives bonuses based on account total skill levels with break points.,yes,3
+00:33:46,00:34:16,rift,skill mastery,,target,w4,total_level=500;max_bonus=75,All skill efficiency requires total level 500 per skill; potential 75 percent with every skill at 500.,yes,2
+00:34:16,00:34:47,rift,skill mastery,,priority,w4,printer_output=1;seal_level=750;total=15,Printer output gives 1 percent per seal above level 750; about 15 more for account.,yes,2
+00:34:16,00:35:18,rift|cards,skill mastery cards,,mechanic,w4,,With skill mastery, chopping cards become passive; still need all skill efficiency/AFK cards equipped.,yes,3
+00:35:18,00:35:49,rift|vials,vial mastery,,mechanic,w4,bonus_per_vial=2;vials_13=38;vials_total=59;bonus=76,Vial mastery gives 2 percent to all vials per vial at level 13; he has 38/59 giving 76 percent, doubled by lab.,yes,3
+00:35:18,00:35:49,rift|cards,rupee cards,,mechanic,w4,base_eff=8,Rupee cards add a card tier making cards more useful and passive; gives another 8 percent base efficiency on easy resource skilling set.,yes,2
+00:35:49,00:36:20,rift|constellations,infinite star signs,,mechanic,w4,,Infinite star signs keeps all star sign bonuses active at all times; doubler only applies to selected signs.,yes,3
+00:36:20,00:36:52,sailing|constellations,star sign doubler,,warning,w4,,Star sign doubler only doubles selected star signs, not all of them.,yes,3
+00:36:52,00:37:22,sailing,frost relic,,priority,w5,skill_eff=30;ancient=2;eldritch=3;total=90,Frost relic gives 30 skill efficiency for world 1-3 skills; with ancient and eldritch it is 90 for chopping.,yes,2
+00:36:52,00:37:22,sailing,chilled yarn,,priority,w5,multiplier=6,Chilled yarn multiplies sigils; tripled by eldritch form, six times more sigil bonus.,yes,2
+00:37:22,00:37:52,sailing,fury relic,,priority,w5,all_stats=30,Fury relic gives max talent levels; Socrates gives percent all stats tripled to 30 percent more wisdom.,yes,2
+00:37:22,00:38:22,sailing|printer,gold relic,,mechanic,w5,sample_multiplier=2.17,Gold relic boosts printer sampling output and grows, so don't sample every day or week; wait for a large gain.,yes,3
+00:37:52,00:38:22,printer,resampling,,warning,w5,mil=50,He has 2.17x multiplier; resampling after only 50 mil gain would drop printer output until the relic grows.,yes,3
+00:38:22,00:38:53,printer,resampling,,advice,w5,,Be selective when resampling and leave time between to get a good boost to base sample rate.,yes,3
+00:38:22,00:38:53,divinity,gods linking,,setup,w5,,Time linking right gods to right characters to get the most out of sampling.,yes,3
+00:38:53,00:39:25,divinity,snake god,,setup,w5,all_afk_gain=30;characters=2,Link one or two chopping characters to snake god for 30 percent all AFK gain.,yes,3
+00:38:53,00:39:25,divinity,goat god,,setup,w5,minor_link=3.7;characters=9,Link other eight to nine characters to goat god; minor link gives 3.7 percent AFK gain based on divinity level.,yes,3
+00:39:25,00:39:55,divinity,snake and goat,,setup,w5,snake=30;goat_low=30;goat_high=33;total=63,Ideal: one to two characters on snake, rest on goat for roughly 63 percent more AFK gain to the sampling character.,yes,3
+00:39:25,00:40:25,printer,sampling rotation,,advice,w5,,He rotates: sample all chopping characters one week, next week mining, then skip sampling a couple weeks or months.,yes,2
+00:39:55,00:40:25,sailing|printer,gold relic,,warning,w5,,Every sample resets the sailing relic; king dude lets you sample all 10 characters at once at max efficiency.,yes,2
+00:40:25,00:40:56,divinity|printer|lab,hareep,,setup,w5,hareep_mult=3;lab_mult=2;total=6,Hareep gives 3x printer resources; with character in lab (2x) you get 6x printing.,yes,3
+00:40:56,00:41:26,divinity|printer|lab,hareep,,setup,w5,,Put characters with really good samples linked to hareep in the lab and forget them to print massive resources.,yes,3
+00:40:56,00:41:26,cards,card sets,,meta_change,any,sets=3,Three card setups: optimal with rift bonuses, without rift bonuses, and a max-mana set.,yes,3
+00:41:26,00:41:56,cards,optimal set,,setup,any,skill_eff=60,Optimal set: chaotic troll (60 skill efficiency), blighted cheese or trimmer worm, stilted seekers (all stats), money card (AFK gain), flying worm (base wisdom).,yes,2
+00:41:56,00:42:26,cards,optimal set,,setup,any,boost_food=24;all_skill_afk=15,Choco box (24 boost food effect) and mrap card (15 all skill AFK gain) complete the optimal set.,yes,2
+00:41:56,00:42:26,cards,card doublers,,warning,any,,Put key cards in top left and bottom right slots as card doublers double those two.,yes,3
+00:42:26,00:42:58,cards,non-rift set,,setup,any,,Without rift bonuses use chaotic troll, maple logs (AFK gain), maple tree, cube logs, Saharan foal, wispy tree, alien tree and amarok.,yes,2
+00:42:26,00:42:58,rift|cards,passive cards,,mechanic,any,,With rift bonus, cards marked P are passive so the other (optimal) setup is used.,yes,2
+00:42:58,00:43:29,cards,mana set,,setup,any,,Mana set: goldfish (percent mana), frog (base MP), rest wisdom or all stats; use until snapshot then switch to main set.,yes,3
+00:43:29,00:43:59,cards,easy resources,,priority,endgame,,Easy resources set for skill efficiency is the only real option nowadays as efficiency scaled so high.,yes,3
+00:43:29,00:43:59,cards,hard resources,,comparison,early,,Hard resources may give more AFK gain/sample when skill efficiency is low, but 40 skill efficiency blows it out as numbers scale.,yes,2
+00:43:59,00:44:29,printer,snapshotting,,how_to,any,efficiency=1.025e12;multiplier=2662,Start sampling run by snapshotting to push efficiency to next tier; he's at 1.025 trillion efficiency, 2662x multiplier.,yes,2
+00:44:29,00:45:00,printer,snapshotting,,how_to,any,,Go to a different map than the sampling zone and set up everything before entering it.,yes,3
+00:44:29,00:45:30,printer,snapshotting,,how_to,any,mana_gain=130000,Switch to secondary gear set (keychains, rings, wings, boots) and mana card set; gained about 130000 mana.,yes,3
+00:45:00,00:45:30,printer,snapshotting,,how_to,any,efficiency=4.85e11,Enter the tree map, check info (485 billion), then switch back gear and card set to restore efficiency.,yes,2
+00:45:30,00:46:02,printer,snapshotting,,mechanic,any,gain=3e10;afk_mult=2090,Snapshot gained over 30 billion efficiency pushing AFK gain to 2090x for more logs per hour.,yes,2
+00:46:02,00:46:33,printer|talent,log on logs,,how_to,any,multiplier=8,Use the logs-on-logs active ability before sampling; it lasts a while and multiplies sampling about 8x.,yes,3
+00:46:02,00:46:33,printer,sampling,,how_to,any,logs_per_hour=872000000,Then hit sample button; he sampled 872 million logs per hour.,yes,3
+00:46:33,00:47:04,printer,sample rate,,warning,any,cap=90,Without the 90 percent sample rate you won't see this full amount.,yes,3
+00:46:33,00:47:04,printer,snapshotting,,how_to,any,resamples=10,Redo snapshotting every map; for chopping this means resampling about 10 times.,yes,3
+00:47:04,00:47:35,printer,snapshotting,,how_to,any,efficiency=1.056e12,At birch trees swap gear and cards back, stop and check AFK gains (1.056 trillion), then sample to collect.,yes,2

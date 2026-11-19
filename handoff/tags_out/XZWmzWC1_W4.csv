@@ -1,0 +1,77 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,account_structure,team comp,,meta_change,any,max_characters=10,IdleOn thrives on AFK with up to 10 characters for account bonuses; think team comp rather than mains and alts,yes,3
+00:00:00,00:00:00,characters,class guide,,meta_change,any,,This is a condensed class rundown to tide viewers over until he makes proper class guides,yes,3
+00:00:00,00:00:31,characters,class role,divine_knight,mechanic,any,,Divine Knight is a fantastic active class with important jobs like crystal farming for statues and rare drops,yes,3
+00:00:31,00:01:02,drop_rate,orb of remembrance,divine_knight,mechanic,any,,Orb of Remembrance gives extra kills to roll loot rather than real drop rate while the orb is active,yes,3
+00:00:31,00:01:02,drop_rate,orb of remembrance,divine_knight,mechanic,any,kills_100=2;kills_200=3;kills_300=4,Orb numbers act as percent: 100 orb gives two kills per kill and 200 gives three and 300 gives four,yes,3
+00:01:02,00:01:02,drop_rate,orb of remembrance,divine_knight,mechanic,any,orb=90;chance_two_kills=90,An orb at 90 means a 90% chance a kill counts as two kills,yes,3
+00:01:02,00:01:02,drop_rate,orb of remembrance,divine_knight,how_to,any,orb_kills=400;slush_value=5,Stack the orb to 400 kills before summoning a mini boss so one slush is worth five,yes,2
+00:01:02,00:01:02,general,mini bosses,divine_knight,priority,any,,Divine Knight is really good for farming mini bosses and the orb also works for other mini bosses and the Coliseum,yes,2
+00:01:02,00:01:32,refinery|construction|printer|gaming,skilling,divine_knight,priority,any,,Divine Knight skilling jobs are refinery and construction and mining 3D prints and gaming,yes,3
+00:01:02,00:01:32,refinery,talent,divine_knight,mechanic,any,,Refiner talent triggers refinery cycles making refinery easier on Divine Knight,yes,2
+00:01:32,00:02:03,construction,build rate,divine_knight,mechanic,any,redox_salts_power=10,Construction is DK's bread and butter: Redox Rates talent gives build rate from the power of 10 of redox salts in storage,yes,2
+00:01:32,00:02:03,construction|bubbles,carpenter,divine_knight,mechanic,any,,Orange Carpenter bubble gives build rate per construction level and warriors rule multiplies this bonus for billions of build rate,yes,2
+00:01:32,00:02:03,construction,build rate,divine_knight,priority,late,,Construction is a skill you need to push heading into later game and DK is the one for it,yes,3
+00:02:03,00:02:03,characters,class role,divine_knight,active_task,any,,DK's job is mostly active play for crystals and mini bosses and Coliseum runs plus construction and mining 3D prints,yes,3
+00:02:03,00:02:03,construction|account_structure,class comp,divine_knight,setup,any,dk_count=2;build_rate_boost_pct=30-40,Have two Divine Knights in a 10 character setup since a second DK boosts build rate by about 30 to 40%,yes,3
+00:02:03,00:02:03,characters,class role,siege_breaker,mechanic,any,,Siege Breaker is a semi decent active class usually played actively only to farm plunderous mobs,yes,3
+00:02:03,00:02:33,drop_rate,archlord of the pirates,siege_breaker,target,any,plunderous_kills=1000000,Farm 1 million plunderous mob kills to get the multiplicative drop rate bonus from Archlord of the Pirates,yes,3
+00:02:03,00:02:33,forge,smelting every day,siege_breaker,mechanic,any,,Siege Breaker shines in combat farming bars for the forge since each kill gives a percent chance of instant forge progress via Smelting Every Day,yes,2
+00:02:33,00:02:33,forge,two minute claims,siege_breaker|archer,how_to,any,afk_minutes=2;bars_hours=1,Park archers at green mushrooms for 2 minutes AFK then swap back to get an hour worth of bars,yes,3
+00:02:33,00:02:33,forge,hourly cap,archer,mechanic,any,archers=3;claim_minutes=2,Hourly bar forging has a cap so cycling three archers on two-minute claims gives huge bar progress quickly,yes,3
+00:02:33,00:02:33,forge,two minute claims,siege_breaker,opinion,any,,You don't have to do two-minute claims but it shows the power of Siege Breaker and archers,yes,2
+00:02:33,00:03:03,characters,skilling,siege_breaker,comparison,any,,Siege Breaker is weaker at skilling but has special procs like Godly Creation for more stats on craftables and great production rate,yes,2
+00:03:03,00:03:03,sneaking,bugs,siege_breaker,mechanic,any,,Siege Breaker is the only class that can get bugs at a decent rate,yes,2
+00:03:03,00:03:03,printer,3D prints,siege_breaker|divine_knight,comparison,any,fly_prints=20000000;copper_prints=1000000000,Siege Breaker 3D prints are lackluster: about 20 million fly prints versus 1 billion copper on a Divine Knight with similar setup,yes,3
+00:03:03,00:03:34,printer|atom_collider,particles,siege_breaker,comparison,any,,Particles are sparse with Siege Breaker so its 3D printing is weak,yes,2
+00:03:03,00:03:34,characters,class role,siege_breaker,active_task,any,,Siege Breaker's job is actively farming drop rate and AFK farming bars with 2-minute or hourly claims,yes,3
+00:03:03,00:03:34,printer,bug prints,siege_breaker,priority,any,,Siege Breaker is second best at farming depth notes and 3D bug prints and crafting equipment,yes,2
+00:03:34,00:03:34,account_structure,class comp,siege_breaker,opinion,any,,You can make two Siege Breakers but he would not suggest another one unless it's the 11th character,yes,3
+00:03:34,00:04:04,characters,class role,elemental_sorcerer,opinion,any,,Elemental Sorcerer is insanely overpowered but crashes the game consistently when strong enough,yes,3
+00:03:34,00:04:04,drop_rate,dimensional wormhole,elemental_sorcerer,mechanic,any,,Elemental Sorcerer is the best monster material farmer for anything on the first page of the monster loot table,yes,3
+00:03:34,00:04:04,drop_rate,dimensional wormhole,elemental_sorcerer,mechanic,any,,Dimensional Wormhole spawns the map's monsters giving bonus XP and drop rate per kill so drops shower down when scaled up,yes,3
+00:04:04,00:04:04,cards,five star,elemental_sorcerer,how_to,any,,To five star monster cards do it actively with Elemental Sorcerer,yes,3
+00:04:04,00:04:04,characters,progression,elemental_sorcerer,mechanic,any,,Elemental Sorcerer is a great progression boss skiller since lightning bolt is one of the heaviest hitting spells,yes,2
+00:04:04,00:04:35,worship|divinity|printer,skilling,elemental_sorcerer,priority,any,,Elemental Sorcerer skilling is solid with worship and Divinity and 3D printing logs,yes,3
+00:04:04,00:04:35,worship,souls,elemental_sorcerer,mechanic,any,,Elemental Sorcerer is the best source for farming souls especially with the Soul Siphon talent,yes,2
+00:04:04,00:04:35,divinity,gods,elemental_sorcerer,mechanic,any,gods=2,In Divinity Elemental Sorcerer is the only class that can connect to two gods making them more flexible,yes,3
+00:04:35,00:04:35,characters,family tree passive,elemental_sorcerer,mechanic,any,,Family tree passive gives extra talent points to Elemental Sorcerer and it has the highest log prints in the game,yes,2
+00:04:35,00:04:35,characters,class role,elemental_sorcerer,active_task,any,,Elemental Sorcerer's job: active card and monster loot farming and AFK death note and gush kills for money percent and 3D log prints and souls,yes,2
+00:04:35,00:05:05,printer|atom_collider|worship,class comp,elemental_sorcerer,setup,any,es_count=2,Strongly suggests two Elemental Sorcerers for the highest log prints for atom particles and faster soul charge,yes,3
+00:05:05,00:05:05,characters,class role,beast_master,opinion,any,,Beast Master is underwhelming due to long cooldowns and lack of a decent mob respawn talent,yes,3
+00:05:05,00:05:05,forge,smelting every day,beast_master,mechanic,any,,Beast Master has the Archer talent Smelting Every Day which helps for AFK,yes,3
+00:05:05,00:05:05,breeding,shiny farming,beast_master,mechanic,any,,Beast Master can skip years worth of shiny farming thanks to the voidwalker enhancement but only when active,yes,2
+00:05:05,00:05:05,worship,tower defense,beast_master,mechanic,any,,Beast Master is one of the best at tower defense thanks to Vine and Kung Fu Kick for crowd control to push higher waves,yes,2
+00:05:05,00:05:35,traps,skilling,beast_master,mechanic,any,,Beast Master's skilling job is trapping and it has super good production speed but little else,yes,3
+00:05:35,00:05:35,breeding|death_note|traps|worship,class role,beast_master,active_task,any,,Beast Master's job: push shiny time with breeding and farm bars via gush kills and push Death Note and run high efficiency traps and tower defense,yes,2
+00:05:35,00:05:35,account_structure,class comp,beast_master,setup,any,bm_count=1,Don't have more than one Beast Master since Siege Breaker is better in every department,yes,3
+00:05:35,00:06:05,characters,class role,blood_berserker,opinion,any,,Blood Berserker struggles in later game combat due to no respawn mechanic and long cooldowns,yes,3
+00:06:05,00:06:05,cooking,zow chow,blood_berserker,target,any,kills=100000,Zow Chow is 100000 kills on a unique mob to get damage percent,yes,2
+00:06:05,00:06:05,cooking,chow,blood_berserker,target,any,kills=1000000,Chow is cooking XP and efficiency for 1 million kills,yes,2
+00:06:05,00:06:05,cooking,super chow,blood_berserker,target,any,kills=100000000,Super Chow is a voidwalker enchantment giving insane cooking speed for 100 million kills,yes,2
+00:06:05,00:06:05,cooking,chows,blood_berserker,priority,any,,Combat is incredibly important for Blood Berserker until Zow Chow and Super Chow are done,yes,2
+00:06:05,00:06:35,advice_fish|printer,fishing,blood_berserker,mechanic,any,,Blood Berserker is the best fisher in the game and as proficient at mining as the Divine Knight so use it for fishing and mining 3D prints,yes,3
+00:06:35,00:06:35,cooking,ladles,blood_berserker,mechanic,any,,Blood Berserkers are the only class that can proficiently obtain ladles and help boost cooking speed and new meal chances,yes,3
+00:06:35,00:06:35,cooking,class role,blood_berserker,priority,any,,Blood Berserker belongs in the kitchen as cooking is one of the most important skills next to Alchemy,yes,3
+00:06:35,00:06:35,cooking|death_note|printer,class role,blood_berserker,active_task,any,,Blood Berserker job: farm Zow Chow and Super Chow and AFK Death Note and fishing and mining 3D prints and cooking,yes,2
+00:06:35,00:07:05,cooking|account_structure,class comp,blood_berserker,setup,any,bb_count=2;ladle_production_multiplier=2,Have two Blood Berserkers since the ladle production from two makes cooking two times faster,yes,3
+00:07:05,00:07:05,characters,class role,voidwalker,opinion,any,,Voidwalker is the support class of IdleOn,yes,3
+00:07:05,00:07:05,characters,combat,voidwalker,opinion,any,damaging_skills=3,Voidwalker is meh in combat with no mob respawn skill and only three damaging skills and one only usable actively,yes,3
+00:07:05,00:07:35,drop_rate|cards,boss farming,voidwalker,mechanic,any,,Voidwalker is the way to go for boss farming with the highest drop rate and card drop rate in the game,yes,3
+00:07:05,00:07:35,drop_rate,gimme,voidwalker,mechanic,any,,Gimme talent gives a chance to drop loot two times with the same fake drop rate as the Divine Knight orb,yes,3
+00:07:35,00:07:35,characters,enhancements,voidwalker,mechanic,any,,Voidwalker's last talent tree benefits every character with enhancements to base stats and damage and multi-kill and XP and statue effects and health and cooking speed,yes,2
+00:07:35,00:08:05,printer,monster prints,voidwalker,how_to,any,,For Voidwalker 3D prints go with monster prints since void trial rerun allows speedrun while still taking prints,yes,2
+00:08:05,00:08:05,printer,monster prints,voidwalker,mechanic,any,,Void radius gives multi-kill per tier in the void and bossing vein gives mob respawn so Voidwalker gets the highest monster prints,yes,2
+00:08:05,00:08:05,vials|bubbles,level 13 vials,voidwalker,priority,any,vial_level=13,Voidwalker is fantastic for pushing level 13 vials or alchemy bubbles in general,yes,2
+00:08:05,00:08:36,characters,skilling,voidwalker,comparison,any,,Voidwalker is the jack of all trades in skilling and is used mostly for left and right hand buffs and building damage,yes,2
+00:08:05,00:08:36,characters,class role,voidwalker,active_task,early,,Voidwalker's job is boss farming and supporting other characters and monster 3D prints and early game crystal and card farming,yes,2
+00:08:36,00:08:36,account_structure,class comp,voidwalker,setup,any,vman_count=1,Don't have more than one Voidwalker due to the effort needed compared to the payoff,yes,3
+00:08:36,00:09:08,characters,gear requirements,bubonic_conjuror,warning,any,talent_levels=200,Bubonic Conjuror needs lots of gear and 200 plus talent levels in skills to perform,yes,3
+00:08:36,00:09:08,general,portals,bubonic_conjuror,mechanic,any,,Once funded Bubonic Conjuror is the best active portal pusher and money farmer in the game by an insane margin,yes,3
+00:09:08,00:09:08,money,tentacle eye,bubonic_conjuror,mechanic,any,,Tentacle Eye talent and Respawn Dead ability synergy make Bubonic Conjuror best in raw combat,yes,3
+00:09:08,00:09:40,cauldrons_liquids|bubbles,cranium cooking,bubonic_conjuror,mechanic,any,,Cranium Cooking gives alchemy progress per kill for a set time skipping years of waiting for alchemy,yes,3
+00:09:08,00:09:40,bubbles,bubble breakthrough,bubonic_conjuror,mechanic,any,,Bubble Breakthrough helps unlock new bubbles,yes,2
+00:09:08,00:09:40,characters,class role,bubonic_conjuror,active_task,any,,Bubonic Conjuror's job: actively push portals and farm money and log 3D prints and push alchemy,yes,3
+00:09:40,00:09:40,account_structure,class comp,bubonic_conjuror,setup,any,bubo_count=1,Don't have more than one Bubonic Conjuror since it must be actively played to perform,yes,3
+00:09:40,00:10:10,account_structure,class comp,,setup,any,beast_master=1;siege_breaker=1;divine_knight=2;blood_berserker=2;elemental_sorcerer=2;bubonic_conjuror=1;voidwalker=1,Safe 10-man build A: one Beast Master and one Siege Breaker and two each of Divine Knight and Blood Berserker and Elemental Sorcerer plus one Bubonic and one Voidwalker,yes,3
+00:10:10,00:10:10,account_structure,class comp,,setup,any,beast_master=1;siege_breaker=2;divine_knight=2;blood_berserker=1;elemental_sorcerer=2;bubonic_conjuror=1;voidwalker=1,Safe 10-man build B: one Beast Master and two Siege Breakers and two Divine Knights and one Blood Berserker and two Elemental Sorcerers plus one Bubonic and one Voidwalker,yes,3

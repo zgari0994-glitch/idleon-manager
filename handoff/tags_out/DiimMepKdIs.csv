@@ -1,0 +1,95 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,menagerie,unlock column,,meta_change,late,rank=30,"Video covers only the center unlock column of Luminous Menagerie; boosts and doublers get a separate video.",yes,3
+00:00:30,00:01:01,sailing,artifacts,,mechanic,late,,"Vera Similitude is the new world five artifact tier; first half is easy, then a brick wall around the middle range.",yes,3
+00:00:30,00:01:01,sailing,artifacts,,how_to,late,,"After hitting the wall, skip ahead and try to get the fungi meadows artifact.",yes,2
+00:01:01,00:01:32,sailing,islands|captains,,how_to,late,,"Spread boats and captains across all remaining islands past that point to collect currency for upgrades.",yes,3
+00:01:01,00:01:32,sailing|menagerie,boats,,priority,late,,"Extra income from new boats lets you level speed and loot a lot; worth a couple of rotations.",yes,2
+00:01:32,00:02:05,sailing,artifacts,,mechanic,late,new_artifact=7x;previous=6x,"New artifact tier gives 7x versus the previous 6x, and its talent levels are always ones to rush.",yes,3
+00:01:32,00:02:05,sailing|menagerie,night arenas,,warning,late,,"Night arenas bonus does not appear to be working correctly; explained later.",yes,2
+00:02:05,00:02:36,spelunking|menagerie,shortcut,,mechanic,late,interval=50 depths;pebble_cove_start=450,"Shortcut every 50 depths works as a checkpoint at the start of the next run, not mid-run, letting you skip floors.",yes,3
+00:02:05,00:02:36,spelunking|menagerie,shortcut,,opinion,late,useless_pct=98,"Thinks the shortcut mechanic is basically useless 98% of the time.",yes,3
+00:02:36,00:03:06,spelunking,hidden elixirs,,mechanic,late,interval=5,"Hidden elixirs talent: every fifth depth always has one object that drops an elixir; skipping floors loses those elixirs.",yes,3
+00:02:36,00:03:06,spelunking,elixirs,,mechanic,late,,"Elixirs from every fifth depth are how you get deep amber runs and stack shadow pots.",yes,3
+00:03:06,00:03:37,spelunking|menagerie,shortcut,,target,early,characters_cap=3;depth=485,"Only likely use of shortcut is Pebble Cove where you're capped at three characters, or if stamina is limited.",yes,2
+00:03:37,00:04:09,spelunking|menagerie,shortcut,,skip,late,,"Shortcut maybe useful in CD Meadow and Rustbell, but from Blushbit onwards you have stamina to spare so skip it.",yes,2
+00:03:37,00:04:09,spelunking,amber runs,,mechanic,late,,"Amber run meta revolves around jobs all done, rope subsidy and over stamina meter, so shortcut doesn't help.",yes,3
+00:04:09,00:04:39,spelunking,jobs all done,,mechanic,late,,"Jobs all done won't proc on skipped early floors because they aren't cleared, so shortcut hurts amber stacking.",yes,3
+00:04:39,00:05:09,spelunking|menagerie,shortcut,,warning,late,,"Shortcut cannot be used in manic depths, so it does not help manic mode.",yes,3
+00:04:39,00:05:09,spelunking|menagerie,shortcut,,opinion,late,,"Shortcut has some use in early and mid game but gets less useful in late and endgame.",yes,3
+00:05:09,00:05:39,spelunking|menagerie,boost,,priority,late,,"A later spelunking boost in the menagerie is very good; he is about to unlock it.",yes,3
+00:05:09,00:05:39,divinity|menagerie,singularity mode,,opinion,late,,"Singularity mode for coral kid is spectacular, especially during a divinity week with bonus ballot multiplier.",yes,3
+00:05:39,00:06:09,divinity|coral_reef|quests,coral kid,,setup,late,,"If coral kid isn't unlocked, he's in World 7 somewhere and needs a quest; then you can enter Singularity Mode.",yes,2
+00:05:39,00:06:09,divinity|menagerie,singularity mode,,mechanic,late,,"Singularity line one transmutes divinity points into singularity spirals.",yes,3
+00:06:09,00:06:42,divinity|menagerie,singularity mode,,mechanic,late,divinity_mult=41x,"First line multiplies divinity points by a huge amount; he currently gets 41x.",yes,3
+00:06:09,00:06:42,divinity|menagerie,singularity mode,,mechanic,late,base_mult=3.4x,"Line two raises the base value of transmute based on divinity points, currently 3.4x higher.",yes,3
+00:06:42,00:07:12,divinity|menagerie,singularity mode,,priority,late,,"Keep lines one and two approximately level, with a slight bias toward the second.",yes,3
+00:06:42,00:07:12,divinity|menagerie,singularity mode,,mechanic,late,,"Third line is just extra divinity XP; not much to talk about.",yes,3
+00:06:42,00:07:43,divinity|menagerie,singularity mode,,skip,late,,"Fourth line gives AFK-claim time elapsed for all AFK gains but is very expensive; found worthless while points are scarce, ignore for now.",yes,3
+00:07:12,00:08:14,divinity|menagerie,singularity mode,,mechanic,late,,"Spirals come from divinity points times line-two multiplier, plus active kills which are a big component.",yes,3
+00:08:14,00:09:14,divinity|menagerie,singularity mode,,skip,late,,"Time-elapsed multiplier doesn't scale hard enough for time invested; ignore it, focus on active kills and divinity points.",yes,3
+00:09:14,00:09:45,divinity|menagerie,singularity mode,,account_note,late,gained=18;stack_before=80;stack_after=98,"One claim gave 18 spirals, taking his stack from 80 to 98.",yes,3
+00:09:45,00:10:15,divinity|menagerie,singularity mode,,how_to,late,claim_interval_min=2,"Tech: one character on divinity as two-minute claimer, another character farming kills on a map; claim every two minutes.",yes,3
+00:10:15,00:10:46,divinity|menagerie,singularity mode,,how_to,late,time_mult=0.1;gain_per_claim=10-30;afk_6h_gain=100-300,"Treat time multiplier as 0.1 and focus on active kills, divinity and line two; yields 10-30 every 2 minutes versus 100-300 per 6 hours.",yes,3
+00:10:46,00:11:17,divinity|menagerie,singularity mode,,target,late,cost=300-400;divinity_mult=50x-60x,"Players push around 300-400 cost for about 50-60x divinity points; it scales infinitely, so depends on how much you tolerate claiming.",yes,3
+00:11:17,00:11:47,divinity|sailing,artifacts,,priority,late,,"Care about divinity somewhat because it boosts artifacts, which give extra talent levels.",yes,3
+00:11:47,00:12:19,divinity|library|sailing,talent levels,,account_note,late,,"High talent levels come from library levels and divinity; missing piece for most players is the artifacts prayer.",yes,2
+00:12:19,00:12:49,divinity|ballot|menagerie,singularity mode,,priority,late,days=6;hours=21;minutes=20,"Bonus ballot makes singularity multiple times more effective for the next 6d 21h 20m; do 2-minute claims then forget it for months.",yes,3
+00:12:49,00:13:21,divinity|menagerie,singularity mode,,priority,late,,"Singularity two-minute claiming is one of the most important things to do in the current meta.",yes,3
+00:12:49,00:13:51,clam_work|menagerie,scaling,,target,late,max_level=12,"Clam works scales to 12 though game doesn't show it; 12th buff is extra power, which he's pushing toward.",yes,2
+00:12:49,00:13:51,clam_work|menagerie,scaling,,target,late,time_to_12=half a week to a week,"Reached 9 through 11 quickly; level 12 expected to take about half a week to a week.",yes,2
+00:13:21,00:13:51,clam_work|menagerie,upgrades,,priority,late,,"Pollen Faction gives more pearls, accelerating the mechanic; the upgrade to care about until later upgrades.",yes,2
+00:13:51,00:14:23,clam_work|menagerie,cross culting,,mechanic,late,,"Cross Culting reduces first-page cost for each respective buff you have on the second page.",yes,3
+00:14:23,00:14:55,clam_work|menagerie,upgrades,,priority,late,,"Active clam work is one of the better things to do right now; definitely get on it.",yes,2
+00:14:23,00:14:55,clam_work,class choice,divine_knight,meta_change,late,,"Old advice of DK up to 11-12 then swap to arcane cultist is no longer true after the patch because drop rate is higher.",yes,2
+00:14:55,00:15:26,clam_work,class choice,divine_knight,comparison,late,,"Staying on DK yields better gains overall because of Orb of Remembrance stacking, giving more pearls.",yes,2
+00:14:55,00:15:26,clam_work,class choice,arcane_cultist,warning,early,clams=12,"Earlier-game players with lower drop rate and less clam works progress may still do better on arcane cultist around 12 clams.",yes,2
+00:15:26,00:15:56,clam_work,class choice,royal_guardian,priority,endgame,,"Late and endgame players engaging with the menagerie should stick on their royal guardian for clam works.",yes,2
+00:15:56,00:16:27,arcade|menagerie,arcade balls omega,arcane_cultist,mechanic,late,,"Arcade balls for arcade omega are farmed like prisma fragments from arcane cultist; one-in chance scales aggressively with no way to reduce it yet.",yes,3
+00:15:56,00:16:27,arcade|menagerie,arcade balls omega,,priority,late,,"Resource is very limited, so hold onto the balls as much as possible.",yes,3
+00:15:56,00:16:27,arcade|menagerie,arcade balls omega,,opinion,late,,"Artifact chance omega probably wasn't worth it; he was too gung-ho there.",yes,3
+00:16:27,00:16:57,arcade|class_exp,arcade balls omega,,opinion,late,,"Class XP omega is solid if you care about it.",yes,3
+00:16:27,00:16:57,class_exp,class exp,,warning,late,level_cap=2000,"If you level over 2,000 you get banned, so don't level up too hard.",yes,2
+00:16:27,00:16:57,arcade|drop_rate,arcade balls omega,,priority,late,,"Marble drop rate omega is really good since marble drop rate is the current meta; Lumi gains is a shoe-in.",yes,3
+00:16:57,00:17:29,arcade,golden ball,,opinion,late,,"Golden ball gains is worth it because golden balls have been nerfed repeatedly.",yes,3
+00:16:57,00:17:29,arcade|bubbles,croc bubbles,,opinion,late,croc_stamp=185,"Croc omega was situational for him because his croc stamp is at 185; most players aren't, so skip it.",yes,3
+00:16:57,00:17:59,arcade|menagerie,arcade balls omega,,priority,late,,"Definitely Lumi and Marble, maybe Golden Ball and Class, probably not Artifact, super maybe Croc; strong buffs in the Golden Ball shop.",yes,3
+00:17:29,00:17:59,research|arcade,arcade balls omega,,account_note,late,,"A previous rotation had research XP omega-able; he missed that window, and research would be another one to omega.",yes,2
+00:17:59,00:18:29,pets|menagerie,crucible mode,,mechanic,late,,"Crucible mode is back in the World 4 arena; click it to change the round indicator.",yes,3
+00:18:29,00:19:00,pets|menagerie,crucible mode,,setup,late,,"Cheese setup: Rattler, Looter, Refiller, Burger at the front, Defender and Badom; mechanic is trivialized.",yes,2
+00:19:00,00:19:31,pets|menagerie,crucible mode,,how_to,late,round_before_toggle=130-150;round_reached=1000,"Let fight to round about 130-150, then toggle high performance off to explode the round count.",yes,2
+00:19:31,00:20:01,pets|menagerie,crucible mode,,target,late,round_needed=250;time_min=3,"Only need round 250 for max bonuses, done in about 3 minutes; Action Pigeon explained the cheese on Discord.",yes,3
+00:20:01,00:21:03,breeding|menagerie,shiny levels,,priority,late,,"Max shiny level multiplies shiny income; priority one is getting faster shinies up, then meals bonuses, then others.",yes,2
+00:20:32,00:21:03,breeding|menagerie,shiny levels,,mechanic,late,drop_total=80,"Bonuses from meals strongest; multi-kill per tier is nice; drop bonus is negligible at maybe 80 total but adds to drop rate.",yes,2
+00:21:03,00:21:35,breeding|menagerie,shiny levels,wind_walker,priority,late,,"Wind Walker is viable again as active because whale wallop from V-man talent reduces breeding timers including eggs and shiny level up.",yes,2
+00:22:06,00:22:36,sailing|menagerie,night marina,,warning,late,observed=1.5-1.6x;expected=537x,"Night marina artifact chance bonus appears bugged, giving about 1.5-1.6x instead of presumably 537x; maybe skip until confirmed.",yes,3
+00:22:36,00:23:07,sailing|menagerie,income,,opinion,late,,"Extra income from sailing upgrades is very powerful so you should make big gains regardless of the bug.",yes,3
+00:23:07,00:23:38,stamps,slapper stamp,death_bringer,account_note,late,strength=54 million,"Finally got the Slapper stamp, which he calls extremely important for strength, and levelled it on his Death Bringer.",yes,2
+00:23:38,00:24:08,minehead|legend_talents,legend talent,,priority,late,currency_gain=4x;depth_charge=-1,"New white legend talent: 4x Mine Head currency gain and negative one depth charge, effectively three times for the entire upgrade.",yes,2
+00:24:08,00:24:39,jelly_operator|legend_talents,legend talent,,priority,late,unlock=+1,"Similar Jelly Operator legend talent gives plus one unlock, effectively 3x; pushed him to the diamond pickaxe.",yes,2
+00:24:39,00:25:09,minehead|jelly_operator|legend_talents,legend talent,,opinion,late,,"Highly recommends these legend talents; very expensive but middle-of-S tier, big surge for both mechanics.",yes,3
+00:24:39,00:25:40,spelunking|legend_talents,over stim,,priority,late,,"Legend talent that never loses over stim from starting spelunking dungeons; he will buy it right after the video.",yes,3
+00:25:40,00:26:11,spelunking,over stim,,mechanic,late,,"Previously the meta was waiting for over stim to proc before a big amber run in glitter, scout post or exile throne.",yes,3
+00:25:40,00:26:42,spelunking,over stim,,mechanic,late,,"Before, death pushing and manic mode couldn't be done without resetting over stim; now the counter never resets.",yes,3
+00:26:11,00:26:42,spelunking,over stim,,mechanic,late,,"Never-resetting over stim adds more value to gospel and extra over stim rate, giving incredibly deep runs.",yes,3
+00:26:42,00:27:12,spelunking,over stim,,comparison,late,stamina_lost=3K-5K per character;total=50K,"Bad amber runs used to cost 3-5K stamina per character via the spike trap tech in World 1; no longer needed.",yes,2
+00:27:12,00:27:44,spelunking,amber runs,,setup,late,,"With batteries you can do glittering amber, scout post and exile throne runs back to back.",yes,3
+00:27:44,00:28:15,spelunking,amber runs,,account_note,early,,"Early-game players: Rust Belt, Lush Pit and Choco Myra are still legitimate; different video.",yes,2
+00:27:44,00:28:46,atom_collider|menagerie,new atom,,priority,late,,"New collider atom is very expensive but a fat additive increase to Lumi gains, very much worth it early.",yes,3
+00:28:46,00:29:17,atom_collider|menagerie,new atom,,account_note,late,node_progress=3 of 4,"Has three of four on the node and could finish within a day; more Lumi gains will pay off.",yes,3
+00:29:17,00:30:18,menagerie,unlock order,,priority,late,,"Getting singularity mode is better than saving for the next Lumi gains tier; if choosing between A and Lumi gains, pick Lumi gains.",yes,3
+00:29:17,00:30:18,statues|menagerie,flare,royal_guardian,mechanic,late,,"New flare type pushes elegance flare for Royal Guardian, letting you push statues like Fece and dragon further.",yes,2
+00:29:48,00:30:18,statues|menagerie,flare,royal_guardian,opinion,late,,"Flare is deep, expensive and not as good as others, but eventually necessary for long-term progress.",yes,3
+00:30:18,00:30:48,menagerie|money,pink jellyfish,,priority,late,shells=8,"Pink jellyfish depends on coins, so coin farming matters; gives 8 shells and a healthy bonus to Lumi gains.",yes,3
+00:30:48,00:31:19,construction|menagerie,yellow jellyfish,,priority,late,,"Yellow jellyfish meta: put all points into construction rate; change DKs' and tiny cons' directions to build rate.",yes,3
+00:31:19,00:31:50,construction|menagerie,yellow jellyfish,royal_guardian,how_to,late,build_rate=6.6x,"Royal guardian early line construction compounding out posting can be set to construction for 6.6x build rate.",yes,2
+00:31:19,00:31:50,construction|menagerie,yellow jellyfish,,how_to,late,days=1-2,"Raise requirement to get points, keep feeding construction rate for a day or two, then reset to get all points back.",yes,2
+00:31:50,00:32:20,construction|menagerie,yellow jellyfish,,setup,late,construction_split=2x,"Suggests 2x on construction then the rest on Lumi, though all Lumi or more construction is fine; flaggy rate still needed.",yes,2
+00:32:20,00:32:51,spelunking|menagerie,red jellyfish,,mechanic,late,columns=7,"Red jellyfish: reads after unlocking feed into seven columns, one per cavern.",yes,2
+00:32:51,00:33:22,spelunking|menagerie,red jellyfish,,daily_routine,late,interval=1 day,"Once a day click read together to get one super read per cavern based on total reads of all time.",yes,3
+00:33:22,00:33:54,menagerie,silver jellyfish,,opinion,late,multiplier=1.14;time_invested_min=10,"Silver jellyfish multiplies opals; only 1.14 after about 10 minutes, so not a big deal and nobody's hard-focusing it.",yes,3
+00:34:24,00:34:54,menagerie|cooking,blue jellyfish,,warning,late,,"Blue jellyfish takes all your ladles wherever they are, even locked or in storage; careful since Glambo needs ladles.",yes,3
+00:34:54,00:35:55,menagerie|cooking,blue jellyfish,,mechanic,late,interval=1 day;levels_gained=2,"Daily he dumps all ladles on the meal with the lowest remaining time; corn dog got two level ups.",yes,3
+00:35:55,00:36:26,menagerie|tome,green jellyfish,,skip,endgame,tags_needed=12;tag=0.1%;reward=0.01%,"Green jellyfish turns 12 of the 0.1% name tags into 0.01% tags; pure swag, don't bother unlocking for most players.",yes,3
+00:36:26,00:36:56,tome|achievements,name tags,,account_note,endgame,points_away=30,"The 0.1% tag: one free from holiday candle, rest from tome; he got another yesterday and is 30 points away.",yes,2
+00:36:56,00:37:26,tome|menagerie,tome points,,priority,late,tome_points=1000,"Luminous Menagerie and Total Menagerie tome entries give almost 1,000 points; getting in could snipe you into the next tier in this PvP mechanic.",yes,3
+00:37:26,00:37:57,menagerie,remaining unlocks,,meta_change,late,,"Remaining unlocks aren't relevant to most players now; he'll cover them later as the meta shifts.",yes,3

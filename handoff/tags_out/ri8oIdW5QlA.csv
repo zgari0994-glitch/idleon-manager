@@ -1,0 +1,101 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,worship|characters,tower defense class,hunter,priority,any,,Use Hunter for Citric Conflict tower defense because 'Stop Right There' and 'Kung Fu Kick' are needed for crowd control.,yes,3
+00:00:00,00:00:30,worship,teleporting mobs,hunter,mechanic,late,,Later waves have teleporting mobs; pause them under the Voidinator so all get hit and the game doesn't end early.,yes,3
+00:00:30,00:01:03,construction|worship,tower levels,,priority,any,,Higher construction bench tower levels are better; Poisonic Elder level determines how many waves you clear as main damage dealer.,yes,3
+00:00:30,00:01:03,construction|worship,towers,,target,any,,Other towers you use should be close to max or already maxed.,yes,3
+00:00:30,00:01:03,atom_collider|construction|worship,Pulse Mage and Fireball Lobber,,target,late,level=50,Getting unused towers (Pulse Mage and Fireball Lobber) above level 50 with the Atom Collider gives extra damage to towers and helps wave clear.,yes,3
+00:01:03,00:01:34,stamps|worship,Banked Point stamp,,priority,any,,Level the Banked Point stamp for more starting points in tower defense; makes early game easier.,yes,3
+00:01:03,00:01:34,vials|worship,Crab Juice vial,,setup,any,,Crab Juice vial in World 2 gives more starting points.,yes,3
+00:01:03,00:01:34,vials|worship,Calcium Carbonate vial,,setup,any,,Calcium Carbonate vial gives a lot more worship starting points.,yes,3
+00:01:03,00:01:34,worship|storage,Post Office Crate of the Creator,,setup,any,starting_points=54,Maxing Crate of the Creator post office box gives an additional 54 starting worship points.,yes,3
+00:01:34,00:02:05,salt_lick|worship,Salt Lick tower defense points bonus,,priority,any,,Salt Lick bonus for more points earned in Worship tower defense is extremely important to max despite costing many Green Salts.,yes,3
+00:01:34,00:02:05,salt_lick|worship,Salt Lick bonus,,mechanic,any,,Maxing the Salt Lick bonus helps you gain more Worship Souls overall.,yes,3
+00:01:34,00:02:05,cooking|worship,Cannoli meal,,priority,any,,Cannoli in the World 4 Dinner Menu gives more points earned during tower defense; level it as high as you can.,yes,2
+00:02:05,00:02:36,cooking|worship,Cannoli meal,,mechanic,any,,Higher Cannoli level lets you get farther because you can afford better towers.,yes,2
+00:02:05,00:02:36,atom_collider|worship,Carbon unlock,,mechanic,late,max_level_bonus=2,Atom Collider Carbon unlock gives +2 maximum levels to all Wizard towers.,yes,3
+00:02:05,00:02:36,atom_collider|worship,Carbon unlock,,mechanic,late,damage_per_level_above_50=2%,Each tower level above 50 gives each tower an additional 2% damage.,yes,3
+00:02:05,00:02:36,atom_collider|worship,Carbon unlock,,opinion,late,,Carbon is a very late game thing; don't worry about it if you lack the points.,yes,3
+00:02:36,00:03:10,worship,wave start,,how_to,any,,Have as much movement speed as possible then hit Summon and run down the bridge as fast as possible.,yes,3
+00:02:36,00:03:10,worship,opening tower order,,how_to,any,,Place a Poisonic Elder as close to the portal as possible first then a Voidinator and a Frozone Malone.,yes,3
+00:02:36,00:03:10,worship,Kraken placement,,how_to,any,,Place a Kraken tower within range of the Void tower or slightly farther back to defend early waves.,yes,3
+00:03:10,00:03:44,worship,auto attack,,how_to,early,,Turn on auto attack in early waves since you can do enough damage to kill some early mobs.,yes,3
+00:03:10,00:03:44,worship,second build phase,,target,early,poisonic_elders=2,Next goal is 2 more Poisonic Elders as quickly as possible plus a Stormcaller between the Poisonic Elders and the Kraken.,yes,3
+00:03:10,00:03:44,worship,Kraken placement,,warning,early,,You may need to replace your Kraken tower depending on its placement so the full setup sits between portal and first Kraken.,yes,3
+00:03:44,00:04:14,worship,purple teleporting mobs,,mechanic,early,,Purple mobs teleport every time they are hit; Krakens must knock them back into Voidinator range or they skip past and damage HP.,yes,3
+00:03:44,00:04:14,worship,purple teleporting mobs,,warning,early,mobs_in_wave=7-8,Not a concern in early waves but a few waves later there will be 7 or 8 teleporting mobs.,yes,3
+00:04:14,00:04:44,worship,Voidinator,,warning,any,,Make sure the Voidinator is disabling the mobs' abilities as fast as possible.,yes,3
+00:04:14,00:04:44,worship,Stormcaller placement,,how_to,early,,Place Stormcaller butted up close to the others; delete the Kraken between waves to save space and place new towers quickly.,yes,2
+00:04:44,00:05:17,worship,Stormcaller and Kraken replace,,how_to,early,,Place the Stormcaller then the Kraken again when you have enough points to replace both; most effective setup though you lose some points.,yes,3
+00:05:17,00:05:53,worship,support towers,,how_to,early,kraken=2;stormcaller=1,Next phase: 2 more Kraken towers at end of the line close together and another Stormcaller as the last tower.,yes,3
+00:05:17,00:05:53,worship,Stormcaller,,mechanic,early,,Stormcaller towers mainly give more Crit Chance so they are not important early game.,yes,3
+00:05:17,00:05:53,worship,upgrade vs summon,,priority,early,,Depending on Poisonic Elder base level it may be worth upgrading towers instead of getting the last tower out.,yes,3
+00:05:53,00:06:23,worship,Stormcaller placement,,warning,any,,Place the last Stormcaller by the entrance far enough over so you don't accidentally click the portal when upgrading.,yes,3
+00:05:53,00:06:23,worship,upgrades,,priority,early,,If struggling at this stage do upgrades first.,yes,2
+00:06:23,00:06:56,worship,Poisonic Elder upgrade,,priority,early,level=5,Upgrade the middle Poisonic Elders first as primary damage dealers; they get stunned frequently early.,yes,3
+00:06:23,00:06:56,worship,Poisonic Elder trait,,how_to,early,level=5,Upgrade Poisonic Elders to level 5 and take Trait B as fast as possible for more damage.,yes,3
+00:06:56,00:07:27,worship,early waves,,warning,early,,Keep killing mobs actively in early waves or your tower takes avoidable damage.,yes,3
+00:06:56,00:07:27,worship,Poisonic Elder trait B,,how_to,early,towers=3,Keep upgrading all 3 Poisonic Elders with Trait B for more Cloud Hit Chance; gives base damage and more ticks.,yes,2
+00:07:27,00:08:04,worship,Party Starter,,how_to,mid,level=5,Next tower is Party Starter; level each up to 5 as soon as placed and select Trait A for attack speed.,yes,3
+00:07:27,00:08:04,worship,Party Starter,,target,late,party_starters=7,Eventually want 7 Party Starter towers; late game setup added periodically.,yes,3
+00:07:27,00:08:04,worship,Party Starter timing,,threshold,late,upgrade_cost_ratio=0.5,Add a new Party Starter once upgrades cost more than about half the cost of summoning a new tower.,yes,2
+00:08:04,00:08:38,worship,Party Starter trait,,target,mid,trait_A_count=10;attack_speed=250%,Select Trait A until you have 10 Trait A total for 250% attack speed then switch to Trait B; which towers hold A doesn't matter.,yes,3
+00:08:04,00:08:38,worship,Party Starter range,,mechanic,mid,,All towers are in range of the Party Starters except farther ones which may not fully reach Stormcaller.,yes,2
+00:08:38,00:09:12,worship,Stormcaller upgrade,,how_to,mid,level=5,Next priority: upgrade Stormcallers to level 5 always selecting Trait B for extra Crit Chance.,yes,3
+00:08:38,00:09:12,worship,crit,,mechanic,mid,crit_multiplier=2,Crits deal 2x damage so more Crit Chance equals more damage.,yes,3
+00:08:38,00:09:12,worship,Stormcaller placement,,warning,mid,,Stand back on the ledge when upgrading Stormcaller so you can click off if you click the wrong area.,yes,3
+00:09:12,00:09:42,worship,Stormcaller crit,,mechanic,mid,crit_chance_middle=20%;max_crit=100%,Stormcaller can add 20% crit on the middle tower and reach a third tower for up to 100% crit between both Stormcallers.,yes,2
+00:09:12,00:09:42,worship,Stormcaller crit,,mechanic,mid,crit_chance=40%;damage_increase=30%,With both Stormcallers a tower has about 40% crit chance giving about 30% more damage overall.,yes,2
+00:09:42,00:10:12,worship,Voidinator upgrade,,how_to,mid,points_cost=500-600;damage_bonus=20%,Voidinator upgrade costs about 500-600 points and gives 20% damage to all towers; always take Trait B.,yes,3
+00:09:42,00:10:12,worship,Frozone Malone upgrade,,how_to,mid,slow_duration=2s,Cheap Frozone Malone upgrade adds 2 seconds of slow on mobs.,yes,3
+00:10:12,00:10:45,worship,Frozone Malone,,mechanic,mid,,Slow lets Poison towers deal more damage and relieves Kraken towers.,yes,2
+00:10:12,00:10:45,worship,Kraken upgrade,,how_to,mid,level=5;pushback=25%,Upgrade Kraken towers to level 5 taking Trait B first for 25% farther pushback then Trait A; always B then A.,yes,3
+00:10:12,00:10:45,worship,Kraken upgrade,,target,mid,krakens=3,Upgrade all 3 Krakens for pushback to keep mobs in Voidinator range longer.,yes,3
+00:10:45,00:11:16,worship,Party Starter,,target,mid,party_starters_endgame=7;attack_speed_each=25%,Get more Party Starters; each additional adds about 25% attack speed; want 7 by end game.,yes,3
+00:10:45,00:11:16,worship,wave 10,,priority,mid,party_starters=4;level=10,Recommend getting fourth Party Starter out before trying level 10 upgrades or wave 10.,yes,2
+00:11:16,00:11:48,worship,Next Wave Button,,warning,mid,,Be careful with Next Wave Button: ensure no tower is stunned and enough Kraken Eyeballs are up and last wave cleared.,yes,3
+00:11:16,00:11:48,worship,Next Wave Button,,mechanic,mid,,Next Wave Button gives additional points but stunned Voidinator can't handle purple mobs.,yes,3
+00:11:48,00:12:18,worship,Party Starter placement,,how_to,mid,,Place a Party Starter on the top ledge to stay in range of all towers and upgrade it for attack speed.,yes,3
+00:11:48,00:12:18,worship,level 10 upgrades,,priority,mid,level=10,Start upgrading towers to level 10 beginning with Party Starters then Poisonic Elders.,yes,3
+00:12:18,00:12:54,worship,upgrade loop,,mechanic,mid,additional_party_starters=3,Rest of game is upgrading towers and placing 3 additional Party Starters; costs get exorbitant.,yes,3
+00:12:18,00:12:54,worship,Poisonic Elder level 10,,threshold,mid,points_cost=3000-5000,Poisonic Elder to level 10 costs about 3k-5k points requiring a few waves per tower.,yes,2
+00:12:54,00:13:28,worship,Poisonic Elder damage,,comparison,mid,level9_to_10_damage=300;level5_damage=97,Level 9 to 10 gives another 300 damage versus 97 damage at level 5; big overall damage boost.,yes,2
+00:12:54,00:13:28,worship,Poisonic Elder level 10 trait,,how_to,mid,level=10,Level 10 Poisonic Elder trait select Trait A so clouds last longer and mitigate stun damage area.,yes,3
+00:13:28,00:14:00,worship,Poisonic Elder trait A,,mechanic,mid,,Trait A allows multiple clouds out at once per tower so mobs take damage the entire time in range.,yes,3
+00:13:28,00:14:00,worship,upgrade order,,priority,mid,,With enough attack speed focus on damage output then upgrade support towers again.,yes,3
+00:14:00,00:14:36,worship,player safety,,warning,mid,,Stay behind Poisonic Elders or Krakens; if you lack HP you can die and reset all waves.,yes,3
+00:14:00,00:14:36,worship,Stormcaller level 10,,how_to,mid,level=10;crit_chance=40%,Upgrade Stormcaller to level 10 with Trait B giving all Poisonic Elders 40% crit chance.,yes,3
+00:14:36,00:15:10,worship,Stormcaller level 10,,mechanic,mid,crit_chance_middle=80%,Second Stormcaller level 10 gives middle tower about 80% crit; all but last tower have 80% crit roughly doubling damage.,yes,3
+00:14:36,00:15:10,worship,Voidinator level 10,,how_to,mid,level=10;damage_bonus=20%,Upgrade Voidinator to level 10 for extra 20% damage.,yes,3
+00:15:10,00:15:42,worship,Frozone Malone level 10,,how_to,mid,level=10,With spare points upgrade Frozone Malone to level 10 and select Trait A for more slow.,yes,3
+00:15:10,00:15:42,worship,Frozone Malone,,mechanic,mid,,Extra slow keeps Kraken towers efficient longer; duration doesn't matter since it attacks fast.,yes,3
+00:15:10,00:15:42,worship,Party Starter,,how_to,mid,,Summon next Party Starter up top.,yes,2
+00:15:42,00:16:17,worship,Party Starter trait,,target,mid,attack_speed=250%;trait_A_remaining=2,Level the Party Starter to level 10 with the last 2 Trait A; 250% attack speed is plenty to get through waves.,yes,3
+00:15:42,00:16:17,worship,level 15 cost,,comparison,mid,points_per_tower=4000-5000,Better to place another Party Starter than upgrade to level 15 which costs 4-5K points per tower.,yes,2
+00:15:42,00:16:17,worship,wave progress,,account_note,mid,wave=60,Past Wave 60 he starts placing last 2 towers.,yes,2
+00:16:17,00:16:49,worship,Party Starter Trait B,,how_to,late,level=10;damage_per_trait=15%,Sixth and seventh Party Starters upgrade to level 10 with Trait B giving 15% damage per trait; ~30% more damage per tower.,yes,3
+00:16:17,00:16:49,worship,Party Starter placement,,threshold,late,points=20000;damage=30%,At 20K points place another tower up top for additional 30% damage at level 10.,yes,2
+00:16:49,00:17:22,worship,fifth Party Starter bottom,,how_to,endgame,,With ridiculous late points place an additional fifth tower at the bottom; usually towers just lack damage by then.,yes,2
+00:16:49,00:17:22,worship,Kraken level 10,,how_to,late,level=10,Upgrade Krakens to level 10 choosing the extra Underling option.,yes,3
+00:17:22,00:17:54,worship,Kraken level 10,,mechanic,late,,Extra Underling gives more pushback keeping mobs in tower range.,yes,3
+00:17:22,00:17:54,worship,level 15 upgrades,,priority,late,level=15,Then slowly upgrade towers to level 15; upgrade Poisonic Elders evenly until all level 15 before anything else.,yes,3
+00:17:22,00:17:54,worship,Party Starter level 15,,threshold,late,points_cost=7500,Party Starter to level 15 costs about 7.5K points; worth it when affordable for damage on all towers.,yes,3
+00:17:54,00:18:25,worship,Party Starter trait,,how_to,late,attack_speed=250%,At level 15 choose A B or all B for Party Starters as long as you keep 250% attack speed.,yes,2
+00:17:54,00:18:25,worship,upgrade timing,,warning,late,,No benefit from towers until they reach next tier; hold points for Poisonic Elders instead of another Party Starter.,yes,3
+00:18:25,00:18:58,worship,boss wave,,how_to,late,points_cost=3000;damage_bonus=20%,If stuck on a slow Boss Wave spend 3K points for another 20% damage on Poisonic Elder.,yes,2
+00:18:25,00:18:58,worship,Poisonic Elder upgrade,,how_to,late,,Increase Poisonic Elders one level at a time across all 3 for more damage per point.,yes,3
+00:18:58,00:19:30,worship,late upgrade plan,,priority,late,crit_chance=100%,Rest of waves is upgrading towers; some points go to Stormcaller crit for 100% crit on middle tower.,yes,2
+00:18:58,00:19:30,worship,Party Starter,,how_to,late,upgrade_cost=10000-20000;damage_bonus=30-45%,If upgrades cost 10K-20K each summon an extra Party Starter for 30-45% more damage.,yes,2
+00:19:30,00:20:00,worship,Next Wave Button,,warning,late,countdown=30s,Never use Next Wave at this point unless a ~30 second countdown remains; risk stunned or unprepared towers.,yes,3
+00:20:00,00:20:31,worship,Stop Right There,hunter,how_to,late,wave=80;interval=30-45s,Start using Hunter's Stop Right There after Wave 80; stand far back with auto-attack on to use every 30-45 seconds.,yes,3
+00:20:00,00:20:31,worship,Stop Right There,hunter,how_to,late,,Manual use is more effective when mobs pile up.,yes,3
+00:20:31,00:21:28,worship,Stop Right There,hunter,how_to,late,wave=90,Use it when purple mobs aren't taken down by the Voidinator to progress past Wave 90.,yes,2
+00:21:28,00:21:59,worship,run length,,account_note,late,wave=90;duration_min=50;duration_hours=several,Whole run takes several hours; Wave 90 takes about 50 minutes depending on tower levels.,yes,3
+00:21:28,00:21:59,worship,final waves,,target,late,level=15,Upgrade towers as much as possible in last waves; get at least 1 tower to level 15 if you can.,yes,3
+00:21:59,00:23:45,worship,level 15 benefit,,mechanic,late,level=15,Level 15 gives an additional tick so mobs die quicker.,yes,3
+00:21:59,00:23:45,worship,boss wave points,,how_to,late,,Hold points to make best decision when the boss appears.,yes,3
+00:23:45,00:24:17,worship,Poisonic Elder level 15 trait,,how_to,late,level=15;towers=2-3,At level 15 Poisonic Elder pick Trait B for more cloud ticks; level 2-3 of them if possible else hold points.,yes,3
+00:23:45,00:24:17,worship,boss wave Stormcaller,,how_to,late,level=15,If stuck on Boss Wave and unable to reach level 15 upgrade Stormcaller.,yes,3
+00:24:17,00:24:53,worship,Stormcaller option,,how_to,late,hp_threshold=60%,Stormcaller by the portal gives extra damage to mobs below 60% HP which can save time; or take more crit.,yes,2
+00:24:53,00:25:26,worship,Stop Right There,hunter,warning,late,wave=100,At the end it is a gamble whether Stop Right There holds mobs in the poison clouds; run ended around Wave 100.,yes,3
+00:24:53,00:25:26,worship,wave 100,,opinion,late,wave=100,Reaching Wave 100 with a character without maxed towers is really good; retry later with maxed towers.,yes,3
+00:24:53,00:25:26,atom_collider|worship,damage bonuses,,mechanic,late,damage_over_time=100%,Atom Collider bonuses can give basically 100% more damage over time allowing more waves to be completed.,yes,2

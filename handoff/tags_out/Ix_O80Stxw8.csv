@@ -1,0 +1,32 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,library|construction,talent library building,,how_to,any,,Build the Talent Library in construction; it appears in the World 3 town and is how you receive talent books to raise max talent level.,yes,3
+00:00:00,00:00:32,library,search function,,mechanic,any,,Search by book genre (the class like archer/warrior/mage) and sub genre (subclass or elite class such as bowman or siege breaker).,yes,3
+00:00:32,00:00:32,library,checkouts,,mechanic,any,checkouts_per_book=1,You gain checkouts that refresh over time; a max talent book costs one checkout.,yes,3
+00:00:32,00:01:03,library,max talent book,,how_to,any,,Spend a checkout on the talent; the book drops on the ground; pick it up and click consume to raise max level.,yes,3
+00:00:32,00:01:03,library|bubbles,talent upgrade restriction,squire,mechanic,any,,Some talents cannot be upgraded; Meat Shank for squire only upgrades via Blocky Bottles which needs the second warrior cauldron bubble (Warrior's Rule).,yes,2
+00:01:03,00:01:03,library|talent_points,main stats,,mechanic,any,,Main stats cannot be leveled up by books except luck.,yes,2
+00:01:03,00:01:33,library,max talent book baseline,,mechanic,any,baseline=125;threshold_min=101;threshold_max=125;possible_min=104,Baseline max book is 125; before upgrades the level you get is a random threshold between 101 and 125.,yes,3
+00:01:33,00:01:33,library,guide structure,,meta_change,any,,He splits the guide into pre-world 5 (anyone can do) and post-world 5 (later game) sources.,yes,3
+00:01:33,00:02:04,merits|library,merit shop upgrade,,target,early,upgrades_max=5;per_upgrade=2;total=10,Buy the merit shop upgrade up to five times for +2 max talent book level each; +10 total.,yes,3
+00:01:33,00:02:04,salt_lick|library,salt lick upgrade,,target,early,total=20,Sink lots of blue salts into the salt lick for a total of +20 to max talent book; annoying but worth it.,yes,3
+00:02:04,00:02:34,achievements|library,Checkout Takeout,,target,any,books_required=1000;max_book_bonus=5;charge_rate_bonus=30,Checkout Takeout requires checking out 1000 books and gives +5 max talent book and +30% library charge rate; a nightmare achievement.,yes,3
+00:02:04,00:02:34,library,charge rate,,mechanic,any,,Library charge rate reduces the timer for a new book.,yes,3
+00:02:34,00:02:34,killroy|library,skull shop,,how_to,any,skulls=8;checkouts=2,Killroy's bone zone shop trades 8 skulls for 2 library checkouts; spend skulls there if pushing Checkout Takeout.,yes,3
+00:02:34,00:03:04,library|stamps|vials|cooking|atom_collider,checkout speed sources,,how_to,any,,Other checkout speed sources: Biblio stamp (World 3 snow) and the Vile Chalker Chug doom souls vial; Fortune Cookie meal in W4 cooking; oxygen atom.,yes,2
+00:03:04,00:03:04,library,max talent progression,,target,w5,baseline_target=160;next_target=220,After reaching about 160 max talent books pre-world 5, the next push is to 220.,yes,3
+00:03:04,00:03:34,sailing|library,fury relic artifact,,target,w5,first_unlock=25;ancient=50,Fungi Meadows island in sailing has the Fury Relic artifact: +25 max talent book level on first unlock and +50 total if ancient.,yes,3
+00:03:04,00:03:34,atom_collider|library,oxygen atom,,target,late,max_level_bonus=10,Atom Collider oxygen atom gives +10 max talent level for one upgrade and later raises library refresh charge.,yes,3
+00:03:34,00:04:06,construction|library,automation arm,,target,late,checkouts=20,Automation arm level 5 lets you spend 20 checkouts to guarantee a max level book; recommended at 220.,yes,3
+00:03:34,00:04:06,achievements|library,Checkout Takeout interaction,,warning,late,checkouts=20;counts_as=1,Using 20 checkouts for one book via automation arm only counts as one checkout toward Checkout Takeout.,yes,3
+00:03:34,00:04:06,library,talent level 220,,opinion,late,,220 is where classes really start to pop off.,yes,3
+00:04:06,00:04:06,library|talent_points,Symbols of Beyond,,target,late,book_level=220;bonus_max=12,Each elite class has Symbols of Beyond; booking it to 220 gives up to +12 talent points across talents with at least one point.,yes,2
+00:04:06,00:04:38,divinity|talent_points,Arctis,,target,w5,divinity_level=80;talent_points=8.5,Run Arctis the bear god at level 80 divinity for 8.5 talent points.,yes,3
+00:04:06,00:04:38,bubbles|divinity,Big P,,target,late,,Running the big yellow cauldron bubble Big P boosts the god's power, which matters.,yes,2
+00:04:06,00:04:38,talent_points,bubonic auras,bubonic_conjuror,mechanic,late,talent_level=245;auras=8,Bubonic conjuror gets eight auras at 245, incredible for wave clear.,yes,2
+00:04:38,00:05:09,library,VIP membership,,mechanic,any,,VIP membership subtab in the library offers star talent books like Tiptoe Quickness (movement speed, then accuracy), Ubercharged Health, money percent, and Over Accurate Crit.,yes,3
+00:04:38,00:05:09,library|damage,Over Accurate Crit,,mechanic,late,crit_max=36,Over Accurate Crit gives crit chance based on accuracy overflow on the mob, up to about 36%.,yes,3
+00:05:09,00:05:39,library,VIP checkout cost,,warning,any,checkouts=5;max_level=220;min_level=1,VIP books cost five checkouts, max 220 but minimum level 1, so a bigger threshold range; automation arm cannot guarantee max.,yes,3
+00:05:09,00:05:39,library,VIP unlocks,,mechanic,any,,Hitting new VIP membership percent thresholds unlocks new star books; Over Accurate Crit is the latest.,yes,3
+00:05:39,00:06:09,library|cooking|arena|sigils,VIP percent sources,,how_to,any,,VIP percent from W4 cooking (garlic bread, sour fish, orange, sushi roll), arena round 1 and round 10, and the VIP Parchment sigil.,yes,2
+00:05:39,00:06:09,gem_shop|library,burning books,,how_to,any,,Gem shop burning books raises minimum talent book level for better thresholds, but does not work for VIP books.,yes,3
+00:06:09,00:06:09,bribes|library,minimum book bribe,,opinion,any,bonus=4,A bribe raises minimum book level by +4; he doesn't rely on it or like it much but optional.,yes,3

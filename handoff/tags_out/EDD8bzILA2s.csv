@@ -1,0 +1,24 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,death_note|construction,building,,mechanic,w3,,Death Note is a World 3 construction building crafted at the Construction Workbench,yes,3
+00:00:00,00:00:00,death_note|refinery|worship,build cost,,setup,w3,,Building Death Note requires Orange Salts from the Refinery and Forest Souls from Worship,yes,3
+00:00:00,00:00:31,death_note,building level,,mechanic,any,max_level=50;multikill_per_level=2,Death Note can be upgraded to level 50 and each level after the first gives 2% more Multi-Kill,yes,3
+00:00:00,00:00:31,death_note,building level,,mechanic,any,level=32;additional_levels=31;multikill=62,At level 32 (31 additional levels) he gets 62% more Multi-Kill bonus,yes,3
+00:00:31,00:00:31,death_note|construction,upgrade cost,,mechanic,any,,Each Death Note upgrade level needs more Orange Salt and Forest Souls and more build time depending on total build rate,yes,3
+00:00:31,00:01:03,death_note,menu,,mechanic,any,,Death Note menu shows each world and its monsters; page 2 is Yum Yum Desert and page 3 is Frostbite Tundra,yes,2
+00:01:03,00:01:03,death_note,menu,,meta_change,any,,He expects more Death Note pages as more worlds are added,yes,3
+00:01:03,00:01:33,death_note,kill tracking,,mechanic,any,,Left side shows each monster with total combined kills from all characters and your current point icon for it,yes,3
+00:01:03,00:01:33,death_note,points,,mechanic,any,,Bottom of the menu adds up all monster points for the world,yes,3
+00:01:33,00:01:33,death_note,points,,mechanic,any,,Each world has a different total Multi-Kill per tier,yes,3
+00:01:33,00:02:03,death_note,breakpoints,,threshold,any,kills_1pt=25000;kills_2pt=100000,Monster gives 1 point at 25000 kills and 2 points at 100000 kills and so on,yes,3
+00:01:33,00:02:03,death_note|damage,multikill,,mechanic,any,,Total points equal the Multi-Kill gained per damage tier which is shown in the AFK menu,yes,3
+00:02:03,00:02:03,death_note,multikill,,mechanic,any,,More Multi-Kill gives more XP and resources from that monster,yes,3
+00:02:03,00:02:34,death_note,example spores,,account_note,w1,multikill_per_tier=75;total_multikill=1318,His Spores monster shows 75% Multi-Kill per tier and total Multi-Kill 1318% in the AFK menu,yes,3
+00:02:34,00:02:34,death_note|drop_rate|class_exp,multikill,,mechanic,any,multiplier=13,1318% Multi-Kill means roughly 13 times more XP per hour and drops per hour from that monster,yes,3
+00:02:34,00:03:07,death_note|damage,damage tier,,mechanic,any,,Current damage tier is based on the maximum damage among your characters,yes,3
+00:02:34,00:03:07,death_note|damage,damage tier,,account_note,w1,max_damage=1080000,His max damage is about 1.08 million,yes,3
+00:03:07,00:03:07,death_note|damage,damage tier,,account_note,w1,damage_tier=16;next_tier=17,He has 16x on damage tier working toward 17x,yes,3
+00:03:07,00:03:07,death_note,multikill formula,,mechanic,any,per_tier=75;tiers=16;multikill=1200,Multi-Kill per tier times damage tier: 75% times 16 gives 1200% more Multi-Kill,yes,3
+00:03:07,00:03:38,death_note|arcade,multikill source,,mechanic,any,arcade_bonus=2.59,Arcade shop gives additional 2.59% Multi-Kill per tier,yes,2
+00:03:38,00:03:38,death_note|arcade,multikill source,,mechanic,any,bonus=42,The arcade bonus adds roughly 42% more Multi-Kill in total,yes,2
+00:03:38,00:03:38,death_note|stamps,overkill stamp,,mechanic,w1,bonus=10,World 1 Miscellaneous tab Overkill Stamp gives 10% more Overkill/Multi-Kill for all worlds,yes,3
+00:03:38,00:03:38,death_note,multikill sources,,mechanic,any,,Total Multi-Kill per monster comes from Death Note tiers plus Arcade and Overkill Stamp,yes,3

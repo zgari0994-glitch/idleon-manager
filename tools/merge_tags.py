@@ -23,6 +23,12 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'handoff/tags_out/*.csv'))):
     out, errs = [], []
     for i, r in enumerate(csv.DictReader(open(f, encoding='utf-8'))):
         r = {k.strip(): (v or '').strip() for k, v in r.items() if k}
+        ct = r.get('claim_type', '')
+        if ct not in TYPES:  # API tagger drift: map near-misses, never drop the row
+            fix = {'advice': 'how_to', 'tip': 'how_to', 'how_how_to': 'how_to', 'check': 'how_to', 'daily_routine': 'active_task',
+                   'requirement': 'threshold', 'recommendation': 'priority', 'decision': 'priority'}
+            base = ct.replace('_placeholder', '')
+            r['claim_type'] = fix.get(base, base if base in TYPES else 'mechanic')
         for s in (r.get('system') or 'general').split('|'):
             s = s.strip().replace(' ', '_')
             e = []

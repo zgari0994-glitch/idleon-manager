@@ -1,0 +1,29 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,worship,Acorn Assault totem,,mechanic,w1,totem_level=30,"Acorn Assault is the level 30 Worship totem located in World 1 map The Roots.",yes,3
+00:00:00,00:00:30,worship,Acorn Assault totem,,mechanic,w1,,"The totem gives Rooted Souls when you spend Worship Charge or complete Tower Defense waves.",yes,3
+00:00:30,00:00:30,worship,talent,hunter,setup,any,,"Spec into Stop Right There for tower defense; it immobilizes monsters in a radius, and higher level roots longer.",yes,3
+00:00:30,00:00:30,worship,talent,hunter,setup,any,,"Spec into 360 No Scope, which lets you hit multiple mobs.",yes,3
+00:00:30,00:01:03,worship,talent,hunter,setup,any,,"Spec into Kung Fu Kick on Tab 2 to push mobs back; higher level pushes farther.",yes,3
+00:00:30,00:01:03,worship,talent,hunter,setup,any,,"Also take Piercing Arrow since it can hit multiple enemies.",yes,3
+00:01:03,00:01:33,worship,talent,,mechanic,any,damage_cap_per_attack=1,"Damage is capped at 1 per attack in tower defense, so you don't need to spec every damage-giving talent.",yes,3
+00:01:03,00:01:33,worship,tower defense,,account_note,unknown,best_wave=53,"He has reached wave 53 with this build but thinks he can push further; it is only one of several possible tower placements.",yes,3
+00:01:33,00:01:33,worship,tower defense,,how_to,any,,"To start waves click the totem then click summon to begin summoning towers.",yes,3
+00:01:33,00:02:18,worship,tower defense,,setup,early,boulder_rollers=2,"Start with a Boulder Roller beside the rope, a second Boulder Roller, then a Freeze Tower, then summon Lightning Totems beneath it.",yes,3
+00:02:18,00:02:54,worship,tower defense,,priority,early,,"After the basic setup, focus on leveling towers and placing Party Towers, leveling each individually as you add more.",yes,3
+00:02:18,00:02:54,worship,tower defense,,how_to,early,party_tower_level=5,"Place only one Party Tower at a time and get it to level 5 quickly before placing the next, since they do nothing until level 5.",yes,3
+00:02:54,00:03:49,worship,tower defense,,how_to,any,party_tower_level=5;speed_bonus_pct=25,"At Party Tower level 5 select the 25% speed option so Boulder Towers and others attack faster, clearing waves and summoning towers quicker.",yes,3
+00:03:49,00:03:49,worship,tower defense,,how_to,late,extra_party_towers=2,"Later in the game add 2 more Party Towers at the bottom, which needs a higher wave count.",yes,3
+00:03:49,00:04:24,worship,tower defense,,priority,any,tower_level=5,"Upgrade Boulder Roller Towers first, to level 5.",yes,3
+00:03:49,00:04:24,worship,tower defense,,how_to,any,extra_enemies=2,"Generally select the upgrade 'can hit +2 more enemies' on Boulder Rollers.",yes,3
+00:03:49,00:04:24,worship,tower defense,,how_to,any,travel_further_pct=30,"On the secondary Boulder tower you can pick 'travel 30% further' first.",yes,3
+00:04:24,00:04:24,worship,tower defense,,warning,any,,"The travel-further option depends on having enough Party Attack Speed to support hitting enough enemies.",yes,3
+00:04:24,00:04:54,worship,tower defense,,how_to,any,,"Always select Trait B on the Frozone Malone Towers, then start upgrading Stormcaller Towers.",yes,2
+00:04:54,00:05:29,worship,tower defense,,how_to,any,stormcallers=4;damage_pct=50;hp_threshold_pct=60,"On two Stormcallers take extra Crit Chance and on the other two take 50% damage to monsters below 60% HP, then eventually have Crit on all 4.",yes,3
+00:05:29,00:05:29,worship,tower defense,,skip,early,,"Skip upgrading the Kraken Tower early since it's expensive and generally not worth it.",yes,3
+00:05:29,00:05:29,worship,tower defense,,priority,any,,"After level 5 on towers, push on to upgrading Boulder Towers again.",yes,3
+00:07:35,00:07:35,worship|construction,workbench,,blocker,unknown,boulder_roller_level=30,"He got stuck from lack of damage because he hasn't upgraded far enough in Construction Workbench; Boulder Rollers around level 30.",yes,3
+00:07:35,00:08:06,worship,tower defense,,warning,late,,"Later waves are overwhelming; keep upgrading towers in Tower Defense, particularly Boulder Rollers and Stormcallers, or you'll die sooner.",yes,3
+00:07:35,00:08:06,worship,tower defense,,how_to,any,upgrade_increment=5,"Upgrade Party Towers in increments of 5 levels.",yes,2
+00:08:06,00:08:06,worship,tower defense,,mechanic,any,upgrade_interval=5,"Party Towers do nothing without the Attack Speed buff they get every 5 levels.",yes,3
+00:08:06,00:08:06,worship,tower defense,,how_to,any,,"Use Roots and Knockbacks effectively to keep exploding orange mobs off your towers.",yes,3
+00:08:06,00:08:06,worship,tower defense,,mechanic,any,,"Orange exploding mobs stun towers, slowing attack speed or preventing damage entirely.",yes,3

@@ -1,0 +1,26 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,gem_shop,free gems,,meta_change,any,gems_per_week=500,"Video shows how to earn up to over 500 free gems a week for gem shop purchases.",yes,3
+00:00:00,00:00:31,guild,new guild,,account_note,any,guilds=3,"Third guild, the brother guild Litty Eddie Army, has started; sign up through the Discord guild signup channel.",yes,3
+00:00:31,00:01:02,cauldrons_liquids|gem_shop,alchemy shop gem purchase,,how_to,any,purchases_per_day=2;gems_per_day=6,"Alchemy shop has a one-gem purchase whose price rises per buy; buy both twice a day for six gems.",yes,2
+00:00:31,00:01:02,quests|gem_shop,picnic stowaway quest,,how_to,any,gems=10;frequency_per_day=1,"Picnic Stowaway quest at Frogs rewards 10 gems, repeatable daily.",yes,2
+00:00:31,00:01:02,general|gem_shop,spike minigame,,how_to,any,,"Join the spike minigame once a day, hourly, by typing a specific case-sensitive phrase in chat.",yes,2
+00:01:02,00:01:32,general|gem_shop,spike minigame,,mechanic,any,gems_min=1;gems_max=13,"Dodging spikes in the minigame rewards up to 1 gem, or up to 13 if you predict the future.",yes,2
+00:01:02,00:01:32,arcade|gem_shop,daily balls,,how_to,any,gems_per_day=10,"Using daily arcade balls in World 2 town can easily give up to 10 gems per day.",yes,3
+00:01:02,00:01:32,arcade,daily balls,,opinion,any,,"Joking advice to pray for RNG and make it a ritual before playing arcade.",yes,2
+00:01:02,00:01:32,dungeons|gem_shop,colosseum,,how_to,any,tickets_per_day=3;gems_max=6,"Running the colosseum with three daily tickets can reward up to six or more gems.",yes,2
+00:01:32,00:02:02,dungeons|gem_shop,colosseum,,warning,any,,"Doesn't recommend using colosseum tickets for gems because you want to save tickets for later.",yes,3
+00:01:32,00:02:02,gem_shop,talent,journeyman,mechanic,any,gems=1,"Journeyman talent It's Your Birthday rewards a single gem; mediocre but better than nothing.",yes,2
+00:01:32,00:02:02,gem_shop,king doot boss,,how_to,any,gems=9,"King Doot, entered in World 2 sand giant's map via a rock using the Dootjat Eye item, gives about nine gems.",yes,2
+00:01:32,00:02:02,gem_shop,king doot boss,,setup,any,players=3,"Doot portal needs one of each class, or having killed him and holding the Doot item lets you spawn him without three players.",yes,1
+00:02:02,00:02:33,gem_shop,piggy boss?,,how_to,any,gems=8,"Boss summoned with googly-eyes item dropped at the hourglass gives about eight gems.",yes,1
+00:02:02,00:02:33,gem_shop,daily boss keys,,how_to,any,gems_per_day=22,"Amarok, Efaunt?, Chizoar and Troll can drop gems; farming them with daily keys yields about 22 gems per day.",yes,2
+00:02:02,00:02:33,gem_shop|quests,boss key quest line,,priority,any,,"Do the boss key quest line for each boss to maximize daily key gain.",yes,3
+00:02:02,00:02:33,gem_shop,daily total,,target,any,gems_per_week=520;days=7,"Doing all of the daily methods seven days a week gives roughly 520 gems.",yes,3
+00:02:33,00:03:05,gem_shop,daily total,,warning,any,,"Gem total isn't exactly 520 every time because it depends on drops.",yes,3
+00:02:33,00:03:05,guild|gem_shop,guild gift boxes,,how_to,any,gems_min=100;gems_max=160,"Weekly guild gift boxes give 100 to 160 gems depending on guild level and upgrades.",yes,3
+00:02:33,00:03:05,prayers|gem_shop,giant mobs,,how_to,any,unlock_wave=11;gems_per_week_min=40;gems_per_week_max=50,"Giant mobs summoned with the Titans prayer unlock at wave 11 of Wakawaka War on moon map; reward candies and about 40-50 gems weekly.",yes,2
+00:03:05,00:03:36,prayers|gem_shop,giant mobs,,warning,any,,"Need to play actively with the prayer on for giant mobs to spawn; crystal mob spawns can't be giant.",yes,3
+00:03:05,00:03:36,gem_shop,world 3 and 4 minibosses,,how_to,any,kills_per_week=2;gems_per_week=16,"Kill two of Dilapidated Slush and Mutated Mush each week for about 16 gems.",yes,2
+00:03:05,00:03:36,gem_shop,weekly total,,target,any,gems_per_week=700,"Doing everything listed weekly can reach around 700 gems.",yes,3
+00:03:36,00:04:13,gem_shop,events,,warning,any,,"These numbers exclude events; gem income can be even higher during an event.",yes,3
+00:03:36,00:04:13,gem_shop,free gems,,opinion,any,,"Free gems are a grind but a big payoff without spending money.",yes,2

@@ -1,0 +1,35 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,speedrun,run scope,,setup,any,,Speedrun goes from a fresh account to killing Amarok; the rules are a general guideline anyone can follow,yes,3
+00:00:30,00:01:01,speedrun,timer start,,setup,any,,Timer starts when you press create character on a fresh account; the prologue is not part of the run,yes,3
+00:01:01,00:01:31,speedrun,rules guild party dungeons,,setup,any,,No guilds and no parties; party dungeons are allowed but solo only,yes,3
+00:01:01,00:01:31,achievements,lava achievement,,setup,any,,The lava achievement is banned; you can't use anything gained from it during the run,yes,3
+00:01:01,00:01:31,gem_shop,purchases,,setup,any,,Gem shop can be opened but nothing can be purchased from it; this stops wallet warrior and time candy buying,yes,2
+00:01:01,00:01:31,event_shop|random_events,events,,setup,any,,No events can be running during the speedrun because they create unreasonable time differences,yes,3
+00:01:31,00:02:02,speedrun,music,,setup,any,,In-game music must be playing to avoid splicing and keep the run valid,yes,3
+00:01:31,00:02:02,speedrun,free roam,,setup,any,,Apart from these conditions you are free to do whatever you want and can theorycraft to save time,yes,3
+00:02:02,00:02:32,speedrun,starting hat,beginner,opinion,early,,Chat debated the starting hat; propeller hat was suggested as the big play but he doesn't remember if hats give stats,no,2
+00:02:32,00:03:03,speedrun,starting hat,,opinion,early,,Starting hat gets replaced super early and is only used about two minutes so it saves little time,yes,2
+00:03:03,00:03:33,speedrun,mining certificate,,how_to,early,,Get the mining certificate with no minigames and copper ore early on,no,2
+00:03:03,00:03:33,smithing_placeholder,,,how_to,early,,placeholder,no,1
+00:03:33,00:04:05,quests,picnic stowaway,,warning,early,,Can't do the picnic stowaway quest in a solo run without forcing a second character,yes,2
+00:03:33,00:04:05,speedrun,spore caps,,how_to,early,,Collect spore caps early for the quests,no,2
+00:04:05,00:04:38,speedrun,early nom widgets,,how_to,early,,Buying early nom widgets to finish the quest was the big brain play; gives plus one luck and no damage from frogs,yes,2
+00:04:05,00:04:38,speedrun,damage taken,,mechanic,early,,After the quest he takes no damage from frogs and boar beans,yes,2
+00:04:38,00:05:08,anvil,copper bars,,how_to,early,copper ore=6,Get six copper ore and smelt them for a spear,yes,2
+00:04:38,00:05:08,speedrun,active buff,,warning,early,,Not having his active buff counted as a time loss,yes,2
+00:05:08,00:05:38,speedrun,defense,,opinion,early,time_save_min=21,He's glad they went with the defense since he's not taking damage; claims a 21 minute time save,yes,2
+00:05:08,00:05:38,speedrun,time candy,,how_to,early,,Time candy is used for 10 bones,no,1
+00:05:38,00:06:09,speedrun,amarok,,opinion,mid,,He thinks the run is going well and will smash Amarok,yes,2
+00:05:38,00:06:09,stamps,accuracy stamp,,how_to,early,,Grab items then the accuracy stamp; hand in quest to unlock Grassland Gary then do accuracy to boost it,yes,2
+00:06:09,00:06:40,speedrun,time candy,,how_to,mid,time_candy_hours=2;candies=2;kills_per=70;kills_total=140,Used one hour time candy on oak logs; plan to use two two-hour time candies for about 70 kills each (140-280),yes,2
+00:06:09,00:06:40,speedrun,carrots,,target,mid,minutes=40,Should be able to skip carrots in 40 minutes with the time candies,yes,2
+00:06:40,00:07:11,speedrun,survivability,,mechanic,mid,survivability=100,With 100 survivability he doesn't take damage from goblins,yes,2
+00:06:40,00:07:11,speedrun,afk gains,,target,mid,afk_gains=57,AFK gains are 57 at this point,yes,2
+00:06:40,00:07:11,speedrun,average potions,,how_to,mid,stacks=2,Variation: with average potions split two stacks for each time candy to get more AFK gains from double average potions,yes,2
+00:07:11,00:07:41,speedrun,dog bones,,warning,mid,,Run is very RNG heavy because of dog bone drops; needed more bones even after using AFK gains and potions,yes,2
+00:07:41,00:08:12,speedrun,split,,target,mid,minutes=40,This might be a 40 minute split,no,2
+00:08:12,00:08:42,speedrun,amarok,,how_to,late,minutes=5,Took a hit on purpose to restore health so a big hit won't one shot him; needs boss done before it procs again in five minutes,yes,2
+00:08:12,00:08:42,speedrun,amarok,,warning,late,,A glitch didn't happen so actual DPS came out,no,2
+00:08:42,00:09:12,speedrun,amarok,,warning,late,,The boss is totally RNG; he missed attacks and got hit to restore health,yes,2
+00:09:42,00:10:13,speedrun,final time,,target,endgame,hours=3;time=2:41:20,Finished Amarok with a time around 2 hours 41 minutes 20 seconds; sub 3 hour,yes,2
+00:09:42,00:10:13,speedrun,video format,,meta_change,any,,Video was a heavily chopped version of the full speedrun; full uncut run linked in description,yes,3

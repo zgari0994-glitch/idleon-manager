@@ -1,0 +1,133 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+VRPG0nnM1R8,nocturne,2022-11-10,00:00:00,00:00:33,general,,choppin stats,,mechanic,any,max_chance=100,Choppin Efficiency gives up to 100% chance to gain logs per chop and later unlocks Multi-Log Drop Chance,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:00:00,00:00:33,general,,choppin speed,,mechanic,any,,Choppin Speed raises overall gains per hour,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:00:00,00:00:33,general,,choppin speed,,priority,early,,Do not put much emphasis on Choppin Speed until much later in the game,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:00:33,00:01:04,printer,world-3/printer,sampling,,mechanic,w3,,At World 3 you can use Choppin Speed to increase your printer sample size,yes,2
+VRPG0nnM1R8,nocturne,2022-11-10,00:00:33,00:01:04,general,,multi-log drop chance,,mechanic,any,,Multi-Log Drop Chance gives more logs per swing and dramatically increases gains per hour,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:00:33,00:01:04,general,,afk info tab,,how_to,any,,AFK Info tab shows how much you gain every hour,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:01:04,00:01:36,general,,afk info tab,,mechanic,any,,Logs per hour and EXP per hour are shown in AFK Info tab to see resource gain and leveling speed,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:01:04,00:01:36,general,,afk info bar,,mechanic,any,,Green bar at the bottom shows your percent chance to gain a log when chopping a tree,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:01:36,00:02:12,general,,efficiency target,,target,any,chance=100,Goal is to get enough Choppin Efficiency to reach the 100% bar,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:01:36,00:02:12,general,,afk info bar,,mechanic,any,max_multi=70,After 100% the bar turns orange and shows 1x 2x up to 50x and 70x logs per swing as efficiency rises,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:02:12,00:02:44,general,,efficiency break points,,mechanic,any,,Between multiplier break points like 2x-3x or 3x-4x extra efficiency gives nothing,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:02:12,00:02:44,general,,efficiency vs afk gain,,priority,any,,If you cannot squeeze out more efficiency to the next break point go for more AFK Gain Rate instead,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:02:12,00:02:44,general,,efficiency target,,target,any,efficiency=19500000,Ideal is to sit at 19.5 million efficiency,yes,2
+VRPG0nnM1R8,nocturne,2022-11-10,00:02:44,00:03:14,general,,efficiency target,,target,any,efficiency=64500000,Stack AFK Gain Rate after 19.5 million until you reach 64.5 million efficiency then stop there until next break point,yes,2
+VRPG0nnM1R8,nocturne,2022-11-10,00:02:44,00:03:14,anvil,world-1/anvil,witch hat,,setup,any,anvil_tab=2;choppin_efficiency=10,Witch Hat crafted in Anvil Tab 2 gives 10% Choppin Efficiency as helmet,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:02:44,00:03:14,anvil,world-1/anvil,furled robes,,setup,any,anvil_tab=2;choppin_efficiency=10,Furled Robes crafted in Anvil Tab 2 give 10% Choppin Efficiency,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:03:14,00:03:45,anvil,world-1/anvil,bleached designer wode patch pants,,setup,any,anvil_tab=1;choppin_efficiency=5,Bleached Designer Wode Patch Pants crafted in Anvil Tab 1 give 5% Choppin Efficiency,yes,2
+VRPG0nnM1R8,nocturne,2022-11-10,00:03:14,00:03:45,anvil,world-1/anvil,fiberous footings,,setup,any,anvil_tab=4;choppin_efficiency=35,Fibrous Footings from Anvil Tab 4 give 35% Choppin Efficiency,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:03:14,00:03:45,anvil,world-1/anvil,logger heels,,comparison,any,anvil_tab=2;choppin_efficiency=20,Logger Heels from Anvil Tab 2 give only 20% Choppin Efficiency compared to Fibrous Footings,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:03:14,00:03:45,anvil,world-1/anvil,fiberous footings,,priority,any,,Get the Fibrous Footings as soon as possible,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:03:45,00:04:18,dungeons,account/misc/dungeons,flurbo shop,,setup,late,afk_gain_rate=15,Persephone's Bouquet from Dungeon Flurbo Shop gives 15% Skill AFK Gain Rate but costs many Flurbos so comes later,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:03:45,00:04:18,dungeons,account/misc/dungeons,rex ring,,setup,any,skill_efficiency=8,Serrated Rex Ring is crafted using Rex Rings from Flurbo Shop plus a recipe dropped by Baba Yaga; each gives 8% Skill Efficiency,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:03:45,00:04:18,anvil,world-1/anvil,rex ring,,setup,any,skill_efficiency=8,Serrated Rex Ring is crafted using Rex Rings from Flurbo Shop plus a recipe dropped by Baba Yaga; each gives 8% Skill Efficiency,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:03:45,00:04:18,dungeons,account/misc/dungeons,mystery upgrade stones,,mechanic,any,,Mystery Upgrade Stones have a chance to increase the misc bonus of the ring,yes,2
+VRPG0nnM1R8,nocturne,2022-11-10,00:04:18,00:04:50,general,,premium hat and ring,,setup,any,,Premium hat and ring can be upgraded with more Wisdom to give more Choppin Efficiency,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:04:18,00:04:50,general,,trinkets,,setup,any,,Recommend trinkets with all AFK Gain Rates; alternatives are Diamond Honker for All Skill Speed or percent Wisdom,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:04:50,00:05:22,general,,trinkets,,priority,any,,If you have nothing else use percent All Stats items but prefer AFK Gain Rate first,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:04:50,00:05:22,anvil,world-1/anvil,tools axe,,priority,any,,Use the highest level axe you can; need materials and the level requirement,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:04:50,00:05:22,anvil,world-1/anvil,tools axe,,mechanic,mid,level_req=65,Starfire Axe requires level 65 to use,yes,2
+VRPG0nnM1R8,nocturne,2022-11-10,00:05:22,00:05:52,anvil,world-1/anvil,tool upgrade stones,,priority,any,choppin_power=46,Use latest World tool upgrade stones currently World 4 reaching 46 Choppin Power which correlates to more efficiency,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:05:22,00:05:52,general,,food,,mechanic,any,,No food directly increases Choppin Efficiency but a few are useful,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:05:52,00:06:24,general,,golden food,,warning,any,,Golden Ham increases skill EXP but be careful how much skill XP you gain because of a penalty,yes,2
+VRPG0nnM1R8,nocturne,2022-11-10,00:05:52,00:06:24,anvil,world-1/anvil,saucy log fries,,setup,any,anvil_tab=1,Saucy Log Fries crafted in Anvil Tab 1 give lots of Choppin Speed; expensive but have some for printer sampling,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:05:52,00:06:24,printer,world-3/printer,saucy log fries,,setup,any,anvil_tab=1,Saucy Log Fries crafted in Anvil Tab 1 give lots of Choppin Speed; expensive but have some for printer sampling,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:06:24,00:06:57,general,,chogg nog,,warning,any,,Chogg Nog gives lots of Choppin Speed but is consumed very fast; do not use regularly,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:06:24,00:06:57,printer,world-3/printer,sampling,,setup,any,,Save Chogg Nog for 3D printer sampling to use it most efficiently,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:06:24,00:06:57,class_choice,,choppin,shaman|bubonic_conjuror|wizard,priority,any,,Recommend a Mage-based class such as Shaman or Bubonic Conjurer or Wizard for Choppin,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:06:24,00:06:57,talent_points,,smart efficiency,shaman|bubonic_conjuror|wizard,priority,any,tab=1;order=1,Tab 1 first priority is Smart Efficiency for total efficiency of specialized skills,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:06:57,00:07:27,talent_points,,active afker,shaman|bubonic_conjuror|wizard,priority,any,tab=1;order=2,Next Active AFK'er to increase AFK Gain Rates,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:06:57,00:07:27,talent_points,,book of the wise,shaman|bubonic_conjuror|wizard,priority,any,tab=1;order=3,Next Book of the Wise to raise base Wisdom which gives Choppin Efficiency,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:06:57,00:07:27,talent_points,,mana booster,shaman|bubonic_conjuror|wizard,priority,any,tab=1;order=4,Next Mana Booster because of an alchemy bubble giving efficiency from your mana,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:06:57,00:07:27,bubbles,world-2/bubbles,mana booster,shaman|bubonic_conjuror|wizard,priority,any,tab=1;order=4,Next Mana Booster because of an alchemy bubble giving efficiency from your mana,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:07:27,00:08:01,talent_points,,log on logs,shaman|bubonic_conjuror|wizard,priority,any,tab=2,Tab 2 top priority Log on Logs which is an active ability needing to be on the action bar to boost tree drops,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:07:27,00:08:01,talent_points,,leaf thief,shaman|bubonic_conjuror|wizard,priority,any,tab=2,Leaf Thief gives Choppin Efficiency based on grass leaves in your storage chest,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:07:27,00:08:01,talent_points,,deforesting all doubt,shaman|bubonic_conjuror|wizard,priority,any,tab=2,Deforesting All Doubt increases the effect Wisdom has on Choppin Efficiency,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:08:01,00:08:33,talent_points,,choppin it easy,shaman|bubonic_conjuror|wizard,opinion,any,,Does not really recommend Choppin It Easy but uses it for minigame rewards giving more EXP and drops,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:08:01,00:08:33,talent_points,,individual insight,shaman|bubonic_conjuror|wizard,priority,any,,Next priority Individual Insight for base Wisdom or Untwisted Robes if gear is good enough,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:08:01,00:08:33,talent_points,,mana overdrive,shaman|bubonic_conjuror|wizard,priority,any,,Next priority Mana Overdrive for large mana boost,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:08:33,00:09:03,talent_points,,mana overdrive,shaman|bubonic_conjuror|wizard,mechanic,any,,Mana Overdrive boosts mana which increases Hocus Choppus bubble,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:08:33,00:09:03,bubbles,world-2/bubbles,mana overdrive,shaman|bubonic_conjuror|wizard,mechanic,any,,Mana Overdrive boosts mana which increases Hocus Choppus bubble,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:08:33,00:09:03,talent_points,,wis wombo,shaman|bubonic_conjuror|wizard,priority,any,tab=3,Tab 3 Wis Wombo gives more max talent levels for Book of the Wise,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:08:33,00:09:03,talent_points,,stupendous statues,shaman|bubonic_conjuror|wizard,priority,any,tab=3,Stupendous Statues increases the Lumberbomb statue bonus for Choppin Power,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:08:33,00:09:03,statues,,stupendous statues,shaman|bubonic_conjuror|wizard,priority,any,tab=3,Stupendous Statues increases the Lumberbomb statue bonus for Choppin Power,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:08:33,00:09:03,talent_points,,occult obols,shaman|bubonic_conjuror|wizard,priority,any,,Occult Obols gives small Wisdom boost,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:09:03,00:09:34,talent_points,,occult obols,shaman|bubonic_conjuror|wizard,priority,any,,Occult Obols is the very last priority as bonus is small,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:09:03,00:09:34,talent_points,,earlier education,shaman|bubonic_conjuror|wizard,priority,any,,Earlier Education gives more Tab 2 talent points if needed,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:09:03,00:09:34,talent_points,,spare points,shaman|bubonic_conjuror|wizard,setup,any,,Spend extra points into alchemy bonuses since you are not doing much combat; top talents do not affect Choppin,yes,2
+VRPG0nnM1R8,nocturne,2022-11-10,00:09:34,00:10:08,talent_points,,symbols of beyond,bubonic_conjuror,priority,any,tab=4,Tab 4 Symbols of Beyond gives free talent levels to every talent with at least one level so free Skill Efficiency,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:09:34,00:10:08,talent_points,,skill wiz,bubonic_conjuror,priority,any,,Skill Wiz increases the effect Wisdom has on Skill Efficiency and gives small base Wisdom,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:09:34,00:10:08,talent_points,,utmost intellect,bubonic_conjuror,priority,any,,Utmost Intellect gives percent Wisdom boost and raises max level of Book of the Wise,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:10:08,00:10:40,talent_points,,family guy,bubonic_conjuror,priority,any,,Family Guy gives small Wisdom boost from family bonuses such as Tab 2 total Wisdom bonus,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:10:08,00:10:40,talent_points,,spare points,bubonic_conjuror,setup,any,,Other talent points can go into Lab skills,yes,2
+VRPG0nnM1R8,nocturne,2022-11-10,00:10:08,00:10:40,talent_points,,star talents tick tock,,priority,any,order=1,First Star Talent priority is Tick Tock for AFK Gain Rate,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:10:08,00:10:40,talent_points,,toilet paper postage,,priority,any,,Toilet Paper Postage Stamp gives small bonus based on level of stamps,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:10:40,00:11:13,talent_points,,will of the eldest,,priority,any,,A few points into Will of the Eldest for small Wisdom boost,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:10:40,00:11:13,talent_points,,super source,,priority,any,tab=2,Star Talents Tab 2 Super Source for more base Efficiency,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:10:40,00:11:13,talent_points,,action frenzy,,priority,any,,Action Frenzy increases skill speed for Choppin and other skills,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:10:40,00:11:13,talent_points,,frothy malk,,priority,any,,Frothy Malk boosts foods such as Saucy Log Fries,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:11:13,00:11:47,talent_points,,telekinetic storage,,opinion,any,,Likes Telekinetic Storage Printer Sampling and Shrine Architect on all characters but not necessary for efficiency,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:11:13,00:11:47,constellations,account/misc/constellations,hipster logger,,priority,any,,Hipster Logger star sign gives Choppin Efficiency and Multi-Log chance,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:11:13,00:11:47,constellations,account/misc/constellations,the og skiller,,opinion,any,,Likes The OG Skiller for more Skill Prowess effect and Skill AFK Gain Rate,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:11:13,00:11:47,constellations,account/misc/constellations,the big comatose,,comparison,any,,If not OG Skiller use The Big Comatose for Skill AFK Gain Rate,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:11:47,00:12:22,constellations,account/misc/constellations,comatose major,,priority,any,tab=2,Hydron tab Comatose Major for more skill AFK Gain Rate,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:11:47,00:12:22,constellations,account/misc/constellations,wispommo,,comparison,any,,Wispommo alternative gives base Wisdom,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:11:47,00:12:22,cards,,chaotic troll,,priority,any,,First card priority Chaotic Troll for All Skill Efficiency,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:11:47,00:12:22,cards,,amarok,,priority,any,,Amarok boss card gives skill AFK Gain Rate,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:11:47,00:12:22,cards,,cubed tree,,setup,any,,Cubed Tree card gives Choppin Speed,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:12:22,00:12:53,cards,,alien tree,,setup,any,,Alien Tree card gives total Choppin Efficiency,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:12:22,00:12:53,cards,,wispy tree,,setup,any,,Wispy Tree card gives Choppin Speed,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:12:22,00:12:53,cards,,saharan foal,,setup,any,,Saharan Foal card gives AFK Gain Rate,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:12:22,00:12:53,cards,,toilet tree,,setup,any,,Toilet Tree card gives Choppin Speed,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:12:22,00:12:53,cards,,palm tree,,setup,any,,Palm Tree card gives AFK Gain Rates,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:12:22,00:12:53,cards,,card bonus,,comparison,any,,Card bonus choice is Easy Resources for Skill Efficiency or Hard Resources for Skill AFK Gain Rate,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:12:53,00:13:23,cards,,card bonus,,priority,any,,If between multi-log break points choose Hard Resources AFK Gain Rate over Efficiency because efficiency gives nothing right now,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:13:23,00:13:56,stamps,world-1/stamps,hatchet stamp,,priority,w1,,Hatchet Stamp gives base Choppin Efficiency,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:13:23,00:13:56,stamps,world-1/stamps,chop and bag stamp,,priority,w1,,Chop and Bag Stamp gives carry capacity useful later,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:13:23,00:13:56,stamps,world-1/stamps,duplogs stamp,,priority,w1,,Duplogs Stamp gives Multi-Log Drop Chance,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:13:23,00:13:56,stamps,world-1/stamps,high iq lumber stamp,,warning,w1,,High IQ Lumber Stamp gives Choppin EXP but there can be a penalty if not careful,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:13:23,00:13:56,stamps,world-1/stamps,swag swingy tool stamp,,priority,w1,,Swag Swingy Tool Stamp boosts Choppin Efficiency,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:13:56,00:14:28,stamps,world-1/stamps,combat tab stamps,,priority,w1,,Mana Stamp for base MP and Book Stamp and Arcane Stamp for base Wisdom,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:13:56,00:14:28,statues,,feasty statue,,priority,w1,,Feasty Statue gives food effect for a small Choppin boost,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:13:56,00:14:28,statues,,lumberbob,,priority,w1,,LumberBob statue gives Choppin Power,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:14:28,00:15:01,statues,,golden statues,,mechanic,any,,Golden Statues make statues account-wide so any character can spend on them,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:14:28,00:15:01,bubbles,world-2/bubbles,stable genius,,priority,w2,,Stable Genius bubble gives base Wisdom,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:14:28,00:15:01,bubbles,world-2/bubbles,mage is best,,mechanic,w2,,Mage is Best basically doubles purple bubbles but only while online on a Mage character,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:15:01,00:15:31,bubbles,world-2/bubbles,hocus choppus,,priority,w2,,Hocus Choppus gives Choppin Efficiency from max MP and is one of the best alchemy benefits,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:15:01,00:15:31,bubbles,world-2/bubbles,molto loggo,,priority,w2,,Molto Loggo increases Multi-Log Drop Chance,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:15:01,00:15:31,bubbles,world-2/bubbles,nooDubble,,priority,w2,,NooDubble increases Choppin EXP gain,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:15:31,00:16:03,bubbles,world-2/bubbles,le brain tools,,priority,w2,,Le Brain Tools gives more skilling power from hatchets,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:15:31,00:16:03,bubbles,world-2/bubbles,severapurple,,priority,w2,,SeveraPurple doubles bonuses of specific bubbles 1 and 3 which are big for Choppin so worth investing,yes,2
+VRPG0nnM1R8,nocturne,2022-11-10,00:15:31,00:16:03,bubbles,world-2/bubbles,tree sleeper,,priority,w2,,Tree Sleeper gives Choppin AFK Gain Rate,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:16:03,00:16:36,bubbles,world-2/bubbles,prowesessary,,priority,w2,,Prowesessary reduces efficiency needed to reach multi-log chances so efficiency goes farther,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:16:03,00:16:36,vials,world-2/vials,spanish sahara,,priority,w2,,Spanish Sahara vial increases Choppin Efficiency; costs many logs but worth investing though slow,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:16:36,00:17:07,general,,post office,,priority,w2,,Taped Up Timber box gives Chopping Efficiency Prowess effect and AFK Gain Rate,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:16:36,00:17:07,general,,post office,,priority,w2,,Mana Box is last priority for Choppin unless you have spare boxes,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:17:07,00:17:37,general,,post office,,priority,w2,,Myriad Crate gives base stats efficiency and EXP gain if you have leftover boxes,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:17:07,00:17:37,general,,post office,,priority,w2,,Utilitarian Capsule gives bonuses such as printer sampling size,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:17:07,00:17:37,general,,obols,,priority,w2,,Choppin Obols give Choppin Power and Wisdom,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:17:37,00:18:08,general,,obols,,setup,w2,wisdom=75,Without enough Choppin Obols stack base Wisdom; he gets only about 75 total Wisdom from obols,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:17:37,00:18:08,prayers,world-3/prayers,skilled dimwit,,priority,w3,,Skilled Dimwit prayer at Prayer Obelisk increases Skill Efficiency with big Skill EXP penalty,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:18:08,00:18:41,prayers,world-3/prayers,skilled dimwit,,priority,w3,,Recommend leveling Skilled Dimwit since efficiency is more useful than skill EXP especially with Maestro bonus,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:18:08,00:18:41,prayers,world-3/prayers,balance of proficiency,maestro,priority,w3,,Balance of Proficiency is the opposite increasing Skill EXP at efficiency penalty useful for Maestro that levels skills slowly,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:18:41,00:19:11,cooking,world-4/cooking,corn,,priority,w4,,Meal Corn gives big Skill Efficiency boost,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:18:41,00:19:11,cooking,world-4/cooking,rice ball,,priority,w4,,Rice Ball meal gives more Skill Efficiency,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:18:41,00:19:11,cooking,world-4/cooking,leek,,priority,w4,,Leek meal gives big Skilling Prowessary effect,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:18:41,00:19:11,cooking,world-4/cooking,corn|rice ball|leek,,priority,w4,,Level Corn Rice Ball and Leek as soon as possible for skilling,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:19:11,00:19:44,lab,world-4/laboratory,certified stamp book,,priority,w4,,Certified Stamp Book doubles bonuses from all stamps,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:19:11,00:19:44,lab,world-4/laboratory,my 1st chemistry set,,priority,w4,,My 1st Chemistry Stamp doubles bonuses from all alchemy vials,yes,2
+VRPG0nnM1R8,nocturne,2022-11-10,00:19:11,00:19:44,lab,world-4/laboratory,emerald navette jewel,,priority,w4,,Emerald Navette Jewel gives base efficiency and skill speed and applies twice if all Green Jewels are active,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:19:44,00:20:15,lab,world-4/laboratory,black diamond rhinestone,,priority,w4,dinner_menu_bonus=24,Black Diamond Rhinestone boosts all Dinner Menu meal bonuses by about 24%,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:19:44,00:20:15,cooking,world-4/cooking,black diamond rhinestone,,priority,w4,dinner_menu_bonus=24,Black Diamond Rhinestone boosts all Dinner Menu meal bonuses by about 24%,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:19:44,00:20:15,lab,world-4/laboratory,chips,,priority,w4,,Red Chip in the middle increases Total Skill Efficiency for all skills,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:20:15,00:20:45,lab,world-4/laboratory,chips,,priority,w4,,Red Chip middle row far right gives more base efficiency for all skills,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:20:15,00:20:45,lab,world-4/laboratory,chips,,priority,w4,,Three Orange Chips bottom row double misc stats from trophy top keychain and pendant depending on equipment,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:20:45,00:21:17,lab,world-4/laboratory,chips,,priority,w4,chaotic_troll=50;amarok_afk=12,Last two chips double the card bonus in the bottom right and top left card slots such as Chaotic Troll or Amarok,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:20:45,00:21:17,cards,,chips,,priority,w4,chaotic_troll=50;amarok_afk=12,Last two chips double the card bonus in the bottom right and top left card slots such as Chaotic Troll or Amarok,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:20:45,00:21:17,talent_points,,right hand of action,maestro,priority,w4,,Right Hand of Action on Maestro gives huge Skill Efficiency bonus,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:21:17,00:21:49,talent_points,,right hand of action,maestro,mechanic,w4,talent_points=100;skill_efficiency=75,At 100 talent points Right Hand of Action gives 75% skill efficiency to all characters,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:21:17,00:21:49,talent_points,,right hand of action,maestro,warning,w4,maestro_choppin=43;shaman_choppin=49,Maestro must have higher skill level than the other character; his Maestro 43 vs Shaman 49 so no benefit,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:21:17,00:21:49,talent_points,,right hand of action,maestro,priority,w4,,Level up Maestro quite a bit to gain Right Hand of Action bonus,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:21:49,00:22:22,talent_points,,left hand of learning,maestro,priority,w4,,Use Left Hand of Learning if Maestro level is high enough for another big boost,yes,3
+VRPG0nnM1R8,nocturne,2022-11-10,00:21:49,00:22:22,talent_points,,left hand of learning,maestro,how_to,w4,,Useful for leveling Choppin to use the next axe on your Shaman,yes,2

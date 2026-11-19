@@ -1,0 +1,139 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,printer,sampling stats,,mechanic,any,stats=6,"Six stats matter for fishing sampling; fishing efficiency is the base stat needed to catch fish and raises Multi Fish multiplier.",yes,3
+00:00:00,00:00:30,printer,fishing speed,,mechanic,any,,Average catch time is fishing speed; it raises how often you cast and increases overall AFK gains.,yes,3
+00:00:30,00:01:01,printer,fishing speed,,mechanic,any,,Unlike world one skills there is no cap on fishing speed so more is always better.,yes,3
+00:00:30,00:01:01,printer,multi fish,,mechanic,any,cap=300%,Multi Fish chance gives more fish per cast and caps at 300%.,yes,3
+00:00:30,00:01:01,bubbles,sploof bubble,,priority,any,base=100%;max=300%,Sploof bubble is mandatory to equip; it raises Multi Fish multiplier from 100% to 300%.,yes,3
+00:01:01,00:01:32,printer|construction,sampling rate,,mechanic,any,cap=90%,Printer sampling rate caps at 90% and is seen in the construction tab; more rate means more of your AFK gains sampled.,yes,3
+00:01:01,00:01:32,printer,AFK gain rate,,priority,any,,Get AFK gain rate as high as possible; it is a flat multiplier on all other stats and raises samples.,yes,3
+00:01:32,00:02:03,printer,depth,,mechanic,any,colors=4,Depth is fishing-specific with four colors; multiply the color of the fish you target by switching lures and lines.,yes,3
+00:02:03,00:02:33,characters,helmet,,setup,any,,Best in slot helmet for fishing is the magma core headdress; funny hat may be similar so check yourself.,yes,3
+00:02:33,00:03:05,characters,chest,,setup,any,fishing_efficiency=10%,Chest: studded hide (10% fishing efficiency) or magma core chest depending on which is better for you.,yes,3
+00:02:33,00:03:05,characters,chest|legs,,comparison,any,difference=1 billion,For him the two fishing pieces beat the two dreadlo pieces by about a billion.,yes,2
+00:03:05,00:03:36,characters,pants,,setup,any,efficiency=35%;all_stats=4%,Deep sea gear is best in slot for nearly everybody since 35% efficiency outweighs 4% all stats and base strength.,yes,2
+00:03:36,00:04:07,characters,pendant,,setup,any,AFK_gain=25%,Divine scarf (25% AFK gain rate) is best in slot pendant for most; Pran's bouquet is second best.,yes,3
+00:03:36,00:04:07,characters,pendant,,setup,any,,For purple depth fish like Bloes and Kraken the skullfist pendant is slightly better than Pran's bouquet.,yes,2
+00:04:07,00:04:37,characters,rings,,setup,any,skill_efficiency=8%;sets=3,Use serrated Rex rings (8% skill efficiency); keep three sets and use strength variants for fishing efficiency.,yes,3
+00:04:37,00:05:09,characters,specials,,setup,any,AFK_gain=10%,Goal on specials tab is max AFK gain rate; use the snoozy cap for 10% AFK gain rate.,yes,3
+00:04:37,00:05:09,characters,trophy,,setup,any,AFK_gain=3%;skill_efficiency=15%,Idle Skiller trophy (15% skill efficiency) beats Blunder Hill trophy (3% AFK gain); use Blunder Hill if no Idle Skiller.,yes,3
+00:04:37,00:05:09,characters,wings,,setup,any,AFK_gain=13%,Wings: giant star flower for 13% AFK gain rate; angel wings are an alternative.,yes,3
+00:05:09,00:05:39,characters,wings,,setup,any,,Free-to-play wings option is the gilded afont wings for more skill efficiency.,yes,2
+00:05:09,00:05:39,characters|lab,keychain,,setup,any,keychains=2,Use two keychains with the most AFK gain rate and put the best in the top slot because of lab chips.,yes,3
+00:05:09,00:05:39,characters,tool,,setup,any,,Best in slot tool is the best dreadlo rod for most speed and fishing power; upgrade it for strength.,yes,3
+00:05:39,00:06:11,characters,tools,,mechanic,any,multiplier=9x;strength=65;extra_strength=600,Tool strength is multiplied about nine times the shown stat; 65 strength on the dreadlo rod gives almost 600.,yes,3
+00:05:39,00:06:11,characters,tools,,setup,any,,All tools should be strength variants; best pickaxes and a hatchet with the most upgrade stones for strength.,yes,2
+00:06:11,00:06:41,characters,food,,priority,any,,Golden grilled cheese nomwich gives percent to all stats so more of it raises strength and efficiency.,yes,3
+00:06:11,00:06:41,characters,food,,priority,any,,Golden ribs directly multiply fishing efficiency so any amount helps.,yes,3
+00:06:11,00:06:41,characters,food,,setup,any,,Fishing speed foods are slurp and herm and aqua pearl.,yes,2
+00:06:41,00:07:11,characters,food,,warning,any,,Use small amounts of speed foods and unequip when done sampling; automation arm can burn them quickly and they are hard to replace.,yes,3
+00:07:11,00:07:43,characters,food,,account_note,any,,He no longer has candy canes (another fishing speed food) because his automation arm deleted them.,yes,3
+00:07:11,00:07:43,talent_points,tab 1,,priority,any,,Tab one needed talents: brute efficiency for total efficiency fist of rage for base strength and idle skilling for AFK gain.,yes,2
+00:07:43,00:08:13,talent_points,tab 2,,priority,any,,Tab two: absolute unit and firmly grasp it give strength per talent point; firmly grasp it gives 15 strength for one point.,yes,2
+00:07:43,00:08:13,talent_points,tab 2,,how_to,any,points=1,Always have at least one point in firmly grasp it then max both.,yes,3
+00:08:13,00:08:44,talent_points,tab 2,,priority,any,,Next stress tested garb multiplies equipment strength; leftover points go to golden food from hungry for gold.,yes,2
+00:08:13,00:08:44,talent_points,tab 3,,priority,any,,Tab three: strength talents like strongest statue ocean man bonus and fist full of obal add to strength.,yes,2
+00:08:44,00:09:16,talent_points,tab 3,,priority,any,,Pick Bob and bobbers first for fishing power based on minigame high score; he has wasted points in it.,yes,2
+00:08:44,00:09:16,talent_points,tab 3,,priority,any,,Catching some z's gives AFK gain rate from fishing and is necessary.,yes,3
+00:09:16,00:09:46,talent_points,tab 3,,skip,any,,Warming undercover isn't helpful for sampling and all fish diet is just fishing EXP.,yes,3
+00:09:16,00:09:46,talent_points,tab 4,,priority,any,,Tab four: overblown testosterone gives strength and max talent levels; skill strength is most important.,yes,3
+00:09:46,00:10:17,talent_points,tab 4,,priority,any,,Symbols of beyond gives talent levels; put at least one point in every talent; Family Guy useful for family bonuses.,yes,2
+00:09:46,00:10:17,talent_points,tab 4,,skip,any,,Weapon power and total damage aren't useful.,yes,3
+00:10:17,00:10:48,talent_points,star talents,,priority,any,stats_per=10 levels;example=50,Will of the eldest gives 1 all stats per 10 levels on highest character; 50 more at level 500.,yes,3
+00:10:17,00:10:48,talent_points,star talents,,priority,any,,Tik Tok gives AFK gain rate; toilet paper poster stamp multiplies stamp skill efficiency.,yes,2
+00:10:17,00:10:48,stamps,toilet paper postage,,threshold,any,threshold=1.5x,Toilet paper poster returns get very bad per point after 1.5x so stop investing there unless extra points.,yes,3
+00:10:48,00:11:19,talent_points,star talents,,priority,any,,Tab two star talents: frothy Mack boosts boost foods; super source for base efficiency; action frenzy for skill speed.,yes,2
+00:10:48,00:11:19,talent_points,star talents,,priority,any,strength=300,Tab three stat overload gives 300 flat strength but is low priority.,yes,3
+00:11:19,00:11:50,constellations,fishing signs,,priority,any,signs=3,Three star signs wanted: fishing PC's (efficiency and Multi Fish odds) and mount eist (food effect).,yes,2
+00:11:19,00:11:50,constellations,Kos major,,priority,any,AFK_gain=4%,Kos major star sign gives 4% skill AFK gain rate.,yes,2
+00:11:50,00:12:22,statues,ocean man|feasty,,priority,w1,,Ocean man statue gives fishing power and feasty statue increases food effect.,yes,3
+00:11:50,00:12:22,stamps,combat tab,,priority,any,,Combat stamps for strength: fist stamp violent stamp and maxo slao; stat graph stamp gives small all stats.,yes,2
+00:12:22,00:12:52,stamps,fishing rod stamp,,priority,any,,Fishing rod stamp gives base efficiency; keep leveling despite the underleveled warning as it still scales slightly.,yes,3
+00:12:22,00:12:52,stamps,holding mackerel,,priority,any,,Holding mackerel stamp increases Multi Fish chance.,yes,3
+00:12:52,00:13:23,stamps,multi-tool,,priority,late,,Multi-tool stamp gives all skill efficiency; very expensive late game but boosts sampling on all characters.,yes,3
+00:12:52,00:13:23,pets,companions,,priority,any,AFK_gain=5%;skill_efficiency=5%,"Companions: sandy pot (all stats), board bean (5% AFK gain to fighting and skilling), multi (5% all skill efficiency).",yes,2
+00:13:23,00:13:53,pets,sheepy,,opinion,any,,Sheepy equips all big bubbles automatically so you don't need to equip sploof bubble; a quality of life feature.,yes,3
+00:13:23,00:13:53,pets,rift slug,,priority,any,levels=25,Rift slug gives 25 levels to all talents and is a direct upgrade worth getting.,yes,3
+00:13:53,00:14:24,pets,king doot,,mechanic,any,AFK_gain=3-4%,King doot allows goat god and snake god on all 10 characters giving about 3-4% more AFK gain rate.,yes,3
+00:13:53,00:14:24,pets,king doot,,opinion,any,max_sampling=99%,King doot isn't necessary; you can still get 99% of max sampling without it.,yes,3
+00:14:24,00:14:56,bubbles,roid regen,,priority,any,strength_per_level=5,Roid regen orange bubble gives about five strength per level with multipliers so level it up.,yes,3
+00:14:24,00:14:56,bubbles,warriors rule,warrior,mechanic,any,multiplier=2.5x,Warriors rule multiplies all orange bubbles 2.5 times as long as you're on a warrior-based class.,yes,3
+00:14:56,00:15:26,bubbles,really smart,,mechanic,any,,Really smart gives fishing EXP from mining level; not helpful for sampling but mining level affects fishing speed.,yes,2
+00:14:56,00:15:26,bubbles,sploof bubble,,threshold,any,max=300%;level=185,Sploof bubble reaches 300% at level 185 from the bubble alone.,yes,3
+00:15:26,00:15:56,bubbles,sploof bubble,,how_to,any,,You needn't level sploof that high because star sign and stamp also give Multi Fish chance; still mandatory unless sheepy.,yes,3
+00:15:26,00:15:56,bubbles,strong tools,,priority,any,,Strong tools multiplies the dreadlo rod's skilling power bonus for much more fishing efficiency.,yes,3
+00:15:56,00:16:26,bubbles,mt orange,,priority,any,,Bubble 7 (Mt orange) multiplies first third fifth and eighth bubbles giving more fishing power and strength bonus.,yes,2
+00:15:56,00:16:26,bubbles,slabby fish,,mechanic,any,slab_items=1400;fishing_power=28,Slabby fish gives fishing power per 100 slab items; with about 1400 items that is about 28.,yes,2
+00:16:26,00:16:57,bubbles,slabby strength,,mechanic,any,strength_per_100=15;items=1400;strength=200,Slabby strength gives 15 strength per 100 slab items; with 1400 items a little under 200 strength.,yes,3
+00:16:57,00:17:27,bubbles,prowess,,threshold,any,cap=2x,Prowess bubble reduces efficiency needed for next Multi Fish tier; all prowess sources cap at 2x total.,yes,3
+00:16:57,00:17:27,bubbles|post_office|dinner,prowess,,skip,any,cap=2x,Once prowess hits 2x from bubble post office box and leek you needn't level those for that bonus.,yes,2
+00:17:27,00:17:57,bubbles,stamp max level,,mechanic,any,,Another yellow bubble raises the max level of toilet paper postage stamp; still gain but not a priority.,yes,2
+00:17:27,00:17:57,bubbles,samplit,,opinion,any,,Samplit bubble increases printer sample size; can be worth it but expensive to level.,yes,3
+00:17:57,00:18:28,bubbles,big p,,priority,any,bonus=30%,Big P bubble should be equipped on all 10 characters; it gives 30% more goat god bonus.,yes,3
+00:18:28,00:18:59,vials,atran logger,,priority,any,,Atran logger vial gives fishing efficiency; level it as high as you can.,yes,2
+00:18:28,00:18:59,vials|rift,vial mastery,,mechanic,any,,With rift bonuses every vial is worth something; more maxed vials gives more fishing efficiency.,yes,3
+00:18:28,00:18:59,vials,snow slurry,,priority,any,,Snow slurry gives printer sample size to help reach the 90% cap.,yes,3
+00:18:28,00:18:59,vials,pearl seltzer,,priority,any,all_stats=3.5%;level=2,Pearl seltzer gives 3.5% all stats at level 2; easy to get to 2 but expensive higher.,yes,3
+00:18:59,00:19:30,gem_shop,pay to win tab,,priority,any,golden_food=25%,Emoji veggie gives 25% to all golden food effects and is worth maxing.,yes,3
+00:18:59,00:19:30,gem_shop,pay to win tab,,priority,any,strength=20;AFK_gain=3%,Big muscle gives 20 strength; dream catcher gives 3% skill AFK gain at golden level.,yes,2
+00:19:30,00:20:00,buildings,post office,,priority,any,,Fish box gives efficiency prowess and fishing AFK gain; then food box for boost food effect.,yes,2
+00:19:30,00:20:00,buildings,post office,,priority,any,,Second tab: util box for printer sample rate and gaming box for strength.,yes,2
+00:20:00,00:20:30,buildings,post office,,priority,late,boxes=100000,Myriad crate gives base efficiency and all stats but needs 100000 boxes so not early game.,yes,3
+00:20:00,00:20:30,gem_shop,obols,,setup,any,,He uses fishing obols; circle gives fishing power.,yes,2
+00:20:30,00:21:02,gem_shop,obols,,setup,any,fishing_power=3,Square obols give three fishing power and platinum obols give fishing efficiency.,yes,2
+00:20:30,00:21:02,gem_shop,obols,,comparison,any,skill_efficiency=4%,Dilapidated slush obols give 4% all skill efficiency and are better if you can get them to drop.,yes,3
+00:20:30,00:21:02,gem_shop,obols,,setup,any,AFK_gain=5%,Sparkle obols from molten obol of the dead divine w5 boss give 5% all AFK gain rate.,yes,2
+00:21:02,00:21:33,gem_shop,obols,,comparison,any,fishing_efficiency=8%;AFK_gain=5%,Test sparkle vs 8% fishing efficiency obols; he thinks 5% AFK gain per obol is slightly better.,yes,2
+00:21:02,00:21:33,gem_shop,family obols,,setup,any,,Family tab: no circle obols due to slot limits; same squares hex and sparkles.,yes,2
+00:21:33,00:22:03,gem_shop,obols,,account_note,any,strength=100;fishing=6%;skill_efficiency=12%;AFK_gain=20%,His obol totals: over 100 strength 6% fishing 12% all skill efficiency and 20% AFK gain rate.,yes,3
+00:22:03,00:22:35,prayers,royal sampler,,priority,w3,,Royal sampler gives printer sample size; don't overlevel it as it cuts exp gain.,yes,3
+00:22:03,00:22:35,prayers,zerg rush|skilled dimwit,,priority,w3,AFK_gain=15%,Zerg rush gives 15% AFK gain rate and skilled dimwit raises skilling efficiency a lot.,yes,3
+00:22:03,00:22:35,prayers,balance of proficiency|ruck sack,,warning,w3,,Avoid balance of proficiency (reduces skill efficiency) and ruck sack (reduces AFK gain).,yes,3
+00:22:35,00:23:06,lab,mainframe,,priority,w4,,Lab mainframe: Sapphire nette (4.5% all stats) certified stamp book (doubles stamps) first chemistry set (doubles vials) black diamond rhinestone (24% meals).,yes,3
+00:23:06,00:23:38,lab,console chips,,priority,w4,AFK_gain=15%,Console chips: card doublers (top left bottom right) and skilling AFK gain chip for 15% more AFK gain.,yes,3
+00:23:06,00:23:38,lab,console chips,,priority,w4,,Four orange chips double star signs trophy upper keychain slot and pendant.,yes,2
+00:23:38,00:24:10,lab|characters,chips,,how_to,w4,AFK_gain=25%,Put best keychain in upper slot; chip applies to Divine scarf for 25% more AFK gain.,yes,3
+00:23:38,00:24:10,cooking,dinner menu,,priority,w4,skill_efficiency=2%,Corn gives 2% skill efficiency per dinner plate level.,yes,3
+00:23:38,00:24:10,cooking,dinner menu,,priority,w4,skill_efficiency=3%,Rice ball gives 3% skill efficiency per level.,yes,3
+00:24:10,00:24:40,cooking,dinner menu,,threshold,w4,cap=2x,Leek gives prowess that caps at 2x so not useful beyond that whether in alchemy or dinner menu.,yes,3
+00:24:10,00:24:40,cooking,dinner menu,,priority,w4,skill_efficiency=4%,Whipped cocoa gives 4% skill efficiency per dinner plate level.,yes,3
+00:24:10,00:24:40,breeding,shiny pets,,priority,w4,,Shiny pet passives: bonus to all meals from several pets; all pets must be leveled to get bonuses.,yes,2
+00:24:40,00:25:10,breeding,shiny pets,,priority,w4,,Base efficiency from all skills passive is multiplied by everything so more than 100 per pet; plus base strength.,yes,2
+00:25:10,00:25:41,rift,skill mastery,,mechanic,w4,total_level=500;skill_efficiency=5%;fishing_efficiency=10%,Skill mastery counts total levels across characters; at 500 total fishing level gives 5% skill efficiency and 10% fishing efficiency.,yes,3
+00:25:41,00:26:12,rift,skill mastery,,mechanic,w4,,Skill mastery makes fishing cards passive so you needn't equip them and can equip other cards.,yes,3
+00:25:41,00:26:12,rift,skill mastery,,mechanic,w4,level=750;skill_efficiency=75%;printer_output=15%,Each skill at level 750 gives 5% skill efficiency and 1% printer output; 75% efficiency and 15% output total.,yes,2
+00:26:12,00:26:43,rift,vial mastery,,mechanic,w4,vials=38;bonus=2%;total=76%,Vial mastery gives 2% to all vials per maxed vial; at 38 vials 76% more.,yes,3
+00:26:12,00:26:43,rift|cards,ruby cards,,priority,w4,,Ruby cards is a grind but increases fishing cards makes them passive and raises card sets to Ruby.,yes,2
+00:26:43,00:27:13,cards,ruby card sets,,mechanic,w4,bonus=8%,Ruby level card set gives another 8% from the easy resource card set.,yes,2
+00:26:43,00:27:13,rift|constellations,infinite star signs,,mechanic,w4,,Infinite star signs makes all star signs active without negatives; doubling only affects star signs actually active so pick the right ones.,yes,3
+00:27:13,00:27:44,sailing,frost relic,,priority,w5,efficiency=30%;total=90%,Frost relic gives 30% efficiency per tier; at eldri form 90% efficiency to all world 1 2 3 skills.,yes,3
+00:27:44,00:28:14,sailing,chilled yarn,,priority,w5,multiplier=6x,Chilled yarn gives a six times bonus to sigils helping golden foods and skill AFK gain.,yes,3
+00:27:44,00:28:14,sailing,fury relic,,priority,w5,,Fury relic gives more talent book levels which indirectly raises stats and fishing efficiency.,yes,2
+00:28:14,00:28:46,sailing,socrates,,priority,w5,stats=10%;total=30%,Socrates gives 10% stats per tier so 30% more all stats and strength.,yes,3
+00:28:14,00:28:46,sailing|printer,gold relic,,mechanic,w5,bonus=2-3%,Gold relic gives printer output bonus of 2-3% per day you don't sample.,yes,2
+00:28:46,00:29:17,printer,gold relic,,mechanic,w5,multiplier=3-4x,You potentially gain three to four times more samples from printer from the gold relic bonus.,yes,2
+00:28:46,00:29:17,divinity,snake god,,how_to,w5,AFK_gain=30%;characters=1-2,On the sampling character have snake god active for 30% more AFK gain; choose one to two characters.,yes,3
+00:29:17,00:29:47,divinity,goat god,,how_to,w5,minor_link=3.6%,Link other 8-9 characters to goat god; minor link gives about 3-4% AFK gain depending on divinity level.,yes,3
+00:29:17,00:29:47,bubbles|divinity,big p,,mechanic,w5,bonus=30%,Big P bubble adds 30% bonus to goat god link giving more AFK gain.,yes,3
+00:29:47,00:30:19,divinity,goat god setup,,setup,w5,snake=1;goat=9;AFK_gain=60%,"One character on snake god and nine on goat god gives about 60-something percent AFK gain rate (30% plus 9 times 3.6).",yes,2
+00:29:47,00:30:19,divinity,goat god setup,,comparison,w5,snake=2;goat=8,"If doing logs and ores, two characters on snake and eight on goat loses about 3% but gains a character sampling that week.",yes,2
+00:30:19,00:30:49,divinity|pets,king doot,,how_to,w5,,He samples logs one week and ores next; King doot lets you sample all characters at once with no penalty.,yes,3
+00:30:19,00:30:49,divinity,harib har,,priority,w5,multiplier=3x,Harib har gives three times more printing from 3D printer and applies to lab bonus too.,yes,3
+00:30:49,00:31:19,printer|lab,harib har,,how_to,w5,lab=2x;total=6x,Equip harib har and put character in lab for lab 2x giving six times more printing; helps atom collider.,yes,3
+00:31:19,00:31:49,cards,passive loadout,,setup,any,skill_efficiency=60%;boost=24%;strength=60,"With skill mastery passive cards: chaotic troll (60% skill efficiency) boost food 24% blighted chees or trimmer worm bunny amrock for AFK gain octodor 60 strength.",yes,2
+00:31:19,00:32:20,cards,non-passive loadout,,setup,any,,Without rift unlocked use chaotic troll kraken sand shark bloes hermit cans bunny amrock and skelefish.,yes,2
+00:31:49,00:32:20,cards,card doublers,,how_to,any,,Put key cards in top right top left and bottom right slots so card doublers give most benefit.,yes,3
+00:31:49,00:32:51,cards,card sets,,priority,any,,Use easy resources card set; at low efficiency try yum desert food effect or hard resources for AFK gain.,yes,2
+00:32:20,00:32:51,cards,card sets,,threshold,late,,Once efficiency is high enough easy resources blows everything else away.,yes,3
+00:32:51,00:33:21,printer,goldfish,,how_to,any,green_depth=60%,Goldfish: use crashbox lure and itsaboy line for 60% green depth on the right fishing spot (wrong spot drops to 46%).,yes,3
+00:33:21,00:33:52,printer,sampling,,mechanic,any,,Sampling always keeps your best sample so don't worry about overriding.,yes,3
+00:33:21,00:33:52,printer,hermit cans,,how_to,any,yellow=42%,Hermit cans: use wormy lure for best yellow chance (42%) and fish until sample.,yes,3
+00:33:52,00:34:23,printer,jellyfish,,how_to,any,,Jellyfish: next zone with feather lure and platinum line (silver twine alternative) for red depth and speed.,yes,2
+00:34:23,00:34:58,printer,jellyfish,,how_to,any,,Use far right fishing spot for jellyfish.,yes,3
+00:34:58,00:35:31,printer,bloes,,how_to,any,,Last setup: platinum twine with elephant lure (valve circles alternative); gold twine is for purple depth but platinum better.,yes,2
+00:35:31,00:36:01,printer,bloes,,how_to,any,,Use far left fishing spot for bloes and switch to fish head pendant.,yes,2
+00:35:31,00:36:01,printer,bloes,,comparison,any,depth_without=99.8;depth_with=11%,Test shows fish head pendant boosts depth chance far more than the extra AFK gain from Pran's pendant.,yes,1
+00:36:01,00:36:32,printer,bloes,,warning,any,,Not sure the fish head pendant still wins versus Divine scarf; resample both to check.,yes,3
+00:36:32,00:37:03,printer,kraken,,how_to,any,,Krakens: same setup with left fishing zone; then go backwards with feather for manta rays.,yes,2
+00:37:03,00:37:33,printer,manta ray|sand shark,,how_to,any,,Manta rays use right spot with feather; sand sharks use middle zone with wormy and itsaboy line.,yes,2
+00:37:33,00:38:03,printer,skelefish,,how_to,any,,Skelefish: switch back to crashbox lure in the middle zone.,yes,2
+00:37:33,00:38:03,printer,goldfish,,account_note,any,goldfish=16M to 22M,Goldfish went from 16 million to 22 million; decent gain but worse than chopping and mining gains.,yes,3

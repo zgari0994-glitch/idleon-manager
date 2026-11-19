@@ -1,0 +1,25 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,random_events,roundup event,,mechanic,any,frequency_hours=1,Random events Roundup event shows up every hour and pops up exactly like happy hour,yes,3
+00:00:00,00:00:30,random_events,roundup event,,mechanic,any,chance=1 in 4;event_types=4,There is a one in four chance to get one of the four total random events,yes,2
+00:00:30,00:00:30,random_events,roundup event,,mechanic,any,limit_per_day=1,You can only do the random event once a day; he thinks it is based on daily reset,yes,2
+00:00:30,00:00:30,random_events|drop_rate,party,,mechanic,any,,Doing it with a party increases the drop rate of the items; your character drop rate has nothing to do with it,yes,2
+00:00:30,00:00:30,random_events,party,,target,any,group_size=10,Ideally you want a group of ten for random events though getting ten is hard even in happy hour,yes,2
+00:00:30,00:01:00,random_events|guild,community,,opinion,any,,He suspects random events are a test for something bigger so suggests joining a community guild or Discord to find groups,yes,2
+00:01:00,00:01:00,random_events,rewards,,mechanic,any,rewards=7,Random events have seven brand new rewards including a hat a chat ring a couple of ovals and small items like black pearl or dice,yes,3
+00:01:00,00:01:00,random_events,rewards,,opinion,any,,The rewards are pretty good and the ovals might be best in slot,yes,2
+00:01:00,00:01:32,quests|general,map,,meta_change,any,,The Boar Bean and the frogs map have been neutered to be easier to traverse but kill count and AFK games are unchanged,yes,2
+00:01:32,00:01:32,quests|drop_rate,ghost drop,,meta_change,any,monster_kills=100000,Ghost drop rate increased so players stuck on the Epon quest no longer need to kill 100K moonmen to get one ghost,yes,2
+00:01:32,00:01:32,crafting|quests,ghost crafting,,meta_change,any,ghost_cost_old=1;ghost_cost_new=5,Crafting costs for ghost increased; for instance Dewdrop Jedi? usually cost one ghost now costs five,yes,1
+00:01:32,00:02:03,slab,unattainable items,,meta_change,any,,Unattainable items removed from slab and previous dungeon weapons added retroactively; higher rank players who cannot get them will see them showing in the slab,yes,2
+00:01:32,00:02:03,slab,slab count,,account_note,any,slab_items=1300,He is almost back at 1300 slab,yes,2
+00:02:03,00:02:03,atom_collider,crash fix,,meta_change,any,,Atom collider was crashing some players games and that has officially been fixed,yes,2
+00:02:03,00:02:33,atom_collider|bubbles|greenstacks,threshold,,meta_change,any,threshold_old=1000000000;threshold_new=1050000000,Atom collider threshold changed from 1 billion to 1.05 billion for bubbles costing 1 billion per upgrade; you keep your green stacks,yes,2
+00:02:03,00:02:33,vials,vial tab,,meta_change,any,,New vial tab shows your next possible vial instead of guessing what your new vial is,yes,3
+00:02:33,00:02:33,printer,3d printer,,meta_change,any,hair_god_mult=3;lab_node_mult=2,3D printer with hair god times 3 and lab node times 2 now equal out and show a new color,yes,2
+00:02:33,00:02:33,sailing|damage,ancient stake,,meta_change,w5,,Ancient stake values were fixed for players far enough in World 5 sailing so you should see an increase in DPS,yes,2
+00:02:33,00:03:03,divinity,zen style,,meta_change,w5,divinity_level=60;bonus_mult=8;divinity_points=8,Divinity Zen style the level 60 style giving 8x B and 8 divinity points has been fixed,yes,2
+00:03:03,00:03:03,sailing,menu,,meta_change,w5,,Sailing was fixed so escaping the menu no longer stops sailing tracking progress to prevent capping on a chest,yes,2
+00:03:03,00:03:03,sailing,menu exploit,,warning,w5,,Opening the menu can still produce the same effect and still needs fixing soon,yes,2
+00:03:03,00:03:34,general,update,,opinion,any,,He thinks the update is pretty good but a little underwhelming given the hype around random events,yes,3
+00:03:03,00:03:34,class_choice,new classes,siege_breaker|elemental_sorcerer|divine_knight,meta_change,any,,Lava plans to release the new classes next with new talents: Siege Breaker Elemental Sorcerer and Divine Knight,yes,3
+00:03:34,00:03:34,anvil,reset wet stone,,meta_change,any,,New item beautiful Anvil reset wet stone lets players who put points in XP or capacity for Anvil production move them into speed,yes,2

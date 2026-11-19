@@ -1,0 +1,101 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,general,account review,,meta_change,unknown,,Headlines for this account are drop rate and masterclasses and spelunking; he starts with characters and the two former DKs now Royal Guardian.,yes,3
+00:00:00,00:00:30,drop_rate,,royal_guardian,account_note,late,drop_rate=33000,Royal Guardian's drop rate is 33000 which is not bad and in a good place.,yes,3
+00:00:30,00:00:30,drop_rate,golden food,,account_note,late,,Golden food is already in a good place so reviewee is doing needed things.,yes,3
+00:00:30,00:01:00,drop_rate|cooking,food,,warning,late,,Potions in food slots are useless at this progression; look to max out G cakes instead.,yes,3
+00:01:00,00:01:00,toss potions,,,,,,,,
+00:01:00,00:01:00,drop_rate|characters,carry cap,,warning,late,char_level=1600,Carry cap is quite low and easy hacks can fix it.,yes,3
+00:01:00,00:01:30,lab|drop_rate,chips,royal_guardian,setup,late,,Kit out primary Royal Guardian with all the orange chips and black chips in the lab.,yes,3
+00:01:30,00:02:00,cards|drop_rate,doubling,,account_note,late,,Cards are in good shape and the reviewee is doubling cards correctly but is missing the ancient fish card.,yes,2
+00:02:00,00:02:31,cards|drop_rate,coral cave guardian,,how_to,late,,Doubling Coral Guardian card is good because you want to double a drop rate multiplier source; world 7 and doubling demon genie provide doubling.,yes,2
+00:02:00,00:02:31,cards|drop_rate,manta ray coral guardian,,how_to,late,time_s=0.5,Swap Manta Ray and Coral Guardian cards so the doubled slot (top left and bottom right) holds the one giving more drop rate.,yes,3
+00:02:31,00:02:31,cards|drop_rate,ancient fish,,priority,late,,Even at base the ancient fish card's drop rate multi beats any additive card; swap out lowest additive drop rate card for it.,yes,3
+00:02:31,00:02:31,gem_shop|drop_rate,pay to win,,account_note,late,,Reviewee has the pay to win stuff.,yes,2
+00:02:31,00:03:01,prayers|drop_rate,rock sack,,how_to,late,,Carry cap hack: equip a prayer like rotogen then swap to rock sack so G cakes stack stays; do prayer swap with G cakes equipped.,yes,2
+00:03:01,00:03:31,lab|characters,chip star signs,,how_to,late,,Use the world 4 lab chip that doubles star signs; Mr. No Sleep star sign gives extra carry cap and it gets doubled.,yes,2
+00:03:01,00:03:31,constellations|characters,arcane cultist,arcane_cultist,how_to,late,,Arcane Cultist allows increasing star signs further which adds more carry cap.,yes,2
+00:03:31,00:03:31,guild|characters,carry cap,,setup,late,,Be in a guild that has a maxed out carry cap bonus because it is a true multiplier.,yes,3
+00:03:31,00:04:02,gem_shop|drop_rate,RAM,,how_to,late,,Pay to win RAM or new RAM plus gives extra drop rate; you may get one traded.,yes,2
+00:03:31,00:04:35,cooking|drop_rate,G cakes,,how_to,late,,Order of hack: prayers, world 4 chip, guild, then take G cakes from chest and equip them; update the stack.,yes,2
+00:04:02,00:04:35,prayers|cooking,G cakes stack,,mechanic,late,,Toggling the prayer back on and removing the food from equip keeps the stack without breaking it so you can throw it back in.,yes,2
+00:04:35,00:05:07,cooking|drop_rate,G cakes,,how_to,late,,You need more G cakes to make this viable; get pearlers at Clammy and ghosts on the moons then craft at world six anvil.,yes,2
+00:05:07,00:05:07,anvil|cooking,craft inventory,,how_to,late,time_s=20,Craft G cakes from inventory not from storage because it scales infinitely and finishes in about 20 seconds.,yes,3
+00:05:07,00:05:37,cooking|drop_rate,G cakes,,priority,late,,Work on G cakes; they are always the biggest thing you can do for drop rate.,yes,3
+00:05:37,00:05:37,summoning,endless,,account_note,late,endless=305,Reviewee is at 305 endless in summoning which is really good.,yes,3
+00:05:37,00:06:10,summoning,essence setup,,setup,late,,Use one setup that doubles essence gain (yellow blue purple summoning) and cost reductions and cost laundering and sell setups.,yes,2
+00:06:10,00:06:40,summoning,damage setup,,setup,late,serrated_spikes=100,Have a second setup investing only in damage like serrated spikes to 100 then leftover into HP.,yes,2
+00:06:40,00:07:11,summoning,endless target,,target,late,current_endless=310;target=350;stretch=360,With optimization reviewee can reach 350 endless and maybe push toward the 360 range.,yes,2
+00:07:11,00:07:43,summoning|cooking|drop_rate,winner bonus chain,,mechanic,late,,Summoning winner bonuses convert to meal bonuses then cooking then yummy peach ring god food bonus then G cakes then drop rate.,yes,3
+00:07:11,00:07:43,cooking,yummy peach ring,,priority,late,ribbon_rank=20;target_level=25,Rank 20 ribbon is good; stop splitting into giga and divorce cake and fully invest in yummy peach ring to 25.,yes,3
+00:07:43,00:07:43,cooking,yummy peach ring mastery,,target,late,mastery_nodes=5;target_level=15,Push yummy peach ring up to 15 on mastery since reviewee splits across five mastery nodes.,yes,2
+00:07:43,00:07:43,drop_rate,,,target,late,drop_rate_gain=2000,These changes should give a couple thousand drop rate or more.,yes,3
+00:07:43,00:08:14,masterclass,review note,,meta_change,unknown,,Havoc's note was Grey to bubble; he does not know what it means.,yes,2
+00:08:14,00:08:44,grimoire,bones,death_bringer,priority,late,,This merit week make sure bones are up and dropping all resources.,yes,2
+00:08:14,00:08:44,grimoire|drop_rate,drop rate,death_bringer,account_note,late,drop_rate=500,Getting a little extra drop rate on grimoire past 500 is a pain but pretty good.,yes,2
+00:08:44,00:09:17,grimoire|talent_points|royal_guardian,extra talent points,royal_guardian,priority,late,,Extra talent points from the grimoire translate into Royal Guardian so max or push this out.,yes,3
+00:08:44,00:09:17,grimoire,crop scientist,death_bringer,target,late,,Crop scientist will be the end goal of the DB grimoire for this progression.,yes,2
+00:09:17,00:09:48,grimoire,bones,death_bringer,target,late,bones=4000;target_level=150,Reviewee has 4000 bones in inventory; push to 150 easily then see where to go.,yes,2
+00:09:17,00:09:48,grimoire|farming|drop_rate,crop scientist,,mechanic,late,,Crop scientist matters for drop rate and scales exponentially with further metal crops; grimoire is one of the few sources to buff it.,yes,2
+00:09:48,00:10:18,grimoire|tome,great book,,target,late,,Max out the great book bonus from tome; easily in range and a big source of bones and masterclass resources.,yes,2
+00:10:18,00:10:48,grimoire|farming,crop evil,,priority,late,,Put a little bit into crop evil but it does not hurt since medals are such a pain; grimoire is in a good place.,yes,2
+00:10:48,00:11:19,stamps,exalted stamps,wind_walker,priority,late,exalted_stamps=11;target=15;stretch=16,End goal for wind walker is exalted stamps; push from 11 to at least 15 and maybe 16 this week.,yes,3
+00:10:48,00:11:19,atom_collider,atom,wind_walker,account_note,late,,Reviewee already has an atom; monuments also solid to think about.,yes,2
+00:11:19,00:11:51,sneaking,moon of sneak,wind_walker,target,late,moon_of_sneak=500,Moon of Sneak can probably get to about 500 or a bit higher.,yes,2
+00:11:19,00:11:51,sneaking,nova dust farming,wind_walker,active_task,late,,Go to world one gush on wind walker and farm nova dust actively on auto; do it now.,yes,2
+00:11:19,00:11:51,sneaking,nova dust farming,wind_walker,warning,late,,Nova farming hurts RNG; finish an RNG break point first and then switch to wind walker.,yes,2
+00:11:51,00:12:21,sneaking,nova dust farming,wind_walker,mechanic,late,efficiency_multiplier=10,Nova dust farming is 5 to 11x more efficient now but not worth it on a normal weekly grind unless insane.,yes,2
+00:11:51,00:12:21,sneaking,nova dust upgrades,wind_walker,mechanic,late,afk_gain_bonus=10,Nova upgrades give true multipliers including about 10 percent extra AFK gain and extra villager exp.,yes,2
+00:12:21,00:12:52,sneaking,mastery of destruction,wind_walker,mechanic,late,damage_multiplier=100,Mastery of destruction is crazy and roughly 100xed his damage; extra damage upgrade also good; rest are okay.,yes,3
+00:12:52,00:13:23,sneaking,exalted stamps nova,wind_walker,priority,late,,Focus on exalted stamps and nova farming; he is getting into trillions and reviewee can reach the low end.,yes,2
+00:13:23,00:13:23,tesseract,orion hoarding,,account_note,late,,Reviewee is up to Orion hoarding in tesseract and will max it naturally by the end of the week.,yes,2
+00:13:23,00:13:54,tesseract|drop_rate,massavon,,priority,late,,Massavon is really strong drop rate; crossfire and emperor gamut are whatever.,yes,2
+00:13:23,00:13:54,tesseract,prisma,,target,late,prisma=10;stretch=11,Prisma is a big deal; get to 10 or 11 by end of the week.,yes,2
+00:13:54,00:14:26,tesseract|constellations,astrology,,priority,late,,Get astrology up as it feeds into the carry cap tech.,yes,2
+00:13:54,00:14:26,tesseract,fractal tests,,target,late,fractal_tests=40,Fractal tests can probably get to about 40.,yes,2
+00:13:54,00:14:26,tesseract|equinox,equinox bar,,opinion,late,,Equinox bar is a nice upgrade.,yes,2
+00:13:54,00:14:26,tesseract,attackons,,priority,late,,Make sure to get attackons up.,yes,2
+00:13:54,00:14:26,tesseract|summoning,endless reduction,,account_note,late,,Tesseract has an endless reduction upgrade that helps summoning.,yes,2
+00:14:26,00:14:56,tesseract,inviting plus one,,target,late,threshold=200;target=205;chance=extra_mob,Inviting plus one works like other percent links; get above 200 (205 or 210) to chance spawn an extra mob and speed everything.,yes,2
+00:14:56,00:15:28,tesseract,one drops,,target,late,one_drops=1200,One drops is one of the most important upgrades; try to get to about 1200.,yes,2
+00:14:56,00:15:28,tesseract|damage,high power critical damage,,priority,late,,Extra damage from high power is big for progression as is critical damage which is overlooked; push both.,yes,2
+00:15:28,00:15:59,masterclass,overall,,account_note,late,,All masterclasses are in good shape; make sure not to neglect endless reductions; lots of damage possible this masterclass week.,yes,2
+00:15:59,00:16:29,spelunking,upgrades,,account_note,late,extra_upgrade_points=33,Reviewee has 33 extra and spends daily; optimizer is good but does not prioritize big upgrades enough.,yes,2
+00:15:59,00:16:29,spelunking,over stem meter,,priority,late,,Over stem meter is really important; free roofs also important.,yes,2
+00:15:59,00:16:29,spelunking,rope subsidy,,priority,late,,Rope subsidy is really important and reviewee's is very low; push it ASAP to same league as over stem meter.,yes,3
+00:16:29,00:16:59,spelunking,jobs all done,,priority,late,,Get jobs all done in the same ballpark as rope subsidy and over stem meter; those are the big three.,yes,3
+00:16:29,00:16:59,spelunking,grand discoveries manic mode,,account_note,late,,Grand discoveries going which is great; manic mode pushed a little; tracker meter not fully maximized.,yes,2
+00:16:59,00:17:30,spelunking,manic deep run,,setup,late,,For deep manic runs use memorization on yellow blue purple (blue blue purple if only two) and rest as shadow pots.,yes,2
+00:17:30,00:18:00,spelunking,manic deep run,,how_to,late,,Then do a normal run and get as deep as possible.,yes,2
+00:17:30,00:18:00,spelunking|tasks,stamina used,,setup,late,,Stamina task setup: red red red blue gray; also feeds tracker meter.,yes,3
+00:18:00,00:18:32,spelunking,pebble cove,,how_to,late,floor=7;stamina_cost=10000,Send leftover character into Pebble Cove with red red red blue gray setup to floor seven for boss elixir; pop elixirs and swing.,yes,3
+00:18:00,00:18:32,spelunking,blue elixir,,mechanic,late,chance=50,Swinging has 50 percent chance to give stamina back which counts toward tracker meter and task even if it overflows.,yes,2
+00:18:32,00:19:03,spelunking,scoutpost,,how_to,late,characters=10,Alternative: send 10 characters into scoutpost and go deep stacking elixirs on multiples of the waffy floors.,yes,2
+00:18:32,00:19:03,spelunking,gray elixir,,mechanic,late,,Gray is a direct multiplier to all stamina costs.,yes,3
+00:19:03,00:19:34,spelunking,stamina cost,,target,late,stamina_cost=100000;stamina_spent=1000000,Then pop all elixirs and swing for cost around 100000 and a million stamina spent in a single run, enough for the task.,yes,2
+00:19:34,00:20:06,spelunking,economical manic,,how_to,late,floor_min=80;floor_max=130,Economical option: send one character into each cavern to run quintuple nova blast to floor 80 to 130 to start manic runs.,yes,2
+00:20:06,00:20:36,spelunking,shadow strikes critical impact,,priority,late,,Shadow strikes are neglected and critical impact is more important than given credit for with manacons and scaling in later caverns.,yes,2
+00:20:36,00:21:09,spelunking,boss,,target,late,damage_current=E30;damage_needed=E32,Boss not killed yet; reviewee's damage E30 and needs around E32 which requires extra power.,yes,2
+00:21:09,00:21:39,farming|spelunking,pow,,target,late,pow_current=4;target=5,Sources of POW are at four and he can push to five.,yes,2
+00:21:09,00:22:09,farming,medal reset trick,,how_to,late,time_s=7,Reset with crops on medals then quickly return to town; for about 7 seconds the 7 hour medal cap lifts giving hundreds of thousands of metal crops.,yes,2
+00:21:39,00:22:42,farming,medal reset trick,,warning,late,,Community is split on whether it is an exploit; he is in the tech camp but use with caution.,yes,3
+00:22:09,00:22:42,spelunking|farming,exotic market,,target,late,sticker=next,Medal trick should easily get reviewee to five POW and is a big deal.,yes,2
+00:22:42,00:23:15,farming|spelunking,gravel pound,,target,late,gravel_pound_current=400;target=1000,Gravel pound only at 400 and scales really well like a true multiplier; get to at least 1000.,yes,3
+00:23:15,00:23:46,farming|spelunking,gravel pound,,priority,late,weeks_until=5,Next gravel pound rotation in five weeks; invest into gravel pound then.,yes,3
+00:23:15,00:23:46,merits|spelunking,spelunking pow,,priority,late,,Spelunking POW in the merit shop is a true multiplier and fully worth grabbing.,yes,3
+00:23:46,00:24:17,spelunking,over stem gospel,,priority,late,multiplier=3,Over stem gospel 3 fill rate beats every other stamina regeneration source in the game times three.,yes,3
+00:24:17,00:24:47,spelunking,no escape chapter 4,royal_guardian,priority,late,chapter=4;talent=13,No escape chapter 4 should be doable with Royal Guardian's pit of pages talent (about talent 13) to get pages on extra chapter first.,yes,2
+00:24:17,00:25:17,spelunking,weekly plan,royal_guardian,priority,late,,Next week put second RG on no escape cavern 4 immediately and push extra chapter levels; also gives extra elixir chance and exp gain.,yes,3
+00:24:47,00:25:17,spelunking,plunder kelp primeval,,active_task,late,days=1,Then spend a day on plunder and kelp primeval just to get a hit on each line.,yes,2
+00:24:47,00:25:17,spelunking,over stem gospel,,active_task,late,days=7,Then spend a week on this as gospel for extra over stem rate.,yes,3
+00:24:47,00:25:17,spelunking,fear within decay surrounds,,active_task,late,fear_within_days=3;decay_surrounds_days=4,Then spend 3 days on fear within and 4 days on decay surrounds and re-evaluate.,yes,3
+00:25:17,00:25:47,spelunking,rotation,,priority,late,duration_months=2,Return to no escape pushing extra chapter levels alternating with this as gospel for about two months; fixes power problem.,yes,2
+00:25:47,00:26:17,statues,skill statue,royal_guardian,priority,late,,Skill statue is easy to raise now especially with emulsion from Royal Guardian and helps spelunker exp.,yes,2
+00:25:47,00:26:17,statues,world 2 stats,,warning,late,,Some statues stats are low and neglected; world 2 stuff is easy to grab.,yes,2
+00:26:47,00:27:18,hole|statues,dragon statue,,target,late,dragon_statue=500,Put all characters not doing masterclass week or page farming into the hole and push dragon statue to 500.,yes,3
+00:27:18,00:27:49,shrines,levels,,warning,late,,Reviewee's shrines are a little low.,yes,2
+00:28:20,00:28:50,cooking|general,G cheese shrines,,priority,late,speedup_percent=45000,Claiming AFK gains levels shrines 45000 percent faster and god foods are never consumed; get GG cheese on all characters.,yes,3
+00:28:50,00:29:21,general,shrines,,target,late,shrine_level=31;endgamer_range=35-38,Shrines at 31 to 32 are good but endgamers are 35 to 38; reviewee could get one or two more levels.,yes,2
+00:28:50,00:29:52,general|drop_rate,shrines benefits,,mechanic,late,,Shrines give carry cap and drop rate and giant spawn chance and respawn rate and AFK gain; crescent shrine got buffed after crystals moved to additive on cards.,yes,2
+00:29:21,00:29:52,general,shrine giant spawn,,mechanic,late,,Shrines are one of few sources of giant spawn chance and respawn rate which matters for endgame strats.,yes,2
+00:29:52,00:29:52,account_structure,overall,,account_note,late,,Solid late game account with end coins and good statues and masterclasses and savings; small optimizations push true endgame.,yes,3
+00:30:23,00:30:23,general,reviews,,meta_change,unknown,reviews=100,Reviews are free via written reviews in Discord; Mr. Havoc has done over 100 reviews; thank your reviewer.,yes,3

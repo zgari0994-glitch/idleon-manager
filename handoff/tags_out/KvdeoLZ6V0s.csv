@@ -1,0 +1,44 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,cooking,class specialization,,mechanic,any,,No class can specialize in Cooking at this time; it is the second World 4 skill.,yes,3
+00:00:00,00:00:00,cooking,stats,,mechanic,any,,Main Cooking stats are skill AFK gain rate and skill EXP and Cooking Efficiency.,yes,3
+00:00:00,00:00:33,cooking,cooking efficiency,,mechanic,any,,Cooking Efficiency does not directly affect cooking but increases the number of Kitchen Ladles received per day.,yes,3
+00:00:33,00:00:33,cooking,kitchen ladles,,mechanic,any,hours_per_ladle=1,Each Kitchen Ladle boosts the rate of kitchen gains by one hour while AFK on the cooking tables.,yes,3
+00:00:33,00:00:33,cooking,kitchen ladles,,warning,any,,Using ladles consumes the entire stack so separate the proper amount from your bank first.,yes,3
+00:00:33,00:01:07,cooking,cooking efficiency,,threshold,any,efficiency_required=13000,AFK menu shows at least 13000 efficiency is needed to gain more Ladle Multiplier and more ladles per day.,yes,3
+00:01:07,00:01:07,cooking|armor_smithy,cooking efficiency gear,,mechanic,any,,Currently the only way to raise Cooking Efficiency is two gear pieces: Cooking Clogs and Chef Ring.,yes,3
+00:01:07,00:01:07,cooking|armor_smithy,Cooking Clogs,,mechanic,any,cooking_efficiency=300,Cooking Clogs increase Cooking Efficiency by 300.,yes,3
+00:01:07,00:01:07,cooking|armor_smithy,Chef Ring,,mechanic,any,efficiency_multiplier_pct=15,Chef Ring gives a good amount of Cooking Efficiency plus a 15% multiplier to it.,yes,3
+00:01:07,00:01:39,cooking,AFK gain gear,,setup,any,,Use trinkets or key chains that give more skill AFK gain rate to increase EXP per hour.,yes,2
+00:01:39,00:01:39,cooking,overview,,mechanic,any,sections=3,Cooking has three sections: new recipes and cooking meals and kitchen upgrades.,yes,3
+00:01:39,00:01:39,cooking|recipe_unlocks,new recipe,,how_to,any,,New Recipes unlock new meals and bonuses; start by clicking New Recipe at the top.,yes,3
+00:01:39,00:02:13,cooking|recipe_unlocks,new recipe,,mechanic,any,spices=4,The middle box shows the 4 spices used to unlock a new meal and the bottom shows possible recipes for that combination.,yes,3
+00:02:13,00:02:13,cooking|recipe_unlocks,new recipe,,mechanic,any,,Filled in recipes are already unlocked and blacked out ones are new possible recipes for the current spice combination.,yes,3
+00:02:13,00:02:13,cooking|recipe_unlocks,new recipe,,mechanic,any,,The bottom shows the number of new possible recipes for the current combination.,yes,3
+00:02:13,00:02:44,cooking|breeding,spices box,,mechanic,any,,The Spices Box shows spices unlocked from Breeding's Foraging area; highlighted ones are not currently being used.,yes,3
+00:02:44,00:02:44,cooking|recipe_unlocks,spices selection,,how_to,any,,Grayed spices are in the Recipe Area; click a spice to remove it then click others in the Spices Box to add them in selection order.,yes,3
+00:02:44,00:03:17,cooking|recipe_unlocks,spice combinations,,mechanic,any,,Different spice combinations give different meals and some meals have multiple combinations with different success rates.,yes,3
+00:03:17,00:03:17,cooking|recipe_unlocks,begin recipe,,how_to,any,,After choosing spices click begin recipe at the top; a fire bar shows time needed until the recipe can be finished.,yes,3
+00:03:17,00:03:47,cooking|recipe_unlocks,cancel recipe,,mechanic,any,,You can cancel a recipe with no penalty because cooking a recipe does not consume spices.,yes,3
+00:03:47,00:03:47,cooking,kitchen upgrades,,mechanic,any,,Spices are only consumed in the Kitchen Upgrade section.,yes,3
+00:03:47,00:03:47,cooking|recipe_unlocks,new recipe chance,,mechanic,any,chance_pct=15,Finished table showed a 15% chance to unlock a new recipe if finished as is.,yes,3
+00:03:47,00:04:18,cooking|recipe_unlocks,fire level,,mechanic,any,,Completing the secondary Fire Level turns an icon blue and increases the new recipe chance by a percentage depending on spices and kitchen upgrades.,yes,2
+00:04:18,00:04:50,cooking|recipe_unlocks,finish recipe,,how_to,any,,Click finish recipe to try to get a new recipe; the unlocked meal is shown on the left or right side.,yes,3
+00:04:50,00:04:50,cooking,pizza,,mechanic,any,,Unlocking Pizza gave a new bonus; finishing other tables can yield a recipe you already own.,yes,3
+00:04:50,00:05:22,cooking,meal plates,,mechanic,any,,Main menu shows discovered meals and level by plate: white base then bronze then silver then gold at higher levels.,yes,3
+00:05:22,00:05:55,cooking,cooking meals,,mechanic,any,,Meal cooking progress is not scaled by efficiency; the only way to speed it is Kitchen Upgrades.,yes,3
+00:05:55,00:05:55,cooking,meal bonus,,mechanic,any,level=7;bonus_per_level_pct=5;total_bonus_pct=35,A level 7 meal gains roughly 5% per level for a 35% total bonus.,yes,3
+00:05:55,00:06:27,cooking,meal level up,,mechanic,any,,Outer menu shows unlocked meals and levels and bonuses plus amount owned and level-up cost.,yes,3
+00:06:27,00:06:27,cooking,meal level up,,mechanic,any,,Leveling a meal consumes that amount of the meal and increases its bonus and level.,yes,3
+00:06:27,00:07:00,cooking|library|breeding,meal bonuses,,mechanic,any,,Some meals give the same bonus as others but need much higher-level spices; multiple give Skill Efficiency or Breeding EXP or VIP Library Membership.,yes,3
+00:07:00,00:07:00,cooking,meal bonuses,,mechanic,any,,Meal bonuses continue to stack up as you progress.,yes,3
+00:07:00,00:07:00,cooking,kitchen upgrades,,mechanic,any,,Each kitchen is viewed separately for the meals cooked and the upgrades they have.,yes,3
+00:07:00,00:07:33,cooking,kitchen unlock cost,,mechanic,any,table_cost_dementia=80;next_table_void_coins=5,More kitchens can be unlocked but cost scales quickly; one table costs 80 Dementia and the next costs 5 Void Coins.,yes,2
+00:07:33,00:07:33,cooking,kitchen upgrades,,mechanic,any,,As more coins are spent you must also keep spending spices to upgrade tables.,yes,3
+00:07:33,00:08:05,cooking,kitchen stats,,mechanic,any,,Cooking Speed increases the speed of cooking base meals you have already unlocked.,yes,3
+00:07:33,00:08:05,cooking|recipe_unlocks,kitchen stats,,mechanic,any,,Recipe Fire Speed increases fire gained per hour which unlocks new recipes quicker.,yes,3
+00:08:05,00:08:05,cooking|recipe_unlocks,kitchen stats,,mechanic,any,,New Recipe Luck is a multiplier applied to your Fire Level giving chance of unlocking a new recipe on finishing.,yes,3
+00:08:05,00:08:37,cooking|breeding,kitchen upgrades,,mechanic,any,,The three stats are upgraded by spending spices from Breeding's Foraging area; Kitchen 1 uses Spices 1 and 2 and 3 respectively.,yes,3
+00:08:37,00:08:37,cooking,kitchen upgrades,,mechanic,any,,Each upgrade requires more and more spices to level the stats further.,yes,3
+00:08:37,00:09:08,cooking,kitchen upgrades,,mechanic,any,,Kitchen 2 upgrades need Spices 3 and 4 and 5 and its stats are lower because they are not leveled as far.,yes,3
+00:08:37,00:09:08,cooking,kitchen upgrades,,mechanic,any,,Kitchen 2 shares Spice 3 with Kitchen 1 upgrades so a lot of that spice is needed to upgrade all tables.,yes,2
+00:09:08,00:09:08,cooking,kitchen upgrades,,mechanic,any,,Table 4 upgrades require much higher level spices that the player has not unlocked yet.,yes,3

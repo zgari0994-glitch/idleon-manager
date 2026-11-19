@@ -1,0 +1,154 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,printer|characters,mining stats,,mechanic,any,stats=5,Mining sampling relies on five stats; mining efficiency is the base stat and more of it gives more ore per hour and higher sample rate,yes,3
+00:00:00,00:01:02,characters,mining speed,,priority,any,,Mining speed is probably the most important stat but has few sources,yes,3
+00:00:31,00:01:02,characters,mining speed,,threshold,any,mining_speed_cap=62,Mining speed caps at 62 per minute; once there ignore other sources,yes,3
+00:00:31,00:01:02,characters|cooking,mining speed,,mechanic,any,,Main mining speed sources are mining level and boost foods,yes,3
+00:00:31,00:01:02,characters,multi-ore drop chance,,mechanic,any,,Multi-ore drop chance gives more ore per pickaxe swing,yes,3
+00:01:02,00:01:32,characters,multi-ore drop chance,,threshold,any,multi_ore_cap_pct=300,Multi-ore chance caps at 300 percent,yes,3
+00:01:02,00:01:32,printer,sampling,,priority,early,,Maximizing multi-ore chance is one of the easiest ways to increase sampling early and is mandatory late for the best samples,yes,3
+00:01:02,00:01:32,printer|construction,printer sample rate,,threshold,any,printer_sample_rate_cap=90,Printer sample rate is checked in construction skill info and caps at 90,yes,2
+00:01:02,00:01:32,printer,printer sample rate,,setup,any,,Check his printer sampling guide for ways to get more printer sample rate,yes,3
+00:01:32,00:02:03,characters,AFK gain rate,,priority,any,,AFK gain rate is the best stat point for point and multiplies the benefit of all other mining stats,yes,3
+00:02:03,00:02:34,characters,gear sets,,setup,any,gear_sets=2,Use two gear sets: an efficiency set and an HP snapshot set using Hardy Diggy bubble,yes,3
+00:02:34,00:03:04,characters,efficiency gear,,setup,any,dreadlo_pieces=3,Use three pieces of magma/dreadlo gear for efficiency since strength and all stats convert to mining efficiency,yes,3
+00:02:34,00:03:04,characters,efficiency gear,,setup,early,,Without dreadlo gear use Viking cap and dirty coal miner baggy soot pants for mining efficiency,yes,2
+00:02:34,00:03:04,characters,efficiency gear,,comparison,early,mining_eff_pct=5,Testing showed efficiency dropped using the 5 percent mining efficiency pieces compared to base strength from gear,yes,2
+00:03:04,00:03:34,characters,funny hat,,comparison,early,,Funny hat with skill efficiency gave more efficiency than Viking cap; difference small once you have magma gear,yes,2
+00:03:34,00:04:06,characters,pendant,,priority,mid,afk_gain_pct=25,Divine scarf pendant is best in slot for strength multiplied by talents and 25 percent all AFK gain rate,yes,3
+00:04:06,00:04:37,characters,pendant,,setup,early,,Persephone's bouquet is second best pendant if you lack the divine scarf,yes,3
+00:04:06,00:04:37,characters,rings,,setup,any,skill_eff_pct_per_ring=8,Use serrated Rex rings giving 8 percent skill efficiency each,yes,3
+00:04:06,00:04:37,characters,rings,,setup,any,ring_sets=3,Keep three sets of serrated Rex rings with strength agility and wisdom; use strength version for mining,yes,3
+00:04:37,00:05:07,characters,specials,,setup,any,snoozy_afk_pct=10,Snoozy count gives 10 percent all AFK gain rate,yes,2
+00:04:37,00:05:07,characters,trophy,,setup,any,,Idle Skiller trophy is best in slot but king of foods trophy needed later for the HP set,yes,3
+00:04:37,00:05:07,characters,trophy,,setup,early,blunder_hills_afk_pct=3,Blunder Hills trophy gives 3 percent all skill AFK gain rate if no Idle Skiller trophy,yes,3
+00:05:07,00:05:37,characters,wings,,setup,any,giant_star_flower_afk_pct=13;angel_wings_afk_pct=11;other_flower_pct=9,Giant star flower wings best at 13 percent AFK gain; angel wings 11 and other flower 9 are alternatives,yes,3
+00:05:07,00:05:37,characters,keychains,,setup,any,keychains=2,Use two keychains with the most AFK gain rate as primary stat,yes,3
+00:05:07,00:05:37,lab|characters,keychains,,setup,any,,Put highest AFK gain keychain in top slot because of lab chip doubling,yes,3
+00:05:37,00:06:08,characters,pickaxe,,priority,any,,Get the best pickaxe since it raises mining speed power and gives lots of strength,yes,3
+00:06:08,00:06:39,characters,tools,,mechanic,any,strength_multiplier=9,Roughly nine times the shown strength applies to the character so a pickaxe with 65 strength gives almost 600,yes,2
+00:06:08,00:06:39,characters,tools,,setup,any,,All other tools should be versions with the most strength,yes,3
+00:06:39,00:07:10,cooking,food,,setup,any,boost_foods=3;mining_speed=62,Efficiency food setup: golden grilled cheese nomwiches for strength; golden peanut for mining efficiency; three boost foods to reach 62 mining speed,yes,3
+00:06:39,00:07:10,cooking,food,,setup,any,,You may not need all boost foods if mining level gives enough speed to hit cap,yes,3
+00:07:10,00:07:41,cooking,food,,warning,any,,Use only a small amount of event foods and unequip them after sampling so they are not used up since they can't be replenished until an event,yes,3
+00:07:10,00:07:41,characters,HP snapshot gear,,setup,any,,Secondary gear set maximizes HP for a snapshot,yes,3
+00:07:41,00:08:11,characters,HP snapshot gear,,setup,any,keychain_pct=4,Snapshot set uses best strength keychains (4 percent each; top slot irrelevant with lab chip) plus giant violet for percent all stats and king of food trophy,yes,2
+00:07:41,00:08:42,characters,HP snapshot gear,,setup,any,,Snapshot set uses opal rings for percent strength and all stats; dreadlo boots; royal turbine helmet to multiply golden food,yes,2
+00:08:11,00:08:42,cooking,golden food,,setup,any,,Golden jam multiplies max HP and golden grilled cheese nomwiches are used in the HP set,yes,3
+00:08:11,00:08:42,characters,HP snapshot gear,,setup,any,,Switch top four food slots to health potions for the snapshot,yes,2
+00:08:42,00:09:12,characters,HP snapshot,,target,mid,hp_million=7.5,Snapshot gear pushed HP to about 7.5 million at this point in the guide,yes,2
+00:08:42,00:09:12,talent_points,talents,,priority,any,talents=4,Four main talents on tab one: brood efficiency; fist of rage; health booster; idle skilling,yes,3
+00:09:12,00:09:42,talent_points,fist of rage,,mechanic,any,,Fist of Rage raises max strength which raises max HP and mining efficiency,yes,3
+00:09:12,00:09:42,talent_points,idle skilling,,mechanic,any,,Idle Skilling increases overall AFK gain rate,yes,3
+00:09:12,00:09:42,talent_points,big pick,,setup,any,,Big pick is an active skill that must be on the attack bar and increases ore from mining,yes,3
+00:09:42,00:10:12,talent_points,copper collector,,priority,any,,Copper collector gives mining efficiency based on ore stored in chest so cap it out as soon as possible,yes,3
+00:10:12,00:10:44,talent_points,motherlode miner,,threshold,any,multi_ore_cap_pct=300,Motherload miner adds multi-ore chance; max it until you reach the 300 percent cap,yes,3
+00:10:12,00:10:44,talent_points,tool proficiency,,priority,any,mining_level=100,Tool proficiency multiplies pickaxe power per power of 10 mining levels so level 100 gives a spike,yes,3
+00:10:44,00:11:15,talent_points,strength talents,,priority,any,firmly_grasp_base_strength=15,Stress tested garb for equipment strength; at least one point in firmly grasp for 15 base strength; absolute unit and firmly grasp are equal value,yes,2
+00:10:44,00:11:45,talent_points,strength in numbers,,priority,any,,Max strength in numbers for HP from strength; health overdrive multiplies max HP,yes,3
+00:11:15,00:11:45,talent_points,hungry for gold,,opinion,any,,Hungry for gold boosts golden food by 40 percent or more and is not super important,yes,2
+00:11:45,00:12:17,talent_points,tab three,,priority,any,,Tab three priorities: strengths and more; fist of rage; shieldiest statue for statue mining power; fistful of obols for obol strength,yes,2
+00:11:45,00:12:17,talent_points|printer,super samples,,setup,any,super_samples_pct=7,Super samples gives six to seven percent printer sampling if you lack sample rate,yes,2
+00:12:17,00:12:49,talent_points,tab four,,priority,any,,Tab four: overblown testosterone for strength and talent levels; skill strengthen for skill efficiency and strength,yes,2
+00:12:17,00:12:49,talent_points,symbols of beyond,,opinion,any,,Symbols of Beyond and family guide are helpful but optional,yes,2
+00:12:49,00:13:19,characters,family bonuses,,priority,any,,In the family tab total strength and total HP bonuses are very useful and weapon power is not,yes,2
+00:12:49,00:13:19,printer,orb of remembrance,,priority,any,,Always keep orb of remembrance equipped for more printer output based on power of 10 kills,yes,2
+00:13:19,00:13:50,talent_points,star talents,,priority,any,,Star talents: Will the eldest for stats; Tick Tock for AFK gain; toilet paper postage stamp for stamp efficiency,yes,2
+00:13:19,00:13:50,talent_points|stamps,toilet paper postage stamp,,warning,any,bonus=1.5,Toilet paper postage stamp scales badly after bonus 1.5 so extra points are less helpful,yes,2
+00:13:50,00:14:20,talent_points,star talents tab 2,,priority,any,,Tab two: frothy malk for food and potion bonuses; super source for base efficiency; action frenzy for skilling speed,yes,2
+00:13:50,00:14:20,talent_points|printer,printer sampling talent,,mechanic,any,printer_sample_pct=18;points=100,Printer sampling talent adds up to 18 with 100 points,yes,2
+00:14:20,00:14:53,talent_points,star talents tab 3,,priority,any,stat_overload_strength=300,Uber charged health gives base HP; stat overload gives 300 unmultiplied base strength and is low priority,yes,2
+00:14:20,00:14:53,constellations,star signs,,setup,any,mining_eff_pct=5;multi_ore_pct=20,Dwarfo beardis star sign gives 5 percent mining efficiency and 20 percent multi-ore chance,yes,2
+00:14:53,00:15:23,constellations,star signs,,setup,any,food_effect_pct=15,Mount etorist star sign gives 15 percent all food effect,yes,2
+00:14:53,00:15:23,constellations,star signs,,setup,any,skill_afk_pct=2,Big comatose gives 2 percent skill AFK gain but he gets better gains from the other two,yes,2
+00:14:53,00:15:23,constellations,star signs,,setup,any,skill_afk_pct=4,Use comatose major for 4 percent skill AFK gain as third star sign,yes,3
+00:15:23,00:15:53,statues,mining statue,,priority,any,,Mining statue gives mining power which translates directly to efficiency,yes,3
+00:15:23,00:15:53,statues|cooking,feasty statue,,priority,any,,Feasty statue multiplies potions and food bonuses giving more HP and efficiency from golden peanuts,yes,3
+00:15:53,00:16:23,statues,health statue,,opinion,any,,Health statue gives a small amount of base HP but statues add up,yes,3
+00:15:53,00:16:23,statues,golden statues,,setup,any,,Unlock golden statues so statue bonuses apply to all characters,yes,2
+00:15:53,00:16:54,stamps,combat tab,,priority,any,,Want base HP stamps (heart; vitality; black heart) and strength stamps (fist; violence; maxo slapo),yes,3
+00:15:53,00:16:54,stamps,stat graft stamp,,comparison,late,,Stat graft stamp is very expensive and hard to level but gives more base stats,yes,3
+00:16:23,00:16:54,stamps,pickaxe stamp,,mechanic,any,,Pickaxe stamp gives base mining efficiency; under-leveled notice means it scales slower but still helps,yes,3
+00:16:54,00:17:24,stamps,skills tab,,priority,any,,Twin ore stamp for multi-ore chance; cool diggy tool stamp for lots of base mining efficiency,yes,3
+00:17:24,00:17:54,stamps,multi-tool stamp,,priority,any,,Multi-tool stamp gives base all skill efficiency and is expensive to level but high value,yes,3
+00:17:24,00:17:54,pets,companions,,setup,any,sandy_pot_stats_pct=15,Companion sandy pot gives 15 percent base all stats,yes,2
+00:17:54,00:18:26,event_shop,companions,,setup,any,afk_gain_pct=5;skill_eff_pct=5,Companion board mean gives 5 percent AFK gain and multi gives 5 percent all skill efficiency,yes,2
+00:17:54,00:18:26,event_shop,companions,,setup,any,,Cheapy companion keeps all big bubbles counted as equipped,yes,2
+00:17:54,00:18:26,event_shop,companions,,setup,any,talent_levels=25,Ripped slug companion gives 25 free talent levels,yes,3
+00:18:26,00:18:56,event_shop|printer,king dute,,comparison,any,afk_gain_pct=3.5,King dude is quality of life; gives about 3.5 percent more AFK gain but you can sample at max rate without it,yes,3
+00:18:26,00:18:56,event_shop|printer,king dute,,opinion,endgame,,King dude becomes less useful in endgame since you sample less often,yes,3
+00:18:56,00:19:27,bubbles,reuten,,priority,any,strength_per_level=5,Level reuten bubble as often as possible; one strength per level becomes about five with multipliers,yes,2
+00:19:27,00:20:01,bubbles,warriors rule,divine_knight,mechanic,any,multiplier=2.5,Warriors rule gives 2.5x to orange bubbles on warrior-based class like divine knight,yes,3
+00:19:27,00:20:31,bubbles,hardy diggy,,priority,any,mining_eff_pct_at_10=45,Hardy Diggy gives mining efficiency per power of 10 max HP so max HP matters,yes,3
+00:20:31,00:21:02,bubbles,wyoming blood,,threshold,any,multi_ore_max=300;bubble_level=185,Wyoming blood raises max multi-ore chance from 100 to 300 percent; mandatory; level 184-185 to get 300 from it,yes,3
+00:20:31,00:21:02,bubbles,wyoming blood,,threshold,any,multi_ore_pct=300,Wyoming blood need not reach 185 if star signs and stamps bring stat sheet total to 300 percent,yes,3
+00:21:02,00:21:34,bubbles,really smart,,skip,any,,Really smart bubble mostly helps fishing; only helps mining sampling by leveling faster,yes,3
+00:21:02,00:21:34,bubbles,strong tools,,priority,any,,Level strong tools to multiply pickaxe skilling power; expensive early due to platinum ore,yes,3
+00:21:34,00:22:05,bubbles,malt orange,,priority,any,bubble_number=17,Malt orange multiplies first and third bubbles for strength and efficiency; worth leveling but can be expensive,yes,2
+00:22:05,00:22:35,bubbles,slabby orfish,,opinion,early,mining_power_per_100_items=2;items=1400;total_mining_power=28,Slabby orfish gives about 28 mining power from 1400 slab items unmultiplied; don't invest early,yes,2
+00:22:35,00:23:06,bubbles,slabby strengthen,,opinion,any,items=1400,Slabby strengthen gives strength from slab items; not super important but some gain,yes,2
+00:23:06,00:23:37,bubbles,prowessary,,threshold,any,prowess_cap=2,Prowessary lowers efficiency needed for next multi-ore tier; caps at 2x total with leaks data menu post office and alchemy so stop leveling at two,yes,3
+00:23:37,00:24:09,bubbles,stamp bubble,,mechanic,any,,Stamp bubble raises max level of toilet paper postage stamp,yes,3
+00:23:37,00:24:09,bubbles,sample it,,mechanic,any,,Sample it bubble increases overall sample size,yes,3
+00:23:37,00:24:09,bubbles|divinity,big p,,priority,any,,Big P bubble is mandatory and multiplies minor link bonuses of equipped divinities; equip on every character especially goat god,yes,3
+00:24:09,00:24:39,vials,void vial,,priority,any,,Void vial is mandatory for mining efficiency,yes,3
+00:24:09,00:24:39,vials|rift,vial level 13,,priority,any,vial_level=13,Every vial should be level 13 because of the rift vial mastery bonus,yes,3
+00:24:39,00:25:09,vials,snow slurry,,priority,any,,Snow slurry gives more printer sample size,yes,3
+00:24:39,00:25:09,vials,pearl seltzer,,priority,any,,Pearl seltzer gives percent all stats; expensive but worth it,yes,3
+00:25:09,00:25:41,construction,post office,,priority,any,,Mining box gives mining efficiency prowess and AFK gain; food box for boost food and food effect; health box for max HP,yes,3
+00:25:09,00:25:41,construction,post office,,priority,any,,Second tab: utility crate for printer sample size; gaming crate for strength; myriad crate for all base stats and efficiency,yes,2
+00:25:41,00:26:11,construction,post office,,warning,early,,Myriad crate needs a huge amount of post office boxes so may not be worth it early,yes,3
+00:25:41,00:26:11,owl,opals,,setup,any,,Use circle opals on the character for mining power and strength; square and hexagon opals also mining,yes,2
+00:26:11,00:26:41,owl,opals,,setup,any,afk_gain_pct=5,Dilapidated slush opals beat mining hexagon; sparkle opal either new molten (5 percent AFK gain) or mining sparkle,yes,2
+00:26:11,00:26:41,owl,opals,,setup,any,slush_pct=4;regular_pct=2,Dilapidated slush opal gives 4 percent versus 2 percent so use it if you can get enough,yes,2
+00:26:41,00:27:13,owl,opals,,opinion,any,,He personally gets better gains from AFK gain rate opals than efficiency opals,yes,3
+00:27:13,00:27:43,prayers|printer,royal sampler,,warning,any,,Royal sampler increases printer sample size but reduces all exp; don't over level since other sources exist,yes,3
+00:27:13,00:27:43,prayers,prayer choices,,setup,any,,Equip dessert rush for AFK gain and skilled dimwit for skill efficiency; avoid balance of proficiency and rucksack,yes,3
+00:27:43,00:28:13,atom_collider,helium atom,,priority,any,,Level helium atom as much as possible; it gives more copper collector tiers and a huge efficiency bonus,yes,3
+00:28:13,00:28:43,lab,jewels,,priority,any,sapphire_navette_pct=4.5,Primary lab jewels: sapphire navette for all stats and strength; certified book stamp doubles stamp bonuses; my first chemistry set doubles vial bonuses,yes,2
+00:28:13,00:29:13,lab,jewels,,priority,any,dinner_bonus_pct=24,Black diamond rhinestone gives 24 percent bonus to dinner menu items and is basically mandatory,yes,2
+00:28:43,00:29:44,lab,chips,,setup,any,afk_chip_pct=15;orange_chips=4,Console setup: double top-left and bottom-right cards; 15 percent skill AFK chip; four orange chips doubling star sign trophy keychain and pendant,yes,2
+00:29:13,00:29:44,lab,chips,,setup,any,,Best keychain must be in upper keychain slot for the chip,yes,3
+00:29:44,00:30:14,cooking,dinner menu,,priority,any,corn_pct=2;rice_ball_pct=3;whipped_cocoa_pct=4,Four dinner meals: corn 2 percent and rice ball 3 percent and whipped cocoa 4 percent skill efficiency per level; leek for prowess,yes,3
+00:29:44,00:30:14,cooking,leek,,threshold,any,prowess_cap=2,Leek prowess effect caps at 2x so may not need high level,yes,3
+00:30:14,00:30:44,pets,shiny pet passives,,priority,any,,Shiny pet passives for all meals; base efficiency for all skills; and base stats,yes,2
+00:30:14,00:30:44,pets,shiny pet passives,,mechanic,any,base_stat=10;pct_per_level=2,Base stat shiny pets give about 10 base stat at 2 percent per shiny level,yes,2
+00:30:44,00:31:45,rift,skill mastery,,mechanic,any,efficiency_pct=5;level_threshold=500,Skill mastery uses total level across all 10 characters; above 500 gives 5 percent all skill efficiency per skill,yes,3
+00:30:44,00:31:45,rift|cards,skill mastery,,mechanic,any,threshold=750;printer_output_pct=1,At 750 total skill level you get 1 percent printer output per skill and all mining cards become passive,yes,3
+00:31:14,00:32:15,rift|cards,skill mastery,,mechanic,any,,With mining mastery all mining-related cards are passive so no particular card set is needed though optimization remains,yes,3
+00:32:15,00:32:46,rift,skill mastery,,mechanic,endgame,efficiency_total_pct=75;printer_output_pct=15,All skills above 750 give 75 percent more efficiency and 15 percent more printer output,yes,3
+00:32:15,00:33:16,rift|vials,vial mastery,,mechanic,any,per_vial_pct=2;vials_at_13=38;bonus_pct=76,Vial mastery gives 2 percent multiplier to all vials per vial at level 13; 38 vials gives 76 percent,yes,3
+00:32:46,00:33:16,rift|cards,ruby cards,,priority,late,,Ruby cards unlock another card tier and more card levels; a grind but increases mining gains with passive cards,yes,3
+00:33:16,00:33:46,rift,infinite star sign,,mechanic,late,,Infinite star sign makes all star signs active; requires leveling shiny pets,yes,3
+00:33:16,00:33:46,constellations|rift,star signs,,mechanic,late,,Star sign doubling applies only to the selected star signs so still select the right ones,yes,3
+00:33:46,00:34:16,sailing|divinity,frost relic,,priority,any,efficiency_pct_per_tier=30;eldritch_pct=90,Frost relic gives 30 percent efficiency per tier (90 at eldritch) for skills in worlds 1-3,yes,3
+00:33:46,00:34:47,sailing|sigils,chilled yarn,,priority,any,multiplier=3,Chilled yarn multiplies sigil and alchemy bonuses and is tripled at eldritch for six times sigil bonus,yes,2
+00:34:16,00:34:47,sigils,sigil list,,priority,any,dream_catcher_pct=3;total_pct=18,Sigils: emoji veggie for golden foods; big muscle for strength; dream catcher 3 percent skill AFK gain (18 percent with multiplier),yes,2
+00:34:16,00:34:47,sailing,fury relic,,priority,any,,Fury relic gives more max talent book levels,yes,3
+00:34:47,00:35:17,sailing,socrates relic,,priority,any,all_stats_per_tier=10;total=30,Socrates relic gives 10 all stats per tier (30 total) giving 30 more strength,yes,3
+00:34:47,00:35:17,sailing|printer,gold relic,,mechanic,any,,Gold relic multiplies printer output for every day you don't resample for all characters; hidden from stats,yes,3
+00:34:47,00:35:47,printer,resample timing,,warning,any,,Use gold relic bonus wisely and be selective about when you sample,yes,3
+00:35:17,00:36:17,divinity|printer,divinity setup,,setup,any,snake_chars=2;goat_chars=9,Put snake god on one to two characters for 30 percent AFK gain and goat god on other eight to nine,yes,2
+00:35:17,00:36:17,divinity,goat god,,mechanic,any,goat_afk_pct=3.5,Goat god gives about 3 to 4 percent AFK gain to all characters,yes,2
+00:36:17,00:36:47,divinity|bubbles,big p,,mechanic,any,afk_pct=30,Big P on every character gives about extra 30 percent AFK gain from goat god,yes,2
+00:36:47,00:37:18,divinity|printer|lab,hareep,,mechanic,any,hareep_mult=3;lab_mult=2;total=6,Hareep multiplies 3D printer resources by 3 and multiplies with lab bonus for 6x printing,yes,3
+00:37:18,00:37:50,event_shop|printer|lab,king dute,,mechanic,any,lab_mult=2;hareep_mult=3;total=6,With Dute active all characters get lab bonus so 6x printing on all characters,yes,2
+00:37:18,00:37:50,cards,card sets,,mechanic,any,sets=3,There are three card sets depending on bonuses unlocked,yes,3
+00:37:50,00:38:20,cards,passive card set,,setup,any,skill_eff_pct=60,Best set with passive mining cards: chaotic troll (60 percent skill efficiency); choco box (boost food effect); blighted cheese or trimmer worm; stilted seeker; octadar,yes,2
+00:37:50,00:38:20,cards,passive card set,,setup,any,,Money card and amrock card for skill AFK gain in remaining slots,yes,2
+00:38:20,00:38:50,cards,card doublers,,setup,any,,Keep top-left and bottom-right cards in the same spot on all sets so card doubler works,yes,3
+00:38:20,00:39:21,cards,non-passive set,,setup,early,,Without passive mining cards use a set with efficiency and mining speed cards,yes,3
+00:38:50,00:39:51,cards,HP card set,,setup,any,,HP snapshot cards: love you light and mammoth for base HP; boost food effect; percent all stats cards; goblin for percent HP,yes,2
+00:39:51,00:40:21,printer,sampling example,,account_note,late,efficiency_trillion=3.8;ore_million=543,He has about 3.8 trillion efficiency with max speed and multi-ore and a sample of about 543 million,yes,2
+00:40:21,00:40:51,printer,snapshot,,how_to,any,,To snapshot go to world one town; equip HP trinkets rings king of foods giant violet royal turbine boots and swap foods,yes,2
+00:40:21,00:41:21,printer,snapshot,,how_to,any,,Then open cards and switch to HP card set and food-effect card set,yes,2
+00:40:51,00:41:21,divinity,istican shrine,,setup,any,,Make sure shrine is placed in the mining map or in world five town for all-maps effect so it helps HP,yes,2
+00:41:21,00:41:51,printer,snapshot,,how_to,any,hp_million=13.7,With HP set he reached 13.7 million HP then returns to mining map efficiency drops to billions until swapping back,yes,2
+00:41:21,00:42:21,printer,snapshot,,how_to,any,,Open alchemy tab first to snapshot current HP then swap cards and efficiency gear back,yes,3
+00:41:51,00:42:21,printer,snapshot,,how_to,any,,Re-equip rings keychains wings trophy helmet boots and food and restore speed and efficiency after snapshot,yes,3
+00:41:51,00:42:51,printer,snapshot,,comparison,late,efficiency_trillion=4;gain_million=450;sample_million=500,Snapshot raised efficiency over 4 trillion and sample to about 500 million,yes,2
+00:42:21,00:42:51,printer,snapshot,,comparison,late,ore_gain_million=10,Snapshot gave roughly 10 million more ore which is a good deal,yes,2
+00:42:51,00:43:22,printer,snapshot,,how_to,any,,Repeat the snapshot swap process again to switch back to HP set for the next map,yes,2
+00:43:22,00:43:52,printer,snapshot,,how_to,any,,Only need to snapshot once per map; less tedious for mining than chopping,yes,3
+00:43:22,00:43:52,printer,snapshot,,how_to,any,,Open alchemy first to snapshot then swap everything back and sample,yes,3
+00:43:52,00:44:24,printer,sampling order,,how_to,any,,Check efficiency is the same then use big pick to sample gold ore and iron; wait for big pick to be ready,yes,2
+00:44:24,00:44:55,printer,sampling result,,account_note,late,copper_ore_before_million=240;copper_ore_after_million=500,Copper ore sample rose from 240 million to over 500 million; now waiting on gold relic multiplier,yes,3

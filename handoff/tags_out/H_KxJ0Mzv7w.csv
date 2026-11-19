@@ -1,0 +1,99 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,class_choice,elemental_sorcerer role,elemental_sorcerer,priority,any,,Elemental sorcerer's main focus is material farming for alchemy and stamps and for crafting gear materials,yes,3
+00:00:31,00:00:31,drop_rate,drop rarity,elemental_sorcerer,priority,any,,Drop rarity is the primary stat to maximize on the elemental sorcerer,yes,3
+00:00:31,00:01:02,damage|drop_rate,multi-kill,elemental_sorcerer,mechanic,any,,Total damage and multi-kill go hand in hand: more damage gives more multi-kill tiers and so more material gains,yes,3
+00:01:02,00:01:02,characters,mob respawn,elemental_sorcerer,priority,endgame,,Mob respawn is a minor gain but worth getting once the character is maxed out and you want small gains,yes,3
+00:01:32,00:01:32,armor_smithy,armor,elemental_sorcerer,target,early,,Equip the best armor available; troll or magma gear at minimum raises kills per hour,yes,3
+00:01:32,00:02:02,armor_smithy,armor,elemental_sorcerer,target,late,,God Shard gear from world 6 is current best in slot with drop chance and multi-kill bonuses,yes,3
+00:02:02,00:02:02,armor_smithy,weapon,elemental_sorcerer,target,any,,Use the best weapon available; higher tiers give more damage and attack speed and so more kills per hour,yes,3
+00:02:02,00:02:32,armor_smithy,pendant,elemental_sorcerer,target,late,,Death bloom flower pendant is best in slot giving damage multi and mob respawn,yes,3
+00:02:32,00:02:32,armor_smithy,pendant,elemental_sorcerer,comparison,any,,Without it use deathly cluster pendant for mob respawn or divine scarf or earlier scarfs; AFK gain chance is useless on active build,yes,3
+00:02:32,00:03:03,armor_smithy,ring,elemental_sorcerer,target,late,all_stats=10;damage_multi=1,Demented emperor opal ring is best in slot with 10% all stats and 1% damage multiplier,yes,3
+00:03:03,00:03:03,armor_smithy|dungeons,ring,elemental_sorcerer,how_to,mid,,Plain emperor opal from dungeon flurbo shop is next best; upgrade it to demented as soon as possible,yes,3
+00:03:03,00:03:35,armor_smithy,specials,elemental_sorcerer,target,any,drop_chance=10,Siege captain cap special gives 10% drop chance; upgrading with premium stones adds more base,yes,3
+00:03:35,00:03:35,armor_smithy,trophy,elemental_sorcerer,target,late,drop_chance=42,Divine trophy is best in slot with 42% drop chance and more total damage,yes,2
+00:03:35,00:04:05,armor_smithy,trophy,elemental_sorcerer,comparison,any,drop_chance=50;luck=5,Luckier lad trophy gives 50% drop chance and 5% luck as an alternative,yes,3
+00:03:35,00:04:05,armor_smithy,trophy,elemental_sorcerer,comparison,early,drop_chance=7,Basic lucky lad trophy is third option with 7% drop chance,yes,3
+00:04:05,00:04:05,armor_smithy,cape,elemental_sorcerer,target,any,drop_chance=30,Use molten cloak for 30% drop chance; otherwise chizoar wings for more damage,yes,2
+00:04:05,00:04:36,armor_smithy,name tag,elemental_sorcerer,target,any,drop_chance=40,Ball and? name tag gives 40% drop chance and is best if you have it,yes,2
+00:04:05,00:04:36,armor_smithy,name tag,elemental_sorcerer,comparison,any,drop_chance=3;damage_multi=20,Third anniversary name tag gives 3% drop chance and mega feather name tag gives 20% damage multi,yes,3
+00:04:36,00:05:06,armor_smithy,keychain,elemental_sorcerer,target,any,drop_rate=25;mob_respawn=20,Best keychains give 25% drop rate; speaker missed them so uses 20% mob respawn keychains,yes,2
+00:04:36,00:05:06,armor_smithy,keychain,elemental_sorcerer,comparison,any,,Third option for keychains is anything that increases wisdom by a percentage,yes,2
+00:05:06,00:05:06,armor_smithy|equinox,premium ring,elemental_sorcerer,target,any,all_stats=10,Equinox ring is the only useful premium ring giving 10% all stats; minor if you lack it,yes,3
+00:05:06,00:05:37,armor_smithy,tools,elemental_sorcerer,target,any,drop_chance_per_tool=10,Use best in slot tools for damage; god shard tools give 10% drop chance each,yes,3
+00:05:37,00:05:37,armor_smithy|traps,tools,elemental_sorcerer,mechanic,late,trapping_level=120,Reaching level 120 trapping for god shard tools is difficult so you may not have all six,yes,3
+00:05:37,00:06:07,characters,food slot,elemental_sorcerer,setup,any,movement_speed_cap=350,Equip potent potion of speed to reach 350% movement speed cap; drop it if not needed for more damage,yes,3
+00:06:07,00:06:37,characters,food slot,elemental_sorcerer,setup,any,damage=633000,Use potent potion of strength; it significantly boosts damage,yes,3
+00:06:07,00:06:37,characters|gaming,golden food,elemental_sorcerer,setup,any,,Golden foods: girl cheese nuggets for base stats; kebabs for damage percent; golden cake for drop rarity,yes,2
+00:06:37,00:07:07,characters,golden food,elemental_sorcerer,warning,any,,Fill up golden bean stock before equipping golden foods since the stock gives bonuses account-wide,yes,3
+00:06:37,00:07:07,sailing,food slot,elemental_sorcerer,account_note,late,,Speaker uses sailing AFK gain time in last food slot while chasing last sovereign artifact,yes,3
+00:07:07,00:07:37,talent_points,split,elemental_sorcerer,how_to,any,,If short on talent points split them among about the first three to five talents mentioned since they work together,yes,3
+00:07:37,00:08:09,legend_talents|talent_points,symbols of beyond,elemental_sorcerer,priority,any,,Max symbols of beyond on tab four to the nearest 20 levels for plus one talent level to all talents with a point,yes,2
+00:07:37,00:08:09,talent_points,tab 1,elemental_sorcerer,priority,any,,Tab one top priorities: gilded sword; sharpened axe; overclocked energy,yes,3
+00:08:09,00:08:40,talent_points,agility,elemental_sorcerer,priority,early,accuracy_hit_chance=100,Next put points into agility to reach minimum accuracy for 100% hit chance on mobs you fight,yes,3
+00:08:09,00:08:40,talent_points,book of the wise,elemental_sorcerer,priority,any,,After agility book of the wise for wisdom giving damage and mana; then mana booster for overclocked energy mana,yes,3
+00:08:40,00:09:10,talent_points,optional talents,elemental_sorcerer,priority,any,,Optional tab one: lucky clover for luck and drop rate and active AFK; farsight gives small damage with spare points,yes,3
+00:08:40,00:09:10,talent_points,book of the wise,elemental_sorcerer,warning,any,,Two talents in tab three and four raise max level of book of the wise so fill tab one first before optionals,yes,2
+00:09:10,00:09:40,talent_points,tab 2,elemental_sorcerer,priority,any,,Tab two order: power overwhelming; knowledge is power; mana overdrive third,yes,3
+00:09:10,00:09:40,talent_points,untwisted robes,elemental_sorcerer,comparison,any,,Untwisted robes is best but with dementia or lower gear individual insight gives more wisdom; max both ASAP,yes,2
+00:09:40,00:10:10,talent_points,mini fireball,elemental_sorcerer,how_to,any,,Put points in mini fireball for passive damage but do not assign it to the action bar,yes,3
+00:09:40,00:10:10,talent_points,energy bolt,elemental_sorcerer,warning,any,,Energy bolt on the active attack bar delays kills per hour; keep it off the bar,yes,3
+00:10:10,00:10:40,talent_points,tab 3,elemental_sorcerer,priority,any,,Tab three: paperwork for base damage from stamps; mana is life for multi-kill per tier; then book of the wise,yes,3
+00:10:10,00:10:40,talent_points,active attacks,elemental_sorcerer,priority,any,,Tornado and the floor is lava are key active AOE attacks for clearing mobs; put points in them,yes,3
+00:10:40,00:11:11,talent_points,optional talents,elemental_sorcerer,priority,any,,Optional tab three: earlier education if tab two needs points; obol wisdom talent; ice shards slightly helpful,yes,2
+00:11:11,00:11:42,talent_points,dimensional wormhole,elemental_sorcerer,target,any,wormhole_points=332;wormhole_alt=331;lifespan_seconds=109,Tab four priority: dimensional wormhole at 332 points (331 works) for 109 second lifespan matching skill cooldown,yes,3
+00:11:42,00:12:12,talent_points|buildings,dimensional wormhole,elemental_sorcerer,mechanic,any,,Wormhole lifespan matches cooldown only if post office box reducing cooldown is maxed; maxing talent anyway is fine,yes,3
+00:11:42,00:12:42,talent_points,radiant chain bolt,elemental_sorcerer,priority,any,,Radiant chain bolt is next priority and kills most things; damage drops each bounce so you need enough damage,yes,3
+00:12:12,00:12:42,talent_points,chaotic force,elemental_sorcerer,priority,any,,Chaotic force next: basic attacks auto-summon tornado floor is lava or fireball giving free AOE damage,yes,3
+00:12:42,00:13:13,talent_points,utmost intellect,elemental_sorcerer,priority,any,,Utmost intellect gives wisdom percent and raises book of the wise max level; less worth it without enough tab one points,yes,3
+00:12:42,00:13:13,talent_points,lightning barrage|meteor shower,elemental_sorcerer,priority,any,,Then put points into lightning barrage and meteor shower,yes,3
+00:13:13,00:13:44,talent_points,meteor shower,elemental_sorcerer,warning,any,,Meteor shower used actively for long can desync the account; recovery needs cloud save; speaker does not recommend it but may be worth it,yes,3
+00:13:44,00:14:14,talent_points,optional talents,elemental_sorcerer,priority,any,weapon_power=75;divinity_level=145,Optional tab four: skill whiz; memorial skull; believer strength only 75 weapon power at divinity 145; family guy worthwhile with spare points,yes,2
+00:14:14,00:14:45,talent_points,wormhole emperor,elemental_sorcerer,priority,any,,Wormhole emperor last: more damage per power of ten wormhole kills so better with many wormhole kills,yes,3
+00:14:14,00:14:45,legend_talents,star talents,elemental_sorcerer,priority,any,,Star talent choices depend on game stage; start with tab one goblet of hemoglobin for healing on kill reducing food need,yes,3
+00:14:45,00:15:15,legend_talents,star talents tab 1,elemental_sorcerer,priority,any,,Next: attacks on simmer; will of the eldest and beginner best class depending on highest class level,yes,2
+00:14:45,00:15:15,legend_talents,crystallin mobs,elemental_sorcerer,warning,any,,Do not do crystal build on elemental sorcerer; crystal mobs have more health and slow kills if not one-shot,yes,3
+00:14:45,00:15:15,legend_talents,quest chungus,elemental_sorcerer,priority,any,,Quest chungus worth maxing up to points needed for more luck,yes,2
+00:15:15,00:15:45,legend_talents,star talents tab 2,elemental_sorcerer,priority,any,,Tab two is dungeon damage and mega crit; take frothy malk then everything else is optional,yes,2
+00:15:15,00:15:45,legend_talents,optional talents,elemental_sorcerer,priority,early,,Pulsation helps mana regen at lower levels; cardiovascular for card drop chance and class exp are optional,yes,2
+00:15:45,00:16:15,legend_talents,telekinetic storage,elemental_sorcerer,priority,any,carry_capacity=133,Maxing telekinetic storage for another 133% carry capacity is worthwhile since you farm many materials,yes,2
+00:16:15,00:16:47,legend_talents,star talents tab 3,elemental_sorcerer,priority,any,all_stats=56;stat_overload=300,Tab three: overactive crit; filthy damage; skip rando AFK gain; stat overload 300 wisdom; dummy thick stats 56% all stats,yes,2
+00:16:15,00:16:47,legend_talents,monolithism,elemental_sorcerer,priority,any,,Tab four monolithism gives multi-kill based on onyx statues,yes,2
+00:16:47,00:17:18,legend_talents|weekly_boss,boss battle spillover,elemental_sorcerer,warning,any,,Boss battle spillover gives no drop rate unless weekly boss kills are done; do weekly boss if investing,yes,3
+00:16:47,00:17:18,legend_talents|equinox,dreamer damage,elemental_sorcerer,priority,any,,Dreamer damage gives more damage per completed equinox cloud,yes,3
+00:17:18,00:17:48,talent_points,action bar,elemental_sorcerer,how_to,any,,Assign attacks on action bar one; order assigned is priority used: wormhole slot one then mana is life,yes,3
+00:17:18,00:17:48,talent_points,action bar,elemental_sorcerer,setup,any,,Slots three and four radiant chain bolt and lightning barrage; meteor shower fifth if used,yes,3
+00:17:48,00:18:20,talent_points,action bar,elemental_sorcerer,setup,any,,Then tornado and floor is lava; bar two ice shards then fireball optional,yes,3
+00:17:48,00:18:20,talent_points,action bar,elemental_sorcerer,warning,any,,Not recommended to have fireball or ice shards on bar; they delay kills with high damage,yes,3
+00:18:20,00:18:50,cards,card set,elemental_sorcerer,setup,any,wormhole_kills=120,With enough damage to reliably get 120 wormhole kills use a full drop rate card set,yes,3
+00:18:20,00:18:50,cards,card set,elemental_sorcerer,comparison,any,,With lower damage use a set with multi-kill and total damage and a little drop rate,yes,3
+00:18:50,00:19:22,cards|drop_rate,card set,elemental_sorcerer,setup,late,total_drop_rate=399;emperor_card=72,Full drop rate setup reaches 399% total drop rate using emperor's card at 72%; only from card packs,yes,3
+00:19:22,00:19:53,cards|drop_rate,card set,elemental_sorcerer,setup,late,king_doot=36;mr_brightside=36;mr_blueberry=18;bot_box=21;mimic=12,Other cards: mini chief spirit; king doot 36; mr brightside 36; two 18% cards; w3 box 21; mimic 12 replaces emperor,yes,2
+00:19:53,00:20:24,cards,crystal mob spawn,elemental_sorcerer,warning,any,,Crystal spawn cards (poop and demon genie) avoided; crystal mobs have more health and slow kills unless you one-shot them,yes,3
+00:20:24,00:20:56,constellations,star signs,elemental_sorcerer,setup,any,drop_rarity=12;carry_capacity=40,Speaker uses serif tab for 12% drop rarity and Kronos tab for 40% carry capacity,yes,2
+00:20:56,00:21:26,constellations,star signs,elemental_sorcerer,comparison,any,damage=60,Pure damage option totals 60% damage: 25% plus 15% overachiever plus 20% boltwork; pirate booty for drop rarity,yes,2
+00:20:56,00:21:26,constellations,star signs,elemental_sorcerer,warning,any,,Avoid star signs that give fight AFK gains since build is not AFK,yes,3
+00:21:26,00:21:57,stamps,combat stamps,elemental_sorcerer,priority,any,,Level up basically everything in combat stamp tab; focus on wisdom total damage and drop rate stamps,yes,3
+00:21:26,00:21:57,stamps,material capacity,elemental_sorcerer,priority,any,,Other stamps: matty bag for material capacity; mason jar; golden apple for golden food effect; multi-kill stamp,yes,2
+00:21:57,00:22:28,statues,statues,elemental_sorcerer,priority,any,,Level up statues for base damage movement speed boot effect health crit damage as you can,yes,2
+00:22:28,00:22:58,bubbles,orange/green bubbles,elemental_sorcerer,priority,early,,Stable genius and mage is best early for wisdom; also name I guess for damage from max mana; smart boy talent; hyperswift; wand power,yes,2
+00:22:28,00:22:58,bubbles,power of tri three,elemental_sorcerer,priority,any,wisdom=50000,Power of tri three gives total damage scaling with wisdom; huge as wisdom reaches tens of thousands,yes,2
+00:22:58,00:23:29,bubbles,quick slap,elemental_sorcerer,priority,any,movement_speed=750,Quick slap gives base damage from movement speed; strong with 750 movement speed potion,yes,3
+00:22:58,00:23:29,bubbles,shacky,elemental_sorcerer,priority,early,,Shacky bubble is big early to get accuracy without spending talent points on wisdom or agility,yes,2
+00:23:29,00:24:00,bubbles,orange bubbles,elemental_sorcerer,priority,early,,FMJ gives defense so armor need not be high early; shimmeron gives more gold food effect,yes,2
+00:24:00,00:24:30,construction,post office,elemental_sorcerer,priority,any,cooldown_reduction=10,Two main post office boxes: mana box for max mana and 10% faster cooldowns; non-predatory loot box for drop rarity,yes,3
+00:24:00,00:24:30,construction,post office,elemental_sorcerer,priority,late,,Civil war memory box and death storage unit give damage but optional until myriad crate with base stats,yes,2
+00:24:30,00:25:00,salt_lick,salt lick,elemental_sorcerer,priority,any,,Salt lick is the main world 3 thing to level for movement speed multi-kill and total damage,yes,3
+00:24:30,00:25:31,damage|killroy,multi-kill,elemental_sorcerer,how_to,any,,Get as many skull points as possible on multi-kill per tier in each world; farm each mob to raise multi-kill,yes,3
+00:25:00,00:25:31,atom_collider,neon,elemental_sorcerer,priority,any,,Atom collider neon gives more total damage,yes,3
+00:25:00,00:25:31,prayers,ruck sack,elemental_sorcerer,setup,any,,Equip ruck sack prayer for extra carry capacity since you can fill inventory within minutes,yes,3
+00:25:31,00:26:01,prayers,balance of pain,elemental_sorcerer,comparison,any,,Balance of pain adds multi-kill per damage tier but lowers defense and accuracy so be careful,yes,3
+00:25:31,00:26:01,prayers|damage,monster max hp,elemental_sorcerer,warning,any,,Anything raising max HP of all monsters is bad because wormhole mobs scale off it and kills drop drastically,yes,3
+00:26:01,00:26:31,lab,chips,elemental_sorcerer,setup,any,,Equip doubler chips on farming character: two card doublers and all four orange doubler slots plus one other chip,yes,3
+00:26:31,00:27:02,lab,chips,elemental_sorcerer,setup,any,,Card doublers: top left and bottom right slots double pendant keychain trophy; others double the three active star signs,yes,2
+00:26:31,00:27:02,lab,chips,elemental_sorcerer,comparison,any,,Last chip optional: choco chip for crystal farming; attack speed; monster respawn; or multi-kill per damage tier,yes,2
+00:27:02,00:27:32,divinity,god selection,elemental_sorcerer,priority,any,talent_levels=15,Without king duke companion pick nubas for total damage; arcus may be better for 15 extra talent levels,yes,2
+00:27:32,00:28:02,divinity,god selection,elemental_sorcerer,comparison,any,,If you need accuracy and defense the snake is okay; nothing else raises active character gains,yes,2
+00:27:32,00:28:02,farming,farming bonuses,elemental_sorcerer,priority,w6,,World 6 farming gives damage and money passive bonuses; money not a focus for elemental sorcerer,yes,3
+00:27:32,00:28:02,money|class_choice,money farm,divine_knight,comparison,any,,Recommends divine knight or bbo? to money farm instead of elemental sorcerer,yes,2
+00:28:02,00:28:34,summoning,summoning bonuses,elemental_sorcerer,priority,w6,drop_rate=192;all_stats=28;max_library_level=28,Summoning bonuses give total damage; 192% drop rate; 28% all stats; 28% max talent library level,yes,2

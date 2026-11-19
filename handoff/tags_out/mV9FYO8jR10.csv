@@ -1,0 +1,104 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,cauldrons_liquids,cranium cooking,bubonic_conjuror,mechanic,any,alchemy_progress_seconds=450000;interval_min=8-12,Cranium cooking gives huge alchemy progress (seen up to 450k seconds) every 8 to 12 minutes depending on monsters killed,yes,3
+00:00:31,00:01:02,cauldrons_liquids|bubbles,boost menu,bubonic_conjuror,mechanic,any,,Alchemy progress levels cauldron boosts, unlocks new bubbles and generates liquid to level bubbles like Grind Time for more class exp,yes,3
+00:00:31,00:01:02,equinox|cauldrons_liquids,liquid cap and rate,bubonic_conjuror,mechanic,any,,Equinox buffs level liquid cauldron cap and rate to ridiculous levels and keep scaling the longer you run the build,yes,3
+00:01:02,00:01:32,money,money per hour,bubonic_conjuror,mechanic,any,,Build generates more money per hour via green mushroom kills and lab bonus and money per kill,yes,2
+00:01:02,00:01:32,talent_points,raised dead,bubonic_conjuror,mechanic,any,kill_interval_sec=1-2,Raised dead generates mobs every second so you basically kill the entire map every 1 to 2 seconds with some tick lag,yes,3
+00:01:32,00:02:02,w7_push|greenstacks|drop_rate,world 6 pushing,bubonic_conjuror,opinion,w6,,Bubonic conjuror is one of the best and most efficient ways to push through new worlds for money and mob drops and green stacks,yes,3
+00:02:02,00:02:34,talent_points,tab 1 priority,bubonic_conjuror,priority,any,,Tab 1 priority: sharpened axe and gilded sword first then overclocked energy then book of the wise and mana booster,yes,3
+00:02:02,00:02:34,talent_points,afk gain rates,bubonic_conjuror,mechanic,any,,AFK gain rate talents matter less because this is an active build,yes,3
+00:02:34,00:03:04,talent_points,quickness boots,bubonic_conjuror,how_to,any,,Spare points from tab 1 can go into quickness boots for accuracy if needed or AFK fighting rate for an AFK variant,yes,3
+00:02:34,00:03:04,damage|bubbles,fist of rage and lucky clover,bubonic_conjuror,mechanic,any,,Alchemy bubbles like fist of rage and lucky clover and quickness boots give minor damage bonuses,yes,2
+00:03:04,00:03:36,talent_points,tab 2 priority,bubonic_conjuror,priority,any,,Tab 2 priority: power overwhelming then base wisdom and knowledge's power then untwisted robes then mana overdrive then chopping it easy,yes,2
+00:03:04,00:03:36,talent_points,untwisted robes,bubonic_conjuror,comparison,any,,Untwisted robes can be better than base wisdom depending on your gear,yes,3
+00:03:36,00:04:06,talent_points,tab 2 optional,bubonic_conjuror,mechanic,any,,Everything else on tab 2 is optional for active build; mini fireball only if you AFK this character,yes,3
+00:03:36,00:04:06,talent_points,tab 3,bubonic_conjuror,warning,any,talent_points=1000,Don't run this build without a good amount of talent points roughly 1000 for it to be truly effective,yes,3
+00:04:06,00:04:36,talent_points,cranium cooking and busy brew,bubonic_conjuror,priority,any,,Tab 3 priority is maxing Cranium cooking and busy brew for brew speed,yes,3
+00:04:06,00:04:36,talent_points,sharing some smarts,bubonic_conjuror,opinion,any,,Sharing some smarts is optional but helps level voidwalker if in the same cauldron as your active bubonic conjuror,yes,2
+00:04:36,00:05:09,talent_points,tenet cycle,bubonic_conjuror,threshold,any,min_points=200;cooldown_reduction_sec=3,Tenai cycle is mandatory with at least 200 points where it reduces cooldowns by 3 seconds instead of 2,yes,3
+00:04:36,00:05:09,talent_points,tenet cycle,bubonic_conjuror,target,any,chance_max=75;chance_low=67,Maxing tenai cycle gives 75% chance instead of 67% so it is worth maxing,yes,3
+00:05:09,00:05:40,talent_points,auspicious aura,bubonic_conjuror,priority,any,,Auspicious aura is mandatory and worth maxing; it kills many mobs quickly without poison cloud tick rate slowing kills,yes,3
+00:05:09,00:05:40,talent_points,damage talents,bubonic_conjuror,priority,any,,After auspicious aura next priorities are wiz brew then viral vials for damage,yes,2
+00:05:40,00:06:10,talent_points,tab 3 optional,bubonic_conjuror,opinion,any,,Rest of tab 3 optional; he maxes fantasia flasks for far sight and obals damage and bubble breakthrough for alchemy exp,yes,2
+00:06:10,00:06:40,talent_points,flatulent spirit,bubonic_conjuror,priority,any,,Tab 4 priority is maxing flatulent spirit which generates poison clouds on the ground,yes,3
+00:06:10,00:06:40,talent_points,chemical warfare,bubonic_conjuror,target,any,cloud_damage_pct=20;cloud_damage_base_pct=5,Max chemical warfare for 20% cloud damage instead of 5% since flatulent spirit damage is based on it; canister lasts longer,yes,3
+00:06:40,00:07:10,talent_points,mandatory trio,bubonic_conjuror,priority,any,,Raised dead flatulent spirit and chemical warfare are the three mandatory talents that work together,yes,3
+00:07:10,00:07:40,talent_points,symbols of beyond,bubonic_conjuror,target,any,target_level=240,Put symbols of beyond to the nearest 20 breakpoint such as 240 if you have points,yes,3
+00:07:10,00:07:40,talent_points,secondary damage talents,bubonic_conjuror,priority,any,,Next utmost intellect then memorial skull for kills and portal pushing then skill wiz for wisdom then wired and powered,yes,2
+00:07:10,00:07:40,talent_points,wired and powered,bubonic_conjuror,opinion,any,weapon_power=68,Wired and powered scales poorly with lab levels; 68 weapon power is low so not a priority,yes,2
+00:07:40,00:08:10,talent_points,plague stricken,bubonic_conjuror,opinion,any,,Plague stricken is worth points but doesn't help much with boxing glove since it likely doesn't proc,yes,2
+00:08:10,00:08:42,talent_points,family guy,bubonic_conjuror,opinion,any,,Family guy gives more damage if you plan to use a staff,yes,2
+00:08:10,00:08:42,talent_points,book of the wise,bubonic_conjuror,how_to,any,base_wisdom=600,Return to tab 1 and put more points into book of the wise for 600 more base wisdom helping mana and alchemy stats,yes,3
+00:08:10,00:08:42,talent_points,tenet cycle,bubonic_conjuror,priority,any,break_point=200,Most important thing is getting tenai cycle to level 200 for every 3 seconds instead of 2,yes,3
+00:08:42,00:09:12,armor_smithy,chest and legs,bubonic_conjuror,setup,any,,Use magma gear for chest and legs and drop rate from the divine set for most damage and drop rate,yes,3
+00:09:12,00:09:42,armor_smithy,helmet boots rings pendant,bubonic_conjuror,setup,any,,Drop rate helmet and boots; emperor's opal for two rings for all stats; pendant could be swapped for strung tooth of the divine,yes,2
+00:09:42,00:10:13,armor_smithy,weapon,bubonic_conjuror,setup,any,,Use the Stingers boxing glove so the character runs up to mobs and spreads auspicious aura placement on the ground,yes,3
+00:09:42,00:10:13,armor_smithy,premium ring,bubonic_conjuror,setup,any,all_stats_pct=5,New meteor ring with 5% all stats is best in slot for premium ring but is on another character,yes,3
+00:10:13,00:10:43,armor_smithy,premium helmet,bubonic_conjuror,setup,any,drop_chance_pct=10;money_gain_pct=50,Siege captain's cap premium helmet for 10% drop chance; divine option for damage and drop; Beach bro gives 50% money if farming money,yes,2
+00:10:13,00:10:43,armor_smithy,cloak,bubonic_conjuror,setup,any,drop_chance_pct=30,Use molten cloak for 30% more drop chance,yes,3
+00:10:43,00:11:14,armor_smithy,name tag and keychains,bubonic_conjuror,setup,any,all_stats_pct=4;drop_chance_pct=25,Name tag gives 4% all stats; keychains either wisdom or 25% drop chance; he uses wisdom ones for now,yes,3
+00:10:43,00:11:14,armor_smithy,tools,bubonic_conjuror,setup,any,,Use best base-stat tools upgraded with wisdom upgrade stones for more damage,yes,3
+00:11:14,00:11:45,armor_smithy,food slots,bubonic_conjuror,setup,any,,Food slots: upgrade speed to movement speed cap and damage; golden bread for money; golden grilled cheese nonwitches for percent all stats,yes,3
+00:11:45,00:12:15,stamps,alchemy stamps,bubonic_conjuror,priority,any,main_stamps=4,Four main stamps: alchemy speed alchemy exp gain liquid regeneration speed and liquid cap,yes,3
+00:11:45,00:12:15,constellations,star signs,bubonic_conjuror,setup,any,,Recommended star signs: overachiever for total damage; negative penalty doesn't hurt active build; useful with doublers,yes,3
+00:12:15,00:12:45,constellations,star signs,bubonic_conjuror,setup,any,total_damage_pct=6;total_damage_bolt_pct=20,Feisty gives 6% total damage and bolt work 20% total damage; movement speed penalty is fine at cap,yes,2
+00:12:15,00:12:45,cards,card focus,bubonic_conjuror,priority,any,,Cards: aim for drop chance and crystal mob respawn which gives statues and golden food drops and more exp per hour,yes,3
+00:12:45,00:13:16,cards,crystal spawn,bubonic_conjuror,setup,any,crystal_spawn_chance_pct=300,Use two crystal mob spawn cards in boosted slots for 300% crystal spawn chance and fill the rest with drop rate,yes,3
+00:13:16,00:13:46,cards,card set,bubonic_conjuror,setup,any,,Use basic damage and drop rate set; smoldering plateau for AFK; bosses a nightmare when active,yes,2
+00:13:16,00:13:46,bubbles,cook and roadkill,bubonic_conjuror,priority,any,,Cook and roadkill is the one major bubble boosting cranium cooking,yes,3
+00:13:46,00:14:17,bubbles,cook and roadkill,bubonic_conjuror,setup,any,,Cook and roadkill is a large bubble so must be equipped on your character unless you have the sheepy pet,yes,3
+00:13:46,00:14:17,bubbles,cook and roadkill,bubonic_conjuror,mechanic,any,,Bubble makes cranium cooking last longer gives more progress per kill lowers cooldown and gives more alchemy exp,yes,3
+00:14:17,00:14:48,bubbles,cook and roadkill,bubonic_conjuror,target,any,level=3000;bonus_pct=117;points_to_max=9000;max_pct=119,3000 levels gives about 117%; nearly 9000 points needed to reach max about 119%,yes,2
+00:14:17,00:14:48,bubbles,total wisdom,bubonic_conjuror,priority,any,,Total wisdom bubble gives more damage and multiplies small bubbles,yes,2
+00:14:48,00:15:18,bubbles,power of tri three,bubonic_conjuror,priority,any,,Put points into power of Tri three which is a big damage multiplier based on wisdom,yes,2
+00:14:48,00:15:18,bubbles,drop and loads,bubonic_conjuror,opinion,any,,Drop and loads gives a little more drop rate,yes,2
+00:14:48,00:15:18,bubbles,brew bar characters,bubonic_conjuror,setup,any,,When running cranium cooking put characters in cauldron slots to raise brew bar to upgrade boost tabs and unlock bubbles,yes,3
+00:15:18,00:15:49,bubbles,bubble unlock cap,bubonic_conjuror,mechanic,late,kills=1000000000,Around a billion kills the bubble brew chance becomes 0% so no more bubbles unlock; all through world 6 unlocked,yes,2
+00:15:49,00:16:19,vials,dieter drink,bubonic_conjuror,priority,any,,Dieter drink vial for more money,yes,3
+00:15:49,00:16:19,vials,slower drink,bubonic_conjuror,priority,any,,Slower drink vial for more multi-kill per tier,yes,2
+00:16:19,00:16:51,quests,post office mana box,bubonic_conjuror,priority,any,cooldown_reduction_pct=10,Mana box mandatory for 10% cooldown reduction on cranium cooking and attack skills,yes,3
+00:16:19,00:16:51,quests,post office alchemy box,bubonic_conjuror,priority,any,cranium_cook_time_sec=30,Alchemy box mandatory for 30 seconds more cranium cook time plus brewing speed and alchemy exp,yes,3
+00:16:51,00:17:21,quests,post office drop box,bubonic_conjuror,priority,any,,Drop box gives drop rarity and crystal mob spawn chance for more exp and loot,yes,3
+00:16:51,00:17:21,quests,post office fight box,bubonic_conjuror,opinion,any,,Fight box for base damage and boost food effect is optional,yes,2
+00:17:21,00:17:51,quests,post office tab 2,bubonic_conjuror,opinion,any,total_damage_pct=9,Tab 2 damage box 9% total damage; basic attack speed; utility box multi-kill and cash; divine wisdom; Myriad crate base stats,yes,2
+00:17:51,00:18:22,drop_rate|money,obals,bubonic_conjuror,setup,any,golden_obal_money_pct=11;grand_frogger_money_pct=12;drop_pct=1,Option: full drop rate obals or some money obals like golden plentiful riches 11% money or grand Frogger obal 12%,yes,2
+00:18:22,00:18:52,drop_rate|money,obals,bubonic_conjuror,setup,any,,Grand Frogger obal is best slot but rare so use full drop rate obals with money obals for square obals,yes,2
+00:18:22,00:18:52,drop_rate,family tab,bubonic_conjuror,setup,any,,Family tab wants as much drop rate as possible; he uses AFK gain since he has nine other characters,yes,3
+00:18:52,00:19:24,drop_rate|money,family bonus,bubonic_conjuror,mechanic,any,drop_pct=98;money_pct=67,This setup gives about 98% drop chance and 67% more money,yes,2
+00:18:52,00:19:24,prayers,jawbreaker,bubonic_conjuror,priority,any,,Main world 3 item is prayers; jawbreaker prayer increases money per hour,yes,3
+00:19:24,00:19:54,prayers,jawbreaker,bubonic_conjuror,warning,any,,Jawbreaker raises monster max HP so don't use it unless you can one-shot mobs,yes,3
+00:19:24,00:19:54,prayers,midas minded,bubonic_conjuror,comparison,any,,Midas minded for more drop rate is slightly better than jawbreaker if you must choose one,yes,2
+00:19:24,00:19:54,prayers,balance of pain,bubonic_conjuror,setup,any,,Balance of pain for multi-kill per damage tier but reduces defense so make sure mobs don't one-shot you,yes,3
+00:19:54,00:20:26,prayers,big brain time and unending energy,bubonic_conjuror,setup,any,afk_limit_hours=10,Big brain time for class exp; unending energy is fine active but limits AFK to 10 hours so turn off if away,yes,3
+00:19:54,00:20:26,prayers,ruck sack,bubonic_conjuror,setup,any,,Run ruck sack for carry capacity to avoid screen filling with drops and keep drops for upgrading vials,yes,3
+00:20:26,00:20:56,prayers,tachyon of the titans,bubonic_conjuror,setup,any,,Run tachyon of the titans because of lots of drop rate to get free time candies,yes,2
+00:20:56,00:21:27,equinox,liquid vestment,bubonic_conjuror,priority,any,pct_invested=99,Liquid vestment is huge: liquid over cap is 99% invested back into liquid cauldron levels automatically,yes,3
+00:21:27,00:21:58,equinox,liquid vestment,bubonic_conjuror,mechanic,any,cost=186000;excess=3000000,Example needing 186k to level while having 3 million in excess gives many cauldron levels across all cauldrons,yes,3
+00:21:27,00:21:58,equinox,capacity upgrade,bubonic_conjuror,how_to,any,cap_before=609;cap_after=6098,Upgrade capacity; his max cap went from 609 to 6098 with a few upgrades,yes,2
+00:21:27,00:22:29,equinox,rate upgrade,bubonic_conjuror,mechanic,any,rate_before=166;rate_after=169,Rate upgrades go 166 to 169 and keep scaling so more liquid per hour for more levels,yes,3
+00:21:58,00:22:29,equinox,faux jewels,bubonic_conjuror,priority,any,drop_rate_pct=80,Upgrade faux jewels for up to 80% more drop rate,yes,3
+00:22:29,00:23:00,vials,bob joo pickle,bubonic_conjuror,account_note,any,levels=5;drop_rate_pct=105,He's missing the Bob Joo pickle vial which would give 5 more levels for about 105% drop rate,yes,2
+00:22:29,00:23:00,lab,fungi finger pocketer,bubonic_conjuror,priority,w4,,Keep lab bonuses active especially fungi finger pocketer for money per million green mushroom kills,yes,3
+00:23:00,00:23:31,lab,fungi finger pocketer,bubonic_conjuror,account_note,w4,kills=120000000000;money_bonus=406000,With about 120 billion kills it gives him 406000 more money,yes,2
+00:23:00,00:23:31,lab,liquid chip,bubonic_conjuror,warning,any,,Do not activate the liquid bonus in lab because it slows liquid regeneration needed for equinox upgrades,yes,2
+00:23:31,00:24:03,lab,viaduct of the gods,bubonic_conjuror,warning,any,,Don't need viaduct of the gods since it slows liquid generation; move characters out of the way and keep it off,yes,2
+00:24:03,00:24:33,lab,choco chip,bubonic_conjuror,priority,any,spawn_chance_pct=75,Choco chip gives 75% chance to spawn a crystal mob when one dies adding mobs drops and cranium cooking progress,yes,3
+00:24:33,00:25:04,lab,doublers,bubonic_conjuror,setup,any,,Run all doublers (card star sign pendant) and keep choco chip on the active character,yes,3
+00:24:33,00:25:36,breeding,shiny pets,bubonic_conjuror,priority,any,,Upgrade shiny pets for infinite star signs; also multi-kill per tier total damage drop rate bonuses,yes,3
+00:25:04,00:25:36,cooking,dinner menu,bubonic_conjuror,priority,any,,Upgrade dinner menu: salad for money turkey for total damage and pumpkin and kiwi fruit at the bottom for liquid caps,yes,3
+00:25:36,00:26:09,sailing,artifacts,bubonic_conjuror,priority,w5,,Sailing artifacts for damage: Socrates the true lantern and opera mask,yes,2
+00:26:09,00:26:40,sailing,manakai cat,bubonic_conjuror,priority,w5,coins_pct_per_level=6;highest_level=595,Manakai cat artifact gives 6% more coins per level of highest class; easy to level bubonic conjuror via Grind Time,yes,2
+00:26:40,00:27:12,divinity,god choice,bubonic_conjuror,setup,any,,Without King Doot run Arcus so this character sits in lab for printer samples benefit and frees another character,yes,2
+00:26:40,00:27:12,divinity,god choice,bubonic_conjuror,setup,any,,With King Doot run Harriep? for more money or elephant god for class exp,yes,1
+00:27:12,00:27:43,divinity,god choice,bubonic_conjuror,opinion,any,,Divinity choice won't make or break the build,yes,3
+00:27:12,00:27:43,talent_points,action bar,bubonic_conjuror,setup,any,,Action bar order affects AFK gains; put raised dead in first slot so it triggers first and mobs respawn fastest,yes,3
+00:27:43,00:28:13,talent_points,action bar,bubonic_conjuror,setup,any,,Cranium cooking goes second so it activates as often as possible,yes,3
+00:28:13,00:28:43,talent_points,action bar,bubonic_conjuror,warning,any,,Remove cranium cooking from the action bar before activities like killroy so you don't waste it,yes,3
+00:28:13,00:29:14,talent_points,action bar,bubonic_conjuror,setup,any,,Auspicious aura and flatulent spirit are interchangeable depending on map size; aura first on condensed maps like trimmer worms,yes,3
+00:28:43,00:29:14,talent_points,action bar,bubonic_conjuror,setup,w1,,Put flatulent spirit first on spread-out platform maps like the frogs in world 1 so spirits roam to platforms,yes,3
+00:29:14,00:29:44,talent_points,telekinetic storage,bubonic_conjuror,setup,any,,Keep telekinetic storage last on action bar to deposit inventory and clear loot preventing lag and crashes overnight,yes,3
+00:29:44,00:30:15,talent_points,chemical warfare,bubonic_conjuror,warning,any,,Don't put chemical warfare on the action bar; it loses DPS and alchemy progress time and nothing else goes on the bar,yes,3
+00:30:15,00:30:45,cauldrons_liquids,priming the map,bubonic_conjuror,how_to,any,priming_minutes=1-2,Prime the map manually first for a minute or two so poison gas spreads; first cranium cooking may be wasted,yes,3
+00:30:45,00:31:16,damage,boxing glove,bubonic_conjuror,how_to,any,,Use boxing gloves so auspicious auras spread out rather than staff dropping them all at the map's end on the rope,yes,3
+00:31:16,00:31:46,damage,one-shot,bubonic_conjuror,warning,any,,Use a map where you can one-shot mobs so raised dead raises the most mobs each activation,yes,3
+00:31:46,00:32:16,talent_points,raised dead,bubonic_conjuror,mechanic,any,interval_sec=2-3,Raised dead actually goes off around every 2 to 3 seconds because of tick delays,yes,3

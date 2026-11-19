@@ -1,0 +1,27 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+8i3JqIfxQG0,nocturne,2022-01-08,00:00:00,00:00:00,general,,Chaotic Amarok boss,,meta_change,w1,,Chaotic Amarok is the first Chaotic Boss and is located in World 1 in the Encroaching Forest Villas.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:00:00,00:00:00,general,,Chaotic Amarok accuracy,,threshold,w1,accuracy_5pct_hit=875;accuracy_100pct_hit=2625,Chaotic Amarok needs 875 Accuracy for a 5% hit chance and 2625 Accuracy for a 100% hit chance.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:00:00,00:00:35,general,,Chaotic Amarok defense,,warning,w1,,He does significantly more damage so you need more Defense to survive.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:00:35,00:00:35,general,,Chaotic Amarok food,,how_to,w1,,He recommends bringing plenty of food.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:00:35,00:00:35,general,,Chaotic Amarok HP,,threshold,w1,hp=15000000,He has 15 million HP so a significant amount of damage output is required to kill him.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:00:35,00:00:35,general,,Chaotic Amarok keys,,mechanic,w1,keys_per_attempt=5,Chaotic Mode costs 5 Keys per attempt.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:00:35,00:01:07,general,,Chaotic Amarok fireballs,,mechanic,w1,,Fireballs are telegraphed by red dots on the ground.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:01:07,00:01:07,general,,Chaotic Amarok rocket arm punch,,how_to,w1,,Rocket Arm Punch is telegraphed so you can move out of the way to avoid damage.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:01:07,00:01:37,general,,Chaotic Amarok stomp,,mechanic,w1,,Stomp makes a line of spikes; on Chaotic spikes are summoned more frequently and cover more areas.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:01:37,00:01:37,general,,Chaotic Amarok sword swing,,mechanic,w1,,Sword Swing hits the entire platform plus the spike area.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:01:37,00:01:37,general,,Chaotic Amarok uppercut,,warning,w1,,In melee range on the top platform he enlarges his arm and uppercuts; basically a one-shot.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:01:37,00:02:10,general,,Chaotic Amarok top platform,archer|mage,how_to,w1,,Archers and Mages can fight on the top platform to avoid stomps.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:02:10,00:02:10,general,,Chaotic Amarok melee position,,how_to,w1,,Melee classes should fight on the bottom platform.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:02:10,00:02:10,general,,Chaotic Amarok totems,,mechanic,w1,hp_threshold_pct=50,At 50% HP he uses his last two abilities which are the totems.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:02:10,00:02:10,general,,Chaotic Amarok healing totem,,mechanic,w1,heal=750000,Healing Totem heals him 750000 HP every few seconds on Chaotic.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:02:10,00:02:40,general,,Chaotic Amarok shield totem,,mechanic,w1,,Shield Totem occasionally puts up a shield on either the bottom or upper half.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:02:40,00:02:40,general,,Chaotic Amarok healing totem,,how_to,w1,hp_threshold=7500000,Run up and kill the Health Totem quickly; then it does not heal him and no more totems spawn even if he goes above 7.5 million HP.,yes,2
+8i3JqIfxQG0,nocturne,2022-01-08,00:02:40,00:02:40,general,,Chaotic Amarok healing totem,,how_to,w1,,With enough damage you can ignore the Healing Totem.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:02:40,00:03:10,general,,Chaotic Amarok shield totem,,warning,w1,damage_per_swing=10,You cannot ignore the Shield Totem because it reduces all your damage to 10 per swing.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:03:10,00:03:10,general,,Chaotic Amarok totems,,mechanic,w1,,Totems do not spawn very frequently so with some damage he is fairly easy to kill.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:03:40,00:03:40,cards,,Chaotic Amarok Card,,mechanic,w1,,He has a chance of dropping the Chaotic Amarok Card.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:03:40,00:03:40,drop_rate,,Chaotic Amarok drops,,mechanic,w1,,Normal drop tables include Silver,Food,the teleport item and Statues.
+8i3JqIfxQG0,nocturne,2022-01-08,00:03:40,00:03:40,drop_rate,,Grandma's Disguise,,mechanic,w1,drop_chance=1/250,Grandma's Disguise is a Wisdom helmet with 1 in 250 drop chance on Chaotic,much higher than Normal Mode.,yes
+8i3JqIfxQG0,nocturne,2022-01-08,00:03:40,00:04:12,drop_rate,,Amarok Obol,,mechanic,w1,defense=5,He can drop the Amarok Obol,a Hex Obol giving +5 Defense,which is a decent Obol.
+8i3JqIfxQG0,nocturne,2022-01-08,00:04:12,00:04:12,slab,world-5/slab,Chaotic Amarok Slabs,,mechanic,w1,slabs_per_pendant=4;drop_chance=1/5,Chaotic Amarok Slabs are required to craft the Amarok Pendant at 4 per pendant and drop 1 in 5.,yes,3
+8i3JqIfxQG0,nocturne,2022-01-08,00:04:12,00:04:12,drop_rate,,Chaotic Amarok Slabs,,how_to,w1,drop_chance=1/5,You may have to kill him several times to craft the pendant.,yes,3

@@ -1,0 +1,66 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,talent_points,build note,squire,meta_change,any,,Presenter's character is higher level with more talent points than viewers; video is about talent priority not a full build,yes,3
+00:00:00,00:00:00,talent_points,Gilded Sword,squire,priority,early,,Gilded Sword on Tab 1 is always the first priority; gives percent damage to all monster damage,yes,3
+00:00:00,00:00:32,talent_points,Sharpened Axe,squire,priority,early,,Sharpened Axe is second priority on Tab 1 for more base weapon power,yes,3
+00:00:32,00:00:32,talent_points,Idle Brawling,squire,priority,early,points=50,Third priority is 50 points in Idle Brawling because AFK gain rate is huge,yes,3
+00:00:32,00:01:05,talent_points,Idle Brawling,squire,threshold,any,points=100;afk_gain=17%,Idle Brawling has diminishing returns; 100 points gives only 17% AFK gain so switch priority after 50 points,yes,3
+00:00:32,00:01:05,talent_points,Meat Shank,squire,priority,early,,Next priority after 50 Idle Brawling is Meat Shank which increases damage based on how much HP you have,yes,3
+00:01:05,00:01:05,talent_points,Health Booster,squire,priority,early,,Health Booster next to raise max HP and get more damage from Meat Shank,yes,3
+00:01:05,00:01:40,talent_points,Fist of Rage|Accuracy,squire,priority,early,,Choice after Health Booster is more Fist of Rage strength damage or accuracy to reach the hit cap,yes,2
+00:01:05,00:01:40,damage,accuracy,squire,warning,any,hit_chance=100%,Accuracy is one of most important stats; without enough all other stats are useless so always reach 100% hit chance on current mobs,yes,3
+00:01:40,00:01:40,talent_points,Wisdom,squire,how_to,early,,Boost Wisdom to see how much accuracy is affected; particularly important on Squire because of Tab 3,yes,2
+00:01:40,00:02:13,talent_points,Fist of Rage,squire,target,early,points=100,Put 100 points into Fist of Rage then move to Tab 2 but return after finishing Tab 3,yes,3
+00:01:40,00:02:13,talent_points,Carry a Big Stick,squire,priority,early,,On Tab 2 first priority is Carry a Big Stick which increases damage gained from weapon power,yes,3
+00:02:13,00:02:13,talent_points,Strength in Numbers,squire,priority,early,,Strength in Numbers is next big increase; affects strength's effect on both damage and HP and improves Meat Shank,yes,3
+00:02:13,00:02:43,talent_points,Health Overdrive,squire,priority,early,,Health Overdrive is about as important as Strength in Numbers; increases HP to capitalize on Meat Shank,yes,3
+00:02:13,00:02:43,talent_points,active talents,squire,priority,early,,Active talents are one of the big priorities for the Squire,yes,3
+00:02:43,00:02:43,talent_points|damage,active talents,squire,mechanic,any,,Active abilities give a damage increase while fighting and a hidden multiplier on kills per hour while AFK or offline,yes,3
+00:02:43,00:02:43,talent_points,Power Strike|Whirl,squire,mechanic,any,,The hidden AFK kills multiplier is only affected by certain skills,yes,3
+00:02:43,00:03:15,talent_points,Power Strike|Whirl,squire,threshold,early,points=54,Need at least 54 talent points in both Power Strike and Whirl to get the full AFK multiplier,yes,3
+00:03:15,00:03:15,talent_points,Power Strike|Whirl,squire,mechanic,any,kills_per_hour_multiplier=2.2x,Full multiplier gives 2.2x more kills per hour so add 54 points to each,yes,3
+00:03:15,00:03:47,talent_points,Absolute Unit|Firmly Grasp It,squire,priority,early,,Absolute Unit and Firmly Grasp It have roughly the same weight in priority,yes,3
+00:03:15,00:03:47,talent_points,Firmly Grasp It,squire,how_to,early,points=1;free_strength=15,Always put one point in Firmly Grasp It as it gives about 15 free Strength; each further point gives one Strength,yes,3
+00:03:47,00:03:47,talent_points,Absolute Unit,squire,target,early,,Max out Absolute Unit since each point gives one Strength like Firmly Grasp It,yes,3
+00:03:47,00:04:21,talent_points,'STR'ess Tested Garb,squire,comparison,any,,STR'ess Tested Garb can give more Strength than Absolute Unit with good equipment but worse with low-end equipment,yes,3
+00:03:47,00:04:21,talent_points,'STR'ess Tested Garb,squire,how_to,early,,Put some points into STR'ess Tested Garb for now and return to Tab 2 after finishing Tab 3,yes,3
+00:04:21,00:04:21,talent_points,Precision Power,squire,priority,any,,First priority on Tab 3 is always Precision Power; one of the largest damage boosts the Squire gets,yes,3
+00:04:21,00:04:51,talent_points|refinery,Precision Power,squire,mechanic,any,damage=7%,Precision Power gives roughly 7% damage for every refinery rank you can upgrade,yes,2
+00:04:21,00:04:51,talent_points,Precision Power,squire,threshold,any,accuracy_multiplier=1.5;example_required=1000;example_needed=1500,Precision Power needs at least 1.5x the accuracy required for 100% hit chance on mobs; 1000 needed means 1500,yes,3
+00:04:51,00:04:51,talent_points,STR Summore,squire,priority,early,,Next Tab 3 priority is STR Summore to allow more points into Fist of Rage on Tab 1,yes,3
+00:04:51,00:04:51,talent_points,Back to Basics,squire,priority,early,,Then Back to Basics which allows more points into Tab 2 where you are stretched thin,yes,3
+00:04:51,00:05:24,talent_points,Tab 3 remaining,squire,opinion,any,,Everything after Back to Basics on Tab 3 is pretty much optional as damage increases are marginal,yes,3
+00:04:51,00:05:24,talent_points,Blocky Bottles,squire,mechanic,any,,Blocky Bottles is an important one to mention,yes,3
+00:05:24,00:05:54,talent_points,Blocky Bottles,squire,how_to,any,max_level=139,Assign points to Blocky Bottles to raise Meat Shank max level then reset the points and keep the full benefit; saves talent points,yes,3
+00:05:54,00:05:54,talent_points,Shieldiest Statues,squire,opinion,any,,Shieldiest Statues gives a minor boost from power and is one of few remaining damage options,yes,3
+00:05:54,00:06:27,talent_points,Fistful of Obol,squire,skip,any,strength_bonus=75%;points=100;obol_strength=20,Fistful of Obol gives only 75% more strength from obols at 100 points; not worth it as obols give about 20 Strength,yes,3
+00:06:27,00:06:27,talent_points,Shieldiest Statues,squire,opinion,any,,You can put points into Shieldiest Statues if you want,yes,3
+00:06:27,00:06:58,talent_points|damage,Mastery Up,squire,mechanic,any,,Mastery Up increases minimum damage not maximum; averages out damage when active and makes monster kill caps easier,yes,3
+00:06:27,00:06:58,talent_points|refinery|construction,Redox Rates,squire,opinion,any,,Can put points into Refinery for bonuses like Redox Rates to help boost Construction a bit more,yes,2
+00:06:58,00:07:30,talent_points,active skills,squire,how_to,any,points=1,Always have at least one point in active skills; if playing actively assign more as they do a lot of damage,yes,3
+00:06:58,00:07:30,talent_points,active skills,squire,mechanic,any,,Beyond the first points active skills do not affect your AFK kill multiplier,yes,3
+00:07:30,00:07:30,talent_points,Idle Brawling|Fist of Rage,squire,how_to,any,,Back on Tab 1 finish AFK gain rate then throw remaining points into Fist of Rage,yes,3
+00:07:30,00:08:02,talent_points,Quickness Boots,squire,priority,late,,With lots of spare points first go Quickness Boots for movement speed and crit chance,yes,3
+00:07:30,00:08:02,talent_points|drop_rate|class_exp,Lucky Clover,squire,priority,late,,Second spare-point choice is Lucky Clover for drop rate and EXP gains,yes,3
+00:08:02,00:08:34,talent_points,'STR'ess Tested Garb,squire,how_to,mid,extra_points=136,With the extra 136 points finish maxing STR'ess Tested Garb,yes,3
+00:08:02,00:08:34,talent_points,Double Strike,squire,priority,mid,,Anything left over goes into Double Strike which helps kills per hour especially with more points,yes,3
+00:08:02,00:08:34,talent_points,Firmly Grasp It,squire,target,mid,,After Double Strike is maxed only finishing Firmly Grasp It remains,yes,2
+00:08:34,00:08:34,talent_points,Haungry for Gold,squire,opinion,any,,If using Golden Foods Haungry for Gold gives more benefit from Golden Kebabs and a decent damage boost,yes,3
+00:08:34,00:09:06,talent_points,Will of the Eldest|Best Beginner Class,squire,priority,any,,First star talents are Will of the Eldest and Best Beginner Class for more weapon power and base stats,yes,3
+00:08:34,00:09:06,talent_points,Will of the Eldest|Best Beginner Class,squire,warning,any,,These star talents are capped by your highest level character so use fewer points if your levels are low,yes,3
+00:09:06,00:09:06,talent_points,Attacks on Simmer,squire,priority,any,,Next star talent is Attacks on Simmer for more AFK gains,yes,3
+00:09:06,00:09:06,talent_points,Tick Tock,squire,priority,any,,Next Tick Tock for more AFK gain rate from fighting and skills,yes,3
+00:09:06,00:09:38,talent_points,Goblet of Hemoglobin,squire,priority,any,,Goblet of Hemoglobin increases survivability and reduces food needed to AFK,yes,3
+00:09:38,00:09:38,talent_points|damage,Dungeonic Damage,squire,priority,any,,Star Tab 2 big priority is Dungeonic Damage; more damage based on dungeon credits earned,yes,3
+00:09:38,00:09:38,talent_points|dungeons,Dungeonic Damage,squire,mechanic,any,,Dungeon credits only need to have been earned not held in inventory; more dungeons means more damage,yes,3
+00:09:38,00:09:38,talent_points,Frothy Malk,squire,priority,any,,After that Frothy Malk boosts foods and potions a bit more,yes,3
+00:09:38,00:10:10,talent_points,star talents,squire,opinion,any,,Everything else after Frothy Malk is optional depending on what you want,yes,3
+00:09:38,00:10:10,talent_points,Telekinetic Storage,squire,opinion,any,,Presenter always puts points into Telekinetic Storage for more carry capacity,yes,3
+00:10:10,00:10:10,talent_points,Sampling|Shrine Architect,squire,opinion,any,points=1,Presenter puts one point each into Sampling and Shrine Architect so he can use them when wanted,yes,3
+00:10:10,00:10:10,talent_points|class_exp,Just EXP,squire,priority,any,,Next get Just EXP to increase class EXP gained,yes,3
+00:10:10,00:10:42,talent_points,Pulsation,squire,opinion,early,,Pulsation is good on lower level characters; boosts mana regeneration so you can attack more often,yes,3
+00:10:10,00:10:42,talent_points|cards,Cardiovascular!,squire,opinion,any,,Cardiovascular! is good to increase card drop rate,yes,3
+00:10:42,00:10:42,talent_points,Mega Crit,squire,mechanic,any,crit_chance=100%,Mega Crit increases crit chance and allows mega crits which are only active above 100% crit chance,yes,3
+00:10:42,00:11:16,talent_points,Stonks!,squire,threshold,any,points=30,Stonks! on Tab 1 gives free star talent points but only put 30 points in; no benefit after,yes,3
+00:10:42,00:11:16,talent_points,attack bar,squire,how_to,any,,Always make sure you assign your attacks to the attack bar,yes,3
+00:11:16,00:11:46,talent_points,attack bar,squire,mechanic,any,,Assign Tab 2 attacks and Firmly Grasp It buff plus Tab 3 abilities to attack bar so they get used while offline,yes,3
+00:11:16,00:11:46,talent_points,attack bar,squire,how_to,any,,When playing actively mind ability order on attack bar; online it prioritizes the first slot then second and so on,yes,3

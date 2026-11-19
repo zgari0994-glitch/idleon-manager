@@ -1,0 +1,25 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+kwQDdEnQNUU,nocturne,2022-04-01,00:00:00,00:00:00,general,,Dilapidated Slush location,,mechanic,w3,,Dilapidated Slush is the World 3 mini-boss located at the Refrigeration Station map.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:00:00,00:00:32,anvil,world-1/anvil,Bucket of Slush recipe,,how_to,w3,,Bucket of Slush recipe drops from any mob from Refrigeration Station up to Thermonuclear Climb with the Thermisters.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:00:00,00:00:32,recipe_unlocks,account/task-board/unlocks,Bucket of Slush recipe,,how_to,w3,,Bucket of Slush recipe drops from any mob from Refrigeration Station up to Thermonuclear Climb with the Thermisters.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:00:32,00:00:32,anvil,world-1/anvil,tab 3 Bucket of Slush,,how_to,w3,tab=3,Once you have the recipe craft the Bucket of Slush at the anvil in tab three near the bottom.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:00:32,00:00:32,anvil,world-1/anvil,Bucket of Slush cost,,setup,w3,melty_cubes=5;snowballs=20;iron_bars=5,Bucket of Slush requires 5 Melty Cubes from Frosted Flakes and 20 Snowballs from Snowmen and 5 Iron Bars from Mining.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:00:32,00:00:32,damage,,accuracy,,threshold,w3,accuracy=1000;hit_chance=5,Dilapidated Slush needs at least 1000 accuracy for a 5% hit chance.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:00:32,00:00:32,damage,,accuracy,,threshold,w3,accuracy=3000;hit_chance=100,At least 3000 accuracy is needed for a 100% hit chance on Dilapidated Slush.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:01:05,00:01:05,general,,boss food,,warning,w3,,He hits fairly hard so bring plenty of food.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:01:05,00:01:05,general,,boss defense,,mechanic,w3,,It is not currently possible to gain enough defense to ignore his damage.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:01:05,00:01:05,general,,summon boss,,how_to,w3,,Summon the boss by dropping the Bucket of Slush on the snow pile in the top right corner of Refrigeration Station.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:01:05,00:01:05,general,,snow pile,,mechanic,w3,piles=1,Only one snow pile exists at first and it disappears once you summon the boss.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:01:05,00:01:38,general,,snow pile respawn,,mechanic,w3,days=4,Snow piles respawn on a timer with a minimum of 4 days.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:01:38,00:01:38,general,,snow pile accumulation,,mechanic,w3,days=4,Snow piles accumulate so you don't need to fight the boss every 4 days.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:01:38,00:01:38,general,,snow pile timer,,mechanic,w3,max_piles=10;days=69,The respawn timer slows with each pile and up to 10 snow piles can spawn over 69 days.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:01:38,00:02:08,general,,snow pile days,,mechanic,w3,,Days only accumulate on days you log into at least one character.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:01:38,00:02:08,general,,snow pile respawn,,how_to,w3,,For minimum respawn timer log into at least one character each day but you don't need to visit the map.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:02:08,00:02:08,general,,boss fight,,mechanic,w3,hp=12500000,Dilapidated Slush has 12.5 million HP and is a fairly simple fight.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:02:08,00:02:08,general,,boss contact damage,,mechanic,w3,damage=4000,He damages you if you walk over him; it hit for 4000 in full Dementia gear.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:02:39,00:03:10,cards,,boss drops,,mechanic,w3,,Main drops are Dilapidated Slush Card and Slushy Oval giving skill efficiency and Chizoar keys.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:02:39,00:03:10,general,,boss drops,,mechanic,w3,,Main drops are Dilapidated Slush Card and Slushy Oval giving skill efficiency and Chizoar keys.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:02:39,00:03:10,worship,world-3/worship,Slush Skull,,mechanic,w3,,Slush Skull is a low level Worship Skull slightly better than the crafted version.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:03:10,00:03:10,recipe_unlocks,account/task-board/unlocks,Midnight Stopwatch,,target,w3,,The main thing to look for from him is the Midnight Stopwatch recipe.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:03:10,00:03:10,recipe_unlocks,account/task-board/unlocks,Midnight Stopwatch,,mechanic,w3,afk_gains=2;attack_speed=3,Midnight Stopwatch gives 2% fight AFK gains and 3% attack speed.,yes,3
+kwQDdEnQNUU,nocturne,2022-04-01,00:03:10,00:03:10,general,,boss drops,,mechanic,w3,,He can also drop coins and time candies and XP balloons and gems.,yes,3

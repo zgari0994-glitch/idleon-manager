@@ -1,0 +1,86 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,construction,tabs,,mechanic,w3,tabs=2,Construction is split into a Building tab and a Cogs tab.,yes,3
+00:00:00,00:00:31,construction,buildings,,mechanic,w3,categories=3,Three categories of buildings; each needs a different material and can be leveled several times to raise its bonuses.,yes,3
+00:00:31,00:00:31,construction,buildings,,mechanic,w3,,Each building level raises the resource cost of the next level.,yes,3
+00:00:31,00:00:31,construction,buildings,,priority,any,,You should always be building as many buildings as you can.,yes,3
+00:00:31,00:00:31,construction|printer,3d printer,,mechanic,w3,characters_per_level=1,3D Printer prints resources for each unlocked character; each level lets one more character use it.,yes,3
+00:00:31,00:01:02,construction|library,talent book library,,mechanic,w3,,Library building raises max talent level by spending books; each level raises checkout refresh speed so you get books faster.,yes,3
+00:01:02,00:01:02,construction|death_note,death note,,mechanic,w3,multikill_per_level=2,Death Note building gives +2% multi-kill to all worlds per level.,yes,3
+00:01:02,00:01:02,construction|salt_lick,salt lick,,mechanic,w3,upgrades=10,Salt Lick building has 10 upgrades; each building level unlocks another bonus.,yes,3
+00:01:32,00:01:32,construction|storage,chest space,,mechanic,w3,slots_per_level=2,Chest Space building gives two extra storage chest slots per level.,yes,3
+00:01:32,00:02:03,construction,cost cruncher,,mechanic,w3,reduction_per_level=1,Cost Cruncher cuts building upgrade resource cost 1% per level; it does not affect the initial build but is a big bonus.,yes,3
+00:02:03,00:02:03,construction|traps,trapper drone,,mechanic,w3,,Trapper Drone deploys and collects traps remotely; each level gives extra critters from all traps.,yes,3
+00:02:03,00:02:36,construction,automation arm,,mechanic,w3,bonuses=5,Automation Arm has five bonuses that help with tedious tasks; each level unlocks another. The last building is not yet available.,yes,3
+00:02:36,00:02:36,construction|worship,towers,,mechanic,w3,,Second row buildings are the Worship Tower Defense towers; each level raises tower damage and lowers upgrade cost in the minigame.,yes,3
+00:02:36,00:02:36,construction|worship,towers,,meta_change,w3,,A more detailed guide on each tower is linked in the description.,yes,3
+00:02:36,00:03:06,construction,shrines,,mechanic,w3,,Shrines give a bonus only while placed on a map your characters are on.,yes,3
+00:03:06,00:03:06,construction,shrines,,mechanic,w3,,Shrines level in two ways: leveling them in the Construction Workbench raises level-up rate.,yes,2
+00:03:06,00:03:40,construction,shrines,,mechanic,w3,,Second shrine leveling method is placing the shrine on the map where a character AFKs; each shrine needs a set number of AFK hours active.,yes,3
+00:03:06,00:03:40,construction,woodular shrine,,mechanic,w3,,Woodular Shrine increases total damage of all characters on the same map.,yes,3
+00:03:40,00:03:40,construction,isaccian shrine,,mechanic,w3,,Isaccian Shrine increases max HP and total defense.,yes,3
+00:03:40,00:03:40,construction,crystal shrine,,mechanic,w3,,Crystal Shrine increases level-up rate for all your other shrines.,yes,3
+00:03:40,00:03:40,construction,pantheon shrine,,mechanic,w3,,Pantheon Shrine increases carry capacity of all characters on that map.,yes,3
+00:03:40,00:03:40,construction|drop_rate,clover shrine,,mechanic,w3,,Clover Shrine increases drop rate of all characters.,yes,3
+00:03:40,00:04:10,construction|class_exp,summer reading shrine,,mechanic,w3,,Summer Reading Shrine increases EXP gain for all characters.,yes,3
+00:04:10,00:04:10,construction,crescent shrine,,mechanic,w3,,Crescent Shrine increases spawn chance of crystal and giant mobs while active.,yes,3
+00:04:10,00:04:10,construction,undead shrine,,mechanic,w3,,Undead Shrine increases monster respawn rate on that map.,yes,3
+00:04:10,00:04:10,construction,primordial shrine,,mechanic,w3,max_afk_gain=150,Primordial Shrine boosts AFK gain rate for characters on the same map up to a max of 150%.,yes,3
+00:04:10,00:04:40,construction,build rate,,mechanic,w3,,Total Build Rate shown at the bottom comes from the Cogs tab.,yes,3
+00:04:40,00:04:40,construction,building slots,,mechanic,w3,build_rate_per_slot=176000,Total build rate applies to each active building slot individually; his gives 176000 per hour per slot.,yes,3
+00:04:40,00:04:40,construction,building slots,,priority,any,,Keep all building slots filled as much as possible.,yes,3
+00:04:40,00:05:11,construction,character bars,,mechanic,w3,,Character bars on the right show each character's construction level and build rate per hour; mostly used in the Cogs tab.,yes,3
+00:05:11,00:05:11,construction,cog shelf,,mechanic,w3,newbie_level_req=1,Open Cog Shelf builds new cogs; initially only Newbie Cogs are available and need construction level 1.,yes,3
+00:05:41,00:05:41,construction,cog shelf,,how_to,w3,,Assign characters to a shelf slot by dragging and dropping; they passively create cogs using their build rate.,yes,3
+00:05:41,00:05:41,construction,cog shelf,,mechanic,w3,cost_multiplier=2,Each cog stored on the shelf doubles the cost of building the next cog.,yes,3
+00:05:41,00:05:41,construction,cog shelf,,priority,w3,,Collect cogs from the shelf as often as possible.,yes,3
+00:05:41,00:06:14,construction,cog shelf,,mechanic,w3,level_req=15,At construction level 15 a character can be assigned to the next cog tier if above the level requirement.,yes,3
+00:06:14,00:06:14,construction,cog shelf,,comparison,w3,,Higher tier cogs like Decent have higher average stat points than Newbie, but are not always better.,yes,3
+00:06:14,00:06:46,construction,cogs,,mechanic,w3,,Collected cogs go automatically to storage; collection is very random including graphic variants like Broken Cog.,yes,3
+00:06:46,00:06:46,construction,cogs,,mechanic,w3,stats=4,Cogs can be Stacked and have varied stats; four stat types listed: build rate, flaggy rate, bonus construction EXP, plus special bonuses.,yes,2
+00:06:46,00:07:17,construction,special cogs,,mechanic,w3,,Special cogs boost adjacent cogs or have other bonuses listed below a dotted line.,yes,3
+00:07:17,00:07:49,construction,cogs,,mechanic,w3,,Number of stats varies per cog; an Ultimate cog does not necessarily have more stats than a Super cog.,yes,3
+00:07:17,00:07:49,construction,cogs,,warning,w3,,A Broken Cog is not necessarily bad; some have more stats than Tripped or Special cogs.,yes,3
+00:07:49,00:07:49,construction,adjacent cog,,mechanic,w3,example_bonus=29,Adjacent Cog is plus-shaped and boosts the four touching cogs; example gives 29% build rate.,yes,3
+00:07:49,00:07:49,construction,diagonal cog,,mechanic,w3,,Diagonal Cog works like Adjacent but applies to the four diagonal corners; its bonus type varies.,yes,3
+00:07:49,00:08:24,construction,arrow cogs,,mechanic,w3,slots=6,Arrow Cogs apply to six slots directly facing the arrow direction.,yes,3
+00:08:24,00:08:57,construction,column cog,,mechanic,w3,,Column Cogs apply bonuses to a full column; bonus types can match other cogs.,yes,3
+00:08:24,00:08:57,construction,row cog,,mechanic,w3,,Row Cog works like Column Cog but applies across a full row.,yes,3
+00:08:57,00:08:57,construction,omnidirectional cog,,mechanic,w3,,Omnidirectional Cog acts like Diagonal but applies one additional diagonal space further out.,yes,3
+00:08:57,00:09:29,construction,tap me button,,mechanic,w3,stats_displayed=3,Tap Me button switches which of three stats is displayed on cogs on the board and in storage.,yes,3
+00:09:29,00:09:29,construction,flags,,mechanic,w3,max_flags=4,Flags Place button lets you place up to four flags to unlock board squares; stored flag rate is saved when moving a flag.,yes,3
+00:09:29,00:10:00,construction,flags,,mechanic,w3,,Initially only the center of the board is unlocked; flags are needed to expand it.,yes,3
+00:10:00,00:10:00,construction,flags,,mechanic,w3,,Flaggy points needed to unlock a square increase the farther it is from the center; it requires an obscene amount.,yes,3
+00:10:00,00:10:32,construction,flags,,mechanic,w3,,Characters provide most of his flaggy rate compared to the low numbers on cogs.,yes,3
+00:10:32,00:10:32,construction,flags,,how_to,w3,,Flag-speed multiplier cogs must point at the flag you want to speed up, not at characters.,yes,3
+00:10:32,00:11:06,construction,flags,,warning,w3,,Directional flag-speed cogs only help flags in their pointed direction; a right bonus only helps flags to the right.,yes,3
+00:10:32,00:11:06,construction,trash cogs,,mechanic,w3,,Trash Cogs button is a toggle that deletes any clicked cog.,yes,3
+00:11:06,00:11:06,construction,trash cogs,,warning,w3,,Trash deletes cogs forever with no warning; make sure it is off before moving your board.,yes,3
+00:11:06,00:11:41,construction,cog board,,priority,w3,,Unlock as many flaggy spaces as quickly as possible, then start building up stats.,yes,3
+00:11:41,00:11:41,construction,cog board,,setup,w3,characters=4,Place three or four characters in a line or square formation to allow more rows and columns for bonuses.,yes,3
+00:11:41,00:12:16,construction,cog board,,setup,w3,,Characters give the majority of stats, so face cog bonuses directly at characters in every way possible.,yes,3
+00:12:16,00:12:16,construction,cog board,,setup,w3,,Point arrows, columns, rows and diagonal cogs at your highest-rate character.,yes,3
+00:12:16,00:12:50,construction,cog board,,setup,w3,,After characters and bonuses are placed, fill remaining space with as much bonus EXP as possible.,yes,3
+00:12:16,00:12:50,construction,cog board,,comparison,w3,build_rate_flag=1000;center_character=70000,A build rate flag in spare spots adds about 1000, minor compared to almost 70000 on center character.,yes,3
+00:12:50,00:12:50,construction,cog board,,priority,w3,,Focus outlying cogs on EXP since most building and flaggy come from main characters.,yes,3
+00:12:50,00:13:21,construction|bubbles|vials|obols,stats,,mechanic,w3,,Character stats are multiplied by obols and alchemy vials, so level characters as high as possible to raise base building rate.,yes,3
+00:13:21,00:13:21,construction|bubbles,call me bob,,how_to,w3,,Call Me Bob is a large bubble giving construction EXP; it must be equipped on the right-hand side to work.,yes,3
+00:13:21,00:13:57,construction|bubbles,carpenter,,mechanic,w3,,Carpenter bubble gives build speed per construction level; great for center characters surrounded by facing cogs.,yes,3
+00:13:21,00:13:57,construction|bubbles,cogs for hands,,mechanic,w3,,Cogs For Hands bubble increases cog production speed, which few things boost.,yes,3
+00:13:57,00:13:57,construction|vials,visible ink,,mechanic,w3,,Visible Ink vial gives construction EXP.,yes,3
+00:13:57,00:13:57,construction|vials,sippy cup,,mechanic,w3,,Sippy Cup vial increases cog production speed.,yes,3
+00:13:57,00:14:28,construction|vials,bubonic burp,,mechanic,w3,,Bubonic Burp vial from bunnies gives extra cog inventory spaces; he hasn't unlocked it.,yes,3
+00:14:28,00:14:28,construction,obols,,priority,w3,,Put as many Obols of Construction as you can; fill silver ones first before the slightly better square ones.,yes,3
+00:14:28,00:14:58,construction,post office,,target,w3,base_build=100;shrine_charge=49;construction_exp=150,Post Office Construction Container gives up to 100% base build rate, 49% shrine charge rate and 150% construction EXP.,yes,3
+00:14:28,00:14:58,construction|cards,chizoar card,,priority,w3,,Collect and level the Chizoar card for cog build speed.,yes,3
+00:14:58,00:14:58,construction|cards,chizoar card,,mechanic,w3,,Chizoar card is passive and doesn't need to be equipped.,yes,3
+00:14:58,00:14:58,construction|stamps,saw stamp,,priority,w3,,Level the Saw Stamp to increase construction EXP gains.,yes,3
+00:14:58,00:15:28,construction|statues,seesaw statue,,priority,w3,,Get the Seesaw Statue for construction EXP; golden statue upgrade gives more EXP across all characters.,yes,3
+00:15:28,00:15:28,construction|talent_points,redox rates,squire,mechanic,w3,,Redox Rates talent increases build speed based on Redox Salts in your storage chest.,yes,3
+00:15:28,00:15:28,construction|refinery,redox rates,squire,warning,w3,,Redox Rates only works if salts are in storage chest, not in refinery output.,yes,3
+00:15:28,00:15:59,construction|talent_points,sharper saws,squire,mechanic,w3,,Sharper Saws squire talent gives extra construction EXP gain.,yes,3
+00:15:28,00:15:59,construction|gem_shop,world 3 bonuses,,mechanic,w3,upgrades=4,Gem shop has four construction upgrades under World 3 bonuses.,yes,3
+00:15:59,00:15:59,construction|gem_shop,zen cogs,,mechanic,w3,bonus=40,Zen Cogs boost all surrounding cogs by 40% build rate and flaggy rate; expensive but a pretty good boost.,yes,3
+00:15:59,00:15:59,construction|gem_shop,cog inventory space,,opinion,w3,,Cog Inventory Space gem upgrade is optional; buying one or two isn't a bad idea.,yes,3
+00:15:59,00:16:33,construction|gem_shop,tower building slots,,mechanic,w3,extra_slots=4,Tower Building Slots lets you build up to four additional construction buildings simultaneously.,yes,3
+00:16:33,00:16:33,construction|gem_shop,tower building slots,,opinion,w3,,Extra building slots are basically free total build rate per hour since each slot gets your build rate individually.,yes,3
+00:16:33,00:16:33,construction|gem_shop,fluorescent flaggies,,mechanic,w3,per_upgrade=50;total=300,Fluorescent Flaggies boost flaggy rate 50% per upgrade for 300% more flaggy speed total.,yes,3

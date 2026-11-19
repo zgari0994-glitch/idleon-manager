@@ -1,0 +1,56 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,damage,boost food,wind_walker,setup,any,,Active play food setup: always run coldseeker bullets plus some form of boost food specifically for weapon power.,yes,3
+00:00:31,00:01:02,damage,boost food,royal_guardian,how_to,any,damage_no_boost=7000 trillion,Run a second boost food such as midnight cookies; damage goes up significantly over a single boost food (compared on RG).,yes,3
+00:01:02,00:01:32,damage,boost food,,how_to,any,,Add a third or fourth boost food for even more damage; make sure you have damage food of some kind preferably coldseekers.,yes,3
+00:01:02,00:01:32,damage,non-witch food,,priority,any,base_stat_without=46 million;base_stat_with=89 million,Non-witch food is a mainstay of active builds and gives a huge amount of extra base stats.,yes,2
+00:01:32,00:02:02,drop_rate,golden GK food,,priority,any,drop_rate_total=1.9 million;drop_rate_from_food=700000,The classic GK golden food gives a monumental amount of drop rate (about 700k of 1.9 million).,yes,2
+00:01:32,00:02:02,class_exp,golden magikarp,,opinion,any,,Golden magikarp is solid; not a huge amount of class XP but something.,yes,3
+00:02:02,00:02:32,class_exp,golden bread,,opinion,any,,Golden bread gives similar small class XP gains to golden magikarp.,yes,3
+00:02:02,00:02:32,characters,golden dumpling,,priority,any,afk_value_with=148000;afk_value_without=69000,All AFK characters should have golden dumpling on; it roughly doubles the value shown (148k vs 69k).,yes,3
+00:02:32,00:03:02,damage,golden jam,warrior,opinion,any,,Golden jam is not terrible for active since it matters for some break points on warrior; not particularly good either.,yes,3
+00:03:02,00:03:34,damage,defense food,,opinion,any,,Defense food is really good for pushing the leaderboard and not much else; it pushed him over a trillion.,yes,3
+00:03:02,00:03:34,damage,nom witch food,,opinion,any,,The nom witches food is horrendous and really bad for active.,yes,2
+00:03:02,00:03:34,characters,golden ham,,opinion,any,,Golden hams are good for AFK characters on skill XP but not for active play.,yes,3
+00:03:02,00:03:34,characters,golden ribs,,opinion,any,,Golden ribs are good specifically for fishing XP.,yes,3
+00:03:02,00:03:34,characters,golden cheese,,priority,any,,All characters should have golden cheese on for shrines.,yes,3
+00:03:02,00:03:34,characters,golden hamster,,opinion,early,,Golden hamster is useless for the most part unless you are really early in the game.,yes,3
+00:03:34,00:04:04,spelunking,golden cake,,opinion,any,,Golden cakes are good specifically for spelunking XP (said spunking).,yes,2
+00:03:34,00:04:04,characters,butter bar,,opinion,any,,Butter bars technically count but he has not thought about them in ages.,yes,2
+00:03:34,00:04:04,characters,solar board food,,opinion,any,,Solar board food is not active and has no use outside the one character you claim on.,yes,1
+00:03:34,00:04:04,characters,speed food,,opinion,any,,Speed foods are not ones you use actively.,yes,2
+00:04:04,00:04:35,characters,potions,,opinion,any,,All potions are hyper niche and stopped being useful long ago given the benefits of boost food; core foods and damage food matter most.,yes,2
+00:04:35,00:05:06,traps,cards,,how_to,any,rabbit_cards_per_hour=25,Unsure how to farm cards from traps; guess is card stamp pushed as far as possible plus passive drop sources; ask on Discord.,yes,2
+00:05:06,00:05:39,statues,w7 mining chopping,,mechanic,w7,w7_exp_per_hour=36 Q,On statue week W7 mining/chopping gives good EXP (36 Q per hour) but you cannot candy in W7.,yes,3
+00:05:39,00:06:09,statues,candy,,how_to,any,candy_node_exp=11 Q;candy_duration_hours=24,Better to level mining/chopping on a node you can candy with a 24-hour candy even though raw rate is a third of the W7 node.,yes,3
+00:06:09,00:07:09,spelunking|hole,burn tunnel|notes,,priority,any,,This week spend AFK time on burn tunnel for spelunking (pit of pages fixed) and notes in world five hole; they cannot be candied and give level XP too.,yes,2
+00:06:39,00:07:09,statues,w7 mining chopping,,how_to,w7,,Level mining/chopping in W7 on a normal week not statue week; it is only hour-per-hour efficient on statue week.,yes,2
+00:07:09,00:07:39,research,mitochondria,,comparison,any,,In general you want triplets of grid items (organelle cells) but testing showed two mitochondria beat three due to extra damage from amoebas.,yes,2
+00:07:09,00:08:10,research,mitochondria,,target,late,plasmids=9,With more unlock slots and the full board unlocked triple mitochondria would likely be best; he has nine plasmids.,yes,2
+00:08:10,00:08:41,sneaking,funeral flowers,,mechanic,any,stealth_boost_percent=22,Funeral flowers: getting KO'd boosts stealth on that floor by 22% and resets when changing mastery; grievance garlands give extra flowers on KO.,yes,3
+00:08:41,00:09:12,sneaking,funeral flowers,,how_to,any,,Stack funeral flowers on a floor; only works when the sneaking window is open so keep it open when AFK.,yes,3
+00:08:41,00:09:12,sneaking,gear,,setup,any,,Equip everybody with yellow belts for faster actions and thunder gloves for extra base find speed.,yes,3
+00:09:12,00:09:42,sneaking,breaker,,how_to,any,flowers=468000,Stack flowers to a big amount then use a designated breaker character once you hit a break point.,yes,2
+00:09:12,00:10:13,sneaking,breaker gear,,setup,any,target_percent=100,Put rosary and silk veil on the breaker since different types multiply together; aim for under 100% (99% is enough).,yes,2
+00:10:13,00:10:43,sneaking,mastery floors,,how_to,any,extra_levels=100,On a new mastery bottom floor sit there for XP with black belts on all characters for about 100 extra levels each.,yes,2
+00:10:43,00:11:13,sneaking,taunting mark,,mechanic,any,,Taunting mark item increases the rate at which you get funeral flowers by some mechanism; he is not a sneaking guy.,yes,2
+00:11:13,00:11:44,breeding,eggs,,how_to,any,,Millions of eggs come from millions of chickens; also farm world 4 mini bosses on royal guardian.,yes,2
+00:11:13,00:12:14,breeding,mini bosses,royal_guardian,how_to,any,,Activate the W4 mini bosses on reset for daily crystals with orb as high as possible then spawn bosses on platform for eggs and green balloons.,yes,3
+00:11:44,00:12:14,general,green balloons,,mechanic,any,,Other mini bosses do not give eggs but do give green balloons; world six boss is also good for golden cakes.,yes,3
+00:12:14,00:12:44,masterclass,11th character,,priority,any,,No character is worth a third of right now for the 11th slot so just wait for Siegebreaker and other master classes.,yes,3
+00:12:14,00:12:44,talent_points,blitz kills,,how_to,any,kills_target=1000;kills_hard=300,To get past 300 kills towards 1K in pit of pages blitz work on talent levels first since low talent level is the main cause.,yes,2
+00:12:44,00:13:44,general,ai answers,,opinion,any,,AI answer saying W7 has no mining/chopping nodes and to use speed food were confusing and wrong.,yes,3
+00:13:44,00:14:44,breeding,eggs,,opinion,any,,AI correctly said eggs come from world four mini bosses.,yes,2
+00:14:14,00:14:44,general,kills,,afk_spot,any,,AI said beans map is best for getting 1K kills; he says that is correct.,yes,2
+00:14:44,00:15:15,general,green balloons,,mechanic,any,,Green balloons come from all mini bosses in the game; AI answer correct.,yes,3
+00:15:15,00:15:47,printer,copper prints,,warning,any,,Copper prints not dropping or giving insufficient samples while other prints work sounds like a genuine bug; send a video on Discord.,yes,3
+00:15:15,00:15:47,rift,areas,,meta_change,any,rift_level=66,Rift did not get new areas; they have been at 66.,yes,2
+00:15:47,00:16:17,gallery,name tags,,how_to,any,leaderboard_gap=1300,To reach top 0.1% for name tags wait for new patches and snipe in early on the new mechanic before it updates.,yes,2
+00:16:17,00:16:47,statues,24 hour candy,voidwalker,how_to,any,candy_count=2,Start 24-hour candies by doing V-man first and maybe use two 24-hour candies so they are ahead.,yes,2
+00:16:17,00:17:17,general,pit of pages,,how_to,any,,Bucket buff is based on kills not score so do an all zeros run of each class type to maximize kills.,yes,2
+00:17:17,00:17:48,general,pay-to-win tab,,warning,any,bonus_percent=2,Max level efficiency in pay-to-win tab requires a cloud save to update; small 2% add; many things need cloud save.,yes,2
+00:17:17,00:17:48,ballot,voting,,meta_change,any,,He usually tells which vote is best on Discord especially contentious ones and could do it in a daily video.,yes,3
+00:17:48,00:18:20,general,updates,,opinion,any,,Update frequency is on and off; there can be multiple months without updates usually for big updates.,yes,3
+00:18:20,00:18:51,gem_shop,cape,,opinion,any,,Spending that much on a single character cape hurt; he wants to make advice for less active players maybe short format.,yes,1
+00:18:20,00:19:21,drop_rate,opals,,warning,any,,A comment says do not filter world five boss opals; he disagrees and refers to another video.,yes,1
+00:19:21,00:19:51,farming,exotic doubler,,mechanic,any,hard_cap_example=30 percent;doubled=60 percent,Doubler doubles the exotic bonus not levels so doubling better exotic is really good.,yes,3
+00:19:21,00:19:51,farming,exotic,,opinion,any,levels=10000,AI claimed diminishing returns past 10K levels so prioritize other multipliers; he says AI is totally off.,yes,2

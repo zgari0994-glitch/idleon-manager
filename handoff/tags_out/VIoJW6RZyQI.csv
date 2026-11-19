@@ -1,0 +1,46 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,constellations,unlock,,how_to,any,,Star Signs and Constellations unlock by reaching the map Where the Branch Ends and interacting with the telescope,yes,3
+00:00:00,00:00:35,constellations,star points,,mechanic,any,,Star Signs are unlocked by spending Star Points gained from completing Constellations around the world,yes,3
+00:00:35,00:00:35,constellations,star sign slots,,mechanic,any,slots_initial=1;slots_max=3,You start with one Star Sign slot; Chronus Cosmos and Hydron Cosmos unlock up to three equipped at once,yes,3
+00:00:35,00:00:35,constellations,points,,mechanic,any,,Each Constellation gives a set amount of star points,yes,3
+00:00:35,00:01:08,constellations,star points,,warning,any,,Not enough points exist in the game to unlock all Star Signs,yes,3
+00:01:08,00:01:08,constellations,star sign choice,,advice,any,,Selectively choose which Star Signs to unlock and make sure they are necessary for your character's progression,yes,3
+00:01:08,00:01:38,constellations,A1,,how_to,w1,characters=4;level=30,A1 in Blunder Hills town top right of tree requires four characters reaching level 30,yes,3
+00:01:38,00:01:38,constellations,A1,,warning,w1,,You must interact with the constellation on each of those characters for it to count as progress,yes,3
+00:01:38,00:02:10,constellations,A2,,how_to,w1,afk_hours=1,A2 at top end of branch in Where the Branch Ends requires AFK offline over one hour before selecting the constellation,yes,3
+00:01:38,00:02:10,constellations,A3,,how_to,w1,characters=4,A3 at the bottom of Valley of the Beans near exit portal needs four players to reach and interact,yes,3
+00:02:10,00:02:10,constellations,A4,,how_to,w1,characters=3,A4 in Tucked Away at end of World 1 needs three players to reach and interact,yes,3
+00:02:10,00:02:41,constellations,A5,,how_to,w1,characters=3,A5 on bottom platform at end of The Sewers in The Office needs Dr Defecaus defeated on three players then interact,yes,3
+00:02:41,00:02:41,constellations,A6,archer,how_to,w1,mining_level=10,A6 at top of Freefall Caverns needs an Archer; that Archer needs level 10 Mining to access the map,yes,3
+00:02:41,00:03:13,constellations,A7,,how_to,w1,characters=2;afk_hours=24,A7 in Winding Willows needs two characters AFK 24 hours consecutively,yes,3
+00:03:13,00:03:13,constellations,A7,,warning,w1,candy_hours=24,A 24-hour time candy works for A7 but 12-hour candies do not since it must be 24 consecutive hours,yes,3
+00:03:13,00:03:43,constellations,A8,,how_to,w1,characters=3;rounds=15,A8 in Dew Drop Coliseum bottom right needs the coliseum cleared (all 15 rounds) on three players,yes,3
+00:03:13,00:03:43,constellations,A8,,warning,w1,characters=3,Select the constellation on each of the three characters otherwise you do not get progress,yes,3
+00:03:43,00:04:13,constellations,A9,,how_to,w1,characters=3;kill_seconds=20,A9 in Amarok Arena needs boss killed in under 20 seconds on three characters; constellation is behind him,yes,3
+00:03:43,00:04:13,constellations,A10,mage,how_to,w1,,A-10 in Echoing Egress needs reaching the constellation on any Mage class,yes,3
+00:04:13,00:04:13,constellations,A10,mage,how_to,w1,mining_level=40,Entering the A10 map requires level 40 Mining on that Mage class,yes,3
+00:04:13,00:04:13,constellations,B1,,how_to,w2,characters=3,B1 at the bottom of Mimic Hole needs three players to reach the star,yes,3
+00:04:13,00:04:45,constellations,B2,mage,how_to,w2,fishing_level=15,B2 in Faraway Piers needs any Mage reaching the star; the Mage needs level 15 Fishing to enter,yes,3
+00:04:45,00:04:45,constellations,B3,,how_to,w2,afk_hours=36;characters=3,B3 in Grandioso Canyon near entrance needs AFK 36 hours consecutively on three players,yes,3
+00:04:45,00:04:45,constellations,B4,,how_to,w2,characters=4,B4 in Slamabam Straightaway bottom right needs four players to reach the star,yes,3
+00:04:45,00:05:17,constellations,B5,,how_to,w2,characters=4;rounds=15,B5 in Sandstone Coliseum needs all 15 rounds cleared on four players,yes,3
+00:05:17,00:05:17,constellations,B5,,warning,w2,,Interact with the B5 star before leaving the Coliseum or progress is not completed,yes,3
+00:05:17,00:05:48,constellations,B6,beginner|journeyman|maestro,how_to,w2,,B6 in Efaunt Boss Room far left needs Efaunt killed by a beginner class (beginner Journeyman or Maestro),yes,3
+00:05:48,00:05:48,constellations,B7,,how_to,w2,characters=3;afk_hours=48,B7 on the cactus at top middle of Up Down needs AFK 48 hours consecutively on three characters,yes,3
+00:05:48,00:06:18,constellations,B8,,how_to,w2,level=65;characters=4,B8 in YumYum Grotto town under fishing portal needs level 65 on four players and interacting on each,yes,3
+00:06:18,00:06:18,constellations,C1,,how_to,w3,level=90;characters=6,C1 in Frostbite Tundra under the World 4 portal needs level 90 on six characters and interacting on each,yes,3
+00:06:18,00:06:50,constellations,C2,,how_to,w3,characters=4,C2 in Steep Sheep Ledge bottom right needs a Sheepy defeated barehanded (no weapon) on four players,yes,3
+00:06:50,00:06:50,constellations,C3,,how_to,w3,trapping_level=15;characters=5,C3 in Trapper's Folly needs level 15 Trapping on five players each interacting with the star,yes,3
+00:06:50,00:07:25,constellations,C4,,how_to,w3,afk_hours=60;characters=3,C4 in Refrigeration Station bottom left needs AFK 60 consecutive hours on three players,yes,3
+00:07:25,00:07:25,constellations,C5,,how_to,w3,wave=11;characters=4,C5 in Rollin' Tundra bottom right needs reaching Wave 11 of the tower defense totem on four characters,yes,3
+00:07:25,00:07:57,constellations,C6,,how_to,w3,afk_hours=11;characters=9,C6 in Thermonuclear Climb bottom right needs AFK at least 11 hours on nine characters,yes,3
+00:07:57,00:07:57,constellations,C7,,how_to,w3,characters=6,C7 at far right of Crystal Base Camp needs six characters to reach the star,yes,3
+00:07:57,00:07:57,constellations,C8,,how_to,w3,characters=4,C8 at far right of Hell Hath Frozen Over needs a Blood Bone killed on four players,yes,3
+00:07:57,00:08:29,constellations,D1,,how_to,w4,level=120;characters=8,D1 top left of Outer World Town needs standing on the roof and level 120 on eight players interacting on each,yes,3
+00:08:29,00:08:29,constellations,D2,,how_to,w4,characters=3,D2 bottom left of Space Way Raceway needs all Mushrooms defeated before any respawn on three players,yes,3
+00:08:29,00:09:01,constellations,D3,,how_to,w4,cooking_level=15;characters=4,D3 in Donut Drive-in below the piggy needs level 15 Cooking on four players,yes,3
+00:09:01,00:09:01,constellations,D4,,how_to,w4,characters=3,D4 in Worm Highway needs reaching the star on three players,yes,3
+00:09:01,00:09:32,constellations,D5,,how_to,w4,characters=4,D5 in Coco Tunnel center needs all Choccies defeated before respawn on four players,yes,3
+00:09:32,00:09:32,constellations,D6,,how_to,w4,characters=4,D6 in Standstill Plains near exit portal needs four players to reach the star,yes,3
+00:09:32,00:09:32,constellations,D8,,how_to,w4,characters=4,D8 in Shelled Shores needs a megacrit on a Clammy on four players,yes,3
+00:09:32,00:09:32,constellations|dungeons,D8,,setup,w4,,Megacrit requires the Star Talent Book Megacrit from the Dungeons Flurbo Shop,yes,3

@@ -1,0 +1,30 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+xQmAWSJrI-g,nocturne,2022-10-16,00:00:00,00:00:00,general,,chaotic troll location,,mechanic,w4,world=4;,Chaotic Troll is at the end of World 4 in the map Enclave of Eyes,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:00:00,00:00:32,general,,chaotic troll accuracy,,threshold,w4,accuracy=900;hit_chance=100,Chaotic Troll only requires 900 Accuracy for 100% hit chance,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:00:00,00:00:32,general,,world 4 mobs accuracy,,warning,w4,,During the boss fight you may have to fight other World 4 mobs up to and including the Stilted Seeker,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:00:32,00:00:32,general,,stilted seeker accuracy,,threshold,w4,accuracy=16500;hit_chance=100,Stilted Seeker requires 16.5k Accuracy for 100% hit chance,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:00:32,00:00:32,general,,troll key,,mechanic,w4,keys_per_attempt=5,Each Chaotic Troll attempt requires five Troll Enclave keys,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:00:32,00:00:32,general,,troll key drops,,mechanic,w4,drop_chance=1/15000,Stilted Seekers drop keys at a 1 in 15000 chance per kill,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:00:32,00:01:06,general,,troll key farming,,how_to,w4,,Easiest way to get keys is to be offline while fighting Stilted Seekers,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:01:06,00:01:06,general,,troll key offline,,mechanic,w4,kills=15000,After 15000 offline kills you get a guaranteed key drop,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:01:06,00:01:06,general,,troll key colosseum,,how_to,w4,,Another key source is the World 4 colosseum in the map TV Outpost,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:01:06,00:01:06,general,,troll key mutated mush,,how_to,w4,drop_chance=1/2,Mutated Mush miniboss has a 1 in 2 drop chance for a Troll Key,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:01:06,00:01:40,general,,chaotic troll hp,,mechanic,w4,hp=350000000,Chaotic Troll has about 350 million HP,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:01:40,00:01:40,general,,chaotic troll fight start,,mechanic,w4,,You must attack the boss before anything happens to start the fight,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:01:40,00:02:12,general,,chaotic troll tasks,,mechanic,w4,task_options=11,Boss's only ability creates a random task to complete before you can damage him; there are 11 task options,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:01:40,00:02:12,general,,chaotic troll tasks,,warning,w4,,If you fail the task the boss heals,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:01:40,00:02:12,general,,chaotic troll tasks,,mechanic,w4,attacks_before_task=2-3,A task starts after you attack him two to three times,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:02:12,00:02:12,general,,chaotic troll task loot dice,,how_to,w4,dice_roll=6,Loot Dice task: roll a 6 to be able to attack him; if you fail wait for next task,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:02:12,00:02:43,general,,chaotic troll task closest monster,,how_to,w4,,Task: kill the monster closest to the middle of the screen; tricky if you multi-hit,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:02:43,00:02:43,general,,chaotic troll task kill monsters,,how_to,w4,monsters=10,Task: kill 10 monsters without hurting any Green Mushrooms,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:02:43,00:03:13,general,,chaotic troll task kill monsters,,how_to,w4,,Take off your weapon to single hit monsters or be careful what you attack because mushrooms get in the way,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:03:13,00:03:13,general,,chaotic troll task red circles,,how_to,w4,,Task: avoid all red circles on the ground; no damage for a few seconds lets you fight,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:04:18,00:04:18,armor_smithy,world-3/armor-smithy,troll scales,,mechanic,w4,,Troll Scales are used to craft World 4 armor,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:04:18,00:04:18,merits,account/task-board/merits,troll scales,,mechanic,w4,,Troll Scales are used to craft World 4 armor,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:04:18,00:04:18,merits,account/task-board/merits,troll scales armor,,mechanic,w4,,You must complete different Merit Board tasks to unlock crafting this armor,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:04:18,00:04:18,armor_smithy,world-3/armor-smithy,troll scales armor,,mechanic,w4,,You must complete different Merit Board tasks to unlock crafting this armor,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:04:18,00:04:18,armor_smithy,world-3/armor-smithy,troll scales armor,,opinion,w4,,The World 4 armor is pretty good,yes,2
+xQmAWSJrI-g,nocturne,2022-10-16,00:04:18,00:04:48,general,,jagged obol of massive trolling,,mechanic,w4,drop_chance=1/1250,Jagged Obol of Massive Trolling drops from Chaotic Troll at 1 in 1250,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:04:48,00:04:48,general,,jagged obol of massive trolling,,mechanic,w4,base_stats=9;defense=10;all_stats_bonus=3,Obol gives 9 to all base stats and 10 defense plus 3% misc bonus to all stats,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:04:48,00:04:48,general,,jagged obol of massive trolling,,opinion,w4,,It is a good obol to collect at least one of,yes,3
+xQmAWSJrI-g,nocturne,2022-10-16,00:04:48,00:04:48,general,,chaotic troll drops,,mechanic,w4,,Other drops are standard rare drop tables,yes,3

@@ -1,0 +1,100 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,general,patch day one,,warning,unknown,,Some new resources can cause irreparable account damage if invested in the wrong places; this is a day one survival guide,yes,3
+00:00:30,00:01:00,general,doublers,,priority,unknown,,Learn how not to mess up the doublers before learning how to play the patch because they are so important,yes,3
+00:01:00,00:01:31,general|summoning,doublers,,mechanic,unknown,,New doublers work like summoning doublers from world six and are available across different mechanics,yes,3
+00:01:00,00:01:31,farming,exotic market,,warning,unknown,,No toggle on exotic market doublers so he expects to misclick a checkbox and level up something unwanted,yes,3
+00:01:31,00:02:02,farming,exotic market,,mechanic,unknown,,You can only level doublers that are on the current rotation,yes,3
+00:01:31,00:02:02,farming,exotic market,,mechanic,unknown,,Better exotic and data digging and free exotic doublers are not in the current rotation yet,yes,3
+00:01:31,00:02:02,farming,exotic market,,skip,unknown,,He personally wouldn't go for anything in the current exotic market doubler set,yes,3
+00:01:31,00:02:02,farming,exotic market,,opinion,unknown,,Extra beans doublers Legumioso and Legumes 2 are very good but unsure how many doublers will be obtained long run,yes,3
+00:02:02,00:02:33,farming,exotic market,,opinion,late,,No strong compelling late game reason to commit to exotic market doublers but he wouldn't be mad about a misclick,yes,3
+00:02:02,00:02:33,jelly_operator,doublers,,priority,unknown,,Jelly operator is the doubler mini-game to focus on right now,yes,3
+00:02:33,00:03:04,jelly_operator,cell mutilation doubler,,priority,unknown,jelly_before=70-80 million;jelly_after=~200 million,Cell mutilation is far and away the best jelly operator doubler; his result went from about 70-80 million to just under 200 million,yes,3
+00:03:04,00:03:35,jelly_operator,strong croid doubler,,priority,unknown,,Strong Croid doubler doesn't double seconds but doubles the extra percent multiplier and is very good,yes,3
+00:03:35,00:04:06,jelly_operator,viral injection doubler,,priority,unknown,max_stack=4,Viral Injection is sparse (stacks only to four and expensive) so he went for it; fantastic,yes,3
+00:03:35,00:04:06,jelly_operator,viral injection doubler,,opinion,unknown,,Viral Injection didn't make a big difference yet because board isn't optimized; maybe hold off until correct board state is known,yes,2
+00:04:06,00:04:37,jelly_operator,doublers,,target,unknown,,Going for cell mutilation or strong croid or viral injection means you haven't bricked your account,yes,3
+00:04:06,00:04:37,jelly_operator,cell desolation|cell destruction doublers,,opinion,unknown,,Cell Desolation is not bad and Cell Destruction would also be a good choice,yes,2
+00:04:06,00:04:37,jelly_operator,cell destruction|blood cell doublers,,warning,early,,Early doublers like Cell Destruction and Blood Cell won't be nearly as strong; some other choices are likely weak,yes,2
+00:04:06,00:04:37,minehead,better numbers doubler,,priority,unknown,,Better Numbers is up there for sure; screenshot showed only 14s and 15s,yes,3
+00:04:37,00:05:08,minehead,better numbers doubler,,opinion,unknown,,Better Numbers is good and over doubled his income by itself,yes,3
+00:04:37,00:05:08,minehead,extra lives doubler,,opinion,unknown,,Extra Lives could be okay,yes,2
+00:04:37,00:05:08,minehead,golden tiles doubler,,opinion,unknown,,Golden Tiles seems good but might be bait; unsure yet,yes,3
+00:04:37,00:05:08,minehead,final round fury doubler,,priority,unknown,,Final Round Fury is a must-have because the entire meta game revolves around it,yes,3
+00:05:08,00:05:38,minehead,multipliers doubler,,skip,unknown,,Doesn't know the multipliers doubler well enough yet; hold off for now,yes,3
+00:05:08,00:05:38,minehead,legal cheating button doubler,,warning,unknown,break_chance=25%;heads_chance=75%;uses=10,Legal Cheating Button is probably bait because hitting all 10 uses in a row in the final round is unlikely,yes,3
+00:05:38,00:06:09,minehead,classic flags|later doublers,,account_note,unknown,,Classic Flags can't be doubled; later doublers are okay but too expensive to multiply right now,yes,2
+00:05:38,00:06:09,sushi,sushi station doublers,,skip,unknown,,Doesn't know the sushi station mechanic enough; don't go for the early slots; hold off unless confident; later ones probably fine,yes,3
+00:06:09,00:06:40,gaming,palette,,priority,unknown,,Palette is a big one; violet for Prisma income is something to go for without looking back,yes,3
+00:06:09,00:06:40,gaming,palette violet prisma,,mechanic,unknown,prisma_shadow_cap=4x,Prisma bonus is shadow capped at 4x currently but this has been broken through a few times,yes,3
+00:06:40,00:07:11,gaming|stamps,palette honey yellow exalt,,priority,unknown,mason_jar_capacity_gain=~4 million,Honey yellow for exalt stamp on the opposite side of palette is good; gave almost 4 million extra golden food capacity in Mason Jar,yes,3
+00:07:11,00:07:42,gaming|stamps|cooking,palette exalts,,account_note,unknown,strength=17 million,Exalts buff everything else too including crock and refinery; gave him millions of extra strength and he's almost at 17 million,yes,2
+00:07:42,00:08:12,gaming,palette,,skip,unknown,cap=100,Don't bother with double gold food and drop statues palette doublers because they cap at 100 and will be shadow capped or maxed anyway,yes,3
+00:07:42,00:08:12,gaming,palette power luck,,opinion,unknown,,Power luck isn't so bad,yes,2
+00:07:42,00:08:12,gaming|spelunking,palette spelunking power,,opinion,unknown,,Might personally go for spelunking power; unsure how good the multiplier is but looks strong,yes,2
+00:08:12,00:08:43,gaming|ballot,palette ballot bonus,,opinion,unknown,,Ballot bonus is another good contender doubler,yes,3
+00:08:12,00:08:43,general,lumi income,,mechanic,unknown,,Some places in the game give disproportionately large Lumi gains,yes,3
+00:08:12,00:08:43,general,lumi income super bits,,priority,unknown,multiplier=1.25x,Zoopa super bits Lumi gains is a strong 1.25x multiplier,yes,2
+00:08:43,00:09:14,research|menagerie,lumi income,,priority,unknown,,Research notes and the baby menagerie are good for Lumi gains,yes,2
+00:08:43,00:09:14,research|menagerie,lumi income,,setup,unknown,,Have E4 maxed before investing in the menagerie since it adds Lumi gains and more missions,yes,2
+00:09:14,00:09:44,vials|general,lumi income vial,,opinion,unknown,vial_boost=10%,Boosting his Lumi vial gave about 10% and he assumes it's a multiplier,yes,2
+00:09:14,00:09:44,arcade,lumi gains,,priority,unknown,multiplier=3.4x,Arcade is a monstrous Lumi increase; supered then omegaed gives 3.4x true multiplier,yes,3
+00:09:44,00:10:15,general,crescent shrine,,target,unknown,,Crescent shrine isn't unlocked yet; people are working toward it and he is farming for it and reinvesting in Lumi gains,yes,2
+00:09:44,00:10:15,cards|general,lumi gains card,,target,unknown,,He's also working on a card that looks like a strong Lumi multiplier,yes,2
+00:09:44,00:10:15,general,lumi gains,,opinion,unknown,,Wishes he had invested in Lumi gains at the start,yes,3
+00:09:44,00:10:45,coral_reef|general,puffin,,setup,unknown,coral_needed=500000,Dump many characters on Puffin to get Lumi gain and also decoral coral mechanic; need about half a million gilded coral,yes,2
+00:10:15,00:10:45,general,crescent shrine,,mechanic,unknown,percent_per_level=1%;extra_lumi=130%,Crescent shrine gives about 1% Lumi per level and should reach 130 extra percent,yes,2
+00:10:45,00:11:16,general,lumi upgrades shrine upgrade,,mechanic,unknown,levels=20,Shrine upgrade in the Lumi upgrades adds plus 20 levels and amplifies further as levelled; really good for multiplying early Lumi gains,yes,2
+00:10:45,00:11:16,guild,clan works nine,,priority,unknown,multiplier=25%,Clan works nine gives 25% Lumi which is probably a multiplier,yes,2
+00:10:45,00:11:16,clam_work,scourge works,,mechanic,unknown,,Scourge works makes clan works nine go really fast to do,yes,2
+00:11:16,00:11:46,general,lumi mechanic second line final column,,priority,early,,Second line in the final column of the Lumi mechanic is incredibly strong and should get the majority of early Lumi,yes,3
+00:11:46,00:12:18,general,lumi mechanic second line final column,,how_to,early,,Get more points than expected into that second line upgrade because it scales incredibly well,yes,3
+00:11:46,00:12:18,bundles,pay-to-win pack,,mechanic,unknown,lumi_multiplier=2x,Pay-to-win pack gives three minor remissions and extra research points and 2x Lumi gains total,yes,3
+00:12:18,00:12:48,bundles,imperial power pack,,mechanic,unknown,lumi_multiplier=3x;combined=6x,Imperial Power Pack gives 3x Lumi per hour multiplied with the first pack making 6x,yes,2
+00:12:18,00:12:48,bundles,final pack,,mechanic,unknown,lumi_multiplier=3x,Final pack gives another 3x Lumi per hour that multiplies everything,yes,2
+00:12:18,00:12:48,bundles|general,lumi gains,,comparison,unknown,his_lumi=300k;other_lumi=100,Pay-to-win explains a large part of the difference between his 300k and a free-to-play player's 100,yes,2
+00:12:18,00:13:19,general|arcade,lumi gains,,priority,unknown,,Don't overlook the big multipliers especially the second upgrade and arcade; they push you a long way,yes,3
+00:12:48,00:13:49,general,lumi free-to-play,,opinion,unknown,,Free-to-play needs a bigger initial Lumi injection; many claims of pay-to-win are reductive and usually untrue,yes,3
+00:13:19,00:14:19,general,lumi free-to-play,,opinion,unknown,,Initial Lumi injection means free-to-play players can't access most of the mechanic in a timely way,yes,3
+00:13:49,00:14:19,general,lumi free-to-play,,account_note,unknown,,Best free-to-play players have barely begun the mechanic despite having all big multipliers and it won't improve without an update,yes,3
+00:14:19,00:14:50,general,shell income,,priority,unknown,fish_shells=7,Shell income comes from research grid and the fish from final map Coronation Coral giving seven shells,yes,2
+00:14:19,00:14:50,bundles|general,shell income,,mechanic,unknown,,Pay-to-win stuff adds on top of shell income,yes,3
+00:14:50,00:15:21,clam_work,scourge works,,mechanic,unknown,,Scourge works has a second page like the first where each level gives a currency spent on upgrades,yes,3
+00:14:50,00:15:21,clam_work,scourge works reckoning,,priority,unknown,,Put the lion's share of the green pearl currency into reckoning,yes,2
+00:14:50,00:15:21,clam_work,scourge works pearl infection,,how_to,unknown,,Put only a few points in pearl infection,yes,2
+00:15:21,00:15:53,clam_work,scourge works self-affliction,,how_to,unknown,,Get self-affliction as high as possible without losing the ability to one-shot the little clam guys,yes,3
+00:15:21,00:15:53,clam_work,scourge works cost dissolving,,how_to,unknown,points=1,Put about one point into cost dissolving,yes,3
+00:15:21,00:15:53,clam_work,scourge works even better,,priority,unknown,,Once even better is unlocked put the lion's share of the currency into it,yes,3
+00:15:21,00:15:53,clam_work,scourge 100,,mechanic,unknown,level=100;even_better_points=17,Scourge 100 reduces first page costs relative to the second page slot; frugality reduced by a multiplier scaling with even better,yes,2
+00:15:53,00:16:23,clam_work,scourge works,,priority,unknown,scourge_target=100;scourge_min=50,Get to around scourge 100 first or at least 50 if drop rate is low then go into pearl infection and cost dissolving,yes,3
+00:15:53,00:16:23,clam_work,scourge works pearl infection,,warning,unknown,,Unlocking pearl infection early can slow your scourge works so you never reach even better and brick yourself,yes,3
+00:16:23,00:16:54,clam_work,scourge works,,opinion,unknown,,Scourge works made clam works easier and less painful and the buffs aren't bad,yes,3
+00:16:23,00:16:54,gallery|general,scourge works buffs,,account_note,unknown,gallery_bonus_level=8,Scourge works gives nice extra gallery bonus even at eight and Lumi gains seems strong,yes,2
+00:16:54,00:17:25,sneaking,funeral flowers,,warning,unknown,,Sneaking funeral flowers are broken and have halted people's sneaking progression,yes,2
+00:17:25,00:17:55,sneaking,mastery,,account_note,late,mastery_best=9;mastery_his=8,Best players are in sneaking mastery nine while he is at start of mastery eight,yes,3
+00:17:25,00:17:55,sneaking,funeral flowers,,warning,endgame,,Broken funeral flowers stop any ability to push sneaking into the deep end game where the meta revolves,yes,2
+00:17:25,00:17:55,spelunking,pillar pages talent,royal_guardian,warning,unknown,,Peter Pages (Pillar Pages) talent in Royal Guardian is still broken,yes,2
+00:17:55,00:18:27,spelunking,pillar pages pre-stacking,royal_guardian,opinion,unknown,,Pre-stacking pages hoping for a fix was a smart move but the talent is not fixed,yes,3
+00:17:55,00:18:27,spelunking|research,red jellyfish,royal_guardian,opinion,unknown,,Fixed pages would have been astronomical with the red jellyfish auto read mechanic,yes,2
+00:18:27,00:18:58,general,crucible mode,,mechanic,unknown,round=130-140,New arena mode Crucible mode; beneficial bug: at around round 130-140 toggling off high performance massively accelerates team damage,yes,3
+00:18:27,00:19:28,general,crucible mode,,how_to,unknown,round=130-140,Toggling off high performance lets you finish Crucible mode almost immediately,yes,3
+00:18:58,00:19:28,general,crucible mode,,account_note,unknown,round=1000,He reached round 1000 on Crucible mode before getting bored,yes,3
+00:19:28,00:19:59,general,crucible mode,,setup,unknown,,Crucible team composition: Rattler and Looter and Refiller and Burger and one of the Defenders (Defender) in this order,yes,2
+00:19:59,00:20:30,general,crucible mode,,how_to,unknown,round=140,Get to round 130-140 then turn off high performance while keeping both usability toggles on and it melts Crucible mode,yes,3
+00:19:59,00:20:30,general,crucible mode,,account_note,unknown,,Lava said he might reset Crucible mode because it feels too easy,yes,2
+00:20:30,00:21:01,sailing,artifacts,,warning,unknown,,Bug with new world 5 artifact types: the seventh tier gives 1x instead of the intended multiplier,yes,2
+00:21:01,00:21:32,sailing,artifacts,,warning,unknown,previous_tier=5x;new_tier=1x,Instead of multiplying from 5x to 6x the new tier gives only 1x,yes,2
+00:21:32,00:22:03,sailing,artifacts,,warning,unknown,bubbles_per_day=5;total_speed=1430,Examples of the artifact bug: five extra bubbles a day becomes none and a 1430 total speed becomes about 200,yes,2
+00:22:03,00:22:33,sailing,artifacts,,warning,unknown,,Getting a new artifact reduces your current buff so it nerfs your account; maybe don't do sailing for now,yes,3
+00:22:33,00:23:03,spelunking,pillar pages talent,royal_guardian,mechanic,unknown,,Pillar Pages has been bugged since start of Royal Guardian and only works on your RG not all characters as stated,yes,3
+00:22:33,00:23:03,spelunking,pillar pages talent,royal_guardian,opinion,unknown,,It is still really good even though it only works on Royal Guardian,yes,2
+00:22:33,00:23:35,spelunking|cards,pillar pages,royal_guardian,setup,unknown,,He took both RGs off pillar pages to finish his perfect fan card and other Lumi thing but will return to two spelunking,yes,2
+00:23:03,00:23:35,spelunking,pages cavern,,target,unknown,pages=2 billion,His goal is a 2 billion page stack on each cavern working from the first two caverns downward,yes,3
+00:23:03,00:23:35,spelunking,reading,,setup,unknown,,Stacked pages are a good starting point for the new reading mechanic,yes,2
+00:23:35,00:24:06,spelunking,fourth cavern,,account_note,unknown,percent_done=97%;goal=100%,He nearly finished fourth cavern at 97% and didn't think more days were worth it; it will finish naturally,yes,3
+00:23:35,00:24:06,spelunking,burning crusade?,,mechanic,unknown,,New Burning Crusade? gives Spelunking XP and grand discovery chance; third line is a pow multi,yes,2
+00:24:06,00:24:36,spelunking,burning crusade?,,mechanic,unknown,break_point_1=100;break_point_2=50k;break_point_3=2 million,Break points of the Burning Crusade? bonus are 100 and 50k and 2 million,yes,2
+00:24:06,00:24:36,spelunking,burning crusade?,,opinion,unknown,,Unsure how worth it is given how difficult Burning Crusade is to get,yes,2
+00:24:36,00:25:07,spelunking,sunken temple,,target,unknown,stim_rate=4000,He'll focus more on Sunken Temple for power and maybe push stim rate to around 4000,yes,2
+00:25:07,00:25:37,general,doublers,,warning,unknown,,There is no way to refund doublers so don't accidentally click assuming you can reset them,yes,3
+00:25:07,00:25:37,summoning|stamps|alchemy,doublers,,comparison,unknown,,Doublers are more like exalts in stamps and prismas in alchemy than summoning doublers because they can't be reset,yes,3

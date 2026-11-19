@@ -1,0 +1,82 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:01,00:00:31,masterclass,royal_guardian,royal_guardian,meta_change,any,,New class Royal Guardian: build outposts, harvest resources, hire units and expand your kingdom across Idleon; kingdom expansion is its main gameplay.,yes,3
+00:00:01,00:00:31,masterclass,royal_guardian,royal_guardian,opinion,any,,Royal Guardian looks complicated and overwhelming at first but is actually a pretty intuitive mechanic.,yes,3
+00:00:31,00:00:31,royal_armory|talent_points,talent,royal_guardian,meta_change,any,new_talents=50,50 new Royal Guardian talents including the new Royal Armory and the little Orby shop.,yes,3
+00:00:31,00:01:01,general,royal_castle,,meta_change,any,,Verminous Rats are a new mini boss found in the Royal Castle.,yes,3
+00:00:31,00:01:01,general,royal_castle,royal_guardian,how_to,any,,Royal Castle is reachable via the hidden map in the mines (any character can use this) or via a Royal Guardian talent.,yes,3
+00:00:31,00:01:01,general,royal_castle,,opinion,any,,Unsure why you would go to the Royal Castle on a non-Royal Guardian character but you can.,yes,3
+00:01:01,00:01:01,general,mini_boss,,opinion,any,,Believes Verminous is the first mini boss type with multiple mini bosses of a single type.,yes,2
+00:01:01,00:01:01,tournament|pets,pet_raids,,meta_change,any,,Pet Raids are a new PvE experience in which you win free pets; he has not tried them yet.,yes,3
+00:01:01,00:01:31,masterclass,kingdom,royal_guardian,mechanic,any,,Build outposts in each world while recruiting workers traders and militia; optimize collection routes and outpost specialty ranks until the empire covers every map.,yes,3
+00:01:31,00:01:31,royal_armory,upgrades,royal_guardian,mechanic,any,upgrades=70,Spend kingdom resources on 70 unique Royal Armory upgrades; most boost your commander abilities but a handful affect Idleon broadly.,yes,3
+00:01:31,00:02:01,royal_armory,upgrades,royal_guardian,opinion,any,,So far he has only seen one armory bonus affecting things outside the masterclass but it looks really really strong.,yes,2
+00:02:01,00:02:01,statues|royal_armory,royal_statues,royal_guardian,mechanic,any,,Unlock and upgrade royal statues: mega versions of regular statues giving OP multiplicative bonuses to stats like EXP and drop rate.,yes,3
+00:02:01,00:02:01,statues,statue_flare,royal_guardian,mechanic,any,,Unlock statue flare and boost regular statue gains by collecting marble.,yes,3
+00:02:01,00:02:33,talent_points|royal_armory,talent,royal_guardian,warning,any,,Royal Guardian has its own talent points; all-talent-level bonuses and super talent are unusable until unlocked in the lower shelves of the Royal Armory.,yes,3
+00:02:01,00:02:33,masterclass,talent,royal_guardian,mechanic,any,,Royal Guardian benefits from the other master classes and the extra talents you get from there.,yes,2
+00:02:33,00:02:33,masterclass,orb_of_verisimilitude,royal_guardian,mechanic,any,,Orb of remembrance becomes orb of verisimilitude which gets super boosted by killing regal mobs and can drop little orblets.,yes,3
+00:02:33,00:02:33,royal_armory,little_orblet_shop,royal_guardian,mechanic,any,,Little orblet shop is accessed via the same-named Royal Guardian talent; spend orblets on permanent bonuses including automating statue leveling.,yes,3
+00:02:33,00:03:04,general,verminous,royal_guardian,warning,early,,Verminous are found in large swarms beneath the Royal Castle floor but don't expect to kill many early on.,yes,3
+00:03:04,00:03:04,spelunking,exiled_throne,,meta_change,any,discoveries=15;grand_discoveries=10;depth=130,New Spelunking cavern Exiled Throne has 15 discoveries 10 possible grand discoveries and a new lore bonus from defeating Esquire Melrose at depth 130.,yes,3
+00:03:04,00:03:04,spelunking,esquire_melrose,,opinion,any,,Esquire Melrose is very tanky both in power requirement and sheer health.,yes,3
+00:03:04,00:03:04,spelunking,shop,,meta_change,any,shop_upgrades=15,15 new Spelunking shop upgrades including a new manic mode gameplay mechanic; he finds the mode very cool and will make a video.,yes,3
+00:03:04,00:03:35,dungeons,panther,,meta_change,any,,Legendary rarity dungeon panther can finally be unlocked.,yes,2
+00:03:35,00:03:35,research,grid_L3,,opinion,any,,New research grid L3 seems just okay from limited testing.,yes,3
+00:03:35,00:03:35,zenith_market,upgrade,,opinion,any,upgrade=1;current=1.2,One new Zenith market upgrade is just okay and scales pretty hard but is nice; he is at about 1.2.,yes,2
+00:03:35,00:03:35,sushi,tiers,,meta_change,any,new_tiers=4;max_tier=63,Four new sushi tiers; max sushi tier is now 63.,yes,3
+00:03:35,00:04:06,pets,pet_token,,meta_change,any,tokens=1,Everyone gets plus one pet token; currently only on PC account and coming to Android and iOS next update.,yes,3
+00:04:06,00:04:06,pets,pet_token,,warning,any,,Some people reported the new pet token stacking with the old one was a problem; he doesn't know if it is resolved.,yes,2
+00:04:06,00:04:06,advice_fish,giant_doodle_fish,,meta_change,any,,The new giant doodle fish has one more piece of advice for a price.,yes,2
+00:04:06,00:04:36,bubbles,orange_bubble,,meta_change,any,bubble=34,New Alchemy bubble: the 34th orange bubble; he Prismaed and pushed it immediately and it seems pretty good.,yes,2
+00:04:36,00:04:36,tournament|pets,pet_raids,,mechanic,any,difficulties=3,Raids are in the grand tournament: each day your team fights a preset raid not other players and winning gives a chance at one or more pets.,yes,3
+00:04:36,00:04:36,tournament,pet_raids,,mechanic,any,difficulties=3,Raids have beginner veteran and nightmare difficulties that must be unlocked one by one.,yes,3
+00:04:36,00:05:06,tournament,pet_raids,,mechanic,any,,First raid participation rewards a permanent tournament background; change it via the rewards button top left of the lobby.,yes,3
+00:05:06,00:05:36,tournament,pet_raids,,mechanic,any,big_characters_before=2;big_characters_after=5,Top of each raid leaderboard (by pets left alive) wins a big character; total big characters per season rises from two to five.,yes,3
+00:05:06,00:05:36,tournament|pets,pet_park_theme,,priority,any,,Registering for a raid once awards that raid's pet park theme win or lose; register every new raid at least once before it is gone forever.,yes,3
+00:05:36,00:06:07,pets,free_pet,,meta_change,any,,Weekly free pet chance is now daily forever and also applies to legacy pet pulls via the bronze legacy button.,yes,3
+00:06:07,00:06:38,pets,pet_mart_plus,,mechanic,any,upgraded_pets=19;daily_rotation=5,Pet mart plus unlocks after owning all pet mart pets; 19 upgraded pets exist with a new rotation of five each day.,yes,3
+00:06:07,00:06:38,pets,pet_mart_plus,,opinion,any,,Seems you want to get the same pets more than once for an increased bonus of the same bonus; needs testing.,yes,2
+00:06:38,00:06:38,pets,pet_mart_plus,,mechanic,any,,Upgrading a tradable pet keeps it tradable; the game prioritizes upgrading a tradable pet over an untradable one.,yes,3
+00:06:38,00:07:08,general,ui,,meta_change,any,,World map interface has a new wooden look and the name font now shows capitalization.,yes,3
+00:07:08,00:07:38,gem_shop,packs,,meta_change,any,,You can view all available gem shops with up/down arrows so you can find the best pack in a rotation.,yes,3
+00:07:08,00:07:38,gem_shop,packs,,opinion,any,,Previously a good pack could be last in a rotation of three and you'd pay a lot to clear unwanted ones.,yes,2
+00:07:08,00:07:38,cards,mini_boss,,meta_change,any,,Mini boss kill counts now display correctly in the mini boss card display instead of zero.,yes,3
+00:07:38,00:07:38,characters,void_trial,voidwalker,meta_change,any,,Crystal mobs (guaranteed and normal) never spawn during void trial runs on your Voidwalker.,yes,3
+00:07:38,00:08:09,characters,orb,divine_knight,meta_change,any,,Divine Knight orb now follows you between maps like Siegebreaker's pirate flag; the old orb loss was only visual as the buff still applied.,yes,3
+00:08:09,00:08:09,pets,glounco_supreme,,meta_change,any,,Pet bonus tokens spent on Glounco Supreme are refunded now and in future since that pet gives no bonus.,yes,3
+00:08:09,00:08:39,characters,orb_of_remembrance,divine_knight,meta_change,any,,Event spawns like Valenslimes from Lovey-Dovey Letters no longer count towards Divine Knight's Orb of Remembrance.,yes,3
+00:08:09,00:08:39,characters,orb_of_remembrance,divine_knight,comparison,any,,The old meta was saving event items and dumping them somewhere hard to farm the orb; understandable nerf but he thinks the tech was cool.,yes,2
+00:08:39,00:08:39,class_choice|masterclass,inner_voice,blood_berserker,meta_change,any,unique_monsters_new=25;unique_monsters_old=92,Blood Berserker's Inner Voice now needs 25 unique monsters defeated instead of 92 to unlock Death Bringer master class.,yes,3
+00:08:39,00:08:39,legend_talents,crystal,,meta_change,any,old=21;new=4,"""6:00 Crystal"" (garbled) legend talent reduced from 21x to 4x; he calls it a huge insane nerf.",yes,2
+00:08:39,00:09:11,legend_talents,crystal,,opinion,any,,Daily crystals are a significant meta for EXP farming clusters and statues; he doesn't think it was overtuned and past crystal nerfs were unnecessary.,yes,3
+00:09:11,00:09:41,dungeons,rank,,meta_change,any,max_rank=90,Max dungeon rank raised to 90; helps players in overflow whose dungeon was breaking their town.,yes,3
+00:09:41,00:10:12,gallery,bug,,warning,any,,Gallery bug partly persists: drop rate bonus doesn't apply until you swap any piece of gear anywhere; visiting the gallery isn't required.,yes,3
+00:10:12,00:10:12,summoning,exp_display,,meta_change,any,,Summoning EXP display adjusted to avoid lag for endgame players; visuals only no stat change.,yes,3
+00:10:12,00:10:42,talent_points,super_talent,,meta_change,any,,Fixed extra levels of super talents that affect all characters not applying to all characters.,yes,3
+00:10:12,00:10:42,talent_points,super_talent,,opinion,any,,This changes a lot about what should be supered; he thought it was intentional and may rework his super talent guide.,yes,3
+00:10:42,00:10:42,general,afk_gains,,meta_change,any,,Fixed AFK gains popup not showing large coin amounts correctly; display only.,yes,3
+00:10:42,00:10:42,storage,inventory_tab,,meta_change,any,tab=6,Fixed item slots in sixth tab being locked without looking locked; workarounds no longer needed.,yes,2
+00:10:42,00:11:14,worship,tower_defense,,meta_change,any,,Fixed damage overflow in worship tower defense at billions of damage.,yes,3
+00:11:14,00:11:14,merits,meritocracy,,meta_change,any,,Fixed meritocracy bonus boosting Orion and Poppy not boosting Poppy's fish gain.,yes,3
+00:11:14,00:11:44,merits,meritocracy,,warning,any,,This week's meritocracy bonus led people to waste hundreds of hours of time skips before realizing it didn't apply; now fixed.,yes,3
+00:11:14,00:11:44,masterclass|royal_armory,master_class_drops_bonus,royal_guardian,mechanic,any,,All-master-class drops bonus does not boost Royal Guardian resource collection rates nor marble parchment or little orb drops; currently nothing for RG.,yes,3
+00:11:44,00:12:15,masterclass|royal_armory,master_class_cost_bonus,royal_guardian,mechanic,any,,Reduced cost of all master class upgrades bonus does reduce Royal Armory upgrade costs.,yes,3
+00:11:44,00:12:15,talent_points|masterclass,talent,royal_guardian,mechanic,any,,Royal Guardian does not gain talent points by leveling up as stated in the info box of the second Royal Armory upgrade.,yes,3
+00:12:15,00:12:15,pets,raid_pets,royal_guardian,mechanic,any,damage_mult=1.25;marble_poe_drop=20,Magician grub gives 1.25x damage and ogre gives 20% additive marble and POE drop rates; Pip Squeak gives no bonus currently.,yes,2
+00:12:15,00:12:45,pets,raid_pets,,mechanic,any,,Grub ogre and Pip Squeak will be obtainable outside raids but only after the raid concludes so nobody misses out.,yes,3
+00:12:45,00:12:45,pets,pet_mart_plus,,mechanic,any,,Santa snake upgrade gives class XP and drop rate; upgrades seem to strengthen existing pet bonuses.,yes,2
+00:12:45,00:13:15,pets,pet_mart_plus,,opinion,any,,Worried upgrade bonuses could get crazy fast which would mean repurchasing every pet.,yes,2
+00:12:45,00:13:15,pets,pet_mart_plus,,opinion,any,damage=5;golden_food=2;skill_xp=5,Frog upgrade gives +5% damage; golden food +2% and all skill XP +5 base all stats are basically nothing.,yes,2
+00:13:15,00:13:15,pets,pet_mart_plus,,opinion,any,,Abacus frog gives torment power AFK gains and drop rates; all low until seeing a multiplier.,yes,2
+00:13:15,00:13:45,pets|storage,pet_mart_plus,,opinion,any,,Carry capacity upgrade could be really strong if it falls in a multiplicative bucket; needs checking.,yes,2
+00:13:45,00:13:45,pets,pet_mart_plus,,opinion,any,kills=0.2,0.2x kills on squirrel is nice.,yes,2
+00:13:45,00:13:45,pets|divinity,pet_mart_plus,,opinion,any,,Divinity extra points gain pet upgrade is solid but not that big.,yes,3
+00:13:45,00:13:45,pets|merits,pet_mart_plus,,opinion,any,meritocracy_multi=25,25% meritocracy bonus multi is probably the strongest upgrade he has seen so far.,yes,3
+00:13:45,00:13:45,pets|bubbles,pet_mart_plus,,opinion,any,,Prisma bonus multi pet upgrade is pretty big; also two bubbles.,yes,2
+00:13:45,00:14:15,pets,pet_mart_plus,,opinion,any,,Jade gain upgrade and smoke devil are not valued; crystal glonco gives a little bit of everything.,yes,2
+00:13:45,00:14:15,pets|gallery,pet_mart_plus,,priority,any,,Gallery bonus multi pet upgrade is insanely strong; he plans to get meritocracy and gallery upgrades as soon as possible.,yes,3
+00:14:15,00:14:15,pets|friends,pet_mart_plus,,opinion,any,,Friend bonus and plus friend bonus slots upgrade is just fine.,yes,2
+00:14:15,00:14:45,pets,pet_mart_plus,,mechanic,any,,You need to own the pet to buy its upgrade; upgrades are slight increases not new pets.,yes,3
+00:14:15,00:14:45,pets,pet_mart_plus,,opinion,any,,Most other pet upgrades seem like small token increases apart from meritocracy and gallery.,yes,2
+00:14:45,00:15:46,masterclass,royal_guardian,royal_guardian,opinion,any,,He's having a blast and thinks this might be his favorite update: it allows active play without being hard time gated every 2.5 hours.,yes,3
+00:14:45,00:15:46,masterclass,royal_guardian,royal_guardian,opinion,any,,Not sure how the update will scale into the future since he's only played about 12 hours.,yes,3

@@ -1,0 +1,29 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,library|construction,library unlock,,mechanic,any,,Talent Book Library is unlocked in the Construction Workbench; first level unlocks use of the Library.,yes,3
+00:00:00,00:00:00,library|construction,checkout refresh speed,,mechanic,any,,Further Construction Workbench upgrades increase Checkout Refresh Speed.,yes,3
+00:00:30,00:00:30,library,talent book library,,mechanic,any,,Library upgrades the maximum level of each of your talents; the VIP Bookshelf is a second section.,yes,3
+00:00:30,00:01:04,library,talent selection,,how_to,any,,Select base class (Warrior/Archer/Mage) then talent tree tab then the talent to upgrade; tabs after tab 1 are elite classes.,yes,3
+00:01:04,00:01:35,library,talent selection,,how_to,any,,Selecting a talent displays its maximum level above your character so you can see whether upgrading is needed.,yes,3
+00:01:35,00:02:09,library,checkouts,,mechanic,any,base_checkout_time_hours=1;checkouts=10-12;time_days=1,More checkouts held means longer time for next checkout; one checkout takes an hour but around 10-12 takes over a day per book.,yes,3
+00:02:09,00:02:40,library,checkout books,,how_to,any,max_level=100;book_range_min=125;book_range_max=155;book_level=142,Checking out a book drops it on the ground; pick it up to see the total max level it would give your talent.,yes,3
+00:02:09,00:02:40,cooking|library,apocalypse chow,,account_note,any,max_level=100,Example: wants to upgrade Apocalypse Chow elite talent for the Cooking benefits.,yes,2
+00:02:40,00:03:10,library,checkout books,,mechanic,any,book_levels=129;book_levels_2=138,You can check out several books at once; results vary so it takes chance to get the level you want.,yes,3
+00:03:10,00:03:42,library|construction,book reservation system,,how_to,any,books=20,Automation Arm's last upgrade Book Reservation System lets you spend 20 books at once and guarantees the highest unlocked maximum level.,yes,3
+00:03:42,00:04:18,library,book usage,warrior,how_to,any,checkouts_spent=20;max_level=155,After spending 20 checkouts the book gave 155 max level; hold it and click on the talent to boost it to 155.,yes,3
+00:03:42,00:04:18,library,book range,,mechanic,any,min=101;max=125,At base the book range is between 101 and 125.,yes,3
+00:04:18,00:04:51,library|salt_lick,salt lick upgrade,,mechanic,any,upgrade_number=5;max_level_bonus=20,Fifth Salt Lick upgrade gives up to 20 additional max levels for Library talent books.,yes,3
+00:04:18,00:04:51,library|merits,world 3 merit shop,,mechanic,w3,max_level_bonus=10,World 3 Merit Shop upgrade gives 10 additional possible max levels for talent books.,yes,3
+00:04:18,00:04:51,library|achievements,checkout takeout,,mechanic,w3,books_required=1000,World 3 Achievement Checkout Takeout requires checking out 1000 books from the Library.,yes,3
+00:04:51,00:05:21,library|achievements,checkout takeout,,mechanic,w3,max_level_bonus=5;charge_rate_pct=30,Checkout Takeout achievement gives 5 additional max levels and increases Library charge rate by 30%.,yes,3
+00:04:51,00:04:51,library,checkouts,,how_to,any,,Check out books as often as possible since the 1000 checkouts takes a lot of time.,yes,3
+00:04:51,00:05:21,library|bribes,library double agent,,mechanic,w1,min_level_bonus=4;cost_platinum=10,Library Double Agent bribe bot increases minimum level by 4 and costs about 10 platinum.,yes,3
+00:05:21,00:05:53,library|gem_shop,burning bad books,,mechanic,any,upgrades=4;cost_gems=1450;min_level_bonus=20,Gem shop Burning Bad Books has four upgrades totaling 1450 gems for up to 20 minimum level.,yes,3
+00:05:21,00:05:53,library|stamps,biblio stamp,,mechanic,w1,refresh_speed_pct_per_level=1,World 1 Biblio Stamp gives 1% more Library refresh speed per level.,yes,3
+00:05:53,00:06:24,library|bubbles,ignore overdues,,mechanic,w2,bubble_number=11,World 2 Alchemy bubble Ignore Overdues (number 11) increases book checkout speed.,yes,2
+00:05:53,00:06:24,library|vials,chonker chug,,mechanic,w2,,Chonker Chug vial gives a minor but decent boost to talent checkout speed.,yes,3
+00:05:53,00:06:24,library|cooking,fortune cookie,,mechanic,w4,,Fortune Cookie meal gives a quite big bonus to Library checkout speed.,yes,3
+00:06:24,00:06:57,library,vip bookshelf,,mechanic,any,special_books=5,VIP Bookshelf follows same checkout rules; five special talent books in Star Talents unlock via different VIP membership levels.,yes,3
+00:06:24,00:06:57,library,vip bookshelf,,mechanic,any,vip_required=150;checkouts_per_attempt=5;min_level=1,Last VIP book needs about 150 VIP membership; each attempt costs 5 checkouts, follows max level but min level is always 1 so many checkouts needed.,yes,2
+00:06:57,00:07:29,library|cooking,garlic bread,,mechanic,w4,,Garlic Bread meal gives the base VIP Membership.,yes,3
+00:06:57,00:07:29,library|cooking,sour fish and orange,,mechanic,w4,,Sour Fish and Orange meals also give additional VIP Membership.,yes,2
+00:06:57,00:07:29,library|pets,pet arena,,mechanic,any,round=5;round_2=80,Pet Arena bonuses give VIP Membership as early as round 5 and the next boost at round 80 is large.,yes,3

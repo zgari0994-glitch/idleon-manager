@@ -1,0 +1,11 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,gem_shop,pachinko,,meta_change,any,,Pachinko (called plinko) is a mini game; he bought lots of gems to try for the red hat,yes,2
+00:00:31,00:01:03,gem_shop,pachinko red hat,,mechanic,any,drop_chance_pct=2,Red hat only drops if the ball lands in the red zone; even then only a 2% chance to roll the hat,yes,3
+00:00:31,00:01:03,gem_shop,pachinko red zone,,mechanic,any,,Landing in the red zone is a very low percent chance,yes,3
+00:01:03,00:01:34,gem_shop,pachinko red hat,,opinion,any,,The red hat's stats are not good; its value is cosmetic rarity and luck bragging rights,yes,3
+00:01:34,00:02:05,gem_shop,pachinko,,warning,any,,He does not recommend buying pachinko balls with gems especially in a free-to-play game,yes,3
+00:02:05,00:02:36,gem_shop,pachinko,,account_note,any,gold_balls=25,Started with 25 gold balls and planned to continue until getting the red hat or going broke,yes,3
+00:03:07,00:05:19,gem_shop,pachinko,,account_note,any,balls=100;balls=200;balls=1000,Rolled 100 then 200 balls then about 1000 total with no red hat,yes,2
+00:05:19,00:05:50,gem_shop,pachinko,,account_note,any,gems=400,Had to buy more gems; the pack was almost 400 gems,yes,2
+00:07:21,00:08:53,gem_shop,pachinko,,account_note,any,ball_number=330,Got a ball landing in the purple zone at ball number 330,no,1
+00:12:22,00:12:22,gem_shop,pachinko red hat,,account_note,any,balls=5000,About 5000 pachinko balls in and still no red hat,yes,3

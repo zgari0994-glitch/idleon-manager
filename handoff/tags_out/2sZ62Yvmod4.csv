@@ -1,0 +1,49 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,beanstalk,golden food,,mechanic,any,,Golden foods are bonuses added to characters via food slots but can never be consumed; they are permanent and movable between characters.,yes,3
+00:00:30,00:01:02,beanstalk,golden food,,mechanic,any,one_piece=1.3%;ten_pieces=6%,Golden food has diminishing returns: more pieces in a stack give less per piece; 1 piece gives 1.3% base stats and 10 give 6%.,yes,3
+00:01:02,00:01:32,beanstalk,golden food,,mechanic,any,pieces=100000;bonus=65%,Diminishing returns continue to about 100000 pieces where the bonus is only about 65%; it scales past that but gives little per piece.,yes,3
+00:01:02,00:01:32,beanstalk,golden bean stock,,mechanic,w6,,The golden beanstalk makes all golden foods active across the whole account so you do not choose which character gets which stack.,yes,3
+00:01:32,00:02:03,beanstalk|sneaking,jade emporium,,how_to,w6,,The beanstalk is unlocked through the Jade Emporium with the sneaking skill and has two upgrades.,yes,3
+00:01:32,00:02:03,beanstalk|sneaking,jade emporium,,mechanic,w6,deposit=10000,The first upgrade (golden food beanstalk) lets you deposit 10000 of a specific golden food to permanently gain its bonus.,yes,3
+00:01:32,00:02:35,beanstalk|sneaking,jade emporium,,target,late,stack=100000;total=110000,The more expensive super sized golden bean stacking upgrade allows depositing another 100000 for 110000 total pieces per golden food.,yes,3
+00:02:03,00:02:35,beanstalk,golden food,,mechanic,w6,bonus=65%,With super sized version the golden food bonus shows larger and increases; his golden girl cheese gives 65% to all stats account-wide.,yes,2
+00:02:35,00:03:06,beanstalk,golden nom witches,divine_knight,how_to,w1,,Golden nom witches drop from the rare drop table of world 1 mobs; farm by killing boar beans with Divine Knight crystal farming.,yes,2
+00:03:06,00:03:38,beanstalk,golden nom witches,divine_knight,mechanic,w1,,Boar beans and crystal mobs both have golden nom witches on their rare or mega rare drop table so any world 1 mob can drop it.,yes,2
+00:03:06,00:03:38,beanstalk,golden peanut,divine_knight,mechanic,w1,,Crystal farming also drops hot dogs which are needed to craft golden peanuts.,yes,3
+00:03:38,00:04:09,beanstalk|anvil,anvil tab 1,,how_to,w1,hot_dogs_per_peanut=2;peanuts_per_golden_peanut=100;hot_dogs_per_golden_peanut=200,Each peanut needs 2 hot dogs and each golden peanut needs 100 peanuts so 200 hot dogs per golden peanut; crystal farming stacks materials.,yes,3
+00:04:09,00:04:42,beanstalk,golden jam,,how_to,w1,run_time_min=1;owned=6221,Golden jam raises max health; best farmed in the world 1 Coliseum with about one minute per run.,yes,3
+00:04:09,00:04:42,beanstalk,coliseum,,mechanic,w1,,Golden jams drop from the golden chest at the end of the world 1 Coliseum and golden nom witches from the other chests.,yes,3
+00:04:42,00:05:14,beanstalk,coliseum,,mechanic,w1,jam_gained=85,One Coliseum run gave about 80 to 90 golden jam; a quick method if you have enough Coliseum tickets.,yes,3
+00:04:42,00:05:14,beanstalk,picnic stowaway,,how_to,w1,golden_jam=38;golden_kebab=34,The daily picnic stowaway quest gives 38 golden jam and 34 golden kebabs each day.,yes,2
+00:05:14,00:05:45,beanstalk,picnic stowaway,,mechanic,w1,characters=10;tools_per_day=6,Picnic stowaway can be done on each of up to 10 characters daily but is limited by sculpting tools; only 6 buyable per day in world 1 shop.,yes,2
+00:05:45,00:06:16,beanstalk,golden kebab,,mechanic,w2,,Golden kebab gives a percent to total damage.,yes,3
+00:05:45,00:06:16,beanstalk,coliseum,,how_to,w2,,Farm golden kebabs in the world 2 Coliseum; dropped by silver chests at the end and limited only by tickets.,yes,3
+00:06:16,00:06:48,beanstalk,coliseum,,mechanic,w2,,World 2 Coliseum golden chest also gives a small chance of golden meat pies so you double up on golden foods.,yes,3
+00:06:16,00:06:48,beanstalk,golden meat pie,divine_knight,mechanic,w2,,Golden meat pie increases total defense by a percent.,yes,3
+00:06:16,00:06:48,beanstalk,golden meat pie,divine_knight,how_to,w2,,Best method for golden meat pie is Divine Knight crystal farming in the Sandy Pots (snel) map; he recommends it over the Coliseum.,yes,2
+00:06:48,00:07:18,beanstalk|drop_rate,golden meat pie,divine_knight,mechanic,w2,,Sandy pots have golden meat pie and drop rate obols on the mega rare table; crystal mobs share this table making it a great stacking method.,yes,2
+00:07:18,00:07:49,beanstalk,butter bar,,mechanic,w2,,Butter bar increases base accuracy on characters.,yes,3
+00:07:18,00:07:49,beanstalk,butter bar,,opinion,early_w7,,Butter bars are not a bad thing to have in early world 6 as accuracy helps get through world 6 maps easier.,yes,3
+00:07:18,00:07:49,beanstalk,butter bar,,afk_spot,w2,drop_chance=1/100,Butter bars drop as a rare skilling drop from AFK butterflies at 1 in 100; takes some time away from killing mobs.,yes,3
+00:07:49,00:08:19,beanstalk,golden ham,divine_knight,how_to,w3,,Divine Knight crystal farm the Neptune map in world 3 to get golden ham (skill exp) and golden cheese (shrine leveling) together.,yes,2
+00:07:49,00:08:19,beanstalk,golden cheese,,opinion,w3,,Golden cheese is important for the beanstalk since it is generally not worth equipping on characters.,yes,3
+00:07:49,00:08:19,beanstalk,golden ham,divine_knight,mechanic,w3,,Golden ham and golden cheese are on Neptune rare drops and mega rare drops.,yes,2
+00:08:19,00:08:50,beanstalk|stamps|money,golden bread,,priority,w3,,Golden bread boosts coin drops from mobs; farm as soon as you can to level stamps and other things.,yes,3
+00:08:19,00:08:50,beanstalk,coliseum,,mechanic,w3,,Golden bread only drops from the golden chest in the world 3 Chillsnap Coliseum so you need to clear it at a decent rate.,yes,3
+00:08:50,00:09:20,beanstalk,coliseum,,warning,w3,,Coliseum is the only way to farm golden bread so save up Coliseum tickets to farm it as much as possible.,yes,3
+00:08:50,00:09:20,beanstalk,golden kebab,,comparison,w3,,Golden kebabs may be worth farming before spending time in the world 3 Coliseum.,yes,2
+00:09:20,00:09:50,beanstalk,golden ribs,divine_knight,how_to,w4,,Golden ribs raise fishing efficiency by a large amount; farm with Divine Knight crystal farming at the clams in world 4.,yes,3
+00:09:20,00:09:50,beanstalk|statues,pearl shellers,divine_knight,mechanic,w4,,Clam farming also gets pearl shellers and statues; pearl shellers craft gear and weapons and upgrade a violin.,yes,2
+00:09:20,00:09:50,beanstalk|sailing,golden hamper gummy candy,divine_knight,how_to,w5,,Golden hamper gummy candy gives a chance at more AFK sailing gains when claiming; get via DK crystal farm at trimmer worms.,yes,2
+00:09:50,00:10:21,beanstalk,golden grilled cheese nwit,divine_knight,mechanic,w5,,Golden grilled cheese nwit is one of the best golden foods giving percent to four base stats (strength agility wisdom luck); from trimmer worms.,yes,2
+00:09:50,00:10:21,beanstalk,golden dumpling,divine_knight,how_to,w6,,Golden dumpling and golden ngiri come from DK crystal farming at mini chiefs, a later world 6 map.,yes,2
+00:10:21,00:10:52,beanstalk,golden dumpling,,mechanic,w6,,Golden dumpling increases all AFK gain rates, a huge bonus combined with the beanstalk.,yes,3
+00:10:21,00:10:52,beanstalk|class_exp,golden ngiri,,mechanic,w6,,Golden ngiri increases class exp gain and is huge with the beanstalk.,yes,2
+00:10:21,00:10:52,beanstalk,golden food,,target,late,stack=110000,Farm all golden foods up to 110000 each to fill the beanstalk.,yes,3
+00:10:52,00:11:23,beanstalk,golden food multipliers,,mechanic,late,bonuses=6;total=681%,There are six bonuses that multiply golden food effect; his total adds up to 681%.,yes,2
+00:10:52,00:11:23,beanstalk|stamps,golden apple stamp,,mechanic,any,per_level=1%,Golden apple stamp gives about 1% golden food bonus per level; it requires golden nom witches so farm boar beans in world 1.,yes,2
+00:11:23,00:11:54,beanstalk|bubbles,shimmeron,,mechanic,any,bubble_number=19;max_bonus=80%,Shimmeron, the 19th orange bubble, gives up to 80% more golden food effect depending on bubble level.,yes,2
+00:11:23,00:11:54,beanstalk|sigils,emoji veggie sigil,,mechanic,any,max_bonus=25%,The emoji veggie sigil gives up to 25% more bonus from golden foods.,yes,2
+00:11:23,00:11:54,beanstalk|cooking,yummy peach ring,,mechanic,w4,per_level=2%;level=61;bonus=122%,Yummy peach ring dinner menu meal gives 2% golden food bonus per level; level 61 gives 122%.,yes,2
+00:11:54,00:12:25,beanstalk|characters,family bonus,shaman,mechanic,any,multiplier=1.34;level=617,Shaman family bonus multiplies golden foods; his is 1.34x at class level 617 and varies with class levels.,yes,3
+00:11:54,00:12:25,beanstalk,hungry for gold,blood_berserker|divine_knight,mechanic,any,multiplier=44%,Hungry for gold is a warrior talent for Blood Berserkers and Divine Knights multiplying golden foods; his gives 44%.,yes,3

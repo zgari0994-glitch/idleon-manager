@@ -1,0 +1,55 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:33,dungeons,world 1 party dungeon,,meta_change,w1,,Video shows optimal route to complete World 1 party dungeons using a grumbler build and an rng voucher build; the two builds differ.,yes,3
+00:00:33,00:01:03,dungeons,inventory rigging,,setup,w1,,Rig your inventory so all dungeon materials sit right beside each other for easy shift-click dropping.,yes,3
+00:00:33,00:01:03,dungeons,inventory,,how_to,w1,,Shift-click drops an item instantly with no drag and drop needed.,yes,3
+00:01:03,00:01:33,dungeons,cards,,setup,w1,rng_item_start=60;dungeon_money=12;dungeon_boss_damage=6,"RNG voucher card order: rng item, rarity, block chance, dungeon MP regen, base damage, base MP; starting with 60 rng item, 12 dungeon money, 6 dungeon boss damage.",yes,2
+00:01:03,00:01:33,dungeons,cards,,mechanic,w1,,Card stats will change depending on what star level your cards have.,yes,3
+00:01:03,00:01:33,dungeons,cards,maestro,setup,w1,,Running stardew drop with maestro makes MP regen and base MP cards very strong.,yes,2
+00:01:33,00:02:04,dungeons,traits,,setup,w1,gray_rng_items=2,"RNG voucher traits: middle one for base damage, left side for two gray rng items to start.",yes,2
+00:01:33,00:02:04,dungeons,traits,,mechanic,w1,drop_chance_per_gray=1;rank=15,Each gray rng item gives plus one percent drop chance at rank 15.,yes,2
+00:01:33,00:02:04,dungeons,traits,,setup,w1,rank=25,Rank 25 trait: enhancers instead of mobs.,yes,2
+00:01:33,00:02:04,dungeons,traits,,setup,w1,rank=30,Rank 30 trait: shop prices from rng items are scaled lower.,yes,3
+00:01:33,00:02:04,dungeons,traits,,setup,w1,rank=35;chance_increase=25,Rank 35 trait: higher rarity rng item (green or better) 25 percent more likely.,yes,3
+00:02:04,00:02:36,dungeons,traits,,setup,w1,,"Grumble build traits mostly the same, but take armor and jewelry drop instead of weapons.",yes,2
+00:02:04,00:02:36,dungeons,traits,,setup,w1,,"Grumble build also takes shop prices for rng slower and +1 choice on rng items from non-shop sources, which can give an extra gray choice.",yes,2
+00:02:04,00:02:36,dungeons,drop chance,,priority,w1,,World 1 party dungeons are about drop chance unlike World 2 and World 3.,yes,2
+00:02:36,00:03:07,dungeons,drop chance,,mechanic,w1,,You want lots of drop chance so enemies drop materials that let you keep summoning the boss.,yes,3
+00:02:36,00:03:07,dungeons,rabbit's paw,,priority,w1,,With the grey grumble build prioritize getting a couple of rabbit's paws to help drop rate.,yes,3
+00:02:36,00:03:07,dungeons,liar's craps,,setup,w1,,"If running rng voucher, liar's craps is your best tool for ensuring drops.",yes,2
+00:03:07,00:03:38,dungeons,liar's craps,,mechanic,w1,drop_rate=20,Liar's craps gives less max HP but 20 percent drop rate at highest level.,yes,3
+00:03:07,00:03:38,dungeons,liar's craps,,how_to,w1,,Use liar's craps to help ensure you summon third frog because getting an eye to drop is abysmal.,yes,3
+00:03:07,00:03:38,dungeons,items,,priority,w1,,"Grey grumble build priority items: sugar rush, sharp eye, rabbit's paw, boss skull, grey grumble, stardew drop, handy ice pick; rest are commodity.",yes,3
+00:03:38,00:04:10,dungeons,items,,priority,w1,,"RNG voucher build priority items: sugar rush, sharp eye, stardew drop, handy ice pick, boss skull, rng voucher, dead book, single cut, liar's craps, sucker punch.",yes,2
+00:03:38,00:04:10,dungeons,items,,mechanic,w1,,Those items are your main tools for damage and getting high crits.,yes,2
+00:03:38,00:04:10,dungeons,horn of the fool,,priority,w1,,All builds are built around getting horn of the fool; take it as soon as you have enough crit.,yes,2
+00:04:10,00:04:40,dungeons,grumbler route,,how_to,w1,,Grumbler build start: clear the first two huts on the left side and move up; the other huts are handled later.,yes,3
+00:04:10,00:04:40,dungeons,grumbler route,,how_to,w1,,Destroy the whole middle row of huts until your big AOEs come off cooldown.,yes,3
+00:04:10,00:04:40,dungeons,grumbler route,,how_to,w1,,Then slap on auto and let the character attack while you go to the shop and buy rng items.,yes,3
+00:04:10,00:04:40,dungeons,enhancers,,how_to,w1,,Sell all enhancers found on the ground in the grumbler build because you are not using them yet.,yes,3
+00:04:40,00:05:11,dungeons,grumbler route,,how_to,w1,,Move up top and destroy the two huts for a nice AOE cleave while still selling enhancers.,yes,3
+00:04:40,00:05:11,dungeons,shop,,how_to,w1,,Whenever buying from the shop put it on auto.,yes,3
+00:04:40,00:05:11,dungeons,grumbler route,,skip,w1,,Leave the right side hut because it loses a ton of time; come back for it later only if necessary.,yes,3
+00:04:40,00:05:11,dungeons,boss rush,,how_to,w1,frog_legs_short=3,"At boss rush phase, shift-click and drop all your items; you should be about three frog legs short.",yes,3
+00:05:11,00:05:41,dungeons,boss rush,,how_to,w1,,While dropping items kill the remaining huts and drop the last frog legs to warn the boss.,yes,2
+00:05:11,00:05:41,dungeons,boss phase,,warning,w1,,Constantly pick up items during boss phase because resources consumed will not count toward the next phase.,yes,3
+00:05:11,00:05:41,dungeons,boss phase,,how_to,w1,,Continue killing mobs and collecting materials and only drop the ones needed to spawn the next frog.,yes,3
+00:05:11,00:05:41,dungeons,boss phase,,how_to,w1,accessories=2;armor_pieces=4,"Nuke the frog while spending money on rng items; buy two accessories and four armor pieces, plus a couple weapons if not maestro.",yes,3
+00:05:41,00:06:11,dungeons,third phase,,how_to,w1,,Stop picking up monster materials during third phase since it is the last phase so monsters spawn as much as possible.,yes,3
+00:05:41,00:06:11,dungeons,third phase,,mechanic,w1,time_saved_min=1,With enough drop chance you can spawn third frog without needing the upper right hut and save about a minute.,yes,3
+00:05:41,00:06:11,dungeons,third phase,,how_to,w1,,Still pick up monster materials if they are not right beside the cauldron so they get consumed.,yes,2
+00:05:41,00:06:11,dungeons,last phase,,how_to,w1,,Once third frog is spawned get into a position where you won't get hit and only hit the boss.,yes,3
+00:06:11,00:06:42,dungeons,enhancers,,how_to,w1,,"Spend weapon, accessory and armor enhancers: crit chance or total damage percent for weapons.",yes,3
+00:06:11,00:06:42,dungeons,enhancers,,how_to,w1,,Use boss damage on every armor piece and total damage percent on accessories.,yes,3
+00:06:11,00:06:42,dungeons,rng items,,mechanic,w1,price_low_k=1.3;price_high_k=1.7,At this point rng items cost around 1.3 to 1.7k so they are too expensive; enhancers give the extra damage.,yes,3
+00:06:11,00:06:42,dungeons,enhancers,,mechanic,w1,,You skipped enhancers earlier because you swap armor all run so money from selling enhancers mattered more then.,yes,3
+00:06:42,00:07:13,dungeons,grumbler route,,opinion,w1,,"Roguelike, not guaranteed, but grumble build is a consistent approach; repeat the same strat with trial and error and you will get third frog kill.",yes,3
+00:06:42,00:07:13,dungeons,rng voucher route,,how_to,w1,,"RNG voucher build begins the same: clear right side huts, then middle with auto on while buying rng items.",yes,2
+00:06:42,00:07:13,dungeons,enhancers,,how_to,w1,,"In rng voucher build, do not sell any enhancers; leave them on the ground until later.",yes,3
+00:07:13,00:07:43,dungeons,enhancers,,how_to,w1,,"After clearing top, if you have no rng voucher yet sell the top enhancers since you won't return and they are out of camera.",yes,3
+00:07:13,00:07:43,dungeons,rng voucher route,,how_to,w1,,"Same as before: drop items, pick up remaining frog legs, and follow the same steps all the way to third frog.",yes,3
+00:07:13,00:07:43,dungeons,rng voucher,,how_to,w1,,"If you still haven't got the rng voucher, leave the enhancers on the ground; you will eventually get it.",yes,2
+00:07:43,00:08:14,dungeons,third frog,,target,w1,rng_vouchers=1,You should have at least one rng voucher by third frog.,yes,3
+00:07:43,00:08:14,dungeons,third frog,,how_to,w1,,"Stand where you won't get hit, don't use auto because it changes target priority by distance, and focus the boss.",yes,3
+00:07:43,00:08:14,dungeons,third frog,,how_to,w1,,"Buy a couple pieces of armor, weapons and accessories if you haven't already.",yes,3
+00:07:43,00:08:14,dungeons,enhancers,,how_to,w1,enhancers_low=10;enhancers_high=15,Spam around 10 to 15 enhancers and sell them while you have a decent reservoir of money.,yes,3
+00:08:14,00:08:44,dungeons,enhancers,,how_to,w1,,Buy the cheapest rng items and keep going until prices scale past what you can afford.,yes,3

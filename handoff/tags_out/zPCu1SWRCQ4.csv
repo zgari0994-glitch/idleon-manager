@@ -1,0 +1,36 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,worship,Wakawaka War totem,,mechanic,unknown,totem_level=10,Wakawaka War is the level 10 totem used in Worship.,yes,3
+00:00:00,00:00:00,worship|map,World 2 Up Down map,,mechanic,w2,world=2,The Wakawaka War totem is located in the World 2 map Up Down.,yes,3
+00:00:00,00:00:00,worship,Wakawaka War totem,,mechanic,unknown,,Totem provides Dune Souls whenever you spend Worship Charge or complete Tower Defense waves.,yes,3
+00:00:00,00:00:34,worship,guide,,meta_change,any,,He has a more detailed Worship guide on improving stats and efficiency linked in the description.,yes,3
+00:00:34,00:01:05,worship|talent_points,Stop Right There,hunter,setup,unknown,,Spec Stop Right There as it roots multiple enemies around you; higher level means longer root.,yes,3
+00:00:34,00:01:05,worship|talent_points,360 NoScope,hunter,setup,unknown,,Spec 360 NoScope because it can hit multiple monsters.,yes,3
+00:00:34,00:01:05,worship|talent_points,Kung Fu Kick,hunter,setup,unknown,page=2,Spec Kung Fu Kick on page 2 as it pushes monsters back; higher level gives more knockback.,yes,3
+00:00:34,00:01:05,worship|talent_points,Piercing Arrow,hunter,setup,unknown,,Piercing Arrow is next to spec and it can hit multiple enemies.,yes,3
+00:01:05,00:01:38,worship,Tower Defense damage,,mechanic,unknown,damage_cap=1,Damage is capped at 1 per hit in Tower Defense so you do not need to spec into all damage talents.,yes,3
+00:01:05,00:01:38,worship,Tower Defense build,,account_note,unknown,wave=70,He shows one build that reached about wave 70; there are many other ways to place towers.,yes,3
+00:01:05,00:01:38,worship,Tower Defense summon,,how_to,unknown,,Click the Totem and select Summon to start waves; the portal comes from the left.,yes,3
+00:01:38,00:02:09,worship,tower placement,,setup,early,,Initial setup: Fireball Tower below the rope then Frost Tower; Pulse Mage next; then Fireball; Frost; and a last Fireball.,yes,3
+00:01:38,00:02:09,worship,tower placement,,mechanic,early,wave=10,The initial tower setup should get you easily through about wave 10.,yes,3
+00:02:09,00:02:43,worship,tower placement,,setup,early,wave=10,After wave 10 with enough points summon Kraken Defense Tower then a Party Tower at the top beside the rope.,yes,3
+00:02:43,00:03:14,worship,Party Tower,,priority,early,level=5,Level new Party Towers to level 5 as quickly as possible since that is when you get benefits.,yes,3
+00:02:43,00:03:14,worship,Party Tower,,mechanic,early,level=5;speed_bonus=25,Party Tower level 5 gives a 25% speed bonus.,yes,3
+00:02:43,00:03:14,worship,Party Tower,,priority,early,,Then wait on points to summon more Party Defense Towers.,yes,3
+00:02:43,00:03:14,worship,Tower Defense waves,,how_to,early,,Keep mobs in check with your abilities by rooting them or attacking yourself.,yes,3
+00:03:14,00:04:00,worship,Tower Defense waves,,mechanic,early,,Using root and attacks yourself helps get through early waves a lot faster.,yes,3
+00:04:00,00:04:32,worship,Fireball Tower,,priority,unknown,wave=29;level=5,Fireball Towers are primary damage dealers; upgrade them to level 5.,yes,3
+00:04:00,00:04:32,worship,Fireball Tower,,how_to,unknown,level=5,First Fireball upgrade is Trait B for Explosion Radius.,yes,3
+00:04:00,00:04:32,worship,Fireball Tower,,how_to,unknown,level=10,At level 10 select Trait A for chance of 2 Fireballs.,yes,3
+00:04:32,00:05:04,worship,Frost Tower,,how_to,unknown,level=5,Level Frozone Towers to about 5 and always select Trait B.,yes,3
+00:04:32,00:05:04,worship,Frost Tower,,warning,unknown,,Never select Trait A on Frozone Towers as it is not worth it.,yes,3
+00:04:32,00:05:04,worship,Pulse Mage Tower,,how_to,unknown,level=5,Level Pulse Mage Towers to 5 and always select Push Back Non Gigao Enemies.,yes,3
+00:05:04,00:05:36,worship,Pulse Mage Tower,,mechanic,unknown,,Pushing back enemies helps the Kraken Tower keep enemies in line.,yes,3
+00:05:04,00:05:36,worship,tower upgrades,,priority,unknown,towers=3,Fireball Frost and Pulse Mage are the three towers to primarily select upgrades for.,yes,2
+00:05:04,00:05:36,worship,Kraken Tower,,priority,unknown,,Kraken Cosplayer tower is the least upgrade priority.,yes,3
+00:05:04,00:05:36,worship,Kraken Tower,,how_to,unknown,push_back=25,Select Underlings Push Mobs Back 25% Farther on the Kraken tower to keep them under the Fireball Towers.,yes,3
+00:05:04,00:05:36,worship,tower upgrades,,priority,unknown,,Otherwise upgrade the towers as much as possible.,yes,2
+00:05:36,00:08:08,worship,Party Tower,,warning,unknown,increment=5;level=10,Upgrade Party Starter Towers in increments of 5; upgrades do nothing until the level 10 benefit so do not waste points unless you can reach it.,yes,2
+00:08:08,00:08:38,worship,Tower Defense late waves,,warning,late,,Later waves are overwhelming due to mob healing and massive health.,yes,3
+00:08:08,00:08:38,worship,tower upgrades,,priority,late,,Keep upgrading Fireball Towers and Party Towers as you need a ton of damage and attack speed.,yes,3
+00:08:08,00:08:38,worship,Tower Defense waves,,how_to,late,,Keep using roots and knockbacks as often as possible to keep mobs in range of the towers.,yes,3
+00:08:08,00:08:38,worship|construction,Construction Workbench,,priority,late,,At late stages it is mostly about upgrading towers in the Construction Workbench for more damage and lower upgrade cost.,yes,3

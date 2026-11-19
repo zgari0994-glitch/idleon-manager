@@ -1,0 +1,95 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+yI4ERRxKi0Q,nocturne,2022-10-07,00:00:00,00:00:31,general,,mining efficiency,,mechanic,any,,Mining Efficiency is the primary mining stat and dictates ore per hour; higher efficiency is needed for higher-level nodes and to reach Multi-Ore Drop Chance.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:00:31,00:00:31,general,,mining speed,,opinion,any,,Mining Speed is mostly boosted by food and affects ore per hour but is not worth focusing on.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:00:31,00:01:02,general,,mining speed,,mechanic,any,,Mining Speed is only really useful for getting the printer Samples unlocked in World 3.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:00:31,00:01:02,general,,multi-ore drop chance,,priority,early,,Don't focus on Multi-Ore Drop Chance early; it becomes much more important once efficiency reaches later ore tiers.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:01:02,00:01:33,general,,afk info,,how_to,any,,Check the AFK Info page Efficiency Requirement bar in a mining area to see ores per hour and exp per hour.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:01:02,00:01:33,general,,efficiency requirement,,threshold,any,starfire_ore_min_efficiency=1250000;full_gain_efficiency=50000000,Mining Starfire Ore needs 1.25 million efficiency but gains little until 100% at 50 million efficiency.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:01:33,00:02:04,general,,efficiency requirement,,threshold,any,efficiency_1x=50000000;efficiency_2_ores=403000000,At 50 million efficiency you get 1x; at 403 million you get two ores per swing on Starfire Ore.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:01:33,00:01:33,cards,,mining efficiency,,how_to,any,,Cards can be used to bump up Mining Efficiency quickly.,yes,2
+yI4ERRxKi0Q,nocturne,2022-10-07,00:02:04,00:02:37,general,,multi-ore drop chance,,mechanic,any,copper_multiplier=70;multi_ore_chance=155;total_multiplier=100,Efficiency multiplier is applied before Multi-Ore Drop Chance; 70x copper from efficiency plus 155% multi-ore gave over 100x ore.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:02:37,00:02:37,anvil,world-1/anvil,viking cap,,how_to,any,efficiency=10;anvil_tab=2,Viking Cap gives 10% Mining Efficiency and is made in Tab 2 of the Anvil.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:02:37,00:02:37,anvil,world-1/anvil,dirty coal miner baggy soot pants,,how_to,any,efficiency=5;anvil_tab=1,Dirty Coal Miner Baggy Soot Pants give 5% Mining Efficiency and are made in Tab 1 of the Anvil.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:02:37,00:02:37,anvil,world-1/anvil,rough rockers,,how_to,any,efficiency=35;anvil_tab=4,Rough Rockers give 35% Mining Efficiency and are made in Tab 4 of the Anvil.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:02:37,00:03:11,anvil,world-1/anvil,cavern trekkers,,how_to,any,efficiency=20;anvil_tab=2,Cavern Trekkers made in Tab 2 give 20% Mining Efficiency; upgrade them as soon as possible for a great boost.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:03:11,00:03:11,dungeons,account/misc/dungeons,persephones bouquet,,how_to,any,afk_gain=15,Persephone's Bouquet is bought from the Dungeon Flurbo Shop and gives 15% to all skill AFK gain rate.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:03:11,00:03:11,gem_shop,account/prem-currency/gem-shop,persephones bouquet,,how_to,any,afk_gain=15,Persephone's Bouquet is bought from the Dungeon Flurbo Shop and gives 15% to all skill AFK gain rate.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:03:11,00:03:41,general,,serrated rex rings,,how_to,any,skill_efficiency=6,Serrated Rex Rings give 6% skill efficiency at base and are crafted from a recipe dropped by Baba Yaga.,yes,2
+yI4ERRxKi0Q,nocturne,2022-10-07,00:03:41,00:04:12,general,,trinkets,,priority,any,,Trinkets are luck-based; prefer ones with plus all stats or percent Strength or more Mining EXP gain.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:03:41,00:04:12,general,,pickaxe,,priority,any,,Make the strongest pickaxe you can because Mining Power is one of the most important stats and gives more efficiency.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:04:12,00:04:12,general,,platinum tools,,mechanic,any,,From Platinum-level tools upward you also get a miscellaneous stat increasing Total Mining Efficiency.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:04:12,00:04:44,general,,golden peanuts,,priority,any,peanuts=100,Golden Peanuts boost Mining Efficiency with diminishing returns but are worth getting at least a couple hundred.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:04:12,00:04:44,general,,speed foods,,warning,any,,Icing Ironbite and Giftybread Man boost Mining Speed but are consumed quickly; don't use daily.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:04:44,00:04:44,printer,world-3/printer,sample,,how_to,any,,Save the speed foods for when you are trying to get a new Printer Sample.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:04:44,00:05:16,general,,food,,priority,any,,Golden Ham increases skill EXP; also use foods that increase Max HP.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:04:44,00:05:16,bubbles,world-2/bubbles,hearty diggy,,mechanic,any,,An Alchemy bubble gives Mining Efficiency based on HP but is snapshotted when you enter the map.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:05:16,00:05:49,bubbles,world-2/bubbles,hearty diggy,,how_to,any,efficiency_before=35000000;efficiency_after=36000000,Switch foods cards and Isaccian Shrine to max HP before re-entering the map; efficiency rose from 35 to 36 million.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:05:16,00:05:49,cards,,hearty diggy,,how_to,any,efficiency_before=35000000;efficiency_after=36000000,Switch foods cards and Isaccian Shrine to max HP before re-entering the map; efficiency rose from 35 to 36 million.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:05:49,00:06:20,bubbles,world-2/bubbles,hearty diggy,,how_to,any,efficiency=114000000,After snapshotting HP then switching foods and cards back to efficiency gear gets about 114 million efficiency.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:05:49,00:06:20,cards,,hearty diggy,,how_to,any,efficiency=114000000,After snapshotting HP then switching foods and cards back to efficiency gear gets about 114 million efficiency.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:05:49,00:06:20,general,,royal turban,,priority,any,,Royal Turban gives more Golden Food effect.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:05:49,00:06:20,gem_shop,account/prem-currency/gem-shop,opal rings,,priority,any,,Opal Rings from the Dungeon Flurbo Shop give another percentage to overall stats useful for the snapshot.,yes,2
+yI4ERRxKi0Q,nocturne,2022-10-07,00:05:49,00:06:20,dungeons,account/misc/dungeons,opal rings,,priority,any,,Opal Rings from the Dungeon Flurbo Shop give another percentage to overall stats useful for the snapshot.,yes,2
+yI4ERRxKi0Q,nocturne,2022-10-07,00:06:20,00:06:51,talent_points,,class,warrior|barbarian|squire,setup,any,,Use a Warrior-based class such as Barbarian or Squire because all mining talents are in the Warrior tree.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:06:20,00:06:51,talent_points,,brute efficiency,warrior,priority,any,,Brute Efficiency in Tab 1 is a top priority for total efficiency.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:06:20,00:06:51,talent_points,,idle skilling,warrior,priority,any,points=50,Idle Skilling gives AFK gain with diminishing returns; stop at 50 points then fill later.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:06:51,00:06:51,talent_points,,fist of rage,warrior,priority,any,,Next priority Fist of Rage raising base Strength which raises efficiency and max HP.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:06:51,00:06:51,talent_points,,health booster,warrior,priority,any,,Health Booster is the next priority for max HP.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:06:51,00:07:26,talent_points,,tab 2 talents,warrior,priority,any,,The four bottom talents on Tab 2 are roughly equal priority.,yes,2
+yI4ERRxKi0Q,nocturne,2022-10-07,00:06:51,00:07:26,talent_points,,big pick,warrior,how_to,any,,Big Pick gives more ores per hour but must be assigned to the attack bar.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:06:51,00:07:26,talent_points,,copper collector,warrior,mechanic,any,,Copper Collector gives mining efficiency based on copper ore in the storage chest.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:07:26,00:07:26,talent_points,,motherload miner,warrior,priority,late,,Motherload Miner gives Multi-Ore Drop Chance but wait until later in the game.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:07:26,00:07:57,talent_points,,tool proficiency,warrior,priority,any,,Tool Proficiency gives more Mining Power from pickaxes and is a priority.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:07:26,00:07:57,talent_points,,firmly grasp it|absolute unit,warrior,priority,any,strength_per_point=1;free_strength=15,Split points between Firmly Grasp It and Absolute Unit at one Strength per point; at least one point in Firmly Grasp It for free 15 Strength.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:07:57,00:07:57,talent_points,,stress tested garb,warrior,priority,early,,STR'ess Tested Garb gives strength from equipment but put few points early because gear gives little Strength until late.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:07:57,00:07:57,talent_points,,health overdrive,warrior,priority,any,,Health Overdrive is another great max HP boost.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:07:57,00:08:31,talent_points,,str summore,warrior,priority,any,,Put points into STR Summore for more max talent level in Fist of Rage.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:07:57,00:08:31,talent_points,,shieldiest statues,warrior,priority,any,,Shieldiest Statues gives more Mining Power from mining statues.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:08:31,00:08:31,talent_points,,fistful of obol,warrior,priority,any,,Fistful of Obol gives a very low Strength amount so it is one of the last priorities.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:08:31,00:09:03,talent_points,,back to the basics,warrior,how_to,any,,If you need more Tab 2 talent points put points in Back to the Basics to raise mining talent caps.,yes,2
+yI4ERRxKi0Q,nocturne,2022-10-07,00:08:31,00:09:03,talent_points,,super samples,squire,opinion,early,,Super Samples gives more sample size on Squire but is not a big early priority.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:09:03,00:09:33,talent_points,,skill strengthen,divine_knight,priority,any,,Skill Strengthen on Tab 4 gives skill efficiency from Strength and a small Strength boost.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:09:03,00:09:33,talent_points,,overblown testosterone,divine_knight,priority,any,,Overblown Testosterone adds talent points to Fist of Rage and increases Strength.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:09:03,00:09:33,talent_points,,symbols of beyond,divine_knight,priority,any,points=1,Symbols of Beyond gives talent points in all skills if you have at least one point in it.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:09:33,00:09:33,talent_points,,symbols of beyond,divine_knight,mechanic,any,extra_points=9;maxed_level=160,Symbols of Beyond gives up to about nine extra talent points in all skills when maxed at 160.,yes,2
+yI4ERRxKi0Q,nocturne,2022-10-07,00:09:33,00:10:05,talent_points,,star talents,,priority,any,,Star talents wanted: Will of the Eldest for base stats and Strength.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:09:33,00:10:05,talent_points,,tick tock,,priority,any,,Tick Tock is great for more AFK gain rates.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:09:33,00:10:05,talent_points,,toilet paper postage,,opinion,any,,Toilet Paper Postage is good depending on how high your stamps are.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:09:33,00:10:05,talent_points,,super source,,priority,any,,Put points into Super Source for more base efficiency on Tab 2.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:09:33,00:10:05,talent_points,,action frenzy,,priority,any,,Action Frenzy gives more speed to all skills.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:10:05,00:10:05,talent_points,,frothy malk,,priority,any,,Frothy Malk is worth points to boost foods.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:10:05,00:10:05,talent_points,,shrine architect|printer sampling|telekinetic storage,,priority,any,,Always put points into Shrine Architect and Printer Sampling and Telekinetic Storage.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:10:05,00:10:05,talent_points,,ubercharged health,,priority,any,,Tab 3 Ubercharged Health gives base HP.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:10:05,00:10:35,cards,,mining cards,,priority,any,,Cards wanted: Iron for efficiency; Dementia for speed; Platinum for AFK gain; Void for efficiency.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:10:35,00:11:07,cards,,mining cards,,priority,any,,Also Lustre for speed; Bunny and Amarok for AFK gain; Chaotic Troll for all skill efficiency.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:10:35,00:11:07,cards,,card sets,,how_to,any,,Use Easy Resources set for skill efficiency or Hard Resources set for AFK gain rate depending on your break points.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:11:07,00:11:41,general,,star signs,,priority,any,,Star signs: Dwarf Beardus for efficiency and multi-ore chance; The Big Comatose for skill AFK gain.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:11:07,00:11:41,general,,hydron,,priority,any,,Hydron tab: Comatose Major for AFK gain or Strandissi for percent Strength.,yes,2
+yI4ERRxKi0Q,nocturne,2022-10-07,00:11:07,00:11:41,stamps,world-1/stamps,mining stamps,,priority,w1,,Pickaxe Stamp gives base Mining Efficiency.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:11:41,00:12:11,stamps,world-1/stamps,mining stamps,,priority,w1,,Twin Ores for multi-ore; Smart Dirt for Mining XP; Cool Diggy Tool for base efficiency; Lil Mining Baggy for carry capacity.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:11:41,00:12:11,stamps,world-1/stamps,combat stamps,,priority,w1,,Combat tab: Heart Stamp for base HP and Fist Stamp plus further Strength stamps.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:12:11,00:12:43,statues,,mining statues,,priority,w1,,Statues: Mining Statue for Mining Power; Feasty for food effect; Health for base health.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:12:11,00:12:43,statues,,golden statues,,priority,w1,,Pick up Golden Statues because they share statues across all characters.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:12:11,00:12:43,bubbles,world-2/bubbles,alchemy bubbles,,priority,w2,,Alchemy: Roid Ragin for Strength and Warriors Rule which doubles other bubble bonuses.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:12:43,00:13:14,bubbles,world-2/bubbles,hearty diggy,,priority,w2,,Hearty Diggy is one of the most important bubbles giving efficiency based on total HP.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:12:43,00:13:14,bubbles,world-2/bubbles,wyoming blood,,how_to,w2,,Wyoming Blood is a large bubble that must be equipped on the right side and gives multi-ore chance.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:12:43,00:13:14,bubbles,world-2/bubbles,mining bubbles,,priority,w2,,Reely Smart for mining EXP; Stronk Tools for pickaxe skilling power; Dreams of Ironfish for mining AFK gain.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:13:14,00:13:48,bubbles,world-2/bubbles,prowesessary,,mechanic,w2,,Prowesessary raises prowess which reduces the efficiency needed to reach Multi-Ore Drop Chance.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:13:14,00:13:48,bubbles,world-2/bubbles,prowesessary,,how_to,w4,,There is another way to get Prowesessary in World 4 to be covered later.,yes,2
+yI4ERRxKi0Q,nocturne,2022-10-07,00:13:14,00:13:48,lab,world-4/laboratory,prowesessary,,how_to,w4,,There is another way to get Prowesessary in World 4 to be covered later.,yes,2
+yI4ERRxKi0Q,nocturne,2022-10-07,00:13:14,00:13:48,vials,world-2/vials,void vial,,priority,w2,,Void Vial gives Mining Efficiency and is doubled due to a World 4 bonus.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:13:48,00:14:21,general,,post office,,priority,w2,,Post Office: Dwarven Supplies box for efficiency prowess and AFK gain; Myriad Crate for base efficiency and EXP.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:13:48,00:14:21,general,,post office,,opinion,w2,,HP Box for max HP is low priority.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:14:21,00:14:21,general,,obols,,priority,w2,,Get as many obols giving Mining Power and Strength as possible.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:14:21,00:14:51,general,,family tab,,warning,any,,Family tab bonuses are shared among all characters so be careful filling them with mining unless it is your big focus.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:14:21,00:14:51,prayers,world-3/prayers,skilled dimwit,,priority,w3,,Prayer Obelisk Skilled Dimwit increases skill efficiency at the cost of reduced skill EXP.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:14:51,00:15:24,prayers,world-3/prayers,prayer pairs,,mechanic,w3,,Another prayer increases EXP gain but decreases efficiency; choose a pair depending on what you want.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:14:51,00:15:24,cooking,world-4/cooking,dinner menu,,priority,w4,,Dinner Menu: Corn for total skill efficiency and Riceball for skill efficiency.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:15:24,00:15:56,cooking,world-4/cooking,leek,,priority,w4,,Leek gives skilling prowess reducing efficiency needed for multi-ore chance.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:15:24,00:15:56,lab,world-4/laboratory,bonuses,,priority,w4,,Certified Stamp Book doubles stamp bonuses and My 1st Chemistry Set doubles vials; both boost efficiency.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:15:24,00:15:56,lab,world-4/laboratory,emerald navette,,priority,w4,,Emerald Navette gives base efficiency and skilling action speed.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:15:56,00:16:30,lab,world-4/laboratory,chips,,priority,w4,,Console chips give skill efficiency: red chip for total skill efficiency and another for base skill efficiency.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:15:56,00:16:30,lab,world-4/laboratory,chips,,priority,w4,,Chips boosting trophy or keychain bonuses and two grayer chips doubling card bonuses in top-left or bottom-right slots are worth mentioning.,yes,2
+yI4ERRxKi0Q,nocturne,2022-10-07,00:16:30,00:17:03,guild,account/misc/guild,guild bonuses,,priority,any,,Guild bonuses: Stat Runes for total stats; Multi Tool for skill efficiency; Sleepy Skiller for AFK gain; Star Dazzle for star talent points.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:16:30,00:17:03,talent_points,,right hand of action,maestro,priority,any,,Maestro's Right Hand of Action gives a large skill efficiency benefit.,yes,3
+yI4ERRxKi0Q,nocturne,2022-10-07,00:17:03,00:17:03,talent_points,,right hand of action,maestro|squire,warning,any,,Maestro's skill level must be higher than the Squire's Mining level or you don't get the bonus.,yes,3

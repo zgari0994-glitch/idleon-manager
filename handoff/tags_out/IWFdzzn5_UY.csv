@@ -1,0 +1,47 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,royal_armory,kingdom_map,royal_guardian,priority,w4,,World 4 progression route: purple mushroom then TVs then Demon Genie finishes World 4.,yes,3
+00:00:31,00:01:02,royal_armory,kingdom_map,royal_guardian,how_to,w4,,You can skip straight to TVs on reaching World 4 then go to Genies because of the Kingdom Sovereignty shelf upgrade.,yes,3
+00:01:02,00:01:32,royal_armory,kingdom_sovereignty,royal_guardian,mechanic,w4,,Kingdom Sovereignty with a commander gives the first location of a new world free if no outpost is built there; max TVs and skip building.,yes,3
+00:01:02,00:01:32,royal_armory,kingdom_map,royal_guardian,mechanic,w4,first_location_cost=30000000,World 4 locations take a lot to grind; the first location costs about 30 million so skipping it is a big deal.,yes,3
+00:01:32,00:02:03,royal_armory,genie_outpost,royal_guardian,target,w4,support_camps=2,Unlock the first two locations then Genie because from Genie you can reach everything else on the map with two support camps.,yes,3
+00:02:03,00:02:33,royal_armory,expanded_barracks,royal_guardian,target,w4,guards=4;command_rank=7,You need about four guards in expanded barracks and around command rank 7 to reach everything on the map; that is the whole meta.,yes,3
+00:02:03,00:03:03,royal_armory,marble_farming,royal_guardian,priority,any,,Best marble farming order is TVs then cans (soda cans) and then floms; pearlers/clammies come in between but should be skipped.,yes,3
+00:02:33,00:03:03,royal_armory,marble_farming,royal_guardian,skip,any,clammies_cost=1770000000,Skip clammies (drop pearlers) because they cost 1.77 billion and the gap between pearlers and floms is much bigger than cans to clammies.,yes,3
+00:03:03,00:03:33,royal_armory,progression,royal_guardian,priority,any,,No reason in short or medium term to go for anything besides TVs then cans then floms since all nodes are already reachable.,yes,3
+00:03:33,00:04:03,royal_armory|statues,dragon_statue,royal_guardian,priority,any,,Marble matters because the dragon statue is the strongest statue and multiplies everything else including things like Feasty.,yes,3
+00:03:33,00:04:03,royal_armory|menagerie|statues,luminous_menagerie,royal_guardian,mechanic,any,tier=4,Luminous Menagerie adds a new tier letting you upgrade statues past superior to a fourth tier so marble stays relevant.,yes,3
+00:04:03,00:04:33,royal_armory,marble_farming,royal_guardian,opinion,any,months=6-12,He thinks marble farming will be where the Royal Guardian meta settles for the next 6 to 12 months.,yes,3
+00:04:03,00:04:33,royal_armory,advanced_logistics,royal_guardian,meta_change,any,,Advanced Logistics is useless now; his old advice to put points in edge nodes is outdated.,yes,3
+00:04:33,00:05:04,royal_armory,global_decree,royal_guardian,mechanic,any,,Global Decree gives collection rate per outpost level and Global Decree RG per resource grade; both scale very well so collection rate is no longer lacking.,yes,3
+00:05:04,00:05:34,royal_armory,advanced_logistics,royal_guardian,skip,any,,Ignore Advanced Logistics entirely even for edge nodes; this could change if new mechanics are introduced later.,yes,3
+00:05:04,00:05:34,royal_armory,expanded_barracks,royal_guardian,target,any,level=3-4,Get Expanded Barracks to level 3 or 4; level 5 was overkill.,yes,3
+00:05:34,00:06:05,royal_armory,greater_education,royal_guardian,mechanic,any,extra_points=24;level=3,Barracks level 3 is the sweet spot giving 24 extra points for Greater Education which scales with decrees and increases unit EXP for command.,yes,3
+00:05:34,00:06:05,royal_armory,purity,royal_guardian,priority,late,,Purity is the next chase for non-iOS-bug players and Greater Education helps with it so prepare now.,yes,3
+00:06:05,00:06:35,royal_armory,worker_rotation,royal_guardian,target,any,intel_rank=15;trading_rank=15,Use surveyors and get Intel rank 15 and trading rank 15 as a baseline.,yes,3
+00:06:05,00:07:05,royal_armory,worker_rotation,royal_guardian,target,any,intel_rank=30,Then push both Intel and trading to 30 plus; he keeps them around the same and prefers pushing Intel for purity.,yes,3
+00:06:35,00:07:05,royal_armory,worker_rotation,royal_guardian,opinion,any,rank_range=30-35,Trading slows past rank 30-35 so go Intel; trading will not halt because stationary units come in from command rank.,yes,3
+00:07:05,00:07:37,royal_armory,worker_rotation,royal_guardian,priority,any,,Focus surveyors mostly then trading when easy to get points and send those points back into Greater Education.,yes,3
+00:07:05,00:07:37,royal_armory,workers_guards,royal_guardian,skip,any,,Workers are mostly useless since collection rate is not lacking; use guards only when needed such as World 4 hard-to-reach nodes.,yes,3
+00:07:37,00:08:07,royal_armory,stationary_units,royal_guardian,how_to,any,support_camps=2,Place the little movable units on the location you want to boost and feed them via one or two support camps to push that map.,yes,2
+00:08:07,00:08:37,royal_armory,command_rank,royal_guardian,mechanic,any,command_rank=8,Command rank gives more units and range and collection rate stay after moving units away; his units hit command rank 8 quickly.,yes,3
+00:08:37,00:09:07,royal_armory,collection_rate,royal_guardian,mechanic,late,,You still need a little collection rate for resource grades into the quintillions but not a huge amount.,yes,3
+00:09:07,00:09:37,royal_armory,unit_movement,royal_guardian,how_to,any,,He goes sequentially through each camp supporting it with research and support camps and moving all units to the next node via move units.,yes,2
+00:09:37,00:10:08,royal_armory,shelf,royal_guardian,priority,any,,Shelf prioritization: generally buy the lowest cost node among those sharing the same resource.,yes,3
+00:10:08,00:10:38,royal_armory,shelf,royal_guardian,mechanic,any,,Cheapest upgrades get you more shelf lines and bigger break points like global decrees and royal decree sooner so collection rate matters less.,yes,3
+00:10:38,00:11:09,royal_armory,kingdom_sovereignty,royal_guardian,priority,any,,Exception: ignore the desert militia line if close to a new Kingdom Sovereignty level because it gets commanders from new worlds sooner.,yes,2
+00:11:09,00:11:41,royal_armory,kingdom_sovereignty|purity,royal_guardian,threshold,late,level=22,Purifying needs level 22 on Kingdom Sovereignty; only players who benefited from the iOS bug have reached it so prioritize it.,yes,2
+00:11:09,00:11:41,royal_armory,shelf,royal_guardian,priority,any,,In all other situations just buy the lowest cost shelf upgrade; he buys super surveys rather than saving up.,yes,3
+00:11:41,00:12:41,equinox|royal_armory,lock_in,royal_guardian,warning,any,,Equinox lock in for the Farmer Joe shelf upgrade only levels when you cloud save; some say swapping characters works.,yes,3
+00:12:41,00:13:11,royal_armory,omelette_shop_emulsion,royal_guardian,priority,any,level=3;chance=50;statue_xp=1000000,Emulsion around level 3 is within range and highly recommended giving 50% extra chance of 1 million statues worth of XP.,yes,2
+00:13:11,00:13:41,royal_armory,omelette_shop_talents,royal_guardian,opinion,any,,Talents in the omelette shop are nice to grab whenever you can.,yes,2
+00:13:11,00:13:41,royal_armory,omelette_shop_hydration,royal_guardian,skip,any,,Skip Hydration because resource collection is already plentiful and it is not a strong source.,yes,3
+00:13:11,00:13:41,royal_armory,omelette_shop_extra_kills,royal_guardian,opinion,w4,,Extra kills is okay up to a point; a few points help World 4 clearing but not necessary.,yes,3
+00:13:11,00:14:12,royal_armory,omelette_shop_glorification,royal_guardian,priority,w4,,Glorification is good with leftover points especially for World 4 edge node demon genies to double the level up rate.,yes,2
+00:13:41,00:14:12,royal_armory,omelette_shop_intervene,royal_guardian,priority,any,,Intervene is good and he would push it further; he is deciding between it and Bargain 12.,yes,2
+00:13:41,00:14:12,royal_armory,omelette_shop_stronk_rank,royal_guardian,opinion,any,,Stronk rank is okay but not needed since units supply plenty.,yes,2
+00:14:12,00:14:43,royal_armory|masterclass,omelette_shop_bargain,royal_guardian,priority,any,,Bargain is fantastic; put the lion's share of points there; it accelerates Royal Guardian and reduces masterclass cost on this character.,yes,3
+00:14:12,00:14:43,royal_armory,omelette_shop_long_range,royal_guardian,skip,any,,Long range is worthless because other mechanics give so much range.,yes,3
+00:14:12,00:14:43,royal_armory,omelette_shop_parch_more,royal_guardian,opinion,any,,Parch more will eventually be good but is too expensive for the short term.,yes,2
+00:14:43,00:15:13,royal_armory,omelette_shop,royal_guardian,priority,any,,Focus omelette shop points on Bargain then Intervene then Emulsion.,yes,3
+00:14:43,00:15:13,royal_armory,advanced_logistics,royal_guardian,skip,w4,points=2,No point in Advanced Logistics in later worlds; collection rate and range are not needed; put points in Greater Education for command rank.,yes,3
+00:15:13,00:15:13,royal_armory,command_rank,royal_guardian,priority,any,points_per_unit=12,Command rank is what matters now because it gives extra units and gets you to priest faster; units are good when they do not cost 12 points each.,yes,2

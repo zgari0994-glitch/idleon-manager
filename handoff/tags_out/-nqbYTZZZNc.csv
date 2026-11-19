@@ -1,0 +1,50 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,lab,overview,,mechanic,any,world=4,Laboratory is a World 4 passive skill with very little active gameplay; split into two sections plus a weekly-resetting small shop.,yes,3
+00:00:32,00:01:05,lab,upload player,,how_to,any,,Bring character to the Laboratory and click Upload Player in the Mainframe to activate it; red X disappears.,yes,3
+00:01:05,00:01:05,lab,upload player,,warning,any,,Once a character is active in Lab it can't be used for anything else until extracted; extracted characters lose Lab bonuses.,yes,3
+00:01:05,00:01:40,lab,mainframe,,mechanic,early,min_characters=2,Before leveling up you need at least two uploaded characters in the Lab to gain any benefits.,yes,3
+00:01:05,00:01:40,lab,mainframe,,how_to,any,,Drag first character near the prism to create a line then drag next character near the bonus you want; connect the dots.,yes,3
+00:01:40,00:02:13,lab,mainframe,,priority,any,,Goal is to connect more bonuses with the fewest characters so other characters can do other things.,yes,3
+00:02:13,00:02:46,lab|pets,mainframe bonus,,mechanic,any,,One square box gives Total Damage for every pet breed unlocked.,yes,3
+00:02:13,00:02:46,lab|printer,mainframe bonus,,mechanic,any,multiplier=2,Another box makes uploaded players print 2 times more on the 3D Printer.,yes,3
+00:02:13,00:02:46,lab|sigils,mainframe bonus,,mechanic,any,,Sigils from Alchemy need the Lab bonus activated to unlock.,yes,3
+00:02:46,00:03:16,lab,jewels,,mechanic,any,,Jewels are a second type of Mainframe bonus; multiple of each color and each gives a bonus.,yes,3
+00:02:46,00:03:16,lab,jewels,,mechanic,any,lab_exp_percent=40,One jewel gives 40% more Lab Experience.,yes,3
+00:02:46,00:03:16,lab|construction,jewels,,mechanic,any,speed_multiplier=3;slot=1,One jewel makes Construction Slot 1 three times faster.,yes,3
+00:02:46,00:03:16,lab|farming,jewels,,mechanic,any,,One jewel increases the bonus from the Animal Farm and gives more damage.,yes,2
+00:03:16,00:03:49,lab,console,,mechanic,any,,Console Tab holds Lab rewards unlocked by leveling characters; each benchmark unlocks a new Chip Slot with passive bonuses.,yes,3
+00:03:49,00:03:49,lab,chips,,mechanic,any,,Chips are single use and can be equipped on one character at a time unless you have multiple copies.,yes,3
+00:03:49,00:04:23,lab,chips,,mechanic,any,chips=22;chip_slots=7,There are 22 chips available and currently 7 chip slots can be unlocked; bonuses include damage defense skill efficiency.,yes,3
+00:04:23,00:04:23,lab,chips,,tip,any,,Chips can be removed by deselecting and re-added to another character so don't be afraid to equip them even if not long-term.,yes,3
+00:04:23,00:05:00,lab,shop,,mechanic,any,,The weekly-resetting Lab shop is unlocked by buying specific items from the World 4 NPC shop.,yes,3
+00:05:00,00:05:33,lab,chip repository,,how_to,any,pile_of_processor_chips=3;purchase_limit_per_day=1,Buy 3 Pile of Processor Chips (one per day) then click and hold to unlock the Chip Repository shop.,yes,3
+00:05:00,00:05:33,lab,jewel spinner,,how_to,any,strung_jewels=7,Buy 7 Strung Jewels from the NPC shop to unlock the Jewel Spinner shop.,yes,3
+00:05:00,00:05:33,lab,shop,,mechanic,any,,The shops are located between the Mainframe and the Lab Tubes and are somewhat hidden.,yes,3
+00:05:33,00:06:05,lab,chip repository,,mechanic,any,chips_per_week=2,Chip Repository lets you buy 2 chips each week; they differ and reset weekly with a timer; they cost lots of resources.,yes,3
+00:06:05,00:06:37,lab|cooking|breeding,chip repository,,mechanic,any,,Chip costs include materials skilling or monster drops plus cooking meals and spices from Breeding foraging; they are worth unlocking.,yes,3
+00:06:05,00:06:37,lab,chip repository,,priority,any,,Boosts mainframe line width chip is a very good chip to get.,yes,3
+00:06:37,00:07:07,lab,jewel spinner,,mechanic,any,,Jewel Spinner is one of two ways to unlock jewels; requires rare drops plus lots of meals and spices.,yes,3
+00:06:37,00:07:07,lab,jewel spinner,,priority,any,,Pick up the weekly shop items quickly since they reset each week to reduce time unlocking all jewels.,yes,3
+00:07:07,00:07:40,lab|gem_shop,jewels,,mechanic,any,cost_gems=450;per_week=2;jewels=18,Gem Shop World 4 bonuses sells Mainframe Jewels at 450 gems each limited to 2 per week; 18 jewels total so it takes many weeks.,yes,3
+00:07:40,00:08:10,lab,skill efficiency,,mechanic,any,,Lab Efficiency only increases EXP gain and gives no other skill benefit.,yes,3
+00:08:10,00:08:10,lab,skill efficiency,,warning,any,efficiency=12100,Don't waste time getting too much efficiency if you can't hit breakpoints; at 12.1K he gains almost nothing extra.,yes,3
+00:08:10,00:08:42,lab,class,,mechanic,any,,No class can specialize in any World 4 skill so use whichever characters aren't used for other things.,yes,3
+00:08:10,00:08:42,lab,pixel width,,mechanic,any,,Each Lab level increases Pixel Width allowing fewer characters to gain the same bonuses.,yes,3
+00:08:42,00:09:14,lab,gear,,setup,any,,Lab Ring and Laboratory Scrubs directly increase Lab Efficiency.,yes,3
+00:08:42,00:09:14,lab,gear,,how_to,any,,Lab Ring upgrade: Souped Lab Ring Recipe can drop from new mini-boss Mutated Mush.,yes,3
+00:09:14,00:09:44,lab|anvil,gear,,how_to,any,tab=4;scrubs_required=4;lab_efficiency=400,Upgrade shoes at the Anvil Tab 4 into Sheek Scrubs using 4 Laboratory Scrubs for 400 Lab Efficiency if you can afford the materials.,yes,3
+00:09:44,00:10:15,lab|cooking,kitchen,,priority,any,,Corn is the earliest recipe giving much Skill Efficiency.,yes,3
+00:09:44,00:10:15,lab|cooking,kitchen,,mechanic,any,,Garlicless Bread gives a direct bonus to Lab EXP.,yes,3
+00:09:44,00:10:15,lab|cooking,kitchen,,mechanic,any,,Pancakes is the earliest recipe increasing Line Width in the Lab Mainframe.,yes,3
+00:10:15,00:10:15,lab|cooking,kitchen,,mechanic,any,pixels_per_level=2,Each Pancakes level gives 2 more pixels from all characters.,yes,3
+00:10:15,00:10:48,lab|cooking,kitchen,,mechanic,any,recipes_with_pixel_width=2,Multiple recipes provide these bonuses and stack; about two offer Pixel Width so more cooking gives extra Pixel Width.,yes,2
+00:10:15,00:10:48,lab|cards,cards,,priority,any,,Card priority starts from World 4 mobs.,yes,3
+00:10:48,00:11:20,lab|cards,gelatinous cuboid,,priority,any,,Gelatinous Cuboid card gives more Lab EXP gain.,yes,3
+00:10:48,00:11:20,lab|cards,crystal custard,,priority,any,,Crystal Custard card gives more passive line width.,yes,3
+00:10:48,00:11:20,lab|cards,chaotic troll,,priority,any,efficiency_percent=30,Chaotic Troll card gives 30% more efficiency to all skills.,yes,3
+00:10:48,00:11:20,lab|cards,chaotic efaunt,,priority,any,,Chaotic Efaunt card gives more skill EXP gain.,yes,3
+00:10:48,00:11:20,lab|cards,bunny and amarok,,priority,any,,Bunny card and Amarok card both give more skill AFK gain rate.,yes,3
+00:11:20,00:11:51,lab|cards,card set,,setup,any,,Use the Easy Resources card set for the biggest benefit to skill efficiency.,yes,3
+00:11:20,00:11:51,lab,post office,,mechanic,any,lab_efficiency=1600;lab_exp_percent=29;base_luk=18,Science Spare Parts Box gives up to 1600 Lab Efficiency and 29% Lab EXP; +18 base LUK likely placeholder.,yes,2
+00:11:51,00:12:24,lab|stamps,lab tube stamp,,mechanic,any,lab_exp_percent=10;level=10,Lab Tube Stamp at bottom of Skills tab gives 10% more Lab EXP at level 10.,yes,3
+00:11:51,00:12:24,lab|stamps,lab tube stamp,,opinion,any,,Lab Tube Stamp is a great way to raise Line Width faster by gaining more experience.,yes,2

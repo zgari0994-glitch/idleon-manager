@@ -1,0 +1,30 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,lab,chip repository,,comparison,any,interval_min=10,Will compare 10-minute runs with and without Choco chip to show how overpowered it is,yes,3
+00:00:00,00:00:30,lab,chip repository Choco chip,,mechanic,any,spawn_chance_pct=75,Choco chip has 75% chance to spawn a crystal mob after defeating a crystal mob,yes,3
+00:00:30,00:01:00,lab,chip repository Choco chip,,mechanic,any,crystal_mobs_from_one=15,Choco chip creates crystal trains; he has gotten over 15 crystal mobs from a single crystal mob,yes,3
+00:00:30,00:01:00,lab|statues,Choco chip,divine_knight,setup,any,,Choco chip is good for statue farming with Divine Knight,yes,3
+00:00:30,00:01:00,lab|class_exp,Choco chip,,setup,any,,Choco chip is good for XP farming,yes,3
+00:00:30,00:01:00,lab|bubbles,Choco chip,bubonic_conjuror,setup,any,,Choco chip is good for alchemy farming with Bubonic Conjuror,yes,3
+00:01:00,00:01:30,lab,Choco chip,,setup,any,,Choco chip is good for crystal countdown; also for obols golden food and active XP farming,yes,2
+00:01:00,00:01:30,lab|event_shop,pile of processor chips,,how_to,any,chips_needed=3,Buy pile of processor chips in world force shop; collect three and consume to unlock chip repository bonus in laboratory,yes,2
+00:01:00,00:01:30,lab,chip repository,,mechanic,any,,Chip repository rotates chips on offer; chocolate chip has a chance of appearing in rotation,yes,2
+00:01:30,00:02:01,gem_shop|lab,world 4 category chips,,how_to,any,cost_gems=385;max_per_week=7,Alternative: buy chips in gem shop world 4 category for about 385 gems each; seven per week,yes,3
+00:01:30,00:02:01,gem_shop|lab,chips,,warning,any,,Buying chips from gem shop is a gamble and could cost thousands of gems for one chip,yes,3
+00:01:30,00:02:01,lab,chip repository,,mechanic,any,,Chip repository rotations can be set months in advance,yes,3
+00:02:01,00:02:31,gem_shop|lab,chips,,skip,any,,Do not gamble gems on chips; not worth it,yes,3
+00:02:01,00:02:31,lab,chip repository,,how_to,any,,Upcoming chip rotations can be seen on the IdleOn wiki,yes,3
+00:02:01,00:02:31,lab|sneaking,chip repository,,mechanic,endgame,,Two chips shown in rotation because of laboratory bling upgrade from sneaking,yes,2
+00:02:31,00:03:03,lab|sneaking,chip repository,,mechanic,endgame,,Left side of rotation is without sneaking upgrade and right side is with laboratory bling sneaking upgrade; rotations differ by progress,yes,2
+00:02:31,00:03:03,statues,crystal farming,,afk_spot,any,,He has another video on a good place to farm crystal spawns for statue farming,yes,3
+00:03:03,00:03:33,statues|lab,Choco chip test,divine_knight,comparison,any,drop_rarity=44.87;battle_axe=193;sailing=163;divinity=98,Without Choco chip in 10 minutes: 193 battle axe 163 sailing 98 divinity statue drops at 44.87 drop rarity,yes,2
+00:03:03,00:03:33,drop_rate,Choco chip test,,comparison,any,pens=27;leaves=12000;resets=39;mystery_stones=67;nages=415;oj_juice=23;golden_hampter=145;diamond=4;portal_lures=2,Without Choco chip other drops: 27 pens 12000 leaves 39 resets 67 mystery stones 415 nages 23 OJ juice 145 golden hampter 4 diamond 2 portal lures,yes,2
+00:03:33,00:04:03,statues,statue farming,divine_knight,priority,any,,On Divine Knight statue farming the main focus is statue drops,yes,3
+00:04:03,00:04:35,statues|lab,Choco chip test,,comparison,any,battle_axe=719;sailing=509;divinity=414,With Choco chip: 719 battle axe 509 sailing 414 divinity statues; about four to five times more,yes,3
+00:04:03,00:04:35,advice_fish|lab,fishing lines,,comparison,any,,Fishing lines also differ substantially with Choco chip,yes,2
+00:04:35,00:05:05,lab,Choco chip,,comparison,any,multiplier_low=4;multiplier_high=6,Same drop rarity and crystal chance but Choco chip gave four to six times the amounts,yes,3
+00:04:35,00:05:05,lab,chip repository,,account_note,any,choco_rotations_this_month=3,Three Choco chip rotations come within this month; if you miss one you can get it next rotation,yes,3
+00:05:05,00:05:36,lab,crystal chance,,account_note,any,crystal_chance=1_in_23;crystal_pct=4.26,His crystal chance is about 1 in 23 which is 4.26% per kill,yes,2
+00:05:05,00:05:36,lab,Choco chip,,opinion,any,,Choco chip is one of the most overpowered items in IdleOn and nothing is more OP,yes,3
+00:05:05,00:05:36,lab|statues|class_exp|drop_rate,Choco chip,,mechanic,any,,Choco chip gives huge statues golden food leaves lures money and XP,yes,3
+00:05:36,00:06:06,class_exp|lab,crystal farming,,how_to,any,,Best way to XP farm is crystal farming: active farm crystal run XP with demon genie and poop card,yes,3
+00:05:36,00:06:06,lab,Choco chip,,priority,any,,If Choco chip is in rotation go buy it,yes,3

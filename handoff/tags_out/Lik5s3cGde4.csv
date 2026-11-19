@@ -1,0 +1,19 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:01,00:00:32,quests,Efaunt access quest part 1,,how_to,w2,mana_potions=200;icing_ironbites=600;jellyfish=150,"To access Efaunt, first Djonnut quest needs 200 Average Mana Potions, 600 Icing Ironbites from smithing, and 150 Jellyfish from fishing.",yes,3
+00:00:01,00:00:01,weekly_boss,Efaunt location,,mechanic,w2,,Efaunt is the second world boss located in the second to last zone of Yum-Yum Desert.,yes,3
+00:00:32,00:01:05,quests,Efaunt access quest part 2,,how_to,w2,moonmen_kills=10000;ghost=1,"Second quest needs 10,000 Moonmen kills in Up Down and a Ghost, a rare Moonmen drop; the two keys let you enter the tomb.",yes,3
+00:01:05,00:01:05,weekly_boss,Efaunt accuracy,,threshold,w2,min_accuracy_to_hit=275;accuracy_for_100pct_hit=825,Efaunt needs at least 275 Accuracy to hit him and 825 Accuracy for a 100% hit chance.,yes,3
+00:01:05,00:01:39,weekly_boss,Efaunt hammer smash,,mechanic,w2,,Hammer smash swipes the first platform then bounces to the second; safe at far left of either platform or the small bottom platform.,yes,3
+00:01:39,00:01:39,weekly_boss,Efaunt food,,warning,w2,,Bring plenty of food because he does a lot of damage; hammer is significant but survivable.,yes,3
+00:01:39,00:02:09,weekly_boss,Efaunt blue orb flames,,mechanic,w2,spouts=4,Blue orb lights every platform with 4 spouts of blue flames that do small damage and are easily tankable.,yes,3
+00:02:09,00:02:41,weekly_boss,Efaunt death laser,,mechanic,w2,,Bottom left arm uses a Death Laser with a hand wiggle; the laser is not visible so watch the wiggling hand.,yes,3
+00:02:09,00:02:41,weekly_boss,Efaunt death laser,,how_to,w2,,Use abilities that attack above you by standing below and throwing your axe as a way to fight it.,yes,2
+00:02:41,00:02:41,weekly_boss,Efaunt death laser damage,,warning,w2,laser_damage=6000,Laser can one-shot nearly everybody; it hit him for over 6000 damage so avoid it.,yes,3
+00:02:41,00:03:11,weekly_boss,Efaunt caress,,mechanic,w2,,Top right arm uses Caress melee-range grab that one-shots for several thousand damage; just move out of the way.,yes,3
+00:03:11,00:03:11,weekly_boss,Efaunt purple orb,,mechanic,w2,,Purple orb fires glowing purple rings that track your movement until fired then keep their direction.,yes,3
+00:03:11,00:03:42,weekly_boss,Efaunt scimitar,,mechanic,w2,platforms=3,Scimitar raises to top and slashes down hitting all 3 platforms in melee range; stand at the back of the platform to dodge.,yes,3
+00:03:42,00:04:17,weekly_boss,Efaunt arms,,how_to,w2,,Kill all the arms first to reach the head; pay attention to the top arm as it does significant damage.,yes,3
+00:04:17,00:04:17,weekly_boss,Efaunt auto-attack,,warning,w2,,Turn off Auto-Attack so you don't get killed by mistake.,yes,3
+00:04:17,00:04:48,weekly_boss,Efaunt arm kill order,,priority,w2,,Abilities are in a rotation; kill bottom left arm first then top right, then the others in any order.,yes,3
+00:04:48,00:05:18,weekly_boss,Efaunt head,,mechanic,w2,,Head fires giant blue ring patterns and periodic blue rings that do meager damage; easy to survive with plenty of food.,yes,3
+00:05:18,00:05:18,weekly_boss,Efaunt loot,,account_note,w2,,Loot includes a Gem that opens World 3; blue silk used for armor; Midnight Cookie used in several crafting pieces.,yes,3

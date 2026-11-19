@@ -1,0 +1,71 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,bubbles|cauldrons_liquids|vials|sigils,alchemy overview,,mechanic,any,,Alchemy is passive skill giving benefits to nearly every other section; leveled passively by placing characters in one of 3 sections,yes,3
+00:00:00,00:00:00,cauldrons_liquids,liquids section,,priority,any,,Placing characters in the Liquids section gives the most Alchemy experience,yes,3
+00:00:30,00:00:30,bubbles|cauldrons_liquids|vials,alchemy,shaman,mechanic,any,,Shaman class specializes in Alchemy and gets a few talent points to progress faster,yes,3
+00:00:30,00:00:30,bubbles|cauldrons_liquids|vials,alchemy speed,,setup,any,,Alchemy speed scales from Wisdom so use characters with the most wisdom in the locations you want to grow fastest,yes,3
+00:00:30,00:00:30,bubbles|cauldrons_liquids|vials,alchemy sections,,mechanic,any,sections=4,Alchemy has 4 sections: Brewing and Liquids and Vials and the Pay2Win tab,yes,3
+00:00:30,00:01:02,cauldrons_liquids,brewing cauldrons,,mechanic,any,cauldrons=4,Alchemy menu has 4 brewing cauldrons with the same options but each must be leveled separately,yes,3
+00:01:02,00:01:33,bubbles,brew bar,,mechanic,any,,Brew bar fills passively with at least 1 character assigned; each fill can be spent by clicking Brew,yes,3
+00:01:33,00:02:05,bubbles,brew speed,,mechanic,any,,Brew speed per hour shows how fast bar fills; adding more characters raises it depending on their level,yes,3
+00:01:33,00:01:33,bubbles,new bubble chance,,mechanic,any,,The number next to the bubble is chance to unlock a new bubble for that cauldron,yes,3
+00:02:05,00:02:36,bubbles,boost speed,,mechanic,any,speed_per_level=5%,Boost Speed increases brewing speed by 5% per level and has its own XP bar costing brew,yes,3
+00:02:36,00:02:36,bubbles,boost luck,,warning,any,,Luck boost only works on odd levels; even levels do nothing so always stop leveling on an odd number,yes,3
+00:02:36,00:02:36,bubbles,boost cost,,mechanic,any,,Cost boost decreases the brew cost of leveling anything in the cauldron,yes,3
+00:02:36,00:03:08,bubbles,2x extra bubble boost,,mechanic,any,,2x Extra Bubble gives a chance to boost another option twice for the cost of once,yes,3
+00:03:08,00:03:38,bubbles,brew button,,mechanic,any,cost=60000,Clicking Brew spends an entire bar's worth of brew; can gain multiple levels per click,yes,2
+00:03:38,00:03:38,bubbles,bubble count,,mechanic,any,bubbles_per_cauldron=20,New bubbles appear above cauldron and each cauldron can have up to 20 bubbles,yes,3
+00:03:38,00:04:08,bubbles,bubble types,,mechanic,any,,Small bubbles have a roman numeral and large bubbles have an icon like a pickaxe,yes,3
+00:04:08,00:04:08,bubbles,small vs large,,mechanic,any,,Small bubbles are passive and always give bonus; large bubbles must be equipped by assigning to a character,yes,3
+00:04:08,00:04:38,bubbles,bubble levels,,mechanic,any,,Each bubble shows its stat and each level adds more of it e.g. one strength point per level,yes,3
+00:04:38,00:05:11,bubbles,bubble cost,,mechanic,any,,Each bubble level raises resource cost and also spends liquid so it gets expensive,yes,3
+00:05:11,00:05:11,bubbles,cauldron colors,warrior|barbarian|squire,mechanic,any,,Orange cauldron is Strength and benefits Warriors and Barbarians and Squires,yes,3
+00:05:11,00:05:11,bubbles,cauldron colors,archer|bowman|hunter,mechanic,any,,Green cauldron is Agility and focuses on Archer subclasses,yes,3
+00:05:11,00:05:11,bubbles,cauldron colors,mage|wizard|shaman,mechanic,any,,Purple cauldron is Wisdom for Mage subclasses,yes,3
+00:05:11,00:05:11,bubbles|drop_rate,cauldron colors,maestro,mechanic,any,,Yellow cauldron is Luck focused on drop rates and benefits Maestro subclasses,yes,3
+00:05:42,00:05:42,cauldrons_liquids,liquid overview,,mechanic,any,,Liquids has two parts: generating liquids from cauldrons and spending liquids in various places,yes,3
+00:05:42,00:06:13,cauldrons_liquids,liquid cap,,mechanic,any,,Liquid bar has a cap and can never go over it; you must spend liquid before generating more,yes,3
+00:06:13,00:06:13,cauldrons_liquids|class_exp,liquid characters,,priority,any,,Assigning characters in liquid cauldrons raises liquid generation and generates the most EXP per hour; best place to level characters quickly,yes,3
+00:06:13,00:06:44,cauldrons_liquids,liquid upgrades,,mechanic,any,,Liquid cauldron upgrades are paid with that cauldron's liquid so you choose between upgrading and spending elsewhere,yes,3
+00:06:44,00:07:16,cauldrons_liquids,cap and rate,,mechanic,any,,Cap increases max liquid capacity and Rate increases regeneration; upgrading water cauldron only upgrades water,yes,3
+00:07:16,00:07:16,cauldrons_liquids,cauldron unlocks,,threshold,early,alchemy_level=20;alchemy_level=35,Only water cauldron at first; Liquid Nitrogen unlocks at Alchemy level 20 and Trench Seawater at level 35,yes,3
+00:07:16,00:07:46,cauldrons_liquids,cauldron upgrades,,mechanic,any,,Each liquid cauldron must be upgraded separately but afterwards you always generate a good amount each hour,yes,3
+00:07:46,00:07:46,cauldrons_liquids,liquid spending,,mechanic,any,,Ways to spend liquid: upgrade cauldron cap and rate and shop and upgrading bubbles,yes,3
+00:07:46,00:08:16,cauldrons_liquids,liquid shop,,mechanic,any,shop_levels=2,Shop has 2 levels; first uses water droplets and some liquid nitrogen; second unlocks after Trench Seawater,yes,3
+00:08:16,00:08:49,cauldrons_liquids|bubbles,bargain tag,,how_to,any,max_discount=90%,Bargain Tag reduces bubble upgrade cost up to 90% off; it goes away once you upgrade a bubble,yes,3
+00:08:16,00:08:49,cauldrons_liquids|bubbles,bargain tag,,how_to,any,,Bargain tag cost resets each day so spend a few days upgrading it to make it as cheap as possible,yes,3
+00:08:49,00:08:49,cauldrons_liquids|bubbles|vials,liquid use,,mechanic,any,,Brewing bubbles need different liquid types and vials also need liquids,yes,3
+00:08:49,00:09:19,vials,unlock vial,,how_to,any,,To unlock a vial drag and drop one of the item in front of the cauldron and a dice roll happens,yes,3
+00:09:19,00:09:19,vials,unlock vial,,mechanic,any,,Item is only consumed if the roll succeeds; several chances per day and you can drop multiple items,yes,3
+00:09:19,00:09:19,vials,epic gamer moment,,mechanic,any,,Epic moments give multiple rolls for dropping one item,yes,3
+00:09:50,00:10:21,vials,daily attempts,,mechanic,early,attempts=3,Initially 3 vial attempts per day; resets when each world's general shop restocks,yes,3
+00:09:50,00:10:21,vials,vial upgrade,,mechanic,any,,Unlocked vials show benefit and upgrade cost in menu,yes,3
+00:10:21,00:10:21,vials,vial cost,,mechanic,any,,Material and liquid cost rises each level and scales fairly quickly,yes,3
+00:10:21,00:10:21,vials,vial max level,,threshold,any,max_level=10,Each vial can only go up to level 10 and costs quite a bit,yes,3
+00:10:21,00:10:52,cauldrons_liquids|bubbles,pay2win tab,,mechanic,any,,Pay2Win tab is named so because almost everything costs coins to upgrade,yes,3
+00:10:52,00:11:22,cauldrons_liquids|bubbles,pay2win cauldron,,mechanic,any,,Each brewing cauldron has 3 upgrades: Speed and New Bubble chance and Boost Requirements lowering cost,yes,3
+00:11:22,00:11:55,cauldrons_liquids|bubbles|money,pay2win cauldron,,warning,any,,Each cauldron is leveled separately so watch coins before spending all on only one cauldron,yes,3
+00:11:22,00:11:55,cauldrons_liquids|money,pay2win cauldron,,mechanic,any,,Coin cost of these stats scales decently but not too excessively,yes,3
+00:11:22,00:11:55,cauldrons_liquids,pay2win liquid,,mechanic,any,,Liquid cauldrons can upgrade regen and capacity with coins and each is leveled separately,yes,3
+00:11:55,00:12:26,vials|money,pay2win vials,,warning,any,,Vial attempts upgrade cost scales very quickly and can easily bankrupt a character,yes,3
+00:11:55,00:12:26,vials,pay2win vials,,mechanic,any,,RNG upgrade increases chance of epic gamer moment,yes,3
+00:12:26,00:12:56,vials,rng upgrade,,mechanic,any,,RNG gives more dice rolls from one item and uses more attempts each roll; spends chances faster,yes,3
+00:12:26,00:12:56,vials,rng upgrade,,tip,any,,Useful for last attempt because you can get more rolls than attempts remaining,yes,3
+00:12:26,00:12:56,vials,rng upgrade cap,,threshold,any,max_level=45;max_chance=420%,RNG upgrade capped at level 45 giving maximum 420% epic gamer moment chance,yes,3
+00:12:56,00:13:26,cauldrons_liquids|bubbles|vials,player upgrades,,mechanic,any,highest_level=52,Player section has two coin upgrades capped by your highest character level,yes,3
+00:12:56,00:13:26,cauldrons_liquids|bubbles|vials,alchemy speed,,mechanic,any,,Alchemy Speed upgrade raises speed of everything: EXP and brewing speed and liquid regeneration,yes,3
+00:13:26,00:13:26,class_exp,extra exp,,mechanic,any,,Extra EXP upgrade gives more passive Alchemy experience,yes,3
+00:13:26,00:13:59,sigils,sigils overview,,mechanic,any,sigils=16,Sigils recently added; 16 sigils available in Alchemy,yes,3
+00:13:26,00:13:59,sigils|lab,sigil unlock,,blocker,any,,To unlock Sigils you need Sigils of the Olden Alchemy activated in the Laboratory,yes,3
+00:13:59,00:14:29,sigils,sigil levels,,mechanic,any,levels=2,Each sigil has two levels: unlocked (blue) gives stated stats and boosted gives more after one more upgrade,yes,3
+00:14:29,00:14:29,sigils,sigil exp,,mechanic,any,exp_per_hour=1,Assign a character to a sigil; each character gives 1 sigil EXP per hour,yes,3
+00:14:29,00:15:01,sigils,sigil timing,,mechanic,any,,Initial unlock takes under a day with one character but boosting takes much longer,yes,2
+00:15:01,00:15:01,sigils,boosted sigil,,mechanic,any,,After a sigil is boosted no point keeping a character assigned as no more EXP is gained,yes,3
+00:15:01,00:15:32,sigils,sigil order,,mechanic,any,,Unlocking a sigil unlocks the next one so you don't need to boost it before moving on if stat not wanted,yes,3
+00:15:01,00:15:32,sigils,first sigils,,account_note,any,sigils=4,His first 4 unlocked are base stats and next is a weapon damage one,yes,3
+00:15:32,00:15:32,sigils,sigil value,,opinion,any,,Sigil boosts are quite beneficial for very small investment,yes,3
+00:15:32,00:16:04,bubbles,bubble breakthrough,shaman,mechanic,any,,Shaman Tab 3 talent Bubble Breakthrough raises Alchemy EXP and odds of gaining a new bubble when brewing on that player,yes,3
+00:15:32,00:16:04,bubbles,bubble breakthrough,shaman,priority,any,,Never try to unlock a bubble unless using your Shaman with this talent,yes,3
+00:16:04,00:16:34,bubbles,busy brewin,shaman,mechanic,any,,Busy Brewin increases that character's brew speed but only works while online and actively doing something,yes,3
+00:16:34,00:17:05,bubbles,cranium cooking,shaman,mechanic,any,,Cranium Cooking active: killing a monster gives instant alchemy progress and speeds brewing if actively playing Shaman,yes,3
+00:16:34,00:17:05,cauldrons_liquids,sharing some smarts,shaman,mechanic,any,,Sharing Some Smarts increases Alchemy EXP of all characters in the same cauldron as the Shaman including itself,yes,3
+00:17:05,00:17:05,cauldrons_liquids,shaman placement,shaman,setup,any,,Put Shaman in a liquid cauldron with a couple other characters to increase Alchemy speeds drastically,yes,3

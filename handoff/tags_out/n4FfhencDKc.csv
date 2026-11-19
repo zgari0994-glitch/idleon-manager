@@ -1,0 +1,47 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:32,equinox,slow roast wis bonus,,setup,unknown,,Build needs the slow roast wisdom bonus in Equinox so tower damage scales up over time,yes,2
+00:00:00,00:00:32,cooking,canoli meal,,setup,unknown,,Build needs a decently leveled Canoli meal in the dinner menu,yes,2
+00:00:00,00:00:32,cooking,meal ribbons,,mechanic,unknown,tower_defense_points_bonus_pct=1000,With meal ribbons you can get over 1000% extra points earned in tower defense,yes,2
+00:00:00,00:00:32,minehead,tower defense,,mechanic,unknown,,Breezy Battle is a tower defense wave mode in the Legends of Idolon event,no,1
+00:00:00,00:00:32,minehead,tower defense,beast_master,setup,unknown,,Optionally use your Beast Master during the run for the stop right there attack talent,yes,2
+00:00:32,00:01:03,minehead,tower defense,beast_master,how_to,unknown,,Use stop right there talent to prevent mistakes during high enemy count waves,yes,2
+00:00:32,00:01:03,equinox,tower defense,,account_note,unknown,,Guide usable by anyone who has the Equinox bonus unlocked,yes,2
+00:00:32,00:01:03,minehead,tower defense,,warning,unknown,,Number of waves completed varies with tower levels and construction or canoli bonus,yes,2
+00:00:32,00:01:03,minehead,tower defense,,how_to,unknown,temporary_towers=2,After clicking summon run to first green platform and place two temporary towers on the right side,yes,2
+00:01:03,00:01:35,minehead,tower defense,,how_to,unknown,towers=2,Place a Voidinator and a Poisonic Elder then delete the two temporary towers for proper spacing to maximize DPS,yes,2
+00:01:03,00:01:35,minehead,tower defense,,how_to,unknown,poisonic_elder=3,Run back to totem platform and summon three more Poisonic Elder towers,yes,2
+00:01:03,00:01:35,minehead,tower defense,,how_to,unknown,stormaller=1;party_starter=4,On platform left of totem summon a Stormaller and four Party Starter towers to complete initial offense,yes,2
+00:01:35,00:02:20,minehead,tower defense,,how_to,unknown,party_starter_level=10,Level party starters to 10 as soon as placed selecting trait A each time,yes,3
+00:01:35,00:02:20,minehead,tower defense,,how_to,unknown,kraken=3;frozone=1,On middle platform right side summon three Kraken towers then one Frozone tower for enough defense to start leveling,yes,2
+00:01:35,00:02:20,minehead,tower defense,,how_to,unknown,level=10,Level Poisonic Elders to 10 selecting trait A then B including the tower at the bottom,yes,2
+00:02:20,00:03:07,minehead,tower defense,,how_to,unknown,level=10,Level Kraken towers selecting traits B then A and Frozone tower selecting trait A each time,yes,2
+00:02:20,00:03:07,minehead,tower defense,,how_to,unknown,level=10,Stormaller towers select trait B each time and Voidinator trait B each time,yes,2
+00:02:20,00:03:07,minehead,tower defense,,target,unknown,level=15,Next goal is all towers to level 15; Poisonic Elders Party Starters Frozone and Kraken select trait A at 15,yes,2
+00:03:07,00:03:40,minehead,tower defense,,how_to,unknown,level=15,Stormaller and Voidinator select trait B at level 15,yes,2
+00:03:07,00:03:40,minehead,tower defense,,how_to,unknown,level=20,After all level 15 level everything to 20; Poisonic Elders select trait B for AB layout,yes,2
+00:03:07,00:03:40,minehead,tower defense,,how_to,unknown,level=20;trait_A_count=4,Party Starters keep selecting trait A for four trait A total,yes,2
+00:03:07,00:03:40,minehead,tower defense,,how_to,unknown,level=20,Krakens select trait A for layout B A A A and Frozone select trait A,yes,2
+00:03:40,00:04:10,minehead,tower defense,,how_to,unknown,level=20;trait_B_count=4,Stormaller select trait B at 20 for four B traits total,yes,2
+00:03:40,00:04:10,minehead,tower defense,,skip,unknown,level=15,Do not level the Voidinator past 15 unless you have a ton of spare points,yes,3
+00:03:40,00:04:10,minehead,tower defense,,how_to,unknown,wave=120-130;kraken=4;frozone=1;kraken_last=2,Around wave 120-130 finish defensive line: summon four more Krakens then a Frozone then two more Krakens,yes,3
+00:03:40,00:04:10,minehead,tower defense,,warning,unknown,kraken=2,Last two Kraken towers are very expensive so can wait until later waves,yes,3
+00:04:10,00:04:40,minehead,tower defense,,how_to,unknown,level=20,Level new defensive towers to 20 using the same traits as before,yes,3
+00:04:10,00:04:40,minehead,tower defense,,how_to,unknown,wave=150;level=25,Around wave 150 start leveling towers to 25 beginning with Party Starters selecting trait B,yes,3
+00:04:10,00:04:40,minehead,tower defense,,how_to,unknown,level=25,At level 25 Poisonic Elders select trait B then Stormaller selects a fifth trait B,yes,2
+00:04:10,00:04:40,minehead,tower defense,,mechanic,unknown,crit_chance_pct=100,Fifth trait B on Stormaller gives 100% crit chance for all towers,yes,2
+00:04:40,00:05:15,minehead,tower defense,,how_to,unknown,level=25,Kraken and Frozone select trait A at level 25 then wait until wave 180,yes,2
+00:04:40,00:05:15,minehead,tower defense,hunter,how_to,unknown,wave=170-180,Around wave 170-180 use the hunter stop right there talent to stop mobs slipping through,yes,3
+00:05:15,00:05:47,minehead,tower defense,,comparison,unknown,wave=180;time_hours=2.5;wave_190_min=45,Wave 180 is harder than 190; 180 took about 2.5 hours while 190 took about 45 minutes,yes,3
+00:05:15,00:05:47,minehead,tower defense,,warning,unknown,wave=200,His stats are not high enough to clear wave 200 within the time limit,yes,3
+00:05:15,00:05:47,minehead,tower defense,,how_to,unknown,wave=200,Next layout is for wave 180 or for when tower levels are high enough to clear wave 200,yes,2
+00:05:15,00:05:47,minehead,tower defense,,how_to,late,wave=200;level=30,Once wave 200 starts level all Party Starters to 30 selecting trait B each time,yes,3
+00:05:47,00:06:18,minehead,tower defense,,how_to,late,mobs_left=100;kraken_sold=2;party_starter=2;level=30,When under 100 mobs left sell two end Kraken towers and place two more Party Starters at top leveled to 30 trait B,yes,3
+00:05:47,00:06:18,minehead,tower defense,,mechanic,late,trait_B_count=6,Six B traits on each Party Starter is a big damage boost so do it as soon as possible,yes,3
+00:06:18,00:06:49,minehead,tower defense,,how_to,late,mobs_left=6-9;frozone_sold=1;kraken_sold=4;kraken_left=3;frozone_left=1,With last six to nine monsters sell a Frozone and four Krakens leaving three Krakens and one Frozone,yes,3
+00:06:18,00:06:49,minehead,tower defense,,how_to,late,stormaller=2;level=25,Place two Stormaller towers on bottom platform next to Voidinator level to 25 selecting trait A,yes,3
+00:06:18,00:06:49,minehead,tower defense,,how_to,late,stormaller=2,Place two more Stormallers on platform next to Frozone with same traits,yes,3
+00:06:49,00:07:20,minehead,tower defense,,threshold,endgame,monster_hp_trillion=1900,If DPS gets monsters below 1900 trillion HP replace all Poisonic Elders with Stormallers using trait A,yes,3
+00:06:49,00:07:20,minehead,tower defense,,comparison,endgame,hp_left_trillion=2500,He still had over 2500 trillion HP left at time limit so far from completing wave 200,yes,3
+00:06:49,00:07:20,minehead,tower defense,,mechanic,any,time_limit_seconds=9999;wave=201,Time limit is 9999 seconds then wave 201 auto summons and overwhelms defenses without counting as completing 200,yes,3
+00:07:20,00:07:52,minehead,tower defense,,comparison,unknown,wave=190,He has completed wave 190 for his Breezy Soul needs,yes,2
+00:07:20,00:07:52,minehead,tower defense,,warning,any,,Let mobs in last wave kill the totem and do not forfeit or you lose hard-earned progress,yes,3

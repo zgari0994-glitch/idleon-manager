@@ -1,0 +1,40 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,general,frosty firefight tower defense,hunter,setup,unknown,,Play Hunter during these tower defenses for Stop Right There and Kung Fu Kick crowd control to push further,yes,3
+00:00:00,00:00:34,construction,boulder roller tower,,threshold,unknown,boulder_roller_min_level=30,Boulder Roller Tower needs to be at least about level 30 to be effective in this tower defense,yes,3
+00:00:34,00:00:34,construction,towers,,mechanic,unknown,,The higher level all your towers are the more effective the setup is,yes,3
+00:00:34,00:00:34,construction,towers,hunter,opinion,late,,At higher tower levels you may not need to play Hunter as towers handle everything,yes,3
+00:00:34,00:00:34,construction,towers,,account_note,unknown,lightning_level=30-40,His Boulder Roller is near max and his Lightning and other towers are in the 30s to 40s,yes,3
+00:00:34,00:01:08,construction,boulder roller tower,,how_to,early,towers_first=3-4,Immediately place Boulder Roller Towers leaving space for about three more towers,yes,3
+00:01:08,00:01:08,construction,towers,,how_to,early,towers_first=3-4,Get first three to four towers out as soon as possible then start upgrading,yes,3
+00:01:08,00:01:38,construction,party starter tower,,how_to,early,,Place a Party Starter Tower alongside a couple more Boulder Rollers on the bottom for the attack speed benefit,yes,3
+00:01:08,00:01:38,construction,towers,,how_to,early,tower_level=5,Level each tower to level 5 when placed to give most benefit,yes,3
+00:01:38,00:01:38,construction,party starter tower,,setup,early,,Always select Trait A on Party Starter Towers for more attack speed,yes,3
+00:01:38,00:01:38,construction,boulder roller tower,,setup,early,,Always select Trait B on Boulder Roller Towers so they hit more enemies,yes,3
+00:01:38,00:01:38,construction,boulder roller tower,,opinion,early,,First Boulder Roller is questionable to upgrade as it is replaced early but he can afford the points,yes,2
+00:02:14,00:02:14,general,hunter immobilize,hunter,how_to,early,,Use Hunter's Immobilize to stop enemies for a few seconds if towers are not doing enough damage,yes,3
+00:02:14,00:02:14,general,crowd control,,warning,early,,If towers do not do enough damage you may need crowd control during early waves,yes,3
+00:02:14,00:02:44,construction,boulder roller tower,,how_to,early,,Trash the first Boulder Roller Tower to get points back before the next setup,yes,3
+00:02:44,00:02:44,construction,frozen tower,,setup,early,,Place a Frozen Tower and upgrade it with Trait B,yes,3
+00:02:44,00:02:44,construction,boulder roller tower,,setup,early,,Place another Boulder Roller Tower with Trait B,yes,3
+00:02:44,00:02:44,construction,lightning tower,,setup,early,,Place Lightning Tower where old Boulder Roller was and use Trait B once enough points,yes,3
+00:03:46,00:03:46,construction,party starter tower,,setup,early,party_starter_count=3,Place a second and then a third Party Starter Tower for more attack speed,yes,3
+00:03:46,00:03:46,construction,towers,,warning,early,,Upgrade towers as you place them as that is the only way to get their benefit,yes,3
+00:03:46,00:04:16,general,skip wave,,how_to,early,,You can skip waves while everything is easily handled,yes,3
+00:04:16,00:04:16,general,skip wave,,warning,early,,Skipping does not count as clearing the wave until all monsters are dead; losing reverts to last fully cleared wave,yes,3
+00:04:49,00:04:49,construction,stormcaller tower,,setup,early,,Place a second Stormcaller Tower next to the first with Trait B for crit chance boosting Boulder Roller damage,yes,3
+00:04:49,00:05:20,construction,party starter tower,,setup,early,additional_party_starters=2,Place two more Party Starter Towers next to the Stormcaller,yes,3
+00:06:09,00:06:09,construction,boulder roller tower|party starter tower,,how_to,mid,upgrade_level=10,Can upgrade Boulder Rollers or Party Towers to level 10 but save points first,yes,3
+00:06:09,00:06:09,construction,kraken tower,,blocker,mid,wave=50,Save enough points for the Kraken Tower at wave 50 or it will be a huge block,yes,3
+00:07:54,00:07:54,construction,kraken tower,,how_to,mid,wave=50;kraken_count=1;kraken_level=5,Place a single Kraken Tower at wave 50 with Trait B and level it to 5 if you have spare points,yes,3
+00:07:54,00:08:33,construction,kraken tower,,mechanic,mid,wave=50,Kraken separates the two green mobs so towers focus one at a time; one eventually gets through,yes,3
+00:08:33,00:08:33,construction,kraken tower,,mechanic,mid,,The Kraken traps the first mob with eyes letting Boulder Rollers focus all damage on one mob,yes,3
+00:08:33,00:08:33,construction,kraken tower,,how_to,mid,,Optionally save points for a second Kraken at the bottom as a safety net but save points if not needed,yes,3
+00:09:03,00:09:03,construction,kraken tower,,how_to,mid,,Sell the top Kraken after the green mob dies to make later Krakens cheaper and let the wave pass faster,yes,3
+00:09:34,00:09:34,construction,kraken tower,,setup,late,,Lay out final defenses with a couple of Kraken Towers at the bottom so nothing gets through,yes,3
+00:10:28,00:10:28,construction,kraken tower,,setup,late,kraken_count=3;kraken_level=5,Place a third Kraken Tower at the bottom and only level Krakens to 5 since further is expensive,yes,3
+00:10:28,00:10:28,construction,party starter tower|frozen tower,,target,late,party_level=10;frozone_level=10,Last upgrades are Party Towers and Frozone Malone Tower to level 10 for crowd control and attack speed,yes,3
+00:10:58,00:10:58,construction,stormcaller tower,,setup,late,wave=70,With spare points place another Stormcaller between Party Starters for crit and possibly progress past wave 70,yes,3
+00:12:28,00:12:28,general,wave 60,,mechanic,late,wave=60,Wave 60 takes time as mobs teleport but Kraken eyes keep them on the ledge so it is passed easily,yes,3
+00:12:28,00:13:01,construction,towers,,how_to,late,,Make towers more compact with Krakens closer to the end and Boulder Roller farther over so range hits mobs,yes,3
+00:13:01,00:13:01,construction,stormcaller tower,,mechanic,late,,Stormcaller Towers can still handle mobs outside Boulder Roller range,yes,2
+00:14:36,00:14:36,general,frosty firefight best wave,,account_note,late,wave_reached=80;best_wave_milestone=70,He reached wave 80 but could not clear it so his best wave stays at the 70 milestone,yes,3

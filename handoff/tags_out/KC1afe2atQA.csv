@@ -1,0 +1,64 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,talent_points,build guide,hunter,meta_change,mid,,Guide is about talent priority rather than a full build; character is higher level so he has more points than viewer,yes,3
+00:00:00,00:00:00,talent_points,Gilded Sword,hunter,priority,early,,Top priority in Tab 1 is Gilded Sword for percentage increase to all monster damage,yes,3
+00:00:00,00:00:33,talent_points,Sharpened Axe,hunter,priority,early,,Next after Gilded Sword is Sharpened Axe for base weapon power,yes,3
+00:00:33,00:00:33,talent_points,Idle Shooting,hunter,target,early,points=50,Put 50 points into Idle Shooting then stop; it has diminishing returns,yes,3
+00:00:33,00:00:33,talent_points,Idle Shooting,hunter,mechanic,any,level=100;afk_gain=17,Idle Shooting at level 100 only gives 17% AFK gain rate so it is not a priority after 50 points,yes,3
+00:00:33,00:01:04,talent_points,Strength vs Agility,hunter,priority,early,,After Idle Shooting choose between more damage from Agility or more Accuracy from Strength,yes,3
+00:01:04,00:01:04,characters,accuracy,hunter,priority,any,hit_chance=100,Accuracy is one of the most important stats; always have enough for 100% hit chance or other stats are useless,yes,3
+00:01:04,00:01:04,talent_points,Strength,hunter,how_to,early,,He puts points into Strength to show how much it helps Accuracy,yes,3
+00:01:04,00:01:38,talent_points,Quickness Boots,hunter,priority,early,,After Strength put points into Quickness Boots for Agility boost; rest of Tab 1 becomes optional,yes,3
+00:01:04,00:01:38,talent_points,Tab 1,hunter,how_to,early,,Return to Tab 1 after finishing Tab 3,yes,3
+00:01:38,00:01:38,talent_points,High Polymer Limbs,hunter,priority,early,,Tab 2 priority begins with High Polymer Limbs which increases damage from weapon power,yes,3
+00:01:38,00:01:38,talent_points,Veins of the Infernal,hunter,priority,early,,Next is Veins of the Infernal giving damage based on Smithing level,yes,3
+00:01:38,00:02:13,talent_points,active attacks,hunter,mechanic,any,,Active attacks give damage while fighting and a hidden multiplier on kills per hour while offline,yes,3
+00:02:13,00:02:13,talent_points,Piercing Arrow,hunter,priority,any,kill_mult=2.2,Piercing Arrow affects hidden kill multiplier up to 2.2x kills per hour; put enough points for the full benefit,yes,3
+00:02:13,00:02:44,talent_points,Kung Fu Kick,hunter,mechanic,any,,Kung Fu Kick is good but does not affect kill multiplier so only a few points,yes,3
+00:02:13,00:02:44,talent_points,Have Another,hunter,mechanic,any,,Have Another gives a chance to fire two arrows instead of one,yes,3
+00:02:44,00:02:44,talent_points,Have Another,hunter,target,any,points=50,50 points in Have Another gives a really good chance of the second arrow,yes,3
+00:02:44,00:03:19,talent_points,Garb of Un'AGI'ing Quality,hunter,priority,mid,,Garb of Un'AGI'ing Quality is next but depends on stats on your equipment; higher priority if you have good gear,yes,3
+00:02:44,00:03:19,talent_points,Sanic Speed,hunter,priority,early,,With low-level gear prioritize Sanic Speed instead since it gives flat Agility per point,yes,3
+00:03:19,00:03:19,talent_points,Tab 2,hunter,mechanic,any,,After these stats are placed the rest of Tab 2 is utility; come back after Tab 3,yes,3
+00:03:19,00:03:19,talent_points,Looty Mc Shooty,hunter,priority,early,,Tab 3 priority begins with Looty Mc Shooty giving damage bonus per 50 items ever found,yes,3
+00:03:19,00:03:53,talent_points,Looty Mc Shooty,hunter,mechanic,any,items=50,Only counts each different item once; every 50 different items found gives another damage boost,yes,3
+00:03:53,00:03:53,talent_points|dungeons,Looty Mc Shooty,hunter,mechanic,any,,Items found in Dungeons count toward Looty Mc Shooty,yes,3
+00:03:53,00:03:53,talent_points,AGI Again,hunter,priority,early,,Next priority is AGI Again which allows more points into Quickness Boots on Tab 1,yes,3
+00:03:53,00:04:26,talent_points,active attacks,hunter,mechanic,any,,All three Tab 3 active attacks give a hidden kill multiplier bonus,yes,3
+00:04:26,00:04:26,talent_points,360 No Scope|Bear Trap|Have Another Again,hunter,priority,any,,Put points into 360 No Scope and Bear Trap and Have Another... Again! for kill multiplier,yes,3
+00:04:26,00:04:26,talent_points,utility talents,hunter,how_to,any,points=1,Usually one point into each of the other two utility attacks,yes,3
+00:04:26,00:04:57,talent_points,prerequisite talents,hunter,priority,any,,Next put points into previous talents to get utility benefits from Tab 2,yes,3
+00:04:57,00:04:57,talent_points,Visibility Vessels,hunter,priority,late,,Visibility Vessels allows more points into I See You on Tab 1; not very worth it at early levels,yes,3
+00:04:57,00:05:31,talent_points,I See You,hunter,mechanic,late,,I See You increases critical hit chance; nice boost if you have spare points later,yes,3
+00:04:57,00:05:31,talent_points,Straightshot Statues,hunter,mechanic,any,,Straightshot Statues gives speed bonus and a production bonus,yes,3
+00:05:31,00:05:31,talent_points|obols,Shoeful of Obol,hunter,opinion,any,,A Shoeful of Obol is a poor damage bonus since based on Agility from obols unless you have ridiculous amounts,yes,3
+00:05:31,00:06:01,talent_points,Straightshot Statues,hunter,priority,any,,He chooses Straightshot Statues over Shoeful of Obol for utility,yes,3
+00:05:31,00:06:01,talent_points|traps,Eagle Eye,hunter,priority,any,,Leftover points go into Eagle Eye for utility when collecting Hunter traps,yes,3
+00:06:01,00:06:34,talent_points|forge,Smeltin' Erryday,hunter,priority,any,,Prioritize Smeltin' Erryday over Strafe for more forge progress that helps skills,yes,3
+00:06:01,00:06:34,talent_points|forge,Smeltin' Erryday,hunter,threshold,any,points=120;seconds=3,At 120 points in Smeltin' Erryday there is a break point giving three seconds of progress instead,yes,3
+00:06:01,00:06:34,talent_points,Strafe,hunter,mechanic,any,,Strafe gives more movement speed; put leftover points here after Smeltin' Erryday,yes,3
+00:06:34,00:06:34,talent_points|drop_rate,Robbinghood,hunter,mechanic,any,,Robbinghood increases monster drop rarity for better loot,yes,3
+00:06:34,00:07:04,talent_points,Quickness Boots,hunter,priority,mid,,With a couple hundred points left in Tab 1 finish maxing Quickness Boots,yes,3
+00:07:04,00:07:04,talent_points,Featherweight,hunter,opinion,any,,Featherweight is an option if you have enough spare points and is a really good option,yes,3
+00:07:04,00:07:04,talent_points|anvil,Broken Time,hunter,priority,any,,He usually puts points into Broken Time for anvil production which is very important,yes,3
+00:07:04,00:07:36,talent_points,Book of the Wise,hunter,mechanic,any,,Book of the Wise gives wisdom which boosts mana and boss damage,yes,3
+00:07:04,00:07:36,talent_points|drop_rate,Lucky Clover,hunter,mechanic,any,,Lucky Clover gives luck which increases drop rate and EXP gain; both it and Book of the Wise are good options,yes,3
+00:07:36,00:07:36,talent_points,I See You,hunter,priority,endgame,,Put points into I See You only after choosing pretty much everything else with a ton of points left,yes,3
+00:07:36,00:08:06,talent_points,Will of the Eldest|Beginner Best Class,hunter,priority,any,,First star talents are Will of the Eldest and Beginner Best Class; both based on highest level characters so only invest up to that level,yes,3
+00:07:36,00:08:06,talent_points,Will of the Eldest|Beginner Best Class,hunter,setup,mid,points=20;char_level=200,His characters are just under 200 so he puts 20 points in each,yes,3
+00:08:06,00:08:06,talent_points,Attacks on Simmer|Tick Tock,hunter,priority,any,,Next star talents Attacks on Simmer and Tick Tock for AFK gain rate,yes,3
+00:08:06,00:08:06,talent_points,Goblet of Hemoglobin,hunter,mechanic,any,,Goblet of Hemoglobin is a great way to increase survivability,yes,3
+00:08:06,00:08:39,talent_points|quests,Stonks,hunter,target,any,points=30;star_points=48,Stonks from Wellington quest line: assign 30 points for max benefit giving 48 additional star talent points,yes,3
+00:08:39,00:08:39,talent_points|dungeons,Dungeonic Damage,hunter,priority,any,,Star Tab 2 first priority is Dungeonic Damage giving damage based on dungeon credits earned,yes,3
+00:08:39,00:08:39,talent_points|dungeons,Dungeonic Damage,hunter,mechanic,any,,Dungeon credits do not need to be in inventory; earned credits count,yes,3
+00:08:39,00:09:10,talent_points,Frothy Malk,hunter,priority,any,,Next is Frothy Malk to boost foods and potions for small damage gain; everything else is utility,yes,3
+00:09:10,00:09:10,talent_points|storage|printer|prayers,Telekinetic Storage|Printer Sampling|Shrine Architect,hunter,priority,any,points=1,First choices Telekinetic Storage for carry capacity and one point each in Printer Sampling and Shrine Architect,yes,3
+00:09:10,00:09:10,talent_points|class_exp,Just EXP,hunter,opinion,any,,Just EXP is a good choice for more class EXP,yes,3
+00:09:10,00:09:41,talent_points,Pulsation,hunter,opinion,early,,Pulsation is good at lower levels as it increases mana regen to use active attacks more often,yes,3
+00:09:10,00:09:41,talent_points|cards,Cardiovascular,hunter,mechanic,any,,Cardiovascular increases card drop chance and is worth mentioning,yes,3
+00:09:41,00:09:41,talent_points,Mega Crit,hunter,mechanic,any,crit_chance=100,Mega Crit talent increases crit chance and gives mega crits if over 100% crit chance,yes,3
+00:09:41,00:10:14,talent_points,Assign Attacks,hunter,how_to,any,,Remember to assign attacks to the attack bar using Assign Attacks button,yes,3
+00:09:41,00:10:14,talent_points,action bar,hunter,how_to,any,,Assign some Tab 2 and Tab 3 talents to action bars to get most out of them,yes,3
+00:10:14,00:10:14,talent_points,action bar,hunter,how_to,any,,Assign Telekinetic Storage and Sampling and Shrine Architect to action bar,yes,3
+00:10:14,00:10:45,talent_points,Talent Reset Potion,hunter,how_to,any,,Reset talent points with Talent Reset Potion; fragments drop from monsters and are sold in shops,yes,3
+00:10:14,00:10:45,talent_points,Star Talent Reset Potion,hunter,how_to,any,,Star Talent Reset Potion resets star talents,yes,3
+00:10:45,00:10:45,talent_points|anvil|gem_shop,Star Talent Reset Potion,hunter,how_to,any,,Star Talent Reset Potions are crafted in Anvil Tab 2 or bought from the Gem Shop,yes,3

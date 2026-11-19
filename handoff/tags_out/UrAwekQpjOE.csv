@@ -1,0 +1,170 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,legend_talents,tier list,,meta_change,any,,"Pulse is making a legend talent tier list as he goes; it may be difficult",yes,3
+00:00:00,00:00:30,legend_talents|talent_points,super talent points,,priority,w7,tier=S;super_talent_points=1;glass_of_war_interval=500/600/700?,"Super talent points: +1 per milestone, spend on talents for extra levels. S tier, among the strongest, one of the first to pick.",yes,2
+00:00:30,00:00:30,legend_talents|talent_points,super talent points,,mechanic,w7,extra_levels=125,"Super talent points let him push already strong talents into super talents; he gets an extra 125 levels from this.",yes,3
+00:01:02,00:01:02,legend_talents|talent_points,super duper talent,,mechanic,w7,extra_levels=10,"Super duper talent buffs the previous talent for 10 extra levels per point, costs more per point.",yes,3
+00:01:02,00:01:32,legend_talents|talent_points,super duper talent,,priority,w7,tier=A,"Super duper talent tentatively A tier; worse than super talent point for point but still one of the best on the board.",yes,3
+00:01:02,00:01:32,legend_talents|construction,shrine world order bill,,mechanic,w7,,"Shrine World Order Bill makes shrines gain exp from exp gains no matter which world you are in; very good.",yes,3
+00:01:32,00:02:03,legend_talents|construction,shrine world order bill,,comparison,w7,,"Not as critical as super talents since you can minmax by placing shrines in the town you need.",yes,3
+00:02:03,00:02:03,legend_talents|construction,shrine world order bill,,priority,w7,tier=A,"Shrine talent is A tier (maybe S) because shrines keep their exp when moved; he would still take super talent first.",yes,3
+00:02:03,00:02:34,legend_talents|atom_collider,recycled particle upgrades,,mechanic,w7,percent=100,"Recycled particle upgrades spends 100% of alternate particle upgrades daily evenly across the first bubbles of each color for free, but requires logging in.",yes,3
+00:02:34,00:03:04,legend_talents|atom_collider,recycled particle upgrades,,skip,w7,tier=D,"Recycled particle upgrades is easy D tier, maybe the worst on the board; if you log in you would just use atom clicks instead.",yes,3
+00:03:04,00:03:04,legend_talents|equinox,obsolete no more,,mechanic,w7,,"Obsolete No More: the Equinox Valley metal detector bonus no longer resets when you find a new best nugget; meta for pushing deeper into nugget.",yes,3
+00:03:04,00:03:34,legend_talents|equinox,obsolete no more,,priority,w7,tier=S,"Obsolete No More is S tier because it is meta defining.",yes,3
+00:03:34,00:04:04,legend_talents|statues|cooking,double ain't nothing,,mechanic,w7,old_multi=2;new_multi=8;base_level=3;research_node_level=6,"Double Ain't Nothing: statue and gold food drops come in bundles of 8x instead of 2x; level three base and six with research node.",yes,2
+00:03:34,00:04:04,legend_talents|statues|cooking,double ain't nothing,,priority,w7,tier=S;statue_level=7800?;gold_food=10000000,"Double Ain't Nothing is meta defining S tier: lets characters reach tens of millions of gold food drops and statues in the 7-800 range.",yes,2
+00:04:04,00:04:35,legend_talents|cooking,blue ribbon certification,,mechanic,w7,,"Blue Ribbon Certification gives plus ribbons every day for the cooking ribbon shelf; ribbons are insanely timegated with few other sources for free to play.",yes,3
+00:04:35,00:05:05,legend_talents|cooking,blue ribbon certification,,priority,w7,tier=A;points=7,"Ribbon talent costs about seven points so hard to call S, but at minimum A tier.",yes,3
+00:04:35,00:05:05,legend_talents|farming|hole,land rank database,,mechanic,w7,max_level=60,"Extended database talent gives 60 max level for the fifth column of farming land ranks; very good because world 6 database nodes are good.",yes,3
+00:05:05,00:05:35,farming|legend_talents,land rank fifth column,,mechanic,w7,drop_rate=3000,"Fifth land rank column: huge stealth per farming level, a big drop rate increase (3000 flat), extra total damage and all stat bonus. Pretty strong.",yes,2
+00:05:35,00:06:05,legend_talents|farming,land rank database,,priority,w7,tier=A;points=3-6,"Land rank fifth column talent is a three to six pointer; hard to place but it is A tier.",yes,3
+00:06:05,00:06:35,legend_talents|cooking,blue ribbon certification,,priority,w7,tier=A,"Compared with the other A tiers he places ribbons at A.",yes,3
+00:06:35,00:07:06,legend_talents|construction,cog lover,,mechanic,w7,,"Cog Lover claims more jeweled cogs every day if unlocked; jeweled cogs are meta for construction with a big gulf over purple cogs.",yes,3
+00:07:06,00:07:06,legend_talents|construction,cog lover,,priority,w7,tier=A,"Cog Lover is A tier (floating between B and A); very strong and necessary for its mechanic.",yes,3
+00:07:06,00:07:37,legend_talents|bubbles,crook bubblin,,mechanic,w7,,"Crook Bubblin gives extra bubble levels per day for each of Cancer Crook's bubbles; endgame Crook is straight RNG.",yes,3
+00:07:37,00:08:08,bubbles|stamps|zenith_market|legend_talents,crook bubblin,,mechanic,w7,,"Other sources of extra bubble levels exist like zenith market; only the crook stamp progresses past that and it dwarfs everything else but can't be targeted.",yes,3
+00:08:08,00:08:38,bubbles|stamps|legend_talents,crook bubblin,,account_note,w7,bubble_levels=52000,"Crook stamp hits are pure RNG; he has about 52,000 from lucky stamp hits. Hard to rate Crook because of this.",yes,3
+00:08:38,00:09:10,bubbles|legend_talents,crook bubblin,,opinion,w7,,"Only the Bob bubble (Call Me Bob) really matters for Crook since it scales linearly; main stat bubbles hit heavy diminishing returns.",yes,2
+00:08:38,00:09:41,bubbles|legend_talents,crook bubblin,,how_to,w7,,"You can candy click and push the main stat bubbles yourself: roid raging easy to candy click, swift stepping less so, wood easy; lock bubble useful but pushable.",yes,2
+00:09:41,00:10:12,bubbles|atom_collider|legend_talents,crook bubblin,,opinion,w7,,"Larry bubble can be pushed with atom clicks and hits diminishing returns very quickly; Hammer goes on forever but the anvil gets too fast.",yes,2
+00:10:12,00:10:45,bubbles|legend_talents,crook bubblin,,comparison,any,,"Crook is good early game and terrible mid game; best at pushing Bob in endgame. Early to mid game players lack other sources unless stamp hits.",yes,3
+00:10:45,00:11:16,legend_talents|bubbles,cattle croc,,priority,w7,tier=B;bubble_levels_per_point=10,"Crook bubble talent is a solid B tier; 10 bubble levels per point is not a great return.",yes,3
+00:11:16,00:11:47,legend_talents|summoning,familiar fireside,,mechanic,w7,percent=80,"Familiar Fireside: 80% chance buying a summoning familiar does not raise the cost; deceptive wording.",yes,3
+00:11:47,00:12:20,legend_talents|summoning,familiar fireside,,mechanic,w7,percent=80,"The free chance doesn't consume attempts, so you get extra clicks and extra familiars; level stays the same and you keep clicking.",yes,3
+00:12:20,00:12:51,legend_talents|summoning,familiar fireside,,mechanic,w7,multiplier=5;days=3,"Familiar Fireside gave him hundreds of extra clicks; theoretically 5x the familiars per 3 days, massively accelerates summoning.",yes,2
+00:12:51,00:12:51,legend_talents|summoning,familiar fireside,,priority,w7,tier=S,"Familiar Fireside is easily an S tier pickup even though the description doesn't make that clear.",yes,3
+00:12:51,00:13:22,legend_talents|gallery,superb gallerium,,warning,w7,tier=D,"Superb Gallerium is really bad: if you max gallery slots it gives nothing more, and its description is deceptive.",yes,3
+00:13:22,00:13:53,legend_talents|gallery,superb gallerium,,mechanic,w7,tier=2,"Superb Gallerium raises the base amount of gallery slots by +1 rather than grade by +1; only up to about tier two, no tier three.",yes,2
+00:13:53,00:14:23,legend_talents|gallery,superb gallerium,,skip,w7,tier=D,"Superb Gallerium is D tier; you could leave it at zero points. He only maxed it 3 days ago due to spare points.",yes,3
+00:14:23,00:14:23,legend_talents|masterclass,daily shopping spree,,mechanic,w7,upgrades=48;discount=80,"Daily Shopping Spree: the first 48 masterclass upgrades bought each day are 80% cheaper.",yes,3
+00:14:23,00:14:53,legend_talents|masterclass,daily shopping spree,class:royal_guardian,priority,w7,tier=S,"Daily Shopping Spree is straight S tier and necessary for progression; Royal Guardian is only really pushable with this.",yes,3
+00:14:53,00:15:23,legend_talents|construction,inevitable builder,,mechanic,w7,multiplier=64,"Inevitable Builder adds one trimmed (golden) construction slot and makes them multiplier faster; he gets 64x.",yes,3
+00:15:23,00:15:54,legend_talents|construction,inevitable builder,,comparison,w7,points=5,"Inevitable Builder is very good for construction but with diminishing returns; not worth five points compared with Daily Shopping Spree; better than cattle croc.",yes,2
+00:15:54,00:16:25,legend_talents|construction,inevitable builder,,priority,w7,tier=A,"Inevitable Builder is A tier, one of the most debatable placements.",yes,2
+00:15:54,00:16:25,legend_talents,crystal mobs,,meta_change,w7,old_multi=21;new_multi=4;daily_guaranteed=364,"Guaranteed crystal mob talent got nerfed from 21x to 4x; now 364 daily guaranteed; previously clear S tier.",yes,2
+00:16:25,00:16:57,legend_talents,crystal mobs,,priority,w7,tier=A;points=1,"Crystal mob talent is still really good as a one pointer but now A tier; not prioritized over the S tiers.",yes,3
+00:16:57,00:17:28,legend_talents|drop_rate,drop rate talent,,mechanic,w7,drop_rate=3500;per_level=500,"Talent gives 3,500% drop rate to all players at 500 per level; many points; good for world 7 players with single to double digit drop rate.",yes,3
+00:17:28,00:17:59,legend_talents|drop_rate,drop rate talent,,priority,w7,tier=B,"Drop rate talent is a high B tier because it is expensive in points, though good later when multiplied.",yes,3
+00:17:59,00:18:29,legend_talents|death_note,thanos teaching,,mechanic,w7,extra_kills=1000,"Thanatos? Teaching gives 1000 extra kills for opening portals and Death Note; additive not a multiplier.",yes,2
+00:18:29,00:18:59,legend_talents|death_note,thanos teaching,,priority,w7,tier=B,"Extra kills talent is solid B: useful for Death Note (eclipse skulls) but they were doing that easily without it.",yes,2
+00:18:29,00:18:59,legend_talents|cooking,gold food bonus,,mechanic,w7,,"Gold food bonus talent is additive not a multiplier, yet is a top three source of gold food bonus; biggest sources are from cooking.",yes,2
+00:18:59,00:19:29,legend_talents|cooking,gold food bonus,,comparison,w7,gold_food_bonus=92000;talent_value=15500,"Yummy Pea Shrink? in cooking gives him 92,000% gold food; the legend talent source gives 15,500%. Top three sources excluding pay to win.",yes,2
+00:19:29,00:19:29,legend_talents|cooking,gold food bonus,,priority,w7,tier=B,"Gold food bonus talent is B tier: strong but not at the level of the A tiers.",yes,3
+00:19:29,00:20:00,legend_talents|bubbles|stamps,prisma exalted,,mechanic,w7,bonus_percent=15,"Prisma bubbles and exalted stamps bonus is 15% higher; both are among the strongest mechanics in the game.",yes,3
+00:20:00,00:20:31,legend_talents|bubbles|stamps,prisma exalted,,comparison,w7,points=5;per_point=3,"Prisma and exalted talent is expensive (3% per point) and comparable to the S tier familiar talent; five pointer versus two pointer.",yes,2
+00:20:31,00:21:02,legend_talents|bubbles|stamps,prisma exalted,,priority,w7,tier=S,"Prisma/exalted stamp talent is S tier after debate; those mechanics are just so strong.",yes,3
+00:21:02,00:21:34,coral_reef|legend_talents,coral restoration,,mechanic,w7,,"Coral Restoration gives more daily coral; coral is strong: gallery 30% bonuses amazing, brain coral trash, anemone coral adds a bonus, ninja knowledge is niche.",yes,2
+00:21:34,00:22:04,coral_reef|legend_talents,coral restoration,,opinion,w7,coral=3000000,"He has 3 million coral and doesn't need more; no coral update since World 7 came out, so extra coral isn't meta relevant now.",yes,3
+00:22:04,00:22:04,coral_reef|legend_talents,coral restoration,,priority,w7,tier=C,"Coral Restoration is C tier; maybe it rises if future updates need coral.",yes,3
+00:22:04,00:22:38,legend_talents|class_exp,skillium fancy,,mechanic,w7,,"Skillium Fancy multiplies exp gain for all skills except research and the W7 skill three (including spelunking); hard multiplier.",yes,2
+00:22:38,00:23:08,legend_talents|class_exp,skillium fancy,,priority,w7,tier=A;points=7,"Skillium Fancy is a point hog (seven points with research node) but high A tier, maybe low S.",yes,3
+00:23:08,00:23:38,legend_talents|sigils,big sig fig,,mechanic,w7,multiplier=10,"Big Sig Fig makes sigils and alchemy level up 10x faster; niche; he has two sigils left (eclectic tier) and it helps.",yes,2
+00:23:38,00:24:09,sigils|legend_talents,sigils,,comparison,w7,,"Sigils give some good things (true damage multi with research nodes liquid rates sigil-on-sigil refinery base stats) but extra crystals got nerfed; lots of trash.",yes,2
+00:24:09,00:24:42,legend_talents|sigils,big sig fig,,priority,w7,tier=C,"Big Sig Fig is hard C tier: sigils aren't the most insane mechanic and it's a massive point hog.",yes,3
+00:24:09,00:24:42,legend_talents|refinery,more soot more salt,,mechanic,w7,,"Refinery cycles are X faster; strong for its niche but not needed.",yes,2
+00:24:42,00:25:13,legend_talents|refinery,more soot more salt,,priority,w7,tier=C,"Refinery cycle talent is high C tier: refinery stronger than sigils and fewer points but not as good as croc.",yes,2
+00:25:13,00:25:43,legend_talents|printer,printer multi,,mechanic,w7,days=20,"Yet another printer multi: printer output multiplier each day for 20 days, resets when taking a new sample.",yes,3
+00:25:13,00:25:43,legend_talents|printer,printer multi,,priority,w7,tier=B,"Printer multi is not the strongest but not bad; the most B tier of B tiers.",yes,3
+00:25:43,00:26:14,legend_talents|lab|divinity,exp gain,,mechanic,w7,,"Higher exp gain for laboratory and divinity (exp only not points); stacks with other exp sources; lab opal jewels are given free at break points.",yes,3
+00:26:14,00:26:45,legend_talents|lab|divinity,exp gain,,priority,w7,tier=B,"Lab/divinity exp talent is solid B; if you need it your exping needs fixing since breakpoints were hit in world 5 and 6 without it.",yes,3
+00:26:45,00:27:17,legend_talents|breeding,pure bread eggs,,mechanic,w7,multiplier=10,"Pure Bread Eggs raises the chance for breeding eggs to rank up (10x higher than normal); niche, one pointer.",yes,2
+00:26:45,00:27:17,legend_talents|breeding,pure bread eggs,,priority,w7,tier=B,"Pure Bread Eggs is a niche within a niche but not bad; B tier.",yes,3
+00:27:17,00:27:49,legend_talents|gem_shop,david jones returns,,mechanic,w7,,"David Jones Returns gives bonus to the same stats as David Jones training (World 5 gem shop) and also reduces minimum travel time.",yes,2
+00:27:17,00:27:49,legend_talents|gem_shop,david jones returns,,priority,w7,tier=B,"David Jones talent rated low originally but proved stronger than thought; sits in B tier, not amazing.",yes,3
+00:27:49,00:28:19,legend_talents|hole,villager exp,,priority,w7,tier=B;points=3,"Villagers at the hole gain more exp: three pointer; high B tier since many other sources of villager exp.",yes,3
+00:28:19,00:28:49,legend_talents|hole,best story ever told,,mechanic,w7,multiplier=4;hours=300,"Best Story Ever Told: 4x higher reward multi for all monument stories in World 5 cabins plus reward multi build up for an extra 300 hours.",yes,3
+00:28:19,00:28:49,legend_talents|hole,best story ever told,,priority,w7,tier=A;points=6,"Best Story Ever Told is middle of the pack A tier, not S for six points.",yes,3
+00:28:49,00:29:19,legend_talents|farming,exotic market,,mechanic,w7,multiplier=6,"Gets 6x more levels when buying exotic market upgrades; one of the very few ways to increase exotic market, which is strong.",yes,3
+00:28:49,00:29:19,legend_talents|farming,exotic market,,priority,w7,tier=A,"Exotic market talent is high A tier at minimum, borderline low S; not meta defining but really good.",yes,3
+00:29:19,00:29:50,legend_talents|sneaking,gold charms,,mechanic,w7,multiplier=2.25,"The Charms Got Rid: all gold charms give 2.25x higher bonuses; he levelled it a few days ago.",yes,3
+00:29:19,00:29:50,legend_talents|sneaking,gold charms,,priority,w7,tier=C,"Gold charm talent is niche for sneaking; C tier since lots of points for something just okay.",yes,3
+00:29:50,00:30:22,legend_talents|sneaking,blessings luck,,mechanic,w7,multiplier=6,"6x better luck when using blessings in the sneaking inventory.",yes,3
+00:29:50,00:30:22,legend_talents|sneaking,blessings luck,,priority,w7,tier=C,"Blessing luck talent is C tier like gold charms: not useless but many points for something just okay.",yes,3
+00:29:50,00:30:22,legend_talents|sneaking,gold charms,,account_note,w7,,"Gold charms refer to certain items in sneaking; he has no symbols to show; levels up the squares.",yes,1
+00:30:22,00:30:52,legend_talents|spelunking,lightning fast naps,,mechanic,w7,multiplier=2.25;points=5,"Lightning Fast Naps gives faster stamina regeneration for spelunking; 2.25x multiplier for five points; even as spelunking main he struggles to put points in.",yes,3
+00:30:22,00:30:52,legend_talents|spelunking,lightning fast naps,,priority,w7,tier=B,"Stamina regen talent is high B tier, doesn't squeak into A.",yes,3
+00:30:52,00:31:24,legend_talents|spelunking,lightning fast naps,,opinion,w7,tier=A,"For engagement bait he puts stamina regen at A on the infographic, though for viewers he says B tier.",yes,3
+00:31:24,00:31:54,legend_talents|friends,fairy friends forever,,mechanic,w7,multiplier=11;drop_rate=5000;afk_gains=1300,"Fairy Friends Forever makes bonuses from friends Orion and Poppy 11x bigger; he gets 5000% drop rate from Orion alone and 1.3k AFK gains.",yes,2
+00:31:24,00:31:54,legend_talents|friends,fairy friends forever,,priority,w7,tier=A;points=5,"Fairy Friends Forever is a five pointer now high A tier since Orion and Poppy got buffs over time.",yes,3
+00:31:54,00:32:24,legend_talents|cards|lab,equipped cards,,mechanic,w7,multiplier=1.75;drop_rate=355000,"Actively equipped cards give 1.75x higher bonuses and stack lab chips; his drop rate is 355,000.",yes,2
+00:31:54,00:32:24,legend_talents|cards|drop_rate,equipped cards,,priority,w7,tier=S;points=5;drop_rate_gain=50000,"Cards are some of the biggest gains in the game; swapping cards gave over 50k drop rate; five pointer, S tier meta defining.",yes,3
+00:32:24,00:32:54,legend_talents|gaming,picasso gaming,,mechanic,w7,multiplier=2.25,"Picasso Gaming makes all bonuses from gaming palette colors 2.25x higher; palette has many good things like mossy green (cell damage) and prisma bonus.",yes,2
+00:32:54,00:33:25,legend_talents|gaming,picasso gaming,,comparison,w7,prisma_multiplier=15,"Gaming palette talent is a five pointer; strong, scales decently, not as strong as cards, min A tier.",yes,2
+00:33:25,00:33:57,legend_talents|gaming,picasso gaming,,priority,w7,tier=A+,"Picasso Gaming gets A tier, upgraded to A+ along with stamina regen after adding plus grades.",yes,3
+00:33:57,00:34:29,legend_talents|slab,slab bonuses,,priority,w7,tier=B,"Slab bigger bonuses in world 5: low points needed, just okay, high B tier.",yes,3
+00:33:57,00:34:29,legend_talents|hole,jar collectibles,,mechanic,w7,,"Higher bonuses from jar collectibles in cavern 11; two key jar collectibles to push: rose emerald and a mint? gem.",yes,2
+00:34:29,00:35:00,hole|legend_talents,rose emerald,,mechanic,w7,study_rate=1400000,"Rose emerald gives faster villager study rate; his study rate is 1.4 million, mostly rose emerald; negative opals happened for unknown reason.",yes,3
+00:35:00,00:35:30,hole,jar collectibles,,how_to,early,collectible=100000,"Early game push monument AFK gain rate jar to push bravery, get to 100k then swap off to Rose Emerald to push villager study rate.",yes,3
+00:35:30,00:36:01,legend_talents|hole,jar collectibles,,priority,w7,tier=B+;points=5;multiplier=2,"Jar collectible talent is a five point 2x point hog but the two collectibles are good; B+.",yes,3
+00:36:01,00:36:33,legend_talents|ballot,democracy for the win,,mechanic,w7,,"Democracy for the Win gives higher bonuses for the winning bonus of the week; strong if divinity week, useless if voted additive exp.",yes,3
+00:36:33,00:37:04,legend_talents|ballot,democracy for the win,,priority,w7,tier=S/D,"Ballot talent has two ratings: S or D since it can be useless.",yes,3
+00:36:33,00:37:04,legend_talents|merits,meritocracy,,priority,w7,tier=S+,"Meritocracy multiplier for the wing bonus is never useless; minimum S tier and might be S+.",yes,2
+00:37:04,00:37:34,legend_talents|talent_points,super talents,,priority,w7,tier=S+,"Revisiting: super talents get S+.",yes,3
+00:37:04,00:37:34,legend_talents|construction,shrine world order bill,,priority,w7,tier=A,"Shrines no matter where is straight A.",yes,3
+00:37:34,00:37:34,legend_talents|atom_collider,recycled particle upgrades,,skip,w7,tier=D-,"Recycled particle (unspent) gets D minus.",yes,2
+00:37:34,00:38:07,legend_talents|equinox,obsolete no more,,priority,w7,tier=S+;points=1,"Obsolete No More is a one pointer for a meta defining upgrade so S+.",yes,3
+00:37:34,00:38:07,legend_talents|statues,double ain't nothing,,priority,w7,tier=S+,"Statue and gold food drop talent is S+.",yes,3
+00:37:34,00:38:07,legend_talents|cooking,blue ribbon certification,,priority,w7,tier=A,"Ribbons every day is straight A despite many points.",yes,3
+00:38:07,00:38:38,legend_talents|farming,land ranks,,priority,w7,tier=A,"Land rank talent gets A tier.",yes,3
+00:38:38,00:38:38,legend_talents|construction,cog lover,,priority,w7,tier=A,"Jeweled cogs straight A tier.",yes,3
+00:38:38,00:39:08,legend_talents|bubbles,cattle croc,,priority,w7,tier=B+,"Cattle croc bubbles upgraded to B+.",yes,2
+00:38:38,00:39:08,legend_talents|summoning,familiar fireside,,priority,w7,tier=S,"Summoning familiar talent is straight S; ephemeral since useless after a point but more useful early.",yes,3
+00:39:08,00:39:08,legend_talents|gallery,superb gallerium,,skip,w7,tier=D,"Gallerium gets straight D.",yes,2
+00:39:08,00:39:40,legend_talents|masterclass,daily shopping spree,,priority,w7,tier=S+,"Daily shopping spree is meta defining so probably S+ (A+ said).",yes,1
+00:39:08,00:39:40,legend_talents|construction,inevitable builder,,priority,w7,tier=A,"Trimmed construction slot talent is straight A: very good at its niche but many points.",yes,3
+00:39:40,00:40:10,legend_talents,crystal mobs,,priority,w7,tier=A+,"Guaranteed crystal mobs now A+; before the nerf it was probably S+, a full grade down.",yes,3
+00:40:10,00:40:10,legend_talents|drop_rate,drop rate talent,,priority,w7,tier=B+,"Drop rate talent B+ since many points.",yes,3
+00:40:10,00:40:40,legend_talents|death_note,extra kills,,priority,w7,tier=B,"Extra kills talent is B.",yes,3
+00:40:10,00:40:40,legend_talents|cooking,gold food bonus,,priority,w7,tier=B+,"Gold food bonus is B+: second best source outside pay to win.",yes,3
+00:40:40,00:41:11,legend_talents|bubbles|stamps,prisma exalted,,priority,w7,tier=S,"Prisma and exalted talent finalized as S, on par with the familiar talent even at five points.",yes,3
+00:41:11,00:41:11,coral_reef|legend_talents,coral restoration,,priority,w7,tier=C-,"Daily coral C minus for now, could be good later.",yes,3
+00:41:11,00:41:44,legend_talents|class_exp,skillium fancy,,priority,w7,tier=A+,"Higher exp for all gains is on the edge of S so A+.",yes,3
+00:41:11,00:41:44,legend_talents|sigils,big sig fig,,priority,w7,tier=C,"Sigils talent solid C.",yes,3
+00:41:11,00:41:44,legend_talents|refinery,refinery cycles,,priority,w7,tier=C+,"Refinery cycles C+, could be B.",yes,3
+00:41:44,00:41:44,legend_talents|printer,printer multi,,priority,w7,tier=B,"Printer output multi stays B, most B tier of B tiers.",yes,3
+00:41:44,00:42:15,legend_talents|lab|divinity,exp gain,,priority,w7,tier=B+;points=1,"Lab and divinity exp gets B+ due to early and late game usage and being a one pointer.",yes,3
+00:42:15,00:42:46,legend_talents|gem_shop,david jones returns,,priority,w7,tier=B+;points=3,"Davy Jones talent B+ (pointed out solid B) as three points.",yes,2
+00:42:15,00:42:46,legend_talents|sneaking,gold charms,,priority,w7,tier=C,"Both sneaking charm talents solid C.",yes,3
+00:42:15,00:42:46,legend_talents|spelunking,lightning fast naps,,priority,w7,tier=A-,"Stamina regeneration for spelunking gets A minus though he still thinks B tier.",yes,3
+00:42:46,00:43:18,legend_talents,unclear five-node talent,,priority,w7,tier=S+;points=5,"A five node talent (likely cards) gets S+.",yes,1
+00:42:46,00:43:18,legend_talents,tier list,,meta_change,w7,,"He compares today's tier list to his earlier guide from a year ago.",yes,3
+00:43:18,00:43:49,legend_talents|talent_points,super talents,,comparison,w7,old_tier=S;new_tier=S,"Yellow one was S previously and agrees today.",yes,2
+00:43:18,00:43:49,legend_talents,yellow three,,comparison,w7,old_tier=A;new_tier=S;points=1,"Yellow three previously A, now S as a one pointer; agrees with last year's Paul on needing to go back up.",yes,2
+00:43:49,00:44:21,legend_talents|atom_collider,recycled particle upgrades,,comparison,w7,old_tier=D;new_tier=D,"Unspent/recycled previously D and still D.",yes,2
+00:43:49,00:44:21,legend_talents,yellow five and six,,comparison,w7,old_tier=S;new_tier=S,"Yellow five and six were S previously and S today.",yes,2
+00:43:49,00:44:21,legend_talents|cooking,blue ribbon certification,,comparison,w7,old_tier=B;new_tier=A,"Ribbon per day was B and is A today, a big increase.",yes,3
+00:44:21,00:44:51,legend_talents|cooking,blue ribbon certification,,comparison,w7,new_tier=A-,"Ribbon income still A minus: timegated and new mechanic needs over 20; not straight A.",yes,3
+00:44:51,00:44:51,legend_talents|construction,cog lover,,comparison,w7,old_tier=A;new_tier=A,"Jeweled cogs per day was A and still A.",yes,3
+00:44:51,00:45:24,legend_talents|bubbles,cattle croc,,comparison,w7,old_tier=B;new_tier=B,"Yellow 10 cattle croc was B and is B.",yes,3
+00:44:51,00:45:24,legend_talents,red row,,comparison,w7,old_tier=S;new_tier=S,"Red one previously S and S today.",yes,2
+00:44:51,00:45:24,legend_talents|gallery,superb gallerium,,comparison,w7,old_tier=C;new_tier=D,"Red two was C and today D; they didn't understand how it worked back then.",yes,3
+00:44:51,00:45:24,legend_talents,red three,,comparison,w7,old_tier=S;new_tier=S+,"Red three previously S, S+ today.",yes,3
+00:45:24,00:45:24,legend_talents,red four and five,,comparison,w7,old_tier=A;new_tier=A,"Red four was A and A today; same for red five.",yes,3
+00:45:24,00:45:55,legend_talents|drop_rate,drop rate talent,,comparison,w7,old_tier=B+;new_tier=A-,"Red six drop rate was B+ and is bumped to A minus; a lot of points to spend.",yes,3
+00:45:55,00:46:27,legend_talents,red seven,,comparison,w7,old_tier=C;new_tier=B,"Red seven was C, today B.",yes,3
+00:45:55,00:46:27,legend_talents|cooking,gold food multi,,comparison,w7,old_tier=B;new_tier=B,"Golden food multi was B and is B today.",yes,3
+00:45:55,00:46:27,legend_talents|bubbles|stamps,prisma exalted,,comparison,w7,old_tier=S;new_tier=S,"Red nine prisma was S and S today.",yes,3
+00:46:27,00:46:27,coral_reef|legend_talents,daily coral,,comparison,w7,old_tier=C;new_tier=C,"Daily coral was C and is C.",yes,3
+00:46:27,00:46:58,legend_talents|class_exp,skillium fancy,,comparison,w7,old_tier=S;new_tier=A+,"Brown one was S and gets A+ today; could be S minus.",yes,3
+00:46:27,00:46:58,legend_talents|sigils,big sig fig,,comparison,w7,old_tier=C;new_tier=C,"Brown two sigil speed was C and is C.",yes,3
+00:46:27,00:46:58,legend_talents|refinery,refinery cycles,,comparison,w7,old_tier=B;new_tier=C+,"Brown three was B and went down to C+.",yes,3
+00:46:58,00:47:30,legend_talents|printer,printer multi,,comparison,w7,old_tier=C;new_tier=B,"Brown four printer was C and is B today; could drop to B minus.",yes,3
+00:46:58,00:47:30,legend_talents|lab|divinity,exp gain,,comparison,w7,old_tier=B;new_tier=B,"Lab exp gain was B and still B.",yes,3
+00:46:58,00:47:30,legend_talents|breeding,pure bread eggs,,comparison,w7,old_tier=C;new_tier=B,"Breeding egg rank up chance was C and is B.",yes,3
+00:47:30,00:48:00,legend_talents|gem_shop,david jones returns,,comparison,w7,old_tier=C;new_tier=B,"David Jones was C and went up to B; could be B minus.",yes,3
+00:47:30,00:48:00,legend_talents|hole,villager exp,,comparison,w7,old_tier=C;new_tier=B,"Hole and hole villager exp were C and are B; he was kinder today.",yes,3
+00:47:30,00:48:00,legend_talents|hole,best story ever told,,comparison,w7,old_tier=S;new_tier=A+,"Monument rewards were S and A+ today.",yes,3
+00:48:00,00:48:34,legend_talents|farming,exotic market,,comparison,w7,old_tier=S;new_tier=A+,"Exotic market purchases were S and A+ today.",yes,3
+00:48:00,00:48:34,legend_talents|sneaking,gold charms,,comparison,w7,old_tier=C;new_tier=C,"Sneaking charms and blessing luck were C and are C.",yes,3
+00:48:00,00:48:34,legend_talents|spelunking,lightning fast naps,,comparison,w7,old_tier=B;new_tier=A-,"Green three stamina regen was B and A minus today (also B).",yes,2
+00:48:00,00:48:34,legend_talents|friends,fairy friends forever,,comparison,w7,old_tier=A;new_tier=A,"Green four Orion and Poppy was A and A.",yes,3
+00:48:34,00:49:07,legend_talents|cards,equipped cards,,comparison,w7,old_tier=S;new_tier=S,"Green five equipped cards was S and S.",yes,3
+00:48:34,00:49:07,legend_talents|gaming,picasso gaming,,comparison,w7,old_tier=S;new_tier=A+,"Gaming pallet was S and A+ today.",yes,3
+00:48:34,00:49:07,legend_talents|slab|hole,slab and jar collectibles,,comparison,w7,old_tier=C;new_tier=B+,"Slab and jar collectibles were C and B+ today.",yes,3
+00:48:34,00:49:07,legend_talents|ballot,democracy for the win,,comparison,w7,old_tier=B;new_tier=S/D,"Ballot bonus was B with a caveat that it could be D or S.",yes,2
+00:49:07,00:49:37,legend_talents|merits,meritocracy,,comparison,w7,old_tier=S;new_tier=S,"Green X meritocracy was S and S.",yes,3
+00:49:07,00:49:37,legend_talents,tier list,,comparison,w7,,"Little changed overall; crystal spawn nerf was the biggest move (a full tier); red two learned to be useless.",yes,3
+00:49:37,00:50:07,legend_talents,priority order,,priority,w7,,"Get all S tiers first since universally amazing then A tiers; after that is personal preference. S and A tier are pretty much must gets.",yes,3
+00:50:07,00:50:37,legend_talents,point cost,,priority,w7,,"Prioritize one point talents since they give full value immediately; he now takes point cost into account.",yes,3
+00:50:37,00:51:38,legend_talents,reserve,,warning,w7,reserve_points=5-10,"Be sparing; keep maybe 5 or 10 points in reserve because a future patch or final row may give strong new content to buff immediately.",yes,3
+00:51:38,00:52:08,legend_talents|research,reserve,,warning,w7,told_to_keep=1;needed=12;needed_some=20,"Players told to keep one point for the research update actually needed 12 and some 20 since nodes were in the corner; always keep more than you think.

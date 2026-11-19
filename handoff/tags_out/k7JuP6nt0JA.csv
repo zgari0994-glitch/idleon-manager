@@ -1,0 +1,30 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,upgrade_vault,quick ref menu,,mechanic,any,,The new Upgrade Vault update is accessed from the quick ref menu.,yes,3
+00:00:00,00:00:00,upgrade_vault|grimoire,upgrades,death_bringer,mechanic,any,,Upgrade Vault is like the Death Bringer grimoire but upgraded with money instead of bones.,yes,3
+00:00:00,00:00:00,upgrade_vault,unlock,,mechanic,any,starting_upgrades=1,You start with one upgrade unlocked; reaching a certain number of upgrades unlocks the next ones.,yes,3
+00:00:00,00:00:31,upgrade_vault,upgrades,,account_note,any,,Some strong players could max the vault on day one but most upgrades target different (less advanced) players.,yes,2
+00:00:31,00:00:31,upgrade_vault|damage|class_exp|talent_points,upgrades,,opinion,early,,Vault is a saving grace for early game players covering damage class XP talent points defense and accuracy.,yes,3
+00:00:31,00:00:31,upgrade_vault,progression,,meta_change,w1|w2|w3,,Worlds 1 to 3 progression is different now; vault gives lots of stats for little investment as a catch-up mechanic.,yes,3
+00:00:31,00:01:02,upgrade_vault|money,money percent bonuses,,opinion,early,,New money percent bonuses might fix the early game lack of money problem.,yes,3
+00:01:02,00:01:02,upgrade_vault,defense|accuracy,,priority,early,money_percent=90,Biggest early vault upgrades are defense and accuracy; put about 90% of your money into the shield and target upgrades.,yes,3
+00:01:02,00:01:02,upgrade_vault|stamps,defense|accuracy stamps,,comparison,early|w1|w2|w3,stat_boost_min=30;stat_boost_max=40,World 1 town stamps still boost defense and accuracy but vault gives 30-40 points for the price of a few stamp levels; useful through World 3.,yes,2
+00:01:02,00:01:32,upgrade_vault|stamps,stamp potency,,mechanic,any,,Vault also increases the potency of the defense and accuracy stamps.,yes,3
+00:01:32,00:01:32,upgrade_vault|anvil,feathers|anvil production speed,,mechanic,early,,Vault has bonuses for Orion feathers and anvil production speed to fast-track mega feathers and gear crafting.,yes,3
+00:01:32,00:01:32,upgrade_vault,movement speed,,mechanic,early,,Vault includes quality of life upgrade for movement speed to get around maps quicker.,yes,3
+00:01:32,00:01:32,upgrade_vault|talent_points,attack talent enhancers,warrior,mechanic,early,talent_enhancers=3,Three attack talent enhancers make MP usage more efficient and make WHL? very strong on Warriors.,yes,2
+00:01:32,00:02:03,upgrade_vault|money|statues|class_exp,money percent|statue bonuses|class XP,death_bringer,mechanic,mid|late,,Vault has money percent statue bonuses and class XP useful for mid and end gamers to gain Death Bringer talent points.,yes,2
+00:02:03,00:02:03,upgrade_vault|forge|hole,forge capacity,,comparison,mid,,Vault forge capacity is less important now that the Hole gives forge cap upgrades but could trivialize crafting Godard? gear without investing in that.,yes,2
+00:02:03,00:02:03,upgrade_vault|forge,forge capacity,,opinion,endgame,claim_time_min=2,If forge cap keeps rising we could eventually smelt billions of ore in a single 2-minute claim.,yes,3
+00:02:03,00:02:03,sneaking,fractal island bonus,,meta_change,late,sneaking_per_level_pct=2,New fractal island bonus gives 2% sneaking per sneaking level; ranks name garbled.,yes,2
+00:02:03,00:02:33,upgrade_vault,quick ref crafting,,meta_change,any,,Update added the ability to craft from quick ref.,yes,2
+00:02:33,00:02:33,general,afk gain,,meta_change,any,afk_gain_pct=30,Lava gave a free permanent 30% AFK gain rate for all activities.,yes,3
+00:02:33,00:02:33,upgrade_vault,vault mastery,,mechanic,late,afk_gain_pct=30;total_afk_gain_pct=60,Max Vault Mastery gives another 30% AFK gain rate for a total 60% AFK gain increase in the update.,yes,3
+00:02:33,00:03:04,death_note|upgrade_vault,tombstone,death_bringer,meta_change,any,,Bug fix: tombstone sometimes not spotting for Death Bringer.,yes,2
+00:02:33,00:03:04,statues,monument,,meta_change,any,,Bug fix: Monument not giving its full multiplier of bonuses.,yes,2
+00:03:04,00:03:35,general,upcoming updates,,meta_change,any,months=5,Lava teased the next five months: two more master classes cavern expansions the world 6 boss and a companion rework.,yes,3
+00:03:04,00:03:35,general,announcement,,meta_change,any,,Lava mentioned a big announcement coming in a few days.,yes,3
+00:03:35,00:03:35,general,boss farming,,meta_change,any,,Lava changed boss farming again and it is now not working due to exploiters and auto clickers.,yes,2
+00:03:35,00:04:06,gem_shop,boss gems,,opinion,any,daily_keys=300;gems=200;nightmare_trolls=5,Proposes an NPC daily quest: spend 300 keys for 200 gems and remove boss gems entirely.,yes,3
+00:04:06,00:04:37,gem_shop,boss gems,,opinion,any,,Argues the daily key quest would increase player activity and help normal players instead of punishing them.,yes,3
+00:04:37,00:05:07,gem_shop,streak reward,,opinion,any,days=5;gem_envelopes=5;gems=10000,Suggests a streak reward: 5 days of the 300 key quest gives 5 gem envelopes with a small chance at 10000 gems.,yes,3
+00:04:37,00:04:37,gem_shop,golden pocket watch,,warning,any,,The daily key quest must not be affected by golden pocket watches.,yes,3

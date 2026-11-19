@@ -1,0 +1,28 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:30,00:01:00,general,account review bingo,,meta_change,any,,Video format: account bingo with tiles like sigils leveled too early and suspicious character names. A bingo gets the reviewed player banned from stream; no bingo means VIP.,yes,3
+00:01:00,00:01:31,sigils|bubbles,sigil leveling,,warning,w6,,Pushing sigils while bubbles aren't ready counts as leveling sigils too early; he is in world 6 but not pushing it.,yes,2
+00:01:31,00:02:34,atom_collider|printer,atom collider,,warning,early,,He has no 3D printing set up (more prints on toilet logs than oak logs) and probably an atom collider; both are too early to touch.,yes,2
+00:02:34,00:03:34,characters,character names,,opinion,any,,His character names are fine and not suspicious.,yes,3
+00:03:34,00:04:05,vials,daily vials,,priority,w6,,You should do vials every day. He is in world 6 but has no world 4 or world 5 vials; early-world vials are a bad sign.,yes,2
+00:04:05,00:04:36,sigils,sigil charge,,account_note,w6,,His sigil charge is okay and he has no slush skull.,yes,2
+00:04:05,00:04:36,worship,worship,beast_master,account_note,w6,,His worship is poor; he says it is because his main is a Beast Master.,yes,2
+00:04:36,00:05:06,prayers,prayers,,account_note,w6,prayers=3,He has three prayers and is safe on that tile.,yes,2
+00:04:36,00:05:37,printer,sample size,,target,w6,sample_pct=90;at_90=1;total=10,"Printer samples should be at 90%; only 1 of his 10 hits 90%, and royal sampler doesn't reach it either.",yes,2
+00:05:37,00:06:38,characters,character duo,beast_master|bubonic_conjuror,warning,w6,beast_masters=2;boos=2,"He runs two Beast Masters and two Boos (bubonic conjurors), a terrible duo; one Beast Master is for lab, the other presumably alchemy.",yes,2
+00:06:38,00:08:44,damage,multi-kill,,warning,w6,,He is pushing world 6 numbers but can't be reaching multi-kill; he pushes fast through multiplicative damage bonuses yet still falls short.,yes,2
+00:06:38,00:07:41,damage,character damage,,account_note,w6,,Leaked spirits and gold skulls don't carry over; damage on his main is good.,no,1
+00:08:44,00:09:45,characters,post office,,warning,w6,cooking=3;divinity=5;sailing=51,"His post office is a mess, with orders spread badly across cooking, divinity and sailing (numbers garbled).",yes,1
+00:09:14,00:10:16,class_choice,elite classes,voidwalker,priority,w6,,"In world 6 he should have a Voidwalker (""vman"") as an elite class; having only Maestro is a plus one for the bingo.",yes,2
+00:09:45,00:10:46,sailing,artifacts,,account_note,w6,skipped=2,"He skipped two sailing items (hippo, gummy over); skipping two isn't too many.",yes,2
+00:10:16,00:10:46,cooking|bubbles,no unending energy,,account_note,w6,,He has no unending energy; judged on no bubble left behind and no meal left behind.,yes,2
+00:10:46,00:11:17,cooking,meals,,warning,w6,,"His cooking is not terrible, but he hasn't unlocked the rice ball meal, so he fails no meal left behind.",yes,2
+00:11:17,00:12:18,refinery,auto refine,,warning,any,auto_refine_pct=10,Never put red salts on auto refine; his refinery at 10% auto refined is bad.,yes,3
+00:11:17,00:12:49,refinery,refinery ranks,,warning,w6,,His refinery ranks are too high and messed up; they are at a level he can't keep up with.,yes,2
+00:12:49,00:13:53,characters,highest skiller,maestro,warning,w6,fishing_level=23;rank=3,"His Maestro isn't his highest skiller, which is bad; he is level 23 at fishing and ranked third.",yes,2
+00:13:21,00:13:53,owl,mega feather,,account_note,w6,,"He has no mega feather, so he needs to do a little owl.",yes,2
+00:13:21,00:14:23,owl,owl balance,,warning,late,fractal=15;alchemy_bubble_level=60,"Do some owl but not all owl: players with +15 fractal and level 60 alchemy bubbles who only do owl are doing it wrong.",yes,2
+00:13:53,00:14:23,pets,companions,,account_note,w6,,He doesn't have the dangerous companion (D?) tile and is safe.,yes,1
+00:14:23,00:14:54,traps,trap setup,,opinion,w6,,"His traps look fine and aren't messy; they follow a plan, though he has no nature traps on Myro.",yes,2
+00:14:54,00:15:27,characters,main class,blood_berserker,account_note,w6,,He is not a blood berserker RNG-carry main; he is the opposite.,yes,3
+00:15:27,00:16:01,characters,tools,,opinion,w6,,He has no junk tools and no characters without tools; missing some tools doesn't mean having none.,yes,2
+00:16:01,00:16:32,stamps,total stamp level,,threshold,w6,stamp_level_min=3500;his_stamps=3690,A bingo tile needed 3500 total stamp level or he'd be banned; he has 3690 stamps and survives.,yes,3

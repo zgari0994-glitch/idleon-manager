@@ -1,0 +1,30 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,cauldrons_liquids|bubbles,cranium cooking talent,shaman,mechanic,any,,Cranium Cooking is a shaman talent; only while active (not AFK) each monster kill during it gives instant alchemy progress.,yes,3
+00:00:00,00:00:00,talent_points,cranium cooking,shaman,mechanic,any,,Progress amount and skill duration scale with the talent points put into Cranium Cooking.,yes,3
+00:00:30,00:00:30,cauldrons_liquids|bubbles,liquid,shaman,mechanic,any,,Cranium Cooking affects color cauldron liquid (unlocking bubbles/boosts) and second-tab liquids (leveling bubbles, bargain tag, opals).,yes,3
+00:00:30,00:01:01,cauldrons_liquids|bubbles,cranium cooking,shaman,opinion,any,bubble_level_without=50,"Cranium Cooking cuts alchemy from years to weeks; low bubbles could reach thousands of levels instead of level 50.",yes,3
+00:01:01,00:01:01,characters|talent_points,tentacle eye,shaman,threshold,any,talent_level=200;cooldown_reduction_sec=3,Need at least level 200 talents; tentacle eye passive gives chance to cut attack cooldowns by 3 seconds at 200.,yes,3
+00:01:01,00:01:32,characters|talent_points,tentacle eye,shaman,mechanic,any,cooldown_reduction_sec=3,Cranium Cooking counts as an attack cooldown so kills during its window can lower its cooldown and allow more uptime.,yes,3
+00:01:32,00:01:32,cauldrons_liquids|bubbles,cranium cooking,shaman,priority,any,,To maximize gains extend Cranium Cooking duration and maximize monsters killed inside its window.,yes,3
+00:01:32,00:02:03,general,post office,,target,any,boxes=400;duration_added_sec=30,Max potion package at PO box in world 2 (400 boxes) for flat +30 seconds Cranium duration.,yes,3
+00:02:03,00:02:03,general,post office mana box,,target,any,cooldown_reduction_pct=10,Mana box gives up to 10% cooldown reduction on all skills.,yes,3
+00:02:03,00:02:34,bubbles,roadkill bubble,,priority,any,,Cooking roadkill bubble boosts Cranium duration and alchemy progress per kill and lowers cooldown plus more alchemy XP; scales very well.,yes,3
+00:02:03,00:02:34,bubbles,roadkill bubble,,threshold,any,cap_pct=119;cap_level=9000;good_enough_level=7000,Roadkill bubble effect caps around 119% at about level 9000 but level 7000 is good enough.,yes,3
+00:02:34,00:03:04,characters|talent_points,tentacle eye,shaman,threshold,late,talent_level=400;cooldown_reduction_sec=4,At 400 talent levels tentacle eye reduces cooldown by 4 seconds making Cranium Cooking a permanent loop at trimmerworms.,yes,2
+00:03:04,00:03:04,talent_points,guide,,meta_change,any,talent_level=400,He recently released a guide to get talent levels over 400 and links it in the description.,yes,3
+00:03:04,00:03:35,general,post office loot box,,target,any,crystal_spawn_chance_pct=39,Non-predatory loot box in the post office gives 39% crystal mob spawn chance; get it high to kill more mobs in window.,yes,3
+00:03:35,00:03:35,cards|lab,card doubler,,setup,any,,Equip demagogeni and poop cards for crystal mob spawn chance and double them with the card doubler in lab.,yes,2
+00:03:35,00:03:35,construction,crescent shrine,,priority,any,,Crescent shrine gives more crystal mob spawn chance the higher you level it.,yes,3
+00:03:35,00:04:05,stamps,crystalline stamp,,setup,any,,Crystalline stamp is a huge source of crystal mob spawn chance; ideally use an exalted stamp from the recent Windwalker release.,yes,3
+00:03:35,00:04:05,lab,choco chip,,setup,any,,Make sure you equip your Choco Chip for crystal mob spawn chance.,yes,2
+00:04:05,00:04:35,equinox,liquid investment,,priority,early,max_level=11;excess_invested_pct=99,Rush Equinox upgrade liquid investment in world 3; at max level 11 99% of excess liquid goes into cap and rate upgrades.,yes,3
+00:04:05,00:04:35,cauldrons_liquids|equinox,cap and rate,,mechanic,any,,Cap and rate upgrades matter because they increase both liquid capacity and speed.,yes,3
+00:04:35,00:05:06,lab,viaduct of the gods,,setup,late,liquid_capacity_mult=5;liquid_regen_penalty_pct=30,Lab viaduct of the gods gives 5x liquid capacity but 30% slower regen; very useful late when bubble costs rise.,yes,2
+00:04:35,00:05:06,lab,viaduct of the gods,,warning,any,,Turn viaduct off if the Cranium character is active overnight/offline since the capacity is not needed then.,yes,2
+00:05:06,00:05:36,general,weapon,shaman,setup,any,reach_boxing_gloves=55;reach_godshard_staff=80,Boxing gloves are best weapon for Cranium; lower reach 55 vs 80 gives more respawn dead uptime and better aura placement.,yes,3
+00:05:06,00:06:08,talent_points,attack bar,shaman,setup,mid,,"Pre-400 bar: Cranium Cooking, Raise Dead, Auspicious Aura, Flatulent Spirit, Chemical Warfare, Sizzling Skull.",yes,3
+00:05:36,00:06:08,talent_points,attack bar,shaman,setup,late,ghost_spot_sec=15-30,"Post-400 he uses Cranium Cooking, Auspicious Aura, Respawn Dead, Chemical Warfare; advises testing both setups.",yes,2
+00:06:08,00:06:08,sigils,cranium cooking,shaman,warning,any,,Sigils do not progress while Cranium Cooking is active.,yes,3
+00:06:08,00:06:38,cauldrons_liquids,afk_spot,shaman,afk_spot,any,,Tremors in world 5 is the best place for pure alchemy liquid and permanent Cranium Cooking.,yes,3
+00:06:38,00:06:38,cauldrons_liquids,afk_spot,shaman,afk_spot,any,liquid_rate_penalty_pct=10,Samurai in world 6 gives mix of XP and money with about 10% worse liquid rates and probably not permanent Cranium.,yes,2
+00:06:38,00:06:38,talent_points,tentacle eye,shaman,threshold,late,talent_level=430,Permanent Cranium Cooking needs 430+ talent levels.,yes,3

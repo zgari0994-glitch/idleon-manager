@@ -1,0 +1,25 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:01,00:00:01,general,chaotic efaunt boss,,meta_change,w2,,Chaotic Efaunt is the second Chaotic Boss located in Djonnuttown at the end of Yum Desert,yes,3
+00:00:01,00:00:01,general,chaotic efaunt boss,,threshold,w2,min_accuracy=2000;hit_chance_pct=5,Needs minimum 2000 Accuracy for a 5% hit chance against Chaotic Efaunt,yes,3
+00:00:01,00:00:01,general,chaotic efaunt boss,,threshold,w2,accuracy=6000;hit_chance_pct=100,Needs 6000 Accuracy for 100% hit chance against Chaotic Efaunt,yes,3
+00:00:01,00:00:01,general,chaotic efaunt boss,,mechanic,w2,keys_per_attempt=5,Fighting Chaotic Efaunt costs 5 Keys per attempt,yes,3
+00:00:33,00:00:33,general,chaotic efaunt boss,,mechanic,w2,health_bars=2;health_per_bar=100000000,He has two health bars of 100 million health each,yes,3
+00:00:33,00:00:33,damage,chaotic efaunt boss,,setup,w2,,Bring a character with significant damage to kill him in reasonable time,yes,3
+00:00:33,00:00:33,general,chaotic efaunt boss,,setup,w2,min_defense=200,Recommends at least 200 Defense though it is still a bit of a struggle since he does a lot of damage,yes,3
+00:00:33,00:00:33,general,chaotic efaunt boss,,setup,w2,,Bring plenty of food to fight this boss,yes,3
+00:00:33,00:00:33,general,chaotic efaunt boss,,how_to,w2,,Select the Chaotic Version when entering the boss,yes,3
+00:01:04,00:01:04,general,chaotic efaunt boss,,mechanic,w2,,Hammer Swing hits the platform then the bottom platform; avoid by standing at platform edge or jumping to the small platform; easily tankable,yes,3
+00:01:35,00:01:35,general,chaotic efaunt boss,,mechanic,w2,,Flame Orb spawns flames in a 1-2-3-4 pattern plus random flames; minor damage so no need to kill arm quickly,yes,3
+00:01:35,00:01:35,general,chaotic efaunt boss,,mechanic,w2,,Finger gun spin does damage but unlike Normal version is not a one-shot so it is tankable,yes,3
+00:01:35,00:02:10,general,chaotic efaunt boss,,priority,w2,,Leg kick hits the bottom section and a platform with significant damage so recommend killing that arm fairly quickly,yes,3
+00:02:10,00:02:10,general,chaotic efaunt boss,,mechanic,w2,,Caress ability on the top right hand is melee range only so you can back off to avoid it,yes,3
+00:02:43,00:02:43,general,chaotic efaunt boss,,mechanic,w2,defense=500;damage_taken=450,The grabbing motion over your head still hits for about 450 HP with 500 Defense,yes,3
+00:02:43,00:02:43,general,chaotic efaunt boss,,mechanic,w2,,Psionic Wave shoots purple rings for meager damage; easily tanked and not a priority to kill,yes,3
+00:02:43,00:03:16,general,chaotic efaunt boss,,mechanic,w2,,Scimitar swings hit all 3 melee platforms then a secondary slash only hits the bottom platform,yes,3
+00:03:16,00:03:16,general,chaotic efaunt boss,,priority,w2,,Bottom platform is the highest damaging so kill that arm first,yes,3
+00:03:16,00:03:46,general,chaotic efaunt boss,,mechanic,w2,,Abilities rotate in no particular order; killing an arm makes the other arms attack more frequently,yes,3
+00:04:37,00:04:37,general,chaotic efaunt boss,,mechanic,w2,,Head phase only uses blue rings plus some from the ceiling; easily tankable with small defense so ignore them,yes,3
+00:05:50,00:05:50,gem_shop|tasks,merits,,mechanic,w2,,Chaotic Efaunt can drop Gems if you have the Merit in the Tasks,yes,3
+00:05:50,00:05:50,general,loot,,mechanic,w2,,Ripped Tunics are blue tunics also available in Normal Mode,yes,2
+00:05:50,00:06:20,general,loot,,mechanic,w2,,Ribbed Tunics drop only from Chaotic Efaunt and are necessary to make the Chaotic Ring,yes,2
+00:06:20,00:06:20,general,loot,,mechanic,w2,,He can drop the Efaunt Obol and Chaotic Efaunt card and Midnight Cookies,yes,3

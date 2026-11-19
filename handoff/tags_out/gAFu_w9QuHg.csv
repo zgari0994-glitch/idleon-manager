@@ -1,0 +1,28 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,construction,booster cog,,mechanic,any,,The booster cog shown on the cog board actually does nothing; it is just a joke by Lava and has no hidden function.,yes,3
+00:00:31,00:01:01,characters,leveling,,priority,mid,level=100,Deda/Dedda Rams is the best leveling spot up to about level 100; if farming there you haven't gotten elite classes yet.,yes,2
+00:00:31,00:01:01,class_choice,elite classes,,priority,mid,,After level 100 get all your elite classes and then push the later worlds toward World 5 as soon as possible.,yes,3
+00:00:31,00:01:32,characters,leveling,,afk_spot,mid,level=120,Past level 120 the two best leveling places are probably Cans or Flombeige in the World 4 maps.,yes,2
+00:01:01,00:01:32,characters,leveling,,afk_spot,late,,Best ultimate leveling spot is Sumas once you have your elite classes; later move to the citen or Tremor worms map where levels skyrocket.,yes,2
+00:01:01,00:02:02,islands,expedition unlock order,,priority,any,,Suggested island unlock order: trash first then shimmer then sea salt then fractal then crystal and finally Rando.,yes,3
+00:01:32,00:02:02,islands,trash island,,mechanic,any,,Trash island gives daily trash for your upgrades.,yes,3
+00:01:32,00:02:02,islands,shimmer island,,mechanic,any,,Shimmer has a weekly challenge that gives more bonuses.,yes,3
+00:01:32,00:02:02,islands|advice_fish,sea salt island,,mechanic,any,,Sea salt island has the best fishing XP in the game.,yes,3
+00:01:32,00:02:02,islands,crystal island,,warning,any,,Crystal island depends on your progress because if you're too weak you can't kill the crystals.,yes,2
+00:02:02,00:02:32,islands,rando island,,mechanic,any,,Rando island takes actual bottles for upgrades which you need to unlock new islands so go to it last.,yes,2
+00:02:02,00:02:32,characters,accuracy,,warning,early,,Missing attacks against enemies is a well-known new player mistake caused by not leveling accuracy.,yes,3
+00:02:02,00:02:32,characters,accuracy stat,archer|mage|warrior,mechanic,early,,Each class has an accuracy substat: strength for archers and agility for mages and wisdom for warriors.,yes,2
+00:02:32,00:03:03,characters,accuracy,,how_to,early,,Check mob accuracy requirement in the AFK info to see how much accuracy you need.,yes,3
+00:02:32,00:03:03,dungeons|characters,accuracy,,how_to,early,,Farm party dungeons to buy flurbo shop upgrades that give accuracy percent after finishing first talent tab.,yes,2
+00:02:32,00:03:03,statues|characters,bullseye statue,,how_to,early,,Bullseye statue at walking sticks gives accuracy percent.,yes,2
+00:02:32,00:03:03,bubbles,shacker?,,how_to,early,,Unlock the Shacker? alchemy bubble because it helps greatly with accuracy.,yes,1
+00:03:03,00:03:33,slab,slush skull,,opinion,any,,Slush skull is one of the worst skulls with way too slow a charge rate; strongly suggests not equipping it.,yes,3
+00:03:03,00:03:33,slab|armor_smithy,slush skull,,priority,w5,count=10,Slush skull is useful for crafting the final World 5 skull the fastest skull in the game.,yes,2
+00:03:03,00:03:33,slab,slush skull,,target,any,keep=10;or=11,Keep 10 slush skulls or 11 including one for the slab.,yes,2
+00:03:33,00:04:04,slab,slush skull,,mechanic,w3,,Slush skull drops from the Dipl? mini boss in World 3.,yes,1
+00:03:33,00:04:04,class_choice,future classes,,opinion,any,,Class names found in dungeon upgrades are mostly placeholders though speculation includes death bringer and wind walker.,yes,2
+00:03:33,00:04:04,class_choice,royal guardian,,opinion,any,,Speculation that Royal Guardian is the upgrade of Divine Knight.,yes,2
+00:04:04,00:04:34,class_choice,wind walker,wind_walker|siege_breaker,mechanic,any,,Before World 4 released wind walker was speculated instead of siege breaker but things changed.,yes,2
+00:04:04,00:04:34,class_choice,voidwalker,voidwalker,mechanic,any,,Void Walker was originally named Virtuoso.,yes,3
+00:04:04,00:04:34,general,presets,,warning,any,,Presets such as card and skill presets and occasional post office boxes are local storage and disappear when swapping devices or logging out.,yes,3
+00:04:34,00:05:04,general,cloud save,,how_to,any,,Cloud save before you log out to avoid losing local presets though it does not guarantee they will persist.,yes,3

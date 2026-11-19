@@ -1,0 +1,93 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,farming,guide_overview,,meta_change,any,sections=3,"Guide covers land ranks (with database priority), night market point optimization, and efficient magic bean farming for the new farming update.",yes,3
+00:00:31,00:01:01,farming,night_market,,mechanic,late,,Night market becomes even more important as you scale up your farming.,yes,3
+00:01:01,00:01:32,farming,land_rank_unlock,,how_to,early,upgrade_index=6,"Unlock land ranks in the night market as its sixth upgrade; needs a few magic beans, many crops unlocked, and decent evolution chance.",yes,3
+00:01:01,00:01:32,farming,land_rank_unlock,,mechanic,early,,"After unlocking land ranks, you automatically gain land rank experience whenever you harvest crops.",yes,3
+00:01:32,00:02:02,farming,night_market_rank_boost,,mechanic,mid,upgrade_index=8,Rank boost is the eighth night market upgrade; requires mushrooms and gives more land rank experience per crop collected.,yes,3
+00:02:02,00:02:34,farming,land_rank_experience,,mechanic,any,,"Land ranks are leveled by harvesting crops; handyman tools land ranks tab 'view experience' shows XP needed, and each plot ranks up individually (RNG).",yes,3
+00:02:34,00:03:06,farming,land_rank_experience,,opinion,any,rank_high=106;rank_low=99,"Rank experience display is cluttered, he turns it off; plots differ in rank, and just keep growing crops to level them.",yes,3
+00:02:34,00:03:06,farming,land_rank_experience,,how_to,any,,"If one plot lags behind in rank, you can specifically harvest that plot.",yes,2
+00:03:06,00:03:38,farming,land_rank_reset,,mechanic,any,reset_days=7,Reset upgrades button shows a 7-day timer tied to weekly reset; you can respec land rank points only once per week.,yes,3
+00:03:38,00:04:08,farming,land_rank_database,,mechanic,any,account_upgrades=4;farming_upgrades=16,Land rank database has 4 upgrades affecting the rest of account and 16 farming-related upgrades.,yes,3
+00:03:38,00:04:08,farming,land_rank_database,,mechanic,any,plots=36,Points to spend come from total land ranks across all plots; 36 plots total if all unlocked.,yes,3
+00:04:08,00:04:39,farming,land_rank_database,,mechanic,any,points_per_total_rank=1,You get one database point per total plot rank; available points visible by clicking any upgrade.,yes,3
+00:04:08,00:04:39,farming,land_rank_database,,mechanic,any,evolution_boosts=4,Evolution boost upgrades have diminishing returns per point and the four multiply together.,yes,3
+00:04:39,00:05:09,farming,land_rank_database,,advice,any,,"Balance points between the four evolution boosts, since the bottom one eventually gives less per point than upgrading the top one.",yes,2
+00:04:39,00:05:09,farming,land_rank_database,,mechanic,any,account_bonuses=4,You need four points to get the four account bonuses; they unlock slowly as total plot rank rises.,yes,3
+00:05:09,00:05:40,farming|sneaking,land_rank_database_seed_of_stealth,,mechanic,any,stealth_per_farming_level_pct=2;total_stealth_pct=58,"Seed of stealth, first account bonus, gives 2% more stealth per farming level (58% for him) for all ninjas; great for sneaking masteries.",yes,3
+00:05:09,00:05:40,farming,land_rank_database_seed_of_stealth,,priority,any,,Seed of stealth is an amazing upgrade to help push sneaking masteries.,yes,3
+00:05:40,00:06:10,farming|drop_rate,land_rank_database_seed_of_loot,,mechanic,any,drop_rarity_pct=10,Seed of loot needs a few more ranks and gives 10% more drop rarity to all characters.,yes,3
+00:05:40,00:06:10,farming|damage,land_rank_database_seed_of_damage,,mechanic,mid,damage_pct=20,Seed of damage gives 20% more damage to all characters; needs a few hundred land ranks.,yes,3
+00:06:10,00:06:40,farming,land_rank_database_seed_of_stats,,mechanic,late,total_ranks=3500;all_stats_pct=5,Last account bonus needs 3500 total land ranks and gives 5% boost to all stats on all characters.,yes,3
+00:06:10,00:06:40,farming,land_rank_database,,mechanic,any,upgrade_categories=4,"Evolution boost category speeds unlocking new plants and evolutions, with four upgrades.",yes,3
+00:06:40,00:07:10,farming,land_rank_database_evolution_boost,,mechanic,any,,Evolution boost increases next crop chance by a percent per rank on the land plot; each plot differs by points and rank.,yes,3
+00:07:10,00:07:41,farming,land_rank_database_evolution_mega_boost,,mechanic,any,,Evolution mega boost is a flat multiplier to evolution chance; you need other sources of evolution chance too.,yes,3
+00:07:10,00:07:41,farming,evolution_chance,,target,late,evolution_chance=1e66;crops=140,"e66 evolution chance is ideal to unlock all 140 crops (check evolution multiplier in farming); without it, last plots are a struggle.",yes,2
+00:07:41,00:08:11,farming,evolution_chance,,account_note,late,last_crop_chance_pct=20,He still has about 20% (possibly lower) chance to unlock last crop at his current evolution chance.,yes,2
+00:07:41,00:08:11,farming,land_rank_database_evolution_super_boost,,mechanic,any,,Evolution super boost gives more multiplicative evolution crop chance; Ultra boost is the fourth.,yes,3
+00:08:11,00:08:41,farming,land_rank_database_evolution_boost,,advice,any,points_example=1000,"All four evolution boosts multiply, so spread decent points in each rather than dumping 1000 points into Ultra boost.",yes,3
+00:08:11,00:08:41,farming,land_rank_database_production_boost,,priority,mid,,"Production boost is hands down the best upgrade, though overgrowth or evolution chance may be more useful depending on stage.",yes,3
+00:08:41,00:09:13,farming,land_rank_database_evolution_boost,,priority,early,,Early game evolution chance is even more important than production boost.,yes,3
+00:08:41,00:09:13,farming,land_rank_database_production_boost,,priority,mid,,"In middle game production boost becomes your biggest upgrade, but you still need evolution and overgrowth chance.",yes,3
+00:08:41,00:09:13,farming,land_rank_database_production_boost,,threshold,any,crop_multiplier_cap=100,"Production boost caps at 100 times more crops per plant, four upgrades contribute; nothing more beyond that.",yes,3
+00:09:13,00:09:43,farming,land_rank_database_production_boost,,mechanic,any,,"Production boost gives crops harvested a percent per plot rank; mega boost and super boost are flat multipliers, all multiply with product doubler.",yes,3
+00:09:43,00:10:13,farming,night_market_product_doubler,,account_note,late,product_doubler_pct=195,"He currently has product doubler at 195%, cannot give exact points needed to hit 100x.",yes,3
+00:10:13,00:10:44,farming,land_rank_database_production_boost,,setup,mid,product_doubler_pct=120;land_rank=65;production_boost=125;mega_boost=125;super_boost=150;plot_cost=10000,"Example to reach 100x at 120% doubler and rank 65: 125 production boost, 125 mega boost, 150 super boost points.",yes,2
+00:10:44,00:11:14,farming,land_rank_database_production_boost,,account_note,late,product_doubler_pct=195;rank=100,"At 195% doubler and rank 100+ he needs far fewer production points to cap, freeing points, but he is at diminishing returns.",yes,2
+00:10:44,00:11:14,farming,land_rank_reset,,warning,any,reset_per_week=1,Don't overspend on the one weekly reset if you're about to gain many land ranks from harvesting.,yes,3
+00:10:44,00:11:14,farming,land_rank_database_production_boost,,priority,any,crop_multiplier_cap=100,"Get to the 100x production cap, then move on to evolution chance and overgrowth chance.",yes,3
+00:11:14,00:11:44,farming,land_rank_database_farming_exp,,mechanic,any,upgrades=4,Four farming experience boosts; soil exp boost gives experience based on land rank of the previous plot.,yes,2
+00:11:44,00:12:15,farming,land_rank_database_soil_exp_boost,,skip,any,rank_a=106;rank_b=103;difference_pct=90,"Don't micromanage putting highest-rank plot first for soil exp; better to upgrade all lands, difference is small (90% total at 200 points).",yes,2
+00:12:15,00:12:46,farming,land_rank_database_farming_exp,,mechanic,any,mega_boost_value=242;rank=200,Soil exp mega boost gives flat farming exp (242 for him at rank 200); soil exp super boost gives a bigger flat rate.,yes,2
+00:12:15,00:12:46,farming,land_rank_database_farmtastic_super_boost,,mechanic,any,,Farmtastic super boost gives another bigger farming experience gain.,yes,2
+00:12:46,00:13:16,farming,land_rank_database_farmtastic_super_boost,,account_note,late,points=100;planned_points=100,He only put 100 points in farmtastic super boost by oversight and will add another 100 to exceed exp super boost.,yes,2
+00:12:46,00:13:16,farming,land_rank_database_overgrowth,,mechanic,any,upgrades=3;first_two_points=200;overgrowth_pct=145,Overgrowth chance has three upgrades that multiply; 200 points in the first two gives him 145%.,yes,2
+00:13:16,00:13:47,farming,land_rank_database_overgrowth,,mechanic,late,mega_boost_pct=42;points=300;third_value=322,"Overgrowth mega boost gives 42%, third upgrade with 300 points gives 322; all three multiply so invest in each.",yes,2
+00:13:47,00:14:17,farming,overgrowth,,account_note,late,growth_interval_sec=6;multiplier=262,"Even with huge overgrowth he has 0% chance at ranks 15-19ish, grows crops every 6 seconds, and reached 262x multiplier on some plants.",yes,2
+00:14:17,00:14:48,farming,land_rank_database,,priority,any,evolution_chance=1e65,"Biggest priority is evolution chance; he's at e65, giving only ~5% chance for the last crop.",yes,3
+00:14:48,00:15:18,farming,evolution_chance,,target,late,evolution_chance=1e66;crops=140,e66 is the target for most people to unlock all 140 crops; this is first priority.,yes,3
+00:15:18,00:15:48,farming,land_rank_database_production_boost,,priority,any,,"Production boost is second priority (or equal if enough points), giving more crops, night market bonuses, overgrowth and stats; just below evolution chance.",yes,3
+00:15:48,00:16:20,farming,land_rank_database_overgrowth,,priority,late,,Third priority is overgrowth for crazy multipliers on products.,yes,3
+00:15:48,00:16:20,farming,overgrowth,,account_note,late,x8_chance=guaranteed;x16_chance_pct=93;x32=possible,"He basically guarantees x8, x16 is about 93%; guaranteed x32 possible with very high stats, harvesting every ~7 seconds with millions of beans.",yes,2
+00:16:20,00:16:50,farming|sneaking,land_rank_database_farming_exp,,priority,any,,"Last priority is farming experience, but don't ignore it: farming level gives stealth and meal bonuses.",yes,3
+00:16:50,00:17:21,farming,night_market_overgrowth,,priority,early,,Unlock overgrowth in the night market as soon as you can with a few magic beans even if it means resetting early.,yes,3
+00:17:21,00:17:54,farming,night_market_overgrowth,,how_to,early,check_interval_hours=1,Overgrowth matters most if you can't check farming every hour or two; if you check hourly it's less valuable.,yes,3
+00:17:54,00:18:24,farming,night_market_evolution_gmo,,threshold,late,breakpoint_low=1.9;breakpoint_high=2;crops=160,Evolution GMO breakpoint between 1.9 and 2 gives enough evolution chance to unlock all 160 crops.,yes,2
+00:17:54,00:18:24,farming|alchemy,night_market_evolution_gmo,,mechanic,late,magic_number=1.95,"Evolution chance comes from land rank upgrades, evolution GMO, alchemy and dinner menu meals; his magic number was 1.95 and he went to 2.",yes,2
+00:18:24,00:18:54,farming,night_market_speed_gmo,,priority,early,,Speed GMO is the best early game upgrade and slightly better than OG fertilizer early.,yes,3
+00:18:24,00:18:54,farming,night_market_speed_gmo,,mechanic,any,min_crop_count=1000,Speed GMO gives growth speed per crop type you have at least 1000 of.,yes,2
+00:18:54,00:19:25,farming,night_market_speed_gmo,,mechanic,late,glassy_seed_time_sec=6;apple_time_sec=1,Speed GMO can give 6 second growth on glassy seeds and 1 second on apples late game.,yes,2
+00:18:54,00:19:25,farming,night_market_og_fertilizer,,mechanic,late,,"OG fertilizer is the bean sink until end of time, can't be capped yet, but other upgrades are slightly higher priority.",yes,3
+00:19:25,00:19:55,farming,night_market_exp_gmo,,priority,late,cap_pct=100,"Exp GMO is low priority early, a later game thing; caps at 100% with 100 upgrades and has a max button.",yes,3
+00:19:25,00:19:55,farming,night_market_land_ranks,,priority,early,,Unlock land ranks as soon as you can; it gives the most bonuses.,yes,3
+00:19:55,00:20:27,farming,night_market_value_gmo,,warning,any,,Value GMO is currently broken and gives little value to upgrade now; may be one of the best upgrades once fixed.,yes,3
+00:20:27,00:20:58,farming,night_market_super_gmo,,mechanic,late,crops_required=100000,Super GMO is hands down the best farming upgrade but requires 100000 of each crop to work.,yes,3
+00:20:27,00:20:58,farming,night_market_super_gmo,,skip,early,,Early game don't invest beans in Super GMO as 100000 of each crop takes too long; better in mid and late game.,yes,3
+00:20:58,00:21:29,farming,night_market_super_gmo,,threshold,mid,crops_required=100000,Start spending in Super GMO when you can reach 100000 of each crop in one growth cycle.,yes,3
+00:20:58,00:21:29,farming,night_market_super_gmo,,how_to,mid,passes=2,"Earlier, use two passes: farm each crop to 1000 for speed GMO, then second pass to 100000 for Super GMO.",yes,3
+00:21:29,00:21:59,farming,night_market_super_gmo,,threshold,mid,hours=4,He waited to invest in Super GMO until he could get 100000 crops in under four hours; your timeframe may differ.,yes,3
+00:21:59,00:22:30,farming,night_market_super_gmo,,mechanic,late,cap_pct=25;bonus_multiplier=34.6,"Super GMO caps at 25%, then no more beans needed; gives him 34.6x bonus to speed GMO, exp, evolution GMO and later value GMO.",yes,3
+00:21:59,00:22:30,farming,night_market,,priority,any,,"Order: evolution chance to needed number first, then speed GMO up to 3%, 5%, then 9-10%.",yes,2
+00:22:30,00:23:00,farming,night_market_og_fertilizer,,priority,mid,speed_gmo_pct=15,"Keep OG fertilizer cost similar to speed GMO until about 15% speed GMO, then mostly ignore OG fertilizer while upgrading Super GMO and speed GMO.",yes,2
+00:23:00,00:24:00,farming,magic_beans,,how_to,early,turn_ins=2,"Basic method: leave crops grown, turn in all crops with crop tickets for beans, harvest again and turn in a second time.",yes,3
+00:23:00,00:24:00,farming,magic_beans,,account_note,late,beans=6000000,His crops were worth 6 million beans on turn-in.,yes,3
+00:23:30,00:24:30,farming,magic_beans,,how_to,early,,Do the bean turn-in on the highest evolution crop/seed for the most crops and beans.,yes,3
+00:24:00,00:24:30,farming,magic_beans,,mechanic,early,beans_per_turnin=few_thousand,Early game you can get a few thousand beans per turn-in giving progress in speed GMO and OG fertilizer.,yes,2
+00:24:30,00:25:00,farming,magic_beans,,how_to,mid,crops_per_plant=20000,"Second tier needs decent overgrowth: turn in crops, then harvest just one plant (~20000 crops) and turn that in for more beans.",yes,3
+00:25:00,00:25:30,farming,magic_beans,,warning,any,,Drop only one crop on the ground at a time in the turn-in map in case of crash losing crop transfer tickets.,yes,2
+00:25:00,00:25:30,farming,magic_beans,,mechanic,any,,The process is slow but gets the most beans because of diminishing returns on magic beans.,yes,3
+00:25:30,00:26:01,farming,magic_beans,,mechanic,late,beans=1500000;plots=36;total_beans=1200000,"Harvesting one plant gave 1.5 million beans; across all 36 plots could gain about 1.2 million more, varying with overgrowth.",yes,2
+00:26:01,00:26:31,farming,magic_beans,,mechanic,late,multiplier=64000;beans=1468000,Bean gain fluctuates with overgrowth chance and number of plants and land ranks; 64000x harvest gave 1.468 million beans.,yes,2
+00:26:31,00:27:02,farming,magic_beans,,mechanic,late,multiplier=262000;beans=2900000,Higher overgrowth multiplier gives more beans; harvesting a 262000x plant gave 2.9 million beans.,yes,3
+00:27:02,00:27:32,farming,magic_beans,,mechanic,late,multiplier=131000;beans_total=3600000;beans_gain=600000,Harvesting a second plant before turning in only gave 600000 beans because diminishing returns scale badly.,yes,3
+00:27:02,00:27:32,farming,magic_beans,,how_to,late,,"Turn in one crop at a time; requires many crop tickets, so buy them every day.",yes,3
+00:27:32,00:28:03,farming,magic_beans,,how_to,early,growth_days=2,"Before bean turn-in, get everything to the last crop and let it grow 1 to 2 days early game for most overgrowth.",yes,3
+00:28:03,00:28:36,farming,magic_beans,,how_to,early,multiplier_a=256;multiplier_b=128,"Turn in each crop individually; even 128x or 256x is much better than harvesting at x16 or x32, but give it time to overgrow.",yes,3
+00:28:36,00:29:07,farming,magic_beans,,mechanic,late,crops=160;tickets=37,"Late game, harvesting one plant at a time would need 36-37 turn-in tickets, which is too many.",yes,2
+00:29:07,00:29:37,farming,magic_beans,,how_to,late,plants=4;tickets=6;days=3,"Guild method: turn in batches of 3-4 plants (one big, one or two small), using 4-6 tickets per turn-in every 2-3 days.",yes,3
+00:29:37,00:30:09,farming,magic_beans,,how_to,late,bean_potential_pct=50;pregrown_plants=18,"After reset, rebuild night market GMO stacks by sacrificing half your bean potential to keep the last 18 plants pregrown.",yes,2
+00:30:09,00:30:39,farming,magic_beans,,how_to,late,beans=6000000,"Before reset, harvest everything and do a final turn-in (another 6 million beans), then start over.",yes,3
+00:30:39,00:31:09,farming,farming_handyman,,how_to,late,apple_timer_min=15,"Use handyman tools to remove last-crop glassy seeds, plant first seed with plant all, then harvest pregrown last crops to jump start GMO stacks.",yes,2
+00:31:09,00:31:39,farming,night_market_speed_gmo,,mechanic,late,stacks=18;speed_multiplier=22,"Harvesting 18 pregrown crops instantly gives 18 stacks, a 22x speed multiplier, making basic seeds grow in under a minute and restarting super and speed GMO.",yes,3
+00:31:39,00:32:09,farming,magic_beans,,how_to,late,seeds=18,"Use the last 18 seeds you can, lock them in place and harvest; keep a few million of each in crop depot. Method isn't for everybody.",yes,2
+00:32:09,00:32:42,farming,farming_handyman,,warning,late,crops=160,Late game apples grow too fast to lock; without a lock-all button you may need to lock initial crops to get enough 100K seeds for all 160 crops.,yes,2

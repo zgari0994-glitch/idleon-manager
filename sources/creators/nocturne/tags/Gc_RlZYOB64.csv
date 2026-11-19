@@ -1,0 +1,114 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+Gc_RlZYOB64,nocturne,2022-11-25,00:00:00,00:00:00,general,,fishing efficiency,,mechanic,any,,Fishing Efficiency is the primary fishing stat; it lets you catch bigger fish and later increases Multi-Fish.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:00:00,00:00:30,general,,average catch time,,priority,w3,,Average Catch Time only matters later; from World 3 you want a faster one to raise 3D printer sample size.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:00:30,00:00:30,general,,multi-fish,,priority,any,,Multi-Fish chance is the third key stat and massively increases overall gains per hour by catching multiple fish per cast.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:00:30,00:01:00,general,,tackle box,,how_to,any,,Every fishing zone has a Tackle Box you can open; its Depth-o-meter shows catch chances per fish for your stats.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:01:00,00:01:32,general,,depth-o-meter,,mechanic,any,,Each X color is a catch chance: green Goldfish; yellow Hermit Crabs; red jellyfish; purple Bloaches. Lures/twines/equipment change them.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:01:32,00:01:32,general,,second fishing zone,,mechanic,any,fish_count=4,Second zone (medium fish icon) adds four fish: Skelefish; Sand Shark; Manta Rays; Krakens.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:01:32,00:02:03,general,,tackle box bonuses,,mechanic,any,,Bottom bar of Tackle Box shows lure and line bonuses: Fishing Experience Bonus; Fishing Speed Bonus; Fishing Power.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:02:03,00:02:37,general,,lures,,setup,any,,For maximum efficiency use the Literal Elephant lure; lures drop from different mobs and some are quest-locked.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:02:03,00:02:37,quests,account/misc/quests,literal elephant lure,,how_to,w2,,Literal Elephant lure requires completing the quest in the Up Down Zone in World 2.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:02:37,00:03:08,general,,twine,,setup,any,,Use the Golden Twine for good fishing experience bonus; speed bonus; power bonus; plus it raises Purple Depth for higher-end fish.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:02:37,00:03:08,general,,afk info tab,,mechanic,any,,AFK Info tab shows catches per hour; experience per hour; and the Efficiency Requirement.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:03:08,00:03:38,general,,efficiency requirement,,mechanic,any,catch_chance=100,Green bar is catch chance; filling it to 100% stops wasted time and raises fish gained per hour.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:03:38,00:04:12,general,,efficiency requirement,,mechanic,any,start=1x;example_high=30x,Past 100% green you unlock the orange bar (1x/2x...); each level up raises quantity per drop; he has seen 20x and 30x.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:04:12,00:04:46,general,,efficiency requirement,,how_to,any,efficiency=12000000,Being between orange tiers gives no benefit so stop efficiency at the tier threshold and put the rest into AFK gain rate.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:04:12,00:04:46,general,,efficiency requirement,,mechanic,any,tier=5x,Exception: if you can reach the next tier such as 5x it is more effective than increasing AFK gain rate.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:04:46,00:05:19,characters,,helmet,,setup,any,skill_efficiency=6,Helmet: Funny Hat from the Idle Skilling crossover event gives 6% Skill Efficiency.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:04:46,00:05:19,characters,,helmet,,setup,any,,If you skip the crossover event use Acorn Topper for a decent Skill EXP bonus.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:04:46,00:05:19,anvil,world-1/anvil,chest,,setup,any,anvil_tab=2;fishing_efficiency=10,Chest: Studded Hide crafted in Anvil Tab 2 gives 10% Fishing Efficiency.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:05:19,00:05:50,anvil,world-1/anvil,legs,,setup,any,anvil_tab=1;fishing_efficiency=12,Fishing Overalls crafted in Anvil Tab 1 give 12% more Fishing Efficiency.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:05:19,00:05:50,anvil,world-1/anvil,boots,,setup,any,anvil_tab=4;skill_efficiency=35,Deep Sea Galoshes crafted in Anvil Tab 4 give 35% Skill Efficiency.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:05:19,00:05:50,anvil,world-1/anvil,boots,,setup,any,anvil_tab=2;fishing_efficiency=20,Anglers Boots from Anvil Tab 2 give 20% Fishing Efficiency; still craft the Tab 4 boots as soon as possible.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:05:50,00:06:22,dungeons,account/misc/dungeons,pendant,,setup,any,afk_gain_rate=15,Start with Persephone's Bouquet from the Dungeon Flurbo Shop for 15% skill AFK gain rate.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:05:50,00:06:22,dungeons,account/misc/dungeons,pendant,,setup,any,purple_depth=30,Fuscismatia pendant gives +30 Purple Depth to catch Krakens or Bloaches more often.,yes,2
+Gc_RlZYOB64,nocturne,2022-11-25,00:05:50,00:06:22,dungeons,account/misc/dungeons,pendant,,setup,any,,Fish Head Pendant from the Flurbo Shop gives more fishing EXP gain and purple depth benefit.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:06:22,00:06:22,characters,,pendant,,opinion,any,,Any of the three pendants is viable depending on what you want.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:06:22,00:06:55,dungeons,account/misc/dungeons,rings,,setup,any,rings=2;skill_efficiency=8,Use two Serrated Rex Rings for 8% Skill Efficiency each; crafted from a Baba Yaga recipe plus the Flurbo Shop Rex Ring.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:06:22,00:06:55,characters,,premium items,,setup,any,,On the specials tab put strength on premium items; more strength means more fishing efficiency.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:06:55,00:06:55,characters,,keychains,,setup,any,,Keychains: All AFK Gain Rate or Strength / %Strength are good; also All Skill Speed or All Stats.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:06:55,00:06:55,characters,,pendant,,opinion,any,,Watermelon Pendants have a chance for Fishing EXP gain; he does not have one.,yes,2
+Gc_RlZYOB64,nocturne,2022-11-25,00:06:55,00:07:26,characters,,fishing rod,,priority,any,,Upgrading the level or quality of your fishing rod is one of the best upgrades.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:07:26,00:07:26,characters,,fishing rod,,warning,any,,Rod materials are expensive; do not over-level your rod since each has a level requirement.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:07:26,00:07:26,characters,,fishing rod,,mechanic,any,,Fishing Power from the rod is one of the most important stats for fishing efficiency.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:07:26,00:07:56,characters,,food,,setup,any,,Use Golden Ribs for more Fishing Efficiency.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:07:56,00:07:56,characters,,food,,setup,any,,Golden Ham gives more Skill EXP; Slurpin Herm gives more Fishing Speed.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:07:56,00:08:27,printer,world-3/printer,food,,warning,any,,Foods are consumed quickly; decide whether to use them for regular fishing or save them for raising printer sample size.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:07:56,00:08:27,talent_points,,class choice,barbarian,priority,any,,Play a strength-based class like Barbarian; Squire also works but Barbarian has all the fishing talents.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:08:27,00:08:27,talent_points,,tab 1 priority,barbarian,priority,any,,Tab 1 priority one: Brute Efficiency for more total efficiency.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:08:27,00:08:27,talent_points,,tab 1 priority,barbarian,priority,any,,Tab 1 second: Idle Skilling for more skill AFK gain rate.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:08:27,00:08:27,talent_points,,tab 1 priority,barbarian,priority,any,,Tab 1 third: Fist of Rage for more maximum strength; strength means more fishing efficiency.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:08:27,00:08:27,talent_points,,tab 1,barbarian,opinion,any,,Everything else on Tab 1 is optional; useful if you need more star talent points.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:08:27,00:09:01,talent_points,,tab 2 priority,barbarian,priority,any,,Tab 2 first priority: Absolute Unit for more base strength.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:09:01,00:09:01,talent_points,,tab 2 priority,barbarian,priority,any,,Second: Firmly Grasp It for base strength; it is an active skill that must be on the skill bar.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:09:01,00:09:01,talent_points,,tab 2 priority,barbarian,priority,any,,Third: 'STR'ess Tested Garb for strength from equipment; low conversion rate so not top priority.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:09:01,00:09:32,talent_points,,tab 2 priority,barbarian,priority,any,,Fourth: Haungry for Gold for more benefit from golden food such as Golden Ribs.,yes,2
+Gc_RlZYOB64,nocturne,2022-11-25,00:09:32,00:09:32,talent_points,,tab 2 priority,barbarian,priority,any,,Lastly Tempestuous Emotions for more EXP gain for all skills.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:09:32,00:10:02,talent_points,,tab 3 priority,barbarian,priority,any,,Tab 3 first priorities are the four at the bottom in no particular order; start with Worming Undercover.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:09:32,00:10:02,talent_points,,worming undercover,barbarian,mechanic,any,,Worming Undercover is an active skill for the action bar that instantly catches fish while you play.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:10:02,00:10:32,talent_points,,bobbin bobbers,barbarian,how_to,any,,Bobbin' Bobbers gives fishing power based on your fishing minigame high score; only invest points up to your high score.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:10:02,00:10:32,talent_points,,tab 3 priority,barbarian,priority,any,,All Fish Diet for fishing EXP; Catching Some ZZZ's for fishing AFK gain rate; STR Summore for more Fist of Rage points.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:10:32,00:10:32,talent_points,,tab 3 priority,barbarian,priority,any,,Strongest Statues boosts the Oceanman Statue from World 1 for more Fishing Power.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:10:32,00:11:04,talent_points,,tab 3 priority,barbarian,priority,any,,Fistful of Obol gives strength from obols but a very low amount; not a first priority.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:10:32,00:11:04,talent_points,,tab 2,barbarian,how_to,any,,If you need more points in Tab 2 use Back to the Basics; everything else on that tab is optional.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:10:32,00:11:04,talent_points,,tab 4 priority,barbarian,priority,any,,Tab 4 first priority: Symbols of Beyond.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:11:04,00:11:04,talent_points,,symbols of beyond,barbarian,mechanic,any,free_levels=8,Symbols of Beyond gives free levels to every talent with at least one point; he gets eight.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:11:04,00:11:37,talent_points,,tab 4 priority,barbarian,priority,any,,Next: Overblown Testosterone for strength and more max talent levels in Fist of Rage.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:11:04,00:11:37,talent_points,,tab 4 priority,barbarian,priority,any,,Skill Strengthen gives more skill efficiency from strength and a small strength bonus.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:11:04,00:11:37,talent_points,,tab 4,barbarian,opinion,any,,Rest of Tab 4 is optional; he likes points in Cooking skills.,yes,2
+Gc_RlZYOB64,nocturne,2022-11-25,00:11:37,00:11:37,talent_points,,tab 4,barbarian,opinion,any,,The Family Guy boosts family bonuses but many are not great and give little stats.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:11:37,00:12:09,talent_points,,star talents,barbarian,priority,any,,Star talents: Tick Tock first for AFK gain rate.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:11:37,00:12:09,talent_points,,star talents,barbarian,priority,any,,Toilet Paper Postage for skill efficiency from stamps; depends on stamp levels so may not be worth it.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:11:37,00:12:09,talent_points,,star talents,barbarian,priority,any,,Will of the Eldest gives a small strength bonus.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:12:09,00:12:42,talent_points,,star talents tab 2,barbarian,priority,any,,Star Tab 2: Super Source for base efficiency; Action Frenzy for skill speed in all skills.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:12:09,00:12:42,talent_points,,star talents tab 2,barbarian,priority,any,,Frothy Malk gives a boost to potions and foods.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:12:09,00:12:42,talent_points,,star talents tab 2,barbarian,opinion,any,,He likes Telekinetic Storage; Printer Sampling; and Shrine Architect but that is optional personal choice.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:12:09,00:12:42,constellations,account/misc/constellations,star signs,,priority,any,,Start with Pie Seas star sign for fishing efficiency and multi-fish odds.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:12:42,00:12:42,constellations,account/misc/constellations,star signs,,setup,any,,Options after: The OG Skiller for skill AFK gain rate and prowess; or The Big Comatose for AFK gain rate.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:12:42,00:13:15,constellations,account/misc/constellations,hydron tab,,setup,any,,Hydron tab: Comatose Major for skill AFK gain rate; or Strandissi for percentage base strength.,yes,2
+Gc_RlZYOB64,nocturne,2022-11-25,00:12:42,00:13:15,cards,,card setup,,setup,any,,Card setup starts with Chaotic Troll for all skill efficiency.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:13:15,00:13:15,cards,,card setup,,setup,any,,Then Amarok for skill AFK gain rate and the Bunny from Hard Resources for AFK gain rate.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:13:15,00:13:46,cards,,fishing cards,,setup,any,,Fishing cards: Skelefish for total fishing efficiency; Shark for fishing speed; Kraken for fishing AFK gain rate.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:13:15,00:13:46,cards,,fishing cards,,setup,any,,Manta Ray gives fishing EXP if wanted but he prefers Bloach for AFK gain rate.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:13:46,00:13:46,cards,,fishing cards,,setup,any,,Hermit Crab for fishing efficiency and Jellyfish for fishing EXP.,yes,2
+Gc_RlZYOB64,nocturne,2022-11-25,00:13:46,00:14:17,cards,,card set bonus,,setup,any,,Card set bonus: use Easy Resources for skill efficiency; Hard Resources for AFK gain rate if you have enough efficiency.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:13:46,00:14:17,stamps,world-1/stamps,fishing stamps,,setup,w1,,Stamps: Fishing Rod Stamp for base efficiency.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:14:17,00:14:17,stamps,world-1/stamps,fishing stamps,,setup,w1,,FishHead Stamp for fishing EXP; Bag o Heads for carry capacity; Holy Mackerel for multi-fish chance.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:14:17,00:14:49,stamps,world-1/stamps,strength stamps,,setup,w1,,Tab 1 stamps: Fist Stamp and Violent Stamp for base strength.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:14:17,00:14:49,statues,,fishing statues,,setup,w1,,Statues: Feasty Statue for food effect and Oceanman Statue for fishing power.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:14:49,00:14:49,statues,,golden statues,,priority,any,,Get the Golden Statues bonus to share statues across all characters.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:14:49,00:15:21,bubbles,world-2/bubbles,roid ragin,,setup,w2,,Alchemy bubble Roid Ragin gives more total strength.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:14:49,00:15:21,bubbles,world-2/bubbles,warriors rule,warrior,warning,w2,,Warriors Rule doubles orange passive bubbles but only works while online on a Warrior class; not when AFK on Shaman.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:15:21,00:15:21,bubbles,world-2/bubbles,reely smart,,setup,w2,,Reely Smart gives more fishing EXP gain.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:15:21,00:15:54,bubbles,world-2/bubbles,sploosh,,setup,w2,,Sploosh is a large bubble that must be equipped and gives more Multi-Fish.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:15:21,00:15:54,bubbles,world-2/bubbles,stronk tools,,setup,w2,,Stronk Tools gives more skilling power from the fishing rod.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:15:21,00:15:54,bubbles,world-2/bubbles,multorange,,setup,w2,,MultOrange gives another multiplier to certain bubbles.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:15:21,00:15:54,bubbles,world-2/bubbles,dreams of ironfish,,setup,w2,,Dreams of IronFish gives fishing AFK gain rate but requires a higher-end anvil material.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:15:54,00:15:54,bubbles,world-2/bubbles,shimmeron,,setup,w2,,Shimmeron boosts golden food effects but requires a higher anvil material.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:15:54,00:16:27,bubbles,world-2/bubbles,prowesessary,,setup,w2,,Prowesessary reduces efficiency needed to reach the next quantity-per-drop tier on the orange bar.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:15:54,00:16:27,vials,world-2/vials,etruscan lager,,setup,w2,,Etruscan Lager vial gives more overall fishing efficiency.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:16:27,00:16:27,vials,world-2/vials,etruscan lager,,blocker,w3,,Etruscan Lager needs quite a few minerals from the Mamooth in World 3.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:16:27,00:16:58,buildings,world-3/buildings,post office,,setup,w2,,Post Office: Sealed Fish Heads box gives fishing efficiency; prowess effect; and fishing AFK gain rate.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:16:27,00:16:58,buildings,world-3/buildings,post office,,setup,w2,,Myriad Crate for base all stats; all efficiency; all-skill EXP; and Utilitarian Capsule with spare boxes.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:16:58,00:16:58,printer,world-3/printer,post office,,setup,w2,,Utilitarian Capsule gives more printer sample size.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:16:58,00:17:31,gem_shop,account/prem-currency/gem-shop,obols,,setup,w2,,Obols: grab fishing power obols which give a small strength bonus; otherwise use Strength obols.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:16:58,00:17:31,talent_points,,fistful of obol,,warning,any,,Strength from obols is small so avoid putting many points into Fistful of Obol.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:17:31,00:17:31,prayers,world-3/prayers,skilled dimwit,,setup,w3,,Prayer Obelisk: Skilled Dimwit gives a huge skill efficiency bonus at the cost of EXP gain.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:17:31,00:17:31,prayers,world-3/prayers,balance of proficiency,,setup,w3,,Balance of Proficiency is the opposite: more EXP gain at the cost of skill efficiency.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:17:31,00:18:05,prayers,world-3/prayers,unending energy,maestro,setup,w3,,If leveling on Maestro grab Unending Energy for skill EXP; check back a couple times a day.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:17:31,00:18:05,printer,world-3/printer,royal sampler,,setup,w3,,Royal Sampler gives another bonus to printer sampling size.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:18:05,00:18:05,printer,world-3/printer,royal sampler,,warning,w3,,Royal Sampler adds an EXP gain penalty; removing it requires deleting all current samples.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:18:05,00:18:37,cooking,world-4/cooking,dinner menu,,setup,w4,,Dinner Menu: raise three meals; Corn for overall skill efficiency.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:18:05,00:18:37,cooking,world-4/cooking,dinner menu,,setup,w4,,Rice ball for skill efficiency and leek for large skilling prowessary bonus.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:18:37,00:19:09,lab,world-4/laboratory,certified stamp book,,setup,w4,,Certified Stamp Book doubles all stamp bonuses.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:18:37,00:19:09,lab,world-4/laboratory,my first chemistry set,,setup,w4,,My First Chemistry Set doubles alchemy vial bonuses.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:18:37,00:19:09,lab,world-4/laboratory,emerald navette,,setup,w4,,Emerald Navette gives skill efficiency and action speed; applies twice if all green jewels are activated.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:19:09,00:19:09,lab,world-4/laboratory,black diamond rhinestone,,setup,w4,meal_bonus=24,Black Diamond Rhinestone raises dinner menu meal bonuses by about 24%.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:19:09,00:19:09,cooking,world-4/cooking,black diamond rhinestone,,setup,w4,meal_bonus=24,Black Diamond Rhinestone raises dinner menu meal bonuses by about 24%.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:19:09,00:19:41,lab,world-4/laboratory,chips,,setup,w4,base_efficiency=250,Red chips: one for total skilling efficiency and another giving 250 base efficiency for all skills.,yes,2
+Gc_RlZYOB64,nocturne,2022-11-25,00:19:41,00:20:15,lab,world-4/laboratory,orange chips,,setup,w4,,Orange chips double misc bonus from trophy; higher keychain slot; and pendant; important for fishing depth bonuses and AFK gain.,yes,2
+Gc_RlZYOB64,nocturne,2022-11-25,00:19:41,00:20:15,lab,world-4/laboratory,gray chips,,setup,w4,,Two gray chips each double a bonus from a card slot.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:20:15,00:20:48,lab,world-4/laboratory,gray chips,,setup,w4,,Gray chips work well with Chaotic Troll (all skill efficiency) and Amarok (all-skill AFK gain rate) at the same time.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:20:15,00:20:48,cards,,gray chips,,setup,w4,,Gray chips work well with Chaotic Troll (all skill efficiency) and Amarok (all-skill AFK gain rate) at the same time.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:20:15,00:20:48,talent_points,,right hand of action,maestro,setup,any,skill_efficiency=75,Maestro's Right Hand of Action gives a very large skill efficiency bonus if Maestro's skill level is higher than other characters.,yes,3
+Gc_RlZYOB64,nocturne,2022-11-25,00:20:48,00:20:48,talent_points,,right hand of action,maestro,target,any,maestro_fishing=41;target_level=51,His Maestro fishing is 41 below his Barbarian so no 75% bonus; leveling Maestro to 51-52 fishing would give it.,yes,3

@@ -1,0 +1,74 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,dungeons,class choice,,meta_change,any,,Video gives tips to progress through party dungeons and keep runs consistent; recorded footage only.,yes,3
+00:00:31,00:01:02,dungeons,class choice,maestro,opinion,any,,Community mostly favors Maestro for attack speed in dungeon with Celtic Ordeal and Coin Toss.,yes,2
+00:00:31,00:01:02,dungeons,class choice,shaman,opinion,late,mana=60,Shaman spams AoE skills (Crazy Concoctions Auspicious Aura); needs at least 60 mana for Auspicious Aura and Sizzling Skull; late-game party dungeons.,yes,2
+00:00:31,00:01:02,dungeons,class choice,shaman,warning,early,mana=60,Unwise to use Shaman without a lot of base mana.,yes,3
+00:01:02,00:01:32,dungeons,class choice,wizard,opinion,late,,Wizard good for Tornado and Ice Shards hitting multiple people and slowing them but lacks mana early so use later.,yes,2
+00:01:02,00:01:32,dungeons,class choice,squire,opinion,early,,Squire hits multiple with regular attacks and has Shock Wave Slash Whirl and Dagger Ring; highly recommended for newer dungeoneers.,yes,2
+00:01:32,00:02:03,dungeons,class choice,barbarian,opinion,any,,Barbarian hits multiple with regular attacks and has more versatile abilities than Squire like Bear Claw and Axerl hitting enemies above.,yes,2
+00:01:32,00:02:03,dungeons,class choice,bowman|hunter,warning,any,,Not suggested to use Bowman or Hunter; mostly single target damage and perform worse.,yes,3
+00:01:32,00:02:03,dungeons,rng items,,setup,early,rate=40-60 percent,Great Grumblo build is a solid beginner strategy giving 40-60 percent rate depending on level.,yes,2
+00:01:32,00:02:03,dungeons,rng items,,warning,early,,Great Grumblo build only works with gray RNG items; picking up a purple item completely nullifies its effect.,yes,3
+00:02:03,00:02:34,dungeons|achievements,rng items,,how_to,early,,Great Grumblo is easily acquired by completing Naked But Unafraid achievement in world 1: kill a poop with nothing equipped.,yes,2
+00:02:03,00:02:34,dungeons,rng items,,setup,any,damage=50-70 percent,Stardew Drop gives 50 to 70 percent extra damage.,yes,2
+00:02:03,00:02:34,dungeons,rng items,,warning,any,,Stardew Drop only applies with full mana.,yes,3
+00:02:34,00:03:04,dungeons,rng items,maestro,opinion,any,,Stardew Drop is good with melee-heavy classes; best item for Maestro.,yes,2
+00:02:34,00:03:04,dungeons,rng items,,comparison,mid,,Stardew Drop can be used over Grey Grumblo as you get Horn of the Fool considered one of best RNG items.,yes,2
+00:02:34,00:03:04,dungeons,rng voucher,,priority,late,,Late game strategy: start with Grey Grumblo build then convert to RNG Voucher once unlocked.,yes,3
+00:02:34,00:03:04,dungeons,rng voucher,,mechanic,late,,RNG Voucher gives a chance to get an RNG item from selling enhancers so you can spam RNG items like Stardew Drop and Horn of the Fool.,yes,2
+00:03:04,00:03:34,dungeons|refinery,rng voucher,,blocker,late,rank=10,RNG Voucher requires rank 10 from red salt refinery which takes a long time.,yes,2
+00:03:04,00:03:34,dungeons|cards,dungeon cards,,opinion,any,,Dungeon cards are an essential asset; choice depends on what you are looking for.,yes,3
+00:03:04,00:03:34,dungeons|cards,dungeon credits,,target,any,,For more dungeon credits use Chromium Frog card Forlorn Grand Frogger card or Golden Galaxy card.,yes,2
+00:03:34,00:04:05,dungeons|cards,dungeon credits,,warning,any,,Chance of getting the Golden Galaxy card is very slim.,yes,3
+00:03:34,00:04:05,dungeons|quests,dungeon card packs,,how_to,any,,Quests can give dungeon card packs which help later.,yes,3
+00:03:34,00:04:05,dungeons|cards,flurbo,,target,any,,For dungeon flurbos (base game upgrade currency) use Rotting Grand Frogger and Inevitable Snakestep cards.,yes,2
+00:03:34,00:04:05,dungeons|cards,card drop chance,,target,any,,If struggling to get cards start with cards buffing card drop chance: Lava Slimer Grumblo and Glaxos cards.,yes,2
+00:04:05,00:04:35,dungeons|cards,grand frogger,,mechanic,any,chance=15-60 percent,Grand Frogger card gives 15 to 60 percent chance to start with an extra RNG item and can be swapped for another card once in game.,yes,2
+00:04:05,00:04:35,dungeons|quests,dungeon card packs,,priority,any,,World 3 dungeon guide Wildo has quest for more card packs; do all quests for all party dungeons to get as many packs as possible.,yes,3
+00:04:35,00:05:05,dungeons,passive stats,wizard|shaman,priority,any,,For Wizard or Shaman prioritize MP base damage percent crit chance and drop rarity.,yes,3
+00:04:35,00:05:05,dungeons,passive stats,,mechanic,w1,,Drop rarity only super useful for world 1 because items must drop to use it.,yes,2
+00:04:35,00:05:05,dungeons,passive stats,barbarian|maestro,priority,any,,Barbarian or Maestro need little MP so prioritize base damage and damage percent then drop rarity crit chance then MP.,yes,3
+00:05:05,00:05:35,dungeons,passive stats,,target,any,mp=40-60,Want at least about 40 to 60 MP during runs.,yes,3
+00:05:05,00:05:35,dungeons,passive stats,,mechanic,any,,MP boosts total MP and MP regen rate useful with Stardew Drop.,yes,3
+00:05:05,00:05:35,dungeons,passive stats,,mechanic,any,horn crit=15 percent,Crit chance essential; Horn of the Fool gives only 15 percent flat crit so you need more crit to make it worth it.,yes,3
+00:05:05,00:05:35,dungeons,passive stats,,mechanic,w1,,Drop rarity increases odds of better weapons armor jewelry and amount of drops; helps a ton for world 1 dungeons.,yes,2
+00:05:05,00:05:35,dungeons,passive stats,,comparison,w2|w3,,Drop rarity not a necessity in world 2 or world 3.,yes,3
+00:05:35,00:06:05,dungeons,passive stats,,priority,any,,Upgrade base damage and damage percent evenly for best results.,yes,3
+00:05:35,00:06:05,dungeons,passive stats,,target,any,,Keep other passive stats around half of the really important ones.,yes,2
+00:05:35,00:06:05,dungeons,passive stats,,opinion,w2|w3,,Block chance and movement speed are useful in world 2 or world 3.,yes,2
+00:05:35,00:06:05,dungeons,passive stats,,priority,any,,Upgrade HP if playing with others of higher rank since they will not put you at risk.,yes,2
+00:06:05,00:06:35,dungeons|talent_points,flurbo star talents,,mechanic,any,,Flurbo shop has five star talents including Super Source base efficiency for skills which is really good.,yes,2
+00:06:05,00:06:35,dungeons,flurbo star talents,,mechanic,any,,Dungeonic Damage boosts damage based on dungeon credits collected.,yes,2
+00:06:05,00:06:35,dungeons,flurbo star talents,,skip,any,hours=30,Milky Way Candies chance of Time Candy after 30 plus hours; not suggested.,yes,2
+00:06:05,00:06:35,dungeons,flurbo star talents,,mechanic,any,skilling speed=30 percent,Action Frenzy gives 30 percent more skilling speed at max which is massive for AFK gains.,yes,2
+00:06:05,00:06:35,dungeons,flurbo star talents,,mechanic,any,crit=100 percent,Mega Crit gives crit chance and extra crit damage past 100 crit chance but you will not really reach that.,yes,2
+00:06:35,00:07:05,dungeons,flurbo,,skip,any,,Jewelry from flurbo shop not worth it since flurbos go to weapon power AFK gains defense percent and accuracy.,yes,2
+00:06:35,00:07:05,dungeons,traits,,setup,any,,Prefers taking three base damage trait since it scales with damage percent.,yes,2
+00:07:05,00:07:35,dungeons,traits,,setup,any,,Starts each run with two gray RNG items since it stacks later.,yes,2
+00:07:05,00:07:35,dungeons,traits,,setup,any,rank=15;drop chance=1 percent,Rank 15 trait: each gray RNG item gives plus 1 percent drop chance stacking with the second trait.,yes,2
+00:07:05,00:07:35,dungeons,traits,,setup,any,rank=10;credit drops=30 percent,Rank 10 trait: dungeon credit drops 30 percent more often from mobs and bosses to upgrade more.,yes,2
+00:07:05,00:07:35,dungeons,flurbo,,warning,any,,Flurbos only work in base game and do not count toward party dungeons.,yes,3
+00:07:35,00:08:06,dungeons,traits,,setup,any,enhancer drops=25 percent,Since running RNG Voucher takes enhancer drops from mobs instead of equipment 25 percent more often.,yes,2
+00:07:35,00:08:06,dungeons,traits,,setup,any,rank=30;shop price=15 percent,Rank 30 trait: shop prices of RNG items scale up 15 percent slower.,yes,2
+00:07:35,00:08:06,dungeons,traits,,setup,any,rank=35;higher rarity=25 percent,Rank 35 trait: green or better RNG items 25 percent more likely for chance at RNG Voucher or Horn of the Fool.,yes,2
+00:08:06,00:08:36,dungeons,passive stats,maestro,setup,any,base damage=75;damage percent=71,Maestro main needs less MP so has base damage 75 and damage percent 71 kept about 50 split.,yes,2
+00:08:06,00:08:36,dungeons,passive stats,,setup,any,crit=20,Has about 20 crit chance and will raise it since he runs Horn of the Fool when possible.,yes,2
+00:08:06,00:08:36,dungeons,passive stats,,opinion,any,,Movement speed and block chance are commodity not necessity; no need to prioritize.,yes,3
+00:08:06,00:08:36,dungeons,passive stats,,setup,w1,drop rarity=61,Keeps drop rarity at least 61 so world 1 runs consistently reach third frog.,yes,2
+00:08:36,00:09:06,dungeons,rng items,,priority,any,level=40-50,Once passive stats reach about level 40 to 50 upgrade all RNG items to max except Recycler.,yes,2
+00:08:36,00:09:06,dungeons,rng items,,priority,early,,Prioritize maxing Stardew Drop and Grey Grumblo as strongest tools when starting.,yes,3
+00:08:36,00:09:06,dungeons,rng items,,priority,early,,Without RNG Voucher prioritize Grey Grumblo first.,yes,2
+00:09:06,00:09:37,dungeons,rng items,,priority,any,,For consistent god runs max Sugar Rush; Sharp Eye if doing world 1; Rabbit Paw; Rusty Blade; Mana Crystal decent.,yes,2
+00:09:06,00:09:37,dungeons,rng items,,priority,any,items=3;chance=100 percent,Handy Ice Pick is necessity; only three needed for 100 percent double hit (double damage); Boss Skull for extra damage.,yes,2
+00:09:37,00:10:08,dungeons,weapon,,priority,any,,Level up weapon if you have excess credits depending on class.,yes,2
+00:09:37,00:10:08,dungeons,weapon,maestro,skip,any,tier=3,Maestro using Celtic Ordeal does not need weapon leveling; tier three is good standing then upgrade other things since it gets expensive.,yes,2
+00:09:37,00:10:08,dungeons,rng voucher,,priority,late,,If running RNG Voucher build upgrade enhancer drop rate for more items.,yes,3
+00:10:08,00:10:38,dungeons,flurbo,,priority,any,,With flurbos prioritize non-dungeon stats like weapon power and talent points before books.,yes,2
+00:10:08,00:10:38,dungeons,flurbo,,mechanic,any,weapon power=19.2,Flurbo weapon power gives extra 19.2 weapon power helping characters reach dungeon damage thresholds.,yes,2
+00:10:08,00:10:38,dungeons|talent_points,flurbo,,mechanic,any,talent points=50;total=200,Flurbo talent points give plus 50 each for tab one two three and star talents for total 200 if maxed.,yes,2
+00:10:38,00:11:08,dungeons,flurbo,,priority,any,afk gains=5 percent,Flurbo AFK gains five percent as you can never have enough.,yes,2
+00:10:38,00:11:08,dungeons,flurbo,,priority,any,,Flurbo defense percent lets you use less food on rams blood bones etc.,yes,2
+00:10:38,00:11:08,dungeons,flurbo,,priority,w3,,Flurbo accuracy percent useful since world 4 is coming and you need much accuracy.,yes,2
+00:10:38,00:11:08,dungeons|talent_points,flurbo,,mechanic,any,,Accuracy lets you take fewer talent points in tab one and put more into main stat.,yes,2
+00:11:08,00:11:39,dungeons,flurbo,,opinion,any,,Class XP skilling XP and monster cash flurbo upgrades are just commodity for faster upgrading.,yes,2
+00:11:39,00:11:39,dungeons,progress,,account_note,w3,,Currently progressing in world 3 party dungeon trying to kill third galaxies.,yes,2

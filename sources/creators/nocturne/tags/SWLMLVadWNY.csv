@@ -1,0 +1,61 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+SWLMLVadWNY,nocturne,2022-02-06,00:00:00,00:00:00,quests,account/misc/quests,post office unlock,,mechanic,w2,world=2,Post Office is unlocked in World 2 (Yum Desert) and arriving there gives you a quest from the Post Office,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:00:00,00:00:00,general,,post office unlock,,mechanic,w2,world=2,Post Office is unlocked in World 2 (Yum Desert) and arriving there gives you a quest from the Post Office,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:00:00,00:00:30,quests,account/misc/quests,post office unlock,,how_to,w2,boxes_required=5,Post Office requires gathering 5 empty boxes before unlocking it,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:00:00,00:00:30,anvil,world-1/anvil,post office unlock,,how_to,w2,boxes_required=5,Post Office requires gathering 5 empty boxes before unlocking it,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:00:00,00:00:30,anvil,world-1/anvil,empty box recipe,,how_to,w2,anvil_tab=2,"Empty boxes are crafted from Anvil tab 2 using Distilled Water (Alchemy), Hermit Can (Fishing), and Megalodon Tooth (Mimic hole in World 2)",yes,2
+SWLMLVadWNY,nocturne,2022-02-06,00:00:00,00:00:30,vials,world-2/vials,empty box recipe,,how_to,w2,anvil_tab=2,"Empty boxes are crafted from Anvil tab 2 using Distilled Water (Alchemy), Hermit Can (Fishing), and Megalodon Tooth (Mimic hole in World 2)",yes,2
+SWLMLVadWNY,nocturne,2022-02-06,00:00:00,00:00:30,advice_fish,world-7/advice-fish,empty box recipe,,how_to,w2,anvil_tab=2,"Empty boxes are crafted from Anvil tab 2 using Distilled Water (Alchemy), Hermit Can (Fishing), and Megalodon Tooth (Mimic hole in World 2)",yes,2
+SWLMLVadWNY,nocturne,2022-02-06,00:00:30,00:01:03,general,,simple shippin,,mechanic,w2,,Simple Shippin requires any World 1 or 2 crafting materials such as logs or ore or smithing-produced items,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:00:30,00:01:03,anvil,world-1/anvil,plan-it express,,mechanic,w2,,Plan-it Express requires crafted Anvil items from very basic up to Platinum items,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:01:03,00:01:03,general,,order streak,,mechanic,any,,Platinum items seem to become more common as you increase order streaks,yes,2
+SWLMLVadWNY,nocturne,2022-02-06,00:01:03,00:01:35,general,,dudes next door,,mechanic,w2,,The Dudes Next Door requires any World 1 or 2 monster drops,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:01:03,00:01:35,general,,second tab unlock,,mechanic,w2,,Completing enough orders unlocks the second tab of suppliers,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:01:03,00:01:35,general,,down undelivery,,mechanic,w2,,Down Undelivery requires rare World 1 or 2 materials,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:01:03,00:01:35,general,,alpine suppliers,,mechanic,w3,,Alpine Suppliers requires World 3 monster drops,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:01:03,00:01:35,general,,cosmic carrier,,mechanic,any,,Cosmic Carrier is not available after the first shipment; hopefully coming in a future update,yes,2
+SWLMLVadWNY,nocturne,2022-02-06,00:01:35,00:02:08,general,,order streak,,mechanic,any,,Order Streak is the number of shipments completed in a row without letting it reset,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:01:35,00:02:08,general,,order streak,,mechanic,any,days=3,Order resets after waiting three days without completing the order so you have some time to avoid losing the streak,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:01:35,00:02:08,storage,account/misc/storage,quantity,,mechanic,any,,Quantity shows required and current amount; materials in Storage count so you do not need to carry them,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:01:35,00:02:08,general,,quantity,,mechanic,any,,Quantity shows required and current amount; materials in Storage count so you do not need to carry them,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:02:08,00:02:08,general,,rewards,,mechanic,any,,Each shipment usually gives a box plus a material and a moderate amount of gold,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:02:08,00:02:41,general,,order streak,,priority,any,,Order Streak is the most important factor; rewards go up as streak goes up but so does material cost,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:02:41,00:03:14,general,,order streak,,mechanic,any,streak_up_to=100;copper_ore_max=20000,Up to 100 streak quantity required increases each order; seen as high as 20000 Copper Ore,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:02:41,00:03:14,general,,order streak,,mechanic,any,streak=100;streak_cap=200,After 100 streak the required quantity goes down until 200; after 200 it stays the same,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:02:41,00:03:14,general,,order streak,,priority,any,streak_target=200,Important to reach 200 Order Streak as soon as possible,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:03:14,00:03:14,general,,order streak,,mechanic,any,,Reaching 200 streak gives easy boxes every day forever,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:03:14,00:03:44,general,,streak bonus,,mechanic,any,every_5=+1 extra box;orders_20=+3;orders_50=+5;orders_100=+9,"Streak bonus boxes: 1,1,1 then 2 on the fifth; +3 extra at 20 orders; +5 at 50; +9 at 100",yes,2
+SWLMLVadWNY,nocturne,2022-02-06,00:03:44,00:03:44,general,,order streak,,priority,any,,Completing order streaks is the main reason to keep up with the orders; each company has its own streak so do it daily,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:03:44,00:04:19,general,,silver pen,,mechanic,any,,Silver Pen is a rare drop from mobs or skilling,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:03:44,00:04:19,general,,silver pen,,mechanic,any,,Silver Pen's main use is to reset orders whether completed or uncompleted,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:04:19,00:04:19,general,,silver pen,,mechanic,any,,Resetting an uncompleted order gives no reward but continues your order streak,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:04:19,00:04:50,general,,shield,,mechanic,any,base_days=3;shield_days=1,Every pen use gains a shield; each shield protects the streak for 1 additional day on top of base 3 days,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:04:50,00:04:50,general,,shield,,warning,any,,You can use a pen to reset a shield but it is not recommended,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:04:50,00:05:21,general,,rewards,,mechanic,any,,Bob's Boxes come from completing orders and streak bonuses; miscellaneous boxes come from an Alchemy vial,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:04:50,00:05:21,vials,world-2/vials,rewards,,mechanic,any,,Bob's Boxes come from completing orders and streak bonuses; miscellaneous boxes come from an Alchemy vial,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:05:21,00:05:21,general,,boxes,,mechanic,any,,Boxes are individual per character; each completed order gives every character a box to spend as you want,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:05:21,00:05:51,damage,,fight box,,mechanic,any,boxes=25,Fight box gives only Base Damage initially; at 25 boxes you get the second line Fight AFK Gain Rates,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:05:51,00:05:51,damage,,fight box,,mechanic,any,boxes=100,At 100 boxes in Fight box unlocks Critical Chance,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:05:51,00:06:22,damage,,fight box,,target,any,boxes=200;value_pct=75,At 200 boxes you gain roughly 75% of total value so getting to 200 is important; diminishing returns after but usually still worth it,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:05:51,00:06:22,characters,,health box,,mechanic,any,,Health box gives Base Max HP then percent Max HP then Self-Heal,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:06:22,00:06:22,characters,,health box,,warning,any,,Self-Heal in the Health box is currently bugged so do not go for it if you want Self-Heal,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:06:22,00:06:22,characters,,mana box,,mechanic,any,,Mana box gives Max MP then percent Max MP then Faster Cooldowns,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:06:22,00:06:22,characters,,utility box,,mechanic,any,,Utility box gives Accuracy then Defense then Monster XP,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:06:22,00:06:53,characters,,mining chopping catching fishing boxes,,mechanic,any,,Mining Chopping Catching and Fishing boxes give the same effects for their respective skills,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:06:53,00:06:53,characters,,skilling boxes,,mechanic,any,,Skilling boxes give Efficiency then Prowess effect then AFK gain rate for that skill,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:06:53,00:06:53,forge,world-1/forge,smithing box,,mechanic,any,crafting_slot=1,"Smithing box gives Smithing XP, Production Speed and +1 crafting slot for production",yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:06:53,00:06:53,anvil,world-1/anvil,smithing box,,mechanic,any,crafting_slot=1,"Smithing box gives Smithing XP, Production Speed and +1 crafting slot for production",yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:06:53,00:06:53,characters,,food box,,mechanic,any,,"Food box gives percent not consume food, Health Food Effect and Power Food Effect",yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:06:53,00:07:23,bubbles,world-2/bubbles,alchemy box,,mechanic,any,,Alchemy box gives Brewing Speed but only works if the box is on the active character,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:07:23,00:07:23,bubbles,world-2/bubbles,alchemy box,,account_note,any,,Alchemy box brewing speed on the active character applies to all characters; keep in mind when leveling it,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:07:23,00:07:23,bubbles,world-2/bubbles,alchemy box,shaman,mechanic,any,,Alchemy box also gives Alchemy XP and Cranium Cook Time from the Shaman's talent,yes,2
+SWLMLVadWNY,nocturne,2022-02-06,00:07:23,00:07:23,drop_rate,,drop box,,mechanic,any,,"Drop box gives percent Drop Rarity, +LUK, and percent Crystal mob spawn chance",yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:07:23,00:07:55,general,,charlie's crates,,mechanic,any,,Completing enough orders to unlock Cosmic Carrier also gives access to Charlie's Crates,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:07:55,00:07:55,damage,,damage box,,mechanic,any,,"Charlie's damage box gives Weapon Power, Basic Attack Speed and percent Total Damage",yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:07:55,00:07:55,printer,world-3/printer,utility box,,mechanic,any,,Charlie's utility box gives Printer Sample Size; percent Multikill per Tier same as Death Note; percent cash from mobs,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:07:55,00:07:55,death_note,world-3/death-note,utility box,,mechanic,any,,Charlie's utility box gives Printer Sample Size; percent Multikill per Tier same as Death Note; percent cash from mobs,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:07:55,00:07:55,money,,utility box,,mechanic,any,,Charlie's utility box gives Printer Sample Size; percent Multikill per Tier same as Death Note; percent cash from mobs,yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:07:55,00:08:26,general,,lazy loot crate,,mechanic,any,hours=36,Lazy Loot Crate gives x2 AFK XP chance; AFK EXP and AFK cash if you are gone more than 36 hours,yes,2
+SWLMLVadWNY,nocturne,2022-02-06,00:08:26,00:08:26,traps,world-3/traps,trap box,,mechanic,any,,"Trap box gives Trapping Efficiency, Trapping EXP and percent number of critters trapped",yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:08:26,00:08:26,construction,world-3/construction,construction box,,mechanic,any,,"Construction box gives Base Build Rate, Shrine Charge Rate and Construction EXP",yes,3
+SWLMLVadWNY,nocturne,2022-02-06,00:08:26,00:08:58,worship,world-3/worship,worship box,,mechanic,any,,"Worship box gives Worship Efficiency, Max Charge and starting points in Worship Tower Defense",yes,3

@@ -1,0 +1,80 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,gem_shop,tier list,,meta_change,any,,Tier list is based on Twitch chat and his own opinion and is not fact; meant to help players optimize gem purchases,yes,3
+00:00:30,00:01:01,gem_shop,tier list,,meta_change,any,,"Tiers: S must buy, A always solid, B meh, C mid, D probably not great, F avoid unless whale",yes,2
+00:01:01,00:01:32,gem_shop,time candy,,opinion,any,tier=F,Time candy purchases are F tier waste and daily capped; only buy 10 if you are a whale,yes,3
+00:01:01,00:01:32,gem_shop|cards,four star card upgrade (prima fire?),,comparison,any,stars=4,Spamming gems to take a three star chaotic chizoar card to four star is one of the hugest upgrades,yes,2
+00:01:32,00:01:32,gem_shop|cards,four star card upgrade (prima fire?),,opinion,any,,For normal boss mobs just farm them instead of spending gems on star upgrades,yes,2
+00:01:32,00:02:02,gem_shop|cards,world 2 card pack,,skip,any,tier=F,World 2 card pack is easy F tier because the gamble is too skewed; spend gems elsewhere,yes,3
+00:01:32,00:02:02,gem_shop|cauldrons_liquids,bleach cauldron,,mechanic,any,extra_players=1;liquid_cap_mult=1.5;regen_mult=1.5,"Bleach liquid cauldron assigns one extra player, gives 1.5x liquid cap and 1.5x liquid regeneration",yes,3
+00:02:02,00:02:02,gem_shop|cauldrons_liquids,bleach cauldron,,how_to,any,,"Buy the liquid cauldrons in order: water, then nitrogen, then dense water",yes,3
+00:02:02,00:02:33,gem_shop|cauldrons_liquids,bleach cauldron,,priority,any,tier=S,Bleach cauldron is S tier; new players should buy at least one and it stays S tier late game,yes,3
+00:02:02,00:02:33,gem_shop|forge,brimstone forge slots,,priority,any,slots=4;tier=S,Buy four brimstone forge slots for S tier; anything fewer is A tier,yes,3
+00:02:02,00:02:33,gem_shop|forge,brimstone forge slots,,mechanic,any,smelt_speed_pct=50;multi_bar_chance_pct=50,Brimstone slots smelt bars 50% faster and give 50% multi bar chance,yes,3
+00:02:33,00:03:04,gem_shop|library,burning books,,mechanic,any,min_level=5,Burning books raises the minimum level of talent library books by 5; minimum not maximum,yes,3
+00:02:33,00:03:04,gem_shop|library,burning books,,priority,any,tier=D,Burning books is D tier; makes it slightly easier but should not be prioritized,yes,2
+00:02:33,00:03:34,gem_shop,presets,,opinion,any,tier=D,Presets are quality of life that do not speed up gameplay; he likes them but gives D tier,yes,3
+00:03:04,00:03:34,gem_shop,chips,,opinion,w4,tier=D,Chips (world 4) are gamba and D tier for the grand majority of non-whale players,yes,2
+00:03:34,00:04:05,gem_shop|storage,cosmic chest,,priority,late,tier=B,Cosmic chest not a necessity to buy right away; buy later over time; any storage slot is S for late game only,yes,2
+00:04:05,00:04:35,gem_shop|printer,crystal 3d printer,,mechanic,any,,Crystal 3D printer unlocks a second printer chamber so you print double and can print different items,yes,3
+00:04:05,00:04:35,gem_shop|printer,crystal 3d printer,,priority,any,tier=S,Crystal printer is top of the pack and one of the most important upgrades you can buy,yes,3
+00:04:35,00:05:07,gem_shop|minigame,mini game replays,,opinion,any,tier=D,Mini game replays add daily mini games; not that good D tier but above burning books and presets,yes,3
+00:04:35,00:05:07,gem_shop,daily teleports,,priority,any,count=4;tier=A,Daily teleports are the goat; buy three to four; quality of life that saves huge time; A tier,yes,3
+00:05:07,00:05:38,gem_shop,premium hats,,opinion,any,tier=F,Premium hats do nothing for account progression and are bottom of the pack; there are way better purchases,yes,3
+00:05:07,00:05:38,gem_shop|cards|dungeons,dungeon card packs,,opinion,any,tier=D,Dungeon card packs are D tier; fine to juice dungeon runs if you have spare gems,yes,3
+00:05:38,00:06:08,gem_shop|dungeons,dungeon boosters,,how_to,any,count=3;multiplier=20,Buy at least three dungeon boosters so you can do the times 20 for the week,yes,2
+00:05:38,00:06:39,gem_shop|cards,world 3 card packs,,opinion,w3,tier=D,World 3 card packs are top of D tier; only reason is chaotic and nightmare chizoar cards; snowman and blood bone cards give total damage,yes,2
+00:06:08,00:06:39,gem_shop|cards,card slots,,priority,any,slots=8;stars=4;tier=S,Card slots are S tier; four star cards with eight slots is the most important thing for 3D prints combat or anything,yes,3
+00:06:39,00:07:09,gem_shop|breeding,fence yard,,opinion,any,,Breeding is a whale skill; you can get passive upgrades from the fence yard,yes,2
+00:06:39,00:07:09,gem_shop|breeding,fluorescent flaggies,,mechanic,any,flagging_rate_boost_pct=50,Fluorescent flaggies give 50% flagging rate boost per purchase and unlock spaces faster; whale purchase,yes,2
+00:06:39,00:07:09,gem_shop|breeding,fluorescent flaggies,,opinion,any,tier=D,Fluorescent flaggies rank above burning books but remain D tier,yes,2
+00:06:39,00:07:09,gem_shop,food slots,,priority,any,tier=A,Food slots are A tier and important; he suggests buying them over teleports,yes,3
+00:07:09,00:07:40,gem_shop|cards,world 4 card packs,w4,comparison,w4,skill_efficiency_pct=50,World 4 card packs arguably best pack with best card in game; 50% skill efficiency; chaotic troll; nightmare troll best total damage,yes,2
+00:07:09,00:07:40,gem_shop|cards,world 4 card packs,,opinion,w4,tier=D,World 4 card packs top of D tier or just below C,yes,2
+00:07:09,00:08:11,gem_shop|anvil,infinity hammer,,mechanic,any,items=2,Infinity hammer lets you produce two anvil items at once and applies to all characters,yes,3
+00:07:40,00:08:11,gem_shop|anvil,infinity hammer,,priority,any,tier=S,Infinity hammer is top of pack by far; world 1 production used in all crafting and many alchemy bubbles; takes longest,yes,3
+00:07:40,00:08:11,gem_shop|printer|anvil,infinity hammer,,comparison,any,,Infinity hammer and crystal 3D printer are the top two most important gem shop items,yes,3
+00:08:11,00:08:41,gem_shop|storage,bag slots,,priority,any,slots=4;tier=A,Four extra backpack item slots are A tier just below food slots,yes,3
+00:08:11,00:08:41,gem_shop|dungeons,dungeon boosters,,opinion,any,multiplier=20,Changed mind: dungeon boosters still needed for times 20 but not as strong since normal boosters work,yes,2
+00:08:41,00:09:13,gem_shop|bubbles,ivory bubble cauldron,,mechanic,any,extra_players=2;speed_mult=1.5;new_bubble_chance_mult=1.5,Ivory bubble cauldron assigns two extra players and gives 1.5x speed and 1.5x new bubble chance,yes,2
+00:08:41,00:09:13,gem_shop|bubbles,ivory bubble cauldron,,priority,any,tier=B,Ivory bubble cauldron is not as good as bleach but not bad; B tier,yes,2
+00:08:41,00:09:13,gem_shop,jewels,,comparison,any,free_unlock_months=7,Free option to get jewels takes six to seven months to unlock everything; he says not S tier,yes,2
+00:09:13,00:09:43,gem_shop,jewels,,opinion,w4,tier=A,Jewels are A tier; you do not need them until world 4 when they hyperscale; disputes mega whale only claim,yes,2
+00:09:13,00:09:43,gem_shop,jewels,,account_note,any,gems_per_week=580,With free-to-play gems you can unlock all jewels; you can earn about 500-580 gems a week,yes,3
+00:09:43,00:10:14,gem_shop,jewels,,priority,w4,,Buy food slots and carry bags before jewels since jewels not needed before world 4,yes,3
+00:09:43,00:10:14,gem_shop,opals,,opinion,any,tier=F,Platinum opals are the biggest waste; best opals come from alchemy; best is from gigafrogs (paw patrol?),yes,2
+00:09:43,00:10:14,gem_shop|printer,sample slots,,opinion,any,tier=B,Sample slots are quality of life for people who dislike 3D printing chores; B tier,yes,2
+00:10:14,00:10:46,gem_shop|cards,worldwide card packs,,opinion,any,tier=F,Worldwide card packs are the worst of the worst; worse than premium hats,yes,3
+00:10:14,00:10:46,gem_shop|storage,mobile storage,,opinion,any,,He would rather buy burning books than mobile storage,yes,2
+00:10:46,00:11:16,gem_shop|breeding,eggs,,opinion,any,tier=F,Eggs are the biggest waste of gems; only buy for content; better to wait for rarity to rise,yes,3
+00:10:46,00:11:16,gem_shop|breeding,eggs,,warning,any,eggs=200,You do not need 200 eggs spammed for a chance that will not happen,yes,3
+00:10:46,00:11:46,gem_shop|pets,pet storage,,opinion,late,tier=D,Pet storage only matters super late when storing shinies; most players far from that; maybe D tier,yes,2
+00:11:16,00:11:46,gem_shop,post office,,opinion,any,,Post office reset on a single character is above mobile storage and decent,yes,2
+00:11:16,00:11:46,gem_shop|prayers,prayer slot,,opinion,any,,Extra prayer slot only useful for active booboo running jawbreaker; otherwise useless; ranks over opal slots,yes,2
+00:11:46,00:12:17,gem_shop,opal storage,,opinion,any,,Opal storage same deal as opals but worse,yes,2
+00:11:46,00:12:17,gem_shop|cooking,kitchen upgrade,,mechanic,any,meal_speed_mult=3;recipe_speed_mult=2;upgrade_reduction_pct=40,Kitchen upgrade moves one kitchen order first to last; 3x meal cooking speed 2x recipe speed 40% upgrade reduction,yes,2
+00:11:46,00:12:17,gem_shop|cooking,kitchen upgrade,,priority,any,count=2;tier=S,Kitchen upgrades S tier if you buy only one or two; A tier if more,yes,3
+00:12:17,00:12:47,gem_shop|breeding,royal egg cap,,mechanic,any,egg_cap=1;breed_chance_mult=1.1;max_buys=5;cost_gems=2000,Royal egg cap gives +1 max nest eggs and 1.10x new pet breeding chance per buy; up to five for 2000 gems,yes,2
+00:12:17,00:12:47,gem_shop|breeding,royal egg cap,,opinion,any,tier=A,Royal egg cap eventually hits a hard cap but new pet breeding odds are very good; A tier,yes,2
+00:12:17,00:13:18,gem_shop|sigils,sigil xp,,opinion,any,tier=C,Sigil xp slows hugely after a threshold; he places it solidly C,yes,2
+00:12:47,00:13:18,gem_shop|lab,souped up tubes,,mechanic,any,lab_xp_mult=2,Souped up tubes give two lab players 2x lab xp,yes,2
+00:12:47,00:13:18,gem_shop|lab,souped up tubes,,opinion,any,tier=B,Souped up tubes are back of the pack and may become redundant,yes,2
+00:13:18,00:13:50,gem_shop|talent_points,star talents and talent resets,,opinion,any,tier=F,Star talent and talent resets are bottom tier F,yes,3
+00:13:18,00:13:50,gem_shop|storage,storage chests,,mechanic,any,slots=9;cost_gems=5040,Storage chests give extra nine slots; total 5040 gems for the full set,yes,2
+00:13:18,00:13:50,gem_shop|storage,storage chests,,opinion,any,,Storage chests are cheap and your earliest source of chest capacity other than world 2; better than teleports,yes,2
+00:13:18,00:13:50,gem_shop|characters,class swap tokens,,warning,w4,,Class swap tokens are situational and bad after you get elite classes,yes,2
+00:13:50,00:14:20,gem_shop|construction,tower building slots,,priority,w3,tier=B,Extra tower building slot is solid B; becomes A or S later but in world 3 you lack materials,yes,3
+00:13:50,00:14:20,gem_shop,pachinko balls,,opinion,any,,Pachinko balls are gamba tier; only content creators should buy,yes,3
+00:14:20,00:14:51,gem_shop,chat rings,,opinion,any,,Chat rings are above premium hats and better than people think; unique item,yes,3
+00:14:20,00:14:51,gem_shop|construction,zen cogs,,warning,late,tier=F,Zen cogs are a trap and expensive; build rate comes elsewhere; F but better than opal storage; he plans to replace his,yes,2
+00:14:51,00:15:23,gem_shop,carry capacity,,opinion,any,tier=A,Carry capacity is still OP; put at bottom of A tier,yes,3
+00:14:51,00:15:23,gem_shop,summary,,priority,any,tier=S,"S tier: infinity hammer, crystal printer, at least one four card slot, bleach cauldron, four brimstone slots, one to three kitchens",yes,3
+00:14:51,00:15:23,gem_shop,summary,,priority,any,tier=A,"A tier: food slots, bag slots, jewels, royal egg, storage space",yes,3
+00:15:23,00:15:54,gem_shop,teleports,,priority,late,tier=A,Teleports A tier; eventually buy out the cauldrons once late game,yes,2
+00:15:23,00:15:54,gem_shop,summary,,priority,any,multiplier=3;tier=B,"B tier: dungeon boosters only times three, construction build slots, souped-up tubes, cosmic chests",yes,2
+00:15:23,00:15:54,gem_shop,summary,,priority,any,tier=C,"C tier: sample space, star prima fire, sigil xp",yes,2
+00:15:23,00:15:54,gem_shop|cards,prima fire,,comparison,any,tier=C,Prima fire is hard to farm for four star nightmare cards; poor card drop chance; also works toward dungeon packs; C tier,yes,2
+00:15:54,00:16:24,gem_shop,summary,,priority,any,tier=D,"D tier: world 4 and dungeon card packs, chips, fence yard, mini games, presets, class swap token, flaggies, burning books, post office, prayer slots, zen cogs, opal storage",yes,2
+00:16:24,00:16:54,gem_shop,summary,,priority,any,tier=F,"F tier: world 3 card packs, chat rings, eggs, time candy, world 2 packs, opals, premium hats, pet storage, world 1 packs, star sign and skill resets",yes,2
+00:16:24,00:16:54,gem_shop,first purchases,,priority,early,brimstone_slots=4,"First purchases: infinity hammer, four brimstone slots, one bleach cauldron, card slots, crystal 3D printer; other stuff matters later",yes,3
+00:16:54,00:17:25,gem_shop,first purchases,,priority,early,items=5,Prioritize those first five items and you can progress well without spending more gems; other items not needed until world 4,yes,3
+00:17:25,00:18:04,gem_shop,tier list,,account_note,endgame,,He has everything maxed so has a better idea of how good items are; list is opinion not fact,yes,3

@@ -1,0 +1,53 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,guild,sister guild,,meta_change,any,,Creator announces a new sister guild (BIA) alongside the IBA; sign up via the Discord guild sign-up channel,yes,3
+00:00:30,00:00:30,traps,trapping skill,hunter,mechanic,w3,,Trapping is the hunter skill for World 3; you need a trap box equipped to begin trapping,yes,3
+00:00:30,00:00:30,traps,placing traps,,how_to,w3,,Go to a critter's spawn area and place a trap to start trapping,yes,3
+00:00:30,00:00:30,traps,trap tier,,mechanic,any,,Higher tier trap means you can put down more traps,yes,3
+00:00:30,00:01:00,bubbles|traps,call me ash,,mechanic,any,traps=+1,Call Me Ash big alchemy bubble allows one extra trap placed,yes,3
+00:00:30,00:01:00,bubbles|traps,call me ash,,how_to,any,,Call Me Ash only needs to be equipped when placing; you can unequip afterwards and the trap stays,yes,3
+00:01:00,00:01:00,quests|traps,trap request line,,how_to,w3,,Unlock more critters by doing the trap request line in World 3 (left portal from town hub),yes,3
+00:01:00,00:01:00,traps,stats,,mechanic,any,stats=3,Three stats matter: trapping efficiency, trapping xp and shiny critter chance,yes,3
+00:01:00,00:01:31,traps,placing traps,,mechanic,any,,When placing a trap only trapping efficiency and trapping xp are snapshotted; shiny chance applies when collecting,yes,3
+00:01:00,00:01:31,characters|traps,placing traps,,priority,any,,You can place traps on all characters and should do so,yes,3
+00:01:31,00:01:31,traps|cards,placing setup,,how_to,any,,When placing use only enough efficiency to hit the threshold for extra critters,yes,3
+00:01:31,00:01:31,traps|cards,placing setup,,how_to,any,,If you can't hit the extra critter threshold use trapping xp instead,yes,3
+00:01:31,00:01:31,traps,main stat,,mechanic,any,,The main stat for trapping is agility,yes,3
+00:01:31,00:02:01,traps,efficiency thresholds,,how_to,any,,Efficiency thresholds for extra critters can be found on the wiki linked in the pinned comment,yes,3
+00:01:31,00:02:01,traps|cards,placing setup,,setup,any,,Example placing cards: Easy Resource Guard, Bravo, Scorpio, Dung Beetle, Honker, Chaotic Efaunt, Chaotic Troll,yes,2
+00:02:01,00:02:01,traps|cards,placing setup,,how_to,any,,If you lack those cards alternatives could be agility cards,yes,3
+00:02:01,00:02:32,traps|prayers,skill dimwit and unending energy,,how_to,any,,Equip Skill Dimwit and Unending Energy prayers when placing for extra gains and unequip after since they are snapshotted,yes,2
+00:02:01,00:02:32,traps|class_exp,bowman skills,bowman,mechanic,any,,Bowman efficiency skill and specialized skill for xp also count for trapping,yes,2
+00:02:01,00:02:32,traps,trap types,,comparison,any,,Natural trap gives much more xp but fewer critters and shinies,yes,3
+00:02:01,00:02:32,traps,trap types,,comparison,any,,Silk skin trap gives far less xp but much higher shiny chance,yes,3
+00:02:32,00:03:03,traps,trap duration,,mechanic,any,,Each trap has multiple durations; silk skin can be 20 minutes up to a few days,yes,3
+00:02:32,00:03:03,traps|daily_routine,trap duration,,how_to,any,time=20 hours,Daily players should set traps for 20 hours so they only handle them once a day,yes,3
+00:02:32,00:03:03,traps,trap duration,,warning,any,,Extra stat changes with duration but not proportionally; sometimes longer times mean fewer gains,yes,3
+00:02:32,00:03:31,traps,critter locations,,account_note,w3,,Rogue is at Jungle Perimeter; Grabo at Salty Shores; Scorpio at The Ring; Mousey at Rat's Nest; Allio at Hollow Trunk,yes,2
+00:03:03,00:03:34,traps,critter locations,,account_note,w3,,Pingy at Stache Spit; Bunny at Thermonuclear Climb; Dung Beetle at Efaunt's Tomb; Honker at Wham Wonderland; Blobfish at Cocoa Tunnel,yes,2
+00:03:03,00:03:34,traps,collecting,,warning,any,,Collecting manually from every trap with every character takes far too long and is not recommended,yes,3
+00:03:03,00:04:05,traps|talent,eagle eye,hunter,how_to,any,max_level=100,Use hunter talent Eagle Eye to collect everyone's traps at a reduced rate; level it up to 100,yes,3
+00:03:34,00:04:05,traps|library|talent,eagle eye,hunter,how_to,any,,Book Eagle Eye in the library; higher level means less reduction up to full critter gain and nearly full xp,yes,3
+00:03:34,00:04:05,traps|construction,trapping drone,,mechanic,any,,Trapping drone is another collection option explained later,yes,3
+00:04:05,00:04:05,traps,shiny critters,,mechanic,any,,Collecting gives a percent chance for a shiny critter used in many crafting items,yes,3
+00:04:05,00:04:36,traps|cards,collecting setup,hunter,setup,any,,When collecting on hunter run full shiny critter chance with Frog, Mousey, Pinky and Blobfish cards,yes,3
+00:04:05,00:04:36,traps|cooking,critter num nums,,how_to,any,,Critter Num Nums skilling food increases critters gained when collecting,yes,3
+00:04:05,00:04:36,traps|prayers,shiny snitch,,mechanic,any,shiny_bundle=20,Shiny Snitch prayer gives a bundle of 20 shiny critters instead of one,yes,3
+00:04:05,00:04:36,traps|prayers,shiny snitch,,warning,any,shiny_chance_divisor=15,Shiny Snitch curse lowers shiny chance by 15x at level 1,yes,3
+00:04:36,00:05:06,traps|talent,reflective eyesight,hunter,priority,any,trapping_levels=10,Focus Reflective Eyesight when collecting; it gives timed shiny chance and retriggers every 10 trapping levels,yes,3
+00:04:36,00:05:06,traps|cards,collecting setup,hunter,setup,any,,Collecting setup: Frog, Mousey, Pinky, Blobfish cards plus card drop chance cards if needed; Critter Num Nums food; Shiny Snitch prayer,yes,2
+00:04:36,00:05:06,traps|talent,eagle eye,hunter,how_to,any,,Use Eagle Eye and collect all then put critters in storage,yes,2
+00:05:06,00:05:38,stamps|traps,trapping stamps,,priority,any,stamps=3,Three trapping stamps: Purple Frog (shiny chance), Heidi Box (base efficiency), Spike Mount (trapping xp percent),yes,2
+00:05:06,00:05:38,vials|traps,trapping vials,,priority,any,vials=4,Four vials: Orange Malt (shiny chance), Poison Tincture (more critters from Eagle Eye), Refresher/Ozo (shiny chance), Goosey Glug (+1 base critter per trap),yes,2
+00:05:38,00:06:08,bubbles|traps,trapping bubbles,,priority,any,bubbles=3,Focus bubbles: Sonic Tools green 6 (trap skilling power), Call Me Ash (extra trap and efficiency), green bubble 10 (shiny multiplier when opening),yes,2
+00:06:08,00:06:39,traps,trapping ovals,,how_to,any,,Silver trapping ovals suggested for hunter but usable on other characters for more trapping power,yes,2
+00:06:08,00:06:39,constellations|traps,hydrant,,mechanic,any,critters=20;trap_efficiency=10,Hydrant constellation on second tab gives +20 critters and traps and +10 trap efficiency,yes,2
+00:06:08,00:06:39,storage|traps,post office trapping box,,mechanic,any,,Post office trapping box gives trapping efficiency, trapping xp and critters trapped,yes,3
+00:06:08,00:06:39,arcade|traps|event_shop,golden ball shop,,mechanic,any,,Trapping xp and shiny critter chance are in the arcade golden ball shop on rotation,yes,2
+00:06:39,00:07:10,construction|traps,trapper drone,,priority,any,,Build the Trapper Drone to place and collect in the same place; upgrading gives more critters,yes,3
+00:06:39,00:07:10,construction|traps|talent,trapper drone,,mechanic,any,,Drone is based on your max Eagle Eye level; works on non-hunters and saves walking around the world,yes,3
+00:07:10,00:07:10,traps,xp balloons,,how_to,any,,To level trapping fast on a character stand at a trap place and use xp balloons,yes,2
+00:07:10,00:07:40,traps,trap sharing,,how_to,any,characters=10,If you have the level but not resources swap your highest tier trap between characters; one huge trap can serve all 10,yes,3
+00:07:10,00:07:40,cooking|breeding|traps,sea urchin spice,,how_to,any,,Spice unlocking sea urchin in the kitchen increases critters from traps; see breeding guide for spices,yes,3
+00:07:10,00:07:40,breeding|cooking,spice optimization,,meta_change,any,,Future video will cover spice optimization and forager setup for spice gains,yes,3
+00:07:40,00:08:11,lab|traps,ozo chips,,how_to,any,,Equip Ozo chips in the lab that increase base efficiency and efficiency percent skill before placing traps,yes,2
+00:07:40,00:08:11,traps|gem_shop,jewel,,mechanic,any,,There is also a jewel for trapping but it costs lots of gems,yes,2

@@ -1,0 +1,34 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,worship,goblin gorfest totem,,mechanic,w1,totem_level=1;world=1,Goblin Gorfest is the level 1 totem for Worship located in World 1 Forest Outskirts,yes,3
+00:00:00,00:00:31,worship,goblin gorfest totem,,mechanic,w1,,Totem gives Forest Souls when you spend Worship Charge or complete Tower Defense waves,yes,3
+00:00:31,00:00:31,worship|talent_points,stop right there,hunter,setup,w1,,Spec into Stop Right There talent which immobilizes nearby monsters; higher level gives longer root,yes,3
+00:00:31,00:00:31,worship|talent_points,360 noscope,hunter,setup,w1,,Spec into 360 NoScope talent because it can hit multiple enemies,yes,3
+00:00:31,00:00:31,worship|damage,tower defense damage,,mechanic,w1,damage_cap_per_attack=1,Damage in Tower Defense is capped at 1 per attack so don't worry much about damage stat,yes,3
+00:00:31,00:01:01,worship|talent_points,kung fu kick,hunter,setup,w1,tab=2,Take Kung Fu Kick in tab 2; it pushes back nearby monsters and higher level pushes farther,yes,3
+00:01:01,00:01:01,worship,kung fu kick,hunter,how_to,w1,,Knockback is helpful for keeping mobs near your towers longer,yes,3
+00:01:01,00:01:01,worship|talent_points,piercing arrow,hunter,setup,w1,monsters_hit=4,Level Piercing Arrow enough to hit all 4 monsters since it hits multiple enemies,yes,3
+00:01:01,00:01:36,worship,tower placement,,opinion,w1,,This is only one of many effective builds; there are many other ways to place towers,yes,3
+00:01:36,00:01:36,worship,summon,,how_to,w1,,Click the totem then press Summon Button to start Tower Defense and menus pop up,yes,3
+00:01:36,00:01:36,worship,tower placement,,priority,w1,,First towers to summon are Fireball Towers and Frost Towers,yes,3
+00:01:36,00:02:07,worship,early waves,,how_to,w1,,In early waves you may need to shoot some enemies yourself; don't worry about it too much,yes,3
+00:02:07,00:02:07,worship,tower placement,,how_to,w1,,With spare points place a few more fireball towers at the bottom to catch anything that gets past,yes,3
+00:02:07,00:02:38,worship,tower upgrades,,how_to,w1,,You can start upgrading towers if needed while waiting for points,yes,3
+00:02:38,00:02:38,worship,tower upgrades,,mechanic,early,,Damage is distributed better with more towers early game,yes,3
+00:02:38,00:02:38,worship,party tower,,priority,early,,Next priority is getting Party Towers out,yes,3
+00:02:38,00:03:09,worship,boss waves,,mechanic,w1,boss_wave=10,Early boss is a mini-boss; the real Boss Waves are on Wave 10,yes,3
+00:03:09,00:03:09,worship,party tower,,how_to,w1,,Place first Party Tower in the spot shown; its circle shows range and it helps placement of the next tower,yes,3
+00:03:09,00:03:43,worship,party tower,,threshold,w1,level=5,Party Tower does nothing until level 5 so level it ASAP,yes,3
+00:03:09,00:03:43,worship,party tower,,warning,w1,level=5,Don't spend points on Party Tower if you won't take it to level 5,yes,3
+00:03:43,00:03:43,worship,party tower,,setup,w1,,Choose trait Other towers in range get more speed for Party Tower; the other trait is not working currently,yes,3
+00:03:43,00:04:25,worship,party tower,,mechanic,w1,,Party Tower trait gives all towers more attack speed so monsters die much quicker,yes,3
+00:04:25,00:04:25,worship,kraken tower,,priority,w1,,Next priority is Kraken Tower which keeps enemies under towers longer,yes,3
+00:04:25,00:04:25,worship,tower placement,,how_to,w1,fireball_towers=2,Place 2 more Fireball Towers at the bottom,yes,3
+00:04:25,00:04:58,worship,tower upgrades,,priority,w1,,Upgrading top towers priority is Fireball Towers first,yes,3
+00:04:58,00:04:58,worship,fireball tower,,priority,w1,explosion_radius=20%,On Fireball Towers always take Trait B 20% bigger explosion radius first then Trait A,yes,3
+00:04:58,00:05:30,worship,frozone tower,,priority,w1,,On Frozone Towers always take Trait B and never Trait A as it's not worth it,yes,3
+00:05:30,00:05:30,worship,party tower,,how_to,w1,party_towers=3,Place last towers as Party Towers: one up top and two on the bottom,yes,3
+00:05:30,00:06:00,worship,tower defense,,target,w1,wave=60,This setup should get you to at least Wave 60,yes,3
+00:06:00,00:06:00,worship,tower upgrades,,priority,w1,tower_level=10,Finally add more Party Towers and upgrade all towers to level 10,yes,3
+00:06:00,00:08:10,worship,party tower,,mechanic,w1,attack_speed_seconds=0.5,Party Tower attack speed bonus stacks multiple times and can bring towers down to half a second attack speed,yes,3
+00:08:10,00:08:10,worship,late waves,,warning,w1,,Later waves are overwhelming so keep upgrading towers especially primary attackers and Party Towers for damage and attack speed,yes,3
+00:08:10,00:08:41,worship|talent_points,roots and knockbacks,hunter,how_to,w1,,Use Roots and Knockbacks as often as possible to keep monsters in tower range longer,yes,3

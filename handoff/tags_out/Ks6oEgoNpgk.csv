@@ -1,0 +1,41 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,speedrun,challenge rules,,meta_change,any,lives=1,Hardcore ironman rule: one life; if you die you must create a new account.,yes,3
+00:00:00,00:00:30,characters,second character,,setup,any,characters=1,Only one character allowed; the forced second character is left in town and used as a timer.,yes,3
+00:00:30,00:00:30,guild,solo guild,,setup,any,,Can only use a solo guild so no benefits from joining a max level guild.,yes,3
+00:00:30,00:00:30,general,public account,,setup,any,,Account must be public so progress can be seen.,yes,3
+00:00:30,00:00:30,gem_shop,free to play only,,setup,any,,Gem shop and companions are free to play only; can roll weekly and buy anything in gem shop.,yes,2
+00:00:30,00:00:30,dungeons,parties,,setup,any,,No parties allowed so no boss carries for fourth Prague or third boss.,yes,2
+00:00:30,00:00:30,general,auto loot,,setup,any,,Auto loot is allowed because game is basically unplayable without it.,yes,3
+00:00:30,00:01:02,speedrun,goal,,target,any,,Goal of the challenge is to defeat Chizoar; series continues until Chizoar is beaten regardless of deaths.,yes,3
+00:01:02,00:01:32,speedrun,goal,,target,any,,Soft cap is defeating Chizoar; dying in world four or five ends that episode. Overall goal is reaching Cattle Crook before world six.,yes,2
+00:01:32,00:01:32,quests,scriptures,,how_to,early,quests=4,Lava's advice: do four quests for scriptures and ignore all other quests; put talent points into Sharpened Axe.,yes,2
+00:01:32,00:01:32,characters,hat,,priority,early,,Grab the best early hat in the game for extra defense.,yes,2
+00:03:06,00:03:36,class_choice,warrior to squire,warrior,setup,early,,Went Warrior because they eventually want Squire for defense and accuracy talents.,yes,3
+00:03:06,00:03:36,talent_points,warrior second tab,warrior,priority,early,power_strike=1;double_strike=1,Second tab: one point in Power Strike and one in Double Strike for double hit chance; rest into Carry a Big Stick.,yes,2
+00:03:06,00:03:36,talent_points,warrior first tab,warrior,priority,early,,First tab: focus mostly on Sharpened Axe and Wisdom.,yes,3
+00:03:36,00:03:36,talent_points,beat shank,warrior,priority,early,beat_shank_points=20,Put about 20 points into Beat Shank because it scales really high early and boosts damage.,yes,2
+00:03:36,00:04:06,damage,accuracy target,,target,early,accuracy=225,Aim for about 225 accuracy by the time Amarok is defeated.,yes,3
+00:03:36,00:04:06,damage,walking sticks,,target,early,,With enough accuracy you can 100 percent hit Walking Sticks.,yes,3
+00:03:36,00:04:06,class_exp,walking sticks,,afk_spot,early,,Walking Sticks is a great early game XP spot.,yes,3
+00:03:36,00:04:06,money,monster mats,,how_to,early,,Sell Walking Sticks monster mats because they are not used for anything.,yes,2
+00:04:06,00:04:36,pets,early pet roll,,target,early,,Were rolling a pet looking for Crystal Custard or Rift Slug.,yes,3
+00:04:36,00:04:36,pets,crystal custard,,mechanic,early,drop_rate=100;xp=100,Crystal Custard early game doubles progression because it gives 100 drop rate and 100 XP.,yes,2
+00:04:36,00:04:36,pets,rift slug,,mechanic,early,skill_points=25,Rift Slug gives 25 skill points saving many skill points for one point invested.,yes,2
+00:04:36,00:04:36,talent_points,carry a big stick,warrior,priority,early,,Put points into Carry a Big Stick for big damage.,yes,2
+00:04:36,00:05:07,damage,accuracy for amarok,,priority,early,,Bust Wisdom until enough accuracy for Amarok; the sooner the better.,yes,2
+00:05:07,00:05:37,dungeons,party dungeon grind,,priority,early,tickets=24;minutes_per_run=10,At Carrot map they did a party dungeon grind of 24 tickets at about 10 minutes each.,yes,2
+00:05:07,00:05:37,dungeons,upgrades,,target,early,,Dungeon upgrades gained: two Elf Rings for huge defense and flurbo books such as dungeonic damage and Super Source.,yes,2
+00:05:07,00:05:37,dungeons,rex rings,,target,early,,Farmed Rex Rings to improve skill efficiency.,yes,2
+00:05:37,00:06:08,dungeons,credits,,priority,early,,When spending credits prioritize base damage first because it is the hardest scaling early game.,yes,3
+00:05:37,00:06:08,dungeons,credits,,priority,early,,After base damage take total damage percent and also MP for 100 percent uptime on attacks.,yes,2
+00:06:08,00:06:40,talent_points,accuracy,warrior,priority,early,accuracy_cap=30;beat_shank_damage=2.2,Put accuracy up to 30 then Beat Shank for 2.2 percent damage and then Sharp Big Stick.,yes,2
+00:06:40,00:07:11,warning,run ender,,warning,early,,Run Enders are a hard enemy that requires lots of accuracy to kill and hit very hard.,yes,2
+00:06:40,00:07:11,warning,run ender,,warning,w2,,In later worlds Run Enders can one shot the character.,yes,2
+00:07:11,00:07:42,quests,dog bones,,active_task,early,,Farm dog bones then gear up for the Amarok fight.,yes,3
+00:07:42,00:08:45,weekly_boss,amarok,,how_to,early,,Amarok fight: dodge his fist and pulsing attacks; WASD movement makes dodging much easier than mouse clicking.,yes,2
+00:08:15,00:08:15,weekly_boss,amarok,,mechanic,early,damage=1,Amarok's soakable attack only does one damage.,yes,2
+00:08:45,00:08:45,weekly_boss,amarok,,mechanic,early,,Rage mechanic for Amarok is coming soon.,yes,1
+00:08:45,00:09:16,weekly_boss,amarok,,opinion,early,,Amarok is his favorite boss for art style and being a serious boss.,yes,3
+00:09:16,00:09:46,gem_shop,steam,,account_note,w2,,Swapped to Steam to collect gems because some achievements are locked behind Steam.,yes,3
+00:09:16,00:09:46,vials,vials,,active_task,w2,,After world two they did some vials.,yes,2
+00:09:16,00:09:46,dungeons,second frog,,active_task,w2,,Went back to party dungeons to defeat the second frog.,yes,2

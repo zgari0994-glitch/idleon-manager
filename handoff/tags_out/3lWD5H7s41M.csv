@@ -1,0 +1,67 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,equinox|general,slow roast wiz cloud,,blocker,unknown,max_damage_buff_pct_per_sec=11,Slow Roast Wiz from Equinox clouds must be unlocked and upgraded for this wave 200 Goblin Gorefest build; it gives a stacking damage buff the longer waves last,yes,3
+00:00:30,00:01:01,general,goblin gorefest towers,,target,unknown,poisonicpen_level=90;wave=190;wave_alt=200,Recommended at least level 90 in your Poisonicpen towers to reach waves 190 and 200 with this build,yes,2
+00:00:30,00:01:01,general,goblin gorefest towers,,mechanic,unknown,,Build works at any point but higher tower levels make clearing the late waves more likely,yes,3
+00:01:01,00:01:31,general,goblin gorefest towers,,comparison,late,wave=210,Wave 210 is possible with maxed towers but even with his towers he would struggle to reach it,yes,3
+00:01:01,00:01:31,general,goblin gorefest towers,,setup,unknown,,Towers used are Poisonicpen, Frozone Malone, Storm Collar, Party Starters and Kraken Cosplay,yes,2
+00:01:01,00:01:31,general,goblin gorefest void inator,,setup,unknown,,Void Inator must be unlocked but needs little leveling since it is only used for its mob ability nullifying buff,yes,3
+00:01:31,00:02:03,general,goblin gorefest placement,,how_to,unknown,towers_poisonicpen=2,Start on the top row; summon a cheap trash tower as a guideline then two Poisonicpen towers first,yes,2
+00:02:03,00:02:33,general,goblin gorefest placement,,how_to,unknown,,Place a Void Inator tower then push waves to get to the 90s and 100s where the build takes off,yes,2
+00:02:03,00:02:33,general,goblin gorefest placement,,how_to,unknown,poisonicpen_added=2,Summon two more Poisonicpen towers after that,yes,2
+00:02:33,00:03:04,general,goblin gorefest placement,,how_to,unknown,kraken_towers=3;frozone_malone=1,Summon a total of three Kraken towers then a Frozone Malone,yes,2
+00:02:33,00:03:04,general,goblin gorefest storm collar,,how_to,unknown,,Put up a Storm Collar tower early so crit chance builds as soon as upgrades start,yes,3
+00:02:33,00:03:04,general,goblin gorefest upgrades,,mechanic,early,wave=40,You can start upgrading much earlier than he did; he was already at wave 40 with enough damage,yes,2
+00:03:04,00:03:35,general,goblin gorefest poisonicpen,,target,early,trait=B;level=10,Upgrade Poisonicpen towers to trait B and level 10 as soon as possible to have enough damage,yes,3
+00:03:35,00:04:05,general,goblin gorefest waves,,how_to,unknown,waves_at_a_time=10,Keep summoning waves 10 at a time so Slow Roast Wiz damage stacks and waves clear faster,yes,3
+00:03:35,00:04:05,general,goblin gorefest storm collar,,target,early,trait=B;crit_chance_per_trait_B_pct=20;total_crit_pct=60,Storm Collar all trait B gives 20% crit chance per B on all towers; his three Bs give 60% crit,yes,3
+00:04:05,00:04:36,general,goblin gorefest void inator,,target,early,trait=B;level=10;damage_bonus_pct=40,Void Inator trait B up to level 10 is ideal and gives 40% more damage to all towers,yes,3
+00:04:05,00:04:36,general,goblin gorefest kraken,,target,early,level_min=10;trait=B,Level Krakens to at least 10 with first trait B for the knockback; level 10 adds one more eyeball underling,yes,2
+00:04:36,00:05:06,general,goblin gorefest kraken,,target,early,level=15;extra_eyeballs=2,Kraken level 15 gives plus two eyeballs per tower for more safety and summoning speed,yes,3
+00:04:36,00:05:06,general,goblin gorefest kraken,,how_to,early,,Every Kraken level gives speed on each tower so upgrade levels individually rather than waiting for the next tier of five,yes,3
+00:05:06,00:05:39,general,goblin gorefest frozone malone,,target,early,level=10;level_alt=15;trait=A,Frozone Malone to level 10 or 15 and always trait A at this stage,yes,3
+00:05:06,00:05:39,general,goblin gorefest placement,,how_to,early,kraken_towers_added=3,Summon three more Krakens after Frozone so you have three Krakens a Frozone and three more Krakens with the same upgrade path,yes,3
+00:05:39,00:06:09,general,goblin gorefest party starter,,how_to,early,party_starters_min=3;party_starters_needed=5,Summon party starters at the bottom next to the vine; at least three and five are needed to complete up to wave 190,yes,2
+00:05:39,00:06:09,general,goblin gorefest party starter,,mechanic,early,levels_per_upgrade=5,Party starters only give benefit in five-level increments so upgrade five levels at a time,yes,3
+00:05:39,00:06:09,general,goblin gorefest party starter,,how_to,early,trait_A_count=3,Party starters get trait A until each has three As for speed; this changes later in the guide,yes,3
+00:06:09,00:06:42,general,goblin gorefest kraken,,mechanic,mid,,Speed caps on Kraken towers keep eyeballs always summoned giving basic invincibility so only damage is needed,yes,2
+00:06:09,00:06:42,general,goblin gorefest kraken,,target,mid,speed_current=0.40;speed_needed=0.35,Kraken speed was 0.40 after three As on party starters but needs 0.35 for the invincibility he wants,yes,3
+00:06:42,00:07:12,general,goblin gorefest upgrades,,warning,mid,points_needed=100000,Upgrading and summoning more towers gets very expensive at this point; at least 100000 points for more towers and more beyond,yes,2
+00:07:12,00:07:45,general,goblin gorefest waves,,mechanic,mid,wave_range=80-100;waves_at_a_time=10,Around wave 80 to 100 keep summoning 10 waves at a time as the damage bonus is huge,yes,2
+00:07:45,00:08:16,general,goblin gorefest poisonicpen,,how_to,mid,,Follow trait A B for Poisonicpen and upgrade each once more to add another B for crit chance and damage,yes,2
+00:07:45,00:08:16,general,goblin gorefest kraken,,how_to,mid,level=20;trait=A,Upgrade Kraken cosplay towers to level 20 again with trait A,yes,2
+00:08:16,00:08:46,general,goblin gorefest kraken,,target,mid,trait_order=BAA;knockback_pct=25,Ideal Kraken traits are B A A A since you only need the 25% knockback from a single B,yes,2
+00:08:16,00:08:46,general,goblin gorefest placement,,how_to,mid,wave=160,Around wave 160 summon more towers if you have enough points; this is expensive,yes,2
+00:08:46,00:09:17,general,goblin gorefest placement,,how_to,mid,frozone_cost=117000;kraken_last_cost=750000;last_towers=3,Last three towers are a Frozone Malone costing 117000 at end of line then two more Krakens costing 750000 for the last; this completes the build,yes,2
+00:08:46,00:09:17,general,goblin gorefest upgrades,,how_to,mid,level=25,Last Frozone gets trait A and last Krakens get trait B A; upgrade towers to level 25 if affordable after all are summoned,yes,2
+00:09:17,00:09:48,general,goblin gorefest upgrades,,how_to,mid,level_min=20,Upgrade the last towers to at least level 20 for speed and defense,yes,3
+00:09:17,00:09:48,general,goblin gorefest kraken,,mechanic,mid,,Krakens plus Frozone Malone keep mobs infinitely stuck so Slow Roast Wiz stacks damage every second,yes,3
+00:09:48,00:10:19,general,goblin gorefest storm collar,,target,mid,level=25;crit_chance_pct=100;wave=170,Upgrade Storm Collar to level 25 for 100% crit chance; extremely expensive and may be wave 170 to 180 before affording it,yes,3
+00:09:48,00:10:19,general,goblin gorefest storm collar,,mechanic,mid,,100% crit basically guarantees double damage on all towers,yes,3
+00:10:19,00:10:49,general,goblin gorefest|characters,hunter ability,hunter|beast_master,how_to,mid,,Depending on wave you may need Hunter or Beastmaster abilities; the main one is the stop ability which roots mobs for a long time if leveled,yes,2
+00:10:49,00:11:21,general,goblin gorefest kraken,,mechanic,mid,,Eyeball underlings push mobs back keeping them in range of poison towers; you can survive if mobs reach the end but lose range of Poisonicpen,yes,2
+00:11:21,00:11:53,general,goblin gorefest poisonicpen,,target,mid,wave=170;level=25,After wave 170 next goal is upgrading Poisonicpen to level 25 which is expensive,yes,2
+00:11:21,00:11:53,general,goblin gorefest poisonicpen,,how_to,mid,,Upgrade Poisonicpen clouds for more overall damage at this stage,yes,2
+00:11:53,00:12:23,general,goblin gorefest slow roast wiz,,mechanic,late,slow_roast_pct=5;wave_time_min=15-30,Damage ticks up every second with Slow Roast Wiz at 5% per second; single waves can take 15 20 even 30 minutes,yes,2
+00:12:23,00:12:54,general,goblin gorefest,,warning,late,wave_time_cap_hours=2,Each wave has a 2 hour time cap after which mobs disappear and you cannot get credit for wave 200 plus; biggest limitation of this setup,yes,3
+00:12:54,00:13:24,general,goblin gorefest,,meta_change,late,,Pushing to very high wave counts takes very long but is worth it for the bonuses,yes,2
+00:13:24,00:13:59,general,goblin gorefest points,,how_to,late,waves=181-200,Stop spending points after wave 190 and save all points from waves 181 to 191 until only bosses are left for a DPS switch,yes,2
+00:13:24,00:13:59,general,goblin gorefest poisonicpen,,how_to,late,level=25;extra_points=100000,He spent the extra 100000 points to get level 25 on a Poisonicpen at level 24,yes,2
+00:13:59,00:14:30,general,goblin gorefest points,,target,late,wave=200;points_millions=few,At wave 200 the more points saved the better; a few million points is good,yes,2
+00:13:59,00:14:30,general,goblin gorefest,,account_note,late,enemies_left=12;time_hours=2.5;enemy_hp_trillion=60,He reached end of wave 200 with 12 enemies and 60 trillion health left after 2.5 hours,yes,2
+00:14:30,00:15:01,general,goblin gorefest dps switch,,how_to,late,,At wave 200 remove old towers first since it reduces cost of placing new ones; remove Krakens and Frozone from end of line leaving the front line,yes,2
+00:15:01,00:15:32,general,goblin gorefest dps switch,,how_to,late,krakens_removed_extra=2,Remove two extra Krakens if you can survive leaving a Frozone and a Kraken; also remove Void Inator which is unnecessary,yes,2
+00:15:01,00:15:32,general,goblin gorefest dps switch,,how_to,late,,First new tower to place is the Lightning Collar tower then a few more party starters for damage and some speed,yes,2
+00:15:32,00:16:04,general,goblin gorefest storm collar,,how_to,late,damage_bonus_pct=1000;hp_threshold_pct=60,Main goal is Storm Collar with trait A on all upgrades giving about 1000% more damage to mobs below 60% health,yes,2
+00:16:04,00:16:36,general,goblin gorefest storm collar,,comparison,late,damage_multiple=10,Storm Collar has very fast attack speed and about 10 times more damage than the Poisonicpen,yes,2
+00:16:04,00:16:36,general,goblin gorefest dps switch,,how_to,late,trait_A_count=3;trait_B_count=2,Party starters should be three As and two Bs for most speed to speed up Storm Collar and Poisonicpen,yes,3
+00:16:04,00:16:36,general,goblin gorefest void inator,,opinion,late,,Selling the Void tower is worthwhile as it gives damage bonus but party starter bonuses can replace it,yes,1
+00:16:36,00:17:41,general,goblin gorefest dps switch,,how_to,late,,As mobs die remove more Krakens and summon more Poisonicpen towers,yes,2
+00:17:41,00:18:12,general,goblin gorefest dps switch,,account_note,late,wait_min=20;hp_lost_trillion=25,After about 20 minutes with the DPS setup he lost about 25 trillion health and fewer mobs remained,yes,2
+00:18:12,00:18:43,general,goblin gorefest dps switch,,account_note,late,remaining_hp_trillion=35;extra_time_hours=0.5-1,Another half hour to an hour needed to clear last mobs with 35 trillion health left; you are safe if damage keeps ticking up,yes,2
+00:18:43,00:19:15,general,goblin gorefest,,how_to,late,wave=2011;hp_left_billion=100,To lock in wave 200 you must let wave 201 spawn (said 2011) then let mobs kill you,yes,2
+00:19:15,00:19:45,general,goblin gorefest,,how_to,late,,Delete all towers especially bottom Krakens and Frozone then let the mobs kill you to lock in wave 200,yes,3
+00:19:15,00:19:45,general,goblin gorefest,,priority,late,wave=210,If towers are very high level and damage is enough skip the DPS method at wave 200 and wait until end of wave 210 with only bosses left,yes,3
+00:19:45,00:20:16,general,goblin gorefest,,warning,late,waves=201-210,At wave 210 you cannot get enough points to survive waves 201 to 210 and make another DPS setup; pick one DPS switch and do not do both,yes,2
+00:20:16,00:20:48,general,goblin gorefest rewards,hunter,account_note,late,souls_million=2.61;exp=389000,Locking in wave 200 gave 2.61 million souls and 389000 experience on a Hunter,yes,3
+00:20:48,00:21:18,general,goblin gorefest rewards,,mechanic,late,souls_million=2,Wizard-based classes get more souls and experience; every character that can claim souls gets a little over 2 million,yes,2
+00:20:48,00:21:18,general|msa,msa totalizer,,mechanic,late,,Souls gain also benefits from other bonuses like the MSA totalizer,yes,2

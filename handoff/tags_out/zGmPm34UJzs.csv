@@ -1,0 +1,45 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,event_shop,patch,,meta_change,any,,Halloween patch dropped unexpectedly midweek instead of Friday; new map and new hat included,yes,3
+00:01:02,00:01:33,event_shop,spinner,,meta_change,any,,Spinner returns with time skips and a new name tag; old hats carrot mask goblin and block return,yes,2
+00:01:33,00:02:03,event_shop|jelly_operator,big claw,,mechanic,any,cost=30;jelly_operator_bonus=2x currency,Big claw gives 2x currency gain for jelly operator at a cost of 30; he calls it amazing,yes,2
+00:01:33,00:02:03,event_shop|menagerie,extra looney,,mechanic,any,bonus=50%;cost=15,Extra looney gives +50% additive gains for menagerie at a cost of 15; he says it is a good deal,yes,2
+00:02:03,00:02:33,event_shop,first page,,opinion,any,,All first-page event shop items are at minimum A tier if not S tier; small pouch inventory slots is the weakest on the page,yes,3
+00:02:33,00:03:04,event_shop,halloween event,,meta_change,any,treats_per_day=50,Halloween event ends November 9; collect 50 treats daily from monsters and open them for hats and gems; two new hats witch hat and still more mask,yes,3
+00:02:33,00:03:04,event_shop,wheel,,how_to,any,treats_per_day=50,Get free wheel plays by collecting 50 treats daily and by leaving idle on open; wheel gives event points and name tags and research gains,yes,2
+00:03:04,00:03:34,pets|menagerie,pipsqueak,,mechanic,any,omni_jade=2;levels_per_day=2,Pipsqueak grants +2 Omni Jade for ninja knowledge and boosts Omni Jade effect by +2 levels per day without raising cost; luminous menagerie also gives Omni Jade,yes,2
+00:03:34,00:04:04,pets,pipsqueak,,opinion,any,,Pipsqueak is weak for an event exclusive; he rates it B plus or B tier while other exclusives are S plus,yes,3
+00:04:04,00:04:35,pets,pipsqueak,,opinion,any,,Omni Jade only helps a couple of upgrades and is expensive; he rates Pipsqueak B to C plus tier,yes,2
+00:04:04,00:04:35,sushi,superior sushi skills,,mechanic,any,max_level=10,New event upgrade raises max level of superior sushi skills upgrade at sushi station by +10,yes,2
+00:04:04,00:04:35,gem_shop,limited time,,priority,any,,Don't forget to claim the gem shop freebie from limited time section which gives six-star codifiers,yes,2
+00:04:35,00:05:05,jelly_operator,sepsis feverizer,,meta_change,any,from=2x;to=4x,Sepsis feverizer in jelly operator was changed from 2x to 4x; he is happy as it was his requested change,yes,3
+00:04:35,00:04:35,gem_shop|bundles,halloween bundle,,meta_change,any,,New Halloween bundle in gem shop and a new raid copies fish tank,yes,2
+00:05:05,00:05:35,jelly_operator,critical operation,,meta_change,any,old_death_rate=30%;new_death_rate=5,Cell death rate during critical operation changed from +30% every six operations to constant +5 per operation; he considers it a buff,yes,3
+00:05:05,00:05:35,jelly_operator,diamond pair,,opinion,any,,No longer need to avoid progressing operations like diamond pair to avoid getting stuck; constant 5% is better,yes,2
+00:05:35,00:06:05,summoning,artifacts,,meta_change,any,old=1x;expected=7x,Fixed bug where some multitude artifacts gave 1x instead of 7x; can now get them without problem,yes,2
+00:06:05,00:06:35,ballot,artifact find,,priority,any,,Artifact find ballot this week so artifact bug fix is perfect timing,yes,2
+00:06:05,00:06:35,event_shop,name tag,,meta_change,any,top_percent=0.01%,Removed the top 0.01% name tag from town since it was bragging rights not for stats,yes,3
+00:06:05,00:06:35,cooking,no meal left behind,,meta_change,late,,Fixed issue with no meal left behind hitting high-level meals incorrectly; cooking gains return,yes,2
+00:06:35,00:07:05,alchemy|sigils,sigil xp,,meta_change,any,character=11,Fixed issue where 11th character gave no sigil XP in alchemy regardless of placement,yes,3
+00:06:35,00:07:05,menagerie,grievance garland,,meta_change,any,,Fixed grievance garland ninja knowledge upgrade not giving full bonus of extra funeral flowers; unsure if other funeral flower bug fixed,yes,2
+00:07:05,00:07:35,menagerie,workers comp,,meta_change,any,characters=10;11;12,Fixed workers comp bonus in combat not displaying for characters 10 11 12; bonus always applied,yes,2
+00:07:05,00:07:35,menagerie|sailing,night marina,,meta_change,any,unlock=14th,Night marina bonuses no longer given before unlocking from luminous menagerie; explains artifact and captain XP drop; unlock night marinas as 14th unlock,yes,3
+00:07:35,00:08:05,sailing,artifact find,,opinion,any,multi=1.6x;expected=450%,Since no fix to artifact find chance mentioned it likely ends up a 1.6x multi rather than expected 450%,yes,2
+00:07:35,00:08:05,menagerie,tiny cogs,,meta_change,any,tier=T11,Fixed T11 tiny cogs being possible without the menagerie unlock,yes,3
+00:07:35,00:08:35,killroy,war server xp,,meta_change,any,,Fixed war server XP bonus from Kilroy not giving its full effect; long-standing bug and very big,yes,3
+00:08:05,00:08:35,event_shop,wheel odds,,mechanic,any,,Wheel spin odds standard; more likely to get Pipsqueak before hitting pity,yes,2
+00:09:07,00:09:38,event_shop|jelly_operator,ivory locket,,mechanic,any,slots=3,Black market ivory locket gives +3 slots for jelly operator; incredibly strong and best here,yes,3
+00:09:07,00:09:38,event_shop,north star,,opinion,any,,North Star is expensive but still S tier,yes,2
+00:09:38,00:10:09,event_shop,organic label,,opinion,any,uses=5;cost=90,Organic label gives +5 uses for 90; fantastic since they are hard to get,yes,2
+00:09:38,00:10:09,event_shop|upgrade_vault,guild awning,,opinion,any,max_level=25,Guild awnings give +25 max level to most upgrade vault upgrades; unclear what most covers but he rates it A tier,yes,2
+00:10:09,00:10:39,event_shop|glimbo|upgrade_vault,glimbo vip pass,,opinion,any,max_vault_level=2,Glimbo VIP pass boosts max vault level by 2 per glimbo trade instead of 1; S tier,yes,3
+00:10:09,00:10:39,event_shop|sailing,nazare shell,,opinion,any,shells=5,Nazare shell is very expensive for 5 shells; tentative A tier since later shells may be hard to reach without new missions,yes,2
+00:10:39,00:11:10,event_shop|sushi,full kitchen shimmer,,opinion,any,cost=150,Full kitchen shimmer max fuel capacity for sushi station is possibly the worst event shop item; D tier at cost 150,yes,3
+00:10:39,00:11:10,event_shop|friends,slot of friendship,,opinion,any,cost=200;slots=1,Slot of friendship costs 200 for +1 friend bonus slot; probably D tier,yes,3
+00:11:10,00:11:40,event_shop,forbidden isle,,priority,any,,Think about glimbo VIP pass and maybe another seashell then forget the rest of the final page,yes,3
+00:11:40,00:12:10,event_shop|cards,card of i,,opinion,any,,Event shop gives one extra free card of I; six-star cards of I are good; ribbons now give barely any progress,yes,2
+00:12:10,00:12:40,event_shop,halloween hats,,mechanic,any,damage_multi=50%;class_exp_multi=50%,Warlock hat gives +50% damage multi and +50% class EXP multi but only from the new pack,yes,2
+00:12:10,00:12:40,event_shop,witch hat,,mechanic,any,class_exp_multi=1%,One new hat gives 1% class EXP multi; Halloween pumpkin hat gives no bonuses,yes,2
+00:12:10,00:13:10,bundles|pets,halloween pack,,mechanic,any,lumi_gains_per_hour=30%,Halloween pack includes gems green gems and a pet giving 30% lumi gains per hour and a hat plus 500 treats and event plays,yes,2
+00:12:40,00:13:10,bundles,halloween pack,,opinion,any,price=25;tier_with_pet=B plus;tier_without_pet=C plus,Pack not worth 25 dollars; try to get the pet alone; B plus with pet and C plus without,yes,3
+00:13:10,00:14:10,research,name tag,,mechanic,any,per_tag=100%;shown=230%;speed=5-7x;level_from=92;level_to=95,New name tag gives 100% research EXP per tag but appears to give 5-7x research gain; he jumped from level 92 to 95,yes,2
+00:13:40,00:14:10,research,name tag,,opinion,any,,If the name tag bug is intended then research just became really easy,yes,2

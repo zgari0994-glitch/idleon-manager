@@ -1,0 +1,58 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+wBWPZfLcCfA,griffybit,2022-07-05,00:00:00,00:00:00,general,,map,,meta_change,any,,Better art added for the grasslands in world one,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:00:00,00:00:31,damage,,damage numbers,,meta_change,any,damage_threshold=10000000,New damage number display for hits of 10 million plus damage in one hit,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:00:31,00:00:31,talent_points,,talent,,meta_change,any,,Attack talents now have a larger top left edge border so attacks are distinguishable from passive talents,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:00:31,00:00:31,arcade,world-2/arcade-shop,arcade shop,,meta_change,any,,Arcade shop description now shows which bonus rotation is active and how rotation changes each update and keeps previous bonuses,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:00:31,00:00:31,drop_rate,,world 3 monsters,,meta_change,w3,,Added insta lab flower followers? to all world 3 monsters and rare drop tables,yes,1
+wBWPZfLcCfA,griffybit,2022-07-05,00:00:31,00:01:02,cards,,grand frogger|eldritch frog,,meta_change,any,,Grand Frogger and Eldritch Frog cards are now passive and give percent chance to start with RNG items,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:01:02,00:01:02,library,account/misc/general,talent library,,meta_change,any,,Talent library now auto selects your overall class instead of always showing warrior first,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:01:02,00:01:02,anvil,world-1/anvil,crafting recipes,,meta_change,any,,Anvil crafting recipes start with equipment filter in the top left corner making equip crafting easier to navigate,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:01:02,00:01:32,library,account/misc/general,talent book,,meta_change,any,,When choosing talent books in the library your current max level of the talent now shows,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:01:32,00:01:32,dungeons,account/misc/dungeons,dungeon shop,,meta_change,any,,Added dungeon shop in the NPC shop where you can buy things with dungeon credits,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:01:32,00:01:32,dungeons,account/misc/dungeons,dungeon pass,,meta_change,any,,If you disconnect or crash during a dungeon run your dungeon passes are refunded,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:01:32,00:01:32,dungeons,account/misc/dungeons,credits,,meta_change,any,,After a disconnect refund you keep no dungeon credits or flurbos earned during that run,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:01:32,00:02:02,general,,birthday cards,,meta_change,any,,Birthday cards have a new description,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:02:02,00:02:02,general,,accessory,,meta_change,any,,New secret reading glasses accessory added in game,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:02:02,00:02:02,cauldrons_liquids,world-2/cauldrons,cauldron boost,,meta_change,any,max_level=170,Cauldron boost now maxes at level 170 and anyone above 170 is reduced to 170,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:02:02,00:02:02,storage,account/misc/storage,storage chest,,meta_change,w2,chest=14,Added storage chest 14 to the middle desert rare drop table,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:02:02,00:02:33,storage,account/misc/storage,storage chest,,meta_change,w4,chest=22;chest=23,Added storage chests 22 and 23 to world 4 mobs,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:02:33,00:02:33,storage,account/misc/storage,inventory bag,,meta_change,any,g_bag_drop_multiplier=1.5,Boosted drop chance for inventory bag G by 1.5x,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:02:33,00:02:33,gem_shop,account/prem-currency/gem-shop,storage chest,,meta_change,any,,Added more storage chest space to the gem shop,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:02:33,00:03:03,gem_shop,account/prem-currency/gem-shop,traps,,meta_change,any,,More jump trap purchases added to gem shop?,yes,1
+wBWPZfLcCfA,griffybit,2022-07-05,00:03:03,00:03:03,pets,account/prem-currency/pets,blobfish critter,,meta_change,any,,Fixed bug where blobfish critters disappeared after being unlocked,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:03:03,00:03:03,library,account/misc/general,vip library,,meta_change,any,,Fixed graphical issue where VIP library showed up visually without any VIP membership unlocked,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:03:03,00:03:33,breeding,world-4/breeding,overwhelming golden egg,,meta_change,any,,Overwhelming golden egg pet breeding upgrade now correctly gives its bonus and the bonus numbers changed slightly,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:03:33,00:03:33,talent_points,,talent presets,,meta_change,any,,Fixed talent reset potion or star talent potion also resetting the other talent presets,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:03:33,00:04:03,talent_points,,party starter,wizard,meta_change,any,bonus_pct=15;bonus_pct=50,Party Starter wizard talent now has a working second bonus giving attack speed or damage,yes,1
+wBWPZfLcCfA,griffybit,2022-07-05,00:04:03,00:04:03,dungeons,account/misc/dungeons,frog dungeon,,meta_change,any,,Fixed frog dungeon desync where other players' eldritch rib cages did not count for others,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:04:03,00:04:35,storage,account/misc/storage,world 4 carry,,meta_change,w4,,World 4 carries are now available in the shop,yes,1
+wBWPZfLcCfA,griffybit,2022-07-05,00:04:35,00:04:35,talent_points,,toilet paper postage,,meta_change,any,max_level=0,Fixed TPP star talent staying at max level zero regardless of boosts; retroactively fixes itself,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:04:35,00:04:35,death_note,world-3/death-note,kill count,,meta_change,any,kills=2000000000,Death Note kill count no longer goes wrong on mobile at about 2 billion kills,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:04:35,00:04:35,sigils,world-2/sigils,sigil xp,,meta_change,any,players=10,Fixed inconsistency where the 10th player did not give sigil XP when placed in sigils,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:04:35,00:05:05,talent_points,,luck family bonus,journeyman,meta_change,any,,Journeyman plus luck family bonus now correctly applies its bonus to all characters,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:05:05,00:05:05,cooking,world-4/cooking,idol skilling talent,,meta_change,any,,Idol skilling talent now correctly gives plus AFK gain rate for cooking,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:05:05,00:05:05,cooking,world-4/cooking,tempestuous emotions,warrior,meta_change,any,,Tempestuous Emotions talent now correctly gives plus percent skill effect for cooking,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:05:36,00:05:36,general,,fishing xp,,meta_change,any,,Fishing XP per hour AFK info fixed to reflect actual XP per hour,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:05:36,00:05:36,money,,piggy bank,journeyman,meta_change,any,,Journeyman piggy bank talent no longer visually messes up void plus coins on the ground,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:05:36,00:06:06,general,,bug catching net,,meta_change,any,,Lustre bug catching net now shows as green instead of the incorrect purple,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:06:06,00:06:06,constellations,account/misc/constellations,telescope,,meta_change,w2,constellations=8,World 2 constellation counter now correctly counts all 8 constellations instead of showing 7 of 8,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:06:06,00:06:36,breeding,world-4/breeding,rarity upgrade,,meta_change,any,,Fixed rarity upgrade display for pet breeding showing a weird number with the gilded shells achievement,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:06:36,00:06:36,construction,world-3/construction,hud,,meta_change,any,,Construction HUD building bars no longer show for empty spaces only above actual unlocked projects,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:06:36,00:06:36,pets,account/prem-currency/pets,display,,meta_change,any,number=1000000000000,Fixed XP and pet enemy fight HP and cauldron boosted displays beyond 1 trillion,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:06:36,00:06:36,cauldrons_liquids,world-2/cauldrons,display,,meta_change,any,number=1000000000000,Fixed XP and pet enemy fight HP and cauldron boosted displays beyond 1 trillion,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:06:36,00:07:12,cooking,world-4/cooking,post office,,meta_change,any,,Fixed percent chance for two times ladles post office bonus not correctly doubling ladles when triggered,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:06:36,00:07:12,owl,account/clickers/owl,post office,,meta_change,any,,Fixed percent chance for two times ladles post office bonus not correctly doubling ladles when triggered,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:07:12,00:07:12,general,,spawn point,,meta_change,w4,,Picked spawn point on Still to Seekers map the last mob in world 4,yes,1
+wBWPZfLcCfA,griffybit,2022-07-05,00:07:12,00:07:12,lab,world-4/laboratory,no bubble left behind,,meta_change,any,bubble_levels=1,No bubble left behind lab bonus description now says you must play each day to get plus one bubble levels,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:07:12,00:07:43,general,,mini boss respawn,,meta_change,w3|w4,,World 3 and 4 mini boss respawn progression no longer requires logging in daily; days away still count,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:07:43,00:07:43,sigils,world-2/sigils,player info,,meta_change,any,,Alchemy player info now says sigil if player is assigned to a sigil instead of nal,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:07:43,00:07:43,cauldrons_liquids,world-2/cauldrons,player info,,meta_change,any,,Alchemy player info now says sigil if player is assigned to a sigil instead of nal,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:07:43,00:08:14,pets,account/prem-currency/pets,pet battle,,meta_change,any,,Bonus pet damage in arena pet battles now works properly,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:08:14,00:08:14,pets,account/prem-currency/pets,pet damage,beast_master,meta_change,any,,Previously ignored pet damage bonuses from meals vials achievements and the beast master talent now apply,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:08:14,00:08:14,cooking,world-4/cooking,cooking efficiency,,meta_change,any,,Plus percent cooking efficiency equipment bonus notably from cooking rings now correctly applied,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:08:14,00:08:44,cooking,world-4/cooking,massive fig meal,,meta_change,any,,Massive fig meal now correctly gives its bonus,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:08:44,00:08:44,talent_points,,american tipper,,meta_change,any,,American Tipper star talent description no longer says it isn't additive with other bonuses as it never was,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:08:44,00:08:44,cooking,world-4/cooking,black diamond rhinestone,,meta_change,any,,Black diamond rhinestone no longer applies the lining bonus to avoid fringe case disconnects; still applies every other food bonus,yes,1
+wBWPZfLcCfA,griffybit,2022-07-05,00:08:44,00:09:14,killroy,world-2/killroy,speech box,,meta_change,any,,Kilroy's speech box now closes automatically when you open other menus to avoid accidental interaction,yes,2
+wBWPZfLcCfA,griffybit,2022-07-05,00:09:14,00:09:14,lab,world-4/laboratory,two-time stamp bonus,,meta_change,any,,Fixed lab two-times stamp bonus not working until swapping characters; now works instantly on opening the game,yes,3
+wBWPZfLcCfA,griffybit,2022-07-05,00:09:14,00:09:14,stamps,world-1/stamps,two-time stamp bonus,,meta_change,any,,Fixed lab two-times stamp bonus not working until swapping characters; now works instantly on opening the game,yes,3

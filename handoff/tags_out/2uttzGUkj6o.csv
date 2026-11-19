@@ -1,0 +1,68 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:32,merits,merit shop,,target,any,,Main goal is to max out all merit shop bonuses but beginners cannot max everything so the tier list is a generalization,yes,3
+00:00:32,00:01:02,merits,inventory bag,,opinion,any,bag_level_max=5;bag_number=8,Inventory bag merit is F tier since you get the bags anyway from easy quest lines,yes,3
+00:01:02,00:02:03,merits,mob respawn W1,,priority,any,respawn_per_purchase=2;purchases=10;total_pct=20,World 1 mob respawn is top A or near S and usually a priority; more kills and loot and helps characters without respawn abilities,yes,3
+00:01:33,00:02:03,merits,mob respawn W1,,mechanic,early,,In early game you will not see the potency of mob respawn because it costs a lot of merit points especially in world 1,yes,3
+00:02:03,00:03:06,merits,lowest level XP,,opinion,any,xp_per_purchase=4;purchases=12;total_pct=48,4% XP for lowest level character is F tier because it seems additive and with vault it is not good,yes,2
+00:03:06,00:03:36,merits,lowest level XP,,mechanic,any,lowest_level=600,Creator checks that his lowest level character is 600 and the bonus seems multiplicative; unsure if merit or vault bonus causes it,yes,2
+00:03:36,00:04:06,merits,lowest level XP,,opinion,any,,If additive it is F tier and if multiplicative it goes B or A; old W1 merit suggests additive; vault baby on board may be why,yes,2
+00:04:06,00:04:36,merits,hemoglobin,,priority,early,cost=2;purchases=10;levels_per_purchase=5,Hemoglobin is S tier and best merit; always aim for it first because without it you need healing food (only shaman has healing otherwise),yes,3
+00:04:36,00:05:37,merits,boss keys,,opinion,any,key_drop_per_purchase=4;cost=1;purchases=10;total_pct=40,Boss key drop merit is B or A tier; it affects cheese and amarok keys and other keys; early game it is better,yes,2
+00:05:07,00:05:37,merits,boss keys,,mechanic,any,,Boss key merit is the only one letting all keys drop; cheese keys farmable via dilapidated slush while amarok keys are not; late game maxed anyway,yes,2
+00:05:37,00:06:39,merits,amarok gear,,priority,early,levels=5;cost_each=2,Amarok gear is S tier budget and speedrun gear used until almost world 6; first three pieces are A tier,yes,3
+00:06:08,00:06:39,merits,amarok gear,,warning,any,,Amarok helmet and pendant are very expensive so not worth going for; only first three pieces worth getting before replacing them,yes,3
+00:06:39,00:07:09,merits,W1 star talents mini boss,,opinion,w1,purchases=6;cost_each=3,W1 miniboss star talent merit is A tier at one point but drops to B tier when buying multiples; frothy milk and postage stamp,yes,2
+00:06:39,00:07:09,merits,W1 star talents mini boss,,mechanic,w1,min_points=1,Dr Death and Baba Yaga will not drop talent books unless you have at least one point in this merit,yes,3
+00:07:09,00:07:39,merits|drop_rate,orbs drop,,priority,any,rate_per_purchase=5;cost=1;purchases=7;total_pct=35,W2 merit for more orb? drops is big S since it unlocks full mechanics and you need orbs for 10 characters,yes,2
+00:07:39,00:08:09,merits,mob respawn W2,,comparison,any,respawn_per_purchase=2;cost=1;purchases=10;total_pct=20,W2 mob respawn same spot as W1; W1 better because gmush kills and multi-kill tiers,yes,3
+00:08:09,00:08:42,merits,AFK gains,,opinion,any,afk_gain=2;cost=1;purchases=10,2% AFK gains for first nine characters is old and not very good now,yes,3
+00:08:42,00:08:42,merits,AFK gains,,opinion,any,,2% AFK gains is C tier and only makes a difference maybe in world 1 and 2,yes,2
+00:08:42,00:09:43,merits,XP converter,,skip,any,cost=1;max_level_per_purchase=5;purchases=10,XP converter max level merit is trash; do not spend points on it even with abundant points,yes,3
+00:09:13,00:09:43,merits|gem_shop,world boss gems,,priority,any,gem_drop_per_purchase=7;cost=1;purchases=8,World boss gem drop merit is triple S and better than hemoglobin; unlocks ability to farm gems with daily bosses unless you are a whale,yes,3
+00:09:43,00:10:44,merits,efaunt armor,,skip,any,levels=5;cost_each=2;total=10,Skip efaunt armor set completely; drop rate helmet needs resources you lack early,yes,2
+00:10:14,00:10:44,merits,efaunt armor,,mechanic,early,drop_chance_pct=5,Efaunt helmet needs killing Doot and 3D eyes with 5% drop rate; creator says tier not based on slab,yes,2
+00:10:44,00:11:45,merits,W2 star talents mini boss,,opinion,w2,cost=3;purchases=6;pct_per_purchase=30,W2 miniboss star talent merit is B tier; pulsation good early and cardiovascular a must if guard farming; good for one point only,yes,3
+00:11:14,00:11:45,merits|arcade,arcade ball gain,,opinion,any,cost_min=2;cost_max=5;pct_per_purchase=5;purchases=5;total_pct=25,Arcade ball gain 25% is B tier; not that good,yes,3
+00:11:45,00:12:45,merits|arcade,arcade ball gain,,opinion,any,time_saved_min=20,Arcade ball gain only saves around 20 minutes and most people cap balls before checking anyway,yes,3
+00:12:15,00:13:45,merits|construction,build and food slots,,priority,any,cost=3;purchases=4;build_slots=2;food_slots=2,Build and food slots merit is easy S tier; purchases 1 and 3 give build slot and 2 and 4 give food slots; mid to bottom of S behind hemoglobin,yes,3
+00:13:15,00:13:45,merits|construction,build and food slots,,mechanic,any,,Extra food slots allow more golden defense weapon power and healing food; build slots help building towers and shrines through end game,yes,3
+00:13:45,00:14:16,merits,mob respawn W3,,comparison,any,respawn_per_purchase=2;cost=1;purchases=10;total_pct=20,W3 mob respawn ahead of W2 but not W1 because of gmush farming,yes,3
+00:14:16,00:14:48,merits|library,max talent books,,priority,any,cost=2;purchases=5;max_books=10,Plus 10 max library talent books merit is high priority as max talents mean more damage and skills; maybe before orbs,yes,2
+00:14:48,00:15:50,merits,telekinetic storage,,opinion,any,carry_cap_pct=13.6;star_points=50,Telekinetic storage star talent is mid and top of C; only 13.6% carry capacity at 50 points and pets made it weaker,yes,3
+00:14:48,00:15:20,merits,telekinetic storage,,mechanic,any,,Telekinetic storage can be used actively to put items into storage but destroys everything on the ground,yes,3
+00:15:50,00:16:20,merits,telekinetic storage,,comparison,any,,Telekinetic storage is more useful if you lack ram companion; creator would put it before arcade balls,yes,2
+00:16:20,00:16:51,merits|storage,telekinetic storage,,mechanic,any,,Upgrade vault lets you deposit to storage from AFK which makes telekinetic storage even more redundant,yes,2
+00:16:20,00:17:23,merits|printer,printer sample size,,opinion,any,pct_per_purchase=0.5;cost=1;purchases=10;total_pct=5,Printer sample size merit is A tier; helps keep royal sampler low to avoid XP reduction and get 90% from printer sooner,yes,2
+00:17:23,00:17:54,merits|refinery,refinery salt cost,,priority,any,salt_per_purchase=1;cost=2;purchases=10,Refinery salt merit is S tier; powering up salts is amazing and you will have enough salts to never worry again,yes,3
+00:17:54,00:18:25,merits,W3 boss armor,,priority,any,,World 3 boss armor is S tier just for caustic scarf; next budget build before troll armor,yes,3
+00:18:25,00:18:56,merits,W3 boss armor,,mechanic,any,,Without the cheese scarf you cannot get the divine scarf which is best in slot necklace; this is amarok gear on steroids,yes,3
+00:18:25,00:18:56,merits,crystal monster,,opinion,w4,cost=3;purchases=3,First kill each day crystal spawn merit is F tier; three crystals will not make or break a day,yes,3
+00:18:56,00:19:57,merits,mob respawn W4,beast_master|siege_breaker,opinion,any,respawn_per_purchase=2;cost=1;purchases=10;total_pct=20,W4 mob respawn goes above W3 and W2; top of B; elite classes like beast master and siege breaker rely on respawn,yes,2
+00:19:57,00:20:58,merits|breeding,nesting egg capacity,,opinion,w4,cost=6;purchases=2;extra_capacity=2,Nesting egg capacity is B tier; expensive but you want max capacity for breeding XP and few merit alternatives,yes,3
+00:20:28,00:21:29,merits,spice village,,opinion,w4,cost=1;purchases=5;per_purchase=20;total=100,Spice village star talent is B tier going by chat; converter pet exists; creator unsure and untested,yes,2
+00:21:29,00:22:29,merits|lab,connection range,,opinion,w4,cost=2;purchases=8,Lab connection range merit is low A below printer; it is node to character range that does not level in lab,yes,3
+00:22:29,00:23:01,merits,troll armor,,priority,w4,cost_each=2;pieces=5,Troll armor is S tier right behind hemoglobin and the baseline for world 4 5 6 gear after initially joking F tier,yes,3
+00:23:01,00:23:31,merits,troll armor,,warning,w4,,Troll armor is heavily salt locked but can skip earlier armors; troll to magma cheap magma to croc pretty cheap then marble gets expensive,yes,2
+00:23:31,00:24:32,merits|bubbles,no bubble left behind,,priority,w4,cost=5;purchases=3,No bubble left behind merit is used in most account reviews and is great for alchemy,yes,3
+00:24:02,00:25:02,merits|bubbles|gem_shop,no bubble left behind,,comparison,w4,cap_level=1500,No bubble left behind caps at bubble level 1500 so does not beat farming free blue gems daily,yes,2
+00:25:02,00:25:32,merits|talent_points,tab four talent points,,opinion,w5,per_purchase=3;cost=1;purchases=20;total=60,Plus 3 talent points for tab four is low C or top F since leveling is easy with vault and alchemy,yes,3
+00:25:32,00:26:04,merits,mob respawn W5,siege_breaker,opinion,w5,respawn_per_purchase=2;cost=1;purchases=10;total_pct=20,W5 mob respawn is A tier; question whether it affects hole and siege breaker plunderers mob kills,yes,2
+00:26:04,00:26:34,merits|sailing,loot pile capacity,,opinion,w5,cost=2;purchases=7;total=14;cap=29,Loot pile capacity is mid B one above eggs; caps at around 29 so maxing is partly redundant,yes,2
+00:26:34,00:27:35,merits,stat overload,,opinion,w5,stat_per_upgrade=30;cost=1;purchases=10;total_stat=300,Stat overload star talent is C tier and better than telekinetic storage; total stat not affected by all stat percent,yes,2
+00:27:04,00:27:35,merits,stat overload,,mechanic,w5,,Stat overload gives total stat not base stat so all stat percent does not affect it; some need it for damage and accuracy,yes,2
+00:28:06,00:28:37,merits|sailing|divinity|gaming,world skill XP,,opinion,w5,xp_per_purchase=5;cost=2;purchases=5;total_pct=25,5% XP for sailing divinity and gaming is low A mainly due to hard-to-get divinity XP,yes,3
+00:28:37,00:29:07,merits,world skill XP,,comparison,w5,,Skill XP merit is interchangeable with connection range; gaming XP unimportant and sailing XP abundant,yes,3
+00:29:07,00:29:38,merits,croc armor,beast_master,opinion,w5,,Croc armor is F tier and slightly above troll; chest and legs best in slot for beast master,yes,2
+00:29:07,00:29:38,merits,croc armor,,mechanic,w5,,Divine scarf needs croc armor; croc and troll are interchangeable since you need both,yes,2
+00:29:38,00:30:39,merits|atom_collider,atom upgrade cost,,opinion,w5,reduction_pct=5;cost_each=3;purchases=4;total_pct=20,Atom upgrade cost reduction is B tier and situational; useless early but good once printing many atoms; last W5 merit to buy,yes,3
+00:30:09,00:30:39,merits|atom_collider,atom upgrade cost,,mechanic,w5,,Atom reduction is mainly used for power upscaling; neon is upgraded last in the atom collider,yes,2
+00:31:10,00:32:11,merits|talent_points,tab five talent points,death_bringer,opinion,w6,cost=1;purchases=20;total=40,Plus 2 talent points for tab five is expensive; master classes are not affected by alchemy talent points,yes,2
+00:32:11,00:32:42,merits|talent_points|masterclass,tab five talent points,death_bringer,opinion,w6,buffed_total=100;cost=20,Tab five talent points got buffed to 100 for 20 points; bottom A tier but not S until all master classes release,yes,2
+00:32:42,00:33:12,merits,mob respawn W6,,comparison,w6,respawn_per_purchase=1;total_pct=10,W6 spirited valley mob respawn is only 10% so gmush W1 is still on top,yes,2
+00:33:12,00:33:42,merits|farming,farming XP and OG chance,,opinion,w6,per_purchase=2;cost=2;purchases=15;land_plots=3,Farming merit first three purchases giving land plots are S tier and the rest is poor; overall A tier,yes,3
+00:33:42,00:34:43,merits|sneaking,jade coins,,opinion,w6,jade_per_purchase=3;cost=1;purchases=20;total_pct=60,Jade gain 3% merit is high A or S since sneaking is slow; worse than first three land plots but better than the rest,yes,3
+00:34:12,00:34:43,merits,jade coins,,comparison,w6,,Land plots and jade rank above the 10% W6 respawn merit but not above overall mob respawn for all worlds,yes,2
+00:35:14,00:35:44,merits|summoning,winner bonuses,,priority,w6,pct_per_purchase=1;cost=2;purchases=10;total_pct=10,Summoning winner bonus merit is S tier and should be bought right away; creator corrected to 10% max,yes,3
+00:35:44,00:37:16,merits|summoning,winner bonuses,,opinion,w6,first_battle_damage=1.28;second_battle=1.53,Early winner bonuses are strong (1.28x total damage first win); first one to max in W6 and an insta buy,yes,3
+00:37:16,00:38:17,merits,W6 boss armor,,opinion,w6,,World 6 boss emperor armor is unknown and predicted to be better than godshard; buy troll then croc then godshard then emperor,yes,2
+00:38:17,00:38:50,merits,merit shop,,account_note,any,,Each world has independent merit points; tier list is opinionated and shows what to prioritize per world,yes,3

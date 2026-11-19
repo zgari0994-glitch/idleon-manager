@@ -1,0 +1,53 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,general,royal guardian meta,royal_guardian,meta_change,w3,,Royal Guardian meta has solidified and optimal routes through worlds 1-3 are now figured out; iOS bug at launch benefited frontrunners.,yes,3
+00:00:31,00:01:01,general,outposts world 1,royal_guardian,meta_change,w1,,Nothing has really changed in world 1 except understanding of expanded barracks advanced logistics and greater education.,yes,3
+00:01:01,00:01:31,general,expanded barracks,royal_guardian,target,w1,expanded_barracks_max_level=3,Typically don't go past level 3 expanded barracks except on edge nodes leading to high priority targets.,yes,3
+00:01:01,00:01:31,general,expanded barracks,royal_guardian,priority,w1,,Push expanded barracks further on slitty ledges? outpost the outpost where branches end and tucked away outpost.,yes,2
+00:01:31,00:02:01,general,advanced logistics|greater education,royal_guardian,how_to,w1,,Put remaining points into advanced logistics but don't completely neglect greater education; it should be somewhat higher.,yes,3
+00:01:31,00:02:01,general,greater education,royal_guardian,target,w1,edge_node_greater_education=1 buy per expanded barracks buy,On edge nodes about one greater education buy equal to one expanded barracks buy is fine.,yes,2
+00:02:01,00:02:31,general,greater education|global decree,royal_guardian,priority,w1,,Spam greater education on everything else because it feeds global decree; each outpost level gives all outposts extra collection rate.,yes,3
+00:02:01,00:02:31,general,global decree,royal_guardian,mechanic,w1,global_decree_value=26500,Global decree gives each outpost level extra collection rate to all outposts; he has about 26.5k from it.,yes,2
+00:02:31,00:03:01,general,collection rate,royal_guardian,mechanic,w1,,Collection rate is so strong that everything clears within seconds of reset; combined with global decree gets bonkers into trillions.,yes,3
+00:03:01,00:03:31,general,global decree,royal_guardian,comparison,w1,,Two global decrees exist (one RG one O) both named the same and both very strong; getting them up matters a lot.,yes,2
+00:03:31,00:04:01,general,world 1 progression,royal_guardian,how_to,w1,,Progress world 1 linearly snaking through all of it then up the tree; send militia into the mines.,yes,3
+00:03:31,00:04:01,general,sewer rat node,royal_guardian,skip,w1,,Sewer rat node is kind of terrible because it links to nothing important and the berry node is easy.,yes,3
+00:04:01,00:04:31,general,world 1,royal_guardian,opinion,w1,,World 1 is hard to brick; don't think too hard even if you spammed barracks or advanced logistics on center nodes.,yes,3
+00:04:01,00:04:31,general,greater education,royal_guardian,how_to,w1,,Even with points invested in advanced logistics early just move over to greater education and you'll be fine.,yes,3
+00:04:31,00:05:32,general,world 2 progression,royal_guardian,priority,w2,,World 2 order: Sandy then Mimics then jump to Sand Castle (good mob density) then Tyson's and Snelby; roughly Snelby Tyson's Sand Castle.,yes,2
+00:05:02,00:05:32,general,Snelby copper node,royal_guardian,priority,w2,,Snelby's final copper resource node is a fat node to get farming as soon as possible.,yes,2
+00:05:32,00:06:04,general,militia|glorify|commander,royal_guardian,how_to,w2,,Send militia down toward the port; edge nodes are prime candidates for glorify from orbit shop and commander placement.,yes,3
+00:06:04,00:06:34,general,expanded barracks|advanced logistics,royal_guardian,target,w2,expanded_barracks_stop=3-4,Stop expanded barracks at 3 or 4 on world 2 edge nodes then advanced logistics since it is a true multiplier on collection rate.,yes,3
+00:06:34,00:07:05,general,advanced logistics,royal_guardian,opinion,w2,,Edge node optimization isn't strictly necessary given how good global decrees are; efficient but won't make or break progression.,yes,3
+00:07:05,00:07:37,general,greater education,royal_guardian,how_to,w2,greater_education_points=39,Use middle nodes as greater education fodder; once expanded barracks hits 3 on those nodes stop and move to greater education.,yes,3
+00:07:37,00:08:08,general,world 3 progression,royal_guardian,priority,w3,,World 3 order: Sheepy and Frostflake first then Mammoths then Quenchi; those four nodes let you access the entire map.,yes,3
+00:08:08,00:08:39,general,glorify|commander,royal_guardian,priority,w3,expanded_barracks_upgrades=3,With about three barracks upgrades and guards you reach everything; those four nodes are prime glorify and commander targets.,yes,2
+00:08:39,00:09:10,general,active royal guardian,royal_guardian,how_to,w3,,After the four key nodes get militias to do the rest of world 3; move active RG to orbit farming on beans.,yes,3
+00:09:10,00:09:41,general,expanded barracks,royal_guardian,target,any,expanded_barracks_sweet_spot=2-3,Expanded barracks level 2-3 is the sweet spot especially for center nodes then go to logistics or greater education.,yes,3
+00:09:10,00:09:41,general,commander,royal_guardian,how_to,any,,Commanders generally go in same places you prioritize glorifies.,yes,3
+00:09:41,00:10:12,general,surveyors,royal_guardian,how_to,any,intel_rank=15;days=1-2;units=3-4,Surveyors go to intel rank 15 taking 1-2 days with 3-4 units then swap to trading for the rest of time.,yes,3
+00:10:12,00:10:42,general,surveyors|commander,royal_guardian,mechanic,any,intel_rank_jump=18,Surveyor swap seems to work retroactively; exp sources on outposts affect everything including commanders so boosting them speeds command.,yes,2
+00:10:42,00:12:15,general,parchment|rats,royal_guardian,warning,any,drop_chance=1/40;anti_rodent_power_move_1=88;anti_rodent_power_move_2=30;pluto_levels_frontrunners=8,Not yet time to farm parchment from rats; anti-rodent power moves not high enough; Pluto prosperous chances slim (frontrunners at 8).,yes,2
+00:11:45,00:12:15,general,parchment,royal_guardian,mechanic,any,drop_chance=1/1000,Parchment chance is 1 in 1000 so hours of sitting gives few levels on Pluto prosperous; not efficient yet.,yes,2
+00:12:15,00:12:47,general,orb farming,royal_guardian,afk_spot,any,orb_endgame_per_reset=5000-7000;orb_typical_per_day=5000,Beans is the solidified orb farming map; endgamers get 5-7k orb on reset and about 5k otherwise.,yes,2
+00:12:47,00:13:17,general,orbit shop,royal_guardian,priority,any,,Bargain is amazing; glorification necessary; hydration and talented minor; full clear bad; parchment too expensive; connection range not needed.,yes,3
+00:12:47,00:13:17,general,orbit shop strong rank,royal_guardian,meta_change,any,,Care less about strong rank than originally; orbit shop priorities otherwise little changed.,yes,2
+00:13:17,00:13:47,general,orbit shop,royal_guardian,priority,any,emulsion_level=2;emulsion_cost=5000,Bargain is where it's at then some intervene; buy emulsion when it doesn't drain the bank; he'd rather add bargain and gamble glorification.,yes,2
+00:13:47,00:14:19,general,marble,royal_guardian,afk_spot,any,marble_seen=300,Marble was fixed; worlds 2 and 3 too slow for marble so sit in world 1 on beans.,yes,3
+00:14:19,00:14:50,general,statues|zenith clusters,royal_guardian,mechanic,w1,,Beans gives marble statues and statue levels from emulsion and zenith clusters; farming them is better than before the accidental nerf.,yes,2
+00:14:50,00:15:22,general,drop rate,,how_to,any,,With active DK just farm beans; maybe spend a day or two on drop rate from AC crystal first.,yes,1
+00:15:22,00:15:52,general,pages talent,royal_guardian,how_to,any,stack_per_day=50;extra_pages=86,Pages talent only works on the RG it's on; put it on second RG farming Cavern 4 getting stacks of 50 daily.,yes,2
+00:15:52,00:16:23,spelunking,cavern|chapter pages,royal_guardian,target,any,page_bonus_target=100,Wants 100% extra chapter pages then more on Overstem then Decay Surrounds then Sunken Plunder and Prime Evil.,yes,2
+00:16:23,00:16:53,spelunking,amber horde|grand discovery,,opinion,any,grand_discovery_drop_per_point=5,Amber Horde will be good: stamina bad but exp great; Grand Discovery drop rate is great at 5% per point.,yes,2
+00:16:53,00:17:24,spelunking,grand discovery,royal_guardian,mechanic,any,drop_rate_extra=500,Maxed grand discovery gives about 500 extra drop rate but only works on the RG it is on.,yes,2
+00:17:24,00:17:54,general,talents castle conamine,royal_guardian,opinion,any,,Second character can put little into Castle Conamine as collection rate no longer a problem.,yes,2
+00:17:24,00:17:54,royal_armory,guardian disciple,royal_guardian,priority,any,,Guardian Disciple is the best talent on the page; max it.,yes,3
+00:17:24,00:17:54,general,regal intervention,royal_guardian,how_to,any,super_talent_points=1,Regal intervention deserves a little; definitely one point in the super talent; chance for extra regal mobs boosts orb gains.,yes,3
+00:17:54,00:18:26,general,orb of various similitude|little orlets,royal_guardian,target,any,little_orlets_target=50-70,Put some points into orb of various similitude but secondary to little orlets; get little orlets to about 50-70%.,yes,2
+00:17:54,00:18:26,general,industrial politics,royal_guardian,how_to,any,,Industrial politics only if hurting for resource collection; do it on second RG.,yes,3
+00:18:26,00:18:57,general,warbound politics,royal_guardian,opinion,w3,multiplier=5-6x,Warbound politics is good if still clearing and needing pushing power; gets to 5-6x as a true multiplier.,yes,2
+00:18:26,00:18:57,general,aesthetic politics,royal_guardian,how_to,any,,Aesthetic politics works again and is how you get marble; put it on second RG.,yes,3
+00:18:57,00:19:27,general,marble setup,royal_guardian,setup,any,,Marble meta setup: second RG on aesthetic politics; primary RG on disciple blitz various similitudes and regal intervention.,yes,3
+00:18:57,00:19:27,general,base strength,royal_guardian,how_to,any,base_strength_points=1,Base strength is worth one point but not much more.,yes,3
+00:18:57,00:19:27,general,glorify|bargain,royal_guardian,warning,w3,bargain_target_level=10,He glorified the entire map but would instead invest harder in bargain to level 10.,yes,3
+00:19:27,00:19:57,general,edge nodes|greater education,royal_guardian,how_to,w3,,Focus glorify on edge nodes and do a few others so you can go deeper on greater education; don't go as hard as he did.,yes,3
+00:19:57,00:19:57,general,royal guardian meta,royal_guardian,opinion,w3,,Doesn't expect the meta to change for at least a couple weeks to months due to slow progression.,yes,3

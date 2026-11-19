@@ -1,0 +1,83 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,quests,gabo questline,,priority,w4,,Go to the kitchen top and talk to Gabo first; his questline unlocks the World 4 portal and skipping it soft locks you for hours,yes,3
+00:00:00,00:00:31,cooking|breeding,quests,,account_note,w4,,You should have done a few cooking and breeding quests by the time the portal is unlocked,no,2
+00:00:00,00:00:31,characters,map,,how_to,w4,,After the portal unlocks start pushing characters in the demon genie map (name garbled),no,1
+00:00:31,00:00:31,breeding|quests,oinkin quest,,warning,w4,,Don't level breeding upgrades yet because Oinkin's quest gives rewards upon upgrading,yes,3
+00:00:31,00:00:31,class_choice,elite classes,,mechanic,w4,classes_with_abilities=3,You can unlock all elite classes but only three have abilities; the others unlock in World 5 apart from six talents available to all,yes,3
+00:00:31,00:00:31,class_choice,elite classes,,priority,w4,,Make sure to get all your characters their respective elite classes,yes,3
+00:00:31,00:01:01,breeding,class,beast_master,mechanic,w4,,Beast Master is Hunter's elite class and specializes in breeding,yes,3
+00:00:31,00:01:01,breeding,talent,beast_master,mechanic,w4,,Talent Curvature of the Law gives higher power level for your pets when breeding,yes,2
+00:01:01,00:01:01,breeding|arena,talent,beast_master,mechanic,w4,,Arena Spirit talent gives extra arena entries and passive pet damage,yes,2
+00:01:01,00:01:01,breeding|cooking,breeding overview,,mechanic,w4,,Breeding gives spices and perks for unlocking pets and completing arena and territory (spice battles); spices are used later in cooking,yes,3
+00:01:01,00:01:01,breeding,eggs,,mechanic,w4,,Use an egg on a species for a chance to unlock a new pet; chance modified by genetic multipliers,yes,3
+00:01:01,00:01:32,breeding,genetics,,setup,early,,Good starting setup to collect spices is the forager genetics then moving to targeters until mid game,yes,2
+00:01:32,00:01:32,breeding,arena,,mechanic,early,fighting_slots_start=2;third_slot_round=2,Arena at top of screen gives unique bonuses; only two fighters at the start and a third spot unlocks as early as round 2,yes,3
+00:01:32,00:01:32,breeding,arena,,setup,early,round=15,Good starter arena team is mercenary curse defender (names garbled) which with proper power level gets to about round 15,yes,2
+00:01:32,00:02:03,breeding,arena,,target,early,round=15,Round 15 unlocks the fourth pet slot; use mercenary fleeter first then defender,yes,2
+00:01:32,00:02:03,breeding,arena,,setup,mid,round=50,Pre round 50 farm toward rattler monolithic refiller and defender (names garbled),no,1
+00:02:03,00:02:03,breeding,arena,,priority,late,,After that setup you want to get Burger but that is late game,yes,2
+00:02:03,00:02:03,breeding,territory,,setup,early,,For territory (spice battles) use mercenary fleeter forager then move to rattler monolithic refiller defender,yes,2
+00:02:03,00:02:33,breeding|gem_shop,eggs,,skip,any,,Don't buy eggs with gems unless you are a whale; it is a waste of gems,yes,3
+00:02:03,00:02:33,cooking,class,blood_berserker,mechanic,w4,,Blood Berserker is Barbarian's elite class and specializes in cooking,yes,3
+00:02:33,00:02:33,cooking,talent,blood_berserker,mechanic,w4,,Overflowing Ladle talent increases ladle efficiency and gives more minutes based on level,yes,2
+00:02:33,00:02:33,cooking|apocalypses,talent,blood_berserker,mechanic,w4,kills=1000000,Apocalypse talent increases cooking efficiency and XP based on 1 million kills per unique mob; same mechanic as other apocalypse,yes,2
+00:02:33,00:02:33,cooking|recipe_unlocks,talent,blood_berserker,how_to,w4,,Taste Test talent used on a recipe gives two chances to unlock a new recipe so pushes recipes faster,yes,3
+00:02:33,00:03:05,cooking,meals,,target,w4,plate_level=11,Cooking gives many World 4 stats and buffs; diamond plates (level 11 or higher on each dish) are a must,yes,3
+00:03:05,00:03:05,cooking,plates,,priority,w4,,Focus plates on eggs corn dogs and cabbage; all give meal cooking speed,yes,2
+00:03:05,00:03:05,cooking,class,blood_berserker,how_to,w4,,Have Blood Berserker cooking 24/7 to boost this tremendously since AFK in the kitchen earns ladles per hour,yes,2
+00:03:05,00:03:05,cooking,ladles,blood_berserker,how_to,w4,,Only use ladles on the Blood Berserker because of the Overflowing Ladle talent,yes,3
+00:03:05,00:03:36,cooking|breeding|recipe_unlocks,spices,,how_to,w4,,To unlock meals combine spices from breeding on blocks; a silhouette appears at the bottom if the meal is not unlocked,yes,3
+00:03:05,00:03:36,cooking,spices,,warning,w4,,Higher tier spices mean longer wait time,yes,3
+00:03:36,00:03:36,lab,class,bubonic_conjuror,mechanic,w4,,Bubonic Conjuror is Shaman's elite class and specializes in the lab giving XP and efficiency to others and itself,yes,2
+00:03:36,00:04:06,lab,mainframe,,mechanic,w4,,Lab is a huge World 4 asset giving kills multipliers 3D printer boosts and a lot of money percent,yes,2
+00:03:36,00:04:06,lab,mainframe,,how_to,w4,,Click the Mainframe at the top and hit upload for your characters; they are unusable while in the lab,yes,3
+00:04:06,00:04:06,lab,lab trap,,warning,w4,,Starting lab unprepared is a huge time waster and starves your characters,yes,3
+00:04:06,00:04:37,lab|printer|refinery,lab trap,,blocker,w4,,If you enter World 4 and throw everyone into lab without a 3D printer funding your Refinery you get salt locked hard,yes,3
+00:04:06,00:04:37,lab,connection range,,mechanic,w4,,There are two connection ranges: player connection from player to player in your Mainframe and node connection (line width) to connect further from nodes,yes,2
+00:04:37,00:04:37,lab|gem_shop,processor chips,,how_to,w4,days=3,Buy one pile of processor chips per day for three days and consume it to unlock rotational chips for big stat boosts per character,yes,2
+00:04:37,00:05:08,lab|gem_shop,jewels,,how_to,w4,days=7;upgrade_percent=20-30,Jewels buy for seven days unlocks lab jewels buffing it by roughly 20 to 30 percent,yes,2
+00:05:08,00:05:08,lab|gem_shop,jewels,,opinion,w4,,Only the jewels are truly worth the gems; chips are a waste of gems,yes,3
+00:05:08,00:05:08,drop_rate,mutated mush,,mechanic,w4,,Mutated Mush mini boss drops eggs ladles and candy and is found at the purple mushrooms map,yes,3
+00:05:08,00:05:39,drop_rate,toxic sludge,,mechanic,w4,,Toxic sludge item drops can also be farmed in the World 4 Coliseum at the TV map,yes,2
+00:05:39,00:05:39,bubbles,alchemy,,priority,w4,,Work on FMJ and shakers plus the damage bubbles from the previous video,yes,2
+00:05:39,00:05:39,bubbles|breeding,egg ink,,priority,w4,,New bubble egg ink increases egg incubation time so you get eggs faster (as he said),yes,2
+00:05:39,00:05:39,bubbles,mr massacre,,priority,w4,,Mr Massacre big bubble gives more multikill per tier; essential for pushing,yes,3
+00:05:39,00:06:09,bubbles|cooking,diamond chef,,priority,w4,plate_level=11,Diamond Chef gives faster meal buying and kitchen speed based on your level 11 diamond meal plates,yes,2
+00:05:39,00:06:09,bubbles,multiplier bubbles,,priority,w4,bubble=14,Orange green and purple bubble 14: Severa Purple Prima Green and Multi Orange bubble multipliers stack on previous multipliers,yes,2
+00:06:09,00:06:09,bubbles,chill per kill,,priority,w4,,Kill per kill bubble gives extra kills and helps push portals since it doesn't require multikill,yes,2
+00:06:09,00:06:40,quests,world 4 quests,,mechanic,w4,,World 4 is the quickest world to complete all quests but they are the most important,yes,3
+00:06:09,00:06:40,quests,npcs,,how_to,w4,,Quest NPCs: Gabo for world unlock; Nebula Nettie for task unlocks; Oinkin for three stamps; Capital P for other stamps,yes,3
+00:06:09,00:06:40,breeding|quests,oinkin quest,,warning,w4,,Don't upgrade breeding until you get the second part of the Oinkin quest,yes,3
+00:06:40,00:06:40,stamps,cooked meal|nest egg|ladle,,priority,w4,,Key stamps: cooked meal stamp (cooking percent) nest egg stamp (breeding XP) and ladle stamp (base cooking efficiency),yes,3
+00:06:40,00:06:40,stamps|quests,oinkin quest,,how_to,w4,,Cooked meal nest egg and ladle stamps all come from the Oinkin quest line,yes,2
+00:06:40,00:07:11,stamps,spice|egg,,priority,w4,,Spice stamp gives new recipe speed; egg stamp gives new pet percent chance and can be bought in the World 4 shop,yes,2
+00:06:40,00:07:11,stamps|quests,lab tube|dna,,priority,w4,,Lab tube stamp gives XP and DNA stamp increases DNA gain from splicing; both come from the Capital P quest line,yes,2
+00:06:40,00:07:11,stamps,defense,,priority,w4,,Probably focus on defense from your stamps because it helps tremendously,yes,2
+00:07:11,00:07:11,talent_points,star points,,priority,w4,,Star talent point order: node connection range for lab; egg capacity; mob respawn after Capital P quest; troll gear for late game (as he said),yes,1
+00:07:11,00:07:42,talent_points,spice village,,priority,w4,,Then do spice village if you have free star talent points,yes,1
+00:07:11,00:07:42,talent_points,crystal mob blast,,skip,w4,,Crystal mob blast is low-key useless,yes,2
+00:07:11,00:07:42,gem_shop,world 4,,meta_change,w4,,Gem shop is opinion based so not covered; see his gem shop tier list video,yes,3
+00:07:42,00:07:42,characters,elitist,,priority,w4,,When pushing through World 4 make sure to stop and elitist before you're ready; saves time and headache,yes,2
+00:07:42,00:08:13,armor_smithy,gear,,setup,w4,,Push with void helm void chest void legs void boots caustic scarf tenacity rings and void weapons,yes,2
+00:07:42,00:08:13,armor_smithy,gear,,how_to,w4,,You can exchange void weapons for cheese or gear if you don't need defense percent,no,1
+00:07:42,00:08:13,bubbles,kill per kill|mr massacre,,setup,w4,,While pushing run kill per kill big bubble and Mr Massacre bubble,yes,2
+00:08:13,00:08:13,lab,killer brightside,,setup,w4,,In the lab run killer Brightside for most kills and fastest progression,yes,2
+00:08:13,00:08:13,damage,pushing threshold,,threshold,w4,max_damage=1000000,Don't push unless you have a minimum of 1 million max damage after getting to elitist; not enough to push to the end,yes,3
+00:08:13,00:08:44,damage,pre world 5,,threshold,w4,damage=20000000,Realistic bare minimum is about 20 million damage before World 5,yes,3
+00:08:44,00:08:44,armor_smithy,gear,bubonic_conjuror,target,w4,,Pre World 5 have full troll gear or at least on bubonic conjuror luster gear with diabolical weapons,yes,2
+00:08:44,00:08:44,armor_smithy,gear,,target,w4,,Bare minimum gear: diabolical head chest legs and feet with caustic cheese or scarf,yes,2
+00:08:44,00:09:14,emperor|dungeons,floor shop,,priority,w4,,Spend Emperor opals per day into the floor shop and party dungeons for a big boost starting World 5,yes,2
+00:08:44,00:09:14,characters,troll,,how_to,w4,,Farm stilt seekers to get troll keys then kill the troll to reach the World 5 waiting room,yes,2
+00:09:14,00:09:14,cooking,meals,,target,w4,meal_level=11,Before World 5 make sure all meals are at least level 11,yes,3
+00:09:14,00:09:45,greenstacks|damage|lab,unadulterated banking fury,,target,w4,items=10000000,Green stack 10 million of each unique item in storage to boost damage from the lab node unadulterated banking fury,yes,3
+00:09:14,00:09:45,money|lab,gmush kills,,priority,w4,spores_per_hour=1000000,Work on gmush kills which increase money percent per million green mushroom spores killed (fungi finger pocketeer); see Ganon's video,yes,2
+00:09:45,00:09:45,characters,bubo,bubonic_conjuror,target,w4,crit_chance=200,Get Bubo one-shotting floms and having 200 crit chance for mega crit,yes,2
+00:09:45,00:09:45,bubbles|money,bubo,bubonic_conjuror,mechanic,w4,,Bubo is your alchemy and money farmer,yes,2
+00:09:45,00:09:45,lab|gem_shop,gems,,priority,w4,,Keep unlocking all gems for lab,yes,2
+00:09:45,00:09:45,lab|drop_rate,cookie chip,,priority,w4,respawn_chance=75,Unlock the cookie chip which gives a 75 percent chance to respawn crystal mob after killing one,yes,2
+00:09:45,00:10:16,stamps,pereira circular|jawbreaker,,priority,w4,,Keep working on stamps: circular criticals for free crit chance and jawbreaker for money percent,yes,2
+00:09:45,00:10:16,bubbles,alchemy,,target,w4,bubble_level=80,Level up alchemy bubbles to a minimum of level 80,yes,3
+00:10:16,00:10:16,gaming|characters,grind time,,target,w4,grind_time=1000,Grind time to 1K,yes,2
+00:10:16,00:10:16,characters,levels,,target,w4,level=200-250,Level all characters to 200 to 250,yes,3
+00:10:16,00:10:16,breeding,arena,,target,w4,arena=200,Get arena to 200,yes,2
+00:10:16,00:10:16,general,post office,,target,w4,,Max out your post office,yes,3

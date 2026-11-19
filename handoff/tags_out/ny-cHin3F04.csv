@@ -1,0 +1,53 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,talent_points,build caveat,barbarian,meta_change,any,,Guide is about talent priority order rather than completing his full build; his character is higher level with more points than viewer,yes,3
+00:00:00,00:00:33,talent_points,Gilded Sword,barbarian,priority,early,,First priority in Tab 1 is Gilded Sword (percent boost to all damage); max it out as soon as possible,yes,3
+00:00:33,00:00:33,talent_points,Sharpened Axe,barbarian,priority,early,,Second priority is Sharpened Axe for base Weapon Power increase which is one of the most important stats,yes,3
+00:00:33,00:01:09,talent_points,Idle Brawling,barbarian,target,early,points=50,Put at least 50 points into Idle Brawling before diminishing returns hit massively; spend elsewhere until spare points,yes,3
+00:00:33,00:01:09,talent_points,Idle Brawling,barbarian,mechanic,any,bonus_at_50=10%;bonus_at_100=17%,Idle Brawling gives about 10% at 50 points and only about 17% at 100 points (diminishing returns),yes,3
+00:00:33,00:01:09,talent_points,Meat Shank,barbarian,priority,early,,Next priority is Meat Shank (damage based on Max HP); max it out as early as possible,yes,3
+00:01:09,00:01:09,talent_points,Health Booster,barbarian,priority,early,,After Meat Shank maxing comes Health Booster to benefit more from Meat Shank,yes,3
+00:01:09,00:01:43,talent_points,Fist of Rage,barbarian,priority,early,,Then put some points into Fist of Rage but return to it later due to Tab 3 talents,yes,3
+00:01:09,00:01:43,talent_points,Book of the Wise,barbarian,priority,any,accuracy=100%,Book of the Wise is huge for Accuracy; top priority on character should always be 100% accuracy,yes,3
+00:01:43,00:01:43,characters,accuracy,barbarian,how_to,any,,Check Player Stats to ensure enough accuracy for current monsters and next one or two maps,yes,3
+00:01:43,00:02:14,talent_points,Active Skills,barbarian,mechanic,any,kph_multiplier=2.2x,Hidden multiplier lets Active Skills increase kills per hour offline; need enough points in them to max it,yes,2
+00:02:14,00:02:14,talent_points,Active Skills,barbarian,target,any,points=25,Put 25 points in each of the active skills to max the hidden offline kills multiplier (about 2.2x kills per hour),yes,3
+00:02:14,00:02:14,talent_points,double hit active skill,barbarian,target,any,points=45;chance=50%,Raise one active skill to about 45 points to get at least 50% chance to hit twice,yes,2
+00:02:14,00:02:49,talent_points,Carry A Big Stick,barbarian,priority,early,,First Tab 2 priority is Carry A Big Stick for large damage boost via Weapon Power,yes,3
+00:02:49,00:02:49,talent_points,Strength in Numbers,barbarian,priority,early,,Next priority Strength in Numbers giving large damage from Meat Shank and other Strength sources; as many points as possible,yes,3
+00:02:49,00:02:49,talent_points,Health Overdrive,barbarian,priority,early,,After Strength in Numbers comes Health Overdrive to get more out of Meat Shank,yes,3
+00:02:49,00:03:21,talent_points,Firmly Grasp It,barbarian,target,any,points=1;strength=15,Always have one point in Firmly Grasp It; an active skill giving about 15 Strength for one point,yes,3
+00:03:21,00:03:21,talent_points,Firmly Grasp It|Absolute Unit,barbarian,comparison,any,strength_per_level=1,Each Firmly Grasp It level after the first gives 1 Strength similar to Absolute Unit so they have equal priority,yes,3
+00:03:21,00:03:54,talent_points,Stress Tested Garb,barbarian,priority,mid,,Stress Tested Garb gives large Strength bonus scaling with base Strength from equipment; max it and Absolute Unit,yes,3
+00:03:54,00:03:54,talent_points,Firmly Grasp It,barbarian,priority,mid,,With spare talent points fill up Firmly Grasp It for more Strength,yes,3
+00:03:54,00:04:24,talent_points,Hungry for Gold,barbarian,opinion,any,,Hungry for Gold boosts golden food gains but is marginal and needs many points to be worth it,yes,3
+00:04:24,00:04:24,talent_points,Bear Swipe|Axe Hurl,barbarian,target,any,points=25,Always have at least 25 points in Bear Swipe and Axe Hurl as they affect kills per hour,yes,3
+00:04:24,00:04:24,talent_points,No Pain No Gain,barbarian,priority,early,,First Tab 3 priority is No Pain No Gain the largest boost a Barbarian gets from a single talent,yes,3
+00:04:24,00:04:55,talent_points,Str Summore,barbarian,priority,early,,Next priority Str Summore which allows more points into Fist of Rage on Tab 1; hence saving points,yes,3
+00:04:55,00:05:28,talent_points,Apocalypse Zow,barbarian,mechanic,any,monsters=50;bonus=4%;damage=200%,Apocalypse Zow gives damage per monster with at least 100000 kills; he has 50 such monsters giving 200% damage at 4% bonus,yes,3
+00:05:28,00:05:28,talent_points,Apocalypse Zow,barbarian,target,mid,talent_points=132;bonus_now=5%;bonus_next=6%,Easiest Apocalypse Zow break point is at 132 talent points; two more points raise 5% to 6%; stop at break points,yes,3
+00:05:28,00:05:58,talent_points|library|class_choice,Apocalypse Zow,blood_berserker,target,late,talent_points=165,Next break point at 165 points needs maxed Talent Library and Blood Berserker class unlocked to get extra talent points,yes,3
+00:05:58,00:06:30,talent_points,Back To The Basics,barbarian,priority,early,points=25,Next priority Back To The Basics if you need more points in Tab 2 to raise active skills; add 25 points,yes,3
+00:05:58,00:06:30,talent_points|death_note,Monster Decimator,barbarian,priority,mid,,Then choose between Multi-Kill for portals or Death Note increase; his priority lately is Death Note via Monster Decimator,yes,2
+00:06:30,00:07:01,talent_points|statues,Strongest Statues|Fistful of Obols,barbarian,opinion,mid,,Strongest Statues and Fistful of Obols give slight damage increase depending on quality of obols and statues; leftovers go there,yes,2
+00:07:01,00:07:01,talent_points,Critikill,barbarian,opinion,late,,With enough overall points level Critikill in Tab 1 for extra crit damage based on points invested,yes,3
+00:07:01,00:07:34,talent_points,Fist of Rage,barbarian,target,mid,points=127,After adding Str Summore points, add another 127 points into Fist of Rage for more Strength,yes,2
+00:07:34,00:07:34,talent_points,Book of the Wise,barbarian,priority,mid,,Then max Book of the Wise for more accuracy and take movement speed talent,yes,3
+00:07:34,00:07:34,talent_points|drop_rate,Lucky Clover,barbarian,priority,late,,Leftover points go into Lucky Clover for extra drop rate,yes,3
+00:07:34,00:08:04,talent_points,Will of the Eldest|Beginner Best Class,,priority,early,,First star talents to add points to are Will of the Eldest and Beginner Best Class as fast as you can,yes,3
+00:08:04,00:08:04,talent_points,Will of the Eldest|Beginner Best Class,,target,mid,points=20;highest_class_level=200,About 20 points into each when highest classes are just under level 200; fewer points if characters are lower level,yes,3
+00:08:04,00:08:35,talent_points,Tick Tock,,priority,mid,,Next big star priority is Tick Tock for large AFK gain rate bonus,yes,3
+00:08:35,00:08:35,talent_points,Attacks on Simmer|Goblet of Hemoglobin,,priority,mid,,Next are Attacks on Simmer for more AFK kills and Goblet of Hemoglobin for survivability,yes,3
+00:08:35,00:09:10,talent_points|dungeons,Dungeonic Damage,,priority,mid,,Dungeonic Damage gives damage based on dungeon credits earned; more dungeon runs make it stronger,yes,3
+00:09:10,00:09:10,talent_points|cooking,Frothy Malk,,priority,mid,,Next priority Frothy Malk for more bonuses from foods,yes,3
+00:09:10,00:09:10,talent_points|storage,Telekinetic Storage,,priority,mid,,Then Telekinetic Storage to increase carry capacity,yes,3
+00:09:10,00:09:10,talent_points|printer|worship,Printer Sampling|Shrine Architect,,target,mid,points=1,At least one point in Printer Sampling and Shrine Architect so you can place shrines; everything after is optional,yes,2
+00:09:10,00:09:43,talent_points,Crit Overkill,,opinion,late,,Crit Overkill gives more crit chance and crit damage; he is close to unlocking it; take if unlocked with spare points,yes,3
+00:09:43,00:09:43,talent_points|class_exp,Just EXP,,opinion,any,,Just EXP gives more class XP while leveling,yes,3
+00:09:43,00:10:13,talent_points|quests,Quest Chungus,,target,mid,quests=150,Quest Chungus gives luck per completed quest; he completed about 150 so puts points until it exceeds quests completed,yes,3
+00:09:43,00:10:13,quests,quest log,,how_to,any,,Check completed quests in Codex then Quest Log and scroll down,yes,3
+00:10:13,00:10:13,talent_points,Pulsation,,opinion,any,,Pulsation helps mana regeneration if actively playing,yes,3
+00:10:13,00:10:13,talent_points|cards,Cardiovascular!,,opinion,any,,Cardiovascular! gives more cards,yes,2
+00:10:13,00:10:44,talent_points,attack bar,,warning,any,,Make sure you assign attacks you put points into; it increases gains overall,yes,3
+00:10:44,00:10:44,talent_points,attack bar,,how_to,any,,Have each ability assigned to the Attack Bar so they are used while offline,yes,3
+00:10:44,00:11:14,characters,gear stat priority,barbarian,priority,any,,When leveling gear prioritize Weapon Damage first then enough Accuracy then Strength to keep increasing damage,yes,3
+00:10:44,00:11:14,characters,gear stat priority,barbarian,priority,any,,Movement Speed and Crit Chance are nice only if excess; otherwise lower priority,yes,3

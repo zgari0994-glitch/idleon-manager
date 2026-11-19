@@ -1,0 +1,208 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,talent_points,super talent,,opinion,any,,Super talent choice is mostly personal preference and testing; some super talents are flat out not worth it,yes,3
+00:00:00,00:01:02,talent_points,global talents,,meta_change,any,patches_ago=2,Global/account-wide talents used to be bugged and did not work with super talents; fixed about two patches ago,yes,3
+00:00:31,00:00:31,talent_points|printer|gaming,king of the remembered,,mechanic,any,,King of the Remembered and Bitty Litty (bit gain from gaming level) did not work when supered before the fix,yes,2
+00:01:33,00:01:33,talent_points,hp,warrior,skip,any,,Never super HP; not worth specifically pumping HP even with talents like meat shank,yes,3
+00:01:33,00:01:33,talent_points,mp,warrior,skip,any,,Never super MP; not worth it despite wizard talents that use it,yes,3
+00:01:33,00:02:03,talent_points,star talents,warrior,skip,any,,Should never be in a situation where you need super on these star talents,yes,2
+00:02:03,00:02:03,talent_points,defense,warrior,skip,any,,Defense useless unless pushing the leaderboard,yes,3
+00:02:03,00:02:33,talent_points,sharpened axe,warrior,warning,any,base_weapon_damage=262,Sharpened axe is a bait; base weapon damage does not get multiplied; supering it wastes the super,yes,3
+00:03:04,00:03:04,talent_points,fist of rage,warrior,target,any,,Fist of rage (base strength) is good if you have spare points and are strength maxing,yes,3
+00:03:34,00:03:34,talent_points,quickness boots|wisdom|luck,warrior,skip,any,,Quickness boots and wisdom and luck are not worth caring about,yes,2
+00:03:34,00:04:04,talent_points,gilded sword,warrior,skip,any,damage_gain=10 trillion,Gilded sword not horrendous but not worth it; super gives about 10 trillion damage,yes,2
+00:04:04,00:04:04,talent_points,brute efficiency,warrior,priority,any,,Brute efficiency gives a lot of total efficiency; super it for skilling setups,yes,3
+00:04:04,00:04:34,talent_points,meat shank,warrior,comparison,any,,Meat shank super gave tiny difference due to diminishing returns; only for squeezing extra damage,yes,3
+00:04:34,00:04:34,talent_points,critical kill,warrior,skip,any,,Critical kill has diminishing returns that gut it; not worth,yes,2
+00:04:34,00:05:04,talent_points,idle brawling|idle skilling,warrior,skip,any,,Idle brawling and idle skilling have huge diminishing returns; bottom of the tier,yes,3
+00:05:04,00:05:04,talent_points,power strike,warrior,skip,any,,Power strike and low-level talents on page 2 are not worth a super even though hotbar equip raises AFK gains,yes,3
+00:05:04,00:05:35,talent_points,health overdrive,warrior,comparison,any,,Health overdrive is better than page-one HP if you want HP but still not worth,yes,3
+00:05:35,00:05:35,talent_points,double strike,warrior,skip,early,accuracy_target=100,Double strike has huge diminishing returns; maybe okay early if trying to reach 100% but not recommended,yes,3
+00:05:35,00:05:35,talent_points,firmly grasp,warrior,skip,any,,Firmly grasp gives extra base strength; good but not worth a super,yes,3
+00:05:35,00:06:06,talent_points,strength in numbers,warrior,target,any,,Strength in numbers gives a big amount of extra strength and exp; good to super,yes,3
+00:06:06,00:06:39,talent_points,stress tested garb,warrior,priority,any,strength_gain=23 million,Stress tested garb maybe the best single super; huge damage and strength; S tier,yes,3
+00:06:39,00:06:39,talent_points,stress tested garb|strength in numbers,warrior,comparison,any,,All three of these talents are top five to top ten supers,yes,2
+00:06:39,00:06:39,talent_points,carry a big stick,warrior,priority,any,damage_multiplier=5,Carry a big stick roughly 5x my damage; fully worth a super,yes,3
+00:06:39,00:07:10,talent_points|cooking,absolute unit,warrior,target,any,,Absolute unit is good if you have extra points; gold food bonus sources like hungry for food are decent,yes,3
+00:07:10,00:07:42,talent_points,big pick,warrior,priority,any,,Big pick on hotbar is forgotten for mining prints; must super on skilling setup for copper prints,yes,3
+00:07:42,00:07:42,talent_points,copper collector|mother load|tool proficiency,warrior,target,any,,Copper collector decent and mother load similar; tool proficiency weakest but still worth on skilling setup,yes,3
+00:07:42,00:08:13,talent_points,tempest emotions,warrior,opinion,any,,Tempest emotions scales not great but could be okay on skilling setup; prioritize this row left to right,yes,2
+00:08:13,00:08:13,talent_points,shockwave slash,squire,priority,any,,Shockwave slash is great; cornerstone for Squire DK and RG even with diminishing returns,yes,3
+00:08:13,00:08:43,talent_points,daggerang,squire,target,any,,Daggerang is good with no negative effects on your account unlike mongarang,yes,3
+00:08:43,00:08:43,talent_points,bricky skin,squire,skip,any,,Bricky skin is useless,yes,3
+00:08:43,00:08:43,talent_points,mastery,squire,skip,any,,Mastery okay but not enough to super,yes,3
+00:08:43,00:09:14,talent_points,accuracy|defense,squire,skip,early,,Accuracy and defense only niche super early; scaled off long ago by the time you have supers,yes,3
+00:09:14,00:09:44,talent_points|refinery,precision power,squire,comparison,any,extra_damage=205000,Precision power is okay for minmax with a huge refinery; not high on the tier list,yes,3
+00:09:44,00:09:44,talent_points,opals,squire,skip,any,,Opals talent is bad,yes,3
+00:09:44,00:10:14,talent_points|statues,statue talent,squire,comparison,any,statue_level_range=300-600,Statue talent has heavy diminishing returns; not worth once pushing statues to 300-600 but maybe earlier,yes,2
+00:10:14,00:10:14,talent_points,family guy,squire,comparison,any,,Family guy is strong but has diminishing returns and better options exist,yes,3
+00:10:14,00:10:44,talent_points|gaming,undying passion,squire,skip,any,,Undying passion and other gaming talents have diminishing returns; not strong supers; only for turbo minimax of bits,yes,3
+00:10:44,00:10:44,talent_points|printer,king of the remembered,squire,skip,any,,King of the Remembered now affects the whole account and printer is good but not worth a super,yes,3
+00:10:44,00:11:14,talent_points,symbols of the beyond,squire,mechanic,any,,Symbols of the Beyond cannot be supered; would be insane if it could,yes,2
+00:11:14,00:11:44,talent_points|royal_armory,castle convine|royal armory,royal_guardian,target,any,,Castle convine and Royal Armory worth a super on your second RG,yes,2
+00:11:14,00:11:44,talent_points|royal_armory,second royal guardian,royal_guardian,mechanic,any,,Second RG uses your highest level between master classes; can buff marble chance and collection rate or clear chance,yes,3
+00:11:44,00:12:15,talent_points,guardian disciple,royal_guardian,priority,any,breakpoint=208,Guardian disciple likely strongest on page; first breakpoint around 208 gives 100% uptime; further gives multiple disciples,yes,2
+00:12:15,00:12:15,talent_points,guardian disciple,royal_guardian,mechanic,any,,Guardian disciples respawn regal mobs that go into your orb for a bigger orb,yes,3
+00:12:15,00:12:47,talent_points,regal intervention,royal_guardian,target,any,points_needed=1,Regal intervention is good to super because one point gives most of the extra percentage,yes,3
+00:12:47,00:12:47,talent_points,orb of verilitude,royal_guardian,priority,any,,Orb of verilitude 100% worth a super and extra points; probably top five,yes,2
+00:12:47,00:12:47,talent_points,industrial politics,royal_guardian,target,any,,Industrial politics boosts collection rate and is nearly a true multiplier; good on second RG,yes,3
+00:12:47,00:13:18,talent_points,warbound politics,royal_guardian,target,any,,Warbound politics strongly boosts militia and outpost clearing; worth a super on primary or secondary RG,yes,3
+00:13:18,00:13:18,talent_points,marble,royal_guardian,target,any,,Marble talent is 100% worth a super,yes,3
+00:13:18,00:13:48,talent_points,built different,royal_guardian,target,any,points_needed=1,Built different is cool to super with a single point for a huge amount of base strength,yes,3
+00:13:48,00:13:48,talent_points,orb blitz|guardian disciple|regal intervention,royal_guardian,priority,any,,Max guardian disciple then orb then orb blitz then intervention; orb blitz fantastic and top four,yes,2
+00:13:48,00:14:18,talent_points|spelunking|cooking,amber horde,royal_guardian,setup,any,,Amber horde is fantastic paired with meal watermelon for spelunking; buy stuff on rotation then swap off,yes,2
+00:14:18,00:14:18,talent_points|spelunking,spelunking specialty,royal_guardian,opinion,any,,Spelunking specialty stamina part terrible but spelunking exp could be good especially on a skilling week,yes,3
+00:14:18,00:14:48,talent_points,pit of pages,royal_guardian,priority,any,multiplier=5-6x,Pit of pages is a 5-6x true multi; currently bugged to only affect RG but 100% worth a super on scaling setup,yes,3
+00:14:48,00:14:48,talent_points,grand vain,royal_guardian,target,any,,Grand vein gives powerful multi to GD chance; absolutely worth a super if struggling,yes,2
+00:14:48,00:15:19,talent_points,graded rate,royal_guardian,target,late,,Graded rate will be worth a super further down the line,yes,2
+00:15:19,00:15:19,talent_points|royal_armory,amber horde,royal_guardian,mechanic,any,,Amber horde gets better with more royal statues; RG line is good for supers and great for skilling,yes,2
+00:15:19,00:15:49,talent_points|royal_armory,statue flare,royal_guardian,how_to,any,,A later shelf upgrade (statue flare? after global decree near command rank) unlocks supering royal guardian talents,yes,2
+00:16:20,00:16:20,talent_points,brute efficiency,warrior,priority,any,,Brute efficiency is very good; I have it supered on my skilling setup,yes,3
+00:16:20,00:16:50,talent_points,bear swipe,barbarian,opinion,any,,Bear swipe could be a super since few things matter on this class; useful for hotbar gains,yes,2
+00:16:50,00:16:50,talent_points,axe hole?,barbarian,comparison,any,,Prefer axe hole? over bear swipe especially for DPS form on a DPS setup,yes,2
+00:16:50,00:17:20,talent_points,mocking shout|no pain no gain,barbarian,skip,any,,Mocking shout already does its niche job without a super; no pain no gain reduces max HP so no,yes,3
+00:17:20,00:17:20,talent_points,monster decimator,barbarian,target,any,,Monster decimator is good to super on both active and AFK setups,yes,3
+00:17:20,00:17:52,talent_points,apocalypse zow,barbarian,opinion,any,,Apocalypse Zow is decent damage; maybe bucket; not priority but not bad,yes,2
+00:17:20,00:17:52,talent_points,oval?,barbarian,skip,any,,Oval? talent is not terrible but bad; whatever,yes,1
+00:17:52,00:18:22,talent_points|statues,stronger statues,barbarian,skip,any,,Stronger statues has same notes as previous statue talent,yes,2
+00:17:52,00:18:22,talent_points,beefy bottles,barbarian,comparison,any,,Beefy bottles increases critical and is just fine; apocalypse is better but I would not go for either,yes,2
+00:18:22,00:18:22,talent_points,fishing talents?,barbarian,target,any,,For fishing purposes all four of these probably want a super on a super setup,yes,1
+00:18:22,00:18:22,talent_points,back to basics,barbarian,skip,any,,Back to basics: no do not super,yes,3
+00:18:22,00:18:53,talent_points,fired up,blood_berserker,skip,any,,Fired up is fine at base and does not need a super,yes,3
+00:18:22,00:18:53,talent_points,combustion,blood_berserker,priority,any,,Combustion is crazy; best seen so far; nukes the whole map; 100% worth it,yes,3
+00:18:53,00:18:53,talent_points,sore to swipe?,blood_berserker,skip,any,,Never found it useful; maybe if spare but not worth it,yes,2
+00:18:53,00:18:53,talent_points,ember bear,blood_berserker,opinion,any,,Ember bear is great extra damage but not a high priority unless you need damage,yes,3
+00:18:53,00:19:24,talent_points,ferocity strike,blood_berserker,opinion,any,accuracy_target=100,Ferocity strike maybe okay; closer to 100% the better,yes,2
+00:19:24,00:19:56,talent_points,tough stakes,blood_berserker,comparison,any,cooking_level=222;cold_seekers=256000,Tough stakes gives weapon power; not worth it versus cold seekers at 256000 even at cooking level 222,yes,2
+00:19:24,00:19:56,talent_points,charge skulls,blood_berserker,target,any,,Charge skulls is high tier like monster decimator; use on active AFK or AFK setup,yes,2
+00:19:56,00:19:56,talent_points,skill strengthen|overblown testosterone,blood_berserker,target,any,,Skill strengthen and overblown testosterone both good; skill strengthen is a mainstay of a skilling build,yes,3
+00:19:56,00:20:28,talent_points|cooking,taste test,blood_berserker,opinion,any,,Taste test could be okay if still pushing meals,yes,3
+00:19:56,00:20:28,talent_points,apocalypse,blood_berserker,target,any,,Apocalypse (zow) pretty good; worth it on the skilling setup,yes,2
+00:20:28,00:20:28,talent_points,waiting to cool,blood_berserker,skip,any,,Waiting to cool is okay but heavy diminishing returns; low tier,yes,3
+00:20:28,00:20:28,talent_points|cooking,overflowing ladle,blood_berserker,priority,any,,Overflowing ladle is basically a must on a skilling setup for cooking,yes,3
+00:20:28,00:20:59,talent_points,symbols of the beyond,blood_berserker,mechanic,any,,Cannot super Symbols of the Beyond,yes,2
+00:20:28,00:21:30,talent_points,wraith form,death_bringer,target,any,,Everything on death bringer final page is good; ray form especially gives straight damage,yes,2
+00:20:59,00:20:59,talent_points,grimoire,death_bringer,target,any,,Grimoire is a straight flat boost of bones; fantastic,yes,3
+00:20:59,00:20:59,talent_points,sentinel axes,death_bringer,target,any,,Sentinel axes is how the class does its damage; great,yes,3
+00:20:59,00:20:59,talent_points,graveyard shift,death_bringer,priority,any,,Graveyard shift is bones and multi; maybe the most important on the page,yes,3
+00:20:59,00:20:59,talent_points,destination,death_bringer,target,any,,Destination boosts combustion which is already strong; good,yes,2
+00:20:59,00:21:30,talent_points,marauder strike,death_bringer,target,any,,Marauder strike is extra damage plus accuracy; good,yes,2
+00:21:30,00:21:30,talent_points,famine of fish,death_bringer,target,any,,Famine of fish gives crit chance and crit damage; both strong on this class,yes,3
+00:21:30,00:22:02,talent_points,ribbon winning,death_bringer,target,any,,Ribbon winning might be worth a super on your second DB on a passive setup,yes,2
+00:21:30,00:22:02,talent_points|farming,mass irrigation,death_bringer,target,any,,Bottom row now works; mass irrigation pretty good as we need a ton of crop before metal chance,yes,2
+00:22:02,00:22:02,talent_points|farming,agricultural appreciation,death_bringer,target,any,,Agricultural appreciation gives farming XP and land rank XP; land rank part most important and scales linearly; good,yes,2
+00:22:02,00:22:34,talent_points|farming,dank ranks,death_bringer,target,any,,Land rank database gives a higher multiplier and is really good; 100% on second DB,yes,2
+00:22:34,00:22:34,talent_points,rafe overload,death_bringer,target,any,,Damage multi for all characters per 10 bones ever collected; multiplicative; good on second DB for account-wide effect,yes,2
+00:22:34,00:23:05,talent_points,apocalypse owl,death_bringer,priority,any,,Apocalypse Owl is straight gold food effect; keep on at all times; only about three really big gold food sources,yes,3
+00:23:05,00:23:35,talent_points,hp|mp|defense,elemental_sorcerer,skip,any,,Notes on health booster and MP are the same as before; not worth it,yes,3
+00:23:35,00:24:05,talent_points,brute efficiency,elemental_sorcerer,target,any,,Bottom left efficiency talent is always good for all classes,yes,3
+00:24:05,00:24:05,talent_points,damage talents,elemental_sorcerer,account_note,any,,Highest DPS comes from arcane cultist not elemental sorcerer; ES damage supers niche for pure damage or Emperor push,yes,3
+00:24:05,00:24:37,talent_points,faright|idle casting|energy bolt|mini fireball,elemental_sorcerer,skip,any,,Faright is terrible; idle casting and active AFK no; energy bolt and mini fireball not worth,yes,2
+00:24:37,00:24:37,talent_points,mana overdrive,elemental_sorcerer,opinion,any,,Mana overdrive could be worth it on a DPS setup with overclocked energy,yes,2
+00:24:37,00:25:07,talent_points,teleport,elemental_sorcerer,skip,any,range=260,Teleport no; for boss farming want it around 260 range so raising it hurts,yes,3
+00:24:37,00:25:07,talent_points,your next?,elemental_sorcerer,opinion,any,,Really good talent with a lot of extra damage; weird situations might want it,yes,1
+00:25:07,00:25:38,talent_points,untwisted robes|power overwhelming|knowledge's power,elemental_sorcerer,priority,any,,Untwisted robes is by far the best here; power overwhelming is quantum surge to damage; knowledge's power good; all three yes,yes,3
+00:25:38,00:25:38,talent_points,free meal|individual insights,elemental_sorcerer,opinion,any,,Free meal bad; individual insights is extra wisdom so great if spare,yes,3
+00:25:38,00:26:09,talent_points,logs on logs,elemental_sorcerer,priority,any,,Logs on logs insane for log prints; mandatory on skilling setup though copper scales better later,yes,3
+00:26:09,00:26:09,talent_points,leaf thief|deforesting all doubt,elemental_sorcerer,target,any,,Leaf thief good; deforesting all doubt scales with wisdom and is good,yes,3
+00:26:09,00:26:41,talent_points,specialized skills exp|chopping it up,elemental_sorcerer,opinion,any,,Exp gain for specialized skills okay but not best; chopping it up low tier bad,yes,2
+00:26:41,00:27:12,talent_points,ice shards|floor of lava|tornado,wizard,opinion,any,,These give extra damage; niche reason only; could be okay,yes,2
+00:27:12,00:27:12,talent_points,speedy buck,wizard,opinion,any,,Speedy buck increases attack rate; unsure; not rated highly since cooking already gives lots of attack speed,yes,2
+00:27:12,00:27:42,talent_points,mana is life,wizard,skip,any,,Mana is life is okay but no need to super,yes,3
+00:27:12,00:27:42,talent_points|stamps,stamp damage talent,wizard,skip,any,,Damage based on stamps does not scale hard; no,yes,3
+00:27:12,00:27:42,talent_points,overclocked energy,wizard,skip,any,,Overclocked energy okay but I say no,yes,2
+00:27:42,00:27:42,talent_points,charge siphon,wizard,opinion,any,,Charge siphon could be good for a scaling setup,yes,3
+00:27:42,00:27:42,talent_points,souls,wizard,target,any,,Souls similar story exp; pretty good; early education bad,yes,2
+00:27:42,00:28:12,talent_points,meteor shower|lightning barrage|radiant chamber,elemental_sorcerer,comparison,any,,Meteor shower lightning barrage radiant chamber are fantastic but not the main targets on this page,yes,2
+00:28:12,00:28:12,talent_points,dimensional wormhole,elemental_sorcerer,priority,any,,Dimensional wormhole gives extra time exp and drop; maybe number one on this page,yes,3
+00:28:12,00:28:43,talent_points,chaotic force,elemental_sorcerer,target,any,,Chaotic force is good; powerful enough despite diminishing returns to be worth it,yes,3
+00:28:43,00:28:43,talent_points|divinity,believer strength,elemental_sorcerer,opinion,any,divinity_levels=10,Believer strength gives weapon power per 10 divinity levels; okay,yes,3
+00:28:43,00:28:43,talent_points,memorial skulls,elemental_sorcerer,target,any,,Memorial skulls gives kill per kill per wisdom; quite powerful with current wisdom; not the main kill character but fine,yes,2
+00:28:43,00:29:14,talent_points,skill whiz,elemental_sorcerer,target,any,,Skill whiz gives extra wisdom and helps skilling setup; good,yes,3
+00:28:43,00:29:14,talent_points,family guy,elemental_sorcerer,priority,any,level=801,Family guy is most important here since it gives extra levels; why my ES is 801,yes,3
+00:29:14,00:29:44,talent_points|divinity,polytheism,elemental_sorcerer,target,any,,Polytheism? gives divinity points and another gives divinity exp; both good; left better than right,yes,2
+00:29:44,00:29:44,talent_points|divinity,god's chosen children,elemental_sorcerer,opinion,any,,God's chosen children gives extra damage per god rank; just okay,yes,3
+00:29:44,00:30:14,talent_points,wormhole damage,elemental_sorcerer,target,any,,Damage per power of wormhole kills applies to all characters as a multi; good but not top of list,yes,3
+00:30:14,00:30:14,talent_points,symbols of the beyond,elemental_sorcerer,mechanic,any,,Cannot do Symbols of the Beyond,yes,2
+00:30:14,00:30:45,talent_points,crazy concoctions,shaman,target,any,,Crazy concoctions mainly for DPS checking on W2 dummy or Emperor or arcane cultist pushing; good for those,yes,3
+00:30:45,00:31:15,talent_points,apicious aura?,shaman,target,any,,Aura talent was nerfed but still really good; worth a super personally,yes,2
+00:31:15,00:31:15,talent_points,sizzling skull,shaman,priority,any,,Sizzling skull is the cornerstone of shaman bubonic and arcane cultist; 100% super,yes,3
+00:31:15,00:31:45,talent_points,tentacle,shaman,warning,any,cap_seconds=4,Tentacle got shadow nerfed and caps at 4 seconds; only super if you are under 4 seconds,yes,2
+00:31:45,00:31:45,talent_points,instant invincibility,shaman,skip,any,,Instant invincibility is useless,yes,3
+00:31:45,00:31:45,talent_points,verile vials,shaman,skip,any,,Verile vials extra damage does not scale hard; no from me,yes,2
+00:31:45,00:32:15,talent_points,opals|statues|wisdom|flasks,shaman,skip,any,,Opals statues wisdom flasks: nope not worth,yes,2
+00:32:15,00:32:45,talent_points|cauldrons_liquids,cranium cooking,shaman,priority,any,seconds_per_kill=35;duration_seconds=400,Cranium cooking gives 35 seconds instant alchemy progress per kill for 400 seconds; scales forever; a mainstay; super this and the next,yes,3
+00:32:45,00:32:45,talent_points|bubbles,busy brewing,shaman,opinion,any,,Busy brewing boosts brew speed; only maybe good if behind in alchemy,yes,3
+00:32:45,00:33:17,talent_points|bubbles,alchemy exp,shaman,target,any,,Alchemy exp talent good since few sources and also gives new bubble odds,yes,3
+00:32:45,00:33:17,talent_points|cauldrons_liquids,same cauldron talent,shaman,target,any,,Talent giving alchemy exp to all characters in same cauldron is pretty good,yes,2
+00:33:17,00:33:17,talent_points,early education,shaman,skip,any,,Early education no,yes,3
+00:33:17,00:33:48,talent_points,chemical warfare,bubonic_conjuror,target,any,,Chemical warfare affects all poisons and scales hard; good for aura plus cloud; hard A tier,yes,3
+00:33:48,00:33:48,talent_points,cloud,bubonic_conjuror,target,any,,Cloud talent is good as many situations use it,yes,3
+00:33:48,00:34:19,talent_points,tempers injection|plague stricken,bubonic_conjuror,skip,any,,Tempers injection useless; plague stricken basic okay whatever,yes,3
+00:33:48,00:34:19,talent_points,ray's dead?,bubonic_conjuror,opinion,any,,Good if not hitting the entire map; stops mattering once you scale; maybe,yes,2
+00:33:48,00:34:19,talent_points,w in power,bubonic_conjuror,skip,any,,Does not scale super hard; no,yes,1
+00:34:19,00:34:19,talent_points,memorial skulls,bubonic_conjuror,target,any,,Memorial skulls good when you need extra kill per kill and active bubonic/arcane cultist,yes,3
+00:34:19,00:34:50,talent_points,skill whiz|utmost intellect|family guy,bubonic_conjuror,target,any,,Skill whiz and utmost intellect solid; family guy okay,yes,2
+00:34:19,00:34:50,talent_points|lab,purple tube,bubonic_conjuror,opinion,any,,Purple tube is line width; only if struggling; quickly stop needing it,yes,3
+00:34:50,00:34:50,talent_points|lab,green tube,bubonic_conjuror,target,any,,Green tube lab exp gets a tick from me,yes,3
+00:34:50,00:35:20,talent_points|lab,lab exp sharing,bubonic_conjuror,priority,any,,Lab exp earned shared with lowest lab member is basically essential on skilling setup; they still get exp and efficiency,yes,3
+00:35:20,00:35:20,talent_points,damage|tachyons,arcane_cultist,priority,any,,Damage and tachyon talents are very important and how the class functions,yes,3
+00:35:20,00:35:50,talent_points,overwhelming energy,arcane_cultist,opinion,any,threshold=1.6,Overwhelming energy just okay since few reach 1.6; need some points but not stupid amounts,yes,2
+00:35:50,00:36:22,talent_points,ghastly power,arcane_cultist,target,any,,Ghastly power gives damage and attack speed per 100 total test rank levels; very good,yes,2
+00:35:50,00:36:22,talent_points,arcane accuracy|defense,arcane_cultist,opinion,any,,Accuracy and defense are situational but decent,yes,3
+00:35:50,00:36:22,talent_points,labottomizer,arcane_cultist,target,any,,Labottomizer is critical hit chance; very good,yes,2
+00:36:22,00:36:22,talent_points|bubbles,whiz,arcane_cultist,opinion,any,,Whiz is niche for farming Prisma bubbles; does its niche well,yes,2
+00:36:22,00:36:52,talent_points|summoning|bubbles,skilling row,arcane_cultist,target,any,,On skilling setup or second AC all four are good: summoning upgrades cheaper exp doublers and no bubble left behind,yes,2
+00:36:52,00:36:52,talent_points,priority order,arcane_cultist,priority,any,,Priority left to right for these four,yes,2
+00:36:52,00:37:22,talent_points,backup energy,arcane_cultist,priority,any,,Backup energy is as important as the crystal; extra tachyon gain and fewer kills to charge; effectively essential for pushing,yes,3
+00:36:52,00:37:22,talent_points,final page,arcane_cultist,priority,any,,S tier is top row then backup energy then middle row two; lion share of supers goes to final page,yes,3
+00:37:22,00:37:54,talent_points,featherweight,siege_breaker,skip,any,,Featherweight scales terribly; movement speed nice but no super,yes,3
+00:37:22,00:37:54,talent_points,elusive efficiency,siege_breaker,target,any,,Elusive efficiency same notes as previous classes; great,yes,3
+00:37:54,00:37:54,talent_points,crit chance,siege_breaker,skip,any,crit_chance=500000,Crit chance talent useless; I have half a million percent crit chance which is low,yes,3
+00:37:54,00:38:25,talent_points,piercing arrow|kung fu kick|overdrive,siege_breaker,skip,any,,Piercing arrow and kung fu kick okay; overdrive max HP/MP; big no to all three,yes,3
+00:37:54,00:38:25,talent_points,movement speed,siege_breaker,skip,any,,Do not need extra movement speed,yes,2
+00:38:25,00:38:25,talent_points,monster drop rate,siege_breaker,skip,any,,Monster drop rate talent is so little drop rate it is not worth super,yes,3
+00:38:25,00:38:56,talent_points|forge,smelting every day,siege_breaker,target,any,,Smelting every day gives forge progress per kill; meta for forge in general; yes,yes,3
+00:38:56,00:39:27,talent_points|anvil,anvil points,siege_breaker,opinion,any,cap=70;points=1000000,Anvil point talent caps at 70%; could be worth a super if not already over a million points,yes,2
+00:38:56,00:39:27,talent_points,godly creation,siege_breaker,opinion,any,,Godly creation is a random bit of stat; shrug of a tick while crafting,yes,3
+00:39:27,00:39:27,talent_points,focus soul,siege_breaker,opinion,any,,Focus soul is just extra exp,yes,3
+00:39:27,00:39:58,talent_points,homing arrows|magic short bow|flax insta string,siege_breaker,target,any,,These are strong talents; worth it if nowhere else to put supers,yes,3
+00:39:58,00:40:28,talent_points,extendo range,siege_breaker,how_to,any,,Extendo range lets you punch from range as sword wave; niche tech for the fastest daily boss runs,yes,3
+00:40:28,00:40:28,talent_points,talent cooldowns,siege_breaker,skip,any,,All talent cooldowns cheaper talent: no,yes,2
+00:40:28,00:40:58,talent_points,speed na?,siege_breaker,opinion,any,,Does not scale well; extra damage only if needed; otherwise no,yes,2
+00:40:58,00:40:58,talent_points,featherweight,bowman,skip,any,,Archer or bust and featherweight is awful; hard no,yes,3
+00:40:58,00:40:58,talent_points,catching efficiency,bowman,target,any,,Extra efficiency for catching on skilling setup: hit all of these,yes,3
+00:40:58,00:41:28,talent_points,cannonball|suppressing fire|fire bomb|pirate flag,siege_breaker,target,any,,Cannonball suppressing fire fire bomb great; pirate flag is how this works; yes great,yes,3
+00:41:28,00:41:28,talent_points,duration talent,siege_breaker,target,any,,Pundi? deceased also great; increases duration; good,yes,2
+00:41:28,00:41:28,talent_points,weapon power|stat scores|family guy,siege_breaker,opinion,any,,Weapon power does not scale well; stat scores decent; family guy okay,yes,3
+00:41:28,00:41:58,talent_points,unending loot search,siege_breaker,target,any,,Unending loot search was once run at zero but now I say yes,yes,3
+00:41:28,00:41:58,talent_points|sailing,expertly sale,siege_breaker,target,any,,Expertly sale gives straight sailing XP; good; global talents work now,yes,3
+00:41:58,00:41:58,talent_points|sailing,captain pep talk,siege_breaker,target,any,,Captain Pep talk gives all captains more XP from adventures; yes good,yes,3
+00:41:58,00:42:28,talent_points|drop_rate,multiplicative drop rate talent,siege_breaker,priority,any,,Multiplicative drop rate talent maybe most important on page since class barely actives; make sure it is supered,yes,3
+00:42:28,00:42:59,talent_points,360 nocope|bear trap,wind_walker,opinion,any,,360 nocope okay and bear trap okay,yes,2
+00:42:28,00:42:59,talent_points,ora,wind_walker,target,any,,Aura/Ora is solid majority of how class works; reduces respawn for talent duration; worth a super,yes,2
+00:42:59,00:42:59,talent_points|summoning,stop right there,wind_walker,target,any,,Stop right there best use is summoning; stalls summoning mobs to get further; super for summoning,yes,3
+00:42:59,00:42:59,talent_points,lutty mcshooty,wind_walker,opinion,any,,Extra damage that does not scale well; just okay,yes,3
+00:42:59,00:43:29,talent_points,eagle eye|invasive species|ser bait|eyesight,wind_walker,target,any,,Eagle eye and the other three are great on a skilling setup,yes,3
+00:43:29,00:43:29,talent_points,ballista|b rush|wallop,wind_walker,priority,any,,Beast master ballista fantastic; b rush very good; wallop strongest attack talent; 100% good,yes,3
+00:43:29,00:44:01,talent_points,natural party|animalistic ferocity,wind_walker,opinion,any,,Natural party good; animalistic ferocity does not scale well; I say no,yes,2
+00:44:01,00:44:01,talent_points,stat scores|family guy,wind_walker,opinion,any,,Stat scores okay; two others solid with spare points; family guy all right,yes,2
+00:44:01,00:44:32,talent_points|breeding,arena spirit,wind_walker,opinion,any,,Arena spirit yes if need mob damage for arena or pet territories; on skilling setup all four yes,yes,3
+00:44:01,00:44:32,talent_points|breeding,eggs talent,wind_walker,opinion,any,,Eggs talent not worth since you get many eggs from world 4 mini boss; maybe on skilling setup,yes,2
+00:44:32,00:45:03,talent_points|breeding,breeding exp,wind_walker,target,any,,Breeding exp talent valuable as few sources; mob claiming talent is true multi; important on skilling or active setup,yes,2
+00:45:03,00:45:33,talent_points,wind walker final page,wind_walker,target,any,,Final page all pretty good: damage dust ballista overdrive master class talent and spirit reindeer maybe most important,yes,2
+00:45:03,00:45:33,talent_points,commandments,wind_walker,target,any,,Ora lasts longer extremely important; double summoning for balls; makes existing talents better,yes,2
+00:45:33,00:46:04,talent_points|compass,tempest defense,wind_walker,opinion,any,compass_upgrades=100,Tempest defense and accuracy per 100 compass upgrades yes if needed,yes,3
+00:45:33,00:46:04,talent_points|compass,elemental damage|multi-shoot,wind_walker,target,any,,Extra elemental damage and multi-shoot chance good; slightly weaker but still yes; compass gives a lot itself,yes,2
+00:46:04,00:46:04,talent_points,tempest crit chance,wind_walker,target,any,,Crit hit chance good since crit on all master classes is good,yes,3
+00:46:04,00:46:35,talent_points|w7_push,shiny medallions,wind_walker,skip,any,,Shiny medallions no for now since you cannot get into world 7 for medallions; could be good later,yes,3
+00:46:35,00:47:05,talent_points|sneaking,sneaking row,wind_walker,target,any,,Skilling and sneaking setup all four great: cheaper knowledge upgrades sneaking exp additive and multiplicative and gemstones necessary for progression,yes,3
+00:47:05,00:47:36,talent_points,dust coins,wind_walker,target,any,,Extra coins for entire account from dust dropped multiplicative; keep active at all times; super it,yes,3
+00:47:05,00:47:36,talent_points|class_exp,slayer abominator,wind_walker,priority,any,,Slayer abominator gives all characters multiplier class bonus per abomination killed; true multiplier class exp; keep on at all times,yes,3
+00:48:06,00:48:37,talent_points,extra bags,beginner,target,any,,Extra bags carry capacity may be a necessary super for candy clicking or pushing stamps,yes,2
+00:48:06,00:48:37,talent_points,happy dude,beginner,target,any,,Happy dude gives skill exp gains; affects skilling with enhancement; only one maybe worth a super on page one,yes,2
+00:48:37,00:49:07,talent_points,indiana attack|breaking the bank|supernova,journeyman,skip,any,,Indiana attack okay; breaking the bank okay; supernova no need,yes,2
+00:48:37,00:49:07,talent_points,two punch man,journeyman,opinion,any,,Two punch man could be good on a DPS setup,yes,2
+00:48:37,00:49:07,talent_points,2x loot,journeyman,skip,any,,2x loot no since never activating for it,yes,3
+00:49:07,00:49:38,talent_points,lux effect|extra luck|lucky horseshoe,journeyman,opinion,any,,Lux effect on damage pretty weak; extra luck fantastic; lucky horseshoe is straight luck and worth it,yes,3
+00:49:07,00:49:38,talent_points|drop_rate,drop rate reduced damage,journeyman,skip,any,drop_rate=60,Drop rate but reduced damage; 60 drop rate is nothing nowadays,yes,3
+00:49:07,00:49:38,talent_points,it's your birthday,journe

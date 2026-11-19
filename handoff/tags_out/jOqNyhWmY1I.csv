@@ -1,0 +1,47 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,general,obol_altar,,how_to,early,world=2,Unlock the obol altar first; it is in the World 2 town just above the shop.,yes,3
+00:00:00,00:00:30,general,obol_altar,,mechanic,early,world=2,A cat sleeping on the altar can only be woken with the Bob Joe Pickle from the World 2 shop.,yes,3
+00:00:30,00:00:30,general,obol_altar,,how_to,early,world=2,Interacting with the altar gives a quest to scare the cat; buy a Bob Joe Pickle from the W2 shop and drop it on the cat.,yes,3
+00:00:30,00:00:30,general,obol_storage,,mechanic,any,shapes=4,"Obol storage holds obols from monster drops, Alchemy purchases and obol stacks, with one tab per shape: circle, square, hexagon, sparkle.",yes,3
+00:00:30,00:01:00,general,obol_personal_tab,,mechanic,early,,Personal tab obols give bonuses only to the current character; only a few slots are open at first and the rest are locked by class level.,yes,3
+00:01:00,00:01:30,general,obol_family_tab,,mechanic,any,,Family tab obols give bonuses to all characters; slots unlock based on total account level (combined level of all characters).,yes,3
+00:01:00,00:01:30,general,obol_family_tab,,priority,early,,Most early obols should go in the family tab so every character benefits.,yes,3
+00:01:30,00:01:30,general,obol_totals_tab,,mechanic,any,,Totals tab shows all bonuses your characters get from family and personal obols.,yes,3
+00:01:30,00:02:01,general,obol_upgrades_tab,,mechanic,any,,Upgrades tab lets you roll (reroll) combine or fragment obols; rerolling and combining need fragments and money.,yes,2
+00:02:01,00:02:01,general|arcade,obol_fragments,,how_to,any,,Get obol fragments by recycling obols or from the arcade; amount received depends on the obol's rarity.,yes,3
+00:02:01,00:02:32,general,obol_rarity,,mechanic,any,rarity_levels=5,"Obols have five rarities: bronze, silver, gold, platinum, dementia; shape typically changes as rarity rises.",yes,3
+00:02:01,00:02:32,general,obol_rarity,,mechanic,any,,"Strength, agility, wisdom and luck obols start as bronze circles and stay circles until becoming squares at dementia rarity.",yes,2
+00:02:32,00:02:32,general,obol_combine,,how_to,any,,Most obols found are bronze or silver; use the combine function to reach gold platinum or dementia.,yes,3
+00:02:32,00:02:32,general,obol_combine,,mechanic,any,,Combining requires two obols of the same type and same rarity; you cannot fuse different rarities.,yes,3
+00:02:32,00:03:02,general,obol_combine,,warning,any,,Combining has a percentage chance to succeed so failed attempts cost more fragments and money; low rarities can lose an obol on failure (clearly indicated).,yes,3
+00:02:32,00:03:02,general,obol_combine,,mechanic,any,,On success the obol in the right slot disappears and the left slot obol upgrades to higher rarity.,yes,3
+00:03:02,00:03:33,general,obol_reroll,,mechanic,any,bronze_base_drop_rate_pct=2;reroll_up_pct=3;reroll_down_pct=1,"Rerolling costs fragments and money and can raise or lower stats, e.g. a bronze 2% drop rate obol going to 3% or 1%; may add or remove extra stats.",yes,3
+00:03:02,00:03:33,general,obol_combine,,how_to,any,,The left slot obol keeps its rolled stats after successful fusion; this can save fragments.,yes,3
+00:03:02,00:03:33,general,obol_reroll,,warning,any,,Some obols cannot have certain misc stats upgraded (chopping obol cannot gain chopping power) so aim for the main stat.,yes,3
+00:03:33,00:04:04,general,obol_old_personals_tab,,mechanic,any,,Old personals tab shows all characters' personal obol tabs; swap obols between characters or equip directly from storage via the two character heads.,yes,2
+00:03:33,00:04:04,general,obol_old_personals_tab,,warning,any,,You cannot unequip obols back to storage from the old personals tab.,yes,3
+00:04:04,00:04:04,general,obol_builds,,meta_change,any,,Creator gives personal recommended obol builds and farming spots; the full list is on the wiki linked in the description.,yes,3
+00:04:04,00:04:34,general,obol_builds,,setup,early,,Off-stat flex build (main stats off-stat) makes you decent at everything; suited to lazy players who don't want frequent swaps especially early.,yes,2
+00:04:04,00:04:34,general,obol_builds,,afk_spot,early,,Silver strength obols farmed at Fort Beans? with the DK crystal build.,yes,2
+00:04:04,00:04:34,general,obol_builds,,afk_spot,early,,Silver agility obols farmed at Sandy Pots with the DK crystal build.,yes,3
+00:04:04,00:04:34,general,obol_builds,,afk_spot,early,,Silver wisdom obols farmed at Sand Castles with the DK crystal build.,yes,3
+00:04:04,00:04:34,general,obol_builds,,afk_spot,early,,Silver luck obols farmed at Snelbies? with the DK crystal build.,yes,2
+00:04:34,00:04:34,general,obol_builds,,afk_spot,early,,All the off-stat silver obols can simply be farmed at Sand Castle since it's a crystal farm.,yes,3
+00:04:34,00:04:34,general,obol_builds,,afk_spot,mid,,Hexagon obols for combat damage can be farmed from the boss Chizoar.,yes,2
+00:04:34,00:04:34,general,obol_builds,,afk_spot,mid,world=3,Hexagon obols for skill efficiency come from the World 3 mini boss (Dilapidated Slush?).,yes,2
+00:04:34,00:04:34,general,obol_builds,,target,mid,,Troll boss sparkle obol gives all stat.,yes,2
+00:04:34,00:05:06,general,obol_builds,,setup,any,,Multi-kill build is ideal for pushing content quickly.,yes,3
+00:04:34,00:05:06,general,obol_builds,,afk_spot,any,,Farm bronze circle multi-kill obols at Boxes? or Dead Rams? using the DK crystal build then upgrade all the way to sparkle.,yes,2
+00:05:06,00:05:06,general,obol_builds,,setup,any,,Chopping and mining obol setup is beneficial but tedious.,yes,3
+00:05:06,00:05:37,general,obol_builds,,how_to,any,,Chopping and mining obols come only from the Alchemy shop or obol stacks and take weeks to get.,yes,3
+00:05:06,00:05:37,general,obol_builds,,setup,any,,Equip chopping and mining obols everywhere except hexagon slots where dilapidated slush obols are better.,yes,2
+00:05:06,00:05:37,general|drop_rate,obol_builds,,priority,any,,Drop rate build is the best stat and ultimate lazy build: more loot for combat and more statues for skilling.,yes,3
+00:05:37,00:05:37,general|drop_rate,obol_builds,elemental_sorcerer,afk_spot,any,,Farm pop? obols from Gigafrogs using elemental sorcerer with a drop rate build; take them up to silver circles.,yes,2
+00:05:37,00:05:37,general|drop_rate,obol_builds,,afk_spot,any,,Dice obols are farmed at Sand Castles with the DK crystal build; go from squares all the way to sparkles.,yes,2
+00:05:37,00:06:09,general|drop_rate|random_events,obol_builds,,setup,any,frequency_per_day=1,Replace square obols with Ice Guard? obols from the once-a-day random events for higher drop rate.,yes,2
+00:05:37,00:06:09,general|drop_rate,obol_builds,,setup,w5,world=5,Replace hexagon obols with the World 5 mini boss obols (Magma? Doo?) for drop rate.,yes,1
+00:06:09,00:06:39,general,obol_builds,,target,any,weapon_power=7;all_afk_gains_pct=5;total_damage_pct=2,"Best obol is the Molen? Obol of the Dead Divine sparkle: 7 weapon power, 5% all AFK gains, 2% total damage.",yes,2
+00:06:09,00:06:39,general,obol_builds,,setup,any,,Use the Dead Divine obol to replace the majority of sparkle obols if doing any AFK gains.,yes,2
+00:06:09,00:06:39,general|gem_shop,hyper_obols,,opinion,any,,Hyper obols are better but cost lots of money and limited-time shop FOMO; spend gems on something better instead.,yes,3
+00:06:39,00:06:39,general|gem_shop,obol_storage,,warning,any,,Obol storage is limited; more can be bought in the gem shop but it is still not enough.,yes,3
+00:06:39,00:07:09,general|worship|traps|construction,obol_builds,,opinion,any,,Worship trapping and construction obols exist but he hasn't found a spot where they're worth swapping into the builds.,yes,3

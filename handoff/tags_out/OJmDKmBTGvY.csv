@@ -1,0 +1,40 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,guild,sixth guild,,meta_change,any,guilds=6;members=600,"A sixth guild, the fitty IDI Army, now exists; join the Discord; guilds have 600+ members total.",yes,3
+00:00:00,00:00:30,general,patch v1.86,,meta_change,any,version=1.86,"Version 1.86 adds World 5 boss Kattlekruk, new upgrades and the best-in-slot equipment so far.",yes,3
+00:00:30,00:00:30,talent_points,combustion,blood_berserker,meta_change,any,cooldown_reduction=50;cooldown_seconds=20,"Blood Berserker's Combustion attack cooldown reduced by 50 percent, now 20 seconds.",yes,3
+00:00:30,00:00:30,talent_points,combustion,blood_berserker,mechanic,any,,Using Combustion no longer uses the Inflamed talent.,yes,3
+00:00:30,00:00:30,talent_points,inflamed,blood_berserker,meta_change,any,cooldown_reduction_seconds=30;cooldown_seconds=60,Inflamed talent cooldown reduced by 30 seconds to 60 seconds.,yes,3
+00:00:30,00:00:30,damage,aoe,blood_berserker,opinion,any,,Expect much more AOE for Blood Berserker after these changes.,yes,3
+00:00:30,00:01:00,class_choice,beast_master,beast_master,opinion,any,,Beastmaster still needs buffs so he stops living in the lab.,yes,2
+00:00:30,00:01:00,pets,companions pity,,meta_change,any,pity_treats=200,King dude companion is now guaranteed within 200 treats via a new pity system.,yes,3
+00:01:00,00:01:00,pets,companions pity,,mechanic,any,,Hitting the pity threshold grants the companion retroactively.,yes,3
+00:01:00,00:01:34,event_shop,limited time shop,,meta_change,any,drop_chance=10;card_pack_discount=50;mob_respawn=20,"New limited shop: five-star card Primafire, +10 drop chance premium hat, cosmic candies, hyper ovals, World 5 card pack 50% off, mob respawn keychains.",yes,2
+00:01:34,00:01:34,event_shop,limited time shop,,meta_change,any,,Free to play players get a Primafire helmet usable as a premium hat.,yes,3
+00:01:34,00:02:05,killroy|quests,tired bull NPC,,mechanic,any,quests=3;minor_moles=6000000,Kattlekruk entrance on Minor Mole map has Tired Bull NPC with three quests; first is kill six million minor moles.,yes,3
+00:02:05,00:02:05,quests,tired bull NPC,,active_task,any,crawlers=10000000,Second quest is to kill 10 million crawlers.,yes,3
+00:02:05,00:02:35,quests,one of the Divine trophy,,target,any,weapon_power=10;all_stat=30;drop_chance=42;total_damage=35,"Final quest gets One of the Divine trophy: 10 weapon power, 30 all stat, 42 drop chance, 35 total damage.",yes,3
+00:02:05,00:02:35,quests,one of the Divine trophy,,comparison,any,,This trophy blows every other combat trophy out of the water.,yes,3
+00:02:05,00:02:35,quests,nightmare Kattlekruk,,requirement,any,health=1000000000000000,Trophy requires farming Nightmare Kattlekruk with one quadrillion health and getting two drops.,yes,3
+00:02:35,00:02:35,armor_smithy,new pendant,,target,any,all_afk_gains=25,New pendant drop gives 25 all AFK gains.,yes,2
+00:02:35,00:02:35,armor_smithy,new pendant,,comparison,any,,It replaces the combat and skilling pendant as best-in-slot pendant.,yes,3
+00:02:35,00:02:35,armor_smithy,Kattlekruk drop,,target,any,skill_xp=40;afk_gains=3,Another Kattlekruk drop gives 40 skill XP and three percent AFK gains; pray for RNG.,yes,2
+00:02:35,00:03:07,armor_smithy,new oval,,target,any,all_afk_gains=5,A new oval drop gives five percent all AFK gains.,yes,3
+00:02:35,00:03:07,general,AFK gains,,opinion,any,afk_gains=100,Believes 100 percent or higher AFK gains is more than possible after these upgrades.,yes,2
+00:03:07,00:03:37,armor_smithy,new upgrade stones,,mechanic,any,success_chance=60,New upgrade stones have 60 percent success chance and consume an upgrade slot on failure.,yes,3
+00:03:07,00:03:37,armor_smithy,upgrade stones,,priority,any,,Keep using World 5 stones for armor and weapons because crafting is expensive.,yes,3
+00:03:07,00:03:37,armor_smithy,upgrade stones,,priority,any,,Use new upgrade stones on tools to reach higher prints.,yes,2
+00:03:07,00:03:37,killroy,Kattlekruk keys,,how_to,any,,"Farm Kattlekruk keys at Minor Moles, crawlers and Trevor worms.",yes,2
+00:03:37,00:03:37,merits,merit tasks,,mechanic,any,upgrades=9,Nine potential new merit task upgrades unlock all the new weapons and armor.,yes,2
+00:03:37,00:04:08,armor_smithy,boots and helmet,,mechanic,any,,Boots and helmet give more drop rate and total damage percent.,yes,3
+00:03:37,00:04:08,armor_smithy,chest and legs,,mechanic,any,,Chests and legs give total damage percent and mob respawn.,yes,3
+00:03:37,00:04:08,armor_smithy,chest and legs,,opinion,any,,Chest and legs are half decent; unsure they will replace magma.,yes,3
+00:03:37,00:04:08,armor_smithy,weapons,,comparison,any,,The new weapons are a huge increase over magma weapons.,yes,3
+00:04:08,00:04:08,armor_smithy,weapons,,priority,any,,Get the new weapons ASAP; little to no effort if you already have magma weapons.,yes,3
+00:04:08,00:04:39,armor_smithy,armor setup,elemental_sorcerer|divine_knight|voidwalker,setup,any,,Active mains Elemental Sorcerer Divine Knight Void Walker: full magma except helmet and boots for extra drop rate.,yes,3
+00:04:08,00:04:39,armor_smithy,armor setup,beast_master|blood_berserker|siege_breaker,setup,any,,AFK characters Beastmaster Blood Berserker Siegebreaker should run the new chest and legs.,yes,3
+00:04:08,00:04:39,armor_smithy|money,armor setup,bubonic_conjuror,setup,any,,Keep Bubo in magma armor because he needs the all stat which feeds money percent.,yes,3
+00:04:39,00:05:09,islands,island expeditions,,meta_change,any,,Roadmap includes Island Expeditions; he hopes they are party oriented.,yes,3
+00:04:39,00:05:09,achievements,completion trophies,,meta_change,any,,Roadmap has more World 4 and 5 completion trophies and secrets.,yes,2
+00:04:39,00:05:09,general,world 6,,meta_change,w6,,World 6 leaked as Spirited Valley and is not a water world.,yes,2
+00:04:39,00:05:09,general,elite classes,,meta_change,any,elite_classes_w7=3;elite_classes_w8=3,Three elite classes will come in World 7 and three in World 8.,yes,3
+00:05:09,00:05:09,general,world 6,,opinion,w6,,He thinks having no new classes in World 6 is better so skills can be based around everybody.,yes,2

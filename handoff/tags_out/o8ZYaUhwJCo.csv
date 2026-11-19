@@ -1,0 +1,57 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,none,,,meta_change,any,,Griffy introduces a raw unedited "Dungeon Talk" format as filler content because guides take over two weeks to make.,yes,3
+00:00:30,00:00:30,dungeons,run setup,bubonic_conjuror,setup,any,start_hp=5;start_mp=5;gray_rng_items=2,Start Bubo dungeon run with vials: gas then syringe then spirit then auspicious aura then sizzling skull; two gray RNG items to start.,yes,2
+00:00:30,00:00:30,dungeons|drop_rate,rng items,,mechanic,any,gray_rng_drop_chance_pct=1,Each gray RNG item gives plus one percent drop chance.,yes,3
+00:00:30,00:01:02,dungeons|drop_rate,drop chance,,priority,any,,Drop chance is the most important stat in this dungeon because RNG items must drop to get the cauldron for the boss.,yes,2
+00:00:30,00:01:02,dungeons,flurbo shop,,mechanic,any,mob_boss_drop_pct=30;enhancer_drop_pct=25;rng_price_scale_slower_pct=15;higher_rarity_pct=25,Flurbo bonuses: 30% more drops from mobs/bosses (not that relevant); enhancers instead of equipment 25% more; RNG prices scale 15% slower; greener RNG 25% likelier.,yes,2
+00:01:02,00:01:32,dungeons,royal trait,,setup,any,purple_rng_start_chance_pct=100,Royal trait gives 100% chance to start each dungeon with a purple RNG item of choice; take Horn of the Fool; he calls it one of the best traits.,yes,2
+00:01:02,00:01:32,dungeons,royal trait,,warning,any,level=50,The level 50 trait does not work as it says right now.,yes,2
+00:01:02,00:01:32,cards|dungeons,card setup,,setup,any,dungeon_damage=105;dungeon_mp_regen_pct=65;dungeon_money=30;block_chance=10;boost_speed=35;rng_rarity=100,Card setup used: 105 dungeon damage; 65% MP regen; 30 dungeon money; 10 block chance; 35 boost speed; 100 RNG item rarity.,yes,2
+00:01:32,00:02:03,cards|dungeons,chips,,mechanic,any,,Top-left and bottom-right card chips also work for party dungeons so they can increase those cards' values.,yes,2
+00:02:03,00:02:34,dungeons,crit chance,bubonic_conjuror,priority,any,,Level crit chance first and do not take Stone of the Bulwark right away; build crit chance first.,yes,2
+00:02:03,00:02:03,dungeons,clearing,,how_to,any,,He usually clears the right side first as soon as possible.,yes,2
+00:02:03,00:02:03,dungeons,party dungeons,,mechanic,any,level_cap=50,Everything is down to level 50 due to party dungeons.,yes,2
+00:02:03,00:02:34,dungeons|drop_rate,rng items,,how_to,any,,In group play buy accessories early and start getting drop chance from enhancers right away to get Eye of the Frog going; solo you do not need to.,yes,2
+00:02:34,00:03:06,none,,,account_note,any,,Griffy apologizes for no video this week; scripting and making videos alone is time consuming.,yes,3
+00:03:06,00:03:37,dungeons|drop_rate,rng items,,priority,any,,Take Rabbit Spa for drop chance; blood vials are always strong; anti-ice pick needed only three because all RNG items are maxed.,yes,2
+00:03:06,00:03:37,dungeons,rng voucher,,opinion,any,,Getting an RNG voucher early is very good.,yes,2
+00:03:37,00:04:08,dungeons,horn of the fool,,how_to,any,,He usually takes Horn of the Fool when going for the second Frog boss and wants it done as soon as possible.,yes,2
+00:03:37,00:03:37,dungeons|drop_rate,perk,,mechanic,any,drop_chance_per_gray_rng_pct=1,Per gray RNG item gives one percent drop chance.,yes,2
+00:03:37,00:04:08,dungeons,clearing,,how_to,any,,Do a full clear then clear the left pack.,no,1
+00:04:08,00:04:38,dungeons,single cut,,how_to,any,,Do not take Single Cut right away; build up food first because it is huge.,yes,2
+00:04:08,00:04:38,dungeons|drop_rate,clearing,,how_to,any,,With enough drop chance you do not need to clear the right side; get Frog eye from cleared areas which is faster.,yes,2
+00:04:38,00:05:08,dungeons,rng voucher,,how_to,any,,Hold RNG voucher without buying RNG items yet to keep building up in case a second voucher drops.,yes,2
+00:04:38,00:05:08,dungeons,matter crystal,bubonic_conjuror,opinion,any,,Matter crystal is huge for any caster because you need mana regen.,yes,2
+00:04:38,00:05:08,dungeons,boss skull,,opinion,any,,Boss skull is always strong.,yes,2
+00:05:08,00:05:08,dungeons,mana,maestro|barbarian,comparison,any,,Casters need less mana than Maestro or Barbarian but it still changes the game if you lack it.,yes,2
+00:05:08,00:05:40,vials|dungeons,red vials,,how_to,any,,Use red vials for maximum damage followed by syringe.,yes,2
+00:05:40,00:05:40,dungeons|drop_rate,rng items,,how_to,any,,Buying more RNG items builds drop rate; decide when to buy based on skull count.,no,1
+00:05:40,00:05:40,dungeons,dead book,,opinion,any,dead_books=3,Dead books are massive; with three dead books take Horn of the Fool.,yes,2
+00:05:40,00:06:11,dungeons,batteries,,opinion,any,,Batteries and Sugar Rush are always strong; Sugar Rush is huge especially with super soda.,yes,2
+00:06:11,00:06:11,dungeons,liar scraps,,how_to,w1|w2,liar_scraps=2,In world 1 or 2 party dungeons take one or two liar scraps but no more or it is overkill.,yes,2
+00:06:11,00:06:43,dungeons,auto loot,,opinion,any,,Usually you do not want Auto Loot on there.,yes,2
+00:06:43,00:07:14,none,,,account_note,any,,Griffy talks about busy schedule and weekly uploads and videos getting more extensive with more worlds.,yes,3
+00:07:14,00:07:14,dungeons,bubo,bubonic_conjuror,opinion,any,,Bubo is very strong with lots of active abilities; building crit chance and big damage.,yes,2
+00:07:14,00:07:44,dungeons,money,,mechanic,any,,Spend all money on RNG items until a threshold when everything becomes very expensive.,yes,2
+00:07:44,00:08:16,dungeons,frog,,target,any,,With 33 skulls could summon Frog boss already; full clear is possible with enough damage.,no,2
+00:08:16,00:08:47,dungeons,horn of the fool,,opinion,any,,Power of Horn of the Fool is too strong for pumping out damage; run is doable even without strong cards.,yes,2
+00:08:47,00:09:17,dungeons,syringe,bubonic_conjuror,opinion,any,,Syringe is one of the strongest Bubo abilities for single-target boss damage; keep on your bar.,yes,3
+00:08:47,00:09:17,dungeons,jenny sphere,,opinion,any,,Jenny sphere makes the run an easy win.,yes,2
+00:09:17,00:09:48,dungeons,level,,threshold,any,level=40;level=50,At about level 40 to 50 you really start to pop off and can do almost anything.,yes,2
+00:09:17,00:09:48,dungeons,world difficulty,,comparison,any,timer_min=11,World 1 is easiest; World 3 is more hectic; World 2 is not hard but long; world 1 timer about 11 minutes.,yes,2
+00:09:17,00:09:48,dungeons,world 2 timer,,comparison,w2,timer_min_low=30;timer_min_high=40,World 2 has no timer but would take minimum 30 to 40 minutes.,yes,2
+00:09:48,00:10:20,none,,,meta_change,any,,He is looking for a video editor and asks people to DM on Discord or Twitter.,yes,3
+00:10:20,00:10:51,dungeons|drop_rate,build,bubonic_conjuror,setup,any,,Build is lots of crit chance with plenty of mana plus base damage and drop chance.,yes,2
+00:10:20,00:10:51,dungeons|drop_rate,drop chance,,threshold,w1,,You only need that much drop chance for World 1; elsewhere it is almost unnecessary and not very good in World 2 and 3.,yes,2
+00:10:51,00:11:22,dungeons,triad of the manifying,wizard|mage|bubonic_conjuror|squire|maestro,opinion,any,,Triad of the Manifying is really good on wizard mage general or bubo; good on Squire; pretty good but not extreme on Maestro.,yes,2
+00:11:22,00:11:22,dungeons,stone of the bulwark,,account_note,any,,He plans a Stone of the Bulwark build video to test if it is doable; he finds it bad so far.,yes,2
+00:11:22,00:11:54,dungeons,rng items tier,,opinion,any,,Sugar Rush still S tier; super soda handy ice picks sharp eyes are super good; tax ledger sneaky cap all right.,yes,2
+00:11:54,00:11:54,dungeons,rng items tier,,opinion,any,,Tortoiseshell not too bad and boss call is a dream.,yes,2
+00:11:54,00:12:24,dungeons,party overflow,,warning,any,damage_cap=999000;example_damage=400000,Party dungeon has an overflow mechanic where damage beyond a cap counts as only 999000 on the other player's side; Lava should fix it.,yes,2
+00:11:54,00:12:24,dungeons|drop_rate,jenny sphere,,mechanic,any,,Jenny sphere gives more gray RNG items.,yes,2
+00:11:54,00:12:55,dungeons|drop_rate,drop rate,,priority,any,,Prioritize as much drop rate as possible and you will get your first solo Frog 4 kill.,yes,2
+00:12:24,00:12:55,dungeons,horn of the fool,,comparison,any,,Could have done run with Triad of the Manifying or Stone of the Bulwark but would have struggled hard.,yes,2
+00:12:55,00:13:26,dungeons,keychains,,opinion,any,,He does not take keychains because they are kind of garbage.,yes,2
+00:12:55,00:13:26,dungeons,run results,bubonic_conjuror,account_note,any,damage=341;crit_damage_mult=10.95;drop_rarity=2.64;crit_chance=165,Run result: crit damage multiplier 10.95x; drop rarity 2.64 thanks to gray RNG perk; crit chance 165.,yes,2
+00:13:26,00:13:26,dungeons,crit chance,,mechanic,any,crit_chance=165,There is no mega crit in dungeons so that much crit chance is nonsense.,yes,3
+00:13:26,00:13:57,none,,,account_note,any,subscribers=5000,Thanks for nearly 5000 subscribers; next video is an Island video next week.,yes,3

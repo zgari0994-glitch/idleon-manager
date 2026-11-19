@@ -1,0 +1,16 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,speedrun,rules,,meta_change,early,old_record_min=160,Previous World 1 to World 4 free-to-play speedrun record was about 2 hours 40 minutes,yes,3
+00:00:00,00:00:30,speedrun,rules,,setup,w1,,"Rules: no microtransactions, no cheating, fresh account, vanilla content with no events; timer starts with first character and stops on entering World 2",yes,3
+00:02:05,00:02:43,speedrun,colosseum key,,how_to,w1,key_drop_chance=1/25,Attempt Colosseum to get a key that has a 1 in 25 chance to drop from the bronze chest,yes,2
+00:02:43,00:03:17,speedrun|quests,scriptus quest line,,priority,w1,,Do the Scriptus quest line during the run because it rewards lots of gems for Time Candy and also Time Candy,yes,2
+00:02:43,00:03:17,speedrun|quests,quest line,,how_to,w1,,Time Candy is needed later in the speedrun,yes,2
+00:03:17,00:03:50,speedrun|quests,candy sources,,priority,w1,,Two biggest Time Candy sources are the Scriptus quest line and the Picks stowaway quest line; together enough to reach Amarok,yes,2
+00:03:17,00:03:50,speedrun,hoops,,how_to,w1,baskets_min=2;candy_hours=2,Hit at least two baskets in Hoops to get at least a 2-hour Time Candy to get past Goblins,yes,2
+00:04:29,00:04:59,speedrun,second character,,how_to,w1,afk_min=2,Let second character AFK for at least 2 minutes to get the rest of the needed candy,yes,3
+00:04:29,00:04:59,speedrun|talent_points,talent,,setup,w1,,"Put talents into Carry a Big Stick, Sharpened Axe and Meat Shank while second character AFKs",yes,2
+00:04:29,00:04:59,speedrun,stones,,setup,w1,,Put stones into armor and weapons while the character is AFK,yes,3
+00:04:59,00:05:30,speedrun,amarok,,mechanic,w1,accuracy_needed=15;accuracy_old=151,Amarok was nerfed so only 15 accuracy is needed to hit it 100% instead of the previous 151,yes,2
+00:04:59,00:05:30,speedrun,amarok,,setup,w1,,"Amarok gear: rce? helmet, spear, shirt and wooden katana",yes,1
+00:07:19,00:08:54,speedrun,amarok,,how_to,w1,,Good rotation and big crits are needed; don't Stone rotation for sub 11,yes,1
+00:08:54,00:09:25,speedrun,result,,target,w1,time_min=11;target_min=10,World 1 beaten in about 11 minutes; sub 10 possible with proper RNG,yes,3
+00:08:54,00:09:25,speedrun,result,,comparison,w1,old_min=160;new_min=11,Improved from 2 hours 40 minutes to under 11 minutes,yes,3

@@ -1,0 +1,47 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,weekly_boss,Chaotic Kattlekruk,,mechanic,w5,location=Miner Mole Outskirts,Chaotic Kattlekruk is fought in the map Miner Mole Outskirts,yes,3
+00:00:00,00:00:00,weekly_boss,Kruk's Volcano Key,,threshold,w5,keys_per_attempt=5,Each attempt at Chaotic Kattlekruk requires 5 Kruk's Volcano Keys,yes,3
+00:00:00,00:00:33,quests,Sleepy Mole,,how_to,w5,,One source of Kruk's Volcano Keys is completing quests from the Sleepy Mole,yes,3
+00:00:33,00:00:33,quests,Sleepy Mole quest 1,,how_to,w5,kills=6000000;keys=10,Quest 1 needs 6 million Biggole Moles killed and rewards 10 Kruk's Volcano Keys,yes,3
+00:00:33,00:00:33,quests,Sleepy Mole quest 2,,how_to,w5,kills=10000000;keys=25,Quest 2 needs 10 million Crawlers killed on the next map down and rewards 25 keys,yes,3
+00:00:33,00:01:06,quests,Sleepy Mole quest 3,,mechanic,w5,,Quest 3 needs the Divine Scarf equipped and the Kattlecruk Cape both Nightmare Mode so not doable; it rewards a new trophy,yes,3
+00:01:06,00:01:38,drop_rate|cards,Biggole Mole,,mechanic,w5,drop_chance=1/75000,Biggole Mole has 1 in 75K drop chance for a Kruk's Volcano Key and this includes multi-kill so high offline multi-kill yields many keys,yes,3
+00:01:06,00:01:38,drop_rate|cards,Crawlers,,mechanic,w5,drop_chance=1/50000,Crawlers have a 1 in 50K key drop chance but more HP so may be harder depending on damage,yes,3
+00:01:38,00:02:14,drop_rate|cards,Tremor Wurms,,priority,w5,drop_chance=1/25000,Tremor Wurms have 1 in 25K key drop chance and need more damage; he gets the most kills per hour and keys there,yes,3
+00:02:14,00:02:14,weekly_boss,Chaotic Kattlekruk,,threshold,w5,accuracy=54000,Chaotic fight needs 54K accuracy though minor requirement,yes,3
+00:02:14,00:02:44,weekly_boss,Chaotic Kattlekruk,,threshold,w5,boss_accuracy=900,Boss itself only has a 900 accuracy requirement but you need to 1-2 shot spawning Biggole Moles to have a chance at Chaotic,yes,2
+00:02:44,00:02:44,weekly_boss,Chaotic Kattlekruk,,mechanic,w5,,You can out-damage the healing mechanic so killing moles quickly may not be necessary,yes,3
+00:02:44,00:03:14,weekly_boss,Chaotic Kattlekruk,,threshold,w5,boss_hp_billion=2500;normal_hp_billion=100,Chaotic boss has 2500 billion HP versus 100 billion on Normal Mode and you need enough damage to basically 1-shot Biggole Moles,yes,3
+00:03:14,00:03:14,weekly_boss,Biggole Mole,,threshold,w5,mole_hp_million=900,Biggole Moles have about 900 million HP and extra damage beyond one-shotting them only speeds up the boss,yes,3
+00:03:14,00:03:46,weekly_boss,Chaotic Kattlekruk,,recommendation,w5,,He recommends fighting on a character with decent wave clear,yes,3
+00:03:14,00:03:46,weekly_boss,Chaotic Kattlekruk,,mechanic,w5,boss_hp_billion=2.5,Boss displayed with 2.5 billion HP in the demo (as said) and he does a couple hits to show the healing mechanic,yes,2
+00:03:46,00:03:46,weekly_boss,Biggole Mole,,mechanic,w5,heal_billion=50,Biggole Moles continuously spawn and each one hitting the boss heals it about 50 billion HP,yes,3
+00:03:46,00:04:20,weekly_boss,Biggole Mole,,how_to,w5,,Run around and clear Biggole Moles before they hit the boss; ignorable with enough damage; recommends characters with wave clear,yes,3
+00:04:20,00:04:20,weekly_boss,Chaotic Kattlekruk,maestro,how_to,w5,,On Maestro use the whip attack which does not pull mobs closer; Coin Tosses can also be used,yes,3
+00:04:20,00:04:20,weekly_boss,Chaotic Kattlekruk,voidwalker,how_to,w5,,On a lower level mole he recommends using Void Radius for wave clear,yes,2
+00:04:20,00:04:53,weekly_boss,rewards,,mechanic,w5,main_rewards=6,Chaotic has 6 main rewards similar to Normal Mode but with better drop chances,yes,3
+00:04:53,00:04:53,cards|class_exp,Chaotic Kattlekruk Card,,priority,w5,,Chaotic Kattlekruk Card gives more monster EXP per level so get it leveled as soon as you can,yes,3
+00:04:53,00:05:23,drop_rate,Crux's Tooth,,comparison,w5,normal_chance=1/25;chaotic_chance=1/10,Crux's Tooth drop is the same as normal mode but better chance: 1 in 25 normal to 1 in 10 chaotic,yes,2
+00:04:53,00:05:23,drop_rate,Crux Cavity Tooth,,mechanic,w5,drop_chance=1/100,New Crux Cavity Tooth drops at 1 in 100,yes,3
+00:05:23,00:05:23,armor_smithy|weekly_boss,Crux Cavity Tooth,,mechanic,w5,,Crux Cavity Tooth is necessary to craft new boss weapons and boss helmet so you must fight Chaotic some,yes,3
+00:05:23,00:05:53,drop_rate,Pendant,,comparison,w5,normal_chance=1/100000;chaotic_chance=1/28000,Pendant drops better on chaotic: 1 in 28K versus 1 in 100K on normal,yes,3
+00:05:23,00:05:53,anvil,Divine Scarf,,mechanic,w5,,The Divine Scarf requires the pendant to craft,yes,2
+00:05:53,00:05:53,armor_smithy,Divine Scarf,,mechanic,w5,weapon_power=8;base_stats=6;defense=30;total_damage_pct=20;all_stats_pct=5,Scarf gives 8 weapon power 6 base stats 30 defense 20% total damage 5% all stats with upgrade slots,yes,2
+00:05:53,00:05:53,weekly_boss|drop_rate,Molten Obol,,comparison,w5,normal_chance=1/20000;chaotic_chance=1/4500,Molten Obol drop is better on chaotic: 1 in 4500 versus 1 in 20K normal,yes,3
+00:05:53,00:06:25,bubbles,Molten Obol,,mechanic,w5,weapon_power=7;base_stats=15;afk_gain_pct=5;total_damage_pct=2,Molten Obol gives 7 weapon power 15 base stats 5% all AFK gain and 2% total damage,yes,3
+00:06:25,00:06:25,general,Molten Obol,,priority,w5,,Molten Obol is best in slot for everything except an active character since fighters and skillers gain more,yes,3
+00:06:25,00:06:56,general,Molten Obol,,comparison,w5,,When sampling the AFK gain is better than the small efficiency gain,yes,2
+00:06:25,00:06:56,general,Molten Obol,,mechanic,w5,slots=5,You can have 5 of these obol slots on each character depending on total account level,yes,2
+00:06:56,00:06:56,general,Molten Obol,,how_to,w5,fragments=40;afk_gain_pct=6;total_afk_pct=30,Upgrade Molten Obol in Upgrades Tab with 40 Obol Fragments for chance at 6% AFK gain; 5 slots gives 30% total,yes,3
+00:06:56,00:07:26,general,Molten Obol,,warning,w5,,Obol is not best in slot if you are active since drop rate may be better,yes,3
+00:07:26,00:07:26,general,tool upgrade,,mechanic,w5,success_chance=62,New tool upgrade is a better version of the World 5 Shop one with 62% success chance and uses slot even if it fails,yes,3
+00:07:26,00:07:57,general,tool upgrade,,comparison,w5,,Boss tool upgrade gives more tool skill power and main stat than shop ones,yes,3
+00:07:57,00:07:57,weekly_boss,rare drop table,,mechanic,w5,,Boss rare drop tables give statues coins and other things,yes,3
+00:07:57,00:08:28,achievements|merits|recipe_unlocks,Chaotic achievements,,priority,w5,achievements=4-6,Main Chaotic reward is completing task board achievements 4-6 in chaotic mode which unlock more recipes in Merit Shop,yes,3
+00:07:57,00:08:28,armor_smithy|recipe_unlocks,Chaotic helmet,,mechanic,w5,,Helmet recipe from Merit Shop needs more Crux Cavity Tooth plus Magma Cord Gear and base tooth,yes,3
+00:08:28,00:09:03,armor_smithy,Chaotic helmet,,mechanic,w5,total_damage_pct=30;drop_chance_pct=30;magma_all_stats_pct=6,Helmet gives high weapon power and base stats plus 30% total damage and drop chance but loses Magma Helmet 6% all stats,yes,3
+00:08:28,00:09:03,armor_smithy,Chaotic helmet,,opinion,w5,,He thinks drop chance and total damage is worth it but may be damage loss depending on stats; up to you,yes,3
+00:08:28,00:09:03,armor_smithy|recipe_unlocks,Staff of the Undead Plague,,mechanic,w5,,Next reward recipes include Staff of the Undead Plague,yes,2
+00:09:03,00:09:03,armor_smithy,Staff of the Undead Plague,,comparison,w5,old_total_damage_pct=12;old_respawn_pct=10;new_total_damage_pct=15;new_respawn_pct=12,Straight upgrade: from 12% total damage and 10% mob respawn to 15% and 12% plus more weapon power,yes,2
+00:09:03,00:09:35,armor_smithy|recipe_unlocks,Spine Tingler Sniper,archer,comparison,w5,,Spine Tingler Sniper is straight upgrade increasing bow speed total damage mob respawn and weapon power,yes,2
+00:09:35,00:09:35,armor_smithy,Spine Tingler Sniper,archer,comparison,w5,old_speed=8;new_speed=9,Old bow has 8 speed versus 9 speed on the new bow so upgrades worth it,yes,3

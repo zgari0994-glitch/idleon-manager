@@ -1,0 +1,54 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,dungeons,rng items,,meta_change,any,,Tier list of party dungeon RNG items is based on progression not farming and aimed at the general 99% not the 1% giga chads,yes,3
+00:00:30,00:01:01,dungeons,angel light,,comparison,early,drop_rate=20,Angel light revives you once without losing RNG items and gives +20% drop rate but only really matters in world one; not great,yes,3
+00:01:01,00:01:32,dungeons,armadillo,,comparison,any,base_damage=1;max_hp=10,Armadillo gives +1 base damage and 10 max HP; not strong unless going a hard health build; B tier,yes,3
+00:01:01,00:01:32,dungeons,battery,,comparison,any,cooldown_speed=25,Battery makes ability cooldowns 25% faster; nice but needs a really high manifold to use properly; B tier,yes,2
+00:01:32,00:02:04,dungeons,pig belly,,priority,any,food_heal=20;food_items=2,Pig belly makes food heal 20% more and drops two food items; works in any dungeon and is insane in world 2 dungeons; god tier,yes,3
+00:02:04,00:02:34,dungeons,blood vial,,comparison,any,damage_per_missing_hp=2;cap=30,Blood vial gives +2 damage per missing health up to 30%; hard to keep low health at high rank but useful; not F tier,yes,3
+00:02:34,00:03:04,dungeons,boss skull,,comparison,any,max_damage=44,Boss skull increases damage vs bosses scaling to 44% at max level; would be god tier if it hit giant monsters too so A tier,yes,2
+00:02:34,00:03:04,dungeons,can of varnish,,comparison,any,base_damage=30,Can of varnish (rusty blade) gives 30% more base damage plus a rusty blade; decent but only base damage not total; B tier,yes,2
+00:03:04,00:03:34,dungeons,dead book,,warning,any,crit_per_monster_type=0.5,Dead book gives 0.5% damage and crit chance per monster type defeated; initially said only useful with horn of the full,yes,2
+00:03:04,00:03:34,dungeons,decaf latte,,comparison,w2|w3,,Decaf latte increases skilling speed; useless in world one but super good in world 2 and 3; B tier,yes,3
+00:03:34,00:04:05,dungeons,decaf latte,bowman,how_to,w2,,Decaf latte is what helps win getting the third snake; without it going for third snake you're usually boned,yes,3
+00:03:34,00:04:05,dungeons,fashion sense,,skip,any,equipment_rarity=25,Fashion sense (25% higher equipment rarity) is the worst garbage item; you'd choose anything over it; F tier,yes,3
+00:04:05,00:04:35,dungeons,genesis sphere,,priority,any,drop_chance=18.5;max_chance=60,Genesis sphere has 18.5% chance to drop a new grey RNG item up to 60% with RNG voucher; godlike for voucher build; prioritize it,yes,3
+00:04:35,00:05:06,dungeons,golden dice,,comparison,any,,Golden dice has very low chance of working; utility for farming not progression; C tier,yes,3
+00:04:35,00:05:06,dungeons,grey grumble,,comparison,early,damage=40,Grey grumble gives +40% damage with all RNG items grey; great beginner build but ruins over half the RNG items and makes you reliant on runs; A tier,yes,3
+00:05:06,00:05:36,dungeons,handy ice pick,,priority,any,hit_chance=25;max_level=44,Handy ice pick gives 25% chance for an additional line of damage; easy double damage; god tier,yes,2
+00:05:06,00:05:36,dungeons,helping heart,,comparison,any,max_hp=2,Helping heart gives +2 max HP; okay and picked only when nothing else is available; C tier,yes,3
+00:05:36,00:06:06,dungeons,horn of the full,,priority,any,,Horn of the full is easy god tier despite jokes that it is trash,yes,2
+00:06:06,00:06:37,dungeons,liars craps,,comparison,any,drop_rate=-15;max_hp=-15,Liar's craps gives -15 drop rate and -15 max HP; you take many other items over it; C tier,yes,2
+00:06:06,00:06:37,dungeons,mp crystal,,comparison,any,,MP crystal is common and better than health because mana is needed for abilities and higher MP regenerates mana faster; A tier,yes,2
+00:06:37,00:07:08,dungeons,muscle memory,,comparison,any,damage_per_action=0.5;max=50,Muscle memory gives 0.5 damage per skilling action up to 50; damage but not crazy; C tier,yes,3
+00:06:37,00:07:08,dungeons,ninja smoke,,skip,any,invincibility_sec=1.5,Ninja smoke gives 1.5 seconds invincibility after being hit; sucks; F tier,yes,2
+00:06:37,00:07:08,dungeons,pen lid,,comparison,any,block_chance=2,Pen lid increases block chance by 2% and is claimed op for completing things; A tier,yes,2
+00:07:08,00:07:39,dungeons,plump dice,,comparison,any,,Plump dice gives chance of extra loot dice based on HP at the end; same as the money die; C tier,yes,3
+00:07:08,00:07:39,dungeons,rabbits paw,,comparison,any,,Rabbit's paw is a flat drop rate increase; between C and B so placed B,yes,3
+00:07:08,00:07:39,dungeons,recycler,,comparison,any,drop_chance=5,Recycler has 5% chance to drop an additional RNG item; insane with genesis sphere; A tier,yes,3
+00:07:39,00:08:10,dungeons,rng voucher,,priority,any,drop_chance=10,RNG voucher gives 10% chance to drop an RNG item when selling an enhancer; only item that gets you out of grey grumble build; god tier,yes,3
+00:07:39,00:08:10,dungeons,rng voucher,,warning,any,,RNG voucher can give high damage but breaks runs,yes,2
+00:07:39,00:08:40,dungeons,rusty blade,maestro,comparison,any,,Rusty blade is damage but not great; more important to maestro main than barbarians or squires; unbiased B tier,yes,3
+00:08:10,00:08:40,dungeons,sandals,,comparison,any,,Sandals give movement speed; C tier,yes,3
+00:08:10,00:08:40,dungeons,sharpie,,priority,any,crit_chance=3;max_crit=6,Sharpie gives 3% crit chance up to 6% at max level and is the staple to make horn of the full good; A tier,yes,3
+00:08:40,00:09:10,dungeons,shattered mirror,squire|barbarian|wizard,comparison,any,recast_chance=25,Shattered mirror gives 25% chance to recast abilities free of mana; insane on squire and barbarian and nasty on wizard; strong A tier,yes,3
+00:09:10,00:09:41,dungeons,single cut,,comparison,any,damage=6;per_level=2;max=9;drop_again=90,Single cut costs 10 damage then gives +6% damage and +2% per level up to about 9%; 90% chance to drop again; stackable percent damage; A tier,yes,2
+00:09:10,00:10:12,dungeons,sneaky cap,,comparison,any,crit_per_minute=2;max=30,Sneaky cap gives 2% crit per minute undamaged up to 30%; nerfed since maps no longer last 10 minutes; C tier,yes,3
+00:09:41,00:10:12,dungeons,spare change,,comparison,any,timer_sec=30,Spare change drops cash every 30 seconds while standing still and carries over; free money; B tier,yes,3
+00:10:12,00:10:43,dungeons,spiky spine,,comparison,any,damage=120,Spiky spine deals 120 damage to monsters that hit you and crits on block; good pickup but B tier,yes,2
+00:10:12,00:10:43,dungeons,stone of the bulwark,,skip,any,attack_speed=-85;block_chance=25;damage=300,Stone of the bulwark gives -85% attack speed and mana regen but +25 block and 300 damage; worst RNG item needing a rework; F tier,yes,3
+00:10:43,00:11:13,dungeons,dead book,,comparison,any,,Dead book ranking vetoed and moved to B tier after discussion,yes,2
+00:10:43,00:11:13,dungeons,sucker punch,,comparison,any,crit_damage=25,Sucker punch increases crit damage by 25%; only useful with crit chance; B tier,yes,3
+00:10:43,00:11:45,dungeons,stardew drop,,priority,any,damage=50,Stardew drop gives 50% damage if MP is full; speaker admits bias but keeps it god tier,yes,2
+00:11:13,00:11:45,dungeons,sugar rush,,priority,any,,Sugar rush increases attack speed and is the staple to win games; god tier,yes,3
+00:11:13,00:11:45,dungeons,tax ledger,,comparison,any,cash=8,Tax ledger gives 8% more cash from monsters for NPC shops; niche; C tier,yes,3
+00:11:13,00:11:45,dungeons,thorny rose,,skip,any,max_hp=10;damage_taken=6,Thorny rose gives +10 max HP but you take 6 damage; uncommon and meh; F tier,yes,3
+00:11:45,00:12:15,dungeons,tortoise shell,,comparison,any,block_per_hit=0.1;max=5,Tortoise shell gives +0.1 block chance per hit up to 5; B tier for block build but mostly C tier,yes,3
+00:12:15,00:12:45,dungeons,transmogrifier box,,comparison,any,,Transmogrifier box (lose all single grey RNG items and get new ones) could be great or worst; circumstance dependent; B tier,yes,2
+00:12:15,00:13:15,dungeons,unbalanced scale,,comparison,any,sell_value=20,Unbalanced scale makes sellable items worth 20% more; B tier,yes,3
+00:12:45,00:13:15,dungeons,vampire fangs,,comparison,any,heal_chance=50;heal=1,Vampire fangs give 50% chance to heal 1 HP on kill; not reliable; C tier,yes,3
+00:12:45,00:13:15,dungeons,tier list,,priority,any,,God tier: RNG voucher; pig belly; genesis sphere; handy ice pick; horn of the full; stardew drop; sugar rush; always take these,yes,3
+00:13:15,00:13:45,dungeons,tier list,,priority,any,,A tier: boss skull; grey grumble; mana crystal; pen lid; recycler; shop eye?; shattered mirror; single cut; chosen over many others,yes,2
+00:13:45,00:14:16,dungeons,tier list,,comparison,any,,B tier middle of pack: armadillo; battery; can of varnish; decaf latte; rabbit's paw; rusty blade; spare change; spiky spine; dead book; sucker punch; transmogrifier box; unbalanced scale,yes,3
+00:13:45,00:14:46,dungeons,tier list,,comparison,any,,C tier: angel light; blood vial; golden dice; plump dice; helping heart; liar's craps; muscle memory; sandals; sneaky cap; tax ledger; tortoise shell; vampire fangs; niche,yes,3
+00:14:16,00:14:46,dungeons,golden dice|plump dice,,account_note,any,,Golden dice and plump dice are for farming not progression but not terrible to take,yes,3
+00:14:16,00:14:46,dungeons,tier list,,skip,any,,F tier: ninja smoke; fashion sense; stone of the bulwark; thorny rose (said bloody rose); don't take these and leave them on the ground,yes,2

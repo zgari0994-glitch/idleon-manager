@@ -1,0 +1,115 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,worship,stats,,mechanic,any,,Worship's primary stats are Worship Efficiency, charge speed and current maximum charge.,yes,3
+00:00:00,00:00:00,worship,worship efficiency,,mechanic,any,,Worship Efficiency works like other skills and increases rewards; it scales mainly from Wisdom and Worship Power.,yes,3
+00:00:00,00:00:31,worship,charge speed,,mechanic,any,,Charge speed is a rate gained per day that accumulates every hour; more Wisdom and other bonuses increase it.,yes,3
+00:00:31,00:00:31,worship,max charge,,mechanic,any,,Current charge is the pool of Worship juice; equip better Skulls in the Tools tab to increase it.,yes,3
+00:00:31,00:00:31,worship|quests,unlock,,how_to,early,quests=4,Complete the first 4 quests from Hoggindaz to unlock Worship.,yes,3
+00:00:31,00:01:04,worship,overview,,mechanic,any,parts=2,Worship has two parts: a Tower Defense mini-game and levelling by collecting souls based on highest wave completed and Worship Efficiency.,yes,3
+00:01:04,00:01:04,worship,totem,,mechanic,any,,Worship is trained at totems located around the game.,yes,3
+00:01:04,00:01:04,worship,totem,,mechanic,w1,level=1,First totem is in Forest Outskirts in World 1 and is accessible at level 1.,yes,3
+00:01:04,00:01:04,worship,totem,,mechanic,w2,level=10,Second totem is in World 2 Up Down and is accessible at level 10.,yes,3
+00:01:04,00:01:04,worship,totem,,mechanic,w1,level=30,Third totem is in World 1 in The Roots map and is accessible at level 30.,yes,3
+00:01:04,00:01:04,worship,totem,,mechanic,w3,level=45,Fourth totem is in the Rolling Tundra and is accessible at level 45.,yes,3
+00:01:41,00:01:41,worship,totem,,mechanic,w4,,A fifth totem is being added in World 4 but was unavailable at the time of recording.,yes,3
+00:01:41,00:02:11,worship,totem menu,,mechanic,any,,Totem menu shows current totem, best wave, souls and XP per Worship click, current charge and cost per click.,yes,3
+00:01:41,00:02:11,worship,summon button,,mechanic,any,,The summon button starts the Tower Defense mini-game.,yes,3
+00:02:11,00:02:11,worship,worship button,,mechanic,any,,The Worship button instantly spends charge for XP and souls without completing the mini-game.,yes,3
+00:02:11,00:02:11,worship,charge,,warning,any,,Each click of summon or Worship spends charge so be careful.,yes,3
+00:02:11,00:02:44,worship|construction,towers,,mechanic,any,,After the Hoggindaz quest the first tower is unlocked; all available towers are on the second line of the Construction Bench.,yes,3
+00:02:11,00:02:44,worship|construction,towers,,mechanic,any,,Initial level lets you use the tower in Tower Defense; each further level raises damage and lowers in-game upgrade cost.,yes,3
+00:02:44,00:02:44,worship,pulse mage,,mechanic,any,,Pulse Mage is single target with high attack speed but low damage.,yes,3
+00:02:44,00:02:44,worship,fireball lobber,,mechanic,any,,Fireball Lobber shoots exploding fireballs hitting multiple enemies in a small radius; slower attack but more damage.,yes,3
+00:02:44,00:03:16,worship,boulder roller,,mechanic,any,,Boulder Roller is one of the highest damaging towers; hits multiple enemies down the lane but attacks very slowly.,yes,3
+00:03:16,00:03:16,worship,frozone malone,,mechanic,any,,Frozone Malone casts a freezing wave slowing all enemies hit; stacks with other frozen towers; casts slowly and does no damage.,yes,3
+00:03:16,00:03:16,worship,stormcaller,,mechanic,any,,Stormcaller is single target with the highest single-target damage but attacks super slowly.,yes,3
+00:03:48,00:03:48,worship,party starter,,mechanic,any,level=5,Party Starter is a buff tower that does no damage and has no function until level 5.,yes,3
+00:03:48,00:03:48,worship,kraken cosplay,,mechanic,any,,Kraken Cosplay summons Eyeball Defenders that knock enemies back slowly so other towers deal more damage.,yes,3
+00:04:18,00:04:18,worship,mini-game,,mechanic,any,,Summon opens a portal; enemies walk down the platform, drop to the bottom and return to the totem.,yes,3
+00:04:18,00:04:18,worship,mini-game wave display,,mechanic,any,,Wave display shows current wave and seconds until the next wave spawns.,yes,3
+00:04:18,00:04:50,worship,heart pool,,mechanic,any,hp=5,You always start each mini-game with 5 HP.,yes,3
+00:04:50,00:04:50,worship,heart pool,,mechanic,any,hp_loss=1,You lose 1 HP each time a monster reaches the totem.,yes,3
+00:04:50,00:04:50,worship,mini-game,,mechanic,any,,A monster reaching the totem is sent back to the portal and restarts its path without regenerating HP.,yes,3
+00:04:50,00:04:50,worship,points,,mechanic,any,,Points are mini-game currency gained from kills and at wave completion; spent on summoning or upgrading towers.,yes,3
+00:04:50,00:05:21,worship,mini-game wave display,,mechanic,any,,This Wave and Next Wave show enemies left and each enemy's HP.,yes,3
+00:05:21,00:05:21,worship,next wave button,,mechanic,any,,Next Wave button summons the next wave instantly and awards bonus points.,yes,3
+00:05:21,00:05:21,worship,new button,,mechanic,any,,Summoning a tower increases the cost of all subsequent towers even of a different type.,yes,3
+00:05:21,00:05:53,worship,trash button,,mechanic,any,,Trash button deletes towers currently on the map.,yes,3
+00:05:53,00:05:53,worship,forfeit button,,mechanic,any,,Forfeit ends the mini-game early; you are still rewarded based on your current level.,yes,3
+00:05:53,00:06:27,worship,tower,,how_to,any,,Summon towers by clicking and dragging; summon a few so you don't die too quickly.,yes,3
+00:06:27,00:06:27,worship,tower upgrades,,mechanic,any,level=5,At tower level 5 you select one of two upgrade paths.,yes,3
+00:06:27,00:06:27,worship,pulse mage,,mechanic,any,,Pulse Mage paths: chance to multi-hit or pushback on non-boss monsters.,yes,3
+00:06:27,00:07:01,worship,fireball lobber,,mechanic,any,,Fireball Lobber paths: chance to throw multiple fireballs or larger explosion radius.,yes,3
+00:07:01,00:07:01,worship,boulder roller,,mechanic,any,travel_farther_pct=30;extra_hits=2,Boulder Roller paths: boulders travel 30 percent farther or hit two more enemies.,yes,3
+00:07:01,00:07:01,worship,frozone malone,,mechanic,any,extra_freeze_seconds=2,Frozone Malone paths: stronger slow or monsters stay frozen two seconds longer.,yes,3
+00:07:01,00:07:01,worship,stormcaller,,mechanic,any,hp_threshold_pct=50;crit_pct=5,Stormcaller paths: extra damage to enemies below 50% HP or all towers in range gain 5% crit chance.,yes,3
+00:07:01,00:07:31,worship,party starter,,mechanic,any,attack_speed_pct=25;points_pct=10,Party Starter does nothing until a path is chosen: towers in range get 25% attack speed or kills in range give 10% more points.,yes,3
+00:07:31,00:07:31,worship,kraken cosplayer,,mechanic,any,extra_underling=1;pushback_pct=25,Kraken Cosplayer paths: plus 1 max Underling or Underlings push mobs back 25% farther.,yes,3
+00:07:31,00:08:05,worship,enemies,,mechanic,any,types=4;colors=6,There are 4 enemy types with different speed and health and 6 colors giving special buffs.,yes,3
+00:07:31,00:08:05,worship,zoomo,,mechanic,any,,Zoomo enemies have high speed but low health.,yes,3
+00:08:05,00:08:05,worship,normo largo gigao,,mechanic,any,,Normos have average speed and health; Largos low speed and high health; Gigaos are boss mobs spawning only in boss waves with very low speed and very high health.,yes,3
+00:08:05,00:08:40,worship,enemy colors,,mechanic,any,heal_threshold_pct=50,Gray is normal; green mobs heal continuously below 50% HP.,yes,3
+00:08:40,00:08:40,worship,enemy colors,,mechanic,any,hits=5,Red mobs heal nearby monsters when killed; blue mobs go invincible briefly after 5 hits; orange explode on death stunning towers; purple teleport when hit.,yes,3
+00:08:40,00:09:12,worship|class_choice,tower defense,hunter|maestro,setup,any,,Recommended to use a Hunter or Maestro in the Tower Defense mini-game.,yes,3
+00:09:12,00:09:12,worship|class_choice,tower defense,wizard,mechanic,any,,Wizard gets the most Worship buffs but being a Wizard in the mini-game doesn't affect highest wave or mini-game rewards.,yes,3
+00:09:12,00:09:12,worship,tower defense,,mechanic,any,damage=1,In the mini-game each character attack does only one damage regardless of gear, talents or stats.,yes,3
+00:09:12,00:09:12,worship,tower defense,,priority,any,,Crowd control is what's needed most in the mini-game.,yes,3
+00:09:12,00:09:43,worship,tower defense,maestro,mechanic,any,,Maestro's Indiana Attack hits multiple enemies or pulls them back toward the character.,yes,3
+00:09:12,00:09:43,worship,tower defense,hunter,mechanic,any,,Hunter's Stop Right There summons bear traps and roots all enemies; longer at higher skill level.,yes,3
+00:09:43,00:09:43,worship,tower defense,hunter,mechanic,any,,Hunter's Kung Fu Kick is also a knockback.,yes,3
+00:09:43,00:09:43,worship,tower defense,wizard,comparison,any,,Wizard has Ice Shards crowd control but it is lackluster compared with Hunter or Maestro for the mini-game.,yes,3
+00:09:43,00:10:14,worship,talent,wizard,mechanic,any,,Wizard is the only character getting direct Worship benefits from its talents.,yes,3
+00:10:14,00:10:14,worship,worship efficiency,,mechanic,any,,Worship Efficiency scales directly from Wisdom.,yes,3
+00:10:14,00:10:14,worship,rewards,,mechanic,any,,Worship Efficiency and highest wave completed together determine XP and souls gained per Worship click.,yes,3
+00:10:14,00:10:14,worship,equipment,,priority,any,,On the main gear page only care about the Wisdom each piece gives.,yes,3
+00:10:14,00:10:45,worship,tools tab,,priority,any,,In the tools tab only the Skull matters.,yes,3
+00:10:45,00:10:45,worship,skull,,mechanic,any,,Skull gives more Worship Power and increases Maximum Charge.,yes,3
+00:10:45,00:10:45,worship,food,,priority,any,,In the Foods tab only Soulble Gum is worth mentioning; it increases soul gain.,yes,3
+00:10:45,00:10:45,worship,soulble gum,,warning,any,,Soulble Gum is consumed every time you Worship so use talents and buffs that reduce its consumption.,yes,3
+00:10:45,00:11:17,worship,talent,,priority,any,,Top Tab 3 talent priority: the souls talent increasing Worship Efficiency by Forest Souls in storage chest.,yes,2
+00:11:17,00:11:17,worship,charge siphon,,opinion,any,duration_min=1,Charge Siphon is nice: steals charge from other characters and gives a max charge buff for 1 minute.,yes,3
+00:11:17,00:11:17,worship,bless up,maestro,opinion,any,,He usually avoids Bless Up as he doesn't want to out level his Maestro.,yes,3
+00:11:17,00:11:51,worship,nearby outlet,,warning,any,,Nearby Outlet increases Charge Rate but must be an active talent; it doesn't work on a secondary preset.,yes,3
+00:11:17,00:11:51,worship,wis wumbo,,mechanic,any,,Wis Wumbo increases the max talent level of Book of the Wise.,yes,3
+00:11:51,00:11:51,worship|statues,statue,,warning,any,,The statue does not affect Worship so don't be fooled.,yes,2
+00:11:51,00:11:51,worship,occult obols,,mechanic,any,,Occult Obols give more Wisdom from your Obols.,yes,3
+00:11:51,00:11:51,worship,talent tab 2,,priority,any,,Tab 2: Individual Insight gives more Wisdom; Untwisted Robes more Wisdom from equipment; Free Meal benefits Soulbles; the rest are extras.,yes,3
+00:11:51,00:12:25,worship,talent tab 1,,priority,any,,Tab 1: Smart Efficiency for Worship efficiency and Book of the Wise for base Wisdom; rest extra.,yes,3
+00:12:25,00:12:25,worship,star talents,,priority,any,,Star talent priority: SuperSource for base efficiency, Toilet Paper Postage for skill efficiency, Will the Eldest for base stats.,yes,3
+00:12:25,00:12:25,worship,star talents,,mechanic,any,,AFK gain rates don't really affect anything in Worship.,yes,3
+00:12:25,00:12:57,worship,frothy malk,,priority,any,,Frothy Malk is last for higher food bonuses for Soulble Gum.,yes,3
+00:12:57,00:12:57,worship|cards,cards,,setup,any,,Dune Soul and Rooted Soul cards give more starting points in Worship.,yes,3
+00:12:57,00:12:57,worship|cards,cards,,setup,any,,Frigid Soul card increases Maximum Charge Rate.,yes,2
+00:12:57,00:12:57,worship|cards,cards,,setup,any,,Penguin Walking Sticks and Jungle Slimes cards give more base Wisdom.,yes,3
+00:12:57,00:12:57,worship|cards,cards,,setup,any,,Crab Cakes cards reduce food consumption.,yes,3
+00:12:57,00:13:28,worship|cards,sir stache,,opinion,any,,Sir Stache card is a personal choice to increase card gain rate so he can finish Worship cards.,yes,3
+00:13:28,00:13:28,worship|cards,card sets,,setup,any,,Use the easy resources card set for more skill efficiency.,yes,3
+00:13:28,00:13:28,worship,post office,,priority,any,efficiency_pct=30,Crate of the Creator on the second Post Office upgrade tab can increase Worship efficiency by 30%.,yes,3
+00:13:28,00:13:59,worship,post office,,threshold,any,boxes=25;max_charge_pct=130,At 25 boxes Crate of the Creator starts giving Max Charge up to 130%.,yes,3
+00:13:28,00:13:59,worship,post office,,threshold,any,boxes=100;starting_points=54,At 100 boxes it gives more starting Worship points up to 54.,yes,3
+00:13:59,00:13:59,worship,obols,,setup,any,,Fill the personal obol tab with anything giving Worship power or Wisdom; even chopping obols can give Wisdom.,yes,3
+00:13:59,00:13:59,worship,obols family,,opinion,any,,Family obols are shared between characters; a nice bump but be smart about how you use them.,yes,3
+00:13:59,00:14:33,worship|bubbles,gospel leader,,priority,any,,Gospel Leader bubble gives more Maximum Charge Rate.,yes,3
+00:13:59,00:14:33,worship|bubbles,stable genius,,priority,any,,Stable Genius bubble gives more base Wisdom.,yes,3
+00:14:33,00:14:33,worship|bubbles,mage is best,,mechanic,any,,Mage is Best multiplies all passive bonuses from the small purple bubbles.,yes,3
+00:14:33,00:14:33,worship|bubbles,call me pope,,setup,any,,Call Me Pope is a large bubble that must be equipped on the right-hand side; it increases Worship Charge Rate.,yes,3
+00:14:33,00:14:33,worship|vials,crab juice,,priority,any,,Crab Juice vial gives more starting points in Worship Tower Defense.,yes,3
+00:14:33,00:15:05,worship|stamps,banked points,,priority,any,starting_points=24,Banked Points stamp gives him 24 more starting points for Tower Defense; others may get more or less.,yes,3
+00:15:05,00:15:05,worship|stamps,flowin,,priority,any,,Flowin stamp increases charge rate per hour and is a multiplier.,yes,3
+00:15:05,00:15:05,worship|stamps,book and arcane,,priority,any,,Combat Book stamp and Arcane stamp give more Wisdom.,yes,3
+00:15:05,00:15:37,worship|statues,statues,,priority,any,statues=2,Only 2 statues affect Worship; Twosouls gives more Worship power.,yes,3
+00:15:37,00:15:37,worship|statues,feasty,,priority,any,,Feasty statue gives more food effect, multiplying Soulble Gum.,yes,3
+00:15:37,00:15:37,worship|statues,golden statues,,priority,any,,Pick up golden statues as they make statues account wide.,yes,3
+00:15:37,00:15:37,worship|guild,guild bonuses,,priority,any,,Guild Multi-Tool gives more total skill efficiency and Stat Runes give more base stats.,yes,3
+00:15:37,00:15:37,worship|guild,star dazzle,,opinion,early,,Star Dazzle guild bonus is worth mentioning for lower level players for more star talent points.,yes,3
+00:15:37,00:16:07,worship|salt_lick,salt lick,,priority,w3,,Salt Lick page 2 gives more Tower Defense points from killing monsters.,yes,3
+00:16:07,00:16:07,worship|achievements,fat souls,,priority,w3,,Completing World 3 Fat Souls achievement gives more starting points in Worship Tower Defense.,yes,3
+00:16:07,00:16:07,worship|prayers,prayer obelisk,,mechanic,any,,Prayer Obelisk is the last major efficiency increase and a major Worship reward besides souls.,yes,3
+00:16:07,00:16:40,worship|prayers,unlock,,how_to,any,,Prayers are collected by completing higher waves in the different Tower Defenses.,yes,3
+00:16:40,00:16:40,worship|prayers,big brain time,,how_to,early,wave=10,Completing wave 10 of Forest Outskirts Totem unlocks Big Brain Time; each tier unlocks more prayers.,yes,3
+00:16:40,00:16:40,worship|prayers,unlock,,target,any,wave=81,His next prayer needs wave 81 of the Goblin Gorfest Worship totem.,yes,3
+00:16:40,00:17:14,worship|prayers,prayers,,mechanic,any,,Each prayer has a major benefit and a curse penalty; prayers can be upgraded by spending souls.,yes,3
+00:17:14,00:17:14,worship|prayers,upgrade,,mechanic,any,,Each upgrade level raises the benefit and also the curse penalty.,yes,3
+00:17:14,00:17:14,worship|prayers,skilled dimwit,,priority,any,skill_efficiency_pct=30;skill_xp_penalty_pct=-30,Skilled Dimwit gives 30% base skill efficiency at level 1 with -30% to all skill XP gain; upgradable with Forest Souls.,yes,3
+00:17:46,00:17:46,worship,alt characters,,how_to,any,levels=30-40,Worship is easy to level on alts: spend each character's charge at the best-EXP totem for 30 to 40 levels.,yes,3
+00:17:46,00:17:46,worship,alt characters,wizard,how_to,any,,Higher levels allow better Skulls for more Maximum Charge, which can be stolen with the Wizard's Charge Siphon.,yes,3
+00:17:46,00:18:20,worship|talent_points,worship levels,,mechanic,any,,You gain talent points for each Worship level gained on each character.,yes,3

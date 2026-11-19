@@ -1,0 +1,72 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,weekly_boss,spreadsheet,,how_to,any,,Weekly boss codes come from a spreadsheet made by a mod; link is on Discord and he posts it in every weekly video.,yes,3
+00:00:31,00:01:02,weekly_boss,code numbers,,how_to,any,rows=3,The numbers 1 2 3 in the code correspond to the first second and third option rows; click rows in code order.,yes,3
+00:01:02,00:01:32,weekly_boss,code notation,,how_to,any,,The (FR) full reset marker in the code has no bearing on what you do; ignore it.,yes,3
+00:01:32,00:02:02,weekly_boss,code notation,,how_to,any,,Hyphens between numbers in the code are only for readability; ignore them.,yes,3
+00:02:02,00:02:33,weekly_boss,five skulls run,,how_to,any,skulls=5,Left side of the code is the five skulls run; follow the sequence as written.,yes,3
+00:02:33,00:03:03,weekly_boss,five skulls run,,priority,any,skulls=5;frequency_per_week=1,Do the five skulls run first every week; it gives the maximum trophies for the week and only needs doing once per week.,yes,3
+00:03:03,00:03:34,weekly_boss,miscellaneous run,,mechanic,any,,Miscellaneous run gives the misc boss for the week plus bonus class EXP and bonus damage; amounts vary weekly and last the whole week.,yes,3
+00:03:03,00:03:34,weekly_boss,trophy run,,priority,any,trophies_per_day_oct15_week=11,Trophy run must be done every day since every trophy counts; the 15th of October week gives 11 trophies per day so definitely run it.,yes,3
+00:03:34,00:04:35,weekly_boss,daily misc and trophy run,,how_to,any,,Daily run: click the restart button then follow the misc and trophy code; on day one do both runs.,yes,3
+00:04:35,00:05:05,weekly_boss,character requirements,,mechanic,any,characters=1|4|5|6|9,This week's requirement is high crab cake kill digits (zeros count too) on characters 1 4 5 6 and 9; it changes every week.,yes,3
+00:05:05,00:05:36,weekly_boss,character requirements,,mechanic,any,characters=2|7,Mining level and cooking level requirements refer to skill levels and are listed by character order; characters 2 and 7 need high mining level this week.,yes,3
+00:05:05,00:05:36,weekly_boss|characters,character slot,elemental_sorcerer|arcane_cultist,account_note,any,character_2=elemental_sorcerer;character_7=arcane_cultist,His character 2 is an elemental sorcerer and character 7 (second page first slot) is an arcane cultist.,yes,2
+00:02:33,00:03:03,weekly_boss|shop,trophy currency,,account_note,any,trophies=144,He has 144 trophies and should be saving for pink headbands but is buying stopwatches instead.,yes,2
+00:06:06,00:06:36,spelunking|tasks,World Seven Marathon Delver task,,how_to,w7,,Marathon Delver task: dump all characters into the final cavern; it was pretty easy.,yes,3
+00:06:06,00:06:36,spelunking,elixir setup,,setup,w7,,He ran manic mode with an elixir setup; red potions multiply the stamina you use and gray potion is a true multi on that.,yes,2
+00:06:36,00:07:07,spelunking,blue potion,,mechanic,w7,proc_chance=50%,Blue potion gives a 50 percent chance to get stamina back so basically a free swing.,yes,3
+00:06:36,00:07:07,spelunking|tasks,overflow stamina,,mechanic,w7,,Overflow stamina does count toward the task; he did it himself despite someone claiming otherwise.,yes,3
+00:06:36,00:07:07,spelunking,potions,,how_to,w7,depth=200-300;floor_multiple=5,Get to a depth around 200 to 300; collect potions on every multiple of five floor for extra reds; pop all reds then swing hoping for blue procs.,yes,3
+00:07:07,00:07:38,spelunking|tasks,stamina tracker,,mechanic,w7,stamina_per_swing=100000;total_stamina=1000000;with_procs=1500000,Each swing costs about 100k stamina; with all characters at least a million and blue procs about 1.5 million; enough to finish the task.,yes,2
+00:07:38,00:08:10,spelunking,tracker meter,,opinion,w7,,This approach is also a good way to farm the tracker meter.,yes,2
+00:07:38,00:08:10,spelunking,tracker strategy,,account_note,w7,,Begyle on Discord has another strategy he has not tried yet and will report back after trying it.,yes,2
+00:07:38,00:08:40,spelunking,XR Throne,,comparison,late,multiplier=3-4x,XR Throne was garbage for amber stamina on day one but with higher power is three to four times better than scout post.,yes,3
+00:08:10,00:08:40,spelunking,XR Throne,,threshold,late,depth=late 300-early 400;power=1e36;half_power=5e35,Only use XR Throne if you can reach late 300 or early 400 depth; roughly 1e36 power or maybe half that.,yes,2
+00:08:10,00:08:40,spelunking,stamina spots,,priority,mid,,Without that power stick to Glitter End and scout post for amber stamina.,yes,3
+00:08:40,00:09:11,spelunking,stamina spots,,priority,early,,Early mid game rotate between Blush Pit Chucklemire and Lunaheim.,yes,3
+00:08:40,00:09:11,spelunking|talent_points,buy rotation,,setup,late,watermelon_points=39,On buy rotation he maxed the talent and super tier plus watermelon at 39 points for lower spelunking costs.,yes,2
+00:08:40,00:09:11,spelunking,glitter,,account_note,late,over_stamina=33-34,Tomorrow he will do another run and drop to Glitter if he reaches about 33-34 over stamina.,yes,2
+00:09:11,00:10:12,general,frogs map,,comparison,late,,Frogs are now the best place to farm statues and clusters; it used to be rams in world three until the world one mob respawn changes.,yes,3
+00:10:12,00:10:43,general,mob respawn,,warning,late,,Frogs only beat beans if the whole account is geared for mob respawn; it does not work out of the box.,yes,3
+00:10:12,00:11:14,armor_smithy|general,crook armor,siege_breaker,setup,late,mob_respawn_total=23%;stone_bonus_1=17%;stone_bonus_2=13%,Craft crook gear and put world seven stones on it since they raise misc bonus; craft until the siegebreaker plus one slot; about 23 percent mob respawn.,yes,2
+00:11:14,00:11:44,dungeons|general,negative seven keychain,,target,late,roll_ideal=12%;roll_ok=10%,Get the minus 7 chain from dungeon; ideal is a double six roll (12 percent) but 10 percent is fine; he spent millions of flobbers without it.,yes,2
+00:11:14,00:11:44,general,mob respawn chips,,how_to,late,,If you cannot hit the breakpoint chips with monster respawn are also pretty good for you.,yes,2
+00:11:44,00:12:17,general,mob respawn breakpoint,,threshold,late,mob_respawn=4%,Need about 4 percent mob respawn on frogs specifically; check the character page stats in IdleOn Toolbox.,yes,3
+00:11:44,00:12:47,general,dagger ring,,threshold,late,mega_ring=425,Dagger ring needs to be about 425 on mega ring; over it clears the whole map and loses crystals; under hits too few.,yes,2
+00:12:17,00:12:47,general,dagger ring,,how_to,late,,Dagger ring itself does not matter much and can be maxed with super talent.,yes,2
+00:12:47,00:13:18,general,frogs respawn test,,how_to,late,cooldown=1 second,Click your dagger ring; frogs respawning at a 1 second cooldown shows the setup is correct and then frogs beat beans and rams.,yes,3
+00:12:47,00:13:18,general,frogs vs beans,,warning,late,,Without the setup frogs are significantly worse than beans and rams.,yes,3
+00:13:18,00:13:49,general|achievements,mob respawn,,priority,late,,Push mob respawn from every source including achievements.,yes,3
+00:13:18,00:14:19,weekly_boss|dungeons,world boss party,,how_to,endgame,,He is always in a maxed party for the daily world boss; teleporting to it multiplies boss health and loot chance.,yes,3
+00:14:19,00:14:49,dungeons|weekly_boss,world boss drops,,mechanic,endgame,,World boss also multiplies flobbers and dungeon drops; he saw Doge get a billion of a currency from a single boss.,yes,2
+00:14:19,00:15:19,tome|dungeons,world boss reasons,,opinion,endgame,,Farming world bosses contributes toward tome and flobbers; needed to roll the minus 7 keychains for the frogs strategy.,yes,3
+00:15:19,00:15:52,dungeons,keychain rolls,,mechanic,endgame,rolls=1000,You will need to roll thousands of keychains to get the roll you want.,yes,3
+00:15:19,00:15:52,dungeons|spelunking,diamond huncle chain,,priority,endgame,skill_speed_max=4%;per_line=2%,Diamond hunk chain is best in slot if you get a high skill speed roll; maxes around 4 percent with about 2 percent per line.,yes,2
+00:15:52,00:16:22,spelunking|dungeons,skill speed,,mechanic,endgame,true_multi=6%,Skill speed is basically a true multi for spelunking; his two chains give about 6 percent on EXP and pages.,yes,2
+00:15:52,00:16:22,dungeons,dungeon avoidance,,how_to,endgame,,He hates running dungeon but does not need to since he farms world bosses in a big party.,yes,3
+00:16:22,00:16:52,divinity|characters|talent_points,talent level,elemental_sorcerer,account_note,endgame,talent_level=800,He reached a clean 800 talent level on his elemental sorcerer.,yes,2
+00:17:23,00:17:53,advice_fish|general,macro direction,,how_to,any,,Know which upgrades are vastly better by playing the class; for spelunking anything improving page reads or speed is best.,yes,2
+00:17:23,00:17:53,spelunking,multi-page chance,,priority,early,,Multi-page chance was really good very early.,yes,2
+00:17:53,00:18:23,spelunking,speed,,mechanic,any,,Spelunking speed works offline as well as online so it is effectively a true multi.,yes,3
+00:17:53,00:18:23,spelunking|library|talent_points,pit of pages talent,,priority,any,,New Pit of Pages and spelunking speed talent is cracked; max it in library fast and use super talent on it when page farming.,yes,3
+00:18:23,00:18:54,general,macro direction,,how_to,any,,Play through the mechanic to learn where the biggest gains come from and invest to reach that point.,yes,3
+00:18:23,00:18:54,drop_rate,additive and multipliers,,mechanic,any,,Drop rate is an outlier: every little additive source matters and then you throw all the multipliers on it.,yes,3
+00:18:54,00:19:56,drop_rate|cooking,drop rate demo,,account_note,endgame,drop_rate=300000;after_town=78000;peach_ring_gain=100000,His drop rate is about 300k; removing multipliers G cakes and gear shows how large each source is; Yummy Peach Ring mastery gave about 100k.,yes,2
+00:19:56,00:20:26,drop_rate|gallery,drop rate multipliers,,mechanic,endgame,drop_rate=65000,After removing nine dart and lucky lad his drop rate was 65k; multipliers do nothing if your additive is terrible.,yes,2
+00:20:26,00:20:56,drop_rate|gallery|hole,drop rate sources,,mechanic,endgame,monument_drop_rate=562%,Drop rate sources include gallery multi and flat drop rate Wanamus hole monuments; one monument shows 562 percent.,yes,2
+00:20:56,00:21:27,general,true multi,,priority,any,,Anything that is a true multi makes a big difference since it multiplies all other sources.,yes,3
+00:21:27,00:21:57,statues|class_exp,parchments of enchantment,royal_guardian,priority,endgame,,RG statues like Plutus are true multipliers; grinding parchments of enchantment is the most important thing now and means pushing Royal Guardian.,yes,2
+00:21:57,00:22:28,cooking,meals,,priority,any,,Cooking is among the most important mechanics because of meal bonuses and Yummy pet ring.,yes,3
+00:21:57,00:22:28,summoning|cooking,endless summoning,,priority,any,,Endless summoning is a big deal because meal bonuses feed into cooking.,yes,3
+00:22:28,00:22:59,hole,monuments,,priority,any,,Hole is a big deal because of monument buffs; bravery monument is the biggest source of mining efficiency.,yes,3
+00:22:28,00:22:59,hole|printer,mining efficiency,,mechanic,any,,Mining efficiency feeds copper income which feeds printer and allows reaching the QQs of prints.,yes,3
+00:22:59,00:23:30,cauldrons_liquids|bubbles,alchemy,,priority,any,top_mechanics=3-4,Alchemy is one of the top three or four mechanics; weak alchemy means a weak account.,yes,3
+00:22:59,00:23:30,atom_collider,atoms,,priority,any,,Atoms and collider have some really strong stuff and are worth caring about.,yes,2
+00:22:59,00:23:30,general,big four mechanics,,priority,any,big_four=4,The big four mechanics always matter so anything that buffs them should be pushed aggressively.,yes,3
+00:23:30,00:24:00,pets|bubbles,prisma bonus,,priority,endgame,,New pet giving Prisma bonus shards or bubble buffs should be pushed as soon as possible; that is how he values strength.,yes,2
+00:23:30,00:24:00,bubbles,Larry,,threshold,endgame,larry_bonus=400%,Larry just under 400 percent; pushing past 400 percent gives five if not six levels per alchemy click.,yes,3
+00:23:30,00:24:00,bubbles,Larry,,opinion,endgame,,Larry is the best bubble hands down.,yes,3
+00:24:30,00:25:01,cards|general,low value activities,,skip,any,,Card farming or maxing medium resources gives little value like skill EXP you will never use; farming G cakes is better.,yes,2
+00:25:01,00:25:32,damage|general,additive damage,,warning,any,,Do not grind additive damage for weeks; invest in command hole and endless summoning for bigger downstream damage gains.,yes,2
+00:25:32,00:26:02,drop_rate,exception,,mechanic,any,,Drop rate is the exception where every small bit makes a big difference; one keychain gave about 200 extra drop rate because his multis are strong.,yes,2
+00:26:02,00:27:02,drop_rate|event_shop,clicker week,,mechanic,endgame,drop_rate_before=3000;drop_rate_after=5000%;extra=2000,He knew clicker week would be strong since he already had 3000 drop rate; it raised to 5000 percent about 2000 extra.,yes,2

@@ -1,0 +1,73 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,talent_points,guide scope,shaman,meta_change,any,,Guide focuses on talent priority rather than completing the full build; creator has more talent points than viewer,yes,3
+00:00:00,00:00:31,talent_points,Gilded Sword,shaman,priority,early,,Tab 1 first priority is Gilded Sword for big damage boost against all monsters,yes,3
+00:00:31,00:00:31,talent_points,Sharpened Axe,shaman,priority,early,,Sharpened Axe second; one of the most important early game stats,yes,3
+00:00:31,00:00:31,talent_points,Idle Casting,shaman,target,early,points=50,Put 50 points into Idle Casting next,yes,3
+00:00:31,00:00:31,talent_points,Idle Casting,shaman,threshold,any,points_threshold=50;points=100;afk_gain=17%,Idle Casting has diminishing returns above 50 points; at 100 points only 17% AFK gain rate,yes,3
+00:00:31,00:01:03,talent_points,Overclocked Energy,shaman,priority,early,,Overclocked Energy is next priority as a main source of Shaman damage bonuses; max it out ASAP,yes,3
+00:01:03,00:01:03,talent_points,Mana Booster,shaman,priority,early,,Mana Booster next since it benefits Overclocked Energy and scales with points,yes,3
+00:01:03,00:01:33,talent_points,Agility,shaman,priority,early,,Choose damage or Agility next; Agility gives accuracy for Mages and is one of the most important early stats,yes,3
+00:01:33,00:01:33,talent_points,Agility,shaman,mechanic,early,,Without enough accuracy damage and stats are useless since you cannot hit mobs,yes,3
+00:01:33,00:01:33,talent_points,Agility,shaman,priority,early,,Creator maxes out Agility to show how much accuracy it gives,yes,3
+00:01:33,00:01:33,talent_points,Book of the Wise,shaman,priority,early,,Then put points into Book of the Wise; return to Tab 1 after Tab 3 for more points,yes,3
+00:01:33,00:02:06,talent_points,Power Overwhelming,shaman,priority,early,,Tab 2 first priority is Power Overwhelming,yes,3
+00:02:06,00:02:06,talent_points,Power Overwhelming,shaman,mechanic,early,,Power Overwhelming increases effect of weapon power on damage for a big damage boost,yes,3
+00:02:06,00:02:06,talent_points,Knowledge is Power|Mana Overdrive,shaman,priority,early,,Second priority is Knowledge is Power for wisdom effect or equally Mana Overdrive for mana,yes,3
+00:02:06,00:02:06,talent_points,Mana Overdrive,shaman,mechanic,early,,Mana Overdrive gives percent mana increase and helps scale Overclocked Energy,yes,3
+00:02:06,00:02:38,talent_points,AFK kill multiplier,shaman,mechanic,any,,There is a hidden AFK kill multiplier stat,yes,3
+00:02:38,00:02:38,talent_points,AFK kill multiplier,shaman,mechanic,any,max_multiplier=2.2,Active skills increase kills per hour while offline by up to 2.2 times,yes,3
+00:02:38,00:02:38,talent_points,Energy Bolt,shaman,mechanic,any,,Energy Bolt helps kill faster but does not affect AFK multiplier,yes,3
+00:02:38,00:03:11,talent_points,Energy Bolt|Mini Fireball,shaman,target,any,points_min=40;points_max=50,Put a few points in Energy Bolt but most into Mini Fireball; usually 40 to 50 for kill multiplier,yes,3
+00:03:11,00:03:11,talent_points,Untwisted Robes,shaman,priority,any,,Next big priority is Untwisted Robes,yes,3
+00:03:11,00:03:11,talent_points,Individual Insight|Untwisted Robes,shaman,warning,early,,With low equipment stats Individual Insight may come before Untwisted Robes,yes,3
+00:03:11,00:03:41,talent_points,Untwisted Robes,shaman,mechanic,late,,Untwisted Robes scales really well so level it as much as possible especially later in the game,yes,3
+00:03:11,00:03:41,talent_points,Individual Insight,shaman,priority,any,,Individual Insight comes after Untwisted Robes,yes,3
+00:03:41,00:03:41,talent_points,Choppin It Up EZ,shaman,mechanic,any,,Choppin It Up EZ gives small damage boost based on chopping minigame high score,yes,3
+00:03:41,00:03:41,talent_points,Choppin It Up EZ,shaman,target,any,points=50,Scaling is bad so keep it around 50 points; max if leftover points,yes,3
+00:03:41,00:04:14,talent_points,You're Next,shaman,opinion,any,,You're Next increases damage while actively playing online and is worth mentioning,yes,3
+00:04:14,00:04:14,talent_points,You're Next|Energy Bolt,shaman,setup,any,,If playing actively put points into You're Next and more into Energy Bolt for active gains,yes,3
+00:04:14,00:04:45,talent_points,Virile Vials,shaman,priority,any,,Tab 3 first priority is Virile Vials; largest damage bonus for Shaman,yes,3
+00:04:14,00:04:14,talent_points|vials,Virile Vials,shaman,threshold,any,vial_level=4,Virile Vials damage scales with number of vials leveled; they must be at least green level about level 4,yes,2
+00:04:45,00:04:45,talent_points,Wis Wumbo,shaman,priority,any,,Second priority is Wis Wumbo which lets you put more points into Book of the Wise on Tab 1,yes,3
+00:04:45,00:04:45,talent_points,Earlier Education,shaman,priority,any,,Next big priority is Earlier Education allowing more damage points in Tab 2,yes,3
+00:04:45,00:05:19,talent_points,active skills,shaman,priority,any,,Next priority is the Tab 3 active skills,yes,3
+00:05:19,00:05:19,talent_points,Crazy Concoctions,shaman,priority,any,,All three skills have offline AFK multiplier but Crazy Concoctions is bigger so prioritize it first,yes,3
+00:05:19,00:05:19,talent_points,active skills,shaman,target,any,points=20,With enough points spread about 20 points into each of the three skills,yes,3
+00:05:19,00:05:54,talent_points,Fantasia Flasks,shaman,priority,any,,Fantasia Flasks next priority; gives levels based on alchemy bubble Mage is Best,yes,2
+00:05:19,00:05:54,talent_points|bubbles,Fantasia Flasks|Mage is Best|Farsight,shaman,mechanic,any,,Fantasia Flasks adds levels to Farsight on Tab 1,yes,2
+00:05:54,00:05:54,talent_points,Farsight,shaman,mechanic,any,,Farsight increases crit chance and crit damage,yes,3
+00:05:54,00:05:54,talent_points|vials,Farsight,shaman,warning,any,,Do not level the vial higher than your alchemy vial level or points are wasted,yes,2
+00:05:54,00:06:29,talent_points,Farsight,shaman,how_to,any,,With spare resets put points in once then reset talents; boosted Farsight levels stay,yes,3
+00:06:29,00:06:29,talent_points,Farsight,shaman,setup,any,points_min=30;points_max=40;vial_level=38;extra_levels=33,Put 30-40 points in; vial about 38 gives extra 33 Farsight points that persist after reset,yes,3
+00:06:29,00:06:29,talent_points,Stupendous Statue,shaman,opinion,any,,Stupendous Statue gives no big benefit to Shaman damage,yes,3
+00:06:29,00:07:01,talent_points,Occult Obols,shaman,mechanic,any,,Occult Obols gives small damage boost based on wisdom from obols,yes,3
+00:07:01,00:07:01,talent_points,Occult Obols,shaman,comparison,any,points=100;wisdom_bonus=70%,At 100 points Occult Obols gives only about 70% more obol wisdom; not much gain,yes,3
+00:07:01,00:07:01,talent_points|bubbles,Cranium Cooking|Busy Brewin,shaman,opinion,any,,Better to put points into Cranium Cooking or Busy Brewin to boost alchemy gains while AFK,yes,3
+00:07:01,00:07:33,talent_points,Tenteyecle,shaman,mechanic,any,,Tenteyecle only beneficial on an actively played Shaman,yes,3
+00:07:33,00:07:33,talent_points,Tenteyecle,shaman,target,any,level_min=155;level_max=160,Tenteyecle reduces cooldowns a lot especially in the 155-160 range,yes,3
+00:07:33,00:08:07,talent_points,Wiz Wumbo|Fantasia Flasks,shaman,how_to,any,,After Tab 3 return to Tab 1 and put the extra points into the skills to get more wisdom,yes,3
+00:07:33,00:08:07,talent_points,Idle Casting,shaman,priority,any,,Spare points can finish leveling Idle Casting,yes,2
+00:08:07,00:08:07,talent_points,Farsight|Lucky Clover,shaman,priority,any,,Leftover points go to Farsight for crit or Lucky Clover for drop rate or EXP,yes,3
+00:08:07,00:08:07,talent_points,Fist of Rage,shaman,mechanic,any,,Fist of Rage boosts max HP and crit damage,yes,3
+00:08:07,00:08:38,talent_points,Will of the Eldest|Best Beginner Class,shaman,priority,any,,First star talents: Will of the Eldest and Best Beginner Class,yes,3
+00:08:38,00:08:38,talent_points,Will of the Eldest|Best Beginner Class,shaman,target,any,points=20;character_level=200,Most characters just under 200 so 20 points each; use fewer if characters are lower level since capped,yes,3
+00:08:38,00:08:38,talent_points,Attacks on Simmer,shaman,priority,any,,Next recommended is Attacks on Simmer for AFK gain rate,yes,3
+00:08:38,00:09:08,talent_points,Tick Tock,shaman,priority,any,,Tick Tock is another AFK gain rate boost that scales nicely with characters,yes,3
+00:09:08,00:09:08,talent_points,Goblet of Hemoglobin,shaman,opinion,any,,Goblet of Hemoglobin increases survivability with small heals and less food needed,yes,3
+00:09:08,00:09:38,talent_points|quests,Stonks!,shaman,mechanic,any,extra_points=48,Stonks! comes from Wellington quest line and gives up to 48 more star talent points,yes,3
+00:09:08,00:09:38,talent_points,Stonks!,shaman,target,any,points=30,If quest line completed put up to 30 points into Stonks!; otherwise none,yes,3
+00:09:38,00:09:38,talent_points,Dungeonic Damage,shaman,priority,any,,Star Tab 2 Dungeonic Damage gives very large damage increase,yes,3
+00:09:38,00:09:38,talent_points|dungeons,Dungeonic Damage,shaman,mechanic,any,,Dungeonic Damage based on dungeon credits ever earned; not needed in inventory,yes,3
+00:09:38,00:09:38,talent_points,Frothy Malk,shaman,priority,any,,Frothy Malk next for food boost; the rest is optional,yes,3
+00:09:38,00:10:08,talent_points,Telekinetic Storage,shaman,opinion,any,,Creator likes Telekinetic Storage for more carry capacity,yes,3
+00:10:08,00:10:08,talent_points|printer|buildings,Printer Sampling|Shrine Architect,shaman,target,any,points=1,Always put one point in Printer Sampling and Shrine Architect to place shrines,yes,3
+00:10:08,00:10:08,talent_points|class_exp,Just EXP,shaman,opinion,any,,Just EXP gives good class EXP bonus,yes,3
+00:10:08,00:10:08,talent_points,Pulsation,shaman,opinion,early,,Pulsation helps mana regeneration at earlier levels to use active skills more,yes,3
+00:10:08,00:10:38,talent_points|cards,Cardiovascular,shaman,opinion,any,,Cardiovascular increases card drops but is optional,yes,3
+00:10:38,00:10:38,talent_points,Megacrit,shaman,mechanic,any,,Megacrit bottom right gives crit chance and mega crits which add damage past 100% crit chance,yes,3
+00:10:38,00:11:11,talent_points,attack bar,shaman,how_to,any,,Always assign attacks to the attack bar; when active the slot order matters,yes,3
+00:11:11,00:11:11,talent_points,attack bar,shaman,how_to,any,,When AFK order does not matter; assign all active abilities so they are used automatically,yes,3
+00:11:11,00:11:11,talent_points,Storage Chest|Printer Sampling|Shrines,shaman,how_to,any,,Also grab attacks from special talents like Storage Chest Printer Sampling and Shrines,yes,3
+00:11:11,00:11:43,talent_points,reset,shaman,how_to,any,,Reset talent points using Talent Reset potions if misplaced or trying another build,yes,2
+00:11:43,00:11:43,talent_points,reset,shaman,how_to,any,,Fragments are bought in shops or dropped by monsters,yes,2
+00:11:43,00:11:43,talent_points|anvil|gem_shop,star talent reset,shaman,how_to,any,,Star Talent Reset Potion is crafted in Anvil Tab 2 or bought from the Gem Shop,yes,3

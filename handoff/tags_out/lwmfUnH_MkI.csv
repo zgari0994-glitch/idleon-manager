@@ -1,0 +1,24 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,weekly_boss,Blitzkrieg Troll location,,mechanic,w4,,Blitzkrieg Troll is at the end of World 4 in the Enclave of Eyes map,yes,3
+00:00:00,00:00:00,weekly_boss,accuracy,,threshold,w4,accuracy=900;hit_chance=100,Blitzkrieg Troll needs only about 900 accuracy for 100% hit chance,yes,3
+00:00:00,00:00:30,weekly_boss,accuracy,,threshold,w4,accuracy=16500;hit_chance=100,Other mobs up to Stilted Seekers need 16.5K accuracy for 100% hit chance,yes,2
+00:00:30,00:00:30,weekly_boss,keys,,mechanic,w4,keys_per_attempt=60,Each Nightmare attempt costs 60 keys whether or not you kill the boss,yes,3
+00:00:30,00:00:30,weekly_boss,keys,,how_to,w4,drop_chance=1/15000,Easiest key source is Stilted Seekers monster drops at 1 in 15000 chance,yes,3
+00:01:00,00:01:00,weekly_boss,keys,,how_to,w4,mobs_killed=15000,While offline fighting Stilted Seekers you get a guaranteed key per 15000 mobs killed,yes,3
+00:01:00,00:01:00,weekly_boss,keys,,how_to,w4,,Keys can also come from completing the World 4 Coliseum in TV Outpost map,yes,3
+00:01:00,00:01:30,weekly_boss,keys,,how_to,w4,drop_chance=1/2,Mutated Mush mini boss drops Troll's Enclave key at 1 in 2 chance,yes,3
+00:01:30,00:01:30,weekly_boss,fight start,,mechanic,w4,,Fight does not start until you attack the boss a few times,yes,3
+00:01:30,00:01:30,weekly_boss,abilities,,mechanic,w4,,Boss's one major ability is summoning tasks you must complete before you can damage it,yes,3
+00:01:30,00:01:30,weekly_boss,damage,,how_to,w4,attacks_per_window=3,You only get two to three attacks in per window so use high damage abilities,yes,3
+00:01:30,00:01:30,weekly_boss,boss health,,mechanic,w4,boss_hp=2000000000,Boss has about 2 billion health,yes,3
+00:02:02,00:02:02,weekly_boss,tasks,,mechanic,w4,,Failing a task heals the boss by a small percentage of its health,yes,3
+00:02:02,00:02:34,weekly_boss,movement speed,,setup,w4,,Have plenty of movement speed and use movement speed potions or you fail more tasks than not,yes,3
+00:02:34,00:02:34,weekly_boss,task dodge,,how_to,w4,,Task one: dodge all red dots on the ground and avoid hits for a few seconds to damage boss,yes,3
+00:02:34,00:02:34,weekly_boss,task damage,,how_to,w4,,After dodge task use high damage abilities to move to the next portion,yes,3
+00:02:34,00:03:04,weekly_boss,task crab,,how_to,w4,,Kill the Crab without killing Soda Cans by unequipping weapon and punching the Crab then re-equip,yes,3
+00:03:04,00:03:04,weekly_boss,task damage numbers,,how_to,w4,damage_numbers=100,Task requires creating 100 damage numbers popping up to complete it,yes,3
+00:05:20,00:05:20,weekly_boss,loot,,mechanic,w4,,Troll Scales drop and are used to craft Troll Armor,yes,3
+00:05:20,00:05:20,merits|armor_smithy,troll armor,,blocker,w4,,Must complete the World 4 Merit Task to craft Troll Armor,yes,3
+00:05:20,00:05:20,weekly_boss,loot,,mechanic,w4,base_stats=9;defense=10;all_stats_pct=3,Jagged Obol of Massive Trolling gives +9 base stats and 10 defense and 3% all stats,yes,3
+00:05:20,00:05:50,weekly_boss|cape_vine,loot,,mechanic,w4,all_stats=10;weapon_power=1;all_stats_pct=6,Cascading Scaled Cape of Krieg gives +10 all stats and 1 weapon power and 6% all stats,yes,3
+00:05:50,00:05:50,weekly_boss,loot,,opinion,w4,,The Cascading Scaled Cape is a good cape obtainable from this boss,yes,3

@@ -1,0 +1,59 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,quests,maestro unlock,maestro,mechanic,early,,Maestro is locked behind a hidden quest chain with multiple requirements,yes,3
+00:00:00,00:00:00,quests,maestro unlock,beginner,warning,early,,Quest can only be done by a beginner class character and progress is not shared between characters,yes,3
+00:00:00,00:00:00,quests,maestro unlock,beginner,warning,early,class_select_level=10,Do not pick any class at the level 10 class selection quest on the character meant for Maestro,yes,3
+00:00:00,00:00:31,quests,peanut recipe,,how_to,early,,You must obtain the Peanut Recipe from the Picnic Stowaway by completing his first daily quest,yes,3
+00:00:31,00:00:31,quests,picnic stowaway,,mechanic,early,quests_before_daily=3,Three Picnic Stowaway quests must be done before the daily quest is accessible,yes,3
+00:00:31,00:00:31,quests,picnic stowaway,,threshold,early,frog_legs=200;bean_slices=100,First daily quest requires 200 Frog Legs and 100 Bean Slices,yes,3
+00:00:31,00:00:31,quests,peanut recipe,,mechanic,early,,Peanut Recipe drops on the ground when you pick up the second quest for the first time,yes,3
+00:00:31,00:01:02,quests,journeyman,journeyman,mechanic,early,,First step to Maestro is becoming a Journeyman which is the basic class for Maestro,yes,3
+00:01:02,00:01:02,quests,journeyman,journeyman,warning,early,,Once Journeyman the character is locked out of becoming Warrior or Archer or Mage,yes,3
+00:01:02,00:01:02,quests|anvil,journeyman,journeyman,threshold,early,peanuts=1651;gold_bars=250,Journeyman quest chain needs 1651 Peanuts and 250 Gold Bars,yes,3
+00:01:02,00:01:33,anvil,peanut recipe,,mechanic,early,hot_dogs=2;copper_ore=1;bleach_log=1,Each Peanut is crafted in Anvil tab 1 from 2 Hot Dogs and 1 Copper Ore and 1 Bleach Log,yes,3
+00:01:02,00:01:33,anvil,peanut recipe,,threshold,early,hot_dogs=3302;copper_ore=1651;bleach_logs=1651,Total materials for all peanuts: 3302 Hot Dogs and 1651 Copper Ore and 1651 Bleach Logs,yes,3
+00:01:33,00:01:33,quests,journeyman,journeyman,advice,early,,Recommends having all materials ready before beginning the quest chain,yes,3
+00:01:33,00:02:04,quests,journeyman,journeyman,how_to,early,peanuts=1,Start the chain at the bush next to the Jungle Tree in the Vegetable Patch World 1 by dropping 1 Peanut near it,yes,3
+00:02:04,00:02:34,quests,journeyman,journeyman,threshold,early,quests=3;peanuts_2=50;peanuts_3=200;peanuts_4=400,Bush has 3 more quests needing 50 then 200 then 400 peanuts dropped; completion gives a Stone Peanut,yes,3
+00:02:34,00:02:34,quests,journeyman,journeyman,how_to,early,,Take the Stone Peanut to the suspicious rock in the bottom right of Froggy Fields and drop it to get the fifth quest,yes,3
+00:02:34,00:02:34,quests,journeyman,journeyman,threshold,early,peanuts=500,Fifth quest requires dropping 500 more Peanuts on the ground at the rock,yes,3
+00:02:34,00:03:08,quests|anvil,golden peanut,journeyman,how_to,early,,After the rock quest you get a Golden Peanut recipe then craft Golden Peanuts at the town Anvil,yes,3
+00:03:08,00:03:08,anvil,golden peanut,,threshold,early,peanuts=100;gold_bars=50;golden_peanuts_needed=5,Each Golden Peanut needs 100 Peanuts and 50 Gold Bars and quest needs 5,yes,3
+00:03:08,00:03:08,quests,journeyman,journeyman,how_to,early,,Drop the 5 Golden Peanuts at the rock to become Journeyman and get a trophy,yes,3
+00:03:08,00:03:41,quests,maestro unlock,journeyman,setup,early,,Next chain requires a Bag o Nuts and Googly Eyes for a boss summon and several skill levels,yes,3
+00:03:41,00:03:41,quests,maestro unlock,maestro,threshold,early,mining=32;smithing=35;chopping=33,Required skill levels: Mining 32 and Smithing 35 and Chopping 33,yes,3
+00:03:41,00:04:12,quests,maestro unlock,maestro,threshold,early,fishing=23;alchemy=25;catching=25,Required skill levels: Fishing 23 and Alchemy 25 and Catching 25,yes,3
+00:04:12,00:04:12,quests,bag o nuts,,how_to,early,quests=5,Bag o Nuts needs 5 quests from Goldric in the Shifty Sandbox in World 2,yes,3
+00:04:12,00:04:46,quests,bag o nuts,,threshold,early,coins=15,Goldric quest one: collect 15 coins from the ground after quest starts by killing Sand Castles,yes,3
+00:04:12,00:04:46,quests,bag o nuts,,threshold,early,hoops_row=15;hoops_total=90,Goldric quest two: Catching minigame 15 hoops in a row or 90 hoops total,yes,3
+00:04:46,00:04:46,quests,bag o nuts,,threshold,early,cards_each=200,Third quest: 200 cards each from Mimics and Mafiosos and Sand Castles,yes,3
+00:04:46,00:04:46,quests,bag o nuts,,afk_spot,early,,Mimics are in Mimic Hole; Mafiosos in Grandioso Canyon; Sand Castles in Shifty Sandbox,yes,3
+00:04:46,00:05:17,quests,bag o nuts,,how_to,early,golden_plop=1,Fourth quest wants a Golden Plop dropped by Poops in the World 1 Sewers,yes,3
+00:05:17,00:05:17,quests,bag o nuts,,how_to,early,,Fifth quest requires wearing Golden Helmet and Golden Plate Body and Golden Plate Legs plus any Golden Tool,yes,3
+00:05:17,00:05:47,quests,maestro unlock,maestro,how_to,early,,Take the Bag o Nuts to Snelbies area second to last map in Yum Desert and drop it at the Cactus,yes,3
+00:05:47,00:05:47,quests,maestro unlock,maestro,mechanic,early,quests=3,Cactus has 3 quests: mining/smithing/chopping levels then fishing/alchemy/catching levels then defeat the boss,yes,3
+00:05:47,00:06:18,quests,maestro unlock,maestro,mechanic,early,,Third quest: defeat Biggie Hours World 2 mini boss while holding Pete the Peanut given at quest start,yes,3
+00:06:18,00:06:18,quests,maestro unlock,maestro,mechanic,early,hp=1,While Pete is in inventory HP drops to 1 and damage is halved,yes,3
+00:06:18,00:06:18,quests,maestro unlock,maestro,how_to,early,,After killing Biggie Hours return to the cactus to turn in and become Maestro,yes,3
+00:06:18,00:06:18,quests,maestro unlock,maestro,mechanic,early,level=70,Maestro needs level 70 to equip the trophy which gives large Skill EXP and Defense bonus,yes,3
+00:06:18,00:06:18,quests,maestro unlock,maestro,opinion,early,,No rush to complete the questline since trophy is only usable at level 70,yes,3
+00:06:50,00:07:23,quests,biggie hours,maestro,how_to,early,hp=1,Method one: use a Wooden Bow to fight at range and dodge by going down the rope ladder as he approaches,yes,3
+00:06:50,00:07:23,quests,biggie hours,maestro,how_to,early,,Go back up only when he is far from the bridge and descend as soon as he turns back; wait enough time,yes,3
+00:07:23,00:07:23,quests,biggie hours,maestro,threshold,early,defense=594,Method two: above 594 Defense he cannot damage you so you can punch him to auto attack,yes,3
+00:07:23,00:07:57,armor_smithy,gear,,how_to,early,,Use best armor such as Dementia Gear or Efaunt Gear from the World 2 boss for Defense,yes,3
+00:07:57,00:07:57,armor_smithy,gear,,mechanic,early,boots_defense_pct=7,Dementia or Efaunt gear gives bonuses such as 7% Defense just for the boots equipped,yes,2
+00:07:57,00:07:57,dungeons,keychain,,how_to,early,keychain_defense=10,Keychains from Dungeons can have up to 10 Defense,yes,3
+00:07:57,00:07:57,armor_smithy,upgrade stone,,how_to,early,defense_per_stone=4,Use the highest Upgrade Stones; World 4 stones give 4 Defense each,yes,3
+00:07:57,00:08:29,dungeons,flurbo shop,,how_to,early,,Spend Flurbos in the Dungeon Flurbo Shop for percent Defense but it is costly to upgrade enough,yes,3
+00:08:29,00:08:29,cooking,golden meat pie,,how_to,early,,Golden Meat Pie gives a percent boost to total Defense,yes,3
+00:08:29,00:08:29,bubbles,FMJ,,how_to,early,base_defense_per_class_level=1,Orange alchemy bubble FMJ gives percent Defense from equipment and 1 base Defense per class level,yes,3
+00:08:29,00:08:59,gem_shop,obols,,how_to,early,base_defense=5,Amarok's Obol gives percent Defense and 5 base Defense,yes,3
+00:08:59,00:08:59,gem_shop,obols,,how_to,early,,Circular Obols can also give more Defense,yes,3
+00:08:59,00:08:59,cards,defense cards,,how_to,early,,Oak Tree card gives base Defense; Forest Soul card gives percent Defense; Sheepie card gives Defense,yes,3
+00:08:59,00:08:59,cards,defense cards,,how_to,early,,Golden Giftmas Box card gives percent Defense,yes,2
+00:08:59,00:09:29,cards,card set,,how_to,early,,Frostbite Tundra card set gives Defense and Accuracy,yes,3
+00:09:29,00:09:29,worship,shrines,,how_to,w3,,In World 3 the Isaccian Shrine gives more HP and Defense; slow to level but percentage based,yes,3
+00:09:29,00:09:29,general,post office,,how_to,early,,Box of Unwanted Stats second stat increases Base Defense,yes,3
+00:09:29,00:10:02,general,star signs,,how_to,early,defense_pct=6,Ned Kelly star sign gives +6% Defense and Weapon Power,yes,3
+00:10:02,00:10:02,general,star signs,,how_to,early,defense_pct=10,Murmollio star sign gives 10% more Defense,yes,2
+00:10:02,00:10:02,talent_points,bucklered up,,how_to,early,,Spend talent points on Bucklered Up in Tab 1 for percent total Defense,yes,3
+00:10:02,00:10:02,talent_points,bucklered up,,opinion,early,,He considers Bucklered Up a last resort to avoid resetting Star Talents,yes,3

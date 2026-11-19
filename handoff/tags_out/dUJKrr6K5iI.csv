@@ -1,0 +1,30 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,none,intro,,meta_change,any,version=1.8,"Version 1.8 patch brings the Rift end game content, shiny pets buffs and a giveaway announcement.",yes,3
+00:00:00,00:00:30,breeding,shiny pets,,meta_change,any,,Shiny pets were already unlockable but now have a buff that hugely boosts your account.,yes,3
+00:00:00,00:00:30,breeding,paint bucket,,how_to,any,world=4;breeding_level=40,Buy the Paint Bucket upgrade with gray DNA at breeding level 40 to unlock the ability to attempt shiny pets.,yes,3
+00:00:30,00:00:30,breeding,shiny pets,,mechanic,any,colors=5,Shiny comes in five colors but colors are cosmetic only; all shinies are the same.,yes,3
+00:00:30,00:00:30,breeding,fence yard,,how_to,any,,Put shiny pets into the fence yard to level their perk; see the buff in the special tab.,yes,3
+00:00:30,00:00:30,breeding,shiny pets,,mechanic,any,,Each shiny has its own special perk and levels up by time spent in the fence yard.,yes,3
+00:00:30,00:01:01,breeding,fence yard,,mechanic,any,shinies=6;days=6,Multiple copies of the same shiny in fence yard speed progress; six shiny spores give six days of progress per day.,yes,3
+00:01:01,00:01:01,breeding,shiny pets,,mechanic,any,,"Shiny buffs include base stats, shiny speed, total damage percent, meal effect percent and more.",yes,3
+00:01:01,00:01:32,breeding,shiny pets,,priority,early,,"Level green spore, wooden board, crescent spud and quenches shiny first because they give shiny speed, reducing time to level other shinies.",yes,2
+00:01:32,00:01:32,achievements,steam link,,meta_change,any,,iOS can now officially link to Steam accounts so Steam-blocked achievements can be obtained.,yes,3
+00:01:32,00:02:02,gem_shop,rift walker bundle,,meta_change,any,,Gem shop has a pricey Rift Walker bundle with cool wings.,yes,3
+00:01:32,00:02:02,gem_shop,name tag,,meta_change,any,,New cosmetic name tag item; OZO rewards staff hats as well.,yes,2
+00:02:02,00:02:34,rift,unlock,,how_to,late,,"Reach the octodars map in World 4, take the rope at the right of the map up, and complete the NPC questline to unlock the rift.",yes,3
+00:02:02,00:02:34,rift,unlock,,account_note,any,,Rift unlock is account-wide so you only need to do it on one character.,yes,2
+00:02:02,00:02:34,rift,tasks,,mechanic,any,start_stage=1,Start at Rift stage one; standing on the big rip portal shows the task needed to advance to the next level.,yes,3
+00:02:34,00:02:34,rift,enemies,,mechanic,any,,Enemies scale each time you go deeper into the rift.,yes,3
+00:02:34,00:02:34,rift,tasks,,mechanic,any,afk_kills=1000000;kills=500,"Rift tasks range from 1 million AFK kills to 500 kills in a time limit, orb kills, siege breaker, flight, coins etc.",yes,3
+00:02:34,00:03:05,rift,upgrades,,mechanic,any,,Traversing the rift gives upgrades that are very strong.,yes,3
+00:03:05,00:03:05,rift|traps,auto trapping,,mechanic,any,hours=24,A rift buff gives automatic trapping every 24 hours: all traps collected and deposited into storage.,yes,3
+00:03:05,00:03:05,rift|traps,auto trapping,,mechanic,any,trap_hours=20,No need to check trapping if you have a 20 hour trap on.,yes,2
+00:03:05,00:03:36,rift|constellations,infinity star size,,mechanic,any,,Infinity star size buff makes all star signs passive so they need not be equipped.,yes,3
+00:03:05,00:03:36,rift|breeding,infinity star signs,,how_to,any,,Infinity star signs come from shiny breeding; pets rewarding them are squirrel Pig sir stash goblins (names garbled).,yes,2
+00:03:36,00:03:36,rift|cards,skilling cards,,mechanic,any,,Another rift upgrade might make skilling cards passive.,no,2
+00:03:36,00:03:36,rift,max rift,,mechanic,any,max_rift=40,Current max rift is 40 with more to be added in the future.,yes,3
+00:03:36,00:03:36,rift,progression,,warning,late,,Rift is late game progression; don't expect to push it as soon as you reach octodars but work towards it.,yes,3
+00:03:36,00:03:36,rift,guide,,meta_change,any,,He will eventually make a rift guide once things are more fleshed out.,yes,3
+00:03:36,00:04:07,guild,discord,,account_note,any,,Join the itty bitty Army Discord with the idle index which gives most things needed for the game.,yes,3
+00:04:07,00:04:07,guild,itty bitty army,,account_note,any,guilds=5,They now have five guilds in total; join the Discord to be part of the itty bitty Army.,yes,3
+00:04:07,00:04:37,none,giveaway,,meta_change,any,,Giveaway of a limited edition Ram plushie; find the secret word in the video and comment with first character's name plus word; NA only.,yes,3

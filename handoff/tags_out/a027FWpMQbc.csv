@@ -1,0 +1,49 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:32,statues,statue unlock,,how_to,any,,"Unlock statues by doing the Town Marble NPC quest line in W1: buy a sculptor tool from the W1 shop and give it to him.",yes,3
+00:00:00,00:00:32,statues,statue drops,,mechanic,any,,"A statue is a rare drop from monsters or resources; it buffs your character, and all characters once the golden sculptor tool is unlocked.",yes,3
+00:00:32,00:01:03,statues,deposit,,how_to,any,,"Interact with the Town Marble NPC and drag and deposit statues; each statue levels up for bigger bonuses like base damage, health or mining power.",yes,3
+00:00:32,00:01:03,statues,statue count,,mechanic,w5,statues=25,"There are 25 statues as of world 5.",yes,3
+00:00:32,00:01:03,statues,account bound,,mechanic,any,,"Deposited statues only affect one character until you have the golden statue, which merges the highest-level statue of each character.",yes,3
+00:01:03,00:01:34,statues,golden sculptor tool,,how_to,any,,"Buy the golden sculptor tool at the W2 shop and drop it in front of the Town Marble NPC; he turns gold and a new tab pays money to make statues golden (account bound).",yes,3
+00:01:03,00:01:34,statues|money,golden statue,,mechanic,any,,"Making statues golden costs money in the new tab and makes them account bound for everybody.",yes,2
+00:01:34,00:02:04,statues,power statue|health statue,,afk_spot,any,,"Power statue (base damage) and health statue (base health) are best farmed at W1 or W3 crystal mobs.",yes,2
+00:01:34,00:02:04,statues,bullseye,,afk_spot,any,,"Bullseye statue (accuracy %) is best farmed at walking sticks.",yes,2
+00:01:34,00:02:04,statues,beholder|speed|beasty,,afk_spot,any,,"Beasty (food effect), Beholder (crit chance) and Speed (boat speed) are best farmed at W1, W2 or W3 crystal mobs.",yes,2
+00:01:34,00:02:04,statues,lumber bob|oso,,afk_spot,any,,"Lumber Bob (chopping power) is best farmed at W1 crystals and mining nodes.",yes,2
+00:01:34,00:02:04,statues,mining statue,,afk_spot,any,,"Mining statue (mining power) is best farmed at W1 crystals or any chopping nodes.",yes,2
+00:02:04,00:02:34,statues,anvil|xp book|cauldron,,afk_spot,any,,"Anvil (production speed), XP book (XP %) and Cauldron (alchemy XP) are best farmed at W2 crystals.",yes,3
+00:02:04,00:02:34,statues,old reliable,,afk_spot,any,,"Old Reliable (catching power) is best farmed at W2 crystals and fishing nodes.",yes,2
+00:02:04,00:02:34,statues,thick skin,,afk_spot,any,,"Thick Skin (base defense) is best at W2 crystals, specifically the palm trees at the crab cakes map.",yes,2
+00:02:04,00:02:34,statues,exp statue,,afk_spot,any,,"EXP statue (skill XP) is best farmed at W3 crystals and the monolith quest.",yes,2
+00:02:04,00:02:34,statues,kachow,,mechanic,any,,"Kachow is an extremely rare statue rewarding crit damage percent.",yes,2
+00:02:34,00:03:05,statues,kachow,,afk_spot,any,,"Kachow is rewarded by the picnic stowaway daily quest at the frogs map and the monolith quest in W4.",yes,2
+00:02:34,00:03:05,statues,ocean man,,afk_spot,any,,"Ocean Man (fishing power) is best at catching nodes.",yes,2
+00:02:34,00:03:05,statues,box statue,,afk_spot,any,,"Box statue (trapping power) is best farmed at W3 sheepies and penguins.",yes,2
+00:02:34,00:03:05,statues,soul statue,,afk_spot,any,,"Soul statue (worship power) is best farmed at W3 Sir Stash and quenchies.",yes,2
+00:02:34,00:03:05,statues,seesaw,,afk_spot,any,,"Seesaw (construction XP) is best farmed at W3 blobs and chytos snakes?",yes,1
+00:02:34,00:03:05,statues,pia statue|mutton|egg,,afk_spot,any,,"Pia (monster cache?), Mutton (cooking XP) and Egg (breeding XP) are all best farmed at W4 crystal mobs.",yes,1
+00:03:05,00:03:36,statues,battle axe|boat|spiral,,afk_spot,w5,,"Battle Axe (damage %), Boat (sailing speed) and Spiral (divinity XP) are best farmed at W5 crystals.",yes,2
+00:03:05,00:03:36,statues,crystal mobs,divine_knight,priority,any,,"For most statues the best places are crystal mobs, best done with the Divine Knight.",yes,3
+00:03:05,00:03:36,statues,normal mobs,elemental_sorcerer,priority,any,,"For statues dropping from normal mobs like sheepy or quenchies, the Elemental Sorcerer is the best class.",yes,3
+00:03:36,00:04:06,statues|cards,drop table,elemental_sorcerer,how_to,any,,"Rule of thumb: anything on the first card page is farmed with the Elemental Sorcerer; rare drop table items are better with the Divine Knight.",yes,3
+00:03:36,00:04:06,drop_rate|statues,drop rate,,priority,any,,"Run tons of drop rate when farming statues.",yes,3
+00:03:36,00:04:06,cards,card setup,divine_knight,setup,any,,"He shows an image of the best card setup for Divine Knight and Elemental Sorcerer.",yes,2
+00:04:06,00:04:39,bubbles|statues,statue exp bubble,,priority,any,,"Hard focus the statue EXP bubble: when levelling statues the XP bar doesn't drop to a certain percent, saving hundreds or thousands worth of statues.",yes,2
+00:04:06,00:04:39,vials|statues,skinny zero cal,,priority,any,,"Skinny Zero Cal vial gives a percent chance to double all statue deposits.",yes,3
+00:04:06,00:04:39,vials|statues,skinny zero cal,,how_to,any,vial_level=13,"The rip bonus Bemy gives every vial a multiplicative bonus per level 13 vial, letting Skinny Zero Cal pass 100% and guarantee double statue deposits.",yes,2
+00:04:39,00:05:10,talent_points|statues,statue beautification,voidwalker,priority,any,,"Voidwalker talent Statue Beautification boosts all statues for every character, unlike other statue talents like Shielded Statues which only affect one.",yes,2
+00:04:39,00:05:10,talent_points|statues,statue beautification,voidwalker,target,endgame,max_level=245;statue_bonus_pct=110,"Statue Beautification at its current max of 245 gives a 110% increase to statue bonuses.",yes,2
+00:04:39,00:05:10,talent_points|statues,statue beautification,voidwalker,mechanic,any,,"Statue Beautification stacks with other statue talents.",yes,3
+00:05:10,00:05:40,statues,onyx statue,,mechanic,late,statue_bonus_mult=2;deposit_bonus_pct_per_onyx=10,"Onyx statue is the most recent and likely final upgrade, giving 2x statue bonus and stackable 10% statue deposit bonus per Onyx statue unlocked.",yes,3
+00:05:10,00:05:40,statues,onyx sculptor tool,,how_to,w4,,"The monolithic NPC at the Flom beige in W4 gives the Onyx sculptor tool.",yes,2
+00:05:40,00:06:12,statues,onyx quest 1,,how_to,w4,statue_levels=250;unique_statues=17,"First Onyx quest needs 250 statue levels and 17 unique statues, one of each; they aren't consumed so you can transfer them to other characters.",yes,3
+00:05:40,00:06:12,statues,onyx quest 2,divine_knight,how_to,w4,power_statues=20000;total_power_statues=200000,"Second quest needs 20K power statues, farmable on your DK at the borne beans map and transferred to other characters; 200,000 in total.",yes,2
+00:05:40,00:06:12,statues,onyx quest 3,,how_to,w4,statues=100000,"Last quest requires 100K of any statue, done on the character that accepted the quest; the Onyx tool is rewarded at this stage.",yes,2
+00:06:12,00:06:42,statues|drop_rate,onyx quest 3,,how_to,w4,statues=100000,"If farming the 100K statues on a non-DK character, farm a mining or chopping node with full drop rate, AFK or use time candy.",yes,2
+00:06:12,00:06:42,statues,onyx unlock,,how_to,w4,,"Drop the Onyx sculptor tool in front of the statue man to unlock Onyx statue; base damage is already upgraded from the quest.",yes,3
+00:06:12,00:06:42,statues,onyx upgrade,,how_to,late,statues_per_upgrade=20000;upgrades=24,"To upgrade other statues to Onyx, drop 20K of that statue in front of the statue man, 24 more times in total.",yes,3
+00:06:42,00:07:13,statues,kachow,,mechanic,late,reward_per_character=10000;total=80000,"The 100K statue quest rewards 10,000 kachow statues per character, 80k total, after using 20K to make it Onyx.",yes,2
+00:06:42,00:07:13,statues,kachow,,priority,late,,"Don't deposit the extra kachow statues yet; use only 20K to upgrade to Onyx and bank the rest until all other statues are Onyx.",yes,3
+00:07:13,00:07:45,statues,onyx deposit bonus,,mechanic,endgame,deposit_bonus_pct=250;base=80000;result=280000,"With all Onyx statues you get a 250% increase to statue deposits; 80k banked statues become 200k plus 80k, 280,000 potency.",yes,2
+00:07:13,00:07:45,statues|vials,skinny zero cal,,mechanic,endgame,doubled_total=560000;cost=80000,"With Skinny Zero Cal at 100% doubling, 80k kachow statues become 560,000 worth for a cost of 80,000.",yes,2
+00:07:45,00:08:16,statues|vials,skinny zero cal,,mechanic,endgame,deposit_mult=7,"With max Skinny Zero Cal and all Onyx statues you get 7x statue deposits, not including the statue EXP bubble.",yes,2

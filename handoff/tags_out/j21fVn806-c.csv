@@ -1,0 +1,57 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,worship,soul game,,meta_change,any,,"Worship guide is multi-part; this part covers the Soul game, Tower Defense comes in a later video.",yes,3
+00:00:00,00:00:31,worship,totem,,mechanic,w3,,Worship is a World 3 skill; you use charge at a totem or the easy access totem from construction.,yes,3
+00:00:00,00:00:31,worship|class_choice,soul game,wizard,priority,any,,Wizard is the best class for the Soul game thanks to the charge siphon talent.,yes,3
+00:00:31,00:01:01,worship|talent_points,charge siphon,wizard,mechanic,any,,Charge siphon steals charge from all other players to greatly increase max charge so you collect souls on the wizard instead of each character.,yes,3
+00:00:31,00:01:01,worship,charge,,how_to,any,,Check charge speed and current charge in inventory skill info under worship; charge cap depends on the skull (worship tool) and other buffs.,yes,2
+00:00:31,00:01:01,worship|gem_shop,skull,,how_to,any,,Buy bigger charge buffs from the first skull in the World 3 shop.,yes,1
+00:00:31,00:01:01,worship|characters,charge siphon,wizard,priority,any,,Get all characters high in worship so the charge siphon wizard gets even more charge.,yes,2
+00:01:01,00:01:32,worship,forest soul,,target,w3,charge=25,Forest Soul is the Goblin Gorefest totem in forest outskirts (goblins map) and costs 25 charge.,yes,3
+00:01:01,00:01:32,worship,dune souls,,target,w3,charge=40,Dune Souls is the Waka Waka War totem at up down (moonman map) for 40 charge.,yes,3
+00:01:01,00:01:32,worship,rooted souls,,target,w3,charge=60,Rooted Souls is the Acorn Assault totem at the roots (bottom right portal of walking sticks map) for 60 charge.,yes,3
+00:01:32,00:02:04,worship,frigid soul,,target,w3,charge=90,Frigid Soul is the Frosty Firefight totem at rolling tundra (snowman map) for 90 charge.,yes,2
+00:01:32,00:02:04,worship,squishy souls,,target,w3,charge=120,Squishy Souls is the Clash of Cans totem at mountainous dew (cans map) for 120 charge.,yes,3
+00:01:32,00:02:04,worship,uzi soul,,target,w3,charge=250,Uzi Soul is the new Citric Conflict totem at OJ Bay (citroen map) costing 250 charge.,yes,2
+00:02:04,00:02:34,worship|construction,easy totem,,how_to,w3,,Reaching a certain level in automation arm unlocks the easy totem at the top of World 3 town map.,yes,2
+00:02:04,00:02:34,worship,easy totem,,threshold,w3,wave=10,Easy totem lets you worship only after completing over wave 10 of Tower Defense.,yes,2
+00:02:04,00:02:34,worship|storage,easy totem,,mechanic,w3,,Easy totem means you don't need much carry capacity since you can run up and down from storage.,yes,3
+00:02:04,00:02:34,worship|construction,easy totem,,priority,w3,,Get the easy totem as soon as possible.,yes,3
+00:02:04,00:02:34,worship,skull,,warning,any,,Use up full charge on a skull before swapping to a new skull or you lose that skull's charge.,yes,3
+00:02:34,00:03:05,worship,tower defense,,mechanic,any,,Highest wave in Tower Defense increases soul gain.,yes,3
+00:02:34,00:03:05,worship|class_exp,efficiency,wizard,mechanic,any,,Skill efficiency gives extra soul bonuses and wizard as the specialized class gets massive bonuses.,yes,2
+00:02:34,00:03:05,worship,efficiency,,threshold,any,eff1=60;eff2=250;eff3=1000;eff4=3000;eff5=8000,Soul bonus from efficiency steps start at 60 then 250 1000 3000 and 8000.,yes,2
+00:02:34,00:03:05,worship,wisdom,,how_to,any,,Easiest efficiency bonus is wisdom; higher wisdom means higher efficiency.,yes,2
+00:03:05,00:03:36,worship|constellations,star sign,,how_to,any,worship_efficiency=15;worship_xp=15,Star sign Praise Be? in hydron gives 15 worship efficiency and 15 worship XP.,yes,2
+00:03:05,00:03:36,worship|statues,statue,,how_to,any,,Creator statue? gives worship power which is the skill equivalent of weapon power.,yes,2
+00:03:05,00:03:36,worship,worship power,,how_to,any,,Worship ovals? give worship power and wisdom things help charge and max charge.,yes,1
+00:03:05,00:03:36,worship|lab|divinity,max charge,,opinion,any,,Charge rate and max charge matter especially if you are chilling in lab and Divinity.,yes,2
+00:03:05,00:03:36,worship|cards,frigid soul card; squishy card,,how_to,any,,Frigid Soul and Squishy cards give max charge and charge rate.,yes,2
+00:03:36,00:04:07,worship|stamps,flowin stamp,,how_to,any,,Flowin stamp gives charging speed.,yes,2
+00:03:36,00:04:07,worship|bubbles,ray the crater,,how_to,any,,Ray the Crater gives max charge.,yes,1
+00:03:36,00:04:07,worship|bubbles|cauldrons_liquids,call me pope,,priority,any,,Call Me Pope in the purple cauldron boosts worship charge and max charge and is very strong so equip it.,yes,3
+00:03:36,00:04:07,worship|bubbles,gospel leader,,how_to,any,,Small purple bubble 10 Gospel Leader gives max charge per 10 worship levels.,yes,3
+00:03:36,00:04:07,worship|bubbles,passive bubble multipliers,,mechanic,any,purple_bubble=2;purple_bubble=14,Purple bubbles 2 and 14 passive multipliers also work for Gospel Leader.,yes,2
+00:03:36,00:04:07,worship|cooking,spice,,how_to,any,,Get as much spice as possible for the skilling food Soluble Gum.,yes,2
+00:04:07,00:04:38,worship|cooking,soluble gum,,how_to,any,extra_souls=50,Use soluble gum on a big charge dump; can give over 50 extra souls based on food effect percent.,yes,3
+00:04:07,00:04:38,worship|cards,card setup,,setup,any,,Soul card setup: Chaotic Troll Squishy Soul Frigid Soul Chaotic Efaunt? Crabcake so you consume less food; add wisdom cards.,yes,1
+00:04:07,00:04:38,worship|cards,card set,,setup,any,,For card set choose Yum Desert or Easy Resources since AFK does not affect soul gain.,yes,2
+00:04:07,00:04:38,worship,card setup,,mechanic,any,days=2-3,Big soul gain realistically can be done about once every two to three days.,yes,2
+00:04:38,00:05:09,worship|prayers|tower_defense,prayer unlock,,mechanic,any,,Unlocking specific prayers requires reaching certain Tower Defense waves.,yes,3
+00:04:38,00:05:09,worship|prayers,jawbreaker,,threshold,any,wave=101,Jawbreaker requires wave 101 in Waka Waka War.,yes,2
+00:04:38,00:05:09,worship|prayers,prayer leveling,,warning,any,,Prayers are tricky because you don't know how much to level them given bonus versus curse.,yes,3
+00:05:09,00:05:39,worship|prayers,skill dimwit,,priority,any,wave=25;xp_loss=1.18,Skill Dimwit? unlocks at wave 25 Goblin Gorefest; max it out since the XP loss is only 1.18x additive.,yes,2
+00:05:09,00:05:39,worship|prayers,skill dimwit,,warning,any,,Don't use skill XP-reducing prayer when using balloons.,yes,2
+00:05:39,00:06:11,worship|prayers,unending energy,,priority,any,wave=51,Unending Energy unlocks at wave 51 Goblin Gorefest and is amazing to eventually max because the curse doesn't scale with level.,yes,3
+00:05:39,00:06:11,worship|prayers|traps,shiny snitch,,warning,any,wave=81,Shiny Snitch wave 81 Goblin is a trapping staple but dangerous to level due to high shiny chance.,yes,2
+00:05:39,00:06:11,worship|prayers,zurich russian?,,priority,any,wave=121,Prayer at wave 121 Goblin Gorefest is a no-brainer to max for more AFK gains; only costs a little carry capacity.,yes,1
+00:05:39,00:06:11,worship|prayers,midas mind,,priority,any,wave=71,Midas Mind wave 71 Waka Waka is good to max.,yes,2
+00:06:11,00:06:43,worship|prayers|drop_rate,midas mind,,mechanic,any,,Mob health increaser curse doesn't work on bosses including mini bosses so boss farming gets free extra drop rate.,yes,3
+00:06:11,00:06:43,worship|prayers|printer,royal sampler,,opinion,any,wave=21;printer_percent=90,Royal Sampler wave 21 Acorn Assault is up in the air; run it if you want 3D printer percent maxed at 90.,yes,2
+00:06:11,00:06:43,worship|prayers,circular criticals,,opinion,any,wave=71;level_pct=20;crit_chance=200,Circular Criticals wave 71 Acorn Assault is best around 20 percent max but can max out if needing 200 crit chance.,yes,2
+00:06:43,00:07:14,worship|prayers,balance of pain,,priority,late,wave=21,Balance of Pain wave 21 Clash of Cans: max it since late game accuracy and defense are easy and more multikill per tier.,yes,2
+00:06:43,00:07:14,worship|prayers,other prayers,,opinion,any,,Rest of the prayers can be leveled at your leisure.,yes,3
+00:06:43,00:07:14,worship|talent_points,skilling build,wizard,setup,any,,Wizard skilling build talents: smart efficiency souls wisdom and charge siphon.,yes,2
+00:06:43,00:07:14,worship|cards|cooking,soul gain setup,wizard,setup,any,,Before big soul gain equip skilling build cards and card sets and soluble gum.,yes,3
+00:07:14,00:07:44,worship,equipment,,setup,any,,Equipment: serrated rex rings king of food trophy or idle skiller.,yes,2
+00:07:14,00:07:44,worship,charge siphon,wizard,how_to,w3,,Go to World 3 use charge siphon and spam tap like Cookie Clicker not an auto clicker.,yes,3
+00:07:14,00:07:44,worship|characters,balloons,,how_to,any,,Take skilling balloons into Tower Defense to increase worship level; good for leveling non-wizard characters.,yes,3

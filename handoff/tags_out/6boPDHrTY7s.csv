@@ -1,0 +1,36 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,meta_change,version,,meta_change,any,version=1.72,Version 1.72 introduces the atom collider.,yes,3
+00:00:00,00:00:00,atom_collider|construction,build,,how_to,any,,Atom collider is built in construction at the very last one at the top.,yes,3
+00:00:00,00:00:00,atom_collider|construction,build cost,,setup,any,,Atom collider costs nello salts and shattered skulls (Purgatory stalker base material).,yes,2
+00:00:00,00:00:00,atom_collider|buildings,location,,mechanic,any,,Once built the atom collider appears at the top of World 3 next to the EZ totem.,yes,3
+00:00:00,00:00:31,atom_collider|salt_lick,overview,,mechanic,late,,Atom collider is a buffing tool like a later-game Salt Lick but uses atoms instead of salts.,yes,3
+00:00:31,00:00:31,atom_collider,conversion threshold,,warning,any,default_threshold=15000000,Change the conversion threshold before turning it on; default 15 million converts everything above that in storage into atoms.,yes,3
+00:00:31,00:00:31,atom_collider|storage,conversion threshold,,warning,any,threshold=15000000,He lost his stacks by turning it on with default threshold and must regrind 3D prints.,yes,3
+00:00:31,00:01:01,atom_collider,upgrades,,opinion,any,,Some atom collider buffs look really strong though it is day one and not all are known.,yes,2
+00:01:01,00:01:01,atom_collider,helium,,mechanic,late,,Helium gives power of 10 resource talents an extra stack which can be very strong when leveled.,yes,2
+00:01:01,00:01:32,atom_collider|stamps,hydrogen upgrade,,mechanic,late,,Hydro drink upgrade decreases stamp costs over time so you do not need huge carry capacity for upgrades.,yes,2
+00:01:01,00:01:32,atom_collider|bubbles,yellow bubble,,mechanic,late,,New yellow bubble in the cauldron makes Tremor worms base material cost cheaper for the collider.,yes,2
+00:01:32,00:01:32,atom_collider|bubbles,yellow bubble,,meta_change,any,,Before the update the bubble was a chance at two times atoms; he thinks the new permanent version is a better trade-off.,yes,2
+00:01:32,00:01:32,atom_collider,particle cost,,mechanic,any,resources_per_particle=10000000,Getting one particle needs a total of 10 million resources traded into upgrades.,yes,2
+00:01:32,00:02:02,atom_collider|printer,3d print,,priority,any,,Start farming atoms by having all characters 3D print the very first material of their skill.,yes,3
+00:01:32,00:02:02,atom_collider|printer,3d print,,how_to,any,,Examples: miner prints copper ore; chopper prints oak logs; bug catcher prints flies.,yes,3
+00:02:02,00:02:02,atom_collider|printer,3d print,,mechanic,any,,Any materials count not specific ones so highest print numbers matter.,yes,3
+00:02:02,00:02:34,atom_collider,overview,,opinion,late,,Atom collider is a great addition since there is now a sink for abundant materials; upgrades likely super good and worth investment.,yes,3
+00:02:34,00:02:34,gem_shop,rings,,mechanic,any,kill_bonus=30,Limited special gem shop rings vary by world; World 3 and World 4 rings give 30 percent more kills.,yes,2
+00:02:34,00:03:05,gem_shop|death_note,rings,,mechanic,any,,Rings are kill per kill not multi-kill; meant for pushing portals and increasing Death Note.,yes,3
+00:02:34,00:03:05,gem_shop|drop_rate|printer,rings,,warning,any,,Rings do not increase XP 3D prints or drop rate.,yes,3
+00:02:34,00:03:05,gem_shop,crescent moon pendant,,mechanic,any,xp=35;mob_respawn=5,Crescent Moon XP pendant gives 35 XP and 5 percent mob respawn.,yes,2
+00:02:34,00:03:05,gem_shop,crescent moon pendant,,opinion,any,,The pendant is not too bad; buy at leisure.,yes,2
+00:03:05,00:03:05,gem_shop|slab,limited special,,mechanic,any,slab=1,The bundle gives plus one slab.,yes,2
+00:03:05,00:03:05,gem_shop,cosmic candy,,mechanic,any,candies=8;hours=500,Bundle includes eight Cosmic candies which have a chance to give 500 hours; he has only seen it once.,yes,2
+00:03:05,00:03:05,storage,new storage,,meta_change,any,storage=8,Brand new storage gives plus eight storage for free.,yes,3
+00:03:05,00:03:35,storage,drops,,meta_change,any,,More storage drops from World 5 enemy mobs.,yes,3
+00:03:35,00:03:35,sailing,bug fix,,meta_change,any,,Sailing bug fix: artifact chance rare chance sailing speed and loop value now work.,yes,3
+00:03:35,00:03:35,bubbles,art,,meta_change,any,,Brand new bubble art with roman numerals easier to read.,yes,3
+00:03:35,00:04:07,quests,troll,,meta_change,w4,,Troll is farmable once you have the third troll task in the World 4 tab.,yes,3
+00:04:07,00:04:07,gem_shop,max purchase,,meta_change,any,,Max quantity purchase in shop via plus sign quick purchase without click and hold.,yes,3
+00:04:07,00:04:07,bubbles,cost,,meta_change,any,,Alchemy bubbles now cost only one type of material instead of multiple; easier for players to level bubbles.,yes,3
+00:04:07,00:04:39,cards|slab,slab count,,meta_change,any,,Cards no longer count for slab so slab count drops.,yes,3
+00:04:39,00:04:39,library|construction,talent library,,meta_change,any,old_max=50;new_max=100,Talent library in construction can now be upgraded to level 100 from 50.,yes,3
+00:04:39,00:04:39,library|talent_points,talent library,,mechanic,any,,Higher library level gives more talent speed meaning more books.,yes,2
+00:04:39,00:04:39,general,patch notes,,meta_change,any,,A couple more bug fixes; see main Discord for the rest.,yes,3

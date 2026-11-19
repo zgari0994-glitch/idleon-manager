@@ -1,0 +1,91 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,hole,,,opinion,any,,Hole is one of the four main mechanics he considers the cornerstone that accounts are built on.,yes,3
+00:00:33,00:01:04,hole,lamp,,skip,late,,More witches upgrade is useless.,yes,2
+00:00:33,00:01:04,hole,lamp,,skip,late,,Kundra points invested is something you pretty much never use in late game once everything is purchased.,yes,2
+00:01:04,00:01:35,hole,lamp,,mechanic,late,,All opals invested could possibly be used.,yes,2
+00:01:04,00:02:36,hole,lamp,,setup,late,opals_total=491;study_opals=411;other_each=20,Meta: put all opals on one villager (study) and spread the rest evenly over the others; e.g. 411 on study and 20 each on measure/bonuses/engineer/explore.,yes,3
+00:01:35,00:02:05,hole|bubbles,lamp,,mechanic,late,opals_per_step=5,Bonuses villager magic gives extra EXP per five opals invested in the villager with the least opals; ties all get it so account EXP rises.,yes,3
+00:02:05,00:02:36,hole,lamp,,opinion,late,,Spreading opals evenly is future-proof because hole updates usually add new engineer stuff and possibly new measure bonuses; fountain coins value was recently added and explore EXP was not nerfed.,yes,3
+00:02:36,00:02:36,hole,lamp,,threshold,late,min_opals_each=20,Even if not using the meta method you should at least round every villager up to 20 opals.,yes,3
+00:02:36,00:03:06,hole,jar,,mechanic,late,,Only two jar collectibles really matter: mints craft (doubled currently) and rose emerald (faster study villager); monument AFK gain is the other.,yes,2
+00:03:06,00:03:37,hole,jar,,how_to,late,,Pump monument AFK gain enchantment as high as possible; when ready to dump all characters on bravery do so and go AFK then collect.,yes,3
+00:03:37,00:03:37,hole,jar,,warning,late,,Don't do the bravery dump now because it is a Divinity week with back-to-back merits that take all account bandwidth.,yes,3
+00:03:37,00:04:08,hole,bravery,,target,late,bravery_levels_current=171000;target_low=300000;target_high=400000,On an account like this aim for 300-400k bravery levels (currently 171k) to push much deeper.,yes,3
+00:04:08,00:04:38,hole,bravery,,mechanic,late,,Bravery is big for monument weeks and gives bravery bonuses multi; account has none of those yet.,yes,2
+00:04:08,00:04:38,hole|bubbles|cooking|gaming,bravery,,mechanic,late,,Bravery gives linear bonuses: mining efficiency (for prints) cooking speed villager EXP gaming bits bell ring and damage.,yes,2
+00:04:38,00:04:38,hole,bravery,,priority,late,,Strongly recommends pushing bravery; even bucket fill rate is decent from it.,yes,3
+00:04:38,00:05:09,hole|summoning,summoning doublers,,target,late,opals=1000000;cost_current=34;cost_seen=3400;witches_per_day=121,Summoning doublers cost can be pushed much higher (seen around 3400); spend a half or full week gaining opals since they are free.,yes,2
+00:05:09,00:05:39,hole,lamp wishes,,skip,late,,World 4 wishes like 12 hours of respec are bad and moderate discount is also bad.,yes,2
+00:05:09,00:05:39,hole|divinity,lamp wishes,,priority,late,w5_wishes_pushed=50;front_runner=100,World 5 wishes are very relevant now because of Divinity; around 50 is very good while the front runner is about 100.,yes,3
+00:05:39,00:06:11,hole|divinity,lamp wishes,,opinion,late,wish_level=50,For a general account not pushing world 7 pushing divinity wishes further may be worthwhile; he himself sits at 50 doing bare minimum.,yes,3
+00:05:39,00:06:11,hole,lamp wishes,,priority,late,,Infinite resources wish is worth not neglecting since it scales well and the cost does not scale hard.,yes,3
+00:06:11,00:06:41,hole,lamp wishes,,opinion,late,,World 6 magigas is just okay and knowledge of the future is nothing right now.,yes,3
+00:06:11,00:06:41,hole|spelunking,lamp wishes,,opinion,w7,,World 7 wishes are good if you care about spelunking and future-proof for the world 7 part three skill (unknown); world A wishes unknown and not worth buying.,yes,2
+00:06:41,00:07:11,hole,fountain,,target,late,time_under_minutes=2,Fountain: key thing to track is fill time; account is under 2 minutes.,yes,2
+00:07:11,00:07:42,hole,fountain,,target,late,cost_target=1e29-1e30,Fountain fills up faster could easily be pushed to roughly E29-E30 cost range and is worth doing.,yes,2
+00:07:11,00:07:42,hole,fountain,,opinion,late,,Fountain is strong but underdeveloped for a late-game account; much of it could be pushed further.,yes,3
+00:07:42,00:08:12,hole|bubba,fountain,,opinion,late,,Fountain research exp multi is very nice; Bubba multi is decent but small and basically mandatory if pushing Bubba; wisdom monument is whatever.,yes,2
+00:07:42,00:08:12,hole,fountain,,priority,late,,Push the earlier fountain spaces further; monument is very important while poppy is less so having been drowned out.,yes,2
+00:08:12,00:08:43,hole,fountain,,priority,late,cost_target=1e30,Study rate is a big deal; push bucket a bit further; fountain exp is very strong and could reach E30 cost; treasure boost is not bad.,yes,2
+00:08:12,00:08:43,hole,fountain,,priority,late,,Pushing fountain is good since you are hard locked on this mechanic until a merit rolls around.,yes,2
+00:08:43,00:09:15,hole,fountain,,target,late,cost_target=1e30,Monumental boost fountain upgrade is very strong possibly the strongest and can be pushed to E30.,yes,2
+00:08:43,00:09:15,hole,fountain,,target,late,mobs=3500000,With 3.5 million mobs pushing fountain upgrades shouldn't be too difficult.,yes,2
+00:08:43,00:09:45,hole,bell,,how_to,late,coins_target=10000-15000,Go to bell do a reset and push coins from fountain to around 10-15k then do another full reset to pump daily lamp wishes into the 10k+ range.,yes,2
+00:09:15,00:09:45,hole,bell,,priority,late,,Optimize bell by focusing on specific areas like coins; double torch chance used to be good but has fallen off.,yes,2
+00:09:45,00:10:15,hole,bell,,priority,late,,Daily lamp pushes and coins are the strongest bell things; bucket focus is not needed.,yes,2
+00:09:45,00:10:15,hole,resource layers,,account_note,late,mudslide_load=31;tree=28;trench=20,Resource layers: muddle load 31 is good; tree 28 and trench 20; hive is behind too.,yes,2
+00:10:15,00:10:47,hole,resource layers,,afk_spot,late,,Put one character on each of hive tree and trench layers checking every half or full day to easily gain extra depth.,yes,3
+00:10:15,00:10:47,hole|statues,resource layers,,warning,late,,Statue week just passed would have been a really good time to push layers.,yes,2
+00:10:15,00:11:17,hole|cooking,resource layers,,how_to,late,,Put a boost speed food (icing iron bite saucy log fries toasted butter etc) full stack on each character digging layers and let it ride.,yes,2
+00:11:17,00:11:47,menagerie,,,account_note,late,rank=27;shells=9,Account is at elegant rank 27 out of nine shells; lumi gain is solid.,yes,2
+00:11:17,00:11:17,menagerie,,,meta_change,late,,Luminous menagerie is the new endgamer's mechanic.,yes,2
+00:11:47,00:12:18,menagerie|legend_talents,unlocks,,priority,late,,Next big unlock is boost to legend talents which is significant; first strike doubles for wizard is just okay; max flare level is good.,yes,2
+00:11:47,00:12:18,menagerie,unlocks,,opinion,late,,Not yet easy to get into elegant levels but it is solid.,yes,2
+00:12:18,00:12:49,menagerie,boosts,,how_to,late,,Keep missions and extra lumi per hour approximately the same; now a good time to put points into lumi.,yes,3
+00:12:18,00:12:49,menagerie|gaming,doublers,,priority,late,,Strongly recommends picking up a black star or two for the gaming palette; first eight doubler placements are figured out.,yes,3
+00:12:49,00:13:20,menagerie|gaming,doublers,,priority,late,,Prisma and exalt doublers are SSS tier no-brainers; account has both done.,yes,3
+00:12:49,00:13:20,menagerie|construction,doublers,,priority,late,,Construction build rate doubler is really relevant for meta and very strong.,yes,3
+00:13:20,00:13:51,menagerie,doublers,,priority,late,,Artifact find chance doubler is crazy strong a true multi; two black stars can 4x or more find chance and final artifacts are hard to get.,yes,3
+00:13:20,00:13:51,menagerie|ballot,doublers,,priority,late,,Ballot multiplier doubler is also really solid; same tier as construction and artifact find chance by personal preference.,yes,3
+00:13:51,00:14:21,menagerie,doublers,,priority,late,,Pow doubler is a very strong multiplier but a luxury purchase once more black stars; the other three should be gotten now.,yes,3
+00:14:21,00:14:52,menagerie|research,boosts,,target,late,research_target=1000000,Research boost is a good place and could be pushed to about a million.,yes,2
+00:14:21,00:14:52,menagerie|construction,boosts,,priority,late,,Definitely push shrines and construction boost; free real estate though scales aggressively.,yes,3
+00:14:21,00:14:52,menagerie|summoning|minehead|sailing|sushi,boosts,,opinion,late,,Organic labels bought as needed; cheaper summoning upgrades only if focusing summoning; minehead only if you care; extra sailing treasure value when focusing sailing.,yes,2
+00:14:52,00:15:22,menagerie,boosts,,skip,late,,Forge speed boost seems useless to him.,yes,2
+00:14:52,00:15:22,menagerie|jelly_operator,boosts,,priority,late,,Jelly operator boost is really strong.,yes,3
+00:14:52,00:15:22,menagerie,boosts,,target,late,cost_target=1000000,Shiny critters boost worth a few purchases at about 1 million cost since you can do 20-minute claims after divinity week.,yes,2
+00:14:52,00:15:22,menagerie|summoning,boosts,,target,late,cost_target=2000000,All summoning gains boost: get to about 2 million cost; slow races only when focusing on it.,yes,2
+00:15:22,00:15:52,menagerie,boosts,,skip,late,,Orion first upgrade and poppy first upgrade are ass; max level for atoms is very expensive one at a time; land rank is okay but later.,yes,2
+00:15:22,00:15:52,menagerie,boosts,,priority,late,,Account already has upgrades it wants; boosting lumi power makes everything easier.,yes,2
+00:15:52,00:16:22,menagerie|money,jellies,,priority,late,pink_jelly_shells=7,Pink jellyfish gives seven shells; get coins as far as possible; if final currency not reached account needs coin work.,yes,2
+00:16:22,00:16:52,menagerie,jellies,,target,late,red_target=2000000,Red jellyfish: hit all break points for a chance at each; push to about 2 million; seems overinvested on six; first four cabins need love; push third cav.,yes,2
+00:16:52,00:17:23,menagerie|construction,jellies,,setup,late,construction_exp_mult=2,Yellow jellyfish personal preference: construction exp around 2x then everything else and lumi gains feels near optimal.,yes,2
+00:17:23,00:17:56,menagerie|sneaking,progression,,target,late,mastery=8,Sneaking mastery 8 is pretty easy nowadays; try pushing it.,yes,3
+00:17:23,00:17:56,menagerie,progression,,target,late,fractal_island_hours=40000,Getting 40k hours on Fractal Island gives a monumental buff that helped him push mastery 8 to 9 and is plus one shell.,yes,2
+00:17:23,00:17:56,menagerie,progression,,target,late,,Turtle depths including manic is pretty easy and account is close; consider doing it now.,yes,2
+00:17:56,00:17:56,menagerie|farming,progression,,account_note,late,,Crops discovered is just general farming progression.,yes,2
+00:17:56,00:18:27,menagerie|summoning,progression,,target,late,endless_current=300;target=350,Endless summoning is low; reaching 300 takes about 10 minutes and push toward 350 for 1-3 shells.,yes,2
+00:17:56,00:18:27,menagerie,progression,,priority,late,,Best waves tower defense: he hates TD but now is a good time given low roast buff.,yes,2
+00:18:27,00:18:57,menagerie|divinity,progression,,target,late,god_rank=25,Divinity week is coming tomorrow so a fantastic time to get god rank 25; turkey meal will be annoying.,yes,2
+00:18:27,00:18:57,menagerie,progression,,target,late,worker_class=10,Worker class is easy: get to 10 super easily; 11 and 12 may be a bit harder.,yes,2
+00:18:27,00:18:57,menagerie|minehead,progression,,account_note,late,plus=2,Minehead is frustrating and needs plus two for that; sushi types cannot be done; successful operations come over time.,yes,2
+00:18:57,00:19:27,menagerie|hole,progression,,target,late,opals_target=500;opals_away=13,Pushing hole depths gives more opals to reach 500; only 13 away and doable in a day or two.,yes,3
+00:19:27,00:19:57,menagerie|glimbo,progression,,account_note,late,,Glimbo trades is quite low; many cards are low; ladles are gigaeasy.,yes,1
+00:19:27,00:20:27,menagerie|pets,progression,,afk_spot,late,,AFK all characters on map for neon coral for a day for shiny pets; same with charcoal and purple salt; free shells.,yes,2
+00:20:27,00:20:57,menagerie,progression,,account_note,late,,Button press is annoying; farming stickers and term score come with time.,yes,2
+00:20:27,00:20:57,menagerie,progression,,account_note,late,wrecking_crown=95;proclaimed_plus=5000,Break points for plus 5000 proclaimed are crazy; account at wrecking crown 95 and 100 is not happening soon.,yes,2
+00:20:27,00:20:57,menagerie|slab,progression,,target,late,unique_items=1800,Total artifacts will come but are annoying; slabs are down and 1800 unique items should be within reach.,yes,2
+00:20:57,00:21:28,menagerie|greenstacks,progression,,target,late,,Work on green stacks for copper sample digits; account is close with probably easy ones missing.,yes,2
+00:20:57,00:21:28,menagerie|hole|statues,progression,,priority,late,,Empress showdowns only apply in statue week; doing cavern layers doubles up on menagerie shells and may take half an hour to an hour.,yes,2
+00:21:28,00:21:58,menagerie|gaming,progression,,target,late,,Gaming bits seems low for this account; work on it.,yes,2
+00:21:28,00:21:58,menagerie|bubba,progression,,target,late,chromatic=5;reset_interval_hours=24-48,Five chromatic no flash would put you at about 16 which allows Bubba resets every 24-48 hours; another plus one.,yes,2
+00:21:58,00:22:28,menagerie|death_note,progression,,afk_spot,late,respawn_minutes=15-20,Death Note mini bosses: put Death Bringer on Glunko map as it forces respawn about every 15-20 minutes.,yes,2
+00:22:28,00:22:58,menagerie|death_note,progression,death_bringer,how_to,late,kills=1000000;days=2-4,Glunko can reach about a million kills with enough damage and bone jingles in a day or two possibly three or four.,yes,2
+00:22:58,00:22:58,menagerie,progression,,opinion,late,,Account has good menagerie progress with very low-hanging shells to pick up.,yes,3
+00:22:58,00:23:28,stamps,,,account_note,late,,Account has a ton of green stamps and resources to push stamps but hasn't.,yes,3
+00:23:28,00:23:58,stamps,exalt,,priority,late,,He looks at two things in stamps: where exalts are held and pushing things you already have resources for.,yes,2
+00:23:28,00:23:58,stamps,mason jar,,priority,late,,Push mason jar stamp by brute forcing with glass shards; strongest stamp in the game and pushable.,yes,3
+00:23:58,00:24:28,stamps,crook,,how_to,late,exalts=2,Crook stamp has not been hit; account holds an exalt for it; may be worth exalting now.,yes,2
+00:24:28,00:24:59,stamps,max slapper,,priority,late,exalts=2,Max slapper stamp is a lot of strength and worth one of the two exalts; exalt crook and max slapper now since next stamp patch unknown.,yes,3
+00:24:28,00:24:59,stamps,vendor,,priority,late,,Consider vendor stamp for increased daily income.,yes,2
+00:24:59,00:25:29,stamps,,,priority,late,,Account has many no-stamp left behind and gilded stamps ready; push stamps in general especially mason jar.,yes,3

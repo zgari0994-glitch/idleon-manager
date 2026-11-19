@@ -60,7 +60,8 @@ Game save = `data.TimeAway.GlobalTime` (UTC epoch). Store UTC, show Eastern. Alw
 - `rinse/` rinse.py = Thigh Gap v2 formula (ChatGPT build) with Griffy recurrence from griffy_topics.yaml; latest.json
 - `model/acquire.py` -> acquire.md/json (missing trophies/capes/nametags/hats + open achievements, wiki sources, in-game vs paid vs event)
 - `model/system_index.yaml` (system -> Toolbox page -> AutoReview -> sources -> owners; built by tools/build_system_index.py) · `model/ledger.py` (materials) · `sources/findings/` (saved research + queue.md for ChatGPT)
-- Tagging: `tools/make_packets.py` (trimmed packets + ORDER.csv) -> ChatGPT per `handoff/TAGGER.md` writes `handoff/tags_out/` -> on "check tags" run `python3 tools/merge_tags.py` (validates, writes full CSVs to sources/creators/<c>/tags/), commit.
+- Tagging DONE 2026-11-19: all transcripts tagged (ChatGPT 24, Claude Sonnet 5.5 Batch API 291 via handoff/run_tags.py, ~$14.77). ChatGPT tagging retired. New videos later: make_packets.py -> run_tags.py pilot/submit/collect on Zack's PC -> merge_tags.py.
+- Tagging pipeline: `tools/make_packets.py` (trimmed packets + ORDER.csv) -> ChatGPT per `handoff/TAGGER.md` writes `handoff/tags_out/` -> on "check tags" run `python3 tools/merge_tags.py` (validates, writes full CSVs to sources/creators/<c>/tags/), commit.
 - `tools/timers.py` (Toolbox dashboard timers + AFK spots) · `plans/w7_push.md` (Griffy W7 path + gaps)
 
 ## Status (2026-11-17)

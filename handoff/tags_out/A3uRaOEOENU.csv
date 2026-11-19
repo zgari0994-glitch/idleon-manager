@@ -1,0 +1,59 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,money|shop|stamps|anvil|statues,uses,,mechanic,any,,Money is used for buying out daily shops and paying for expensive stamps and anvil upgrades and golden statue upgrades.,yes,3
+00:00:00,00:00:00,money,earning,,mechanic,any,,You earn money by selling items or defeating monsters and bonuses can increase earnings.,yes,3
+00:00:00,00:00:31,money|drop_rate,money opals,,warning,late,,Money opals are better left alone because drop rate is better; reason explained later.,yes,3
+00:00:31,00:00:31,money|class_choice,best class,divine_knight,opinion,endgame,,Best money class is actually Divine Knight despite voidwalker's money talents.,yes,2
+00:00:31,00:00:31,money|class_choice,best class,bubonic_conjuror,comparison,any,,Most players should use bubonic conjuror as Divine Knight only outscales it in endgame.,yes,3
+00:00:31,00:01:02,money|class_choice,talent,bubonic_conjuror,mechanic,any,,Bubonic conjuror is a top money farmer because of the respawn dead talent.,yes,3
+00:00:31,00:01:02,money|class_choice,crystal spawns,bubonic_conjuror,mechanic,any,,Most money comes from crystal spawns and BC gets many kills per hour while actively farming so racks up crystals.,yes,3
+00:01:02,00:01:02,money|statues,Pia statue,,priority,early,,First upgrade is the statue from World 1? which at Onyx tier gives a substantial money percent boost (name garbled).,yes,2
+00:01:02,00:01:02,money|dungeons,flurbo shop,,how_to,any,,Spend flurbos in the party dungeon shop for a monster cash bonus for all characters.,yes,3
+00:01:02,00:01:32,money|guild,coin supercharger,,how_to,any,,Join a guild for the coin supercharger bonus which increases money percent based on each world reached.,yes,3
+00:01:32,00:01:32,money|cards,money cards,,how_to,any,,Money percent cards: Nutto W1; Bob W2?; purple mushrooms W4; Malto W5 (passive); Bobby Yaga W1; Dipl Slush W3 miniboss; Nightmare Cattle Cru W5; holiday card.,yes,2
+00:02:04,00:02:34,money|bubbles,stat money bubbles,,priority,any,,Penny of Strength and Dollar Agility and Nickel Wisdom bubbles give money percent from strength and agility and wisdom and are multiplied by multiplier bubbles.,yes,2
+00:02:04,00:02:34,money|bubbles|characters,gear,bubonic_conjuror,setup,late,,All-stat gear helps the build because BC can reach very high wisdom which is crucial for money percent.,yes,3
+00:02:34,00:02:34,money|vials,boar bean vial,,how_to,any,,Boar Bean vial from World 1 gives money percent.,yes,2
+00:02:34,00:02:34,money|storage,post office utilitarian capsule,,how_to,any,,Utilitarian capsule in the post office gives a good amount of money percent plus extras.,yes,2
+00:02:34,00:02:34,money|arcade,gold coin and luster coin,,warning,any,,Arcade gold coin and luster coin give money percent but are hard to scale so never a huge priority.,yes,3
+00:02:34,00:03:04,money|kangaroo|owl,bonus,,how_to,any,,Owl and another? are great sources; kangaroo specifically gives money percent and also all stat and drop chance.,yes,2
+00:03:04,00:03:04,money|prayers,jawbreaker,,priority,late,,Jawbreaker prayer boosts money percent but also mob health; it is an absolute late game staple and a true multiplier.,yes,3
+00:03:04,00:03:34,money,golden bread,,priority,late,,Golden bread is the only golden food worth mentioning as a powerful money percent multiplier.,yes,3
+00:03:34,00:03:34,money|drop_rate,golden food,,how_to,mid,,Stock up on large amounts of golden bread and start collecting it in World 3 and also collect golden cakes and golden cheese nuggets for drop rate and all stat.,yes,2
+00:03:34,00:04:05,money|lab,fungi finger pocketeer,,priority,late,,Lab bonus Fungi Finger Pocketeer gives money percent based on green mushroom kills and is the bread and butter of money percent.,yes,3
+00:03:34,00:04:05,money|lab,emerald jewel,,how_to,late,,An emerald jewel (name garbled) makes fungi finger pocketeer even stronger.,yes,2
+00:04:05,00:04:05,money|farming|class_choice,green mushrooms,siege_breaker|beast_master,setup,endgame,,Endgame players have siege breakers and beast masters farm green mushrooms for bars and money.,yes,3
+00:04:05,00:04:05,money|lab,fungi finger pocketeer,,account_note,late,fungi_bonus_percent=1710000,His fungi finger pocketeer bonus is 1.71 million percent; bulk of money percent comes from this so gear to genocide green mushrooms.,yes,2
+00:04:35,00:04:35,money|achievements,coliseum score,,how_to,any,score=10000000;money_percent=5,Achievement for 10 million Coliseum score rewards 5% money.,yes,2
+00:04:35,00:04:35,money|breeding,pet arena,,priority,late,arena_level=20;arena_level_2=175,Pet arena 20 and 175 give money percent multiplier so ramp up pets.,yes,2
+00:04:35,00:04:35,money|cooking,meals,,how_to,any,,World 4 cooking meals salad and burnt cake give money percent.,yes,2
+00:04:35,00:05:05,money|divinity|bubbles,Hari,,priority,late,,World 5 Hari god gives a money percent bonus that stacks with bubble Big P.,yes,2
+00:05:05,00:05:05,money|divinity|bubbles,Hari and Big P,,how_to,late,,Have farming character connected to Hari whether you have the Dr or not and keep Big P equipped even with sheepie due to odd interaction.,yes,2
+00:05:05,00:05:05,money|sailing,artifact,,how_to,late,,Second sailing artifact lucky cat (Maneki?) gives money percent based on highest level character.,yes,2
+00:05:05,00:05:35,money|farming,Jade Emporium pencil,,how_to,late,,World 6 Jade Emporium scientific pencil (name garbled) gives money percent from crops discovered.,yes,2
+00:05:35,00:06:05,money|drop_rate,thresholds,,mechanic,late,,Drop rate affects money via thresholds not linearly; the increase happens at certain drop rate values.,yes,3
+00:06:05,00:06:05,money|drop_rate,thresholds,,threshold,late,drop_rate=13.01;money_boost_percent=1400;step=2,At drop rate 13.01 you get a 1400% money boost and then every two drop rate points (15 17 19 21) but unsure.,yes,2
+00:06:05,00:06:05,money|drop_rate|cards,thresholds,,priority,late,,When choosing cards keep thresholds in mind; money percent is stronger unless one or two cards hit a new threshold.,yes,3
+00:06:05,00:06:36,money|drop_rate,opals,,comparison,late,,Running drop rate opals is better than money percent opals because it earns more long run.,yes,3
+00:06:36,00:06:36,money|drop_rate,swap tuning,,how_to,late,,Swap between all drop chance and money percent to find the maximum money; he prefers this approach since fluctuation is small.,yes,2
+00:06:36,00:06:36,money,toolbox,,how_to,any,,Drop rate does not show extra money percent; check it in IdleOn Toolbox or IdleOn Efficiency.,yes,3
+00:06:36,00:07:06,money|armor,full marble gear,bubonic_conjuror,setup,late,,Run full marble gear on BC for all stat percent and money percent.,yes,3
+00:07:06,00:07:06,money|armor,weapon,bubonic_conjuror,setup,late,,If you can use the god (weapon name garbled) it is better for BC with drop chance and range perfect for close up play.,yes,2
+00:07:06,00:07:06,money|armor,scarf and opals,bubonic_conjuror,setup,late,,Run Divine scarf and Emperor opals for all stat percent by a decent margin for the three alchemy bubbles.,yes,3
+00:07:06,00:07:06,money|armor,tools,bubonic_conjuror,setup,late,,Prefer full marble tools for the same reason as marble gear.,yes,3
+00:07:06,00:07:37,money|cooking,food,bubonic_conjuror,setup,late,,Use golden bread and golden cakes for drop rate and golden cheese nuggets for all stat; speed pods and golden kebabs for damage.,yes,2
+00:07:06,00:07:37,money|cooking,food,bubonic_conjuror,skip,late,,Skip dumplings and similar AFK food since you are actively farming.,yes,3
+00:07:37,00:07:37,money|armor,helmet,,setup,late,,Premium helmet for drop chance though all stat one also works.,yes,3
+00:07:37,00:07:37,money|armor,trophy,,setup,late,,Beach bro trophy is great because money per trophy is juiced.,yes,2
+00:07:37,00:07:37,money|armor,cape,,setup,late,,Lava cape and Phoenix Wing both work depending on threshold; he prefers Phoenix Wings.,yes,3
+00:07:37,00:07:37,money|prayers|damage,jawbreaker,,warning,late,,Jawbreaker requires high damage; prayers do not affect bosses so boss fights give free drop rate and money percent.,yes,2
+00:07:37,00:08:07,money|armor,name tag,,setup,late,,Balling name tag for drop rate though expensive; beach name tag for all stat is a good alternative.,yes,2
+00:08:07,00:08:07,money|armor,keychain,,setup,late,,Duck keychains are go-to for wisdom percent but he uses relic chains from limited time shop for drop rate.,yes,2
+00:08:07,00:08:07,money|armor,ring,,setup,late,all_stat_percent=10,Equinox ring is a must with 10% all stat and is the strongest chat ring.,yes,3
+00:08:07,00:08:38,money,gear,,priority,late,,Focus on drop rate and money percent and all stat percent and ensure damage is high enough to one-shot mobs.,yes,3
+00:08:38,00:08:38,money|cards,card setup,,setup,late,drop_rate=37,Run poop and demon genie top-left and bottom-right plus highest money cards and a couple drop rate cards; just above 37 drop rate hits threshold.,yes,2
+00:08:38,00:08:38,money|constellations,star signs,,setup,late,drop_rate_percent=12;golden_food_percent=20;wisdom_percent=3,Star signs: 12% drop rate and 20% golden food and 3% wisdom.,yes,3
+00:08:38,00:09:09,money|lab,chips,,setup,late,,Run the Choco chip because all money comes from crystal spawns.,yes,2
+00:08:38,00:09:09,money|lab,doublers,,setup,late,,Run doublers: keychain and top-left card and trophy and pendant and star sign and bottom-right card doubler.,yes,2
+00:09:09,00:09:09,money|ballot,bonus ballot,,skip,any,,Monster cash bonus can appear in the ballot but nobody will vote for it so not worth mentioning.,yes,3
+00:09:09,00:09:39,money,afk,,priority,late,,Do not prioritize AFK gains for money; farm actively because of crystal mobs.,yes,3
+00:09:39,00:09:39,money,progression,,opinion,late,,Money is a struggle until late game and even then the refinery stamp is too expensive; hopes for a nerf.,yes,3

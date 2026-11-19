@@ -1,0 +1,108 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,summoning,overview,,mechanic,w6,sections=2,Summoning unlocks in world 6 with two sections: star map for upgrades and Summoner table for battles plus winner bonuses rewards.,yes,3
+00:00:30,00:01:00,summoning,white battles,,mechanic,early_w7,battles=9,Initially only the nine white battles are available and each is a one-time completion.,yes,3
+00:01:00,00:01:31,summoning,stats,,mechanic,w6,colors=7,Two major stats: essence gain and experience multiplier; seven essence colors: white green yellow blue purple red cyan.,yes,3
+00:01:00,00:01:31,summoning,star map,,mechanic,w6,,Essence numbers get high but star map costs scale up quite high too.,yes,3
+00:01:31,00:02:03,summoning,star map,,mechanic,w6,,Star map starts with one white box; spending one level in a box unlocks the next box.,yes,3
+00:02:03,00:02:34,summoning,star map,,mechanic,w6,essence_boxes_per_color=2,Every color has two essence generation boxes plus a box unlocking the next color (green from white).,yes,3
+00:02:34,00:03:04,summoning,star map priority,,priority,w6,,General rule across colors: level essence gain first; keep other stats relatively balanced since even the worst stat beats nothing.,yes,3
+00:03:04,00:03:34,summoning,white essence champ,,mechanic,w6,,White essence champ gives white essence per win across all colors; only white counts all colors so big early white bonus.,yes,2
+00:03:04,00:03:34,summoning,white knowledge,,mechanic,w6,,White knowledge gives white essence based on summoning level so keep leveling the skill.,yes,3
+00:03:34,00:04:04,summoning,familiar,,priority,w6,familiars=10;reset_days=4,Familiar is next white priority: buy 10 familiars every 4 days; buy as many as you can for experience.,yes,3
+00:04:04,00:04:36,summoning,familiar merging,,mechanic,w6,blue_slimes=3;vomes=4,Three blue slimes merge into a vomey (green slime) and four of those merge into a bloomy and so on.,yes,2
+00:04:36,00:05:06,summoning,familiar experience,,mechanic,w6,base_exp_per_hour=10;slimes=3;multiplier=4;exp_per_hour=120,Base familiar gives 10 exp/hour; three slimes give 30 then times 4 gives 120 exp/hour per vomey; buy every 4 days methodically.,yes,3
+00:05:06,00:05:37,summoning,star map priority,,priority,w6,,Priority: essence first then equal priority on max-level skills like familiar merging multi-number cards and dodge roll.,yes,2
+00:05:37,00:06:08,summoning,star map priority,,priority,w6,,Max-level upgrades are mana generation or max-level cards; afterwards catch up unit health and unit damage.,yes,3
+00:06:08,00:06:38,summoning,green summoning stone,,priority,w6,,Level green summoning stone as much as possible with white essence balanced with other white skills; gives initial green essence and unlocks green battles.,yes,3
+00:06:38,00:07:09,summoning,green essence,,mechanic,w6,,Green essence victory gives essence per green circuit win; green knowledge scales with summoning level.,yes,2
+00:06:38,00:07:09,summoning,mana overflow,,priority,w6,mana_multiplier=1.5,Mana overflow is huge: when mana hits max in battle it multiplies max mana by 1.5 and generates mana faster; level ASAP.,yes,3
+00:07:09,00:07:40,summoning,roomie,,mechanic,w6,upgrades=10;draw_chance=7%,Roomie unit has about 10 upgrades and 7% chance to draw; more speed damage and dodge; bigger slime for battles.,yes,2
+00:07:09,00:07:40,summoning,start mana,,priority,w6,,Next priority is starting mana: more initial mana allows initial burst to win before waves get crazy.,yes,3
+00:07:40,00:08:10,summoning,yellow summoning|spike placement,,priority,w6,,Equal priority: yellow essence summoning to start yellow generation and spike placement which damages mobs directly by clicking.,yes,3
+00:08:10,00:08:41,summoning,health and damage,,priority,w6,,Health and damage are last priority but worth leveling to about the same point as other skills or slightly below.,yes,3
+00:08:41,00:09:11,summoning,yellow essence,,mechanic,w6,,Yellow stone gives yellow essence; yellow essence winning gives more per yellow win and more per summoning level.,yes,3
+00:08:41,00:09:11,summoning,max level talents,,priority,w6,,Max out talents with max level: luck of the draw gives more special units; slime cell split gives chance to duplicate.,yes,2
+00:09:11,00:09:42,summoning,redraw|another slot|sharpen spikes,,priority,w6,,Redraw lets you skip bad draws saving mana; another slot is a nice bonus; sharpen spikes multiplies spike placement; all three relatively important.,yes,2
+00:09:11,00:09:42,summoning,blue summoning,,priority,w6,,Level up blue summoning as much as possible then health and damage.,yes,3
+00:09:42,00:10:13,summoning,bloomy,,priority,w6,mana_gen=40%;bloomies=8;mana_gen_total=160%,Bloomy is one of the best slimes giving 40% mana generation each; with jeweled card 4 or 8 bloomies give up to 160% mana generation.,yes,3
+00:09:42,00:10:13,summoning,bloomy,,comparison,w6,,Bloomies are probably more important than leveling yellow essence winning though more essence unlocks bloomies faster later.,yes,2
+00:10:13,00:10:44,summoning,blue summoning,,mechanic,w6,,Blue summoning unlocks blue stone and initial essence; blue essence boosting adds blue circuit win essence and blue knowledge adds summoning level essence.,yes,2
+00:10:44,00:11:15,summoning,slime mitosis|another slot,,priority,w6,cards=5;cards_default=3,Slime mitosis gives another chance to double (four times instead of one); another slot gives five summon cards instead of three.,yes,2
+00:10:44,00:11:15,summoning,jeweled cards,,mechanic,w6,unit_multiplier=4,Jeweled mobs cost more mana but spawn four times as many units; one of the best things to get.,yes,3
+00:11:15,00:11:46,summoning,jeweled cards,,warning,w6,,Jeweled cards can cost you the win if you lack enough mana generation to keep up.,yes,3
+00:11:15,00:11:46,summoning,purple summoning,,priority,w6,,Purple summoning is next priority to unlock purple circuit and start generating purple essence.,yes,3
+00:11:15,00:11:46,summoning,mana roar,,priority,w6,,Mana roar gives more mana generation; equal priority with Tonka.,yes,3
+00:11:46,00:12:17,summoning,tonka,,opinion,w6,hp_multiplier=8,Tonka isn't personally useful to him but has eight times HP of base slimes; tanky mob to push back waves.,yes,2
+00:11:46,00:12:17,summoning,health and damage,,priority,w6,,Health and damage for slimes is last priority.,yes,3
+00:12:17,00:12:48,summoning,purple essence,,mechanic,w6,,Purple essence pumping gives more purple essence per circuit win and per summoning level.,yes,3
+00:12:17,00:12:48,summoning,familiar skipping,,priority,w6,,Familiar skipping is first purple priority: free summoning experience via chance to spawn vomey or bloomy instead of basic slime.,yes,3
+00:12:48,00:13:20,summoning,familiar skipping,,mechanic,w6,bloomy_equiv_slimes=12;chance=1 in 50,Bloomy equals 12 basic slimes; base chance of a bloomy is 1 in 50; worth leveling for experience.,yes,3
+00:12:48,00:13:20,summoning,red summoning,,priority,w6,,Next go straight to red summoning for red essence per hour with major bonuses; costly so may not afford immediately.,yes,3
+00:13:20,00:13:50,summoning,final card,,mechanic,w6,mana_per_card=3%,Final card gives 3% more mana generation for every card played and stacks as you spend your hand.,yes,2
+00:13:20,00:13:50,summoning,mana dividends,,mechanic,w6,,Mana dividends gives more mana generation.,yes,2
+00:13:50,00:14:22,summoning,regalis,,warning,w6,,Regalis spawns more basic blue slimes but is very expensive to summon; consider skipping until later if mana generation is low.,yes,3
+00:14:22,00:14:53,summoning,purple|yellow percent bonuses,,mechanic,w6,,Purple gives percent to damage and yellow gives percent to HP but you need base numbers for percent to matter.,yes,3
+00:14:53,00:15:24,summoning,red and cyan,,mechanic,w6,,Red and cyan are new colors from recent update with major damage and HP multipliers; look here if stuck on damage.,yes,3
+00:14:53,00:15:24,summoning,red essence,,priority,w6,,Red section starts with red essence regeneration for circuit wins and summoning level.,yes,2
+00:15:24,00:15:55,summoning,cyan summoning,,priority,w6,,Unlock cyan summoning as soon as possible since cyan bonuses are bigger than red.,yes,3
+00:15:24,00:15:55,summoning,cost crashing,,priority,w6,,Other red buffs are about equal; cost crashing is first priority as it discounts everything else on the board.,yes,3
+00:15:55,00:16:25,summoning,cost crashing,,mechanic,w6,discount=34%;level=50,Cost crashing at level 50 gives him 34% cost reduction.,yes,3
+00:15:55,00:16:25,summoning,sparky,,mechanic,w6,,Sparky next: new mob doing a lot of damage that explodes with huge knockback to push mobs out of the way.,yes,3
+00:15:55,00:16:25,summoning,slime duplication,,priority,w6,,Slime duplication next for another chance to duplicate slimes helping with massive later waves.,yes,3
+00:16:25,00:16:56,summoning,seeing red,,mechanic,w6,health=15;damage_bonus=150%,Seeing red gives damage buff each time you take damage; with 15 health to lose that is 150% damage.,yes,3
+00:16:25,00:16:56,summoning,seeing red,,warning,w6,,Using seeing red strategically by letting a few mobs through can turn tides but don't get overwhelmed.,yes,3
+00:16:56,00:17:26,summoning,percent health damage,,mechanic,w6,damage_before=3000;damage_after=125000,Red and cyan percent damage/HP are new multipliers; his damage went from a few thousand under 10000 to 125000.,yes,2
+00:17:26,00:17:56,summoning,star map priority,,priority,w6,,Keep red and cyan upgrades balanced across the whole board.,yes,3
+00:17:26,00:17:56,summoning,cyan essence,,mechanic,w6,,Cyan essence king gives cyan essence per circuit win and cyan knowledge by summoning level; no new color unlock at cyan.,yes,2
+00:17:56,00:18:27,summoning,endless summoning bonuses,,skip,w6,bonuses=3,Ignore the three far-right cyan bonuses tied to endless summoning until you can afford them cheaply; upgrade slowly later.,yes,3
+00:18:27,00:18:57,summoning,eye frames,,mechanic,w6,dodge=30%,Eye frames gives chance to dodge taking no damage; 30% for him.,yes,2
+00:18:27,00:18:57,summoning,damage multiplier,,mechanic,w6,damage=240%;level=24;per_level=10%,Cyan damage multiplier is 240% at level 24 at 10% per level.,yes,3
+00:18:57,00:19:28,summoning,cost deflation,,mechanic,w6,cost_reduction=52%;level=54,Cost deflation gives 52% cost reduction on star map upgrades at level 54.,yes,3
+00:18:57,00:19:28,summoning,undying units,,mechanic,w6,hp=371000;hp_after_level=377000,Undying units is percent HP bonus to all units giving his 371k HP; one level raises to 377k.,yes,2
+00:19:28,00:19:59,summoning,damage and HP scaling,,mechanic,w6,per_upgrades=100;total_upgrades=480,Two cyan multipliers boost summon damage and HP by percentage for every 100 total summoning upgrades purchased; he's at about 480.,yes,3
+00:19:59,00:20:31,summoning,HP laundering,,mechanic,w6,,HP laundering gives HP based on total summoning upgrades purchased.,yes,2
+00:19:59,00:20:31,summoning,star map priority,,priority,w6,,Summary: level essence first max out max-level bonuses keep everything even in cost focus on mana generation then damage and HP last.,yes,3
+00:20:31,00:21:01,summoning,summoner table,,mechanic,w6,colors=7;white_battles=9,Summoner table colors correspond to star map colors unlocked; initially only white with nine battles.,yes,3
+00:21:01,00:21:32,summoning,white battles,,mechanic,w6,rows=3,White arena is a narrow three-row strip with low HP and damage mobs; easy wins until about white 5 to 7.,yes,3
+00:21:01,00:21:32,summoning,white battles,,mechanic,w6,,White 8 and 9 are harder until you get stats from other colors; may clear green battles before white 7 so bounce between colors.,yes,3
+00:21:32,00:22:05,summoning,battle arena,,mechanic,w6,,Each color from green through blue adds another square of space; purple battles change mob speed.,yes,3
+00:22:05,00:22:36,summoning,red and cyan battles,,mechanic,w6,,Red and cyan battles have a knockback penalty so you need to upgrade stats to clear them.,yes,3
+00:22:05,00:22:36,summoning,battle strategy,,how_to,w6,,Main strategy: summon mobs along the lane to block incoming mobs and click for spike damage while having mana.,yes,2
+00:22:36,00:23:08,summoning,winner bonuses,,mechanic,w6,,Each win gives a chest with a new bonus added to the bottom list; same bonuses stack.,yes,3
+00:23:08,00:23:38,summoning,battle strategy,,how_to,w6,,Strategy one: summon where mobs come out to hold waves back and click on them; legitimate way if you have enough damage.,yes,3
+00:23:38,00:24:09,summoning,battle strategy,,how_to,w6,,Strategy two cheese: start the match and summon everything on the bottom row; not recommended unless desperate for more battles.,yes,3
+00:24:09,00:24:40,summoning,cheese strategy,,mechanic,w6,stat_ratio=1/10,Cheese strategy is RNG dependent on mob spawns and knockback; works even with about a tenth of the enemy stats.,yes,3
+00:24:40,00:25:11,summoning,real strategy,,how_to,w6,,Real strategy: let mana build up then summon when mobs get close; can take basic damage for damage bonus.,yes,3
+00:25:11,00:25:41,summoning,real strategy,,how_to,w6,,Then summon everywhere using spike trap overwhelming mobs; gives lots of purple mana generation and bloomies on map.,yes,2
+00:25:41,00:26:12,summoning,redraw|spike trap,,how_to,w6,,Use redraw to get a different mob spawn when mobs are expensive; click mobs so spike trap damages as you summon and mana stacks.,yes,3
+00:26:12,00:26:44,summoning,cheese strategy,,how_to,w6,,Cheese strategy: as soon as battle starts summon as fast as possible on bottom or top row to get through mobs before they stack.,yes,3
+00:26:12,00:26:44,summoning,red and cyan battles,,warning,w6,,Red and cyan have anti-knockback bonus making cheese strategy harder but still possible.,yes,3
+00:26:44,00:27:14,summoning,battle hearts,,how_to,w6,,Fight battles you know you can win since each win has a chance to give hearts back extending your daily streak.,yes,2
+00:27:14,00:27:44,summoning,winner bonuses,,mechanic,w6,,Every win gives a bonus; some bonuses are duplicated and stack across several wins.,yes,3
+00:27:44,00:28:15,summoning,winner bonuses,,mechanic,w6,damage_total=25x,25x total damage is made of seven or eight bonuses; bonuses include farming and sneaking jade gain essence gain skill exp drop rate AFK gain cooking speed skilling efficiency.,yes,2
+00:27:44,00:28:15,construction,winner bonus,,mechanic,w6,construction_speed=9.68x,Favorite winner bonus is 9.68x construction speed making Wizard Towers shrines and construction levels much easier.,yes,3
+00:28:15,00:28:45,summoning|library,winner bonus,,mechanic,w6,max_library_bonus=10;wave=cyan 14,Last bonus from 14th cyan wave gives +10 max Library level for talent levels.,yes,3
+00:28:15,00:28:45,library,max level,,account_note,w6,max_library_level=280,His max library level is 280 after the bonus.,yes,2
+00:28:45,00:29:15,stamps,summoning stamps,,mechanic,w1,stamps=4,World 1 has four summoning stamps: white essence stamp; Triad essence stamp for green yellow blue; dark Triad essence for purple red cyan.,yes,3
+00:29:15,00:29:46,stamps|quests,summoning exp stamp,,mechanic,w6,,Fourth stamp gives summoning experience from a quest at end of world 6 in the leak map from sussy genie NPC.,yes,2
+00:29:15,00:29:46,quests,sussy genie,,warning,w6,mana=2500,Quest is difficult and requires getting 2500 mana in a single battle.,yes,3
+00:29:46,00:30:16,statues,essence statue,,mechanic,w1,,Essence statue gives more white essence; can be Onyx and buy gold statue at end for more white essence.,yes,3
+00:29:46,00:30:16,cards,bamboo spirit,,mechanic,w1,exp=18%,Bamboo Spirit card gives summoning experience up to 18% at Ruby.,yes,3
+00:30:16,00:30:47,summoning|constellations,star sign,,mechanic,w1,total_exp=38%,One star sign gives summoning experience; card plus star sign total 38%.,yes,2
+00:30:16,00:30:47,bubbles,summoning essence bubbles,,mechanic,w2,bubbles=5,Alchemy has five essence bubbles; orange gives red essence based on total warrior levels.,yes,3
+00:30:16,00:30:47,bubbles,summoning essence bubbles,,mechanic,w2,,Green essence bubble scales with total archer levels and purple essence bubble with mage levels.,yes,3
+00:30:47,00:31:18,bubbles,yellow essence,,mechanic,w2,,Yellow essence gain bubble isn't increased by anything.,yes,2
+00:30:47,00:31:18,tome,essence chapter,,mechanic,w2,per_points=12%;points_step=2000;threshold=5000;bonus=120%,Essence chapter bubble boosts all essences based on tome completion: 12% per 2000 points above 5000; about 120% for him.,yes,2
+00:31:18,00:31:48,summoning|talent_points,talents needing essence,,mechanic,w6,,Some talents require essences: crop chapter needs purple essence smarter spells white essence and ninja looter blue essence.,yes,2
+00:31:18,00:31:48,vials,summoning vials,,mechanic,w2,,Ladybug serum vial gives white essence gain and gibbed drink vial gives summoning experience.,yes,2
+00:31:48,00:32:19,jelly_operator,msa totalizer,,mechanic,w3,,World 3 MSA totalizer if unlocked in Jade Emporium gives more essence based on total waves.,yes,2
+00:32:19,00:32:51,lab,spiritual growth,,mechanic,w4,,Lab spiritual growth gives XP multiplier to all world 6 skills.,yes,2
+00:32:19,00:32:51,slab|farming,indirect multipliers,,mechanic,w6,,Slab bonus crop depot bonuses and Jade Emporium give indirect bonuses to world 6 skills.,yes,2
+00:32:19,00:32:51,cooking,dinner menu,,mechanic,w4,,Sticky bun meal gives all summoning essence gain and potato meal gives summoning exp.,yes,2
+00:32:19,00:32:51,breeding,shiny pets,,mechanic,w4,,Very small bonus from shiny pets in breeding.,yes,2
+00:32:51,00:33:22,breeding,pets,,mechanic,w4,pets=2,Two breeding pets give summoning experience based on their level.,yes,2
+00:32:51,00:33:22,slab,essence bonus,,mechanic,w5,bonus=2504%,Slab gives more essence based on items found; 2504% for him.,yes,2
+00:33:22,00:33:54,summoning|gaming,winds lantern,,priority,w5,multiplier=2x,Winds lantern can double all summoning winner bonuses (not displayed); pick up as soon as you can though fairly late in Jade Emporium.,yes,2
+00:33:22,00:33:54,summoning,summoner table,,mechanic,w6,winner_bonus=13.73x,Summoner table winner bonus gives 13.73x all essence gain but across several wins.,yes,2
+00:33:54,00:34:24,summoning,jade emporium,,priority,w6,,Jade Emporium upgrades MSA expander and essence confetti are important to unlock for MSA totalizer and slab bonuses.,yes,3
+00:34:24,00:34:24,none,,,account_note,any,,Outro and patron plug.,yes,3

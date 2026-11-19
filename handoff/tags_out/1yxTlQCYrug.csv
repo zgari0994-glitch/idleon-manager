@@ -1,0 +1,49 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,summoning|equinox,tower defense Citric Conflict wave 200,,setup,late,wave=200,Guide beats Citric Conflict wave 200 in tower defense using a specific tower build.,yes,3
+00:00:00,00:00:00,equinox|summoning,Slow Roast Whiz bonus,,setup,late,,Build requires the Slow Roast Whiz Equinox bonus so damage scales up over time.,yes,3
+00:00:00,00:00:00,cooking|summoning,canoli dinner menu,,setup,late,,Build requires a decently leveled Canoli in the dinner menu.,yes,2
+00:00:00,00:00:00,cooking|summoning,meal ribbons,,mechanic,late,bonus_tower_points_pct=1000,With the new meal ribbons you can get over 1000% extra points earned in tower defense.,yes,3
+00:00:00,00:00:31,summoning,tower defense,beast_master,setup,late,,Using Beast Master is optional but helps via the Stop Right There attack talent to prevent mistakes at high enemy counts.,yes,2
+00:00:31,00:00:31,summoning|equinox,tower defense,,account_note,any,,Anyone with the Equinox bonus unlocked can use this guide.,yes,3
+00:00:31,00:00:31,summoning|construction|cooking,tower defense,,warning,any,,Waves completed may vary with tower levels and construction or Canoli bonus.,yes,2
+00:00:31,00:01:02,summoning,tower defense opening,,how_to,late,,On summon click run to the left side of the map and summon towers as fast as possible.,yes,3
+00:01:02,00:01:02,summoning,tower defense opening,,how_to,late,,Order: Frozone tower next to portal then Voidinator then Kraken then Poisonic Elder then another Kraken then a Frozone tower.,yes,2
+00:01:02,00:01:02,summoning,tower defense opening,,warning,late,,Summon the first towers quickly otherwise one or two mobs might slip by.,yes,3
+00:01:02,00:01:34,summoning,party starter,,how_to,late,towers=5;level=10,Run to the right side and place five Party Starters on the top ledge and level them to 10 with trait A.,yes,3
+00:01:34,00:01:34,summoning|equinox,wave summoning,,how_to,late,waves_per_batch=10,Always summon 10 waves at a time to get the biggest benefit from the Equinox Slow Roast Whiz bonus.,yes,3
+00:01:34,00:02:06,summoning,tower leveling,,how_to,late,level=10,Level other towers to 10 once you have points: Poisonic Elder traits A then B.,yes,3
+00:01:34,00:02:06,summoning,tower leveling,,how_to,late,level=10,Level Voidinator to 10 with trait B each time.,yes,2
+00:01:34,00:02:06,summoning,tower leveling,,how_to,late,level=10,Level Frozone to 10 with trait A each time.,yes,2
+00:01:34,00:02:06,summoning,tower leveling,,how_to,late,level=10,Level Kraken towers to 10 with traits B then A.,yes,2
+00:02:06,00:02:06,summoning,tower leveling,,mechanic,late,,It is okay if leveling these towers takes longer than the first 10 waves.,yes,3
+00:02:06,00:02:39,summoning,party starter,,how_to,late,level=20,Once everything is level 10 and you have points again level Party Starters to 20 with trait A.,yes,3
+00:02:06,00:02:39,summoning,tower leveling,,how_to,late,level=15,Then level all other towers except the Voidinator to 15 selecting trait B at level 15.,yes,3
+00:02:39,00:02:39,summoning,defensive line,,how_to,late,krakens=4;frozone=1;more_krakens=3,After all towers are level 15 summon four more Krakens then a Frozone then three more Krakens to finish the line.,yes,3
+00:02:39,00:02:39,summoning,tower leveling,,how_to,late,level=15,Level the new towers to 15 using the same traits as before.,yes,3
+00:02:39,00:03:09,summoning,tower leveling,,how_to,late,level=20,Level to 20: Poisonic Elder trait B then Krakens trait A on each and Frozone trait A.,yes,3
+00:03:09,00:03:09,summoning,voidinator,,warning,late,level=10,Do not level the Voidinator past 10 since it will be sold and replaced often later.,yes,3
+00:03:09,00:03:09,summoning,voidinator,,opinion,late,level=15,With excess points maybe level Voidinator to 15 for a small damage increase.,yes,3
+00:03:09,00:03:41,summoning,party starter,,how_to,late,level=25,Level Party Starters to 25 selecting trait B on each tower.,yes,3
+00:03:09,00:03:41,summoning,tower leveling,,how_to,late,level=25,Then level Poisonic Elders to 25 with trait B and Frozone and Krakens to 25 with trait A.,yes,3
+00:03:41,00:03:41,summoning,kraken tower,,warning,late,,Each Kraken tower is very expensive so completing all Krakens takes a few waves.,yes,3
+00:03:41,00:03:41,summoning,tower defense,,active_task,late,wave_start=171;wave_end=180,Once everything is level 25 you can sit back and relax until waves 171 to 180 start.,yes,3
+00:03:41,00:04:11,summoning,auto attack,beast_master,how_to,late,,Turn on auto attack with the Stop Right There talent on your attack bar so no mobs slip by.,yes,3
+00:04:11,00:04:11,summoning,wave 180,,how_to,late,wave=180;level=25,After all wave 180 mobs are summoned and Voidinator removed buffs sell it and replace with a Storm Caller at level 25 trait B.,yes,2
+00:04:11,00:04:11,summoning,storm caller,,mechanic,late,crit_chance_pct=100,Storm Caller effectively doubles damage because it gives 100% crit chance.,yes,3
+00:04:11,00:04:11,summoning,stop right there,beast_master,how_to,late,,Use Stop Right There frequently during heavy mob phases of later waves.,yes,3
+00:04:11,00:04:42,summoning,wave 180,,how_to,late,krakens_sold=2;elders_added=2;level=25,When few mobs are left sell two Krakens next to the Poisonic Elders and place two more Elders at level 25 with same traits.,yes,3
+00:04:42,00:04:42,summoning,wave 180,,mechanic,late,dps_multiplier=3,Extra Poisonic Elders effectively triple DPS for the duration of wave 180.,yes,3
+00:04:42,00:05:12,summoning,wave 181,,how_to,late,wave=181,At the start of wave 181 sell the Storm Caller and two extra Poisonic Elders and replace with the Voidinator and Krakens sold before.,yes,2
+00:05:12,00:05:12,summoning,wave 190,,how_to,late,wave=190,Wave 190 is fairly easy so no need to sell Voidinator and Krakens but it can help with excess points.,yes,2
+00:05:12,00:05:42,summoning,wave 200,,how_to,late,wave=200,Once all wave 200 mobs are summoned sell the Voidinator and replace it with a Poisonic Elder.,yes,3
+00:05:12,00:05:42,summoning,poisonic elder,,mechanic,late,,Mobs spread out in wave 200 so two damage clouds help.,yes,3
+00:05:42,00:05:42,summoning,wave 200,,how_to,late,enemies=100,Below 100 enemies consider selling end-of-line Krakens and replacing with Party Starters using trait B.,yes,2
+00:05:42,00:06:12,summoning,kraken tower,,target,late,attack_speed_sec=0.3,Most important is keeping Krakens at or below 0.3 seconds attack speed.,yes,3
+00:05:42,00:06:12,summoning,kraken tower,,how_to,late,,If more attack speed is needed select one trait A at a time until reaching the desired speed.,yes,3
+00:06:12,00:06:42,summoning,wave 200,,setup,late,enemies=6;level=25;attack_speed_sec=0.3,With six enemies left have Party Starters on bottom rows mostly trait B and one level 25 Kraken at 0.3 second attack speed.,yes,2
+00:06:12,00:06:42,summoning,frozone tower,,how_to,late,,If Frozone slows mobs too much to keep them centered replace it with another Poisonic Elder for more DPS.,yes,2
+00:06:42,00:07:14,summoning,wave 200,,how_to,late,enemies=3;level=10,With three enemies left sell the Kraken and replace in same spot at level 10 with trait B then A to keep enemies centered.,yes,2
+00:06:42,00:07:14,summoning,wave 200,,threshold,late,enemies=3;mob_hp_trillion=580,With three enemies left and under 580 trillion total mob HP sell all Poisonic Elders and replace with Storm Callers.,yes,2
+00:07:14,00:07:14,summoning,storm caller,,how_to,late,level=25,Level the Storm Callers to 25 with trait A each time as the final DPS mode then wait for end of wave 200.,yes,3
+00:07:14,00:07:44,summoning,wave 201,,warning,late,wave=201,Let wave 201 mobs actually kill the totem and do not forfeit as it can make you lose progress.,yes,3
+00:07:14,00:07:44,summoning,tower defense,,opinion,late,wave=200,If towers are strong enough 200 may not be the limit.,yes,3

@@ -1,0 +1,56 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,anvil|forge,smithing overview,,mechanic,any,parts=3,"Smithing has three parts: crafting items, anvil production of materials, and forging ores into bars at the forge.",yes,3
+00:00:00,00:00:32,anvil,crafting,,mechanic,any,,Crafting is the primary way to obtain combat gear and upgrades for skilling tools.,yes,3
+00:00:32,00:00:32,anvil|tasks|achievements,recipes,,mechanic,any,,Most crafting recipes come from tasks monster drops quest rewards or achievement rewards; only basic recipes at start.,yes,3
+00:00:32,00:01:03,anvil,crafting tabs,,mechanic,any,tabs=4;levels_per_tab=2,"Crafting has four tabs (Beginner, Novice, Apprentice, Journeyman) each covering two gear levels, e.g. tab 1 copper and iron, tab 2 gold and platinum.",yes,3
+00:01:03,00:01:37,anvil,anvil tab unlock,,how_to,any,iron_bars=250;chain_links=200;forest_fibres=400;bullfrog_horns=250,Only tab 1 starts unlocked; craft Anvil Tab 2 recipe (250 iron bars 200 chain links 400 forest fibres 250 bullfrog horns) to unlock tab 2.,yes,3
+00:01:03,00:01:37,anvil,anvil tab unlock,,how_to,any,tab=3;tab=4,Tabs 3 and 4 likewise require crafting the Anvil Tab 3 and Anvil Tab 4 recipes; tab 4 is the latest in the game.,yes,3
+00:01:37,00:01:37,anvil,crafting,,how_to,any,,To craft have all materials in inventory then click Craft; this gives experience plus the item.,yes,3
+00:01:37,00:02:09,anvil|storage,craft from storage,,mechanic,any,,Craft from Storage unlocks after crafting an item once and requires all materials placed in storage.,yes,3
+00:01:37,00:02:09,anvil|storage,craft from storage,,warning,mid,,At higher tiers such as bags you must put the initial bags into storage before you can craft from storage.,yes,3
+00:02:09,00:02:40,anvil|storage,carry capacity,,priority,any,,Upgrade material pouch food pouch and skilling resource pouches as much as you can because recipes need many materials and low capacity blocks crafting.,yes,3
+00:02:09,00:02:40,anvil,anvil production,,mechanic,any,,Anvil Production is the primary source of smithing EXP and produces items needed for later crafts.,yes,3
+00:02:40,00:03:10,anvil|cauldrons_liquids|gem_shop,production multiplier,,mechanic,any,max_multiplier=3,Characters start producing one item; production can be raised up to 3 items at once via an alchemy upgrade and a gem shop purchase.,yes,3
+00:03:10,00:03:10,anvil,production,,mechanic,early,level=1;exp_per_thread=6;production_points=100,At level 1 you can only produce thread giving 6 exp each at 100 production points.,yes,3
+00:03:10,00:03:43,anvil,production,,mechanic,early,level=5;exp_per_nail=10;production_points=200,At level 5 trusty nails unlock giving 10 exp per nail at 200 production points.,yes,3
+00:03:10,00:03:43,anvil,production,,comparison,early,thread_exp=12;production_points=200,Threads give more exp per production (12 per 200 points) than trusty nails despite looking worse.,yes,3
+00:03:10,00:03:43,anvil,production,,how_to,early,,To level smithing fastest put all production into threads.,yes,3
+00:03:43,00:03:43,anvil,production,,mechanic,any,,Higher level items give less experience per production point; you'll eventually need to make other materials and sacrifice some exp.,yes,3
+00:03:43,00:04:14,anvil,anvil points,,mechanic,any,points_per_level=1,Anvil Points come from three sources; first is smithing level giving 1 point per level.,yes,3
+00:04:14,00:04:49,anvil,buy points,,mechanic,any,coin_points=600;drop_points=700,"Anvil points can be bought with coins up to 600 points, or with monster drops for an additional 700 points.",yes,3
+00:04:14,00:04:49,anvil,buy points,,mechanic,early,spore_caps=38;frog_legs=446;bean_slices=1129;points=25,"The first 25 points cost 38 spore caps, 446 frog legs and 1129 bean slices; later points need higher-level drops and more of them.",yes,3
+00:04:49,00:04:49,anvil,buy points,,mechanic,mid,high_steaks=1810,"On his character one point needs 1,810 high steaks from Tysons in World 2, and it gets more expensive.",yes,3
+00:04:49,00:05:19,anvil|talent_points,Acme Anvil,archer,mechanic,any,max_points=7;smithing_levels=10,Archer talent Acme Anvil gives up to 7 extra anvil points per 10 smithing levels; hunter also.,yes,2
+00:05:19,00:05:50,anvil,spend points,,mechanic,any,options=3;exp_per_craft=94;base_exp=6,"Points can be spent on three options; Bonus EXP is a multiplier on base exp, e.g. 94 exp per craft instead of 6.",yes,3
+00:05:19,00:05:50,anvil,spend points,,mechanic,any,,Speed per Hour increases production points gained per hour per craft.,yes,3
+00:05:50,00:06:22,anvil,spend points,,mechanic,any,production_per_hour=89900,Carry Capacity only multiplies produced item amount in the anvil tab and does not affect bag carry capacity; his items had 89.9K production per hour.,yes,3
+00:05:50,00:06:53,anvil,spend points,,warning,any,,Highly recommends against spending points into Capacity because upgrading crafting bags raises inventory and anvil production tab capacity anyway.,yes,3
+00:06:22,00:06:53,anvil,spend points,,priority,any,,Best to put most points into Speed per Hour and a small amount into Bonus EXP if you want to level faster.,yes,3
+00:06:53,00:07:24,forge,forge,,mechanic,any,,The forge transforms metal ores into metal bars; ores can be split into multiple stacks or filled up in slots.,yes,3
+00:06:53,00:07:24,forge|anvil,oil barrel,,mechanic,any,,Oil barrel slot uses basic barrels bought from World 1 shop or eco barrels crafted on the anvil.,yes,3
+00:07:24,00:07:58,forge,smelting,,mechanic,any,copper_ore_per_bar=5,Better ores take longer to smelt and need more ore per bar; copper needs about 5 ores per bar.,yes,2
+00:07:58,00:08:29,forge,smelting,,mechanic,mid,platinum_ore_per_bar=20,Platinum needs about 20 ore to make one platinum bar.,yes,2
+00:07:58,00:08:29,forge,forge buttons,,how_to,any,,Tap button lets you tap items to withdraw or place them; deposit spreads all ores across ore slots filling top to bottom.,yes,3
+00:08:29,00:09:00,forge,forge upgrades,,mechanic,any,,New Forge Slot upgrade with coins gives more forge slots so more ores can be deposited.,yes,3
+00:08:29,00:09:00,forge,forge upgrades,,mechanic,any,,Ore Capacity Boost adds to the total max ore capacity.,yes,3
+00:09:00,00:09:30,forge,forge upgrades,,mechanic,any,,Forge Speed upgrade increases how fast ores turn into bars.,yes,3
+00:09:00,00:09:30,forge,forge upgrades,,opinion,any,,Forge EXP Gain is fairly useless because most experience comes from anvil production.,yes,3
+00:09:00,00:09:30,forge,forge upgrades,,mechanic,any,,Bar Bonanza gives a chance to make an extra bar from your ores.,yes,3
+00:09:30,00:09:30,forge,forge upgrades,,opinion,any,,Bar Bonanza he hasn't paid much attention to but believes it gives a decent bar boost.,yes,2
+00:09:30,00:10:04,forge|cards,Puff Go,,mechanic,early,,Puff Go increases chance to drop a smithing card; may help early to level smithing cards.,yes,2
+00:09:30,00:10:04,bubbles|anvil,Anvilnomics,,mechanic,any,,Anvilnomics bubble decreases cost of buying anvil production points with both coins and monster drops.,yes,3
+00:10:04,00:10:38,bubbles|anvil,Big Bubble Hammer,,mechanic,any,extra_items=1,Big Bubble Hammer produces one extra item at a time in anvil production and increases speed; must be equipped on right side for characters using it.,yes,3
+00:10:04,00:11:08,cards,smithing cards,,mechanic,any,,Fire Forge card increases smithing EXP.,yes,3
+00:10:38,00:11:08,cards,smithing cards,,mechanic,any,,Cinder Forge card gives a decent smithing EXP bonus.,yes,3
+00:10:38,00:11:08,cards,skill exp cards,,mechanic,any,,Chaotic Efaunt card gives more skill EXP; Medium Resources card set also gives more skill EXP.,yes,2
+00:10:38,00:11:08,anvil,Blacksmith Box,,mechanic,any,smithing_exp=33;anvil_speed=49,Post Office Blacksmith Box gives up to 33% more smithing EXP and 49% anvil production speed.,yes,3
+00:11:08,00:11:08,anvil,Blacksmith Box,,mechanic,any,chance=20;stat=1,Blacksmith Box has 20% chance to give 1 additional main stat point when crafting gear at the anvil.,yes,2
+00:11:08,00:11:39,stamps|anvil,Anvil Zoomer,,priority,any,,The only stamp that really matters is Anvil Zoomer which gives good anvil production speed.,yes,3
+00:11:08,00:11:39,statues|anvil,Anvils Statue,,priority,any,,Pick up the Anvils statue for another production speed boost.,yes,3
+00:11:08,00:11:39,statues,golden statues,,priority,any,,Make sure to pick up golden statues so statue bonuses are account-wide.,yes,3
+00:11:39,00:11:39,talent_points|anvil,Focused Soul,archer,mechanic,any,,Focused Soul increases EXP gain for all specialized skills; archer specializes in smithing.,yes,3
+00:11:39,00:12:13,talent_points|anvil,Yea I Already Know,archer,mechanic,any,cap=15,Yea I Already Know starts each smithing level with part of the exp bar filled; caps at 15% for him.,yes,3
+00:12:13,00:12:13,talent_points|anvil,Acme Anvil,archer,mechanic,any,smithing_levels=10,Acme Anvil gives more anvil production points for every 10 smithing levels.,yes,3
+00:12:13,00:12:46,talent_points|anvil,Godly Creation,archer,mechanic,any,max_stat_points=3,Godly Creation works like Blacksmith Box and gives up to 3 additional stat points when crafting new gear at the anvil.,yes,3
+00:12:13,00:12:46,talent_points|forge,Smeltin Erryday,archer,mechanic,any,,Smeltin' Erryday increases forge progress if leveled on one of your archer combat profiles.,yes,2
+00:12:46,00:12:46,talent_points|anvil,Broken Time,archer,mechanic,any,,Broken Time increases anvil production speed; says all town skills but is primarily for anvil.,yes,3

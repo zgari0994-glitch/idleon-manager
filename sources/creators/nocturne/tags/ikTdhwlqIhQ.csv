@@ -1,0 +1,26 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+ikTdhwlqIhQ,nocturne,2021-11-20,00:00:01,00:00:31,quests,account/misc/quests,Dog Bone quest,,how_to,w1,bones_required=10,"To open the first boss (Encroaching Forest Villas) do Dog Bone's quest, bringing him 10 bones.",yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:00:01,00:00:31,quests,account/misc/quests,Dog Bone bones,,how_to,w1,bones=10,Get the bones by killing the Wood Planks on the platform below.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:00:31,00:01:01,statues,,Obols statue,,mechanic,w1,,The Obols statue is available here but needs World 2 to unlock.,yes,2
+ikTdhwlqIhQ,nocturne,2021-11-20,00:00:31,00:01:01,quests,account/misc/quests,boss key,,mechanic,w1,,Completing the first boss gives the key to go to World 2.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:00:31,00:01:01,characters,,boss difficulty,,setup,w1,,Make sure you are on normal mode when entering the boss.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:00:31,00:01:01,characters,,accuracy,,threshold,w1,min_accuracy=52.5;hit_chance=5,Normal mode boss needs at least 52.5 accuracy to hit him at all (5% chance).,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:00:31,00:01:01,characters,,accuracy,,threshold,w1,accuracy_for_100pct=157.5;hit_chance=100,You need at least 157.5 accuracy for a 100% hit chance on the boss.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:01:01,00:01:32,characters,,boss fight,,mechanic,w1,,Boss Fireball is a random AOE that you must dodge and move around.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:01:01,00:01:32,characters,,boss fight,,mechanic,w1,,Rocket Fist is aimed at you and does decent damage but you have time to leave its path.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:01:01,00:01:32,characters,,boss fight,,warning,w1,,Be careful of the spike trap on the map.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:01:32,00:02:02,characters,,boss fight,,mechanic,w1,,Sword swing does a decent amount of damage.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:01:32,00:02:02,characters,,boss fight,,how_to,w1,,Stand right at his feet to avoid most of his damage.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:01:32,00:02:02,characters,,boss fight,,warning,w1,,On a range character you have to be more particular about positioning; you can't just attack him.,yes,2
+ikTdhwlqIhQ,nocturne,2021-11-20,00:01:32,00:02:02,characters,,boss fight,,mechanic,w1,,His stomp shoots rock spikes.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:02:02,00:02:34,characters,,boss fight,,how_to,w1,,Hop into the pit to avoid the stomp rock spikes.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:02:02,00:02:34,characters,,boss fight,,mechanic,w1,heal=1250,He summons totems on the top platform; Healing Totem heals him 1250 periodically while alive.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:02:02,00:02:34,characters,,boss fight,,how_to,w1,,Run up and kill the Healing Totem or DPS through it depending on your damage.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:02:02,00:02:34,characters,,boss fight,,mechanic,w1,,He can also summon a Shield Totem which gives the boss a shield.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:02:34,00:03:05,characters,,boss fight,,how_to,w1,,Pay attention to all the abilities first then focus on killing the boss; higher damage kills him quickly.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:02:34,00:03:05,characters,,defense,,account_note,w1,defense=110,With about 110 defense the boss does no damage to him.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:02:34,00:03:05,characters,,boss fight,,opinion,w1,,Fairly simple fight but can be scary going in.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:02:34,00:03:05,characters,,boss fight,,priority,w1,,Recommends coming in with multiple keys and spending time learning the fight.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:03:05,00:03:36,characters,,boss fight,,opinion,w1,,Alternatively wait until gear is a bit better to help complete the fight.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:03:05,00:03:36,quests,account/misc/quests,Dog Bone daily keys,,mechanic,w1,keys_per_day_per_char=1,Dog Bone NPC rewards 1 key per day for each character that has ever given him dog bones.,yes,3
+ikTdhwlqIhQ,nocturne,2021-11-20,00:03:05,00:03:36,quests,account/misc/quests,Dog Bone daily keys,,account_note,w1,characters=7;keys_per_day=7,He has 7 characters so gets 7 keys per day.,yes,3

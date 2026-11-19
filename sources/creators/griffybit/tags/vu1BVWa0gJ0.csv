@@ -1,0 +1,77 @@
+video_id,creator,date,t_start,t_end,system,toolbox_page,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+vu1BVWa0gJ0,griffybit,2024-03-01,00:00:00,00:00:00,cards,,overview,,mechanic,any,,Cards are equipable bonuses covering stats from efficiency to damage to drop rate.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:00:00,00:00:31,cards,,card set,,mechanic,any,,Collecting a full set of cards gives a card set bonus you can equip for more bonuses.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:00:31,00:00:31,cards,,star upgrade,,mechanic,any,max_star=5,Each card starts with no star and collecting more of it upgrades it up to Ruby five-star.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:00:31,00:00:31,cards,,drop rarity,,mechanic,any,,Drop rarity also affects card drops not just card drop chance itself.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:00:31,00:00:31,drop_rate,,drop rarity,,mechanic,any,,Drop rarity also affects card drops not just card drop chance itself.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:00:31,00:00:31,cards,,skilling cards,,setup,any,,For skilling card farming run AFK focusing drop rate and AFK gains and skilling food.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:00:31,00:00:31,drop_rate,,skilling cards,,setup,any,,For skilling card farming run AFK focusing drop rate and AFK gains and skilling food.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:00:31,00:01:01,cards,,skilling food,,mechanic,any,,Skilling food increases skilling speed which gives more card drops in the long run.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:01:01,00:01:32,cards,,monster cards,elemental_sorcerer,priority,any,,For monster cards actively farm with your Elemental Sorcerer because of dimensional wormhole talent raising drop rate of wormhole monsters.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:01:01,00:01:32,cards,,wormhole,elemental_sorcerer,mechanic,any,,Wormhole monsters drop cards for that specific mob such as a wormhole penguin dropping a penguin card.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:01:01,00:01:32,cards,,loot table,elemental_sorcerer,mechanic,any,,Cards are on the first loot drop table so Elemental Sorcerer is very potent for card farming.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:01:01,00:01:32,drop_rate,,loot table,elemental_sorcerer,mechanic,any,,Cards are on the first loot drop table so Elemental Sorcerer is very potent for card farming.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:01:32,00:01:32,cards,,boss cards,voidwalker,priority,any,,Best card farmer for bosses is Voidwalker thanks to the talent Gimme.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:01:32,00:01:32,cards,,coliseum mini boss,divine_knight,priority,any,,Best card farmer for Coliseum and mini bosses is Divine Knight thanks to Orb of Remembrance letting you stack orb kills before the mini boss.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:01:32,00:01:32,cards,,AFK info,,how_to,any,,You can see your card drop odds in the miscellaneous tab of the AFK info.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:01:32,00:02:03,cards,,card drop chance sources,,meta_change,any,,Introduces list of sources of card drop chance starting with card spotter? from guild bonuses.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:03,00:02:03,cards,,guild bonus,,mechanic,any,card_drop_chance=30%,Guild bonus gives 30% card drop chance.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:03,00:02:03,guild,account/misc/guild,guild bonus,,mechanic,any,card_drop_chance=30%,Guild bonus gives 30% card drop chance.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:03,00:02:03,cards,,card stamp,,mechanic,any,stamp_level=220;card_drop_chance=220%,Card stamp from level up gift bubble gives card drop chance; his is level 220 giving 220%.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:03,00:02:03,stamps,world-1/stamps,card stamp,,mechanic,any,stamp_level=220;card_drop_chance=220%,Card stamp from level up gift bubble gives card drop chance; his is level 220 giving 220%.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:03,00:02:03,cards,,five of aces,,mechanic,any,multiplier=1.2,Bribe known as five of aces boosts all card drop rate by 1.2x.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:03,00:02:03,bribes,world-1/bribes,five of aces,,mechanic,any,multiplier=1.2,Bribe known as five of aces boosts all card drop rate by 1.2x.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:03,00:02:33,cards,,world 2 merit,,mechanic,any,,World 2 merit gives higher chances for World 2 mini bosses to drop cards.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:03,00:02:33,merits,account/task-board/merits,world 2 merit,,mechanic,any,,World 2 merit gives higher chances for World 2 mini bosses to drop cards.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:03,00:02:33,cards,,card talent,,mechanic,any,,Bosses like Biggie Hours or King Doot can drop a card (talent book) that gives card drop chance.,yes,1
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:03,00:02:33,talent_points,,card talent,,mechanic,any,,Bosses like Biggie Hours or King Doot can drop a card (talent book) that gives card drop chance.,yes,1
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:33,00:02:33,cards,,first star talent,,mechanic,any,talent_level=100;card_drop_chance=38%,A first star talent at level 100 gives 38% card drop chance.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:33,00:02:33,talent_points,,first star talent,,mechanic,any,talent_level=100;card_drop_chance=38%,A first star talent at level 100 gives 38% card drop chance.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:33,00:02:33,cards,,eight ball chain,,opinion,any,,Party dungeon keychain eight ball chain gives card drop chance but he would not go for it.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:33,00:02:33,dungeons,account/misc/dungeons,eight ball chain,,opinion,any,,Party dungeon keychain eight ball chain gives card drop chance but he would not go for it.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:33,00:02:33,cards,,relic chain,,priority,any,,He suggests the relic chain for drop rate instead of the eight ball chain.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:33,00:02:33,drop_rate,,relic chain,,priority,any,,He suggests the relic chain for drop rate instead of the eight ball chain.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:33,00:02:33,dungeons,account/misc/dungeons,relic chain,,priority,any,,He suggests the relic chain for drop rate instead of the eight ball chain.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:33,00:03:04,cards,,card champ,,mechanic,any,card_drop_chance=80%,Yellow cauldron bubble card champ gives card drop chance for all cards including party dungeon cards; expect around 80%.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:02:33,00:03:04,bubbles,world-2/bubbles,card champ,,mechanic,any,card_drop_chance=80%,Yellow cauldron bubble card champ gives card drop chance for all cards including party dungeon cards; expect around 80%.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:03:04,00:03:04,cards,,dungeon card chance,,warning,any,,Card drop chance does not work for party dungeon cards unless specifically stated as dungeon card chance.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:03:04,00:03:04,dungeons,account/misc/dungeons,dungeon card chance,,warning,any,,Card drop chance does not work for party dungeon cards unless specifically stated as dungeon card chance.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:03:04,00:03:04,cards,,goblin ear vial,,mechanic,any,card_drop_chance=108%,Goblin ear vial gives card drop chance and his is 108% thanks to vial mastery from the rift.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:03:04,00:03:04,vials,world-2/vials,goblin ear vial,,mechanic,any,card_drop_chance=108%,Goblin ear vial gives card drop chance and his is 108% thanks to vial mastery from the rift.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:03:04,00:03:04,rift,world-4/rift,goblin ear vial,,mechanic,any,card_drop_chance=108%,Goblin ear vial gives card drop chance and his is 108% thanks to vial mastery from the rift.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:03:04,00:03:34,cards,,star sign,,mechanic,any,card_drop_chance=15%;doubled=30%,Star sign Pokemon mini? gives 15% card drop chance and the world 4 chip doubling star signs makes it 30%.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:03:04,00:03:34,constellations,account/misc/constellations,star sign,,mechanic,any,card_drop_chance=15%;doubled=30%,Star sign Pokemon mini? gives 15% card drop chance and the world 4 chip doubling star signs makes it 30%.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:03:34,00:03:34,cards,,card galore,journeyman,mechanic,any,,Journeyman talent card galore gives more card drop chance but only for the journeyman.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:03:34,00:03:34,class_exp,,card galore,journeyman,mechanic,any,,Journeyman talent card galore gives more card drop chance but only for the journeyman.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:03:34,00:04:04,cards,,card bonuses,,mechanic,any,giga_frog=30%;snail=48%;sashes=54%;easter_card=6%,At max level cards give card drop chance: Giga frogs 30%,snel 48%,stashes 54%
+vu1BVWa0gJ0,griffybit,2024-03-01,00:04:04,00:04:04,cards,,chips,,mechanic,any,extra=102%,Top left and bottom right chips double cards; doubling snel and sash gives an extra 102%.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:04:04,00:04:04,atom_collider,world-3/atom-collider,chips,,mechanic,any,extra=102%,Top left and bottom right chips double cards; doubling snel and sash gives an extra 102%.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:04:04,00:04:04,cards,,total,,target,any,card_drop_chance=95,Adding everything up gives him 95 card drop chance.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:04:04,00:04:34,cards,,drop chance obols,,warning,any,,Card drop chance obols only come from the Alchemy shop and are incredibly rare; stick with drop rate obols.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:04:04,00:04:34,drop_rate,,drop chance obols,,warning,any,,Card drop chance obols only come from the Alchemy shop and are incredibly rare; stick with drop rate obols.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:04:04,00:04:34,gem_shop,account/prem-currency/gem-shop,drop chance obols,,warning,any,,Card drop chance obols only come from the Alchemy shop and are incredibly rare; stick with drop rate obols.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:04:34,00:04:34,cards,,ruby cards,,blocker,any,rift_level=46,Rift bonus at level 46 is needed to obtain Ruby five-star cards unless you buy rubifiers from the limited time shop.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:04:34,00:04:34,rift,world-4/rift,ruby cards,,blocker,any,rift_level=46,Rift bonus at level 46 is needed to obtain Ruby five-star cards unless you buy rubifiers from the limited time shop.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:04:34,00:05:04,cards,,rubifier priority,,priority,any,keys=30-60,If buying rubifiers prioritize nightmare and chaotic bosses since they cost 30 to 60 keys per attempt.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:04:34,00:05:04,gem_shop,account/prem-currency/gem-shop,rubifier priority,,priority,any,keys=30-60,If buying rubifiers prioritize nightmare and chaotic bosses since they cost 30 to 60 keys per attempt.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:05:04,00:05:04,cards,,nightmare chaotic cards,,comparison,any,,Nightmare and chaotic boss cards cover AFK gains,damage,best skill efficiency and passive shrine effects.
+vu1BVWa0gJ0,griffybit,2024-03-01,00:05:04,00:05:34,cards,,rubifier order,,priority,any,,After nightmare bosses do mini bosses to build card sets for bosses and nightmares and drop rate.,yes,2
+vu1BVWa0gJ0,griffybit,2024-03-01,00:05:04,00:05:34,cards,,crystal spawn,,priority,any,,Cards like demon genie and poop give more crystal spawn chance,then do more drop rate cards.,yes
+vu1BVWa0gJ0,griffybit,2024-03-01,00:05:34,00:06:04,cards,,card packs,,skip,any,,Card packs in the gem shop are not worth it.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:05:34,00:06:04,gem_shop,account/prem-currency/gem-shop,card packs,,skip,any,,Card packs in the gem shop are not worth it.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:05:34,00:06:04,cards,,card packs exception,,opinion,any,,Card packs fine only with free gems from arcade or spike minigame for cards like sandcastles,wood mushrooms,sheepie.
+vu1BVWa0gJ0,griffybit,2024-03-01,00:05:34,00:06:04,gem_shop,account/prem-currency/gem-shop,card packs exception,,opinion,any,,Card packs fine only with free gems from arcade or spike minigame for cards like sandcastles,wood mushrooms,sheepie.
+vu1BVWa0gJ0,griffybit,2024-03-01,00:06:04,00:06:04,cards,,card pack rng,,warning,any,,You will not five-star cards by buying card packs and RNG for getting a three star is poor.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:06:04,00:06:04,gem_shop,account/prem-currency/gem-shop,card pack rng,,warning,any,,You will not five-star cards by buying card packs and RNG for getting a three star is poor.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:06:04,00:06:04,cards,,gem spending,,opinion,any,,He prefers spending gems on more important upgrades than card packs.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:06:04,00:06:04,gem_shop,account/prem-currency/gem-shop,gem spending,,opinion,any,,He prefers spending gems on more important upgrades than card packs.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:06:04,00:06:37,cards,,start timing,elemental_sorcerer,how_to,w4,,Start card farming when you unlock Elemental Sorcerer from World 4; Maestro is possible but waiting is better.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:06:04,00:06:37,cards,,first priorities,,priority,early,star=3,Hyperfocus Giga frogs,snel and sashes to at least three star,then drop rate cards before other cards.
+vu1BVWa0gJ0,griffybit,2024-03-01,00:06:37,00:07:07,cards,,preset strategy,,setup,any,presets=2,Set up two card sets: one with card drop chance and one with straight drop rate.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:06:37,00:07:37,cards,,snapshot trick,,how_to,any,,Equip card drop chance set before entering map,then swap to drop rate set once loaded; the snapshot keeps card drop chance bonus.,yes
+vu1BVWa0gJ0,griffybit,2024-03-01,00:07:07,00:07:37,cards,,snapshot scope,,mechanic,any,,Snapshot trick works for combat and skilling on each character and ends when you leave the map.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:07:07,00:07:37,cards,,snapshot AFK,,mechanic,any,,Trick also works for AFK but only for card drop chance and not for normal drop rate.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:07:37,00:08:07,cards,,gem shop snapshot,,how_to,any,,Alternatively with card drop chance set out,enter and leave gem shop then swap to drop rate set and it works the same.,yes
+vu1BVWa0gJ0,griffybit,2024-03-01,00:07:37,00:08:07,gem_shop,account/prem-currency/gem-shop,gem shop snapshot,,how_to,any,,Alternatively with card drop chance set out,enter and leave gem shop then swap to drop rate set and it works the same.,yes
+vu1BVWa0gJ0,griffybit,2024-03-01,00:07:37,00:08:07,cards,,snapshot mini boss coliseum,,how_to,any,,Snapshot trick works for mini bosses and Coliseum but must be redone each time you enter.,yes,3
+vu1BVWa0gJ0,griffybit,2024-03-01,00:07:37,00:08:07,dungeons,account/misc/dungeons,snapshot mini boss coliseum,,how_to,any,,Snapshot trick works for mini bosses and Coliseum but must be redone each time you enter.,yes,3

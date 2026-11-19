@@ -1,0 +1,62 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,general,game bugs,,meta_change,any,,Creator returned for the new update and is making a video about the many bugs currently in the game especially for fast progressors,yes,3
+00:00:30,00:01:01,royal_armory|masterclass,iOS cost reduction,royal_guardian,warning,any,,iOS currently has an exponential cost reduction compared to every other platform in the new mechanic; likely a bug from overflow,yes,3
+00:01:01,00:01:32,royal_armory,iOS front runner,royal_guardian,account_note,any,upgrades_ahead=160-170,The front runner on iOS is 160-170 upgrades ahead of him which is a huge gulf,yes,3
+00:01:32,00:02:03,royal_armory,nodes,royal_guardian,mechanic,any,,Emptying a node levels it up; upgrading nodes increases max capacity and something else he doesn't remember,yes,2
+00:02:03,00:02:33,royal_armory,nodes,royal_guardian,mechanic,any,,Nodes level up daily because you can empty them daily; can progress further with things like silver stopwatch,yes,2
+00:02:03,00:02:33,royal_armory|gem_shop,iOS purchases,royal_guardian,priority,any,,If you have access to iOS make all purchases there as it gives a massive leg up on other players,yes,3
+00:02:33,00:03:04,royal_armory,solo malicious status,royal_guardian,comparison,any,his_cost=45000;ios_cost=5,His solo malicious status upgrade costs 45000 while the iOS equivalent was about 5,yes,2
+00:03:04,00:03:34,royal_armory,progression curve,royal_guardian,warning,w1|w2,,Progression curve is very rough from end of World 1 into World 2 with single-click upgrades and not enough sand to go around,yes,3
+00:03:34,00:04:04,royal_armory,warbound politics,divine_knight,setup,any,,Currently pushing maps with main DK with all points in warbound politics; really good for pushing maps,yes,3
+00:04:04,00:04:34,royal_armory,guardian disciple,royal_guardian,threshold,any,points=208;uptime=100,Guardian disciple has 100% uptime with 208 points,yes,3
+00:04:04,00:04:34,royal_armory,guardian disciple,royal_guardian,mechanic,any,,Going over 208 points spawns a second guardian disciple at the same time which allows regal mobs,yes,3
+00:04:04,00:04:34,royal_armory,orblets,royal_guardian,setup,any,,The orblet talent is strong; if farming orblets put the majority of points into it,yes,3
+00:04:34,00:05:04,royal_armory,orblet shop,royal_guardian,opinion,any,points_on_node=10,Orblet shop has good stuff; glorification is RNG but very strong giving 10 points on a node; rest of upgrades are just okay,yes,3
+00:05:04,00:05:36,royal_armory,outpost workers,royal_guardian,mechanic,any,pixels=25,A later upgrade/worker type gives 25 pixel range wherever you place one of your guys (per Jake the front runner),yes,2
+00:05:36,00:06:07,royal_armory,advanced logistics,royal_guardian,skip,any,,Don't spend points on advanced logistics (pixel range) since collection rate is only okay,yes,3
+00:05:36,00:06:07,royal_armory,outpost workers,royal_guardian,priority,any,workers=3;pixel_range=25,Meta is saving points for more guys: third on pixel range giving 25 and other two on working the node or trading experience,yes,3
+00:05:36,00:06:07,royal_armory,outpost workers,royal_guardian,target,late,workers=3,Long-term progression is to have three dudes on your outpost,yes,3
+00:06:07,00:06:37,royal_armory,map one nodes,royal_guardian,account_note,w1,,Unlocked most map one nodes; militia on wood mushrooms; about 50/50 between wood mushrooms and metal load pit,yes,2
+00:06:37,00:07:07,royal_armory,tree nodes,royal_guardian,priority,w1,,Prioritize tree nodes for sticks since sticks are used in many places alongside wheat,yes,3
+00:07:07,00:07:37,royal_armory,advanced logistics,royal_guardian,how_to,w2,upgrade_points=5,Advanced logistics is worth it at jar bridge outpost; 5 points lets you reach the side node,yes,2
+00:07:07,00:07:37,royal_armory,outpost map,royal_guardian,how_to,any,,Dragged connection may show red as out of range but still connects so experiment with nodes that look out of range,yes,3
+00:07:37,00:08:08,royal_armory,world 2 militia node,royal_guardian,priority,w2,,First node unlocked with the world two militia is hard and slow so access to sand early is valuable as sand is at a premium,yes,3
+00:08:08,00:08:38,royal_armory,world 2 order,royal_guardian,setup,w2,,World 2 order: jar bridge outpost sandy parts then mimic hole then sandbox (fast) then grandioso canyon then dunes or pincher plateau,yes,2
+00:08:38,00:09:10,royal_armory,world 2 order,royal_guardian,setup,w2,time_hours=12,Ring outpost then slammer bam; skipped sand giants and doing final flat map as it should be faster; total about 12 hours,yes,2
+00:09:10,00:09:41,royal_armory|worship,orblet farming,royal_guardian,target,w7,kills_per_orblet=1000,Plans orblet farming next; meta is World 7 big flat map like dreadnought captain; talent drops one orblet per 1000 kills,yes,2
+00:09:41,00:10:13,royal_armory,orblet talent,royal_guardian,warning,any,kills=1000,Orblet drops at end of the 1000 kills; swapping map before that gives nothing and many players didn't know,yes,3
+00:10:13,00:10:43,royal_armory|drop_rate,marble,royal_guardian,mechanic,any,,A marble drop rate node is a true multiplier on drop rate and absolutely nuts; another marble node is a decent damage multiplier,yes,3
+00:10:13,00:11:14,drop_rate,drop rate total,,account_note,any,drop_rate=273000;max_drop_rate=300000,Drop rate on frogs is 273000 and with research nodes and gear he can push about 300000,yes,3
+00:11:14,00:11:44,drop_rate|royal_armory,marble,royal_guardian,priority,any,,Prioritize the marble drop rate node for overall game progression,yes,3
+00:11:14,00:11:44,royal_armory,world cap,royal_guardian,mechanic,any,world_cap=4,Royal Guardian content is currently capped at world four; no content for worlds five to seven,yes,3
+00:11:44,00:12:14,royal_armory,progression curve,royal_guardian,warning,any,upgrades_needed=24;next_per_upgrade=30,Progression curve is demoralizing: next upgrade needs another 24 grades and soon about 30 more per upgrade,yes,2
+00:12:14,00:12:45,royal_armory,iOS cost reduction,royal_guardian,opinion,any,,Unsure whether iOS reduction is intended curve or a bug; iOS curve makes more sense; if not intended it will take forever,yes,2
+00:12:45,00:13:17,royal_armory,progression length,royal_guardian,warning,any,upgrades=2500;time=1 year,About 2500 upgrades to max them will take like a year; too long for a masterclass,yes,2
+00:13:17,00:13:47,royal_armory,cost reduction,royal_guardian,mechanic,any,pack_reduction=75,The 75% reduction pack applies to Royal Guardian as does legend talent reduction; most other cost reductions don't apply,yes,2
+00:13:47,00:14:47,death_note,verminous,wind_walker,how_to,any,,Log on Wind Walker and kill Verminous rats to farm death note; equip vendor pickles in inventory and reload map to update health,yes,2
+00:14:47,00:15:17,death_note,verminous,wind_walker,mechanic,any,,Wind Walker mode is the only class and mode that allows farming and stacking this death note,yes,2
+00:14:47,00:15:17,death_note,verminous,wind_walker,account_note,any,verminous_kills=1000000;time_hours=1;glunko_days=1.5,Has over a million Verminous kills in under an hour; Glunko will take about a day and a half,yes,2
+00:15:17,00:15:48,death_note,molecular,,priority,any,points=10,Do Verminous death note now; quick and significant buff: 10 points is 10 extra molecular per damage tier in all worlds; may be patched,yes,2
+00:15:48,00:16:18,general,poppy|bubba,,account_note,any,,Poppy got fixed so working on Poppy; unsure about another mega fish; Bubba doing his thing with a reset available,yes,2
+00:15:48,00:16:48,owl,feathers,,account_note,any,owl_level=32;feathers_left=45,At owl upgrade 32 and cannot reach 33; Mereth buff means no feathers soon; keeps 45 feathers in case something renders everything irrelevant,yes,2
+00:16:48,00:17:49,divinity|lab|prayers,divinity week,,priority,any,,Divinity week is up so pre-stack all characters; Arctix prayer keeps the character active in lab mainframe without gaining lab exp,yes,2
+00:16:48,00:17:49,divinity|lab,pre-stack,,how_to,any,,Put all characters in lab on mindful except your active one then pre-stack,yes,2
+00:17:18,00:18:19,divinity|ballot,divinity week,,opinion,any,,Likely best divinity week ever as ballot multi lines up with divinity winning; may never see it again,yes,3
+00:17:49,00:18:50,ballot|divinity,ballot multi,,mechanic,any,,Divinity week sometimes loses to something random; ballot multi rarely appears and is barely good; desynced with ballot so votes not held,yes,3
+00:18:19,00:18:50,divinity,pre-stack,,priority,any,,Make sure to get on divinity week now; stars rarely align so next time may be years or never,yes,3
+00:18:50,00:19:22,divinity,divinity stackers,,comparison,any,hours=2000,Some divinity stackers have about 2000 hours pre-stacked so they will be far ahead,yes,2
+00:18:50,00:19:54,spelunking|divinity,priorities,,opinion,any,,Cares more about spelunking than divinity; new cavern is really bad for amber; spent all resources on total spelunking amber,yes,2
+00:19:22,00:19:54,divinity,exp and talent levels,,opinion,any,,Should care about divinity for EXP and talent levels; if focusing another mechanic do it on the side,yes,2
+00:20:25,00:20:56,spelunking,cavern five,divine_knight,setup,any,,Second DK is on cavern five; not recommended for others right now because divinity week is on,yes,2
+00:20:25,00:21:27,spelunking,pyramid pages,divine_knight,mechanic,any,multiplier=5-6;pages_per_hour=2500000;max_pages_per_hour=3200000,Pyramid pages talent maxed is about five to six times true multi on pages; 2.5 million per hour rising to 3.2 at max,yes,2
+00:20:56,00:21:57,spelunking,cavern one,divine_knight,account_note,any,pages=164000000,Getting 164 million in cavern one unoptimized without cape for AFK gains rate and using rucksack instead of another prayer,yes,2
+00:21:27,00:21:57,spelunking,pyramid pages,royal_guardian,warning,any,,Pages talent only works on Royal Guardian though stated to work on all characters; highly recommended upgrade,yes,2
+00:21:57,00:22:27,spelunking,max stamina,,opinion,any,,Other cavern upgrades are okay; max stamina is additive,yes,2
+00:21:57,00:22:57,royal_armory,industrial politics,divine_knight,how_to,any,,With two DKs level industrial politics on second DK to apply resource collection rate to first character,yes,3
+00:22:27,00:22:57,royal_armory,castle convene,divine_knight,warning,any,,Castle convene and royal armory resource collection should work but currently don't so he unlevels them and puts one point,yes,2
+00:22:27,00:22:57,royal_armory,warbound politics,divine_knight,meta_change,any,,Warbound politics and aesthetic politics were combined on release; this is now fixed,yes,3
+00:22:57,00:23:28,talent_points,orb of remembrance,,meta_change,any,,Orb of remembrance broke if super talented on release; likely due to old orb overlap bug,yes,2
+00:22:57,00:23:28,class_choice|masterclass,second DK,divine_knight,priority,any,,Having two DKs gives free gains; no other talents like that so don't make 11th character a 30K,yes,2
+00:23:28,00:24:00,masterclass|class_choice,third character,,priority,any,,Not worth making third character a 30K; save it for another masterclass,yes,3
+00:23:28,00:24:00,royal_armory,outposts,royal_guardian,active_task,any,,Main character goes back on unlock duty; may hit all plates after for more outposts,yes,2
+00:24:00,00:24:31,royal_armory,resource spending,royal_guardian,opinion,any,,Unsure whether to spend all resources in royal armory or save in case progression curve is patched; no patch communication yet,yes,3

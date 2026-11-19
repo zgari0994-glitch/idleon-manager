@@ -1,0 +1,52 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,breeding,level,,mechanic,any,,No classes specialize in breeding; breeding level and XP are shared between all your classes so there are no stats to focus on.,yes,3
+00:00:00,00:00:33,breeding,tabs,,mechanic,any,tabs=4,"Breeding has four sections: Breeding, Teams, Upgrade and Database.",yes,3
+00:00:33,00:01:06,breeding,breeding tab,,mechanic,early,,Initially only the Green Spore is available; each pet shows its trait and the breeding chance to unlock the next pet.,yes,3
+00:01:06,00:01:37,breeding,breeding chance,,mechanic,any,,"Breeding chance is base chance times genetic multiplier and breedable multiplier (from Upgrades tab 3), giving a total chance.",yes,3
+00:01:06,00:01:37,breeding,genetic multiplier,,mechanic,any,,Genetic multiplier is increased by spending DNA Splices on the Upgrade button.,yes,3
+00:01:37,00:02:11,breeding,egg,,mechanic,any,egg_interval_hours=2;eggs_per_click=1,You gain one egg every two hours; each Breed click spends one egg from the Egg Incubator and shows the pet you would get.,yes,3
+00:02:11,00:02:44,breeding,pet types,,mechanic,any,,"Combat pets have red background, foraging pets green, and breedable pets pink.",yes,3
+00:02:11,00:02:44,breeding,storage,,warning,any,,Pet storage slots are limited so be careful choosing which pets to keep; removing them later is annoying.,yes,3
+00:02:44,00:03:16,breeding,dna splices,,mechanic,any,,Trashing a pet gives gray DNA Splices which are used in the Upgrades tab.,yes,3
+00:02:44,00:03:16,breeding,breeding tab,,priority,any,,Goal of the Breeding tab is simply to unlock more pets; each pet has a new trait.,yes,3
+00:03:16,00:03:48,breeding,world unlock,,mechanic,early,,Unlocking the Red Mushroom (gold key) unlocks all World 2 pets starting with Sandy Pot; you need more pets to unlock World 3 and onward.,yes,3
+00:03:16,00:03:48,breeding,splice gun,,mechanic,any,,You need a Splice Gun to get DNA Splices.,yes,3
+00:03:48,00:04:19,breeding|anvil,splice gun,,how_to,any,anvil_tab=4,World 1 Splice Gun is bought from the World 4 shop and only enables splicing in World 1.,yes,3
+00:03:48,00:04:19,breeding|anvil,splice gun,,how_to,any,anvil_tab=4,World 2 Splice Gun is crafted in Anvil tab 4 at the bottom with a recipe dropped by Pincermin; enables splicing up to World 2 mobs.,yes,3
+00:04:19,00:04:52,breeding,splice gun,,how_to,any,,World 3 Splice Gun recipe drops from Thermisters in World 3 and enables splicing up to World 3.,yes,2
+00:04:19,00:04:52,breeding,dna splices,,how_to,any,,Splice in a map of the same world as the pets you want: World 1 pets need World 1 splices and World 2 needs World 2.,yes,3
+00:04:52,00:05:25,breeding,afk_spot,,afk_spot,any,kills_per_hour=56000,Choose the map with your highest AFK gains for splicing; he has 56000 kills an hour.,yes,3
+00:04:52,00:05:25,breeding,dna splices,,how_to,any,,Only way to get DNA Splices is to equip a Splice Gun and AFK in a map; claim via the Splice button on the AFK gains menu.,yes,3
+00:05:25,00:05:56,breeding,dna splices,,mechanic,any,,Clicking Splice re-rolls all your drops into Gene Splices except EXP per hour and coins.,yes,3
+00:05:25,00:05:56,breeding,genetic multiplier,,mechanic,any,,Each genetic multiplier upgrade costs more splices so find a good balance on how much to spend.,yes,3
+00:05:56,00:06:26,breeding,genetic multiplier,,mechanic,any,multiplier_level=9;chance_before=200;chance_after=47,Spending splices raised multiplier to 9 making chance go from 1 in 200 to 1 in 47; spending eggs also gains EXP.,yes,3
+00:06:26,00:06:56,breeding,fenced yard,,mechanic,any,,Fenced Yard initially is only extra pet storage; its main function is levelling the Breedability multiplier with pink breedable pets.,yes,3
+00:06:56,00:07:31,breeding,fenced yard,,mechanic,any,,Breedable multiplier gains apply only at daily reset so no instant gains but each day adds a little and makes new pets easier.,yes,3
+00:06:56,00:07:31,breeding,foraging,,mechanic,any,,Green foraging pets placed in the foraging area add to total foraging speed based on their power; first area needs a pet battle.,yes,3
+00:07:31,00:08:01,breeding,foraging,,mechanic,any,,Foraging speed divided by the green bar requirement gives resource fund per hour; each new foraging area gives the next level of Spices.,yes,3
+00:08:01,00:08:35,breeding|cooking,foraging,,priority,any,,Claimed resource fund adds Spices to Cooking without using inventory slots; unlock foraging areas and forage pets as soon as possible for Cooking.,yes,3
+00:08:01,00:08:35,breeding,foraging,,mechanic,any,,Pets need fight power to forage; the Jungle area needs a combat pet.,yes,3
+00:08:35,00:09:07,breeding,foraging,,mechanic,any,jungle_fight_power=5;later_area_fight_power=100,Jungle needs five fighting power to forage; later areas need more such as 100; you need a mix of foraging and fighting pets.,yes,3
+00:08:35,00:09:07,breeding,upgrades,,mechanic,late,,A later Breeding upgrade lets some foraging power count toward fighting power.,yes,3
+00:09:07,00:09:39,breeding,battles,,how_to,any,,"In fights select pets and drag them to the bottom; pets auto-attack each round, and abilities fill up and are activated by clicking.",yes,3
+00:09:39,00:10:10,breeding,battles,,how_to,any,,Use abilities appropriately such as the foraging pet's heal; losing has no penalty so try different pet combinations.,yes,3
+00:10:10,00:10:40,breeding,battles,,how_to,any,,Monsters attack your first pet first so put a beefy pet up front; use abilities as often as you can.,yes,3
+00:10:10,00:10:40,breeding,pet arena,,mechanic,any,arena_per_day=1,Pet Arena can only be fought once per day.,yes,3
+00:10:10,00:10:40,breeding,pet arena,,warning,any,,Do everything else before starting the Arena for the day.,yes,3
+00:10:40,00:11:13,breeding,pet arena,,mechanic,any,,Arena gives breeding bonuses that apply to nearly everything in the game; main purpose is gaining them; select pets like foraging fights.,yes,3
+00:11:13,00:11:45,breeding,pet arena,,mechanic,any,best_round=12,Bonuses unlock by best round beaten; after round 12 the next four bonuses show.,yes,3
+00:11:13,00:11:45,breeding,pet arena,,threshold,any,round=35;round_range=50-100;round_range_2=125-200,Bonus tiers shown progress through rounds like 35 then 50 through 100 then 125 through 200.,yes,2
+00:11:13,00:12:30,breeding|storage,pet arena,,mechanic,any,,"Arena bonuses affect damage, new Post Office Boxes, Kitchen upgrades and money; the arena is continuous rounds until all pets are knocked out.",yes,3
+00:12:30,00:13:01,breeding,upgrades,,mechanic,any,,Initially only Genetic Splicing is available in Upgrades; it allows using your genetic multiplier.,yes,3
+00:13:01,00:13:33,breeding|cooking,genetic splicing,,mechanic,any,,Genetic Splicing costs gray DNA Splices plus a Kitchen recipe (Turkey); leveling it decreases DNA Splice cost for Gene Boosting.,yes,2
+00:13:01,00:13:33,breeding|cooking,egg capacity,,threshold,any,unlock_level=5,At level 5 you unlock Egg Capacity raising max eggs in the Incubator; costs a lot of pies.,yes,3
+00:13:33,00:14:04,breeding|cooking,breedability pulse,,threshold,any,unlock_level=10,At level 10 you unlock Breedability Pulse; no pink pets until it is unlocked and levelled to 1; needs Corn.,yes,3
+00:13:33,00:14:04,breeding,breedability pulse,,priority,any,,Unlock Breedability Pulse as soon as possible even though it adds only a small percentage.,yes,3
+00:14:04,00:14:35,breeding,breedability pulse,,mechanic,any,,Upgrading it adds a bit more multiplier each day from breedable pets.,yes,3
+00:14:04,00:14:35,breeding,fence extension,,threshold,any,unlock_level=15,At level 15 you unlock Fence Extension which adds slots to the Fence Yard.,yes,3
+00:14:04,00:14:35,breeding,upgrades,,mechanic,any,,Beyond that new upgrades only benefit Breeding and speed things up with more bonuses and multipliers.,yes,3
+00:14:35,00:15:10,breeding,database,,mechanic,any,,Database storage tab shows pets not actively foraging or in the Fence Yard.,yes,3
+00:14:35,00:15:10,breeding,genetics,,mechanic,any,,Genetics tab shows discovered fighting genes; each genetic has a combat ability and a bonus; more pets unlock new genetics.,yes,3
+00:15:10,00:15:43,breeding,genetics,,how_to,any,,Combat abilities help damage or defense; bonuses range from combat to foraging; use them to build better teams for Pet Arenas.,yes,3
+00:15:10,00:15:43,breeding,specials,,mechanic,any,,Specials tab shows pets you have gained a Shiny version of.,yes,3
+00:15:43,00:16:14,breeding,shiny pets,,mechanic,late,,Shiny chance is rare until higher levels where you can increase odds; each shiny gives a new bonus for foraging or combat.,yes,3

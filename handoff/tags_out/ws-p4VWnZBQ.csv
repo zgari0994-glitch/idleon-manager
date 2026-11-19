@@ -1,0 +1,90 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,pets,piggies,,meta_change,any,pets=15,"Won 15 piggy pets from a dart minigame; they give auto loot, infinite teleport and storage access from anywhere.",yes,3
+00:00:30,00:01:01,hole,reworked mechanic,,meta_change,w7,,Hoop/hole was reworked: no longer gives candy but gives buffs like damage percent and money percent; strongly suggests doing it.,yes,2
+00:00:30,00:01:01,event_shop|damage,dart minigame,,mechanic,w7,,New dart minigame and the rework can give a trophy; both are strong and give damage and talent points.,yes,2
+00:00:30,00:01:01,talent_points|money|damage,w7 minigames,,mechanic,w7,,These give damage; talent points; movement speed; money percent; and reduced vault cost.,yes,2
+00:01:01,00:01:33,w7_push,hole and dart minigame,,priority,w7,,Do the new hole and dart minigames on cooldown on top of Poppy and owl.,yes,2
+00:01:01,00:01:33,upgrade_vault,click on doggy,,how_to,any,,Viewer suggestion he validates: use the click on doggy from vault instead of typing 'if you love me let me go'.,yes,2
+00:01:33,00:02:03,greenstacks,quest items,,mechanic,w7,stack=10000000,A green stack is a world 4 mechanic: a 10 million stack of a unique item in storage gives a damage percent source.,yes,3
+00:01:33,00:02:03,greenstacks,quest items,elemental_sorcerer,comparison,early,,Viewers suggest saving elemental sorcerer for green stacking quest items; he suggests skipping that suggestion thanks to world 7.,yes,2
+00:02:03,00:02:34,class_choice,farming quests,elemental_sorcerer,opinion,early,,Elemental sorcerer is best for farming quests in early to mid game; you will want to do that eventually for damage percent.,yes,2
+00:02:03,00:02:34,greenstacks,quest items,,opinion,any,,Green stacking is only a little damage percent and with world 7 gains you can finish it quickly with time candy on another character.,yes,2
+00:03:37,00:04:07,quests,desonut quest line,,how_to,w2,keys=5,First quest line needs cherries; monicles and snelby sharp shells; it gives five keys; the second quest line gives a key a day and is skipped for now.,yes,2
+00:04:07,00:04:38,kangaroo,bonus bluefish,,opinion,early,,The kangaroo mouse bonus for bluefish was great.,yes,2
+00:04:38,00:05:08,storage,inventory shop,,account_note,early,,Before starting Ephont he bought needed shop items such as storage inventory slots since he had extra cash.,yes,2
+00:04:38,00:05:08,owl,upkeep,,account_note,early,,He tends to neglect owl so he gave it some attention to avoid falling behind.,yes,2
+00:05:08,00:05:39,armor_smithy,amarok helmet,,active_task,early,,Chose between leveling hemoglobin or Amarok to unlock the last helmet piece; decided to unlock the helmet.,yes,2
+00:05:39,00:06:09,armor_smithy,set bonus,,mechanic,w3,gems=2000;accuracy=40;defense=40,"World 3 mechanic: buying 2,000 gems unlocks armor set passives; full Amarok set gives 40% accuracy and 40% defense for that character.",yes,3
+00:05:39,00:06:09,armor_smithy,amarok set,,priority,early,,Suggests getting at least one full Amarok set for your pushing character for the bonus.,yes,3
+00:06:09,00:06:39,characters,overnight afk,hunter,account_note,early,,Gus was at mimics for sigils ready to push to hunter subclass; shaman farmed birch; Una farmed copper ore.,yes,2
+00:06:09,00:06:39,characters,fruit flies,,setup,early,,Pushing through world 2 to reach fruit flies for the alchemy bubble FMJ for defense.,yes,2
+00:06:39,00:07:10,vials|bubbles,unlocks,,account_note,early,,Unlocked some vials and new bubbles; not yet at Shakers or FMJ.,yes,2
+00:06:39,00:07:10,armor_smithy,armor gear,,opinion,early,,Has little armor yet; in hindsight he would have worked on it sooner.,yes,2
+00:07:10,00:07:41,anvil,iron bars,,priority,early,,Put Una on iron to farm bars for Amarok gear; important.,yes,2
+00:07:41,00:08:11,anvil,tab 2,,mechanic,early,,Anvil tab tier 2 and iron boots require iron bars; copper from the previous day was plentiful so iron is the focus.,yes,3
+00:08:11,00:08:42,statues,golden statue,,setup,early,,Used saved cash to unlock upgrade tab up to beholder statue for the account-wide bonus; skipped bullseye as unaffordable and it comes from walking sticks.,yes,2
+00:08:42,00:09:14,arcade,plinko gold balls,,how_to,any,,Plinko gives chance at gold balls spent in the arcade shop; wait for the rotation which increases golden ball values before spending.,yes,2
+00:09:14,00:09:45,arcade|stamps,plinko stamps,,mechanic,any,chance=0.1,Stamps reducing plinko cost are horribly rare; 0.1% chance on a golden bucket; some long-time players have one.,yes,2
+00:09:14,00:09:45,arcade,cosmic balls,,mechanic,any,,Cosmic balls only come from events so don't worry about them.,yes,3
+00:09:45,00:10:16,talent_points,uruar respawn,hunter,priority,early,,Focused Uruar for respawn; before elite classes hunter was best by a margin thanks to that respawn ability.,yes,2
+00:10:16,00:10:47,talent_points,ludy mcshooty,hunter,mechanic,early,,Ludy McShooty: collect a unique item on any character once for extra damage per 50 items.,yes,2
+00:10:16,00:10:47,talent_points,ludy mcshooty,hunter,warning,early,,He drops items on the ground and picks them up to count; lava apparently fixed that; he lost event items to Ludy.,yes,2
+00:10:47,00:11:17,talent_points,hunter build,hunter,setup,early,,Hunter build: Uruar for triple shot; Ludy McShooty for damage percent; bear trap for active farming; skipped 360 no scope.,yes,2
+00:11:17,00:11:48,talent_points,archer talents,archer,setup,early,,Archer talents and first tab are the same as other archers.,yes,2
+00:11:17,00:11:48,cooking,golden food,,mechanic,any,golden_jam_max_hp=0.93,Golden food is not consumed and gives bonuses; golden jam increases max health 0.93%; more you have the stronger.,yes,3
+00:11:48,00:12:18,cooking,golden food,,opinion,endgame,,Golden food is the endgame of consumables and has later effect bonuses.,yes,2
+00:11:48,00:12:18,general,production,,warning,any,,Always check your production constantly.,yes,3
+00:11:48,00:12:18,characters,skilling,barbarian|shaman,account_note,early,,Barbarian farming iron; shaman moved to jungle trees due to many bleach logs overnight.,yes,2
+00:12:18,00:12:48,characters,progress,,account_note,early,,Gus pushing crab cakes; Mafioso on way to fruit flies; hunter pushing levels since world 3 not reached.,yes,2
+00:12:18,00:12:48,construction,tools,,account_note,early,,Crafted a copper chopper and copper pickaxe; cheaper than expected.,yes,2
+00:12:48,00:13:20,armor_smithy,gems requirement,,blocker,early,gems=2000;days=30,Armor smithy needs buying at least 2000 gems or waiting 30 days for free-to-play; need full set including helmet.,yes,3
+00:13:20,00:13:50,armor_smithy,copper set,,mechanic,early,mining_efficiency=60,Copper set bonus is 60% mining and choppin efficiency; strong but free-to-play must wait.,yes,2
+00:13:20,00:13:50,armor_smithy,amarok set,,active_task,early,,Farmed Amarok to get the last piece of helmet.,yes,2
+00:13:20,00:13:50,merits,task,,skip,early,,Did the merit task on all characters though probably won't use it since walking sticks untouched.,yes,2
+00:13:50,00:14:21,gem_shop,spike minigame,,mechanic,any,gems=13;rounds=7,Spike minigame once a day at top of the hour; gems depend on spikes dodged per round; round seven gave about 13 gems.,yes,2
+00:14:21,00:14:53,anvil,priorities,,priority,early,,Current focus is Amarok gear and finishing anvil tab 2.,yes,3
+00:14:21,00:14:53,tasks,task board unlock,,active_task,early,,Finished last three items axe; quarter staff; burst longbow to unlock desert Dave and the new task board.,yes,2
+00:14:21,00:14:53,tasks,task board unlocks,,priority,early,,Usually prefers unlocking star talent book chances.,yes,2
+00:14:53,00:15:23,tasks,task board unlocks,,priority,early,,Other preferences: gems from bosses; monsters dropping oles; rest into mob respawn to boost damage.,yes,2
+00:14:53,00:15:23,bribes,purchase,,account_note,early,,Bought a ton of bribes with lots of value; check stuff to not go overboard.,yes,2
+00:15:23,00:15:53,stamps,leveling,,account_note,early,,Leveled all stamps; got value from shield stamp; also accuracy; mana; HP; damage stamps.,yes,2
+00:15:23,00:15:53,stamps,drops,,account_note,early,,Got another HP stamp and an accuracy stamp dropped from mobs.,yes,2
+00:15:53,00:16:23,stamps,skill stamps,,opinion,early,level=65,Leveled chopping and mining stamps to about 65; worth it even if underleveled for diminishing bonuses; helps task board.,yes,2
+00:16:23,00:16:54,talent_points,squire mana,squire,target,early,mp=260;mp_high=280,Pushing squire to about 260-280 MP to run sword slash whirl; bricky skin and firmly grasp at once for mana regen.,yes,2
+00:16:54,00:17:24,general,active vs afk,,how_to,any,,Most people run active and leave it overnight; when fighting mobs active is usually better; when AFK skilling is usually better.,yes,3
+00:17:24,00:17:56,general,active farming,,warning,any,,Get used to active farming since statues; crystal farming and some master classes require only active farming.,yes,2
+00:17:56,00:18:28,killroy,ephont boss,,mechanic,w2,arms=6;head_hp=100000;head_damage=10,Ephont has six arms and an immortal head with 100000 health doing 10 damage until arms are destroyed.,yes,2
+00:17:56,00:18:28,killroy,ephont boss,,how_to,w2,,Top right arm and finger pistol are one-shot mechanics; each destroyed arm speeds up others; kill top right first then finger pistol.,yes,2
+00:18:28,00:18:58,killroy,ephont boss,barbarian|squire,how_to,w2,,Cheese with barbarian axe roll or squire dagger rang since arm hitboxes do not move.,yes,2
+00:18:58,00:19:29,killroy,ephont boss,,how_to,w2,damage_taken=64,After all hands die the head takes maximum damage and shoots O's doing about 64 damage; defeat it.,yes,2
+00:19:29,00:20:01,general,world 3,,opinion,w3,,World 3 has the densest mechanics in the game and is make or break for players.,yes,3
+00:19:29,00:20:01,quests,hogan quest line,,priority,w3,,Before anything in world 3 do the Hogan quest line; mechanics like 3D printer and shrine architect are locked until it.,yes,3
+00:20:01,00:20:32,refinery,time gate,,mechanic,w3,,Refinery is the biggest time gate; people talk of water locked (dense water) and salt locked (refinery).,yes,3
+00:20:32,00:21:04,refinery,red salts,,mechanic,w3,,Red salts use green mushroom spore caps and copper ore; bar fills to allow ranking up.,yes,2
+00:20:32,00:21:34,refinery,auto refine,,warning,w3,,Never turn auto refine on for red salts or green salts; keep it off.,yes,3
+00:21:04,00:21:34,refinery,salts,,opinion,w3,,Keep refinery going; salts are overpowered in this game.,yes,3
+00:21:34,00:22:04,construction,construction table,,mechanic,w3,,World 3 looks empty because you must build everything; table has buildings; towers for tower defense; and shrines placed on maps for bonuses.,yes,3
+00:22:04,00:22:34,printer,3D printer,,priority,w3,,Build the 3D printer first and max it as soon as you can.,yes,3
+00:22:04,00:22:34,quests,hogan quest,,blocker,w3,hours=24,Quest required 24 hours worth of red salts so he farmed green spore caps.,yes,2
+00:22:04,00:23:04,refinery,rank,,mechanic,w3,minutes=15,Rank increases salts per 15-minute rotation and output speed but also costs more materials.,yes,3
+00:22:34,00:23:35,construction,cog board,squire,mechanic,mid,,Mid to late game only two characters sit on the cog board; the two squires provide about 99% of build rate; others build cogs.,yes,2
+00:23:04,00:23:35,construction,flaggies,,mechanic,w3,,Flaggies unlock more board space; costs get expensive after the first four.,yes,2
+00:23:35,00:24:06,construction,cog board eyeball,,how_to,w3,,Focus build rate now but eventually click the eyeball to always focus XP%.,yes,2
+00:24:06,00:24:39,refinery,throttle,squire,how_to,w3,level=100;cycles=15,Squire's refinery throttle talent skips refinery cycles; about 15 at level 100.,yes,2
+00:24:06,00:25:09,time_candy,refinery,,how_to,w3,hours=24,Used time candy on green mushroom spore caps to finish the 24-hour red salts quest; then refinery throttle for salts to buy 3D printer.,yes,2
+00:25:09,00:25:40,traps,world 3 shop,,setup,w3,,Buy a trapping box and a wax skull from the world 3 shop on every character; wax skull generates worship charge.,yes,3
+00:25:09,00:25:40,traps,quest,,active_task,w3,,Next hogan quest requires trapping.,yes,2
+00:25:40,00:26:10,traps,eagle eye,hunter,mechanic,w3,collect_critters=75;xp=60,Hunter's Eagle-Eye opens trapping UI to collect remotely but only gets about 75% critters and 60% XP.,yes,3
+00:25:40,00:26:10,printer,sampling star talent,,mechanic,w3,sample_rate=10,Building 3D printer gives star talent for sampling; one point gives 10%; check in construction skill tab.,yes,3
+00:26:10,00:26:40,printer,sample rate,,mechanic,w3,max_rate=90,Max printer sample rate is 90%; samples your overall AFK gains.,yes,2
+00:26:10,00:26:40,printer|refinery,first print,,setup,w3,,First print was green mushrooms to keep refinery afloat.,yes,3
+00:26:40,00:27:10,printer|gem_shop,crystal printer,,priority,w3,slots=2,Save gems for the crystal 3D printer; unlocks two print slots per character; great value.,yes,3
+00:27:10,00:27:40,traps,critters,,meta_change,w3,critter_bonus=10,Lava changed trapping so all critters are unlocked from the start; quest line gives 10% per critter.,yes,2
+00:27:10,00:27:40,time_candy,frogs quest,,opinion,w3,,Frog quest is really good for time candy.,yes,2
+00:27:40,00:28:12,armor_smithy|construction,smithing xp,,how_to,early,smithing_level=21,Needed smithing 21 for full Amarok gear; boosted smithing XP by crafting log bags from birch logs.,yes,2
+00:28:12,00:28:42,traps,pen pals,,mechanic,w3,,Pen pals minigame gives shiny critter chance; trapping XP; more critters and efficiency; almost free value.,yes,3
+00:28:12,00:29:14,traps,trap setup,,how_to,w3,traps_frogs=4;traps_crabs=1;minutes=20,Placed four traps at frogs and one at crabs with 20-minute traps; set a timer and collect via hunter eagle-eye.,yes,2
+00:28:42,00:29:14,traps,shiny critters,,mechanic,w3,,Shiny quantities do not change by trap duration so a longer trap gains the same shinies as a 20-minute trap.,yes,2
+00:29:14,00:29:45,printer,sampling book,,mechanic,w3,,Sampling book is obtained by building the 3D printer and also from the quest line.,yes,2
+00:29:14,00:29:45,tasks,world 3 task board,,target,w3,,Wanted to unlock world 3 task board for another build slot.,yes,2
+00:29:45,00:30:16,characters,farming assignments,squire|shaman|barbarian|hunter|bowman,account_note,w3,,Squire to frost flakes; shaman woodboards for gigafrog; barbarian iron ore; hunter sheepies; bowman sand castles toward fruit flies.,yes,2

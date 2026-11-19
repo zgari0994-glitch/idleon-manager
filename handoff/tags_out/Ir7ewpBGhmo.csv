@@ -1,0 +1,62 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:31,00:01:01,general,platform,,warning,any,,iOS platform is broken again after only a few good days; raids were nerfed and other platforms caught up,yes,1
+00:01:01,00:01:31,cooking,ribbons,,warning,any,ribbon_tier=20;months_ahead_paid=3-4;year_ahead_unpaid=1,Ribbon overflow bug: reinstalling the hotfix gave a shelf of tier 20 ribbons; players jumped months to a year ahead in cooking,yes,2
+00:01:31,00:02:02,cooking,ribbons,,opinion,any,,Ribbon bug is neither hotfixed nor rolled back so anyone competing in cooking is now behind forever,yes,3
+00:02:02,00:02:33,event_shop,new event,,opinion,any,,"He likes the new event's control over gambling, though many dislike not being able to spam it",yes,3
+00:02:33,00:03:05,event_shop,card game,,warning,any,cards=52,Beating the event card game perfectly with all 52 cards crashes the game,yes,2
+00:02:33,00:03:05,event_shop,card game,,mechanic,any,chance=50,Maxing out the event game gives a roughly 50/50 chance at the jackpot; he doesn't fully understand it,yes,1
+00:03:05,00:04:39,event_shop,dig,,how_to,any,,The dig location is posted every day on his Discord; he couldn't find it in-game and had already found the treasure,yes,2
+00:04:39,00:05:09,event_shop,dig,,mechanic,any,event_plays=1,The dig gives extra event plays; he thinks it is plus one event play,yes,2
+00:05:09,00:05:39,pets,pet tokens,,warning,any,,Users report pet tokens disappearing but he thinks it is only visual and people got them back,yes,3
+00:05:09,00:05:39,masterclass,resource nodes,,warning,any,,Resource level up and refresh only work if you have seen the node hit zero on the map; bug since the new masterclass launch,yes,3
+00:05:39,00:06:11,masterclass,resource nodes,,how_to,any,,After emptying a node open the map and look at it before the reset happens so it refreshes,yes,3
+00:05:39,00:06:11,masterclass,resource nodes,,mechanic,w2,,Resource refresh bug applies to world two and presumably other worlds; nobody has unlocked world three yet,yes,2
+00:05:39,00:06:41,event_shop,replica name tag,,warning,any,,Replica name tag from event jackpot (handed to quad frame in world 7 then bought in shop) breaks your game when equipped,yes,2
+00:06:11,00:06:41,event_shop,replica name tag,royal_guardian,warning,any,,The name tag bug breaks the character it's equipped on (e.g. Royal Guardian) so you can't log onto it without crashing,yes,2
+00:06:41,00:07:12,event_shop,replica name tag,,how_to,any,,If you hit the name tag bug unequip it; it nukes one inventory slot; don't cloud save or log out,yes,2
+00:07:12,00:07:44,general,news video,,meta_change,any,,He plans to put out a proper condensed news report video covering the bugs,yes,2
+00:07:12,00:07:44,farming,crops,,account_note,any,,He should push farming and get his glassy crop to the last one,yes,2
+00:07:44,00:08:19,general,event bugs,,opinion,any,,Tons of bugs expected but he doesn't think a pay to win event has had this many bugs before,yes,3
+00:07:44,00:08:19,pets|drop_rate,verminous,,mechanic,any,,Verminous is a massive gold food bonus pet,yes,2
+00:07:44,00:08:49,drop_rate,gold food,,account_note,any,gold_food_drop_rate=100000;afk_gains_with=97000;afk_gains_without=50000;drop_rate_current=365000;drop_rate_max=438000,"Gold food gives him almost 100k drop rate and 97k AFK gains; he has 365k drop rate, 438k when maximized",yes,3
+00:08:49,00:09:19,beanstalk|drop_rate,bean store,,mechanic,any,gold_food_bonus=184000;ribbon=25,His gold food bonus comes from the bean store at 184k; he doesn't have ribbon 25 on Yumi yet and expects it to explode,yes,2
+00:08:49,00:09:19,drop_rate,drop rate,,opinion,any,drop_rate=500000;others=1000000,He is pushing half a million drop rate while others hit a million; he lacks dead bones because it wasn't rerun,yes,2
+00:09:19,00:09:52,masterclass,marble drops,,meta_change,any,nerf=4x,Marble drops were shadow nerfed by about four times and this doesn't reset daily,yes,2
+00:09:52,00:10:23,masterclass,marble farming,,opinion,any,days=4,Marble farming in the first four days put players far ahead of those who didn't,yes,3
+00:10:23,00:10:54,masterclass,marble farming,,account_note,any,others_per_day=50-100;his_per_day=1000;feasty_upgrade_cost=1000,Others got 50-100 marble a day while he got about 1000; the final Feasty upgrade alone costs about a thousand,yes,2
+00:10:54,00:11:25,cards,crystal mob spawn chance,,meta_change,any,,Crystal mob spawn chance cards were shadow changed from multiplicative to additive; unclear if the meta changed,yes,3
+00:11:25,00:11:56,general,shadow changes,,opinion,any,chance_bug=50,Shadow changes not in patch notes are about 50% bugs and 50% genuine unreported changes,yes,3
+00:11:25,00:11:56,gem_shop|event_shop,golden stopwatch,,meta_change,any,trophies_old=30;trophies_new=50,Golden stopwatches from the weekly shop were changed from 30 to 50 trophies as an unreported shadow change,yes,3
+00:11:56,00:12:27,masterclass,marble drops,,opinion,any,,He is sure the marble nerf is intentional because the drop table numbers looked too deliberate,yes,3
+00:11:56,00:12:27,drop_rate,strength,,account_note,any,strength_now=53000000;strength_yesterday=30000000,His strength jumped from 30 million to 53 million mostly from gold food bonuses,yes,2
+00:12:27,00:12:57,zenith_market|masterclass,frogs,,afk_spot,any,orb=4600,He sits on frogs for some zenith at about 4.6k on his orb,yes,2
+00:12:57,00:13:27,masterclass,beans map,,afk_spot,any,,Beans map is slightly better than frogs because it's smaller,yes,3
+00:12:57,00:13:27,masterclass,Guardian Disciple,,mechanic,any,,Guardian Disciple spawns lots of mobs on a small map giving more orb and orb chance and potentially more marble,yes,2
+00:12:57,00:13:27,masterclass,talents,,account_note,any,,He put one more point into bargain which is getting expensive and the rest into hydration,yes,2
+00:13:27,00:13:59,masterclass,glorify,,account_note,any,,He should gamble on more glorifies now,yes,2
+00:13:27,00:13:59,masterclass,expanded barracks,,priority,any,,The meta is expanded barracks,yes,3
+00:13:27,00:13:59,masterclass,greater education,,warning,any,,Greater education is bugged and doesn't work,yes,2
+00:13:27,00:13:59,masterclass,advanced logistics,,comparison,any,,Advanced logistics is fine but is outshone by getting more guys and swapping between them,yes,3
+00:13:59,00:14:33,masterclass,guards,,priority,any,,More guys gives versatility plus more trading and connection range and collection rate; just get more guys,yes,3
+00:13:59,00:14:33,masterclass,guards,,mechanic,any,,One unlocked guard increases connection range by a huge amount,yes,3
+00:14:33,00:15:03,masterclass,glorify,,account_note,any,,He is close to a fourth guy on most nodes and almost a fifth by glorifying,yes,2
+00:14:33,00:15:33,masterclass,progression,,opinion,any,,Progression curve has improved immeasurably and feels better though he still thinks it is a bit slow,yes,3
+00:15:03,00:15:33,royal_armory|masterclass,upgrades,royal_guardian,opinion,any,,Before he was waiting a week or two between royal armory upgrades; now he is leveling resource grades and upgrading sooner,yes,3
+00:15:33,00:16:04,killroy,merit,,target,any,,He is saving silver stopwatches to try for a triple dip on Killroy merit if it comes up,yes,2
+00:15:33,00:16:04,general,silver stopwatch,,account_note,any,days=1,He spent silver stopwatches to accelerate stuff by a day and has more to accelerate further,yes,3
+00:15:33,00:16:04,general,silver stopwatch,,how_to,any,,Silver stopwatch tech: open the shop but don't click quick buy because it sells your silver stopwatches,yes,3
+00:16:04,00:16:34,general,silver stopwatch,,how_to,any,minutes=15,Put the silver stopwatch on the right side of inventory and keep clicking until shop restock is under 15 minutes then let it tick over,yes,3
+00:16:04,00:16:34,general,silver stopwatch,,warning,any,,Going through the reset with a silver stopwatch active does not work; use it just before reset then go through the reset,yes,3
+00:16:34,00:17:04,general,silver stopwatch,,mechanic,any,,A true reset with silver stopwatches gives everything like tiny cogs while golden stopwatch doesn't give all reset stuff,yes,3
+00:17:04,00:17:37,general,reads,,account_note,any,,His read bank is miserable and he hasn't done tiny cogs or reads yet today,yes,1
+00:17:37,00:18:08,general,reads,,account_note,any,cost=200000,He thinks he only needs 200k for something and does two,no,1
+00:18:08,00:18:38,bubbles,Royal Riches,,account_note,any,cap=70,He put Royal Riches in alchemy; it's near cap and won't go past 70,yes,2
+00:18:08,00:18:38,pets,plus pets,,opinion,any,good_pets=5,There are about five really good plus pets; he still needs Ram Plus,yes,3
+00:18:38,00:19:08,pets,plus pets,,account_note,any,,Community members donated plus pets to him including Jake and Abra Kadaava and Evil Eye,yes,2
+00:19:08,00:19:38,gem_shop,event gems,,opinion,any,gems=14,Event gem amount of 14 isn't increased despite expectation that gems would be higher in events; items are expensive,yes,2
+00:19:08,00:19:38,gem_shop|bubbles,Rift Hivemind,,mechanic,any,cost=3500;prisma_bonus=0.25;extra_bubbles=2,Rift Hivemind costs 3.5k and gives .25 bonus on Prisma and two extra bubbles,yes,2
+00:19:38,00:20:09,pets,Larry,,mechanic,any,plus_always=5;plus_sometimes=6,Larry always gives plus five and sometimes plus six,yes,3
+00:19:38,00:20:09,pets,plus pets,,opinion,any,,He thinks there's one really good plus pet that hasn't appeared yet,yes,2
+00:20:09,00:20:39,pets|bubba,Bubba,,opinion,any,,Bubba hasn't been in the pet shop yet but will be crazy,yes,3
+00:20:09,00:20:39,pets,Puffer Fish,,opinion,any,,Puffer Fish hasn't appeared yet and will be really good once in the pet mart,yes,3
+00:20:09,00:21:09,pets,pet cost,,opinion,any,cost_per_pet=30-50;total_all=400,Pets cost $30-50 each; someone spent $120-200 chasing one and everything together is about $400+,yes,2

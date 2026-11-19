@@ -1,0 +1,63 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:31,dungeons,stat boost,squire,setup,any,toothpaste_damage=3,Stat boost setup includes plus three toothpaste damage for the Stone of the Bulwark build.,yes,3
+00:00:00,00:00:31,dungeons,RNG items,squire,setup,any,start_grey_items=2;grey_drop_chance=1,Start each dungeon run with two grey RNG items and plus one drop chance per grey.,yes,2
+00:00:00,00:00:31,dungeons,RNG items,squire,setup,any,enhancer_drop_bonus_pct=25,RNG enhancers drop 25 percent more; he is hoping for an RNG voucher.,yes,2
+00:00:00,00:00:31,dungeons,RNG shop,squire,setup,any,shop_price_scale_slower_pct=15,RNG voucher shop prices scale 15 percent slower.,yes,2
+00:00:00,00:00:31,dungeons,RNG items,squire,setup,any,high_rarity_more_likely_pct=25,High rarity (greener) RNG items are 25 percent more likely.,yes,3
+00:00:00,00:00:31,dungeons,RNG items,squire,setup,any,start_purple_chance_pct=100;choices=4,100 percent chance to start the run with one purple RNG item with four choices for a legendary.,yes,3
+00:00:31,00:01:03,dungeons|cards,card setup,squire,setup,any,dungeon_damage=80;dungeon_mp_regen=65,Cards: plus 80 total dungeon damage and plus 65 dungeon MP regen because Stone of the Bulwark nukes mana regen.,yes,3
+00:00:31,00:01:03,dungeons|cards,card setup,squire,setup,any,dungeon_drop_rate=20,Card for 20 dungeon drop rate for extra drops.,yes,3
+00:00:31,00:01:03,dungeons|cards,card setup,squire,setup,any,,Dungeon money card to get more RNG items.,yes,2
+00:00:31,00:01:03,dungeons|cards,card setup,squire,setup,any,block_chance=10,Plus 10 block chance card because the build uses Spiky Spine which increases block chance; need as much as possible.,yes,3
+00:00:31,00:01:03,dungeons|cards,card setup,squire,setup,any,dungeon_move_speed=35,35 dungeon move speed card is just quality of life.,yes,3
+00:00:31,00:01:03,dungeons|cards,card setup,squire,setup,any,rng_item_rarity=100,100 RNG item rarity card.,yes,3
+00:01:03,00:01:35,dungeons|cards,chips,squire,how_to,any,rarity_pct=100,Top left and bottom right chips double card effect (world four item) giving 100 percent rarity; potato chip increases attack speed.,yes,2
+00:01:03,00:01:35,dungeons,Stone of the Bulwark,squire,target,any,,Challenge is taking Stone of the Bulwark right off the start and getting a full completed run to showcase it.,yes,3
+00:01:35,00:02:05,dungeons,Stone of the Bulwark,squire,opinion,any,,He calls Stone of the Bulwark trash in his RNG tier list.,yes,3
+00:01:35,00:02:05,dungeons,Spiky Spine,squire,priority,any,,Need Spiky Spine plus Stone of the Bulwark plus lots of block chance for this build.,yes,3
+00:01:35,00:02:05,dungeons,Pan Lid,squire,priority,any,block_chance_gain_pct=4,Pan lids are huge for block chance; each gave an extra four percent.,yes,2
+00:02:05,00:02:36,dungeons,Ninja Smoke,squire,warning,any,,Don't take Ninja Smoke; it reduces damage especially single target damage where this build lacks most.,yes,3
+00:02:05,00:02:36,dungeons,Spiky Spine,squire,mechanic,any,,Spiky Spine blocks do a critical strike.,yes,2
+00:02:05,00:02:36,dungeons,block chance,squire,mechanic,any,block_chance=100,With 100 block chance you are immortal and can just maximize damage.,yes,3
+00:02:05,00:02:36,dungeons,Stardew,squire,opinion,any,,Stardew is kind of weak here.,yes,2
+00:02:36,00:03:06,dungeons,Stone of the Bulwark,squire,warning,any,player_level=50,Challenge is hard even at level 50 with everything maxed; attack speed is lacking badly.,yes,3
+00:02:36,00:03:06,dungeons,Dagger Rang,squire,how_to,any,,Abuse the dagger rang against bosses.,yes,2
+00:02:36,00:03:06,dungeons,Stone of the Bulwark,,warning,any,,Don't attempt this on any class except one with high abilities and very low cooldowns.,yes,3
+00:03:06,00:03:36,dungeons,Stone of the Bulwark,maestro,warning,any,,Maestro is absolutely atrocious with Stone of the Bulwark; he tried it and it's not worth it.,yes,3
+00:03:06,00:03:36,dungeons,Super Soda,squire,mechanic,any,,Super soda helps with mana but he is unsure if it scales off attack speed or abilities; probably abilities.,yes,2
+00:03:06,00:03:36,dungeons,inventory,squire,how_to,any,,Rig your inventory with items.,no,1
+00:03:36,00:04:07,dungeons,block chance,squire,mechanic,any,block_chance=78,Reached 78 block chance with a couple of pan lids; he wants an eyeball.,yes,2
+00:03:36,00:04:07,dungeons,block chance,squire,mechanic,any,block_chance=100,It is possible to reach 100 block chance.,yes,3
+00:04:07,00:04:38,dungeons|refinery,Squire damage,squire,opinion,any,,Squire is one of the weakest characters to build damage; needing refinery ranks makes it hardest to scale and not rewarding.,yes,3
+00:04:38,00:05:09,dungeons,Spiky Spine,squire,target,any,spiky_spines=3;retaliation_damage=450,Wants two or three Spiky Spines for 450 retaliation damage; that is the goal.,yes,2
+00:04:38,00:05:09,dungeons,block chance,squire,opinion,any,,Might not rely on 100 block and just get crits anyway.,yes,1
+00:05:09,00:05:40,dungeons,Sucker Punch,squire,opinion,any,retaliation_damage=11000,Sucker Punch helps spike damage; retaliation damage doing about 11k.,yes,2
+00:05:40,00:06:10,dungeons,Armadillo,squire,priority,any,,Stack as much health as possible; armadillos help; lots of food and block chance for big bosses.,yes,2
+00:05:40,00:06:10,dungeons,Stone of the Bulwark,squire,account_note,any,spiky_spines=4,He completed the challenge once with four Spiky Spines but lost the recording to corrupted data.,yes,3
+00:06:10,00:06:40,dungeons,Stone of the Bulwark,squire,opinion,any,,With this build you clear enemies efficiently and are practically immortal taking no damage.,yes,3
+00:06:40,00:07:11,dungeons,drop rate,squire,account_note,any,drop_rate=2.41,Drop rate at 2.41 is kind of bad; surprising he got the eye at it.,yes,2
+00:06:40,00:07:11,dungeons,Sugar Rush,squire,opinion,any,,Sugar Rush is okay; don't need many rib cages or liar scraps.,yes,2
+00:07:11,00:07:42,dungeons,Blood Vial,squire,how_to,any,,Take blood vial and avoid healing to keep blood vial stacks high for damage.,yes,2
+00:07:11,00:07:42,dungeons,block chance,squire,mechanic,any,block_chance=85,Reached 85 percent block chance with pan lids.,yes,2
+00:07:42,00:08:12,dungeons,Battery,squire,priority,any,,Battery is going to be massive; want as many batteries as possible.,yes,3
+00:07:42,00:08:12,sailing|divinity,world 5,divine_knight,opinion,w5,,Excited for world 5 sailing and hopes Divine Knight becomes really OP as supposedly promised.,yes,2
+00:08:12,00:08:43,dungeons,Battery,squire,account_note,any,batteries=41,Had 41 batteries which is way more than needed; overkill.,yes,2
+00:08:12,00:08:43,dungeons,boss fight,squire,how_to,any,,Stand right in front of the boss to get as much damage as possible.,yes,3
+00:08:43,00:09:13,dungeons,Stone of the Bulwark,squire,warning,any,,Auto attack is very weak; this is the huge problem with Stone of the Bulwark.,yes,3
+00:08:43,00:09:13,dungeons,boss fight,squire,how_to,any,,Need to be in the boss hitbox to deal damage.,yes,2
+00:09:13,00:09:45,dungeons,Dagger Rang,squire,how_to,any,,Catching the dagger rang reduces cooldown to almost nothing; abuse it.,yes,3
+00:09:13,00:09:45,dungeons,Spiky Spine,squire,mechanic,any,,Spiky Spine synergizes nicely with Stone of the Bulwark.,yes,3
+00:09:45,00:10:17,dungeons,block chance,squire,how_to,any,block_chance=85;block_gain=3,Buy armor and a couple of RNG items to boost block chance if wanted; not really necessary.,yes,2
+00:09:45,00:10:17,dungeons,Stone of the Bulwark,squire,opinion,any,,Challenge was fun but he won't take this as a meta build; gave it F tier.,yes,3
+00:10:17,00:10:48,dungeons,Stone of the Bulwark,squire,comparison,any,,Being an immortal god helps early progression but Horn of the Foal is far better; mind manifying is better.,yes,2
+00:10:17,00:10:48,dungeons,Spiky Spine,squire,target,any,spiky_spines=3;retaliation_damage=450,Imagine three Spiky Spines doing 450 damage.,yes,2
+00:10:48,00:11:18,dungeons,Stone of the Bulwark,squire,warning,w3,damage=17000,Damage scaling is hard (about 17k); it wouldn't work in world three and would be painful.,yes,3
+00:10:48,00:11:18,dungeons,Stone of the Bulwark,squire,opinion,any,,Full clear from this is unlikely; barely getting close.,yes,2
+00:11:18,00:11:50,dungeons,Stone of the Bulwark,squire,opinion,early,,Super beginner friendly because you don't die but you must be on the ball.,yes,3
+00:11:18,00:11:50,dungeons|cards,card setup,squire,how_to,any,block_chance=10,Took MP cards and 10 block chance card to maximize block chance; Spiky Spine is required.,yes,3
+00:11:18,00:11:50,dungeons,Stone of the Bulwark,squire,mechanic,any,,Bulwark doesn't work on itself; needs synergy.,yes,3
+00:11:50,00:12:20,dungeons,Spiky Spine,squire,mechanic,any,,Spiky Spine is one of the best synergies because it doesn't require auto attacks or spells.,yes,3
+00:11:50,00:12:20,dungeons,Stone of the Bulwark,squire,account_note,any,,Beat the fourth frog with Stone of the Bulwark from the start and did a full clear before time ran out.,yes,3
+00:12:20,00:12:51,dungeons,block chance,squire,account_note,any,block_chance=94,Tried to reach 100 block chance in the shop; got 94 then 87.,yes,1
+00:12:51,00:13:22,dungeons,stats,squire,account_note,any,crit_chance=60;crit_damage=2.55;block_chance=105;movement_speed=194;drop_rarity=2.52,Final stats: 60 crit chance 2.55 crit damage 105 block chance (immortal) 194 move speed; drop rarity 2.52 is low.,yes,2
+00:12:51,00:13:22,dungeons,drop rarity,squire,opinion,any,drop_rarity=2.52,Wants drop rarity higher for this build.,yes,3

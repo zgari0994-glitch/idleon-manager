@@ -1,0 +1,44 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,killroy|weekly_boss,nightmare Sacrilegious Kattlekruk,,mechanic,w5,world=5,Nightmare boss Sacrilegious Kattlekruk is in World 5 map Miner Mole Outskirts,yes,2
+00:00:00,00:00:30,quests,crux volcano keys,,mechanic,w5,keys_per_attempt=70,Each nightmare attempt requires 70 Crux Volcano keys; keys come from quests and monster drops,yes,2
+00:00:30,00:01:00,quests,big old mole quest,,how_to,w5,kills=6000000;keys_per_character=10,Quest: kill 6 million big old moles to get 10 Crux Volcano keys per character that completes it,yes,3
+00:00:30,00:01:00,quests,big old mole quest,,warning,w5,kills=6000000,Active kills don't count properly on this quest right now; be offline while killing moles for much faster kills if damage is enough,yes,2
+00:01:00,00:01:30,quests,crawler quest,,how_to,w5,kills=10000000;keys_per_character=25,Quest: kill 10 million crawlers in Crawley Catacombs for 25 Crux Volcano keys per character,yes,3
+00:01:00,00:01:30,quests|armor_smithy,divine scarf quest,,how_to,w5,,Third quest gives no keys; requires equipping a Divine scarf and getting the Kattlekruk cape,yes,2
+00:01:30,00:02:00,quests,kattlekruk cape quest,,warning,w5,,Cape must be obtained on the character that has the quest; cape on another character or no quest won't count for completion,yes,3
+00:01:30,00:02:31,quests|armor_smithy,kattlekruk trophy,,mechanic,w5,level_req=450;weapon_power=10;base_stats=30;drop_chance=42;total_damage=35,Quest reward Divine trophy needs level 450 and gives 10 weapon power 30 base stats 42% drop chance 35% total damage,yes,3
+00:02:00,00:02:31,quests|armor_smithy,kattlekruk trophy,,opinion,w5,,Trophy is one of the best in slot items for fighting characters and what most are looking forward to,yes,3
+00:02:00,00:02:31,drop_rate,big old mole key drop,,mechanic,w5,drop_chance=1/75000,Big old mole drops Crux Volcano key at 1 in 75000,yes,3
+00:02:31,00:03:03,drop_rate,key farming multikill,,mechanic,w5,,Multi-kill applies to key drops so more damage and multikill means better key farming,yes,3
+00:02:31,00:03:03,drop_rate,crawler key drop,,mechanic,w5,drop_chance=1/50000,Crawler gives 1 in 50000 key drop chance and slightly more kills per hour than big old moles,yes,3
+00:02:31,00:03:36,drop_rate,tremor worm key drop,,priority,w5,drop_chance=1/25000,Best key source is tremor worms at 1 in 25000 with significantly higher kills per hour than crawlers,yes,2
+00:03:03,00:03:36,killroy|weekly_boss,accuracy requirement,,threshold,w5,boss_accuracy=900;mole_accuracy=54000,Boss needs only 900 accuracy but big old moles need 54000 accuracy for 100% hit chance; can be ignored depending on damage,yes,2
+00:03:36,00:04:07,killroy|weekly_boss,damage requirement,,mechanic,w5,boss_hp_trillion=1000,Boss has 1000 trillion HP and a healing mechanic; fight is a DPS race versus healing from big old moles touching it,yes,3
+00:04:07,00:04:39,characters,voidwalker,voidwalker,threshold,w5,damage_billion=50;lowest_cleared_billion=70,Void Walker needs probably 50 billion damage or more; lowest he cleared with was 70 billion and it's difficult,yes,2
+00:04:07,00:04:39,characters,wave clear,divine_knight|bubonic_conjuror|elemental_sorcerer,recommendation,w5,,Fight on a character with good wave clear: Divine Knight statue Bubonic poison clouds Elemental Sorcerer meteors,yes,2
+00:04:07,00:04:39,characters,wave clear,hunter|bowman,warning,w5,,Hunter and Bowman can struggle depending on damage,yes,2
+00:04:39,00:05:09,characters,wave clear,blood_berserker,opinion,w5,,Blood Berserker had wave clear buffed and cleared fairly easily,yes,2
+00:05:09,00:06:10,characters,void radius,voidwalker,how_to,w5,damage_billion=100,Void Walker: use Void radius for damage hits then abilities to wave clear moles until radius is back; repeat per wave,yes,3
+00:05:09,00:05:39,killroy|weekly_boss,mole healing,,mechanic,w5,,Moles constantly spawn and heal the boss a ridiculous amount,yes,3
+00:08:24,00:08:55,killroy|weekly_boss,nightmare loot,,mechanic,w5,main_drops=8,Nightmare Kattlekruk has eight main drops plus coins and statues and extra rewards from quests and Merit shop,yes,3
+00:08:24,00:08:55,cards,kattlekruk card,,mechanic,w5,money_per_tier=18;gold_three_star=72,Card gives 18% money from monsters per tier; 72% at gold three star,yes,2
+00:08:55,00:09:25,drop_rate,crux tooth and cavity,,mechanic,w5,basic_tooth=24;chaotic_tooth=24,Crux tooth and cavity drop in much better amounts; one attempt gave 24 basic and 24 chaotic teeth depending on drop rarity,yes,2
+00:08:55,00:09:56,armor_smithy,strong tooth pendant,,mechanic,w5,weapon_power=8;base_stats=6;defense=30;total_damage=20;all_stats=5;upgrade_slots=5,Strong tooth pendant: 8 weapon power 6% base stats 30 defense 20% total damage 5% all stats 5 upgrade slots,yes,2
+00:09:25,00:09:56,drop_rate,strong tooth pendant,,comparison,w5,normal_rate=1/100000;nightmare_rate=1/2500,Pendant drop rate improves from 1 in 100000 in normal to 1 in 2500 in nightmare,yes,3
+00:09:25,00:09:56,armor_smithy,strong tooth pendant,,account_note,w5,,He has none currently because he used it to craft the scarf,yes,2
+00:09:56,00:10:28,armor_smithy,molten opal,,mechanic,w5,weapon_power=7;base_stats=15;afk_gains=5;total_damage=2,Molten opal: 7 weapon power 15 base stats 5% all AFK gains 2% total damage,yes,2
+00:09:56,00:10:28,armor_smithy,molten opal,,priority,w5,,Molten opal is best in slot for skilling AFK fighting and sampling unless actively playing where drop rate may be better,yes,2
+00:10:28,00:10:58,armor_smithy,molten opal reroll,,mechanic,w5,afk_gains_max=6;family_slots=4;total_afk=30,Opal can be rerolled up to 6% all AFK gains; four family slots plus personal sparkle slot gives potential 30%,yes,2
+00:10:28,00:10:58,drop_rate,molten opal,,comparison,w5,normal_rate=1/20000;nightmare_rate=1/715,Opal drop rate is 1 in 20000 on normal and 1 in 715 on nightmare,yes,3
+00:10:58,00:11:29,armor_smithy,weapon upgrade stone,,mechanic,w5,apply_chance=62,Nightmare weapon upgrade stones have about 62% chance and consume the slot on failure but give one more weapon power per slot,yes,1
+00:11:29,00:12:01,armor_smithy,helmet upgrade stone,,mechanic,w5,,Helmet upgrade stones trade weapon power and defense for more random stats; uncertain if worth it,yes,2
+00:12:01,00:12:31,armor_smithy,eternal flames of the divine wings,,mechanic,w5,weapon_power=5;base_stats=11;defense=25;skill_exp=40;afk_gains=3,Wings: 5 weapon power 11 base stats 25 defense 40% skill exp 3% all AFK gains,yes,2
+00:12:01,00:12:31,armor_smithy,eternal flames of the divine wings,,opinion,w5,,Not excited about wings as better ones exist but need one per character for quest,yes,3
+00:12:31,00:13:01,armor_smithy,kattlekruk trophy,,warning,w5,level_req=450,Trophy needs level 450 so level up characters,yes,3
+00:13:01,00:13:31,merits|achievements,merit shop upgrades,,blocker,w5,upgrades=7-9,Merit shop upgrades seven through nine require clearing nightmare mode and special Kattlekruk achievements,yes,2
+00:13:01,00:13:31,anvil,skull lance,warrior,mechanic,w5,,Last three achievements unlock crafting Skull Lance warrior weapon upgrade with more speed weapon power total damage and mob respawn,yes,2
+00:13:31,00:14:03,anvil,cracked skull destroyers,voidwalker,mechanic,w5,speed=7,Cracked skull destroyers is a straight upgrade for Void Walker weapon with more speed power damage mob respawn and an extra slot,yes,2
+00:14:03,00:14:33,armor_smithy|achievements,divine scarf,,blocker,w5,characters=10;level_req=425,Divine scarf unlock requires clearing nightmare mode on all 10 characters; new pendant slot needs level 425,yes,3
+00:14:03,00:14:33,armor_smithy,divine scarf,,warning,w5,level_req=425,Don't craft scarves in bulk unless all characters are leveled enough to equip,yes,3
+00:14:03,00:14:33,armor_smithy,divine scarf,,how_to,w5,,Scarf craft needs cheese horse chaotic or caustic scarf strong tooth pendant chaotic teeth and two lucky lads,yes,1
+00:14:33,00:15:03,armor_smithy,divine scarf,,priority,w5,weapon_power=15;all_stats=35;defense=35;afk_gains=25;mob_respawn=20;upgrade_slots=11,Scarf gives 15 weapon power 35 stats 35 defense 25 AFK gains 20 mob respawn 11 slots; best in slot for everything,yes,2

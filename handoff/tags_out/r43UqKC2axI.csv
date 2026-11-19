@@ -1,0 +1,56 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,account_structure,account overview,,account_note,late,,Account looks very late game and borders endgame; requested review covers spelunking and tome and cooking,yes,3
+00:00:32,00:01:02,spelunking,manic upgrades,,account_note,late,,Manic upgrades are in good shape with few notes and spelunking overall is in really good shape,yes,3
+00:01:02,00:01:33,spelunking,power and amber,,target,late,amber=hundreds of millions;power=E33;target_power=E35-E36,"Amber is in the hundreds of millions and power is E33; next step is pushing power to E35-36",yes,3
+00:01:02,00:01:33,spelunking,over stem rate,,account_note,late,,Over stem rate is good but seems a little low; revisit when looking at lore,yes,2
+00:01:33,00:02:05,spelunking,upgrades balance,,account_note,late,,Amber is slightly ahead of power which is good; mallet not neglected and rope subsidy and refills are pushed,yes,3
+00:02:05,00:02:36,spelunking,rope subsidy|jobs all done|over stem meter,,priority,late,,Big three (jobs all done and rope subsidy and over stem meter) are usually under-pushed; could push rope subsidy and jobs all done a bit further,yes,3
+00:02:36,00:03:07,spelunking,lore extra chapter levels,,blocker,late,,Egregious issue on lore page: nothing in extra chapter levels from pages (page per pages),yes,2
+00:03:07,00:03:37,spelunking|class_exp,lore K4 pit of pages,royal_guardian,priority,late,talent=13;multiplier=5-6x;duration_weeks=2,"Push K4 next; Royal Guardian talent 13 pit of pages is a true multiplier 5-6x with super talent; run second RG on No Escape for weeks",yes,3
+00:03:07,00:03:37,spelunking,lore extra chapter levels,,target,late,chapter_level=1000,Get extra chapter level to about a thousand on first pass then move to gospel and push over stem further,yes,3
+00:03:37,00:04:08,spelunking,lore sunken plunder|primeval,,how_to,late,days=2,Then put a day or two on sunken plunder and primeval for a hit or two; extra power weaker but amber is nice,yes,3
+00:03:37,00:04:08,spelunking,lore extra stamina regeneration,,opinion,late,reads=9999999,Extra stamina regeneration is fine; might dodge it and just do 9999999 reads instead to be economical,yes,2
+00:04:08,00:04:39,spelunking,lore grand discovery|decay rounds,,how_to,late,grand_discovery=90;days=2;weeks=1,"Already at 90 grand discovery; day or two on those then back to gospel; decay rounds are behind so spend a week on them",yes,3
+00:04:39,00:05:12,spelunking,lore no escape,,priority,endgame,extra_chapter_levels_target_pct=100,Endgamers all push extra chapter levels in No Escape toward 100% plus; join after finishing other lore items,yes,3
+00:04:39,00:05:12,spelunking,grand discovery,,opinion,late,grand_discovery=90,90 GDs and a massive scout post run puts player ahead of 99.99% of players,yes,3
+00:05:12,00:05:44,spelunking,glitter post,,target,late,glitter_ratio=0.2-0.25,Get a run on Glitter Post about a quarter or fifth the size of scout post,yes,3
+00:05:12,00:05:44,spelunking,final cavern,,target,late,power_threshold=E35-E36;depth=300-400;multiplier=4-5x,At E35-36 power go for a deep final cavern run to late 300s or early 400s; should be 4-5x scout post,yes,3
+00:05:44,00:06:14,spelunking,over stem|glitter post|final cavern,,how_to,late,over_stem=30,Get over stem around 30 and do a glitter run then another 30 and put it on the final cavern,yes,2
+00:05:44,00:06:14,merits|spelunking,new tasks world 7,,priority,late,merit_level=15,"One of the biggest extra power sources is new tasks merit world 7; get it to 15, a true multiplier",yes,3
+00:06:14,00:06:44,farming,stickers,,target,late,stickers_now=3;stickers_target=5,Farming stickers are at three; can get to about five,yes,3
+00:06:14,00:06:44,farming,sticker crops metal crops bean reset,,how_to,late,lines=1-2;break_seconds=7;cap_hours=7;stickers=200000-300000;stickers_gained=1-2,"Pre-stack one or two lines of metal crops then bean reset and return to town; for about 7 seconds breaks the 7 hour hard cap giving stickers to 200-300k, one or two stickers",yes,2
+00:06:44,00:07:14,spelunking,power,,target,late,power_target=E34,Those changes plus cooking changes should easily reach about E34 power then do the amber rotation,yes,3
+00:07:14,00:07:45,spelunking,upgrade optimizer,,opinion,late,,Upgrade optimizer is good to a point; player broke the rule for extra gains from big upgrades; really good amber account,yes,2
+00:07:14,00:07:45,spelunking,new cavern grand discovery,,how_to,late,discovery=15;gd=1-3,Can get Discovery 15 and one to three GDs right now on the new cavern,yes,3
+00:07:45,00:08:17,spelunking,new cavern,,setup,late,depth=180-190;node_never_broken=220,Equip a red and green not gray; reach 180-190 depth and hunt a final node; quit out if none; nodes over 220 never get broken,yes,3
+00:08:17,00:08:47,spelunking,new cavern,,mechanic,late,,New cavern run for free grand discovery is instant and not much of a stamina hog,yes,3
+00:08:17,00:08:47,spelunking,leaderboard,,account_note,late,rank=200,Player is top 200 on leaderboards and likely has one of the stronger spelunking accounts,yes,3
+00:08:17,00:08:47,cooking,yummy peach ring,,account_note,late,yummy_peach_ring=24,Yummy peach ring at 24 means missed full tier 20 stack when bug came out; in the non-25 camp,yes,2
+00:08:47,00:09:18,cooking|summoning,gold food bonus,,account_note,late,gold_food_bonus=80000,Roughly 80000 gold food bonus indicates endless summoning is probably progressed,yes,2
+00:08:47,00:09:18,cooking,meal watermelon|mine currency|research exp,,priority,late,watermelon_min=15;singing_seed=20;cookies=20,Overinvested in mine currency and research exp and underinvested in watermelon while singing seed and cookies are 20; push watermelon to minimum 15 maybe 20,yes,2
+00:09:18,00:09:49,cooking|spelunking,lower spelunking cost,royal_guardian,how_to,late,rg_talent=11,Lower spelunking cost meal is significant; combine with RG talent 11 and mastery points; do buys then cycle off then amber run,yes,2
+00:09:49,00:10:19,cooking,crop evo|meal cooking speed|yummy,,priority,late,,Overinvested in crop evo and meal cooking speed when it could go to aggressively pushing yummy; just nitpicking,yes,3
+00:10:19,00:10:49,cooking,speed,,account_note,late,speed_range=140-150,Cooking speed in the 140-150 range suggests player is fine on speed,yes,2
+00:10:19,00:10:49,hole,bravery|mining efficiency,,priority,late,cooking_speed=250000,Mining efficiency is underinvested while cooking speed is overinvested; weak prints suggested,yes,2
+00:10:49,00:11:22,hole,bravery,royal_guardian|warrior|voidwalker|death_bringer,warning,late,,"RG bravery only in millions which is very low; Vman outpacing warrior; expected QQ minimum; DB has none",yes,2
+00:11:22,00:11:53,hole|atom_collider,bravery atoms,,priority,late,,Underinvesting in bravery; atoms useful for atom collider; supercharger and bucks generator could be maxed now and feed into tome,yes,2
+00:11:22,00:11:53,atom_collider,talent stacker,,opinion,late,,Talent stacker does not affect everything as described but still decent to push and might get fixed,yes,3
+00:11:53,00:12:25,tome,overall,,account_note,late,tome_pct=0.1;target_pct=0.5;points_off=600,"Tome is near 0.1% and about 600 points from 0.5%; account is under a year old which hurts return",yes,3
+00:12:55,00:13:25,tome,trophies found lava dev stream,,how_to,late,streams=2,Get one or two lava dev streams (e.g. wedding cake cake 11) for great tome points,yes,2
+00:13:25,00:13:56,tome,chaotic efaunt?,wind_walker,how_to,late,attempts=5-20,"Use wind walker on Snellby chaotic with A held and pop whale; hit all arms then head to instakill; takes 5-20 attempts for RNG",yes,2
+00:13:56,00:14:27,tome,chaotic efaunt?,,target,late,seconds=1-2;points=20-30,Chaotic efaunt kill can get to one or two seconds and is worth about 20-30 extra points,yes,2
+00:14:27,00:14:57,tome,arena,,target,late,arena_seconds=40,Arena time can get down to about 40 seconds using the reset tech,yes,3
+00:14:57,00:15:33,tome,arena reset tech,,how_to,late,current_seconds=45;target_seconds=35,Fill refiller then exit and re-enter arena so refiller and talents are pre-filled; use fleet setup; auto abilities off; saves about 10 seconds,yes,3
+00:15:33,00:16:03,tome,shiny mobs,,priority,late,,Push shiny mobs for tome points,yes,2
+00:15:33,00:16:03,tome,captain's nice rack rounds,,target,late,rounds_now=24;rounds_target=90,Push captain's nice rack rounds from 24 to about 90 fairly easily,yes,2
+00:15:33,00:16:03,tome,monument,,how_to,late,points=250;extra_points=100;weeks=2,Spamming this monument mode on the daily for two weeks could give close to extra 100 points; hates running it,yes,2
+00:16:03,00:16:37,tome,wisdom monument,,how_to,late,points=3,Wisdom monument is only three points but worth doing,yes,2
+00:16:03,00:16:37,tome|farming,farming stickers,,target,late,stickers=95,Farming stickers at 95,yes,2
+00:16:03,00:16:37,tome|spelunking,splunk,,how_to,late,,Splunk can be pushed further with the earlier cost reduction rotation,yes,2
+00:16:37,00:17:07,tome,0.5% target,,target,late,points_gap=100-200;target_pct=0.5,Doing low hanging fruits should put player within 100-200 points of 0.5%,yes,3
+00:17:07,00:17:37,bubba|tome,bubba,,target,late,bubba_now=16;bubba_target=20;reset_hours=24-48,"Push Bubba from 16 into the 20s by resetting every 24-48 hours; fountain and vault multipliers help; see tango guides in Discord",yes,2
+00:17:37,00:18:08,tome,tremor worms,,target,late,seconds=1-4,Tremor worms can shave 1 to 4 seconds,yes,2
+00:17:37,00:18:08,tome,decimal place,,account_note,late,rank=200,Player is top 200 and optimizing to push over the line into decimal place tome slots and name tags,yes,2
+00:18:08,00:18:38,gallery,nine dart finish,,how_to,late,,Nine dart finish is within striking distance; grind it as it gets easier after a day or two and is easier than baller,yes,3
+00:18:38,00:19:11,gallery|drop_rate,nine dart finish slot,,priority,late,,Nine dart finish is a big drop rate deal since it goes into slot and gets multiplied by four liner,yes,2
+00:18:38,00:19:11,gallery,heroic spirit|lucky lad,,setup,late,,Put heroic spirit in the slot; at minimum better than lucky lad for progression; AFK gains multi worth it though drop rate lower,yes,2

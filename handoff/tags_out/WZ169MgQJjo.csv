@@ -1,0 +1,53 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,gem_shop,free gems,,priority,early,tips=10,Tip one: earn free gems each day and week since there are several ways to get them.,yes,3
+00:00:00,00:00:00,cauldrons_liquids,liquid shop gem buying,,how_to,any,gems_per_day=6;gems_per_week=42;buys_per_day_each=2,"Buy One Measly Gem and A Pair of Gems in the Liquid Shop twice each day each for 6 gems daily, 42 weekly.",yes,3
+00:00:00,00:00:33,gem_shop|bosses,world 2 mini bosses,,how_to,w2,gems_per_day=12;gems_per_week=84,Fighting daily World 2 mini bosses gives 12 gems a day or 84 a week if you have the World 2 merit.,yes,2
+00:00:33,00:00:33,gem_shop|merits,world 2 merit,,account_note,w2,,The World 2 merit is needed to get gems from bosses.,yes,2
+00:00:33,00:00:33,gem_shop|weekly_boss,daily keys boss,,how_to,any,gems_per_day=20;gems_per_week=140,Using each daily key to fight bosses can give 20 gems a day or 140 a week.,yes,2
+00:00:33,00:00:33,gem_shop|traps,spiketrap minigame,,how_to,any,gems_per_day=5;gems_per_week=35,Completing the daily Spiketrap minigame gives 5 gems a day or 35 a week.,yes,3
+00:00:33,00:00:33,gem_shop|guild,guild gift boxes,,how_to,any,gems_per_week=125,Guild gift boxes each week can give about 125 gems if you are in a guild.,yes,3
+00:00:33,00:01:07,gem_shop|prayers,tachion of the titans,,how_to,w3,gems_per_week=100,Unlocking the Tachion of the Titans prayer in World 3 spawns giants that give about 100 gems a week.,yes,3
+00:01:07,00:01:07,gem_shop|dungeons,colosseum,,how_to,w4,gems_per_week=80,The World 4 colosseum can give about 80 gems each week.,yes,3
+00:01:07,00:01:07,gem_shop|talent_points,its your birthday,maestro,how_to,any,,Maestro talent It's Your Birthday has a chance of giving gems each day.,yes,3
+00:01:07,00:01:07,gem_shop,weekly total,,target,any,gems_per_week=600,Keeping up with all these sources gains about 600 gems each week.,yes,3
+00:01:07,00:01:41,arcade,mini-games,,priority,any,,Do mini-games every day since they are among the fastest ways to level a skill and gain quick resources.,yes,3
+00:01:41,00:02:14,arcade,mini-games,,how_to,any,,A few mini-game runs are among the best ways to level skills on characters that do not specialize in that skill.,yes,3
+00:01:41,00:02:14,arcade,mini-games,,mechanic,any,,Mini-game runs take only minutes each day and give some of the best EXP per hour possible for any skill.,yes,3
+00:01:41,00:01:41,characters,planning,,priority,early,,Plan your characters early because each class specializes in a skill.,yes,3
+00:01:41,00:01:41,characters,class count,,target,late,copies_per_base_class=2,You'll eventually need 2 of each base class: Warrior Archer and Mage.,yes,3
+00:01:41,00:02:14,characters,warrior split,barbarian,mechanic,any,,Barbarian specializes in Fishing.,yes,3
+00:01:41,00:02:14,characters,warrior split,squire,mechanic,any,,Squire specializes in Mining and Construction.,yes,3
+00:02:14,00:02:14,characters,archer split,bowman,mechanic,any,,Bowman specializes in Catching.,yes,3
+00:02:14,00:02:14,characters,archer split,hunter,mechanic,any,,Hunter specializes in Trapping.,yes,3
+00:02:14,00:02:14,characters,mage split,shaman,mechanic,any,,Shaman specializes in Alchemy and Chopping.,yes,3
+00:02:14,00:02:14,characters,mage split,wizard,mechanic,any,,Wizard specializes in Worship and Chopping.,yes,3
+00:02:14,00:02:47,damage,balance,,warning,any,,Don't hyper focus damage; IdleOn is incremental and everything you do adds up to increased gains.,yes,3
+00:02:14,00:02:47,cauldrons_liquids,alchemy,,mechanic,any,,Alchemy gives bonuses to almost everything in the game.,yes,3
+00:02:47,00:02:47,general,post office,,mechanic,any,,Post Office has targeted bonuses depending on what you want.,yes,3
+00:02:47,00:02:47,general,gathering,,mechanic,any,,Gathering is needed to improve your gear.,yes,3
+00:02:47,00:03:17,damage,balance,,warning,any,,Focusing too much on one aspect leads to hitting a wall and slows progress in the long run.,yes,3
+00:02:47,00:03:17,talent_points,attack skills,,mechanic,any,,Offline fighting has a cap on how much attack skills can increase AFK gains.,yes,3
+00:03:17,00:03:17,talent_points,attack skills,,threshold,any,afk_multiplier=2.2;talent_points=25,Each attack skill talent point multiplies a hidden number; at 2.2x kills per hour AFK gains stop increasing around 25 points.,yes,3
+00:03:17,00:03:48,talent_points,attack skills,,priority,any,,Cap talent points on attack skills at about 25 each and don't put more.,yes,3
+00:03:17,00:03:48,characters,options menu,,setup,any,,Turn on Use Attacks During Auto in options so taskbar attacks are used while AFK or offline.,yes,3
+00:03:48,00:04:22,talent_points,skills,,mechanic,any,,Every skill level gives a talent point.,yes,3
+00:03:48,00:03:48,talent_points,skills,,mechanic,any,levels=10;skills=12;talent_points=120,Level 10 in all 12 skills gives 120 talent points per tree on that character.,yes,3
+00:03:48,00:04:22,characters,skills,,priority,any,,Don't ignore skills since they're required to increase gear and their resources feed Alchemy and Stamps.,yes,3
+00:03:48,00:04:22,characters,skills,,target,early,level=10;level_alt=20,It's fairly easy to get level 10 or 20 in every skill even on non-specialist characters.,yes,3
+00:04:22,00:04:53,characters,afk gain menu,,priority,any,,Always check your AFK gain menu for kills per hour and EXP per hour.,yes,3
+00:04:22,00:04:53,characters,afk gain menu,,warning,any,,The highest monster you can fight isn't always the best for EXP.,yes,3
+00:04:22,00:04:53,characters,afk gain menu,,warning,any,,With many buffs it's easy to forget something inactive or use the wrong talent preset which massively affects AFK gains.,yes,3
+00:04:53,00:05:23,characters,food,,priority,any,,Don't be afraid to use food since defense eventually can't keep up with the monster's requirement for zero damage.,yes,3
+00:04:53,00:05:23,characters,food,,opinion,any,,Needing food to continue progressing is absolutely normal; get as much defense as you can anyway.,yes,3
+00:04:53,00:05:23,characters,food,squire,account_note,w2,,He started using food in World 2 while his Squire was farming gold for gear.,yes,3
+00:04:53,00:05:23,talent_points|merits|tasks,hemoglobin,,how_to,w1,,Hemoglobin talent greatly increases survivability and is unlocked with merit points in the World 1 task board.,yes,3
+00:05:23,00:05:23,dungeons,dungeon runs,,priority,early,,Start doing a few dungeon runs each week as early as you can.,yes,3
+00:05:23,00:05:56,dungeons,stats,,mechanic,any,,Dungeon stats are entirely separate from your character outside the dungeon except talent points so you needn't be strong.,yes,3
+00:05:23,00:05:56,dungeons,charges,,mechanic,any,,You gain charges weekly shown top left and each dungeon run spends one to increase rewards.,yes,3
+00:05:56,00:05:56,dungeons,happy hour,,mechanic,any,charges=20;reward_multiplier=20,Dungeon Happy Hour can spend up to 20 charges to give 20 times the rewards.,yes,3
+00:05:56,00:05:56,dungeons,rewards,,mechanic,any,,Dungeon rewards are credits flurbos and keychains.,yes,3
+00:05:56,00:06:26,dungeons,credits,,mechanic,any,,Dungeon credits increase your stats during the dungeon.,yes,3
+00:05:56,00:06:26,dungeons,flurbos,,mechanic,any,,Flurbos increase your stats outside dungeons.,yes,3
+00:05:56,00:06:26,dungeons,keychains,,mechanic,any,,Keychains are special equipment giving percent to stats or percent to AFK gain rates.,yes,3
+00:06:26,00:06:26,money,coins,,warning,any,,Don't focus on money; coins are among the least used currencies and materials and drops are needed far more.,yes,3
+00:06:26,00:06:57,money,coins,,mechanic,any,,Later maps drop coins in much higher quantities making Alchemy and Stamps easier to level the further you progress.,yes,3

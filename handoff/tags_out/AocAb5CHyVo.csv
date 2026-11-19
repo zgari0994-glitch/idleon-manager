@@ -1,0 +1,42 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,anvil,production tab,,how_to,early,,Smithing makes materials and crafts gear; click the Anvil then the production tab and start producing thread.,yes,3
+00:00:00,00:00:00,anvil,thread,,mechanic,early,,Producing thread is the easiest way to get smithing XP for your characters.,yes,3
+00:00:00,00:00:31,anvil,spend points,,priority,early,,Put most production points into speed per hour to produce faster; points can also raise cap or XP.,yes,3
+00:00:31,00:00:31,anvil,production,,mechanic,early,,Higher production means bigger smithing XP.,yes,3
+00:00:31,00:00:31,characters,smithing,archer,mechanic,early,,Archer's specialty is smithing.,yes,3
+00:00:31,00:00:31,characters,mining and chopping,,mechanic,early,,Mining and chopping supply materials for crafting and upgrades such as stamps.,yes,3
+00:00:31,00:00:31,characters,chopping,mage,mechanic,early,,Mage is efficient at chopping.,yes,3
+00:00:31,00:00:31,characters,mining,warrior,mechanic,early,,Warrior is efficient at mining.,yes,3
+00:00:31,00:01:02,forge,ore,,how_to,early,,For mining you put your ores in the Forge to cook bars.,yes,3
+00:01:02,00:01:02,forge,upgrades,,setup,early,,Forge can be upgraded with money: multi-bar chance and capacity and extra ore slots.,yes,3
+00:01:02,00:01:02,characters,progression,,priority,early,,Three key elements for smooth World 1 progress are defense and accuracy and damage.,yes,3
+00:01:02,00:01:02,characters,accuracy,,mechanic,early,,Accuracy comes from the sub-stat talent: warrior wisdom and archer strength and mage agility.,yes,2
+00:01:02,00:01:33,characters,accuracy,,mechanic,early,accuracy=100,Enough accuracy lets you hit mobs 100% of the time; check your accuracy percent in AFK menu bottom right.,yes,3
+00:01:02,00:01:33,talent_points,talent,,priority,early,,The two most prioritized talents are your sub-stat talent for 100% hit and Sharpened Ax.,yes,3
+00:01:33,00:01:33,damage,sharpened ax,,mechanic,early,,Sharpened Ax gives weapon power; weapon power is a stronger version of base damage.,yes,3
+00:01:33,00:01:33,damage,combat guide,,meta_change,early,,He has a separate combat guide showing all damage sources for a more advanced look.,yes,3
+00:01:33,00:01:33,general,portal,,mechanic,early,,The number on the icon at the top of the portal is kills needed to unlock it and rises as you progress.,yes,3
+00:01:33,00:02:03,quests,scriptis questline,,priority,early,,Do the Scriptis questline: it gets you to World 2 and explains crafting and helps you get armor and better weapons.,yes,3
+00:02:03,00:02:03,quests,quest types,,mechanic,early,,Blue exclamation is optional secondary quest; yellow exclamation is the story quest; always do the story quest.,yes,3
+00:02:03,00:02:03,characters,food,,how_to,early,,If taking too much damage use food like gnomwiches: inventory food tab then drag into slots to auto-heal at a health percent with internal cooldown.,yes,3
+00:02:03,00:02:34,stamps,purchase,,priority,early,,First purchase with a little money should be the target stamp and shield stamp from the World 1 shop.,yes,3
+00:02:34,00:02:34,stamps,upgrade,,how_to,early,,Take the stamps to Mr Piggy Bank and upgrade them with materials and money to boost defense and accuracy.,yes,3
+00:02:34,00:02:34,statues,sculpting tool,,priority,early,,Next buy the sculpting tool from the World 1 shop; drag it onto the marble to make the NPC appear.,yes,3
+00:02:34,00:02:34,statues,sources,,mechanic,early,,Statues are obtained from skill and combat to be used at the statue NPC for progression.,yes,2
+00:02:34,00:02:34,stamps,drops,,how_to,early,,Stamps also drop from skilling mobs and quests; complete the quest on at least one character to obtain all the stamps.,yes,2
+00:02:34,00:03:05,general,coliseum,,how_to,early,,Coliseum is at Froggy Fields; do the questline next to it for first tickets but not right away.,yes,3
+00:03:05,00:03:05,general,coliseum,,daily_routine,early,,Return to the Coliseum every day for free tickets.,yes,3
+00:03:05,00:03:05,dungeons,party dungeon,,afk_spot,early,,Portal to the party dungeon is at the bottom of the map; great place to get damage and talent points.,yes,3
+00:03:05,00:03:36,characters,class advancement,beginner,how_to,early,level=10,New characters start as beginners; get to level 10 and go to Valley of the Beans for first class advancement.,yes,3
+00:03:05,00:03:36,account_structure,classes,,setup,early,,Want one of each class to start: Warrior and Archer and Mage.,yes,3
+00:03:36,00:03:36,cards,slots,,mechanic,early,card_slots=4,Monster kills or material farming drop cards; you start with four card slots in the Codex cards; double-click a card to equip.,yes,3
+00:03:36,00:03:36,cards,star upgrade,,mechanic,early,,Collecting enough of one card type upgrades it with a star for a stronger effect.,yes,3
+00:03:36,00:03:36,cards,card sets,,mechanic,early,,You can collect card sets but only use one set at a time.,yes,3
+00:03:36,00:04:07,cards,info,,mechanic,early,,Cards show mob health and accuracy needed and damage and per-character kill counts.,yes,2
+00:04:07,00:04:07,weekly_boss,amarok,,how_to,early,daily_key=1,After crafting gear and having enough accuracy and damage go to Enroching Forest Villa for first boss Amarok; needs a key from ghost questline with one daily key.,yes,2
+00:04:07,00:04:07,quests,ghost questline,,priority,early,,Complete the ghost quest on every character because you will farm this boss later.,yes,3
+00:04:07,00:04:37,weekly_boss,amarok,,how_to,early,,Door beside the ghost is the boss room door; consume the key in your inventory then redeem it at the boss room.,yes,3
+00:04:37,00:04:37,characters,world 2 unlock,,how_to,early,,Defeat the boss for the gem and give it to the bird at top right in main town to unlock World 2.,yes,3
+00:04:37,00:05:08,constellations,star signs,,how_to,early,,Top of the tree in Jungle Perimeter (slimes map) has a telescope that unlocks star signs; talk to the NPC with all characters.,yes,3
+00:05:08,00:05:08,constellations,star signs,,warning,early,,Star signs are very important progression boost but you have limited amount to use; watch his guide before committing.,yes,3
+00:05:08,00:05:08,money,wooden sticks,,afk_spot,early,level=50,Farm wooden sticks for easy cash and fast levels up to at least level 50; sell the monster materials.,yes,3

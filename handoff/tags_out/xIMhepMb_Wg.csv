@@ -1,0 +1,26 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,weekly_boss,massive troll location,,mechanic,w4,,The World 4 boss Massive Troll is located in Enclave of Eyes at the end of World 4,yes,3
+00:00:00,00:00:30,weekly_boss,troll key,,mechanic,w4,,No quest for Troll keys; the only source is monster drops,yes,3
+00:00:00,00:00:30,weekly_boss,troll key,,how_to,w4,drop_chance=1/15000,Stilted Seekers drop the Troll Key at 1 in 15000 chance,yes,3
+00:00:30,00:00:30,weekly_boss,troll key,,how_to,w4,kills=15000,Go offline on your character; killing 15000 offline gives a guaranteed key drop chance,yes,3
+00:00:30,00:00:30,weekly_boss|tasks,colosseum,,how_to,w4,keys_low=2;keys_high=3,Completing the TV Outpost Colosseum (second World 4 map) usually gives 2-3 keys,yes,3
+00:00:30,00:00:30,weekly_boss,troll key,,how_to,w4,drop_chance=1/2,Mutated Mush mini boss drops a Troll Key at 1 in 2 chance,yes,3
+00:00:30,00:00:30,weekly_boss,troll key,,mechanic,w4,,These methods give a couple of keys every week,yes,2
+00:01:03,00:01:03,weekly_boss,accuracy requirement,,threshold,w4,accuracy=900,Troll only requires 900 Accuracy to fight him,yes,3
+00:01:03,00:01:03,weekly_boss,accuracy requirement,,threshold,w4,accuracy=16500,Need 16500 Accuracy to fight World 4 monsters that must be killed during the Troll fight,yes,3
+00:01:03,00:01:35,weekly_boss,troll key,,mechanic,w4,keys_per_entry=1,Entering the Troll boss room costs 1 key per entrance,yes,3
+00:01:35,00:01:35,weekly_boss,massive troll,,mechanic,w4,,Troll does not start the fight until you start attacking him,yes,3
+00:01:35,00:01:35,weekly_boss,massive troll,,mechanic,w4,,Troll has a single mechanic Mind Games: random tasks must be completed before his shield drops,yes,3
+00:01:35,00:01:35,weekly_boss,massive troll,,mechanic,w4,hp=80000000;attacks=3,Troll has 80 million HP and you get about 3 attacks in between tasks,yes,3
+00:01:35,00:02:07,weekly_boss,massive troll,,comparison,w4,,With enough damage the fight is hilariously easy; low damage may need several tasks,yes,3
+00:02:07,00:02:07,weekly_boss,mind games task,,mechanic,w4,monsters=5;seconds=20,Task: defeat 5 monsters within 20 seconds; he spawns only 1 at a time,yes,3
+00:02:07,00:02:39,weekly_boss,mind games task,,requirement,w4,,This task needs decent movement speed; it is fairly easy but some tasks are annoying,yes,2
+00:02:39,00:02:39,weekly_boss,mind games task,,warning,w4,,Tasks are hard if you lack stats to move around the map or one-hit monsters,yes,2
+00:02:39,00:03:11,weekly_boss,mind games task,,mechanic,w4,,Task: kill a Crab without killing any Soda Cans,yes,3
+00:02:39,00:03:11,weekly_boss,mind games task,,mechanic,w4,,Failing a task gives a different task and he heals a small amount,yes,3
+00:03:11,00:03:42,weekly_boss,mind games task,,mechanic,w4,dice=6;heal=3000000,Dice roll task: roll a 6 to fight; failing means another task and he heals about 3 million; luck related,yes,3
+00:03:42,00:03:42,weekly_boss,massive troll loot,,how_to,w4,drop_chance=1/8,Troll Scales drop at 1 in 8 chance from Normal Mode Troll,yes,3
+00:03:42,00:03:42,armor_smithy|merits,troll armor,,mechanic,w4,,Troll Scales are needed to craft Troll Armor obtained from Merit Tasks,yes,2
+00:03:42,00:04:13,weekly_boss,massive troll loot,,how_to,w4,drop_chance=1/5000,Troll Obol drops at 1 in 5000 chance on Normal Mode,yes,3
+00:04:13,00:04:13,weekly_boss,massive troll loot,,mechanic,w4,all_stats=3,Troll Obol gives Weapon Power and basic stats and its misc bonus is +3% to all stats,yes,3
+00:04:13,00:04:13,weekly_boss,massive troll loot,,opinion,w4,,Troll is a great way to boost overall stats for damage or skills,yes,3

@@ -1,0 +1,59 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,class_choice,subclass,,mechanic,w2,map=Desert Dunes;map_number=3,Subclass quest from Species at Desert Dunes (3rd W2 map) lets each character pick a subclass.,yes,3
+00:00:00,00:00:30,class_choice,subclass,warrior,mechanic,w2,,Warrior can become barbarian or squire.,yes,3
+00:00:00,00:00:30,class_choice,subclass,archer,mechanic,w2,,Archer can become bowman or hunter.,yes,3
+00:00:00,00:00:30,class_choice,subclass,mage,mechanic,w2,,Mage can become shaman or wizard.,yes,3
+00:00:00,00:00:30,class_choice,subclass,,setup,w2,,Recommends selecting one of each subclass to start.,yes,3
+00:00:00,00:00:30,class_choice,subclass,shaman|barbarian|bowman,priority,w2,,Prioritize Shaman Barbarian and Bowman first since they specialize in world 2 skills.,yes,3
+00:00:00,00:00:30,class_choice,subclass,barbarian,mechanic,w2,,Barbarian specializes in fishing.,yes,3
+00:00:00,00:00:30,class_choice,subclass,shaman,mechanic,w2,,Shaman specializes in alchemy.,yes,3
+00:00:00,00:00:30,class_choice,subclass,bowman,mechanic,w2,,Bowman specializes in catching.,yes,3
+00:00:00,00:01:01,class_choice,subclass,squire|hunter|wizard,priority,w3,,Need the other three subclasses for world 3 skills so prioritize them right after the W2 ones.,yes,3
+00:01:01,00:01:31,bubbles,unlock,shaman,how_to,w2,,Do bubble unlock attempts only on your Shaman thanks to the Bubble Breakthrough talent.,yes,3
+00:01:01,00:01:31,talent_points,bubble breakthrough,shaman,mechanic,w2,,Bubble Breakthrough talent increases odds when unlocking new bubbles.,yes,3
+00:01:01,00:01:31,cauldrons_liquids|bubbles,orange and green cauldrons,,priority,w2,,Prioritize orange and green cauldrons first for FMJ and Shacky bubbles.,yes,3
+00:01:01,00:01:31,bubbles,FMJ|shacky,,mechanic,w2,,FMJ and Shacky mostly help with defense and accuracy problems.,yes,2
+00:01:31,00:02:02,vials,unlock attempts,,how_to,w2,,Buy more vial attempts in the gem shop and alchemy to ease vial unlocking.,yes,3
+00:01:31,00:02:02,vials,vial drop technique,,how_to,w2,,Hold shift and left click to drop stacks of the item one by one; vial rolls go crazy and raise chances.,yes,3
+00:01:31,00:02:02,vials,vial drop technique,,mechanic,w2,,Technique also helps with epic gamer moments if you unlock that upgrade.,yes,2
+00:01:31,00:02:32,bubbles,FMJ|shacky,,priority,early,,FMJ and Shacky are two of the most important early bubbles to level.,yes,2
+00:01:31,00:02:32,bubbles,FMJ,,how_to,w2,,FMJ needs fruit flies to level up.,yes,3
+00:01:31,00:02:32,bubbles,shacky,,how_to,w2,,Shacky needs bloos (blobfish?) to level up.,yes,2
+00:01:31,00:02:32,bubbles,FMJ,,afk_spot,w2,,Fruit flies are caught in the world 2 moonman map.,yes,3
+00:01:31,00:02:32,bubbles,shacky,,afk_spot,w2,,Bloos are best caught fishing in the last pool on the second fishing map.,yes,2
+00:01:31,00:02:32,bubbles,FMJ|shacky,,priority,w2,,Spend a decent amount of time farming these resources; makes progress easier and is necessary for late game pushing.,yes,3
+00:02:02,00:02:32,gem_shop|statues,golden sculpture tool,,how_to,w2,,Buy Golden Sculpture Tool in W2 shop and drop it in front of the Statue NPC in W1 to turn him gold.,yes,3
+00:02:02,00:03:02,statues,golden statue,,mechanic,w2,,Gold statue NPC makes all statues bought in the new tab work for every character.,yes,3
+00:02:32,00:03:02,statues,upgrade,,warning,w2,level_a=10;level_b=5,Upgrading prioritizes highest level statue any character has; deposited lower-level statues are lost when upgrading to it.,yes,2
+00:02:32,00:03:02,statues,upgrade,,mechanic,w2,,Once upgraded you can deposit the statue on any character and shared levels apply to everyone.,yes,2
+00:03:02,00:03:34,kangaroo,unlock,,how_to,w2,,Go to the two palm trees secret location at the crab cake map and click and hold on the secret map to reach Poppy the kangaroo mouse.,yes,3
+00:03:02,00:03:34,kangaroo,bonuses,,mechanic,w2,,Poppy minigame gives fishing efficiency fishing exp defense cash accuracy total damage and AFK gains bonuses.,yes,3
+00:03:02,00:03:34,kangaroo,priority,,priority,w2,,Unlocking Poppy should be a priority as it helps immensely especially with bloo farming.,yes,3
+00:03:34,00:04:05,characters,xp farming,,afk_spot,w2,map=Sand Castles;map_number=5,Sand Castles fifth W2 map is a great XP spot active or AFK similar to walking sticks in W1.,yes,3
+00:03:34,00:04:05,characters,xp farming,,afk_spot,w2,,Best active farming spot is moonmen.,yes,2
+00:03:34,00:04:05,money,sand giants|moonmen,,mechanic,w2,,Sand giants and moonmen drop materials not used for much so they sell for decent cash.,yes,3
+00:03:34,00:04:36,quests,ghosts,,mechanic,w2,,Ghosts from moonmen are needed for certain boss quests and a few crafting recipes.,yes,3
+00:04:05,00:04:36,islands,unlock,,threshold,w2,fishing_level=30,Reaching level 30 in fishing unlocks Island Expeditions.,yes,3
+00:04:05,00:04:36,islands,trash island,,mechanic,w2,,Trash Island unlocks a few new stamps new bribes for Mr Piggy Bank a star talent and a name tag.,yes,3
+00:04:05,00:04:36,islands,rando island,,mechanic,w2,,Rando Island gives a personal random boss battle each week and raises rare drop rate from bosses.,yes,2
+00:04:05,00:04:36,islands,crystal island,,mechanic,w2,,Crystal Island spawns free giant crystal mobs daily giving free loot and huge XP.,yes,3
+00:04:36,00:05:08,islands,seasalt island,,mechanic,w2,,Seasalt Island unlocks last four fish and gives massive fishing exp plus a few cards with great bonuses.,yes,3
+00:04:36,00:05:08,islands,shimmer island,,mechanic,w2,,Shimmer Island gives free bonuses stacking for completing a task each week.,yes,3
+00:04:36,00:05:08,islands,shimmer island,,how_to,w2,,Put points into skill efficiency for the Shimmer bonuses.,yes,2
+00:04:36,00:05:08,islands,fractal island,,mechanic,w2,hours=120000,Fractal Island gives bonuses for stacking nothing hours and chance at the nothing trophy; he has 120000 hours without a trophy.,yes,3
+00:04:36,00:05:08,islands,unlock,,priority,w2,fishing_level=30,Island Expeditions are a must for long-term progression so hitting level 30 fishing should be a priority.,yes,3
+00:05:08,00:05:38,quests,Dutch? blue quest line,,mechanic,w2,frequency=once a day,Finishing the quest line is needed to start getting keys once a day.,yes,2
+00:05:08,00:05:38,quests,Dutch? blue quest line,,warning,early,,Quest line is a grind with abysmal drop rates at early levels.,yes,3
+00:05:08,00:06:08,quests|dungeons,key skip,,skip,w2,,Skip the quest line by running the W2 Coliseum with daily-claimed tickets; chests can drop a key.,yes,2
+00:05:38,00:06:08,quests,quest line,,priority,w2,,Skipping lets you rush to World 3 and unlock elite classes; can complete the quest line later.,yes,3
+00:05:38,00:06:08,weekly_boss,Efaunt?,,mechanic,w2,,Boss has a mechanic that can one shot you.,yes,2
+00:06:08,00:06:38,weekly_boss,Efaunt? arms,,priority,w2,,Top right and top left arms are most dangerous; kill them first.,yes,3
+00:06:08,00:06:38,weekly_boss,Efaunt? arms,,mechanic,w2,,Each arm defeated makes the remaining ones attack faster.,yes,3
+00:06:08,00:06:38,weekly_boss,Efaunt? cheese,barbarian,how_to,w2,,Use Barbarian with Axe Hurl talent aiming from the platform below since hitboxes don't move to chip the boss safely.,yes,2
+00:06:08,00:06:38,weekly_boss,Efaunt? cheese,,setup,w2,,Run food to heal through flame attacks and ring attacks.,yes,3
+00:06:08,00:06:38,weekly_boss,Efaunt? cheese,,mechanic,w2,,Cheese also works with other classes but focus on pushing W2 with the Barbarian anyway.,yes,2
+00:06:38,00:07:09,achievements,w2 party dungeon,,priority,w2,total_damage=10;achievements=3,Get the three W2 party dungeon boss achievements for 10% total damage account-wide.,yes,3
+00:06:38,00:07:09,achievements|dungeons,w2 party dungeon,,how_to,w2,,Ask a friend or guildmate to run you through the party dungeon.,yes,3
+00:07:09,00:07:41,shop,capless bags|silver antiques,,priority,w2,frequency=daily,Buy capless bags and silver antiques once a day from the NPC shop in Enroaching Forest Villa map in W1.,yes,2
+00:07:09,00:07:41,summoning,googly eyes|djet eyes,,mechanic,w2,,Capless bags craft googly eyes and silver antiques craft djet eyes; both needed to summon W2 mini bosses.,yes,2
+00:07:09,00:07:41,summoning,mini bosses,,priority,w2,,Stack these items early so you have plenty of summons ready when strong enough to farm Biggie Hours and King Doot.,yes,2

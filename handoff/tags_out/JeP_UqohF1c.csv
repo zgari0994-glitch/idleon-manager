@@ -1,0 +1,16 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:01,00:00:32,general,Dr. Defecaus mini boss location,,mechanic,w1,zone=3rd zone of Sewers,Dr. Defecaus is a World 1 mini-boss located in The Office which is the third zone of The Sewers,yes,3
+00:00:01,00:00:32,quests,portal quest kill counts,,blocker,w1,,You must complete some of the portal quest kill counts to reach Dr. Defecaus,yes,3
+00:00:32,00:01:02,general,Dr. Defecaus accuracy requirement,,threshold,w1,min_accuracy=300;hit_chance_at_min=5%;accuracy_full_hit=900,300 accuracy gives 5% hit chance on Dr. Defecaus; 900 accuracy hits him 100% of the time,yes,3
+00:00:32,00:01:02,general,Dr. Defecaus defense requirement,,threshold,w1,defense_to_ignore_damage=1223,You need 1223 Defense to ignore all his damage which is mostly not possible at this time,yes,3
+00:00:32,00:01:02,general,Dr. Defecaus fight prep,,warning,w1,,Bring plenty of food when fighting Dr. Defecaus,yes,3
+00:00:32,00:01:02,general,Dr. Defecaus fight method,,how_to,w1,,Main way to fight him is to simply walk up to him and fight,yes,3
+00:01:02,00:01:34,general,Dr. Defecaus fight method,,how_to,w1,,When he turns around to come back toward you go down the rope until he passes then go back up and hit him again,yes,3
+00:01:02,00:01:34,general,Dr. Defecaus damage,,mechanic,w1,damage_taken=80;defense=200,He hit for 80 damage against over 200 Defense; the kill should take about a minute,yes,3
+00:01:34,00:02:08,general,Dr. Defecaus difficulty,,opinion,w1,,He should be a fairly easy fight,yes,3
+00:01:34,00:02:08,general,Dr. Defecaus drops,,mechanic,w1,golden_poop_drop_chance=1 in 10,Golden Poop drops at a 1 in 10 chance,yes,3
+00:01:34,00:02:08,quests,Office Job Application,,mechanic,w1,,Office Job Application is a quest item needed for a previous quest,yes,3
+00:01:34,00:02:08,general,Stinky Axe and Poopy Pickaxe drops,,mechanic,w1,,He can drop a Stinky Axe or a Poopy Pickaxe which are good skilling tools with high Skill Power but slower,yes,3
+00:02:08,00:02:38,general,Stinky Axe and Poopy Pickaxe usage,,how_to,w1,,Most people use these tools only together with speed items for their respective skills,yes,2
+00:02:08,00:02:38,merits|tasks,Codex drop chance merit,,mechanic,w1,,With the drop chance merit unlocked in tasks he can drop Just EXP and Frothy Malk Talent Books,yes,3
+00:02:08,00:02:38,merits|tasks,Codex drop chance merit,,priority,w1,,Unlock the drop chance merit first before fighting him,yes,3

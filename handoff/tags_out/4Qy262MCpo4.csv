@@ -1,0 +1,32 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,printer|construction,printer unlock,,how_to,w3,upgrades=9;characters_per_upgrade=1,Unlock the Printer via Construction Bench; 9 upgrades each give 1 additional character access to the Printer.,yes,3
+00:00:00,00:00:34,printer|quests|refinery,Hoggindaz quest 1,,how_to,w3,quests=3;cycle_time_hours=1,First Hoggindaz quest: turn on the Refinery and cycle about an hour to get the required Redox Salt.,yes,3
+00:00:34,00:00:34,printer|quests|traps,Hoggindaz quest 2,,how_to,w3,,Second quest: place a trap in Jungle Slimes map in World 1; first finish Trapper's Folley quest from the Lord of the Hunt NPC.,yes,3
+00:00:34,00:01:06,printer|quests|construction,Hoggindaz quest 3,,how_to,w3,,Last quest: build the red and orange signposts in the Construction Bench; located at the 3D Printer and Wizard Tower.,yes,3
+00:00:34,00:01:06,printer|talent_points,Printer Sampling talent book,,mechanic,w3,,Completing the quests gives the Printer Sampling Talent Book found in the Star Talent tabs.,yes,3
+00:01:06,00:01:37,printer|construction,character slots,,mechanic,w3,characters=9,Initially only first character slot has Printer access until Construction upgrades unlock each further character up to characters 7 through 9.,yes,3
+00:01:06,00:01:37,printer,sample boxes,,mechanic,w3,sample_boxes=2;printer_slots=1,Initially you only have 2 small sample boxes and 1 printer slot.,yes,3
+00:01:37,00:01:37,printer|gem_shop,More Sample Slots,,how_to,w3,slot_3_gems=200;slot_4_gems=300,Gem shop More Sample Slots unlocks third and fourth sample slots for 200 and 300 gems.,yes,3
+00:01:37,00:02:12,printer|gem_shop,Crystal 3D Printer,,how_to,w3,,Crystal 3D Printer gem purchase gives second printing slot to duplicate an item or print two separate items.,yes,3
+00:01:37,00:02:12,printer,UI,,mechanic,w3,,Small squares show sampled items per character; large squares show icon and items per hour being printed.,yes,3
+00:02:12,00:02:12,printer|storage,output,,mechanic,w3,,Printed items go directly into Storage Chest with no manual collecting; free resources once set up.,yes,3
+00:02:12,00:02:46,printer,trash can,,how_to,w3,,Trash Can icon deletes a sample you no longer want and frees the slot; unnecessary when only upgrading sample size.,yes,3
+00:02:46,00:03:16,printer|talent_points,Printer Sampling talent,,mechanic,w3,min_points=1;base_rate_pct=10;max_points=100;max_rate_pct=18,Printer Sampling talent needs minimum 1 point giving 10% of AFK gain rate; up to 100 points gives 18% base sample rate.,yes,3
+00:02:46,00:03:16,printer,assign attacks,,how_to,w3,,After adding talent points click Assign Attacks and drag it onto your Action Bar.,yes,3
+00:03:16,00:03:46,printer,sampling,,how_to,w3,,Go to any skill or monster you want items from; click attacks then Sample Size; a number above your head shows the sample gained.,yes,3
+00:03:46,00:03:46,printer,sample example,,mechanic,w3,spore_caps_per_hour=1500,Clicking the sample icon shows printing rate; example 1500 Spore Caps per hour; can duplicate; all automated.,yes,3
+00:03:46,00:04:18,printer,sample size,,mechanic,w3,,Sample size is based on your AFK gain rate so anything raising AFK gain rate increases it.,yes,3
+00:03:46,00:04:18,printer|damage,AFK gain rate,,how_to,w3,,Raise AFK gain rate by increasing damage; movement speed; weapon attack speed; and multi-kill shown in AFK info.,yes,3
+00:04:18,00:04:18,printer,skills AFK gain,,how_to,w3,,For skills increase Skill Efficiency and Skilling Speed to raise AFK gain rate.,yes,3
+00:04:18,00:04:49,printer|talent_points,Printer Sampling,,mechanic,w3,base_from_pct=10;base_to_pct=18,Star Talent Printer Sampling raises basic sampling size from 10 to 18%.,yes,3
+00:04:18,00:04:49,printer|salt_lick,sample bonus,,mechanic,w3,max_bonus_pct=10,Salt Lick has bonus making samples for the 3D Printer up to 10% bigger.,yes,3
+00:04:49,00:04:49,printer|characters,family bonus,maestro,mechanic,w3,,Family Bonuses Maestro bonus increases Printer Sampling Size based on his maximum level.,yes,3
+00:04:49,00:05:21,printer|buildings,post office utility box,,mechanic,w3,max_bonus_pct=3.33,Post Office Utility Box upgrade increases Printer Sample Size up to 3.33%.,yes,3
+00:04:49,00:05:21,printer|bubbles,Sample It,,mechanic,w3,current_pct=4.26,Alchemy yellow bubble Sample It increases sample size; currently 4.26% for him.,yes,3
+00:04:49,00:05:21,printer|vials,Snow Slurry,,mechanic,w3,bonus_min_pct=3;bonus_max_pct=5,Snow Slurry vial gives easy 3 to 5% sample size depending on getting Snowballs and Tier 3 liquid.,yes,3
+00:05:21,00:05:55,printer|merits,World 3 merit shop,,mechanic,w3,per_point_pct=0.5;total_pct=5,World 3 Task Merit Shop gives 0.5% sample size per point; additional 5% total.,yes,3
+00:05:21,00:05:55,printer|prayers,Royal Sampler,,mechanic,w3,base_sample_pct=15;xp_penalty_pct=-30,World 3 Prayer Obelisk Royal Sampler gives 15% sample size base with -30% XP gain.,yes,3
+00:05:55,00:05:55,printer|prayers,Royal Sampler,,warning,w3,,To remove the XP penalty you must unequip all samples on that character; be careful using this.,yes,3
+00:05:55,00:06:26,printer|prayers,Rooted Souls,,mechanic,w3,,Upgrade Royal Sampler with Rooted Souls; increases sample size but also increases the XP penalty.,yes,3
+00:05:55,00:06:26,printer|stamps,Stample Stamp,,mechanic,w1,,World 1 Sampling Stamp (Stample) gives additional sample size bonus; small at first but adds up over time.,yes,3
+00:06:26,00:06:26,printer|arcade,arcade shop,,mechanic,unknown,,Arcade Shop has an upgrade to increase sample size.,yes,3

@@ -1,0 +1,53 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:00,sailing,chests,,meta_change,any,,Sailing was fixed so you can no longer get an abundance of chests.,yes,3
+00:00:00,00:00:00,sailing,artifact,,meta_change,any,,The sailing artifact will now actually have some use after the fix.,yes,3
+00:00:00,00:00:00,pets|general,pet battles autocast,,meta_change,any,,Autocast for pet battles was added; pets cast abilities as soon as they are available.,yes,3
+00:00:00,00:00:00,pets,pet battles autocast,,setup,any,,You can set autocast so it doesn't cast abilities only before you start the arena; wording is garbled.,yes,1
+00:00:00,00:00:30,anvil,points,,meta_change,any,,Auto spend for anvil points was added; click and hold instead of spam pressing.,yes,3
+00:00:30,00:00:30,anvil,craft from storage,,meta_change,any,,You can hold down Craft from Storage in the anvil to make items like icing iron bites and saucy log fries easily.,yes,2
+00:00:30,00:00:30,anvil|gem_shop,whetstone,,mechanic,any,,A new World 3 shop item the Whetstone resets anvil points so you can juice anvil speed.,yes,2
+00:00:30,00:00:30,anvil|gem_shop,whetstone,,mechanic,any,purchase_limit_per_day=1,You can only buy one Whetstone per day.,yes,3
+00:00:30,00:00:30,anvil,whetstone,,opinion,any,,He says the Whetstone was long needed.,yes,3
+00:00:30,00:00:30,anvil,whetstone,,mechanic,any,bonus=1,Garbled mention of plus one to something ('slap oval') alongside the Whetstone.,no,1
+00:00:30,00:01:01,stamps|characters,opal UI,,meta_change,any,,Opal UI was remastered; you can swap opals across all characters in one menu instead of per character.,yes,2
+00:01:01,00:01:01,dashboard,quick ref,,meta_change,any,,Quick ref now lets you set star signs and change opals from the menu without leaving the map.,yes,2
+00:01:01,00:01:01,dashboard|bubbles,quick ref,,meta_change,any,,Quick ref lets you upgrade alchemy bubbles and apply big bubbles from the menu without leaving the map.,yes,3
+00:01:01,00:01:01,dashboard,quick ref,,opinion,any,,He calls the quick ref a massive quality of life improvement.,yes,3
+00:01:01,00:01:32,event_shop,limited time shop,,meta_change,any,,The limited time shop has a new rotation with a new item type called hyperopals.,yes,2
+00:01:01,00:01:32,event_shop,hyperopals,,mechanic,any,,Hyperopals include best drop rate opals and multi-kill per tier; also all stat percent and total damage per set.,yes,2
+00:01:32,00:01:32,event_shop,hyperopals,,mechanic,any,,Hyperopals are equipped in the circle slot.,yes,2
+00:01:32,00:01:32,event_shop,hyperopals,,mechanic,any,,Hyperopals cannot be upgraded but can be re-rolled to plus one stats.,yes,2
+00:01:32,00:01:32,event_shop,hyperopals,,comparison,any,,He thinks hyperopals are insane compared to the respective upgrades.,yes,2
+00:01:32,00:01:32,event_shop,wings,,mechanic,any,,Another RNG chance in the limited shop is rolling for one of the wings in the game.,yes,2
+00:01:32,00:01:32,event_shop,wings,,account_note,any,,He got lucky and rolled another pair of angel wings and some 72 hour candy.,yes,3
+00:01:32,00:01:32,event_shop,limited time shop,,opinion,any,rating=11/10,He rates the limited time shop rotation 11 out of 10.,yes,3
+00:01:32,00:02:02,characters,orb of remembrance,divine_knight,mechanic,any,xp_per_kill=1%;drop_rate_per_kill=1%,Divine Knight's Orb of Remembrance gives 1% XP and 1% drop rate per mob kill while the orb is active.,yes,3
+00:02:02,00:02:02,characters|drop_rate|class_exp,orb of remembrance,divine_knight,account_note,any,highest_kills=566;drop_rate_mult=5.66;xp_mult=5.66,His highest orb run was 566 kills giving 5.66x drop rate and 5.66x XP.,yes,3
+00:02:02,00:02:02,characters,orb of remembrance,divine_knight,mechanic,any,,The orb bonus is not kept after it ends.,yes,2
+00:02:02,00:02:02,characters,orb of remembrance,divine_knight,mechanic,any,,The orb is only for active play.,yes,3
+00:02:02,00:02:02,characters,orb of remembrance,divine_knight,mechanic,any,,The orb counts base kills per kill; multi-kill doesn't work for it.,yes,2
+00:02:02,00:02:32,characters|printer,king of the remembered,divine_knight,mechanic,any,,King of the Remembered gives printer output percent based on how many kills you get while the orb is active.,yes,3
+00:02:32,00:02:32,characters|printer,king of the remembered,divine_knight,mechanic,any,,The King of the Remembered buff is permanent and based on power of ten tiers: 10; 100; 1000; 10000.,yes,2
+00:02:32,00:02:32,printer|atom_collider,king of the remembered,divine_knight,mechanic,any,,King of the Remembered printer output doesn't count with the atom collider; the collider is specifically materials.,yes,2
+00:02:32,00:02:32,printer,printer output percent,,mechanic,any,,Printer output percent is a multiplier that increases print size not printer sample so no need to resample.,yes,3
+00:02:32,00:02:32,printer|characters,king of the remembered,divine_knight,priority,any,,Actively farming Divine Knight will be a must for big prints.,yes,3
+00:02:32,00:03:03,characters,divine intervention,divine_knight,mechanic,any,,Divine intervention respawns all mobs on the map if all the mobs are dead.,yes,3
+00:02:32,00:03:03,characters,divine intervention,divine_knight,mechanic,any,delay_seconds_min=2.2;delay_seconds_max=3.2,Divine intervention has about a 2.2 to 3.2 second respawn delay.,yes,2
+00:03:03,00:03:03,characters,divine intervention,divine_knight,meta_change,any,delay_seconds_min=1.5;delay_seconds_max=2.2,The delay might be buffed later to 1.5 to 2.2 seconds.,yes,2
+00:03:03,00:03:03,characters|drop_rate,divine intervention,divine_knight,mechanic,any,,Crystal spawn chance is still viable with Divine Knight because divine intervention doesn't count crystals to proc.,yes,3
+00:03:03,00:03:03,characters,knightly disciple|imbued shockwave,divine_knight,mechanic,any,,Knightly disciple and imbued shockwave have no damage increases; they scale off your Shockwave Slash ability in the Squire tab.,yes,3
+00:03:03,00:03:03,characters|talent_points,shockwave slash,divine_knight,how_to,any,,To scale their damage and mob hits level up Shockwave Slash for more DPS.,yes,3
+00:03:03,00:03:34,characters,knightly disciple,divine_knight,mechanic,any,,Knightly disciple places a statue on the ground that does a shockwave or big turret-like damage.,yes,3
+00:03:34,00:03:34,characters,imbued shockwave,divine_knight,mechanic,any,,Imbued shockwave gives your auto attacks a chance to cast a Shockwave Slash and makes clearing maps easy.,yes,3
+00:03:34,00:03:34,characters,mega boomerang,divine_knight,mechanic,any,,Mega boomerang increases daggerang's mob max hit and its size; it gets a ridiculous size and can wipe the map.,yes,2
+00:03:34,00:04:06,characters,bitty litty,divine_knight,account_note,any,,Bitty litty talent may be a shout out to the community; Lava may have confirmed it.,yes,1
+00:04:06,00:04:06,class_choice,divine_knight,divine_knight,opinion,any,,He likes Divine Knight as an active-play choice alongside bubo; the community wanted choice rather than a class that is better than bubo.,yes,3
+00:04:06,00:04:37,characters|afk_spot,farming map,divine_knight,afk_spot,any,,Best map he found when testing for orb kills is the Citrus map at OJ Bay.,yes,2
+00:04:06,00:04:37,characters|afk_spot,farming map,divine_knight,afk_spot,early,,Alternative flat maps for the orb: the clammy map; chalkies map; deadday ramps map; or the snelby map in world 2.,yes,2
+00:04:37,00:04:37,characters,farming map,divine_knight,how_to,any,,Divine Knight wants flat easy maps for shockwave to juice orb kills.,yes,3
+00:04:37,00:04:37,death_note|characters,farming map,divine_knight,afk_spot,any,,Divine Knight works better in low mob density maps like wood mushrooms or blood boats; good for farming death note for those creatures.,yes,2
+00:04:37,00:05:07,class_choice,divine_knight,divine_knight,comparison,early,,Divine Knight is very beginner friendly and performs with very little investment compared to bubo which takes much more to become good.,yes,3
+00:05:07,00:05:07,dungeons,party dungeons,divine_knight,comparison,any,tier=S+,Divine Knight is now top of the list in party dungeons at S plus tier; a video on it is coming.,yes,3
+00:05:07,00:05:38,class_choice,siege_breaker,siege_breaker,opinion,any,,He hopes Lava makes siege breaker an active-play class the same way as Divine Knight to give more choice.,yes,3
+00:05:38,00:05:38,class_choice,hunter,hunter,opinion,any,,He says Hunter as the Archer active class has little that truly benefits it except for urar which doesn't help with skilling.,yes,2
+00:05:38,00:06:09,class_choice,hunter|siege_breaker,siege_breaker,comparison,any,,Hunter's forging speed talent for smelting is one active benefit but siege breaker has it too; he'd prefer siege breaker with active abilities.,yes,2

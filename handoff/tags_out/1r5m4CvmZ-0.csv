@@ -1,0 +1,47 @@
+t_start,t_end,system,subsystem,class,claim_type,stage,numbers,statement,explicit,confidence
+00:00:00,00:00:30,jelly_operator,minigame unlock,,meta_change,unknown,,New research minigame jelly operator added and unlocked via research grid upgrade,yes,3
+00:00:30,00:01:01,jelly_operator,access,,how_to,unknown,,Speak to the jelly in the jellofish map to play jelly operator,yes,2
+00:00:30,00:01:01,jelly_operator|research,upgrades,,meta_change,unknown,,Research upgrade gives more blood cells from operations; blood cells appear to be the currency,yes,2
+00:01:01,00:01:31,jelly_operator|research,daily operating procedure,,meta_change,unknown,operations=1,Research upgrade daily operating procedure gives plus one operation at the start of every day,yes,3
+00:01:01,00:01:31,jelly_operator|research,cellular warfare,,meta_change,unknown,,Cellular warfare research upgrade multiplies all cell damage dealt during operations,yes,2
+00:01:31,00:02:02,jelly_operator,upgrades,,meta_change,unknown,cell_types=8;upgrades=37,Unlock eight cell types and buy 37 upgrades with blood cells earned during operations,yes,3
+00:01:31,00:02:02,jelly_operator,obstructions,,meta_change,unknown,obstructions=72,72 obstructions to remove each giving a bonus affecting the rest of the game; similar to sushi,yes,3
+00:02:02,00:02:33,gaming,palette,,meta_change,unknown,,Mossy green palette bonus now works and boosts all cell damage in jelly operator,yes,3
+00:02:02,00:02:33,gaming,palette,,mechanic,unknown,,Palette bonuses do not need to be selected; they are always active,yes,3
+00:02:33,00:03:03,atom_collider|jelly_operator,atom unlock,,meta_change,unknown,,New atom unlocks from one of the jelly operator obstruction bonuses,yes,3
+00:02:33,00:03:03,tome|jelly_operator,metric,,meta_change,unknown,max_points=800,New tome metric for successful jelly operations with 800 points at max,yes,2
+00:02:33,00:03:34,tome,sniping,,how_to,unknown,distance=800,If close to next tome breakpoint (even 800 away) push it now to snipe next tier and get a tag; tome sniping is the meta,yes,2
+00:03:03,00:03:34,tournament,season,,meta_change,unknown,season=5,Season 5 of grand tournament starts later today; season 4 rewards given out,yes,3
+00:03:34,00:04:04,tournament|hat_rack,rewards,,meta_change,unknown,hats=3,Tournament rewards include three new hats across tier two and three,yes,3
+00:03:34,00:04:35,slab|hat_rack,tournament hats,,mechanic,unknown,,New tournament hats count toward slab but do not go in the hat rack,yes,2
+00:04:04,00:04:35,sushi,new sushi,,meta_change,unknown,unique_sushi=64,New sushi added making 64 unique pieces of sushi,yes,3
+00:04:35,00:05:06,jelly_operator|sushi,organelle cell,,meta_change,unknown,,Organelle cell in jelly operator boosts adjacent cell speed by a multiplier; end of sushi boosts the new mechanic,yes,2
+00:04:35,00:05:06,pets,champion pets,,meta_change,unknown,,New champion pets bronze silver and gold earls added,yes,3
+00:05:06,00:05:37,gem_shop|jelly_operator,limited time section,,priority,unknown,,Claim the freebie in the new limited time gem shop section,yes,3
+00:05:06,00:05:37,gem_shop|jelly_operator,freebie,,mechanic,unknown,operations=1;gem_cost=1,Freebie gives plus one operation today; it still costs one gem,yes,3
+00:05:37,00:06:07,gem_shop|drop_rate|money,emerald bling pendant,,priority,unknown,,Emerald bling pendant: 100% prioritize; best in slot with nothing close; critical for coin farming,yes,3
+00:05:37,00:06:38,gem_shop|drop_rate,FOMO key chains,,opinion,unknown,,Returning FOMO drop rate keychains beat dungeon ones and are best in slot but not necessary in current meta,yes,3
+00:06:07,00:06:38,gem_shop|equinox,equinox penguins,,priority,unknown,,Equinox penguins are FOMO for equinox bar fill rate,yes,3
+00:06:38,00:07:38,gem_shop,purchase order,,priority,unknown,,Order: bling pendant then equinox penguins then key chains then maybe overalls then hat then codifiers,yes,3
+00:06:38,00:07:38,gem_shop,codifiers hat,,opinion,unknown,,Codifiers and hat are whatever you want,yes,2
+00:07:38,00:08:09,bundles|farming,gelatinous pipe,,opinion,unknown,,New bundle includes 10x farming stick of fine chance; probably just okay,yes,2
+00:07:38,00:08:09,bundles|farming,stickers,,comparison,unknown,,Stick bundle is good only if you lack doggo sticker which gives effectively infinite stickers,yes,2
+00:08:09,00:08:39,bundles|sushi|minehead,currency bundle,,opinion,unknown,,Account bonus bundle 2x currency for minehead and sushi; not necessary since not gated on sushi and minehead stays slow,yes,3
+00:08:09,00:08:39,bundles|jelly_operator,minigame bundle,,opinion,unknown,,The new minigame part of bundle is necessary if you want to get ahead,yes,2
+00:08:39,00:09:11,bundles,name tags,,opinion,unknown,,Dead bones name tag is the only one missing that sends his account over the edge; sold in a pack with one tag,yes,2
+00:09:11,00:09:42,summoning,upgrade board,,meta_change,unknown,,Stones added to the middle of the summoning upgrade board; purely visual,yes,3
+00:09:42,00:10:12,sushi,combo high scores,,meta_change,unknown,,Sushi combo high scores reset due to balance changes,yes,3
+00:09:42,00:10:42,sushi,salt shaker,,meta_change,unknown,,Salt shaker no longer counts for sushi combo to stop stockpiling salt via spam clicking instead of real combining,yes,3
+00:10:12,00:10:42,sushi,combo strategy,,opinion,unknown,,He agrees with the change; spam clicking salt was clearly best and what he did from day one,yes,3
+00:10:42,00:11:12,royal_armory|royal_guardian,commander rank,royal_guardian,meta_change,unknown,rank=1;old_rank=4,Royal Guardian commander rank now gives a new unit every rank from rank one instead of from rank four,yes,3
+00:10:42,00:11:42,royal_armory|royal_guardian,rank exp,royal_guardian,meta_change,unknown,,Rank EXP to rank up increased slightly retroactively so higher ranks are not arbitrarily ahead,yes,3
+00:11:12,00:11:42,royal_armory|royal_guardian,rank exp,royal_guardian,opinion,unknown,,He doubts the rank EXP increase fixes the intended problem,yes,2
+00:11:12,00:11:42,class_exp,lag,,meta_change,unknown,,Fixed lag when gaining huge amounts of EXP,yes,3
+00:11:12,00:11:42,summoning,menu lag,,meta_change,unknown,,Fixed lag when opening summoning upgrade menu,yes,3
+00:11:12,00:11:42,atom_collider,nova dust,,meta_change,late,,Fixed negative nova dust bug affecting top endgamers,yes,2
+00:11:42,00:12:13,cards|drop_rate,crystal mob spawn,,meta_change,unknown,,Fixed bug where crystal mob spawn chance multiplier for cards got mixed with other aspect bonuses,yes,3
+00:11:42,00:12:13,cards,genie and poop,,mechanic,unknown,,Genie and poop cards had changed from multiplier to additive; community assumed a shadow change,yes,2
+00:12:13,00:12:43,cards|drop_rate,demon genie setup,,setup,endgame,,Community ran demon genie in one slot plus a drop rate multiplier card in other; was better for xeno farming at coral cave crab,yes,2
+00:12:13,00:12:43,cards,testing,,warning,endgame,,Since the card change was a bug the earlier testing and setups should be reverted,yes,3
+00:12:43,00:13:14,drop_rate|equinox,royal garden mob will,,meta_change,unknown,drops=100,Fixed bug where mob will drop chance for royal garden became lower after 100 drops in certain cases,yes,2
+00:12:43,00:13:44,drop_rate,mob will drops,,warning,unknown,,Unclear whether mob will drops were fully reverted or a shadow change was fixed; needs testing,yes,2
