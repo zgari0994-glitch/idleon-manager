@@ -254,3 +254,9 @@ Card layout (per character)
 2. Housekeeping: missing bag, PO box points, next S-tier library checkout, max checkout talent, etc.
 3. Park: where + why. Goal pushes change active/AFK play, not the dailies.
 History: keep every card set by save (plans/<save>.md) and cross-check progression over time.
+Weeklies (Zack 09:25): ballot (W2 Bonus) + Meritocracy (W7) + other weekly events are read every pull and weighed in the goal plan.
+- Hard-focus weeks when skipping costs huge progress (e.g. divinity-type weeks).
+- Opportunistic weeks: adjust (e.g. traps to shinies in shiny week for vials/greenstacks).
+- Rotation-aware: when a boost is known to come back, hold slow tasks for it (e.g. shiny Tottoise greenstack waits for shiny week). Vote steps go on a card.
+Card detail: one step per line; extra info nested under the step as a, b, c (e.g. Alchemy 1 -> a/b/c points per bubble).
+Example layout approved (Goal card -> character cards: Dailies / Housekeeping / Park, short why per step).
