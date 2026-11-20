@@ -1,8 +1,8 @@
 {
  "fill_hr": 3552.0,
  "bar": [
-  2513.0,
-  2513.0
+  2638.0,
+  2638.0
  ],
  "upgrades": [
   {
@@ -47,7 +47,7 @@
   },
   {
    "name": "Slow Roast Wiz",
-   "lv": 5,
+   "lv": 6,
    "max": 17,
    "locked": false,
    "unlock": null,
@@ -73,9 +73,9 @@
    "name": "Faux Jewels",
    "lv": 0,
    "max": 18,
-   "locked": true,
-   "unlock": "Reach round 115 in the Mob Arena, but only using a team of 4 Mobs or less",
-   "progress": "Done"
+   "locked": false,
+   "unlock": null,
+   "progress": null
   },
   {
    "name": "Food Lust",
@@ -83,7 +83,7 @@
    "max": 22,
    "locked": true,
    "unlock": "Have 15 chemical plants just chillin' in your Gaming Garden all at once",
-   "progress": "1 / 15"
+   "progress": "3 / 15"
   },
   {
    "name": "Equinox Symbols",
@@ -91,7 +91,7 @@
    "max": 17,
    "locked": true,
    "unlock": "Greenstack 200 different items in your Storage Chest",
-   "progress": "171 / 200"
+   "progress": "172 / 200"
   },
   {
    "name": "Voter Rights",
@@ -110,7 +110,350 @@
    "progress": "Requires Research G8"
   }
  ],
- "challenges": [],
+ "challenges": [
+  {
+   "task": "Use a stack of 100,000 cooking Ladles in a single usage",
+   "state": "Active",
+   "reward": "+10 Max LV for 'Matching Scims' Equinox Upgrade",
+   "progress": "0 / 1"
+  },
+  {
+   "task": "Defeat the Caustic Glaciaxus in a party with others or alone. That's the 3rd and final W3 Dungeon boss",
+   "state": "Active",
+   "reward": "+25% Equinox Bar fill rate",
+   "progress": "0 / 1"
+  },
+  {
+   "task": "Upgrade the Bobjoepickle vial to Lv 2. It will still do nothing, but one can dream!",
+   "state": "Active",
+   "reward": "+5 Max LV for 'Faux Jewels' Equinox Upgrade",
+   "progress": "1 / 2"
+  },
+  {
+   "task": "Have 15 chemical plants just chillin' in your Gaming Garden all at once",
+   "state": "Active",
+   "reward": "Unlock next Equinox upgrade",
+   "progress": "3 / 15"
+  },
+  {
+   "task": "Get 2000 kills in a single Killroy run. Seems like a lot, but compared to your deathnote, it really isn't huh...",
+   "state": "Active",
+   "reward": "+35% Equinox Bar fill rate",
+   "progress": "1,296 / 2,000"
+  },
+  {
+   "task": "Get a total of 100 BILLION Green Mushroom deathnote kills.",
+   "state": null,
+   "reward": "+4 Max LV for 'Food Lust' Equinox Upg",
+   "progress": "0 / 1"
+  },
+  {
+   "task": "Get a single sample of 1 billion or more of any item. 10 digit sample club, you in?",
+   "state": "Requirements met",
+   "reward": "+10 Max LV for 'Faux Jewels' Equinox Upgrade",
+   "progress": "1 / 1"
+  },
+  {
+   "task": "Reach wave 121 on first 6 Tower Defence Worship Summons",
+   "state": null,
+   "reward": "+200 Starting Points in Worship TD",
+   "progress": "0 / 6"
+  },
+  {
+   "task": "Greenstack 200 different items in your Storage Chest",
+   "state": null,
+   "reward": "Unlock next Equinox upgrade",
+   "progress": "172 / 200"
+  },
+  {
+   "task": "Successfully take a Red Frisbee sample at Wood Mushrooms. Yeah, it's possible",
+   "state": null,
+   "reward": "+40% Equinox Bar fill rate",
+   "progress": "0 / 1"
+  },
+  {
+   "task": "Get 100 5 star ruby cards. Or, get 1 500 star card. The latter does not exist. Sadly",
+   "state": "Requirements met",
+   "reward": "+4 Max LV for 'Equinox Symbols' Equinox Upgrade",
+   "progress": "114 / 100"
+  },
+  {
+   "task": "Acquire all 10 Megafeathers from Orion the Great Owl, and all 12 Megafish from Poppy the Kangaroo Mouse",
+   "state": null,
+   "reward": "Unlock next Equinox upgrade",
+   "progress": "21 / 22"
+  },
+  {
+   "task": "Unlock 75 or more Portals on a single Voidwalker Speedrun",
+   "state": null,
+   "reward": "+6 Max LV for 'Slow Roast Wiz' Equinox Upgrade",
+   "progress": "21 / 75"
+  },
+  {
+   "task": "Reach a total Cooking Meal Upgrade Lv of 4242 across all meals",
+   "state": "Requirements met",
+   "reward": "'Food Lust' Equinox Upg now reduces cost by -42% per stack",
+   "progress": "6,436 / 4,242"
+  },
+  {
+   "task": "Find every type of hat in Sneaking, including the Funky Hat, which is a SUPER rare drop from the lobby floor...",
+   "state": null,
+   "reward": "+10 Max LV for 'Matching Scims' Equinox Upgrade",
+   "progress": "12 / 15"
+  },
+  {
+   "task": "Get at least 100 Killroy kills on HALF of monsters in World 1 through 6, as shown in Killroy Prime in Rift",
+   "state": null,
+   "reward": "+15 Max LV for 'Voter Rights' Equinox Upgrade",
+   "progress": "20 / 40"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "Unlock next Equinox upgrade",
+   "progress": "6 / 5"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+5 Max LV for 'Nonstop Studies' Equinox Upgrade",
+   "progress": "12 / 25"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+60% Equinox Bar fill rate",
+   "progress": "1 / 3"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+10 Max LV for 'Matching Scims' Equinox Upgrade",
+   "progress": "58 / 100"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+65% Equinox Bar fill rate",
+   "progress": "0 / 48"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "All Minehead opponents have 1 less Depth Charge",
+   "progress": "0 / 1"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+5 Max LV for 'Nonstop Studies' Equinox Upgrade",
+   "progress": "20 / 30"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+5 Max LV for 'Nonstop Studies' Equinox Upgrade",
+   "progress": "0 / 50"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+75% Equinox Bar fill rate",
+   "progress": "293 / 300"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "1.03x Equinox Bar fill rate, MULTI!",
+   "progress": "69 / 200"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+90% Equinox Bar fill rate",
+   "progress": "73 / 150"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+5 Max LV for 'Nonstop Studies' Equinox Upgrade",
+   "progress": "91 / 300"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+100% Equinox Bar fill rate",
+   "progress": "88,470 / 10M"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "1.05x Equinox Bar fill rate, MULTI!",
+   "progress": "20 / 60"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+5 Max LV for 'Nonstop Studies' Equinox Upgrade",
+   "progress": "10 / 25"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+120% Equinox Bar fill rate",
+   "progress": "1.06M / 100M"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "1.06x Equinox Bar fill rate, MULTI!",
+   "progress": "2 / 60"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+100 Max possible LV for all Sneaking Charms",
+   "progress": "0 / 7"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+150% Equinox Bar fill rate",
+   "progress": "2 / 16"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+5 Max LV for 'Nonstop Studies' Equinox Upgrade",
+   "progress": "5 / 8"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+160% Equinox Bar fill rate",
+   "progress": "1,514 / 1,850"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+170% Equinox Bar fill rate",
+   "progress": "20 / 82"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+6 Max LV for 'Nonstop Studies' Equinox Upgrade",
+   "progress": "23 / 200,000"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "1.07x Equinox Bar fill rate, MULTI!",
+   "progress": "30,375 / 1B"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+185% Equinox Bar fill rate",
+   "progress": "0 / 1"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+6 Max LV for 'Nonstop Studies' Equinox Upgrade",
+   "progress": "0 / 1"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+190% Equinox Bar fill rate",
+   "progress": "0 / 1"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+195% Equinox Bar fill rate",
+   "progress": "0 / 210"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+7 Max LV for 'Nonstop Studies' Equinox Upgrade",
+   "progress": "12 / 54"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+200% Equinox Bar fill rate",
+   "progress": "0 / 70"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+3 Exotic Market purchases per week",
+   "progress": "1 / 8"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "1.07x Equinox Bar fill rate, MULTI!",
+   "progress": "6 / 500"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+220% Equinox Bar fill rate",
+   "progress": "2 / 80"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "1.05x Drop Rate multi",
+   "progress": "5 / 10"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "1.05x Class EXP multi",
+   "progress": "20 / 100"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "All Research Grid bonuses are +1% bigger",
+   "progress": "0 / 10"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "All Research Grid bonuses are +1% bigger",
+   "progress": "0 / 7"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "Ribbons give +1% extra multi every 10 Ranks!",
+   "progress": "0 / 1"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+250% Equinox Bar fill rate",
+   "progress": "12 / 90"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "+8 Max LV for 'Nonstop Studies' Equinox Upgrade",
+   "progress": "1 / 7"
+  },
+  {
+   "task": "Requires Research G8",
+   "state": null,
+   "reward": "All Research Grid bonuses are +1% bigger",
+   "progress": "20 / 80"
+  }
+ ],
  "ar_tier": "8/12",
  "ar": [
   {

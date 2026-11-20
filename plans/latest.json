@@ -1144,7 +1144,7 @@
      "steps": [
       "TOP: hold 200 or more of every crop you've found (12 of 140 so far). Each one raises the chance to discover new crops. Lock them before bean trades so a trade can't empty them (Griffy does this).",
       "Weakest families: Basic (0 of 21), Sushi (1 of 23), Mushie (1 of 23). Pulse: farm the low ones first. Basic grows fastest if you want quick stacks.",
-      "Spend 136 Land Rank points, Toolbox's optimizer puts them into the Evolution boosts.",
+      "Spend 187 Land Rank points, Toolbox's optimizer puts them into the Evolution boosts.",
       "Collect all crops, replant",
       "Farming: Griffy: Before Overgrowth, focus on crop discoveries and possibly additional plots.",
       "Farming: Griffy: Develop farming and summoning before heavily pushing World 7 because World 6 skills accelerate account progress.",
@@ -1224,7 +1224,7 @@
       "AutoReview: You could complete 15 more CHOWs with Autiszemo (93/108). Next: Noble Clam in The Clamworks (1M remaining), Spearfish in Pinpoint Summit (1M remaining), Coralcave Guardian in Coralcave Perimeter (1M remaining), Pirate Underling in Pirate Upper Deck (1M remaining), Eggroll in Sushi Perimeter (1M remaining), Jellofish in Jellofish Fields (1M remaining)...",
       "AutoReview: All kills for Autiszemo without a filter. Have fun. Next: Rift Monsters in The Rift, Poops in The Office, Green Mushroom in Mummy Memorial, Boops in Meel's Crypt, Nutto in The Roots, Dedotated Ram in Equinox Valley...",
       "Closest Eclipse skulls: Baby Troll (37M kills left), Gelatinous Cuboid (133M kills left), Crawler (384M kills left).",
-      "61 Eclipse skulls so far.",
+      "64 Eclipse skulls so far.",
       "Griffy: Eclipse skulls are slow without big multikill. Skip WOWs, they scale badly.",
       "Griffy: Continue building Death Note.",
       "Griffy: World 1 Eclipse Skulls would strongly help Blood Berserker progression.",
@@ -1271,7 +1271,7 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 98, charge full in 21d 5h."
+      "Worship level 98, charge full in 20d 11h."
      ]
     }
    ],
@@ -2195,14 +2195,12 @@
       }
      ],
      "weekly": {
-      "week_start": null,
-      "done": false
+      "week_start": "2026-11-15",
+      "done": true
      }
     }
    ],
-   "flags": [
-    "Weekly killroy: not confirmed for week of ?"
-   ],
+   "flags": [],
    "move": {
     "text": "Alchemy: Dream Of Ironfish 82 -> 170",
     "src": "rinse (Griffy-weighted AutoReview)"
@@ -2329,15 +2327,16 @@
      "kind": "playbook",
      "steps": [
       "Lab is fine: all 18 bonuses on, 19 of 20 jewels on.",
-      "Autistachio isn't souped up, so his lab range is lower."
+      "Autistachio isn't souped up, so his lab range is lower.",
+      "Coming in the shop but you are short: Sapphire Pyramite on 25/11 (need 2 more); Silkrode Nanochip on 02/12 (need 1.6M more); Emerald Ulthurite on 09/12 (need 8 more).",
+      "You can buy these when they rotate in: Grounded Processor (+60% Drop Rate if total is less than 5.00x); Galvanic Motherboard (+20% Total Skilling Efficiency for all skills); Conductive Motherboard (+12% Line Width within Mainframe)."
      ]
     },
     {
      "block": "Summoning",
      "kind": "playbook",
      "steps": [
-      "TOP: claim the familiar EXP (106M EXP, 5d 5h of it).",
-      "Teal battles (0 of 18) open up after Autistomatic's Spelunking cave.",
+      "TOP: claim the familiar EXP (132M EXP, 6d of it).",
       "Griffy: Place summons near clustered enemies so spike area damage hits multiple targets.",
       "Griffy: Sometimes concentrating summons along the top or bottom can win using the Zerg strategy.",
       "Next goal: Danny and his Shiny FishiesReward: 9.75x Total DMG 0 -> 1 \u00b7 LOCKED -> Defeat the lore boss of Spelunking cave 5 Chucklemire. Now: Pebble Cove boss done, deepest Pebble Cove 9 / Sedimeadow 8; Rustbelt 03, Blushpit, Chucklemire not reached",
@@ -2363,6 +2362,7 @@
      "kind": "playbook",
      "steps": [
       "This week's Killroy rooms: Room 1: Warrior 446 Room 2: Warrior 877.",
+      "With 78 skulls you can buy: 1% Chance to permanently unlock the 3rd , Artifact Find Chance, Adds 1 nugget to your Shovel in Gaming, Crop Evolution Chance.",
       "Get 2,000 kills in one room to finish an Equinox challenge (best so far 1,296).",
       "Griffy: Build Kilroy over time rather than buying expensive extra progress.",
       "Griffy: Vote for Killroy because it supplies substantial candy and arcade balls and other progression bonuses.",
@@ -2424,7 +2424,7 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 95, charge full in 25d 6h."
+      "Worship level 95, charge full in 24d 13h."
      ]
     },
     {
@@ -3503,7 +3503,6 @@
    },
    "quick": [
     "READY (Toolbox): Next sailing trade Open",
-    "READY (Toolbox): Greatest Catch Restart available",
     "READY (Toolbox): Sushi fuel full Full"
    ],
    "active": [],
@@ -3574,11 +3573,6 @@
      "src": "Toolbox timer"
     },
     {
-     "do": "Greatest Catch: Restart available",
-     "done": "claimed / restarted",
-     "src": "Toolbox timer"
-    },
-    {
      "do": "Sushi fuel full: Full",
      "done": "claimed / restarted",
      "src": "Toolbox timer"
@@ -3595,7 +3589,6 @@
      "kind": "timer",
      "steps": [
       "Next sailing trade: Open",
-      "Greatest Catch: Restart available",
       "Sushi fuel full: Full"
      ]
     },
@@ -3655,7 +3648,7 @@
      "block": "Luminous Menagerie (own intervention)",
      "kind": "playbook",
      "steps": [
-      "Missions in progress: Account LV 9,067 / 10,000, Sneaking Mastery 1 / 2, Total Depths, including Manic 32 / 500, Crops Discovered 140 / 200.",
+      "Missions in progress: Account LV 9,071 / 10,000, Sneaking Mastery 1 / 2, Total Depths, including Manic 46 / 500, Crops Discovered 140 / 200.",
       "Pulse: Extra Menagerie missions boost scales aggressively; 19 levels at roughly 6-7 hours per level; critical for progressing missions.",
       "Pulse: Keep missions boost and second shelf second upgrade roughly level with slight priority on the second shelf.",
       "Next goal: Shells needed for Menagerie Rank 4 1 -> 3",
@@ -3667,8 +3660,9 @@
      "block": "W7 minis",
      "kind": "playbook",
      "steps": [
-      "TOP dailies: use 3 Jelly operations, play 3 Minehead tries.",
+      "TOP dailies: use 3 Jelly operations, play 3 Minehead tries, spend Sushi fuel (nearly full).",
       "Spend 15 Legend Talent points (keep Blue Ribbon and Extended Database on hold).",
+      "Cheap Sushi upgrades: Hourly Wage Meter, Fastburn Fuel I, Fuel Capacity I, Customer Surcharge I, Fastburn Fuel II.",
       "Glimbo: make 12 trades (Monster Tax, Wicked Smart, Major Discount, Go Go Secret Owl...). Each one raises a Vault max level.",
       "Not unlocked yet: Zenith Market, The Button.",
       "Sushi Station: Griffy: The sushi strategy obtains high tiers without excessive spending.",
@@ -3752,7 +3746,7 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 84, charge full in 22d 18h."
+      "Worship level 84, charge full in 22d."
      ]
     }
    ],
@@ -4995,20 +4989,22 @@
       }
      ],
      "weekly": {
-      "week_start": null,
-      "done": false
+      "week_start": "2026-11-15",
+      "done": true
      }
     }
    ],
-   "flags": [
-    "Weekly killroy: not confirmed for week of ?"
-   ],
+   "flags": [],
    "move": {
     "text": "Gaming: Step 2: Choose a safety level. 90.0% safety = 12 unspent mail 2 -> 12",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
     "READY (Toolbox): Dr Defecaus Up \u00b7 Killed \u00b7 boss/miniboss (minibosses only when stored at max)",
+    "READY (Toolbox): Dilapidated Slush +1 in 2 days \u00b7 2 kills \u00b7 boss/miniboss (minibosses only when stored at max)",
+    "READY (Toolbox): Mutated Mush +1 in 3 days \u00b7 2 kills \u00b7 boss/miniboss (minibosses only when stored at max)",
+    "READY (Toolbox): Domeo Magmus +1 in 3 days \u00b7 2 kills \u00b7 boss/miniboss (minibosses only when stored at max)",
+    "READY (Toolbox): Demented Spiritlord +1 in 3 days \u00b7 2 kills \u00b7 boss/miniboss (minibosses only when stored at max)",
     "READY (Toolbox): Closest building Ready",
     "Gaming / Snail Ranks: Step 2: Choose a safety level. 90.0% safety = 12 unspent mail (2 / 12) +2 more ready"
    ],
@@ -5067,6 +5063,26 @@
      "src": "Toolbox timer \u00b7 boss/miniboss (minibosses only when stored at max)"
     },
     {
+     "do": "Dilapidated Slush: +1 in 2 days \u00b7 2 kills",
+     "done": "claimed / restarted",
+     "src": "Toolbox timer \u00b7 boss/miniboss (minibosses only when stored at max)"
+    },
+    {
+     "do": "Mutated Mush: +1 in 3 days \u00b7 2 kills",
+     "done": "claimed / restarted",
+     "src": "Toolbox timer \u00b7 boss/miniboss (minibosses only when stored at max)"
+    },
+    {
+     "do": "Domeo Magmus: +1 in 3 days \u00b7 2 kills",
+     "done": "claimed / restarted",
+     "src": "Toolbox timer \u00b7 boss/miniboss (minibosses only when stored at max)"
+    },
+    {
+     "do": "Demented Spiritlord: +1 in 3 days \u00b7 2 kills",
+     "done": "claimed / restarted",
+     "src": "Toolbox timer \u00b7 boss/miniboss (minibosses only when stored at max)"
+    },
+    {
      "do": "Closest building: Ready",
      "done": "claimed / restarted",
      "src": "Toolbox timer"
@@ -5095,6 +5111,10 @@
      "kind": "timer",
      "steps": [
       "Dr Defecaus: Up \u00b7 Killed",
+      "Dilapidated Slush: +1 in 2 days \u00b7 2 kills",
+      "Mutated Mush: +1 in 3 days \u00b7 2 kills",
+      "Domeo Magmus: +1 in 3 days \u00b7 2 kills",
+      "Demented Spiritlord: +1 in 3 days \u00b7 2 kills",
       "Closest building: Ready"
      ]
     },
@@ -5107,7 +5127,7 @@
       "Spontaneity Salts, Nullo Salt are one rank from their cap.",
       "The salts eat 89K Dune Soul a day and 141K Frigid Soul a day. Keep that covered before spending souls elsewhere.",
       "Keep the Spore Cap, Copper, Goldfish, Fly and Pocket Sand prints, they feed the salts.",
-      "Salt Lick Refinery Speed is 71/100, Autistopher can buy 6 more now.",
+      "Salt Lick Refinery Speed is 71/100, Autistopher can buy 4 more now.",
       "Buildings: Griffy: Build Crescent Shrine for increased crystal and giant mob spawn chances.",
       "Buildings: Griffy: Upgrade Death Note while its construction cost remains cheap.",
       "Buildings: Next goal: Kraken Cosplayer 85 -> 90",
@@ -5129,12 +5149,12 @@
       "Refinery: Next goal: Green Salt 19 -> 8332",
       "Refinery:   HOW: Enable blue salt production to reach green salts and support Poisonic Elder progression.",
       "Refinery:   HOW: Upgrade red salts first; limit explosive and blue and green salts levels; aim for perpetual motion (Griffy nodate @04:51:40)",
-      "TOP: buy Neon (28.9M particles, you have 88.9M). It makes every other atom cheaper, so get it before saving for the big ones (my read).",
-      "AutoReview's top atom is Helium: 479M particles, about 123d 6h away at your rate (3.16M a day).",
+      "TOP: buy Neon (28.9M particles, you have 94M). It makes every other atom cheaper, so get it before saving for the big ones (my read).",
+      "AutoReview's top atom is Helium: 479M particles, about 125d 23h away at your rate (3.05M a day).",
       "Also affordable now: Nitrogen (457K), Oxygen (822K), Magnesium (903K), Carbon (4.98M), Sodium (13.3M), Fluoride (18.5M).",
       "12 of 17 atoms unlocked. Aluminium comes from Compass Nomadic 32 on Autistacular.",
-      "TOP: 1 buildings in slots show as finished. Check in game, then move the slots to unfinished buildings.",
-      "Best slot targets (longest builds first): Voidinator (4d 20h), Trapper Drone (2d 1h), Party Starter (1d 5h).",
+      "TOP: 5 buildings in slots show as finished, including all your trimmed slots (Stormcaller, Party Starter, Kraken Cosplayer, Poisonic Elder). Check in game, then move the slots to unfinished buildings.",
+      "Best slot targets (longest builds first): Voidinator (3d 3h), Trapper Drone (1d 14h), Pulse Mage (3h 54m).",
       "AutoReview top buildings: Kraken Cosplayer 85 -> 90, Poisonic Elder 80 -> 90."
      ]
     },
@@ -5142,8 +5162,9 @@
      "block": "Gaming",
      "kind": "playbook",
      "steps": [
-      "Dig with the shovel and collect the squirrel's acorns, neither has been touched in 1h 41m.",
-      "Acorn shop: buy Palette Luck (86 acorns).",
+      "TOP: the garden is full, harvest it. Nothing new grows until you do.",
+      "Dig with the shovel and collect the squirrel's acorns, neither has been touched in 2d 6h.",
+      "Acorn shop: buy Palette Luck (150 acorns).",
       "Snail is level 13 of 25. AutoReview's mail plan is on this card.",
       "Spelunking cave Sedimeadow (Autistomatic) adds a second page of superbits.",
       "Griffy: After harvesting all plants use the sprinkler to repopulate the garden.",
@@ -5169,6 +5190,7 @@
      "block": "Islands",
      "kind": "playbook",
      "steps": [
+      "TOP: Islands: collect 11 garbage and fight the 3 crystal mobs (they drop candy).",
       "Griffy: Prioritize Seasalt Island over gambling on Fractal's Nothing Trophy because sea salt helps gear upgrades.",
       "Griffy: Collect accumulated trash from Trash Island.",
       "Next goal: Unlock Fractal Island 0 -> 1",
@@ -5197,10 +5219,10 @@
      "kind": "rinse",
      "steps": [
       "Dr Defecaus: Up \u00b7 Killed \u00b7 already killed this window",
-      "Dilapidated Slush: 1/10 stored \u00b7 wait, run at 10 (Current 1 \u00b7 +1 in 1 day)",
-      "Mutated Mush: 1/8 stored \u00b7 wait, run at 8 (Current 1 \u00b7 +1 in 1 day)",
-      "Domeo Magmus: 1/6 stored \u00b7 wait, run at 6 (Current 1 \u00b7 +1 in 1 day)",
-      "Demented Spiritlord: 1/6 stored \u00b7 wait, run at 6 (Current 1 \u00b7 +1 in 1 day)",
+      "Dilapidated Slush: 0/10 stored \u00b7 wait, run at 10 (+1 in 2 days \u00b7 2 kills)",
+      "Mutated Mush: 0/8 stored \u00b7 wait, run at 8 (+1 in 3 days \u00b7 2 kills)",
+      "Domeo Magmus: 0/6 stored \u00b7 wait, run at 6 (+1 in 3 days \u00b7 2 kills)",
+      "Demented Spiritlord: 0/6 stored \u00b7 wait, run at 6 (+1 in 3 days \u00b7 2 kills)",
       "Baba Yaga: Killed \u00b7 22h 20m \u00b7 already killed this window"
      ]
     },
@@ -5274,7 +5296,7 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 101, charge full in 21d 1h."
+      "Worship level 101, charge full in 20d 8h."
      ]
     },
     {
@@ -6427,7 +6449,6 @@
      "block": "Divinity",
      "kind": "playbook",
      "steps": [
-      "TOP: you're earning 0 Divinity points because nobody is meditating. Put someone on Mindful style at the W5 altar (Pulse: Mindful is best). You have 35.9M banked.",
       "Trick from Pulse and Griffy: characters linked to Goharut who sit in Lab tubes count as meditating, so they earn Divinity and Lab EXP at the same time.",
       "Coral Kid: buy the cheapest upgrade now (10M points): Lets you click the volcano, linking the divinity of your choice to ALL.",
       "Best blessing buys: Snehebatu, Arctis, Omniphau, Kattlekruk.",
@@ -6446,6 +6467,7 @@
      "block": "The Hole (all 15 caverns + villagers)",
      "kind": "playbook",
      "steps": [
+      "Next ones ready: The Well in 23m 13s, Motherlode in 3h 30m, The Den in 8m 2s.",
       "Villagers: Griffy: Choose the forge-capacity upgrade because the other intended enhancement is already unlocked.",
       "Villagers: Griffy: Prioritize wishing more now to build toward stronger wishes later.",
       "Glowshroom Tunnels: Level 0 1000000 Opals: +1 Opal (5 / 1) READY",
@@ -6456,7 +6478,7 @@
      "block": "Slab",
      "kind": "playbook",
      "steps": [
-      "Slab: 401 items you've never picked up. Each new one raises the slab bonus.",
+      "Slab: 391 items you've never picked up. Each new one raises the slab bonus.",
       "Griffy: Crafting the inexpensive catching tool supplies another Slab entry.",
       "Griffy: A fishing level-up gift supplied Fun Flags, adding one Slab item."
      ]
@@ -6522,10 +6544,10 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 112, charge full in 14d 17h.",
+      "Worship level 112, charge full in 13d 23h.",
       "Charges much faster than the rest, probably from mage worship talents (my read).",
-      "Dune Soul: enough for about 98 days of salts. Spend souls elsewhere only above that.",
-      "Frigid Soul: enough for about 43 days of salts. Spend souls elsewhere only above that."
+      "Dune Soul: enough for about 97 days of salts. Spend souls elsewhere only above that.",
+      "Frigid Soul: enough for about 42 days of salts. Spend souls elsewhere only above that."
      ]
     },
     {
@@ -7255,14 +7277,12 @@
       }
      ],
      "weekly": {
-      "week_start": null,
-      "done": false
+      "week_start": "2026-11-15",
+      "done": true
      }
     }
    ],
-   "flags": [
-    "Weekly killroy: not confirmed for week of ?"
-   ],
+   "flags": [],
    "move": {
     "text": "Breeding: Bonuses from All Meals: Sheepie88.77 base days to level 5 -> 13",
     "src": "rinse (Griffy-weighted AutoReview)"
@@ -7398,9 +7418,9 @@
      "kind": "playbook",
      "steps": [
       "TOP: use today's charm rolls (120 left). They don't carry over.",
-      "You can afford these jade upgrades: Kunai Knowledge, Mahjong Boosters, Way of Stealth, Star Sweeping, Glove Ingenuity, Respectful Minded.",
+      "You can afford these jade upgrades: Kunai Knowledge, Mahjong Boosters, Way of Stealth, Star Sweeping, Mastery Loot, Glove Ingenuity.",
       "These are cheap but still at level 0, check they're unlocked: Cheaper Stealth, Charming Symbols, Double Gemstones.",
-      "Autistachio is behind on floors (everyone else is on 9).",
+      "Autistachio is behind on floors (everyone else is on 10).",
       "Griffy: Sneaking contains many valuable account-progression bonuses.",
       "Griffy: Removing stamp penalties improves printer samples.",
       "Next goal: Wind Walker Tab 5 368 -> 381",
@@ -7413,8 +7433,10 @@
      "block": "Breeding",
      "kind": "playbook",
      "steps": [
+      "TOP: spend DNA, best first: Blooming Axe, Grand Martial, Shattershell Iteration. Pulse: faster shinies come first.",
+      "Claim 7,324 territory spice. It pays for kitchen upgrades on Autiszemo.",
       "Eggs are full. Pulse: keep clicking them past full to level them.",
-      "Fence: Green Mushroom at shiny level 13 of 20, next level in 7h 27m. Stick to one type at a time.",
+      "Fence: Green Mushroom at shiny level 14 of 20, next level in 2d 5h. Stick to one type at a time.",
       "Quickest shiny goals: Walking Stick for base critters per trap, Choccie for drop rate, Mashed Potato for base efficiency for all skills.",
       "The Crucible (big cooking speed) opens through the Menagerie on Autisticles.",
       "Griffy: Obtain the double-Refiller build first.",
@@ -7449,7 +7471,7 @@
      "block": "Worship totems (waves)",
      "kind": "playbook",
      "steps": [
-      "Worship level 82, charge full in 21d 10h.",
+      "Worship level 82, charge full in 20d 16h.",
       "Runs the totems: spend charge on the prayer-unlock waves first, then the lowest totem.",
       "Use charge from Autistronaut and Autistabish first, they fill up soonest.",
       "Griffy: get Voidinator early, Frozen as the last line, Kraken for small enemies. Pulse: Clash of Cans souls give the most worship EXP."
@@ -7518,7 +7540,7 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 82, charge full in 21d 10h.",
+      "Worship level 82, charge full in 20d 16h.",
       "Runs the totems: spend charge on the prayer-unlock waves first, then the lowest totem."
      ]
     },
@@ -8808,7 +8830,7 @@
      "block": "Research",
      "kind": "playbook",
      "steps": [
-      "Research is level 27, next level in 4h 26m.",
+      "Research is level 28, next level in 3h 39m.",
       "Griffy: Mass Research and Spelunking Research are good investments.",
       "Griffy: Game Design 101 and 102 are important missing upgrades.",
       "Next goal: Cellular Warfare (F3):Multiplies all damage dealt by your cells during operation 0 -> 4",
@@ -8837,7 +8859,7 @@
      "kind": "playbook",
      "steps": [
       "Event Shop: 8 points. Cheapest wanted: Graduate Thesis (15), Smol Pouch (25).",
-      "Vote on the Ballot before it resets (3d 15h).",
+      "Vote on the Ballot before it resets (2d 20h).",
       "Gem Shop: Griffy: Free-to-play players should buy one Insta-Grow Generator if affordable.",
       "Gem Shop: Griffy: Farm bosses for daily boss gems as a free-to-play source of upgrade currency.",
       "Gem Shop: Next goal: Conjuror Pts (Caverns) 0 -> 1",
@@ -8899,7 +8921,7 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 96, charge full in 21d 10h."
+      "Worship level 96, charge full in 20d 16h."
      ]
     },
     {
@@ -9380,7 +9402,7 @@
      "kind": "playbook",
      "steps": [
       "TOP: Spelunking is the biggest thing holding the account back. The next caves unlock: Cards can now be upgraded to 6-Star Majestic quality; Unlocks the Exotic Market tab & Medal seed type in Farming; Teal Summoning is now available, with new upgrades and oppon; +30 Max LV for Cooking Meals.",
-      "Read the rest of today's pages (1 / 5 used).",
+      "Read the rest of today's pages (3 / 5 used).",
       "Griffy: Work on older upgrades while waiting for spelunking stamina and other World Seven time gates.",
       "Griffy: With ample stamina run the first spelunking map deeply using stamina potions and rotate three-character groups for snail mail.",
       "Next goal: Level 34 3.3% -> 100%"
@@ -9438,7 +9460,7 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 87, charge full in 20d 20h."
+      "Worship level 87, charge full in 20d 2h."
      ]
     }
    ],
@@ -10118,7 +10140,7 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 84, charge full in 13d 17h.",
+      "Worship level 84, charge full in 12d 23h.",
       "Charges much faster than the rest, probably from mage worship talents (my read)."
      ]
     }
@@ -11160,7 +11182,7 @@
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
-    "READY (Toolbox): Library 46 books \u00b7 books ready: max-first talents per card"
+    "READY (Toolbox): Library 110 books \u00b7 books ready: max-first talents per card"
    ],
    "active": [
     {
@@ -11230,7 +11252,7 @@
    },
    "today": [
     {
-     "do": "Library: 46 books",
+     "do": "Library: 110 books",
      "done": "claimed / restarted",
      "src": "Toolbox timer \u00b7 books ready: max-first talents per card"
     },
@@ -11257,7 +11279,7 @@
      "block": "Timers ready (Toolbox)",
      "kind": "timer",
      "steps": [
-      "Library: 46 books"
+      "Library: 110 books"
      ]
     },
     {
@@ -11313,9 +11335,10 @@
      "block": "Equinox",
      "kind": "playbook",
      "steps": [
-      "TOP: spend the Equinox bar (it is full). It refills in about 42 minutes, so spend it every time you're on.",
-      "Check in game: Faux Jewels shows locked even though its unlock is done.",
-      "Locked: Food Lust (Have 15 chemical plants just chillin' in your Gaming Ga, 1 / 15); Equinox Symbols (Greenstack 200 different items in your Storage Chest, 171 / 200); Voter Rights (Acquire all 10 Megafeathers from Orion the Great Owl, 21 / 22); Nonstop Studies (Hit a bomb instantly while playing Mr. Minehead's Depth, Requires Research G8).",
+      "TOP: spend the Equinox bar (it is full). It refills in about 45 minutes, so spend it every time you're on.",
+      "Claim 3 finished challenges: +10 Max LV for 'Faux Jewels' Equinox Upgrade; +4 Max LV for 'Equinox Symbols' Equinox Upgrade; 'Food Lust' Equinox Upg now reduces cost by -42% per stack.",
+      "Faster bar: Defeat the Caustic Glaciaxus (0 / 1) gives +25% fill; Get 2000 kills in a single Killroy run (1,296 / 2,000) gives +35% fill; Successfully take a Red Frisbee sample at Woo (0 / 1) gives +40% fill.",
+      "Locked: Food Lust (Have 15 chemical plants just chillin' in your Gaming Ga, 3 / 15); Equinox Symbols (Greenstack 200 different items in your Storage Chest, 172 / 200); Voter Rights (Acquire all 10 Megafeathers from Orion the Great Owl, 21 / 22); Nonstop Studies (Hit a bomb instantly while playing Mr. Minehead's Depth, Requires Research G8).",
       "AutoReview wants: Metal Detector 0 -> 18, Slow Roast Wiz 6 -> 23, Faux Jewels 0 -> 33, Matching Scims 3 -> 55, Laboratory Fuse 0 -> 10.",
       "Griffy: Farm Bloodbones with damage and drop-rate bonuses after pushing there for Equinox.",
       "Griffy: Slow Roast Wiz is important for high tower-defense progression.",
@@ -11329,7 +11352,7 @@
      "block": "Salt Lick",
      "kind": "playbook",
      "steps": [
-      "TOP: buy Salt Lick levels: Refinery Speed +6, Total Damage dealt. +34, Cooking Mastery EXP gain, a feature unlo +5.",
+      "TOP: buy Salt Lick levels: Refinery Speed +4, Total Damage dealt. +30, Cooking Mastery EXP gain, a feature unlo +5.",
       "Still to max: Refinery Speed 71/100, Total Damage dealt. 152/250, Cooking Mastery EXP gain, a feature unlo 30/100.",
       "Griffy: Prioritize Salt Lick upgrades over the library building here.",
       "Griffy: Upgrade red salts first; limit explosive and blue and green salts levels; aim for perpetual motion",
@@ -11372,7 +11395,7 @@
      "block": "Tome (account-wide)",
      "kind": "playbook",
      "steps": [
-      "Tome is at 32,218 points, 5,514 short of the next bracket. Every other card raises it."
+      "Tome is at 32,426 points, 5,367 short of the next bracket. Every other card raises it."
      ]
     },
     {
@@ -11425,7 +11448,7 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 74, charge full in 21d."
+      "Worship level 74, charge full in 20d 6h."
      ]
     },
     {
@@ -11866,8 +11889,7 @@
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
-    "READY (Toolbox): Bravery monument 7.51x / 2.40x \u00b7 Fight \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)",
-    "READY (Toolbox): Wisdom monument 7.44x / 2.40x \u00b7 Fight \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)",
+    "READY (Toolbox): Wisdom monument 10.46x / 9.60x \u00b7 Fight \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)",
     "W7 reef / Bonuses: +3% Spelunking Amber gain per Crystal Shrine level above 200Unlock for 248 Glowing Coral ( (1,875 / 248)"
    ],
    "active": [
@@ -11900,12 +11922,7 @@
    },
    "today": [
     {
-     "do": "Bravery monument: 7.51x / 2.40x \u00b7 Fight",
-     "done": "claimed / restarted",
-     "src": "Toolbox timer \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)"
-    },
-    {
-     "do": "Wisdom monument: 7.44x / 2.40x \u00b7 Fight",
+     "do": "Wisdom monument: 10.46x / 9.60x \u00b7 Fight",
      "done": "claimed / restarted",
      "src": "Toolbox timer \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)"
     },
@@ -11930,8 +11947,7 @@
      "block": "Timers ready (Toolbox)",
      "kind": "timer",
      "steps": [
-      "Bravery monument: 7.51x / 2.40x \u00b7 Fight",
-      "Wisdom monument: 7.44x / 2.40x \u00b7 Fight"
+      "Wisdom monument: 10.46x / 9.60x \u00b7 Fight"
      ]
     },
     {
@@ -11976,7 +11992,7 @@
      "block": "W7 reef",
      "kind": "playbook",
      "steps": [
-      "TOP: spend coral on all 5 Reef upgrades (5,075 of your 5,179). The big one gives a Menagerie shell.",
+      "TOP: spend coral on all 5 Reef upgrades (5,075 of your 5,235). The big one gives a Menagerie shell.",
       "Dancing Coral bonuses start when Woodular Shrine reaches 201 (now 142) and Isaccian Shrine reaches 201 (now 122). Autistastic levels the shrines.",
       "Coral Reef: Pulse: End gamers sweat Divinity week because of talent levels, class EXP and coral income downstream",
       "Coral Reef: Griffy: Low coral generation limits further related progression.",
@@ -12024,7 +12040,7 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 70, charge full in 20d 23h.",
+      "Worship level 70, charge full in 20d 5h.",
       "Lowest worship level on the account, sit at a totem for a few hours to catch up (my read)."
      ]
     },
@@ -12076,13 +12092,6 @@
     ]
    },
    {
-    "name": "Fisheroo Reset (Restart available)",
-    "owner": "anyone",
-    "hits": [
-     "minigame restart"
-    ]
-   },
-   {
     "name": "Equinox bar full (Full)",
     "owner": "anyone",
     "hits": [
@@ -12090,7 +12099,7 @@
     ]
    }
   ],
-  "timers_captured": "2026-11-17T20:00:42.025Z",
+  "timers_captured": "2026-11-20T20:42:39.236Z",
   "salts": [
    "Rank 32 Red Salt: excess",
    "Rank 24 Orange Salt: excess",
@@ -13367,7 +13376,7 @@
      "who": "Autistacular",
      "section": "Compass",
      "base": 3,
-     "do": "Tempest Form farming for stardust and medallions (2,724 compass levels now). Elemental Path for tier 4 needs about 9.5M more stardust, and medallions go 27 -> 39.",
+     "do": "Tempest Form farming for stardust and medallions (2,948 compass levels now). Elemental Path for tier 4 needs about 9.5M more stardust, and medallions go 27 -> 39.",
      "src": "Griffy: farm all medallions",
      "need": 6,
      "score": 63
@@ -13379,7 +13388,7 @@
      "who": "Autistomatic",
      "section": "Spelunking",
      "base": 3,
-     "do": "Delve for amber and depth (173 amber now) and read the rest of today's pages (1 / 5). Every cave gets other systems moving.",
+     "do": "Delve for amber and depth (70 amber now) and read the rest of today's pages (3 / 5). Every cave gets other systems moving.",
      "src": "my read",
      "need": 8,
      "score": 83
@@ -13441,7 +13450,7 @@
      "who": "Autistopher",
      "section": "Equinox",
      "base": 3,
-     "do": "Spend the Equinox bar whenever you pass the PC. It fills in about 42 minutes.",
+     "do": "Spend the Equinox bar whenever you pass the PC. It fills in about 45 minutes.",
      "src": "Toolbox Equinox",
      "need": 0,
      "score": 3

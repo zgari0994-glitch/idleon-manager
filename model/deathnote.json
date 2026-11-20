@@ -1,7 +1,7 @@
 {
  "snapshot": "20261120T2035",
  "cur": {
-  "at": "2026-11-20T02:02:35.324Z",
+  "at": "2026-11-20T20:44:58.400Z",
   "kills": {
    "Green Mushroom": [
     "Blunder Hills",
@@ -29,7 +29,7 @@
    ],
    "Carrotman": [
     "Blunder Hills",
-    1360000000.0
+    1370000000.0
    ],
    "Glublin": [
     "Blunder Hills",
@@ -37,7 +37,7 @@
    ],
    "Wode Board": [
     "Blunder Hills",
-    1250000000.0
+    1380000000.0
    ],
    "Gigafrog": [
     "Blunder Hills",
@@ -117,7 +117,7 @@
    ],
    "Sir Stache": [
     "Frostbite Tundra",
-    2490000000.0
+    4110000000.0000005
    ],
    "Bloque": [
     "Frostbite Tundra",
@@ -129,15 +129,15 @@
    ],
    "Snowman": [
     "Frostbite Tundra",
-    8990000000.0
+    9980000000.0
    ],
    "Penguin": [
     "Frostbite Tundra",
-    10800000000.0
+    13100000000.0
    ],
    "Thermister": [
     "Frostbite Tundra",
-    2009999999.9999998
+    2150000000.0
    ],
    "Quenchie": [
     "Frostbite Tundra",
@@ -145,7 +145,7 @@
    ],
    "Cryosnake": [
     "Frostbite Tundra",
-    15700000000.0
+    19600000000.0
    ],
    "Bop Box": [
     "Frostbite Tundra",
@@ -157,7 +157,7 @@
    ],
    "Dedotated Ram": [
     "Frostbite Tundra",
-    2580000000.0
+    5680000000.0
    ],
    "Bloodbone": [
     "Frostbite Tundra",
@@ -249,7 +249,7 @@
    ],
    "Lampar": [
     "Smolderin' Plateau",
-    339000000.0
+    2310000000.0
    ],
    "Fire Spirit": [
     "Smolderin' Plateau",
@@ -285,7 +285,7 @@
    ],
    "Woodlin Spirit": [
     "Spirited Valley",
-    252000000.0
+    2080000000.0
    ],
    "Bamboo Spirit": [
     "Spirited Valley",
@@ -297,7 +297,7 @@
    ],
    "Mama Troll": [
     "Spirited Valley",
-    397000000.0
+    6000000000.0
    ],
    "Leek Spirit": [
     "Spirited Valley",
@@ -309,7 +309,7 @@
    ],
    "Skydoggie Spirit": [
     "Spirited Valley",
-    3360000000.0
+    3880000000.0
    ],
    "Royal Egg": [
     "Spirited Valley",
@@ -365,7 +365,7 @@
    ],
    "Coralcave Crab": [
     "World 7",
-    9350000000.0
+    9360000000.0
    ],
    "Coralcave Guardian": [
     "World 7",
@@ -376,6 +376,10 @@
     49900000.0
    ],
    "Pirate Underling": [
+    "World 7",
+    6780000.0
+   ],
+   "Pirate Deckhand": [
     "World 7",
     0.0
    ],
@@ -389,14 +393,14 @@
    "Yum Yum Desert": "220%",
    "Frostbite Tundra": "280%",
    "Hyperion Nebula": "200%",
-   "Smolderin' Plateau": "190%",
-   "Spirited Valley": "220%",
-   "World 7": "146%",
+   "Smolderin' Plateau": "200%",
+   "Spirited Valley": "240%",
+   "World 7": "153%",
    "Minibosses": "0%"
   },
   "eclipse": [
-   61,
-   "+305% damage"
+   64,
+   "+320% damage"
   ]
  },
  "prev_at": "2026-11-20T02:02:35.324Z",
@@ -2968,5 +2972,20 @@
   }
  ],
  "ar_tier": "16/23",
- "rate": {}
+ "rate": {
+  "Carrotman": 534576.1158875487,
+  "Wode Board": 6949489.506538132,
+  "Sir Stache": 86601330.77378291,
+  "Snowman": 52923035.47286732,
+  "Penguin": 122952506.6541362,
+  "Thermister": 7484065.622425694,
+  "Cryosnake": 208484685.19614398,
+  "Dedotated Ram": 165718595.92514008,
+  "Lampar": 105364952.44143584,
+  "Woodlin Spirit": 97720513.9842439,
+  "Mama Troll": 299522997.7317935,
+  "Skydoggie Spirit": 27797958.02615253,
+  "Coralcave Crab": 534576.1158875487,
+  "Pirate Underling": 362442.606571758
+ }
 }
