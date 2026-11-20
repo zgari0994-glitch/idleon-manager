@@ -260,3 +260,10 @@ Weeklies (Zack 09:25): ballot (W2 Bonus) + Meritocracy (W7) + other weekly event
 - Rotation-aware: when a boost is known to come back, hold slow tasks for it (e.g. shiny Tottoise greenstack waits for shiny week). Vote steps go on a card.
 Card detail: one step per line; extra info nested under the step as a, b, c (e.g. Alchemy 1 -> a/b/c points per bubble).
 Example layout approved (Goal card -> character cards: Dailies / Housekeeping / Park, short why per step).
+Every-character systems (Zack 10:45, approved): some jobs have one owner but every character takes part. Check daily on EVERY card, even when the owner is someone else:
+- Trapping: every character's traps in the right place for the goal; when trapping has no goal, greenstack what's needed (vials still need work).
+- Worship: every character has a worship skull and is set right.
+- Divinity: every character on the right god + minor link (one-time sweep sets everyone; fix stays on the card until the save shows it done).
+- Lab: every character's jewel/chips/position efficient.
+- Others like these as found. "Nothing needed" still shows.
+All other items 1-10 approved as stated in chat 10:37.
