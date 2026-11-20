@@ -231,3 +231,9 @@ Build all of these as one design change, not as patches. Each line was approved 
   1. No character, account job or task is ever skipped or left unconsidered. It can be deferred only when its gains are smaller than other places right now, and the card says so with the reason.
   2. Raw data is always the reference when pushing anything. If Griffy says "increase cooking speed", the card shows current cooking speed and which upgrades raise it most now (unless the source already names them).
   3. Dailies stay about the same day to day / week to week. Short and long term goals get the best available upgrade wins, or a specific goal Zack states.
+
+## Morning list (Zack 2026-11-20 01:17, nothing changed yet)
+1. Cards rebuild: each card = today's steps in order + the map to park on. Decisions made from real data, the info stays behind them. No info dumps.
+2. Spelunking cages: where every Lil' Fishie cage is, what opens it (power level etc.), what's missing. Show it as a step when the requirement is met ("Power is X, go open the cage at Y").
+3. Death Bringers: Zemo and Topher are both on Dedotated Ram, which is double work. Only Topher counts for kills and any kill multipliers, so he's the one who does it. Re-plan Zemo's park spot.
+4. Autistronaut: plan for him taking over the Arcane Cultist buffs (anything similar), since he'll need to cover them when the switch happens. Find what the AC currently provides and which of it Naut can cover.
