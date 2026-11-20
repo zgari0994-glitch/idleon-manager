@@ -46,7 +46,7 @@ characters:
       - {job: Bug prints, sections: [{s: Sampling, itype: BUG, levers: true}], basis: griffy}
       - {job: "Statue turn-ins (farmed by others)", sections: [{s: Statues, rest: true}], basis: zack}
       - {job: "Luminous Menagerie (own intervention)", sections: [Luminous Menagerie], basis: zack, note: "Zack 2026-11-19: own job. Gates plate cap +10, Breeding Crucible, Shiny OverLVs, Night Marina artifact odds, Cooking T13 Blue Jellyfish"}
-      - {job: "W7 minis", sections: [Sushi Station, Clam Work, Jelly Operator, The Button, Advice Fish, Zenith Market, Legend Talents, Arcade], basis: light, note: "Gate: Research level ~10 (Autistotle). Jelly/Button maps = W7 map push"}
+      - {job: "W7 minis", sections: [Sushi Station, Clam Work, Jelly Operator, The Button, Advice Fish, Zenith Market, Legend Talents, Arcade], basis: zack, minis_note: "Zack 2026-11-19: Minehead + Glimbo here too (W7 mini owner)", note: "Gate: Research level ~10 (Autistotle). Jelly/Button maps = W7 map push"}
   Autistastic:    # Divine Knight #1
     afk: {text: "Cavern 15 Temple (Ancient Golems): Dragon Statue 4 -> 150 + golem card", src: "AutoReview statue table"}
     jobs:
@@ -115,7 +115,6 @@ characters:
       - {job: "Salt Lick", sections: [Salt Lick], basis: light}
       - {job: "Library (account-wide)", sections: [{s: Library, m: "^Account Wide"}], basis: light, note: "MAJOR: raise max talent level 299/441"}
       - {job: Achievements, sections: [Achievements], basis: light}
-      - {job: "Minehead", sections: [], basis: light, note: "No AutoReview section: Lane B gap"}
       - {job: "Clickers: Owl, Bubba, Poppy (all three)", sections: [Owl], basis: zack, note: "AutoReview rates Owl only. Bubba = Toolbox clickers/bubba, Poppy = Toolbox clickers/kangaroo: no AutoReview section (gap pipeline)"}
       - {job: "Maintenance (maxed tiers): Bribes, Rift, Star Signs", sections: [Bribes, Rift, Star Signs], basis: zack, note: "Zack: a Rift bonus may make all star signs active for all players (verify on Toolbox world-4/rift)"}
   Autistachio:    # Beginner
