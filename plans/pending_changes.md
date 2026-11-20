@@ -267,3 +267,11 @@ Every-character systems (Zack 10:45, approved): some jobs have one owner but eve
 - Lab: every character's jewel/chips/position efficient.
 - Others like these as found. "Nothing needed" still shows.
 All other items 1-10 approved as stated in chat 10:37.
+
+## Approved 2026-11-20 11:30 (Zack)
+- Trigger map: every threshold-driven system (Divinity first) is mapped and saved; when a level/threshold is hit, the card tells Zack to move/adjust. A data-driven suggestion stays on the card until Toolbox or AutoReview shows it changed.
+- Lab jewels (and similar limited-availability items): define the END GOAL jewel set for all 11 characters and track it. Jewels rotate weekly (miss it = missed) and can be bought in the gem shop. When an offered jewel fits a character's end-goal set, flag it on that card until it's added.
+- Autistronaut: find every Arcane Cultist-adjacent buff that shifts by roster position (like Super CHOW/WOW tracking the last Death Bringer) and plan for Naut now.
+- Voting: Zack votes on reset days; card gives the vote.
+- Talents: checked per character per day and stored (diffs easy). Any "level this to max" needs creator guidance + reason. Top 5 talents per character + one overall ranking 1-55. Levelled talents drop out; when a level cap rises and a capped talent becomes the best again, it goes back to the top.
+- Park: based on the active goal(s), every character's park spot is chosen to help the goal.
