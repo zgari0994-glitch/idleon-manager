@@ -7,8 +7,10 @@ _R = None
 
 
 def n(s):
-    m = re.match(r'([\d.,]+)\s*([KMBTQ]?)', str(s).strip())
-    return float(m.group(1).replace(',', '')) * {'': 1, 'K': 1e3, 'M': 1e6, 'B': 1e9, 'T': 1e12, 'Q': 1e15}[m.group(2)] if m else None
+    s = str(s).strip()
+    m = re.match(r'([\d.,]+)(e[+-]?\d+)?\s*(QQ|Q|T|B|M|K)?', s)
+    if not m: return None
+    return float(m.group(1).replace(',', '') + (m.group(2) or '')) * {None: 1, 'K': 1e3, 'M': 1e6, 'B': 1e9, 'T': 1e12, 'Q': 1e15, 'QQ': 1e18}[m.group(3)]
 
 
 def tb(name):

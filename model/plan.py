@@ -394,7 +394,7 @@ for l in Y.get('locked', []):
                         if b['kind'] == 'unlock' and l['feature'] in b['block']: b['steps'].append(f"BLOCKED on {o_unlock}'s job")
 # ---------- system planners (model/<system>.py: build() + card_lines(); optional routed()) ----------
 import importlib
-PLANNERS = [('sailing', 'Sailing'), ('farming', 'Farming'), ('cooking', 'Cooking'), ('divinity', 'Divinity'), ('breeding', 'Breeding'), ('printer', 'prints'), ('alchemy', 'Alchemy'), ('stamps', 'Stamps'), ('greenstacks', 'Greenstacks'), ('statues', 'Statue turn-ins'), ('refinery', 'Construction'), ('worship', 'Worship totems'), ('compass', 'Compass'), ('grimoire', 'Grimoire'), ('deathnote', 'CHOW'), ('equinox', 'Equinox'), ('atom', 'Construction'), ('saltlick', 'Salt Lick'), ('armor', 'Godshard'), ('vault', 'Upgrade Vault'), ('tesseract', 'Tesseract'), ('royal_armory', 'Royal Guardian #1')]   # (module, daily block name contains)
+PLANNERS = [('sailing', 'Sailing'), ('farming', 'Farming'), ('cooking', 'Cooking'), ('divinity', 'Divinity'), ('breeding', 'Breeding'), ('printer', 'prints'), ('alchemy', 'Alchemy'), ('stamps', 'Stamps'), ('greenstacks', 'Greenstacks'), ('statues', 'Statue turn-ins'), ('refinery', 'Construction'), ('worship', 'Worship totems'), ('compass', 'Compass'), ('grimoire', 'Grimoire'), ('deathnote', 'CHOW'), ('equinox', 'Equinox'), ('atom', 'Construction'), ('saltlick', 'Salt Lick'), ('armor', 'Godshard'), ('vault', 'Upgrade Vault'), ('tesseract', 'Tesseract'), ('royal_armory', 'Royal Guardian #1'), ('lab', 'Lab'), ('buildings', 'Construction'), ('gaming', 'Gaming'), ('sneaking', 'Sneaking'), ('summoning', 'Summoning'), ('spelunking', 'Spelunking')]   # (module, daily block name contains)
 for _mod, _blk in PLANNERS:
     try:
         _m = importlib.import_module(_mod)
@@ -405,7 +405,7 @@ for _mod, _blk in PLANNERS:
         for cd in cards:
             for b in cd['daily']:
                 if _blk in b['block']:
-                    head = _m.char_lines(_o, cd['name']) + (_sl if _first else []) if hasattr(_m, 'char_lines') else _sl
+                    head = _m.char_lines(_o, cd['name']) + (_sl if _first else []) if hasattr(_m, 'char_lines') else (_sl if _first else [])   # no char_lines: first matching block only
                     _first = False
                     if b.get('kind') == 'playbook': b['steps'] = b['steps'] + head   # second planner on the same block appends
                     else: b['steps'] = head + [x for x in b['steps'] if any(k in x for k in ('Push:', 'HOW:', 'WHY:', 'CREATORS:', 'READY', 'Collect'))]

@@ -1,0 +1,782 @@
+{
+ "unclaimed": [
+  "109M EXP",
+  "5d 4h unclaimed, +0-3 Lv"
+ ],
+ "endless": 91,
+ "essence": {
+  "White": [
+   7.71e+18,
+   "+56.5Q/hr"
+  ],
+  "Green": [
+   2.97e+18,
+   "+20.2Q/hr"
+  ],
+  "Yellow": [
+   4.0199999999999995e+18,
+   "+27.6Q/hr"
+  ],
+  "Blue": [
+   5.73e+18,
+   "+39.1Q/hr"
+  ],
+  "Purple": [
+   4.5e+18,
+   "+31.9Q/hr"
+  ],
+  "Red": [
+   1.88e+18,
+   "+18Q/hr"
+  ],
+  "Cyan": [
+   9.85e+17,
+   "+8.09Q/hr"
+  ]
+ },
+ "upgrades": [
+  {
+   "name": "White Essence Champ",
+   "lv": 425,
+   "max": 9999,
+   "cost": 6.43e+19,
+   "held": 7.71e+18,
+   "colour": "White",
+   "daily": false
+  },
+  {
+   "name": "Unit Health",
+   "lv": 149,
+   "max": 9999,
+   "cost": 7380000000000000.0,
+   "held": 7.71e+18,
+   "colour": "White",
+   "daily": false
+  },
+  {
+   "name": "Familiar",
+   "lv": 0,
+   "max": 25,
+   "cost": 1.0,
+   "held": 7.71e+18,
+   "colour": "White",
+   "daily": true
+  },
+  {
+   "name": "Unit Damage",
+   "lv": 153,
+   "max": 9999,
+   "cost": 1.36e+19,
+   "held": 7.71e+18,
+   "colour": "White",
+   "daily": false
+  },
+  {
+   "name": "Green Summoning",
+   "lv": 200,
+   "max": 9999,
+   "cost": 2.14e+17,
+   "held": 7.71e+18,
+   "colour": "White",
+   "daily": false
+  },
+  {
+   "name": "Mana Generation",
+   "lv": 134,
+   "max": 9999,
+   "cost": 9.07e+16,
+   "held": 7.71e+18,
+   "colour": "White",
+   "daily": false
+  },
+  {
+   "name": "Familiar Merging",
+   "lv": 1,
+   "max": 1,
+   "cost": null,
+   "held": null,
+   "colour": "White",
+   "daily": false
+  },
+  {
+   "name": "Dodge Roll",
+   "lv": 30,
+   "max": 30,
+   "cost": null,
+   "held": null,
+   "colour": "White",
+   "daily": false
+  },
+  {
+   "name": "Multi-Number Cards",
+   "lv": 1,
+   "max": 1,
+   "cost": null,
+   "held": null,
+   "colour": "White",
+   "daily": false
+  },
+  {
+   "name": "White Knowledge",
+   "lv": 277,
+   "max": 9999,
+   "cost": 7.59e+17,
+   "held": 7.71e+18,
+   "colour": "White",
+   "daily": false
+  },
+  {
+   "name": "Vrumbi",
+   "lv": 10,
+   "max": 10,
+   "cost": null,
+   "held": null,
+   "colour": "White",
+   "daily": false
+  },
+  {
+   "name": "Unit Wellness",
+   "lv": 145,
+   "max": 9999,
+   "cost": 6460000000000000.0,
+   "held": 2.97e+18,
+   "colour": "Green",
+   "daily": false
+  },
+  {
+   "name": "Green Essence Victor",
+   "lv": 395,
+   "max": 9999,
+   "cost": 1.08e+19,
+   "held": 2.97e+18,
+   "colour": "Green",
+   "daily": false
+  },
+  {
+   "name": "Powerful Units",
+   "lv": 160,
+   "max": 9999,
+   "cost": 3.89e+20,
+   "held": 2.97e+18,
+   "colour": "Green",
+   "daily": false
+  },
+  {
+   "name": "Yellow Summoning",
+   "lv": 192,
+   "max": 9999,
+   "cost": 1.86e+17,
+   "held": 2.97e+18,
+   "colour": "Green",
+   "daily": false
+  },
+  {
+   "name": "Mana Overflow",
+   "lv": 1,
+   "max": 1,
+   "cost": null,
+   "held": null,
+   "colour": "Green",
+   "daily": false
+  },
+  {
+   "name": "Spiked Placement",
+   "lv": 123,
+   "max": 9999,
+   "cost": 1.83e+18,
+   "held": 2.97e+18,
+   "colour": "Green",
+   "daily": false
+  },
+  {
+   "name": "Starting Mana frfr",
+   "lv": 78,
+   "max": 9999,
+   "cost": 4.87e+16,
+   "held": 2.97e+18,
+   "colour": "Green",
+   "daily": false
+  },
+  {
+   "name": "Green Knowledge",
+   "lv": 264,
+   "max": 9999,
+   "cost": 9.86e+16,
+   "held": 2.97e+18,
+   "colour": "Green",
+   "daily": false
+  },
+  {
+   "name": "Bloomy",
+   "lv": 10,
+   "max": 10,
+   "cost": null,
+   "held": null,
+   "colour": "Green",
+   "daily": false
+  },
+  {
+   "name": "Yellow Essence Winnin'",
+   "lv": 406,
+   "max": 9999,
+   "cost": 3.74e+19,
+   "held": 4.0199999999999995e+18,
+   "colour": "Yellow",
+   "daily": false
+  },
+  {
+   "name": "Luck of the Draw",
+   "lv": 10,
+   "max": 10,
+   "cost": null,
+   "held": null,
+   "colour": "Yellow",
+   "daily": false
+  },
+  {
+   "name": "Unit Constitution",
+   "lv": 144,
+   "max": 9999,
+   "cost": 4.97e+16,
+   "held": 4.0199999999999995e+18,
+   "colour": "Yellow",
+   "daily": false
+  },
+  {
+   "name": "Stronger Units",
+   "lv": 153,
+   "max": 9999,
+   "cost": 3.57e+20,
+   "held": 4.0199999999999995e+18,
+   "colour": "Yellow",
+   "daily": false
+  },
+  {
+   "name": "Slime Cellsplit",
+   "lv": 30,
+   "max": 30,
+   "cost": null,
+   "held": null,
+   "colour": "Yellow",
+   "daily": false
+  },
+  {
+   "name": "Blue Summoning",
+   "lv": 201,
+   "max": 9999,
+   "cost": 3.2e+18,
+   "held": 4.0199999999999995e+18,
+   "colour": "Yellow",
+   "daily": false
+  },
+  {
+   "name": "Re-Draw",
+   "lv": 3,
+   "max": 3,
+   "cost": null,
+   "held": null,
+   "colour": "Yellow",
+   "daily": false
+  },
+  {
+   "name": "Another Slot",
+   "lv": 1,
+   "max": 1,
+   "cost": null,
+   "held": null,
+   "colour": "Yellow",
+   "daily": false
+  },
+  {
+   "name": "Yellow Knowledge",
+   "lv": 283,
+   "max": 9999,
+   "cost": 3.51e+17,
+   "held": 4.0199999999999995e+18,
+   "colour": "Yellow",
+   "daily": false
+  },
+  {
+   "name": "Sharpened Spikes",
+   "lv": 20,
+   "max": 20,
+   "cost": null,
+   "held": null,
+   "colour": "Yellow",
+   "daily": false
+  },
+  {
+   "name": "Tonka",
+   "lv": 20,
+   "max": 20,
+   "cost": null,
+   "held": null,
+   "colour": "Yellow",
+   "daily": false
+  },
+  {
+   "name": "Blue Essence Ballin'",
+   "lv": 375,
+   "max": 9999,
+   "cost": 1.56e+18,
+   "held": 5.73e+18,
+   "colour": "Blue",
+   "daily": false
+  },
+  {
+   "name": "Slime Mitosis",
+   "lv": 30,
+   "max": 30,
+   "cost": null,
+   "held": null,
+   "colour": "Blue",
+   "daily": false
+  },
+  {
+   "name": "Manaranarr",
+   "lv": 96,
+   "max": 9999,
+   "cost": 2.81e+17,
+   "held": 5.73e+18,
+   "colour": "Blue",
+   "daily": false
+  },
+  {
+   "name": "Blue Knowledge",
+   "lv": 310,
+   "max": 9999,
+   "cost": 3.82e+19,
+   "held": 5.73e+18,
+   "colour": "Blue",
+   "daily": false
+  },
+  {
+   "name": "Beefier Units",
+   "lv": 151,
+   "max": 9999,
+   "cost": 5.59e+20,
+   "held": 5.73e+18,
+   "colour": "Blue",
+   "daily": false
+  },
+  {
+   "name": "Jeweled Cards",
+   "lv": 3,
+   "max": 3,
+   "cost": null,
+   "held": null,
+   "colour": "Blue",
+   "daily": false
+  },
+  {
+   "name": "Purple Summoning",
+   "lv": 166,
+   "max": 9999,
+   "cost": 2.71e+16,
+   "held": 5.73e+18,
+   "colour": "Blue",
+   "daily": false
+  },
+  {
+   "name": "Another Slot",
+   "lv": 1,
+   "max": 1,
+   "cost": null,
+   "held": null,
+   "colour": "Blue",
+   "daily": false
+  },
+  {
+   "name": "Unit Ache Pea",
+   "lv": 133,
+   "max": 9999,
+   "cost": 5.55e+16,
+   "held": 5.73e+18,
+   "colour": "Blue",
+   "daily": false
+  },
+  {
+   "name": "Regalis",
+   "lv": 30,
+   "max": 30,
+   "cost": null,
+   "held": null,
+   "colour": "Blue",
+   "daily": false
+  },
+  {
+   "name": "Unit Hitpoints",
+   "lv": 163,
+   "max": 9999,
+   "cost": 4870000000000000.0,
+   "held": 4.5e+18,
+   "colour": "Purple",
+   "daily": false
+  },
+  {
+   "name": "Purp Essence Pumpin'",
+   "lv": 391,
+   "max": 9999,
+   "cost": 3.41e+19,
+   "held": 4.5e+18,
+   "colour": "Purple",
+   "daily": false
+  },
+  {
+   "name": "Familiar Skipping",
+   "lv": 100,
+   "max": 100,
+   "cost": null,
+   "held": null,
+   "colour": "Purple",
+   "daily": false
+  },
+  {
+   "name": "Purple Knowledge",
+   "lv": 273,
+   "max": 9999,
+   "cost": 2.9e+17,
+   "held": 4.5e+18,
+   "colour": "Purple",
+   "daily": false
+  },
+  {
+   "name": "Final Card",
+   "lv": 3,
+   "max": 3,
+   "cost": null,
+   "held": null,
+   "colour": "Purple",
+   "daily": false
+  },
+  {
+   "name": "Mana Dividends",
+   "lv": 87,
+   "max": 9999,
+   "cost": 7.31e+16,
+   "held": 4.5e+18,
+   "colour": "Purple",
+   "daily": false
+  },
+  {
+   "name": "Brutal Units",
+   "lv": 194,
+   "max": 9999,
+   "cost": 4.42e+20,
+   "held": 4.5e+18,
+   "colour": "Purple",
+   "daily": false
+  },
+  {
+   "name": "Red Summoning",
+   "lv": 160,
+   "max": 9999,
+   "cost": 3.63e+16,
+   "held": 4.5e+18,
+   "colour": "Purple",
+   "daily": false
+  },
+  {
+   "name": "Sparkie",
+   "lv": 30,
+   "max": 30,
+   "cost": null,
+   "held": null,
+   "colour": "Purple",
+   "daily": false
+  },
+  {
+   "name": "Red Essence Ragin'",
+   "lv": 306,
+   "max": 9999,
+   "cost": 5.83e+18,
+   "held": 1.88e+18,
+   "colour": "Red",
+   "daily": false
+  },
+  {
+   "name": "Seeing Red",
+   "lv": 10,
+   "max": 10,
+   "cost": null,
+   "held": null,
+   "colour": "Red",
+   "daily": false
+  },
+  {
+   "name": "Slime Duplication",
+   "lv": 40,
+   "max": 40,
+   "cost": null,
+   "held": null,
+   "colour": "Red",
+   "daily": false
+  },
+  {
+   "name": "Cost Crashing",
+   "lv": 163,
+   "max": 9999,
+   "cost": 1.95e+17,
+   "held": 1.88e+18,
+   "colour": "Red",
+   "daily": false
+  },
+  {
+   "name": "Unit Blood",
+   "lv": 97,
+   "max": 9999,
+   "cost": 9290000000000000.0,
+   "held": 1.88e+18,
+   "colour": "Red",
+   "daily": false
+  },
+  {
+   "name": "Merciless Units",
+   "lv": 123,
+   "max": 9999,
+   "cost": 2.64e+20,
+   "held": 1.88e+18,
+   "colour": "Red",
+   "daily": false
+  },
+  {
+   "name": "Red Knowledge",
+   "lv": 87,
+   "max": 9999,
+   "cost": 1.55e+18,
+   "held": 1.88e+18,
+   "colour": "Red",
+   "daily": false
+  },
+  {
+   "name": "Cyan Summoning",
+   "lv": 147,
+   "max": 9999,
+   "cost": 3.45e+16,
+   "held": 1.88e+18,
+   "colour": "Red",
+   "daily": false
+  },
+  {
+   "name": "Cyan Essence King",
+   "lv": 282,
+   "max": 9999,
+   "cost": 1.53e+17,
+   "held": 9.85e+17,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "I Frames",
+   "lv": 30,
+   "max": 30,
+   "cost": null,
+   "held": null,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Units of Destruction",
+   "lv": 115,
+   "max": 9999,
+   "cost": 1.14e+19,
+   "held": 9.85e+17,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Cost Deflation",
+   "lv": 183,
+   "max": 9999,
+   "cost": 1.32e+16,
+   "held": 9.85e+17,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Cyan Knowledge",
+   "lv": 81,
+   "max": 9999,
+   "cost": 1.02e+17,
+   "held": 9.85e+17,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Undying Units",
+   "lv": 89,
+   "max": 9999,
+   "cost": 1490000000000000.0,
+   "held": 9.85e+17,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "DMG Laundering",
+   "lv": 72,
+   "max": 9999,
+   "cost": 2.5e+20,
+   "held": 9.85e+17,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "HP Laundering",
+   "lv": 54,
+   "max": 9999,
+   "cost": 1.3e+16,
+   "held": 9.85e+17,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Infinite Essence",
+   "lv": 110,
+   "max": 9999,
+   "cost": 1.69e+17,
+   "held": 9.85e+17,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Infinite Health",
+   "lv": 89,
+   "max": 9999,
+   "cost": 6560000000000000.0,
+   "held": 9.85e+17,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Infinite Damage",
+   "lv": 108,
+   "max": 9999,
+   "cost": 6.09e+19,
+   "held": 9.85e+17,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Guardio",
+   "lv": 30,
+   "max": 30,
+   "cost": null,
+   "held": null,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Endless Summoning",
+   "lv": 1,
+   "max": 1,
+   "cost": null,
+   "held": null,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Muddah",
+   "lv": 0,
+   "max": 1,
+   "cost": 778.0,
+   "held": 0.0,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Sell Sell Sell",
+   "lv": 0,
+   "max": 9999,
+   "cost": 3890.0,
+   "held": 0.0,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Teal Tirade",
+   "lv": 0,
+   "max": 9999,
+   "cost": 7780.0,
+   "held": 0.0,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Unit Obliteration",
+   "lv": 0,
+   "max": 9999,
+   "cost": 38900.0,
+   "held": 0.0,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Cost Laundering",
+   "lv": 0,
+   "max": 9999,
+   "cost": 77800.0,
+   "held": 0.0,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Hundredaire",
+   "lv": 0,
+   "max": 9999,
+   "cost": 311000.0,
+   "held": 0.0,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Serrated Spikes",
+   "lv": 0,
+   "max": 9999,
+   "cost": 700000.0,
+   "held": 0.0,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Allstar",
+   "lv": 0,
+   "max": 50,
+   "cost": 1560000.0,
+   "held": 0.0,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Whims of the Tide",
+   "lv": 0,
+   "max": 250,
+   "cost": 4280000.0,
+   "held": 0.0,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Teal Knowledge",
+   "lv": 0,
+   "max": 9999,
+   "cost": 7780000.0,
+   "held": 0.0,
+   "colour": "Cyan",
+   "daily": false
+  },
+  {
+   "name": "Glombolic Units",
+   "lv": 0,
+   "max": 9999,
+   "cost": 15600000.0,
+   "held": 0.0,
+   "colour": "Cyan",
+   "daily": false
+  }
+ ],
+ "teal": [
+  "0",
+  "18"
+ ],
+ "snapshot": "20261119T0212"
+}

@@ -1,0 +1,368 @@
+{
+ "speed": [
+  "131B/hr",
+  "1.96T/hr"
+ ],
+ "buildings": [
+  {
+   "name": "Talent Book Library",
+   "lv": 132,
+   "max": 201,
+   "slot": null,
+   "ready": false,
+   "left": "4h 38m",
+   "have": 12100000.0,
+   "need": 247.0
+  },
+  {
+   "name": "Trapper Drone",
+   "lv": 27,
+   "max": 50,
+   "slot": null,
+   "ready": false,
+   "left": "2d 2h",
+   "have": 2890000.0,
+   "need": 260.0
+  },
+  {
+   "name": "Atom Collider",
+   "lv": 23,
+   "max": 200,
+   "slot": "building",
+   "ready": true,
+   "left": "Ready",
+   "have": 113000.0,
+   "need": 74.0
+  },
+  {
+   "name": "Pulse Mage",
+   "lv": 83,
+   "max": 110,
+   "slot": "building",
+   "ready": true,
+   "left": "Ready",
+   "have": 12100000.0,
+   "need": 52.0
+  },
+  {
+   "name": "Fireball Lobber",
+   "lv": 79,
+   "max": 110,
+   "slot": "building",
+   "ready": true,
+   "left": "Ready",
+   "have": 12100000.0,
+   "need": 99.0
+  },
+  {
+   "name": "Boulder Roller",
+   "lv": 36,
+   "max": 110,
+   "slot": null,
+   "ready": false,
+   "left": "<1s",
+   "have": 34.0,
+   "need": 45.0
+  },
+  {
+   "name": "Frozone Malone",
+   "lv": 77,
+   "max": 110,
+   "slot": null,
+   "ready": false,
+   "left": "52m 9s",
+   "have": 34.0,
+   "need": 169.0
+  },
+  {
+   "name": "Stormcaller",
+   "lv": 90,
+   "max": 110,
+   "slot": "trimmed",
+   "ready": true,
+   "left": "Ready",
+   "have": 2890000.0,
+   "need": 141.0
+  },
+  {
+   "name": "Party Starter",
+   "lv": 88,
+   "max": 110,
+   "slot": "trimmed",
+   "ready": true,
+   "left": "Ready",
+   "have": 2890000.0,
+   "need": 248.0
+  },
+  {
+   "name": "Kraken Cosplayer",
+   "lv": 82,
+   "max": 110,
+   "slot": "trimmed",
+   "ready": true,
+   "left": "Ready",
+   "have": 1160000.0,
+   "need": 180.0
+  },
+  {
+   "name": "Poisonic Elder",
+   "lv": 74,
+   "max": 110,
+   "slot": "trimmed",
+   "ready": true,
+   "left": "Ready",
+   "have": 276000.0,
+   "need": 232.0
+  },
+  {
+   "name": "Voidinator",
+   "lv": 45,
+   "max": 110,
+   "slot": "trimmed",
+   "ready": true,
+   "left": "Ready",
+   "have": 113000.0,
+   "need": 285.0
+  },
+  {
+   "name": "Woodular Shrine",
+   "lv": 142,
+   "max": 300,
+   "slot": null,
+   "ready": false,
+   "left": "6m 33s",
+   "have": 12100000.0,
+   "need": 88.0
+  },
+  {
+   "name": "Isaccian Shrine",
+   "lv": 122,
+   "max": 300,
+   "slot": null,
+   "ready": false,
+   "left": "2m 56s",
+   "have": 12100000.0,
+   "need": 190.0
+  },
+  {
+   "name": "Crystal Shrine",
+   "lv": 100,
+   "max": 200,
+   "slot": null,
+   "ready": false,
+   "left": "6s",
+   "have": 34.0,
+   "need": 125.0
+  },
+  {
+   "name": "Pantheon Shrine",
+   "lv": 100,
+   "max": 200,
+   "slot": null,
+   "ready": false,
+   "left": "11s",
+   "have": 34.0,
+   "need": 219.0
+  },
+  {
+   "name": "Clover Shrine",
+   "lv": 100,
+   "max": 200,
+   "slot": null,
+   "ready": false,
+   "left": "38s",
+   "have": 2890000.0,
+   "need": 156.0
+  },
+  {
+   "name": "Summereading Shrine",
+   "lv": 100,
+   "max": 200,
+   "slot": null,
+   "ready": false,
+   "left": "2m 11s",
+   "have": 2890000.0,
+   "need": 313.0
+  },
+  {
+   "name": "Crescent Shrine",
+   "lv": 102,
+   "max": 200,
+   "slot": null,
+   "ready": false,
+   "left": "26m 46s",
+   "have": 1160000.0,
+   "need": 383.0
+  },
+  {
+   "name": "Undead Shrine",
+   "lv": 72,
+   "max": 200,
+   "slot": null,
+   "ready": false,
+   "left": "3m 5s",
+   "have": 276000.0,
+   "need": 316.0
+  },
+  {
+   "name": "Primordial Shrine",
+   "lv": 70,
+   "max": 200,
+   "slot": null,
+   "ready": false,
+   "left": "11m 31s",
+   "have": 113000.0,
+   "need": 220.0
+  }
+ ],
+ "ar": [
+  {
+   "group": "S Tier",
+   "tab": "default",
+   "label": "Kraken Cosplayer",
+   "cur": "82",
+   "goal": "90"
+  },
+  {
+   "group": "S Tier",
+   "tab": "default",
+   "label": "Poisonic Elder",
+   "cur": "74",
+   "goal": "90"
+  },
+  {
+   "group": "A Tier",
+   "tab": "default",
+   "label": "Clover Shrine",
+   "cur": "100",
+   "goal": "200"
+  },
+  {
+   "group": "A Tier",
+   "tab": "default",
+   "label": "Crescent Shrine",
+   "cur": "102",
+   "goal": "200"
+  },
+  {
+   "group": "A Tier",
+   "tab": "default",
+   "label": "Undead Shrine",
+   "cur": "72",
+   "goal": "200"
+  },
+  {
+   "group": "A Tier",
+   "tab": "default",
+   "label": "Boulder Roller",
+   "cur": "36",
+   "goal": "70"
+  },
+  {
+   "group": "A Tier",
+   "tab": "default",
+   "label": "Stormcaller",
+   "cur": "90",
+   "goal": "240"
+  },
+  {
+   "group": "B Tier",
+   "tab": "default",
+   "label": "Woodular Shrine",
+   "cur": "142",
+   "goal": "200"
+  },
+  {
+   "group": "B Tier",
+   "tab": "default",
+   "label": "Isaccian Shrine",
+   "cur": "122",
+   "goal": "200"
+  },
+  {
+   "group": "B Tier",
+   "tab": "default",
+   "label": "Crystal Shrine",
+   "cur": "100",
+   "goal": "200"
+  },
+  {
+   "group": "B Tier",
+   "tab": "default",
+   "label": "Pantheon Shrine",
+   "cur": "100",
+   "goal": "200"
+  },
+  {
+   "group": "B Tier",
+   "tab": "default",
+   "label": "Summereading Shrine",
+   "cur": "100",
+   "goal": "200"
+  },
+  {
+   "group": "C Tier",
+   "tab": "default",
+   "label": "Voidinator",
+   "cur": "45",
+   "goal": "240"
+  },
+  {
+   "group": "C Tier",
+   "tab": "default",
+   "label": "Atom Collider",
+   "cur": "23",
+   "goal": "200"
+  },
+  {
+   "group": "C Tier",
+   "tab": "default",
+   "label": "Talent Book Library",
+   "cur": "132",
+   "goal": "201"
+  },
+  {
+   "group": "C Tier",
+   "tab": "default",
+   "label": "Trapper Drone",
+   "cur": "27",
+   "goal": "50"
+  },
+  {
+   "group": "C Tier",
+   "tab": "default",
+   "label": "Fireball Lobber",
+   "cur": "79",
+   "goal": "240"
+  },
+  {
+   "group": "C Tier",
+   "tab": "default",
+   "label": "Pulse Mage",
+   "cur": "83",
+   "goal": "240"
+  },
+  {
+   "group": "C Tier",
+   "tab": "default",
+   "label": "Party Starter",
+   "cur": "88",
+   "goal": "240"
+  },
+  {
+   "group": "C Tier",
+   "tab": "default",
+   "label": "Frozone Malone",
+   "cur": "77",
+   "goal": "240"
+  },
+  {
+   "group": "C Tier",
+   "tab": "default",
+   "label": "Primordial Shrine",
+   "cur": "70",
+   "goal": "200"
+  }
+ ],
+ "snapshot": "20261119T0212"
+}

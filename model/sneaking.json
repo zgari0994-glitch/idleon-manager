@@ -1,0 +1,799 @@
+{
+ "jade": 1.31e+31,
+ "rolls": [
+  "0",
+  "120"
+ ],
+ "hats": [
+  "12",
+  "15"
+ ],
+ "floors": [
+  [
+   "Autiszemo",
+   "280",
+   "9"
+  ],
+  [
+   "Autistocat",
+   "285",
+   "9"
+  ],
+  [
+   "Autisticles",
+   "281",
+   "9"
+  ],
+  [
+   "Autistastic",
+   "280",
+   "9"
+  ],
+  [
+   "Autistabish",
+   "280",
+   "9"
+  ],
+  [
+   "Autistacular",
+   "287",
+   "9"
+  ],
+  [
+   "Autistotle",
+   "287",
+   "9"
+  ],
+  [
+   "Autistomatic",
+   "296",
+   "9"
+  ],
+  [
+   "Autistronaut",
+   "287",
+   "9"
+  ],
+  [
+   "Autistopher",
+   "285",
+   "9"
+  ],
+  [
+   "Autistachio",
+   "235",
+   "1"
+  ]
+ ],
+ "upgrades": [
+  {
+   "name": "Respectful Minded",
+   "lv": 590,
+   "cost": 1.23e+31
+  },
+  {
+   "name": "Way of Haste",
+   "lv": 225,
+   "cost": 1.35e+32
+  },
+  {
+   "name": "Mahjong Boosters",
+   "lv": 290,
+   "cost": 2.96e+30
+  },
+  {
+   "name": "Kunai Knowledge",
+   "lv": 150,
+   "cost": 2.13e+26
+  },
+  {
+   "name": "Glove Ingenuity",
+   "lv": 135,
+   "cost": 6.6e+30
+  },
+  {
+   "name": "Nunchaku Grip",
+   "lv": 200,
+   "cost": 5.44e+31
+  },
+  {
+   "name": "Way of Stealth",
+   "lv": 917,
+   "cost": 2.97e+30
+  },
+  {
+   "name": "Thick Skin",
+   "lv": 174,
+   "cost": 2.12e+32
+  },
+  {
+   "name": "Star Sweeping",
+   "lv": 20,
+   "cost": 3.03e+30
+  },
+  {
+   "name": "Cheaper Stealth",
+   "lv": 0,
+   "cost": 1.34e+18
+  },
+  {
+   "name": "Charming Symbols",
+   "lv": 0,
+   "cost": 1.33e+24
+  },
+  {
+   "name": "Double Gemstones",
+   "lv": 0,
+   "cost": 1.33e+30
+  },
+  {
+   "name": "Cheaper Mastery",
+   "lv": 0,
+   "cost": 1.33e+34
+  },
+  {
+   "name": "Cheaper Haste",
+   "lv": 0,
+   "cost": 1.33e+36
+  },
+  {
+   "name": "Cheaper Bargain",
+   "lv": 0,
+   "cost": 1.33e+38
+  },
+  {
+   "name": "True Battering",
+   "lv": 0,
+   "cost": 1.33e+40
+  },
+  {
+   "name": "Jadevalanche",
+   "lv": 0,
+   "cost": 1.33e+42
+  },
+  {
+   "name": "Successful Symbols",
+   "lv": 0,
+   "cost": 1.33e+50
+  },
+  {
+   "name": "Grievance Garlands",
+   "lv": 0,
+   "cost": 1.33e+56
+  },
+  {
+   "name": "Omnijade Usable",
+   "lv": 0,
+   "cost": 1.33e+73
+  }
+ ],
+ "ar": [
+  {
+   "group": "Percentage of Gemstone values",
+   "tab": "default",
+   "label": "Wind Walker Tab 5: Generational Gemstones: 2.6527xHighest currently specced talent level shown to the right",
+   "cur": "368",
+   "goal": "372"
+  },
+  {
+   "group": "Percentage of Gemstone values",
+   "tab": "default",
+   "label": "Aquamarine: Stealth for all NinjasLevel 71: +702.93/10040% Total: +1864.66%",
+   "cur": "7%",
+   "goal": "100%"
+  },
+  {
+   "group": "Percentage of Gemstone values",
+   "tab": "default",
+   "label": "Malachite: Jade GainLevel 470: +1613.64/5015% Total: +4280.49%",
+   "cur": "32.18%",
+   "goal": "100%"
+  },
+  {
+   "group": "Percentage of Gemstone values",
+   "tab": "default",
+   "label": "Garnet: Damage to DoorsLevel 217: +457.77/2512% Total: +1214.32%",
+   "cur": "18.22%",
+   "goal": "100%"
+  },
+  {
+   "group": "Percentage of Gemstone values",
+   "tab": "default",
+   "label": "Starite: Gold Charm BonusLevel 768: +91.88/205% Total: +243.72%",
+   "cur": "44.82%",
+   "goal": "100%"
+  },
+  {
+   "group": "Percentage of Gemstone values",
+   "tab": "default",
+   "label": "Topaz: Sneak EXP GainLevel 0: +0/1010%",
+   "cur": "0%",
+   "goal": "100%"
+  },
+  {
+   "group": "Percentage of Gemstone values",
+   "tab": "default",
+   "label": "Moissanite: Bonuses from GemstonesLevel 0: +0/303%",
+   "cur": "0%",
+   "goal": "100%"
+  },
+  {
+   "group": "Percentage of Gemstone values",
+   "tab": "default",
+   "label": "Emerald: Cheaper UpgradesLevel 529: +865.94/2501% Total: +2297.09% = 0.0417x cost multiplier",
+   "cur": "34.62%",
+   "goal": "100%"
+  },
+  {
+   "group": "Percentage of Gemstone values",
+   "tab": "default",
+   "label": "Firefrost: Higher Charm LVsLevel 242: +6.85/31 Total: +18.16",
+   "cur": "22.08%",
+   "goal": "100%"
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Quick Ref Access:Adds the Sneaking skill to your QuickRef menu! Manage your Ninja Twins from anywhere!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "MSA Expander I:Adds a new bonus type to the Miniature Soul Apparatus in World 3, specifically Farming EXP!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Level Exemption:Completely and utterly removes the UNDER-LEVELED bonus reduction of all stamps in your collection, now and forever. Amen.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "The Artifact Matrix:Extends the Laboratory Event Horizon, adding another bonus to connect to! In particular, a boost to Artifact Find Chance!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Crop Depot Scientist:Employs a friendly scientist blobulyte to keep a Data Sheet of all the crops you've ever found!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Reinforced Science Pencil:Adds a new bonus type to your crop scientist's Data Sheet! Specifically '+20% Total Damage' per Crop!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Essence Confetti:Adds a new bonus of +3% All Essence Gain per 10 items found after 1000 items, as shown at The Slab in World 5.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Gold Food Beanstalk:Grows a giant beanstalk behind the ninja castle! Drop a stack of 10,000 Gold Food to add it with the beanstalk and permanently gain its bonus!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Jade Coin Magnetism:Adds a new bonus of +5% Jade Coin Gain per 10 items found after 1000 items, as shown at The Slab in World 5.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Science Pen:Adds a new bonus type to your crop scientist's Data Sheet! Specifically '1.02x Plant Evolution Chance in Gaming (multiplicative)' per Crop!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Shrine Collective Bargaining Agreement:Shrines no longer lose EXP when moved around, so you can finally bring those baddies out of retirement!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Science Marker:Adds a new bonus type to your crop scientist's Data Sheet! Specifically '+8% Jade Coin Gain' per Crop!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "MSA Expander II:Adds a new bonus type to the Miniature Soul Apparatus in World 3, specifically Jade Coin Gain!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "No Meal Left Behind:Every 24 hours, your lowest level Meal gets +1 Lv. This only works on Meals Lv 2 or higher, and doesn't trigger on days you don't play.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Science Featherpen:Adds a new bonus type to your crop scientist's Data Sheet! Specifically '1.10x Cooking Speed (multiplicative)' per Crop!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Revenge of the Pickle:Adds a new boss page to the left of World 1 in Deathnote. Each BoneJoePickle in your inventory counts as +1 Boss Deathnote Kill!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "The Slab Matrix:Further extends the Laboratory Event Horizon, adding another bonus to connect to! In particular, a boost to all bonuses from the Slab!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Science Environmentally Sourced Pencil:Adds a new bonus type to your crop scientist's Data Sheet! Specifically '+15% Cash from Mobs' per crop found!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "MSA Expander III:Adds a new bonus type to the Miniature Soul Apparatus in World 3, specifically All Essence Gain!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Papa Blob's Quality Guarantee:Increases the Max Level of all cooking meals by +10. Better meals, better levels, Papa Blob's.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Science Crayon:Adds a new bonus type to your crop scientist's Data Sheet! Specifically '+7% Shiny Mob Lv Up Rate and Mob Breeding Rate' per Crop!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Supersized Gold Beanstacking:You can now drop a stack of 100,000 Gold Food to supersize it! This will obviously give a bigger bonus, and will even enlargen the food on the stalk!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Charmed, I'm Sure:All your Ninja Twins can now equip two of the same charm at once!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Deal Sweetening:Earn +25% more Magic Beans from the mysterious Legumulyte bean merchant found in the Troll Broodnest map.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "The Spirit Matrix:Even further extends the Laboratory Event Horizon, adding another bonus to connect to! In particular, a boost to W6 Skill exp gain!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "The Crop Matrix:Yet again even further extends the Laboratory Event Horizon, adding another bonus to connect to! In particular, a boost to Crop Depot!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Gaming to the MAX:All plant types in Gaming have +1 Max Evolution, but this one is 50,000x rarer than normal and will make you wonder if evolution is even real (it is)",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Chef Geustloaf's Cutting Edge Philosophy:Increases the Max Level of all cooking meals by +10 again! But oh hoho, you sir are no Chef Geustloaf! Good luck cooking to these LVs!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Sovereign Artifacts:You can now find Sovereign Artifacts from sailing, but only if you've found the Eldritch form first.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "New Critter:Unlocks a new critter type to capture! These have their own very special vial in Alchemy.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Brighter Lighthouse Bulb:You can now find 3 additional Artifacts from The Edge island.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Laboratory Bling:Adds 3 new Jewels to unlock at the Jewel Spinner in W4 Town. Or, get one for free every 700 total Lab LV as shown in Rift Skill Mastery.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Science Paintbrush:Adds a new bonus type to your crop scientist's Data Sheet! Specifically '+0.1 Base Critter caught in Trapping' per Crop!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Ionized Sigils:Sigils can now be upgraded a 3rd time. Push past lame ol' yellow, and further increasing those sigil boosts!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "The Endercaptain:Adds the Endercaptain to Recruitment pool. They're very rare, and have a hidden account-wide +25% Loot Multi and Artifact Find.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Mob Cosplay Craze:Certain monsters in World 6 will now have a rare chance to drop Ninja Hats, but only the ones you've found already from the Ninja Castle!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "New Bribes:Mr. Pigibank is up to no good once again, and he's looking to get some funding from his favorite patron... you. Well, your wallet specifically.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "True Godly Blessings:All Divinity Gods give 1.05x higher Blessing bonus per God Rank. Whats a Blessing bonus? Select a god, it's the one on the bottom, go look.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Science Highlighter:Adds a new bonus type to your crop scientist! Specifically '+1% Drop Rate' per Crop after 100! So having 105 crops would only give +5%",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Emperor Season Pass:There is now a 50% chance to get +2 visits to the Emperor every day, and your maximum visits goes up from 6 to 11",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Science Fancy Pen:Adds the 'Spelunky' bonus to your scientist, which boosts both POW and Amber gain by 5% per Crop after 200! So having 210 crops only gives +50%",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Palette Slot:Unlocks +1 Palette Slot in Gaming! This would be kinda pointless on it's own... so it comes with +100% Palette Luck!",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Another Gallery Podium:Pardon my interruption sir, but I must urge you to buy this upgrade... another podium slot for your Gallery would be most becoming indeed!",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Coral Conservationism:Boosts daily coral gain at the Coral Reef in World 7 in Shimmerfin Deep Town in the game IdleOn on the Left side of the map by +20%",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Science Chalk:Adds a new bonus type to your crop scientist! Specifically '+1% Research EXP' per 10 Crops after 200! So 240 crops would only give +4%",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Depth Charge Disposal:All Minehead opponents in Mr. Minehead's Depth Charge game have 1 less Depth Charge to deploy! Less mines means less booms!",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Optimal Optometry:Your Optical Monocles give 1.35x more Insight EXP/hr, and your Kaleidoscopes have a 1.06x larger boost to adjacent magnifiers!",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Purchase all upgrades from the Jade Emporium",
+   "tab": "default",
+   "label": "Menagerie Maxxing:You get +1 extra mission in the Luminous Menagerie, as well as a small but noble 1.10x hourly Lumi gains multiplier!",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Pristine Charm Odds: 0.1188%",
+   "label": "Each regular Charm found today lowers this, from 0.15% down to 0% at 120 found (you're at 25/120, resets daily)",
+   "cur": "11",
+   "goal": "23"
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Pristine Charm Odds: 0.1188%",
+   "label": "Nomadic-30: Pristine Collector: x1 higher chance to find Pristine Charms in Sneaking(+2% per level)",
+   "cur": "0",
+   "goal": "999999",
+   "res": "compass-dust-3"
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Sparkle Log:1.2x Total DMG",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Fruit Rolle:+20% AGI",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Glowing Veil:1.4x Artifact Find Chance",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Cotton Candy:1.15x Drop Rate",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Sugar Bomb:+20% STR",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Gumm Eye:+20% LUK",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Bubblegum Law:1.25x Kill per Kill",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Sour Wowzer:+50% Sneaking EXP gain",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Crystal Comb:1.3x Bigger Summoning Winner Bonuses",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Rock Candy:+50% Farming EXP gain",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Lollipop Law:+20% WIS",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Taffy Disc:1.5x Higher Overgrowth Chance",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Stick of Chew:1.3x All Essence Generation",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Treat Sack:1.4x Jade Coin gain",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Gumm Stick:+50% Golden Food bonus",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Lolly Flower:+25% Printer Output",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Gumball Necklace:1.4x Money from Monsters",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Liqorice Rolle:1.25x Bigger Bonuses of Non Misc Stamps",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Glimmerchain:1.3x Extra Deathbringer Bones",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Twinkle Taffy:1.3x Extra Windwalker Dust",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Jellypick:+20% Stamp Doubler Bonus",
+   "cur": "0",
+   "goal": "1"
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Candy Cache:1.4x Villager EXP",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
+  },
+  {
+   "group": "Pristine Charm Odds and Collection",
+   "tab": "Collect all Pristine Charms",
+   "label": "Mystery Fizz:1.3x Extra Arcane Cultist Tachyons",
+   "cur": "0",
+   "goal": "1"
+  }
+ ],
+ "snapshot": "20261119T0212"
+}
