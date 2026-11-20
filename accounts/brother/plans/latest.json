@@ -2,10 +2,12 @@
  "meta": {
   "game_save_utc": "2026-11-20T17:59:59.567000+00:00",
   "game_save_et": "2026-11-20 12:59 PM ET",
-  "review_run_et": "2026-11-20 01:27 PM ET",
+  "review_run_et": "2026-11-20 01:35 PM ET",
   "autoreview_last_update": "Nov 20, 2026, 5:59:59 PM UTC",
   "switches": {
    "doot": "on",
+   "riftslug": "on",
+   "sheepie": "on",
    "tabbed_advice_groups": "on"
   },
   "chars": [
@@ -49,9 +51,9 @@
          "locked": "",
          "section": "Sneaking",
          "group": "Percentage of Gemstone values",
-         "label": "Wind Walker Tab 5: Generational Gemstones: 1.8824xHighest currently specced talent level shown to the right",
-         "cur": "125",
-         "goal": "180",
+         "label": "Wind Walker Tab 5: Generational Gemstones: 2xHighest currently specced talent level shown to the right",
+         "cur": "150",
+         "goal": "205",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -134,9 +136,9 @@
        "locked": "",
        "section": "Sneaking",
        "group": "Percentage of Gemstone values",
-       "label": "Wind Walker Tab 5: Generational Gemstones: 1.8824xHighest currently specced talent level shown to the right",
-       "cur": "125",
-       "goal": "180",
+       "label": "Wind Walker Tab 5: Generational Gemstones: 2xHighest currently specced talent level shown to the right",
+       "cur": "150",
+       "goal": "205",
        "score": 0,
        "ready": false,
        "infinite": false
@@ -832,7 +834,7 @@
      "Compass 100/155"
     ],
     "Combat Medium": [
-     "Nacho Party 100/144",
+     "Nacho Party 100/145",
      "Looty Mc Shooty 100/155",
      "Strafe 100/155",
      "Veins of the Infernal 100/155"
@@ -882,7 +884,7 @@
      "steps": [
       "Griffy: Sneaking contains many valuable account-progression bonuses.",
       "Griffy: Removing stamp penalties improves printer samples.",
-      "Next goal: Wind Walker Tab 5 125 -> 180",
+      "Next goal: Wind Walker Tab 5 150 -> 205",
       "WHY: Generational Gemstones adds two sneaking gemstones and multiplies gemstone bonuses.",
       "Next goal: MSA Expander II:Adds a new bonus type to the Miniature Soul Apparatus in World 3 0 -> 1",
       "Next goal: Each regular Charm found today lowers this, from 0.1% down to 0% at 120 found ( 0 -> 23"
@@ -1003,8 +1005,8 @@
     "Account wide sources of Drop Rate (+300.6%) \u00b7 Pristine Charms - Cotton Candy:1.15x Drop Rate 0 -> 1",
     "Sources of Stamp Cost Reduction \u00b7 Jade Emporium - Ionized Sigils:Sigils can now be upgraded a 3rd time. Push past lame ol' y 0 -> 1",
     "Statue Effect multis and Statue bonuses \u00b7 Level 31 Gold Egg Statue: +20.7% Breeding Exp 31 -> \u221e",
-    "Sources of Printer Output. Grand Total: 8.5 \u00b7 Compass: Nomadic-3: Moon of Print: 1.12x (12/100 days) 12 -> 100",
-    "Sources of Printer Output. Grand Total: 8.5 \u00b7 Pristine Charms - Lolly Flower:+25% Printer Output 0 -> 1",
+    "Sources of Printer Output. Grand Total: 8.7 \u00b7 Compass: Nomadic-3: Moon of Print: 1.12x (12/100 days) 12 -> 100",
+    "Sources of Printer Output. Grand Total: 8.7 \u00b7 Pristine Charms - Lolly Flower:+25% Printer Output 0 -> 1",
     "Sources of bonus talent levels beyond book le \u00b7 Rift: Sneaking Mastery: +0/5 (Mastery III) 0 -> 3",
     "Sources of Shiny Pet Level Rate \u00b7 Lamp Wish: World 4 Stuff: +0.0% 0.0 -> \u221e",
     "Sources of Shiny Pet Level Rate \u00b7 Farming Crop Depot - Crayon:+0/2379.3% MobsUnlock via Jade Emporium 18 -> 330",
@@ -1012,7 +1014,7 @@
     "Sources of Shiny Pet Level Rate \u00b7 Breeding Upgrade - Grand Martial of Shinytown: +0% 0 -> 300",
     "Sources of Shiny Pet Level Rate \u00b7 Shiny OverLV (Shiny LVs above 20): 1.0xNeeds Menagerie Unlock 12 0 -> 680",
     "Sources of Pet Damage \u00b7 Breeding Upgrade - Blooming Axe: +12% 2 -> 10",
-    "Sources of Pet Damage \u00b7 Beast Master Talent passive- Arena Spirit: +16.7% 125 -> 180",
+    "Sources of Pet Damage \u00b7 Beast Master Talent passive- Arena Spirit: +18% 150 -> 205",
     "Sources of Pet Damage \u00b7 Arcade Bonus 30: +0/80.4% Breeding Mob DMG 0 -> 101",
     "Sources of Pet Damage \u00b7 Upgrade Vault - Pet Punchies: +604% Mob Damage for all Mobs, so you can win Mob battles 222 -> 250",
     "Remaining sources of max plate levels \u00b7 Purchase \"Papa Blob's Quality Guarantee\" from Jade Emporium 0 -> 1",
@@ -3815,7 +3817,7 @@
          "section": "Farming",
          "group": "tabbed",
          "label": "Gold Blueberry chance789 for 100% chance",
-         "cur": "47.2%",
+         "cur": "53.1%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -3901,7 +3903,7 @@
          "locked": "",
          "section": "Beanstalk",
          "group": "Golden Food Bonus",
-         "label": "Golden Peanut:Increases Mining Efficiency by 0/63%.",
+         "label": "Golden Peanut:Increases Mining Efficiency by 0/63.9%.",
          "cur": "0",
          "goal": "3",
          "score": 0,
@@ -3912,7 +3914,7 @@
          "locked": "",
          "section": "Beanstalk",
          "group": "Golden Food Bonus",
-         "label": "Butter Bar:Increases your Base Accuracy by 0/126.11. And tastes great! This is technically golden food!",
+         "label": "Butter Bar:Increases your Base Accuracy by 0/127.69. And tastes great! This is technically golden food!",
          "cur": "0",
          "goal": "3",
          "score": 0,
@@ -4264,7 +4266,7 @@
          "locked": "",
          "section": "The Grimoire",
          "group": "Grimoire Currencies",
-         "label": "100/155 booked Grimoire:Max Preset Level 125 on IdleOnLechIV including bonus talent levels",
+         "label": "100/155 booked Grimoire:Max Preset Level 150 on IdleOnLechIV including bonus talent levels",
          "cur": "100",
          "goal": "155",
          "score": 0,
@@ -4971,12 +4973,12 @@
       "Farming: Griffy: Before Overgrowth, focus on crop discoveries and possibly additional plots.",
       "Farming: Griffy: Develop farming and summoning before heavily pushing World 7 because World 6 skills accelerate account progress.",
       "Farming: Next goal: Unlock 1 more crop type 18 -> 19",
-      "Farming: Next goal: Gold Blueberry chance789 for 100% chance 47.2% -> 100%",
+      "Farming: Next goal: Gold Blueberry chance789 for 100% chance 53.1% -> 100%",
       "Farming: Next goal: More Beenz:+0/1000% magic beans gained when trading in crops 0 -> 500",
       "Beanstalk: Griffy: Concentrate golden food on one character, usually the active farmer, and deposit it for everyone once the threshold is reached.",
       "Beanstalk: Griffy: Focus on Golden Ham and Golden Cheese and Golden Grilled Cheese and Golden Hamsters and Golden Dumplings.",
       "Beanstalk: Next goal: Golden Peanut: Smithing 0.06K -> 10K",
-      "Beanstalk: Next goal: Golden Peanut:Increases Mining Efficiency by 0/63%. 0 -> 3"
+      "Beanstalk: Next goal: Golden Peanut:Increases Mining Efficiency by 0/63.9%. 0 -> 3"
      ]
     },
     {
@@ -5089,7 +5091,7 @@
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+300.6%) \u00b7 Land Ranks - Seed of Loot:Increases the Drop Rate of all characters by +0/70.8% 0 -> 4",
+    "Account wide sources of Drop Rate (+300.6%) \u00b7 Land Ranks - Seed of Loot:Increases the Drop Rate of all characters by +0/74.3% 0 -> 4",
     "Account wide sources of Drop Rate (+300.6%) \u00b7 Exotic Market - POMMELION SEED:+0/25% Drop Rate 0 -> \u221e",
     "Account wide sources of Drop Rate (+300.6%) \u00b7 Emperor Showdown:+0% Drop Rate 0 -> \u221e",
     "Statue Effect multis and Statue bonuses \u00b7 Level 22 Gold Mutton Statue: +11% Cooking Exp 22 -> \u221e",
@@ -5104,8 +5106,8 @@
     "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechVIII: \u26a0\ufe0fEquip the Prayer for +15%0/400 PO Boxes invested 69.3% -> 90%",
     "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechIX: \u26a0\ufe0fEquip the Prayer for +15%0/400 PO Boxes invested 63.2% -> 90%",
     "Sources of Printer Sample Rate (90% Hardcap) \u00b7 IdleOnLechX: \u26a0\ufe0fEquip the Prayer for +15%0/400 PO Boxes invested 63.2% -> 90%",
-    "Sources of Printer Output. Grand Total: 8.5 \u00b7 Companions - Biggole Mole:3d Printer samples grow +1%/day for 100 days 0 -> 1",
-    "Sources of Printer Output. Grand Total: 8.5 \u00b7 Rift: Skill Mastery: base 7%Additional 1% per Skill at 750: 3/18% 10% -> 25%",
+    "Sources of Printer Output. Grand Total: 8.7 \u00b7 Companions - Biggole Mole:3d Printer samples grow +1%/day for 100 days 0 -> 1",
+    "Sources of Printer Output. Grand Total: 8.7 \u00b7 Rift: Skill Mastery: base 7%Additional 1% per Skill at 750: 3/18% 10% -> 25%",
     "Sources of bonus talent levels beyond book le \u00b7 Grimoire: Skull of Major Talent: +0/30 0 -> 30",
     "Sources of Checkout Speed \u00b7 Meal - Fortune Cookie: +0% Library Checkout Spd 0 -> 180",
     "Sources of Pet Damage \u00b7 Meal - Croissant: +10% 10 -> 180",
@@ -7224,13 +7226,13 @@
     ],
     "Combat High": [
      "Pirate Flag 100/155",
-     "Suppressing Fire 100/140",
-     "Firebomb 100/125",
-     "Homing Arrows 100/155"
+     "Suppressing Fire 100/148",
+     "Firebomb 100/150",
+     "Homing Arrows 100/145"
     ],
     "Combat Medium": [
      "Woah, That Was Fast 100/155",
-     "Magic Shortbow 100/155",
+     "Magic Shortbow 100/150",
      "Archlord Of The Pirates 100/155",
      "Speedna 100/155"
     ],
@@ -7472,7 +7474,6 @@
     "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Stamps - Stample Stamp: +4.4% Sample Size 36 -> 60",
     "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Pristine Charms - Liqorice Rolle:1.25x Bigger Bonuses of Non Misc Stamps 0 -> 1",
     "Sources of Max Book Levels (155/441) \u00b7 W3 Achievement: Checkout Takeout: +0/5 0 -> 1",
-    "Sources of bonus talent levels beyond book le \u00b7 Companion: Rift Slug: +0/25 0 -> 1",
     "Sources of bonus talent levels beyond book le \u00b7 Equinox: Equinox Symbols: +0/9 0 -> 9",
     "Sources of bonus talent levels beyond book le \u00b7 W5 Achievement: Maroon Warship: +0/1 0 -> 1",
     "Sources of Checkout Speed \u00b7 Oxygen - Library Booker: 0/60% 0 -> 20",
@@ -8186,7 +8187,7 @@
          "locked": "",
          "section": "Endangered Greenstacks",
          "group": "Still obtainable",
-         "label": "Cloudsound Follower- Mutton: 7 Figure Followers",
+         "label": "Instablab Follower- Mutton: 7 Figure Followers",
          "cur": "0%",
          "goal": "100%",
          "score": 126,
@@ -8197,7 +8198,7 @@
          "locked": "",
          "section": "Endangered Greenstacks",
          "group": "Still obtainable",
-         "label": "Mustard Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce",
+         "label": "Employment Statistics- TP Pete: The Rats are to Blame!",
          "cur": "0%",
          "goal": "100%",
          "score": 126,
@@ -8639,7 +8640,7 @@
    "talents": {
     "Skilling High": [
      "Right Hand of Action 125/155",
-     "Printer Go Brrr 113/141",
+     "Printer Go Brrr 113/116",
      "One Step Ahead 123/155",
      "Blood Marrow 100/155"
     ],
@@ -8754,7 +8755,7 @@
       "Greenstacks: Next goal: Collect 75 Greenstacks 30 -> 75",
       "Greenstacks: Next goal: Cue Tape (W1 Town) 0% -> 100%",
       "Greenstacks: Next goal: Tropilogs 5% -> 100%",
-      "Endangered Greenstacks: Next goal: Cloudsound Follower- Mutton: 7 Figure Followers 0% -> 100%"
+      "Endangered Greenstacks: Next goal: Instablab Follower- Mutton: 7 Figure Followers 0% -> 100%"
      ]
     },
     {
@@ -8844,7 +8845,7 @@
     "Sources of Bonus Ballot Multi \u00b7 Event Shop - Royal Vote Button: Get +30% higher Ballot Bonus Multi instead of +17% 0 -> 1",
     "Sources of Bonus Ballot Multi \u00b7 Companions - Mashed Potato:+5% Ballot Bonus Multi (World 2 feature) 0 -> 1",
     "Sources of Bonus Ballot Multi \u00b7 Companions - Crystal Cuttlefish:+40% Ballot Bonus Multi (World 2 feature) 0 -> 1",
-    "Sources of Printer Output. Grand Total: 8.5 \u00b7 Event Shop: Supreme Wiring:1.00x (0/50 days) 0 -> 50",
+    "Sources of Printer Output. Grand Total: 8.7 \u00b7 Event Shop: Supreme Wiring:1.00x (0/50 days) 0 -> 50",
     "Sources of Atom Collider Cost Reduction \u00b7 W5 Taskboard Merit: 0/28%The in-game display is incorrect. Don't @ me. 0 -> 4",
     "Sources of Sailing Speed \u00b7 Gem Shop - Davey Jones Training (W5) 0 -> 8",
     "Sources of Bonuses Multi \u00b7 W6 Larger Winner bonuses merit: +0/10% 0 -> 10"
@@ -10490,13 +10491,13 @@
        "more": 6
       },
       {
-       "name": "Sampling: Sources of Printer Output. Grand Total: 8.528 - 51.165x",
+       "name": "Sampling: Sources of Printer Output. Grand Total: 8.676 - 52.055x",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Sampling",
-         "group": "Sources of Printer Output. Grand Total: 8.5 - 51.165x",
+         "group": "Sources of Printer Output. Grand Total: 8.7 - 52.055x",
          "label": "Sailing: Level 2 Gold Relic:1.07x (3/60 days)",
          "cur": "3",
          "goal": "60",
@@ -10507,7 +10508,7 @@
         {
          "locked": "",
          "section": "Sampling",
-         "group": "Sources of Printer Output. Grand Total: 8.5 - 51.165x",
+         "group": "Sources of Printer Output. Grand Total: 8.7 - 52.055x",
          "label": "Event Shop: Supreme Wiring:1.00x (0/50 days)",
          "cur": "0",
          "goal": "50",
@@ -10932,13 +10933,13 @@
     ],
     "Combat High": [
      "Pirate Flag 100/155",
-     "Suppressing Fire 133/140",
-     "Firebomb 100/125",
-     "Homing Arrows 100/155"
+     "Suppressing Fire 133/148",
+     "Firebomb 100/150",
+     "Homing Arrows 100/145"
     ],
     "Combat Medium": [
      "Woah, That Was Fast 100/155",
-     "Magic Shortbow 100/155",
+     "Magic Shortbow 100/150",
      "Archlord Of The Pirates 100/155",
      "Speedna 100/155"
     ],
@@ -11107,8 +11108,8 @@
     "Sources of Sigil Charging Speed. Grand total: \u00b7 Arcade Bonus 43: +0/404% Sigil Speed 0 -> 101",
     "Sources of Bonus Ballot Multi \u00b7 Legend Talent - Democracy FTW: The Bonus Ballot gives a +0% higher bonus for the winning b 0 -> 1",
     "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Arcade Bonus 5: +0/8% Sample Size 0 -> 101",
-    "Sources of Printer Output. Grand Total: 8.5 \u00b7 Sailing: Level 2 Gold Relic:1.07x (3/60 days) 3 -> 60",
-    "Sources of Printer Output. Grand Total: 8.5 \u00b7 Legend Talent: Yet Another Printer Multi (Lv 0/2):1.00x (0/20 days) 0 -> 20",
+    "Sources of Printer Output. Grand Total: 8.7 \u00b7 Sailing: Level 2 Gold Relic:1.07x (3/60 days) 3 -> 60",
+    "Sources of Printer Output. Grand Total: 8.7 \u00b7 Legend Talent: Yet Another Printer Multi (Lv 0/2):1.00x (0/20 days) 0 -> 20",
     "Sources of Max Book Levels (155/441) \u00b7 Artifact - Fury Relic+25 Max Talent Book LV at the library.Undiscovered Bonus: 0 -> 7",
     "Remaining sources of max plate levels \u00b7 Artifact: Ancient Causticolumn 0 -> 1",
     "Remaining sources of max plate levels \u00b7 Artifact: Eldritch Causticolumn 0 -> 1",
@@ -11398,7 +11399,7 @@
     "Account wide sources of Drop Rate (+300.6%) \u00b7 Plutus the Prosperous: Not built (1/50)1.00x Drop Rate 0 -> 1",
     "Account wide sources of Drop Rate (+300.6%) \u00b7 Companions - Spirit Reindeer:2.00x Gold Ball Shop Bonuses 0 -> 1",
     "Account wide sources of Drop Rate (+300.6%) \u00b7 Obols - Family Obols: +67/228% Drop RateNote: Includes Rare and Hyper Obols, each rerolled 67 -> 228",
-    "Account wide sources of Drop Rate (+300.6%) \u00b7 Tome- Red Pages:+0% Drop Rate15,442 Total Tome PointsIncreases every 100 points over 8000 0 -> 1",
+    "Account wide sources of Drop Rate (+300.6%) \u00b7 Tome- Red Pages:+0% Drop Rate15,444 Total Tome PointsIncreases every 100 points over 8000 0 -> 1",
     "Account wide sources of Drop Rate (+300.6%) \u00b7 Armor Set - Secret Set: 1.00x Gold Food effectNote: Increases Golden Food bonus. See chara 0 -> 1",
     "Account wide sources of Drop Rate (+300.6%) \u00b7 Companions - Crystal Custard:+100% Drop Rate and Class Exp 0 -> 1",
     "Account wide sources of Drop Rate (+300.6%) \u00b7 Companions - Quenchie:+15% Drop Rate 0 -> 1",
@@ -11408,7 +11409,7 @@
     "Account wide sources of Drop Rate (+300.6%) \u00b7 Companions - Glunko The Massive:3x Total Damage, 5x Class EXP gain, 1.5x Drop Rate 0 -> 1",
     "Account wide sources of Drop Rate (+300.6%) \u00b7 Companions - Crystal Glunko:1.50x Damage, 1.40x Class EXP, 1.30x Drop Rate, and 1.20x extr 0 -> 1",
     "Account wide sources of Drop Rate (+300.6%) \u00b7 Companions - Mallay:1.30x Drop Rate 0 -> 1",
-    "Account wide sources of Drop Rate (+300.6%) \u00b7 Siege Breaker Talent - Archlord of the Pirates: 1.1/1.18537x Drop Rate MULTILevel 127/ 0.00M -> 1.00M",
+    "Account wide sources of Drop Rate (+300.6%) \u00b7 Siege Breaker Talent - Archlord of the Pirates: 1.1/1.18537x Drop Rate MULTILevel 152/ 0.00M -> 1.00M",
     "Account wide sources of Drop Rate (+300.6%) \u00b7 Obstruction 15 - Gold Bangle:1.05x Drop Rate 0 -> 1",
     "Sources of Carry Capacity \u00b7 Guild Bonus - Rucksack:+17.8% Total Carry Cap 17 -> 50",
     "Sources of bonus talent levels beyond book le \u00b7 ES Family Bonus: +11.Next increase at Class Level: 515 -> 594"
@@ -11481,7 +11482,7 @@
      "missing": 17
     },
     {
-     "stat": "Sources of Printer Output. Grand Total: 8.5 - 51.165x",
+     "stat": "Sources of Printer Output. Grand Total: 8.7 - 52.055x",
      "section": "Sampling",
      "owned": 7,
      "missing": 7
@@ -11495,8 +11496,8 @@
     {
      "stat": "Sources of bonus talent levels beyond book levels",
      "section": "Library",
-     "owned": 31,
-     "missing": 8
+     "owned": 32,
+     "missing": 7
     },
     {
      "stat": "Sources of Checkout Speed",
