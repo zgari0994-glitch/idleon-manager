@@ -4,6 +4,10 @@ try:
     _RESP = {m.group(1).replace('_', ' '): float(m.group(2)) for m in re.finditer(r'Name:"([^"]+)",AFKtype:"\w+".*?RespawnTime:([\d.E]+)', _MDS)}
 except Exception:
     _RESP = {}
+try:
+    from consts.consts_w3 import getEnemyNameFromMap as _MAPNOTE
+except Exception:
+    _MAPNOTE = lambda m: ''
 """Card engine v2 (Phase 1, 2026-11-17). One card per character, fixed layout:
 move -> quick wins -> active -> AFK -> every sub-system (current -> goal) -> locked -> library talents -> bags.
 Plus an account block: alerts, money, salts, ranked active list, unassigned jobs.
@@ -292,7 +296,9 @@ for name, cfg in Y['characters'].items():
             if rule in g.get('name', '') + path and is_open(a):
                 mm = re.search(r'\(([\d.,]+[KMB]?) remaining\)', a['label'])
                 mob = a['label'].split(' in ')[0]; rs = _RESP.get(mob)
-                if mm and rs is not None and rs <= 120:   # Zack 2026-11-20: skip once-a-day / boss spawns (Boops)
+                note = _MAPNOTE(a['label'].split(' in ', 1)[-1].split(' (')[0])
+                special = str(note).startswith('Special') and 'AFK only' not in str(note)   # e.g. hidden mushroom in King Doot's map
+                if mm and rs is not None and rs <= 120 and not special:   # Zack 2026-11-20: skip once-a-day / boss / special spawns
                     cand.append((num(mm.group(1)) * (1 if True else 0), -(num(a.get('cur')) or 0) * 0, rs, a['label'].split(' (')[0], g.get('name', ''), -(num(a.get('cur')) or 0)))
         cand = [c for c in cand if (world_of(c[3].split(' in ', 1)[-1]) or 0) <= 6]   # his rule: W1-W6
         if cand:

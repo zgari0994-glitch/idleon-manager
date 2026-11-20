@@ -21,7 +21,6 @@ One line per spot that keeps producing jargon/padding (count = lines this build,
 - Sources of Checkout Speed (4x): Sources of Checkout Speed · Meal - Fortune Cookie: +1,047% Library Checkout Spd 90 -> 180
 - Sources of Bonus Ballot Multi (4x): Sources of Bonus Ballot Multi · Endless Summoning Bonus:+21% Ballot Bonus 91 -> 94
 - Sources of Forge Ore Capacity (4x): Sources of Forge Ore Capacity · Arcade Bonus 26: +0/201% Forge Capacity 0 -> 101
-- Active: Bosses n Nightmares- (4x): Active: Bosses n Nightmares- Chaotic Troll card:+60/70% All Skill Efficiency (6 -> 7)
 - Next goal: Current Skull (3x): Next goal: Current Skull Ratio 26.3% -> 66.7%
 - Jelly Operator: Next goal: (3x): Jelly Operator: Next goal: Amoeba:Unlock the Amoeba Cell! Drag it from the Petri Dish onto any Jelly Slot,  0 -> 1
 - Atom Collider: Next goal: (3x): Atom Collider: Next goal: Helium - Talent Power Stacker 8 -> 9
@@ -30,6 +29,7 @@ One line per spot that keeps producing jargon/padding (count = lines this build,
 - Sources of Max Atom Levels (3x): Sources of Max Atom Levels · Purchasing the final SuperBit in Gaming will increase the max level of all Atoms by 10 0 -> 1
 - Gem Shop: Next goal: (3x): Gem Shop: Next goal: Conjuror Pts (Caverns) 0 -> 1
 - Cape Vine: Next goal: (3x): Cape Vine: Next goal: Easter Egg Backpack+10% Total DamageNot deposited 0 -> 1
+- Active: Bosses n Nightmares- (3x): Active: Bosses n Nightmares- Amarok card:+15/17.5% Skill AFK gain rate (6 -> 7)
 - Beanstalk: Next goal: Golden (2x): Beanstalk: Next goal: Golden Peanut: Smithing 10K -> Deposit
 - AutoReview: You could complete (2x): AutoReview: You could complete 14 more ZOWs with Autiszemo (94/108). Next: Noble Clam in The Clamworks (100K remaining), Spearfish in Pinpoint Summit (100K rema
 - AutoReview: All kills for (2x): AutoReview: All kills for Autiszemo without a filter. Have fun. Next: Rift Monsters in The Rift, Poops in The Office, Boops in Meel's Crypt, Nutto in The Roots,
@@ -39,7 +39,7 @@ One line per spot that keeps producing jargon/padding (count = lines this build,
 - Sources of bonus Vial Effect (2x): Sources of bonus Vial Effect · Total Vial Effect bonus: 4.60x 4.60x -> 5.96x
 - Sources of Max Book Levels (299/441) (2x): Sources of Max Book Levels (299/441) · Summoning Bonus:+29 Library Max 29 -> 96
 - Sushi Station: Next goal: (2x): Sushi Station: Next goal: Sushi Slot:Adds a new slot for your Sushi Station! 7 -> 50
-- Greenstacks: Next goal: Potent (2x): Greenstacks: Next goal: Potent Strength Potion (W4 Town) 47% -> 100%
+- Greenstacks: Next goal: Potent (2x): Greenstacks: Next goal: Potent Speed Potion (W4 Town) 48% -> 100%
 - Next goal: Red Mushroom (2x): Next goal: Red Mushroom in Birch Enclave (100M remaining) 0% -> 100%
 - Coral Reef: Next goal: (2x): Coral Reef: Next goal: Unlock Carnation Coral: Instantly gives Shells for the Luminous Menagerie! 0 -> 13
 - Drop Rate: Smolderin' Plateau- (2x): Drop Rate: Smolderin' Plateau- Ancient Golem card:+8/28% Total Drop Rate (Passive) (2 -> 7)
@@ -82,6 +82,7 @@ One line per spot that keeps producing jargon/padding (count = lines this build,
 - Kruk be Bubblin': Kattlekruk (1x): Kruk be Bubblin': Kattlekruk gives +0 more Bubble LVs per day for each of his bu 0 -> 5 (toward Autisticles W7 minis)
 - Autistocat- Kill 1M Choccies (1x): Autistocat- Kill 1M Choccies for W2 Weekly Boss (123.29K -> 1000K)
 - Autistocat- Kill 1M Stiltmoles (1x): Autistocat- Kill 1M Stiltmoles for W2 Weekly Boss (75.00K -> 1000K)
+- SWAP print Bleach Logs (1x): SWAP print Bleach Logs -> Jungle Logs (sample 1.7B; Lil' Mining Baggy Stamp next max raise needs 884M (have 58.5M)). Changing a print does not take a sample, so
 - Boat 9 (Captain P): (1x): Boat 9 (Captain P): World's End -> Dungeon Cove (0.2% -> 0.2% a chest)
 - Boat 10 (Captain J): (1x): Boat 10 (Captain J): Crystal Enclave -> Dungeon Cove (0.2% -> 0.3% a chest)
 - Boat 11 (Captain K): (1x): Boat 11 (Captain K): The Edge -> Candied Island (0.4% -> 0.7% a chest)
@@ -98,7 +99,7 @@ One line per spot that keeps producing jargon/padding (count = lines this build,
 - Statue goals: Candy or (1x): Statue goals: Candy or Active ES at Penguins (25 -> 40); Candy or Active ES at Cryosnakes (25 -> 40); Crystals with DK at Minichiefs (2 -> 40).
 - Next goal: Onyx base (1x): Next goal: Onyx base bonus 3 -> 7
 - Next goal: Shells needed (1x): Next goal: Shells needed for Menagerie Rank 4 1 -> 3
-- Next goal: Mission 1 (1x): Next goal: Mission 1 9067 -> 10000
+- Next goal: Mission 1 (1x): Next goal: Mission 1 9069 -> 10000
 - Next goal: Unlock 4 (1x): Next goal: Unlock 4 0 -> 1
 - Sushi Station: Griffy: After (1x): Sushi Station: Griffy: After the cascade leaves one tier 28, merge tier-27 sushi to restart paired upgrades.
 - Clam Work: Next goal: (1x): Clam Work: Next goal: +1 Legend Talent PTS 0 -> 1
@@ -112,7 +113,7 @@ One line per spot that keeps producing jargon/padding (count = lines this build,
 - Refinery: Next goal: Red (1x): Refinery: Next goal: Red Salt 32 -> 8332
 - Refinery: Next goal: Green (1x): Refinery: Next goal: Green Salt 19 -> 8332
 - AutoReview's top atom is (1x): AutoReview's top atom is Helium: 479M particles, about 123d 6h away at your rate (3.16M a day).
-- AutoReview top buildings: Kraken (1x): AutoReview top buildings: Kraken Cosplayer 83 -> 90, Poisonic Elder 76 -> 90.
+- AutoReview top buildings: Kraken (1x): AutoReview top buildings: Kraken Cosplayer 83 -> 90, Poisonic Elder 77 -> 90.
 - Snail is level 13 (1x): Snail is level 13 of 25. AutoReview's mail plan is on this card.
 - Next goal: Royal Talent (1x): Next goal: Royal Talent Points I 45 -> 200
 - Next goal: Plutus the (1x): Next goal: Plutus the Prosperous 0 -> 1
@@ -124,6 +125,7 @@ One line per spot that keeps producing jargon/padding (count = lines this build,
 - Next goal: Complete the (1x): Next goal: Complete the Godshard Set 0 -> 1
 - Next goal: Destroyer of (1x): Next goal: Destroyer of the Mollo Gomme 0 -> 1
 - Next goal: Emperor Kabuto (1x): Next goal: Emperor Kabuto 0 -> 1
+- SWAP print Godshard Ore (1x): SWAP print Godshard Ore -> Void Ore (sample 70.4M; runs out in 6.9 days). Changing a print does not take a sample, so Gold Relic keeps its days.
 - sources/findings/hole_caverns_1-5.md (1x): sources/findings/hole_caverns_1-5.md
 - Move Well buckets onto (1x): Move Well buckets onto the rock layer: Cobaltine 125K left gates #27, #30, #53 [Griffy gPQrOK53BDI + findings/hole_caverns_1-5.md]
 - Totem waves are Autistacular's. (1x): Totem waves are Autistacular's. Prayers moved to every_character 2026-11-19
@@ -134,17 +136,16 @@ One line per spot that keeps producing jargon/padding (count = lines this build,
 - Autistabish- Kill 1M Crabcakes (1x): Autistabish- Kill 1M Crabcakes for W2 Weekly Boss (316.05K -> 1000K)
 - Autistabish- Kill 1M Dedotated (1x): Autistabish- Kill 1M Dedotated Rams for W2 Weekly Boss (0.00K -> 1000K)
 - Autistabish- Kill 1M Choccies (1x): Autistabish- Kill 1M Choccies for W2 Weekly Boss (120.47K -> 1000K)
-- SWAP print Effervescent Logs (1x): SWAP print Effervescent Logs -> Bleach Logs (sample 1.4B; runs out in 0.4 days). Changing a print does not take a sample, so Gold Relic keeps its days.
 - Next goal: Wind Walker (1x): Next goal: Wind Walker Tab 5 368 -> 372
 - Next goal: Science Fancy (1x): Next goal: Science Fancy Pen:Adds the 'Spelunky' bonus to your scientist, which boosts both 0 -> 1
 - Next goal: Each regular (1x): Next goal: Each regular Charm found today lowers this, from 0.1% down to 0% at 120 found ( 11 -> 23
 - Next goal: Bonuses from (1x): Next goal: Bonuses from All Meals 5 -> 13
 - Next goal: Farming Crop (1x): Next goal: Farming Crop Depot - Crayon:+1705.2/4019.4% Mobs 140 -> 330
 - Next goal: Silkrode Nanochip (1x): Next goal: Silkrode Nanochip 0 -> 1
-- Next Compass tier needs: (1x): Next Compass tier needs: Elemental Path 12 -> 15, Abominations Slain 16 -> 19, Medallions Collected 27 -> 39.
+- Next Compass tier needs: (1x): Next Compass tier needs: Elemental Path 12 -> 15, Abominations Slain 16 -> 19, Medallions Collected 28 -> 39.
 - Next goal: Elemental-0 12 (1x): Next goal: Elemental-0 12 -> 15
 - Next goal: Abominations Slain (1x): Next goal: Abominations Slain 16 -> 19
-- Next goal: Medallions Collected (1x): Next goal: Medallions Collected 27 -> 39
+- Next goal: Medallions Collected (1x): Next goal: Medallions Collected 28 -> 39
 - Autistacular- Kill 1M Choccies (1x): Autistacular- Kill 1M Choccies for W2 Weekly Boss (125.12K -> 1000K)
 - Next goal: Autistotle not (1x): Next goal: Autistotle not best in Chopping 102 -> 125
 - Next goal: Autistomatic can (1x): Next goal: Autistomatic can level Mining 137 -> 140
@@ -154,10 +155,11 @@ One line per spot that keeps producing jargon/padding (count = lines this build,
 - Next goal: Adds another (1x): Next goal: Adds another shape to your Research Grid! Keep in mind, each grid upgrade can on 0 -> 1
 - Your call on the (1x): Your call on the free exalt: Pulse says the vendor shop stamp, AutoReview says Summoner Stone.
 - Greenstacks: Next goal: Collect (1x): Greenstacks: Next goal: Collect 200 Greenstacks 173 -> 200
-- Endangered Greenstacks: Next goal: (1x): Endangered Greenstacks: Next goal: Claiming Cashe- Goldric: Only Winners have Portraits 0% -> 100%
+- Endangered Greenstacks: Next goal: (1x): Endangered Greenstacks: Next goal: Ketchup Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce 0% -> 100%
 - Event Shop: Next goal: (1x): Event Shop: Next goal: Golden Tome: Adds a new DMG Multi bonus type to the Tome in World 4 8 -> 35
 - Bonus Ballot: Next goal: (1x): Bonus Ballot: Next goal: Equinox: Voter Rights: +0/42% Ballot Bonus 0 -> 42
 - Meritocracy: Next goal: Multiplies (1x): Meritocracy: Next goal: Multiplies how many Shiny Critters you get from Trapping by 5x  -> 49%
+- SWAP print Dreadlo Ore (1x): SWAP print Dreadlo Ore -> Void Ore (sample 72M; runs out in 6.9 days). Changing a print does not take a sample, so Gold Relic keeps its days.
 - Next goal: Copper Ore (1x): Next goal: Copper Ore 1.34B -> 8.0B
 - Next goal: Sedimeadow:Superbits in (1x): Next goal: Sedimeadow:Superbits in Gaming now has a 2nd page full of new upgrades! 0 -> 1
 - Next goal: Level 23 (1x): Next goal: Level 23 2.2% -> 100%
@@ -174,10 +176,10 @@ One line per spot that keeps producing jargon/padding (count = lines this build,
 - TOP (Death Note tier (1x): TOP (Death Note tier 16/23 -> next): AutoReview: Complete 9 more Super CHOWs with Autistopher (17/26). Next: Red Mushroom in Birch Enclave (100M remaining), Bab
 - Next goal: Coralcave Guardian (1x): Next goal: Coralcave Guardian in Coralcave Perimeter (1B remaining) 0% -> 100%
 - TOP: you have an (1x): TOP: you have an unused stamp exalt. AutoReview's order: Summoner Stone Stamp, Multitool Stamp, Matty Bag Stamp.
-- Next goal: Total Stamp (1x): Next goal: Total Stamp Levels 9577 -> 11000
+- Next goal: Total Stamp (1x): Next goal: Total Stamp Levels 9578 -> 11000
 - Next goal: Skill 95 (1x): Next goal: Skill 95 -> 100
 - Next goal: Skill 0 (1x): Next goal: Skill 0 -> 1
-- Buy Wicked Smart first: (1x): Buy Wicked Smart first: 330 -> 387. Autistocat has the coins for about 31 levels.
+- Buy Wicked Smart first: (1x): Buy Wicked Smart first: 330 -> 387. Autisticles has the coins for about 32 levels.
 - Then Bullseye 440 -> (1x): Then Bullseye 440 -> 500.
 - Then Kitchen Dream-mare 251 (1x): Then Kitchen Dream-mare 251 -> 327.
 - Then Teh TOM 200 (1x): Then Teh TOM 200 -> 261.
@@ -237,9 +239,10 @@ One line per spot that keeps producing jargon/padding (count = lines this build,
 - Active: Frostbite Tundra- Sir (1x): Active: Frostbite Tundra- Sir Stache card:+54/63% Card Drop Chance (6 -> 7)
 - Active: Smolderin' Plateau- Mister (1x): Active: Smolderin' Plateau- Mister Brightside card:+36/42% Total Drop Rate (6 -> 7)
 - Active: Frostbite Tundra- Bop (1x): Active: Frostbite Tundra- Bop Box card:+21/24.5% Total Drop Rate (6 -> 7)
-- Active: Spirited Valley- Mama (1x): Active: Spirited Valley- Mama Troll card:+4/14% Skill AFK gain rate (2 -> 7)
-- Active: Hard Resources- Bunny (1x): Active: Hard Resources- Bunny card:+4/7% Skill AFK gain rate (4 -> 7)
-- Active: Spirited Valley- Woodlin (1x): Active: Spirited Valley- Woodlin Spirit card:+12/21% Multikill per tier (4 -> 7)
+- Active: Spirited Valley- Mama (1x): Active: Spirited Valley- Mama Troll card:+10/14% Skill AFK gain rate (5 -> 7)
+- Active: Hard Resources- Bunny (1x): Active: Hard Resources- Bunny card:+5/7% Skill AFK gain rate (5 -> 7)
+- Active: Spirited Valley- Woodlin (1x): Active: Spirited Valley- Woodlin Spirit card:+15/21% Multikill per tier (5 -> 7)
+- Active: Smolderin' Plateau- Suggma (1x): Active: Smolderin' Plateau- Suggma card:+12/14% Multikill per tier (6 -> 7)
 - Drop Rate: Bosses n (1x): Drop Rate: Bosses n Nightmares- Domeo Magmus card:+3/10.5% Total Drop Rate (Passive) (2 -> 7)
 - Drop Rate: Events- IdleOn (1x): Drop Rate: Events- IdleOn 4th Anniversary card:+0/14% Drop Rate (Passive) (0 -> 7)
 - Drop Rate: Events- Luckulyte (1x): Drop Rate: Events- Luckulyte card:+0/21% Drop Rate (Passive) (0 -> 7)

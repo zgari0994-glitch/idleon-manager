@@ -1,4 +1,4 @@
-# Buff sources · save 20261120T0208 vs 20261120T0128
+# Buff sources · save 20261120T0452 vs 20261120T0208
 24 stats, 203 sources owned, 204 missing
 
 ## Active: Sources of Crystal Spawn Chance  (12 owned / 3 missing)
@@ -46,7 +46,7 @@
 - [ ] Breeding - Shiny Xylobone: +10/20% Drop Rate 10 -> 20 · Autistacular
 - [ ] Breeding - Shiny Choccie: +5/20% Drop Rate 5 -> 20 · Autistacular
 - [ ] Grey Tome Book: 1.26x higher bonuses from the Tome(1.00 per level: Not scaled by Writhing Grimoire) 26 -> 150 · Autistopher
-- [x] Tome- Red Pages:+140.8% Drop Rate32,231 Total Tome PointsIncreases every 100 points over 8000
+- [x] Tome- Red Pages:+140.8% Drop Rate32,275 Total Tome PointsIncreases every 100 points over 8000
 - [x] Cape Vine - Chains of the Gilded Vaultguard+11.5% Drop Rate MultiPlain Vine: 0.29x
 - [ ] Cape Vine - Lovely Balloon+250% Drop RateNot deposited 0 -> 1 · Autistachio
 - [x] Cape Vine - Molten Cloak+8.62% Drop RatePlain Vine: 0.29x
@@ -269,7 +269,7 @@
 - [ ] Autistopher: Prayer not needed. You may remove if desired. 👍 94.2% -> 90% · Autiszemo
 - [ ] Autistachio: Prayer not needed, not worn. 👍 94.2% -> 90% · Autiszemo
 
-## Sampling: Sources of Printer Output. Grand Total: 59.431 - 356.585x  (9 owned / 5 missing)
+## Sampling: Sources of Printer Output. Grand Total: 59.431 - 356.588x  (9 owned / 5 missing)
 - [x] Blue Dot before your sample = Only 2x from Lab is active
 - [x] Yellow Star = Only 3x from Harriep is active
 - [x] Purple Swirl = 6x total from Lab and Harriep
