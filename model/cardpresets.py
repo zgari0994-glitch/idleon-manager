@@ -70,10 +70,12 @@ TASKS = {
         [], ['Medium Resources'], '(my read) one Lab EXP card'),
 }
 
+MAXS = 5   # set bonus caps at 5 stars: save + Toolbox show Easy Resources at 40% (8 x 5), not 48
+
 def cset_star(name):
     s = [c for c in cards if c.cardset == name]
     if not s: return 0
-    return min(sum(min(c.star, 5) + 1 for c in s) // len(s), 5)
+    return min(sum(min(c.star, MAXS) + 1 for c in s) // len(s), MAXS)   # AutoReview get_progress
 
 SET_BONUS = {cardset_names[i]: (a.replace('{%_', '').replace('_', ' '), float(b)) for i, (a, b, _) in enumerate(CardSets) if i < len(cardset_names)}
 
