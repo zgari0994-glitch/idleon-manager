@@ -1,4 +1,9 @@
 import re
+try:
+    from consts.consts_monster_data import script_monster_definitions as _MDS
+    _RESP = {m.group(1).replace('_', ' '): float(m.group(2)) for m in re.finditer(r'Name:"([^"]+)",AFKtype:"\w+".*?RespawnTime:([\d.E]+)', _MDS)}
+except Exception:
+    _RESP = {}
 """Card engine v2 (Phase 1, 2026-11-17). One card per character, fixed layout:
 move -> quick wins -> active -> AFK -> every sub-system (current -> goal) -> locked -> library talents -> bags.
 Plus an account block: alerts, money, salts, ranked active list, unassigned jobs.
@@ -286,13 +291,14 @@ for name, cfg in Y['characters'].items():
         for g, path, a in leaves('Death Note'):
             if rule in g.get('name', '') + path and is_open(a):
                 mm = re.search(r'\(([\d.,]+[KMB]?) remaining\)', a['label'])
-                if mm: cand.append((num(mm.group(1)), -(num(a.get('cur')) or 0), a['label'].split(' (')[0], g.get('name', '')))
-        started = [c for c in cand if c[1] < 0]   # he has kills there = he can reach it (proxy)
-        pool = started or cand
-        if pool:
-            r0 = min(pool)
-            mp = r0[2].split(' in ', 1)[-1]; wd = world_of(mp)
-            card['park'] = {'text': f"W{wd if wd else '?'} {mp} ({r0[2].split(' in ')[0]}) · {r0[0]:,.0f} kills left, {-r0[1]:.0f}% done · fewest kills left of {len(started)} started targets" + ('' if started else ' (none started: may be unreachable)'), 'src': 'data rule (Zack-approved) on AutoReview Death Note'}
+                mob = a['label'].split(' in ')[0]; rs = _RESP.get(mob)
+                if mm and rs is not None and rs <= 120:   # Zack 2026-11-20: skip once-a-day / boss spawns (Boops)
+                    cand.append((num(mm.group(1)) * (1 if True else 0), -(num(a.get('cur')) or 0) * 0, rs, a['label'].split(' (')[0], g.get('name', ''), -(num(a.get('cur')) or 0)))
+        cand = [c for c in cand if (world_of(c[3].split(' in ', 1)[-1]) or 0) <= 6]   # his rule: W1-W6
+        if cand:
+            r0 = min(cand, key=lambda c: (c[0], c[2]))   # fewest kills left, then fastest respawn
+            mp = r0[3].split(' in ', 1)[-1]; wd = world_of(mp)
+            card['park'] = {'text': f"W{wd if wd else '?'} {mp} ({r0[3].split(' in ')[0]}) · {r0[0]:,.0f} kills left, {-r0[5]:.0f}% done · fewest kills left, fastest respawn ({r0[2]}s)", 'src': 'data rule (Zack-approved) on AutoReview Death Note'}
     # WORKING TOWARD: rinse #1 for this character; flag when it is not on the account priority
     pri = PRI_TOP   # Zack 2026-11-19: priority = biggest current need (model/priority.py), never pinned
     pjobs = [j['job'] for j in cfg['jobs'] if any((s if isinstance(s, str) else s.get('s')) in PRI_SECS for s in j.get('sections', []))]
