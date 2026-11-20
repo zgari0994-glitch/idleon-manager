@@ -1,5 +1,5 @@
 {
- "snapshot": "20261120T0208",
+ "snapshot": "20261120T0452",
  "per_char": {
   "Autiszemo": {
    "samples": [
@@ -60,8 +60,8 @@
    ],
    "printing": [
     [
-     "Oak Logs",
-     4048229566.86389
+     "Bleach Logs",
+     2488573170.60383
     ],
     [
      "Oak Logs",
@@ -383,13 +383,12 @@
   }
  ],
  "needs": {
-  "Bleach Logs": "runs out in 0.4 days",
-  "Gold Bar": "runs out in 1.2 days",
+  "Void Ore": "runs out in 6.9 days",
   "Tangled Cords": "Dream of Ironfish 68 -> 70 (exact cost: check bubble cost)",
   "Void Bar": "ran out before (Zack); construction/printer use",
   "Copper Bar": "Barium Mixture 12 -> 13 needs 1B Copper Bars (Toolbox map finding)",
   "Glass Shard": "Mason Jar Stamp next max raise needs 1.74e+04 (have 8.74e+03)",
-  "Golden Nomwich": "Golden Apple Stamp next max raise needs 4.46e+05 (have 1.06e+05)",
+  "Golden Nomwich": "Golden Apple Stamp next max raise needs 4.46e+05 (have 1.1e+05)",
   "Jungle Logs": "Lil' Mining Baggy Stamp next max raise needs 8.84e+08 (have 5.85e+07)",
   "Dust Mote": "Multitool Stamp next max raise needs 2.57e+10 (have 1.05e+09)",
   "Cramped Material Pouch": "Matty Bag Stamp next max raise needs 149 (have 0)",
@@ -397,11 +396,25 @@
  },
  "swaps": [
   {
-   "char": "Autistabish",
-   "from": "Effervescent Logs",
-   "to": "Bleach Logs",
-   "sample": 1407648608.37931,
-   "why": "runs out in 0.4 days"
+   "char": "Autistocat",
+   "from": "Bleach Logs",
+   "to": "Jungle Logs",
+   "sample": 1689032901.29548,
+   "why": "Lil' Mining Baggy Stamp next max raise needs 8.84e+08 (have 5.85e+07)"
+  },
+  {
+   "char": "Autistastic",
+   "from": "Godshard Ore",
+   "to": "Void Ore",
+   "sample": 70395401.233668,
+   "why": "runs out in 6.9 days"
+  },
+  {
+   "char": "Autistomatic",
+   "from": "Dreadlo Ore",
+   "to": "Void Ore",
+   "sample": 72013288.6537443,
+   "why": "runs out in 6.9 days"
   }
  ],
  "gold_relic": [

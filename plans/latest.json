@@ -1,9 +1,9 @@
 {
  "meta": {
-  "game_save_utc": "2026-11-20T02:08:31.495980+00:00",
-  "game_save_et": "2026-11-19 09:08 PM ET",
-  "review_run_et": "2026-11-19 09:12 PM ET",
-  "autoreview_last_update": "Nov 20, 2026, 2:08:31 AM UTC",
+  "game_save_utc": "2026-11-20T04:52:13.357230+00:00",
+  "game_save_et": "2026-11-19 11:52 PM ET",
+  "review_run_et": "2026-11-19 11:56 PM ET",
+  "autoreview_last_update": "Nov 20, 2026, 4:52:13 AM UTC",
   "switches": {
    "autoloot": "on",
    "doot": "on",
@@ -37,7 +37,7 @@
     "park_rule": "with Autiszemo"
    },
    "save_map": "W3 map 113",
-   "money": 1.13076352037927e+30,
+   "money": 1.1307962027763529e+30,
    "jobs": [
     {
      "job": "Farming",
@@ -861,15 +861,15 @@
          "locked": "",
          "section": "Death Note",
          "group": "Complete a minimum of Eclipse Skull (1B) in W5",
-         "label": "Lampar in Lampar Lake (661M remaining)",
-         "cur": "34%",
+         "label": "Purgatory Stalker in Mount Doomish (746M remaining)",
+         "cur": "25%",
          "goal": "100%",
          "score": 129,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 5
+       "more": 4
       },
       {
        "name": "Death Note: Complete a minimum of Eclipse Skull (1B) in W6",
@@ -898,7 +898,7 @@
          "infinite": false
         }
        ],
-       "more": 4
+       "more": 2
       },
       {
        "name": "Death Note: You could complete 14 more ZOWs with Autiszemo (94/108)",
@@ -1130,13 +1130,6 @@
    ],
    "daily": [
     {
-     "block": "Setup check",
-     "kind": "every",
-     "steps": [
-      "Cards: presets 1, 2, 3, 4, 7 not built to plan yet (card build session)."
-     ]
-    },
-    {
      "block": "Timers ready (Toolbox)",
      "kind": "timer",
      "steps": [
@@ -1202,8 +1195,8 @@
      "steps": [
       "Printing: Skelefish (10.8M), Goldfish (112M) | samples held: Equinox Fish 2.2M, Goldfish 112M, Hermit Can 74.6M, Bloach 17M, Jellyfish 40.3M",
       "Gold Relic is at 29 of 100 days (2.45x print output). Taking any sample resets it, so hold off on new samples unless it's worth it (my read).",
-      "1 print swaps are listed on the owners' cards.",
-      "Print day is when all 6 print buffs are done. The day counters finish around Feb 20. Push these by then: Rift, Sample It bubble, Arcade Bonus 5.",
+      "3 print swaps are listed on the owners' cards.",
+      "Print day is when all 6 print buffs are done. The day counters finish around Feb 21. Push these by then: Rift, Sample It bubble, Arcade Bonus 5.",
       "AutoReview wants one sample goal next: Oak Logs to 10B. That sample resets Gold Relic, so time it for print day.",
       "Griffy: Book talents before taking new printer samples.",
       "Griffy: Food nonconsumption currently helps health food and preserves skilling food during sampling but becomes irrelevant later.",
@@ -1314,13 +1307,13 @@
    "slot": 2,
    "name": "Autistocat",
    "class": "Arcane Cultist",
-   "level": 851,
+   "level": 852,
    "afk": {
     "text": "Active-first class (master class progress is active-only without its AFK mechanic). Runs Cranium Cooking active; plain AFK spot = GAP",
     "src": "Griffy N5yJ4-tZLbY 00:52 (2026-10-04)"
    },
    "save_map": "W7 map 317",
-   "money": 5.02759975384082e+30,
+   "money": 3.955582611488531e+30,
    "jobs": [
     {
      "job": "Alchemy",
@@ -1467,7 +1460,7 @@
          "locked": "",
          "section": "Bubbles",
          "group": "Level Utility bubbles",
-         "label": "Startue Exp",
+         "label": "Startue Exp (Printing!)",
          "cur": "171",
          "goal": "240",
          "score": 150,
@@ -2302,13 +2295,6 @@
    ],
    "daily": [
     {
-     "block": "Setup check",
-     "kind": "every",
-     "steps": [
-      "Cards: presets 1, 2, 3, 4, 7 not built to plan yet (card build session)."
-     ]
-    },
-    {
      "block": "Alchemy",
      "kind": "playbook",
      "steps": [
@@ -2412,7 +2398,7 @@
      "block": "Every character: Combat level",
      "kind": "every",
      "steps": [
-      "Combat Lv 851"
+      "Combat Lv 852"
      ]
     },
     {
@@ -2442,7 +2428,8 @@
      "block": "Every character: 3D Printer slots",
      "kind": "every",
      "steps": [
-      "Printing: Oak Logs (4B), Oak Logs (4B) | samples held: Oak Logs 4B, Bleach Logs 2.5B, Jungle Logs 1.7B, Potty Rolls 514M, Wispy Lumber 241M"
+      "Printing: Bleach Logs (2.5B), Oak Logs (4B) | samples held: Oak Logs 4B, Bleach Logs 2.5B, Jungle Logs 1.7B, Potty Rolls 514M, Wispy Lumber 241M",
+      "SWAP print Bleach Logs -> Jungle Logs (sample 1.7B; Lil' Mining Baggy Stamp next max raise needs 884M (have 58.5M)). Changing a print does not take a sample, so Gold Relic keeps its days."
      ]
     }
    ],
@@ -2477,13 +2464,13 @@
    "slot": 3,
    "name": "Autisticles",
    "class": "Siege Breaker",
-   "level": 856,
+   "level": 857,
    "afk": {
     "text": "His best kills/hr map: Melting Every Day turns AFK kills into forge progress (bars). Feeds Copper Bar 1B shortage. Exact map = GAP",
     "src": "Griffy ypb7kpQov30 00:01 (2026-08-03)"
    },
    "save_map": "W7 map 311",
-   "money": 4.98442264033001e+30,
+   "money": 5.692328415870136e+30,
    "jobs": [
     {
      "job": "Sailing",
@@ -2691,13 +2678,13 @@
        "more": 0
       },
       {
-       "name": "Sampling: Sources of Printer Output. Grand Total: 59.431 - 356.585x",
+       "name": "Sampling: Sources of Printer Output. Grand Total: 59.431 - 356.588x",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Sampling",
-         "group": "Sources of Printer Output. Grand Total: 59.4 - 356.585x",
+         "group": "Sources of Printer Output. Grand Total: 59.4 - 356.588x",
          "label": "Sailing: Level 4 Gold Relic:2.45x (29/100 days)",
          "cur": "29",
          "goal": "100",
@@ -2708,7 +2695,7 @@
         {
          "locked": "",
          "section": "Sampling",
-         "group": "Sources of Printer Output. Grand Total: 59.4 - 356.585x",
+         "group": "Sources of Printer Output. Grand Total: 59.4 - 356.588x",
          "label": "Event Shop: Supreme Wiring:1.00x (0/50 days)",
          "cur": "0",
          "goal": "50",
@@ -2911,7 +2898,7 @@
          "section": "Luminous Menagerie",
          "group": "Missions",
          "label": "Mission 1: Reach a Total Account LV of 10,000",
-         "cur": "9067",
+         "cur": "9069",
          "goal": "10000",
          "score": 0,
          "ready": false,
@@ -3590,13 +3577,6 @@
    ],
    "daily": [
     {
-     "block": "Setup check",
-     "kind": "every",
-     "steps": [
-      "Cards: presets 1, 2, 3, 4 not built to plan yet (card build session)."
-     ]
-    },
-    {
      "block": "Timers ready (Toolbox)",
      "kind": "timer",
      "steps": [
@@ -3662,7 +3642,7 @@
       "Pulse: Extra Menagerie missions boost scales aggressively; 19 levels at roughly 6-7 hours per level; critical for progressing missions.",
       "Pulse: Keep missions boost and second shelf second upgrade roughly level with slight priority on the second shelf.",
       "Next goal: Shells needed for Menagerie Rank 4 1 -> 3",
-      "Next goal: Mission 1 9067 -> 10000",
+      "Next goal: Mission 1 9069 -> 10000",
       "Next goal: Unlock 4 0 -> 1"
      ]
     },
@@ -3740,7 +3720,7 @@
      "block": "Every character: Combat level",
      "kind": "every",
      "steps": [
-      "Combat Lv 856"
+      "Combat Lv 857"
      ]
     },
     {
@@ -3826,8 +3806,8 @@
     "text": "Cavern 15 Temple (Ancient Golems): Dragon Statue 4 -> 150 + golem card",
     "src": "AutoReview statue table"
    },
-   "save_map": "W5 map 216",
-   "money": 1.9747725309057083e+29,
+   "save_map": "W6 map 255",
+   "money": 7.072028445840661e+29,
    "jobs": [
     {
      "job": "Construction",
@@ -3858,7 +3838,7 @@
          "section": "Buildings",
          "group": "S Tier",
          "label": "Poisonic Elder",
-         "cur": "76",
+         "cur": "77",
          "goal": "90",
          "score": 0,
          "ready": false,
@@ -5090,7 +5070,7 @@
      "block": "Setup check",
      "kind": "every",
      "steps": [
-      "Cards: presets 1, 2, 3, 4, 5, 6 not built to plan yet (card build session)."
+      "Cards: presets 5 not built to plan yet (card build session)."
      ]
     },
     {
@@ -5138,7 +5118,7 @@
       "12 of 17 atoms unlocked. Aluminium comes from Compass Nomadic 32 on Autistacular.",
       "TOP: 1 buildings in slots show as finished. Check in game, then move the slots to unfinished buildings.",
       "Best slot targets (longest builds first): Voidinator (4d 20h), Trapper Drone (2d 1h), Party Starter (1d 5h).",
-      "AutoReview top buildings: Kraken Cosplayer 83 -> 90, Poisonic Elder 76 -> 90."
+      "AutoReview top buildings: Kraken Cosplayer 83 -> 90, Poisonic Elder 77 -> 90."
      ]
     },
     {
@@ -5285,7 +5265,8 @@
      "block": "Every character: 3D Printer slots",
      "kind": "every",
      "steps": [
-      "Printing: Copper Ore (1.3B), Godshard Ore (8.5M) | samples held: Copper Ore 1.3B, Iron Ore 714M, Gold Ore 357M, Dementia Ore 97.2M, Void Ore 70.4M"
+      "Printing: Copper Ore (1.3B), Godshard Ore (8.5M) | samples held: Copper Ore 1.3B, Iron Ore 714M, Gold Ore 357M, Dementia Ore 97.2M, Void Ore 70.4M",
+      "SWAP print Godshard Ore -> Void Ore (sample 70.4M; runs out in 6.9 days). Changing a print does not take a sample, so Gold Relic keeps its days."
      ]
     }
    ],
@@ -5310,8 +5291,8 @@
     "text": "Penguins (Box Statue 25 -> 40), then Cryosnakes (Seesaw 25 -> 40). Candy or Active ES",
     "src": "AutoReview statue table"
    },
-   "save_map": "W1 map 27",
-   "money": 1.532952703134933e+30,
+   "save_map": "W3 map 108",
+   "money": 1.5329648642578495e+30,
    "jobs": [
     {
      "job": "Worship: souls (town)",
@@ -5578,7 +5559,7 @@
          "section": "Villagers",
          "group": "Level 27 Kaipu, The Engineer",
          "label": "Next level progress",
-         "cur": "6.0%",
+         "cur": "6.2%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -5607,7 +5588,7 @@
          "section": "Villagers",
          "group": "Level 34 Cosmos, The Conjuror",
          "label": "Next level progress",
-         "cur": "5.3%",
+         "cur": "5.6%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -5636,7 +5617,7 @@
          "section": "Villagers",
          "group": "Level 16 Minau, The Measurer",
          "label": "Next level progress",
-         "cur": "20.9%",
+         "cur": "21.1%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -5654,7 +5635,7 @@
          "section": "Villagers",
          "group": "Level 69 Bolaia, The Librarian",
          "label": "Next level progress",
-         "cur": "48.3%",
+         "cur": "48.7%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -5748,7 +5729,7 @@
          "section": "Shallow Caverns",
          "group": "Cavern 4- Bravery Monument",
          "label": "300 hour bonus: You can Re-Throw 5 swords per story",
-         "cur": "280",
+         "cur": "291",
          "goal": "300",
          "score": 0,
          "ready": false,
@@ -5759,7 +5740,7 @@
          "section": "Shallow Caverns",
          "group": "Cavern 4- Bravery Monument",
          "label": "750 hour bonus: +1 additional Sword",
-         "cur": "280",
+         "cur": "291",
          "goal": "750",
          "score": 0,
          "ready": false,
@@ -5928,7 +5909,7 @@
          "locked": "",
          "section": "Underground Overgrowth",
          "group": "Cavern 11- The Jar",
-         "label": "Turquoise Rupies: 0.00Collected from Great Jars once you have 500K+ Magenta Rupies",
+         "label": "Magenta Rupies: 47.86KCollected from Great Jars once you have 10K+ Yellow Rupies",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -5939,7 +5920,7 @@
          "locked": "",
          "section": "Underground Overgrowth",
          "group": "Cavern 11- The Jar",
-         "label": "Ultramarine Rupies: 0.00Collected from Epic Jars once you have 6M+ Orange Rupies",
+         "label": "Turquoise Rupies: 0.00Collected from Great Jars once you have 500K+ Magenta Rupies",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -5947,7 +5928,7 @@
          "infinite": false
         }
        ],
-       "more": 52
+       "more": 53
       },
       {
        "name": "Underground Overgrowth: Cavern 12- Evertree",
@@ -6418,13 +6399,6 @@
    ],
    "daily": [
     {
-     "block": "Setup check",
-     "kind": "every",
-     "steps": [
-      "Cards: presets 1, 2, 3, 4 not built to plan yet (card build session)."
-     ]
-    },
-    {
      "block": "Top move (sourced)",
      "kind": "move",
      "steps": []
@@ -6543,8 +6517,7 @@
      "block": "Every character: 3D Printer slots",
      "kind": "every",
      "steps": [
-      "Printing: Oak Logs (3.5B), Effervescent Logs (11M) | samples held: Oak Logs 3.5B, Bleach Logs 1.4B, Forest Fibres 625M, Potty Rolls 291M, Tropilogs 452M",
-      "SWAP print Effervescent Logs -> Bleach Logs (sample 1.4B; runs out in 0.4 days). Changing a print does not take a sample, so Gold Relic keeps its days."
+      "Printing: Oak Logs (3.5B), Effervescent Logs (11M) | samples held: Oak Logs 3.5B, Bleach Logs 1.4B, Forest Fibres 625M, Potty Rolls 291M, Tropilogs 452M"
      ]
     }
    ],
@@ -6569,7 +6542,7 @@
     "src": "zack"
    },
    "save_map": "W3 map 109",
-   "money": 1.250795676281e+29,
+   "money": 1.2510584746217771e+29,
    "jobs": [
     {
      "job": "Sneaking",
@@ -6952,7 +6925,7 @@
          "infinite": false
         }
        ],
-       "more": 19
+       "more": 17
       },
       {
        "name": "Compass: Slay more Abominations",
@@ -6992,7 +6965,7 @@
          "section": "Compass",
          "group": "Collect more Medallions",
          "label": "Medallions Collected",
-         "cur": "27",
+         "cur": "28",
          "goal": "39",
          "score": 133,
          "ready": false,
@@ -7003,7 +6976,7 @@
          "section": "Compass",
          "group": "Collect more Medallions",
          "label": "Medallions Collected",
-         "cur": "27",
+         "cur": "28",
          "goal": "50",
          "score": 133,
          "ready": false,
@@ -7078,8 +7051,8 @@
          "locked": "",
          "section": "Compass",
          "group": "Medallions",
-         "label": "Total Medallions Collected: 27/132",
-         "cur": "27",
+         "label": "Total Medallions Collected: 28/132",
+         "cur": "28",
          "goal": "132",
          "score": 0,
          "ready": false,
@@ -7097,7 +7070,7 @@
          "infinite": false
         }
        ],
-       "more": 104
+       "more": 103
       },
       {
        "name": "Compass: tabbed",
@@ -7157,7 +7130,7 @@
        "section": "Compass",
        "group": "Level up the following Compass Upgrades",
        "label": "Fighter-0: Fighter Path",
-       "cur": "15",
+       "cur": "19",
        "goal": "22",
        "score": 133,
        "ready": false,
@@ -7399,13 +7372,6 @@
    ],
    "daily": [
     {
-     "block": "Setup check",
-     "kind": "every",
-     "steps": [
-      "Cards: presets 1, 2, 3, 4 not built to plan yet (card build session)."
-     ]
-    },
-    {
      "block": "Timers ready (Toolbox)",
      "kind": "timer",
      "steps": [
@@ -7454,14 +7420,14 @@
      "block": "Compass",
      "kind": "playbook",
      "steps": [
-      "Next Compass tier needs: Elemental Path 12 -> 15, Abominations Slain 16 -> 19, Medallions Collected 27 -> 39.",
+      "Next Compass tier needs: Elemental Path 12 -> 15, Abominations Slain 16 -> 19, Medallions Collected 28 -> 39.",
       "Griffy: farm every medallion and kill every abomination.",
       "Griffy: Farm all medallions to strengthen bonuses including Tempest damage and improve progression.",
       "Griffy: Eventually defeat all abominations for additional class XP as regular leveling slows.",
       "Next goal: Elemental-0 12 -> 15",
       "WHY: The elemental path unlocks major features such as elemental bows and rings.",
       "Next goal: Abominations Slain 16 -> 19",
-      "Next goal: Medallions Collected 27 -> 39"
+      "Next goal: Medallions Collected 28 -> 39"
      ]
     },
     {
@@ -7576,7 +7542,7 @@
     "src": "zack"
    },
    "save_map": "W3 map 107",
-   "money": 1.22790427826707e+29,
+   "money": 1.227976023647853e+29,
    "jobs": [
     {
      "job": "Secret Class Path (Vman)",
@@ -7698,9 +7664,7 @@
       "Trapping 69/70 (Autistastic)",
       "Worship 96/112 (Autistabish)",
       "Cooking 17/62 (Autiszemo)",
-      "Sailing 145/147 (Autisticles)",
       "Divinity 194/196 (Autistocat)",
-      "Gaming 209/218 (Autistastic)",
       "Farming 216/238 (Autiszemo)",
       "Sneaking 287/296 (Autistomatic)",
       "Spelunking 17/30 (Autistomatic)"
@@ -7892,8 +7856,8 @@
          "locked": "",
          "section": "Greenstacks",
          "group": "Timegated Item recommendations",
-         "label": "Potent Strength Potion (W4 Town)",
-         "cur": "47%",
+         "label": "Potent Speed Potion (W4 Town)",
+         "cur": "48%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -7903,7 +7867,7 @@
          "locked": "",
          "section": "Greenstacks",
          "group": "Timegated Item recommendations",
-         "label": "Potent Speed Potion (W4 Town)",
+         "label": "Potent Strength Potion (W4 Town)",
          "cur": "47%",
          "goal": "100%",
          "score": 0,
@@ -7921,8 +7885,8 @@
          "locked": "",
          "section": "Greenstacks",
          "group": "Difficulty Group 4 Item recommendations",
-         "label": "Potent Strength Potion (W4 Town)",
-         "cur": "47%",
+         "label": "Potent Speed Potion (W4 Town)",
+         "cur": "48%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -7932,7 +7896,7 @@
          "locked": "",
          "section": "Greenstacks",
          "group": "Difficulty Group 4 Item recommendations",
-         "label": "Potent Speed Potion (W4 Town)",
+         "label": "Potent Strength Potion (W4 Town)",
          "cur": "47%",
          "goal": "100%",
          "score": 0,
@@ -8096,7 +8060,7 @@
          "section": "Greenstacks",
          "group": "Difficulty Group 10 Item recommendations",
          "label": "Arctic Leaf",
-         "cur": "77%",
+         "cur": "78%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -8154,7 +8118,7 @@
          "section": "Greenstacks",
          "group": "Difficulty Group 12 Item recommendations",
          "label": "Bonemeal",
-         "cur": "40%",
+         "cur": "52%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -8298,7 +8262,7 @@
          "locked": "",
          "section": "Endangered Greenstacks",
          "group": "Still obtainable",
-         "label": "Claiming Cashe- Goldric: Only Winners have Portraits",
+         "label": "Ketchup Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce",
          "cur": "0%",
          "goal": "100%",
          "score": 126,
@@ -8309,7 +8273,7 @@
          "locked": "",
          "section": "Endangered Greenstacks",
          "group": "Still obtainable",
-         "label": "Ketchup Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce",
+         "label": "Employment Statistics- TP Pete: The Rats are to Blame!",
          "cur": "0%",
          "goal": "100%",
          "score": 126,
@@ -8804,7 +8768,7 @@
      "block": "Setup check",
      "kind": "every",
      "steps": [
-      "Cards: presets 1, 2, 3, 4 not built to plan yet (card build session)."
+      "Cards: presets 2, 4 not built to plan yet (card build session)."
      ]
     },
     {
@@ -8848,16 +8812,16 @@
      "block": "Greenstacks",
      "kind": "playbook",
      "steps": [
-      "Close to a greenstack, don't spend these: Dune Soul (87%), Arctic Leaf (77%). Other cards will warn you before using them.",
-      "Buy the daily vendor items that are closest to a greenstack: Potent Strength Potion, Potent Speed Potion, Potent EXP Potion, Yeti Ham, Potent Life Potion.",
+      "Close to a greenstack, don't spend these: Dune Soul (87%), Arctic Leaf (78%). Other cards will warn you before using them.",
+      "Buy the daily vendor items that are closest to a greenstack: Potent Speed Potion, Potent Strength Potion, Potent EXP Potion, Yeti Ham, Potent Life Potion.",
       "10 quest items still need greenstacks while you can still get them.",
       "Your call on the free exalt: Pulse says the vendor shop stamp, AutoReview says Summoner Stone.",
       "Greenstacks: Griffy: Depositing all statues can destroy stored greenstacks.",
       "Greenstacks: Griffy: Greenstacking every shiny in one week is unrealistic because one stack takes at least thirty hours.",
       "Greenstacks: Next goal: Collect 200 Greenstacks 173 -> 200",
+      "Greenstacks: Next goal: Potent Speed Potion (W4 Town) 48% -> 100%",
       "Greenstacks: Next goal: Potent Strength Potion (W4 Town) 47% -> 100%",
-      "Greenstacks: Next goal: Potent Speed Potion (W4 Town) 47% -> 100%",
-      "Endangered Greenstacks: Next goal: Claiming Cashe- Goldric: Only Winners have Portraits 0% -> 100%"
+      "Endangered Greenstacks: Next goal: Ketchup Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce 0% -> 100%"
      ]
     },
     {
@@ -9352,7 +9316,7 @@
      "block": "Setup check",
      "kind": "every",
      "steps": [
-      "Cards: presets 1, 2, 3, 4, 5, 6 not built to plan yet (card build session)."
+      "Cards: presets 5 not built to plan yet (card build session)."
      ]
     },
     {
@@ -9373,6 +9337,7 @@
      "kind": "playbook",
      "steps": [
       "Printing: Dreadlo Ore (18.1M), Prehistrium Ore (2.5M) | samples held: Copper Ore 1.3B, Iron Ore 732M, Gold Ore 366M, Platinum Ore 180M, Void Ore 72M",
+      "SWAP print Dreadlo Ore -> Void Ore (sample 72M; runs out in 6.9 days). Changing a print does not take a sample, so Gold Relic keeps its days.",
       "Griffy: Book talents before taking new printer samples.",
       "Griffy: Food nonconsumption currently helps health food and preserves skilling food during sampling but becomes irrelevant later.",
       "Next goal: Copper Ore 1.34B -> 8.0B",
@@ -9486,13 +9451,13 @@
     "src": "zack"
    },
    "save_map": "W3 map 111",
-   "money": 4.4515790188922e+29,
+   "money": 4.451818627912967e+29,
    "jobs": [
     {
      "job": "Cards",
      "basis": "griffy",
      "tiers": {
-      "Cards": "47/78"
+      "Cards": "49/78"
      },
      "subs": [
       {
@@ -9608,13 +9573,13 @@
        "more": -1
       },
       {
-       "name": "Cards: Hard Resources: Collect 34 more cards for Gold (110/144)",
+       "name": "Cards: Hard Resources: Collect 33 more cards for Gold (111/144)",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Cards",
-         "group": "Hard Resources: Collect 34 more cards for Gold (110/144)",
+         "group": "Hard Resources: Collect 33 more cards for Gold (111/144)",
          "label": "Oozie Soul:+10/70% Max Charge",
          "cur": "6",
          "goal": "Bronze",
@@ -9625,7 +9590,7 @@
         {
          "locked": "",
          "section": "Cards",
-         "group": "Hard Resources: Collect 34 more cards for Gold (110/144)",
+         "group": "Hard Resources: Collect 33 more cards for Gold (111/144)",
          "label": "Squishy Soul:+15/35% Charge Rate",
          "cur": "10",
          "goal": "Gold",
@@ -9666,15 +9631,15 @@
        "more": 6
       },
       {
-       "name": "Cards: Smolderin' Plateau: Collect 5 more cards for Platinum (80/85)",
+       "name": "Cards: Smolderin' Plateau: Collect 4 more cards for Platinum (81/85)",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Cards",
-         "group": "Smolderin' Plateau: Collect 5 more cards for Platinum (80/85)",
+         "group": "Smolderin' Plateau: Collect 4 more cards for Platinum (81/85)",
          "label": "Ancient Golem:+8/28% Total Drop Rate (Passive)",
-         "cur": "2,436",
+         "cur": "1,535",
          "goal": "Silver",
          "score": 0,
          "ready": false,
@@ -9683,7 +9648,7 @@
         {
          "locked": "",
          "section": "Cards",
-         "group": "Smolderin' Plateau: Collect 5 more cards for Platinum (80/85)",
+         "group": "Smolderin' Plateau: Collect 4 more cards for Platinum (81/85)",
          "label": "Stiltmole:+30/42% Divinity EXP (Passive)",
          "cur": "11,251",
          "goal": "Ruby",
@@ -9692,18 +9657,18 @@
          "infinite": false
         }
        ],
-       "more": 9
+       "more": 8
       },
       {
-       "name": "Cards: Spirited Valley: Collect 1 more cards for Gold (59/60)",
+       "name": "Cards: Spirited Valley: Collect 12 more cards for Platinum (63/75)",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Cards",
-         "group": "Spirited Valley: Collect 1 more cards for Gold (59/60)",
-         "label": "Mama Troll:+4/14% Skill AFK gain rate",
-         "cur": "70",
+         "group": "Spirited Valley: Collect 12 more cards for Platinum (63/75)",
+         "label": "Ceramic Spirit:+10/35% Cooking Spd Multi (Passive)",
+         "cur": "85",
          "goal": "Silver",
          "score": 0,
          "ready": false,
@@ -9712,9 +9677,9 @@
         {
          "locked": "",
          "section": "Cards",
-         "group": "Spirited Valley: Collect 1 more cards for Gold (59/60)",
-         "label": "Ceramic Spirit:+10/35% Cooking Spd Multi (Passive)",
-         "cur": "85",
+         "group": "Spirited Valley: Collect 12 more cards for Platinum (63/75)",
+         "label": "Skydoggie Spirit:+40/140 Base LUK",
+         "cur": "374",
          "goal": "Silver",
          "score": 0,
          "ready": false,
@@ -9724,13 +9689,13 @@
        "more": 10
       },
       {
-       "name": "Cards: Shimmerfin Deep: Collect 9 more cards for Unlock (16/25)",
+       "name": "Cards: Shimmerfin Deep: Collect 8 more cards for Unlock (17/25)",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Cards",
-         "group": "Shimmerfin Deep: Collect 9 more cards for Unlock (16/25)",
+         "group": "Shimmerfin Deep: Collect 8 more cards for Unlock (17/25)",
          "label": "Doodlefish:+3/21% Total Damage Multi",
          "cur": "2,933",
          "goal": "Bronze",
@@ -9741,7 +9706,7 @@
         {
          "locked": "",
          "section": "Cards",
-         "group": "Shimmerfin Deep: Collect 9 more cards for Unlock (16/25)",
+         "group": "Shimmerfin Deep: Collect 8 more cards for Unlock (17/25)",
          "label": "Eamsy Earl:+3/21% Class EXP Multi",
          "cur": "3,326",
          "goal": "Bronze",
@@ -9750,7 +9715,7 @@
          "infinite": false
         }
        ],
-       "more": 12
+       "more": 13
       },
       {
        "name": "Cards: Dungeons: Collect 15 more cards for Bronze (31/46)",
@@ -9782,13 +9747,13 @@
        "more": 10
       },
       {
-       "name": "Cards: Bosses n Nightmares: Collect 4 more cards for Platinum (141/145)",
+       "name": "Cards: Bosses n Nightmares: Collect 28 more cards for Ruby (146/174)",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Cards",
-         "group": "Bosses n Nightmares: Collect 4 more cards for Platinum (141/145)",
+         "group": "Bosses n Nightmares: Collect 28 more cards for Ruby (146/174)",
          "label": "Domeo Magmus:+3/10.5% Total Drop Rate (Passive)",
          "cur": "3",
          "goal": "Silver",
@@ -9799,7 +9764,7 @@
         {
          "locked": "",
          "section": "Cards",
-         "group": "Bosses n Nightmares: Collect 4 more cards for Platinum (141/145)",
+         "group": "Bosses n Nightmares: Collect 28 more cards for Ruby (146/174)",
          "label": "Demented Spiritlord:+7.5/17.5% Fighting AFK gain rate",
          "cur": "11",
          "goal": "Gold",
@@ -9808,7 +9773,7 @@
          "infinite": false
         }
        ],
-       "more": 16
+       "more": 12
       },
       {
        "name": "Cards: Events: Collect 8 more cards for Bronze (44/52)",
@@ -10063,13 +10028,6 @@
    ],
    "daily": [
     {
-     "block": "Setup check",
-     "kind": "every",
-     "steps": [
-      "Cards: presets 1, 2, 3, 4 not built to plan yet (card build session)."
-     ]
-    },
-    {
      "block": "Cards",
      "kind": "rinse",
      "steps": [
@@ -10184,7 +10142,7 @@
     "park_rule": "Super CHOWs with Autistopher"
    },
    "save_map": "W6 map 261",
-   "money": 1.61033142354003e+29,
+   "money": 1.6672970714161625e+29,
    "jobs": [
     {
      "job": "Super CHOWs (cooking speed 1.1x each, count only on him)",
@@ -10212,7 +10170,7 @@
          "locked": "",
          "section": "Death Note",
          "group": "Complete a minimum of Eclipse Skull (1B) in W7",
-         "label": "Pirate Underling in Pirate Upper Deck (1B remaining)",
+         "label": "Eggroll in Sushi Perimeter (1B remaining)",
          "cur": "0%",
          "goal": "100%",
          "score": 65,
@@ -10372,7 +10330,7 @@
          "section": "Stamps",
          "group": "Improve your total stamp levels",
          "label": "Total Stamp Levels",
-         "cur": "9577",
+         "cur": "9578",
          "goal": "11000",
          "score": 145,
          "ready": false,
@@ -10383,7 +10341,7 @@
          "section": "Stamps",
          "group": "Improve your total stamp levels",
          "label": "Total Stamp Levels",
-         "cur": "9577",
+         "cur": "9578",
          "goal": "13000",
          "score": 145,
          "ready": false,
@@ -10515,7 +10473,7 @@
        "section": "Stamps",
        "group": "Improve your total stamp levels",
        "label": "Total Stamp Levels",
-       "cur": "9577",
+       "cur": "9578",
        "goal": "11000",
        "score": 145,
        "ready": false,
@@ -10526,7 +10484,7 @@
        "section": "Stamps",
        "group": "Improve your total stamp levels",
        "label": "Total Stamp Levels",
-       "cur": "9577",
+       "cur": "9578",
        "goal": "13000",
        "score": 145,
        "ready": false,
@@ -11192,7 +11150,7 @@
    ],
    "flags": [],
    "move": {
-    "text": "Stamps: Total Stamp Levels 9577 -> 11000",
+    "text": "Stamps: Total Stamp Levels 9578 -> 11000",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
@@ -11261,7 +11219,7 @@
     "first": null,
     "priority": "Spelunking",
     "priority_jobs": [],
-    "rinse1": "Stamps: Total Stamp Levels 9577 -> 11000 (score 145)",
+    "rinse1": "Stamps: Total Stamp Levels 9578 -> 11000 (score 145)",
     "flag": ""
    },
    "today": [
@@ -11271,7 +11229,7 @@
      "src": "Toolbox timer \u00b7 books ready: max-first talents per card"
     },
     {
-     "do": "Stamps: Total Stamp Levels 9577 -> 11000",
+     "do": "Stamps: Total Stamp Levels 9578 -> 11000",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
     },
@@ -11286,7 +11244,7 @@
      "block": "Setup check",
      "kind": "every",
      "steps": [
-      "Cards: presets 1, 2, 3, 4, 7 not built to plan yet (card build session)."
+      "Cards: presets 5 not built to plan yet (card build session)."
      ]
     },
     {
@@ -11319,7 +11277,7 @@
       "If a stamp material is also used by another system, the card flags it. The Envelope Pile sigil makes max-level raises a lot cheaper.",
       "Griffy: Capitalist Stamp is a rare drop from World 6 monsters.",
       "Griffy: Farm Sand Castle materials rapidly on Elemental Sorcerer or print them for stamp upgrades.",
-      "Next goal: Total Stamp Levels 9577 -> 11000",
+      "Next goal: Total Stamp Levels 9578 -> 11000",
       "HOW: A bingo tile needed 3500 total stamp level or he'd be banned; he has 3690 stamps and survives.",
       "HOW: Bingo square: 15000 total stamp levels.",
       "Next goal: Skill 95 -> 100",
@@ -11332,13 +11290,13 @@
      "block": "Upgrade Vault",
      "kind": "playbook",
      "steps": [
-      "Buy Wicked Smart first: 330 -> 387. Autistocat has the coins for about 31 levels.",
+      "Buy Wicked Smart first: 330 -> 387. Autisticles has the coins for about 32 levels.",
       "Then Bullseye 440 -> 500.",
       "Then Kitchen Dream-mare 251 -> 327.",
       "Then Teh TOM 200 -> 261.",
       "Then Cooking Knowledge 310 -> 428.",
       "Then Artifact Find Chance 237 -> 250.",
-      "Buy on Autistocat, he has the most coins. Each level count assumes all his coins go to that one upgrade.",
+      "Buy on Autisticles, he has the most coins. Each level count assumes all his coins go to that one upgrade.",
       "Griffy: Additional money is valuable for vault progression.",
       "Griffy: Use the vault route to teleport to Doggy.",
       "Next goal: Wicked Smart 330 -> 387",
@@ -11674,7 +11632,7 @@
          "section": "Cape Vine",
          "group": "Golden Vines",
          "label": "Golden Vines: 1Ask Cathie for the next one at class Lv 1000",
-         "cur": "856",
+         "cur": "857",
          "goal": "1000",
          "score": 0,
          "ready": false,
@@ -11963,13 +11921,6 @@
    ],
    "daily": [
     {
-     "block": "Setup check",
-     "kind": "every",
-     "steps": [
-      "Cards: presets 1, 2, 3, 4 not built to plan yet (card build session)."
-     ]
-    },
-    {
      "block": "Timers ready (Toolbox)",
      "kind": "timer",
      "steps": [
@@ -12009,7 +11960,7 @@
       "Cape Vine: Pulse: Reaching class level 1000 earns a golden vine",
       "Cape Vine: Next goal: Easter Egg Backpack+10% Total DamageNot deposited 0 -> 1",
       "Cape Vine: Next goal: +1% Cape Vine Multi per deposited cape: +15% 15 -> 23",
-      "Cape Vine: Next goal: Golden Vines: 1Ask Cathie for the next one at class Lv 1000 856 -> 1000",
+      "Cape Vine: Next goal: Golden Vines: 1Ask Cathie for the next one at class Lv 1000 857 -> 1000",
       "Cape Vine:   HOW: You get one golden vine instantly and can unlock more by asking Catherine via the Ask Cathy button in the top left",
       "Cape Vine:   HOW: Reaching class level 1000 earns a golden vine",
       "15 / 23 capes on the vine. The next golden vine comes at class lv 1,000."
@@ -12093,22 +12044,22 @@
  ],
  "account": {
   "money": {
-   "total": 1.3743281123231635e+31,
+   "total": 1.3894694171494813e+31,
    "bank": 0,
    "per_char": {
-    "Autiszemo": 1.13076352037927e+30,
-    "Autistocat": 5.02759975384082e+30,
-    "Autisticles": 4.98442264033001e+30,
-    "Autistastic": 1.9747725309057083e+29,
-    "Autistabish": 1.532952703134933e+30,
-    "Autistacular": 1.250795676281e+29,
-    "Autistotle": 1.22790427826707e+29,
+    "Autiszemo": 1.1307962027763529e+30,
+    "Autistocat": 3.955582611488531e+30,
+    "Autisticles": 5.692328415870136e+30,
+    "Autistastic": 7.072028445840661e+29,
+    "Autistabish": 1.5329648642578495e+30,
+    "Autistacular": 1.2510584746217771e+29,
+    "Autistotle": 1.227976023647853e+29,
     "Autistomatic": 3.95896219847278e+24,
-    "Autistronaut": 4.4515790188922e+29,
-    "Autistopher": 1.61033142354003e+29,
+    "Autistronaut": 4.451818627912967e+29,
+    "Autistopher": 1.6672970714161625e+29,
     "Autistachio": 1.60002537958031e+28
    },
-   "holder": "Autistocat"
+   "holder": "Autisticles"
   },
   "alerts": [
    {
@@ -12184,7 +12135,7 @@
      "target": 110,
      "coins": 386848822182,
      "material": "Pocket Sand",
-     "owned": 976408558,
+     "owned": 973473058,
      "next_raise": 432124056.30195594,
      "total_mat": 3514939897.258701
     },
@@ -12217,7 +12168,7 @@
      "target": 100,
      "coins": 5881240195196,
      "material": "Golden Nomwich",
-     "owned": 106177,
+     "owned": 110023,
      "next_raise": 445773.00044028956,
      "total_mat": 10506509.91819525
     },
@@ -12266,24 +12217,24 @@
      "total_mat": 3651090.0433939174
     }
    ],
-   "stamp": "20261120T0208",
-   "vs": "20261120T0128",
-   "hours": 0.6694444444444444,
+   "stamp": "20261120T0452",
+   "vs": "20261120T0208",
+   "hours": 2.728294791645474,
    "watch": [
     {
      "item": "Tangled Cords",
-     "owned": 1744580,
-     "rate_hr": 0.0,
+     "owned": 1753305,
+     "rate_hr": 3197.968205898244,
      "owner": "Autistocat",
      "why": "Dream of Ironfish 68 -> 70 (exact cost: check bubble cost)"
     },
     {
      "item": "Void Bar",
-     "owned": 5029344,
-     "rate_hr": -6931.120331950208,
+     "owned": 4988164,
+     "rate_hr": -15093.676873225178,
      "owner": "Autistastic",
      "why": "ran out before (Zack); construction/printer use",
-     "runout_days": 30.234073275862063
+     "runout_days": 13.770015643792958
     },
     {
      "item": "Copper Bar",
@@ -12299,16 +12250,10 @@
    ],
    "runout": [
     {
-     "item": "Bleach Logs",
-     "owned": 14985752,
-     "rate_hr": -1612674.5228215768,
-     "runout_days": 0.3871868281523143
-    },
-    {
-     "item": "Gold Bar",
-     "owned": 22736906,
-     "rate_hr": -811941.908713693,
-     "runout_days": 1.1667966306040194
+     "item": "Void Ore",
+     "owned": 1000603752,
+     "rate_hr": -6035057.520331031,
+     "runout_days": 6.908272681668351
     }
    ]
   },
@@ -12396,7 +12341,7 @@
      "missing": 13
     },
     {
-     "stat": "Sources of Printer Output. Grand Total: 59.4 - 356.585x",
+     "stat": "Sources of Printer Output. Grand Total: 59.4 - 356.588x",
      "section": "Sampling",
      "owned": 9,
      "missing": 5
@@ -12476,7 +12421,7 @@
    ]
   },
   "coins": {
-   "richest": "Autistocat",
+   "richest": "Autisticles",
    "vault": [
     {
      "buy_richest": 45,
@@ -12502,8 +12447,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 69,
-     "buy_cost": 4.4159857594318095e+30,
+     "buy_richest": 70,
+     "buy_cost": 5.034297018194654e+30,
      "i": 60,
      "name": "Cooking Knowledge",
      "level": 310,
@@ -12525,8 +12470,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 41,
-     "buy_cost": 4.449067943384887e+30,
+     "buy_richest": 42,
+     "buy_cost": 5.428144770573432e+30,
      "i": 81,
      "name": "Finders Keepers",
      "level": 120,
@@ -12548,8 +12493,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 41,
-     "buy_cost": 4.610090958033183e+30,
+     "buy_richest": 42,
+     "buy_cost": 5.532632434042008e+30,
      "i": 54,
      "name": "Kitchen Dream-mare",
      "level": 251,
@@ -12571,8 +12516,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 36,
-     "buy_cost": 4.2019850452286955e+30,
+     "buy_richest": 37,
+     "buy_cost": 5.169002460285081e+30,
      "i": 65,
      "name": "Go Go Bubba the Seal",
      "level": 180,
@@ -12640,8 +12585,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 31,
-     "buy_cost": 4.6660944166786494e+30,
+     "buy_richest": 32,
+     "buy_cost": 5.617506767370864e+30,
      "i": 3,
      "name": "Wicked Smart",
      "level": 330,
@@ -12709,8 +12654,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 25,
-     "buy_cost": 4.2033303158704416e+30,
+     "buy_richest": 26,
+     "buy_cost": 5.052902096805909e+30,
      "i": 87,
      "name": "Rest of the Essentials",
      "level": 90,
@@ -12778,8 +12723,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 27,
-     "buy_cost": 4.615007782732062e+30,
+     "buy_richest": 28,
+     "buy_cost": 5.333807114454143e+30,
      "i": 4,
      "name": "Bullseye",
      "level": 440,
@@ -12893,6 +12838,7 @@
       "Autiszemo",
       "Autistocat",
       "Autisticles",
+      "Autistastic",
       "Autistabish",
       "Autistronaut"
      ]
@@ -12936,6 +12882,7 @@
       "Autiszemo",
       "Autistocat",
       "Autisticles",
+      "Autistastic",
       "Autistabish",
       "Autistronaut"
      ],
@@ -12943,6 +12890,7 @@
       "Autiszemo",
       "Autistocat",
       "Autisticles",
+      "Autistastic",
       "Autistabish",
       "Autistronaut"
      ]
@@ -12960,6 +12908,7 @@
       "Autiszemo",
       "Autistocat",
       "Autisticles",
+      "Autistastic",
       "Autistabish",
       "Autistronaut"
      ],
@@ -12978,6 +12927,7 @@
       "Autiszemo",
       "Autistocat",
       "Autisticles",
+      "Autistastic",
       "Autistabish"
      ],
      "max_ok": []
@@ -13106,6 +13056,7 @@
       "Autiszemo",
       "Autistocat",
       "Autisticles",
+      "Autistastic",
       "Autistabish"
      ],
      "check": false
@@ -13337,13 +13288,13 @@
      "Active: Frostbite Tundra- Sir Stache card:+54/63% Card Drop Chance (6 -> 7)",
      "Active: Smolderin' Plateau- Mister Brightside card:+36/42% Total Drop Rate (6 -> 7)",
      "Active: Frostbite Tundra- Bop Box card:+21/24.5% Total Drop Rate (6 -> 7)",
-     "Active: Bosses n Nightmares- Chaotic Troll card:+60/70% All Skill Efficiency (6 -> 7)",
-     "Active: Bosses n Nightmares- Amarok card:+12.5/17.5% Skill AFK gain rate (5 -> 7)",
-     "Active: Spirited Valley- Mama Troll card:+4/14% Skill AFK gain rate (2 -> 7)",
-     "Active: Hard Resources- Bunny card:+4/7% Skill AFK gain rate (4 -> 7)",
-     "Active: Bosses n Nightmares- Chaotic Amarok card:+12.5/17.5% Fighting AFK gain rate (5 -> 7)",
+     "Active: Bosses n Nightmares- Amarok card:+15/17.5% Skill AFK gain rate (6 -> 7)",
+     "Active: Spirited Valley- Mama Troll card:+10/14% Skill AFK gain rate (5 -> 7)",
+     "Active: Hard Resources- Bunny card:+5/7% Skill AFK gain rate (5 -> 7)",
+     "Active: Bosses n Nightmares- Chaotic Amarok card:+15/17.5% Fighting AFK gain rate (6 -> 7)",
      "Active: Bosses n Nightmares- Boop card:+5/7% Fighting AFK gain rate (5 -> 7)",
-     "Active: Spirited Valley- Woodlin Spirit card:+12/21% Multikill per tier (4 -> 7)"
+     "Active: Spirited Valley- Woodlin Spirit card:+15/21% Multikill per tier (5 -> 7)",
+     "Active: Smolderin' Plateau- Suggma card:+12/14% Multikill per tier (6 -> 7)"
     ],
     "note": "Any character may play active; what is best active for that character"
    },

@@ -1,5 +1,5 @@
 {
- "snapshot": "20261120T0208",
+ "snapshot": "20261120T0452",
  "cur": {
   "at": "2026-11-20T02:02:35.324Z",
   "kills": {
@@ -399,7 +399,7 @@
    "+305% damage"
   ]
  },
- "prev_at": "2026-11-20T01:31:37.427Z",
+ "prev_at": "2026-11-20T02:02:35.324Z",
  "groups": [
   {
    "name": "Complete a minimum of Eclipse Skull (1B) in W4",
@@ -450,12 +450,6 @@
     {
      "label": "Crawler in Crawly Catacombs (384M remaining)",
      "cur": "62%",
-     "goal": "100%",
-     "res": "lava-skull"
-    },
-    {
-     "label": "Lampar in Lampar Lake (661M remaining)",
-     "cur": "34%",
      "goal": "100%",
      "res": "lava-skull"
     },
@@ -514,18 +508,6 @@
      "res": "lava-skull"
     },
     {
-     "label": "Mama Troll in Troll Broodnest (604M remaining)",
-     "cur": "40%",
-     "goal": "100%",
-     "res": "lava-skull"
-    },
-    {
-     "label": "Woodlin Spirit in Edge of the Valley (749M remaining)",
-     "cur": "25%",
-     "goal": "100%",
-     "res": "lava-skull"
-    },
-    {
      "label": "River Spirit in Irrigation Station (811M remaining)",
      "cur": "19%",
      "goal": "100%",
@@ -539,13 +521,6 @@
    "items": [
     {
      "label": "Coralcave Guardian in Coralcave Perimeter (1B remaining)",
-     "cur": "0%",
-     "goal": "100%",
-     "optional": true,
-     "res": "none"
-    },
-    {
-     "label": "Pirate Underling in Pirate Upper Deck (1B remaining)",
      "cur": "0%",
      "goal": "100%",
      "optional": true,
@@ -620,6 +595,13 @@
      "goal": "100%",
      "optional": true,
      "res": "gold-skull"
+    },
+    {
+     "label": "Pirate Underling in Pirate Upper Deck (997M remaining)",
+     "cur": "0%",
+     "goal": "100%",
+     "optional": true,
+     "res": "platinum-skull"
     },
     {
      "label": "Noble Clam in The Clamworks (999M remaining)",
@@ -2065,7 +2047,7 @@
     {
      "label": "Neyeptune in Crystal Basecamp",
      "cur": "",
-     "goal": "1,133,114,361,807"
+     "goal": "1,133,271,667,327"
     },
     {
      "label": "Quenchie in Waterlogged Entrance",
@@ -2831,7 +2813,7 @@
     {
      "label": "Skydoggie Spirit in Dozey Dogpark",
      "cur": "",
-     "goal": "2,053,293,350"
+     "goal": "2,398,917,484"
     },
     {
      "label": "Royal Egg in Yolkrock Basin",
