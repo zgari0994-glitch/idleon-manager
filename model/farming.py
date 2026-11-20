@@ -132,28 +132,18 @@ def build():
 def card_lines(o):
     L = []
     s = o['stacks']
-    L.append(f"TOP: hold 200+ of every crop you've found. Evolution GMO stacks {s['Evolution GMO']}/{o['found']} (x{o['per_stack']} evo chance each). "
-             f"Lock crops before a bean trade so the trade can't take them to 0 (Griffy 2026-11 locks crops he needs; show-lock-all setting).")
-    if o['evo_chance'] is not None:
-        L.append(f"Why: open plots' next-crop chance is {o['evo_chance']:.1e} per harvest (base {o['evo_base']:.1e} x multi {o['evo_multi']:.2e}). "
-                 f"~{o['stacks_for_next_crop']} more 200-stacks make it ~100%. Check: Toolbox Plot > Crop evolution breakdown, 'Evolution GMO' should climb from x{o['evo_gmo_x']:,.0f}.")
-    fs = ', '.join(f"{f} {a}/{n}" for f, (a, n) in o['family_stacks'].items())
-    L.append(f"Stacks by family (200+ / found): {fs}. Basic grows in 1m46s, so it's the fastest place to build stacks. Pulse 2026-11: farm the low-quantity families first, then Basic.")
-    L.append(f"Other GMO stacks: Speed (1,000) {s['Speed GMO']}, EXP (2,500) {s['EXP GMO']}, Value (10,000) {s['Value GMO']}, Super (100,000) {s['Super GMO']}.")
+    L.append(f"TOP: hold 200 or more of every crop you've found ({s['Evolution GMO']} of {o['found']} so far). Each one raises the chance to discover new crops. Lock them before bean trades so a trade can't empty them (Griffy does this).")
+    fam = sorted(o['family_stacks'].items(), key=lambda x: x[1][0] / max(1, x[1][1]))
+    L.append(f"Weakest families: {', '.join(f'{f} ({a} of {n})' for f, (a, n) in fam[:3])}. Pulse: farm the low ones first. Basic grows fastest if you want quick stacks.")
     if o['rank_unspent'] > 0:
-        L.append(f"{o['rank_unspent']} Land Rank points unspent. Toolbox Rank Optimizer (Crop Evolution) puts points into: " +
-                 ', '.join(f"{n} (now {a})" for n, a, b, _ in o['rank_plan'][:4]) + '. Pulse 2026-11: resetting and repushing the rank database raises next-crop chance.')
-    nr = o.get('night_rank', [])
-    L.append(f"Night Market ({o['beans']:,.0f} beans), best value first (gain per share of beans; Super GMO weighted up per Pulse 2026-11, Evolution GMO per Pulse): " +
-             ' > '.join(spend.fmt(x) + ('' if x['afford'] else ' (save up)') for x in nr) + '. GMO gains scale with stacks, so they rise as you hold crops.')
+        L.append(f"Spend {o['rank_unspent']} Land Rank points, Toolbox's optimizer puts them into the Evolution boosts.")
+    nr = [x for x in o.get('night_rank', []) if x['afford']]
+    if nr: L.append(f"Night Market ({spend.h(o['beans'])} beans): buy {', '.join(x['item'].split(' ')[0] + ' ' + x['item'].split(' ')[1] if ' ' in x['item'] else x['item'] for x in nr[:3])} first.")
     blocked = [u for u in o['day'] if u['have'] is not None and u['cost'] and u['have'] < u['cost']]
-    if blocked:
-        L.append('Day Market is paid in crops; blocked now: ' + ', '.join(f"{u['name']} {u['lv']} (have {u['have']:,.0f} / {u['cost']:,.0f})" for u in blocked[:6]) + '. Holding crops unblocks these too.')
+    if blocked: L.append(f"Day Market is paid in crops and {len(blocked)} upgrades are waiting on them. Holding crops fixes this too.")
     if o['exotic_left']:
-        picks = [x for x in o['exotic_rotation'] if x['creator']]
-        L.append(f"Exotic Market: {o['exotic_left'][0]}/{o['exotic_left'][1]} purchases left, rotation ends in {o['exotic_next']}. Every exotic is Lv 0. "
-                 + ('Creator picks in this rotation: ' + '; '.join(f"{x['name']} (returns {x['returns']}, {x['creator']})" for x in picks) if picks else 'No creator-ranked pick in this rotation.')
-                 + ' GAP: exotic cost per purchase not mapped yet.')
+        picks = [x['name'] for x in o['exotic_rotation'] if x['creator']]
+        L.append(f"Exotic Market: {o['exotic_left'][0]} buys left this rotation ({o['exotic_next']} left)." + (f" Pulse likes {' and '.join(picks)}." if picks else ''))
     return L
 
 

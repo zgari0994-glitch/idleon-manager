@@ -13,7 +13,7 @@ exclude:   # leaves never shown (Zack's calls)
   - "more WOWs with"      # WOWs skipped (Griffy, findings/death_note_two_dbs.md)
   - "^Blue Ribbon Certification|^Extended Database"   # Legend Talents held until transcripts reviewed (Zack 11/16)
 
-account_priority: {text: "Cooking speed", set_by: zack, date: 2026-11-17}
+account_priority: {text: "auto: biggest current need (model/priority.py)", set_by: zack, date: 2026-11-19, note: "Zack 2026-11-19: priority is whatever holds the account back most. Cooking speed is one input, not pinned."}
 priorities:   # Zack 2026-11-17, in order. Chains (goal trees) get built for these first.
   - "Cooking speed"
   - "Start W7 activities not started yet"
@@ -26,7 +26,7 @@ characters:
     active: [crayon_crops]
     jobs:
       - {job: Farming, sections: [Farming, Beanstalk], basis: class, daily_fixed: ["Collect all crops, replant"]}
-      - {job: Cooking, sections: [Cooking], basis: class, feeds: priority, note: "Cooking speed = account priority now (Upgrade Vault Kitchen Dream-mare on Autistopher)"}
+      - {job: Cooking, sections: [Cooking], basis: class, feeds: priority, note: "Cooking speed matters (meals) but is ranked on merit, not pinned (Zack 2026-11-19)"}
       - {job: "Grimoire + Wraith Form (bones)", sections: [The Grimoire], basis: zack, daily_fixed: ["Wraith Form on (outfit buffs him)"], note: "Zemo always runs Wraith Form (outfit buffs him)"}
       - {job: Fish prints, sections: [{s: Sampling, itype: FISH}], basis: zack, note: "Zack 11/17: Zemo prints fish"}
       - {job: "Emperor showdowns", sections: [Emperor], basis: zack, note: "Zack 2026-11-19: best fighter (Zemo, top damage on Toolbox) pushes Emperor for bonuses; reset + re-climb only if a drop is really needed. Tastic keeps world bosses"}
@@ -110,7 +110,7 @@ characters:
     jobs:
       - {job: "Super CHOWs (cooking speed 1.1x each, count only on him)", sections: [{s: Death Note, rest: true}], basis: griffy, feeds: priority, note: "WOWs skipped (Griffy: weak scaling). findings/death_note_two_dbs.md"}
       - {job: "Stamps", sections: [Stamps], basis: light, note: "95%-off and Exalted stamp use = sourced only"}
-      - {job: "Upgrade Vault", sections: [Upgrade Vault], basis: light, feeds: priority, note: "Kitchen Dream-mare 251 -> 500 (cooking speed)"}
+      - {job: "Upgrade Vault", sections: [Upgrade Vault], basis: light, feeds: priority, note: "Order follows the biggest current need"}
       - {job: "Equinox", sections: [Equinox], basis: light}
       - {job: "Salt Lick", sections: [Salt Lick], basis: light}
       - {job: "Library (account-wide)", sections: [{s: Library, m: "^Account Wide"}], basis: light, note: "MAJOR: raise max talent level 299/441"}
@@ -155,18 +155,18 @@ every_character:   # Zack 2026-11-19: systems every character considers in its o
 unassigned:
 
 active_tasks:   # importance 1 = top. minutes = rough session length. Quick win = <= 15 min.
-  - {id: cranium, owner: Autistocat, daily: false, task: "Cranium Cooking on Wurms (big alchemy days only, not dailies)", importance: 1, minutes: 480, notes: ["Disconnect Viaduct of the Gods in Lab", "Move sigil char to a liquid", "Cauldron pts -> W7 bubble rolls"], src: zack}
-  - {id: compass_nomadic, owner: Autistacular, task: "Compass Nomadic push (Atomic Cost Crash 15, Atomic Potential 17, Aluminium 32)", importance: 1, minutes: 120, src: "AutoReview Compass + game"}
-  - {id: statues_es, owner: Autistabish, task: "Box (Penguins) then Seesaw (Cryosnakes) 25 -> 40", importance: 2, minutes: 60, src: "AutoReview statue table"}
-  - {id: dk_crystals, owner: Autistomatic, task: "DK crystals at Minichiefs: Essence Statue 2 -> 40", importance: 2, minutes: 60, src: "AutoReview statue table"}
-  - {id: greenstacks, owner: Autistotle, task: "Greenstack runs (closest items, candy/skips)", importance: 3, minutes: 30, src: zack}
-  - {id: observations, owner: Autistotle, task: "Research observations (daily tries)", importance: 2, minutes: 10, src: zack}
-  - {id: achievements, owner: Autistopher, task: "Achievement runs (easiest open first)", importance: 3, minutes: 30, src: zack}
-  - {id: breeding_ww, owner: Autistacular, task: "Active WW breeding overnight (normal form, Whale Wallop on bar). Fence = one type at a time: drop rate shinies Slime 5->20, Choccie 5->20, Xylobone 10->20 (cap 20 until Menagerie unlock 12)", importance: 2, minutes: 480, notes: ["Method: Pulse 6JgdYbiEKus 23:23 (one type to cap, then next)", "Rate pets = ~0.2% faster per level (my math): low value, swapped off fence", "Night 1 (11/17): rate pets +18-21K shiny days each"], src: "Pulse + AutoReview + my read"}
-  - {id: crayon_crops, owner: Autiszemo, task: "Discover new crop types: Crop Depot Crayon 125 -> 330 (shiny rate +1522% -> +4019%, ~2x total; 200 = Menagerie mission)", importance: 1, minutes: 20, src: "AutoReview Shiny Rate sources + Menagerie"}
-  - {id: bag_sweep, owner: "best-DR RG", task: "Bag sweep: farm missing bags once, store, each char pulls", importance: 3, minutes: 45, src: zack}
-  - {id: green_mush, owner: Autistachio, task: "1M Green Mushrooms for W2 weekly boss", importance: 3, minutes: 240, src: AutoReview}
-  - {id: prints_redo, owner: Autistomatic, task: "Redo all prints, then Royal Sampler off (Zack keeps it on for now)", importance: 3, minutes: 20, src: zack}
+  - {id: cranium, owner: Autistocat, daily: false, section: Bubbles, task: "Cranium Cooking on the Wurms. Only on big alchemy days, not every day.", importance: 1, minutes: 480, notes: ["Disconnect Viaduct of the Gods in Lab", "Move sigil char to a liquid", "Cauldron pts -> W7 bubble rolls"], src: zack}
+  - {id: compass_nomadic, owner: Autistacular, section: Compass, task: "Push the Compass Nomadic path. Spots 15, 17 and 32 unlock Atomic Cost Crash, Atomic Potential and the Aluminium atom.", importance: 1, minutes: 120, src: "AutoReview Compass + game"}
+  - {id: statues_es, owner: Autistabish, section: Statues, task: "Statues: Box at Penguins, then Seesaw at Cryosnakes, 25 -> 40.", importance: 2, minutes: 60, src: "AutoReview statue table"}
+  - {id: dk_crystals, owner: Autistomatic, section: Statues, task: "Farm DK crystals at the Minichiefs for the Essence statue, 2 -> 40.", importance: 2, minutes: 60, src: "AutoReview statue table"}
+  - {id: greenstacks, owner: Autistotle, section: Greenstacks, task: "Greenstack runs on the closest items (use candy and skips).", importance: 3, minutes: 30, src: zack}
+  - {id: observations, owner: Autistotle, section: Research, task: "Use the daily Research observation rolls.", importance: 2, minutes: 10, src: zack}
+  - {id: achievements, owner: Autistopher, section: Achievements, task: "Knock out the easiest open achievements.", importance: 3, minutes: 30, src: zack}
+  - {id: breeding_ww, owner: Autistacular, section: Breeding, task: "Active Wind Walker breeding overnight (normal form, Whale Wallop on your bar). Fence one drop-rate shiny at a time up to 20: Slime 5, Choccie 5, Xylobone 10.", importance: 2, minutes: 480, notes: ["Method: Pulse 6JgdYbiEKus 23:23 (one type to cap, then next)", "Rate pets = ~0.2% faster per level (my math): low value, swapped off fence", "Night 1 (11/17): rate pets +18-21K shiny days each"], src: "Pulse + AutoReview + my read"}
+  - {id: crayon_crops, owner: Autiszemo, section: Farming, task: "Discover new crop types (125 now). Each one boosts shiny rate, about double at 330, and 200 finishes a Menagerie mission.", importance: 1, minutes: 20, src: "AutoReview Shiny Rate sources + Menagerie"}
+  - {id: bag_sweep, owner: "best-DR RG", task: "Bag sweep: farm each missing bag once, store it, every character pulls one.", importance: 3, minutes: 45, src: zack}
+  - {id: green_mush, owner: Autistachio, task: "Kill 1M Green Mushrooms for the W2 weekly boss.", importance: 3, minutes: 240, src: AutoReview}
+  - {id: prints_redo, owner: Autistomatic, section: Sampling, task: "Redo all prints. Royal Sampler stays on for now (your call).", importance: 3, minutes: 20, src: zack}
 
 locked:   # never hidden: what unlocks it + where that sits
   - {feature: "Aluminium Atom", unlock: "Compass Nomadic Path pos 32 (now 16/38)", owner: Autistacular}

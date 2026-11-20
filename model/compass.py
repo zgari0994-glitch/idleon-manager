@@ -77,32 +77,24 @@ def build():
 
 def card_lines(o):
     L, bal = [], o['balance']
-    cheap = sorted([p for p in o['portals'] if p['afford']], key=lambda p: (p['currency'] != 'Stardust', p['cost']))
-    star = [p for p in cheap if p['currency'] == 'Stardust']
-    if star: L.append("TOP: open these portals (hold 2s), stardust: " + ', '.join(f"{p['map']} P{p['portal']} {h(p['cost'])}" for p in star)
-                      + f" = {h(sum(p['cost'] for p in star))} of {h(bal['Stardust'])}. Check the portal character lock in game.")
-    moon = [p for p in cheap if p['currency'] == 'Moondust']; run, pick = 0, []
+    star = [p for p in o['portals'] if p['afford'] and p['currency'] == 'Stardust']
+    if star: L.append(f"TOP: open {len(star)} cheap portals in W1 and W2 (hold them for 2 seconds). They cost {h(sum(p['cost'] for p in star))} stardust total and you have {h(bal['Stardust'])}. Check in game that Autistacular can open them.")
+    moon = sorted([p for p in o['portals'] if p['afford'] and p['currency'] == 'Moondust'], key=lambda p: p['cost']); run, pick = 0, []
     for p in moon:
-        if run + p['cost'] <= bal.get('Moondust', 0) * 0.6: run += p['cost']; pick.append(p)
-    if pick: L.append("Moondust portals (keeps 40% for upgrades): " + ', '.join(f"{p['map']} {h(p['cost'])}" for p in pick) + f" = {h(run)} of {h(bal['Moondust'])}.")
+        if run + p['cost'] <= bal.get('Moondust', 0) * 0.6: run += p['cost']; pick.append(p['map'])
+    if pick: L.append(f"Then open {', '.join(pick)} with moondust ({h(run)} of your {h(bal['Moondust'])}, keeps some for upgrades).")
     nxt = [t for t in o['targets'] if t['tab'] == (o['targets'][0]['tab'] if o['targets'] else '')]
-    for t in nxt:
-        u = t['up'] or {}
-        aff = u.get('cost') and u.get('currency') and u['cost'] <= bal.get(u['currency'], 0)
-        cost = '' if not u.get('cost') else f" Next level {h(u['cost'])} {u.get('currency') or ''}" + (", buy now." if aff else f", short {h(u['cost'] - bal.get(u['currency'], 0))}." if u.get('currency') else '.')
-        L.append(f"AutoReview {t['tab']} (now {o['ar_tier']}): {t['name']} {t['cur']} -> {t['goal']}.{cost}")
-    later = {t['name'] for t in o['targets']} - {t['name'] for t in nxt}
-    if later: L.append('Later AutoReview tiers also want: ' + ', '.join(sorted(later)))
-    if o['optimizer']: L.append('Toolbox optimizer (damage): ' + '; '.join(o['optimizer'][:2]))
+    if nxt: L.append('Next Compass tier needs: ' + ', '.join(f"{t['name']} {t['cur']} -> {t['goal']}" for t in nxt) + '.')
+    ep = next((t['up'] for t in nxt if t['name'] == 'Elemental Path' and t['up']), None)
+    if ep and ep.get('cost'): L.append(f"Elemental Path's next level costs {h(ep['cost'])} stardust, you're {h(max(0, ep['cost'] - bal.get('Stardust', 0)))} short.")
     cheapu = [u for u in o['upgrades'] if u['cost'] and u['currency'] and not u['maxed'] and u['cost'] <= 0.01 * bal[u['currency']]]
-    if cheapu: L.append('Under 1% of balance (just buy): ' + ', '.join(f"{u['name']} {u['lv']}->{u['lv'] + 1} {h(u['cost'])} {u['currency'][:4]}" for u in sorted(cheapu, key=lambda u: u['cost'])[:8]))
+    if cheapu: L.append(f"{len(cheapu)} upgrades cost almost nothing right now, just buy them: " + ', '.join(u['name'] for u in sorted(cheapu, key=lambda u: u['cost'])[:6]) + '.')
     ex = next((u for u in o['upgrades'] if u['name'] == 'Exalted Stamps'), None)
-    if ex and ex['cost']: L.append(f"Exalted Stamps Lv {ex['lv']} -> {ex['lv'] + 1}: {h(ex['cost'])} {ex['currency']} ({'affordable' if ex['cost'] <= bal.get(ex['currency'], 0) else 'short'}). One more exalt use (stamps planner exalt order). Griffy 2026-11: use moons for another Exalted Stamp. "
-                                      f"Shares stardust with Elemental Path (tier 4): buying it pushes that back by {h(ex['cost'])}. Need outweighs math: pick by which is the bigger need (Zack).")
+    if ex and ex['cost']: L.append(f"Your call: Exalted Stamps ({h(ex['cost'])} stardust) gives one more stamp exalt, but it delays Elemental Path by the same amount. Griffy uses moons for an extra exalt.")
+    if o['abom_next']: L.append(f"Kill {o['abom_next'][0]} next ({o['abom_next'][1].split(' · ')[-1]}). It's abomination #{o['abom_killed'] + 1} and it lets Tempest Form into the W3 town.")
     pl = print_line(o)
-    if pl: L.append('Print day: ' + pl + ' (one of the 6 print buffs; printer planner tracks its day counter).')
-    if o['abom_next']: L.append(f"Abominations {o['abom_killed']} killed. Next: {o['abom_next'][0]} ({o['abom_next'][1]}, HP {o['abom_next'][2]}). {o['gate'] or ''}")
-    L.append("Griffy 2026-10: farm all medallions (Tempest damage + accuracy per medallion), kill every abomination for class XP. Toolbox should show Total levels up from " + str(o['total_levels']) + " after buys.")
+    if pl: L.append(pl)
+    L.append('Griffy: farm every medallion and kill every abomination.')
     return L
 
 
@@ -110,7 +102,7 @@ def print_line(o=None):
     o = o or json.load(open(ROOT / 'model' / 'compass.json'))
     mp = next((u for u in o['upgrades'] if u['name'] == 'Moon of Print'), None)
     if not mp: return None
-    return f"Moon of Print Lv {mp['lv']}/{mp['max']} ({mp['desc']}); next level {h(mp['cost'])} {mp['currency']} on Autistacular's Compass."
+    return f"Print day: Moon of Print is {mp['lv']} of {mp['max']}, next level {h(mp['cost'])} stardust."
 
 
 if __name__ == '__main__':

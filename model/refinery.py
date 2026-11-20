@@ -44,16 +44,15 @@ def build():
 
 def card_lines(o):
     L = []
-    if o['throttle_ready']: L.append(f"TOP: Refinery Throttle READY on {', '.join(o['throttle_ready'])} (Squire cycles, use them).")
-    for s in o['salts']:
-        head = f"{s['salt']} rank {s['rank']}" + (f" (max safe {s['safe']:,}, capped by {s['limit']})" if s.get('safe') else '') + f", {s['balance_hr']}/hr, auto refine {s['auto']}"
-        mats = ', '.join(f"{a} {b:,.0f}" for a, b in s['mats'])
-        room = s.get('safe') and s['safe'] > s['rank']
-        L.append(f"{head}. Per cycle: {mats}." + (" Room to rank up." if room else ' At its safe rank: inputs cap it.'))
-    if o['soul_use_hr']: L.append('Souls the salt chain eats: ' + ', '.join(f"{k} {v:,.0f}/hr ({v * 24:,.0f}/day)" for k, v in o['soul_use_hr'].items()) + '. Worship has to cover this before any prayer/stamp soul spend.')
-    L.append("Griffy: red salts first, keep explosive/blue/green levels limited, aim for perpetual motion; refinery cycles are S tier in the skull shop. "
-             "Prints feed the salts (Spore Cap + Copper -> Redox, Goldfish + Fly + Pocket Sand -> Spontaneity), so those prints stay locked.")
-    if o['locked']: L.append('Locked salts: ' + ', '.join(o['locked']))
+    if o['throttle_ready']: L.append(f"TOP: Refinery Throttle is ready on {' and '.join(o['throttle_ready'])}, use it.")
+    room = [s for s in o['salts'] if s.get('safe') and s['safe'] > s['rank']]
+    if room:
+        r0 = room[0]
+        L.append(f"Rank up {r0['salt']} first (rank {r0['rank']}, lots of room). Each salt above it is held back by the one below, so raising the first one frees the rest. Griffy: red salts first.")
+    tight = [s['salt'] for s in o['salts'] if s.get('safe') and s['safe'] - s['rank'] <= 1]
+    if tight: L.append(f"{', '.join(tight)} {'is' if len(tight) == 1 else 'are'} one rank from {'its' if len(tight) == 1 else 'their'} cap.")
+    if o['soul_use_hr']: L.append('The salts eat ' + ' and '.join(f"{v * 24 / 1000:,.0f}K {k} a day" for k, v in o['soul_use_hr'].items()) + '. Keep that covered before spending souls elsewhere.')
+    L.append('Keep the Spore Cap, Copper, Goldfish, Fly and Pocket Sand prints, they feed the salts.')
     try:
         import saltlick; sl = saltlick.refinery_line(saltlick.build())
         if sl: L.append(sl + '.')

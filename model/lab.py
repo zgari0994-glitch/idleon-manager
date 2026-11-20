@@ -21,13 +21,13 @@ def build():
 
 def card_lines(o):
     L = []
-    if o['on']: L.append(f"Lab bonuses {o['on'][0]}/{o['on'][1]}, jewels {o['on'][2]}/{o['on'][3]} on, {o['on'][4]}/{o['on'][5]} jewels found.")
+    if o['on']: L.append(f"Lab is fine: all {o['on'][1]} bonuses on, {o['on'][2]} of {o['on'][3]} jewels on.")
     nos = [p for p, l, r in o['players'] if 'Souped' not in l]
-    if nos: L.append(f"Not souped up: {', '.join(nos)} (lower range). Souped up = linked by a buffed connector, my read.")
-    blk = [x for x in o['rotation'] if x['need'] and x['state'] != 'Sold out']
-    if blk: L.append('Rotation items short on materials: ' + '; '.join(f"{x['item']} ({x['date']}) needs {', '.join(x['need'])} more" for x in blk))
-    opn = [x for x in o['rotation'] if x['state'] == 'open' and not x['need']]
-    if opn: L.append('Buyable from rotation: ' + '; '.join(f"{x['item']} ({x['date']}): {x['effect']}" for x in opn[:4]))
+    if nos: L.append(f"{', '.join(nos)} isn't souped up, so his lab range is lower.")
+    blk = [x for x in o['rotation'] if x['need'] and x['state'] != 'Sold out'][:3]
+    if blk: L.append('Coming in the shop but you are short: ' + '; '.join(f"{x['item']} on {x['date'][:5]} (need {x['need'][0]} more)" for x in blk) + '.')
+    opn = [x for x in o['rotation'] if x['state'] == 'open' and not x['need'] and x['effect']][:3]
+    if opn: L.append('You can buy these when they rotate in: ' + '; '.join(f"{x['item']} ({x['effect'][:50]})" for x in opn) + '.')
     return L
 
 

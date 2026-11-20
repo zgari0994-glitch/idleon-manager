@@ -1,3 +1,4 @@
+import re
 """Card engine v2 (Phase 1, 2026-11-17). One card per character, fixed layout:
 move -> quick wins -> active -> AFK -> every sub-system (current -> goal) -> locked -> library talents -> bags.
 Plus an account block: alerts, money, salts, ranked active list, unassigned jobs.
@@ -220,6 +221,12 @@ def route_of(label):
     return None
 ROUTED = {}
 ATASKS = Y.get('active_tasks', [])
+try:
+    import priority as _PRIM
+    _PRI = _PRIM.build(); PRI_TOP = _PRI['top']['section'] if _PRI['top'] else ''
+    PRI_SECS = {x['section'] for x in _PRI['needs'][:3]}
+except Exception as _e:
+    _PRI, PRI_TOP, PRI_SECS = None, '', set()
 # Toolbox dashboard timers (newest timers.json across snapshots; age shown)
 tfiles = sorted(os.path.join(R, 'snapshots', d, 'timers.json') for d in os.listdir(os.path.join(R, 'snapshots'))
                 if os.path.exists(os.path.join(R, 'snapshots', d, 'timers.json')))
@@ -287,13 +294,13 @@ for name, cfg in Y['characters'].items():
             mp = r0[2].split(' in ', 1)[-1]; wd = world_of(mp)
             card['park'] = {'text': f"W{wd if wd else '?'} {mp} ({r0[2].split(' in ')[0]}) · {r0[0]:,.0f} kills left, {-r0[1]:.0f}% done · fewest kills left of {len(started)} started targets" + ('' if started else ' (none started: may be unreachable)'), 'src': 'data rule (Zack-approved) on AutoReview Death Note'}
     # WORKING TOWARD: rinse #1 for this character; flag when it is not on the account priority
-    pri = Y.get('account_priority', {}).get('text', '')
-    pjobs = [j['job'] for j in cfg['jobs'] if j.get('feeds') == 'priority']
+    pri = PRI_TOP   # Zack 2026-11-19: priority = biggest current need (model/priority.py), never pinned
+    pjobs = [j['job'] for j in cfg['jobs'] if any((s if isinstance(s, str) else s.get('s')) in PRI_SECS for s in j.get('sections', []))]
     first = cfg.get('first')  # Zack override: this job goes above the priority on this card
     rin = max(finite or [{}], key=lambda i: i.get('score', 0)) if finite else None
     card['toward'] = {'first': first, 'priority': pri, 'priority_jobs': pjobs,
                       'rinse1': f"{rin['job']}: {rin['label'][:90]} {rin['cur']} -> {rin['goal']} (score {rin['score']})" if rin else 'none',
-                      'flag': (f"Rinse ranks {rin['job']} first, not your priority ({pri})" if rin and rin['job'] not in pjobs and rin['job'] != first and pjobs else '')}
+                      'flag': (f"Rinse ranks {rin['job']} first; the account's biggest need right now is {pri}" if rin and rin['job'] not in pjobs and rin['job'] != first and pjobs else '')}
     # TODAY: ordered steps
     steps = []
     for r in ready_now:
@@ -307,9 +314,9 @@ for name, cfg in Y['characters'].items():
     if pitems:
         pi = max(pitems, key=lambda i: (i['ready'], i['score']))
         if pi['section'] == 'Death Note' and rule:
-            steps.append({'do': f"PRIORITY ({pri}): {pi['job']} at PARK: {card['park']['text'].split(' · ')[0]}", 'done': 'target cleared, then next fewest-left', 'src': card['park']['src']})
+            steps.append({'do': f"BIGGEST NEED ({pi['section']}): {pi['job']} at PARK: {card['park']['text'].split(' · ')[0]}", 'done': 'target cleared, then next fewest-left', 'src': card['park']['src']})
         else:
-            steps.append({'do': f"PRIORITY ({pri}): {pi['job']}: {pi['label'][:90]} {pi['cur']} -> {pi['goal']}", 'done': f"{pi['goal']}", 'src': 'rinse within your priority jobs'})
+            steps.append({'do': f"BIGGEST NEED ({pi['section']}): {pi['job']}: {pi['label'][:90]} {pi['cur']} -> {pi['goal']}", 'done': f"{pi['goal']}", 'src': 'priority.py (biggest current need)'})
     if card['move']['src'] != 'GAP' and not (first and card['move']['text'].startswith(first)): steps.append({'do': card['move']['text'], 'done': 'goal reached or next step', 'src': card['move']['src']})
     for v in qg.values():
         i = v[0]; steps.append({'do': f"{i['job']}: {i['label'][:90]}", 'done': f"{i['goal']}", 'src': 'AutoReview (ready now)' + (f", +{len(v)-1} more" if len(v) > 1 else '')})
@@ -367,13 +374,13 @@ for name, cfg in Y['characters'].items():
                         st.append(f"{pre}Lever on {ro}: {f0['label'][:60]}"); continue
                     pq = prereq_of(f0['label'], sec, name)
                     if pq and pq[1] and pq[1] != name:
-                        PREREQ.setdefault(pq[1], []).append(f"Unblocks {name}: {pq[0][:90]} (so {name} can push {GD.label_name(f0['label'])[:40]})")
+                        PREREQ.setdefault(pq[1], []).append(f"{name} is waiting on you: {pq[0].split('. Now:')[0].split(' Now:')[0][:90]}.")
                     st.append(f"{pre}Push: {re.sub(r'^Autis[a-z]+:\s*', '', f0['label'])[:80]} {f0['cur']} -> {f0['goal']}" + (f" · {f0['locked']}" if f0.get('locked') else '')
                               + (f" · BLOCKED: {pq[0][:80]}" + (f" ({pq[1]}'s job)" if pq[1] and pq[1] != name else '') if pq else ''))
                     for tg, h in how_line(sec, f0['label']):
                         st.append(f"{pre}  {tg}: {h}")
                     if len(seen_g) == 3: break
-            if not st: st.append(('Nothing to do today' if jcfg.get('daily') == 'ready_only' else 'PLAN') + ': ' + (j.get('note') or j.get('state') or 'needs a playbook'))
+            if not st: st.append('Nothing to do today.' if jcfg.get('daily') == 'ready_only' else ('No plan for this one yet.' if not j.get('note') or 'AutoReview section' in (j.get('note') or j.get('state') or '') else j['note']))
         daily.append({'block': j['job'], 'kind': kind, 'steps': st})
     for l in card['locked']:
         daily.append({'block': f"Unlock: {l['feature']}", 'kind': 'unlock', 'steps': [l['unlock']]})
@@ -387,7 +394,7 @@ for l in Y.get('locked', []):
         if sc > best and len(sname) > 4: best, o_unlock = sc, o
     for feat_owner in [x.strip() for x in str(l['owner']).split(',')]:
         if best >= 90 and o_unlock and o_unlock != feat_owner and feat_owner in by_name:
-            PREREQ.setdefault(o_unlock, []).append(f"Unblocks {feat_owner}: {l['unlock'][:100]} (unlocks {l['feature']})")
+            PREREQ.setdefault(o_unlock, []).append(f"{feat_owner} is waiting on you: {l['unlock'].split('. Now:')[0].split(' Now:')[0][:90]} (unlocks {re.split(r' [(]', l['feature'])[0]}).")
             for cd in cards:
                 if cd['name'] == feat_owner:
                     for b in cd['daily']:
@@ -492,6 +499,13 @@ account = {'money': {'total': sum(money.values()) + bank, 'bank': bank, 'per_cha
            'loop': ['7am PC: refresh, full/maxed/timers checklist, dailies due now',
                     'Workday: active task(s) running (top of the ranked list)',
                     '3pm: cloud save, refresh, then cards one character at a time on the tablet']}
+try:
+    import active as _ACT
+    account['active_plan'] = _ACT.build()
+except Exception as _e:
+    account['active_plan'] = None; print('active plan failed:', _e)
+import plain as _PL
+cards = _PL.clean(cards); account = _PL.clean(account)
 json.dump({'meta': meta, 'cards': cards, 'account': account}, open(os.path.join(R, 'plans', 'latest.json'), 'w'), indent=1)
 
 # ---------- markdown ----------
@@ -506,9 +520,9 @@ L.append('')
 for cd in sorted(cards, key=lambda x: x['slot']):
     L.append(f"## {cd['slot']}. {cd['name']} · {cd['class']} {cd['level']} · coins {m(cd['money'])}")
     tw = cd['toward']
-    L.append((f"WORKING TOWARD: {tw['first']} first (Zack), then " if tw.get('first') else "WORKING TOWARD: ") + f"{tw['priority']} via {', '.join(tw['priority_jobs']) or 'none of his jobs'} · rinse #1: {tw['rinse1']}")
-    if tw['flag']: L.append(f"FLAG: {tw['flag']}")
-    L.append(f"PARK: {cd['park']['text']} [{cd['park']['src']}] (save shows {cd['save_map']})")
+    L.append(f"FOCUS: the account's biggest need is {tw['priority']}." + (f" His part: {', '.join(tw['priority_jobs'])}." if tw['priority_jobs'] else '') + (f" {tw['first']} comes first on this card (your call)." if tw.get('first') else ''))
+
+    L.append(f"PARK: {re.sub(r' *[(\[][^)\]]*(?:[0-9]{2}:[0-9]{2}|Pulse|zack)[^)\]]*[)\]]', '', cd['park']['text'])}")
     L.append('DAILY RUN:')
     n = 0
     for b in cd['daily']:
@@ -530,5 +544,6 @@ for cd in sorted(cards, key=lambda x: x['slot']):
     if cd['bags']: L.append('- Bags missing: ' + '; '.join(b[:50] for b in cd['bags']))
     if cd.get('buffs_missing'): L.append(f"- BUFF SOURCES MISSING ({len(cd['buffs_missing'])}, model/buffs.md): " + ' | '.join(cd['buffs_missing'][:8]))
     L.append('')
+if account.get('active_plan'): L += ['', '## Active plan', ''] + _ACT.lines(account['active_plan'])[1:]
 open(os.path.join(R, 'plans', f'{stamp}.md'), 'w').write('\n'.join(L))
 print(f"{len(cards)} cards, {sum(len(j['subs']) for c in cards for j in c['jobs'])} sub-systems, {len(alerts)} alerts -> plans/{stamp}.md")

@@ -13,9 +13,9 @@ def build_emperor():
 def lines_emperor(o):
     best = int(o['best']); L = []
     a = o['attempts'].split(' / ')
-    if int(a[0]) > 0: L.append(f"TOP: {o['attempts']} Emperor attempts unused (+1/day, cap {a[1]}): push past {best}. Zack 2026-11-19: best fighter (Autiszemo, highest damage on Toolbox) pushes for the bonuses; reset + re-climb only if a drop is really needed.")
-    nxt = sorted([(int(x.split(',')[0]), b) for b, tot, x in o['bonuses'] if x[0].isdigit()])[:5]
-    L.append(f"Next showdown breakpoints after {best}: " + ', '.join(f"{lv} {b}" for lv, b in nxt) + f". Next level gives {o['next_bonus']}.")
+    if int(a[0]) > 0: L.append(f"TOP: use your {a[0]} Emperor attempts and push past showdown {best}. Autiszemo goes, he hits hardest. Only reset and climb again if you really need a drop.")
+    nxt = sorted([(int(x.split(',')[0]), b) for b, tot, x in o['bonuses'] if x[0].isdigit()])[:4]
+    L.append('Coming up: ' + ', '.join(f"{lv} gives more {b.lower()}" for lv, b in nxt) + '.')
     return L
 
 
@@ -26,9 +26,9 @@ def build_islands():
 
 def lines_islands(o):
     d = []
-    if o['Garbage to collect'] and o['Garbage to collect'] != '0': d.append(f"collect {o['Garbage to collect']} garbage (holding {o['Garbage']})")
-    if o['Mobs waiting'] and o['Mobs waiting'] != '0': d.append(f"fight {o['Mobs waiting']} crystal mobs (candy)")
-    return ([f"TOP: Islands: {', '.join(d)}."] if d else []) + [f"Bottles {o['Bottles']}, shimmer {o['Shimmer']} (weekly trial)."]
+    if o['Garbage to collect'] and o['Garbage to collect'] != '0': d.append(f"collect {o['Garbage to collect']} garbage")
+    if o['Mobs waiting'] and o['Mobs waiting'] != '0': d.append(f"fight the {o['Mobs waiting']} crystal mobs (they drop candy)")
+    return [f"TOP: Islands: {' and '.join(d)}."] if d else []
 
 
 def build_arcade():
@@ -39,12 +39,13 @@ def build_arcade():
 
 def lines_arcade(o):
     L = []
-    if o['full']: L.append(f"TOP: Arcade full ({o['balls']} balls): claim now.")
+    if o['full']: L.append("TOP: the Arcade is full, claim your balls.")
     rot = [u for u in o['ups'] if u[0] in o['rotation']]
+    nm = lambda a: re.sub(r'^\+?[\d.]+[x%]? ', '', a)
     aff = sorted([u for u in rot if u[2] <= o['gold'] and u[1] > 0], key=lambda u: u[2])
-    if aff: L.append(f"Arcade gold balls {o['gold']:,.0f}, in rotation and affordable: " + ', '.join(f"{a} Lv {lv} ({c:,.0f})" for a, lv, c in aff))
+    if aff: L.append(f"Spend gold balls on {', '.join(nm(a) for a, lv, c in aff)} ({o['gold']:,.0f} gold balls).")
     big = [u for u in rot if u[2] > o['gold']]
-    if big: L.append('Arcade saving for: ' + ', '.join(f"{a} Lv {lv} ({c:,.0f})" for a, lv, c in big))
+    if big: L.append(f"Saving for {' and '.join(nm(a) for a, lv, c in big)} (they cost {big[0][2]:,.0f}+).")
     return L
 
 
@@ -57,9 +58,7 @@ def build_owl():
 
 def lines_owl(o):
     aff = [u for u in o['ups'] if u[2] and u[2] <= o['feathers']]
-    L = [f"Owl: {len(aff)} upgrades affordable ({o['feathers']:.3g} feathers): " + ', '.join(f"{a} Lv {lv}" for a, lv, c in aff) + '.'] if aff else []
-    L.append(f"Megafeathers {o['mega']} (Equinox Voter Rights needs all 10 megafeathers + 12 megafish).")
-    return L
+    return ([f"Owl: buy all {len(aff)} upgrades, you have way more feathers than they cost."] if aff else []) + [f"{o['mega']} megafeathers so far."]
 
 
 def build_killroy():
@@ -71,10 +70,10 @@ def build_killroy():
 
 def lines_killroy(o):
     L = []
-    if o['weeks']: L.append(f"Killroy this week ({o['weeks'][0][0]}): {o['weeks'][0][1]}. Next: " + '; '.join(f"{d} {r}" for d, r in o['weeks'][1:3]))
+    if o['weeks']: L.append(f"This week's Killroy rooms: {o['weeks'][0][1].replace(' ·', ':')}.")
     aff = [x for x in o['perm'] if x[1] <= o['skulls']]
-    if aff: L.append(f"Killroy skulls {o['skulls']}: permanent upgrades affordable: " + ', '.join(f"{a[:50]} ({c})" for a, c in aff))
-    L.append('Equinox challenge: 2,000 kills in one Killroy run = +35% bar fill (best single room so far 1,296).')
+    if aff: L.append(f"With {o['skulls']} skulls you can buy: " + ', '.join(a.split(',')[0].split('!')[0][:40] for a, c in aff[:4]) + '.')
+    L.append('Get 2,000 kills in one room to finish an Equinox challenge (best so far 1,296).')
     return L
 
 
@@ -88,10 +87,9 @@ def build_hole():
 
 def lines_hole(o):
     L = []
-    if o['ready']: L.append('TOP: Hole study levels Ready: ' + ', '.join(f"{a} Lv {b} ({c})" for a, b, c in o['ready']) + '.')
-    if o['soon']: L.append('Next study levels: ' + ', '.join(f"{a} in {t}" for a, b, c, t in o['soon']))
-    if o['schem_aff']: L.append('Engineer schematics affordable: ' + ', '.join(f"{a} ({c})" for a, c in o['schem_aff']))
-    L.append(f"Caverns {o['caverns']}, schematics {o['schematics']}.")
+    if o['ready']: L.append(f"TOP: Hole study level ready on {', '.join(a for a, b, c in o['ready'])}, bump it.")
+    if o['soon']: L.append('Next ones ready: ' + ', '.join(f"{a} in {t}" for a, b, c, t in o['soon'][:3]) + '.')
+    if o['schem_aff']: L.append('Engineer schematics you can afford: ' + ', '.join(a for a, c in o['schem_aff'][:4]) + '.')
     return L
 
 
@@ -101,7 +99,7 @@ def build_slab():
 
 
 def lines_slab(o):
-    return [f"Slab {o['Looted items']} looted, {o['Missing items']} missing (each new item raises the slab multi {o['Slab bonus multi']}). Greenstacks {o['Greenstacks']}."]
+    return [f"Slab: {o['Missing items']} items you've never picked up. Each new one raises the slab bonus."]
 
 
 def build_beanstalk():
@@ -114,8 +112,8 @@ def build_beanstalk():
 
 
 def lines_beanstalk(o):
-    f = sorted(o['foods'], key=lambda x: -(x[2] / x[3]))
-    return ['Beanstalk next ranks (closest first): ' + ', '.join(f"{a} R{r} {ow:,.0f}/{nd:,.0f}" for a, r, ow, nd in f[:5])]
+    f = sorted([x for x in o['foods'] if x[2] < x[3]], key=lambda x: -(x[2] / x[3]))
+    return ['Beanstalk, closest to the next rank: ' + ', '.join(f"{a} ({ow / nd:.0%})" for a, r, ow, nd in f[:4]) + '.']
 
 
 def build_capevine():
@@ -124,7 +122,7 @@ def build_capevine():
 
 
 def lines_capevine(o):
-    return [f"Cape Vine {o['Capes collected']} capes, multi {o['Bonus multi']}. Next Golden Vine at {o['Next Golden Vine']} (missing capes + sources in acquire.md)."]
+    return [f"{o['Capes collected']} capes on the vine. The next golden vine comes at {o['Next Golden Vine'].lower()}."]
 
 
 def build_shops():
@@ -135,8 +133,9 @@ def build_shops():
 
 
 def lines_shops(o):
-    return [f"Event Shop ({o['rotation']}): {o['points']} points. Cheapest targets: " + ', '.join(f"{a} {c}" for a, d, h, c in sorted(o['items'], key=lambda x: int(x[3]))[:4]) + '.',
-            f"Ballot vote resets in {o['ballot_next']}, Meritocracy in {o['merit_next']}: vote before reset."]
+    it = sorted(o['items'], key=lambda x: int(x[3]))[:2]
+    return [f"Event Shop: {o['points']} points. Cheapest wanted: " + ', '.join(f"{a} ({c})" for a, d, h_, c in it) + '.',
+            f"Vote on the Ballot before it resets ({o['ballot_next']})."]
 
 
 def build_tome():
@@ -145,7 +144,7 @@ def build_tome():
 
 
 def lines_tome(o):
-    return [f"Tome {o['points']} points ({o['rank']}), {o['gap']} to the next bracket. Tome score comes from every system: the other planners raise it."]
+    return [f"Tome is at {o['points']} points, {o['gap']} short of the next bracket. Every other card raises it."]
 
 
 def build_maint():
@@ -157,7 +156,8 @@ def build_maint():
 
 def lines_maint(o):
     L = []
-    if o['cur']: L.append(f"Rift {o['rift']}: current task ({o['cur'][0]}): {o['cur'][2][:90]} ({o['cur'][3]}).")
-    if o['next']: L.append('Next rifts: ' + '; '.join(f"Rift {b} {c[:70]}" for a, b, c in o['next']))
-    L.append('Constellations 229/229 done.')
+    if o['cur']: L.append(f"Rift {o['rift'].split(' / ')[0]}: {o['cur'][2].split('.')[0]} ({o['cur'][3]}).")
+    if o['next']: L.append('After that: ' + '; '.join(c.split('.')[0] for a, b, c in o['next'][:2]) + '.')
     return L
+
+

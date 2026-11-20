@@ -20,19 +20,15 @@ def build():
 
 def card_lines(o):
     P = o['particles']; L = []
-    pr = [i for i in o['ar'] if i['group'].startswith('Level Priority')]
-    seen = {}
-    for i in pr: seen.setdefault(i['label'].split(' - ')[0], i)
     by = {a['atom']: a for a in o['atoms']}
-    aff = sorted([a for a in o['atoms'] if a['cost'] and a['lv'] < a['max'] and a['cost'] <= P], key=lambda a: a['cost'])
     neon = by.get('Neon')
-    if neon and neon['cost'] and neon['lv'] < neon['max']:
-        L.append(f"TOP: Neon {neon['lv']} -> {neon['lv'] + 1} for {h(neon['cost'])} (of {h(P)} particles). Neon is +1% damage and -1% on every atom cost per level, so it goes before the big saves (my read from Toolbox cost-cut breakdown; Neon is 27.5% of your cut).")
-    L.append(f"Particles {h(P)}, +{h(o['per_hr'])}/hr ({h(o['per_hr'] * 24)}/day). Atoms unlocked {o['unlocked'][0]}/{o['unlocked'][1]}. Cost cut {o['cost_cut']}%.")
-    L.append(f"AutoReview priority (tier {o['ar_tier']}): " + ', '.join(f"{k} {i['cur']} -> {i['goal']}" + (f" ({h(by[k]['cost'])}{', ' + by[k]['eta'] if by.get(k, {}).get('eta') else ''})" if by.get(k, {}).get('cost') else ' (maxed/locked)' if by.get(k) and by[k]['lv'] >= by[k]['max'] else ' (locked)') for k, i in seen.items()))
-    rest = [a for a in aff if a['atom'] != 'Neon']
-    if rest: L.append('Also affordable now: ' + ', '.join(f"{a['atom']} ({a['name']}) {a['lv']}->{a['lv'] + 1} {h(a['cost'])}" for a in rest))
-    L.append('Max level 40 (base 20 + event 20). More max: Compass Atomic Potential (Autistacular), Isotope Discovery superbit (Gaming), Menagerie boost 18.')
+    if neon and neon['cost'] and neon['lv'] < neon['max'] and neon['cost'] <= P:
+        L.append(f"TOP: buy Neon ({h(neon['cost'])} particles, you have {h(P)}). It makes every other atom cheaper, so get it before saving for the big ones (my read).")
+    he = by.get('Helium')
+    if he and he['cost']: L.append(f"AutoReview's top atom is Helium: {h(he['cost'])} particles, about {he['eta'] or '?'} away at your rate ({h(o['per_hr'] * 24)} a day).")
+    aff = [a for a in o['atoms'] if a['cost'] and a['lv'] < a['max'] and a['cost'] <= P and a['atom'] not in ('Neon',)]
+    if aff: L.append('Also affordable now: ' + ', '.join(f"{a['atom']} ({h(a['cost'])})" for a in sorted(aff, key=lambda a: a['cost'])) + '.')
+    L.append(f"{o['unlocked'][0]} of {o['unlocked'][1]} atoms unlocked. Aluminium comes from Compass Nomadic 32 on Autistacular.")
     return L
 
 

@@ -103,6 +103,9 @@ D.cards.forEach(cd=>{const c=el('div','card');c.id='slot-'+cd.slot;
  if(cd.bags.length)line('sub','Bags missing',cd.bags.join('; '));
  if((cd.buffs_missing||[]).length){const b=el('details','job');b.append(el('summary','t','Buff sources missing ('+cd.buffs_missing.length+')'));const u=el('ul');cd.buffs_missing.forEach(x=>u.append(el('li',null,x)));b.append(u);c.append(b)}
  C.append(c)});
+{const AP=(D.account||{}).active_plan;if(AP){const c=el('div','card');c.append(el('h2',null,'Active plan'));
+ const sec=(t,a,num)=>{const b=el('div','job');b.append(el('div','t',t));const u=el(num?'ol':'ul');a.forEach(x=>u.append(el('li',null,x.who+': '+x.do+(x.need?' (biggest-need system)':'')+' · '+x.src)));b.append(u);c.append(b)};
+ sec('Overnight on the PC (pick one)',AP.overnight,1);sec('Active play tonight (best first, do as many as you like)',AP.tonight,1);sec('Morning, game up while at work',AP.morning,0);C.append(c)}}
 const S=document.getElementById('side'),sd=D.side;
 const box=(title,node)=>{const b=el('div','box');b.append(el('h3',null,title),node);S.append(b)};
 const list=a=>{const u=el('ul');a.forEach(x=>u.append(el('li',null,x)));return u};

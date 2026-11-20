@@ -40,23 +40,16 @@ def build():
 def card_lines(o):
     L, bal = [], o['balance']
     ready = [x for x in o['optimizer'] if 'ready now' in x[5]]
-    if ready: L.append('TOP: buy now (Toolbox optimizer, damage): ' + '; '.join(f"{a} {b} -> {c} for {e} ({d})" for a, b, c, d, e, f in ready))
-    cheap = [t for t in o['targets'] if t['up'] and t['up'].get('cost') and t['up'].get('currency') and t['up']['cost'] <= 0.02 * bal.get(t['up']['currency'], 0)]
-    if cheap: L.append('Cheap AutoReview targets (under 2% of balance, buy now): ' + ', '.join(dict.fromkeys(sorted({f"{t['name']} {t['cur']} -> {t['goal']} ({h(t['up']['cost'])} {t['up']['currency']} next level)" + (f" [{CROSS[t['name']]}]" if t['name'] in CROSS else '') for t in cheap if t['goal'] == min(x['goal'] for x in cheap if x['name'] == t['name'])}))))
+    if ready: L.append('TOP: buy ' + ' and '.join(f"{a} ({e} Femur)" for a, b, c, d, e, f in ready) + '. Toolbox ranks them as the best damage per bone.')
     if o['next_unlock']:
-        nm, at = o['next_unlock']; left = at - o['total']
-        cheap = sorted([u['cost'] for u in o['upgrades'] if u['cost'] and u['currency'] == 'Femur' and not u['maxed']])
-        L.append(f"Next unlock: {nm} at {at:,} total levels ({o['total']:,} now, {left} to go). Cheapest Femur levels run {h(cheap[0])} to {h(cheap[min(len(cheap) - 1, 9)])}; Femur {h(bal.get('Femur'))} held.")
-    tabs = sorted({t['tab'] for t in o['targets']})
-    for tab in tabs[:2]:
-        items = [t for t in o['targets'] if t['tab'] == tab]
-        L.append(f"AutoReview {tab} (now {o['ar_tier']}): " + '; '.join(
-            f"{t['name']} {t['cur']} -> {t['goal']}" + (f" ({h(t['up']['cost'])} {t['up']['currency']})" if t['up'] and t['up'].get('cost') else '')
-            + (f" [{CROSS[t['name']]}]" if t['name'] in CROSS else '') for t in items))
+        nm, at = o['next_unlock']
+        L.append(f"{at - o['total']} more upgrade levels unlock {nm}. Cheap Wraith levels are the fastest way there.")
+    cheap = {t['name']: t for t in o['targets'] if t['up'] and t['up'].get('cost') and t['up'].get('currency') and t['up']['cost'] <= 0.02 * bal.get(t['up']['currency'], 0)}
+    if cheap: L.append('Cheap and on AutoReview\'s list: ' + ', '.join(f"{k} ({h(v['up']['cost'])} {v['up']['currency']})" for k, v in cheap.items()) + '.')
     cross = [u for u in o['upgrades'] if u['name'] in CROSS and not u['maxed'] and u['cost']]
-    if cross: L.append('Feeds other systems: ' + ', '.join(f"{u['name']} Lv {u['lv']}{'/' + str(u['max']) if u['max'] else ''} -> {CROSS[u['name']]} ({h(u['cost'])} {u['currency']})" for u in cross))
-    if o['best_mobs']: L.append('Most bones per drop: ' + ', '.join(f"{a} ({b}) {h(c)}" for a, b, c in o['best_mobs'][:3]) + ' (AFK spot pick vs his Death Note targets).')
-    L.append("Griffy 2026-10: max AFK gains before spending bones; damage + accuracy first (AFK Info shows if accuracy hits the target). Griffy 2026-08: Yummy Peach Ring is one of the first ribbons to rank 20.")
+    if cross: L.append('These also help other systems: ' + ', '.join(f"{u['name']} for {CROSS[u['name']].split(' (')[0]}" for u in cross[:5]) + '.')
+    if o['best_mobs']: L.append(f"Most bones per kill: {o['best_mobs'][0][0]} at {o['best_mobs'][0][1]}.")
+    L.append('Griffy: max out AFK gains before spending bones, and keep accuracy high enough to hit.')
     return L
 
 

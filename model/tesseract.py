@@ -22,19 +22,14 @@ def build():
 
 def card_lines(o):
     L, bal = [], o['balance']
-    if o['next']: L.append(f"Next unlock: {o['next'][0]} at {o['next'][1]} total levels ({o['total']} now, {o['next'][1] - o['total']} to go).")
     aff = sorted([u for u in o['upgrades'] if u['cost'] and u['currency'] and not u['maxed'] and u['cost'] <= bal.get(u['currency'], 0)], key=lambda u: u['cost'])
-    if aff: L.append(f"TOP: {len(aff)} upgrades affordable now, cheapest: " + ', '.join(f"{u['name']} {u['lv']}->{u['lv'] + 1} {h(u['cost'])} {u['currency']}" for u in aff[:6]) + ' (each counts toward the next unlock).')
-    acc = [i for i in o['ar'] if i['group'].startswith('Level up the following')]
-    first = {}
-    for i in acc: first.setdefault(i['label'], i)
-    if first:
-        by = {u['name']: u for u in o['upgrades']}
-        L.append(f"AutoReview (tier {o['ar_tier']}): " + ', '.join(f"{k} {i['cur']} -> {i['goal']}" + (f" ({h(by[k]['cost'])} {by[k]['currency'] or 'of a tachyon you hold 0 of'})" if by.get(k, {}).get('cost') else ' (locked)') for k, i in first.items()))
-    L.append('Tachyons: ' + ', '.join(f"{k} {h(v)}" for k, v in bal.items()) + '.')
+    if aff: L.append(f"TOP: {len(aff)} Tesseract upgrades are affordable, cheapest first: " + ', '.join(u['name'] for u in aff[:5]) + '. Every level counts toward the next unlock.')
+    if o['next']: L.append(f"{o['next'][1] - o['total']} more levels unlock {o['next'][0]}.")
     zero = [k for k, v in bal.items() if not v]
-    if zero: L.append(f"No {', '.join(zero)} tachyons yet: those come from later-world maps (Toolbox Maps tab shows per-map drops; colour per map not in the page text, GAP).")
-    if o['optimizer']: L.append('Toolbox optimizer: ' + '; '.join(f"{a} {b}->{c} {d} for {e} ({f})" for a, b, c, d, e, f in o['optimizer'][:2]))
+    acc = {}
+    for i in o['ar']:
+        if i['group'].startswith('Level up the following'): acc.setdefault(i['label'], i)
+    if acc: L.append('AutoReview wants ' + ', '.join(acc) + (f", but they cost {'/'.join(zero)} tachyons you don't have yet." if zero else '.'))
     return L
 
 

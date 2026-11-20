@@ -65,24 +65,13 @@ def card_lines(o):
     by = {}
     for c, s in o['seats'].items(): by.setdefault(s, []).append(c)
     on_sig = [c for c, s in o['seats'].items() if s and s not in ('Orange', 'Green', 'Purple', 'Yellow', 'Liquid Nitrogen', 'Water', 'Dense Water', 'Toxic Mercury', 'Liquid', None)]
-    s_tiers = o['tiers']
     cheap = sorted([s for s in o['sigils'] if s['state'] != 'Undiscovered' and not s['charging']], key=lambda s: s['hours_1char'])
-    L.append(f"TOP: sigils are AutoReview tier {s_tiers.get('Sigils')}, the weakest Alchemy part. Only {', '.join(on_sig) or 'nobody'} charges a sigil (Pea Pod). "
-             f"One character charges ~{o['sigil_speed']:.0f} points/hr (measured: Pea Pod +454 in 7.2h). Cheapest next levels for 1 character: " +
-             ', '.join(f"{s['name']} {s['hours_1char']}h (-> {s['next_gives']})" for s in cheap[:5]) + '.')
-    L.append("Sources: Griffy 2026-01: sigils are not an early priority, finish unlocking bubbles first; sigil XP ballot needs sigils active. "
-             "Griffy 2026-02 (sigil options): Loot Pile (more sailing chests = artifact rolls) and mob respawn. Pulse 2026-09 said the 11th character gives no sigil progress; "
-             "your save shows Autistachio's Pea Pod gaining ~63/hr, so it works now.")
+    L.append(f"Sigils are the weakest part of Alchemy (tier {o['tiers'].get('Sigils')}). Only {', '.join(on_sig) or 'nobody'} is charging one." + (f" Quickest next levels: {', '.join(s['name'] for s in cheap[:3])}." if cheap else ''))
     lp = next((s for s in o['sigils'] if s['name'] == 'Loot Pile'), None)
-    if lp: L.append(f"Loot Pile sigil (Sailing chest capacity): undiscovered, {lp['cur']:,}/{lp['goal']:,} = {lp['hours_1char']:,}h for 1 character ({lp['hours_1char'] / 24:.0f} days). Pea Pod's next level (15,000) adds +100% in sigil speed group 1 (6.78x -> 7.78x, about +15% on every sigil).")
-    L.append('Cauldron seats: ' + '; '.join(f"{s}: {', '.join(cs)}" for s, cs in by.items()) + '.')
-    L.append("Seat rule (Zack: need outweighs math): seats follow the bigger current need, not the lowest tier. Focus sigils only while a need is waiting on them, "
-             "never strip the cauldrons. Needs on sigils now: Loot Pile (Sailing chest capacity, Autisticles), Envelope Pile (-48% stamp max-level costs, Stamps). "
-             "Needs on cauldrons: W8 bubble unlocks (Bubbles tier), sample bubbles like Warriors Rule (printing), Diamond Chef (cooking speed = account priority).")
-    L.append(f"Bubbles (tier {s_tiers.get('Bubbles')}): daily auto-levels {o['daily'].get('Kattlekruk levels per day')} (Kattlekruk link) and {o['daily'].get('Grind Time levels per day')} Grind Time (Coral Reef). "
-             'Targets: ' + '; '.join(o['bubble_targets'][:8]) + '. GAP: bubble costs are not on the Toolbox page text, so bubble buys are not efficiency-ranked yet.')
-    if o['vials_next']: L.append(f"Vials (tier {s_tiers.get('Vials')}), max next without breaking greenstacks: " + '; '.join(o['vials_next'][:6]) +
-                                 '. Unlock Turtle Tisane (Tuttle): x1 in Sailing artifact odds, kitchen speed and sigil speed.')
+    if lp: L.append(f"The Loot Pile sigil (more sailing chests) would take one character about {lp['hours_1char'] / 24:.0f} days. Griffy rates it as a good pick.")
+    L.append("Seats follow the biggest need: move someone onto sigils only while something is waiting on them, and never empty the cauldrons. Griffy: finish unlocking bubbles before worrying about sigils.")
+    if o['bubble_targets']: L.append('Bubble goals: ' + '; '.join(o['bubble_targets'][:4]) + '.')
+    if o['vials_next']: L.append('Vials you can level without breaking greenstacks: ' + '; '.join(v.split(' (')[0] for v in o['vials_next'][:4]) + '.')
     return L
 
 

@@ -76,41 +76,22 @@ def card_lines(o):
     L = []
     nxt = [m for m in o['meals_open']]
     cooking = sorted({k['meal'] for k in o['kitchens']})
-    slow = [k for k in o['kitchens'] if k['meal'] in {m['name'] for m in nxt if m['next_h'] > 6}]
     if nxt:
-        fast = [m for m in nxt if m['next_h'] < 1]
-        L.append(f"TOP: all {len(o['kitchens'])} kitchens cook {', '.join(cooking)} ({next((m['next'] for m in nxt if m['name'] in cooking), '?')} per level). "
-                 f"Level the cheap meals first: " + ', '.join(f"{m['name']} Lv {m['lv']} (next level {m['next']})" for m in fast) +
-                 ". My read: put kitchens on the meal with the shortest 'Next level' in Toolbox Cooking > Meals and recheck each refresh.")
-        L.append('Open meals by time to next level (all kitchens): ' + '; '.join(f"{m['name']} {m['lv']} {m['next']} [{m['bonus']}]" for m in nxt))
+        fast = [m['name'] for m in nxt if m['next_h'] < 1]
+        L.append(f"TOP: every kitchen is on {', '.join(cooking)}." + (f" Switch some to {', '.join(fast)}, they level up almost instantly (my read: always cook the meal closest to its next level)." if fast else ''))
     if o['cap']:
-        L.append(f"Plate cap {o['cap']} (AutoReview T11 needs 150, T12 180): " + ', '.join(f"{k} {v}" for k, v in o['cap_parts'].items() if v) +
-                 '. Missing, in order:')
+        L.append(f"Meals cap at level {o['cap']}. Ways to raise it:")
         for n in o['cap_missing']:
-            w, how = CAP_SRC[n]; L.append(f"  {how} [{w}]")
-        if o['causticolumn']:
-            L.append(f"  Causticolumn next form (+10): {o['causticolumn'][0]}, 1 in {o['causticolumn'][1]:,} chests [Autisticles, Sailing 'Later']")
+            w, how = CAP_SRC[n]; L.append(f"  {how.split(':')[0].split(' (')[0]} ({w})")
     opts = []
-    tot = sum(sum(k[n][0] for n in ('speed', 'fire', 'luck')) for k in o['kitchens'])
     for k in o['kitchens']:
-        for nm in ('speed', 'fire', 'luck'):
-            lv, hv, cost = k[nm]
-            if not cost: continue
-            gain = 100 * (1 / (10 + lv)) / len(o['kitchens']) if nm == 'speed' else None   # Toolbox: kitchen speed x(1 + speed lv/10); share of all kitchens
-            opts.append({'item': f"K{k['k']} {nm.title()} {lv}", 'currency': f"spice pool {spend.h(hv)}", 'balance': hv, 'cost': cost, 'gain_pct': gain,
-                         'stat': 'total meal speed' if nm == 'speed' else 'counts toward Kitchen Eff (every 10 upgrade levels)'})
-    rk = [x for ops in spend.rank(opts).values() for x in ops if x['afford']]
-    rk.sort(key=lambda x: (x['score'] is None, -(x['score'] or 0), x['share'] or 1))
-    if rk:
-        L.append(f"Spice, best value first (speed levels add meal speed directly; Fire/Luck levels still count toward Kitchen Eff per 10 total upgrade levels, now {tot}; "
-                 f"Griffy older clip: level every kitchen upgrade): " + ' > '.join(spend.fmt(x) for x in rk[:8]) + f" (+{max(0, len(rk) - 8)} more affordable)")
-    if o['spice_claims']: L.append(f"Spice claims {o['spice_claims'][0]}/{o['spice_claims'][1]}.")
+        lv, hv, cost = k['speed']
+        if cost and cost <= hv: opts.append(f"K{k['k']}")
+    if opts: L.append(f"Spend spice on kitchen speed for {', '.join(opts[:5])}. Griffy levels every kitchen upgrade.")
+    if o['spice_claims']: L.append(f"Spice claims: {o['spice_claims'][0]} of {o['spice_claims'][1]}.")
     m = o['mastery']
-    if m['lv'] is not None:
-        L.append(f"Cooking Mastery Lv {m['lv']}, {m['rate']} ({m['ttl']} to next). All EXP boosts at 0. Sweet unlocks when Divorce Cake passes 75 (now {o['divorce_cake']}); "
-                 "Smoky (daily ribbons +1 rank) at mastery 10. Pulse 2026-11: mastery on Nyanborgir adds crop evo.")
-    if o['ribbons']: L.append(f"Ribbons: {o['ribbons'][0]}/{o['ribbons'][1]} meals ribboned, {o['ribbons_day']} per day.")
-    if o['speed_x1']: L.append('Kitchen speed sources still x1: ' + ', '.join(o['speed_x1']))
+    if m['lv'] is not None: L.append(f"Cooking Mastery is level {m['lv']}. Sweet unlocks when Divorce Cake reaches 75 (it's {o['divorce_cake']}).")
+    if o['ribbons']: L.append(f"{o['ribbons'][0]} of {o['ribbons'][1]} meals have ribbons.")
     return L
 
 

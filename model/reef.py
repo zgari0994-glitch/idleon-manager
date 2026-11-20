@@ -12,19 +12,17 @@ def build():
 
 
 def card_lines(o):
-    aff = [u for u in o['ups'] if u[3] and u[3] <= o['coral'] and u[1] < u[2]]
+    aff = sorted([u for u in o['ups'] if u[3] and u[3] <= o['coral'] and u[1] < u[2]], key=lambda u: u[3])
     L = []
     if aff:
-        run, pick = 0, []
-        for u in sorted(aff, key=lambda u: u[3]):
-            if run + u[3] <= o['coral']: run += u[3]; pick.append(u)
-        L.append(f"TOP: coral {o['coral']:,.0f}: buy " + ', '.join(f"{u[0][:55]} Lv {u[1]} ({u[3]:,.0f})" for u in pick) + f" = {run:,.0f}.")
-    if o['dance']: L.append('Dancing Coral bonuses start at shrine Lv 201: ' + ', '.join(f"{s} {lv} ({st})" for c, b, s, lv, src, st in o['dance']) + ' (shrine levels = Construction on Autistastic).')
+        run = sum(u[3] for u in aff if u[3] <= o['coral'])
+        L.append(f"TOP: spend coral on all {len(aff)} Reef upgrades ({run:,.0f} of your {o['coral']:,.0f}). The big one gives a Menagerie shell.")
+    if o['dance']: L.append('Dancing Coral bonuses start when ' + ' and '.join(f"{s} reaches 201 (now {lv})" for c, b, s, lv, src, st in o['dance']) + '. Autistastic levels the shrines.')
     return L
 
 
 def routed(o):
-    return {'Autistastic': [f"Shrine {s} {lv} -> 201 starts the {c} bonus (Autistachio's reef)" for c, b, s, lv, src, st in o['dance'] if int(lv) < 201][:3]} if o['dance'] else {}
+    return {'Autistastic': [f"Level {s} from {lv} to 201 to start Autistachio's {c} bonus." for c, b, s, lv, src, st in o['dance'] if int(lv) < 201][:3]} if o['dance'] else {}
 
 
 if __name__ == '__main__':

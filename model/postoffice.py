@@ -12,7 +12,7 @@ def build():
 
 
 def char_lines(o, name):
-    return [f"PO box: {b} {c} -> {g} (AutoReview Post Office tier {o['ar_tier']})" for b, c, g in o['per'].get(name, [])[:2]]
+    return [f"Post Office: get {b} to {g} (it's at {c})." for b, c, g in o['per'].get(name, [])[:2]]
 
 
 if __name__ == '__main__':

@@ -75,21 +75,15 @@ def build():
 def card_lines(o):
     L = []
     rk = [x for x in o['rank'] if x['afford']]
-    if rk:
-        L.append(f"TOP: spend DNA ({spend.h(rk[0]['balance'])}) best value first: " + ' > '.join(spend.fmt(x) for x in rk[:5]) +
-                 '. Ranking = gain per share of DNA, weighted by source priority (shinies first per Pulse). Re-rank after each buy, costs climb.')
+    if rk: L.append(f"TOP: spend DNA, best first: {', '.join(x['item'].split(' ')[0] + ' ' + x['item'].split(' ')[1] for x in rk[:3])}. Pulse: faster shinies come first.")
     claim = sum(t['claim'] for t in o['territory'])
-    if claim:
-        L.append(f"Claim territory spice: {claim:,} waiting across {len(o['territory'])} territories. Spice buys kitchen upgrades (Cooking block on Zemo).")
-    if o['eggs']:
-        L.append(f"Eggs {o['eggs'][0]}/{o['eggs'][1]} (one per {o['time_per_egg']}). Full is fine while Rarity of the Egg upgrades held eggs; Pulse 2026-10: keep clicking eggs past full to level them.")
+    if claim: L.append(f"Claim {claim:,} territory spice. It pays for kitchen upgrades on Autiszemo.")
+    if o['eggs'] and o['eggs'][0] == o['eggs'][1]: L.append('Eggs are full. Pulse: keep clicking them past full to level them.')
     if o['fence']:
         n, lv, mx, cnt, days, nxt = o['fence']
-        L.append(f"Fence: {cnt} {n} (shiny Lv {lv}/{mx}, next level {nxt}). Keep one type at a time (your fence plan).")
-    if o['shiny_targets']:
-        L.append('Fastest AutoReview shiny targets (base days to next level): ' + '; '.join(f"{x['pet']} {x['days']:g}d -> {x['bonus']} ({x['cur']}->{x['goal']})" for x in o['shiny_targets'][:6]))
-    L.append(f"Arena wave {o['wave']}: all rewards through 200 reached. Crucible (10x cooking speed at wave 35) and Shiny OverLVs need the Luminous Menagerie [Autisticles].")
-    L.append('GAP: Mobs tab was read with the fence filter on; full pet list comes on the next read.')
+        L.append(f"Fence: {n} at shiny level {lv} of {mx}, next level in {nxt}. Stick to one type at a time.")
+    if o['shiny_targets']: L.append('Quickest shiny goals: ' + ', '.join(f"{x['pet']} for {x['bonus'].lower()}" for x in o['shiny_targets'][:3]) + '.')
+    L.append('The Crucible (big cooking speed) opens through the Menagerie on Autisticles.')
     return L
 
 

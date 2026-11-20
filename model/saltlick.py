@@ -13,14 +13,17 @@ def build():
 
 def card_lines(o):
     buy = [u for u in o['upgrades'] if u['buy']]
-    L = ['TOP: buy now: ' + '; '.join(f"{re.split(r'\. ', u['desc'])[0][:50]} {u['lv']} -> {u['lv'] + u['buy']} (+{u['buy']})" for u in buy)] if buy else []
+    nm = lambda u: re.sub(r'^\+?[\d.]+%? ', '', re.split(r'\. ', u['desc'])[0]).split(' for ')[0][:40]
+    L = ['TOP: buy Salt Lick levels: ' + ', '.join(f"{nm(u)} +{u['buy']}" for u in buy) + '.'] if buy else []
     left = [u for u in o['upgrades'] if u['lv'] < u['max']]
-    L.append(f"AutoReview tier {o['ar_tier']}: to max " + ', '.join(f"{re.split(r'\. ', u['desc'])[0][:40]} {u['lv']}/{u['max']}" for u in left) + '. Toolbox should show the new levels after buying.')
+    if left: L.append('Still to max: ' + ', '.join(f"{nm(u)} {u['lv']}/{u['max']}" for u in left) + '.')
     return L
+
 
 def refinery_line(o):
     u = next((u for u in o['upgrades'] if 'Refinery Speed' in u['desc']), None)
-    return f"Salt Lick Refinery Speed {u['lv']}/{u['max']}" + (f": +{u['buy']} buyable now (Autistopher)" if u['buy'] else '') if u else None
+    return (f"Salt Lick Refinery Speed is {u['lv']}/{u['max']}" + (f", Autistopher can buy {u['buy']} more now" if u['buy'] else '')) if u else None
+
 
 if __name__ == '__main__':
     o = build()

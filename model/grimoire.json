@@ -1,568 +1,17 @@
 {
- "snapshot": "20261120T0128",
+ "snapshot": "20261120T0208",
  "balance": {
-  "Femur": 10900000.0,
-  "Ribcage": 3600000.0,
-  "Cranium": 0.0,
+  "Femur": 439000.0,
+  "Ribcage": 203000.0,
+  "Cranium": 949000.0,
   "Bovinae": 0.0
  },
- "total": 1291,
+ "total": 1347,
  "next_unlock": [
   "Skull of Major Experience",
   1475
  ],
- "upgrades": [
-  {
-   "name": "Wraith Damage",
-   "lv": 86,
-   "max": null,
-   "maxed": false,
-   "next": "87 (+1)",
-   "cost": 558000.0,
-   "currency": "Femur",
-   "desc": "+86 Base Damage in Wraith Form"
-  },
-  {
-   "name": "Wraith Accuracy",
-   "lv": 168,
-   "max": null,
-   "maxed": false,
-   "next": "169 (+1)",
-   "cost": 504000.0,
-   "currency": "Femur",
-   "desc": "+168 Base Accuracy in Wraith Form"
-  },
-  {
-   "name": "Wraith Defence",
-   "lv": 85,
-   "max": null,
-   "maxed": false,
-   "next": "86 (+1)",
-   "cost": 554000.0,
-   "currency": "Femur",
-   "desc": "+85 Base Defence in Wraith Form"
-  },
-  {
-   "name": "Wraith Health",
-   "lv": 111,
-   "max": null,
-   "maxed": false,
-   "next": "112 (+1)",
-   "cost": 539000.0,
-   "currency": "Femur",
-   "desc": "+111 Base HP in Wraith Form"
-  },
-  {
-   "name": "Ribbon Shelf",
-   "lv": 1,
-   "max": 1,
-   "maxed": true,
-   "next": null,
-   "cost": null,
-   "currency": null,
-   "desc": "Unlocks Ribbons for Meals, found at Le Menu in W4"
-  },
-  {
-   "name": "Ribbon Winning",
-   "lv": 18,
-   "max": 50,
-   "maxed": false,
-   "next": "19% (+1%)",
-   "cost": 344000.0,
-   "currency": "Femur",
-   "desc": "Get +1 Daily Ribbon, +18% chance for rare quality"
-  },
-  {
-   "name": "Wraith Damage II",
-   "lv": 77,
-   "max": null,
-   "maxed": false,
-   "next": "234 (+3)",
-   "cost": 632000.0,
-   "currency": "Femur",
-   "desc": "+231 Base Damage in Wraith Form"
-  },
-  {
-   "name": "Wraith of all Trades",
-   "lv": 50,
-   "max": null,
-   "maxed": false,
-   "next": "51% (+1%)",
-   "cost": 633000.0,
-   "currency": "Femur",
-   "desc": "+50% Accuracy, Defence, and HP in Wraith Form"
-  },
-  {
-   "name": "Wraith Destruction",
-   "lv": 57,
-   "max": null,
-   "maxed": false,
-   "next": "58% (+1%)",
-   "cost": 665000.0,
-   "currency": "Femur",
-   "desc": "+57% Total Damage in Wraith Form"
-  },
-  {
-   "name": "Land Rank Database Maxim",
-   "lv": 4,
-   "max": 10,
-   "maxed": false,
-   "next": "5 (+1)",
-   "cost": 1220000.0,
-   "currency": "Femur",
-   "desc": "+4 Max LV for 5th column Land Rank upgrades"
-  },
-  {
-   "name": "Wraith Crits",
-   "lv": 40,
-   "max": 40,
-   "maxed": true,
-   "next": null,
-   "cost": null,
-   "currency": null,
-   "desc": "+40% Crit Chance in Wraith Form"
-  },
-  {
-   "name": "Pure Opals",
-   "lv": 10,
-   "max": 25,
-   "maxed": false,
-   "next": "11 (+1)",
-   "cost": 731000.0,
-   "currency": "Ribcage",
-   "desc": "+10 Opals to give to your Villagers in World 5"
-  },
-  {
-   "name": "Wraith Accuracy II",
-   "lv": 112,
-   "max": null,
-   "maxed": false,
-   "next": "339 (+3)",
-   "cost": 822000.0,
-   "currency": "Femur",
-   "desc": "+336 Base Accuracy in Wraith Form"
-  },
-  {
-   "name": "Knockout!",
-   "lv": 20,
-   "max": null,
-   "maxed": false,
-   "next": null,
-   "cost": null,
-   "currency": null,
-   "desc": "+20% Wraith DMG per KO! Target: Crabcake"
-  },
-  {
-   "name": "Sacrifice of Harvest",
-   "lv": 145,
-   "max": null,
-   "maxed": false,
-   "next": "8.30x (+0.05x)",
-   "cost": 781000.0,
-   "currency": "Femur",
-   "desc": "8.25x higher Crop Evo chance"
-  },
-  {
-   "name": "Wraith Defence II",
-   "lv": 57,
-   "max": null,
-   "maxed": false,
-   "next": "58 (+1)",
-   "cost": 922000.0,
-   "currency": "Ribcage",
-   "desc": "+57 Base Defence in Wraith Form"
-  },
-  {
-   "name": "Wraith Damage III",
-   "lv": 55,
-   "max": null,
-   "maxed": false,
-   "next": "840 (+15)",
-   "cost": 1100000.0,
-   "currency": "Ribcage",
-   "desc": "+825 Base Damage in Wraith Form"
-  },
-  {
-   "name": "Grey Tome Book",
-   "lv": 26,
-   "max": 150,
-   "maxed": false,
-   "next": "1.27x (+0.01x)",
-   "cost": 1420000.0,
-   "currency": "Ribcage",
-   "desc": "1.26x higher bonuses from the Tome"
-  },
-  {
-   "name": "Femur Hoarding",
-   "lv": 34,
-   "max": null,
-   "maxed": false,
-   "next": "70% (+2%)",
-   "cost": 992000.0,
-   "currency": "Ribcage",
-   "desc": "+68% Wraith DMG per POW 10 Femurs owned"
-  },
-  {
-   "name": "Wraith Health II",
-   "lv": 61,
-   "max": null,
-   "maxed": false,
-   "next": "124 (+2)",
-   "cost": 842000.0,
-   "currency": "Ribcage",
-   "desc": "+122 Base HP in Wraith Form"
-  },
-  {
-   "name": "Wraith Strikeforce",
-   "lv": 31,
-   "max": null,
-   "maxed": false,
-   "next": "64% (+2%)",
-   "cost": 1160000.0,
-   "currency": "Ribcage",
-   "desc": "+62% Crit DMG in Wraith Form"
-  },
-  {
-   "name": "Elimination!",
-   "lv": 13,
-   "max": null,
-   "maxed": false,
-   "next": null,
-   "cost": null,
-   "currency": null,
-   "desc": "+13% Wraith DMG per elim! Target: Baby Boa"
-  },
-  {
-   "name": "Superior Crop Research",
-   "lv": 11,
-   "max": 200,
-   "maxed": false,
-   "next": "1.12x (+0.01x)",
-   "cost": 210000.0,
-   "currency": "Femur",
-   "desc": "1.11x higher bonuses from the Crop Scientist"
-  },
-  {
-   "name": "Bones o' Plenty",
-   "lv": 19,
-   "max": null,
-   "maxed": false,
-   "next": "40% (+2%)",
-   "cost": 692000.0,
-   "currency": "Ribcage",
-   "desc": "+38% Extra Bones"
-  },
-  {
-   "name": "Skull of Major Experience",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "8% (+8%)",
-   "cost": 20600.0,
-   "currency": "Ribcage",
-   "desc": "Locked"
-  },
-  {
-   "name": "Wraith Accuracy III",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "5 (+5)",
-   "cost": 26700.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Supreme Head Chef Status",
-   "lv": 0,
-   "max": 20,
-   "maxed": false,
-   "next": "1 (+1)",
-   "cost": 29400.0,
-   "currency": "Ribcage",
-   "desc": "Locked"
-  },
-  {
-   "name": "Ribcage Hoarding",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "1% (+1%)",
-   "cost": 33700.0,
-   "currency": "Femur",
-   "desc": "Locked"
-  },
-  {
-   "name": "Wraith Destruction II",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "3% (+3%)",
-   "cost": 40900.0,
-   "currency": "Ribcage",
-   "desc": "Locked"
-  },
-  {
-   "name": "Villager Extraciricular",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "1.01x (+0.01x)",
-   "cost": 46400.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Wraith Defence III",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "2 (+2)",
-   "cost": 47100.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Annihilation!",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": null,
-   "cost": null,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Talents for Me, not for Thee",
-   "lv": 0,
-   "max": 200,
-   "maxed": false,
-   "next": "1 (+1)",
-   "cost": 64400.00000000001,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Wraith Damage IV",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "50 (+50)",
-   "cost": 74200.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Wraith Health III",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "3 (+3)",
-   "cost": 84800.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Skull of Major Damage",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "3% (+3%)",
-   "cost": 95200.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Writhing Grimoire",
-   "lv": 0,
-   "max": 50,
-   "maxed": false,
-   "next": "1.01x (+0.01x)",
-   "cost": 118000.0,
-   "currency": "Ribcage",
-   "desc": "Locked"
-  },
-  {
-   "name": "Wraith Accuracy IV",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "5 (+5)",
-   "cost": 156000.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Wraith of all Trades II",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "1% (+1%)",
-   "cost": 202000.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Skull of Major Talent",
-   "lv": 0,
-   "max": 30,
-   "maxed": false,
-   "next": "1 (+1)",
-   "cost": 252000.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Wraith Defence IV",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "3 (+3)",
-   "cost": 301000.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Cranium Hoarding",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "1% (+1%)",
-   "cost": 350000.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Wraith Health IV",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "5 (+5)",
-   "cost": 437000.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Wraith Destruction III",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "5% (+5%)",
-   "cost": 520000.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Skull of Major Droprate",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "1% (+1%)",
-   "cost": 642000.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Ok fine, Talents for Thee too",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "1 (+1)",
-   "cost": 809000.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Wraith Damage V",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "80 (+80)",
-   "cost": 1070000.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Wraith Accuracy V",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "8 (+8)",
-   "cost": 1490000.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Bovinae Hoarding",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "1% (+1%)",
-   "cost": 2350000.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Wraith Defence V",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "5 (+5)",
-   "cost": 4099999.9999999995,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Wraith Destruction IV",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "8% (+8%)",
-   "cost": 5170000.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Death of the Atom Price",
-   "lv": 0,
-   "max": null,
-   "maxed": false,
-   "next": "1% (+1%)",
-   "cost": 6780000.0,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Ripped Page",
-   "lv": 0,
-   "max": 1,
-   "maxed": false,
-   "next": null,
-   "cost": null,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Ripped Page",
-   "lv": 0,
-   "max": 1,
-   "maxed": false,
-   "next": null,
-   "cost": null,
-   "currency": null,
-   "desc": "Locked"
-  },
-  {
-   "name": "Ripped Page",
-   "lv": 0,
-   "max": 1,
-   "maxed": false,
-   "next": null,
-   "cost": null,
-   "currency": null,
-   "desc": "Locked"
-  }
- ],
+ "upgrades": [],
  "targets": [
   {
    "tab": "To reach Tier 4",
@@ -590,176 +39,77 @@
    "name": "Ribbon Winning",
    "cur": "18",
    "goal": "20",
-   "up": {
-    "name": "Ribbon Winning",
-    "lv": 18,
-    "max": 50,
-    "maxed": false,
-    "next": "19% (+1%)",
-    "cost": 344000.0,
-    "currency": "Femur",
-    "desc": "Get +1 Daily Ribbon, +18% chance for rare quality"
-   }
+   "up": null
   },
   {
    "tab": "To reach Tier 4",
    "name": "Ribbon Winning",
    "cur": "18",
    "goal": "30",
-   "up": {
-    "name": "Ribbon Winning",
-    "lv": 18,
-    "max": 50,
-    "maxed": false,
-    "next": "19% (+1%)",
-    "cost": 344000.0,
-    "currency": "Femur",
-    "desc": "Get +1 Daily Ribbon, +18% chance for rare quality"
-   }
+   "up": null
   },
   {
    "tab": "To reach Tier 4",
    "name": "Pure Opals",
    "cur": "10",
    "goal": "15",
-   "up": {
-    "name": "Pure Opals",
-    "lv": 10,
-    "max": 25,
-    "maxed": false,
-    "next": "11 (+1)",
-    "cost": 731000.0,
-    "currency": "Ribcage",
-    "desc": "+10 Opals to give to your Villagers in World 5"
-   }
+   "up": null
   },
   {
    "tab": "To reach Tier 4",
    "name": "Grey Tome Book",
    "cur": "26",
    "goal": "30",
-   "up": {
-    "name": "Grey Tome Book",
-    "lv": 26,
-    "max": 150,
-    "maxed": false,
-    "next": "1.27x (+0.01x)",
-    "cost": 1420000.0,
-    "currency": "Ribcage",
-    "desc": "1.26x higher bonuses from the Tome"
-   }
+   "up": null
   },
   {
    "tab": "To reach Tier 4",
    "name": "Supreme Head Chef Status",
    "cur": "0",
    "goal": "10",
-   "up": {
-    "name": "Supreme Head Chef Status",
-    "lv": 0,
-    "max": 20,
-    "maxed": false,
-    "next": "1 (+1)",
-    "cost": 29400.0,
-    "currency": "Ribcage",
-    "desc": "Locked"
-   }
+   "up": null
   },
   {
    "tab": "To reach Tier 5",
    "name": "Ribbon Winning",
    "cur": "18",
    "goal": "35",
-   "up": {
-    "name": "Ribbon Winning",
-    "lv": 18,
-    "max": 50,
-    "maxed": false,
-    "next": "19% (+1%)",
-    "cost": 344000.0,
-    "currency": "Femur",
-    "desc": "Get +1 Daily Ribbon, +18% chance for rare quality"
-   }
+   "up": null
   },
   {
    "tab": "To reach Tier 5",
    "name": "Pure Opals",
    "cur": "10",
    "goal": "20",
-   "up": {
-    "name": "Pure Opals",
-    "lv": 10,
-    "max": 25,
-    "maxed": false,
-    "next": "11 (+1)",
-    "cost": 731000.0,
-    "currency": "Ribcage",
-    "desc": "+10 Opals to give to your Villagers in World 5"
-   }
+   "up": null
   },
   {
    "tab": "To reach Tier 5",
    "name": "Grey Tome Book",
    "cur": "26",
    "goal": "50",
-   "up": {
-    "name": "Grey Tome Book",
-    "lv": 26,
-    "max": 150,
-    "maxed": false,
-    "next": "1.27x (+0.01x)",
-    "cost": 1420000.0,
-    "currency": "Ribcage",
-    "desc": "1.26x higher bonuses from the Tome"
-   }
+   "up": null
   },
   {
    "tab": "To reach Tier 5",
    "name": "Supreme Head Chef Status",
    "cur": "0",
    "goal": "20",
-   "up": {
-    "name": "Supreme Head Chef Status",
-    "lv": 0,
-    "max": 20,
-    "maxed": false,
-    "next": "1 (+1)",
-    "cost": 29400.0,
-    "currency": "Ribcage",
-    "desc": "Locked"
-   }
+   "up": null
   },
   {
    "tab": "To reach Tier 5",
    "name": "Villager Extraciricular",
    "cur": "0",
    "goal": "30",
-   "up": {
-    "name": "Villager Extraciricular",
-    "lv": 0,
-    "max": null,
-    "maxed": false,
-    "next": "1.01x (+0.01x)",
-    "cost": 46400.0,
-    "currency": null,
-    "desc": "Locked"
-   }
+   "up": null
   },
   {
    "tab": "To reach Tier 5",
    "name": "Talents for Me, not for Thee",
    "cur": "0",
    "goal": "10",
-   "up": {
-    "name": "Talents for Me, not for Thee",
-    "lv": 0,
-    "max": 200,
-    "maxed": false,
-    "next": "1 (+1)",
-    "cost": 64400.00000000001,
-    "currency": null,
-    "desc": "Locked"
-   }
+   "up": null
   },
   {
    "tab": "To reach Tier 5",
@@ -783,98 +133,7 @@
    "up": null
   }
  ],
- "optimizer": [
-  [
-   "Femur Hoarding",
-   "34",
-   "35",
-   "+7,687.43 (+2.43%)",
-   "992K",
-   "ready now"
-  ],
-  [
-   "Knockout!",
-   "20",
-   "21",
-   "+10,213.16 (+3.16%)",
-   "1.29M",
-   "ready now"
-  ],
-  [
-   "Femur Hoarding",
-   "35",
-   "37",
-   "+15,859.99 (+4.69%)",
-   "2.49M",
-   "ready in > 999d"
-  ],
-  [
-   "Knockout!",
-   "21",
-   "22",
-   "+10,698.29 (+3.06%)",
-   "1.89M",
-   "ready in > 999d"
-  ],
-  [
-   "Femur Hoarding",
-   "37",
-   "39",
-   "+16,345.12 (+4.48%)",
-   "3.35M",
-   "ready in > 999d"
-  ],
-  [
-   "Wraith Damage III",
-   "55",
-   "56",
-   "+4,927.57 (+1.31%)",
-   "1.1M",
-   "ready in > 999d"
-  ],
-  [
-   "Knockout!",
-   "22",
-   "23",
-   "+11,329.67 (+2.97%)",
-   "2.76M",
-   "ready in > 999d"
-  ],
-  [
-   "Wraith Damage III",
-   "56",
-   "57",
-   "+5,073.83 (+1.29%)",
-   "1.24M",
-   "ready in > 999d"
-  ]
- ],
- "best_mobs": [
-  [
-   "Magni Pufferfin",
-   "Molten Edge",
-   11500000000.0
-  ],
-  [
-   "Ancientfish",
-   "Ancient Fissure",
-   8289999999.999999
-  ],
-  [
-   "Glowfish",
-   "The Glowing Underbelly",
-   6120000000.0
-  ],
-  [
-   "Dreadnaught Captain",
-   "Dreadnaught Chamber",
-   5010000000.0
-  ],
-  [
-   "Mantaray",
-   "Trench Precipice",
-   1700000000.0
-  ]
- ],
+ "optimizer": [],
+ "best_mobs": [],
  "ar_tier": "2/10"
 }

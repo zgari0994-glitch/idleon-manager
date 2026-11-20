@@ -1,4 +1,4 @@
-# Mechanics layer · game save 2026-11-19 08:28 PM ET
+# Mechanics layer · game save 2026-11-19 09:08 PM ET
 
 Rule-changers and account-wide buffs you own. Facts from the save; sources for missing items added separately.
 
@@ -126,7 +126,7 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 ## Kill-count talents
 - Archlord of the Pirates (Drop Rate and Class EXP): 6015 kills, value 15.05. Farm more Plunder Kills with Siege Breaker for Drop Rate Crystal Setup at W5 Citringes for ~20k per day
 - King of the Remembered (Printer Output): 2656250 kills, value 22.75. Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from
-- Wormhole Emperor (Damage): 492520 kills, value 5.3. Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns
+- Wormhole Emperor (Damage): 498732 kills, value 5.3. Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns
 
 ## Family bonuses (top level of each class, account-wide)
 - Journeyman 781; Maestro 781; Voidwalker 781; Warrior 835; Barbarian 832; Squire 835; Blood Berserker 832; Death Bringer 832; Divine Knight 835; Royal Guardian 835; Archer 856; Bowman 856; Hunter 856; Siege Breaker 856; Wind Walker 856; Beast Master 856; Mage 851; Wizard 842; Shaman 851; Elemental Sorcerer 842; Bubonic Conjuror 851; Arcane Cultist 851

@@ -23,20 +23,18 @@ def card_lines(o):
     L = []
     if o['bar'] and o['fill_hr']:
         cur, cap = o['bar']; mins = cap / o['fill_hr'] * 60
-        L.append(f"TOP: Equinox bar {cur:,.0f}/{cap:,.0f}" + (" FULL, spend it now" if cur >= cap else '') + f". Fills {o['fill_hr']:,.0f}/hr = full from empty in {mins:.0f} min, so it caps between sessions: spend every session.")
+        L.append(f"TOP: spend the Equinox bar{' (it is full)' if cur >= cap else ''}. It refills in about {mins:.0f} minutes, so spend it every time you're on.")
     claim = [x for x in o['challenges'] if x['state'] and 'met' in x['state'].lower()]
-    if claim: L.append('Claim now (requirements met): ' + '; '.join(f"{x['task'][:70]} -> {x['reward']}" for x in claim))
-    fillc = [x for x in o['challenges'] if 'fill rate' in x['reward'].lower() and x not in claim]
-    if fillc: L.append('Fill-rate challenges: ' + '; '.join(f"{x['task'][:60]} ({x['progress']}) -> {x['reward']}" for x in fillc))
+    if claim: L.append(f"Claim {len(claim)} finished challenges: " + '; '.join(x['reward'] for x in claim) + '.')
+    fillc = [x for x in o['challenges'] if 'fill rate' in x['reward'].lower() and x not in claim and 'Requires' not in x['task']]
+    if fillc: L.append('Faster bar: ' + '; '.join(f"{x['task'].split('.')[0].split(' in a party')[0][:45]} ({x['progress']}) gives {x['reward'].replace(' Equinox Bar fill rate', ' fill')}" for x in fillc[:3]) + '.')
     lk = [u for u in o['upgrades'] if u['locked']]
-    if lk: L.append('Locked upgrades (target): ' + '; '.join(f"{u['name']}: {u['unlock'][:70] if u['unlock'] else '?'} ({u['progress']})" for u in lk))
-    odd = [u for u in lk if u['progress'] == 'Done']
-    if odd: L.append('Check in game: ' + ', '.join(u['name'] for u in odd) + " shows Locked but its unlock reads Done.")
+    odd = [u['name'] for u in lk if u['progress'] == 'Done']
+    if odd: L.append(f"Check in game: {', '.join(odd)} shows locked even though its unlock is done.")
+    lk = [u for u in lk if u['progress'] != 'Done']
+    if lk: L.append('Locked: ' + '; '.join(f"{u['name']} ({u['unlock'].split(',')[0][:55] if u['unlock'] else '?'}, {u['progress']})" for u in lk[:4]) + '.')
     up = [i for i in o['ar'] if i['group'].startswith('Upgrade more')]
-    if up: L.append(f"AutoReview (tier {o['ar_tier']}): " + ', '.join(f"{i['label'].split(' (')[0]} {i['cur']} -> {i['goal']}" for i in up))
-    dreams = [i for i in o['ar'] if i['group'].startswith('Unlock more') and i.get('cur') and i.get('goal')]
-    if dreams: L.append('Dreams: ' + ', '.join(f"{i['label'][:40]} {i['cur']}/{i['goal']}" for i in dreams[:3]))
-    L.append('Links: Greenstack 200 items unlocks Equinox Symbols (+1 all talent LVs), see the greenstacks block on Autistotle.')
+    if up: L.append('AutoReview wants: ' + ', '.join(f"{i['label'].split(' (')[0]} {i['cur']} -> {i['goal']}" for i in up) + '.')
     return L
 
 

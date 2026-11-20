@@ -4,15 +4,16 @@ from tbhelp import ar_items, save, tb
 
 def build():
     tier, items = ar_items('Royal Armory')
-    return save('royal_armory', {'ar_tier': tier, 'ar': items, 'toolbox': bool(tb('royal_armory') and 'Loading' not in tb('royal_armory')['_page']['text'][:200])})
+    return save('royal_armory', {'ar_tier': tier, 'ar': items, 'toolbox': bool(tb('royal_armory') and any('Loading account data' not in t['text'][:400] for t in tb('royal_armory').values())), 'tabs': list(tb('royal_armory') or {})})
 
 
 def card_lines(o):
     L = []
-    if not o['toolbox']: L.append('Toolbox Royal Armory page did not load on the last read: re-read it next refresh (costs + optimizer).')
-    for g in ['Royal Statues', 'Armory Upgrades', 'Lil\' Orblet Shop', 'Statue Flair']:
-        it = [i for i in o['ar'] if i['group'] == g and i.get('goal') not in (None, '', '✔') and i.get('cur') != i.get('goal')]
-        if it: L.append(f"{g}: " + '; '.join(f"{i['label'][:60]} {i['cur']} -> {i['goal']}" for i in it[:5]))
+    it = [i for i in o['ar'] if i['group'] == 'Royal Statues' and i.get('cur') == '0']
+    if it: L.append(f"Next Royal statue to build: {it[0]['label'].split(':')[0]}.")
+    up = [i for i in o['ar'] if i['group'] == 'Armory Upgrades' and i.get('goal') not in (None, '', '✔') and i.get('cur') != i.get('goal')]
+    if up: L.append('Armory upgrades to push: ' + ', '.join(i['label'].split(':')[0] for i in up[:3]) + '.')
+    if not o['toolbox']: L.append("Toolbox's Royal Armory page didn't load, so costs come next time.")
     return L
 
 

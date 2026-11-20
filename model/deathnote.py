@@ -41,16 +41,15 @@ def build():
 
 def _eta(o, mob, left):
     r = (o.get('rate') or {}).get(mob)
-    return f", ETA {left / r / 24:.0f}d at {r:,.0f}/hr" if r else ''
+    return f", about {left / r / 24:.0f} days at your current pace" if r else ''
 
 
 def card_lines(o):
     c = o['cur']; L = []
-    ecl = sorted([(m, w, k) for m, (w, k) in c['kills'].items() if 0 < k < ECLIPSE and w != 'Minibosses'], key=lambda x: -x[2])[:4]
-    if ecl: L.append('Closest Eclipse skulls (1B): ' + ', '.join(f"{m} ({w}) {(ECLIPSE - k) / 1e6:,.0f}M left{_eta(o, m, ECLIPSE - k)}" for m, w, k in ecl))
-    if c['eclipse']: L.append(f"Eclipse skulls {c['eclipse'][0]} ({c['eclipse'][1]}). Multikill: " + ', '.join(f"{k} {v}" for k, v in c['multi'].items()))
-    if not o.get('rate'): L.append('Kill-rate ETAs start after the next Toolbox Death Note read (needs two reads).')
-    L.append("Griffy: Eclipse skulls are painfully slow without big multikill; the Death Note building upgrade is worth it for multikill. WOWs skipped (weak scaling).")
+    ecl = sorted([(m, w, k) for m, (w, k) in c['kills'].items() if 0 < k < ECLIPSE and w != 'Minibosses'], key=lambda x: -x[2])[:3]
+    if ecl: L.append('Closest Eclipse skulls: ' + ', '.join(f"{m} ({(ECLIPSE - k) / 1e6:,.0f}M kills left{_eta(o, m, ECLIPSE - k)})" for m, w, k in ecl) + '.')
+    if c['eclipse']: L.append(f"{c['eclipse'][0]} Eclipse skulls so far.")
+    L.append('Griffy: Eclipse skulls are slow without big multikill. Skip WOWs, they scale badly.')
     return L
 
 

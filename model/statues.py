@@ -27,11 +27,10 @@ def build():
 
 
 def card_lines(o):
-    L = [f"Statues {o.get('tier')}. AutoReview targets (farmer in brackets): " + '; '.join(dict.fromkeys(o['targets']))]
-    if o['prereq']: L.append('Before dedicated Onyx farming: ' + '; '.join(o['prereq']))
-    if o['value']: L.append('Statue value levers: ' + '; '.join(o['value']))
-    L.append('Turn-in rules (Griffy): golden statues keep only the highest level, so stockpile and dump into one character instead of splitting; '
-             'depositing all statues can destroy stored greenstacks (2025-12).')
+    t = list(dict.fromkeys(o['targets']))
+    L = [f"Statue goals: {'; '.join(x.split(': ', 1)[-1] for x in t[:3])}."]
+    if o['prereq']: L.append('Before farming Onyx: ' + '; '.join(p.split(':')[0] for p in o['prereq'][:3]) + '.')
+    L.append('Griffy: golden statues only keep the highest level, so stockpile them and turn them all in on one character. Turning in every statue at once can wipe stored greenstacks.')
     return L
 
 

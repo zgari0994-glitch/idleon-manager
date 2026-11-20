@@ -27,21 +27,15 @@ def _secs(s):
 def card_lines(o):
     B = o['buildings']; L = []
     waste = [b for b in B if b['slot'] and b['ready']]
-    if waste: L.append(f"TOP: {len(waste)} slotted buildings show Ready (finished, my read): " + ', '.join(f"{b['name']} {b['lv']} ({b['slot']})" for b in waste)
-                       + '. Check in game; if they are done, move those slots to unfinished builds.')
+    tr = [b['name'] for b in waste if b['slot'] == 'trimmed']
+    if waste: L.append(f"TOP: {len(waste)} buildings in slots show as finished" + (f", including all your trimmed slots ({', '.join(tr)})" if tr else '') + '. Check in game, then move the slots to unfinished buildings.')
     blocked = [b for b in B if b['have'] is not None and b['need'] and b['have'] < b['need']]
     open_ = sorted([b for b in B if not b['ready'] and b not in blocked and b['left']], key=lambda b: -_secs(b['left']))
-    if open_: L.append('Slot targets (longest first, trimmed = 15x): ' + ', '.join(f"{b['name']} {b['lv']}/{b['max']} {b['left']}" for b in open_[:5]))
-    if blocked:
-        grp = {}
-        for b in blocked: grp.setdefault(b['have'], []).append(b)
-        for have, bl in grp.items():
-            L.append(f"Blocked on a material you hold {have:,.0f} of (needs " + ', '.join(f"{b['name']} {b['need']:,.0f}" for b in bl) + '). Toolbox shows it as an icon only: check the building cost in game.')
+    if open_: L.append('Best slot targets (longest builds first): ' + ', '.join(f"{b['name']} ({b['left']})" for b in open_[:3]) + '.')
+    if blocked: L.append(f"{', '.join(b['name'] for b in blocked)} are stuck on one material you only have {blocked[0]['have']:,.0f} of. Check which one in game.")
     tiers = {}
-    for i in o['ar']: tiers.setdefault(i['group'], []).append(f"{i['label']} {i['cur']}->{i['goal']}")
-    for g in ('S Tier', 'A Tier'):
-        if g in tiers: L.append(f"AutoReview {g}: " + ', '.join(tiers[g][:8]))
-    if o['speed']: L.append(f"Build speed {o['speed'][0]}, trimmed {o['speed'][1]}.")
+    for i in o['ar']: tiers.setdefault(i['group'], []).append(f"{i['label']} {i['cur']} -> {i['goal']}")
+    if 'S Tier' in tiers: L.append('AutoReview top buildings: ' + ', '.join(tiers['S Tier'][:4]) + '.')
     return L
 
 

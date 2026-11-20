@@ -16,11 +16,12 @@ def build():
 
 def card_lines(o):
     L = []
-    if o['claimable'] and o['claimable'] != '0': L.append(f"TOP: {o['claimable']} missions claimable.")
+    if o['claimable'] and o['claimable'] != '0': L.append(f"TOP: claim {o['claimable']} missions.")
     aff = [b for b in o['boosts'] if b[2] and b[2] <= o['lumi']]
-    if aff: L.append(f"Lumi {o['lumi']:,.0f} (+{o['per_hr']}/hr). Affordable boosts: " + ', '.join(f"{a[:50]} Lv {lv} ({c:,.0f})" for a, lv, c in sorted(aff, key=lambda x: x[2])))
-    if o['locked']: L.append('Locked boosts (target): ' + ', '.join(f"{a[:40]} ({r})" for a, r in o['locked'][:4]))
-    L.append(f"Rank {o['rank']}, unlocks {o['unlocks']}. Missions: " + '; '.join(f"{a} {p}" for a, c, req, p in o['missions'][:5]))
+    if aff: L.append(f"Buy {', '.join(re.sub(r'^\+?[\d.]+x? ', '', a).split(' to ')[0][:30] for a, lv, c in aff)} with Lumi (you have {o['lumi']:,.0f}).")
+    if o['locked']: L.append(f"Higher Menagerie ranks unlock more boosts, like cooking speed at rank 5. You're rank {o['rank']}.")
+    close = [(a, p) for a, c, req, p in o['missions'] if '/' in p]
+    if close: L.append('Missions in progress: ' + ', '.join(f"{a} {p}" for a, p in close[:4]) + '.')
     return L
 
 

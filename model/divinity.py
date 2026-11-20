@@ -81,30 +81,16 @@ def build():
 def card_lines(o):
     L = []
     h = o['head']
-    used = {s: v['used_by'] for s, v in o['styles'].items() if v['used_by']}
-    L.append(f"TOP: Divinity points income is {h['Divinity PTS/hr']} (Toolbox PTS/hr: style rate 0, nobody meditating). Banked {h['Divinity points']}. "
-             "Points only come while a character is meditating at the Divinity altar (W5); Pulse 2026-11: put characters on the Divinity platform before Super week, Mindful is the best style.")
-    L.append('Styles now: ' + '; '.join(f"{s} ({o['styles'][s]['gives']}): {', '.join(u)}" for s, u in used.items()))
-    g = o['gods'].get('Goharut', {})
-    L.append("Goharut trick (Pulse 2026-10 + Griffy 2026-09): characters linked to Goharut who sit in Lab tubes count as at the altar, so they earn Divinity and Lab EXP at once. "
-             "Pulse 2026-10: his first Arcane Cultist sits in Lab on Goharut for both. Check: Toolbox Divinity PTS/hr goes above 0 after the change.")
-    nxt = [c for c in o['coral'] if c['lv'] == 0]
-    if nxt:
-        L.append(f"Coral Kid (all Lv 0, total Divinity LV {h['Total Divinity LV']} meets every LV requirement shown). In cost order with {spend.h(o['points'])} points:")
-        for c in sorted(nxt, key=lambda c: c['cost'] or 9e99)[:6]:
-            L.append(f"  {c['desc']} - {spend.h(c['cost'])} pts" + (' AFFORDABLE NOW' if c['cost'] and c['cost'] <= o['points'] else f" (need {spend.h(c['cost'] - o['points'])} more)"))
-    L.append('Blessings, best buy first within each currency (gain per share of that balance). Points multipliers only pay once income is running:')
-    for cur, ops in o['blessing_rank'].items():
-        shared = ' (shared with Sailing boat upgrades)' if cur.startswith('sailing-treasure') else ''
-        L.append(f"  {cur}{shared}: " + ' > '.join(spend.fmt(x) + ('' if x['afford'] is not False else ' NOT AFFORDABLE') for x in ops))
-    L.append(f"God rank {h['God rank']}. Pulse 2026-11: endgame aims for rank 25-30; Divinity/Super week is the push (claim one by one, spend 90% of points, then singularities). Singularity spirals {o['spirals']}.")
-    lk = {}
-    for c, g in o['links'].items(): lk.setdefault(g, []).append(c)
-    L.append('Links (save): ' + '; '.join(f"{g}: {', '.join(cs)}" for g, cs in lk.items()) +
-             (f". CONFLICT: Toolbox lists {', '.join(c for c, _ in o['purrmep_shown'])} under Purrmep; confirm in game." if o['purrmep_shown'] else ''))
-    L.append("Links per Griffy (review list, sources/findings/review_list.md): 1 Elemental Sorcerer on Purrmep via the bottom-left Divinity talent (2x Divinity + EXP), "
-             "keep 1 on Harriep (3x printer), Arctis for the rest (talent levels + Lab mainframe), Snehebatu over Nobisect, Goharut for anyone in Lab tubes. Coral Kid 1 god choice: open.")
-    if o['pts_x1']: L.append('Divinity PTS sources still x1: ' + ', '.join(o['pts_x1']))
+    if str(h['Divinity PTS/hr']).startswith('0'):
+        L.append(f"TOP: you're earning 0 Divinity points because nobody is meditating. Put someone on Mindful style at the W5 altar (Pulse: Mindful is best). You have {h['Divinity points']} banked.")
+    L.append('Trick from Pulse and Griffy: characters linked to Goharut who sit in Lab tubes count as meditating, so they earn Divinity and Lab EXP at the same time.')
+    aff = [c for c in o['coral'] if c['lv'] == 0 and c['cost'] and c['cost'] <= o['points']]
+    if aff: L.append(f"Coral Kid: buy the cheapest upgrade now ({spend.h(aff[0]['cost'])} points): {aff[0]['desc'].split('!')[0][:70]}.")
+    best = [ops[0] for cur, ops in o['blessing_rank'].items() if ops and ops[0]['afford']]
+    if best: L.append('Best blessing buys: ' + ', '.join(x['item'].split(' blessing')[0] for x in best[:4]) + '.')
+    L.append(f"God rank {h['God rank']}. Pulse says endgame is rank 25 to 30, and Super week is when you push it.")
+    if o['purrmep_shown']: L.append(f"Check in game whether {o['purrmep_shown'][0][0]} is linked to Purrmep (Toolbox and the save disagree).")
+    L.append('God links are on the review list for later.')
     return L
 
 

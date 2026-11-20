@@ -1,12 +1,12 @@
 {
- "stamp": "20261120T0128",
- "vs": "20261119T0212",
+ "stamp": "20261120T0208",
+ "vs": "20261120T0128",
  "stats": [
   {
    "stat": "Sources of Crystal Spawn Chance",
    "section": "Active",
-   "owned": 10,
-   "missing": 5,
+   "owned": 12,
+   "missing": 3,
    "rows": [
     {
      "source": "Chocolatey Chip for more Crystal Mobs",
@@ -17,19 +17,19 @@
      "owner": "account"
     },
     {
-     "source": "Hyperion Nebula- Demon Genie card:+90/105% Crystal Mob Spawn Chance",
+     "source": "Hyperion Nebula- Demon Genie card:+105/105% Crystal Mob Spawn Chance",
      "tab": "Account Wide",
-     "cur": "6",
-     "goal": "7",
-     "state": "missing",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
      "owner": "Autistronaut"
     },
     {
-     "source": "Blunder Hills- Poop card:+60/70% Crystal Mob Spawn Chance",
+     "source": "Blunder Hills- Poop card:+70/70% Crystal Mob Spawn Chance",
      "tab": "Account Wide",
-     "cur": "6",
-     "goal": "7",
-     "state": "missing",
+     "cur": "",
+     "goal": "\u2714",
+     "state": "owned",
      "owner": "Autistronaut"
     },
     {
@@ -113,7 +113,7 @@
      "owner": "Autistronaut"
     },
     {
-     "source": "Best Crystal Spawn Chance on Non-Jman: 5.4112% (1 in 18.48)",
+     "source": "Best Crystal Spawn Chance on Non-Jman: 6.0876% (1 in 16.43)",
      "tab": "Total",
      "cur": "",
      "goal": "",
@@ -121,7 +121,7 @@
      "owner": "account"
     },
     {
-     "source": "Best Crystal Spawn Chance on Jman: 18.0927% (1 in 5.53)",
+     "source": "Best Crystal Spawn Chance on Jman: 20.3543% (1 in 4.91)",
      "tab": "Total",
      "cur": "",
      "goal": "",
@@ -353,7 +353,7 @@
      "owner": "Autistopher"
     },
     {
-     "source": "Tome- Red Pages:+140.8% Drop Rate32,214 Total Tome PointsIncreases every 100 points over 8000",
+     "source": "Tome- Red Pages:+140.8% Drop Rate32,231 Total Tome PointsIncreases every 100 points over 8000",
      "tab": "World 4 - +160.8% Total Drop Rate",
      "cur": "",
      "goal": "\u2714",
@@ -3451,26 +3451,8 @@
    ]
   }
  ],
- "newly_owned": [
-  "Account wide sources of Drop Rate (+3583.2%): Companions - Mama Troll:+100% Drop Rate and 1.50x Drop Rate Multi"
- ],
+ "newly_owned": [],
  "missing_by_owner": {
-  "Autistronaut": [
-   "Sources of Crystal Spawn Chance \u00b7 Hyperion Nebula- Demon Genie card:+90/105% Crystal Mob Spawn Chance 6 -> 7",
-   "Sources of Crystal Spawn Chance \u00b7 Blunder Hills- Poop card:+60/70% Crystal Mob Spawn Chance 6 -> 7",
-   "Account wide sources of Drop Rate (+3583.2%) \u00b7 Bosses n Nightmares- Domeo Magmus card:+3/10.5% Total Drop Rate (Passive) 2 -> 7",
-   "Account wide sources of Drop Rate (+3583.2%) \u00b7 Smolderin' Plateau- Ancient Golem card:+8/28% Total Drop Rate (Passive) 2 -> 7",
-   "Account wide sources of Drop Rate (+3583.2%) \u00b7 Smolderin' Plateau- Crystal Glunko card:+0/42% Total Drop Rate (Passive) 0 -> 7",
-   "Account wide sources of Drop Rate (+3583.2%) \u00b7 Events- IdleOn 4th Anniversary card:+0/14% Drop Rate (Passive) 0 -> 7",
-   "Account wide sources of Drop Rate (+3583.2%) \u00b7 Events- Luckulyte card:+0/21% Drop Rate (Passive) 0 -> 7",
-   "Sources of Card Drop Chance \u00b7 Guild Bonus - C2 Card Spotter:+15.88% Card Drop Rate 18 -> 50",
-   "Sources of Card Drop Chance \u00b7 Frostbite Tundra- Sir Stache card:+54/63% Card Drop Chance 6 -> 7",
-   "Sources of Card Drop Chance \u00b7 Events- Egggulyte card:+0/7% Card Drop Chance 0 -> 7",
-   "Sources of Forge Ore Capacity \u00b7 Hard Resources- Godshard Ore card:+150/210% Forge Cap and SPD (Passive) 5 -> 7",
-   "Sources of Sailing Speed \u00b7 Smolderin' Plateau- Crawler card:+20/28% Sailing Speed (Passive) 5 -> 7",
-   "Sources of Sailing Speed \u00b7 Bosses n Nightmares- Kattlekruk card:+24/42% Sailing Speed (Passive) 4 -> 7",
-   "Sources of daily Corals \u00b7 Shimmerfin Deep- Demonblub card:+2/14% Daily Coral (Passive) 1 -> 7"
-  ],
   "Autistopher": [
    "Sources of Crystal Spawn Chance \u00b7 Stamps - Crystallin: +185.09% Spawn Chance 180 -> 270",
    "Sources of Crystal Spawn Chance \u00b7 Level 127/299 booked Cmon Out Crystals talent (Jman only) 127 -> 299",
@@ -3511,6 +3493,20 @@
    "Sources of Atom Collider Cost Reduction \u00b7 Atom Collider building: 2.4/20.0% 24 -> 200",
    "Sources of Atom Collider Cost Reduction \u00b7 Death of the Atom Price: All Atoms are +0.0% cheaper to upgrade(1.00 per level after Writh 0 -> 999999",
    "Sources of Atom Collider Cost Reduction \u00b7 Nomadic-15: Atomic Cost Crash: All Atoms are +4.00% cheaper to upgrade(1.00 per level) 4 -> 999999"
+  ],
+  "Autistronaut": [
+   "Account wide sources of Drop Rate (+3583.2%) \u00b7 Bosses n Nightmares- Domeo Magmus card:+3/10.5% Total Drop Rate (Passive) 2 -> 7",
+   "Account wide sources of Drop Rate (+3583.2%) \u00b7 Smolderin' Plateau- Ancient Golem card:+8/28% Total Drop Rate (Passive) 2 -> 7",
+   "Account wide sources of Drop Rate (+3583.2%) \u00b7 Smolderin' Plateau- Crystal Glunko card:+0/42% Total Drop Rate (Passive) 0 -> 7",
+   "Account wide sources of Drop Rate (+3583.2%) \u00b7 Events- IdleOn 4th Anniversary card:+0/14% Drop Rate (Passive) 0 -> 7",
+   "Account wide sources of Drop Rate (+3583.2%) \u00b7 Events- Luckulyte card:+0/21% Drop Rate (Passive) 0 -> 7",
+   "Sources of Card Drop Chance \u00b7 Guild Bonus - C2 Card Spotter:+15.88% Card Drop Rate 18 -> 50",
+   "Sources of Card Drop Chance \u00b7 Frostbite Tundra- Sir Stache card:+54/63% Card Drop Chance 6 -> 7",
+   "Sources of Card Drop Chance \u00b7 Events- Egggulyte card:+0/7% Card Drop Chance 0 -> 7",
+   "Sources of Forge Ore Capacity \u00b7 Hard Resources- Godshard Ore card:+150/210% Forge Cap and SPD (Passive) 5 -> 7",
+   "Sources of Sailing Speed \u00b7 Smolderin' Plateau- Crawler card:+20/28% Sailing Speed (Passive) 5 -> 7",
+   "Sources of Sailing Speed \u00b7 Bosses n Nightmares- Kattlekruk card:+24/42% Sailing Speed (Passive) 4 -> 7",
+   "Sources of daily Corals \u00b7 Shimmerfin Deep- Demonblub card:+2/14% Daily Coral (Passive) 1 -> 7"
   ],
   "account": [
    "Account wide sources of Drop Rate (+3583.2%) \u00b7 Guild Bonus - Gold Charm:+12.97% Total Drop Rate 24 -> 50",

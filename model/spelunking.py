@@ -20,12 +20,11 @@ def build():
 def card_lines(o):
     L = []
     nxt = [c for c in o['caves'] if not c['done']]
-    if nxt: L.append(f"TOP (need outweighs math: gates 6 systems): next caves " + '; '.join(f"{c['cave']}: {c['bonus'][:70]}" for c in nxt[:6]))
-    if o['pages']: L.append(f"Daily page reads {o['pages']}: read the rest today.")
+    if nxt: L.append(f"TOP: Spelunking is the biggest thing holding the account back. The next caves unlock: " + '; '.join(c['bonus'].split('!')[0][:60] for c in nxt[:4]) + '.')
+    if o['pages']: L.append(f"Read the rest of today's pages ({o['pages']} used).")
     if o['optimizer']:
-        a = o['amber']; aff = [s for s in o['optimizer'] if n(s[4]) <= a]
-        L.append(f"Amber {a:,.0f}. Optimizer next: {o['optimizer'][0][0]} {o['optimizer'][0][1]}->{o['optimizer'][0][2]} for {o['optimizer'][0][4]} ({o['optimizer'][0][3]} POW)" + (' , affordable' if aff else f", short {n(o['optimizer'][0][4]) - a:,.0f}"))
-    L.append(f"Power {o['power']}, discoveries {o['disc']}.")
+        a = o['amber']; s = o['optimizer'][0]; c = n(s[4])
+        L.append(f"Next buy: {s[0]} for {s[4]} amber" + (" (you can afford it)." if c <= a else f", you have {a:,.0f}."))
     return L
 
 

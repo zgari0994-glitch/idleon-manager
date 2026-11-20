@@ -261,33 +261,22 @@ def card_lines(o):
     """Daily lines for the Siege Breaker's Sailing block. Top move first."""
     L = []
     mv = [m for m in o['moves'] if m['from'] != m['to']]
-    L.append(f"Claim chests every session: pile holds 30, 20 boats fill it in ~{o['pile_fill_min']} min (min travel {o['min_travel_min']} min). Every chest is an artifact roll.")
+    L.append(f"Claim chests every time you're on. The pile holds 30 and fills in about {o['pile_fill_min']} minutes, and every chest is an artifact roll.")
     if mv:
-        L.append(f"MOVE {len(mv)} boats (best per-chest odds for the artifacts still cheap to finish):")
+        L.append(f"TOP: move {len(mv)} boats to the islands with the best odds for what's left to find:")
         for m in sorted(mv, key=lambda m: m['boat']):
-            slow = (f", trip ~{m['trip_from_h']}h after the captain swap" if m.get('we') else
-                    f", trip {m['trip_from_h']}h -> {o['min_travel_min']} min" if m.get('trip_from_h', 0) > o['min_travel_min'] / 60 + .05 else '')
-            L.append(f"  Boat {m['boat']} (Captain {m['captain']}): {m['from']} -> {m['to']} ({m['pct_from']}% -> {m['pct_to']}% per chest{slow})")
+            L.append(f"  Boat {m['boat']} (Captain {m['captain']}): {m['from']} -> {m['to']} ({m['pct_from']}% -> {m['pct_to']}% a chest)")
     for w in o['speed_swaps']:
-        L.append(f"  SWAP Captain {w['captain']} (speed) onto Boat {w['to_boat']}, Captain {w['other']} goes to Boat {w['from_boat']}: Boat {w['to_boat']} speed {w['speed_now']/1e9:.2f}B -> ~{w['speed_new']/1e9:.2f}B, World's End trip ~{w['we_trip_h']}h ({w['ballot_trip_h']}h in a Sailing Speed ballot week)")
-    if o['we_boats']:
-        L.append(f"World's End boats: {', '.join('Boat ' + k for k in o['we_boats'])}. They hunt the never-found ones (Deathskull 1/730, Pointagon 1/1,316, Obsidian 1/6,582 chests).")
-    keep = {i: n for i, n in o['alloc'].items()}
-    L.append('Island targets now: ' + '; '.join(f"{r['island']} x{keep[r['island']]}: " + ', '.join(t.split(' (')[0] + f" 1/{n:,}" for t, n in zip(r['targets'], r['n_chests']) if n <= 1500)
-                                                 for r in o['islands'] if r['island'] in keep))
-    if o['later']:
-        L.append('Later (too costly per chest right now): ' + '; '.join(f"{x['island']}: " + ', '.join(t.split(' (')[0] for t in x['targets'][:2]) for x in o['later'][:6]))
+        L.append(f"  Swap Captain {w['captain']} onto Boat {w['to_boat']} (Captain {w['other']} goes to Boat {w['from_boat']}). That cuts the World's End trip to about {w['we_trip_h']}h.")
+    if o['we_boats']: L.append(f"{' and '.join('Boat ' + k for k in o['we_boats'])} go to World's End to hunt the ones you've never found.")
     und = [a['name'] for a in o['artifacts'] if a['acq'] == 0]
-    L.append(f"Never found ({len(und)}): {', '.join(und)}. The Maw (Fang, Nomenclature, Me First Dollar, Bloodclot) is locked: needs cloud discovery at 200B distance; fastest boat after swaps ~{max([w['speed'] for w in o['we_boats'].values()] or [0])/1e9:.1f}B = {200e9/max([w['speed'] for w in o['we_boats'].values()] or [1])/1:.0f}h per trip. GAP: cloud discovery math not mapped yet.")
+    if und: L.append(f"Never found: {', '.join(und)}. Four of them are in The Maw, which needs cloud discovery first.")
     try:
         pm = json.load(open(ROOT / 'model' / 'divinity.json')).get('purrmep_shown') or []
     except Exception:
         pm = []
-    L.append((f"Purrmep minor link (boat speed): Toolbox shows {', '.join(c for c, _ in pm)} linked (+{pm[0][1]}%); AutoReview reads none, confirm in game. " if pm else
-              "Speed for every boat: nobody is Minor Linked to Purrmep in Divinity (+speed group A). ") + "Ballot 'Sailing Speed 2.01x' halves World's End trips the week it's up.")
-    L.append(f"Artifact odds {o['base_odds']:,.0f}x (no captain). Sources still at x1: {', '.join(o['odds_missing_multipliers'][:12])}")
-    afc = [c for c in o['captains'] if c['afc']]
-    L.append('AFC captains: ' + ', '.join(f"{c['captain']} +{c['afc']:g}% (boat {c['boat']})" for c in afc) + f". Each +100% AFC = +{100 / (100 + o['additive_wo_captain']) * 100:.0f}% odds.")
-    sh = [s for s in o['shop'] if s['afc_at_avg']]
-    if sh: L.append('Shop captains with AFC: ' + '; '.join(' / '.join(f"{n} {v}%/lv" for n, v in s['buffs']) for s in sh) + ' (only worth it if a captain slot is free)')
+    if pm: L.append(f"Check in game that {pm[0][0]} is linked to Purrmep in Divinity (boat speed). Toolbox says yes, AutoReview says no.")
+    L.append("When the Sailing Speed ballot is up, World's End trips take half as long.")
     return L
+
+

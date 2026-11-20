@@ -18,15 +18,14 @@ def build():
 
 def card_lines(o):
     L = []
-    if o['rolls'] and int(o['rolls'][0]) < int(o['rolls'][1]): L.append(f"TOP: charm rolls {o['rolls'][0]}/{o['rolls'][1]} used today: roll them (daily, lost at reset).")
-    aff = [u for u in o['upgrades'] if u['cost'] and o['jade'] and u['cost'] <= o['jade']]
-    if aff: L.append(f"Jade {o['jade']:.3g}. Affordable: " + ', '.join(f"{u['name']} Lv {u['lv']} ({u['cost']:.3g})" + (' [Lv 0: check it is unlocked]' if u['lv'] == 0 else '') for u in sorted(aff, key=lambda u: u['cost'])))
+    if o['rolls'] and int(o['rolls'][0]) < int(o['rolls'][1]): L.append(f"TOP: use today's charm rolls ({o['rolls'][1]} left). They don't carry over.")
+    aff = [u for u in o['upgrades'] if u['cost'] and o['jade'] and u['cost'] <= o['jade'] and u['lv'] > 0]
+    if aff: L.append('You can afford these jade upgrades: ' + ', '.join(u['name'] for u in sorted(aff, key=lambda u: u['cost'])) + '.')
+    new = [u['name'] for u in o['upgrades'] if u['cost'] and o['jade'] and u['cost'] <= o['jade'] and u['lv'] == 0]
+    if new: L.append(f"These are cheap but still at level 0, check they're unlocked: {', '.join(new)}.")
     top = max(int(f) for _, _, f in o['floors']) if o['floors'] else 0
-    low = [(c, f) for c, _, f in o['floors'] if int(f) < top]
-    if low: L.append(f"Floor gaps (others on {top}): " + ', '.join(f"{c} floor {f}" for c, f in low))
-    if o['hats']: L.append(f"Hats {o['hats'][0]}/{o['hats'][1]}.")
-    gem = [i for i in o['ar'] if i['group'].startswith('Percentage of Gemstone')]
-    if gem: L.append('AutoReview gemstones: ' + ', '.join(f"{i['label'].split(':')[0]} {i['cur']}" for i in gem[:7]))
+    low = [c for c, _, f in o['floors'] if int(f) < top]
+    if low: L.append(f"{', '.join(low)} {'is' if len(low) == 1 else 'are'} behind on floors (everyone else is on {top}).")
     return L
 
 

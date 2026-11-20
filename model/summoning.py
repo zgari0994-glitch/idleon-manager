@@ -25,13 +25,11 @@ def build():
 
 def card_lines(o):
     L = []
-    if o['unclaimed']: L.append(f"TOP: claim familiar EXP: {o['unclaimed'][0]} ({o['unclaimed'][1]}).")
-    daily = [x for x in o['upgrades'] if x['daily'] and x['lv'] < x['max']]
-    if daily: L.append('Daily-reset buys: ' + ', '.join(f"{x['name']} Lv {x['lv']}/{x['max']}" for x in daily) + ' (cost resets every day; buy each day).')
+    if o['unclaimed']: L.append(f"TOP: claim the familiar EXP ({o['unclaimed'][0]}, {o['unclaimed'][1].split(' unclaimed')[0]} of it).")
+    if [x for x in o['upgrades'] if x['daily'] and x['lv'] < x['max']]: L.append('Buy Familiar every day. It costs 1 essence and the price resets daily.')
     aff = [x for x in o['upgrades'] if x['cost'] and x['held'] and x['cost'] <= x['held'] * 0.01 and x['lv'] < x['max'] and not x['daily']]
-    if aff: L.append(f"{len(aff)} upgrades cost under 1% of their essence: " + ', '.join(f"{x['name']} Lv {x['lv']}" for x in aff[:10]) + '. Buy them (gain per share of balance is highest).')
-    L.append(f"Highest endless {o['endless']}. Essence/hr: " + ', '.join(f"{k} {v[1]}" for k, v in o['essence'].items()))
-    if o['teal']: L.append(f"Teal battles {o['teal'][0]}/{o['teal'][1]}: locked until Spelunking Chucklemire cave (Autistomatic).")
+    if aff: L.append(f"{len(aff)} upgrades are basically free right now: " + ', '.join(x['name'] for x in aff[:6]) + '.')
+    if o['teal']: L.append(f"Teal battles ({o['teal'][0]} of {o['teal'][1]}) open up after Autistomatic's Spelunking cave.")
     return L
 
 

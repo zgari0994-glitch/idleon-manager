@@ -63,22 +63,19 @@ def card_lines(o):
     L = []
     if o['exalt_avail']:
         a, b = o['exalt_avail']
-        if str(a) != str(b): L.append(f"TOP: 1 exalt unspent ({a}/{b} used). AutoReview's recommended order: {', '.join(o['exalt_rec'][:4])}.")
-    if o['total_levels']: L.append(f"Total stamp levels {o['total_levels'][0]} -> {o['total_levels'][1]} for AutoReview tier 18.")
+        if str(a) != str(b): L.append(f"TOP: you have an unused stamp exalt. AutoReview's order: {', '.join(o['exalt_rec'][:3])}.")
     lv, cap = [], []
     for r in o['rows']:
         if r.get('err') or 'material' not in r: continue
-        sh = next((v for k, v in SHARED.items() if k in r['material']), '')
         if r['capped']:
             ok = r['owned'] >= r['next_raise']
-            cap.append(f"{r['stamp']} {r['level']}/{r['max']} -> {r['goal']} [{r['tier']}]: next max raise {spend.h(r['next_raise'])} {r['material']} (have {spend.h(r['owned'])}{', OK' if ok else ', SHORT'})" + (f" - {r['material']} {sh}" if sh else ''))
-        elif r['next_coin']:
-            lv.append(f"{r['stamp']} {r['level']} -> {r['goal']} [{r['tier']}]: next level {spend.h(r['next_coin'])} coins ({100 * r['next_coin'] / o['money']:.2g}% of money)")
-    if lv: L.append('Coin level-ups (AutoReview priority, cheapest share first): ' + '; '.join(sorted(lv, key=lambda x: float(re.search(r'\(([\d.e+-]+)% of', x).group(1)))))
-    if cap: L.append('Capped by max level (raise with materials):')
-    L += ['  ' + c for c in cap]
-    L.append("Resource rule (Zack): stamp materials that other systems also use are flagged; if a stamp pushes a priority section (Cooking speed now), focus it first. "
-             "Envelope Pile sigil cuts max-raise costs (-48% at its next level, Alchemy).")
+            cap.append((ok, r['stamp'].replace(' Stamp', ''), r['material'], spend.h(r['next_raise'] - r['owned'])))
+        elif r['next_coin']: lv.append(r['stamp'])
+    if lv: L.append('Level these with coins: ' + ', '.join(lv[:6]) + '.')
+    rdy = [c[1] for c in cap if c[0]]; short = [f"{c[1]} ({c[3]} more {c[2]})" for c in cap if not c[0]]
+    if rdy: L.append(f"Raise the max level on {', '.join(rdy[:6])}, you have the materials.")
+    if short: L.append('Max-level raises still short: ' + ', '.join(short[:4]) + '.')
+    L.append('If a stamp material is also used by another system, the card flags it. The Envelope Pile sigil makes max-level raises a lot cheaper.')
     return L
 
 

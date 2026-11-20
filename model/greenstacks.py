@@ -51,18 +51,11 @@ def build():
 
 
 def card_lines(o):
-    L = [f"Greenstacks {o['tier']}. Protect list (other planners must say when they spend these, and how they come back):"]
-    for x in o['near']:
-        rt = x['rate_hr']
-        flow = ('rate unknown' if rt is None else f"net {rt:+,.3g}/hr over {x['window']['hours']}h" + (' (draining)' if rt < 0 else ''))
-        L.append(f"  {x['item']} {x['pct']:g}%: {x['owned']:,.0f}, needs {x['need']:,.0f} more; {flow}. Replace via {x['replace']}.")
-    L.append('Note: rates come from cloud saves, so unclaimed AFK gains are not counted yet.')
-    if o['vendor']:
-        L.append('Daily time-gated vendor buys (buy every day, best progress first): ' + ', '.join(f"{v['item']} {v['pct']:g}%" for v in o['vendor'][:10]))
-    if o['endangered']:
-        L.append(f"Endangered ({len(o['endangered'])}, quest items still obtainable): " + '; '.join(e.split('- ')[0] + ' (' + e.split('- ')[-1][:30] + ')' for e in o['endangered'][:10]))
-    L.append("Exalt choice (1 exalt free, see Stamps): Pulse 2026-10 says exalt the vendor shop stamp (time-gated, free greenstacks); AutoReview's order starts Summoner Stone. Your call.")
-    L.append("Griffy 2025-12: depositing all statues can destroy stored greenstacks.")
+    L = []
+    if o['near']: L.append('Close to a greenstack, don\'t spend these: ' + ', '.join(f"{x['item']} ({x['pct']:.0f}%)" for x in o['near']) + '. Other cards will warn you before using them.')
+    if o['vendor']: L.append('Buy the daily vendor items that are closest to a greenstack: ' + ', '.join(v['item'] for v in o['vendor'][:5]) + '.')
+    if o['endangered']: L.append(f"{len(o['endangered'])} quest items still need greenstacks while you can still get them.")
+    L.append("Your call on the free exalt: Pulse says the vendor shop stamp, AutoReview says Summoner Stone.")
     return L
 
 

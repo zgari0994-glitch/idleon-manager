@@ -1,5 +1,5 @@
 {
- "snapshot": "20261120T0128",
+ "snapshot": "20261120T0208",
  "per_char": {
   "Autiszemo": {
    "samples": [
@@ -383,31 +383,8 @@
   }
  ],
  "needs": {
-  "Mutton Statue": "runs out in 0.0 days",
-  "Exp Book Statue": "runs out in 0.0 days",
-  "Thicc Skin Statue": "runs out in 0.0 days",
-  "Egg Statue": "runs out in 0.0 days",
-  "Villager Statue": "runs out in 0.0 days",
-  "Pecunia Statue": "runs out in 0.0 days",
-  "Stealth Statue": "runs out in 0.0 days",
-  "Oceanman Statue": "runs out in 0.0 days",
-  "Ol Reliable Statue": "runs out in 0.0 days",
-  "Cauldron Statue": "runs out in 0.0 days",
-  "Twosoul Statue": "runs out in 0.0 days",
-  "Anvil Statue": "runs out in 0.0 days",
-  "Spiral Statue": "runs out in 0.0 days",
-  "Compost Statue": "runs out in 0.0 days",
-  "Health Statue": "runs out in 0.0 days",
-  "Boat Statue": "runs out in 0.0 days",
-  "Battleaxe Statue": "runs out in 0.0 days",
-  "Feasty Statue": "runs out in 0.0 days",
-  "Bullseye Statue": "runs out in 0.0 days",
-  "Mining Statue": "runs out in 0.0 days",
-  "Lumberbob Statue": "runs out in 0.0 days",
-  "Beholder Statue": "runs out in 0.0 days",
-  "Speed Statue": "runs out in 0.0 days",
-  "Rice Cake": "runs out in 0.0 days",
-  "EhExPee Statue": "runs out in 0.2 days",
+  "Bleach Logs": "runs out in 0.4 days",
+  "Gold Bar": "runs out in 1.2 days",
   "Tangled Cords": "Dream of Ironfish 68 -> 70 (exact cost: check bubble cost)",
   "Void Bar": "ran out before (Zack); construction/printer use",
   "Copper Bar": "Barium Mixture 12 -> 13 needs 1B Copper Bars (Toolbox map finding)",
@@ -418,7 +395,15 @@
   "Cramped Material Pouch": "Matty Bag Stamp next max raise needs 149 (have 0)",
   "Icing Ironbite": "Potion Stamp next max raise needs 2.92e+05 (have 0)"
  },
- "swaps": [],
+ "swaps": [
+  {
+   "char": "Autistabish",
+   "from": "Effervescent Logs",
+   "to": "Bleach Logs",
+   "sample": 1407648608.37931,
+   "why": "runs out in 0.4 days"
+  }
+ ],
  "gold_relic": [
   29,
   100,
@@ -439,7 +424,7 @@
   ]
  },
  "tb": {
-  "Atoms per hour": "126,711.584",
+  "Atoms per hour": "131,702.779",
   "Atom threshold": "1.05B"
  },
  "doot": true

@@ -19,15 +19,12 @@ def build():
 
 def card_lines(o):
     L = []
-    if o['sprouts'] and o['sprouts'][0] == o['sprouts'][1]: L.append(f"TOP: garden full ({o['sprouts'][0]}/{o['sprouts'][1]} sprouts): harvest, nothing grows while full.")
-    if o['since']: L.append('Not visited: ' + ', '.join(f"{a} {b}" for a, b in o['since']) + ' (dig with the shovel, collect squirrel acorns).')
+    if o['sprouts'] and o['sprouts'][0] == o['sprouts'][1]: L.append("TOP: the garden is full, harvest it. Nothing new grows until you do.")
+    if o['since']: L.append(f"Dig with the shovel and collect the squirrel's acorns, neither has been touched in {o['since'][0][1]}.")
     buy = [s for s in o['shop'] if s[2] <= o['acorns']]
-    L.append(f"Acorn shop ({o['acorns']} acorns): " + ', '.join(f"{a} Lv {b} next {c}" + (' BUY' if (a, b, c) in buy else '') for a, b, c in o['shop']))
-    if o['snail']:
-        lv, mx, enc, ok, rs = o['snail']
-        plan = [i for i in o['ar'] if i['group'] == 'Snail Ranks' and 'Step' in i['label']]
-        L.append(f"Snail Lv {lv}/{mx}, encouragement {enc}, success {ok}, reset {rs}. AutoReview steps: " + ' | '.join(i['label'][:80] for i in plan[:4]))
-    L.append(f"Superbits owned {o['superbits_owned']}. Isotope Discovery superbit (+10 atom max) is a target on this card. Spelunking Sedimeadow cave adds superbits page 2.")
+    if buy: L.append(f"Acorn shop: buy {', '.join(re.sub(r'^(Boosts |All plants )', '', re.sub(r' by \+?[\d.]+%$', '', a)).strip() for a, b, c in buy)} ({o['acorns']} acorns).")
+    if o['snail']: L.append(f"Snail is level {o['snail'][0]} of {o['snail'][1]}. AutoReview's mail plan is on this card.")
+    L.append('Spelunking cave Sedimeadow (Autistomatic) adds a second page of superbits.')
     return L
 
 

@@ -87,50 +87,37 @@ def build():
 def char_lines(o, c):
     eq = o['equipped'].get(c) or []
     task = o['tasks'].get(c, '')
-    L = [f"Equipped now: {', '.join(eq) or 'none'}. Task: {task[:90]}"]
+    L = [f"Prayers on: {', '.join(eq) or 'none'}."]
     for pat, pray, act, src in RULES:
-        if re.search(pat, task, re.I): L.append(f"{pray}: {act} ({src})")
-    if 'The Royal Sampler' in eq: L.append("Royal Sampler: keep until print day (it only unequips by clearing samples).")
+        if re.search(pat, task, re.I): L.append(f"{pray}: {act}.")
     if 'Shiny Snitch' in eq and not re.search(r'trap|critter', task, re.I):
-        L.append("CHECK: Shiny Snitch is on, but this character's task isn't trapping. It only pays while trapping and its curse lowers shiny chance (prayer text).")
+        L.append("Take off Shiny Snitch, it only helps while trapping and it lowers shiny chance otherwise.")
     if 'Skilled Dimwit' in eq and re.search(r'kill|death note|zow|chow|push|fight', task, re.I) and not re.search(r'skill|lab|cook|farm|spelunk|divinity', task, re.I):
-        L.append("CHECK: Skilled Dimwit (+skill efficiency, -skill EXP) on a fighting task.")
+        L.append("Skilled Dimwit doesn't fit a fighting job, swap it.")
+    if 'The Royal Sampler' in eq: L.append('Leave Royal Sampler on until print day.')
     return L
 
 
 def card_lines(o):
     L = []
-    rs = next((p for p in o['prayers'] if p['name'] == 'The Royal Sampler'), None)
     gd = o.get('gold_relic') or [None, None, None]
-    if rs:
-        L.append(f"PRINT DAY plan (Royal Sampler, worn by {len(rs['equipped_by'])}): it unequips only by clearing samples, so dropping it = full resample day. "
-                 f"Pulse 2026-10: statue week is the yearly resample time (copper prints first). Gold Relic is {gd[0]}/{gd[1]} days and resets on a sample, so print day = statue week or day 100.")
-        L.append("Before print day (Griffy): book talents first (2026-10), Voidwalker in speedrun form while sampling (2026-08), keep Maestro's skills above the others (Right Hand, 2026-09), "
-                 "multi-resource bubbles (Sploosh Sploosh, Bug Squared, Molto Loggo, 2026-07), Island stamp toward 90% sample size (2026-10), extra sample slots (gems, 2026-10). "
-                 "Griffy 2026-10: the Royal Sampler EXP curse is additive (10x EXP becomes ~9.4x, not 4x), so waiting costs less than the -87% reads.")
-    L.append('Souls: ' + ', '.join(f"{k.split()[0]} {spend.h(v)}" for k, v in o['souls'].items()) +
-             f". Reserve rule (my read until salt/stamp/vial soul needs are modeled): a prayer buy may use at most {int(SOUL_RESERVE_SHARE * 100)}% of that soul type. Souls also feed stamps, vials (Sippy Soul), bubbles and your salt chain.")
+    L.append(f"Print day: Royal Sampler only comes off by clearing samples, so it waits for print day. Pulse uses statue week; Gold Relic is at {gd[0]} of {gd[1]} days.")
+    L.append('Griffy before print day: book talents first, and the Royal Sampler EXP hit is smaller than it looks.')
     buys = []
     for cur, ops in o['ranked'].items():
         for x in ops:
             if x['afford'] and x['share'] is not None and x['share'] <= SOUL_RESERVE_SHARE: buys.append(x)
     buys.sort(key=lambda x: (-x.get('weight', 1), x['share']))
-    if buys: L.append('Safe prayer buys now (inside the reserve, AutoReview-recommended first): ' + ' > '.join(spend.fmt(x) for x in buys[:8]))
-    held = [x for ops in o['ranked'].values() for x in ops if x['afford'] and x['share'] and x['share'] > SOUL_RESERVE_SHARE]
-    if held: L.append('Held (over the reserve): ' + ', '.join(spend.fmt(x) for x in held[:4]))
+    if buys: L.append('Prayer upgrades you can buy without eating into your soul reserve: ' + ', '.join(x['item'].split(' ')[0] + ' ' + x['item'].split(' ')[1] for x in buys[:5]) + '.')
     try:
         prot = json.load(open(ROOT / 'model' / 'protect.json'))
-        import rates
-        for x in buys + held:
-            if x['currency'] in prot:
-                pr_ = prot[x['currency']]
-                L.append(f"  {x['currency']} is on the greenstack protect list ({pr_['owned']:,.0f}, {pr_['need_for_stack']:,.0f} short of 10M). "
-                         f"Buying {x['item'].split(' ')[0]} spends {x['cost']:,.0f}; {rates.replace_line(x['currency'], x['cost'])}. Replace via {pr_['replace']}.")
+        for x in buys:
+            if x['currency'] in prot: L.append(f"Careful: {x['currency']} is close to a greenstack, buying {x['item'].split(' ')[0]} spends some of it.")
     except Exception:
         pass
-    lk = [p for p in o['prayers'] if p.get('locked')]
-    if lk: L.append('Locked prayers (worship wave needed, so not buyable yet): ' + '; '.join(f"{p['name']} needs wave {p['wave_need']} in {p['totem']} (best {p['wave_now']})" for p in lk))
-    L.append('Loadouts are fluid: each card shows its own prayers vs that character\'s task (AFK or active). Change prayers when the task changes.')
+    lk = [p for p in o['prayers'] if p.get('locked')][:3]
+    if lk: L.append('Locked prayers: ' + '; '.join(f"{p['name']} needs {p['totem']} wave {p['wave_need']} (best {p['wave_now']})" for p in lk) + '.')
+    L.append("Set each character's prayers to what they're doing today, the cards show each one.")
     return L
 
 

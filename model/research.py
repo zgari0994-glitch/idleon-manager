@@ -13,9 +13,9 @@ def build():
 
 
 def card_lines(o):
-    L = [f"Research Lv {o['level']}, next level in {o['to_level']} ({o['registrant']} with registrant). Grid points {o['grid']}."]
-    if o['posty']: L.append('Next Posty Note: ' + '; '.join(f"{a} at Lv {b}: {c[:80]}" for a, b, c in o['posty']))
-    L.append(f"Observations {o['obs']}, {o['rolls']} rolls a day: use them daily.")
+    L = [f"Research is level {o['level'].split(' ')[0]}, next level in {o['to_level']}."]
+    if o['posty']: L.append(f"Level {o['posty'][0][1]} unlocks {o['posty'][0][0]}: {o['posty'][0][2].split('!')[0].lower()}.")
+    L.append(f"Use today's {o['rolls']} observation rolls ({o['obs']} found).")
     return L
 
 

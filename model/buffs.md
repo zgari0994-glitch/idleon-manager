@@ -1,13 +1,10 @@
-# Buff sources · save 20261120T0128 vs 20261119T0212
-24 stats, 201 sources owned, 206 missing
+# Buff sources · save 20261120T0208 vs 20261120T0128
+24 stats, 203 sources owned, 204 missing
 
-## Newly unlocked since last save
-- Account wide sources of Drop Rate (+3583.2%): Companions - Mama Troll:+100% Drop Rate and 1.50x Drop Rate Multi
-
-## Active: Sources of Crystal Spawn Chance  (10 owned / 5 missing)
+## Active: Sources of Crystal Spawn Chance  (12 owned / 3 missing)
 - [x] Chocolatey Chip for more Crystal Mobs
-- [ ] Hyperion Nebula- Demon Genie card:+90/105% Crystal Mob Spawn Chance 6 -> 7 · Autistronaut
-- [ ] Blunder Hills- Poop card:+60/70% Crystal Mob Spawn Chance 6 -> 7 · Autistronaut
+- [x] Hyperion Nebula- Demon Genie card:+105/105% Crystal Mob Spawn Chance
+- [x] Blunder Hills- Poop card:+70/70% Crystal Mob Spawn Chance
 - [x] Omega Nanochip: Top Left card doubler
 - [x] Omega Motherboard: Bottom Right card doubler
 - [ ] Stamps - Crystallin: +185.09% Spawn Chance 180 -> 270 · Autistopher
@@ -18,8 +15,8 @@
 - [x] Crystals 4 Dayys star talent: 2.16x at level 100
 - [x] Non Predatory Loot Box: +39% at 400 crates
 - [x] Note: Crescent Shrine and PO Box are additive: 4.394xThe cards also add together. Everything else is a unique 
-- [x] Best Crystal Spawn Chance on Non-Jman: 5.4112% (1 in 18.48)
-- [x] Best Crystal Spawn Chance on Jman: 18.0927% (1 in 5.53)
+- [x] Best Crystal Spawn Chance on Non-Jman: 6.0876% (1 in 16.43)
+- [x] Best Crystal Spawn Chance on Jman: 20.3543% (1 in 4.91)
 
 ## Drop Rate: Account wide sources of Drop Rate (+3583.2%)  (34 owned / 47 missing)
 - [ ] Bosses n Nightmares- Domeo Magmus card:+3/10.5% Total Drop Rate (Passive) 2 -> 7 · Autistronaut
@@ -49,7 +46,7 @@
 - [ ] Breeding - Shiny Xylobone: +10/20% Drop Rate 10 -> 20 · Autistacular
 - [ ] Breeding - Shiny Choccie: +5/20% Drop Rate 5 -> 20 · Autistacular
 - [ ] Grey Tome Book: 1.26x higher bonuses from the Tome(1.00 per level: Not scaled by Writhing Grimoire) 26 -> 150 · Autistopher
-- [x] Tome- Red Pages:+140.8% Drop Rate32,214 Total Tome PointsIncreases every 100 points over 8000
+- [x] Tome- Red Pages:+140.8% Drop Rate32,231 Total Tome PointsIncreases every 100 points over 8000
 - [x] Cape Vine - Chains of the Gilded Vaultguard+11.5% Drop Rate MultiPlain Vine: 0.29x
 - [ ] Cape Vine - Lovely Balloon+250% Drop RateNot deposited 0 -> 1 · Autistachio
 - [x] Cape Vine - Molten Cloak+8.62% Drop RatePlain Vine: 0.29x

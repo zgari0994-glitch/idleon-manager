@@ -98,30 +98,21 @@ def char_lines(o, c):
 
 def card_lines(o):
     gd, gmax, gm = o['gold_relic']
-    L = [f"Gold Relic {gd}/{gmax} days ({gm}x printer output, +5% per day, resets when you take a sample). Rule: don't take new samples until 100 days unless a sample "
-         "target is worth the reset (my read; Gold Relic text is the source of the growth rule)."]
-    if o['tb']: L.append(f"Atoms: {o['tb'].get('Atoms per hour')}/hr (prints over the {o['tb'].get('Atom threshold')} threshold feed atoms, so big stacks are not wasted).")
+    L = [f"Gold Relic is at {gd} of {gmax} days ({gm}x print output). Taking any sample resets it, so hold off on new samples unless it's worth it (my read)."]
     sw = o['swaps']
-    L.append((f"{len(sw)} print swaps toward needed materials (on each owner's prints block). " if sw else 'No print swaps: every slot either prints a needed item or no needed item is in that character\'s samples. ') +
-             'Needs come from the material ledger (runouts, watch list, stamp materials).')
-    L.append('Printer multi still x1: ' + ', '.join(f"{k} {a}/{b} days" for k, (a, b) in o['x1'].items() if (a or 0) < b))
+    if sw: L.append(f"{len(sw)} print swaps are listed on the owners' cards.")
     cb = o.get('close_buffs') or []
     if cb:
         import datetime as _dt
-        etas = []
+        days = []
         for x in cb[:6]:
-            if 'days' in x['label']:   # day counters tick 1/day
+            if 'days' in x['label']:
                 c, g = [float(v) for v in (re.findall(r'[\d.]+', str(x['cur']))[0], re.findall(r'[\d.]+', str(x['goal']))[0])]
-                etas.append((x, int(g - c)))
-            else:
-                etas.append((x, None))
-        known = [d for _, d in etas if d is not None and d > 0]
-        when = (_dt.date.today() + _dt.timedelta(days=max(known))).isoformat() if known else '?'
-        L.append(f"PRINT DAY = when all {len(etas)} print buffs are done (Zack 2026-11-19). Earliest by the day counters: {when} ({max(known) if known else '?'} days); "
-                 "the level-based ones need pushing by then:")
-        for x, dd in etas:
-            L.append(f"  {x['label']} ({x['cur']} -> {x['goal']})" + (f": {dd} days, ticks daily" if dd else ': push it (levels, not days)'))
-    L.append("AutoReview tier 8 needs one sample target: Oak Logs 4.42B -> 10B is the closest (2.3x). Taking that sample resets Gold Relic.")
+                days.append(int(g - c))
+        when = (_dt.date.today() + _dt.timedelta(days=max(days))).strftime('%b %d') if days else '?'
+        lv = [re.split(r'[:(]', x['label'])[0].strip() for x in cb[:6] if 'days' not in x['label']]
+        L.append(f"Print day is when all 6 print buffs are done. The day counters finish around {when}." + (f" Push these by then: {', '.join(lv)}." if lv else ''))
+    L.append('AutoReview wants one sample goal next: Oak Logs to 10B. That sample resets Gold Relic, so time it for print day.')
     return L
 
 

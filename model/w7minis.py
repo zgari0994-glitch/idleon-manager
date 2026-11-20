@@ -44,26 +44,23 @@ def build():
 def card_lines(o):
     L = []
     d = []
-    if o['jelly']['ops'] and o['jelly']['ops'] != '0': d.append(f"Jelly: {o['jelly']['ops']} operations left (next obstruction {o['jelly']['next']})")
-    if o['minehead']['tries'] and not o['minehead']['tries'].startswith('0'): d.append(f"Minehead: {o['minehead']['tries']} tries left (next {o['minehead']['next']})")
+    if o['jelly']['ops'] and o['jelly']['ops'] != '0': d.append(f"use {o['jelly']['ops']} Jelly operations")
+    if o['minehead']['tries'] and not o['minehead']['tries'].startswith('0'): d.append(f"play {o['minehead']['tries'].split(' / ')[0]} Minehead tries")
     f = o['sushi']['fuel']
-    if f and int(f[0].replace(',', '')) >= 0.9 * int(f[1].replace(',', '')): d.append(f"Sushi fuel {f[0]}/{f[1]} near cap: spend it")
-    if d: L.append('TOP dailies: ' + '; '.join(d) + '.')
-    if o['legend']['unspent'] and o['legend']['unspent'] != '0': L.append(f"Legend Talents: {o['legend']['unspent']} points unspent ({o['legend']['points']} earned). Spend them (Blue Ribbon / Extended Database held per Zack 11/16).")
+    if f and int(f[0].replace(',', '')) >= 0.9 * int(f[1].replace(',', '')): d.append('spend Sushi fuel (nearly full)')
+    if d: L.append('TOP dailies: ' + ', '.join(d) + '.')
+    if o['legend']['unspent'] and o['legend']['unspent'] != '0': L.append(f"Spend {o['legend']['unspent']} Legend Talent points (keep Blue Ribbon and Extended Database on hold).")
     nx = o['sushi']['next']
-    if nx and f and int(f[0].replace(',', '')) >= int(nx[1].replace(',', '')): L.append(f"Sushi: unlock {nx[0].strip()} now ({nx[1]} fuel, you have {f[0]}).")
-    if o['sushi']['cheap']: L.append(f"Sushi upgrades under 5% of {o['sushi']['bucks']} bucks: " + ', '.join(f"{a} Lv {b} ({c:,.0f})" for a, b, c in o['sushi']['cheap'][:8]))
-    if o['clam']['ready']: L.append(f"Clam ({o['clam']['pearls']} pearls), optimizer ready now: " + ', '.join(f"{a} {b}->{c} {e} pearls ({d})" for a, b, c, d, e in o['clam']['ready']))
-    if o['minehead']['buy']: L.append(f"Minehead ({o['minehead']['cur']} currency) buy: " + ', '.join(f"{a} Lv {b} ({c:,.0f})" for a, b, c in o['minehead']['buy'][:5]))
-    if o['minehead']['opp']: L.append('Minehead next opponents: ' + '; '.join(f"{a} ({c} HP): {d}" for a, b, c, d in o['minehead']['opp'][:3]))
+    if nx and f and int(f[0].replace(',', '')) >= int(nx[1].replace(',', '')): L.append(f"Unlock {nx[0].strip()} in Sushi now.")
+    if o['sushi']['cheap']: L.append('Cheap Sushi upgrades: ' + ', '.join(a for a, b, c in o['sushi']['cheap'][:5]) + '.')
+    if o['clam']['ready']: L.append('Clam: buy ' + ', '.join(f"{a} ({e} pearls)" for a, b, c, d2, e in o['clam']['ready']) + '.')
+    if o['minehead']['buy']: L.append('Minehead: buy ' + ', '.join(a for a, b, c in o['minehead']['buy'][:4]) + '.')
+    if o['minehead']['opp']:
+        a, b, hp, rw = o['minehead']['opp'][0]; L.append(f"Beat {a} next: {rw.split('.')[0].lower()}.")
     tr = [t for t in o['glimbo']['trades'] if t[1] >= t[2]]
-    if tr: L.append('Glimbo trades available (each raises an Upgrade Vault max LV, see Vault on Autistopher): ' + ', '.join(f"{a} ({h:,}/{nd})" for a, h, nd in tr))
-    sh = [t for t in o['glimbo']['trades'] if t[1] < t[2]]
-    if sh: L.append('Glimbo short: ' + ', '.join(f"{a} {h}/{nd}" for a, h, nd in sh))
-    g = []
-    if o['gates']['zenith']: g.append('Zenith Market not reached yet')
-    if o['gates']['button']: g.append('The Button not reached yet' + (' (conditions: ' + '; '.join(f"{a[:50]} {b}" for a, b in o['gates']['button_req'][:3]) + ')' if o['gates']['button_req'] else ''))
-    if g: L.append('Gates: ' + '; '.join(g) + '.')
+    if tr: L.append(f"Glimbo: make {len(tr)} trades ({', '.join(a for a, h_, nd in tr[:4])}...). Each one raises a Vault max level.")
+    g = [x for x, on in (('Zenith Market', o['gates']['zenith']), ('The Button', o['gates']['button'])) if on]
+    if g: L.append(f"Not unlocked yet: {', '.join(g)}.")
     return L
 
 
