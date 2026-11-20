@@ -157,6 +157,23 @@ def greens_step():
     sub = [f"{i['label']} ({p(i):.0f}%): {i['tab']}" for i in sorted(rows, key=p, reverse=True)[:5]]
     return {'do': 'Greenstacks: closest five, farm these', 'why': 'each one counts for Equinox', 'sub': sub}
 
+LEGEND_ORDER = [  # Pulse 2026-09-25 tier list (S first, then A), newer Pulse 2026-10-18 notes where given
+    ('Daily Shopping Spree', 'S tier, Royal Guardian is only pushable with it'),
+    ('Skillium Fancyson', 'high A, maybe low S'), ('Furry Friends Forever', 'high A since Orion and Poppy buffs'),
+    ('Picasso Gaming', 'A+'), ('Extended Database', 'A'), ('Blue Ribbon Certification', 'A'),
+    ('Best Story Ever Told', 'mid A'), ('Buy One Get One Free', 'high A, needs the Exotic Market unlocked'),
+    ('Two Time Jelly Operation', 'big progression, needs Jelly; feeds the POW goal'), ('Minehead My Beloved', 'big progression, needs the Lumi mechanic'),
+    ('Midusian Appetite', 'B+'), ('Whats in your Jar?', 'B+'), ('+1 Slab', 'high B'), ("Kruk be Bubblin'", 'B'),
+]
+
+def legend_step():
+    tt = tbtext('legend')
+    m = re.search(r'(\d+) unspent', tt)
+    if not m or int(m.group(1)) == 0: return {'do': 'Legend talents: nothing needed', 'why': '', 'sub': []}
+    open_ = {mm.group(1): (int(mm.group(2)), int(mm.group(3))) for mm in re.finditer(r'\n([^\n]{3,45})\nLv (\d+) / (\d+)', tt)}
+    sub = [f"{n} ({open_[n][0]}/{open_[n][1]}): {why}" for n, why in LEGEND_ORDER if n in open_ and open_[n][0] < open_[n][1]][:6]
+    return {'do': f"Legend talents (Whallamus): {m.group(1)} points unspent, spend in this order", 'why': 'Pulse tier list, S first then A', 'sub': sub}
+
 # ---------------- every-character checks ----------------
 TRAP_PLAN = {}
 for row in (ROOT / 'plans' / 'trapping.md').read_text().splitlines():
@@ -263,7 +280,7 @@ def build():
                 continue
             if 'ZOWs + CHOWs' in b['block']: continue   # replaced by the milestone step below
             daily.append(to_step(b, n))
-        if n == 'Autisticles': daily.append(sushi_step())
+        if n == 'Autisticles': daily.append(sushi_step()); daily.append(legend_step())
         if n == 'Autistotle':
             gs = greens_step()
             if gs: daily.append(gs)
