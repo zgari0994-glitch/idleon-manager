@@ -71,7 +71,7 @@ def goal_card():
     if vc: out['levers'].append({'who': 'Autistachio', 'do': f"Dancing Coral: buy Vibrant Coral ({vc.group(3)}, have {vc.group(2)}). Then Isaccian Shrine above 200 gives +5% POW per level (Autistastic, shrine at {vc.group(1)})", 'size': '+5%/lv'})
     cl = tbtext('clam', 'Compensations'); wc = re.search(r'Worker class\nLv (\d+)', cl)
     out['levers'].append({'who': 'Autisticles', 'do': f"Clam Work: worker class 12 gives 2x POW (now {wc.group(1) if wc else '?'}). Long term", 'size': '2x'})
-    out['unknown'] = ['Divinity sweep (right god + style per character)', 'Lab jewel and chip check', 'Ballot votes', 'Park spots marked needs checking', 'Spelunk tools (+% total POW)', 'Research grid daily POW boost', 'POW elixirs (need pages)', 'Sushi fuel costs past the next one']
+    out['unknown'] = ['God rank: what it gives before spending points', 'Lab jewel and chip check', 'Ballot votes', 'Park spots marked needs checking', 'Spelunk tools (+% total POW)', 'Research grid daily POW boost', 'POW elixirs (need pages)', 'Sushi fuel costs past the next one']
     return out
 
 # ---------------- step transform ----------------
@@ -180,14 +180,26 @@ def trap_line(name):
 
 DIV = json.load(open(ROOT / 'model' / 'divinity.json')) if (ROOT / 'model' / 'divinity.json').exists() else {}
 
+DIV_RUNNER = 'Autistronaut'   # my read: already on Mindful (Pulse 2026-11-09: best style for points); his park had no plan
+
 def divinity_line(name):
-    link = (DIV.get('links') or {}).get(name, '?')
-    style = next((s for s, v in (DIV.get('styles') or {}).items() if name in v.get('used_by', [])), '?')
+    """Doot is owned: every god + every minor link counts for everyone (Griffy 2026-01/02), so links don't move."""
     pts = (DIV.get('head') or {}).get('Divinity PTS/hr', '')
-    sub = [f"Linked to {link}, style {style}"]
-    if pts.startswith('0'):
-        return {'do': 'Divinity: needs the divinity sweep (right god and style)', 'why': 'account divinity points are 0 an hour right now', 'sub': sub}
-    return {'do': 'Divinity: nothing needed', 'why': '', 'sub': sub}
+    if name == DIV_RUNNER:
+        return {'do': 'Divinity: sit him at the W5 Divinity altar on Mindful style', 'why': 'nobody is earning divinity points right now (0 an hour)' if pts.startswith('0') else 'keeps points coming in', 'sub': []}
+    if name == 'Autistabish':   # divinity owner: spend side
+        sub = []
+        for cur, lst in (DIV.get('coral') or {}).items() if isinstance(DIV.get('coral'), dict) else []:
+            pass
+        bl = DIV.get('blessing_rank') or {}
+        for cur, items in bl.items():
+            for it in items:
+                if it.get('afford'): sub.append(f"Blessing: {it['item'].split(' blessing')[0]} ({it['stat']})")
+        ck = [c for c in (DIV.get('coral') or []) if isinstance(c, dict) and c.get('lv') == 0 and c.get('needs_lv', 0) <= 1815]
+        nxt = next((c for c in ck if 'ALL players' not in c['desc']), None)
+        if nxt: sub.insert(0, f"Coral Kid next: {nxt['desc'][:60].rstrip()}... at {short(nxt['cost'])} points (have {short(DIV.get('points') or 0)})")
+        return {'do': 'Divinity: buy these blessings', 'why': 'blessings raise divinity points and their stat for everyone', 'sub': sub[:6]}
+    return {'do': 'Divinity: nothing needed (Doot gives every god to everyone)', 'why': '', 'sub': []}
 
 try:
     import cardpresets as _CP
@@ -282,6 +294,8 @@ def build():
             pick = m['ZOW']['next'][3][0] if len(m['ZOW']['next']) > 3 else m['ZOW']['next'][0][0]
             park = (f"W7 {pick[1]} ({pick[0]}) for his ZOW, card preset 1. Pushing W7 also gets him toward Jellofish Fields. "
                     "Autistopher keeps the Dedotated Ram kills")
+        if n == DIV_RUNNER:
+            park = 'W5 Divinity altar, Mindful style (my read: nobody is earning divinity points; Pulse: Mindful is the best style)'
         if 'GAP' in park:
             park = f"Stay at {here(n)} for now (no park plan yet, needs checking)"
         out['chars'].append({'name': n, 'class': cd.get('class'), 'daily': daily, 'house': house, 'part': part, 'park': park})
