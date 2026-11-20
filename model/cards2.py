@@ -298,7 +298,11 @@ def build():
             park = 'W5 Divinity altar, Mindful style (my read: nobody is earning divinity points; Pulse: Mindful is the best style)'
         if 'GAP' in park:
             park = f"Stay at {here(n)} for now (no park plan yet, needs checking)"
-        out['chars'].append({'name': n, 'class': cd.get('class'), 'daily': daily, 'house': house, 'part': part, 'park': park})
+        money = []
+        if n == 'Autistastic':
+            mp = (ROOT / 'plans' / 'money_plan.md').read_text()
+            money = [ln[3:] for ln in mp.splitlines() if re.match(r'^\d\. ', ln)][:6]
+        out['chars'].append({'name': n, 'money': money, 'class': cd.get('class'), 'daily': daily, 'house': house, 'part': part, 'park': park})
     return out
 
 def to_md(o):
@@ -319,6 +323,8 @@ def to_md(o):
                 L.append(f"{i}. {s['do']}"); L += [f"   {chr(97 + j)}. {x}" for j, x in enumerate(s['sub'])]
         if c['part']:
             L.append('Goal part:'); L += [f"{i}. {s['do']}" for i, s in enumerate(c['part'], 1)]
+        if c.get('money'):
+            L.append('Money mode (when coins are short):'); L += [f"{i}. {s}" for i, s in enumerate(c['money'], 1)]
         L += [f"Park: {c['park']}", '']
     return '\n'.join(L)
 
@@ -341,6 +347,7 @@ def to_html(o):
         body += f"<details class=card><summary>{e(c['name'])} <small>{e(c['class'] or '')}</small></summary><h3>Dailies</h3>{steps(c['daily'])}"
         if c['house']: body += '<h3>Housekeeping</h3>' + steps(c['house'])
         if c['part']: body += '<h3>Goal part</h3>' + steps(c['part'])
+        if c.get('money'): body += '<h3>Money mode (when coins are short)</h3>' + steps([{'do': s} for s in c['money']])
         body += f"<h3>Park</h3><p>{e(c['park'])}</p></details>"
     css = ('body{font:15px/1.45 system-ui,sans-serif;margin:0;padding:12px;background:#111;color:#eee}h1{font-size:18px}'
            'section,details{background:#1c1c1c;border-radius:10px;padding:10px 14px;margin:10px 0}summary{font-size:17px;font-weight:600;cursor:pointer}'

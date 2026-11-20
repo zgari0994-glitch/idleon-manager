@@ -66,6 +66,9 @@ TASKS = {
         'Pulse: Royal Guardian needs a drop rate + crystal page; Griffy: Poop + Demon Genie for crystal spawn'),
     7: ('Cooking', {'Cooking EXP gain': 6, 'All Skill Efficiency': 3, 'Skill EXP': 3, 'Skill AFK gain rate': 2},
         ['Chaotic Troll'], ['Medium Resources', 'Easy Resources'], '(my read) only one non-passive cooking card exists'),
+    9: ('Money', {'Money from Monsters': 6, 'Crystal Mob Spawn Chance': 5, 'Fighting AFK gain rate': 2, 'Total Drop Rate': 1},
+        ['Demon Genie', 'Poop'], ['Bosses n Nightmares', 'Events'],
+        'Griffy 2024-09: Poop + Demon Genie in the doubled slots, then the highest money cards'),
     8: ('Lab', {'Lab EXP gain': 6, 'Skill EXP': 3, 'Skill AFK gain rate': 2},
         [], ['Medium Resources'], '(my read) one Lab EXP card'),
 }
@@ -116,6 +119,7 @@ def tasks_for(c):
     if c['class_name'] == 'Royal Guardian': t.append(6)          # Pulse: RG drop rate + crystal page
     if 'Cooking' in sk: t.append(7)
     if 'Laboratory' in sk: t.append(8)
+    if c['character_name'] == 'Autistastic': t.append(9)   # money farmer (RG + Corsair + Silkrode Processor)
     return t
 
 import re as _re
@@ -124,7 +128,7 @@ def afk_type(code):
     m = _re.search(r'addNewMonster\("' + _re.escape(code or '') + r'",\{Name:"([^"]+)",AFKtype:"(\w+)"', _MD)
     return (m.group(1).replace('_', ' '), m.group(2)) if m else (code, '?')
 
-GAME_SLOT = {1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 7}   # Lab shares game preset 7 (Cat has no Cooking)
+GAME_SLOT = {1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 7, 9: 7}   # Lab shares game preset 7 (Cat has no Cooking)
 
 def current(i):
     return [[x for x in p if x != 'B'] for p in (J(raw.get(f'CardPreset_{i}')) or [])]
