@@ -16,3 +16,16 @@ Coral Kid upgrades (all LV 0, all unlocked by total LV 1,815): 1 Volcano = link 
 Blessings affordable now: Arctis (can max with sailing treasure), Snehebatu, Omniphau, Nobisect, Flutterbis, Kattlekruk.
 Pulse 2026-11-09: Mindful is the best style for points; Divinity super week: all characters on the platform, skipping costs 1-2 years; endgame target god rank 25-30.
 Triggers: points >= next Coral Kid cost; blessing affordable; Divinity week / super week on the ballot rotation.
+
+## King Doot (owned: AutoReview printer advice "Wired In: 2x (Thanks Doot!)")
+- Companion text (AutoReview consts): "All Divinities from World 5 count as Active"; upgraded: "All Divinities count as Active, and 1.25x Divinity PTS gain".
+- Griffy 2025-10-31: Doot = all divinity from W5 count as active. Griffy 2026-01-08: with Doot all gods count even without unlocking; only the blessing can't be upgraded until unlocked. Griffy 2026-02-06: minor link bonus grows with Divinity level; Doot gets ALL minor link bonuses, so push Divinity level late game.
+- Nocturne 2023/2024: with Doot every character has goat + snake god active; without Doot run Arctis to keep a character in the Lab.
+- Toolbox shows every character with every god's linked value, consistent with Doot.
+- So: personal god links barely matter with Doot. What matters: Divinity skill levels (minor link strength), blessings, god rank, Coral Kid upgrades, points income, Divinity/Super week.
+- Open: why points are 0/hr (in-game check), what god rank gives exactly (offerings: 1% for 7.76M or 25% for 194M = same expected cost, ~776M per rank).
+
+## Money grind (sources)
+- Pulse 2026-08-02 (Lu Sasso segment): G Mush is the biggest coin source. Lab Fungi Finger Pocketer (+2% cash per 1M account G Mush kills) + Emerald Rumball jewel (+1.6%). Max kills/hr: kill-per-kill bubble, kill-per-kill ballot, Equinox voter node; respawn gear (croc chest/legs, divine scarf, keychains, W7 upgrade stones on croc); AFK % (golden dumplings from W6 crystals, arcane blue crystal). Death Bringer eats 12-hour candies on G Mush. Coin farmer = Divine Knight (account has none).
+- Griffy 2026-08-03: Divine Knight is the best money farmer (orb). Griffy 2026-07-29: a few candies at green mushrooms at ~1M kills/hr help if money is short. Griffy 2025-11-28: don't use Voidwalker to farm money.
+- Pulse 2026-10-31 (newest): active RG for coins; final map pufferfins best for EXP + coins. Pulse 2026-11: Choco Chip is the lynchpin; Emerald bling pendant critical.
