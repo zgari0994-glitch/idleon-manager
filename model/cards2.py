@@ -157,6 +157,182 @@ def greens_step():
     sub = [f"{i['label']} ({p(i):.0f}%): {i['tab']}" for i in sorted(rows, key=p, reverse=True)[:5]]
     return {'do': 'Greenstacks: closest five, farm these', 'why': 'each one counts for Equinox', 'sub': sub}
 
+LEGEND_ORDER = [  # every line sourced: Griffy first, Pulse 2026-09-25 tier list (newest wins on conflict)
+    ('Daily Shopping Spree', 'Pulse: S tier, Royal Guardian is only pushable with it. Griffy: finish RG upgrades first'),
+    ("Thanatos's Teachings", 'Griffy: get the extra-kill talent for portals and Death Note while multikill is limited (helps the W7 push)'),
+    ('Skillium Fancyson', 'Pulse: high A, maybe low S'),
+    ('Furry Friends Forever', 'Pulse: high A since the Orion and Poppy buffs'),
+    ('Picasso Gaming', 'Pulse: A+'),
+    ('Democracy FTW', 'Griffy: the ballot multiplier talent is a good choice'),
+    ('Extended Database', 'Pulse: A. Griffy: only once Land Ranks are unlocked (they are)'),
+    ('Blue Ribbon Certification', 'Pulse: A'),
+    ('Best Story Ever Told', 'Pulse: mid A'),
+    ('Buy One Get One Free', 'Pulse: high A, needs the Exotic Market unlocked'),
+    ('Two Time Jelly Operation', 'Pulse: big progression but 12 points and needs Jelly unlocked'),
+    ('Minehead My Beloved', 'Pulse: big progression but 12 points and needs the Lumi mechanic'),
+    ('Midusian Appetite', 'Pulse: B+'), ('Whats in your Jar?', 'Pulse: B+'), ('+1 Slab', 'Pulse: high B'),
+    ('Purebred Eggs', 'Griffy: useful when pushing breeding. Pulse: B'),
+    ("Kruk be Bubblin'", 'Pulse: B'),
+]
+""Cards v3 (Zack 2026-11-20): Goal card, then per character Dailies / Housekeeping / Goal part / Park.
+Each step: one line, short why, nested a/b/c. No info dumps. Every line comes from planner output, the save or
+Toolbox; anything not sourced says "needs checking". Builds on plans/latest.json (run plan.py first).
+Run from the AutoReview folder: PYTHONPATH=.:<repo>/model python3 <repo>/model/cards2.py
+Writes plans/cards_<save>.md, plans/cards.json, dashboard/cards.html.
+"""
+import gzip, json, re, html
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+SNAPN = (ROOT / 'snapshots' / 'LATEST').read_text().strip()
+SNAP = ROOT / 'snapshots' / SNAPN
+TB = SNAP / 'toolbox'
+J = lambda v: json.loads(v) if isinstance(v, str) else v
+plan = json.load(open(ROOT / 'plans' / 'latest.json'))
+CARDS = plan['cards'] if 'cards' in plan else plan
+raw = json.load(gzip.open(SNAP / 'raw.json.gz')); raw = raw.get('data', raw)
+chars = {c['character_name']: c for c in json.load(open(SNAP / 'chars.json'))['characters']}
+
+def tbtext(page, tab=None):
+    try:
+        o = json.load(open(TB / f'{page}.json'))
+        tabs = o['tabs']
+        return tabs[tab]['text'] if tab else '\n'.join(t['text'] for t in tabs.values())
+    except Exception:
+        return ''
+
+def num(s):
+    s = str(s).replace(',', '').strip()
+    m = re.match(r'([\d.]+)\s*([KMBT]|QQ|Q)?', s)
+    if not m: return None
+    mult = {'K': 1e3, 'M': 1e6, 'B': 1e9, 'T': 1e12, 'Q': 1e15, 'QQ': 1e18}.get(m.group(2) or '', 1)
+    return float(m.group(1)) * mult
+
+def short(n):
+    for v, s in ((1e12, 'T'), (1e9, 'B'), (1e6, 'M'), (1e3, 'K')):
+        if n >= v: return f"{n / v:.3g}{s}"
+    return f"{n:.0f}"
+
+# ---------------- GOAL ----------------
+GOAL = {'name': 'Spelunking POW 900K', 'target': 900_000,
+        'why': 'Frees the Pillar Coral fish (Seaweed Street cage), a new coral type. Spelunking is the biggest blocker.',
+        'src': 'idleon.wiki Coral Reef (cage POW list); Zack approved 2026-11-20'}
+
+def goal_card():
+    sp = tbtext('spelunking', 'Upgrades')
+    m = re.search(r'\nPower\n([\d,.]+)', sp)
+    now = num(m.group(1)) if m else None
+    out = {'name': GOAL['name'], 'why': GOAL['why'], 'now': now, 'target': GOAL['target'], 'prereqs': [], 'levers': [], 'unknown': []}
+    # Sushi: Live Octopus 3x POW; fuel cap vs next unlock; Research 28 gate
+    su = tbtext('sushi', 'Sushi')
+    cap = re.search(r'Fuel\n[\d,]+ / ([\d,]+)\n', su); nxt = re.search(r'Next unlock\n([^\n(]+)\(([\d,]+) fuel\)', su)
+    uniq = re.search(r'Unique sushi\n(\d+)', su)
+    best_research = max((c['skills'].get('Research') or 0) for c in chars.values())
+    if cap and nxt and num(cap.group(1)) < num(nxt.group(2)):
+        out['prereqs'].append({'who': 'Autisticles', 'do': f"Raise sushi fuel cap to {nxt.group(2)} so {nxt.group(1).strip()} can cook (cap is {cap.group(1)})"})
+    if best_research < 28:
+        out['prereqs'].append({'who': 'Autistotle', 'do': f"Research level 28 on anyone (best is {best_research}). Unlocks Fuel Capacity II for sushi"})
+    out['levers'].append({'who': 'Autisticles', 'do': f"Sushi: cook up to Live Octopus (sushi 21, you have {uniq.group(1) if uniq else '?'}). Gives 3x POW", 'size': '3x'})
+    # Jelly
+    je = tbtext('jelly', 'Layout')
+    ob = re.search(r'Obstructions removed\n(\d+)\n(\d+)', je)
+    out['levers'].append({'who': 'Autiszemo', 'do': "Jelly Operator: reach the Jellofish Fields map (he's pushing W7 for his ZOWs), then clear obstructions to Morning Glory. Gives 1.30x POW", 'size': '1.3x'})
+    # Amber shop
+    for k, gain in (('Learning the POW', '+8%'), ('Discovering the POW', '+9%')):
+        mm = re.search(re.escape(k) + r'\nLv (\d+)\n[\s\S]{0,400}?\n([\d,.]+[KMB]?)\n/\n([\d,.]+[KMB]?)\n', sp)
+        if mm: out['levers'].append({'who': 'Autistomatic', 'do': f"Spelunk shop: {k} to level {int(mm.group(1)) + 1} ({mm.group(3)} amber, have {mm.group(2)})", 'size': gain})
+    # Dancing coral
+    rf = tbtext('reef', 'Dancing Coral')
+    vc = re.search(r'Vibrant Coral[\s\S]*?Isaccian Shrine LV\n(\d+)[\s\S]*?\n([\d.,]+[KMB]?)\n/\n([\d.,]+[KMB]?)', rf)
+    if vc: out['levers'].append({'who': 'Autistachio', 'do': f"Dancing Coral: buy Vibrant Coral ({vc.group(3)}, have {vc.group(2)}). Then Isaccian Shrine above 200 gives +5% POW per level (Autistastic, shrine at {vc.group(1)})", 'size': '+5%/lv'})
+    cl = tbtext('clam', 'Compensations'); wc = re.search(r'Worker class\nLv (\d+)', cl)
+    out['levers'].append({'who': 'Autisticles', 'do': f"Clam Work: worker class 12 gives 2x POW (now {wc.group(1) if wc else '?'}). Long term", 'size': '2x'})
+    out['unknown'] = ['God rank: what it gives before spending points', 'Lab jewel and chip check', 'Ballot votes', 'Park spots marked needs checking', 'Spelunk tools (+% total POW)', 'Research grid daily POW boost', 'POW elixirs (need pages)', 'Sushi fuel costs past the next one']
+    return out
+
+# ---------------- step transform ----------------
+CREATOR = re.compile(r'^(?:[\w+&\' /-]{1,40}: )?(Griffy|Pulse|Nocturne|AutoReview|Next goal|older|Coming up)\b', re.I)
+VERB = re.compile(r'^(TOP: )?(Buy|Spend|Collect|Use|Take|Leave|Put|Get|Level|Move|Swap|Switch|Push|Place|Hold|Unlock|Claim|Turn|Equip|Run|Set|Feed|Craft|Upgrade|Do|Make|Check|Vote|Park|Farm|Kill|Open|Replant|Send|Spin|Roll|Raise|Max|Finish|Add|Start|Cook|Breed|Deposit|Trade|Keep|Read|Clear|Fill|Go|Rotate|Plant|Harvest|Bring|Skip|Save|Stop|Don\'t|Do not|Focus|Pick|Time|Grind|Defeat|Beat|Reset|Restart|Activate|Discover|Summon|Drop|Sell|Refine|Transmute|Meditate|Link|Assign|Fix)\b', re.I)
+DROPBLK = ('Levers for other jobs', 'Every character: Combat level', 'Timers ready', 'Super CHOWs', 'Traps')
+WHY = {  # short plain why per system (my wording; the facts behind are on the planner pages)
+    'Farming': 'crops feed discovery, cooking and shiny rate', 'Cooking': 'meals are account-wide buffs',
+    'Grimoire': 'bone upgrades are account buffs', 'prints': 'prints feed resources while you sleep',
+    'Emperor': 'daily attempts, bonuses stack', 'Prayers': 'wrong prayers cost gains', 'Worship': 'charge and souls keep worship moving',
+    'Sailing': 'artifacts and treasure', 'Alchemy': 'bubbles and vials are account-wide', 'Breeding': 'pets and shinies',
+    'Divinity': 'divinity points drive talent levels and class EXP', 'Lab': 'lab bonuses only work when connected',
+    'Construction': 'build rate and atoms', 'Statue': 'statues are account buffs', 'Stamps': 'stamps are account buffs',
+    'Greenstacks': 'greenstacks count for Equinox', 'Post Office': 'box points are permanent stats', 'Sneaking': 'jade and stealth',
+    'Summoning': 'winner bonuses are big multipliers', 'Spelunking': 'Spelunking is the account goal', 'Trapping': 'critters for vials',
+    'Gaming': 'bits and nuggets', 'Compass': 'portals and dust', 'Equinox': 'bar fills cloud bonuses', 'Kilroy': 'weekly',
+    'Gallery': 'trophies and nametags for everyone', 'W7 minis': 'minis feed the goal', 'Research': 'research unlocks W7 upgrades',
+}
+
+def why_for(block):
+    for k, v in WHY.items():
+        if k.lower() in block.lower(): return v
+    return ''
+
+def first_sentence(s):
+    s = re.sub(r'^TOP: ', '', s.strip())
+    p = re.split(r'(?<=[a-z0-9)])\. (?=[A-Z])', s, maxsplit=1)
+    return p[0].rstrip('.'), (p[1].rstrip('.') if len(p) > 1 else '')
+
+def to_step(block, owner=''):
+    name = re.sub(r'^Every character: ', '', block['block'])
+    acts = [s for s in block.get('steps', []) if isinstance(s, str) and not CREATOR.match(s) and VERB.match(s)
+            and not any(o in s for o in OTHERS.get(owner, ()))]
+    if not acts:
+        return {'do': f"{name}: nothing needed", 'why': '', 'sub': []}
+    main, why = first_sentence(acts[0])
+    sub = [first_sentence(a)[0] for a in acts[1:5]]
+    return {'do': f"{name}: {main[0].lower() + main[1:] if main[:1].isupper() and not main.split()[0].isupper() else main}", 'why': why or why_for(name), 'sub': sub}
+
+OTHERS = {n: tuple(f'({o})' for o in chars if o != n) for n in chars}
+
+def dancing_step():
+    rf = tbtext('reef', 'Dancing Coral'); buy = []
+    for m in re.finditer(r'\n(\w+ Coral)\n\+100 max LV for ([\w ]+?)\n[\s\S]*?\n([\d.,]+[KMB]?)\n/\n([\d.,]+[KMB]?)(?=\n)(\nneed)?', rf):
+        if not m.group(5) and (num(m.group(3)) or 0) >= (num(m.group(4)) or 1): buy.append(f"{m.group(1)} ({m.group(4)}): +100 max level {m.group(2)}")
+    if not buy: return {'do': 'Dancing Coral: nothing to buy yet', 'why': '', 'sub': []}
+    return {'do': 'Dancing Coral (Barnacle Curb, right side platform): buy these', 'why': 'raises shrine caps, Vibrant Coral feeds the POW goal', 'sub': buy}
+
+def weeklies():
+    out = []
+    for tab, label in (('Bonus', 'Bonus Ballot (W2)'), ('Meritocracy', 'Meritocracy (W7)')):
+        tt = tbtext('ballot', tab)
+        nxt = re.search(r'Next week in\n([^\n]+)', tt); now = re.search(r'Hide off-rotation\n([^\n]+)', tt)
+        if now: out.append(f"{label}: {now.group(1).strip()} (next vote in {nxt.group(1) if nxt else '?'})")
+    return out
+
+def here(name):
+    try:
+        import cardpresets as C
+        return C.afk_type(raw.get(f"AFKtarget_{chars[name]['character_index']}"))[0]
+    except Exception:
+        return '?'
+
+def sushi_step():
+    su = tbtext('sushi', 'Sushi'); bo = tbtext('sushi', 'Bonuses')
+    cap = re.search(r'Fuel\n[\d,]+ / ([\d,]+)\n', su); nxt = re.search(r'Next unlock\n([^\n(]+)\(([\d,]+) fuel\)', su)
+    sub = []
+    if cap and nxt and num(cap.group(1)) < num(nxt.group(2)):
+        sub.append(f"Fuel Capacity I until max fuel reaches {nxt.group(2)} (now {cap.group(1)}), so {nxt.group(1).strip()} can cook")
+    sub += ['Then Fastburn Fuel I and II (fuel per hour)', 'Then Hourly Wage Meter and Customer Surcharge I (more bucks)']
+    return {'do': 'Sushi: spend bucks in this order', 'why': 'new sushi types give bonuses, Live Octopus is 3x POW for the goal', 'sub': sub}
+
+def greens_step():
+    try:
+        import tbhelp as T
+        tier, items = T.ar_items('Greenstacks')
+    except Exception:
+        return None
+    def p(x):
+        try: return float(str(x['cur']).rstrip('%'))
+        except Exception: return -1
+    rows = [i for i in items if 'Collect' not in i['label'] and 'Timegated' not in i['group'] and 'Endangered' not in i['group']]
+    sub = [f"{i['label']} ({p(i):.0f}%): {i['tab']}" for i in sorted(rows, key=p, reverse=True)[:5]]
+    return {'do': 'Greenstacks: closest five, farm these', 'why': 'each one counts for Equinox', 'sub': sub}
+
 LEGEND_ORDER = [  # Pulse 2026-09-25 tier list (S first, then A), newer Pulse 2026-10-18 notes where given
     ('Daily Shopping Spree', 'S tier, Royal Guardian is only pushable with it'),
     ('Skillium Fancyson', 'high A, maybe low S'), ('Furry Friends Forever', 'high A since Orion and Poppy buffs'),
@@ -172,7 +348,7 @@ def legend_step():
     if not m or int(m.group(1)) == 0: return {'do': 'Legend talents: nothing needed', 'why': '', 'sub': []}
     open_ = {mm.group(1): (int(mm.group(2)), int(mm.group(3))) for mm in re.finditer(r'\n([^\n]{3,45})\nLv (\d+) / (\d+)', tt)}
     sub = [f"{n} ({open_[n][0]}/{open_[n][1]}): {why}" for n, why in LEGEND_ORDER if n in open_ and open_[n][0] < open_[n][1]][:6]
-    return {'do': f"Legend talents (Whallamus): {m.group(1)} points unspent, spend in this order", 'why': 'Pulse tier list, S first then A', 'sub': sub}
+    return {'do': f"Legend talents (Whallamus): {m.group(1)} points unspent, spend in this order", 'why': 'sourced order, best first', 'sub': sub}
 
 # ---------------- every-character checks ----------------
 TRAP_PLAN = {}
