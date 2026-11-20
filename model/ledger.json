@@ -18,7 +18,7 @@
    "target": 330,
    "coins": 22275281333266,
    "material": "Carrot Cube",
-   "owned": 848120007,
+   "owned": 865124235,
    "next_raise": 180051690.12581494,
    "total_mat": 6643585344129.883
   },
@@ -40,7 +40,7 @@
    "target": 110,
    "coins": 386848822182,
    "material": "Pocket Sand",
-   "owned": 973473058,
+   "owned": 961123358,
    "next_raise": 432124056.30195594,
    "total_mat": 3514939897.258701
   },
@@ -73,7 +73,7 @@
    "target": 100,
    "coins": 5881240195196,
    "material": "Golden Nomwich",
-   "owned": 110023,
+   "owned": 110579,
    "next_raise": 445773.00044028956,
    "total_mat": 10506509.91819525
   },
@@ -122,43 +122,41 @@
    "total_mat": 3651090.0433939174
   }
  ],
- "stamp": "20261120T0452",
- "vs": "20261120T0208",
- "hours": 2.728294791645474,
+ "stamp": "20261120T2035",
+ "vs": "20261120T0452",
+ "hours": 15.718593547344208,
  "watch": [
   {
    "item": "Tangled Cords",
-   "owned": 1753305,
-   "rate_hr": 3197.968205898244,
+   "owned": 4635773,
+   "rate_hr": 183379.5111068966,
    "owner": "Autistocat",
    "why": "Dream of Ironfish 68 -> 70 (exact cost: check bubble cost)"
   },
   {
    "item": "Void Bar",
-   "owned": 4988164,
-   "rate_hr": -15093.676873225178,
+   "owned": 6309514,
+   "rate_hr": 84062.86453174772,
    "owner": "Autistastic",
-   "why": "ran out before (Zack); construction/printer use",
-   "runout_days": 13.770015643792958
+   "why": "ran out before (Zack); construction/printer use"
   },
   {
    "item": "Copper Bar",
-   "owned": 209829761,
-   "rate_hr": 0.0,
+   "owned": 222785502,
+   "rate_hr": 824230.2952218638,
    "owner": "Autistocat",
    "why": "Barium Mixture 12 -> 13 needs 1B Copper Bars (Toolbox map finding)",
    "target": 1000000000,
-   "shortage": 790170239,
-   "eta_days": null,
-   "flag": "no net income: change producer"
+   "shortage": 777214498,
+   "eta_days": 39.289914001462
   }
  ],
  "runout": [
   {
-   "item": "Void Ore",
-   "owned": 1000603752,
-   "rate_hr": -6035057.520331031,
-   "runout_days": 6.908272681668351
+   "item": "Plasma Barrel",
+   "owned": 0,
+   "rate_hr": -50815.615124481395,
+   "runout_days": 0
   }
  ]
 }

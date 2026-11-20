@@ -1,5 +1,5 @@
 {
- "snapshot": "20261120T0452",
+ "snapshot": "20261120T2035",
  "per_char": {
   "Autiszemo": {
    "samples": [
@@ -352,16 +352,16 @@
    "frac": 0.61
   },
   {
-   "label": "Sailing: Level 4 Gold Relic:2.45x (29/100 days)",
-   "cur": "29",
+   "label": "Sailing: Level 4 Gold Relic:2.50x (30/100 days)",
+   "cur": "30",
    "goal": "100",
-   "frac": 0.29
+   "frac": 0.3
   },
   {
-   "label": "Compass: Nomadic-3: Moon of Print: 1.14x (7/100 days)",
-   "cur": "7",
+   "label": "Compass: Nomadic-3: Moon of Print: 1.16x (8/100 days)",
+   "cur": "8",
    "goal": "100",
-   "frac": 0.07
+   "frac": 0.08
   },
   {
    "label": "Arcade Bonus 5: +0/8.04% Sample Size",
@@ -383,12 +383,12 @@
   }
  ],
  "needs": {
-  "Void Ore": "runs out in 6.9 days",
+  "Plasma Barrel": "runs out in 0.0 days",
   "Tangled Cords": "Dream of Ironfish 68 -> 70 (exact cost: check bubble cost)",
   "Void Bar": "ran out before (Zack); construction/printer use",
   "Copper Bar": "Barium Mixture 12 -> 13 needs 1B Copper Bars (Toolbox map finding)",
   "Glass Shard": "Mason Jar Stamp next max raise needs 1.74e+04 (have 8.74e+03)",
-  "Golden Nomwich": "Golden Apple Stamp next max raise needs 4.46e+05 (have 1.1e+05)",
+  "Golden Nomwich": "Golden Apple Stamp next max raise needs 4.46e+05 (have 1.11e+05)",
   "Jungle Logs": "Lil' Mining Baggy Stamp next max raise needs 8.84e+08 (have 5.85e+07)",
   "Dust Mote": "Multitool Stamp next max raise needs 2.57e+10 (have 1.05e+09)",
   "Cramped Material Pouch": "Matty Bag Stamp next max raise needs 149 (have 0)",
@@ -401,26 +401,12 @@
    "to": "Jungle Logs",
    "sample": 1689032901.29548,
    "why": "Lil' Mining Baggy Stamp next max raise needs 8.84e+08 (have 5.85e+07)"
-  },
-  {
-   "char": "Autistastic",
-   "from": "Godshard Ore",
-   "to": "Void Ore",
-   "sample": 70395401.233668,
-   "why": "runs out in 6.9 days"
-  },
-  {
-   "char": "Autistomatic",
-   "from": "Dreadlo Ore",
-   "to": "Void Ore",
-   "sample": 72013288.6537443,
-   "why": "runs out in 6.9 days"
   }
  ],
  "gold_relic": [
-  29,
+  30,
   100,
-  2.45
+  2.5
  ],
  "x1": {
   "Supreme Wiring (event shop)": [
@@ -432,7 +418,7 @@
    20
   ],
   "Moon of Print (compass)": [
-   7,
+   8,
    100
   ]
  },

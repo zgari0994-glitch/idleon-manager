@@ -1,5 +1,8 @@
-# Buff sources · save 20261120T0452 vs 20261120T0208
-24 stats, 203 sources owned, 204 missing
+# Buff sources · save 20261120T2035 vs 20261120T0452
+24 stats, 205 sources owned, 202 missing
+
+## Newly unlocked since last save
+- Sources of Bonuses Multi: Pristine Charms - Crystal Comb:1.3x Bigger Summoning Winner Bonuses
 
 ## Active: Sources of Crystal Spawn Chance  (12 owned / 3 missing)
 - [x] Chocolatey Chip for more Crystal Mobs
@@ -11,14 +14,14 @@
 - [ ] Level 24 Crescent Shrine: +300%Shrines have no Max level. Goal of 32 is arbitrary 24 -> 32 · Autistastic
 - [x] Chaotic Chizoar card to increase Shrine (1.35x multi already included)
 - [x] Sailing: Moai Head artifact to apply Shrines everywhere
-- [ ] Level 127/299 booked Cmon Out Crystals talent (Jman only) 127 -> 299 · Autistopher
+- [ ] Level 127/308 booked Cmon Out Crystals talent (Jman only) 127 -> 308 · Autistopher
 - [x] Crystals 4 Dayys star talent: 2.16x at level 100
 - [x] Non Predatory Loot Box: +39% at 400 crates
 - [x] Note: Crescent Shrine and PO Box are additive: 4.394xThe cards also add together. Everything else is a unique 
 - [x] Best Crystal Spawn Chance on Non-Jman: 6.0876% (1 in 16.43)
-- [x] Best Crystal Spawn Chance on Jman: 20.3543% (1 in 4.91)
+- [x] Best Crystal Spawn Chance on Jman: 20.4315% (1 in 4.89)
 
-## Drop Rate: Account wide sources of Drop Rate (+3583.2%)  (34 owned / 47 missing)
+## Drop Rate: Account wide sources of Drop Rate (+3647.0%)  (34 owned / 47 missing)
 - [ ] Bosses n Nightmares- Domeo Magmus card:+3/10.5% Total Drop Rate (Passive) 2 -> 7 · Autistronaut
 - [ ] Smolderin' Plateau- Ancient Golem card:+8/28% Total Drop Rate (Passive) 2 -> 7 · Autistronaut
 - [ ] Smolderin' Plateau- Crystal Glunko card:+0/42% Total Drop Rate (Passive) 0 -> 7 · Autistronaut
@@ -46,7 +49,7 @@
 - [ ] Breeding - Shiny Xylobone: +10/20% Drop Rate 10 -> 20 · Autistacular
 - [ ] Breeding - Shiny Choccie: +5/20% Drop Rate 5 -> 20 · Autistacular
 - [ ] Grey Tome Book: 1.26x higher bonuses from the Tome(1.00 per level: Not scaled by Writhing Grimoire) 26 -> 150 · Autistopher
-- [x] Tome- Red Pages:+140.8% Drop Rate32,275 Total Tome PointsIncreases every 100 points over 8000
+- [x] Tome- Red Pages:+141.6% Drop Rate32,438 Total Tome PointsIncreases every 100 points over 8000
 - [x] Cape Vine - Chains of the Gilded Vaultguard+11.5% Drop Rate MultiPlain Vine: 0.29x
 - [ ] Cape Vine - Lovely Balloon+250% Drop RateNot deposited 0 -> 1 · Autistachio
 - [x] Cape Vine - Molten Cloak+8.62% Drop RatePlain Vine: 0.29x
@@ -61,7 +64,7 @@
 - [x] Land Ranks - Seed of Loot:Increases the Drop Rate of all characters by +108.85%
 - [ ] Exotic Market - POMMELION SEED:+0/25% Drop Rate 0 -> ∞ · Autiszemo
 - [ ] Armor Set - Secret Set: 1.00x Gold Food effectNote: Increases Golden Food bonus. See character-specific sectio 0 -> 1 · account
-- [ ] Summoning Bonus:+210% Drop Rate 210 -> 262.5 · Autistocat
+- [ ] Summoning Bonus:+273% Drop Rate 273 -> 341.25 · Autistocat
 - [ ] Emperor Showdown:+21% Drop Rate 2 -> ∞ · Autiszemo
 - [x] Legend Talent - Greatest Drop Party Ever: +2000% Drop Rate for all players! This bonus is additive, not a mult
 - [ ] Spelunking - Golden Hardhat:+0/500% Drop Rate. For all characters, all the time, except for the past. Only wor 0 -> 500 · Autistomatic
@@ -101,8 +104,8 @@
 - [ ] Vial - Shipinabottle: 1x Drop Rate MULTI 0 -> 13 · Autistocat
 - [x] Character-specific: Drop Rate MULTI from Equipment. See character-specific sections
 
-## Cards: Sources of Card Drop Chance  (11 owned / 5 missing)
-- [x] Total Card Drop Chance bonus: 11.78x (12.39x if Jman)
+## Cards: Sources of Card Drop Chance  (12 owned / 4 missing)
+- [x] Total Card Drop Chance bonus: 11.9x (12.51x if Jman)
 - [x] Passive +20% bonus. Not multiplied by other Multi Groups
 - [x] Bribe: Five Aces in the Deck: 1.2/1.2x
 - [x] Vial - Anearful: +119.6%
@@ -111,7 +114,7 @@
 - [ ] Guild Bonus - C2 Card Spotter:+15.88% Card Drop Rate 18 -> 50 · Autistronaut
 - [x] Blunder Hills- Gigafrog card:+35/35% Card Drop Chance
 - [x] Yum-Yum Desert- Snelbie card:+56/56% Card Drop Chance
-- [ ] Frostbite Tundra- Sir Stache card:+54/63% Card Drop Chance 6 -> 7 · Autistronaut
+- [x] Frostbite Tundra- Sir Stache card:+63/63% Card Drop Chance
 - [ ] Events- Egggulyte card:+0/7% Card Drop Chance 0 -> 7 · Autistronaut
 - [x] Star Signs - Pokaminni: +15% if equipped
 - [x] Full Card Drop Chance Obols: +191%Both personal and family, all rerolled for +1% Card Drop Chance
@@ -216,14 +219,14 @@
 - [ ] You have 50/84 maxed Vials 50 -> 84 · Autistocat
 - [x] Lab Bonus - My 1st Chemistry Set: 2/2x
 
-## Sigils: Sources of Sigil Charging Speed. Grand total: 63.882x  (5 owned / 6 missing)
+## Sigils: Sources of Sigil Charging Speed. Grand total: 81.007x  (5 owned / 6 missing)
 - [x] W2 Achievement: Vial Junkee: +20/20%
 - [x] Gem Shop - Sigil Supercharge (W1&2): +200/200%
 - [ ] Sigil: Level 1 Pea Pod: +100/4800% 1 -> 5 · Autistocat
 - [ ] Artifact: Chilled Yarn: 4/8x(Already applied to Pea Pod Sigil above) 3 -> 7 · Autisticles
 - [x] Vial - Willow Sippy (Willow Logs): +239.200
 - [ ] Stamps - Sigil Stamp: +20.39% Sigil Charge rate 156 -> 324 · Autistopher
-- [x] Summoning Bonus:9.4x Sigil SPD
+- [x] Summoning Bonus:11.92x Sigil SPD
 - [ ] Vial - Turtle Tisane (Tuttle): 1.000x 0 -> 13 · Autistocat
 - [x] Weekly Ballot - 1.000/2.616x(Buff is Inactive)
 - [ ] Arcade Bonus 43: +0/404% Sigil Speed 0 -> 101 · Autisticles
@@ -254,7 +257,7 @@
 - [x] Star Talent: Printer Sampling: 10.075% at minimum level 1
 - [x] Star Talent: Printer Sampling: Additional 7.43% at max level 100
 - [x] Post Office: Utilitarian Capsule: +3.33% at max 400 crates
-- [x] Squire only: Super Samples: +7.20% at max book level 299
+- [x] Squire only: Super Samples: +7.24% at max book level 308
 - [x] Prayer: Royal Sampler: +43.5% Printer Sample Rate
 - [x] Character's Printer Sample Rate below is calculated WITHOUT the prayer's bonus.
 - [ ] Autiszemo: Prayer not needed. You may remove if desired. 👍 94.2% -> 90% · Autiszemo
@@ -269,30 +272,30 @@
 - [ ] Autistopher: Prayer not needed. You may remove if desired. 👍 94.2% -> 90% · Autiszemo
 - [ ] Autistachio: Prayer not needed, not worn. 👍 94.2% -> 90% · Autiszemo
 
-## Sampling: Sources of Printer Output. Grand Total: 59.431 - 356.588x  (9 owned / 5 missing)
+## Sampling: Sources of Printer Output. Grand Total: 61.727 - 370.361x  (9 owned / 5 missing)
 - [x] Blue Dot before your sample = Only 2x from Lab is active
 - [x] Yellow Star = Only 3x from Harriep is active
 - [x] Purple Swirl = 6x total from Lab and Harriep
 - [x] Lab Bonus: Wired In: 2x (Thanks Doot!)
 - [x] Divinity: Harriep Major Link bonus: 3x (Thanks Doot!)
 - [x] DK's King of the Remembered: 1.228xNot max booked!Not max leveled in any preset!
-- [ ] Sailing: Level 4 Gold Relic:2.45x (29/100 days) 29 -> 100 · Autisticles
+- [ ] Sailing: Level 4 Gold Relic:2.50x (30/100 days) 30 -> 100 · Autisticles
 - [ ] Event Shop: Supreme Wiring:1.00x (0/50 days) 0 -> 50 · Autistotle
 - [x] Companions - Biggole Mole:3d Printer samples grow +1%/day for 100 days
-- [ ] Compass: Nomadic-3: Moon of Print: 1.14x (7/100 days) 7 -> 100 · Autistacular
+- [ ] Compass: Nomadic-3: Moon of Print: 1.16x (8/100 days) 8 -> 100 · Autistacular
 - [ ] Legend Talent: Yet Another Printer Multi (Lv 0/2):1.00x (0/20 days) 0 -> 20 · Autisticles
 - [x] Weekly Ballot - 1.000/1.404x(Buff is Inactive)
 - [ ] Rift: Skill Mastery: base 7%Additional 1% per Skill at 750: 12/18% 19% -> 25% · Autiszemo
 - [x] Pristine Charms - Lolly Flower:+25% Printer Output
 
-## Library: Sources of Max Book Levels (299/441)  (5 owned / 2 missing)
+## Library: Sources of Max Book Levels (308/441)  (5 owned / 2 missing)
 - [x] Construction: Talent Book Library built: +25/25
 - [x] W3 Achievement: Checkout Takeout: +5/5
 - [x] Atom Collider: Oxygen: +10/10
 - [ ] Artifact - Fury Relic+25 Max Talent Book LV at the library.Sovereign Bonus: The artifact's main bonus is quadr 4 -> 7 · Autisticles
 - [x] W3 Max Book level Merit: +10/10
 - [x] Salt Lick: +20/20
-- [ ] Summoning Bonus:+29 Library Max 29 -> 96 · Autistocat
+- [ ] Summoning Bonus:+38 Library Max 38 -> 96 · Autistocat
 
 ## Library: Sources of bonus talent levels beyond book levels  (35 owned / 6 missing)
 - [x] Set bonus: Kattlekruk Set: +5/5
@@ -304,44 +307,44 @@
 - [ ] Grimoire: Skull of Major Talent: +0/30 0 -> 30 · Autiszemo
 - [ ] Tesseract: Universe Talent: +0/5 0 -> 5 · Autistocat
 - [x] Divinity: Arctis Minor Link: +15/15
-- [x] Symbols of Beyond: +15/15
-- [x] Final talent level: 372
+- [x] Symbols of Beyond: +15/16
+- [x] Final talent level: 381
 - [x] Divinity: Arctis Minor Link: +15/15
-- [x] Symbols of Beyond: +15/15
-- [x] Final talent level: 372
+- [x] Symbols of Beyond: +15/16
+- [x] Final talent level: 381
 - [x] Divinity: Arctis Minor Link: +15/15
-- [x] Symbols of Beyond: +14/15
-- [x] Final talent level: 371
+- [x] Symbols of Beyond: +14/16
+- [x] Final talent level: 380
 - [x] Divinity: Arctis Minor Link: +15/15
-- [x] Symbols of Beyond: +15/15
-- [x] Final talent level: 372
+- [x] Symbols of Beyond: +15/16
+- [x] Final talent level: 381
 - [x] Divinity: Arctis Minor Link: +13/13
-- [x] Symbols of Beyond: +14/15
+- [x] Symbols of Beyond: +14/16
 - [x] ES Family Guy: +5
-- [x] Final talent level: 374
+- [x] Final talent level: 383
 - [x] Divinity: Arctis Minor Link: +15/15
-- [x] Symbols of Beyond: +15/15
-- [x] Final talent level: 372
+- [x] Symbols of Beyond: +15/16
+- [x] Final talent level: 381
 - [x] Divinity: Arctis Minor Link: +15/15
-- [x] Final talent level: 357
+- [x] Final talent level: 366
 - [x] Divinity: Arctis Minor Link: +15/15
-- [x] Symbols of Beyond: +15/15
-- [x] Final talent level: 372
+- [x] Symbols of Beyond: +15/16
+- [x] Final talent level: 381
 - [x] Divinity: Arctis Minor Link: +12/12
-- [x] Symbols of Beyond: +15/15
+- [x] Symbols of Beyond: +15/16
 - [x] ES Family Guy: +5
-- [x] Final talent level: 374
+- [x] Final talent level: 383
 - [x] Divinity: Arctis Minor Link: +15/15
-- [x] Symbols of Beyond: +8/15
-- [x] Final talent level: 365
-- [x] Divinity: Arctis Minor Link: +9/9
-- [x] Final talent level: 351
+- [x] Symbols of Beyond: +8/16
+- [x] Final talent level: 374
+- [x] Divinity: Arctis Minor Link: +10/10
+- [x] Final talent level: 361
 
 ## Library: Sources of Checkout Speed  (4 owned / 4 missing)
-- [ ] Meal - Fortune Cookie: +1,046.808% Library Checkout Spd 90 -> 180 · Autiszemo
+- [ ] Meal - Fortune Cookie: +1,216.130% Library Checkout Spd 90 -> 180 · Autiszemo
 - [x] Oxygen - Library Booker: 40/60%
 - [ ] Talent Book Library building: 655/680% 132 -> 136 · Autistopher
-- [x] Ignore Overdues bubble: 67.2/100%
+- [x] Ignore Overdues bubble: 68.3/100%
 - [ ] Vial - Chonker Chug: +41.4% 9 -> 13 · Autistocat
 - [ ] Stamps - Biblio Stamp: +42% Faster Books 42 -> 66 · Autistopher
 - [x] Superbit: Library Checkouts: +1% per Gaming Level
@@ -366,11 +369,11 @@
 - [x] Total discount: 49.09% off
 
 ## Breeding: Sources of Shiny Pet Level Rate  (4 owned / 6 missing)
-- [x] Summoning Bonus:10.97x Shiny EXP
+- [x] Summoning Bonus:13.97x Shiny EXP
 - [ ] Lamp Wish: World 4 Stuff: +180.0% 180.0 -> ∞ · Autistacular
 - [ ] Farming Crop Depot - Crayon:+1705.2/4019.4% Mobs 140 -> 330 · Autiszemo
 - [x] Lab Jewel - Emerald Ulthurite: +45/45%
-- [x] Faster Shiny Mob Lv Up Rate Shiny Pets: +156% total
+- [x] Faster Shiny Mob Lv Up Rate Shiny Pets: +159% total
 - [ ] Breeding Upgrade - Grand Martial of Shinytown: +60% 12 -> 300 · Autistacular
 - [x] Star Sign: Breedabilli: +15/15%
 - [ ] Star Sign - Seraph Cosmos: Multis Passive signs by 1.949/5x. Increases every 20 Summoning levels. (Note: Some  126 -> 140 · Autistocat
@@ -378,13 +381,13 @@
 - [ ] Shiny OverLV (Shiny LVs above 20): 1.0xNeeds Menagerie Unlock 12 0 -> 680 · Autistacular
 
 ## Breeding: Sources of Pet Damage  (5 owned / 5 missing)
-- [x] Total Pet Damage bonus: 20.19x
+- [x] Total Pet Damage bonus: 21.61x
 - [ ] Breeding Upgrade - Blooming Axe: +12% 2 -> 10 · Autistacular
 - [x] Vial - Electrolyte: +119.6%
 - [x] Achievement - Barley Lost: +5%
-- [ ] Meal - Croissant: +261.70% 90 -> 180 · Autiszemo
-- [ ] Meal - Wedding Cake: +523.40% 90 -> 180 · Autiszemo
-- [ ] Beast Master Talent passive- Arena Spirit: +12.66% 73 -> 372 · Autistacular
+- [ ] Meal - Croissant: +304.03% 90 -> 180 · Autiszemo
+- [ ] Meal - Wedding Cake: +608.07% 90 -> 180 · Autiszemo
+- [ ] Beast Master Talent passive- Arena Spirit: +12.66% 73 -> 381 · Autistacular
 - [x] Star Sign - Power Bowower: +30% if equipped
 - [ ] Arcade Bonus 30: +0/80.4% Breeding Mob DMG 0 -> 101 · Autistacular
 - [x] Upgrade Vault - Pet Punchies: +750.00% Mob Damage for all Mobs, so you can win Mob battles easier and collect 
@@ -398,7 +401,7 @@
 - [ ] Menagerie Unlock 21: Boost the Max Cooking LV by +10Costs 29.75M Lumi, needs a higher Menagerie Rank 0 -> 1 · Autiszemo
 
 ## Sailing: Sources of Sailing Speed  (9 owned / 10 missing)
-- [x] Total Sailing Speed bonus: 8716.71x
+- [x] Total Sailing Speed bonus: 9158.11x
 - [ ] Anyone Minor Linked to Purrmep: +0.00% 0 -> 1 · Autisticles
 - [ ] Smolderin' Plateau- Crawler card:+20/28% Sailing Speed (Passive) 5 -> 7 · Autistronaut
 - [ ] Bosses n Nightmares- Kattlekruk card:+24/42% Sailing Speed (Passive) 4 -> 7 · Autistronaut
@@ -407,10 +410,10 @@
 - [x] Purrmep Blessing: +387%
 - [x] Weekly Ballot: 1.0x/2.01x(Buff is Inactive)
 - [ ] Bagur Blessing: +300% 60 -> 100 · Autisticles
-- [ ] Sailing: Level 5 10 AD Tablet: +2525.0% 5 -> 7 · Autisticles
+- [ ] Sailing: Level 5 10 AD Tablet: +2550.0% 5 -> 7 · Autisticles
 - [ ] Stamps - Sailboat Stamp: +237.5% Sailing Speed 95 -> 160 · Autistopher
 - [x] Level 201 Boat Statue: +994.83%
-- [ ] Meal - Popped Corn: +1,774.340% Sailing Speed 90 -> 180 · Autiszemo
+- [ ] Meal - Popped Corn: +2,061.341% Sailing Speed 90 -> 180 · Autiszemo
 - [x] Vial - Oj Jooce: +119.6%
 - [x] Rift - Sailing Skill Mastery > 200: +15%
 - [ ] MSA Sailing: +60% (+1% per 10 waves in Worship) 602 -> 2100 · Autisticles
@@ -425,10 +428,10 @@
 - [x] W6 Achievement: Crop Flooding: +5/5%
 - [ ] Upgrade Vault - Bigger Better Beans: Get +54.00% more Magic Beans to spend at the Night Market!(2.00 per level 27 -> 50 · Autiszemo
 
-## Summoning: Sources of Bonuses Multi  (6 owned / 6 missing)
-- [x] Regular Battles Bonuses Multi: 3x
-- [x] Library Max Bonus Multi: 2.81x
-- [ ] Pristine Charms - Crystal Comb:1.3x Bigger Summoning Winner Bonuses 0 -> 1 · Autistacular
+## Summoning: Sources of Bonuses Multi  (7 owned / 5 missing)
+- [x] Regular Battles Bonuses Multi: 3.9x
+- [x] Library Max Bonus Multi: 3.65x
+- [x] Pristine Charms - Crystal Comb:1.3x Bigger Summoning Winner Bonuses
 - [x] Gem Shop - King Of All Winners (W6): 1.5/1.5x
 - [ ] Emperor Showdown:1.01x Summoning Winner Bonuses 1 -> ∞ · Autistocat
 - [ ] 1.12x Winner Bonuses 91 -> 96 · Autistocat
