@@ -11,6 +11,10 @@ bad = []
 for name, rec in data.items():
     if rec.get('error') or not rec.get('tabs') or all(len(t["text"]) < 150 for t in rec['tabs'].values()): bad.append(name); continue
     if name == 'prayers': (out / 'prayers.txt').write_text('\n'.join(t['text'] for t in rec['tabs'].values()))
+    elif name == 'sailing':
+        tb = rec['tabs']; g = lambda k: next((v['text'] for n, v in tb.items() if k in n.lower()), '')
+        if 'Boat 1\n' not in g('boats'): bad.append(name); continue
+        (out / 'sail_detail.txt').write_text(g('boats') + '\n=== LOOT\n' + g('loot') + '\n=== ART tail\n' + g('artifact'))
     elif name == 'worship': (out / 'worship.txt').write_text('\n'.join(f"=== {k}\n{t['text']}" for k, t in rec['tabs'].items()))
     else: json.dump(rec, open(out / f'{name}.json', 'w'))
 note = out / '_from.txt'

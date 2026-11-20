@@ -50,10 +50,31 @@ def plain(t):
     return t.strip()
 
 
+JARGON = re.compile(r'breakdown|multi\b|\bAR\b|AutoReview|\btier \d|[a-z][A-Z]\w*_|\w+_\w+|\[|\]|->|\bcur\b|\bgoal=|\bTODO\b|\bNone\b', re.I)
+RAW = re.compile(r'\w+_\w+|\{|\}|\bNone\b')
+_LOG = {}
+
+def _flag(x):
+    """lines that still read like tooltip/AutoReview talk: drop raw labels, log the rest for the next card build"""
+    if JARGON.search(x):
+        k = x.split(' · ')[0] if ' · ' in x else ' '.join(x.split()[:4])
+        _LOG.setdefault(k.strip()[:80], [0, x.strip()[:160]])[0] += 1
+    return bool(RAW.search(x))
+
+def write_log():
+    """append new flagged lines to sources/findings/wording.md (dedup). Fixed at source next card build, no extra pulls."""
+    from pathlib import Path
+    f = Path(__file__).resolve().parent.parent / 'sources' / 'findings' / 'wording.md'
+    head = '# Wording: spots to check next card build\nOne line per spot that keeps producing jargon/padding (count = lines this build, example). Raw labels were dropped from cards. Fix at the planner, then delete the line. Rewritten each build.\n\n'
+    rows = sorted(_LOG.items(), key=lambda kv: -kv[1][0])
+    f.write_text(head + ''.join(f'- {k} ({c}x): {ex}\n' for k, (c, ex) in rows))
+    return len(rows)
+
 def clean(o):
     """apply plain() to every string in a nested structure; drop internal design-note lines"""
     if isinstance(o, str): return plain(o)
     if isinstance(o, list):
+        o = [x for x in o if not (isinstance(x, str) and _flag(plain(x)))]
         return [clean(x) for x in o if not (isinstance(x, str) and (re.match(r'^\((Zack|Every character|Equipped per|Zack:)', x) or re.match(r'^\(.*\)$', x.strip())))]
     if isinstance(o, dict): return {k: clean(v) if k not in ('src', 'block', 'name') else v for k, v in o.items()}
     return o

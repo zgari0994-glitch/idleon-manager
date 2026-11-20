@@ -506,6 +506,7 @@ except Exception as _e:
     account['active_plan'] = None; print('active plan failed:', _e)
 import plain as _PL
 cards = _PL.clean(cards); account = _PL.clean(account)
+print("wording spots: %d" % _PL.write_log())
 json.dump({'meta': meta, 'cards': cards, 'account': account}, open(os.path.join(R, 'plans', 'latest.json'), 'w'), indent=1)
 
 # ---------- markdown ----------
