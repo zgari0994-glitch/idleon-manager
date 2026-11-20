@@ -20,6 +20,9 @@ ROOT = os.path.join('idleon_transcripts', 'sources', 'creators')
 BATCH = 20   # 100-video runs failed on Apify; 20 worked
 BATCH_CAP_USD = 1.00
 TOTAL_CAP_USD = 3.00
+# Optional:  py run_apify.py --list <csv> --cap <usd>   (e.g. the will309 list, sources/creators/will309/video_list.csv)
+if '--list' in sys.argv: LIST = sys.argv[sys.argv.index('--list') + 1]
+if '--cap' in sys.argv: TOTAL_CAP_USD = float(sys.argv[sys.argv.index('--cap') + 1])
 
 
 def call(method, path, token, body=None):
