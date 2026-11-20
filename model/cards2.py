@@ -139,12 +139,33 @@ def dancing_step():
     if not buy: return {'do': 'Dancing Coral: nothing to buy yet', 'why': '', 'sub': []}
     return {'do': 'Dancing Coral (Barnacle Curb, right side platform): buy these', 'why': 'raises shrine caps, Vibrant Coral feeds the POW goal', 'sub': buy}
 
+def talent_preset_line(name):
+    """Right talent preset for the park: skilling preset for skilling/Spelunking parks, fighting preset for fighting parks (roles from the super talents on each preset)."""
+    try:
+        st = json.load(open(ROOT / 'model' / 'supertalents.json')).get(name, {})
+    except Exception:
+        return None
+    roles = {r['preset']: r.get('role') for r in st.get('presets', []) if r.get('role')}
+    if len(set(roles.values())) < 2: return None
+    try:
+        import cardpresets as C
+        kind = C.afk_type(raw.get(f"AFKtarget_{chars[name]['character_index']}"))[1]
+    except Exception:
+        return None
+    want = 'skill' if kind not in ('FIGHTING',) else 'fight'
+    if name in GOAL_PARK and 'Spelunking' in GOAL_PARK[name]: want = 'skill'
+    active = int(chars[name].get('active_talent_preset') or 0) + 1
+    need = next((p for p, r in roles.items() if r == want), None)
+    if need and need != active:
+        return {'do': f"Talents: switch to talent preset {need} ({'skilling' if want == 'skill' else 'fighting'}) for where he is parked", 'why': 'the other preset holds the wrong talents for this job', 'sub': []}
+    return None
+
 def weeklies():
     out = []
     for tab, label in (('Bonus', 'Bonus Ballot (W2)'), ('Meritocracy', 'Meritocracy (W7)')):
         tt = tbtext('ballot', tab)
         nxt = re.search(r'Next week in\n([^\n]+)', tt); now = re.search(r'Hide off-rotation\n([^\n]+)', tt)
-        if now: out.append(f"{label}: {now.group(1).strip()} (next vote in {nxt.group(1) if nxt else '?'})")
+        if now: out.append(f"{label}: {now.group(1).strip()} (next vote in {nxt.group(1) if nxt else '?'})" + (' DIVINITY WEEK: put everyone on the Divinity platform (Pulse)' if 'ivinit' in now.group(1) else ''))
     return out
 
 def here(name):
@@ -300,7 +321,7 @@ def milestones():
     return res
 
 # ---------------- goal-based parking (Zack 2026-11-20: the way to the goal can't be wrong) ----------------
-SPELUNK_CAVE = 'the furthest Spelunking cave they can AFK in (Autistomatic is in Fearful Tunnel)'
+SPELUNK_CAVE = 'Fearful Tunnel (Zack: deeper caves give way less here)'
 GOAL_PARK = {   # every line: where, card preset, and why with its source
     'Autistomatic': f"Spelunking: {SPELUNK_CAVE}, card preset 5. Why: Pulse (Oct 31) puts both Royal Guardians on Spelunking (Pit of Pages, fixed Nov 10); every Spelunking level adds base POW",
     'Autistastic': f"Spelunking: {SPELUNK_CAVE}, card preset 5. Why: Pulse (Oct 31): both Royal Guardians on Spelunking. His statue push waits (money mode when coins are short)",
@@ -349,6 +370,10 @@ def build():
             if gs: daily.append(gs)
         if n == 'Autistachio' and any('Monument' in w for w in goal.get('weekly', [])):
             daily.insert(0, {'do': 'Monument week: claim and restart Bravery and Wisdom monuments, keep him parked there', 'why': 'Meritocracy is 4x monument rewards this week', 'sub': []})
+        tp = talent_preset_line(n)
+        if tp: daily.append(tp)
+        if n == 'Autistacular':
+            house.append({'do': 'Card set: farm 1 Verminous card', 'why': 'Bosses n Nightmares set goes 24% to 30% damage, drop and EXP for everyone', 'sub': ['Pulse: Verminous farms on the Insta castle map with Wind Walker + candy (mixed reports, test it)']})
         # every-character checks, always shown
         for f in (cards_line, trap_line, divinity_line):
             x = f(n)

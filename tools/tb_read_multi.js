@@ -26,7 +26,7 @@ const readOne = async (name, path) => {
       if (tn !== '_page') { const t = [...main().querySelectorAll('[role=tab]')].find(x => x.innerText.trim() === tn); if (t) { t.click(); await sleep(2200); } }
       for (const b of [...main().querySelectorAll('input[type=checkbox], button, [role=button]')].filter(b => /details/i.test(b.name || '') || /^details$/i.test((b.innerText || '').trim()))) { if (!b.checked) { b.click(); await sleep(700); } }
       for (const s of [...main().querySelectorAll('button')].filter(b => /^Show \d+ more/i.test((b.innerText || '').trim()))) { s.click(); await sleep(350); }
-      if (main().innerText.length < 400) await sleep(4000);  // empty tab: give it longer before reading
+      if (main().innerText.length < 900) await sleep(4000);  // thin tab (e.g. lab chip rotation): give it longer before reading
       const rec = {text: main().innerText, breakdowns: []};
       for (const b of [...main().querySelectorAll('[role=button][aria-label]')].filter(e => /breakdown|About /i.test(e.getAttribute('aria-label')))) {
         const lab = b.getAttribute('aria-label');
