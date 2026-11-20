@@ -1130,6 +1130,13 @@
    ],
    "daily": [
     {
+     "block": "Setup check",
+     "kind": "every",
+     "steps": [
+      "Cards: presets 1, 2, 3, 4, 7 not built to plan yet (card build session)."
+     ]
+    },
+    {
      "block": "Timers ready (Toolbox)",
      "kind": "timer",
      "steps": [
@@ -2294,6 +2301,13 @@
     }
    ],
    "daily": [
+    {
+     "block": "Setup check",
+     "kind": "every",
+     "steps": [
+      "Cards: presets 1, 2, 3, 4, 7 not built to plan yet (card build session)."
+     ]
+    },
     {
      "block": "Alchemy",
      "kind": "playbook",
@@ -3575,6 +3589,13 @@
     }
    ],
    "daily": [
+    {
+     "block": "Setup check",
+     "kind": "every",
+     "steps": [
+      "Cards: presets 1, 2, 3, 4 not built to plan yet (card build session)."
+     ]
+    },
     {
      "block": "Timers ready (Toolbox)",
      "kind": "timer",
@@ -5066,6 +5087,13 @@
    ],
    "daily": [
     {
+     "block": "Setup check",
+     "kind": "every",
+     "steps": [
+      "Cards: presets 1, 2, 3, 4, 5, 6 not built to plan yet (card build session)."
+     ]
+    },
+    {
      "block": "Timers ready (Toolbox)",
      "kind": "timer",
      "steps": [
@@ -6390,6 +6418,13 @@
    ],
    "daily": [
     {
+     "block": "Setup check",
+     "kind": "every",
+     "steps": [
+      "Cards: presets 1, 2, 3, 4 not built to plan yet (card build session)."
+     ]
+    },
+    {
      "block": "Top move (sourced)",
      "kind": "move",
      "steps": []
@@ -7363,6 +7398,13 @@
     }
    ],
    "daily": [
+    {
+     "block": "Setup check",
+     "kind": "every",
+     "steps": [
+      "Cards: presets 1, 2, 3, 4 not built to plan yet (card build session)."
+     ]
+    },
     {
      "block": "Timers ready (Toolbox)",
      "kind": "timer",
@@ -8759,6 +8801,13 @@
    ],
    "daily": [
     {
+     "block": "Setup check",
+     "kind": "every",
+     "steps": [
+      "Cards: presets 1, 2, 3, 4 not built to plan yet (card build session)."
+     ]
+    },
+    {
      "block": "Unblocks other characters (do these first)",
      "kind": "prereq",
      "steps": [
@@ -9299,6 +9348,13 @@
     }
    ],
    "daily": [
+    {
+     "block": "Setup check",
+     "kind": "every",
+     "steps": [
+      "Cards: presets 1, 2, 3, 4, 5, 6 not built to plan yet (card build session)."
+     ]
+    },
     {
      "block": "Unblocks other characters (do these first)",
      "kind": "prereq",
@@ -10006,6 +10062,13 @@
     }
    ],
    "daily": [
+    {
+     "block": "Setup check",
+     "kind": "every",
+     "steps": [
+      "Cards: presets 1, 2, 3, 4 not built to plan yet (card build session)."
+     ]
+    },
     {
      "block": "Cards",
      "kind": "rinse",
@@ -11220,6 +11283,13 @@
    ],
    "daily": [
     {
+     "block": "Setup check",
+     "kind": "every",
+     "steps": [
+      "Cards: presets 1, 2, 3, 4, 7 not built to plan yet (card build session)."
+     ]
+    },
+    {
      "block": "Timers ready (Toolbox)",
      "kind": "timer",
      "steps": [
@@ -11892,6 +11962,13 @@
     }
    ],
    "daily": [
+    {
+     "block": "Setup check",
+     "kind": "every",
+     "steps": [
+      "Cards: presets 1, 2, 3, 4 not built to plan yet (card build session)."
+     ]
+    },
     {
      "block": "Timers ready (Toolbox)",
      "kind": "timer",
@@ -13200,6 +13277,11 @@
    }
   ],
   "every_character": [
+   {
+    "job": "Setup check",
+    "shared": [],
+    "note": "Zack 2026-11-19: cards/prayers/talents for the task each character is left on; only shows when something needs changing"
+   },
    {
     "job": "Prayers",
     "shared": [

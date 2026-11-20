@@ -137,7 +137,7 @@ def build():
         ps = [p for p in (build_preset(t, chips) for t in tasks_for(c)) if p]
         # niche 7/8 share game slot 7; game has 7 presets
         cur = current(i)
-        for pr in ps: pr['slot'] = GAME_SLOT[pr['n']]
+        for k, pr in enumerate(ps): pr['slot'] = k + 1   # Zack 2026-11-19: presets packed in order, niche goes in the next open slot
         afk = afk_type(raw.get(f'AFKtarget_{i}'))
         out['chars'][c['character_name']] = {'class': c['class_name'], 'presets': ps, 'now': cur, 'afk': afk,
                                              'equipped_now': [x for x in (J(raw.get(f'CardEquip_{i}')) or []) if x != 'B']}
