@@ -142,6 +142,7 @@ reference_only:   # Zack 2026-11-19: AutoReview data to cite when needed, owned 
   - {name: "Pinchy (AutoReview account stage per world)", sections: [Pinchy high, Pinchy low, Pinchy all]}
 
 every_character:   # Zack 2026-11-19: systems every character considers in its own right (own needs/goals). Lines naming a character go to that card; the rest stays on the account block.
+  - {job: "Setup check", sections: [], facts: setup, note: "Zack 2026-11-19: cards/prayers/talents for the task each character is left on; only shows when something needs changing"}
   - {job: Prayers, sections: [Prayers], facts: prayers, note: "Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling)"}
   - {job: Smithing, sections: [Smithing], note: "Zack: archers may be best, but every character considers smithing"}
   - {job: "Combat level", sections: [Combat Levels], facts: combat, note: "Each character has its own combat goals"}

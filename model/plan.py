@@ -465,6 +465,14 @@ for ej in Y.get('every_character', []):
                 if '_POO' not in globals(): _POO = _PO2.build()
                 steps = _PO2.char_lines(_POO, cd['name']) + steps
             except Exception as e: steps.insert(0, f"(post office planner failed: {e})")
+        if ej.get('facts') == 'setup':
+            try:
+                import cardpresets as _CP
+                if '_CPO' not in globals(): _CPO = _CP.build(); json.dump(_CPO, open(os.path.join(R, 'model', 'cardpresets.json'), 'w'), indent=1)
+                steps = _CP.char_lines(_CPO, cd['name']) + steps
+            except Exception as e: steps.insert(0, f"(setup check failed: {e})")
+            if steps: cd['daily'].insert(0, {'block': 'Setup check', 'kind': 'every', 'steps': steps})
+            continue
         if ej.get('facts') == 'combat': steps.insert(0, f"Combat Lv {f.get('combat_level')}")
         if ej.get('facts') == 'printer':
             if any('prints' in b['block'] for b in cd['daily']): continue

@@ -1,0 +1,2333 @@
+{
+ "mastered_passive": [
+  "Mining",
+  "Choppin",
+  "Fishing",
+  "Catching",
+  "Trapping",
+  "Worship"
+ ],
+ "passive_tagged": 57,
+ "skill_totals": {
+  "Mining": 633,
+  "Chopping": 587,
+  "Fishing": 395,
+  "Catching": 503,
+  "Trapping": 700,
+  "Worship": 983
+ },
+ "chars": {
+  "Autiszemo": {
+   "class": "Death Bringer",
+   "presets": [
+    {
+     "n": 1,
+     "task": "Fighting AFK",
+     "cards": [
+      "Chaotic Amarok",
+      "Demented Spiritlord",
+      "Boop",
+      "Sovereign Emperor",
+      "Suggma",
+      "Woodlin Spirit",
+      "Clammie",
+      "Chaotic Emperor"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Amarok (Fighting AFK gain rate, 5 star)",
+      "Demented Spiritlord (Fighting AFK gain rate, 3 star)",
+      "Boop (Fighting AFK gain rate, 5 star)",
+      "Sovereign Emperor (Multikill per tier, 3 star)",
+      "Suggma (Multikill per tier, 6 star)",
+      "Woodlin Spirit (Multikill per tier, 4 star)",
+      "Clammie (Multikill per tier, 6 star)",
+      "Chaotic Emperor (Total Damage Multi, 5 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: every character runs the AFK card; his kill setups are mostly multikill cards",
+     "slot": 1
+    },
+    {
+     "n": 2,
+     "task": "Skilling",
+     "cards": [
+      "Chaotic Troll",
+      "Amarok",
+      "Bunny",
+      "Mama Troll",
+      "Chaotic Efaunt",
+      "Biggie Hours",
+      "Chocco Box",
+      "free (nothing else helps)"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Troll (All Skill Efficiency, 6 star)",
+      "Amarok (Skill AFK gain rate, 5 star)",
+      "Bunny (Skill AFK gain rate, 4 star)",
+      "Mama Troll (Skill AFK gain rate, 2 star)",
+      "Chaotic Efaunt (Skill EXP, 5 star)",
+      "Biggie Hours (Double AFK claim chance, 6 star)",
+      "Chocco Box (Boost Food Effect, 2 star)",
+      "empty"
+     ],
+     "doubled": [],
+     "set": "Easy Resources",
+     "bonus": "+40% Skill Efficiency",
+     "src": "Griffy: Chaotic Troll is one of the strongest skill efficiency cards, double it; Amarok card for skill AFK",
+     "slot": 2
+    },
+    {
+     "n": 3,
+     "task": "Drop rate",
+     "cards": [
+      "Demon Genie",
+      "Emperor",
+      "Minichief Spirit",
+      "King Doot",
+      "Mister Brightside",
+      "Crystal Carrot",
+      "Bop Box",
+      "Giftmas Blobulyte"
+     ],
+     "target": "No drop rate multi card owned yet (Coralcave Guardian, Mantaray, Ancientfish). Pulse: push one fast, then double it. It goes in the doubled slot over the weakest drop card.",
+     "detail": [
+      "Demon Genie (Crystal Mob Spawn Chance, 7 star)",
+      "Emperor (Total Drop Rate, 7 star)",
+      "Minichief Spirit (Total Drop Rate, 7 star)",
+      "King Doot (Total Drop Rate, 7 star)",
+      "Mister Brightside (Total Drop Rate, 6 star)",
+      "Crystal Carrot (Total Drop Rate, 7 star)",
+      "Bop Box (Total Drop Rate, 6 star)",
+      "Giftmas Blobulyte (Total Drop Rate, 6 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Pulse 2026-09: doubled Demon Genie plus a drop rate multi card in the other doubled slot; multi beats any additive card",
+     "slot": 3
+    },
+    {
+     "n": 4,
+     "task": "Active EXP",
+     "cards": [
+      "Moonmoon",
+      "Fly",
+      "Ghost (Event)",
+      "Chaotic Kattlekruk",
+      "Efaunt",
+      "Crystal Cattle",
+      "Lampar",
+      "Crystal Crabal"
+     ],
+     "target": null,
+     "detail": [
+      "Moonmoon (Monster EXP While Active, 6 star)",
+      "Fly (Monster EXP While Active, 6 star)",
+      "Ghost (Event) (Monster EXP While Active, 5 star)",
+      "Chaotic Kattlekruk (EXP from monsters, 4 star)",
+      "Efaunt (EXP from monsters, 5 star)",
+      "Crystal Cattle (EXP from monsters, 7 star)",
+      "Lampar (EXP from monsters, 5 star)",
+      "Crystal Crabal (EXP from monsters, 7 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: active monster EXP cards are underrated when farming EXP",
+     "slot": 4
+    },
+    {
+     "n": 7,
+     "task": "Cooking",
+     "cards": [
+      "Chaotic Troll",
+      "Mutated Mush",
+      "Chaotic Efaunt",
+      "Amarok",
+      "Bunny",
+      "Mama Troll",
+      "free (nothing else helps)",
+      "free (nothing else helps)"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Troll (All Skill Efficiency, 6 star)",
+      "Mutated Mush (Cooking EXP gain, 6 star)",
+      "Chaotic Efaunt (Skill EXP, 5 star)",
+      "Amarok (Skill AFK gain rate, 5 star)",
+      "Bunny (Skill AFK gain rate, 4 star)",
+      "Mama Troll (Skill AFK gain rate, 2 star)",
+      "empty",
+      "empty"
+     ],
+     "doubled": [],
+     "set": "Easy Resources",
+     "bonus": "+40% Skill Efficiency",
+     "src": "(my read) only one non-passive cooking card exists",
+     "slot": 7
+    }
+   ],
+   "now": [
+    [
+     "sheep",
+     "w4a3",
+     "w4c4",
+     "w5a2",
+     "w5c2",
+     "w6a3"
+    ],
+    [
+     "Fish5",
+     "Fish6",
+     "Boss4B",
+     "Fish2",
+     "Fish4",
+     "wolfA",
+     "CritterCard7",
+     "Fish8"
+    ],
+    [
+     "w5a3",
+     "Boss6C",
+     "wolfB",
+     "xmasEvent",
+     "Boss6A",
+     "w5c2",
+     "speaker",
+     "babaMummy"
+    ],
+    [
+     "mushW",
+     "sandcastle",
+     "snowball",
+     "Boss6C",
+     "skele2",
+     "eye",
+     "w5b3",
+     "wolfB"
+    ],
+    [
+     "Boss6C",
+     "Boss3C",
+     "wolfB",
+     "w5a1",
+     "w6a5",
+     "w5c2",
+     "w4c1",
+     "Boss4C"
+    ],
+    [],
+    []
+   ],
+   "afk": [
+    "Neyeptune",
+    "FIGHTING"
+   ],
+   "equipped_now": [
+    "Boss6C",
+    "Boss3C",
+    "wolfB",
+    "w5a1",
+    "w6a5",
+    "w5c2",
+    "w4c1",
+    "Boss4C"
+   ]
+  },
+  "Autistocat": {
+   "class": "Arcane Cultist",
+   "presets": [
+    {
+     "n": 1,
+     "task": "Fighting AFK",
+     "cards": [
+      "Chaotic Amarok",
+      "Boop",
+      "Sovereign Emperor",
+      "Suggma",
+      "Woodlin Spirit",
+      "Clammie",
+      "Chaotic Emperor",
+      "Demented Spiritlord"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Amarok (Fighting AFK gain rate, 5 star)",
+      "Boop (Fighting AFK gain rate, 5 star)",
+      "Sovereign Emperor (Multikill per tier, 3 star)",
+      "Suggma (Multikill per tier, 6 star)",
+      "Woodlin Spirit (Multikill per tier, 4 star)",
+      "Clammie (Multikill per tier, 6 star)",
+      "Chaotic Emperor (Total Damage Multi, 5 star)",
+      "Demented Spiritlord (Fighting AFK gain rate, 3 star)"
+     ],
+     "doubled": [
+      1,
+      8
+     ],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: every character runs the AFK card; his kill setups are mostly multikill cards",
+     "slot": 1
+    },
+    {
+     "n": 2,
+     "task": "Skilling",
+     "cards": [
+      "Chaotic Troll",
+      "Bunny",
+      "Mama Troll",
+      "Chaotic Efaunt",
+      "Biggie Hours",
+      "Chocco Box",
+      "free (nothing else helps)",
+      "Amarok"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Troll (All Skill Efficiency, 6 star)",
+      "Bunny (Skill AFK gain rate, 4 star)",
+      "Mama Troll (Skill AFK gain rate, 2 star)",
+      "Chaotic Efaunt (Skill EXP, 5 star)",
+      "Biggie Hours (Double AFK claim chance, 6 star)",
+      "Chocco Box (Boost Food Effect, 2 star)",
+      "empty",
+      "Amarok (Skill AFK gain rate, 5 star)"
+     ],
+     "doubled": [
+      1,
+      8
+     ],
+     "set": "Easy Resources",
+     "bonus": "+40% Skill Efficiency",
+     "src": "Griffy: Chaotic Troll is one of the strongest skill efficiency cards, double it; Amarok card for skill AFK",
+     "slot": 2
+    },
+    {
+     "n": 3,
+     "task": "Drop rate",
+     "cards": [
+      "Demon Genie",
+      "Minichief Spirit",
+      "King Doot",
+      "Mister Brightside",
+      "Crystal Carrot",
+      "Bop Box",
+      "Giftmas Blobulyte",
+      "Emperor"
+     ],
+     "target": "No drop rate multi card owned yet (Coralcave Guardian, Mantaray, Ancientfish). Pulse: push one fast, then double it. It goes in the doubled slot over the weakest drop card.",
+     "detail": [
+      "Demon Genie (Crystal Mob Spawn Chance, 7 star)",
+      "Minichief Spirit (Total Drop Rate, 7 star)",
+      "King Doot (Total Drop Rate, 7 star)",
+      "Mister Brightside (Total Drop Rate, 6 star)",
+      "Crystal Carrot (Total Drop Rate, 7 star)",
+      "Bop Box (Total Drop Rate, 6 star)",
+      "Giftmas Blobulyte (Total Drop Rate, 6 star)",
+      "Emperor (Total Drop Rate, 7 star)"
+     ],
+     "doubled": [
+      1,
+      8
+     ],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Pulse 2026-09: doubled Demon Genie plus a drop rate multi card in the other doubled slot; multi beats any additive card",
+     "slot": 3
+    },
+    {
+     "n": 4,
+     "task": "Active EXP",
+     "cards": [
+      "Moonmoon",
+      "Ghost (Event)",
+      "Chaotic Kattlekruk",
+      "Efaunt",
+      "Crystal Cattle",
+      "Lampar",
+      "Crystal Crabal",
+      "Fly"
+     ],
+     "target": null,
+     "detail": [
+      "Moonmoon (Monster EXP While Active, 6 star)",
+      "Ghost (Event) (Monster EXP While Active, 5 star)",
+      "Chaotic Kattlekruk (EXP from monsters, 4 star)",
+      "Efaunt (EXP from monsters, 5 star)",
+      "Crystal Cattle (EXP from monsters, 7 star)",
+      "Lampar (EXP from monsters, 5 star)",
+      "Crystal Crabal (EXP from monsters, 7 star)",
+      "Fly (Monster EXP While Active, 6 star)"
+     ],
+     "doubled": [
+      1,
+      8
+     ],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: active monster EXP cards are underrated when farming EXP",
+     "slot": 4
+    },
+    {
+     "n": 8,
+     "task": "Lab",
+     "cards": [
+      "Gelatinous Cuboid",
+      "Amarok",
+      "Bunny",
+      "Mama Troll",
+      "free (nothing else helps)",
+      "free (nothing else helps)",
+      "free (nothing else helps)",
+      "Chaotic Efaunt"
+     ],
+     "target": null,
+     "detail": [
+      "Gelatinous Cuboid (Lab EXP gain, 5 star)",
+      "Amarok (Skill AFK gain rate, 5 star)",
+      "Bunny (Skill AFK gain rate, 4 star)",
+      "Mama Troll (Skill AFK gain rate, 2 star)",
+      "empty",
+      "empty",
+      "empty",
+      "Chaotic Efaunt (Skill EXP, 5 star)"
+     ],
+     "doubled": [
+      1,
+      8
+     ],
+     "set": "Medium Resources",
+     "bonus": "+25% Skill EXP Gain",
+     "src": "(my read) one Lab EXP card",
+     "slot": 7
+    }
+   ],
+   "now": [
+    [
+     "w5a3",
+     "Boss6A",
+     "mimicA",
+     "speaker",
+     "xmasEvent",
+     "Crystal0",
+     "w6d2",
+     "babaMummy"
+    ],
+    [
+     "babaMummy",
+     "BirchTree",
+     "ToiletTree",
+     "Tree7",
+     "AlienTree",
+     "Tree8",
+     "Tree10",
+     "Tree12"
+    ],
+    [
+     "mushW",
+     "sandcastle",
+     "Boss6C",
+     "skele2",
+     "snowball",
+     "eye",
+     "w5b3",
+     "wolfB"
+    ],
+    [
+     "acorn",
+     "babaMummy",
+     "mushP",
+     "demonP",
+     "babayaga",
+     "babaHour",
+     "wolfB",
+     "mini3a"
+    ],
+    [
+     "Boss6C",
+     "Boss3C",
+     "wolfB",
+     "poopD",
+     "w6a5",
+     "w5c2",
+     "w4c1",
+     "Boss4C"
+    ],
+    [],
+    []
+   ],
+   "afk": [
+    "Pirate Underling",
+    "FIGHTING"
+   ],
+   "equipped_now": [
+    "w5a3",
+    "Boss6A",
+    "mimicA",
+    "speaker",
+    "xmasEvent",
+    "Crystal0",
+    "w6d2",
+    "babaMummy"
+   ]
+  },
+  "Autisticles": {
+   "class": "Siege Breaker",
+   "presets": [
+    {
+     "n": 1,
+     "task": "Fighting AFK",
+     "cards": [
+      "Demented Spiritlord",
+      "Boop",
+      "Sovereign Emperor",
+      "Suggma",
+      "Woodlin Spirit",
+      "Clammie",
+      "Chaotic Emperor",
+      "Chaotic Amarok"
+     ],
+     "target": null,
+     "detail": [
+      "Demented Spiritlord (Fighting AFK gain rate, 3 star)",
+      "Boop (Fighting AFK gain rate, 5 star)",
+      "Sovereign Emperor (Multikill per tier, 3 star)",
+      "Suggma (Multikill per tier, 6 star)",
+      "Woodlin Spirit (Multikill per tier, 4 star)",
+      "Clammie (Multikill per tier, 6 star)",
+      "Chaotic Emperor (Total Damage Multi, 5 star)",
+      "Chaotic Amarok (Fighting AFK gain rate, 5 star)"
+     ],
+     "doubled": [
+      8
+     ],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: every character runs the AFK card; his kill setups are mostly multikill cards",
+     "slot": 1
+    },
+    {
+     "n": 2,
+     "task": "Skilling",
+     "cards": [
+      "Amarok",
+      "Bunny",
+      "Mama Troll",
+      "Chaotic Efaunt",
+      "Biggie Hours",
+      "Chocco Box",
+      "free (nothing else helps)",
+      "Chaotic Troll"
+     ],
+     "target": null,
+     "detail": [
+      "Amarok (Skill AFK gain rate, 5 star)",
+      "Bunny (Skill AFK gain rate, 4 star)",
+      "Mama Troll (Skill AFK gain rate, 2 star)",
+      "Chaotic Efaunt (Skill EXP, 5 star)",
+      "Biggie Hours (Double AFK claim chance, 6 star)",
+      "Chocco Box (Boost Food Effect, 2 star)",
+      "empty",
+      "Chaotic Troll (All Skill Efficiency, 6 star)"
+     ],
+     "doubled": [
+      8
+     ],
+     "set": "Easy Resources",
+     "bonus": "+40% Skill Efficiency",
+     "src": "Griffy: Chaotic Troll is one of the strongest skill efficiency cards, double it; Amarok card for skill AFK",
+     "slot": 2
+    },
+    {
+     "n": 3,
+     "task": "Drop rate",
+     "cards": [
+      "Emperor",
+      "Minichief Spirit",
+      "King Doot",
+      "Mister Brightside",
+      "Crystal Carrot",
+      "Bop Box",
+      "Giftmas Blobulyte",
+      "Demon Genie"
+     ],
+     "target": "No drop rate multi card owned yet (Coralcave Guardian, Mantaray, Ancientfish). Pulse: push one fast, then double it. It goes in the doubled slot over the weakest drop card.",
+     "detail": [
+      "Emperor (Total Drop Rate, 7 star)",
+      "Minichief Spirit (Total Drop Rate, 7 star)",
+      "King Doot (Total Drop Rate, 7 star)",
+      "Mister Brightside (Total Drop Rate, 6 star)",
+      "Crystal Carrot (Total Drop Rate, 7 star)",
+      "Bop Box (Total Drop Rate, 6 star)",
+      "Giftmas Blobulyte (Total Drop Rate, 6 star)",
+      "Demon Genie (Crystal Mob Spawn Chance, 7 star)"
+     ],
+     "doubled": [
+      8
+     ],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Pulse 2026-09: doubled Demon Genie plus a drop rate multi card in the other doubled slot; multi beats any additive card",
+     "slot": 3
+    },
+    {
+     "n": 4,
+     "task": "Active EXP",
+     "cards": [
+      "Fly",
+      "Ghost (Event)",
+      "Chaotic Kattlekruk",
+      "Efaunt",
+      "Crystal Cattle",
+      "Lampar",
+      "Crystal Crabal",
+      "Moonmoon"
+     ],
+     "target": null,
+     "detail": [
+      "Fly (Monster EXP While Active, 6 star)",
+      "Ghost (Event) (Monster EXP While Active, 5 star)",
+      "Chaotic Kattlekruk (EXP from monsters, 4 star)",
+      "Efaunt (EXP from monsters, 5 star)",
+      "Crystal Cattle (EXP from monsters, 7 star)",
+      "Lampar (EXP from monsters, 5 star)",
+      "Crystal Crabal (EXP from monsters, 7 star)",
+      "Moonmoon (Monster EXP While Active, 6 star)"
+     ],
+     "doubled": [
+      8
+     ],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: active monster EXP cards are underrated when farming EXP",
+     "slot": 4
+    }
+   ],
+   "now": [
+    [
+     "Crystal0",
+     "w6d2",
+     "mimicA",
+     "speaker",
+     "Boss6A",
+     "xmasEvent",
+     "babaMummy",
+     "w5a3"
+    ],
+    [
+     "Bug2",
+     "Bug5",
+     "Bug8",
+     "Bug7",
+     "Bug9",
+     "Bug6",
+     "wolfA",
+     "Boss4B"
+    ],
+    [
+     "mushW",
+     "wolfB",
+     "sandcastle",
+     "eye",
+     "skele2",
+     "w5b3",
+     "Boss6C",
+     "snowball"
+    ],
+    [
+     "wolfB",
+     "poopD",
+     "w4c1",
+     "w5a1",
+     "w6a5",
+     "Boss6C",
+     "Boss3C",
+     "Boss4C"
+    ],
+    [],
+    [],
+    []
+   ],
+   "afk": [
+    "Coralcave Crab",
+    "FIGHTING"
+   ],
+   "equipped_now": [
+    "Crystal0",
+    "w6d2",
+    "mimicA",
+    "speaker",
+    "Boss6A",
+    "xmasEvent",
+    "babaMummy",
+    "w5a3"
+   ]
+  },
+  "Autistastic": {
+   "class": "Royal Guardian",
+   "presets": [
+    {
+     "n": 1,
+     "task": "Fighting AFK",
+     "cards": [
+      "Chaotic Amarok",
+      "Boop",
+      "Sovereign Emperor",
+      "Suggma",
+      "Woodlin Spirit",
+      "Clammie",
+      "Chaotic Emperor",
+      "Demented Spiritlord"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Amarok (Fighting AFK gain rate, 5 star)",
+      "Boop (Fighting AFK gain rate, 5 star)",
+      "Sovereign Emperor (Multikill per tier, 3 star)",
+      "Suggma (Multikill per tier, 6 star)",
+      "Woodlin Spirit (Multikill per tier, 4 star)",
+      "Clammie (Multikill per tier, 6 star)",
+      "Chaotic Emperor (Total Damage Multi, 5 star)",
+      "Demented Spiritlord (Fighting AFK gain rate, 3 star)"
+     ],
+     "doubled": [
+      1,
+      8
+     ],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: every character runs the AFK card; his kill setups are mostly multikill cards",
+     "slot": 1
+    },
+    {
+     "n": 2,
+     "task": "Skilling",
+     "cards": [
+      "Chaotic Troll",
+      "Bunny",
+      "Mama Troll",
+      "Chaotic Efaunt",
+      "Biggie Hours",
+      "Chocco Box",
+      "free (nothing else helps)",
+      "Amarok"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Troll (All Skill Efficiency, 6 star)",
+      "Bunny (Skill AFK gain rate, 4 star)",
+      "Mama Troll (Skill AFK gain rate, 2 star)",
+      "Chaotic Efaunt (Skill EXP, 5 star)",
+      "Biggie Hours (Double AFK claim chance, 6 star)",
+      "Chocco Box (Boost Food Effect, 2 star)",
+      "empty",
+      "Amarok (Skill AFK gain rate, 5 star)"
+     ],
+     "doubled": [
+      1,
+      8
+     ],
+     "set": "Easy Resources",
+     "bonus": "+40% Skill Efficiency",
+     "src": "Griffy: Chaotic Troll is one of the strongest skill efficiency cards, double it; Amarok card for skill AFK",
+     "slot": 2
+    },
+    {
+     "n": 3,
+     "task": "Drop rate",
+     "cards": [
+      "Demon Genie",
+      "Minichief Spirit",
+      "King Doot",
+      "Mister Brightside",
+      "Crystal Carrot",
+      "Bop Box",
+      "Giftmas Blobulyte",
+      "Emperor"
+     ],
+     "target": "No drop rate multi card owned yet (Coralcave Guardian, Mantaray, Ancientfish). Pulse: push one fast, then double it. It goes in the doubled slot over the weakest drop card.",
+     "detail": [
+      "Demon Genie (Crystal Mob Spawn Chance, 7 star)",
+      "Minichief Spirit (Total Drop Rate, 7 star)",
+      "King Doot (Total Drop Rate, 7 star)",
+      "Mister Brightside (Total Drop Rate, 6 star)",
+      "Crystal Carrot (Total Drop Rate, 7 star)",
+      "Bop Box (Total Drop Rate, 6 star)",
+      "Giftmas Blobulyte (Total Drop Rate, 6 star)",
+      "Emperor (Total Drop Rate, 7 star)"
+     ],
+     "doubled": [
+      1,
+      8
+     ],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Pulse 2026-09: doubled Demon Genie plus a drop rate multi card in the other doubled slot; multi beats any additive card",
+     "slot": 3
+    },
+    {
+     "n": 4,
+     "task": "Active EXP",
+     "cards": [
+      "Moonmoon",
+      "Ghost (Event)",
+      "Chaotic Kattlekruk",
+      "Efaunt",
+      "Crystal Cattle",
+      "Lampar",
+      "Crystal Crabal",
+      "Fly"
+     ],
+     "target": null,
+     "detail": [
+      "Moonmoon (Monster EXP While Active, 6 star)",
+      "Ghost (Event) (Monster EXP While Active, 5 star)",
+      "Chaotic Kattlekruk (EXP from monsters, 4 star)",
+      "Efaunt (EXP from monsters, 5 star)",
+      "Crystal Cattle (EXP from monsters, 7 star)",
+      "Lampar (EXP from monsters, 5 star)",
+      "Crystal Crabal (EXP from monsters, 7 star)",
+      "Fly (Monster EXP While Active, 6 star)"
+     ],
+     "doubled": [
+      1,
+      8
+     ],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: active monster EXP cards are underrated when farming EXP",
+     "slot": 4
+    },
+    {
+     "n": 5,
+     "task": "Spelunking",
+     "cards": [
+      "Chaotic Troll",
+      "Equinox Broadbass",
+      "Shellslug",
+      "Fearful Tunnel",
+      "Noble Clam",
+      "Amarok",
+      "Bunny",
+      "Decaying Crevasse"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Troll (All Skill Efficiency, 6 star)",
+      "Equinox Broadbass (Spelunking Efficiency, 2 star)",
+      "Shellslug (Spelunking AFK Gain, 1 star)",
+      "Fearful Tunnel (Spelunking EXP, 5 star)",
+      "Noble Clam (Spelunking EXP, 1 star)",
+      "Amarok (Skill AFK gain rate, 5 star)",
+      "Bunny (Skill AFK gain rate, 4 star)",
+      "Decaying Crevasse (Spelunking Efficiency, 3 star)"
+     ],
+     "doubled": [
+      1,
+      8
+     ],
+     "set": "Easy Resources",
+     "bonus": "+40% Skill Efficiency",
+     "src": "(my read) Spelunking cards are not passive yet",
+     "slot": 5
+    },
+    {
+     "n": 6,
+     "task": "Crystal hunt",
+     "cards": [
+      "Demon Genie",
+      "Emperor",
+      "Minichief Spirit",
+      "King Doot",
+      "Mister Brightside",
+      "Crystal Carrot",
+      "Bop Box",
+      "Poop"
+     ],
+     "target": "No drop rate multi card owned yet (Coralcave Guardian, Mantaray, Ancientfish). Pulse: push one fast, then double it. It goes in the doubled slot over the weakest drop card.",
+     "detail": [
+      "Demon Genie (Crystal Mob Spawn Chance, 7 star)",
+      "Emperor (Total Drop Rate, 7 star)",
+      "Minichief Spirit (Total Drop Rate, 7 star)",
+      "King Doot (Total Drop Rate, 7 star)",
+      "Mister Brightside (Total Drop Rate, 6 star)",
+      "Crystal Carrot (Total Drop Rate, 7 star)",
+      "Bop Box (Total Drop Rate, 6 star)",
+      "Poop (Crystal Mob Spawn Chance, 7 star)"
+     ],
+     "doubled": [
+      1,
+      8
+     ],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Pulse: Royal Guardian needs a drop rate + crystal page; Griffy: Poop + Demon Genie for crystal spawn",
+     "slot": 6
+    }
+   ],
+   "now": [
+    [
+     "frogR",
+     "frogW",
+     "frogGG",
+     "frogY",
+     "frogD",
+     "frogP",
+     "frogGR",
+     "frogGR2"
+    ],
+    [
+     "Iron",
+     "Dementia",
+     "Void",
+     "Lustre",
+     "w5b6",
+     "wolfA",
+     "CritterCard7",
+     "Boss4B"
+    ],
+    [
+     "mushW",
+     "sandcastle",
+     "sheep",
+     "snowball",
+     "eye",
+     "skele2",
+     "w5b3",
+     "poopBig"
+    ],
+    [
+     "poopSmall",
+     "Crystal0",
+     "speaker",
+     "w6d2",
+     "babaMummy",
+     "Boss6A",
+     "xmasEvent",
+     "demonP"
+    ],
+    [
+     "Boss6C",
+     "Boss4C",
+     "Boss3C",
+     "wolfB",
+     "w5a1",
+     "w6a5",
+     "w4c1",
+     "w5c2"
+    ],
+    [
+     "w6d2",
+     "speaker",
+     "w5a3",
+     "babaMummy",
+     "xmasEvent",
+     "Crystal0",
+     "demonP",
+     "Boss6A"
+    ],
+    []
+   ],
+   "afk": [
+    "Ancient Golem",
+    "FIGHTING"
+   ],
+   "equipped_now": [
+    "w6d2",
+    "speaker",
+    "w5a3",
+    "babaMummy",
+    "xmasEvent",
+    "Crystal0",
+    "demonP",
+    "Boss6A"
+   ]
+  },
+  "Autistabish": {
+   "class": "Elemental Sorcerer",
+   "presets": [
+    {
+     "n": 1,
+     "task": "Fighting AFK",
+     "cards": [
+      "Demented Spiritlord",
+      "Boop",
+      "Sovereign Emperor",
+      "Suggma",
+      "Woodlin Spirit",
+      "Clammie",
+      "Chaotic Emperor",
+      "Chaotic Amarok"
+     ],
+     "target": null,
+     "detail": [
+      "Demented Spiritlord (Fighting AFK gain rate, 3 star)",
+      "Boop (Fighting AFK gain rate, 5 star)",
+      "Sovereign Emperor (Multikill per tier, 3 star)",
+      "Suggma (Multikill per tier, 6 star)",
+      "Woodlin Spirit (Multikill per tier, 4 star)",
+      "Clammie (Multikill per tier, 6 star)",
+      "Chaotic Emperor (Total Damage Multi, 5 star)",
+      "Chaotic Amarok (Fighting AFK gain rate, 5 star)"
+     ],
+     "doubled": [
+      8
+     ],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: every character runs the AFK card; his kill setups are mostly multikill cards",
+     "slot": 1
+    },
+    {
+     "n": 2,
+     "task": "Skilling",
+     "cards": [
+      "Amarok",
+      "Bunny",
+      "Mama Troll",
+      "Chaotic Efaunt",
+      "Biggie Hours",
+      "Chocco Box",
+      "free (nothing else helps)",
+      "Chaotic Troll"
+     ],
+     "target": null,
+     "detail": [
+      "Amarok (Skill AFK gain rate, 5 star)",
+      "Bunny (Skill AFK gain rate, 4 star)",
+      "Mama Troll (Skill AFK gain rate, 2 star)",
+      "Chaotic Efaunt (Skill EXP, 5 star)",
+      "Biggie Hours (Double AFK claim chance, 6 star)",
+      "Chocco Box (Boost Food Effect, 2 star)",
+      "empty",
+      "Chaotic Troll (All Skill Efficiency, 6 star)"
+     ],
+     "doubled": [
+      8
+     ],
+     "set": "Easy Resources",
+     "bonus": "+40% Skill Efficiency",
+     "src": "Griffy: Chaotic Troll is one of the strongest skill efficiency cards, double it; Amarok card for skill AFK",
+     "slot": 2
+    },
+    {
+     "n": 3,
+     "task": "Drop rate",
+     "cards": [
+      "Emperor",
+      "Minichief Spirit",
+      "King Doot",
+      "Mister Brightside",
+      "Crystal Carrot",
+      "Bop Box",
+      "Giftmas Blobulyte",
+      "Demon Genie"
+     ],
+     "target": "No drop rate multi card owned yet (Coralcave Guardian, Mantaray, Ancientfish). Pulse: push one fast, then double it. It goes in the doubled slot over the weakest drop card.",
+     "detail": [
+      "Emperor (Total Drop Rate, 7 star)",
+      "Minichief Spirit (Total Drop Rate, 7 star)",
+      "King Doot (Total Drop Rate, 7 star)",
+      "Mister Brightside (Total Drop Rate, 6 star)",
+      "Crystal Carrot (Total Drop Rate, 7 star)",
+      "Bop Box (Total Drop Rate, 6 star)",
+      "Giftmas Blobulyte (Total Drop Rate, 6 star)",
+      "Demon Genie (Crystal Mob Spawn Chance, 7 star)"
+     ],
+     "doubled": [
+      8
+     ],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Pulse 2026-09: doubled Demon Genie plus a drop rate multi card in the other doubled slot; multi beats any additive card",
+     "slot": 3
+    },
+    {
+     "n": 4,
+     "task": "Active EXP",
+     "cards": [
+      "Fly",
+      "Ghost (Event)",
+      "Chaotic Kattlekruk",
+      "Efaunt",
+      "Crystal Cattle",
+      "Lampar",
+      "Crystal Crabal",
+      "Moonmoon"
+     ],
+     "target": null,
+     "detail": [
+      "Fly (Monster EXP While Active, 6 star)",
+      "Ghost (Event) (Monster EXP While Active, 5 star)",
+      "Chaotic Kattlekruk (EXP from monsters, 4 star)",
+      "Efaunt (EXP from monsters, 5 star)",
+      "Crystal Cattle (EXP from monsters, 7 star)",
+      "Lampar (EXP from monsters, 5 star)",
+      "Crystal Crabal (EXP from monsters, 7 star)",
+      "Moonmoon (Monster EXP While Active, 6 star)"
+     ],
+     "doubled": [
+      8
+     ],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: active monster EXP cards are underrated when farming EXP",
+     "slot": 4
+    }
+   ],
+   "now": [
+    [
+     "w6d2",
+     "mimicA",
+     "speaker",
+     "xmasEvent",
+     "babaMummy",
+     "w5a3",
+     "Crystal0",
+     "Boss6A"
+    ],
+    [
+     "BirchTree",
+     "JungleTree",
+     "AlienTree",
+     "ToiletTree",
+     "Tree8",
+     "Tree7",
+     "Tree10",
+     "Boss2B"
+    ],
+    [
+     "wolfC",
+     "loveEvent2",
+     "Boss4B",
+     "w6a3",
+     "w6b3",
+     "Boss6A",
+     "w5c2",
+     "CritterCard7"
+    ],
+    [
+     "mushW",
+     "sandcastle",
+     "Boss6C",
+     "snowball",
+     "eye",
+     "skele2",
+     "w5b3",
+     "wolfB"
+    ],
+    [
+     "Boss6C",
+     "Boss4C",
+     "w5b3",
+     "Boss3C",
+     "wolfB",
+     "w5a1",
+     "w4c1",
+     "w5c2"
+    ],
+    [],
+    []
+   ],
+   "afk": [
+    "Wode Board",
+    "FIGHTING"
+   ],
+   "equipped_now": [
+    "w6d2",
+    "mimicA",
+    "speaker",
+    "xmasEvent",
+    "babaMummy",
+    "w5a3",
+    "Crystal0",
+    "Boss6A"
+   ]
+  },
+  "Autistacular": {
+   "class": "Wind Walker",
+   "presets": [
+    {
+     "n": 1,
+     "task": "Fighting AFK",
+     "cards": [
+      "Chaotic Amarok",
+      "Demented Spiritlord",
+      "Boop",
+      "Sovereign Emperor",
+      "Suggma",
+      "Woodlin Spirit",
+      "Clammie",
+      "Chaotic Emperor"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Amarok (Fighting AFK gain rate, 5 star)",
+      "Demented Spiritlord (Fighting AFK gain rate, 3 star)",
+      "Boop (Fighting AFK gain rate, 5 star)",
+      "Sovereign Emperor (Multikill per tier, 3 star)",
+      "Suggma (Multikill per tier, 6 star)",
+      "Woodlin Spirit (Multikill per tier, 4 star)",
+      "Clammie (Multikill per tier, 6 star)",
+      "Chaotic Emperor (Total Damage Multi, 5 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: every character runs the AFK card; his kill setups are mostly multikill cards",
+     "slot": 1
+    },
+    {
+     "n": 2,
+     "task": "Skilling",
+     "cards": [
+      "Chaotic Troll",
+      "Amarok",
+      "Bunny",
+      "Mama Troll",
+      "Chaotic Efaunt",
+      "Biggie Hours",
+      "Chocco Box",
+      "free (nothing else helps)"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Troll (All Skill Efficiency, 6 star)",
+      "Amarok (Skill AFK gain rate, 5 star)",
+      "Bunny (Skill AFK gain rate, 4 star)",
+      "Mama Troll (Skill AFK gain rate, 2 star)",
+      "Chaotic Efaunt (Skill EXP, 5 star)",
+      "Biggie Hours (Double AFK claim chance, 6 star)",
+      "Chocco Box (Boost Food Effect, 2 star)",
+      "empty"
+     ],
+     "doubled": [],
+     "set": "Easy Resources",
+     "bonus": "+40% Skill Efficiency",
+     "src": "Griffy: Chaotic Troll is one of the strongest skill efficiency cards, double it; Amarok card for skill AFK",
+     "slot": 2
+    },
+    {
+     "n": 3,
+     "task": "Drop rate",
+     "cards": [
+      "Demon Genie",
+      "Emperor",
+      "Minichief Spirit",
+      "King Doot",
+      "Mister Brightside",
+      "Crystal Carrot",
+      "Bop Box",
+      "Giftmas Blobulyte"
+     ],
+     "target": "No drop rate multi card owned yet (Coralcave Guardian, Mantaray, Ancientfish). Pulse: push one fast, then double it. It goes in the doubled slot over the weakest drop card.",
+     "detail": [
+      "Demon Genie (Crystal Mob Spawn Chance, 7 star)",
+      "Emperor (Total Drop Rate, 7 star)",
+      "Minichief Spirit (Total Drop Rate, 7 star)",
+      "King Doot (Total Drop Rate, 7 star)",
+      "Mister Brightside (Total Drop Rate, 6 star)",
+      "Crystal Carrot (Total Drop Rate, 7 star)",
+      "Bop Box (Total Drop Rate, 6 star)",
+      "Giftmas Blobulyte (Total Drop Rate, 6 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Pulse 2026-09: doubled Demon Genie plus a drop rate multi card in the other doubled slot; multi beats any additive card",
+     "slot": 3
+    },
+    {
+     "n": 4,
+     "task": "Active EXP",
+     "cards": [
+      "Moonmoon",
+      "Fly",
+      "Ghost (Event)",
+      "Chaotic Kattlekruk",
+      "Efaunt",
+      "Crystal Cattle",
+      "Lampar",
+      "Crystal Crabal"
+     ],
+     "target": null,
+     "detail": [
+      "Moonmoon (Monster EXP While Active, 6 star)",
+      "Fly (Monster EXP While Active, 6 star)",
+      "Ghost (Event) (Monster EXP While Active, 5 star)",
+      "Chaotic Kattlekruk (EXP from monsters, 4 star)",
+      "Efaunt (EXP from monsters, 5 star)",
+      "Crystal Cattle (EXP from monsters, 7 star)",
+      "Lampar (EXP from monsters, 5 star)",
+      "Crystal Crabal (EXP from monsters, 7 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: active monster EXP cards are underrated when farming EXP",
+     "slot": 4
+    }
+   ],
+   "now": [
+    [
+     "wolfB",
+     "Boss2A",
+     "babaMummy",
+     "Crystal1",
+     "Crystal2",
+     "Crystal0",
+     "poopD",
+     "Boss5B"
+    ],
+    [
+     "CritterCard1",
+     "CritterCard6",
+     "CritterCard4",
+     "CritterCard5",
+     "babaMummy",
+     "CritterCard9",
+     "CritterCard2",
+     "CritterCard3"
+    ],
+    [
+     "w5c2",
+     "w4c1",
+     "w5a1",
+     "w6a5",
+     "Boss3C",
+     "Boss4C",
+     "poopBig",
+     "Boss6C"
+    ],
+    [
+     "babaMummy",
+     "Crystal0",
+     "mimicA",
+     "speaker",
+     "xmasEvent",
+     "w5a3",
+     "Boss6A",
+     "w6d2"
+    ],
+    [
+     "poopSmall",
+     "Boss6A",
+     "babaMummy",
+     "w6d2",
+     "w5a3",
+     "speaker",
+     "Crystal0",
+     "demonP"
+    ],
+    [],
+    []
+   ],
+   "afk": [
+    "Thermister",
+    "FIGHTING"
+   ],
+   "equipped_now": [
+    "w5c2",
+    "w4c1",
+    "w5a1",
+    "w6a5",
+    "Boss3C",
+    "Boss4C",
+    "poopBig",
+    "Boss6C"
+   ]
+  },
+  "Autistotle": {
+   "class": "Voidwalker",
+   "presets": [
+    {
+     "n": 1,
+     "task": "Fighting AFK",
+     "cards": [
+      "Chaotic Amarok",
+      "Demented Spiritlord",
+      "Boop",
+      "Sovereign Emperor",
+      "Suggma",
+      "Woodlin Spirit",
+      "Clammie",
+      "Chaotic Emperor"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Amarok (Fighting AFK gain rate, 5 star)",
+      "Demented Spiritlord (Fighting AFK gain rate, 3 star)",
+      "Boop (Fighting AFK gain rate, 5 star)",
+      "Sovereign Emperor (Multikill per tier, 3 star)",
+      "Suggma (Multikill per tier, 6 star)",
+      "Woodlin Spirit (Multikill per tier, 4 star)",
+      "Clammie (Multikill per tier, 6 star)",
+      "Chaotic Emperor (Total Damage Multi, 5 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: every character runs the AFK card; his kill setups are mostly multikill cards",
+     "slot": 1
+    },
+    {
+     "n": 2,
+     "task": "Skilling",
+     "cards": [
+      "Chaotic Troll",
+      "Amarok",
+      "Bunny",
+      "Mama Troll",
+      "Chaotic Efaunt",
+      "Biggie Hours",
+      "Chocco Box",
+      "free (nothing else helps)"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Troll (All Skill Efficiency, 6 star)",
+      "Amarok (Skill AFK gain rate, 5 star)",
+      "Bunny (Skill AFK gain rate, 4 star)",
+      "Mama Troll (Skill AFK gain rate, 2 star)",
+      "Chaotic Efaunt (Skill EXP, 5 star)",
+      "Biggie Hours (Double AFK claim chance, 6 star)",
+      "Chocco Box (Boost Food Effect, 2 star)",
+      "empty"
+     ],
+     "doubled": [],
+     "set": "Easy Resources",
+     "bonus": "+40% Skill Efficiency",
+     "src": "Griffy: Chaotic Troll is one of the strongest skill efficiency cards, double it; Amarok card for skill AFK",
+     "slot": 2
+    },
+    {
+     "n": 3,
+     "task": "Drop rate",
+     "cards": [
+      "Demon Genie",
+      "Emperor",
+      "Minichief Spirit",
+      "King Doot",
+      "Mister Brightside",
+      "Crystal Carrot",
+      "Bop Box",
+      "Giftmas Blobulyte"
+     ],
+     "target": "No drop rate multi card owned yet (Coralcave Guardian, Mantaray, Ancientfish). Pulse: push one fast, then double it. It goes in the doubled slot over the weakest drop card.",
+     "detail": [
+      "Demon Genie (Crystal Mob Spawn Chance, 7 star)",
+      "Emperor (Total Drop Rate, 7 star)",
+      "Minichief Spirit (Total Drop Rate, 7 star)",
+      "King Doot (Total Drop Rate, 7 star)",
+      "Mister Brightside (Total Drop Rate, 6 star)",
+      "Crystal Carrot (Total Drop Rate, 7 star)",
+      "Bop Box (Total Drop Rate, 6 star)",
+      "Giftmas Blobulyte (Total Drop Rate, 6 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Pulse 2026-09: doubled Demon Genie plus a drop rate multi card in the other doubled slot; multi beats any additive card",
+     "slot": 3
+    },
+    {
+     "n": 4,
+     "task": "Active EXP",
+     "cards": [
+      "Moonmoon",
+      "Fly",
+      "Ghost (Event)",
+      "Chaotic Kattlekruk",
+      "Efaunt",
+      "Crystal Cattle",
+      "Lampar",
+      "Crystal Crabal"
+     ],
+     "target": null,
+     "detail": [
+      "Moonmoon (Monster EXP While Active, 6 star)",
+      "Fly (Monster EXP While Active, 6 star)",
+      "Ghost (Event) (Monster EXP While Active, 5 star)",
+      "Chaotic Kattlekruk (EXP from monsters, 4 star)",
+      "Efaunt (EXP from monsters, 5 star)",
+      "Crystal Cattle (EXP from monsters, 7 star)",
+      "Lampar (EXP from monsters, 5 star)",
+      "Crystal Crabal (EXP from monsters, 7 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: active monster EXP cards are underrated when farming EXP",
+     "slot": 4
+    }
+   ],
+   "now": [
+    [
+     "BirchTree",
+     "JungleTree",
+     "ForestTree",
+     "Tree7",
+     "Tree10",
+     "jarSand",
+     "babaMummy",
+     "ToiletTree"
+    ],
+    [
+     "Boss4B",
+     "Fish3",
+     "Fish8",
+     "Fish7",
+     "Fish9",
+     "Fish5",
+     "Boss2B",
+     "wolfA"
+    ],
+    [
+     "Crystal0",
+     "mimicA",
+     "speaker",
+     "Boss6A",
+     "xmasEvent",
+     "w5a3",
+     "babaMummy",
+     "w6d2"
+    ],
+    [
+     "Iron",
+     "Gold",
+     "Dementia",
+     "Void",
+     "Lustre",
+     "w5b6",
+     "Boss2B",
+     "babaMummy"
+    ],
+    [
+     "Bug2",
+     "Bug3",
+     "Bug5",
+     "Bug7",
+     "Bug8",
+     "Bug9",
+     "wolfA",
+     "Boss4B"
+    ],
+    [],
+    []
+   ],
+   "afk": [
+    "Snowman",
+    "FIGHTING"
+   ],
+   "equipped_now": [
+    "Crystal0",
+    "mimicA",
+    "speaker",
+    "Boss6A",
+    "xmasEvent",
+    "w5a3",
+    "babaMummy",
+    "w6d2"
+   ]
+  },
+  "Autistomatic": {
+   "class": "Royal Guardian",
+   "presets": [
+    {
+     "n": 1,
+     "task": "Fighting AFK",
+     "cards": [
+      "Chaotic Amarok",
+      "Demented Spiritlord",
+      "Boop",
+      "Sovereign Emperor",
+      "Suggma",
+      "Woodlin Spirit",
+      "Clammie",
+      "Chaotic Emperor"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Amarok (Fighting AFK gain rate, 5 star)",
+      "Demented Spiritlord (Fighting AFK gain rate, 3 star)",
+      "Boop (Fighting AFK gain rate, 5 star)",
+      "Sovereign Emperor (Multikill per tier, 3 star)",
+      "Suggma (Multikill per tier, 6 star)",
+      "Woodlin Spirit (Multikill per tier, 4 star)",
+      "Clammie (Multikill per tier, 6 star)",
+      "Chaotic Emperor (Total Damage Multi, 5 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: every character runs the AFK card; his kill setups are mostly multikill cards",
+     "slot": 1
+    },
+    {
+     "n": 2,
+     "task": "Skilling",
+     "cards": [
+      "Chaotic Troll",
+      "Amarok",
+      "Bunny",
+      "Mama Troll",
+      "Chaotic Efaunt",
+      "Biggie Hours",
+      "Chocco Box",
+      "free (nothing else helps)"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Troll (All Skill Efficiency, 6 star)",
+      "Amarok (Skill AFK gain rate, 5 star)",
+      "Bunny (Skill AFK gain rate, 4 star)",
+      "Mama Troll (Skill AFK gain rate, 2 star)",
+      "Chaotic Efaunt (Skill EXP, 5 star)",
+      "Biggie Hours (Double AFK claim chance, 6 star)",
+      "Chocco Box (Boost Food Effect, 2 star)",
+      "empty"
+     ],
+     "doubled": [],
+     "set": "Easy Resources",
+     "bonus": "+40% Skill Efficiency",
+     "src": "Griffy: Chaotic Troll is one of the strongest skill efficiency cards, double it; Amarok card for skill AFK",
+     "slot": 2
+    },
+    {
+     "n": 3,
+     "task": "Drop rate",
+     "cards": [
+      "Demon Genie",
+      "Emperor",
+      "Minichief Spirit",
+      "King Doot",
+      "Mister Brightside",
+      "Crystal Carrot",
+      "Bop Box",
+      "Giftmas Blobulyte"
+     ],
+     "target": "No drop rate multi card owned yet (Coralcave Guardian, Mantaray, Ancientfish). Pulse: push one fast, then double it. It goes in the doubled slot over the weakest drop card.",
+     "detail": [
+      "Demon Genie (Crystal Mob Spawn Chance, 7 star)",
+      "Emperor (Total Drop Rate, 7 star)",
+      "Minichief Spirit (Total Drop Rate, 7 star)",
+      "King Doot (Total Drop Rate, 7 star)",
+      "Mister Brightside (Total Drop Rate, 6 star)",
+      "Crystal Carrot (Total Drop Rate, 7 star)",
+      "Bop Box (Total Drop Rate, 6 star)",
+      "Giftmas Blobulyte (Total Drop Rate, 6 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Pulse 2026-09: doubled Demon Genie plus a drop rate multi card in the other doubled slot; multi beats any additive card",
+     "slot": 3
+    },
+    {
+     "n": 4,
+     "task": "Active EXP",
+     "cards": [
+      "Moonmoon",
+      "Fly",
+      "Ghost (Event)",
+      "Chaotic Kattlekruk",
+      "Efaunt",
+      "Crystal Cattle",
+      "Lampar",
+      "Crystal Crabal"
+     ],
+     "target": null,
+     "detail": [
+      "Moonmoon (Monster EXP While Active, 6 star)",
+      "Fly (Monster EXP While Active, 6 star)",
+      "Ghost (Event) (Monster EXP While Active, 5 star)",
+      "Chaotic Kattlekruk (EXP from monsters, 4 star)",
+      "Efaunt (EXP from monsters, 5 star)",
+      "Crystal Cattle (EXP from monsters, 7 star)",
+      "Lampar (EXP from monsters, 5 star)",
+      "Crystal Crabal (EXP from monsters, 7 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: active monster EXP cards are underrated when farming EXP",
+     "slot": 4
+    },
+    {
+     "n": 5,
+     "task": "Spelunking",
+     "cards": [
+      "Chaotic Troll",
+      "Decaying Crevasse",
+      "Equinox Broadbass",
+      "Shellslug",
+      "Fearful Tunnel",
+      "Noble Clam",
+      "Amarok",
+      "Bunny"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Troll (All Skill Efficiency, 6 star)",
+      "Decaying Crevasse (Spelunking Efficiency, 3 star)",
+      "Equinox Broadbass (Spelunking Efficiency, 2 star)",
+      "Shellslug (Spelunking AFK Gain, 1 star)",
+      "Fearful Tunnel (Spelunking EXP, 5 star)",
+      "Noble Clam (Spelunking EXP, 1 star)",
+      "Amarok (Skill AFK gain rate, 5 star)",
+      "Bunny (Skill AFK gain rate, 4 star)"
+     ],
+     "doubled": [],
+     "set": "Easy Resources",
+     "bonus": "+40% Skill Efficiency",
+     "src": "(my read) Spelunking cards are not passive yet",
+     "slot": 5
+    },
+    {
+     "n": 6,
+     "task": "Crystal hunt",
+     "cards": [
+      "Demon Genie",
+      "Poop",
+      "Emperor",
+      "Minichief Spirit",
+      "King Doot",
+      "Mister Brightside",
+      "Crystal Carrot",
+      "Bop Box"
+     ],
+     "target": "No drop rate multi card owned yet (Coralcave Guardian, Mantaray, Ancientfish). Pulse: push one fast, then double it. It goes in the doubled slot over the weakest drop card.",
+     "detail": [
+      "Demon Genie (Crystal Mob Spawn Chance, 7 star)",
+      "Poop (Crystal Mob Spawn Chance, 7 star)",
+      "Emperor (Total Drop Rate, 7 star)",
+      "Minichief Spirit (Total Drop Rate, 7 star)",
+      "King Doot (Total Drop Rate, 7 star)",
+      "Mister Brightside (Total Drop Rate, 6 star)",
+      "Crystal Carrot (Total Drop Rate, 7 star)",
+      "Bop Box (Total Drop Rate, 6 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Pulse: Royal Guardian needs a drop rate + crystal page; Griffy: Poop + Demon Genie for crystal spawn",
+     "slot": 6
+    }
+   ],
+   "now": [
+    [
+     "mushW",
+     "sandcastle",
+     "StumpTree",
+     "eye",
+     "w4b1",
+     "w5c2",
+     "Boss4C",
+     "Boss6C"
+    ],
+    [
+     "Iron",
+     "Dementia",
+     "Dreadlo",
+     "wolfA",
+     "Void",
+     "Lustre",
+     "w5b6",
+     "Boss4B"
+    ],
+    [
+     "Boss4C",
+     "w4c1",
+     "wolfB",
+     "w5c2",
+     "w6a5",
+     "w5b3",
+     "Boss6C",
+     "Boss3C"
+    ],
+    [
+     "w6d2",
+     "mimicA",
+     "speaker",
+     "xmasEvent",
+     "Crystal0",
+     "babaMummy",
+     "w5a3",
+     "Boss6A"
+    ],
+    [
+     "snailZ",
+     "frogBIG",
+     "stache"
+    ],
+    [],
+    []
+   ],
+   "afk": [
+    "Fearful Tunnel",
+    "SPELUNKING"
+   ],
+   "equipped_now": [
+    "w6d2",
+    "mimicA",
+    "speaker",
+    "xmasEvent",
+    "Crystal0",
+    "babaMummy",
+    "w5a3",
+    "Boss6A"
+   ]
+  },
+  "Autistronaut": {
+   "class": "Elemental Sorcerer",
+   "presets": [
+    {
+     "n": 1,
+     "task": "Fighting AFK",
+     "cards": [
+      "Chaotic Amarok",
+      "Demented Spiritlord",
+      "Boop",
+      "Sovereign Emperor",
+      "Suggma",
+      "Woodlin Spirit",
+      "Clammie",
+      "Chaotic Emperor"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Amarok (Fighting AFK gain rate, 5 star)",
+      "Demented Spiritlord (Fighting AFK gain rate, 3 star)",
+      "Boop (Fighting AFK gain rate, 5 star)",
+      "Sovereign Emperor (Multikill per tier, 3 star)",
+      "Suggma (Multikill per tier, 6 star)",
+      "Woodlin Spirit (Multikill per tier, 4 star)",
+      "Clammie (Multikill per tier, 6 star)",
+      "Chaotic Emperor (Total Damage Multi, 5 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: every character runs the AFK card; his kill setups are mostly multikill cards",
+     "slot": 1
+    },
+    {
+     "n": 2,
+     "task": "Skilling",
+     "cards": [
+      "Chaotic Troll",
+      "Amarok",
+      "Bunny",
+      "Mama Troll",
+      "Chaotic Efaunt",
+      "Biggie Hours",
+      "Chocco Box",
+      "free (nothing else helps)"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Troll (All Skill Efficiency, 6 star)",
+      "Amarok (Skill AFK gain rate, 5 star)",
+      "Bunny (Skill AFK gain rate, 4 star)",
+      "Mama Troll (Skill AFK gain rate, 2 star)",
+      "Chaotic Efaunt (Skill EXP, 5 star)",
+      "Biggie Hours (Double AFK claim chance, 6 star)",
+      "Chocco Box (Boost Food Effect, 2 star)",
+      "empty"
+     ],
+     "doubled": [],
+     "set": "Easy Resources",
+     "bonus": "+40% Skill Efficiency",
+     "src": "Griffy: Chaotic Troll is one of the strongest skill efficiency cards, double it; Amarok card for skill AFK",
+     "slot": 2
+    },
+    {
+     "n": 3,
+     "task": "Drop rate",
+     "cards": [
+      "Demon Genie",
+      "Emperor",
+      "Minichief Spirit",
+      "King Doot",
+      "Mister Brightside",
+      "Crystal Carrot",
+      "Bop Box",
+      "Giftmas Blobulyte"
+     ],
+     "target": "No drop rate multi card owned yet (Coralcave Guardian, Mantaray, Ancientfish). Pulse: push one fast, then double it. It goes in the doubled slot over the weakest drop card.",
+     "detail": [
+      "Demon Genie (Crystal Mob Spawn Chance, 7 star)",
+      "Emperor (Total Drop Rate, 7 star)",
+      "Minichief Spirit (Total Drop Rate, 7 star)",
+      "King Doot (Total Drop Rate, 7 star)",
+      "Mister Brightside (Total Drop Rate, 6 star)",
+      "Crystal Carrot (Total Drop Rate, 7 star)",
+      "Bop Box (Total Drop Rate, 6 star)",
+      "Giftmas Blobulyte (Total Drop Rate, 6 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Pulse 2026-09: doubled Demon Genie plus a drop rate multi card in the other doubled slot; multi beats any additive card",
+     "slot": 3
+    },
+    {
+     "n": 4,
+     "task": "Active EXP",
+     "cards": [
+      "Moonmoon",
+      "Fly",
+      "Ghost (Event)",
+      "Chaotic Kattlekruk",
+      "Efaunt",
+      "Crystal Cattle",
+      "Lampar",
+      "Crystal Crabal"
+     ],
+     "target": null,
+     "detail": [
+      "Moonmoon (Monster EXP While Active, 6 star)",
+      "Fly (Monster EXP While Active, 6 star)",
+      "Ghost (Event) (Monster EXP While Active, 5 star)",
+      "Chaotic Kattlekruk (EXP from monsters, 4 star)",
+      "Efaunt (EXP from monsters, 5 star)",
+      "Crystal Cattle (EXP from monsters, 7 star)",
+      "Lampar (EXP from monsters, 5 star)",
+      "Crystal Crabal (EXP from monsters, 7 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: active monster EXP cards are underrated when farming EXP",
+     "slot": 4
+    }
+   ],
+   "now": [
+    [
+     "Crystal0",
+     "Boss6A",
+     "mimicA",
+     "speaker",
+     "xmasEvent",
+     "w6d2",
+     "babaMummy",
+     "w5a3"
+    ],
+    [
+     "BirchTree",
+     "Boss4B",
+     "AlienTree",
+     "ToiletTree",
+     "Tree10",
+     "Tree8",
+     "Tree7",
+     "wolfA"
+    ],
+    [
+     "mushW",
+     "sandcastle",
+     "w5c2",
+     "Boss3C",
+     "eye",
+     "skele2",
+     "w5b3",
+     "poopBig"
+    ],
+    [
+     "Iron",
+     "Gold",
+     "Dementia",
+     "Void",
+     "Lustre",
+     "Starfire",
+     "wolfA",
+     "Boss2B"
+    ],
+    [
+     "Boss6C",
+     "poopD",
+     "wolfB",
+     "Boss3C",
+     "w6a5",
+     "w5c2",
+     "w4c1",
+     "Boss4C"
+    ],
+    [],
+    []
+   ],
+   "afk": [
+    "Cryosnake",
+    "FIGHTING"
+   ],
+   "equipped_now": [
+    "Crystal0",
+    "Boss6A",
+    "mimicA",
+    "speaker",
+    "xmasEvent",
+    "w6d2",
+    "babaMummy",
+    "w5a3"
+   ]
+  },
+  "Autistopher": {
+   "class": "Death Bringer",
+   "presets": [
+    {
+     "n": 1,
+     "task": "Fighting AFK",
+     "cards": [
+      "Chaotic Amarok",
+      "Demented Spiritlord",
+      "Boop",
+      "Sovereign Emperor",
+      "Suggma",
+      "Woodlin Spirit",
+      "Clammie",
+      "Chaotic Emperor"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Amarok (Fighting AFK gain rate, 5 star)",
+      "Demented Spiritlord (Fighting AFK gain rate, 3 star)",
+      "Boop (Fighting AFK gain rate, 5 star)",
+      "Sovereign Emperor (Multikill per tier, 3 star)",
+      "Suggma (Multikill per tier, 6 star)",
+      "Woodlin Spirit (Multikill per tier, 4 star)",
+      "Clammie (Multikill per tier, 6 star)",
+      "Chaotic Emperor (Total Damage Multi, 5 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: every character runs the AFK card; his kill setups are mostly multikill cards",
+     "slot": 1
+    },
+    {
+     "n": 2,
+     "task": "Skilling",
+     "cards": [
+      "Chaotic Troll",
+      "Amarok",
+      "Bunny",
+      "Mama Troll",
+      "Chaotic Efaunt",
+      "Biggie Hours",
+      "Chocco Box",
+      "free (nothing else helps)"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Troll (All Skill Efficiency, 6 star)",
+      "Amarok (Skill AFK gain rate, 5 star)",
+      "Bunny (Skill AFK gain rate, 4 star)",
+      "Mama Troll (Skill AFK gain rate, 2 star)",
+      "Chaotic Efaunt (Skill EXP, 5 star)",
+      "Biggie Hours (Double AFK claim chance, 6 star)",
+      "Chocco Box (Boost Food Effect, 2 star)",
+      "empty"
+     ],
+     "doubled": [],
+     "set": "Easy Resources",
+     "bonus": "+40% Skill Efficiency",
+     "src": "Griffy: Chaotic Troll is one of the strongest skill efficiency cards, double it; Amarok card for skill AFK",
+     "slot": 2
+    },
+    {
+     "n": 3,
+     "task": "Drop rate",
+     "cards": [
+      "Demon Genie",
+      "Emperor",
+      "Minichief Spirit",
+      "King Doot",
+      "Mister Brightside",
+      "Crystal Carrot",
+      "Bop Box",
+      "Giftmas Blobulyte"
+     ],
+     "target": "No drop rate multi card owned yet (Coralcave Guardian, Mantaray, Ancientfish). Pulse: push one fast, then double it. It goes in the doubled slot over the weakest drop card.",
+     "detail": [
+      "Demon Genie (Crystal Mob Spawn Chance, 7 star)",
+      "Emperor (Total Drop Rate, 7 star)",
+      "Minichief Spirit (Total Drop Rate, 7 star)",
+      "King Doot (Total Drop Rate, 7 star)",
+      "Mister Brightside (Total Drop Rate, 6 star)",
+      "Crystal Carrot (Total Drop Rate, 7 star)",
+      "Bop Box (Total Drop Rate, 6 star)",
+      "Giftmas Blobulyte (Total Drop Rate, 6 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Pulse 2026-09: doubled Demon Genie plus a drop rate multi card in the other doubled slot; multi beats any additive card",
+     "slot": 3
+    },
+    {
+     "n": 4,
+     "task": "Active EXP",
+     "cards": [
+      "Moonmoon",
+      "Fly",
+      "Ghost (Event)",
+      "Chaotic Kattlekruk",
+      "Efaunt",
+      "Crystal Cattle",
+      "Lampar",
+      "Crystal Crabal"
+     ],
+     "target": null,
+     "detail": [
+      "Moonmoon (Monster EXP While Active, 6 star)",
+      "Fly (Monster EXP While Active, 6 star)",
+      "Ghost (Event) (Monster EXP While Active, 5 star)",
+      "Chaotic Kattlekruk (EXP from monsters, 4 star)",
+      "Efaunt (EXP from monsters, 5 star)",
+      "Crystal Cattle (EXP from monsters, 7 star)",
+      "Lampar (EXP from monsters, 5 star)",
+      "Crystal Crabal (EXP from monsters, 7 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: active monster EXP cards are underrated when farming EXP",
+     "slot": 4
+    },
+    {
+     "n": 7,
+     "task": "Cooking",
+     "cards": [
+      "Chaotic Troll",
+      "Mutated Mush",
+      "Chaotic Efaunt",
+      "Amarok",
+      "Bunny",
+      "Mama Troll",
+      "free (nothing else helps)",
+      "free (nothing else helps)"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Troll (All Skill Efficiency, 6 star)",
+      "Mutated Mush (Cooking EXP gain, 6 star)",
+      "Chaotic Efaunt (Skill EXP, 5 star)",
+      "Amarok (Skill AFK gain rate, 5 star)",
+      "Bunny (Skill AFK gain rate, 4 star)",
+      "Mama Troll (Skill AFK gain rate, 2 star)",
+      "empty",
+      "empty"
+     ],
+     "doubled": [],
+     "set": "Easy Resources",
+     "bonus": "+40% Skill Efficiency",
+     "src": "(my read) only one non-passive cooking card exists",
+     "slot": 7
+    }
+   ],
+   "now": [
+    [
+     "Crystal0",
+     "mimicA",
+     "w6d2",
+     "speaker",
+     "w5a3",
+     "Boss6A",
+     "xmasEvent",
+     "babaMummy"
+    ],
+    [
+     "Bug2",
+     "Bug3",
+     "Bug4",
+     "Bug5",
+     "Bug6",
+     "wolfA",
+     "Boss2B",
+     "Boss4B"
+    ],
+    [
+     "mushW",
+     "sandcastle",
+     "w5c2",
+     "Boss3C",
+     "eye",
+     "skele",
+     "w5b3",
+     "poopBig"
+    ],
+    [],
+    [
+     "Boss6C",
+     "w4c1",
+     "Boss3C",
+     "wolfB",
+     "poopD",
+     "w6a5",
+     "w5c2",
+     "Boss4C"
+    ],
+    [],
+    []
+   ],
+   "afk": [
+    "Skydoggie Spirit",
+    "FIGHTING"
+   ],
+   "equipped_now": [
+    "Crystal0",
+    "mimicA",
+    "w6d2",
+    "speaker",
+    "w5a3",
+    "Boss6A",
+    "xmasEvent",
+    "babaMummy"
+   ]
+  },
+  "Autistachio": {
+   "class": "Beginner",
+   "presets": [
+    {
+     "n": 1,
+     "task": "Fighting AFK",
+     "cards": [
+      "Chaotic Amarok",
+      "Demented Spiritlord",
+      "Boop",
+      "Sovereign Emperor",
+      "Suggma",
+      "Woodlin Spirit",
+      "Clammie",
+      "Chaotic Emperor"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Amarok (Fighting AFK gain rate, 5 star)",
+      "Demented Spiritlord (Fighting AFK gain rate, 3 star)",
+      "Boop (Fighting AFK gain rate, 5 star)",
+      "Sovereign Emperor (Multikill per tier, 3 star)",
+      "Suggma (Multikill per tier, 6 star)",
+      "Woodlin Spirit (Multikill per tier, 4 star)",
+      "Clammie (Multikill per tier, 6 star)",
+      "Chaotic Emperor (Total Damage Multi, 5 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: every character runs the AFK card; his kill setups are mostly multikill cards",
+     "slot": 1
+    },
+    {
+     "n": 2,
+     "task": "Skilling",
+     "cards": [
+      "Chaotic Troll",
+      "Amarok",
+      "Bunny",
+      "Mama Troll",
+      "Chaotic Efaunt",
+      "Biggie Hours",
+      "Chocco Box",
+      "free (nothing else helps)"
+     ],
+     "target": null,
+     "detail": [
+      "Chaotic Troll (All Skill Efficiency, 6 star)",
+      "Amarok (Skill AFK gain rate, 5 star)",
+      "Bunny (Skill AFK gain rate, 4 star)",
+      "Mama Troll (Skill AFK gain rate, 2 star)",
+      "Chaotic Efaunt (Skill EXP, 5 star)",
+      "Biggie Hours (Double AFK claim chance, 6 star)",
+      "Chocco Box (Boost Food Effect, 2 star)",
+      "empty"
+     ],
+     "doubled": [],
+     "set": "Easy Resources",
+     "bonus": "+40% Skill Efficiency",
+     "src": "Griffy: Chaotic Troll is one of the strongest skill efficiency cards, double it; Amarok card for skill AFK",
+     "slot": 2
+    },
+    {
+     "n": 3,
+     "task": "Drop rate",
+     "cards": [
+      "Demon Genie",
+      "Emperor",
+      "Minichief Spirit",
+      "King Doot",
+      "Mister Brightside",
+      "Crystal Carrot",
+      "Bop Box",
+      "Giftmas Blobulyte"
+     ],
+     "target": "No drop rate multi card owned yet (Coralcave Guardian, Mantaray, Ancientfish). Pulse: push one fast, then double it. It goes in the doubled slot over the weakest drop card.",
+     "detail": [
+      "Demon Genie (Crystal Mob Spawn Chance, 7 star)",
+      "Emperor (Total Drop Rate, 7 star)",
+      "Minichief Spirit (Total Drop Rate, 7 star)",
+      "King Doot (Total Drop Rate, 7 star)",
+      "Mister Brightside (Total Drop Rate, 6 star)",
+      "Crystal Carrot (Total Drop Rate, 7 star)",
+      "Bop Box (Total Drop Rate, 6 star)",
+      "Giftmas Blobulyte (Total Drop Rate, 6 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Pulse 2026-09: doubled Demon Genie plus a drop rate multi card in the other doubled slot; multi beats any additive card",
+     "slot": 3
+    },
+    {
+     "n": 4,
+     "task": "Active EXP",
+     "cards": [
+      "Moonmoon",
+      "Fly",
+      "Ghost (Event)",
+      "Chaotic Kattlekruk",
+      "Efaunt",
+      "Crystal Cattle",
+      "Lampar",
+      "Crystal Crabal"
+     ],
+     "target": null,
+     "detail": [
+      "Moonmoon (Monster EXP While Active, 6 star)",
+      "Fly (Monster EXP While Active, 6 star)",
+      "Ghost (Event) (Monster EXP While Active, 5 star)",
+      "Chaotic Kattlekruk (EXP from monsters, 4 star)",
+      "Efaunt (EXP from monsters, 5 star)",
+      "Crystal Cattle (EXP from monsters, 7 star)",
+      "Lampar (EXP from monsters, 5 star)",
+      "Crystal Crabal (EXP from monsters, 7 star)"
+     ],
+     "doubled": [],
+     "set": "Bosses n Nightmares",
+     "bonus": "+24% Dmg, Drop, and EXP",
+     "src": "Griffy: active monster EXP cards are underrated when farming EXP",
+     "slot": 4
+    }
+   ],
+   "now": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ],
+   "afk": [
+    "Bravery",
+    "Paying_Respect"
+   ],
+   "equipped_now": []
+  }
+ }
+}
