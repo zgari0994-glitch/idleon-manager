@@ -12,8 +12,8 @@
   },
   {
    "name": "Dedotated Ram",
-   "effect": "You can use Storage Chest anywhere in Quickref",
-   "upgraded": false
+   "effect": "Use Storage Chest from anywhere, and +30% Carry Capacity",
+   "upgraded": true
   },
   {
    "name": "Crystal Custard",
@@ -249,6 +249,21 @@
    "name": "Cryosnake",
    "effect": "All Upgrade Vault upgrades are 50% cheaper!",
    "upgraded": false
+  },
+  {
+   "name": "Mama Troll",
+   "effect": "+100% Drop Rate and 1.50x Drop Rate Multi",
+   "upgraded": false
+  },
+  {
+   "name": "Crystal Glunko",
+   "effect": "1.50x Damage, 1.40x Class EXP, 1.30x Drop Rate, and 1.20x extra Kills",
+   "upgraded": false
+  },
+  {
+   "name": "Armadillo",
+   "effect": "+100% additive Crystal Monster Spawn chance",
+   "upgraded": false
   }
  ],
  "companions_missing": [
@@ -332,7 +347,6 @@
   "Woodlin Spirit",
   "Bamboo Spirit",
   "Lantern Spirit",
-  "Mama Troll",
   "Ceramic Spirit",
   "Skydoggie Spirit",
   "Royal Egg",
@@ -367,10 +381,8 @@
   "Silver Champion Troll",
   "Gold Champion Troll",
   "Abacus Frog",
-  "Crystal Glunko",
   "Bin Goosey",
   "Magician Grub",
-  "Armadillo",
   "Imperial Ogre",
   "Pipsqueak",
   "Verminous",
@@ -387,6 +399,7 @@
   "Summer Bundle",
   "Giftmas Bundle",
   "Auto-Loot Pack",
+  "Outta This World Pack",
   "Super Hot Fire Pack",
   "Riftwalker Pack",
   "Bloomin' Pet Pack",
@@ -414,12 +427,13 @@
   "Giftmas Bunny Pack",
   "Giftmas Hedgehog Pack",
   "Giftmas Panda Pack",
-  "Santa's Little Helper Pack"
+  "Santa's Little Helper Pack",
+  "Crystal Glunko Pack",
+  "Armadillo Pack"
  ],
  "packs_missing": [
   "Starter Pack",
   "Dungeon Bundle",
-  "Outta This World Pack",
   "Eggscellent Pack",
   "Gem Motherlode Pack",
   "Valenslime Day Pack",
@@ -433,9 +447,7 @@
   "Time Traveler Pack",
   "Beeg Egg Pack",
   "Spooker Pack",
-  "Crystal Glunko Pack",
   "Boaring Pack",
-  "Armadillo Pack",
   "Coralcave Guardian Pack",
   "Daydreamer Pack",
   "Gelatinous Pack",
@@ -490,7 +502,7 @@
   },
   {
    "name": "Card Presets",
-   "lv": 4,
+   "lv": 5,
    "max": 5,
    "section": "Usables"
   },
@@ -549,9 +561,21 @@
    "section": "Usables"
   },
   {
+   "name": "Legion Commander Hat",
+   "lv": 10,
+   "max": 1,
+   "section": "Usables"
+  },
+  {
    "name": "World 6 Kills Ring",
    "lv": 1,
    "max": 2,
+   "section": "Usables"
+  },
+  {
+   "name": "Legend Tier Ribbon",
+   "lv": 5,
+   "max": 10,
    "section": "Usables"
   },
   {
@@ -717,6 +741,12 @@
    "section": "Bonuses"
   },
   {
+   "name": "Pristine Charm",
+   "lv": 2,
+   "max": 2,
+   "section": "Bonuses"
+  },
+  {
    "name": "Shroom Familiar",
    "lv": 6,
    "max": 6,
@@ -748,7 +778,7 @@
   },
   {
    "name": "More Coral",
-   "lv": 5,
+   "lv": 10,
    "max": 10,
    "section": "Bonuses"
   },
@@ -772,7 +802,7 @@
   },
   {
    "name": "Professional Papers",
-   "lv": 2,
+   "lv": 10,
    "max": 10,
    "section": "Bonuses"
   },
@@ -1425,6 +1455,11 @@
    "effect": "Boosts Research EXP gain by +{%<br>You'll be filling out this Grid in no time at all!"
   },
   {
+   "name": "Research AFK Gains",
+   "lv": 2,
+   "effect": "+{% Research AFK Gains. This affects OFFLINE gains for Research, Minehead, Insight... everything Research related!"
+  },
+  {
    "name": "Gaming Zuperbits",
    "lv": 1,
    "effect": "Unlocks the Zuperbits page of Superbits in Gaming! Yea, you ain't done with those just yet! Also gives }x Gaming Bit Multi!"
@@ -1445,9 +1480,24 @@
    "effect": "Gives you +| more Daily Rolls for getting new Observations! Also, +{% Research EXP gain!"
   },
   {
+   "name": "Adequate Sized, Actually",
+   "lv": 1,
+   "effect": "All Tiny Cogs you get have a {% chance be 1 Tier higher than they otherwise would've been! Huge, honestly!"
+  },
+  {
    "name": "Takin' Notes",
    "lv": 4,
    "effect": "Multiplies Research EXP gain by }x, TRUE multiplier style! So this bonus will never be additive!"
+  },
+  {
+   "name": "Powered Down Research",
+   "lv": 2,
+   "effect": "Further increases your Research AFK Gains rate by +{%, in your unending quest for 100%"
+  },
+  {
+   "name": "Polymer Refinery",
+   "lv": 2,
+   "effect": "Unlocks a new tab in the Refinery, POLYMERIZATION! Also, +{% faster refinery cycles for ALL tabs!"
   },
   {
    "name": "Pts Every Ten",
@@ -1513,7 +1563,7 @@
   },
   {
    "class": "Bowman",
-   "level": 846,
+   "level": 856,
    "value": null
   },
   {
@@ -1523,7 +1573,7 @@
   },
   {
    "class": "Siege Breaker",
-   "level": 846,
+   "level": 856,
    "value": null
   },
   {
@@ -1538,7 +1588,7 @@
   },
   {
    "class": "Mage",
-   "level": 842,
+   "level": 851,
    "value": null
   },
   {
@@ -1548,8 +1598,8 @@
   },
   {
    "class": "Shaman",
-   "level": 830,
-   "value": 1.3556048834628192
+   "level": 851,
+   "value": 1.3566160520607375
   },
   {
    "class": "Elemental Sorcerer",
@@ -1558,12 +1608,12 @@
   },
   {
    "class": "Bubonic Conjuror",
-   "level": 830,
+   "level": 851,
    "value": null
   },
   {
    "class": "Arcane Cultist",
-   "level": 830,
+   "level": 851,
    "value": null
   }
  ],
@@ -1578,15 +1628,15 @@
   {
    "name": "King of the Remembered",
    "type": "Printer Output",
-   "kills": 2655609,
-   "value": 22.83729781194848,
+   "kills": 2656250,
+   "value": 22.747362971394477,
    "how": "Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from"
   },
   {
    "name": "Wormhole Emperor",
    "type": "Damage",
-   "kills": 488354,
-   "value": 5.292672316711091,
+   "kills": 492520,
+   "value": 5.296104593342359,
    "how": "Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns"
   }
  ],
@@ -1632,7 +1682,7 @@
    "blessing": 60
   }
  ],
- "achievements_done": 207,
+ "achievements_done": 208,
  "achievements_open": [
   "Hitting the Mark",
   "Minecart Maniac",
@@ -1670,7 +1720,6 @@
   "Bland Dish",
   "Lv. 5 Nothing",
   "I LOVE These Mobs",
-  "Chippin' Away",
   "Hunned Times a Day",
   "Space Party!!!",
   "Hibernating Gamer",
@@ -1697,16 +1746,14 @@
   "Beanstacker Prodigy"
  ],
  "hats_owned": 41,
- "capes_deposited": 13,
+ "capes_deposited": 15,
  "capes_missing": [
-  "Angel Wings",
   "Easter Egg Backpack",
   "Giant Rose",
   "Giant Violet",
   "Giant Starflower",
   "Dragonroll Mantlepiece",
   "Beeg Egg",
-  "Crystal Crescent",
   "Bladed Rucksack",
   "Lovely Balloon"
  ],

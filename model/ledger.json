@@ -1,17 +1,6 @@
 {
  "stamps": [
   {
-   "stamp": "Golden Apple Stamp",
-   "level": 64,
-   "max": 64,
-   "target": 100,
-   "coins": 6185823235111,
-   "material": "Golden Nomwich",
-   "owned": 400477,
-   "next_raise": 35917.38457803634,
-   "total_mat": 10979142.081689902
-  },
-  {
    "stamp": "Bag o Heads Stamp",
    "level": 120,
    "max": 120,
@@ -29,7 +18,7 @@
    "target": 330,
    "coins": 22275281333266,
    "material": "Carrot Cube",
-   "owned": 846348383,
+   "owned": 848120007,
    "next_raise": 180051690.12581494,
    "total_mat": 6643585344129.883
   },
@@ -40,7 +29,7 @@
    "target": 180,
    "coins": 123131011018311363,
    "material": "Sand Shark",
-   "owned": 68526606,
+   "owned": 68466606,
    "next_raise": 25179901.586920485,
    "total_mat": 78179862.46768272
   },
@@ -51,7 +40,7 @@
    "target": 110,
    "coins": 386848822182,
    "material": "Pocket Sand",
-   "owned": 1016836879,
+   "owned": 976717558,
    "next_raise": 432124056.30195594,
    "total_mat": 3514939897.258701
   },
@@ -73,9 +62,20 @@
    "target": 160,
    "coins": 24988946111202,
    "material": "Glass Shard",
-   "owned": 8732,
+   "owned": 8739,
    "next_raise": 17436.762333716375,
    "total_mat": 164182044.07647136
+  },
+  {
+   "stamp": "Golden Apple Stamp",
+   "level": 80,
+   "max": 80,
+   "target": 100,
+   "coins": 5881240195196,
+   "material": "Golden Nomwich",
+   "owned": 105911,
+   "next_raise": 445773.00044028956,
+   "total_mat": 10506509.91819525
   },
   {
    "stamp": "Lil' Mining Baggy Stamp",
@@ -122,41 +122,185 @@
    "total_mat": 3651090.0433939174
   }
  ],
- "stamp": "20261117T1959",
- "vs": "20261117T0042",
- "hours": 19.284386944439674,
+ "stamp": "20261120T0128",
+ "vs": "20261119T0212",
+ "hours": 23.257591105567084,
  "watch": [
   {
    "item": "Tangled Cords",
-   "owned": 512329,
-   "rate_hr": 5143.020635592301,
+   "owned": 1744580,
+   "rate_hr": 39462.642361973085,
    "owner": "Autistocat",
    "why": "Dream of Ironfish 68 -> 70 (exact cost: check bubble cost)"
   },
   {
    "item": "Void Bar",
-   "owned": 224,
-   "rate_hr": 2.4890601987137573,
+   "owned": 5033984,
+   "rate_hr": 41947.293491047574,
    "owner": "Autistastic",
    "why": "ran out before (Zack); construction/printer use"
   },
   {
    "item": "Copper Bar",
-   "owned": 161685147,
-   "rate_hr": 406150.79040707235,
+   "owned": 209829761,
+   "rate_hr": 488314.15723365755,
    "owner": "Autistocat",
    "why": "Barium Mixture 12 -> 13 needs 1B Copper Bars (Toolbox map finding)",
    "target": 1000000000,
-   "shortage": 838314853,
-   "eta_days": 86.00201296335685
+   "shortage": 790170239,
+   "eta_days": 67.423316466697
   }
  ],
  "runout": [
   {
-   "item": "Skelefish",
-   "owned": 34956168,
-   "rate_hr": -755144.928483135,
-   "runout_days": 1.9287780994910422
+   "item": "Mutton Statue",
+   "owned": 0,
+   "rate_hr": -723.9786753310643,
+   "runout_days": 0
+  },
+  {
+   "item": "Exp Book Statue",
+   "owned": 0,
+   "rate_hr": -176.54450890303778,
+   "runout_days": 0
+  },
+  {
+   "item": "Thicc Skin Statue",
+   "owned": 0,
+   "rate_hr": -109.46963459988655,
+   "runout_days": 0
+  },
+  {
+   "item": "Egg Statue",
+   "owned": 0,
+   "rate_hr": -257.120351495413,
+   "runout_days": 0
+  },
+  {
+   "item": "Villager Statue",
+   "owned": 0,
+   "rate_hr": -0.3009770000782427,
+   "runout_days": 0
+  },
+  {
+   "item": "Pecunia Statue",
+   "owned": 0,
+   "rate_hr": -574.6080898636621,
+   "runout_days": 0
+  },
+  {
+   "item": "Stealth Statue",
+   "owned": 0,
+   "rate_hr": -189.35752976351154,
+   "runout_days": 0
+  },
+  {
+   "item": "Oceanman Statue",
+   "owned": 0,
+   "rate_hr": -92.01296859534847,
+   "runout_days": 0
+  },
+  {
+   "item": "Ol Reliable Statue",
+   "owned": 0,
+   "rate_hr": -62.77520287346204,
+   "runout_days": 0
+  },
+  {
+   "item": "Cauldron Statue",
+   "owned": 0,
+   "rate_hr": -4882.749872269331,
+   "runout_days": 0
+  },
+  {
+   "item": "Twosoul Statue",
+   "owned": 0,
+   "rate_hr": -4.213678001095397,
+   "runout_days": 0
+  },
+  {
+   "item": "Anvil Statue",
+   "owned": 0,
+   "rate_hr": -13181.932669141092,
+   "runout_days": 0
+  },
+  {
+   "item": "Spiral Statue",
+   "owned": 8,
+   "rate_hr": -3381.089625450384,
+   "runout_days": 9.858754728778628e-05
+  },
+  {
+   "item": "Compost Statue",
+   "owned": 2,
+   "rate_hr": -126.15235974708057,
+   "runout_days": 0.0006605768889333982
+  },
+  {
+   "item": "Health Statue",
+   "owned": 1160,
+   "rate_hr": -27593.14140003032,
+   "runout_days": 0.0017516430127553445
+  },
+  {
+   "item": "Boat Statue",
+   "owned": 62,
+   "rate_hr": -1165.0389705885805,
+   "runout_days": 0.002217379331120767
+  },
+  {
+   "item": "Battleaxe Statue",
+   "owned": 58,
+   "rate_hr": -740.6614004782583,
+   "runout_days": 0.0032628494817013303
+  },
+  {
+   "item": "Feasty Statue",
+   "owned": 10134,
+   "rate_hr": -22769.42601649062,
+   "runout_days": 0.018544604492629194
+  },
+  {
+   "item": "Bullseye Statue",
+   "owned": 3374,
+   "rate_hr": -5838.867808089314,
+   "runout_days": 0.024077156386134595
+  },
+  {
+   "item": "Mining Statue",
+   "owned": 9874,
+   "rate_hr": -13754.64890357569,
+   "runout_days": 0.02991109911643865
+  },
+  {
+   "item": "Lumberbob Statue",
+   "owned": 10164,
+   "rate_hr": -14081.423932232068,
+   "runout_days": 0.030075083460176056
+  },
+  {
+   "item": "Beholder Statue",
+   "owned": 10304,
+   "rate_hr": -14005.57772821235,
+   "runout_days": 0.030654453651597618
+  },
+  {
+   "item": "Speed Statue",
+   "owned": 17894,
+   "rate_hr": -19933.104761181854,
+   "runout_days": 0.03740427506232235
+  },
+  {
+   "item": "Rice Cake",
+   "owned": 50000000,
+   "rate_hr": -42996714.29689181,
+   "runout_days": 0.04845331480326476
+  },
+  {
+   "item": "EhExPee Statue",
+   "owned": 15902,
+   "rate_hr": -2890.669102180036,
+   "runout_days": 0.22921452089885952
   }
  ]
 }

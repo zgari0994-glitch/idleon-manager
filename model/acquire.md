@@ -15,11 +15,9 @@ kind: in-game = obtainable by playing; paid = gem shop/bundle; event = limited-t
 - **Nine Dart Finish** [in-game] 9% Drop Rate Multi, 9% AFK Gains Multi · Throwy Darts minigame (9 bullseyes in a row)
 - **Ultra Unboxer** [in-game] 3% Drop Rate, +3 all stats · Guild Giftbox
 
-## Capes missing (10)
-- **Angel Wings** [paid] 11% All AFK Gain · Gem Shop random cape, Bundle
+## Capes missing (8)
 - **Beeg Egg** [paid] 300% Bigger Damage, 10% AFK Gains Multi · Gem Shop
 - **Bladed Rucksack** [paid] 500% Bigger Damage · Gem Shop
-- **Crystal Crescent** [paid] 200% Class Exp Multi · Gem Shop (Armadillius Superius Pack)
 - **Dragonroll Mantlepiece** [paid] 100% More Kills, 100% Bigger Damage · Gem Shop
 - **Easter Egg Backpack** [paid] 10% Total Damage · Bundle
 - **Giant Rose** [paid/event] 7% All AFK Gain · Choco Box, Gem Shop
@@ -114,7 +112,7 @@ kind: in-game = obtainable by playing; paid = gem shop/bundle; event = limited-t
 - **Witch Hat (Halloween 2026)** [event] 1% Class Exp Multi · Halloween Treat, Halloween Grave
 - **Yellow Beanie** [event] 2% Bonus Kills · Summer Cooler, Summer Spirit
 
-## Achievements open (61)
+## Achievements open (60)
 - **Hitting the Mark**: Chop 15 yellow sections in a row during the Choppin' Minigame → +5% Chopping EXP for all characters
 - **Minecart Maniac**: Slam on a yellow ore vein in the Mining Minigame, which gives 3 points! → +5% Mining EXP Bonus for all characters
 - **Spike Minigame Master**: Get a score of 13 in the spike minigame. Remember to say 'If u love me let me go' → 20 Gem , 4 HR Time Candy (Score means winning at least 13 Gems, not getting to round 13.)
@@ -151,7 +149,6 @@ kind: in-game = obtainable by playing; paid = gem shop/bundle; event = limited-t
 - **Bland Dish**: What exactly were you expecting to cook, an invisible meal? → +6 Tab 1 Talent Pts (Attempt to discover a new recipe by cooking without any Spices)
 - **Lv. 5 Nothing**: Ah, I see you enjoy reading upgrade flavor text as well! → 30 Gem , 2 12 HR Time Candy (Level up the "No Upgrade Selected" upgrade to level 5 in the "Upgrade" tab of the Breeding menu)
 - **I LOVE These Mobs**:  → reward n/a
-- **Chippin' Away**: Claim 25 chips from the Chip Repository. I was gonna make this 250 chips, but people from the future told me not to. → +2% Arcade balls/hr
 - **Hunned Times a Day**: Claim spices by any means 10,000 times. Like, individual claims. → +8 Tab 2 Talent Pts
 - **Space Party!!!**: Dance with at least 5 other people while you're all in World 4 town! → +2% Arcade balls/hr (Type '/dance' in chat to do a little jig.)
 - **Hibernating Gamer**: Glaim 110,000 hours of AFK time. Jeez, thats like an entire year of all characters idling to the max. → 100 Gem , 1 '72hr time candy'
