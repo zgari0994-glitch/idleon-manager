@@ -193,13 +193,14 @@ def greens_step():
     def p(x):
         try: return float(str(x['cur']).rstrip('%'))
         except Exception: return -1
-    rows = [i for i in items if 'Collect' not in i['label'] and 'Timegated' not in i['group'] and 'Endangered' not in i['group']]
-    WHERE = {'Arctic Leaf': 'W3 crystal mobs (Crystal Cattle, any W3 fighting map)', 'Potent Mana Potion': 'W4 crystal mobs, any W4 fighting map (my read from AutoReview grouping)',
-             'Average Strength Potion': 'W1 crystal mobs (Crystal Carrot, any W1 fighting map; my read from AutoReview grouping)',
-             'Dune Soul': 'W2 worship souls, stop spending them', 'Frigid Soul': 'W3 worship souls'}
-    sub = [f"{i['label']} ({p(i):.0f}%): {WHERE.get(i['label'], i['tab'])}" for i in sorted(rows, key=p, reverse=True)[:5]]
-    sub.append('Fastest for crystal drops: card preset 6 (Crystal hunt) on a Royal Guardian with the Chocolatey Chip (Pulse, Griffy)')
-    return {'do': 'Greenstacks: closest five, farm these', 'why': 'each one counts for Equinox', 'sub': sub}
+    # Zack 2026-11-20: only items Totle can work toward himself. Out: crystal drops, shop buys (time gated),
+    # souls (need the worship runner), rare/boss/colosseum/quest drops.
+    OK = {'Base Monster Materials': 'farm the monster', 'Printable Skilling Resources': 'skill it (or print it)', 'Other Skilling Resources': 'skill it'}
+    rows = [i for i in items if i['tab'] in OK and 'Collect' not in i['label'] and 'Timegated' not in i['group']
+            and 'Endangered' not in i['group'] and 'Soul' not in i['label']]
+    HOW = {'Void Bar': 'smelt in the Forge', 'Godshard Bar': 'smelt in the Forge'}
+    sub = [f"{i['label']} ({p(i):.0f}%): {HOW.get(i['label'], OK[i['tab']])}" for i in sorted(rows, key=p, reverse=True)[:5]]
+    return {'do': 'Greenstacks: your closest five you can farm yourself', 'why': 'each one counts for Equinox', 'sub': sub}
 
 LEGEND_ORDER = [  # every line sourced: Griffy first, Pulse 2026-09-25 tier list (newest wins on conflict)
     ('Daily Shopping Spree', 'Pulse: S tier, Royal Guardian is only pushable with it. Griffy: finish RG upgrades first'),
