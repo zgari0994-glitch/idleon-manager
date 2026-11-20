@@ -75,7 +75,7 @@ def goal_card():
     return out
 
 # ---------------- step transform ----------------
-CREATOR = re.compile(r'^(?:[\w+&\' /-]{1,40}: )?(Griffy|Pulse|Nocturne|AutoReview|Next goal|older|Coming up)\b', re.I)
+CREATOR = re.compile(r'^(?:[\w+&\' /-]{1,40}: )?(Griffy|Pulse|Nocturne|AutoReview|Next goal|older|Coming up|HOW|WHY)\b', re.I)
 VERB = re.compile(r'^(TOP: )?(Buy|Spend|Collect|Use|Take|Leave|Put|Get|Level|Move|Swap|Switch|Push|Place|Hold|Unlock|Claim|Turn|Equip|Run|Set|Feed|Craft|Upgrade|Do|Make|Check|Vote|Park|Farm|Kill|Open|Replant|Send|Spin|Roll|Raise|Max|Finish|Add|Start|Cook|Breed|Deposit|Trade|Keep|Read|Clear|Fill|Go|Rotate|Plant|Harvest|Bring|Skip|Save|Stop|Don\'t|Do not|Focus|Pick|Time|Grind|Defeat|Beat|Reset|Restart|Activate|Discover|Summon|Drop|Sell|Refine|Transmute|Meditate|Link|Assign|Fix)\b', re.I)
 DROPBLK = ('Levers for other jobs', 'Every character: Combat level', 'Timers ready', 'Super CHOWs', 'Traps')
 WHY = {  # short plain why per system (my wording; the facts behind are on the planner pages)
@@ -101,15 +101,32 @@ def first_sentence(s):
     p = re.split(r'(?<=[a-z0-9)])\. (?=[A-Z])', s, maxsplit=1)
     return p[0].rstrip('.'), (p[1].rstrip('.') if len(p) > 1 else '')
 
+STATUS = re.compile(r'^(\d[\d,.]* \w+ so far|Combat Lv|Worship level \d+, charge|Prayers on:|Equipped:)', re.I)
+
+def _goal_line(s):
+    m = re.match(r'^(?:[\w+&\' /-]{1,40}: )?Next goal: (.+?) ([\d.,]+[KMBT]?%?) -> ([\d.,∞]+[KMBT]?%?)$', s.strip())
+    if m and m.group(3) != '∞': return f"Push {m.group(1).strip()} to {m.group(3)} (now {m.group(2)})"
+    return None
+
 def to_step(block, owner=''):
+    """Zack 2026-11-20: never hide work. Keep every planner line that isn't a creator quote; 'nothing needed' only when none."""
     name = re.sub(r'^Every character: ', '', block['block'])
-    acts = [s for s in block.get('steps', []) if isinstance(s, str) and not CREATOR.match(s) and VERB.match(s)
-            and not any(o in s for o in OTHERS.get(owner, ()))]
-    if not acts:
+    lines = []
+    for s in block.get('steps', []):
+        if not isinstance(s, str) or not s.strip(): continue
+        if any(o in s for o in OTHERS.get(owner, ())) and VERB.match(s): continue   # someone else's action
+        g = _goal_line(s)
+        if g: lines.append(g); continue
+        if CREATOR.match(s): continue
+        lines.append(s.strip())
+    if not lines:
         return {'do': f"{name}: nothing needed", 'why': '', 'sub': []}
-    main, why = first_sentence(acts[0])
-    sub = [first_sentence(a)[0] for a in acts[1:5]]
-    return {'do': f"{name}: {main[0].lower() + main[1:] if main[:1].isupper() and not main.split()[0].isupper() else main}", 'why': why or why_for(name), 'sub': sub}
+    acts = [l for l in lines if VERB.match(l) or l.startswith('Push ')]
+    mainl = acts[0] if acts else next((l for l in lines if not STATUS.match(l)), lines[0])
+    main, why = first_sentence(mainl)
+    sub = [first_sentence(l)[0] for l in lines if l is not mainl][:5]
+    if main[:1].isupper() and not main.split()[0].isupper(): main = main[0].lower() + main[1:]
+    return {'do': f"{name}: {main}", 'why': why or why_for(name), 'sub': sub}
 
 OTHERS = {n: tuple(f'({o})' for o in chars if o != n) for n in chars}
 
