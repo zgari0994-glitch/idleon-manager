@@ -307,6 +307,13 @@ def build():
                 sub = [f"{mob} at {mp}: {short(rem)} kills left" for (mob, mp), (rem, cur) in m[kind]['next']]
                 daily.append({'do': f"{kind}s: {h[0]} of {h[1]} done. Closest:" if h else f"{kind}s closest:", 'why': {'Super CHOW': 'only his own kills count, account buff tier', 'WOW': 'his WOW count feeds the golden food bonus', 'ZOW': 'counted on your best Barbarian (him)', 'CHOW': 'counted on your best Barbarian (him)'}[kind], 'sub': sub})
         # housekeeping
+        try:
+            import supertalents as _ST
+            if '_STO' not in globals(): globals()['_STO'] = _ST.build()
+            st = _ST.char_step(_STO, n)
+            if st and not st['do'].endswith('nothing needed'): house.append(st)
+        except Exception as ex:
+            house.append({'do': f'Super talents: check failed ({ex})', 'why': '', 'sub': []})
         for bag in cd.get('bags') or []:
             house.append({'do': f"Missing bag: {bag}", 'why': '', 'sub': []})
         tal = (cd.get('talents') or {}).get('Skilling High') or []
