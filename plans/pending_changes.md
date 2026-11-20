@@ -239,3 +239,18 @@ Build all of these as one design change, not as patches. Each line was approved 
 4. Autistronaut: plan for him taking over the Arcane Cultist buffs (anything similar), since he'll need to cover them when the switch happens. Find what the AC currently provides and which of it Naut can cover.
 5. Account goals (discuss first, Zack 2026-11-20): one concrete account goal at a time with a measurable finish line (example: "unlock the next caged fish at ~900K Spelunking Power so coral farming opens"). Everyone works out how to hit it fastest; characters who can help get their part as a number (do it / raise the rate / unlock a prereq). NOT tunnel vision: dailies stay full. Breeding, farming, shops, boss battles, every job still gets checked every day.
 6. Divinity is being skipped: no gods, no minor links on the cards today. Every system's job has to show up and be checked daily.
+
+## Agreed spec: account goals + cards (Zack 2026-11-20 09:11)
+Goals
+- One account goal for everyone, measurable, from data + creators vs this account (AutoReview, rinse); Zack adds/changes/approves, final say.
+- Pattern: top need (e.g. Spelunking) -> the perk/unlock to push (e.g. at 900K Power a +75% eff/power perk) -> finish line checked against a source BEFORE it goes live.
+- Lever map: every buff/bonus that moves the number, cross-mapped, re-checked every card build. No source = don't say it ("am I making this up?").
+- Characters who can't meaningfully help get a side goal that still helps the account, with a stated reason why it beats helping the main goal.
+- Assigned jobs can be broken for pushes (e.g. everyone on monuments in monument/divinity week) when it's the most efficient.
+- When the goal is hit: re-check what holds the account back most; next goal (same system if it's still the blocker).
+- Big goals are fine if real and measurable; avoid month-long waits on one goal. Whatever improves the account MOST (burst days and focus weeks both).
+Card layout (per character)
+1. Dailies: same order every day, every system they support listed every day even if "nothing needed". Short why per item (no calcs/percent).
+2. Housekeeping: missing bag, PO box points, next S-tier library checkout, max checkout talent, etc.
+3. Park: where + why. Goal pushes change active/AFK play, not the dailies.
+History: keep every card set by save (plans/<save>.md) and cross-check progression over time.
