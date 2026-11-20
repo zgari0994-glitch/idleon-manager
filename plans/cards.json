@@ -27,6 +27,21 @@
     "size": "1.3x"
    },
    {
+    "who": "Autistomatic",
+    "do": "Spelunk shop: Learning the POW to level 14 (285 amber, have 173)",
+    "size": "+8%"
+   },
+   {
+    "who": "Autistomatic",
+    "do": "Spelunk shop: Discovering the POW to level 6 (307 amber, have 173)",
+    "size": "+9%"
+   },
+   {
+    "who": "everyone",
+    "do": "Spelunking levels: every level on anyone adds 13 base POW (Learning the POW), about +0.4% each. This is why most characters park on Spelunking",
+    "size": "+0.4%/lv"
+   },
+   {
     "who": "Autistachio",
     "do": "Dancing Coral: buy Vibrant Coral (100, have 17.3K). Then Isaccian Shrine above 200 gives +5% POW per level (Autistastic, shrine at 122)",
     "size": "+5%/lv"
@@ -1332,7 +1347,18 @@
      ]
     }
    ],
-   "part": [],
+   "part": [
+    {
+     "do": "Spelunk shop: Learning the POW to level 14 (285 amber, have 173)",
+     "why": "account goal",
+     "sub": []
+    },
+    {
+     "do": "Spelunk shop: Discovering the POW to level 6 (307 amber, have 173)",
+     "why": "account goal",
+     "sub": []
+    }
+   ],
    "park": "Spelunking: the furthest Spelunking cave they can AFK in (Autistomatic is in Fearful Tunnel), card preset 5. Why: Pulse (Oct 31) puts both Royal Guardians on Spelunking (Pit of Pages, fixed Nov 10); every Spelunking level adds base POW"
   },
   {

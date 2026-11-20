@@ -63,8 +63,9 @@ def goal_card():
     out['levers'].append({'who': 'Autistocat', 'do': "Jelly Operator: reach Jellofish Fields (1B Pirate Underling portal kills, she has 3.1M at about 1.1M an hour, so about 5 weeks; then 60M Eggroll). Speed it up with Thanatos's Teachings (legend talent, Griffy) and Kill per Kill weeks. Then clear obstructions to Morning Glory: 1.30x POW", 'size': '1.3x'})
     # Amber shop
     for k, gain in (('Learning the POW', '+8%'), ('Discovering the POW', '+9%')):
-        mm = re.search(re.escape(k) + r'\nLv (\d+)\n[\s\S]{0,400}?\n([\d,.]+[KMB]?)\n/\n([\d,.]+[KMB]?)\n', sp)
+        mm = re.search(re.escape(k) + r'\nLv (\d+) / [\d,]+\n[\s\S]{0,400}?\n([\d,.]+[KMB]?)\n/\n([\d,.]+[KMB]?)\n', sp)
         if mm: out['levers'].append({'who': 'Autistomatic', 'do': f"Spelunk shop: {k} to level {int(mm.group(1)) + 1} ({mm.group(3)} amber, have {mm.group(2)})", 'size': gain})
+    out['levers'].append({'who': 'everyone', 'do': 'Spelunking levels: every level on anyone adds 13 base POW (Learning the POW), about +0.4% each. This is why most characters park on Spelunking', 'size': '+0.4%/lv'})
     # Dancing coral
     rf = tbtext('reef', 'Dancing Coral')
     vc = re.search(r'Vibrant Coral[\s\S]*?Isaccian Shrine LV\n(\d+)[\s\S]*?\n([\d.,]+[KMB]?)\n/\n([\d.,]+[KMB]?)', rf)
