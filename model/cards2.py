@@ -1,0 +1,344 @@
+"""Cards v3 (Zack 2026-11-20): Goal card, then per character Dailies / Housekeeping / Goal part / Park.
+Each step: one line, short why, nested a/b/c. No info dumps. Every line comes from planner output, the save or
+Toolbox; anything not sourced says "needs checking". Builds on plans/latest.json (run plan.py first).
+Run from the AutoReview folder: PYTHONPATH=.:<repo>/model python3 <repo>/model/cards2.py
+Writes plans/cards_<save>.md, plans/cards.json, dashboard/cards.html.
+"""
+import gzip, json, re, html
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+SNAPN = (ROOT / 'snapshots' / 'LATEST').read_text().strip()
+SNAP = ROOT / 'snapshots' / SNAPN
+TB = SNAP / 'toolbox'
+J = lambda v: json.loads(v) if isinstance(v, str) else v
+plan = json.load(open(ROOT / 'plans' / 'latest.json'))
+CARDS = plan['cards'] if 'cards' in plan else plan
+raw = json.load(gzip.open(SNAP / 'raw.json.gz')); raw = raw.get('data', raw)
+chars = {c['character_name']: c for c in json.load(open(SNAP / 'chars.json'))['characters']}
+
+def tbtext(page, tab=None):
+    try:
+        o = json.load(open(TB / f'{page}.json'))
+        tabs = o['tabs']
+        return tabs[tab]['text'] if tab else '\n'.join(t['text'] for t in tabs.values())
+    except Exception:
+        return ''
+
+def num(s):
+    s = str(s).replace(',', '').strip()
+    m = re.match(r'([\d.]+)\s*([KMBT]|QQ|Q)?', s)
+    if not m: return None
+    mult = {'K': 1e3, 'M': 1e6, 'B': 1e9, 'T': 1e12, 'Q': 1e15, 'QQ': 1e18}.get(m.group(2) or '', 1)
+    return float(m.group(1)) * mult
+
+def short(n):
+    for v, s in ((1e12, 'T'), (1e9, 'B'), (1e6, 'M'), (1e3, 'K')):
+        if n >= v: return f"{n / v:.3g}{s}"
+    return f"{n:.0f}"
+
+# ---------------- GOAL ----------------
+GOAL = {'name': 'Spelunking POW 900K', 'target': 900_000,
+        'why': 'Frees the Pillar Coral fish (Seaweed Street cage), a new coral type. Spelunking is the biggest blocker.',
+        'src': 'idleon.wiki Coral Reef (cage POW list); Zack approved 2026-11-20'}
+
+def goal_card():
+    sp = tbtext('spelunking', 'Upgrades')
+    m = re.search(r'\nPower\n([\d,.]+)', sp)
+    now = num(m.group(1)) if m else None
+    out = {'name': GOAL['name'], 'why': GOAL['why'], 'now': now, 'target': GOAL['target'], 'prereqs': [], 'levers': [], 'unknown': []}
+    # Sushi: Live Octopus 3x POW; fuel cap vs next unlock; Research 28 gate
+    su = tbtext('sushi', 'Sushi')
+    cap = re.search(r'Fuel\n[\d,]+ / ([\d,]+)\n', su); nxt = re.search(r'Next unlock\n([^\n(]+)\(([\d,]+) fuel\)', su)
+    uniq = re.search(r'Unique sushi\n(\d+)', su)
+    best_research = max((c['skills'].get('Research') or 0) for c in chars.values())
+    if cap and nxt and num(cap.group(1)) < num(nxt.group(2)):
+        out['prereqs'].append({'who': 'Autisticles', 'do': f"Raise sushi fuel cap to {nxt.group(2)} so {nxt.group(1).strip()} can cook (cap is {cap.group(1)})"})
+    if best_research < 28:
+        out['prereqs'].append({'who': 'Autistotle', 'do': f"Research level 28 on anyone (best is {best_research}). Unlocks Fuel Capacity II for sushi"})
+    out['levers'].append({'who': 'Autisticles', 'do': f"Sushi: cook up to Live Octopus (sushi 21, you have {uniq.group(1) if uniq else '?'}). Gives 3x POW", 'size': '3x'})
+    # Jelly
+    je = tbtext('jelly', 'Layout')
+    ob = re.search(r'Obstructions removed\n(\d+)\n(\d+)', je)
+    out['levers'].append({'who': 'Autiszemo', 'do': "Jelly Operator: reach the Jellofish Fields map (he's pushing W7 for his ZOWs), then clear obstructions to Morning Glory. Gives 1.30x POW", 'size': '1.3x'})
+    # Amber shop
+    for k, gain in (('Learning the POW', '+8%'), ('Discovering the POW', '+9%')):
+        mm = re.search(re.escape(k) + r'\nLv (\d+)\n[\s\S]{0,400}?\n([\d,.]+[KMB]?)\n/\n([\d,.]+[KMB]?)\n', sp)
+        if mm: out['levers'].append({'who': 'Autistomatic', 'do': f"Spelunk shop: {k} to level {int(mm.group(1)) + 1} ({mm.group(3)} amber, have {mm.group(2)})", 'size': gain})
+    # Dancing coral
+    rf = tbtext('reef', 'Dancing Coral')
+    vc = re.search(r'Vibrant Coral[\s\S]*?Isaccian Shrine LV\n(\d+)[\s\S]*?\n([\d.,]+[KMB]?)\n/\n([\d.,]+[KMB]?)', rf)
+    if vc: out['levers'].append({'who': 'Autistachio', 'do': f"Dancing Coral: buy Vibrant Coral ({vc.group(3)}, have {vc.group(2)}). Then Isaccian Shrine above 200 gives +5% POW per level (Autistastic, shrine at {vc.group(1)})", 'size': '+5%/lv'})
+    cl = tbtext('clam', 'Compensations'); wc = re.search(r'Worker class\nLv (\d+)', cl)
+    out['levers'].append({'who': 'Autisticles', 'do': f"Clam Work: worker class 12 gives 2x POW (now {wc.group(1) if wc else '?'}). Long term", 'size': '2x'})
+    out['unknown'] = ['Divinity sweep (right god + style per character)', 'Lab jewel and chip check', 'Ballot votes', 'Park spots marked needs checking', 'Spelunk tools (+% total POW)', 'Research grid daily POW boost', 'POW elixirs (need pages)', 'Sushi fuel costs past the next one']
+    return out
+
+# ---------------- step transform ----------------
+CREATOR = re.compile(r'^(?:[\w+&\' /-]{1,40}: )?(Griffy|Pulse|Nocturne|AutoReview|Next goal|older|Coming up)\b', re.I)
+VERB = re.compile(r'^(TOP: )?(Buy|Spend|Collect|Use|Take|Leave|Put|Get|Level|Move|Swap|Switch|Push|Place|Hold|Unlock|Claim|Turn|Equip|Run|Set|Feed|Craft|Upgrade|Do|Make|Check|Vote|Park|Farm|Kill|Open|Replant|Send|Spin|Roll|Raise|Max|Finish|Add|Start|Cook|Breed|Deposit|Trade|Keep|Read|Clear|Fill|Go|Rotate|Plant|Harvest|Bring|Skip|Save|Stop|Don\'t|Do not|Focus|Pick|Time|Grind|Defeat|Beat|Reset|Restart|Activate|Discover|Summon|Drop|Sell|Refine|Transmute|Meditate|Link|Assign|Fix)\b', re.I)
+DROPBLK = ('Levers for other jobs', 'Every character: Combat level', 'Timers ready', 'Super CHOWs', 'Traps')
+WHY = {  # short plain why per system (my wording; the facts behind are on the planner pages)
+    'Farming': 'crops feed discovery, cooking and shiny rate', 'Cooking': 'meals are account-wide buffs',
+    'Grimoire': 'bone upgrades are account buffs', 'prints': 'prints feed resources while you sleep',
+    'Emperor': 'daily attempts, bonuses stack', 'Prayers': 'wrong prayers cost gains', 'Worship': 'charge and souls keep worship moving',
+    'Sailing': 'artifacts and treasure', 'Alchemy': 'bubbles and vials are account-wide', 'Breeding': 'pets and shinies',
+    'Divinity': 'divinity points drive talent levels and class EXP', 'Lab': 'lab bonuses only work when connected',
+    'Construction': 'build rate and atoms', 'Statue': 'statues are account buffs', 'Stamps': 'stamps are account buffs',
+    'Greenstacks': 'greenstacks count for Equinox', 'Post Office': 'box points are permanent stats', 'Sneaking': 'jade and stealth',
+    'Summoning': 'winner bonuses are big multipliers', 'Spelunking': 'Spelunking is the account goal', 'Trapping': 'critters for vials',
+    'Gaming': 'bits and nuggets', 'Compass': 'portals and dust', 'Equinox': 'bar fills cloud bonuses', 'Kilroy': 'weekly',
+    'Gallery': 'trophies and nametags for everyone', 'W7 minis': 'minis feed the goal', 'Research': 'research unlocks W7 upgrades',
+}
+
+def why_for(block):
+    for k, v in WHY.items():
+        if k.lower() in block.lower(): return v
+    return ''
+
+def first_sentence(s):
+    s = re.sub(r'^TOP: ', '', s.strip())
+    p = re.split(r'(?<=[a-z0-9)])\. (?=[A-Z])', s, maxsplit=1)
+    return p[0].rstrip('.'), (p[1].rstrip('.') if len(p) > 1 else '')
+
+def to_step(block, owner=''):
+    name = re.sub(r'^Every character: ', '', block['block'])
+    acts = [s for s in block.get('steps', []) if isinstance(s, str) and not CREATOR.match(s) and VERB.match(s)
+            and not any(o in s for o in OTHERS.get(owner, ()))]
+    if not acts:
+        return {'do': f"{name}: nothing needed", 'why': '', 'sub': []}
+    main, why = first_sentence(acts[0])
+    sub = [first_sentence(a)[0] for a in acts[1:5]]
+    return {'do': f"{name}: {main[0].lower() + main[1:] if main[:1].isupper() and not main.split()[0].isupper() else main}", 'why': why or why_for(name), 'sub': sub}
+
+OTHERS = {n: tuple(f'({o})' for o in chars if o != n) for n in chars}
+
+def dancing_step():
+    rf = tbtext('reef', 'Dancing Coral'); buy = []
+    for m in re.finditer(r'\n(\w+ Coral)\n\+100 max LV for ([\w ]+?)\n[\s\S]*?\n([\d.,]+[KMB]?)\n/\n([\d.,]+[KMB]?)(?=\n)(\nneed)?', rf):
+        if not m.group(5) and (num(m.group(3)) or 0) >= (num(m.group(4)) or 1): buy.append(f"{m.group(1)} ({m.group(4)}): +100 max level {m.group(2)}")
+    if not buy: return {'do': 'Dancing Coral: nothing to buy yet', 'why': '', 'sub': []}
+    return {'do': 'Dancing Coral (Barnacle Curb, right side platform): buy these', 'why': 'raises shrine caps, Vibrant Coral feeds the POW goal', 'sub': buy}
+
+def weeklies():
+    out = []
+    for tab, label in (('Bonus', 'Bonus Ballot (W2)'), ('Meritocracy', 'Meritocracy (W7)')):
+        tt = tbtext('ballot', tab)
+        nxt = re.search(r'Next week in\n([^\n]+)', tt); now = re.search(r'Hide off-rotation\n([^\n]+)', tt)
+        if now: out.append(f"{label}: {now.group(1).strip()} (next vote in {nxt.group(1) if nxt else '?'})")
+    return out
+
+def here(name):
+    try:
+        import cardpresets as C
+        return C.afk_type(raw.get(f"AFKtarget_{chars[name]['character_index']}"))[0]
+    except Exception:
+        return '?'
+
+def sushi_step():
+    su = tbtext('sushi', 'Sushi'); bo = tbtext('sushi', 'Bonuses')
+    cap = re.search(r'Fuel\n[\d,]+ / ([\d,]+)\n', su); nxt = re.search(r'Next unlock\n([^\n(]+)\(([\d,]+) fuel\)', su)
+    sub = []
+    if cap and nxt and num(cap.group(1)) < num(nxt.group(2)):
+        sub.append(f"Fuel Capacity I until max fuel reaches {nxt.group(2)} (now {cap.group(1)}), so {nxt.group(1).strip()} can cook")
+    sub += ['Then Fastburn Fuel I and II (fuel per hour)', 'Then Hourly Wage Meter and Customer Surcharge I (more bucks)']
+    return {'do': 'Sushi: spend bucks in this order', 'why': 'new sushi types give bonuses, Live Octopus is 3x POW for the goal', 'sub': sub}
+
+def greens_step():
+    try:
+        import tbhelp as T
+        tier, items = T.ar_items('Greenstacks')
+    except Exception:
+        return None
+    def p(x):
+        try: return float(str(x['cur']).rstrip('%'))
+        except Exception: return -1
+    rows = [i for i in items if 'Collect' not in i['label'] and 'Timegated' not in i['group'] and 'Endangered' not in i['group']]
+    sub = [f"{i['label']} ({p(i):.0f}%): {i['tab']}" for i in sorted(rows, key=p, reverse=True)[:5]]
+    return {'do': 'Greenstacks: closest five, farm these', 'why': 'each one counts for Equinox', 'sub': sub}
+
+# ---------------- every-character checks ----------------
+TRAP_PLAN = {}
+for row in (ROOT / 'plans' / 'trapping.md').read_text().splitlines():
+    m = re.match(r'\| (Autis\w+) \| (\w+)[^|]*\| ([^|]+) \| ([^|]+) \|', row)
+    if m: TRAP_PLAN[m.group(1)] = (m.group(2), m.group(3).strip(), m.group(4).strip())
+CRIT = {'Critter1': 'Froge', 'Critter2': 'Crabbo', 'Critter3': 'Scorpie', 'Critter4': 'Mousey', 'Critter5': 'Owlio', 'Critter6': 'Pingy',
+        'Critter7': 'Bunny', 'Critter8': 'Dung Beat', 'Critter9': 'Honker', 'Critter10': 'Blobfish', 'Critter11': 'Tuttle'}
+
+def trap_line(name):
+    i = chars[name]['character_index']
+    traps = [t for t in (J(raw.get(f'PldTraps_{i}')) or []) if isinstance(t, list) and len(t) > 6 and t[0] != -1]
+    plan_c = TRAP_PLAN.get(name)
+    if not plan_c: return {'do': 'Traps: nothing needed', 'why': '', 'sub': []}
+    want, where, why = plan_c
+    on = sorted({CRIT.get(t[3], t[3]) for t in traps})
+    short_t = sum(1 for t in traps if (t[6] or 0) < 144000)
+    if on == [want] and not short_t:
+        return {'do': 'Traps: nothing needed', 'why': '', 'sub': []}
+    sub = [f"Now on {', '.join(on) or 'nothing'}"] + ([f"{short_t} traps on a short timer, use 40 hours"] if short_t else [])
+    return {'do': f"Traps: move all to {want} at {where}, Royal traps, 40 hours", 'why': why, 'sub': sub}
+
+DIV = json.load(open(ROOT / 'model' / 'divinity.json')) if (ROOT / 'model' / 'divinity.json').exists() else {}
+
+def divinity_line(name):
+    link = (DIV.get('links') or {}).get(name, '?')
+    style = next((s for s, v in (DIV.get('styles') or {}).items() if name in v.get('used_by', [])), '?')
+    pts = (DIV.get('head') or {}).get('Divinity PTS/hr', '')
+    sub = [f"Linked to {link}, style {style}"]
+    if pts.startswith('0'):
+        return {'do': 'Divinity: needs the divinity sweep (right god and style)', 'why': 'account divinity points are 0 an hour right now', 'sub': sub}
+    return {'do': 'Divinity: nothing needed', 'why': '', 'sub': sub}
+
+try:
+    import cardpresets as _CP
+    _CPO = json.load(open(ROOT / 'model' / 'cardpresets.json'))
+except Exception:
+    _CP = None
+
+def cards_line(name):
+    if not _CP: return None
+    l = _CP.char_lines(_CPO, name)
+    return {'do': l[0] if l else 'Cards: nothing needed', 'why': '', 'sub': []}
+
+# ---------------- kill milestones (Topher / Zemo) ----------------
+def milestones():
+    r = json.loads(gzip.open(SNAP / 'review.json.gz').read())
+    out = {}
+    def walk(o, g=''):
+        if isinstance(o, dict):
+            nm = o.get('name') if isinstance(o.get('name'), str) else g
+            if 'label' in o and 'remaining)' in str(o['label']): out.setdefault(nm, []).append(o)
+            for v in o.values(): walk(v, nm)
+        elif isinstance(o, list):
+            for v in o: walk(v, g)
+    walk(r)
+    try:
+        from consts.consts_w3 import getEnemyNameFromMap as N
+    except Exception:
+        N = lambda m: ''
+    res = {}
+    for g, items in out.items():
+        kind = next((k for k in ('Super CHOW', 'WOW', 'CHOW', 'ZOW') if k + 's with' in g or k + ' ' in g), None)
+        who = re.search(r'with (Autis\w+)', g)
+        if not kind or not who: continue
+        rows = {}
+        for a in items:
+            m = re.match(r'(.+?) in (.+?) \(([\d.,]+[KMB]?) remaining\)', a['label'])
+            if m and str(N(m.group(2))).startswith('Special') and 'AFK only' not in str(N(m.group(2))): continue
+            if m: rows[(m.group(1), m.group(2))] = (num(m.group(3)), a.get('cur'))
+        cnt = re.search(r'\((\d+)/(\d+)\)', g)
+        res.setdefault(who.group(1), {})[kind] = {'have': cnt.groups() if cnt else None,
+                                                  'next': sorted(rows.items(), key=lambda x: x[1][0])[:5]}
+    return res
+
+# ---------------- build ----------------
+def build():
+    goal = goal_card()
+    goal['weekly'] = weeklies()
+    ms = milestones()
+    goal['weekly'] = weeklies()
+    out = {'save': SNAPN, 'goal': goal, 'chars': []}
+    for cd in sorted(CARDS, key=lambda c: c['slot']):
+        n = cd['name']
+        daily, house, part = [], [], []
+        for b in cd.get('daily', []):
+            if (any(b['block'].startswith(x) for x in DROPBLK) and b['block'] != 'Trapping (collect + set)') or b['block'] == 'Setup check': continue
+            if b['block'].startswith('W7 reef'):
+                daily.append(dancing_step()); continue
+            if 'Post Office' in b['block']:
+                for s in b.get('steps', []):
+                    if VERB.match(s): house.append({'do': first_sentence(s)[0], 'why': 'box points are permanent stats', 'sub': []})
+                continue
+            if 'ZOWs + CHOWs' in b['block']: continue   # replaced by the milestone step below
+            daily.append(to_step(b, n))
+        if n == 'Autisticles': daily.append(sushi_step())
+        if n == 'Autistotle':
+            gs = greens_step()
+            if gs: daily.append(gs)
+        if n == 'Autistachio' and any('Monument' in w for w in goal.get('weekly', [])):
+            daily.insert(0, {'do': 'Monument week: claim and restart Bravery and Wisdom monuments, keep him parked there', 'why': 'Meritocracy is 4x monument rewards this week', 'sub': []})
+        # every-character checks, always shown
+        for f in (cards_line, trap_line, divinity_line):
+            x = f(n)
+            if x: daily.append(x)
+        # kill milestones
+        m = ms.get(n, {})
+        for kind in ('Super CHOW', 'WOW', 'ZOW', 'CHOW'):
+            if kind in m and m[kind]['next']:
+                h = m[kind]['have']
+                sub = [f"{mob} at {mp}: {short(rem)} kills left" for (mob, mp), (rem, cur) in m[kind]['next']]
+                daily.append({'do': f"{kind}s: {h[0]} of {h[1]} done. Closest:" if h else f"{kind}s closest:", 'why': {'Super CHOW': 'only his own kills count, account buff tier', 'WOW': 'his WOW count feeds the golden food bonus', 'ZOW': 'counted on your best Barbarian (him)', 'CHOW': 'counted on your best Barbarian (him)'}[kind], 'sub': sub})
+        # housekeeping
+        for bag in cd.get('bags') or []:
+            house.append({'do': f"Missing bag: {bag}", 'why': '', 'sub': []})
+        tal = (cd.get('talents') or {}).get('Skilling High') or []
+        if tal:
+            house.append({'do': f"Library: next checkout {tal[0].split(' ')[0]} {' '.join(tal[0].split(' ')[1:-1])}".strip(), 'why': 'book levels past this need the Library', 'sub': [t for t in tal[1:3]]})
+        # goal part
+        for lv in goal['levers'] + goal['prereqs']:
+            if lv['who'] == n: part.append({'do': lv['do'], 'why': 'account goal', 'sub': []})
+        park = cd.get('park', {}).get('text', '')
+        if n == 'Autiszemo' and 'ZOW' in m and m['ZOW']['next']:
+            pick = m['ZOW']['next'][3][0] if len(m['ZOW']['next']) > 3 else m['ZOW']['next'][0][0]
+            park = (f"W7 {pick[1]} ({pick[0]}) for his ZOW, card preset 1. Pushing W7 also gets him toward Jellofish Fields. "
+                    "Autistopher keeps the Dedotated Ram kills")
+        if 'GAP' in park:
+            park = f"Stay at {here(n)} for now (no park plan yet, needs checking)"
+        out['chars'].append({'name': n, 'class': cd.get('class'), 'daily': daily, 'house': house, 'part': part, 'park': park})
+    return out
+
+def to_md(o):
+    g = o['goal']; L = [f"# Cards (save {o['save']})", '', f"## ACCOUNT GOAL: {g['name']}" + (f" (now {short(g['now'])})" if g['now'] else ''), g['why'], '']
+    if g['prereqs']:
+        L.append('Prereqs:'); L += [f"{i}. {p['do']} ({p['who']})" for i, p in enumerate(g['prereqs'], 1)]; L.append('')
+    L.append('Buffs that push it:'); L += [f"{i}. {p['do']} ({p['who']})" for i, p in enumerate(g['levers'], 1)]
+    if g.get('weekly'): L += ['', 'This week:'] + [f'- {w}' for w in g['weekly']]
+    L += ['', 'Needs checking: ' + ', '.join(g['unknown']), '']
+    for c in o['chars']:
+        L += [f"## {c['name']}", '', 'Dailies:']
+        for i, s in enumerate(c['daily'], 1):
+            L.append(f"{i}. {s['do']}" + (f" *({s['why']})*" if s['why'] else ''))
+            L += [f"   {chr(97 + j)}. {x}" for j, x in enumerate(s['sub'])]
+        if c['house']:
+            L.append('Housekeeping:')
+            for i, s in enumerate(c['house'], 1):
+                L.append(f"{i}. {s['do']}"); L += [f"   {chr(97 + j)}. {x}" for j, x in enumerate(s['sub'])]
+        if c['part']:
+            L.append('Goal part:'); L += [f"{i}. {s['do']}" for i, s in enumerate(c['part'], 1)]
+        L += [f"Park: {c['park']}", '']
+    return '\n'.join(L)
+
+def to_html(o):
+    e = html.escape
+    def steps(lst):
+        h = '<ol>'
+        for s in lst:
+            h += f"<li>{e(s['do'])}" + (f" <i>({e(s['why'])})</i>" if s.get('why') else '')
+            if s.get('sub'): h += '<ol type="a">' + ''.join(f'<li>{e(x)}</li>' for x in s['sub']) + '</ol>'
+            h += '</li>'
+        return h + '</ol>'
+    g = o['goal']
+    body = f"<section class=goal><h2>Account goal: {e(g['name'])}" + (f" <span>now {short(g['now'])}</span>" if g['now'] else '') + f"</h2><p>{e(g['why'])}</p>"
+    if g['prereqs']: body += '<h3>Prereqs</h3>' + steps([{'do': f"{p['do']} ({p['who']})"} for p in g['prereqs']])
+    body += '<h3>Buffs that push it</h3>' + steps([{'do': f"{p['do']} ({p['who']})"} for p in g['levers']])
+    if g.get('weekly'): body += '<h3>This week</h3>' + steps([{'do': w} for w in g['weekly']])
+    body += f"<p class=unk>Needs checking: {e(', '.join(g['unknown']))}</p></section>"
+    for c in o['chars']:
+        body += f"<details class=card><summary>{e(c['name'])} <small>{e(c['class'] or '')}</small></summary><h3>Dailies</h3>{steps(c['daily'])}"
+        if c['house']: body += '<h3>Housekeeping</h3>' + steps(c['house'])
+        if c['part']: body += '<h3>Goal part</h3>' + steps(c['part'])
+        body += f"<h3>Park</h3><p>{e(c['park'])}</p></details>"
+    css = ('body{font:15px/1.45 system-ui,sans-serif;margin:0;padding:12px;background:#111;color:#eee}h1{font-size:18px}'
+           'section,details{background:#1c1c1c;border-radius:10px;padding:10px 14px;margin:10px 0}summary{font-size:17px;font-weight:600;cursor:pointer}'
+           'h2{font-size:17px;margin:4px 0}h2 span{font-weight:400;color:#9cf}h3{font-size:14px;color:#9cf;margin:12px 0 4px}'
+           'ol{padding-left:22px;margin:4px 0}li{margin:3px 0}i{color:#aaa}small{color:#888;font-weight:400}.unk{color:#c96;font-size:13px}.goal{border:1px solid #357}')
+    return f"<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>IdleOn Manager</title><style>{css}</style></head><body><h1>IdleOn cards · save {e(o['save'])}</h1>{body}</body></html>"
+
+if __name__ == '__main__':
+    import plain as _PL
+    o = build()
+    o = _PL.clean(o) if hasattr(_PL, 'clean') else o
+    json.dump(o, open(ROOT / 'plans' / 'cards.json', 'w'), indent=1)
+    (ROOT / 'plans' / f'cards_{SNAPN}.md').write_text(to_md(o))
+    (ROOT / 'dashboard' / 'cards.html').write_text(to_html(o))
+    print('cards v3:', len(o['chars']), 'characters; goal now', o['goal']['now'])

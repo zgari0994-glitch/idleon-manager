@@ -1,0 +1,1286 @@
+{
+ "save": "20261120T0452",
+ "goal": {
+  "name": "Spelunking POW 900K",
+  "why": "Frees the Pillar Coral fish (Seaweed Street cage), a new coral type. Spelunking is the biggest blocker.",
+  "now": 373504.79,
+  "target": 900000,
+  "prereqs": [
+   {
+    "who": "Autisticles",
+    "do": "Raise sushi fuel cap to 13,963 so Beef Nigiri can cook (cap is 9,200)"
+   },
+   {
+    "who": "Autistotle",
+    "do": "Research level 28 on anyone (best is 27). Unlocks Fuel Capacity II for sushi"
+   }
+  ],
+  "levers": [
+   {
+    "who": "Autisticles",
+    "do": "Sushi: cook up to Live Octopus (sushi 21, you have 12). Gives 3x POW",
+    "size": "3x"
+   },
+   {
+    "who": "Autiszemo",
+    "do": "Jelly Operator: reach the Jellofish Fields map (he's pushing W7 for his ZOWs), then clear obstructions to Morning Glory. Gives 1.30x POW",
+    "size": "1.3x"
+   },
+   {
+    "who": "Autistachio",
+    "do": "Dancing Coral: buy Vibrant Coral (100, have 17.3K). Then Isaccian Shrine above 200 gives +5% POW per level (Autistastic, shrine at 122)",
+    "size": "+5%/lv"
+   },
+   {
+    "who": "Autisticles",
+    "do": "Clam Work: worker class 12 gives 2x POW (now 1). Long term",
+    "size": "2x"
+   }
+  ],
+  "unknown": [
+   "Divinity sweep (right god + style per character)",
+   "Lab jewel and chip check",
+   "Ballot votes",
+   "Park spots marked needs checking",
+   "Spelunk tools (+% total POW)",
+   "Research grid daily POW boost",
+   "POW elixirs (need pages)",
+   "Sushi fuel costs past the next one"
+  ],
+  "weekly": [
+   "Bonus Ballot (W2): Find +151.5% more Gold Nuggets when digging with the Shovel in Gaming (next vote in 3d 15h)",
+   "Meritocracy (W7): Multiplies your Monument Reward Multi by 4.00x (next vote in 6d 15h)"
+  ]
+ },
+ "chars": [
+  {
+   "name": "Autiszemo",
+   "class": "Death Bringer",
+   "daily": [
+    {
+     "do": "Farming: hold 200 or more of every crop you've found (10 of 140 so far)",
+     "why": "Each one raises the chance to discover new crops. Lock them before bean trades so a trade can't empty them (Griffy does this)",
+     "sub": [
+      "Spend 136 Land Rank points, Toolbox's optimizer puts them into the Evolution boosts",
+      "Collect all crops, replant"
+     ]
+    },
+    {
+     "do": "Cooking: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Grimoire + Wraith Form (bones): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Fish prints: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Emperor showdowns: use your 10 Emperor attempts and push past showdown 57",
+     "why": "Autiszemo goes, he hits hardest. Only reset and climb again if you really need a drop",
+     "sub": []
+    },
+    {
+     "do": "Prayers: take off Shiny Snitch, it only helps while trapping and it lowers shiny chance otherwise",
+     "why": "wrong prayers cost gains",
+     "sub": [
+      "Leave Royal Sampler on until print day"
+     ]
+    },
+    {
+     "do": "Worship: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Cards: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Traps: move all to Tuttle at W6 Spirited Valley, Bamboo Laboredge, Royal traps, 40 hours",
+     "why": "Turtle Tisane 0 -> 13",
+     "sub": [
+      "Now on Froge",
+      "8 traps on a short timer, use 40 hours"
+     ]
+    },
+    {
+     "do": "Divinity: needs the divinity sweep (right god and style)",
+     "why": "account divinity points are 0 an hour right now",
+     "sub": [
+      "Linked to Arctis, style TranQi"
+     ]
+    },
+    {
+     "do": "ZOWs: 94 of 108 done. Closest:",
+     "why": "counted on your best Barbarian (him)",
+     "sub": [
+      "Noble Clam at The Clamworks: 100K kills left",
+      "Spearfish at Pinpoint Summit: 100K kills left",
+      "Coralcave Guardian at Coralcave Perimeter: 100K kills left",
+      "Pirate Underling at Pirate Upper Deck: 100K kills left",
+      "Eggroll at Sushi Perimeter: 100K kills left"
+     ]
+    },
+    {
+     "do": "CHOWs: 93 of 108 done. Closest:",
+     "why": "counted on your best Barbarian (him)",
+     "sub": [
+      "Noble Clam at The Clamworks: 1M kills left",
+      "Spearfish at Pinpoint Summit: 1M kills left",
+      "Coralcave Guardian at Coralcave Perimeter: 1M kills left",
+      "Pirate Underling at Pirate Upper Deck: 1M kills left",
+      "Eggroll at Sushi Perimeter: 1M kills left"
+     ]
+    }
+   ],
+   "house": [
+    {
+     "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Library: next checkout Dank Ranks",
+     "why": "book levels past this need the Library",
+     "sub": [
+      "Overflowing Ladle 289/299",
+      "Worming Undercover 257/299"
+     ]
+    }
+   ],
+   "part": [
+    {
+     "do": "Jelly Operator: reach the Jellofish Fields map (he's pushing W7 for his ZOWs), then clear obstructions to Morning Glory. Gives 1.30x POW",
+     "why": "account goal",
+     "sub": []
+    }
+   ],
+   "park": "W7 Pirate Upper Deck (Pirate Underling) for his ZOW, card preset 1. Pushing W7 also gets him toward Jellofish Fields. Autistopher keeps the Dedotated Ram kills"
+  },
+  {
+   "name": "Autistocat",
+   "class": "Arcane Cultist",
+   "daily": [
+    {
+     "do": "Alchemy: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Lab: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Summoning: claim the familiar EXP (106M EXP, 5d 5h of it)",
+     "why": "winner bonuses are big multipliers",
+     "sub": []
+    },
+    {
+     "do": "Tesseract: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Kilroy (weekly, mage line): get 2,000 kills in one room to finish an Equinox challenge (best so far 1,296)",
+     "why": "weekly",
+     "sub": []
+    },
+    {
+     "do": "Unlock: Teal Summoning battles (Danny 9.75x DMG, Monty 1.59x artifact find...): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Prayers: take off Shiny Snitch, it only helps while trapping and it lowers shiny chance otherwise",
+     "why": "wrong prayers cost gains",
+     "sub": [
+      "Leave Royal Sampler on until print day"
+     ]
+    },
+    {
+     "do": "Active play setup: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Worship: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "3D Printer slots: SWAP print Bleach Logs -> Jungle Logs (sample 1.7B; Lil' Mining Baggy Stamp next max raise needs 884M (have 58.5M))",
+     "why": "Changing a print does not take a sample, so Gold Relic keeps its days",
+     "sub": []
+    },
+    {
+     "do": "Cards: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours",
+     "why": "Turtle Tisane",
+     "sub": [
+      "Now on Froge",
+      "8 traps on a short timer, use 40 hours"
+     ]
+    },
+    {
+     "do": "Divinity: needs the divinity sweep (right god and style)",
+     "why": "account divinity points are 0 an hour right now",
+     "sub": [
+      "Linked to Harriep, style TranQi"
+     ]
+    }
+   ],
+   "house": [
+    {
+     "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Library: next checkout Essential Essence",
+     "why": "book levels past this need the Library",
+     "sub": [
+      "Passion of the Summon 287/299",
+      "Log on Logs 189/299"
+     ]
+    }
+   ],
+   "part": [],
+   "park": "Stay at Pirate Underling for now (no park plan yet, needs checking)"
+  },
+  {
+   "name": "Autisticles",
+   "class": "Siege Breaker",
+   "daily": [
+    {
+     "do": "Sailing: claim chests every time you're on",
+     "why": "The pile holds 30 and fills in about 48 minutes, and every chest is an artifact roll",
+     "sub": [
+      "move 7 boats to the islands with the best odds for what's left to find:",
+      "Swap Captain F onto Boat 14 (Captain N goes to Boat 6)",
+      "Swap Captain I onto Boat 12 (Captain L goes to Boat 16)",
+      "Check in game that Autistocat is linked to Purrmep in Divinity (boat speed)"
+     ]
+    },
+    {
+     "do": "Bug prints: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Statue turn-ins (farmed by others): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Luminous Menagerie (own intervention): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "W7 minis: spend 15 Legend Talent points (keep Blue Ribbon and Extended Database on hold)",
+     "why": "minis feed the goal",
+     "sub": [
+      "Spend gold balls on Divinity EXP, Nugget Regen, W Ess gain, Multikill per Tier (152 gold balls)"
+     ]
+    },
+    {
+     "do": "Unlock: Jelly Operator / The Button: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Prayers: take off Shiny Snitch, it only helps while trapping and it lowers shiny chance otherwise",
+     "why": "wrong prayers cost gains",
+     "sub": [
+      "Leave Royal Sampler on until print day"
+     ]
+    },
+    {
+     "do": "Worship: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Sushi: spend bucks in this order",
+     "why": "new sushi types give bonuses, Live Octopus is 3x POW for the goal",
+     "sub": [
+      "Fuel Capacity I until max fuel reaches 13,963 (now 9,200), so Beef Nigiri can cook",
+      "Then Fastburn Fuel I and II (fuel per hour)",
+      "Then Hourly Wage Meter and Customer Surcharge I (more bucks)"
+     ]
+    },
+    {
+     "do": "Cards: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours",
+     "why": "Turtle Tisane",
+     "sub": [
+      "Now on Froge",
+      "8 traps on a short timer, use 40 hours"
+     ]
+    },
+    {
+     "do": "Divinity: needs the divinity sweep (right god and style)",
+     "why": "account divinity points are 0 an hour right now",
+     "sub": [
+      "Linked to Arctis, style TranQi"
+     ]
+    }
+   ],
+   "house": [
+    {
+     "do": "Missing bag: Rucksack Of Riches: 1 slots (Vendor)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Library: next checkout Elusive Efficiency",
+     "why": "book levels past this need the Library",
+     "sub": [
+      "Teleki-net-ic Logs 298/299",
+      "Briar Patch Runner 298/299"
+     ]
+    }
+   ],
+   "part": [
+    {
+     "do": "Sushi: cook up to Live Octopus (sushi 21, you have 12). Gives 3x POW",
+     "why": "account goal",
+     "sub": []
+    },
+    {
+     "do": "Clam Work: worker class 12 gives 2x POW (now 1). Long term",
+     "why": "account goal",
+     "sub": []
+    },
+    {
+     "do": "Raise sushi fuel cap to 13,963 so Beef Nigiri can cook (cap is 9,200)",
+     "why": "account goal",
+     "sub": []
+    }
+   ],
+   "park": "Stay at Coralcave Crab for now (no park plan yet, needs checking)"
+  },
+  {
+   "name": "Autistastic",
+   "class": "Royal Guardian",
+   "daily": [
+    {
+     "do": "Construction: keep the Spore Cap, Copper, Goldfish, Fly and Pocket Sand prints, they feed the salts",
+     "why": "build rate and atoms",
+     "sub": [
+      "buy Neon (28.9M particles, you have 88.9M)"
+     ]
+    },
+    {
+     "do": "Gaming: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Royal Guardian #1 (top unlock): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Islands: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Godshard set: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "World bosses + minibosses (DK drop rate): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Statue: Dragon (AFK golems): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Kilroy (weekly, warrior line): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Unlock: Royal Guardian x2: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Unlock: Isotope Discovery superbit (+10 atom max): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Prayers: take off Shiny Snitch, it only helps while trapping and it lowers shiny chance otherwise",
+     "why": "wrong prayers cost gains",
+     "sub": [
+      "Leave Royal Sampler on until print day"
+     ]
+    },
+    {
+     "do": "Worship: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "3D Printer slots: SWAP print Godshard Ore -> Void Ore (sample 70.4M; runs out in 6.9 days)",
+     "why": "Changing a print does not take a sample, so Gold Relic keeps its days",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 5 not built to plan yet (card build session).",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours",
+     "why": "Turtle Tisane",
+     "sub": [
+      "Now on Froge",
+      "8 traps on a short timer, use 40 hours"
+     ]
+    },
+    {
+     "do": "Divinity: needs the divinity sweep (right god and style)",
+     "why": "account divinity points are 0 an hour right now",
+     "sub": [
+      "Linked to Arctis, style TranQi"
+     ]
+    }
+   ],
+   "house": [
+    {
+     "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Library: next checkout Big Pick",
+     "why": "book levels past this need the Library",
+     "sub": [
+      "Brute Efficiency 269/299",
+      "Tool Proficiency 226/299"
+     ]
+    }
+   ],
+   "part": [],
+   "park": "Cavern 15 Temple (Ancient Golems): Dragon Statue 4 -> 150 + golem card"
+  },
+  {
+   "name": "Autistabish",
+   "class": "Elemental Sorcerer",
+   "daily": [
+    {
+     "do": "Top move (sourced): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Worship: souls (town): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Divinity: check in game whether Autistocat is linked to Purrmep (Toolbox and the save disagree)",
+     "why": "divinity points drive talent levels and class EXP",
+     "sub": []
+    },
+    {
+     "do": "The Hole (all 15 caverns + villagers): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Slab: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Statues: ES (Box, Seesaw): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Unlock: Cobaltine / Brunite / Freezium sediments: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Unlock: Cavern 16 Fountain: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Prayers: take off Shiny Snitch, it only helps while trapping and it lowers shiny chance otherwise",
+     "why": "wrong prayers cost gains",
+     "sub": [
+      "Leave Royal Sampler on until print day"
+     ]
+    },
+    {
+     "do": "Active play setup: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Worship: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "3D Printer slots: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Cards: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours",
+     "why": "Turtle Tisane",
+     "sub": [
+      "Now on Froge",
+      "8 traps on a short timer, use 40 hours"
+     ]
+    },
+    {
+     "do": "Divinity: needs the divinity sweep (right god and style)",
+     "why": "account divinity points are 0 an hour right now",
+     "sub": [
+      "Linked to Snehebatu, style TranQi"
+     ]
+    }
+   ],
+   "house": [
+    {
+     "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Missing bag: Rucksack Of Riches: 1 slots (Vendor)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Library: next checkout Log on Logs",
+     "why": "book levels past this need the Library",
+     "sub": [
+      "Smart Efficiency 212/299",
+      "Deforesting All Doubt 228/299"
+     ]
+    }
+   ],
+   "part": [],
+   "park": "Penguins (Box Statue 25 -> 40), then Cryosnakes (Seesaw 25 -> 40). Candy or Active ES"
+  },
+  {
+   "name": "Autistacular",
+   "class": "Wind Walker",
+   "daily": [
+    {
+     "do": "Sneaking: use today's charm rolls (120 left)",
+     "why": "They don't carry over",
+     "sub": []
+    },
+    {
+     "do": "Breeding: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Trapping (collect + set): check Trapper Drone building (Buildings C tier) for auto-collect",
+     "why": "critters for vials",
+     "sub": []
+    },
+    {
+     "do": "Compass: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Worship totems (waves): use charge from Autistronaut and Autistabish first, they fill up soonest",
+     "why": "charge and souls keep worship moving",
+     "sub": []
+    },
+    {
+     "do": "Kilroy (weekly, archer line): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Unlock: Aluminium Atom: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Prayers: leave Royal Sampler on until print day",
+     "why": "wrong prayers cost gains",
+     "sub": []
+    },
+    {
+     "do": "Active play setup: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Worship: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "3D Printer slots: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Cards: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours",
+     "why": "Turtle Tisane",
+     "sub": [
+      "Now on Froge",
+      "8 traps on a short timer, use 40 hours"
+     ]
+    },
+    {
+     "do": "Divinity: needs the divinity sweep (right god and style)",
+     "why": "account divinity points are 0 an hour right now",
+     "sub": [
+      "Linked to Arctis, style TranQi"
+     ]
+    }
+   ],
+   "house": [
+    {
+     "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Missing bag: Rucksack Of Riches: 1 slots (Vendor)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Library: next checkout Elusive Efficiency",
+     "why": "book levels past this need the Library",
+     "sub": [
+      "Invasive Species 235/299",
+      "Eagle Eye 290/299"
+     ]
+    }
+   ],
+   "part": [],
+   "park": "W7: push the cave until his tasks are planned"
+  },
+  {
+   "name": "Autistotle",
+   "class": "Voidwalker",
+   "daily": [
+    {
+     "do": "Unblocks other characters (do these first): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Secret Class Path (Vman): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Maestro: #1 in every skill: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Research: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Greenstacks: buy the daily vendor items that are closest to a greenstack: Potent Speed Potion, Potent Strength Potion, Potent EXP Potion, Yeti Ham, Potent Life Potion",
+     "why": "greenstacks count for Equinox",
+     "sub": []
+    },
+    {
+     "do": "Gem / Event shops + votes: vote on the Ballot before it resets (3d 15h)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Unlock: Jelly Operator / The Button: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Prayers: take off Shiny Snitch, it only helps while trapping and it lowers shiny chance otherwise",
+     "why": "wrong prayers cost gains",
+     "sub": [
+      "Leave Royal Sampler on until print day"
+     ]
+    },
+    {
+     "do": "Worship: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "3D Printer slots: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Greenstacks: closest five, farm these",
+     "why": "each one counts for Equinox",
+     "sub": [
+      "Dune Soul (87%): Other Skilling Resources",
+      "Arctic Leaf (78%): Crystal Enemy Drops",
+      "Potent Mana Potion (73%): Crystal Enemy Drops",
+      "Average Strength Potion (62%): Crystal Enemy Drops",
+      "Frigid Soul (60%): Other Skilling Resources"
+     ]
+    },
+    {
+     "do": "Cards: presets 2, 4 not built to plan yet (card build session).",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Traps: move all to Honker at W3 Wam Wonderland, Royal traps, 40 hours",
+     "why": "Goosey Glug 0% toward 9",
+     "sub": [
+      "Now on Scorpie",
+      "8 traps on a short timer, use 40 hours"
+     ]
+    },
+    {
+     "do": "Divinity: needs the divinity sweep (right god and style)",
+     "why": "account divinity points are 0 an hour right now",
+     "sub": [
+      "Linked to Arctis, style TranQi"
+     ]
+    }
+   ],
+   "house": [
+    {
+     "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Library: next checkout Right Hand of Action",
+     "why": "book levels past this need the Library",
+     "sub": [
+      "Printer Go Brrr 217/262",
+      "One Step Ahead 213/299"
+     ]
+    }
+   ],
+   "part": [
+    {
+     "do": "Research level 28 on anyone (best is 27). Unlocks Fuel Capacity II for sushi",
+     "why": "account goal",
+     "sub": []
+    }
+   ],
+   "park": "Lab (Maestro Lab catch-up)"
+  },
+  {
+   "name": "Autistomatic",
+   "class": "Royal Guardian",
+   "daily": [
+    {
+     "do": "Unblocks other characters (do these first): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Construction #2: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Ore prints: SWAP print Dreadlo Ore -> Void Ore (sample 72M; runs out in 6.9 days)",
+     "why": "Changing a print does not take a sample, so Gold Relic keeps its days",
+     "sub": []
+    },
+    {
+     "do": "Statues: DK crystals: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Money: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Royal Guardian #2: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Spelunking: read the rest of today's pages (1 / 5 used)",
+     "why": "Spelunking is the account goal",
+     "sub": []
+    },
+    {
+     "do": "Unlock: Royal Guardian x2: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Prayers: leave Royal Sampler on until print day",
+     "why": "wrong prayers cost gains",
+     "sub": []
+    },
+    {
+     "do": "Active play setup: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Worship: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 5 not built to plan yet (card build session).",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Traps: move all to Bunny at W3 Thermonuclear Climb, Royal traps, 40 hours",
+     "why": "Bunny Brew 0% toward 8",
+     "sub": [
+      "Now on Scorpie",
+      "8 traps on a short timer, use 40 hours"
+     ]
+    },
+    {
+     "do": "Divinity: needs the divinity sweep (right god and style)",
+     "why": "account divinity points are 0 an hour right now",
+     "sub": [
+      "Linked to Arctis, style TranQi"
+     ]
+    }
+   ],
+   "house": [
+    {
+     "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Missing bag: Rucksack Of Riches: 1 slots (Vendor)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Library: next checkout Big Pick",
+     "why": "book levels past this need the Library",
+     "sub": [
+      "Brute Efficiency 274/299",
+      "Tool Proficiency 273/299"
+     ]
+    }
+   ],
+   "part": [],
+   "park": "W7 Spelunking: furthest tunnel (RG perks help spelunking; Pulse: Pit of Pages works for RGs)"
+  },
+  {
+   "name": "Autistronaut",
+   "class": "Elemental Sorcerer",
+   "daily": [
+    {
+     "do": "Cards: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Log prints: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Lab #2: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Unlock: Teal Summoning battles (Danny 9.75x DMG, Monty 1.59x artifact find...): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Unlock: Elite Class Swap Token: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Prayers: take off Shiny Snitch, it only helps while trapping and it lowers shiny chance otherwise",
+     "why": "wrong prayers cost gains",
+     "sub": [
+      "Leave Royal Sampler on until print day"
+     ]
+    },
+    {
+     "do": "Active play setup: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Worship: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Cards: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Traps: move all to Blobfish at W4 Hyperion Nebula, Cocoa Tunnel, Royal traps, 40 hours",
+     "why": "Bloat Draft 17% toward 11",
+     "sub": [
+      "Now on Mousey",
+      "8 traps on a short timer, use 40 hours"
+     ]
+    },
+    {
+     "do": "Divinity: needs the divinity sweep (right god and style)",
+     "why": "account divinity points are 0 an hour right now",
+     "sub": [
+      "Linked to Kattlekruk, style Mindful"
+     ]
+    }
+   ],
+   "house": [
+    {
+     "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Library: next checkout Log on Logs",
+     "why": "book levels past this need the Library",
+     "sub": [
+      "Smart Efficiency 266/299",
+      "Deforesting All Doubt 212/299"
+     ]
+    }
+   ],
+   "part": [],
+   "park": "Stay at Cryosnake for now (no park plan yet, needs checking)"
+  },
+  {
+   "name": "Autistopher",
+   "class": "Death Bringer",
+   "daily": [
+    {
+     "do": "Stamps: raise the max level on Drippy Drop, Ladle, Bugsack, Bag o Heads, you have the materials",
+     "why": "stamps are account buffs",
+     "sub": [
+      "Max-level raises still short: Multitool (24.7B more Dust Mote), Potion (292K more Icing Ironbite), Mason Jar (8.7K more Glass Shard), Matty Bag (149 more Cramped Material Pouch)"
+     ]
+    },
+    {
+     "do": "Upgrade Vault: buy Wicked Smart first: 330 -> 387",
+     "why": "Autisticles has the coins for about 32 levels",
+     "sub": [
+      "Buy on Autisticles, he has the most coins"
+     ]
+    },
+    {
+     "do": "Equinox: spend the Equinox bar (it is full)",
+     "why": "It refills in about 42 minutes, so spend it every time you're on",
+     "sub": [
+      "Check in game: Faux Jewels shows locked even though its unlock is done"
+     ]
+    },
+    {
+     "do": "Salt Lick: buy Salt Lick levels: Refinery Speed +6, Total Damage dealt. +34, Cooking Mastery EXP gain, a feature unlo +5",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Library (account-wide): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Achievements: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Clickers: Owl, Bubba, Poppy (all three): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Tome (account-wide): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Maintenance (maxed tiers): Bribes, Rift, Star Signs: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Prayers: leave Royal Sampler on until print day",
+     "why": "wrong prayers cost gains",
+     "sub": []
+    },
+    {
+     "do": "Active play setup: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Worship: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "3D Printer slots: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 5 not built to plan yet (card build session).",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Traps: move all to Mousey at W1 Rats Nest, Royal traps, 40 hours",
+     "why": "Bubonic Burp 22% toward 13",
+     "sub": [
+      "Now on Mousey",
+      "8 traps on a short timer, use 40 hours"
+     ]
+    },
+    {
+     "do": "Divinity: needs the divinity sweep (right god and style)",
+     "why": "account divinity points are 0 an hour right now",
+     "sub": [
+      "Linked to Arctis, style TranQi"
+     ]
+    },
+    {
+     "do": "Super CHOWs: 17 of 26 done. Closest:",
+     "why": "only his own kills count, account buff tier",
+     "sub": [
+      "Dedotated Ram at Wam Wonderland: 7M kills left",
+      "Sir Stache at The Stache Split: 25M kills left",
+      "Pufferblob at Puffpuff Overpass: 44M kills left",
+      "Sheepie at Steep Sheep Ledge: 47M kills left",
+      "Stiltmole at The Great Molehill: 58M kills left"
+     ]
+    },
+    {
+     "do": "WOWs: 5 of 80 done. Closest:",
+     "why": "his WOW count feeds the golden food bonus",
+     "sub": [
+      "Coralcave Crab at Coralcave Outskirts: 68M kills left",
+      "Biggole Mole at Miner Mole Outskirts: 131M kills left",
+      "Sandy Pot at Jar Bridge: 201M kills left",
+      "Choccie at Cocoa Tunnel: 359M kills left",
+      "Green Mushroom at Spore Meadows: 426M kills left"
+     ]
+    }
+   ],
+   "house": [
+    {
+     "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Missing bag: Rucksack Of Riches: 1 slots (Vendor)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Library: next checkout Dank Ranks",
+     "why": "book levels past this need the Library",
+     "sub": [
+      "Overflowing Ladle 181/299",
+      "Symbols of Beyond R 153/280"
+     ]
+    }
+   ],
+   "part": [],
+   "park": "W3 Wam Wonderland (Dedotated Ram) \u00b7 7M kills left, 93% done \u00b7 fewest kills left, fastest respawn (25.0s)"
+  },
+  {
+   "name": "Autistachio",
+   "class": "Beginner",
+   "daily": [
+    {
+     "do": "Monument week: claim and restart Bravery and Wisdom monuments, keep him parked there",
+     "why": "Meritocracy is 4x monument rewards this week",
+     "sub": []
+    },
+    {
+     "do": "Divinity to 40: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Monuments (after Divinity): nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Gallery + capes: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Dancing Coral (Barnacle Curb, right side platform): buy these",
+     "why": "raises shrine caps, Vibrant Coral feeds the POW goal",
+     "sub": [
+      "Reef Coral (20): +100 max level Woodular Shrine",
+      "Vibrant Coral (100): +100 max level Isaccian Shrine",
+      "Glowing Coral (248): +100 max level Crystal Shrine"
+     ]
+    },
+    {
+     "do": "Prayers: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Active play setup: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Worship: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "3D Printer slots: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Cards: nothing needed",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours",
+     "why": "Turtle Tisane",
+     "sub": [
+      "Now on Froge",
+      "6 traps on a short timer, use 40 hours"
+     ]
+    },
+    {
+     "do": "Divinity: needs the divinity sweep (right god and style)",
+     "why": "account divinity points are 0 an hour right now",
+     "sub": [
+      "Linked to Arctis, style Chakra"
+     ]
+    }
+   ],
+   "house": [
+    {
+     "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Missing bag: Sack Of Success: 2 slots (Vendor)",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
+     "why": "",
+     "sub": []
+    }
+   ],
+   "part": [
+    {
+     "do": "Dancing Coral: buy Vibrant Coral (100, have 17.3K). Then Isaccian Shrine above 200 gives +5% POW per level (Autistastic, shrine at 122)",
+     "why": "account goal",
+     "sub": []
+    }
+   ],
+   "park": "Divinity (Divinity slippers)"
+  }
+ ]
+}
