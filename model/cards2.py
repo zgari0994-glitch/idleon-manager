@@ -60,7 +60,7 @@ def goal_card():
     # Jelly
     je = tbtext('jelly', 'Layout')
     ob = re.search(r'Obstructions removed\n(\d+)\n(\d+)', je)
-    out['levers'].append({'who': 'Autiszemo', 'do': "Jelly Operator: reach the Jellofish Fields map (he's pushing W7 for his ZOWs), then clear obstructions to Morning Glory. Gives 1.30x POW", 'size': '1.3x'})
+    out['levers'].append({'who': 'Autistocat', 'do': "Jelly Operator: reach Jellofish Fields (1B Pirate Underling portal kills, she has 3.1M at about 1.1M an hour, so about 5 weeks; then 60M Eggroll). Speed it up with Thanatos's Teachings (legend talent, Griffy) and Kill per Kill weeks. Then clear obstructions to Morning Glory: 1.30x POW", 'size': '1.3x'})
     # Amber shop
     for k, gain in (('Learning the POW', '+8%'), ('Discovering the POW', '+9%')):
         mm = re.search(re.escape(k) + r'\nLv (\d+)\n[\s\S]{0,400}?\n([\d,.]+[KMB]?)\n/\n([\d,.]+[KMB]?)\n', sp)
@@ -69,13 +69,14 @@ def goal_card():
     rf = tbtext('reef', 'Dancing Coral')
     vc = re.search(r'Vibrant Coral[\s\S]*?Isaccian Shrine LV\n(\d+)[\s\S]*?\n([\d.,]+[KMB]?)\n/\n([\d.,]+[KMB]?)', rf)
     if vc: out['levers'].append({'who': 'Autistachio', 'do': f"Dancing Coral: buy Vibrant Coral ({vc.group(3)}, have {vc.group(2)}). Then Isaccian Shrine above 200 gives +5% POW per level (Autistastic, shrine at {vc.group(1)})", 'size': '+5%/lv'})
+    out['levers'].append({'who': 'account', 'do': 'Boomy Mine companion: 20x total POW, Griffy rates it S tier. Not owned; it comes from companion rolls (my read: the W7 Shallow Waters companion pool)', 'size': '20x'})
     cl = tbtext('clam', 'Compensations'); wc = re.search(r'Worker class\nLv (\d+)', cl)
     out['levers'].append({'who': 'Autisticles', 'do': f"Clam Work: worker class 12 gives 2x POW (now {wc.group(1) if wc else '?'}). Long term", 'size': '2x'})
     out['unknown'] = ['God rank: what it gives before spending points', 'Lab jewel and chip check', 'Ballot votes', 'Park spots marked needs checking', 'Spelunk tools (+% total POW)', 'Research grid daily POW boost', 'POW elixirs (need pages)', 'Sushi fuel costs past the next one']
     return out
 
 # ---------------- step transform ----------------
-CREATOR = re.compile(r'^(?:[\w+&\' /-]{1,40}: )?(Griffy|Pulse|Nocturne|AutoReview|Next goal|older|Coming up|HOW|WHY)\b', re.I)
+CREATOR = re.compile(r'^(?:[\w+&\' /-]{1,40}:\s*)?(Griffy|Pulse|Nocturne|AutoReview|Next goal|older|Coming up|HOW|WHY)\b', re.I)
 VERB = re.compile(r'^(TOP: )?(Buy|Spend|Collect|Use|Take|Leave|Put|Get|Level|Move|Swap|Switch|Push|Place|Hold|Unlock|Claim|Turn|Equip|Run|Set|Feed|Craft|Upgrade|Do|Make|Check|Vote|Park|Farm|Kill|Open|Replant|Send|Spin|Roll|Raise|Max|Finish|Add|Start|Cook|Breed|Deposit|Trade|Keep|Read|Clear|Fill|Go|Rotate|Plant|Harvest|Bring|Skip|Save|Stop|Don\'t|Do not|Focus|Pick|Time|Grind|Defeat|Beat|Reset|Restart|Activate|Discover|Summon|Drop|Sell|Refine|Transmute|Meditate|Link|Assign|Fix)\b', re.I)
 DROPBLK = ('Levers for other jobs', 'Every character: Combat level', 'Timers ready', 'Super CHOWs', 'Traps')
 WHY = {  # short plain why per system (my wording; the facts behind are on the planner pages)
@@ -297,6 +298,24 @@ def milestones():
                                                   'next': sorted(rows.items(), key=lambda x: x[1][0])[:5]}
     return res
 
+# ---------------- goal-based parking (Zack 2026-11-20: the way to the goal can't be wrong) ----------------
+SPELUNK_CAVE = 'the furthest Spelunking cave they can AFK in (Autistomatic is in Fearful Tunnel)'
+GOAL_PARK = {   # every line: where, card preset, and why with its source
+    'Autistomatic': f"Spelunking: {SPELUNK_CAVE}, card preset 5. Why: Pulse (Oct 31) puts both Royal Guardians on Spelunking (Pit of Pages, fixed Nov 10); every Spelunking level adds base POW",
+    'Autistastic': f"Spelunking: {SPELUNK_CAVE}, card preset 5. Why: Pulse (Oct 31): both Royal Guardians on Spelunking. His statue push waits (money mode when coins are short)",
+    'Autistocat': "W7 Pirate Upper Deck (Pirate Underling), card preset 1. Why: she is the furthest toward Jellofish Fields (3.1M of 1B portal kills, about 1.1M an hour; then 60M at Sushi Perimeter). Jelly is 1.3x POW. Pulse: Arcane Cultist is the top damage class",
+    'Autisticles': f"Spelunking: {SPELUNK_CAVE}, card preset 2. Why: Pulse (Nov 1): most characters on Spelunking; adds base POW",
+    'Autistabish': f"Spelunking: {SPELUNK_CAVE}, card preset 2. Why: Pulse (Nov 1): most characters on Spelunking; adds base POW. His statue push waits",
+    'Autistacular': f"Spelunking: {SPELUNK_CAVE}, card preset 2. Why: Pulse (Nov 1): most characters on Spelunking; adds base POW",
+}
+SIDE_PARK_WHY = {   # characters kept off Spelunking, and why that beats helping POW
+    'Autiszemo': 'Side reason: his ZOWs and CHOWs only count on him and each W7 ZOW is only 100K kills, so he rotates through them',
+    'Autistopher': 'Side reason: Super CHOW and WOW only count on him (account buffs); after the Ram he farms Green Mushrooms for coins + a WOW',
+    'Autistronaut': 'Side reason: nobody earns divinity points right now; Pulse: skipping divinity costs 1-2 years in super week',
+    'Autistachio': 'Side reason: monument week (4x rewards) this week; Spelunking level 1, so little POW from him',
+    'Autistotle': 'Side reason: your call (Maestro Lab catch-up); his Spelunking is 17, the lowest, so he adds the least POW there',
+}
+
 # ---------------- build ----------------
 def build():
     goal = goal_card()
@@ -357,10 +376,16 @@ def build():
         park = cd.get('park', {}).get('text', '')
         if n == 'Autiszemo' and 'ZOW' in m and m['ZOW']['next']:
             pick = m['ZOW']['next'][3][0] if len(m['ZOW']['next']) > 3 else m['ZOW']['next'][0][0]
-            park = (f"W7 {pick[1]} ({pick[0]}) for his ZOW, card preset 1. Pushing W7 also gets him toward Jellofish Fields. "
+            park = (f"W7 {pick[1]} ({pick[0]}) for his ZOW, card preset 1, then the next W7 ZOW map he can reach. "
                     "Autistopher keeps the Dedotated Ram kills")
         if n == DIV_RUNNER:
             park = 'W5 Divinity altar, Mindful style (my read: nobody is earning divinity points; Pulse: Mindful is the best style)'
+        if n in GOAL_PARK:
+            park = GOAL_PARK[n]
+        elif n == 'Autistachio' and any('Monument' in w for w in goal.get('weekly', [])):
+            park = 'Bravery Monument this week (Meritocracy 4x monument rewards), then back to Divinity. Spelunking level 1, so little POW from him'
+        elif n in SIDE_PARK_WHY:
+            park = f"{park}. {SIDE_PARK_WHY[n]}"
         if 'GAP' in park:
             park = f"Stay at {here(n)} for now (no park plan yet, needs checking)"
         money = []
