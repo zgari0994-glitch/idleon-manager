@@ -284,6 +284,9 @@ def milestones():
 def build():
     goal = goal_card()
     goal['weekly'] = weeklies()
+    import extras as _EX
+    global EXTRA
+    EXTRA = _EX.all_house(CARDS, list(chars.values()))
     ms = milestones()
     goal['weekly'] = weeklies()
     out = {'save': SNAPN, 'goal': goal, 'chars': []}
@@ -303,7 +306,7 @@ def build():
         if n == 'Autisticles': daily.append(sushi_step()); daily.append(legend_step())
         if n == 'Autiszemo':
             ms_ = mastery_step()
-            if ms_: house.append(ms_)
+            if ms_: house.insert(0, ms_)
         if n == 'Autistotle':
             gs = greens_step()
             if gs: daily.append(gs)
@@ -330,9 +333,7 @@ def build():
             house.append({'do': f'Super talents: check failed ({ex})', 'why': '', 'sub': []})
         for bag in cd.get('bags') or []:
             house.append({'do': f"Missing bag: {bag}", 'why': '', 'sub': []})
-        tal = (cd.get('talents') or {}).get('Skilling High') or []
-        if tal:
-            house.append({'do': f"Library: next checkout {tal[0].split(' ')[0]} {' '.join(tal[0].split(' ')[1:-1])}".strip(), 'why': 'book levels past this need the Library', 'sub': [t for t in tal[1:3]]})
+        house += EXTRA.get(n, [])
         # goal part
         for lv in goal['levers'] + goal['prereqs']:
             if lv['who'] == n: part.append({'do': lv['do'], 'why': 'account goal', 'sub': []})
