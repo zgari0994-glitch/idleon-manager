@@ -175,6 +175,17 @@ LEGEND_ORDER = [  # every line sourced: Griffy first, Pulse 2026-09-25 tier list
     ("Kruk be Bubblin'", 'Pulse: B'),
 ]
 
+def mastery_step():
+    tt = tbtext('cooking', 'Mastery')
+    lv = re.search(r'Mastery level\n(\d+)', tt); pu = re.search(r'Purple points\n(\d+) / (\d+)', tt); ye = re.search(r'Yellow points\n(\d+) / (\d+)', tt)
+    lad = re.search(r'currently ([\d,]+) ladles used', tt); cake = re.search(r'yours is Lv (\d+)', tt); acc = re.search(r'above 1000, currently LV (\d+)', tt)
+    if not lv: return None
+    sub = [f"Salty pays once you use ladles ({lad.group(1) if lad else '?'} used so far)",
+           f"Spicy pays once account Cooking LV passes 1000 (now {acc.group(1) if acc else '?'})",
+           f"Sweet pays once Divorce Cake passes 75 (now {cake.group(1) if cake else '?'})",
+           'Pulse: push mastery to 15, it scales hard after 10']
+    return {'do': f"Cooking mastery (level {lv.group(1)}): hold the points for now", 'why': 'every open category gives 0 until its condition is met (my read from the Toolbox text)', 'sub': sub}
+
 def legend_step():
     tt = tbtext('legend')
     m = re.search(r'(\d+) unspent', tt)
@@ -290,6 +301,9 @@ def build():
             if 'ZOWs + CHOWs' in b['block']: continue   # replaced by the milestone step below
             daily.append(to_step(b, n))
         if n == 'Autisticles': daily.append(sushi_step()); daily.append(legend_step())
+        if n == 'Autiszemo':
+            ms_ = mastery_step()
+            if ms_: house.append(ms_)
         if n == 'Autistotle':
             gs = greens_step()
             if gs: daily.append(gs)
