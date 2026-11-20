@@ -42,11 +42,13 @@ def rg_supers():
     return {'Autistastic': [s], 'Autistomatic': [s]}
 
 # ---- cooking mastery conditions (Zemo owns cooking) ----
+LADLES = '4,183'   # Zemo inventory, save 20261120T0452 (checked 2026-11-20)
+
 def mastery_plan():
     t = tb('cooking', 'Mastery')
     cake = re.search(r'yours is Lv (\d+)', t); lad = re.search(r'currently ([\d,]+) ladles used', t)
     if not cake: return {}
-    return {'Autiszemo': [step('Cooking mastery: start the hold conditions with ladles',
+    return {'Autiszemo': [step(f"Cooking mastery: you have {LADLES} ladles on Zemo, use them",
         'Salty needs ladles used (now ' + (lad.group(1) if lad else '?') + '), Sweet needs Divorce Cake 75 (now ' + cake.group(1) + ')',
         ['Use your ladles on Divorce Cake, one at a time, claiming each kitchen between (Griffy 2026-11). That counts as ladles used and levels the cake (my read: both conditions at once)',
          'Pulse: the daily ladle system dumps all ladles on your lowest-timer meal, so do this before it runs',
@@ -100,18 +102,28 @@ def topher_note():
     return {'Autistopher': [step('Super talents: the save still shows Siege Breaker talents in his super slots (from before his class switch)',
         'check in game whether they can be cleared; until then nothing is spent there', [])]}
 
-# ---- voting ----
-GOAL_WORDS = ('Spelunk', 'POW', 'Amber')
+# ---- voting: every option on the ballot, its vote share, why / why not (Zack decides) ----
+VOTE_WHY = {   # keyed by a phrase in the option text
+    'Artifact Find': 'for: Ticles is hunting missing artifacts; Pointagon makes Chapter Lore 1.3x, and Chapters are in your POW (goal). against: only matters while boats hunt',
+    'Refinery Cycle': 'for: faster salts (Griffy: invest in refinery cycles while salts are locked). against: no tie to the goal',
+    'cash earned': 'for: money mode on Autistastic gets doubled coins that week. against: only if you farm coins that week',
+    'Shiny Critters': 'for: a shiny week; the shiny Tottoise greenstack is the hardest, so this is when to farm it (switch traps to shiny). against: no vial needs a shiny now',
+    'Vials': 'for: every vial 1.75x for the week, account-wide. against: nothing specific to the goal',
+    'Starsigns': 'for: all star signs 1.9x. against: low impact for your setup (my read)',
+}
 def voting():
     out = []
     for tab, label in (('Bonus', 'Bonus Ballot'), ('Meritocracy', 'Meritocracy')):
         t = tb('ballot', tab)
         if not t: continue
         nxt = re.search(r'Next week in\n([^\n]+)', t)
-        opts = [o for o in t.split('This week\n', 1)[-1].split('\n') if len(o) > 25 and not o.startswith(('Discord', 'On the ballot'))]
-        pick = next((o for o in opts if any(w in o for w in GOAL_WORDS)), None)
-        out.append(f"{label} (vote closes in {nxt.group(1) if nxt else '?'}): " + (f"vote {pick[:90]} (feeds the goal)" if pick else 'no option feeds the goal: needs checking'))
-    return {'Autistotle': [step('Voting (do it on reset day)', 'Zack takes part in both votes', out)]} if out else {}
+        opts = re.findall(r'\n([^\n]{20,})\nOn the ballot · (\d+)% of votes', t)
+        if not opts: continue
+        out.append(f"{label}, vote closes in {nxt.group(1) if nxt else '?'}:")
+        for o, pct in opts:
+            w = next((v for k, v in VOTE_WHY.items() if k.lower() in o.lower()), 'needs checking')
+            out.append(f"  {o[:80]} ({pct}% now). {w}")
+    return {'Autistotle': [step('Voting: your pick (reset day)', 'every option on the ballot, with why for and against', out)]} if out else {}
 
 # ---- talent ranking: top 5 per character + overall 1-55 ----
 TIER = {'High': 3, 'Medium': 2, 'Low': 1}

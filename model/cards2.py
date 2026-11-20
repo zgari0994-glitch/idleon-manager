@@ -194,7 +194,11 @@ def greens_step():
         try: return float(str(x['cur']).rstrip('%'))
         except Exception: return -1
     rows = [i for i in items if 'Collect' not in i['label'] and 'Timegated' not in i['group'] and 'Endangered' not in i['group']]
-    sub = [f"{i['label']} ({p(i):.0f}%): {i['tab']}" for i in sorted(rows, key=p, reverse=True)[:5]]
+    WHERE = {'Arctic Leaf': 'W3 crystal mobs (Crystal Cattle, any W3 fighting map)', 'Potent Mana Potion': 'W4 crystal mobs, any W4 fighting map (my read from AutoReview grouping)',
+             'Average Strength Potion': 'W1 crystal mobs (Crystal Carrot, any W1 fighting map; my read from AutoReview grouping)',
+             'Dune Soul': 'W2 worship souls, stop spending them', 'Frigid Soul': 'W3 worship souls'}
+    sub = [f"{i['label']} ({p(i):.0f}%): {WHERE.get(i['label'], i['tab'])}" for i in sorted(rows, key=p, reverse=True)[:5]]
+    sub.append('Fastest for crystal drops: card preset 6 (Crystal hunt) on a Royal Guardian with the Chocolatey Chip (Pulse, Griffy)')
     return {'do': 'Greenstacks: closest five, farm these', 'why': 'each one counts for Equinox', 'sub': sub}
 
 LEGEND_ORDER = [  # every line sourced: Griffy first, Pulse 2026-09-25 tier list (newest wins on conflict)
@@ -216,15 +220,16 @@ LEGEND_ORDER = [  # every line sourced: Griffy first, Pulse 2026-09-25 tier list
 ]
 
 def mastery_step():
-    tt = tbtext('cooking', 'Mastery')
+    """Corrected 2026-11-20: mastery points go onto MEALS (mastery nodes), not held for the EXP categories."""
+    tt = tbtext('cooking', 'Mastery'); kt = tbtext('cooking', 'Kitchens')
     lv = re.search(r'Mastery level\n(\d+)', tt); pu = re.search(r'Purple points\n(\d+) / (\d+)', tt); ye = re.search(r'Yellow points\n(\d+) / (\d+)', tt)
-    lad = re.search(r'currently ([\d,]+) ladles used', tt); cake = re.search(r'yours is Lv (\d+)', tt); acc = re.search(r'above 1000, currently LV (\d+)', tt)
+    node = re.search(r'Mastery node\nLv (\d+) \(([\d.]+x)\)\n([^\n]+)', kt)
     if not lv: return None
-    sub = [f"Salty pays once you use ladles ({lad.group(1) if lad else '?'} used so far)",
-           f"Spicy pays once account Cooking LV passes 1000 (now {acc.group(1) if acc else '?'})",
-           f"Sweet pays once Divorce Cake passes 75 (now {cake.group(1) if cake else '?'})",
+    sub = [f"Points: purple {pu.group(1)} of {pu.group(2)}, yellow {ye.group(1)} of {ye.group(2)} (check in game which are free)" if pu and ye else 'Points: check in game',
+           (f"Your node now: {node.group(3)} level {node.group(1)} ({node.group(2)}), Tempura Shrimp is Spelunking EXP, so it helps the goal" if node else 'No node found'),
+           'Pulse (Aug): for money, 10-15 points on Yummy Peach Ring and 5 on Bundt Cake',
            'Pulse: push mastery to 15, it scales hard after 10']
-    return {'do': f"Cooking mastery (level {lv.group(1)}): hold the points for now", 'why': 'every open category gives 0 until its condition is met (my read from the Toolbox text)', 'sub': sub}
+    return {'do': f"Cooking mastery (level {lv.group(1)}): points go onto meals", 'why': 'correction: I had said hold them; they are placed on meals', 'sub': sub}
 
 def legend_step():
     tt = tbtext('legend')
@@ -275,7 +280,8 @@ def divinity_line(name):
         ck = [c for c in (DIV.get('coral') or []) if isinstance(c, dict) and c.get('lv') == 0 and c.get('needs_lv', 0) <= 1815]
         nxt = next((c for c in ck if 'ALL players' not in c['desc']), None)
         if nxt: sub.insert(0, f"Coral Kid next: {nxt['desc'][:60].rstrip()}... at {short(nxt['cost'])} points (have {short(DIV.get('points') or 0)})")
-        return {'do': 'Divinity: buy these blessings', 'why': 'blessings raise divinity points and their stat for everyone', 'sub': sub[:6]}
+        sub = sub[:5] + ['God rank (you are 1): Pulse targets 20 (Menagerie challenge, next-patch content) then 25-30. Push it in Divinity week. No-RNG way (Pulse): roll offerings until one shows 100%, then take it. Griffy: use cheap offerings until a guaranteed one shows']
+        return {'do': 'Divinity: buy these blessings, then god rank', 'why': 'blessings raise divinity points; god ranks add divinity EXP, class EXP and talent points (Pulse, Griffy)', 'sub': sub}
     return {'do': 'Divinity: nothing needed (Doot gives every god to everyone)', 'why': '', 'sub': []}
 
 try:

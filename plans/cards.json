@@ -183,12 +183,12 @@
    ],
    "house": [
     {
-     "do": "Cooking mastery (level 5): hold the points for now",
-     "why": "every open category gives 0 until its condition is met (my read from the Toolbox text)",
+     "do": "Cooking mastery (level 5): points go onto meals",
+     "why": "correction: I had said hold them; they are placed on meals",
      "sub": [
-      "Salty pays once you use ladles (0 used so far)",
-      "Spicy pays once account Cooking LV passes 1000 (now 227)",
-      "Sweet pays once Divorce Cake passes 75 (now 44)",
+      "Points: purple 0 of 6, yellow 1 of 6 (check in game which are free)",
+      "Your node now: Tempura Shrimp level 1 (1.17x), Tempura Shrimp is Spelunking EXP, so it helps the goal",
+      "Pulse (Aug): for money, 10-15 points on Yummy Peach Ring and 5 on Bundt Cake",
       "Pulse: push mastery to 15, it scales hard after 10"
      ]
     },
@@ -208,7 +208,7 @@
      "sub": []
     },
     {
-     "do": "Cooking mastery: start the hold conditions with ladles",
+     "do": "Cooking mastery: you have 4,183 ladles on Zemo, use them",
      "why": "Salty needs ladles used (now 0), Sweet needs Divorce Cake 75 (now 44)",
      "sub": [
       "Use your ladles on Divorce Cake, one at a time, claiming each kitchen between (Griffy). That counts as ladles used and levels the cake (my read: both conditions at once)",
@@ -558,8 +558,8 @@
    "money": [
     "Pendant: take the Emerald Bling Pendant (in Autistomatic's and Autistocat's inventories) and equip it instead of the Divine Scarf. Why: Griffy: a true multiplier after all other money bonuses, doubled by the pendant doubler chip he already has.",
     "Cards: preset 7 (Money): Demon Genie and Poop in the doubled slots, then the money cards (Sacrilegious Kattlekruk, Dilapidated Slush, Baba Yaga, Purp Mushroom, Nutto, Meaning of Giftmas). Griffy.",
-    "Food: Golden Bread (Griffy).",
-    "Talents: star talent points into the cash money star talent (Griffy). Class talent picks: needs checking.",
+    "Food: Golden Bread (Griffy) and Grilled Cheese for all stats (Pulse). Meals: best ribbon on Yummy Peach Ring, mastery points there (Pulse).",
+    "Talents: star talent points into the cash money star talent (Griffy). Class: Charred Skulls (Pulse); Penny of Strength bubble scales with strength (Pulse).",
     "Alchemy: keep Penny of Strength levelled; strength drives it (Pulse).",
     "Map: compare coins/hr in AFK info (Griffy: AFK info shows money per hour) at Green Mushrooms vs Pirate Deckhand, keep the better one. Green Mushroom kills also raise the Lab money bonus (Pulse: Fungi Finger Pocketer)."
    ],
@@ -840,15 +840,15 @@
      ]
     },
     {
-     "do": "Divinity: buy these blessings",
-     "why": "blessings raise divinity points and their stat for everyone",
+     "do": "Divinity: buy these blessings, then god rank",
+     "why": "blessings raise divinity points; god ranks add divinity EXP, class EXP and talent points (Pulse, Griffy)",
      "sub": [
       "Coral Kid next: The Max Level of the ''Blessing'' upgrade for each Divinity... at 60M points (have 35.9M)",
       "Blessing: Snehebatu (Divinity PTS Gain)",
       "Blessing: Arctis (Divinity PTS Gain)",
       "Blessing: Nobisect (All Skill Efficiency)",
       "Blessing: Omniphau (Divinity PTS Gain)",
-      "Blessing: Bagur (Sailing Speed)"
+      "God rank (you are 1): Pulse targets 20 (Menagerie challenge, next-patch content) then 25-30. Push it in Divinity week. No-RNG way (Pulse): roll offerings until one shows 100%, then take it. Griffy: use cheap offerings until a guaranteed one shows"
      ]
     }
    ],
@@ -1135,11 +1135,12 @@
      "do": "Greenstacks: closest five, farm these",
      "why": "each one counts for Equinox",
      "sub": [
-      "Dune Soul (87%): Other Skilling Resources",
-      "Arctic Leaf (78%): Crystal Enemy Drops",
-      "Potent Mana Potion (73%): Crystal Enemy Drops",
-      "Average Strength Potion (62%): Crystal Enemy Drops",
-      "Frigid Soul (60%): Other Skilling Resources"
+      "Dune Soul (87%): W2 worship souls, stop spending them",
+      "Arctic Leaf (78%): W3 crystal mobs (Crystal Cattle, any W3 fighting map)",
+      "Potent Mana Potion (73%): W4 crystal mobs, any W4 fighting map (my read from AutoReview grouping)",
+      "Average Strength Potion (62%): W1 crystal mobs (Crystal Carrot, any W1 fighting map; my read from AutoReview grouping)",
+      "Frigid Soul (60%): W3 worship souls",
+      "Fastest for crystal drops: card preset 6 (Crystal hunt) on a Royal Guardian with the Chocolatey Chip (Pulse, Griffy)"
      ]
     },
     {
@@ -1188,11 +1189,17 @@
      ]
     },
     {
-     "do": "Voting (do it on reset day)",
-     "why": "Zack takes part in both votes",
+     "do": "Voting: your pick (reset day)",
+     "why": "every option on the ballot, with why for and against",
      "sub": [
-      "Bonus Ballot (vote closes in 3d 15h): no option feeds the goal: needs checking",
-      "Meritocracy (vote closes in 6d 15h): vote Stamina Regeneration Rate in Spelunking is 4.00x faster (feeds the goal)"
+      "Bonus Ballot, vote closes in 3d 15h:",
+      "Boosts Artifact Find chance in Sailing by 1.63x (61% now). for: Ticles is hunting missing artifacts; Pointagon makes Chapter Lore 1.3x, and Chapters are in your POW (goal). against: only matters while boats hunt",
+      "Boosts Refinery Cycle Speed by +101% (24% now). for: faster salts (Griffy: invest in refinery cycles while salts are locked). against: no tie to the goal",
+      "Increases cash earned from monsters by +105% (15% now). for: money mode on Autistastic gets doubled coins that week. against: only if you farm coins that week",
+      "Meritocracy, vote closes in 6d 15h:",
+      "Multiplies how many Shiny Critters you get from Trapping by 7.00x (49% now). for: a shiny week; the shiny Tottoise greenstack is the hardest, so this is when to farm it (switch traps to shiny). against: no vial needs a shiny now",
+      "All of your Vials give 1.75x higher bonuses than normal (42% now). for: every vial 1.75x for the week, account-wide. against: nothing specific to the goal",
+      "All of your Starsigns give 1.90x higher bonuses than normal (9% now). for: all star signs 1.9x. against: low impact for your setup (my read)"
      ]
     },
     {
