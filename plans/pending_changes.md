@@ -275,3 +275,8 @@ All other items 1-10 approved as stated in chat 10:37.
 - Voting: Zack votes on reset days; card gives the vote.
 - Talents: checked per character per day and stored (diffs easy). Any "level this to max" needs creator guidance + reason. Top 5 talents per character + one overall ranking 1-55. Levelled talents drop out; when a level cap rises and a capped talent becomes the best again, it goes back to the top.
 - Park: based on the active goal(s), every character's park spot is chosen to help the goal.
+
+## Approved 2026-11-20 12:20 (Zack)
+- Divinity: Doot owned, so god links likely don't move, but Divinity still gets a full daily check (nobody is doing divinity now: that's why points are 0/hr). Plan: points income, Divinity levels, blessings, Coral Kid, god rank, Div/Super week.
+- Money: RGs are grown-up DKs (Griffy's DK money method applies; 2 RGs). Rinse-and-repeat money plan: best gear, cards, talents, anything that drives money; include the p2w necklace; list the best item owned AND the better one to unlock. Note Pulse's newer spot (final W7 map pufferfins) for when it's unlocked.
+- Personal super talents, Whallamus (legend) talents, cooking mastery points and similar point-spend systems: plan from creators, on cards until actioned AND confirmed in data. If Zack asks to remove one early: ask him to cloud save first so it can be verified; otherwise it waits until tomorrow's pull. Sweep for other systems like these.
