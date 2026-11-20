@@ -35,13 +35,15 @@ ln -s "$B/snapshots" "$W/code/snapshots"; ln -s "$B/plans" "$W/code/plans"
 cp "$B/jobs.yaml" "$W/code/model/jobs.yaml"
 [ -f "$B/state/confirmed.json" ] || echo '{}' > "$B/state/confirmed.json"
 cp "$B/state/confirmed.json" "$W/code/state/confirmed.json"
-python3 "$B/patch_copy.py" "$W/code"
-
-# 2) AutoReview's own code
 if [ ! -d "$W/ar" ]; then
   git clone -q --depth 1 https://github.com/TwoSpookyBoos/IdleOnAutoReviewBot.git "$W/ar"
   [ "${INSTALL:-0}" = 1 ] && pip install -q -r "$W/ar/mysite/requirements/common.txt"
 fi
+python3 "$B/patch_copy.py" "$W/code" "$W/ar"
+cp "$B/goal.py" "$W/code/model/bro_goal.py"
+export BRO_SWITCHES="$B/switches.json" BRO_STATE="$B/state"
+
+# 2) AutoReview's own code
 export PYTHONPATH="$W/ar/mysite"
 (cd "$W/ar/mysite" && python3 "$W/code/tools/run_ar.py" "$RAW" "$W/review.json" 2>/dev/null | tail -1)
 
@@ -55,10 +57,11 @@ cp "$W/review_chars.json" "$D/chars.json"; cp "$W/review_systems.json.gz" "$D/sy
 python3 -c "import json;json.dump(json.load(open('$W/review.json'))['meta'],open('$D/meta.json','w'),indent=1)"
 echo "$STAMP" > "$B/snapshots/LATEST"
 
-# 4) same play-session steps as Zack's (CLAUDE.md), minus browser-only reads
+# 4) same play-session steps as Zack's (CLAUDE.md), minus browser-only reads. Cards = cards2 (v3 format).
 cd "$W/code"
-for s in model/ledger.py model/coins.py model/buffs.py model/mechanics.py rinse/rinse.py model/plan.py model/acquire.py model/dashboard.py; do
-  python3 "$s" 2>&1 | tail -1 | sed "s|^|[$s] |"
+for s in model/ledger.py model/coins.py model/buffs.py model/mechanics.py rinse/rinse.py model/plan.py model/acquire.py; do
+  python3 "$s" > "$W/step.log" 2>&1 && tail -1 "$W/step.log" | sed "s|^|[$s] |" || { echo "[$s] FAILED (cards still build):"; tail -3 "$W/step.log"; }
 done
-cp "$W/code/dashboard/index.html" "$B/dashboard/index.html"
+(cd "$W/ar/mysite" && PYTHONPATH=".:$W/code/model" python3 "$W/code/model/cards2.py")
+cp "$W/code/dashboard/cards.html" "$B/dashboard/index.html"
 echo "brother dashboard built for save $STAMP"

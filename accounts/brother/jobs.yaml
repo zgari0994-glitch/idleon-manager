@@ -65,10 +65,6 @@ characters:
       sections:
       - Armor Sets
       basis: auto
-    - job: Emperor
-      sections:
-      - Emperor
-      basis: auto
     - job: World bosses + minibosses (DK drop rate)
       sections: []
       timers: Defecaus|Baba Yaga|Slush|Mutated Mush|Magmus|Spiritlord|boss
@@ -129,19 +125,20 @@ characters:
     - job: Cooking
       sections:
       - Cooking
+      feeds: priority
       basis: auto
     - job: Grimoire + Wraith Form (bones)
       sections:
       - The Grimoire
       basis: auto
-    - job: Post Office
-      sections:
-      - Post Office
-      basis: auto
     - job: Fish prints
       sections:
       - s: Sampling
         itype: FISH
+      basis: auto
+    - job: Emperor showdowns
+      sections:
+      - Emperor
       basis: auto
     - job: ZOWs + CHOWs W1-W6
       sections:
@@ -152,6 +149,7 @@ characters:
       sections:
       - s: Death Note
         rest: true
+      feeds: priority
       basis: auto
     first: Farming
   IdleOnLechV:
@@ -197,6 +195,7 @@ characters:
     - job: Upgrade Vault
       sections:
       - Upgrade Vault
+      feeds: priority
       basis: auto
     - job: Equinox
       sections:
@@ -215,12 +214,12 @@ characters:
       sections:
       - Achievements
       basis: auto
-    - job: Minehead
-      sections: []
-      basis: auto
     - job: 'Clickers: Owl, Bubba, Poppy (all three)'
       sections:
       - Owl
+      basis: auto
+    - job: Tome (account-wide)
+      sections: []
       basis: auto
     - job: 'Maintenance (maxed tiers): Bribes, Rift, Star Signs'
       sections:
@@ -369,12 +368,49 @@ account_wide:
   sections:
   - Basketball
   - Darts
-- job: Storage / World progress (AutoReview Pinchy = where the account sits per world)
+- job: Storage
   sections:
   - Storage
+reference_only:
+- name: Pinchy (AutoReview account stage per world)
+  sections:
   - Pinchy high
   - Pinchy low
   - Pinchy all
+every_character:
+- job: Setup check
+  sections: []
+  facts: setup
+- job: Prayers
+  sections:
+  - Prayers
+  facts: prayers
+- job: Smithing
+  sections:
+  - Smithing
+- job: Combat level
+  sections:
+  - Combat Levels
+  facts: combat
+- job: Active play setup
+  sections:
+  - Active
+- job: Drop rate
+  sections:
+  - Drop Rate
+- job: Candy
+  sections:
+  - Regular Candy
+  - Variable Candy
+- job: Post Office boxes
+  sections: []
+  facts: postoffice
+- job: Worship
+  sections: []
+  facts: worship
+- job: 3D Printer slots
+  sections: []
+  facts: printer
 unassigned: null
 active_tasks: []
 locked: []

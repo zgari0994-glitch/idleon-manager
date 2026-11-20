@@ -4,7 +4,7 @@ targets, his priorities) are dropped, since they describe Zack's account. Every 
 Duplicate classes: higher combat level keeps the class jobs (auto pick, change ROLE below to override).
 Usage: python3 accounts/brother/make_jobs.py   (run from repo root)
 """
-import yaml, os
+import yaml, os, json
 R = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 Z = yaml.safe_load(open(os.path.join(R, 'model', 'jobs.yaml')))
 
@@ -27,7 +27,7 @@ ORDER = ['IdleOnLech'] + ['IdleOnLech' + r for r in 'II III IV V VI VII VIII IX 
 MOVE = {'Super CHOWs': 'IdleOnLechIV'}   # Death Note rest: only DB does CHOWs
 DROP = ('Divinity to 40',)               # Beginner-only leveling job
 
-KEEP = ('job', 'sections', 'weekly', 'timers', 'miniboss_max', 'rule', 'daily')
+KEEP = ('job', 'sections', 'weekly', 'timers', 'miniboss_max', 'rule', 'daily', 'feeds')
 chars = {}
 for zc, z in Z['characters'].items():
     bc = ROLE[zc]
@@ -50,6 +50,8 @@ out = {
     'characters': {k: chars[k] for k in ORDER if k in chars},
     'lever_routes': [{**r, 'owner': remap(r['owner'])} for r in Z.get('lever_routes', [])],
     'account_wide': Z.get('account_wide', []),
+    'reference_only': Z.get('reference_only', []),
+    'every_character': [{k: v for k, v in e.items() if k != 'note'} for e in Z.get('every_character', [])],
     'unassigned': None,
     'active_tasks': [],
     'locked': [],
@@ -59,4 +61,5 @@ out = {
 hdr = ('# Brother (IdleOnLech) jobs: AUTO-GENERATED from Zack\'s model/jobs.yaml by make_jobs.py (2026-11-19).\n'
        '# Same jobs by class role; Zack-account notes/numbers dropped. Edit ROLE/MOVE in make_jobs.py, then rerun.\n')
 open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'jobs.yaml'), 'w').write(hdr + yaml.safe_dump(out, sort_keys=False, allow_unicode=True, width=200))
+json.dump(ROLE, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'roles.json'), 'w'), indent=1)
 print({k: len(v['jobs']) for k, v in out['characters'].items()})
