@@ -311,3 +311,6 @@ A park with a catch-up reason (get X to the top of a skill) ends when X is the t
 
 ## Sourced shop buy orders (Zack 2026-11-21)
 Every system shop/upgrade store gets a sourced buy order on its owner's card: next level, its cost vs the current balance, "(can buy)" when affordable, the source per line. Order = creator picks (Griffy > Pulse = Nocturne, newest wins), then Toolbox optimizer, my math only inside a tier. Locked items stay listed with what unlocks them. Done: Spelunking amber (model/spelunking.py BUY_ORDER, Autistomatic). Next: every other shop (Vault, Grimoire, Compass dust, Zenith Market, Royal Armory, Jade/Sneaking, Gaming, Breeding, Summoning, W7 minis, town shops...). Many planners already rank buys via spend.py; add the sourced-order tier on top where creators name picks.
+
+## New main goal (Zack OK 2026-11-21)
+900K POW hit, Pillar Coral freed. New goal stays Spelunking: clear the next cave unlocks in order, Chucklemire (Teal Summoning) -> Lunarheim (+30 meal levels, +1 super point, +2 Gallery slots) -> Bizarrio (Ethereal Sigils). Measurable = caves cleared (from the AutoReview Cave Bonuses list). Next build: change cards2.GOAL and goal_card to track caves instead of POW.
