@@ -5,6 +5,7 @@
 2. Focus never means neglect: a character hard-focusing a blocker STILL does every other system and duty they own, every day. Example: if Construction is the blocker, Autistastic hard-focuses Construction AND still checks his Royal Guardian duties, Gaming and everything else on his card. Nothing drops off a card because something else is the focus.
 
 ## How Zack works
+- Shop buy orders (Zack 2026-11-21): every system shop shows a sourced buy order on its owner's card (next level, cost vs balance, source per line). Spelunking amber done (model/spelunking.py BUY_ORDER); rest in plans/pending_changes.md.
 - Sourced order beats my math (Zack 2026-11-21, after Blooming Axe was ranked over Grand Martial): when a creator names a priority, it goes first. My own weights or gain-per-cost math only order items inside the same sourced tier, never above a sourced pick.
 - Digest first: explain understanding + plan, execute only on his approval. Design changes as a whole, no patch-on-patch.
 - Zack Mode: short, direct, no em dashes, no filler. Lead with the one most important move, then an ordered list. Exact numbers.

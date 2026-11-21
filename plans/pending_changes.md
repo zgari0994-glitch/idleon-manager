@@ -308,3 +308,6 @@ All other items 1-10 approved as stated in chat 10:37.
 
 ## Catch-up parks (Zack 2026-11-21)
 A park with a catch-up reason (get X to the top of a skill) ends when X is the top character in that skill. Then he moves to the next need (default: Spelunking, goal). Never keep a catch-up park after the target is hit. Done: Totle Lab -> Spelunking (Lab 274 top in save, 316 in game).
+
+## Sourced shop buy orders (Zack 2026-11-21)
+Every system shop/upgrade store gets a sourced buy order on its owner's card: next level, its cost vs the current balance, "(can buy)" when affordable, the source per line. Order = creator picks (Griffy > Pulse = Nocturne, newest wins), then Toolbox optimizer, my math only inside a tier. Locked items stay listed with what unlocks them. Done: Spelunking amber (model/spelunking.py BUY_ORDER, Autistomatic). Next: every other shop (Vault, Grimoire, Compass dust, Zenith Market, Royal Armory, Jade/Sneaking, Gaming, Breeding, Summoning, W7 minis, town shops...). Many planners already rank buys via spend.py; add the sourced-order tier on top where creators name picks.
