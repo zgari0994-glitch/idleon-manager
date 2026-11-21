@@ -292,7 +292,7 @@ All other items 1-10 approved as stated in chat 10:37.
 
 ## System goals + freshness + can't-miss (Zack 2026-11-21, approved)
 1. Every system a character owns shows on its card every day (status line even when nothing needed). DONE in cards3 ("Systems (every day)").
-   NEXT: every major and minor system that pushes the account gets its own standing goal + plan (secondary goal). If it can help the main goal (Spelunking POW), that comes first; if not, it still progresses. Never "we're not doing this now". When Spelunking's blocker becomes another system (e.g. Divinity), the main goal switches to it.
+   NEXT: every major and minor system that pushes the account gets its own standing goal + plan (secondary goal). If it can help the main goal (Spelunking POW), that comes first; if not, it still progresses. Never "we're not doing this now". CORRECTED: main goal = biggest account blocker (measurable). Re-check only when its target is reached. If another system blocks the main goal, that system's owner makes the unblock their main goal and every task in that system aims at it; the account goal itself stays.
 2. Never accept stale data. Daily counters come from this pull's save or this pull's timers. Emperor attempts now from the save (OptLacc 370). Boss lines say "up now" and show the timer read age when older than the save. Every pull refreshes dashboard timers. When a page doesn't refresh, find out why (site index: sources/creators/idleon-toolbox-guide.md) and fix it quietly, then tell Zack.
 3. Can't-miss dailies (brain/cant_miss.yaml): time-sensitive items on the right owner's card until done (Zemo Boops CHOW wave; Totle Bone Joe Pickle 41/100 for Equinox).
 4. Research queue, findings to Zack before building:
