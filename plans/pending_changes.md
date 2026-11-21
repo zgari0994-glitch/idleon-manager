@@ -300,3 +300,7 @@ All other items 1-10 approved as stated in chat 10:37.
    b. Gaming plan: bits stalled (mastery 2), upgrades/buffs to buy, Snail 13/49, Duper/Zuper bits.
    c. Then a plan for every other system in goal order.
    d. ASAP (Zack 2026-11-21): quest-only greenstacks (AutoReview "Missable Quest Items") farmed on Autistachio (11th, most quests not started) before a 12th character is needed. Per item: which quest gives it, whether Tachio's quest is still open, farm rate, days to 10M. Done already: Corporatube Sub, Instablab Follower, Cloudsound Follower. Open: Ketchup Bottle 0, Mustard Bottle 0, Employment Statistics 0, Strange Rock 275, Wood Board Bone 135, Loomi's Room Key 52, Time Thingy 892, Goldric P1-P3 ~2K each, Monster Rating 661K (save 2026-11-21).
+
+## Breeding + Sneaking direction (Zack 2026-11-21)
+- Shinies: push every shiny pet whose bonus is a faster-shiny-rate to level 20-25 first, THEN go in order of importance (not "quickest"). DNA: faster-shiny upgrade (Grand Martial of Shinytown) first, per Pulse "faster shinies is priority one"; Blooming Axe ranked first only by my weights, wrong.
+- Sneaking/Jade: plan from creators (thresholds, must-buys like Pulse's Centurion omni jade) vs what Zack owns, then exact jade spend. Explain what the daily charm rolls are (Toolbox "Daily charm rolls used x/120").
