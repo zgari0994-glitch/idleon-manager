@@ -240,6 +240,7 @@ except Exception as _e:
 tfiles = sorted(os.path.join(R, 'snapshots', d, 'timers.json') for d in os.listdir(os.path.join(R, 'snapshots'))
                 if os.path.exists(os.path.join(R, 'snapshots', d, 'timers.json')))
 TM = json.load(open(tfiles[-1])) if tfiles else None
+TM_AGE = "" if (tfiles and stamp in str(tfiles[-1])) else (f" (timers read {TM.get('captured_utc','?')[:16]}Z, older than this save: check in game)" if TM else '')
 ready_now = []
 if TM:
     for x in TM['timers'].get('READY NOW', []):
@@ -356,7 +357,9 @@ for name, cfg in Y['characters'].items():
                         st.append(f"{x['name']}: {cur}/{mx[x['name']]} stored" + (" · RUN NOW (max)" if cur >= mx[x['name']] else f" · wait, run at {mx[x['name']]} ({x.get('value','')})"))
                     else:
                         v = x.get('value', '')
-                        st.append(f"{x['name']}: {v}" + (" · already killed this window" if 'Killed' in v else (" · RUN" if bucket == 'READY NOW' else '')))
+                        # Zack 2026-11-21: 'Up · Killed' on Toolbox does not mean you killed it; Up = go kill it
+                        up = v.startswith('Up') or bucket == 'READY NOW'
+                        st.append(f"{x['name']}: " + ("up now, go kill it" if up else v) + TM_AGE)
         if j['job'] in PB: st += PB[j['job']]; kind = 'playbook'
         else:
             kind = 'rinse'

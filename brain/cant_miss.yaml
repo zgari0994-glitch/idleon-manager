@@ -1,0 +1,11 @@
+# Time-sensitive dailies: missing a day wastes progress (Zack 2026-11-21). Shown at the top of the owner's card every day until done.
+# item: count this item across storage + every inventory, done when count >= target
+- owner: Autiszemo
+  text: "Kill the daily Boops wave in Meel's Crypt (one wave a day) for his CHOW"
+  why: "Boops spawn once a day, a missed day is a lost wave"
+  deathnote_label: "Boops in Meel's Crypt"
+- owner: Autistotle
+  text: "Buy the Bone Joe Pickle from the W2 town shop (daily restock)"
+  why: "Zack needs 100 for an Equinox unlock; every missed day pushes it back a day"
+  item: BobJoePickle
+  target: 100

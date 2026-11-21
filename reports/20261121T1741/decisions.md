@@ -103,6 +103,7 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 - sailing: Claim chests every time you're on. The pile holds 30 and fills in about 48 minutes, and every chest is an artifact roll.
 - sailing:   Swap Captain F onto Boat 14 (Captain N goes to Boat 6). That cuts the World's End trip to about 1.07h.
 - sailing:   Swap Captain I onto Boat 12 (Captain L goes to Boat 16). That cuts the World's End trip to about 1.58h.
+- sailing: Captains: buy the shop captain with Loot Value +48% and Boat Speed +40% per level for 21.5M gold bars. It replaces Captain R (Loot Value +9% and Artifact Find Chance +9% per level) on Boat 19. Send Boat 19 home, take R off, delete R, put the new one on, send Boat 19 to Dungeon Cove. Griffy: replace low base-roll captains, the stronger roll passes them at equal levels; keep captains equal to boats.
 - card_engine: Sailing: claim chests every time you're on
 - card_engine: Sailing: move 10 boats to the islands with the best odds for what's left to find:
 - card_engine: Sailing: Boat 3 (Captain C): Petulent Garage -> Candied Island (0.0% -> 1% a chest)
@@ -368,11 +369,11 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 - card_engine: Godshard set: Emperor set (2 / 7 parts) gives ribbons and Exalted Stamps give 1.20x more multi
 - card_engine: Godshard set: Secret set (0 / 5 parts) gives 1.25x Gold Food effect
 - card_engine: Godshard set: Prehistoric set (0 / 11 parts) gives 2.00x EXP Gain in all World 7 Skills
-- card_engine: World bosses + minibosses (DK drop rate): dr Defecaus: Up · Killed · already killed this window
+- card_engine: World bosses + minibosses (DK drop rate): dr Defecaus: up now, go kill it (timers read 2026-11-20T20:42Z, older than this save: check in game)
 - card_engine: World bosses + minibosses (DK drop rate): Dilapidated Slush: 0/10 stored · wait, run at 10 (+1 in 2 days · 2 kills)
 - card_engine: World bosses + minibosses (DK drop rate): Mutated Mush: 0/8 stored · wait, run at 8 (+1 in 3 days · 2 kills)
 - card_engine: World bosses + minibosses (DK drop rate): Domeo Magmus: 0/6 stored · wait, run at 6 (+1 in 3 days · 2 kills)
-- card_engine: World bosses + minibosses (DK drop rate): Baba Yaga: Killed · 22h 20m · already killed this window
+- card_engine: World bosses + minibosses (DK drop rate): Baba Yaga: Killed · 22h 20m (timers read 2026-11-20T20:42Z, older than this save: check in game)
 - card_engine: Unlock: Royal Guardian x2: DK 600+, Masterius (W6 Troll Playground), 250 Orb kills at Bored Beans (fan steps)
 - card_engine: Unlock: Isotope Discovery superbit (+10 atom max): gaming superbits (20/72)
 - card_engine: Prayers: leave Royal Sampler on until print day
@@ -412,7 +413,7 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 - card_engine: Fish prints: Gold Relic is at 31 of 100 days (2.55x print output)
 - card_engine: Fish prints: 1 print swaps are listed on the owners' cards
 - card_engine: Fish prints: Print day is when all 6 print buffs are done
-- card_engine: Emperor showdowns: use your 10 Emperor attempts and push past showdown 57
+- card_engine: Emperor showdowns: use your 2 Emperor attempts and push past showdown 67
 - card_engine: Prayers: leave Royal Sampler on until print day
 - card_engine: Prayers: Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)
 - card_engine: Worship: worship level 98, charge full in 20d 11h
@@ -574,7 +575,7 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 | research | DO |  | 1 | 1 | 0 |  |
 | rift | DO |  | 1 | 1 | 0 |  |
 | royal_armory | NOTHING | 2 info lines, no action | 0 | 2 | 0 |  |
-| sailing | DO |  | 3 | 34 | 0 | 1 |
+| sailing | DO |  | 4 | 37 | 0 | 1 |
 | saltlick | NOTHING | 2 info lines, no action | 0 | 2 | 0 | 1 |
 | shrines | BUILD | lean AutoReview check only, no planner |  |  |  |  |
 | slab | NOTHING | 1 info lines, no action | 0 | 1 | 0 |  |

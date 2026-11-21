@@ -60,6 +60,12 @@ Plain English, like someone talking. Lead with what to do, a few words of why. R
 
 - Library checkouts: always show the account rank (#1-55) on every talent line, in cards and when relaying a card in chat. Ranking is rebuilt every pull (extras.talent_rank -> plans/talents_<save>.json), so bought talents drop off and the next ones move up. Zack works single digits first (Zack 2026-11-21).
 
+## Systems, freshness, can't-miss (Zack 2026-11-21)
+- Every owned system shows on its character's card every day; every system that pushes the account gets a standing goal + plan (help the main goal first, never "not now"). Main goal switches when Spelunking's blocker becomes another system.
+- Never accept stale data: daily counters from this pull's save/timers (every pull refreshes dashboard timers); a page that won't refresh gets diagnosed with the site index (sources/creators/idleon-toolbox-guide.md) and fixed quietly, then reported.
+- brain/cant_miss.yaml = time-sensitive dailies (shown at the top of the owner's card until done).
+- Queue: Construction facelift (Tiny/Polymer cogs, Flaggy, board review vs meta), Gaming plan, then every system. See plans/pending_changes.md.
+
 ## Never say "no data" (Zack rule)
 Before a card says no data / gap, check the Toolbox map (sources/creators/idleon-toolbox-guide.md), the system index, the dashboard timers and the raw save. If Toolbox shows it, the card uses it.
 

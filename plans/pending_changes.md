@@ -289,3 +289,13 @@ All other items 1-10 approved as stated in chat 10:37.
 - Trades: best upcoming gold bar trades. Boat upgrades affordable now (speed on World's End boats, loot elsewhere, my read).
 - The Maw opens from the Research grid node, not clouds.
 - FIX NEEDED: Sailing page failed in the last two bulk reads, and the captain shop resets daily. Sailing must refresh every pull, or the card says the shop is old (done).
+
+## System goals + freshness + can't-miss (Zack 2026-11-21, approved)
+1. Every system a character owns shows on its card every day (status line even when nothing needed). DONE in cards3 ("Systems (every day)").
+   NEXT: every major and minor system that pushes the account gets its own standing goal + plan (secondary goal). If it can help the main goal (Spelunking POW), that comes first; if not, it still progresses. Never "we're not doing this now". When Spelunking's blocker becomes another system (e.g. Divinity), the main goal switches to it.
+2. Never accept stale data. Daily counters come from this pull's save or this pull's timers. Emperor attempts now from the save (OptLacc 370). Boss lines say "up now" and show the timer read age when older than the save. Every pull refreshes dashboard timers. When a page doesn't refresh, find out why (site index: sources/creators/idleon-toolbox-guide.md) and fix it quietly, then tell Zack.
+3. Can't-miss dailies (brain/cant_miss.yaml): time-sensitive items on the right owner's card until done (Zemo Boops CHOW wave; Totle Bone Joe Pickle 41/100 for Equinox).
+4. Research queue, findings to Zack before building:
+   a. Construction facelift: Tiny Cogs, Polymer cogs / Polymerization, whether Flaggy rate matters again, cog board review vs current meta from data (move these cogs here), daily cog cash-in routine, ~200 spare tower levels.
+   b. Gaming plan: bits stalled (mastery 2), upgrades/buffs to buy, Snail 13/49, Duper/Zuper bits.
+   c. Then a plan for every other system in goal order.

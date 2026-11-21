@@ -20,9 +20,13 @@
   "  Swap Captain F onto Boat 14 (Captain N goes to Boat 6). That cuts the World's End trip to about 1.07h.",
   "  Swap Captain I onto Boat 12 (Captain L goes to Boat 16). That cuts the World's End trip to about 1.58h.",
   "Boat 14 and Boat 12 go to World's End to hunt the ones you've never found.",
-  "Never found: Obsidian, Pointagon, Ender Pearl, Fang of the Gods, Nomenclature, Me First Dollar, Bloodclot. Four of them are in The Maw, which needs cloud discovery first.",
+  "Never found: Obsidian, Pointagon, Ender Pearl, Fang of the Gods, Nomenclature, Me First Dollar, Bloodclot. Four of them are in The Maw, which opens from the Research grid node The Maw (not clouds).",
   "Check in game that Autistocat is linked to Purrmep in Divinity (boat speed). Toolbox says yes, AutoReview says no.",
-  "When the Sailing Speed ballot is up, World's End trips take half as long."
+  "When the Sailing Speed ballot is up, World's End trips take half as long.",
+  "Sailing page didn't refresh on the last read, so the captain shop below is old (it resets daily). Check the shop in game before buying.",
+  "Captains: buy the shop captain with Loot Value +48% and Boat Speed +40% per level for 21.5M gold bars. It replaces Captain R (Loot Value +9% and Artifact Find Chance +9% per level) on Boat 19. Send Boat 19 home, take R off, delete R, put the new one on, send Boat 19 to Dungeon Cove. Griffy: replace low base-roll captains, the stronger roll passes them at equal levels; keep captains equal to boats.",
+  "Trades: best upcoming gold bar trades: 23/11/2026 13:00 give 16.8M get 98.7B; 27/11/2026 07:00 give 16.8M get 98.7B; 25/11/2026 19:00 give 16M get 58.7B. (Griffy: trade treasures for gold bars to upgrade boats)",
+  "Boat upgrades you can afford now: Boat 1 loot to 128; Boat 2 loot to 88; Boat 3 loot to 88; Boat 4 loot to 88; Boat 5 loot to 80; Boat 9 loot to 88. (my read: speed on World's End boats, loot elsewhere)"
  ],
  "char_lines": {},
  "routed": {
@@ -1224,6 +1228,632 @@
      ]
     ],
     "afc_at_avg": 238
+   }
+  ],
+  "_caps": {
+   "A": {
+    "captain": "A",
+    "level": 17,
+    "boat": 1,
+    "buffs": [
+     [
+      "Loot Value",
+      510.0,
+      30
+     ],
+     [
+      "Artifact Find Chance",
+      119.0,
+      7
+     ]
+    ]
+   },
+   "B": {
+    "captain": "B",
+    "level": 17,
+    "boat": 2,
+    "buffs": [
+     [
+      "Loot Value",
+      408.0,
+      24
+     ],
+     [
+      "Boat Speed",
+      153.0,
+      9
+     ]
+    ]
+   },
+   "C": {
+    "captain": "C",
+    "level": 16,
+    "boat": 3,
+    "buffs": [
+     [
+      "Boat Speed",
+      224.0,
+      14
+     ],
+     [
+      "Artifact Find Chance",
+      144.0,
+      9
+     ]
+    ]
+   },
+   "D": {
+    "captain": "D",
+    "level": 17,
+    "boat": 4,
+    "buffs": [
+     [
+      "Loot Value",
+      272.0,
+      16
+     ],
+     [
+      "Boat Speed",
+      153.0,
+      9
+     ]
+    ]
+   },
+   "E": {
+    "captain": "E",
+    "level": 17,
+    "boat": 5,
+    "buffs": [
+     [
+      "Boat Speed",
+      221.0,
+      13
+     ],
+     [
+      "Loot Value",
+      782.0,
+      46
+     ]
+    ]
+   },
+   "F": {
+    "captain": "F",
+    "level": 18,
+    "boat": 14,
+    "buffs": [
+     [
+      "Boat Speed",
+      666.0,
+      37
+     ],
+     [
+      "Loot Value",
+      774.0,
+      43
+     ]
+    ]
+   },
+   "G": {
+    "captain": "G",
+    "level": 17,
+    "boat": 7,
+    "buffs": [
+     [
+      "Loot Value",
+      221.0,
+      13
+     ],
+     [
+      "Boat Speed",
+      119.0,
+      7
+     ]
+    ]
+   },
+   "H": {
+    "captain": "H",
+    "level": 17,
+    "boat": 8,
+    "buffs": [
+     [
+      "Boat Speed",
+      187.0,
+      11
+     ],
+     [
+      "Loot Value",
+      170.0,
+      10
+     ]
+    ]
+   },
+   "I": {
+    "captain": "I",
+    "level": 18,
+    "boat": 12,
+    "buffs": [
+     [
+      "Boat Speed",
+      252.0,
+      14
+     ],
+     [
+      "Boat Speed",
+      252.0,
+      14
+     ]
+    ]
+   },
+   "J": {
+    "captain": "J",
+    "level": 16,
+    "boat": 10,
+    "buffs": [
+     [
+      "Rare Chest Chance",
+      176.0,
+      11
+     ],
+     [
+      "Artifact Find Chance",
+      208.0,
+      13
+     ]
+    ]
+   },
+   "K": {
+    "captain": "K",
+    "level": 18,
+    "boat": 11,
+    "buffs": [
+     [
+      "Rare Chest Chance",
+      180.0,
+      10
+     ],
+     [
+      "Rare Chest Chance",
+      270.0,
+      15
+     ]
+    ]
+   },
+   "L": {
+    "captain": "L",
+    "level": 18,
+    "boat": 16,
+    "buffs": [
+     [
+      "Loot Value",
+      486.0,
+      27
+     ],
+     [
+      "Rare Chest Chance",
+      90.0,
+      5
+     ]
+    ]
+   },
+   "M": {
+    "captain": "M",
+    "level": 13,
+    "boat": 13,
+    "buffs": [
+     [
+      "Loot Value",
+      247.0,
+      19
+     ],
+     [
+      "Loot Value",
+      286.0,
+      22
+     ]
+    ]
+   },
+   "N": {
+    "captain": "N",
+    "level": 17,
+    "boat": 6,
+    "buffs": [
+     [
+      "Artifact Find Chance",
+      153.0,
+      9
+     ],
+     [
+      "Artifact Find Chance",
+      136.0,
+      8
+     ]
+    ]
+   },
+   "O": {
+    "captain": "O",
+    "level": 16,
+    "boat": 15,
+    "buffs": [
+     [
+      "Rare Chest Chance",
+      336.0,
+      21
+     ],
+     [
+      "Artifact Find Chance",
+      272.0,
+      17
+     ]
+    ]
+   },
+   "P": {
+    "captain": "P",
+    "level": 17,
+    "boat": 9,
+    "buffs": [
+     [
+      "Cloud Discover Rate",
+      1326.0,
+      78
+     ],
+     [
+      "Rare Chest Chance",
+      527.0,
+      31
+     ]
+    ]
+   },
+   "Q": {
+    "captain": "Q",
+    "level": 17,
+    "boat": 18,
+    "buffs": [
+     [
+      "Artifact Find Chance",
+      136.0,
+      8
+     ],
+     [
+      "Artifact Find Chance",
+      187.0,
+      11
+     ]
+    ]
+   },
+   "R": {
+    "captain": "R",
+    "level": 18,
+    "boat": 19,
+    "buffs": [
+     [
+      "Loot Value",
+      162.0,
+      9
+     ],
+     [
+      "Artifact Find Chance",
+      162.0,
+      9
+     ]
+    ]
+   },
+   "S": {
+    "captain": "S",
+    "level": 19,
+    "boat": 20,
+    "buffs": [
+     [
+      "Loot Value",
+      304.0,
+      16
+     ],
+     [
+      "Boat Speed",
+      190.0,
+      10
+     ]
+    ]
+   },
+   "T": {
+    "captain": "T",
+    "level": 14,
+    "boat": 17,
+    "buffs": [
+     [
+      "Artifact Find Chance",
+      98.0,
+      7
+     ],
+     [
+      "Artifact Find Chance",
+      84.0,
+      6
+     ]
+    ]
+   }
+  },
+  "_shop": [
+   {
+    "buffs": [
+     [
+      "Loot Value",
+      48
+     ],
+     [
+      "Boat Speed",
+      40
+     ]
+    ],
+    "cost": "21.5M"
+   },
+   {
+    "buffs": [
+     [
+      "Loot Value",
+      12
+     ],
+     [
+      "Loot Value",
+      10
+     ]
+    ],
+    "cost": "3.98K"
+   },
+   {
+    "buffs": [
+     [
+      "Cloud Discover Rate",
+      10
+     ],
+     [
+      "Artifact Find Chance",
+      12
+     ]
+    ],
+    "cost": "5.76K"
+   },
+   {
+    "buffs": [
+     [
+      "Artifact Find Chance",
+      14
+     ],
+     [
+      "Cloud Discover Rate",
+      30
+     ]
+    ],
+    "cost": "15.5K"
+   }
+  ],
+  "_trades": [
+   {
+    "when": "19/11/2026 07:00",
+    "give": "16M",
+    "get": "187M",
+    "ratio": 11.6875
+   },
+   {
+    "when": "19/11/2026 13:00",
+    "give": "16M",
+    "get": "3.5B",
+    "ratio": 218.75
+   },
+   {
+    "when": "19/11/2026 19:00",
+    "give": "16.5M",
+    "get": "37.8B",
+    "ratio": 2290.909090909091
+   },
+   {
+    "when": "20/11/2026 01:00",
+    "give": "16M",
+    "get": "5B",
+    "ratio": 312.5
+   },
+   {
+    "when": "20/11/2026 07:00",
+    "give": "143M",
+    "get": "71.7B",
+    "ratio": 501.3986013986014
+   },
+   {
+    "when": "20/11/2026 13:00",
+    "give": "704M",
+    "get": "138B",
+    "ratio": 196.02272727272728
+   },
+   {
+    "when": "20/11/2026 19:00",
+    "give": "846M",
+    "get": "40.5B",
+    "ratio": 47.87234042553192
+   },
+   {
+    "when": "21/11/2026 01:00",
+    "give": "16M",
+    "get": "1.37B",
+    "ratio": 85.625
+   },
+   {
+    "when": "21/11/2026 07:00",
+    "give": "16M",
+    "get": "853M",
+    "ratio": 53.3125
+   },
+   {
+    "when": "21/11/2026 13:00",
+    "give": "1.09B",
+    "get": "20.4B",
+    "ratio": 18.71559633027523
+   },
+   {
+    "when": "21/11/2026 19:00",
+    "give": "16M",
+    "get": "131M",
+    "ratio": 8.1875
+   },
+   {
+    "when": "22/11/2026 01:00",
+    "give": "16M",
+    "get": "72.8M",
+    "ratio": 4.55
+   },
+   {
+    "when": "22/11/2026 07:00",
+    "give": "16M",
+    "get": "187M",
+    "ratio": 11.6875
+   },
+   {
+    "when": "22/11/2026 13:00",
+    "give": "47.1M",
+    "get": "6.44B",
+    "ratio": 136.73036093418258
+   },
+   {
+    "when": "22/11/2026 19:00",
+    "give": "198M",
+    "get": "159B",
+    "ratio": 803.030303030303
+   },
+   {
+    "when": "23/11/2026 01:00",
+    "give": "1.09B",
+    "get": "20.4B",
+    "ratio": 18.71559633027523
+   },
+   {
+    "when": "23/11/2026 07:00",
+    "give": "17.6M",
+    "get": "50.1M",
+    "ratio": 2.846590909090909
+   },
+   {
+    "when": "23/11/2026 13:00",
+    "give": "16.8M",
+    "get": "98.7B",
+    "ratio": 5875.0
+   },
+   {
+    "when": "23/11/2026 19:00",
+    "give": "47.1M",
+    "get": "6.44B",
+    "ratio": 136.73036093418258
+   },
+   {
+    "when": "24/11/2026 01:00",
+    "give": "16M",
+    "get": "334M",
+    "ratio": 20.875
+   },
+   {
+    "when": "24/11/2026 07:00",
+    "give": "201M",
+    "get": "257B",
+    "ratio": 1278.6069651741293
+   },
+   {
+    "when": "24/11/2026 13:00",
+    "give": "1.09B",
+    "get": "20.4B",
+    "ratio": 18.71559633027523
+   },
+   {
+    "when": "24/11/2026 19:00",
+    "give": "16M",
+    "get": "477M",
+    "ratio": 29.8125
+   },
+   {
+    "when": "25/11/2026 01:00",
+    "give": "16M",
+    "get": "5B",
+    "ratio": 312.5
+   },
+   {
+    "when": "25/11/2026 07:00",
+    "give": "16M",
+    "get": "187M",
+    "ratio": 11.6875
+   },
+   {
+    "when": "25/11/2026 13:00",
+    "give": "201M",
+    "get": "257B",
+    "ratio": 1278.6069651741293
+   },
+   {
+    "when": "25/11/2026 19:00",
+    "give": "16M",
+    "get": "58.7B",
+    "ratio": 3668.75
+   },
+   {
+    "when": "26/11/2026 01:00",
+    "give": "47.1M",
+    "get": "6.44B",
+    "ratio": 136.73036093418258
+   },
+   {
+    "when": "26/11/2026 07:00",
+    "give": "16.5M",
+    "get": "37.8B",
+    "ratio": 2290.909090909091
+   },
+   {
+    "when": "26/11/2026 13:00",
+    "give": "16M",
+    "get": "477M",
+    "ratio": 29.8125
+   },
+   {
+    "when": "26/11/2026 19:00",
+    "give": "16M",
+    "get": "3.5B",
+    "ratio": 218.75
+   },
+   {
+    "when": "27/11/2026 01:00",
+    "give": "143M",
+    "get": "71.7B",
+    "ratio": 501.3986013986014
+   },
+   {
+    "when": "27/11/2026 07:00",
+    "give": "16.8M",
+    "get": "98.7B",
+    "ratio": 5875.0
+   },
+   {
+    "when": "27/11/2026 13:00",
+    "give": "201M",
+    "get": "257B",
+    "ratio": 1278.6069651741293
+   },
+   {
+    "when": "27/11/2026 19:00",
+    "give": "17.6M",
+    "get": "50.1M",
+    "ratio": 2.846590909090909
+   },
+   {
+    "when": "28/11/2026 01:00",
+    "give": "16M",
+    "get": "131M",
+    "ratio": 8.1875
+   },
+   {
+    "when": "28/11/2026 07:00",
+    "give": "1.09B",
+    "get": "20.4B",
+    "ratio": 18.71559633027523
+   },
+   {
+    "when": "28/11/2026 13:00",
+    "give": "201M",
+    "get": "257B",
+    "ratio": 1278.6069651741293
    }
   ],
   "artifacts": [

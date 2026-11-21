@@ -13,6 +13,29 @@ C = json.load(open(ROOT / 'plans' / 'cards.json'))
 D = json.load(open(ROOT / 'reports' / SAVE / 'decisions.json'))
 import yaml
 RES = yaml.safe_load(open(ROOT / 'brain' / 'reserves.yaml')) or {}
+# Zack 2026-11-21: every system a character owns shows every day, even with nothing to do (agreed spec: dailies stay full)
+IDX = yaml.safe_load(open(ROOT / 'model' / 'system_index.yaml')) or {}
+CM = yaml.safe_load(open(ROOT / 'brain' / 'cant_miss.yaml')) or []
+def item_count(code):
+    import gzip
+    d = json.load(gzip.open(ROOT / 'snapshots' / SAVE / 'raw.json.gz')); d = d.get('data', d)
+    L = lambda k: json.loads(d[k]) if isinstance(d.get(k), str) else (d.get(k) or [])
+    tot = sum(q for x, q in zip(L('ChestOrder'), L('ChestQuantity')) if x == code)
+    for c in range(11): tot += sum(q for x, q in zip(L(f'InventoryOrder_{c}'), L(f'ItemQTY_{c}')) if x == code)
+    return int(tot)
+def cant_miss(name):
+    out = []
+    for c in CM:
+        if c['owner'] != name: continue
+        extra = ''
+        if c.get('item'):
+            n = item_count(c['item'])
+            if n >= c.get('target', 0): continue
+            extra = f" ({n} of {c['target']})"
+        out.append(f"{c['text']}{extra}. Why: {c['why']}")
+    return out
+def owned(name): return sorted(s for s, v in IDX.items() if name in (v.get('owners') or []))
+def sys_words(s): return [w for w in s.replace('_', ' ').split() if len(w) > 3] or [s]
 
 STATUS = re.compile(r"nothing needed|nothing to buy|: worship level \d+, charge full|printing: .*samples held|lab is fine|no samples and no prints|"
                     r"tome is at|charges much faster|If he ever becomes", re.I)
@@ -42,11 +65,11 @@ cards, md = [], [f'# Cards {SAVE}', '']
 holes = D.get('holes', [])
 for ch in C['chars']:
     name = ch['name']; b = D['by_char'].get(name, {})
-    card = {'name': name, 'spend': [], 'do': [], 'toward': [], 'locked': [], 'dont': [], 'notes': [], 'bags': [], 'park': ch.get('park') or ''}
+    card = {'name': name, 'systems': [], 'spend': [], 'do': [], 'toward': [], 'locked': [], 'dont': [], 'notes': [], 'bags': [], 'park': ch.get('park') or ''}
     for blk in ('daily', 'house'):
         for st in ch.get(blk) or []:
             do = st['do']
-            if STATUS.search(do) and not st.get('sub'): continue
+            if STATUS.search(do) and not st.get('sub'): card['systems'].append(do); continue
             if NOPLAN.search(do): card['notes'].append(f"{do.split(':')[0]}: no plan yet (hole, being built)"); continue
             m = BAG.match(do)
             if m: card['bags'].append(m.group(1)); continue
@@ -61,9 +84,15 @@ for ch in C['chars']:
             if SPEND.search(do): card['spend'].append({'do': do, 'why': st.get('why', ''), 'sub': subs_for(st, True)}); continue
             card['do'].append({'do': do, 'sub': subs_for(st, False)})
     card['notes'] += b.get('notes', [])
+    seen = ' '.join([x if isinstance(x, str) else x.get('do', '') + ' ' + ' '.join(x.get('sub') or []) for k in ('systems', 'spend', 'do', 'toward', 'locked', 'dont', 'notes') for x in card[k]]).lower()
+    for s in owned(name):
+        if not any(w.lower() in seen for w in sys_words(s)):
+            card['systems'].append(f"{s.replace('_', ' ').title()}: no check yet, plan being built (owned by {name})")
     cards.append(card)
 
     md.append(f'## {name}')
+    cm = cant_miss(name); card['cant_miss'] = cm
+    if cm: md.append("Can't miss today:"); md += [f'- {x}' for x in cm]
     md.append('Spend:')
     if card['spend']:
         for i, s in enumerate(card['spend'], 1):
@@ -72,6 +101,7 @@ for ch in C['chars']:
     md.append('Do:'); md.append('1. Grab anvil production if it is cranking')
     for i, s in enumerate(card['do'], 2):
         md.append(f"{i}. {s['do']}"); md += [f"   {chr(97 + j)}. {x}" for j, x in enumerate(s['sub'])]
+    if card['systems']: md.append('Systems (every day):'); md += [f'- {x}' for x in card['systems']]
     if card['bags']: md.append('Bags to pick up: ' + '; '.join(card['bags']))
     if card['dont']: md.append("Don't:"); md += [f'- {x}' for x in card['dont']]
     if card['toward']: md.append('Working toward (no step today):'); md += [f'- {x}' for x in card['toward']]

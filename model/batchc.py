@@ -7,7 +7,17 @@ G = lambda t, k: (re.search(re.escape(k) + r'\n([^\n]+)', t) or [None, None])[1]
 def build_emperor():
     t = tb('emperor')['_page']['text']
     bon = [(a, tot, nxt) for a, tot, nxt in re.findall(r'\n([A-Z][^\n]+)\nTotal\n([^\n]+)\nPer level\n[^\n]+\nReached at\n[^\n]+\nNext at\n([^\n]+)', t)]
-    return save('emperor', {'best': G(t, 'Highest showdown'), 'attempts': G(t, 'Attempts'), 'next_bonus': G(t, 'Next level bonus'), 'bonuses': bon})
+    # Zack 2026-11-21: attempts come from THIS save (OptLacc[370], AutoReview's own rule), never yesterday's Toolbox page
+    att = G(t, 'Attempts') or '0 / 0'
+    try:
+        import gzip, json
+        from tbhelp import SNAP
+        raw = json.load(gzip.open(SNAP / 'raw.json.gz')); ol = raw.get('OptLacc') or raw.get('data', {}).get('OptLacc')
+        ol = json.loads(ol) if isinstance(ol, str) else ol
+        att = f"{int(1 - float(ol[370]))} / {att.split(' / ')[-1]}"; best_save = int(float(ol[369]))
+    except Exception:
+        best_save = None
+    return save('emperor', {'best': best_save or G(t, 'Highest showdown'), 'attempts': att, 'next_bonus': G(t, 'Next level bonus'), 'bonuses': bon})
 
 
 def lines_emperor(o):
