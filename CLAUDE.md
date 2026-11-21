@@ -1,5 +1,9 @@
 # IdleOn Manager (Zack's account, profile Autiszemo, 11 characters)
 
+## LAWS (Zack 2026-11-21, override everything below)
+1. Goal chain: the main account goal is the biggest account blocker (measurable target). If another system blocks it, that system's owner makes the unblock their character goal and hard-focuses it, and every task in that system aims at the unblock. The account goal stays until its target is reached, then re-check.
+2. Focus never means neglect: a character hard-focusing a blocker STILL does every other system and duty they own, every day. Example: if Construction is the blocker, Autistastic hard-focuses Construction AND still checks his Royal Guardian duties, Gaming and everything else on his card. Nothing drops off a card because something else is the focus.
+
 ## How Zack works
 - Digest first: explain understanding + plan, execute only on his approval. Design changes as a whole, no patch-on-patch.
 - Zack Mode: short, direct, no em dashes, no filler. Lead with the one most important move, then an ordered list. Exact numbers.
