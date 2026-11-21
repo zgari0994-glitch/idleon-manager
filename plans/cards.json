@@ -192,10 +192,10 @@
      "do": "Super talents: spend the open points",
      "why": "points are permanent, every pick is from Griffy or Pulse",
      "sub": [
-      "Talent preset 1: super Big Pick (Pulse: must super on the skilling setup for copper prints)",
-      "Talent preset 1: super Worming Undercover (Griffy: fishing efficiency)",
-      "Talent preset 2: super Monster Decimator (Griffy+Pulse: good on active and AFK setups)",
-      "Talent preset 2: super Graveyard Shift (Griffy: better respawn)"
+      "Talent preset 1 (skilling): super Big Pick (Pulse: must super on the skilling setup for copper prints)",
+      "Talent preset 1 (skilling): super Worming Undercover (Griffy: fishing efficiency)",
+      "Talent preset 2 (fighting): super Monster Decimator (Griffy+Pulse: good on active and AFK setups)",
+      "Talent preset 2 (fighting): super Graveyard Shift (Griffy: better respawn)"
      ]
     },
     {
@@ -336,9 +336,9 @@
      "do": "Super talents: spend the open points",
      "why": "points are permanent, every pick is from Griffy or Pulse",
      "sub": [
-      "Talent preset 1: super Skill Wiz (Griffy: skilling output)",
-      "Talent preset 1: hold the other 1 (no more sourced picks)",
-      "Talent preset 2: super Sizzling Skull (Griffy+Pulse: drives auto attack damage, 100% super)"
+      "Talent preset 1 (skilling): super Skill Wiz (Griffy: skilling output)",
+      "Talent preset 1 (skilling): hold the other 1 (no more sourced picks)",
+      "Talent preset 2 (fighting): super Sizzling Skull (Griffy+Pulse: drives auto attack damage, 100% super)"
      ]
     },
     {
@@ -500,8 +500,8 @@
      "do": "Super talents: spend the open points",
      "why": "points are permanent, every pick is from Griffy or Pulse",
      "sub": [
-      "Talent preset 1: super Skill Ambidexterity (Griffy: skilling, before Agi Again)",
-      "Talent preset 2: super Archlord Of The Pirates (Griffy: multiplicative drop rate and EXP. Pulse: make sure it is supered)"
+      "Talent preset 1 (skilling): super Skill Ambidexterity (Griffy: skilling, before Agi Again)",
+      "Talent preset 2 (fighting): super Archlord Of The Pirates (Griffy: multiplicative drop rate and EXP. Pulse: make sure it is supered)"
      ]
     },
     {
@@ -694,9 +694,9 @@
      "do": "Super talents: spend the open points",
      "why": "points are permanent, every pick is from Griffy or Pulse",
      "sub": [
-      "Talent preset 1: super Copper Collector (Griffy+Pulse: mining efficiency)",
-      "Talent preset 1: super Tool Proficiency (Griffy+Pulse: mining power, bigger prints)",
-      "Talent preset 2: super Knightly Disciple (Griffy: longer duration, more knights)"
+      "Talent preset 1 (skilling): super Copper Collector (Griffy+Pulse: mining efficiency)",
+      "Talent preset 1 (skilling): super Tool Proficiency (Griffy+Pulse: mining power, bigger prints)",
+      "Talent preset 2 (fighting): super Knightly Disciple (Griffy: longer duration, more knights)"
      ]
     },
     {
@@ -856,10 +856,10 @@
      "do": "Super talents: spend the open points",
      "why": "points are permanent, every pick is from Griffy or Pulse",
      "sub": [
-      "Talent preset 1: super Meteor Shower (Griffy: faster clears)",
-      "Talent preset 1: super Memorial Skulls (Griffy: kill scaling from stats)",
-      "Talent preset 2: super Leaf Thief (Griffy: larger prints)",
-      "Talent preset 2: super Skill Wiz (Griffy: skill output)"
+      "Talent preset 1 (fighting): super Meteor Shower (Griffy: faster clears)",
+      "Talent preset 1 (fighting): super Memorial Skulls (Griffy: kill scaling from stats)",
+      "Talent preset 2 (skilling): super Leaf Thief (Griffy: larger prints)",
+      "Talent preset 2 (skilling): super Skill Wiz (Griffy: skill output)"
      ]
     },
     {
@@ -987,6 +987,11 @@
      "sub": []
     },
     {
+     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
+     "why": "the other preset holds the wrong talents for this job",
+     "sub": []
+    },
+    {
      "do": "Cards: nothing needed",
      "why": "",
      "sub": []
@@ -1017,8 +1022,8 @@
      "do": "Super talents: spend the open points",
      "why": "points are permanent, every pick is from Griffy or Pulse",
      "sub": [
-      "Talent preset 2: super Elusive Efficiency (Griffy: skilling)",
-      "Talent preset 2: super Eagle Eye (Griffy: more critters and EXP)"
+      "Talent preset 2 (skilling): super Elusive Efficiency (Griffy: skilling)",
+      "Talent preset 2 (skilling): super Eagle Eye (Griffy: more critters and EXP)"
      ]
     },
     {
@@ -1170,8 +1175,10 @@
      "do": "Super talents: spend the open points",
      "why": "points are permanent, every pick is from Griffy or Pulse",
      "sub": [
-      "Talent preset 1: super Gimme Gimme (Griffy: more double loot)",
-      "Talent preset 2: super Left Hand Of Learning (Griffy+Pulse: more EXP for others, global talents work with supers now)"
+      "Talent preset 1 (fighting): Extra Bags is supered but isn't in his tree (left from an old class?). Reset it before spending",
+      "Talent preset 1 (fighting): super Gimme Gimme (Griffy: more double loot)",
+      "Talent preset 2 (skilling): Happy Dude is supered but isn't in his tree (left from an old class?). Reset it before spending",
+      "Talent preset 2 (skilling): super Left Hand Of Learning (Griffy+Pulse: more EXP for others, global talents work with supers now)"
      ]
     },
     {
@@ -1311,12 +1318,12 @@
      "do": "Super talents: spend the open points",
      "why": "points are permanent, every pick is from Griffy or Pulse",
      "sub": [
-      "Talent preset 1: super Big Pick (Griffy+Pulse: mining efficiency, copper prints)",
-      "Talent preset 1: super Copper Collector (Griffy+Pulse: mining efficiency)",
-      "Talent preset 1: super Tool Proficiency (Griffy+Pulse: mining power, bigger prints)",
-      "Talent preset 1: super Brute Efficiency (Griffy+Pulse: efficiency on skilling setups)",
-      "Talent preset 2: super Copper Collector (Griffy+Pulse: mining efficiency)",
-      "Talent preset 2: super Tool Proficiency (Griffy+Pulse: mining power, bigger prints)"
+      "Talent preset 1 (fighting): super Shockwave Slash (Griffy: carries most of the DK kit)",
+      "Talent preset 1 (fighting): super Orb Of Remembrance (Pulse: top five, fixed now so super it)",
+      "Talent preset 1 (fighting): super Charred Skulls (Griffy: kill scaling from stats)",
+      "Talent preset 1 (fighting): super Knightly Disciple (Griffy: longer duration, more knights)",
+      "Talent preset 2 (skilling): super Copper Collector (Griffy+Pulse: mining efficiency)",
+      "Talent preset 2 (skilling): super Tool Proficiency (Griffy+Pulse: mining power, bigger prints)"
      ]
     },
     {
@@ -1458,10 +1465,10 @@
      "do": "Super talents: spend the open points",
      "why": "points are permanent, every pick is from Griffy or Pulse",
      "sub": [
-      "Talent preset 1: super Meteor Shower (Griffy: faster clears)",
-      "Talent preset 1: super Memorial Skulls (Griffy: kill scaling from stats)",
-      "Talent preset 2: super Log On Logs (Griffy: big boost to chopping prints)",
-      "Talent preset 2: super Skill Wiz (Griffy: skill output)"
+      "Talent preset 1 (fighting): super Meteor Shower (Griffy: faster clears)",
+      "Talent preset 1 (fighting): super Memorial Skulls (Griffy: kill scaling from stats)",
+      "Talent preset 2 (skilling): super Log On Logs (Griffy: big boost to chopping prints)",
+      "Talent preset 2 (skilling): super Skill Wiz (Griffy: skill output)"
      ]
     },
     {
@@ -1599,6 +1606,11 @@
      "sub": []
     },
     {
+     "do": "Talents: switch to talent preset 2 (fighting) for where he is parked",
+     "why": "the other preset holds the wrong talents for this job",
+     "sub": []
+    },
+    {
      "do": "Cards: switch to preset 1 (Fighting AFK) for Sir Stache.",
      "why": "",
      "sub": []
@@ -1644,8 +1656,12 @@
      "do": "Super talents: spend the open points",
      "why": "points are permanent, every pick is from Griffy or Pulse",
      "sub": [
-      "Talent preset 1: the save shows another class's talents supered (Stacked Skulls). Check in game before spending",
-      "Talent preset 2: the save shows another class's talents supered (Teleki'net'ic Logs, Elusive Efficiency, Briar Patch Runner). Check in game before spending"
+      "Talent preset 1 (skilling): Stacked Skulls is supered but isn't in his tree (left from an old class?). Reset it before spending",
+      "Talent preset 1 (skilling): super Brute Efficiency (Griffy+Pulse: big efficiency on skilling setups)",
+      "Talent preset 1 (skilling): super Big Pick (Pulse: must super on the skilling setup for copper prints)",
+      "Talent preset 1 (skilling): super Worming Undercover (Griffy: fishing efficiency)",
+      "Talent preset 2 (fighting): Teleki'net'ic Logs, Elusive Efficiency, Briar Patch Runner is supered but isn't in his tree (left from an old class?). Reset it before spending",
+      "Talent preset 2 (fighting): 1 open, hold them (no sourced pick)"
      ]
     },
     {
@@ -1776,8 +1792,8 @@
      "do": "Super talents: spend the open points",
      "why": "points are permanent, every pick is from Griffy or Pulse",
      "sub": [
-      "Talent preset 1: 3 open, hold them (no sourced pick)",
-      "Talent preset 2: 3 open, hold them (no sourced pick)"
+      "Talent preset 1 (skilling): 3 open, hold them (no sourced pick)",
+      "Talent preset 2 (fighting): 3 open, hold them (no sourced pick)"
      ]
     },
     {

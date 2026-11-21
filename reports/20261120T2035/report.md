@@ -768,10 +768,10 @@
 - [Autiszemo] Cooking mastery (level 5): Pulse (Aug): for money, 10-15 points on Yummy Peach Ring and 5 on Bundt Cake
 - [Autiszemo] Cooking mastery (level 5): Pulse: push mastery to 15, it scales hard after 10
 - [Autiszemo] Super talents: spend the open points
-- [Autiszemo] Super talents: Talent preset 1: super Big Pick (Pulse: must super on the skilling setup for copper prints)
-- [Autiszemo] Super talents: Talent preset 1: super Worming Undercover (Griffy: fishing efficiency)
-- [Autiszemo] Super talents: Talent preset 2: super Monster Decimator (Griffy+Pulse: good on active and AFK setups)
-- [Autiszemo] Super talents: Talent preset 2: super Graveyard Shift (Griffy: better respawn)
+- [Autiszemo] Super talents: Talent preset 1 (skilling): super Big Pick (Pulse: must super on the skilling setup for copper prints)
+- [Autiszemo] Super talents: Talent preset 1 (skilling): super Worming Undercover (Griffy: fishing efficiency)
+- [Autiszemo] Super talents: Talent preset 2 (fighting): super Monster Decimator (Griffy+Pulse: good on active and AFK setups)
+- [Autiszemo] Super talents: Talent preset 2 (fighting): super Graveyard Shift (Griffy: better respawn)
 - [Autiszemo] Missing bag: Loot Luggage: 1 slots (Vendor)
 - [Autiszemo] Cooking mastery: you have 4,183 ladles on Zemo, use them
 - [Autiszemo] Cooking mastery: Use your ladles on Divorce Cake, one at a time, claiming each kitchen between (Griffy). That counts as ladles used and levels the cake (my read: both conditions at once)
@@ -822,9 +822,9 @@
 - [Autistocat] Traps: 8 traps on a short timer, use 40 hours
 - [Autistocat] Divinity: nothing needed (Doot gives every god to everyone)
 - [Autistocat] Super talents: spend the open points
-- [Autistocat] Super talents: Talent preset 1: super Skill Wiz (Griffy: skilling output)
-- [Autistocat] Super talents: Talent preset 1: hold the other 1 (no more sourced picks)
-- [Autistocat] Super talents: Talent preset 2: super Sizzling Skull (Griffy+Pulse: drives auto attack damage, 100% super)
+- [Autistocat] Super talents: Talent preset 1 (skilling): super Skill Wiz (Griffy: skilling output)
+- [Autistocat] Super talents: Talent preset 1 (skilling): hold the other 1 (no more sourced picks)
+- [Autistocat] Super talents: Talent preset 2 (fighting): super Sizzling Skull (Griffy+Pulse: drives auto attack damage, 100% super)
 - [Autistocat] Missing bag: Loot Luggage: 1 slots (Vendor)
 - [Autistocat] Lab jewels: missing ones unlock from Royal Armory upgrades
 - [Autistocat] Lab jewels: Jewel of Deadly Wrath: 411 more upgrades
@@ -885,8 +885,8 @@
 - [Autisticles] Traps: 8 traps on a short timer, use 40 hours
 - [Autisticles] Divinity: nothing needed (Doot gives every god to everyone)
 - [Autisticles] Super talents: spend the open points
-- [Autisticles] Super talents: Talent preset 1: super Skill Ambidexterity (Griffy: skilling, before Agi Again)
-- [Autisticles] Super talents: Talent preset 2: super Archlord Of The Pirates (Griffy: multiplicative drop rate and EXP. Pulse: make sure it is supered)
+- [Autisticles] Super talents: Talent preset 1 (skilling): super Skill Ambidexterity (Griffy: skilling, before Agi Again)
+- [Autisticles] Super talents: Talent preset 2 (fighting): super Archlord Of The Pirates (Griffy: multiplicative drop rate and EXP. Pulse: make sure it is supered)
 - [Autisticles] Missing bag: Rucksack Of Riches: 1 slots (Vendor)
 - [Autisticles] Missing bag: Loot Luggage: 1 slots (Vendor)
 - [Autisticles] Lab chips: end-goal chips missing, buy when they rotate in
@@ -947,9 +947,9 @@
 - [Autistastic] Traps: 8 traps on a short timer, use 40 hours
 - [Autistastic] Divinity: nothing needed (Doot gives every god to everyone)
 - [Autistastic] Super talents: spend the open points
-- [Autistastic] Super talents: Talent preset 1: super Copper Collector (Griffy+Pulse: mining efficiency)
-- [Autistastic] Super talents: Talent preset 1: super Tool Proficiency (Griffy+Pulse: mining power, bigger prints)
-- [Autistastic] Super talents: Talent preset 2: super Knightly Disciple (Griffy: longer duration, more knights)
+- [Autistastic] Super talents: Talent preset 1 (skilling): super Copper Collector (Griffy+Pulse: mining efficiency)
+- [Autistastic] Super talents: Talent preset 1 (skilling): super Tool Proficiency (Griffy+Pulse: mining power, bigger prints)
+- [Autistastic] Super talents: Talent preset 2 (fighting): super Knightly Disciple (Griffy: longer duration, more knights)
 - [Autistastic] Missing bag: Inventory Bag D: 2 slots (Quest)
 - [Autistastic] Missing bag: Loot Luggage: 1 slots (Vendor)
 - [Autistastic] Royal Guardian super talents: locked, 438 more Royal Armory upgrade levels
@@ -1005,10 +1005,10 @@
 - [Autistabish] Divinity: Blessing: Omniphau (Divinity PTS Gain)
 - [Autistabish] Divinity: God rank (you are 1): Pulse targets 20 (Menagerie challenge, next-patch content) then 25-30. Push it in Divinity week. No-RNG way (Pulse): roll offerings until one shows 100%, then take it. Griffy: use cheap offerings until a guaranteed one shows
 - [Autistabish] Super talents: spend the open points
-- [Autistabish] Super talents: Talent preset 1: super Meteor Shower (Griffy: faster clears)
-- [Autistabish] Super talents: Talent preset 1: super Memorial Skulls (Griffy: kill scaling from stats)
-- [Autistabish] Super talents: Talent preset 2: super Leaf Thief (Griffy: larger prints)
-- [Autistabish] Super talents: Talent preset 2: super Skill Wiz (Griffy: skill output)
+- [Autistabish] Super talents: Talent preset 1 (fighting): super Meteor Shower (Griffy: faster clears)
+- [Autistabish] Super talents: Talent preset 1 (fighting): super Memorial Skulls (Griffy: kill scaling from stats)
+- [Autistabish] Super talents: Talent preset 2 (skilling): super Leaf Thief (Griffy: larger prints)
+- [Autistabish] Super talents: Talent preset 2 (skilling): super Skill Wiz (Griffy: skill output)
 - [Autistabish] Missing bag: Inventory Bag D: 2 slots (Quest)
 - [Autistabish] Missing bag: Rucksack Of Riches: 1 slots (Vendor)
 - [Autistabish] Missing bag: Loot Luggage: 1 slots (Vendor)
@@ -1053,6 +1053,7 @@
 - [Autistacular] Worship: runs the totems: spend charge on the prayer-unlock waves first, then the lowest totem
 - [Autistacular] Worship: Worship level 82, charge full in 20d 16h
 - [Autistacular] 3D Printer slots: printing: Spore Cap (1.4M), Spore Cap (1.4M) | samples held: Spore Cap 1.4M, Bullfrog Horn 238K, Pocket Sand 386K, Floof Ploof 173K, Cracked Glass 189K
+- [Autistacular] Talents: switch to talent preset 2 (skilling) for where he is parked
 - [Autistacular] Cards: nothing needed
 - [Autistacular] Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours
 - [Autistacular] Traps: Now on Froge
@@ -1061,8 +1062,8 @@
 - [Autistacular] Card set: farm 1 Verminous card
 - [Autistacular] Card set: Pulse: Verminous farms on the Insta castle map with Wind Walker + candy (mixed reports, test it)
 - [Autistacular] Super talents: spend the open points
-- [Autistacular] Super talents: Talent preset 2: super Elusive Efficiency (Griffy: skilling)
-- [Autistacular] Super talents: Talent preset 2: super Eagle Eye (Griffy: more critters and EXP)
+- [Autistacular] Super talents: Talent preset 2 (skilling): super Elusive Efficiency (Griffy: skilling)
+- [Autistacular] Super talents: Talent preset 2 (skilling): super Eagle Eye (Griffy: more critters and EXP)
 - [Autistacular] Missing bag: Inventory Bag D: 2 slots (Quest)
 - [Autistacular] Missing bag: Rucksack Of Riches: 1 slots (Vendor)
 - [Autistacular] Missing bag: Loot Luggage: 1 slots (Vendor)
@@ -1114,8 +1115,10 @@
 - [Autistotle] Traps: 8 traps on a short timer, use 40 hours
 - [Autistotle] Divinity: nothing needed (Doot gives every god to everyone)
 - [Autistotle] Super talents: spend the open points
-- [Autistotle] Super talents: Talent preset 1: super Gimme Gimme (Griffy: more double loot)
-- [Autistotle] Super talents: Talent preset 2: super Left Hand Of Learning (Griffy+Pulse: more EXP for others, global talents work with supers now)
+- [Autistotle] Super talents: Talent preset 1 (fighting): Extra Bags is supered but isn't in his tree (left from an old class?). Reset it before spending
+- [Autistotle] Super talents: Talent preset 1 (fighting): super Gimme Gimme (Griffy: more double loot)
+- [Autistotle] Super talents: Talent preset 2 (skilling): Happy Dude is supered but isn't in his tree (left from an old class?). Reset it before spending
+- [Autistotle] Super talents: Talent preset 2 (skilling): super Left Hand Of Learning (Griffy+Pulse: more EXP for others, global talents work with supers now)
 - [Autistotle] Missing bag: Inventory Bag D: 2 slots (Quest)
 - [Autistotle] Missing bag: Loot Luggage: 1 slots (Vendor)
 - [Autistotle] Voting: your pick (reset day)
@@ -1160,12 +1163,12 @@
 - [Autistomatic] Traps: 8 traps on a short timer, use 40 hours
 - [Autistomatic] Divinity: nothing needed (Doot gives every god to everyone)
 - [Autistomatic] Super talents: spend the open points
-- [Autistomatic] Super talents: Talent preset 1: super Big Pick (Griffy+Pulse: mining efficiency, copper prints)
-- [Autistomatic] Super talents: Talent preset 1: super Copper Collector (Griffy+Pulse: mining efficiency)
-- [Autistomatic] Super talents: Talent preset 1: super Tool Proficiency (Griffy+Pulse: mining power, bigger prints)
-- [Autistomatic] Super talents: Talent preset 1: super Brute Efficiency (Griffy+Pulse: efficiency on skilling setups)
-- [Autistomatic] Super talents: Talent preset 2: super Copper Collector (Griffy+Pulse: mining efficiency)
-- [Autistomatic] Super talents: Talent preset 2: super Tool Proficiency (Griffy+Pulse: mining power, bigger prints)
+- [Autistomatic] Super talents: Talent preset 1 (fighting): super Shockwave Slash (Griffy: carries most of the DK kit)
+- [Autistomatic] Super talents: Talent preset 1 (fighting): super Orb Of Remembrance (Pulse: top five, fixed now so super it)
+- [Autistomatic] Super talents: Talent preset 1 (fighting): super Charred Skulls (Griffy: kill scaling from stats)
+- [Autistomatic] Super talents: Talent preset 1 (fighting): super Knightly Disciple (Griffy: longer duration, more knights)
+- [Autistomatic] Super talents: Talent preset 2 (skilling): super Copper Collector (Griffy+Pulse: mining efficiency)
+- [Autistomatic] Super talents: Talent preset 2 (skilling): super Tool Proficiency (Griffy+Pulse: mining power, bigger prints)
 - [Autistomatic] Missing bag: Inventory Bag D: 2 slots (Quest)
 - [Autistomatic] Missing bag: Rucksack Of Riches: 1 slots (Vendor)
 - [Autistomatic] Missing bag: Loot Luggage: 1 slots (Vendor)
@@ -1204,10 +1207,10 @@
 - [Autistronaut] Traps: 8 traps on a short timer, use 40 hours
 - [Autistronaut] Divinity: sit him at the W5 Divinity altar on Mindful style
 - [Autistronaut] Super talents: spend the open points
-- [Autistronaut] Super talents: Talent preset 1: super Meteor Shower (Griffy: faster clears)
-- [Autistronaut] Super talents: Talent preset 1: super Memorial Skulls (Griffy: kill scaling from stats)
-- [Autistronaut] Super talents: Talent preset 2: super Log On Logs (Griffy: big boost to chopping prints)
-- [Autistronaut] Super talents: Talent preset 2: super Skill Wiz (Griffy: skill output)
+- [Autistronaut] Super talents: Talent preset 1 (fighting): super Meteor Shower (Griffy: faster clears)
+- [Autistronaut] Super talents: Talent preset 1 (fighting): super Memorial Skulls (Griffy: kill scaling from stats)
+- [Autistronaut] Super talents: Talent preset 2 (skilling): super Log On Logs (Griffy: big boost to chopping prints)
+- [Autistronaut] Super talents: Talent preset 2 (skilling): super Skill Wiz (Griffy: skill output)
 - [Autistronaut] Missing bag: Inventory Bag D: 2 slots (Quest)
 - [Autistronaut] Missing bag: Loot Luggage: 1 slots (Vendor)
 - [Autistronaut] If he ever becomes an Arcane Cultist: nothing moves by roster position
@@ -1256,6 +1259,7 @@
 - [Autistopher] Active play setup: autistopher- Kill 1M Crabcakes for W2 Weekly Boss (0.19K -> 1000K)
 - [Autistopher] Worship: worship level 74, charge full in 20d 6h
 - [Autistopher] 3D Printer slots: printing: Firefly (582K), Firefly (582K) | samples held: Fly 99.5M, Butterfly 4.9M, Sentient Cereal 2.8M, Fruitfly 1.6M, Mosquisnow 981K
+- [Autistopher] Talents: switch to talent preset 2 (fighting) for where he is parked
 - [Autistopher] Cards: switch to preset 1 (Fighting AFK) for Sir Stache.
 - [Autistopher] Traps: move all to Mousey at W1 Rats Nest, Royal traps, 40 hours
 - [Autistopher] Traps: Now on Mousey
@@ -1274,8 +1278,12 @@
 - [Autistopher] WOWs: Choccie at Cocoa Tunnel: 359M kills left
 - [Autistopher] WOWs: Green Mushroom at Spore Meadows: 426M kills left
 - [Autistopher] Super talents: spend the open points
-- [Autistopher] Super talents: Talent preset 1: the save shows another class's talents supered (Stacked Skulls). Check in game before spending
-- [Autistopher] Super talents: Talent preset 2: the save shows another class's talents supered (Teleki'net'ic Logs, Elusive Efficiency, Briar Patch Runner). Check in game before spending
+- [Autistopher] Super talents: Talent preset 1 (skilling): Stacked Skulls is supered but isn't in his tree (left from an old class?). Reset it before spending
+- [Autistopher] Super talents: Talent preset 1 (skilling): super Brute Efficiency (Griffy+Pulse: big efficiency on skilling setups)
+- [Autistopher] Super talents: Talent preset 1 (skilling): super Big Pick (Pulse: must super on the skilling setup for copper prints)
+- [Autistopher] Super talents: Talent preset 1 (skilling): super Worming Undercover (Griffy: fishing efficiency)
+- [Autistopher] Super talents: Talent preset 2 (fighting): Teleki'net'ic Logs, Elusive Efficiency, Briar Patch Runner is supered but isn't in his tree (left from an old class?). Reset it before spending
+- [Autistopher] Super talents: Talent preset 2 (fighting): 1 open, hold them (no sourced pick)
 - [Autistopher] Missing bag: Inventory Bag D: 2 slots (Quest)
 - [Autistopher] Missing bag: Rucksack Of Riches: 1 slots (Vendor)
 - [Autistopher] Missing bag: Loot Luggage: 1 slots (Vendor)
@@ -1316,8 +1324,8 @@
 - [Autistachio] Traps: 6 traps on a short timer, use 40 hours
 - [Autistachio] Divinity: nothing needed (Doot gives every god to everyone)
 - [Autistachio] Super talents: spend the open points
-- [Autistachio] Super talents: Talent preset 1: 3 open, hold them (no sourced pick)
-- [Autistachio] Super talents: Talent preset 2: 3 open, hold them (no sourced pick)
+- [Autistachio] Super talents: Talent preset 1 (skilling): 3 open, hold them (no sourced pick)
+- [Autistachio] Super talents: Talent preset 2 (fighting): 3 open, hold them (no sourced pick)
 - [Autistachio] Missing bag: Inventory Bag D: 2 slots (Quest)
 - [Autistachio] Missing bag: Sack Of Success: 2 slots (Vendor)
 - [Autistachio] Missing bag: Loot Luggage: 1 slots (Vendor)

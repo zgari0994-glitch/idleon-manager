@@ -60,6 +60,7 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 - card_engine: Prayers: Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)
 - card_engine: Active play setup: autistopher- Kill 1M Crabcakes for W2 Weekly Boss (0.19K -> 1000K)
 - card_engine: Worship: worship level 74, charge full in 20d 6h
+- card_engine: Talents: switch to talent preset 2 (fighting) for where he is parked
 - card_engine: Cards: switch to preset 1 (Fighting AFK) for Sir Stache.
 - card_engine: Traps: move all to Mousey at W1 Rats Nest, Royal traps, 40 hours
 - card_engine: Traps: 8 traps on a short timer, use 40 hours
@@ -76,8 +77,12 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 - card_engine: WOWs: Choccie at Cocoa Tunnel: 359M kills left
 - card_engine: WOWs: Green Mushroom at Spore Meadows: 426M kills left
 - card_engine: Super talents: spend the open points
-- card_engine: Super talents: Talent preset 1: the save shows another class's talents supered (Stacked Skulls). Check in game before spending
-- card_engine: Super talents: Talent preset 2: the save shows another class's talents supered (Teleki'net'ic Logs, Elusive Efficiency, Briar Patch Runner). Check in game before spending
+- card_engine: Super talents: Talent preset 1 (skilling): Stacked Skulls is supered but isn't in his tree (left from an old class?). Reset it before spending
+- card_engine: Super talents: Talent preset 1 (skilling): super Brute Efficiency (Griffy+Pulse: big efficiency on skilling setups)
+- card_engine: Super talents: Talent preset 1 (skilling): super Big Pick (Pulse: must super on the skilling setup for copper prints)
+- card_engine: Super talents: Talent preset 1 (skilling): super Worming Undercover (Griffy: fishing efficiency)
+- card_engine: Super talents: Talent preset 2 (fighting): Teleki'net'ic Logs, Elusive Efficiency, Briar Patch Runner is supered but isn't in his tree (left from an old class?). Reset it before spending
+- card_engine: Super talents: Talent preset 2 (fighting): 1 open, hold them (no sourced pick)
 - card_engine: Missing bag: Inventory Bag D: 2 slots (Quest)
 - card_engine: Missing bag: Rucksack Of Riches: 1 slots (Vendor)
 - card_engine: Super talents: the save still shows Siege Breaker talents in his super slots (from before his class switch)
@@ -132,8 +137,8 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 - card_engine: Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours
 - card_engine: Traps: 8 traps on a short timer, use 40 hours
 - card_engine: Super talents: spend the open points
-- card_engine: Super talents: Talent preset 1: super Skill Ambidexterity (Griffy: skilling, before Agi Again)
-- card_engine: Super talents: Talent preset 2: super Archlord Of The Pirates (Griffy: multiplicative drop rate and EXP. Pulse: make sure it is supered)
+- card_engine: Super talents: Talent preset 1 (skilling): super Skill Ambidexterity (Griffy: skilling, before Agi Again)
+- card_engine: Super talents: Talent preset 2 (fighting): super Archlord Of The Pirates (Griffy: multiplicative drop rate and EXP. Pulse: make sure it is supered)
 - card_engine: Missing bag: Rucksack Of Riches: 1 slots (Vendor)
 - card_engine: Lab chips: end-goal chips missing, buy when they rotate in
 - card_engine: Lab chips: Omega Nanochip: Pulse: doubled slot for the drop rate multi card
@@ -172,9 +177,9 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 - card_engine: Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours
 - card_engine: Traps: 8 traps on a short timer, use 40 hours
 - card_engine: Super talents: spend the open points
-- card_engine: Super talents: Talent preset 1: super Skill Wiz (Griffy: skilling output)
-- card_engine: Super talents: Talent preset 1: hold the other 1 (no more sourced picks)
-- card_engine: Super talents: Talent preset 2: super Sizzling Skull (Griffy+Pulse: drives auto attack damage, 100% super)
+- card_engine: Super talents: Talent preset 1 (skilling): super Skill Wiz (Griffy: skilling output)
+- card_engine: Super talents: Talent preset 1 (skilling): hold the other 1 (no more sourced picks)
+- card_engine: Super talents: Talent preset 2 (fighting): super Sizzling Skull (Griffy+Pulse: drives auto attack damage, 100% super)
 - card_engine: Missing bag: Loot Luggage: 1 slots (Vendor)
 - card_engine: Lab jewels: missing ones unlock from Royal Armory upgrades
 - card_engine: Lab jewels: Jewel of Deadly Wrath: 411 more upgrades
@@ -230,8 +235,10 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 - card_engine: Traps: move all to Honker at W3 Wam Wonderland, Royal traps, 40 hours
 - card_engine: Traps: 8 traps on a short timer, use 40 hours
 - card_engine: Super talents: spend the open points
-- card_engine: Super talents: Talent preset 1: super Gimme Gimme (Griffy: more double loot)
-- card_engine: Super talents: Talent preset 2: super Left Hand Of Learning (Griffy+Pulse: more EXP for others, global talents work with supers now)
+- card_engine: Super talents: Talent preset 1 (fighting): Extra Bags is supered but isn't in his tree (left from an old class?). Reset it before spending
+- card_engine: Super talents: Talent preset 1 (fighting): super Gimme Gimme (Griffy: more double loot)
+- card_engine: Super talents: Talent preset 2 (skilling): Happy Dude is supered but isn't in his tree (left from an old class?). Reset it before spending
+- card_engine: Super talents: Talent preset 2 (skilling): super Left Hand Of Learning (Griffy+Pulse: more EXP for others, global talents work with supers now)
 - card_engine: Missing bag: Inventory Bag D: 2 slots (Quest)
 - card_engine: Missing bag: Loot Luggage: 1 slots (Vendor)
 - card_engine: Voting: your pick (reset day)
@@ -278,13 +285,14 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 - card_engine: Prayers: giant-monster prayers: remove before the weekly reset so giant-kill quests still count
 - card_engine: Prayers: Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)
 - card_engine: Active play setup: autistacular- Kill 1M Choccies for W2 Weekly Boss (125.12K -> 1000K)
+- card_engine: Talents: switch to talent preset 2 (skilling) for where he is parked
 - card_engine: Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours
 - card_engine: Traps: 8 traps on a short timer, use 40 hours
 - card_engine: Card set: farm 1 Verminous card
 - card_engine: Card set: Pulse: Verminous farms on the Insta castle map with Wind Walker + candy (mixed reports, test it)
 - card_engine: Super talents: spend the open points
-- card_engine: Super talents: Talent preset 2: super Elusive Efficiency (Griffy: skilling)
-- card_engine: Super talents: Talent preset 2: super Eagle Eye (Griffy: more critters and EXP)
+- card_engine: Super talents: Talent preset 2 (skilling): super Elusive Efficiency (Griffy: skilling)
+- card_engine: Super talents: Talent preset 2 (skilling): super Eagle Eye (Griffy: more critters and EXP)
 - card_engine: Missing bag: Inventory Bag D: 2 slots (Quest)
 - card_engine: Missing bag: Rucksack Of Riches: 1 slots (Vendor)
 - card_engine: Talents to level next (Library checkouts)
@@ -310,10 +318,10 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 - card_engine: Traps: 8 traps on a short timer, use 40 hours
 - card_engine: Divinity: sit him at the W5 Divinity altar on Mindful style
 - card_engine: Super talents: spend the open points
-- card_engine: Super talents: Talent preset 1: super Meteor Shower (Griffy: faster clears)
-- card_engine: Super talents: Talent preset 1: super Memorial Skulls (Griffy: kill scaling from stats)
-- card_engine: Super talents: Talent preset 2: super Log On Logs (Griffy: big boost to chopping prints)
-- card_engine: Super talents: Talent preset 2: super Skill Wiz (Griffy: skill output)
+- card_engine: Super talents: Talent preset 1 (fighting): super Meteor Shower (Griffy: faster clears)
+- card_engine: Super talents: Talent preset 1 (fighting): super Memorial Skulls (Griffy: kill scaling from stats)
+- card_engine: Super talents: Talent preset 2 (skilling): super Log On Logs (Griffy: big boost to chopping prints)
+- card_engine: Super talents: Talent preset 2 (skilling): super Skill Wiz (Griffy: skill output)
 - card_engine: Missing bag: Inventory Bag D: 2 slots (Quest)
 - card_engine: Missing bag: Loot Luggage: 1 slots (Vendor)
 - card_engine: If he ever becomes an Arcane Cultist: nothing moves by roster position
@@ -365,10 +373,10 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 - card_engine: Divinity: Blessing: Omniphau (Divinity PTS Gain)
 - card_engine: Divinity: God rank (you are 1): Pulse targets 20 (Menagerie challenge, next-patch content) then 25-30. Push it in Divinity week. No-RNG way (Pulse): roll offerings until one shows 100%, then take it. Griffy: use cheap offerings until a guaranteed one shows
 - card_engine: Super talents: spend the open points
-- card_engine: Super talents: Talent preset 1: super Meteor Shower (Griffy: faster clears)
-- card_engine: Super talents: Talent preset 1: super Memorial Skulls (Griffy: kill scaling from stats)
-- card_engine: Super talents: Talent preset 2: super Leaf Thief (Griffy: larger prints)
-- card_engine: Super talents: Talent preset 2: super Skill Wiz (Griffy: skill output)
+- card_engine: Super talents: Talent preset 1 (fighting): super Meteor Shower (Griffy: faster clears)
+- card_engine: Super talents: Talent preset 1 (fighting): super Memorial Skulls (Griffy: kill scaling from stats)
+- card_engine: Super talents: Talent preset 2 (skilling): super Leaf Thief (Griffy: larger prints)
+- card_engine: Super talents: Talent preset 2 (skilling): super Skill Wiz (Griffy: skill output)
 - card_engine: Missing bag: Inventory Bag D: 2 slots (Quest)
 - card_engine: Missing bag: Rucksack Of Riches: 1 slots (Vendor)
 - card_engine: Lab chips: end-goal chips missing, buy when they rotate in
@@ -421,9 +429,9 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 - card_engine: Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours
 - card_engine: Traps: 8 traps on a short timer, use 40 hours
 - card_engine: Super talents: spend the open points
-- card_engine: Super talents: Talent preset 1: super Copper Collector (Griffy+Pulse: mining efficiency)
-- card_engine: Super talents: Talent preset 1: super Tool Proficiency (Griffy+Pulse: mining power, bigger prints)
-- card_engine: Super talents: Talent preset 2: super Knightly Disciple (Griffy: longer duration, more knights)
+- card_engine: Super talents: Talent preset 1 (skilling): super Copper Collector (Griffy+Pulse: mining efficiency)
+- card_engine: Super talents: Talent preset 1 (skilling): super Tool Proficiency (Griffy+Pulse: mining power, bigger prints)
+- card_engine: Super talents: Talent preset 2 (fighting): super Knightly Disciple (Griffy: longer duration, more knights)
 - card_engine: Missing bag: Inventory Bag D: 2 slots (Quest)
 - card_engine: Missing bag: Loot Luggage: 1 slots (Vendor)
 - card_engine: Royal Guardian super talents: locked, 438 more Royal Armory upgrade levels
@@ -471,10 +479,10 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 - card_engine: Cooking mastery (level 5): Pulse (Aug): for money, 10-15 points on Yummy Peach Ring and 5 on Bundt Cake
 - card_engine: Cooking mastery (level 5): Pulse: push mastery to 15, it scales hard after 10
 - card_engine: Super talents: spend the open points
-- card_engine: Super talents: Talent preset 1: super Big Pick (Pulse: must super on the skilling setup for copper prints)
-- card_engine: Super talents: Talent preset 1: super Worming Undercover (Griffy: fishing efficiency)
-- card_engine: Super talents: Talent preset 2: super Monster Decimator (Griffy+Pulse: good on active and AFK setups)
-- card_engine: Super talents: Talent preset 2: super Graveyard Shift (Griffy: better respawn)
+- card_engine: Super talents: Talent preset 1 (skilling): super Big Pick (Pulse: must super on the skilling setup for copper prints)
+- card_engine: Super talents: Talent preset 1 (skilling): super Worming Undercover (Griffy: fishing efficiency)
+- card_engine: Super talents: Talent preset 2 (fighting): super Monster Decimator (Griffy+Pulse: good on active and AFK setups)
+- card_engine: Super talents: Talent preset 2 (fighting): super Graveyard Shift (Griffy: better respawn)
 - card_engine: Missing bag: Loot Luggage: 1 slots (Vendor)
 - card_engine: Cooking mastery: Pulse: the daily ladle system dumps all ladles on your lowest-timer meal, so do this before it runs
 - card_engine: Cooking mastery: Pulse: push mastery to 15
@@ -508,10 +516,12 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 - card_engine: Traps: move all to Bunny at W3 Thermonuclear Climb, Royal traps, 40 hours
 - card_engine: Traps: 8 traps on a short timer, use 40 hours
 - card_engine: Super talents: spend the open points
-- card_engine: Super talents: Talent preset 1: super Big Pick (Griffy+Pulse: mining efficiency, copper prints)
-- card_engine: Super talents: Talent preset 1: super Copper Collector (Griffy+Pulse: mining efficiency)
-- card_engine: Super talents: Talent preset 1: super Tool Proficiency (Griffy+Pulse: mining power, bigger prints)
-- card_engine: Super talents: Talent preset 1: super Brute Efficiency (Griffy+Pulse: efficiency on skilling setups)
+- card_engine: Super talents: Talent preset 1 (fighting): super Shockwave Slash (Griffy: carries most of the DK kit)
+- card_engine: Super talents: Talent preset 1 (fighting): super Orb Of Remembrance (Pulse: top five, fixed now so super it)
+- card_engine: Super talents: Talent preset 1 (fighting): super Charred Skulls (Griffy: kill scaling from stats)
+- card_engine: Super talents: Talent preset 1 (fighting): super Knightly Disciple (Griffy: longer duration, more knights)
+- card_engine: Super talents: Talent preset 2 (skilling): super Copper Collector (Griffy+Pulse: mining efficiency)
+- card_engine: Super talents: Talent preset 2 (skilling): super Tool Proficiency (Griffy+Pulse: mining power, bigger prints)
 - card_engine: Missing bag: Inventory Bag D: 2 slots (Quest)
 - card_engine: Missing bag: Rucksack Of Riches: 1 slots (Vendor)
 - card_engine: Royal Guardian super talents: locked, 438 more Royal Armory upgrade levels
@@ -549,7 +559,7 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 - card_engine: Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours
 - card_engine: Traps: 6 traps on a short timer, use 40 hours
 - card_engine: Super talents: spend the open points
-- card_engine: Super talents: Talent preset 1: 3 open, hold them (no sourced pick)
+- card_engine: Super talents: Talent preset 1 (skilling): 3 open, hold them (no sourced pick)
 - card_engine: Missing bag: Inventory Bag D: 2 slots (Quest)
 - card_engine: Missing bag: Sack Of Success: 2 slots (Vendor)
 - card_engine: Missing bag: Loot Luggage: 1 slots (Vendor)
@@ -664,5 +674,5 @@ DO 40 · HOLD 0 · NOTHING 28 · GLANCE 14 · BUILD 25 · FIX 0
 | palette | BUILD | lean AutoReview check only, no planner |  |  |  |  |
 | talents | BUILD | lean AutoReview check only, no planner |  |  |  |  |
 | super_talents | NOTHING | planner returned nothing (needs a reason) | 0 | 0 | 0 |  |
-| card_engine | DO |  | 465 | 127 | 2 |  |
+| card_engine | DO |  | 473 | 127 | 2 |  |
 | autoreview_alerts | NOTHING | 6 info lines, no action | 0 | 6 | 0 |  |
