@@ -305,3 +305,6 @@ All other items 1-10 approved as stated in chat 10:37.
 - Shinies: push every shiny pet whose bonus is a faster-shiny-rate to level 20-25 first, THEN go in order of importance (not "quickest"). DNA: faster-shiny upgrade (Grand Martial of Shinytown) first, per Pulse "faster shinies is priority one"; Blooming Axe ranked first only by my weights, wrong.
 - Sneaking/Jade: plan from creators (thresholds, must-buys like Pulse's Centurion omni jade) vs what Zack owns, then exact jade spend. Explain what the daily charm rolls are (Toolbox "Daily charm rolls used x/120").
 - Breedability side goal (Zack 2026-11-21): one shiny slot sacrificed to breed one pet at a time toward heart 7 (not rushing all 68). Tracker: show the focus pet's progress, switch to the next when it hits heart 7. Verify which systems need N heart 7 pets (Zack: Equinox + others). Math note: closest pets are Dig Doug (3K of 422K), Bop Box, Mechanical Mouse; Green Mushroom starts at 0.
+
+## Catch-up parks (Zack 2026-11-21)
+A park with a catch-up reason (get X to the top of a skill) ends when X is the top character in that skill. Then he moves to the next need (default: Spelunking, goal). Never keep a catch-up park after the target is hit. Done: Totle Lab -> Spelunking (Lab 274 top in save, 316 in game).

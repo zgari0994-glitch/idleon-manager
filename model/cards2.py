@@ -336,13 +336,13 @@ GOAL_PARK = {   # every line: where, card preset, and why with its source
     'Autisticles': f"Spelunking: {SPELUNK_CAVE}, card preset 2. Why: Pulse (Nov 1): most characters on Spelunking; adds base POW",
     'Autistabish': f"Spelunking: {SPELUNK_CAVE}, card preset 2. Why: Pulse (Nov 1): most characters on Spelunking; adds base POW. His statue push waits",
     'Autistacular': f"Spelunking: {SPELUNK_CAVE}, card preset 2. Why: Pulse (Nov 1): most characters on Spelunking; adds base POW",
+    'Autistotle': f"Spelunking: {SPELUNK_CAVE}, skill card preset. Why: Lab catch-up done (top Lab level, Zack 2026-11-21); his Spelunking is the lowest, so every level adds base POW and works him toward the best",
 }
 SIDE_PARK_WHY = {   # characters kept off Spelunking, and why that beats helping POW
     'Autiszemo': 'Side reason: his ZOWs and CHOWs only count on him and each W7 ZOW is only 100K kills, so he rotates through them',
     'Autistopher': 'Side reason: Super CHOW and WOW only count on him (account buffs); after the Ram he farms Green Mushrooms for coins + a WOW',
     'Autistronaut': 'Side reason: nobody earns divinity points right now; Pulse: skipping divinity costs 1-2 years in super week',
     'Autistachio': 'Side reason: monument week (4x rewards) this week; Spelunking level 1, so little POW from him',
-    'Autistotle': 'Side reason: your call (Maestro Lab catch-up); his Spelunking is 17, the lowest, so he adds the least POW there',
 }
 
 # ---------------- build ----------------
