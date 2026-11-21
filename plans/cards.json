@@ -1,5 +1,5 @@
 {
- "save": "20261120T2035",
+ "save": "20261121T1741",
  "goal": {
   "name": "Spelunking POW 900K",
   "why": "Frees the Pillar Coral fish (Seaweed Street cage), a new coral type. Spelunking is the biggest blocker.",
@@ -75,13 +75,13 @@
    "class": "Death Bringer",
    "daily": [
     {
-     "do": "Farming: hold 200 or more of every crop you've found (12 of 140 so far)",
+     "do": "Farming: hold 200 or more of every crop you've found (13 of 140 so far)",
      "why": "Each one raises the chance to discover new crops. Lock them before bean trades so a trade can't empty them (Griffy does this)",
      "sub": [
-      "Weakest families: Basic (0 of 21), Sushi (1 of 23), Mushie (1 of 23)",
+      "Weakest families: Basic (0 of 21), Mushie (1 of 23), Sushi (1 of 23)",
       "Spend 187 Land Rank points, Toolbox's optimizer puts them into the Evolution boosts",
       "Collect all crops, replant",
-      "Push Product Doubler:+129/150% chance for crops to be worth 2x when collected to 50 (now 43)",
+      "Push Unlock 20 more crop types to 160 (now 140)",
       "Push Medal Crop 20 chance8.6.0e45 for 100% chance to 100% (now 0%)"
      ]
     },
@@ -97,38 +97,38 @@
      ]
     },
     {
-     "do": "Grimoire + Wraith Form (bones): push Total Grimoire Upgrades to 1900 (now 1347)",
+     "do": "Grimoire + Wraith Form (bones): push Total Grimoire Upgrades to 1900 (now 1360)",
      "why": "bone upgrades are account buffs",
      "sub": [
       "128 more upgrade levels unlock Skull of Major Experience",
-      "Push Ribbon Winning to 20 (now 18)",
+      "Push Ribbon Winning to 30 (now 20)",
       "Push Annihilation Stacks to 25 (now 0)"
      ]
     },
     {
-     "do": "Fish prints: push Goldfish to 150.0M (now 111.85M)",
-     "why": "prints feed resources while you sleep",
+     "do": "Fish prints: SWAP print Skelefish -> Hermit Can (sample 74.6M; Bugsack Stamp next max raise needs 83.1M (have 36.4M))",
+     "why": "Changing a print does not take a sample, so Gold Relic keeps its days",
      "sub": [
       "Printing: Skelefish (10.8M), Goldfish (112M) | samples held: Equinox Fish 2.2M, Goldfish 112M, Hermit Can 74.6M, Bloach 17M, Jellyfish 40.3M",
-      "Gold Relic is at 30 of 100 days (2.5x print output)",
+      "Gold Relic is at 31 of 100 days (2.55x print output)",
       "1 print swaps are listed on the owners' cards",
-      "Print day is when all 6 print buffs are done"
+      "Print day is when all 6 print buffs are done",
+      "Push Goldfish to 150.0M (now 111.85M)"
      ]
     },
     {
      "do": "Emperor showdowns: use your 10 Emperor attempts and push past showdown 57",
      "why": "Autiszemo goes, he hits hardest. Only reset and climb again if you really need a drop",
      "sub": [
-      "Push Showdown 58HP to 58 (now 57)"
+      "Push Showdown 68HP to 68 (now 67)"
      ]
     },
     {
-     "do": "Prayers: take off Shiny Snitch, it only helps while trapping and it lowers shiny chance otherwise",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "why": "wrong prayers cost gains",
      "sub": [
-      "Prayers on: Skilled Dimwit, The Royal Sampler, Shiny Snitch",
-      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)",
-      "Leave Royal Sampler on until print day"
+      "Prayers on: Midas Minded, Skilled Dimwit, The Royal Sampler",
+      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)"
      ]
     },
     {
@@ -142,12 +142,9 @@
      "sub": []
     },
     {
-     "do": "Traps: move all to Tuttle at W6 Spirited Valley, Bamboo Laboredge, Royal traps, 40 hours",
-     "why": "Turtle Tisane 0 -> 13",
-     "sub": [
-      "Now on Froge",
-      "8 traps on a short timer, use 40 hours"
-     ]
+     "do": "Traps: nothing needed",
+     "why": "",
+     "sub": []
     },
     {
      "do": "Divinity: nothing needed (Doot gives every god to everyone)",
@@ -155,25 +152,25 @@
      "sub": []
     },
     {
-     "do": "ZOWs: 95 of 108 done. Closest:",
+     "do": "ZOWs: 96 of 108 done. Closest:",
      "why": "counted on your best Barbarian (him)",
      "sub": [
       "Noble Clam at The Clamworks: 100K kills left",
       "Spearfish at Pinpoint Summit: 100K kills left",
       "Coralcave Guardian at Coralcave Perimeter: 100K kills left",
-      "Pirate Underling at Pirate Upper Deck: 100K kills left",
-      "Eggroll at Sushi Perimeter: 100K kills left"
+      "Eggroll at Sushi Perimeter: 100K kills left",
+      "Jellofish at Jellofish Fields: 100K kills left"
      ]
     },
     {
-     "do": "CHOWs: 93 of 108 done. Closest:",
+     "do": "CHOWs: 94 of 108 done. Closest:",
      "why": "counted on your best Barbarian (him)",
      "sub": [
       "Noble Clam at The Clamworks: 1M kills left",
       "Spearfish at Pinpoint Summit: 1M kills left",
       "Coralcave Guardian at Coralcave Perimeter: 1M kills left",
-      "Pirate Underling at Pirate Upper Deck: 1M kills left",
-      "Eggroll at Sushi Perimeter: 1M kills left"
+      "Eggroll at Sushi Perimeter: 1M kills left",
+      "Jellofish at Jellofish Fields: 1M kills left"
      ]
     }
    ],
@@ -186,16 +183,6 @@
       "Your node now: Tempura Shrimp level 1 (1.17x), Tempura Shrimp is Spelunking EXP, so it helps the goal",
       "Pulse (Aug): for money, 10-15 points on Yummy Peach Ring and 5 on Bundt Cake",
       "Pulse: push mastery to 15, it scales hard after 10"
-     ]
-    },
-    {
-     "do": "Super talents: spend the open points",
-     "why": "points are permanent, every pick is from Griffy or Pulse",
-     "sub": [
-      "Talent preset 1 (skilling): super Big Pick (Pulse: must super on the skilling setup for copper prints)",
-      "Talent preset 1 (skilling): super Worming Undercover (Griffy: fishing efficiency)",
-      "Talent preset 2 (fighting): super Monster Decimator (Griffy+Pulse: good on active and AFK setups)",
-      "Talent preset 2 (fighting): super Graveyard Shift (Griffy: better respawn)"
      ]
     },
     {
@@ -216,16 +203,16 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#1 Grimoire 100 -> 308 (Griffy: Wraith mode has separate progression: farm bones and spend them on Grimoire upgrades.)",
-      "#2 Marauder Style 100 -> 308 (Griffy: Marauder Style grants wraith damage and accuracy per hundred Grimoire upgrades.)",
-      "#8 Graveyard Shift 162 -> 308 (Griffy: Prioritize Sentinel Axes and Graveyard Shift and Detonation outside Wraith mode.)",
-      "#16 Detonation 201 -> 308 (Griffy: Prioritize Sentinel Axes and Graveyard Shift and Detonation outside Wraith mode.)",
-      "#22 Dank Ranks 213 -> 308 (Griffy: Dank Ranks strengthens every land-rank database bonus.)"
+      "#10 Detonation 201 -> 308 (Griffy: Prioritize Sentinel Axes and Graveyard Shift and Detonation outside Wraith mode.)",
+      "#16 Dank Ranks 213 -> 308 (Griffy: Dank Ranks strengthens every land-rank database bonus.)",
+      "#35 Worming Undercover 257 -> 308 (Griffy: Sets fishing talents: fishing XP AFK gains and worming undercover up to 10 or even 20 and )",
+      "#36 Sentinel Axes 262 -> 308 (Griffy: Sentinel Axes is essential for stronger basic attacks and additional area targets.)",
+      "#48 Overflowing Ladle 289 -> 308 (Griffy: Use ladles on Deathbringer because Overflowing Ladles in the Blood Berserker tab grants 60)"
      ]
     }
    ],
    "part": [],
-   "park": "W7 Pirate Upper Deck (Pirate Underling) for his ZOW, card preset 1, then the next W7 ZOW map he can reach. Autistopher keeps the Dedotated Ram kills. Side reason: his ZOWs and CHOWs only count on him and each W7 ZOW is only 100K kills, so he rotates through them"
+   "park": "W7 Sushi Perimeter (Eggroll) for his ZOW, card preset 1, then the next W7 ZOW map he can reach. Autistopher keeps the Dedotated Ram kills. Side reason: his ZOWs and CHOWs only count on him and each W7 ZOW is only 100K kills, so he rotates through them"
   },
   {
    "name": "Autistocat",
@@ -233,13 +220,13 @@
    "class": "Arcane Cultist",
    "daily": [
     {
-     "do": "Alchemy: push Dream Of Ironfish to 170 (now 82)",
+     "do": "Alchemy: push Dream Of Ironfish to 170 (now 89)",
      "why": "bubbles and vials are account-wide",
      "sub": [
       "Sigils are the weakest part of Alchemy (tier 1/8)",
       "The Loot Pile sigil (more sailing chests) would take one character about 15 days",
       "Seats follow the biggest need: move someone onto sigils only while something is waiting on them, and never empty the cauldrons",
-      "Bubble goals: Dream Of Ironfish 82 -> 170; Warriors Rule (Printing!) 436 -> 450; Hearty Diggy 570 -> 900; Stronk Tools 402 -> 630",
+      "Bubble goals: Dream Of Ironfish 89 -> 170; Hearty Diggy (Printing!) 873 -> 900; Stronk Tools 402 -> 630; Multorange 170 -> 270",
       "Push Premigreen to 270 (now 73)"
      ]
     },
@@ -256,8 +243,8 @@
      "do": "Summoning: claim the familiar EXP (132M EXP, 6d of it)",
      "why": "winner bonuses are big multipliers",
      "sub": [
-      "Push Uno Draw 7Reward to 92 (now 91)",
-      "Push 43.31x Total DMG to 316 (now 43.3)"
+      "Push Zerg SurpriseReward to 101 (now 100)",
+      "Push 43.95x Total DMG to 321 (now 44)"
      ]
     },
     {
@@ -275,7 +262,7 @@
      "sub": [
       "This week's Killroy rooms: Room 1: Warrior 446 Room 2: Warrior 877",
       "With 78 skulls you can buy: 1% Chance to permanently unlock the 3rd , Artifact Find Chance, Adds 1 nugget to your Shovel in Gaming, Crop Evolution Chance",
-      "Push Current Skull Ratio to 66.7% (now 26.3%)"
+      "Push Current Skull Ratio to 66.7% (now 23.8%)"
      ]
     },
     {
@@ -284,13 +271,12 @@
      "sub": []
     },
     {
-     "do": "Prayers: take off Shiny Snitch, it only helps while trapping and it lowers shiny chance otherwise",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "why": "wrong prayers cost gains",
      "sub": [
-      "Prayers on: Skilled Dimwit, The Royal Sampler, Shiny Snitch",
+      "Prayers on: Skilled Dimwit, The Royal Sampler",
       "giant-monster prayers: remove before the weekly reset so giant-kill quests still count",
-      "Unending Energy: +Class & Skill EXP, but AFK caps at 10h: only when you claim within 10h",
-      "Leave Royal Sampler on until print day"
+      "Unending Energy: +Class & Skill EXP, but AFK caps at 10h: only when you claim within 10h"
      ]
     },
     {
@@ -306,11 +292,9 @@
      "sub": []
     },
     {
-     "do": "3D Printer slots: SWAP print Bleach Logs -> Jungle Logs (sample 1.7B; Lil' Mining Baggy Stamp next max raise needs 884M (have 58.5M))",
-     "why": "Changing a print does not take a sample, so Gold Relic keeps its days",
-     "sub": [
-      "Printing: Bleach Logs (2.5B), Oak Logs (4B) | samples held: Oak Logs 4B, Bleach Logs 2.5B, Jungle Logs 1.7B, Potty Rolls 514M, Wispy Lumber 241M"
-     ]
+     "do": "3D Printer slots: printing: Jungle Logs (1.7B), Oak Logs (4B) | samples held: Oak Logs 4B, Bleach Logs 2.5B, Jungle Logs 1.7B, Potty Rolls 514M, Wispy Lumber 241M",
+     "why": "",
+     "sub": []
     },
     {
      "do": "Cards: nothing needed",
@@ -318,12 +302,9 @@
      "sub": []
     },
     {
-     "do": "Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours",
-     "why": "Turtle Tisane",
-     "sub": [
-      "Now on Froge",
-      "8 traps on a short timer, use 40 hours"
-     ]
+     "do": "Traps: nothing needed",
+     "why": "",
+     "sub": []
     },
     {
      "do": "Divinity: nothing needed (Doot gives every god to everyone)",
@@ -336,9 +317,7 @@
      "do": "Super talents: spend the open points",
      "why": "points are permanent, every pick is from Griffy or Pulse",
      "sub": [
-      "Talent preset 1 (skilling): super Skill Wiz (Griffy: skilling output)",
-      "Talent preset 1 (skilling): hold the other 1 (no more sourced picks)",
-      "Talent preset 2 (fighting): super Sizzling Skull (Griffy+Pulse: drives auto attack damage, 100% super)"
+      "Talent preset 1 (skilling): 1 open, hold them (no sourced pick)"
      ]
     },
     {
@@ -359,11 +338,11 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#13 Log on Logs 189 -> 308 (Griffy: Prioritize Log On Logs and Leaf Thief and Deforesting All Doubt and Inner Peace before man)",
-      "#34 Tesseract 240 -> 308 (Griffy: Tesseract supplies Prisma bubble bonuses and double gold-food and statue drop chances that)",
-      "#35 Smart Efficiency 251 -> 308 (Griffy: Use Smart Efficiency and Mana Booster and Active AFKer because Hocus Choppus scales choppi)",
-      "#40 Arcane Crystals 266 -> 308 (Griffy: Super Arcane Crystals to create more arcane monsters.)",
-      "#43 Essential Essence 271 -> 308 (Griffy: Super Essential Essences to reduce summoning upgrade costs and push Endless faster.)"
+      "#7 Log on Logs 189 -> 308 (Griffy: Prioritize Log On Logs and Leaf Thief and Deforesting All Doubt and Inner Peace before man)",
+      "#30 Tesseract 240 -> 308 (Griffy: Tesseract supplies Prisma bubble bonuses and double gold-food and statue drop chances that)",
+      "#31 Smart Efficiency 251 -> 308 (Griffy: Use Smart Efficiency and Mana Booster and Active AFKer because Hocus Choppus scales choppi)",
+      "#38 Arcane Crystals 266 -> 308 (Griffy: Super Arcane Crystals to create more arcane monsters.)",
+      "#42 Essential Essence 271 -> 308 (Griffy: Super Essential Essences to reduce summoning upgrade costs and push Endless faster.)"
      ]
     }
    ],
@@ -385,11 +364,11 @@
      "do": "Sailing: claim chests every time you're on",
      "why": "The pile holds 30 and fills in about 48 minutes, and every chest is an artifact roll",
      "sub": [
-      "move 9 boats to the islands with the best odds for what's left to find:",
-      "Boat 3 (Captain C): Petulent Garage -> Candied Island (0.0% -> 0.8% a chest)",
-      "Boat 9 (Captain P): World's End -> Rocky Peaks (0.2% -> 1.6% a chest)",
-      "Boat 10 (Captain J): Crystal Enclave -> Dungeon Cove (0% -> 0.3% a chest)",
-      "Boat 13 (Captain M): Stormy North -> Isolated Woods (1.4% -> 30.6% a chest)"
+      "move 10 boats to the islands with the best odds for what's left to find:",
+      "Boat 3 (Captain C): Petulent Garage -> Candied Island (0.0% -> 1% a chest)",
+      "Boat 5 (Captain E): Stormy North -> Candied Island (0% -> 0.9% a chest)",
+      "Boat 9 (Captain P): World's End -> Rocky Peaks (0.3% -> 2% a chest)",
+      "Boat 10 (Captain J): Crystal Enclave -> Dungeon Cove (0% -> 0.3% a chest)"
      ]
     },
     {
@@ -397,7 +376,7 @@
      "why": "prints feed resources while you sleep",
      "sub": [
       "Printing: Fly (131M), Fly (131M) | samples held: Fly 131M, Butterfly 63.3M, Sentient Cereal 36M, Fruitfly 20.4M, Worker Bee 7.9M",
-      "Push Sailing to 100 (now 30)"
+      "Push Sailing to 100 (now 31)"
      ]
     },
     {
@@ -410,12 +389,11 @@
      ]
     },
     {
-     "do": "Luminous Menagerie (own intervention): push Shells needed for Menagerie Rank 4 to 3 (now 1)",
+     "do": "Luminous Menagerie (own intervention): push Shells needed for Menagerie Rank 5 to 3 (now 0)",
      "why": "",
      "sub": [
       "Missions in progress: Account LV 9,071 / 10,000, Sneaking Mastery 1 / 2, Total Depths, including Manic 46 / 500, Crops Discovered 140 / 200",
-      "Push Mission 1 to 10000 (now 9071)",
-      "Push Unlock 4 to 1 (now 0)"
+      "Push Mission 1 to 10000 (now 9108)"
      ]
     },
     {
@@ -426,7 +404,7 @@
       "Cheap Sushi upgrades: Hourly Wage Meter, Fastburn Fuel I, Fuel Capacity I, Customer Surcharge I, Fastburn Fuel II",
       "Glimbo: make 12 trades (Monster Tax, Wicked Smart, Major Discount, Go Go Secret Owl...)",
       "Not unlocked yet: Zenith Market, The Button",
-      "Push Sushi Slot:Adds a new slot for your Sushi Station! to 50 (now 7)"
+      "Push Sushi Slot:Adds a new slot for your Sushi Station! to 50 (now 8)"
      ]
     },
     {
@@ -437,12 +415,11 @@
      ]
     },
     {
-     "do": "Prayers: take off Shiny Snitch, it only helps while trapping and it lowers shiny chance otherwise",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "why": "wrong prayers cost gains",
      "sub": [
-      "Prayers on: Skilled Dimwit, The Royal Sampler, Shiny Snitch",
-      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)",
-      "Leave Royal Sampler on until print day"
+      "Prayers on: Skilled Dimwit, The Royal Sampler",
+      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)"
      ]
     },
     {
@@ -472,22 +449,14 @@
      ]
     },
     {
-     "do": "Talents: switch to talent preset 1 (skilling) for where he is parked",
-     "why": "the other preset holds the wrong talents for this job",
-     "sub": []
-    },
-    {
      "do": "Cards: nothing needed",
      "why": "",
      "sub": []
     },
     {
-     "do": "Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours",
-     "why": "Turtle Tisane",
-     "sub": [
-      "Now on Froge",
-      "8 traps on a short timer, use 40 hours"
-     ]
+     "do": "Traps: nothing needed",
+     "why": "",
+     "sub": []
     },
     {
      "do": "Divinity: nothing needed (Doot gives every god to everyone)",
@@ -496,19 +465,6 @@
     }
    ],
    "house": [
-    {
-     "do": "Super talents: spend the open points",
-     "why": "points are permanent, every pick is from Griffy or Pulse",
-     "sub": [
-      "Talent preset 1 (skilling): super Skill Ambidexterity (Griffy: skilling, before Agi Again)",
-      "Talent preset 2 (fighting): super Archlord Of The Pirates (Griffy: multiplicative drop rate and EXP. Pulse: make sure it is supered)"
-     ]
-    },
-    {
-     "do": "Missing bag: Rucksack Of Riches: 1 slots (Vendor)",
-     "why": "",
-     "sub": []
-    },
     {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
      "why": "",
@@ -525,11 +481,11 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#11 Homing Arrows 175 -> 303 (Griffy: Super Homing Arrows for more arrows and combat damage.)",
-      "#36 Elusive Efficiency 254 -> 308 (Pulse: Elusive efficiency same notes as previous classes; great)",
-      "#37 Suppressing Fire 237 -> 291 (Pulse: Cannonball suppressing fire fire bomb great; pirate flag is how this works; yes great)",
-      "#45 Firebomb 244 -> 278 (AutoReview library priority)",
-      "#48 Symbols of Beyond G 269 -> 300 (AutoReview library priority)"
+      "#5 Homing Arrows 175 -> 303 (Griffy: Super Homing Arrows for more arrows and combat damage.)",
+      "#32 Elusive Efficiency 254 -> 308 (Pulse: Elusive efficiency same notes as previous classes; great)",
+      "#33 Suppressing Fire 237 -> 291 (Pulse: Cannonball suppressing fire fire bomb great; pirate flag is how this works; yes great)",
+      "#44 Firebomb 244 -> 278 (AutoReview library priority)",
+      "#47 Symbols of Beyond G 269 -> 300 (AutoReview library priority)"
      ]
     }
    ],
@@ -576,18 +532,18 @@
      ]
     },
     {
-     "do": "Gaming: the garden is full, harvest it",
-     "why": "Nothing new grows until you do",
+     "do": "Gaming: push Current Snail Rank to 49 (now 13)",
+     "why": "bits and nuggets",
      "sub": [
+      "the garden is full, harvest it",
       "Dig with the shovel and collect the squirrel's acorns, neither has been touched in 2d 6h",
       "Acorn shop: buy Palette Luck (150 acorns)",
       "Snail is level 13 of 25",
-      "Spelunking cave Sedimeadow (Autistomatic) adds a second page of superbits",
-      "Step 2: Choose a safety level. 90.0% safety = 12 unspent mail (2 / 12) READY"
+      "Spelunking cave Sedimeadow (Autistomatic) adds a second page of superbits"
      ]
     },
     {
-     "do": "Royal Guardian #1 (top unlock): push Royal Talent Points I to 200 (now 45)",
+     "do": "Royal Guardian #1 (top unlock): push Royal Talent Points I to 200 (now 46)",
      "why": "",
      "sub": [
       "Next Royal statue to build: Plutus the Prosperous",
@@ -632,7 +588,7 @@
      "sub": []
     },
     {
-     "do": "Kilroy (weekly, warrior line): push Current Skull Ratio to 66.7% (now 26.3%)",
+     "do": "Kilroy (weekly, warrior line): push Current Skull Ratio to 66.7% (now 23.8%)",
      "why": "weekly",
      "sub": []
     },
@@ -647,12 +603,11 @@
      "sub": []
     },
     {
-     "do": "Prayers: take off Shiny Snitch, it only helps while trapping and it lowers shiny chance otherwise",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "why": "wrong prayers cost gains",
      "sub": [
-      "Prayers on: Skilled Dimwit, Shiny Snitch, The Royal Sampler, Vacuous Tissue",
-      "giant-monster prayers: remove before the weekly reset so giant-kill quests still count",
-      "Leave Royal Sampler on until print day"
+      "Prayers on: Skilled Dimwit, The Royal Sampler, Vacuous Tissue",
+      "giant-monster prayers: remove before the weekly reset so giant-kill quests still count"
      ]
     },
     {
@@ -671,17 +626,14 @@
      "sub": []
     },
     {
-     "do": "Cards: presets 5, 7 not built to plan yet (card build session).",
+     "do": "Cards: presets 5 not built to plan yet (card build session).",
      "why": "",
      "sub": []
     },
     {
-     "do": "Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours",
-     "why": "Turtle Tisane",
-     "sub": [
-      "Now on Froge",
-      "8 traps on a short timer, use 40 hours"
-     ]
+     "do": "Traps: nothing needed",
+     "why": "",
+     "sub": []
     },
     {
      "do": "Divinity: nothing needed (Doot gives every god to everyone)",
@@ -691,26 +643,12 @@
    ],
    "house": [
     {
-     "do": "Super talents: spend the open points",
-     "why": "points are permanent, every pick is from Griffy or Pulse",
-     "sub": [
-      "Talent preset 1 (skilling): super Copper Collector (Griffy+Pulse: mining efficiency)",
-      "Talent preset 1 (skilling): super Tool Proficiency (Griffy+Pulse: mining power, bigger prints)",
-      "Talent preset 2 (fighting): super Knightly Disciple (Griffy: longer duration, more knights)"
-     ]
-    },
-    {
-     "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
      "why": "",
      "sub": []
     },
     {
-     "do": "Royal Guardian super talents: locked, 438 more Royal Armory upgrade levels",
+     "do": "Royal Guardian super talents: locked, 389 more Royal Armory upgrade levels",
      "why": "Griffy + Pulse: RG talents can only be supered after that shelf. Hold these picks for it",
      "sub": [
       "Pit of Pages: Pulse: a 5-6x true multi, 100% worth a super on the scaling setup (feeds the POW goal)",
@@ -724,10 +662,10 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#26 Copper Collector 225 -> 308 (Griffy: Mana stamp needs more copper but doesn't want to lose the copper collector buff.)",
-      "#30 Tool Proficiency 226 -> 308 (Pulse: Copper collector decent and mother load similar; tool proficiency weakest but still worth )",
-      "#32 Big Pick 231 -> 308 (Griffy: Big pick is the best mining talent; plus efficiency and firmly grasp it)",
-      "#42 Brute Efficiency 269 -> 308 (Pulse: Brute efficiency gives a lot of total efficiency; super it for skilling setups)",
+      "#22 Copper Collector 225 -> 308 (Griffy: Mana stamp needs more copper but doesn't want to lose the copper collector buff.)",
+      "#26 Tool Proficiency 226 -> 308 (Pulse: Copper collector decent and mother load similar; tool proficiency weakest but still worth )",
+      "#28 Big Pick 231 -> 308 (Griffy: Big pick is the best mining talent; plus efficiency and firmly grasp it)",
+      "#41 Brute Efficiency 269 -> 308 (Pulse: Brute efficiency gives a lot of total efficiency; super it for skilling setups)",
       "#49 Built Different 100 -> 308 (Griffy: Built Different grants a large amount of base strength.)"
      ]
     }
@@ -765,8 +703,8 @@
      "do": "The Hole (all 15 caverns + villagers): next ones ready: The Well in 23m 13s, Motherlode in 3h 30m, The Den in 8m 2s",
      "why": "",
      "sub": [
-      "Glowshroom Tunnels: Level 0 1000000 Opals: +1 Opal (5 / 1) READY",
-      "Glowshroom Tunnels: Level 12 Bring Them Back: +12 AFK Hours to any unlocked Monument (5 / 2) READY"
+      "Glowshroom Tunnels: Level 1 Another Try: Reset investments for Opals, Conjuror PTS, Jar Collectible  (7 / 6) READY",
+      "Glowshroom Tunnels: Level 0 1000000 Opals: +1 Opal (7 / 1) READY"
      ]
     },
     {
@@ -790,12 +728,11 @@
      "sub": []
     },
     {
-     "do": "Prayers: take off Shiny Snitch, it only helps while trapping and it lowers shiny chance otherwise",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "why": "wrong prayers cost gains",
      "sub": [
-      "Prayers on: Skilled Dimwit, The Royal Sampler, Shiny Snitch",
-      "Unending Energy: +Class & Skill EXP, but AFK caps at 10h: only when you claim within 10h",
-      "Leave Royal Sampler on until print day"
+      "Prayers on: Skilled Dimwit, The Royal Sampler",
+      "Unending Energy: +Class & Skill EXP, but AFK caps at 10h: only when you claim within 10h"
      ]
     },
     {
@@ -821,22 +758,14 @@
      "sub": []
     },
     {
-     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
-     "why": "the other preset holds the wrong talents for this job",
-     "sub": []
-    },
-    {
      "do": "Cards: nothing needed",
      "why": "",
      "sub": []
     },
     {
-     "do": "Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours",
-     "why": "Turtle Tisane",
-     "sub": [
-      "Now on Froge",
-      "8 traps on a short timer, use 40 hours"
-     ]
+     "do": "Traps: nothing needed",
+     "why": "",
+     "sub": []
     },
     {
      "do": "Divinity: buy these blessings, then god rank",
@@ -852,16 +781,6 @@
     }
    ],
    "house": [
-    {
-     "do": "Super talents: spend the open points",
-     "why": "points are permanent, every pick is from Griffy or Pulse",
-     "sub": [
-      "Talent preset 1 (fighting): super Meteor Shower (Griffy: faster clears)",
-      "Talent preset 1 (fighting): super Memorial Skulls (Griffy: kill scaling from stats)",
-      "Talent preset 2 (skilling): super Leaf Thief (Griffy: larger prints)",
-      "Talent preset 2 (skilling): super Skill Wiz (Griffy: skill output)"
-     ]
-    },
     {
      "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
      "why": "",
@@ -888,11 +807,11 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#18 Log on Logs 212 -> 308 (Griffy: Prioritize Log On Logs and Leaf Thief and Deforesting All Doubt and Inner Peace before man)",
-      "#19 Smart Efficiency 212 -> 308 (Griffy: Use Smart Efficiency and Mana Booster and Active AFKer because Hocus Choppus scales choppi)",
-      "#20 Mana Is Life 212 -> 308 (Pulse: Mana is life is okay but no need to super)",
-      "#27 Leaf Thief 225 -> 308 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)",
-      "#31 Deforesting All Doubt 228 -> 308 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)"
+      "#12 Log on Logs 212 -> 308 (Griffy: Prioritize Log On Logs and Leaf Thief and Deforesting All Doubt and Inner Peace before man)",
+      "#13 Smart Efficiency 212 -> 308 (Griffy: Use Smart Efficiency and Mana Booster and Active AFKer because Hocus Choppus scales choppi)",
+      "#14 Mana Is Life 212 -> 308 (Pulse: Mana is life is okay but no need to super)",
+      "#23 Leaf Thief 225 -> 308 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)",
+      "#27 Deforesting All Doubt 228 -> 308 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)"
      ]
     }
    ],
@@ -949,7 +868,7 @@
      ]
     },
     {
-     "do": "Kilroy (weekly, archer line): push Current Skull Ratio to 66.7% (now 26.3%)",
+     "do": "Kilroy (weekly, archer line): push Current Skull Ratio to 66.7% (now 23.8%)",
      "why": "weekly",
      "sub": []
     },
@@ -997,12 +916,9 @@
      "sub": []
     },
     {
-     "do": "Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours",
-     "why": "Turtle Tisane",
-     "sub": [
-      "Now on Froge",
-      "8 traps on a short timer, use 40 hours"
-     ]
+     "do": "Traps: nothing needed",
+     "why": "",
+     "sub": []
     },
     {
      "do": "Divinity: nothing needed (Doot gives every god to everyone)",
@@ -1016,14 +932,6 @@
      "why": "Bosses n Nightmares set goes 24% to 30% damage, drop and EXP for everyone",
      "sub": [
       "Pulse: Verminous farms on the Insta castle map with Wind Walker + candy (mixed reports, test it)"
-     ]
-    },
-    {
-     "do": "Super talents: spend the open points",
-     "why": "points are permanent, every pick is from Griffy or Pulse",
-     "sub": [
-      "Talent preset 2 (skilling): super Elusive Efficiency (Griffy: skilling)",
-      "Talent preset 2 (skilling): super Eagle Eye (Griffy: more critters and EXP)"
      ]
     },
     {
@@ -1045,11 +953,11 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#3 Some Commandments 100 -> 308 (Griffy: Super Some Commandments for longer roar doubled boar and nacho chances and faster whale co)",
-      "#17 Spirit Ballista 210 -> 308 (Griffy: Prioritize Spirit Ballista and Ten Commandments and the reindeer talent plus Unreal Agilit)",
-      "#28 Compass 225 -> 308 (Griffy: Upgrade stones have differing success chances; a Compass upgrade guarantees success when u)",
-      "#33 Invasive Species 235 -> 308 (AutoReview library priority)",
-      "#38 Eternal Hunt 256 -> 308 (Griffy: Eternal Hunt summons a reindeer whose death helps respawns and temporarily increases dust )"
+      "#1 Windborne 100 -> 308 (AutoReview library priority)",
+      "#11 Spirit Ballista 210 -> 308 (Griffy: Prioritize Spirit Ballista and Ten Commandments and the reindeer talent plus Unreal Agilit)",
+      "#24 Compass 225 -> 308 (Griffy: Upgrade stones have differing success chances; a Compass upgrade guarantees success when u)",
+      "#29 Invasive Species 235 -> 308 (AutoReview library priority)",
+      "#34 Eternal Hunt 256 -> 308 (Griffy: Eternal Hunt summons a reindeer whose death helps respawns and temporarily increases dust )"
      ]
     }
    ],
@@ -1081,23 +989,23 @@
      "sub": []
     },
     {
-     "do": "Research: push Cellular Warfare (F3):Multiplies all damage dealt by your cells during operation to 4 (now 0)",
+     "do": "Research: push Daily Operating Procedure (G3):Gives you +1 more operations to start every day a to 4 (now 1)",
      "why": "research unlocks W7 upgrades",
      "sub": [
       "Research is level 28, next level in 3h 39m",
-      "Push Barnacle Brothers (Barnacle Curb)Found in World 7, covered in a sludge of either to 1 (now 0)",
+      "Push Meenie Cactus (Mummy Memorial)Found in World 2, next to the tomb of the late gre to 1 (now 0)",
       "Push Adds another shape to your Research Grid! Keep in mind, each grid upgrade can on to 1 (now 0)"
      ]
     },
     {
-     "do": "Greenstacks: buy the daily vendor items that are closest to a greenstack: Potent Speed Potion, Potent Strength Potion, Potent EXP Potion, Yeti Ham, Potent Life Potion",
+     "do": "Greenstacks: buy the daily vendor items that are closest to a greenstack: Potent Speed Potion, Potent Strength Potion, Potent EXP Potion, Potent Life Potion, Yeti Ham",
      "why": "greenstacks count for Equinox",
      "sub": [
-      "Close to a greenstack, don't spend these: Dune Soul (86%), Speed Statue (75%)",
+      "Close to a greenstack, don't spend these: Dune Soul (83%)",
       "10 quest items still need greenstacks while you can still get them",
       "Push Collect 200 Greenstacks to 200 (now 174)",
-      "Push Potent Speed Potion (W4 Town) to 100% (now 48%)",
-      "Push Potent Strength Potion (W4 Town) to 100% (now 47%)"
+      "Push Potent Speed Potion (W4 Town) to 100% (now 52%)",
+      "Push Potent Strength Potion (W4 Town) to 100% (now 51%)"
      ]
     },
     {
@@ -1139,17 +1047,12 @@
      "do": "Greenstacks: your closest five you can farm yourself",
      "why": "each one counts for Equinox",
      "sub": [
-      "Void Bar (63%): smelt in the Forge",
+      "Void Bar (68%): smelt in the Forge",
       "Bonemeal (52%): farm the monster",
-      "Tangled Cords (46%): skill it",
+      "Tangled Cords (34%): skill it",
       "Litterbug (30%): skill it",
       "Pingy (24%): skill it"
      ]
-    },
-    {
-     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
-     "why": "the other preset holds the wrong talents for this job",
-     "sub": []
     },
     {
      "do": "Cards: nothing needed",
@@ -1160,7 +1063,7 @@
      "do": "Traps: move all to Honker at W3 Wam Wonderland, Royal traps, 40 hours",
      "why": "Goosey Glug 0% toward 9",
      "sub": [
-      "Now on Scorpie",
+      "Now on Owlio",
       "8 traps on a short timer, use 40 hours"
      ]
     },
@@ -1176,9 +1079,7 @@
      "why": "points are permanent, every pick is from Griffy or Pulse",
      "sub": [
       "Talent preset 1 (fighting): Extra Bags is supered but isn't in his tree (left from an old class?). Reset it before spending",
-      "Talent preset 1 (fighting): super Gimme Gimme (Griffy: more double loot)",
-      "Talent preset 2 (skilling): Happy Dude is supered but isn't in his tree (left from an old class?). Reset it before spending",
-      "Talent preset 2 (skilling): super Left Hand Of Learning (Griffy+Pulse: more EXP for others, global talents work with supers now)"
+      "Talent preset 2 (skilling): Happy Dude is supered but isn't in his tree (left from an old class?). Reset it before spending"
      ]
     },
     {
@@ -1209,11 +1110,11 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#4 Void Radius 100 -> 308 (Griffy: Void Radius grants enormous multikill and makes Void Walker an exceptionally strong monste)",
-      "#5 Void Trial Rerun 100 -> 308 (Griffy: Super Void Trial Rerun for more speedrun duration.)",
-      "#6 Cmon Out Crystals 127 -> 308 (AutoReview library priority)",
-      "#10 Gimme Gimme 179 -> 308 (Griffy: Book Gimme Gimme to increase the chance of double drops; his level-133 book produces a fif)",
-      "#23 One Step Ahead 213 -> 308 (Griffy: Maestro already has the Pawn One Step Ahead Checkmate ability.)"
+      "#2 Void Trial Rerun 156 -> 308 (Griffy: Super Void Trial Rerun for more speedrun duration.)",
+      "#4 Gimme Gimme 179 -> 308 (Griffy: Book Gimme Gimme to increase the chance of double drops; his level-133 book produces a fif)",
+      "#6 Cmon Out Crystals 185 -> 308 (AutoReview library priority)",
+      "#17 One Step Ahead 213 -> 308 (Griffy: Maestro already has the Pawn One Step Ahead Checkmate ability.)",
+      "#20 Printer Go Brrr 217 -> 302 (Griffy: Printer Go Brrr grants printer progress with a cooldown-reset chance; both scale, reaching)"
      ]
     }
    ],
@@ -1303,8 +1204,7 @@
      "do": "Traps: move all to Bunny at W3 Thermonuclear Climb, Royal traps, 40 hours",
      "why": "Bunny Brew 0% toward 8",
      "sub": [
-      "Now on Scorpie",
-      "8 traps on a short timer, use 40 hours"
+      "Now on Tuttle"
      ]
     },
     {
@@ -1314,18 +1214,6 @@
     }
    ],
    "house": [
-    {
-     "do": "Super talents: spend the open points",
-     "why": "points are permanent, every pick is from Griffy or Pulse",
-     "sub": [
-      "Talent preset 1 (fighting): super Shockwave Slash (Griffy: carries most of the DK kit)",
-      "Talent preset 1 (fighting): super Orb Of Remembrance (Pulse: top five, fixed now so super it)",
-      "Talent preset 1 (fighting): super Charred Skulls (Griffy: kill scaling from stats)",
-      "Talent preset 1 (fighting): super Knightly Disciple (Griffy: longer duration, more knights)",
-      "Talent preset 2 (skilling): super Copper Collector (Griffy+Pulse: mining efficiency)",
-      "Talent preset 2 (skilling): super Tool Proficiency (Griffy+Pulse: mining power, bigger prints)"
-     ]
-    },
     {
      "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
      "why": "",
@@ -1342,7 +1230,7 @@
      "sub": []
     },
     {
-     "do": "Royal Guardian super talents: locked, 438 more Royal Armory upgrade levels",
+     "do": "Royal Guardian super talents: locked, 389 more Royal Armory upgrade levels",
      "why": "Griffy + Pulse: RG talents can only be supered after that shelf. Hold these picks for it",
      "sub": [
       "Pit of Pages: Pulse: a 5-6x true multi, 100% worth a super on the scaling setup (feeds the POW goal)",
@@ -1353,20 +1241,13 @@
      ]
     },
     {
-     "do": "Lab chips: end-goal chips missing, buy when they rotate in",
-     "why": "chips rotate weekly; missed means wait",
-     "sub": [
-      "Chocolatey Chip: Pulse: meta-defining, the most important if you lack it; rarely in rotation, farm its materials ahead"
-     ]
-    },
-    {
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#29 Big Pick 225 -> 308 (Griffy: Big pick is the best mining talent; plus efficiency and firmly grasp it)",
-      "#44 Tool Proficiency 273 -> 308 (Pulse: Copper collector decent and mother load similar; tool proficiency weakest but still worth )",
-      "#46 Brute Efficiency 274 -> 308 (Pulse: Brute efficiency gives a lot of total efficiency; super it for skilling setups)",
-      "#47 Copper Collector 274 -> 308 (Griffy: Mana stamp needs more copper but doesn't want to lose the copper collector buff.)",
+      "#25 Big Pick 225 -> 308 (Griffy: Big pick is the best mining talent; plus efficiency and firmly grasp it)",
+      "#43 Tool Proficiency 273 -> 308 (Pulse: Copper collector decent and mother load similar; tool proficiency weakest but still worth )",
+      "#45 Brute Efficiency 274 -> 308 (Pulse: Brute efficiency gives a lot of total efficiency; super it for skilling setups)",
+      "#46 Copper Collector 274 -> 308 (Griffy: Mana stamp needs more copper but doesn't want to lose the copper collector buff.)",
       "#50 Built Different 100 -> 308 (Griffy: Built Different grants a large amount of base strength.)"
      ]
     }
@@ -1420,11 +1301,10 @@
      ]
     },
     {
-     "do": "Prayers: take off Shiny Snitch, it only helps while trapping and it lowers shiny chance otherwise",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "why": "wrong prayers cost gains",
      "sub": [
-      "Prayers on: Shiny Snitch, The Royal Sampler, Skilled Dimwit",
-      "Leave Royal Sampler on until print day"
+      "Prayers on: The Royal Sampler, Skilled Dimwit"
      ]
     },
     {
@@ -1442,6 +1322,11 @@
      ]
     },
     {
+     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
+     "why": "the other preset holds the wrong talents for this job",
+     "sub": []
+    },
+    {
      "do": "Cards: nothing needed",
      "why": "",
      "sub": []
@@ -1450,8 +1335,7 @@
      "do": "Traps: move all to Blobfish at W4 Hyperion Nebula, Cocoa Tunnel, Royal traps, 40 hours",
      "why": "Bloat Draft 17% toward 11",
      "sub": [
-      "Now on Mousey",
-      "8 traps on a short timer, use 40 hours"
+      "Now on Tuttle"
      ]
     },
     {
@@ -1461,16 +1345,6 @@
     }
    ],
    "house": [
-    {
-     "do": "Super talents: spend the open points",
-     "why": "points are permanent, every pick is from Griffy or Pulse",
-     "sub": [
-      "Talent preset 1 (fighting): super Meteor Shower (Griffy: faster clears)",
-      "Talent preset 1 (fighting): super Memorial Skulls (Griffy: kill scaling from stats)",
-      "Talent preset 2 (skilling): super Log On Logs (Griffy: big boost to chopping prints)",
-      "Talent preset 2 (skilling): super Skill Wiz (Griffy: skill output)"
-     ]
-    },
     {
      "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
      "why": "",
@@ -1493,11 +1367,11 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#9 Tornado 168 -> 308 (Griffy: Put portal first, followed by meteors, chain bolt, tornado, thunder barrage, and lava; pri)",
-      "#14 Lightning Barrage 190 -> 308 (Griffy: After reaching level 200 and allocating 100 Memorial Skulls points, invest more in Lightni)",
-      "#15 Radiant Chainbolt 199 -> 308 (Griffy: Lightning Barrage and Radiant Chainbolt plus Meteor Shower and Tornado provide strong clea)",
-      "#21 Deforesting All Doubt 212 -> 308 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)",
-      "#41 Smart Efficiency 266 -> 308 (Griffy: Use Smart Efficiency and Mana Booster and Active AFKer because Hocus Choppus scales choppi)"
+      "#8 Lightning Barrage 190 -> 308 (Griffy: After reaching level 200 and allocating 100 Memorial Skulls points, invest more in Lightni)",
+      "#9 Radiant Chainbolt 199 -> 308 (Griffy: Lightning Barrage and Radiant Chainbolt plus Meteor Shower and Tornado provide strong clea)",
+      "#15 Deforesting All Doubt 212 -> 308 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)",
+      "#18 Floor Is Lava 215 -> 308 (Griffy: Floor Is Lava is situational and scaled less than expected in testing.)",
+      "#39 Smart Efficiency 266 -> 308 (Griffy: Use Smart Efficiency and Mana Booster and Active AFKer because Hocus Choppus scales choppi)"
      ]
     }
    ],
@@ -1510,19 +1384,19 @@
    "class": "Death Bringer",
    "daily": [
     {
-     "do": "Stamps: raise the max level on Drippy Drop, Ladle, Bugsack, Bag o Heads, you have the materials",
+     "do": "Stamps: raise the max level on Ladle, Bag o Heads, you have the materials",
      "why": "stamps are account buffs",
      "sub": [
       "you have an unused stamp exalt",
-      "Max-level raises still short: Multitool (24.7B more Dust Mote), Potion (292K more Icing Ironbite), Mason Jar (8.7K more Glass Shard), Matty Bag (149 more Cramped Material Pouch)",
+      "Max-level raises still short: Bugsack (46.7M more Hermit Can), Multitool (24.7B more Dust Mote), Potion (750 more Icing Ironbite), Mason Jar (8.7K more Glass Shard)",
       "If a stamp material is also used by another system, the card flags it",
-      "Push Total Stamp Levels to 11000 (now 9588)",
-      "Push Skill to 100 (now 95)"
+      "Push Total Stamp Levels to 11000 (now 9616)",
+      "Push Skill to 180 (now 160)"
      ]
     },
     {
      "do": "Upgrade Vault: buy Wicked Smart first: 330 -> 387",
-     "why": "Autisticles has the coins for about 32 levels",
+     "why": "Autistocat has the coins for about 42 levels",
      "sub": [
       "Then Bullseye 440 -> 500",
       "Then Kitchen Dream-mare 251 -> 327",
@@ -1539,7 +1413,7 @@
       "Faster bar: Defeat the Caustic Glaciaxus (0 / 1) gives +25% fill; Get 2000 kills in a single Killroy run (1,296 / 2,000) gives +35% fill; Successfully take a Red Frisbee sample at Woo (0 / 1) gives +40% fill",
       "Locked: Food Lust (Have 15 chemical plants just chillin' in your Gaming Ga, 3 / 15); Equinox Symbols (Greenstack 200 different items in your Storage Chest, 172 / 200); Voter Rights (Acquire all 10 Megafeathers from Orion the Great Owl, 21 / 22); Nonstop Studies (Hit a bomb instantly while playing Mr",
       "Push Complete all 76 possible Dreams to 76 (now 20)",
-      "Push Metal Detector to 18 (now 0)"
+      "Push Metal Detector to 20 (now 0)"
      ]
     },
     {
@@ -1563,7 +1437,7 @@
      ]
     },
     {
-     "do": "Clickers: Owl, Bubba, Poppy (all three): push MF21 to 28 (now 13)",
+     "do": "Clickers: Owl, Bubba, Poppy (all three): push MF21 to 28 (now 15)",
      "why": "",
      "sub": [
       "Owl: buy all 7 upgrades, you have way more feathers than they cost",
@@ -1606,12 +1480,7 @@
      "sub": []
     },
     {
-     "do": "Talents: switch to talent preset 2 (fighting) for where he is parked",
-     "why": "the other preset holds the wrong talents for this job",
-     "sub": []
-    },
-    {
-     "do": "Cards: switch to preset 1 (Fighting AFK) for Sir Stache.",
+     "do": "Cards: nothing needed",
      "why": "",
      "sub": []
     },
@@ -1619,8 +1488,7 @@
      "do": "Traps: move all to Mousey at W1 Rats Nest, Royal traps, 40 hours",
      "why": "Bubonic Burp 22% toward 13",
      "sub": [
-      "Now on Mousey",
-      "8 traps on a short timer, use 40 hours"
+      "Now on Tuttle"
      ]
     },
     {
@@ -1633,7 +1501,7 @@
      "why": "only his own kills count, account buff tier",
      "sub": [
       "Pufferblob at Puffpuff Overpass: 44M kills left",
-      "Sheepie at Steep Sheep Ledge: 47M kills left",
+      "Sheepie at Steep Sheep Ledge: 46M kills left",
       "Stiltmole at The Great Molehill: 58M kills left",
       "Trench Fish at Deep End of the Koipond: 60M kills left",
       "Ceramic Spirit at Sleepy Skyline: 63M kills left"
@@ -1656,12 +1524,8 @@
      "do": "Super talents: spend the open points",
      "why": "points are permanent, every pick is from Griffy or Pulse",
      "sub": [
-      "Talent preset 1 (skilling): Stacked Skulls is supered but isn't in his tree (left from an old class?). Reset it before spending",
-      "Talent preset 1 (skilling): super Brute Efficiency (Griffy+Pulse: big efficiency on skilling setups)",
-      "Talent preset 1 (skilling): super Big Pick (Pulse: must super on the skilling setup for copper prints)",
-      "Talent preset 1 (skilling): super Worming Undercover (Griffy: fishing efficiency)",
-      "Talent preset 2 (fighting): Teleki'net'ic Logs, Elusive Efficiency, Briar Patch Runner is supered but isn't in his tree (left from an old class?). Reset it before spending",
-      "Talent preset 2 (fighting): 1 open, hold them (no sourced pick)"
+      "Talent preset 1 (fighting): Stacked Skulls is supered but isn't in his tree (left from an old class?). Reset it before spending",
+      "Talent preset 2 (skilling): super Brute Efficiency (Griffy+Pulse: big efficiency on skilling setups)"
      ]
     },
     {
@@ -1688,16 +1552,16 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#7 Symbols of Beyond R 153 -> 300 (AutoReview library priority)",
-      "#12 Overflowing Ladle 181 -> 308 (Griffy: Use ladles on Deathbringer because Overflowing Ladles in the Blood Berserker tab grants 60)",
-      "#24 Graveyard Shift 219 -> 308 (Griffy: Prioritize Sentinel Axes and Graveyard Shift and Detonation outside Wraith mode.)",
-      "#25 Grimoire 224 -> 308 (Griffy: Wraith mode has separate progression: farm bones and spend them on Grimoire upgrades.)",
-      "#39 Marauder Style 264 -> 308 (Griffy: Marauder Style grants wraith damage and accuracy per hundred Grimoire upgrades.)"
+      "#3 Brute Efficiency 164 -> 308 (Pulse: Brute efficiency gives a lot of total efficiency; super it for skilling setups)",
+      "#19 Graveyard Shift 219 -> 308 (Griffy: Prioritize Sentinel Axes and Graveyard Shift and Detonation outside Wraith mode.)",
+      "#21 Grimoire 224 -> 308 (Griffy: Wraith mode has separate progression: farm bones and spend them on Grimoire upgrades.)",
+      "#37 Marauder Style 264 -> 308 (Griffy: Marauder Style grants wraith damage and accuracy per hundred Grimoire upgrades.)",
+      "#40 Detonation 266 -> 308 (Griffy: Prioritize Sentinel Axes and Graveyard Shift and Detonation outside Wraith mode.)"
      ]
     }
    ],
    "part": [],
-   "park": "W3 Steep Sheep Ledge (Sheepie) \u00b7 47M kills left, 53% done \u00b7 fewest kills left, fastest respawn (20.0s). Side reason: Super CHOW and WOW only count on him (account buffs); after the Ram he farms Green Mushrooms for coins + a WOW"
+   "park": "W3 Steep Sheep Ledge (Sheepie) \u00b7 46M kills left, 54% done \u00b7 fewest kills left, fastest respawn (20.0s). Side reason: Super CHOW and WOW only count on him (account buffs); after the Ram he farms Green Mushrooms for coins + a WOW"
   },
   {
    "name": "Autistachio",
@@ -1774,12 +1638,9 @@
      "sub": []
     },
     {
-     "do": "Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours",
-     "why": "Turtle Tisane",
-     "sub": [
-      "Now on Froge",
-      "6 traps on a short timer, use 40 hours"
-     ]
+     "do": "Traps: nothing needed",
+     "why": "",
+     "sub": []
     },
     {
      "do": "Divinity: nothing needed (Doot gives every god to everyone)",

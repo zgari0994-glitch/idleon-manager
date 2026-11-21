@@ -1,0 +1,74 @@
+{
+ "module": "reef",
+ "systems": [
+  "coral_reef",
+  "dancing_coral",
+  "coral_kid"
+ ],
+ "ok": true,
+ "card_lines": [
+  "TOP: spend coral on all 5 Reef upgrades (5,075 of your 5,235). The big one gives a Menagerie shell.",
+  "Dancing Coral bonuses start when Woodular Shrine reaches 201 (now 142) and Isaccian Shrine reaches 201 (now 122). Autistastic levels the shrines."
+ ],
+ "char_lines": {},
+ "routed": {
+  "Autistastic": [
+   "Level Woodular Shrine from 142 to 201 to start Autistachio's Reef Coral bonus.",
+   "Level Isaccian Shrine from 122 to 201 to start Autistachio's Vibrant Coral bonus."
+  ]
+ },
+ "build": {
+  "coral": 5235.0,
+  "ups": [
+   [
+    "Instantly gives +0 Shells for the Luminous Menagerie!",
+    0,
+    13,
+    5000.0
+   ],
+   [
+    "Adds a new bonus to your Tome's Epilogue in World 4, which goes up with your Tome Score!",
+    0,
+    10,
+    15.0
+   ],
+   [
+    "Adds a new mini 'Ninja Knowledge' upgrade, level it up with your Jade!",
+    0,
+    12,
+    10.0
+   ],
+   [
+    "The Gallery gives +0% higher bonuses, and has +0 more slots for Trophies",
+    0,
+    10,
+    40.0
+   ],
+   [
+    "Blue...",
+    0,
+    1,
+    10.0
+   ]
+  ],
+  "dance": [
+   [
+    "Reef Coral",
+    "+100 max LV for Woodular Shrine",
+    "Woodular Shrine",
+    "142",
+    "Generated Daily in Town",
+    "Lv 201 (59 to go)"
+   ],
+   [
+    "Vibrant Coral",
+    "+100 max LV for Isaccian Shrine",
+    "Isaccian Shrine",
+    "122",
+    "Dropped by Shellslugs",
+    "Lv 201 (79 to go)"
+   ]
+  ],
+  "snapshot": "20261121T1741"
+ }
+}

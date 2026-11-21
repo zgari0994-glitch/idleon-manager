@@ -1,0 +1,202 @@
+{
+ "module": "refinery",
+ "systems": [
+  "refinery"
+ ],
+ "ok": true,
+ "card_lines": [
+  "TOP: Refinery Throttle is ready on Autistastic and Autistomatic, use it.",
+  "Rank up Redox Salts first (rank 30, lots of room). Each salt above it is held back by the one below, so raising the first one frees the rest. Griffy: red salts first.",
+  "Spontaneity Salts, Nullo Salt are one rank from their cap.",
+  "The salts eat 89K Dune Soul a day and 141K Frigid Soul a day. Keep that covered before spending souls elsewhere.",
+  "Keep the Spore Cap, Copper, Goldfish, Fly and Pocket Sand prints, they feed the salts.",
+  "Salt Lick Refinery Speed is 71/100, Autistopher can buy 4 more now."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "snapshot": "20261121T1741",
+  "cycles_per_hr": {
+   "Combustion": 90.0,
+   "Synthesis": 22.642,
+   "Polymerize": 0.23
+  },
+  "salts": [
+   {
+    "salt": "Redox Salts",
+    "rank": 30,
+    "auto": "off",
+    "mats": [
+     [
+      "Spore Cap",
+      1640.0
+     ],
+     [
+      "Copper Ore",
+      820.0
+     ]
+    ],
+    "cycle": "Combustion",
+    "balance_hr": "+4,500",
+    "safe": 4831,
+    "limit": "Spore Cap"
+   },
+   {
+    "salt": "Explosive Salts",
+    "rank": 23,
+    "auto": "off",
+    "mats": [
+     [
+      "Bullfrog Horn",
+      1100.0
+     ],
+     [
+      "Forest Fibres",
+      550.0
+     ],
+     [
+      "Redox Salts",
+      116.0
+     ]
+    ],
+    "cycle": "Combustion",
+    "balance_hr": "+630",
+    "safe": 30,
+    "limit": "Redox Salts"
+   },
+   {
+    "salt": "Spontaneity Salts",
+    "rank": 22,
+    "auto": "off",
+    "mats": [
+     [
+      "Pocket Sand",
+      5150.0
+     ],
+     [
+      "Goldfish",
+      3090.0
+     ],
+     [
+      "Fly",
+      4120.0
+     ],
+     [
+      "Explosive Salts",
+      110.0
+     ]
+    ],
+    "cycle": "Combustion",
+    "balance_hr": "+8,971.13",
+    "safe": 23,
+    "limit": "Explosive Salts"
+   },
+   {
+    "salt": "Dioxide Synthesis",
+    "rank": 19,
+    "auto": "off",
+    "mats": [
+     [
+      "Floof Ploof",
+      820.0
+     ],
+     [
+      "Dune Soul",
+      164.0
+     ],
+     [
+      "Scorpie",
+      82.0
+     ],
+     [
+      "Spontaneity Salts",
+      45.0
+     ]
+    ],
+    "cycle": "Synthesis",
+    "balance_hr": "+566.04",
+    "safe": 108,
+    "limit": "Spontaneity Salts"
+   },
+   {
+    "salt": "Purple Salt",
+    "rank": 15,
+    "auto": "off",
+    "mats": [
+     [
+      "Cracked Glass",
+      1450.0
+     ],
+     [
+      "Bloach",
+      290.0
+     ],
+     [
+      "Sentient Cereal",
+      290.0
+     ],
+     [
+      "Mousey",
+      290.0
+     ],
+     [
+      "Dioxide Synthesis",
+      66.0
+     ]
+    ],
+    "cycle": "Synthesis",
+    "balance_hr": "+158.49",
+    "safe": 19,
+    "limit": "Dioxide Synthesis"
+   },
+   {
+    "salt": "Nullo Salt",
+    "rank": 14,
+    "auto": "off",
+    "mats": [
+     [
+      "Contact Lense",
+      2600.0
+     ],
+     [
+      "Void Bar",
+      260.0
+     ],
+     [
+      "Wispy Lumber",
+      260.0
+     ],
+     [
+      "Flycicle",
+      260.0
+     ],
+     [
+      "Frigid Soul",
+      260.0
+     ],
+     [
+      "Purple Salt",
+      60.0
+     ]
+    ],
+    "cycle": "Synthesis",
+    "balance_hr": "+1,381.13",
+    "safe": 15,
+    "limit": "Purple Salt"
+   }
+  ],
+  "throttle_ready": [
+   "Autistastic",
+   "Autistomatic"
+  ],
+  "soul_use_hr": {
+   "Dune Soul": 3713.288,
+   "Frigid Soul": 5886.92
+  },
+  "locked": [
+   "Crosslink Salt",
+   "Propagated Salt",
+   "Anionic Salt"
+  ]
+ }
+}

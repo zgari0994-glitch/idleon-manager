@@ -1,0 +1,343 @@
+{
+ "module": "w7minis",
+ "systems": [
+  "legend_talents",
+  "jelly_operator",
+  "clam_work",
+  "sushi_station",
+  "minehead",
+  "glimbo",
+  "zenith_market",
+  "the_button"
+ ],
+ "ok": true,
+ "card_lines": [
+  "TOP dailies: use 3 Jelly operations, play 3 Minehead tries, spend Sushi fuel (nearly full).",
+  "Spend 15 Legend Talent points (keep Blue Ribbon and Extended Database on hold).",
+  "Cheap Sushi upgrades: Hourly Wage Meter, Fastburn Fuel I, Fuel Capacity I, Customer Surcharge I, Fastburn Fuel II.",
+  "Glimbo: make 12 trades (Monster Tax, Wicked Smart, Major Discount, Go Go Secret Owl...). Each one raises a Vault max level.",
+  "Not unlocked yet: Zenith Market, The Button."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "legend": {
+   "points": "59",
+   "unspent": "15"
+  },
+  "jelly": {
+   "ops": "3",
+   "next": "Longbone, 100 HP",
+   "removed": "0 / 71"
+  },
+  "clam": {
+   "pearls": "152",
+   "ready": []
+  },
+  "sushi": {
+   "fuel": [
+    "9,200",
+    "9,200"
+   ],
+   "next": [
+    "Beef Nigiri ",
+    "13,963"
+   ],
+   "bucks": "4.76M",
+   "cheap": [
+    [
+     "Hourly Wage Meter",
+     "95",
+     7490.0
+    ],
+    [
+     "Fastburn Fuel I",
+     "70",
+     4740.0
+    ],
+    [
+     "Fuel Capacity I",
+     "90",
+     12300.0
+    ],
+    [
+     "Customer Surcharge I",
+     "50",
+     12700.0
+    ],
+    [
+     "Fastburn Fuel II",
+     "50",
+     12300.0
+    ],
+    [
+     "Superior Sushi Skillz",
+     "4",
+     10800.0
+    ],
+    [
+     "Fuel Capacity II",
+     "0",
+     669.0
+    ],
+    [
+     "Sushi Tier Vision",
+     "0",
+     1810.0
+    ],
+    [
+     "Salt Shaker",
+     "0",
+     10200.0
+    ],
+    [
+     "Customer Surcharge II",
+     "0",
+     14900.0
+    ],
+    [
+     "Combo Meter",
+     "0",
+     45200.0
+    ],
+    [
+     "Hot Slot",
+     "0",
+     144000.0
+    ],
+    [
+     "Movement Mittens",
+     "0",
+     142000.0
+    ]
+   ]
+  },
+  "minehead": {
+   "tries": "3 / 3",
+   "cur": "781",
+   "next": "Saturnhead, 755.83 HP",
+   "buy": [],
+   "opp": []
+  },
+  "glimbo": {
+   "trades": [
+    [
+     "Monster Tax",
+     91,
+     1
+    ],
+    [
+     "Wicked Smart",
+     12194,
+     19
+    ],
+    [
+     "Major Discount",
+     3847040,
+     4
+    ],
+    [
+     "Go Go Secret Owl",
+     1097712,
+     3
+    ],
+    [
+     "Vault Mastery",
+     161,
+     1
+    ],
+    [
+     "Active Murdering",
+     236,
+     1
+    ],
+    [
+     "Go Go Secret Kangaroo Mouse",
+     221908,
+     1
+    ],
+    [
+     "Critters 'n Souls",
+     0,
+     1
+    ],
+    [
+     "Kitchen Dream-mare",
+     311676,
+     1
+    ],
+    [
+     "Foraging Forever",
+     277,
+     1
+    ],
+    [
+     "Teh TOM",
+     2,
+     3
+    ],
+    [
+     "Pet Punchies",
+     0,
+     1
+    ],
+    [
+     "Vault Mastery II",
+     0,
+     1
+    ],
+    [
+     "Artifact Find Chance",
+     0,
+     1
+    ],
+    [
+     "Go Go Bubba the Seal",
+     0,
+     1
+    ],
+    [
+     "Mega Bits",
+     0,
+     1
+    ],
+    [
+     "Divinity Points",
+     2294,
+     3
+    ],
+    [
+     "Better Captains",
+     4183,
+     1
+    ],
+    [
+     "Finders Keepers",
+     0,
+     1
+    ],
+    [
+     "Bigger Better Beans",
+     0,
+     1
+    ],
+    [
+     "Rest of the Essentials",
+     2988,
+     1
+    ],
+    [
+     "Vault Mastery III",
+     0,
+     1
+    ]
+   ]
+  },
+  "gates": {
+   "zenith": true,
+   "button": true,
+   "button_req": [
+    [
+     "Find at least 500 items, as shown by the Slab",
+     "Ready"
+    ],
+    [
+     "Reach Spelunking LV 27 or higher",
+     "Best: Autistomatic"
+    ],
+    [
+     "Reach Choppin LV 78 or higher",
+     "Best: Autistronaut"
+    ],
+    [
+     "Reach Sneaking LV 299 or higher",
+     "Best: Autistomatic"
+    ],
+    [
+     "Reach Choppin LV 91 or higher",
+     "Best: Autistronaut"
+    ],
+    [
+     "Reach Divinity LV 193 or higher",
+     "Best: Autistocat"
+    ],
+    [
+     "Reach Laboratory LV 232 or higher",
+     "Best: Autistotle"
+    ]
+   ]
+  },
+  "advice": [
+   {
+    "name": "Advice on Life and Death",
+    "level": 69,
+    "next": 1.5828399346123539e+30,
+    "bonus_now": 4.0828402366863905,
+    "max_bonus": 10.0,
+    "next_ok": [
+     "Autiszemo",
+     "Autistocat",
+     "Autisticles"
+    ]
+   },
+   {
+    "name": "Advice on Being Tired",
+    "level": 4,
+    "next": 1.80044396040552e+29,
+    "bonus_now": 0.3076923076923077,
+    "max_bonus": 8.0,
+    "next_ok": [
+     "Autiszemo",
+     "Autistocat",
+     "Autisticles",
+     "Autistastic",
+     "Autistronaut"
+    ]
+   },
+   {
+    "name": "Advice on Sleeping",
+    "level": 0,
+    "next": 1.0314695266356493e+31,
+    "bonus_now": 0.0,
+    "max_bonus": 20.0,
+    "next_ok": [
+     "Autiszemo",
+     "Autistocat"
+    ]
+   },
+   {
+    "name": "Advice on Murder One",
+    "level": 0,
+    "next": 1.0335334971584472e+33,
+    "bonus_now": 0.0,
+    "max_bonus": 10.0,
+    "next_ok": []
+   },
+   {
+    "name": "Advice on Being Smart",
+    "level": 0,
+    "next": 1.035601597686261e+35,
+    "bonus_now": 0.0,
+    "max_bonus": 25.0,
+    "next_ok": []
+   },
+   {
+    "name": "Advice on Materialism",
+    "level": 0,
+    "next": 1.0387115103197146e+38,
+    "bonus_now": 0.0,
+    "max_bonus": 10.0,
+    "next_ok": []
+   },
+   {
+    "name": "Advice on Settlement",
+    "level": 0,
+    "next": 1.0418307620239161e+41,
+    "bonus_now": 0.0,
+    "max_bonus": 15.0,
+    "next_ok": []
+   }
+  ],
+  "snapshot": "20261121T1741"
+ }
+}

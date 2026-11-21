@@ -1,0 +1,52 @@
+{
+ "module": "summoning",
+ "systems": [
+  "summoning"
+ ],
+ "ok": true,
+ "card_lines": [
+  "TOP: claim the familiar EXP (132M EXP, 6d of it)."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "unclaimed": [
+   "132M EXP",
+   "6d unclaimed, +0-3 Lv"
+  ],
+  "endless": 91,
+  "essence": {
+   "White": [
+    9.199999999999999e+18,
+    "+82.1Q/hr"
+   ],
+   "Green": [
+    3.5e+18,
+    "+29.3Q/hr"
+   ],
+   "Yellow": [
+    4.75e+18,
+    "+40.1Q/hr"
+   ],
+   "Blue": [
+    6.76e+18,
+    "+56.8Q/hr"
+   ],
+   "Purple": [
+    5.34e+18,
+    "+46.4Q/hr"
+   ],
+   "Red": [
+    2.36e+18,
+    "+26.5Q/hr"
+   ],
+   "Cyan": [
+    1.2e+18,
+    "+11.8Q/hr"
+   ]
+  },
+  "upgrades": [],
+  "teal": null,
+  "snapshot": "20261121T1741"
+ }
+}

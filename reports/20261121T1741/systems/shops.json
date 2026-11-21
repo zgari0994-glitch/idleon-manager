@@ -1,0 +1,71 @@
+{
+ "module": "shops",
+ "systems": [
+  "gemshop",
+  "ballot"
+ ],
+ "ok": true,
+ "card_lines": [
+  "Event Shop: 8 points. Cheapest wanted: Graduate Thesis (15), Smol Pouch (25).",
+  "Vote on the Ballot before it resets (2d 20h)."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "points": "8",
+  "rotation": "Halloween Event 2026",
+  "items": [
+   [
+    "Smol Pouch",
+    "Get +2 Inventory slots for your Items Backpack",
+    "8",
+    "25"
+   ],
+   [
+    "Graduate Thesis",
+    "Get +1 Research PTS",
+    "8",
+    "15"
+   ],
+   [
+    "Ivory Locket",
+    "+3 Slot Unlocks for Jelly Operator",
+    "8",
+    "100"
+   ],
+   [
+    "A North Star",
+    "+1 Black Star to use in the Gaming Palette",
+    "8",
+    "60"
+   ],
+   [
+    "Organic Label",
+    "+5 uses, doubles your choice of Exotic Market upgrade!",
+    "8",
+    "90"
+   ],
+   [
+    "Gilded Awnings",
+    "+25 Max LV for most of the Upgrade Vault",
+    "8",
+    "120"
+   ],
+   [
+    "Glimbo VIP Pass",
+    "Each Glimbo Trade boosts Vault Max LV by +2 not +1",
+    "8",
+    "210"
+   ],
+   [
+    "Menagerie Shell",
+    "Instantly get +5 Shells for the Luminous Menagerie",
+    "8",
+    "250"
+   ]
+  ],
+  "ballot_next": "2d 20h",
+  "merit_next": "5d 20h",
+  "snapshot": "20261121T1741"
+ }
+}

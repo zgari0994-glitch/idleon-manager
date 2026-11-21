@@ -1,0 +1,58 @@
+{
+ "module": "cooking",
+ "systems": [
+  "cooking",
+  "meals"
+ ],
+ "ok": true,
+ "card_lines": [
+  "Meals cap at level 90. Ways to raise it:",
+  "  Grimoire upgrade \"Supreme Head Chef Status\" 0 -> 20 (Autiszemo)",
+  "  Menagerie unlock 21 (Autisticles)",
+  "  Defeat the Lunarheim cave lore boss in Spelunking (Autistomatic)",
+  "Cooking Mastery is level 5. Sweet unlocks when Divorce Cake reaches 75 (it's None)."
+ ],
+ "char_lines": {},
+ "routed": {
+  "Autisticles": [
+   "Cooking plate cap (Zemo): Menagerie unlock 21: +10 max cooking LV, costs 29.75M Lumi and a higher Menagerie rank"
+  ],
+  "Autistomatic": [
+   "Cooking plate cap (Zemo): Defeat the Lunarheim cave lore boss in Spelunking: +10"
+  ]
+ },
+ "build": {
+  "snapshot": "20261121T1741",
+  "cap": 90,
+  "cap_parts": {
+   "Causticolumn (Artifact)": 40,
+   "Base": 30,
+   "Papa Blob's Quality Guarantee (Jade)": 10,
+   "Chef Geustloaf's Cutting Edge Philosophy (Jade)": 10,
+   "Grimoire (at most 20)": 0,
+   "Menagerie": 0,
+   "Lore boss": 0
+  },
+  "cap_missing": [
+   "Grimoire (at most 20)",
+   "Menagerie",
+   "Lore boss"
+  ],
+  "meals_open": [],
+  "kitchens": [],
+  "spice_claims": null,
+  "mastery": {
+   "lv": 5,
+   "rate": "2.6/hr",
+   "ttl": "14d 8h"
+  },
+  "divorce_cake": null,
+  "ribbons": null,
+  "ribbons_day": null,
+  "speed_x1": [],
+  "causticolumn": [
+   "Causticolumn Sovereign->Omnipotent",
+   18856
+  ]
+ }
+}

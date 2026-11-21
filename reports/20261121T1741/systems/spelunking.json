@@ -1,0 +1,86 @@
+{
+ "module": "spelunking",
+ "systems": [
+  "spelunk",
+  "caverns"
+ ],
+ "ok": true,
+ "card_lines": [
+  "TOP: Spelunking is the biggest thing holding the account back. The next caves unlock: Cards can now be upgraded to 6-Star Majestic quality; Unlocks the Exotic Market tab & Medal seed type in Farming; Teal Summoning is now available, with new upgrades and oppon; +30 Max LV for Cooking Meals.",
+  "Read the rest of today's pages (3 / 5 used)."
+ ],
+ "char_lines": {},
+ "routed": {
+  "Autistronaut": [
+   "Cards gated by Spelunking cave Rustbelt 03 (Autistomatic): Cards can now be upgraded to 6-Star Majestic quality!"
+  ],
+  "Autiszemo": [
+   "Farming gated by Spelunking cave Blushpit (Autistomatic): Unlocks the Exotic Market tab & Medal seed type in Farming!",
+   "Cooking gated by Spelunking cave Lunarheim (Autistomatic): +30 Max LV for Cooking Meals! +1 Super Talent PTS! +2 Gallery Slots!"
+  ],
+  "Autistocat": [
+   "Summoning gated by Spelunking cave Chucklemire (Autistomatic): Teal Summoning is now available, with new upgrades and opponents!",
+   "Sigils gated by Spelunking cave Bizarrio (Autistomatic): Sigils can be upgraded a 4th time to Ethereal! Each one also gives +0.2% Prisma "
+  ]
+ },
+ "build": {
+  "amber": 70.0,
+  "pages": "3 / 5",
+  "disc": "12 / 105",
+  "power": "804,788.72",
+  "optimizer": [],
+  "caves": [
+   {
+    "cave": "Pebble Cove",
+    "bonus": "World's End island & Omnipotent Artifact tier unlocked in Sailing!",
+    "done": true
+   },
+   {
+    "cave": "Sedimeadow",
+    "bonus": "Superbits in Gaming now has a 2nd page full of new upgrades!",
+    "done": true
+   },
+   {
+    "cave": "Rustbelt 03",
+    "bonus": "Cards can now be upgraded to 6-Star Majestic quality!",
+    "done": false
+   },
+   {
+    "cave": "Blushpit",
+    "bonus": "Unlocks the Exotic Market tab & Medal seed type in Farming!",
+    "done": false
+   },
+   {
+    "cave": "Chucklemire",
+    "bonus": "Teal Summoning is now available, with new upgrades and opponents!",
+    "done": false
+   },
+   {
+    "cave": "Lunarheim",
+    "bonus": "+30 Max LV for Cooking Meals! +1 Super Talent PTS! +2 Gallery Slots!",
+    "done": false
+   },
+   {
+    "cave": "Bizarrio",
+    "bonus": "Sigils can be upgraded a 4th time to Ethereal! Each one also gives +0.2% Prisma Bubble Multi!",
+    "done": false
+   },
+   {
+    "cave": "Glitter End",
+    "bonus": "Get a brand new Shape for your Research Grid!",
+    "done": false
+   },
+   {
+    "cave": "Scoutpost",
+    "bonus": "Palette Colours now give 1.50x bonuses, and Palette Luck is +4% higher per Gaming LV",
+    "done": false
+   },
+   {
+    "cave": "Exiled Throne",
+    "bonus": "1.50x chance for Marble Drops on Royal Guardians, and +50 Royal Guardian Talent PTS!",
+    "done": false
+   }
+  ],
+  "snapshot": "20261121T1741"
+ }
+}
