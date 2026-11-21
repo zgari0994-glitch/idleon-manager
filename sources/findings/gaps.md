@@ -48,3 +48,6 @@ Loop: card run-through (1 by 1, dailies + tasks) -> Zack says what is wrong / un
 | 40 | 2026-11-17 | All cards | Run-through output is information, not guidance: makes Zack anxious. Every line must say what to do + how, or not show | open |
 
 ## Done
+
+## 2026-11-21 Goal shown as open after it was hit
+Zack passed 900K POW and freed the Pillar Coral fish; cards kept pushing 900K from the 11-20 Toolbox read (805K). Fix at next build: goal_card shows the read time of the POW number, flags it when older than the save, and a reached target triggers the re-check (LAW 1) instead of repeating the goal.
