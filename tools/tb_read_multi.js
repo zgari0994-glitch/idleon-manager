@@ -23,7 +23,7 @@ const readOne = async (name, path) => {
     let tabs = [...main().querySelectorAll('[role=tab]')].map(t => t.innerText.trim()).filter(Boolean);
     if (!tabs.length) tabs = ['_page'];
     for (const tn of tabs) {
-      if (tn !== '_page') { const t = [...main().querySelectorAll('[role=tab]')].find(x => x.innerText.trim() === tn); if (t) { t.click(); await sleep(2200); } }
+      if (tn !== '_page') { const t = [...main().querySelectorAll('[role=tab]')].find(x => x.innerText.trim() === tn); if (t) { const before = main().innerText; t.click(); await sleep(1200); /* wait for the tab content to actually change (Sailing lagged a tab behind with a fixed wait, Zack 2026-11-21) */ for (let w = 0; w < 24 && main().innerText === before; w++) await sleep(500); let last = ''; for (let w = 0; w < 10 && main().innerText !== last; w++) { last = main().innerText; await sleep(600); } } }
       for (const b of [...main().querySelectorAll('input[type=checkbox], button, [role=button]')].filter(b => /details/i.test(b.name || '') || /^details$/i.test((b.innerText || '').trim()))) { if (!b.checked) { b.click(); await sleep(700); } }
       for (const s of [...main().querySelectorAll('button')].filter(b => /^Show \d+ more/i.test((b.innerText || '').trim()))) { s.click(); await sleep(350); }
       if (main().innerText.length < 900) await sleep(4000);  // thin tab (e.g. lab chip rotation): give it longer before reading
