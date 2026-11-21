@@ -32,3 +32,8 @@ description: Breeding: state, how it works, links, plan, today
 - Waiting on:
 
 ## Today (written by the decision layer each pull)
+
+## History and lessons (moved from Project memory 2026-11-21; dated state is history, live data wins)
+- Shiny fence plan (Zack asked to remember), checked on Autistacular: Toolbox Breeding > Shinies > On the fence. When a fence pet hits its phase target, move its copies to the next pet. Fence 26 slots; copies stack linearly; off-fence pets keep their days.
+- Order is from gameslikefinder (FAN, unverified; replace with creator source when found): S to 15 -> A to 10 -> B to 5 -> S to 20 -> rest to 20. 11-13 start: Green Mushroom 7, Wode Board 7, Crescent Spud 6, Quenchie 6. S queue: Red Mushroom, Sheepie, Squirrel, Mr Pig, Glublin, Bop Box, Sir Stache, Penguin. A-to-10: Bored Bean, Whale, Carrotman, Gigafrog, Mashed Potato, Sand Giant, Slime, Choccie, Bloque, Dedotated Ram. Mamooth/Soda Can (Artifact Find) wait for the last phase.
+- Daily: say exact swaps (pet out, pet in, copies) only when something changes; confirm fence matches plan.

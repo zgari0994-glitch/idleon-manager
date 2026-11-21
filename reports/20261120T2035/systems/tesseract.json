@@ -1,0 +1,791 @@
+{
+ "module": "tesseract",
+ "systems": [
+  "tesseract"
+ ],
+ "ok": true,
+ "card_lines": [
+  "31 more levels unlock Ring Drops.",
+  "AutoReview wants Parallel Statues, Ethereal Opals, Parallel Golden Food, My Talents, and Mine Alone, Villager Indoctrination, but they cost Green/Red/Gold tachyons you don't have yet."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "balance": {
+   "Purple": 1340000.0,
+   "Brown": 27400.0,
+   "Green": 0.0,
+   "Red": 0.0,
+   "Silver": 4990.0,
+   "Gold": 0.0
+  },
+  "total": 639,
+  "next": [
+   "Ring Drops",
+   670
+  ],
+  "upgrades": [],
+  "optimizer": [
+   [
+    "Arcanist Damage III",
+    "0",
+    "10",
+    "+721.47 (+11.67%)",
+    "19.2K",
+    "ready in 798d"
+   ]
+  ],
+  "maps": [],
+  "ar_tier": "1/10",
+  "ar": [
+   {
+    "group": "Purchase more Total Tesseract Upgrades",
+    "tab": "To reach Tier 3",
+    "label": "Total Tesseract Upgrades",
+    "cur": "639",
+    "goal": "1250"
+   },
+   {
+    "group": "Purchase more Total Tesseract Upgrades",
+    "tab": "To reach Tier 4",
+    "label": "Total Tesseract Upgrades",
+    "cur": "639",
+    "goal": "1650"
+   },
+   {
+    "group": "Purchase more Total Tesseract Upgrades",
+    "tab": "To reach Tier 5",
+    "label": "Total Tesseract Upgrades",
+    "cur": "639",
+    "goal": "2750"
+   },
+   {
+    "group": "Level up the following account-wide Tesseract Upgrades",
+    "tab": "To reach Tier 2",
+    "label": "Parallel Statues",
+    "cur": "0",
+    "goal": "10",
+    "res": "tesseract-tachyon-2"
+   },
+   {
+    "group": "Level up the following account-wide Tesseract Upgrades",
+    "tab": "To reach Tier 3",
+    "label": "Parallel Statues",
+    "cur": "0",
+    "goal": "20",
+    "res": "tesseract-tachyon-2"
+   },
+   {
+    "group": "Level up the following account-wide Tesseract Upgrades",
+    "tab": "To reach Tier 3",
+    "label": "Ethereal Opals",
+    "cur": "0",
+    "goal": "10",
+    "res": "tesseract-tachyon-2"
+   },
+   {
+    "group": "Level up the following account-wide Tesseract Upgrades",
+    "tab": "To reach Tier 3",
+    "label": "Parallel Golden Food",
+    "cur": "0",
+    "goal": "10",
+    "res": "tesseract-tachyon-3"
+   },
+   {
+    "group": "Level up the following account-wide Tesseract Upgrades",
+    "tab": "To reach Tier 4",
+    "label": "Parallel Statues",
+    "cur": "0",
+    "goal": "25",
+    "res": "tesseract-tachyon-2"
+   },
+   {
+    "group": "Level up the following account-wide Tesseract Upgrades",
+    "tab": "To reach Tier 4",
+    "label": "Ethereal Opals",
+    "cur": "0",
+    "goal": "20",
+    "res": "tesseract-tachyon-2"
+   },
+   {
+    "group": "Level up the following account-wide Tesseract Upgrades",
+    "tab": "To reach Tier 4",
+    "label": "Parallel Golden Food",
+    "cur": "0",
+    "goal": "20",
+    "res": "tesseract-tachyon-3"
+   },
+   {
+    "group": "Level up the following account-wide Tesseract Upgrades",
+    "tab": "To reach Tier 4",
+    "label": "My Talents, and Mine Alone",
+    "cur": "0",
+    "goal": "30",
+    "res": "tesseract-tachyon-3"
+   },
+   {
+    "group": "Level up the following account-wide Tesseract Upgrades",
+    "tab": "To reach Tier 4",
+    "label": "Villager Indoctrination",
+    "cur": "0",
+    "goal": "20",
+    "res": "tesseract-tachyon-3"
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Currencies",
+    "label": "Total Tachyons Collected: 46.216M",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Currencies",
+    "label": "Fight with Arcane Form enabled to collect 1,000 Arcane Fragments, then use the stack. This enables AFK Fighting on Arcane Cultists to produce 1 Arcane Rock per hour!",
+    "cur": "283",
+    "goal": "1000"
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Currencies",
+    "label": "Singulon: 1.338M",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Currencies",
+    "label": "Doubulon: 27.375K",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Currencies",
+    "label": "Verdon: 0.000",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Currencies",
+    "label": "Bludon: 0.000",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Currencies",
+    "label": "Massivon: 4.982K",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Currencies",
+    "label": "Aurion: 0.000",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Currencies",
+    "label": "Total Tachyon multi: 14.804x",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Tachyon Multi Group A: 2.03x",
+    "label": "Tesseract Upgrade 'Ripple in Spacetime':+26% Tachyons",
+    "cur": "13",
+    "goal": "999999",
+    "res": "tesseract-tachyon-1"
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Tachyon Multi Group A: 2.03x",
+    "label": "Tesseract Talent: +66.67% Tachyons",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Tachyon Multi Group A: 2.03x",
+    "label": "Tesseract Upgrade 'Verdon Hoarding':+0% Tachyons",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-1"
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Tachyon Multi Group A: 2.03x",
+    "label": "Tesseract Upgrade 'Aurion Hoarding':+0% Tachyons",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-4"
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Tachyon Multi Group A: 2.03x",
+    "label": "Lab Jewel - Eternal Energy Jewel: +0/75%",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Tachyon Multi Group A: 2.03x",
+    "label": "Arcade Bonus 50: +10/404% Arcane Cultist Tachyons",
+    "cur": "5",
+    "goal": "101",
+    "res": "arcade-gold-ball"
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Tachyon Multi Group B: 1.15x",
+    "label": "Emperor Showdown:1.15x Arcane Cultist Extra Tachyons",
+    "cur": "3",
+    "goal": "\u221e"
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Tachyon Multi Group B: 1.15x",
+    "label": "Alchemy Bubbles - Tachyon Bubble: +0.5/250%",
+    "cur": "1",
+    "goal": "10000",
+    "res": "pufferflesh"
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Bone Multi Group C: 1.30x",
+    "label": "Pristine Charms - Mystery Fizz:1.3x Extra Arcane Cultist Tachyons",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Tachyon Multi Group D: 1.01x",
+    "label": "Backup Energy Talent: 1.01x Tachyons",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Tachyon Multi Group E: 1.20x",
+    "label": "Gemshop - Arcane Cultist Pack:1.2/1.2x Tachyons",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Tachyon Multi Group F: 1x",
+    "label": "Vial - Paper Pint: +0%",
+    "cur": "0",
+    "goal": "13"
+   },
+   {
+    "group": "Tesseract Currencies",
+    "tab": "Tachyon Multi Group G: 4x",
+    "label": "Companions - Balloonfish:4x Coins from monsters, and 4x Masterclass drops",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Total Tesseract Upgrades: 639",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Damage: +101 Base Damage in Arcanist Form",
+    "cur": "101",
+    "goal": "999999",
+    "res": "tesseract-tachyon-0"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Accuracy: +84 Base Accuracy in Arcanist Form",
+    "cur": "84",
+    "goal": "999999",
+    "res": "tesseract-tachyon-0"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Defence: +71 Base Defence in Arcanist Form",
+    "cur": "71",
+    "goal": "999999",
+    "res": "tesseract-tachyon-0"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "The Prisma Bubble is Real: While in Arcanist Form, 1 in $ mobs drop Prisma Bubbles",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true,
+    "res": "tesseract-tachyon-0"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Cataclysm: +50% Total Damage in Arcanist Form",
+    "cur": "50",
+    "goal": "999999",
+    "res": "tesseract-tachyon-0"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Wand Drops: Mobs can drop Arcanist Weapons up to 215% Quality",
+    "cur": "43",
+    "goal": "999999",
+    "res": "tesseract-tachyon-0"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Damage II: +219 Base Damage in Arcanist Form",
+    "cur": "73",
+    "goal": "999999",
+    "res": "tesseract-tachyon-0"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Tenteyecle Nostalgia: Tenteyecle now works again, but only has a $% chance",
+    "cur": "41",
+    "goal": "50",
+    "res": "tesseract-tachyon-0"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Crits: +25% Critical Hit chance in Arcanist Form",
+    "cur": "25",
+    "goal": "70",
+    "res": "tesseract-tachyon-0"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Accuracy II: +132 Base Accuracy in Arcanist Form",
+    "cur": "66",
+    "goal": "999999",
+    "res": "tesseract-tachyon-0"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "World Ender: Defeating the World Boss now unlocks the next world",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true,
+    "res": "tesseract-tachyon-0"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Defence II: +34 Base Defence in Arcanist Form",
+    "cur": "17",
+    "goal": "999999",
+    "res": "tesseract-tachyon-1"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Singulon Hoarding: +48% Arcanist Damage per POW 10 Purple Tachyon owned",
+    "cur": "24",
+    "goal": "999999",
+    "res": "tesseract-tachyon-1"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcane Charging: Arcane Crystals take $ kills to charge instead of 200",
+    "cur": "16",
+    "goal": "100",
+    "res": "tesseract-tachyon-1"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Supercharge: +13% Critical Damage in Arcanist Form",
+    "cur": "13",
+    "goal": "999999",
+    "res": "tesseract-tachyon-1"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Damage III: +0 Base Damage in Arcanist Form",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-2"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Spheres of Gold: +0% extra Gold Balls earned in the Arcade",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-1"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Ripple in Spacetime: +26% Extra Tachyons",
+    "cur": "13",
+    "goal": "999999",
+    "res": "tesseract-tachyon-1"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Parallel Statues: 0% chance for Statues to drop with 2x Quantity",
+    "cur": "0",
+    "goal": "40",
+    "res": "tesseract-tachyon-2"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Accuracy III: +0 Base Accuracy in Arcanist Form",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-2"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcane Basics: Basic attacks now do Arcane damage",
+    "cur": "0",
+    "goal": "1",
+    "res": "tesseract-tachyon-2"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Fastcasting: +0% faster Attack Speed while in Arcanist Form",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-2"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist of All Trades: +0% Defence and Accuracy in Arcanist Form",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-1"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Ring Drops: Mobs can drop Arcanist Rings up to 0% QualityRequires 31 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-3"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Cataclysm II: +0% Total Damage in Arcanist FormRequires 96 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-1"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Ethereal Opals: +0 Opals to give to villagersRequires 161 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "25",
+    "res": "tesseract-tachyon-2"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Inviting a Plus One: +0% chance for crystals to spawn +1 more Arcane MobRequires 251 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "300",
+    "res": "tesseract-tachyon-3"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Doubulon Hoarding: +0% Arcanist Accuracy per POW 10 Brown Tachyons ownedRequires 351 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-0"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Jewel of Deadly Wrath: Permanently unlocks a new Jewel in the LabRequires 411 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "1",
+    "res": "tesseract-tachyon-3"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Defence III: +0 Base Defence in Arcanist FormRequires 511 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-2"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Parallel Golden Food: 0% chance for Golden Food to drop with 2x QuantityRequires 611 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "40",
+    "res": "tesseract-tachyon-3"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Cataclysm III: +0% Total Damage in Arcanist FormRequires 711 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-2"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Villager Indoctrination: 1.00x Villager EXP gain in World 5Requires 861 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-3"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "My Talents, and Mine Alone: +0 Talent PTS for the Arcane Cultist class onlyRequires 1011 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "200",
+    "res": "tesseract-tachyon-3"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Verdon Hoarding: +0% Extra Tachyon per POW 10 Green Tachyons ownedRequires 1161 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-1"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Jewel of the North Winds: Permanently unlocks a new Jewel in the LabRequires 1361 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "1",
+    "res": "tesseract-tachyon-3"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Damage IV: +0 Base Damage in Arcanist FormRequires 1411 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-3"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Eternal Stream: 1.00x higher Equinox Bar Fill RateRequires 1711 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-4"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Accuracy IV: +0 Base Accuracy in Arcanist FormRequires 1961 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-3"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Fractal Tesseract: 1.00x higher bonuses from most Tesseract upgradesRequires 2111 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "50",
+    "res": "tesseract-tachyon-4"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Astrology Cultism: Seraph Cosmos's multiplier is now $x instead of 1.10xRequires 2211 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "10",
+    "res": "tesseract-tachyon-4"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Bludon Hoarding: +0% Arcanist DEF per POW 10 Red Tachyons ownedRequires 2361 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-2"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Cataclysm IV: +0% Total Damage in Arcanist FormRequires 2711 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-3"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Jewel of Eternal Energy: Permanently unlocks a new Jewel in the LabRequires 3061 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "1",
+    "res": "tesseract-tachyon-4"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist of All Trades II: +0% Defence and Accuracy in Arcanist FormRequires 3211 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-3"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Pinnacle of Prisma: Prisma Bubbles give $x higher bonuses instead of 2.00xRequires 3361 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "20",
+    "res": "tesseract-tachyon-5"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Defence IV: +0 Base Defence in Arcanist FormRequires 3661 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-4"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Gambit Grandmaster: 1.00x higher total PTS in the Gambit CavernRequires 3961 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "200",
+    "res": "tesseract-tachyon-4"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Vicar of the Emperor: All bonuses from defeating The Emperor are 1.00x higherRequires 4261 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "50",
+    "res": "tesseract-tachyon-5"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Massivon Hoarding: +0% cheaper upgrades per POW 10 Silver Tachyons ownedRequires 4461 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-3"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Damage V: +0 Base Damage in Arcanist FormRequires 4761 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-4"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Drop Rate Crossfire: 0% of your Drop Rate affects Prisma Bubble drop chanceRequires 5061 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "100",
+    "res": "tesseract-tachyon-4"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Accuracy V: +0 Base Accuracy in Arcanist FormRequires 5261 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-4"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist Cataclysm V: +0% Total Damage in Arcanist FormRequires 5561 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-5"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Endless Reductions: +0% cheaper Summoning upgrades per Endless Mode VictoryRequires 5861 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-5"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Arcanist of All Trades III: +0% Defence and Accuracy in Arcanist FormRequires 6111 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-5"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Aurion Hoarding: +0% Extra Tachyons per POW 10 Gold Tachyons ownedRequires 6361 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "tesseract-tachyon-4"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Universe Talent: +0 Talent LVs for all characters, always!Requires 6661 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "5",
+    "res": "tesseract-tachyon-5"
+   },
+   {
+    "group": "Tesseract Upgrades",
+    "tab": "Upgrades",
+    "label": "Beyond All Limits: The max Arcane Crystal bonus is +$x higherRequires 6961 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "10",
+    "res": "tesseract-tachyon-5"
+   }
+  ],
+  "snapshot": "20261120T2035"
+ }
+}

@@ -31,3 +31,6 @@ description: Killroy: state, how it works, links, plan, today
 - Waiting on:
 
 ## Today (written by the decision layer each pull)
+
+## History and lessons (moved from Project memory 2026-11-21; dated state is history, live data wins)
+- 11-16: strongest fighter of each of the 3 class lines; schedule from Toolbox, show from weekly reset until confirmed. 11-21: wants the sourced best point spend; enjoys dice for the instant gain.

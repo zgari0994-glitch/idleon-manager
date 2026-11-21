@@ -1,0 +1,425 @@
+{
+ "module": "supertalents",
+ "systems": [
+  "super_talents"
+ ],
+ "ok": true,
+ "card_lines": [],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "Autiszemo": {
+   "class": "Death Bringer",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "have": [
+      "Brute Efficiency",
+      "Apocalypse Chow"
+     ],
+     "open": 2,
+     "role": "skill",
+     "picks": [
+      [
+       "Big Pick",
+       "Pulse: must super on the skilling setup for copper prints"
+      ],
+      [
+       "Worming Undercover",
+       "Griffy: fishing efficiency"
+      ]
+     ]
+    },
+    {
+     "preset": 2,
+     "have": [
+      "Sentinel Axes",
+      "Charred Skulls"
+     ],
+     "open": 2,
+     "role": "fight",
+     "picks": [
+      [
+       "Monster Decimator",
+       "Griffy+Pulse: good on active and AFK setups"
+      ],
+      [
+       "Graveyard Shift",
+       "Griffy: better respawn"
+      ]
+     ]
+    }
+   ]
+  },
+  "Autistocat": {
+   "class": "Arcane Cultist",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "have": [
+      "Log On Logs",
+      "Smart Efficiency"
+     ],
+     "open": 2,
+     "role": "skill",
+     "picks": [
+      [
+       "Skill Wiz",
+       "Griffy: skilling output"
+      ]
+     ]
+    },
+    {
+     "preset": 2,
+     "have": [
+      "Cranium Cooking",
+      "Tenteyecle",
+      "Memorial Skulls"
+     ],
+     "open": 1,
+     "role": "fight",
+     "picks": [
+      [
+       "Sizzling Skull",
+       "Griffy+Pulse: drives auto attack damage, 100% super"
+      ]
+     ]
+    }
+   ]
+  },
+  "Autisticles": {
+   "class": "Siege Breaker",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "have": [
+      "Teleki'net'ic Logs",
+      "Elusive Efficiency",
+      "Briar Patch Runner"
+     ],
+     "open": 1,
+     "role": "skill",
+     "picks": [
+      [
+       "Skill Ambidexterity",
+       "Griffy: skilling, before Agi Again"
+      ]
+     ]
+    },
+    {
+     "preset": 2,
+     "have": [
+      "Stacked Skulls",
+      "Pirate Flag",
+      "Garb Of Un'agi'ng Quality"
+     ],
+     "open": 1,
+     "role": "fight",
+     "picks": [
+      [
+       "Archlord Of The Pirates",
+       "Griffy: multiplicative drop rate and EXP. Pulse: make sure it is supered"
+      ]
+     ]
+    }
+   ]
+  },
+  "Autistastic": {
+   "class": "Royal Guardian",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "have": [
+      "Big Pick",
+      "Motherlode Miner"
+     ],
+     "open": 2,
+     "role": "skill",
+     "picks": [
+      [
+       "Copper Collector",
+       "Griffy+Pulse: mining efficiency"
+      ],
+      [
+       "Tool Proficiency",
+       "Griffy+Pulse: mining power, bigger prints"
+      ]
+     ]
+    },
+    {
+     "preset": 2,
+     "have": [
+      "Shockwave Slash",
+      "Orb Of Remembrance",
+      "Charred Skulls"
+     ],
+     "open": 1,
+     "role": "fight",
+     "picks": [
+      [
+       "Knightly Disciple",
+       "Griffy: longer duration, more knights"
+      ]
+     ]
+    }
+   ]
+  },
+  "Autistabish": {
+   "class": "Elemental Sorcerer",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "have": [
+      "Dimensional Wormhole",
+      "Tornado"
+     ],
+     "open": 2,
+     "role": "fight",
+     "picks": [
+      [
+       "Meteor Shower",
+       "Griffy: faster clears"
+      ],
+      [
+       "Memorial Skulls",
+       "Griffy: kill scaling from stats"
+      ]
+     ]
+    },
+    {
+     "preset": 2,
+     "have": [
+      "Smart Efficiency",
+      "Log On Logs"
+     ],
+     "open": 2,
+     "role": "skill",
+     "picks": [
+      [
+       "Leaf Thief",
+       "Griffy: larger prints"
+      ],
+      [
+       "Skill Wiz",
+       "Griffy: skill output"
+      ]
+     ]
+    }
+   ]
+  },
+  "Autistacular": {
+   "class": "Wind Walker",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "have": [
+      "Eternal Hunt",
+      "Price Recession",
+      "Spirit Ballista",
+      "Smeltin' Erryday"
+     ],
+     "open": 0,
+     "picks": []
+    },
+    {
+     "preset": 2,
+     "have": [
+      "Price Recession",
+      "Sneaky Skilling"
+     ],
+     "open": 2,
+     "role": "skill",
+     "picks": [
+      [
+       "Elusive Efficiency",
+       "Griffy: skilling"
+      ],
+      [
+       "Eagle Eye",
+       "Griffy: more critters and EXP"
+      ]
+     ]
+    }
+   ]
+  },
+  "Autistotle": {
+   "class": "Voidwalker",
+   "points": 3,
+   "presets": [
+    {
+     "preset": 1,
+     "have": [
+      "One Step Ahead",
+      "Extra Bags"
+     ],
+     "open": 1,
+     "role": "fight",
+     "picks": [
+      [
+       "Gimme Gimme",
+       "Griffy: more double loot"
+      ]
+     ]
+    },
+    {
+     "preset": 2,
+     "have": [
+      "Happy Dude",
+      "Printer Go Brrr"
+     ],
+     "open": 1,
+     "role": "skill",
+     "picks": [
+      [
+       "Left Hand Of Learning",
+       "Griffy+Pulse: more EXP for others, global talents work with supers now"
+      ]
+     ]
+    }
+   ]
+  },
+  "Autistomatic": {
+   "class": "Royal Guardian",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "have": [],
+     "open": 4,
+     "role": "skill",
+     "picks": [
+      [
+       "Big Pick",
+       "Griffy+Pulse: mining efficiency, copper prints"
+      ],
+      [
+       "Copper Collector",
+       "Griffy+Pulse: mining efficiency"
+      ],
+      [
+       "Tool Proficiency",
+       "Griffy+Pulse: mining power, bigger prints"
+      ],
+      [
+       "Brute Efficiency",
+       "Griffy+Pulse: efficiency on skilling setups"
+      ]
+     ]
+    },
+    {
+     "preset": 2,
+     "have": [
+      "Big Pick",
+      "Motherlode Miner"
+     ],
+     "open": 2,
+     "role": "skill",
+     "picks": [
+      [
+       "Copper Collector",
+       "Griffy+Pulse: mining efficiency"
+      ],
+      [
+       "Tool Proficiency",
+       "Griffy+Pulse: mining power, bigger prints"
+      ]
+     ]
+    }
+   ]
+  },
+  "Autistronaut": {
+   "class": "Elemental Sorcerer",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "have": [
+      "Dimensional Wormhole",
+      "Tornado"
+     ],
+     "open": 2,
+     "role": "fight",
+     "picks": [
+      [
+       "Meteor Shower",
+       "Griffy: faster clears"
+      ],
+      [
+       "Memorial Skulls",
+       "Griffy: kill scaling from stats"
+      ]
+     ]
+    },
+    {
+     "preset": 2,
+     "have": [
+      "Smart Efficiency",
+      "Leaf Thief"
+     ],
+     "open": 2,
+     "role": "skill",
+     "picks": [
+      [
+       "Log On Logs",
+       "Griffy: big boost to chopping prints"
+      ],
+      [
+       "Skill Wiz",
+       "Griffy: skill output"
+      ]
+     ]
+    }
+   ]
+  },
+  "Autistopher": {
+   "class": "Death Bringer",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "have": [
+      "Stacked Skulls"
+     ],
+     "open": 0,
+     "picks": [],
+     "odd": true
+    },
+    {
+     "preset": 2,
+     "have": [
+      "Teleki'net'ic Logs",
+      "Elusive Efficiency",
+      "Briar Patch Runner"
+     ],
+     "open": 0,
+     "picks": [],
+     "odd": true
+    }
+   ]
+  },
+  "Autistachio": {
+   "class": "Beginner",
+   "points": 3,
+   "presets": [
+    {
+     "preset": 1,
+     "have": [],
+     "open": 3,
+     "picks": []
+    },
+    {
+     "preset": 2,
+     "have": [],
+     "open": 3,
+     "picks": []
+    }
+   ]
+  }
+ }
+}

@@ -31,3 +31,6 @@ description: Sailing: state, how it works, links, plan, today
 - Waiting on:
 
 ## Today (written by the decision layer each pull)
+
+## History and lessons (moved from Project memory 2026-11-21; dated state is history, live data wins)
+- Autisticles card: read boat/captain assignments, confirm vs artifact targets, say only what changes; captain swaps from verified info only (Toolbox formulas). Goal: artifacts only, as efficiently as possible; accepts short slowdowns (new captain from 1) if better overall.

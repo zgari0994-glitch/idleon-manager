@@ -31,3 +31,6 @@ description: Death Note: state, how it works, links, plan, today
 - Waiting on:
 
 ## Today (written by the decision layer each pull)
+
+## History and lessons (moved from Project memory 2026-11-21; dated state is history, live data wins)
+- Autiszemo AFK plan (11-14): Super CHOWs in world order; after Biggole Mole, W3 Bloodbone, then Dedotated Ram, then W4 in order. Later rule (11-16/11-20): Zemo does 1M CHOWs W1-W6; Autistopher does Super CHOWs and kill pushes.

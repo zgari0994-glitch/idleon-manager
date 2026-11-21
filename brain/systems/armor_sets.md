@@ -30,3 +30,6 @@ description: Armor Sets: state, how it works, links, plan, today
 - Waiting on:
 
 ## Today (written by the decision layer each pull)
+
+## History and lessons (moved from Project memory 2026-11-21; dated state is history, live data wins)
+- 11-14 (superseded goal): Breezy Souls for Tatters of the Gods + Crystal Skull to finish one Godshard set; Autistotle wears it to claim, armor back to Autistastic. Also wants to know each character's golden food/gear and whether upgrading matters now (old doc Gear-and-Food.md).

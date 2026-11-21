@@ -32,3 +32,6 @@ description: Cooking: state, how it works, links, plan, today
 - Waiting on:
 
 ## Today (written by the decision layer each pull)
+
+## History and lessons (moved from Project memory 2026-11-21; dated state is history, live data wins)
+- 11-16: mastery factored in, but no mastery picks until a creator source and a choosing method exist.

@@ -1,0 +1,41 @@
+{
+ "module": "maint",
+ "systems": [
+  "rift",
+  "star_signs"
+ ],
+ "ok": true,
+ "card_lines": [
+  "Rift 62: Get 5,000 skull points (1,011 / 5,000).",
+  "After that: Defeat the mega monster, who can self heal, on 4 chars; Defeat any monster here on 11 chars."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "rift": "62 / 65",
+  "cur": [
+   "Purgatory Stalker",
+   "62",
+   "Get 5,000 skull points. Better skulls are worth more. You have 1,011 so far...",
+   "1,011 / 5,000"
+  ],
+  "next": [
+   [
+    "Lantern Spirit",
+    "63",
+    "Defeat the mega monster, who can self heal, on 4 chars"
+   ],
+   [
+    "Mama Troll",
+    "64",
+    "Defeat any monster here on 11 chars"
+   ],
+   [
+    "Rift Jocund",
+    "65",
+    "Get a pirate flag score of 75 on your Siege Breaker"
+   ]
+  ],
+  "snapshot": "20261120T2035"
+ }
+}

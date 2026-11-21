@@ -31,14 +31,11 @@ PLANNER = {
     'slab': ['slab'], 'beanstalk': ['beanstalk'], 'capevine': ['cape_vine'], 'shops': ['gemshop', 'ballot'], 'tome': ['tome'],
     'maint': ['rift', 'star_signs'], 'postoffice': ['post_office'], 'supertalents': ['super_talents'], 'prayers': ['prayers'],
 }
+# AutoReview bookkeeping entries, not game systems: never counted as holes
+NOT_SYSTEM = {'data_source', 'version', 'tabbed_advice_groups', 'max_subgroups', 'manual_tome_score', 'reset_counters', 'library_group_characters', 'item_filter', 'highest_dmg'}
 cover = {}
 for mod, slugs in PLANNER.items():
     for s in slugs: cover.setdefault(s, []).append(f'model/{mod}.py')
-
-gaps = [l for l in (ROOT / 'sources' / 'findings' / 'gaps.md').read_text().splitlines() if l.startswith('|') and '| open |' in l]
-check = (BRAIN / 'checklist_2026-11-21.md').read_text().splitlines() if (BRAIN / 'checklist_2026-11-21.md').exists() else []
-
-def words(slug): return {w for w in slug.split('_') if len(w) > 3} | {slug.replace('_', ' ')}
 
 TEMPLATE = """---
 name: {slug}
@@ -67,38 +64,48 @@ description: {title}: state, how it works, links, plan, today
 ## Today (written by the decision layer each pull)
 """
 
-rows = []
-for slug in list(idx) + list(EXTRA):
-    e = idx.get(slug, {}) if slug in idx else {}
-    title = EXTRA.get(slug) or slug.replace('_', ' ').title()
-    w = words(slug)
-    g = [x.split('|')[1].strip() + ': ' + x.split('|')[4].strip() for x in gaps if any(t in x.lower() for t in w)]
-    ch = [x.strip()[6:] for x in check if f'[[{slug}]]' in x]
-    tr = e.get('transcripts'); tr = tr if isinstance(tr, dict) else {}
-    auto = '\n'.join([A0,
-        f"- Owners: {', '.join(e.get('owners') or []) or 'UNASSIGNED'}",
-        f"- Toolbox: {'; '.join(e.get('toolbox') or []) or 'none mapped'}",
-        f"- AutoReview: {', '.join(e.get('autoreview') or []) or 'not rated'}",
-        f"- Planner: {', '.join(cover.get(slug, [])) or 'NONE (nothing checks this yet)'}",
-        f"- Creator rows: {tr.get('tagged_rows', 0)}",
-        f"- Findings: {', '.join(e.get('findings') or []) or 'none'}",
-        *( [f"- Open gaps: " + ' | '.join(g)] if g else [] ),
-        *( [f"- Checklist: " + ' | '.join(ch)] if ch else [] ),
-        A1])
-    p = SYS / f'{slug}.md'
-    if p.exists():
-        t = p.read_text(); t = re.sub(re.escape(A0) + r'.*?' + re.escape(A1), lambda m: auto, t, flags=re.S)
-    else:
-        t = TEMPLATE.format(slug=slug, title=title, auto=auto)
-    p.write_text(t)
-    curated = bool(re.search(r'## Plan\n- Now: \S', t))
-    rows.append((slug, title, bool(cover.get(slug)), curated, len(g), bool(e.get('owners'))))
+def main():
+    gaps = [l for l in (ROOT / 'sources' / 'findings' / 'gaps.md').read_text().splitlines() if l.startswith('|') and '| open |' in l]
+    check = (BRAIN / 'checklist_2026-11-21.md').read_text().splitlines() if (BRAIN / 'checklist_2026-11-21.md').exists() else []
 
-out = ['---', 'name: brain-index', 'description: Every system, whether anything checks it, whether it has a plan', '---',
-       '# Brain index', '', '| system | owner | planner | plan written | open gaps |', '|---|---|---|---|---|']
-for slug, title, pl, cur, ng, own in sorted(rows, key=lambda r: (r[2], r[3], r[0])):
-    out.append(f"| [[{slug}]] | {'yes' if own else 'NO'} | {'yes' if pl else 'NO'} | {'yes' if cur else 'no'} | {ng or ''} |")
-n = len(rows)
-out += ['', f"{n} systems: {sum(r[2] for r in rows)} with a planner, {sum(r[3] for r in rows)} with a written plan, {sum(not r[5] for r in rows)} unowned."]
-(BRAIN / 'index.md').write_text('\n'.join(out) + '\n')
-print(out[-1])
+    def words(slug): return {w for w in slug.split('_') if len(w) > 3} | {slug.replace('_', ' ')}
+
+
+    rows = []
+    for slug in [s for s in list(idx) + list(EXTRA) if s not in NOT_SYSTEM]:
+        e = idx.get(slug, {}) if slug in idx else {}
+        title = EXTRA.get(slug) or slug.replace('_', ' ').title()
+        w = words(slug)
+        g = [x.split('|')[1].strip() + ': ' + x.split('|')[4].strip() for x in gaps if any(t in x.lower() for t in w)]
+        ch = [x.strip()[6:] for x in check if f'[[{slug}]]' in x]
+        tr = e.get('transcripts'); tr = tr if isinstance(tr, dict) else {}
+        auto = '\n'.join([A0,
+            f"- Owners: {', '.join(e.get('owners') or []) or 'UNASSIGNED'}",
+            f"- Toolbox: {'; '.join(e.get('toolbox') or []) or 'none mapped'}",
+            f"- AutoReview: {', '.join(e.get('autoreview') or []) or 'not rated'}",
+            f"- Planner: {', '.join(cover.get(slug, [])) or 'NONE (nothing checks this yet)'}",
+            f"- Creator rows: {tr.get('tagged_rows', 0)}",
+            f"- Findings: {', '.join(e.get('findings') or []) or 'none'}",
+            *( [f"- Open gaps: " + ' | '.join(g)] if g else [] ),
+            *( [f"- Checklist: " + ' | '.join(ch)] if ch else [] ),
+            A1])
+        p = SYS / f'{slug}.md'
+        if p.exists():
+            t = p.read_text(); t = re.sub(re.escape(A0) + r'.*?' + re.escape(A1), lambda m: auto, t, flags=re.S)
+        else:
+            t = TEMPLATE.format(slug=slug, title=title, auto=auto)
+        p.write_text(t)
+        curated = bool(re.search(r'## Plan\n- Now: \S', t))
+        rows.append((slug, title, bool(cover.get(slug)), curated, len(g), bool(e.get('owners'))))
+
+    out = ['---', 'name: brain-index', 'description: Every system, whether anything checks it, whether it has a plan', '---',
+           '# Brain index', '', '| system | owner | planner | plan written | open gaps |', '|---|---|---|---|---|']
+    for slug, title, pl, cur, ng, own in sorted(rows, key=lambda r: (r[2], r[3], r[0])):
+        out.append(f"| [[{slug}]] | {'yes' if own else 'NO'} | {'yes' if pl else 'NO'} | {'yes' if cur else 'no'} | {ng or ''} |")
+    n = len(rows)
+    out += ['', f"{n} systems: {sum(r[2] for r in rows)} with a planner, {sum(r[3] for r in rows)} with a written plan, {sum(not r[5] for r in rows)} unowned."]
+    (BRAIN / 'index.md').write_text('\n'.join(out) + '\n')
+    print(out[-1])
+
+if __name__ == '__main__':
+    main()

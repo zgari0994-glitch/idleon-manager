@@ -32,3 +32,6 @@ description: World bosses (daily/weekly): state, how it works, links, plan, toda
 - Waiting on:
 
 ## Today (written by the decision layer each pull)
+
+## History and lessons (moved from Project memory 2026-11-21; dated state is history, live data wins)
+- 11-16: job for the lightest-schedule character, run efficiently, shown whenever available and worth doing. Also covers minibosses before they hit capacity (Toolbox alerts).

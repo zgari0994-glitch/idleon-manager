@@ -32,3 +32,6 @@ description: W2 weekly boss: state, how it works, links, plan, today
 - Waiting on:
 
 ## Today (written by the decision layer each pull)
+
+## History and lessons (moved from Project memory 2026-11-21; dated state is history, live data wins)
+- 11-14: wanted a reminder when the W2 weekly boss is available and not done; had never finished one. Old how-to lived in Project doc Daily-Rotation.md step 9 and KB section 26 (weekly boss sheet): MOVE IT HERE. 11-21: believes 2 fights day one then 1 a day (verify); give numbered fight steps to whoever does world bosses.

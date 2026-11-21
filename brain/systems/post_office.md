@@ -30,3 +30,6 @@ description: Post Office: state, how it works, links, plan, today
 - Waiting on:
 
 ## Today (written by the decision layer each pull)
+
+## History and lessons (moved from Project memory 2026-11-21; dated state is history, live data wins)
+- Zemo boxes (11-14): core 400, Scurvy/Gaming 800, Myriad 1,000; new points to Myriad. 11-21 rule: just say when a character has points.

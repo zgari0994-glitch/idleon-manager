@@ -1,0 +1,41 @@
+{
+ "module": "statues",
+ "systems": [
+  "statues"
+ ],
+ "ok": true,
+ "card_lines": [
+  "Statue goals: Candy or Active ES at Penguins (25 -> 40); Candy or Active ES at Cryosnakes (25 -> 40); Crystals with DK at Minichiefs (2 -> 40).",
+  "Before farming Onyx: Level 299/308 booked Orb of Remembrance talent (Divine Knight only) (299 -> 308); Startue Exp bubble.",
+  "Griffy: golden statues only keep the highest level, so stockpile them and turn them all in on one character. Turning in every statue at once can wipe stored greenstacks."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "snapshot": "20261120T2035",
+  "targets": [
+   "Level up Box Statue: Candy or Active ES at Penguins (25 -> 40)",
+   "Level up Seesaw Statue: Candy or Active ES at Cryosnakes (25 -> 40)",
+   "Level up Essence Statue: Crystals with DK at Minichiefs (2 -> 40)",
+   "Level up Essence Statue: Crystals with DK at Minichiefs (2 -> 80)",
+   "Level up Dragon Statue: AFK Cavern 15 (4 -> 150)"
+  ],
+  "prereq": [
+   "Level 299/308 booked Orb of Remembrance talent (Divine Knight only) (299 -> 308)",
+   "Startue Exp bubble: 18.506/20%+ minimum (171 -> 240)"
+  ],
+  "value": [
+   "Onyx base bonus: 2/2xTotal including The Onyx Lantern : 2.9/4.1x (3 -> 7)",
+   "TRUE ZEN:1.0x higher bonuses from Zenith Statues (0 -> 250)",
+   "Event Shop - Smiley Statue: 1/1.3x (0 -> 1)"
+  ],
+  "onyx": [
+   "Level 18 Onyx Kachow Statue: +47.51% Crit Damage (18 -> \u221e)",
+   "Level 25 Onyx Box Statue: +49.49 Trappin Power (25 -> \u221e)",
+   "Level 25 Onyx Seesaw Statue: +82.49% Cons Exp (25 -> \u221e)",
+   "Level 2 Onyx Essence Statue: +7.92% White Ess (2 -> \u221e)",
+   "Level 4 Onyx Dragon Statue: +5.03% Statues Bonus (4 -> \u221e)"
+  ],
+  "tier": "5/11"
+ }
+}

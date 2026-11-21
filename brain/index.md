@@ -20,7 +20,6 @@ description: Every system, whether anything checks it, whether it has a plan
 | [[companions]] | yes | NO | no |  |
 | [[crystal_spawn_chance]] | yes | NO | no | 1 |
 | [[darts]] | yes | NO | no |  |
-| [[data_source]] | yes | NO | no | 2 |
 | [[drop_rate]] | yes | NO | no | 2 |
 | [[dungeons]] | yes | NO | no |  |
 | [[event_points_shop]] | yes | NO | no | 1 |
@@ -29,13 +28,8 @@ description: Every system, whether anything checks it, whether it has a plan
 | [[friend_bonuses]] | yes | NO | no |  |
 | [[guild_bonuses]] | yes | NO | no |  |
 | [[hat_rack]] | yes | NO | no | 1 |
-| [[highest_dmg]] | yes | NO | no |  |
 | [[inventory]] | yes | NO | no |  |
-| [[item_filter]] | yes | NO | no |  |
 | [[library]] | yes | NO | no |  |
-| [[library_group_characters]] | yes | NO | no |  |
-| [[manual_tome_score]] | yes | NO | no |  |
-| [[max_subgroups]] | yes | NO | no |  |
 | [[meritocracy]] | yes | NO | no |  |
 | [[merits]] | yes | NO | no |  |
 | [[npc_tokens]] | yes | NO | no |  |
@@ -43,14 +37,11 @@ description: Every system, whether anything checks it, whether it has a plan
 | [[palette]] | NO | NO | no |  |
 | [[poppy]] | NO | NO | no | 1 |
 | [[quests]] | yes | NO | no |  |
-| [[reset_counters]] | yes | NO | no |  |
 | [[shrines]] | yes | NO | no |  |
 | [[snail_mail]] | NO | NO | no |  |
 | [[storage]] | yes | NO | no |  |
-| [[tabbed_advice_groups]] | yes | NO | no |  |
 | [[talents]] | NO | NO | no | 1 |
 | [[trapping]] | yes | NO | no | 1 |
-| [[version]] | yes | NO | no |  |
 | [[weekly_boss]] | NO | NO | no | 1 |
 | [[world_bosses]] | NO | NO | no | 1 |
 | [[world_progress]] | yes | NO | no | 1 |
@@ -121,4 +112,4 @@ description: Every system, whether anything checks it, whether it has a plan
 | [[worship]] | yes | yes | no | 1 |
 | [[zenith_market]] | yes | yes | no | 1 |
 
-114 systems: 66 with a planner, 0 with a written plan, 9 unowned.
+105 systems: 66 with a planner, 0 with a written plan, 9 unowned.

@@ -91,6 +91,7 @@ Game save = `data.TimeAway.GlobalTime` (UTC epoch). Store UTC, show Eastern. Alw
 - `tools/timers.py` (Toolbox dashboard timers + AFK spots) · `plans/w7_push.md` (Griffy W7 path + gaps)
 
 ## Brain + Report + decision layer (Zack 2026-11-21, supersedes "cards come straight from planners")
+- Run after plan.py (from the AutoReview folder): `PYTHONPATH=.:<repo>/model python3 <repo>/model/report.py` then `python3 model/decide.py` -> `reports/<save>/{report,decisions}.{md,json}`. Read decisions.md (holes + per character), not the raw planners.
 - Read `brain/README.md` first. Flow: snapshot -> Report (every system, stored per save) -> decision layer (`decisions.md`, reserves + links + goal) -> I review decisions -> cards (Spend / Do / Park only).
 - `brain/index.md` = every system and whether anything checks it. `tools/build_brain.py` refreshes AUTO blocks only; curated note text is kept.
 - `brain/reserves.yaml` is checked before any spend line. `brain/checklist_2026-11-21.md` is the acceptance test.
