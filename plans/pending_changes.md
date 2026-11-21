@@ -283,3 +283,9 @@ All other items 1-10 approved as stated in chat 10:37.
 - Super talents (Zack 13:00): ONLY sourced picks (Griffy/Pulse/Nocturne, per class and talent). Points are permanent: no source = the card says hold them. Legend talents: every line sourced (done).
 - Spelunking cave (Zack 14:54): characters can AFK the 2nd/3rd cave but for way less gains, so Spelunking parks use Fearful Tunnel.
 - Dungeons (Zack 14:54): no planner yet. Toolbox dungeons page added to the bulk read; plan after the first read (sources: Pulse keychains respawn up to 12% for G Mush money, Pulse farms world bosses in a party instead of dungeons, Griffy DK/RG best party dungeon class).
+
+## Sailing daily checks (Zack 2026-11-21, approved)
+- Every build: captain shop vs owned captains (Griffy 2026-01-08: replace low base rolls, keep captains = boats). Dead stats ignored (Cloud Discover Rate: all clouds found). Like-for-like replacement first. Line spells out: buy stats + cost, which captain it replaces and why, which boat comes home, where each boat goes after.
+- Trades: best upcoming gold bar trades. Boat upgrades affordable now (speed on World's End boats, loot elsewhere, my read).
+- The Maw opens from the Research grid node, not clouds.
+- FIX NEEDED: Sailing page failed in the last two bulk reads, and the captain shop resets daily. Sailing must refresh every pull, or the card says the shop is old (done).

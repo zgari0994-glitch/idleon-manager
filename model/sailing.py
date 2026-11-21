@@ -71,7 +71,8 @@ def parse_toolbox(txt):
     shop_txt, _, cap_txt = cpart.partition('\nCaptains\n')
     for c in re.split(r'\nShop captain\n|^Shop captain\n', shop_txt):
         bu = re.findall(r'([A-Za-z ]+)\n\+(\d+)% per level', c)
-        if bu: shop.append({'buffs': [(n.strip(), int(v)) for n, v in bu]})
+        cm = re.search(r'\n[\d.]+[KMBTQ]?\n/\n([\d.]+[KMBTQ]?)', c)
+        if bu: shop.append({'buffs': [(n.strip(), int(v)) for n, v in bu], 'cost': cm.group(1) if cm else None})
     for c in re.split(r'\n(?=Captain [A-Z]\n)', '\n' + cap_txt):
         m = re.match(r'\nCaptain ([A-Z])\nLv (\d+)(?: · Boat (\d+))?', c) or re.match(r'Captain ([A-Z])\nLv (\d+)(?: · Boat (\d+))?', c)
         if not m: continue
@@ -79,6 +80,19 @@ def parse_toolbox(txt):
         caps[m.group(1)] = {'captain': m.group(1), 'level': int(m.group(2)), 'boat': int(m.group(3)) if m.group(3) else None,
                             'buffs': [(n.strip(), float(v.replace(',', '')), int(p)) for n, v, p in bu]}
     return boats, caps, shop
+
+
+def read_trades():
+    f = SNAP / 'toolbox' / 'sail_boats_chests_trades.txt'
+    if not f.exists(): return []
+    s = f.read_text(errors='ignore'); i = s.find('WHEN\tYOU GIVE\tYOU GET')
+    if i < 0: return []
+    rows = re.findall(r'(\d\d/\d\d/\d{4} \d\d:\d\d)\s*\n\s*\n([\d.,]+[KMBTQ]?)\s*\n\s*\n([\d.,]+[KMBTQ]?)', s[i:i + 20000])
+    out = []
+    for w, g, r in rows:
+        try: out.append({'when': w, 'give': g, 'get': r, 'ratio': _num(r) / max(_num(g), 1)})
+        except Exception: pass
+    return out
 
 
 def b_speed(boats, bn):
@@ -220,7 +234,7 @@ def build():
            'speed_multi': sy.get('speed_multi'), 'speed_groups': {k: sy.get(k) for k in ['speed_multi_a', 'speed_multi_b', 'speed_multi_c', 'speed_multi_d', 'speed_multi_e', 'speed_multi_f']},
            'purrmep_linked': sy.get('purrmep_linked'), 'ballot': sy.get('_ballot_buff'), 'moves': [{'boat': p['boat'], 'captain': p['captain'], 'from': p['now'], 'to': p['go'], 'pct_from': p['now_pct'], 'pct_to': p['go_pct'], 'trip_from_h': round(p['trip_h'], 1), 'we': p.get('we', False)} for p in moves],
            'later': later, 'chests_per_hour': round(chests_per_h, 1),
-           'islands': rank, 'boats': plan, 'captains': cap_rank, 'shop': shop_rank, 'artifacts': arts,
+           'islands': rank, 'boats': plan, 'captains': cap_rank, 'shop': shop_rank, '_caps': caps, '_shop': shop, '_trades': read_trades(), 'artifacts': arts,
            'odds_missing_multipliers': missing_multi, 'odds_missing_additive': missing_add, 'tier_cap': tier_cap,
            'maw': {'distance': isl['The Maw']['distance'], 'unlocked': isl['The Maw']['unlocked']}}
     json.dump(out, open(ROOT / 'model' / 'sailing.json', 'w'), indent=1)
@@ -270,13 +284,66 @@ def card_lines(o):
         L.append(f"  Swap Captain {w['captain']} onto Boat {w['to_boat']} (Captain {w['other']} goes to Boat {w['from_boat']}). That cuts the World's End trip to about {w['we_trip_h']}h.")
     if o['we_boats']: L.append(f"{' and '.join('Boat ' + k for k in o['we_boats'])} go to World's End to hunt the ones you've never found.")
     und = [a['name'] for a in o['artifacts'] if a['acq'] == 0]
-    if und: L.append(f"Never found: {', '.join(und)}. Four of them are in The Maw, which needs cloud discovery first.")
+    if und: L.append(f"Never found: {', '.join(und)}. Four of them are in The Maw, which opens from the Research grid node The Maw (not clouds).")
     try:
         pm = json.load(open(ROOT / 'model' / 'divinity.json')).get('purrmep_shown') or []
     except Exception:
         pm = []
     if pm: L.append(f"Check in game that {pm[0][0]} is linked to Purrmep in Divinity (boat speed). Toolbox says yes, AutoReview says no.")
     L.append("When the Sailing Speed ballot is up, World's End trips take half as long.")
+    L += daily_checks(o)
     return L
+
+
+# ---- Daily captain / trade / boat-upgrade checks (Zack 2026-11-21) ----
+CLOUDS_DONE = True   # Zack 2026-11-21: every cloud is discovered, so Cloud Discover Rate is a dead stat
+DEAD = {'Cloud Discover Rate'} if CLOUDS_DONE else set()
+
+
+def _live(buffs):
+    """per-level total of the stats that still do something"""
+    return sum(p for n, p in buffs if n not in DEAD)
+
+
+def daily_checks(o):
+    L = []
+    caps = o.get('_caps') or {}
+    shop = o.get('_shop') or []
+    plan_to = {m['boat']: m['to'] for m in o.get('moves', [])}
+    stale = 'sailing' in ((SNAP / 'toolbox' / '_from.txt').read_text() if (SNAP / 'toolbox' / '_from.txt').exists() else '')
+    if stale: L.append("Sailing page didn't refresh on the last read, so the captain shop below is old (it resets daily). Check the shop in game before buying.")
+    if caps and shop:
+        own = sorted(((_live([(n, p) for n, _, p in v['buffs']]), c, v) for c, v in caps.items()), key=lambda r: r[0])
+        used = set()
+        for s in sorted(shop, key=lambda s: -_live(s['buffs'])):
+            sv = _live(s['buffs'])
+            types = {n for n, _ in s['buffs'] if n not in DEAD}
+            same = [(lv, c, v) for lv, c, v in own if c not in used and types & {n for n, _, _ in v['buffs']}]
+            weak = (same or [(lv, c, v) for lv, c, v in own if c not in used] or [None])[0]   # like-for-like first (Zack 2026-11-21)
+            if not weak or sv < weak[0] * 1.5: continue   # my read: only worth a level-1 restart at 1.5x the per-level stats
+            lv, c, v = weak; used.add(c)
+            stats = ' and '.join(f"{n} +{p}%" for n, p in s['buffs'])
+            old = ' and '.join(f"{n} +{p}%" for n, _, p in v['buffs'])
+            dest = plan_to.get(v['boat']) or next((b['now'] for b in o.get('boats', []) if b['boat'] == v['boat']), 'its island')
+            cost = f" for {s['cost']} gold bars" if s.get('cost') else ''
+            L.append(f"Captains: buy the shop captain with {stats} per level{cost}. It replaces Captain {c} ({old} per level) on Boat {v['boat']}. "
+                     f"Send Boat {v['boat']} home, take {c} off, delete {c}, put the new one on, send Boat {v['boat']} to {dest}. "
+                     f"Griffy: replace low base-roll captains, the stronger roll passes them at equal levels; keep captains equal to boats.")
+        if not any(x.startswith('Captains:') for x in L):
+            L.append("Captains: nothing in today's shop beats your weakest captain by enough to restart at level 1 (Griffy: replace only for stronger base rolls).")
+    tr = o.get('_trades') or []
+    if tr:
+        best = sorted(tr, key=lambda r: -r['ratio'])[:3]
+        L.append("Trades: best upcoming gold bar trades: " + '; '.join(f"{r['when']} give {r['give']} get {r['get']}" for r in best) + ". (Griffy: trade treasures for gold bars to upgrade boats)")
+    ups = [b for b in o.get('boats', []) if b.get('speed_buy') or b.get('loot_buy')]
+    if ups:
+        we = set(o.get('we_boats') or {})
+        lines = []
+        for b in ups:
+            if str(b['boat']) in we and b.get('speed_buy'): lines.append(f"Boat {b['boat']} speed to {b['speed_buy'][0]} (World's End boat, speed first)")
+            elif b.get('loot_buy'): lines.append(f"Boat {b['boat']} loot to {b['loot_buy'][0]}")
+        if lines: L.append("Boat upgrades you can afford now: " + '; '.join(lines[:6]) + ". (my read: speed on World's End boats, loot elsewhere)")
+    return L
+
 
 
