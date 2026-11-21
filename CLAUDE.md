@@ -90,6 +90,17 @@ Game save = `data.TimeAway.GlobalTime` (UTC epoch). Store UTC, show Eastern. Alw
 - Tagging pipeline: `tools/make_packets.py` (trimmed packets + ORDER.csv) -> ChatGPT per `handoff/TAGGER.md` writes `handoff/tags_out/` -> on "check tags" run `python3 tools/merge_tags.py` (validates, writes full CSVs to sources/creators/<c>/tags/), commit.
 - `tools/timers.py` (Toolbox dashboard timers + AFK spots) · `plans/w7_push.md` (Griffy W7 path + gaps)
 
-## Status (2026-11-17)
-Done: Phase 1 card engine v2 (fixed layout, all sub-systems, matching fixes, untiered sections, account block, ranked active list, daily loop), Phase 1b system index (105 systems), material ledger (+ AutoReview-targeted stamp needs), coin costs vs money (Upgrade Vault, Advice Fish, vendor; Toolbox formulas, tools/stamp_cost.py), Toolbox ready-timer routing, Hole 1-5 findings, ChatGPT queue (Lane A gaps / Lane B proactive), gap loop. Owners: maintenance systems on Autistopher, minigames + drop rate/storage/world progress account-wide, Emperor unassigned.
-Next: 3pm refresh = first daily close (Phase 3 growth tracking), card run-through, morning gap reviews. Pending in-game checks: Kitchen Dream-mare next ~9.36e26, Blackheart next max raise ~36,626 Purple Screws, Bummo Bag price.
+## Brain + Report + decision layer (Zack 2026-11-21, supersedes "cards come straight from planners")
+- Read `brain/README.md` first. Flow: snapshot -> Report (every system, stored per save) -> decision layer (`decisions.md`, reserves + links + goal) -> I review decisions -> cards (Spend / Do / Park only).
+- `brain/index.md` = every system and whether anything checks it. `tools/build_brain.py` refreshes AUTO blocks only; curated note text is kept.
+- `brain/reserves.yaml` is checked before any spend line. `brain/checklist_2026-11-21.md` is the acceptance test.
+- Super talents: preset role (fight/skill) comes from where that preset's regular talent points are spent, never from existing supers; no pick on both presets unless sourced; pick must be in the class tree with points on that preset.
+- Lesson 2026-11-21: the 40 gaps logged 11-17 were never closed and weekly boss / anvil / Jade / Bubba / Poppy fell out when the old docs system was replaced (Daily-Rotation step 9 and KB section 26 held the weekly boss how-to). When replacing anything, carry every checked item over and list what moved where.
+
+## Keep rules current (Zack 2026-11-21)
+When a rule changes: update this file, Project memory (`/projects/.../areas/idleon.md`, standing rules only) and give Zack the Project text to paste, in the same turn. Project docs are legacy reference (see claude/00-READ-FIRST.md); never act on them over the repo.
+
+## Status (2026-11-21)
+Done: card engine v3 (cards2.py), 66 system planners, system index, ledger, coins, guidance layer, tagging, brother's dashboard.
+Building now (in order): Report -> reserves -> decision layer -> cards from decisions -> fill brain notes in goal order (Spelunking first) closing gaps.md + the checklist.
+Owners: Emperor = Autiszemo (best fighter). Pending in-game checks: Kitchen Dream-mare next ~9.36e26, Blackheart next max raise ~36,626 Purple Screws, Bummo Bag price.
