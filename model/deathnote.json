@@ -1,5 +1,5 @@
 {
- "snapshot": "20261120T2035",
+ "snapshot": "20261121T1741",
  "cur": {
   "at": "2026-11-20T20:44:58.400Z",
   "kills": {
@@ -403,7 +403,7 @@
    "+320% damage"
   ]
  },
- "prev_at": "2026-11-20T02:02:35.324Z",
+ "prev_at": "2026-11-20T20:44:58.400Z",
  "groups": [
   {
    "name": "Complete a minimum of Eclipse Skull (1B) in W4",
@@ -615,13 +615,6 @@
      "res": "dementia-skull"
     },
     {
-     "label": "Pirate Underling in Pirate Upper Deck (993M remaining)",
-     "cur": "1%",
-     "goal": "100%",
-     "optional": true,
-     "res": "dementia-skull"
-    },
-    {
      "label": "Pufferblob in Puffpuff Overpass (414M remaining)",
      "cur": "59%",
      "goal": "100%",
@@ -638,6 +631,13 @@
     {
      "label": "Balloonfish in Balloon Bay (665M remaining)",
      "cur": "33%",
+     "goal": "100%",
+     "optional": true,
+     "res": "lava-skull"
+    },
+    {
+     "label": "Pirate Underling in Pirate Upper Deck (756M remaining)",
+     "cur": "24%",
      "goal": "100%",
      "optional": true,
      "res": "lava-skull"
@@ -673,7 +673,7 @@
    ]
   },
   {
-   "name": "You could complete 13 more ZOWs with Autiszemo (95/108)",
+   "name": "You could complete 12 more ZOWs with Autiszemo (96/108)",
    "tier": "24",
    "items": [
     {
@@ -690,12 +690,6 @@
     },
     {
      "label": "Coralcave Guardian in Coralcave Perimeter (100K remaining)",
-     "cur": "0%",
-     "goal": "100%",
-     "optional": true
-    },
-    {
-     "label": "Pirate Underling in Pirate Upper Deck (100K remaining)",
      "cur": "0%",
      "goal": "100%",
      "optional": true
@@ -769,7 +763,7 @@
    ]
   },
   {
-   "name": "You could complete 15 more CHOWs with Autiszemo (93/108)",
+   "name": "You could complete 14 more CHOWs with Autiszemo (94/108)",
    "tier": "24",
    "items": [
     {
@@ -786,12 +780,6 @@
     },
     {
      "label": "Coralcave Guardian in Coralcave Perimeter (1M remaining)",
-     "cur": "0%",
-     "goal": "100%",
-     "optional": true
-    },
-    {
-     "label": "Pirate Underling in Pirate Upper Deck (1M remaining)",
      "cur": "0%",
      "goal": "100%",
      "optional": true
@@ -1041,8 +1029,8 @@
      "goal": "100%"
     },
     {
-     "label": "Sheepie in Steep Sheep Ledge (47M remaining)",
-     "cur": "53%",
+     "label": "Sheepie in Steep Sheep Ledge (46M remaining)",
+     "cur": "54%",
      "goal": "100%"
     },
     {
@@ -1522,7 +1510,7 @@
      "goal": "100%"
     },
     {
-     "label": "Sheepie in Steep Sheep Ledge (947M remaining)",
+     "label": "Sheepie in Steep Sheep Ledge (946M remaining)",
      "cur": "5%",
      "goal": "100%"
     },
@@ -2048,6 +2036,11 @@
      "goal": "2,503,890,080"
     },
     {
+     "label": "Dedotated Ram in Wam Wonderland",
+     "cur": "",
+     "goal": "2,342,971,320"
+    },
+    {
      "label": "Cryosnake in Cryo Catacombs",
      "cur": "",
      "goal": "2,258,670,250"
@@ -2076,11 +2069,6 @@
      "label": "Mamooth in Mamooooth Mountain",
      "cur": "",
      "goal": "1,094,422,824"
-    },
-    {
-     "label": "Dedotated Ram in Wam Wonderland",
-     "cur": "",
-     "goal": "1,068,319,600"
     },
     {
      "label": "Frost Flake in Snowfield Outskirts",
@@ -2328,6 +2316,11 @@
      "goal": "68,056,616"
     },
     {
+     "label": "Pirate Underling in Pirate Upper Deck",
+     "cur": "",
+     "goal": "37,759,512"
+    },
+    {
      "label": "Shellslug in Barnacle Curb",
      "cur": "",
      "goal": "14,745,986"
@@ -2359,11 +2352,6 @@
     },
     {
      "label": "Coralcave Guardian in Coralcave Perimeter",
-     "cur": "",
-     "goal": "0"
-    },
-    {
-     "label": "Pirate Underling in Pirate Upper Deck",
      "cur": "",
      "goal": "0"
     },
@@ -2579,19 +2567,19 @@
      "goal": "192"
     },
     {
+     "label": "Sir Stache in The Stache Split",
+     "cur": "",
+     "goal": "5,517,880,993"
+    },
+    {
      "label": "Dedotated Ram in Wam Wonderland",
      "cur": "",
      "goal": "2,461,658,552"
     },
     {
-     "label": "Sir Stache in The Stache Split",
-     "cur": "",
-     "goal": "1,699,962,763"
-    },
-    {
      "label": "Sheepie in Steep Sheep Ledge",
      "cur": "",
-     "goal": "53,277,244"
+     "goal": "53,540,125"
     },
     {
      "label": "Thermister in Thermonuclear Climb",
@@ -2972,20 +2960,5 @@
   }
  ],
  "ar_tier": "16/23",
- "rate": {
-  "Carrotman": 534576.1158875487,
-  "Wode Board": 6949489.506538132,
-  "Sir Stache": 86601330.77378291,
-  "Snowman": 52923035.47286732,
-  "Penguin": 122952506.6541362,
-  "Thermister": 7484065.622425694,
-  "Cryosnake": 208484685.19614398,
-  "Dedotated Ram": 165718595.92514008,
-  "Lampar": 105364952.44143584,
-  "Woodlin Spirit": 97720513.9842439,
-  "Mama Troll": 299522997.7317935,
-  "Skydoggie Spirit": 27797958.02615253,
-  "Coralcave Crab": 534576.1158875487,
-  "Pirate Underling": 362442.606571758
- }
+ "rate": {}
 }

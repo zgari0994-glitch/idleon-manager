@@ -1,8 +1,8 @@
-# Mechanics layer · game save 2026-11-20 03:35 PM ET
+# Mechanics layer · game save 2026-11-21 12:41 PM ET
 
 Rule-changers and account-wide buffs you own. Facts from the save; sources for missing items added separately.
 
-## Companions (53 owned, 123 missing)
+## Companions (54 owned, 122 missing)
 - King Doot: All Divinities from World 5 count as Active
 - Rift Slug: +25 Lv for all Talents
 - Dedotated Ram (upgraded): Use Storage Chest from anywhere, and +30% Carry Capacity
@@ -10,6 +10,7 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 - Sheepie: All big bubbles in Alchemy count as equipped
 - Molti: +5% All Skill Efficiency
 - Bored Bean: +5% AFK Gains Rate for Fighting and Skills
+- Slime: +25% Golden Balls earned in Arcade for Upgrades
 - Sandy Pot: +15 Base All Stats (STR/AGI/WIS/LUK)
 - Bloque: +20% All Skill EXP
 - Frog: +10% Total Damage
@@ -23,14 +24,14 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 - Mashed Potato: +5% Ballot Bonus Multi (World 2 feature)
 - Flying Worm: +30 Talent Points for all classes
 - Poisonic Frog: +15% Defence
-- Quenchie: +15% Drop Rate
+- Quenchie (upgraded): +20% Drop Rate
 - Green Mushroom: +15% Accuracy
 - Cool Bird: 4x Coins from Mobs
 - Axolotl: +50% AFK Gains
 - Mallay: 1.30x Drop Rate
 - Spirit Reindeer: 2.00x Gold Ball Shop Bonuses
 - RIP Tide: +30% AFK gains for World 7 skills, and +1 Worldclass Showcase Slot in Gallery
-- Squirrel: 1.50x Kills for Opening Portals and Deathnote
+- Squirrel (upgraded): 1.75x Kills for Opening Portals and Deathnote
 - Mr Pig: 2x Friend Bonuses, +2 Friend Bonus Slots, Auto Loot, Storage Quickref Usage, Infinite Teleporting
 - Whale: 2x Class EXP gain and 2x All Skill EXP gain
 - Chippy: 2x Total Damage, and 2x Class EXP gain
@@ -56,7 +57,7 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 - Mama Troll: +100% Drop Rate and 1.50x Drop Rate Multi
 - Crystal Glunko: 1.50x Damage, 1.40x Class EXP, 1.30x Drop Rate, and 1.20x extra Kills
 - Armadillo: +100% additive Crystal Monster Spawn chance
-- Missing: Slime, Glunko Supreme, Wild Boar, Jellofish, Koi Fish, Neonscale, Pirate Deckhand, Magni Pufferfin, Dreadnaught Captain, Bubba Supreme, Nutto, Biggie Hours, Baba Yaga, Walking Stick, Carrotman, Demon Hound, Gloomie Mushroom, Crabcake, Mr Blueberry, Crystal Carrot, Crystal Crabal, Crystal Cattle, Crystal Candalight, Demon Genie, Eldritch Croaker, Lava Slimer, King Frog, Ghost, Glublin, Mamooth, Mimic, Moonmoon, Red Mushroom, Wood Mushroom, Pincermin, Wode Board, Crescent Spud, Rat, Rift Spooker, Rift Hivemind, Floofie, Sand Castle, Sand Giant, Dig Doug, Xylobone, Bloodbone, Glunko The Massive, Snelbie, Shell Snake, Snowman, Bop Box, Tyson, Beefie, Catherine, TV, Donut, Soda Can, Gelatinous Cuboid, Choccie, Clammie, Octodar, Flombeige, Stilted Seeker, Suggma, Maccie, Mister Brightside, Cheese Nub, Stiltmole, Citringe, Lampar, Fire Spirit, Crawler, Tremor Wurm, Sprout Spirit, Ricecake, River Spirit, Baby Troll, Woodlin Spirit, Bamboo Spirit, Lantern Spirit, Ceramic Spirit, Skydoggie Spirit, Royal Egg, Minichief Spirit, Doodlefish, Noble Clam, Demonblub, Coralcave Crab, Coralcave Guardian, Trench Fish, Boomy Mine, Pirate Underling, Eggroll, Kelpfish, Mantaray, Glowfish, Ancientfish, Bronze Champion Ram, Silver Champion Ram, Gold Champion Ram, Rift Stalker, Glimbo, Vanillie, Valenslime, Mechanical Mouse, Lucky Slug, Potluck, Poppy, Wickerlight Spirit, Smoke Devil, Bronze Champion Troll, Silver Champion Troll, Gold Champion Troll, Abacus Frog, Bin Goosey, Magician Grub, Imperial Ogre, Pipsqueak, Verminous, Bronze Champion Earl, Silver Champion Earl, Gold Champion Earl, Guppy
+- Missing: Glunko Supreme, Wild Boar, Jellofish, Koi Fish, Neonscale, Pirate Deckhand, Magni Pufferfin, Dreadnaught Captain, Bubba Supreme, Nutto, Biggie Hours, Baba Yaga, Walking Stick, Carrotman, Demon Hound, Gloomie Mushroom, Crabcake, Mr Blueberry, Crystal Carrot, Crystal Crabal, Crystal Cattle, Crystal Candalight, Demon Genie, Eldritch Croaker, Lava Slimer, King Frog, Ghost, Glublin, Mamooth, Mimic, Moonmoon, Red Mushroom, Wood Mushroom, Pincermin, Wode Board, Crescent Spud, Rat, Rift Spooker, Rift Hivemind, Floofie, Sand Castle, Sand Giant, Dig Doug, Xylobone, Bloodbone, Glunko The Massive, Snelbie, Shell Snake, Snowman, Bop Box, Tyson, Beefie, Catherine, TV, Donut, Soda Can, Gelatinous Cuboid, Choccie, Clammie, Octodar, Flombeige, Stilted Seeker, Suggma, Maccie, Mister Brightside, Cheese Nub, Stiltmole, Citringe, Lampar, Fire Spirit, Crawler, Tremor Wurm, Sprout Spirit, Ricecake, River Spirit, Baby Troll, Woodlin Spirit, Bamboo Spirit, Lantern Spirit, Ceramic Spirit, Skydoggie Spirit, Royal Egg, Minichief Spirit, Doodlefish, Noble Clam, Demonblub, Coralcave Crab, Coralcave Guardian, Trench Fish, Boomy Mine, Pirate Underling, Eggroll, Kelpfish, Mantaray, Glowfish, Ancientfish, Bronze Champion Ram, Silver Champion Ram, Gold Champion Ram, Rift Stalker, Glimbo, Vanillie, Valenslime, Mechanical Mouse, Lucky Slug, Potluck, Poppy, Wickerlight Spirit, Smoke Devil, Bronze Champion Troll, Silver Champion Troll, Gold Champion Troll, Abacus Frog, Bin Goosey, Magician Grub, Imperial Ogre, Pipsqueak, Verminous, Bronze Champion Earl, Silver Champion Earl, Gold Champion Earl, Guppy
 
 ## Packs (38 owned)
 - Owned: Lava Supporter Pack, New Year Pack, Easter Bundle, Totally Chill Pack, Summer Bundle, Giftmas Bundle, Auto-Loot Pack, Outta This World Pack, Super Hot Fire Pack, Riftwalker Pack, Bloomin' Pet Pack, Island Explorer Pack, Equinox Pack, Calm Serenity Pack, Sacred Methods Pack, Timeless Pack, Ancient Echos Pack, Deathbringer Pack, Windwalker Pack, Arcane Cultist Pack, Fallen Spirits Pet Pack, Storage Ram Pack, Blazing Star Anniversary Pack, Midnight Tide Anniversary Pack, Lush Emerald Anniversary Pack, Eternal Hunter Pack, Gilded Treasure, Lil' Squirrel Pack, Ocean Raider Pack, Piggy Pal, Autumn Breeze Pack, Chonky Seal Pack, Giftmas Bunny Pack, Giftmas Hedgehog Pack, Giftmas Panda Pack, Santa's Little Helper Pack, Crystal Glunko Pack, Armadillo Pack
@@ -84,17 +85,23 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 - Extra Lumi: +50% Lumi Gains for the Menagerie in World 7
 - Not owned: Golden Tome (35 pts): Adds a new DMG Multi bonus type to the Tome in World 4; Stamp Stack (30 pts): Get +3 Stamp LVs every day for a random Stamp; Bubble Broth (20 pts): Get +5 LVs for a random Alchemy Bubble every day; Supreme Wiring (45 pts): +2% Printer Output per day, taking new sample resets this; Village Encouragement (40 pts): All Villagers in World 5 Camp get 1.25x EXP Gain; Extra Page (20 pts): Get +1 more Filter Page. Find it on the left side of Cards; Storage Chest (20 pts): Get +12 storage slots for your storage chest; Storage Vault (40 pts): Get +16 storage slots for your storage chest; Ribbon Connoisseur (60 pts): Get +3 more ribbons every day for your Ribbon Shelf; Another Page (50 pts): Get +1 more Filter Page. Find it on the left side of Cards; Extra Exaltedness (35 pts): Get +1 Exalted Stamp use, and +20% Exalt Bonus.; Smiley Statue (90 pts): All statues give 1.30x higher bonuses, forever!; Government Subsidy (17 pts): Get 1.60x more coins from defeating monsters!; Automated Mail (15 pts): Get +5 Boxes at the Post Office every day you play!; Fossil Meritocracy (45 pts): Get +20% higher Meritocracy Bonus in World 7; Coolral (30 pts): Boosts daily gain for the Coral Reef in W7 by 1.30x; Singed Tome (125 pts): Adds a new Drop Rate Multi bonus to the Tome in World 4; Worldclass Showcase (180 pts): Turns a Gallery Slot in World 7 to Grade 4; Omega Bubble (90 pts): Kattlekruk divinity gives 1.50x more daily bubbles; Kaleidoscope (35 pts): Gives you 1 more Kaleidoscope for Research in World 7; Magnifying Glass (25 pts): Gives you 1 more Magnifier for Research in World 7; Keen Observations (33 pts): Get +3 more Daily Attempts at finding Observations!; Shape Obsession (200 pts): Get +1 more Shape for your Research Grid in World 7; Rift Guy Sticker (75 pts): Increases all Sticker Bonuses by +30%; Glimbo Coupon (60 pts): Lowers the cost of all Glimbo Trades in World 7 by 25%; Tiny Cog Twins (175 pts): Daily producion of Tiny Cogs is now double!; Glimbo VIP Pass (210 pts): Each Glimbo Trade boosts Vault Max LV by +2 not +1; Golden Registrant (15 pts): Registering for Grand Tournament gives 1000 Gold Balls; Glass Dice (35 pts): +50% total Crystal Mob Spawn Chance; Magnate Exotica (170 pts): +8 weekly Exotic Market purchases and +30% are free; Minehead Money (35 pts): Earn 2x more currency for World 7's Depth Charge; Sushi Stackz (20 pts): Earn 2x more currency for World 7's Sushi Station; Research Registrant (150 pts): Registering for Tournament gives 12hrs Research gains; Monumental Reverence (175 pts): +100 LVs for all Monument bonuses every day forever; Noble Sluggo (90 pts): Roams your dock, giving 1.50x Artifact Find chance; Doggie Sticker (250 pts): Boosts Sticker odds by 2x daily, resets when finding one; 6 Star Cardifiers (200 pts): Gives you EIGHT usable 6star cardifiers!; Elegant Ribbons (190 pts): New ribbons have 25% chance to be +1 Tier higher!; Fishmaxxing (275 pts): 5x Fish and 75% cheaper upgrades for Poppy!; Dough Roller (50 pts): 2x Cooking Speed; Bejeweled Ladle (250 pts): +5 Purple and Yellow PTS for Cooking Mastery!; Boat Discount (100 pts): All sailing boat upgrades are 30% cheaper; Ivory Locket (100 pts): +3 Slot Unlocks for Jelly Operator; Meatmaxxing (250 pts): 3x Fish and 50% cheaper upgrades for Bubba!; Smol Pouch (25 pts): Get +2 Inventory slots for your Items Backpack; A North Star (60 pts): +1 Black Star to use in the Gaming Palette; Organic Label (90 pts): +5 uses, doubles your choice of Exotic Market upgrade!; Menagerie Shell (250 pts): Instantly get +5 Shells for the Luminous Menagerie; Graduate Thesis (15 pts): Get +1 Research PTS; Gilded Awnings (120 pts): +25 Max LV for most of the Upgrade Vault; Full Kitchen Simmer (190 pts): 10x Max Fuel Capacity for the Sushi Station; Slot of Friendship (200 pts): Adds +1 more slot for your Friend Bonuses
 
-## Legend talents (17 leveled)
+## Legend talents (23 leveled)
 - Greatest Drop Party Ever 4/4: +{% Drop Rate for all players! This bonus is additive, not a multiplier.
 - Double Aint Enough 3/3: ''2x Statue and Gold Food drops'' now drop in bundles of $x instead!
+- Extended Database 3/3: +{ Max LV for 5th column of Farming Land Rank Database
 - Familiar Firesale 2/2: Whenever you buy a Summoning Familiar, there's a {% chance for the cost to not go up at all... almost like it's free!)
 - Super Duper Talents 5/5: Super Talent PTS give +{ more LVs to talents than they normally do
 - Superb Gallerium 2/2: The first { normal showcase slots in your Gallery are 1 grade higher (i.e. they become Featured, and give 150% bonuses)
 - Davey Jones Returns 4/4: }x bonus to all the same stats that 'Davey Jones Training' gives, check it in W5 Gemshop. Also, -{% Minimum Travel Time
 - Opa Opal Style 3/3: Villagers at the Hole in World 5 gain }x more EXP
 - Recycled Particle Upgrades 1/1: {% of Unspent 'Alternate Particle Upgrades' each day are spent equally across the 1st bubbles of each colour, for free!
+- Thanatos's Teachings 2/2: +{% extra kills, for opening portals and Deathnote. This bonus is additive, not a multiplier.
 - Cog Lover 2/2: You can claim +{ more Jeweled Cogs every day, if you have them unlocked...
+- Skillium Fancyson 4/4: }x higher EXP gain for all skills, except Research and W7 Skill 3!
 - Flopping a Full House 5/5: Actively equipped cards give }x higher bonuses, and this stacks with Lab chips!
+- Daily Shopping Spree 3/3: The first { upgrades you buy each day for Masterclasses are 80% cheaper
+- May the Best Man Win 1/1: The Multi Meritocracy gives a +{% higher multiplier for the winning bonus of the week
+- Furry Friends Forever 2/2: The 'rest-of-the-game' bonuses from your friends Orion and Poppy are all }x bigger
 - Lightning Fast Naps 2/2: }x faster Stamina regeneration for Spelunking
 - Inevitable Builder 2/2: Gives 1 additional Trimmed Construction Slot, and makes them }x faster for a total bonus speed of $x!
 - Obsolete No More 1/1: The Metal Detector bonus from Equinox Valley no longer resets when you find a new best nugget
@@ -104,6 +111,10 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 - Super Talent Points 1/1: You get +1 Super Talent Point at Class LV 500, LV 600, LV 700 and so on. Spend these on Talents to give them +$ LV!
 
 ## Research nodes leveled
+- Cellular Warfare: Multiplies all damage dealt by your cells during operations by }x<br>A true operator must consider the indirect bloodcell gain...
+- Daily Operating Procedure: Gives you +| more operations to start every day at the Jelly Operator game!
+- Jelly Operator Linguistics: You can now speak to the Jelly found in the Jellofish map to play the Jelly Operator game!<br>Also, }x more Bloodcells gained from operations!
+- Shakin' It: Every day, you get another +| extra uses for ALL your shakers at the Sushi Station!<br>And +{% chance for free use when using Shakers!
 - Sushi Station Linguistics: You can now speak to the knife found in the map past Glimbo to play the Sushi Station game!<br>Also, }x more Bucks gained from your Sushi!
 - Glimbo BOGO Offer: Some of Glimbo's trades give +| additional LVs! This works retroactively. Also, }x Coin gain
 - Glimbo Linguistics: You can now speak to Glimbo, and make trades with him! Also boosts coins dropped by monsters by }x!
@@ -120,22 +131,23 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 - Adequate Sized, Actually: All Tiny Cogs you get have a {% chance be 1 Tier higher than they otherwise would've been! Huge, honestly!
 - Takin' Notes: Multiplies Research EXP gain by }x, TRUE multiplier style! So this bonus will never be additive!
 - Powered Down Research: Further increases your Research AFK Gains rate by +{%, in your unending quest for 100%
+- Kaleidoscope: Gives +| Kaleidoscopes to use for Observations! Also, +{% Kaleidoscope effect!
 - Polymer Refinery: Unlocks a new tab in the Refinery, POLYMERIZATION! Also, +{% faster refinery cycles for ALL tabs!
 - Pts Every Ten: Get +| extra Research PTS every 10 Research LVs! Also, +{% Research EXP Gain!
 
 ## Kill-count talents
-- Archlord of the Pirates (Drop Rate and Class EXP): 6015 kills, value 15.05. Farm more Plunder Kills with Siege Breaker for Drop Rate Crystal Setup at W5 Citringes for ~20k per day
-- King of the Remembered (Printer Output): 2658142 kills, value 22.75. Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from
-- Wormhole Emperor (Damage): 570282 kills, value 4.3. Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns
+- Archlord of the Pirates (Drop Rate and Class EXP): 6017 kills, value 16.46. Farm more Plunder Kills with Siege Breaker for Drop Rate Crystal Setup at W5 Citringes for ~20k per day
+- King of the Remembered (Printer Output): 2687560 kills, value 22.78. Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from
+- Wormhole Emperor (Damage): 570282 kills, value 5.36. Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns
 
 ## Family bonuses (top level of each class, account-wide)
-- Journeyman 781; Maestro 781; Voidwalker 781; Warrior 835; Barbarian 833; Squire 835; Blood Berserker 833; Death Bringer 833; Divine Knight 835; Royal Guardian 835; Archer 857; Bowman 857; Hunter 856; Siege Breaker 857; Wind Walker 856; Beast Master 856; Mage 853; Wizard 842; Shaman 853; Elemental Sorcerer 842; Bubonic Conjuror 853; Arcane Cultist 853
+- Journeyman 781; Maestro 781; Voidwalker 781; Warrior 847; Barbarian 847; Squire 837; Blood Berserker 847; Death Bringer 847; Divine Knight 837; Royal Guardian 837; Archer 857; Bowman 857; Hunter 856; Siege Breaker 857; Wind Walker 856; Beast Master 856; Mage 874; Wizard 842; Shaman 874; Elemental Sorcerer 842; Bubonic Conjuror 874; Arcane Cultist 874
 
 ## Divinity blessings
-- Snehebatu 100; Arctis 100; Nobisect 110; Harriep 129; Goharut 58; Omniphau 80; Purrmep 129; Flutterbis 35; Kattlekruk 73; Bagur 60
+- Snehebatu 131; Arctis 100; Nobisect 114; Harriep 131; Goharut 100; Omniphau 80; Purrmep 131; Flutterbis 60; Kattlekruk 73; Bagur 60
 
-## Achievements: 209 done, 59 open
-- Open: Hitting the Mark, Minecart Maniac, Spike Minigame Master, Minecart Master, Choppin' to the Beat, Decked Out in Gold, Two-Time Savior, What a View!, Seriousleaf-ast!, Heyo!, Golden Fly, Wassup Yo!, Fishing Finesse, Catching Coronation, A Fish Too Far, Monocle No More, Threadin' the Needle, Two Desserts!, WAAAAAAAHH!, Fish Aint Biting, Wazzzzam!, Just Passing By, Good Times Roll, Giant Slayer, There Can Be Only 1, Knock on Wood, Sepia Vision, A Most Nice Sale, Boss Defeated, Manager Defeated, Kingpin Defeated, Capitalist Win, Matrix Wickermen, Bland Dish, Lv. 5 Nothing, I LOVE These Mobs, Hunned Times a Day, Space Party!!!, Hibernating Gamer, Soda Poisoning, The True Pirate, The True Emperor, Maple Logger, No Krakens? ):, Maroon Warship, POiNG Champion, Chemical Collector, Perfect Trade Deal, Legendary Flag, Legendary Wormhole, Sneaky Stealing, Hug from Timmy, That's MY Crown, Leet Lanterns, Doctor Repellant, Cob Enjoyer, Legumulucky, Yellow Belt, Penta Defence
+## Achievements: 212 done, 56 open
+- Open: Hitting the Mark, Minecart Maniac, Spike Minigame Master, Minecart Master, Choppin' to the Beat, Decked Out in Gold, Two-Time Savior, What a View!, Seriousleaf-ast!, Heyo!, Golden Fly, Wassup Yo!, Fishing Finesse, Catching Coronation, A Fish Too Far, Monocle No More, Threadin' the Needle, Two Desserts!, WAAAAAAAHH!, Fish Aint Biting, Wazzzzam!, Just Passing By, Good Times Roll, Giant Slayer, There Can Be Only 1, Knock on Wood, Sepia Vision, A Most Nice Sale, Kingpin Defeated, Capitalist Win, Matrix Wickermen, Lv. 5 Nothing, I LOVE These Mobs, Hunned Times a Day, Space Party!!!, Hibernating Gamer, Soda Poisoning, The True Pirate, The True Emperor, Maple Logger, No Krakens? ):, Maroon Warship, POiNG Champion, Chemical Collector, Perfect Trade Deal, Legendary Flag, Legendary Wormhole, Sneaky Stealing, Hug from Timmy, That's MY Crown, Leet Lanterns, Doctor Repellant, Cob Enjoyer, Legumulucky, Yellow Belt, Penta Defence
 
 ## Cosmetics with stats
 - Hats on rack: 41

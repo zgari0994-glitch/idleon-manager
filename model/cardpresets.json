@@ -9,12 +9,12 @@
  ],
  "passive_tagged": 57,
  "skill_totals": {
-  "Mining": 633,
-  "Chopping": 587,
-  "Fishing": 395,
-  "Catching": 504,
-  "Trapping": 703,
-  "Worship": 983
+  "Mining": 670,
+  "Chopping": 632,
+  "Fishing": 441,
+  "Catching": 545,
+  "Trapping": 709,
+  "Worship": 997
  },
  "chars": {
   "Autiszemo": {
@@ -223,7 +223,7 @@
     []
    ],
    "afk": [
-    "Dedotated Ram",
+    "Pirate Underling",
     "FIGHTING"
    ],
    "equipped_now": [
@@ -414,8 +414,8 @@
      "w5a1",
      "w6a5",
      "w4c1",
-     "Boss6B",
-     "mini6a"
+     "mini6a",
+     "Boss6B"
     ],
     [
      "Boss4B",
@@ -467,8 +467,8 @@
     "w5a1",
     "w6a5",
     "w4c1",
-    "Boss6B",
-    "mini6a"
+    "mini6a",
+    "Boss6B"
    ]
   },
   "Autisticles": {
@@ -648,18 +648,17 @@
     []
    ],
    "afk": [
-    "Green Mushroom",
-    "FIGHTING"
+    "Decaying Crevasse",
+    "SPELUNKING"
    ],
    "equipped_now": [
-    "mini6a",
-    "poopD",
-    "Boss6C",
-    "w5a1",
-    "w6a5",
-    "w4c1",
-    "Boss6B",
-    "wolfB"
+    "wolfA",
+    "CritterCard7",
+    "w6b3",
+    "Boss2B",
+    "babaHour",
+    "loveEvent2",
+    "Boss4B"
    ]
   },
   "Autistastic": {
@@ -804,10 +803,10 @@
       "Chaotic Troll",
       "Equinox Broadbass",
       "Shellslug",
+      "Buried Church",
       "Fearful Tunnel",
       "Noble Clam",
       "Amarok",
-      "Mama Troll",
       "Decaying Crevasse"
      ],
      "target": null,
@@ -815,11 +814,11 @@
       "Chaotic Troll (All Skill Efficiency, 7 star)",
       "Equinox Broadbass (Spelunking Efficiency, 2 star)",
       "Shellslug (Spelunking AFK Gain, 1 star)",
+      "Buried Church (Spelunking AFK Gain, 1 star)",
       "Fearful Tunnel (Spelunking EXP, 5 star)",
       "Noble Clam (Spelunking EXP, 1 star)",
       "Amarok (Skill AFK gain rate, 6 star)",
-      "Mama Troll (Skill AFK gain rate, 5 star)",
-      "Decaying Crevasse (Spelunking Efficiency, 3 star)"
+      "Decaying Crevasse (Spelunking Efficiency, 4 star)"
      ],
      "doubled": [
       1,
@@ -941,11 +940,11 @@
      "Boss4B",
      "w7a1",
      "w7a4",
-     "SpelunkingCard0",
+     "SpelunkingCard1",
      "w7a6",
      "wolfA",
      "CritterCard7",
-     "SpelunkingCard1"
+     "SpelunkingCard0"
     ],
     [
      "demonP",
@@ -957,10 +956,19 @@
      "speaker",
      "poopSmall"
     ],
-    []
+    [
+     "demonP",
+     "Boss5C",
+     "mini3a",
+     "babayaga",
+     "mushP",
+     "acorn",
+     "xmasEvent2",
+     "poopSmall"
+    ]
    ],
    "afk": [
-    "Ancient Golem",
+    "Minichief Spirit",
     "FIGHTING"
    ],
    "equipped_now": [
@@ -1151,18 +1159,17 @@
     []
    ],
    "afk": [
-    "Cryosnake",
-    "FIGHTING"
+    "Decaying Crevasse",
+    "SPELUNKING"
    ],
    "equipped_now": [
-    "Boss6A",
-    "w6d2",
-    "babaMummy",
-    "w5a3",
-    "Crystal0",
-    "speaker",
-    "xmasEvent",
-    "demonP"
+    "wolfA",
+    "CritterCard7",
+    "w6b3",
+    "Boss2B",
+    "babaHour",
+    "loveEvent2",
+    "Boss4B"
    ]
   },
   "Autistacular": {
@@ -1343,7 +1350,7 @@
     []
    ],
    "afk": [
-    "Thermister",
+    "Green Mushroom",
     "FIGHTING"
    ],
    "equipped_now": [
@@ -1526,18 +1533,17 @@
     []
    ],
    "afk": [
-    "Justice",
-    "Paying_Respect"
+    "Laboratory",
+    "LABORATORY"
    ],
    "equipped_now": [
-    "wolfB",
-    "mini6a",
-    "poopD",
-    "Boss6C",
-    "w5a1",
-    "w6a5",
-    "w4c1",
-    "Boss6B"
+    "Boss4B",
+    "wolfA",
+    "CritterCard7",
+    "w6b3",
+    "Boss2B",
+    "babaHour",
+    "loveEvent2"
    ]
   },
   "Autistomatic": {
@@ -1671,21 +1677,21 @@
       "Decaying Crevasse",
       "Equinox Broadbass",
       "Shellslug",
+      "Buried Church",
       "Fearful Tunnel",
       "Noble Clam",
-      "Amarok",
-      "Mama Troll"
+      "Amarok"
      ],
      "target": null,
      "detail": [
       "Chaotic Troll (All Skill Efficiency, 7 star)",
-      "Decaying Crevasse (Spelunking Efficiency, 3 star)",
+      "Decaying Crevasse (Spelunking Efficiency, 4 star)",
       "Equinox Broadbass (Spelunking Efficiency, 2 star)",
       "Shellslug (Spelunking AFK Gain, 1 star)",
+      "Buried Church (Spelunking AFK Gain, 1 star)",
       "Fearful Tunnel (Spelunking EXP, 5 star)",
       "Noble Clam (Spelunking EXP, 1 star)",
-      "Amarok (Skill AFK gain rate, 6 star)",
-      "Mama Troll (Skill AFK gain rate, 5 star)"
+      "Amarok (Skill AFK gain rate, 6 star)"
      ],
      "doubled": [],
      "set": "Easy Resources",
@@ -1787,7 +1793,7 @@
     []
    ],
    "afk": [
-    "Fearful Tunnel",
+    "Decaying Crevasse",
     "SPELUNKING"
    ],
    "equipped_now": [
@@ -2190,16 +2196,18 @@
     []
    ],
    "afk": [
-    "Sir Stache",
+    "Sheepie",
     "FIGHTING"
    ],
    "equipped_now": [
-    "Boss4B",
-    "mini4a",
-    "Boss2B",
-    "CritterCard7",
-    "w6b3",
-    "wolfA"
+    "wolfB",
+    "mini6a",
+    "poopD",
+    "Boss6C",
+    "w5a1",
+    "w6a5",
+    "w4c1",
+    "Boss6B"
    ]
   },
   "Autistachio": {
@@ -2371,7 +2379,7 @@
     []
    ],
    "afk": [
-    "Bravery",
+    "Wisdom",
     "Paying_Respect"
    ],
    "equipped_now": [

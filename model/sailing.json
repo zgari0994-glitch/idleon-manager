@@ -1,6 +1,6 @@
 {
- "snapshot": "20261120T2035",
- "k_calibration": 1.1583,
+ "snapshot": "20261121T1741",
+ "k_calibration": 1.4256,
  "min_travel_min": 32,
  "base_odds": 3281.09,
  "odds_multi_group": 248.28,
@@ -10,13 +10,12 @@
   "Isolated Woods": 1,
   "Beachy Coast": 1,
   "Rocky Peaks": 1,
-  "Stormy North": 1,
   "Candied Island": 2,
   "Snowy South": 1,
   "Cloudy Quay": 2,
   "The Edge": 4,
-  "Isle of Note": 3,
-  "Dungeon Cove": 2
+  "Dungeon Cove": 3,
+  "Isle of Note": 3
  },
  "speed_swaps": [
   {
@@ -54,22 +53,22 @@
    "ballot_trip_h": 0.78
   }
  },
- "speed_multi": 9158.11,
+ "speed_multi": 14279.89,
  "speed_groups": {
   "speed_multi_a": 1.95,
-  "speed_multi_b": 3.32,
-  "speed_multi_c": 4.87,
+  "speed_multi_b": 5.0,
+  "speed_multi_c": 4.93,
   "speed_multi_d": 1.0,
-  "speed_multi_e": 51.87,
+  "speed_multi_e": 53.05,
   "speed_multi_f": 5.6
  },
  "purrmep_linked": null,
  "ballot": {
   "index": 24,
   "base_value": 50,
-  "value": 101.0,
+  "value": 102.0,
   "image": "ballot-24",
-  "description": "Boosts Sailing Captain EXP gain and Sailing Speed by 2.010x",
+  "description": "Boosts Sailing Captain EXP gain and Sailing Speed by 2.020x",
   "active": false,
   "_status_known": true
  },
@@ -79,8 +78,8 @@
    "captain": "F",
    "from": "The Edge",
    "to": "World's End",
-   "pct_from": 0.446,
-   "pct_to": 0.232,
+   "pct_from": 0.548,
+   "pct_to": 0.285,
    "trip_from_h": 1.1,
    "we": true
   },
@@ -89,8 +88,8 @@
    "captain": "I",
    "from": "World's End",
    "to": "World's End",
-   "pct_from": 0.232,
-   "pct_to": 0.232,
+   "pct_from": 0.285,
+   "pct_to": 0.285,
    "trip_from_h": 1.6,
    "we": true
   },
@@ -100,7 +99,7 @@
    "from": "Crystal Enclave",
    "to": "Isle of Note",
    "pct_from": 0.001,
-   "pct_to": 0.404,
+   "pct_to": 0.249,
    "trip_from_h": 0.5,
    "we": false
   },
@@ -110,7 +109,7 @@
    "from": "Crystal Enclave",
    "to": "Dungeon Cove",
    "pct_from": 0.001,
-   "pct_to": 0.271,
+   "pct_to": 0.333,
    "trip_from_h": 0.5,
    "we": false
   },
@@ -120,7 +119,7 @@
    "from": "Crystal Enclave",
    "to": "Dungeon Cove",
    "pct_from": 0.001,
-   "pct_to": 0.26,
+   "pct_to": 0.32,
    "trip_from_h": 0.5,
    "we": false
   },
@@ -128,9 +127,9 @@
    "boat": 19,
    "captain": "R",
    "from": "Petulent Garage",
-   "to": "Candied Island",
-   "pct_from": 0.0,
-   "pct_to": 0.816,
+   "to": "Dungeon Cove",
+   "pct_from": 0.001,
+   "pct_to": 0.31,
    "trip_from_h": 0.5,
    "we": false
   },
@@ -140,7 +139,17 @@
    "from": "Petulent Garage",
    "to": "Candied Island",
    "pct_from": 0.0,
-   "pct_to": 0.806,
+   "pct_to": 0.991,
+   "trip_from_h": 0.5,
+   "we": false
+  },
+  {
+   "boat": 5,
+   "captain": "E",
+   "from": "Stormy North",
+   "to": "Candied Island",
+   "pct_from": 0.003,
+   "pct_to": 0.894,
    "trip_from_h": 0.5,
    "we": false
   },
@@ -149,8 +158,8 @@
    "captain": "P",
    "from": "World's End",
    "to": "Rocky Peaks",
-   "pct_from": 0.232,
-   "pct_to": 1.587,
+   "pct_from": 0.285,
+   "pct_to": 1.953,
    "trip_from_h": 23.5,
    "we": false
   },
@@ -159,8 +168,8 @@
    "captain": "M",
    "from": "Stormy North",
    "to": "Isolated Woods",
-   "pct_from": 1.36,
-   "pct_to": 30.579,
+   "pct_from": 0.003,
+   "pct_to": 37.478,
    "trip_from_h": 0.5,
    "we": false
   },
@@ -169,8 +178,8 @@
    "captain": "S",
    "from": "World's End",
    "to": "Beachy Coast",
-   "pct_from": 0.232,
-   "pct_to": 4.698,
+   "pct_from": 0.285,
+   "pct_to": 5.766,
    "trip_from_h": 5.6,
    "we": false
   }
@@ -179,74 +188,81 @@
   {
    "island": "Beachy Coast",
    "targets": [
-    "Silver Ankh Omnipotent->Transcendent (1 in 26,312 chests)"
+    "Silver Ankh Omnipotent->Transcendent (1 in 21,379 chests)"
    ]
   },
   {
    "island": "Rocky Peaks",
    "targets": [
-    "Arrowhead Omnipotent->Transcendent (1 in 57,887 chests)",
-    "10 AD Tablet Omnipotent->Transcendent (1 in 57,887 chests)"
-   ]
-  },
-  {
-   "island": "Stormy North",
-   "targets": [
-    "Amberite Omnipotent->Transcendent (1 in 73,675 chests)",
-    "Billcye Tri Omnipotent->Transcendent (1 in 73,675 chests)"
+    "Arrowhead Omnipotent->Transcendent (1 in 47,033 chests)",
+    "10 AD Tablet Omnipotent->Transcendent (1 in 47,033 chests)"
    ]
   },
   {
    "island": "Snowy South",
    "targets": [
-    "Frost Relic Omnipotent->Transcendent (1 in 89,462 chests)"
+    "Frost Relic Omnipotent->Transcendent (1 in 72,688 chests)"
    ]
   },
   {
    "island": "The Edge",
    "targets": [
-    "The True Lantern Sovereign->Omnipotent (1 in 418,526 chests)"
+    "The True Lantern Sovereign->Omnipotent (1 in 340,051 chests)"
    ]
   },
   {
    "island": "World's End",
    "targets": [
-    "Obsidian Undiscovered->Base (1 in 6,578 chests)",
-    "Ender Pearl Undiscovered->Base (1 in 26,312 chests)"
+    "Obsidian Undiscovered->Base (1 in 5,345 chests)",
+    "Ender Pearl Undiscovered->Base (1 in 21,379 chests)"
+   ]
+  },
+  {
+   "island": "Isle of Note",
+   "targets": [
+    "Opera Mask Sovereign->Omnipotent (1 in 278,352 chests)"
    ]
   },
   {
    "island": "Safari Island",
    "targets": [
-    "Moai Head Omnipotent->Transcendent (1 in 10,525 chests)",
-    "Maneki Kat Omnipotent->Transcendent (1 in 10,525 chests)",
-    "Ruble Cuble Omnipotent->Transcendent (1 in 10,525 chests)",
-    "Fauxory Tusk Omnipotent->Transcendent (1 in 10,525 chests)"
+    "Moai Head Omnipotent->Transcendent (1 in 8,552 chests)",
+    "Maneki Kat Omnipotent->Transcendent (1 in 8,552 chests)",
+    "Ruble Cuble Omnipotent->Transcendent (1 in 8,552 chests)",
+    "Fauxory Tusk Omnipotent->Transcendent (1 in 8,552 chests)"
    ]
   },
   {
    "island": "Toxic Bay Inc",
    "targets": [
-    "Causticolumn Sovereign->Omnipotent (1 in 23,208 chests)",
-    "Jade Rock Sovereign->Omnipotent (1 in 23,208 chests)"
+    "Causticolumn Sovereign->Omnipotent (1 in 18,856 chests)",
+    "Jade Rock Sovereign->Omnipotent (1 in 18,856 chests)"
+   ]
+  },
+  {
+   "island": "Stormy North",
+   "targets": [
+    "Triagulon Omnipotent->Transcendent (1 in 59,861 chests)",
+    "Billcye Tri Omnipotent->Transcendent (1 in 59,861 chests)",
+    "Amberite Transcendent->Verisimilitude (1 in 8,658,413,616,145 chests)"
    ]
   },
   {
    "island": "Fungi Meadows",
    "targets": [
-    "Fury Relic Sovereign->Omnipotent (1 in 76,569 chests)"
+    "Fury Relic Sovereign->Omnipotent (1 in 62,212 chests)"
    ]
   },
   {
    "island": "Crystal Enclave",
    "targets": [
-    "Crystal Steak Sovereign->Omnipotent (1 in 213,447 chests)"
+    "Crystal Steak Sovereign->Omnipotent (1 in 173,425 chests)"
    ]
   },
   {
    "island": "Petulent Garage",
    "targets": [
-    "Trilobite Rock Sovereign->Omnipotent (1 in 274,228 chests)"
+    "Trilobite Rock Sovereign->Omnipotent (1 in 222,810 chests)"
    ]
   }
  ],
@@ -256,225 +272,205 @@
    "island": "Isolated Woods",
    "idx": 2,
    "distance": 250.0,
-   "per_chest_pct": 30.579,
+   "per_chest_pct": 37.478,
    "targets": [
     "Fun Hippoete Eldritch->Sovereign (1 in 3 chests)",
-    "Emerald Relic Sovereign->Omnipotent (1 in 53 chests)"
+    "Emerald Relic Sovereign->Omnipotent (1 in 43 chests)"
    ],
    "n_chests": [
     3,
-    53
+    43
    ],
    "cheap": [
     3,
-    53
+    43
    ]
   },
   {
    "island": "Beachy Coast",
    "idx": 1,
    "distance": 100.0,
-   "per_chest_pct": 4.698,
+   "per_chest_pct": 5.766,
    "targets": [
-    "Gold Relic Sovereign->Omnipotent (1 in 42 chests)",
-    "Genie Lamp Sovereign->Omnipotent (1 in 42 chests)",
-    "Silver Ankh Omnipotent->Transcendent (1 in 26,312 chests)"
+    "Gold Relic Sovereign->Omnipotent (1 in 34 chests)",
+    "Genie Lamp Sovereign->Omnipotent (1 in 34 chests)",
+    "Silver Ankh Omnipotent->Transcendent (1 in 21,379 chests)"
    ],
    "n_chests": [
-    42,
-    42,
-    26312
+    34,
+    34,
+    21379
    ],
    "cheap": [
-    42,
-    42
+    34,
+    34
    ]
   },
   {
    "island": "Rocky Peaks",
    "idx": 3,
    "distance": 1000.0,
-   "per_chest_pct": 1.587,
+   "per_chest_pct": 1.953,
    "targets": [
-    "Ashen Urn Sovereign->Omnipotent (1 in 63 chests)",
-    "Arrowhead Omnipotent->Transcendent (1 in 57,887 chests)",
-    "10 AD Tablet Omnipotent->Transcendent (1 in 57,887 chests)"
+    "Ashen Urn Sovereign->Omnipotent (1 in 51 chests)",
+    "Arrowhead Omnipotent->Transcendent (1 in 47,033 chests)",
+    "10 AD Tablet Omnipotent->Transcendent (1 in 47,033 chests)"
    ],
    "n_chests": [
-    63,
-    57887,
-    57887
+    51,
+    47033,
+    47033
    ],
    "cheap": [
-    63
-   ]
-  },
-  {
-   "island": "Stormy North",
-   "idx": 4,
-   "distance": 3000.0,
-   "per_chest_pct": 1.36,
-   "targets": [
-    "Triagulon Sovereign->Omnipotent (1 in 74 chests)",
-    "Amberite Omnipotent->Transcendent (1 in 73,675 chests)",
-    "Billcye Tri Omnipotent->Transcendent (1 in 73,675 chests)"
-   ],
-   "n_chests": [
-    74,
-    73675,
-    73675
-   ],
-   "cheap": [
-    74
+    51
    ]
   },
   {
    "island": "Candied Island",
    "idx": 7,
    "distance": 100000.0,
-   "per_chest_pct": 0.727,
+   "per_chest_pct": 0.894,
    "targets": [
-    "Dreamcatcher Eldritch->Sovereign (1 in 275 chests)",
-    "Gummy Orb Eldritch->Sovereign (1 in 275 chests)"
+    "Dreamcatcher Eldritch->Sovereign (1 in 223 chests)",
+    "Gummy Orb Eldritch->Sovereign (1 in 223 chests)"
    ],
    "n_chests": [
-    275,
-    275
+    223,
+    223
    ],
    "cheap": [
-    275,
-    275
+    223,
+    223
    ]
   },
   {
    "island": "Snowy South",
    "idx": 5,
    "distance": 10000.0,
-   "per_chest_pct": 0.622,
+   "per_chest_pct": 0.766,
    "targets": [
-    "Chilled Yarn Eldritch->Sovereign (1 in 161 chests)",
-    "Frost Relic Omnipotent->Transcendent (1 in 89,462 chests)"
+    "Chilled Yarn Eldritch->Sovereign (1 in 131 chests)",
+    "Frost Relic Omnipotent->Transcendent (1 in 72,688 chests)"
    ],
    "n_chests": [
-    161,
-    89462
+    131,
+    72688
    ],
    "cheap": [
-    161
+    131
    ]
   },
   {
    "island": "Cloudy Quay",
    "idx": 9,
    "distance": 1000000.0,
-   "per_chest_pct": 0.514,
+   "per_chest_pct": 0.633,
    "targets": [
-    "Cloud Urn Eldritch->Sovereign (1 in 388 chests)",
-    "Weatherbook Eldritch->Sovereign (1 in 388 chests)"
+    "Cloud Urn Eldritch->Sovereign (1 in 316 chests)",
+    "Weatherbook Eldritch->Sovereign (1 in 316 chests)"
    ],
    "n_chests": [
-    388,
-    388
+    316,
+    316
    ],
    "cheap": [
-    388,
-    388
+    316,
+    316
    ]
   },
   {
    "island": "The Edge",
    "idx": 14,
    "distance": 100000000.0,
-   "per_chest_pct": 0.446,
+   "per_chest_pct": 0.548,
    "targets": [
-    "The Onyx Lantern Eldritch->Sovereign (1 in 673 chests)",
-    "The Shim Lantern Eldritch->Sovereign (1 in 673 chests)",
-    "The Winz Lantern Eldritch->Sovereign (1 in 673 chests)",
-    "The True Lantern Sovereign->Omnipotent (1 in 418,526 chests)"
+    "The Onyx Lantern Eldritch->Sovereign (1 in 546 chests)",
+    "The Shim Lantern Eldritch->Sovereign (1 in 546 chests)",
+    "The Winz Lantern Eldritch->Sovereign (1 in 546 chests)",
+    "The True Lantern Sovereign->Omnipotent (1 in 340,051 chests)"
    ],
    "n_chests": [
-    673,
-    673,
-    673,
-    418526
+    546,
+    546,
+    546,
+    340051
    ],
    "cheap": [
-    673,
-    673,
-    673
-   ]
-  },
-  {
-   "island": "Isle of Note",
-   "idx": 13,
-   "distance": 40000000.0,
-   "per_chest_pct": 0.325,
-   "targets": [
-    "Opera Mask Eldritch->Sovereign (1 in 616 chests)",
-    "Socrates Eldritch->Sovereign (1 in 616 chests)"
-   ],
-   "n_chests": [
-    616,
-    616
-   ],
-   "cheap": [
-    616,
-    616
+    546,
+    546,
+    546
    ]
   },
   {
    "island": "World's End",
    "idx": 15,
    "distance": 5000000000.0,
-   "per_chest_pct": 0.232,
+   "per_chest_pct": 0.285,
    "targets": [
-    "Deathskull Eldritch->Sovereign (1 in 729 chests)",
-    "Pointagon Undiscovered->Base (1 in 1,316 chests)",
-    "Obsidian Undiscovered->Base (1 in 6,578 chests)",
-    "Ender Pearl Undiscovered->Base (1 in 26,312 chests)"
+    "Deathskull Eldritch->Sovereign (1 in 593 chests)",
+    "Pointagon Undiscovered->Base (1 in 1,069 chests)",
+    "Obsidian Undiscovered->Base (1 in 5,345 chests)",
+    "Ender Pearl Undiscovered->Base (1 in 21,379 chests)"
    ],
    "n_chests": [
-    729,
-    1316,
-    6578,
-    26312
+    593,
+    1069,
+    5345,
+    21379
    ],
    "cheap": [
-    729,
-    1316
+    593,
+    1069
    ]
   },
   {
    "island": "Dungeon Cove",
    "idx": 10,
    "distance": 2000000.0,
-   "per_chest_pct": 0.225,
+   "per_chest_pct": 0.276,
    "targets": [
-    "Giants Eye Eldritch->Sovereign (1 in 445 chests)"
+    "Giants Eye Eldritch->Sovereign (1 in 362 chests)"
    ],
    "n_chests": [
-    445
+    362
    ],
    "cheap": [
-    445
+    362
+   ]
+  },
+  {
+   "island": "Isle of Note",
+   "idx": 13,
+   "distance": 40000000.0,
+   "per_chest_pct": 0.2,
+   "targets": [
+    "Socrates Eldritch->Sovereign (1 in 500 chests)",
+    "Opera Mask Sovereign->Omnipotent (1 in 278,352 chests)"
+   ],
+   "n_chests": [
+    500,
+    278352
+   ],
+   "cheap": [
+    500
    ]
   },
   {
    "island": "Safari Island",
    "idx": 0,
    "distance": 25.0,
-   "per_chest_pct": 0.038,
+   "per_chest_pct": 0.047,
    "targets": [
-    "Moai Head Omnipotent->Transcendent (1 in 10,525 chests)",
-    "Maneki Kat Omnipotent->Transcendent (1 in 10,525 chests)",
-    "Ruble Cuble Omnipotent->Transcendent (1 in 10,525 chests)",
-    "Fauxory Tusk Omnipotent->Transcendent (1 in 10,525 chests)"
+    "Moai Head Omnipotent->Transcendent (1 in 8,552 chests)",
+    "Maneki Kat Omnipotent->Transcendent (1 in 8,552 chests)",
+    "Ruble Cuble Omnipotent->Transcendent (1 in 8,552 chests)",
+    "Fauxory Tusk Omnipotent->Transcendent (1 in 8,552 chests)"
    ],
    "n_chests": [
-    10525,
-    10525,
-    10525,
-    10525
+    8552,
+    8552,
+    8552,
+    8552
    ],
    "cheap": []
   },
@@ -482,14 +478,31 @@
    "island": "Toxic Bay Inc",
    "idx": 6,
    "distance": 25000.0,
-   "per_chest_pct": 0.009,
+   "per_chest_pct": 0.011,
    "targets": [
-    "Causticolumn Sovereign->Omnipotent (1 in 23,208 chests)",
-    "Jade Rock Sovereign->Omnipotent (1 in 23,208 chests)"
+    "Causticolumn Sovereign->Omnipotent (1 in 18,856 chests)",
+    "Jade Rock Sovereign->Omnipotent (1 in 18,856 chests)"
    ],
    "n_chests": [
-    23208,
-    23208
+    18856,
+    18856
+   ],
+   "cheap": []
+  },
+  {
+   "island": "Stormy North",
+   "idx": 4,
+   "distance": 3000.0,
+   "per_chest_pct": 0.003,
+   "targets": [
+    "Triagulon Omnipotent->Transcendent (1 in 59,861 chests)",
+    "Billcye Tri Omnipotent->Transcendent (1 in 59,861 chests)",
+    "Amberite Transcendent->Verisimilitude (1 in 8,658,413,616,145 chests)"
+   ],
+   "n_chests": [
+    59861,
+    59861,
+    8658413616145
    ],
    "cheap": []
   },
@@ -497,12 +510,12 @@
    "island": "Fungi Meadows",
    "idx": 8,
    "distance": 300000.0,
-   "per_chest_pct": 0.001,
+   "per_chest_pct": 0.002,
    "targets": [
-    "Fury Relic Sovereign->Omnipotent (1 in 76,569 chests)"
+    "Fury Relic Sovereign->Omnipotent (1 in 62,212 chests)"
    ],
    "n_chests": [
-    76569
+    62212
    ],
    "cheap": []
   },
@@ -510,12 +523,12 @@
    "island": "Crystal Enclave",
    "idx": 11,
    "distance": 5000000.0,
-   "per_chest_pct": 0.0,
+   "per_chest_pct": 0.001,
    "targets": [
-    "Crystal Steak Sovereign->Omnipotent (1 in 213,447 chests)"
+    "Crystal Steak Sovereign->Omnipotent (1 in 173,425 chests)"
    ],
    "n_chests": [
-    213447
+    173425
    ],
    "cheap": []
   },
@@ -525,10 +538,10 @@
    "distance": 15000000.0,
    "per_chest_pct": 0.0,
    "targets": [
-    "Trilobite Rock Sovereign->Omnipotent (1 in 274,228 chests)"
+    "Trilobite Rock Sovereign->Omnipotent (1 in 222,810 chests)"
    ],
    "n_chests": [
-    274228
+    222810
    ],
    "cheap": []
   }
@@ -538,9 +551,9 @@
    "boat": 1,
    "captain": "A",
    "now": "Cloudy Quay",
-   "now_pct": 0.561,
+   "now_pct": 0.69,
    "best": "Isolated Woods",
-   "best_pct": 33.278,
+   "best_pct": 40.77,
    "move": true,
    "speed_buy": [
     126,
@@ -554,15 +567,15 @@
    "loot_lv": 126,
    "trip_h": 0.5333333333333333,
    "go": "Cloudy Quay",
-   "go_pct": 0.561
+   "go_pct": 0.69
   },
   {
    "boat": 2,
    "captain": "B",
    "now": "Cloudy Quay",
-   "now_pct": 0.514,
+   "now_pct": 0.633,
    "best": "Isolated Woods",
-   "best_pct": 30.579,
+   "best_pct": 37.478,
    "move": true,
    "speed_buy": [
     77,
@@ -576,7 +589,7 @@
    "loot_lv": 84,
    "trip_h": 0.5333333333333333,
    "go": "Cloudy Quay",
-   "go_pct": 0.514
+   "go_pct": 0.633
   },
   {
    "boat": 3,
@@ -584,7 +597,7 @@
    "now": "Petulent Garage",
    "now_pct": 0.0,
    "best": "Isolated Woods",
-   "best_pct": 33.844,
+   "best_pct": 41.46,
    "move": true,
    "speed_buy": [
     84,
@@ -598,15 +611,15 @@
    "loot_lv": 84,
    "trip_h": 0.5333333333333333,
    "go": "Candied Island",
-   "go_pct": 0.806
+   "go_pct": 0.991
   },
   {
    "boat": 4,
    "captain": "D",
    "now": "The Edge",
-   "now_pct": 0.446,
+   "now_pct": 0.548,
    "best": "Isolated Woods",
-   "best_pct": 30.579,
+   "best_pct": 37.478,
    "move": true,
    "speed_buy": null,
    "loot_buy": [
@@ -617,15 +630,15 @@
    "loot_lv": 84,
    "trip_h": 0.5333333333333333,
    "go": "The Edge",
-   "go_pct": 0.446
+   "go_pct": 0.548
   },
   {
    "boat": 5,
    "captain": "E",
    "now": "Stormy North",
-   "now_pct": 1.36,
+   "now_pct": 0.003,
    "best": "Isolated Woods",
-   "best_pct": 30.579,
+   "best_pct": 37.478,
    "move": true,
    "speed_buy": null,
    "loot_buy": [
@@ -635,16 +648,16 @@
    "speed_lv": 64,
    "loot_lv": 77,
    "trip_h": 0.5333333333333333,
-   "go": "Stormy North",
-   "go_pct": 1.36
+   "go": "Candied Island",
+   "go_pct": 0.894
   },
   {
    "boat": 6,
    "captain": "N",
    "now": "The Edge",
-   "now_pct": 0.446,
+   "now_pct": 0.548,
    "best": "Isolated Woods",
-   "best_pct": 30.579,
+   "best_pct": 37.478,
    "move": true,
    "speed_buy": [
     63,
@@ -655,15 +668,15 @@
    "loot_lv": 98,
    "trip_h": 0.5333333333333333,
    "go": "The Edge",
-   "go_pct": 0.543
+   "go_pct": 0.668
   },
   {
    "boat": 7,
    "captain": "G",
    "now": "Isle of Note",
-   "now_pct": 0.325,
+   "now_pct": 0.2,
    "best": "Isolated Woods",
-   "best_pct": 30.579,
+   "best_pct": 37.478,
    "move": true,
    "speed_buy": null,
    "loot_buy": null,
@@ -671,15 +684,15 @@
    "loot_lv": 74,
    "trip_h": 0.5333333333333333,
    "go": "Isle of Note",
-   "go_pct": 0.325
+   "go_pct": 0.2
   },
   {
    "boat": 8,
    "captain": "H",
    "now": "Isle of Note",
-   "now_pct": 0.325,
+   "now_pct": 0.2,
    "best": "Isolated Woods",
-   "best_pct": 30.579,
+   "best_pct": 37.478,
    "move": true,
    "speed_buy": null,
    "loot_buy": null,
@@ -687,15 +700,15 @@
    "loot_lv": 110,
    "trip_h": 0.5333333333333333,
    "go": "Isle of Note",
-   "go_pct": 0.325
+   "go_pct": 0.2
   },
   {
    "boat": 9,
    "captain": "P",
    "now": "World's End",
-   "now_pct": 0.232,
+   "now_pct": 0.285,
    "best": "Isolated Woods",
-   "best_pct": 30.579,
+   "best_pct": 37.478,
    "move": true,
    "speed_buy": null,
    "loot_buy": [
@@ -706,7 +719,7 @@
    "loot_lv": 83,
    "trip_h": 23.474178403755868,
    "go": "Rocky Peaks",
-   "go_pct": 1.587
+   "go_pct": 1.953
   },
   {
    "boat": 10,
@@ -714,7 +727,7 @@
    "now": "Crystal Enclave",
    "now_pct": 0.001,
    "best": "Isolated Woods",
-   "best_pct": 35.291,
+   "best_pct": 43.224,
    "move": true,
    "speed_buy": [
     77,
@@ -728,15 +741,15 @@
    "loot_lv": 109,
    "trip_h": 0.5333333333333333,
    "go": "Dungeon Cove",
-   "go_pct": 0.26
+   "go_pct": 0.32
   },
   {
    "boat": 11,
    "captain": "K",
    "now": "The Edge",
-   "now_pct": 0.446,
+   "now_pct": 0.548,
    "best": "Isolated Woods",
-   "best_pct": 30.579,
+   "best_pct": 37.478,
    "move": true,
    "speed_buy": null,
    "loot_buy": [
@@ -747,15 +760,15 @@
    "loot_lv": 141,
    "trip_h": 0.5333333333333333,
    "go": "The Edge",
-   "go_pct": 0.446
+   "go_pct": 0.548
   },
   {
    "boat": 13,
    "captain": "M",
    "now": "Stormy North",
-   "now_pct": 1.36,
+   "now_pct": 0.003,
    "best": "Isolated Woods",
-   "best_pct": 30.579,
+   "best_pct": 37.478,
    "move": true,
    "speed_buy": null,
    "loot_buy": [
@@ -766,7 +779,7 @@
    "loot_lv": 145,
    "trip_h": 0.5333333333333333,
    "go": "Isolated Woods",
-   "go_pct": 30.579
+   "go_pct": 37.478
   },
   {
    "boat": 15,
@@ -774,7 +787,7 @@
    "now": "Crystal Enclave",
    "now_pct": 0.001,
    "best": "Isolated Woods",
-   "best_pct": 36.735,
+   "best_pct": 44.983,
    "move": true,
    "speed_buy": [
     70,
@@ -785,15 +798,15 @@
    "loot_lv": 102,
    "trip_h": 0.5333333333333333,
    "go": "Dungeon Cove",
-   "go_pct": 0.271
+   "go_pct": 0.333
   },
   {
    "boat": 16,
    "captain": "L",
    "now": "The Edge",
-   "now_pct": 0.446,
+   "now_pct": 0.548,
    "best": "Isolated Woods",
-   "best_pct": 30.579,
+   "best_pct": 37.478,
    "move": true,
    "speed_buy": null,
    "loot_buy": [
@@ -804,15 +817,15 @@
    "loot_lv": 73,
    "trip_h": 0.5333333333333333,
    "go": "The Edge",
-   "go_pct": 0.446
+   "go_pct": 0.548
   },
   {
    "boat": 17,
    "captain": "T",
    "now": "Snowy South",
-   "now_pct": 0.708,
+   "now_pct": 0.871,
    "best": "Isolated Woods",
-   "best_pct": 34.704,
+   "best_pct": 42.508,
    "move": true,
    "speed_buy": [
     7,
@@ -826,7 +839,7 @@
    "loot_lv": 94,
    "trip_h": 0.5333333333333333,
    "go": "Snowy South",
-   "go_pct": 0.708
+   "go_pct": 0.871
   },
   {
    "boat": 18,
@@ -834,7 +847,7 @@
    "now": "Crystal Enclave",
    "now_pct": 0.001,
    "best": "Isolated Woods",
-   "best_pct": 37.884,
+   "best_pct": 46.383,
    "move": true,
    "speed_buy": [
     84,
@@ -848,15 +861,15 @@
    "loot_lv": 117,
    "trip_h": 0.5333333333333333,
    "go": "Isle of Note",
-   "go_pct": 0.404
+   "go_pct": 0.249
   },
   {
    "boat": 19,
    "captain": "R",
    "now": "Petulent Garage",
-   "now_pct": 0.0,
+   "now_pct": 0.001,
    "best": "Isolated Woods",
-   "best_pct": 34.251,
+   "best_pct": 41.957,
    "move": true,
    "speed_buy": [
     119,
@@ -869,16 +882,16 @@
    "speed_lv": 115,
    "loot_lv": 119,
    "trip_h": 0.5333333333333333,
-   "go": "Candied Island",
-   "go_pct": 0.816
+   "go": "Dungeon Cove",
+   "go_pct": 0.31
   },
   {
    "boat": 20,
    "captain": "S",
    "now": "World's End",
-   "now_pct": 0.232,
+   "now_pct": 0.285,
    "best": "Isolated Woods",
-   "best_pct": 30.579,
+   "best_pct": 37.478,
    "move": true,
    "speed_buy": [
     119,
@@ -892,7 +905,7 @@
    "loot_lv": 113,
    "trip_h": 5.63063063063063,
    "go": "Beachy Coast",
-   "go_pct": 4.698
+   "go_pct": 5.766
   }
  ],
  "captains": [
@@ -1251,18 +1264,18 @@
   {
    "name": "Amberite",
    "island": "Stormy North",
-   "form": "Omnipotent",
-   "acq": 5,
-   "next": "Transcendent",
-   "denom": 280000000.0
+   "form": "Transcendent",
+   "acq": 6,
+   "next": "Verisimilitude",
+   "denom": 4.05e+16
   },
   {
    "name": "Triagulon",
    "island": "Stormy North",
-   "form": "Sovereign",
-   "acq": 4,
-   "next": "Omnipotent",
-   "denom": 280000.0
+   "form": "Omnipotent",
+   "acq": 5,
+   "next": "Transcendent",
+   "denom": 280000000.0
   },
   {
    "name": "Billcye Tri",
@@ -1371,10 +1384,10 @@
   {
    "name": "Opera Mask",
    "island": "Isle of Note",
-   "form": "Eldritch",
-   "acq": 3,
-   "next": "Sovereign",
-   "denom": 2340000.0
+   "form": "Sovereign",
+   "acq": 4,
+   "next": "Omnipotent",
+   "denom": 1302000000.0
   },
   {
    "name": "Socrates",

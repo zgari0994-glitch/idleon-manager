@@ -36,6 +36,11 @@
    "upgraded": false
   },
   {
+   "name": "Slime",
+   "effect": "+25% Golden Balls earned in Arcade for Upgrades",
+   "upgraded": false
+  },
+  {
    "name": "Sandy Pot",
    "effect": "+15 Base All Stats (STR/AGI/WIS/LUK)",
    "upgraded": false
@@ -102,8 +107,8 @@
   },
   {
    "name": "Quenchie",
-   "effect": "+15% Drop Rate",
-   "upgraded": false
+   "effect": "+20% Drop Rate",
+   "upgraded": true
   },
   {
    "name": "Green Mushroom",
@@ -137,8 +142,8 @@
   },
   {
    "name": "Squirrel",
-   "effect": "1.50x Kills for Opening Portals and Deathnote",
-   "upgraded": false
+   "effect": "1.75x Kills for Opening Portals and Deathnote",
+   "upgraded": true
   },
   {
    "name": "Mr Pig",
@@ -267,7 +272,6 @@
   }
  ],
  "companions_missing": [
-  "Slime",
   "Glunko Supreme",
   "Wild Boar",
   "Jellofish",
@@ -1186,7 +1190,7 @@
   },
   {
    "name": "Extended Database",
-   "lv": 0,
+   "lv": 3,
    "max": 3,
    "effect": "+{ Max LV for 5th column of Farming Land Rank Database"
   },
@@ -1264,7 +1268,7 @@
   },
   {
    "name": "Thanatos's Teachings",
-   "lv": 0,
+   "lv": 2,
    "max": 2,
    "effect": "+{% extra kills, for opening portals and Deathnote. This bonus is additive, not a multiplier."
   },
@@ -1288,7 +1292,7 @@
   },
   {
    "name": "Skillium Fancyson",
-   "lv": 0,
+   "lv": 4,
    "max": 4,
    "effect": "}x higher EXP gain for all skills, except Research and W7 Skill 3!"
   },
@@ -1306,13 +1310,13 @@
   },
   {
    "name": "Daily Shopping Spree",
-   "lv": 0,
+   "lv": 3,
    "max": 3,
    "effect": "The first { upgrades you buy each day for Masterclasses are 80% cheaper"
   },
   {
    "name": "May the Best Man Win",
-   "lv": 0,
+   "lv": 1,
    "max": 1,
    "effect": "The Multi Meritocracy gives a +{% higher multiplier for the winning bonus of the week"
   },
@@ -1324,7 +1328,7 @@
   },
   {
    "name": "Furry Friends Forever",
-   "lv": 0,
+   "lv": 2,
    "max": 2,
    "effect": "The 'rest-of-the-game' bonuses from your friends Orion and Poppy are all }x bigger"
   },
@@ -1409,6 +1413,26 @@
  ],
  "research": [
   {
+   "name": "Cellular Warfare",
+   "lv": 4,
+   "effect": "Multiplies all damage dealt by your cells during operations by }x<br>A true operator must consider the indirect bloodcell gain..."
+  },
+  {
+   "name": "Daily Operating Procedure",
+   "lv": 1,
+   "effect": "Gives you +| more operations to start every day at the Jelly Operator game!"
+  },
+  {
+   "name": "Jelly Operator Linguistics",
+   "lv": 1,
+   "effect": "You can now speak to the Jelly found in the Jellofish map to play the Jelly Operator game!<br>Also, }x more Bloodcells gained from operations!"
+  },
+  {
+   "name": "Shakin' It",
+   "lv": 1,
+   "effect": "Every day, you get another +| extra uses for ALL your shakers at the Sushi Station!<br>And +{% chance for free use when using Shakers!"
+  },
+  {
    "name": "Sushi Station Linguistics",
    "lv": 3,
    "effect": "You can now speak to the knife found in the map past Glimbo to play the Sushi Station game!<br>Also, }x more Bucks gained from your Sushi!"
@@ -1489,6 +1513,11 @@
    "effect": "Further increases your Research AFK Gains rate by +{%, in your unending quest for 100%"
   },
   {
+   "name": "Kaleidoscope",
+   "lv": 1,
+   "effect": "Gives +| Kaleidoscopes to use for Observations! Also, +{% Kaleidoscope effect!"
+  },
+  {
    "name": "Polymer Refinery",
    "lv": 2,
    "effect": "Unlocks a new tab in the Refinery, POLYMERIZATION! Also, +{% faster refinery cycles for ALL tabs!"
@@ -1517,38 +1546,38 @@
   },
   {
    "class": "Warrior",
-   "level": 835,
+   "level": 847,
    "value": null
   },
   {
    "class": "Barbarian",
-   "level": 833,
+   "level": 847,
    "value": null
   },
   {
    "class": "Squire",
-   "level": 835,
+   "level": 837,
    "value": null
   },
   {
    "class": "Blood Berserker",
-   "level": 833,
+   "level": 847,
    "value": null
   },
   {
    "class": "Death Bringer",
-   "level": 833,
+   "level": 847,
    "value": null
   },
   {
    "class": "Divine Knight",
-   "level": 835,
+   "level": 837,
    "value": null
   },
   {
    "class": "Royal Guardian",
-   "level": 835,
-   "value": 4.6879150066401065
+   "level": 837,
+   "value": 4.694960212201591
   },
   {
    "class": "Archer",
@@ -1582,7 +1611,7 @@
   },
   {
    "class": "Mage",
-   "level": 853,
+   "level": 874,
    "value": null
   },
   {
@@ -1592,8 +1621,8 @@
   },
   {
    "class": "Shaman",
-   "level": 853,
-   "value": 1.3567099567099568
+   "level": 874,
+   "value": 1.3576719576719576
   },
   {
    "class": "Elemental Sorcerer",
@@ -1602,12 +1631,12 @@
   },
   {
    "class": "Bubonic Conjuror",
-   "level": 853,
+   "level": 874,
    "value": null
   },
   {
    "class": "Arcane Cultist",
-   "level": 853,
+   "level": 874,
    "value": null
   }
  ],
@@ -1615,29 +1644,29 @@
   {
    "name": "Archlord of the Pirates",
    "type": "Drop Rate and Class EXP",
-   "kills": 6015,
-   "value": 15.049121475796882,
+   "kills": 6017,
+   "value": 16.457886658778147,
    "how": "Farm more Plunder Kills with Siege Breaker for Drop Rate Crystal Setup at W5 Citringes for ~20k per day"
   },
   {
    "name": "King of the Remembered",
    "type": "Printer Output",
-   "kills": 2658142,
-   "value": 22.748457908605072,
+   "kills": 2687560,
+   "value": 22.783599325545637,
    "how": "Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from"
   },
   {
    "name": "Wormhole Emperor",
    "type": "Damage",
    "kills": 570282,
-   "value": 4.302619726764412,
+   "value": 5.3636175747818715,
    "how": "Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns"
   }
  ],
  "divinity": [
   {
    "god": "Snehebatu",
-   "blessing": 100
+   "blessing": 131
   },
   {
    "god": "Arctis",
@@ -1645,15 +1674,15 @@
   },
   {
    "god": "Nobisect",
-   "blessing": 110
+   "blessing": 114
   },
   {
    "god": "Harriep",
-   "blessing": 129
+   "blessing": 131
   },
   {
    "god": "Goharut",
-   "blessing": 58
+   "blessing": 100
   },
   {
    "god": "Omniphau",
@@ -1661,11 +1690,11 @@
   },
   {
    "god": "Purrmep",
-   "blessing": 129
+   "blessing": 131
   },
   {
    "god": "Flutterbis",
-   "blessing": 35
+   "blessing": 60
   },
   {
    "god": "Kattlekruk",
@@ -1676,7 +1705,7 @@
    "blessing": 60
   }
  ],
- "achievements_done": 209,
+ "achievements_done": 212,
  "achievements_open": [
   "Hitting the Mark",
   "Minecart Maniac",
@@ -1706,12 +1735,9 @@
   "Knock on Wood",
   "Sepia Vision",
   "A Most Nice Sale",
-  "Boss Defeated",
-  "Manager Defeated",
   "Kingpin Defeated",
   "Capitalist Win",
   "Matrix Wickermen",
-  "Bland Dish",
   "Lv. 5 Nothing",
   "I LOVE These Mobs",
   "Hunned Times a Day",

@@ -4,7 +4,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Total Armory Upgrade Levels: 82",
+   "label": "Total Armory Upgrade Levels: 131",
    "cur": "",
    "goal": "",
    "completed": true
@@ -21,16 +21,16 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Royal Talent Points I: +45 Talent PTS for the Royal Guardian class.",
-   "cur": "45",
+   "label": "Royal Talent Points I: +46 Talent PTS for the Royal Guardian class.",
+   "cur": "46",
    "goal": "200",
    "res": "royal-armory-resource-0"
   },
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Solo Militia Status: Active kills now count towards clearing monsters to build outposts! @ Also, each kill has a 84% chance to count as extra!",
-   "cur": "21",
+   "label": "Solo Militia Status: Active kills now count towards clearing monsters to build outposts! @ Also, each kill has a 144% chance to count as extra!",
+   "cur": "36",
    "goal": "1000",
    "res": "royal-armory-resource-0"
   },
@@ -46,8 +46,8 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Blunder Outpost PTS: All of your Outposts in World 1 get +0 PTS to spend on upgrades!",
-   "cur": "0",
+   "label": "Blunder Outpost PTS: All of your Outposts in World 1 get +10 PTS to spend on upgrades!",
+   "cur": "10",
    "goal": "999999",
    "res": "royal-armory-resource-0"
   },
@@ -62,8 +62,8 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Resource Replenish: All 'Empty' resources get refilled every day. @ Also, +11% Collection Rate for all Outposts.",
-   "cur": "11",
+   "label": "Resource Replenish: All 'Empty' resources get refilled every day. @ Also, +23% Collection Rate for all Outposts.",
+   "cur": "23",
    "goal": "1000",
    "res": "royal-armory-resource-1"
   },
@@ -71,8 +71,9 @@
    "group": "Armory Upgrades",
    "tab": "Upgrades",
    "label": "Parchment of Enchantment: Verminous Rats now have a 1 in $ chance to drop Parchments of Enchantment, which are used to upgrade Royal Statues!",
-   "cur": "0",
-   "goal": "1",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true,
    "res": "royal-armory-resource-2"
   },
   {
@@ -87,8 +88,8 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Anti-Rodent Power Move I: Boosts the base damage you deal within the Royal Castle by +0",
-   "cur": "0",
+   "label": "Anti-Rodent Power Move I: Boosts the base damage you deal within the Royal Castle by +30",
+   "cur": "6",
    "goal": "999999",
    "res": "royal-armory-resource-2"
   },
@@ -105,7 +106,7 @@
    "group": "Armory Upgrades",
    "tab": "Upgrades",
    "label": "Trading Rank: Each Trading Rank of an Outpost gives +1 PTS for Upgrades.$",
-   "cur": "0",
+   "cur": "1",
    "goal": "6",
    "res": "royal-armory-resource-2"
   },
@@ -113,30 +114,31 @@
    "group": "Armory Upgrades",
    "tab": "Upgrades",
    "label": "Tremendous Traders: Each Trader Unit now gives $ EXP/hr toward their Outpost's Trading Rank.",
-   "cur": "0",
+   "cur": "1",
    "goal": "999999",
    "res": "royal-armory-resource-4"
   },
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Blunder Hills Militia: Recruits a new Militia unit in World 1, which clear away monsters at a rate of $/hr so you can build more outposts!Requires 18 more Upgrade Levels to unlock",
-   "cur": "0",
+   "label": "Blunder Hills Militia: Recruits a new Militia unit in World 1, which clear away monsters at a rate of $/hr so you can build more outposts!",
+   "cur": "1",
    "goal": "10",
    "res": "royal-armory-resource-2"
   },
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Move Units Tool: Adds a new button to the World Map! When enabled, you can click and drag Movable Units to change which Outpost they're stationed at!Requires 19 more Upgrade Levels to unlock",
-   "cur": "0",
-   "goal": "1",
+   "label": "Move Units Tool: Adds a new button to the World Map! When enabled, you can click and drag Movable Units to change which Outpost they're stationed at!",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true,
    "res": "royal-armory-resource-2"
   },
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Wonderful Workers: Each Worker Unit now gives +$% Collection Rate bonus to their outpost, instead of the standard +50% bonus.Requires 33 more Upgrade Levels to unlock",
+   "label": "Wonderful Workers: Each Worker Unit now gives +$% Collection Rate bonus to their outpost, instead of the standard +50% bonus.",
    "cur": "0",
    "goal": "999999",
    "res": "royal-armory-resource-3"
@@ -144,7 +146,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Compounding Outposting: Pick a stat to boost! More outposts built means bigger boost! @ Currently giving $Requires 58 more Upgrade Levels to unlock",
+   "label": "Compounding Outposting: Pick a stat to boost! More outposts built means bigger boost! @ Currently giving $Requires 9 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "1",
    "res": "royal-armory-resource-4"
@@ -152,7 +154,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Kingdom Expansion 2: Allows you to expand the kingdom into World 2, allowing you to build Outposts and collect Resources!Requires 88 more Upgrade Levels to unlock",
+   "label": "Kingdom Expansion 2: Allows you to expand the kingdom into World 2, allowing you to build Outposts and collect Resources!Requires 39 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "1",
    "res": "royal-armory-resource-5"
@@ -160,7 +162,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Yumyum Desert Militia: Recruits a new Militia unit in World 2, which clear away monsters at a rate of $/hr so you can build more outposts!Requires 118 more Upgrade Levels to unlock",
+   "label": "Yumyum Desert Militia: Recruits a new Militia unit in World 2, which clear away monsters at a rate of $/hr so you can build more outposts!Requires 69 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "10",
    "res": "royal-armory-resource-10"
@@ -168,7 +170,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Greater Education: Unlock the 3rd upgrade options for all outposts across all worlds!Requires 148 more Upgrade Levels to unlock",
+   "label": "Greater Education: Unlock the 3rd upgrade options for all outposts across all worlds!Requires 99 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "1",
    "res": "royal-armory-resource-10"
@@ -176,7 +178,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Mighty Militia: Each Militia Unit now clears away $ Monsters/hr in Uncontrolled Maps.Requires 178 more Upgrade Levels to unlock",
+   "label": "Mighty Militia: Each Militia Unit now clears away $ Monsters/hr in Uncontrolled Maps.Requires 129 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "999999",
    "res": "royal-armory-resource-5"
@@ -184,7 +186,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Resource Grades: Whenever an 'Empty' resource gets refilled, it gets +1 Grade! @ Each Grade means +50% Max Resources and +$% Collection Rate!Requires 188 more Upgrade Levels to unlock",
+   "label": "Resource Grades: Whenever an 'Empty' resource gets refilled, it gets +1 Grade! @ Each Grade means +50% Max Resources and +$% Collection Rate!Requires 139 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "1",
    "res": "royal-armory-resource-10"
@@ -192,7 +194,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Royal Talent Points II: +0 Talent PTS for the Royal Guardian class.Requires 198 more Upgrade Levels to unlock",
+   "label": "Royal Talent Points II: +0 Talent PTS for the Royal Guardian class.Requires 149 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "200",
    "res": "royal-armory-resource-11"
@@ -200,7 +202,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Yumyum Outpost PTS: All of your Outposts in World 2 get +0 PTS to spend on upgrades!Requires 218 more Upgrade Levels to unlock",
+   "label": "Yumyum Outpost PTS: All of your Outposts in World 2 get +0 PTS to spend on upgrades!Requires 169 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "999999",
    "res": "royal-armory-resource-11"
@@ -208,7 +210,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Prismatic Guardian: Instantly gain 1 Prisma Bubble Fragment! Spend these in Alchemy to boost your bubbles!Requires 238 more Upgrade Levels to unlock",
+   "label": "Prismatic Guardian: Instantly gain 1 Prisma Bubble Fragment! Spend these in Alchemy to boost your bubbles!Requires 189 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "100",
    "res": "royal-armory-resource-11"
@@ -216,7 +218,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Guard Profession: Unlocks the Guard profession, who boost their Outpost's connection range! Swap professions via 'Upgrade Outposts' button.Requires 258 more Upgrade Levels to unlock",
+   "label": "Guard Profession: Unlocks the Guard profession, who boost their Outpost's connection range! Swap professions via 'Upgrade Outposts' button.Requires 209 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "1",
    "res": "royal-armory-resource-12"
@@ -224,7 +226,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Great Guards: Each Guard Unit now increases the connection range of their Outpost by +$pxRequires 298 more Upgrade Levels to unlock",
+   "label": "Great Guards: Each Guard Unit now increases the connection range of their Outpost by +$pxRequires 249 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "10",
    "res": "royal-armory-resource-12"
@@ -232,7 +234,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Kingdom Sovereignty: Recruits new Movable Unit every time you buy this upgrade! @ Next Unit: $Requires 318 more Upgrade Levels to unlock",
+   "label": "Kingdom Sovereignty: Recruits new Movable Unit every time you buy this upgrade! @ Next Unit: $Requires 269 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "36",
    "res": "royal-armory-resource-10"
@@ -240,7 +242,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Command Rank: Each Command Rank of an Outpost adds a permanent stationary unit, and boosts the outpost's Collection Rate by +0%Requires 338 more Upgrade Levels to unlock",
+   "label": "Command Rank: Each Command Rank of an Outpost adds a permanent stationary unit, and boosts the outpost's Collection Rate by +0%Requires 289 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "5",
    "res": "royal-armory-resource-13"
@@ -248,7 +250,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Charismatic Commanders: Each Commander Unit now gives $ EXP/hr toward their Outpost's Command Rank.Requires 368 more Upgrade Levels to unlock",
+   "label": "Charismatic Commanders: Each Commander Unit now gives $ EXP/hr toward their Outpost's Command Rank.Requires 319 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "999999",
    "res": "royal-armory-resource-13"
@@ -256,7 +258,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Global Decree - OL: Each Outpost LV (OL) gives all outposts +0% Collection Rate. @ Total Bonus:+$%Requires 398 more Upgrade Levels to unlock",
+   "label": "Global Decree - OL: Each Outpost LV (OL) gives all outposts +0% Collection Rate. @ Total Bonus:+$%Requires 349 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "100",
    "res": "royal-armory-resource-14"
@@ -264,7 +266,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Super Talent Unban: You can now 'Make Super' your Royal Guardian talents.Requires 438 more Upgrade Levels to unlock",
+   "label": "Super Talent Unban: You can now 'Make Super' your Royal Guardian talents.Requires 389 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "1",
    "res": "royal-armory-resource-13"
@@ -272,7 +274,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Parchment Surplus: Boosts the drop rate of Parchments of Enchantment by +0%Requires 478 more Upgrade Levels to unlock",
+   "label": "Parchment Surplus: Boosts the drop rate of Parchments of Enchantment by +0%Requires 429 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "999999",
    "res": "royal-armory-resource-14"
@@ -280,7 +282,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Weekly Skull Stipend: Start each week with 0 Killroy Skulls over in W2 town!Requires 508 more Upgrade Levels to unlock",
+   "label": "Weekly Skull Stipend: Start each week with 0 Killroy Skulls over in W2 town!Requires 459 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "100",
    "res": "royal-armory-resource-15"
@@ -288,7 +290,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Support Camps: You can modify 0 Outposts per World into Support Camps. Connects to other outposts, givin' $Requires 548 more Upgrade Levels to unlock",
+   "label": "Support Camps: You can modify 0 Outposts per World into Support Camps. Connects to other outposts, givin' $Requires 499 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "3",
    "res": "royal-armory-resource-14"
@@ -296,7 +298,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Super Support: Support Camps give 1.00x higher boosts to their connected Outposts!Requires 578 more Upgrade Levels to unlock",
+   "label": "Super Support: Support Camps give 1.00x higher boosts to their connected Outposts!Requires 529 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "100",
    "res": "royal-armory-resource-15"
@@ -304,7 +306,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Kingdom Expansion 3: Allows you to expand the kingdom into World 3, allowing you to build Outposts and collect Resources!Requires 628 more Upgrade Levels to unlock",
+   "label": "Kingdom Expansion 3: Allows you to expand the kingdom into World 3, allowing you to build Outposts and collect Resources!Requires 579 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "1",
    "res": "royal-armory-resource-15"
@@ -312,7 +314,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Frostbite Tundra Militia: Recruits a new Militia unit in World 3, which clear away monsters at a rate of $/hr so you can build more outposts!Requires 668 more Upgrade Levels to unlock",
+   "label": "Frostbite Tundra Militia: Recruits a new Militia unit in World 3, which clear away monsters at a rate of $/hr so you can build more outposts!Requires 619 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "10",
    "res": "royal-armory-resource-20"
@@ -320,7 +322,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Global Decree - RG: Each Resource Grade (RG) gives all outposts +0% Collection Rate. @ Total Bonus:+$%Requires 718 more Upgrade Levels to unlock",
+   "label": "Global Decree - RG: Each Resource Grade (RG) gives all outposts +0% Collection Rate. @ Total Bonus:+$%Requires 669 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "999999",
    "res": "royal-armory-resource-20"
@@ -328,7 +330,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Tundra Outpost PTS: All of your Outposts in World 3 get +0 PTS to spend on upgrades!Requires 768 more Upgrade Levels to unlock",
+   "label": "Tundra Outpost PTS: All of your Outposts in World 3 get +0 PTS to spend on upgrades!Requires 719 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "999999",
    "res": "royal-armory-resource-20"
@@ -336,7 +338,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Experiential Triumph: Every 100 Class LVs of your Royal Guardian over 1000 gives all outposts +0% Collection Rate. Total Bonus:+$%Requires 818 more Upgrade Levels to unlock",
+   "label": "Experiential Triumph: Every 100 Class LVs of your Royal Guardian over 1000 gives all outposts +0% Collection Rate. Total Bonus:+$%Requires 769 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "100",
    "res": "royal-armory-resource-21"
@@ -344,7 +346,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Anti-Rodent Power Move II: Boosts the total damage you deal within the Royal Castle by +0%Requires 868 more Upgrade Levels to unlock",
+   "label": "Anti-Rodent Power Move II: Boosts the total damage you deal within the Royal Castle by +0%Requires 819 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "999999",
    "res": "royal-armory-resource-22"
@@ -352,7 +354,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Surveyor Profession: Unlocks the Surveyor profession, who level up their Outpost's Intel Rank! Swap professions via 'Upgrade Outposts' button.Requires 918 more Upgrade Levels to unlock",
+   "label": "Surveyor Profession: Unlocks the Surveyor profession, who level up their Outpost's Intel Rank! Swap professions via 'Upgrade Outposts' button.Requires 869 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "1",
    "res": "royal-armory-resource-21"
@@ -360,7 +362,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Intel Rank: Each Intel Rank of an Outpost boosts the EXP gain of all its Ranks by +0%Requires 1018 more Upgrade Levels to unlock",
+   "label": "Intel Rank: Each Intel Rank of an Outpost boosts the EXP gain of all its Ranks by +0%Requires 969 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "5",
    "res": "royal-armory-resource-21"
@@ -368,7 +370,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Super Surveyors: Each Surveyor Unit now gives $ EXP/hr toward their Outpost's Intel Rank.Requires 1118 more Upgrade Levels to unlock",
+   "label": "Super Surveyors: Each Surveyor Unit now gives $ EXP/hr toward their Outpost's Intel Rank.Requires 1069 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "999999",
    "res": "royal-armory-resource-22"
@@ -376,7 +378,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Farmer Joe: Joe will tend to your Equinox Valley, giving +0% Equinox Bar Fill rate and spending full bars on the upgrade of your choice!Requires 1218 more Upgrade Levels to unlock",
+   "label": "Farmer Joe: Joe will tend to your Equinox Valley, giving +0% Equinox Bar Fill rate and spending full bars on the upgrade of your choice!Requires 1169 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "100",
    "res": "royal-armory-resource-22"
@@ -384,7 +386,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Savage Strongholds: You can now modify 0 Outpost per World into Savage Strongholds! They remove $x more resources, but you don't keep any!Requires 1268 more Upgrade Levels to unlock",
+   "label": "Savage Strongholds: You can now modify 0 Outpost per World into Savage Strongholds! They remove $x more resources, but you don't keep any!Requires 1219 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "3",
    "res": "royal-armory-resource-22"
@@ -392,7 +394,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Super Savagery: Savage Strongholds remove 1.00x more resources than before!Requires 1318 more Upgrade Levels to unlock",
+   "label": "Super Savagery: Savage Strongholds remove 1.00x more resources than before!Requires 1269 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "100",
    "res": "royal-armory-resource-23"
@@ -400,7 +402,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Royal Talent Points III: +0 Talent PTS for the Royal Guardian class.Requires 1368 more Upgrade Levels to unlock",
+   "label": "Royal Talent Points III: +0 Talent PTS for the Royal Guardian class.Requires 1319 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "200",
    "res": "royal-armory-resource-23"
@@ -408,7 +410,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Military Rank: Each Military Rank of an Outpost boosts its connection range by +0pxRequires 1418 more Upgrade Levels to unlock",
+   "label": "Military Rank: Each Military Rank of an Outpost boosts its connection range by +0pxRequires 1369 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "5",
    "res": "royal-armory-resource-24"
@@ -416,7 +418,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Kingsman Knights: Each Knight Unit now gives $ EXP/hr toward their Outpost's Military Rank.Requires 1468 more Upgrade Levels to unlock",
+   "label": "Kingsman Knights: Each Knight Unit now gives $ EXP/hr toward their Outpost's Military Rank.Requires 1419 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "999999",
    "res": "royal-armory-resource-24"
@@ -424,7 +426,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Peacetime Milita: Militia Units now also give $ EXP/hr to their Outpost's highest Rank, giving them a use beyond clearing new maps!Requires 1518 more Upgrade Levels to unlock",
+   "label": "Peacetime Milita: Militia Units now also give $ EXP/hr to their Outpost's highest Rank, giving them a use beyond clearing new maps!Requires 1469 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "1",
    "res": "royal-armory-resource-24"
@@ -432,7 +434,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Rat Breeding Protocol I: Verminous Rats, found in the cellar dungeon of the Royal Castle, respawn +0% faster.Requires 1568 more Upgrade Levels to unlock",
+   "label": "Rat Breeding Protocol I: Verminous Rats, found in the cellar dungeon of the Royal Castle, respawn +0% faster.Requires 1519 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "10",
    "res": "royal-armory-resource-25"
@@ -440,7 +442,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Parchment Doubleprint: Whenever you pick up Parchments of Enchantment, there is a $% chance to get DOUBLE! So like, two of them!Requires 1618 more Upgrade Levels to unlock",
+   "label": "Parchment Doubleprint: Whenever you pick up Parchments of Enchantment, there is a $% chance to get DOUBLE! So like, two of them!Requires 1569 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "100",
    "res": "royal-armory-resource-26"
@@ -448,7 +450,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Kingdom Expansion 4: Allows you to expand the kingdom into World 4, allowing you to build Outposts and collect Resources!Requires 1668 more Upgrade Levels to unlock",
+   "label": "Kingdom Expansion 4: Allows you to expand the kingdom into World 4, allowing you to build Outposts and collect Resources!Requires 1619 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "1",
    "res": "royal-armory-resource-26"
@@ -456,7 +458,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Hyperion Nebula Militia: Recruits a new Militia unit in World 4, which clear away monsters at a rate of $/hr so you can build more outposts!Requires 1718 more Upgrade Levels to unlock",
+   "label": "Hyperion Nebula Militia: Recruits a new Militia unit in World 4, which clear away monsters at a rate of $/hr so you can build more outposts!Requires 1669 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "10",
    "res": "royal-armory-resource-30"
@@ -464,7 +466,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Hyperion Outpost PTS: All of your Outposts in World 4 get +0 PTS to spend on upgrades!Requires 1768 more Upgrade Levels to unlock",
+   "label": "Hyperion Outpost PTS: All of your Outposts in World 4 get +0 PTS to spend on upgrades!Requires 1719 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "999999",
    "res": "royal-armory-resource-30"
@@ -472,7 +474,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Purity Rank: Achieving a PURITY Rank of 1 means that Outpost and Map are Purified. Click the \u819b button to see Purified Bonuses.Requires 1818 more Upgrade Levels to unlock",
+   "label": "Purity Rank: Achieving a PURITY Rank of 1 means that Outpost and Map are Purified. Click the \u819b button to see Purified Bonuses.Requires 1769 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "1",
    "res": "royal-armory-resource-31"
@@ -480,7 +482,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Passionate Priests: Each Priest Unit now gives $ EXP/hr toward their Outpost's Purity Rank.Requires 1868 more Upgrade Levels to unlock",
+   "label": "Passionate Priests: Each Priest Unit now gives $ EXP/hr toward their Outpost's Purity Rank.Requires 1819 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "999999",
    "res": "royal-armory-resource-31"
@@ -488,7 +490,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "State-Wide Propoganda: Boost EXP/hr of your chosen Rank Type by 1.00x, which can be freely changed with the arrows above.Requires 1918 more Upgrade Levels to unlock",
+   "label": "State-Wide Propoganda: Boost EXP/hr of your chosen Rank Type by 1.00x, which can be freely changed with the arrows above.Requires 1869 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "100",
    "res": "royal-armory-resource-32"
@@ -496,7 +498,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Tip-Top 'sources: +0% Collection Rate for every POW 10 'Top of List' Resources you own. Total Bonus:+$%Requires 1968 more Upgrade Levels to unlock",
+   "label": "Tip-Top 'sources: +0% Collection Rate for every POW 10 'Top of List' Resources you own. Total Bonus:+$%Requires 1919 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "10",
    "res": "royal-armory-resource-33"
@@ -504,7 +506,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Royal Talent Points IV: +0 Talent PTS for the Royal Guardian class.Requires 2018 more Upgrade Levels to unlock",
+   "label": "Royal Talent Points IV: +0 Talent PTS for the Royal Guardian class.Requires 1969 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "200",
    "res": "royal-armory-resource-32"
@@ -512,7 +514,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Parchment Recycling: When using Parchments of Enchantment to upgrade Royal Statues, there is a $% chance they are not used up. Free Usage!Requires 2068 more Upgrade Levels to unlock",
+   "label": "Parchment Recycling: When using Parchments of Enchantment to upgrade Royal Statues, there is a $% chance they are not used up. Free Usage!Requires 2019 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "50",
    "res": "royal-armory-resource-33"
@@ -520,7 +522,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Perfect Purification: All your Purified Maps now get a $x bonus to Collection Rate, instead of the standard 2x bonus.Requires 2168 more Upgrade Levels to unlock",
+   "label": "Perfect Purification: All your Purified Maps now get a $x bonus to Collection Rate, instead of the standard 2x bonus.Requires 2119 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "300",
    "res": "royal-armory-resource-34"
@@ -528,7 +530,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Global Decree - PM: Each Purified Map (PM) gives all outposts +0% Collection Rate. @ Total Bonus:+$%Requires 2218 more Upgrade Levels to unlock",
+   "label": "Global Decree - PM: Each Purified Map (PM) gives all outposts +0% Collection Rate. @ Total Bonus:+$%Requires 2169 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "40",
    "res": "royal-armory-resource-35"
@@ -536,7 +538,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Ribbonic Guardian: There's a 0% chance for each of the Ribbons you earn each day is +1 Tier higher!Requires 2318 more Upgrade Levels to unlock",
+   "label": "Ribbonic Guardian: There's a 0% chance for each of the Ribbons you earn each day is +1 Tier higher!Requires 2269 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "20",
    "res": "royal-armory-resource-35"
@@ -544,7 +546,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Orblet Pittance: Adds a new 0% chance for the Orb of Verisimilitude to drop a 3rd orblet every 1000 kills!Requires 2418 more Upgrade Levels to unlock",
+   "label": "Orblet Pittance: Adds a new 0% chance for the Orb of Verisimilitude to drop a 3rd orblet every 1000 kills!Requires 2369 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "100",
    "res": "royal-armory-resource-36"
@@ -552,7 +554,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Royal Reverence: All Royal Statues give 1.00x higher bonuses!Requires 2518 more Upgrade Levels to unlock",
+   "label": "Royal Reverence: All Royal Statues give 1.00x higher bonuses!Requires 2469 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "20",
    "res": "royal-armory-resource-36"
@@ -560,7 +562,7 @@
   {
    "group": "Armory Upgrades",
    "tab": "Upgrades",
-   "label": "Talent Reattainment: Your 'All Talent LVs' bonuses now apply to Royal Guardian talents, but only up to +0 LVs.Requires 2618 more Upgrade Levels to unlock",
+   "label": "Talent Reattainment: Your 'All Talent LVs' bonuses now apply to Royal Guardian talents, but only up to +0 LVs.Requires 2569 more Upgrade Levels to unlock",
    "cur": "0",
    "goal": "300",
    "res": "royal-armory-resource-37"
@@ -884,9 +886,9 @@
   {
    "group": "Lil' Orblet Shop",
    "tab": "default",
-   "label": "Outposts Glorified: 0/5",
+   "label": "Outposts Glorified: 0/6",
    "cur": "0",
-   "goal": "5"
+   "goal": "6"
   },
   {
    "group": "Lil' Orblet Shop",
@@ -933,5 +935,5 @@
   "Royal Statues",
   "Orblet Market"
  ],
- "snapshot": "20261120T2035"
+ "snapshot": "20261121T1741"
 }
