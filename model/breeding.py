@@ -86,7 +86,7 @@ def card_lines(o):
         n, lv, mx, cnt, days, nxt = o['fence']
         L.append(f"Fence: {n} at shiny level {lv} of {mx}, next level in {nxt}. Stick to one type at a time.")
     if o['shiny_targets']: L.append('Quickest shiny goals: ' + ', '.join(f"{x['pet']} for {x['bonus'].lower()}" for x in o['shiny_targets'][:3]) + '.')
-    L.append("Zack's plan (2026-11-21): while pushing Dead DNA, hatch and trash as many eggs as possible (no multiplying focus). Start with Green Mushroom; push breedability toward its max.")
+    L.append("Zack's plan (2026-11-21): while pushing Dead DNA, hatch and trash as many eggs as possible (no multiplying focus). One shiny spot is given up to raise breedability on one pet at a time toward heart 7 (Equinox and other places need a set number of heart 7 pets). Card switches to the next pet when one reaches heart 7.")
     L.append('The Crucible (big cooking speed) opens through the Menagerie on Autisticles.')
     return L
 
