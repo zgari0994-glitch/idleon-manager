@@ -74,8 +74,11 @@ def build():
 
 def card_lines(o):
     L = []
+    # Zack 2026-11-21: sourced order beats my gain-per-cost math. Faster shinies first (Pulse: priority one), never a weighted pick ahead of it.
+    SOURCED = ['Grand Martial of Shinytown']
     rk = [x for x in o['rank'] if x['afford']]
-    if rk: L.append(f"TOP: spend DNA, best first: {', '.join(x['item'].split(' ')[0] + ' ' + x['item'].split(' ')[1] for x in rk[:3])}. Pulse: faster shinies come first.")
+    rk = sorted(rk, key=lambda x: (0 if any(x['item'].startswith(s) for s in SOURCED) else 1))
+    if rk: L.append(f"TOP: spend Dead DNA on Grand Martial of Shinytown first (faster shiny levels; Pulse: faster shinies are priority one), then {', '.join(x['item'].split(' ')[0] + ' ' + x['item'].split(' ')[1] for x in rk[1:3] if not x['item'].startswith('Grand'))}. Dead DNA comes from trashing pets (2 to 6 each, idleon.wiki), so trash every egg you don't keep.")
     claim = sum(t['claim'] for t in o['territory'])
     if claim: L.append(f"Claim {claim:,} territory spice. It pays for kitchen upgrades on Autiszemo.")
     if o['eggs'] and o['eggs'][0] == o['eggs'][1]: L.append('Eggs are full. Pulse: keep clicking them past full to level them.')
