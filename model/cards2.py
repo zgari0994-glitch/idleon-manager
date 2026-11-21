@@ -328,7 +328,7 @@ def milestones():
     return res
 
 # ---------------- goal-based parking (Zack 2026-11-20: the way to the goal can't be wrong) ----------------
-SPELUNK_CAVE = 'Fearful Tunnel (Zack: deeper caves give way less here)'
+SPELUNK_CAVE = 'the first cave (Zack 2026-11-21, moved from Fearful Tunnel)'
 GOAL_PARK = {   # every line: where, card preset, and why with its source
     'Autistomatic': f"Spelunking: {SPELUNK_CAVE}, card preset 5. Why: Pulse (Oct 31) puts both Royal Guardians on Spelunking (Pit of Pages, fixed Nov 10); every Spelunking level adds base POW",
     'Autistastic': f"Spelunking: {SPELUNK_CAVE}, card preset 5. Why: Pulse (Oct 31): both Royal Guardians on Spelunking. His statue push waits (money mode when coins are short)",
