@@ -58,6 +58,8 @@ Trigger: Zack says "after work" (he has cloud-saved, closed Steam, is on the tab
 ## Card wording (Zack 2026-11-19)
 Plain English, like someone talking. Lead with what to do, a few words of why. Round numbers (29M, not 29,042,118), one number pair at most, no formulas, no breakdown/multi/group talk, no internal IDs or design notes. Sources short: "Griffy: ...", "(my read)". Locked items in one line. `model/plain.py` cleans every line as a safety net; write lines plain at the source. Raw labels it can't clean are dropped; spots that keep producing jargon go to `sources/findings/wording.md` (rewritten each build). Don't re-pull or rebuild just for wording: fix those spots at the planner on the next card build.
 
+- Library checkouts: always show the account rank (#1-55) on every talent line, in cards and when relaying a card in chat. Ranking is rebuilt every pull (extras.talent_rank -> plans/talents_<save>.json), so bought talents drop off and the next ones move up. Zack works single digits first (Zack 2026-11-21).
+
 ## Never say "no data" (Zack rule)
 Before a card says no data / gap, check the Toolbox map (sources/creators/idleon-toolbox-guide.md), the system index, the dashboard timers and the raw save. If Toolbox shows it, the card uses it.
 
