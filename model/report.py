@@ -32,6 +32,34 @@ def ar_sections(names):
             for v in x: walk(v)
     walk(review.get('worlds', review)); return found
 
+def ar_full(names):
+    out = []
+    for w in review.get('worlds', []):
+        for s in w.get('sections', []):
+            if any(a.lower() == s.get('name', '').lower() for a in names): out.append(s)
+    return out
+
+def glance(secs, n=4):
+    """Lean check for systems with no planner (Zack 2026-11-21: every system gets looked at): AutoReview tier + next items."""
+    out = []
+    for s in secs:
+        items = [(g.get('name', ''), it) for g in s.get('groups', []) for tab in g.get('items', []) for it in tab.get('items', [])]
+        out.append(f"AutoReview {s.get('name')}: tier {s.get('tier') or 'unrated'}" + ('' if items else ', nothing listed'))
+        for gname, it in items[:n]:
+            cg = f" ({it.get('cur')} -> {it.get('goal')})" if it.get('cur') or it.get('goal') else ''
+            out.append(f"Next: {it.get('label')}{cg}")
+    return out or ['No AutoReview section and no planner: needs a data source']
+
+def alerts():
+    out = []
+    for w in review.get('worlds', []):
+        for s in w.get('sections', []):
+            for g in s.get('groups', []):
+                if g.get('name') == 'Alerts':
+                    for tab in g.get('items', []):
+                        for it in tab.get('items', []): out.append(f"{tab.get('tab')}: {it.get('label')}")
+    return out
+
 def safe(o):
     try: json.dumps(o); return o
     except Exception: return json.loads(json.dumps(o, default=str))
@@ -64,9 +92,25 @@ for slug in [s for s in list(idx) + list(EXTRA) if s not in NOT_SYSTEM]:
         lines += r['card_lines']
         for c, v in r['char_lines'].items(): per_char.setdefault(c, []).extend(v)
         for c, v in (r['routed'] or {}).items(): routed.setdefault(c, []).extend(v)
-    rows.append({'system': slug, 'owners': e.get('owners') or [], 'planners': mods, 'errors': errs,
+    notes = [] if mods else glance(ar_full(e.get('autoreview') or []))
+    rows.append({'system': slug, 'notes': notes, 'owners': e.get('owners') or [], 'planners': mods, 'errors': errs,
                  'autoreview': ar_sections(e.get('autoreview') or []), 'lines': lines, 'per_char': per_char, 'routed': routed,
                  'checked': bool(mods) and not errs})
+cardsj = ROOT / 'plans' / 'cards.json'
+eng = {}
+if cardsj.exists():
+    cj = json.load(open(cardsj))
+    if cj.get('save') == SAVE:
+        for ch in cj['chars']:
+            L = eng.setdefault(ch['name'], [])
+            for blk in ('daily', 'house'):
+                for st in ch.get(blk) or []:
+                    L.append(st['do']); L += [f"{st['do'].split(':')[0]}: {s}" for s in st.get('sub') or []]
+            if ch.get('park'): L.append('PARK: ' + ch['park'])
+rows.append({'system': 'card_engine', 'owners': [], 'planners': ['cards2'], 'errors': [], 'autoreview': [], 'notes': [],
+             'lines': [], 'per_char': eng, 'routed': {}, 'checked': bool(eng)})
+rows.append({'system': 'autoreview_alerts', 'owners': [], 'planners': ['autoreview'], 'errors': [], 'autoreview': [], 'notes': [],
+             'lines': alerts(), 'per_char': {}, 'routed': {}, 'checked': True})
 json.dump(safe({'save': SAVE, 'meta': meta, 'systems': rows}), open(OUT / 'report.json', 'w'), indent=1, default=str)
 
 md = [f"# Report {SAVE} (game save {meta.get('game_save_utc', '?')})", '',
@@ -75,7 +119,8 @@ md = [f"# Report {SAVE} (game save {meta.get('game_save_utc', '?')})", '',
 for r in rows:
     tiers = '; '.join(f"{a.get('name') or a.get('section')}: {a.get('tier', '?')}/{a.get('max_tier', '?')}" for a in r['autoreview']) or 'not rated'
     md.append(f"## {r['system']}  ({', '.join(r['owners']) or 'UNOWNED'})  AR {tiers}")
-    if not r['planners']: md.append('- NOTHING CHECKS THIS'); continue
+    if not r['planners']:
+        md.append('- NO PLANNER (lean check only):'); md += [f'  - {x}' for x in r['notes']]; md.append(''); continue
     for x in r['errors']: md.append(f'- PLANNER ERROR {x}')
     for x in r['lines']: md.append(f'- {x}')
     for c, v in r['per_char'].items():

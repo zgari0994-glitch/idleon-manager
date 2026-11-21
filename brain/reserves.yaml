@@ -1,6 +1,6 @@
 # Shared resources held for a system. Every spend line is checked against this first (decision layer).
-# amount: number or 'all'; until: condition or date. Add a line the moment a hold is decided.
+# match = regex that means "this line spends it" (item names that merely contain the word don't count).
 ladles:
-  - {for: equinox, amount: TBD_from_equinox_cost, until: "Equinox upgrade bought", why: "Equinox needs a lump sum at once (Zack 2026-11-21)"}
+  - {for: equinox, match: "\\b(use|spend)\\b[^.]*\\bladles\\b|\\bladles\\b[^.]*\\b(use|spend) them\\b", amount: TBD_from_equinox_cost, until: "Equinox upgrade bought", why: "Equinox needs a lump sum at once (Zack 2026-11-21)"}
 souls:
-  - {for: construction_buildings, amount: TBD, until: "construction needs covered", why: "a stamp spend on 11-20 would have emptied souls construction needs (Zack 2026-11-21)"}
+  - {for: construction_buildings, match: "\\b(use|spend)\\b[^.]*\\bsouls?\\b(?![^.]*only above)", amount: TBD, until: "construction needs covered", why: "a stamp spend on 11-20 would have emptied souls construction needs (Zack 2026-11-21)"}

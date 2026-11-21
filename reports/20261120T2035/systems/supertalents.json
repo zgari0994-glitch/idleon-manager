@@ -14,12 +14,13 @@
    "presets": [
     {
      "preset": 1,
+     "role": "skill",
+     "skill_share": 0.28,
      "have": [
       "Brute Efficiency",
       "Apocalypse Chow"
      ],
      "open": 2,
-     "role": "skill",
      "picks": [
       [
        "Big Pick",
@@ -29,16 +30,18 @@
        "Worming Undercover",
        "Griffy: fishing efficiency"
       ]
-     ]
+     ],
+     "skipped": []
     },
     {
      "preset": 2,
+     "role": "fight",
+     "skill_share": 0.04,
      "have": [
       "Sentinel Axes",
       "Charred Skulls"
      ],
      "open": 2,
-     "role": "fight",
      "picks": [
       [
        "Monster Decimator",
@@ -48,7 +51,8 @@
        "Graveyard Shift",
        "Griffy: better respawn"
       ]
-     ]
+     ],
+     "skipped": []
     }
    ]
   },
@@ -58,34 +62,38 @@
    "presets": [
     {
      "preset": 1,
+     "role": "skill",
+     "skill_share": 0.12,
      "have": [
       "Log On Logs",
       "Smart Efficiency"
      ],
      "open": 2,
-     "role": "skill",
      "picks": [
       [
        "Skill Wiz",
        "Griffy: skilling output"
       ]
-     ]
+     ],
+     "skipped": []
     },
     {
      "preset": 2,
+     "role": "fight",
+     "skill_share": 0.07,
      "have": [
       "Cranium Cooking",
       "Tenteyecle",
       "Memorial Skulls"
      ],
      "open": 1,
-     "role": "fight",
      "picks": [
       [
        "Sizzling Skull",
        "Griffy+Pulse: drives auto attack damage, 100% super"
       ]
-     ]
+     ],
+     "skipped": []
     }
    ]
   },
@@ -95,35 +103,39 @@
    "presets": [
     {
      "preset": 1,
+     "role": "skill",
+     "skill_share": 0.14,
      "have": [
       "Teleki'net'ic Logs",
       "Elusive Efficiency",
       "Briar Patch Runner"
      ],
      "open": 1,
-     "role": "skill",
      "picks": [
       [
        "Skill Ambidexterity",
        "Griffy: skilling, before Agi Again"
       ]
-     ]
+     ],
+     "skipped": []
     },
     {
      "preset": 2,
+     "role": "fight",
+     "skill_share": 0.03,
      "have": [
       "Stacked Skulls",
       "Pirate Flag",
       "Garb Of Un'agi'ng Quality"
      ],
      "open": 1,
-     "role": "fight",
      "picks": [
       [
        "Archlord Of The Pirates",
        "Griffy: multiplicative drop rate and EXP. Pulse: make sure it is supered"
       ]
-     ]
+     ],
+     "skipped": []
     }
    ]
   },
@@ -133,12 +145,13 @@
    "presets": [
     {
      "preset": 1,
+     "role": "skill",
+     "skill_share": 0.21,
      "have": [
       "Big Pick",
       "Motherlode Miner"
      ],
      "open": 2,
-     "role": "skill",
      "picks": [
       [
        "Copper Collector",
@@ -148,23 +161,26 @@
        "Tool Proficiency",
        "Griffy+Pulse: mining power, bigger prints"
       ]
-     ]
+     ],
+     "skipped": []
     },
     {
      "preset": 2,
+     "role": "fight",
+     "skill_share": 0.09,
      "have": [
       "Shockwave Slash",
       "Orb Of Remembrance",
       "Charred Skulls"
      ],
      "open": 1,
-     "role": "fight",
      "picks": [
       [
        "Knightly Disciple",
        "Griffy: longer duration, more knights"
       ]
-     ]
+     ],
+     "skipped": []
     }
    ]
   },
@@ -174,12 +190,13 @@
    "presets": [
     {
      "preset": 1,
+     "role": "fight",
+     "skill_share": 0.04,
      "have": [
       "Dimensional Wormhole",
       "Tornado"
      ],
      "open": 2,
-     "role": "fight",
      "picks": [
       [
        "Meteor Shower",
@@ -189,16 +206,20 @@
        "Memorial Skulls",
        "Griffy: kill scaling from stats"
       ]
+     ],
+     "skipped": [
+      "Shared Beliefs"
      ]
     },
     {
      "preset": 2,
+     "role": "skill",
+     "skill_share": 0.1,
      "have": [
       "Smart Efficiency",
       "Log On Logs"
      ],
      "open": 2,
-     "role": "skill",
      "picks": [
       [
        "Leaf Thief",
@@ -208,7 +229,8 @@
        "Skill Wiz",
        "Griffy: skill output"
       ]
-     ]
+     ],
+     "skipped": []
     }
    ]
   },
@@ -218,6 +240,8 @@
    "presets": [
     {
      "preset": 1,
+     "role": "fight",
+     "skill_share": 0.06,
      "have": [
       "Eternal Hunt",
       "Price Recession",
@@ -229,12 +253,13 @@
     },
     {
      "preset": 2,
+     "role": "skill",
+     "skill_share": 0.11,
      "have": [
       "Price Recession",
       "Sneaky Skilling"
      ],
      "open": 2,
-     "role": "skill",
      "picks": [
       [
        "Elusive Efficiency",
@@ -244,7 +269,8 @@
        "Eagle Eye",
        "Griffy: more critters and EXP"
       ]
-     ]
+     ],
+     "skipped": []
     }
    ]
   },
@@ -254,33 +280,45 @@
    "presets": [
     {
      "preset": 1,
+     "role": "fight",
+     "skill_share": 0.18,
      "have": [
       "One Step Ahead",
       "Extra Bags"
      ],
      "open": 1,
-     "role": "fight",
      "picks": [
       [
        "Gimme Gimme",
        "Griffy: more double loot"
       ]
+     ],
+     "odd": [
+      "Extra Bags"
+     ],
+     "skipped": [
+      "Void Radius"
      ]
     },
     {
      "preset": 2,
+     "role": "skill",
+     "skill_share": 0.22,
      "have": [
       "Happy Dude",
       "Printer Go Brrr"
      ],
      "open": 1,
-     "role": "skill",
      "picks": [
       [
        "Left Hand Of Learning",
        "Griffy+Pulse: more EXP for others, global talents work with supers now"
       ]
-     ]
+     ],
+     "odd": [
+      "Happy Dude"
+     ],
+     "skipped": []
     }
    ]
   },
@@ -290,36 +328,39 @@
    "presets": [
     {
      "preset": 1,
+     "role": "fight",
+     "skill_share": 0.15,
      "have": [],
      "open": 4,
-     "role": "skill",
      "picks": [
       [
-       "Big Pick",
-       "Griffy+Pulse: mining efficiency, copper prints"
+       "Shockwave Slash",
+       "Griffy: carries most of the DK kit"
       ],
       [
-       "Copper Collector",
-       "Griffy+Pulse: mining efficiency"
+       "Orb Of Remembrance",
+       "Pulse: top five, fixed now so super it"
       ],
       [
-       "Tool Proficiency",
-       "Griffy+Pulse: mining power, bigger prints"
+       "Charred Skulls",
+       "Griffy: kill scaling from stats"
       ],
       [
-       "Brute Efficiency",
-       "Griffy+Pulse: efficiency on skilling setups"
+       "Knightly Disciple",
+       "Griffy: longer duration, more knights"
       ]
-     ]
+     ],
+     "skipped": []
     },
     {
      "preset": 2,
+     "role": "skill",
+     "skill_share": 0.23,
      "have": [
       "Big Pick",
       "Motherlode Miner"
      ],
      "open": 2,
-     "role": "skill",
      "picks": [
       [
        "Copper Collector",
@@ -329,7 +370,8 @@
        "Tool Proficiency",
        "Griffy+Pulse: mining power, bigger prints"
       ]
-     ]
+     ],
+     "skipped": []
     }
    ]
   },
@@ -339,12 +381,13 @@
    "presets": [
     {
      "preset": 1,
+     "role": "fight",
+     "skill_share": 0.06,
      "have": [
       "Dimensional Wormhole",
       "Tornado"
      ],
      "open": 2,
-     "role": "fight",
      "picks": [
       [
        "Meteor Shower",
@@ -354,16 +397,20 @@
        "Memorial Skulls",
        "Griffy: kill scaling from stats"
       ]
+     ],
+     "skipped": [
+      "Shared Beliefs"
      ]
     },
     {
      "preset": 2,
+     "role": "skill",
+     "skill_share": 0.16,
      "have": [
       "Smart Efficiency",
       "Leaf Thief"
      ],
      "open": 2,
-     "role": "skill",
      "picks": [
       [
        "Log On Logs",
@@ -373,7 +420,8 @@
        "Skill Wiz",
        "Griffy: skill output"
       ]
-     ]
+     ],
+     "skipped": []
     }
    ]
   },
@@ -383,23 +431,57 @@
    "presets": [
     {
      "preset": 1,
+     "role": "skill",
+     "skill_share": 0.16,
      "have": [
       "Stacked Skulls"
      ],
-     "open": 0,
-     "picks": [],
-     "odd": true
+     "open": 3,
+     "picks": [
+      [
+       "Brute Efficiency",
+       "Griffy+Pulse: big efficiency on skilling setups"
+      ],
+      [
+       "Big Pick",
+       "Pulse: must super on the skilling setup for copper prints"
+      ],
+      [
+       "Worming Undercover",
+       "Griffy: fishing efficiency"
+      ]
+     ],
+     "odd": [
+      "Stacked Skulls"
+     ],
+     "skipped": [
+      "Dank Ranks",
+      "Agricultural 'preciation"
+     ]
     },
     {
      "preset": 2,
+     "role": "fight",
+     "skill_share": 0.1,
      "have": [
       "Teleki'net'ic Logs",
       "Elusive Efficiency",
       "Briar Patch Runner"
      ],
-     "open": 0,
+     "open": 1,
      "picks": [],
-     "odd": true
+     "odd": [
+      "Teleki'net'ic Logs",
+      "Elusive Efficiency",
+      "Briar Patch Runner"
+     ],
+     "skipped": [
+      "Monster Decimator",
+      "Charred Skulls",
+      "Sentinel Axes",
+      "Graveyard Shift",
+      "Wraith Overlord"
+     ]
     }
    ]
   },
@@ -409,12 +491,16 @@
    "presets": [
     {
      "preset": 1,
+     "role": "skill",
+     "skill_share": 0.11,
      "have": [],
      "open": 3,
      "picks": []
     },
     {
      "preset": 2,
+     "role": "fight",
+     "skill_share": 0.04,
      "have": [],
      "open": 3,
      "picks": []
