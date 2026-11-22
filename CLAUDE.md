@@ -110,6 +110,7 @@ Game save = `data.TimeAway.GlobalTime` (UTC epoch). Store UTC, show Eastern. Alw
 - Read `brain/README.md` first. Flow: snapshot -> Report (every system, stored per save) -> decision layer (`decisions.md`, reserves + links + goal) -> I review decisions -> cards (Spend / Do / Park only).
 - `brain/index.md` = every system and whether anything checks it. `tools/build_brain.py` refreshes AUTO blocks only; curated note text is kept.
 - `brain/reserves.yaml` is checked before any spend line. `brain/checklist_2026-11-21.md` is the acceptance test.
+- Super talents can be reset (Zack 2026-11-21: he has a way), so a wrong super is fixable; picks stay sourced only, never 'permanent, don't touch' warnings.
 - Super talents: preset role (fight/skill) comes from where that preset's regular talent points are spent, never from existing supers; no pick on both presets unless sourced; pick must be in the class tree with points on that preset.
 - Lesson 2026-11-21: the 40 gaps logged 11-17 were never closed and weekly boss / anvil / Jade / Bubba / Poppy fell out when the old docs system was replaced (Daily-Rotation step 9 and KB section 26 held the weekly boss how-to). When replacing anything, carry every checked item over and list what moved where.
 

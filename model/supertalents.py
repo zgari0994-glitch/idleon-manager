@@ -1,4 +1,4 @@
-"""Super talents (Zack 2026-11-20: sourced only, points are permanent).
+"""Super talents (Zack 2026-11-20: sourced only, resettable per Zack 2026-11-21).
 Open points come from the save (Spelunk[20+i] / Spelunk[32+i] = supers per talent preset, AutoReview models/w7/spelunk.py;
 points = 1 per 100 class levels from 500). Picks come ONLY from creator lists below, in their order, skipping ones
 already supered. No sourced pick left = "hold the points".
@@ -139,7 +139,7 @@ def char_step(o, name):
         else:
             sub.append(f"{lab}: {r['open']} open, hold them (no sourced pick)")
     if not sub: return {'do': 'Super talents: nothing needed', 'why': '', 'sub': []}
-    return {'do': 'Super talents: spend the open points', 'why': 'points are permanent, every pick is from Griffy or Pulse', 'sub': sub}
+    return {'do': 'Super talents: spend the open points', 'why': 'every pick is from Griffy or Pulse (resettable if needed)', 'sub': sub}
 
 if __name__ == '__main__':
     o = build()
