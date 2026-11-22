@@ -51,3 +51,6 @@ Loop: card run-through (1 by 1, dailies + tasks) -> Zack says what is wrong / un
 
 ## 2026-11-21 Goal shown as open after it was hit
 Zack passed 900K POW and freed the Pillar Coral fish; cards kept pushing 900K from the 11-20 Toolbox read (805K). Fix at next build: goal_card shows the read time of the POW number, flags it when older than the save, and a reached target triggers the re-check (LAW 1) instead of repeating the goal.
+
+## 2026-11-21 No real Arcanist Form plan
+Zack asked for a concrete AC form push plan; I gave mechanics + fan-guide generalities because nothing reads Cat's form state (maps unlocked in form, barrier progress, tachyons per type, Tesseract levels, form accuracy/damage, Overwhelming Energy per map). Fix: next pull read Toolbox Tesseract + arcane map pages, build model/arcanist.py on Cat's card: next barrier map, what blocks it (accuracy/damage/kills), the exact Tesseract buys with her tachyons, which map to sit on, crystal list from Zack's long-term park maps. Creators cover supers only; map path is fan source (gameslikefinder).
