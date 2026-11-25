@@ -1,185 +1,260 @@
 {
- "snapshot": "20261121T1741",
- "cycles_per_hr": {
-  "Combustion": 90.0,
-  "Synthesis": 22.642,
-  "Polymerize": 0.23
- },
+ "snapshot": "20261125T2028",
+ "cycles_per_hr": {},
  "salts": [
   {
    "salt": "Redox Salts",
-   "rank": 30,
-   "auto": "off",
+   "rank": 37,
+   "auto": 0,
+   "cycle": "Combustion",
    "mats": [
     [
      "Spore Cap",
-     1640.0
+     10
     ],
     [
      "Copper Ore",
-     820.0
+     5
     ]
    ],
-   "cycle": "Combustion",
-   "balance_hr": "+4,500",
-   "safe": 4831,
-   "limit": "Spore Cap"
+   "have": {
+    "Spore Cap": 1049867250,
+    "Copper Ore": 1049933625
+   },
+   "safe": null,
+   "limit": null,
+   "balance_hr": null,
+   "refined": 972716,
+   "cap": 1000000
   },
   {
    "salt": "Explosive Salts",
-   "rank": 23,
-   "auto": "off",
+   "rank": 28,
+   "auto": 0,
+   "cycle": "Combustion",
    "mats": [
     [
      "Bullfrog Horn",
-     1100.0
+     10
     ],
     [
      "Forest Fibres",
-     550.0
+     5
     ],
     [
      "Redox Salts",
-     116.0
+     2
     ]
    ],
-   "cycle": "Combustion",
-   "balance_hr": "+630",
-   "safe": 30,
-   "limit": "Redox Salts"
+   "have": {
+    "Bullfrog Horn": 988562517,
+    "Forest Fibres": 137425944,
+    "Redox Salts": 9041022
+   },
+   "safe": null,
+   "limit": null,
+   "balance_hr": null,
+   "refined": 678376,
+   "cap": 1000000
   },
   {
    "salt": "Spontaneity Salts",
-   "rank": 22,
-   "auto": "off",
+   "rank": 25,
+   "auto": 0,
+   "cycle": "Combustion",
    "mats": [
     [
      "Pocket Sand",
-     5150.0
+     50
     ],
     [
      "Goldfish",
-     3090.0
+     30
     ],
     [
      "Fly",
-     4120.0
+     40
     ],
     [
      "Explosive Salts",
-     110.0
+     2
     ]
    ],
-   "cycle": "Combustion",
-   "balance_hr": "+8,971.13",
-   "safe": 23,
-   "limit": "Explosive Salts"
+   "have": {
+    "Pocket Sand": 789576416,
+    "Goldfish": 1049778750,
+    "Fly": 1049705000,
+    "Explosive Salts": 1006487
+   },
+   "safe": null,
+   "limit": null,
+   "balance_hr": null,
+   "refined": 584522,
+   "cap": 1000000
   },
   {
    "salt": "Dioxide Synthesis",
-   "rank": 19,
-   "auto": "off",
+   "rank": 20,
+   "auto": 0,
+   "cycle": "Synthesis",
    "mats": [
     [
      "Floof Ploof",
-     820.0
+     10
     ],
     [
      "Dune Soul",
-     164.0
+     2
     ],
     [
      "Scorpie",
-     82.0
+     1
     ],
     [
      "Spontaneity Salts",
-     45.0
+     1
     ]
    ],
-   "cycle": "Synthesis",
-   "balance_hr": "+566.04",
-   "safe": 108,
-   "limit": "Spontaneity Salts"
+   "have": {
+    "Floof Ploof": 1047882504,
+    "Dune Soul": 5468302,
+    "Scorpie": 503233779,
+    "Spontaneity Salts": 6054047
+   },
+   "safe": null,
+   "limit": null,
+   "balance_hr": null,
+   "refined": 114072,
+   "cap": 800000
   },
   {
    "salt": "Purple Salt",
-   "rank": 15,
-   "auto": "off",
+   "rank": 17,
+   "auto": 0,
+   "cycle": "Synthesis",
    "mats": [
     [
      "Cracked Glass",
-     1450.0
+     25
     ],
     [
      "Bloach",
-     290.0
+     5
     ],
     [
      "Sentient Cereal",
-     290.0
+     5
     ],
     [
      "Mousey",
-     290.0
+     5
     ],
     [
      "Dioxide Synthesis",
-     66.0
+     2
     ]
    ],
-   "cycle": "Synthesis",
-   "balance_hr": "+158.49",
-   "safe": 19,
-   "limit": "Dioxide Synthesis"
+   "have": {
+    "Cracked Glass": 1040025856,
+    "Bloach": 49263364,
+    "Sentient Cereal": 428561037,
+    "Mousey": 226511302,
+    "Dioxide Synthesis": 1276592
+   },
+   "safe": null,
+   "limit": null,
+   "balance_hr": null,
+   "refined": 91956,
+   "cap": 500000
   },
   {
    "salt": "Nullo Salt",
-   "rank": 14,
-   "auto": "off",
+   "rank": 16,
+   "auto": 0,
+   "cycle": "Synthesis",
    "mats": [
     [
      "Contact Lense",
-     2600.0
+     50
     ],
     [
      "Void Bar",
-     260.0
+     5
     ],
     [
      "Wispy Lumber",
-     260.0
+     5
     ],
     [
      "Flycicle",
-     260.0
+     5
     ],
     [
      "Frigid Soul",
-     260.0
+     5
     ],
     [
      "Purple Salt",
-     60.0
+     2
     ]
    ],
-   "cycle": "Synthesis",
-   "balance_hr": "+1,381.13",
-   "safe": 15,
-   "limit": "Purple Salt"
+   "have": {
+    "Contact Lense": 1021690385,
+    "Void Bar": 6253020,
+    "Wispy Lumber": 175114849,
+    "Flycicle": 318283345,
+    "Frigid Soul": 4169137,
+    "Purple Salt": 375473
+   },
+   "safe": null,
+   "limit": null,
+   "balance_hr": null,
+   "refined": 84972,
+   "cap": 400000
+  },
+  {
+   "salt": "Crosslink Salt",
+   "rank": 2,
+   "auto": 0,
+   "cycle": null,
+   "mats": [
+    [
+     "Light Lantern",
+     10
+    ],
+    [
+     "Breezy Soul",
+     2
+    ],
+    [
+     "Tuttle",
+     1
+    ],
+    [
+     "Nullo Salt",
+     1
+    ]
+   ],
+   "have": {
+    "Light Lantern": 1049999130,
+    "Breezy Soul": 10937809,
+    "Tuttle": 11793628,
+    "Nullo Salt": 883200
+   },
+   "safe": null,
+   "limit": null,
+   "balance_hr": null,
+   "refined": 132,
+   "cap": 200
   }
  ],
- "throttle_ready": [
-  "Autistastic",
-  "Autistomatic"
- ],
- "soul_use_hr": {
-  "Dune Soul": 3713.288,
-  "Frigid Soul": 5886.92
+ "throttle_ready": [],
+ "soul_use_hr": {},
+ "soul_per_cycle": {
+  "Dune Soul": 2,
+  "Frigid Soul": 5,
+  "Breezy Soul": 2
  },
- "locked": [
-  "Crosslink Salt",
-  "Propagated Salt",
-  "Anionic Salt"
- ]
+ "locked": [],
+ "total_levels": 143
 }

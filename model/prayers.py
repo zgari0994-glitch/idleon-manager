@@ -29,23 +29,19 @@ def _n(s):
 
 
 def build():
-    t = (SNAP / 'toolbox' / 'prayers.txt').read_text()
-    bal = {k: _n(v) for k, v in re.findall(r'\n(' + '|'.join(SOULS) + r')\n([^\n]+)', t)}
-    pr = []
-    for m in re.finditer(r'\n([A-Z][A-Za-z ]+)\nLv (\d+) / (\d+)\n(Maxed\n)?Bonus\n([^\n]+)\nCurse\n([^\n]+)\n(.*?)(?=\n[A-Z][A-Za-z ]+\nLv \d+ / |\Z)', t, re.S):
-        body = m.group(7)
-        cost = re.search(r'Cost to max\n([^\n]+)\n([^\n]+)\n/\n([^\n]+)', body)
-        have = _n(cost.group(2)) if cost else None
-        cur = next((k for k, v in bal.items() if have and v and abs(v - have) / v < 0.01), None)
-        pr.append({'name': m.group(1).strip(), 'lv': int(m.group(2)), 'max': int(m.group(3)), 'maxed': bool(m.group(4)), 'bonus': m.group(5), 'curse': m.group(6),
-                   'equipped_by': re.findall(r'Autis\w+', body), 'to_max': _n(cost.group(1)) if cost else None, 'next': _n(cost.group(3)) if cost else None,
-                   'soul': cur, 'unlock': (re.search(r'Unlocks at\n([^\n]+)', body) or [0, ''])[1]})
-    waves = {}
-    try:
-        wt = (SNAP / 'toolbox' / 'worship.txt').read_text()
-        waves = {a.strip(): int(b) for a, b in re.findall(r'\n([A-Z][A-Za-z ]+)\n\t(\d+)\t', wt)}
-    except Exception:
-        pass
+    # Zack 2026-11-25: Toolbox parser numbers (model/data.py); next cost = Toolbox's calcPrayerCost (added by the parse harness)
+    from data import load
+    D = load()
+    SOULN = {'Soul1': 'Forest Soul', 'Soul2': 'Dune Soul', 'Soul3': 'Rooted Soul', 'Soul4': 'Frigid Soul', 'Soul5': 'Squishy Soul', 'Soul6': 'Oozie Soul', 'Soul7': 'Breezy Soul'}
+    bal, pr = {}, []
+    eq = {c['name']: [p.replace('_', ' ') for p in (c.get('activePrayers') or []) if isinstance(p, str)] for c in D.characters}
+    waves = {t['name'].replace('_', ' '): t.get('maxWave', 0) for t in D.system('worship') if t.get('name')}
+    for p in D.system('prayers'):
+        nm = p['name'].replace('_', ' '); soul = SOULN.get(p.get('soul'), p.get('soul'))
+        bal[soul] = p.get('totalAmount')
+        pr.append({'name': nm, 'lv': p['level'], 'max': p['maxLevel'], 'maxed': p['level'] >= p['maxLevel'], 'bonus': p['effect'].replace('_', ' '), 'curse': p['curse'].replace('_', ' '),
+                   'equipped_by': [c for c, ps in eq.items() if nm in ps], 'to_max': None, 'next': p.get('nextCost'), 'soul': soul,
+                   'unlock': f"Wave {p.get('unlockWave')} in {p.get('unlockZone')}"})
     for p in pr:
         m = re.match(r'Wave (\d+) in (.+)', p['unlock'] or '')
         if m and m.group(2).strip() in waves:

@@ -10,11 +10,18 @@ SOUL_OF = {'Goblin Gorefest': 'Forest Soul', 'Wakawaka War': 'Dune Soul', 'Acorn
 
 
 def build():
-    t = (SNAP / 'toolbox' / 'worship.txt').read_text()
-    waves = {a.strip(): int(b) for a, b in re.findall(r'\n([A-Z][A-Za-z ]+)\n\t(\d+)\t', t)}
-    chars = [{'char': a, 'lv': int(b), 'skull': c, 'charge': d, 'rate': e, 'full': f} for a, b, c, d, e, f in
-             re.findall(r'\n(Autis\w+)\nWorship Lv (\d+) · ([^\n]+)\nCharge\n([^\n]+)\nCharge rate\n([^\n]+) per day\nFull in\n([^\n]+)', t)]
-    msa = dict(re.findall(r'\n(Spelunking Pow|Research Exp|DMG|Class XP|Skill XP)\n([^\n]+)', t))
+    # Zack 2026-11-25: Toolbox parser numbers (model/data.py)
+    from data import load
+    D = load()
+    waves = {t['name'].replace('_', ' '): t.get('maxWave', 0) for t in D.system('worship') if t.get('name')}
+    chars = []
+    for c in D.characters:
+        w = c.get('worship') or {}
+        if not w: continue
+        rate = float(w.get('chargeRate') or 0); cur, mx = float(w.get('currentCharge') or 0), float(w.get('maxCharge') or 0)
+        days = (mx - cur) / rate if rate else 0
+        chars.append({'char': c['name'], 'lv': (c.get('skillsInfo') or {}).get('worship', {}).get('level'), 'skull': '', 'charge': f"{cur:,.0f} / {mx:,.0f}",
+                      'rate': f"{rate:g}", 'full': f"{int(days)}d {int(days % 1 * 24)}h" if days > 0 else 'full'})
     pr = {}
     try: pr = json.load(open(ROOT / 'model' / 'prayers.json'))
     except Exception: pass
@@ -22,7 +29,7 @@ def build():
     ref = {}
     try: ref = json.load(open(ROOT / 'model' / 'refinery.json')).get('soul_use_hr', {})
     except Exception: pass
-    out = {'snapshot': SNAP.name, 'waves': waves, 'total': sum(waves.values()), 'chars': chars, 'msa': msa, 'unlocks': unlocks, 'soul_use_hr': ref, 'souls': pr.get('souls', {})}
+    out = {'snapshot': SNAP.name, 'waves': waves, 'total': sum(waves.values()), 'chars': chars, 'msa': {}, 'unlocks': unlocks, 'soul_use_hr': ref, 'souls': pr.get('souls', {})}
     json.dump(out, open(ROOT / 'model' / 'worship.json', 'w'), indent=1)
     return out
 
