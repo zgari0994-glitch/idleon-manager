@@ -8,6 +8,8 @@ python3 "$REPO/tools/decode_pull.py" "$1" "$W/live.json"
 if [ ! -d "$W/ar" ]; then
   git clone -q --depth 1 https://github.com/TwoSpookyBoos/IdleOnAutoReviewBot.git "$W/ar"
   pip install --break-system-packages -q -r "$W/ar/mysite/requirements/common.txt" coloredlogs python-dotenv beautifulsoup4 lxml >/dev/null 2>&1
+else
+  git -C "$W/ar" pull -q --ff-only 2>/dev/null || echo "WARN: AutoReview update failed, using the cached copy"
 fi
 (cd "$W/ar/mysite" && PYTHONPATH=. python3 "$REPO/tools/run_ar.py" "$W/live.json" "$W/review.json" 2>/dev/null | tail -1)
 STAMP=$(python3 -c "import json;m=json.load(open('$W/review.json'))['meta'];print(m['game_save_utc'][:16].replace(':','').replace('-',''))")
@@ -16,3 +18,5 @@ gzip -c "$W/live.json" > "$D/raw.json.gz"; gzip -c "$W/review.json" > "$D/review
 python3 -c "import json;json.dump(json.load(open('$W/review.json'))['meta'],open('$D/meta.json','w'),indent=1)"
 echo "$STAMP" > "$REPO/snapshots/LATEST"
 echo "saved snapshots/$STAMP"
+"$REPO/tools/tb_parse.sh" "$STAMP"          # Toolbox's own parser on this save (Zack 2026-11-25)
+python3 "$REPO/tools/check_data.py" "$STAMP" || echo "DATA CHECK FAILED: see snapshots/$STAMP/check.md"

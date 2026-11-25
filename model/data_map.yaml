@@ -1,0 +1,421 @@
+# system -> where its numbers live in Toolbox's parsed save (snapshots/<save>/tb_parsed.json.gz).
+# path: account section (dot path) or @characters.<field>. null = not in the parser yet (must come from AutoReview / raw save; check_data flags it).
+achievements:
+  owners:
+  - Autistopher
+  path: achievements
+advice_fish:
+  owners:
+  - Autisticles
+  path: adviceFish
+alchemy_bubbles:
+  owners:
+  - Autistocat
+  path: alchemy
+alchemy_cauldrons:
+  owners:
+  - unassigned in jobs.yaml
+  path: alchemy
+alchemy_p2w:
+  owners:
+  - Autistocat
+  path: alchemy
+alchemy_vials:
+  owners:
+  - Autistocat
+  path: alchemy
+arcade:
+  owners:
+  - Autisticles
+  path: arcade
+armor_sets:
+  owners:
+  - Autistastic
+  path: armorSmithy
+atom_collider:
+  owners:
+  - Autistastic
+  path: atoms
+autoloot:
+  owners:
+  - unassigned in jobs.yaml
+  path: serverVars.AutoLoot
+ballot:
+  owners:
+  - Autistotle
+  path: voteBallot
+basketball:
+  owners:
+  - unassigned in jobs.yaml
+  path: null
+beanstalk:
+  owners:
+  - Autiszemo
+  path: sneaking.beanstalkData
+breeding:
+  owners:
+  - Autistacular
+  path: breeding
+bribes:
+  owners:
+  - Autistopher
+  path: bribes
+cape_vine:
+  owners:
+  - Autistachio
+  path: capeVine
+cards:
+  owners:
+  - Autistronaut
+  path: cards
+caverns:
+  owners:
+  - Autistabish
+  path: hole
+clam_work:
+  owners:
+  - Autisticles
+  path: clamWork
+class_kill_talents:
+  owners:
+  - unassigned in jobs.yaml
+  path: '@characters.talents'
+cog_board:
+  owners:
+  - unassigned in jobs.yaml
+  path: construction
+colo_scores:
+  owners:
+  - unassigned in jobs.yaml
+  path: highscores
+companions:
+  owners:
+  - unassigned in jobs.yaml
+  path: companions
+compass:
+  owners:
+  - Autistacular
+  path: compass
+construction_buildings:
+  owners:
+  - Autistastic
+  path: construction
+cooking:
+  owners:
+  - Autiszemo
+  path: cooking
+coral_kid:
+  owners:
+  - Autistabish
+  path: divinity
+coral_reef:
+  owners:
+  - Autistachio
+  path: coralReef
+crystal_spawn_chance:
+  owners:
+  - unassigned in jobs.yaml
+  path: '@characters.crystalSpawnChance'
+dancing_coral:
+  owners:
+  - Autistachio
+  path: coralReef
+darts:
+  owners:
+  - unassigned in jobs.yaml
+  path: null
+data_source:
+  meta: true
+death_note:
+  owners:
+  - Autistopher
+  - Autiszemo
+  path: deathNote
+divinity:
+  owners:
+  - Autistabish
+  path: divinity
+drop_rate:
+  owners:
+  - unassigned in jobs.yaml
+  path: '@characters.stats'
+dungeons:
+  owners:
+  - unassigned in jobs.yaml
+  path: dungeons
+emperor:
+  owners:
+  - Autistastic
+  path: emperor
+equinox:
+  owners:
+  - Autistopher
+  path: equinox
+event_points_shop:
+  owners:
+  - Autistotle
+  path: null
+family_bonuses:
+  owners:
+  - unassigned in jobs.yaml
+  path: '@characters.familyBonuses'
+farming:
+  owners:
+  - Autiszemo
+  path: farming
+forge_upgrades:
+  owners:
+  - unassigned in jobs.yaml
+  path: forge
+friend_bonuses:
+  owners:
+  - unassigned in jobs.yaml
+  path: friendBonusStats
+gallery:
+  owners:
+  - Autistachio
+  path: gallery
+gaming:
+  owners:
+  - Autistastic
+  path: gaming
+gemshop:
+  owners:
+  - Autistotle
+  path: gemShopPurchases
+glimbo:
+  owners:
+  - unassigned in jobs.yaml
+  path: minehead.glimbo
+greenstacks:
+  owners:
+  - Autistotle
+  path: storage
+grimoire:
+  owners:
+  - Autiszemo
+  path: grimoire
+guild_bonuses:
+  owners:
+  - unassigned in jobs.yaml
+  path: guild
+hat_rack:
+  owners:
+  - unassigned in jobs.yaml
+  path: hatRack
+highest_dmg:
+  owners:
+  - unassigned in jobs.yaml
+  path: highscores
+inventory:
+  owners:
+  - unassigned in jobs.yaml
+  path: '@characters.inventory'
+islands:
+  owners:
+  - Autistastic
+  path: islands
+item_filter:
+  meta: true
+jelly_operator:
+  owners:
+  - Autisticles
+  path: jellyOperator
+killroy:
+  owners:
+  - Autistacular
+  - Autistastic
+  - Autistocat
+  path: killroy
+lab_bonuses:
+  owners:
+  - unassigned in jobs.yaml
+  path: lab
+lab_chips:
+  owners:
+  - unassigned in jobs.yaml
+  path: lab
+lab_jewels:
+  owners:
+  - unassigned in jobs.yaml
+  path: lab
+lab_mainframe:
+  owners:
+  - unassigned in jobs.yaml
+  path: lab
+legend_talents:
+  owners:
+  - Autisticles
+  path: legendTalents
+library:
+  owners:
+  - Autistopher
+  path: libraryTimes
+library_group_characters:
+  owners:
+  - unassigned in jobs.yaml
+  path: libraryTimes
+manual_tome_score:
+  owners:
+  - unassigned in jobs.yaml
+  path: tome
+max_subgroups:
+  meta: true
+meals:
+  owners:
+  - Autiszemo
+  path: cooking
+menagerie:
+  owners:
+  - Autisticles
+  path: menagerie
+meritocracy:
+  owners:
+  - Autistotle
+  path: voteBallot.meritocracyBonuses
+merits:
+  owners:
+  - unassigned in jobs.yaml
+  path: meritsDescriptions
+minehead:
+  owners:
+  - unassigned in jobs.yaml
+  path: minehead
+npc_tokens:
+  owners:
+  - unassigned in jobs.yaml
+  path: quests
+obols:
+  owners:
+  - unassigned in jobs.yaml
+  path: obols
+owl:
+  owners:
+  - Autistopher
+  path: owl
+post_office:
+  owners:
+  - Autiszemo
+  path: postOfficeShipments
+prayers:
+  owners:
+  - unassigned in jobs.yaml
+  path: prayers
+printer:
+  owners:
+  - Autisticles
+  - Autistomatic
+  - Autistronaut
+  - Autiszemo
+  path: printer
+quests:
+  owners:
+  - unassigned in jobs.yaml
+  path: quests
+refinery:
+  owners:
+  - Autistastic
+  path: refinery
+research:
+  owners:
+  - Autistotle
+  path: research
+reset_counters:
+  owners:
+  - unassigned in jobs.yaml
+  path: accountOptions
+rift:
+  owners:
+  - Autistopher
+  path: rift
+royal_armory:
+  owners:
+  - Autistastic
+  path: royalGuardian
+sailing:
+  owners:
+  - Autisticles
+  path: sailing
+saltlick:
+  owners:
+  - Autistopher
+  path: saltLick
+shrines:
+  owners:
+  - unassigned in jobs.yaml
+  path: shrines
+slab:
+  owners:
+  - Autistabish
+  path: looty
+sneaking:
+  owners:
+  - Autistacular
+  path: sneaking
+spelunk:
+  owners:
+  - Autistomatic
+  path: spelunking
+stamps:
+  owners:
+  - Autistopher
+  path: stamps
+star_signs:
+  owners:
+  - Autistopher
+  path: starSigns
+statues:
+  owners:
+  - Autistabish
+  - Autistastic
+  - Autisticles
+  - Autistomatic
+  path: statues
+storage:
+  owners:
+  - unassigned in jobs.yaml
+  path: storage
+summoning:
+  owners:
+  - Autistocat
+  path: summoning
+sushi_station:
+  owners:
+  - Autisticles
+  path: sushiStation
+tabbed_advice_groups:
+  meta: true
+tesseract:
+  owners:
+  - Autistocat
+  path: tesseract
+the_button:
+  owners:
+  - Autisticles
+  path: button
+tome:
+  owners:
+  - unassigned in jobs.yaml
+  path: tome
+trapping:
+  owners:
+  - Autistacular
+  path: traps
+vault:
+  owners:
+  - Autistopher
+  path: upgradeVault
+version:
+  meta: true
+world_progress:
+  owners:
+  - unassigned in jobs.yaml
+  path: finishedWorlds
+worship:
+  owners:
+  - unassigned in jobs.yaml
+  path: totems
+zenith_market:
+  owners:
+  - Autisticles
+  path: zenith

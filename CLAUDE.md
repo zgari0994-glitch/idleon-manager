@@ -4,6 +4,13 @@
 1. Goal chain: the main account goal is the biggest account blocker (measurable target). If another system blocks it, that system's owner makes the unblock their character goal and hard-focuses it, and every task in that system aims at the unblock. The account goal stays until its target is reached, then re-check.
 2. Focus never means neglect: a character hard-focusing a blocker STILL does every other system and duty they own, every day. Example: if Construction is the blocker, Autistastic hard-focuses Construction AND still checks his Royal Guardian duties, Gaming and everything else on his card. Nothing drops off a card because something else is the focus.
 
+## Data layer v2 (Zack 2026-11-25, supersedes the 57-page Toolbox scrape)
+- Pull = the save only (Refresh below, ~3 calls) + dashboard timers. `tools/snapshot.sh` now also runs `tools/tb_parse.sh` (updates the Idleon Toolbox source Morta1/IdleonToolbox and runs its own parser on the save -> `snapshots/<save>/tb_parsed.json.gz`, 108 sections + 11 characters, ~6s) and `tools/check_data.py` (coverage + sanity -> `snapshots/<save>/check.md`). AutoReview source is git-pulled too.
+- Planners read game numbers ONLY through `model/data.py` (`load().system('sailing')`, `.get(path)`, `.char(name)`); missing/empty raises DataMissing. `model/data_map.yaml` = system -> parsed path (null = not in parser: AutoReview/raw save, say so).
+- LOOKUP RULE: every game answer starts with `python3 tools/lookup.py <system> [terms]` (or `--terms "..."`): data + AutoReview + ranked creator claims + findings + coverage. Answer from what it returned; NO CREATOR COVERAGE -> data/wiki + "my read". Calls log to state/lookups.log (auditable).
+- The old bulk page read (tools/tb_read_multi.js) is retired except for website-only pieces (upgrade optimizers, some dashboard alerts) found while migrating planners; list each one in plans/pending_changes.md.
+- Toolbox page JSONs in snapshots/<save>/toolbox/ are legacy: planners move to tb_parsed system by system.
+
 ## How Zack works
 - Shop buy orders (Zack 2026-11-21): every system shop shows a sourced buy order on its owner's card (next level, cost vs balance, source per line). Spelunking amber done (model/spelunking.py BUY_ORDER); rest in plans/pending_changes.md.
 - Sourced order beats my math (Zack 2026-11-21, after Blooming Axe was ranked over Grand Martial): when a creator names a priority, it goes first. My own weights or gain-per-cost math only order items inside the same sourced tier, never above a sourced pick.
