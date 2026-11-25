@@ -1,5 +1,6 @@
 # system -> where its numbers live in Toolbox's parsed save (snapshots/<save>/tb_parsed.json.gz).
-# path: account section (dot path) or @characters.<field>. null = not in the parser yet (must come from AutoReview / raw save; check_data flags it).
+# path: account section (dot path) or @characters.<field>. null = not in the parser yet (AutoReview / raw save; check_data flags it).
+# tags: creator tag 'system' values that cover it (default = system_index slug). kw: statement keywords for systems with no tag category.
 achievements:
   owners:
   - Autistopher
@@ -12,18 +13,26 @@ alchemy_bubbles:
   owners:
   - Autistocat
   path: alchemy
+  tags:
+  - bubbles
 alchemy_cauldrons:
   owners:
   - unassigned in jobs.yaml
   path: alchemy
+  tags:
+  - cauldrons_liquids
 alchemy_p2w:
   owners:
   - Autistocat
   path: alchemy
+  tags:
+  - cauldrons_liquids
 alchemy_vials:
   owners:
   - Autistocat
   path: alchemy
+  tags:
+  - vials
 arcade:
   owners:
   - Autisticles
@@ -32,11 +41,16 @@ armor_sets:
   owners:
   - Autistastic
   path: armorSmithy
+  tags:
+  - armor_smithy
 atom_collider:
   owners:
   - Autistastic
   path: atoms
 autoloot:
+  kw:
+  - autoloot
+  - auto loot
   owners:
   - unassigned in jobs.yaml
   path: serverVars.AutoLoot
@@ -45,6 +59,8 @@ ballot:
   - Autistotle
   path: voteBallot
 basketball:
+  kw:
+  - basketball
   owners:
   - unassigned in jobs.yaml
   path: null
@@ -72,19 +88,29 @@ caverns:
   owners:
   - Autistabish
   path: hole
+  tags:
+  - hole
 clam_work:
   owners:
   - Autisticles
   path: clamWork
 class_kill_talents:
+  kw:
+  - kill talent
   owners:
   - unassigned in jobs.yaml
   path: '@characters.talents'
+  tags:
+  - talent_points
 cog_board:
   owners:
   - unassigned in jobs.yaml
   path: construction
+  tags:
+  - construction
 colo_scores:
+  kw:
+  - colosseum
   owners:
   - unassigned in jobs.yaml
   path: highscores
@@ -92,6 +118,8 @@ companions:
   owners:
   - unassigned in jobs.yaml
   path: companions
+  tags:
+  - pets
 compass:
   owners:
   - Autistacular
@@ -100,27 +128,45 @@ construction_buildings:
   owners:
   - Autistastic
   path: construction
+  tags:
+  - buildings
+  - construction
 cooking:
   owners:
   - Autiszemo
   path: cooking
 coral_kid:
+  kw:
+  - coral kid
+  - ballthezar
   owners:
   - Autistabish
   path: divinity
+  tags:
+  - divinity
+  - coral_reef
 coral_reef:
   owners:
   - Autistachio
   path: coralReef
 crystal_spawn_chance:
+  kw:
+  - crystal spawn
+  - crystal mob
   owners:
   - unassigned in jobs.yaml
   path: '@characters.crystalSpawnChance'
+  tags:
+  - drop_rate
 dancing_coral:
   owners:
   - Autistachio
   path: coralReef
+  tags:
+  - coral_reef
 darts:
+  kw:
+  - dart
   owners:
   - unassigned in jobs.yaml
   path: null
@@ -155,10 +201,16 @@ event_points_shop:
   owners:
   - Autistotle
   path: null
+  tags:
+  - event_shop
 family_bonuses:
+  kw:
+  - family bonus
   owners:
   - unassigned in jobs.yaml
   path: '@characters.familyBonuses'
+  tags:
+  - class_exp
 farming:
   owners:
   - Autiszemo
@@ -167,10 +219,15 @@ forge_upgrades:
   owners:
   - unassigned in jobs.yaml
   path: forge
+  tags:
+  - forge
+  - anvil
 friend_bonuses:
   owners:
   - unassigned in jobs.yaml
   path: friendBonusStats
+  tags:
+  - friends
 gallery:
   owners:
   - Autistachio
@@ -183,6 +240,8 @@ gemshop:
   owners:
   - Autistotle
   path: gemShopPurchases
+  tags:
+  - gem_shop
 glimbo:
   owners:
   - unassigned in jobs.yaml
@@ -199,6 +258,8 @@ guild_bonuses:
   owners:
   - unassigned in jobs.yaml
   path: guild
+  tags:
+  - guild
 hat_rack:
   owners:
   - unassigned in jobs.yaml
@@ -207,10 +268,14 @@ highest_dmg:
   owners:
   - unassigned in jobs.yaml
   path: highscores
+  tags:
+  - damage
 inventory:
   owners:
   - unassigned in jobs.yaml
   path: '@characters.inventory'
+  tags:
+  - storage
 islands:
   owners:
   - Autistastic
@@ -231,18 +296,26 @@ lab_bonuses:
   owners:
   - unassigned in jobs.yaml
   path: lab
+  tags:
+  - lab
 lab_chips:
   owners:
   - unassigned in jobs.yaml
   path: lab
+  tags:
+  - lab
 lab_jewels:
   owners:
   - unassigned in jobs.yaml
   path: lab
+  tags:
+  - lab
 lab_mainframe:
   owners:
   - unassigned in jobs.yaml
   path: lab
+  tags:
+  - lab
 legend_talents:
   owners:
   - Autisticles
@@ -255,10 +328,14 @@ library_group_characters:
   owners:
   - unassigned in jobs.yaml
   path: libraryTimes
+  tags:
+  - library
 manual_tome_score:
   owners:
   - unassigned in jobs.yaml
   path: tome
+  tags:
+  - tome
 max_subgroups:
   meta: true
 meals:
@@ -285,7 +362,11 @@ npc_tokens:
   owners:
   - unassigned in jobs.yaml
   path: quests
+  tags:
+  - quests
 obols:
+  kw:
+  - obol
   owners:
   - unassigned in jobs.yaml
   path: obols
@@ -294,6 +375,10 @@ owl:
   - Autistopher
   path: owl
 post_office:
+  kw:
+  - post office
+  - po box
+  - box points
   owners:
   - Autiszemo
   path: postOfficeShipments
@@ -321,6 +406,9 @@ research:
   - Autistotle
   path: research
 reset_counters:
+  kw:
+  - reset counter
+  - times reset
   owners:
   - unassigned in jobs.yaml
   path: accountOptions
@@ -340,7 +428,11 @@ saltlick:
   owners:
   - Autistopher
   path: saltLick
+  tags:
+  - salt_lick
 shrines:
+  kw:
+  - shrine
   owners:
   - unassigned in jobs.yaml
   path: shrines
@@ -356,6 +448,8 @@ spelunk:
   owners:
   - Autistomatic
   path: spelunking
+  tags:
+  - spelunking
 stamps:
   owners:
   - Autistopher
@@ -364,6 +458,8 @@ star_signs:
   owners:
   - Autistopher
   path: starSigns
+  tags:
+  - constellations
 statues:
   owners:
   - Autistabish
@@ -383,6 +479,8 @@ sushi_station:
   owners:
   - Autisticles
   path: sushiStation
+  tags:
+  - sushi
 tabbed_advice_groups:
   meta: true
 tesseract:
@@ -401,10 +499,14 @@ trapping:
   owners:
   - Autistacular
   path: traps
+  tags:
+  - traps
 vault:
   owners:
   - Autistopher
   path: upgradeVault
+  tags:
+  - upgrade_vault
 version:
   meta: true
 world_progress:
@@ -419,3 +521,5 @@ zenith_market:
   owners:
   - Autisticles
   path: zenith
+  tags:
+  - zenith_market

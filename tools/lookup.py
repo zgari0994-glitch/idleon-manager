@@ -90,12 +90,14 @@ out.append(f"\n## 2. AUTOREVIEW ({len(labels)} items)")
 out += labels[:25] + ([f"  ... {len(labels) - 25} more"] if len(labels) > 25 else [])
 
 # 3. CREATORS
-slug = (IDX.get(system, {}).get('transcripts') or {}).get('slug') if system else None
+_tr = IDX.get(system, {}).get('transcripts') if system else None; slug = (_tr.get('slug') if isinstance(_tr, dict) else None) or system
 claims = []
 for f in glob.glob(str(ROOT / 'sources/creators/*/tags/*.csv')):
     for r in csv.DictReader(open(f)):
         st = r.get('statement', '').lower()
-        hit_sys = slug and r.get('system') == slug
+        tg = (MAP.get(system, {}).get('tags') or [slug]) if system else []
+        kw = MAP.get(system, {}).get('kw') or [] if system else []
+        hit_sys = (r.get('system') in tg) or (kw and any(k in st for k in kw))
         hit_terms = terms and all(t in st for t in terms)
         if (hit_sys and (not terms or any(t in st for t in terms))) or (not slug and hit_terms) or (slug and hit_terms):
             claims.append(r)
