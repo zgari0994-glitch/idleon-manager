@@ -16,6 +16,7 @@ IDX = yaml.safe_load(open(ROOT / 'model' / 'system_index.yaml'))
 MAP = yaml.safe_load(open(ROOT / 'model' / 'data_map.yaml'))
 USEFUL = {'priority', 'how_to', 'setup', 'skip', 'warning', 'target', 'comparison', 'meta_change', 'opinion', 'mechanic'}
 ADVICE = {'priority', 'how_to', 'setup', 'skip', 'warning', 'target'}
+HOW = {'how_to', 'setup'}   # Zack 2026-11-25: how to progress efficiently matters as much as what to prioritize
 CUT = '2024-06'
 
 by_slug = defaultdict(list)
@@ -41,13 +42,16 @@ for s, v in sorted(IDX.items()):
         mine = [r for r in cl if r['creator'] == c]
         rec = [r for r in mine if r.get('date', '') >= CUT]
         dates = sorted(r['date'] for r in mine if r.get('date', '')[:2] == '20')
-        per[c] = {'all': len(mine), 'recent': len(rec), 'advice': sum(1 for r in rec if r['claim_type'] in ADVICE), 'newest': dates[-1] if dates else ''}
+        per[c] = {'all': len(mine), 'recent': len(rec), 'advice': sum(1 for r in rec if r['claim_type'] in ADVICE), 'how': sum(1 for r in rec if r['claim_type'] in HOW), 'newest': dates[-1] if dates else ''}
     other = [r for r in cl if r['creator'] not in per]
     recent = sum(p['recent'] for p in per.values())
     advice = sum(p['advice'] for p in per.values())
+    how = sum(p['how'] for p in per.values())
     total = sum(p['all'] for p in per.values())
     g = per['griffybit']['advice']
-    if advice == 0:
+    if advice and how == 0:
+        b = 'NO HOW-TO'
+    elif advice == 0:
         b = 'GAP'
     elif advice <= 5:
         b = 'THIN'
@@ -56,19 +60,19 @@ for s, v in sorted(IDX.items()):
     else:
         b = 'OK'
     newest = max([p['newest'] for p in per.values()] + [''])
-    rows.append({'system': s, 'owners': v.get('owners', []), 'bucket': b, 'recent': recent, 'advice': advice, 'total': total,
+    rows.append({'system': s, 'owners': v.get('owners', []), 'bucket': b, 'recent': recent, 'advice': advice, 'how': how, 'total': total,
                  'newest': newest, 'per': per, 'other': len(other), 'in_parser': bool(MAP.get(s, {}).get('path'))})
 
-order = ['GAP', 'THIN', 'OK', 'STRONG']
+order = ['GAP', 'NO HOW-TO', 'THIN', 'OK', 'STRONG']
 rows.sort(key=lambda r: (order.index(r['bucket']), r['advice'], r['system']))
 cnt = {b: sum(1 for r in rows if r['bucket'] == b) for b in order}
 md = ['# Creator coverage per system', f"Claims tagged to each system (recent = {CUT}+; advice = priority/how-to/setup/skip/warning/target).",
       ' | '.join(f"{b}: {n}" for b, n in cnt.items()), '',
-      '| system | owner | bucket | recent (advice) | Griffy | Pulse | Nocturne | newest | data |', '|---|---|---|---|---|---|---|---|---|']
+      '| system | owner | bucket | recent (advice / how-to) | Griffy | Pulse | Nocturne | newest | data |', '|---|---|---|---|---|---|---|---|---|']
 for r in rows:
     p = r['per']
     f = lambda c: f"{p[c]['recent']}/{p[c]['all']}" if p[c]['all'] else '-'
-    md.append(f"| {r['system']} | {', '.join(o[6:] if o.startswith('Autist') else o for o in r['owners']) or '-'} | {r['bucket']} | {r['recent']} ({r['advice']}) | "
+    md.append(f"| {r['system']} | {', '.join(o[6:] if o.startswith('Autist') else o for o in r['owners']) or '-'} | {r['bucket']} | {r['recent']} ({r['advice']} / {r['how']}) | "
               f"{f('griffybit')} | {f('pulseidle')} | {f('nocturne')} | {r['newest']} | {'yes' if r['in_parser'] else 'AR/raw'} |")
 md += ['', 'Creator columns = recent/all claims. "data" = numbers available from the Toolbox parser.']
 (ROOT / 'sources/findings/coverage_table.md').write_text('\n'.join(md) + '\n')
@@ -77,4 +81,4 @@ print(' | '.join(f"{b}: {n}" for b, n in cnt.items()))
 for b in order[:3]:
     pass
 for b in order:
-    print(b + ':', ', '.join(f"{r['system']}({r['advice']})" for r in rows if r['bucket'] == b))
+    print(b + ':', ', '.join(f"{r['system']}({r['advice']}/{r['how']})" for r in rows if r['bucket'] == b))
