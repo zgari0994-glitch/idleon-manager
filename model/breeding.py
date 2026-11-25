@@ -27,33 +27,27 @@ def _n(s):
 
 
 def build():
-    T = json.load(open(SNAP / 'toolbox' / 'breeding.json'))['tabs']
-    up = T['Upgrades']['text'].replace('\xa0', ' ') + '\n'
-    ups, opts = [], []
-    for m in re.finditer(r'\n([A-Z][A-Za-z ]+)\nLv (\d+) / (\d+)(?: · [^\n]+)?\n(Maxed\n)?\n(.+?)\nEffect\n([^\n]+)\n(?:Total bonus\n[^\n]+\n)?(?:([^\n]+)\n/\n([^\n]+)\n)?', up, re.S):
-        name, lv, mx = m.group(1).strip(), int(m.group(2)), int(m.group(3))
-        if name == 'No Upgrade Selected': continue
-        eff = m.group(6); have, cost = _n(m.group(7) or ''), _n(m.group(8) or '')
-        ups.append({'name': name, 'lv': lv, 'max': mx, 'maxed': bool(m.group(4)), 'effect': eff, 'have': have, 'cost': cost})
-        if m.group(4) or not cost: continue
-        num = re.search(r'([\d.]+)', eff)
-        gain = None
-        if num and '%' in eff and lv and name not in NOSTAT:
-            per = float(num.group(1)) / lv
-            gain = 100 * per / (100 + float(num.group(1)))   # own additive slice: marginal % of (100 + effect)
-        if name == 'Grand Martial of Shinytown':   # sits in shiny Group 1 additive (Toolbox shiny multi breakdown)
-            sm = next((b['text'] for b in T['Mobs']['breakdowns'] if b['label'].startswith('Shiny multi')), '')
-            g1 = re.search(r'Group 1\n\nAdd \+10% here: total \+[\d.]+%\n\n×([\d.]+)', sm)
-            if g1 and num: gain = 100 * (float(num.group(1)) / lv / 100) / float(g1.group(1))
-        opts.append({'item': f"{name} {lv}/{mx}", 'currency': 'DNA', 'balance': have, 'cost': cost, 'gain_pct': gain,
+    # Zack 2026-11-25: Toolbox parser numbers (model/data.py); costs = Toolbox page formulas (BreedingUpgrades.jsx)
+    from data import load
+    B = load().system('breeding')
+    dna = B['deadCells']; ups, opts = [], []
+    for u in B['petUpgrades']:
+        name = str(u['name']).split('}')[0].replace('_', ' ').strip()
+        if not name or name == 'No Upgrade Selected' or name == 'Filler': continue
+        lv, mx = u['level'], u['maxLevel']
+        cell = u['baseMatCost'] * (1 + lv) * u['costMatScale'] ** lv
+        food = u['baseCost'] * (1 + lv) * u['costScale'] ** lv
+        eff = str(u.get('boostEffect', '')).replace('_', ' ')
+        ups.append({'name': name, 'lv': lv, 'max': mx, 'maxed': lv >= mx, 'effect': eff, 'have': dna, 'cost': cell, 'meal_cost': food})
+        if lv >= mx: continue
+        opts.append({'item': f"{name} {lv}/{mx}", 'currency': 'DNA', 'balance': dna, 'cost': cell, 'gain_pct': None,
                      'stat': eff, 'weight': WEIGHT.get(name, 1), 'note': NOTE.get(name, '')})
     ranked = spend.rank(opts)['DNA'] if opts else []
-    tr = T['Territory']['text'].replace('\xa0', ' ')
-    terr = [{'name': a, 'claim': int(b.replace(',', '')), 'owned': c} for a, b, c in re.findall(r'\n([A-Z][^\n]+)\n[^\n]+\nProgress\n[^\n]+\nForage speed\n[^\n]+\nNext spice in\n[^\n]+\nSpice\n([\d,]+) to claim · ([^\n]+) owned', tr)]
-    mb = T['Mobs']['text'].replace('\xa0', ' ')
-    eggs = re.search(r'Eggs\n(\d+) / (\d+)', mb); tpe = re.search(r'Time per egg\n([^\n]+)', mb)
-    fence = re.search(r'On the fence\nReset\n([^\n]+)\nLv (\d+) / (\d+)\n●\n(\d+) on the fence\nDays\n([^\n]+)\nNext level\n([^\n]+)', mb)
-    ar = T['Arena']['text']; wave = re.search(r'Max level\n(\d+)', ar)
+    terr = []
+    eggs = (sum(1 for e in B['eggs'] if e), int(B['eggCapacity']))
+    tpe = f"{B['timeToNextEgg'] / 3600:.1f}h" if B.get('timeToNextEgg') else None
+    fence = None
+    wave = B.get('maxArenaLevel')
     # AutoReview shiny targets: fastest days-to-level per bonus
     r = json.load(gzip.open(SNAP / 'review.json.gz')); shiny = []
     for w in r['worlds']:
@@ -66,8 +60,8 @@ def build():
                         m = re.match(r'(.+?): (.+?)([\d,.]+) base days to level', x['label'])
                         if m: shiny.append({'bonus': m.group(1), 'pet': m.group(2), 'days': float(m.group(3).replace(',', '')), 'cur': x['cur'], 'goal': x['goal'], 'tier': it.get('tab', '')})
     shiny.sort(key=lambda x: x['days'])
-    out = {'snapshot': SNAP.name, 'upgrades': ups, 'rank': ranked, 'territory': terr, 'eggs': (int(eggs.group(1)), int(eggs.group(2))) if eggs else None,
-           'time_per_egg': tpe and tpe.group(1), 'fence': fence.groups() if fence else None, 'wave': wave and int(wave.group(1)), 'shiny_targets': shiny}
+    out = {'snapshot': SNAP.name, 'upgrades': ups, 'rank': ranked, 'territory': terr, 'eggs': eggs, 'dna': dna,
+           'time_per_egg': tpe, 'fence': fence, 'wave': wave, 'shiny_targets': shiny}
     json.dump(out, open(ROOT / 'model' / 'breeding.json', 'w'), indent=1)
     return out
 
