@@ -26,6 +26,18 @@ def _ar(name):
     return next(walk(r), None)
 
 
+def from_parsed(rows, cur_names, bal, cur_key, max_key='x4'):
+    # Zack 2026-11-25: same shape as upgrades(), from Toolbox's parser
+    out = []
+    for u in rows:
+        ci = u.get(cur_key); cur = cur_names[int(ci)] if isinstance(ci, (int, float)) and int(ci) < len(cur_names) else None
+        mx = u.get(max_key); lv = u.get('level', 0)
+        out.append({'name': u['name'].replace('_', ' '), 'lv': lv, 'max': int(mx) if isinstance(mx, (int, float)) and mx < 999999 else None,
+                    'maxed': isinstance(mx, (int, float)) and lv >= mx, 'next': None, 'cost': u.get('cost'), 'currency': cur,
+                    'desc': str(u.get('description', '')).replace('_', ' ')[:140], 'unlocked': u.get('unlocked', True)})
+    return out
+
+
 def upgrades(text, cur_names, bal):
     out = []
     for m in re.finditer(r'\n([A-Z][^\n]{2,40})\nLv (\d+)(?: / (\d+))?\n(.*?)(?=\n[A-Z][^\n]{2,40}\nLv \d|\nDiscord|\Z)', text, re.S):
@@ -40,12 +52,12 @@ def upgrades(text, cur_names, bal):
 
 
 def build():
-    T = json.load(open(SNAP / 'toolbox' / 'compass.json'))['tabs']
-    up = T['Upgrades']['text']
-    bal = {d: _n(v) for d, v in re.findall(r'\n(' + '|'.join(DUST) + r')\n([\d.,]+[KMBTQ]?)(?=\n)', up)}
-    ups = upgrades(up[up.find('Filters'):], DUST, bal)
+    from data import load
+    C = load().system('compass')
+    bal = {d['name']: d['value'] for d in C['dusts']}
+    names = [d['name'] for d in C['dusts']]
+    ups = from_parsed(C['upgrades'], names, bal, 'x3')
     by = {u['name']: u for u in ups}
-    # AutoReview targets (next tier only, plus the rest listed)
     ar = _ar('Compass'); targets = []
     for g in (ar or {}).get('groups', []):
         for tab in g.get('items', []):
@@ -53,24 +65,12 @@ def build():
             for it in tab['items']:
                 nm = it['label'].split(': ', 1)[-1]
                 targets.append({'tab': tab['tab'], 'name': nm, 'cur': it['cur'], 'goal': it['goal'], 'up': by.get(nm)})
-    # optimizer
-    opt = T['Upgrade Optimizer']['text']; i = opt.find('Recommended upgrade sequence')
-    optl = [f"{a} {b} -> {c}: {d} for {e}" for a, b, c, d, e in re.findall(r'\n([A-Z][^\n]+)\nLv (\d+) → (\d+)\n(?:x\d+\n)?Damage\n([^\n]+)\n(?:Total cost|Cost)\n([^\n]+)', opt[i:])]
-    # portals
-    P = T['Portals']['text']; portals = []
-    for b in re.split(r'\n(?=[A-Z][^\n]*\n(?:All unlocked\n)?\nPortal 1)', P[P.find('Filters'):]):
-        name = b.split('\n')[0]
-        for num, held, cost in re.findall(r'Portal (\d)\n\n([\d.,]+[KMBTQ]?)\n/\n([\d.,]+[KMBTQ]?)', b):
-            hv = _n(held); cur = next((c for c in DUST if bal.get(c) and hv and abs(bal[c] - hv) / bal[c] < 0.02), 'Cooldust' if hv == 0 else '?')
-            portals.append({'map': name, 'portal': int(num), 'cost': _n(cost), 'currency': cur, 'afford': hv >= _n(cost)})
-    A = T['Abominations']['text']
-    gate = re.search(r'(Tempest Form enters [^\n]+)', A)
-    abom = [(n, w, hp) for n, w, hp in re.findall(r'\n([A-Z][^\n]+)\n(World \d+ · [^\n]+)\nWeakness\n[^\n]+\nHP\n([^\n]+)', A)]
-    killed = len(re.findall(r'\nKilled\n', A))
-    top = re.search(r'Total levels\n([\d,]+)\nExtra dust\n([^\n]+)', up)
-    out = {'snapshot': SNAP.name, 'balance': bal, 'total_levels': top.group(1) if top else None, 'extra_dust': top.group(2) if top else None,
-           'upgrades': ups, 'targets': targets, 'optimizer': optl, 'portals': portals, 'abom_killed': killed, 'abom_next': abom[0] if abom else None,
-           'gate': gate.group(1) if gate else None, 'ar_tier': (ar or {}).get('tier')}
+    ab = C['abominations']; k = int(C.get('totalKilledAbominations') or 0)
+    nxt = ab[k] if k < len(ab) else None
+    out = {'snapshot': SNAP.name, 'balance': bal, 'total_levels': C['totalUpgradeLevels'], 'extra_dust': None,
+           'upgrades': ups, 'targets': targets, 'optimizer': [], 'portals': [], 'abom_killed': k,
+           'abom_next': (nxt['name'].replace('_', ' '), f"World {nxt['world']} · {nxt['map'].replace('_', ' ')}", f"{nxt['hp']}") if nxt else None,
+           'gate': None, 'ar_tier': (ar or {}).get('tier'), 'medallions': C.get('totalAcquiredMedallions')}
     json.dump(out, open(ROOT / 'model' / 'compass.json', 'w'), indent=1)
     return out
 

@@ -3,7 +3,7 @@ AutoReview targets (account-wide upgrades) first, optimizer damage buys, levels 
 import json, re
 from pathlib import Path
 from spend import h
-from compass import _n, _ar, upgrades
+from compass import from_parsed, _n, _ar, upgrades
 
 ROOT = Path(__file__).resolve().parent.parent
 SNAP = ROOT / 'snapshots' / (ROOT / 'snapshots' / 'LATEST').read_text().strip()
@@ -15,24 +15,20 @@ HOLE_OWNER = 'Autistabish'
 
 
 def build():
-    T = json.load(open(SNAP / 'toolbox' / 'grimoire.json'))['tabs']
-    up = T['Upgrades']['text']
-    bal = {d: _n(v) for d, v in re.findall(r'\n(' + '|'.join(BONES) + r')\n([\d.,]+[KMBTQ]?)(?=\n)', up)}
-    ups = upgrades(up[up.find('Filters'):], BONES, bal)
+    from data import load
+    Gm = load().system('grimoire')
+    bal = {BONES[i]: v for i, v in enumerate(Gm['bones']) if i < len(BONES)}
+    ups = from_parsed(Gm['upgrades'], BONES, bal, 'boneType')
     by = {u['name']: u for u in ups}
-    top = re.search(r'Total levels\n([\d,]+)', up); nxt = re.search(r'Next upgrade\n([^\n]+)\nAt ([\d,]+) total levels', up)
+    nu = Gm.get('nextUnlock') or {}
     ar = _ar('The Grimoire'); targets = []
     for g in (ar or {}).get('groups', []):
         for tab in g.get('items', []):
             if not tab.get('tab', '').startswith('To reach Tier'): continue
             for it in tab['items']: targets.append({'tab': tab['tab'], 'name': it['label'], 'cur': it['cur'], 'goal': it['goal'], 'up': by.get(it['label'])})
-    opt = T['Upgrade Optimizer']['text']; i = opt.find('Recommended upgrade sequence')
-    optl = [(a, b, c, d, e, f) for a, b, c, d, e, f in re.findall(r'\n([A-Z][^\n]+)\nLv (\d+) → (\d+)[^\n]*\n(?:x\d+\n)?Damage\n([^\n]+)\n(?:Total cost|Cost)\n([^\n]+)\n([^\n]+)', opt[i:])]
-    M = T['Monsters']['text']
-    mobs = sorted([(a, b, _n(c)) for a, b, c in re.findall(r'\n([A-Z][^\n]+)\n([^\n]+)\nBones per drop\n[^\n]+\nWith Extra bones\n([^\n]+)', M)], key=lambda x: -x[2])
-    out = {'snapshot': SNAP.name, 'balance': bal, 'total': int(top.group(1).replace(',', '')) if top else None,
-           'next_unlock': (nxt.group(1), int(nxt.group(2).replace(',', ''))) if nxt else None, 'upgrades': ups, 'targets': targets,
-           'optimizer': optl, 'best_mobs': mobs[:5], 'ar_tier': (ar or {}).get('tier')}
+    out = {'snapshot': SNAP.name, 'balance': bal, 'total': Gm['totalUpgradeLevels'],
+           'next_unlock': (nu['name'].replace('_', ' '), nu.get('unlockLevel')) if nu.get('name') else None, 'upgrades': ups, 'targets': targets,
+           'optimizer': [], 'best_mobs': [], 'ar_tier': (ar or {}).get('tier')}
     json.dump(out, open(ROOT / 'model' / 'grimoire.json', 'w'), indent=1)
     return out
 

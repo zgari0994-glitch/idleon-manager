@@ -21,11 +21,21 @@ def parse(path):
     return {'at': d.get('at'), 'kills': kills, 'multi': multi, 'eclipse': (int(ecl.group(1)), ecl.group(2)) if ecl else None}
 
 
+def _from_parsed(D):
+    dn = D.system('death_note'); kills = {}
+    for w, v in dn.items():
+        for m in v.get('mobs', []):
+            kills[m['displayName'].replace('_', ' ')] = (f"World {int(w) + 1}" if str(w).isdigit() else str(w), m.get('kills') or 0)
+    from datetime import datetime, timezone
+    return {'at': datetime.fromtimestamp(D.save_time, timezone.utc).isoformat().replace('+00:00', 'Z'), 'kills': kills, 'multi': {}, 'eclipse': None}
+
+
 def build():
-    cur = parse(SNAP / 'toolbox' / 'deathnote.json')
-    prev = None
-    for s in sorted([p for p in SNAPS.iterdir() if p.is_dir() and p.name < SNAP.name], reverse=True):
-        if (s / 'toolbox' / 'deathnote.json').exists(): prev = parse(s / 'toolbox' / 'deathnote.json'); break
+    # Zack 2026-11-25: Toolbox parser kills per mob (model/data.py); rates from the previous parsed save
+    from data import load
+    D = load(); cur = _from_parsed(D); prev = None
+    for s in sorted([p for p in SNAPS.iterdir() if p.is_dir() and p.name < D.stamp and (p / 'tb_parsed.json.gz').exists()], reverse=True):
+        prev = _from_parsed(load(s.name)); break
     ar = _ar('Death Note'); groups = []
     for g in (ar or {}).get('groups', []):
         items = [i for tab in g.get('items', []) for i in tab['items']]
@@ -37,7 +47,6 @@ def build():
         out['rate'] = {m: (k - prev['kills'][m][1]) / hrs for m, (w, k) in cur['kills'].items() if m in prev['kills'] and hrs > 1 and k > prev['kills'][m][1]}
     json.dump(out, open(ROOT / 'model' / 'deathnote.json', 'w'), indent=1)
     return out
-
 
 def _eta(o, mob, left):
     r = (o.get('rate') or {}).get(mob)
