@@ -45,25 +45,24 @@ def rg_supers():
 LADLES = '4,183'   # Zemo inventory, save 20261120T0452 (checked 2026-11-20)
 
 def mastery_plan():
-    t = tb('cooking', 'Mastery')
-    cake = re.search(r'yours is Lv (\d+)', t); lad = re.search(r'currently ([\d,]+) ladles used', t)
-    if not cake: return {}
-    return {'Autiszemo': [step(f"Cooking mastery: you have {LADLES} ladles on Zemo, use them",
-        'Salty needs ladles used (now ' + (lad.group(1) if lad else '?') + '), Sweet needs Divorce Cake 75 (now ' + cake.group(1) + ')',
+    from data import load
+    D = load(); M = D.get('account.cooking.cookingMastery', True)
+    if not M: return {}
+    lad = D.item_count('Ladle') if hasattr(D, 'item_count') else None
+    return {'Autiszemo': [step(f"Cooking mastery level {M.get('level')} (rank {M.get('rank')}): use your ladles" + (f" ({lad:,.0f} owned)" if lad else ''),
+        'mastery ranks unlock with ladles used and Divorce Cake levels',
         ['Use your ladles on Divorce Cake, one at a time, claiming each kitchen between (Griffy 2026-11). That counts as ladles used and levels the cake (my read: both conditions at once)',
          'Pulse: the daily ladle system dumps all ladles on your lowest-timer meal, so do this before it runs',
          'Pulse: push mastery to 15'])]}
 
 # ---- research grid points + research level gate ----
 def research_plan():
-    t = tb('research', 'Grid')
-    g = re.search(r'Grid points\n(\d+)\n(\d+)', t)
-    r = json.load(open(ROOT / 'model' / 'research.json')) if (ROOT / 'model' / 'research.json').exists() else {}
+    from data import load
+    R = load().system('research')
     sub = []
-    if g and int(g.group(2)) > int(g.group(1)):
-        sub.append(f"Grid points: {int(g.group(2)) - int(g.group(1))} unspent. Hold them: Pulse 2026-10-31 keeps about 12 on hand (Jelly needs 12, Menagerie 8)")
-    if r.get('level', '').startswith('27'):
-        sub.append(f"Research 28 in about {r.get('to_level', '?')}: it unlocks sushi Fuel Capacity II (goal prereq)")
+    if R['gridPTSavailable']:
+        sub.append(f"Grid points: {R['gridPTSavailable']} unspent. Hold them: Pulse 2026-10-31 keeps about 12 on hand (Jelly needs 12, Menagerie 8)")
+    if R.get('nextUnlockResearchLv'): sub.append(f"Next research unlock at level {R['nextUnlockResearchLv']}")
     return {'Autistotle': [step('Research: points and next level', 'research gates W7 upgrades', sub)]} if sub else {}
 
 # ---- lab chips (rotate weekly in the lab shop) + jewels ----
@@ -112,15 +111,18 @@ VOTE_WHY = {   # keyed by a phrase in the option text
     'Starsigns': 'for: all star signs 1.9x. against: low impact for your setup (my read)',
 }
 def voting():
-    out = []
-    for tab, label in (('Bonus', 'Bonus Ballot'), ('Meritocracy', 'Meritocracy')):
-        t = tb('ballot', tab)
-        if not t: continue
-        nxt = re.search(r'Next week in\n([^\n]+)', t)
-        opts = re.findall(r'\n([^\n]{20,})\nOn the ballot · (\d+)% of votes', t)
-        if not opts: continue
-        out.append(f"{label}, vote closes in {nxt.group(1) if nxt else '?'}:")
-        for o, pct in opts:
+    from data import load
+    V = load().system('ballot'); out = []
+    def fmt(t, v):
+        t = t.replace('_', ' ')
+        try: v = float(v)
+        except (TypeError, ValueError): return t.replace('{', '').replace('}', '')
+        return t.replace('{', f"{v:g}").replace('}', f"{1 + v / 100:.2f}")
+    for label, rows in (('Bonus Ballot', [(fmt(b['0'], b.get('1')), b['percent']) for b in V['bonuses'] if b.get('active') or b.get('percent')]),
+                        ('Meritocracy', [(fmt(b['description'], b.get('bonus')), b['percent']) for b in V['meritocracyBonuses'] if b.get('active') or b.get('percent')])):
+        if not rows: continue
+        out.append(f"{label}, on the ballot now:")
+        for o, pct in rows:
             w = next((v for k, v in VOTE_WHY.items() if k.lower() in o.lower()), 'needs checking')
             out.append(f"  {o[:80]} ({pct}% now). {w}")
     return {'Autistotle': [step('Voting: your pick (reset day)', 'every option on the ballot, with why for and against', out)]} if out else {}
