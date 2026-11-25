@@ -54,3 +54,7 @@ Zack passed 900K POW and freed the Pillar Coral fish; cards kept pushing 900K fr
 
 ## 2026-11-21 No real Arcanist Form plan
 Zack asked for a concrete AC form push plan; I gave mechanics + fan-guide generalities because nothing reads Cat's form state (maps unlocked in form, barrier progress, tachyons per type, Tesseract levels, form accuracy/damage, Overwhelming Energy per map). Fix: next pull read Toolbox Tesseract + arcane map pages, build model/arcanist.py on Cat's card: next barrier map, what blocks it (accuracy/damage/kills), the exact Tesseract buys with her tachyons, which map to sit on, crystal list from Zack's long-term park maps. Creators cover supers only; map path is fan source (gameslikefinder).
+
+## 2026-11-25 Cat AC preset test (Zack)
+- Moving Arcanist supers to the tachyon preset made AC weaker: that preset has Labotomizer 101 and Ghoulish 225, vs 289/288 on the preset that pushed Stilted Seeker. Zack is switching that preset back to skilling and pushing on the fight preset (skull supers).
+- Card fix needed: name talent presets by their contents (fight / skilling / tachyon), never by number. Preset numbers in the save (0/1) don't match how the game shows them.
