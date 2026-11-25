@@ -82,6 +82,45 @@ def parse_toolbox(txt):
     return boats, caps, shop
 
 
+def from_parsed():
+    # Zack 2026-11-25: same shapes as parse_toolbox()/read_trades(), from Toolbox's parser (model/data.py)
+    from data import load
+    D = load(); S = D.system('sailing')
+    cl = lambda x: str(x).replace('_', ' ')
+    def total(tree):
+        add, mul = 0, 1
+        for g_ in tree:
+            for ch in g_.get('children', []):
+                if ch.get('unit') == 'percent': add += ch.get('value') or 0
+                else: mul *= ch.get('value') or 1
+        return (1 + add / 100) * mul
+    mt_h = float(S['minimumTravelTime']) / 60
+    boats = []
+    for b in S['boats']:
+        res = b.get('resources') or []
+        aff = lambda i: len(res) > i and res[i]['amount'] >= res[i]['required']
+        co = b.get('chestOdds') or {}
+        boats.append({'boat': int(b['boatIndex']) + 1, 'level': int(b['level']), 'captain': b.get('captainMappedIndex') if int(b.get('captainIndex', -1)) >= 0 else None,
+                      'island': cl((b.get('island') or {}).get('name', '')), 'loot': b['loot']['value'], 'speed': float(b['speed']['raw']),
+                      'min_dist': float(b['speed']['raw']) * mt_h, 'odds': total(b['artifactChance']['breakdown']['tree']), 'chance': float(co.get('expectedArtifactChance') or 0),
+                      'arrives': f"{float(b.get('timeLeft') or 0) / 3600:.1f}h", 'loot_lv': int(b['lootLevel']), 'speed_lv': int(b['speedLevel']),
+                      'loot_buy': (int(b['lootLevel']) + 1, 1) if aff(0) else None, 'speed_buy': (int(b['speedLevel']) + 1, 1) if aff(1) else None,
+                      'loot_need': None, 'speed_need': None})
+    on = S.get('captainsOnBoats') or {}
+    def buffs(c, per=True):
+        out = []
+        for k in ('first', 'second'):
+            if int(c.get(f'{k}BonusIndex', -1)) < 0: continue
+            nm = cl(c.get(f'{k}BonusName', '')).replace('Disc', 'Discover') if c.get(f'{k}BonusName') else ''
+            nm = cl(str(c.get(f'{k}BonusDescription', '')).split('%', 1)[-1]).strip() or nm
+            out.append((nm, float(c.get(f'{k}Bonus') or 0), int(c.get(f'{k}BonusValue') or 0)) if per else (nm, int(c.get(f'{k}BonusValue') or 0)))
+        return out
+    caps = {c['captainIndex']: {'captain': c['captainIndex'], 'level': int(c['level']), 'boat': (on[c['captainIndex']] + 1) if isinstance(on.get(c['captainIndex']), int) and on[c['captainIndex']] >= 0 else None,
+                                'buffs': buffs(c)} for c in S['captains']}
+    shop = [{'buffs': buffs(c, False), 'cost': f"{c.get('cost'):,.0f}" if c.get('cost') is not None else None} for c in S['shopCaptains']]
+    return boats, caps, shop
+
+
 def read_trades():
     f = SNAP / 'toolbox' / 'sail_boats_chests_trades.txt'
     if not f.exists(): return []
@@ -101,9 +140,31 @@ def b_speed(boats, bn):
 
 def build():
     sy = json.load(gzip.open(SNAP / 'systems.json.gz'))['systems']['sailing']
-    bd = json.load(open(SNAP / 'toolbox' / 'sail_breakdowns.json'))
-    X = bd['server_vars']['AncientOddPerIsland']; Y = bd['server_vars']['AncientArtiPCT']
-    boats, caps, shop = parse_toolbox((SNAP / 'toolbox' / 'sail_detail.txt').read_text())
+    from data import load
+    sv = load().get('account.serverVars')
+    X = sv.get('AncientOddPerIsland', 960); Y = sv.get('AncientArtiPCT', 0)
+    # base_find = game constants (artifact base odds); read from the newest snapshot that has them
+    bd = {}
+    for d_ in sorted((ROOT / 'snapshots').iterdir(), reverse=True):
+        f_ = d_ / 'toolbox' / 'sail_breakdowns.json'
+        if f_.exists(): bd = json.load(open(f_)); break
+    boats, caps, shop = from_parsed()
+    # live breakdown numbers from the parser (replace the 11-19 page read; base_find stays as game constants)
+    S_ = load().system('sailing')
+    def split(tree):
+        add, mul = {}, {}
+        for g_ in tree:
+            for ch in g_.get('children', []):
+                (add if ch.get('unit') == 'percent' else mul)[ch['name']] = ch.get('value') or 0
+        return add, mul
+    a_, m_ = split(S_['boats'][0]['artifactChance']['breakdown']['tree'])
+    tot = (1 + sum(a_.values()) / 100)
+    for v_ in m_.values(): tot *= (v_ or 1)
+    la, lm = split((S_.get('lootMulti') or {}).get('breakdown', {}).get('tree', []))
+    lt = (1 + sum(la.values()) / 100)
+    for v_ in lm.values(): lt *= (v_ or 1)
+    bd = dict(bd, artifact_odds_total=tot, additive_pct=a_, multipliers=m_, min_travel_min=float(S_['minimumTravelTime']),
+              loot_multi=lt, loot_additive_pct=la, loot_multipliers=lm, server_vars={'AncientOddPerIsland': X, 'AncientArtiPCT': Y})
     isl_names = list(sy['islands'])
     isl = {n: {'idx': i, 'distance': float(v['distance']), 'unlocked': v['unlocked'], 'arts': []} for i, (n, v) in enumerate(sy['islands'].items())}
     tier_cap = sy.get('unlocked_artifact_tier', 7)
