@@ -290,6 +290,19 @@ def milestones():
         from consts.consts_w3 import getEnemyNameFromMap as N
     except Exception:
         N = lambda m: ''
+    # maps nobody on the account has reached yet (0 account kills) are not 'closest' (Zack 2026-11-25: Kelpfish map not visible)
+    reached = set()
+    try:
+        import data as _DD
+        def _w(o):
+            if isinstance(o, dict):
+                if 'displayName' in o and 'kills' in o and (o.get('kills') or 0) > 0: reached.add(str(o['displayName']).replace('_', ' '))
+                for v in o.values(): _w(v)
+            elif isinstance(o, list):
+                for v in o: _w(v)
+        _w(_DD.load().system('death_note'))
+    except Exception:
+        reached = None
     res = {}
     for g, items in out.items():
         kind = next((k for k in ('Super CHOW', 'WOW', 'CHOW', 'ZOW') if k + 's with' in g or k + ' ' in g), None)
@@ -299,6 +312,7 @@ def milestones():
         for a in items:
             m = re.match(r'(.+?) in (.+?) \(([\d.,]+[KMB]?) remaining\)', a['label'])
             if m and str(N(m.group(2))).startswith('Special') and 'AFK only' not in str(N(m.group(2))): continue
+            if m and reached is not None and m.group(1) not in reached: continue
             if m: rows[(m.group(1), m.group(2))] = (num(m.group(3)), a.get('cur'))
         cnt = re.search(r'\((\d+)/(\d+)\)', g)
         res.setdefault(who.group(1), {})[kind] = {'have': cnt.groups() if cnt else None,
@@ -371,8 +385,8 @@ def build():
             if lv['who'] == n: part.append({'do': lv['do'], 'why': 'account goal', 'sub': []})
         park = cd.get('park', {}).get('text', '')
         if n == 'Autiszemo' and 'ZOW' in m and m['ZOW']['next']:
-            pick = m['ZOW']['next'][3][0] if len(m['ZOW']['next']) > 3 else m['ZOW']['next'][0][0]
-            park = f"W7 {pick[1]} ({pick[0]}) for his ZOW, then the next W7 ZOW map he can reach"
+            pick = m['ZOW']['next'][0][0]
+            park = f"W7 {pick[1]} ({pick[0]}) for his ZOW, then the next ZOW map on his list"
         import needs as _N
         where, pwhy = _N.park(n, park)
         park = f"{where}. Why: {pwhy}"
