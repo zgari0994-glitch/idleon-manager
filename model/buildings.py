@@ -4,25 +4,16 @@ from tbhelp import tb, ar_items, n, save
 
 
 def build():
-    t = tb('buildings')['_page']['text']
-    sp = re.search(r'Build speed\n([^\n]+)\nTrimmed build speed\n([^\n]+)', t)
+    # Zack 2026-11-25: Toolbox parser numbers (model/data.py). Build times/ready state are website-only; the dashboard timers say when a building is ready.
+    from data import load
+    T = load().get('account.towers')
     bs = []
-    for m in re.finditer(r'\n([A-Z][^\n]+)\nLv (\d+) / (\d+)\n(.*?)(?=\n[A-Z][^\n]+\nLv \d+ / |\nDiscord)', t, re.S):
-        b = m.group(4)
-        if b.startswith('Maxed'): continue
-        st = re.findall(r'●\n([^\n]+)', b); tl = re.search(r'Time left\n(?:●\n)?([^\n]+)', b); nx = re.search(r'Next level\n([^\n]+)\n/\n([^\n]+)', b)
-        bs.append({'name': m.group(1), 'lv': int(m.group(2)), 'max': int(m.group(3)), 'slot': 'trimmed' if 'Trimmed slot' in st else 'building' if 'Building' in st else None,
-                   'ready': (tl.group(1) == 'Ready') if tl else False, 'left': tl.group(1) if tl else None,
-                   'have': n(nx.group(1)) if nx else None, 'need': n(nx.group(2)) if nx else None})
+    for t in T['data']:
+        if t['level'] >= t['maxLevel'] and not t.get('inProgress'): continue
+        bs.append({'name': t['name'].replace('_', ' '), 'lv': t['level'], 'max': t['maxLevel'], 'slot': 'building' if t.get('inProgress') or t.get('slot', -1) >= 0 else None,
+                   'ready': False, 'left': None, 'have': None, 'need': None})
     tier, items = ar_items('Buildings')
-    return save('buildings', {'speed': sp.groups() if sp else None, 'buildings': bs, 'ar': items})
-
-
-def _secs(s):
-    tot = 0
-    for v, u in re.findall(r'([\d.]+)\s*([dhms])', s or ''): tot += float(v) * {'d': 86400, 'h': 3600, 'm': 60, 's': 1}[u]
-    return tot
-
+    return save('buildings', {'speed': (T.get('buildMultiplier'), None), 'buildings': bs, 'ar': items})
 
 def card_lines(o):
     B = o['buildings']; L = []

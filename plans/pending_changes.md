@@ -320,3 +320,4 @@ Built: tools/tb_parse.sh (Toolbox's own parser on the save), tools/check_data.py
 Next: migrate every planner from toolbox/*.json page text to data.py, system by system; list website-only pieces (optimizers) found on the way. Not in parser: basketball, darts, event points shop.
 Lesson: the 11-20 Tesseract page read (639 levels, 1.34M purple) was stale; the parser shows 838 (11-22) and 1758 (11-25). My 11-21 Tesseract buy advice used the stale read.
 Plan after migration (Zack 2026-11-25): run through every system in the game, check if there is creator guidance (lookup coverage), decide with Zack if it's worth adding or finding more.
+Website-only (not in Toolbox's parser, found while migrating 2026-11-25): Tesseract upgrade optimizer + tachyon-per-map list, Lab chip/jewel shop rotation, building time left/ready (dashboard timers cover ready), ninja knowledge upgrade costs, Spelunking upgrade optimizer, atom particles/hr (now = change since last save).

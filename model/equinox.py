@@ -4,20 +4,18 @@ from tbhelp import tb, ar_items, n, save
 
 
 def build():
-    T = tb('equinox'); u = T['Upgrades']['text']; c = T['Challenges']['text']
-    fill = re.search(r'Fill rate\n([\d,.]+)/hr', u); bar = re.search(r'Equinox bar\n([\d,]+) / ([\d,]+)', u)
-    ups = []
-    for m in re.finditer(r'\n([A-Z][^\n]{2,30})\nLv (\d+) / (\d+)\n(.*?)(?=\n[A-Z][^\n]{2,30}\nLv \d+ / |\nDiscord|\Z)', u, re.S):
-        b = m.group(4); un = re.search(r'UNLOCKS WITH\n\n([^\n]+)\n\n([^\n]+)', b)
-        ups.append({'name': m.group(1), 'lv': int(m.group(2)), 'max': int(m.group(3)), 'locked': '\nLocked' in b[:20] or b.startswith('Locked'),
-                    'unlock': un.group(1) if un else None, 'progress': un.group(2) if un else None})
+    # Zack 2026-11-25: Toolbox parser numbers (model/data.py)
+    from data import load
+    E = load().system('equinox')
+    cl = lambda x: str(x).replace('_', ' ')
+    ups = [{'name': cl(u['name']), 'lv': u['lvl'], 'max': u['maxLvl'], 'locked': not u.get('unlocked'), 'unlock': None, 'progress': None} for u in E['upgrades']]
     ch = []
-    for m in re.finditer(r'\n([^\n]{20,200})\n(?:●\n([^\n]+)\n)?Reward\n([^\n]+)\nProgress\n([^\n]+)', c):
-        ch.append({'task': m.group(1), 'state': m.group(2), 'reward': m.group(3), 'progress': m.group(4)})
+    for c in E['challenges']:
+        if c.get('locked') or not c.get('active'): continue
+        done = (c.get('current') or 0) >= (c.get('goal') or 1)
+        ch.append({'task': cl(c['label']), 'state': 'Requirement met' if done else None, 'reward': cl(c['reward']), 'progress': f"{c.get('current')} / {c.get('goal')}"})
     tier, items = ar_items('Equinox')
-    return save('equinox', {'fill_hr': n(fill.group(1)) if fill else None, 'bar': (n(bar.group(1)), n(bar.group(2))) if bar else None,
-                            'upgrades': ups, 'challenges': ch, 'ar_tier': tier, 'ar': items})
-
+    return save('equinox', {'fill_hr': E['chargeRate'], 'bar': (E['currentCharge'], E['chargeRequired']), 'upgrades': ups, 'challenges': ch, 'ar_tier': tier, 'ar': items})
 
 def card_lines(o):
     L = []
@@ -29,10 +27,8 @@ def card_lines(o):
     fillc = [x for x in o['challenges'] if 'fill rate' in x['reward'].lower() and x not in claim and 'Requires' not in x['task']]
     if fillc: L.append('Faster bar: ' + '; '.join(f"{x['task'].split('.')[0].split(' in a party')[0][:45]} ({x['progress']}) gives {x['reward'].replace(' Equinox Bar fill rate', ' fill')}" for x in fillc[:3]) + '.')
     lk = [u for u in o['upgrades'] if u['locked']]
-    odd = [u['name'] for u in lk if u['progress'] == 'Done']
-    if odd: L.append(f"Check in game: {', '.join(odd)} shows locked even though its unlock is done.")
-    lk = [u for u in lk if u['progress'] != 'Done']
-    if lk: L.append('Locked: ' + '; '.join(f"{u['name']} ({u['unlock'].split(',')[0][:55] if u['unlock'] else '?'}, {u['progress']})" for u in lk[:4]) + '.')
+    lka = [i for i in o['ar'] if 'unlock' in str(i.get('group', '')).lower() or 'locked' in str(i.get('label', '')).lower()]
+    if lk: L.append('Locked: ' + ', '.join(u['name'] for u in lk[:6]) + (' (unlocks: ' + '; '.join(i['label'][:60] for i in lka[:3]) + ')' if lka else '') + '.')
     up = [i for i in o['ar'] if i['group'].startswith('Upgrade more')]
     if up: L.append('AutoReview wants: ' + ', '.join(f"{i['label'].split(' (')[0]} {i['cur']} -> {i['goal']}" for i in up) + '.')
     return L

@@ -3,11 +3,20 @@ import re
 from tbhelp import tb, ar_items, save
 
 def build():
-    t = tb('armor')['_page']['text']
-    done = re.search(r'Completed sets\n(\d+) / (\d+)', t)
-    sets = [{'set': a, 'bonus': b, 'parts': c} for a, b, c in re.findall(r'\n([A-Z][a-z]+ set)\n\n([^\n]+)\n\nParts owned\n([^\n]+)', t)]
+    # Zack 2026-11-25: Toolbox parser (sets) + AutoReview (missing parts)
+    from data import load
+    A = load().system('armor_sets')
     tier, items = ar_items('Armor Sets')
-    return save('armor', {'done': done.groups() if done else None, 'sets': sets, 'ar_tier': tier, 'ar': items})
+    sets = []
+    for s in A['sets']:
+        nm = s['setName'].replace('_', ' ').title().replace('Set', 'set')
+        grp = [i for i in items if i['group'].lower().startswith(nm.split()[0].lower())]
+        have = sum(1 for i in grp if i.get('goal') == '✔' or (str(i.get('cur')) not in ('0', '', 'None') and str(i.get('cur')) == str(i.get('goal'))))
+        sets.append({'set': nm, 'bonus': s['description'].replace('_', ' '), 'parts': f"{have} / {len(grp)}" if grp else '?', 'done': s.get('unlocked')})
+    comp = [i for i in items if i['group'] == 'Completed Set Bonuses']
+    done = (sum(1 for i in comp if str(i.get('cur')) == str(i.get('goal')) or i.get('goal') == '✔'), len(comp) or len(sets))
+    sets = [s for s in sets if s['parts'] != '?']   # only sets AutoReview lists parts for (the unfinished ones)
+    return save('armor', {'done': done, 'sets': sets, 'ar_tier': tier, 'ar': items})
 
 def card_lines(o):
     L = [f"{o['done'][0]} of {o['done'][1]} armor sets done."]

@@ -7,22 +7,27 @@ TACH = ['Purple', 'Brown', 'Green', 'Red', 'Silver', 'Gold']
 
 
 def build():
-    T = tb('tesseract'); u = T['Upgrades']['text']
-    bal = {d: n(v) for d, v in re.findall(r'\n(' + '|'.join(TACH) + r')\n([\d.,]+[KMBTQ]?)(?=\n)', u)}
-    top = re.search(r'Total levels\n([\d,]+)', u); nx = re.search(r'Next upgrade\n([^\n]+)\nAt ([\d,]+) total levels', u)
-    ups = upgrades(u[u.find('Filters'):], TACH, bal)
-    opt = T['Upgrade Optimizer']['text']; i = opt.find('Recommended')
-    optl = re.findall(r'\n([A-Z][^\n]+)\nLv (\d+) → (\d+)\n(?:x\d+\n)?Damage\n([^\n]+)\n(?:Total cost|Cost)\n([^\n]+)\n([^\n]+)', opt[i:])
-    M = T['Maps']['text']
-    maps = re.findall(r'\n([A-Z][^\n]+)\nTachyons per drop\n[^\n]+\nWith Extra tachyon\n([^\n]+)', M)
+    # Zack 2026-11-25: numbers from Toolbox's own parser on the save (model/data.py), not page text
+    from data import load
+    t = load().system('tesseract')
+    bal = {x['name']: x['value'] for x in t['tachyons']}
+    total = t['totalUpgradeLevels']
+    ups, nxt = [], None
+    for u in t['upgrades']:
+        name = u['name'].replace('_', ' ')
+        cur = TACH[int(u.get('x3') or 0)] if str(u.get('x3', '')).isdigit() and int(u['x3']) < len(TACH) else None
+        maxed = u['level'] >= (u.get('x4') or 999999)
+        ups.append({'name': name, 'level': u['level'], 'cost': u.get('cost'), 'currency': cur, 'maxed': maxed, 'unlocked': u.get('unlocked'), 'unlock_at': u.get('x6')})
+        if not u.get('unlocked') and (nxt is None or (u.get('x6') or 0) < nxt[1]):
+            nxt = (name, u.get('x6') or 0)
     tier, items = ar_items('The Tesseract')
-    return save('tesseract', {'balance': bal, 'total': int(top.group(1).replace(',', '')) if top else None, 'next': (nx.group(1), int(nx.group(2).replace(',', ''))) if nx else None,
-                              'upgrades': ups, 'optimizer': optl, 'maps': [(a, n(b)) for a, b in maps], 'ar_tier': tier, 'ar': items})
+    return save('tesseract', {'balance': bal, 'total': total, 'next': nxt, 'upgrades': ups, 'optimizer': [], 'maps': [],
+                              'crystal_charge': t.get('crystalChargeReq'), 'ar_tier': tier, 'ar': items})
 
 
 def card_lines(o):
     L, bal = [], o['balance']
-    aff = sorted([u for u in o['upgrades'] if u['cost'] and u['currency'] and not u['maxed'] and u['cost'] <= bal.get(u['currency'], 0)], key=lambda u: u['cost'])
+    aff = sorted([u for u in o['upgrades'] if u['cost'] and u['currency'] and u.get('unlocked', True) and not u['maxed'] and u['cost'] <= bal.get(u['currency'], 0)], key=lambda u: u['cost'])
     if aff: L.append(f"TOP: {len(aff)} Tesseract upgrades are affordable, cheapest first: " + ', '.join(u['name'] for u in aff[:5]) + '. Every level counts toward the next unlock.')
     if o['next']: L.append(f"{o['next'][1] - o['total']} more levels unlock {o['next'][0]}.")
     zero = [k for k, v in bal.items() if not v]

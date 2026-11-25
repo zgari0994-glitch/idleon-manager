@@ -29,7 +29,6 @@ characters:
       - {job: Cooking, sections: [Cooking], basis: class, feeds: priority, note: "Cooking speed matters (meals) but is ranked on merit, not pinned (Zack 2026-11-19)"}
       - {job: "Grimoire + Wraith Form (bones)", sections: [The Grimoire], basis: zack, daily_fixed: ["Wraith Form on (outfit buffs him)"], note: "Zemo always runs Wraith Form (outfit buffs him)"}
       - {job: Fish prints, sections: [{s: Sampling, itype: FISH}], basis: zack, note: "Zack 11/17: Zemo prints fish"}
-      - {job: "Emperor showdowns", sections: [Emperor], basis: zack, note: "Zack 2026-11-19: best fighter (Zemo, top damage on Toolbox) pushes Emperor for bonuses; reset + re-climb only if a drop is really needed. Tastic keeps world bosses"}
       - {job: "ZOWs + CHOWs W1-W6", sections: [{s: Death Note, m: "Autiszemo|Eclipse Skull.*in W[1-6]\\b"}], basis: zack}
   Autistocat:     # Arcane Cultist
     afk: {text: "Active-first class (master class progress is active-only without its AFK mechanic). Runs Cranium Cooking active; plain AFK spot = GAP", src: "Griffy N5yJ4-tZLbY 00:52 (2026-10-04)"}
@@ -39,6 +38,7 @@ characters:
       - {job: Lab, sections: [], basis: class, note: "Full Lab map = Lane B gap"}
       - {job: Summoning, sections: [Summoning], basis: class}
       - {job: Tesseract, sections: [The Tesseract], basis: class}
+      - {job: "Emperor showdowns", sections: [Emperor], basis: zack, note: "Zack 2026-11-25: Arcane Cultist owns Emperor (Griffy 2026-08 ypb7kpQov30 05:36 + Pulse 2026-10-31 6JgdYbiEKus 13:16: AC skulls bounce on the small platform next to the boss; Skull + Aura only; 2nd-page talents; boost foods). Pushes mostly in statue week (Pulse 2026-11-16)."}
       - {job: "Kilroy (weekly, mage line)", sections: [Killroy], basis: zack, weekly: killroy}
   Autisticles:    # Siege Breaker
     afk: {text: "His best kills/hr map: Melting Every Day turns AFK kills into forge progress (bars). Feeds Copper Bar 1B shortage. Exact map = GAP", src: "Griffy ypb7kpQov30 00:01 (2026-08-03)"}

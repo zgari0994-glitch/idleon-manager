@@ -4,19 +4,21 @@ from tbhelp import tb, n, save
 
 
 def build():
-    T = tb('reef'); r = T['Reef Upgrades']['text']; d = T['Dancing Coral']['text']
-    coral = n((re.search(r'Coral\n([\d,]+)', r) or [0, '0'])[1])
-    ups = [(a, int(lv), int(mx), n(c)) for a, lv, mx, c in re.findall(r'\n([^\n]{6,120})\nLv (\d+) / (\d+)\n(?:Unlocks\n[^\n]+\n)?[\d.,]+[KMB]?\n/\n([\d.,]+[KMB]?)', r)]
-    dance = re.findall(r'\n([A-Z]\w+ Coral)\n(\+100 max LV for [^\n]+)\n.*?\n([A-Z]\w+ Shrine) LV\n(\d+)\nSource\n([^\n]+)\nBonus starts\n([^\n]+)', d, re.S)
-    return save('reef', {'coral': coral, 'ups': ups, 'dance': dance})
-
+    # Zack 2026-11-25: Toolbox parser numbers (model/data.py)
+    from data import load
+    C = load().system('coral_reef')
+    d = lambda x: str(x).replace('_', ' ')
+    ups = [(d(u['description']), u['level'], u.get('maxLevel') or 10**9, u['cost']) for u in C['reefUpgrades']]
+    dance = [(d(x['coralName']), d(x['description']), d(x['tower']['name']), str(x['tower']['level']), d(x['dropResource']), '201') for x in C['dancingCoral']]
+    kid = [(d(k['description'])[:70], k['level'], k['cost'], k.get('divinityLevelReq')) for k in C.get('coralKidUpgrades', [])]
+    return save('reef', {'coral': C['ownedCorals'], 'ups': ups, 'dance': dance, 'daily': (C.get('reefDayGains') or {}).get('value'), 'coral_kid': kid})
 
 def card_lines(o):
     aff = sorted([u for u in o['ups'] if u[3] and u[3] <= o['coral'] and u[1] < u[2]], key=lambda u: u[3])
     L = []
     if aff:
         run = sum(u[3] for u in aff if u[3] <= o['coral'])
-        L.append(f"TOP: spend coral on all {len(aff)} Reef upgrades ({run:,.0f} of your {o['coral']:,.0f}). The big one gives a Menagerie shell.")
+        L.append(f"TOP: spend coral on all {len(aff)} Reef upgrades ({run:,.0f} of your {o['coral']:,.0f})." + (" One of them gives a Menagerie shell." if any('Shell' in u[0] for u in aff) else ''))
     if o['dance']: L.append('Dancing Coral bonuses start when ' + ' and '.join(f"{s} reaches 201 (now {lv})" for c, b, s, lv, src, st in o['dance']) + '. Autistastic levels the shrines.')
     return L
 

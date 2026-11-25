@@ -127,4 +127,4 @@ When a rule changes: update this file, Project memory (`/projects/.../areas/idle
 ## Status (2026-11-21)
 Done: card engine v3 (cards2.py), 66 system planners, system index, ledger, coins, guidance layer, tagging, brother's dashboard.
 Building now (in order): Report -> reserves -> decision layer -> cards from decisions -> fill brain notes in goal order (Spelunking first) closing gaps.md + the checklist.
-Goal (Zack OK 2026-11-21): POW 900K done; now Spelunking caves Chucklemire -> Lunarheim -> Bizarrio (spec in pending_changes). Owners: Emperor = Autiszemo (best fighter). Pending in-game checks: Kitchen Dream-mare next ~9.36e26, Blackheart next max raise ~36,626 Purple Screws, Bummo Bag price.
+Goal (Zack OK 2026-11-21): POW 900K done; now Spelunking caves Chucklemire -> Lunarheim -> Bizarrio (spec in pending_changes). Owners: Emperor = Autistocat (Zack 2026-11-25, creators: AC is the Emperor farmer). Pending in-game checks: Kitchen Dream-mare next ~9.36e26, Blackheart next max raise ~36,626 Purple Screws, Bummo Bag price.

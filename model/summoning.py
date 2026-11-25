@@ -8,20 +8,20 @@ def q(s):
 
 
 def build():
-    T = tb('summoning'); u = T['Upgrades']['text']
-    unc = re.search(r'Unclaimed familiar EXP\n([^\n]+)\n([^\n]+)', u); end = re.search(r'Highest endless level\n(\d+)', u)
-    ess = {c: (q(a), b) for c, a, b in re.findall(r'\n(\w+) essence\n([^\n]+)\n(\+[^\n]+)', u)}
-    ups = []; colour = None
-    for line_block in re.finditer(r'\n([A-Z][^\n]+)\nLv ([\d,]+) / ([\d,]+)\n(.*?)(?=\n[A-Z][^\n]+\nLv [\d,]+ / |\nDiscord|\Z)', u[u.find('Filters'):], re.S):
-        b = line_block.group(4); c = re.search(r'\n([\d.,]+\s*(?:QQ|Q|T|B|M|K)?)\n/\n([\d.,]+\s*(?:QQ|Q|T|B|M|K)?)\n', b + '\n')
-        if c:
-            held = q(c.group(1)); colour = next((k for k, (v, _) in ess.items() if v and held and abs(v - held) / v < 0.02), colour)
-        ups.append({'name': line_block.group(1), 'lv': int(line_block.group(2).replace(',', '')), 'max': int(line_block.group(3).replace(',', '')), 'cost': q(c.group(2)) if c else None,
-                    'held': q(c.group(1)) if c else None, 'colour': colour, 'daily': 'Cost resets' in b})
-    bt = T['Battles']['text']; teal = re.search(r'Teal \((\d+)/(\d+)\)', bt)
-    return save('summoning', {'unclaimed': unc.groups() if unc else None, 'endless': int(end.group(1)) if end else None, 'essence': ess, 'upgrades': ups,
-                              'teal': teal.groups() if teal else None})
-
+    # Zack 2026-11-25: Toolbox parser numbers (model/data.py); next cost = cost * costExponent^level (my read of the game formula)
+    from data import load
+    S = load().system('summoning')
+    COL = ['White', 'Green', 'Yellow', 'Blue', 'Purple', 'Red', 'Cyan', 'Teal', 'Black']
+    ess = {COL[i] if i < len(COL) else str(i): (v, '') for i, v in enumerate(S['essences'])}
+    ups = []
+    for grp in S['upgrades'].values():
+        for u in grp:
+            c = u.get('colour', 0); held = S['essences'][c] if isinstance(c, int) and c < len(S['essences']) else None
+            ups.append({'name': u['name'].replace('_', ' '), 'lv': u['level'], 'max': u['maxLvl'], 'cost': u['cost'] * u.get('costExponent', 1) ** u['level'] if u.get('cost') else None,
+                        'held': held, 'colour': COL[c] if isinstance(c, int) and c < len(COL) else c, 'daily': 'Familiar' in u['name'] and u.get('cost') == 1})
+    fe = S['familiarExp']
+    unc = (f"{fe['expPerHour'] * fe['savedSeconds'] / 3600:,.0f} EXP", f"{fe['savedSeconds'] / 86400:.1f}d unclaimed") if fe.get('savedSeconds') else None
+    return save('summoning', {'unclaimed': unc, 'endless': S['highestEndlessLevel'], 'essence': ess, 'upgrades': ups, 'teal': None, 'wins': S['totalWins']})
 
 def card_lines(o):
     L = []

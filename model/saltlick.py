@@ -3,11 +3,16 @@ import re
 from tbhelp import tb, ar_items, save
 
 def build():
-    t = tb('saltlick')['_page']['text']
+    # Zack 2026-11-25: Toolbox parser numbers (model/data.py); cost = floor(baseCost * increment^level) like Toolbox's page
+    from data import load
     ups = []
-    for m in re.finditer(r'\n([^\n]{15,140})\nLv (\d+) / (\d+)\n(.*?)(?=\n[^\n]{15,140}\nLv \d+ / |\nDiscord|\Z)', t, re.S):
-        b = m.group(4); buy = re.search(r'Can buy now\n\+(\d+) LV', b)
-        ups.append({'desc': m.group(1), 'lv': int(m.group(2)), 'max': int(m.group(3)), 'buy': int(buy.group(1)) if buy else 0})
+    for u in load().system('saltlick'):
+        lv, have, buy = u['level'], u.get('totalAmount') or 0, 0
+        while lv + buy < u['maxLevel']:
+            c = int(u['baseCost'] * u['increment'] ** (lv + buy))
+            if c > have: break
+            have -= c; buy += 1
+        ups.append({'desc': u['desc'].replace('_', ' ').replace('{', str(round(u['baseBonus'] * lv, 2))), 'lv': lv, 'max': u['maxLevel'], 'buy': buy})
     tier, items = ar_items('Salt Lick')
     return save('saltlick', {'upgrades': ups, 'ar_tier': tier, 'ar': items})
 

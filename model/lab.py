@@ -4,24 +4,17 @@ from tbhelp import tb, n, save
 
 
 def build():
-    T = tb('lab'); m = T['Main frame']['text']
-    on = re.search(r'Lab bonuses on\n(\d+) / (\d+)\nJewels on\n(\d+) / (\d+)\n(\d+) of (\d+) found', m)
-    players = re.findall(r'\n(Autis\w+)\nLinked by ([^\n]+)\nRange\n([\d,]+)px', m)
-    r = T['Chips And Jewels Rotation']['text']
-    rot = []
-    for wk in re.split(r'\n(?=\d\d/\d\d/\d{4} )', r):
-        date = re.match(r'(\d\d/\d\d/\d{4})', wk)
-        if not date: continue
-        for nm, body in re.findall(r'\n([A-Z][A-Za-z ]+(?:chip|Chip|Processor|Motherboard|ite|Rhombol|Navette|Pyramite|Ulthurite)[A-Za-z ]*)\n(.*?)(?=\n[A-Z][A-Za-z ]+\n(?:Sold out|Found|\n)|\Z)', wk, re.S):
-            need = re.findall(r'need ([\d.,]+[KMB]?) more', body)
-            rot.append({'date': date.group(1), 'item': nm.strip(), 'state': 'Sold out' if 'Sold out' in body[:12] else 'Found' if 'Found' in body[:8] else 'open',
-                        'effect': next((l for l in body.split('\n') if len(l) > 20), '')[:90], 'need': need})
-    return save('lab', {'on': on.groups() if on else None, 'players': players, 'rotation': rot})
-
+    # Zack 2026-11-25: Toolbox parser numbers (model/data.py); the chip/jewel shop rotation is website-only (not in the parser)
+    from data import load
+    L = load().system('lab_bonuses')
+    lb, jw = L['labBonuses'], L['jewels']
+    on = (sum(1 for b in lb if b.get('active')), len(lb), sum(1 for j in jw if j.get('active')), len(jw), sum(1 for j in jw if j.get('acquired')), len(jw))
+    players = [(p['playerName'], 'Souped up' if p.get('soupedUp') else 'not souped', f"{p.get('lineWidth', 0):.0f}") for p in L['playersCords']]
+    return save('lab', {'on': on, 'players': players, 'rotation': []})
 
 def card_lines(o):
     L = []
-    if o['on']: L.append(f"Lab is fine: all {o['on'][1]} bonuses on, {o['on'][2]} of {o['on'][3]} jewels on.")
+    if o['on']: L.append(f"Lab: {o['on'][0]} of {o['on'][1]} bonuses on, {o['on'][2]} of {o['on'][3]} jewels on ({o['on'][4]} owned)." + ('' if o['on'][0] == o['on'][1] else ' Some bonuses are off: check connections.'))
     nos = [p for p, l, r in o['players'] if 'Souped' not in l]
     if nos: L.append(f"{', '.join(nos)} isn't souped up, so his lab range is lower.")
     blk = [x for x in o['rotation'] if x['need'] and x['state'] != 'Sold out'][:3]
