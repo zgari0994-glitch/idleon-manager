@@ -48,7 +48,9 @@ def goal_card():
     g = N.goal()
     out = {'name': GOAL['name'], 'why': f"Unlocks: {g.get('unlocks', '')}", 'now': g.get('status'), 'target': g.get('next'), 'prereqs': g['prereqs'], 'levers': g['levers'], 'unknown': []}
     rk = N.ranked()
-    out['needs'] = [f"#{i + 1} {x['section']} ({', '.join(o[6:] if o.startswith('Autist') else o for o in x['owners']) or 'account'}): {x['why']}" for i, x in enumerate(rk[:3])]
+    NICK = {'Autiszemo': 'Zemo', 'Autistocat': 'Cat', 'Autisticles': 'Ticles', 'Autistastic': 'Tastic', 'Autistabish': 'Bish', 'Autistacular': 'Tacular',
+            'Autistotle': 'Totle', 'Autistomatic': 'Matic', 'Autistronaut': 'Naut', 'Autistopher': 'Topher', 'Autistachio': 'Tachio'}
+    out['needs'] = [f"#{i + 1} {x['section']} ({', '.join(NICK.get(o, o) for o in x['owners']) or 'account'}): {x['why']}" for i, x in enumerate(rk[:3])]
     out['flag'] = '' if (rk and 'Spelunking' in rk[0]['section']) else (f"Biggest need is now {rk[0]['section']}, not the goal: say if the goal should switch" if rk else '')
     return out
 
@@ -111,7 +113,7 @@ OTHERS = {n: tuple(f'({o})' for o in chars if o != n) for n in chars}
 def dancing_step():
     from data import load
     D = load(); buy = []
-    for x in D.system('dancing_coral'):
+    for x in D.get('account.coralReef.dancingCoral'):
         if not x.get('unlocked'): continue
         have = D.item_count(x.get('rawName', '')) if x.get('rawName') else None
         buy.append(f"{x['coralName'].replace('_', ' ')} level {x['level']}: {x['description'].replace('_', ' ')}")
@@ -142,7 +144,7 @@ def talent_preset_line(name):
 def weeklies():
     import needs as N
     w = N.weekly()
-    return [f"Bonus Ballot (W2): {w['ballot']}", f"Meritocracy (W7): {w['merit']}"] + [f"This week, {who}: {do} ({why})" for who, do, why in w['notes']]
+    return [f"Bonus Ballot (W2): {w['ballot']}", f"Meritocracy (W7): {w['merit']}"] + [f"{who}: {do} ({why})" for who, do, why in w['notes']]
 
 def here(name):
     try:
@@ -241,9 +243,11 @@ DIV_RUNNER = 'Autistronaut'   # my read: already on Mindful (Pulse 2026-11-09: b
 
 def divinity_line(name):
     """Doot is owned: every god + every minor link counts for everyone (Griffy 2026-01/02), so links don't move."""
-    pts = (DIV.get('head') or {}).get('Divinity PTS/hr', '')
     if name == DIV_RUNNER:
-        return {'do': 'Divinity: sit him at the W5 Divinity altar on Mindful style', 'why': 'nobody is earning divinity points right now (0 an hour)' if pts.startswith('0') else 'keeps points coming in', 'sub': []}
+        import needs as _N
+        where, why = _N.park(name)
+        if 'Divinity' in where: return {'do': 'Divinity: sit him at the W5 Divinity altar on Mindful style', 'why': why, 'sub': []}
+        return None
     if name == 'Autistabish':   # divinity owner: spend side
         sub = []
         for cur, lst in (DIV.get('coral') or {}).items() if isinstance(DIV.get('coral'), dict) else []:
@@ -382,7 +386,7 @@ def build():
     return out
 
 def to_md(o):
-    g = o['goal']; L = [f"# Cards (save {o['save']})", '', f"## ACCOUNT GOAL: {g['name']}" + (f" (now {short(g['now'])})" if g['now'] else ''), g['why'], '']
+    g = o['goal']; L = [f"# Cards (save {o['save']})", '', f"## ACCOUNT GOAL: {g['name']}", f"Now: {g['now']}", g['why']] + [f"Need {x}" for x in g.get('needs', [])] + ([f"FLAG: {g['flag']}"] if g.get('flag') else []) + ['']
     if g['prereqs']:
         L.append('Prereqs:'); L += [f"{i}. {p['do']} ({p['who']})" for i, p in enumerate(g['prereqs'], 1)]; L.append('')
     L.append('Buffs that push it:'); L += [f"{i}. {p['do']} ({p['who']})" for i, p in enumerate(g['levers'], 1)]
@@ -414,7 +418,7 @@ def to_html(o):
             h += '</li>'
         return h + '</ol>'
     g = o['goal']
-    body = f"<section class=goal><h2>Account goal: {e(g['name'])}" + (f" <span>now {short(g['now'])}</span>" if g['now'] else '') + f"</h2><p>{e(g['why'])}</p>"
+    body = f"<section class=goal><h2>Account goal: {e(g['name'])}</h2><p>{e(g['now'] or '')}</p><p>{e(g['why'])}</p>" + ''.join(f"<p>Need {e(x)}</p>" for x in g.get('needs', [])) + (f"<p><b>{e(g['flag'])}</b></p>" if g.get('flag') else '')
     if g['prereqs']: body += '<h3>Prereqs</h3>' + steps([{'do': f"{p['do']} ({p['who']})"} for p in g['prereqs']])
     body += '<h3>Buffs that push it</h3>' + steps([{'do': f"{p['do']} ({p['who']})"} for p in g['levers']])
     if g.get('weekly'): body += '<h3>This week</h3>' + steps([{'do': w} for w in g['weekly']])

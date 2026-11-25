@@ -19,7 +19,7 @@ def build():
         w = c.get('worship') or {}
         if not w: continue
         rate = float(w.get('chargeRate') or 0); cur, mx = float(w.get('currentCharge') or 0), float(w.get('maxCharge') or 0)
-        days = (mx - cur) / rate if rate else 0
+        days = (mx - cur) / rate / 24 if rate else 0   # chargeRate is per hour
         chars.append({'char': c['name'], 'lv': (c.get('skillsInfo') or {}).get('worship', {}).get('level'), 'skull': '', 'charge': f"{cur:,.0f} / {mx:,.0f}",
                       'rate': f"{rate:g}", 'full': f"{int(days)}d {int(days % 1 * 24)}h" if days > 0 else 'full'})
     pr = {}

@@ -1,7 +1,7 @@
 {
  "legend": {
-  "points": 61,
-  "unspent": "2"
+  "points": 62,
+  "unspent": "1"
  },
  "jelly": {
   "ops": "0",
@@ -14,11 +14,11 @@
  },
  "sushi": {
   "fuel": [
-   "55,621",
+   "132,469",
    "460,410"
   ],
   "next": null,
-  "bucks": 137063397901.54,
+  "bucks": 371084945352.533,
   "unique": 19,
   "cheap": [
    [
@@ -35,6 +35,16 @@
     "Fuel Capacity I",
     251,
     2941330817.6906123
+   ],
+   [
+    "Customer Surcharge I",
+    155,
+    11899383522.48501
+   ],
+   [
+    "Fastburn Fuel II",
+    173,
+    13821164475.666912
    ],
    [
     "Sushi Tier Vision",
@@ -55,12 +65,17 @@
     "Shake N' Bake",
     0,
     1334164220.7814794
+   ],
+   [
+    "Customer Surcharge III",
+    0,
+    7388413327.270023
    ]
   ]
  },
  "minehead": {
   "tries": "0 / 3",
-  "cur": 399.703109118232,
+  "cur": 535.504208799806,
   "next": null,
   "buy": [
    [
@@ -99,27 +114,27 @@
   ]
  },
  "glimbo": {
-  "total": 11,
+  "total": 167,
   "trades": [
    [
     "Char Coral",
-    178,
-    1
+    149,
+    18
    ],
    [
     "Divinity Pearl",
-    14287,
-    19
+    12658,
+    105
    ],
    [
     "Dioxide Synthesis",
-    1276592,
-    3
+    1266637,
+    136
    ],
    [
     "Purple Salt",
-    375473,
-    1
+    366116,
+    136
    ],
    [
     "Neon Coral",
@@ -128,18 +143,18 @@
    ],
    [
     "Nullo Salt",
-    883200,
-    1
+    879722,
+    188
    ],
    [
     "Diamond Duck",
-    277,
-    1
+    245,
+    17
    ],
    [
     "Crosslink Salt",
-    50,
-    1
+    46,
+    7
    ],
    [
     "Deepsea Soul",
@@ -163,13 +178,13 @@
    ],
    [
     "Cooking Ladle",
-    9646,
-    1
+    9632,
+    16
    ],
    [
     "Tuttle",
-    11793628,
-    1
+    9068189,
+    624075
    ],
    [
     "Chapter Five 'Sunken Plunder'",
@@ -178,8 +193,8 @@
    ],
    [
     "Silver Pen",
-    7920,
-    1
+    6656,
+    903
    ]
   ]
  },
@@ -197,5 +212,5 @@
   "clusters": 6
  },
  "advice": null,
- "snapshot": "20261125T2028"
+ "snapshot": "20261125T2228"
 }

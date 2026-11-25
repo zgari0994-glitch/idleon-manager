@@ -1,0 +1,26 @@
+{
+ "module": "shops",
+ "systems": [
+  "gemshop",
+  "ballot"
+ ],
+ "ok": true,
+ "card_lines": [
+  "This week's Ballot bonus: Boosts Artifact Find chance in Sailing by 1.31x (x2.04). Meritocracy: Multiplies your Monument Reward Multi by 4.40x (x1.7)."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "points": null,
+  "rotation": null,
+  "items": [],
+  "ar_event": [],
+  "ballot_next": null,
+  "merit_next": null,
+  "ballot_now": "Boosts Artifact Find chance in Sailing by 1.31x",
+  "merit_now": "Multiplies your Monument Reward Multi by 4.40x",
+  "vote_multi": 2.04,
+  "merit_multi": 1.7,
+  "snapshot": "20261125T2228"
+ }
+}

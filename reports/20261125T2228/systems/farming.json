@@ -1,0 +1,359 @@
+{
+ "module": "farming",
+ "systems": [
+  "farming"
+ ],
+ "ok": true,
+ "card_lines": [
+  "TOP: hold 200 or more of every crop you've found (168 of 172 so far). Each one raises the chance to discover new crops. Lock them before bean trades so a trade can't empty them (Griffy does this).",
+  "Weakest families: Earthy (23 of 25), Bulbo (14 of 15), Mushie (22 of 23). Pulse: farm the low ones first. Basic grows fastest if you want quick stacks.",
+  "Spend 6 Land Rank points, Toolbox's optimizer puts them into the Evolution boosts.",
+  "Night Market (89.6K beans): buy Value Gmo, Exp Gmo, Og Fertilizer first.",
+  "Day Market is paid in crops and 5 upgrades are waiting on them. Holding crops fixes this too.",
+  "Exotic Market: 2 buys left this rotation (None left). Pulse likes Geneology Iii and Sap Surge."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "snapshot": "20261125T2228",
+  "found": 172,
+  "night_rank": [
+   {
+    "item": "Value Gmo 51/500",
+    "currency": "beans",
+    "balance": 89555.4224569779,
+    "cost": 17213,
+    "gain_pct": 1.9485790609753373,
+    "stat": "+95.03027200000002% crop value per per c",
+    "weight": 1,
+    "share": 0.19220500029765436,
+    "afford": true,
+    "score": 10.13802480662683
+   },
+   {
+    "item": "Super Gmo 42/50",
+    "currency": "beans",
+    "balance": 89555.4224569779,
+    "cost": 149468,
+    "gain_pct": 2.3397111995541993,
+    "stat": "+35.02% all 'GMO' bonuses per crop you h",
+    "weight": 3,
+    "share": 1.6689999990989253,
+    "afford": false,
+    "score": 4.205592332206201
+   },
+   {
+    "item": "Speed Gmo 67/500",
+    "currency": "beans",
+    "balance": 89555.4224569779,
+    "cost": 110136,
+    "gain_pct": 1.4918080107646308,
+    "stat": "+1217.57536% growth speed per crop you h",
+    "weight": 1,
+    "share": 1.2298082793692244,
+    "afford": false,
+    "score": 1.213041118514658
+   },
+   {
+    "item": "Exp Gmo 15/100",
+    "currency": "beans",
+    "balance": 89555.4224569779,
+    "cost": 66,
+    "gain_pct": null,
+    "stat": "+917.524% farming EXP gain crop you have",
+    "weight": 1,
+    "share": 0.0007369738000142443,
+    "afford": true,
+    "score": null
+   },
+   {
+    "item": "Og Fertilizer 60/500",
+    "currency": "beans",
+    "balance": 89555.4224569779,
+    "cost": 372,
+    "gain_pct": null,
+    "stat": "}x higher chance for Overgrowth to occur",
+    "weight": 1,
+    "share": 0.004153852327353013,
+    "afford": true,
+    "score": null
+   },
+   {
+    "item": "Evolution Gmo 141/500",
+    "currency": "beans",
+    "balance": 89555.4224569779,
+    "cost": 218694,
+    "gain_pct": null,
+    "stat": "}x crop evolution chance per crop you ha",
+    "weight": 2,
+    "share": 2.4419961851562904,
+    "afford": false,
+    "score": null
+   }
+  ],
+  "stacks": {
+   "Evolution GMO": 168,
+   "Speed GMO": 168,
+   "EXP GMO": 168,
+   "Value GMO": 168,
+   "Super GMO": 162
+  },
+  "beans": 89555.4224569779,
+  "evo_base": null,
+  "evo_multi": null,
+  "evo_chance": null,
+  "evo_gmo_x": null,
+  "per_stack": 2.13,
+  "stacks_for_next_crop": 0,
+  "under_200": [
+   {
+    "crop": 21,
+    "family": "Earthy",
+    "have": 0.0
+   },
+   {
+    "crop": 40,
+    "family": "Earthy",
+    "have": 0.0
+   },
+   {
+    "crop": 46,
+    "family": "Bulbo",
+    "have": 0.0
+   },
+   {
+    "crop": 106,
+    "family": "Mushie",
+    "have": 0.0
+   }
+  ],
+  "family_stacks": {
+   "Earthy": [
+    23,
+    25
+   ],
+   "Mushie": [
+    22,
+    23
+   ],
+   "Bulbo": [
+    14,
+    15
+   ],
+   "Glassy": [
+    65,
+    65
+   ],
+   "Sushi": [
+    23,
+    23
+   ],
+   "Basic": [
+    21,
+    21
+   ]
+  },
+  "rank_unspent": 6,
+  "rank_plan": [],
+  "night": [
+   {
+    "name": "Evolution Gmo",
+    "lv": 141,
+    "max": 500,
+    "market": "Night",
+    "maxed": false,
+    "have": 89555.4224569779,
+    "cost": 218694,
+    "desc": "}x crop evolution chance per crop you have 200 of"
+   },
+   {
+    "name": "Speed Gmo",
+    "lv": 67,
+    "max": 500,
+    "market": "Night",
+    "maxed": false,
+    "have": 89555.4224569779,
+    "cost": 110136,
+    "desc": "+1217.57536% growth speed per crop you have 1000 of"
+   },
+   {
+    "name": "Og Fertilizer",
+    "lv": 60,
+    "max": 500,
+    "market": "Night",
+    "maxed": false,
+    "have": 89555.4224569779,
+    "cost": 372,
+    "desc": "}x higher chance for Overgrowth to occur"
+   },
+   {
+    "name": "Exp Gmo",
+    "lv": 15,
+    "max": 100,
+    "market": "Night",
+    "maxed": false,
+    "have": 89555.4224569779,
+    "cost": 66,
+    "desc": "+917.524% farming EXP gain crop you have 2500 of"
+   },
+   {
+    "name": "Value Gmo",
+    "lv": 51,
+    "max": 500,
+    "market": "Night",
+    "maxed": false,
+    "have": 89555.4224569779,
+    "cost": 17213,
+    "desc": "+95.03027200000002% crop value per per crop you have 10000 of"
+   },
+   {
+    "name": "Super Gmo",
+    "lv": 42,
+    "max": 50,
+    "market": "Night",
+    "maxed": false,
+    "have": 89555.4224569779,
+    "cost": 149468,
+    "desc": "+35.02% all 'GMO' bonuses per crop you have 100K"
+   }
+  ],
+  "day": [
+   {
+    "name": "Stronger Vines",
+    "lv": 112,
+    "max": 500,
+    "market": "Day",
+    "maxed": false,
+    "have": 655570000.0,
+    "cost": 497522,
+    "desc": "+224% chance for +1 crop when fully grown"
+   },
+   {
+    "name": "Nutritious Soil",
+    "lv": 160,
+    "max": 500,
+    "market": "Day",
+    "maxed": false,
+    "have": 3200000.0,
+    "cost": 63533330,
+    "desc": "+160% growth speed for all land"
+   },
+   {
+    "name": "Smarter Seeds",
+    "lv": 172,
+    "max": 500,
+    "market": "Day",
+    "maxed": false,
+    "have": 0.0,
+    "cost": 22319776,
+    "desc": "+516% farming EXP gain from all sources"
+   },
+   {
+    "name": "Biology Boost",
+    "lv": 194,
+    "max": 500,
+    "market": "Day",
+    "maxed": false,
+    "have": 0.0,
+    "cost": 302815191.36041707,
+    "desc": "+2910% chance of crop evolution, or 'next crop' chance"
+   },
+   {
+    "name": "Product Doubler",
+    "lv": 122,
+    "max": 500,
+    "market": "Day",
+    "maxed": false,
+    "have": 2572681.0,
+    "cost": 19373139907.812138,
+    "desc": "+366% chance for crops to be worth 2x when collected"
+   },
+   {
+    "name": "More Beenz",
+    "lv": 92,
+    "max": 500,
+    "market": "Day",
+    "maxed": false,
+    "have": 10473833224.0,
+    "cost": 2711053,
+    "desc": "+184% magic beans gained when trading in crops"
+   },
+   {
+    "name": "Rank Boost",
+    "lv": 73,
+    "max": 500,
+    "market": "Day",
+    "maxed": false,
+    "have": 40000.0,
+    "cost": 5109153,
+    "desc": "Plots earn +219% more Rank XP when a crop is collected"
+   }
+  ],
+  "exotic_left": [
+   2,
+   4
+  ],
+  "exotic_next": null,
+  "exotic_rotation": [
+   {
+    "name": "Geneology Iii",
+    "lv": 0,
+    "returns": "",
+    "desc": "+0% crop evolution chance per Farming LV above 150",
+    "creator": "Pulse 2026-10: a few levels, it returns rarely"
+   },
+   {
+    "name": "Legumioso I",
+    "lv": 0,
+    "returns": "",
+    "desc": "+0% Extra Beans from Legumulyte",
+    "creator": null
+   },
+   {
+    "name": "Farmer Brain",
+    "lv": 0,
+    "returns": "",
+    "desc": "+0% Farming EXP gain on all characters",
+    "creator": null
+   },
+   {
+    "name": "Evergrow I",
+    "lv": 20,
+    "returns": "",
+    "desc": "1.02x Overgrowth Chance for all crops",
+    "creator": null
+   },
+   {
+    "name": "Double Petal Ii",
+    "lv": 27,
+    "returns": "",
+    "desc": "+1.84% chance for crops to be worth 2x when harvested",
+    "creator": null
+   },
+   {
+    "name": "Sap Surge",
+    "lv": 0,
+    "returns": "",
+    "desc": "0x Amber found in Spelunking @ (Not Farming Related)",
+    "creator": "Pulse 2026-10: strong, ~6th (Spelunking amber)"
+   },
+   {
+    "name": "Exalted Eldou",
+    "lv": 0,
+    "returns": "",
+    "desc": "+0% Exalted Stamp Bonus @ (Not Farming Related)",
+    "creator": null
+   },
+   {
+    "name": "Intelleaf",
+    "lv": 0,
+    "returns": "",
+    "desc": "+0% Class EXP @ (Not Farming Related)",
+    "creator": null
+   }
+  ],
+  "growth_speed": 35645.611890823646,
+  "crop_value": 10000,
+  "vine": 4
+ }
+}

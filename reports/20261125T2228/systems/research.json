@@ -1,0 +1,35 @@
+{
+ "module": "research",
+ "systems": [
+  "research"
+ ],
+ "ok": true,
+ "card_lines": [
+  "Research is level 39, next level in 13% of the level left.",
+  "Level 40 unlocks Posty Note: you can now place two magnifiers on the same observation."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "level": "39 (Autiszemo)",
+  "to_level": "13% of the level left",
+  "grid": "0 free of 50",
+  "obs": 16,
+  "rolls": 0,
+  "posty": [
+   [
+    "Posty Note",
+    40,
+    "You can now place TWO magnifiers on the same Observation!"
+   ],
+   [
+    "Posty Note",
+    50,
+    "Adds another shape to your Research Grid!"
+   ]
+  ],
+  "grid_free": 0,
+  "next_unlock_lv": 40,
+  "snapshot": "20261125T2228"
+ }
+}

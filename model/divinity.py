@@ -25,7 +25,7 @@ def build():
     from data import load
     D = load(); V = D.system('divinity')
     sy = json.load(gzip.open(SNAP / 'systems.json.gz'))['systems']['divinity']
-    mat = {v['name']: v['blessing_material'] for v in sy.values()}
+    mat = {v.get('name'): v.get('blessing_material') for v in sy.values() if isinstance(v, dict)}
     pts = V['divinityPoints']
     head = {'God rank': V['godRank'], 'Total Divinity LV': None, 'Divinity points': f"{pts:,.0f}", 'Divinity PTS/hr': None}
     gods = {}

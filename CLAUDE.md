@@ -64,7 +64,7 @@
 ## "After work" pull (Zack 2026-11-19) = the one full fresh pull of the day
 Trigger: Zack says "after work" (he has cloud-saved, closed Steam, is on the tablet). Other refreshes only when he asks.
 1. Refresh the save (steps above) + dashboard timers (play-session 1b).
-2. Bulk Toolbox read in ONE tab: preview_start any Toolbox page, javascript_tool with `const PAGES=<tools/tb_pages.json compact>;` + `tools/tb_read_multi.js` (hidden iframes, 5 at a time, ~8 min for 55 pages). Poll `window.__tbm ? 'DONE' : 'pending '+window.__tbm_done` (~40s waits). When DONE return `window.__tbm` (saved to a result file), close the tab, `python3 tools/tb_save_multi.py <file>`. Sailing is in the bulk list (saver writes toolbox/sail_detail.txt for model/sailing.py). Retry rule: a slow page waits longer, then reloads once. Pages that still fail keep yesterday's read (listed in toolbox/_from.txt): say so.
+2. (RETIRED 2026-11-25, replaced by tools/tb_parse.sh inside snapshot.sh) Bulk Toolbox read in ONE tab: preview_start any Toolbox page, javascript_tool with `const PAGES=<tools/tb_pages.json compact>;` + `tools/tb_read_multi.js` (hidden iframes, 5 at a time, ~8 min for 55 pages). Poll `window.__tbm ? 'DONE' : 'pending '+window.__tbm_done` (~40s waits). When DONE return `window.__tbm` (saved to a result file), close the tab, `python3 tools/tb_save_multi.py <file>`. Sailing is in the bulk list (saver writes toolbox/sail_detail.txt for model/sailing.py). Retry rule: a slow page waits longer, then reloads once. Pages that still fail keep yesterday's read (listed in toolbox/_from.txt): say so.
 3. Pipeline (play-session step 2-6) -> cards + Active plan + dashboard republish. Tell Zack the save age.
 4. Cards: dailies, parking, jobs per character. Then ONE block at the end: Active plan = Overnight on the PC (top 2, one long push for one character), Active play tonight (top 5, best first), Morning while at work (idle-friendly checks). Built by `model/active.py`, ranked by biggest need (`model/priority.py`) then job importance.
 
@@ -123,6 +123,12 @@ Game save = `data.TimeAway.GlobalTime` (UTC epoch). Store UTC, show Eastern. Alw
 
 ## Keep rules current (Zack 2026-11-21)
 When a rule changes: update this file, Project memory (`/projects/.../areas/idleon.md`, standing rules only) and give Zack the Project text to paste, in the same turn. Project docs are legacy reference (see claude/00-READ-FIRST.md); never act on them over the repo.
+
+## Planner migration (Zack 2026-11-25, option B: all of them)
+- Every planner now reads Toolbox's parser through model/data.py. tbhelp.tb(), cards2.tbtext() and extras.tb() raise if anything tries the old page files.
+- The parse harness (tools/tbparse/zack.test.mjs) also adds website-computed values with Toolbox's own functions (prayer nextCost); add more there instead of scraping.
+- model/needs.py = goal status (lore bosses), ranked needs vs goal (flag), weekly Ballot/Meritocracy effects, personal goals, fluid parks (weekly overrides -> standing duties -> goal).
+- Sailing moves were rebuilt on parser data: verify in game before trusting a move.
 
 ## Status (2026-11-21)
 Done: card engine v3 (cards2.py), 66 system planners, system index, ledger, coins, guidance layer, tagging, brother's dashboard.

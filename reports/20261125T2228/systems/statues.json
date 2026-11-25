@@ -1,0 +1,33 @@
+{
+ "module": "statues",
+ "systems": [
+  "statues"
+ ],
+ "ok": true,
+ "card_lines": [
+  "Statue goals: AFK Cavern 15 (4 -> 150).",
+  "Before farming Onyx: Startue Exp bubble.",
+  "Griffy: golden statues only keep the highest level, so stockpile them and turn them all in on one character. Turning in every statue at once can wipe stored greenstacks."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "snapshot": "20261125T2228",
+  "targets": [
+   "Level up Dragon Statue: AFK Cavern 15 (4 -> 150)"
+  ],
+  "prereq": [
+   "Startue Exp bubble: 18.506/20%+ minimum (171 -> 240)"
+  ],
+  "value": [
+   "Artifact - The Onyx Lantern: 3.2/4.1xHigher bonuses from Onyx or higher Statues (4 -> 7)",
+   "TRUE ZEN:1.12x higher bonuses from Zenith Statues (6 -> 250)",
+   "Event Shop - Smiley Statue: 1/1.3x (0 -> 1)"
+  ],
+  "onyx": [
+   "Onyx Kachow Statue: +52.69% Crit Damage (18 -> \u221e)",
+   "Onyx Dragon Statue: +5.55% Statues Bonus (4 -> \u221e)"
+  ],
+  "tier": "10/11"
+ }
+}

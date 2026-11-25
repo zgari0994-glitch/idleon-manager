@@ -112,7 +112,7 @@ kind: in-game = obtainable by playing; paid = gem shop/bundle; event = limited-t
 - **Witch Hat (Halloween 2026)** [event] 1% Class Exp Multi · Halloween Treat, Halloween Grave
 - **Yellow Beanie** [event] 2% Bonus Kills · Summer Cooler, Summer Spirit
 
-## Achievements open (60)
+## Achievements open (53)
 - **Hitting the Mark**: Chop 15 yellow sections in a row during the Choppin' Minigame → +5% Chopping EXP for all characters
 - **Minecart Maniac**: Slam on a yellow ore vein in the Mining Minigame, which gives 3 points! → +5% Mining EXP Bonus for all characters
 - **Spike Minigame Master**: Get a score of 13 in the spike minigame. Remember to say 'If u love me let me go' → 20 Gem , 4 HR Time Candy (Score means winning at least 13 Gems, not getting to round 13.)
@@ -141,12 +141,9 @@ kind: in-game = obtainable by playing; paid = gem shop/bundle; event = limited-t
 - **Knock on Wood**: Beat wave 50 of Acorn Assault with just 4 towers active. Place down a 5th tower at any time, and it wont count! → +3% Arcade balls/hr
 - **Sepia Vision**: Have a stack of exactly 500 Black Lense s in your Storage Chest. Better complete this before I make it 1,000! → " >30px|link= Crystal Caverns BG for Title Screen (You can manually drag a second stack into your storage chest. Use "split stack" to get the exact amount.)
 - **A Most Nice Sale**: You SOLD gems to the World 3 town store...? All at once? How many...? Nice. → 1 Gem , 1 24 HR Time Candy (Sell a stack of exactly 69 gems to the world 3 town store. You can manually drag a second stack into your inventory using the split stack feature.)
-- **Boss Defeated**: Defeat Glaciaxus on its 1st difficulty → +2% Total DMG for all characters outside of dungeons
-- **Manager Defeated**: Defeat Glaciaxus on its 2nd difficulty → +3% Total DMG for all characters outside of dungeons
 - **Kingpin Defeated**: Defeat Glaciaxus on its 3rd difficulty → +5% Total DMG for all characters outside of dungeons
 - **Capitalist Win**: Complete 1000 jobs within the Glacial Basement dungeon. → +5% Class EXP bonus for all characters outside of dungeons
 - **Matrix Wickermen**: Accumulate 8760 hours, or an entire year, of Lab AFK time across all players. → RNG Item (Triad of Manafine)
-- **Bland Dish**: What exactly were you expecting to cook, an invisible meal? → +6 Tab 1 Talent Pts (Attempt to discover a new recipe by cooking without any Spices)
 - **Lv. 5 Nothing**: Ah, I see you enjoy reading upgrade flavor text as well! → 30 Gem , 2 12 HR Time Candy (Level up the "No Upgrade Selected" upgrade to level 5 in the "Upgrade" tab of the Breeding menu)
 - **I LOVE These Mobs**:  → reward n/a
 - **Hunned Times a Day**: Claim spices by any means 10,000 times. Like, individual claims. → +8 Tab 2 Talent Pts
@@ -157,7 +154,6 @@ kind: in-game = obtainable by playing; paid = gem shop/bundle; event = limited-t
 - **The True Emperor**: Reach a total of 1 million Wormhole Kills. → +12 Tab 4 Talent Pts
 - **Maple Logger**: Have a stack of exactly 200,000 Maple Logs in your Storage Chest. → +1% Damage for all characters
 - **No Krakens? ):**: Reach Wave 50 of Citric Conflict tower defence without placing a single Kraken Towers. Not even one. → +25% Class EXP
-- **Maroon Warship**: Upgrade a boat to Lv 300 in Sailing. This is the pinnacle of naval prowess, it doesn't get fancier than this! → +1 Lv to all Talents for all characters
 - **POiNG Champion**: Get a POiNG score of 25,000 or more! My personal highscore is 38,323 at the time of coding this! → +10 'Tab 4' Talent Pts
 - **Chemical Collector**: Harvest a total of 1000 Chemical-type Plants in Gaming. → +3% Damage for all characters
 - **Perfect Trade Deal**: Make a trade deal with Blobby G worth exactly 777K Gold Bars. You get a bit of wiggle room, like within 500 Gold Bars. → +1 additional Treasure Per Chest for Sailing
@@ -167,9 +163,6 @@ kind: in-game = obtainable by playing; paid = gem shop/bundle; event = limited-t
 - **Hug from Timmy**: The lil' fella REALLY likes icecream! → 10% Monument AFK (Complete Little Timmy's four Ice Cream Justice encounters.)
 - **That's MY Crown**: Have a stack of exactly 100000000 Royal Headpiece in your Storage Chest. → " >30px|link= Dharma Mesa BG
 - **Leet Lanterns**: Oh yea that's a good number. Sure it's no 69420 but it's vintage! → +4% Damage for all characters (Have a stack of exactly 1337 Dark Lantern in your storage)
-- **Doctor Repellant**: Have 10000 or more Apple crops in your Depot at once. You can lock the first crop before it grows to guarantee an apple! → W6 Shop EZ Access
-- **Cob Enjoyer**: Have 1000000 or more Corn crops in your Depot at once. Mmmm Corn! → +15% All Skill EXP
 - **Legumulucky**: Make a crop trade with the Legumulyte worth exactly 777 magic beans. → +2% Damage for all characters
 - **Yellow Belt**: Find a +50 Yellow Belt Sneaking Charm. Yes exactly +50. → +10% Sneaking EXP gain
 - **Penta Defence**: Reach Wave 50 in Breezy Battle without placing more than 5 Towers in total. → " >30px|link= Lullaby Airways BG
-- **Beanstacker Prodigy**: Add 14 different golden foods to The Beanstalk. → +3% All Golden Food Bonuses

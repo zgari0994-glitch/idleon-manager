@@ -1,9 +1,9 @@
 {
- "snapshot": "20261125T2028",
+ "snapshot": "20261125T2228",
  "k_calibration": 1.1557,
  "min_travel_min": 32.0,
- "base_odds": 826866.44,
- "odds_multi_group": 51119.39,
+ "base_odds": 827166.77,
+ "odds_multi_group": 51137.96,
  "additive_wo_captain": 1517.5,
  "pile_fill_min": 48,
  "alloc": {
@@ -73,25 +73,17 @@
    "ballot_trip_h": 0.53
   }
  },
- "speed_multi": 17643.53,
+ "speed_multi": 20536.257306391028,
  "speed_groups": {
-  "speed_multi_a": 2.09,
-  "speed_multi_b": 5.0,
-  "speed_multi_c": 4.99,
-  "speed_multi_d": 1.0,
-  "speed_multi_e": 60.42,
-  "speed_multi_f": 5.6
+  "speed_multi_a": null,
+  "speed_multi_b": null,
+  "speed_multi_c": null,
+  "speed_multi_d": null,
+  "speed_multi_e": null,
+  "speed_multi_f": null
  },
  "purrmep_linked": null,
- "ballot": {
-  "index": 24,
-  "base_value": 50,
-  "value": 102.0,
-  "image": "ballot-24",
-  "description": "Boosts Sailing Captain EXP gain and Sailing Speed by 2.020x",
-  "active": false,
-  "_status_known": true
- },
+ "ballot": null,
  "moves": [
   {
    "boat": 14,
@@ -99,7 +91,7 @@
    "from": "Toxic Bay Inc",
    "to": "World's End",
    "pct_from": 1.087,
-   "pct_to": 4.837,
+   "pct_to": 4.839,
    "trip_from_h": 0.5,
    "we": true
   },
@@ -109,7 +101,7 @@
    "from": "Safari Island",
    "to": "World's End",
    "pct_from": 0.0,
-   "pct_to": 4.837,
+   "pct_to": 4.839,
    "trip_from_h": 0.5,
    "we": true
   },
@@ -119,7 +111,7 @@
    "from": "Toxic Bay Inc",
    "to": "World's End",
    "pct_from": 1.087,
-   "pct_to": 4.837,
+   "pct_to": 4.839,
    "trip_from_h": 0.9,
    "we": true
   },
@@ -239,7 +231,7 @@
    "from": "Toxic Bay Inc",
    "to": "Snowy South",
    "pct_from": 1.087,
-   "pct_to": 0.561,
+   "pct_to": 0.562,
    "trip_from_h": 0.5,
    "we": false
   },
@@ -249,7 +241,7 @@
    "from": "Safari Island",
    "to": "Stormy North",
    "pct_from": 0.0,
-   "pct_to": 0.681,
+   "pct_to": 0.682,
    "trip_from_h": 0.5,
    "we": false
   },
@@ -259,7 +251,7 @@
    "from": "Safari Island",
    "to": "Rocky Peaks",
    "pct_from": 0.0,
-   "pct_to": 1.297,
+   "pct_to": 1.298,
    "trip_from_h": 0.5,
    "we": false
   },
@@ -279,7 +271,7 @@
    "from": "Safari Island",
    "to": "Beachy Coast",
    "pct_from": 0.0,
-   "pct_to": 2.839,
+   "pct_to": 2.84,
    "trip_from_h": 0.5,
    "we": false
   }
@@ -288,44 +280,44 @@
   {
    "island": "World's End",
    "targets": [
-    "Deathskull Sovereign->Omnipotent (1 in 1,997 chests)",
-    "Pointagon Sovereign->Omnipotent (1 in 1,997 chests)"
+    "Deathskull Sovereign->Omnipotent (1 in 1,996 chests)",
+    "Pointagon Sovereign->Omnipotent (1 in 1,996 chests)"
    ]
   },
   {
    "island": "Toxic Bay Inc",
    "targets": [
-    "Causticolumn Omnipotent->Transcendent (1 in 31,394 chests)"
+    "Causticolumn Omnipotent->Transcendent (1 in 31,383 chests)"
    ]
   },
   {
    "island": "The Maw",
    "targets": [
-    "Bloodclot Undiscovered->Base (1 in 1,570 chests)"
+    "Bloodclot Undiscovered->Base (1 in 1,569 chests)"
    ]
   },
   {
    "island": "Stormy North",
    "targets": [
-    "Amberite Transcendent->Verisimilitude (1 in 42,382,528,366 chests)"
+    "Amberite Transcendent->Verisimilitude (1 in 42,367,139,680 chests)"
    ]
   },
   {
    "island": "The Edge",
    "targets": [
-    "The True Lantern Sovereign->Omnipotent (1 in 1,665 chests)",
-    "The Onyx Lantern Sovereign->Omnipotent (1 in 1,665 chests)",
-    "The Shim Lantern Sovereign->Omnipotent (1 in 1,665 chests)",
-    "The Winz Lantern Sovereign->Omnipotent (1 in 1,665 chests)"
+    "The True Lantern Sovereign->Omnipotent (1 in 1,664 chests)",
+    "The Onyx Lantern Sovereign->Omnipotent (1 in 1,664 chests)",
+    "The Shim Lantern Sovereign->Omnipotent (1 in 1,664 chests)",
+    "The Winz Lantern Sovereign->Omnipotent (1 in 1,664 chests)"
    ]
   },
   {
    "island": "Safari Island",
    "targets": [
-    "Moai Head Transcendent->Verisimilitude (1 in 523,241,091 chests)",
-    "Maneki Kat Transcendent->Verisimilitude (1 in 523,241,091 chests)",
-    "Ruble Cuble Transcendent->Verisimilitude (1 in 523,241,091 chests)",
-    "Fauxory Tusk Transcendent->Verisimilitude (1 in 523,241,091 chests)"
+    "Moai Head Transcendent->Verisimilitude (1 in 523,051,107 chests)",
+    "Maneki Kat Transcendent->Verisimilitude (1 in 523,051,107 chests)",
+    "Ruble Cuble Transcendent->Verisimilitude (1 in 523,051,107 chests)",
+    "Fauxory Tusk Transcendent->Verisimilitude (1 in 523,051,107 chests)"
    ]
   }
  ],
@@ -335,18 +327,18 @@
    "island": "World's End",
    "idx": 15,
    "distance": 5000000000.0,
-   "per_chest_pct": 4.837,
+   "per_chest_pct": 4.839,
    "targets": [
     "Obsidian Undiscovered->Base (1 in 26 chests)",
     "Ender Pearl Undiscovered->Base (1 in 105 chests)",
-    "Deathskull Sovereign->Omnipotent (1 in 1,997 chests)",
-    "Pointagon Sovereign->Omnipotent (1 in 1,997 chests)"
+    "Deathskull Sovereign->Omnipotent (1 in 1,996 chests)",
+    "Pointagon Sovereign->Omnipotent (1 in 1,996 chests)"
    ],
    "n_chests": [
     26,
     105,
-    1997,
-    1997
+    1996,
+    1996
    ],
    "cheap": [
     26,
@@ -357,7 +349,7 @@
    "island": "Beachy Coast",
    "idx": 1,
    "distance": 100.0,
-   "per_chest_pct": 2.839,
+   "per_chest_pct": 2.84,
    "targets": [
     "Gold Relic Omnipotent->Transcendent (1 in 105 chests)",
     "Genie Lamp Omnipotent->Transcendent (1 in 105 chests)",
@@ -378,7 +370,7 @@
    "island": "Rocky Peaks",
    "idx": 3,
    "distance": 1000.0,
-   "per_chest_pct": 1.297,
+   "per_chest_pct": 1.298,
    "targets": [
     "Arrowhead Omnipotent->Transcendent (1 in 230 chests)",
     "10 AD Tablet Omnipotent->Transcendent (1 in 230 chests)",
@@ -438,11 +430,11 @@
    "per_chest_pct": 1.087,
    "targets": [
     "Jade Rock Sovereign->Omnipotent (1 in 92 chests)",
-    "Causticolumn Omnipotent->Transcendent (1 in 31,394 chests)"
+    "Causticolumn Omnipotent->Transcendent (1 in 31,383 chests)"
    ],
    "n_chests": [
     92,
-    31394
+    31383
    ],
    "cheap": [
     92
@@ -452,39 +444,39 @@
    "island": "The Maw",
    "idx": 16,
    "distance": 200000000000.0,
-   "per_chest_pct": 0.914,
+   "per_chest_pct": 0.915,
    "targets": [
     "Fang of the Gods Undiscovered->Base (1 in 209 chests)",
-    "Nomenclature Undiscovered->Base (1 in 419 chests)",
-    "Me First Dollar Undiscovered->Base (1 in 733 chests)",
-    "Bloodclot Undiscovered->Base (1 in 1,570 chests)"
+    "Nomenclature Undiscovered->Base (1 in 418 chests)",
+    "Me First Dollar Undiscovered->Base (1 in 732 chests)",
+    "Bloodclot Undiscovered->Base (1 in 1,569 chests)"
    ],
    "n_chests": [
     209,
-    419,
-    733,
-    1570
+    418,
+    732,
+    1569
    ],
    "cheap": [
     209,
-    419,
-    733
+    418,
+    732
    ]
   },
   {
    "island": "Stormy North",
    "idx": 4,
    "distance": 3000.0,
-   "per_chest_pct": 0.681,
+   "per_chest_pct": 0.682,
    "targets": [
     "Triagulon Omnipotent->Transcendent (1 in 293 chests)",
     "Billcye Tri Omnipotent->Transcendent (1 in 293 chests)",
-    "Amberite Transcendent->Verisimilitude (1 in 42,382,528,366 chests)"
+    "Amberite Transcendent->Verisimilitude (1 in 42,367,139,680 chests)"
    ],
    "n_chests": [
     293,
     293,
-    42382528366
+    42367139680
    ],
    "cheap": [
     293,
@@ -495,7 +487,7 @@
    "island": "Snowy South",
    "idx": 5,
    "distance": 10000.0,
-   "per_chest_pct": 0.561,
+   "per_chest_pct": 0.562,
    "targets": [
     "Frost Relic Omnipotent->Transcendent (1 in 356 chests)",
     "Chilled Yarn Omnipotent->Transcendent (1 in 356 chests)"
@@ -533,13 +525,13 @@
    "distance": 300000.0,
    "per_chest_pct": 0.328,
    "targets": [
-    "Fury Relic Sovereign->Omnipotent (1 in 305 chests)"
+    "Fury Relic Sovereign->Omnipotent (1 in 304 chests)"
    ],
    "n_chests": [
-    305
+    304
    ],
    "cheap": [
-    305
+    304
    ]
   },
   {
@@ -548,16 +540,16 @@
    "distance": 100000000.0,
    "per_chest_pct": 0.24,
    "targets": [
-    "The True Lantern Sovereign->Omnipotent (1 in 1,665 chests)",
-    "The Onyx Lantern Sovereign->Omnipotent (1 in 1,665 chests)",
-    "The Shim Lantern Sovereign->Omnipotent (1 in 1,665 chests)",
-    "The Winz Lantern Sovereign->Omnipotent (1 in 1,665 chests)"
+    "The True Lantern Sovereign->Omnipotent (1 in 1,664 chests)",
+    "The Onyx Lantern Sovereign->Omnipotent (1 in 1,664 chests)",
+    "The Shim Lantern Sovereign->Omnipotent (1 in 1,664 chests)",
+    "The Winz Lantern Sovereign->Omnipotent (1 in 1,664 chests)"
    ],
    "n_chests": [
-    1665,
-    1665,
-    1665,
-    1665
+    1664,
+    1664,
+    1664,
+    1664
    ],
    "cheap": []
   },
@@ -582,16 +574,16 @@
    "distance": 40000000.0,
    "per_chest_pct": 0.147,
    "targets": [
-    "Opera Mask Sovereign->Omnipotent (1 in 1,363 chests)",
-    "Socrates Sovereign->Omnipotent (1 in 1,363 chests)"
+    "Opera Mask Sovereign->Omnipotent (1 in 1,362 chests)",
+    "Socrates Sovereign->Omnipotent (1 in 1,362 chests)"
    ],
    "n_chests": [
-    1363,
-    1363
+    1362,
+    1362
    ],
    "cheap": [
-    1363,
-    1363
+    1362,
+    1362
    ]
   },
   {
@@ -615,13 +607,13 @@
    "distance": 15000000.0,
    "per_chest_pct": 0.092,
    "targets": [
-    "Trilobite Rock Sovereign->Omnipotent (1 in 1,091 chests)"
+    "Trilobite Rock Sovereign->Omnipotent (1 in 1,090 chests)"
    ],
    "n_chests": [
-    1091
+    1090
    ],
    "cheap": [
-    1091
+    1090
    ]
   },
   {
@@ -630,16 +622,16 @@
    "distance": 25.0,
    "per_chest_pct": 0.0,
    "targets": [
-    "Moai Head Transcendent->Verisimilitude (1 in 523,241,091 chests)",
-    "Maneki Kat Transcendent->Verisimilitude (1 in 523,241,091 chests)",
-    "Ruble Cuble Transcendent->Verisimilitude (1 in 523,241,091 chests)",
-    "Fauxory Tusk Transcendent->Verisimilitude (1 in 523,241,091 chests)"
+    "Moai Head Transcendent->Verisimilitude (1 in 523,051,107 chests)",
+    "Maneki Kat Transcendent->Verisimilitude (1 in 523,051,107 chests)",
+    "Ruble Cuble Transcendent->Verisimilitude (1 in 523,051,107 chests)",
+    "Fauxory Tusk Transcendent->Verisimilitude (1 in 523,051,107 chests)"
    ],
    "n_chests": [
-    523241091,
-    523241091,
-    523241091,
-    523241091
+    523051107,
+    523051107,
+    523051107,
+    523051107
    ],
    "cheap": []
   }
@@ -651,7 +643,7 @@
    "now": "Toxic Bay Inc",
    "now_pct": 1.087,
    "best": "Beachy Coast",
-   "best_pct": 2.839,
+   "best_pct": 2.84,
    "move": true,
    "speed_buy": [
     73,
@@ -673,7 +665,7 @@
    "now": "Safari Island",
    "now_pct": 0.0,
    "best": "Beachy Coast",
-   "best_pct": 3.105,
+   "best_pct": 3.106,
    "move": true,
    "speed_buy": [
     80,
@@ -695,7 +687,7 @@
    "now": "Toxic Bay Inc",
    "now_pct": 1.087,
    "best": "Beachy Coast",
-   "best_pct": 2.839,
+   "best_pct": 2.84,
    "move": true,
    "speed_buy": [
     85,
@@ -717,7 +709,7 @@
    "now": "Safari Island",
    "now_pct": 0.0,
    "best": "Beachy Coast",
-   "best_pct": 2.839,
+   "best_pct": 2.84,
    "move": true,
    "speed_buy": [
     65,
@@ -737,9 +729,9 @@
    "boat": 6,
    "captain": "N",
    "now": "Toxic Bay Inc",
-   "now_pct": 1.292,
+   "now_pct": 1.293,
    "best": "Beachy Coast",
-   "best_pct": 3.37,
+   "best_pct": 3.372,
    "move": true,
    "speed_buy": [
     63,
@@ -753,7 +745,7 @@
    "loot_lv": 98,
    "trip_h": 0.5333333333333333,
    "go": "Toxic Bay Inc",
-   "go_pct": 1.292
+   "go_pct": 1.293
   },
   {
    "boat": 7,
@@ -761,7 +753,7 @@
    "now": "Safari Island",
    "now_pct": 0.0,
    "best": "Beachy Coast",
-   "best_pct": 2.839,
+   "best_pct": 2.84,
    "move": true,
    "speed_buy": [
     84,
@@ -783,7 +775,7 @@
    "now": "Toxic Bay Inc",
    "now_pct": 1.087,
    "best": "Beachy Coast",
-   "best_pct": 2.839,
+   "best_pct": 2.84,
    "move": true,
    "speed_buy": [
     74,
@@ -805,7 +797,7 @@
    "now": "Toxic Bay Inc",
    "now_pct": 1.087,
    "best": "Beachy Coast",
-   "best_pct": 2.839,
+   "best_pct": 2.84,
    "move": true,
    "speed_buy": [
     103,
@@ -819,7 +811,7 @@
    "loot_lv": 83,
    "trip_h": 0.5333333333333333,
    "go": "Snowy South",
-   "go_pct": 0.561
+   "go_pct": 0.562
   },
   {
    "boat": 10,
@@ -827,7 +819,7 @@
    "now": "Safari Island",
    "now_pct": 0.0,
    "best": "Beachy Coast",
-   "best_pct": 3.201,
+   "best_pct": 3.202,
    "move": true,
    "speed_buy": [
     73,
@@ -849,7 +841,7 @@
    "now": "Safari Island",
    "now_pct": 0.0,
    "best": "Beachy Coast",
-   "best_pct": 2.839,
+   "best_pct": 2.84,
    "move": true,
    "speed_buy": [
     116,
@@ -863,7 +855,7 @@
    "loot_lv": 141,
    "trip_h": 0.5333333333333333,
    "go": "Stormy North",
-   "go_pct": 0.681
+   "go_pct": 0.682
   },
   {
    "boat": 13,
@@ -871,7 +863,7 @@
    "now": "Safari Island",
    "now_pct": 0.0,
    "best": "Beachy Coast",
-   "best_pct": 2.839,
+   "best_pct": 2.84,
    "move": true,
    "speed_buy": [
     103,
@@ -882,7 +874,7 @@
    "loot_lv": 150,
    "trip_h": 0.5333333333333333,
    "go": "Rocky Peaks",
-   "go_pct": 1.297
+   "go_pct": 1.298
   },
   {
    "boat": 15,
@@ -890,7 +882,7 @@
    "now": "Safari Island",
    "now_pct": 0.0,
    "best": "Beachy Coast",
-   "best_pct": 3.312,
+   "best_pct": 3.313,
    "move": true,
    "speed_buy": [
     67,
@@ -912,7 +904,7 @@
    "now": "Safari Island",
    "now_pct": 0.0,
    "best": "Beachy Coast",
-   "best_pct": 2.839,
+   "best_pct": 2.84,
    "move": true,
    "speed_buy": [
     77,
@@ -934,7 +926,7 @@
    "now": "Safari Island",
    "now_pct": 0.0,
    "best": "Beachy Coast",
-   "best_pct": 3.156,
+   "best_pct": 3.157,
    "move": true,
    "speed_buy": [
     1,
@@ -956,7 +948,7 @@
    "now": "Safari Island",
    "now_pct": 0.0,
    "best": "Beachy Coast",
-   "best_pct": 3.4,
+   "best_pct": 3.401,
    "move": true,
    "speed_buy": [
     78,
@@ -978,7 +970,7 @@
    "now": "Safari Island",
    "now_pct": 0.0,
    "best": "Beachy Coast",
-   "best_pct": 3.121,
+   "best_pct": 3.122,
    "move": true,
    "speed_buy": [
     116,
@@ -1000,7 +992,7 @@
    "now": "Safari Island",
    "now_pct": 0.0,
    "best": "Beachy Coast",
-   "best_pct": 2.839,
+   "best_pct": 2.84,
    "move": true,
    "speed_buy": [
     114,
@@ -1014,7 +1006,7 @@
    "loot_lv": 113,
    "trip_h": 0.5333333333333333,
    "go": "Beachy Coast",
-   "go_pct": 2.839
+   "go_pct": 2.84
   }
  ],
  "captains": [

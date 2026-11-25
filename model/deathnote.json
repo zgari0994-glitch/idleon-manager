@@ -1,7 +1,7 @@
 {
- "snapshot": "20261125T2028",
+ "snapshot": "20261125T2228",
  "cur": {
-  "at": "2026-11-25T20:28:24.034000Z",
+  "at": "2026-11-25T22:28:54.034000Z",
   "kills": {
    "Green Mushroom": [
     "World 1",
@@ -165,7 +165,7 @@
    ],
    "Purp Mushroom": [
     "World 4",
-    1245474344.073955
+    1245474344.0739548
    ],
    "TV": [
     "World 4",
@@ -205,15 +205,15 @@
    ],
    "Octodar": [
     "World 4",
-    4348344030.041048
+    4348344030.041045
    ],
    "Flombeige": [
     "World 4",
-    1205994487.0295312
+    1205994487.0295315
    ],
    "Stilted Seeker": [
     "World 4",
-    3633962279.807452
+    3822077409.807453
    ],
    "Suggma": [
     "World 5",
@@ -245,7 +245,7 @@
    ],
    "Citringe": [
     "World 5",
-    1857578050.3810563
+    1857578050.3810565
    ],
    "Lampar": [
     "World 5",
@@ -253,7 +253,7 @@
    ],
    "Fire Spirit": [
     "World 5",
-    829723570.9092176
+    829723570.9092174
    ],
    "Biggole Mole": [
     "World 5",
@@ -297,7 +297,7 @@
    ],
    "Mama Troll": [
     "World 6",
-    5992150963.080109
+    5992150963.080104
    ],
    "Leek Spirit": [
     "World 6",
@@ -305,7 +305,7 @@
    ],
    "Ceramic Spirit": [
     "World 6",
-    13655294521.346964
+    13655294521.346918
    ],
    "Skydoggie Spirit": [
     "World 6",
@@ -365,11 +365,11 @@
    ],
    "Coralcave Crab": [
     "World 7",
-    9750185723.655893
+    9770249245.655893
    ],
    "Coralcave Guardian": [
     "World 7",
-    1376.686279440748
+    25868367.6862794
    ],
    "Trench Fish": [
     "World 7",
@@ -377,11 +377,11 @@
    ],
    "Boomy Mine": [
     "World 7",
-    49811957.784825765
+    49865109.9690018
    ],
    "Pirate Underling": [
     "World 7",
-    401125726.703985
+    401266120.71434295
    ],
    "Pirate Deckhand": [
     "World 7",
@@ -397,7 +397,7 @@
    ],
    "Jellofish": [
     "World 7",
-    22681831
+    29812712
    ],
    "Kelpfish": [
     "World 7",
@@ -463,7 +463,7 @@
   "multi": {},
   "eclipse": null
  },
- "prev_at": "2026-11-22T13:56:35.108000Z",
+ "prev_at": "2026-11-25T20:28:24.034000Z",
  "groups": [
   {
    "name": "Complete a minimum of Eclipse Skull (1B) in W4",
@@ -572,13 +572,6 @@
    "tier": "24",
    "items": [
     {
-     "label": "Coralcave Guardian in Coralcave Perimeter (1000M remaining)",
-     "cur": "0%",
-     "goal": "100%",
-     "optional": true,
-     "res": "none"
-    },
-    {
      "label": "Kelpfish in Where the Kelp Meets Trench (1B remaining)",
      "cur": "0%",
      "goal": "100%",
@@ -656,8 +649,15 @@
      "res": "dementia-skull"
     },
     {
-     "label": "Jellofish in Jellofish Fields (977M remaining)",
-     "cur": "2%",
+     "label": "Jellofish in Jellofish Fields (970M remaining)",
+     "cur": "3%",
+     "goal": "100%",
+     "optional": true,
+     "res": "dementia-skull"
+    },
+    {
+     "label": "Coralcave Guardian in Coralcave Perimeter (974M remaining)",
+     "cur": "3%",
      "goal": "100%",
      "optional": true,
      "res": "dementia-skull"
@@ -1263,11 +1263,6 @@
      "goal": "100%"
     },
     {
-     "label": "Coralcave Guardian in Coralcave Perimeter (100M remaining)",
-     "cur": "0%",
-     "goal": "100%"
-    },
-    {
      "label": "Equinox Broadbass in Refraction Bend (99M remaining)",
      "cur": "1%",
      "goal": "100%"
@@ -1295,6 +1290,11 @@
     {
      "label": "Balloonfish in Balloon Bay (75M remaining)",
      "cur": "25%",
+     "goal": "100%"
+    },
+    {
+     "label": "Coralcave Guardian in Coralcave Perimeter (74M remaining)",
+     "cur": "26%",
      "goal": "100%"
     },
     {
@@ -1754,11 +1754,6 @@
      "goal": "100%"
     },
     {
-     "label": "Coralcave Guardian in Coralcave Perimeter (1000M remaining)",
-     "cur": "0%",
-     "goal": "100%"
-    },
-    {
      "label": "Equinox Broadbass in Refraction Bend (999M remaining)",
      "cur": "0%",
      "goal": "100%"
@@ -1785,6 +1780,11 @@
     },
     {
      "label": "Balloonfish in Balloon Bay (975M remaining)",
+     "cur": "3%",
+     "goal": "100%"
+    },
+    {
+     "label": "Coralcave Guardian in Coralcave Perimeter (974M remaining)",
      "cur": "3%",
      "goal": "100%"
     },
@@ -2302,7 +2302,7 @@
     {
      "label": "Pirate Underling in Pirate Upper Deck",
      "cur": "",
-     "goal": "112,283,048"
+     "goal": "112,423,442"
     },
     {
      "label": "Doodlefish in Doodle Reef",
@@ -2322,7 +2322,7 @@
     {
      "label": "Jellofish in Jellofish Fields",
      "cur": "",
-     "goal": "22,681,831"
+     "goal": "29,812,712"
     },
     {
      "label": "Shellslug in Barnacle Curb",
@@ -2856,6 +2856,11 @@
      "goal": "40,348,920"
     },
     {
+     "label": "Coralcave Guardian in Coralcave Perimeter",
+     "cur": "",
+     "goal": "25,868,367"
+    },
+    {
      "label": "Balloonfish in Balloon Bay",
      "cur": "",
      "goal": "25,414,631"
@@ -2884,11 +2889,6 @@
      "label": "Equinox Broadbass in Refraction Bend",
      "cur": "",
      "goal": "843,750"
-    },
-    {
-     "label": "Coralcave Guardian in Coralcave Perimeter",
-     "cur": "",
-     "goal": "1,376"
     },
     {
      "label": "Noble Clam in The Clamworks",
@@ -2955,90 +2955,13 @@
  ],
  "ar_tier": "16/23",
  "rate": {
-  "Green Mushroom": 556187416.7951812,
-  "Red Mushroom": 3640.344501197761,
-  "Frog": 32112.812964486096,
-  "Bored Bean": 57112.32123369792,
-  "Slime": 69311.86663903025,
-  "Baby Boa": 137961.62554455397,
-  "Carrotman": 148176.26220110184,
-  "Glublin": 37568.469121799855,
-  "Wode Board": 15829.07507220223,
-  "Gigafrog": 14175.291109507878,
-  "Poop": 49370.46886932933,
-  "Rat": 24093.72273664824,
-  "Walking Stick": 39330.981768082835,
-  "Nutto": 96456.85037354578,
-  "Sandy Pot": 45196.20333188377,
-  "Mimic": 54589.75814427791,
-  "Crabcake": 25828.871118560663,
-  "Mafioso": 13226.881581080019,
-  "Sand Castle": 29877.669505292783,
-  "Pincermin": 58958.601156211786,
-  "Mashed Potato": 74494.98929992694,
-  "Tyson": 20241.330857506142,
-  "Moonmoon": 159016.22968473335,
-  "Sand Giant": 16345.112241740653,
-  "Snelbie": 1325945.3061300681,
-  "Sheepie": 138531211.81007504,
-  "Frost Flake": 13448.516715937712,
-  "Sir Stache": 19288.058865568968,
-  "Bloque": 12800.688154957814,
-  "Mamooth": 4422798.495569967,
-  "Snowman": 11397561.784924468,
-  "Penguin": 13976727.770138465,
-  "Thermister": 143074.30071119522,
-  "Quenchie": 199762.56967762456,
-  "Cryosnake": 19814650.054053366,
-  "Bop Box": 146026.27744932607,
-  "Neyeptune": 3903685.0735344393,
-  "Dedotated Ram": 119416.50126940293,
-  "Bloodbone": 179418.76116853935,
-  "Purp Mushroom": 92234.16841454603,
-  "TV": 25080496.18169678,
-  "Donut": 25317375.48998694,
-  "Demon Genie": 14309635.99620047,
-  "Soda Can": 2537503.508787428,
-  "Flying Worm": 202197.2067123625,
-  "Gelatinous Cuboid": 409519.27484621963,
-  "Choccie": 370859.0361023924,
-  "Biggole Wurm": 539904.0661247507,
-  "Clammie": 220168.02202019547,
-  "Octodar": 51402383.354890555,
-  "Flombeige": 206969.05093987423,
-  "Stilted Seeker": 26867482.36591513,
-  "Suggma": 12156685.23376955,
-  "Maccie": 41584.485679054946,
-  "Mister Brightside": 68011.88446394894,
-  "Cheese Nub": 152277.37882167648,
-  "Stiltmole": 1167599.0871709294,
-  "Molti": 105582.29590284264,
-  "Purgatory Stalker": 113507.13492756324,
-  "Citringe": 606.8323034001108,
-  "Lampar": 4476.725144629845,
-  "Fire Spirit": 7981799.162825214,
-  "Lantern Spirit": 43136501.398764424,
-  "Mama Troll": 8538.08571003804,
-  "Ceramic Spirit": 144179937.45184076,
-  "Equinox Broadbass": 77.08591756064169,
-  "Doodlefish": 17.661670463087777,
-  "Eamsy Earl": 177089.53538218967,
-  "Balloonfish": 1774127.6401756925,
-  "Noble Clam": 594115.7487364592,
-  "Litterfish": 60654.55577752963,
-  "Pufferblob": 38069.18299900452,
-  "Spearfish": 1460377.2163446485,
-  "Coralcave Crab": 5041215.742431678,
-  "Coralcave Guardian": 17.530647780065824,
-  "Eggroll": 1240473.270377038,
-  "Jellofish": 288829.1952974983,
-  "Glunko The Massive": 0.025467890603496544,
-  "Dr Defecaus": 0.012733945301748272,
-  "Baba Yaga": 0.012733945301748272,
-  "Biggie Hours": 0.03820183590524482,
-  "King Doot": 0.012733945301748272,
-  "Mutated Mush": 0.03820183590524482,
-  "Domeo Magmus": 0.03820183590524482,
-  "Demented Spiritlord": 0.03820183590524482
+  "Flombeige": 1.1871464519579876e-07,
+  "Stilted Seeker": 93667284.64730339,
+  "Citringe": 1.1871464519579876e-07,
+  "Coralcave Crab": 9990135.435684647,
+  "Coralcave Guardian": 12879829.543568445,
+  "Boomy Mine": 26465.817846988495,
+  "Pirate Underling": 69905.73129857724,
+  "Jellofish": 3550646.141078838
  }
 }

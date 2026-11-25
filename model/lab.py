@@ -14,7 +14,7 @@ def build():
 
 def card_lines(o):
     L = []
-    if o['on']: L.append(f"Lab: {o['on'][0]} of {o['on'][1]} bonuses on, {o['on'][2]} of {o['on'][3]} jewels on ({o['on'][4]} owned)." + ('' if o['on'][0] == o['on'][1] else ' Some bonuses are off: check connections.'))
+    if o['on']: L.append(f"{o['on'][0]} of {o['on'][1]} lab bonuses on, {o['on'][2]} of {o['on'][3]} jewels on ({o['on'][4]} owned)." + ('' if o['on'][0] == o['on'][1] else ' Some bonuses are off: check connections.'))
     nos = [p for p, l, r in o['players'] if 'Souped' not in l]
     if nos: L.append(f"{', '.join(nos)} isn't souped up, so his lab range is lower.")
     blk = [x for x in o['rotation'] if x['need'] and x['state'] != 'Sold out'][:3]

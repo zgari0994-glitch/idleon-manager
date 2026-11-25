@@ -1,0 +1,435 @@
+{
+ "module": "breeding",
+ "systems": [
+  "breeding"
+ ],
+ "ok": true,
+ "card_lines": [
+  "TOP: spend Dead DNA on Grand Martial of Shinytown first (faster shiny levels; Pulse: faster shinies are priority one), then Paint Bucket, Breedability Mobs. Dead DNA comes from trashing pets (2 to 6 each, idleon.wiki), so trash every egg you don't keep.",
+  "Eggs are full. Pulse: keep clicking them past full to level them.",
+  "Quickest shiny goals: Walking Stick for base critters per trap, Choccie for drop rate, Mashed Potato for base efficiency for all skills.",
+  "Zack's plan (2026-11-21): while pushing Dead DNA, hatch and trash as many eggs as possible (no multiplying focus). One shiny spot is given up to raise breedability on one pet at a time toward heart 7 (Equinox and other places need a set number of heart 7 pets). Card switches to the next pet when one reaches heart 7.",
+  "The Crucible (big cooking speed) opens through the Menagerie on Autisticles."
+ ],
+ "char_lines": {},
+ "routed": {
+  "Autisticles": [
+   "Breeding (Tacular): Luminous Menagerie unlocks the Crucible (10x/20x cooking speed waves) and Shiny OverLVs (unlock 12)"
+  ]
+ },
+ "build": {
+  "snapshot": "20261125T2228",
+  "upgrades": [
+   {
+    "name": "Gene Splicing",
+    "lv": 15,
+    "max": 20,
+    "maxed": false,
+    "effect": "-}% Gene Boost Cost",
+    "have": 1176.4339291156,
+    "cost": 401.015824263903,
+    "meal_cost": 44703483.58154297
+   },
+   {
+    "name": "Egg Capacity",
+    "lv": 5,
+    "max": 5,
+    "maxed": true,
+    "effect": "+} Egg Max",
+    "have": 1176.4339291156,
+    "cost": 911.25,
+    "meal_cost": 600000000000
+   },
+   {
+    "name": "Breedability Mobs",
+    "lv": 6,
+    "max": 10,
+    "maxed": false,
+    "effect": "+}% Breedability Spd",
+    "have": 1176.4339291156,
+    "cost": 133.514404296875,
+    "meal_cost": 8235430
+   },
+   {
+    "name": "Fence Extension",
+    "lv": 10,
+    "max": 10,
+    "maxed": true,
+    "effect": "+} Fenceyard Slots",
+    "have": 1176.4339291156,
+    "cost": 1455.773575954471,
+    "meal_cost": 115343360
+   },
+   {
+    "name": "Rarity of the Egg",
+    "lv": 5,
+    "max": 10,
+    "maxed": false,
+    "effect": "}x Chance",
+    "have": 1176.4339291156,
+    "cost": 640.869140625,
+    "meal_cost": 3542940
+   },
+   {
+    "name": "Blooming Axe",
+    "lv": 2,
+    "max": 50,
+    "maxed": false,
+    "effect": "+}% Mob Damage",
+    "have": 1176.4339291156,
+    "cost": 145.20000000000002,
+    "meal_cost": 3000
+   },
+   {
+    "name": "Pastpresent Brood",
+    "lv": 5,
+    "max": 5,
+    "maxed": true,
+    "effect": "}x Bigger Multi",
+    "have": 1176.4339291156,
+    "cost": 2831.1552000000006,
+    "meal_cost": 2227758000000
+   },
+   {
+    "name": "Paint Bucket",
+    "lv": 1,
+    "max": 100,
+    "maxed": false,
+    "effect": "+}% Base Shiny Chance",
+    "have": 1176.4339291156,
+    "cost": 105.0,
+    "meal_cost": 27.0
+   },
+   {
+    "name": "Overwhelmed Golden Egg",
+    "lv": 2,
+    "max": 20,
+    "maxed": false,
+    "effect": "}x Multiplier every 100 Upg",
+    "have": 1176.4339291156,
+    "cost": 422.4000000000001,
+    "meal_cost": 750
+   },
+   {
+    "name": "Failsafe Restitution Cloud",
+    "lv": 5,
+    "max": 25,
+    "maxed": false,
+    "effect": "} Maximum Times",
+    "have": 1176.4339291156,
+    "cost": 528.9581076480002,
+    "meal_cost": 52760.61853900799
+   },
+   {
+    "name": "Shattershell Iteration",
+    "lv": 1,
+    "max": 10,
+    "maxed": false,
+    "effect": "}% Chance",
+    "have": 1176.4339291156,
+    "cost": 162.5,
+    "meal_cost": 680
+   },
+   {
+    "name": "Grand Martial of Shinytown",
+    "lv": 30,
+    "max": 300,
+    "maxed": false,
+    "effect": "+}% Shiny Mob LV Up Rate",
+    "have": 1176.4339291156,
+    "cost": 125.34994912596026,
+    "meal_cost": 1.3699587610878351e+18
+   }
+  ],
+  "rank": [
+   {
+    "item": "Paint Bucket 1/100",
+    "currency": "DNA",
+    "balance": 1176.4339291156,
+    "cost": 105.0,
+    "gain_pct": null,
+    "stat": "+}% Base Shiny Chance",
+    "weight": 1.5,
+    "note": "",
+    "share": 0.0892527811391288,
+    "afford": true,
+    "score": null
+   },
+   {
+    "item": "Grand Martial of Shinytown 30/300",
+    "currency": "DNA",
+    "balance": 1176.4339291156,
+    "cost": 125.34994912596026,
+    "gain_pct": null,
+    "stat": "+}% Shiny Mob LV Up Rate",
+    "weight": 3,
+    "note": "Pulse 2026-10: faster shinies is priority one",
+    "share": 0.10655077690609771,
+    "afford": true,
+    "score": null
+   },
+   {
+    "item": "Breedability Mobs 6/10",
+    "currency": "DNA",
+    "balance": 1176.4339291156,
+    "cost": 133.514404296875,
+    "gain_pct": null,
+    "stat": "+}% Breedability Spd",
+    "weight": 1.5,
+    "note": "Heart VII pets 0/68 (AutoReview)",
+    "share": 0.11349078005362039,
+    "afford": true,
+    "score": null
+   },
+   {
+    "item": "Blooming Axe 2/50",
+    "currency": "DNA",
+    "balance": 1176.4339291156,
+    "cost": 145.20000000000002,
+    "gain_pct": null,
+    "stat": "+}% Mob Damage",
+    "weight": 2,
+    "note": "AutoReview: 2 -> 10 for pet damage",
+    "share": 0.12342384591810954,
+    "afford": true,
+    "score": null
+   },
+   {
+    "item": "Shattershell Iteration 1/10",
+    "currency": "DNA",
+    "balance": 1176.4339291156,
+    "cost": 162.5,
+    "gain_pct": null,
+    "stat": "}% Chance",
+    "weight": 1,
+    "note": "",
+    "share": 0.1381293041438898,
+    "afford": true,
+    "score": null
+   },
+   {
+    "item": "Gene Splicing 15/20",
+    "currency": "DNA",
+    "balance": 1176.4339291156,
+    "cost": 401.015824263903,
+    "gain_pct": null,
+    "stat": "-}% Gene Boost Cost",
+    "weight": 1,
+    "note": "only helps unlock new mob types",
+    "share": 0.3408740723462235,
+    "afford": true,
+    "score": null
+   },
+   {
+    "item": "Overwhelmed Golden Egg 2/20",
+    "currency": "DNA",
+    "balance": 1176.4339291156,
+    "cost": 422.4000000000001,
+    "gain_pct": null,
+    "stat": "}x Multiplier every 100 Upg",
+    "weight": 1,
+    "note": "new mob chance only",
+    "share": 0.3590511881254096,
+    "afford": true,
+    "score": null
+   },
+   {
+    "item": "Failsafe Restitution Cloud 5/25",
+    "currency": "DNA",
+    "balance": 1176.4339291156,
+    "cost": 528.9581076480002,
+    "gain_pct": null,
+    "stat": "} Maximum Times",
+    "weight": 1,
+    "note": "new/shiny mob chance",
+    "share": 0.44962840203499704,
+    "afford": true,
+    "score": null
+   },
+   {
+    "item": "Rarity of the Egg 5/10",
+    "currency": "DNA",
+    "balance": 1176.4339291156,
+    "cost": 640.869140625,
+    "gain_pct": null,
+    "stat": "}x Chance",
+    "weight": 1,
+    "note": "",
+    "share": 0.5447557442573778,
+    "afford": true,
+    "score": null
+   }
+  ],
+  "territory": [],
+  "eggs": [
+   15,
+   15
+  ],
+  "dna": 1176.4339291156,
+  "time_per_egg": "478.2h",
+  "fence": null,
+  "wave": 247,
+  "shiny_targets": [
+   {
+    "bonus": "Base Critters per Trap",
+    "pet": "Walking Stick",
+    "days": 15.76,
+    "cur": "5",
+    "goal": "11",
+    "tier": "To reach Tier 10 - Base Critters per Trap: 13/22"
+   },
+   {
+    "bonus": "Drop Rate",
+    "pet": "Choccie",
+    "days": 16.8,
+    "cur": "5",
+    "goal": "12",
+    "tier": "To reach Tier 10 - Drop Rate: 20/36"
+   },
+   {
+    "bonus": "Base Efficiency for All Skills",
+    "pet": "Mashed Potato",
+    "days": 56.13,
+    "cur": "5",
+    "goal": "12",
+    "tier": "To reach Tier 9 - Base Efficiency for All Skills: 20/48"
+   },
+   {
+    "bonus": "Faster Refinery Speed",
+    "pet": "Whale",
+    "days": 56.13,
+    "cur": "5",
+    "goal": "11",
+    "tier": "To reach Tier 11 - Faster Refinery Speed: 28/33"
+   },
+   {
+    "bonus": "Faster Refinery Speed",
+    "pet": "Bored Bean",
+    "days": 75.94,
+    "cur": "5",
+    "goal": "11",
+    "tier": "To reach Tier 11 - Faster Refinery Speed: 28/33"
+   },
+   {
+    "bonus": "Base Efficiency for All Skills",
+    "pet": "Sand Giant",
+    "days": 88.76,
+    "cur": "5",
+    "goal": "12",
+    "tier": "To reach Tier 9 - Base Efficiency for All Skills: 20/48"
+   },
+   {
+    "bonus": "Bonuses from All Meals",
+    "pet": "Sheepie",
+    "days": 88.77,
+    "cur": "5",
+    "goal": "13",
+    "tier": "To reach Tier 9 - Bonuses from All Meals: 10/26"
+   },
+   {
+    "bonus": "Drop Rate",
+    "pet": "Slime",
+    "days": 89.0,
+    "cur": "5",
+    "goal": "12",
+    "tier": "To reach Tier 10 - Drop Rate: 20/36"
+   },
+   {
+    "bonus": "Bonuses from All Meals",
+    "pet": "Red Mushroom",
+    "days": 89.02,
+    "cur": "5",
+    "goal": "13",
+    "tier": "To reach Tier 9 - Bonuses from All Meals: 10/26"
+   },
+   {
+    "bonus": "Base Efficiency for All Skills",
+    "pet": "Carrotman",
+    "days": 109.4,
+    "cur": "5",
+    "goal": "12",
+    "tier": "To reach Tier 9 - Base Efficiency for All Skills: 20/48"
+   },
+   {
+    "bonus": "Base Efficiency for All Skills",
+    "pet": "Gigafrog",
+    "days": 109.79,
+    "cur": "5",
+    "goal": "12",
+    "tier": "To reach Tier 9 - Base Efficiency for All Skills: 20/48"
+   },
+   {
+    "bonus": "Multikill Per Tier",
+    "pet": "Dedotated Ram",
+    "days": 133.91,
+    "cur": "8",
+    "goal": "11",
+    "tier": "To reach Tier 11 - Multikill Per Tier: 36/44"
+   },
+   {
+    "bonus": "Base Critters per Trap",
+    "pet": "Octodar",
+    "days": 984.03,
+    "cur": "8",
+    "goal": "11",
+    "tier": "To reach Tier 10 - Base Critters per Trap: 13/22"
+   },
+   {
+    "bonus": "Multikill Per Tier",
+    "pet": "Bloque",
+    "days": 1015.0,
+    "cur": "8",
+    "goal": "11",
+    "tier": "To reach Tier 11 - Multikill Per Tier: 36/44"
+   },
+   {
+    "bonus": "Multikill Per Tier",
+    "pet": "Baby Boa",
+    "days": 2028.98,
+    "cur": "10",
+    "goal": "11",
+    "tier": "To reach Tier 11 - Multikill Per Tier: 36/44"
+   },
+   {
+    "bonus": "Summoning EXP gain",
+    "pet": "Chippy",
+    "days": 2051.46,
+    "cur": "9",
+    "goal": "11",
+    "tier": "To reach Tier 11 - Summoning EXP gain: 18/22"
+   },
+   {
+    "bonus": "Summoning EXP gain",
+    "pet": "Donut",
+    "days": 2051.66,
+    "cur": "9",
+    "goal": "11",
+    "tier": "To reach Tier 11 - Summoning EXP gain: 18/22"
+   },
+   {
+    "bonus": "Multikill Per Tier",
+    "pet": "Rat",
+    "days": 2643.05,
+    "cur": "10",
+    "goal": "11",
+    "tier": "To reach Tier 11 - Multikill Per Tier: 36/44"
+   },
+   {
+    "bonus": "Drop Rate",
+    "pet": "Xylobone",
+    "days": 3496.76,
+    "cur": "10",
+    "goal": "12",
+    "tier": "To reach Tier 10 - Drop Rate: 20/36"
+   },
+   {
+    "bonus": "Faster Refinery Speed",
+    "pet": "Demon Genie",
+    "days": 388986.28,
+    "cur": "18",
+    "goal": "18",
+    "tier": "To reach Tier 11 - Faster Refinery Speed: 28/33"
+   }
+  ]
+ }
+}

@@ -2,8 +2,8 @@
  "companions": [
   {
    "name": "King Doot",
-   "effect": "All Divinities from World 5 count as Active",
-   "upgraded": false
+   "effect": "All Divinities count as Active, and 1.25x Divinity PTS gain",
+   "upgraded": true
   },
   {
    "name": "Rift Slug",
@@ -232,8 +232,8 @@
   },
   {
    "name": "Purp Mushroom",
-   "effect": "+5% Golden Food bonus",
-   "upgraded": false
+   "effect": "+7% Golden Food bonus",
+   "upgraded": true
   },
   {
    "name": "Bubba the Seal",
@@ -670,6 +670,12 @@
    "name": "Richelin Kitchen",
    "lv": 10,
    "max": 10,
+   "section": "Bonuses"
+  },
+  {
+   "name": "Console Chip",
+   "lv": 3,
+   "max": 7,
    "section": "Bonuses"
   },
   {
@@ -1172,14 +1178,14 @@
  "legend_talents": [
   {
    "name": "Coral Restoration",
-   "lv": 0,
+   "lv": 2,
    "max": 2,
    "effect": "+{% more Daily Coral gained each and every day!"
   },
   {
    "name": "Greatest Drop Party Ever",
    "lv": 4,
-   "max": 4,
+   "max": 5,
    "effect": "+{% Drop Rate for all players! This bonus is additive, not a multiplier."
   },
   {
@@ -1227,7 +1233,7 @@
   {
    "name": "Superb Gallerium",
    "lv": 2,
-   "max": 2,
+   "max": 3,
    "effect": "The first { normal showcase slots in your Gallery are 1 grade higher (i.e. they become Featured, and give 150% bonuses)"
   },
   {
@@ -1269,7 +1275,7 @@
   {
    "name": "Thanatos's Teachings",
    "lv": 2,
-   "max": 2,
+   "max": 3,
    "effect": "+{% extra kills, for opening portals and Deathnote. This bonus is additive, not a multiplier."
   },
   {
@@ -1311,7 +1317,7 @@
   {
    "name": "Daily Shopping Spree",
    "lv": 3,
-   "max": 3,
+   "max": 4,
    "effect": "The first { upgrades you buy each day for Masterclasses are 80% cheaper"
   },
   {
@@ -1371,7 +1377,7 @@
   {
    "name": "Inevitable Builder",
    "lv": 2,
-   "max": 2,
+   "max": 3,
    "effect": "Gives 1 additional Trimmed Construction Slot, and makes them }x faster for a total bonus speed of $x!"
   },
   {
@@ -1384,7 +1390,7 @@
    "name": "Obsolete No More",
    "lv": 1,
    "max": 1,
-   "effect": "The Metal Detector bonus from Equinox Valley no longer resets when you find a new best nugget"
+   "effect": "The Metal Detector bonus from Equinox Valley no longer resets when you find a new best nugget. Also, }x Equinox Bar Fill Rate"
   },
   {
    "name": "Wowa Woowa",
@@ -1409,6 +1415,18 @@
    "lv": 1,
    "max": 1,
    "effect": "You get +1 Super Talent Point at Class LV 500, LV 600, LV 700 and so on. Spend these on Talents to give them +$ LV!"
+  },
+  {
+   "name": "Minehead My Beloved",
+   "lv": 0,
+   "max": 6,
+   "effect": "}x Minehead Currency Gain and Damage. Also, opponent gets -1 Depth Charge the 1st, 3rd, and 5th time you upgrade this!"
+  },
+  {
+   "name": "Two Time Jelly Operation",
+   "lv": 0,
+   "max": 6,
+   "effect": "}x Jelly Operator Damage. Also, you get +1 Slot Unlock to use the 1st, 3rd, and 5th time you upgrade this!"
   }
  ],
  "research": [
@@ -1448,6 +1466,16 @@
    "effect": "You can now speak to Glimbo, and make trades with him! Also boosts coins dropped by monsters by }x!"
   },
   {
+   "name": "Masterclass Research",
+   "lv": 1,
+   "effect": "Reduces the cost of all OG Masterclass upgrades (DB, WW, AC) by {% every day, FOREVER! Total Reduction:-&%"
+  },
+  {
+   "name": "Spelunking Research",
+   "lv": 1,
+   "effect": "Boosts Spelunking POW by +{% every day, FOREVER!<br>Total Boost:^x POW"
+  },
+  {
    "name": "Eclectic Sigils",
    "lv": 1,
    "effect": "Sigils can be upgraded a 5th time to Eclectic!<br>NOTE:You must defeat Lore Boss 7 in Spelunking first!"
@@ -1456,6 +1484,21 @@
    "name": "Mr Minehead Linguistics",
    "lv": 1,
    "effect": "You can now speak to Mr Minehead and play his Depth Charge game! Also, +{ base Minehead Currency/hr"
+  },
+  {
+   "name": "Legendary Red Fever",
+   "lv": 1,
+   "effect": "Raises the Max LV of certain Red Legend Talents by +|.<br>Also, }x Class EXP gain!"
+  },
+  {
+   "name": "The Maw",
+   "lv": 1,
+   "effect": "Unlocks a new island in Sailing, THE MAW!<br>Also, }x Artifact Find Chance. You'll need it."
+  },
+  {
+   "name": "Palettable Crowns",
+   "lv": 1,
+   "effect": "+{% Palette Luck for every King Rat Crown you reclaim.<br>Total Bonus:$%"
   },
   {
    "name": "Rat King of Olde",
@@ -1476,6 +1519,11 @@
    "name": "Research AFK Gains",
    "lv": 2,
    "effect": "+{% Research AFK Gains. This affects OFFLINE gains for Research, Minehead, Insight... everything Research related!"
+  },
+  {
+   "name": "See 'Em All",
+   "lv": 1,
+   "effect": "+{% Research EXP gain per Observation found!<br>Total Bonus:+$%"
   },
   {
    "name": "Gaming Zuperbits",
@@ -1514,7 +1562,7 @@
   },
   {
    "name": "Kaleidoscope",
-   "lv": 1,
+   "lv": 4,
    "effect": "Gives +| Kaleidoscopes to use for Observations! Also, +{% Kaleidoscope effect!"
   },
   {
@@ -1526,117 +1574,127 @@
    "name": "Pts Every Ten",
    "lv": 1,
    "effect": "Get +| extra Research PTS every 10 Research LVs! Also, +{% Research EXP Gain!"
+  },
+  {
+   "name": "Sharp Eye",
+   "lv": 2,
+   "effect": "Increase the max possible Roll while searching for new observations by +|, and +{% Research EXP gain!"
+  },
+  {
+   "name": "Smart Eye",
+   "lv": 1,
+   "effect": "Raises the minimum possible Roll by +1 for each failed Roll, up to +$. This resets back to 0 upon a successful Roll. Also +{% Research EXP Gain."
   }
  ],
  "family_bonuses": [
   {
    "class": "Journeyman",
-   "level": 781,
+   "level": 815,
    "value": null
   },
   {
    "class": "Maestro",
-   "level": 781,
-   "value": 5.295774647887324
+   "level": 815,
+   "value": 5.322799097065463
   },
   {
    "class": "Voidwalker",
-   "level": 781,
+   "level": 815,
    "value": null
   },
   {
    "class": "Warrior",
-   "level": 847,
+   "level": 901,
    "value": null
   },
   {
    "class": "Barbarian",
-   "level": 847,
+   "level": 901,
    "value": null
   },
   {
    "class": "Squire",
-   "level": 837,
+   "level": 854,
    "value": null
   },
   {
    "class": "Blood Berserker",
-   "level": 847,
+   "level": 901,
    "value": null
   },
   {
    "class": "Death Bringer",
-   "level": 847,
+   "level": 901,
    "value": null
   },
   {
    "class": "Divine Knight",
-   "level": 837,
+   "level": 854,
    "value": null
   },
   {
    "class": "Royal Guardian",
-   "level": 837,
-   "value": 4.694960212201591
+   "level": 854,
+   "value": 4.754098360655738
   },
   {
    "class": "Archer",
-   "level": 857,
+   "level": 877,
    "value": null
   },
   {
    "class": "Bowman",
-   "level": 857,
+   "level": 867,
    "value": null
   },
   {
    "class": "Hunter",
-   "level": 856,
+   "level": 877,
    "value": null
   },
   {
    "class": "Siege Breaker",
-   "level": 857,
+   "level": 867,
    "value": null
   },
   {
    "class": "Wind Walker",
-   "level": 856,
+   "level": 877,
    "value": null
   },
   {
    "class": "Beast Master",
-   "level": 856,
+   "level": 877,
    "value": null
   },
   {
    "class": "Mage",
-   "level": 874,
+   "level": 878,
    "value": null
   },
   {
    "class": "Wizard",
-   "level": 842,
-   "value": 136
+   "level": 864,
+   "value": 140
   },
   {
    "class": "Shaman",
-   "level": 874,
-   "value": 1.3576719576719576
+   "level": 878,
+   "value": 1.357850368809273
   },
   {
    "class": "Elemental Sorcerer",
-   "level": 842,
-   "value": 13.766696349065004
+   "level": 864,
+   "value": 13.88646288209607
   },
   {
    "class": "Bubonic Conjuror",
-   "level": 874,
+   "level": 878,
    "value": null
   },
   {
    "class": "Arcane Cultist",
-   "level": 874,
+   "level": 878,
    "value": null
   }
  ],
@@ -1644,68 +1702,68 @@
   {
    "name": "Archlord of the Pirates",
    "type": "Drop Rate and Class EXP",
-   "kills": 6017,
-   "value": 16.457886658778147,
+   "kills": 6123,
+   "value": 16.524899734289008,
    "how": "Farm more Plunder Kills with Siege Breaker for Drop Rate Crystal Setup at W5 Citringes for ~20k per day"
   },
   {
    "name": "King of the Remembered",
    "type": "Printer Output",
-   "kills": 2687560,
-   "value": 22.783599325545637,
+   "kills": 2749986,
+   "value": 22.873248723261707,
    "how": "Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from"
   },
   {
    "name": "Wormhole Emperor",
    "type": "Damage",
-   "kills": 570282,
-   "value": 5.3636175747818715,
+   "kills": 570597,
+   "value": 0.0,
    "how": "Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns"
   }
  ],
  "divinity": [
   {
    "god": "Snehebatu",
-   "blessing": 131
+   "blessing": null
   },
   {
    "god": "Arctis",
-   "blessing": 100
+   "blessing": null
   },
   {
    "god": "Nobisect",
-   "blessing": 114
+   "blessing": null
   },
   {
    "god": "Harriep",
-   "blessing": 131
+   "blessing": null
   },
   {
    "god": "Goharut",
-   "blessing": 100
+   "blessing": null
   },
   {
    "god": "Omniphau",
-   "blessing": 80
+   "blessing": null
   },
   {
    "god": "Purrmep",
-   "blessing": 131
+   "blessing": null
   },
   {
    "god": "Flutterbis",
-   "blessing": 60
+   "blessing": null
   },
   {
    "god": "Kattlekruk",
-   "blessing": 73
+   "blessing": null
   },
   {
    "god": "Bagur",
-   "blessing": 60
+   "blessing": null
   }
  ],
- "achievements_done": 212,
+ "achievements_done": 215,
  "achievements_open": [
   "Hitting the Mark",
   "Minecart Maniac",
@@ -1748,7 +1806,6 @@
   "The True Emperor",
   "Maple Logger",
   "No Krakens? ):",
-  "Maroon Warship",
   "POiNG Champion",
   "Chemical Collector",
   "Perfect Trade Deal",
@@ -1758,8 +1815,6 @@
   "Hug from Timmy",
   "That's MY Crown",
   "Leet Lanterns",
-  "Doctor Repellant",
-  "Cob Enjoyer",
   "Legumulucky",
   "Yellow Belt",
   "Penta Defence"

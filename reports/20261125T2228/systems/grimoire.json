@@ -1,0 +1,891 @@
+{
+ "module": "grimoire",
+ "systems": [
+  "grimoire"
+ ],
+ "ok": true,
+ "card_lines": [
+  "107 more upgrade levels unlock Talents for Me, not for Thee. Cheap Wraith levels are the fastest way there.",
+  "Cheap and on AutoReview's list: Talents for Me, not for Thee (45.9K Cranium), Writhing Grimoire (83.8K Ribcage), Skull of Major Talent (180K Bovinae).",
+  "These also help other systems: Ribbon Winning for Cooking, Land Rank Database Maxim for Farming, Sacrifice of Harvest for Farming, Grey Tome Book for Talents, Superior Crop Research for Farming.",
+  "Griffy: max out AFK gains before spending bones, and keep accuracy high enough to hit."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "snapshot": "20261125T2228",
+  "balance": {
+   "Femur": 309185633.615022,
+   "Ribcage": 290320786.017076,
+   "Cranium": 290716882.263665,
+   "Bovinae": 1578587426
+  },
+  "total": 3043,
+  "next_unlock": [
+   "Talents for Me, not for Thee",
+   3150
+  ],
+  "upgrades": [
+   {
+    "name": "Wraith Damage",
+    "lv": 156,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 1033146245.0742141,
+    "currency": "Femur",
+    "desc": "+156 Base Damage in Wraith Form",
+    "unlocked": true
+   },
+   {
+    "name": "Wraith Accuracy",
+    "lv": 315,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 858923224.3206738,
+    "currency": "Femur",
+    "desc": "+315 Base Accuracy in Wraith Form",
+    "unlocked": true
+   },
+   {
+    "name": "Wraith Defence",
+    "lv": 123,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 29282842.07077313,
+    "currency": "Femur",
+    "desc": "+123 Base Defence in Wraith Form",
+    "unlocked": true
+   },
+   {
+    "name": "Wraith Health",
+    "lv": 163,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 30103766.086004797,
+    "currency": "Femur",
+    "desc": "+163 Base HP in Wraith Form",
+    "unlocked": true
+   },
+   {
+    "name": "Ribbon Shelf",
+    "lv": 1,
+    "max": 1,
+    "maxed": true,
+    "next": null,
+    "cost": 854.5291108593751,
+    "currency": "Femur",
+    "desc": "Unlocks Ribbons for Meals, found at Le Menu in W4",
+    "unlocked": true
+   },
+   {
+    "name": "Ribbon Winning",
+    "lv": 32,
+    "max": 50,
+    "maxed": false,
+    "next": null,
+    "cost": 232874346.55104205,
+    "currency": "Femur",
+    "desc": "Get +1 Daily Ribbon, +32% chance for rare quality",
+    "unlocked": true
+   },
+   {
+    "name": "Wraith Damage II",
+    "lv": 141,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 1037333370.236651,
+    "currency": "Femur",
+    "desc": "+423 Base Damage in Wraith Form",
+    "unlocked": true
+   },
+   {
+    "name": "Wraith of all Trades",
+    "lv": 93,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 1144094228.5517168,
+    "currency": "Femur",
+    "desc": "+93% Accuracy, Defence, and HP in Wraith Form",
+    "unlocked": true
+   },
+   {
+    "name": "Wraith Destruction",
+    "lv": 109,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 1503908804.57659,
+    "currency": "Femur",
+    "desc": "+109% Total Damage in Wraith Form",
+    "unlocked": true
+   },
+   {
+    "name": "Land Rank Database Maxim",
+    "lv": 8,
+    "max": 10,
+    "maxed": false,
+    "next": null,
+    "cost": 9047597980.665375,
+    "currency": "Femur",
+    "desc": "+8 Max LV for 5th column Land Rank upgrades",
+    "unlocked": true
+   },
+   {
+    "name": "Wraith Crits",
+    "lv": 40,
+    "max": 40,
+    "maxed": true,
+    "next": null,
+    "cost": 1715577.9679691931,
+    "currency": "Femur",
+    "desc": "+40% Crit Chance in Wraith Form",
+    "unlocked": true
+   },
+   {
+    "name": "Pure Opals",
+    "lv": 25,
+    "max": 25,
+    "maxed": true,
+    "next": null,
+    "cost": 3865892163.1775274,
+    "currency": "Ribcage",
+    "desc": "+25 Opals to give to your Villagers in World 5",
+    "unlocked": true
+   },
+   {
+    "name": "Wraith Accuracy II",
+    "lv": 202,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 333391263.6740723,
+    "currency": "Femur",
+    "desc": "+606 Base Accuracy in Wraith Form",
+    "unlocked": true
+   },
+   {
+    "name": "Knockout! (#)",
+    "lv": 39,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 1269008011.2991676,
+    "currency": "Ribcage",
+    "desc": "+39% Wraith DMG per KO! Target:$",
+    "unlocked": true
+   },
+   {
+    "name": "Sacrifice of Harvest",
+    "lv": 223,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 29464717.56549195,
+    "currency": "Femur",
+    "desc": "12.15x higher Crop Evo chance",
+    "unlocked": true
+   },
+   {
+    "name": "Wraith Defence II",
+    "lv": 98,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 105964844.81677611,
+    "currency": "Ribcage",
+    "desc": "+98 Base Defence in Wraith Form",
+    "unlocked": true
+   },
+   {
+    "name": "Wraith Damage III",
+    "lv": 124,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 3901220103.7446527,
+    "currency": "Ribcage",
+    "desc": "+1,860 Base Damage in Wraith Form",
+    "unlocked": true
+   },
+   {
+    "name": "Grey Tome Book",
+    "lv": 50,
+    "max": 150,
+    "maxed": false,
+    "next": null,
+    "cost": 262683340.40152013,
+    "currency": "Ribcage",
+    "desc": "1.50x higher bonuses from the Tome",
+    "unlocked": true
+   },
+   {
+    "name": "Femur Hoarding",
+    "lv": 90,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 2928559871.5422397,
+    "currency": "Ribcage",
+    "desc": "+180% Wraith DMG per POW 10 Femurs owned",
+    "unlocked": true
+   },
+   {
+    "name": "Wraith Health II",
+    "lv": 127,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 98170744.89554475,
+    "currency": "Ribcage",
+    "desc": "+254 Base HP in Wraith Form",
+    "unlocked": true
+   },
+   {
+    "name": "Wraith Strikeforce",
+    "lv": 79,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 1033246315.8333973,
+    "currency": "Ribcage",
+    "desc": "+158% Crit DMG in Wraith Form",
+    "unlocked": true
+   },
+   {
+    "name": "Elimination! (#)",
+    "lv": 35,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 5303514333.56434,
+    "currency": "Ribcage",
+    "desc": "+35% Wraith DMG per elim! Target:$",
+    "unlocked": true
+   },
+   {
+    "name": "Superior Crop Research",
+    "lv": 37,
+    "max": 200,
+    "maxed": false,
+    "next": null,
+    "cost": 61095173.72196719,
+    "currency": "Femur",
+    "desc": "1.37x higher bonuses from the Crop Scientist",
+    "unlocked": true
+   },
+   {
+    "name": "Bones o' Plenty",
+    "lv": 65,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 3191101096.3730383,
+    "currency": "Ribcage",
+    "desc": "+130% Extra Bones",
+    "unlocked": true
+   },
+   {
+    "name": "Skull of Major Experience",
+    "lv": 246,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 234146750.08533254,
+    "currency": "Ribcage",
+    "desc": "+1,968% Class EXP bonus for all characters, always!",
+    "unlocked": true
+   },
+   {
+    "name": "Wraith Accuracy III",
+    "lv": 154,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 2712918746.7570424,
+    "currency": "Cranium",
+    "desc": "+770 Base Accuracy in Wraith Form",
+    "unlocked": true
+   },
+   {
+    "name": "Supreme Head Chef Status",
+    "lv": 20,
+    "max": 20,
+    "maxed": true,
+    "next": null,
+    "cost": 20249750.109599076,
+    "currency": "Ribcage",
+    "desc": "+20 Max LV for all Meals. Go max them!",
+    "unlocked": true
+   },
+   {
+    "name": "Ribcage Hoarding",
+    "lv": 52,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 486343118.1814955,
+    "currency": "Femur",
+    "desc": "+52% Wraith DEF per POW 10 Ribcages owned",
+    "unlocked": true
+   },
+   {
+    "name": "Wraith Destruction II",
+    "lv": 68,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 2266440656.755037,
+    "currency": "Ribcage",
+    "desc": "+204% Total Damage in Wraith Form",
+    "unlocked": true
+   },
+   {
+    "name": "Villager Extraciricular",
+    "lv": 56,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 135138875.36391327,
+    "currency": "Cranium",
+    "desc": "1.56x Villager EXP gain in World 5",
+    "unlocked": true
+   },
+   {
+    "name": "Wraith Defence III",
+    "lv": 51,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 10905081.089865739,
+    "currency": "Cranium",
+    "desc": "+102 Base Defence in Wraith Form",
+    "unlocked": true
+   },
+   {
+    "name": "Annihilation! (#)",
+    "lv": 21,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 456514361.00060815,
+    "currency": "Cranium",
+    "desc": "+21% Wraith DMG per stack! Target:$",
+    "unlocked": true
+   },
+   {
+    "name": "Talents for Me, not for Thee",
+    "lv": 0,
+    "max": 200,
+    "maxed": false,
+    "next": null,
+    "cost": 45947.64987582054,
+    "currency": "Cranium",
+    "desc": "+0 Talent PTS for the Death Bringer class only",
+    "unlocked": false
+   },
+   {
+    "name": "Wraith Damage IV",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 52935.52162776824,
+    "currency": "Cranium",
+    "desc": "+0 Base Damage in Wraith Form",
+    "unlocked": false
+   },
+   {
+    "name": "Wraith Health III",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 60507.311430221176,
+    "currency": "Cranium",
+    "desc": "+0 Base HP in Wraith Form",
+    "unlocked": false
+   },
+   {
+    "name": "Skull of Major Damage",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 67965.18935069031,
+    "currency": "Cranium",
+    "desc": "+0% Total DMG bonus for all characters, always!",
+    "unlocked": false
+   },
+   {
+    "name": "Writhing Grimoire",
+    "lv": 0,
+    "max": 50,
+    "maxed": false,
+    "next": null,
+    "cost": 83774.48339530738,
+    "currency": "Ribcage",
+    "desc": "1.00x higher bonuses from most Grimoire upgrades",
+    "unlocked": false
+   },
+   {
+    "name": "Wraith Accuracy IV",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 110768.483600462,
+    "currency": "Cranium",
+    "desc": "+0 Base Accuracy in Wraith Form",
+    "unlocked": false
+   },
+   {
+    "name": "Wraith of all Trades II",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 143673.23902295218,
+    "currency": "Bovinae",
+    "desc": "+0% Accuracy, Defence, and HP in Wraith Form",
+    "unlocked": false
+   },
+   {
+    "name": "Skull of Major Talent",
+    "lv": 0,
+    "max": 30,
+    "maxed": false,
+    "next": null,
+    "cost": 179591.54877869025,
+    "currency": "Bovinae",
+    "desc": "+0 Talent LVs for all characters, always!",
+    "unlocked": false
+   },
+   {
+    "name": "Wraith Defence IV",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 214971.08388809225,
+    "currency": "Bovinae",
+    "desc": "+0 Base Defence in Wraith Form",
+    "unlocked": false
+   },
+   {
+    "name": "Cranium Hoarding",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 249479.5999859176,
+    "currency": "Bovinae",
+    "desc": "+0% Wraith Accuracy per POW 10 Craniums owned",
+    "unlocked": false
+   },
+   {
+    "name": "Wraith Health IV",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 311849.49998239696,
+    "currency": "Bovinae",
+    "desc": "+0 Base HP in Wraith Form",
+    "unlocked": false
+   },
+   {
+    "name": "Wraith Destruction III",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 371100.9049790525,
+    "currency": "Bovinae",
+    "desc": "+0% Total Damage in Wraith form",
+    "unlocked": false
+   },
+   {
+    "name": "Skull of Major Droprate",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 458418.7649741237,
+    "currency": "Bovinae",
+    "desc": "+0% Drop Rate bonus for all characters, always!",
+    "unlocked": false
+   },
+   {
+    "name": "Ok fine, Talents for Thee too",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 577607.6438673958,
+    "currency": "Bovinae",
+    "desc": "+0 Talent PTS for all other Master Classes",
+    "unlocked": false
+   },
+   {
+    "name": "Wraith Damage V",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 758110.032575957,
+    "currency": "Cranium",
+    "desc": "+0 Base Damage in Wraith Form",
+    "unlocked": false
+   },
+   {
+    "name": "Wraith Accuracy V",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 1061354.0456063398,
+    "currency": "Cranium",
+    "desc": "+0 Base Accuracy in Wraith Form",
+    "unlocked": false
+   },
+   {
+    "name": "Bovinae Hoarding",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 1671632.6218299854,
+    "currency": "Cranium",
+    "desc": "+0% Extra Bones per POW 10 Bovinae owned",
+    "unlocked": false
+   },
+   {
+    "name": "Wraith Defence V",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 2925357.0882024746,
+    "currency": "Bovinae",
+    "desc": "+0 Base Defence in Wraith Form",
+    "unlocked": false
+   },
+   {
+    "name": "Wraith Destruction IV",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 3685949.9311351175,
+    "currency": "Bovinae",
+    "desc": "+0% Total Damage in Wraith Form",
+    "unlocked": false
+   },
+   {
+    "name": "Death of the Atom Price",
+    "lv": 0,
+    "max": null,
+    "maxed": false,
+    "next": null,
+    "cost": 4837809.284614843,
+    "currency": "Bovinae",
+    "desc": "All Atoms are +0% cheaper to upgrade",
+    "unlocked": false
+   },
+   {
+    "name": "Ripped Page",
+    "lv": 0,
+    "max": 1,
+    "maxed": false,
+    "next": null,
+    "cost": 13545865990.148626,
+    "currency": "Ribcage",
+    "desc": "These pages are missing...",
+    "unlocked": false
+   },
+   {
+    "name": "Ripped Page",
+    "lv": 0,
+    "max": 1,
+    "maxed": false,
+    "next": null,
+    "cost": 14223159289.65606,
+    "currency": "Ribcage",
+    "desc": "These pages are missing...",
+    "unlocked": false
+   },
+   {
+    "name": "Ripped Page",
+    "lv": 0,
+    "max": 1,
+    "maxed": false,
+    "next": null,
+    "cost": 14934317254.138865,
+    "currency": "Ribcage",
+    "desc": "These pages are missing...",
+    "unlocked": false
+   }
+  ],
+  "targets": [
+   {
+    "tab": "To reach Tier 5",
+    "name": "Total Grimoire Upgrades",
+    "cur": "3043",
+    "goal": "3150",
+    "up": null
+   },
+   {
+    "tab": "To reach Tier 6",
+    "name": "Total Grimoire Upgrades",
+    "cur": "3043",
+    "goal": "4100",
+    "up": null
+   },
+   {
+    "tab": "To reach Tier 7",
+    "name": "Total Grimoire Upgrades",
+    "cur": "3043",
+    "goal": "4600",
+    "up": null
+   },
+   {
+    "tab": "To reach Tier 5",
+    "name": "Ribbon Winning",
+    "cur": "32",
+    "goal": "35",
+    "up": {
+     "name": "Ribbon Winning",
+     "lv": 32,
+     "max": 50,
+     "maxed": false,
+     "next": null,
+     "cost": 232874346.55104205,
+     "currency": "Femur",
+     "desc": "Get +1 Daily Ribbon, +32% chance for rare quality",
+     "unlocked": true
+    }
+   },
+   {
+    "tab": "To reach Tier 5",
+    "name": "Talents for Me, not for Thee",
+    "cur": "0",
+    "goal": "10",
+    "up": {
+     "name": "Talents for Me, not for Thee",
+     "lv": 0,
+     "max": 200,
+     "maxed": false,
+     "next": null,
+     "cost": 45947.64987582054,
+     "currency": "Cranium",
+     "desc": "+0 Talent PTS for the Death Bringer class only",
+     "unlocked": false
+    }
+   },
+   {
+    "tab": "To reach Tier 6",
+    "name": "Ribbon Winning",
+    "cur": "32",
+    "goal": "50",
+    "up": {
+     "name": "Ribbon Winning",
+     "lv": 32,
+     "max": 50,
+     "maxed": false,
+     "next": null,
+     "cost": 232874346.55104205,
+     "currency": "Femur",
+     "desc": "Get +1 Daily Ribbon, +32% chance for rare quality",
+     "unlocked": true
+    }
+   },
+   {
+    "tab": "To reach Tier 6",
+    "name": "Grey Tome Book",
+    "cur": "50",
+    "goal": "70",
+    "up": {
+     "name": "Grey Tome Book",
+     "lv": 50,
+     "max": 150,
+     "maxed": false,
+     "next": null,
+     "cost": 262683340.40152013,
+     "currency": "Ribcage",
+     "desc": "1.50x higher bonuses from the Tome",
+     "unlocked": true
+    }
+   },
+   {
+    "tab": "To reach Tier 6",
+    "name": "Talents for Me, not for Thee",
+    "cur": "0",
+    "goal": "40",
+    "up": {
+     "name": "Talents for Me, not for Thee",
+     "lv": 0,
+     "max": 200,
+     "maxed": false,
+     "next": null,
+     "cost": 45947.64987582054,
+     "currency": "Cranium",
+     "desc": "+0 Talent PTS for the Death Bringer class only",
+     "unlocked": false
+    }
+   },
+   {
+    "tab": "To reach Tier 6",
+    "name": "Writhing Grimoire",
+    "cur": "0",
+    "goal": "10",
+    "up": {
+     "name": "Writhing Grimoire",
+     "lv": 0,
+     "max": 50,
+     "maxed": false,
+     "next": null,
+     "cost": 83774.48339530738,
+     "currency": "Ribcage",
+     "desc": "1.00x higher bonuses from most Grimoire upgrades",
+     "unlocked": false
+    }
+   },
+   {
+    "tab": "To reach Tier 7",
+    "name": "Grey Tome Book",
+    "cur": "50",
+    "goal": "90",
+    "up": {
+     "name": "Grey Tome Book",
+     "lv": 50,
+     "max": 150,
+     "maxed": false,
+     "next": null,
+     "cost": 262683340.40152013,
+     "currency": "Ribcage",
+     "desc": "1.50x higher bonuses from the Tome",
+     "unlocked": true
+    }
+   },
+   {
+    "tab": "To reach Tier 7",
+    "name": "Villager Extraciricular",
+    "cur": "56",
+    "goal": "60",
+    "up": {
+     "name": "Villager Extraciricular",
+     "lv": 56,
+     "max": null,
+     "maxed": false,
+     "next": null,
+     "cost": 135138875.36391327,
+     "currency": "Cranium",
+     "desc": "1.56x Villager EXP gain in World 5",
+     "unlocked": true
+    }
+   },
+   {
+    "tab": "To reach Tier 7",
+    "name": "Talents for Me, not for Thee",
+    "cur": "0",
+    "goal": "60",
+    "up": {
+     "name": "Talents for Me, not for Thee",
+     "lv": 0,
+     "max": 200,
+     "maxed": false,
+     "next": null,
+     "cost": 45947.64987582054,
+     "currency": "Cranium",
+     "desc": "+0 Talent PTS for the Death Bringer class only",
+     "unlocked": false
+    }
+   },
+   {
+    "tab": "To reach Tier 7",
+    "name": "Writhing Grimoire",
+    "cur": "0",
+    "goal": "18",
+    "up": {
+     "name": "Writhing Grimoire",
+     "lv": 0,
+     "max": 50,
+     "maxed": false,
+     "next": null,
+     "cost": 83774.48339530738,
+     "currency": "Ribcage",
+     "desc": "1.00x higher bonuses from most Grimoire upgrades",
+     "unlocked": false
+    }
+   },
+   {
+    "tab": "To reach Tier 7",
+    "name": "Skull of Major Talent",
+    "cur": "0",
+    "goal": "30",
+    "up": {
+     "name": "Skull of Major Talent",
+     "lv": 0,
+     "max": 30,
+     "maxed": false,
+     "next": null,
+     "cost": 179591.54877869025,
+     "currency": "Bovinae",
+     "desc": "+0 Talent LVs for all characters, always!",
+     "unlocked": false
+    }
+   },
+   {
+    "tab": "To reach Tier 9",
+    "name": "Knockout Stacks",
+    "cur": "51",
+    "goal": "63",
+    "up": null
+   },
+   {
+    "tab": "To reach Tier 9",
+    "name": "Elimination Stacks",
+    "cur": "57",
+    "goal": "63",
+    "up": null
+   },
+   {
+    "tab": "To reach Tier 9",
+    "name": "Annihilation Stacks",
+    "cur": "56",
+    "goal": "63",
+    "up": null
+   },
+   {
+    "tab": "To reach Tier 10",
+    "name": "Knockout Stacks",
+    "cur": "51",
+    "goal": "78",
+    "up": null
+   },
+   {
+    "tab": "To reach Tier 10",
+    "name": "Elimination Stacks",
+    "cur": "57",
+    "goal": "78",
+    "up": null
+   },
+   {
+    "tab": "To reach Tier 10",
+    "name": "Annihilation Stacks",
+    "cur": "56",
+    "goal": "78",
+    "up": null
+   }
+  ],
+  "optimizer": [],
+  "best_mobs": [],
+  "ar_tier": "4/10"
+ }
+}

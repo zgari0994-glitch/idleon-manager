@@ -1,6 +1,17 @@
 {
  "stamps": [
   {
+   "stamp": "Bugsack Stamp",
+   "level": 128,
+   "max": 128,
+   "target": 224,
+   "coins": 23125873042858,
+   "material": "Hermit Can",
+   "owned": 1050000000,
+   "next_raise": 83056768.05710939,
+   "total_mat": 1771660090556.4727
+  },
+  {
    "stamp": "Bag o Heads Stamp",
    "level": 120,
    "max": 120,
@@ -10,17 +21,6 @@
    "owned": 288372449,
    "next_raise": 33368015.826520592,
    "total_mat": 1771693458572.299
-  },
-  {
-   "stamp": "Choppin' Bag Stamp",
-   "level": 190,
-   "max": 190,
-   "target": 330,
-   "coins": 22275281333266,
-   "material": "Carrot Cube",
-   "owned": 1050000000,
-   "next_raise": 180051690.12581494,
-   "total_mat": 6643585344129.883
   },
   {
    "stamp": "Ladle Stamp",
@@ -34,17 +34,6 @@
    "total_mat": 78179862.46768272
   },
   {
-   "stamp": "Lil' Mining Baggy Stamp",
-   "level": 210,
-   "max": 210,
-   "target": 310,
-   "coins": 7532065901280,
-   "material": "Jungle Logs",
-   "owned": 1050000000,
-   "next_raise": 883898939.0850905,
-   "total_mat": 1539857782193.6477
-  },
-  {
    "stamp": "Potion Stamp",
    "level": 45,
    "max": 45,
@@ -56,26 +45,26 @@
    "total_mat": 3651090.0433939174
   },
   {
+   "stamp": "Lil' Mining Baggy Stamp",
+   "level": 220,
+   "max": 220,
+   "target": 310,
+   "coins": 7510741851979,
+   "material": "Jungle Logs",
+   "owned": 1050000000,
+   "next_raise": 1934927543.784634,
+   "total_mat": 1538973883254.5625
+  },
+  {
    "stamp": "Mason Jar Stamp",
    "level": 84,
    "max": 84,
    "target": 160,
    "coins": 24988946111202,
    "material": "Glass Shard",
-   "owned": 8739,
+   "owned": 8767,
    "next_raise": 17436.762333716375,
    "total_mat": 164182044.07647136
-  },
-  {
-   "stamp": "Bugsack Stamp",
-   "level": 128,
-   "max": 128,
-   "target": 224,
-   "coins": 23125873042858,
-   "material": "Hermit Can",
-   "owned": 36369312,
-   "next_raise": 83056768.05710939,
-   "total_mat": 1771660090556.4727
   },
   {
    "stamp": "Golden Apple Stamp",
@@ -84,9 +73,20 @@
    "target": 100,
    "coins": 5881240195196,
    "material": "Golden Nomwich",
-   "owned": 136739,
+   "owned": 165931,
    "next_raise": 445773.00044028956,
    "total_mat": 10506509.91819525
+  },
+  {
+   "stamp": "Choppin' Bag Stamp",
+   "level": 220,
+   "max": 220,
+   "target": 330,
+   "coins": 22235434858355,
+   "material": "Carrot Cube",
+   "owned": 198512622,
+   "next_raise": 1934927543.784634,
+   "total_mat": 6642120785839.358
   },
   {
    "stamp": "Multitool Stamp",
@@ -95,148 +95,84 @@
    "target": 210,
    "coins": 2584243440298134192128,
    "material": "Dust Mote",
-   "owned": 1049920000,
+   "owned": 1008710400,
    "next_raise": 25728490393.812965,
    "total_mat": 257873409444.34894
   },
   {
    "stamp": "Matty Bag Stamp",
-   "level": 200,
-   "max": 200,
+   "level": 210,
+   "max": 210,
    "target": 410,
-   "coins": 1532169834709474,
+   "coins": 1532157919918073,
    "material": "Cramped Material Pouch",
-   "owned": 0,
-   "next_raise": 149.29383785680668,
-   "total_mat": 183828.60457898222
+   "owned": 3,
+   "next_raise": 202.7667573069917,
+   "total_mat": 183679.3107411254
   }
  ],
- "stamp": "20261121T1741",
- "vs": "20261120T2035",
- "hours": 21.106314444343248,
+ "stamp": "20261125T2228",
+ "vs": "20261125T2028",
+ "hours": 2.0083333333333333,
  "watch": [
   {
    "item": "Tangled Cords",
-   "owned": 3476387,
-   "rate_hr": -54930.76505882957,
+   "owned": 193756,
+   "rate_hr": -6022923.98340249,
    "owner": "Autistocat",
    "why": "Dream of Ironfish 68 -> 70 (exact cost: check bubble cost)",
-   "runout_days": 2.6369459478345685
+   "runout_days": 0.0013404065349179367
   },
   {
    "item": "Void Bar",
-   "owned": 6847910,
-   "rate_hr": 25508.764280932846,
+   "owned": 6215580,
+   "rate_hr": -18642.323651452283,
    "owner": "Autistastic",
-   "why": "ran out before (Zack); construction/printer use"
+   "why": "ran out before (Zack); construction/printer use",
+   "runout_days": 13.892179153311965
   },
   {
    "item": "Copper Bar",
-   "owned": 233604144,
-   "rate_hr": 512578.4526961565,
+   "owned": 252473091,
+   "rate_hr": 0.0,
    "owner": "Autistocat",
    "why": "Barium Mixture 12 -> 13 needs 1B Copper Bars (Toolbox map finding)",
    "target": 1000000000,
-   "shortage": 766395856,
-   "eta_days": 62.29906953501191
+   "shortage": 747526909,
+   "eta_days": null,
+   "flag": "no net income: change producer"
   }
  ],
  "runout": [
   {
-   "item": "Ol Reliable Statue",
-   "owned": 0,
-   "rate_hr": -3.6008181438028815,
-   "runout_days": 0
-  },
-  {
-   "item": "Cauldron Statue",
-   "owned": 0,
-   "rate_hr": -498.80807128890444,
-   "runout_days": 0
-  },
-  {
-   "item": "Oceanman Statue",
-   "owned": 0,
-   "rate_hr": -3.6008181438028815,
-   "runout_days": 0
-  },
-  {
-   "item": "Anvil Statue",
-   "owned": 0,
-   "rate_hr": -148.48636924576618,
-   "runout_days": 0
-  },
-  {
-   "item": "Exp Book Statue",
-   "owned": 0,
-   "rate_hr": -215.38578002273553,
-   "runout_days": 0
-  },
-  {
-   "item": "EhExPee Statue",
-   "owned": 88732,
-   "rate_hr": -93640.03389657158,
-   "runout_days": 0.039482756603338116
-  },
-  {
-   "item": "Feasty Statue",
-   "owned": 806628,
-   "rate_hr": -227993.09716953925,
-   "runout_days": 0.14741455077917315
-  },
-  {
-   "item": "Speed Statue",
-   "owned": 1175768,
-   "rate_hr": -300794.1541258293,
-   "runout_days": 0.16286996492903758
-  },
-  {
-   "item": "Bullseye Statue",
-   "owned": 315620,
-   "rate_hr": -78977.50241500624,
-   "runout_days": 0.16651366441330498
-  },
-  {
-   "item": "Mining Statue",
-   "owned": 794170,
-   "rate_hr": -196285.52445404974,
-   "runout_days": 0.16858307182205431
-  },
-  {
-   "item": "Lumberbob Statue",
-   "owned": 803592,
-   "rate_hr": -197909.87247039366,
-   "runout_days": 0.1691830709708981
-  },
-  {
-   "item": "Beholder Statue",
-   "owned": 827108,
-   "rate_hr": -196787.74382673803,
-   "runout_days": 0.17512692946810837
-  },
-  {
-   "item": "Spiral Statue",
-   "owned": 1268,
-   "rate_hr": -75.61718101986051,
-   "runout_days": 0.6986948286191321
-  },
-  {
-   "item": "Battleaxe Statue",
-   "owned": 2238,
-   "rate_hr": -126.69194363853822,
-   "runout_days": 0.7360373305665698
-  },
-  {
    "item": "Tangled Cords",
-   "owned": 3476387,
-   "rate_hr": -54930.76505882957,
-   "runout_days": 2.6369459478345685
+   "owned": 193756,
+   "rate_hr": -6022923.98340249,
+   "runout_days": 0.0013404065349179367
   },
   {
-   "item": "Crabbo",
-   "owned": 50779581,
-   "rate_hr": -322925.1614711306,
-   "runout_days": 6.552031639037062
+   "item": "Tuttle",
+   "owned": 9068189,
+   "rate_hr": -1357065.062240664,
+   "runout_days": 0.27842527145270096
+  },
+  {
+   "item": "Diamond Duck",
+   "owned": 245,
+   "rate_hr": -15.933609958506224,
+   "runout_days": 0.6406792534722222
+  },
+  {
+   "item": "Immaculate Eye",
+   "owned": 145,
+   "rate_hr": -7.966804979253112,
+   "runout_days": 0.7583550347222222
+  },
+  {
+   "item": "Purbunni",
+   "owned": 226,
+   "rate_hr": -4.979253112033195,
+   "runout_days": 1.8911805555555556
   }
  ]
 }

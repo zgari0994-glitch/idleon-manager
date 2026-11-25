@@ -1,6 +1,6 @@
 {
- "snapshot": "20261121T1741",
- "money": 6.220697315676325e+31,
+ "snapshot": "20261125T2228",
+ "money": 1.968941619986184e+32,
  "rows": [
   {
    "stamp": "Ladle Stamp",
@@ -25,7 +25,7 @@
    "next_coin": null,
    "capped": true,
    "material": "Hermit Can",
-   "owned": 36369312,
+   "owned": 1050000000,
    "next_raise": 83056768.05710939,
    "raises_left": 5,
    "tier": "To reach Tier 17"
@@ -53,7 +53,7 @@
    "next_coin": null,
    "capped": true,
    "material": "Dust Mote",
-   "owned": 1049920000,
+   "owned": 1008710400,
    "next_raise": 25728490393.812965,
    "raises_left": 3,
    "tier": "To reach Tier 17"
@@ -81,23 +81,23 @@
    "next_coin": null,
    "capped": true,
    "material": "Glass Shard",
-   "owned": 8739,
+   "owned": 8767,
    "next_raise": 17436.762333716375,
    "raises_left": 1,
    "tier": "To reach Tier 18"
   },
   {
    "stamp": "Matty Bag Stamp",
-   "level": 200,
-   "max": 200,
+   "level": 210,
+   "max": 210,
    "goal": 280,
-   "coins_to_goal": 1442236311615,
+   "coins_to_goal": 1430321520214,
    "next_coin": null,
    "capped": true,
    "material": "Cramped Material Pouch",
-   "owned": 0,
-   "next_raise": 149.29383785680668,
-   "raises_left": 8,
+   "owned": 3,
+   "next_raise": 202.7667573069917,
+   "raises_left": 7,
    "tier": "To reach Tier 18"
   },
   {
@@ -113,7 +113,7 @@
    "next_coin": null,
    "capped": true,
    "material": "Golden Nomwich",
-   "owned": 136739,
+   "owned": 165931,
    "next_raise": 445773.00044028956,
    "raises_left": 5,
    "tier": "To reach Tier 18"
@@ -121,14 +121,12 @@
  ],
  "exalt_rec": [
   "Summoner Stone Stamp",
-  "Matty Bag Stamp",
   "Golden Sixes Stamp",
   "Drippy Drop Stamp",
   "Refinery Stamp",
   "Bugsack Stamp",
   "Bag o Heads Stamp",
   "Lil' Mining Baggy Stamp",
-  "Choppin' Bag Stamp",
   "Card Stamp",
   "Divine Stamp",
   "Golden Apple Stamp",
@@ -136,12 +134,9 @@
   "Study Hall Stamp",
   "Cavern Resource Stamp"
  ],
- "exalt_avail": [
-  "3",
-  "5"
- ],
+ "exalt_avail": null,
  "total_levels": [
-  "9616",
+  "9887",
   "11000"
  ]
 }

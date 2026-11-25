@@ -62,10 +62,13 @@ def subs_for(st, keep_all):
     return out
 
 cards, md = [], [f'# Cards {SAVE}', '']
+_g = C.get('goal') or {}
+md += [f"## Account goal: {_g.get('name', '')}", f"- Now: {_g.get('now', '')}", f"- {_g.get('why', '')}"] + [f"- Need {x}" for x in _g.get('needs', [])] + ([f"- FLAG: {_g['flag']}"] if _g.get('flag') else []) + [f"- This week: {w}" for w in _g.get('weekly', [])] + ['']
 holes = D.get('holes', [])
 for ch in C['chars']:
     name = ch['name']; b = D['by_char'].get(name, {})
     card = {'name': name, 'systems': [], 'spend': [], 'do': [], 'toward': [], 'locked': [], 'dont': [], 'notes': [], 'bags': [], 'park': ch.get('park') or ''}
+    card['goal'] = [{'do': p['do'], 'why': p.get('why', '')} for p in ch.get('part') or []]
     for blk in ('daily', 'house'):
         for st in ch.get(blk) or []:
             do = st['do']
@@ -77,6 +80,8 @@ for ch in C['chars']:
             if r: card['dont'].append(f"{do} ({r})"); continue
             if UNLOCK.match(do): card['locked'].append(do[8:]); continue
             if re.search(r': locked, ', do): card['locked'].append(do + (' (then: ' + '; '.join(s.split(':')[0] for s in st.get('sub') or []) + ')' if st.get('sub') else '')); continue
+            if re.match(r'(Super CHOW|WOW|ZOW|CHOW)s', do):
+                card['do'].append({'do': do, 'sub': list(st.get('sub') or [])}); continue
             if TARGET.search(do):
                 acts = subs_for(st, False)
                 if not acts: card['toward'].append(do); continue
@@ -93,6 +98,8 @@ for ch in C['chars']:
     md.append(f'## {name}')
     cm = cant_miss(name); card['cant_miss'] = cm
     if cm: md.append("Can't miss today:"); md += [f'- {x}' for x in cm]
+    if card['goal']:
+        md.append('Goal:'); md += [f"- {x['do']}" + (f" ({x['why']})" if x['why'] else '') for x in card['goal']]
     md.append('Spend:')
     if card['spend']:
         for i, s in enumerate(card['spend'], 1):

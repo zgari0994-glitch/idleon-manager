@@ -2,23 +2,23 @@
  "overnight": [
   {
    "kind": "overnight",
-   "who": "Autiszemo",
-   "section": "The Grimoire",
-   "base": 3,
-   "do": "Wraith Form bone farming at the best bones mob. 128 upgrade levels to the next unlock (Skull of Major Experience).",
-   "src": "Griffy: max AFK gains before spending bones",
-   "need": 7,
-   "score": 73
-  },
-  {
-   "kind": "overnight",
    "who": "Autistacular",
    "section": "Compass",
    "base": 3,
-   "do": "Tempest Form farming for stardust and medallions (2,948 compass levels now). Elemental Path for tier 4 needs about 9.5M more stardust, and medallions go 27 -> 39.",
+   "do": "Tempest Form farming for stardust and medallions (2948 compass levels now). Elemental Path for tier 4 needs about 9.5M more stardust, and medallions go 27 -> 39.",
    "src": "Griffy: farm all medallions",
    "need": 6,
    "score": 63
+  },
+  {
+   "kind": "overnight",
+   "who": "Autiszemo",
+   "section": "The Grimoire",
+   "base": 3,
+   "do": "Wraith Form bone farming at the best bones mob. 107 upgrade levels to the next unlock (Talents for Me, not for Thee).",
+   "src": "Griffy: max AFK gains before spending bones",
+   "need": 4,
+   "score": 43
   }
  ],
  "tonight": [
@@ -27,7 +27,7 @@
    "who": "Autistomatic",
    "section": "Spelunking",
    "base": 3,
-   "do": "Delve for amber and depth (70 amber now) and read the rest of today's pages (3 / 5). Every cave gets other systems moving.",
+   "do": "Delve for amber and depth (43,402,313 amber now) and read the rest of today's pages (None). Every cave gets other systems moving.",
    "src": "my read",
    "need": 8,
    "score": 83
@@ -41,16 +41,6 @@
    "src": "AutoReview Compass + game",
    "need": 6,
    "score": 63
-  },
-  {
-   "kind": "tonight",
-   "who": "Autistopher",
-   "section": "Achievements",
-   "base": 1,
-   "do": "Knock out the easiest open achievements.",
-   "src": "zack",
-   "need": 1,
-   "score": 11
   },
   {
    "kind": "tonight",
@@ -68,6 +58,16 @@
    "section": "Statues",
    "base": 2,
    "do": "Statues: Box at Penguins, then Seesaw at Cryosnakes, 25 -> 40.",
+   "src": "AutoReview statue table",
+   "need": 0,
+   "score": 2
+  },
+  {
+   "kind": "tonight",
+   "who": "Autistomatic",
+   "section": "Statues",
+   "base": 2,
+   "do": "Farm DK crystals at the Minichiefs for the Essence statue, 2 -> 40.",
    "src": "AutoReview statue table",
    "need": 0,
    "score": 2
@@ -89,7 +89,7 @@
    "who": "Autistopher",
    "section": "Equinox",
    "base": 3,
-   "do": "Spend the Equinox bar whenever you pass the PC. It fills in about 45 minutes.",
+   "do": "Spend the Equinox bar whenever you pass the PC. It fills in about 66 minutes.",
    "src": "Toolbox Equinox",
    "need": 0,
    "score": 3
@@ -137,7 +137,7 @@
  ],
  "needs": [
   "Spelunking",
-  "The Grimoire",
+  "The Tesseract",
   "Compass"
  ]
 }

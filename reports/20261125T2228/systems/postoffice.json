@@ -1,0 +1,422 @@
+{
+ "module": "postoffice",
+ "systems": [
+  "post_office"
+ ],
+ "ok": true,
+ "card_lines": [],
+ "char_lines": {
+  "Autiszemo": [
+   "Post Office: get Box of Gosh to 800 (it's at 300).",
+   "Post Office: get Myriad Crate to 100000 (it's at 1046)."
+  ],
+  "Autistocat": [
+   "Post Office: get Bug Hunting Supplies to 400 (it's at 300).",
+   "Post Office: get Myriad Crate to 100000 (it's at 646)."
+  ],
+  "Autisticles": [
+   "Post Office: get Dwarven Supplies to 400 (it's at 0).",
+   "Post Office: get Taped Up Timber to 400 (it's at 0)."
+  ],
+  "Autistastic": [
+   "Post Office: get Blacksmith Box to 400 (it's at 0).",
+   "Post Office: get Taped Up Timber to 400 (it's at 0)."
+  ],
+  "Autistabish": [
+   "Post Office: get Dwarven Supplies to 400 (it's at 100).",
+   "Post Office: get Sealed Fishheads to 400 (it's at 0)."
+  ],
+  "Autistacular": [
+   "Post Office: get Blacksmith Box to 400 (it's at 0).",
+   "Post Office: get Dwarven Supplies to 400 (it's at 0)."
+  ],
+  "Autistotle": [
+   "Post Office: get Myriad Crate to 100000 (it's at 546)."
+  ],
+  "Autistomatic": [
+   "Post Office: get Taped Up Timber to 400 (it's at 0).",
+   "Post Office: get Sealed Fishheads to 400 (it's at 0)."
+  ],
+  "Autistronaut": [
+   "Post Office: get Dwarven Supplies to 400 (it's at 0).",
+   "Post Office: get Sealed Fishheads to 400 (it's at 0)."
+  ],
+  "Autistopher": [
+   "Post Office: get Chefs Essentials to 400 (it's at 0).",
+   "Post Office: get Sealed Fishheads to 400 (it's at 0)."
+  ],
+  "Autistachio": [
+   "Post Office: get Dwarven Supplies to 400 (it's at 0).",
+   "Post Office: get Taped Up Timber to 400 (it's at 0)."
+  ]
+ },
+ "routed": {},
+ "build": {
+  "ar_tier": "0/2",
+  "per": {
+   "Autistacular": [
+    [
+     "Blacksmith Box",
+     "0",
+     "400"
+    ],
+    [
+     "Dwarven Supplies",
+     "0",
+     "400"
+    ],
+    [
+     "Taped Up Timber",
+     "0",
+     "400"
+    ],
+    [
+     "Sealed Fishheads",
+     "0",
+     "400"
+    ],
+    [
+     "Potion Package",
+     "183",
+     "400"
+    ],
+    [
+     "Science Spare Parts",
+     "0",
+     "400"
+    ],
+    [
+     "Construction Container",
+     "0",
+     "400"
+    ],
+    [
+     "Chefs Essentials",
+     "0",
+     "400"
+    ],
+    [
+     "Box of Gosh",
+     "0",
+     "800"
+    ],
+    [
+     "Myriad Crate",
+     "1521",
+     "100000"
+    ]
+   ],
+   "Autistopher": [
+    [
+     "Chefs Essentials",
+     "0",
+     "400"
+    ],
+    [
+     "Sealed Fishheads",
+     "0",
+     "400"
+    ],
+    [
+     "Dwarven Supplies",
+     "0",
+     "400"
+    ],
+    [
+     "Taped Up Timber",
+     "0",
+     "400"
+    ],
+    [
+     "Potion Package",
+     "0",
+     "400"
+    ],
+    [
+     "Lazzzy Lootcrate",
+     "0",
+     "400"
+    ],
+    [
+     "Trapping Lockbox",
+     "0",
+     "400"
+    ],
+    [
+     "Construction Container",
+     "0",
+     "400"
+    ],
+    [
+     "Crate of the Creator",
+     "0",
+     "400"
+    ],
+    [
+     "Myriad Crate",
+     "809",
+     "100000"
+    ]
+   ],
+   "Autiszemo": [
+    [
+     "Box of Gosh",
+     "300",
+     "800"
+    ],
+    [
+     "Myriad Crate",
+     "1046",
+     "100000"
+    ]
+   ],
+   "Autistocat": [
+    [
+     "Bug Hunting Supplies",
+     "300",
+     "400"
+    ],
+    [
+     "Myriad Crate",
+     "646",
+     "100000"
+    ]
+   ],
+   "Autisticles": [
+    [
+     "Dwarven Supplies",
+     "0",
+     "400"
+    ],
+    [
+     "Taped Up Timber",
+     "0",
+     "400"
+    ],
+    [
+     "Sealed Fishheads",
+     "25",
+     "400"
+    ],
+    [
+     "Potion Package",
+     "369",
+     "400"
+    ],
+    [
+     "Box of Gosh",
+     "200",
+     "800"
+    ],
+    [
+     "Myriad Crate",
+     "2035",
+     "100000"
+    ]
+   ],
+   "Autistastic": [
+    [
+     "Blacksmith Box",
+     "0",
+     "400"
+    ],
+    [
+     "Taped Up Timber",
+     "0",
+     "400"
+    ],
+    [
+     "Sealed Fishheads",
+     "0",
+     "400"
+    ],
+    [
+     "Bug Hunting Supplies",
+     "0",
+     "400"
+    ],
+    [
+     "Myriad Crate",
+     "904",
+     "100000"
+    ]
+   ],
+   "Autistabish": [
+    [
+     "Dwarven Supplies",
+     "100",
+     "400"
+    ],
+    [
+     "Sealed Fishheads",
+     "0",
+     "400"
+    ],
+    [
+     "Bug Hunting Supplies",
+     "0",
+     "400"
+    ],
+    [
+     "Myriad Crate",
+     "1309",
+     "100000"
+    ]
+   ],
+   "Autistomatic": [
+    [
+     "Taped Up Timber",
+     "0",
+     "400"
+    ],
+    [
+     "Sealed Fishheads",
+     "0",
+     "400"
+    ],
+    [
+     "Potion Package",
+     "0",
+     "400"
+    ],
+    [
+     "Bug Hunting Supplies",
+     "0",
+     "400"
+    ],
+    [
+     "Lazzzy Lootcrate",
+     "0",
+     "400"
+    ],
+    [
+     "Trapping Lockbox",
+     "0",
+     "400"
+    ],
+    [
+     "Crate of the Creator",
+     "0",
+     "400"
+    ],
+    [
+     "Chefs Essentials",
+     "0",
+     "400"
+    ],
+    [
+     "Myriad Crate",
+     "409",
+     "100000"
+    ]
+   ],
+   "Autistronaut": [
+    [
+     "Dwarven Supplies",
+     "0",
+     "400"
+    ],
+    [
+     "Sealed Fishheads",
+     "0",
+     "400"
+    ],
+    [
+     "Potion Package",
+     "0",
+     "400"
+    ],
+    [
+     "Bug Hunting Supplies",
+     "0",
+     "400"
+    ],
+    [
+     "Lazzzy Lootcrate",
+     "0",
+     "400"
+    ],
+    [
+     "Trapping Lockbox",
+     "0",
+     "400"
+    ],
+    [
+     "Construction Container",
+     "0",
+     "400"
+    ],
+    [
+     "Chefs Essentials",
+     "0",
+     "400"
+    ],
+    [
+     "Myriad Crate",
+     "409",
+     "100000"
+    ]
+   ],
+   "Autistachio": [
+    [
+     "Dwarven Supplies",
+     "0",
+     "400"
+    ],
+    [
+     "Taped Up Timber",
+     "0",
+     "400"
+    ],
+    [
+     "Sealed Fishheads",
+     "0",
+     "400"
+    ],
+    [
+     "Potion Package",
+     "0",
+     "400"
+    ],
+    [
+     "Bug Hunting Supplies",
+     "0",
+     "400"
+    ],
+    [
+     "Trapping Lockbox",
+     "0",
+     "400"
+    ],
+    [
+     "Construction Container",
+     "0",
+     "400"
+    ],
+    [
+     "Crate of the Creator",
+     "0",
+     "400"
+    ],
+    [
+     "Chefs Essentials",
+     "0",
+     "400"
+    ],
+    [
+     "Myriad Crate",
+     "750",
+     "100000"
+    ]
+   ],
+   "Autistotle": [
+    [
+     "Myriad Crate",
+     "546",
+     "100000"
+    ]
+   ]
+  },
+  "snapshot": "20261125T2228"
+ }
+}

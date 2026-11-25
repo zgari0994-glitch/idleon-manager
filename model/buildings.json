@@ -34,7 +34,7 @@
  "buildings": [
   {
    "name": "Atom Collider",
-   "lv": 115,
+   "lv": 121,
    "max": 200,
    "slot": "building",
    "ready": false,
@@ -44,7 +44,7 @@
   },
   {
    "name": "Frozone Malone",
-   "lv": 109,
+   "lv": 110,
    "max": 50,
    "slot": "building",
    "ready": false,
@@ -73,7 +73,7 @@
    "need": null
   },
   {
-   "name": "Kraken Cosplayer",
+   "name": "Poisonic Elder",
    "lv": 113,
    "max": 50,
    "slot": "building",
@@ -83,18 +83,8 @@
    "need": null
   },
   {
-   "name": "Poisonic Elder",
-   "lv": 112,
-   "max": 50,
-   "slot": "building",
-   "ready": false,
-   "left": null,
-   "have": null,
-   "need": null
-  },
-  {
    "name": "Voidinator",
-   "lv": 63,
+   "lv": 64,
    "max": 50,
    "slot": "building",
    "ready": false,
@@ -104,7 +94,17 @@
   },
   {
    "name": "Woodular Shrine",
-   "lv": 198,
+   "lv": 207,
+   "max": 100,
+   "slot": "building",
+   "ready": false,
+   "left": null,
+   "have": null,
+   "need": null
+  },
+  {
+   "name": "Isaccian Shrine",
+   "lv": 176,
    "max": 100,
    "slot": "building",
    "ready": false,
@@ -159,14 +159,14 @@
    "group": "A Tier",
    "tab": "default",
    "label": "Kraken Cosplayer",
-   "cur": "113",
+   "cur": "114",
    "goal": "240"
   },
   {
    "group": "A Tier",
    "tab": "default",
    "label": "Poisonic Elder",
-   "cur": "112",
+   "cur": "113",
    "goal": "240"
   },
   {
@@ -179,15 +179,8 @@
   {
    "group": "B Tier",
    "tab": "default",
-   "label": "Woodular Shrine",
-   "cur": "198",
-   "goal": "200"
-  },
-  {
-   "group": "B Tier",
-   "tab": "default",
    "label": "Isaccian Shrine",
-   "cur": "122",
+   "cur": "176",
    "goal": "200"
   },
   {
@@ -215,14 +208,14 @@
    "group": "C Tier",
    "tab": "default",
    "label": "Voidinator",
-   "cur": "63",
+   "cur": "64",
    "goal": "240"
   },
   {
    "group": "C Tier",
    "tab": "default",
    "label": "Atom Collider",
-   "cur": "115",
+   "cur": "121",
    "goal": "200"
   },
   {
@@ -271,7 +264,7 @@
    "group": "C Tier",
    "tab": "default",
    "label": "Frozone Malone",
-   "cur": "109",
+   "cur": "110",
    "goal": "240"
   },
   {
@@ -282,5 +275,5 @@
    "goal": "200"
   }
  ],
- "snapshot": "20261125T2028"
+ "snapshot": "20261125T2228"
 }

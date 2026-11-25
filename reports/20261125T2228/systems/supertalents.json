@@ -1,0 +1,379 @@
+{
+ "module": "supertalents",
+ "systems": [
+  "super_talents"
+ ],
+ "ok": true,
+ "card_lines": [],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "Autiszemo": {
+   "class": "Death Bringer",
+   "points": 5,
+   "presets": [
+    {
+     "preset": 1,
+     "role": "skill",
+     "skill_share": 0.28,
+     "have": [
+      "Brute Efficiency",
+      "Apocalypse Chow",
+      "Big Pick",
+      "Waiting To Cool"
+     ],
+     "open": 1,
+     "picks": [
+      [
+       "Worming Undercover",
+       "Griffy: fishing efficiency"
+      ]
+     ],
+     "skipped": []
+    },
+    {
+     "preset": 2,
+     "role": "fight",
+     "skill_share": 0.04,
+     "have": [
+      "Sentinel Axes",
+      "Charred Skulls",
+      "Monster Decimator",
+      "Graveyard Shift"
+     ],
+     "open": 1,
+     "picks": [
+      [
+       "Wraith Overlord",
+       "Griffy: multiplicative damage, when using Wraith Form"
+      ]
+     ],
+     "skipped": []
+    }
+   ]
+  },
+  "Autistocat": {
+   "class": "Arcane Cultist",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "role": "fight",
+     "skill_share": 0.05,
+     "have": [
+      "Arcanist Form",
+      "Arcane Crystals",
+      "Backup Energy",
+      "Sizzling Skull"
+     ],
+     "open": 0,
+     "picks": []
+    },
+    {
+     "preset": 2,
+     "role": "skill",
+     "skill_share": 0.07,
+     "have": [
+      "Cranium Cooking",
+      "Tenteyecle",
+      "Memorial Skulls",
+      "Sizzling Skull"
+     ],
+     "open": 0,
+     "picks": []
+    }
+   ]
+  },
+  "Autisticles": {
+   "class": "Siege Breaker",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "role": "skill",
+     "skill_share": 0.13,
+     "have": [
+      "Teleki'net'ic Logs",
+      "Elusive Efficiency",
+      "Briar Patch Runner",
+      "Skill Ambidexterity"
+     ],
+     "open": 0,
+     "picks": []
+    },
+    {
+     "preset": 2,
+     "role": "fight",
+     "skill_share": 0.03,
+     "have": [
+      "Stacked Skulls",
+      "Pirate Flag",
+      "Garb Of Un'agi'ng Quality",
+      "Archlord Of The Pirates"
+     ],
+     "open": 0,
+     "picks": []
+    }
+   ]
+  },
+  "Autistastic": {
+   "class": "Royal Guardian",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "role": "skill",
+     "skill_share": 0.19,
+     "have": [
+      "Big Pick",
+      "Motherlode Miner",
+      "Copper Collector",
+      "Tool Proficiency"
+     ],
+     "open": 0,
+     "picks": []
+    },
+    {
+     "preset": 2,
+     "role": "fight",
+     "skill_share": 0.09,
+     "have": [
+      "Shockwave Slash",
+      "Orb Of Remembrance",
+      "Charred Skulls",
+      "Knightly Disciple"
+     ],
+     "open": 0,
+     "picks": []
+    }
+   ]
+  },
+  "Autistabish": {
+   "class": "Elemental Sorcerer",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "role": "fight",
+     "skill_share": 0.04,
+     "have": [
+      "Dimensional Wormhole",
+      "Tornado",
+      "Meteor Shower",
+      "Memorial Skulls"
+     ],
+     "open": 0,
+     "picks": []
+    },
+    {
+     "preset": 2,
+     "role": "skill",
+     "skill_share": 0.1,
+     "have": [
+      "Smart Efficiency",
+      "Log On Logs",
+      "Leaf Thief",
+      "Skill Wiz"
+     ],
+     "open": 0,
+     "picks": []
+    }
+   ]
+  },
+  "Autistacular": {
+   "class": "Wind Walker",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "role": "fight",
+     "skill_share": 0.07,
+     "have": [
+      "Eternal Hunt",
+      "Price Recession",
+      "Spirit Ballista",
+      "Smeltin' Erryday"
+     ],
+     "open": 0,
+     "picks": []
+    },
+    {
+     "preset": 2,
+     "role": "skill",
+     "skill_share": 0.11,
+     "have": [
+      "Price Recession",
+      "Sneaky Skilling",
+      "Eagle Eye",
+      "Elusive Efficiency"
+     ],
+     "open": 0,
+     "picks": []
+    }
+   ]
+  },
+  "Autistotle": {
+   "class": "Voidwalker",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "role": "fight",
+     "skill_share": 0.18,
+     "have": [
+      "One Step Ahead",
+      "Extra Bags",
+      "Gimme Gimme"
+     ],
+     "open": 1,
+     "picks": [],
+     "odd": [
+      "Extra Bags"
+     ],
+     "skipped": [
+      "Void Radius"
+     ]
+    },
+    {
+     "preset": 2,
+     "role": "skill",
+     "skill_share": 0.21,
+     "have": [
+      "Happy Dude",
+      "Printer Go Brrr",
+      "Left Hand Of Learning"
+     ],
+     "open": 1,
+     "picks": [
+      [
+       "Right Hand Of Action",
+       "Griffy+Pulse: others get skill efficiency, bigger prints"
+      ]
+     ],
+     "odd": [
+      "Happy Dude"
+     ],
+     "skipped": []
+    }
+   ]
+  },
+  "Autistomatic": {
+   "class": "Royal Guardian",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "role": "fight",
+     "skill_share": 0.04,
+     "have": [
+      "Shockwave Slash",
+      "Orb Of Remembrance",
+      "Knightly Disciple",
+      "Charred Skulls"
+     ],
+     "open": 0,
+     "picks": []
+    },
+    {
+     "preset": 2,
+     "role": "skill",
+     "skill_share": 0.22,
+     "have": [
+      "Big Pick",
+      "Copper Collector",
+      "Motherlode Miner",
+      "Tool Proficiency"
+     ],
+     "open": 0,
+     "picks": []
+    }
+   ]
+  },
+  "Autistronaut": {
+   "class": "Elemental Sorcerer",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "role": "fight",
+     "skill_share": 0.06,
+     "have": [
+      "Dimensional Wormhole",
+      "Tornado",
+      "Meteor Shower",
+      "Memorial Skulls"
+     ],
+     "open": 0,
+     "picks": []
+    },
+    {
+     "preset": 2,
+     "role": "skill",
+     "skill_share": 0.16,
+     "have": [
+      "Smart Efficiency",
+      "Leaf Thief",
+      "Log On Logs",
+      "Skill Wiz"
+     ],
+     "open": 0,
+     "picks": []
+    }
+   ]
+  },
+  "Autistopher": {
+   "class": "Death Bringer",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "role": "fight",
+     "skill_share": 0.04,
+     "have": [
+      "Sentinel Axes",
+      "Graveyard Shift",
+      "Monster Decimator",
+      "Charred Skulls"
+     ],
+     "open": 0,
+     "picks": []
+    },
+    {
+     "preset": 2,
+     "role": "skill",
+     "skill_share": 0.26,
+     "have": [
+      "Apocalypse Chow",
+      "Waiting To Cool",
+      "Big Pick",
+      "Brute Efficiency"
+     ],
+     "open": 0,
+     "picks": []
+    }
+   ]
+  },
+  "Autistachio": {
+   "class": "Beginner",
+   "points": 4,
+   "presets": [
+    {
+     "preset": 1,
+     "role": "skill",
+     "skill_share": 0.11,
+     "have": [],
+     "open": 4,
+     "picks": []
+    },
+    {
+     "preset": 2,
+     "role": "fight",
+     "skill_share": 0.04,
+     "have": [],
+     "open": 4,
+     "picks": []
+    }
+   ]
+  }
+ }
+}

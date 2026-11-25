@@ -1,7 +1,7 @@
 {
  "Autiszemo": {
   "class": "Death Bringer",
-  "points": 4,
+  "points": 5,
   "presets": [
    {
     "preset": 1,
@@ -13,8 +13,14 @@
      "Big Pick",
      "Waiting To Cool"
     ],
-    "open": 0,
-    "picks": []
+    "open": 1,
+    "picks": [
+     [
+      "Worming Undercover",
+      "Griffy: fishing efficiency"
+     ]
+    ],
+    "skipped": []
    },
    {
     "preset": 2,
@@ -26,8 +32,14 @@
      "Monster Decimator",
      "Graveyard Shift"
     ],
-    "open": 0,
-    "picks": []
+    "open": 1,
+    "picks": [
+     [
+      "Wraith Overlord",
+      "Griffy: multiplicative damage, when using Wraith Form"
+     ]
+    ],
+    "skipped": []
    }
   ]
  },
@@ -37,20 +49,20 @@
   "presets": [
    {
     "preset": 1,
-    "role": "skill",
-    "skill_share": 0.12,
+    "role": "fight",
+    "skill_share": 0.05,
     "have": [
-     "Log On Logs",
-     "Smart Efficiency",
-     "Skill Wiz"
+     "Arcanist Form",
+     "Arcane Crystals",
+     "Backup Energy",
+     "Sizzling Skull"
     ],
-    "open": 1,
-    "picks": [],
-    "skipped": []
+    "open": 0,
+    "picks": []
    },
    {
     "preset": 2,
-    "role": "fight",
+    "role": "skill",
     "skill_share": 0.07,
     "have": [
      "Cranium Cooking",
@@ -70,7 +82,7 @@
    {
     "preset": 1,
     "role": "skill",
-    "skill_share": 0.14,
+    "skill_share": 0.13,
     "have": [
      "Teleki'net'ic Logs",
      "Elusive Efficiency",
@@ -102,7 +114,7 @@
    {
     "preset": 1,
     "role": "skill",
-    "skill_share": 0.2,
+    "skill_share": 0.19,
     "have": [
      "Big Pick",
      "Motherlode Miner",
@@ -193,7 +205,7 @@
  },
  "Autistotle": {
   "class": "Voidwalker",
-  "points": 3,
+  "points": 4,
   "presets": [
    {
     "preset": 1,
@@ -204,10 +216,13 @@
      "Extra Bags",
      "Gimme Gimme"
     ],
-    "open": 0,
+    "open": 1,
     "picks": [],
     "odd": [
      "Extra Bags"
+    ],
+    "skipped": [
+     "Void Radius"
     ]
    },
    {
@@ -219,11 +234,17 @@
      "Printer Go Brrr",
      "Left Hand Of Learning"
     ],
-    "open": 0,
-    "picks": [],
+    "open": 1,
+    "picks": [
+     [
+      "Right Hand Of Action",
+      "Griffy+Pulse: others get skill efficiency, bigger prints"
+     ]
+    ],
     "odd": [
      "Happy Dude"
-    ]
+    ],
+    "skipped": []
    }
   ]
  },
@@ -298,18 +319,15 @@
    {
     "preset": 1,
     "role": "fight",
-    "skill_share": 0.16,
+    "skill_share": 0.04,
     "have": [
-     "Stacked Skulls",
+     "Sentinel Axes",
+     "Graveyard Shift",
      "Monster Decimator",
-     "Charred Skulls",
-     "Sentinel Axes"
+     "Charred Skulls"
     ],
     "open": 0,
-    "picks": [],
-    "odd": [
-     "Stacked Skulls"
-    ]
+    "picks": []
    },
    {
     "preset": 2,
@@ -318,33 +336,24 @@
     "have": [
      "Apocalypse Chow",
      "Waiting To Cool",
-     "Big Pick"
+     "Big Pick",
+     "Brute Efficiency"
     ],
-    "open": 1,
-    "picks": [
-     [
-      "Brute Efficiency",
-      "Griffy+Pulse: big efficiency on skilling setups"
-     ]
-    ],
-    "skipped": [
-     "Skill Strengthen",
-     "Dank Ranks",
-     "Agricultural 'preciation"
-    ]
+    "open": 0,
+    "picks": []
    }
   ]
  },
  "Autistachio": {
   "class": "Beginner",
-  "points": 3,
+  "points": 4,
   "presets": [
    {
     "preset": 1,
     "role": "skill",
     "skill_share": 0.11,
     "have": [],
-    "open": 3,
+    "open": 4,
     "picks": []
    },
    {
@@ -352,7 +361,7 @@
     "role": "fight",
     "skill_share": 0.04,
     "have": [],
-    "open": 3,
+    "open": 4,
     "picks": []
    }
   ]

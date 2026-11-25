@@ -1,0 +1,66 @@
+{
+ "module": "arcade",
+ "systems": [
+  "arcade"
+ ],
+ "ok": true,
+ "card_lines": [
+  "16 gold balls. On rotation now: Multikill, EXP, Drop, Cook SPD, Regen, W Ess, EXP, Bones, XP (check costs in game)."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "balls": 583,
+  "full": false,
+  "gold": 16,
+  "ups": [
+   [
+    "+4% Multikill",
+    25,
+    null
+   ],
+   [
+    "+0% EXP",
+    0,
+    null
+   ],
+   [
+    "+26.2921% Drop",
+    78,
+    null
+   ],
+   [
+    "1.33x Cook SPD",
+    70,
+    null
+   ],
+   [
+    "+8.71795% Regen",
+    17,
+    null
+   ],
+   [
+    "+16% W Ess",
+    25,
+    null
+   ],
+   [
+    "+3.80952% EXP",
+    5,
+    null
+   ],
+   [
+    "+18% Bones",
+    9,
+    null
+   ],
+   [
+    "1.09x XP",
+    31,
+    null
+   ]
+  ],
+  "rotation": "+{% Multikill, +{% EXP, +{% Drop, }x Cook SPD, +{% Regen, +{% W Ess, +{% EXP, +{% Bones, }x XP",
+  "snapshot": "20261125T2228"
+ }
+}
