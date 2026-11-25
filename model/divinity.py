@@ -17,63 +17,45 @@ def _n(s):
     return float(m.group(1)) * {None: 1, 'K': 1e3, 'M': 1e6, 'B': 1e9, 'T': 1e12, 'Q': 1e15, 'QQ': 1e18}[m.group(2)] if m else None
 
 
+STYLES = ['Kinesis', 'Chakra', 'Focus', 'Mantra', 'Vitalic', 'TranQi', 'Zen', 'Mindful']
+
+
 def build():
-    T = json.load(open(SNAP / 'toolbox' / 'divinity.json'))['tabs']
-    g = T['Gods']['text'].replace('\xa0', ' ') + '\n'
+    # Zack 2026-11-25: Toolbox parser numbers (model/data.py)
+    from data import load
+    D = load(); V = D.system('divinity')
     sy = json.load(gzip.open(SNAP / 'systems.json.gz'))['systems']['divinity']
     mat = {v['name']: v['blessing_material'] for v in sy.values()}
-    head = {k: (re.search(k + r'\n([^\n]+)', g) or [0, None])[1] for k in ['God rank', 'Total Divinity LV', 'Divinity points', 'Divinity PTS/hr']}
+    pts = V['divinityPoints']
+    head = {'God rank': V['godRank'], 'Total Divinity LV': None, 'Divinity points': f"{pts:,.0f}", 'Divinity PTS/hr': None}
     gods = {}
-    for i, name in enumerate(GODS):
-        a = g.find('\n' + name + '\nLv ')
-        if a < 0: continue
-        b = min([x for x in (g.find('\n' + n + '\nLv ', a + 5) for n in GODS) if x > a] or [len(g)])
-        blk = g[a:b]
-        lv = re.search(r'Lv (\d+) / (\d+)', blk)
-        bl = re.search(r'Blessing\n\+?([\d,.]+)%? ([^\n]+)', blk)
-        cost = re.search(r'\n(?:([^\n]+)\n/\n)?([^\n]+)\nCost to max\n([^\n]+)', blk)
-        linked = re.findall(r'\n(Autis\w+)\n\+?([\d.,]+)', blk)
-        gods[name] = {'lv': int(lv.group(1)), 'max': int(lv.group(2)), 'maxed': 'Maxed' in blk[:60],
-                      'bless': float(bl.group(1).replace(',', '')) if bl else 0, 'bless_stat': bl.group(2) if bl else '',
-                      'have': _n(cost.group(1)) if cost and cost.group(1) else None, 'next': _n(cost.group(2)) if cost else None,
-                      'to_max': _n(cost.group(3)) if cost else None, 'material': mat.get(name), 'linked_shown': linked}
-    # stat totals for marginal gain: Divinity PTS blessings are their own multipliers (Toolbox PTS/hr breakdown)
+    for d in V['deities']:
+        i = int(d.get('godIndex', 0)); name = d.get('name') or (GODS[i] if i < len(GODS) else str(i))
+        c = d.get('cost') or {}
+        hv = c.get('currency')
+        if isinstance(hv, dict): hv = hv.get('value') or hv.get('amount') or hv.get('totalAmount')
+        gods[name] = {'lv': d['level'], 'max': d['maxLevel'], 'maxed': d['level'] >= d['maxLevel'], 'bless': d.get('blessingBonus') or 0,
+                      'bless_stat': str(d.get('blessing', '')).replace('_', ' ').replace('{', ''), 'have': hv, 'next': c.get('nextLevelCost') or c.get('cost'),
+                      'to_max': c.get('costToMax'), 'material': c.get('type') or mat.get(name), 'linked_shown': []}
     opts = []
-    try:
-        speed = json.load(open(ROOT / 'model' / 'sailing.json')).get('speed_groups', {})
-    except Exception:
-        speed = {}
     for n, x in gods.items():
         if x['maxed'] or not x['next']: continue
-        per = x['bless'] / max(1, x['lv'])
-        gain = None
-        if 'Divinity PTS' in x['bless_stat']: gain = 100 * per / (100 + x['bless'])
-        elif n == 'Goharut': gain = 100 * per / (100 + x['bless'])                  # own speed group B
-        elif n == 'Bagur' and speed.get('speed_multi_e'): gain = 100 * (per / 125) / speed['speed_multi_e']   # additive in group E (/125)
-        opts.append({'item': f"{n} blessing {x['lv']}/{x['max']}", 'currency': x['material'], 'balance': x['have'], 'cost': x['next'],
-                     'gain_pct': gain, 'stat': x['bless_stat'], 'note': (f"to max {spend.h(x['to_max'])}" + (' (you can MAX it)' if x['have'] and x['to_max'] and x['to_max'] <= x['have'] else '')) if x['to_max'] else ''})
+        per = x['bless'] / max(1, x['lv']); gain = 100 * per / (100 + x['bless']) if 'Divinity PTS' in x['bless_stat'] or n == 'Goharut' else None
+        opts.append({'item': f"{n} blessing {x['lv']}/{x['max']}", 'currency': x['material'], 'balance': x['have'], 'cost': x['next'], 'gain_pct': gain, 'stat': x['bless_stat'],
+                     'note': ('you can MAX it' if x['have'] and x['to_max'] and x['to_max'] <= x['have'] else '')})
     ranked = spend.rank(opts)
-    # Coral Kid upgrades (Divinity points)
-    ck = T['Coral Kid Upgrades']['text'].replace('\xa0', ' ')
-    pts = _n(head['Divinity points'] or '0')
-    coral = []
-    for m in re.finditer(r'Lv (\d+)\n\n(.+?)\n(?:\n?Needs total Divinity LV\n([\d,]+)\n)?Divinity PTS\n([^\n]+)\n/\n([^\n]+)', ck, re.S):
-        coral.append({'lv': int(m.group(1)), 'desc': ' '.join(m.group(2).split())[:110], 'needs_lv': int(m.group(3).replace(',', '')) if m.group(3) else 0,
-                      'cost': _n(m.group(5))})
-    spir = re.search(r'Singularity Spirals\n(\d+)', ck)
-    st = T['Styles']['text'].replace('\xa0', ' ')
+    coral = [{'lv': k['level'], 'desc': str(k['description']).replace('_', ' ').replace(' @ ', ' ')[:110], 'needs_lv': k.get('divinityLevelReq') or 0, 'cost': k['cost']}
+             for k in D.get('account.coralReef.coralKidUpgrades', True)]
+    names = [c['name'] for c in D.characters]
     styles = {}
-    for m in re.finditer(r'\n(Kinesis|Chakra|Focus|Mantra|Vitalic|TranQi|Zen|Mindful)\n\n([^\n]+)\n\nGives ([^\n]+)\n(?:\nUSED BY\n((?:Autis\w+\nLv \d+\n?)+))?', st):
-        styles[m.group(1)] = {'gives': m.group(3), 'used_by': re.findall(r'(Autis\w+)', m.group(4) or '')}
+    for i, st in enumerate(V.get('linkedStyles') or []):
+        if i < len(names) and isinstance(st, int) and st < len(STYLES):
+            styles.setdefault(STYLES[st], {'gives': '', 'used_by': []})['used_by'].append(names[i])
     ch = json.load(open(SNAP / 'chars.json'))['characters']
     links = {c['character_name']: c.get('divinity_link') for c in ch}
-    pb = next((b['text'] for b in T['Gods']['breakdowns'] if b['label'].startswith('Divinity PTS/hr')), '') + '\n'
-    x1 = re.findall(r'\n([A-Z][^\n]+)\n\n×1\n', pb)
-    off = re.findall(r'Offering (\d): (\d+)% chance\n([^\n]+) pts\n(Can afford now)?', g)
+    off = [{'n': i + 1, 'chance': int(o['chance'] * 100), 'cost': f"{o['cost']:,.0f}", 'afford': o['cost'] <= pts} for i, o in enumerate(V.get('offerings') or [])]
     out = {'snapshot': SNAP.name, 'head': head, 'points': pts, 'gods': gods, 'blessing_rank': {k: v for k, v in ranked.items()},
-           'coral': coral, 'spirals': int(spir.group(1)) if spir else None, 'styles': styles, 'links': links, 'pts_x1': x1,
-           'offerings': [{'n': int(a), 'chance': int(b), 'cost': c, 'afford': bool(d)} for a, b, c, d in off],
-           'purrmep_shown': gods.get('Purrmep', {}).get('linked_shown')}
+           'coral': coral, 'spirals': None, 'styles': styles, 'links': links, 'pts_x1': [], 'offerings': off, 'purrmep_shown': []}
     json.dump(out, open(ROOT / 'model' / 'divinity.json', 'w'), indent=1, default=str)
     return out
 
