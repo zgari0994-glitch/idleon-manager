@@ -122,17 +122,13 @@ def from_parsed():
 
 
 def read_trades():
-    f = SNAP / 'toolbox' / 'sail_boats_chests_trades.txt'
-    if not f.exists(): return []
-    s = f.read_text(errors='ignore'); i = s.find('WHEN\tYOU GIVE\tYOU GET')
-    if i < 0: return []
-    rows = re.findall(r'(\d\d/\d\d/\d{4} \d\d:\d\d)\s*\n\s*\n([\d.,]+[KMBTQ]?)\s*\n\s*\n([\d.,]+[KMBTQ]?)', s[i:i + 20000])
+    # Zack 2026-11-25: trades from Toolbox's parser
+    from data import load
     out = []
-    for w, g, r in rows:
-        try: out.append({'when': w, 'give': g, 'get': r, 'ratio': _num(r) / max(_num(g), 1)})
-        except Exception: pass
+    for t in load().system('sailing').get('trades') or []:
+        g, r = t.get('lootItemCost') or 0, t.get('moneyValue') or 0
+        out.append({'when': '', 'give': f"{g:,.0f}", 'get': f"{r:,.0f}", 'ratio': r / max(g, 1), 'item': t.get('rawName')})
     return out
-
 
 def b_speed(boats, bn):
     return next(b['speed'] for b in boats if b['boat'] == bn)
@@ -371,7 +367,7 @@ def daily_checks(o):
     caps = o.get('_caps') or {}
     shop = o.get('_shop') or []
     plan_to = {m['boat']: m['to'] for m in o.get('moves', [])}
-    stale = 'sailing' in ((SNAP / 'toolbox' / '_from.txt').read_text() if (SNAP / 'toolbox' / '_from.txt').exists() else '')
+    stale = False   # data comes from this save's parse now (Zack 2026-11-25)
     if stale: L.append("Sailing page didn't refresh on the last read, so the captain shop below is old (it resets daily). Check the shop in game before buying.")
     if caps and shop:
         own = sorted(((_live([(n, p) for n, _, p in v['buffs']]), c, v) for c, v in caps.items()), key=lambda r: r[0])

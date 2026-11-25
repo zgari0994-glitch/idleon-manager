@@ -14,8 +14,8 @@ def n(s):
 
 
 def tb(name):
-    p = SNAP / 'toolbox' / f'{name}.json'
-    return json.load(open(p))['tabs'] if p.exists() else None
+    # Zack 2026-11-25: retired. Old website page reads were stale; planners read model/data.py (Toolbox's parser on the save).
+    raise RuntimeError(f"tb('{name}') is retired: read it through model/data.py")
 
 
 def ar(name):
