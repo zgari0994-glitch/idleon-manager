@@ -1,235 +1,139 @@
 {
  "speed": [
-  "171B/hr",
-  "2.56T/hr"
+  [
+   "3",
+   "200",
+   "2250",
+   "12000",
+   "25000",
+   "60000",
+   "100000",
+   "150000",
+   "50000000",
+   "5",
+   "100",
+   "700",
+   "5000",
+   "40000",
+   "125000",
+   "400000",
+   "1000000",
+   "3500000",
+   "10",
+   "250",
+   "1000",
+   "7500",
+   "40000",
+   "200000",
+   "2000000",
+   "7000000",
+   "60000000"
+  ],
+  null
  ],
  "buildings": [
   {
-   "name": "Talent Book Library",
-   "lv": 132,
-   "max": 201,
-   "slot": null,
-   "ready": false,
-   "left": "3h 32m",
-   "have": 12700000.0,
-   "need": 247.0
-  },
-  {
-   "name": "Trapper Drone",
-   "lv": 27,
-   "max": 50,
-   "slot": null,
-   "ready": false,
-   "left": "1d 14h",
-   "have": 2850000.0,
-   "need": 260.0
-  },
-  {
    "name": "Atom Collider",
-   "lv": 24,
+   "lv": 115,
    "max": 200,
-   "slot": null,
-   "ready": false,
-   "left": "25s",
-   "have": 312000.0,
-   "need": 77.0
-  },
-  {
-   "name": "Pulse Mage",
-   "lv": 85,
-   "max": 110,
    "slot": "building",
    "ready": false,
-   "left": "3h 54m",
-   "have": 12700000.0,
-   "need": 53.0
-  },
-  {
-   "name": "Fireball Lobber",
-   "lv": 81,
-   "max": 110,
-   "slot": "building",
-   "ready": false,
-   "left": "1h 13m",
-   "have": 12700000.0,
-   "need": 101.0
-  },
-  {
-   "name": "Boulder Roller",
-   "lv": 62,
-   "max": 110,
-   "slot": "building",
-   "ready": true,
-   "left": "Ready",
-   "have": 654000.0,
-   "need": 78.0
+   "left": null,
+   "have": null,
+   "need": null
   },
   {
    "name": "Frozone Malone",
-   "lv": 77,
-   "max": 110,
-   "slot": null,
+   "lv": 109,
+   "max": 50,
+   "slot": "building",
    "ready": false,
-   "left": "39m 50s",
-   "have": 654000.0,
-   "need": 169.0
+   "left": null,
+   "have": null,
+   "need": null
   },
   {
    "name": "Stormcaller",
-   "lv": 93,
-   "max": 110,
-   "slot": "trimmed",
-   "ready": true,
-   "left": "Ready",
-   "have": 2850000.0,
-   "need": 145.0
+   "lv": 118,
+   "max": 50,
+   "slot": "building",
+   "ready": false,
+   "left": null,
+   "have": null,
+   "need": null
   },
   {
    "name": "Party Starter",
-   "lv": 91,
-   "max": 110,
-   "slot": "trimmed",
-   "ready": true,
-   "left": "Ready",
-   "have": 2850000.0,
-   "need": 256.0
+   "lv": 118,
+   "max": 50,
+   "slot": "building",
+   "ready": false,
+   "left": null,
+   "have": null,
+   "need": null
   },
   {
    "name": "Kraken Cosplayer",
-   "lv": 85,
-   "max": 110,
-   "slot": "trimmed",
-   "ready": true,
-   "left": "Ready",
-   "have": 1100000.0,
-   "need": 186.0
+   "lv": 113,
+   "max": 50,
+   "slot": "building",
+   "ready": false,
+   "left": null,
+   "have": null,
+   "need": null
   },
   {
    "name": "Poisonic Elder",
-   "lv": 80,
-   "max": 110,
-   "slot": "trimmed",
-   "ready": true,
-   "left": "Ready",
-   "have": 222000.0,
-   "need": 251.0
+   "lv": 112,
+   "max": 50,
+   "slot": "building",
+   "ready": false,
+   "left": null,
+   "have": null,
+   "need": null
   },
   {
    "name": "Voidinator",
-   "lv": 47,
-   "max": 110,
-   "slot": "trimmed",
+   "lv": 63,
+   "max": 50,
+   "slot": "building",
    "ready": false,
-   "left": "3d 3h",
-   "have": 312000.0,
-   "need": 297.0
+   "left": null,
+   "have": null,
+   "need": null
   },
   {
    "name": "Woodular Shrine",
-   "lv": 142,
-   "max": 300,
-   "slot": null,
+   "lv": 198,
+   "max": 100,
+   "slot": "building",
    "ready": false,
-   "left": "5m",
-   "have": 12700000.0,
-   "need": 88.0
-  },
-  {
-   "name": "Isaccian Shrine",
-   "lv": 122,
-   "max": 300,
-   "slot": null,
-   "ready": false,
-   "left": "2m 14s",
-   "have": 12700000.0,
-   "need": 190.0
-  },
-  {
-   "name": "Crystal Shrine",
-   "lv": 100,
-   "max": 200,
-   "slot": null,
-   "ready": false,
-   "left": "4s",
-   "have": 654000.0,
-   "need": 125.0
-  },
-  {
-   "name": "Pantheon Shrine",
-   "lv": 100,
-   "max": 200,
-   "slot": null,
-   "ready": false,
-   "left": "8s",
-   "have": 654000.0,
-   "need": 219.0
-  },
-  {
-   "name": "Clover Shrine",
-   "lv": 100,
-   "max": 200,
-   "slot": null,
-   "ready": false,
-   "left": "29s",
-   "have": 2850000.0,
-   "need": 156.0
-  },
-  {
-   "name": "Summereading Shrine",
-   "lv": 100,
-   "max": 200,
-   "slot": null,
-   "ready": false,
-   "left": "1m 40s",
-   "have": 2850000.0,
-   "need": 313.0
-  },
-  {
-   "name": "Crescent Shrine",
-   "lv": 102,
-   "max": 200,
-   "slot": null,
-   "ready": false,
-   "left": "20m 26s",
-   "have": 1100000.0,
-   "need": 383.0
+   "left": null,
+   "have": null,
+   "need": null
   },
   {
    "name": "Undead Shrine",
    "lv": 72,
-   "max": 200,
+   "max": 100,
    "slot": null,
    "ready": false,
-   "left": "2m 21s",
-   "have": 222000.0,
-   "need": 316.0
+   "left": null,
+   "have": null,
+   "need": null
   },
   {
    "name": "Primordial Shrine",
    "lv": 70,
-   "max": 200,
+   "max": 100,
    "slot": null,
    "ready": false,
-   "left": "8m 48s",
-   "have": 312000.0,
-   "need": 220.0
+   "left": null,
+   "have": null,
+   "need": null
   }
  ],
  "ar": [
-  {
-   "group": "S Tier",
-   "tab": "default",
-   "label": "Kraken Cosplayer",
-   "cur": "89",
-   "goal": "90"
-  },
-  {
-   "group": "S Tier",
-   "tab": "default",
-   "label": "Poisonic Elder",
-   "cur": "85",
-   "goal": "90"
-  },
   {
    "group": "A Tier",
    "tab": "default",
@@ -254,15 +158,29 @@
   {
    "group": "A Tier",
    "tab": "default",
+   "label": "Kraken Cosplayer",
+   "cur": "113",
+   "goal": "240"
+  },
+  {
+   "group": "A Tier",
+   "tab": "default",
+   "label": "Poisonic Elder",
+   "cur": "112",
+   "goal": "240"
+  },
+  {
+   "group": "A Tier",
+   "tab": "default",
    "label": "Stormcaller",
-   "cur": "96",
+   "cur": "118",
    "goal": "240"
   },
   {
    "group": "B Tier",
    "tab": "default",
    "label": "Woodular Shrine",
-   "cur": "142",
+   "cur": "198",
    "goal": "200"
   },
   {
@@ -297,14 +215,14 @@
    "group": "C Tier",
    "tab": "default",
    "label": "Voidinator",
-   "cur": "49",
+   "cur": "63",
    "goal": "240"
   },
   {
    "group": "C Tier",
    "tab": "default",
    "label": "Atom Collider",
-   "cur": "24",
+   "cur": "115",
    "goal": "200"
   },
   {
@@ -325,14 +243,14 @@
    "group": "C Tier",
    "tab": "default",
    "label": "Boulder Roller",
-   "cur": "73",
+   "cur": "75",
    "goal": "240"
   },
   {
    "group": "C Tier",
    "tab": "default",
    "label": "Fireball Lobber",
-   "cur": "86",
+   "cur": "89",
    "goal": "240"
   },
   {
@@ -346,14 +264,14 @@
    "group": "C Tier",
    "tab": "default",
    "label": "Party Starter",
-   "cur": "94",
+   "cur": "118",
    "goal": "240"
   },
   {
    "group": "C Tier",
    "tab": "default",
    "label": "Frozone Malone",
-   "cur": "84",
+   "cur": "109",
    "goal": "240"
   },
   {
@@ -364,5 +282,5 @@
    "goal": "200"
   }
  ],
- "snapshot": "20261121T1741"
+ "snapshot": "20261125T2028"
 }

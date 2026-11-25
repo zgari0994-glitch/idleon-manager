@@ -2,36 +2,44 @@
 import re
 from tbhelp import tb, ar_items, n, save
 G = lambda t, k: (re.search(re.escape(k) + r'\n([^\n]+)', t) or [None, None])[1]
+_DC = None
+
+
+def _fmt(t, v):
+    # game text: { = the value, } = 1 + value/100 as a multiplier
+    try: v = float(v)
+    except (TypeError, ValueError): return t.replace('{', '').replace('}', '')
+    return t.replace('{', f"{v:g}").replace('}', f"{1 + v / 100:.2f}")
+
+
+def _D():
+    global _DC
+    if _DC is None:
+        from data import load
+        _DC = load()
+    return _DC
 
 
 def build_emperor():
-    t = tb('emperor')['_page']['text']
-    bon = [(a, tot, nxt) for a, tot, nxt in re.findall(r'\n([A-Z][^\n]+)\nTotal\n([^\n]+)\nPer level\n[^\n]+\nReached at\n[^\n]+\nNext at\n([^\n]+)', t)]
-    # Zack 2026-11-21: attempts come from THIS save (OptLacc[370], AutoReview's own rule), never yesterday's Toolbox page
-    att = G(t, 'Attempts') or '0 / 0'
-    try:
-        import gzip, json
-        from tbhelp import SNAP
-        raw = json.load(gzip.open(SNAP / 'raw.json.gz')); ol = raw.get('OptLacc') or raw.get('data', {}).get('OptLacc')
-        ol = json.loads(ol) if isinstance(ol, str) else ol
-        att = f"{int(1 - float(ol[370]))} / {att.split(' / ')[-1]}"; best_save = int(float(ol[369]))
-    except Exception:
-        best_save = None
-    return save('emperor', {'best': best_save or G(t, 'Highest showdown'), 'attempts': att, 'next_bonus': G(t, 'Next level bonus'), 'bonuses': bon})
+    # Zack 2026-11-25: Toolbox parser numbers; owner Autistocat (Arcane Cultist: Griffy 2026-08 + Pulse 2026-10-31)
+    E = _D().system('emperor')
+    nx = [(b['bonus'].replace('_', ' '), '', f"{b['level']}") for b in E['upcomingBonuses']]
+    return save('emperor', {'best': E['highestEmperorShowdown'], 'attempts': f"{E['attempts']} / {E['maxAttempts']}", 'next_bonus': None, 'bonuses': nx, 'daily': E.get('dailyAttempts')})
 
 
 def lines_emperor(o):
     best = int(o['best']); L = []
     a = o['attempts'].split(' / ')
-    if int(a[0]) > 0: L.append(f"TOP: use your {a[0]} Emperor attempts and push past showdown {best}. Autiszemo goes, he hits hardest. Only reset and climb again if you really need a drop.")
-    nxt = sorted([(int(x.split(',')[0]), b) for b, tot, x in o['bonuses'] if x[0].isdigit()])[:4]
-    L.append('Coming up: ' + ', '.join(f"{lv} gives more {b.lower()}" for lv, b in nxt) + '.')
+    if int(a[0]) > 0: L.append(f"TOP: use your {a[0]} Emperor attempts on Autistocat and push past showdown {best}. Pulse: stand on the small platform next to the boss and auto attack so the skulls bounce; Skull + Aura only, 2nd-page damage talents, boost foods. Big pushes are best saved for statue week.")
+    nxt = sorted([(int(x), b) for b, tot, x in o['bonuses'] if str(x).isdigit()])[:4]
+    if nxt: L.append('Coming up: ' + ', '.join(f"showdown {lv}: {b}" for lv, b in nxt) + '.')
     return L
 
 
 def build_islands():
-    t = tb('islands')['_page']['text']
-    return save('islands', {k: G(t, k) for k in ('Bottles', 'Unclaimed trash days', 'Garbage to collect', 'Garbage', 'Mobs waiting', 'Shimmer')} | {'crystal_days': (re.search(r'Unclaimed days \n([^\n]+)', t) or [0, None])[1]})
+    I = _D().system('islands')
+    return save('islands', {'Bottles': f"{I['bottles']:,.0f}", 'Unclaimed trash days': I.get('numberOfDaysAfk'), 'Garbage to collect': str(I.get('trashPerDaysAfk') or 0),
+                            'Garbage': None, 'Mobs waiting': '0', 'Shimmer': I.get('allShimmerBonus'), 'crystal_days': None})
 
 
 def lines_islands(o):
@@ -42,9 +50,10 @@ def lines_islands(o):
 
 
 def build_arcade():
-    t = tb('arcade')['_page']['text']
-    ups = [(a, int(lv), n(c)) for a, lv, c in re.findall(r'\n([^\n]+)\nLv (\d+) / 100\n[\d,]+\n/\n([\d,]+)', t)]
-    return save('arcade', {'balls': G(t, 'Balls'), 'full': 'Full: claim now' in t, 'gold': n(G(t, 'Gold balls')), 'ups': ups, 'rotation': t[t.find('Current rotation'):t.find('Off rotation')]})
+    A = _D().system('arcade')
+    rot = [x for x in A['shop'] if x.get('active')]
+    return save('arcade', {'balls': A['balls'], 'full': False, 'gold': A['goldBalls'], 'ups': [(_fmt(x['bonusName'].replace('_', ' '), x['bonus']), x['level'], None) for x in rot],
+                           'rotation': ', '.join(x['bonusName'].replace('_', ' ') for x in rot)})
 
 
 def lines_arcade(o):
@@ -52,35 +61,30 @@ def lines_arcade(o):
     if o['full']: L.append("TOP: the Arcade is full, claim your balls.")
     rot = [u for u in o['ups'] if u[0] in o['rotation']]
     nm = lambda a: re.sub(r'^\+?[\d.]+[x%]? ', '', a)
-    aff = sorted([u for u in rot if u[2] <= o['gold'] and u[1] > 0], key=lambda u: u[2])
-    if aff: L.append(f"Spend gold balls on {', '.join(nm(a) for a, lv, c in aff)} ({o['gold']:,.0f} gold balls).")
-    big = [u for u in rot if u[2] > o['gold']]
-    if big: L.append(f"Saving for {' and '.join(nm(a) for a, lv, c in big)} (they cost {big[0][2]:,.0f}+).")
+    if o['gold']: L.append(f"{o['gold']:,.0f} gold balls. On rotation now: {', '.join(nm(a) for a, lv, c in o['ups'])} (check costs in game).")
     return L
 
 
 def build_owl():
-    t = tb('owl')['_page']['text']
-    f = n(G(t, 'Feathers'))
-    ups = [(a, lv, n(c)) for a, lv, c in re.findall(r'\n([A-Z][^\n]+)\nLv (\d+)\n\n[^\n]+\n\n[\d.e+KMBTQ]+\n/\n([\d.e+KMBTQ]+)', t)]
-    return save('owl', {'feathers': f, 'mega': G(t, 'MEGAFEATHERS'), 'ups': ups})
+    O = _D().system('owl')
+    ups = [(u['name'].replace('_', ' '), u['level'], u['cost']) for u in O['upgrades'] if u.get('unlocked')]
+    return save('owl', {'feathers': O['feathers'], 'mega': len([m for m in O['megaFeathers'] if m]) if isinstance(O['megaFeathers'], list) else O['megaFeathers'], 'ups': ups})
 
 
 def lines_owl(o):
     aff = [u for u in o['ups'] if u[2] and u[2] <= o['feathers']]
-    return ([f"Owl: buy all {len(aff)} upgrades, you have way more feathers than they cost."] if aff else []) + [f"{o['mega']} megafeathers so far."]
+    return [f"Owl: buy all {len(aff)} upgrades, you have way more feathers than they cost."] if aff else []
 
 
 def build_killroy():
-    T = tb('killroy'); s = T['Schedule']['text']; p = T['Permanent Upgrades']['text']
-    weeks = re.findall(r'(\d\d/\d\d/\d{4}) 19:00\n(Room 1 ·\n\w+\n[\d,]+\nRoom 2 ·\n\w+\n[\d,]+)', s)
-    perm = re.findall(r'\n([^\n]{10,90})\n(?:\n[^\n]+\n\n(?:Toward its cap\n[^\n]+\n)?)?Cost\n(\d+)', p)
-    return save('killroy', {'skulls': int(G(s, 'Skulls') or 0), 'weeks': [(d, r.replace('\n', ' ')) for d, r in weeks], 'perm': [(a, int(c)) for a, c in perm if not a[0].isdigit() or 'Chance' in a]})
+    K = _D().system('killroy')
+    return save('killroy', {'skulls': K['skulls'], 'weeks': [], 'perm': [(u['description'].replace('_', ' '), u['cost']) for u in K['permanentUpgrades'] if u.get('cost') is not None],
+                            'rooms': K.get('rooms'), 'kills': K.get('totalKills')})
 
 
 def lines_killroy(o):
     L = []
-    if o['weeks']: L.append(f"This week's Killroy rooms: {o['weeks'][0][1].replace(' ·', ':')}.")
+    if o.get('rooms'): L.append(f"Killroy: {o['rooms']} rooms this week.")
     aff = [x for x in o['perm'] if x[1] <= o['skulls']]
     if aff: L.append(f"With {o['skulls']} skulls you can buy: " + ', '.join(a.split(',')[0].split('!')[0][:40] for a, c in aff[:4]) + '.')
     L.append('Get 2,000 kills in one room to finish an Equinox challenge (best so far 1,296).')
@@ -88,11 +92,10 @@ def lines_killroy(o):
 
 
 def build_hole():
-    T = tb('hole'); st = T['Study']['text']; en = T['Engineer']['text']; ex = T['Explore']['text']
-    ready = re.findall(r'\n([A-Z][^\n]+)\nLv (\d+) · ([^\n]+)\n(?:●\nActive\n)?\n[^\n]+\n\nProgress\n[^\n]+\nNext level\n●\nReady', st)
-    soon = re.findall(r'\n([A-Z][^\n]+)\nLv (\d+) · ([^\n]+)\n(?:●\nActive\n)?\n[^\n]+\n\nProgress\n[^\n]+\nNext level\n(\d+m \d+s|\d+h \d+m)', st)
-    schem = [(a, c) for a, b, c in re.findall(r'\n([A-Z][^\n]+)\n\n[^\n]+\n\n(?:Total Bonus: [^\n]+\n\n)?([\d.,]+[KMBT]?)\n/\n([\d.,]+[KMBT]?)\n(?!need)', en)]
-    return save('hole', {'caverns': G(ex, 'Unlocked caverns'), 'ready': ready, 'soon': soon[:4], 'schematics': G(en, 'Unlocked schematics'), 'schem_aff': schem[:6]})
+    H = _D().system('caverns')
+    st = H['studies']['studies'] if isinstance(H.get('studies'), dict) else []
+    return save('hole', {'caverns': None, 'ready': [], 'soon': [], 'schematics': H.get('cosmoSchematics'), 'schem_aff': [],
+                         'studies': [(x['name'].replace('_', ' '), x['level'], x.get('active')) for x in st], 'opals': H.get('totalOpalsFound')})
 
 
 def lines_hole(o):
@@ -104,8 +107,8 @@ def lines_hole(o):
 
 
 def build_slab():
-    t = tb('slab')['_page']['text']
-    return save('slab', {k: G(t, k) for k in ('Looted items', 'Missing items', 'Greenstacks', 'Slab bonus multi')})
+    L = _D().system('slab')
+    return save('slab', {'Looted items': L['lootedItems'], 'Missing items': L['missingItems'], 'Greenstacks': L['greenStackedCount'], 'Slab bonus multi': None})
 
 
 def lines_slab(o):
@@ -113,22 +116,22 @@ def lines_slab(o):
 
 
 def build_beanstalk():
-    t = tb('beanstalk')['_page']['text']
-    foods = []
-    for blk in re.split(r'\n(?=(?:Golden [^\n]+|Butter Bar)\nRank \d / 3)', t):
-        m = re.match(r'(Golden [^\n]+|Butter Bar)\nRank (\d) / 3\n.*?Owned\n([\d.,]+[KM]?)\n / ([\d.,]+[KM]?)', blk, re.S)
-        if m: foods.append((m.group(1), int(m.group(2)), n(m.group(3)), n(m.group(4))))
-    return save('beanstalk', {'foods': foods})
+    # beanstalk food ranks/owned are not broken out by Toolbox's parser yet: AutoReview lines carry it
+    tier, items = ar_items('Beanstalk')
+    foods = [(i['label'][:40], 0, float(str(i.get('cur') or 0).replace(',', '') or 0) if str(i.get('cur', '')).replace(',', '').replace('.', '').isdigit() else 0,
+              float(str(i.get('goal')).replace(',', '')) if str(i.get('goal', '')).replace(',', '').replace('.', '').isdigit() else 0) for i in items]
+    return save('beanstalk', {'foods': [f for f in foods if f[3]]})
 
 
 def lines_beanstalk(o):
     f = sorted([x for x in o['foods'] if x[2] < x[3]], key=lambda x: -(x[2] / x[3]))
-    return ['Beanstalk, closest to the next rank: ' + ', '.join(f"{a} ({ow / nd:.0%})" for a, r, ow, nd in f[:4]) + '.']
+    return ['Beanstalk, closest to the next rank: ' + ', '.join(f"{a} ({ow / nd:.0%})" for a, r, ow, nd in f[:4]) + '.'] if f else []
 
 
 def build_capevine():
-    t = tb('capevine')['_page']['text']
-    return save('capevine', {k: G(t, k) for k in ('Capes collected', 'Bonus multi', 'Golden Vines', 'Next Golden Vine')})
+    C = _D().system('cape_vine')
+    return save('capevine', {'Capes collected': f"{C['totalCapes']} / {C['totalEligibleCapes']}", 'Bonus multi': C['bonusMulti'], 'Golden Vines': C['goldenVines'],
+                             'Next Golden Vine': f"class level {C['nextGoldenVineClassLevel']}"})
 
 
 def lines_capevine(o):
@@ -136,21 +139,27 @@ def lines_capevine(o):
 
 
 def build_shops():
-    e = tb('eventshop')['_page']['text'].replace('\xa0', ' '); b = tb('ballot')
-    items = re.findall(r'\n([A-Z][^\n]+)\n\n([^\n]+)\n\n(\d+)\n/\n(\d+)\nneed', e)
-    return save('shops', {'points': G(e, 'Event Points'), 'rotation': (re.search(r'Current rotation: ([^\n]+)', e) or [0, None])[1], 'items': items[:8],
-                          'ballot_next': G(b['Bonus']['text'], 'Next week in'), 'merit_next': G(b['Meritocracy']['text'], 'Next week in')})
+    # event shop is not in Toolbox's parser (AutoReview has it); ballot + Meritocracy from the parser
+    V = _D().system('ballot')
+    cl = lambda x: str(x).replace('_', ' ')
+    sb, sm = V.get('selectedBonus') or {}, V.get('selectedMeritocracyBonus') or {}
+    tier, items = ar_items('Event Points Shop')
+    return save('shops', {'points': None, 'rotation': None, 'items': [], 'ar_event': [i['label'][:60] for i in items if i.get('cur') != i.get('goal')][:4],
+                          'ballot_next': None, 'merit_next': None,
+                          'ballot_now': _fmt(cl(sb.get('0', '')), sb.get('1')), 'merit_now': _fmt(cl(sm.get('description', '')), sm.get('bonus')),
+                          'vote_multi': V.get('voteMulti'), 'merit_multi': V.get('meritocracyMult')})
 
 
 def lines_shops(o):
-    it = sorted(o['items'], key=lambda x: int(x[3]))[:2]
-    return [f"Event Shop: {o['points']} points. Cheapest wanted: " + ', '.join(f"{a} ({c})" for a, d, h_, c in it) + '.',
-            f"Vote on the Ballot before it resets ({o['ballot_next']})."]
+    L = [f"This week's Ballot bonus: {o['ballot_now']} (x{o['vote_multi']}). Meritocracy: {o['merit_now']} (x{o['merit_multi']})."]
+    if o.get('ar_event'): L.append('Event Shop (AutoReview): ' + '; '.join(o['ar_event'][:3]) + '.')
+    return L
 
 
 def build_tome():
-    t = tb('tome')['Overview']['text']
-    return save('tome', {'points': G(t, 'Total points'), 'rank': G(t, 'Rank'), 'gap': (re.search(r'([\d,]+) to Top', t) or [0, None])[1]})
+    T = _D().system('tome')
+    pts = T['totalPoints']; up = sorted([t for t in T['tops'] if t and t > pts])
+    return save('tome', {'points': f"{pts:,.0f}", 'rank': T.get('top'), 'gap': f"{up[0] - pts:,.0f}" if up else None})
 
 
 def lines_tome(o):
@@ -158,10 +167,12 @@ def lines_tome(o):
 
 
 def build_maint():
-    T = tb('rift'); t = T['Tasks']['text']
-    cur = re.search(r'\n([A-Z][^\n]+)\nRift (\d+)\n●\nCurrent\n\n([^\n]+)\n\nProgress\n([^\n]+)', t)
-    nxt = re.findall(r'\n([A-Z][^\n]+)\nRift (\d+)\n\n([^\n]+)', t)
-    return save('maint', {'rift': (re.search(r'Rift\n(\d+ / \d+)', t) or [0, None])[1], 'cur': cur.groups() if cur else None, 'next': [x for x in nxt if 'cannot progress' not in x[2]][:3]})
+    R = _D().system('rift')
+    cur = R['list'][R['currentRift']] if R['currentRift'] < len(R['list']) else None
+    task = str(cur['task']).replace('_', ' ') if cur else ''
+    nxt = [(x['monsterName'], i + 1, str(x['task']).replace('_', ' ')) for i, x in enumerate(R['list'][R['currentRift'] + 1:R['currentRift'] + 3], start=R['currentRift'])]
+    return save('maint', {'rift': f"{R['currentRift']} / {len(R['list'])}", 'cur': (cur['monsterName'], R['currentRift'], task, f"{R.get('currentProgress')}") if cur and 'CANNOT PROGRESS' not in task else None,
+                          'next': [x for x in nxt if 'CANNOT PROGRESS' not in x[2]]})
 
 
 def lines_maint(o):

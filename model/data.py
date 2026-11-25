@@ -68,6 +68,13 @@ class Data:
             return out
         return self.get('account.' + p, allow_empty)
 
+    def item_count(self, raw):
+        """Owned count of an item (storage chest + every character's bags), by game raw name (e.g. 'Coral3')."""
+        n = sum(i.get('amount') or 0 for i in self.get('account.storage.list', True) if i.get('rawName') == raw)
+        for c in self.characters:
+            n += sum(i.get('amount') or 0 for i in (c.get('inventory') or []) if isinstance(i, dict) and i.get('rawName') == raw)
+        return n
+
     def char(self, name):
         for c in self.characters:
             if c.get('name') == name:

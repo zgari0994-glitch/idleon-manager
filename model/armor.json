@@ -1,28 +1,32 @@
 {
  "done": [
-  "15",
-  "19"
+  15,
+  19
  ],
  "sets": [
   {
    "set": "Secret set",
    "bonus": "1.25x Gold Food effect",
-   "parts": "0 / 5"
+   "parts": "4 / 5",
+   "done": false
   },
   {
    "set": "Godshard set",
    "bonus": "1.15x Higher Winners Bonuses from Summoning",
-   "parts": "5 / 11"
+   "parts": "12 / 14",
+   "done": false
   },
   {
    "set": "Emperor set",
    "bonus": "Ribbons and Exalted Stamps give 1.20x more multi",
-   "parts": "2 / 7"
+   "parts": "3 / 7",
+   "done": false
   },
   {
    "set": "Prehistoric set",
    "bonus": "2.00x EXP Gain in all World 7 Skills",
-   "parts": "0 / 11"
+   "parts": "0 / 14",
+   "done": false
   }
  ],
  "ar_tier": "4/6",
@@ -89,7 +93,7 @@
   },
   {
    "group": "Godshard Set requirements",
-   "tab": "Required Tools: 4/6",
+   "tab": "Required Tools: 6/6",
    "label": "Destroyer of the Mollo Gomme",
    "cur": "",
    "goal": "\u2714",
@@ -97,7 +101,7 @@
   },
   {
    "group": "Godshard Set requirements",
-   "tab": "Required Tools: 4/6",
+   "tab": "Required Tools: 6/6",
    "label": "Annihilator of the Yggdrasil",
    "cur": "",
    "goal": "\u2714",
@@ -105,7 +109,7 @@
   },
   {
    "group": "Godshard Set requirements",
-   "tab": "Required Tools: 4/6",
+   "tab": "Required Tools: 6/6",
    "label": "Angler of the Iliunne",
    "cur": "",
    "goal": "\u2714",
@@ -113,7 +117,7 @@
   },
   {
    "group": "Godshard Set requirements",
-   "tab": "Required Tools: 4/6",
+   "tab": "Required Tools: 6/6",
    "label": "Wrangler of the Qoxzul",
    "cur": "",
    "goal": "\u2714",
@@ -121,28 +125,31 @@
   },
   {
    "group": "Godshard Set requirements",
-   "tab": "Required Tools: 4/6",
+   "tab": "Required Tools: 6/6",
    "label": "Containment of the Zrgyios",
-   "cur": "0",
-   "goal": "1"
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
   },
   {
    "group": "Godshard Set requirements",
-   "tab": "Required Tools: 4/6",
+   "tab": "Required Tools: 6/6",
    "label": "Crystal Skull of Esquire Vnoze",
-   "cur": "0",
-   "goal": "1"
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
   },
   {
    "group": "Godshard Set requirements",
-   "tab": "Required Weapons: 1/1",
+   "tab": "Required Weapons: 2/1",
    "label": "Mittens of the Gods",
-   "cur": "0",
-   "goal": "1"
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
   },
   {
    "group": "Godshard Set requirements",
-   "tab": "Required Weapons: 1/1",
+   "tab": "Required Weapons: 2/1",
    "label": "Massive Godbreaker",
    "cur": "",
    "goal": "\u2714",
@@ -150,14 +157,14 @@
   },
   {
    "group": "Godshard Set requirements",
-   "tab": "Required Weapons: 1/1",
+   "tab": "Required Weapons: 2/1",
    "label": "Doublestring Godshooter",
    "cur": "0",
    "goal": "1"
   },
   {
    "group": "Godshard Set requirements",
-   "tab": "Required Weapons: 1/1",
+   "tab": "Required Weapons: 2/1",
    "label": "Magnifique Godcaster",
    "cur": "0",
    "goal": "1"
@@ -314,7 +321,7 @@
   },
   {
    "group": "Secret Set requirements",
-   "tab": "Required Armor: 3/5",
+   "tab": "Required Armor: 4/5",
    "label": "Mark of Member",
    "cur": "",
    "goal": "\u2714",
@@ -322,14 +329,15 @@
   },
   {
    "group": "Secret Set requirements",
-   "tab": "Required Armor: 3/5",
+   "tab": "Required Armor: 4/5",
    "label": "Mittens of the Gods",
-   "cur": "0",
-   "goal": "1"
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
   },
   {
    "group": "Secret Set requirements",
-   "tab": "Required Armor: 3/5",
+   "tab": "Required Armor: 4/5",
    "label": "Member Hoodie",
    "cur": "",
    "goal": "\u2714",
@@ -337,7 +345,7 @@
   },
   {
    "group": "Secret Set requirements",
-   "tab": "Required Armor: 3/5",
+   "tab": "Required Armor: 4/5",
    "label": "Club Member",
    "cur": "",
    "goal": "\u2714",
@@ -345,7 +353,7 @@
   },
   {
    "group": "Secret Set requirements",
-   "tab": "Required Armor: 3/5",
+   "tab": "Required Armor: 4/5",
    "label": "Vman Nametag",
    "cur": "0",
    "goal": "1"
@@ -499,5 +507,5 @@
    "goal": "1"
   }
  ],
- "snapshot": "20261121T1741"
+ "snapshot": "20261125T2028"
 }

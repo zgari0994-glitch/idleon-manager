@@ -1,45 +1,51 @@
 {
  "sprouts": [
-  "20",
-  "20"
+  0,
+  20
  ],
- "bits": "593B",
+ "bits": 4.77805079279218e+49,
  "since": [
   [
    "Dirty Shovel",
-   "2d 6h"
+   "24h"
   ],
   [
    "Autumn Squirrel",
-   "4d 13h"
+   "23d"
   ]
  ],
- "acorns": 150,
- "shop": [
-  [
-   "All plants give x3.71 bits",
-   128,
-   375
-  ],
-  [
-   "All plants grow 136.83% faster",
-   156,
-   459
-  ],
-  [
-   "Boosts Palette Luck by +0%",
-   0,
-   4
-  ]
- ],
+ "acorns": 657,
+ "shop": [],
  "snail": [
-  "13",
-  "25",
-  "11",
-  "63.31%",
-  "15.64%"
+  13,
+  25,
+  24,
+  0.823209013313704,
+  0.128364320646293
  ],
- "superbits_owned": 0,
+ "superbits_owned": 24,
+ "superbits_next": [
+  [
+   "Classy Discoveries",
+   5e+51,
+   "1.01x Class EXP per Spelunk Discovery.           Total Bonus: {x EXP"
+  ],
+  [
+   "Snail Omega",
+   3e+52,
+   "The Immortal Snail now has +5 Max LV"
+  ],
+  [
+   "Slabby Spelunking",
+   2e+53,
+   "Adds a new bonus to The Slab: +% Total Spelunking POW"
+  ],
+  [
+   "Monument Infimulti",
+   9.000000000000001e+54,
+   "Monument reward multi increases normally for +10 more days"
+  ]
+ ],
  "ar": [
   {
    "group": "Snail Ranks",
@@ -59,15 +65,15 @@
   {
    "group": "Snail Ranks",
    "tab": "General",
-   "label": "6 Trebel Note stacks for a bonus of 1.24x",
-   "cur": "6",
+   "label": "10 Trebel Note stacks for a bonus of 1.40x",
+   "cur": "10",
    "goal": "\u221e",
    "res": "harp-note-3"
   },
   {
    "group": "Snail Ranks",
    "tab": "Current Rank 13 Info",
-   "label": "Step 1: Encourage the snail 0 times.Game will display 47.38% success, 20.29% reset chance at 0 encourages.",
+   "label": "Step 1: Encourage the snail 0 times.Game will display 53.50% success, 20.29% reset chance at 0 encourages.",
    "cur": "",
    "goal": "\u2714",
    "completed": true,
@@ -76,28 +82,28 @@
   {
    "group": "Snail Ranks",
    "tab": "Current Rank 13 Info",
-   "label": "Step 2: Choose a safety level. 90.0% safety = 12 unspent mail",
+   "label": "Step 2: Choose a safety level. 90.0% safety = 3 unspent mail",
    "cur": "0",
-   "goal": "12"
+   "goal": "3"
   },
   {
    "group": "Snail Ranks",
    "tab": "Current Rank 13 Info",
-   "label": "Step 2: Choose a safety level. 95.0% safety = 18 unspent mail",
+   "label": "Step 2: Choose a safety level. 95.0% safety = 15 unspent mail",
    "cur": "0",
-   "goal": "18"
+   "goal": "15"
   },
   {
    "group": "Snail Ranks",
    "tab": "Current Rank 13 Info",
-   "label": "Step 2: Choose a safety level. 99.0% safety = 36 unspent mail",
+   "label": "Step 2: Choose a safety level. 99.0% safety = 30 unspent mail",
    "cur": "0",
-   "goal": "36"
+   "goal": "30"
   },
   {
    "group": "Snail Ranks",
    "tab": "Relevant Encouragement Info (for resets or advancement)",
-   "label": "Previous Rank 10: Encourage the snail 0 times.Game will display 60.41% success, 18.28% reset chance at 0 encourages.",
+   "label": "Previous Rank 10: Encourage the snail 0 times.Game will display 68.20% success, 18.28% reset chance at 0 encourages.",
    "cur": "",
    "goal": "\u2714",
    "completed": true,
@@ -106,7 +112,7 @@
   {
    "group": "Snail Ranks",
    "tab": "Relevant Encouragement Info (for resets or advancement)",
-   "label": "Previous Rank 11: Encourage the snail 0 times.Game will display 55.95% success, 19.00% reset chance at 0 encourages.",
+   "label": "Previous Rank 11: Encourage the snail 0 times.Game will display 63.17% success, 19.00% reset chance at 0 encourages.",
    "cur": "",
    "goal": "\u2714",
    "completed": true,
@@ -115,7 +121,7 @@
   {
    "group": "Snail Ranks",
    "tab": "Relevant Encouragement Info (for resets or advancement)",
-   "label": "Previous Rank 12: Encourage the snail 0 times.Game will display 51.62% success, 19.67% reset chance at 0 encourages.",
+   "label": "Previous Rank 12: Encourage the snail 0 times.Game will display 58.28% success, 19.67% reset chance at 0 encourages.",
    "cur": "",
    "goal": "\u2714",
    "completed": true,
@@ -124,7 +130,7 @@
   {
    "group": "Snail Ranks",
    "tab": "Relevant Encouragement Info (for resets or advancement)",
-   "label": "Current Rank 13: Encourage the snail 0 times.Game will display 47.38% success, 20.29% reset chance at 0 encourages.",
+   "label": "Current Rank 13: Encourage the snail 0 times.Game will display 53.50% success, 20.29% reset chance at 0 encourages.",
    "cur": "",
    "goal": "\u2714",
    "completed": true,
@@ -133,7 +139,7 @@
   {
    "group": "Snail Ranks",
    "tab": "Relevant Encouragement Info (for resets or advancement)",
-   "label": "Future Rank 14: Encourage the snail 0 times.Game will display 43.24% success, 20.87% reset chance at 0 encourages.",
+   "label": "Future Rank 14: Encourage the snail 0 times.Game will display 48.82% success, 20.87% reset chance at 0 encourages.",
    "cur": "",
    "goal": "\u2714",
    "completed": true,
@@ -142,7 +148,7 @@
   {
    "group": "Snail Ranks",
    "tab": "Relevant Encouragement Info (for resets or advancement)",
-   "label": "Future Rank 15: Encourage the snail 0 times.Game will display 39.19% success, 21.42% reset chance at 0 encourages.",
+   "label": "Future Rank 15: Encourage the snail 0 times.Game will display 44.25% success, 21.42% reset chance at 0 encourages.",
    "cur": "",
    "goal": "\u2714",
    "completed": true,
@@ -151,7 +157,7 @@
   {
    "group": "Snail Ranks",
    "tab": "Relevant Encouragement Info (for resets or advancement)",
-   "label": "Future Rank 16: Encourage the snail 0 times.Game will display 35.21% success, 21.94% reset chance at 0 encourages.",
+   "label": "Future Rank 16: Encourage the snail 0 times.Game will display 39.76% success, 21.94% reset chance at 0 encourages.",
    "cur": "",
    "goal": "\u2714",
    "completed": true,
@@ -160,7 +166,7 @@
   {
    "group": "Snail Ranks",
    "tab": "Relevant Encouragement Info (for resets or advancement)",
-   "label": "Future Rank 17: Encourage the snail 0 times.Game will display 31.31% success, 22.42% reset chance at 0 encourages.",
+   "label": "Future Rank 17: Encourage the snail 0 times.Game will display 35.35% success, 22.42% reset chance at 0 encourages.",
    "cur": "",
    "goal": "\u2714",
    "completed": true,
@@ -169,15 +175,41 @@
   {
    "group": "Snail Ranks",
    "tab": "Relevant Encouragement Info (for resets or advancement)",
-   "label": "Future Rank 18: Encourage the snail 5 times.Game will display 32.51% success, 20.03% reset chance at 5 encourages.",
+   "label": "Future Rank 18: Encourage the snail 2 times.Game will display 33.54% success, 21.62% reset chance at 2 encourages.",
    "cur": "0",
-   "goal": "5",
+   "goal": "2",
    "res": "snail-envelope"
   },
   {
    "group": "Snail Ranks",
    "tab": "Relevant Encouragement Info (for resets or advancement)",
-   "label": "Future Rank 19: Encourage the snail 12 times.Game will display 32.14% success, 17.66% reset chance at 12 encourages.",
+   "label": "Future Rank 19: Encourage the snail 8 times.Game will display 33.88% success, 19.09% reset chance at 8 encourages.",
+   "cur": "0",
+   "goal": "8",
+   "res": "snail-envelope"
+  },
+  {
+   "group": "Snail Ranks",
+   "tab": "Relevant Encouragement Info (for resets or advancement)",
+   "label": "Future Rank 20: Encourage the snail 0 times.Game will display 22.55% success, 23.75% reset chance at 0 encourages.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true,
+   "res": "snail-envelope"
+  },
+  {
+   "group": "Snail Ranks",
+   "tab": "Relevant Encouragement Info (for resets or advancement)",
+   "label": "Future Rank 21: Encourage the snail 0 times.Game will display 18.41% success, 24.16% reset chance at 0 encourages.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true,
+   "res": "snail-envelope"
+  },
+  {
+   "group": "Snail Ranks",
+   "tab": "Relevant Encouragement Info (for resets or advancement)",
+   "label": "Future Rank 22: Encourage the snail 12 times.Game will display 19.44% success, 18.57% reset chance at 12 encourages.",
    "cur": "0",
    "goal": "12",
    "res": "snail-envelope"
@@ -185,44 +217,19 @@
   {
    "group": "Snail Ranks",
    "tab": "Relevant Encouragement Info (for resets or advancement)",
-   "label": "Future Rank 20: Encourage the snail 0 times.Game will display 19.97% success, 23.75% reset chance at 0 encourages.",
-   "cur": "",
-   "goal": "\u2714",
-   "completed": true,
+   "label": "Future Rank 23: Encourage the snail 34 times.Game will display 16.82% success, 14.15% reset chance at 34 encourages.",
+   "cur": "0",
+   "goal": "34",
    "res": "snail-envelope"
   },
   {
    "group": "Snail Ranks",
    "tab": "Relevant Encouragement Info (for resets or advancement)",
-   "label": "Future Rank 21: Encourage the snail 1 times.Game will display 16.99% success, 23.46% reset chance at 1 encourages.",
+   "label": "Future Rank 24: Encourage the snail 73 times.Game will display 11.49% success, 11.15% reset chance at 73 encourages.",
    "cur": "0",
-   "goal": "1",
-   "res": "snail-envelope"
-  },
-  {
-   "group": "Snail Ranks",
-   "tab": "Relevant Encouragement Info (for resets or advancement)",
-   "label": "Future Rank 22: Encourage the snail 16 times.Game will display 18.13% success, 17.36% reset chance at 16 encourages.",
-   "cur": "0",
-   "goal": "16",
-   "res": "snail-envelope"
-  },
-  {
-   "group": "Snail Ranks",
-   "tab": "Relevant Encouragement Info (for resets or advancement)",
-   "label": "Future Rank 23: Encourage the snail 41 times.Game will display 15.35% success, 13.31% reset chance at 41 encourages.",
-   "cur": "0",
-   "goal": "41",
-   "res": "snail-envelope"
-  },
-  {
-   "group": "Snail Ranks",
-   "tab": "Relevant Encouragement Info (for resets or advancement)",
-   "label": "Future Rank 24: Encourage the snail 86 times.Game will display 10.36% success, 10.59% reset chance at 86 encourages.",
-   "cur": "0",
-   "goal": "86",
+   "goal": "73",
    "res": "snail-envelope"
   }
  ],
- "snapshot": "20261121T1741"
+ "snapshot": "20261125T2028"
 }

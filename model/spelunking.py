@@ -33,14 +33,18 @@ def shop_levels(u):
 
 
 def build():
-    T = tb('spelunking'); u = T['Upgrades']['text']
-    g = lambda k: (re.search(k + r'\n([^\n]+)', u) or [None, None])[1]
-    opt = T['Upgrade Optimizer']['text']
-    seq = re.findall(r'\n([A-Z][^\n]+)\nLv (\d+) → (\d+)[^\n]*\n(?:x\d+\n)?TOTAL BENEFITS\nPower\n([^\n]+)\nTotal cost\n([\d,.]+[KMB]?)', opt)
+    # Zack 2026-11-25: Toolbox parser numbers (model/data.py). Upgrade max = x3, level -1 = locked. Optimizer is website-only.
+    from data import load
+    S = load().system('spelunk')
+    # costs are in base amber; currentAmber is in the account's amber tier (game AmberDenominator: upgrade 66/51/41/20 -> 1e36/1e21/1e9/1e3)
+    lv = {u.get('originalIndex'): u['level'] for u in S['upgrades']}
+    den = 1e36 if lv.get(66, 0) >= 1 else 1e21 if lv.get(51, 0) >= 1 else 1e9 if lv.get(41, 0) >= 1 else 1e3 if lv.get(20, 0) >= 1 else 1
+    shop = {u['name'].replace('_', ' '): (u['level'], u.get('x3') or 99999, (u.get('cost') or 0) / den) for u in S['upgrades'] if u['level'] >= 0}
     tier, items = ar_items('Spelunking')
     caves = [{'cave': i['label'].split(':')[0], 'bonus': i['label'].split(':', 1)[1] if ':' in i['label'] else '', 'done': i.get('goal') == '✔' or i.get('cur') == i.get('goal')}
              for i in items if i['group'] == 'Cave Bonuses']
-    return save('spelunking', {'amber': n(g('Amber Found')), 'pages': g('Daily Page Reads'), 'disc': g('Discoveries'), 'power': g('Power'), 'optimizer': seq, 'caves': caves, 'shop': shop_levels(u)})
+    return save('spelunking', {'amber': S['currentAmber'], 'pages': None, 'disc': f"{S['discoveriesCount']} / {S['maxDiscoveries']}", 'power': S['power']['value'],
+                               'optimizer': [], 'caves': caves, 'shop': shop, 'overstim': S.get('overstimLevel'), 'upgrade_levels': S['totalUpgradeLevels']})
 
 
 def card_lines(o):
