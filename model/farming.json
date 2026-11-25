@@ -1,189 +1,97 @@
 {
- "snapshot": "20261121T1741",
- "found": 140,
- "night_rank": [],
+ "snapshot": "20261125T2028",
+ "found": 172,
+ "night_rank": [
+  {
+   "item": "Value Gmo 51/500",
+   "currency": "beans",
+   "balance": 89555.4224569779,
+   "cost": 17213,
+   "gain_pct": 1.9485790609753373,
+   "stat": "+95.03027200000002% crop value per per c",
+   "weight": 1,
+   "share": 0.19220500029765436,
+   "afford": true,
+   "score": 10.13802480662683
+  },
+  {
+   "item": "Super Gmo 42/50",
+   "currency": "beans",
+   "balance": 89555.4224569779,
+   "cost": 149468,
+   "gain_pct": 2.3397111995541993,
+   "stat": "+35.02% all 'GMO' bonuses per crop you h",
+   "weight": 3,
+   "share": 1.6689999990989253,
+   "afford": false,
+   "score": 4.205592332206201
+  },
+  {
+   "item": "Speed Gmo 67/500",
+   "currency": "beans",
+   "balance": 89555.4224569779,
+   "cost": 110136,
+   "gain_pct": 1.4918080107646308,
+   "stat": "+1217.57536% growth speed per crop you h",
+   "weight": 1,
+   "share": 1.2298082793692244,
+   "afford": false,
+   "score": 1.213041118514658
+  },
+  {
+   "item": "Exp Gmo 15/100",
+   "currency": "beans",
+   "balance": 89555.4224569779,
+   "cost": 66,
+   "gain_pct": null,
+   "stat": "+917.524% farming EXP gain crop you have",
+   "weight": 1,
+   "share": 0.0007369738000142443,
+   "afford": true,
+   "score": null
+  },
+  {
+   "item": "Og Fertilizer 60/500",
+   "currency": "beans",
+   "balance": 89555.4224569779,
+   "cost": 372,
+   "gain_pct": null,
+   "stat": "}x higher chance for Overgrowth to occur",
+   "weight": 1,
+   "share": 0.004153852327353013,
+   "afford": true,
+   "score": null
+  },
+  {
+   "item": "Evolution Gmo 141/500",
+   "currency": "beans",
+   "balance": 89555.4224569779,
+   "cost": 218694,
+   "gain_pct": null,
+   "stat": "}x crop evolution chance per crop you ha",
+   "weight": 2,
+   "share": 2.4419961851562904,
+   "afford": false,
+   "score": null
+  }
+ ],
  "stacks": {
-  "Evolution GMO": 13,
-  "Speed GMO": 13,
-  "EXP GMO": 13,
-  "Value GMO": 13,
-  "Super GMO": 12
+  "Evolution GMO": 168,
+  "Speed GMO": 168,
+  "EXP GMO": 168,
+  "Value GMO": 168,
+  "Super GMO": 162
  },
  "beans": 89555.4224569779,
- "evo_base": 1.4e-39,
- "evo_multi": 4.72e+26,
- "evo_chance": 6.608000000000001e-13,
- "evo_gmo_x": 26731.37,
+ "evo_base": null,
+ "evo_multi": null,
+ "evo_chance": null,
+ "evo_gmo_x": null,
  "per_stack": 2.13,
- "stacks_for_next_crop": 38,
+ "stacks_for_next_crop": 0,
  "under_200": [
   {
-   "crop": 0,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 1,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 2,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 3,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 4,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 5,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 6,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 7,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 8,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 9,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 10,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 11,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 12,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 13,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 14,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 15,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 16,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 17,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 18,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 19,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
-   "crop": 20,
-   "family": "Basic",
-   "have": 0.0
-  },
-  {
    "crop": 21,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
-   "crop": 22,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
-   "crop": 23,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
-   "crop": 24,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
-   "crop": 25,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
-   "crop": 26,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
-   "crop": 27,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
-   "crop": 28,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
-   "crop": 31,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
-   "crop": 33,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
-   "crop": 37,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
-   "crop": 38,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
-   "crop": 39,
    "family": "Earthy",
    "have": 0.0
   },
@@ -193,500 +101,242 @@
    "have": 0.0
   },
   {
-   "crop": 41,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
-   "crop": 42,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
-   "crop": 43,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
-   "crop": 44,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
-   "crop": 45,
-   "family": "Earthy",
-   "have": 0.0
-  },
-  {
    "crop": 46,
    "family": "Bulbo",
-   "have": 0.0
-  },
-  {
-   "crop": 47,
-   "family": "Bulbo",
-   "have": 0.0
-  },
-  {
-   "crop": 48,
-   "family": "Bulbo",
-   "have": 0.0
-  },
-  {
-   "crop": 49,
-   "family": "Bulbo",
-   "have": 0.0
-  },
-  {
-   "crop": 50,
-   "family": "Bulbo",
-   "have": 0.0
-  },
-  {
-   "crop": 51,
-   "family": "Bulbo",
-   "have": 0.0
-  },
-  {
-   "crop": 52,
-   "family": "Bulbo",
-   "have": 0.0
-  },
-  {
-   "crop": 53,
-   "family": "Bulbo",
-   "have": 0.0
-  },
-  {
-   "crop": 55,
-   "family": "Bulbo",
-   "have": 0.0
-  },
-  {
-   "crop": 56,
-   "family": "Bulbo",
-   "have": 0.0
-  },
-  {
-   "crop": 57,
-   "family": "Bulbo",
-   "have": 0.0
-  },
-  {
-   "crop": 59,
-   "family": "Bulbo",
-   "have": 0.0
-  },
-  {
-   "crop": 60,
-   "family": "Bulbo",
-   "have": 0.0
-  },
-  {
-   "crop": 61,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 62,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 63,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 64,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 65,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 67,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 68,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 69,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 70,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 71,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 72,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 73,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 74,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 75,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 76,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 77,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 78,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 79,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 80,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 81,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 82,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 83,
-   "family": "Sushi",
-   "have": 0.0
-  },
-  {
-   "crop": 84,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 85,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 86,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 87,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 88,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 90,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 91,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 92,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 93,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 94,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 95,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 96,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 97,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 98,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 99,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 100,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 101,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 102,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 103,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 104,
-   "family": "Mushie",
-   "have": 0.0
-  },
-  {
-   "crop": 105,
-   "family": "Mushie",
    "have": 0.0
   },
   {
    "crop": 106,
    "family": "Mushie",
    "have": 0.0
-  },
-  {
-   "crop": 107,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 108,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 109,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 110,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 111,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 112,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 113,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 114,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 115,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 116,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 117,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 118,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 119,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 120,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 121,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 122,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 123,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 124,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 125,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 126,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 127,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 128,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 129,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 130,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 131,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 132,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 133,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 134,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 135,
-   "family": "Glassy",
-   "have": 0.0
-  },
-  {
-   "crop": 136,
-   "family": "Glassy",
-   "have": 0.0
   }
  ],
  "family_stacks": {
   "Earthy": [
-   6,
+   23,
    25
   ],
   "Mushie": [
-   1,
+   22,
    23
   ],
   "Bulbo": [
-   2,
+   14,
    15
   ],
   "Glassy": [
-   3,
-   33
+   65,
+   65
   ],
   "Sushi": [
-   1,
+   23,
    23
   ],
   "Basic": [
-   0,
+   21,
    21
   ]
  },
- "rank_unspent": 187,
+ "rank_unspent": 6,
  "rank_plan": [],
- "night": [],
- "day": [],
- "exotic_left": null,
+ "night": [
+  {
+   "name": "Evolution Gmo",
+   "lv": 141,
+   "max": 500,
+   "market": "Night",
+   "maxed": false,
+   "have": 89555.4224569779,
+   "cost": 218694,
+   "desc": "}x crop evolution chance per crop you have 200 of"
+  },
+  {
+   "name": "Speed Gmo",
+   "lv": 67,
+   "max": 500,
+   "market": "Night",
+   "maxed": false,
+   "have": 89555.4224569779,
+   "cost": 110136,
+   "desc": "+1217.57536% growth speed per crop you have 1000 of"
+  },
+  {
+   "name": "Og Fertilizer",
+   "lv": 60,
+   "max": 500,
+   "market": "Night",
+   "maxed": false,
+   "have": 89555.4224569779,
+   "cost": 372,
+   "desc": "}x higher chance for Overgrowth to occur"
+  },
+  {
+   "name": "Exp Gmo",
+   "lv": 15,
+   "max": 100,
+   "market": "Night",
+   "maxed": false,
+   "have": 89555.4224569779,
+   "cost": 66,
+   "desc": "+917.524% farming EXP gain crop you have 2500 of"
+  },
+  {
+   "name": "Value Gmo",
+   "lv": 51,
+   "max": 500,
+   "market": "Night",
+   "maxed": false,
+   "have": 89555.4224569779,
+   "cost": 17213,
+   "desc": "+95.03027200000002% crop value per per crop you have 10000 of"
+  },
+  {
+   "name": "Super Gmo",
+   "lv": 42,
+   "max": 50,
+   "market": "Night",
+   "maxed": false,
+   "have": 89555.4224569779,
+   "cost": 149468,
+   "desc": "+35.02% all 'GMO' bonuses per crop you have 100K"
+  }
+ ],
+ "day": [
+  {
+   "name": "Stronger Vines",
+   "lv": 112,
+   "max": 500,
+   "market": "Day",
+   "maxed": false,
+   "have": 655570000.0,
+   "cost": 497522,
+   "desc": "+224% chance for +1 crop when fully grown"
+  },
+  {
+   "name": "Nutritious Soil",
+   "lv": 160,
+   "max": 500,
+   "market": "Day",
+   "maxed": false,
+   "have": 3200000.0,
+   "cost": 63533330,
+   "desc": "+160% growth speed for all land"
+  },
+  {
+   "name": "Smarter Seeds",
+   "lv": 172,
+   "max": 500,
+   "market": "Day",
+   "maxed": false,
+   "have": 0.0,
+   "cost": 22319776,
+   "desc": "+516% farming EXP gain from all sources"
+  },
+  {
+   "name": "Biology Boost",
+   "lv": 194,
+   "max": 500,
+   "market": "Day",
+   "maxed": false,
+   "have": 0.0,
+   "cost": 302815191.36041707,
+   "desc": "+2910% chance of crop evolution, or 'next crop' chance"
+  },
+  {
+   "name": "Product Doubler",
+   "lv": 122,
+   "max": 500,
+   "market": "Day",
+   "maxed": false,
+   "have": 2572681.0,
+   "cost": 19373139907.812138,
+   "desc": "+366% chance for crops to be worth 2x when collected"
+  },
+  {
+   "name": "More Beenz",
+   "lv": 92,
+   "max": 500,
+   "market": "Day",
+   "maxed": false,
+   "have": 10473833224.0,
+   "cost": 2711053,
+   "desc": "+184% magic beans gained when trading in crops"
+  },
+  {
+   "name": "Rank Boost",
+   "lv": 73,
+   "max": 500,
+   "market": "Day",
+   "maxed": false,
+   "have": 40000.0,
+   "cost": 5109153,
+   "desc": "Plots earn +219% more Rank XP when a crop is collected"
+  }
+ ],
+ "exotic_left": [
+  2,
+  4
+ ],
  "exotic_next": null,
- "exotic_rotation": [],
- "growth_speed": "271.46x",
- "crop_value": "1,594.00x",
- "vine": "4"
+ "exotic_rotation": [
+  {
+   "name": "Geneology Iii",
+   "lv": 0,
+   "returns": "",
+   "desc": "+0% crop evolution chance per Farming LV above 150",
+   "creator": "Pulse 2026-10: a few levels, it returns rarely"
+  },
+  {
+   "name": "Legumioso I",
+   "lv": 0,
+   "returns": "",
+   "desc": "+0% Extra Beans from Legumulyte",
+   "creator": null
+  },
+  {
+   "name": "Farmer Brain",
+   "lv": 0,
+   "returns": "",
+   "desc": "+0% Farming EXP gain on all characters",
+   "creator": null
+  },
+  {
+   "name": "Evergrow I",
+   "lv": 20,
+   "returns": "",
+   "desc": "1.02x Overgrowth Chance for all crops",
+   "creator": null
+  },
+  {
+   "name": "Double Petal Ii",
+   "lv": 27,
+   "returns": "",
+   "desc": "+1.84% chance for crops to be worth 2x when harvested",
+   "creator": null
+  },
+  {
+   "name": "Sap Surge",
+   "lv": 0,
+   "returns": "",
+   "desc": "0x Amber found in Spelunking @ (Not Farming Related)",
+   "creator": "Pulse 2026-10: strong, ~6th (Spelunking amber)"
+  },
+  {
+   "name": "Exalted Eldou",
+   "lv": 0,
+   "returns": "",
+   "desc": "+0% Exalted Stamp Bonus @ (Not Farming Related)",
+   "creator": null
+  },
+  {
+   "name": "Intelleaf",
+   "lv": 0,
+   "returns": "",
+   "desc": "+0% Class EXP @ (Not Farming Related)",
+   "creator": null
+  }
+ ],
+ "growth_speed": 35645.611890823646,
+ "crop_value": 10000,
+ "vine": 4
 }

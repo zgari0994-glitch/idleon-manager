@@ -53,9 +53,10 @@ def build():
     crops = {int(k): float(v) for k, v in crops.items()}
     upg = d['FarmUpg']; upg = json.loads(upg) if isinstance(upg, str) else upg
     beans = float(upg[1])
-    tb = json.load(open(SNAP / 'toolbox' / 'farming.json'))['tabs']
-    plot = tb['Plot']; bds = {}
-    for b in plot['breakdowns']: bds.setdefault(b['label'].split(' breakdown')[0], b['text'])   # first = open plots
+    # Zack 2026-11-25: Toolbox parser numbers (model/data.py). Evolution-chance breakdown and the Rank Optimizer are website-only.
+    from data import load
+    F = load().system('farming')
+    bds = {}
 
     stacks = {n: sum(1 for v in crops.values() if v >= t) for n, t in STACKS}
     found = len(crops)
@@ -66,7 +67,12 @@ def build():
     gm = re.search(r'Group 1\n\n×([\d.e+-]+)', evo); multi = float(gm.group(1)) if gm else None
     gmo = re.search(r'Evolution GMO \(Market\)\n\n×([\d,.]+)', evo); gmo_x = float(gmo.group(1).replace(',', '')) if gmo else None
     per_stack = 2.13
-    mk = market(tb['Market']['text'])
+    mk = []
+    for i, u in enumerate(F['market']):
+        night = i >= 8   # Toolbox order: 8 day-market upgrades, then the night market
+        have = beans if night else crops.get(int(u.get('cropId') or 0), 0)
+        mk.append({'name': u['name'].replace('_', ' ').title(), 'lv': u['level'], 'max': u['maxLvl'], 'market': 'Night' if night else 'Day', 'maxed': u['level'] >= u['maxLvl'],
+                   'have': have, 'cost': u.get('cost'), 'desc': str(u.get('bonus', '')).replace('_', ' ').replace('{', str(u.get('value', '')))})
     for u in mk:
         if u['name'] == 'Evolution Gmo': per_stack = float(re.search(r'([\d.]+)x', u['desc']).group(1)) if re.search(r'([\d.]+)x', u['desc']) else per_stack
     chance = base * multi if base and multi else None
@@ -81,24 +87,19 @@ def build():
         if v >= 200: fam_need[f][0] += 1
 
     # Rank DB optimizer plan
-    ro = tb['Rank Optimizer']['text']
-    rp = re.search(r'Rank points\n([\d,]+) / ([\d,]+)', plot['text'])
-    unspent = int(rp.group(2).replace(',', '')) - int(rp.group(1).replace(',', '')) if rp else 0
-    plan = [(m.group(1), m.group(2), m.group(3), m.group(4)) for m in
-            re.finditer(r'\n(Evolution [A-Za-z]+|[A-Z][a-z]+ [A-Za-z]+)\nLv ([\d,]+) → ([\d,]+)\nx(\d+)', ro)]
+    unspent = int(F.get('availablePoints') or 0)
+    plan = []
 
     night = [u for u in mk if u['market'] == 'Night' and not u['maxed']]
     day = [u for u in mk if u['market'] == 'Day' and not u['maxed']]
     # Exotic: current rotation + purchases left
-    ex = tb['Exotic Market']['text']
-    pl = re.search(r'Purchases left this week\n(\d+) / (\d+)', ex)
-    cur = re.search(r'Current rotation\nNext in ([^\n]+)\n(.*?)\nOff rotation', ex, re.S)
     rot = []
-    if cur:
-        for m in re.finditer(r'\n?([A-Z0-9][A-Za-z0-9 ]+)\nLv ([\d,]+) · Returns in (\d+w)\nEffect\n[^\n]+\n\n([^\n]+)', '\n' + cur.group(2)):
-            nm = m.group(1).strip()
-            note = next((v for k, v in EXOTIC_SRC.items() if nm.startswith(k)), None)
-            rot.append({'name': nm, 'lv': int(m.group(2).replace(',', '')), 'returns': m.group(3), 'desc': m.group(4), 'creator': note})
+    for x in F['exoticMarket']:
+        if not x.get('isAvailableThisWeek'): continue
+        nm = x['name'].replace('_', ' ').title()
+        note = next((v for k, v in EXOTIC_SRC.items() if nm.lower().startswith(k.lower())), None)
+        rot.append({'name': nm, 'lv': x['level'], 'returns': '', 'desc': str(x.get('displayText', '')).replace('_', ' '), 'creator': note})
+    pl = (int(F['exoticMarkeMaxPurchases']) - int(F['exoticMarketUpgradesPurchased']), int(F['exoticMarkeMaxPurchases']))
     # Night Market buys ranked by gain per share of beans (marginal % of each GMO's own effect, x stacks it applies to)
     st_for = {'Evolution Gmo': 'Evolution GMO', 'Speed Gmo': 'Speed GMO', 'EXP Gmo': 'EXP GMO', 'Value Gmo': 'Value GMO', 'Super Gmo': 'Super GMO'}
     wt = {'Super Gmo': 3, 'Evolution Gmo': 2}   # Pulse 2026-11: Super GMO most important; raise Evolution GMO for deeper crops
@@ -120,11 +121,11 @@ def build():
            'evo_chance': chance, 'evo_gmo_x': gmo_x, 'per_stack': per_stack, 'stacks_for_next_crop': need_stacks,
            'under_200': [{'crop': i, 'family': fam(i)[0], 'have': v} for i, v in under],
            'family_stacks': fam_need, 'rank_unspent': unspent, 'rank_plan': plan,
-           'night': night, 'day': day, 'exotic_left': (int(pl.group(1)), int(pl.group(2))) if pl else None,
-           'exotic_next': cur.group(1) if cur else None, 'exotic_rotation': rot,
-           'growth_speed': (re.search(r'Growth Speed\n([^\n]+)', plot['text']) or [0, ''])[1],
-           'crop_value': (re.search(r'Crop Value\n([^\n]+)', plot['text']) or [0, ''])[1],
-           'vine': (re.search(r'Crops on Vine\n([^\n]+)', plot['text']) or [0, ''])[1]}
+           'night': night, 'day': day, 'exotic_left': pl,
+           'exotic_next': None, 'exotic_rotation': rot,
+           'growth_speed': ((F.get('maxTimes') or [{}])[0].get('breakdown') or {}).get('totalValue'),
+           'crop_value': ((F.get('stats') or {}).get('cropValue') or {}).get('totalValue'),
+           'vine': F.get('cropsOnVine')}
     json.dump(out, open(ROOT / 'model' / 'farming.json', 'w'), indent=1)
     return out
 
