@@ -36,20 +36,19 @@ def _items(s):
 def build():
     ch = json.load(open(SNAP / 'chars.json'))['characters']
     seats = {c['character_name']: c.get('alchemy_job_string') for c in ch}
-    T = json.load(open(SNAP / 'toolbox' / 'alchemy.json'))['tabs']['sigils:_page']['text'].replace('\xa0', ' ') + '\n'
-    speed = float(re.search(r'Sigil speed\n([\d.]+)x', T).group(1))
+    # Zack 2026-11-25: Toolbox parser numbers (model/data.py)
+    from data import load
+    P = load().get('account.alchemy.p2w')
+    speed = P['sigilSpeed'].get('value') or 1
+    ST = {-1: 'Undiscovered', 0: 'Unlocked', 1: 'Boosted', 2: 'Jade', 3: 'Eclectic', 4: 'Ethereal'}
     sig = []
-    for m in re.finditer(r'\n([A-Z][A-Za-z ]+)\n(Unlocked|Boosted|Undiscovered|Jade|Eclectic|Ethereal)\n(?:●\nCharging\n)?\n(.+?)\nProgress\n([\d,]+) / ([\d,]+)', T, re.S):
-        name, state = m.group(1).strip(), m.group(2)
-        cur, goal = int(m.group(4).replace(',', '')), int(m.group(5).replace(',', ''))
-        gives = re.search(r'gives\n([^\n]+)', m.group(3))
-        sig.append({'name': name, 'state': state, 'cur': cur, 'goal': goal, 'hours_1char': round((goal - cur) / speed, 1),
-                    'charging': 'Charging' in m.group(0), 'desc': m.group(3).split('\n')[0][:80], 'next_gives': gives and gives.group(1)})
-    bt = ''
-    try: bt = json.load(open(SNAP / 'toolbox' / 'bubbles.json'))['tabs']['_page']['text']
-    except Exception: pass
-    daily = {k: (re.search(k + r'\n([^\n]+)', bt) or [0, None])[1] for k in ('Kattlekruk levels per day', 'Grind Time levels per day', 'Particle upgrades', 'Upgraded daily')}
-    nmlb = re.search(r'No Bubble Left Behind\n([^\n]+)\n([^\n]+)', bt)
+    for x in P['sigils']:
+        cur, goal = x.get('progress') or 0, x.get('nextCost') or 0
+        sig.append({'name': x['name'].replace('_', ' ').title(), 'state': ST.get(x.get('unlocked'), str(x.get('unlocked'))), 'cur': cur, 'goal': goal,
+                    'hours_1char': round(max(0, goal - cur) / speed, 1) if speed else None, 'charging': bool(x.get('characters')),
+                    'desc': str(x.get('effect', '')).replace('_', ' ')[:80], 'next_gives': None})
+    daily = {}
+    nmlb = None
     ar_tiers = {s: (_ar(s) or {}).get('tier') for s in ('Bubbles', 'Vials', 'Sigils', 'Pay2Win')}
     vials = [x['label'] for g, x in _items(_ar('Vials')) if g.startswith('Vials to max next')]
     bub = [(g, x) for g, x in _items(_ar('Bubbles')) if 'sample-boosting' in g or 'Tier' in g]

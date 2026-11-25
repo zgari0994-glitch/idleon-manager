@@ -51,13 +51,7 @@ def build():
             if alt:
                 sn, sv = max(alt, key=lambda t: t[1])
                 swaps.append({'char': c, 'from': n, 'to': sn, 'sample': sv, 'why': need[sn]}); printed.add(sn)
-    tb = {}
-    try:
-        T = json.load(open(SNAP / 'toolbox' / 'printer.json'))['tabs']['_page']['text']
-        for k in ('Atoms per hour', 'Atom threshold'):
-            m = re.search(k + r'\n([^\n]+)', T); tb[k] = m and m.group(1)
-    except Exception:
-        pass
+    tb = {}   # Zack 2026-11-25: atoms-per-hour / threshold were page-only reads; the Atom planner covers particles now
     # print buffs from AutoReview Sampling sources, closest to done first (Zack: push the close ones before print day)
     close = []
     try:

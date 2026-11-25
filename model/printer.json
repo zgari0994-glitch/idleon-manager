@@ -1,5 +1,5 @@
 {
- "snapshot": "20261121T1741",
+ "snapshot": "20261125T2028",
  "per_char": {
   "Autiszemo": {
    "samples": [
@@ -26,8 +26,8 @@
    ],
    "printing": [
     [
-     "Skelefish",
-     10775060.5153199
+     "Hermit Can",
+     74555121.5579558
     ],
     [
      "Goldfish",
@@ -346,22 +346,22 @@
    "frac": 0.76
   },
   {
-   "label": "Sample It bubble: +9.13/10%",
-   "cur": "127",
+   "label": "Sample It bubble: +9.23/10%",
+   "cur": "133",
    "goal": "200",
-   "frac": 0.64
+   "frac": 0.67
   },
   {
-   "label": "Sailing: Level 4 Gold Relic:2.55x (31/100 days)",
-   "cur": "31",
-   "goal": "100",
-   "frac": 0.31
+   "label": "Sailing: Level 5 Gold Relic:3.10x (35/120 days)",
+   "cur": "35",
+   "goal": "120",
+   "frac": 0.29
   },
   {
-   "label": "Compass: Nomadic-3: Moon of Print: 1.18x (9/100 days)",
-   "cur": "9",
+   "label": "Compass: Nomadic-3: Moon of Print: 1.27x (13/100 days)",
+   "cur": "13",
    "goal": "100",
-   "frac": 0.09
+   "frac": 0.13
   },
   {
    "label": "Arcade Bonus 5: +0/8.04% Sample Size",
@@ -408,19 +408,11 @@
   "Dust Mote": "Multitool Stamp next max raise needs 2.57e+10 (have 1.05e+09)",
   "Cramped Material Pouch": "Matty Bag Stamp next max raise needs 149 (have 0)"
  },
- "swaps": [
-  {
-   "char": "Autiszemo",
-   "from": "Skelefish",
-   "to": "Hermit Can",
-   "sample": 74555121.5579558,
-   "why": "Bugsack Stamp next max raise needs 8.31e+07 (have 3.64e+07)"
-  }
- ],
+ "swaps": [],
  "gold_relic": [
-  31,
-  100,
-  2.55
+  35,
+  120,
+  3.1
  ],
  "x1": {
   "Supreme Wiring (event shop)": [
@@ -432,13 +424,10 @@
    20
   ],
   "Moon of Print (compass)": [
-   9,
+   13,
    100
   ]
  },
- "tb": {
-  "Atoms per hour": "127,169.199",
-  "Atom threshold": "1.05B"
- },
+ "tb": {},
  "doot": true
 }

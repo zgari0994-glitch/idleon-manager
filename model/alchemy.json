@@ -1,5 +1,5 @@
 {
- "snapshot": "20261121T1741",
+ "snapshot": "20261125T2028",
  "seats": {
   "Autiszemo": "Purple",
   "Autistocat": "Green",
@@ -9,263 +9,255 @@
   "Autistacular": "Orange",
   "Autistotle": "Green",
   "Autistomatic": "Yellow",
-  "Autistronaut": "Liquid Nitrogen",
+  "Autistronaut": "Pea Pod",
   "Autistopher": "Orange",
   "Autistachio": "Pea Pod"
  },
- "sigil_speed": 63.69,
+ "sigil_speed": 382.6630617437766,
  "sigils": [
   {
    "name": "Big Muscle",
    "state": "Unlocked",
-   "cur": 2,
+   "cur": 1.54208461844603,
    "goal": 100,
-   "hours_1char": 1.5,
+   "hours_1char": 0.3,
    "charging": false,
-   "desc": "Boosts base STR by +40",
-   "next_gives": "+80"
+   "desc": "Boosts base STR by +{",
+   "next_gives": null
   },
   {
    "name": "Pumped Kicks",
    "state": "Unlocked",
-   "cur": 1,
+   "cur": 0.850754318380251,
    "goal": 150,
-   "hours_1char": 2.3,
+   "hours_1char": 0.4,
    "charging": false,
-   "desc": "Boosts base AGI by +40",
-   "next_gives": "+80"
+   "desc": "Boosts base AGI by +{",
+   "next_gives": null
   },
   {
    "name": "Odd Litearture",
    "state": "Unlocked",
-   "cur": 0,
+   "cur": 0.332565610017827,
    "goal": 200,
-   "hours_1char": 3.1,
+   "hours_1char": 0.5,
    "charging": false,
-   "desc": "Boosts base WIS by +40",
-   "next_gives": "+80"
+   "desc": "Boosts base WIS by +{",
+   "next_gives": null
   },
   {
    "name": "Good Fortune",
    "state": "Unlocked",
-   "cur": 42,
+   "cur": 41.7683869196422,
    "goal": 300,
-   "hours_1char": 4.1,
+   "hours_1char": 0.7,
    "charging": false,
-   "desc": "Boosts base LUK by +40",
-   "next_gives": "+80"
+   "desc": "Boosts base LUK by +{",
+   "next_gives": null
   },
   {
    "name": "Plunging Sword",
    "state": "Unlocked",
-   "cur": 4,
+   "cur": 4.03480996741171,
    "goal": 700,
-   "hours_1char": 10.9,
+   "hours_1char": 1.8,
    "charging": false,
-   "desc": "Boosts base damage by +300",
-   "next_gives": "+900"
+   "desc": "Boosts base damage by +{",
+   "next_gives": null
   },
   {
    "name": "Wizardly Hat",
    "state": "Unlocked",
-   "cur": 53,
+   "cur": 52.9543884687244,
    "goal": 1250,
-   "hours_1char": 18.8,
+   "hours_1char": 3.1,
    "charging": false,
-   "desc": "Boosts Mana Regeneration by +40% both inside and outside of dungeon",
-   "next_gives": "+80%"
+   "desc": "Boosts Mana Regeneration by +{% both inside and outside of dungeon",
+   "next_gives": null
   },
   {
    "name": "Envelope Pile",
    "state": "Unlocked",
-   "cur": 24,
+   "cur": 24.2180196878523,
    "goal": 2500,
-   "hours_1char": 38.9,
+   "hours_1char": 6.5,
    "charging": false,
-   "desc": "Decreases the cost of upgrading stamp MAX LEVELS by -48%",
-   "next_gives": "-100%"
+   "desc": "Decreases the cost of upgrading stamp MAX LEVELS by -{%",
+   "next_gives": null
   },
   {
    "name": "Shiny Beacon",
    "state": "Unlocked",
-   "cur": 2,
+   "cur": 2.23354856204862,
    "goal": 4000,
-   "hours_1char": 62.8,
+   "hours_1char": 10.4,
    "charging": false,
-   "desc": "The first 4 monster kills every day will spawn a Crystal Mob",
-   "next_gives": "8"
+   "desc": "The first { monster kills every day will spawn a Crystal Mob",
+   "next_gives": null
   },
   {
    "name": "Metal Exterior",
    "state": "Unlocked",
-   "cur": 165,
+   "cur": 165.031066454853,
    "goal": 7000,
-   "hours_1char": 107.3,
+   "hours_1char": 17.9,
    "charging": false,
-   "desc": "Boosts defence by nothing. Also gives +24% Class EXP",
-   "next_gives": "+48%"
+   "desc": "Boosts defence by nothing. Also gives +{% Class EXP",
+   "next_gives": null
   },
   {
    "name": "Two Starz",
    "state": "Unlocked",
-   "cur": 26,
+   "cur": 25.8741691976112,
    "goal": 10000,
-   "hours_1char": 156.6,
+   "hours_1char": 26.1,
    "charging": false,
-   "desc": "Gives +40 Star Talent points to spend as you wish",
-   "next_gives": "+100"
+   "desc": "Gives +{ Star Talent points to spend as you wish",
+   "next_gives": null
   },
   {
    "name": "Pipe Gauge",
    "state": "Boosted",
-   "cur": 13739,
+   "cur": 13738.9362997967,
    "goal": 320000,
-   "hours_1char": 4808.6,
+   "hours_1char": 800.3,
    "charging": false,
-   "desc": "Increases the speed of refinery cycles by +80%",
-   "next_gives": "+120%"
+   "desc": "Increases the speed of refinery cycles by +{%",
+   "next_gives": null
   },
   {
    "name": "Trove",
    "state": "Unlocked",
-   "cur": 3397,
+   "cur": 3396.65837415868,
    "goal": 14000,
-   "hours_1char": 166.5,
+   "hours_1char": 27.7,
    "charging": false,
-   "desc": "Boosts drop rate by +40%",
-   "next_gives": "+80%"
+   "desc": "Boosts drop rate by +{%",
+   "next_gives": null
   },
   {
    "name": "Pea Pod",
-   "state": "Unlocked",
-   "cur": 1632,
-   "goal": 15000,
-   "hours_1char": 209.9,
+   "state": "Boosted",
+   "cur": 46246.4247434347,
+   "goal": 420000,
+   "hours_1char": 976.7,
    "charging": true,
-   "desc": "All sigils charge 100% faster than normal",
-   "next_gives": "200%"
+   "desc": "All sigils charge {% faster than normal",
+   "next_gives": null
   },
   {
-   "name": "Tuft of Hair",
+   "name": "Tuft Of Hair",
    "state": "Unlocked",
-   "cur": 314,
+   "cur": 313.901154366412,
    "goal": 25000,
-   "hours_1char": 387.6,
+   "hours_1char": 64.5,
    "charging": false,
-   "desc": "Boosts movement speed by +12% if under 175%",
-   "next_gives": "+24%"
+   "desc": "Boosts movement speed by +{% if under 175%",
+   "next_gives": null
   },
   {
    "name": "Emoji Veggie",
    "state": "Unlocked",
-   "cur": 340,
+   "cur": 340.130573581626,
    "goal": 33000,
-   "hours_1char": 512.8,
+   "hours_1char": 85.3,
    "charging": false,
-   "desc": "Boosts the bonus of all golden food by +40%",
-   "next_gives": "+100%"
+   "desc": "Boosts the bonus of all golden food by +{%",
+   "next_gives": null
   },
   {
-   "name": "VIP Parchment",
+   "name": "Vip Parchment",
    "state": "Unlocked",
-   "cur": 453,
+   "cur": 453.228310143282,
    "goal": 42000,
-   "hours_1char": 652.3,
+   "hours_1char": 108.6,
    "charging": false,
-   "desc": "Boosts VIP Membership in the library by +40%",
-   "next_gives": "+100%"
+   "desc": "Boosts VIP Membership in the library by +{%",
+   "next_gives": null
   },
   {
    "name": "Dream Catcher",
    "state": "Unlocked",
-   "cur": 277,
+   "cur": 277.326988137133,
    "goal": 50000,
-   "hours_1char": 780.7,
+   "hours_1char": 129.9,
    "charging": false,
-   "desc": "Boosts all Skill AFK gain rates by +4%",
-   "next_gives": "+8%"
+   "desc": "Boosts all Skill AFK gain rates by +{%",
+   "next_gives": null
   },
   {
    "name": "Duster Studs",
    "state": "Unlocked",
-   "cur": 394,
+   "cur": 394.04724499696,
    "goal": 60000,
-   "hours_1char": 935.9,
+   "hours_1char": 155.8,
    "charging": false,
-   "desc": "Boosts weapon power by +12",
-   "next_gives": "+28"
+   "desc": "Boosts weapon power by +{",
+   "next_gives": null
   },
   {
    "name": "Garlic Glove",
    "state": "Undiscovered",
-   "cur": 5314,
+   "cur": 5313.79021087288,
    "goal": 9000,
-   "hours_1char": 57.9,
+   "hours_1char": 9.6,
    "charging": false,
-   "desc": "Discover it to see its bonus.",
-   "next_gives": "-60%"
+   "desc": "Decreases the cost of all kitchen upgrades by -{%",
+   "next_gives": null
   },
   {
    "name": "Lab Tesstube",
    "state": "Undiscovered",
    "cur": 0,
    "goal": 12000,
-   "hours_1char": 188.4,
+   "hours_1char": 31.4,
    "charging": false,
-   "desc": "Discover it to see its bonus.",
-   "next_gives": "+32%"
+   "desc": "Boosts Lab EXP gain by +{%",
+   "next_gives": null
   },
   {
    "name": "Peculiar Vial",
    "state": "Undiscovered",
    "cur": 0,
    "goal": 17000,
-   "hours_1char": 266.9,
+   "hours_1char": 44.4,
    "charging": false,
-   "desc": "Discover it to see its bonus.",
-   "next_gives": "+60%"
+   "desc": "Boosts the regeneration rate of all alchemy liquids by +{%",
+   "next_gives": null
   },
   {
    "name": "Loot Pile",
    "state": "Undiscovered",
    "cur": 0,
    "goal": 23000,
-   "hours_1char": 361.1,
+   "hours_1char": 60.1,
    "charging": false,
-   "desc": "Discover it to see its bonus.",
-   "next_gives": "+40%"
+   "desc": "All sailing treasure chests give +{% more treasure!",
+   "next_gives": null
   },
   {
    "name": "Div Spiral",
    "state": "Undiscovered",
    "cur": 0,
    "goal": 26000,
-   "hours_1char": 408.2,
+   "hours_1char": 67.9,
    "charging": false,
-   "desc": "Discover it to see its bonus.",
-   "next_gives": "+40%"
+   "desc": "Boosts Divinity EXP gain by +{%",
+   "next_gives": null
   },
   {
    "name": "Cool Coin",
    "state": "Undiscovered",
    "cur": 0,
    "goal": 30000,
-   "hours_1char": 471.0,
+   "hours_1char": 78.4,
    "charging": false,
-   "desc": "Discover it to see its bonus.",
-   "next_gives": "+80%"
+   "desc": "Boosts Jade Coin gain in Sneaking by +{%",
+   "next_gives": null
   }
  ],
- "daily": {
-  "Kattlekruk levels per day": "23",
-  "Grind Time levels per day": "150",
-  "Particle upgrades": "90",
-  "Upgraded daily": "26 bubbles"
- },
- "nmlb": [
-  "10 bubbles",
-  "+3 to 11 levels each"
- ],
+ "daily": {},
+ "nmlb": null,
  "tiers": {
   "Bubbles": "6/12",
   "Vials": "22/28",
@@ -274,20 +266,20 @@
  },
  "vials_next": [],
  "bubble_targets": [
-  "Dream Of Ironfish 89 -> 170",
-  "Hearty Diggy (Printing!) 873 -> 900",
-  "Stronk Tools 402 -> 630",
-  "Multorange 170 -> 270",
-  "Dream Of Ironfish 89 -> 270",
+  "Dream Of Ironfish 92 -> 170",
+  "Stronk Tools 615 -> 630",
+  "Dream Of Ironfish 92 -> 270",
   "Warriors Rule (Printing!) 451 -> 950",
-  "Multorange 170 -> 570",
-  "Premigreen 73 -> 270",
+  "Multorange 270 -> 570",
+  "Premigreen 77 -> 270",
   "Sanic Tools 142 -> 630",
   "Slabo Critterbug 90 -> 540",
   "Slabo Agility 77 -> 540",
-  "Tome Agility (Printing!) 73 -> 540",
+  "Tome Agility (Printing!) 81 -> 540",
   "Sanic Tools 142 -> 1330",
-  "Fly In Mind 96 -> 760"
+  "Fly In Mind 96 -> 760",
+  "Slabo Critterbug 90 -> 1140",
+  "Slabo Agility 77 -> 1140"
  ],
  "sigil_tier2": []
 }
