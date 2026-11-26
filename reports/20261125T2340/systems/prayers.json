@@ -1,0 +1,678 @@
+{
+ "module": "prayers",
+ "systems": [
+  "prayers"
+ ],
+ "ok": true,
+ "card_lines": [
+  "Print day: Royal Sampler only comes off by clearing samples, so it waits for print day. Pulse uses statue week; Gold Relic is at 35 of 120 days.",
+  "Griffy before print day: book talents first, and the Royal Sampler EXP hit is smaller than it looks.",
+  "Prayer upgrades you can buy without eating into your soul reserve: Zerg Rushogen, Jawbreaker 1/50, Big Brain, Fibers of, Balance of.",
+  "Locked prayers: Ruck Sack needs Acorn Assault wave 111 (best 82); Glitterbug needs Clash of Cans wave 131 (best 70).",
+  "Set each character's prayers to what they're doing today, the cards show each one."
+ ],
+ "char_lines": {
+  "Autiszemo": [
+   "Prayers on: Midas Minded, Skilled Dimwit, The Royal Sampler.",
+   "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP).",
+   "Leave Royal Sampler on until print day."
+  ],
+  "Autistocat": [
+   "Prayers on: Skilled Dimwit, The Royal Sampler.",
+   "giant-monster prayers: remove before the weekly reset so giant-kill quests still count.",
+   "Unending Energy: +Class & Skill EXP, but AFK caps at 10h: only when you claim within 10h.",
+   "Leave Royal Sampler on until print day."
+  ],
+  "Autisticles": [
+   "Prayers on: Skilled Dimwit, The Royal Sampler.",
+   "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP).",
+   "Leave Royal Sampler on until print day."
+  ],
+  "Autistastic": [
+   "Prayers on: Skilled Dimwit, The Royal Sampler, Vacuous Tissue.",
+   "giant-monster prayers: remove before the weekly reset so giant-kill quests still count.",
+   "Leave Royal Sampler on until print day."
+  ],
+  "Autistabish": [
+   "Prayers on: Skilled Dimwit, The Royal Sampler.",
+   "Unending Energy: +Class & Skill EXP, but AFK caps at 10h: only when you claim within 10h.",
+   "Leave Royal Sampler on until print day."
+  ],
+  "Autistacular": [
+   "Prayers on: The Royal Sampler, Shiny Snitch, Skilled Dimwit.",
+   "Skilled Dimwit + Unending Energy: equip while PLACING traps, unequip after (snapshotted).",
+   "Shiny Snitch: only while trapping (bundles of shiny critters; curse lowers shiny chance).",
+   "giant-monster prayers: remove before the weekly reset so giant-kill quests still count.",
+   "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP).",
+   "Skilled Dimwit doesn't fit a fighting job, swap it.",
+   "Leave Royal Sampler on until print day."
+  ],
+  "Autistotle": [
+   "Prayers on: The Royal Sampler, Skilled Dimwit.",
+   "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP).",
+   "Leave Royal Sampler on until print day."
+  ],
+  "Autistomatic": [
+   "Prayers on: Skilled Dimwit, The Royal Sampler.",
+   "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP).",
+   "Leave Royal Sampler on until print day."
+  ],
+  "Autistronaut": [
+   "Prayers on: The Royal Sampler, Skilled Dimwit.",
+   "Leave Royal Sampler on until print day."
+  ],
+  "Autistopher": [
+   "Prayers on: Skilled Dimwit, Balance of Precision, The Royal Sampler.",
+   "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP).",
+   "Leave Royal Sampler on until print day."
+  ],
+  "Autistachio": [
+   "Prayers on: none.",
+   "Skilled Dimwit + Unending Energy: equip while PLACING traps, unequip after (snapshotted).",
+   "Shiny Snitch: only while trapping (bundles of shiny critters; curse lowers shiny chance)."
+  ]
+ },
+ "routed": {},
+ "build": {
+  "snapshot": "20261125T2340",
+  "souls": {
+   "Forest Soul": 100689047,
+   "Dune Soul": 5442136,
+   "Rooted Soul": 4736302,
+   "Frigid Soul": 4122097,
+   "Squishy Soul": 583399
+  },
+  "prayers": [
+   {
+    "name": "Big Brain Time",
+    "lv": 1,
+    "max": 50,
+    "maxed": false,
+    "bonus": "+{% Class EXP",
+    "curse": "+{% Max HP for all monsters",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 500,
+    "soul": "Forest Soul",
+    "unlock": "Wave 10 in Goblin Gorefest",
+    "wave_need": 10,
+    "totem": "Goblin Gorefest",
+    "wave_now": 190,
+    "locked": false
+   },
+   {
+    "name": "Skilled Dimwit",
+    "lv": 50,
+    "max": 50,
+    "maxed": true,
+    "bonus": "+{% Skill Efficiency",
+    "curse": "-{% Skill EXP Gain",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 2632001,
+    "soul": "Forest Soul",
+    "unlock": "Wave 25 in Goblin Gorefest",
+    "wave_need": 25,
+    "totem": "Goblin Gorefest",
+    "wave_now": 190,
+    "locked": false
+   },
+   {
+    "name": "Unending Energy",
+    "lv": 40,
+    "max": 50,
+    "maxed": false,
+    "bonus": "+{% Class and Skill EXP",
+    "curse": "Max AFK time is now 10 hours. Use with caution",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 1425590,
+    "soul": "Forest Soul",
+    "unlock": "Wave 51 in Goblin Gorefest",
+    "wave_need": 51,
+    "totem": "Goblin Gorefest",
+    "wave_now": 190,
+    "locked": false
+   },
+   {
+    "name": "Shiny Snitch",
+    "lv": 50,
+    "max": 50,
+    "maxed": true,
+    "bonus": "Shiny Critters drop in bundles of { instead of 1.",
+    "curse": "Your Shiny chance is now x{ lower.",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 9593275,
+    "soul": "Forest Soul",
+    "unlock": "Wave 81 in Goblin Gorefest",
+    "wave_need": 81,
+    "totem": "Goblin Gorefest",
+    "wave_now": 190,
+    "locked": false
+   },
+   {
+    "name": "Zerg Rushogen",
+    "lv": 1,
+    "max": 20,
+    "maxed": false,
+    "bonus": "+{% AFK Gain Rate",
+    "curse": "-{% Carry Capacity",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 15480,
+    "soul": "Forest Soul",
+    "unlock": "Wave 121 in Goblin Gorefest",
+    "wave_need": 121,
+    "totem": "Goblin Gorefest",
+    "wave_now": 190,
+    "locked": false
+   },
+   {
+    "name": "Tachion of the Titans",
+    "lv": 2,
+    "max": 2,
+    "maxed": true,
+    "bonus": "Giant Monsters can now spawn on Monster Kill",
+    "curse": "Giant Monsters can now spawn...",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 940,
+    "soul": "Dune Soul",
+    "unlock": "Wave 11 in Wakawaka War",
+    "wave_need": 11,
+    "totem": "Wakawaka War",
+    "wave_now": 161,
+    "locked": false
+   },
+   {
+    "name": "Balance of Precision",
+    "lv": 3,
+    "max": 50,
+    "maxed": false,
+    "bonus": "+{% Total Accuracy",
+    "curse": "-{% Total Damage",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 3430,
+    "soul": "Dune Soul",
+    "unlock": "Wave 31 in Wakawaka War",
+    "wave_need": 31,
+    "totem": "Wakawaka War",
+    "wave_now": 161,
+    "locked": false
+   },
+   {
+    "name": "Midas Minded",
+    "lv": 35,
+    "max": 50,
+    "maxed": false,
+    "bonus": "+{% Drop Rate",
+    "curse": "+{% Max HP for all monsters",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 1011896,
+    "soul": "Dune Soul",
+    "unlock": "Wave 71 in Wakawaka War",
+    "wave_need": 71,
+    "totem": "Wakawaka War",
+    "wave_now": 161,
+    "locked": false
+   },
+   {
+    "name": "Jawbreaker",
+    "lv": 1,
+    "max": 50,
+    "maxed": false,
+    "bonus": "+{% Coins from Monsters",
+    "curse": "+{% Max HP for all monsters",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 7980,
+    "soul": "Dune Soul",
+    "unlock": "Wave 101 in Wakawaka War",
+    "wave_need": 101,
+    "totem": "Wakawaka War",
+    "wave_now": 161,
+    "locked": false
+   },
+   {
+    "name": "The Royal Sampler",
+    "lv": 20,
+    "max": 20,
+    "maxed": true,
+    "bonus": "+{% 3d Printer Sample Size",
+    "curse": "-{% All Exp Gain. Remove all samples to Unequip.",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 255929,
+    "soul": "Rooted Soul",
+    "unlock": "Wave 21 in Acorn Assault",
+    "wave_need": 21,
+    "totem": "Acorn Assault",
+    "wave_now": 82,
+    "locked": false
+   },
+   {
+    "name": "Antifun Spirit",
+    "lv": 1,
+    "max": 10,
+    "maxed": false,
+    "bonus": "+{% Minigame Reward Multi",
+    "curse": "Minigames cost { plays per attempt.",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 3240,
+    "soul": "Rooted Soul",
+    "unlock": "Wave 41 in Acorn Assault",
+    "wave_need": 41,
+    "totem": "Acorn Assault",
+    "wave_now": 82,
+    "locked": false
+   },
+   {
+    "name": "Circular Criticals",
+    "lv": 1,
+    "max": 20,
+    "maxed": false,
+    "bonus": "+{% Critical Hit Chance",
+    "curse": "-{% Critical Damage",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 10880,
+    "soul": "Rooted Soul",
+    "unlock": "Wave 71 in Acorn Assault",
+    "wave_need": 71,
+    "totem": "Acorn Assault",
+    "wave_now": 82,
+    "locked": false
+   },
+   {
+    "name": "Ruck Sack",
+    "lv": 0,
+    "max": 50,
+    "maxed": false,
+    "bonus": "+{% Carry Capacity",
+    "curse": "-{% AFK Gain Rate",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 4500,
+    "soul": "Rooted Soul",
+    "unlock": "Wave 111 in Acorn Assault",
+    "wave_need": 111,
+    "totem": "Acorn Assault",
+    "wave_now": 82,
+    "locked": true
+   },
+   {
+    "name": "Fibers of Absence",
+    "lv": 1,
+    "max": 50,
+    "maxed": false,
+    "bonus": "+{% Kills for Deathnote and opening portals",
+    "curse": "-{% Total Damage",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 552,
+    "soul": "Frigid Soul",
+    "unlock": "Wave 21 in Frosty Firefight",
+    "wave_need": 21,
+    "totem": "Frosty Firefight",
+    "wave_now": 170,
+    "locked": false
+   },
+   {
+    "name": "Vacuous Tissue",
+    "lv": 1,
+    "max": 1,
+    "maxed": true,
+    "bonus": "+100% Dungeon Credits and Flurbos",
+    "curse": "Use 2x Dungeon Passes per run.",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 56,
+    "soul": "Frigid Soul",
+    "unlock": "Wave 51 in Frosty Firefight",
+    "wave_need": 51,
+    "totem": "Frosty Firefight",
+    "wave_now": 170,
+    "locked": false
+   },
+   {
+    "name": "Beefy For Real",
+    "lv": 1,
+    "max": 40,
+    "maxed": false,
+    "bonus": "+{% Total Damage",
+    "curse": "-{% Total Defence and Accuracy",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 28000,
+    "soul": "Frigid Soul",
+    "unlock": "Wave 121 in Frosty Firefight",
+    "wave_need": 121,
+    "totem": "Frosty Firefight",
+    "wave_now": 170,
+    "locked": false
+   },
+   {
+    "name": "Balance of Pain",
+    "lv": 30,
+    "max": 30,
+    "maxed": true,
+    "bonus": "+{% Multikill per Damage Tier",
+    "curse": "-{% Total Defence and Accuracy",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 93500,
+    "soul": "Squishy Soul",
+    "unlock": "Wave 21 in Clash of Cans",
+    "wave_need": 21,
+    "totem": "Clash of Cans",
+    "wave_now": 70,
+    "locked": false
+   },
+   {
+    "name": "Balance of Proficiency",
+    "lv": 1,
+    "max": 50,
+    "maxed": false,
+    "bonus": "+{% Skill EXP Gain",
+    "curse": "-{% Skill Efficiency",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 5680,
+    "soul": "Squishy Soul",
+    "unlock": "Wave 51 in Clash of Cans",
+    "wave_need": 51,
+    "totem": "Clash of Cans",
+    "wave_now": 70,
+    "locked": false
+   },
+   {
+    "name": "Glitterbug",
+    "lv": 0,
+    "max": 30,
+    "maxed": false,
+    "bonus": "+{% chance for Giant Mobs to summon 2 Crystal Mobs",
+    "curse": "Giant Mobs are {% less likely to spawn.",
+    "equipped_by": [],
+    "to_max": null,
+    "next": 7000,
+    "soul": "Squishy Soul",
+    "unlock": "Wave 131 in Clash of Cans",
+    "wave_need": 131,
+    "totem": "Clash of Cans",
+    "wave_now": 70,
+    "locked": true
+   }
+  ],
+  "tasks": {
+   "Autiszemo": "ZOW/CHOW targets W1-W6 (Death Note kills) Farming Cooking Grimoire + Wraith Form (bones) Fish prints ZOWs + CHOWs W1-W6 crayon_crops",
+   "Autistocat": "Active-first class (master class progress is active-only without its AFK mechanic). Runs Cranium Cooking active; plain AFK spot = GAP Alchemy Lab Summoning Tesseract Emperor showdowns Kilroy (weekly, mage line) cranium",
+   "Autisticles": "His best kills/hr map: Melting Every Day turns AFK kills into forge progress (bars). Feeds Copper Bar 1B shortage. Exact map = GAP Sailing Bug prints Statue turn-ins (farmed by others) Luminous Menagerie (own intervention) W7 minis",
+   "Autistastic": "Cavern 15 Temple (Ancient Golems): Dragon Statue 4 -> 150 + golem card Construction Gaming Royal Guardian #1 (top unlock) Islands Godshard set World bosses + minibosses (DK drop rate) Statue: Dragon (AFK golems) Kilroy (weekly, warrior line)",
+   "Autistabish": "Penguins (Box Statue 25 -> 40), then Cryosnakes (Seesaw 25 -> 40). Candy or Active ES Worship: souls (town) Divinity The Hole (all 15 caverns + villagers) Slab Statues: ES (Box, Seesaw)",
+   "Autistacular": "W7: push the cave until his tasks are planned Sneaking Breeding Trapping (collect + set) Compass Worship totems (waves) Kilroy (weekly, archer line) compass_nomadic breeding_ww",
+   "Autistotle": "Lab (Maestro Lab catch-up) Secret Class Path (Vman) Maestro: #1 in every skill Research Greenstacks Gem / Event shops + votes greenstacks observations",
+   "Autistomatic": "W7 Spelunking: furthest tunnel (RG perks help spelunking; Pulse: Pit of Pages works for RGs) Construction #2 Ore prints Statues: DK crystals Money Royal Guardian #2 Spelunking dk_crystals",
+   "Autistronaut": "AFK spot = GAP (was spelunking; moved to Autistomatic 11/18) Cards Log prints Lab #2",
+   "Autistopher": "His own Super CHOWs (100M) Super CHOWs (cooking speed 1.1x each, count only on him) Stamps Upgrade Vault Equinox Salt Lick Library (account-wide) Achievements Clickers: Owl, Bubba, Poppy (all three) Tome (account-wide) Maintenance (maxed tiers): Bribes, Rift, Star Signs achievements",
+   "Autistachio": "Divinity (Divinity slippers) Divinity to 40 Monuments (after Divinity) Traps Gallery + capes W7 reef"
+  },
+  "equipped": {
+   "Autiszemo": [
+    "Midas Minded",
+    "Skilled Dimwit",
+    "The Royal Sampler"
+   ],
+   "Autistocat": [
+    "Skilled Dimwit",
+    "The Royal Sampler"
+   ],
+   "Autisticles": [
+    "Skilled Dimwit",
+    "The Royal Sampler"
+   ],
+   "Autistastic": [
+    "Skilled Dimwit",
+    "The Royal Sampler",
+    "Vacuous Tissue"
+   ],
+   "Autistabish": [
+    "Skilled Dimwit",
+    "The Royal Sampler"
+   ],
+   "Autistacular": [
+    "The Royal Sampler",
+    "Shiny Snitch",
+    "Skilled Dimwit"
+   ],
+   "Autistotle": [
+    "The Royal Sampler",
+    "Skilled Dimwit"
+   ],
+   "Autistomatic": [
+    "Skilled Dimwit",
+    "The Royal Sampler"
+   ],
+   "Autistronaut": [
+    "The Royal Sampler",
+    "Skilled Dimwit"
+   ],
+   "Autistopher": [
+    "Skilled Dimwit",
+    "Balance of Precision",
+    "The Royal Sampler"
+   ],
+   "Autistachio": []
+  },
+  "ranked": {
+   "Forest Soul": [
+    {
+     "item": "Big Brain Time 1/50",
+     "currency": "Forest Soul",
+     "balance": 100689047,
+     "cost": 500,
+     "gain_pct": null,
+     "stat": "+{% Class EXP",
+     "weight": 1,
+     "note": "AutoReview 1 -> 50",
+     "share": 4.965783418329503e-06,
+     "afford": true,
+     "score": null
+    },
+    {
+     "item": "Zerg Rushogen 1/20",
+     "currency": "Forest Soul",
+     "balance": 100689047,
+     "cost": 15480,
+     "gain_pct": null,
+     "stat": "+{% AFK Gain Rate",
+     "weight": 2,
+     "note": "AutoReview 1 -> 20",
+     "share": 0.0001537406546314814,
+     "afford": true,
+     "score": null
+    },
+    {
+     "item": "Unending Energy 40/50",
+     "currency": "Forest Soul",
+     "balance": 100689047,
+     "cost": 1425590,
+     "gain_pct": null,
+     "stat": "+{% Class and Skill EXP",
+     "weight": 1,
+     "note": "AutoReview 40 -> 50",
+     "share": 0.014158342366672712,
+     "afford": true,
+     "score": null
+    }
+   ],
+   "Dune Soul": [
+    {
+     "item": "Balance of Precision 3/50",
+     "currency": "Dune Soul",
+     "balance": 5442136,
+     "cost": 3430,
+     "gain_pct": null,
+     "stat": "+{% Total Accuracy",
+     "weight": 1,
+     "note": "",
+     "share": 0.0006302672333069222,
+     "afford": true,
+     "score": null
+    },
+    {
+     "item": "Jawbreaker 1/50",
+     "currency": "Dune Soul",
+     "balance": 5442136,
+     "cost": 7980,
+     "gain_pct": null,
+     "stat": "+{% Coins from Monsters",
+     "weight": 2,
+     "note": "AutoReview 1 -> 50",
+     "share": 0.0014663360121834515,
+     "afford": true,
+     "score": null
+    },
+    {
+     "item": "Midas Minded 35/50",
+     "currency": "Dune Soul",
+     "balance": 5442136,
+     "cost": 1011896,
+     "gain_pct": null,
+     "stat": "+{% Drop Rate",
+     "weight": 2,
+     "note": "AutoReview 35 -> 50",
+     "share": 0.1859372863890208,
+     "afford": true,
+     "score": null
+    }
+   ],
+   "Rooted Soul": [
+    {
+     "item": "Antifun Spirit 1/10",
+     "currency": "Rooted Soul",
+     "balance": 4736302,
+     "cost": 3240,
+     "gain_pct": null,
+     "stat": "+{% Minigame Reward Multi",
+     "weight": 1,
+     "note": "",
+     "share": 0.000684078000093744,
+     "afford": true,
+     "score": null
+    },
+    {
+     "item": "Circular Criticals 1/20",
+     "currency": "Rooted Soul",
+     "balance": 4736302,
+     "cost": 10880,
+     "gain_pct": null,
+     "stat": "+{% Critical Hit Chance",
+     "weight": 1,
+     "note": "",
+     "share": 0.0022971508151296096,
+     "afford": true,
+     "score": null
+    }
+   ],
+   "Frigid Soul": [
+    {
+     "item": "Fibers of Absence 1/50",
+     "currency": "Frigid Soul",
+     "balance": 4122097,
+     "cost": 552,
+     "gain_pct": null,
+     "stat": "+{% Kills for Deathnote and opening port",
+     "weight": 1,
+     "note": "AutoReview 1 -> 50",
+     "share": 0.00013391242370084934,
+     "afford": true,
+     "score": null
+    },
+    {
+     "item": "Beefy For Real 1/40",
+     "currency": "Frigid Soul",
+     "balance": 4122097,
+     "cost": 28000,
+     "gain_pct": null,
+     "stat": "+{% Total Damage",
+     "weight": 1,
+     "note": "AutoReview 1 -> 40",
+     "share": 0.0067926591732314886,
+     "afford": true,
+     "score": null
+    }
+   ],
+   "Squishy Soul": [
+    {
+     "item": "Balance of Proficiency 1/50",
+     "currency": "Squishy Soul",
+     "balance": 583399,
+     "cost": 5680,
+     "gain_pct": null,
+     "stat": "+{% Skill EXP Gain",
+     "weight": 1,
+     "note": "",
+     "share": 0.00973604685643959,
+     "afford": true,
+     "score": null
+    }
+   ]
+  },
+  "targets": {
+   "Midas Minded": [
+    "35",
+    "50",
+    "Recommended Prayers"
+   ],
+   "Zerg Rushogen": [
+    "1",
+    "20",
+    "Recommended Prayers"
+   ],
+   "Jawbreaker": [
+    "1",
+    "50",
+    "Recommended Prayers"
+   ],
+   "Ruck Sack": [
+    "0",
+    "50",
+    "Recommended Prayers"
+   ],
+   "Unending Energy": [
+    "40",
+    "50",
+    "Situational Prayers you may consider leveling"
+   ],
+   "Big Brain Time": [
+    "1",
+    "50",
+    "Situational Prayers you may consider leveling"
+   ],
+   "Fibers of Absence": [
+    "1",
+    "50",
+    "Situational Prayers you may consider leveling"
+   ],
+   "Beefy For Real": [
+    "1",
+    "40",
+    "Situational Prayers you may consider leveling"
+   ],
+   "Glitterbug": [
+    "0",
+    "25",
+    "Situational Prayers you may consider leveling"
+   ]
+  },
+  "gold_relic": [
+   35,
+   120,
+   3.1
+  ]
+ }
+}

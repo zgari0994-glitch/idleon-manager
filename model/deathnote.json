@@ -1,7 +1,7 @@
 {
- "snapshot": "20261125T2228",
+ "snapshot": "20261125T2340",
  "cur": {
-  "at": "2026-11-25T22:28:54.034000Z",
+  "at": "2026-11-25T23:40:49.684000Z",
   "kills": {
    "Green Mushroom": [
     "World 1",
@@ -209,11 +209,11 @@
    ],
    "Flombeige": [
     "World 4",
-    1205994487.0295315
+    1208416140.1366997
    ],
    "Stilted Seeker": [
     "World 4",
-    3822077409.807453
+    4025619204.060172
    ],
    "Suggma": [
     "World 5",
@@ -345,7 +345,7 @@
    ],
    "Noble Clam": [
     "World 7",
-    47952933.51690786
+    47971496.80787286
    ],
    "Litterfish": [
     "World 7",
@@ -361,7 +361,7 @@
    ],
    "Spearfish": [
     "World 7",
-    5102771676.698265
+    5103125143.742113
    ],
    "Coralcave Crab": [
     "World 7",
@@ -381,7 +381,7 @@
    ],
    "Pirate Underling": [
     "World 7",
-    401266120.71434295
+    401373470.543916
    ],
    "Pirate Deckhand": [
     "World 7",
@@ -425,7 +425,7 @@
    ],
    "Dr Defecaus": [
     "miniBosses",
-    26
+    27
    ],
    "Baba Yaga": [
     "miniBosses",
@@ -463,7 +463,7 @@
   "multi": {},
   "eclipse": null
  },
- "prev_at": "2026-11-25T20:28:24.034000Z",
+ "prev_at": "2026-11-25T22:28:54.034000Z",
  "groups": [
   {
    "name": "Complete a minimum of Eclipse Skull (1B) in W4",
@@ -725,12 +725,6 @@
    "tier": "24",
    "items": [
     {
-     "label": "Noble Clam in The Clamworks (100K remaining)",
-     "cur": "0%",
-     "goal": "100%",
-     "optional": true
-    },
-    {
      "label": "Spearfish in Pinpoint Summit (100K remaining)",
      "cur": "0%",
      "goal": "100%",
@@ -785,6 +779,12 @@
      "optional": true
     },
     {
+     "label": "Noble Clam in The Clamworks (81K remaining)",
+     "cur": "19%",
+     "goal": "100%",
+     "optional": true
+    },
+    {
      "label": "Nutto in The Roots (100K remaining)",
      "cur": "0%",
      "goal": "100%",
@@ -802,12 +802,6 @@
    "name": "You could complete 12 more CHOWs with Autiszemo (96/108)",
    "tier": "24",
    "items": [
-    {
-     "label": "Noble Clam in The Clamworks (1M remaining)",
-     "cur": "0%",
-     "goal": "100%",
-     "optional": true
-    },
     {
      "label": "Spearfish in Pinpoint Summit (1M remaining)",
      "cur": "0%",
@@ -863,20 +857,26 @@
      "optional": true
     },
     {
+     "label": "Noble Clam in The Clamworks (981K remaining)",
+     "cur": "2%",
+     "goal": "100%",
+     "optional": true
+    },
+    {
      "label": "Nutto in The Roots (1M remaining)",
      "cur": "0%",
      "goal": "100%",
      "optional": true
     },
     {
-     "label": "Boops in Meel's Crypt (881K remaining)",
-     "cur": "12%",
+     "label": "Green Mushroom in Mummy Memorial (864K remaining)",
+     "cur": "14%",
      "goal": "100%",
      "optional": true
     },
     {
-     "label": "Green Mushroom in Mummy Memorial (864K remaining)",
-     "cur": "14%",
+     "label": "Boops in Meel's Crypt (83K remaining)",
+     "cur": "92%",
      "goal": "100%",
      "optional": true
     },
@@ -1852,17 +1852,17 @@
     {
      "label": "Poops in The Office",
      "cur": "",
-     "goal": "31,160,214"
+     "goal": "31,452,645"
+    },
+    {
+     "label": "Boops in Meel's Crypt",
+     "cur": "",
+     "goal": "916,648"
     },
     {
      "label": "Green Mushroom in Mummy Memorial",
      "cur": "",
      "goal": "135,865"
-    },
-    {
-     "label": "Boops in Meel's Crypt",
-     "cur": "",
-     "goal": "119,110"
     },
     {
      "label": "Nutto in The Roots",
@@ -2282,7 +2282,7 @@
     {
      "label": "Demonblub in Middle of Nowhere",
      "cur": "",
-     "goal": "534,679,011"
+     "goal": "535,032,478"
     },
     {
      "label": "Litterfish in Plastic Basin",
@@ -2302,7 +2302,7 @@
     {
      "label": "Pirate Underling in Pirate Upper Deck",
      "cur": "",
-     "goal": "112,423,442"
+     "goal": "112,530,791"
     },
     {
      "label": "Doodlefish in Doodle Reef",
@@ -2347,7 +2347,7 @@
     {
      "label": "Noble Clam in The Clamworks",
      "cur": "",
-     "goal": "0"
+     "goal": "18,563"
     },
     {
      "label": "Spearfish in Pinpoint Summit",
@@ -2955,13 +2955,11 @@
  ],
  "ar_tier": "16/23",
  "rate": {
-  "Flombeige": 1.1871464519579876e-07,
-  "Stilted Seeker": 93667284.64730339,
-  "Citringe": 1.1871464519579876e-07,
-  "Coralcave Crab": 9990135.435684647,
-  "Coralcave Guardian": 12879829.543568445,
-  "Boomy Mine": 26465.817846988495,
-  "Pirate Underling": 69905.73129857724,
-  "Jellofish": 3550646.141078838
+  "Flombeige": 2020078.3626581193,
+  "Stilted Seeker": 169789130.09854558,
+  "Noble Clam": 15485.001673906343,
+  "Spearfish": 294852.77023227926,
+  "Pirate Underling": 89548.36153602051,
+  "Dr Defecaus": 0.8341732995029719
  }
 }

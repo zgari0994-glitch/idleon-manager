@@ -1,0 +1,212 @@
+{
+ "module": "reef",
+ "systems": [
+  "coral_reef",
+  "dancing_coral",
+  "coral_kid"
+ ],
+ "ok": true,
+ "card_lines": [
+  "TOP: spend coral on all 3 Reef upgrades (334 of your 749).",
+  "Dancing Coral bonuses start when Woodular Shrine reaches 201 (now 209) and Isaccian Shrine reaches 201 (now 181) and Crystal Shrine reaches 201 (now 100) and Pantheon Shrine reaches 201 (now 100) and Clover Shrine reaches 201 (now 100) and Summereading Shrine reaches 201 (now 100) and Crescent Shrine reaches 201 (now 102) and Undead Shrine reaches 201 (now 72) and Primordial Shrine reaches 201 (now 70). Autistastic levels the shrines."
+ ],
+ "char_lines": {},
+ "routed": {
+  "Autistastic": [
+   "Level Isaccian Shrine from 181 to 201 to start Autistachio's Vibrant Coral bonus.",
+   "Level Crystal Shrine from 100 to 201 to start Autistachio's Glowing Coral bonus.",
+   "Level Pantheon Shrine from 100 to 201 to start Autistachio's Char Coral bonus."
+  ]
+ },
+ "build": {
+  "coral": 749.406772709879,
+  "ups": [
+   [
+    "Every day you play, your Grind Time bubble gets +150 LVs",
+    15,
+    1000000000,
+    284.2170943040401
+   ],
+   [
+    "Instantly gives +0 Shells for the Luminous Menagerie!",
+    0,
+    1000000000,
+    5000
+   ],
+   [
+    "Adds a new bonus to your Tome's Epilogue in World 4, which goes up with your Tome Score!",
+    7,
+    1000000000,
+    753.9761352539062
+   ],
+   [
+    "Adds a new mini 'Ninja Knowledge' upgrade, level it up with your Jade!",
+    11,
+    1000000000,
+    2467.8762946155657
+   ],
+   [
+    "The Gallery gives +0% higher bonuses, @ and has +0 more slots for Trophies",
+    0,
+    1000000000,
+    40
+   ],
+   [
+    "Blue...",
+    0,
+    1000000000,
+    10
+   ]
+  ],
+  "dance": [
+   [
+    "Reef Coral",
+    "+2% Daily Reef Coral",
+    "Woodular Shrine",
+    "209",
+    "Generated Daily in Town",
+    "201"
+   ],
+   [
+    "Vibrant Coral",
+    "+5% Spelunking POW",
+    "Isaccian Shrine",
+    "181",
+    "Dropped by Shellslugs",
+    "201"
+   ],
+   [
+    "Glowing Coral",
+    "+3% Spelunking Amber gain",
+    "Crystal Shrine",
+    "100",
+    "Dropped by Litterfish",
+    "201"
+   ],
+   [
+    "Char Coral",
+    "1.04x Class EXP gain",
+    "Pantheon Shrine",
+    "100",
+    "Dropped by Coralcave Crab",
+    "201"
+   ],
+   [
+    "Neon Coral",
+    "+3% Research EXP",
+    "Clover Shrine",
+    "100",
+    "Dropped by Eggroll",
+    "201"
+   ],
+   [
+    "Aegean Coral",
+    "+5% Minehead DMG & Money",
+    "Summereading Shrine",
+    "100",
+    "Dropped by Ancientfish",
+    "201"
+   ],
+   [
+    "Gilded Coral",
+    "+1% Lumi Gains",
+    "Crescent Shrine",
+    "102",
+    "Dropped by Magni Pufferfin",
+    "201"
+   ],
+   [
+    "Twisted Coral",
+    "+1% who knows",
+    "Undead Shrine",
+    "72",
+    "Dropped by RIPtide",
+    "201"
+   ],
+   [
+    "Eternal Coral",
+    "+1% who knows",
+    "Primordial Shrine",
+    "70",
+    "Dropped by RIPtide",
+    "201"
+   ]
+  ],
+  "daily": 98.93353282442749,
+  "coral_kid": [
+   [
+    "Lets you click the volcano, linking the divinity of your choice to ALL",
+    2,
+    12100000.000000002,
+    0
+   ],
+   [
+    "The Max Level of the ''Blessing'' upgrade for each @ Divinity is +4 le",
+    2,
+    93750000,
+    600
+   ],
+   [
+    "God Rank now also gives 1.00x Class EXP to all players! @ Total Bonus:",
+    0,
+    360000000,
+    900
+   ],
+   [
+    "Divinity Skill Lv boosts Minor Link Bonuses a bit more! @ (Your Divini",
+    0,
+    2160000000,
+    1200
+   ],
+   [
+    "Boosts Divinity PTS gain by +0% per Coral Reef upgrade! Total Bonus:+0",
+    0,
+    12960000000,
+    1500
+   ],
+   [
+    "You now generate 0% more Daily Coral for the Coral Reef back in W7 tow",
+    0,
+    77760000000,
+    1750
+   ],
+   [
+    "You can Transmute Divinity PTS into Singularity Spirals! Get Time Elap",
+    0,
+    1,
+    500
+   ],
+   [
+    "The base value of the Transmute, which is based on how many Divinity P",
+    0,
+    9,
+    3000
+   ],
+   [
+    "Your Divinity EXP gain for all characters is boosted by a staggering 1",
+    0,
+    121,
+    5000
+   ],
+   [
+    "You now get Time Elapsed when claiming any AFK Gains, not just from Di",
+    0,
+    2197,
+    8000
+   ],
+   [
+    "Boosts your Lumi hourly gain over at the Luminous Menagerie by a massi",
+    0,
+    28561,
+    10000
+   ],
+   [
+    "Each God Rank above 25 now also gives 1.00x DMG to all players! Total ",
+    0,
+    759375,
+    12000
+   ]
+  ],
+  "snapshot": "20261125T2340"
+ }
+}

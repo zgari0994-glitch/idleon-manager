@@ -1,0 +1,527 @@
+{
+ "module": "armor",
+ "systems": [
+  "armor_sets"
+ ],
+ "ok": true,
+ "card_lines": [
+  "15 of 19 armor sets done.",
+  "Godshard set (12 / 14 parts) gives 1.15x Higher Winners Bonuses from Summoning. Still need Doublestring Godshooter, Magnifique Godcaster.",
+  "Secret set (4 / 5 parts) gives 1.25x Gold Food effect. Still need Vman Nametag.",
+  "Emperor set (3 / 7 parts) gives ribbons and Exalted Stamps give 1.20x more multi. Still need Emperor Kabuto, Emperor Sokutai Ho, Emperor Zubon and 1 more.",
+  "Prehistoric set (0 / 14 parts) gives 2.00x EXP Gain in all World 7 Skills. Still need Prehistoric Battlehair, Prehistoric Parka, Prehistoric Pantaloons and 11 more."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "done": [
+   15,
+   19
+  ],
+  "sets": [
+   {
+    "set": "Secret set",
+    "bonus": "1.25x Gold Food effect",
+    "parts": "4 / 5",
+    "done": false
+   },
+   {
+    "set": "Godshard set",
+    "bonus": "1.15x Higher Winners Bonuses from Summoning",
+    "parts": "12 / 14",
+    "done": false
+   },
+   {
+    "set": "Emperor set",
+    "bonus": "Ribbons and Exalted Stamps give 1.20x more multi",
+    "parts": "3 / 7",
+    "done": false
+   },
+   {
+    "set": "Prehistoric set",
+    "bonus": "2.00x EXP Gain in all World 7 Skills",
+    "parts": "0 / 14",
+    "done": false
+   }
+  ],
+  "ar_tier": "4/6",
+  "ar": [
+   {
+    "group": "Progression Tiers",
+    "tab": "To reach Tier 5",
+    "label": "Complete the Godshard Set: 1.00x Higher Winners Bonuses from Summoning",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Progression Tiers",
+    "tab": "To reach Tier 6",
+    "label": "Complete the Emperor Set: Ribbons and Exalted Stamps give 1.00x more multi",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Progression Tiers",
+    "tab": "To reach Tier 6",
+    "label": "Complete the Prehistoric Set: 1.00x EXP Gain in all World 7 Skills",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Progression Tiers",
+    "tab": "To reach Optional Tier 7",
+    "label": "Complete the Secret Set: 1.00x Gold Food effect",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Godshard Set requirements",
+    "tab": "Required Armor: 4/4",
+    "label": "Crown of the Gods",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Godshard Set requirements",
+    "tab": "Required Armor: 4/4",
+    "label": "Robe of the Gods",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Godshard Set requirements",
+    "tab": "Required Armor: 4/4",
+    "label": "Tatters of the Gods",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Godshard Set requirements",
+    "tab": "Required Armor: 4/4",
+    "label": "Drip of the Gods",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Godshard Set requirements",
+    "tab": "Required Tools: 6/6",
+    "label": "Destroyer of the Mollo Gomme",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Godshard Set requirements",
+    "tab": "Required Tools: 6/6",
+    "label": "Annihilator of the Yggdrasil",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Godshard Set requirements",
+    "tab": "Required Tools: 6/6",
+    "label": "Angler of the Iliunne",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Godshard Set requirements",
+    "tab": "Required Tools: 6/6",
+    "label": "Wrangler of the Qoxzul",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Godshard Set requirements",
+    "tab": "Required Tools: 6/6",
+    "label": "Containment of the Zrgyios",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Godshard Set requirements",
+    "tab": "Required Tools: 6/6",
+    "label": "Crystal Skull of Esquire Vnoze",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Godshard Set requirements",
+    "tab": "Required Weapons: 2/1",
+    "label": "Mittens of the Gods",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Godshard Set requirements",
+    "tab": "Required Weapons: 2/1",
+    "label": "Massive Godbreaker",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Godshard Set requirements",
+    "tab": "Required Weapons: 2/1",
+    "label": "Doublestring Godshooter",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Godshard Set requirements",
+    "tab": "Required Weapons: 2/1",
+    "label": "Magnifique Godcaster",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Emperor Set requirements",
+    "tab": "Required Armor: 3/7",
+    "label": "Emperor Kabuto",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Emperor Set requirements",
+    "tab": "Required Armor: 3/7",
+    "label": "Emperor Sokutai Ho",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Emperor Set requirements",
+    "tab": "Required Armor: 3/7",
+    "label": "Emperor Zubon",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Emperor Set requirements",
+    "tab": "Required Armor: 3/7",
+    "label": "Emperor Geta",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Emperor Set requirements",
+    "tab": "Required Armor: 3/7",
+    "label": "Demented Emperor Opal",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Emperor Set requirements",
+    "tab": "Required Armor: 3/7",
+    "label": "Bramble of the Emperor",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Emperor Set requirements",
+    "tab": "Required Armor: 3/7",
+    "label": "Gilded Emperor Wings",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Prehistoric Set requirements",
+    "tab": "Required Armor: 0/4",
+    "label": "Prehistoric Battlehair",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Prehistoric Set requirements",
+    "tab": "Required Armor: 0/4",
+    "label": "Prehistoric Parka",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Prehistoric Set requirements",
+    "tab": "Required Armor: 0/4",
+    "label": "Prehistoric Pantaloons",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Prehistoric Set requirements",
+    "tab": "Required Armor: 0/4",
+    "label": "Prehistoric Bracers",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Prehistoric Set requirements",
+    "tab": "Required Tools: 0/6",
+    "label": "Prehistoric Pickaxe",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Prehistoric Set requirements",
+    "tab": "Required Tools: 0/6",
+    "label": "Prehistoric Choppah",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Prehistoric Set requirements",
+    "tab": "Required Tools: 0/6",
+    "label": "Prehistoric Rod",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Prehistoric Set requirements",
+    "tab": "Required Tools: 0/6",
+    "label": "Prehistoric Net",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Prehistoric Set requirements",
+    "tab": "Required Tools: 0/6",
+    "label": "Prehistoric Traps",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Prehistoric Set requirements",
+    "tab": "Required Tools: 0/6",
+    "label": "Crystal Skull of Esquire Vnoze",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Prehistoric Set requirements",
+    "tab": "Required Weapons: 0/1",
+    "label": "Talon of the Hawk",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Prehistoric Set requirements",
+    "tab": "Required Weapons: 0/1",
+    "label": "Sabertoothed Gorehacker",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Prehistoric Set requirements",
+    "tab": "Required Weapons: 0/1",
+    "label": "Raptor Shardslinger",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Prehistoric Set requirements",
+    "tab": "Required Weapons: 0/1",
+    "label": "Beastly Orblauncher",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Secret Set requirements",
+    "tab": "Required Armor: 4/5",
+    "label": "Mark of Member",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Secret Set requirements",
+    "tab": "Required Armor: 4/5",
+    "label": "Mittens of the Gods",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Secret Set requirements",
+    "tab": "Required Armor: 4/5",
+    "label": "Member Hoodie",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Secret Set requirements",
+    "tab": "Required Armor: 4/5",
+    "label": "Club Member",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Secret Set requirements",
+    "tab": "Required Armor: 4/5",
+    "label": "Vman Nametag",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Copper Set: +60.0% Mining and Chopping Efficiency",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Iron Set: +25.0% Class EXP Gain",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Amarok Set: +40.0% Accuracy and Defence",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Gold Set: 1.50x Coins Dropped by Monsters",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Platinum Set: +60.0% Fishing and Catching Efficiency",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Efaunt Set: +25.0% Drop Rate",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Dementia Set: +50.0% Critters and Souls gained",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Void Set: +10.0% AFK Gains",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Chizoar Set: +40.0% All Skill EXP Gain",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Lustre Set: +75.0% Total Damage",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Diabolical Set: +20.0% Faster Monster Respawning",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Troll Set: 1.25x Higher Bonuses from Tome",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Magma Set: +100.0% Lab and Divinity EXP Gain",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Kattlekruk Set: +5.0 LV for all Talents",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Marbiglass Set: +10.0% All Stat",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Godshard Set: 1.00x Higher Winners Bonuses from Summoning",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Emperor Set: Ribbons and Exalted Stamps give 1.00x more multi",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Prehistoric Set: 1.00x EXP Gain in all World 7 Skills",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Completed Set Bonuses",
+    "tab": "default",
+    "label": "Secret Set: 1.00x Gold Food effect",
+    "cur": "0",
+    "goal": "1"
+   }
+  ],
+  "snapshot": "20261125T2340"
+ }
+}
