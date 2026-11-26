@@ -35,7 +35,8 @@ def cant_miss(name):
         out.append(f"{c['text']}{extra}. Why: {c['why']}")
     return out
 def owned(name): return sorted(s for s, v in IDX.items() if name in (v.get('owners') or []))
-def sys_words(s): return [w for w in s.replace('_', ' ').split() if len(w) > 3] or [s]
+STEMS = {'statues': ['statue'], 'printer': ['print', 'printer'], 'zenith_market': ['zenith'], 'arcade': ['arcade']}
+def sys_words(s): return STEMS.get(s.lower()) or [w for w in s.replace('_', ' ').split() if len(w) > 3] or [s]
 
 STATUS = re.compile(r"nothing needed|nothing to buy|: worship level \d+, charge full|printing: .*samples held|lab is fine|no samples and no prints|"
                     r"tome is at|charges much faster|If he ever becomes", re.I)

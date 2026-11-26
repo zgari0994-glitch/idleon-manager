@@ -207,6 +207,39 @@ def mastery_step():
            'Pulse: push mastery to 15, it scales hard after 10']
     return {'do': f"Cooking mastery (level {M.get('level')}): points go onto meals", 'why': 'mastery nodes are meal buffs', 'sub': sub}
 
+def arcade_step():
+    """Arcade check (Ticles). Sourced: Griffy 2026-09-21 wait for a gold-ball multiplier before spending balls;
+    Griffy 2026-04-23 multikill per tier strong, burger always; 2026-09-21 research XP a must, bones useful."""
+    try:
+        import data as _DD
+        A = _DD.load().system('arcade')
+    except Exception:
+        return None
+    pri = [('Multikill', 'Griffy: strong'), ('Burger', 'Griffy: always prioritize'), ('Research_XP', 'Griffy: a must'), ('Deathbringer_Bones', 'Griffy: useful for the masterclass')]
+    act = [x for x in A['shop'] if x.get('active')]
+    sub = []
+    for key, why in pri:
+        for x in act:
+            if key.lower() in x['effect'].lower():
+                sub.append(f"{x['effect'].replace('_', ' ').replace('+{%', '+%').replace('}x', 'x').replace('+{', '+').strip()} (level {x['level']}) ({why})")
+    sub.append('Griffy: wait for a gold-ball multiplier event before spending balls')
+    return {'do': f"Arcade: {A['balls']} balls, {A['goldBalls']} gold balls. Spend gold balls in this order from the current rotation:", 'why': 'arcade shop bonuses are account-wide', 'sub': sub}
+
+def zenith_step():
+    """Zenith Market check (Ticles). Sourced: Pulse 2026-11-15 push True Zen; 2026-11-07 True Zen multiplies dragon statue."""
+    try:
+        import data as _DD
+        Z = _DD.load().system('zenith_market')
+    except Exception:
+        return None
+    m = {x['name']: x for x in Z['market']}
+    tz = m.get('TRUE_ZEN')
+    if not tz: return None
+    c = Z['clusters']
+    do = f"Zenith Market: {c} clusters. True Zen level {tz['level']} costs {tz['cost']}"
+    do += ': buy it' if c >= tz['cost'] else f": save, {tz['cost'] - c} more clusters"
+    return {'do': do, 'why': 'Pulse: True Zen multiplies statue bonuses including the dragon statue, push it', 'sub': []}
+
 def legend_step():
     from data import load
     L = load().system('legend_talents')
@@ -345,7 +378,11 @@ def build():
                 continue
             if 'ZOWs + CHOWs' in b['block']: continue   # replaced by the milestone step below
             daily.append(to_step(b, n))
-        if n == 'Autisticles': daily.append(sushi_step()); daily.append(legend_step())
+        if n == 'Autisticles':
+            daily.append(sushi_step()); daily.append(legend_step())
+            for f_ in (arcade_step, zenith_step):
+                x_ = f_()
+                if x_: house.append(x_)
         if n == 'Autiszemo':
             ms_ = mastery_step()
             if ms_: house.insert(0, ms_)
