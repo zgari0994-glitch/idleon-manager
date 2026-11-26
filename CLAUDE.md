@@ -14,7 +14,7 @@ Lean core, re-read every call: keep it small. Details live in docs/ and are open
 - When a chat gets long (about 15+ tool calls or 20+ turns), recommend a fresh thread.
 
 ## Threads
-- **Q&A thread** (default, phone is fine, no browser): clone the repo (`--depth 1`), then lookup.py / `plans/cards4_<LATEST>.md` / `snapshots/LATEST`. Answer from the latest committed snapshot and say its age. Never pull here.
+- **Q&A thread** (default, phone is fine, no browser): clone the repo (`--depth 1`), then lookup.py / `python3 tools/card.py <nickname>` / `snapshots/LATEST`. Card questions: card.py for ONLY the asked character (goal + their section); never read cards4 whole. Answer from the latest committed snapshot and say its age. Never pull here.
 - **Pull thread** ("pull" or "after work"): needs the built-in browser on Zack's PC (Toolbox signed in). If its tools are missing, call `enable__mcp__remote-devices__Claude_Browser` (ToolSearch first). If that is unavailable or can't reach the PC, tell Zack: open this thread in the Claude desktop app on the PC and use + -> Add folder, then say "pull" again. Run Refresh below, then the pipeline (docs/pipeline.md), commit + push, republish the dashboard, then tell Zack to start a fresh Q&A thread.
 
 ## How Zack works
