@@ -1,0 +1,293 @@
+{
+ "module": "w7minis",
+ "systems": [
+  "legend_talents",
+  "jelly_operator",
+  "clam_work",
+  "sushi_station",
+  "minehead",
+  "glimbo",
+  "zenith_market",
+  "the_button"
+ ],
+ "ok": true,
+ "card_lines": [
+  "TOP dailies: play 3 Minehead tries.",
+  "Spend 1 Legend Talent points: Coral Restoration first (Griffy: +60% daily coral, an absolute must). Keep Blue Ribbon and Extended Database on hold.",
+  "Cheap Sushi upgrades: Hourly Wage Meter, Fuel Capacity I, Customer Surcharge I, Fuel Capacity II, Sushi Tier Vision.",
+  "Clam: buy Pearl Value (1,663 pearls), Lucky Day (756 pearls), Multi-Scalping (1,437 pearls).",
+  "Minehead: buy Base Damage I, Grid Expansion, Bettah Numbahs, Mega Damage I.",
+  "Beat Kelphead next: unlock another atom for your atom collider, which boosts minehead currency gain when upgraded.",
+  "Glimbo: make 12 trades (Char Coral, Divinity Pearl, Dioxide Synthesis, Purple Salt...). Each one raises a Vault max level. Pulse: push to about 1,000 total trades (you're at 167)."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "legend": {
+   "points": 65,
+   "unspent": "1"
+  },
+  "jelly": {
+   "ops": "0",
+   "next": null,
+   "removed": "12 / 71"
+  },
+  "clam": {
+   "pearls": 2834.59653649346,
+   "ready": [
+    [
+     "Pearl Value",
+     19,
+     20,
+     "",
+     "1,663"
+    ],
+    [
+     "Lucky Day",
+     6,
+     7,
+     "",
+     "756"
+    ],
+    [
+     "Multi-Scalping",
+     1,
+     2,
+     "",
+     "1,437"
+    ]
+   ]
+  },
+  "sushi": {
+   "fuel": [
+    "330,389",
+    "517,129"
+   ],
+   "next": null,
+   "bucks": 1778853383485.71,
+   "unique": 20,
+   "cheap": [
+    [
+     "Hourly Wage Meter",
+     289,
+     22826290501.443092
+    ],
+    [
+     "Fuel Capacity I",
+     284,
+     37284455438.143974
+    ],
+    [
+     "Customer Surcharge I",
+     165,
+     44113648219.42766
+    ],
+    [
+     "Fuel Capacity II",
+     183,
+     25139991958.08772
+    ],
+    [
+     "Sushi Tier Vision",
+     73,
+     1089762663.7067459
+    ],
+    [
+     "Customer Surcharge II",
+     105,
+     87047605225.11852
+    ],
+    [
+     "Quickpay Fee",
+     10,
+     21775680412.552246
+    ],
+    [
+     "Fastburn Fuel III",
+     0,
+     81541619.96411368
+    ],
+    [
+     "Fuel Capacity III",
+     0,
+     324100255.9661865
+    ],
+    [
+     "Shake N' Bake",
+     0,
+     1334164220.7814794
+    ],
+    [
+     "Customer Surcharge III",
+     0,
+     7388413327.270023
+    ],
+    [
+     "Quality Freshness",
+     0,
+     42306302493.60635
+    ]
+   ]
+  },
+  "minehead": {
+   "tries": "3 / 3",
+   "cur": 1638.97913749244,
+   "next": null,
+   "buy": [
+    [
+     "Base Damage I",
+     42,
+     136.9092480937327
+    ],
+    [
+     "Grid Expansion",
+     3,
+     1476.5625
+    ],
+    [
+     "Bettah Numbahs",
+     20,
+     73.6494182682574
+    ],
+    [
+     "Mega Damage I",
+     30,
+     171.70464028750877
+    ],
+    [
+     "Miney Farmey I",
+     15,
+     59.196483543589025
+    ],
+    [
+     "Base Damage II",
+     14,
+     305.3687346978877
+    ],
+    [
+     "Golden Tiles",
+     1,
+     1489.3196260133268
+    ],
+    [
+     "Big Hit Combos",
+     1,
+     552.2302185430573
+    ],
+    [
+     "Boom Blocker",
+     0,
+     1254.6038880835677
+    ]
+   ],
+   "opp": [
+    [
+     "Kelphead",
+     "eighth",
+     7701.728002560001,
+     "Unlock another Atom for your Atom Collider, which boosts minehead currency gain when upgraded"
+    ]
+   ]
+  },
+  "glimbo": {
+   "total": 167,
+   "trades": [
+    [
+     "Char Coral",
+     154,
+     18
+    ],
+    [
+     "Divinity Pearl",
+     13160,
+     105
+    ],
+    [
+     "Dioxide Synthesis",
+     1226867,
+     136
+    ],
+    [
+     "Purple Salt",
+     140536,
+     136
+    ],
+    [
+     "Neon Coral",
+     6,
+     1
+    ],
+    [
+     "Nullo Salt",
+     672374,
+     188
+    ],
+    [
+     "Diamond Duck",
+     245,
+     17
+    ],
+    [
+     "Crosslink Salt",
+     46,
+     7
+    ],
+    [
+     "Deepsea Soul",
+     0,
+     1
+    ],
+    [
+     "Zenith Cluster",
+     0,
+     1
+    ],
+    [
+     "Pirate Anchor",
+     0,
+     1
+    ],
+    [
+     "Voodofish",
+     2194,
+     3
+    ],
+    [
+     "Cooking Ladle",
+     75428,
+     16
+    ],
+    [
+     "Tuttle",
+     41847613,
+     624075
+    ],
+    [
+     "Chapter Five 'Sunken Plunder'",
+     0,
+     1
+    ],
+    [
+     "Silver Pen",
+     12147,
+     903
+    ]
+   ]
+  },
+  "gates": {
+   "zenith": false,
+   "button": false,
+   "button_req": [
+    [
+     "Find at least 500 items, as shown by the Slab",
+     "1554 / 500"
+    ]
+   ]
+  },
+  "zenith": {
+   "clusters": 6
+  },
+  "advice": null,
+  "snapshot": "20261126T2330"
+ }
+}

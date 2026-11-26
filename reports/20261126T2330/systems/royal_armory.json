@@ -1,0 +1,1635 @@
+{
+ "module": "royal_armory",
+ "systems": [
+  "royal_armory"
+ ],
+ "ok": true,
+ "card_lines": [
+  "Next Royal statue to build: Plutus the Prosperous.",
+  "Armory upgrades to push: Royal Talent Points I, Solo Militia Status, Blunder Outpost PTS.",
+  "Affordable Armory upgrades: Resource Replenish, Solo Militia Status, Royal Marble, Yumyum Desert Militia, Anti-Rodent Power Move I.",
+  "Armory levels 216 / 230 for the next shelf."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "ar_tier": "",
+  "ar": [
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Total Armory Upgrade Levels: 216",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Collect Resources Tool: Adds a new button to the World Map! When enabled, you can click and drag on your Outposts to connect them to Resources!",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true,
+    "res": "royal-armory-resource-0"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Royal Talent Points I: +66 Talent PTS for the Royal Guardian class.",
+    "cur": "66",
+    "goal": "200",
+    "res": "royal-armory-resource-0"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Solo Militia Status: Active kills now count towards clearing monsters to build outposts! @ Also, each kill has a 168% chance to count as extra!",
+    "cur": "42",
+    "goal": "1000",
+    "res": "royal-armory-resource-0"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Upgrade Outposts Tool: Adds a new button to the World Map! When enabled, you can click on any Outpost and spend its PTS on upgrades!",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true,
+    "res": "royal-armory-resource-0"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Blunder Outpost PTS: All of your Outposts in World 1 get +12 PTS to spend on upgrades!",
+    "cur": "12",
+    "goal": "999999",
+    "res": "royal-armory-resource-0"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Royal Marble: Mobs in maps with outposts have a 1 in $ chance to drop special Marble items, which are used to unlock the Royal Statues!",
+    "cur": "2",
+    "goal": "50",
+    "res": "royal-armory-resource-0"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Resource Replenish: All 'Empty' resources get refilled every day. @ Also, +54% Collection Rate for all Outposts.",
+    "cur": "54",
+    "goal": "1000",
+    "res": "royal-armory-resource-1"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Parchment of Enchantment: Verminous Rats now have a 1 in $ chance to drop Parchments of Enchantment, which are used to upgrade Royal Statues!",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true,
+    "res": "royal-armory-resource-2"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Statue Flair: Unlock the Statue Flair system, letting you spend Marble to boost normal Statues over at the Statue Man in W1 Town!",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true,
+    "res": "royal-armory-resource-1"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Anti-Rodent Power Move I: Boosts the base damage you deal within the Royal Castle by +85",
+    "cur": "17",
+    "goal": "999999",
+    "res": "royal-armory-resource-2"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Trader Profession: Unlocks the Trader profession, who level up their Outpost's Trading Rank! Swap professions via 'Upgrade Outposts' button.",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true,
+    "res": "royal-armory-resource-1"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Trading Rank: Each Trading Rank of an Outpost gives +1 PTS for Upgrades.$",
+    "cur": "1",
+    "goal": "6",
+    "res": "royal-armory-resource-2"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Tremendous Traders: Each Trader Unit now gives $ EXP/hr toward their Outpost's Trading Rank.",
+    "cur": "7",
+    "goal": "999999",
+    "res": "royal-armory-resource-4"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Blunder Hills Militia: Recruits a new Militia unit in World 1, which clear away monsters at a rate of $/hr so you can build more outposts!",
+    "cur": "3",
+    "goal": "10",
+    "res": "royal-armory-resource-2"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Move Units Tool: Adds a new button to the World Map! When enabled, you can click and drag Movable Units to change which Outpost they're stationed at!",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true,
+    "res": "royal-armory-resource-2"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Wonderful Workers: Each Worker Unit now gives +$% Collection Rate bonus to their outpost, instead of the standard +50% bonus.",
+    "cur": "4",
+    "goal": "999999",
+    "res": "royal-armory-resource-3"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Compounding Outposting: Pick a stat to boost! More outposts built means bigger boost! @ Currently giving $",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true,
+    "res": "royal-armory-resource-4"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Kingdom Expansion 2: Allows you to expand the kingdom into World 2, allowing you to build Outposts and collect Resources!",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true,
+    "res": "royal-armory-resource-5"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Yumyum Desert Militia: Recruits a new Militia unit in World 2, which clear away monsters at a rate of $/hr so you can build more outposts!",
+    "cur": "0",
+    "goal": "10",
+    "res": "royal-armory-resource-10"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Greater Education: Unlock the 3rd upgrade options for all outposts across all worlds!Requires 14 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "1",
+    "res": "royal-armory-resource-10"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Mighty Militia: Each Militia Unit now clears away $ Monsters/hr in Uncontrolled Maps.Requires 44 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "royal-armory-resource-5"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Resource Grades: Whenever an 'Empty' resource gets refilled, it gets +1 Grade! @ Each Grade means +50% Max Resources and +$% Collection Rate!Requires 54 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "1",
+    "res": "royal-armory-resource-10"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Royal Talent Points II: +0 Talent PTS for the Royal Guardian class.Requires 64 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "200",
+    "res": "royal-armory-resource-11"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Yumyum Outpost PTS: All of your Outposts in World 2 get +0 PTS to spend on upgrades!Requires 84 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "royal-armory-resource-11"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Prismatic Guardian: Instantly gain 1 Prisma Bubble Fragment! Spend these in Alchemy to boost your bubbles!Requires 104 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "100",
+    "res": "royal-armory-resource-11"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Guard Profession: Unlocks the Guard profession, who boost their Outpost's connection range! Swap professions via 'Upgrade Outposts' button.Requires 124 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "1",
+    "res": "royal-armory-resource-12"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Great Guards: Each Guard Unit now increases the connection range of their Outpost by +$pxRequires 164 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "10",
+    "res": "royal-armory-resource-12"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Kingdom Sovereignty: Recruits new Movable Unit every time you buy this upgrade! @ Next Unit: $Requires 184 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "36",
+    "res": "royal-armory-resource-10"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Command Rank: Each Command Rank of an Outpost adds a permanent stationary unit, and boosts the outpost's Collection Rate by +0%Requires 204 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "5",
+    "res": "royal-armory-resource-13"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Charismatic Commanders: Each Commander Unit now gives $ EXP/hr toward their Outpost's Command Rank.Requires 234 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "royal-armory-resource-13"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Global Decree - OL: Each Outpost LV (OL) gives all outposts +0% Collection Rate. @ Total Bonus:+$%Requires 264 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "100",
+    "res": "royal-armory-resource-14"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Super Talent Unban: You can now 'Make Super' your Royal Guardian talents.Requires 304 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "1",
+    "res": "royal-armory-resource-13"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Parchment Surplus: Boosts the drop rate of Parchments of Enchantment by +0%Requires 344 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "royal-armory-resource-14"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Weekly Skull Stipend: Start each week with 0 Killroy Skulls over in W2 town!Requires 374 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "100",
+    "res": "royal-armory-resource-15"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Support Camps: You can modify 0 Outposts per World into Support Camps. Connects to other outposts, givin' $Requires 414 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "3",
+    "res": "royal-armory-resource-14"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Super Support: Support Camps give 1.00x higher boosts to their connected Outposts!Requires 444 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "100",
+    "res": "royal-armory-resource-15"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Kingdom Expansion 3: Allows you to expand the kingdom into World 3, allowing you to build Outposts and collect Resources!Requires 494 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "1",
+    "res": "royal-armory-resource-15"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Frostbite Tundra Militia: Recruits a new Militia unit in World 3, which clear away monsters at a rate of $/hr so you can build more outposts!Requires 534 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "10",
+    "res": "royal-armory-resource-20"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Global Decree - RG: Each Resource Grade (RG) gives all outposts +0% Collection Rate. @ Total Bonus:+$%Requires 584 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "royal-armory-resource-20"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Tundra Outpost PTS: All of your Outposts in World 3 get +0 PTS to spend on upgrades!Requires 634 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "royal-armory-resource-20"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Experiential Triumph: Every 100 Class LVs of your Royal Guardian over 1000 gives all outposts +0% Collection Rate. Total Bonus:+$%Requires 684 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "100",
+    "res": "royal-armory-resource-21"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Anti-Rodent Power Move II: Boosts the total damage you deal within the Royal Castle by +0%Requires 734 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "royal-armory-resource-22"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Surveyor Profession: Unlocks the Surveyor profession, who level up their Outpost's Intel Rank! Swap professions via 'Upgrade Outposts' button.Requires 784 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "1",
+    "res": "royal-armory-resource-21"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Intel Rank: Each Intel Rank of an Outpost boosts the EXP gain of all its Ranks by +0%Requires 884 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "5",
+    "res": "royal-armory-resource-21"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Super Surveyors: Each Surveyor Unit now gives $ EXP/hr toward their Outpost's Intel Rank.Requires 984 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "royal-armory-resource-22"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Farmer Joe: Joe will tend to your Equinox Valley, giving +0% Equinox Bar Fill rate and spending full bars on the upgrade of your choice!Requires 1084 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "100",
+    "res": "royal-armory-resource-22"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Savage Strongholds: You can now modify 0 Outpost per World into Savage Strongholds! They remove $x more resources, but you don't keep any!Requires 1134 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "3",
+    "res": "royal-armory-resource-22"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Super Savagery: Savage Strongholds remove 1.00x more resources than before!Requires 1184 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "100",
+    "res": "royal-armory-resource-23"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Royal Talent Points III: +0 Talent PTS for the Royal Guardian class.Requires 1234 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "200",
+    "res": "royal-armory-resource-23"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Military Rank: Each Military Rank of an Outpost boosts its connection range by +0pxRequires 1284 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "5",
+    "res": "royal-armory-resource-24"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Kingsman Knights: Each Knight Unit now gives $ EXP/hr toward their Outpost's Military Rank.Requires 1334 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "royal-armory-resource-24"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Peacetime Milita: Militia Units now also give $ EXP/hr to their Outpost's highest Rank, giving them a use beyond clearing new maps!Requires 1384 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "1",
+    "res": "royal-armory-resource-24"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Rat Breeding Protocol I: Verminous Rats, found in the cellar dungeon of the Royal Castle, respawn +0% faster.Requires 1434 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "10",
+    "res": "royal-armory-resource-25"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Parchment Doubleprint: Whenever you pick up Parchments of Enchantment, there is a $% chance to get DOUBLE! So like, two of them!Requires 1484 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "100",
+    "res": "royal-armory-resource-26"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Kingdom Expansion 4: Allows you to expand the kingdom into World 4, allowing you to build Outposts and collect Resources!Requires 1534 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "1",
+    "res": "royal-armory-resource-26"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Hyperion Nebula Militia: Recruits a new Militia unit in World 4, which clear away monsters at a rate of $/hr so you can build more outposts!Requires 1584 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "10",
+    "res": "royal-armory-resource-30"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Hyperion Outpost PTS: All of your Outposts in World 4 get +0 PTS to spend on upgrades!Requires 1634 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "royal-armory-resource-30"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Purity Rank: Achieving a PURITY Rank of 1 means that Outpost and Map are Purified. Click the \u819b button to see Purified Bonuses.Requires 1684 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "1",
+    "res": "royal-armory-resource-31"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Passionate Priests: Each Priest Unit now gives $ EXP/hr toward their Outpost's Purity Rank.Requires 1734 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "royal-armory-resource-31"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "State-Wide Propoganda: Boost EXP/hr of your chosen Rank Type by 1.00x, which can be freely changed with the arrows above.Requires 1784 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "100",
+    "res": "royal-armory-resource-32"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Tip-Top 'sources: +0% Collection Rate for every POW 10 'Top of List' Resources you own. Total Bonus:+$%Requires 1834 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "10",
+    "res": "royal-armory-resource-33"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Royal Talent Points IV: +0 Talent PTS for the Royal Guardian class.Requires 1884 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "200",
+    "res": "royal-armory-resource-32"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Parchment Recycling: When using Parchments of Enchantment to upgrade Royal Statues, there is a $% chance they are not used up. Free Usage!Requires 1934 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "50",
+    "res": "royal-armory-resource-33"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Perfect Purification: All your Purified Maps now get a $x bonus to Collection Rate, instead of the standard 2x bonus.Requires 2034 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "300",
+    "res": "royal-armory-resource-34"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Global Decree - PM: Each Purified Map (PM) gives all outposts +0% Collection Rate. @ Total Bonus:+$%Requires 2084 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "40",
+    "res": "royal-armory-resource-35"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Ribbonic Guardian: There's a 0% chance for each of the Ribbons you earn each day is +1 Tier higher!Requires 2184 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "20",
+    "res": "royal-armory-resource-35"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Orblet Pittance: Adds a new 0% chance for the Orb of Verisimilitude to drop a 3rd orblet every 1000 kills!Requires 2284 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "100",
+    "res": "royal-armory-resource-36"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Royal Reverence: All Royal Statues give 1.00x higher bonuses!Requires 2384 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "20",
+    "res": "royal-armory-resource-36"
+   },
+   {
+    "group": "Armory Upgrades",
+    "tab": "Upgrades",
+    "label": "Talent Reattainment: Your 'All Talent LVs' bonuses now apply to Royal Guardian talents, but only up to +0 LVs.Requires 2484 more Upgrade Levels to unlock",
+    "cur": "0",
+    "goal": "300",
+    "res": "royal-armory-resource-37"
+   },
+   {
+    "group": "Royal Statues",
+    "tab": "default",
+    "label": "Heracles the Mighty: Tier 13.00x Total Damage",
+    "cur": "1",
+    "goal": "\u221e",
+    "informational": true,
+    "res": "parchment-of-enchantment"
+   },
+   {
+    "group": "Royal Statues",
+    "tab": "default",
+    "label": "Plutus the Prosperous: Not built (1/50)1.00x Drop Rate",
+    "cur": "0",
+    "goal": "1",
+    "res": "sandy-marble"
+   },
+   {
+    "group": "Royal Statues",
+    "tab": "default",
+    "label": "Ymir the Frostborne: Not built (1/100)1.00x Extra Kills",
+    "cur": "0",
+    "goal": "1",
+    "res": "frosty-marble"
+   },
+   {
+    "group": "Royal Statues",
+    "tab": "default",
+    "label": "Minerva the Resolute: Not built (1/250)1.00x Class EXP",
+    "cur": "0",
+    "goal": "1",
+    "res": "sparkly-marble"
+   },
+   {
+    "group": "Royal Statues",
+    "tab": "default",
+    "label": "Hephaestus the Unbroken: Not built (1/500)Bonus unconfirmed",
+    "cur": "0",
+    "goal": "1",
+    "res": "toasty-marble"
+   },
+   {
+    "group": "Royal Statues",
+    "tab": "default",
+    "label": "Odin the Shrouded: Not built (1/1000)Bonus unconfirmed",
+    "cur": "0",
+    "goal": "1",
+    "res": "wispy-marble"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Max Flair Level",
+    "label": "Base max Flair: Superior Flair",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Max Flair Level",
+    "label": "Menagerie Unlock 18: Boosts max Flair LV of Statues to ElegantCosts 11.68M Lumi, needs a higher Menagerie Rank",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Power Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Speed Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Mining Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Feasty Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Health Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Kachow Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Lumberbob Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Thicc Skin Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Oceanman Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Ol Reliable Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Exp Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Anvil Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Cauldron Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Beholder Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Bullseye Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Box Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Twosoul Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Ehexpee Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Seesaw Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Pecunia Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Mutton Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Egg Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Battleaxe Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Spiral Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Boat Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Compost Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Stealth Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Essence Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Villager Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Dragon Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Spelunky Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Statue Flair",
+    "tab": "Statues",
+    "label": "Coral Statue Flair: No Flair",
+    "cur": "0",
+    "goal": "3"
+   },
+   {
+    "group": "Lil' Orblet Shop",
+    "tab": "default",
+    "label": "Emulsion: 1% chance to get 1M statues worth of Statue EXP when a Zenith Cluster is formed!",
+    "cur": "1",
+    "goal": "5"
+   },
+   {
+    "group": "Lil' Orblet Shop",
+    "tab": "default",
+    "label": "Hydration: +5% Resource Collection for all Outposts",
+    "cur": "1",
+    "goal": "200"
+   },
+   {
+    "group": "Lil' Orblet Shop",
+    "tab": "default",
+    "label": "Talented: +2 Talent Points for Royal Guardians",
+    "cur": "2",
+    "goal": "100"
+   },
+   {
+    "group": "Lil' Orblet Shop",
+    "tab": "default",
+    "label": "Full Clear: +1% extra kills for Clearing Mobs in order to build new outposts!",
+    "cur": "1",
+    "goal": "50"
+   },
+   {
+    "group": "Lil' Orblet Shop",
+    "tab": "default",
+    "label": "Outposts Glorified: 0/19",
+    "cur": "0",
+    "goal": "19"
+   },
+   {
+    "group": "Lil' Orblet Shop",
+    "tab": "default",
+    "label": "Intervene: 1.00x higher chance for Regal Intervention to trigger!Locked - level the previous slot first",
+    "cur": "0",
+    "goal": "100"
+   },
+   {
+    "group": "Lil' Orblet Shop",
+    "tab": "default",
+    "label": "Stronk Rank: All kingdom units generate Rank EXP +0% fasterLocked - level the previous slot first",
+    "cur": "0",
+    "goal": "50"
+   },
+   {
+    "group": "Lil' Orblet Shop",
+    "tab": "default",
+    "label": "Bargain: All Masterclass upgrades cost +0% less than beforeLocked - level the previous slot first",
+    "cur": "0",
+    "goal": "25"
+   },
+   {
+    "group": "Lil' Orblet Shop",
+    "tab": "default",
+    "label": "Long Range: All Outposts get +0px longer connection rangeLocked - level the previous slot first",
+    "cur": "0",
+    "goal": "20"
+   },
+   {
+    "group": "Lil' Orblet Shop",
+    "tab": "default",
+    "label": "Parchmore: +0% Parchment of Enchantment Drop Rate from Verminous RatsLocked - level the previous slot first",
+    "cur": "0",
+    "goal": "100"
+   }
+  ],
+  "toolbox": true,
+  "tabs": [],
+  "armory_levels": 216,
+  "next_shelf": 230,
+  "upgrades": [
+   {
+    "name": "Resource Grades",
+    "lv": 0,
+    "max": 1,
+    "cost": 12364.858674283016,
+    "res": 10,
+    "have": 10004.8831436712
+   },
+   {
+    "name": "Perfect Purification",
+    "lv": 0,
+    "max": 300,
+    "cost": 305424096.77029043,
+    "res": 34,
+    "have": 0
+   },
+   {
+    "name": "Kingdom Expansion 2",
+    "lv": 1,
+    "max": 1,
+    "cost": 4261.488618904439,
+    "res": 5,
+    "have": 76665.6524173855
+   },
+   {
+    "name": "Kingdom Expansion 3",
+    "lv": 0,
+    "max": 1,
+    "cost": 527887.9743395114,
+    "res": 15,
+    "have": 0
+   },
+   {
+    "name": "Kingdom Expansion 4",
+    "lv": 0,
+    "max": 1,
+    "cost": 18915318.705397796,
+    "res": 26,
+    "have": 0
+   },
+   {
+    "name": "Kingdom Expansion 5",
+    "lv": 0,
+    "max": 1,
+    "cost": 0,
+    "res": -1,
+    "have": 0
+   },
+   {
+    "name": "Kingdom Expansion 6",
+    "lv": 0,
+    "max": 1,
+    "cost": 0,
+    "res": -1,
+    "have": 0
+   },
+   {
+    "name": "Kingdom Expansion 7",
+    "lv": 0,
+    "max": 1,
+    "cost": 0,
+    "res": -1,
+    "have": 0
+   },
+   {
+    "name": "Kingdom Expansion 8",
+    "lv": 0,
+    "max": 1,
+    "cost": 0,
+    "res": -1,
+    "have": 0
+   },
+   {
+    "name": "Blunder Outpost PTS",
+    "lv": 12,
+    "max": 999999,
+    "cost": 8819.00722383047,
+    "res": 0,
+    "have": 47512.806177331
+   },
+   {
+    "name": "Yumyum Outpost PTS",
+    "lv": 0,
+    "max": 999999,
+    "cost": 20772.596206612525,
+    "res": 11,
+    "have": 0
+   },
+   {
+    "name": "Tundra Outpost PTS",
+    "lv": 0,
+    "max": 999999,
+    "cost": 1088982.559972924,
+    "res": 20,
+    "have": 0
+   },
+   {
+    "name": "Hyperion Outpost PTS",
+    "lv": 0,
+    "max": 999999,
+    "cost": 60299098.269023895,
+    "res": 30,
+    "have": 0
+   },
+   {
+    "name": "Plateau Outpost PTS",
+    "lv": 0,
+    "max": 999999,
+    "cost": 0,
+    "res": -1,
+    "have": 0
+   },
+   {
+    "name": "Valley Outpost PTS",
+    "lv": 0,
+    "max": 999999,
+    "cost": 0,
+    "res": -1,
+    "have": 0
+   },
+   {
+    "name": "Shimmerfin Outpost PTS",
+    "lv": 0,
+    "max": 999999,
+    "cost": 0,
+    "res": -1,
+    "have": 0
+   },
+   {
+    "name": "World 8 Outpost PTS",
+    "lv": 0,
+    "max": 999999,
+    "cost": 0,
+    "res": -1,
+    "have": 0
+   },
+   {
+    "name": "Peacetime Milita",
+    "lv": 0,
+    "max": 1,
+    "cost": 18751484.802275114,
+    "res": 24,
+    "have": 0
+   },
+   {
+    "name": "Global Decree - RG",
+    "lv": 0,
+    "max": 999999,
+    "cost": 856034.6777239097,
+    "res": 20,
+    "have": 0
+   },
+   {
+    "name": "Wonderful Workers",
+    "lv": 4,
+    "max": 999999,
+    "cost": 23887.850720450577,
+    "res": 3,
+    "have": 24719.8201406311
+   },
+   {
+    "name": "Tremendous Traders",
+    "lv": 7,
+    "max": 999999,
+    "cost": 187432.9098474157,
+    "res": 4,
+    "have": 34890.8685271156
+   },
+   {
+    "name": "Great Guards",
+    "lv": 0,
+    "max": 10,
+    "cost": 44640.1318007478,
+    "res": 12,
+    "have": 0
+   },
+   {
+    "name": "Super Surveyors",
+    "lv": 0,
+    "max": 999999,
+    "cost": 3595580.555905501,
+    "res": 22,
+    "have": 0
+   },
+   {
+    "name": "Mighty Militia",
+    "lv": 0,
+    "max": 999999,
+    "cost": 9510.009285029499,
+    "res": 5,
+    "have": 76665.6524173855
+   },
+   {
+    "name": "Charismatic Commanders",
+    "lv": 0,
+    "max": 999999,
+    "cost": 94711.0383824166,
+    "res": 13,
+    "have": 0
+   },
+   {
+    "name": "Kingsman Knights",
+    "lv": 0,
+    "max": 999999,
+    "cost": 14829099.946785454,
+    "res": 24,
+    "have": 0
+   },
+   {
+    "name": "Passionate Priests",
+    "lv": 0,
+    "max": 999999,
+    "cost": 63994715.65381904,
+    "res": 31,
+    "have": 0
+   },
+   {
+    "name": "Trader Profession",
+    "lv": 1,
+    "max": 1,
+    "cost": 569.3806898050819,
+    "res": 1,
+    "have": 11105.6153896839
+   },
+   {
+    "name": "Guard Profession",
+    "lv": 0,
+    "max": 1,
+    "cost": 34646.71883637957,
+    "res": 12,
+    "have": 0
+   },
+   {
+    "name": "Surveyor Profession",
+    "lv": 0,
+    "max": 1,
+    "cost": 2233574.2453671657,
+    "res": 21,
+    "have": 0
+   },
+   {
+    "name": "Collect Resources Tool",
+    "lv": 1,
+    "max": 1,
+    "cost": 0,
+    "res": 0,
+    "have": 47512.806177331
+   },
+   {
+    "name": "Upgrade Outposts Tool",
+    "lv": 1,
+    "max": 1,
+    "cost": 0,
+    "res": 0,
+    "have": 47512.806177331
+   },
+   {
+    "name": "Move Units Tool",
+    "lv": 1,
+    "max": 1,
+    "cost": 92.70570687795194,
+    "res": 2,
+    "have": 74967.9332664704
+   },
+   {
+    "name": "Rat Breeding Protocol I",
+    "lv": 0,
+    "max": 10,
+    "cost": 23702458.231464956,
+    "res": 25,
+    "have": 0
+   },
+   {
+    "name": "Rat Breeding Protocol II",
+    "lv": 0,
+    "max": 100,
+    "cost": 0,
+    "res": -1,
+    "have": 0
+   },
+   {
+    "name": "Anti-Rodent Power Move I",
+    "lv": 17,
+    "max": 999999,
+    "cost": 6150.867059598711,
+    "res": 2,
+    "have": 74967.9332664704
+   },
+   {
+    "name": "Anti-Rodent Power Move II",
+    "lv": 0,
+    "max": 999999,
+    "cost": 1758986.2298817604,
+    "res": 22,
+    "have": 0
+   },
+   {
+    "name": "Parchment of Enchantment",
+    "lv": 1,
+    "max": 1,
+    "cost": 107.0570840287232,
+    "res": 2,
+    "have": 74967.9332664704
+   },
+   {
+    "name": "Parchment Surplus",
+    "lv": 0,
+    "max": 999999,
+    "cost": 198880.19751154308,
+    "res": 14,
+    "have": 0
+   },
+   {
+    "name": "Parchment Doubleprint",
+    "lv": 0,
+    "max": 100,
+    "cost": 29949813.382054884,
+    "res": 26,
+    "have": 0
+   },
+   {
+    "name": "Parchment Recycling",
+    "lv": 0,
+    "max": 50,
+    "cost": 242436960.56274328,
+    "res": 33,
+    "have": 0
+   },
+   {
+    "name": "Royal Marble",
+    "lv": 2,
+    "max": 50,
+    "cost": 1846.923789312,
+    "res": 0,
+    "have": 47512.806177331
+   },
+   {
+    "name": "Support Camps",
+    "lv": 0,
+    "max": 3,
+    "cost": 162279.40847551692,
+    "res": 14,
+    "have": 0
+   },
+   {
+    "name": "Super Support",
+    "lv": 0,
+    "max": 100,
+    "cost": 414084.5206787988,
+    "res": 15,
+    "have": 0
+   },
+   {
+    "name": "Savage Strongholds",
+    "lv": 0,
+    "max": 3,
+    "cost": 3850988.2404279495,
+    "res": 22,
+    "have": 0
+   },
+   {
+    "name": "Royal Reverence",
+    "lv": 0,
+    "max": 20,
+    "cost": 38375109.12740937,
+    "res": 36,
+    "have": 0
+   },
+   {
+    "name": "Royal Talent Points I",
+    "lv": 66,
+    "max": 200,
+    "cost": 7900.03382409794,
+    "res": 0,
+    "have": 47512.806177331
+   },
+   {
+    "name": "Royal Talent Points II",
+    "lv": 0,
+    "max": 200,
+    "cost": 16042.259235560517,
+    "res": 11,
+    "have": 0
+   },
+   {
+    "name": "Royal Talent Points III",
+    "lv": 0,
+    "max": 200,
+    "cost": 9263117.529985813,
+    "res": 23,
+    "have": 0
+   },
+   {
+    "name": "Royal Talent Points IV",
+    "lv": 0,
+    "max": 200,
+    "cost": 192390456.1819152,
+    "res": 32,
+    "have": 0
+   },
+   {
+    "name": "Global Decree - OL",
+    "lv": 0,
+    "max": 100,
+    "cost": 80939.54145005438,
+    "res": 14,
+    "have": 0
+   },
+   {
+    "name": "Global Decree - PM",
+    "lv": 0,
+    "max": 40,
+    "cost": 192340344.7145232,
+    "res": 35,
+    "have": 0
+   },
+   {
+    "name": "Experiential Triumph",
+    "lv": 0,
+    "max": 100,
+    "cost": 1384437.8282645678,
+    "res": 21,
+    "have": 0
+   },
+   {
+    "name": "Tip-Top 'sources",
+    "lv": 0,
+    "max": 10,
+    "cost": 152634866.52471802,
+    "res": 33,
+    "have": 0
+   },
+   {
+    "name": "Guardian Loyalty",
+    "lv": 0,
+    "max": 1,
+    "cost": 0,
+    "res": -1,
+    "have": 0
+   },
+   {
+    "name": "Talent Reattainment",
+    "lv": 0,
+    "max": 300,
+    "cost": 965781148.7615238,
+    "res": 37,
+    "have": 0
+   },
+   {
+    "name": "Super Talent Unban",
+    "lv": 0,
+    "max": 1,
+    "cost": 103644.9343849324,
+    "res": 13,
+    "have": 0
+   },
+   {
+    "name": "Greater Education",
+    "lv": 0,
+    "max": 1,
+    "cost": 7297.063184566951,
+    "res": 10,
+    "have": 10004.8831436712
+   },
+   {
+    "name": "Solo Militia Status",
+    "lv": 42,
+    "max": 1000,
+    "cost": 1273.3045271035494,
+    "res": 0,
+    "have": 47512.806177331
+   },
+   {
+    "name": "Orblet Pittance",
+    "lv": 0,
+    "max": 100,
+    "cost": 304898629.01859426,
+    "res": 36,
+    "have": 0
+   },
+   {
+    "name": "Blunder Hills Militia",
+    "lv": 3,
+    "max": 10,
+    "cost": 174104.8405794502,
+    "res": 2,
+    "have": 74967.9332664704
+   },
+   {
+    "name": "Yumyum Desert Militia",
+    "lv": 0,
+    "max": 10,
+    "cost": 5584.487131046136,
+    "res": 10,
+    "have": 10004.8831436712
+   },
+   {
+    "name": "Frostbite Tundra Militia",
+    "lv": 0,
+    "max": 10,
+    "cost": 672465.8173662672,
+    "res": 20,
+    "have": 0
+   },
+   {
+    "name": "Hyperion Nebula Militia",
+    "lv": 0,
+    "max": 10,
+    "cost": 47769147.722525485,
+    "res": 30,
+    "have": 0
+   },
+   {
+    "name": "Smouldering Plateau Militia",
+    "lv": 0,
+    "max": 10,
+    "cost": 0,
+    "res": -1,
+    "have": 0
+   },
+   {
+    "name": "Spirited Valley Militia",
+    "lv": 0,
+    "max": 10,
+    "cost": 0,
+    "res": -1,
+    "have": 0
+   },
+   {
+    "name": "Shimmerfin Deep Militia",
+    "lv": 0,
+    "max": 10,
+    "cost": 0,
+    "res": -1,
+    "have": 0
+   },
+   {
+    "name": "World 8 Militia",
+    "lv": 0,
+    "max": 10,
+    "cost": 0,
+    "res": -1,
+    "have": 0
+   },
+   {
+    "name": "Kingdom Sovereignty",
+    "lv": 0,
+    "max": 36,
+    "cost": 14358.682995759329,
+    "res": 10,
+    "have": 10004.8831436712
+   },
+   {
+    "name": "Super Savagery",
+    "lv": 0,
+    "max": 100,
+    "cost": 7316547.099882597,
+    "res": 23,
+    "have": 0
+   },
+   {
+    "name": "Resource Replenish",
+    "lv": 54,
+    "max": 1000,
+    "cost": 1045.0720141343572,
+    "res": 1,
+    "have": 11105.6153896839
+   },
+   {
+    "name": "Trading Rank",
+    "lv": 1,
+    "max": 6,
+    "cost": 7726388530.336131,
+    "res": 2,
+    "have": 74967.9332664704
+   },
+   {
+    "name": "Intel Rank",
+    "lv": 0,
+    "max": 5,
+    "cost": 2834646.901444377,
+    "res": 21,
+    "have": 0
+   },
+   {
+    "name": "Command Rank",
+    "lv": 0,
+    "max": 5,
+    "cost": 73799.46866110273,
+    "res": 13,
+    "have": 0
+   },
+   {
+    "name": "Military Rank",
+    "lv": 0,
+    "max": 5,
+    "cost": 11722608.65358534,
+    "res": 24,
+    "have": 0
+   },
+   {
+    "name": "Purity Rank",
+    "lv": 0,
+    "max": 1,
+    "cost": 76091922.16902408,
+    "res": 31,
+    "have": 0
+   },
+   {
+    "name": "Farmer Joe",
+    "lv": 0,
+    "max": 100,
+    "cost": 4558486.702984767,
+    "res": 22,
+    "have": 0
+   },
+   {
+    "name": "State-Wide Propoganda",
+    "lv": 0,
+    "max": 100,
+    "cost": 121061402.70511542,
+    "res": 32,
+    "have": 0
+   },
+   {
+    "name": "Statue Flair",
+    "lv": 1,
+    "max": 1,
+    "cost": 150.21799264240846,
+    "res": 1,
+    "have": 11105.6153896839
+   },
+   {
+    "name": "Compounding Outposting",
+    "lv": 1,
+    "max": 1,
+    "cost": 27552.054807891145,
+    "res": 4,
+    "have": 34890.8685271156
+   },
+   {
+    "name": "Prismatic Guardian",
+    "lv": 0,
+    "max": 100,
+    "cost": 26849.460791801204,
+    "res": 11,
+    "have": 0
+   },
+   {
+    "name": "Weekly Skull Stipend",
+    "lv": 0,
+    "max": 100,
+    "cost": 254176.21316321872,
+    "res": 15,
+    "have": 0
+   },
+   {
+    "name": "Ribbonic Guardian",
+    "lv": 0,
+    "max": 20,
+    "cost": 242194009.29501814,
+    "res": 35,
+    "have": 0
+   }
+  ],
+  "orblets": 28,
+  "deployments": [
+   [
+    "Clearing",
+    "Motherlode Pit",
+    false
+   ],
+   [
+    "Clearing",
+    "Rats Nest",
+    false
+   ],
+   [
+    "Clearing",
+    "Echoing Egress",
+    false
+   ]
+  ],
+  "snapshot": "20261126T2330"
+ }
+}

@@ -1,0 +1,270 @@
+{
+ "module": "spelunking",
+ "systems": [
+  "spelunk",
+  "caverns"
+ ],
+ "ok": true,
+ "card_lines": [
+  "TOP: Spelunking is the biggest thing holding the account back. The next caves unlock: +30 Max LV for Cooking Meals; Sigils can be upgraded a 4th time to Ethereal; Get a brand new Shape for your Research Grid; Palette Colours now give 1.50x bonuses, and Palette Luck is .",
+  "Amber buys in sourced order (you have 265,491,080,615 amber): Discovering the POW 192 -> 193: 1,007,844,413 amber (can buy). Griffy (Apr 2026): POW upgrades first; Toolbox optimizer top POW buy | Amber on the Brain 172 -> 173: 1,016,485,394 amber (can buy). Griffy: useful early upgrade | Stamina Resurgence 36 -> 37: 1,878,024,453 amber (can buy). Pulse (Sep 7): max the stamina column fast | Big Time Stamina 25 -> 26: 2,368,935,949 amber (can buy). Pulse (Sep 7): max the stamina column fast"
+ ],
+ "char_lines": {},
+ "routed": {
+  "Autiszemo": [
+   "Cooking gated by Spelunking cave Lunarheim (Autistomatic): +30 Max LV for Cooking Meals! +1 Super Talent PTS! +2 Gallery Slots!"
+  ],
+  "Autistocat": [
+   "Sigils gated by Spelunking cave Bizarrio (Autistomatic): Sigils can be upgraded a 4th time to Ethereal! Each one also gives +0.2% Prisma "
+  ]
+ },
+ "build": {
+  "amber": 265491080614.553,
+  "pages": null,
+  "disc": "35 / 105",
+  "power": 5100437313232.538,
+  "optimizer": [],
+  "caves": [
+   {
+    "cave": "Pebble Cove",
+    "bonus": "World's End island & Omnipotent Artifact tier unlocked in Sailing!",
+    "done": true
+   },
+   {
+    "cave": "Sedimeadow",
+    "bonus": "Superbits in Gaming now has a 2nd page full of new upgrades!",
+    "done": true
+   },
+   {
+    "cave": "Rustbelt 03",
+    "bonus": "Cards can now be upgraded to 6-Star Majestic quality!",
+    "done": true
+   },
+   {
+    "cave": "Blushpit",
+    "bonus": "Unlocks the Exotic Market tab & Medal seed type in Farming!",
+    "done": true
+   },
+   {
+    "cave": "Chucklemire",
+    "bonus": "Teal Summoning is now available, with new upgrades and opponents!",
+    "done": true
+   },
+   {
+    "cave": "Lunarheim",
+    "bonus": "+30 Max LV for Cooking Meals! +1 Super Talent PTS! +2 Gallery Slots!",
+    "done": false
+   },
+   {
+    "cave": "Bizarrio",
+    "bonus": "Sigils can be upgraded a 4th time to Ethereal! Each one also gives +0.2% Prisma Bubble Multi!",
+    "done": false
+   },
+   {
+    "cave": "Glitter End",
+    "bonus": "Get a brand new Shape for your Research Grid!",
+    "done": false
+   },
+   {
+    "cave": "Scoutpost",
+    "bonus": "Palette Colours now give 1.50x bonuses, and Palette Luck is +4% higher per Gaming LV",
+    "done": false
+   },
+   {
+    "cave": "Exiled Throne",
+    "bonus": "1.50x chance for Marble Drops on Royal Guardians, and +50 Royal Guardian Talent PTS!",
+    "done": false
+   }
+  ],
+  "shop": {
+   "Learning the POW": [
+    79,
+    99999,
+    79870635958.91064
+   ],
+   "Discovering the POW": [
+    192,
+    99999,
+    1007844412.9187123
+   ],
+   "Depthing the POW": [
+    119,
+    99999,
+    1001028565.806129
+   ],
+   "Hauling the POW": [
+    87,
+    99999,
+    1095323101.5936172
+   ],
+   "Big Time Stamina": [
+    25,
+    50,
+    2368935948.6360164
+   ],
+   "Stamina Resurgence": [
+    36,
+    150,
+    1878024453.0722647
+   ],
+   "Overstim Meter": [
+    53,
+    99999,
+    1037984290.2636253
+   ],
+   "Amber on the Rocks": [
+    252,
+    99999,
+    33473742.60168678
+   ],
+   "Amber on the Brain": [
+    172,
+    99999,
+    1016485394.2365339
+   ],
+   "Amber from the Depths": [
+    72,
+    99999,
+    1083618223.1071513
+   ],
+   "Amber from 'Em All": [
+    30,
+    99999,
+    1085063813.6133132
+   ],
+   "The Biggest Haul": [
+    1,
+    1,
+    1.4886407411884626
+   ],
+   "Auto Button": [
+    1,
+    1,
+    9.421361762843212
+   ],
+   "Unexplainable daily Amber Gains to satiate the playerbase": [
+    22,
+    50,
+    314751853.91093373
+   ],
+   "The Reliable Mace": [
+    126,
+    99999,
+    1084373477.5638144
+   ],
+   "The Sturdy Mallet": [
+    50,
+    99999,
+    1696471260.6148705
+   ],
+   "The Risque Flail": [
+    18,
+    99999,
+    1207042949.6158085
+   ],
+   "The Unaffiliated Warhammer": [
+    9,
+    99999,
+    172453225216.767
+   ],
+   "Uncanny Ability to Find Narrow Passages": [
+    2,
+    10,
+    2464521915.1245
+   ],
+   "Less Taxes": [
+    8,
+    20,
+    3986948943.404581
+   ],
+   "Blue Amber Exclusivity Agreement": [
+    67,
+    99999,
+    1088079530.1358738
+   ],
+   "Deep Pockets": [
+    6,
+    40,
+    1087500066.5332427
+   ],
+   "Rope Subsidy": [
+    15,
+    99999,
+    1167423135.7864537
+   ],
+   "New Brand of Elixir": [
+    6,
+    12,
+    10495238736.765738
+   ],
+   "Elixir Slot": [
+    1,
+    4,
+    30447251410.817806
+   ],
+   "Duplicate Elixirs": [
+    1,
+    4,
+    11988605243.01315
+   ],
+   "Free Refills": [
+    4,
+    50,
+    9232019464.843948
+   ],
+   "A Truly Exalted Find": [
+    30,
+    99999,
+    269729745.69425255
+   ],
+   "A Scintillatingly Prismatic Find": [
+    19,
+    99999,
+    132283984.78562757
+   ],
+   "A Bunch-of-Random-Junk-ly Find": [
+    11,
+    99999,
+    101248596.1233966
+   ],
+   "\u7531[\u7533\u7531?-\u7531\u7533~[\u7533": [
+    4,
+    99999,
+    140326695.90108082
+   ],
+   "Shadow Strike": [
+    4,
+    60,
+    867381452.0012039
+   ],
+   "More Shadow Strikes": [
+    5,
+    100,
+    914816375.1695509
+   ],
+   "Critical Impact": [
+    15,
+    99999,
+    362730757.632364
+   ],
+   "Overpow Technique": [
+    1,
+    1,
+    130458299.11727801
+   ],
+   "Hidden Elixirs": [
+    1,
+    1,
+    1868866903.9413717
+   ],
+   "The Green Amber Clause of the Contract": [
+    0,
+    99999,
+    89464201.18841101
+   ]
+  },
+  "overstim": 0,
+  "upgrade_levels": 1544,
+  "snapshot": "20261126T2330"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "module": "shops",
+ "systems": [
+  "gemshop",
+  "ballot"
+ ],
+ "ok": true,
+ "card_lines": [
+  "This week's Ballot bonus: Boosts Artifact Find chance in Sailing by 1.31x (x2.29). Meritocracy: Multiplies how many Shiny Critters you get from Trapping by 7.80x (x1.7)."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "points": null,
+  "rotation": null,
+  "items": [],
+  "ar_event": [],
+  "ballot_next": null,
+  "merit_next": null,
+  "ballot_now": "Boosts Artifact Find chance in Sailing by 1.31x",
+  "merit_now": "Multiplies how many Shiny Critters you get from Trapping by 7.80x",
+  "vote_multi": 2.29,
+  "merit_multi": 1.7,
+  "snapshot": "20261126T2330"
+ }
+}
