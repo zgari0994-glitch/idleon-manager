@@ -1,0 +1,108 @@
+{
+ "module": "saltlick",
+ "systems": [
+  "saltlick"
+ ],
+ "ok": true,
+ "card_lines": [
+  "TOP: buy Salt Lick levels: Refinery Speed +3, Total Damage dealt. +17, Cooking Mastery EXP gain, a feature unlo +4.",
+  "Still to max: Refinery Speed 76/100, Total Damage dealt. 178/250, Cooking Mastery EXP gain, a feature unlo 35/100."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "upgrades": [
+   {
+    "desc": "Samples taken for the 3D printer are +10.0% bigger!",
+    "lv": 20,
+    "max": 20,
+    "buy": 0
+   },
+   {
+    "desc": "+4 Obol storage slots per upgrade! Circle, Square, Hexagon, then Sparkle, in that order.",
+    "lv": 8,
+    "max": 8,
+    "buy": 0
+   },
+   {
+    "desc": "+152% Refinery Speed for all cycle types. In other words, cycles take less time.",
+    "lv": 76,
+    "max": 100,
+    "buy": 3
+   },
+   {
+    "desc": "+20.0% Class EXP and Skill EXP. Not really sure what those blobulytes do with these souls...",
+    "lv": 100,
+    "max": 100,
+    "buy": 0
+   },
+   {
+    "desc": "+20 Max level for talent books from the library. RNG be with you!",
+    "lv": 10,
+    "max": 10,
+    "buy": 0
+   },
+   {
+    "desc": "+100% Liquid rate and Capacity for all liquids in Alchemy.",
+    "lv": 100,
+    "max": 100,
+    "buy": 0
+   },
+   {
+    "desc": "+50% Points Earned during Worship Tower Defense from killing monsters.",
+    "lv": 10,
+    "max": 10,
+    "buy": 0
+   },
+   {
+    "desc": "+10.0% Movement Speed. Doesn't work if you're above 170% move speed already.",
+    "lv": 25,
+    "max": 25,
+    "buy": 0
+   },
+   {
+    "desc": "+30% Multikill Rate for all worlds. All of them!",
+    "lv": 10,
+    "max": 10,
+    "buy": 0
+   },
+   {
+    "desc": "+17.8% Total Damage dealt.",
+    "lv": 178,
+    "max": 250,
+    "buy": 17
+   },
+   {
+    "desc": "+35% Cooking Mastery EXP gain, a feature unlocked via Rift 61 deep in World 4.",
+    "lv": 35,
+    "max": 100,
+    "buy": 4
+   }
+  ],
+  "ar_tier": "7/10",
+  "ar": [
+   {
+    "group": "Remaining Upgrades to max",
+    "tab": "default",
+    "label": "Damage",
+    "cur": "178",
+    "goal": "250"
+   },
+   {
+    "group": "Remaining Upgrades to max",
+    "tab": "default",
+    "label": "Refinery Speed",
+    "cur": "76",
+    "goal": "100"
+   },
+   {
+    "group": "Remaining Upgrades to max",
+    "tab": "default",
+    "label": "Cooking Mastery",
+    "cur": "35",
+    "goal": "100"
+   }
+  ],
+  "snapshot": "20261126T1304"
+ }
+}

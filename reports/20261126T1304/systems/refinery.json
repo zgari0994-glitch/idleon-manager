@@ -1,0 +1,274 @@
+{
+ "module": "refinery",
+ "systems": [
+  "refinery"
+ ],
+ "ok": true,
+ "card_lines": [
+  "The salts use 2 Dune Soul per cycle and 5 Frigid Soul per cycle and 2 Breezy Soul per cycle. Keep souls covered before spending them elsewhere.",
+  "Keep the Spore Cap, Copper, Goldfish, Fly and Pocket Sand prints, they feed the salts.",
+  "Salt Lick Refinery Speed is 76/100, Autistopher can buy 3 more now."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "snapshot": "20261126T1304",
+  "cycles_per_hr": {},
+  "salts": [
+   {
+    "salt": "Redox Salts",
+    "rank": 38,
+    "auto": 0,
+    "cycle": "Combustion",
+    "mats": [
+     [
+      "Spore Cap",
+      10
+     ],
+     [
+      "Copper Ore",
+      5
+     ]
+    ],
+    "have": {
+     "Spore Cap": 1049913420,
+     "Copper Ore": 1049956710
+    },
+    "safe": null,
+    "limit": null,
+    "balance_hr": null,
+    "refined": 285438,
+    "cap": 1000000
+   },
+   {
+    "salt": "Explosive Salts",
+    "rank": 28,
+    "auto": 0,
+    "cycle": "Combustion",
+    "mats": [
+     [
+      "Bullfrog Horn",
+      10
+     ],
+     [
+      "Forest Fibres",
+      5
+     ],
+     [
+      "Redox Salts",
+      2
+     ]
+    ],
+    "have": {
+     "Bullfrog Horn": 985623237,
+     "Forest Fibres": 135956304,
+     "Redox Salts": 9720381
+    },
+    "safe": null,
+    "limit": null,
+    "balance_hr": null,
+    "refined": 191824,
+    "cap": 1000000
+   },
+   {
+    "salt": "Spontaneity Salts",
+    "rank": 25,
+    "auto": 0,
+    "cycle": "Combustion",
+    "mats": [
+     [
+      "Pocket Sand",
+      50
+     ],
+     [
+      "Goldfish",
+      30
+     ],
+     [
+      "Fly",
+      40
+     ],
+     [
+      "Explosive Salts",
+      2
+     ]
+    ],
+    "have": {
+     "Pocket Sand": 942813200,
+     "Goldfish": 1049861250,
+     "Fly": 1049815000,
+     "Explosive Salts": 848664
+    },
+    "safe": null,
+    "limit": null,
+    "balance_hr": null,
+    "refined": 165322,
+    "cap": 1000000
+   },
+   {
+    "salt": "Dioxide Synthesis",
+    "rank": 20,
+    "auto": 0,
+    "cycle": "Synthesis",
+    "mats": [
+     [
+      "Floof Ploof",
+      10
+     ],
+     [
+      "Dune Soul",
+      2
+     ],
+     [
+      "Scorpie",
+      1
+     ],
+     [
+      "Spontaneity Salts",
+      1
+     ]
+    ],
+    "have": {
+     "Floof Ploof": 1047435724,
+     "Dune Soul": 5378946,
+     "Scorpie": 503189101,
+     "Spontaneity Salts": 6707865
+    },
+    "safe": null,
+    "limit": null,
+    "balance_hr": null,
+    "refined": 31360,
+    "cap": 800000
+   },
+   {
+    "salt": "Purple Salt",
+    "rank": 17,
+    "auto": 0,
+    "cycle": "Synthesis",
+    "mats": [
+     [
+      "Cracked Glass",
+      25
+     ],
+     [
+      "Bloach",
+      5
+     ],
+     [
+      "Sentient Cereal",
+      5
+     ],
+     [
+      "Mousey",
+      5
+     ],
+     [
+      "Dioxide Synthesis",
+      2
+     ]
+    ],
+    "have": {
+     "Cracked Glass": 1039236903,
+     "Bloach": 49087664,
+     "Sentient Cereal": 428385337,
+     "Mousey": 226335602,
+     "Dioxide Synthesis": 1368515
+    },
+    "safe": null,
+    "limit": null,
+    "balance_hr": null,
+    "refined": 25280,
+    "cap": 500000
+   },
+   {
+    "salt": "Nullo Salt",
+    "rank": 16,
+    "auto": 0,
+    "cycle": "Synthesis",
+    "mats": [
+     [
+      "Contact Lense",
+      50
+     ],
+     [
+      "Void Bar",
+      5
+     ],
+     [
+      "Wispy Lumber",
+      5
+     ],
+     [
+      "Flycicle",
+      5
+     ],
+     [
+      "Frigid Soul",
+      5
+     ],
+     [
+      "Purple Salt",
+      2
+     ]
+    ],
+    "have": {
+     "Contact Lense": 1020083985,
+     "Void Bar": 6902830,
+     "Wispy Lumber": 174954209,
+     "Flycicle": 318122705,
+     "Frigid Soul": 4008497,
+     "Purple Salt": 272009
+    },
+    "safe": null,
+    "limit": null,
+    "balance_hr": null,
+    "refined": 23360,
+    "cap": 400000
+   },
+   {
+    "salt": "Crosslink Salt",
+    "rank": 2,
+    "auto": 0,
+    "cycle": null,
+    "mats": [
+     [
+      "Light Lantern",
+      10
+     ],
+     [
+      "Breezy Soul",
+      2
+     ],
+     [
+      "Tuttle",
+      1
+     ],
+     [
+      "Nullo Salt",
+      1
+     ]
+    ],
+    "have": {
+     "Light Lantern": 1049999030,
+     "Breezy Soul": 10937789,
+     "Tuttle": 9068181,
+     "Nullo Salt": 674005
+    },
+    "safe": null,
+    "limit": null,
+    "balance_hr": null,
+    "refined": 152,
+    "cap": 200
+   }
+  ],
+  "throttle_ready": [],
+  "soul_use_hr": {},
+  "soul_per_cycle": {
+   "Dune Soul": 2,
+   "Frigid Soul": 5,
+   "Breezy Soul": 2
+  },
+  "locked": [],
+  "total_levels": 144
+ }
+}

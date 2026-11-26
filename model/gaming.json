@@ -1,20 +1,20 @@
 {
  "sprouts": [
-  19,
+  20,
   20
  ],
- "bits": 1.3837010054148e+50,
+ "bits": 1.44583266093204e+51,
  "since": [
   [
    "Dirty Shovel",
-   "4h"
+   "38h"
   ],
   [
    "Autumn Squirrel",
-   "24d"
+   "4d"
   ]
  ],
- "acorns": 666,
+ "acorns": 141,
  "shop": [],
  "snail": [
   13,
@@ -57,7 +57,7 @@
   {
    "group": "Snail Ranks",
    "tab": "General",
-   "label": "Envelopes owned: 0",
+   "label": "Envelopes owned: 5",
    "cur": "",
    "goal": "",
    "completed": true
@@ -82,21 +82,22 @@
    "group": "Snail Ranks",
    "tab": "Current Rank 13 Info",
    "label": "Step 2: Choose a safety level. 90.0% safety = 3 unspent mail",
-   "cur": "0",
-   "goal": "3"
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true
   },
   {
    "group": "Snail Ranks",
    "tab": "Current Rank 13 Info",
    "label": "Step 2: Choose a safety level. 95.0% safety = 15 unspent mail",
-   "cur": "0",
+   "cur": "5",
    "goal": "15"
   },
   {
    "group": "Snail Ranks",
    "tab": "Current Rank 13 Info",
    "label": "Step 2: Choose a safety level. 99.0% safety = 30 unspent mail",
-   "cur": "0",
+   "cur": "5",
    "goal": "30"
   },
   {
@@ -230,5 +231,5 @@
    "res": "snail-envelope"
   }
  ],
- "snapshot": "20261125T2340"
+ "snapshot": "20261126T1304"
 }

@@ -1,5 +1,5 @@
 {
- "snapshot": "20261125T2340",
+ "snapshot": "20261126T1304",
  "tier": "178 out of max (realistic) 452",
  "near": [
   {
@@ -9,10 +9,10 @@
    "tab": "Base Monster Materials",
    "owned": 7508269.0,
    "need": 2491731.0,
-   "rate_hr": 718316.2489709541,
+   "rate_hr": 0.0,
    "window": {
-    "from": "20261125T2028",
-    "hours": 3.2
+    "from": "20261125T2340",
+    "hours": 13.4
    },
    "replace": "its normal source"
   }
@@ -20,31 +20,37 @@
  "vendor": [
   {
    "item": "Potent Speed Potion",
-   "pct": 60.0,
+   "pct": 64.0,
    "group": "Timegated Item recommendations",
    "tab": "Vendor Shops"
   },
   {
    "item": "Potent Strength Potion",
-   "pct": 59.0,
+   "pct": 63.0,
    "group": "Timegated Item recommendations",
    "tab": "Vendor Shops"
   },
   {
    "item": "Potent EXP Potion",
-   "pct": 48.0,
+   "pct": 52.0,
    "group": "Timegated Item recommendations",
    "tab": "Vendor Shops"
   },
   {
    "item": "Potent Life Potion",
-   "pct": 36.0,
+   "pct": 40.0,
    "group": "Timegated Item recommendations",
    "tab": "Vendor Shops"
   },
   {
    "item": "Yeti Ham",
    "pct": 25.0,
+   "group": "Timegated Item recommendations",
+   "tab": "Vendor Shops"
+  },
+  {
+   "item": "Magma Barrel",
+   "pct": 13.0,
    "group": "Timegated Item recommendations",
    "tab": "Vendor Shops"
   },
@@ -61,7 +67,7 @@
    "tab": "Vendor Shops"
   },
   {
-   "item": "Magma Barrel",
+   "item": "Plasma Barrel",
    "pct": 10.0,
    "group": "Timegated Item recommendations",
    "tab": "Vendor Shops"
@@ -73,20 +79,14 @@
    "tab": "Vendor Shops"
   },
   {
-   "item": "Plasma Barrel",
-   "pct": 7.0,
-   "group": "Timegated Item recommendations",
-   "tab": "Vendor Shops"
-  },
-  {
    "item": "Golden Dubloon",
-   "pct": 5.0,
+   "pct": 6.0,
    "group": "Timegated Item recommendations",
    "tab": "Vendor Shops"
   },
   {
    "item": "Sheepie Dairy",
-   "pct": 5.0,
+   "pct": 6.0,
    "group": "Timegated Item recommendations",
    "tab": "Vendor Shops"
   },
@@ -110,15 +110,15 @@
   }
  ],
  "endangered": [
-  "Casual Confidante- Goldric: Only Winners have Portraits",
-  "Ketchup Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce",
-  "Employment Statistics- TP Pete: The Rats are to Blame!",
-  "Triumphant Treason- Goldric: Only Winners have Portraits",
-  "Mustard Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce",
-  "Strange Rock- Stiltzcho: No Stone Unturned",
-  "Monster Rating- XxX_Cattleprod_XxX: Ok, NOW it's Peak Gaming!",
   "Time Thingy- Funguy: Partycrastination",
+  "Strange Rock- Stiltzcho: No Stone Unturned",
+  "Casual Confidante- Goldric: Only Winners have Portraits",
+  "Triumphant Treason- Goldric: Only Winners have Portraits",
+  "Monster Rating- XxX_Cattleprod_XxX: Ok, NOW it's Peak Gaming!",
   "Loomi's Room Key- Loominadi: Rhyming is Key!",
+  "Employment Statistics- TP Pete: The Rats are to Blame!",
+  "Ketchup Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce",
+  "Mustard Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce",
   "Claiming Cashe- Goldric: Only Winners have Portraits"
  ]
 }

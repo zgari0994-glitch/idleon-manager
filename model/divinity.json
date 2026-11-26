@@ -1,46 +1,46 @@
 {
- "snapshot": "20261125T2340",
+ "snapshot": "20261126T1304",
  "head": {
-  "God rank": 2,
+  "God rank": 3,
   "Total Divinity LV": null,
-  "Divinity points": "450,869,705",
+  "Divinity points": "11,571,032",
   "Divinity PTS/hr": null
  },
- "points": 450869705.037012,
+ "points": 11571031.8492049,
  "gods": {
   "Snehebatu": {
-   "lv": 133,
+   "lv": 134,
    "max": 134,
-   "maxed": false,
-   "bless": 292.6,
+   "maxed": true,
+   "bless": 308.2,
    "bless_stat": "+% Divinity PTS Gain",
-   "have": 1.3837010054148e+50,
-   "next": 3.6906131425339465e+33,
-   "to_max": 2.1089217957336836e+33,
-   "material": "bits",
+   "have": null,
+   "next": "MAX",
+   "to_max": null,
+   "material": null,
    "linked_shown": []
   },
   "Arctis": {
    "lv": 124,
    "max": 134,
    "maxed": false,
-   "bless": 409.20000000000005,
+   "bless": 427.79999999999995,
    "bless_stat": "+% Divinity PTS Gain",
-   "have": 79897108945.6021,
+   "have": 393533768182.409,
    "next": 386571688.4438414,
    "to_max": 6825080557.367008,
    "material": "sailingGold",
    "linked_shown": []
   },
   "Nobisect": {
-   "lv": 125,
+   "lv": 130,
    "max": 134,
    "maxed": false,
-   "bless": 6250,
+   "bless": 6500,
    "bless_stat": "+ All Skill Efficiency",
-   "have": 1.3837010054148e+50,
-   "next": 2.3713588648135128e+48,
-   "to_max": 1.2452411207441927e+51,
+   "have": 1.44583266093204e+51,
+   "next": 1.367445015706769e+50,
+   "to_max": 1.1974640033376635e+51,
    "material": "bits",
    "linked_shown": []
   },
@@ -48,23 +48,23 @@
    "lv": 133,
    "max": 134,
    "maxed": false,
-   "bless": 438.90000000000003,
+   "bless": 458.84999999999997,
    "bless_stat": "+% Divinity PTS Gain",
-   "have": 1.1292471049496687e+33,
+   "have": 1.3319845195892447e+33,
    "next": 9.276394579507035e+22,
    "to_max": 7.135688138082335e+22,
    "material": "coins",
    "linked_shown": []
   },
   "Goharut": {
-   "lv": 100,
+   "lv": 108,
    "max": 134,
    "maxed": false,
-   "bless": 440.00000000000006,
+   "bless": 496.79999999999995,
    "bless_stat": "+% Sailing Speed",
-   "have": 1.3837010054148e+50,
-   "next": 8.171619668115669e+47,
-   "to_max": 2.5252748032057545e+61,
+   "have": 1.44583266093204e+51,
+   "next": 1.706455348124103e+51,
+   "to_max": 2.5252748031647534e+61,
    "material": "bits",
    "linked_shown": []
   },
@@ -72,9 +72,9 @@
    "lv": 100,
    "max": 134,
    "maxed": false,
-   "bless": 440.00000000000006,
+   "bless": 459.99999999999994,
    "bless_stat": "+% Divinity PTS Gain",
-   "have": 37224758.3280644,
+   "have": 41968534.95056726,
    "next": 467724.6880686005,
    "to_max": 160580316.9320125,
    "material": "particles",
@@ -84,9 +84,9 @@
    "lv": 133,
    "max": 134,
    "maxed": false,
-   "bless": 438.90000000000003,
+   "bless": 458.84999999999997,
    "bless_stat": "+% Sailing Speed",
-   "have": 1.1292471049496687e+33,
+   "have": 1.3319845195892447e+33,
    "next": 2.9155801066976095e+26,
    "to_max": 2.159688967924155e+26,
    "material": "coins",
@@ -96,22 +96,22 @@
    "lv": 75,
    "max": 134,
    "maxed": false,
-   "bless": 82.5,
+   "bless": 86.25,
    "bless_stat": "+% Total Damage",
-   "have": 37224758.3280644,
+   "have": 41968534.95056726,
    "next": 410237.98171922273,
    "to_max": 9063697661.495255,
    "material": "particles",
    "linked_shown": []
   },
   "Kattlekruk": {
-   "lv": 80,
+   "lv": 88,
    "max": 134,
    "maxed": false,
-   "bless": 88,
+   "bless": 101.19999999999999,
    "bless_stat": "+% Total Damage",
-   "have": 1.3837010054148e+50,
-   "next": 4.434264882430377e+47,
+   "have": 1.44583266093204e+51,
+   "next": 2.909321189362571e+51,
    "to_max": 4.297522278585713e+72,
    "material": "bits",
    "linked_shown": []
@@ -120,9 +120,9 @@
    "lv": 60,
    "max": 134,
    "maxed": false,
-   "bless": 330,
+   "bless": 345,
    "bless_stat": "+% Sailing Speed",
-   "have": 37224758.3280644,
+   "have": 41968534.95056726,
    "next": 485101.3031999343,
    "to_max": 476369982425.6131,
    "material": "particles",
@@ -130,92 +130,80 @@
   }
  },
  "blessing_rank": {
-  "bits": [
-   {
-    "item": "Snehebatu blessing 133/134",
-    "currency": "bits",
-    "balance": 1.3837010054148e+50,
-    "cost": 3.6906131425339465e+33,
-    "gain_pct": 0.5603667855323485,
-    "stat": "+% Divinity PTS Gain",
-    "note": "you can MAX it",
-    "share": 2.667204206755339e-17,
-    "afford": true,
-    "score": 2.1009519410365516e+16
-   },
-   {
-    "item": "Goharut blessing 100/134",
-    "currency": "bits",
-    "balance": 1.3837010054148e+50,
-    "cost": 8.171619668115669e+47,
-    "gain_pct": 0.8148148148148149,
-    "stat": "+% Sailing Speed",
-    "note": "",
-    "share": 0.0059056253020977,
-    "afford": true,
-    "score": 137.9726571080271
-   },
-   {
-    "item": "Kattlekruk blessing 80/134",
-    "currency": "bits",
-    "balance": 1.3837010054148e+50,
-    "cost": 4.434264882430377e+47,
-    "gain_pct": null,
-    "stat": "+% Total Damage",
-    "note": "",
-    "share": 0.0032046409340441956,
-    "afford": true,
-    "score": null
-   },
-   {
-    "item": "Nobisect blessing 125/134",
-    "currency": "bits",
-    "balance": 1.3837010054148e+50,
-    "cost": 2.3713588648135128e+48,
-    "gain_pct": null,
-    "stat": "+ All Skill Efficiency",
-    "note": "",
-    "share": 0.017137798234833523,
-    "afford": true,
-    "score": null
-   }
-  ],
   "sailingGold": [
    {
     "item": "Arctis blessing 124/134",
     "currency": "sailingGold",
-    "balance": 79897108945.6021,
+    "balance": 393533768182.409,
     "cost": 386571688.4438414,
-    "gain_pct": 0.648075412411626,
+    "gain_pct": 0.6536566881394468,
     "stat": "+% Divinity PTS Gain",
     "note": "you can MAX it",
-    "share": 0.004838368916540378,
+    "share": 0.000982308812352437,
     "afford": true,
-    "score": 133.94501816430838
+    "score": 665.4289159577702
+   }
+  ],
+  "bits": [
+   {
+    "item": "Goharut blessing 108/134",
+    "currency": "bits",
+    "balance": 1.44583266093204e+51,
+    "cost": 1.706455348124103e+51,
+    "gain_pct": 0.7707774798927614,
+    "stat": "+% Sailing Speed",
+    "note": "",
+    "share": 1.1802578501885934,
+    "afford": false,
+    "score": 0.6530585496801388
+   },
+   {
+    "item": "Nobisect blessing 130/134",
+    "currency": "bits",
+    "balance": 1.44583266093204e+51,
+    "cost": 1.367445015706769e+50,
+    "gain_pct": null,
+    "stat": "+ All Skill Efficiency",
+    "note": "you can MAX it",
+    "share": 0.09457837360135858,
+    "afford": true,
+    "score": null
+   },
+   {
+    "item": "Kattlekruk blessing 88/134",
+    "currency": "bits",
+    "balance": 1.44583266093204e+51,
+    "cost": 2.909321189362571e+51,
+    "gain_pct": null,
+    "stat": "+% Total Damage",
+    "note": "",
+    "share": 2.012211556686726,
+    "afford": false,
+    "score": null
    }
   ],
   "coins": [
    {
     "item": "Harriep blessing 133/134",
     "currency": "coins",
-    "balance": 1.1292471049496687e+33,
+    "balance": 1.3319845195892447e+33,
     "cost": 9.276394579507035e+22,
-    "gain_pct": 0.6123585080719984,
+    "gain_pct": 0.6173391786704842,
     "stat": "+% Divinity PTS Gain",
     "note": "you can MAX it",
-    "share": 8.214672004778343e-11,
+    "share": 6.964341133910231e-11,
     "afford": true,
-    "score": 7454448670.814845
+    "score": 8864286898.075455
    },
    {
     "item": "Purrmep blessing 133/134",
     "currency": "coins",
-    "balance": 1.1292471049496687e+33,
+    "balance": 1.3319845195892447e+33,
     "cost": 2.9155801066976095e+26,
     "gain_pct": null,
     "stat": "+% Sailing Speed",
     "note": "you can MAX it",
-    "share": 2.581879638139572e-07,
+    "share": 2.1888993932127016e-07,
     "afford": true,
     "score": null
    }
@@ -224,36 +212,36 @@
    {
     "item": "Omniphau blessing 100/134",
     "currency": "particles",
-    "balance": 37224758.3280644,
+    "balance": 41968534.95056726,
     "cost": 467724.6880686005,
-    "gain_pct": 0.8148148148148149,
+    "gain_pct": 0.8214285714285713,
     "stat": "+% Divinity PTS Gain",
     "note": "",
-    "share": 0.012564881790407077,
+    "share": 0.01114465131126238,
     "afford": true,
-    "score": 64.8485857970349
+    "score": 73.70608092497837
    },
    {
     "item": "Flutterbis blessing 75/134",
     "currency": "particles",
-    "balance": 37224758.3280644,
+    "balance": 41968534.95056726,
     "cost": 410237.98171922273,
     "gain_pct": null,
     "stat": "+% Total Damage",
     "note": "",
-    "share": 0.011020568034418565,
+    "share": 0.009774894029596757,
     "afford": true,
     "score": null
    },
    {
     "item": "Bagur blessing 60/134",
     "currency": "particles",
-    "balance": 37224758.3280644,
+    "balance": 41968534.95056726,
     "cost": 485101.3031999343,
     "gain_pct": null,
     "stat": "+% Sailing Speed",
     "note": "",
-    "share": 0.013031684421553596,
+    "share": 0.011558690427752889,
     "afford": true,
     "score": null
    }
@@ -273,14 +261,14 @@
    "cost": 93750000
   },
   {
-   "lv": 0,
-   "desc": "God Rank now also gives 1.00x Class EXP to all players! Total Bonus:1.00x Class EXP",
+   "lv": 1,
+   "desc": "God Rank now also gives 1.01x Class EXP to all players! Total Bonus:1.02x Class EXP",
    "needs_lv": 900,
-   "cost": 360000000
+   "cost": 396000000.00000006
   },
   {
    "lv": 0,
-   "desc": "Divinity Skill Lv boosts Minor Link Bonuses a bit more! (Your Divinity LV of 199 boosts Minor Link Bonuses by ",
+   "desc": "Divinity Skill Lv boosts Minor Link Bonuses a bit more! (Your Divinity LV of 198 boosts Minor Link Bonuses by ",
    "needs_lv": 1200,
    "cost": 2160000000
   },
@@ -380,13 +368,13 @@
   {
    "n": 1,
    "chance": 1,
-   "cost": "28,591,804",
-   "afford": true
+   "cost": "104,041,409",
+   "afford": false
   },
   {
    "n": 2,
    "chance": 25,
-   "cost": "714,795,103",
+   "cost": "2,601,035,233",
    "afford": false
   }
  ],

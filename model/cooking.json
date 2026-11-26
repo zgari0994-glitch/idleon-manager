@@ -1,18 +1,9 @@
 {
- "snapshot": "20261125T2340",
+ "snapshot": "20261126T1304",
  "cap": 120,
  "cap_parts": {},
  "cap_missing": [],
  "meals_open": [
-  {
-   "name": "Divorce Cake",
-   "lv": 61,
-   "bonus": "+{% Mine Currency gain",
-   "next_h": null,
-   "next": null,
-   "ladles": null,
-   "short": 5.008276056611178e+41
-  },
   {
    "name": "Giga Chip",
    "lv": 63,
@@ -21,6 +12,15 @@
    "next": null,
    "ladles": null,
    "short": 5.7158337106887e+43
+  },
+  {
+   "name": "Divorce Cake",
+   "lv": 64,
+   "bonus": "+{% Mine Currency gain",
+   "next_h": null,
+   "next": null,
+   "ladles": null,
+   "short": 5.7482287371617606e+44
   },
   {
    "name": "Tasty Treat",
@@ -47,7 +47,7 @@
    "next_h": null,
    "next": null,
    "ladles": null,
-   "short": 7.40430011447564e+57
+   "short": 7.266191055312542e+57
   },
   {
    "name": "Woahtermelon",
@@ -677,9 +677,9 @@
    "meal": "",
    "rate": null,
    "speed": [
-    368,
+    399,
     null,
-    2065.283533710933
+    4203.738795912026
    ],
    "fire": [
     302,
@@ -697,9 +697,9 @@
    "meal": "",
    "rate": null,
    "speed": [
-    356,
+    394,
     null,
-    1564.8291238145605
+    3751.341333163474
    ],
    "fire": [
     208,
@@ -717,9 +717,9 @@
    "meal": "",
    "rate": null,
    "speed": [
-    345,
+    369,
     null,
-    1211.4976425948746
+    2112.8255084105317
    ],
    "fire": [
     177,
@@ -737,9 +737,9 @@
    "meal": "",
    "rate": null,
    "speed": [
-    335,
+    362,
     null,
-    959.270737574723
+    1798.0284524470248
    ],
    "fire": [
     43,
@@ -757,9 +757,9 @@
    "meal": "",
    "rate": null,
    "speed": [
-    321,
+    348,
     null,
-    690.5771950074068
+    1299.545153797106
    ],
    "fire": [
     139,
@@ -777,9 +777,9 @@
    "meal": "",
    "rate": null,
    "speed": [
-    316,
+    340,
     null,
-    613.9893178094453
+    1078.537951271733
    ],
    "fire": [
     103,
@@ -797,9 +797,9 @@
    "meal": "",
    "rate": null,
    "speed": [
-    289,
+    321,
     null,
-    322.9423734092083
+    690.5771950074068
    ],
    "fire": [
     85,
@@ -817,9 +817,9 @@
    "meal": "",
    "rate": null,
    "speed": [
-    276,
+    304,
     null,
-    236.33112748722223
+    462.0878823515293
    ],
    "fire": [
     51,
@@ -827,9 +827,9 @@
     1.314193033395575
    ],
    "luck": [
-    29,
+    30,
     null,
-    1.1107846418516576
+    1.116465905536358
    ]
   },
   {
@@ -837,9 +837,9 @@
    "meal": "",
    "rate": null,
    "speed": [
-    271,
+    301,
     null,
-    209.32553972231642
+    430.10400931000635
    ],
    "fire": [
     38,
@@ -857,29 +857,29 @@
    "meal": "",
    "rate": null,
    "speed": [
-    248,
+    280,
     null,
-    119.49153943319048
+    260.2624187741056
    ],
    "fire": [
-    19,
+    20,
     null,
-    1.0681751642164048
+    1.0738564279011051
    ],
    "luck": [
-    17,
+    18,
     null,
-    1.059653268689354
+    1.0653345323740546
    ]
   }
  ],
  "spice_claims": null,
  "mastery": {
   "lv": 5,
-  "rate": 2.6,
+  "rate": 2.7,
   "ttl": null
  },
- "divorce_cake": 61,
+ "divorce_cake": 64,
  "ribbons": [
   4,
   19
@@ -888,6 +888,6 @@
  "speed_x1": [],
  "causticolumn": [
   "Causticolumn Omnipotent->Transcendent",
-  31383
+  30775
  ]
 }

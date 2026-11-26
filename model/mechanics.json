@@ -674,7 +674,7 @@
   },
   {
    "name": "Console Chip",
-   "lv": 3,
+   "lv": 4,
    "max": 7,
    "section": "Bonuses"
   },
@@ -1316,7 +1316,7 @@
   },
   {
    "name": "Daily Shopping Spree",
-   "lv": 3,
+   "lv": 4,
    "max": 4,
    "effect": "The first { upgrades you buy each day for Masterclasses are 80% cheaper"
   },
@@ -1456,6 +1456,16 @@
    "effect": "You can now speak to the knife found in the map past Glimbo to play the Sushi Station game!<br>Also, }x more Bucks gained from your Sushi!"
   },
   {
+   "name": "Menagerie Missionary",
+   "lv": 1,
+   "effect": "Unlocks +| more Missions for the Luminous Menagerie, so you can claim more shells and rank up!<br>Also, +{% hourly Lumi Gains"
+  },
+  {
+   "name": "Lil' Baby Menagerie",
+   "lv": 1,
+   "effect": "Adds a baby menagerie jellyfish here in town for quick access to the Luminous Menagerie!<br>Also boosts hourly Lumi Gains by }x"
+  },
+  {
    "name": "Glimbo BOGO Offer",
    "lv": 1,
    "effect": "Some of Glimbo's trades give +| additional LVs! This works retroactively. Also, }x Coin gain"
@@ -1472,7 +1482,7 @@
   },
   {
    "name": "Spelunking Research",
-   "lv": 1,
+   "lv": 2,
    "effect": "Boosts Spelunking POW by +{% every day, FOREVER!<br>Total Boost:^x POW"
   },
   {
@@ -1604,38 +1614,38 @@
   },
   {
    "class": "Warrior",
-   "level": 901,
+   "level": 902,
    "value": null
   },
   {
    "class": "Barbarian",
-   "level": 901,
+   "level": 902,
    "value": null
   },
   {
    "class": "Squire",
-   "level": 854,
+   "level": 857,
    "value": null
   },
   {
    "class": "Blood Berserker",
-   "level": 901,
+   "level": 902,
    "value": null
   },
   {
    "class": "Death Bringer",
-   "level": 901,
+   "level": 902,
    "value": null
   },
   {
    "class": "Divine Knight",
-   "level": 854,
+   "level": 857,
    "value": null
   },
   {
    "class": "Royal Guardian",
-   "level": 854,
-   "value": 4.754098360655738
+   "level": 857,
+   "value": 4.7643979057591626
   },
   {
    "class": "Archer",
@@ -1644,7 +1654,7 @@
   },
   {
    "class": "Bowman",
-   "level": 867,
+   "level": 871,
    "value": null
   },
   {
@@ -1654,7 +1664,7 @@
   },
   {
    "class": "Siege Breaker",
-   "level": 867,
+   "level": 871,
    "value": null
   },
   {
@@ -1702,15 +1712,15 @@
   {
    "name": "Archlord of the Pirates",
    "type": "Drop Rate and Class EXP",
-   "kills": 6123,
-   "value": 16.524899734289008,
+   "kills": 6208,
+   "value": 16.551026727982073,
    "how": "Farm more Plunder Kills with Siege Breaker for Drop Rate Crystal Setup at W5 Citringes for ~20k per day"
   },
   {
    "name": "King of the Remembered",
    "type": "Printer Output",
-   "kills": 2749986,
-   "value": 22.873248723261707,
+   "kills": 2756063,
+   "value": 22.876653987248336,
    "how": "Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from"
   },
   {
@@ -1763,7 +1773,7 @@
    "blessing": null
   }
  ],
- "achievements_done": 215,
+ "achievements_done": 216,
  "achievements_open": [
   "Hitting the Mark",
   "Minecart Maniac",
@@ -1800,7 +1810,6 @@
   "I LOVE These Mobs",
   "Hunned Times a Day",
   "Space Party!!!",
-  "Hibernating Gamer",
   "Soda Poisoning",
   "The True Pirate",
   "The True Emperor",

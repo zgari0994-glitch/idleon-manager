@@ -1,0 +1,528 @@
+{
+ "module": "atom",
+ "systems": [
+  "atom_collider"
+ ],
+ "ok": true,
+ "card_lines": [
+  "AutoReview's top atom is Helium: 452M particles, about 48.2 days away at your rate (8.5M a day).",
+  "Also affordable now: Aluminium (90.4K), Silicon (113K), Phosphorus (181K), Sulfur (678K), Lithium (1.44M), Nitrogen (1.61M), Hydrogen (3.1M), Beryllium (4.09M), Chlorine (4.52M), Carbon (4.7M), Oxygen (5.83M), Sodium (12.5M), Magnesium (16.4M), Fluoride (17.4M).",
+  "12 of 17 atoms unlocked. Aluminium comes from Compass Nomadic 32 on Autistacular."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "particles": 41968534.95056726,
+  "per_hr": 354196.4172228498,
+  "cost_cut": 121.33974706413731,
+  "unlocked": [
+   12,
+   17
+  ],
+  "atoms": [
+   {
+    "atom": "Hydrogen",
+    "name": "Stamp Decreaser",
+    "lv": 40,
+    "max": 50,
+    "cost": 3101277.44683194,
+    "eta": null,
+    "locked": false,
+    "desc": "Every day you log in, the resource cost to upgrade a stamp's max lv decreases by {% up to a max of 90%. This reduction r"
+   },
+   {
+    "atom": "Helium",
+    "name": "Talent Power Stacker",
+    "lv": 8,
+    "max": 50,
+    "cost": 451794136.9609641,
+    "eta": "48.2 days",
+    "locked": false,
+    "desc": "All talents that give more bonus per 'Power of 10 resources you own' will count +{ more powers of 10 than you actually o"
+   },
+   {
+    "atom": "Lithium",
+    "name": "Bubble Insta Expander",
+    "lv": 40,
+    "max": 50,
+    "cost": 1444541.559591704,
+    "eta": null,
+    "locked": false,
+    "desc": "No Bubble Left Behind bonus now has a 15% chance to level up the lowest bubble out of ALL bubbles, not just the first 15"
+   },
+   {
+    "atom": "Beryllium",
+    "name": "Post Office Penner",
+    "lv": 40,
+    "max": 50,
+    "cost": 4090443.9722218523,
+    "eta": null,
+    "locked": false,
+    "desc": "Every day, 1 silver pen from your Post Office will instantly convert into 1 PO Box for all characters. This conversion h"
+   },
+   {
+    "atom": "Boron",
+    "name": "Particle Upgrader",
+    "lv": 40,
+    "max": 50,
+    "cost": 395594501.8978023,
+    "eta": "41.6 days",
+    "locked": false,
+    "desc": "When a bubble has a cost of 100M or more to upgrade, you can instead spend particles. However, you can only do this { ti"
+   },
+   {
+    "atom": "Carbon",
+    "name": "Wizard Maximizer",
+    "lv": 30,
+    "max": 50,
+    "cost": 4700479.969691214,
+    "eta": null,
+    "locked": false,
+    "desc": "All wizard towers in construction get +{ max levels. Also, all wizards get a +2% damage bonus for each wizard tower leve"
+   },
+   {
+    "atom": "Nitrogen",
+    "name": "Construction Trimmer",
+    "lv": 25,
+    "max": 50,
+    "cost": 1614450.316143903,
+    "eta": null,
+    "locked": false,
+    "desc": "Gold trimmed construction slots give +{% more build rate than before. Also, you now have 1 additional trimmed slot."
+   },
+   {
+    "atom": "Oxygen",
+    "name": "Library Booker",
+    "lv": 28,
+    "max": 50,
+    "cost": 5829050.218867243,
+    "eta": null,
+    "locked": false,
+    "desc": "Increases the Checkout Refresh Speed of the Talent Library by +{%. Also, the Minimum Talent LV is increased by +<, and t"
+   },
+   {
+    "atom": "Fluoride",
+    "name": "Void Plate Chef",
+    "lv": 30,
+    "max": 50,
+    "cost": 17433943.587463703,
+    "eta": null,
+    "locked": false,
+    "desc": "Multiplies your cooking speed by +{% for every meal at Lv 30+. In other words, every plate with a studded black void pla"
+   },
+   {
+    "atom": "Neon",
+    "name": "Damage N' Cheapener",
+    "lv": 32,
+    "max": 50,
+    "cost": 43245320.1398312,
+    "eta": "0.2 days",
+    "locked": false,
+    "desc": "Increases your total damage by +{%. Also, reduces the cost of all atom upgrades by {% too."
+   },
+   {
+    "atom": "Sodium",
+    "name": "Snail Kryptonite",
+    "lv": 8,
+    "max": 50,
+    "cost": 12491204.298696736,
+    "eta": null,
+    "locked": false,
+    "desc": "When you fail a snail upgrade, it's LV gets reset to the nearest 5 (Up to Lv {) instead of back to 0, like failing at Lv"
+   },
+   {
+    "atom": "Magnesium",
+    "name": "Trap Compounder",
+    "lv": 10,
+    "max": 50,
+    "cost": 16392845.929336898,
+    "eta": null,
+    "locked": false,
+    "desc": "Every day, critters gained from traps increases by +{%. This bonus is capped at 60 days, and resets back to +0% when a n"
+   },
+   {
+    "atom": "Aluminium",
+    "name": "Stamp Supercharger",
+    "lv": 0,
+    "max": 50,
+    "cost": 90358,
+    "eta": null,
+    "locked": true,
+    "desc": "Stamp Doublers give an extra +{% MORE bonus than the normal +100% they give!"
+   },
+   {
+    "atom": "Silicon",
+    "name": "Minehead Currency Printer",
+    "lv": 0,
+    "max": 50,
+    "cost": 112948,
+    "eta": null,
+    "locked": true,
+    "desc": "Boosts your Minehead Currency gain by +{%! This is a new multiplier, so it's always relevant!"
+   },
+   {
+    "atom": "Phosphorus",
+    "name": "Sushi Bucks Generator",
+    "lv": 0,
+    "max": 50,
+    "cost": 180717,
+    "eta": null,
+    "locked": true,
+    "desc": "Boosts your Sushi Station Bucks gain by +{%! This is a new multiplier, so it's always relevant!"
+   },
+   {
+    "atom": "Sulfur",
+    "name": "Jelly Bloodcell Juicer",
+    "lv": 0,
+    "max": 50,
+    "cost": 677691,
+    "eta": null,
+    "locked": true,
+    "desc": "Boosts your Jelly Operator Bloodcell gain by +{%! Can you guess whether this is a new multiplier? I'll give you a hint, "
+   },
+   {
+    "atom": "Chlorine",
+    "name": "Lumi Gainer",
+    "lv": 0,
+    "max": 50,
+    "cost": 4517941.369609641,
+    "eta": null,
+    "locked": true,
+    "desc": "Boosts your hourly Lumi Gain over at the Luminous Menagerie by +{%! This is NOT a new multiplier, you'll have to live wi"
+   }
+  ],
+  "ar_tier": "11/13",
+  "ar": [
+   {
+    "group": "Level Priority Atoms",
+    "tab": "To reach Tier 12",
+    "label": "Helium - Talent Power Stacker",
+    "cur": "8",
+    "goal": "9"
+   },
+   {
+    "group": "Level Priority Atoms",
+    "tab": "To reach Optional Tier 14",
+    "label": "Aluminium - Stamp Supercharger",
+    "cur": "0",
+    "goal": "50"
+   },
+   {
+    "group": "Level Priority Atoms",
+    "tab": "To reach Optional Tier 14",
+    "label": "Neon - Damage N' Cheapener",
+    "cur": "32",
+    "goal": "50"
+   },
+   {
+    "group": "Level Priority Atoms",
+    "tab": "To reach Optional Tier 14",
+    "label": "Hydrogen - Stamp Decreaser",
+    "cur": "40",
+    "goal": "45"
+   },
+   {
+    "group": "Level Priority Atoms",
+    "tab": "To reach Optional Tier 14",
+    "label": "Helium - Talent Power Stacker",
+    "cur": "8",
+    "goal": "13"
+   },
+   {
+    "group": "Level Priority Atoms",
+    "tab": "To reach Optional Tier 14",
+    "label": "Lithium - Bubble Insta Expander",
+    "cur": "40",
+    "goal": "50"
+   },
+   {
+    "group": "Level Priority Atoms",
+    "tab": "To reach Optional Tier 14",
+    "label": "Boron - Particle Upgrader",
+    "cur": "40",
+    "goal": "50"
+   },
+   {
+    "group": "Level Priority Atoms",
+    "tab": "To reach Optional Tier 14",
+    "label": "Nitrogen - Construction Trimmer",
+    "cur": "25",
+    "goal": "50"
+   },
+   {
+    "group": "Level Priority Atoms",
+    "tab": "To reach Optional Tier 14",
+    "label": "Carbon - Wizard Maximizer",
+    "cur": "30",
+    "goal": "50"
+   },
+   {
+    "group": "Level Priority Atoms",
+    "tab": "To reach Optional Tier 14",
+    "label": "Oxygen - Library Booker",
+    "cur": "28",
+    "goal": "50"
+   },
+   {
+    "group": "Level Priority Atoms",
+    "tab": "To reach Optional Tier 14",
+    "label": "Fluoride - Void Plate Chef",
+    "cur": "30",
+    "goal": "50"
+   },
+   {
+    "group": "Level Priority Atoms",
+    "tab": "To reach Optional Tier 14",
+    "label": "Magnesium - Trap Compounder",
+    "cur": "10",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Alerts",
+    "label": "Collider switch status: On.Recommended to select Off instead to avoid nuking your storage from a single misclick.",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Particles Owned: 41,968,535",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Hydrogen - Stamp Decreaser: Every day you log in, the resource cost to upgrade a stamp's max lv decreases by 40% up to a max of 90%. This reduction resets back to 0% when upgrading any stamp max lv.(1 per level)",
+    "cur": "40",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Helium - Talent Power Stacker: All talents that give more bonus per 'Power of 10 resources you own' will count +8 more powers of 10 than you actually own when giving the bonus.(1 per level)",
+    "cur": "8",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Lithium - Bubble Insta Expander: No Bubble Left Behind bonus now has a 15% chance to level up the lowest bubble out of ALL bubbles, not just the first 15 of each colour. Also, +40% chance to give +1 additional Lv.(1 per level)",
+    "cur": "40",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Beryllium - Post Office Penner: Every day, 1 silver pen from your Post Office will instantly convert into 1 PO Box for all characters. This conversion happens 280 times per day.(7 per level)",
+    "cur": "40",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Boron - Particle Upgrader: When a bubble has a cost of 100M or more to upgrade, you can instead spend particles. However, you can only do this 80 times a day, after which the cost will return to resources.(2 per level)",
+    "cur": "40",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Carbon - Wizard Maximizer: All wizard towers in construction get +60 max levels. Also, all wizards get a +2% damage bonus for each wizard tower level above 50 in construction. Total bonus: 1.600% wizard dmg.(2 per level)",
+    "cur": "30",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Nitrogen - Construction Trimmer: Gold trimmed construction slots give +375% more build rate than before. Also, you now have 1 additional trimmed slot.(15 per level)",
+    "cur": "25",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Oxygen - Library Booker: Increases the Checkout Refresh Speed of the Talent Library by +56%. Also, the Minimum Talent LV is increased by +(2 per level)",
+    "cur": "28",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Fluoride - Void Plate Chef: Multiplies your cooking speed by +30% for every meal at Lv 30+. In other words, every plate with a studded black void plate. Total bonus: >% cooking speed(1 per level)",
+    "cur": "30",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Neon - Damage N' Cheapener: Increases your total damage by +32%. Also, reduces the cost of all atom upgrades by 32% too.(1 per level)",
+    "cur": "32",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Sodium - Snail Kryptonite: When you fail a snail upgrade, it's LV gets reset to the nearest 5 (Up to Lv 40) instead of back to 0, like failing at Lv 7 will reset to Lv 5.(5 per level)",
+    "cur": "8",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Magnesium - Trap Compounder: Every day, critters gained from traps increases by +10%. This bonus is capped at 60 days, and resets back to +0% when a new trap is placed.3/100 days since last retrap(1 per level)",
+    "cur": "10",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Aluminium - Stamp Supercharger: Stamp Doublers give an extra +0% MORE bonus than the normal +100% they give!(1 per level)",
+    "cur": "0",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Silicon - Minehead Currency Printer: Boosts your Minehead Currency gain by +0%! This is a new multiplier, so it's always relevant!(1 per level)",
+    "cur": "0",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Phosphorus - Sushi Bucks Generator: Boosts your Sushi Station Bucks gain by +0%! This is a new multiplier, so it's always relevant!(1 per level)",
+    "cur": "0",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Sulfur - Jelly Bloodcell Juicer: Boosts your Jelly Operator Bloodcell gain by +0%! Can you guess whether this is a new multiplier? I'll give you a hint, it's always relevant...(1 per level)",
+    "cur": "0",
+    "goal": "50"
+   },
+   {
+    "group": "Collider Alerts and General Information",
+    "tab": "Information",
+    "label": "Chlorine - Lumi Gainer: Boosts your hourly Lumi Gain over at the Luminous Menagerie by +0%! This is NOT a new multiplier, you'll have to live with an additive atom bonus, womp womp.(2 per level)",
+    "cur": "0",
+    "goal": "50"
+   },
+   {
+    "group": "Sources of Max Atom Levels",
+    "tab": "default",
+    "label": "Purchasing the final SuperBit in Gaming will increase the max level of all Atoms by 10",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Sources of Max Atom Levels",
+    "tab": "default",
+    "label": "Nomadic-17: Atomic Potential: +0.00 Max LV for all atoms in the Atom Collider(1.00 per level)",
+    "cur": "0",
+    "goal": "20",
+    "res": "compass-dust-2"
+   },
+   {
+    "group": "Sources of Max Atom Levels",
+    "tab": "default",
+    "label": "Event Shop - Higgs Boson: All atoms have a +20 higher Max LV",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Sources of Max Atom Levels",
+    "tab": "default",
+    "label": "Menagerie - Boost 18: +0 Max LVs for all AtomsNeeds a higher Menagerie Rank",
+    "cur": "0",
+    "goal": "\u221e"
+   },
+   {
+    "group": "Sources of Atom Collider Cost Reduction",
+    "tab": "default",
+    "label": "W5 Taskboard Merit: 28/28%The in-game display is incorrect. Don't @ me.",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Sources of Atom Collider Cost Reduction",
+    "tab": "default",
+    "label": "Neon - Damage N' Cheapener: 32/50%",
+    "cur": "32",
+    "goal": "50"
+   },
+   {
+    "group": "Sources of Atom Collider Cost Reduction",
+    "tab": "default",
+    "label": "Superbit: Atom Redux: 10/10%",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Sources of Atom Collider Cost Reduction",
+    "tab": "default",
+    "label": "Atom Collider building: 12.7/20.0%",
+    "cur": "127",
+    "goal": "200"
+   },
+   {
+    "group": "Sources of Atom Collider Cost Reduction",
+    "tab": "default",
+    "label": "Atom Split bubble: 9.45/14%",
+    "cur": "83",
+    "goal": "",
+    "completed": true,
+    "res": "mongo-worm-slices"
+   },
+   {
+    "group": "Sources of Atom Collider Cost Reduction",
+    "tab": "default",
+    "label": "Stamps - Atomic Stamp: +12.59% lower Atom upgrade costs",
+    "cur": "136",
+    "goal": "144",
+    "res": "bamboo"
+   },
+   {
+    "group": "Sources of Atom Collider Cost Reduction",
+    "tab": "default",
+    "label": "Death of the Atom Price: All Atoms are +0.0% cheaper to upgrade(1.00 per level after Writhing Grimoire)Requires 4457 more Upgrades to unlock",
+    "cur": "0",
+    "goal": "999999",
+    "res": "grimoire-bone-3"
+   },
+   {
+    "group": "Sources of Atom Collider Cost Reduction",
+    "tab": "default",
+    "label": "Nomadic-15: Atomic Cost Crash: All Atoms are +4.00% cheaper to upgrade(1.00 per level)",
+    "cur": "4",
+    "goal": "999999",
+    "res": "compass-dust-1"
+   },
+   {
+    "group": "Sources of Atom Collider Cost Reduction",
+    "tab": "default",
+    "label": "Remaining cost: 47.91%",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Sources of Atom Collider Cost Reduction",
+    "tab": "default",
+    "label": "Total discount: 52.09% off",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   }
+  ],
+  "snapshot": "20261126T1304"
+ }
+}

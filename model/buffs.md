@@ -1,5 +1,5 @@
-# Buff sources · save 20261125T2228 vs 20261125T2028
-25 stats, 207 sources owned, 207 missing
+# Buff sources · save 20261126T1304 vs 20261125T2340
+25 stats, 210 sources owned, 203 missing
 
 ## Active: Sources of Crystal Spawn Chance  (12 owned / 3 missing)
 - [x] Chocolatey Chip for more Crystal Mobs
@@ -18,7 +18,7 @@
 - [x] Best Crystal Spawn Chance on Non-Jman: 6.1428% (1 in 16.28)
 - [x] Best Crystal Spawn Chance on Jman: 20.6833% (1 in 4.83)
 
-## Drop Rate: Account wide sources of Drop Rate (+5287.7%)  (33 owned / 48 missing)
+## Drop Rate: Account wide sources of Drop Rate (+5329.4%)  (34 owned / 46 missing)
 - [ ] Bosses n Nightmares- Domeo Magmus card:+4.5/10.5% Total Drop Rate (Passive) 3 -> 7 · Autistronaut
 - [ ] Smolderin' Plateau- Ancient Golem card:+12/28% Total Drop Rate (Passive) 3 -> 7 · Autistronaut
 - [ ] Smolderin' Plateau- Crystal Glunko card:+0/42% Total Drop Rate (Passive) 0 -> 7 · Autistronaut
@@ -26,14 +26,13 @@
 - [ ] Events- Luckulyte card:+0/21% Drop Rate (Passive) 0 -> 7 · Autistronaut
 - [ ] Guild Bonus - Gold Charm:+12.97% Total Drop Rate 24 -> 50 · account
 - [ ] Codex - Drop Rate Friend Bonus: +22.49/75% Drop RateFrom IdleOnLech (1844) 22.49 -> 75 · account
-- [ ] Upgrade Vault - Vault Mastery: 1.50x higher bonuses from all the Vault Upgrades above with the Blue Highlight! 50 -> 53 · Autistopher
-- [x] Upgrade Vault - Drops for Days: +75.00% Drop Rate, also known by the IdleOn community as DR(1.50 per level aft
+- [x] Upgrade Vault - Drops for Days: +76.50% Drop Rate, also known by the IdleOn community as DR(1.53 per level aft
 - [x] Gem Shop - Deathbringer Pack: +200/200% Drop Rate
 - [ ] Skull of Major Droprate: +0.0% Drop Rate bonus for all characters, always!(1.00 per level after Writhing Grimo 0 -> 999999 · account
 - [ ] Plutus the Prosperous: Not built (1/50)1.00x Drop Rate 0 -> 1 · account
 - [ ] Owl - Drop Rate:+825% Drop Rate 10 -> ∞ · Autistopher
 - [ ] Stamps - Golden Sixes Stamp: +26.47% Drop RateNote: Can be increased by Exalting the stamp 90 -> 210 · Autistopher
-- [ ] Arcade Bonus 27: +26.29/60.3% Drop Rate 78 -> 101 · Autisticles
+- [x] Arcade Bonus 27: +60.3% Drop Rate
 - [ ] Obols - Family Obols: +104/228% Drop RateNote: Includes Rare and Hyper Obols, each rerolled with +1% DR 104 -> 228 · account
 - [ ] Alchemy Bubbles - Droppin Loads: +29.71/39.6% Drop RateNext breakpoint: 80% value at level 280 202 -> 6930 · Autistocat
 - [ ] Sigils - Level 1 Trove: +60/1200% 1 -> 5 · Autistocat
@@ -46,7 +45,7 @@
 - [ ] Breeding - Shiny Xylobone: +10/20% Drop Rate 10 -> 20 · Autistacular
 - [ ] Breeding - Shiny Choccie: +5/20% Drop Rate 5 -> 20 · Autistacular
 - [ ] Grey Tome Book: 1.50x higher bonuses from the Tome(1.00 per level: Not scaled by Writhing Grimoire) 50 -> 150 · Autistopher
-- [x] Tome- Red Pages:+177.6% Drop Rate35,380 Total Tome PointsIncreases every 100 points over 8000
+- [x] Tome- Red Pages:+178.5% Drop Rate35,569 Total Tome PointsIncreases every 100 points over 8000
 - [x] Cape Vine - Chains of the Gilded Vaultguard+11.5% Drop Rate MultiPlain Vine: 0.29x
 - [ ] Cape Vine - Lovely Balloon+250% Drop RateNot deposited 0 -> 1 · Autistachio
 - [x] Cape Vine - Molten Cloak+8.62% Drop RatePlain Vine: 0.29x
@@ -57,7 +56,7 @@
 - [ ] Cavern 13- Wisdom Monument:+0.0% Player Drop Rate 0 -> ∞ · Autistabish
 - [x] Achievements - Big Big Hampter: +4/4% Drop Rate
 - [x] Achievements - Summoning GM: +6/6% Drop Rate
-- [ ] Farming Crop Depot - Highlighter:+153.48/490.27% DR 172 -> 330 · Autiszemo
+- [ ] Farming Crop Depot - Highlighter:+158.82/493.63% DR 174 -> 330 · Autiszemo
 - [x] Land Ranks - Seed of Loot:Increases the Drop Rate of all characters by +850.98%
 - [ ] Exotic Market - POMMELION SEED:+0/25% Drop Rate 0 -> ∞ · Autiszemo
 - [ ] Armor Set - Secret Set: 1.00x Gold Food effectNote: Increases Golden Food bonus. See character-specific sectio 0 -> 1 · account
@@ -87,7 +86,7 @@
 - [x] Companions - Crystal Glunko:1.50x Damage, 1.40x Class EXP, 1.30x Drop Rate, and 1.20x extra Kills
 - [x] Companions - Mallay:1.30x Drop Rate
 - [x] These bonuses are applied after the flat account-wide and character-specific bonuses in the shown order.
-- [ ] Siege Breaker Talent - Archlord of the Pirates: 1.16525/1.18985x Drop Rate MULTILevel 400/762 with your curren 0.01M -> 1.00M · account
+- [ ] Siege Breaker Talent - Archlord of the Pirates: 1.16551/1.19015x Drop Rate MULTILevel 400/762 with your curren 0.01M -> 1.00M · account
 - [x] Rift - Sneaking Mastery: +30/30% Drop Rate
 - [x] Gem Shop - Island Explorer Pack: 1.2/1.2x Drop Rate MULTI
 - [x] Map-specific: Drop Rate MULTI from Arcane Cultist's 'Overwhelming Energy' talent. See character-specific secti
@@ -143,7 +142,7 @@
 - [ ] Jman's Extra Bags talent (Materials only) 250 -> 441 · Autistopher
 - [x] 113 available Inventory Slots
 - [x] Highest Type-Specific Capacity Bag crafted
-- [ ] Prayer: Ruck Sack: 0/177% 0 -> 50 · Autistopher
+- [ ] Prayer: Ruck Sack: 30/177% 1 -> 50 · Autistopher
 - [x] Prayer: REMOVE ZERG RUSHOGEN (-12.0% Carry Capacity)
 - [x] Star Talent: Telekinetic Storage
 
@@ -163,7 +162,7 @@
 - [ ] Stamps - Forge Stamp: +34.29% Forge Capacity 100 -> 240 · Autistopher
 - [ ] Arcade Bonus 26: +0/201% Forge Capacity 0 -> 101 · Autisticles
 - [ ] Villager Cosmos Majik - Beeg Beeg Forge: Increase the forge capacity by 3/243x 1 -> 5 · Autistabish
-- [x] Upgrade Vault - Beeg Forge: +750.00% higher Forge Capacity (7.50 per level after Vault Mastery 1)
+- [x] Upgrade Vault - Beeg Forge: +765.00% higher Forge Capacity (7.65 per level after Vault Mastery 1)
 
 ## Statues: Statue Effect multis and Statue bonuses  (5 owned / 35 missing)
 - [x] Voidwalker talent - Voodoo Statufication: 2.17x
@@ -172,36 +171,36 @@
 - [x] MeritocracyAll of your Statues give 1.5x higher bonuses than normalBonus not active
 - [ ] Event Shop - Smiley Statue: 1/1.3x 0 -> 1 · Autisticles
 - [x] Level 4 Dragon Statue: 1.055x
-- [x] Upgrade Vault - Statue Bonanza: 2.50x higher bonuses from Power, Speed, Mining, and Lumberbob Statues(3.00 per
-- [x] Total Multi for all statues: 11.86xVault statues: 29.64x
-- [ ] Zenith Power Statue: +22,317.04 Base Damage 251 -> ∞ · Autisticles
-- [ ] Zenith Speed Statue: +906.91% Move Speed 306 -> ∞ · Autisticles
-- [ ] Zenith Mining Statue: +2,658.48 Mining Power 299 -> ∞ · Autisticles
-- [ ] Zenith Feasty Statue: +3,817.31% Food Effect 322 -> ∞ · Autisticles
-- [ ] Zenith Health Statue: +9,460.29 Base Health 266 -> ∞ · Autisticles
+- [x] Upgrade Vault - Statue Bonanza: 2.53x higher bonuses from Power, Speed, Mining, and Lumberbob Statues(3.06 per
+- [x] Total Multi for all statues: 11.86xVault statues: 29.99x
+- [ ] Zenith Power Statue: +22,584.84 Base Damage 251 -> ∞ · Autisticles
+- [ ] Zenith Speed Statue: +917.79% Move Speed 306 -> ∞ · Autisticles
+- [ ] Zenith Mining Statue: +2,771.37 Mining Power 308 -> ∞ · Autisticles
+- [ ] Zenith Feasty Statue: +3,876.59% Food Effect 327 -> ∞ · Autisticles
+- [ ] Zenith Health Statue: +9,922.64 Base Health 279 -> ∞ · Autisticles
 - [ ] Onyx Kachow Statue: +52.69% Crit Damage 18 -> ∞ · Autisticles
-- [ ] Zenith Lumberbob Statue: +2,658.48 Choppin Power 299 -> ∞ · Autisticles
-- [ ] Zenith Thicc Skin Statue: +3,568.36 Base Defence 301 -> ∞ · Autisticles
-- [ ] Zenith Oceanman Statue: +1,070.51 Fishing Power 301 -> ∞ · Autisticles
-- [ ] Zenith Ol Reliable Statue: +1,070.51 Catchin Power 301 -> ∞ · Autisticles
-- [ ] Zenith Exp Statue: +273.85% Class Exp 231 -> ∞ · Autisticles
-- [ ] Zenith Anvil Statue: +1,564.86% Product Spd 264 -> ∞ · Autisticles
-- [ ] Zenith Cauldron Statue: +1,475.95% Alchemy Exp 249 -> ∞ · Autisticles
-- [ ] Zenith Beholder Statue: +708.93% Crit Chance 299 -> ∞ · Autisticles
-- [ ] Zenith Bullseye Statue: +2,598.62% Accuracy 274 -> ∞ · Autisticles
+- [ ] Zenith Lumberbob Statue: +2,771.37 Choppin Power 308 -> ∞ · Autisticles
+- [ ] Zenith Thicc Skin Statue: +3,603.92 Base Defence 304 -> ∞ · Autisticles
+- [ ] Zenith Oceanman Statue: +1,077.62 Fishing Power 303 -> ∞ · Autisticles
+- [ ] Zenith Ol Reliable Statue: +1,077.62 Catchin Power 303 -> ∞ · Autisticles
+- [ ] Zenith Exp Statue: +278.59% Class Exp 235 -> ∞ · Autisticles
+- [ ] Zenith Anvil Statue: +1,582.64% Product Spd 267 -> ∞ · Autisticles
+- [ ] Zenith Cauldron Statue: +1,487.8% Alchemy Exp 251 -> ∞ · Autisticles
+- [ ] Zenith Beholder Statue: +730.27% Crit Chance 308 -> ∞ · Autisticles
+- [ ] Zenith Bullseye Statue: +2,683.97% Accuracy 283 -> ∞ · Autisticles
 - [ ] Zenith Box Statue: +789.54 Trappin Power 222 -> ∞ · Autisticles
 - [ ] Zenith Twosoul Statue: +707.74 Worship Power 199 -> ∞ · Autisticles
 - [ ] Zenith Ehexpee Statue: +297.56% Skill Exp 251 -> ∞ · Autisticles
 - [ ] Zenith Seesaw Statue: +1,096.59% Cons Exp 185 -> ∞ · Autisticles
 - [ ] Zenith Pecunia Statue: +2,691.09% Coins 227 -> ∞ · Autisticles
 - [ ] Zenith Mutton Statue: +729.08% Cooking Exp 205 -> ∞ · Autiszemo
-- [ ] Zenith Egg Statue: +1,024.27% Breeding Exp 216 -> ∞ · Autistacular
+- [ ] Zenith Egg Statue: +1,033.76% Breeding Exp 218 -> ∞ · Autistacular
 - [ ] Zenith Battleaxe Statue: +547.7% Damage 231 -> ∞ · Autisticles
-- [ ] Zenith Spiral Statue: +2,228.74% Divinity Exp 188 -> ∞ · Autistabish
-- [ ] Zenith Boat Statue: +1,232.92% Sailing Spd 208 -> ∞ · Autisticles
+- [ ] Zenith Spiral Statue: +2,240.6% Divinity Exp 189 -> ∞ · Autistabish
+- [ ] Zenith Boat Statue: +1,238.85% Sailing Spd 209 -> ∞ · Autisticles
 - [ ] Zenith Compost Statue: +1,142.82% Farming Exp 241 -> ∞ · Autiszemo
 - [ ] Zenith Stealth Statue: +1,070.51% Stealth 301 -> ∞ · Autisticles
-- [ ] Zenith Essence Statue: +867.79% White Ess 122 -> ∞ · Autisticles
+- [ ] Zenith Essence Statue: +882.01% White Ess 124 -> ∞ · Autisticles
 - [ ] Zenith Villager Statue: +746.87% Villager Exp 210 -> ∞ · Autisticles
 - [ ] Onyx Dragon Statue: +5.55% Statues Bonus 4 -> ∞ · Autisticles
 - [ ] Gold Spelunky Statue: +0% Spelunk Exp 0 -> ∞ · Autisticles
@@ -270,17 +269,17 @@
 - [ ] Autistopher: Prayer not needed. You may remove if desired. 👍 94.7% -> 90% · Autiszemo
 - [ ] Autistachio: Prayer not needed, not worn. 👍 94.7% -> 90% · Autiszemo
 
-## Sampling: Sources of Printer Output. Grand Total: 83.325 - 499.949x  (9 owned / 5 missing)
+## Sampling: Sources of Printer Output. Grand Total: 96.142 - 576.854x  (9 owned / 5 missing)
 - [x] Blue Dot before your sample = Only 2x from Lab is active
 - [x] Yellow Star = Only 3x from Harriep is active
 - [x] Purple Swirl = 6x total from Lab and Harriep
 - [x] Lab Bonus: Wired In: 2x (Thanks Doot!)
 - [x] Divinity: Harriep Major Link bonus: 3x (Thanks Doot!)
 - [x] DK's King of the Remembered: 1.229xNot max booked!Not max leveled in any preset!
-- [ ] Sailing: Level 5 Gold Relic:3.10x (35/120 days) 35 -> 120 · Autisticles
+- [ ] Sailing: Level 6 Gold Relic:3.52x (36/140 days) 36 -> 140 · Autisticles
 - [ ] Event Shop: Supreme Wiring:1.00x (0/50 days) 0 -> 50 · Autistotle
 - [x] Companions - Biggole Mole:3d Printer samples grow +1%/day for 100 days
-- [ ] Compass: Nomadic-3: Moon of Print: 1.27x (13/100 days) 13 -> 100 · Autistacular
+- [ ] Compass: Nomadic-3: Moon of Print: 1.29x (14/100 days) 14 -> 100 · Autistacular
 - [ ] Legend Talent: Yet Another Printer Multi (Lv 0/2):1.00x (0/20 days) 0 -> 20 · Autisticles
 - [x] Weekly Ballot - 1.000/1.408x(Buff is Inactive)
 - [ ] Rift: Skill Mastery: base 7%Additional 1% per Skill at 750: 12/18% 19% -> 25% · Autiszemo
@@ -358,18 +357,18 @@
 - [x] W5 Taskboard Merit: 28/28%The in-game display is incorrect. Don't @ me.
 - [ ] Neon - Damage N' Cheapener: 32/50% 32 -> 50 · Autistastic
 - [x] Superbit: Atom Redux: 10/10%
-- [ ] Atom Collider building: 12.1/20.0% 121 -> 200 · Autistastic
+- [ ] Atom Collider building: 12.7/20.0% 127 -> 200 · Autistastic
 - [x] Atom Split bubble: 9.45/14%
 - [ ] Stamps - Atomic Stamp: +12.59% lower Atom upgrade costs 136 -> 144 · Autistopher
 - [ ] Death of the Atom Price: All Atoms are +0.0% cheaper to upgrade(1.00 per level after Writhing Grimoire)Require 0 -> 999999 · Autistastic
 - [ ] Nomadic-15: Atomic Cost Crash: All Atoms are +4.00% cheaper to upgrade(1.00 per level) 4 -> 999999 · Autistastic
-- [x] Remaining cost: 48.04%
-- [x] Total discount: 51.96% off
+- [x] Remaining cost: 47.91%
+- [x] Total discount: 52.09% off
 
 ## Breeding: Sources of Shiny Pet Level Rate  (4 owned / 6 missing)
 - [x] Summoning Bonus:15.78x Shiny EXP
 - [ ] Lamp Wish: World 4 Stuff: +210.0% 210.0 -> ∞ · Autistacular
-- [ ] Farming Crop Depot - Crayon:+2566.45/4924% Mobs 172 -> 330 · Autiszemo
+- [ ] Farming Crop Depot - Crayon:+2614.07/4957.72% Mobs 174 -> 330 · Autiszemo
 - [x] Lab Jewel - Emerald Ulthurite: +48/48%
 - [x] Faster Shiny Mob Lv Up Rate Shiny Pets: +165% total
 - [ ] Breeding Upgrade - Grand Martial of Shinytown: +150% 30 -> 300 · Autistacular
@@ -378,8 +377,8 @@
 - [ ] Silkrode Nanochip: None Owned. Would double other signs if equipped. 0 -> 1 · Autistopher
 - [ ] Shiny OverLV (Shiny LVs above 20): 1.0xNeeds Menagerie Unlock 12 0 -> 680 · Autistacular
 
-## Breeding: Sources of Pet Damage  (5 owned / 7 missing)
-- [x] Total Pet Damage bonus: 51.29x
+## Breeding: Sources of Pet Damage  (7 owned / 5 missing)
+- [x] Total Pet Damage bonus: 51.09x
 - [ ] Breeding Upgrade - Blooming Axe: +12% 2 -> 10 · Autistacular
 - [ ] Shiny OverLV (Shiny LVs above 20): 1.0xNeeds Menagerie Unlock 12 0 -> 680 · Autistacular
 - [x] Unique Sushi #11: All your breeding Mobs deal 2x damage when fighting
@@ -387,10 +386,10 @@
 - [x] Achievement - Barley Lost: +5%
 - [ ] Meal - Croissant: +411.502% Mob Fighting Damage 111 -> 180 · Autiszemo
 - [ ] Meal - Wedding Cake: +823.003% Mob Fighting Damage 111 -> 180 · Autiszemo
-- [ ] Beast Master Talent passive- Arena Spirit: +20.91% 230 -> 390 · Autistacular
+- [x] Beast Master Talent passive- Arena Spirit: +0.00%
 - [x] Star Sign - Power Bowower: +58.46%
 - [ ] Arcade Bonus 30: +0/80.4% Breeding Mob DMG 0 -> 101 · Autistacular
-- [ ] Upgrade Vault - Pet Punchies: +750.00% Mob Damage for all Mobs, so you can win Mob battles easier and collect  250 -> 254 · Autistacular
+- [x] Upgrade Vault - Pet Punchies: +762.00% Mob Damage for all Mobs, so you can win Mob battles easier and collect 
 
 ## Cooking: Remaining sources of max plate levels  (0 owned / 4 missing)
 - [ ] Artifact: Transcendent Causticolumn 0 -> 1 · Autisticles
@@ -399,22 +398,22 @@
 - [ ] Menagerie Unlock 21: Boost the Max Cooking LV by +10Costs 29.75M Lumi, needs a higher Menagerie Rank 0 -> 1 · Autiszemo
 
 ## Sailing: Sources of Sailing Speed  (10 owned / 12 missing)
-- [x] Total Sailing Speed bonus: 20536.26x
+- [x] Total Sailing Speed bonus: 22181.79x
 - [ ] Anyone Minor Linked to Purrmep: +0.00% 0 -> 1 · Autisticles
 - [ ] Smolderin' Plateau- Crawler card:+20/28% Sailing Speed (Passive) 5 -> 7 · Autistronaut
 - [ ] Bosses n Nightmares- Kattlekruk card:+24/42% Sailing Speed (Passive) 4 -> 7 · Autistronaut
-- [ ] Alchemy Bubbles - Boaty Bubble: +92.43/135% 152 -> 10000 · Autistocat
-- [x] Goharut Blessing: +400%
+- [ ] Alchemy Bubbles - Boaty Bubble: +93/135% 155 -> 10000 · Autistocat
+- [x] Goharut Blessing: +432%
 - [x] Purrmep Blessing: +399%
 - [x] Weekly Ballot - 1.000/2.020x(Buff is Inactive)
 - [ ] Bagur Blessing: +300% 60 -> 100 · Autisticles
-- [ ] Artifact - 10 AD Tablet: +3725.61/5215.85% 5 -> 7 · Autisticles
+- [ ] Artifact - 10 AD Tablet: +3824.52/5354.33% 5 -> 7 · Autisticles
 - [ ] Stamps - Sailboat Stamp: +237.5% Sailing Speed 95 -> 160 · Autistopher
-- [ ] Statues - Zenith Boat Statue: +1,232.92% Sailing Spd 208 -> ∞ · Autisticles
+- [ ] Statues - Zenith Boat Statue: +1,238.85% Sailing Spd 209 -> ∞ · Autisticles
 - [ ] Meal - Popped Corn: +2,789.982% Sailing Speed 111 -> 180 · Autiszemo
 - [x] Vial - Oj Jooce: +120.64%
 - [x] Rift - Sailing Skill Mastery 200: +17%
-- [ ] MSA Sailing: +87% (+1% per 10 waves in Worship) 873 -> 2100 · Autisticles
+- [ ] MSA Sailing: +96% (+1% per 10 waves in Worship) 961 -> 2100 · Autisticles
 - [x] Upgrade Vault - Speedy Sailing: +110.00% Faster Sailing speed for all boats! Faster trips mean more CHESTS!(1.
 - [x] Star Signs - C. Shanti Minor: +38.97%
 - [ ] Star Sign - Seraph Cosmos: Multis Passive signs by 1.949/5x. Increases every 20 Summoning levels. (Note: Some  129 -> 140 · Autistocat
@@ -454,7 +453,7 @@
 - [ ] Event Shop - Coolral: Boosts daily gain for the Coral Reef in W7 by 1.30x 0 -> 1 · Autistotle
 - [x] Gem Shop - More Coral (W7): x3.0/x3.0 Daily Corals
 - [ ] You now generate 0% more Daily Coral for the Coral Reef back in W7 town! 0 -> ∞ · Autistachio
-- [x] +2% Daily Reef Coral per Woodular Shrine level above 200Total Bonus: +14% Daily Reef Coral
+- [x] +2% Daily Reef Coral per Woodular Shrine level above 200Total Bonus: +32% Daily Reef Coral
 - [ ] Clam Work: +0% Daily Corals past level 5 1 -> 6 · Autistachio
 - [ ] Killroy - Daily Coral: Permanently boosts daily coral gain by +0%0 purchase 0.00% -> 100% · Autistachio
 - [ ] Stamps - Unlock Corale Stamp 0 -> 1 · Autistopher

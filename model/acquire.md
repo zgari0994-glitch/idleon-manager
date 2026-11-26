@@ -112,7 +112,7 @@ kind: in-game = obtainable by playing; paid = gem shop/bundle; event = limited-t
 - **Witch Hat (Halloween 2026)** [event] 1% Class Exp Multi · Halloween Treat, Halloween Grave
 - **Yellow Beanie** [event] 2% Bonus Kills · Summer Cooler, Summer Spirit
 
-## Achievements open (53)
+## Achievements open (52)
 - **Hitting the Mark**: Chop 15 yellow sections in a row during the Choppin' Minigame → +5% Chopping EXP for all characters
 - **Minecart Maniac**: Slam on a yellow ore vein in the Mining Minigame, which gives 3 points! → +5% Mining EXP Bonus for all characters
 - **Spike Minigame Master**: Get a score of 13 in the spike minigame. Remember to say 'If u love me let me go' → 20 Gem , 4 HR Time Candy (Score means winning at least 13 Gems, not getting to round 13.)
@@ -148,7 +148,6 @@ kind: in-game = obtainable by playing; paid = gem shop/bundle; event = limited-t
 - **I LOVE These Mobs**:  → reward n/a
 - **Hunned Times a Day**: Claim spices by any means 10,000 times. Like, individual claims. → +8 Tab 2 Talent Pts
 - **Space Party!!!**: Dance with at least 5 other people while you're all in World 4 town! → +2% Arcade balls/hr (Type '/dance' in chat to do a little jig.)
-- **Hibernating Gamer**: Glaim 110,000 hours of AFK time. Jeez, thats like an entire year of all characters idling to the max. → 100 Gem , 1 '72hr time candy'
 - **Soda Poisoning**: Beat wave 50 of Clash of Cans with 3 Poisonic Elders at Lv 5 or higher. Also, you can't sell towers. → ">30px|link= Starfield Belt BG for Title Screen
 - **The True Pirate**: Reach a total of 1 million Plunderous Kills. This one is the true challenge of the three. → +15 Tab 4 Talent Pts, +1% Total Dmg
 - **The True Emperor**: Reach a total of 1 million Wormhole Kills. → +12 Tab 4 Talent Pts

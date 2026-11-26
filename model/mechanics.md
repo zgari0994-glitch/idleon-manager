@@ -1,4 +1,4 @@
-# Mechanics layer · game save 2026-11-25 05:28 PM ET
+# Mechanics layer · game save 2026-11-26 08:04 AM ET
 
 Rule-changers and account-wide buffs you own. Facts from the save; sources for missing items added separately.
 
@@ -64,7 +64,7 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 - Not owned: Starter Pack, Dungeon Bundle, Eggscellent Pack, Gem Motherlode Pack, Valenslime Day Pack, The Robot Pack, Glimbo Pack, Heavy Armor Pack, Vanillie Pack, Potluck Pack, Eggroll Pack, Wicker Spirit Anniversary Pack, Time Traveler Pack, Beeg Egg Pack, Spooker Pack, Boaring Pack, Coralcave Guardian Pack, Daydreamer Pack, Gelatinous Pack, Alpha Omega Pack, Imperial Power Pack, Pack of Magnificence, Halloween Pack, Cathie's Big Day Pack
 
 ## Gem shop upgrades owned (64)
-- Parallel Villagers 5/5; Resource Boost 10/10; Item Backpack Space 6/6; Storage Chest Space 12/12; Carry Capacity 10/10; Food Slot 2/2; More Storage Space 10/10; Card Presets 5/5; Daily Minigame Plays 1/4; Subclass Swap Token 1/2; Complete Class Redo 1/1; Ancient Card Pack 3/100000; Eternal Card Pack 3/100000; Extra Card Slot 4/4; 4 Star Cardifier 9/100000; Biggy Arcade Balls 2/100000; Tier 3 Keychain 2/100000; Legion Commander Hat 10/1; World 6 Kills Ring 1/2; Legend Tier Ribbon 5/10; Infinity Hammer 1/1; Brimstone Forge Slot 16/16; Ivory Bubble Cauldrons 4/4; Bleach Liquid Cauldrons 4/4; Obol Storage Space 2/12; Sigil Supercharge 10/10; Crystal 3D Printer 1/1; More Sample Spaces 6/6; Burning Bad Books 4/4; Zen Cogs 8/8; Cog Inventory Space 10/20; Tower Building Slots 4/4; Fluorescent Flaggies 6/6; Royal Egg Cap 5/5; Richelin Kitchen 10/10; Console Chip 3/7; Mainframe Jewel 2/2; Souped Up Tube 5/5; Mob Storage 3/12; Fenceyard Space 6/6; New Meal 5/100000; Davey Jones Training 8/8; Chest Sluggo 12/12; Divinity Sparkie 8/8; Golden Sprinkler 4/4; Lava Sprouts 6/6; Snehebatu Link 1/1; Plot Of Land 12/12; Shroom Familiar 6/6; Novelty Jade Coins 7/7; Instagrow Generator 8/8; King Of All Winners 5/5; Gallery Showcases 6/6; More Coral 10/10; Legend Talent Pts 5/5; Super Auto Mode 4/4; Bling Bags 8/8; Professional Papers 10/10; Parallel Villagers The Explorer 1/1; Parallel Villagers The Engineer 1/1; Parallel Villagers The Conjuror 1/1; Parallel Villagers The Measurer 1/1; Parallel Villagers The Librarian 1/1; Dragonic Liquid Cauldron 1/4
+- Parallel Villagers 5/5; Resource Boost 10/10; Item Backpack Space 6/6; Storage Chest Space 12/12; Carry Capacity 10/10; Food Slot 2/2; More Storage Space 10/10; Card Presets 5/5; Daily Minigame Plays 1/4; Subclass Swap Token 1/2; Complete Class Redo 1/1; Ancient Card Pack 3/100000; Eternal Card Pack 3/100000; Extra Card Slot 4/4; 4 Star Cardifier 9/100000; Biggy Arcade Balls 2/100000; Tier 3 Keychain 2/100000; Legion Commander Hat 10/1; World 6 Kills Ring 1/2; Legend Tier Ribbon 5/10; Infinity Hammer 1/1; Brimstone Forge Slot 16/16; Ivory Bubble Cauldrons 4/4; Bleach Liquid Cauldrons 4/4; Obol Storage Space 2/12; Sigil Supercharge 10/10; Crystal 3D Printer 1/1; More Sample Spaces 6/6; Burning Bad Books 4/4; Zen Cogs 8/8; Cog Inventory Space 10/20; Tower Building Slots 4/4; Fluorescent Flaggies 6/6; Royal Egg Cap 5/5; Richelin Kitchen 10/10; Console Chip 4/7; Mainframe Jewel 2/2; Souped Up Tube 5/5; Mob Storage 3/12; Fenceyard Space 6/6; New Meal 5/100000; Davey Jones Training 8/8; Chest Sluggo 12/12; Divinity Sparkie 8/8; Golden Sprinkler 4/4; Lava Sprouts 6/6; Snehebatu Link 1/1; Plot Of Land 12/12; Shroom Familiar 6/6; Novelty Jade Coins 7/7; Instagrow Generator 8/8; King Of All Winners 5/5; Gallery Showcases 6/6; More Coral 10/10; Legend Talent Pts 5/5; Super Auto Mode 4/4; Bling Bags 8/8; Professional Papers 10/10; Parallel Villagers The Explorer 1/1; Parallel Villagers The Engineer 1/1; Parallel Villagers The Conjuror 1/1; Parallel Villagers The Measurer 1/1; Parallel Villagers The Librarian 1/1; Dragonic Liquid Cauldron 1/4
 
 ## Event shop (16 owned)
 - Equinox Enhancement: Get 1.5x faster Bar Fill Rate in Equinox Valley in World 3
@@ -100,7 +100,7 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 - Cog Lover 2/2: You can claim +{ more Jeweled Cogs every day, if you have them unlocked...
 - Skillium Fancyson 4/4: }x higher EXP gain for all skills, except Research and W7 Skill 3!
 - Flopping a Full House 5/5: Actively equipped cards give }x higher bonuses, and this stacks with Lab chips!
-- Daily Shopping Spree 3/4: The first { upgrades you buy each day for Masterclasses are 80% cheaper
+- Daily Shopping Spree 4/4: The first { upgrades you buy each day for Masterclasses are 80% cheaper
 - May the Best Man Win 1/1: The Multi Meritocracy gives a +{% higher multiplier for the winning bonus of the week
 - Furry Friends Forever 2/2: The 'rest-of-the-game' bonuses from your friends Orion and Poppy are all }x bigger
 - Lightning Fast Naps 2/2: }x faster Stamina regeneration for Spelunking
@@ -117,6 +117,8 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 - Jelly Operator Linguistics: You can now speak to the Jelly found in the Jellofish map to play the Jelly Operator game!<br>Also, }x more Bloodcells gained from operations!
 - Shakin' It: Every day, you get another +| extra uses for ALL your shakers at the Sushi Station!<br>And +{% chance for free use when using Shakers!
 - Sushi Station Linguistics: You can now speak to the knife found in the map past Glimbo to play the Sushi Station game!<br>Also, }x more Bucks gained from your Sushi!
+- Menagerie Missionary: Unlocks +| more Missions for the Luminous Menagerie, so you can claim more shells and rank up!<br>Also, +{% hourly Lumi Gains
+- Lil' Baby Menagerie: Adds a baby menagerie jellyfish here in town for quick access to the Luminous Menagerie!<br>Also boosts hourly Lumi Gains by }x
 - Glimbo BOGO Offer: Some of Glimbo's trades give +| additional LVs! This works retroactively. Also, }x Coin gain
 - Glimbo Linguistics: You can now speak to Glimbo, and make trades with him! Also boosts coins dropped by monsters by }x!
 - Masterclass Research: Reduces the cost of all OG Masterclass upgrades (DB, WW, AC) by {% every day, FOREVER! Total Reduction:-&%
@@ -145,18 +147,18 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 - Smart Eye: Raises the minimum possible Roll by +1 for each failed Roll, up to +$. This resets back to 0 upon a successful Roll. Also +{% Research EXP Gain.
 
 ## Kill-count talents
-- Archlord of the Pirates (Drop Rate and Class EXP): 6123 kills, value 16.52. Farm more Plunder Kills with Siege Breaker for Drop Rate Crystal Setup at W5 Citringes for ~20k per day
-- King of the Remembered (Printer Output): 2749986 kills, value 22.87. Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from
+- Archlord of the Pirates (Drop Rate and Class EXP): 6208 kills, value 16.55. Farm more Plunder Kills with Siege Breaker for Drop Rate Crystal Setup at W5 Citringes for ~20k per day
+- King of the Remembered (Printer Output): 2756063 kills, value 22.88. Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from
 - Wormhole Emperor (Damage): 570597 kills, value 0. Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns
 
 ## Family bonuses (top level of each class, account-wide)
-- Journeyman 815; Maestro 815; Voidwalker 815; Warrior 901; Barbarian 901; Squire 854; Blood Berserker 901; Death Bringer 901; Divine Knight 854; Royal Guardian 854; Archer 877; Bowman 867; Hunter 877; Siege Breaker 867; Wind Walker 877; Beast Master 877; Mage 878; Wizard 864; Shaman 878; Elemental Sorcerer 864; Bubonic Conjuror 878; Arcane Cultist 878
+- Journeyman 815; Maestro 815; Voidwalker 815; Warrior 902; Barbarian 902; Squire 857; Blood Berserker 902; Death Bringer 902; Divine Knight 857; Royal Guardian 857; Archer 877; Bowman 871; Hunter 877; Siege Breaker 871; Wind Walker 877; Beast Master 877; Mage 878; Wizard 864; Shaman 878; Elemental Sorcerer 864; Bubonic Conjuror 878; Arcane Cultist 878
 
 ## Divinity blessings
 - Snehebatu None; Arctis None; Nobisect None; Harriep None; Goharut None; Omniphau None; Purrmep None; Flutterbis None; Kattlekruk None; Bagur None
 
-## Achievements: 215 done, 53 open
-- Open: Hitting the Mark, Minecart Maniac, Spike Minigame Master, Minecart Master, Choppin' to the Beat, Decked Out in Gold, Two-Time Savior, What a View!, Seriousleaf-ast!, Heyo!, Golden Fly, Wassup Yo!, Fishing Finesse, Catching Coronation, A Fish Too Far, Monocle No More, Threadin' the Needle, Two Desserts!, WAAAAAAAHH!, Fish Aint Biting, Wazzzzam!, Just Passing By, Good Times Roll, Giant Slayer, There Can Be Only 1, Knock on Wood, Sepia Vision, A Most Nice Sale, Kingpin Defeated, Capitalist Win, Matrix Wickermen, Lv. 5 Nothing, I LOVE These Mobs, Hunned Times a Day, Space Party!!!, Hibernating Gamer, Soda Poisoning, The True Pirate, The True Emperor, Maple Logger, No Krakens? ):, POiNG Champion, Chemical Collector, Perfect Trade Deal, Legendary Flag, Legendary Wormhole, Sneaky Stealing, Hug from Timmy, That's MY Crown, Leet Lanterns, Legumulucky, Yellow Belt, Penta Defence
+## Achievements: 216 done, 52 open
+- Open: Hitting the Mark, Minecart Maniac, Spike Minigame Master, Minecart Master, Choppin' to the Beat, Decked Out in Gold, Two-Time Savior, What a View!, Seriousleaf-ast!, Heyo!, Golden Fly, Wassup Yo!, Fishing Finesse, Catching Coronation, A Fish Too Far, Monocle No More, Threadin' the Needle, Two Desserts!, WAAAAAAAHH!, Fish Aint Biting, Wazzzzam!, Just Passing By, Good Times Roll, Giant Slayer, There Can Be Only 1, Knock on Wood, Sepia Vision, A Most Nice Sale, Kingpin Defeated, Capitalist Win, Matrix Wickermen, Lv. 5 Nothing, I LOVE These Mobs, Hunned Times a Day, Space Party!!!, Soda Poisoning, The True Pirate, The True Emperor, Maple Logger, No Krakens? ):, POiNG Champion, Chemical Collector, Perfect Trade Deal, Legendary Flag, Legendary Wormhole, Sneaky Stealing, Hug from Timmy, That's MY Crown, Leet Lanterns, Legumulucky, Yellow Belt, Penta Defence
 
 ## Cosmetics with stats
 - Hats on rack: 41

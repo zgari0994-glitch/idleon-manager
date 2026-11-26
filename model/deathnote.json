@@ -1,7 +1,7 @@
 {
- "snapshot": "20261125T2340",
+ "snapshot": "20261126T1304",
  "cur": {
-  "at": "2026-11-25T23:40:49.684000Z",
+  "at": "2026-11-26T13:04:24.728000Z",
   "kills": {
    "Green Mushroom": [
     "World 1",
@@ -9,15 +9,15 @@
    ],
    "Red Mushroom": [
     "World 1",
-    1104078879.1090477
+    1104097624.4875598
    ],
    "Frog": [
     "World 1",
-    2125091622.2566023
+    26092731341.12058
    ],
    "Bored Bean": [
     "World 1",
-    9057904467.307178
+    9058114422.902557
    ],
    "Slime": [
     "World 1",
@@ -65,7 +65,7 @@
    ],
    "Sandy Pot": [
     "World 2",
-    6063791464.51274
+    6075657317.63978
    ],
    "Mimic": [
     "World 2",
@@ -137,11 +137,11 @@
    ],
    "Thermister": [
     "World 3",
-    2866940677.955734
+    3289708822.4590487
    ],
    "Quenchie": [
     "World 3",
-    19913149033.946518
+    19914029443.105072
    ],
    "Cryosnake": [
     "World 3",
@@ -209,15 +209,15 @@
    ],
    "Flombeige": [
     "World 4",
-    1208416140.1366997
+    1209401219.3667336
    ],
    "Stilted Seeker": [
     "World 4",
-    4025619204.060172
+    4026516491.0543823
    ],
    "Suggma": [
     "World 5",
-    2481583376.70177
+    3176769158.6018023
    ],
    "Maccie": [
     "World 5",
@@ -245,7 +245,7 @@
    ],
    "Citringe": [
     "World 5",
-    1857578050.3810565
+    1874954529.2098665
    ],
    "Lampar": [
     "World 5",
@@ -305,7 +305,7 @@
    ],
    "Ceramic Spirit": [
     "World 6",
-    13655294521.346918
+    13655294521.34692
    ],
    "Skydoggie Spirit": [
     "World 6",
@@ -345,7 +345,7 @@
    ],
    "Noble Clam": [
     "World 7",
-    47971496.80787286
+    80912220.63695729
    ],
    "Litterfish": [
     "World 7",
@@ -365,11 +365,11 @@
    ],
    "Coralcave Crab": [
     "World 7",
-    9770249245.655893
+    9792853762.655893
    ],
    "Coralcave Guardian": [
     "World 7",
-    25868367.6862794
+    85637852.6862794
    ],
    "Trench Fish": [
     "World 7",
@@ -377,11 +377,11 @@
    ],
    "Boomy Mine": [
     "World 7",
-    49865109.9690018
+    58690576.96900179
    ],
    "Pirate Underling": [
     "World 7",
-    401373470.543916
+    414631424.77989197
    ],
    "Pirate Deckhand": [
     "World 7",
@@ -429,7 +429,7 @@
    ],
    "Baba Yaga": [
     "miniBosses",
-    32
+    33
    ],
    "Biggie Hours": [
     "miniBosses",
@@ -463,7 +463,7 @@
   "multi": {},
   "eclipse": null
  },
- "prev_at": "2026-11-25T22:28:54.034000Z",
+ "prev_at": "2026-11-25T23:40:49.684000Z",
  "groups": [
   {
    "name": "Complete a minimum of Eclipse Skull (1B) in W4",
@@ -635,28 +635,28 @@
      "res": "dementia-skull"
     },
     {
-     "label": "Boomy Mine in Minefield (950M remaining)",
-     "cur": "5%",
+     "label": "Coralcave Guardian in Coralcave Perimeter (914M remaining)",
+     "cur": "9%",
      "goal": "100%",
      "optional": true,
      "res": "dementia-skull"
     },
     {
-     "label": "Noble Clam in The Clamworks (952M remaining)",
-     "cur": "5%",
+     "label": "Noble Clam in The Clamworks (919M remaining)",
+     "cur": "8%",
+     "goal": "100%",
+     "optional": true,
+     "res": "dementia-skull"
+    },
+    {
+     "label": "Boomy Mine in Minefield (941M remaining)",
+     "cur": "6%",
      "goal": "100%",
      "optional": true,
      "res": "dementia-skull"
     },
     {
      "label": "Jellofish in Jellofish Fields (970M remaining)",
-     "cur": "3%",
-     "goal": "100%",
-     "optional": true,
-     "res": "dementia-skull"
-    },
-    {
-     "label": "Coralcave Guardian in Coralcave Perimeter (974M remaining)",
      "cur": "3%",
      "goal": "100%",
      "optional": true,
@@ -677,8 +677,8 @@
      "res": "lava-skull"
     },
     {
-     "label": "Pirate Underling in Pirate Upper Deck (599M remaining)",
-     "cur": "40%",
+     "label": "Pirate Underling in Pirate Upper Deck (585M remaining)",
+     "cur": "41%",
      "goal": "100%",
      "optional": true,
      "res": "lava-skull"
@@ -721,7 +721,7 @@
    ]
   },
   {
-   "name": "You could complete 10 more ZOWs with Autiszemo (98/108)",
+   "name": "You could complete 9 more ZOWs with Autiszemo (99/108)",
    "tier": "24",
    "items": [
     {
@@ -779,12 +779,6 @@
      "optional": true
     },
     {
-     "label": "Noble Clam in The Clamworks (81K remaining)",
-     "cur": "19%",
-     "goal": "100%",
-     "optional": true
-    },
-    {
      "label": "Nutto in The Roots (100K remaining)",
      "cur": "0%",
      "goal": "100%",
@@ -799,7 +793,7 @@
    ]
   },
   {
-   "name": "You could complete 12 more CHOWs with Autiszemo (96/108)",
+   "name": "You could complete 11 more CHOWs with Autiszemo (97/108)",
    "tier": "24",
    "items": [
     {
@@ -853,12 +847,6 @@
     {
      "label": "Dreadnaught Captain in Dreadnaught Chamber (1M remaining)",
      "cur": "0%",
-     "goal": "100%",
-     "optional": true
-    },
-    {
-     "label": "Noble Clam in The Clamworks (981K remaining)",
-     "cur": "2%",
      "goal": "100%",
      "optional": true
     },
@@ -1293,11 +1281,6 @@
      "goal": "100%"
     },
     {
-     "label": "Coralcave Guardian in Coralcave Perimeter (74M remaining)",
-     "cur": "26%",
-     "goal": "100%"
-    },
-    {
      "label": "Trench Fish in Deep End of the Koipond (60M remaining)",
      "cur": "40%",
      "goal": "100%"
@@ -1305,6 +1288,11 @@
     {
      "label": "Pufferblob in Puffpuff Overpass (44M remaining)",
      "cur": "56%",
+     "goal": "100%"
+    },
+    {
+     "label": "Coralcave Guardian in Coralcave Perimeter (14M remaining)",
+     "cur": "86%",
      "goal": "100%"
     },
     {
@@ -1784,11 +1772,6 @@
      "goal": "100%"
     },
     {
-     "label": "Coralcave Guardian in Coralcave Perimeter (974M remaining)",
-     "cur": "3%",
-     "goal": "100%"
-    },
-    {
      "label": "Trench Fish in Deep End of the Koipond (960M remaining)",
      "cur": "4%",
      "goal": "100%"
@@ -1796,6 +1779,11 @@
     {
      "label": "Pufferblob in Puffpuff Overpass (944M remaining)",
      "cur": "6%",
+     "goal": "100%"
+    },
+    {
+     "label": "Coralcave Guardian in Coralcave Perimeter (914M remaining)",
+     "cur": "9%",
      "goal": "100%"
     },
     {
@@ -2325,6 +2313,11 @@
      "goal": "29,812,712"
     },
     {
+     "label": "Noble Clam in The Clamworks",
+     "cur": "",
+     "goal": "17,500,651"
+    },
+    {
      "label": "Shellslug in Barnacle Curb",
      "cur": "",
      "goal": "14,745,986"
@@ -2343,11 +2336,6 @@
      "label": "Trench Fish in Deep End of the Koipond",
      "cur": "",
      "goal": "3,373,247"
-    },
-    {
-     "label": "Noble Clam in The Clamworks",
-     "cur": "",
-     "goal": "18,563"
     },
     {
      "label": "Spearfish in Pinpoint Summit",
@@ -2846,6 +2834,11 @@
      "goal": "258,542,434"
     },
     {
+     "label": "Coralcave Guardian in Coralcave Perimeter",
+     "cur": "",
+     "goal": "85,637,852"
+    },
+    {
      "label": "Pufferblob in Puffpuff Overpass",
      "cur": "",
      "goal": "56,306,465"
@@ -2854,11 +2847,6 @@
      "label": "Trench Fish in Deep End of the Koipond",
      "cur": "",
      "goal": "40,348,920"
-    },
-    {
-     "label": "Coralcave Guardian in Coralcave Perimeter",
-     "cur": "",
-     "goal": "25,868,367"
     },
     {
      "label": "Balloonfish in Balloon Bay",
@@ -2955,11 +2943,22 @@
  ],
  "ar_tier": "16/23",
  "rate": {
-  "Flombeige": 2020078.3626581193,
-  "Stilted Seeker": 169789130.09854558,
-  "Noble Clam": 15485.001673906343,
-  "Spearfish": 294852.77023227926,
-  "Pirate Underling": 89548.36153602051,
-  "Dr Defecaus": 0.8341732995029719
+  "Red Mushroom": 1399.632916309663,
+  "Frog": 1789555620.6048534,
+  "Bored Bean": 15676.437905230421,
+  "Sandy Pot": 885969.7661448504,
+  "Thermister": 31566191.66855751,
+  "Quenchie": 65736.1833123014,
+  "Flombeige": 73551.42573595801,
+  "Stilted Seeker": 66996.37522174355,
+  "Suggma": 51906388.6956137,
+  "Citringe": 1297423.3474455797,
+  "Ceramic Spirit": 1.4241312479409952e-07,
+  "Noble Clam": 2459535.3637902713,
+  "Coralcave Crab": 1687777.3916373486,
+  "Coralcave Guardian": 4462718.026348788,
+  "Boomy Mine": 658957.8389682684,
+  "Pirate Underling": 989911.6808752373,
+  "Baba Yaga": 0.07466549237204885
  }
 }

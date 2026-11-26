@@ -1,8 +1,8 @@
 {
- "jade": 9.07234795973799e+37,
+ "jade": 1.1934062819656e+38,
  "rolls": [
-  3,
-  48
+  75,
+  120
  ],
  "hats": [
   12,
@@ -236,8 +236,8 @@
   {
    "group": "Percentage of Gemstone values",
    "tab": "default",
-   "label": "Malachite: Jade GainLevel 1241: +2783.85/5015% Total: +7401.48%",
-   "cur": "55.51%",
+   "label": "Malachite: Jade GainLevel 1268: +2810.41/5015% Total: +7472.1%",
+   "cur": "56.04%",
    "goal": "100%"
   },
   {
@@ -271,8 +271,8 @@
   {
    "group": "Percentage of Gemstone values",
    "tab": "default",
-   "label": "Emerald: Cheaper UpgradesLevel 1467: +1487.62/2501% Total: +3955.17% = 0.0247x cost multiplier",
-   "cur": "59.48%",
+   "label": "Emerald: Cheaper UpgradesLevel 1922: +1645.42/2501% Total: +4374.71% = 0.0223x cost multiplier",
+   "cur": "65.79%",
    "goal": "100%"
   },
   {
@@ -663,14 +663,14 @@
   },
   {
    "group": "Pristine Charm Odds and Collection",
-   "tab": "Pristine Charm Odds: 0.06%",
-   "label": "Each regular Charm found today lowers this, from 0.15% down to 0% at 120 found (you're at 72/120, resets daily)",
+   "tab": "Pristine Charm Odds: 0.15%",
+   "label": "Each regular Charm found today lowers this, from 0.15% down to 0% at 120 found (you're at 0/120, resets daily)",
    "cur": "15",
    "goal": "23"
   },
   {
    "group": "Pristine Charm Odds and Collection",
-   "tab": "Pristine Charm Odds: 0.06%",
+   "tab": "Pristine Charm Odds: 0.15%",
    "label": "Nomadic-30: Pristine Collector: x1 higher chance to find Pristine Charms in Sneaking(+2% per level)",
    "cur": "0",
    "goal": "999999",
@@ -853,5 +853,5 @@
    "completed": true
   }
  ],
- "snapshot": "20261125T2340"
+ "snapshot": "20261126T1304"
 }

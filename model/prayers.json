@@ -1,10 +1,10 @@
 {
- "snapshot": "20261125T2340",
+ "snapshot": "20261126T1304",
  "souls": {
   "Forest Soul": 100689047,
-  "Dune Soul": 5442136,
+  "Dune Soul": 5378946,
   "Rooted Soul": 4736302,
-  "Frigid Soul": 4122097,
+  "Frigid Soul": 4008497,
   "Squishy Soul": 583399
  },
  "prayers": [
@@ -175,7 +175,7 @@
    "unlock": "Wave 21 in Acorn Assault",
    "wave_need": 21,
    "totem": "Acorn Assault",
-   "wave_now": 82,
+   "wave_now": 170,
    "locked": false
   },
   {
@@ -192,7 +192,7 @@
    "unlock": "Wave 41 in Acorn Assault",
    "wave_need": 41,
    "totem": "Acorn Assault",
-   "wave_now": 82,
+   "wave_now": 170,
    "locked": false
   },
   {
@@ -209,25 +209,25 @@
    "unlock": "Wave 71 in Acorn Assault",
    "wave_need": 71,
    "totem": "Acorn Assault",
-   "wave_now": 82,
+   "wave_now": 170,
    "locked": false
   },
   {
    "name": "Ruck Sack",
-   "lv": 0,
+   "lv": 1,
    "max": 50,
    "maxed": false,
    "bonus": "+{% Carry Capacity",
    "curse": "-{% AFK Gain Rate",
    "equipped_by": [],
    "to_max": null,
-   "next": 4500,
+   "next": 24660,
    "soul": "Rooted Soul",
    "unlock": "Wave 111 in Acorn Assault",
    "wave_need": 111,
    "totem": "Acorn Assault",
-   "wave_now": 82,
-   "locked": true
+   "wave_now": 170,
+   "locked": false
   },
   {
    "name": "Fibers of Absence",
@@ -438,39 +438,39 @@
    {
     "item": "Balance of Precision 3/50",
     "currency": "Dune Soul",
-    "balance": 5442136,
+    "balance": 5378946,
     "cost": 3430,
     "gain_pct": null,
     "stat": "+{% Total Accuracy",
     "weight": 1,
     "note": "",
-    "share": 0.0006302672333069222,
+    "share": 0.0006376713951023119,
     "afford": true,
     "score": null
    },
    {
     "item": "Jawbreaker 1/50",
     "currency": "Dune Soul",
-    "balance": 5442136,
+    "balance": 5378946,
     "cost": 7980,
     "gain_pct": null,
     "stat": "+{% Coins from Monsters",
     "weight": 2,
     "note": "AutoReview 1 -> 50",
-    "share": 0.0014663360121834515,
+    "share": 0.0014835620212584398,
     "afford": true,
     "score": null
    },
    {
     "item": "Midas Minded 35/50",
     "currency": "Dune Soul",
-    "balance": 5442136,
+    "balance": 5378946,
     "cost": 1011896,
     "gain_pct": null,
     "stat": "+{% Drop Rate",
     "weight": 2,
     "note": "AutoReview 35 -> 50",
-    "share": 0.1859372863890208,
+    "share": 0.18812161341645742,
     "afford": true,
     "score": null
    }
@@ -501,32 +501,45 @@
     "share": 0.0022971508151296096,
     "afford": true,
     "score": null
+   },
+   {
+    "item": "Ruck Sack 1/50",
+    "currency": "Rooted Soul",
+    "balance": 4736302,
+    "cost": 24660,
+    "gain_pct": null,
+    "stat": "+{% Carry Capacity",
+    "weight": 2,
+    "note": "AutoReview 1 -> 50",
+    "share": 0.005206593667380163,
+    "afford": true,
+    "score": null
    }
   ],
   "Frigid Soul": [
    {
     "item": "Fibers of Absence 1/50",
     "currency": "Frigid Soul",
-    "balance": 4122097,
+    "balance": 4008497,
     "cost": 552,
     "gain_pct": null,
     "stat": "+{% Kills for Deathnote and opening port",
     "weight": 1,
     "note": "AutoReview 1 -> 50",
-    "share": 0.00013391242370084934,
+    "share": 0.00013770747489645123,
     "afford": true,
     "score": null
    },
    {
     "item": "Beefy For Real 1/40",
     "currency": "Frigid Soul",
-    "balance": 4122097,
+    "balance": 4008497,
     "cost": 28000,
     "gain_pct": null,
     "stat": "+{% Total Damage",
     "weight": 1,
     "note": "AutoReview 1 -> 40",
-    "share": 0.0067926591732314886,
+    "share": 0.006985161770109844,
     "afford": true,
     "score": null
    }
@@ -564,7 +577,7 @@
    "Recommended Prayers"
   ],
   "Ruck Sack": [
-   "0",
+   "1",
    "50",
    "Recommended Prayers"
   ],
@@ -595,8 +608,8 @@
   ]
  },
  "gold_relic": [
-  35,
-  120,
-  3.1
+  36,
+  140,
+  3.52
  ]
 }
