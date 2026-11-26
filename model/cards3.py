@@ -66,6 +66,7 @@ cards, md = [], [f'# Cards {SAVE}', '']
 _g = C.get('goal') or {}
 md += [f"## Account goal: {_g.get('name', '')}", f"- Now: {_g.get('now', '')}", f"- {_g.get('why', '')}"] + [f"- Need {x}" for x in _g.get('needs', [])] + ([f"- FLAG: {_g['flag']}"] if _g.get('flag') else []) + [f"- This week: {w}" for w in _g.get('weekly', [])] + ['']
 holes = D.get('holes', [])
+NICKS = {'Autiszemo': 'Zemo', 'Autistocat': 'Cat', 'Autisticles': 'Ticles', 'Autistastic': 'Tastic', 'Autistabish': 'Bish', 'Autistacular': 'Tacular', 'Autistotle': 'Totle', 'Autistomatic': 'Matic', 'Autistronaut': 'Naut', 'Autistopher': 'Topher', 'Autistachio': 'Tachio'}
 # Baba Yaga -> next character still missing Inventory Bag D (its quest needs a Baba kill), in card order (Zack 2026-11-25)
 def _baba_route(chars):
     need = [c['name'] for c in chars if any('Inventory Bag D' in (st.get('do') or '') for st in c.get('house') or [])]
@@ -81,7 +82,7 @@ def _baba_route(chars):
                     st['do'] = do
                     if not st['sub'] and do.lower().startswith('world bosses'): c[blk].remove(st)
                     first = next(x for x in chars if x['name'] == need[0])
-                    rest = ', '.join(n.replace('Autis', '') for n in need[1:])
+                    rest = ', '.join(NICKS.get(n, n) for n in need[1:])
                     first.setdefault('daily', []).insert(0, {'do': f"Baba Yaga is up: kill it on this character for the Inventory Bag D quest", 'why': f"then the next one: {rest}" if rest else 'last one who needs it', 'sub': []})
                     return
 _baba_route(C['chars'])
