@@ -1,42 +1,42 @@
 {
- "snapshot": "20261126T1304",
- "found": 174,
+ "snapshot": "20261126T2330",
+ "found": 202,
  "night_rank": [
   {
    "item": "Value Gmo 51/500",
    "currency": "beans",
    "balance": 89555.4224569779,
    "cost": 17213,
-   "gain_pct": 1.948882161359133,
-   "stat": "+96.31881999999999% crop value per per c",
+   "gain_pct": 1.9521827056520094,
+   "stat": "+114.62401600000001% crop value per per ",
    "weight": 1,
    "share": 0.19220500029765436,
    "afford": true,
-   "score": 10.139601770718953
+   "score": 10.156773770863408
   },
   {
    "item": "Super Gmo 42/50",
    "currency": "beans",
    "balance": 89555.4224569779,
    "cost": 149468,
-   "gain_pct": 2.340200023978687,
-   "stat": "+35.23% all 'GMO' bonuses per crop you h",
+   "gain_pct": 2.345840060853864,
+   "stat": "+37.96% all 'GMO' bonuses per crop you h",
    "weight": 3,
    "share": 1.6689999990989253,
    "afford": false,
-   "score": 4.206470986055366
+   "score": 4.216608859413465
   },
   {
    "item": "Speed Gmo 67/500",
    "currency": "beans",
    "balance": 89555.4224569779,
    "cost": 110136,
-   "gain_pct": 1.4918290658002191,
-   "stat": "+1239.0390999999997% growth speed per cr",
+   "gain_pct": 1.4920507344758311,
+   "stat": "+1548.6920799999998% growth speed per cr",
    "weight": 1,
    "share": 1.2298082793692244,
    "afford": false,
-   "score": 1.213058239098363
+   "score": 1.2132384856289244
   },
   {
    "item": "Exp Gmo 15/100",
@@ -44,7 +44,7 @@
    "balance": 89555.4224569779,
    "cost": 66,
    "gain_pct": null,
-   "stat": "+933.5949999999999% farming EXP gain cro",
+   "stat": "+1165.372% farming EXP gain crop you hav",
    "weight": 1,
    "share": 0.0007369738000142443,
    "afford": true,
@@ -76,11 +76,11 @@
   }
  ],
  "stacks": {
-  "Evolution GMO": 170,
-  "Speed GMO": 170,
-  "EXP GMO": 170,
-  "Value GMO": 170,
-  "Super GMO": 163
+  "Evolution GMO": 198,
+  "Speed GMO": 198,
+  "EXP GMO": 198,
+  "Value GMO": 198,
+  "Super GMO": 176
  },
  "beans": 89555.4224569779,
  "evo_base": null,
@@ -112,9 +112,9 @@
   }
  ],
  "family_stacks": {
-  "Basic": [
-   21,
-   21
+  "Mushie": [
+   22,
+   23
   ],
   "Earthy": [
    23,
@@ -124,24 +124,24 @@
    14,
    15
   ],
+  "Glassy": [
+   71,
+   71
+  ],
+  "Medal": [
+   24,
+   24
+  ],
   "Sushi": [
    23,
    23
   ],
-  "Mushie": [
-   22,
-   23
-  ],
-  "Glassy": [
-   65,
-   65
-  ],
-  "Medal": [
-   2,
-   2
+  "Basic": [
+   21,
+   21
   ]
  },
- "rank_unspent": 61,
+ "rank_unspent": 16,
  "rank_plan": [],
  "night": [
   {
@@ -162,7 +162,7 @@
    "maxed": false,
    "have": 89555.4224569779,
    "cost": 110136,
-   "desc": "+1239.0390999999997% growth speed per crop you have 1000 of"
+   "desc": "+1548.6920799999998% growth speed per crop you have 1000 of"
   },
   {
    "name": "Og Fertilizer",
@@ -182,7 +182,7 @@
    "maxed": false,
    "have": 89555.4224569779,
    "cost": 66,
-   "desc": "+933.5949999999999% farming EXP gain crop you have 2500 of"
+   "desc": "+1165.372% farming EXP gain crop you have 2500 of"
   },
   {
    "name": "Value Gmo",
@@ -192,7 +192,7 @@
    "maxed": false,
    "have": 89555.4224569779,
    "cost": 17213,
-   "desc": "+96.31881999999999% crop value per per crop you have 10000 of"
+   "desc": "+114.62401600000001% crop value per per crop you have 10000 of"
   },
   {
    "name": "Super Gmo",
@@ -202,7 +202,7 @@
    "maxed": false,
    "have": 89555.4224569779,
    "cost": 149468,
-   "desc": "+35.23% all 'GMO' bonuses per crop you have 100K"
+   "desc": "+37.96% all 'GMO' bonuses per crop you have 100K"
   }
  ],
  "day": [
@@ -238,23 +238,23 @@
   },
   {
    "name": "Biology Boost",
-   "lv": 200,
+   "lv": 206,
    "max": 500,
    "market": "Day",
    "maxed": false,
    "have": 0.0,
-   "cost": 536455583.2216521,
-   "desc": "+3000% chance of crop evolution, or 'next crop' chance"
+   "cost": 950363789.4677337,
+   "desc": "+3090% chance of crop evolution, or 'next crop' chance"
   },
   {
    "name": "Product Doubler",
-   "lv": 123,
+   "lv": 124,
    "max": 500,
    "market": "Day",
    "maxed": false,
    "have": 2572681.0,
-   "cost": 23247767889.37456,
-   "desc": "+369% chance for crops to be worth 2x when collected"
+   "cost": 27897321467.24947,
+   "desc": "+372% chance for crops to be worth 2x when collected"
   },
   {
    "name": "More Beenz",
@@ -340,7 +340,7 @@
    "creator": null
   }
  ],
- "growth_speed": 36273.982151014796,
+ "growth_speed": 45463.22917791443,
  "crop_value": 10000,
  "vine": 4
 }

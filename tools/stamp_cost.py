@@ -4,7 +4,7 @@ Params come from the item def: effect,func,x1,x2,reqMulti,material,baseMat,powMa
 Coin discounts: Insider Trading bribe (assumed 5%) + stamp-cost vials (Blue Flav + Venison Malt, cap 90%).
 Material cost shown raw and with the 90% vial cap; stamp reducer (atoms), Envelope Pile sigil, merit NOT applied."""
 import sys, gzip, json, os
-sys.path.insert(0, '/home/claude/ar/mysite')
+sys.path.insert(0, '/home/claude/ar/mysite'); sys.path.insert(0, '/home/claude/work/ar/mysite')
 from consts.generated.raw_item_data import raw_item_data as RD
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 _snap = open(os.path.join(R, 'snapshots', 'LATEST')).read().strip()

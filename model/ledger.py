@@ -5,7 +5,7 @@ net shortage = max(0, target - owned); ETA = shortage / net rate (no ETA when ra
 Writes model/ledger.json + ledger.md. Usage: python3 model/ledger.py"""
 import json, gzip, os, sys, re, yaml, datetime as dt
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, '/home/claude/ar/mysite')
+sys.path.insert(0, '/home/claude/ar/mysite'); sys.path.insert(0, '/home/claude/work/ar/mysite')
 try:
     from consts.generated.raw_item_data import raw_item_data
     NAME = {k: v.get('Name', k).replace('_', ' ') for k, v in raw_item_data.items() if isinstance(v, dict)}

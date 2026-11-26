@@ -1,4 +1,4 @@
-# Mechanics layer · game save 2026-11-26 08:04 AM ET
+# Mechanics layer · game save 2026-11-26 06:30 PM ET
 
 Rule-changers and account-wide buffs you own. Facts from the save; sources for missing items added separately.
 
@@ -85,7 +85,7 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 - Extra Lumi: +50% Lumi Gains for the Menagerie in World 7
 - Not owned: Golden Tome (35 pts): Adds a new DMG Multi bonus type to the Tome in World 4; Stamp Stack (30 pts): Get +3 Stamp LVs every day for a random Stamp; Bubble Broth (20 pts): Get +5 LVs for a random Alchemy Bubble every day; Supreme Wiring (45 pts): +2% Printer Output per day, taking new sample resets this; Village Encouragement (40 pts): All Villagers in World 5 Camp get 1.25x EXP Gain; Extra Page (20 pts): Get +1 more Filter Page. Find it on the left side of Cards; Storage Chest (20 pts): Get +12 storage slots for your storage chest; Storage Vault (40 pts): Get +16 storage slots for your storage chest; Ribbon Connoisseur (60 pts): Get +3 more ribbons every day for your Ribbon Shelf; Another Page (50 pts): Get +1 more Filter Page. Find it on the left side of Cards; Extra Exaltedness (35 pts): Get +1 Exalted Stamp use, and +20% Exalt Bonus.; Smiley Statue (90 pts): All statues give 1.30x higher bonuses, forever!; Government Subsidy (17 pts): Get 1.60x more coins from defeating monsters!; Automated Mail (15 pts): Get +5 Boxes at the Post Office every day you play!; Fossil Meritocracy (45 pts): Get +20% higher Meritocracy Bonus in World 7; Coolral (30 pts): Boosts daily gain for the Coral Reef in W7 by 1.30x; Singed Tome (125 pts): Adds a new Drop Rate Multi bonus to the Tome in World 4; Worldclass Showcase (180 pts): Turns a Gallery Slot in World 7 to Grade 4; Omega Bubble (90 pts): Kattlekruk divinity gives 1.50x more daily bubbles; Kaleidoscope (35 pts): Gives you 1 more Kaleidoscope for Research in World 7; Magnifying Glass (25 pts): Gives you 1 more Magnifier for Research in World 7; Keen Observations (33 pts): Get +3 more Daily Attempts at finding Observations!; Shape Obsession (200 pts): Get +1 more Shape for your Research Grid in World 7; Rift Guy Sticker (75 pts): Increases all Sticker Bonuses by +30%; Glimbo Coupon (60 pts): Lowers the cost of all Glimbo Trades in World 7 by 25%; Tiny Cog Twins (175 pts): Daily producion of Tiny Cogs is now double!; Glimbo VIP Pass (210 pts): Each Glimbo Trade boosts Vault Max LV by +2 not +1; Golden Registrant (15 pts): Registering for Grand Tournament gives 1000 Gold Balls; Glass Dice (35 pts): +50% total Crystal Mob Spawn Chance; Magnate Exotica (170 pts): +8 weekly Exotic Market purchases and +30% are free; Minehead Money (35 pts): Earn 2x more currency for World 7's Depth Charge; Sushi Stackz (20 pts): Earn 2x more currency for World 7's Sushi Station; Research Registrant (150 pts): Registering for Tournament gives 12hrs Research gains; Monumental Reverence (175 pts): +100 LVs for all Monument bonuses every day forever; Noble Sluggo (90 pts): Roams your dock, giving 1.50x Artifact Find chance; Doggie Sticker (250 pts): Boosts Sticker odds by 2x daily, resets when finding one; 6 Star Cardifiers (200 pts): Gives you EIGHT usable 6star cardifiers!; Elegant Ribbons (190 pts): New ribbons have 25% chance to be +1 Tier higher!; Fishmaxxing (275 pts): 5x Fish and 75% cheaper upgrades for Poppy!; Dough Roller (50 pts): 2x Cooking Speed; Bejeweled Ladle (250 pts): +5 Purple and Yellow PTS for Cooking Mastery!; Boat Discount (100 pts): All sailing boat upgrades are 30% cheaper; Ivory Locket (100 pts): +3 Slot Unlocks for Jelly Operator; Meatmaxxing (250 pts): 3x Fish and 50% cheaper upgrades for Bubba!; Smol Pouch (25 pts): Get +2 Inventory slots for your Items Backpack; A North Star (60 pts): +1 Black Star to use in the Gaming Palette; Organic Label (90 pts): +5 uses, doubles your choice of Exotic Market upgrade!; Menagerie Shell (250 pts): Instantly get +5 Shells for the Luminous Menagerie; Graduate Thesis (15 pts): Get +1 Research PTS; Gilded Awnings (120 pts): +25 Max LV for most of the Upgrade Vault; Full Kitchen Simmer (190 pts): 10x Max Fuel Capacity for the Sushi Station; Slot of Friendship (200 pts): Adds +1 more slot for your Friend Bonuses
 
-## Legend talents (24 leveled)
+## Legend talents (25 leveled)
 - Coral Restoration 2/2: +{% more Daily Coral gained each and every day!
 - Greatest Drop Party Ever 4/5: +{% Drop Rate for all players! This bonus is additive, not a multiplier.
 - Double Aint Enough 3/3: ''2x Statue and Gold Food drops'' now drop in bundles of $x instead!
@@ -96,10 +96,11 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 - Davey Jones Returns 4/4: }x bonus to all the same stats that 'Davey Jones Training' gives, check it in W5 Gemshop. Also, -{% Minimum Travel Time
 - Opa Opal Style 3/3: Villagers at the Hole in World 5 gain }x more EXP
 - Recycled Particle Upgrades 1/1: {% of Unspent 'Alternate Particle Upgrades' each day are spent equally across the 1st bubbles of each colour, for free!
-- Thanatos's Teachings 2/3: +{% extra kills, for opening portals and Deathnote. This bonus is additive, not a multiplier.
+- Thanatos's Teachings 3/3: +{% extra kills, for opening portals and Deathnote. This bonus is additive, not a multiplier.
 - Cog Lover 2/2: You can claim +{ more Jeweled Cogs every day, if you have them unlocked...
 - Skillium Fancyson 4/4: }x higher EXP gain for all skills, except Research and W7 Skill 3!
 - Flopping a Full House 5/5: Actively equipped cards give }x higher bonuses, and this stacks with Lab chips!
+- Democracy FTW 1/1: The Bonus Ballot gives a +{% higher bonus for the winning bonus of the week
 - Daily Shopping Spree 4/4: The first { upgrades you buy each day for Masterclasses are 80% cheaper
 - May the Best Man Win 1/1: The Multi Meritocracy gives a +{% higher multiplier for the winning bonus of the week
 - Furry Friends Forever 2/2: The 'rest-of-the-game' bonuses from your friends Orion and Poppy are all }x bigger
@@ -148,11 +149,11 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 
 ## Kill-count talents
 - Archlord of the Pirates (Drop Rate and Class EXP): 6208 kills, value 16.55. Farm more Plunder Kills with Siege Breaker for Drop Rate Crystal Setup at W5 Citringes for ~20k per day
-- King of the Remembered (Printer Output): 2756063 kills, value 22.88. Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from
+- King of the Remembered (Printer Output): 2762055 kills, value 22.97. Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from
 - Wormhole Emperor (Damage): 570597 kills, value 0. Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns
 
 ## Family bonuses (top level of each class, account-wide)
-- Journeyman 815; Maestro 815; Voidwalker 815; Warrior 902; Barbarian 902; Squire 857; Blood Berserker 902; Death Bringer 902; Divine Knight 857; Royal Guardian 857; Archer 877; Bowman 871; Hunter 877; Siege Breaker 871; Wind Walker 877; Beast Master 877; Mage 878; Wizard 864; Shaman 878; Elemental Sorcerer 864; Bubonic Conjuror 878; Arcane Cultist 878
+- Journeyman 815; Maestro 815; Voidwalker 815; Warrior 927; Barbarian 927; Squire 857; Blood Berserker 927; Death Bringer 927; Divine Knight 857; Royal Guardian 857; Archer 877; Bowman 871; Hunter 877; Siege Breaker 871; Wind Walker 877; Beast Master 877; Mage 878; Wizard 864; Shaman 878; Elemental Sorcerer 864; Bubonic Conjuror 878; Arcane Cultist 878
 
 ## Divinity blessings
 - Snehebatu None; Arctis None; Nobisect None; Harriep None; Goharut None; Omniphau None; Purrmep None; Flutterbis None; Kattlekruk None; Bagur None
@@ -163,7 +164,7 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 ## Cosmetics with stats
 - Hats on rack: 41
 - Capes on vine: 15; missing: Easter Egg Backpack, Giant Rose, Giant Violet, Giant Starflower, Dragonroll Mantlepiece, Beeg Egg, Bladed Rucksack, Lovely Balloon
-- Gallery multi 1.41x
+- Gallery multi 1.56x
 - Trophies missing: King of Food, Dice Dynamo, Ultra Unboxer, Megalodon, Idle Skiller, Master of Nothing, Nebula Royal, Baller, Heroic Spirit, Nine Dart Finish, Luckiest Lad
 - Nametags missing: Spring Flowers Nametag, Trash Tuna Nametag, Summer Shovel Nametag, 3rd Anniversary IdleOn Nametag, Lovely Day Nametag, Spectacular 4th Year Nametag, 4th Anniversary IdleOn Nametag, Deadbones Nametag, Treasure Nametag, Tome Journeyman Nametag, Tome Expert Nametag, Tome Elite Nametag, Tome Pro Nametag, Tome Master Nametag, Tome Legend Nametag, Reliquarium Nametag, Sweet Chocolate Nametag, Pot of Gold Nametag, Emerald Nametag, 5th Anniversary IdleOn Nametag, Wonderful 5th Year Nametag, Grand Egg Nametag, All That Glitters Nametag, Singed Nametag, Spooky Scary Nametag
 - How to get each missing one (pack vs in-game): source pass pending (wiki).

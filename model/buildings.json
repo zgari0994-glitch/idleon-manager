@@ -34,7 +34,7 @@
  "buildings": [
   {
    "name": "Atom Collider",
-   "lv": 127,
+   "lv": 129,
    "max": 200,
    "slot": "building",
    "ready": false,
@@ -43,18 +43,8 @@
    "need": null
   },
   {
-   "name": "Frozone Malone",
-   "lv": 111,
-   "max": 50,
-   "slot": "building",
-   "ready": false,
-   "left": null,
-   "have": null,
-   "need": null
-  },
-  {
    "name": "Stormcaller",
-   "lv": 118,
+   "lv": 119,
    "max": 50,
    "slot": "building",
    "ready": false,
@@ -64,7 +54,7 @@
   },
   {
    "name": "Party Starter",
-   "lv": 120,
+   "lv": 122,
    "max": 50,
    "slot": "building",
    "ready": false,
@@ -74,7 +64,7 @@
   },
   {
    "name": "Poisonic Elder",
-   "lv": 115,
+   "lv": 117,
    "max": 50,
    "slot": "building",
    "ready": false,
@@ -84,7 +74,7 @@
   },
   {
    "name": "Voidinator",
-   "lv": 64,
+   "lv": 66,
    "max": 50,
    "slot": "building",
    "ready": false,
@@ -94,7 +84,7 @@
   },
   {
    "name": "Woodular Shrine",
-   "lv": 216,
+   "lv": 220,
    "max": 100,
    "slot": "building",
    "ready": false,
@@ -104,7 +94,17 @@
   },
   {
    "name": "Isaccian Shrine",
-   "lv": 190,
+   "lv": 199,
+   "max": 100,
+   "slot": "building",
+   "ready": false,
+   "left": null,
+   "have": null,
+   "need": null
+  },
+  {
+   "name": "Crystal Shrine",
+   "lv": 187,
    "max": 100,
    "slot": "building",
    "ready": false,
@@ -166,28 +166,28 @@
    "group": "A Tier",
    "tab": "default",
    "label": "Poisonic Elder",
-   "cur": "115",
+   "cur": "117",
    "goal": "240"
   },
   {
    "group": "A Tier",
    "tab": "default",
    "label": "Stormcaller",
-   "cur": "118",
+   "cur": "119",
    "goal": "240"
   },
   {
    "group": "B Tier",
    "tab": "default",
    "label": "Isaccian Shrine",
-   "cur": "190",
+   "cur": "199",
    "goal": "200"
   },
   {
    "group": "B Tier",
    "tab": "default",
    "label": "Crystal Shrine",
-   "cur": "100",
+   "cur": "187",
    "goal": "200"
   },
   {
@@ -208,14 +208,14 @@
    "group": "C Tier",
    "tab": "default",
    "label": "Voidinator",
-   "cur": "64",
+   "cur": "66",
    "goal": "240"
   },
   {
    "group": "C Tier",
    "tab": "default",
    "label": "Atom Collider",
-   "cur": "127",
+   "cur": "129",
    "goal": "200"
   },
   {
@@ -257,14 +257,14 @@
    "group": "C Tier",
    "tab": "default",
    "label": "Party Starter",
-   "cur": "120",
+   "cur": "122",
    "goal": "240"
   },
   {
    "group": "C Tier",
    "tab": "default",
    "label": "Frozone Malone",
-   "cur": "111",
+   "cur": "112",
    "goal": "240"
   },
   {
@@ -275,5 +275,5 @@
    "goal": "200"
   }
  ],
- "snapshot": "20261126T1304"
+ "snapshot": "20261126T2330"
 }

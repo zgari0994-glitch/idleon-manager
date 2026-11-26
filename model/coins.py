@@ -7,7 +7,7 @@ Coins are per character: affordability is checked against each character's own c
 Writes model/coins.json + coins.md. Usage: python3 model/coins.py"""
 import json, gzip, os, sys, re
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, '/home/claude/ar/mysite')
+sys.path.insert(0, '/home/claude/ar/mysite'); sys.path.insert(0, '/home/claude/work/ar/mysite')
 from consts.generated.raw_item_data import raw_item_data as RD
 stamp = open(os.path.join(R, 'snapshots', 'LATEST')).read().strip()
 d = json.load(gzip.open(os.path.join(R, 'snapshots', stamp, 'raw.json.gz'))); d = d.get('data', d)

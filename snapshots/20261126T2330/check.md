@@ -1,0 +1,116 @@
+# Data check 20261126T2330
+Save age: 0.0h
+Toolbox source: c1a7425287  |  compared with: 20261126T1304
+Systems: 97 OK, 0 missing, 3 not in parser
+
+## FAILS
+- none
+
+## Warnings
+- basketball: not in Toolbox's parser
+- darts: not in Toolbox's parser
+- event_points_shop: not in Toolbox's parser
+
+## Systems
+| system | status | detail |
+|---|---|---|
+| achievements | OK | 420 entries |
+| advice_fish | OK | 1 entries |
+| alchemy_bubbles | OK | 13 entries |
+| alchemy_cauldrons | OK | 13 entries |
+| alchemy_p2w | OK | 13 entries |
+| alchemy_vials | OK | 13 entries |
+| arcade | OK | 7 entries |
+| armor_sets | OK | 5 entries |
+| atom_collider | OK | 7 entries |
+| autoloot | OK | 1 entries |
+| ballot | OK | 8 entries |
+| basketball | NOT IN PARSER | use AutoReview / raw save |
+| beanstalk | OK | 35 entries |
+| breeding | OK | 26 entries |
+| bribes | OK | 41 entries |
+| cape_vine | OK | 11 entries |
+| cards | OK | 275 entries |
+| caverns | OK | 19 entries |
+| clam_work | OK | 15 entries |
+| class_kill_talents | OK | 11 entries |
+| cog_board | OK | 17 entries |
+| colo_scores | OK | 2 entries |
+| companions | OK | 8 entries |
+| compass | OK | 14 entries |
+| construction_buildings | OK | 17 entries |
+| cooking | OK | 7 entries |
+| coral_kid | OK | 9 entries |
+| coral_reef | OK | 9 entries |
+| crystal_spawn_chance | OK | 11 entries |
+| dancing_coral | OK | 9 entries |
+| darts | NOT IN PARSER | use AutoReview / raw save |
+| death_note | OK | 8 entries |
+| divinity | OK | 9 entries |
+| drop_rate | OK | 11 entries |
+| dungeons | OK | 10 entries |
+| emperor | OK | 9 entries |
+| equinox | OK | 12 entries |
+| event_points_shop | NOT IN PARSER | use AutoReview / raw save |
+| family_bonuses | OK | 11 entries |
+| farming | OK | 27 entries |
+| forge_upgrades | OK | 6 entries |
+| friend_bonuses | OK | 3 entries |
+| gallery | OK | 13 entries |
+| gaming | OK | 43 entries |
+| gemshop | OK | 300 entries |
+| glimbo | OK | 22 entries |
+| greenstacks | OK | 4 entries |
+| grimoire | OK | 7 entries |
+| guild_bonuses | OK | 10 entries |
+| hat_rack | OK | 6 entries |
+| highest_dmg | OK | 2 entries |
+| inventory | OK | 11 entries |
+| islands | OK | 8 entries |
+| jelly_operator | OK | 27 entries |
+| killroy | OK | 8 entries |
+| lab_bonuses | OK | 8 entries |
+| lab_chips | OK | 8 entries |
+| lab_jewels | OK | 8 entries |
+| lab_mainframe | OK | 8 entries |
+| legend_talents | OK | 5 entries |
+| library | OK | 6 entries |
+| library_group_characters | OK | 6 entries |
+| manual_tome_score | OK | 6 entries |
+| meals | OK | 7 entries |
+| menagerie | OK | 15 entries |
+| meritocracy | OK | 28 entries |
+| merits | OK | 7 entries |
+| minehead | OK | 15 entries |
+| npc_tokens | OK | 7 entries |
+| obols | OK | 3 entries |
+| owl | OK | 9 entries |
+| post_office | OK | 6 entries |
+| prayers | OK | 19 entries |
+| printer | OK | 11 entries |
+| quests | OK | 7 entries |
+| refinery | OK | 7 entries |
+| research | OK | 55 entries |
+| reset_counters | OK | 701 entries |
+| rift | OK | 4 entries |
+| royal_armory | OK | 17 entries |
+| sailing | OK | 15 entries |
+| saltlick | OK | 11 entries |
+| shrines | OK | 9 entries |
+| slab | OK | 10 entries |
+| sneaking | OK | 30 entries |
+| spelunk | OK | 62 entries |
+| stamps | OK | 3 entries |
+| star_signs | OK | 81 entries |
+| statues | OK | 32 entries |
+| storage | OK | 4 entries |
+| summoning | OK | 21 entries |
+| sushi_station | OK | 18 entries |
+| tesseract | OK | 11 entries |
+| the_button | OK | 9 entries |
+| tome | OK | 6 entries |
+| trapping | OK | 11 entries |
+| vault | OK | 4 entries |
+| world_progress | OK | 7 entries |
+| worship | OK | 8 entries |
+| zenith_market | OK | 2 entries |

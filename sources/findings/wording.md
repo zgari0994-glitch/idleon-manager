@@ -1,257 +1,260 @@
 # Wording: spots to check next card build
 One line per spot that keeps producing jargon/padding (count = lines this build, example). Raw labels were dropped from cards. Fix at the planner, then delete the line. Rewritten each build.
 
-- Account wide sources of Drop Rate (+3583.2%) (47x): Account wide sources of Drop Rate (+3583.2%) · Farming Crop Depot - Highlighter:+69.6/400.2% DR 140 -> 330
-- Statue Effect multis and Statue bonuses (35x): Statue Effect multis and Statue bonuses · Level 202 Zenith Mutton Statue: +600% Cooking Exp 202 -> ∞
-- Sources of Printer Sample Rate (90% Hardcap) (13x): Sources of Printer Sample Rate (90% Hardcap) · Autiszemo: Prayer not needed. You may remove if desired. 👍 94.2% -> 90%
-- Sources of Carry Capacity (12x): Sources of Carry Capacity · Star Sign - Seraph Cosmos: Multis Passive signs by 1.9/5x. Increases every 20 Summoning  126 -> 140
+- Account wide sources of Drop Rate (+5426.1%) (46x): Account wide sources of Drop Rate (+5426.1%) · Farming Crop Depot - Highlighter:+219/494% DR 202 -> 330
+- Statue Effect multis and Statue bonuses (35x): Statue Effect multis and Statue bonuses · Zenith Mutton Statue: +3,577% Cooking Exp 205 -> ∞
+- Sources of Printer Sample Rate (90% Hardcap) (13x): Sources of Printer Sample Rate (90% Hardcap) · Autiszemo: Prayer not needed. You may remove if desired. 👍 94.9% -> 90%
+- Sources of Sailing Speed (12x): Sources of Sailing Speed · Meal - Popped Corn: +2,790% Sailing Speed 111 -> 180
+- Sources of Carry Capacity (12x): Sources of Carry Capacity · Star Sign - Seraph Cosmos: Multis Passive signs by 1.9/5x. Increases every 20 Summoning  129 -> 140
 - (Equipped per character. Royal (11x): (Equipped per character. Royal Sampler not needed on anyone (AutoReview Sampling))
 - (Zack 2026-11-19: each character (11x): (Zack 2026-11-19: each character has its own box target (AutoReview); Beryllium atom converts 280 silver pens/day)
-- Sources of daily Corals (11x): Sources of daily Corals · Vial - Scale On Ice: +0% Daily Corals 0 -> 13
-- Sources of Sailing Speed (10x): Sources of Sailing Speed · Meal - Popped Corn: +1,774% Sailing Speed 90 -> 180
-- Sources of bonus talent levels beyond book le (6x): Sources of bonus talent levels beyond book le · Grimoire: Skull of Major Talent: +0/30 0 -> 30
-- Sources of Shiny Pet Level Rate (6x): Sources of Shiny Pet Level Rate · Farming Crop Depot - Crayon:+1705.2/4019.4% Mobs 140 -> 330
-- Remaining sources of max plate levels (6x): Remaining sources of max plate levels · Upgrade "Supreme Head Chef Status" within The Grimoire 0 -> 20
-- Sources of Sigil Charging Speed. Grand total: (6x): Sources of Sigil Charging Speed. Grand total: · Sigil: Level 1 Pea Pod: +100/4800% 1 -> 5
-- Sources of Bonuses Multi (6x): Sources of Bonuses Multi · Emperor Showdown:1.01x Summoning Winner Bonuses 1 -> ∞
-- Sources of Printer Output. Grand Total: 59.4 (5x): Sources of Printer Output. Grand Total: 59.4 · Rift: Skill Mastery: base 7%Additional 1% per Skill at 750: 12/18% 19% -> 25%
-- Sources of Pet Damage (5x): Sources of Pet Damage · Meal - Croissant: +262% 90 -> 180
-- Sources of Card Drop Chance (5x): Sources of Card Drop Chance · Alchemy Bubbles - Card Champ: +63/100% 68 -> 3960
-- Sources of Atom Collider Cost Reduction (5x): Sources of Atom Collider Cost Reduction · Neon - Damage N' Cheapener: 30/40% 30 -> 40
-- Sources of Checkout Speed (4x): Sources of Checkout Speed · Meal - Fortune Cookie: +1,047% Library Checkout Spd 90 -> 180
-- Sources of Bonus Ballot Multi (4x): Sources of Bonus Ballot Multi · Endless Summoning Bonus:+21% Ballot Bonus 91 -> 94
+- Sources of daily Corals (10x): Sources of daily Corals · Vial - Scale On Ice: +3.7% Daily Corals 8 -> 13
+- Sources of Magic Bean Bonus (7x): Sources of Magic Bean Bonus · More Beenz:+184/1000% magic beans gained when trading in crops 92 -> 500
+- Sources of Shiny Pet Level Rate (6x): Sources of Shiny Pet Level Rate · Farming Crop Depot - Crayon:+3,035/4,958% Mobs 202 -> 330
+- Sources of Printer Output. Grand Total: 96.8 (5x): Sources of Printer Output. Grand Total: 96.8 · Rift: Skill Mastery: base 7%Additional 1% per Skill at 750: 13/18% 20% -> 25%
+- Sources of bonus talent levels beyond book le (5x): Sources of bonus talent levels beyond book le · Grimoire: Skull of Major Talent: +0/30 0 -> 30
+- Sources of Checkout Speed (5x): Sources of Checkout Speed · Meal - Fortune Cookie: +1,646% Library Checkout Spd 111 -> 180
+- Sources of Pet Damage (5x): Sources of Pet Damage · Meal - Croissant: +412% Mob Fighting Damage 111 -> 180
+- Sources of Sigil Charging Speed. Grand total: (5x): Sources of Sigil Charging Speed. Grand total: · Level 2 Pea Pod: +300/4800% 2 -> 5
+- Sources of Bonuses Multi (5x): Sources of Bonuses Multi · Emperor Showdown:1.01x Summoning Winner Bonuses 1 -> ∞
+- Sources of Atom Collider Cost Reduction (5x): Sources of Atom Collider Cost Reduction · Neon - Damage N' Cheapener: 32/50% 32 -> 50
+- Remaining sources of max plate levels (4x): Remaining sources of max plate levels · Menagerie Unlock 21: Boost the Max Cooking LV by +10Costs 29.75M Lumi, needs a higher Mena 0 -> 1
+- Sources of Card Drop Chance (4x): Sources of Card Drop Chance · Alchemy Bubbles - Card Champ: +66.1/100% 78 -> 3960
 - Sources of Forge Ore Capacity (4x): Sources of Forge Ore Capacity · Arcade Bonus 26: +0/201% Forge Capacity 0 -> 101
-- Next goal: Current Skull (3x): Next goal: Current Skull Ratio 26.3% -> 66.7%
-- Jelly Operator: Next goal: (3x): Jelly Operator: Next goal: Amoeba:Unlock the Amoeba Cell! Drag it from the Petri Dish onto any Jelly Slot,  0 -> 1
-- Atom Collider: Next goal: (3x): Atom Collider: Next goal: Helium - Talent Power Stacker 8 -> 9
-- Next goal: Level up (3x): Next goal: Level up Dragon Statue 4 -> 150
+- Next goal: Current Skull (3x): Next goal: Current Skull Ratio 21.7% -> 66.7%
+- Next goal: Artifact Find (3x): Next goal: Artifact Find 50.8% -> 100%
+- Sources of Bonus Ballot Multi (3x): Sources of Bonus Ballot Multi · Endless Summoning Bonus:+23% Ballot Bonus 100 -> 106
+- Jelly Operator: Next goal: (3x): Jelly Operator: Next goal: Organelle:Unlock the Organelle Cell! This oddly shaped unit multiplies the attac 0 -> 1
 - Sources of Crystal Spawn Chance (3x): Sources of Crystal Spawn Chance · Level 24 Crescent Shrine: +300%Shrines have no Max level. Goal of 32 is arbitrary 24 -> 32
-- Sources of Max Atom Levels (3x): Sources of Max Atom Levels · Purchasing the final SuperBit in Gaming will increase the max level of all Atoms by 10 0 -> 1
 - Gem Shop: Next goal: (3x): Gem Shop: Next goal: Conjuror Pts (Caverns) 0 -> 1
 - Cape Vine: Next goal: (3x): Cape Vine: Next goal: Easter Egg Backpack+10% Total DamageNot deposited 0 -> 1
-- Active: Bosses n Nightmares- (3x): Active: Bosses n Nightmares- Amarok card:+15/17.5% Skill AFK gain rate (6 -> 7)
-- Beanstalk: Next goal: Golden (2x): Beanstalk: Next goal: Golden Peanut: Smithing 10K -> Deposit
-- AutoReview: You could complete (2x): AutoReview: You could complete 14 more ZOWs with Autiszemo (94/108). Next: Noble Clam in The Clamworks (100K remaining), Spearfish in Pinpoint Summit (100K rema
-- AutoReview: All kills for (2x): AutoReview: All kills for Autiszemo without a filter. Have fun. Next: Rift Monsters in The Rift, Poops in The Office, Boops in Meel's Crypt, Nutto in The Roots,
-- Sources of Magic Bean Bonus (2x): Sources of Magic Bean Bonus · More Beenz:+110/1000% magic beans gained when trading in crops 55 -> 500
+- Active: Bosses n Nightmares- (3x): Active: Bosses n Nightmares- Chaotic Amarok card:+15/17.5% Fighting AFK gain rate (6 -> 7)
+- Beanstalk: Next goal: Golden (2x): Beanstalk: Next goal: Golden Cake: Smithing 1.90K -> 10K
+- AutoReview: You could complete (2x): AutoReview: You could complete 9 more ZOWs with Autiszemo (99/108). Next: Spearfish in Pinpoint Summit (100K remaining), Coralcave Guardian in Coralcave Perimet
+- AutoReview: All kills for (2x): AutoReview: All kills for Autiszemo without a filter. Have fun. Next: Rift Monsters in The Rift, Poops in The Office, Boops in Meel's Crypt, Green Mushroom in M
 - Cauldron pts -> W7 (2x): Cauldron pts -> W7 bubble rolls
-- Sources of Stamp Cost Reduction (2x): Sources of Stamp Cost Reduction · Sigil: Envelope Pile 1 -> 5
-- Sources of bonus Vial Effect (2x): Sources of bonus Vial Effect · Total Vial Effect bonus: 4.60x 4.60x -> 5.96x
-- Sources of Max Book Levels (299/441) (2x): Sources of Max Book Levels (299/441) · Summoning Bonus:+29 Library Max 29 -> 96
-- Sushi Station: Next goal: (2x): Sushi Station: Next goal: Sushi Slot:Adds a new slot for your Sushi Station! 7 -> 50
-- Greenstacks: Next goal: Potent (2x): Greenstacks: Next goal: Potent Speed Potion (W4 Town) 48% -> 100%
+- Sigils: Next goal: Level (2x): Sigils: Next goal: Level up Envelope Pile 24.2 -> 2500
+- Sources of bonus Vial Effect (2x): Sources of bonus Vial Effect · Total Vial Effect bonus: 4.68x 4.68x -> 5.96x
+- Sources of Max Book Levels (313/441) (2x): Sources of Max Book Levels (313/441) · Summoning Bonus:+43 Library Max 43 -> 96
+- Sushi Station: Next goal: (2x): Sushi Station: Next goal: Sushi Slot:Adds a new slot for your Sushi Station! 18 -> 50
+- Atom Collider: Next goal: (2x): Atom Collider: Next goal: Helium - Talent Power Stacker 8 -> 9
+- Sources of Max Atom Levels (2x): Sources of Max Atom Levels · Nomadic-17: Atomic Potential: +0 Max LV for all atoms in the Atom Collider(1 per lev 0 -> 20
+- Greenstacks: Next goal: Potent (2x): Greenstacks: Next goal: Potent Speed Potion (W4 Town) 64% -> 100%
 - Next goal: Red Mushroom (2x): Next goal: Red Mushroom in Birch Enclave (100M remaining) 0% -> 100%
 - Coral Reef: Next goal: (2x): Coral Reef: Next goal: Unlock Carnation Coral: Instantly gives Shells for the Luminous Menagerie! 0 -> 13
-- Drop Rate: Smolderin' Plateau- (2x): Drop Rate: Smolderin' Plateau- Ancient Golem card:+8/28% Total Drop Rate (Passive) (2 -> 7)
-- Farming: Next goal: Product (1x): Farming: Next goal: Product Doubler:+126/150% chance for crops to be worth 2x when collected 42 -> 50
-- Farming: Next goal: Medal (1x): Farming: Next goal: Medal Crop 20 chance8.6.0e45 for 100% chance 0% -> 100%
-- Farming: Next goal: More (1x): Farming: Next goal: More Beenz:+110/1000% magic beans gained when trading in crops 55 -> 500
-- Grimoire upgrade "Supreme Head (1x): Grimoire upgrade "Supreme Head Chef Status" 0 -> 20 (Autiszemo)
-- Cooking Mastery is level (1x): Cooking Mastery is level 5. Sweet unlocks when Divorce Cake reaches 75 (it's None).
-- Next goal: Unlock max (1x): Next goal: Unlock max level 150 plates 90 -> 150
+- Drop Rate: Smolderin' Plateau- (2x): Drop Rate: Smolderin' Plateau- Ancient Golem card:+12/28% Total Drop Rate (Passive) (3 -> 7)
+- Exotic Market: 4 buys (1x): Exotic Market: 4 buys left this rotation (None left). Pulse likes Bountiful I and Scienterrific.
+- Farming: Next goal: Medal (1x): Farming: Next goal: Medal Crop 40 chance2.4.7e97 for 100% chance 0% -> 100%
+- Farming: Next goal: More (1x): Farming: Next goal: More Beenz:+184/1000% magic beans gained when trading in crops 92 -> 500
+- Next goal: Unlock max (1x): Next goal: Unlock max level 150 plates 120 -> 150
 - Next goal: Artifact 0 (1x): Next goal: Artifact 0 -> 1
-- Next goal: Turkey of (1x): Next goal: Turkey of Thank 90 -> 180
-- Next goal: Total Grimoire (1x): Next goal: Total Grimoire Upgrades 1347 -> 1900
-- Next goal: Ribbon Winning (1x): Next goal: Ribbon Winning 18 -> 20
-- Next goal: Annihilation Stacks (1x): Next goal: Annihilation Stacks 0 -> 25
+- Next goal: Turkey of (1x): Next goal: Turkey of Thank 111 -> 180
+- Cheap and on AutoReview's (1x): Cheap and on AutoReview's list: Talents for Me, not for Thee (8.58K Cranium), Writhing Grimoire (15.6K Ribcage), Skull of Major Talent (33.5K Bovinae).
+- Next goal: Total Grimoire (1x): Next goal: Total Grimoire Upgrades 3043 -> 3150
+- Next goal: Ribbon Winning (1x): Next goal: Ribbon Winning 32 -> 35
+- Next goal: Knockout Stacks (1x): Next goal: Knockout Stacks 51 -> 63
 - AutoReview wants one sample (1x): AutoReview wants one sample goal next: Oak Logs to 10B. That sample resets Gold Relic, so time it for print day.
 - Next goal: Goldfish 111.85M (1x): Next goal: Goldfish 111.85M -> 150.0M
-- Next goal: Showdown 58HP (1x): Next goal: Showdown 58HP 57 -> 58
-- Next goal: Gelatinous Cuboid (1x): Next goal: Gelatinous Cuboid in Jelly Cube Bridge (134M remaining) 87% -> 100%
-- Next goal: Crawler in (1x): Next goal: Crawler in Crawly Catacombs (384M remaining) 62% -> 100%
+- Next goal: Gelatinous Cuboid (1x): Next goal: Gelatinous Cuboid in Jelly Cube Bridge (102M remaining) 90% -> 100%
+- Next goal: Fire Spirit (1x): Next goal: Fire Spirit in Spitfire River (170M remaining) 83% -> 100%
 - Next goal: Baby Troll (1x): Next goal: Baby Troll in Troll Playground (38M remaining) 96% -> 100%
-- Sigils are the weakest (1x): Sigils are the weakest part of Alchemy (tier 1/8). Only Autistachio is charging one. Quickest next levels: Big Muscle, Pumped Kicks, Odd Litearture.
-- Bubble goals: Stronk Tools (1x): Bubble goals: Stronk Tools 284 -> 397; Multorange 123 -> 170; Dream Of Ironfish 78 -> 170; Warriors Rule (Printing!) 286 -> 450.
-- Bubbles: Next goal: Stronk (1x): Bubbles: Next goal: Stronk Tools 284 -> 397
-- Bubbles: Next goal: Premigreen (1x): Bubbles: Next goal: Premigreen 73 -> 270
+- Sigils are the weakest (1x): Sigils are the weakest part of Alchemy (tier 1/8). Only Autistronaut, Autistachio is charging one. Quickest next levels: Big Muscle, Pumped Kicks, Odd Liteartur
+- Bubble goals: Dream Of (1x): Bubble goals: Dream Of Ironfish 103 -> 170; Stronk Tools 615 -> 630; Dream Of Ironfish 103 -> 270; Warriors Rule (Printing!) 451 -> 950.
+- Bubbles: Next goal: Dream (1x): Bubbles: Next goal: Dream Of Ironfish 103 -> 170
+- Bubbles: Next goal: Premigreen (1x): Bubbles: Next goal: Premigreen 77 -> 270
 - Bubbles: Next goal: Tree (1x): Bubbles: Next goal: Tree Sleeper 78 -> 160
-- Vials: Next goal: Unlock (1x): Vials: Next goal: Unlock 8 more vials 74 -> 82
-- Vials: Next goal: Max (1x): Vials: Next goal: Max 52 total vials 50 -> 52
-- Vials: Next goal: Total (1x): Vials: Next goal: Total Vial Effect bonus: 4.60x 4.60x -> 5.96x
-- Sigils: Next goal: Level (1x): Sigils: Next goal: Level up Envelope Pile 24.2 -> 2500
-- Sigils: Next goal: Sigil: (1x): Sigils: Next goal: Sigil: Level 1 Pea Pod: +100/4800% 1 -> 5
+- Vials: Next goal: Unlock (1x): Vials: Next goal: Unlock 2 more vials 80 -> 82
+- Vials: Next goal: Max (1x): Vials: Next goal: Max 56 total vials 52 -> 56
+- Vials: Next goal: Total (1x): Vials: Next goal: Total Vial Effect bonus: 4.68x 4.68x -> 5.96x
+- Sigils: Next goal: Artifact (1x): Sigils: Next goal: Artifact - Chilled Yarn: 6/8x 5 -> 7
+- Pay2Win: Next goal: Player (1x): Pay2Win: Next goal: Player Upgrades 260 -> 262
 - Next goal: Danny and his Shiny FishiesReward: 9.75x Total DMG 0 -> 1 (1x): Next goal: Danny and his Shiny FishiesReward: 9.75x Total DMG 0 -> 1 · LOCKED -> Defeat the lore boss of Spelunking cave 5 Chucklemire. Now: Pebble Cove boss do
-- Next goal: Uno Draw (1x): Next goal: Uno Draw 7Reward 91 -> 92
-- Next goal: 33.55x Total (1x): Next goal: 33.55x Total DMG 33.5 -> 244
-- AutoReview wants Parallel Statues, (1x): AutoReview wants Parallel Statues, Ethereal Opals, Parallel Golden Food, My Talents, and Mine Alone, Villager Indoctrination, but they cost Green/Red/Gold tachy
-- Next goal: Total Tesseract (1x): Next goal: Total Tesseract Upgrades 639 -> 1250
-- Next goal: Parallel Statues (1x): Next goal: Parallel Statues 0 -> 10
-- Next goal: Fight with (1x): Next goal: Fight with Arcane Form enabled to collect 1,000 Arcane Fragments, then use the s 283 -> 1000
-- Sample It bubble: +9.1/10% (1x): Sample It bubble: +9.1/10% 123 -> 200 (toward Autisticles Bug prints)
+- Next goal: Zerg SurpriseReward (1x): Next goal: Zerg SurpriseReward 100 -> 101
+- Next goal: 49.24x Total (1x): Next goal: 49.24x Total DMG 49.2 -> 360
+- AutoReview wants Parallel Statues, (1x): AutoReview wants Parallel Statues, Ethereal Opals, Parallel Golden Food, My Talents, and Mine Alone, Villager Indoctrination, Fractal Tesseract, but they cost G
+- Next goal: Total Tesseract (1x): Next goal: Total Tesseract Upgrades 1894 -> 2750
+- Next goal: Parallel Statues (1x): Next goal: Parallel Statues 18 -> 20
+- Next goal: Lab Jewel (1x): Next goal: Lab Jewel - Eternal Energy Jewel 0 -> 1
+- Next goal: Showdown 78HP (1x): Next goal: Showdown 78HP 77 -> 78
+- Sample It bubble: +9.2/10% (1x): Sample It bubble: +9.2/10% 133 -> 200 (toward Autisticles Bug prints)
 - Startue Exp bubble: 18.5/20%+ (1x): Startue Exp bubble: 18.5/20%+ minimum 171 -> 240 (toward Autisticles Statue turn-ins (farmed by others))
+- +10 LV/day for Kattlekruk (1x): +10 LV/day for Kattlekruk bubbles 0 -> 1 (toward Autisticles W7 minis)
 - Kruk be Bubblin': Kattlekruk (1x): Kruk be Bubblin': Kattlekruk gives +0 more Bubble LVs per day for each of his bu 0 -> 5 (toward Autisticles W7 minis)
-- Autistocat- Kill 1M Choccies (1x): Autistocat- Kill 1M Choccies for W2 Weekly Boss (123.29K -> 1000K)
 - Autistocat- Kill 1M Stiltmoles (1x): Autistocat- Kill 1M Stiltmoles for W2 Weekly Boss (75.00K -> 1000K)
-- SWAP print Bleach Logs (1x): SWAP print Bleach Logs -> Jungle Logs (sample 1.7B; Lil' Mining Baggy Stamp next max raise needs 884M (have 58.5M)). Changing a print does not take a sample, so
-- Boat 9 (Captain P): (1x): Boat 9 (Captain P): World's End -> Dungeon Cove (0.2% -> 0.2% a chest)
-- Boat 10 (Captain J): (1x): Boat 10 (Captain J): Crystal Enclave -> Dungeon Cove (0.2% -> 0.3% a chest)
-- Boat 11 (Captain K): (1x): Boat 11 (Captain K): The Edge -> Candied Island (0.4% -> 0.7% a chest)
-- Boat 13 (Captain M): (1x): Boat 13 (Captain M): Stormy North -> Rocky Peaks (1.4% -> 1.6% a chest)
-- Boat 14 (Captain F): (1x): Boat 14 (Captain F): The Edge -> World's End (0.4% -> 0.2% a chest)
-- Boat 16 (Captain L): (1x): Boat 16 (Captain L): The Edge -> Isolated Woods (0.4% -> 30.6% a chest)
-- Boat 20 (Captain S): (1x): Boat 20 (Captain S): World's End -> Beachy Coast (0.2% -> 4.7% a chest)
-- Check in game that (1x): Check in game that Autistocat is linked to Purrmep in Divinity (boat speed). Toolbox says yes, AutoReview says no.
-- Next goal: The Winz (1x): Next goal: The Winz Lantern 3 -> 4
+- Sources of Stamp Cost Reduction (1x): Sources of Stamp Cost Reduction · Sigils - Level 1 Envelope Pile: +72/600% 1 -> 5
+- Boat 1 (Captain A): (1x): Boat 1 (Captain A): Beachy Coast -> Crystal Enclave (0.0% -> 0.1% a chest)
+- Boat 2 (Captain B): (1x): Boat 2 (Captain B): Beachy Coast -> Dungeon Cove (0.0% -> 0.2% a chest)
+- Boat 3 (Captain C): (1x): Boat 3 (Captain C): Beachy Coast -> Crystal Enclave (0.0% -> 0.1% a chest)
+- Boat 4 (Captain D): (1x): Boat 4 (Captain D): Beachy Coast -> Dungeon Cove (0.0% -> 0.2% a chest)
+- Boat 5 (Captain E): (1x): Boat 5 (Captain E): Beachy Coast -> Cloudy Quay (0.0% -> 0.5% a chest)
+- Boat 6 (Captain N): (1x): Boat 6 (Captain N): Beachy Coast -> Isle of Note (0.0% -> 0.2% a chest)
+- Boat 7 (Captain G): (1x): Boat 7 (Captain G): Beachy Coast -> Fungi Meadows (0.0% -> 0.4% a chest)
+- Boat 8 (Captain F): (1x): Boat 8 (Captain F): Beachy Coast -> Candied Island (0.0% -> 1.2% a chest)
+- Boat 9 (Captain P): (1x): Boat 9 (Captain P): Beachy Coast -> Snowy South (0.0% -> 0.6% a chest)
+- Boat 10 (Captain J): (1x): Boat 10 (Captain J): Beachy Coast -> Petulent Garage (0.0% -> 0.1% a chest)
+- Boat 11 (Captain K): (1x): Boat 11 (Captain K): Beachy Coast -> Stormy North (0.0% -> 0.7% a chest)
+- Boat 13 (Captain M): (1x): Boat 13 (Captain M): Beachy Coast -> Rocky Peaks (0.0% -> 1.4% a chest)
+- Boat 15 (Captain O): (1x): Boat 15 (Captain O): Beachy Coast -> Isle of Note (0.0% -> 0.2% a chest)
+- Boat 16 (Captain L): (1x): Boat 16 (Captain L): Beachy Coast -> Isolated Woods (0.0% -> 1.3% a chest)
+- Boat 17 (Captain T): (1x): Boat 17 (Captain T): Beachy Coast -> Petulent Garage (0.0% -> 0.1% a chest)
+- Boat 18 (Captain Q): (1x): Boat 18 (Captain Q): Beachy Coast -> Isle of Note (0.0% -> 0.2% a chest)
+- Boat 19 (Captain R): (1x): Boat 19 (Captain R): Beachy Coast -> Petulent Garage (0.0% -> 0.1% a chest)
+- Boat 20 (Captain F): (1x): Boat 20 (Captain F): Beachy Coast -> World's End (0.0% -> 100.0% a chest)
+- Next goal: Obsidian 1 (1x): Next goal: Obsidian 1 -> 4
 - Next goal: Anyone Minor (1x): Next goal: Anyone Minor Linked to Purrmep 0 -> 1
-- Next goal: Moai HeadGet (1x): Next goal: Moai HeadGet bonuses from all shrines from any map! You must be in same map/worl 5 -> 7
+- Next goal: Moai HeadGet (1x): Next goal: Moai HeadGet bonuses from all shrines from any map! You must be in same map/worl 6 -> 7
 - Next goal: Fly 131.29M (1x): Next goal: Fly 131.29M -> 454.0M
-- Next goal: Sailing 29 (1x): Next goal: Sailing 29 -> 100
-- Statue goals: Candy or (1x): Statue goals: Candy or Active ES at Penguins (25 -> 40); Candy or Active ES at Cryosnakes (25 -> 40); Crystals with DK at Minichiefs (2 -> 40).
-- Next goal: Onyx base (1x): Next goal: Onyx base bonus 3 -> 7
-- Next goal: Shells needed (1x): Next goal: Shells needed for Menagerie Rank 4 1 -> 3
-- Next goal: Mission 1 (1x): Next goal: Mission 1 9069 -> 10000
-- Next goal: Unlock 4 (1x): Next goal: Unlock 4 0 -> 1
+- Next goal: Sailing 36 (1x): Next goal: Sailing 36 -> 140
+- Next goal: Artifact - (1x): Next goal: Artifact - The Onyx Lantern 4 -> 7
+- Next goal: Shells needed (1x): Next goal: Shells needed for Menagerie Rank 6 2 -> 3
+- Next goal: Mission 1 (1x): Next goal: Mission 1 9493 -> 10000
+- Next goal: Unlock 6 (1x): Next goal: Unlock 6 0 -> 1
+- Clam: buy Pearl Value (1x): Clam: buy Pearl Value (1,663 pearls), Lucky Day (756 pearls), Multi-Scalping (1,437 pearls).
 - Sushi Station: Griffy: After (1x): Sushi Station: Griffy: After the cascade leaves one tier 28, merge tier-27 sushi to restart paired upgrades.
-- Clam Work: Next goal: (1x): Clam Work: Next goal: +1 Legend Talent PTS 0 -> 1
 - Advice Fish: Next goal: (1x): Advice Fish: Next goal: Advice on Life and Death:Level 69: +4.1/10% faster W7 mob respawn rate 40.8% -> 100%
-- Zenith Market: Next goal: (1x): Zenith Market: Next goal: TRUE ZEN:1.0x higher bonuses from Zenith Statues 0 -> 250
+- Zenith Market: Next goal: (1x): Zenith Market: Next goal: TRUE ZEN:1.12x higher bonuses from Zenith Statues 6 -> 250
 - Arcade: Next goal: Bonus (1x): Arcade: Next goal: Bonus 0: +22/404 Base Damage 11 -> 101
-- Buildings: Next goal: Kraken (1x): Buildings: Next goal: Kraken Cosplayer 83 -> 90
+- Sources of Sigil Bonus multi. Grand total: 6/ (1x): Sources of Sigil Bonus multi. Grand total: 6/ · Artifact - Chilled Yarn: 6/8x 5 -> 7
 - Buildings: Next goal: Clover (1x): Buildings: Next goal: Clover Shrine 100 -> 200
-- Buildings: Next goal: Woodular (1x): Buildings: Next goal: Woodular Shrine 142 -> 200
-- Refinery: Next goal: Rank (1x): Refinery: Next goal: Rank 32 Red Salt: excess  -> 228
-- Refinery: Next goal: Red (1x): Refinery: Next goal: Red Salt 32 -> 8332
-- Refinery: Next goal: Green (1x): Refinery: Next goal: Green Salt 19 -> 8332
-- AutoReview's top atom is (1x): AutoReview's top atom is Helium: 479M particles, about 123d 6h away at your rate (3.16M a day).
-- AutoReview top buildings: Kraken (1x): AutoReview top buildings: Kraken Cosplayer 83 -> 90, Poisonic Elder 77 -> 90.
-- Snail is level 13 (1x): Snail is level 13 of 25. AutoReview's mail plan is on this card.
-- Next goal: Royal Talent (1x): Next goal: Royal Talent Points I 45 -> 200
+- Buildings: Next goal: Isaccian (1x): Buildings: Next goal: Isaccian Shrine 199 -> 200
+- Buildings: Next goal: Voidinator (1x): Buildings: Next goal: Voidinator 66 -> 240
+- Refinery: Next goal: Rank (1x): Refinery: Next goal: Rank 38 Red Salt: excess  -> 296
+- Refinery: Next goal: Red (1x): Refinery: Next goal: Red Salt 38 -> 8332
+- Refinery: Next goal: Green (1x): Refinery: Next goal: Green Salt 20 -> 8332
+- AutoReview's top atom is (1x): AutoReview's top atom is Helium: 451M particles, about 26.2 days away at your rate (15.4M a day).
+- Next goal: Current Snail (1x): Next goal: Current Snail Rank 13 -> 49
+- Next goal: Royal Talent (1x): Next goal: Royal Talent Points I 66 -> 200
 - Next goal: Plutus the (1x): Next goal: Plutus the Prosperous 0 -> 1
 - Next goal: Menagerie Unlock 18: Boosts max Flair LV of Statues to ElegantCosts 1 (1x): Next goal: Menagerie Unlock 18: Boosts max Flair LV of Statues to ElegantCosts 11.68M Lumi, 0 -> 1 · BLOCKED: needs a higher Menagerie Rank
 - Next goal: Unlock Fractal (1x): Next goal: Unlock Fractal Island 0 -> 1
 - Next goal: 1 in (1x): Next goal: 1 in 100000 chance for Master of Nothing Trophy per hour of Nothing AFK 0 -> 24
 - Next goal: Grumbie the (1x): Next goal: Grumbie the Hatchet Hammer (Mega Grumblo) 0 -> 1
-- Emperor set (2 / (1x): Emperor set (2 / 7 parts) gives ribbons and Exalted Stamps give 1.20x more multi. Still need Emperor Kabuto, Emperor Sokutai Ho, Emperor Zubon and 1 more.
+- Emperor set (3 / (1x): Emperor set (3 / 7 parts) gives ribbons and Exalted Stamps give 1.20x more multi. Still need Emperor Kabuto, Emperor Sokutai Ho, Emperor Zubon and 1 more.
 - Next goal: Complete the (1x): Next goal: Complete the Godshard Set 0 -> 1
-- Next goal: Destroyer of (1x): Next goal: Destroyer of the Mollo Gomme 0 -> 1
+- Next goal: Doublestring Godshooter (1x): Next goal: Doublestring Godshooter 0 -> 1
 - Next goal: Emperor Kabuto (1x): Next goal: Emperor Kabuto 0 -> 1
-- SWAP print Godshard Ore (1x): SWAP print Godshard Ore -> Void Ore (sample 70.4M; runs out in 6.9 days). Changing a print does not take a sample, so Gold Relic keeps its days.
 - sources/findings/hole_caverns_1-5.md (1x): sources/findings/hole_caverns_1-5.md
 - Move Well buckets onto (1x): Move Well buckets onto the rock layer: Cobaltine 125K left gates #27, #30, #53 [Griffy gPQrOK53BDI + findings/hole_caverns_1-5.md]
 - Totem waves are Autistacular's. (1x): Totem waves are Autistacular's. Prayers moved to every_character 2026-11-19
-- Divinity: Next goal: 25% (1x): Divinity: Next goal: 25% Offering: Tithe 18.5% -> 100%
-- Divinity: Next goal: Goharut (1x): Divinity: Next goal: Goharut Blessing 58 -> 100
-- Divinity: Next goal: 60 (1x): Divinity: Next goal: 60 Divinity and 841 Big P 66 -> 841
+- Divinity: Next goal: 10% (1x): Divinity: Next goal: 10% Offering: Giftbox 23.8% -> 100%
+- Divinity: Next goal: Flutterbis (1x): Divinity: Next goal: Flutterbis Blessing 75 -> 100
+- Divinity: Next goal: 60 (1x): Divinity: Next goal: 60 Divinity and 841 Big P 276 -> 841
 - Coral Kid: Next goal: The base value of the Transmute, which is based on how man (1x): Coral Kid: Next goal: The base value of the Transmute, which is based on how many Divinity PTS you hav 0 -> 1 · BLOCKED: Requires Total Divinity LV of 3000 acro
 - Autistabish- Kill 1M Crabcakes (1x): Autistabish- Kill 1M Crabcakes for W2 Weekly Boss (316.05K -> 1000K)
 - Autistabish- Kill 1M Dedotated (1x): Autistabish- Kill 1M Dedotated Rams for W2 Weekly Boss (0.00K -> 1000K)
 - Autistabish- Kill 1M Choccies (1x): Autistabish- Kill 1M Choccies for W2 Weekly Boss (120.47K -> 1000K)
-- Next goal: Wind Walker (1x): Next goal: Wind Walker Tab 5 368 -> 372
-- Next goal: Science Fancy (1x): Next goal: Science Fancy Pen:Adds the 'Spelunky' bonus to your scientist, which boosts both 0 -> 1
-- Next goal: Each regular (1x): Next goal: Each regular Charm found today lowers this, from 0.1% down to 0% at 120 found ( 11 -> 23
+- Next goal: Wind Walker (1x): Next goal: Wind Walker Tab 5 371 -> 389
+- Next goal: Coral Conservationism:Boosts (1x): Next goal: Coral Conservationism:Boosts daily coral gain at the Coral Reef in World 7 in Sh 0 -> 1
+- Next goal: Each regular (1x): Next goal: Each regular Charm found today lowers this, from 0.1% down to 0% at 120 found ( 15 -> 23
 - Next goal: Bonuses from (1x): Next goal: Bonuses from All Meals 5 -> 13
-- Next goal: Farming Crop (1x): Next goal: Farming Crop Depot - Crayon:+1705.2/4019.4% Mobs 140 -> 330
+- Next goal: Farming Crop (1x): Next goal: Farming Crop Depot - Crayon:+3,035/4,958% Mobs 202 -> 330
 - Next goal: Silkrode Nanochip (1x): Next goal: Silkrode Nanochip 0 -> 1
-- Next Compass tier needs: (1x): Next Compass tier needs: Elemental Path 12 -> 15, Abominations Slain 16 -> 19, Medallions Collected 28 -> 39.
-- Next goal: Elemental-0 12 (1x): Next goal: Elemental-0 12 -> 15
+- Next Compass tier needs: (1x): Next Compass tier needs: Elemental Path 15 -> 20, Fighter Path 19 -> 22, Exalted Stamps 5 -> 6, Medallion Magnate 3 -> 4, Moon of Damage 0 -> 120, Opa Opa Opa! 
+- Next goal: Elemental-0 15 (1x): Next goal: Elemental-0 15 -> 20
 - Next goal: Abominations Slain (1x): Next goal: Abominations Slain 16 -> 19
 - Next goal: Medallions Collected (1x): Next goal: Medallions Collected 28 -> 39
 - Autistacular- Kill 1M Choccies (1x): Autistacular- Kill 1M Choccies for W2 Weekly Boss (125.12K -> 1000K)
-- Next goal: Autistotle not (1x): Next goal: Autistotle not best in Chopping 102 -> 125
+- Next goal: Autistotle not (1x): Next goal: Autistotle not best in Catching 100 -> 137
 - Next goal: Autistomatic can (1x): Next goal: Autistomatic can level Mining 137 -> 140
-- Use today's None observation (1x): Use today's None observation rolls (None found).
-- Next goal: Cellular Warfare (1x): Next goal: Cellular Warfare (F3):Multiplies all damage dealt by your cells during operation 0 -> 4
-- Next goal: Corange Coral (1x): Next goal: Corange Coral (Doodle Reef)Found in World 7, growing among the doodlefish 0 -> 1
-- Next goal: Adds another (1x): Next goal: Adds another shape to your Research Grid! Keep in mind, each grid upgrade can on 0 -> 1
+- Next goal: Daily Operating (1x): Next goal: Daily Operating Procedure (G3):Gives you +1 more operations to start every day a 1 -> 4
+- Next goal: Oboe Coral (1x): Next goal: Oboe Coral Trio (Puffpuff Overpass)Found in World 7, half way up your climb to P 0 -> 1
+- Next goal: Adds another (1x): Next goal: Adds another shape to your Research Grid! 0 -> 1
 - Your call on the (1x): Your call on the free exalt: Pulse says the vendor shop stamp, AutoReview says Summoner Stone.
-- Greenstacks: Next goal: Collect (1x): Greenstacks: Next goal: Collect 200 Greenstacks 173 -> 200
+- Greenstacks: Next goal: Collect (1x): Greenstacks: Next goal: Collect 200 Greenstacks 179 -> 200
 - Endangered Greenstacks: Next goal: (1x): Endangered Greenstacks: Next goal: Ketchup Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce 0% -> 100%
 - Event Shop: Next goal: (1x): Event Shop: Next goal: Golden Tome: Adds a new DMG Multi bonus type to the Tome in World 4 8 -> 35
-- Bonus Ballot: Next goal: (1x): Bonus Ballot: Next goal: Equinox: Voter Rights: +0/42% Ballot Bonus 0 -> 42
-- Meritocracy: Next goal: Multiplies (1x): Meritocracy: Next goal: Multiplies how many Shiny Critters you get from Trapping by 5x  -> 49%
-- SWAP print Dreadlo Ore (1x): SWAP print Dreadlo Ore -> Void Ore (sample 72M; runs out in 6.9 days). Changing a print does not take a sample, so Gold Relic keeps its days.
+- Bonus Ballot: Next goal: (1x): Bonus Ballot: Next goal: Equinox: Voter Rights: +0/44% Ballot Bonus 0 -> 44
+- Meritocracy: Next goal: Multiplies (1x): Meritocracy: Next goal: Multiplies all Gaming Bits gained by 8x  -> 71%
 - Next goal: Copper Ore (1x): Next goal: Copper Ore 1.34B -> 8.0B
-- Next goal: Sedimeadow:Superbits in (1x): Next goal: Sedimeadow:Superbits in Gaming now has a 2nd page full of new upgrades! 0 -> 1
-- Next goal: Level 23 (1x): Next goal: Level 23 2.2% -> 100%
+- Amber buys in sourced (1x): Amber buys in sourced order (you have 265B amber): Discovering the POW 192 -> 193: 1B amber (can buy). Griffy (Apr 2026): POW upgrades first; Toolbox optimizer 
+- Next goal: Lunarheim:+30 Max (1x): Next goal: Lunarheim:+30 Max LV for Cooking Meals! +1 Super Talent PTS! +2 Gallery Slots! 0 -> 1
+- Next goal: Level 85 (1x): Next goal: Level 85 7.8% -> 100%
 - Autistomatic- Kill 1M Crabcakes (1x): Autistomatic- Kill 1M Crabcakes for W2 Weekly Boss (7.05K -> 1000K)
 - Autistomatic- Kill 1M Dedotated (1x): Autistomatic- Kill 1M Dedotated Rams for W2 Weekly Boss (0.00K -> 1000K)
 - Autistomatic- Kill 1M Choccies (1x): Autistomatic- Kill 1M Choccies for W2 Weekly Boss (133.57K -> 1000K)
 - Autistomatic- Kill 1M Stiltmoles (1x): Autistomatic- Kill 1M Stiltmoles for W2 Weekly Boss (77.08K -> 1000K)
 - PLAN: Elite Class Swap (1x): PLAN: Elite Class Swap Token -> Bubonic Conjuror -> Arcane Cultist
+- Next goal: Rat:+6/7% Critical (1x): Next goal: Rat:+6/7% Critical Chance 136K -> Majestic
 - Next goal: Bandit Bob:+5/7% (1x): Next goal: Bandit Bob:+5/7% Money from Monsters 175 -> Ruby
-- Next goal: Fire Forge:+20/28% (1x): Next goal: Fire Forge:+20/28% Smithing EXP (Passive) 3,691 -> Ruby
 - Next goal: Oak Logs (1x): Next goal: Oak Logs 4.42B -> 10.0B
 - Autistronaut- Kill 1M Crabcakes (1x): Autistronaut- Kill 1M Crabcakes for W2 Weekly Boss (0.72K -> 1000K)
 - Autistronaut- Kill 1M Choccies (1x): Autistronaut- Kill 1M Choccies for W2 Weekly Boss (127.60K -> 1000K)
-- TOP (Death Note tier (1x): TOP (Death Note tier 16/23 -> next): AutoReview: Complete 9 more Super CHOWs with Autistopher (17/26). Next: Red Mushroom in Birch Enclave (100M remaining), Bab
-- Next goal: Coralcave Guardian (1x): Next goal: Coralcave Guardian in Coralcave Perimeter (1B remaining) 0% -> 100%
-- TOP: you have an (1x): TOP: you have an unused stamp exalt. AutoReview's order: Summoner Stone Stamp, Multitool Stamp, Matty Bag Stamp.
-- Next goal: Total Stamp (1x): Next goal: Total Stamp Levels 9578 -> 11000
-- Next goal: Skill 95 (1x): Next goal: Skill 95 -> 100
+- TOP (Death Note tier (1x): TOP (Death Note tier 16/23 -> next): AutoReview: Complete 4 more Super CHOWs with Autistopher (22/26). Next: Red Mushroom in Birch Enclave (100M remaining), Bab
+- Next goal: Kelpfish in (1x): Next goal: Kelpfish in Where the Kelp Meets Trench (1B remaining) 0% -> 100%
+- Next goal: Total Stamp (1x): Next goal: Total Stamp Levels 9897 -> 11000
+- Next goal: Skill 160 (1x): Next goal: Skill 160 -> 180
 - Next goal: Skill 0 (1x): Next goal: Skill 0 -> 1
-- Buy Wicked Smart first: (1x): Buy Wicked Smart first: 330 -> 387. Autisticles has the coins for about 32 levels.
-- Then Bullseye 440 -> (1x): Then Bullseye 440 -> 500.
-- Then Kitchen Dream-mare 251 (1x): Then Kitchen Dream-mare 251 -> 327.
-- Then Teh TOM 200 (1x): Then Teh TOM 200 -> 261.
-- Then Cooking Knowledge 310 (1x): Then Cooking Knowledge 310 -> 428.
+- Buy Wicked Smart first: (1x): Buy Wicked Smart first: 359 -> 387. Autiszemo has the coins for about 28 levels.
+- Then Bullseye 479 -> (1x): Then Bullseye 479 -> 500.
+- Then Kitchen Dream-mare 300 (1x): Then Kitchen Dream-mare 300 -> 327.
+- Then Teh TOM 242 (1x): Then Teh TOM 242 -> 261.
+- Then Cooking Knowledge 353 (1x): Then Cooking Knowledge 353 -> 428.
 - Then Artifact Find Chance (1x): Then Artifact Find Chance 237 -> 250.
-- Next goal: Wicked Smart (1x): Next goal: Wicked Smart 330 -> 387
-- Next goal: Bullseye 440 (1x): Next goal: Bullseye 440 -> 500
-- AutoReview wants: Metal Detector (1x): AutoReview wants: Metal Detector 0 -> 18, Slow Roast Wiz 5 -> 23, Matching Scims 3 -> 55, Laboratory Fuse 0 -> 10.
-- Next goal: Complete all (1x): Next goal: Complete all 76 possible Dreams 19 -> 76
-- Next goal: Metal Detector (1x): Next goal: Metal Detector 0 -> 18
-- Next goal: Damage 152 (1x): Next goal: Damage 152 -> 250
-- Next goal: Max Right (1x): Next goal: Max Right Hand Of Action on any Maestro 295 -> 299
-- Next goal: W6 Doctor (1x): Next goal: W6 Doctor Repellant 0 -> 10000
+- Next goal: Wicked Smart (1x): Next goal: Wicked Smart 359 -> 387
+- Next goal: Bullseye 479 (1x): Next goal: Bullseye 479 -> 500
+- AutoReview wants: Metal Detector (1x): AutoReview wants: Metal Detector 0 -> 20, Slow Roast Wiz 6 -> 25, Faux Jewels 0 -> 35, Matching Scims 17 -> 57, Laboratory Fuse 0 -> 10, Food Lust 0 -> 28.
+- Next goal: Complete all (1x): Next goal: Complete all 76 possible Dreams 21 -> 76
+- Next goal: Metal Detector (1x): Next goal: Metal Detector 0 -> 20
+- Next goal: Damage 178 (1x): Next goal: Damage 178 -> 250
+- Next goal: Max Right (1x): Next goal: Max Right Hand Of Action on any Maestro 295 -> 313
 - Next goal: W1 Two-Time (1x): Next goal: W1 Two-Time Savior 1 -> 2
 - Next goal: W5 Legendary (1x): Next goal: W5 Legendary Wormhole 0 -> IDK
-- Next goal: MF21 13 (1x): Next goal: MF21 13 -> 28
+- Next goal: MF21 23 (1x): Next goal: MF21 23 -> 28
+- Hydrogen - Stamp Decreaser: (1x): Hydrogen - Stamp Decreaser: Every day you log in, the resource cost to upgrade a 40 -> 50 (toward Autistastic Construction)
 - Stamps - Card Stamp: (1x): Stamps - Card Stamp: +250% Card Drop Rate 250 -> 330 (toward Autistronaut Cards)
 - Autistopher- Kill 1M Crabcakes (1x): Autistopher- Kill 1M Crabcakes for W2 Weekly Boss (0.19K -> 1000K)
-- READY (Toolbox): Bravery monument 7.51x / 2.40x (1x): READY (Toolbox): Bravery monument 7.51x / 2.40x · Fight · Pulse: max the reward multi before fighting (Blinding Lanterns)
-- READY (Toolbox): Wisdom monument 7.44x / 2.40x (1x): READY (Toolbox): Wisdom monument 7.44x / 2.40x · Fight · Pulse: max the reward multi before fighting (Blinding Lanterns)
 - AutoReview (tier ): King (1x): AutoReview (tier ): King of Food20% Food Effect 0->1; Dice Dynamo2% Luk 0->1; Ultra Unboxer3% Drop Rate 0->1; Megalodon15% Crit Chance10% Total Damage 0->1
 - Gallery: Next goal: King (1x): Gallery: Next goal: King of Food20% Food Effect 0 -> 1
-- Gallery: Next goal: Riftwalker (1x): Gallery: Next goal: Riftwalker Nametag70.5% Xp From MonstersLevel Multi: 1x 1 -> 5
-- Dancing Coral: Next goal: (1x): Dancing Coral: Next goal: 1.04x Class EXP gain per Pantheon Shrine level above 200Unlock the previous bonu 0 -> 1
+- Gallery: Next goal: Riftwalker (1x): Gallery: Next goal: Riftwalker Nametag78% Xp From MonstersLevel Multi: 1x 1 -> 5
+- Dancing Coral: Next goal: (1x): Dancing Coral: Next goal: 1.04x Class EXP gain per Pantheon Shrine level above 200Unlock for 991 Char Cora 154 -> 991
 - Prayers on: none. (1x): Prayers on: none.
 - Autistachio- Kill 1M Green (1x): Autistachio- Kill 1M Green Mushrooms for W2 Weekly Boss (139.64K -> 1000K)
 - Autistachio- Kill 1M Crabcakes (1x): Autistachio- Kill 1M Crabcakes for W2 Weekly Boss (26.04K -> 1000K)
 - Autistachio- Kill 1M Dedotated (1x): Autistachio- Kill 1M Dedotated Rams for W2 Weekly Boss (261.58K -> 1000K)
 - Autistachio- Kill 1M Choccies (1x): Autistachio- Kill 1M Choccies for W2 Weekly Boss (192.22K -> 1000K)
 - Prayers: Midas Minded (35 (1x): Prayers: Midas Minded (35 -> 50)
-- Prayers: Zerg Rushogen (0 (1x): Prayers: Zerg Rushogen (0 -> 20)
-- Prayers: Jawbreaker (0 -> (1x): Prayers: Jawbreaker (0 -> 50)
-- Prayers: Ruck Sack (0 (1x): Prayers: Ruck Sack (0 -> 50)
+- Prayers: Zerg Rushogen (1 (1x): Prayers: Zerg Rushogen (1 -> 20)
+- Prayers: Jawbreaker (1 -> (1x): Prayers: Jawbreaker (1 -> 50)
+- Prayers: Ruck Sack (1 (1x): Prayers: Ruck Sack (1 -> 50)
 - Prayers: Unending Energy (40 (1x): Prayers: Unending Energy (40 -> 50)
 - Prayers: Big Brain Time (1x): Prayers: Big Brain Time (1 -> 50)
 - Prayers: Fibers of Absence (1x): Prayers: Fibers of Absence (1 -> 50)
-- Prayers: Beefy For Real (1x): Prayers: Beefy For Real (0 -> 40)
+- Prayers: Beefy For Real (1x): Prayers: Beefy For Real (1 -> 40)
 - Prayers: Glitterbug (0 -> (1x): Prayers: Glitterbug (0 -> 25)
 - Smithing: Hard Resources- Godshard (1x): Smithing: Hard Resources- Godshard Ore card:+150/210% Forge Cap and SPD (Passive) (5 -> 7)
 - Smithing: Stamps - Forge (1x): Smithing: Stamps - Forge Stamp: +34.3% Forge Capacity (100 -> 240)
 - Smithing: Arcade Bonus 26: (1x): Smithing: Arcade Bonus 26: +0/201% Forge Capacity (0 -> 101)
 - Smithing: Villager Cosmos Majik (1x): Smithing: Villager Cosmos Majik - Beeg Beeg Forge: Increase the forge capacity by 3/243x (1 -> 5)
-- Smithing: 137 Godshard Bars.11,823 (1x): Smithing: 137 Godshard Bars.11,823 cap to next bar (3177 -> 15000)
-- Smithing: 514 Marble Bars.1,823 (1x): Smithing: 514 Marble Bars.1,823 cap to next bar (2177 -> 4000)
-- Smithing: 2,058 Dreadlo Bars.823 (1x): Smithing: 2,058 Dreadlo Bars.823 cap to next bar (177 -> 1000)
-- Smithing: 4,116 Starfire Bars.323 (1x): Smithing: 4,116 Starfire Bars.323 cap to next bar (177 -> 500)
-- Smithing: 8,232 Lustre Bars.73 (1x): Smithing: 8,232 Lustre Bars.73 cap to next bar (177 -> 250)
-- Smithing: 20,581 Void Bars.23 (1x): Smithing: 20,581 Void Bars.23 cap to next bar (77 -> 100)
-- Smithing: 51,454 Dementia Bars.23 (1x): Smithing: 51,454 Dementia Bars.23 cap to next bar (17 -> 40)
-- Smithing: 129K Platinum Bars.15 (1x): Smithing: 129K Platinum Bars.15 cap to next bar (1 -> 16)
-- Smithing: 294K Gold Bars.5 (1x): Smithing: 294K Gold Bars.5 cap to next bar (2 -> 7)
-- Smithing: 515K Iron Bars.3 (1x): Smithing: 515K Iron Bars.3 cap to next bar (1 -> 4)
-- Active: Stamps - Crystallin: (1x): Active: Stamps - Crystallin: +185% Spawn Chance (180 -> 270)
+- Smithing: 139 Godshard Bars.6,740 (1x): Smithing: 139 Godshard Bars.6,740 cap to next bar (8260 -> 15000)
+- Smithing: 523 Marble Bars.2,740 (1x): Smithing: 523 Marble Bars.2,740 cap to next bar (1260 -> 4000)
+- Smithing: 2,093 Dreadlo Bars.740 (1x): Smithing: 2,093 Dreadlo Bars.740 cap to next bar (260 -> 1000)
+- Smithing: 4,186 Starfire Bars.240 (1x): Smithing: 4,186 Starfire Bars.240 cap to next bar (260 -> 500)
+- Smithing: 8,373 Lustre Bars.240 (1x): Smithing: 8,373 Lustre Bars.240 cap to next bar (10 -> 250)
+- Smithing: 20,932 Void Bars.40 (1x): Smithing: 20,932 Void Bars.40 cap to next bar (60 -> 100)
+- Smithing: 52,331 Dementia Bars.20 (1x): Smithing: 52,331 Dementia Bars.20 cap to next bar (20 -> 40)
+- Smithing: 131K Platinum Bars.4 (1x): Smithing: 131K Platinum Bars.4 cap to next bar (12 -> 16)
+- Smithing: 299K Gold Bars.6 (1x): Smithing: 299K Gold Bars.6 cap to next bar (1 -> 7)
+- Smithing: 523K Iron Bars.4 (1x): Smithing: 523K Iron Bars.4 cap to next bar (0 -> 4)
+- Active: Stamps - Crystallin: (1x): Active: Stamps - Crystallin: +188% Spawn Chance (180 -> 270)
 - Active: Level 24 Crescent (1x): Active: Level 24 Crescent Shrine: +300%Shrines have no Max level. Goal of 32 is arbitrary (24 -> 32)
-- Active: Level 127/299 booked (1x): Active: Level 127/299 booked Cmon Out Crystals talent (Jman only) (127 -> 299)
+- Active: Level 185/313 booked (1x): Active: Level 185/313 booked Cmon Out Crystals talent (Jman only) (185 -> 313)
 - Active: Farm Dice Obols (1x): Active: Farm Dice Obols for Sparkle slots with DK at Sandy Pots (2 -> 5)
-- Active: Frostbite Tundra- Sir (1x): Active: Frostbite Tundra- Sir Stache card:+54/63% Card Drop Chance (6 -> 7)
 - Active: Smolderin' Plateau- Mister (1x): Active: Smolderin' Plateau- Mister Brightside card:+36/42% Total Drop Rate (6 -> 7)
 - Active: Frostbite Tundra- Bop (1x): Active: Frostbite Tundra- Bop Box card:+21/24.5% Total Drop Rate (6 -> 7)
 - Active: Spirited Valley- Mama (1x): Active: Spirited Valley- Mama Troll card:+10/14% Skill AFK gain rate (5 -> 7)
 - Active: Hard Resources- Bunny (1x): Active: Hard Resources- Bunny card:+5/7% Skill AFK gain rate (5 -> 7)
 - Active: Spirited Valley- Woodlin (1x): Active: Spirited Valley- Woodlin Spirit card:+15/21% Multikill per tier (5 -> 7)
 - Active: Smolderin' Plateau- Suggma (1x): Active: Smolderin' Plateau- Suggma card:+12/14% Multikill per tier (6 -> 7)
-- Drop Rate: Bosses n (1x): Drop Rate: Bosses n Nightmares- Domeo Magmus card:+3/10.5% Total Drop Rate (Passive) (2 -> 7)
+- Active: Hyperion Nebula- Clammie (1x): Active: Hyperion Nebula- Clammie card:+9/10.5% Multikill per tier (6 -> 7)
+- Drop Rate: Bosses n (1x): Drop Rate: Bosses n Nightmares- Domeo Magmus card:+4.5/10.5% Total Drop Rate (Passive) (3 -> 7)
 - Drop Rate: Events- IdleOn (1x): Drop Rate: Events- IdleOn 4th Anniversary card:+0/14% Drop Rate (Passive) (0 -> 7)
 - Drop Rate: Events- Luckulyte (1x): Drop Rate: Events- Luckulyte card:+0/21% Drop Rate (Passive) (0 -> 7)
-- Drop Rate: Guild Bonus (1x): Drop Rate: Guild Bonus - Gold Charm:+13% Total Drop Rate (24 -> 50)
+- Drop Rate: Guild Bonus (1x): Drop Rate: Guild Bonus - Gold Charm:+13.3% Total Drop Rate (25 -> 50)
 - Drop Rate: Codex - (1x): Drop Rate: Codex - Drop Rate Friend Bonus: +22.5/75% Drop RateFrom IdleOnLech (1844) (22.5 -> 75)
 - Drop Rate: Skull of (1x): Drop Rate: Skull of Major Droprate: +0.0% Drop Rate bonus for all characters, always!(1 per level after Writhing Grimo (0 -> 999999)
 - Drop Rate: Plutus the (1x): Drop Rate: Plutus the Prosperous: Not built (1/50)1.00x Drop Rate (0 -> 1)
-- Drop Rate: Owl - (1x): Drop Rate: Owl - Drop Rate:+165% Drop Rate (10 -> ∞)
+- Drop Rate: Owl - (1x): Drop Rate: Owl - Drop Rate:+825% Drop Rate (10 -> ∞)
 - Drop Rate: Stamps - (1x): Drop Rate: Stamps - Golden Sixes Stamp: +26.5% Drop RateNote: Can be increased by Exalting the stamp (90 -> 210)
-- Drop Rate: Arcade Bonus (1x): Drop Rate: Arcade Bonus 27: +26.3/60.3% Drop Rate (78 -> 101)
 - Drop Rate: Obols - (1x): Drop Rate: Obols - Family Obols: +104/228% Drop RateNote: Includes Rare and Hyper Obols, each rerolled with +1% DR (104 -> 228)
 - Drop Rate: Alchemy Bubbles (1x): Drop Rate: Alchemy Bubbles - Droppin Loads: +29.7/39.6% Drop RateNext breakpoint: 80% value at level 280 (202 -> 6930)
+- Drop Rate: Sigils - (1x): Drop Rate: Sigils - Level 1 Trove: +60/1200% (1 -> 5)

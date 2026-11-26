@@ -3,38 +3,28 @@
   20,
   20
  ],
- "bits": 1.44583266093204e+51,
+ "bits": 7.80992708748685e+52,
  "since": [
   [
    "Dirty Shovel",
-   "38h"
+   "3d"
   ],
   [
    "Autumn Squirrel",
-   "4d"
+   "37h"
   ]
  ],
- "acorns": 141,
+ "acorns": 65,
  "shop": [],
  "snail": [
   13,
-  25,
-  24,
-  0.823209013313704,
-  0.128364320646293
+  30,
+  31,
+  0.8607392650811557,
+  0.1186593568877527
  ],
- "superbits_owned": 24,
+ "superbits_owned": 26,
  "superbits_next": [
-  [
-   "Classy Discoveries",
-   5e+51,
-   "1.01x Class EXP per Spelunk Discovery.           Total Bonus: {x EXP"
-  ],
-  [
-   "Snail Omega",
-   3e+52,
-   "The Immortal Snail now has +5 Max LV"
-  ],
   [
    "Slabby Spelunking",
    2e+53,
@@ -44,6 +34,16 @@
    "Monument Infimulti",
    9.000000000000001e+54,
    "Monument reward multi increases normally for +10 more days"
+  ],
+  [
+   "Artifacto Discoveries",
+   6e+55,
+   "1.02x Artifact chance per Spelunk Discovery.          Total Bonus: {x"
+  ],
+  [
+   "Jar Jar Collectible",
+   8e+57,
+   "1.05x Collectible chance per Spelunk Discovery.       Total Bonus: {x"
   ]
  ],
  "ar": [
@@ -57,7 +57,7 @@
   {
    "group": "Snail Ranks",
    "tab": "General",
-   "label": "Envelopes owned: 5",
+   "label": "Envelopes owned: 0",
    "cur": "",
    "goal": "",
    "completed": true
@@ -82,22 +82,21 @@
    "group": "Snail Ranks",
    "tab": "Current Rank 13 Info",
    "label": "Step 2: Choose a safety level. 90.0% safety = 3 unspent mail",
-   "cur": "",
-   "goal": "\u2714",
-   "completed": true
+   "cur": "0",
+   "goal": "3"
   },
   {
    "group": "Snail Ranks",
    "tab": "Current Rank 13 Info",
    "label": "Step 2: Choose a safety level. 95.0% safety = 15 unspent mail",
-   "cur": "5",
+   "cur": "0",
    "goal": "15"
   },
   {
    "group": "Snail Ranks",
    "tab": "Current Rank 13 Info",
    "label": "Step 2: Choose a safety level. 99.0% safety = 30 unspent mail",
-   "cur": "5",
+   "cur": "0",
    "goal": "30"
   },
   {
@@ -229,7 +228,51 @@
    "cur": "0",
    "goal": "73",
    "res": "snail-envelope"
+  },
+  {
+   "group": "Snail Ranks",
+   "tab": "Relevant Encouragement Info (for resets or advancement)",
+   "label": "Future Rank 25: Encourage the snail 0 times.Game will display 56.00% success, 10.00% reset chance at 0 encourages.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true,
+   "res": "snail-envelope"
+  },
+  {
+   "group": "Snail Ranks",
+   "tab": "Relevant Encouragement Info (for resets or advancement)",
+   "label": "Future Rank 26: Encourage the snail 0 times.Game will display 46.15% success, 24.08% reset chance at 0 encourages.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true,
+   "res": "snail-envelope"
+  },
+  {
+   "group": "Snail Ranks",
+   "tab": "Relevant Encouragement Info (for resets or advancement)",
+   "label": "Future Rank 27: Encourage the snail 0 times.Game will display 39.86% success, 33.21% reset chance at 0 encourages.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true,
+   "res": "snail-envelope"
+  },
+  {
+   "group": "Snail Ranks",
+   "tab": "Relevant Encouragement Info (for resets or advancement)",
+   "label": "Future Rank 28: Encourage the snail 0 times.Game will display 35.14% success, 40.13% reset chance at 0 encourages.",
+   "cur": "",
+   "goal": "\u2714",
+   "completed": true,
+   "res": "snail-envelope"
+  },
+  {
+   "group": "Snail Ranks",
+   "tab": "Relevant Encouragement Info (for resets or advancement)",
+   "label": "Future Rank 29: Encourage the snail 1 times.Game will display 35.24% success, 39.80% reset chance at 1 encourages.",
+   "cur": "0",
+   "goal": "1",
+   "res": "snail-envelope"
   }
  ],
- "snapshot": "20261126T1304"
+ "snapshot": "20261126T2330"
 }

@@ -1,9 +1,9 @@
 {
  "meta": {
-  "game_save_utc": "2026-11-26T13:04:24.728000+00:00",
-  "game_save_et": "2026-11-26 08:04 AM ET",
-  "review_run_et": "2026-11-26 08:26 AM ET",
-  "autoreview_last_update": "Nov 26, 2026, 1:04:24 PM UTC",
+  "game_save_utc": "2026-11-26T23:30:12.207000+00:00",
+  "game_save_et": "2026-11-26 06:30 PM ET",
+  "review_run_et": "2026-11-26 06:31 PM ET",
+  "autoreview_last_update": "Nov 26, 2026, 11:30:12 PM UTC",
   "switches": {
    "autoloot": "on",
    "doot": "on",
@@ -30,14 +30,14 @@
    "slot": 1,
    "name": "Autiszemo",
    "class": "Death Bringer",
-   "level": 902,
+   "level": 927,
    "afk": {
     "text": "ZOW/CHOW targets W1-W6 (Death Note kills)",
     "src": "zack",
     "park_rule": "with Autiszemo"
    },
-   "save_map": "W7 map 306",
-   "money": 2.2049390056648562e+30,
+   "save_map": "W7 map 319",
+   "money": 6.24503258834054e+32,
    "jobs": [
     {
      "job": "Farming",
@@ -55,26 +55,26 @@
          "locked": "",
          "section": "Farming",
          "group": "Continue Farming",
-         "label": "Stronger Vines:+224/340% chance for +1 crop when fully grown",
-         "cur": "112",
-         "goal": "170",
+         "label": "Stacks for Evolution Gmo (200 crops)",
+         "cur": "198",
+         "goal": "180",
          "score": 150,
-         "ready": false,
+         "ready": true,
          "infinite": false
         },
         {
          "locked": "",
          "section": "Farming",
          "group": "Continue Farming",
-         "label": "More Beenz:+184/200% magic beans gained when trading in crops",
-         "cur": "92",
-         "goal": "100",
+         "label": "Stacks for Speed Gmo (1000 crops)",
+         "cur": "198",
+         "goal": "180",
          "score": 150,
-         "ready": false,
+         "ready": true,
          "infinite": false
         }
        ],
-       "more": 31
+       "more": 29
       },
       {
        "name": "Farming: tabbed",
@@ -85,7 +85,7 @@
          "section": "Farming",
          "group": "tabbed",
          "label": "Total on Lowest ranked plotNote: 10,000x is a HARD cap, only raised by Stalk Value.",
-         "cur": "216K",
+         "cur": "278K",
          "goal": "10,000",
          "score": 0,
          "ready": true,
@@ -182,7 +182,7 @@
          "locked": "",
          "section": "Beanstalk",
          "group": "Golden Food Bonus",
-         "label": "Butter Bar:Increases your Base Accuracy by 2,781/3805.18. And tastes great! This is technically golden food!",
+         "label": "Butter Bar:Increases your Base Accuracy by 2,782/3805.83. And tastes great! This is technically golden food!",
          "cur": "2",
          "goal": "3",
          "score": 0,
@@ -197,11 +197,11 @@
       {
        "locked": "",
        "section": "Farming",
-       "group": "tabbed",
-       "label": "Total on Lowest ranked plotNote: 10,000x is a HARD cap, only raised by Stalk Value.",
-       "cur": "216K",
-       "goal": "10,000",
-       "score": 0,
+       "group": "Continue Farming",
+       "label": "Stacks for Evolution Gmo (200 crops)",
+       "cur": "198",
+       "goal": "180",
+       "score": 150,
        "ready": true,
        "infinite": false
       },
@@ -209,22 +209,22 @@
        "locked": "",
        "section": "Farming",
        "group": "Continue Farming",
-       "label": "Stronger Vines:+224/340% chance for +1 crop when fully grown",
-       "cur": "112",
-       "goal": "170",
+       "label": "Stacks for Speed Gmo (1000 crops)",
+       "cur": "198",
+       "goal": "180",
        "score": 150,
-       "ready": false,
+       "ready": true,
        "infinite": false
       },
       {
        "locked": "",
        "section": "Farming",
        "group": "Continue Farming",
-       "label": "More Beenz:+184/200% magic beans gained when trading in crops",
-       "cur": "92",
-       "goal": "100",
+       "label": "Stacks for Value Gmo (10000 crops)",
+       "cur": "198",
+       "goal": "180",
        "score": 150,
-       "ready": false,
+       "ready": true,
        "infinite": false
       }
      ],
@@ -271,9 +271,9 @@
          "locked": "",
          "section": "Cooking",
          "group": "Progress Cooking",
-         "label": "Unlock max level 180 plates",
-         "cur": "120",
-         "goal": "180",
+         "label": "Level up the remaining 74 meals to 1503,180 remaining levels = 1,065 NMLB triggers. No Meal Left Behind helps you up to level 150",
+         "cur": "0",
+         "goal": "74",
          "score": 149,
          "ready": false,
          "infinite": false
@@ -374,9 +374,9 @@
        "locked": "",
        "section": "Cooking",
        "group": "Progress Cooking",
-       "label": "Unlock max level 180 plates",
-       "cur": "120",
-       "goal": "180",
+       "label": "Level up the remaining 74 meals to 1503,180 remaining levels = 1,065 NMLB triggers. No Meal Left Behind helps you up to level 150",
+       "cur": "0",
+       "goal": "74",
        "score": 149,
        "ready": false,
        "infinite": false
@@ -385,10 +385,10 @@
        "locked": "",
        "section": "Cooking",
        "group": "Progress Cooking",
-       "label": "Level up the remaining 74 meals to 1503,180 remaining levels = 1,065 NMLB triggers. No Meal Left Behind helps you up to level 150",
-       "cur": "0",
-       "goal": "74",
-       "score": 0,
+       "label": "Unlock max level 180 plates",
+       "cur": "120",
+       "goal": "180",
+       "score": 149,
        "ready": false,
        "infinite": false
       }
@@ -524,7 +524,7 @@
          "locked": "",
          "section": "The Grimoire",
          "group": "Grimoire Currencies",
-         "label": "224/313 booked Grimoire:Max Preset Level 301 on Autistopher including bonus talent levels",
+         "label": "224/313 booked Grimoire:Max Preset Level 300 on Autiszemo including bonus talent levels",
          "cur": "224",
          "goal": "313",
          "score": 0,
@@ -924,12 +924,12 @@
    ],
    "flags": [],
    "move": {
-    "text": "Farming: Total on Lowest ranked plotNote: 10,000x is a HARD cap, only raised by Stalk Value. 216K -> 10,000",
+    "text": "Farming: Stacks for Evolution Gmo (200 crops) 198 -> 180",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
-    "READY (Toolbox): Next crop fully grown Crops ready",
-    "Farming / tabbed: Total on Lowest ranked plotNote: 10,000x is a HARD cap, only raised by Stalk Value. (216K / 10,000)"
+    "Farming / Continue Farming: Stacks for Evolution Gmo (200 crops) (198 / 180) +2 more ready",
+    "Farming / tabbed: Total on Lowest ranked plotNote: 10,000x is a HARD cap, only raised by Stalk Value. (278K / 10,000)"
    ],
    "active": [
     {
@@ -985,8 +985,8 @@
     "Loot Luggage: 1 slots (Vendor)"
    ],
    "park": {
-    "text": "W3 Equinox Valley (Dedotated Ram) \u00b7 100K kills left, 0% done \u00b7 fewest kills left, fastest respawn (25.0s)",
-    "src": "data rule (Zack-approved) on AutoReview Death Note"
+    "text": "ZOW/CHOW targets W1-W6 (Death Note kills)",
+    "src": "zack"
    },
    "toward": {
     "first": "Farming",
@@ -997,14 +997,14 @@
    },
    "today": [
     {
-     "do": "Next crop fully grown: Crops ready",
-     "done": "claimed / restarted",
-     "src": "Toolbox timer"
+     "do": "FIRST (Farming, Zack's order): Stacks for Evolution Gmo (200 crops) 198 -> 180",
+     "done": "180",
+     "src": "rinse within that job"
     },
     {
-     "do": "FIRST (Farming, Zack's order): Total on Lowest ranked plotNote: 10,000x is a HARD cap, only raised by Stalk Value. 216K -> 10,000",
-     "done": "10,000",
-     "src": "rinse within that job"
+     "do": "Farming: Stacks for Evolution Gmo (200 crops)",
+     "done": "180",
+     "src": "AutoReview (ready now), +2 more"
     },
     {
      "do": "Farming: Total on Lowest ranked plotNote: 10,000x is a HARD cap, only raised by Stalk Value.",
@@ -1026,26 +1026,19 @@
      ]
     },
     {
-     "block": "Timers ready (Toolbox)",
-     "kind": "timer",
-     "steps": [
-      "Next crop fully grown: Crops ready"
-     ]
-    },
-    {
      "block": "Farming",
      "kind": "playbook",
      "steps": [
-      "TOP: hold 200 or more of every crop you've found (170 of 174 so far). Each one raises the chance to discover new crops. Lock them before bean trades so a trade can't empty them (Griffy does this).",
+      "TOP: hold 200 or more of every crop you've found (198 of 202 so far). Each one raises the chance to discover new crops. Lock them before bean trades so a trade can't empty them (Griffy does this).",
       "Weakest families: Earthy (23 of 25), Bulbo (14 of 15), Mushie (22 of 23). Pulse: farm the low ones first. Basic grows fastest if you want quick stacks.",
-      "Spend 61 Land Rank points, Toolbox's optimizer puts them into the Evolution boosts.",
+      "Spend 16 Land Rank points, Toolbox's optimizer puts them into the Evolution boosts.",
       "Night Market (89.6K beans): buy Value Gmo, Exp Gmo, Og Fertilizer first.",
       "Day Market is paid in crops and 5 upgrades are waiting on them. Holding crops fixes this too.",
       "Collect all crops, replant",
       "Farming: Griffy: Before Overgrowth, focus on crop discoveries and possibly additional plots.",
       "Farming: Griffy: Develop farming and summoning before heavily pushing World 7 because World 6 skills accelerate account progress.",
-      "Farming: Total on Lowest ranked plotNote: 10,000x is a HARD cap, only raised by Stalk Val (216K / 10,000) READY",
-      "Farming: Next goal: Stronger Vines:+224/340% chance for +1 crop when fully grown 112 -> 170",
+      "Farming: Stacks for Evolution Gmo (200 crops) (198 / 180) READY",
+      "Farming: Stacks for Speed Gmo (1000 crops) (198 / 180) READY",
       "Farming: Next goal: Medal Crop 40 chance2.4.7e97 for 100% chance 0% -> 100%",
       "Farming:   HOW: The update adds many new crops for medal progression.",
       "Farming:   HOW: The medal hack no longer works; medal crops now mainly progress through quick growth and are an exception to normal sticker ordering.",
@@ -1138,7 +1131,7 @@
      "block": "Every character: Combat level",
      "kind": "every",
      "steps": [
-      "Combat Lv 902"
+      "Combat Lv 927"
      ]
     },
     {
@@ -1153,30 +1146,30 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 98, charge full in 17d 18h."
+      "Worship level 98, charge full in 17d 8h."
      ]
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Farming Crop Depot - Highlighter:+159/494% DR 174 -> 330",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Exotic Market - POMMELION SEED:+0/25% Drop Rate 0 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Mutton Statue: +729% Cooking Exp 205 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Compost Statue: +1,143% Farming Exp 241 -> \u221e",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autiszemo: Prayer not needed. You may remove if desired. \ud83d\udc4d 94.7% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistocat: Prayer not needed. You may remove if desired. \ud83d\udc4d 94.7% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autisticles: Prayer not needed. You may remove if desired. \ud83d\udc4d 94.7% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistastic: Prayer not needed. You may remove if desired. \ud83d\udc4d 101.9% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistabish: Prayer not needed. You may remove if desired. \ud83d\udc4d 94.7% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistacular: Prayer not needed. You may remove if desired. \ud83d\udc4d 94.7% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistotle: Prayer not needed. You may remove if desired. \ud83d\udc4d 94.7% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistomatic: Prayer not needed. You may remove if desired. \ud83d\udc4d 101.9% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistronaut: Prayer not needed. You may remove if desired. \ud83d\udc4d 94.7% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistopher: Prayer not needed. You may remove if desired. \ud83d\udc4d 94.7% -> 90%",
-    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistachio: Prayer not needed, not worn. \ud83d\udc4d 94.7% -> 90%",
-    "Sources of Printer Output. Grand Total: 96.1 \u00b7 Rift: Skill Mastery: base 7%Additional 1% per Skill at 750: 12/18% 19% -> 25%",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Farming Crop Depot - Highlighter:+219/494% DR 202 -> 330",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Exotic Market - POMMELION SEED:+0/25% Drop Rate 0 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Mutton Statue: +3,577% Cooking Exp 205 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Compost Statue: +5,607% Farming Exp 241 -> \u221e",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autiszemo: Prayer not needed. You may remove if desired. \ud83d\udc4d 94.9% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistocat: Prayer not needed. You may remove if desired. \ud83d\udc4d 94.9% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autisticles: Prayer not needed. You may remove if desired. \ud83d\udc4d 94.9% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistastic: Prayer not needed. You may remove if desired. \ud83d\udc4d 102.2% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistabish: Prayer not needed. You may remove if desired. \ud83d\udc4d 94.9% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistacular: Prayer not needed. You may remove if desired. \ud83d\udc4d 94.9% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistotle: Prayer not needed. You may remove if desired. \ud83d\udc4d 94.9% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistomatic: Prayer not needed. You may remove if desired. \ud83d\udc4d 102.2% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistronaut: Prayer not needed. You may remove if desired. \ud83d\udc4d 94.9% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistopher: Prayer not needed. You may remove if desired. \ud83d\udc4d 94.9% -> 90%",
+    "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Autistachio: Prayer not needed, not worn. \ud83d\udc4d 94.9% -> 90%",
+    "Sources of Printer Output. Grand Total: 96.8 \u00b7 Rift: Skill Mastery: base 7%Additional 1% per Skill at 750: 13/18% 20% -> 25%",
     "Sources of bonus talent levels beyond book le \u00b7 Grimoire: Skull of Major Talent: +0/30 0 -> 30",
     "Sources of Checkout Speed \u00b7 Meal - Fortune Cookie: +1,646% Library Checkout Spd 111 -> 180",
-    "Sources of Shiny Pet Level Rate \u00b7 Farming Crop Depot - Crayon:+2,614/4,958% Mobs 174 -> 330",
+    "Sources of Shiny Pet Level Rate \u00b7 Farming Crop Depot - Crayon:+3,035/4,958% Mobs 202 -> 330",
     "Sources of Pet Damage \u00b7 Meal - Croissant: +412% Mob Fighting Damage 111 -> 180",
     "Sources of Pet Damage \u00b7 Meal - Wedding Cake: +823% Mob Fighting Damage 111 -> 180",
     "Remaining sources of max plate levels \u00b7 Menagerie Unlock 21: Boost the Max Cooking LV by +10Costs 29.75M Lumi, needs a higher Mena 0 -> 1",
@@ -1199,15 +1192,15 @@
     "text": "Active-first class (master class progress is active-only without its AFK mechanic). Runs Cranium Cooking active; plain AFK spot = GAP",
     "src": "Griffy N5yJ4-tZLbY 00:52 (2026-10-04)"
    },
-   "save_map": "W1 map 2",
-   "money": 3.7728643747463665e+28,
+   "save_map": "W5 map 201",
+   "money": 3.980096135205792e+28,
    "jobs": [
     {
      "job": "Alchemy",
      "basis": "class",
      "tiers": {
       "Bubbles": "6/12",
-      "Vials": "22/28",
+      "Vials": "23/28",
       "Sigils": "1/8",
       "Pay2Win": "done"
      },
@@ -1423,8 +1416,8 @@
          "locked": "",
          "section": "Vials",
          "group": "Early Vial Goals",
-         "label": "Unlock 3 more vials",
-         "cur": "79",
+         "label": "Unlock 2 more vials",
+         "cur": "80",
          "goal": "82",
          "score": 134,
          "ready": false,
@@ -1434,8 +1427,8 @@
          "locked": "",
          "section": "Vials",
          "group": "Early Vial Goals",
-         "label": "Unlock 7 more vials",
-         "cur": "79",
+         "label": "Unlock 6 more vials",
+         "cur": "80",
          "goal": "86",
          "score": 67,
          "ready": false,
@@ -1452,9 +1445,9 @@
          "locked": "",
          "section": "Vials",
          "group": "Late Vial Goals",
-         "label": "Max 52 total vials",
-         "cur": "51",
-         "goal": "52",
+         "label": "Max 56 total vials",
+         "cur": "52",
+         "goal": "56",
          "score": 134,
          "ready": false,
          "infinite": false
@@ -1463,9 +1456,9 @@
          "locked": "",
          "section": "Vials",
          "group": "Late Vial Goals",
-         "label": "Max 56 total vials",
-         "cur": "51",
-         "goal": "56",
+         "label": "Max 60 total vials",
+         "cur": "52",
+         "goal": "60",
          "score": 134,
          "ready": false,
          "infinite": false
@@ -1481,8 +1474,8 @@
          "locked": "",
          "section": "Vials",
          "group": "Sources of bonus Vial Effect",
-         "label": "Total Vial Effect bonus: 4.64x",
-         "cur": "4.64x",
+         "label": "Total Vial Effect bonus: 4.68x",
+         "cur": "4.68x",
          "goal": "5.96x",
          "score": 0,
          "ready": false,
@@ -1492,8 +1485,8 @@
          "locked": "",
          "section": "Vials",
          "group": "Sources of bonus Vial Effect",
-         "label": "You have 51/84 maxed Vials",
-         "cur": "51",
+         "label": "You have 52/84 maxed Vials",
+         "cur": "52",
          "goal": "84",
          "score": 0,
          "ready": false,
@@ -1532,13 +1525,13 @@
        "more": 13
       },
       {
-       "name": "Sigils: Sources of Sigil Charging Speed. Grand total: 382.663x",
+       "name": "Sigils: Sources of Sigil Charging Speed. Grand total: 385.848x",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Sigils",
-         "group": "Sources of Sigil Charging Speed. Grand total: 382.663x",
+         "group": "Sources of Sigil Charging Speed. Grand total: 385.848x",
          "label": "Level 2 Pea Pod: +300/4800%",
          "cur": "2",
          "goal": "5",
@@ -1549,7 +1542,7 @@
         {
          "locked": "",
          "section": "Sigils",
-         "group": "Sources of Sigil Charging Speed. Grand total: 382.663x",
+         "group": "Sources of Sigil Charging Speed. Grand total: 385.848x",
          "label": "Stamps - Sigil Stamp: +20.4% Sigil Charge rate",
          "cur": "156",
          "goal": "324",
@@ -1798,8 +1791,8 @@
          "locked": "",
          "section": "Summoning",
          "group": "Doublers and Upgrades",
-         "label": "16 Summoning Doublers earned from Cavern 14- GambitNext Doubler at 608.773K Total Gambit PTS (99,483 to go!)",
-         "cur": "509.290K",
+         "label": "16 Summoning Doublers earned from Cavern 14- GambitNext Doubler at 608.773K Total Gambit PTS (73,903 to go!)",
+         "cur": "534.870K",
          "goal": "608.773K",
          "score": 0,
          "ready": false,
@@ -2078,9 +2071,9 @@
          "locked": "",
          "section": "Emperor",
          "group": "Upcoming Showdowns",
-         "label": "Showdown 77HP: 2.41e+28Reward: +15% Equinox Bar Fill Rate",
-         "cur": "76",
-         "goal": "77",
+         "label": "Showdown 78HP: 3.71e+28Reward: +0.05x Windwalker Extra Dust",
+         "cur": "77",
+         "goal": "78",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -2089,9 +2082,9 @@
          "locked": "",
          "section": "Emperor",
          "group": "Upcoming Showdowns",
-         "label": "Showdown 78HP: 3.71e+28Reward: +0.05x Windwalker Extra Dust",
-         "cur": "76",
-         "goal": "78",
+         "label": "Showdown 79HP: 5.71e+28Reward: +10% Drop Rate",
+         "cur": "77",
+         "goal": "79",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -2105,19 +2098,8 @@
        "locked": "",
        "section": "Emperor",
        "group": "Upcoming Showdowns",
-       "label": "Showdown 77HP: 2.41e+28Reward: +15% Equinox Bar Fill Rate",
-       "cur": "76",
-       "goal": "77",
-       "score": 0,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Emperor",
-       "group": "Upcoming Showdowns",
        "label": "Showdown 78HP: 3.71e+28Reward: +0.05x Windwalker Extra Dust",
-       "cur": "76",
+       "cur": "77",
        "goal": "78",
        "score": 0,
        "ready": false,
@@ -2128,8 +2110,19 @@
        "section": "Emperor",
        "group": "Upcoming Showdowns",
        "label": "Showdown 79HP: 5.71e+28Reward: +10% Drop Rate",
-       "cur": "76",
+       "cur": "77",
        "goal": "79",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Emperor",
+       "group": "Upcoming Showdowns",
+       "label": "Showdown 80HP: 8.80e+28Reward: +0.01x Summoning Winner Bonuses",
+       "cur": "77",
+       "goal": "80",
        "score": 0,
        "ready": false,
        "infinite": false
@@ -2378,7 +2371,7 @@
      "kind": "playbook",
      "steps": [
       "Sigils are the weakest part of Alchemy (tier 1/8). Only Autistronaut, Autistachio is charging one. Quickest next levels: Big Muscle, Pumped Kicks, Odd Litearture.",
-      "The Loot Pile sigil (more sailing chests) would take one character about 3 days. Griffy rates it as a good pick.",
+      "The Loot Pile sigil (more sailing chests) would take one character about 2 days. Griffy rates it as a good pick.",
       "Seats follow the biggest need: move someone onto sigils only while something is waiting on them, and never empty the cauldrons. Griffy: finish unlocking bubbles before worrying about sigils.",
       "Bubble goals: Dream Of Ironfish 103 -> 170; Stronk Tools 615 -> 630; Dream Of Ironfish 103 -> 270; Warriors Rule (Printing!) 451 -> 950.",
       "Bubbles: Griffy: Focus Kill per Kill and Mr Massacre while preparing to push World 6.",
@@ -2389,11 +2382,11 @@
       "Bubbles:   WHY: Tree Sleeper increases chopping AFK gains.",
       "Vials: Griffy: Keep making vial attempts.",
       "Vials: Griffy: The turtle vial is exceptionally strong because its bonus is multiplicative.",
-      "Vials: Next goal: Unlock 3 more vials 79 -> 82",
+      "Vials: Next goal: Unlock 2 more vials 80 -> 82",
       "Vials:   HOW: Vials unlock by dropping certain items on the ground which have a chance to roll the vial. (Griffy nodate @00:45:03)",
       "Vials:   HOW: To unlock vials attempt it and drop thread and copper ore on the ground; never needs doing again.",
-      "Vials: Next goal: Max 52 total vials 51 -> 52",
-      "Vials: Next goal: Total Vial Effect bonus: 4.64x 4.64x -> 5.96x",
+      "Vials: Next goal: Max 56 total vials 52 -> 56",
+      "Vials: Next goal: Total Vial Effect bonus: 4.68x 4.68x -> 5.96x",
       "Sigils: Griffy: Players pursuing red or purple sigils should vote only for S tier options.",
       "Sigils: Pulse: Big Sig Fig is hard C tier: sigils aren't the most insane mechanic and it's a massive point hog.",
       "Sigils: Next goal: Level up Envelope Pile 24.2 -> 2500",
@@ -2416,8 +2409,8 @@
      "block": "Summoning",
      "kind": "playbook",
      "steps": [
-      "TOP: claim the familiar EXP (68.6M EXP, 0.4d of it).",
-      "4 upgrades are basically free right now: Unit Health, Unit Wellness, Unit Blood, Undying Units.",
+      "TOP: claim the familiar EXP (60.2M EXP, 0.3d of it).",
+      "15 upgrades are basically free right now: Unit Health, Unit Wellness, Unit Blood, Undying Units, Muddah, Sell Sell Sell.",
       "Griffy: Place summons near clustered enemies so spike area damage hits multiple targets.",
       "Griffy: Sometimes concentrating summons along the top or bottom can win using the Zerg strategy.",
       "Next goal: Danny and his Shiny FishiesReward: 9.75x Total DMG 0 -> 1 \u00b7 LOCKED -> Defeat the lore boss of Spelunking cave 5 Chucklemire. Now: Pebble Cove boss done, deepest Pebble Cove 9 / Sedimeadow 8; Rustbelt 03, Blushpit, Chucklemire not reached",
@@ -2429,7 +2422,7 @@
      "block": "Tesseract",
      "kind": "playbook",
      "steps": [
-      "TOP: 21 Tesseract upgrades are affordable, cheapest first: Ring Drops, Arcanist Defence III, Ethereal Opals, Villager Indoctrination, Fastcasting. Every level counts toward the next unlock.",
+      "TOP: 24 Tesseract upgrades are affordable, cheapest first: Ring Drops, Arcanist Defence III, Ethereal Opals, Villager Indoctrination, Fastcasting. Every level counts toward the next unlock.",
       "106 more levels unlock Jewel of the North Winds.",
       "AutoReview wants Parallel Statues, Ethereal Opals, Parallel Golden Food, My Talents, and Mine Alone, Villager Indoctrination, Fractal Tesseract, but they cost Gold tachyons you don't have yet.",
       "Griffy: Move to another map rather than lingering beyond the threshold on ramps or Zeff.",
@@ -2443,11 +2436,10 @@
      "block": "Emperor showdowns",
      "kind": "playbook",
      "steps": [
-      "TOP: use your 1 Emperor attempts on Autistocat and push past showdown 76. Pulse: stand on the small platform next to the boss and auto attack so the skulls bounce; Skull + Aura only, 2nd-page damage talents, boost foods. Big pushes are best saved for statue week.",
-      "Coming up: showdown 77: +15% Equinox Bar Fill Rate, showdown 78: 0.05x Windwalker Extra Dust, showdown 79: +10% Drop Rate, showdown 80: 0.01x Summoning Winner Bonuses.",
+      "Coming up: showdown 78: 0.05x Windwalker Extra Dust, showdown 79: +10% Drop Rate, showdown 80: 0.01x Summoning Winner Bonuses, showdown 81: 0.3x Ninja Stealth.",
       "Griffy: Skulls repeatedly bouncing on the upper platform make Arcane Cultist strong at farming Emperor.",
       "Griffy: Increase damage to advance Emperor.",
-      "Next goal: Showdown 77HP 76 -> 77"
+      "Next goal: Showdown 78HP 77 -> 78"
      ]
     },
     {
@@ -2473,8 +2465,8 @@
      "steps": [
       "Sample It bubble: +9.2/10% 133 -> 200 (toward Autisticles Bug prints)",
       "Startue Exp bubble: 18.5/20%+ minimum 171 -> 240 (toward Autisticles Statue turn-ins (farmed by others))",
+      "+10 LV/day for Kattlekruk bubbles 0 -> 1 (toward Autisticles W7 minis)",
       "Kruk be Bubblin': Kattlekruk gives +0 more Bubble LVs per day for each of his bu 0 -> 5 (toward Autisticles W7 minis)",
-      "Summoning gated by Spelunking cave Chucklemire (Autistomatic): Teal Summoning is now available, with new upgrades and opponents!",
       "Sigils gated by Spelunking cave Bizarrio (Autistomatic): Sigils can be upgraded a 4th time to Ethereal! Each one also gives +0.2% Prisma"
      ]
     },
@@ -2506,15 +2498,14 @@
      "block": "Every character: Post Office boxes",
      "kind": "every",
      "steps": [
-      "Post Office: get Bug Hunting Supplies to 400 (it's at 300).",
-      "Post Office: get Myriad Crate to 100000 (it's at 646)."
+      "Post Office: get Myriad Crate to 100000 (it's at 855)."
      ]
     },
     {
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 95, charge full in 22d 4h."
+      "Worship level 95, charge full in 21d 17h."
      ]
     },
     {
@@ -2526,24 +2517,24 @@
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Alchemy Bubbles - Droppin Loads: +29.7/39.6% Drop RateNext breakpoint: 80% value at level 202 -> 6930",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Sigils - Level 1 Trove: +60/1200% 1 -> 5",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Summoning Bonus:+311% Drop Rate 311 -> 389",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Emperor Showdown:+21% Drop Rate 2 -> \u221e",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Vial - Shipinabottle: 1x Drop Rate MULTI 0 -> 13",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Alchemy Bubbles - Droppin Loads: +29.7/39.6% Drop RateNext breakpoint: 80% value at level 202 -> 6930",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Sigils - Level 1 Trove: +60/1200% 1 -> 5",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Summoning Bonus:+311% Drop Rate 311 -> 389",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Emperor Showdown:+21% Drop Rate 2 -> \u221e",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Vial - Shipinabottle: 1x Drop Rate MULTI 0 -> 13",
     "Sources of Card Drop Chance \u00b7 Alchemy Bubbles - Card Champ: +66.1/100% 78 -> 3960",
     "Sources of Carry Capacity \u00b7 Star Sign - Seraph Cosmos: Multis Passive signs by 1.9/5x. Increases every 20 Summoning  129 -> 140",
     "Sources of Stamp Cost Reduction \u00b7 Sigils - Level 1 Envelope Pile: +72/600% 1 -> 5",
-    "Sources of bonus Vial Effect \u00b7 Total Vial Effect bonus: 4.64x 4.64x -> 5.96x",
-    "Sources of bonus Vial Effect \u00b7 You have 51/84 maxed Vials 51 -> 84",
+    "Sources of bonus Vial Effect \u00b7 Total Vial Effect bonus: 4.68x 4.68x -> 5.96x",
+    "Sources of bonus Vial Effect \u00b7 You have 52/84 maxed Vials 52 -> 84",
     "Sources of Sigil Charging Speed. Grand total: \u00b7 Level 2 Pea Pod: +300/4800% 2 -> 5",
-    "Sources of Sigil Charging Speed. Grand total: \u00b7 Vial - Turtle Tisane (Tuttle): 3.227x 12 -> 13",
+    "Sources of Sigil Charging Speed. Grand total: \u00b7 Vial - Turtle Tisane (Tuttle): 3.246x 12 -> 13",
     "Sources of Sigil Charging Speed. Grand total: \u00b7 Legend Talent - Big Sig Fig: All your Sigils in Alchemy level up 1.0x faster than normalNe 0 -> 3",
     "Sources of Bonus Ballot Multi \u00b7 Endless Summoning Bonus:+23% Ballot Bonus 100 -> 106",
     "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Sample It bubble: +9.2/10% 133 -> 200",
     "Sources of Max Book Levels (313/441) \u00b7 Summoning Bonus:+43 Library Max 43 -> 96",
     "Sources of bonus talent levels beyond book le \u00b7 Tesseract: Universe Talent: +0/5 0 -> 5",
-    "Sources of Checkout Speed \u00b7 Vial - Chonker Chug: +46.4% 10 -> 13",
+    "Sources of Checkout Speed \u00b7 Vial - Chonker Chug: +46.8% 10 -> 13",
     "Sources of Shiny Pet Level Rate \u00b7 Star Sign - Seraph Cosmos: Multis Passive signs by 1.9/5x. Increases every 20 Summoning  129 -> 140",
     "Sources of Sailing Speed \u00b7 Alchemy Bubbles - Boaty Bubble: +93/135% 155 -> 10000",
     "Sources of Sailing Speed \u00b7 Star Sign - Seraph Cosmos: Multis Passive signs by 1.9/5x. Increases every 20 Summoning  129 -> 140",
@@ -2563,7 +2554,7 @@
     "src": "Griffy ypb7kpQov30 00:01 (2026-08-03)"
    },
    "save_map": "W7 map 304",
-   "money": 5.985815464952412e+31,
+   "money": 5.98581546495241e+31,
    "jobs": [
     {
      "job": "Sailing",
@@ -2581,7 +2572,7 @@
          "section": "Sailing",
          "group": "Amass booty! Collect all artifacts",
          "label": "Obsidian",
-         "cur": "0",
+         "cur": "1",
          "goal": "4",
          "score": 136,
          "ready": false,
@@ -2666,7 +2657,7 @@
        "section": "Sailing",
        "group": "Amass booty! Collect all artifacts",
        "label": "Obsidian",
-       "cur": "0",
+       "cur": "1",
        "goal": "4",
        "score": 136,
        "ready": false,
@@ -2771,13 +2762,13 @@
        "more": 0
       },
       {
-       "name": "Sampling: Sources of Printer Output. Grand Total: 96.142 - 576.854x",
+       "name": "Sampling: Sources of Printer Output. Grand Total: 96.813 - 580.875x",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Sampling",
-         "group": "Sources of Printer Output. Grand Total: 96.1 - 576.854x",
+         "group": "Sources of Printer Output. Grand Total: 96.8 - 580.875x",
          "label": "Sailing: Level 6 Gold Relic:3.52x (36/140 days)",
          "cur": "36",
          "goal": "140",
@@ -2788,7 +2779,7 @@
         {
          "locked": "",
          "section": "Sampling",
-         "group": "Sources of Printer Output. Grand Total: 96.1 - 576.854x",
+         "group": "Sources of Printer Output. Grand Total: 96.8 - 580.875x",
          "label": "Event Shop: Supreme Wiring:1.00x (0/50 days)",
          "cur": "0",
          "goal": "50",
@@ -2850,7 +2841,7 @@
      "job": "Statue turn-ins (farmed by others)",
      "basis": "zack",
      "tiers": {
-      "Statues": "10/11"
+      "Statues": "done"
      },
      "subs": [
       {
@@ -2962,7 +2953,7 @@
          "section": "Luminous Menagerie",
          "group": "Shells",
          "label": "Shells needed for Menagerie Rank 6",
-         "cur": "1",
+         "cur": "2",
          "goal": "3",
          "score": 0,
          "ready": false,
@@ -2991,7 +2982,7 @@
          "section": "Luminous Menagerie",
          "group": "Missions",
          "label": "Mission 1: Reach a Total Account LV of 10,000",
-         "cur": "9442",
+         "cur": "9493",
          "goal": "10000",
          "score": 0,
          "ready": false,
@@ -3105,7 +3096,7 @@
        "section": "Luminous Menagerie",
        "group": "Shells",
        "label": "Shells needed for Menagerie Rank 6",
-       "cur": "1",
+       "cur": "2",
        "goal": "3",
        "score": 0,
        "ready": false,
@@ -3225,7 +3216,7 @@
          "locked": "",
          "section": "Clam Work",
          "group": "Clam Work Compensations",
-         "label": "+1 Legend Talent PTS",
+         "label": "+10 LV/day for Kattlekruk bubbles",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -3236,7 +3227,7 @@
          "locked": "",
          "section": "Clam Work",
          "group": "Clam Work Compensations",
-         "label": "+10 LV/day for Kattlekruk bubbles",
+         "label": "+5% Meritocracy Multi bonus",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -3244,7 +3235,7 @@
          "infinite": false
         }
        ],
-       "more": 9
+       "more": 8
       },
       {
        "name": "Jelly Operator: Cells",
@@ -3294,7 +3285,7 @@
          "locked": "",
          "section": "Jelly Operator",
          "group": "Jelly Operator Upgrades",
-         "label": "Daily Transfusion:Automatically get +3.18M Bloodcells each day you login!This amount is equal to 70/200% of the most Bloodcells you've ever earned in",
+         "label": "Daily Transfusion:Automatically get +4.58M Bloodcells each day you login!This amount is equal to 70/200% of the most Bloodcells you've ever earned in",
          "cur": "7",
          "goal": "20",
          "score": 0,
@@ -3447,7 +3438,7 @@
          "infinite": false
         }
        ],
-       "more": 19
+       "more": 17
       },
       {
        "name": "Arcade: Arcade Shop Currency and Bonuses",
@@ -3675,36 +3666,36 @@
      "kind": "playbook",
      "steps": [
       "Claim chests every time you're on. The pile holds 30 and fills in about 48 minutes, and every chest is an artifact roll.",
-      "TOP: move 17 boats to the islands with the best odds for what's left to find:",
-      "Boat 1 (Captain A): Beachy Coast -> Crystal Enclave (1% -> 0.1% a chest)",
-      "Boat 2 (Captain B): Beachy Coast -> Dungeon Cove (1% -> 0.2% a chest)",
-      "Boat 3 (Captain C): Beachy Coast -> Crystal Enclave (1.1% -> 0.1% a chest)",
-      "Boat 4 (Captain D): Beachy Coast -> Dungeon Cove (1% -> 0.2% a chest)",
-      "Boat 5 (Captain E): Beachy Coast -> Cloudy Quay (1% -> 0.4% a chest)",
-      "Boat 6 (Captain N): Beachy Coast -> Isle of Note (1.2% -> 0.2% a chest)",
-      "Boat 7 (Captain G): Beachy Coast -> Fungi Meadows (1% -> 0.3% a chest)",
-      "Boat 8 (Captain F): Beachy Coast -> Candied Island (1% -> 1.1% a chest)",
-      "Boat 9 (Captain P): Beachy Coast -> Snowy South (1% -> 0.6% a chest)",
-      "Boat 10 (Captain J): Beachy Coast -> Isle of Note (1.1% -> 0.2% a chest)",
-      "Boat 11 (Captain K): Beachy Coast -> Stormy North (1% -> 0.7% a chest)",
-      "Boat 13 (Captain M): Beachy Coast -> Rocky Peaks (1% -> 1.3% a chest)",
-      "Boat 15 (Captain O): Beachy Coast -> Isle of Note (1.1% -> 0.2% a chest)",
-      "Boat 16 (Captain L): Beachy Coast -> Isolated Woods (1% -> 1.2% a chest)",
-      "Boat 17 (Captain T): Beachy Coast -> Petulent Garage (1.1% -> 0.1% a chest)",
-      "Boat 19 (Captain R): Beachy Coast -> Petulent Garage (1.1% -> 0.1% a chest)",
-      "Boat 20 (Captain I): Beachy Coast -> World's End (1% -> 4.9% a chest)",
-      "Swap Captain H onto Boat 14 (Captain F goes to Boat 8). That cuts the World's End trip to about 0.32h.",
-      "Swap Captain F onto Boat 12 (Captain I goes to Boat 14). That cuts the World's End trip to about 0.4h.",
-      "Swap Captain I onto Boat 20 (Captain S goes to Boat 12). That cuts the World's End trip to about 0.6h.",
-      "Boat 14 and Boat 12 and Boat 20 go to World's End to hunt the ones you've never found.",
-      "Never found: Obsidian, Ender Pearl, Fang of the Gods, Nomenclature, Me First Dollar, Bloodclot. Four of them are in The Maw, which opens from the Research grid node The Maw (not clouds).",
+      "TOP: move 18 boats to the islands with the best odds for what's left to find:",
+      "Boat 1 (Captain A): Beachy Coast -> Crystal Enclave (0.0% -> 0.1% a chest)",
+      "Boat 2 (Captain B): Beachy Coast -> Dungeon Cove (0.0% -> 0.2% a chest)",
+      "Boat 3 (Captain C): Beachy Coast -> Crystal Enclave (0.0% -> 0.1% a chest)",
+      "Boat 4 (Captain D): Beachy Coast -> Dungeon Cove (0.0% -> 0.2% a chest)",
+      "Boat 5 (Captain E): Beachy Coast -> Cloudy Quay (0.0% -> 0.5% a chest)",
+      "Boat 6 (Captain N): Beachy Coast -> Isle of Note (0.0% -> 0.2% a chest)",
+      "Boat 7 (Captain G): Beachy Coast -> Fungi Meadows (0.0% -> 0.4% a chest)",
+      "Boat 8 (Captain F): Beachy Coast -> Candied Island (0.0% -> 1.2% a chest)",
+      "Boat 9 (Captain P): Beachy Coast -> Snowy South (0.0% -> 0.6% a chest)",
+      "Boat 10 (Captain J): Beachy Coast -> Petulent Garage (0.0% -> 0.1% a chest)",
+      "Boat 11 (Captain K): Beachy Coast -> Stormy North (0.0% -> 0.7% a chest)",
+      "Boat 13 (Captain M): Beachy Coast -> Rocky Peaks (0.0% -> 1.4% a chest)",
+      "Boat 15 (Captain O): Beachy Coast -> Isle of Note (0.0% -> 0.2% a chest)",
+      "Boat 16 (Captain L): Beachy Coast -> Isolated Woods (0.0% -> 1.3% a chest)",
+      "Boat 17 (Captain T): Beachy Coast -> Petulent Garage (0.0% -> 0.1% a chest)",
+      "Boat 18 (Captain Q): Beachy Coast -> Isle of Note (0.0% -> 0.2% a chest)",
+      "Boat 19 (Captain R): Beachy Coast -> Petulent Garage (0.0% -> 0.1% a chest)",
+      "Boat 20 (Captain F): Beachy Coast -> World's End (0.0% -> 100.0% a chest)",
+      "Swap Captain H onto Boat 14 (Captain F goes to Boat 8). That cuts the World's End trip to about 0.27h.",
+      "Swap Captain F onto Boat 20 (Captain S goes to Boat 14). That cuts the World's End trip to about 0.34h.",
+      "Boat 14 and Boat 20 and Boat 12 go to World's End to hunt the ones you've never found.",
+      "Never found: Ender Pearl, Fang of the Gods, Nomenclature, Me First Dollar, Bloodclot. Four of them are in The Maw, which opens from the Research grid node The Maw (not clouds).",
       "When the Sailing Speed ballot is up, World's End trips take half as long.",
       "Captains: buy the shop captain with Boat Speed +4% and Loot Value +34% per level for 69,632 gold bars. It replaces Captain R (Loot Value +9% and Artifact Find Chance +9% per level) on Boat 19. Send Boat 19 home, take R off, delete R, put the new one on, send Boat 19 to Petulent Garage. Griffy: replace low base-roll captains, the stronger roll passes them at equal levels; keep captains equal to boats.",
-      "Trades: best upcoming gold bar trades:  give 82.6M get 486B;  give 82.6M get 486B;  give 38.1M get 87.6M,300. (Griffy: trade treasures for gold bars to upgrade boats)",
-      "Boat upgrades you can afford now: Boat 1 loot to 127; Boat 2 loot to 126; Boat 3 loot to 132; Boat 4 loot to 125; Boat 5 loot to 131; Boat 6 loot to 108. (my read: speed on World's End boats, loot elsewhere)",
+      "Trades: best upcoming gold bar trades:  give 38.3M get 225B;  give 38.3M get 225B;  give 38.3M get 88M,758. (Griffy: trade treasures for gold bars to upgrade boats)",
+      "Boat upgrades you can afford now: Boat 1 loot to 127; Boat 2 loot to 126; Boat 3 loot to 132; Boat 4 loot to 126; Boat 5 loot to 131; Boat 6 loot to 108. (my read: speed on World's End boats, loot elsewhere)",
       "Griffy: Wait for good sailing trades to support upgrades.",
       "Griffy: Prioritize sailing speed and artifact find chance because current sailing speed is very poor.",
-      "Next goal: Obsidian 0 -> 4",
+      "Next goal: Obsidian 1 -> 4",
       "Next goal: Anyone Minor Linked to Purrmep 0 -> 1",
       "Next goal: Moai HeadGet bonuses from all shrines from any map! You must be in same map/worl 6 -> 7"
      ]
@@ -3724,7 +3715,7 @@
      "block": "Statue turn-ins (farmed by others)",
      "kind": "playbook",
      "steps": [
-      "Statue goals: AFK Cavern 15 (4 -> 150).",
+      "Statue goals: .",
       "Before farming Onyx: Startue Exp bubble.",
       "Griffy: golden statues only keep the highest level, so stockpile them and turn them all in on one character. Turning in every statue at once can wipe stored greenstacks.",
       "Griffy: Ten-to-fifteen-times drop rate can work but may not be worthwhile; without Choco Chip, lower-drop-rate farming will be painful.",
@@ -3737,13 +3728,13 @@
      "kind": "playbook",
      "steps": [
       "TOP: claim 2 missions.",
-      "Buy Cooking Speed with Lumi (you have 2,020).",
+      "Buy more Menagerie Missions, Research EXP gains, Cooking Speed with Lumi (you have 4,097).",
       "Next rank unlocks: +0 Max LV for all Shrines in Construction (rank 6 required). You're rank 5.",
-      "Missions in progress: Account LV 9,442 / 10,000, Sneaking Mastery 2 / 3, Total Depths, including Manic 152 / 500, Crops Discovered 174 / 200.",
+      "Missions in progress: Account LV 9,493 / 10,000, Sneaking Mastery 2 / 3, Total Depths, including Manic 212 / 500, Crops Discovered 202 / 225.",
       "Pulse: Extra Menagerie missions boost scales aggressively; 19 levels at roughly 6-7 hours per level; critical for progressing missions.",
       "Pulse: Keep missions boost and second shelf second upgrade roughly level with slight priority on the second shelf.",
-      "Next goal: Shells needed for Menagerie Rank 6 1 -> 3",
-      "Next goal: Mission 1 9442 -> 10000",
+      "Next goal: Shells needed for Menagerie Rank 6 2 -> 3",
+      "Next goal: Mission 1 9493 -> 10000",
       "Next goal: Unlock 6 0 -> 1"
      ]
     },
@@ -3751,10 +3742,11 @@
      "block": "W7 minis",
      "kind": "playbook",
      "steps": [
-      "TOP dailies: use 3 Jelly operations, play 3 Minehead tries.",
+      "TOP dailies: play 3 Minehead tries.",
       "Spend 1 Legend Talent points: Coral Restoration first (Griffy: +60% daily coral, an absolute must). Keep Blue Ribbon and Extended Database on hold.",
-      "Cheap Sushi upgrades: Hourly Wage Meter, Fastburn Fuel I, Fuel Capacity I, Customer Surcharge I, Fastburn Fuel II.",
-      "Minehead: buy Base Damage I, Bettah Numbahs, Mega Damage I, Miney Farmey I.",
+      "Cheap Sushi upgrades: Hourly Wage Meter, Fuel Capacity I, Customer Surcharge I, Fuel Capacity II, Sushi Tier Vision.",
+      "Clam: buy Pearl Value (1,663 pearls), Lucky Day (756 pearls), Multi-Scalping (1,437 pearls).",
+      "Minehead: buy Base Damage I, Grid Expansion, Bettah Numbahs, Mega Damage I.",
       "Beat Kelphead next: unlock another atom for your atom collider, which boosts minehead currency gain when upgraded.",
       "Glimbo: make 12 trades (Char Coral, Divinity Pearl, Dioxide Synthesis, Purple Salt...). Each one raises a Vault max level. Pulse: push to about 1,000 total trades (you're at 167).",
       "Sushi Station: Griffy: The sushi strategy obtains high tiers without excessive spending.",
@@ -3763,7 +3755,6 @@
       "Sushi Station: Next goal: Unique Sushi (consecutive tiers cooked): 20 20 -> 64",
       "Clam Work: Griffy: Void Walker's additional rerolls improve the chance of stronger pearls from clams.",
       "Clam Work: Pulse: Pollen Faction gives more pearls, accelerating the mechanic; the upgrade to care about until later upgrades.",
-      "Clam Work: Next goal: +1 Legend Talent PTS 0 -> 1",
       "Jelly Operator: Pulse: Cell mutation is much stronger than thought; reaching level five and six is a big deal and worth saving for; cell destructions are good.",
       "Jelly Operator: Pulse: Once blue blocks die pop strongroid for burst damage then let the run play out",
       "Jelly Operator: Next goal: Organelle:Unlock the Organelle Cell! This oddly shaped unit multiplies the attac 0 -> 1",
@@ -3835,59 +3826,58 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 84, charge full in 19d 20h."
+      "Worship level 84, charge full in 19d 10h."
      ]
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Legend Talent - Greatest Drop Party Ever: +2000% Drop Rate for all players! This bonus is  4 -> 5",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Companions - Clammie:+100% Class EXP and Drop Rate 0 -> 1",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Unique Sushi #49: 1.1x Drop Rate 0 -> 1",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Legend Talent - Greatest Drop Party Ever: +2000% Drop Rate for all players! This bonus is  4 -> 5",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Companions - Clammie:+100% Class EXP and Drop Rate 0 -> 1",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Unique Sushi #49: 1.1x Drop Rate 0 -> 1",
     "Sources of Forge Ore Capacity \u00b7 Arcade Bonus 26: +0/201% Forge Capacity 0 -> 101",
     "Statue Effect multis and Statue bonuses \u00b7 Artifact - The Onyx Lantern: 3.2/4.1xHigher bonuses from Onyx or higher Statues 4 -> 7",
     "Statue Effect multis and Statue bonuses \u00b7 TRUE ZEN:1.12x higher bonuses from Zenith Statues 6 -> 250",
     "Statue Effect multis and Statue bonuses \u00b7 Event Shop - Smiley Statue: 1/1.3x 0 -> 1",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Power Statue: +22,585 Base Damage 251 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Speed Statue: +918% Move Speed 306 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Mining Statue: +2,771 Mining Power 308 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Feasty Statue: +3,877% Food Effect 327 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Health Statue: +9,923 Base Health 279 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Onyx Kachow Statue: +52.7% Crit Damage 18 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Lumberbob Statue: +2,771 Choppin Power 308 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Thicc Skin Statue: +3,604 Base Defence 304 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Oceanman Statue: +1,078 Fishing Power 303 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Ol Reliable Statue: +1,078 Catchin Power 303 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Exp Statue: +279% Class Exp 235 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Anvil Statue: +1,583% Product Spd 267 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Cauldron Statue: +1,488% Alchemy Exp 251 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Beholder Statue: +730% Crit Chance 308 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Bullseye Statue: +2,684% Accuracy 283 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Box Statue: +790 Trappin Power 222 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Twosoul Statue: +708 Worship Power 199 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Ehexpee Statue: +298% Skill Exp 251 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Seesaw Statue: +1,097% Cons Exp 185 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Pecunia Statue: +2,691% Coins 227 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Battleaxe Statue: +547.7% Damage 231 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Boat Statue: +1,239% Sailing Spd 209 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Stealth Statue: +1,071% Stealth 301 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Essence Statue: +882% White Ess 124 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Villager Statue: +747% Villager Exp 210 -> \u221e",
-    "Statue Effect multis and Statue bonuses \u00b7 Onyx Dragon Statue: +5.5% Statues Bonus 4 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Power Statue: +111K Base Damage 251 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Speed Statue: +4,503% Move Speed 306 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Mining Statue: +13,597 Mining Power 308 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Feasty Statue: +19,019% Food Effect 327 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Health Statue: +48,682 Base Health 279 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Onyx Kachow Statue: +258.5% Crit Damage 18 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Lumberbob Statue: +13,597 Choppin Power 308 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Thicc Skin Statue: +17,681 Base Defence 304 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Oceanman Statue: +5,287 Fishing Power 303 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Ol Reliable Statue: +5,287 Catchin Power 303 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Exp Statue: +1,367% Class Exp 235 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Anvil Statue: +7,765% Product Spd 267 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Cauldron Statue: +7,299% Alchemy Exp 251 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Beholder Statue: +3,583% Crit Chance 308 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Bullseye Statue: +13,168% Accuracy 283 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Box Statue: +3,874 Trappin Power 222 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Twosoul Statue: +3,472 Worship Power 199 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Ehexpee Statue: +1,460% Skill Exp 251 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Seesaw Statue: +5,380% Cons Exp 185 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Pecunia Statue: +13,261% Coins 228 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Battleaxe Statue: +2,699% Damage 232 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Boat Statue: +6,078% Sailing Spd 209 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Stealth Statue: +5,252% Stealth 301 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Essence Statue: +4,327% White Ess 124 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Villager Statue: +3,664% Villager Exp 210 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Dragon Statue: +418% Statues Bonus 186 -> \u221e",
     "Statue Effect multis and Statue bonuses \u00b7 Gold Spelunky Statue: +0% Spelunk Exp 0 -> \u221e",
     "Statue Effect multis and Statue bonuses \u00b7 Gold Coral Statue: +0% Daily Coral 0 -> \u221e",
     "Sources of Sigil Charging Speed. Grand total: \u00b7 Arcade Bonus 43: +0/404% Sigil Speed 0 -> 101",
     "Sources of Sigil Bonus multi. Grand total: 6/ \u00b7 Artifact - Chilled Yarn: 6/8x 5 -> 7",
-    "Sources of Bonus Ballot Multi \u00b7 Legend Talent - Democracy FTW: The Bonus Ballot gives a +0% higher bonus for the winning b 0 -> 1",
     "Sources of Printer Sample Rate (90% Hardcap) \u00b7 Arcade Bonus 5: +0/8% Sample Size 0 -> 101",
-    "Sources of Printer Output. Grand Total: 96.1 \u00b7 Sailing: Level 6 Gold Relic:3.52x (36/140 days) 36 -> 140",
-    "Sources of Printer Output. Grand Total: 96.1 \u00b7 Legend Talent: Yet Another Printer Multi (Lv 0/2):1.00x (0/20 days) 0 -> 20",
+    "Sources of Printer Output. Grand Total: 96.8 \u00b7 Sailing: Level 6 Gold Relic:3.52x (36/140 days) 36 -> 140",
+    "Sources of Printer Output. Grand Total: 96.8 \u00b7 Legend Talent: Yet Another Printer Multi (Lv 0/2):1.00x (0/20 days) 0 -> 20",
     "Sources of Max Book Levels (313/441) \u00b7 Artifact - Fury Relic: +100/175 4 -> 7",
     "Remaining sources of max plate levels \u00b7 Artifact: Transcendent Causticolumn 0 -> 1",
     "Remaining sources of max plate levels \u00b7 Artifact: Verisimilitude Causticolumn 0 -> 1",
     "Sources of Sailing Speed \u00b7 Anyone Minor Linked to Purrmep: +0% 0 -> 1",
-    "Sources of Sailing Speed \u00b7 Bagur Blessing: +300% 60 -> 100",
+    "Sources of Sailing Speed \u00b7 Bagur Blessing: +315% 63 -> 100",
     "Sources of Sailing Speed \u00b7 Artifact - 10 AD Tablet: +3,825/5,354% 5 -> 7",
-    "Sources of Sailing Speed \u00b7 Statues - Zenith Boat Statue: +1,239% Sailing Spd 209 -> \u221e",
+    "Sources of Sailing Speed \u00b7 Statues - Zenith Boat Statue: +6,078% Sailing Spd 209 -> \u221e",
     "Sources of Sailing Speed \u00b7 MSA Sailing: +96% (+1% per 10 waves in Worship) 961 -> 2100",
     "Sources of Bonuses Multi \u00b7 Artifact - The Winz Lantern: +100/175% 4 -> 7",
     "Sources of daily Corals \u00b7 Arcade Bonus 57: +4.7/20.1% Daily Coral 31 -> 101",
@@ -3903,8 +3893,8 @@
     "text": "Cavern 15 Temple (Ancient Golems): Dragon Statue 4 -> 150 + golem card",
     "src": "AutoReview statue table"
    },
-   "save_map": "W5 map 216",
-   "money": 5.736669110959857e+22,
+   "save_map": "W7 map 310",
+   "money": 5.73666911095986e+22,
    "jobs": [
     {
      "job": "Construction",
@@ -3953,7 +3943,7 @@
          "section": "Buildings",
          "group": "B Tier",
          "label": "Isaccian Shrine",
-         "cur": "190",
+         "cur": "199",
          "goal": "200",
          "score": 0,
          "ready": false,
@@ -3964,7 +3954,7 @@
          "section": "Buildings",
          "group": "B Tier",
          "label": "Crystal Shrine",
-         "cur": "100",
+         "cur": "187",
          "goal": "200",
          "score": 0,
          "ready": false,
@@ -3982,7 +3972,7 @@
          "section": "Buildings",
          "group": "C Tier",
          "label": "Voidinator",
-         "cur": "64",
+         "cur": "66",
          "goal": "240",
          "score": 0,
          "ready": false,
@@ -3993,7 +3983,7 @@
          "section": "Buildings",
          "group": "C Tier",
          "label": "Atom Collider",
-         "cur": "127",
+         "cur": "129",
          "goal": "200",
          "score": 0,
          "ready": false,
@@ -4108,8 +4098,8 @@
          "locked": "",
          "section": "Atom Collider",
          "group": "Sources of Atom Collider Cost Reduction",
-         "label": "Atom Collider building: 12.7/20.0%",
-         "cur": "127",
+         "label": "Atom Collider building: 12.9/20.0%",
+         "cur": "129",
          "goal": "200",
          "score": 0,
          "ready": false,
@@ -4282,26 +4272,26 @@
          "locked": "",
          "section": "Gaming",
          "group": "Snail Ranks",
-         "label": "Step 2: Choose a safety level. 95.0% safety = 15 unspent mail",
-         "cur": "5",
-         "goal": "15",
+         "label": "Current Snail Rank: 13",
+         "cur": "13",
+         "goal": "49",
          "score": 0,
-         "ready": true,
+         "ready": false,
          "infinite": false
         },
         {
          "locked": "",
          "section": "Gaming",
          "group": "Snail Ranks",
-         "label": "Step 2: Choose a safety level. 99.0% safety = 30 unspent mail",
-         "cur": "5",
-         "goal": "30",
+         "label": "Step 2: Choose a safety level. 90.0% safety = 3 unspent mail",
+         "cur": "0",
+         "goal": "3",
          "score": 0,
-         "ready": true,
+         "ready": false,
          "infinite": false
         }
        ],
-       "more": 7
+       "more": 9
       }
      ],
      "next": [
@@ -4309,31 +4299,31 @@
        "locked": "",
        "section": "Gaming",
        "group": "Snail Ranks",
-       "label": "Step 2: Choose a safety level. 95.0% safety = 15 unspent mail",
-       "cur": "5",
-       "goal": "15",
-       "score": 0,
-       "ready": true,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Gaming",
-       "group": "Snail Ranks",
-       "label": "Step 2: Choose a safety level. 99.0% safety = 30 unspent mail",
-       "cur": "5",
-       "goal": "30",
-       "score": 0,
-       "ready": true,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Gaming",
-       "group": "Snail Ranks",
        "label": "Current Snail Rank: 13",
        "cur": "13",
        "goal": "49",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Gaming",
+       "group": "Snail Ranks",
+       "label": "Step 2: Choose a safety level. 90.0% safety = 3 unspent mail",
+       "cur": "0",
+       "goal": "3",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Gaming",
+       "group": "Snail Ranks",
+       "label": "Step 2: Choose a safety level. 95.0% safety = 15 unspent mail",
+       "cur": "0",
+       "goal": "15",
        "score": 0,
        "ready": false,
        "infinite": false
@@ -4879,27 +4869,9 @@
      "job": "Statue: Dragon (AFK golems)",
      "basis": "autoreview",
      "tiers": {
-      "Statues": "10/11"
+      "Statues": "done"
      },
      "subs": [
-      {
-       "name": "Statues: Beef up those statues",
-       "state": "open",
-       "items": [
-        {
-         "locked": "",
-         "section": "Statues",
-         "group": "Beef up those statues",
-         "label": "Level up Dragon Statue: AFK Cavern 15",
-         "cur": "4",
-         "goal": "150",
-         "score": 138,
-         "ready": false,
-         "infinite": false
-        }
-       ],
-       "more": -1
-      },
       {
        "name": "Statues: Statue Effect multis and Statue bonuses",
        "state": "open",
@@ -4908,8 +4880,8 @@
          "locked": "",
          "section": "Statues",
          "group": "Statue Effect multis and Statue bonuses",
-         "label": "Onyx Dragon Statue: +5.5% Statues Bonus",
-         "cur": "4",
+         "label": "Zenith Dragon Statue: +418% Statues Bonus",
+         "cur": "186",
          "goal": "\u221e",
          "score": 0,
          "ready": false,
@@ -4923,20 +4895,9 @@
       {
        "locked": "",
        "section": "Statues",
-       "group": "Beef up those statues",
-       "label": "Level up Dragon Statue: AFK Cavern 15",
-       "cur": "4",
-       "goal": "150",
-       "score": 138,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Statues",
        "group": "Statue Effect multis and Statue bonuses",
-       "label": "Onyx Dragon Statue: +5.5% Statues Bonus",
-       "cur": "4",
+       "label": "Zenith Dragon Statue: +418% Statues Bonus",
+       "cur": "186",
        "goal": "\u221e",
        "score": 0,
        "ready": false,
@@ -5073,14 +5034,12 @@
     "Weekly killroy: not confirmed for week of 2026-11-22"
    ],
    "move": {
-    "text": "Gaming: Step 2: Choose a safety level. 95.0% safety = 15 unspent mail 5 -> 15",
+    "text": "Islands: Unlock Fractal Island 0 -> 1",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [
     "READY (Toolbox): Dr Defecaus Up \u00b7 Killed \u00b7 boss/miniboss (minibosses only when stored at max)",
-    "READY (Toolbox): Dilapidated Slush +1 in 1 day \u00b7 3 kills \u00b7 boss/miniboss (minibosses only when stored at max)",
-    "READY (Toolbox): Closest building Ready",
-    "Gaming / Snail Ranks: Step 2: Choose a safety level. 95.0% safety = 15 unspent mail (5 / 15) +1 more ready"
+    "READY (Toolbox): Dilapidated Slush +1 in 1 day \u00b7 3 kills \u00b7 boss/miniboss (minibosses only when stored at max)"
    ],
    "active": [],
    "locked": [
@@ -5126,7 +5085,7 @@
     "first": null,
     "priority": "Spelunking",
     "priority_jobs": [],
-    "rinse1": "Statue: Dragon (AFK golems): Level up Dragon Statue: AFK Cavern 15 4 -> 150 (score 138)",
+    "rinse1": "Islands: Unlock Fractal Island 0 -> 1 (score 130)",
     "flag": ""
    },
    "today": [
@@ -5141,19 +5100,9 @@
      "src": "Toolbox timer \u00b7 boss/miniboss (minibosses only when stored at max)"
     },
     {
-     "do": "Closest building: Ready",
-     "done": "claimed / restarted",
-     "src": "Toolbox timer"
-    },
-    {
-     "do": "Gaming: Step 2: Choose a safety level. 95.0% safety = 15 unspent mail 5 -> 15",
+     "do": "Islands: Unlock Fractal Island 0 -> 1",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
-    },
-    {
-     "do": "Gaming: Step 2: Choose a safety level. 95.0% safety = 15 unspent mail",
-     "done": "15",
-     "src": "AutoReview (ready now), +1 more"
     }
    ],
    "daily": [
@@ -5169,8 +5118,7 @@
      "kind": "timer",
      "steps": [
       "Dr Defecaus: Up \u00b7 Killed",
-      "Dilapidated Slush: +1 in 1 day \u00b7 3 kills",
-      "Closest building: Ready"
+      "Dilapidated Slush: +1 in 1 day \u00b7 3 kills"
      ]
     },
     {
@@ -5179,13 +5127,13 @@
      "steps": [
       "The salts use 2 Dune Soul per cycle and 5 Frigid Soul per cycle and 2 Breezy Soul per cycle. Keep souls covered before spending them elsewhere.",
       "Keep the Spore Cap, Copper, Goldfish, Fly and Pocket Sand prints, they feed the salts.",
-      "Salt Lick Refinery Speed is 76/100, Autistopher can buy 3 more now.",
+      "Salt Lick Refinery Speed is 76/100.",
       "Buildings: Griffy: Build Crescent Shrine for increased crystal and giant mob spawn chances.",
       "Buildings: Griffy: Upgrade Death Note while its construction cost remains cheap.",
       "Buildings: Next goal: Clover Shrine 100 -> 200",
       "Buildings:   HOW: Continue toward Clover Shrine after unlocking Party Starter.",
-      "Buildings: Next goal: Isaccian Shrine 190 -> 200",
-      "Buildings: Next goal: Voidinator 64 -> 240",
+      "Buildings: Next goal: Isaccian Shrine 199 -> 200",
+      "Buildings: Next goal: Voidinator 66 -> 240",
       "Atom Collider: Griffy: Void Walker becomes important for atom farming once the printer setup is established.",
       "Atom Collider: Griffy: Prioritize Boron because it makes alchemy upgrading much easier.",
       "Atom Collider: Next goal: Helium - Talent Power Stacker 8 -> 9",
@@ -5199,8 +5147,9 @@
       "Refinery: Next goal: Green Salt 20 -> 8332",
       "Refinery:   HOW: Enable blue salt production to reach green salts and support Poisonic Elder progression.",
       "Refinery:   HOW: Upgrade red salts first; limit explosive and blue and green salts levels; aim for perpetual motion (Griffy nodate @04:51:40)",
-      "AutoReview's top atom is Helium: 452M particles, about 48.2 days away at your rate (8.5M a day).",
-      "Also affordable now: Aluminium (90.4K), Silicon (113K), Phosphorus (181K), Sulfur (678K), Lithium (1.44M), Nitrogen (1.61M), Hydrogen (3.1M), Beryllium (4.09M), Chlorine (4.52M), Carbon (4.7M), Oxygen (5.83M), Sodium (12.5M), Magnesium (16.4M), Fluoride (17.4M).",
+      "TOP: buy Neon (43.2M particles, you have 48.6M). It makes every other atom cheaper, so get it before saving for the big ones (my read).",
+      "AutoReview's top atom is Helium: 451M particles, about 26.2 days away at your rate (15.4M a day).",
+      "Also affordable now: Aluminium (90.3K), Silicon (113K), Phosphorus (181K), Sulfur (677K), Lithium (1.44M), Nitrogen (1.61M), Hydrogen (3.1M), Beryllium (4.09M), Chlorine (4.51M), Carbon (4.7M), Oxygen (5.82M), Sodium (12.5M), Magnesium (16.4M), Fluoride (17.4M).",
       "12 of 17 atoms unlocked. Aluminium comes from Compass Nomadic 32 on Autistacular."
      ]
     },
@@ -5209,13 +5158,12 @@
      "kind": "playbook",
      "steps": [
       "TOP: the garden is full, harvest it. Nothing new grows until you do.",
-      "Dig with the shovel and collect the squirrel's acorns, neither has been touched in 38h.",
-      "Snail is level 13 of 25 (82% success, 13% reset chance).",
-      "Next superbit: Classy Discoveries at 5.0e51 bits (you have 1.4e51).",
+      "Dig with the shovel and collect the squirrel's acorns, neither has been touched in 3d.",
+      "Snail is level 13 of 30 (86% success, 12% reset chance).",
+      "Next superbit: Slabby Spelunking at 2.0e53 bits (you have 7.8e52).",
       "Griffy: After harvesting all plants use the sprinkler to repopulate the garden.",
       "Griffy: Completing additional quests builds the multiplier for Gaming bits.",
-      "Step 2: Choose a safety level. 95.0% safety = 15 unspent mail (5 / 15) READY",
-      "Step 2: Choose a safety level. 99.0% safety = 30 unspent mail (5 / 30) READY"
+      "Next goal: Current Snail Rank 13 -> 49"
      ]
     },
     {
@@ -5224,8 +5172,8 @@
      "steps": [
       "Next Royal statue to build: Plutus the Prosperous.",
       "Armory upgrades to push: Royal Talent Points I, Solo Militia Status, Blunder Outpost PTS.",
-      "Affordable Armory upgrades: Resource Replenish, Solo Militia Status, Royal Marble, Wonderful Workers, Anti-Rodent Power Move I.",
-      "Armory levels 208 / 230 for the next shelf.",
+      "Affordable Armory upgrades: Resource Replenish, Solo Militia Status, Royal Marble, Yumyum Desert Militia, Anti-Rodent Power Move I.",
+      "Armory levels 216 / 230 for the next shelf.",
       "Griffy: Assign the initial ability, open Royal Armory, acquire the resource tool, collect wheat, and build an outpost on the frog map.",
       "Griffy: Find marble in each world with Royal Guardian and spend it attempting statue unlocks that grant account-wide bonuses.",
       "Next goal: Royal Talent Points I 66 -> 200",
@@ -5267,7 +5215,7 @@
      "steps": [
       "Dr Defecaus: up now, go kill it",
       "Dilapidated Slush: 0/10 stored \u00b7 wait, run at 10 (+1 in 1 day \u00b7 3 kills)",
-      "Baba Yaga: Killed \u00b7 22h 20m",
+      "Baba Yaga: Killed \u00b7 12h 13m",
       "Domeo Magmus: 0/6 stored \u00b7 wait, run at 6 (Current 0 \u00b7 +1 in 2 days)",
       "Mutated Mush: 0/8 stored \u00b7 wait, run at 8 (Current 0 \u00b7 +1 in 3 days)",
       "Demented Spiritlord: 0/6 stored \u00b7 wait, run at 6 (Current 0 \u00b7 +1 in 3 days)"
@@ -5278,8 +5226,7 @@
      "kind": "rinse",
      "steps": [
       "Griffy: Ten-to-fifteen-times drop rate can work but may not be worthwhile; without Choco Chip, lower-drop-rate farming will be painful.",
-      "Griffy: Pushing royal progression into World 4 enables the same passive statue improvements for Dragon Statues and larger prints.",
-      "Next goal: Level up Dragon Statue 4 -> 150"
+      "Griffy: Pushing royal progression into World 4 enables the same passive statue improvements for Dragon Statues and larger prints."
      ]
     },
     {
@@ -5311,8 +5258,8 @@
      "kind": "lever",
      "steps": [
       "Sailing artifact odds: Palette Bonus is still x1 (Autisticles' artifact hunt)",
-      "Level Isaccian Shrine from 190 to 201 to start Autistachio's Vibrant Coral bonus.",
-      "Level Crystal Shrine from 100 to 201 to start Autistachio's Glowing Coral bonus.",
+      "Level Isaccian Shrine from 199 to 201 to start Autistachio's Vibrant Coral bonus.",
+      "Level Crystal Shrine from 187 to 201 to start Autistachio's Glowing Coral bonus.",
       "Level Pantheon Shrine from 100 to 201 to start Autistachio's Char Coral bonus."
      ]
     },
@@ -5344,7 +5291,7 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 101, charge full in 18d 1h."
+      "Worship level 101, charge full in 17d 15h."
      ]
     },
     {
@@ -5361,7 +5308,7 @@
     "Sources of Max Atom Levels \u00b7 Nomadic-17: Atomic Potential: +0 Max LV for all atoms in the Atom Collider(1 per lev 0 -> 20",
     "Sources of Max Atom Levels \u00b7 Menagerie - Boost 18: +0 Max LVs for all AtomsNeeds a higher Menagerie Rank 0 -> \u221e",
     "Sources of Atom Collider Cost Reduction \u00b7 Neon - Damage N' Cheapener: 32/50% 32 -> 50",
-    "Sources of Atom Collider Cost Reduction \u00b7 Atom Collider building: 12.7/20.0% 127 -> 200",
+    "Sources of Atom Collider Cost Reduction \u00b7 Atom Collider building: 12.9/20.0% 129 -> 200",
     "Sources of Atom Collider Cost Reduction \u00b7 Death of the Atom Price: All Atoms are +0.0% cheaper to upgrade(1 per level after Writh 0 -> 999999",
     "Sources of Atom Collider Cost Reduction \u00b7 Nomadic-15: Atomic Cost Crash: All Atoms are +4% cheaper to upgrade(1 per level) 4 -> 999999"
    ]
@@ -5404,8 +5351,8 @@
          "locked": "",
          "section": "Divinity",
          "group": "Offerings",
-         "label": "1% Offering: Olive Branch",
-         "cur": "11.1%",
+         "label": "10% Offering: Giftbox",
+         "cur": "23.8%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -5415,8 +5362,8 @@
          "locked": "",
          "section": "Divinity",
          "group": "Offerings",
-         "label": "25% Offering: Tithe",
-         "cur": "0.4%",
+         "label": "50% Offering: Hearty Meal",
+         "cur": "4.8%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -5491,8 +5438,8 @@
          "locked": "",
          "section": "Coral Kid",
          "group": "Bonuses",
-         "label": "Lets you click the volcano, linking the divinity of your choice to ALL players! Also, 1.2x Divinity EXP gain for all!",
-         "cur": "2",
+         "label": "Lets you click the volcano, linking the divinity of your choice to ALL players! Also, 2.3x Divinity EXP gain for all!",
+         "cur": "13",
          "goal": "\u221e",
          "score": 0,
          "ready": false,
@@ -5547,8 +5494,8 @@
        "locked": "",
        "section": "Divinity",
        "group": "Offerings",
-       "label": "1% Offering: Olive Branch",
-       "cur": "11.1%",
+       "label": "10% Offering: Giftbox",
+       "cur": "23.8%",
        "goal": "100%",
        "score": 0,
        "ready": false,
@@ -5558,8 +5505,8 @@
        "locked": "",
        "section": "Divinity",
        "group": "Offerings",
-       "label": "25% Offering: Tithe",
-       "cur": "0.4%",
+       "label": "50% Offering: Hearty Meal",
+       "cur": "4.8%",
        "goal": "100%",
        "score": 0,
        "ready": false,
@@ -5625,7 +5572,7 @@
          "section": "Villagers",
          "group": "Level 15 Polonai, The Explorer",
          "label": "Next level progress",
-         "cur": "42.9%",
+         "cur": "49.2%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -5635,15 +5582,15 @@
        "more": 5
       },
       {
-       "name": "Villagers: Level 28 Kaipu, The Engineer",
+       "name": "Villagers: Level 29 Kaipu, The Engineer",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Villagers",
-         "group": "Level 28 Kaipu, The Engineer",
+         "group": "Level 29 Kaipu, The Engineer",
          "label": "Kaipu, The Engineer level for all implemented unlocks",
-         "cur": "28",
+         "cur": "29",
          "goal": "32",
          "score": 0,
          "ready": false,
@@ -5652,27 +5599,27 @@
         {
          "locked": "",
          "section": "Villagers",
-         "group": "Level 28 Kaipu, The Engineer",
-         "label": "Total Schematics unlocked by leveling Kaipu",
-         "cur": "90",
-         "goal": "105",
+         "group": "Level 29 Kaipu, The Engineer",
+         "label": "Next level progress",
+         "cur": "81.2%",
+         "goal": "100%",
          "score": 0,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 33
+       "more": 34
       },
       {
-       "name": "Villagers: Level 34 Cosmos, The Conjuror",
+       "name": "Villagers: Level 36 Cosmos, The Conjuror",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Villagers",
-         "group": "Level 34 Cosmos, The Conjuror",
+         "group": "Level 36 Cosmos, The Conjuror",
          "label": "Cosmos, The Conjuror level for all implemented unlocks",
-         "cur": "34",
+         "cur": "36",
          "goal": "66",
          "score": 0,
          "ready": false,
@@ -5681,7 +5628,7 @@
         {
          "locked": "",
          "section": "Villagers",
-         "group": "Level 34 Cosmos, The Conjuror",
+         "group": "Level 36 Cosmos, The Conjuror",
          "label": "Up to 12 Conjuror Pts can be purchased from the Gem Shop",
          "cur": "0",
          "goal": "12",
@@ -5690,19 +5637,19 @@
          "infinite": false
         }
        ],
-       "more": 10
+       "more": 9
       },
       {
-       "name": "Villagers: Level 16 Minau, The Measurer",
+       "name": "Villagers: Level 17 Minau, The Measurer",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Villagers",
-         "group": "Level 16 Minau, The Measurer",
-         "label": "Minau, The Measurer level for all implemented unlocks",
-         "cur": "16",
-         "goal": "17",
+         "group": "Level 17 Minau, The Measurer",
+         "label": "Next level progress",
+         "cur": "32.2%",
+         "goal": "100%",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -5710,8 +5657,8 @@
         {
          "locked": "",
          "section": "Villagers",
-         "group": "Level 16 Minau, The Measurer",
-         "label": "Level 52Base: +19.2% Villager Exp Gainx4.299 (35,569 Tome Score)Total: +82.7%",
+         "group": "Level 17 Minau, The Measurer",
+         "label": "Level 52Base: +19.2% Villager Exp Gainx4.329 (35,851 Tome Score)Total: +83.3%",
          "cur": "34.2%",
          "goal": "100%",
          "score": 0,
@@ -5722,13 +5669,13 @@
        "more": 16
       },
       {
-       "name": "Villagers: Level 70 Bolaia, The Librarian",
+       "name": "Villagers: Level 74 Bolaia, The Librarian",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Villagers",
-         "group": "Level 70 Bolaia, The Librarian",
+         "group": "Level 74 Bolaia, The Librarian",
          "label": "Bravery Monument: Minimum DMG is at least 18% of Max, and you now skip trivial fights!12 base, +3 per level, capped at 32%",
          "cur": "2",
          "goal": "7",
@@ -5739,7 +5686,7 @@
         {
          "locked": "",
          "section": "Villagers",
-         "group": "Level 70 Bolaia, The Librarian",
+         "group": "Level 74 Bolaia, The Librarian",
          "label": "Total Base: 110/hr per level",
          "cur": "10",
          "goal": "15",
@@ -5787,11 +5734,11 @@
          "locked": "",
          "section": "Shallow Caverns",
          "group": "Cavern 2- Motherlode",
-         "label": "Ore remaining to break Layer 8: -24.6K",
-         "cur": "100.0%",
+         "label": "Ore remaining to break Layer 11: 822.9K",
+         "cur": "1.4%",
          "goal": "100%",
          "score": 0,
-         "ready": true,
+         "ready": false,
          "infinite": false
         }
        ],
@@ -5881,8 +5828,8 @@
          "locked": "",
          "section": "Glowshroom Tunnels",
          "group": "Cavern 6- The Harp",
-         "label": "Level 89 C chordStrum Effect: Generate the tuned NoteLV Bonus: Harp Note Gain",
-         "cur": "89",
+         "label": "Level 91 C chordStrum Effect: Generate the tuned NoteLV Bonus: Harp Note Gain",
+         "cur": "91",
          "goal": "\u221e",
          "score": 0,
          "ready": false,
@@ -5892,8 +5839,8 @@
          "locked": "",
          "section": "Glowshroom Tunnels",
          "group": "Cavern 6- The Harp",
-         "label": "Level 90 D chordStrum Effect: Chance for an OpalLV Bonus: Harp Note Gain",
-         "cur": "90",
+         "label": "Level 91 D chordStrum Effect: Chance for an OpalLV Bonus: Harp Note Gain",
+         "cur": "91",
          "goal": "\u221e",
          "score": 0,
          "ready": false,
@@ -5939,8 +5886,8 @@
          "locked": "",
          "section": "Glowshroom Tunnels",
          "group": "Cavern 8- The Hive",
-         "label": "Bugs remaining to break Layer 15: 10.7M",
-         "cur": "50.1%",
+         "label": "Bugs remaining to break Layer 15: 8.8M",
+         "cur": "54.8%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -6004,7 +5951,7 @@
          "locked": "",
          "section": "Underground Overgrowth",
          "group": "Cavern 11- The Jar",
-         "label": "Turquoise Rupies: 0.00Collected from Great Jars once you have 500K+ Magenta Rupies",
+         "label": "Ultramarine Rupies: 0.00Collected from Epic Jars once you have 6M+ Orange Rupies",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -6015,7 +5962,7 @@
          "locked": "",
          "section": "Underground Overgrowth",
          "group": "Cavern 11- The Jar",
-         "label": "Ultramarine Rupies: 0.00Collected from Epic Jars once you have 6M+ Orange Rupies",
+         "label": "Purple Rupies: 0.00Collected from Epic Jars once you have 50M+ Ultramarine Rupies",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -6023,7 +5970,7 @@
          "infinite": false
         }
        ],
-       "more": 52
+       "more": 51
       },
       {
        "name": "Underground Overgrowth: Cavern 12- Evertree",
@@ -6033,8 +5980,8 @@
          "locked": "",
          "section": "Underground Overgrowth",
          "group": "Cavern 12- Evertree",
-         "label": "Logs remaining to break Layer 13: 3.0M",
-         "cur": "31.9%",
+         "label": "Logs remaining to break Layer 13: 2.6M",
+         "cur": "35.0%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -6080,7 +6027,7 @@
          "locked": "",
          "section": "Underground Overgrowth",
          "group": "Cavern 14- Gambit",
-         "label": "2x Extra Bones on Deathbringer200,442 points to Unlock",
+         "label": "2x Extra Bones on Deathbringer174,862 points to Unlock",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -6091,7 +6038,7 @@
          "locked": "",
          "section": "Underground Overgrowth",
          "group": "Cavern 14- Gambit",
-         "label": "2x daily particle bubble upg509,539 points to Unlock",
+         "label": "2x daily particle bubble upg483,959 points to Unlock",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -6103,17 +6050,6 @@
       }
      ],
      "next": [
-      {
-       "locked": "",
-       "section": "Shallow Caverns",
-       "group": "Cavern 2- Motherlode",
-       "label": "Ore remaining to break Layer 8: -24.6K",
-       "cur": "100.0%",
-       "goal": "100%",
-       "score": 0,
-       "ready": true,
-       "infinite": false
-      },
       {
        "locked": "",
        "section": "Glowshroom Tunnels",
@@ -6130,6 +6066,17 @@
        "section": "Glowshroom Tunnels",
        "group": "Cavern 7- The Lamp",
        "label": "Level 13 Bring Them Back: +12 AFK Hours to any unlocked Monument",
+       "cur": "5",
+       "goal": "2",
+       "score": 0,
+       "ready": true,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Glowshroom Tunnels",
+       "group": "Cavern 7- The Lamp",
+       "label": "Level 0 A Moderate Discount: 15% discount on the next Engineer Schematic creation",
        "cur": "5",
        "goal": "2",
        "score": 0,
@@ -6322,7 +6269,7 @@
      "job": "Statues: ES (Box, Seesaw)",
      "basis": "autoreview",
      "tiers": {
-      "Statues": "10/11"
+      "Statues": "done"
      },
      "subs": [],
      "next": [],
@@ -6343,7 +6290,6 @@
     "src": "Griffy gPQrOK53BDI + findings/hole_caverns_1-5.md"
    },
    "quick": [
-    "The Hole (all 15 caverns + vil / Cavern 2- Motherlode: Ore remaining to break Layer 8: -24.6K (100.0% / 100%)",
     "The Hole (all 15 caverns + vil / Cavern 7- The Lamp: Level 1 1000000 Opals: +1 Opal (5 / 4) +6 more ready"
    ],
    "active": [
@@ -6418,7 +6364,7 @@
     "first": null,
     "priority": "Spelunking",
     "priority_jobs": [],
-    "rinse1": "Divinity: 1% Offering: Olive Branch 11.1% -> 100% (score 0)",
+    "rinse1": "Divinity: 10% Offering: Giftbox 23.8% -> 100% (score 0)",
     "flag": ""
    },
    "today": [
@@ -6426,11 +6372,6 @@
      "do": "Move Well buckets onto the rock layer: Cobaltine 125K left gates #27, #30, #53",
      "done": "goal reached or next step",
      "src": "Griffy gPQrOK53BDI + findings/hole_caverns_1-5.md"
-    },
-    {
-     "do": "The Hole (all 15 caverns + villagers): Ore remaining to break Layer 8: -24.6K",
-     "done": "100%",
-     "src": "AutoReview (ready now)"
     },
     {
      "do": "The Hole (all 15 caverns + villagers): Level 1 1000000 Opals: +1 Opal",
@@ -6467,12 +6408,12 @@
      "steps": [
       "Trick from Pulse and Griffy: characters linked to Goharut who sit in Lab tubes count as meditating, so they earn Divinity and Lab EXP at the same time.",
       "Coral Kid: buy the cheapest upgrade now (1 points): You can Transmute Divinity PTS into Singularity Spirals.",
-      "Best blessing buys: Arctis, Harriep, Omniphau.",
+      "Best blessing buys: Harriep, Goharut, Omniphau.",
       "God rank 3. Pulse says endgame is rank 25 to 30, and Super week is when you push it.",
       "God links are on the review list for later.",
       "Divinity: Griffy: Choose Doot to use Omniphau's AFK-time procs on the account's accumulated hours.",
       "Divinity: Griffy: Divinity pearls help difficult skill levels and meeting tool requirements.",
-      "Divinity: Next goal: 1% Offering: Olive Branch 11.1% -> 100%",
+      "Divinity: Next goal: 10% Offering: Giftbox 23.8% -> 100%",
       "Divinity: Next goal: Flutterbis Blessing 75 -> 100",
       "Divinity: Next goal: 60 Divinity and 841 Big P 276 -> 841",
       "Coral Kid: Next goal: The base value of the Transmute, which is based on how many Divinity PTS you hav 0 -> 1 \u00b7 BLOCKED: Requires Total Divinity LV of 3000 across all play"
@@ -6484,7 +6425,6 @@
      "steps": [
       "Villagers: Griffy: Choose the forge-capacity upgrade because the other intended enhancement is already unlocked.",
       "Villagers: Griffy: Prioritize wishing more now to build toward stronger wishes later.",
-      "Shallow Caverns: Ore remaining to break Layer 8: -24.6K (100.0% / 100%) READY",
       "Glowshroom Tunnels: Level 1 1000000 Opals: +1 Opal (5 / 4) READY",
       "Glowshroom Tunnels: Level 13 Bring Them Back: +12 AFK Hours to any unlocked Monument (5 / 2) READY"
      ]
@@ -6556,7 +6496,7 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 128, charge full in 11d 21h.",
+      "Worship level 128, charge full in 11d 10h.",
       "Charges much faster than the rest, probably from mage worship talents (my read)."
      ]
     },
@@ -6569,12 +6509,12 @@
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Caverns - Measurement #16:+0% Drop Rate (scales with Golem Kills) 0 -> \u221e",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Schematic #45 - Gloomie Lootie:+5% Drop Rate for each Colony of Gloomie Mushrooms defeated 10 -> \u221e",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Schematic #82 - Sanctum of LOOT:+20% Drop Rate for each Sanctum of Ancient Golems you've c 0 -> 1",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Cavern 13- Wisdom Monument:+0.0% Player Drop Rate 0 -> \u221e",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Caverns - Measurement #16:+0% Drop Rate (scales with Golem Kills) 0 -> \u221e",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Schematic #45 - Gloomie Lootie:+5% Drop Rate for each Colony of Gloomie Mushrooms defeated 10 -> \u221e",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Schematic #82 - Sanctum of LOOT:+20% Drop Rate for each Sanctum of Ancient Golems you've c 0 -> 1",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Cavern 13- Wisdom Monument:+0.0% Player Drop Rate 0 -> \u221e",
     "Sources of Forge Ore Capacity \u00b7 Villager Cosmos Majik - Beeg Beeg Forge: Increase the forge capacity by 3/243x 1 -> 5",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Spiral Statue: +2,241% Divinity Exp 189 -> \u221e",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Spiral Statue: +10,993% Divinity Exp 189 -> \u221e",
     "Sources of Bonus Ballot Multi \u00b7 Villager Cosmos Majik - Voter Integrity: Get +6/30% Ballot Box bonus multiplier! This way  1 -> 5",
     "Sources of Bonuses Multi \u00b7 Armor Set: Godshard Set: +0/15% 0 -> 1"
    ]
@@ -6588,8 +6528,8 @@
     "text": "W7: push the cave until his tasks are planned",
     "src": "zack"
    },
-   "save_map": "W3 map 109",
-   "money": 2.6588936530737506e+31,
+   "save_map": "W3 map 110",
+   "money": 2.6590545615406046e+31,
    "jobs": [
     {
      "job": "Sneaking",
@@ -6664,7 +6604,7 @@
          "locked": "",
          "section": "Sneaking",
          "group": "Pristine Charm Odds and Collection",
-         "label": "Each regular Charm found today lowers this, from 0.1% down to 0% at 120 found (you're at 0/120, resets daily)",
+         "label": "Each regular Charm found today lowers this, from 0.1% down to 0% at 120 found (you're at 38/120, resets daily)",
          "cur": "15",
          "goal": "23",
          "score": 0,
@@ -6713,8 +6653,8 @@
        "locked": "",
        "section": "Sneaking",
        "group": "Percentage of Gemstone values",
-       "label": "Malachite: Jade GainLevel 1268: +2,810/5015% Total: +7472.1%",
-       "cur": "56%",
+       "label": "Malachite: Jade GainLevel 1682: +3,151/5015% Total: +8,377%",
+       "cur": "62.8%",
        "goal": "100%",
        "score": 0,
        "ready": false,
@@ -6775,8 +6715,8 @@
          "locked": "",
          "section": "Breeding",
          "group": "Sources of Shiny Pet Level Rate",
-         "label": "Farming Crop Depot - Crayon:+2,614/4,958% Mobs",
-         "cur": "174",
+         "label": "Farming Crop Depot - Crayon:+3,035/4,958% Mobs",
+         "cur": "202",
          "goal": "330",
          "score": 0,
          "ready": false,
@@ -6786,8 +6726,8 @@
          "locked": "",
          "section": "Breeding",
          "group": "Sources of Shiny Pet Level Rate",
-         "label": "Breeding Upgrade - Grand Martial of Shinytown: +150%",
-         "cur": "30",
+         "label": "Breeding Upgrade - Grand Martial of Shinytown: +190%",
+         "cur": "38",
          "goal": "300",
          "score": 0,
          "ready": false,
@@ -7328,9 +7268,7 @@
     "text": "Breeding: Bonuses from All Meals: Sheepie88.77 base days to level 5 -> 13",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
-   "quick": [
-    "READY (Toolbox): Closest trap Ready"
-   ],
+   "quick": [],
    "active": [
     {
      "id": "compass_nomadic",
@@ -7421,11 +7359,6 @@
    },
    "today": [
     {
-     "do": "Closest trap: Ready",
-     "done": "claimed / restarted",
-     "src": "Toolbox timer"
-    },
-    {
      "do": "BIGGEST NEED (Compass): Compass: Elemental-0: Elemental Path 15 -> 20",
      "done": "20",
      "src": "priority.py (biggest current need)"
@@ -7455,18 +7388,10 @@
      ]
     },
     {
-     "block": "Timers ready (Toolbox)",
-     "kind": "timer",
-     "steps": [
-      "Closest trap: Ready"
-     ]
-    },
-    {
      "block": "Sneaking",
      "kind": "playbook",
      "steps": [
-      "TOP: use today's charm rolls (75 symbol, 120 pristine left). They don't carry over.",
-      "Autiszemo, Autistabish, Autistotle, Autistomatic are behind on floors (everyone else is on 4).",
+      "TOP: use today's charm rolls (37 symbol, 82 pristine left). They don't carry over.",
       "Griffy: Sneaking contains many valuable account-progression bonuses.",
       "Griffy: Removing stamp penalties improves printer samples.",
       "Next goal: Wind Walker Tab 5 371 -> 389",
@@ -7479,7 +7404,7 @@
      "block": "Breeding",
      "kind": "playbook",
      "steps": [
-      "TOP: spend Dead DNA on Grand Martial of Shinytown first (faster shiny levels; Pulse: faster shinies are priority one), then Paint Bucket, Breedability Mobs. Dead DNA comes from trashing pets (2 to 6 each, idleon.wiki), so trash every egg you don't keep.",
+      "TOP: spend Dead DNA on Grand Martial of Shinytown first (faster shiny levels; Pulse: faster shinies are priority one), then Breedability Mobs, Blooming Axe. Dead DNA comes from trashing pets (2 to 6 each, idleon.wiki), so trash every egg you don't keep.",
       "Eggs are full. Pulse: keep clicking them past full to level them.",
       "Quickest shiny goals: Walking Stick for base critters per trap, Choccie for drop rate, Mashed Potato for base efficiency for all skills.",
       "Zack's plan (2026-11-21): while pushing Dead DNA, hatch and trash as many eggs as possible (no multiplying focus). One shiny spot is given up to raise breedability on one pet at a time toward heart 7 (Equinox and other places need a set number of heart 7 pets). Card switches to the next pet when one reaches heart 7.",
@@ -7487,7 +7412,7 @@
       "Griffy: Obtain the double-Refiller build first.",
       "Griffy: Start prioritizing replacements for weak Fleeters and pushing Pet Arena.",
       "Next goal: Bonuses from All Meals 5 -> 13",
-      "Next goal: Farming Crop Depot - Crayon:+2,614/4,958% Mobs 174 -> 330",
+      "Next goal: Farming Crop Depot - Crayon:+3,035/4,958% Mobs 202 -> 330",
       "Next goal: Silkrode Nanochip 0 -> 1"
      ]
     },
@@ -7504,7 +7429,7 @@
      "steps": [
       "Next Compass tier needs: Elemental Path 15 -> 20, Fighter Path 19 -> 22, Exalted Stamps 5 -> 6, Medallion Magnate 3 -> 4, Moon of Damage 0 -> 120, Opa Opa Opa! 0 -> 8, Abominations Slain 16 -> 25, Medallions Collected 28 -> 50.",
       "Elemental Path's next level costs 72.7M stardust, you're 0 short.",
-      "50 upgrades cost almost nothing right now, just buy them: Stone Failsafe, Printer Sale I, Jade Coinage, Ring Drops II, Critter Culture, Solardust Hoarding.",
+      "61 upgrades cost almost nothing right now, just buy them: Stone Failsafe, Printer Sale I, Jade Coinage, Ring Drops II, Critter Culture, Solardust Hoarding.",
       "Your call: Exalted Stamps (374M stardust) gives one more stamp exalt, but it delays Elemental Path by the same amount. Griffy uses moons for an extra exalt.",
       "Kill Bobo the Fractured next (Waterlogged Entrance). It's abomination #17 and it lets Tempest Form into the W3 town.",
       "Print day: Moon of Print is 102 of 200, next level 71.8K stardust.",
@@ -7521,9 +7446,9 @@
      "block": "Worship totems (waves)",
      "kind": "playbook",
      "steps": [
-      "Worship level 99, charge full in 17d 23h.",
+      "Worship level 99, charge full in 17d 13h.",
       "Runs the totems: spend charge on the prayer-unlock waves first, then the lowest totem.",
-      "Closest prayer unlocks: Acorn Assault to wave 111 for Ruck Sack; Clash of Cans to wave 131 for Glitterbug.",
+      "Closest prayer unlocks: Clash of Cans to wave 131 for Glitterbug.",
       "Use charge from Autistabish and Autistomatic first, they fill up soonest.",
       "Griffy: get Voidinator early, Frozen as the last line, Kraken for small enemies. Pulse: Clash of Cans souls give the most worship EXP."
      ]
@@ -7591,7 +7516,7 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 99, charge full in 17d 23h.",
+      "Worship level 99, charge full in 17d 13h.",
       "Runs the totems: spend charge on the prayer-unlock waves first, then the lowest totem."
      ]
     },
@@ -7604,14 +7529,14 @@
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Breeding - Shiny Slime: +5/20% Drop Rate 5 -> 20",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Breeding - Shiny Xylobone: +10/20% Drop Rate 10 -> 20",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Breeding - Shiny Choccie: +5/20% Drop Rate 5 -> 20",
-    "Statue Effect multis and Statue bonuses \u00b7 Zenith Egg Statue: +1,034% Breeding Exp 218 -> \u221e",
-    "Sources of Printer Output. Grand Total: 96.1 \u00b7 Compass: Nomadic-3: Moon of Print: 1.29x (14/100 days) 14 -> 100",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Breeding - Shiny Slime: +5/20% Drop Rate 5 -> 20",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Breeding - Shiny Xylobone: +10/20% Drop Rate 10 -> 20",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Breeding - Shiny Choccie: +5/20% Drop Rate 5 -> 20",
+    "Statue Effect multis and Statue bonuses \u00b7 Zenith Egg Statue: +5,095% Breeding Exp 219 -> \u221e",
+    "Sources of Printer Output. Grand Total: 96.8 \u00b7 Compass: Nomadic-3: Moon of Print: 1.29x (14/100 days) 14 -> 100",
     "Sources of bonus talent levels beyond book le \u00b7 Rift: Sneaking Mastery: +0/5 (Mastery III) 2 -> 3",
     "Sources of Shiny Pet Level Rate \u00b7 Lamp Wish: World 4 Stuff: +210.0% 210.0 -> \u221e",
-    "Sources of Shiny Pet Level Rate \u00b7 Breeding Upgrade - Grand Martial of Shinytown: +150% 30 -> 300",
+    "Sources of Shiny Pet Level Rate \u00b7 Breeding Upgrade - Grand Martial of Shinytown: +190% 38 -> 300",
     "Sources of Shiny Pet Level Rate \u00b7 Shiny OverLV (Shiny LVs above 20): 1.0xNeeds Menagerie Unlock 12 0 -> 680",
     "Sources of Pet Damage \u00b7 Breeding Upgrade - Blooming Axe: +12% 2 -> 10",
     "Sources of Pet Damage \u00b7 Shiny OverLV (Shiny LVs above 20): 1.0xNeeds Menagerie Unlock 12 0 -> 680",
@@ -7628,8 +7553,8 @@
     "text": "Lab (Maestro Lab catch-up)",
     "src": "zack"
    },
-   "save_map": "W7 map 302",
-   "money": 5.60886214349325e+29,
+   "save_map": "W7 map 307",
+   "money": 5.614741194188266e+29,
    "jobs": [
     {
      "job": "Secret Class Path (Vman)",
@@ -7639,16 +7564,16 @@
      },
      "subs": [
       {
-       "name": "Secret Class Path: Autistotle is not best in 3 Right Hand Skills",
+       "name": "Secret Class Path: Autistotle is not best in 2 Right Hand Skills",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Secret Class Path",
-         "group": "Autistotle is not best in 3 Right Hand Skills",
-         "label": "Autistotle not best in Chopping",
-         "cur": "122",
-         "goal": "125",
+         "group": "Autistotle is not best in 2 Right Hand Skills",
+         "label": "Autistotle not best in Catching",
+         "cur": "100",
+         "goal": "137",
          "score": 62,
          "ready": false,
          "infinite": false
@@ -7656,25 +7581,25 @@
         {
          "locked": "",
          "section": "Secret Class Path",
-         "group": "Autistotle is not best in 3 Right Hand Skills",
-         "label": "Autistotle not best in Catching",
-         "cur": "100",
-         "goal": "137",
+         "group": "Autistotle is not best in 2 Right Hand Skills",
+         "label": "Autistotle not best in Worship",
+         "cur": "113",
+         "goal": "129",
          "score": 62,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 1
+       "more": 0
       },
       {
-       "name": "Secret Class Path: Your Maestro is the highest level in 3/6 Right Hand skills. Be careful ",
+       "name": "Secret Class Path: Your Maestro is the highest level in 4/6 Right Hand skills. Be careful ",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Secret Class Path",
-         "group": "Your Maestro is the highest level in 3/6 Right Hand skills. Be careful",
+         "group": "Your Maestro is the highest level in 4/6 Right Hand skills. Be careful",
          "label": "Autistomatic can level Mining",
          "cur": "137",
          "goal": "140",
@@ -7685,7 +7610,7 @@
         {
          "locked": "",
          "section": "Secret Class Path",
-         "group": "Your Maestro is the highest level in 3/6 Right Hand skills. Be careful",
+         "group": "Your Maestro is the highest level in 4/6 Right Hand skills. Be careful",
          "label": "Autistastic can level Mining",
          "cur": "89",
          "goal": "140",
@@ -7694,25 +7619,14 @@
          "infinite": false
         }
        ],
-       "more": 8
+       "more": 10
       }
      ],
      "next": [
       {
        "locked": "",
        "section": "Secret Class Path",
-       "group": "Autistotle is not best in 3 Right Hand Skills",
-       "label": "Autistotle not best in Chopping",
-       "cur": "122",
-       "goal": "125",
-       "score": 62,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Secret Class Path",
-       "group": "Autistotle is not best in 3 Right Hand Skills",
+       "group": "Autistotle is not best in 2 Right Hand Skills",
        "label": "Autistotle not best in Catching",
        "cur": "100",
        "goal": "137",
@@ -7723,11 +7637,22 @@
       {
        "locked": "",
        "section": "Secret Class Path",
-       "group": "Autistotle is not best in 3 Right Hand Skills",
+       "group": "Autistotle is not best in 2 Right Hand Skills",
        "label": "Autistotle not best in Worship",
        "cur": "113",
        "goal": "129",
        "score": 62,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Secret Class Path",
+       "group": "Your Maestro is the highest level in 4/6 Right Hand skills. Be careful",
+       "label": "Autistomatic can level Mining",
+       "cur": "137",
+       "goal": "140",
+       "score": 0,
        "ready": false,
        "infinite": false
       }
@@ -7745,11 +7670,12 @@
      "state": "no AutoReview section: plan from sources/Toolbox map (gap pipeline)",
      "maestro_behind": [
       "Smithing 111/115 (Autistastic)",
-      "Chopping 122/124 (Autistronaut)",
       "Alchemy 113/131 (Autistocat)",
       "Catching 100/136 (Autisticles)",
       "Worship 113/128 (Autistabish)",
-      "Gaming 243/244 (Autistastic)",
+      "Sailing 156/157 (Autiszemo)",
+      "Gaming 249/250 (Autistacular)",
+      "Farming 350/351 (Autiszemo)",
       "Spelunking 55/57 (Autistastic)"
      ]
     },
@@ -7898,7 +7824,7 @@
      "job": "Greenstacks",
      "basis": "light",
      "tiers": {
-      "Greenstacks": "178 out of max (realistic) 452",
+      "Greenstacks": "179 out of max (realistic) 452",
       "Endangered Greenstacks": "0/1"
      },
      "subs": [
@@ -7911,7 +7837,7 @@
          "section": "Greenstacks",
          "group": "Collect Greenstacks to complete Equinox Dreams",
          "label": "Collect 200 Greenstacks",
-         "cur": "178",
+         "cur": "179",
          "goal": "200",
          "score": 126,
          "ready": false,
@@ -8067,7 +7993,7 @@
          "section": "Greenstacks",
          "group": "Difficulty Group 7 Item recommendations",
          "label": "Frigid Soul",
-         "cur": "40%",
+         "cur": "34%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -8154,7 +8080,7 @@
          "section": "Greenstacks",
          "group": "Difficulty Group 10 Item recommendations",
          "label": "Void Bar",
-         "cur": "69%",
+         "cur": "63%",
          "goal": "100%",
          "score": 0,
          "ready": false,
@@ -8248,7 +8174,7 @@
          "infinite": false
         }
        ],
-       "more": 51
+       "more": 50
       },
       {
        "name": "Greenstacks: Difficulty Group 14 Item recommendations",
@@ -8345,7 +8271,7 @@
          "locked": "",
          "section": "Endangered Greenstacks",
          "group": "Still obtainable",
-         "label": "Time Thingy- Funguy: Partycrastination",
+         "label": "Ketchup Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce",
          "cur": "0%",
          "goal": "100%",
          "score": 126,
@@ -8356,7 +8282,7 @@
          "locked": "",
          "section": "Endangered Greenstacks",
          "group": "Still obtainable",
-         "label": "Strange Rock- Stiltzcho: No Stone Unturned",
+         "label": "Claiming Cashe- Goldric: Only Winners have Portraits",
          "cur": "0%",
          "goal": "100%",
          "score": 126,
@@ -8373,7 +8299,7 @@
        "section": "Greenstacks",
        "group": "Collect Greenstacks to complete Equinox Dreams",
        "label": "Collect 200 Greenstacks",
-       "cur": "178",
+       "cur": "179",
        "goal": "200",
        "score": 126,
        "ready": false,
@@ -8395,7 +8321,7 @@
        "section": "Greenstacks",
        "group": "Collect Greenstacks to complete Equinox Dreams",
        "label": "Collect 250 Greenstacks",
-       "cur": "178",
+       "cur": "179",
        "goal": "250",
        "score": 126,
        "ready": false,
@@ -8648,7 +8574,7 @@
          "infinite": false
         }
        ],
-       "more": 2
+       "more": 1
       },
       {
        "name": "Meritocracy: Meritocracy Bonuses",
@@ -8658,9 +8584,9 @@
          "locked": "",
          "section": "Meritocracy",
          "group": "Meritocracy Bonuses",
-         "label": "Multiplies how many Shiny Critters you get from Trapping by 5x",
+         "label": "Multiplies all Gaming Bits gained by 8x",
          "cur": "",
-         "goal": "49%",
+         "goal": "71%",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -8669,9 +8595,9 @@
          "locked": "",
          "section": "Meritocracy",
          "group": "Meritocracy Bonuses",
-         "label": "All of your Vials give 1.5x higher bonuses than normal",
+         "label": "Multiplies your chance to get Double Snail Mail each day by 2.5x",
          "cur": "",
-         "goal": "42%",
+         "goal": "7%",
          "score": 0,
          "ready": false,
          "infinite": false
@@ -8749,7 +8675,7 @@
    ],
    "flags": [],
    "move": {
-    "text": "Greenstacks: Collect 200 Greenstacks 178 -> 200",
+    "text": "Greenstacks: Collect 200 Greenstacks 179 -> 200",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
    "quick": [],
@@ -8826,12 +8752,12 @@
     "first": null,
     "priority": "Spelunking",
     "priority_jobs": [],
-    "rinse1": "Greenstacks: Collect 200 Greenstacks 178 -> 200 (score 126)",
+    "rinse1": "Greenstacks: Collect 200 Greenstacks 179 -> 200 (score 126)",
     "flag": ""
    },
    "today": [
     {
-     "do": "Greenstacks: Collect 200 Greenstacks 178 -> 200",
+     "do": "Greenstacks: Collect 200 Greenstacks 179 -> 200",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
     },
@@ -8868,7 +8794,7 @@
      "steps": [
       "Griffy: Every account should have at least one Void Walker.",
       "Griffy: Leave the eleventh character as a beginner until remaining masterclasses clarify the optimal duplicate.",
-      "Next goal: Autistotle not best in Chopping 122 -> 125",
+      "Next goal: Autistotle not best in Catching 100 -> 137",
       "Next goal: Autistomatic can level Mining 137 -> 140"
      ]
     },
@@ -8883,9 +8809,8 @@
      "block": "Research",
      "kind": "playbook",
      "steps": [
-      "Research is level 40, next level in 86% of the level left.",
+      "Research is level 40, next level in 9% of the level left.",
       "Level 50 unlocks Posty Note: adds another shape to your research grid.",
-      "Use today's 9 observation rolls (16 found).",
       "Griffy: Mass Research and Spelunking Research are good investments.",
       "Griffy: Game Design 101 and 102 are important missing upgrades.",
       "Next goal: Daily Operating Procedure (G3):Gives you +1 more operations to start every day a 1 -> 4",
@@ -8903,17 +8828,17 @@
       "Your call on the free exalt: Pulse says the vendor shop stamp, AutoReview says Summoner Stone.",
       "Greenstacks: Griffy: Depositing all statues can destroy stored greenstacks.",
       "Greenstacks: Griffy: Greenstacking every shiny in one week is unrealistic because one stack takes at least thirty hours.",
-      "Greenstacks: Next goal: Collect 200 Greenstacks 178 -> 200",
+      "Greenstacks: Next goal: Collect 200 Greenstacks 179 -> 200",
       "Greenstacks: Next goal: Potent Speed Potion (W4 Town) 64% -> 100%",
       "Greenstacks: Next goal: Potent Strength Potion (W4 Town) 63% -> 100%",
-      "Endangered Greenstacks: Next goal: Time Thingy- Funguy: Partycrastination 0% -> 100%"
+      "Endangered Greenstacks: Next goal: Ketchup Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce 0% -> 100%"
      ]
     },
     {
      "block": "Gem / Event shops + votes",
      "kind": "playbook",
      "steps": [
-      "This week's Ballot bonus: Boosts Artifact Find chance in Sailing by 1.31x (x2.04). Meritocracy: Multiplies your Monument Reward Multi by 4.40x (x1.7).",
+      "This week's Ballot bonus: Boosts Artifact Find chance in Sailing by 1.31x (x2.29). Meritocracy: Multiplies how many Shiny Critters you get from Trapping by 7.80x (x1.7).",
       "Gem Shop: Griffy: Free-to-play players should buy one Insta-Grow Generator if affordable.",
       "Gem Shop: Griffy: Farm bosses for daily boss gems as a free-to-play source of upgrade currency.",
       "Gem Shop: Next goal: Conjuror Pts (Caverns) 0 -> 1",
@@ -8928,7 +8853,7 @@
       "Bonus Ballot: Griffy: Players pursuing red or purple sigils should vote only for S tier options.",
       "Bonus Ballot: Next goal: Equinox: Voter Rights: +0/44% Ballot Bonus 0 -> 44",
       "Meritocracy: Griffy: Once sufficiently progressed in World 7 Meritocracy largely determines the week's activity priorities.",
-      "Meritocracy: Next goal: Multiplies how many Shiny Critters you get from Trapping by 5x  -> 49%"
+      "Meritocracy: Next goal: Multiplies all Gaming Bits gained by 8x  -> 71%"
      ]
     },
     {
@@ -8972,7 +8897,7 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 113, charge full in 22d 4h."
+      "Worship level 113, charge full in 21d 18h."
      ]
     },
     {
@@ -8984,10 +8909,10 @@
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Research - Divine Design (N4):Arctis nods in approval... all Research Grid bonuses are 1.0 0 -> 1",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Research - Glimbo Insider Trading Secrets (I4):+0/1% Drop Rate TRUE Multi per 100 Glimbo T 0 -> 1",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Tome - Drop Rate Multi: 1x Drop Rate MULTIRequires Singed Tome from the Event Shop 0 -> 1",
-    "Sources of Printer Output. Grand Total: 96.1 \u00b7 Event Shop: Supreme Wiring:1.00x (0/50 days) 0 -> 50",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Research - Divine Design (N4):Arctis nods in approval... all Research Grid bonuses are 1.0 0 -> 1",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Research - Glimbo Insider Trading Secrets (I4):+0/1% Drop Rate TRUE Multi per 100 Glimbo T 0 -> 1",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Tome - Drop Rate Multi: 1x Drop Rate MULTIRequires Singed Tome from the Event Shop 0 -> 1",
+    "Sources of Printer Output. Grand Total: 96.8 \u00b7 Event Shop: Supreme Wiring:1.00x (0/50 days) 0 -> 50",
     "Sources of daily Corals \u00b7 Event Shop - Coolral: Boosts daily gain for the Coral Reef in W7 by 1.30x 0 -> 1"
    ]
   },
@@ -9000,8 +8925,8 @@
     "text": "W7 Spelunking: furthest tunnel (RG perks help spelunking; Pulse: Pit of Pages works for RGs)",
     "src": "zack + Pulse 6JgdYbiEKus 24:00"
    },
-   "save_map": "W1 map 43",
-   "money": 6.106910492167419e+31,
+   "save_map": "W7 map 310",
+   "money": 6.10693052878034e+31,
    "jobs": [
     {
      "job": "Construction #2",
@@ -9100,7 +9025,7 @@
      "job": "Statues: DK crystals",
      "basis": "griffy",
      "tiers": {
-      "Statues": "10/11"
+      "Statues": "done"
      },
      "subs": [],
      "next": [],
@@ -9148,7 +9073,7 @@
          "locked": "",
          "section": "Spelunking",
          "group": "Cave Bonuses",
-         "label": "Chucklemire:Teal Summoning is now available, with new upgrades and opponents!",
+         "label": "Lunarheim:+30 Max LV for Cooking Meals! +1 Super Talent PTS! +2 Gallery Slots!",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -9159,7 +9084,7 @@
          "locked": "",
          "section": "Spelunking",
          "group": "Cave Bonuses",
-         "label": "Lunarheim:+30 Max LV for Cooking Meals! +1 Super Talent PTS! +2 Gallery Slots!",
+         "label": "Bizarrio:Sigils can be upgraded a 4th time to Ethereal! Each one also gives +0.2% Prisma Bubble Multi!",
          "cur": "0",
          "goal": "1",
          "score": 0,
@@ -9167,7 +9092,7 @@
          "infinite": false
         }
        ],
-       "more": 4
+       "more": 3
       },
       {
        "name": "Spelunking: tabbed",
@@ -9204,17 +9129,6 @@
        "locked": "",
        "section": "Spelunking",
        "group": "Cave Bonuses",
-       "label": "Chucklemire:Teal Summoning is now available, with new upgrades and opponents!",
-       "cur": "0",
-       "goal": "1",
-       "score": 0,
-       "ready": false,
-       "infinite": false
-      },
-      {
-       "locked": "",
-       "section": "Spelunking",
-       "group": "Cave Bonuses",
        "label": "Lunarheim:+30 Max LV for Cooking Meals! +1 Super Talent PTS! +2 Gallery Slots!",
        "cur": "0",
        "goal": "1",
@@ -9227,6 +9141,17 @@
        "section": "Spelunking",
        "group": "Cave Bonuses",
        "label": "Bizarrio:Sigils can be upgraded a 4th time to Ethereal! Each one also gives +0.2% Prisma Bubble Multi!",
+       "cur": "0",
+       "goal": "1",
+       "score": 0,
+       "ready": false,
+       "infinite": false
+      },
+      {
+       "locked": "",
+       "section": "Spelunking",
+       "group": "Cave Bonuses",
+       "label": "Glitter End:Get a brand new Shape for your Research Grid!",
        "cur": "0",
        "goal": "1",
        "score": 0,
@@ -9318,7 +9243,7 @@
    },
    "today": [
     {
-     "do": "BIGGEST NEED (Spelunking): Spelunking: Chucklemire:Teal Summoning is now available, with new upgrades and opponents! 0 -> 1",
+     "do": "BIGGEST NEED (Spelunking): Spelunking: Lunarheim:+30 Max LV for Cooking Meals! +1 Super Talent PTS! +2 Gallery Slots! 0 -> 1",
      "done": "1",
      "src": "priority.py (biggest current need)"
     },
@@ -9396,11 +9321,11 @@
      "block": "Spelunking",
      "kind": "playbook",
      "steps": [
-      "TOP: Spelunking is the biggest thing holding the account back. The next caves unlock: Teal Summoning is now available, with new upgrades and oppon; +30 Max LV for Cooking Meals; Sigils can be upgraded a 4th time to Ethereal; Get a brand new Shape for your Research Grid.",
-      "Amber buys in sourced order (you have 3.7T amber): Discovering the POW 160 -> 161: 30.8M amber (can buy). Griffy (Apr 2026): POW upgrades first; Toolbox optimizer top POW buy | Amber on the Brain 109 -> 110: 949K amber (can buy). Griffy: useful early upgrade | Stamina Resurgence 35 -> 36: 990M amber (can buy). Pulse (Sep 7): max the stamina column fast | Big Time Stamina 25 -> 26: 2.4B amber (can buy). Pulse (Sep 7): max the stamina column fast",
+      "TOP: Spelunking is the biggest thing holding the account back. The next caves unlock: +30 Max LV for Cooking Meals; Sigils can be upgraded a 4th time to Ethereal; Get a brand new Shape for your Research Grid; Palette Colours now give 1.50x bonuses, and Palette Luck is .",
+      "Amber buys in sourced order (you have 265B amber): Discovering the POW 192 -> 193: 1B amber (can buy). Griffy (Apr 2026): POW upgrades first; Toolbox optimizer top POW buy | Amber on the Brain 172 -> 173: 1B amber (can buy). Griffy: useful early upgrade | Stamina Resurgence 36 -> 37: 1.9B amber (can buy). Pulse (Sep 7): max the stamina column fast | Big Time Stamina 25 -> 26: 2.4B amber (can buy). Pulse (Sep 7): max the stamina column fast",
       "Griffy: Work on older upgrades while waiting for spelunking stamina and other World Seven time gates.",
       "Griffy: With ample stamina run the first spelunking map deeply using stamina potions and rotate three-character groups for snail mail.",
-      "Next goal: Chucklemire:Teal Summoning is now available, with new upgrades and opponents! 0 -> 1",
+      "Next goal: Lunarheim:+30 Max LV for Cooking Meals! +1 Super Talent PTS! +2 Gallery Slots! 0 -> 1",
       "Next goal: Level 85 7.8% -> 100%"
      ]
     },
@@ -9449,12 +9374,12 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 87, charge full in 16d 22h."
+      "Worship level 87, charge full in 16d 12h."
      ]
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Spelunking - Golden Hardhat:+0/500% Drop Rate. For all characters, all the time, except fo 0 -> 500",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Spelunking - Golden Hardhat:+0/500% Drop Rate. For all characters, all the time, except fo 0 -> 500",
     "Remaining sources of max plate levels \u00b7 Spelunking:Defeat the Boss of the Lunarheim Cave 0 -> 1"
    ]
   },
@@ -9573,7 +9498,7 @@
          "section": "Cards",
          "group": "Easy Resources: Collect 13 more cards for Majestic (78/91)",
          "label": "Fire Forge:+20/28% Smithing EXP (Passive)",
-         "cur": "3,657",
+         "cur": "3,654",
          "goal": "Ruby",
          "score": 0,
          "ready": false,
@@ -9652,13 +9577,13 @@
        "more": 2
       },
       {
-       "name": "Cards: Hard Resources: Collect 26 more cards for Gold (118/144)",
+       "name": "Cards: Hard Resources: Collect 24 more cards for Gold (120/144)",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Cards",
-         "group": "Hard Resources: Collect 26 more cards for Gold (118/144)",
+         "group": "Hard Resources: Collect 24 more cards for Gold (120/144)",
          "label": "Oozie Soul:+10/70% Max Charge",
          "cur": "4",
          "goal": "Bronze",
@@ -9669,7 +9594,7 @@
         {
          "locked": "",
          "section": "Cards",
-         "group": "Hard Resources: Collect 26 more cards for Gold (118/144)",
+         "group": "Hard Resources: Collect 24 more cards for Gold (120/144)",
          "label": "Squishy Soul:+15/35% Charge Rate",
          "cur": "10",
          "goal": "Gold",
@@ -9678,7 +9603,7 @@
          "infinite": false
         }
        ],
-       "more": 26
+       "more": 27
       },
       {
        "name": "Cards: Hyperion Nebula: Collect 3 more cards for Ruby (81/84)",
@@ -9826,13 +9751,13 @@
        "more": 12
       },
       {
-       "name": "Cards: Bosses n Nightmares: Collect 18 more cards for Ruby (156/174)",
+       "name": "Cards: Bosses n Nightmares: Collect 17 more cards for Ruby (157/174)",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Cards",
-         "group": "Bosses n Nightmares: Collect 18 more cards for Ruby (156/174)",
+         "group": "Bosses n Nightmares: Collect 17 more cards for Ruby (157/174)",
          "label": "Domeo Magmus:+4.5/10.5% Total Drop Rate (Passive)",
          "cur": "14",
          "goal": "Gold",
@@ -9843,16 +9768,16 @@
         {
          "locked": "",
          "section": "Cards",
-         "group": "Bosses n Nightmares: Collect 18 more cards for Ruby (156/174)",
+         "group": "Bosses n Nightmares: Collect 17 more cards for Ruby (157/174)",
          "label": "Sovereign Emperor:+60/140% Multikill per tier",
-         "cur": "37",
+         "cur": "36",
          "goal": "Gold",
          "score": 0,
          "ready": false,
          "infinite": false
         }
        ],
-       "more": 21
+       "more": 22
       },
       {
        "name": "Cards: Events: Collect 8 more cards for Bronze (44/52)",
@@ -10189,17 +10114,17 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 84, charge full in 9d 18h.",
+      "Worship level 84, charge full in 9d 7h.",
       "Charges much faster than the rest, probably from mage worship talents (my read)."
      ]
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Bosses n Nightmares- Domeo Magmus card:+4.5/10.5% Total Drop Rate (Passive) 3 -> 7",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Smolderin' Plateau- Ancient Golem card:+12/28% Total Drop Rate (Passive) 3 -> 7",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Smolderin' Plateau- Crystal Glunko card:+0/42% Total Drop Rate (Passive) 0 -> 7",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Events- IdleOn 4th Anniversary card:+0/14% Drop Rate (Passive) 0 -> 7",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Events- Luckulyte card:+0/21% Drop Rate (Passive) 0 -> 7",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Bosses n Nightmares- Domeo Magmus card:+4.5/10.5% Total Drop Rate (Passive) 3 -> 7",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Smolderin' Plateau- Ancient Golem card:+12/28% Total Drop Rate (Passive) 3 -> 7",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Smolderin' Plateau- Crystal Glunko card:+0/42% Total Drop Rate (Passive) 0 -> 7",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Events- IdleOn 4th Anniversary card:+0/14% Drop Rate (Passive) 0 -> 7",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Events- Luckulyte card:+0/21% Drop Rate (Passive) 0 -> 7",
     "Sources of Card Drop Chance \u00b7 Guild Bonus - C2 Card Spotter:+15.9% Card Drop Rate 18 -> 50",
     "Sources of Card Drop Chance \u00b7 Events- Egggulyte card:+0/7% Card Drop Chance 0 -> 7",
     "Sources of Forge Ore Capacity \u00b7 Hard Resources- Godshard Ore card:+150/210% Forge Cap and SPD (Passive) 5 -> 7",
@@ -10212,14 +10137,14 @@
    "slot": 10,
    "name": "Autistopher",
    "class": "Death Bringer",
-   "level": 871,
+   "level": 896,
    "afk": {
     "text": "His own Super CHOWs (100M)",
     "src": "griffy",
     "park_rule": "Super CHOWs with Autistopher"
    },
-   "save_map": "W7 map 312",
-   "money": 1.6275297501246027e+32,
+   "save_map": "W7 map 304",
+   "money": 4.69045350989246e+31,
    "jobs": [
     {
      "job": "Super CHOWs (cooking speed 1.1x each, count only on him)",
@@ -10258,13 +10183,13 @@
        "more": 19
       },
       {
-       "name": "Death Note: Complete 5 more Super CHOWs with Autistopher (21/26)",
+       "name": "Death Note: Complete 4 more Super CHOWs with Autistopher (22/26)",
        "state": "open",
        "items": [
         {
          "locked": "",
          "section": "Death Note",
-         "group": "Complete 5 more Super CHOWs with Autistopher (21/26)",
+         "group": "Complete 4 more Super CHOWs with Autistopher (22/26)",
          "label": "Red Mushroom in Birch Enclave (100M remaining)",
          "cur": "0%",
          "goal": "100%",
@@ -10275,7 +10200,7 @@
         {
          "locked": "",
          "section": "Death Note",
-         "group": "Complete 5 more Super CHOWs with Autistopher (21/26)",
+         "group": "Complete 4 more Super CHOWs with Autistopher (22/26)",
          "label": "Baby Boa in Winding Willows (100M remaining)",
          "cur": "0%",
          "goal": "100%",
@@ -10284,7 +10209,7 @@
          "infinite": false
         }
        ],
-       "more": 87
+       "more": 86
       },
       {
        "name": "Death Note: Complete 69 more WOWs with Autistopher (11/80)",
@@ -10349,7 +10274,7 @@
       {
        "locked": "",
        "section": "Death Note",
-       "group": "Complete 5 more Super CHOWs with Autistopher (21/26)",
+       "group": "Complete 4 more Super CHOWs with Autistopher (22/26)",
        "label": "Red Mushroom in Birch Enclave (100M remaining)",
        "cur": "0%",
        "goal": "100%",
@@ -10360,7 +10285,7 @@
       {
        "locked": "",
        "section": "Death Note",
-       "group": "Complete 5 more Super CHOWs with Autistopher (21/26)",
+       "group": "Complete 4 more Super CHOWs with Autistopher (22/26)",
        "label": "Baby Boa in Winding Willows (100M remaining)",
        "cur": "0%",
        "goal": "100%",
@@ -10371,7 +10296,7 @@
       {
        "locked": "",
        "section": "Death Note",
-       "group": "Complete 5 more Super CHOWs with Autistopher (21/26)",
+       "group": "Complete 4 more Super CHOWs with Autistopher (22/26)",
        "label": "Glublin in Forest Outskirts (100M remaining)",
        "cur": "0%",
        "goal": "100%",
@@ -10597,7 +10522,7 @@
          "label": "Wicked Smart: +1,099% Class EXP Gain. Leveling up gives you Talent Pts!(3.1 per level after Vault Mastery 1)",
          "cur": "359",
          "goal": "387",
-         "score": 0,
+         "score": 129,
          "ready": false,
          "infinite": false
         },
@@ -10608,7 +10533,7 @@
          "label": "Bullseye: +733 Accuracy. Useful when you start missing! (1.5 per level after Vault Mastery 1)",
          "cur": "479",
          "goal": "500",
-         "score": 0,
+         "score": 129,
          "ready": false,
          "infinite": false
         }
@@ -10626,7 +10551,7 @@
          "label": "Wicked Smart: +1,099% Class EXP Gain. Leveling up gives you Talent Pts!(3.1 per level after Vault Mastery 1)",
          "cur": "359",
          "goal": "570",
-         "score": 0,
+         "score": 129,
          "ready": false,
          "infinite": false
         },
@@ -10637,7 +10562,7 @@
          "label": "Bullseye: +733 Accuracy. Useful when you start missing! (1.5 per level after Vault Mastery 1)",
          "cur": "479",
          "goal": "500",
-         "score": 0,
+         "score": 129,
          "ready": false,
          "infinite": false
         }
@@ -10653,7 +10578,7 @@
        "label": "Wicked Smart: +1,099% Class EXP Gain. Leveling up gives you Talent Pts!(3.1 per level after Vault Mastery 1)",
        "cur": "359",
        "goal": "387",
-       "score": 0,
+       "score": 129,
        "ready": false,
        "infinite": false
       },
@@ -10664,7 +10589,7 @@
        "label": "Bullseye: +733 Accuracy. Useful when you start missing! (1.5 per level after Vault Mastery 1)",
        "cur": "479",
        "goal": "500",
-       "score": 0,
+       "score": 129,
        "ready": false,
        "infinite": false
       },
@@ -10675,7 +10600,7 @@
        "label": "Kitchen Dream-mare: 28.00x meal cooking speed Go on lad, turn that kitchen around!(9 per level after Vault Mastery 2)",
        "cur": "300",
        "goal": "327",
-       "score": 0,
+       "score": 129,
        "ready": false,
        "infinite": false
       }
@@ -11201,9 +11126,7 @@
     "text": "Stamps: Total Stamp Levels 9897 -> 11000",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
-   "quick": [
-    "READY (Toolbox): Library 71 books \u00b7 books ready: max-first talents per card"
-   ],
+   "quick": [],
    "active": [
     {
      "id": "achievements",
@@ -11260,8 +11183,8 @@
     "Loot Luggage: 1 slots (Vendor)"
    ],
    "park": {
-    "text": "W5 The Great Molehill (Stiltmole) \u00b7 58M kills left, 42% done \u00b7 fewest kills left, fastest respawn (45.0s)",
-    "src": "data rule (Zack-approved) on AutoReview Death Note"
+    "text": "His own Super CHOWs (100M)",
+    "src": "griffy"
    },
    "toward": {
     "first": null,
@@ -11271,11 +11194,6 @@
     "flag": ""
    },
    "today": [
-    {
-     "do": "Library: 71 books",
-     "done": "claimed / restarted",
-     "src": "Toolbox timer \u00b7 books ready: max-first talents per card"
-    },
     {
      "do": "Stamps: Total Stamp Levels 9897 -> 11000",
      "done": "goal reached or next step",
@@ -11296,17 +11214,10 @@
      ]
     },
     {
-     "block": "Timers ready (Toolbox)",
-     "kind": "timer",
-     "steps": [
-      "Library: 71 books"
-     ]
-    },
-    {
      "block": "Super CHOWs (cooking speed 1.1x each, count only on him)",
      "kind": "playbook",
      "steps": [
-      "TOP (Death Note tier 16/23 -> next): AutoReview: Complete 5 more Super CHOWs with Autistopher (21/26). Next: Red Mushroom in Birch Enclave (100M remaining), Baby Boa in Winding Willows (100M remaining), Glublin in Forest Outskirts (100M remaining), Wode Board in Encroaching Forest Villa (100M remaining), Wood Mushroom in Where the Branches End (100M remaining), Slime in Jungle Perimeter (100M remaining)...",
+      "TOP (Death Note tier 16/23 -> next): AutoReview: Complete 4 more Super CHOWs with Autistopher (22/26). Next: Red Mushroom in Birch Enclave (100M remaining), Baby Boa in Winding Willows (100M remaining), Glublin in Forest Outskirts (100M remaining), Wode Board in Encroaching Forest Villa (100M remaining), Wood Mushroom in Where the Branches End (100M remaining), Slime in Jungle Perimeter (100M remaining)...",
       "AutoReview: All kills for Autistopher without a filter. Have fun. Next: Rift Monsters in The Rift, Nutto in The Roots, Poops in The Office, Boops in Meel's Crypt, Green Mushroom in Mummy Memorial, Dedotated Ram in Equinox Valley...",
       "Griffy: Continue building Death Note.",
       "Griffy: World 1 Eclipse Skulls would strongly help Blood Berserker progression.",
@@ -11320,7 +11231,7 @@
      "kind": "playbook",
      "steps": [
       "Raise the max level on Ladle, Bugsack, Bag o Heads, you have the materials.",
-      "Max-level raises still short: Multitool (24.7B more Dust Mote), Potion (750 more Icing Ironbite), Mason Jar (8.56K more Glass Shard), Matty Bag (200 more Cramped Material Pouch).",
+      "Max-level raises still short: Multitool (24.7B more Dust Mote), Potion (750 more Icing Ironbite), Mason Jar (8.07K more Glass Shard), Matty Bag (200 more Cramped Material Pouch).",
       "If a stamp material is also used by another system, the card flags it. The Envelope Pile sigil makes max-level raises a lot cheaper.",
       "Griffy: Capitalist Stamp is a rare drop from World 6 monsters.",
       "Griffy: Farm Sand Castle materials rapidly on Elemental Sorcerer or print them for stamp upgrades.",
@@ -11335,13 +11246,13 @@
      "block": "Upgrade Vault",
      "kind": "playbook",
      "steps": [
-      "Buy Wicked Smart first: 359 -> 387. Autistopher has the coins for about 21 levels.",
+      "Buy Wicked Smart first: 359 -> 387. Autiszemo has the coins for about 28 levels.",
       "Then Bullseye 479 -> 500.",
       "Then Kitchen Dream-mare 300 -> 327.",
       "Then Teh TOM 242 -> 261.",
       "Then Cooking Knowledge 353 -> 428.",
       "Then Artifact Find Chance 237 -> 250.",
-      "Buy on Autistopher, he has the most coins. Each level count assumes all his coins go to that one upgrade.",
+      "Buy on Autiszemo, he has the most coins. Each level count assumes all his coins go to that one upgrade.",
       "Griffy: Additional money is valuable for vault progression.",
       "Griffy: Use the vault route to teleport to Doggy.",
       "Next goal: Wicked Smart 359 -> 387",
@@ -11352,10 +11263,10 @@
      "block": "Equinox",
      "kind": "playbook",
      "steps": [
-      "TOP: spend the Equinox bar (it is full). It refills in about 71 minutes, so spend it every time you're on.",
+      "TOP: spend the Equinox bar. It refills in about 75 minutes, so spend it every time you're on.",
       "Faster bar: Defeat the Caustic Glaciaxus (0 / 1) gives +25% fill; Get 2000 kills in a single Killroy run (1296 / 2000) gives +35% fill.",
       "Locked: Equinox Symbols, Voter Rights, Nonstop Studies, Hmm... (unlocks: Dream 29; Dream 32; Nightmare 1 (unlock with Research: Equinox Nightmares)).",
-      "AutoReview wants: Metal Detector 0 -> 20, Slow Roast Wiz 6 -> 25, Faux Jewels 0 -> 35, Matching Scims 15 -> 57, Laboratory Fuse 0 -> 10, Food Lust 0 -> 28.",
+      "AutoReview wants: Metal Detector 0 -> 20, Slow Roast Wiz 6 -> 25, Faux Jewels 0 -> 35, Matching Scims 17 -> 57, Laboratory Fuse 0 -> 10, Food Lust 0 -> 28.",
       "Griffy: Farm Bloodbones with damage and drop-rate bonuses after pushing there for Equinox.",
       "Griffy: Slow Roast Wiz is important for high tower-defense progression.",
       "Next goal: Complete all 76 possible Dreams 21 -> 76",
@@ -11368,7 +11279,7 @@
      "block": "Salt Lick",
      "kind": "playbook",
      "steps": [
-      "TOP: buy Salt Lick levels: Refinery Speed +3, Total Damage dealt. +17, Cooking Mastery EXP gain, a feature unlo +4.",
+      "TOP: buy Salt Lick levels: Total Damage dealt. +10, Cooking Mastery EXP gain, a feature unlo +4.",
       "Still to max: Refinery Speed 76/100, Total Damage dealt. 178/250, Cooking Mastery EXP gain, a feature unlo 35/100.",
       "Griffy: Prioritize Salt Lick upgrades over the library building here.",
       "Griffy: Upgrade red salts first; limit explosive and blue and green salts levels; aim for perpetual motion",
@@ -11409,7 +11320,7 @@
      "block": "Tome (account-wide)",
      "kind": "playbook",
      "steps": [
-      "Tome is at 35,555 points, 2,263 short of the next bracket. Every other card raises it."
+      "Tome is at 35,837 points, 1,981 short of the next bracket. Every other card raises it."
      ]
     },
     {
@@ -11438,7 +11349,7 @@
      "block": "Every character: Combat level",
      "kind": "every",
      "steps": [
-      "Combat Lv 871"
+      "Combat Lv 896"
      ]
     },
     {
@@ -11460,7 +11371,7 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 74, charge full in 16d 22h."
+      "Worship level 74, charge full in 16d 12h."
      ]
     },
     {
@@ -11474,11 +11385,11 @@
    "buffs_missing": [
     "Sources of Crystal Spawn Chance \u00b7 Stamps - Crystallin: +188% Spawn Chance 180 -> 270",
     "Sources of Crystal Spawn Chance \u00b7 Level 185/313 booked Cmon Out Crystals talent (Jman only) 185 -> 313",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Owl - Drop Rate:+825% Drop Rate 10 -> \u221e",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Stamps - Golden Sixes Stamp: +26.5% Drop RateNote: Can be increased by Exalting the stamp 90 -> 210",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Equinox: Faux Jewels: +0/175% Drop Rate 0 -> 35",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Grey Tome Book: 1.50x higher bonuses from the Tome(1 per level: Not scaled by Writhing  50 -> 150",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Equinox - Nightmare 34: 1/1.05x Drop Rate MULTI 0 -> 1",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Owl - Drop Rate:+825% Drop Rate 10 -> \u221e",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Stamps - Golden Sixes Stamp: +26.5% Drop RateNote: Can be increased by Exalting the stamp 90 -> 210",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Equinox: Faux Jewels: +0/175% Drop Rate 0 -> 35",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Grey Tome Book: 1.50x higher bonuses from the Tome(1 per level: Not scaled by Writhing  50 -> 150",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Equinox - Nightmare 34: 1/1.05x Drop Rate MULTI 0 -> 1",
     "Sources of Card Drop Chance \u00b7 Stamps - Card Stamp: +250% Card Drop Rate 250 -> 330",
     "Sources of Carry Capacity \u00b7 Lil' Mining Baggy Stamp: +550 Mining Carry Cap 220 -> 310",
     "Sources of Carry Capacity \u00b7 Choppin' Bag Stamp: +1199 Choppin Carry Cap 220 -> 330",
@@ -11504,13 +11415,13 @@
    "slot": 11,
    "name": "Autistachio",
    "class": "Beginner",
-   "level": 801,
+   "level": 802,
    "afk": {
     "text": "Divinity (Divinity slippers)",
     "src": "zack"
    },
    "save_map": "W7 map 306",
-   "money": 2.1739700421210953e+24,
+   "money": 4.6173586626052e+24,
    "jobs": [
     {
      "job": "Divinity to 40",
@@ -11585,7 +11496,7 @@
          "locked": "",
          "section": "Gallery",
          "group": "Gallery Showcase",
-         "label": "Riftwalker Nametag70.5% Xp From MonstersLevel Multi: 1x",
+         "label": "Riftwalker Nametag78% Xp From MonstersLevel Multi: 1x",
          "cur": "1",
          "goal": "5",
          "score": 0,
@@ -11596,7 +11507,7 @@
          "locked": "",
          "section": "Gallery",
          "group": "Gallery Showcase",
-         "label": "Vman Nametag14.1% Multikill Per TierLevel Multi: 1x",
+         "label": "Vman Nametag15.6% Multikill Per TierLevel Multi: 1x",
          "cur": "1",
          "goal": "5",
          "score": 0,
@@ -11673,7 +11584,7 @@
          "section": "Cape Vine",
          "group": "Golden Vines",
          "label": "Golden Vines: 1Ask Cathie for the next one at class Lv 1000",
-         "cur": "902",
+         "cur": "927",
          "goal": "1000",
          "score": 0,
          "ready": false,
@@ -11803,7 +11714,7 @@
          "section": "Coral Reef",
          "group": "Sources of daily Corals",
          "label": "Clam Work: +0% Daily Corals past level 5",
-         "cur": "1",
+         "cur": "2",
          "goal": "6",
          "score": 0,
          "ready": false,
@@ -11900,11 +11811,7 @@
     "text": "Gallery + capes: King of Food20% Food Effect 0 -> 1",
     "src": "rinse (Griffy-weighted AutoReview)"
    },
-   "quick": [
-    "READY (Toolbox): Bravery monument 21.82x / 21.12x \u00b7 Ready \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)",
-    "READY (Toolbox): Justice monument 21.83x / 21.12x \u00b7 Ready \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)",
-    "READY (Toolbox): Wisdom monument 21.83x / 21.12x \u00b7 Ready \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)"
-   ],
+   "quick": [],
    "active": [
     {
      "id": "green_mush",
@@ -11935,21 +11842,6 @@
    },
    "today": [
     {
-     "do": "Bravery monument: 21.82x / 21.12x \u00b7 Ready",
-     "done": "claimed / restarted",
-     "src": "Toolbox timer \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)"
-    },
-    {
-     "do": "Justice monument: 21.83x / 21.12x \u00b7 Ready",
-     "done": "claimed / restarted",
-     "src": "Toolbox timer \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)"
-    },
-    {
-     "do": "Wisdom monument: 21.83x / 21.12x \u00b7 Ready",
-     "done": "claimed / restarted",
-     "src": "Toolbox timer \u00b7 Pulse: max the reward multi before fighting (Blinding Lanterns)"
-    },
-    {
      "do": "Gallery + capes: King of Food20% Food Effect 0 -> 1",
      "done": "goal reached or next step",
      "src": "rinse (Griffy-weighted AutoReview)"
@@ -11966,15 +11858,6 @@
      "kind": "every",
      "steps": [
       "Cards: presets 3 not built to plan yet (card build session)."
-     ]
-    },
-    {
-     "block": "Timers ready (Toolbox)",
-     "kind": "timer",
-     "steps": [
-      "Bravery monument: 21.82x / 21.12x \u00b7 Ready",
-      "Justice monument: 21.83x / 21.12x \u00b7 Ready",
-      "Wisdom monument: 21.83x / 21.12x \u00b7 Ready"
      ]
     },
     {
@@ -11998,17 +11881,17 @@
      "block": "Gallery + capes",
      "kind": "playbook",
      "steps": [
-      "Gallery 13 podiums, bonus 1.31x. Nametags owned 14 (missing ones + sources in acquire.md).",
+      "Gallery 15 podiums, bonus 1.46x. Nametags owned 14 (missing ones + sources in acquire.md).",
       "AutoReview (tier ): King of Food20% Food Effect 0->1; Dice Dynamo2% Luk 0->1; Ultra Unboxer3% Drop Rate 0->1; Megalodon15% Crit Chance10% Total Damage 0->1",
       "Gallery: Griffy: Prioritize Luckiest Lad and Heroic Spirit and Darter Trophy.",
       "Gallery: Pulse: Nine dart finish is within striking distance; grind it as it gets easier after a day or two and is easier than baller",
       "Gallery: Next goal: King of Food20% Food Effect 0 -> 1",
-      "Gallery: Next goal: Riftwalker Nametag70.5% Xp From MonstersLevel Multi: 1x 1 -> 5",
+      "Gallery: Next goal: Riftwalker Nametag78% Xp From MonstersLevel Multi: 1x 1 -> 5",
       "Cape Vine: Pulse: You get one golden vine instantly and can unlock more by asking Catherine via the Ask Cathy button in the top left",
       "Cape Vine: Pulse: Reaching class level 1000 earns a golden vine",
       "Cape Vine: Next goal: Easter Egg Backpack+10% Total DamageNot deposited 0 -> 1",
       "Cape Vine: Next goal: +1% Cape Vine Multi per deposited cape: +15% 15 -> 23",
-      "Cape Vine: Next goal: Golden Vines: 1Ask Cathie for the next one at class Lv 1000 902 -> 1000",
+      "Cape Vine: Next goal: Golden Vines: 1Ask Cathie for the next one at class Lv 1000 927 -> 1000",
       "Cape Vine:   HOW: You get one golden vine instantly and can unlock more by asking Catherine via the Ask Cathy button in the top left",
       "Cape Vine:   HOW: Reaching class level 1000 earns a golden vine",
       "15 / 23 capes on the vine. The next golden vine comes at class level 1000."
@@ -12018,8 +11901,8 @@
      "block": "W7 reef",
      "kind": "playbook",
      "steps": [
-      "TOP: spend coral on all 4 Reef upgrades (1,088 of your 856).",
-      "Dancing Coral bonuses start when Woodular Shrine reaches 201 (now 216) and Isaccian Shrine reaches 201 (now 190) and Crystal Shrine reaches 201 (now 100) and Pantheon Shrine reaches 201 (now 100) and Clover Shrine reaches 201 (now 100) and Summereading Shrine reaches 201 (now 100) and Crescent Shrine reaches 201 (now 102) and Undead Shrine reaches 201 (now 72) and Primordial Shrine reaches 201 (now 70). Autistastic levels the shrines.",
+      "TOP: spend coral on all 1 Reef upgrades (10 of your 223).",
+      "Dancing Coral bonuses start when Woodular Shrine reaches 201 (now 220) and Isaccian Shrine reaches 201 (now 199) and Crystal Shrine reaches 201 (now 187) and Pantheon Shrine reaches 201 (now 100) and Clover Shrine reaches 201 (now 100) and Summereading Shrine reaches 201 (now 100) and Crescent Shrine reaches 201 (now 102) and Undead Shrine reaches 201 (now 72) and Primordial Shrine reaches 201 (now 70). Autistastic levels the shrines.",
       "Coral Reef: Pulse: End gamers sweat Divinity week because of talent levels, class EXP and coral income downstream",
       "Coral Reef: Griffy: Low coral generation limits further related progression.",
       "Coral Reef: Next goal: Unlock Carnation Coral: Instantly gives Shells for the Luminous Menagerie! 0 -> 13",
@@ -12040,7 +11923,7 @@
      "block": "Every character: Combat level",
      "kind": "every",
      "steps": [
-      "Combat Lv 801"
+      "Combat Lv 802"
      ]
     },
     {
@@ -12065,7 +11948,7 @@
      "block": "Every character: Worship",
      "kind": "every",
      "steps": [
-      "Worship level 70, charge full in 17d 1h.",
+      "Worship level 70, charge full in 16d 15h.",
       "Lowest worship level on the account, sit at a totem for a few hours to catch up (my read)."
      ]
     },
@@ -12078,45 +11961,40 @@
     }
    ],
    "buffs_missing": [
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Cape Vine - Lovely Balloon+250% Drop RateNot deposited 0 -> 1",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Gallery - Deadbones Nametag25% Drop Rate Multi35% Drop Rate 0 -> 5",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Gallery - Treasure Nametag25% Drop Rate 0 -> 5",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Gallery - Aethermoon Nametag14.1% Drop RateLevel Multi: 1x 1 -> 5",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Gallery - 3rd Anniversary IdleOn Nametag3% Drop Rate 0 -> 5",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Cape Vine - Lovely Balloon+250% Drop RateNot deposited 0 -> 1",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Gallery - Deadbones Nametag25% Drop Rate Multi35% Drop Rate 0 -> 5",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Gallery - Treasure Nametag25% Drop Rate 0 -> 5",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Gallery - Aethermoon Nametag15.6% Drop RateLevel Multi: 1x 1 -> 5",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Gallery - 3rd Anniversary IdleOn Nametag3% Drop Rate 0 -> 5",
     "Sources of daily Corals \u00b7 You now generate 0% more Daily Coral for the Coral Reef back in W7 town! 0 -> \u221e",
-    "Sources of daily Corals \u00b7 Clam Work: +0% Daily Corals past level 5 1 -> 6",
+    "Sources of daily Corals \u00b7 Clam Work: +0% Daily Corals past level 5 2 -> 6",
     "Sources of daily Corals \u00b7 Killroy - Daily Coral: Permanently boosts daily coral gain by +0%0 purchase 0% -> 100%"
    ]
   }
  ],
  "account": {
   "money": {
-   "total": 1.3319845195892447e+33,
-   "bank": 1.0189117923797502e+33,
+   "total": 2.4350095293059284e+33,
+   "bank": 1.61548245006472e+33,
    "per_char": {
-    "Autiszemo": 2.2049390056648562e+30,
-    "Autistocat": 3.7728643747463665e+28,
-    "Autisticles": 5.985815464952412e+31,
-    "Autistastic": 5.736669110959857e+22,
+    "Autiszemo": 6.24503258834054e+32,
+    "Autistocat": 3.980096135205792e+28,
+    "Autisticles": 5.98581546495241e+31,
+    "Autistastic": 5.73666911095986e+22,
     "Autistabish": 0,
-    "Autistacular": 2.6588936530737506e+31,
-    "Autistotle": 5.60886214349325e+29,
-    "Autistomatic": 6.106910492167419e+31,
+    "Autistacular": 2.6590545615406046e+31,
+    "Autistotle": 5.614741194188266e+29,
+    "Autistomatic": 6.10693052878034e+31,
     "Autistronaut": 0,
-    "Autistopher": 1.6275297501246027e+32,
-    "Autistachio": 2.1739700421210953e+24
+    "Autistopher": 4.69045350989246e+31,
+    "Autistachio": 4.6173586626052e+24
    },
-   "holder": "Autistopher"
+   "holder": "Autiszemo"
   },
   "alerts": [
    {
     "name": "Next free companion (Claim)",
     "owner": "anyone",
-    "hits": []
-   },
-   {
-    "name": "Angry Frogs (Valley Of The Beans \u00b7 34m 11s)",
-    "owner": "unrouted",
     "hits": []
    },
    {
@@ -12132,36 +12010,9 @@
     "hits": [
      "minigame restart"
     ]
-   },
-   {
-    "name": "Equinox bar full (Full)",
-    "owner": "anyone",
-    "hits": [
-     "spend the Equinox point"
-    ]
-   },
-   {
-    "name": "Engineer level up (Ready to level)",
-    "owner": "unrouted",
-    "hits": []
-   },
-   {
-    "name": "Bonuses level up (Ready to level)",
-    "owner": "unrouted",
-    "hits": []
-   },
-   {
-    "name": "Measure level up (Ready to level)",
-    "owner": "unrouted",
-    "hits": []
-   },
-   {
-    "name": "Studies level up (Ready to level)",
-    "owner": "unrouted",
-    "hits": []
    }
   ],
-  "timers_captured": "2026-11-26T13:25:48.667Z",
+  "timers_captured": "2026-11-26T23:32:40.672Z",
   "salts": [
    "Rank 38 Red Salt: excess",
    "Rank 28 Orange Salt: excess",
@@ -12223,7 +12074,7 @@
      "target": 100,
      "coins": 5881240195196,
      "material": "Golden Nomwich",
-     "owned": 289300,
+     "owned": 328364,
      "next_raise": 445773.00044028956,
      "total_mat": 10506509.91819525
     },
@@ -12245,7 +12096,7 @@
      "target": 160,
      "coins": 24988946111202,
      "material": "Glass Shard",
-     "owned": 8873,
+     "owned": 9365,
      "next_raise": 17436.762333716375,
      "total_mat": 164182044.07647136
     },
@@ -12283,142 +12134,131 @@
      "total_mat": 183679.3107411254
     }
    ],
-   "stamp": "20261126T1304",
-   "vs": "20261125T2340",
-   "hours": 13.393067777752876,
+   "stamp": "20261126T2330",
+   "vs": "20261126T1304",
+   "hours": 10.42985527780321,
    "watch": [
     {
      "item": "Tangled Cords",
-     "owned": 1823066,
-     "rate_hr": 120418.71412604736,
+     "owned": 2558787,
+     "rate_hr": 70539.90495589709,
      "owner": "Autistocat",
      "why": "Dream of Ironfish 68 -> 70 (exact cost: check bubble cost)"
     },
     {
      "item": "Void Bar",
-     "owned": 6902830,
-     "rate_hr": 52030.64835955899,
+     "owned": 6337628,
+     "rate_hr": -54190.78069116274,
      "owner": "Autistastic",
-     "why": "ran out before (Zack); construction/printer use"
+     "why": "ran out before (Zack); construction/printer use",
+     "runout_days": 4.8729291212517385
     },
     {
      "item": "Copper Bar",
-     "owned": 261281300,
-     "rate_hr": 657669.2619021349,
+     "owned": 261462222,
+     "rate_hr": 17346.549418095736,
      "owner": "Autistocat",
      "why": "Barium Mixture 12 -> 13 needs 1B Copper Bars (Toolbox map finding)",
      "target": 1000000000,
-     "shortage": 738718700,
-     "eta_days": 46.80155758581518
+     "shortage": 738537778,
+     "eta_days": 1773.9785979893625
     }
    ],
    "runout": [
     {
-     "item": "Bullseye Statue",
+     "item": "Spiral Statue",
      "owned": 0,
-     "rate_hr": -33.45014058274008,
+     "rate_hr": -30.10588274108213,
      "runout_days": 0
-    },
-    {
-     "item": "Stealth Statue",
-     "owned": 0,
-     "rate_hr": -61.8230276841714,
-     "runout_days": 0
-    },
-    {
-     "item": "Essence Statue",
-     "owned": 0,
-     "rate_hr": -66.45228821124704,
-     "runout_days": 0
-    },
-    {
-     "item": "Beholder Statue",
-     "owned": 0,
-     "rate_hr": -83.62535145685021,
-     "runout_days": 0
-    },
-    {
-     "item": "Lumberbob Statue",
-     "owned": 0,
-     "rate_hr": -62.86834457738203,
-     "runout_days": 0
-    },
-    {
-     "item": "Health Statue",
-     "owned": 10,
-     "rate_hr": -95.72116122114461,
-     "runout_days": 0.004352921144615469
     },
     {
      "item": "Egg Statue",
-     "owned": 630,
-     "rate_hr": -3345.611382212986,
-     "runout_days": 0.007846099561819607
-    },
-    {
-     "item": "Mining Statue",
-     "owned": 20,
-     "rate_hr": -62.86834457738203,
-     "runout_days": 0.013255213556762546
-    },
-    {
-     "item": "Boat Statue",
-     "owned": 442,
-     "rate_hr": -1379.5196370685396,
-     "runout_days": 0.0133500576373105
+     "owned": 0,
+     "rate_hr": -60.40352269707561,
+     "runout_days": 0
     },
     {
      "item": "Pecunia Statue",
-     "owned": 238,
-     "rate_hr": -469.7952780058049,
-     "runout_days": 0.021108485186911847
+     "owned": 0,
+     "rate_hr": -22.819108574450784,
+     "runout_days": 0
     },
     {
-     "item": "Feasty Statue",
-     "owned": 108,
-     "rate_hr": -100.94774568719775,
-     "runout_days": 0.04457751849104138
-    },
-    {
-     "item": "Spiral Statue",
-     "owned": 314,
-     "rate_hr": -196.3702449388536,
-     "runout_days": 0.0666258441415463
+     "item": "Boat Statue",
+     "owned": 0,
+     "rate_hr": -42.378344495408605,
+     "runout_days": 0
     },
     {
      "item": "Mutton Statue",
-     "owned": 238,
-     "rate_hr": -58.537746019795144,
-     "runout_days": 0.16940636326026703
+     "owned": 0,
+     "rate_hr": -22.819108574450784,
+     "runout_days": 0
+    },
+    {
+     "item": "Dragon Warrior Statue",
+     "owned": 5362,
+     "rate_hr": -81465.84754711605,
+     "runout_days": 0.0027424580163786165
     },
     {
      "item": "Battleaxe Statue",
-     "owned": 5226,
-     "rate_hr": -575.6709461895671,
-     "runout_days": 0.3782542812718143
+     "owned": 868,
+     "rate_hr": -417.8389712918341,
+     "runout_days": 0.08655647067780697
     },
     {
-     "item": "Willow Logs",
-     "owned": 11020268,
-     "rate_hr": -223996.47711656307,
-     "runout_days": 2.049933281291682
+     "item": "Dense Water",
+     "owned": 3,
+     "rate_hr": -0.3835144298227023,
+     "runout_days": 0.3259329774313503
+    },
+    {
+     "item": "Litterbug",
+     "owned": 1416455,
+     "rate_hr": -159503.74724186934,
+     "runout_days": 0.3700161240966821
+    },
+    {
+     "item": "Frigid Soul",
+     "owned": 3427377,
+     "rate_hr": -55716.976364642185,
+     "runout_days": 2.5630855139265076
+    },
+    {
+     "item": "Void Bar",
+     "owned": 6337628,
+     "rate_hr": -54190.78069116274,
+     "runout_days": 4.8729291212517385
+    },
+    {
+     "item": "Royal Headpiece",
+     "owned": 116034762,
+     "rate_hr": -958786.0745567557,
+     "runout_days": 5.042607395226414
+    },
+    {
+     "item": "Dune Soul",
+     "owned": 5055698,
+     "rate_hr": -30992.568102832218,
+     "runout_days": 6.796922495560572
     }
    ]
   },
   "buffs": {
    "newly_owned": [],
    "account_missing": [
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Guild Bonus - Gold Charm:+13% Total Drop Rate 24 -> 50",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Codex - Drop Rate Friend Bonus: +22.5/75% Drop RateFrom IdleOnLech (1844) 22.5 -> 75",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Skull of Major Droprate: +0.0% Drop Rate bonus for all characters, always!(1 per level  0 -> 999999",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Plutus the Prosperous: Not built (1/50)1.00x Drop Rate 0 -> 1",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Obols - Family Obols: +104/228% Drop RateNote: Includes Rare and Hyper Obols, each rerolle 104 -> 228",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Armor Set - Secret Set: 1.00x Gold Food effectNote: Increases Golden Food bonus. See chara 0 -> 1",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Companions - Lucky Slug:+15% Drop Rate 0 -> 1",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Companions - Glunko The Massive:3x Total Damage, 5x Class EXP gain, 1.5x Drop Rate 0 -> 1",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Siege Breaker Talent - Archlord of the Pirates: 1.2/1.19015x Drop Rate MULTILevel 400/ 0.01M -> 1.00M",
-    "Account wide sources of Drop Rate (+5329.4%) \u00b7 Obstruction 15 - Gold Bangle:1.05x Drop Rate 0 -> 1",
-    "Sources of Carry Capacity \u00b7 Guild Bonus - Rucksack:+17.8% Total Carry Cap 17 -> 50",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Guild Bonus - Gold Charm:+13.3% Total Drop Rate 25 -> 50",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Codex - Drop Rate Friend Bonus: +22.5/75% Drop RateFrom IdleOnLech (1844) 22.5 -> 75",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Skull of Major Droprate: +0.0% Drop Rate bonus for all characters, always!(1 per level  0 -> 999999",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Plutus the Prosperous: Not built (1/50)1.00x Drop Rate 0 -> 1",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Obols - Family Obols: +104/228% Drop RateNote: Includes Rare and Hyper Obols, each rerolle 104 -> 228",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Armor Set - Secret Set: 1.00x Gold Food effectNote: Increases Golden Food bonus. See chara 0 -> 1",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Companions - Lucky Slug:+15% Drop Rate 0 -> 1",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Companions - Glunko The Massive:3x Total Damage, 5x Class EXP gain, 1.5x Drop Rate 0 -> 1",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Siege Breaker Talent - Archlord of the Pirates: 1.2/1.19015x Drop Rate MULTILevel 400/ 0.01M -> 1.00M",
+    "Account wide sources of Drop Rate (+5426.1%) \u00b7 Obstruction 15 - Gold Bangle:1.05x Drop Rate 0 -> 1",
+    "Sources of Carry Capacity \u00b7 Guild Bonus - Rucksack:+18.5% Total Carry Cap 18 -> 50",
     "Sources of bonus talent levels beyond book le \u00b7 ES Family Bonus: +13.Next increase at Class Level: 864 -> 885"
    ],
    "stats": [
@@ -12429,7 +12269,7 @@
      "missing": 3
     },
     {
-     "stat": "Account wide sources of Drop Rate (+5329.4%)",
+     "stat": "Account wide sources of Drop Rate (+5426.1%)",
      "section": "Drop Rate",
      "owned": 34,
      "missing": 46
@@ -12471,7 +12311,7 @@
      "missing": 2
     },
     {
-     "stat": "Sources of Sigil Charging Speed. Grand total: 382.663x",
+     "stat": "Sources of Sigil Charging Speed. Grand total: 385.848x",
      "section": "Sigils",
      "owned": 5,
      "missing": 5
@@ -12485,8 +12325,8 @@
     {
      "stat": "Sources of Bonus Ballot Multi",
      "section": "Bonus Ballot",
-     "owned": 4,
-     "missing": 4
+     "owned": 5,
+     "missing": 3
     },
     {
      "stat": "Sources of Printer Sample Rate (90% Hardcap)",
@@ -12495,7 +12335,7 @@
      "missing": 13
     },
     {
-     "stat": "Sources of Printer Output. Grand Total: 96.1 - 576.854x",
+     "stat": "Sources of Printer Output. Grand Total: 96.8 - 580.875x",
      "section": "Sampling",
      "owned": 9,
      "missing": 5
@@ -12575,11 +12415,11 @@
    ]
   },
   "coins": {
-   "richest": "Autistopher",
+   "richest": "Autiszemo",
    "vault": [
     {
-     "buy_richest": 59,
-     "buy_cost": 1.5953925337962589e+32,
+     "buy_richest": 65,
+     "buy_cost": 5.2605235527032735e+32,
      "i": 81,
      "name": "Finders Keepers",
      "level": 120,
@@ -12598,8 +12438,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 56,
-     "buy_cost": 1.5864593916684012e+32,
+     "buy_richest": 63,
+     "buy_cost": 5.684721649091333e+32,
      "i": 83,
      "name": "White Essentials",
      "level": 125,
@@ -12618,8 +12458,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 9,
-     "buy_cost": 1.428216418738127e+32,
+     "buy_richest": 10,
+     "buy_cost": 4.641782800494875e+32,
      "i": 89,
      "name": "Vault Mastery III",
      "level": 10,
@@ -12638,8 +12478,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 32,
-     "buy_cost": 1.3453181970268894e+32,
+     "buy_richest": 37,
+     "buy_cost": 4.995896762467087e+32,
      "i": 88,
      "name": "Topheavy Charms",
      "level": 50,
@@ -12658,8 +12498,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 53,
-     "buy_cost": 1.5173692889328686e+32,
+     "buy_richest": 63,
+     "buy_cost": 5.6291873436121454e+32,
      "i": 60,
      "name": "Cooking Knowledge",
      "level": 353,
@@ -12695,6 +12535,7 @@
       "Autistopher"
      ],
      "max_ok": [
+      "Autiszemo",
       "Autisticles",
       "Autistacular",
       "Autistomatic",
@@ -12702,8 +12543,8 @@
      ]
     },
     {
-     "buy_richest": 32,
-     "buy_cost": 1.4741348536993801e+32,
+     "buy_richest": 39,
+     "buy_cost": 5.9377125304582415e+32,
      "i": 68,
      "name": "Mega Bits",
      "level": 200,
@@ -12721,8 +12562,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 34,
-     "buy_cost": 1.625218640809527e+32,
+     "buy_richest": 41,
+     "buy_cost": 5.831998712732283e+32,
      "i": 87,
      "name": "Rest of the Essentials",
      "level": 101,
@@ -12740,8 +12581,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 7,
-     "buy_cost": 1.5510947575516695e+32,
+     "buy_richest": 8,
+     "buy_cost": 3.8815551201372344e+32,
      "i": 85,
      "name": "Bigger Better Beans",
      "level": 27,
@@ -12759,8 +12600,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 13,
-     "buy_cost": 1.6176621229801034e+32,
+     "buy_richest": 16,
+     "buy_cost": 5.479452436092974e+32,
      "i": 80,
      "name": "Raw Damage",
      "level": 80,
@@ -12778,8 +12619,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 20,
-     "buy_cost": 1.6050544776150109e+32,
+     "buy_richest": 26,
+     "buy_cost": 5.6219669407117936e+32,
      "i": 78,
      "name": "Croppius Evolvius",
      "level": 170,
@@ -12796,8 +12637,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 21,
-     "buy_cost": 1.431929458226614e+32,
+     "buy_richest": 28,
+     "buy_cost": 5.302788782501609e+32,
      "i": 3,
      "name": "Wicked Smart",
      "level": 359,
@@ -12830,6 +12671,7 @@
       "Autistopher"
      ],
      "max_ok": [
+      "Autiszemo",
       "Autisticles",
       "Autistacular",
       "Autistomatic",
@@ -12837,8 +12679,8 @@
      ]
     },
     {
-     "buy_richest": 13,
-     "buy_cost": 1.323128950148056e+32,
+     "buy_richest": 20,
+     "buy_cost": 5.9492233273036306e+32,
      "i": 65,
      "name": "Go Go Bubba the Seal",
      "level": 220,
@@ -12846,6 +12688,7 @@
      "next": 2.213373679305963e+30,
      "to_max": 1.434690126443976e+56,
      "next_ok": [
+      "Autiszemo",
       "Autisticles",
       "Autistacular",
       "Autistomatic",
@@ -12854,8 +12697,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 14,
-     "buy_cost": 1.509154089867358e+32,
+     "buy_richest": 21,
+     "buy_cost": 4.477438629559102e+32,
      "i": 4,
      "name": "Bullseye",
      "level": 479,
@@ -12863,16 +12706,19 @@
      "next": 3.6630951228080753e+30,
      "to_max": 4.477438629559102e+32,
      "next_ok": [
+      "Autiszemo",
       "Autisticles",
       "Autistacular",
       "Autistomatic",
       "Autistopher"
      ],
-     "max_ok": []
+     "max_ok": [
+      "Autiszemo"
+     ]
     },
     {
-     "buy_richest": 12,
-     "buy_cost": 1.5700643012320363e+32,
+     "buy_richest": 19,
+     "buy_cost": 6.138168921100344e+32,
      "i": 54,
      "name": "Kitchen Dream-mare",
      "level": 300,
@@ -12880,6 +12726,7 @@
      "next": 3.9667607541943836e+30,
      "to_max": 1.3603748420357112e+47,
      "next_ok": [
+      "Autiszemo",
       "Autisticles",
       "Autistacular",
       "Autistomatic",
@@ -12888,8 +12735,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 2,
-     "buy_cost": 4.159526944235082e+31,
+     "buy_richest": 3,
+     "buy_cost": 1.7470013165787345e+32,
      "i": 86,
      "name": "24 Karat Foods",
      "level": 18,
@@ -12897,6 +12744,7 @@
      "next": 8.319053888470164e+30,
      "to_max": 5.115315267200247e+49,
      "next_ok": [
+      "Autiszemo",
       "Autisticles",
       "Autistacular",
       "Autistomatic",
@@ -12905,8 +12753,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 7,
-     "buy_cost": 1.3358964897636761e+32,
+     "buy_richest": 13,
+     "buy_cost": 6.0938576798739085e+32,
      "i": 57,
      "name": "Teh TOM",
      "level": 242,
@@ -12914,6 +12762,7 @@
      "next": 8.862557836135712e+30,
      "to_max": 3.567823903280544e+56,
      "next_ok": [
+      "Autiszemo",
       "Autisticles",
       "Autistacular",
       "Autistomatic",
@@ -12922,8 +12771,8 @@
      "max_ok": []
     },
     {
-     "buy_richest": 2,
-     "buy_cost": 8.96623859911533e+31,
+     "buy_richest": 3,
+     "buy_cost": 3.0404191008689815e+32,
      "i": 73,
      "name": "Smarter Villagers",
      "level": 37,
@@ -12931,6 +12780,7 @@
      "next": 2.1605394214733914e+31,
      "to_max": 3.0210700107691547e+37,
      "next_ok": [
+      "Autiszemo",
       "Autisticles",
       "Autistacular",
       "Autistomatic",
@@ -12948,7 +12798,7 @@
      "next": 9.50108676990123e+31,
      "to_max": 3.435592975996956e+35,
      "next_ok": [
-      "Autistopher"
+      "Autiszemo"
      ],
      "max_ok": []
     }
@@ -12990,6 +12840,7 @@
      "bonus_now": 0.0,
      "max_bonus": 20.0,
      "next_ok": [
+      "Autiszemo",
       "Autisticles",
       "Autistacular",
       "Autistomatic",
@@ -13305,7 +13156,7 @@
      "Drop Rate: Smolderin' Plateau- Crystal Glunko card:+0/42% Total Drop Rate (Passive) (0 -> 7)",
      "Drop Rate: Events- IdleOn 4th Anniversary card:+0/14% Drop Rate (Passive) (0 -> 7)",
      "Drop Rate: Events- Luckulyte card:+0/21% Drop Rate (Passive) (0 -> 7)",
-     "Drop Rate: Guild Bonus - Gold Charm:+13% Total Drop Rate (24 -> 50)",
+     "Drop Rate: Guild Bonus - Gold Charm:+13.3% Total Drop Rate (25 -> 50)",
      "Drop Rate: Codex - Drop Rate Friend Bonus: +22.5/75% Drop RateFrom IdleOnLech (1844) (22.5 -> 75)",
      "Drop Rate: Skull of Major Droprate: +0.0% Drop Rate bonus for all characters, always!(1 per level after Writhing Grimo (0 -> 999999)",
      "Drop Rate: Plutus the Prosperous: Not built (1/50)1.00x Drop Rate (0 -> 1)",
@@ -13372,7 +13223,7 @@
      "who": "Autistomatic",
      "section": "Spelunking",
      "base": 3,
-     "do": "Delve for amber and depth (3.7T amber now) and read the rest of today's pages (None). Every cave gets other systems moving.",
+     "do": "Delve for amber and depth (265B amber now) and read the rest of today's pages (None). Every cave gets other systems moving.",
      "src": "my read",
      "need": 8,
      "score": 83
@@ -13434,7 +13285,7 @@
      "who": "Autistopher",
      "section": "Equinox",
      "base": 3,
-     "do": "Spend the Equinox bar whenever you pass the PC. It fills in about 71 minutes.",
+     "do": "Spend the Equinox bar whenever you pass the PC. It fills in about 75 minutes.",
      "src": "Toolbox Equinox",
      "need": 0,
      "score": 3

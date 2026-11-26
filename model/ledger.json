@@ -51,7 +51,7 @@
    "target": 100,
    "coins": 5881240195196,
    "material": "Golden Nomwich",
-   "owned": 289300,
+   "owned": 328364,
    "next_raise": 445773.00044028956,
    "total_mat": 10506509.91819525
   },
@@ -73,7 +73,7 @@
    "target": 160,
    "coins": 24988946111202,
    "material": "Glass Shard",
-   "owned": 8873,
+   "owned": 9365,
    "next_raise": 17436.762333716375,
    "total_mat": 164182044.07647136
   },
@@ -111,125 +111,114 @@
    "total_mat": 183679.3107411254
   }
  ],
- "stamp": "20261126T1304",
- "vs": "20261125T2340",
- "hours": 13.393067777752876,
+ "stamp": "20261126T2330",
+ "vs": "20261126T1304",
+ "hours": 10.42985527780321,
  "watch": [
   {
    "item": "Tangled Cords",
-   "owned": 1823066,
-   "rate_hr": 120418.71412604736,
+   "owned": 2558787,
+   "rate_hr": 70539.90495589709,
    "owner": "Autistocat",
    "why": "Dream of Ironfish 68 -> 70 (exact cost: check bubble cost)"
   },
   {
    "item": "Void Bar",
-   "owned": 6902830,
-   "rate_hr": 52030.64835955899,
+   "owned": 6337628,
+   "rate_hr": -54190.78069116274,
    "owner": "Autistastic",
-   "why": "ran out before (Zack); construction/printer use"
+   "why": "ran out before (Zack); construction/printer use",
+   "runout_days": 4.8729291212517385
   },
   {
    "item": "Copper Bar",
-   "owned": 261281300,
-   "rate_hr": 657669.2619021349,
+   "owned": 261462222,
+   "rate_hr": 17346.549418095736,
    "owner": "Autistocat",
    "why": "Barium Mixture 12 -> 13 needs 1B Copper Bars (Toolbox map finding)",
    "target": 1000000000,
-   "shortage": 738718700,
-   "eta_days": 46.80155758581518
+   "shortage": 738537778,
+   "eta_days": 1773.9785979893625
   }
  ],
  "runout": [
   {
-   "item": "Bullseye Statue",
+   "item": "Spiral Statue",
    "owned": 0,
-   "rate_hr": -33.45014058274008,
+   "rate_hr": -30.10588274108213,
    "runout_days": 0
-  },
-  {
-   "item": "Stealth Statue",
-   "owned": 0,
-   "rate_hr": -61.8230276841714,
-   "runout_days": 0
-  },
-  {
-   "item": "Essence Statue",
-   "owned": 0,
-   "rate_hr": -66.45228821124704,
-   "runout_days": 0
-  },
-  {
-   "item": "Beholder Statue",
-   "owned": 0,
-   "rate_hr": -83.62535145685021,
-   "runout_days": 0
-  },
-  {
-   "item": "Lumberbob Statue",
-   "owned": 0,
-   "rate_hr": -62.86834457738203,
-   "runout_days": 0
-  },
-  {
-   "item": "Health Statue",
-   "owned": 10,
-   "rate_hr": -95.72116122114461,
-   "runout_days": 0.004352921144615469
   },
   {
    "item": "Egg Statue",
-   "owned": 630,
-   "rate_hr": -3345.611382212986,
-   "runout_days": 0.007846099561819607
-  },
-  {
-   "item": "Mining Statue",
-   "owned": 20,
-   "rate_hr": -62.86834457738203,
-   "runout_days": 0.013255213556762546
-  },
-  {
-   "item": "Boat Statue",
-   "owned": 442,
-   "rate_hr": -1379.5196370685396,
-   "runout_days": 0.0133500576373105
+   "owned": 0,
+   "rate_hr": -60.40352269707561,
+   "runout_days": 0
   },
   {
    "item": "Pecunia Statue",
-   "owned": 238,
-   "rate_hr": -469.7952780058049,
-   "runout_days": 0.021108485186911847
+   "owned": 0,
+   "rate_hr": -22.819108574450784,
+   "runout_days": 0
   },
   {
-   "item": "Feasty Statue",
-   "owned": 108,
-   "rate_hr": -100.94774568719775,
-   "runout_days": 0.04457751849104138
-  },
-  {
-   "item": "Spiral Statue",
-   "owned": 314,
-   "rate_hr": -196.3702449388536,
-   "runout_days": 0.0666258441415463
+   "item": "Boat Statue",
+   "owned": 0,
+   "rate_hr": -42.378344495408605,
+   "runout_days": 0
   },
   {
    "item": "Mutton Statue",
-   "owned": 238,
-   "rate_hr": -58.537746019795144,
-   "runout_days": 0.16940636326026703
+   "owned": 0,
+   "rate_hr": -22.819108574450784,
+   "runout_days": 0
+  },
+  {
+   "item": "Dragon Warrior Statue",
+   "owned": 5362,
+   "rate_hr": -81465.84754711605,
+   "runout_days": 0.0027424580163786165
   },
   {
    "item": "Battleaxe Statue",
-   "owned": 5226,
-   "rate_hr": -575.6709461895671,
-   "runout_days": 0.3782542812718143
+   "owned": 868,
+   "rate_hr": -417.8389712918341,
+   "runout_days": 0.08655647067780697
   },
   {
-   "item": "Willow Logs",
-   "owned": 11020268,
-   "rate_hr": -223996.47711656307,
-   "runout_days": 2.049933281291682
+   "item": "Dense Water",
+   "owned": 3,
+   "rate_hr": -0.3835144298227023,
+   "runout_days": 0.3259329774313503
+  },
+  {
+   "item": "Litterbug",
+   "owned": 1416455,
+   "rate_hr": -159503.74724186934,
+   "runout_days": 0.3700161240966821
+  },
+  {
+   "item": "Frigid Soul",
+   "owned": 3427377,
+   "rate_hr": -55716.976364642185,
+   "runout_days": 2.5630855139265076
+  },
+  {
+   "item": "Void Bar",
+   "owned": 6337628,
+   "rate_hr": -54190.78069116274,
+   "runout_days": 4.8729291212517385
+  },
+  {
+   "item": "Royal Headpiece",
+   "owned": 116034762,
+   "rate_hr": -958786.0745567557,
+   "runout_days": 5.042607395226414
+  },
+  {
+   "item": "Dune Soul",
+   "owned": 5055698,
+   "rate_hr": -30992.568102832218,
+   "runout_days": 6.796922495560572
   }
  ]
 }
