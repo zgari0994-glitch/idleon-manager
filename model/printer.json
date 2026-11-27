@@ -1,5 +1,5 @@
 {
- "snapshot": "20261127T1704",
+ "snapshot": "20261127T2212",
  "per_char": {
   "Autiszemo": {
    "samples": [
@@ -376,6 +376,12 @@
    "frac": 0.0
   },
   {
+   "label": "Companions - Biggole Mole:3d Printer samples grow +1%/day for 100 days",
+   "cur": "0",
+   "goal": "1",
+   "frac": 0.0
+  },
+  {
    "label": "Legend Talent: Yet Another Printer Multi (Lv 0/2):1.00x (0/20 days)",
    "cur": "0",
    "goal": "20",
@@ -383,21 +389,32 @@
   }
  ],
  "needs": {
-  "Mongo Worm Slices": "runs out in 0.3 days",
-  "Seaweed Logs": "runs out in 0.7 days",
-  "Pufferflesh": "runs out in 1.4 days",
-  "Cracked Shell": "runs out in 3.7 days",
-  "Frigid Soul": "runs out in 5.2 days",
+  "Dragon Warrior Statue": "runs out in 0.0 days",
+  "Mutton Statue": "runs out in 0.0 days",
+  "Cauldron Statue": "runs out in 0.0 days",
+  "Oceanman Statue": "runs out in 0.0 days",
+  "Box Statue": "runs out in 0.0 days",
+  "Pecunia Statue": "runs out in 0.0 days",
+  "Twosoul Statue": "runs out in 0.0 days",
+  "Anvil Statue": "runs out in 0.0 days",
+  "Exp Book Statue": "runs out in 0.0 days",
+  "EhExPee Statue": "runs out in 0.0 days",
+  "Ol Reliable Statue": "runs out in 0.0 days",
+  "Thicc Skin Statue": "runs out in 0.0 days",
+  "Bullseye Statue": "runs out in 0.0 days",
+  "Seesaw Statue": "runs out in 0.0 days",
+  "Power Statue": "runs out in 0.0 days",
+  "Speed Statue": "runs out in 0.0 days",
+  "Battleaxe Statue": "runs out in 0.1 days",
+  "Glass Shard": "runs out in 2.0 days",
   "Tangled Cords": "Dream of Ironfish 68 -> 70 (exact cost: check bubble cost)",
   "Void Bar": "ran out before (Zack); construction/printer use",
   "Copper Bar": "Barium Mixture 12 -> 13 needs 1B Copper Bars (Toolbox map finding)",
   "Icing Ironbite": "Potion Stamp next max raise needs 2.92e+05 (have 2.91e+05)",
-  "Golden Nomwich": "Golden Apple Stamp next max raise needs 4.46e+05 (have 3.4e+05)",
   "Jungle Logs": "Lil' Mining Baggy Stamp next max raise needs 1.93e+09 (have 1.05e+09)",
-  "Glass Shard": "Mason Jar Stamp next max raise needs 1.74e+04 (have 9.36e+03)",
-  "Carrot Cube": "Choppin' Bag Stamp next max raise needs 1.93e+09 (have 1.99e+08)",
+  "Carrot Cube": "Choppin' Bag Stamp next max raise needs 1.93e+09 (have 2.01e+08)",
   "Dust Mote": "Multitool Stamp next max raise needs 2.57e+10 (have 1.01e+09)",
-  "Cramped Material Pouch": "Matty Bag Stamp next max raise needs 203 (have 3)"
+  "Cramped Material Pouch": "Matty Bag Stamp next max raise needs 203 (have 0)"
  },
  "swaps": [],
  "gold_relic": [

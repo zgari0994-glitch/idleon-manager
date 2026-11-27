@@ -1,0 +1,9 @@
+{
+ "module": "sailing",
+ "systems": [
+  "sailing"
+ ],
+ "ok": false,
+ "error": "DataMissing: account.serverVars: 'serverVars' not in the parsed save (20261127T2212)",
+ "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/idleon-manager/idleon-manager/model/report.py\", line 72, in <module>\n    o = m.build() if hasattr(m, 'build') else None\n        ~~~~~~~^^\n  File \"/home/runner/work/idleon-manager/idleon-manager/model/sailing.py\", line 140, in build\n    sv = load().get('account.serverVars')\n  File \"/home/runner/work/idleon-manager/idleon-manager/model/data.py\", line 49, in get\n    raise DataMissing(f\"{path}: '{part}' not in the parsed save ({self.stamp})\")\ndata.DataMissing: account.serverVars: 'serverVars' not in the parsed save (20261127T2212)\n"
+}

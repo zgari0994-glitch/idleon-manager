@@ -2,8 +2,8 @@
  "companions": [
   {
    "name": "King Doot",
-   "effect": "All Divinities count as Active, and 1.25x Divinity PTS gain",
-   "upgraded": true
+   "effect": "All Divinities from World 5 count as Active",
+   "upgraded": false
   },
   {
    "name": "Rift Slug",
@@ -11,269 +11,61 @@
    "upgraded": false
   },
   {
-   "name": "Dedotated Ram",
-   "effect": "Use Storage Chest from anywhere, and +30% Carry Capacity",
-   "upgraded": true
-  },
-  {
-   "name": "Crystal Custard",
-   "effect": "+100% Drop Rate and Class Exp",
-   "upgraded": false
-  },
-  {
    "name": "Sheepie",
    "effect": "All big bubbles in Alchemy count as equipped",
-   "upgraded": false
-  },
-  {
-   "name": "Molti",
-   "effect": "+5% All Skill Efficiency",
-   "upgraded": false
-  },
-  {
-   "name": "Bored Bean",
-   "effect": "+5% AFK Gains Rate for Fighting and Skills",
-   "upgraded": false
-  },
-  {
-   "name": "Slime",
-   "effect": "+25% Golden Balls earned in Arcade for Upgrades",
-   "upgraded": false
-  },
-  {
-   "name": "Sandy Pot",
-   "effect": "+15 Base All Stats (STR/AGI/WIS/LUK)",
-   "upgraded": false
-  },
-  {
-   "name": "Bloque",
-   "effect": "+20% All Skill EXP",
-   "upgraded": false
-  },
-  {
-   "name": "Frog",
-   "effect": "+10% Total Damage",
-   "upgraded": false
-  },
-  {
-   "name": "Ancient Golem",
-   "effect": "10x Total Damage",
-   "upgraded": false
-  },
-  {
-   "name": "Samurai Guardian",
-   "effect": "3x Villager EXP and +25 Opals",
-   "upgraded": false
-  },
-  {
-   "name": "Rift Jocund",
-   "effect": "2x Kills for Opening Portals and Deathnote",
-   "upgraded": false
-  },
-  {
-   "name": "Leek Spirit",
-   "effect": "3.50x faster Equinox Bar Fill Rate",
-   "upgraded": false
-  },
-  {
-   "name": "Crystal Capybara",
-   "effect": "1.75x Lab EXP and Divinity EXP Gain",
-   "upgraded": false
-  },
-  {
-   "name": "Biggole Mole",
-   "effect": "3d Printer samples grow +1%/day for 100 days",
-   "upgraded": false
-  },
-  {
-   "name": "Gigafrog",
-   "effect": "+25% Carry Capacity for all item types",
-   "upgraded": false
-  },
-  {
-   "name": "Mashed Potato",
-   "effect": "+5% Ballot Bonus Multi (World 2 feature)",
-   "upgraded": false
-  },
-  {
-   "name": "Flying Worm",
-   "effect": "+30 Talent Points for all classes",
-   "upgraded": false
-  },
-  {
-   "name": "Poisonic Frog",
-   "effect": "+15% Defence",
-   "upgraded": false
-  },
-  {
-   "name": "Quenchie",
-   "effect": "+20% Drop Rate",
-   "upgraded": true
-  },
-  {
-   "name": "Green Mushroom",
-   "effect": "+15% Accuracy",
-   "upgraded": false
-  },
-  {
-   "name": "Cool Bird",
-   "effect": "4x Coins from Mobs",
-   "upgraded": false
-  },
-  {
-   "name": "Axolotl",
-   "effect": "+50% AFK Gains",
-   "upgraded": false
-  },
-  {
-   "name": "Mallay",
-   "effect": "1.30x Drop Rate",
-   "upgraded": false
-  },
-  {
-   "name": "Spirit Reindeer",
-   "effect": "2.00x Gold Ball Shop Bonuses",
-   "upgraded": false
-  },
-  {
-   "name": "RIP Tide",
-   "effect": "+30% AFK gains for World 7 skills, and +1 Worldclass Showcase Slot in Gallery",
-   "upgraded": false
-  },
-  {
-   "name": "Squirrel",
-   "effect": "1.75x Kills for Opening Portals and Deathnote",
-   "upgraded": true
-  },
-  {
-   "name": "Mr Pig",
-   "effect": "2x Friend Bonuses, +2 Friend Bonus Slots, Auto Loot, Storage Quickref Usage, Infinite Teleporting",
-   "upgraded": false
-  },
-  {
-   "name": "Whale",
-   "effect": "2x Class EXP gain and 2x All Skill EXP gain",
-   "upgraded": false
-  },
-  {
-   "name": "Chippy",
-   "effect": "2x Total Damage, and 2x Class EXP gain",
-   "upgraded": false
-  },
-  {
-   "name": "Bunny",
-   "effect": "3x Class EXP gain",
-   "upgraded": false
-  },
-  {
-   "name": "Panda",
-   "effect": "2x Refinery Salts produced (affects POW produced in Refinery)",
-   "upgraded": false
-  },
-  {
-   "name": "Hedgehog",
-   "effect": "+200% Gold Balls gained from the Arcade,",
-   "upgraded": false
-  },
-  {
-   "name": "Whallamus",
-   "effect": "10x Class EXP and +10 Legend Talent PTS",
-   "upgraded": false
-  },
-  {
-   "name": "Balloonfish",
-   "effect": "4x Coins from monsters, and 4x Masterclass drops",
-   "upgraded": false
-  },
-  {
-   "name": "Pufferblob",
-   "effect": "+50% Meritocracy Bonus Multi (World 7 feature)",
-   "upgraded": false
-  },
-  {
-   "name": "Shellslug",
-   "effect": "1.75x Daily Reef Coral (World 7 feature)",
-   "upgraded": false
-  },
-  {
-   "name": "Crystal Cuttlefish",
-   "effect": "+40% Ballot Bonus Multi (World 2 feature)",
-   "upgraded": false
-  },
-  {
-   "name": "Eamsy Earl",
-   "effect": "+1 Grade for 2 Gallery Showcases (World 7 feature)",
-   "upgraded": false
-  },
-  {
-   "name": "Litterfish",
-   "effect": "1.25x Artifact Find chance (World 5 feature)",
-   "upgraded": false
-  },
-  {
-   "name": "Spearfish",
-   "effect": "+1 Friend Bonus slot",
-   "upgraded": false
-  },
-  {
-   "name": "Equinox Broadbass",
-   "effect": "1.50x Coins from monsters",
-   "upgraded": false
-  },
-  {
-   "name": "Mafioso",
-   "effect": "+15% faster Alchemy Brew Speed",
-   "upgraded": false
-  },
-  {
-   "name": "Baby Boa",
-   "effect": "+10% Class EXP",
-   "upgraded": false
-  },
-  {
-   "name": "Purp Mushroom",
-   "effect": "+7% Golden Food bonus",
-   "upgraded": true
-  },
-  {
-   "name": "Bubba the Seal",
-   "effect": "+30% Gallery Bonus Multi (World 7 feature)",
-   "upgraded": false
-  },
-  {
-   "name": "Santa Snake",
-   "effect": "+50% Class EXP, +50% Drop Rate, 1.01x Class EXP, and 1.01x Drop Rate",
-   "upgraded": true
-  },
-  {
-   "name": "Santas Little Helper",
-   "effect": "3x bonuses from Orion, Poppy, and Bubba (and all future Clickers)",
-   "upgraded": false
-  },
-  {
-   "name": "Cryosnake",
-   "effect": "All Upgrade Vault upgrades are 50% cheaper!",
-   "upgraded": false
-  },
-  {
-   "name": "Mama Troll",
-   "effect": "+100% Drop Rate and 1.50x Drop Rate Multi",
-   "upgraded": false
-  },
-  {
-   "name": "Crystal Glunko",
-   "effect": "1.50x Damage, 1.40x Class EXP, 1.30x Drop Rate, and 1.20x extra Kills",
-   "upgraded": false
-  },
-  {
-   "name": "Armadillo",
-   "effect": "+100% additive Crystal Monster Spawn chance",
    "upgraded": false
   }
  ],
  "companions_missing": [
+  "Dedotated Ram",
+  "Crystal Custard",
+  "Molti",
+  "Bored Bean",
+  "Slime",
+  "Sandy Pot",
+  "Bloque",
+  "Frog",
   "Glunko Supreme",
+  "Ancient Golem",
+  "Samurai Guardian",
+  "Rift Jocund",
+  "Leek Spirit",
+  "Crystal Capybara",
+  "Biggole Mole",
+  "Gigafrog",
+  "Mashed Potato",
+  "Flying Worm",
+  "Poisonic Frog",
+  "Quenchie",
+  "Green Mushroom",
+  "Cool Bird",
+  "Axolotl",
+  "Mallay",
+  "Spirit Reindeer",
+  "RIP Tide",
+  "Squirrel",
+  "Mr Pig",
   "Wild Boar",
+  "Whale",
+  "Chippy",
+  "Bunny",
+  "Panda",
+  "Hedgehog",
+  "Whallamus",
+  "Balloonfish",
+  "Pufferblob",
+  "Shellslug",
+  "Crystal Cuttlefish",
+  "Eamsy Earl",
+  "Litterfish",
+  "Spearfish",
+  "Equinox Broadbass",
+  "Mafioso",
+  "Baby Boa",
+  "Purp Mushroom",
+  "Bubba the Seal",
+  "Santa Snake",
+  "Santas Little Helper",
   "Jellofish",
   "Koi Fish",
   "Neonscale",
@@ -319,6 +111,7 @@
   "Bloodbone",
   "Glunko The Massive",
   "Snelbie",
+  "Cryosnake",
   "Shell Snake",
   "Snowman",
   "Bop Box",
@@ -351,6 +144,7 @@
   "Woodlin Spirit",
   "Bamboo Spirit",
   "Lantern Spirit",
+  "Mama Troll",
   "Ceramic Spirit",
   "Skydoggie Spirit",
   "Royal Egg",
@@ -385,8 +179,10 @@
   "Silver Champion Troll",
   "Gold Champion Troll",
   "Abacus Frog",
+  "Crystal Glunko",
   "Bin Goosey",
   "Magician Grub",
+  "Armadillo",
   "Imperial Ogre",
   "Pipsqueak",
   "Verminous",
@@ -1238,7 +1034,7 @@
   },
   {
    "name": "Picasso Gaming",
-   "lv": 3,
+   "lv": 4,
    "max": 5,
    "effect": "All the bonuses from your Gaming Palette colours are }x higher"
   },
@@ -1614,38 +1410,38 @@
   },
   {
    "class": "Warrior",
-   "level": 938,
+   "level": 940,
    "value": null
   },
   {
    "class": "Barbarian",
-   "level": 938,
+   "level": 940,
    "value": null
   },
   {
    "class": "Squire",
-   "level": 857,
+   "level": 869,
    "value": null
   },
   {
    "class": "Blood Berserker",
-   "level": 938,
+   "level": 940,
    "value": null
   },
   {
    "class": "Death Bringer",
-   "level": 938,
+   "level": 940,
    "value": null
   },
   {
    "class": "Divine Knight",
-   "level": 857,
+   "level": 869,
    "value": null
   },
   {
    "class": "Royal Guardian",
-   "level": 857,
-   "value": 4.7643979057591626
+   "level": 869,
+   "value": 4.805194805194805
   },
   {
    "class": "Archer",
@@ -1684,8 +1480,8 @@
   },
   {
    "class": "Wizard",
-   "level": 864,
-   "value": 140
+   "level": 870,
+   "value": 141
   },
   {
    "class": "Shaman",
@@ -1694,8 +1490,8 @@
   },
   {
    "class": "Elemental Sorcerer",
-   "level": 864,
-   "value": 13.88646288209607
+   "level": 870,
+   "value": 13.918331885317116
   },
   {
    "class": "Bubonic Conjuror",
@@ -1719,15 +1515,15 @@
   {
    "name": "King of the Remembered",
    "type": "Printer Output",
-   "kills": 2762308,
-   "value": 22.88014557674257,
+   "kills": 2773382,
+   "value": 22.88631770271932,
    "how": "Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from"
   },
   {
    "name": "Wormhole Emperor",
    "type": "Damage",
-   "kills": 570597,
-   "value": 0.0,
+   "kills": 570665,
+   "value": 4.360022041573928,
    "how": "Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns"
   }
  ],
@@ -1840,7 +1636,7 @@
   "Bladed Rucksack",
   "Lovely Balloon"
  ],
- "gallery_multi": 1.562919020715631,
+ "gallery_multi": 1.262919020715631,
  "gallery_missing": {
   "trophy": [
    "King of Food",

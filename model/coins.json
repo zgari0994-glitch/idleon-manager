@@ -1,17 +1,17 @@
 {
- "stamp": "20261127T1704",
+ "stamp": "20261127T2212",
  "money": {
-  "Autiszemo": 2.1114991888663917e+32,
-  "Autistocat": 6.504488548724362e+28,
-  "Autisticles": 5.98581546495241e+31,
-  "Autistastic": 3.68633550397831e+25,
-  "Autistabish": 0,
-  "Autistacular": 2.6604037170026504e+31,
-  "Autistotle": 4.538826478821092e+30,
-  "Autistomatic": 6.10693052878034e+31,
-  "Autistronaut": 0,
-  "Autistopher": 4.69045350989246e+31,
-  "Autistachio": 1.259887421663794e+25
+  "Autiszemo": 3.310548045207433e+32,
+  "Autistocat": 2.8733681975298302e+29,
+  "Autisticles": 5.985815465293898e+31,
+  "Autistastic": 4.340267694983284e+31,
+  "Autistabish": 4.872655006455972e+31,
+  "Autistacular": 2.6613098874256284e+31,
+  "Autistotle": 4.538826510159338e+30,
+  "Autistomatic": 6.108468518524698e+31,
+  "Autistronaut": 2.018285548050706e+22,
+  "Autistopher": 4.69272576532077e+31,
+  "Autistachio": 1.4935513765141063e+25
  },
  "richest": "Autiszemo",
  "vault_multi": {
@@ -32,6 +32,8 @@
    "next_ok": [
     "Autiszemo",
     "Autisticles",
+    "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistotle",
     "Autistomatic",
@@ -40,14 +42,16 @@
    "max_ok": [
     "Autiszemo",
     "Autisticles",
+    "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistomatic",
     "Autistopher"
    ]
   },
   {
-   "buy_richest": 16,
-   "buy_cost": 1.933057570299491e+32,
+   "buy_richest": 18,
+   "buy_cost": 2.9620127313251205e+32,
    "i": 78,
    "name": "Croppius Evolvius",
    "level": 175,
@@ -57,63 +61,8 @@
    "next_ok": [
     "Autiszemo",
     "Autisticles",
-    "Autistacular",
-    "Autistotle",
-    "Autistomatic",
-    "Autistopher"
-   ],
-   "max_ok": []
-  },
-  {
-   "buy_richest": 13,
-   "buy_cost": 1.691551962664328e+32,
-   "i": 88,
-   "name": "Topheavy Charms",
-   "level": 70,
-   "max": 100,
-   "next": 1.7327030443246335e+30,
-   "to_max": 1.5126472416084053e+34,
-   "next_ok": [
-    "Autiszemo",
-    "Autisticles",
-    "Autistacular",
-    "Autistotle",
-    "Autistomatic",
-    "Autistopher"
-   ],
-   "max_ok": []
-  },
-  {
-   "buy_richest": 17,
-   "buy_cost": 2.0248613600831422e+32,
-   "i": 3,
-   "name": "Wicked Smart",
-   "level": 365,
-   "max": 500,
-   "next": 1.8539180579956553e+30,
-   "to_max": 6.073834319505569e+41,
-   "next_ok": [
-    "Autiszemo",
-    "Autisticles",
-    "Autistacular",
-    "Autistotle",
-    "Autistomatic",
-    "Autistopher"
-   ],
-   "max_ok": []
-  },
-  {
-   "buy_richest": 16,
-   "buy_cost": 1.8485322599807788e+32,
-   "i": 87,
-   "name": "Rest of the Essentials",
-   "level": 120,
-   "max": 200,
-   "next": 2.1140064539373423e+30,
-   "to_max": 2.2833673983312303e+37,
-   "next_ok": [
-    "Autiszemo",
-    "Autisticles",
+    "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistotle",
     "Autistomatic",
@@ -123,7 +72,70 @@
   },
   {
    "buy_richest": 15,
-   "buy_cost": 2.0511200217723027e+32,
+   "buy_cost": 2.8985749869221812e+32,
+   "i": 88,
+   "name": "Topheavy Charms",
+   "level": 70,
+   "max": 100,
+   "next": 1.7327030443246335e+30,
+   "to_max": 1.5126472416084053e+34,
+   "next_ok": [
+    "Autiszemo",
+    "Autisticles",
+    "Autistastic",
+    "Autistabish",
+    "Autistacular",
+    "Autistotle",
+    "Autistomatic",
+    "Autistopher"
+   ],
+   "max_ok": []
+  },
+  {
+   "buy_richest": 19,
+   "buy_cost": 2.9715291353123683e+32,
+   "i": 3,
+   "name": "Wicked Smart",
+   "level": 365,
+   "max": 500,
+   "next": 1.8539180579956553e+30,
+   "to_max": 6.073834319505569e+41,
+   "next_ok": [
+    "Autiszemo",
+    "Autisticles",
+    "Autistastic",
+    "Autistabish",
+    "Autistacular",
+    "Autistotle",
+    "Autistomatic",
+    "Autistopher"
+   ],
+   "max_ok": []
+  },
+  {
+   "buy_richest": 19,
+   "buy_cost": 3.271213580170105e+32,
+   "i": 87,
+   "name": "Rest of the Essentials",
+   "level": 120,
+   "max": 200,
+   "next": 2.1140064539373423e+30,
+   "to_max": 2.2833673983312303e+37,
+   "next_ok": [
+    "Autiszemo",
+    "Autisticles",
+    "Autistastic",
+    "Autistabish",
+    "Autistacular",
+    "Autistotle",
+    "Autistomatic",
+    "Autistopher"
+   ],
+   "max_ok": []
+  },
+  {
+   "buy_richest": 17,
+   "buy_cost": 3.152497714057101e+32,
    "i": 65,
    "name": "Go Go Bubba the Seal",
    "level": 220,
@@ -133,6 +145,8 @@
    "next_ok": [
     "Autiszemo",
     "Autisticles",
+    "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistotle",
     "Autistomatic",
@@ -152,6 +166,8 @@
    "next_ok": [
     "Autiszemo",
     "Autisticles",
+    "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistotle",
     "Autistomatic",
@@ -160,8 +176,8 @@
    "max_ok": []
   },
   {
-   "buy_richest": 16,
-   "buy_cost": 2.0824830284707395e+32,
+   "buy_richest": 18,
+   "buy_cost": 2.843635049340113e+32,
    "i": 4,
    "name": "Bullseye",
    "level": 479,
@@ -171,6 +187,8 @@
    "next_ok": [
     "Autiszemo",
     "Autisticles",
+    "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistotle",
     "Autistomatic",
@@ -179,8 +197,8 @@
    "max_ok": []
   },
   {
-   "buy_richest": 13,
-   "buy_cost": 2.0710593654233963e+32,
+   "buy_richest": 15,
+   "buy_cost": 3.0762770281991375e+32,
    "i": 83,
    "name": "White Essentials",
    "level": 170,
@@ -190,6 +208,8 @@
    "next_ok": [
     "Autiszemo",
     "Autisticles",
+    "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistotle",
     "Autistomatic",
@@ -198,8 +218,8 @@
    "max_ok": []
   },
   {
-   "buy_richest": 11,
-   "buy_cost": 2.1081409842840444e+32,
+   "buy_richest": 13,
+   "buy_cost": 3.267896267869009e+32,
    "i": 81,
    "name": "Finders Keepers",
    "level": 170,
@@ -209,6 +229,8 @@
    "next_ok": [
     "Autiszemo",
     "Autisticles",
+    "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistomatic",
     "Autistopher"
@@ -227,6 +249,8 @@
    "next_ok": [
     "Autiszemo",
     "Autisticles",
+    "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistomatic",
     "Autistopher"
@@ -245,6 +269,8 @@
    "next_ok": [
     "Autiszemo",
     "Autisticles",
+    "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistomatic",
     "Autistopher"
@@ -252,8 +278,8 @@
    "max_ok": []
   },
   {
-   "buy_richest": 8,
-   "buy_cost": 1.7584962054754784e+32,
+   "buy_richest": 10,
+   "buy_cost": 2.9470579224226878e+32,
    "i": 57,
    "name": "Teh TOM",
    "level": 242,
@@ -263,6 +289,8 @@
    "next_ok": [
     "Autiszemo",
     "Autisticles",
+    "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistomatic",
     "Autistopher"
@@ -270,8 +298,8 @@
    "max_ok": []
   },
   {
-   "buy_richest": 10,
-   "buy_cost": 1.873288973503397e+32,
+   "buy_richest": 13,
+   "buy_cost": 3.108569256695152e+32,
    "i": 60,
    "name": "Cooking Knowledge",
    "level": 400,
@@ -281,6 +309,8 @@
    "next_ok": [
     "Autiszemo",
     "Autisticles",
+    "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistomatic",
     "Autistopher"
@@ -288,8 +318,8 @@
    "max_ok": []
   },
   {
-   "buy_richest": 2,
-   "buy_cost": 8.96623859911533e+31,
+   "buy_richest": 3,
+   "buy_cost": 3.0404191008689815e+32,
    "i": 73,
    "name": "Smarter Villagers",
    "level": 37,
@@ -299,6 +329,8 @@
    "next_ok": [
     "Autiszemo",
     "Autisticles",
+    "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistomatic",
     "Autistopher"
@@ -306,8 +338,8 @@
    "max_ok": []
   },
   {
-   "buy_richest": 2,
-   "buy_cost": 1.3445521435205138e+32,
+   "buy_richest": 4,
+   "buy_cost": 3.280707385080506e+32,
    "i": 54,
    "name": "Kitchen Dream-mare",
    "level": 315,
@@ -320,8 +352,8 @@
    "max_ok": []
   },
   {
-   "buy_richest": 2,
-   "buy_cost": 1.9492219958991046e+32,
+   "buy_richest": 3,
+   "buy_cost": 3.2560787610810315e+32,
    "i": 68,
    "name": "Mega Bits",
    "level": 237,
@@ -348,8 +380,8 @@
    "max_ok": []
   },
   {
-   "buy_richest": 1,
-   "buy_cost": 1.219512730456696e+32,
+   "buy_richest": 2,
+   "buy_cost": 3.0487818261417404e+32,
    "i": 80,
    "name": "Raw Damage",
    "level": 94,
@@ -372,6 +404,8 @@
    "next_ok": [
     "Autiszemo",
     "Autisticles",
+    "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistotle",
     "Autistomatic",
@@ -386,7 +420,10 @@
    "max_bonus": 8.0,
    "next_ok": [
     "Autiszemo",
+    "Autistocat",
     "Autisticles",
+    "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistotle",
     "Autistomatic",
@@ -402,6 +439,8 @@
    "next_ok": [
     "Autiszemo",
     "Autisticles",
+    "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistomatic",
     "Autistopher"
@@ -449,9 +488,11 @@
     "Autistocat",
     "Autisticles",
     "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistotle",
     "Autistomatic",
+    "Autistronaut",
     "Autistopher",
     "Autistachio"
    ],
@@ -465,6 +506,7 @@
     "Autistocat",
     "Autisticles",
     "Autistastic",
+    "Autistabish",
     "Autistacular",
     "Autistotle",
     "Autistomatic",

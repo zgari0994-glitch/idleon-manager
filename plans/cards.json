@@ -1,5 +1,5 @@
 {
- "save": "20261127T1704",
+ "save": "20261127T2212",
  "goal": {
   "name": "Spelunking caves: Chucklemire -> Lunarheim -> Bizarrio",
   "why": "Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!",
@@ -20,9 +20,8 @@
   ],
   "flag": "",
   "weekly": [
-   "Bonus Ballot (W2): Boosts Artifact Find chance in Sailing by 1.31x (x2.29)",
-   "Meritocracy (W7): Multiplies how many Shiny Critters you get from Trapping by 7.80x (x1.7)",
-   "Autisticles: Sailing bonus week: keep every boat on long trips and claim on time (ballot boosts artifact finds this week)"
+   "Bonus Ballot (W2):  (x1.8399999999999999)",
+   "Meritocracy (W7):  (x1.2)"
   ]
  },
  "chars": [
@@ -32,11 +31,11 @@
    "class": "Death Bringer",
    "daily": [
     {
-     "do": "Farming: hold 200 or more of every crop you've found (203 of 207 so far)",
+     "do": "Farming: hold 200 or more of every crop you've found (204 of 208 so far)",
      "why": "Each one raises the chance to discover new crops. Lock them before bean trades so a trade can't empty them (Griffy does this)",
      "sub": [
       "Weakest families: Earthy (23 of 25), Bulbo (14 of 15), Mushie (22 of 23)",
-      "Spend 436 Land Rank points, Toolbox's optimizer puts them into the Evolution boosts",
+      "Spend 465 Land Rank points, Toolbox's optimizer puts them into the Evolution boosts",
       "Night Market (89.6K beans): buy Value Gmo, Exp Gmo, Og Fertilizer first",
       "Day Market is paid in crops and 5 upgrades are waiting on them",
       "Collect all crops, replant"
@@ -82,8 +81,18 @@
      ]
     },
     {
-     "do": "Worship: worship level 98, charge full in 16d 14h",
+     "do": "Worship: worship level 98, charge full in 11d 8h",
      "why": "charge and souls keep worship moving",
+     "sub": []
+    },
+    {
+     "do": "Talents: switch to talent preset 1 (skilling) for where he is parked",
+     "why": "the other preset holds the wrong talents for this job",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
+     "why": "",
      "sub": []
     },
     {
@@ -102,7 +111,6 @@
      "sub": [
       "Spearfish at Pinpoint Summit: 100K kills left",
       "Coralcave Guardian at Coralcave Perimeter: 100K kills left",
-      "Nutto at The Roots: 100K kills left",
       "Dedotated Ram at Equinox Valley: 100K kills left"
      ]
     },
@@ -110,10 +118,8 @@
      "do": "CHOWs: 98 of 108 done. Closest:",
      "why": "counted on your best Barbarian (him)",
      "sub": [
-      "Green Mushroom at Mummy Memorial: 864K kills left",
       "Spearfish at Pinpoint Summit: 1M kills left",
       "Coralcave Guardian at Coralcave Perimeter: 1M kills left",
-      "Nutto at The Roots: 1M kills left",
       "Dedotated Ram at Equinox Valley: 1M kills left"
      ]
     }
@@ -127,11 +133,6 @@
       "Pulse (Aug): for money, 10-15 points on Yummy Peach Ring and 5 on Bundt Cake",
       "Pulse: push mastery to 15, it scales hard after 10"
      ]
-    },
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
     },
     {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
@@ -172,24 +173,24 @@
      "why": "bubbles and vials are account-wide",
      "sub": [
       "Sigils are the weakest part of Alchemy (tier 1/8)",
-      "The Loot Pile sigil (more sailing chests) would take one character about 2 days",
+      "The Loot Pile sigil (more sailing chests) would take one character about 4 days",
       "Seats follow the biggest need: move someone onto sigils only while something is waiting on them, and never empty the cauldrons",
       "Bubble goals: Stronk Tools 615 -> 630; Warriors Rule (Printing!) 765 -> 950; Multorange 270 -> 570; Slabi Orefish 79 -> 540",
       "Push Premigreen to 270 (now 77)"
      ]
     },
     {
-     "do": "Lab: 18 of 18 lab bonuses on, 21 of 24 jewels on (21 owned)",
-     "why": "lab bonuses only work when connected",
+     "do": "Lab: 9 of 18 lab bonuses on, 13 of 24 jewels on (21 owned)",
+     "why": "Some bonuses are off: check connections",
      "sub": [
       "Autistachio isn't souped up, so his lab range is lower"
      ]
     },
     {
-     "do": "Summoning: claim the familiar EXP (15.9M EXP, 0.1d of it)",
+     "do": "Summoning: claim the familiar EXP (22.4M EXP, 0.3d of it)",
      "why": "winner bonuses are big multipliers",
      "sub": [
-      "19 upgrades are basically free right now: Unit Health, Unit Wellness, Unit Constitution, Unit Hitpoints, Red Summoning, Unit Blood",
+      "22 upgrades are basically free right now: Unit Health, Green Summoning, Unit Wellness, Unit Constitution, Unit Ache Pea, Unit Hitpoints",
       "Push Zerg SurpriseReward to 101 (now 100)",
       "Push 49.24x Total DMG to 360 (now 49.2)"
      ]
@@ -240,12 +241,22 @@
      "sub": []
     },
     {
-     "do": "Worship: worship level 95, charge full in 21d 0h",
+     "do": "Worship: worship level 95, charge full in 22d 14h",
      "why": "charge and souls keep worship moving",
      "sub": []
     },
     {
      "do": "3D Printer slots: printing: Jungle Logs (1.7B), Oak Logs (4B) | samples held: Oak Logs 4B, Bleach Logs 2.5B, Jungle Logs 1.7B, Potty Rolls 514M, Wispy Lumber 241M",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Talents: switch to talent preset 1 (fighting) for where he is parked",
+     "why": "the other preset holds the wrong talents for this job",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
      "why": "",
      "sub": []
     },
@@ -261,11 +272,6 @@
     }
    ],
    "house": [
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
-    },
     {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
      "why": "",
@@ -306,14 +312,11 @@
    "class": "Siege Breaker",
    "daily": [
     {
-     "do": "Sailing: claim chests every time you're on",
-     "why": "The pile holds 30 and fills in about 48 minutes, and every chest is an artifact roll",
+     "do": "Sailing: push Fang of the Gods to 4 (now 0)",
+     "why": "artifacts and treasure",
      "sub": [
-      "GOAL: raise artifact find so new tiers are reachable",
-      "1",
-      "2",
-      "3",
-      "4"
+      "Push Anyone Minor Linked to Purrmep to 1 (now 0)",
+      "Push Moai HeadGet bonuses from all shrines from any map! You must be in same map/worl to 7 (now 6)"
      ]
     },
     {
@@ -336,22 +339,22 @@
      "do": "Luminous Menagerie (own intervention): claim 2 missions",
      "why": "",
      "sub": [
-      "Buy more Menagerie Missions, Research EXP gains, Cooking Speed with Lumi (you have 5,344)",
+      "Buy more Menagerie Missions, Research EXP gains, Cooking Speed with Lumi (you have 6,492)",
       "Next rank unlocks: +0 Organic Labels to use in the Exotic Market (rank 8 required)",
-      "Missions in progress: Account LV 9,520 / 10,000, Sneaking Mastery 2 / 3, Total Depths, including Manic 212 / 500, Crops Discovered 207 / 225",
+      "Missions in progress: Account LV 9,544 / 10,000, Sneaking Mastery 2 / 3, Total Depths, including Manic 212 / 500, Crops Discovered 208 / 225",
       "Push Shells needed for Menagerie Rank 7 to 3 (now 0)",
-      "Push Mission 1 to 10000 (now 9520)"
+      "Push Mission 1 to 10000 (now 9544)"
      ]
     },
     {
-     "do": "W7 minis: spend 1 Legend Talent points: Coral Restoration first (Griffy: +60% daily coral, an absolute must)",
+     "do": "W7 minis: spend -10 Legend Talent points: Coral Restoration first (Griffy: +60% daily coral, an absolute must)",
      "why": "Keep Blue Ribbon and Extended Database on hold",
      "sub": [
-      "TOP dailies: use 3 Jelly operations",
-      "Cheap Sushi upgrades: Hourly Wage Meter, Sushi Tier Vision, Fuel Capacity III, Shake N' Bake, Customer Surcharge III",
-      "Minehead: buy Base Damage I, Mega Damage I, Miney Farmey I",
-      "Beat Threadhead next: +80 max lvs for blessing upgrades, for all divinities",
-      "Glimbo: make 12 trades (Char Coral, Divinity Pearl, Dioxide Synthesis, Purple Salt...)"
+      "TOP dailies: use 3 Jelly operations, spend Sushi fuel (nearly full)",
+      "Cheap Sushi upgrades: Hourly Wage Meter, Fastburn Fuel I, Fuel Capacity I, Customer Surcharge I, Fastburn Fuel II",
+      "Clam: buy Multi-Scalping (331K pearls), Frugality (374K pearls)",
+      "Minehead: buy Base Damage I, Bettah Numbahs, Mega Damage I, Miney Farmey I",
+      "Beat Threadhead next: +80 max lvs for blessing upgrades, for all divinities"
      ]
     },
     {
@@ -370,7 +373,7 @@
      ]
     },
     {
-     "do": "Worship: worship level 84, charge full in 18d 16h",
+     "do": "Worship: worship level 84, charge full in 14d 3h",
      "why": "charge and souls keep worship moving",
      "sub": []
     },
@@ -378,22 +381,27 @@
      "do": "Sushi: spend bucks in this order",
      "why": "new sushi types give bonuses",
      "sub": [
-      "Fuel 468K / 546K, 20 sushi types unlocked",
+      "Fuel 546K / 546K, 20 sushi types unlocked",
       "Then Fastburn Fuel I and II (fuel per hour)",
       "Then Hourly Wage Meter and Customer Surcharge I (more bucks)"
      ]
     },
     {
-     "do": "Legend talents (Whallamus): 1 points unspent, spend in this order",
+     "do": "Legend talents (Whallamus): -10 points unspent, spend in this order",
      "why": "sourced order, best first",
      "sub": [
-      "Picasso Gaming (3/5): Pulse: A+",
+      "Picasso Gaming (4/5): Pulse: A+",
       "Blue Ribbon Certification (0/4): Pulse: A",
       "Best Story Ever Told (0/3): Pulse: mid A",
       "Buy One Get One Free (0/2): Pulse: high A, needs the Exotic Market unlocked",
       "Two Time Jelly Operation (0/6): Pulse: big progression but 12 points and needs Jelly unlocked",
       "Minehead My Beloved (0/6): Pulse: big progression but 12 points and needs the Lumi mechanic"
      ]
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
+     "why": "",
+     "sub": []
     },
     {
      "do": "Traps: nothing needed",
@@ -408,23 +416,15 @@
    ],
    "house": [
     {
-     "do": "Arcade: 283 balls, 47 gold balls. Spend gold balls in this order from the current rotation:",
+     "do": "Arcade: 292 balls, 47 gold balls. Spend gold balls in this order from the current rotation:",
      "why": "arcade shop bonuses are account-wide",
      "sub": [
-      "+% Multikill per Tier (level 25) (Griffy: strong)",
-      "x Research XP (level 31) (Griffy: a must)",
-      "+% Deathbringer Bones (level 53) (Griffy: useful for the masterclass)",
       "Griffy: wait for a gold-ball multiplier event before spending balls"
      ]
     },
     {
-     "do": "Zenith Market: 6 clusters. True Zen level 6 costs 8: save, 2 more clusters",
+     "do": "Zenith Market: 11 clusters. True Zen level 8 costs 10: buy it",
      "why": "Pulse: True Zen multiplies statue bonuses including the dragon statue, push it",
-     "sub": []
-    },
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
      "sub": []
     },
     {
@@ -482,9 +482,9 @@
      "why": "bits and nuggets",
      "sub": [
       "the garden is full, harvest it",
-      "Dig with the shovel and collect the squirrel's acorns, neither has been touched in 20h",
-      "Snail is level 14 of 30 (64% success, 16% reset chance)",
-      "Next superbit: Monument Infimulti at 9.0e54 bits (you have 6.4e53)"
+      "Dig with the shovel and collect the squirrel's acorns, neither has been touched in 3h",
+      "Snail is level 14 of 30 (66% success, 16% reset chance)",
+      "Next superbit: Monument Infimulti at 9.0e54 bits (you have 1.7e54)"
      ]
     },
     {
@@ -493,8 +493,8 @@
      "sub": [
       "Next Royal statue to build: Plutus the Prosperous",
       "Armory upgrades to push: Royal Talent Points I, Solo Militia Status, Blunder Outpost PTS",
-      "Affordable Armory upgrades: Anti-Rodent Power Move I, Mighty Militia",
-      "Armory levels 225 / 230 for the next shelf",
+      "Affordable Armory upgrades: Solo Militia Status, Anti-Rodent Power Move I, Mighty Militia",
+      "Armory levels 226 / 230 for the next shelf",
       "Push Plutus the Prosperous to 1 (now 0)"
      ]
     },
@@ -519,12 +519,12 @@
      ]
     },
     {
-     "do": "World bosses + minibosses (DK drop rate): dr Defecaus: up now, go kill it",
+     "do": "World bosses + minibosses (DK drop rate): dr Defecaus: up now, go kill it (timers read 2026-11-27T17:07Z, older than this save: check in game)",
      "why": "",
      "sub": [
       "Dilapidated Slush: 0/10 stored \u00b7 wait, run at 10 (+1 in 6 days \u00b7 4 kills)",
       "Domeo Magmus: 0/6 stored \u00b7 wait, run at 6 (Current 0 \u00b7 +1 in 1 day)",
-      "Baba Yaga: Killed \u00b7 21h 48m",
+      "Baba Yaga: Killed \u00b7 21h 48m (timers read 2026-11-27T17:07Z, older than this save: check in game)",
       "Mutated Mush: 0/8 stored \u00b7 wait, run at 8 (Current 0 \u00b7 +1 in 2 days)",
       "Demented Spiritlord: 0/6 stored \u00b7 wait, run at 6 (Current 0 \u00b7 +1 in 2 days)"
      ]
@@ -560,12 +560,22 @@
      ]
     },
     {
-     "do": "Worship: worship level 101, charge full in 16d 21h",
+     "do": "Worship: worship level 101, charge full in 12d 0h",
      "why": "charge and souls keep worship moving",
      "sub": []
     },
     {
      "do": "3D Printer slots: printing: Copper Ore (1.3B), Godshard Ore (8.5M) | samples held: Copper Ore 1.3B, Iron Ore 714M, Gold Ore 357M, Dementia Ore 97.2M, Void Ore 70.4M",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Talents: switch to talent preset 1 (skilling) for where he is parked",
+     "why": "the other preset holds the wrong talents for this job",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3, 5, 6 not built to plan yet (card build session).",
      "why": "",
      "sub": []
     },
@@ -582,17 +592,12 @@
    ],
    "house": [
     {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
      "why": "",
      "sub": []
     },
     {
-     "do": "Royal Guardian super talents: locked, 295 more Royal Armory upgrade levels",
+     "do": "Royal Guardian super talents: locked, 294 more Royal Armory upgrade levels",
      "why": "Griffy + Pulse: RG talents can only be supered after that shelf. Hold these picks for it",
      "sub": [
       "Pit of Pages: Pulse: a 5-6x true multi, 100% worth a super on the scaling setup (feeds the POW goal)",
@@ -633,7 +638,7 @@
      "sub": []
     },
     {
-     "do": "Divinity: push 50% Offering: Hearty Meal to 100% (now 49.9%)",
+     "do": "Divinity: push 50% Offering: Hearty Meal to 100% (now 61.8%)",
      "why": "divinity points drive talent levels and class EXP",
      "sub": [
       "Trick from Pulse and Griffy: characters linked to Goharut who sit in Lab tubes count as meditating, so they earn Divinity and Lab EXP at the same time",
@@ -644,9 +649,10 @@
      ]
     },
     {
-     "do": "The Hole (all 15 caverns + villagers): glowshroom Tunnels: Level 1 Another Try: Reset investments for Opals, Conjuror PTS, Jar Collectible  (9 / 6) READY",
+     "do": "The Hole (all 15 caverns + villagers): villagers: You have 2 unspent Conjuror Pts! (36 / 38) READY",
      "why": "",
      "sub": [
+      "Glowshroom Tunnels: Level 1 Another Try: Reset investments for Opals, Conjuror PTS, Jar Collectible  (9 / 6) READY",
       "Glowshroom Tunnels: Level 1 1000000 Opals: +1 Opal (9 / 4) READY"
      ]
     },
@@ -690,11 +696,21 @@
      "do": "Worship: charges much faster than the rest, probably from mage worship talents (my read)",
      "why": "charge and souls keep worship moving",
      "sub": [
-      "Worship level 128, charge full in 10d 16h"
+      "Worship level 128, charge full in 9d 4h"
      ]
     },
     {
      "do": "3D Printer slots: printing: Oak Logs (3.5B), Effervescent Logs (11M) | samples held: Oak Logs 3.5B, Bleach Logs 1.4B, Forest Fibres 625M, Potty Rolls 291M, Tropilogs 452M",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
+     "why": "the other preset holds the wrong talents for this job",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
      "why": "",
      "sub": []
     },
@@ -707,7 +723,7 @@
      "do": "Divinity: buy these blessings, then god rank",
      "why": "blessings raise divinity points; god ranks add divinity EXP, class EXP and talent points (Pulse, Griffy)",
      "sub": [
-      "Coral Kid next: Divinity Skill Lv boosts Minor Link Bonuses a bit more! (You... at 2.16B points (have 2.6B)",
+      "Coral Kid next: Divinity Skill Lv boosts Minor Link Bonuses a bit more! (You... at 2.16B points (have 3.21B)",
       "Blessing: Harriep (+% Divinity PTS Gain)",
       "Blessing: Purrmep (+% Sailing Speed)",
       "Blessing: Goharut (+% Sailing Speed)",
@@ -717,11 +733,6 @@
     }
    ],
    "house": [
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
-    },
     {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
      "why": "",
@@ -765,14 +776,14 @@
      ]
     },
     {
-     "do": "Breeding: spend Dead DNA on Grand Martial of Shinytown first (faster shiny levels; Pulse: faster shinies are priority one), then Paint Bucket, Breedability Mobs",
-     "why": "Dead DNA comes from trashing pets (2 to 6 each, idleon.wiki), so trash every egg you don't keep",
+     "do": "Breeding: push Bonuses from All Meals to 13 (now 5)",
+     "why": "pets and shinies",
      "sub": [
       "Eggs are full",
       "Quickest shiny goals: Walking Stick for base critters per trap, Choccie for drop rate, Mashed Potato for base efficiency for all skills",
       "Zack's plan (2026-11-21): while pushing Dead DNA, hatch and trash as many eggs as possible (no multiplying focus)",
       "The Crucible (big cooking speed) opens through the Menagerie on Autisticles",
-      "Push Bonuses from All Meals to 13 (now 5)"
+      "Push Farming Crop Depot - Crayon:+3,134/4971.6% Mobs to 330 (now 208)"
      ]
     },
     {
@@ -784,18 +795,18 @@
      "do": "Compass: kill Bloodbane the Conglomerate next (Hell Hath Frozen Over)",
      "why": "It's abomination #19 and it lets Tempest Form into the W3 town",
      "sub": [
-      "Next Compass tier needs: Elemental Path 15 -> 20, Fighter Path 19 -> 22, Exalted Stamps 5 -> 6, Medallion Magnate 3 -> 4, Moon of Damage 33 -> 120, Opa Opa Opa! 0 -> 8, Abominations Slain 18 -> 25, Medallions Collected 35 -> 50",
+      "Next Compass tier needs: Elemental Path 15 -> 20, Fighter Path 19 -> 22, Exalted Stamps 5 -> 6, Medallion Magnate 3 -> 4, Moon of Damage 33 -> 120, Opa Opa Opa! 0 -> 8, Abominations Slain 18 -> 25, Medallions Collected 38 -> 50",
       "Elemental Path's next level costs 284M stardust, you're 0 short",
-      "39 upgrades cost almost nothing right now, just buy them: Stone Failsafe, Printer Sale I, Jade Coinage, Ring Drops II, Critter Culture, Moon of Sneak",
+      "49 upgrades cost almost nothing right now, just buy them: Stone Failsafe, Printer Sale I, Jade Coinage, Ring Drops II, Critter Culture, Moon of Sneak",
       "Your call: Exalted Stamps (1.46B stardust) gives one more stamp exalt, but it delays Elemental Path by the same amount",
       "Print day: Moon of Print is 102 of 200, next level 281K stardust"
      ]
     },
     {
-     "do": "Worship totems (waves): use charge from Autistabish and Autistomatic first, they fill up soonest",
+     "do": "Worship totems (waves): use charge from Autistacular and Autiszemo first, they fill up soonest",
      "why": "charge and souls keep worship moving",
      "sub": [
-      "Worship level 99, charge full in 16d 19h",
+      "Worship level 99, charge full in 11d 21h",
       "Runs the totems: spend charge on the prayer-unlock waves first, then the lowest totem",
       "Closest prayer unlocks: Clash of Cans to wave 131 for Glitterbug"
      ]
@@ -832,11 +843,21 @@
      "do": "Worship: runs the totems: spend charge on the prayer-unlock waves first, then the lowest totem",
      "why": "charge and souls keep worship moving",
      "sub": [
-      "Worship level 99, charge full in 16d 19h"
+      "Worship level 99, charge full in 11d 21h"
      ]
     },
     {
      "do": "3D Printer slots: printing: Spore Cap (1.4M), Spore Cap (1.4M) | samples held: Spore Cap 1.4M, Bullfrog Horn 238K, Pocket Sand 386K, Floof Ploof 173K, Cracked Glass 189K",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
+     "why": "the other preset holds the wrong talents for this job",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
      "why": "",
      "sub": []
     },
@@ -858,11 +879,6 @@
      "sub": [
       "Pulse: Verminous farms on the Insta castle map with Wind Walker + candy (mixed reports, test it)"
      ]
-    },
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
     },
     {
      "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
@@ -928,7 +944,7 @@
      "do": "Research: level 50 unlocks Posty Note: adds another shape to your research grid",
      "why": "research unlocks W7 upgrades",
      "sub": [
-      "Research is level 41, next level in 50% of the level left",
+      "Research is level 41, next level in 39% of the level left",
       "Use today's 9 observation rolls (16 found)",
       "Push Daily Operating Procedure (G3):Gives you +1 more operations to start every day a to 4 (now 1)",
       "Push Oboe Coral Trio (Puffpuff Overpass)Found in World 7, half way up your climb to P to 1 (now 0)",
@@ -939,9 +955,9 @@
      "do": "Greenstacks: buy the daily vendor items that are closest to a greenstack: Potent Speed Potion, Potent Strength Potion, Potent EXP Potion, Potent Life Potion, Yeti Ham",
      "why": "greenstacks count for Equinox",
      "sub": [
-      "Close to a greenstack, don't spend these: Spontaneity Salts (75%), Bonemeal (75%)",
-      "10 quest items still need greenstacks while you can still get them",
-      "Push Collect 200 Greenstacks to 200 (now 179)",
+      "Close to a greenstack, don't spend these: Void Bar (80%), Spontaneity Salts (75%), Bonemeal (75%)",
+      "8 quest items still need greenstacks while you can still get them",
+      "Push Collect 200 Greenstacks to 200 (now 182)",
       "Push Potent Speed Potion (W4 Town) to 100% (now 64%)",
       "Push Potent Strength Potion (W4 Town) to 100% (now 63%)"
      ]
@@ -950,7 +966,7 @@
      "do": "Gem / Event shops + votes: push Conjuror Pts (Caverns) to 1 (now 0)",
      "why": "",
      "sub": [
-      "This week's Ballot bonus: Boosts Artifact Find chance in Sailing by 1.31x (x2.29)",
+      "This week's Ballot bonus:  (x1.8399999999999999)",
       "Push Opal (Caverns) to 8 (now 0)",
       "Push Daily Teleports (Dailies N' Resets) to 10 (now 0)",
       "Push Golden Tome: Adds a new DMG Multi bonus type to the Tome in World 4 to 35 (now 8)",
@@ -971,7 +987,7 @@
      ]
     },
     {
-     "do": "Worship: worship level 113, charge full in 21d 0h",
+     "do": "Worship: worship level 113, charge full in 22d 21h",
      "why": "charge and souls keep worship moving",
      "sub": []
     },
@@ -984,12 +1000,22 @@
      "do": "Greenstacks: your closest five you can farm yourself",
      "why": "each one counts for Equinox",
      "sub": [
+      "Void Bar (80%): smelt in the Forge",
       "Bonemeal (75%): farm the monster",
-      "Void Bar (71%): smelt in the Forge",
       "Pingy (24%): skill it",
       "Eye of Koi (16%): farm the monster",
       "Dung Beat (14%): skill it"
      ]
+    },
+    {
+     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
+     "why": "the other preset holds the wrong talents for this job",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
+     "why": "",
+     "sub": []
     },
     {
      "do": "Traps: move all to Honker at W3 Wam Wonderland, Royal traps, 40 hours",
@@ -1007,9 +1033,14 @@
    ],
    "house": [
     {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
+     "do": "Super talents: spend the open points",
+     "why": "every pick is from Griffy or Pulse (resettable if needed)",
+     "sub": [
+      "Talent preset 1 (fighting): Extra Bags is supered but isn't in his tree (left from an old class?). Reset it before spending",
+      "Talent preset 1 (fighting): 1 open, hold them (no sourced pick)",
+      "Talent preset 2 (skilling): Happy Dude is supered but isn't in his tree (left from an old class?). Reset it before spending",
+      "Talent preset 2 (skilling): super Right Hand Of Action (Griffy+Pulse: others get skill efficiency, bigger prints)"
+     ]
     },
     {
      "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
@@ -1026,20 +1057,6 @@
      "why": "research gates W7 upgrades",
      "sub": [
       "Next research unlock at level 50"
-     ]
-    },
-    {
-     "do": "Voting: your pick (reset day)",
-     "why": "every option on the ballot, with why for and against",
-     "sub": [
-      "Bonus Ballot, on the ballot now:",
-      "Increases STR AGI WIS and LUK for all characters by +15% (50% now). needs checking",
-      "Increases Defence and Accuracy by +30% for all characters (7% now). needs checking",
-      "Increases Trapping EXP gain and Worship EXP gain by +54% (43% now). needs checking",
-      "Meritocracy, on the ballot now:",
-      "Multiplies all Gaming Bits gained by 12.90x (73% now). needs checking",
-      "Multiplies your chance to get Double Snail Mail each day by 3.55x (8% now). needs checking",
-      "All material costs for upgrading Stamp Max LV are 2.70x lower (19% now). needs checking"
      ]
     },
     {
@@ -1101,7 +1118,7 @@
      "why": "Spelunking is the account goal",
      "sub": [
       "Spelunking is the biggest thing holding the account back",
-      "Amber buys in sourced order (you have 495T amber): Discovering the POW 192 -> 193: 1B amber (can buy)",
+      "Amber buys in sourced order (you have 57.8T amber): Discovering the POW 192 -> 193: 1,032 amber (can buy)",
       "Push Level 85 to 100% (now 7.8%)"
      ]
     },
@@ -1128,8 +1145,18 @@
      ]
     },
     {
-     "do": "Worship: worship level 87, charge full in 15d 18h",
+     "do": "Worship: worship level 87, charge full in 8d 18h",
      "why": "charge and souls keep worship moving",
+     "sub": []
+    },
+    {
+     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
+     "why": "the other preset holds the wrong talents for this job",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3, 5, 6 not built to plan yet (card build session).",
+     "why": "",
      "sub": []
     },
     {
@@ -1147,22 +1174,12 @@
    ],
    "house": [
     {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
-    },
-    {
-     "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
      "why": "",
      "sub": []
     },
     {
-     "do": "Royal Guardian super talents: locked, 295 more Royal Armory upgrade levels",
+     "do": "Royal Guardian super talents: locked, 294 more Royal Armory upgrade levels",
      "why": "Griffy + Pulse: RG talents can only be supered after that shelf. Hold these picks for it",
      "sub": [
       "Pit of Pages: Pulse: a 5-6x true multi, 100% worth a super on the scaling setup (feeds the POW goal)",
@@ -1245,8 +1262,13 @@
      "do": "Worship: charges much faster than the rest, probably from mage worship talents (my read)",
      "why": "charge and souls keep worship moving",
      "sub": [
-      "Worship level 84, charge full in 8d 13h"
+      "Worship level 84, charge full in 3d 14h"
      ]
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
+     "why": "",
+     "sub": []
     },
     {
      "do": "Traps: move all to Blobfish at W4 Hyperion Nebula, Cocoa Tunnel, Royal traps, 40 hours",
@@ -1257,11 +1279,6 @@
     }
    ],
    "house": [
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
-    },
     {
      "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
      "why": "",
@@ -1301,19 +1318,19 @@
    "class": "Death Bringer",
    "daily": [
     {
-     "do": "Stamps: raise the max level on Ladle, Bugsack, Bag o Heads, you have the materials",
+     "do": "Stamps: raise the max level on Ladle, Bugsack, Bag o Heads, Golden Apple, you have the materials",
      "why": "stamps are account buffs",
      "sub": [
-      "Max-level raises still short: Multitool (24.7B more Dust Mote), Potion (750 more Icing Ironbite), Mason Jar (8.07K more Glass Shard), Matty Bag (200 more Cramped Material Pouch)",
+      "Max-level raises still short: Multitool (24.7B more Dust Mote), Potion (750 more Icing Ironbite), Matty Bag (203 more Cramped Material Pouch)",
       "If a stamp material is also used by another system, the card flags it",
-      "Push Total Stamp Levels to 11000 (now 9907)",
+      "Push Total Stamp Levels to 11000 (now 9919)",
       "Push Skill to 180 (now 160)",
       "Push Skill to 1 (now 0)"
      ]
     },
     {
      "do": "Upgrade Vault: buy Wicked Smart first: 365 -> 387",
-     "why": "Autiszemo has the coins for about 17 levels",
+     "why": "Autiszemo has the coins for about 19 levels",
      "sub": [
       "Then Bullseye 479 -> 500",
       "Then Kitchen Dream-mare 315 -> 327",
@@ -1324,7 +1341,7 @@
     },
     {
      "do": "Equinox: spend the Equinox bar",
-     "why": "It refills in about 75 minutes, so spend it every time you're on",
+     "why": "It refills in about 370 minutes, so spend it every time you're on",
      "sub": [
       "Faster bar: Defeat the Caustic Glaciaxus (0 / 1) gives +25% fill; Get 2000 kills in a single Killroy run (1296 / 2000) gives +35% fill",
       "Locked: Equinox Symbols, Voter Rights, Nonstop Studies, Hmm... (unlocks: Dream 29; Dream 32; Nightmare 1 (unlock with Research: Equinox Nightmares))",
@@ -1333,7 +1350,7 @@
      ]
     },
     {
-     "do": "Salt Lick: buy Salt Lick levels: Refinery Speed +2, Total Damage dealt. +3, Cooking Mastery EXP gain, a feature unlo +4",
+     "do": "Salt Lick: buy Salt Lick levels: Refinery Speed +2, Total Damage dealt. +2, Cooking Mastery EXP gain, a feature unlo +4",
      "why": "",
      "sub": [
       "Still to max: Refinery Speed 76/100, Total Damage dealt. 178/250, Cooking Mastery EXP gain, a feature unlo 35/100",
@@ -1358,8 +1375,8 @@
      ]
     },
     {
-     "do": "Tome (account-wide): tome is at 36,093 points, 1,725 short of the next bracket",
-     "why": "Every other card raises it",
+     "do": "Tome (account-wide): nothing needed",
+     "why": "",
      "sub": []
     },
     {
@@ -1381,12 +1398,22 @@
      "sub": []
     },
     {
-     "do": "Worship: worship level 74, charge full in 15d 18h",
+     "do": "Worship: worship level 74, charge full in 8d 10h",
      "why": "charge and souls keep worship moving",
      "sub": []
     },
     {
      "do": "3D Printer slots: printing: Firefly (582K), Firefly (582K) | samples held: Fly 99.5M, Butterfly 4.9M, Sentient Cereal 2.8M, Fruitfly 1.6M, Mosquisnow 981K",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
+     "why": "the other preset holds the wrong talents for this job",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
      "why": "",
      "sub": []
     },
@@ -1426,16 +1453,6 @@
     }
    ],
    "house": [
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
-    },
-    {
-     "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
-     "why": "",
-     "sub": []
-    },
     {
      "do": "Missing bag: Rucksack Of Riches: 1 slots (Vendor)",
      "why": "",
@@ -1485,20 +1502,20 @@
      "do": "Gallery + capes: push King of Food20% Food Effect to 1 (now 0)",
      "why": "trophies and nametags for everyone",
      "sub": [
-      "Gallery 15 podiums, bonus 1.46x",
-      "Push Riftwalker Nametag78.15% Xp From MonstersLevel Multi: 1x to 5 (now 1)",
+      "Gallery 15 podiums, bonus 1.16x",
+      "Push Riftwalker Nametag63.15% Xp From MonstersLevel Multi: 1x to 5 (now 1)",
       "Push Easter Egg Backpack+10% Total DamageNot deposited to 1 (now 0)",
       "Push +1% Cape Vine Multi per deposited cape: +15% to 23 (now 15)",
-      "Push Golden Vines: 1Ask Cathie for the next one at class Lv 1000 to 1000 (now 938)"
+      "Push Golden Vines: 1Ask Cathie for the next one at class Lv 1000 to 1000 (now 940)"
      ]
     },
     {
      "do": "Dancing Coral (Barnacle Curb, right side platform): level these when you have the coral",
      "why": "raises shrine caps; Vibrant Coral is +5% POW",
      "sub": [
-      "Reef Coral level 224: +2% Daily Reef Coral",
-      "Vibrant Coral level 208: +5% Spelunking POW",
-      "Glowing Coral level 210: +3% Spelunking Amber gain"
+      "Reef Coral level 226: +2% Daily Reef Coral",
+      "Vibrant Coral level 211: +5% Spelunking POW",
+      "Glowing Coral level 218: +3% Spelunking Amber gain"
      ]
     },
     {
@@ -1510,7 +1527,7 @@
      ]
     },
     {
-     "do": "Active play setup: autistachio- Kill 1M Green Mushrooms for W2 Weekly Boss (139.64K -> 1000K)",
+     "do": "Active play setup: autistachio- Kill 1M Green Mushrooms for W2 Weekly Boss (255.87K -> 1000K)",
      "why": "",
      "sub": [
       "Autistachio- Kill 1M Crabcakes for W2 Weekly Boss (26.04K -> 1000K)",
@@ -1522,12 +1539,17 @@
      "do": "Worship: lowest worship level on the account, sit at a totem for a few hours to catch up (my read)",
      "why": "charge and souls keep worship moving",
      "sub": [
-      "Worship level 70, charge full in 15d 21h"
+      "Worship level 70, charge full in 8d 13h"
      ]
     },
     {
      "do": "3D Printer slots: no samples and no prints on this character: 2 print slots idle",
      "why": "Take samples on it (resets Gold Relic? unconfirmed per character; check before)",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
+     "why": "",
      "sub": []
     },
     {
@@ -1545,9 +1567,12 @@
    ],
    "house": [
     {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
+     "do": "Super talents: spend the open points",
+     "why": "every pick is from Griffy or Pulse (resettable if needed)",
+     "sub": [
+      "Talent preset 1 (skilling): 4 open, hold them (no sourced pick)",
+      "Talent preset 2 (fighting): 4 open, hold them (no sourced pick)"
+     ]
     },
     {
      "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",

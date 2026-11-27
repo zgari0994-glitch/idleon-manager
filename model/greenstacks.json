@@ -1,18 +1,32 @@
 {
- "snapshot": "20261127T1704",
- "tier": "179 out of max (realistic) 452",
+ "snapshot": "20261127T2212",
+ "tier": "182 out of max (realistic) 452",
  "near": [
+  {
+   "item": "Void Bar",
+   "pct": 80.0,
+   "group": "Difficulty Group 10 Item recommendations",
+   "tab": "Other Skilling Resources",
+   "owned": 8035853.0,
+   "need": 1964147.0,
+   "rate_hr": 181222.94467682487,
+   "window": {
+    "from": "20261127T1704",
+    "hours": 5.1
+   },
+   "replace": "its normal source"
+  },
   {
    "item": "Spontaneity Salts",
    "pct": 75.0,
    "group": "Timegated Item recommendations",
    "tab": "Other Skilling Resources",
-   "owned": 7553095.0,
-   "need": 2446905.0,
-   "rate_hr": 53196.827043217454,
+   "owned": 7540745.0,
+   "need": 2459255.0,
+   "rate_hr": -2410.1650496535544,
    "window": {
-    "from": "20261126T2330",
-    "hours": 17.6
+    "from": "20261127T1704",
+    "hours": 5.1
    },
    "replace": "Refinery (salt output vs what the chain consumes)"
   },
@@ -25,8 +39,8 @@
    "need": 2491731.0,
    "rate_hr": 0.0,
    "window": {
-    "from": "20261126T2330",
-    "hours": 17.6
+    "from": "20261127T1704",
+    "hours": 5.1
    },
    "replace": "its normal source"
   }
@@ -63,14 +77,14 @@
    "tab": "Vendor Shops"
   },
   {
-   "item": "Magma Barrel",
+   "item": "Average Life Potion",
    "pct": 13.0,
    "group": "Timegated Item recommendations",
    "tab": "Vendor Shops"
   },
   {
-   "item": "Average Life Potion",
-   "pct": 12.0,
+   "item": "Magma Barrel",
+   "pct": 13.0,
    "group": "Timegated Item recommendations",
    "tab": "Vendor Shops"
   },
@@ -124,15 +138,13 @@
   }
  ],
  "endangered": [
-  "Employment Statistics- TP Pete: The Rats are to Blame!",
-  "Strange Rock- Stiltzcho: No Stone Unturned",
-  "Casual Confidante- Goldric: Only Winners have Portraits",
-  "Ketchup Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce",
   "Claiming Cashe- Goldric: Only Winners have Portraits",
-  "Loomi's Room Key- Loominadi: Rhyming is Key!",
-  "Triumphant Treason- Goldric: Only Winners have Portraits",
+  "Strange Rock- Stiltzcho: No Stone Unturned",
   "Monster Rating- XxX_Cattleprod_XxX: Ok, NOW it's Peak Gaming!",
-  "Time Thingy- Funguy: Partycrastination",
-  "Mustard Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce"
+  "Employment Statistics- TP Pete: The Rats are to Blame!",
+  "Loomi's Room Key- Loominadi: Rhyming is Key!",
+  "Casual Confidante- Goldric: Only Winners have Portraits",
+  "Triumphant Treason- Goldric: Only Winners have Portraits",
+  "Time Thingy- Funguy: Partycrastination"
  ]
 }

@@ -1,19 +1,19 @@
 {
- "snapshot": "20261127T1704",
+ "snapshot": "20261127T2212",
  "cur": {
-  "at": "2026-11-27T17:04:51.733000Z",
+  "at": "2026-11-27T22:12:18.602440Z",
   "kills": {
    "Green Mushroom": [
     "World 1",
-    83042237101.68193
+    83042701844.5229
    ],
    "Red Mushroom": [
     "World 1",
-    1104097624.4875598
+    1104143219.6691337
    ],
    "Frog": [
     "World 1",
-    69204297313.08118
+    82309819859.26463
    ],
    "Bored Bean": [
     "World 1",
@@ -29,7 +29,7 @@
    ],
    "Carrotman": [
     "World 1",
-    1406130885.0714974
+    1407279966.0538445
    ],
    "Glublin": [
     "World 1",
@@ -129,11 +129,11 @@
    ],
    "Snowman": [
     "World 3",
-    10913508950.94144
+    10922979662.636593
    ],
    "Penguin": [
     "World 3",
-    14148267303.493967
+    14149769328.421904
    ],
    "Thermister": [
     "World 3",
@@ -145,11 +145,11 @@
    ],
    "Cryosnake": [
     "World 3",
-    22548432883.702095
+    22559218452.109848
    ],
    "Bop Box": [
     "World 3",
-    11760213858.802923
+    11765346947.108051
    ],
    "Neyeptune": [
     "World 3",
@@ -201,7 +201,7 @@
    ],
    "Clammie": [
     "World 4",
-    5458735225.7217245
+    5758289841.579027
    ],
    "Octodar": [
     "World 4",
@@ -217,7 +217,7 @@
    ],
    "Suggma": [
     "World 5",
-    4352707044.471742
+    4872834575.645371
    ],
    "Maccie": [
     "World 5",
@@ -265,7 +265,7 @@
    ],
    "Tremor Wurm": [
     "World 5",
-    32412798292.89733
+    33783374645.20143
    ],
    "Sprout Spirit": [
     "World 6",
@@ -345,7 +345,7 @@
    ],
    "Noble Clam": [
     "World 7",
-    178587949.41015518
+    189796867.09589016
    ],
    "Litterfish": [
     "World 7",
@@ -365,7 +365,7 @@
    ],
    "Coralcave Crab": [
     "World 7",
-    9792853762.655893
+    9792863853.911951
    ],
    "Coralcave Guardian": [
     "World 7",
@@ -377,11 +377,11 @@
    ],
    "Boomy Mine": [
     "World 7",
-    58690576.96900179
+    59242366.85022813
    ],
    "Pirate Underling": [
     "World 7",
-    414631424.77989197
+    423487044.22091997
    ],
    "Pirate Deckhand": [
     "World 7",
@@ -401,7 +401,7 @@
    ],
    "Kelpfish": [
     "World 7",
-    14361252
+    19056520
    ],
    "Mantaray": [
     "World 7",
@@ -429,7 +429,7 @@
    ],
    "Baba Yaga": [
     "miniBosses",
-    35
+    37
    ],
    "Biggie Hours": [
     "miniBosses",
@@ -463,7 +463,7 @@
   "multi": {},
   "eclipse": null
  },
- "prev_at": "2026-11-26T23:30:12.207000Z",
+ "prev_at": "2026-11-27T17:04:51.733000Z",
  "groups": [
   {
    "name": "Complete a minimum of Eclipse Skull (1B) in W4",
@@ -635,8 +635,8 @@
      "res": "dementia-skull"
     },
     {
-     "label": "Kelpfish in Where the Kelp Meets Trench (986M remaining)",
-     "cur": "1%",
+     "label": "Kelpfish in Where the Kelp Meets Trench (981M remaining)",
+     "cur": "2%",
      "goal": "100%",
      "optional": true,
      "res": "dementia-skull"
@@ -656,8 +656,8 @@
      "res": "lava-skull"
     },
     {
-     "label": "Pirate Underling in Pirate Upper Deck (585M remaining)",
-     "cur": "41%",
+     "label": "Pirate Underling in Pirate Upper Deck (577M remaining)",
+     "cur": "42%",
      "goal": "100%",
      "optional": true,
      "res": "lava-skull"
@@ -677,8 +677,8 @@
      "res": "lava-skull"
     },
     {
-     "label": "Noble Clam in The Clamworks (821M remaining)",
-     "cur": "18%",
+     "label": "Noble Clam in The Clamworks (810M remaining)",
+     "cur": "19%",
      "goal": "100%",
      "optional": true,
      "res": "lava-skull"
@@ -1189,11 +1189,6 @@
      "goal": "100%"
     },
     {
-     "label": "Pirate Underling in Pirate Upper Deck (100M remaining)",
-     "cur": "0%",
-     "goal": "100%"
-    },
-    {
      "label": "Eggroll in Sushi Perimeter (100M remaining)",
      "cur": "0%",
      "goal": "100%"
@@ -1235,6 +1230,11 @@
     },
     {
      "label": "Dreadnaught Captain in Dreadnaught Chamber (100M remaining)",
+     "cur": "0%",
+     "goal": "100%"
+    },
+    {
+     "label": "Pirate Underling in Pirate Upper Deck (100M remaining)",
      "cur": "0%",
      "goal": "100%"
     },
@@ -1675,11 +1675,6 @@
      "goal": "100%"
     },
     {
-     "label": "Pirate Underling in Pirate Upper Deck (1B remaining)",
-     "cur": "0%",
-     "goal": "100%"
-    },
-    {
      "label": "Eggroll in Sushi Perimeter (1B remaining)",
      "cur": "0%",
      "goal": "100%"
@@ -1721,6 +1716,11 @@
     },
     {
      "label": "Dreadnaught Captain in Dreadnaught Chamber (1B remaining)",
+     "cur": "0%",
+     "goal": "100%"
+    },
+    {
+     "label": "Pirate Underling in Pirate Upper Deck (1000M remaining)",
      "cur": "0%",
      "goal": "100%"
     },
@@ -1888,7 +1888,7 @@
     {
      "label": "Carrotman in Vegetable Patch",
      "cur": "",
-     "goal": "1,204,043,068"
+     "goal": "1,204,260,944"
     },
     {
      "label": "Rats in Rats Nest",
@@ -2301,14 +2301,14 @@
      "goal": "51,615,528"
     },
     {
+     "label": "Kelpfish in Where the Kelp Meets Trench",
+     "cur": "",
+     "goal": "19,056,520"
+    },
+    {
      "label": "Shellslug in Barnacle Curb",
      "cur": "",
      "goal": "14,745,986"
-    },
-    {
-     "label": "Kelpfish in Where the Kelp Meets Trench",
-     "cur": "",
-     "goal": "14,361,252"
     },
     {
      "label": "Eamsy Earl in Seaweed Street",
@@ -2404,7 +2404,7 @@
     {
      "label": "Green Mushroom in Spore Meadows",
      "cur": "",
-     "goal": "44,249,373,330"
+     "goal": "44,249,394,395"
     },
     {
      "label": "Poop in Poopy Sewers",
@@ -2429,12 +2429,12 @@
     {
      "label": "Carrotman in Vegetable Patch",
      "cur": "",
-     "goal": "13,814,080"
+     "goal": "13,962,007"
     },
     {
      "label": "Frog in Froggy Fields",
      "cur": "",
-     "goal": "9,587,603"
+     "goal": "10,056,036"
     },
     {
      "label": "Nutto in Hollowed Trunk",
@@ -2862,17 +2862,17 @@
      "goal": "843,750"
     },
     {
+     "label": "Pirate Underling in Pirate Upper Deck",
+     "cur": "",
+     "goal": "13,667"
+    },
+    {
      "label": "Noble Clam in The Clamworks",
      "cur": "",
      "goal": "0"
     },
     {
      "label": "Spearfish in Pinpoint Summit",
-     "cur": "",
-     "goal": "0"
-    },
-    {
-     "label": "Pirate Underling in Pirate Upper Deck",
      "cur": "",
      "goal": "0"
     },
@@ -2926,30 +2926,22 @@
  ],
  "ar_tier": "16/23",
  "rate": {
-  "Frog": 490569538.1922229,
-  "Frost Flake": 212524.7607763381,
-  "Sir Stache": 1016664.1676614911,
-  "Bloque": 1719630.6840749972,
-  "Mamooth": 16152947.006922003,
-  "Snowman": 704636.819427096,
-  "Penguin": 1727550.2126228386,
-  "Quenchie": 1020653.6902727295,
-  "Cryosnake": 4490527.773715948,
-  "Bop Box": 265.4738293214994,
-  "Neyeptune": 461924.4629747029,
-  "Purp Mushroom": 344054.08276934456,
-  "TV": 63673900.59697484,
-  "Donut": 4556.192695883282,
-  "Demon Genie": 1608.0680103133425,
-  "Soda Can": 11524.487407195887,
-  "Flying Worm": 268.0113350499631,
-  "Gelatinous Cuboid": 268.0113350499631,
-  "Clammie": 111224.70404618907,
-  "Suggma": 64861353.7421382,
-  "Noble Clam": 2260301.9753001826,
-  "Litterfish": 991989.4618252025,
-  "Jellofish": 1915402.8239718482,
-  "Kelpfish": 817017.9277259441,
-  "Baba Yaga": 0.11378087756219919
+  "Green Mushroom": 90696.91922221582,
+  "Red Mushroom": 8898.13061234113,
+  "Frog": 2557609101.084441,
+  "Carrotman": 224248.97351304948,
+  "Snowman": 1848257.354097055,
+  "Penguin": 293127.77206773544,
+  "Cryosnake": 2104858.300981761,
+  "Bop Box": 1001748.1805552993,
+  "Clammie": 58459600.453825824,
+  "Suggma": 101505522.02450387,
+  "Tremor Wurm": 267474916.77887437,
+  "Noble Clam": 2187477.0567382495,
+  "Coralcave Crab": 1969.359729358031,
+  "Boomy Mine": 107684.58999918084,
+  "Pirate Underling": 1728218.9854161402,
+  "Kelpfish": 916305.3305591131,
+  "Baba Yaga": 0.3903101295002173
  }
 }

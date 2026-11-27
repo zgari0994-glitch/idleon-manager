@@ -1,63 +1,12 @@
-# Mechanics layer · game save 2026-11-27 12:04 PM ET
+# Mechanics layer · game save 2026-11-27 05:12 PM ET
 
 Rule-changers and account-wide buffs you own. Facts from the save; sources for missing items added separately.
 
-## Companions (54 owned, 122 missing)
-- King Doot (upgraded): All Divinities count as Active, and 1.25x Divinity PTS gain
+## Companions (3 owned, 173 missing)
+- King Doot: All Divinities from World 5 count as Active
 - Rift Slug: +25 Lv for all Talents
-- Dedotated Ram (upgraded): Use Storage Chest from anywhere, and +30% Carry Capacity
-- Crystal Custard: +100% Drop Rate and Class Exp
 - Sheepie: All big bubbles in Alchemy count as equipped
-- Molti: +5% All Skill Efficiency
-- Bored Bean: +5% AFK Gains Rate for Fighting and Skills
-- Slime: +25% Golden Balls earned in Arcade for Upgrades
-- Sandy Pot: +15 Base All Stats (STR/AGI/WIS/LUK)
-- Bloque: +20% All Skill EXP
-- Frog: +10% Total Damage
-- Ancient Golem: 10x Total Damage
-- Samurai Guardian: 3x Villager EXP and +25 Opals
-- Rift Jocund: 2x Kills for Opening Portals and Deathnote
-- Leek Spirit: 3.50x faster Equinox Bar Fill Rate
-- Crystal Capybara: 1.75x Lab EXP and Divinity EXP Gain
-- Biggole Mole: 3d Printer samples grow +1%/day for 100 days
-- Gigafrog: +25% Carry Capacity for all item types
-- Mashed Potato: +5% Ballot Bonus Multi (World 2 feature)
-- Flying Worm: +30 Talent Points for all classes
-- Poisonic Frog: +15% Defence
-- Quenchie (upgraded): +20% Drop Rate
-- Green Mushroom: +15% Accuracy
-- Cool Bird: 4x Coins from Mobs
-- Axolotl: +50% AFK Gains
-- Mallay: 1.30x Drop Rate
-- Spirit Reindeer: 2.00x Gold Ball Shop Bonuses
-- RIP Tide: +30% AFK gains for World 7 skills, and +1 Worldclass Showcase Slot in Gallery
-- Squirrel (upgraded): 1.75x Kills for Opening Portals and Deathnote
-- Mr Pig: 2x Friend Bonuses, +2 Friend Bonus Slots, Auto Loot, Storage Quickref Usage, Infinite Teleporting
-- Whale: 2x Class EXP gain and 2x All Skill EXP gain
-- Chippy: 2x Total Damage, and 2x Class EXP gain
-- Bunny: 3x Class EXP gain
-- Panda: 2x Refinery Salts produced (affects POW produced in Refinery)
-- Hedgehog: +200% Gold Balls gained from the Arcade,
-- Whallamus: 10x Class EXP and +10 Legend Talent PTS
-- Balloonfish: 4x Coins from monsters, and 4x Masterclass drops
-- Pufferblob: +50% Meritocracy Bonus Multi (World 7 feature)
-- Shellslug: 1.75x Daily Reef Coral (World 7 feature)
-- Crystal Cuttlefish: +40% Ballot Bonus Multi (World 2 feature)
-- Eamsy Earl: +1 Grade for 2 Gallery Showcases (World 7 feature)
-- Litterfish: 1.25x Artifact Find chance (World 5 feature)
-- Spearfish: +1 Friend Bonus slot
-- Equinox Broadbass: 1.50x Coins from monsters
-- Mafioso: +15% faster Alchemy Brew Speed
-- Baby Boa: +10% Class EXP
-- Purp Mushroom (upgraded): +7% Golden Food bonus
-- Bubba the Seal: +30% Gallery Bonus Multi (World 7 feature)
-- Santa Snake (upgraded): +50% Class EXP, +50% Drop Rate, 1.01x Class EXP, and 1.01x Drop Rate
-- Santas Little Helper: 3x bonuses from Orion, Poppy, and Bubba (and all future Clickers)
-- Cryosnake: All Upgrade Vault upgrades are 50% cheaper!
-- Mama Troll: +100% Drop Rate and 1.50x Drop Rate Multi
-- Crystal Glunko: 1.50x Damage, 1.40x Class EXP, 1.30x Drop Rate, and 1.20x extra Kills
-- Armadillo: +100% additive Crystal Monster Spawn chance
-- Missing: Glunko Supreme, Wild Boar, Jellofish, Koi Fish, Neonscale, Pirate Deckhand, Magni Pufferfin, Dreadnaught Captain, Bubba Supreme, Nutto, Biggie Hours, Baba Yaga, Walking Stick, Carrotman, Demon Hound, Gloomie Mushroom, Crabcake, Mr Blueberry, Crystal Carrot, Crystal Crabal, Crystal Cattle, Crystal Candalight, Demon Genie, Eldritch Croaker, Lava Slimer, King Frog, Ghost, Glublin, Mamooth, Mimic, Moonmoon, Red Mushroom, Wood Mushroom, Pincermin, Wode Board, Crescent Spud, Rat, Rift Spooker, Rift Hivemind, Floofie, Sand Castle, Sand Giant, Dig Doug, Xylobone, Bloodbone, Glunko The Massive, Snelbie, Shell Snake, Snowman, Bop Box, Tyson, Beefie, Catherine, TV, Donut, Soda Can, Gelatinous Cuboid, Choccie, Clammie, Octodar, Flombeige, Stilted Seeker, Suggma, Maccie, Mister Brightside, Cheese Nub, Stiltmole, Citringe, Lampar, Fire Spirit, Crawler, Tremor Wurm, Sprout Spirit, Ricecake, River Spirit, Baby Troll, Woodlin Spirit, Bamboo Spirit, Lantern Spirit, Ceramic Spirit, Skydoggie Spirit, Royal Egg, Minichief Spirit, Doodlefish, Noble Clam, Demonblub, Coralcave Crab, Coralcave Guardian, Trench Fish, Boomy Mine, Pirate Underling, Eggroll, Kelpfish, Mantaray, Glowfish, Ancientfish, Bronze Champion Ram, Silver Champion Ram, Gold Champion Ram, Rift Stalker, Glimbo, Vanillie, Valenslime, Mechanical Mouse, Lucky Slug, Potluck, Poppy, Wickerlight Spirit, Smoke Devil, Bronze Champion Troll, Silver Champion Troll, Gold Champion Troll, Abacus Frog, Bin Goosey, Magician Grub, Imperial Ogre, Pipsqueak, Verminous, Bronze Champion Earl, Silver Champion Earl, Gold Champion Earl, Guppy
+- Missing: Dedotated Ram, Crystal Custard, Molti, Bored Bean, Slime, Sandy Pot, Bloque, Frog, Glunko Supreme, Ancient Golem, Samurai Guardian, Rift Jocund, Leek Spirit, Crystal Capybara, Biggole Mole, Gigafrog, Mashed Potato, Flying Worm, Poisonic Frog, Quenchie, Green Mushroom, Cool Bird, Axolotl, Mallay, Spirit Reindeer, RIP Tide, Squirrel, Mr Pig, Wild Boar, Whale, Chippy, Bunny, Panda, Hedgehog, Whallamus, Balloonfish, Pufferblob, Shellslug, Crystal Cuttlefish, Eamsy Earl, Litterfish, Spearfish, Equinox Broadbass, Mafioso, Baby Boa, Purp Mushroom, Bubba the Seal, Santa Snake, Santas Little Helper, Jellofish, Koi Fish, Neonscale, Pirate Deckhand, Magni Pufferfin, Dreadnaught Captain, Bubba Supreme, Nutto, Biggie Hours, Baba Yaga, Walking Stick, Carrotman, Demon Hound, Gloomie Mushroom, Crabcake, Mr Blueberry, Crystal Carrot, Crystal Crabal, Crystal Cattle, Crystal Candalight, Demon Genie, Eldritch Croaker, Lava Slimer, King Frog, Ghost, Glublin, Mamooth, Mimic, Moonmoon, Red Mushroom, Wood Mushroom, Pincermin, Wode Board, Crescent Spud, Rat, Rift Spooker, Rift Hivemind, Floofie, Sand Castle, Sand Giant, Dig Doug, Xylobone, Bloodbone, Glunko The Massive, Snelbie, Cryosnake, Shell Snake, Snowman, Bop Box, Tyson, Beefie, Catherine, TV, Donut, Soda Can, Gelatinous Cuboid, Choccie, Clammie, Octodar, Flombeige, Stilted Seeker, Suggma, Maccie, Mister Brightside, Cheese Nub, Stiltmole, Citringe, Lampar, Fire Spirit, Crawler, Tremor Wurm, Sprout Spirit, Ricecake, River Spirit, Baby Troll, Woodlin Spirit, Bamboo Spirit, Lantern Spirit, Mama Troll, Ceramic Spirit, Skydoggie Spirit, Royal Egg, Minichief Spirit, Doodlefish, Noble Clam, Demonblub, Coralcave Crab, Coralcave Guardian, Trench Fish, Boomy Mine, Pirate Underling, Eggroll, Kelpfish, Mantaray, Glowfish, Ancientfish, Bronze Champion Ram, Silver Champion Ram, Gold Champion Ram, Rift Stalker, Glimbo, Vanillie, Valenslime, Mechanical Mouse, Lucky Slug, Potluck, Poppy, Wickerlight Spirit, Smoke Devil, Bronze Champion Troll, Silver Champion Troll, Gold Champion Troll, Abacus Frog, Crystal Glunko, Bin Goosey, Magician Grub, Armadillo, Imperial Ogre, Pipsqueak, Verminous, Bronze Champion Earl, Silver Champion Earl, Gold Champion Earl, Guppy
 
 ## Packs (38 owned)
 - Owned: Lava Supporter Pack, New Year Pack, Easter Bundle, Totally Chill Pack, Summer Bundle, Giftmas Bundle, Auto-Loot Pack, Outta This World Pack, Super Hot Fire Pack, Riftwalker Pack, Bloomin' Pet Pack, Island Explorer Pack, Equinox Pack, Calm Serenity Pack, Sacred Methods Pack, Timeless Pack, Ancient Echos Pack, Deathbringer Pack, Windwalker Pack, Arcane Cultist Pack, Fallen Spirits Pet Pack, Storage Ram Pack, Blazing Star Anniversary Pack, Midnight Tide Anniversary Pack, Lush Emerald Anniversary Pack, Eternal Hunter Pack, Gilded Treasure, Lil' Squirrel Pack, Ocean Raider Pack, Piggy Pal, Autumn Breeze Pack, Chonky Seal Pack, Giftmas Bunny Pack, Giftmas Hedgehog Pack, Giftmas Panda Pack, Santa's Little Helper Pack, Crystal Glunko Pack, Armadillo Pack
@@ -93,7 +42,7 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 - Familiar Firesale 2/2: Whenever you buy a Summoning Familiar, there's a {% chance for the cost to not go up at all... almost like it's free!)
 - Super Duper Talents 5/5: Super Talent PTS give +{ more LVs to talents than they normally do
 - Superb Gallerium 2/3: The first { normal showcase slots in your Gallery are 1 grade higher (i.e. they become Featured, and give 150% bonuses)
-- Picasso Gaming 3/5: All the bonuses from your Gaming Palette colours are }x higher
+- Picasso Gaming 4/5: All the bonuses from your Gaming Palette colours are }x higher
 - Davey Jones Returns 4/4: }x bonus to all the same stats that 'Davey Jones Training' gives, check it in W5 Gemshop. Also, -{% Minimum Travel Time
 - Opa Opal Style 3/3: Villagers at the Hole in World 5 gain }x more EXP
 - Recycled Particle Upgrades 1/1: {% of Unspent 'Alternate Particle Upgrades' each day are spent equally across the 1st bubbles of each colour, for free!
@@ -150,11 +99,11 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 
 ## Kill-count talents
 - Archlord of the Pirates (Drop Rate and Class EXP): 6208 kills, value 16.55. Farm more Plunder Kills with Siege Breaker for Drop Rate Crystal Setup at W5 Citringes for ~20k per day
-- King of the Remembered (Printer Output): 2762308 kills, value 22.88. Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from
-- Wormhole Emperor (Damage): 570597 kills, value 0. Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns
+- King of the Remembered (Printer Output): 2773382 kills, value 22.89. Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from
+- Wormhole Emperor (Damage): 570665 kills, value 4.36. Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns
 
 ## Family bonuses (top level of each class, account-wide)
-- Journeyman 828; Maestro 828; Voidwalker 828; Warrior 938; Barbarian 938; Squire 857; Blood Berserker 938; Death Bringer 938; Divine Knight 857; Royal Guardian 857; Archer 877; Bowman 871; Hunter 877; Siege Breaker 871; Wind Walker 877; Beast Master 877; Mage 878; Wizard 864; Shaman 878; Elemental Sorcerer 864; Bubonic Conjuror 878; Arcane Cultist 878
+- Journeyman 828; Maestro 828; Voidwalker 828; Warrior 940; Barbarian 940; Squire 869; Blood Berserker 940; Death Bringer 940; Divine Knight 869; Royal Guardian 869; Archer 877; Bowman 871; Hunter 877; Siege Breaker 871; Wind Walker 877; Beast Master 877; Mage 878; Wizard 870; Shaman 878; Elemental Sorcerer 870; Bubonic Conjuror 878; Arcane Cultist 878
 
 ## Divinity blessings
 - Snehebatu None; Arctis None; Nobisect None; Harriep None; Goharut None; Omniphau None; Purrmep None; Flutterbis None; Kattlekruk None; Bagur None
@@ -165,7 +114,7 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 ## Cosmetics with stats
 - Hats on rack: 41
 - Capes on vine: 15; missing: Easter Egg Backpack, Giant Rose, Giant Violet, Giant Starflower, Dragonroll Mantlepiece, Beeg Egg, Bladed Rucksack, Lovely Balloon
-- Gallery multi 1.56x
+- Gallery multi 1.26x
 - Trophies missing: King of Food, Dice Dynamo, Ultra Unboxer, Megalodon, Idle Skiller, Master of Nothing, Nebula Royal, Baller, Heroic Spirit, Nine Dart Finish, Luckiest Lad
 - Nametags missing: Spring Flowers Nametag, Trash Tuna Nametag, Summer Shovel Nametag, 3rd Anniversary IdleOn Nametag, Lovely Day Nametag, Spectacular 4th Year Nametag, 4th Anniversary IdleOn Nametag, Deadbones Nametag, Treasure Nametag, Tome Journeyman Nametag, Tome Expert Nametag, Tome Elite Nametag, Tome Pro Nametag, Tome Master Nametag, Reliquarium Nametag, Sweet Chocolate Nametag, Pot of Gold Nametag, Emerald Nametag, 5th Anniversary IdleOn Nametag, Wonderful 5th Year Nametag, Grand Egg Nametag, All That Glitters Nametag, Singed Nametag, Spooky Scary Nametag
 - How to get each missing one (pack vs in-game): source pass pending (wiki).
