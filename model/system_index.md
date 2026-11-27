@@ -71,7 +71,7 @@
 | meals | world-4/cooking | Cooking | 646/622 | Autiszemo |
 | menagerie | world-7/menagerie | Luminous Menagerie | 290/156 | Autisticles |
 | meritocracy | world-2/vote-ballot | Meritocracy | 401/209 | Autistotle |
-| merits | task-board/merits | none (AutoReview does not rate it) | 401/209 | unassigned in jobs.yaml |
+| merits | task-board/merits | none (AutoReview does not rate it) | 401/209 | Autistronaut |
 | minehead | world-7/minehead | none (AutoReview does not rate it) | 120/0 | unassigned in jobs.yaml |
 | npc_tokens | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | obols | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
