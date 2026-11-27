@@ -15,6 +15,30 @@ description: Farming: state, how it works, links, plan, today
 - Checklist: [[farming]]: clear goal + method (new crops, shop levels), consistent on collect vs hold, land rank points daily, anything wrong vs creator guidance
 <!-- AUTO:END -->
 
+<!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
+<!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
+```yaml
+status: DRAFT
+role: independent
+goal: "Discover crops to unlock OG first, then land rank + shop upgrades (Griffy 2026-11-07)"
+coverage: partial
+ladder:
+  - {tier: 1, target: "crop discoveries for OG unlock", source: "Griffy", date: "2026-11-07"}
+  - {tier: 2, target: "Rank Boost 73 -> 100, More Beenz 92 -> 100", source: "Toolbox", date: "2026-11-27"}
+  - {tier: 3, target: "Stronger Vines 112 -> 170", source: "Toolbox", date: "2026-11-27"}
+objective: {rung: 1, now: "208 crops found", target: null, eta_days: null}   # OG threshold count not sourced for this account
+check: {cadence: daily, who: "Autiszemo", look_at: "collect, land rank points (465 available), exotic market 2/6"}
+buffs:
+  - {source: "Exotic market + land rank talents (Pulse A tier)", world: 6, owned: null, now: null, next: null, owner: "Autiszemo"}
+triggers:
+  - {when: "OG unlocked", then: "switch spend to Rank Boost + exotic market"}
+stall: {pulls_no_progress: 3, eta_over_days: 30}
+tasks:
+  - {do: "Spend 465 land rank points", stat: "rank XP", gain_pct: null, unblocks: [], source: "Toolbox", active_min: 3, wait_hr: null, cost: null, urgent: false}
+# GAP 38 Crop Depot Crayon unknown; Griffy's 13/19 crops note is his account, check ours in game
+```
+<!-- GOAL:END -->
+
 ## How it works (mechanics, multipliers, formulas; cite source)
 
 ## Links

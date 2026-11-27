@@ -14,6 +14,29 @@ description: Alchemy Bubbles: state, how it works, links, plan, today
 - Checklist: [[alchemy_cauldrons]] / [[alchemy_bubbles]]: everyone in cauldrons with hard bubbles left. Cranium Cooking run to level pots and find last bubbles, then move people to liquids? Who sits where
 <!-- AUTO:END -->
 
+<!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
+<!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
+```yaml
+status: DRAFT
+role: feeder            # big multi-resource bubbles drive prints (Griffy 2026-10-16)
+goal: "All bubbles unlocked, then big multi-resource bubbles toward caps"
+coverage: partial
+ladder:
+  - {tier: 1, target: "Unlock 160 total bubbles (155 now), W8 colors 5/5 each", source: "Griffy", date: "2026-10-04"}
+  - {tier: 2, target: "Warriors Rule (Printing) 765 -> 950, Stronk Tools 615 -> 630", source: "Toolbox", date: "2026-11-27"}
+  - {tier: 3, target: "Kill per Kill + Mr Massacre before W6 push", source: "Griffy", date: "2026-11-07"}
+objective: {rung: 1, now: 155, target: 160, eta_days: null}
+check: {cadence: daily, who: "Autistocat", look_at: "cauldron seats: everyone with hard bubbles left sits in a cauldron"}
+buffs:
+  - {source: "Diamond Chef (needs level-11 meals); else spend the discount on Mr Massacre", world: 2, owned: null, now: null, next: null, owner: "Autistocat"}
+triggers:
+  - {when: "160 bubbles unlocked", then: "move cauldron seats to liquids (checklist question, confirm with Zack)"}
+stall: {pulls_no_progress: 3, eta_over_days: 30}
+tasks:
+  - {do: "Level Warriors Rule toward 950", stat: "print output", gain_pct: null, unblocks: [printer], source: "Griffy", active_min: 2, wait_hr: null, cost: null, urgent: false}
+```
+<!-- GOAL:END -->
+
 ## How it works (mechanics, multipliers, formulas; cite source)
 
 ## Links

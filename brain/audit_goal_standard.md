@@ -1,5 +1,5 @@
 # Goal-standard audit 2026-11-27 (Step 2)
-105 systems vs docs/planners.md GOAL standard. Buckets: {'nothing': 28, 'partial': 77}. GOAL blocks written: 10 (all DRAFT).
+105 systems vs docs/planners.md GOAL standard. Buckets: {'nothing': 28, 'partial': 77}. GOAL blocks written: 20 (all DRAFT).
 Rank: Zack called-out first, then emptiest, then most creator guidance (easiest to source). score_ready = planner exists + data path in data_map.
 
 | # | system | bucket | called | planner | creator rows | open gaps | plan fields | how/rule/links | data | score_ready | owners |
@@ -116,4 +116,6 @@ Note: "golden food" has no brain/systems file (closest: meals / inventory); need
 Drafts carry `status: DRAFT`; none approved or in the pipeline. ETAs null until model/rates.py feeds them.
 - Batch 1 (2026-11-27, save 20261127T2212): cards, worship, cooking, meals, trapping, divinity, stamps, gaming, prayers, alchemy_vials. DRAFT.
   - Gaps found: lookup.py crashes on gaming (render_levels int.get); worship + prayers owners unassigned; cooking mastery + meal ribbon order unsourced; trapping worth-it unsourced.
-- Next: batch 2 = saltlick, armor_sets, dungeons, alchemy_bubbles, gemshop, printer, caverns, quests, drop_rate, farming. Remaining partial after batch 2: 57.
+- Batch 2 (2026-11-27, same save): saltlick, armor_sets, dungeons, alchemy_bubbles, gemshop, printer, caverns, quests, drop_rate, farming. DRAFT.
+  - Gaps found: dungeons, quests, drop_rate owners unassigned; dungeon RNG tiers only 2022 Griffy; OG crop threshold for our account unknown; Print timing unanswered.
+- Next: batch 3 = lab_bonuses, lab_chips, lab_jewels, lab_mainframe, breeding, spelunk, sailing, summoning, meritocracy, merits. Remaining partial after batch 3: 47.
