@@ -3,7 +3,7 @@
 name: brother-dashboard
 on:
   push:
-    paths: ['accounts/brother/inbox/**']
+    paths: ['accounts/brother/inbox/**', 'accounts/brother/site/**']
   workflow_dispatch:
     inputs:
       force: {description: 'Rebuild even if this save was already stored', type: boolean, default: false}
@@ -48,7 +48,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           cd accounts/brother/site
-          rm -rf _out && mkdir _out && cp ../dashboard/index.html upload.html _out/
+          rm -rf _out && mkdir _out && cp ../dashboard/index.html upload.html zack.html _out/
           npx -y wrangler@4 pages project create idleon-brother --production-branch main 2>/dev/null || true
           echo "${{ secrets.UPLOAD_PASSCODE }}" | npx -y wrangler@4 pages secret put UPLOAD_PASSCODE --project-name idleon-brother
           echo "${{ secrets.UPLOAD_GH_TOKEN }}" | npx -y wrangler@4 pages secret put UPLOAD_GH_TOKEN --project-name idleon-brother
