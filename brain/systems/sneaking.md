@@ -15,6 +15,33 @@ description: Sneaking: state, how it works, links, plan, today
 - Checklist: [[sneaking]]: mastery spend (he pushed mastery for the W7 shell job), upgrade order, Jade Emporium, ninja floors for gear, inventory keep/trash
 <!-- AUTO:END -->
 
+<!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
+<!-- DRAFT Phase A batch 4 2026-11-27 (save 20261127T2212): not approved, not in the pipeline -->
+```yaml
+status: DRAFT
+role: feeder
+goal: "Open the rest of the Jade Emporium (43/52) and start Moissanite, which multiplies every gemstone"
+coverage: partial
+ladder:
+  - {tier: 1, target: "Moissanite (Bonuses from Gemstones) Lv 0 -> started", source: "Toolbox", date: "2026-11-27"}
+  - {tier: 2, target: "Jade Emporium 43 -> 52 unlocked", source: "Toolbox", date: "2026-11-27"}
+  - {tier: 3, target: "Hats 12 -> 15, Pristine Charms 15 -> 23", source: "Toolbox", date: "2026-11-27"}
+  - {tier: 4, target: "Ninja mastery 2 -> 3", source: "my_read", date: "2026-11-27"}
+objective: {rung: 1, now: 0, target: 1, eta_days: null}
+check: {cadence: daily, who: "Autistacular", look_at: "jade balance vs next emporium cost, door 5 HP"}
+buffs:
+  - {source: "Wind Walker Tab 5 Generational Gemstones talent", world: 6, owned: true, now: 371, next: 389, owner: ""}
+  - {source: "Science Marker (8% jade per crop)", world: 6, owned: null, now: null, next: null, owner: ""}
+triggers:
+  - {when: "Jade Emporium 52/52", then: "shift to mastery 3 + pristine charms"}
+stall: {pulls_no_progress: 3, eta_over_days: 30}
+tasks:
+  - {do: "Put first levels into Moissanite", stat: "gemstone multi", gain_pct: null, unblocks: [], source: "my_read", active_min: 2, wait_hr: null, cost: null, urgent: false}
+  - {do: "Buy next Jade Emporium upgrade when jade covers it", stat: "emporium", gain_pct: null, unblocks: [], source: "Toolbox", active_min: 1, wait_hr: null, cost: null, urgent: false}
+# Pulse 2026-11-05: extra jade not needed right now (Jade merit D tier). Emporium unlock costs not shown by lookup.
+```
+<!-- GOAL:END -->
+
 ## How it works (mechanics, multipliers, formulas; cite source)
 
 ## Links

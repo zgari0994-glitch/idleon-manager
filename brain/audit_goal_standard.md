@@ -1,5 +1,5 @@
 # Goal-standard audit 2026-11-27 (Step 2)
-105 systems vs docs/planners.md GOAL standard. Buckets: {'nothing': 28, 'partial': 77}. GOAL blocks written: 20 (all DRAFT).
+105 systems vs docs/planners.md GOAL standard. Buckets: {'nothing': 28, 'partial': 77}. GOAL blocks written: 40 (all DRAFT).
 Rank: Zack called-out first, then emptiest, then most creator guidance (easiest to source). score_ready = planner exists + data path in data_map.
 
 | # | system | bucket | called | planner | creator rows | open gaps | plan fields | how/rule/links | data | score_ready | owners |
@@ -121,4 +121,6 @@ Drafts carry `status: DRAFT`; none approved or in the pipeline. ETAs null until 
 - Batch 3 (2026-11-27, save 20261127T2212): lab_bonuses, lab_chips, lab_jewels, lab_mainframe, breeding, spelunk, sailing, summoning, meritocracy, merits. DRAFT.
   - Gaps found: no creator order for lab bonuses, amber shop, Teal battles; lab bonus off-reason (range vs locked) not in parser.
   - Fixed same day (Zack): lab_* owner = Autistocat (jobs.yaml systems: key); Teal unlock line marked done; meritocracy mapped to vote-ballot page + shops planner, phone pulls carry serverVars so votes read; lookup.py has its own view per lab system.
-- Next: batch 4 = next 10 partial in audit order. Remaining partial after batch 3: 47.
+- Batch 4 (2026-11-27, save 20261127T2212): statues, sneaking, legend_talents, royal_armory, menagerie, achievements, research, arcade, death_note, alchemy_cauldrons. DRAFT.
+  - Gaps found: alchemy_cauldrons owner unassigned (Cat is my read); statues has 4 owners, jobs.yaml puts turn-ins on Ticles; Tastic AFK line stale (Dragon Statue already 187 > target 150); Quicc cauldron brew speed 0; legend points don't add up (owned 58, spent 68, left -10); lookup.py shows "?" for arcade shop names, ids for menagerie boosts, "Name" for research grid; achievements has no done/total count; royal armory unlock conditions + currency balance not in parser; arcade tier list only Griffy 2025-01 (Pulse update pending); Menagerie Mission 6 leans on Worship (no owner); spelunk tier 1 POW 900K done but Project description still says it's the goal.
+- Next: batch 5 = next 10 partial in audit order. Remaining partial after batch 4: 37.
