@@ -73,8 +73,9 @@ jobs:
           S=$(cat snapshots/LATEST)
           git config user.name "zack-pull[bot]"
           git config user.email "zack-pull@users.noreply.github.com"
-          git add snapshots plans reports dashboard state
+          git add -A  # everything the pipeline wrote, same as a PC pull
           git diff --cached --quiet && { echo "nothing new"; exit 0; }
           git commit -q -m "pull: save $S (Action, phone upload)"
-          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+          ok=0; for i in 1 2 3; do git pull -q --rebase --autostash && git push -q && { ok=1; break; }; sleep 5; done
+          [ $ok = 1 ] || { echo "::error::push failed"; exit 1; }
           python3 -c "import json,datetime as d;m=json.load(open('snapshots/$S/meta.json'));print('Save', m['game_save_utc'], 'UTC')" >> "$GITHUB_STEP_SUMMARY"
