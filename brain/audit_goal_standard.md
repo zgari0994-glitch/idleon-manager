@@ -1,5 +1,5 @@
 # Goal-standard audit 2026-11-27 (Step 2)
-105 systems vs docs/planners.md GOAL standard. Buckets: {'nothing': 28, 'partial': 77}. GOAL blocks written: 00.
+105 systems vs docs/planners.md GOAL standard. Buckets: {'nothing': 28, 'partial': 77}. GOAL blocks written: 10 (all DRAFT).
 Rank: Zack called-out first, then emptiest, then most creator guidance (easiest to source). score_ready = planner exists + data path in data_map.
 
 | # | system | bucket | called | planner | creator rows | open gaps | plan fields | how/rule/links | data | score_ready | owners |
@@ -111,3 +111,9 @@ Rank: Zack called-out first, then emptiest, then most creator guidance (easiest 
 | 105 | super_talents | partial |  | Y | 0 | 3 | 0/4 | 0/0/0 | unmapped |  | UNASSIGNED |
 
 Note: "golden food" has no brain/systems file (closest: meals / inventory); needs one or a home.
+
+## Phase A progress (draft GOAL blocks for every partial system, batches of ~10)
+Drafts carry `status: DRAFT`; none approved or in the pipeline. ETAs null until model/rates.py feeds them.
+- Batch 1 (2026-11-27, save 20261127T2212): cards, worship, cooking, meals, trapping, divinity, stamps, gaming, prayers, alchemy_vials. DRAFT.
+  - Gaps found: lookup.py crashes on gaming (render_levels int.get); worship + prayers owners unassigned; cooking mastery + meal ribbon order unsourced; trapping worth-it unsourced.
+- Next: batch 2 = saltlick, armor_sets, dungeons, alchemy_bubbles, gemshop, printer, caverns, quests, drop_rate, farming. Remaining partial after batch 2: 57.
