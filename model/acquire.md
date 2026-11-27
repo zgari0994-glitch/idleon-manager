@@ -25,12 +25,11 @@ kind: in-game = obtainable by playing; paid = gem shop/bundle; event = limited-t
 - **Giant Violet** [paid/event] 10% All Stats · Gem Shop, Choco Box
 - **Lovely Balloon** [paid] 250% Drop Rate · Gem Shop
 
-## Nametags missing (25)
+## Nametags missing (24)
 - **Reliquarium Nametag** [in-game] 20% Drop Rate Multi, 20% AFK Gains Multi · Secrets
 - **Tome Elite Nametag** [in-game] 12% Damage Multi, 12% Multikill per Tier · Tome rank reward (Tome score tiers)
 - **Tome Expert Nametag** [in-game] 10% Total Damage, 10% Mob Respawn · Tome rank reward (Tome score tiers)
 - **Tome Journeyman Nametag** [in-game] 7% Fight AFK, 7% Skill AFK · Tome rank reward (Tome score tiers)
-- **Tome Legend Nametag** [in-game] 20% Drop Rate Multi, 20% AFK Gains Multi · Tome rank reward (Tome score tiers)
 - **Tome Master Nametag** [in-game] 17% Bonus Kills, 17% All Stats · Tome rank reward (Tome score tiers)
 - **Tome Pro Nametag** [in-game] 15% Class Exp Multi, 15% Money · Tome rank reward (Tome score tiers)
 - **Trash Tuna Nametag** [in-game] 200% Fishing XP · Island Expedition (Trash Island shop)

@@ -1,5 +1,5 @@
 {
- "snapshot": "20261126T2330",
+ "snapshot": "20261127T1704",
  "per_char": {
   "Autiszemo": {
    "samples": [
@@ -352,16 +352,16 @@
    "frac": 0.67
   },
   {
-   "label": "Sailing: Level 6 Gold Relic:3.52x (36/140 days)",
-   "cur": "36",
+   "label": "Sailing: Level 6 Gold Relic:3.59x (37/140 days)",
+   "cur": "37",
    "goal": "140",
    "frac": 0.26
   },
   {
-   "label": "Compass: Nomadic-3: Moon of Print: 1.29x (14/100 days)",
-   "cur": "14",
+   "label": "Compass: Nomadic-3: Moon of Print: 1.31x (15/100 days)",
+   "cur": "15",
    "goal": "100",
-   "frac": 0.14
+   "frac": 0.15
   },
   {
    "label": "Arcade Bonus 5: +0/8.04% Sample Size",
@@ -383,23 +383,16 @@
   }
  ],
  "needs": {
-  "Spiral Statue": "runs out in 0.0 days",
-  "Egg Statue": "runs out in 0.0 days",
-  "Pecunia Statue": "runs out in 0.0 days",
-  "Boat Statue": "runs out in 0.0 days",
-  "Mutton Statue": "runs out in 0.0 days",
-  "Dragon Warrior Statue": "runs out in 0.0 days",
-  "Battleaxe Statue": "runs out in 0.1 days",
-  "Dense Water": "runs out in 0.3 days",
-  "Litterbug": "runs out in 0.4 days",
-  "Frigid Soul": "runs out in 2.6 days",
-  "Void Bar": "runs out in 4.9 days",
-  "Royal Headpiece": "runs out in 5.0 days",
-  "Dune Soul": "runs out in 6.8 days",
+  "Mongo Worm Slices": "runs out in 0.3 days",
+  "Seaweed Logs": "runs out in 0.7 days",
+  "Pufferflesh": "runs out in 1.4 days",
+  "Cracked Shell": "runs out in 3.7 days",
+  "Frigid Soul": "runs out in 5.2 days",
   "Tangled Cords": "Dream of Ironfish 68 -> 70 (exact cost: check bubble cost)",
+  "Void Bar": "ran out before (Zack); construction/printer use",
   "Copper Bar": "Barium Mixture 12 -> 13 needs 1B Copper Bars (Toolbox map finding)",
   "Icing Ironbite": "Potion Stamp next max raise needs 2.92e+05 (have 2.91e+05)",
-  "Golden Nomwich": "Golden Apple Stamp next max raise needs 4.46e+05 (have 3.28e+05)",
+  "Golden Nomwich": "Golden Apple Stamp next max raise needs 4.46e+05 (have 3.4e+05)",
   "Jungle Logs": "Lil' Mining Baggy Stamp next max raise needs 1.93e+09 (have 1.05e+09)",
   "Glass Shard": "Mason Jar Stamp next max raise needs 1.74e+04 (have 9.36e+03)",
   "Carrot Cube": "Choppin' Bag Stamp next max raise needs 1.93e+09 (have 1.99e+08)",
@@ -408,9 +401,9 @@
  },
  "swaps": [],
  "gold_relic": [
-  36,
+  37,
   140,
-  3.52
+  3.59
  ],
  "x1": {
   "Supreme Wiring (event shop)": [
@@ -422,7 +415,7 @@
    20
   ],
   "Moon of Print (compass)": [
-   14,
+   15,
    100
   ]
  },

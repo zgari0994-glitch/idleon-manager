@@ -34,7 +34,7 @@
  "buildings": [
   {
    "name": "Atom Collider",
-   "lv": 129,
+   "lv": 130,
    "max": 200,
    "slot": "building",
    "ready": false,
@@ -54,7 +54,7 @@
   },
   {
    "name": "Party Starter",
-   "lv": 122,
+   "lv": 123,
    "max": 50,
    "slot": "building",
    "ready": false,
@@ -64,7 +64,7 @@
   },
   {
    "name": "Poisonic Elder",
-   "lv": 117,
+   "lv": 119,
    "max": 50,
    "slot": "building",
    "ready": false,
@@ -74,7 +74,7 @@
   },
   {
    "name": "Voidinator",
-   "lv": 66,
+   "lv": 67,
    "max": 50,
    "slot": "building",
    "ready": false,
@@ -84,7 +84,7 @@
   },
   {
    "name": "Woodular Shrine",
-   "lv": 220,
+   "lv": 224,
    "max": 100,
    "slot": "building",
    "ready": false,
@@ -94,7 +94,7 @@
   },
   {
    "name": "Isaccian Shrine",
-   "lv": 199,
+   "lv": 208,
    "max": 100,
    "slot": "building",
    "ready": false,
@@ -104,7 +104,7 @@
   },
   {
    "name": "Crystal Shrine",
-   "lv": 187,
+   "lv": 210,
    "max": 100,
    "slot": "building",
    "ready": false,
@@ -166,7 +166,7 @@
    "group": "A Tier",
    "tab": "default",
    "label": "Poisonic Elder",
-   "cur": "117",
+   "cur": "119",
    "goal": "240"
   },
   {
@@ -175,20 +175,6 @@
    "label": "Stormcaller",
    "cur": "119",
    "goal": "240"
-  },
-  {
-   "group": "B Tier",
-   "tab": "default",
-   "label": "Isaccian Shrine",
-   "cur": "199",
-   "goal": "200"
-  },
-  {
-   "group": "B Tier",
-   "tab": "default",
-   "label": "Crystal Shrine",
-   "cur": "187",
-   "goal": "200"
   },
   {
    "group": "B Tier",
@@ -208,14 +194,14 @@
    "group": "C Tier",
    "tab": "default",
    "label": "Voidinator",
-   "cur": "66",
+   "cur": "67",
    "goal": "240"
   },
   {
    "group": "C Tier",
    "tab": "default",
    "label": "Atom Collider",
-   "cur": "129",
+   "cur": "130",
    "goal": "200"
   },
   {
@@ -257,7 +243,7 @@
    "group": "C Tier",
    "tab": "default",
    "label": "Party Starter",
-   "cur": "122",
+   "cur": "123",
    "goal": "240"
   },
   {
@@ -275,5 +261,5 @@
    "goal": "200"
   }
  ],
- "snapshot": "20261126T2330"
+ "snapshot": "20261127T1704"
 }

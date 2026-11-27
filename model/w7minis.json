@@ -1,113 +1,56 @@
 {
  "legend": {
-  "points": 65,
+  "points": 68,
   "unspent": "1"
  },
  "jelly": {
-  "ops": "0",
+  "ops": "3",
   "next": null,
   "removed": "12 / 71"
  },
  "clam": {
-  "pearls": 2834.59653649346,
-  "ready": [
-   [
-    "Pearl Value",
-    19,
-    20,
-    "",
-    "1,663"
-   ],
-   [
-    "Lucky Day",
-    6,
-    7,
-    "",
-    "756"
-   ],
-   [
-    "Multi-Scalping",
-    1,
-    2,
-    "",
-    "1,437"
-   ]
-  ]
+  "pearls": 196038.476884749,
+  "ready": []
  },
  "sushi": {
   "fuel": [
-   "330,389",
-   "517,129"
+   "468,055",
+   "545,632"
   ],
   "next": null,
-  "bucks": 1778853383485.71,
+  "bucks": 497399046647.676,
   "unique": 20,
   "cheap": [
    [
     "Hourly Wage Meter",
-    289,
-    22826290501.443092
-   ],
-   [
-    "Fuel Capacity I",
-    284,
-    37284455438.143974
-   ],
-   [
-    "Customer Surcharge I",
-    165,
-    44113648219.42766
-   ],
-   [
-    "Fuel Capacity II",
-    183,
-    25139991958.08772
+    290,
+    24264167068.463127
    ],
    [
     "Sushi Tier Vision",
     73,
-    1089762663.7067459
-   ],
-   [
-    "Customer Surcharge II",
-    105,
-    87047605225.11852
-   ],
-   [
-    "Quickpay Fee",
-    10,
-    21775680412.552246
-   ],
-   [
-    "Fastburn Fuel III",
-    0,
-    81541619.96411368
+    1072601046.9554584
    ],
    [
     "Fuel Capacity III",
     0,
-    324100255.9661865
+    318996314.927349
    ],
    [
     "Shake N' Bake",
     0,
-    1334164220.7814794
+    1313153760.6116924
    ],
    [
     "Customer Surcharge III",
     0,
-    7388413327.270023
-   ],
-   [
-    "Quality Freshness",
-    0,
-    42306302493.60635
+    7272060361.486243
    ]
   ]
  },
  "minehead": {
-  "tries": "3 / 3",
-  "cur": 1638.97913749244,
+  "tries": "0 / 3",
+  "cur": 190.569438881663,
   "next": null,
   "buy": [
    [
@@ -116,52 +59,22 @@
     136.9092480937327
    ],
    [
-    "Grid Expansion",
-    3,
-    1476.5625
-   ],
-   [
-    "Bettah Numbahs",
-    20,
-    73.6494182682574
-   ],
-   [
     "Mega Damage I",
     30,
     171.70464028750877
    ],
    [
     "Miney Farmey I",
-    15,
-    59.196483543589025
-   ],
-   [
-    "Base Damage II",
-    14,
-    305.3687346978877
-   ],
-   [
-    "Golden Tiles",
-    1,
-    1489.3196260133268
-   ],
-   [
-    "Big Hit Combos",
-    1,
-    552.2302185430573
-   ],
-   [
-    "Boom Blocker",
-    0,
-    1254.6038880835677
+    25,
+    153.54043285561787
    ]
   ],
   "opp": [
    [
-    "Kelphead",
-    "eighth",
-    7701.728002560001,
-    "Unlock another Atom for your Atom Collider, which boosts minehead currency gain when upgraded"
+    "Threadhead",
+    "tenth",
+    38164.32746680321,
+    "+80 Max LVs for blessing upgrades, for all Divinities"
    ]
   ]
  },
@@ -175,17 +88,17 @@
    ],
    [
     "Divinity Pearl",
-    13160,
+    13629,
     105
    ],
    [
     "Dioxide Synthesis",
-    1226867,
+    1124063,
     136
    ],
    [
     "Purple Salt",
-    140536,
+    44907,
     136
    ],
    [
@@ -195,7 +108,7 @@
    ],
    [
     "Nullo Salt",
-    672374,
+    671521,
     188
    ],
    [
@@ -205,7 +118,7 @@
    ],
    [
     "Crosslink Salt",
-    46,
+    246,
     7
    ],
    [
@@ -235,7 +148,7 @@
    ],
    [
     "Tuttle",
-    41847613,
+    41847578,
     624075
    ],
    [
@@ -245,7 +158,7 @@
    ],
    [
     "Silver Pen",
-    12147,
+    12446,
     903
    ]
   ]
@@ -256,7 +169,7 @@
   "button_req": [
    [
     "Find at least 500 items, as shown by the Slab",
-    "1554 / 500"
+    "1556 / 500"
    ]
   ]
  },
@@ -264,5 +177,5 @@
   "clusters": 6
  },
  "advice": null,
- "snapshot": "20261126T2330"
+ "snapshot": "20261127T1704"
 }

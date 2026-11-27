@@ -1,0 +1,909 @@
+{
+ "module": "cooking",
+ "systems": [
+  "cooking",
+  "meals"
+ ],
+ "ok": true,
+ "card_lines": [
+  "Lowest meals: Divorce Cake 64, Tasty Treat 66, Giga Chip 66, Singing Seed 68 (cap 120). Cook the meal closest to its next level (my read).",
+  "Meals cap at level 120. Lunarheim (Spelunking cave) adds +30.",
+  "Cooking Mastery is level 5. Sweet unlocks when Divorce Cake reaches 75 (it's 64).",
+  "Ribbons: lowest rank 4, highest 19."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "snapshot": "20261127T1704",
+  "cap": 120,
+  "cap_parts": {},
+  "cap_missing": [],
+  "meals_open": [
+   {
+    "name": "Divorce Cake",
+    "lv": 64,
+    "bonus": "+{% Mine Currency gain",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 5.7482287371617606e+44
+   },
+   {
+    "name": "Tasty Treat",
+    "lv": 66,
+    "bonus": "+{% Polymer Refinery Spd",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 4.753389377769732e+46
+   },
+   {
+    "name": "Giga Chip",
+    "lv": 66,
+    "bonus": "+{% Research EXP",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 5.214293294676157e+46
+   },
+   {
+    "name": "Singing Seed",
+    "lv": 68,
+    "bonus": "+{% Amber from Spelunking",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 4.3010738617520737e+48
+   },
+   {
+    "name": "Cookies",
+    "lv": 77,
+    "bonus": "+{% Spelunking POW",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 7.266191055312542e+57
+   },
+   {
+    "name": "Woahtermelon",
+    "lv": 78,
+    "bonus": "+{% lower Spelunk costs",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 6.819369706170521e+58
+   },
+   {
+    "name": "Tempura Shrimp",
+    "lv": 83,
+    "bonus": "+{% Spelunking EXP",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 1.6551046729429782e+64
+   },
+   {
+    "name": "Nyanborgir",
+    "lv": 107,
+    "bonus": "+{% Crop Evo Chance",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.201669909246243e+91
+   },
+   {
+    "name": "Yumi Peachring",
+    "lv": 108,
+    "bonus": "+{% Gold Food bonus",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 1.3950154173371042e+92
+   },
+   {
+    "name": "Plumpcakes",
+    "lv": 108,
+    "bonus": "+{% Total Damage",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 3.4193428353132295e+92
+   },
+   {
+    "name": "Bill Jack Pep",
+    "lv": 109,
+    "bonus": "+{% Crop Evo Chance",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.2924507995666977e+93
+   },
+   {
+    "name": "Burned Mello",
+    "lv": 109,
+    "bonus": "+{% Meal Cooking Spd",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 5.026625818097257e+93
+   },
+   {
+    "name": "MrLoin Steak",
+    "lv": 110,
+    "bonus": "+{% Jade Gain",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 6.857203000885724e+94
+   },
+   {
+    "name": "Large Pohayoh",
+    "lv": 110,
+    "bonus": "+{% Summoning EXP",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 7.843779924906647e+94
+   },
+   {
+    "name": "Turkey of Thank",
+    "lv": 111,
+    "bonus": "+{% Total Damage",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Egg",
+    "lv": 111,
+    "bonus": "+{% Meal Cooking Speed",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Salad",
+    "lv": 111,
+    "bonus": "+{% Cash from Monsters",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Pie",
+    "lv": 111,
+    "bonus": "+{% Recipe Cooking Spd",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Frenk Fries",
+    "lv": 111,
+    "bonus": "+{% New Mob Breed Odds",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Spaghetti",
+    "lv": 111,
+    "bonus": "+{% Breeding EXP",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Corn",
+    "lv": 111,
+    "bonus": "+{% Skill Efficiency",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Garlic Bread",
+    "lv": 111,
+    "bonus": "+{% VIP Library PTS",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Garlicles Bread",
+    "lv": 111,
+    "bonus": "+{% Lab EXP",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Pizza",
+    "lv": 111,
+    "bonus": "+{% New Mob Breed Odds",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Apple",
+    "lv": 111,
+    "bonus": "+{ Base DEF",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Pancakes",
+    "lv": 111,
+    "bonus": "+{Px Line Width in Lab",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Corndog",
+    "lv": 111,
+    "bonus": "+{% Meal Cooking Speed",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Cabbage",
+    "lv": 111,
+    "bonus": "+{% Cooking Spd per Ten",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Potato P Pastry",
+    "lv": 111,
+    "bonus": "+{% Lower Egg Creation Time",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Dango",
+    "lv": 111,
+    "bonus": "+{% Lower Kitchen Costs",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Sourish Fish",
+    "lv": 111,
+    "bonus": "+{% VIP Library PTS",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Octoplop",
+    "lv": 111,
+    "bonus": "+{% Total Damage",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Croissant",
+    "lv": 111,
+    "bonus": "+{% Mob Fighting Damage",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Canopy",
+    "lv": 111,
+    "bonus": "+{% Recipe Cooking Spd",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Cannoli",
+    "lv": 111,
+    "bonus": "+{% PTS in Tower Defence",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Cheese",
+    "lv": 111,
+    "bonus": "+{% Cooking EXP",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Sawdust",
+    "lv": 111,
+    "bonus": "+{% Lab EXP",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Eggplant",
+    "lv": 111,
+    "bonus": "+{% Mob Breedability Rate",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Cheesy Bread",
+    "lv": 111,
+    "bonus": "+{% Total Accuracy",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Wild Boar",
+    "lv": 111,
+    "bonus": "+{Px Line Width in Lab",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Donut",
+    "lv": 111,
+    "bonus": "+{% New Mob Breed Odds",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Riceball",
+    "lv": 111,
+    "bonus": "+{% Skill Efficiency",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Cauliflower",
+    "lv": 111,
+    "bonus": "+{% Basic Atk Speed",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Durian Fruit",
+    "lv": 111,
+    "bonus": "+{% Lower Kitchen costs",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Orange",
+    "lv": 111,
+    "bonus": "+{% VIP Library PTS",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Bunt Cake",
+    "lv": 111,
+    "bonus": "+{% Cash from Monsters",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Chocala Truffle",
+    "lv": 111,
+    "bonus": "+{% New Mob Breed Odds",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Leek",
+    "lv": 111,
+    "bonus": "+{% skilling prowess",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Fortune Cookie",
+    "lv": 111,
+    "bonus": "+{% Library Checkout Spd",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Pretzel",
+    "lv": 111,
+    "bonus": "+{% Lab EXP",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Sea Urchin",
+    "lv": 111,
+    "bonus": "+{% Critters from traps",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Mashed Potato",
+    "lv": 111,
+    "bonus": "+{% Cooking EXP",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Mutton",
+    "lv": 111,
+    "bonus": "+{% Crit Chance",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Wedding Cake",
+    "lv": 111,
+    "bonus": "+{% Mob Fighting Damage",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Eel",
+    "lv": 111,
+    "bonus": "+{% Line Width in Lab",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Whipped Cocoa",
+    "lv": 111,
+    "bonus": "+{% Skill Efficiency",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Onion",
+    "lv": 111,
+    "bonus": "+{% Total Damage",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Soda",
+    "lv": 111,
+    "bonus": "+{% Meal Cooking Speed",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Sushi Roll",
+    "lv": 111,
+    "bonus": "+{% VIP Library PTS",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Buncha Banana",
+    "lv": 111,
+    "bonus": "+{ Max LVs for TPPST",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Pumpkin",
+    "lv": 111,
+    "bonus": "+{% Liquid Cap",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Cotton Candy",
+    "lv": 111,
+    "bonus": "+{% Divinity EXP",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Massive Fig",
+    "lv": 111,
+    "bonus": "+{% Total Damage",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Chef Geustloaf",
+    "lv": 111,
+    "bonus": "+{% Bits Gain in Gaming",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Kiwi Fruit",
+    "lv": 111,
+    "bonus": "+{% Liquid Cap",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Popped Corn",
+    "lv": 111,
+    "bonus": "+{% Sailing Speed",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Double Cherry",
+    "lv": 111,
+    "bonus": "+{% Meal Cooking Spd",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Ratatouey",
+    "lv": 111,
+    "bonus": "+{% Lower Kitchen costs",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Giant Tomato",
+    "lv": 111,
+    "bonus": "+{% Gaming EXP",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Wrath Grapes",
+    "lv": 111,
+    "bonus": "+{% Divinity EXP",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Sausy Sausage",
+    "lv": 111,
+    "bonus": "+{% Bits Gain in Gaming",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Seasoned Marrow",
+    "lv": 111,
+    "bonus": "+{% Farming EXP",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Sticky Bun",
+    "lv": 111,
+    "bonus": "+{% Essence Gain",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   },
+   {
+    "name": "Frazzleberry",
+    "lv": 111,
+    "bonus": "+{% Sneaking EXP",
+    "next_h": null,
+    "next": null,
+    "ladles": null,
+    "short": 2.1204510745485263e+134
+   }
+  ],
+  "kitchens": [
+   {
+    "k": 1,
+    "meal": "",
+    "rate": null,
+    "speed": [
+     399,
+     null,
+     4182.066600613789
+    ],
+    "fire": [
+     302,
+     null,
+     438.3646830412941
+    ],
+    "luck": [
+     306,
+     null,
+     482.0705521124105
+    ]
+   },
+   {
+    "k": 2,
+    "meal": "",
+    "rate": null,
+    "speed": [
+     394,
+     null,
+     3732.0020085577125
+    ],
+    "fire": [
+     208,
+     null,
+     43.890026478422755
+    ],
+    "luck": [
+     160,
+     null,
+     12.877301107404671
+    ]
+   },
+   {
+    "k": 3,
+    "meal": "",
+    "rate": null,
+    "speed": [
+     369,
+     null,
+     2101.9354919054394
+    ],
+    "fire": [
+     177,
+     null,
+     19.915487985321217
+    ],
+    "luck": [
+     168,
+     null,
+     15.817299280340448
+    ]
+   },
+   {
+    "k": 4,
+    "meal": "",
+    "rate": null,
+    "speed": [
+     362,
+     null,
+     1788.7617448382143
+    ],
+    "fire": [
+     43,
+     null,
+     1.2309213204508098
+    ],
+    "luck": [
+     30,
+     null,
+     1.1158653276815493
+    ]
+   },
+   {
+    "k": 5,
+    "meal": "",
+    "rate": null,
+    "speed": [
+     348,
+     null,
+     1292.848966966736
+    ],
+    "fire": [
+     139,
+     null,
+     7.51824246119523
+    ],
+    "luck": [
+     106,
+     null,
+     3.359058192358641
+    ]
+   },
+   {
+    "k": 6,
+    "meal": "",
+    "rate": null,
+    "speed": [
+     340,
+     null,
+     1072.9814287145998
+    ],
+    "fire": [
+     103,
+     null,
+     3.133428672418834
+    ],
+    "luck": [
+     75,
+     null,
+     1.777227951449853
+    ]
+   },
+   {
+    "k": 7,
+    "meal": "",
+    "rate": null,
+    "speed": [
+     321,
+     null,
+     687.0212634187133
+    ],
+    "fire": [
+     85,
+     null,
+     2.1386092783176602
+    ],
+    "luck": [
+     59,
+     null,
+     1.3980942263189124
+    ]
+   },
+   {
+    "k": 8,
+    "meal": "",
+    "rate": null,
+    "speed": [
+     304,
+     null,
+     459.7101979125884
+    ],
+    "fire": [
+     51,
+     null,
+     1.3125728392527178
+    ],
+    "luck": [
+     30,
+     null,
+     1.1158653276815493
+    ]
+   },
+   {
+    "k": 9,
+    "meal": "",
+    "rate": null,
+    "speed": [
+     301,
+     null,
+     427.8912555928187
+    ],
+    "fire": [
+     38,
+     null,
+     1.1840442522031893
+    ],
+    "luck": [
+     30,
+     null,
+     1.1158653276815493
+    ]
+   },
+   {
+    "k": 10,
+    "meal": "",
+    "rate": null,
+    "speed": [
+     280,
+     null,
+     258.92548444484606
+    ],
+    "fire": [
+     21,
+     null,
+     1.0763015572537031
+    ],
+    "luck": [
+     19,
+     null,
+     1.0678236064477362
+    ]
+   }
+  ],
+  "spice_claims": null,
+  "mastery": {
+   "lv": 5,
+   "rate": 2.7,
+   "ttl": null
+  },
+  "divorce_cake": 64,
+  "ribbons": [
+   4,
+   19
+  ],
+  "ribbons_day": null,
+  "speed_x1": [],
+  "causticolumn": [
+   "Causticolumn Omnipotent->Transcendent",
+   27678
+  ]
+ }
+}

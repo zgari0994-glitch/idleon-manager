@@ -1,0 +1,153 @@
+{
+ "module": "greenstacks",
+ "systems": [
+  "greenstacks"
+ ],
+ "ok": true,
+ "card_lines": [
+  "Close to a greenstack, don't spend these: Spontaneity Salts (75%), Bonemeal (75%). Other cards will warn you before using them.",
+  "Buy the daily vendor items that are closest to a greenstack: Potent Speed Potion, Potent Strength Potion, Potent EXP Potion, Potent Life Potion, Yeti Ham.",
+  "10 quest items still need greenstacks while you can still get them.",
+  "Your call on the free exalt: Pulse says the vendor shop stamp, AutoReview says Summoner Stone."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "snapshot": "20261127T1704",
+  "tier": "179 out of max (realistic) 452",
+  "near": [
+   {
+    "item": "Spontaneity Salts",
+    "pct": 75.0,
+    "group": "Timegated Item recommendations",
+    "tab": "Other Skilling Resources",
+    "owned": 7553095.0,
+    "need": 2446905.0,
+    "rate_hr": 53196.827043217454,
+    "window": {
+     "from": "20261126T2330",
+     "hours": 17.6
+    },
+    "replace": "Refinery (salt output vs what the chain consumes)"
+   },
+   {
+    "item": "Bonemeal",
+    "pct": 75.0,
+    "group": "Difficulty Group 12 Item recommendations",
+    "tab": "Base Monster Materials",
+    "owned": 7508269.0,
+    "need": 2491731.0,
+    "rate_hr": 0.0,
+    "window": {
+     "from": "20261126T2330",
+     "hours": 17.6
+    },
+    "replace": "its normal source"
+   }
+  ],
+  "vendor": [
+   {
+    "item": "Potent Speed Potion",
+    "pct": 64.0,
+    "group": "Timegated Item recommendations",
+    "tab": "Vendor Shops"
+   },
+   {
+    "item": "Potent Strength Potion",
+    "pct": 63.0,
+    "group": "Timegated Item recommendations",
+    "tab": "Vendor Shops"
+   },
+   {
+    "item": "Potent EXP Potion",
+    "pct": 52.0,
+    "group": "Timegated Item recommendations",
+    "tab": "Vendor Shops"
+   },
+   {
+    "item": "Potent Life Potion",
+    "pct": 40.0,
+    "group": "Timegated Item recommendations",
+    "tab": "Vendor Shops"
+   },
+   {
+    "item": "Yeti Ham",
+    "pct": 25.0,
+    "group": "Timegated Item recommendations",
+    "tab": "Vendor Shops"
+   },
+   {
+    "item": "Magma Barrel",
+    "pct": 13.0,
+    "group": "Timegated Item recommendations",
+    "tab": "Vendor Shops"
+   },
+   {
+    "item": "Average Life Potion",
+    "pct": 12.0,
+    "group": "Timegated Item recommendations",
+    "tab": "Vendor Shops"
+   },
+   {
+    "item": "Decent Speed Potion",
+    "pct": 11.0,
+    "group": "Timegated Item recommendations",
+    "tab": "Vendor Shops"
+   },
+   {
+    "item": "Plasma Barrel",
+    "pct": 10.0,
+    "group": "Timegated Item recommendations",
+    "tab": "Vendor Shops"
+   },
+   {
+    "item": "Saucy Weiner",
+    "pct": 9.0,
+    "group": "Timegated Item recommendations",
+    "tab": "Vendor Shops"
+   },
+   {
+    "item": "Golden Dubloon",
+    "pct": 6.0,
+    "group": "Timegated Item recommendations",
+    "tab": "Vendor Shops"
+   },
+   {
+    "item": "Sheepie Dairy",
+    "pct": 6.0,
+    "group": "Timegated Item recommendations",
+    "tab": "Vendor Shops"
+   },
+   {
+    "item": "Cue Tape",
+    "pct": 2.0,
+    "group": "Timegated Item recommendations",
+    "tab": "Vendor Shops"
+   },
+   {
+    "item": "Saltwater Taffy",
+    "pct": 0.0,
+    "group": "Timegated Item recommendations",
+    "tab": "Vendor Shops"
+   },
+   {
+    "item": "Sugar Cookie",
+    "pct": 0.0,
+    "group": "Timegated Item recommendations",
+    "tab": "Vendor Shops"
+   }
+  ],
+  "endangered": [
+   "Employment Statistics- TP Pete: The Rats are to Blame!",
+   "Strange Rock- Stiltzcho: No Stone Unturned",
+   "Casual Confidante- Goldric: Only Winners have Portraits",
+   "Ketchup Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce",
+   "Claiming Cashe- Goldric: Only Winners have Portraits",
+   "Loomi's Room Key- Loominadi: Rhyming is Key!",
+   "Triumphant Treason- Goldric: Only Winners have Portraits",
+   "Monster Rating- XxX_Cattleprod_XxX: Ok, NOW it's Peak Gaming!",
+   "Time Thingy- Funguy: Partycrastination",
+   "Mustard Bottle- Picnic Stowaway: Beating Up Frogs for some Sauce"
+  ]
+ }
+}

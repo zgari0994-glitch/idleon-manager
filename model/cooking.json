@@ -1,18 +1,9 @@
 {
- "snapshot": "20261126T2330",
+ "snapshot": "20261127T1704",
  "cap": 120,
  "cap_parts": {},
  "cap_missing": [],
  "meals_open": [
-  {
-   "name": "Giga Chip",
-   "lv": 63,
-   "bonus": "+{% Research EXP",
-   "next_h": null,
-   "next": null,
-   "ladles": null,
-   "short": 5.7158337106887e+43
-  },
   {
    "name": "Divorce Cake",
    "lv": 64,
@@ -30,6 +21,15 @@
    "next": null,
    "ladles": null,
    "short": 4.753389377769732e+46
+  },
+  {
+   "name": "Giga Chip",
+   "lv": 66,
+   "bonus": "+{% Research EXP",
+   "next_h": null,
+   "next": null,
+   "ladles": null,
+   "short": 5.214293294676157e+46
   },
   {
    "name": "Singing Seed",
@@ -747,9 +747,9 @@
     1.2309213204508098
    ],
    "luck": [
-    29,
+    30,
     null,
-    1.1102133604775712
+    1.1158653276815493
    ]
   },
   {
@@ -862,14 +862,14 @@
     258.92548444484606
    ],
    "fire": [
-    20,
+    21,
     null,
-    1.0734755736517143
+    1.0763015572537031
    ],
    "luck": [
-    18,
+    19,
     null,
-    1.0649976228457472
+    1.0678236064477362
    ]
   }
  ],
@@ -888,6 +888,6 @@
  "speed_x1": [],
  "causticolumn": [
   "Causticolumn Omnipotent->Transcendent",
-  28731
+  27678
  ]
 }

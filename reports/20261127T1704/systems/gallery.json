@@ -1,0 +1,838 @@
+{
+ "module": "gallery",
+ "systems": [
+  "gallery"
+ ],
+ "ok": true,
+ "card_lines": [
+  "Gallery 15 podiums, bonus 1.46x. Nametags owned 15 (missing ones + sources in acquire.md).",
+  "AutoReview (tier ): King of Food20% Food Effect 0->1; Dice Dynamo2% Luk 0->1; Ultra Unboxer3% Drop Rate 0->1; Megalodon15% Crit Chance10% Total Damage 0->1"
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "podiums": 15,
+  "multi": "1.46x",
+  "empty": 0,
+  "spare_trophies": [],
+  "tags_owned": [
+   "Aethermoon Nametag",
+   "Balling Nametag",
+   "Cropfall Nametag",
+   "Falloween Nametag",
+   "Frostyman Nametag",
+   "Gingerbread Nametag",
+   "Island Adventurer Nametag",
+   "Megafeather Nametag",
+   "Nightshade Nametag",
+   "Riftwalker Nametag",
+   "Snowflake Nametag",
+   "Timeless Nametag",
+   "Tome Apprentice Nametag",
+   "Tome Legend Nametag",
+   "Vman Nametag"
+  ],
+  "tags_missing": [
+   "Spring Flowers Nametag",
+   "Trash Tuna Nametag",
+   "Summer Shovel Nametag",
+   "3rd Anniversary IdleOn Nametag",
+   "Lovely Day Nametag",
+   "Spectacular 4th Year Nametag",
+   "4th Anniversary IdleOn Nametag",
+   "Deadbones Nametag",
+   "Treasure Nametag",
+   "Tome Journeyman Nametag",
+   "Tome Expert Nametag",
+   "Tome Elite Nametag",
+   "Tome Pro Nametag",
+   "Tome Master Nametag",
+   "Reliquarium Nametag",
+   "Sweet Chocolate Nametag",
+   "Pot of Gold Nametag",
+   "Emerald Nametag",
+   "5th Anniversary IdleOn Nametag",
+   "Wonderful 5th Year Nametag",
+   "Grand Egg Nametag",
+   "All That Glitters Nametag",
+   "Singed Nametag",
+   "Spooky Scary Nametag"
+  ],
+  "ar": [
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Trophy",
+    "label": "King of Food20% Food Effect",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Trophy",
+    "label": "Dice Dynamo2% Luk",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Trophy",
+    "label": "Ultra Unboxer3% Drop Rate",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Trophy",
+    "label": "Megalodon15% Crit Chance10% Total Damage",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Trophy",
+    "label": "Idle Skiller15% Skill Efficiency",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Trophy",
+    "label": "Master of Nothing10% All Afk Gain70% Skill Exp",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Trophy",
+    "label": "Nebula Royal50% Skill Exp",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Trophy",
+    "label": "Baller3% All Stats3% All Afk Gain",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Trophy",
+    "label": "Heroic Spirit10% Afk Gains Multi20% Damage Multi",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Trophy",
+    "label": "Nine Dart Finish9% Drop Rate Multi9% Afk Gains Multi",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Trophy",
+    "label": "Luckiest Lad777% Drop Rate",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Spring Flowers Nametag15% Skill Exp",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Trash Tuna Nametag200% Fishing Xp Gain",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Summer Shovel Nametag15% Xp From Monsters4% All Stats",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "3rd Anniversary IdleOn Nametag3% All Afk Gain3% Drop Rate",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Lovely Day Nametag60% Damage Bonus200% Money",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Spectacular 4th Year Nametag144% Class Exp Multi44% All Afk Gain",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "4th Anniversary IdleOn Nametag14% All Afk Gain14% Damage Multi",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Deadbones Nametag25% Drop Rate Multi35% Drop Rate",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Treasure Nametag25% Drop Rate25% Money",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Tome Journeyman Nametag7% Fight Afk Gain7% Skill Afk Gain",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Tome Expert Nametag10% Total Damage10% Mob Respawn",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Tome Elite Nametag12% Damage Multi12% Multikill Per Tier",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Tome Pro Nametag15% Class Exp Multi15% Bonus Money",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Tome Master Nametag17% Bonus Kills17% All Stats",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Reliquarium Nametag20% Drop Rate Multi20% Afk Gains Multi",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Sweet Chocolate Nametag25% Xp From Monsters10% Drop Rate",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Pot of Gold Nametag30% Drop Rate Multi100% Money",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Emerald Nametag25% Kills In World 6",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "5th Anniversary IdleOn Nametag5% Drop Rate Multi5% Damage Multi",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Wonderful 5th Year Nametag25% Kills In World 755% Class Exp Multi",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Grand Egg Nametag25% Afk Gains Multi25% Bigger Damage",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "All That Glitters Nametag250% Xp From Monsters50% Class Exp Multi",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Singed Nametag50% Damage Bonus10% Kills In World 7",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Get and bring to Codfrey",
+    "tab": "Nametag",
+    "label": "Spooky Scary Nametag100% Research Exp",
+    "cur": "0",
+    "goal": "1"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Trophy podium",
+    "label": "One of the Divine164.11% Drop Rate136.76% Total DamagePodium Multi: 2.5x",
+    "cur": "",
+    "goal": "",
+    "completed": true,
+    "res": "gallery-slot-3"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Trophy podium",
+    "label": "Gladiator31.26% Damage MultiPodium Multi: 2x",
+    "cur": "",
+    "goal": "",
+    "completed": true,
+    "res": "gallery-slot-2"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Trophy podium",
+    "label": "Luckier Lad156.29% Drop Rate15.63% LukPodium Multi: 2x",
+    "cur": "",
+    "goal": "",
+    "completed": true,
+    "res": "gallery-slot-2"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Trophy podium",
+    "label": "Beach Bro117.22% MoneyPodium Multi: 1.5x",
+    "cur": "",
+    "goal": "",
+    "completed": true,
+    "res": "gallery-slot-1"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Trophy podium",
+    "label": "Lucky Lad16.41% Drop RatePodium Multi: 1.5x",
+    "cur": "",
+    "goal": "",
+    "completed": true,
+    "res": "gallery-slot-1"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Trophy podium",
+    "label": "Frost Prince18.76% Total DamagePodium Multi: 1.5x",
+    "cur": "",
+    "goal": "",
+    "completed": true,
+    "res": "gallery-slot-1"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Trophy podium",
+    "label": "Club Maestro82.05% Skill ExpPodium Multi: 1.5x",
+    "cur": "",
+    "goal": "",
+    "completed": true,
+    "res": "gallery-slot-1"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Trophy podium",
+    "label": "Critter Baron11.72% AgiPodium Multi: 1.5x",
+    "cur": "",
+    "goal": "",
+    "completed": true,
+    "res": "gallery-slot-1"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Trophy podium",
+    "label": "Blunder Hero7.03% Skill Afk GainPodium Multi: 1.5x",
+    "cur": "",
+    "goal": "",
+    "completed": true,
+    "res": "gallery-slot-1"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Trophy podium",
+    "label": "YumYum Sheriff28.13% Boss DamagePodium Multi: 1.5x",
+    "cur": "",
+    "goal": "",
+    "completed": true,
+    "res": "gallery-slot-1"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Trophy podium",
+    "label": "Trailblazer46.89% Xp From MonstersPodium Multi: 1.5x",
+    "cur": "",
+    "goal": "",
+    "completed": true,
+    "res": "gallery-slot-1"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Trophy podium",
+    "label": "Club Member7.03% Xp From MonstersPodium Multi: 1.5x",
+    "cur": "",
+    "goal": "",
+    "completed": true,
+    "res": "gallery-slot-1"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Trophy podium",
+    "label": "Original Gamer4.69% Xp From MonstersPodium Multi: 1.5x",
+    "cur": "",
+    "goal": "",
+    "completed": true,
+    "res": "gallery-slot-1"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Nametag",
+    "label": "Riftwalker Nametag78.15% Xp From MonstersLevel Multi: 1x",
+    "cur": "1",
+    "goal": "5"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Nametag",
+    "label": "Balling Nametag156.29% Drop RateLevel Multi: 2.5x",
+    "cur": "",
+    "goal": "\u2714",
+    "completed": true
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Nametag",
+    "label": "Vman Nametag15.63% Multikill Per TierLevel Multi: 1x",
+    "cur": "1",
+    "goal": "5"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Nametag",
+    "label": "Island Adventurer Nametag15.63% Fight Afk Gain7.81% Fishin EfficincyLevel Multi: 1x",
+    "cur": "1",
+    "goal": "5"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Nametag",
+    "label": "Falloween Nametag78.15% Mining Xp Gain9.38% Skill Afk GainLevel Multi: 2x",
+    "cur": "3",
+    "goal": "5"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Nametag",
+    "label": "Nightshade Nametag12.5% All Afk GainLevel Multi: 2x",
+    "cur": "3",
+    "goal": "5"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Nametag",
+    "label": "Megafeather Nametag50.01% Damage MultiLevel Multi: 1.6x",
+    "cur": "2",
+    "goal": "5"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Nametag",
+    "label": "Timeless Nametag62.52% Damage MultiLevel Multi: 1x",
+    "cur": "1",
+    "goal": "5"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Nametag",
+    "label": "Snowflake Nametag7.5% All Afk Gain7.5% Damage MultiLevel Multi: 1.6x",
+    "cur": "2",
+    "goal": "5"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Nametag",
+    "label": "Frostyman Nametag39.07% All Afk Gain23.44% Damage MultiLevel Multi: 1x",
+    "cur": "1",
+    "goal": "5"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Nametag",
+    "label": "Aethermoon Nametag125.03% All Afk Gain15.63% Drop RateLevel Multi: 1x",
+    "cur": "1",
+    "goal": "5"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Nametag",
+    "label": "Tome Apprentice Nametag17.97% Drop Rate17.97% MoneyLevel Multi: 2.3x",
+    "cur": "4",
+    "goal": "5"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Nametag",
+    "label": "Tome Legend Nametag31.26% Drop Rate Multi31.26% Afk Gains MultiLevel Multi: 1x",
+    "cur": "1",
+    "goal": "5"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Nametag",
+    "label": "Cropfall Nametag62.52% Bonus Class Exp200.05% Xp From MonstersLevel Multi: 1.6x",
+    "cur": "2",
+    "goal": "5"
+   },
+   {
+    "group": "Gallery Showcase",
+    "tab": "Nametag",
+    "label": "Gingerbread Nametag107.84% Damage Multi179.74% Total DamageLevel Multi: 2.3x",
+    "cur": "4",
+    "goal": "5"
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "201.62 Weapon Power",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "357.91 STR",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "373.54 AGI",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "326.65 WIS",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "710.35 LUK",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "449.34 Defence",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "0% Food Effect",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "526.7% Drop Rate",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "336.81% Xp From Monsters",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "15.63% Luk",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "16.41% Skill Afk Gain",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "11.72% Agi",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "28.13% Boss Damage",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "0% Crit Chance",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "335.25% Total Damage",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "82.05% Skill Exp",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "135.19% Money",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "0% Skill Efficiency",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "184.11% All Afk Gain",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "0% All Stats",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "282.58% Damage Multi",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "31.26% Afk Gains Multi",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "31.26% Drop Rate Multi",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "15.63% Multikill Per Tier",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "0% Fishing Xp Gain",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "15.63% Fight Afk Gain",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "7.81% Fishin Efficincy",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "78.15% Mining Xp Gain",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "0% Damage Bonus",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "0% Class Exp Multi",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "0% Mob Respawn",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "0% Bonus Money",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "0% Bonus Kills",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "62.52% Bonus Class Exp",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "0% Kills In World 6",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "0% Kills In World 7",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "0% Bigger Damage",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Gallery Bonuses",
+    "tab": "default",
+    "label": "0% Research Exp",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   }
+  ],
+  "tier": "",
+  "snapshot": "20261127T1704"
+ }
+}

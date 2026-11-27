@@ -218,7 +218,7 @@ def world_of(map_name):
     i = MAPS.get(map_name)
     return None if i is None else min(7, i // 50 + 1)
 import sys as _sys
-_sys.path.insert(0, '/home/claude/ar/mysite'); sys.path.insert(0, '/home/claude/work/ar/mysite')
+_sys.path.insert(0, '/home/claude/ar/mysite'); _sys.path.insert(0, '/home/claude/work/ar/mysite')
 from consts.generated.raw_item_data import raw_item_data as _RD
 ITYPE = {}
 for _v in _RD.values():

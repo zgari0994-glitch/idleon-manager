@@ -1,13 +1,13 @@
 {
- "snapshot": "20261126T2330",
+ "snapshot": "20261127T1704",
  "balance": {
-  "Stardust": 22501668714.9541,
-  "Moondust": 38371105.9197386,
-  "Solardust": 9047,
+  "Stardust": 2399037155.59912,
+  "Moondust": 59164110.4660185,
+  "Solardust": 3265355.91556436,
   "Cooldust": 0,
   "Novadust": 0
  },
- "total_levels": 2955,
+ "total_levels": 4066,
  "extra_dust": null,
  "upgrades": [
   {
@@ -16,7 +16,7 @@
    "max": 1,
    "maxed": true,
    "next": null,
-   "cost": 0.22733333333333336,
+   "cost": 0.8880208333333335,
    "currency": "Stardust",
    "desc": "You can open portals using dust dropped by mobs, simply hold down on a portal for 2 seconds!",
    "unlocked": true
@@ -27,7 +27,7 @@
    "max": 24,
    "maxed": false,
    "next": null,
-   "cost": 72742312.17471856,
+   "cost": 284149656.93249434,
    "currency": "Stardust",
    "desc": "Unlocks a new Elemental upgrade, right here in The Compass!",
    "unlocked": true
@@ -38,7 +38,7 @@
    "max": 1,
    "maxed": true,
    "next": null,
-   "cost": 2.5471437037037044,
+   "cost": 9.949780092592594,
    "currency": "Stardust",
    "desc": "You can now see the elemental weakness of abominations, as well as mobs in AFK Info. Your current element is $",
    "unlocked": true
@@ -49,7 +49,7 @@
    "max": 1,
    "maxed": true,
    "next": null,
-   "cost": 1.5913333333333335,
+   "cost": 6.216145833333334,
    "currency": "Stardust",
    "desc": "Certain mobs can now drop Tempest Weapons at a 1 in $ chance. Check AFK Info to see what Tempest Items can be found!",
    "unlocked": true
@@ -60,7 +60,7 @@
    "max": 1,
    "maxed": true,
    "next": null,
-   "cost": 17.837081325102883,
+   "cost": 69.67609892618314,
    "currency": "Stardust",
    "desc": "All mobs can now drop Tempest Upgrade Stones, at a 1 in $ chance",
    "unlocked": true
@@ -71,7 +71,7 @@
    "max": 1,
    "maxed": true,
    "next": null,
-   "cost": 124.90911672384547,
+   "cost": 487.92623720252146,
    "currency": "Stardust",
    "desc": "All mobs can now drop their very own commemorative Medallion! They have a 1 in $ chance of dropping, and only while in Tempest Form!",
    "unlocked": true
@@ -82,7 +82,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 24553695.958459675,
+   "cost": 95912874.83773309,
    "currency": "Moondust",
    "desc": "Medallions now show up visually next to the monster's name in its Card Info. @ Also, +6% Tempest Damage AND Accuracy per Medallion collected",
    "unlocked": true
@@ -93,20 +93,20 @@
    "max": 25,
    "maxed": false,
    "next": null,
-   "cost": 26610807.182923723,
+   "cost": 103948465.55829579,
    "currency": "Moondust",
    "desc": "Boosts the drop chance of ALL Tempest items, including medallions, by 4% of your normal Drop Rate. @ Total Bonus: +$% Tempest Drop Rate",
    "unlocked": true
   },
   {
    "name": "Elemental Destruction",
-   "lv": 10,
+   "lv": 25,
    "max": 50,
    "maxed": false,
    "next": null,
-   "cost": 15674.075481014843,
+   "cost": 70589760.49567553,
    "currency": "Stardust",
-   "desc": "All elemental damage is +20% higher. In other words, this is a damage multi, but it only works when using the right element!",
+   "desc": "All elemental damage is +50% higher. In other words, this is a damage multi, but it only works when using the right element!",
    "unlocked": true
   },
   {
@@ -115,7 +115,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 1513404.8918566112,
+   "cost": 5911737.858814888,
    "currency": "Solardust",
    "desc": "The first 0 kills at the start of each day have a 200x chance to drop Tempest items!",
    "unlocked": true
@@ -126,7 +126,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 68859.5411953339,
+   "cost": 268982.5827942731,
    "currency": "Moondust",
    "desc": "Tempest Weapons dropped by mobs now have higher weapon power the more HP the mob has! @ Also, +0% Tempest DMG!",
    "unlocked": true
@@ -137,7 +137,7 @@
    "max": 25,
    "maxed": false,
    "next": null,
-   "cost": 0.8266666666666667,
+   "cost": 3.229166666666667,
    "currency": "Solardust",
    "desc": "All Tempest stones now have a 0% chance to not use up a slot when they fail!",
    "unlocked": true
@@ -148,7 +148,7 @@
    "max": 1,
    "maxed": true,
    "next": null,
-   "cost": 2196.2164139445745,
+   "cost": 8578.970366970994,
    "currency": "Moondust",
    "desc": "Certain mobs can now drop Tempest Rings at a 1 in $ chance. Check AFK Info to see what Tempest Items can be found!",
    "unlocked": true
@@ -159,7 +159,7 @@
    "max": 31,
    "maxed": false,
    "next": null,
-   "cost": 126134065.76285975,
+   "cost": 492711194.38617086,
    "currency": "Stardust",
    "desc": "Unlocks a new Fighter upgrade, right here in The Compass!",
    "unlocked": true
@@ -170,7 +170,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 7101494.62967017,
+   "cost": 27740213.397149105,
    "currency": "Stardust",
    "desc": "Boosts your Base Damage in Tempest Form by +147",
    "unlocked": true
@@ -181,42 +181,42 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 241614.97742246775,
+   "cost": 943808.5055565146,
    "currency": "Moondust",
    "desc": "Boosts your Base Damage in Tempest Form by +200",
    "unlocked": true
   },
   {
    "name": "Tempest Crits",
-   "lv": 13,
+   "lv": 20,
    "max": 25,
    "maxed": false,
    "next": null,
-   "cost": 86879.55298011885,
+   "cost": 13925797.062771546,
    "currency": "Stardust",
-   "desc": "+39% Critical Hit chance in Tempest Form",
+   "desc": "+60% Critical Hit chance in Tempest Form",
    "unlocked": true
   },
   {
    "name": "Tempest Accuracy",
-   "lv": 134,
+   "lv": 177,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 11370.691793741957,
+   "cost": 814796.8909020955,
    "currency": "Stardust",
-   "desc": "+134 Base Accuracy in Tempest Form",
+   "desc": "+177 Base Accuracy in Tempest Form",
    "unlocked": true
   },
   {
    "name": "Multishot",
-   "lv": 32,
+   "lv": 49,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 17135.688018391276,
+   "cost": 2972568.0282517844,
    "currency": "Stardust",
-   "desc": "+160% chance to shoot multiple arrows while in Tempest Form",
+   "desc": "+245% chance to shoot multiple arrows while in Tempest Form",
    "unlocked": true
   },
   {
@@ -225,7 +225,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 91383.0065740461,
+   "cost": 356964.8694298676,
    "currency": "Moondust",
    "desc": "+112 Base Accuracy in Tempest Form",
    "unlocked": true
@@ -236,7 +236,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 269651.0311407856,
+   "cost": 1053324.3403936937,
    "currency": "Moondust",
    "desc": "+5% Crit DMG in Tempest Form",
    "unlocked": true
@@ -247,20 +247,20 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 152673.11129752843,
+   "cost": 596379.3410059706,
    "currency": "Moondust",
    "desc": "+20% Basic Attack speed in Tempest Form",
    "unlocked": true
   },
   {
    "name": "Stardust Hoarding",
-   "lv": 0,
+   "lv": 1,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 388538.1896965053,
+   "cost": 1669500.0338521714,
    "currency": "Solardust",
-   "desc": "+0% Tempest Accuracy per POW 10 Stardust owned @ Total Bonus: 0%",
+   "desc": "+1% Tempest Accuracy per POW 10 Stardust owned @ Total Bonus: 9.38%",
    "unlocked": true
   },
   {
@@ -269,7 +269,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 28264189039.50913,
+   "cost": 110406988435.58255,
    "currency": "Cooldust",
    "desc": "+0% Tempest DMG per POW 10 Cooldust owned",
    "unlocked": true
@@ -280,7 +280,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 677073147.5655034,
+   "cost": 2644816982.6777477,
    "currency": "Cooldust",
    "desc": "Boosts your damage in Tempest Mode by +0",
    "unlocked": true
@@ -291,7 +291,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 1721019633.9785366,
+   "cost": 6722732945.228659,
    "currency": "Cooldust",
    "desc": "+0 Base Accuracy in Tempest Form",
    "unlocked": true
@@ -302,7 +302,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 182615231676.57767,
+   "cost": 713340748736.6316,
    "currency": "Novadust",
    "desc": "1.00x Tempest DMG per Mastery completed in Sneaking @ Total Bonus: 1.00x",
    "unlocked": true
@@ -313,20 +313,20 @@
    "max": 26,
    "maxed": false,
    "next": null,
-   "cost": 1441204219.08,
+   "cost": 5629703980.78125,
    "currency": "Stardust",
    "desc": "Unlocks a new Survival upgrade, right here in The Compass!",
    "unlocked": true
   },
   {
    "name": "Tempest Heartbeat",
-   "lv": 117,
+   "lv": 155,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 6728.369261497108,
+   "cost": 489522.39080919913,
    "currency": "Stardust",
-   "desc": "+351 Base HP in Tempest Form",
+   "desc": "+465 Base HP in Tempest Form",
    "unlocked": true
   },
   {
@@ -335,7 +335,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 6760.938971146817,
+   "cost": 26409.91785604225,
    "currency": "Stardust",
    "desc": "+252 Base Defence in Tempest Form",
    "unlocked": true
@@ -346,20 +346,20 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 2632.397882357978,
+   "cost": 10282.80422796085,
    "currency": "Stardust",
-   "desc": "+32% Tempest Defence per POW 10 Moondust owned @ Total Bonus: 242.69%",
+   "desc": "+32% Tempest Defence per POW 10 Moondust owned @ Total Bonus: 248.71%",
    "unlocked": true
   },
   {
    "name": "Mountains of Dust",
-   "lv": 0,
+   "lv": 33,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 139837.24589719597,
+   "cost": 861813565.4849627,
    "currency": "Stardust",
-   "desc": "+0% Extra Dust",
+   "desc": "+33% Extra Dust",
    "unlocked": true
   },
   {
@@ -368,7 +368,7 @@
    "max": 100,
    "maxed": false,
    "next": null,
-   "cost": 153386.66599253527,
+   "cost": 599166.664033341,
    "currency": "Moondust",
    "desc": "+24 Pixels of Reach in Tempest Mode",
    "unlocked": true
@@ -379,20 +379,20 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 21090071.082928494,
+   "cost": 82383090.16768944,
    "currency": "Solardust",
    "desc": "You can now find Novadust from any monster, at a 1 in 10,000 chance. This upgrade boosts this chance by +0%",
    "unlocked": true
   },
   {
    "name": "Solardust Hoarding",
-   "lv": 0,
+   "lv": 9,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 927.1877398242314,
+   "cost": 85020.33551093677,
    "currency": "Moondust",
-   "desc": "+0% Extra Dust per POW 10 Solardust owned @ Total Bonus: 0%",
+   "desc": "+9% Extra Dust per POW 10 Solardust owned @ Total Bonus: 58.63%",
    "unlocked": true
   },
   {
@@ -401,7 +401,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 20892.6434670999,
+   "cost": 81611.888543359,
    "currency": "Stardust",
    "desc": "+51% Movement Speed in Tempest Mode. @ Have you ever run a 5 minute mile? I haven't, but I'll edit this if I ever do!",
    "unlocked": true
@@ -412,7 +412,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 156841185.44354808,
+   "cost": 612660880.6388597,
    "currency": "Cooldust",
    "desc": "All compass upgrades are +0% Cheaper!",
    "unlocked": true
@@ -423,20 +423,20 @@
    "max": 30,
    "maxed": false,
    "next": null,
-   "cost": 381341.3487189089,
+   "cost": 1489614.643433238,
    "currency": "Solardust",
    "desc": "Increases invulnerability time in Tempest Form by +0 sec",
    "unlocked": true
   },
   {
    "name": "Spire of Dust",
-   "lv": 0,
+   "lv": 8,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 2835933.030122822,
+   "cost": 163485895.67985064,
    "currency": "Moondust",
-   "desc": "1.00x Extra Dust. @ Yea, this bonus is a whole new Multiplier, kinda baller...",
+   "desc": "1.08x Extra Dust. @ Yea, this bonus is a whole new Multiplier, kinda baller...",
    "unlocked": true
   },
   {
@@ -445,7 +445,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 23654583072.71716,
+   "cost": 92400715127.80142,
    "currency": "Novadust",
    "desc": "All Circle shaped Compass bonuses give 1.00x higher bonuses!",
    "unlocked": true
@@ -456,7 +456,7 @@
    "max": 38,
    "maxed": false,
    "next": null,
-   "cost": 5686003407.729094,
+   "cost": 22210950811.44177,
    "currency": "Stardust",
    "desc": "Unlocks a new Nomadic upgrade, right here in The Compass!",
    "unlocked": true
@@ -467,7 +467,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 109.34161665203126,
+   "cost": 427.1156900469972,
    "currency": "Stardust",
    "desc": "2.80x Jade Coin gain in Sneaking",
    "unlocked": true
@@ -478,7 +478,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 691.6575781823536,
+   "cost": 2701.787414774819,
    "currency": "Stardust",
    "desc": "+20 base Critter per Trap, and +20% higher Trap-O-Vision collection rate!",
    "unlocked": true
@@ -489,7 +489,7 @@
    "max": 200,
    "maxed": false,
    "next": null,
-   "cost": 71819.29198106598,
+   "cost": 280544.109301039,
    "currency": "Stardust",
    "desc": "3d Printer Samples grow by +2.04% every day for 100 days",
    "unlocked": true
@@ -500,7 +500,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 373593432.838444,
+   "cost": 1459349347.0251718,
    "currency": "Stardust",
    "desc": "+5 Exalted Stamp uses. Apply them to a stamp to PERMANENTLY double its bonus! Other sources can push Exalted Stamps beyond 2x!",
    "unlocked": true
@@ -511,7 +511,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 1350.2399919076947,
+   "cost": 5274.374968389433,
    "currency": "Moondust",
    "desc": "2.30x higher Stealth for all ninja twins. You know what, I'll DOUBLE this bonus every 50 levels, trust me bro!",
    "unlocked": true
@@ -522,7 +522,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 326489.1318531153,
+   "cost": 1275348.171301232,
    "currency": "Moondust",
    "desc": "+15 Talent PTS for all other Master Classes",
    "unlocked": true
@@ -533,20 +533,20 @@
    "max": 1,
    "maxed": true,
    "next": null,
-   "cost": 2935.769378511458,
+   "cost": 11467.849134810383,
    "currency": "Moondust",
    "desc": "Unlocks a new atom in the Atom Collider in World 3",
    "unlocked": true
   },
   {
    "name": "Moon of Damage",
-   "lv": 0,
+   "lv": 33,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 1983.784438438273,
+   "cost": 29759.33280533744,
    "currency": "Solardust",
-   "desc": "+0% higher damage for all characters. Not tempest damage, just good ol' classic IdleOn damage.",
+   "desc": "+33% higher damage for all characters. Not tempest damage, just good ol' classic IdleOn damage.",
    "unlocked": true
   },
   {
@@ -555,7 +555,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 1390.5482352836834,
+   "cost": 5431.829044076887,
    "currency": "Moondust",
    "desc": "1.00x higher Sneaking EXP Gain for all ninja twins",
    "unlocked": true
@@ -566,7 +566,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 167053.70240554112,
+   "cost": 652553.525021645,
    "currency": "Moondust",
    "desc": "All Atoms are +4% cheaper to upgrade",
    "unlocked": true
@@ -577,7 +577,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 12187047.323426645,
+   "cost": 47605653.60713534,
    "currency": "Cooldust",
    "desc": "+0% Class EXP for all characters",
    "unlocked": true
@@ -588,7 +588,7 @@
    "max": 25,
    "maxed": false,
    "next": null,
-   "cost": 37748.49770972696,
+   "cost": 147455.06917862094,
    "currency": "Solardust",
    "desc": "+0 Opals to give to Villagers",
    "unlocked": true
@@ -599,7 +599,7 @@
    "max": 20,
    "maxed": false,
    "next": null,
-   "cost": 448936.4657429234,
+   "cost": 1753658.0693082944,
    "currency": "Solardust",
    "desc": "+0 Max LV for all atoms in the Atom Collider",
    "unlocked": true
@@ -610,7 +610,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 20500012680.13265,
+   "cost": 80078174531.76816,
    "currency": "Cooldust",
    "desc": "+0% higher chance to find Pristine Charms in Sneaking",
    "unlocked": true
@@ -621,7 +621,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 144938481.93092734,
+   "cost": 566165945.042685,
    "currency": "Solardust",
    "desc": "+0% Monument AFK rate for all monuments in the Hole",
    "unlocked": true
@@ -632,7 +632,7 @@
    "max": 200,
    "maxed": false,
    "next": null,
-   "cost": 5339125.06461982,
+   "cost": 20855957.28367117,
    "currency": "Solardust",
    "desc": "+0 Talent PTS for the Wind Walker class only",
    "unlocked": true
@@ -643,7 +643,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 755162673.6209466,
+   "cost": 2949854193.831823,
    "currency": "Novadust",
    "desc": "+0% AFK Gains for all characters",
    "unlocked": true
@@ -654,7 +654,7 @@
    "max": 1,
    "maxed": false,
    "next": null,
-   "cost": 37383415794705.71,
+   "cost": 146028967948069.2,
    "currency": "Cooldust",
    "desc": "Unlocks a new atom in the Atom Collider in World 3",
    "unlocked": true
@@ -665,75 +665,75 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 15107108844847.887,
+   "cost": 59012143925187.06,
    "currency": "Novadust",
    "desc": "1.00x Villager EXP Gain, not that you need it though...",
    "unlocked": true
   },
   {
    "name": "Abomination Slayer I",
-   "lv": 95,
+   "lv": 150,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 7073.518865195806,
+   "cost": 5223880.511360677,
    "currency": "Stardust",
-   "desc": "You have slain the green mushroom abomination! @ +95 Base Tempest Damage",
+   "desc": "You have slain the green mushroom abomination! @ +150 Base Tempest Damage",
    "unlocked": true
   },
   {
    "name": "Abomination Slayer II",
-   "lv": 88,
+   "lv": 150,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 7209.925095705478,
+   "cost": 10376174.512010116,
    "currency": "Stardust",
-   "desc": "You have slain the bored bean abomination! @ +88 Base Tempest Accuracy",
+   "desc": "You have slain the bored bean abomination! @ +150 Base Tempest Accuracy",
    "unlocked": true
   },
   {
    "name": "Abomination Slayer III",
-   "lv": 41,
+   "lv": 70,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 8083.857972812334,
+   "cost": 7946107.726568511,
    "currency": "Stardust",
-   "desc": "You have slain the carrot abomination! @ +41% Tempest Move Speed",
+   "desc": "You have slain the carrot abomination! @ +70% Tempest Move Speed",
    "unlocked": true
   },
   {
    "name": "Abomination Slayer IV",
-   "lv": 78,
+   "lv": 114,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 10967.104126208964,
+   "cost": 1324306.9774383847,
    "currency": "Stardust",
-   "desc": "You have slain the gigafrog abomination! @ +78 Base Tempest Defence",
+   "desc": "You have slain the gigafrog abomination! @ +114 Base Tempest Defence",
    "unlocked": true
   },
   {
    "name": "Abomination Slayer V",
-   "lv": 94,
+   "lv": 105,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 100096.51615760723,
+   "cost": 1115574.3846589022,
    "currency": "Stardust",
-   "desc": "You have slain the acorn abomination! @ +94% Tempest Damage",
+   "desc": "You have slain the acorn abomination! @ +105% Tempest Damage",
    "unlocked": true
   },
   {
    "name": "Abomination Slayer VI",
-   "lv": 90,
+   "lv": 95,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 135797.64996654433,
+   "cost": 854310.4423735132,
    "currency": "Stardust",
-   "desc": "You have slain the rat abomination! @ +90 Pixels of Reach in Tempest Mode",
+   "desc": "You have slain the rat abomination! @ +95 Pixels of Reach in Tempest Mode",
    "unlocked": true
   },
   {
@@ -742,42 +742,42 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 4001354.4325630213,
+   "cost": 15630290.752199303,
    "currency": "Moondust",
    "desc": "You have slain the sandypot abomination! @ +9% Tempest Crit Chance",
    "unlocked": true
   },
   {
    "name": "Abomination Slayer VIII",
-   "lv": 11,
+   "lv": 12,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 353224.5640610852,
+   "cost": 2897545.2520635906,
    "currency": "Moondust",
-   "desc": "You have slain the crabcake abomination! @ +11 Windwalker Talent PTS",
+   "desc": "You have slain the crabcake abomination! @ +12 Windwalker Talent PTS",
    "unlocked": true
   },
   {
    "name": "Abomination Slayer IX",
-   "lv": 70,
+   "lv": 83,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 158186.9489465912,
+   "cost": 2133219.727894486,
    "currency": "Moondust",
-   "desc": "You have slain the sandcastle abomination! @ +70% Extra Dust",
+   "desc": "You have slain the sandcastle abomination! @ +83% Extra Dust",
    "unlocked": true
   },
   {
    "name": "Abomination Slayer X",
-   "lv": 15,
+   "lv": 30,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 174219.0363348589,
+   "cost": 298005670.30888927,
    "currency": "Stardust",
-   "desc": "You have slain the mashed potato abomination! @ +15% Tempest Attack Speed",
+   "desc": "You have slain the mashed potato abomination! @ +30% Tempest Attack Speed",
    "unlocked": true
   },
   {
@@ -786,20 +786,20 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 534627.7024323482,
+   "cost": 2088389.46262636,
    "currency": "Moondust",
    "desc": "You have slain the moonmoon abomination! @ +4% Tempest Minimum DMG",
    "unlocked": true
   },
   {
    "name": "Abomination Slayer XII",
-   "lv": 23,
+   "lv": 51,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 14055.507964794428,
+   "cost": 791774.9631044532,
    "currency": "Stardust",
-   "desc": "You have slain the fishcrate abomination! @ +23 extra kills for Top of the Mornin'",
+   "desc": "You have slain the fishcrate abomination! @ +51 extra kills for Top of the Mornin'",
    "unlocked": true
   },
   {
@@ -808,7 +808,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 2462332.9734752076,
+   "cost": 9618488.17763753,
    "currency": "Moondust",
    "desc": "You have slain the snelbie abomination! @ +70% Medallion Drop Chance",
    "unlocked": true
@@ -819,20 +819,20 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 243842.71479551148,
+   "cost": 952510.6046699669,
    "currency": "Moondust",
    "desc": "You have slain the flake abomination! @ +14% Multishot Chance in Tempest Mode",
    "unlocked": true
   },
   {
    "name": "Abomination Slayer XV",
-   "lv": 23,
+   "lv": 43,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 814921.0657049642,
+   "cost": 122039522.60556056,
    "currency": "Stardust",
-   "desc": "You have slain the bloque abomination! @ +23% Elemental Damage",
+   "desc": "You have slain the bloque abomination! @ +43% Elemental Damage",
    "unlocked": true
   },
   {
@@ -841,31 +841,31 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 444448.1341055967,
+   "cost": 1736125.523849987,
    "currency": "Moondust",
    "desc": "You have slain the snowman abomination! @ +13% Tempest Critical Damage",
    "unlocked": true
   },
   {
    "name": "Abomination Slayer XVII",
-   "lv": 0,
+   "lv": 3,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 48532.75565810579,
+   "cost": 9602850282.617315,
    "currency": "Moondust",
-   "desc": "You have slain the quenchie abomination! @ +0% higher Exalted Stamp bonuses",
+   "desc": "You have slain the quenchie abomination! @ +3% higher Exalted Stamp bonuses",
    "unlocked": true
   },
   {
    "name": "Abomination Slayer XVIII",
-   "lv": 0,
+   "lv": 20,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 96400.43281274864,
+   "cost": 635622208.806722,
    "currency": "Stardust",
-   "desc": "You have slain the neyeptune abomination! @ +0% cheaper Compass upgrade costs",
+   "desc": "You have slain the neyeptune abomination! @ +20% cheaper Compass upgrade costs",
    "unlocked": true
   },
   {
@@ -874,7 +874,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 191479.82265732254,
+   "cost": 747968.0572551662,
    "currency": "Stardust",
    "desc": "You have slain the bloodbone abomination! @ +0% Tempest DMG per POW 10 HP",
    "unlocked": true
@@ -885,7 +885,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 380335.66255971143,
+   "cost": 1485686.1818738729,
    "currency": "Solardust",
    "desc": "You have slain the purple mushroom abomination! @ +0% Tempest Accuracy",
    "unlocked": true
@@ -896,7 +896,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 755459.3178917527,
+   "cost": 2951012.960514659,
    "currency": "Moondust",
    "desc": "You have slain the donut abomination! @ +0% bonus from ALL circle shaped compass upgrades",
    "unlocked": true
@@ -907,7 +907,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 1500566.0451309148,
+   "cost": 5861586.1137926355,
    "currency": "Solardust",
    "desc": "You have slain the soda abomination! @ +0 Base Tempest Damage",
    "unlocked": true
@@ -918,7 +918,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 2980568.777791517,
+   "cost": 11642846.788248112,
    "currency": "Solardust",
    "desc": "You have slain the gelatinous cuboid abomination! @ +0% Tempest Stone drop chance",
    "unlocked": true
@@ -929,7 +929,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 5920292.724183667,
+   "cost": 23126143.453842454,
    "currency": "Moondust",
    "desc": "You have slain the worm abomination! @ +0% Tempest Defence",
    "unlocked": true
@@ -940,7 +940,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 11759455.511035929,
+   "cost": 45935373.0899841,
    "currency": "Solardust",
    "desc": "You have slain the squid abomination! @ +0% Tempest Accuracy per POW 10 HP",
    "unlocked": true
@@ -951,7 +951,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 23357762.92803174,
+   "cost": 91241261.43762398,
    "currency": "Solardust",
    "desc": "You have slain the grilled cheese abomination! @ +0% Tempest Damage",
    "unlocked": true
@@ -962,7 +962,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 46395437.993716374,
+   "cost": 181232179.66295457,
    "currency": "Solardust",
    "desc": "You have slain the stiltmole abomination! @ +0% Novadust drop chance",
    "unlocked": true
@@ -973,7 +973,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 92155086.65196328,
+   "cost": 359980807.2342316,
    "currency": "Stardust",
    "desc": "You have slain the purgatory twins abomination! @ +0 Base Tempest HP",
    "unlocked": true
@@ -984,7 +984,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 183047307.30165896,
+   "cost": 715028544.1471052,
    "currency": "Moondust",
    "desc": "You have slain the lampar abomination! @ +0 sec invulnerability time in Tempest Form",
    "unlocked": true
@@ -995,7 +995,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 363586188.54029506,
+   "cost": 1420258548.9855278,
    "currency": "Cooldust",
    "desc": "You have slain the tremor wurm abomination! @ +0% Extra Dust",
    "unlocked": true
@@ -1006,7 +1006,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 722189899.682075,
+   "cost": 2821054295.6331058,
    "currency": "Moondust",
    "desc": "You have slain the sprout abomination! @ +0% Tempest Accuracy",
    "unlocked": true
@@ -1017,7 +1017,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 1434483122.9610994,
+   "cost": 5603449699.066795,
    "currency": "Cooldust",
    "desc": "You have slain the woodlin abomination! @ +0% Tempest Defence",
    "unlocked": true
@@ -1028,7 +1028,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 2849308514.237176,
+   "cost": 11130111383.738972,
    "currency": "Stardust",
    "desc": "You have slain the lantern abomination! @ +0% Tempest HP",
    "unlocked": true
@@ -1039,7 +1039,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 5659570948.834806,
+   "cost": 22107699018.88596,
    "currency": "Solardust",
    "desc": "You have slain the ceramic abomination! @ +0% Extra Dust",
    "unlocked": true
@@ -1050,7 +1050,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 11241584814.29669,
+   "cost": 43912440680.84644,
    "currency": "Cooldust",
    "desc": "You have slain the egg abomination! @ +0% Tempest Damage",
    "unlocked": true
@@ -1061,7 +1061,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 22329118281.138203,
+   "cost": 87223118285.6961,
    "currency": "Cooldust",
    "desc": "Titan doesnt exist",
    "unlocked": true
@@ -1072,7 +1072,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 44352244941.38673,
+   "cost": 173250956802.2919,
    "currency": "Moondust",
    "desc": "Titan doesnt exist",
    "unlocked": true
@@ -1083,7 +1083,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 88096699859.50261,
+   "cost": 344127733826.182,
    "currency": "Stardust",
    "desc": "Titan doesnt exist",
    "unlocked": true
@@ -1094,7 +1094,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 174986148646.85645,
+   "cost": 683539643151.783,
    "currency": "Solardust",
    "desc": "Titan doesnt exist",
    "unlocked": true
@@ -1105,7 +1105,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 347574338960.4041,
+   "cost": 1357712261564.0786,
    "currency": "Cooldust",
    "desc": "Titan doesnt exist",
    "unlocked": true
@@ -1116,7 +1116,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 690385622164.6841,
+   "cost": 2696818836580.798,
    "currency": "Novadust",
    "desc": "Titan doesnt exist",
    "unlocked": true
@@ -1127,7 +1127,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 1371310404321.9265,
+   "cost": 5356681266882.525,
    "currency": "Novadust",
    "desc": "Titan doesnt exist",
    "unlocked": true
@@ -1138,7 +1138,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 2723828777177.2188,
+   "cost": 10639956160848.51,
    "currency": "Novadust",
    "desc": "Titan doesnt exist",
    "unlocked": true
@@ -1149,7 +1149,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 5410331011852.379,
+   "cost": 21134105515048.355,
    "currency": "Novadust",
    "desc": "Titan doesnt exist",
    "unlocked": true
@@ -1160,7 +1160,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 10746520450579.375,
+   "cost": 41978595510075.69,
    "currency": "Novadust",
    "desc": "Titan doesnt exist",
    "unlocked": true
@@ -1171,7 +1171,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 21345773769058.21,
+   "cost": 83381928785383.64,
    "currency": "Novadust",
    "desc": "Titan doesnt exist",
    "unlocked": true
@@ -1182,20 +1182,20 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 9621.647782953622,
+   "cost": 37584.561652162585,
    "currency": "Stardust",
    "desc": "+55% drop chance for all Tempest Weapons",
    "unlocked": true
   },
   {
    "name": "Medallion Drops",
-   "lv": 48,
+   "lv": 67,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 851436.6488868489,
+   "cost": 20341051.179830417,
    "currency": "Moondust",
-   "desc": "+48% drop chance for all monster Medallions",
+   "desc": "+67% drop chance for all monster Medallions",
    "unlocked": true
   },
   {
@@ -1204,7 +1204,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 260979752.30895257,
+   "cost": 1019452157.4568461,
    "currency": "Cooldust",
    "desc": "+0% chance for Grass Tempest Weapon that drop to be more powerful",
    "unlocked": true
@@ -1215,7 +1215,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 93170082.14123654,
+   "cost": 363945633.3642053,
    "currency": "Cooldust",
    "desc": "+0% chance for Fire Tempest Weapons that drop to be more powerful",
    "unlocked": true
@@ -1226,7 +1226,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 192883.2259482631,
+   "cost": 753450.1013604028,
    "currency": "Solardust",
    "desc": "+0% drop chance for all Tempest Stones",
    "unlocked": true
@@ -1237,7 +1237,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 16066754568.233856,
+   "cost": 62760760032.163506,
    "currency": "Novadust",
    "desc": "+0% drop chance for ALL Tempest items. Weapons, stones, rings, all of them!",
    "unlocked": true
@@ -1248,7 +1248,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 5735850500.3611555,
+   "cost": 22405666017.035767,
    "currency": "Novadust",
    "desc": "+0% drop chance for Tempest Rings that give weird stats unrelated to element damage",
    "unlocked": true
@@ -1259,7 +1259,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 4239215.258189464,
+   "cost": 16559434.602302594,
    "currency": "Solardust",
    "desc": "+0% drop chance for Tempest Rings that give element damage",
    "unlocked": true
@@ -1270,7 +1270,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 33261830.19718877,
+   "cost": 129929024.20776865,
    "currency": "Solardust",
    "desc": "+0% chance for Wind Tempest Weapons that drop to be more powerful",
    "unlocked": true
@@ -1281,7 +1281,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 2047705454.31378,
+   "cost": 7998849430.913204,
    "currency": "Cooldust",
    "desc": "+0% drop chance for ALL Tempest items!",
    "unlocked": true
@@ -1292,7 +1292,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 540287.3473506349,
+   "cost": 2110497.4505884172,
    "currency": "Solardust",
    "desc": "+0% drop chance for ALL Tempest items!",
    "unlocked": true
@@ -1303,7 +1303,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 731033283.9676327,
+   "cost": 2855598765.4985657,
    "currency": "Cooldust",
    "desc": "+0% chance for Ice Tempest Weapons that drop to be more powerful",
    "unlocked": true
@@ -1314,31 +1314,31 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 652.8574842875402,
+   "cost": 2550.224547998204,
    "currency": "Moondust",
    "desc": "+70% drop chance for all Tempest Rings",
    "unlocked": true
   },
   {
    "name": "Tempest Damage I",
-   "lv": 218,
+   "lv": 300,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 27599.3505534569,
+   "cost": 2687773.8229258517,
    "currency": "Stardust",
-   "desc": "+218% damage in Tempest Form",
+   "desc": "+300% damage in Tempest Form",
    "unlocked": true
   },
   {
    "name": "Tempest Accuracy I",
-   "lv": 247,
+   "lv": 294,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 51135.89566779429,
+   "cost": 801374.3968859756,
    "currency": "Stardust",
-   "desc": "+247% accuracy in Tempest Form",
+   "desc": "+294% accuracy in Tempest Form",
    "unlocked": true
   },
   {
@@ -1347,53 +1347,53 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 273742.437636555,
+   "cost": 1069306.3970177928,
    "currency": "Moondust",
    "desc": "+20% damage in Tempest Form @ Also, Weapon Power from your Tempest Equipment is giving you $ DMG!",
    "unlocked": true
   },
   {
    "name": "Tempest Damage II",
-   "lv": 64,
+   "lv": 150,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 17728.25619097831,
+   "cost": 2019729.6147485794,
    "currency": "Stardust",
-   "desc": "+64% damage in Tempest Form",
+   "desc": "+150% damage in Tempest Form",
    "unlocked": true
   },
   {
    "name": "Tempest Damage III",
-   "lv": 0,
+   "lv": 112,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 23658.271322890072,
+   "cost": 21824511.853893805,
    "currency": "Stardust",
-   "desc": "+0% damage in Tempest Form @ +0% Critical DMG in Tempest Form",
+   "desc": "+224% damage in Tempest Form @ +224% Critical DMG in Tempest Form",
    "unlocked": true
   },
   {
    "name": "Tempest Accuracy II",
-   "lv": 41,
+   "lv": 104,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 18283.083804175487,
+   "cost": 845103.422379639,
    "currency": "Stardust",
-   "desc": "+82% accuracy in Tempest Form",
+   "desc": "+208% accuracy in Tempest Form",
    "unlocked": true
   },
   {
    "name": "Tempest Accuracy III",
-   "lv": 0,
+   "lv": 20,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 2510349.4541252777,
+   "cost": 26018376.741176378,
    "currency": "Moondust",
-   "desc": "+0% accuracy in Tempest Form @ +0% Multishot chance in Tempest Form",
+   "desc": "+20% accuracy in Tempest Form @ +20% Multishot chance in Tempest Form",
    "unlocked": true
   },
   {
@@ -1402,7 +1402,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 147484873852.53714,
+   "cost": 576112788486.4731,
    "currency": "Novadust",
    "desc": "+0% damage in Tempest Form",
    "unlocked": true
@@ -1413,7 +1413,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 104793687.03624606,
+   "cost": 409350339.9853361,
    "currency": "Solardust",
    "desc": "+0% damage in Tempest Form",
    "unlocked": true
@@ -1424,7 +1424,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 41227299.28571534,
+   "cost": 161044137.83482558,
    "currency": "Solardust",
    "desc": "+0% accuracy in Tempest Form",
    "unlocked": true
@@ -1435,7 +1435,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 987606.5169952279,
+   "cost": 3857837.957012609,
    "currency": "Moondust",
    "desc": "+0% damage in Tempest Form",
    "unlocked": true
@@ -1446,7 +1446,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 6380936.408763621,
+   "cost": 24925532.8467329,
    "currency": "Solardust",
    "desc": "+0% damage in Tempest Form",
    "unlocked": true
@@ -1457,7 +1457,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 11119526505.41668,
+   "cost": 43435650411.783905,
    "currency": "Cooldust",
    "desc": "+0% accuracy in Tempest Form",
    "unlocked": true
@@ -1468,7 +1468,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 4374576943.701738,
+   "cost": 17088191186.334917,
    "currency": "Cooldust",
    "desc": "+0% damage in Tempest Form",
    "unlocked": true
@@ -1479,7 +1479,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 266370027.4554654,
+   "cost": 1040507919.7479118,
    "currency": "Solardust",
    "desc": "+0% accuracy in Tempest Form",
    "unlocked": true
@@ -1490,7 +1490,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 16219395.027164714,
+   "cost": 63357011.824862175,
    "currency": "Moondust",
    "desc": "+0% accuracy in Tempest Form",
    "unlocked": true
@@ -1501,7 +1501,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 71843381251.16708,
+   "cost": 280638208012.37146,
    "currency": "Cooldust",
    "desc": "+0% damage in Tempest Form",
    "unlocked": true
@@ -1512,7 +1512,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 464180864813.46387,
+   "cost": 1813206503177.5933,
    "currency": "Novadust",
    "desc": "+0% accuracy in Tempest Form",
    "unlocked": true
@@ -1523,7 +1523,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 8882.574750259988,
+   "cost": 34697.55761820308,
    "currency": "Stardust",
    "desc": "+108% defence in Tempest Form",
    "unlocked": true
@@ -1534,20 +1534,20 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 1039931.9817101208,
+   "cost": 4062234.30355516,
    "currency": "Moondust",
    "desc": "+0% defence in Tempest Form",
    "unlocked": true
   },
   {
    "name": "De Dust I",
-   "lv": 74,
+   "lv": 184,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 7108.389234123729,
+   "cost": 992491057.8476455,
    "currency": "Stardust",
-   "desc": "+74% Extra Dust",
+   "desc": "+184% Extra Dust",
    "unlocked": true
   },
   {
@@ -1556,7 +1556,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 3059.4551212126808,
+   "cost": 11950.996567237034,
    "currency": "Moondust",
    "desc": "+2% total health in Tempest Form",
    "unlocked": true
@@ -1567,20 +1567,20 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 13874.589288992072,
+   "cost": 54197.61441012527,
    "currency": "Stardust",
    "desc": "+24% defence in Tempest Form @ +24% Movement Speed in Tempest Form",
    "unlocked": true
   },
   {
    "name": "De Dust II",
-   "lv": 35,
+   "lv": 80,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 9554.778519994146,
+   "cost": 2720517.2961969096,
    "currency": "Moondust",
-   "desc": "+35% Extra Dust",
+   "desc": "+80% Extra Dust",
    "unlocked": true
   },
   {
@@ -1589,7 +1589,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 64506924134.969055,
+   "cost": 251980172402.2229,
    "currency": "Novadust",
    "desc": "+0% defence in Tempest Form",
    "unlocked": true
@@ -1600,7 +1600,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 57513404.956889816,
+   "cost": 224661738.11285084,
    "currency": "Solardust",
    "desc": "+0% defence in Tempest Form",
    "unlocked": true
@@ -1611,7 +1611,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 146302.37029680784,
+   "cost": 571493.6339719056,
    "currency": "Moondust",
    "desc": "+22% Extra Dust",
    "unlocked": true
@@ -1622,7 +1622,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 7733694.407701609,
+   "cost": 30209743.78008441,
    "currency": "Solardust",
    "desc": "+0% total health in Tempest Form",
    "unlocked": true
@@ -1633,7 +1633,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 1166385706.0799284,
+   "cost": 4556194164.374721,
    "currency": "Cooldust",
    "desc": "+0% accur.. wait, accuracy? What are you doing in this section?",
    "unlocked": true
@@ -1644,7 +1644,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 427711721.63734984,
+   "cost": 1670748912.6458979,
    "currency": "Cooldust",
    "desc": "+0% Extra Dust",
    "unlocked": true
@@ -1655,7 +1655,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 8674096739.961475,
+   "cost": 33883190390.47451,
    "currency": "Cooldust",
    "desc": "+0% defence in Tempest Form",
    "unlocked": true
@@ -1666,7 +1666,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 3180777019.9505606,
+   "cost": 12424910234.181877,
    "currency": "Cooldust",
    "desc": "+0% Extra Dust",
    "unlocked": true
@@ -1677,7 +1677,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 22199.732329801867,
+   "cost": 86717.70441328853,
    "currency": "Moondust",
    "desc": "+535% reduction in cost for the Moon of Sneak upgrade",
    "unlocked": true
@@ -1688,7 +1688,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 3387.084157588763,
+   "cost": 13230.797490581106,
    "currency": "Moondust",
    "desc": "+180% reduction in cost for the Moon of Sneak upgrade",
    "unlocked": true
@@ -1699,7 +1699,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 2339061.7677224586,
+   "cost": 9136960.030165853,
    "currency": "Solardust",
    "desc": "+0% reduction in cost for the Moon of Sneak upgrade",
    "unlocked": true
@@ -1710,20 +1710,20 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 51.22387676244698,
+   "cost": 200.0932686033085,
    "currency": "Moondust",
    "desc": "+0% reduction in cost for the Moon of Print upgrade",
    "unlocked": true
   },
   {
    "name": "Damage Sale I",
-   "lv": 12,
+   "lv": 37,
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 22738.147914347093,
+   "cost": 962348.227926644,
    "currency": "Moondust",
-   "desc": "+60% reduction in cost for the Moon of Damage upgrade",
+   "desc": "+185% reduction in cost for the Moon of Damage upgrade",
    "unlocked": true
   },
   {
@@ -1732,7 +1732,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 27818063.946029037,
+   "cost": 108664312.28917596,
    "currency": "Solardust",
    "desc": "+0% reduction in cost for the Moon of Print upgrade",
    "unlocked": true
@@ -1743,7 +1743,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 196678.31535062357,
+   "cost": 768274.6693383735,
    "currency": "Solardust",
    "desc": "+0% reduction in cost for the Moon of Damage upgrade",
    "unlocked": true
@@ -1754,7 +1754,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 1024739.051249495,
+   "cost": 4002886.9189433404,
    "currency": "Solardust",
    "desc": "+0% reduction in cost for the Moon of Damage upgrade",
    "unlocked": true
@@ -1765,7 +1765,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 3934570419.3459644,
+   "cost": 15369415700.570175,
    "currency": "Cooldust",
    "desc": "+0% reduction in cost for the Moon of Sleep upgrade",
    "unlocked": true
@@ -1776,7 +1776,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 556503299971.8202,
+   "cost": 2173841015514.9229,
    "currency": "Cooldust",
    "desc": "+0% reduction in cost for the Moon of Sleep upgrade",
    "unlocked": true
@@ -1787,7 +1787,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 46793177091.725,
+   "cost": 182785848014.55078,
    "currency": "Cooldust",
    "desc": "+0% reduction in cost for the Moon of Sleep upgrade",
    "unlocked": true
@@ -1798,7 +1798,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 1723728725.0095901,
+   "cost": 6733315332.068711,
    "currency": "Cooldust",
    "desc": "+0% reduction in cost for the Moon of Experience upgrade",
    "unlocked": true
@@ -1809,7 +1809,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 330835505.2371501,
+   "cost": 1292326192.3326175,
    "currency": "Solardust",
    "desc": "+0% reduction in cost for the Moon of Experience upgrade",
    "unlocked": true
@@ -1820,7 +1820,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 63497306.70347295,
+   "cost": 248036354.31044126,
    "currency": "Solardust",
    "desc": "+0% reduction in cost for the Moon of Experience upgrade",
    "unlocked": true
@@ -1831,7 +1831,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 1270270310269.0105,
+   "cost": 4961993399488.322,
    "currency": "Cooldust",
    "desc": "+0% reduction in cost for the Pristine Collector upgrade",
    "unlocked": true
@@ -1842,7 +1842,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 243803165653.72623,
+   "cost": 952356115834.8682,
    "currency": "Cooldust",
    "desc": "+0% reduction in cost for the Moon of Experience upgrade",
    "unlocked": true
@@ -1853,7 +1853,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 8981021294.233028,
+   "cost": 35082114430.59777,
    "currency": "Cooldust",
    "desc": "+0% reduction in cost for the Moon of Experience upgrade",
    "unlocked": true
@@ -1864,7 +1864,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 2899509600810.337,
+   "cost": 11326209378165.38,
    "currency": "Novadust",
    "desc": "+0% reduction in cost for the Moon of Sleep upgrade",
    "unlocked": true
@@ -1875,7 +1875,7 @@
    "max": null,
    "maxed": false,
    "next": null,
-   "cost": 6618399136960.781,
+   "cost": 25853121628753.05,
    "currency": "Novadust",
    "desc": "+0% reduction in cost for the Pristine Collector upgrade",
    "unlocked": true
@@ -1886,7 +1886,7 @@
    "max": 1,
    "maxed": true,
    "next": null,
-   "cost": 0.22733333333333336,
+   "cost": 0.8880208333333335,
    "currency": "Stardust",
    "desc": "You can open portals to the next world by defeating enough Abominations. The amount is shown above each town portal!",
    "unlocked": true
@@ -1897,7 +1897,7 @@
    "max": 1,
    "maxed": true,
    "next": null,
-   "cost": 568.3333333333334,
+   "cost": 2220.052083333334,
    "currency": "Stardust",
    "desc": "You can now toggle Tempest drops. Just click off the TOGGLE button found in the description of the 'tempest drop' upgrades!",
    "unlocked": true
@@ -1908,7 +1908,7 @@
    "max": 1,
    "maxed": true,
    "next": null,
-   "cost": 2273.3333333333335,
+   "cost": 8880.208333333336,
    "currency": "Stardust",
    "desc": "You can now GUARANTEE a Tempest stone to succeed by dragging a stack of 500 at once. This will use up 500 stones.",
    "unlocked": true
@@ -1926,7 +1926,7 @@
     "max": 24,
     "maxed": false,
     "next": null,
-    "cost": 72742312.17471856,
+    "cost": 284149656.93249434,
     "currency": "Stardust",
     "desc": "Unlocks a new Elemental upgrade, right here in The Compass!",
     "unlocked": true
@@ -1943,7 +1943,7 @@
     "max": 31,
     "maxed": false,
     "next": null,
-    "cost": 126134065.76285975,
+    "cost": 492711194.38617086,
     "currency": "Stardust",
     "desc": "Unlocks a new Fighter upgrade, right here in The Compass!",
     "unlocked": true
@@ -1960,7 +1960,7 @@
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 373593432.838444,
+    "cost": 1459349347.0251718,
     "currency": "Stardust",
     "desc": "+5 Exalted Stamp uses. Apply them to a stamp to PERMANENTLY double its bonus! Other sources can push Exalted Stamps beyond 2x!",
     "unlocked": true
@@ -1977,7 +1977,7 @@
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 24553695.958459675,
+    "cost": 95912874.83773309,
     "currency": "Moondust",
     "desc": "Medallions now show up visually next to the monster's name in its Card Info. @ Also, +6% Tempest Damage AND Accuracy per Medallion collected",
     "unlocked": true
@@ -1986,17 +1986,17 @@
   {
    "tab": "To reach Tier 5",
    "name": "Moon of Damage",
-   "cur": "0",
+   "cur": "33",
    "goal": "120",
    "up": {
     "name": "Moon of Damage",
-    "lv": 0,
+    "lv": 33,
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 1983.784438438273,
+    "cost": 29759.33280533744,
     "currency": "Solardust",
-    "desc": "+0% higher damage for all characters. Not tempest damage, just good ol' classic IdleOn damage.",
+    "desc": "+33% higher damage for all characters. Not tempest damage, just good ol' classic IdleOn damage.",
     "unlocked": true
    }
   },
@@ -2011,7 +2011,7 @@
     "max": 25,
     "maxed": false,
     "next": null,
-    "cost": 37748.49770972696,
+    "cost": 147455.06917862094,
     "currency": "Solardust",
     "desc": "+0 Opals to give to Villagers",
     "unlocked": true
@@ -2028,7 +2028,7 @@
     "max": 24,
     "maxed": false,
     "next": null,
-    "cost": 72742312.17471856,
+    "cost": 284149656.93249434,
     "currency": "Stardust",
     "desc": "Unlocks a new Elemental upgrade, right here in The Compass!",
     "unlocked": true
@@ -2045,7 +2045,7 @@
     "max": 31,
     "maxed": false,
     "next": null,
-    "cost": 126134065.76285975,
+    "cost": 492711194.38617086,
     "currency": "Stardust",
     "desc": "Unlocks a new Fighter upgrade, right here in The Compass!",
     "unlocked": true
@@ -2062,7 +2062,7 @@
     "max": 26,
     "maxed": false,
     "next": null,
-    "cost": 1441204219.08,
+    "cost": 5629703980.78125,
     "currency": "Stardust",
     "desc": "Unlocks a new Survival upgrade, right here in The Compass!",
     "unlocked": true
@@ -2079,7 +2079,7 @@
     "max": 38,
     "maxed": false,
     "next": null,
-    "cost": 5686003407.729094,
+    "cost": 22210950811.44177,
     "currency": "Stardust",
     "desc": "Unlocks a new Nomadic upgrade, right here in The Compass!",
     "unlocked": true
@@ -2096,7 +2096,7 @@
     "max": 1,
     "maxed": false,
     "next": null,
-    "cost": 37383415794705.71,
+    "cost": 146028967948069.2,
     "currency": "Cooldust",
     "desc": "Unlocks a new atom in the Atom Collider in World 3",
     "unlocked": true
@@ -2113,7 +2113,7 @@
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 373593432.838444,
+    "cost": 1459349347.0251718,
     "currency": "Stardust",
     "desc": "+5 Exalted Stamp uses. Apply them to a stamp to PERMANENTLY double its bonus! Other sources can push Exalted Stamps beyond 2x!",
     "unlocked": true
@@ -2130,7 +2130,7 @@
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 24553695.958459675,
+    "cost": 95912874.83773309,
     "currency": "Moondust",
     "desc": "Medallions now show up visually next to the monster's name in its Card Info. @ Also, +6% Tempest Damage AND Accuracy per Medallion collected",
     "unlocked": true
@@ -2147,7 +2147,7 @@
     "max": 25,
     "maxed": false,
     "next": null,
-    "cost": 37748.49770972696,
+    "cost": 147455.06917862094,
     "currency": "Solardust",
     "desc": "+0 Opals to give to Villagers",
     "unlocked": true
@@ -2156,17 +2156,17 @@
   {
    "tab": "To reach Tier 6",
    "name": "Moon of Damage",
-   "cur": "0",
+   "cur": "33",
    "goal": "220",
    "up": {
     "name": "Moon of Damage",
-    "lv": 0,
+    "lv": 33,
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 1983.784438438273,
+    "cost": 29759.33280533744,
     "currency": "Solardust",
-    "desc": "+0% higher damage for all characters. Not tempest damage, just good ol' classic IdleOn damage.",
+    "desc": "+33% higher damage for all characters. Not tempest damage, just good ol' classic IdleOn damage.",
     "unlocked": true
    }
   },
@@ -2181,7 +2181,7 @@
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 21090071.082928494,
+    "cost": 82383090.16768944,
     "currency": "Solardust",
     "desc": "You can now find Novadust from any monster, at a 1 in 10,000 chance. This upgrade boosts this chance by +0%",
     "unlocked": true
@@ -2198,7 +2198,7 @@
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 167053.70240554112,
+    "cost": 652553.525021645,
     "currency": "Moondust",
     "desc": "All Atoms are +4% cheaper to upgrade",
     "unlocked": true
@@ -2215,7 +2215,7 @@
     "max": 20,
     "maxed": false,
     "next": null,
-    "cost": 448936.4657429234,
+    "cost": 1753658.0693082944,
     "currency": "Solardust",
     "desc": "+0 Max LV for all atoms in the Atom Collider",
     "unlocked": true
@@ -2232,7 +2232,7 @@
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 373593432.838444,
+    "cost": 1459349347.0251718,
     "currency": "Stardust",
     "desc": "+5 Exalted Stamp uses. Apply them to a stamp to PERMANENTLY double its bonus! Other sources can push Exalted Stamps beyond 2x!",
     "unlocked": true
@@ -2249,7 +2249,7 @@
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 24553695.958459675,
+    "cost": 95912874.83773309,
     "currency": "Moondust",
     "desc": "Medallions now show up visually next to the monster's name in its Card Info. @ Also, +6% Tempest Damage AND Accuracy per Medallion collected",
     "unlocked": true
@@ -2266,7 +2266,7 @@
     "max": 25,
     "maxed": false,
     "next": null,
-    "cost": 37748.49770972696,
+    "cost": 147455.06917862094,
     "currency": "Solardust",
     "desc": "+0 Opals to give to Villagers",
     "unlocked": true
@@ -2283,26 +2283,9 @@
     "max": 20,
     "maxed": false,
     "next": null,
-    "cost": 448936.4657429234,
+    "cost": 1753658.0693082944,
     "currency": "Solardust",
     "desc": "+0 Max LV for all atoms in the Atom Collider",
-    "unlocked": true
-   }
-  },
-  {
-   "tab": "To reach Tier 7",
-   "name": "Abomination Slayer XVII",
-   "cur": "0",
-   "goal": "3",
-   "up": {
-    "name": "Abomination Slayer XVII",
-    "lv": 0,
-    "max": null,
-    "maxed": false,
-    "next": null,
-    "cost": 48532.75565810579,
-    "currency": "Moondust",
-    "desc": "You have slain the quenchie abomination! @ +0% higher Exalted Stamp bonuses",
     "unlocked": true
    }
   },
@@ -2317,7 +2300,7 @@
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 755459.3178917527,
+    "cost": 2951012.960514659,
     "currency": "Moondust",
     "desc": "You have slain the donut abomination! @ +0% bonus from ALL circle shaped compass upgrades",
     "unlocked": true
@@ -2334,7 +2317,7 @@
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 46395437.993716374,
+    "cost": 181232179.66295457,
     "currency": "Solardust",
     "desc": "You have slain the stiltmole abomination! @ +0% Novadust drop chance",
     "unlocked": true
@@ -2343,17 +2326,17 @@
   {
    "tab": "To reach Tier 7",
    "name": "Moon of Damage",
-   "cur": "0",
+   "cur": "33",
    "goal": "300",
    "up": {
     "name": "Moon of Damage",
-    "lv": 0,
+    "lv": 33,
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 1983.784438438273,
+    "cost": 29759.33280533744,
     "currency": "Solardust",
-    "desc": "+0% higher damage for all characters. Not tempest damage, just good ol' classic IdleOn damage.",
+    "desc": "+33% higher damage for all characters. Not tempest damage, just good ol' classic IdleOn damage.",
     "unlocked": true
    }
   },
@@ -2368,7 +2351,7 @@
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 21090071.082928494,
+    "cost": 82383090.16768944,
     "currency": "Solardust",
     "desc": "You can now find Novadust from any monster, at a 1 in 10,000 chance. This upgrade boosts this chance by +0%",
     "unlocked": true
@@ -2385,7 +2368,7 @@
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 326489.1318531153,
+    "cost": 1275348.171301232,
     "currency": "Moondust",
     "desc": "+15 Talent PTS for all other Master Classes",
     "unlocked": true
@@ -2402,7 +2385,7 @@
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 167053.70240554112,
+    "cost": 652553.525021645,
     "currency": "Moondust",
     "desc": "All Atoms are +4% cheaper to upgrade",
     "unlocked": true
@@ -2419,7 +2402,7 @@
     "max": null,
     "maxed": false,
     "next": null,
-    "cost": 144938481.93092734,
+    "cost": 566165945.042685,
     "currency": "Solardust",
     "desc": "+0% Monument AFK rate for all monuments in the Hole",
     "unlocked": true
@@ -2428,55 +2411,55 @@
   {
    "tab": "To reach Tier 4",
    "name": "Abominations Slain",
-   "cur": "16",
+   "cur": "18",
    "goal": "19",
    "up": null
   },
   {
    "tab": "To reach Tier 5",
    "name": "Abominations Slain",
-   "cur": "16",
+   "cur": "18",
    "goal": "25",
    "up": null
   },
   {
    "tab": "To reach Tier 6",
    "name": "Abominations Slain",
-   "cur": "16",
+   "cur": "18",
    "goal": "28",
    "up": null
   },
   {
    "tab": "To reach Tier 4",
    "name": "Medallions Collected",
-   "cur": "28",
+   "cur": "35",
    "goal": "39",
    "up": null
   },
   {
    "tab": "To reach Tier 5",
    "name": "Medallions Collected",
-   "cur": "28",
+   "cur": "35",
    "goal": "50",
    "up": null
   },
   {
    "tab": "To reach Tier 6",
    "name": "Medallions Collected",
-   "cur": "28",
+   "cur": "35",
    "goal": "57",
    "up": null
   }
  ],
  "optimizer": [],
  "portals": [],
- "abom_killed": 16,
+ "abom_killed": 18,
  "abom_next": [
-  "Bobo the Fractured",
-  "World 3 \u00b7 Waterlogged Entrance",
-  "55361842277.30726"
+  "Bloodbane the Conglomerate",
+  "World 3 \u00b7 Hell Hath Frozen Over",
+  "459291814025.494"
  ],
  "gate": null,
  "ar_tier": "3/10",
- "medallions": 28
+ "medallions": 35
 }

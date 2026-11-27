@@ -1,0 +1,156 @@
+{
+ "module": "stamps",
+ "systems": [
+  "stamps"
+ ],
+ "ok": true,
+ "card_lines": [
+  "Raise the max level on Ladle, Bugsack, Bag o Heads, you have the materials.",
+  "Max-level raises still short: Multitool (24.7B more Dust Mote), Potion (750 more Icing Ironbite), Mason Jar (8.07K more Glass Shard), Matty Bag (200 more Cramped Material Pouch).",
+  "If a stamp material is also used by another system, the card flags it. The Envelope Pile sigil makes max-level raises a lot cheaper."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "snapshot": "20261127T1704",
+  "money": 4.1018987191945535e+32,
+  "rows": [
+   {
+    "stamp": "Ladle Stamp",
+    "level": 160,
+    "max": 160,
+    "goal": 180,
+    "coins_to_goal": 123131011018311363,
+    "next_coin": null,
+    "capped": true,
+    "material": "Sand Shark",
+    "owned": 68466606,
+    "next_raise": 25179901.586920485,
+    "raises_left": 2,
+    "tier": "To reach Tier 16"
+   },
+   {
+    "stamp": "Bugsack Stamp",
+    "level": 128,
+    "max": 128,
+    "goal": 168,
+    "coins_to_goal": 400214326886,
+    "next_coin": null,
+    "capped": true,
+    "material": "Hermit Can",
+    "owned": 1050000000,
+    "next_raise": 83056768.05710939,
+    "raises_left": 5,
+    "tier": "To reach Tier 17"
+   },
+   {
+    "stamp": "Bag o Heads Stamp",
+    "level": 120,
+    "max": 120,
+    "goal": 168,
+    "coins_to_goal": 409223338640,
+    "next_coin": null,
+    "capped": true,
+    "material": "Butterfly",
+    "owned": 288372449,
+    "next_raise": 33368015.826520592,
+    "raises_left": 6,
+    "tier": "To reach Tier 17"
+   },
+   {
+    "stamp": "Multitool Stamp",
+    "level": 180,
+    "max": 180,
+    "goal": 210,
+    "coins_to_goal": 2584243440298134192128,
+    "next_coin": null,
+    "capped": true,
+    "material": "Dust Mote",
+    "owned": 1008710400,
+    "next_raise": 25728490393.812965,
+    "raises_left": 3,
+    "tier": "To reach Tier 17"
+   },
+   {
+    "stamp": "Potion Stamp",
+    "level": 45,
+    "max": 45,
+    "goal": 60,
+    "coins_to_goal": 1541605495,
+    "next_coin": null,
+    "capped": true,
+    "material": "Icing Ironbite",
+    "owned": 291334,
+    "next_raise": 292083.8417680772,
+    "raises_left": 3,
+    "tier": "To reach Tier 17"
+   },
+   {
+    "stamp": "Mason Jar Stamp",
+    "level": 84,
+    "max": 84,
+    "goal": 88,
+    "coins_to_goal": 12714371075,
+    "next_coin": null,
+    "capped": true,
+    "material": "Glass Shard",
+    "owned": 9365,
+    "next_raise": 17436.762333716375,
+    "raises_left": 1,
+    "tier": "To reach Tier 18"
+   },
+   {
+    "stamp": "Matty Bag Stamp",
+    "level": 210,
+    "max": 210,
+    "goal": 280,
+    "coins_to_goal": 1430321520214,
+    "next_coin": null,
+    "capped": true,
+    "material": "Cramped Material Pouch",
+    "owned": 3,
+    "next_raise": 202.7667573069917,
+    "raises_left": 7,
+    "tier": "To reach Tier 18"
+   },
+   {
+    "stamp": "Crystallin Stamp",
+    "err": ""
+   },
+   {
+    "stamp": "Golden Apple Stamp",
+    "level": 80,
+    "max": 80,
+    "goal": 100,
+    "coins_to_goal": 5881240195196,
+    "next_coin": null,
+    "capped": true,
+    "material": "Golden Nomwich",
+    "owned": 340122,
+    "next_raise": 445773.00044028956,
+    "raises_left": 5,
+    "tier": "To reach Tier 18"
+   }
+  ],
+  "exalt_rec": [
+   "Summoner Stone Stamp",
+   "Golden Sixes Stamp",
+   "Drippy Drop Stamp",
+   "Refinery Stamp",
+   "Bugsack Stamp",
+   "Bag o Heads Stamp",
+   "Lil' Mining Baggy Stamp",
+   "Card Stamp",
+   "Divine Stamp",
+   "Golden Apple Stamp",
+   "Vendor Stamp",
+   "Study Hall Stamp",
+   "Cavern Resource Stamp"
+  ],
+  "exalt_avail": null,
+  "total_levels": [
+   "9907",
+   "11000"
+  ]
+ }
+}

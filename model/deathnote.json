@@ -1,7 +1,7 @@
 {
- "snapshot": "20261126T2330",
+ "snapshot": "20261127T1704",
  "cur": {
-  "at": "2026-11-26T23:30:12.207000Z",
+  "at": "2026-11-27T17:04:51.733000Z",
   "kills": {
    "Green Mushroom": [
     "World 1",
@@ -13,7 +13,7 @@
    ],
    "Frog": [
     "World 1",
-    60581239577.84708
+    69204297313.08118
    ],
    "Bored Bean": [
     "World 1",
@@ -113,27 +113,27 @@
    ],
    "Frost Flake": [
     "World 3",
-    1673303875.2592626
+    1677039560.2940376
    ],
    "Sir Stache": [
     "World 3",
-    7942992501.131316
+    7960863064.084317
    ],
    "Bloque": [
     "World 3",
-    2642749094.453117
+    2672976154.059595
    ],
    "Mamooth": [
     "World 3",
-    2858801418.189445
+    3142732204.3286514
    ],
    "Snowman": [
     "World 3",
-    10901123094.292692
+    10913508950.94144
    ],
    "Penguin": [
     "World 3",
-    14117901037.217308
+    14148267303.493967
    ],
    "Thermister": [
     "World 3",
@@ -141,19 +141,19 @@
    ],
    "Quenchie": [
     "World 3",
-    19937330890.883144
+    19955271580.252758
    ],
    "Cryosnake": [
     "World 3",
-    22469499975.6436
+    22548432883.702095
    ],
    "Bop Box": [
     "World 3",
-    11760209192.3979
+    11760213858.802923
    ],
    "Neyeptune": [
     "World 3",
-    1134639516030.3945
+    1134647635575.1348
    ],
    "Dedotated Ram": [
     "World 3",
@@ -165,31 +165,31 @@
    ],
    "Purp Mushroom": [
     "World 4",
-    1373525105.079671
+    1379572765.9896734
    ],
    "TV": [
     "World 4",
-    2546898295.8496585
+    3666135587.0573487
    ],
    "Donut": [
     "World 4",
-    3456171614.654469
+    3456251701.7972913
    ],
    "Demon Genie": [
     "World 4",
-    2399780962.3580713
+    2399809228.408479
    ],
    "Soda Can": [
     "World 4",
-    627301619.9834815
+    627504193.3447372
    ],
    "Flying Worm": [
     "World 4",
-    624111688.4208972
+    624116399.4292985
    ],
    "Gelatinous Cuboid": [
     "World 4",
-    898328280.5336224
+    898332991.5420237
    ],
    "Choccie": [
     "World 4",
@@ -201,7 +201,7 @@
    ],
    "Clammie": [
     "World 4",
-    5456780157.235188
+    5458735225.7217245
    ],
    "Octodar": [
     "World 4",
@@ -217,7 +217,7 @@
    ],
    "Suggma": [
     "World 5",
-    3212597122.104844
+    4352707044.471742
    ],
    "Maccie": [
     "World 5",
@@ -345,11 +345,11 @@
    ],
    "Noble Clam": [
     "World 7",
-    138857161.18408316
+    178587949.41015518
    ],
    "Litterfish": [
     "World 7",
-    2527682153.9109917
+    2545118993.6169066
    ],
    "Pufferblob": [
     "World 7",
@@ -397,11 +397,11 @@
    ],
    "Jellofish": [
     "World 7",
-    105921811
+    139590084
    ],
    "Kelpfish": [
     "World 7",
-    0
+    14361252
    ],
    "Mantaray": [
     "World 7",
@@ -429,7 +429,7 @@
    ],
    "Baba Yaga": [
     "miniBosses",
-    33
+    35
    ],
    "Biggie Hours": [
     "miniBosses",
@@ -463,7 +463,7 @@
   "multi": {},
   "eclipse": null
  },
- "prev_at": "2026-11-26T13:04:24.728000Z",
+ "prev_at": "2026-11-26T23:30:12.207000Z",
  "groups": [
   {
    "name": "Complete a minimum of Eclipse Skull (1B) in W4",
@@ -476,7 +476,7 @@
      "res": "lava-skull"
     },
     {
-     "label": "Soda Can in Mountainous Deugh (373M remaining)",
+     "label": "Soda Can in Mountainous Deugh (372M remaining)",
      "cur": "63%",
      "goal": "100%",
      "res": "lava-skull"
@@ -572,13 +572,6 @@
    "tier": "24",
    "items": [
     {
-     "label": "Kelpfish in Where the Kelp Meets Trench (1B remaining)",
-     "cur": "0%",
-     "goal": "100%",
-     "optional": true,
-     "res": "none"
-    },
-    {
      "label": "Mantaray in Trench Precipice (1B remaining)",
      "cur": "0%",
      "goal": "100%",
@@ -642,6 +635,13 @@
      "res": "dementia-skull"
     },
     {
+     "label": "Kelpfish in Where the Kelp Meets Trench (986M remaining)",
+     "cur": "1%",
+     "goal": "100%",
+     "optional": true,
+     "res": "dementia-skull"
+    },
+    {
      "label": "Pufferblob in Puffpuff Overpass (411M remaining)",
      "cur": "59%",
      "goal": "100%",
@@ -677,6 +677,13 @@
      "res": "lava-skull"
     },
     {
+     "label": "Noble Clam in The Clamworks (821M remaining)",
+     "cur": "18%",
+     "goal": "100%",
+     "optional": true,
+     "res": "lava-skull"
+    },
+    {
      "label": "Eamsy Earl in Seaweed Street (852M remaining)",
      "cur": "15%",
      "goal": "100%",
@@ -691,7 +698,7 @@
      "res": "lava-skull"
     },
     {
-     "label": "Noble Clam in The Clamworks (861M remaining)",
+     "label": "Jellofish in Jellofish Fields (860M remaining)",
      "cur": "14%",
      "goal": "100%",
      "optional": true,
@@ -710,18 +717,11 @@
      "goal": "100%",
      "optional": true,
      "res": "lava-skull"
-    },
-    {
-     "label": "Jellofish in Jellofish Fields (894M remaining)",
-     "cur": "11%",
-     "goal": "100%",
-     "optional": true,
-     "res": "lava-skull"
     }
    ]
   },
   {
-   "name": "You could complete 9 more ZOWs with Autiszemo (99/108)",
+   "name": "You could complete 8 more ZOWs with Autiszemo (100/108)",
    "tier": "24",
    "items": [
     {
@@ -732,12 +732,6 @@
     },
     {
      "label": "Coralcave Guardian in Coralcave Perimeter (100K remaining)",
-     "cur": "0%",
-     "goal": "100%",
-     "optional": true
-    },
-    {
-     "label": "Kelpfish in Where the Kelp Meets Trench (100K remaining)",
      "cur": "0%",
      "goal": "100%",
      "optional": true
@@ -793,7 +787,7 @@
    ]
   },
   {
-   "name": "You could complete 11 more CHOWs with Autiszemo (97/108)",
+   "name": "You could complete 10 more CHOWs with Autiszemo (98/108)",
    "tier": "24",
    "items": [
     {
@@ -804,12 +798,6 @@
     },
     {
      "label": "Coralcave Guardian in Coralcave Perimeter (1M remaining)",
-     "cur": "0%",
-     "goal": "100%",
-     "optional": true
-    },
-    {
-     "label": "Kelpfish in Where the Kelp Meets Trench (1M remaining)",
      "cur": "0%",
      "goal": "100%",
      "optional": true
@@ -2273,6 +2261,11 @@
      "goal": "251,188,130"
     },
     {
+     "label": "Jellofish in Jellofish Fields",
+     "cur": "",
+     "goal": "139,590,084"
+    },
+    {
      "label": "Balloonfish in Balloon Bay",
      "cur": "",
      "goal": "134,229,214"
@@ -2286,11 +2279,6 @@
      "label": "Pirate Underling in Pirate Upper Deck",
      "cur": "",
      "goal": "112,530,791"
-    },
-    {
-     "label": "Jellofish in Jellofish Fields",
-     "cur": "",
-     "goal": "105,921,811"
     },
     {
      "label": "Doodlefish in Doodle Reef",
@@ -2318,6 +2306,11 @@
      "goal": "14,745,986"
     },
     {
+     "label": "Kelpfish in Where the Kelp Meets Trench",
+     "cur": "",
+     "goal": "14,361,252"
+    },
+    {
      "label": "Eamsy Earl in Seaweed Street",
      "cur": "",
      "goal": "13,370,414"
@@ -2339,11 +2332,6 @@
     },
     {
      "label": "Coralcave Guardian in Coralcave Perimeter",
-     "cur": "",
-     "goal": "0"
-    },
-    {
-     "label": "Kelpfish in Where the Kelp Meets Trench",
      "cur": "",
      "goal": "0"
     },
@@ -2938,16 +2926,30 @@
  ],
  "ar_tier": "16/23",
  "rate": {
-  "Frog": 3306710142.968997,
-  "Bored Bean": 53358.62020112301,
-  "Sandy Pot": 7689868.24144346,
-  "Thermister": 35217938.33349017,
-  "Quenchie": 2234110.364668171,
-  "Purp Mushroom": 12277328.648897517,
-  "Suggma": 3435135.2486527865,
-  "Noble Clam": 5555680.208773888,
-  "Litterfish": 424.62747160323227,
-  "Coralcave Guardian": 12859299.906659475,
-  "Jellofish": 7297234.426843943
+  "Frog": 490569538.1922229,
+  "Frost Flake": 212524.7607763381,
+  "Sir Stache": 1016664.1676614911,
+  "Bloque": 1719630.6840749972,
+  "Mamooth": 16152947.006922003,
+  "Snowman": 704636.819427096,
+  "Penguin": 1727550.2126228386,
+  "Quenchie": 1020653.6902727295,
+  "Cryosnake": 4490527.773715948,
+  "Bop Box": 265.4738293214994,
+  "Neyeptune": 461924.4629747029,
+  "Purp Mushroom": 344054.08276934456,
+  "TV": 63673900.59697484,
+  "Donut": 4556.192695883282,
+  "Demon Genie": 1608.0680103133425,
+  "Soda Can": 11524.487407195887,
+  "Flying Worm": 268.0113350499631,
+  "Gelatinous Cuboid": 268.0113350499631,
+  "Clammie": 111224.70404618907,
+  "Suggma": 64861353.7421382,
+  "Noble Clam": 2260301.9753001826,
+  "Litterfish": 991989.4618252025,
+  "Jellofish": 1915402.8239718482,
+  "Kelpfish": 817017.9277259441,
+  "Baba Yaga": 0.11378087756219919
  }
 }

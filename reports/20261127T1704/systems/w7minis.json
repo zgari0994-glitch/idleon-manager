@@ -1,0 +1,205 @@
+{
+ "module": "w7minis",
+ "systems": [
+  "legend_talents",
+  "jelly_operator",
+  "clam_work",
+  "sushi_station",
+  "minehead",
+  "glimbo",
+  "zenith_market",
+  "the_button"
+ ],
+ "ok": true,
+ "card_lines": [
+  "TOP dailies: use 3 Jelly operations.",
+  "Spend 1 Legend Talent points: Coral Restoration first (Griffy: +60% daily coral, an absolute must). Keep Blue Ribbon and Extended Database on hold.",
+  "Cheap Sushi upgrades: Hourly Wage Meter, Sushi Tier Vision, Fuel Capacity III, Shake N' Bake, Customer Surcharge III.",
+  "Minehead: buy Base Damage I, Mega Damage I, Miney Farmey I.",
+  "Beat Threadhead next: +80 max lvs for blessing upgrades, for all divinities.",
+  "Glimbo: make 12 trades (Char Coral, Divinity Pearl, Dioxide Synthesis, Purple Salt...). Each one raises a Vault max level. Pulse: push to about 1,000 total trades (you're at 167)."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "legend": {
+   "points": 68,
+   "unspent": "1"
+  },
+  "jelly": {
+   "ops": "3",
+   "next": null,
+   "removed": "12 / 71"
+  },
+  "clam": {
+   "pearls": 196038.476884749,
+   "ready": []
+  },
+  "sushi": {
+   "fuel": [
+    "468,055",
+    "545,632"
+   ],
+   "next": null,
+   "bucks": 497399046647.676,
+   "unique": 20,
+   "cheap": [
+    [
+     "Hourly Wage Meter",
+     290,
+     24264167068.463127
+    ],
+    [
+     "Sushi Tier Vision",
+     73,
+     1072601046.9554584
+    ],
+    [
+     "Fuel Capacity III",
+     0,
+     318996314.927349
+    ],
+    [
+     "Shake N' Bake",
+     0,
+     1313153760.6116924
+    ],
+    [
+     "Customer Surcharge III",
+     0,
+     7272060361.486243
+    ]
+   ]
+  },
+  "minehead": {
+   "tries": "0 / 3",
+   "cur": 190.569438881663,
+   "next": null,
+   "buy": [
+    [
+     "Base Damage I",
+     42,
+     136.9092480937327
+    ],
+    [
+     "Mega Damage I",
+     30,
+     171.70464028750877
+    ],
+    [
+     "Miney Farmey I",
+     25,
+     153.54043285561787
+    ]
+   ],
+   "opp": [
+    [
+     "Threadhead",
+     "tenth",
+     38164.32746680321,
+     "+80 Max LVs for blessing upgrades, for all Divinities"
+    ]
+   ]
+  },
+  "glimbo": {
+   "total": 167,
+   "trades": [
+    [
+     "Char Coral",
+     154,
+     18
+    ],
+    [
+     "Divinity Pearl",
+     13629,
+     105
+    ],
+    [
+     "Dioxide Synthesis",
+     1124063,
+     136
+    ],
+    [
+     "Purple Salt",
+     44907,
+     136
+    ],
+    [
+     "Neon Coral",
+     6,
+     1
+    ],
+    [
+     "Nullo Salt",
+     671521,
+     188
+    ],
+    [
+     "Diamond Duck",
+     245,
+     17
+    ],
+    [
+     "Crosslink Salt",
+     246,
+     7
+    ],
+    [
+     "Deepsea Soul",
+     0,
+     1
+    ],
+    [
+     "Zenith Cluster",
+     0,
+     1
+    ],
+    [
+     "Pirate Anchor",
+     0,
+     1
+    ],
+    [
+     "Voodofish",
+     2194,
+     3
+    ],
+    [
+     "Cooking Ladle",
+     75428,
+     16
+    ],
+    [
+     "Tuttle",
+     41847578,
+     624075
+    ],
+    [
+     "Chapter Five 'Sunken Plunder'",
+     0,
+     1
+    ],
+    [
+     "Silver Pen",
+     12446,
+     903
+    ]
+   ]
+  },
+  "gates": {
+   "zenith": false,
+   "button": false,
+   "button_req": [
+    [
+     "Find at least 500 items, as shown by the Slab",
+     "1556 / 500"
+    ]
+   ]
+  },
+  "zenith": {
+   "clusters": 6
+  },
+  "advice": null,
+  "snapshot": "20261127T1704"
+ }
+}

@@ -1,8 +1,8 @@
 {
- "jade": 3.78735127182379e+38,
+ "jade": 7.41215494411619e+33,
  "rolls": [
-  37,
-  82
+  44,
+  89
  ],
  "hats": [
   12,
@@ -68,27 +68,27 @@
  "upgrades": [
   {
    "name": "Respectful Minded",
-   "lv": 590,
+   "lv": 736,
    "cost": null
   },
   {
    "name": "Mastery Loot",
-   "lv": 115,
+   "lv": 149,
    "cost": null
   },
   {
    "name": "Way of Haste",
-   "lv": 244,
+   "lv": 288,
    "cost": null
   },
   {
    "name": "Mahjong Boosters",
-   "lv": 290,
+   "lv": 389,
    "cost": null
   },
   {
    "name": "Gemstone Pilfer",
-   "lv": 200,
+   "lv": 258,
    "cost": null
   },
   {
@@ -98,97 +98,97 @@
   },
   {
    "name": "Currency Conduit",
-   "lv": 753,
+   "lv": 907,
    "cost": null
   },
   {
    "name": "Glove Ingenuity",
-   "lv": 148,
+   "lv": 192,
    "cost": null
   },
   {
    "name": "Charm Collector",
-   "lv": 175,
+   "lv": 234,
    "cost": null
   },
   {
    "name": "Nunchaku Grip",
-   "lv": 200,
+   "lv": 251,
    "cost": null
   },
   {
    "name": "Way of Stealth",
-   "lv": 1165,
+   "lv": 1281,
    "cost": null
   },
   {
    "name": "Looting Ambition",
-   "lv": 277,
+   "lv": 331,
    "cost": null
   },
   {
    "name": "Thick Skin",
-   "lv": 174,
+   "lv": 202,
    "cost": null
   },
   {
    "name": "Star Sweeping",
-   "lv": 20,
+   "lv": 25,
    "cost": null
   },
   {
    "name": "Strange Symbols",
-   "lv": 40,
+   "lv": 51,
    "cost": null
   },
   {
    "name": "Cheaper Stealth",
-   "lv": 57,
+   "lv": 65,
    "cost": null
   },
   {
    "name": "Admiring the Art",
-   "lv": 0,
+   "lv": 82,
    "cost": null
   },
   {
    "name": "Charming Symbols",
-   "lv": 20,
-   "cost": null
-  },
-  {
-   "name": "Funeral Flowers",
-   "lv": 0,
-   "cost": null
-  },
-  {
-   "name": "Double Gemstones",
-   "lv": 5,
-   "cost": null
-  },
-  {
-   "name": "Shhhhhhhhhhh",
    "lv": 30,
    "cost": null
   },
   {
-   "name": "Cheaper Mastery",
+   "name": "Funeral Flowers",
    "lv": 4,
    "cost": null
   },
   {
+   "name": "Double Gemstones",
+   "lv": 11,
+   "cost": null
+  },
+  {
+   "name": "Shhhhhhhhhhh",
+   "lv": 110,
+   "cost": null
+  },
+  {
+   "name": "Cheaper Mastery",
+   "lv": 109,
+   "cost": null
+  },
+  {
    "name": "Cheaper Haste",
-   "lv": 7,
+   "lv": 70,
    "cost": null
   },
   {
    "name": "Cheaper Bargain",
-   "lv": 0,
+   "lv": 10,
    "cost": null
   },
   {
    "name": "True Battering",
-   "lv": 0,
+   "lv": 10,
    "cost": null
   }
  ],
@@ -271,8 +271,8 @@
   {
    "group": "Percentage of Gemstone values",
    "tab": "default",
-   "label": "Emerald: Cheaper UpgradesLevel 2464: +1779.29/2501% Total: +4730.63% = 0.0207x cost multiplier",
-   "cur": "71.14%",
+   "label": "Emerald: Cheaper UpgradesLevel 2846: +1850.97/2501% Total: +4921.22% = 0.0199x cost multiplier",
+   "cur": "74.01%",
    "goal": "100%"
   },
   {
@@ -663,14 +663,14 @@
   },
   {
    "group": "Pristine Charm Odds and Collection",
-   "tab": "Pristine Charm Odds: 0.1025%",
-   "label": "Each regular Charm found today lowers this, from 0.15% down to 0% at 120 found (you're at 38/120, resets daily)",
+   "tab": "Pristine Charm Odds: 0.1113%",
+   "label": "Each regular Charm found today lowers this, from 0.15% down to 0% at 120 found (you're at 31/120, resets daily)",
    "cur": "15",
    "goal": "23"
   },
   {
    "group": "Pristine Charm Odds and Collection",
-   "tab": "Pristine Charm Odds: 0.1025%",
+   "tab": "Pristine Charm Odds: 0.1113%",
    "label": "Nomadic-30: Pristine Collector: x1 higher chance to find Pristine Charms in Sneaking(+2% per level)",
    "cur": "0",
    "goal": "999999",
@@ -853,5 +853,5 @@
    "completed": true
   }
  ],
- "snapshot": "20261126T2330"
+ "snapshot": "20261127T1704"
 }

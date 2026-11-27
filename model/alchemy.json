@@ -1,17 +1,17 @@
 {
- "snapshot": "20261126T2330",
+ "snapshot": "20261127T1704",
  "seats": {
   "Autiszemo": "Purple",
-  "Autistocat": "Green",
+  "Autistocat": "Orange",
   "Autisticles": "Orange",
   "Autistastic": "Yellow",
   "Autistabish": "Purple",
   "Autistacular": "Orange",
-  "Autistotle": "Green",
-  "Autistomatic": "Yellow",
-  "Autistronaut": "Pea Pod",
+  "Autistotle": "Purple",
+  "Autistomatic": "Green",
+  "Autistronaut": "Garlic Glove",
   "Autistopher": "Orange",
-  "Autistachio": "Pea Pod"
+  "Autistachio": "Garlic Glove"
  },
  "sigil_speed": 385.84782061825007,
  "sigils": [
@@ -138,10 +138,10 @@
   {
    "name": "Pea Pod",
    "state": "Boosted",
-   "cur": 66162.6117929984,
+   "cur": 74214.1976927023,
    "goal": 420000,
-   "hours_1char": 917.0,
-   "charging": true,
+   "hours_1char": 896.2,
+   "charging": false,
    "desc": "All sigils charge {% faster than normal",
    "next_gives": null
   },
@@ -198,10 +198,10 @@
   {
    "name": "Garlic Glove",
    "state": "Undiscovered",
-   "cur": 5313.79021087288,
+   "cur": 5871.84641542374,
    "goal": 9000,
-   "hours_1char": 9.6,
-   "charging": false,
+   "hours_1char": 8.1,
+   "charging": true,
    "desc": "Decreases the cost of all kitchen upgrades by -{%",
    "next_gives": null
   },
@@ -266,11 +266,11 @@
  },
  "vials_next": [],
  "bubble_targets": [
-  "Dream Of Ironfish 103 -> 170",
   "Stronk Tools 615 -> 630",
-  "Dream Of Ironfish 103 -> 270",
-  "Warriors Rule (Printing!) 451 -> 950",
+  "Warriors Rule (Printing!) 765 -> 950",
   "Multorange 270 -> 570",
+  "Slabi Orefish 79 -> 540",
+  "Slabi Strength 77 -> 540",
   "Premigreen 77 -> 270",
   "Sanic Tools 142 -> 630",
   "Slabo Critterbug 90 -> 540",
