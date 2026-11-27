@@ -11,7 +11,7 @@
 exclude:   # leaves never shown (Zack's calls)
   - "Prayer not needed"   # Royal Sampler stays on (Zack)
   - "more WOWs with"      # WOWs skipped (Griffy, findings/death_note_two_dbs.md)
-  - "^Blue Ribbon Certification|^Extended Database"   # Legend Talents held until transcripts reviewed (Zack 11/16)
+  - "^Blue Ribbon Certification|^Extended Database"   # Legend Talents held (Zack 11/16). Zack 2026-11-27: next time legend points come up or are spendable, give a full pick list from everything (tiers, goal chain, blockers) and re-decide these
 
 account_priority: {text: "auto: biggest current need (model/priority.py)", set_by: zack, date: 2026-11-19, note: "Zack 2026-11-19: priority is whatever holds the account back most. Cooking speed is one input, not pinned."}
 priorities:   # Zack 2026-11-17, in order. Chains (goal trees) get built for these first.
@@ -34,7 +34,7 @@ characters:
     afk: {text: "Active-first class (master class progress is active-only without its AFK mechanic). Runs Cranium Cooking active; plain AFK spot = GAP", src: "Griffy N5yJ4-tZLbY 00:52 (2026-10-04)"}
     active: [cranium]
     jobs:
-      - {job: Alchemy, sections: [Bubbles, Vials, Sigils, Pay2Win], basis: class, daily_fixed: ["Liquids: Equinox Liquidvestment 5 -> 11 first (approved 11/16)"], note: "Daily: bubbles, vials, liquids, sigils, P2W, cauldron boosts. Liquids: Equinox Liquidvestment 5 -> 11 first"}
+      - {job: Alchemy, sections: [Bubbles, Vials, Sigils, Pay2Win], systems: [alchemy_cauldrons], basis: class, daily_fixed: ["Liquids: Equinox Liquidvestment 5 -> 11 first (approved 11/16)"], note: "Zack 2026-11-27: Cat owns cauldrons. Daily: bubbles, vials, liquids, sigils, P2W, cauldron boosts. Liquids: Equinox Liquidvestment 5 -> 11 first"}
       - {job: Lab, sections: [], systems: [lab_bonuses, lab_chips, lab_jewels, lab_mainframe], basis: class, note: "Zack 2026-11-27: Cat owns all 4 lab systems"}
       - {job: Summoning, sections: [Summoning], basis: class}
       - {job: Tesseract, sections: [The Tesseract], basis: class}
@@ -45,7 +45,7 @@ characters:
     jobs:
       - {job: Sailing, sections: [Sailing], basis: class}
       - {job: Bug prints, sections: [{s: Sampling, itype: BUG, levers: true}], basis: griffy}
-      - {job: "Statue turn-ins (farmed by others)", sections: [{s: Statues, rest: true}], basis: zack}
+      - {job: "Statue turn-ins (farmed by others)", sections: [{s: Statues, rest: true}], systems: [statues], basis: zack, note: "Zack 2026-11-27: Ticles owns Statues; farmers stay on their own cards"}
       - {job: "Luminous Menagerie (own intervention)", sections: [Luminous Menagerie], basis: zack, note: "Zack 2026-11-19: own job. Gates plate cap +10, Breeding Crucible, Shiny OverLVs, Night Marina artifact odds, Cooking T13 Blue Jellyfish"}
       - {job: "W7 minis", sections: [Sushi Station, Clam Work, Jelly Operator, The Button, Advice Fish, Zenith Market, Legend Talents, Arcade], basis: zack, minis_note: "Zack 2026-11-19: Minehead + Glimbo here too (W7 mini owner)", note: "Gate: Research level ~10 (Autistotle). Jelly/Button maps = W7 map push"}
   Autistastic:    # Divine Knight #1
@@ -63,7 +63,7 @@ characters:
     afk: {text: "Penguins (Box Statue 25 -> 40), then Cryosnakes (Seesaw 25 -> 40). Candy or Active ES", src: "AutoReview statue table"}
     move: {text: "Move Well buckets onto the rock layer: Cobaltine 124,895 left gates #27, #30, #53", src: "Griffy gPQrOK53BDI + findings/hole_caverns_1-5.md"}
     jobs:
-      - {job: "Worship: souls (town)", sections: [], basis: zack, note: "Totem waves are Autistacular's. Prayers moved to every_character 2026-11-19"}
+      - {job: "Worship: souls (town)", sections: [], systems: [worship], basis: zack, note: "Zack 2026-11-27: Bish drives Worship (system owner). Totem waves are Autistacular's. Prayers moved to every_character 2026-11-19"}
       - {job: Divinity, sections: [Divinity, Coral Kid], basis: class, note: "Coral Kid upgrades are Divinity (Toolbox Divinity page); moved from W7 reef 2026-11-19"}
       - {job: "The Hole (all 15 caverns + villagers)", sections: [Villagers, Shallow Caverns, Glowshroom Tunnels, Underground Overgrowth], basis: light, findings: [hole_caverns_1-5], daily: ready_only, daily_fixed: ["Opals: 10 each into Cosmos (Conjuror), Minau (Measurer), Kaipu (Engineer) = 20 each (every 10th opal +150% that villager's EXP; Griffy: Conjuror first, then Measurer, keep 1+ in every villager)"]}
       - {job: Slab, sections: [Slab], basis: light, daily: ready_only, note: "Collection: items get picked up when you meet them, no daily action"}
@@ -151,12 +151,13 @@ every_character:   # Zack 2026-11-19: systems every character considers in its o
   - {job: "Drop rate", sections: [Drop Rate], note: "All need it; some drive it more"}
   - {job: Candy, sections: [Regular Candy, Variable Candy], note: "Anyone, as long as the candy goes to that job efficiently"}
   - {job: "Post Office boxes", sections: [], facts: postoffice, note: "Zack 2026-11-19: each character has its own box target (AutoReview); Beryllium atom converts 280 silver pens/day"}
-  - {job: Worship, sections: [], facts: worship, note: "Zack 2026-11-19: everyone levels worship + collects charge; Autistacular runs totems, Autistabish owns the soul budget"}
+  - {job: Worship, sections: [], facts: worship, note: "Zack 2026-11-27: every character does its own worship + charge daily, whether Bish uses the charge or not. Zack 2026-11-19: everyone levels worship + collects charge; Autistacular runs totems, Autistabish owns the soul budget"}
   - {job: "3D Printer slots", sections: [], facts: printer, note: "Every character has 2 print slots; owners of Fish/Bug/Ore/Log prints see this on their prints block"}
 
 unassigned:
 
 active_tasks:   # importance 1 = top. minutes = rough session length. Quick win = <= 15 min.
+  - {id: quicc_brew, owner: Autistocat, task: "Quicc cauldron brew speed is 0 (697M/716M): put a brewer on it.", importance: 1, minutes: 5, src: "Toolbox 20261127T2212"}
   - {id: cranium, owner: Autistocat, daily: false, section: Bubbles, task: "Cranium Cooking on the Wurms. Only on big alchemy days, not every day.", importance: 1, minutes: 480, notes: ["Disconnect Viaduct of the Gods in Lab", "Move sigil char to a liquid", "Cauldron pts -> W7 bubble rolls"], src: zack}
   - {id: compass_nomadic, owner: Autistacular, section: Compass, task: "Push the Compass Nomadic path. Spots 15, 17 and 32 unlock Atomic Cost Crash, Atomic Potential and the Aluminium atom.", importance: 1, minutes: 120, src: "AutoReview Compass + game"}
   - {id: statues_es, owner: Autistabish, section: Statues, task: "Statues: Box at Penguins, then Seesaw at Cryosnakes, 25 -> 40.", importance: 2, minutes: 60, src: "AutoReview statue table"}

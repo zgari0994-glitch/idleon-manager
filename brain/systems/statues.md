@@ -38,7 +38,7 @@ stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
   - {do: "Turn in Kachow statues first until it reaches 240", stat: "Kachow Lv", gain_pct: null, unblocks: [], source: "my_read", active_min: 2, wait_hr: null, cost: null, urgent: false}
   - {do: "Level Startue Exp bubble 171 -> 240", stat: "statue exp", gain_pct: null, unblocks: [], source: "Toolbox", active_min: 2, wait_hr: null, cost: null, urgent: false}
-# 4 owners listed (Bish, Tastic, Ticles, Matic); jobs.yaml has "Statue turn-ins" under Ticles. Who owns needs Zack's call.
+# owner Ticles (Zack 2026-11-27); farmers (Bish, Tastic, Matic) keep their statue jobs on their own cards.
 # Tastic AFK line says "Dragon Statue 4 -> 150" but Dragon Statue is already Lv 187: AFK line is stale.
 ```
 <!-- GOAL:END -->

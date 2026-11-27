@@ -36,7 +36,7 @@ stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
   - {do: "Buy cheapest boost (#4, Lv 6, 1.25K lumi) with the 6.49K on hand", stat: "boost", gain_pct: null, unblocks: [], source: "my_read", active_min: 1, wait_hr: null, cost: 1250, urgent: false}
   - {do: "Push Worship waves 961 -> 1100 for Mission 6", stat: "mission", gain_pct: null, unblocks: ["shells"], source: "Toolbox", active_min: 20, wait_hr: null, cost: null, urgent: false}
-# feeds Cooking speed (account priority) via Cooking T13. Mission 6 depends on Worship, which has no owner.
+# feeds Cooking speed (account priority) via Cooking T13. Mission 6 depends on Worship (Bish drives it, Tacular runs totem waves).
 ```
 <!-- GOAL:END -->
 

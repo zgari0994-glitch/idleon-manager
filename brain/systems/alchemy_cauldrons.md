@@ -35,7 +35,7 @@ stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
   - {do: "Put a character on the Quicc cauldron", stat: "bubble unlock", gain_pct: null, unblocks: [], source: "my_read", active_min: 1, wait_hr: null, cost: null, urgent: true}
   - {do: "Spend most liquid daily", stat: "liquids", gain_pct: null, unblocks: [], source: "Griffy", active_min: 2, wait_hr: null, cost: null, urgent: false}
-# who: Autistocat is my read (Alchemy job note covers cauldron boosts); jobs.yaml has no Cauldrons section.
+# owner Cat (Zack 2026-11-27). Quicc brewer = active task quicc_brew, importance 1.
 ```
 <!-- GOAL:END -->
 

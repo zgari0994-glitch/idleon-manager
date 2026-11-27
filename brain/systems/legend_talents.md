@@ -31,7 +31,8 @@ buffs:
   - {source: "legend talent points", world: 7, owned: true, now: 58, next: null, owner: "Autisticles"}
 triggers:
   - {when: "points left > 0", then: "next rung"}
-  - {when: "Zack finishes transcript review", then: "lift hold on Blue Ribbon Certification / Extended Database"}
+  - {when: "Zack finishes transcript review", then: "re-decide hold"}
+  - {when: "legend points come up or are spendable", then: "full pick list from everything (tiers, goal chain, blockers), Zack 2026-11-27"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
   - {do: "Next point: Inevitable Builder 3/3 (Construction slot, 2.5x faster)", stat: "construction", gain_pct: null, unblocks: [], source: "Pulse", active_min: 1, wait_hr: null, cost: null, urgent: false}
