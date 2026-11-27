@@ -31,4 +31,4 @@ Active time focus: push every attainable missing buff source (model/buffs.md). D
 Before explaining any level/stat (talent levels past book cap, plate levels, drop rate...), read its list in model/buffs.md. Never guess where levels come from.
 
 ## Talent levels (lesson 2026-11-17)
-A talent's shown level = book level + bonus levels. Check the book level (max book now 299): Generational Gemstones 368 -> 372 = book 295 -> 299, so it IS a Library checkout.
+A talent's shown level = book level + bonus levels. Check the book level (max book is live data: `lookup.py library` -> bookLvRange.maxBookLv; 313 on 2026-11-27, was 299 on 2026-11-17, never hardcode it): Generational Gemstones 368 -> 372 = book 295 -> 299, so it IS a Library checkout.
