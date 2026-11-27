@@ -328,9 +328,33 @@ def routed(o):
     return out
 
 
+# ---- Sailing goal: raise artifact find (Zack 2026-11-26) ----
+# Lv 400 for every boat costs 50x-14,000x the banked loot (Toolbox getBoatUpgradeCost), so boat levels
+# are not the lever yet. Ranked multipliers still at x1, from Toolbox sailing.ts getBoatArtifactChance.
+# (match text, gain, how to get it, reachable now?)
+ODDS_GOAL = [
+    ('Magni Pufferfin', '5x artifact find + 25x sailing loot', 'W7 pet companion (Companion Park: weekly free pull, Pet Crystals or trades; fan source DigitalTQ)', True),
+    ('Glimbo', '2x artifact find (3x upgraded)', 'W7 pet companion, same Companion Park routes', True),
+    ('Spelunking Discoveries', '1.02x per Spelunking discovery (35 now = 2.0x)', "Gaming superbit 'Artifacto Discoveries' (Autistastic), grows with the Spelunking goal", True),
+    ('Purple Chest Slugs', '1.5x per copy', 'Summer event shop item 48, buy when the event is up', False),
+    ('Nightmariner', 'up to ~2000x', 'needs Lv 600 boats + Menagerie rank 21 (1.59M Lumi); you are rank 5', False),
+]
+BOAT_400 = ("Undead Battalion (3x) needs boat Lv 400 plus Research grid 105; Lv 400 costs 50x+ your banked loot. "
+            "Boat Discount (event shop 55, 30% off boat upgrades) is not owned, buy it when it rotates in.")
+
+
+def goal_lines(o):
+    miss = ' | '.join(o.get('odds_missing_multipliers', []) + o.get('odds_missing_additive', []))
+    L = ["GOAL: raise artifact find so new tiers are reachable. Fill these in order:"]
+    for i, (key, gain, how, now) in enumerate([g for g in ODDS_GOAL if not miss or g[0] in miss], 1):
+        L.append(f"  {i}. {key}: {gain}. {how}{'' if now else ' (not reachable yet)'}")
+    L.append("  Boat levels: " + BOAT_400)
+    return L
+
+
 def card_lines(o):
     """Daily lines for the Siege Breaker's Sailing block. Top move first."""
-    L = []
+    L = goal_lines(o)
     mv = [m for m in o['moves'] if m['from'] != m['to']]
     L.append(f"Claim chests every time you're on. The pile holds 30 and fills in about {o['pile_fill_min']} minutes, and every chest is an artifact roll.")
     if mv:
