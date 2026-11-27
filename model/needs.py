@@ -54,7 +54,12 @@ def weekly():
     if 'statue' in both: notes.append(('Autistocat', 'Statue week: push Emperor showdowns now', 'Pulse 2026-11-16: next showdowns are realistic in statue week'))
     if 'stamina' in both or 'overstim' in both: notes.append(('Autistomatic', 'Stamina week: stack overstim before a big amber run', 'Pulse 2026-10-15'))
     if 'artifact' in both or 'sailing' in both: notes.append(('Autisticles', 'Sailing bonus week: keep every boat on long trips and claim on time', 'ballot boosts artifact finds this week'))
-    return {'ballot': f"{ballot} (x{VOTE.get('voteMulti')})", 'merit': f"{merit} (x{VOTE.get('meritocracyMult')})", 'notes': notes}
+    from data import carried
+    c = carried(D.stamp).get('serverVars')
+    tag = f" [votes from save {c}: phone save has none, confirm in game if a new week started]" if c else ''
+    if not sb and not sm:
+        tag = ' [NO vote data in this save: check the ballot in game]'
+    return {'ballot': f"{ballot} (x{VOTE.get('voteMulti')}){tag}", 'merit': f"{merit} (x{VOTE.get('meritocracyMult')}){tag}", 'notes': notes}
 
 
 _RANK = None

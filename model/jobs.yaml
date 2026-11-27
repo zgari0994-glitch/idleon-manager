@@ -35,7 +35,7 @@ characters:
     active: [cranium]
     jobs:
       - {job: Alchemy, sections: [Bubbles, Vials, Sigils, Pay2Win], basis: class, daily_fixed: ["Liquids: Equinox Liquidvestment 5 -> 11 first (approved 11/16)"], note: "Daily: bubbles, vials, liquids, sigils, P2W, cauldron boosts. Liquids: Equinox Liquidvestment 5 -> 11 first"}
-      - {job: Lab, sections: [], basis: class, note: "Full Lab map = Lane B gap"}
+      - {job: Lab, sections: [], systems: [lab_bonuses, lab_chips, lab_jewels, lab_mainframe], basis: class, note: "Zack 2026-11-27: Cat owns all 4 lab systems"}
       - {job: Summoning, sections: [Summoning], basis: class}
       - {job: Tesseract, sections: [The Tesseract], basis: class}
       - {job: "Emperor showdowns", sections: [Emperor], basis: zack, note: "Zack 2026-11-25: Arcane Cultist owns Emperor (Griffy 2026-08 ypb7kpQov30 05:36 + Pulse 2026-10-31 6JgdYbiEKus 13:16: AC skulls bounce on the small platform next to the boss; Skull + Aura only; 2nd-page talents; boost foods). Pushes mostly in statue week (Pulse 2026-11-16)."}
@@ -176,7 +176,7 @@ locked:   # never hidden: what unlocks it + where that sits
   - {feature: "Cavern 16 Fountain", unlock: "Polonai level 16 (15 now, 30.1%)", owner: Autistabish}
   - {feature: "Jelly Operator / The Button", unlock: "W7 map push + Research level", owner: "Autistotle, Autisticles"}
   - {feature: "Isotope Discovery superbit (+10 atom max)", unlock: "Gaming superbits (20/72)", owner: Autistastic}
-  - {feature: "Teal Summoning battles (Danny 9.75x DMG, Monty 1.59x artifact find...)", match: "Regular Battles/Teal", unlock: "Defeat the lore boss of Spelunking cave 5 Chucklemire. Now: Pebble Cove boss done, deepest Pebble Cove 9 / Sedimeadow 8; Rustbelt 03, Blushpit, Chucklemire not reached", src: "Toolbox source (summoning.ts TEAL_ROCK_LORE_CAVE=4; game text 'Teal Summoning is now available')", owner: "Autistronaut, Autistocat"}
+  - {feature: "Teal Summoning battles (Danny 9.75x DMG, Monty 1.59x artifact find...)", match: "Regular Battles/Teal", unlock: "UNLOCKED (Chucklemire boss done, save 2026-11-27): now fight the Teal battles, see brain/systems/summoning.md", src: "Toolbox source (summoning.ts TEAL_ROCK_LORE_CAVE=4; game text 'Teal Summoning is now available')", owner: "Autistronaut, Autistocat"}
   - {feature: "Elite Class Swap Token", unlock: "Gem shop rotation (watch)", owner: Autistronaut}
 
 alerts:   # account-wide, routed. m = regex on "group/tab :: label"; when = ready (cur >= goal) | match

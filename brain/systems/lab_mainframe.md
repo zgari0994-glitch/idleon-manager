@@ -5,7 +5,7 @@ description: Lab Mainframe: state, how it works, links, plan, today
 # Lab Mainframe
 
 <!-- AUTO:START (tools/build_brain.py rewrites this block) -->
-- Owners: unassigned in jobs.yaml
+- Owners: Autistocat
 - Toolbox: world-4/laboratory (guide L112)
 - AutoReview: none (AutoReview does not rate it)
 - Planner: model/lab.py
@@ -25,7 +25,7 @@ ladder:
   - {tier: 1, target: "Connected players 8 -> 11", source: "Toolbox", date: "2026-11-27"}
   - {tier: 2, target: "More line width/range: summoning range bonus, Wild Boar line width (Griffy 2026-10-16 / 11-07)", source: "Griffy", date: "2026-11-07"}
 objective: {rung: 1, now: 8, target: 11, eta_days: null}
-check: {cadence: weekly, who: "UNASSIGNED (model/lab.py says Cat)", look_at: "who sits in lab vs who is AFK elsewhere"}
+check: {cadence: weekly, who: "Autistocat", look_at: "who sits in lab vs who is AFK elsewhere"}
 buffs:
   - {source: "Griffy: lab + account dev beats pushing weakly (2026-10-16)", world: 4, owned: null, now: null, next: null, owner: "lab owner"}
 triggers:

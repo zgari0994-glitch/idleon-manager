@@ -24,6 +24,8 @@ for n, cfg in J['characters'].items():
     for j in cfg['jobs']:
         for e in j.get('sections', []):
             owners[e if isinstance(e, str) else e['s']].add(n)
+        for s in j.get('systems', []):  # systems with no AutoReview section (Zack 2026-11-27)
+            owners['sys:' + s].add(n)
 findings = {os.path.basename(f)[:-3] for f in glob.glob(os.path.join(R, 'sources', 'findings', '*.md'))}
 norm = lambda s: re.sub(r'[^a-z0-9]', '', s.lower())
 # hand mappings: system key -> (AR sections, transcript slug, toolbox page tails)
@@ -40,7 +42,7 @@ ALIAS = {
  'killroy': (['Killroy'], 'killroy', ['killroy']), 'royal_armory': (['Royal Armory'], 'royal_armory', ['royal-armory']),
  'tesseract': (['The Tesseract'], 'tesseract', ['tesseract']), 'grimoire': (['The Grimoire'], 'grimoire', ['grimoire']),
  'library': (['Library'], 'library', ['library']), 'storage': (['Storage'], 'storage', ['storage']),
- 'meritocracy': (['Meritocracy'], 'merits', []), 'merits': ([], 'merits', ['merits']), 'star_signs': (['Star Signs'], None, ['constellations']),
+ 'meritocracy': (['Meritocracy'], 'merits', ['vote-ballot']), 'merits': ([], 'merits', ['merits']), 'star_signs': (['Star Signs'], None, ['constellations']),
  'forge_upgrades': (['Smithing'], None, ['forge', 'anvil']), 'armor_sets': (['Armor Sets'], None, ['armor-smithy']),
  'drop_rate': (['Drop Rate'], 'drop_rate', []), 'greenstacks': (['Greenstacks', 'Endangered Greenstacks'], 'greenstacks', ['storage']),
  'world_progress': (['Pinchy high', 'Pinchy low', 'Pinchy all'], 'w7_push', []), 'tome': ([], 'tome', ['tome']),
@@ -57,7 +59,7 @@ out = {}
 for k in systems:
     ar, slug, tails = ALIAS.get(k, default(k))
     tb = [p for p in pages if any(p.endswith('/' + t) for t in tails)]
-    own = sorted(set().union(*[owners.get(s, set()) for s in ar])) if ar else []
+    own = sorted(set().union(*[owners.get(s, set()) for s in ar], owners.get('sys:' + k, set())))
     out[k] = {'toolbox': [f"{p} (guide L{pages[p]})" for p in tb] or ['GAP: no Toolbox page mapped'],
               'autoreview': ar or ['none (AutoReview does not rate it)'], 'raw_key': k,
               'transcripts': {'slug': slug, 'tagged_rows': tagged.get(slug, 0), 'index_chunks': chunks.get(slug, 0)} if slug else 'GAP: no slug',

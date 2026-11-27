@@ -10,7 +10,7 @@ description: Sailing: state, how it works, links, plan, today
 - AutoReview: Sailing
 - Planner: model/sailing.py
 - Creator rows: 432
-- Findings: none
+- Findings: sailing_plan
 - Checklist: [[sailing]]: captains reviewed, when to trade, how to get a ship to 300 for the buff, right boats/captains/islands
 <!-- AUTO:END -->
 

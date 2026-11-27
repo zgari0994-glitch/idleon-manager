@@ -43,6 +43,14 @@ jobs:
             order = json.load(gzip.open(f'snapshots/{prev}/raw.json.gz'))['charNames']
             assert names == set(order), f'roster changed: save has {sorted(names)}, stored {order}'
             j = {'data': j, 'charNames': order}
+          if 'serverVars' not in j:  # bare save lacks this week's votes: carry the newest real ones (Zack 2026-11-27)
+            import glob
+            for d in sorted(glob.glob('snapshots/2*'), reverse=True):
+              try: o = json.load(gzip.open(d + '/raw.json.gz'))
+              except Exception: continue
+              if o.get('serverVars') and '_carried' not in o:
+                j['serverVars'] = o['serverVars']; j['_carried'] = {'serverVars': d.split('/')[-1]}
+                print('carried serverVars from', d); break
           assert len(j.get('charNames', [])) == 11, 'expected 11 characters'
           j.pop('parsedData', None)
           raw = json.dumps(j).encode()

@@ -5,7 +5,7 @@ description: Post Office: state, how it works, links, plan, today
 # Post Office
 
 <!-- AUTO:START (tools/build_brain.py rewrites this block) -->
-- Owners: Autiszemo
+- Owners: unassigned in jobs.yaml
 - Toolbox: GAP: no Toolbox page mapped
 - AutoReview: Post Office
 - Planner: model/postoffice.py

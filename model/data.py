@@ -82,5 +82,13 @@ class Data:
         raise DataMissing(f"character {name} not in the parsed save ({self.stamp})")
 
 
+def carried(stamp):
+    """Fields a bare phone save lacked and the pull copied from an older save: {'serverVars': '<stamp>'} or {}."""
+    try:
+        return json.load(gzip.open(ROOT / 'snapshots' / stamp / 'raw.json.gz')).get('_carried') or {}
+    except Exception:
+        return {}
+
+
 def load(stamp=None):
     return Data(stamp)

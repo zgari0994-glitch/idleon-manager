@@ -10,7 +10,7 @@ description: Divinity: state, how it works, links, plan, today
 - AutoReview: Divinity
 - Planner: model/divinity.py
 - Creator rows: 576
-- Findings: none
+- Findings: divinity_map
 - Checklist: [[divinity]]
 <!-- AUTO:END -->
 

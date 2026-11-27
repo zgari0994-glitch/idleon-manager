@@ -398,7 +398,8 @@ death_note:
 divinity:
   autoreview:
   - Divinity
-  findings: []
+  findings:
+  - divinity_map
   owners:
   - Autistabish
   raw_key: divinity
@@ -692,7 +693,7 @@ lab_bonuses:
   - none (AutoReview does not rate it)
   findings: []
   owners:
-  - unassigned in jobs.yaml
+  - Autistocat
   raw_key: lab_bonuses
   toolbox:
   - world-4/laboratory (guide L112)
@@ -705,7 +706,7 @@ lab_chips:
   - none (AutoReview does not rate it)
   findings: []
   owners:
-  - unassigned in jobs.yaml
+  - Autistocat
   raw_key: lab_chips
   toolbox:
   - world-4/laboratory (guide L112)
@@ -718,7 +719,7 @@ lab_jewels:
   - none (AutoReview does not rate it)
   findings: []
   owners:
-  - unassigned in jobs.yaml
+  - Autistocat
   raw_key: lab_jewels
   toolbox:
   - world-4/laboratory (guide L112)
@@ -731,7 +732,7 @@ lab_mainframe:
   - none (AutoReview does not rate it)
   findings: []
   owners:
-  - unassigned in jobs.yaml
+  - Autistocat
   raw_key: lab_mainframe
   toolbox:
   - world-4/laboratory (guide L112)
@@ -829,7 +830,7 @@ meritocracy:
   - Autistotle
   raw_key: meritocracy
   toolbox:
-  - 'GAP: no Toolbox page mapped'
+  - world-2/vote-ballot (guide L86)
   transcripts:
     index_chunks: 209
     slug: merits
@@ -898,7 +899,7 @@ post_office:
   - Post Office
   findings: []
   owners:
-  - Autiszemo
+  - unassigned in jobs.yaml
   raw_key: post_office
   toolbox:
   - 'GAP: no Toolbox page mapped'
@@ -1011,7 +1012,8 @@ royal_armory:
 sailing:
   autoreview:
   - Sailing
-  findings: []
+  findings:
+  - sailing_plan
   owners:
   - Autisticles
   raw_key: sailing
@@ -1060,7 +1062,8 @@ slab:
 sneaking:
   autoreview:
   - Sneaking
-  findings: []
+  findings:
+  - sneaking_charm_rolls
   owners:
   - Autistacular
   raw_key: sneaking
@@ -1174,7 +1177,8 @@ tabbed_advice_groups:
 tesseract:
   autoreview:
   - The Tesseract
-  findings: []
+  findings:
+  - tesseract_plan
   owners:
   - Autistocat
   raw_key: tesseract

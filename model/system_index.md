@@ -1,4 +1,4 @@
-# System index · 105 systems · save 20261119T0212
+# System index · 105 systems · save 20261127T2212
 
 | system | Toolbox | AutoReview | tagged/chunks | owners |
 |---|---|---|---|---|
@@ -38,7 +38,7 @@
 | divinity | world-5/divinity | Divinity | 576/1270 | Autistabish |
 | drop_rate | GAP: no Toolbox page mapped | Drop Rate | 662/591 | unassigned in jobs.yaml |
 | dungeons | misc/dungeons | none (AutoReview does not rate it) | 1104/0 | unassigned in jobs.yaml |
-| emperor | world-6/emperor | Emperor | 30/56 | Autistastic |
+| emperor | world-6/emperor | Emperor | 30/56 | Autistocat |
 | equinox | world-3/equinox | Equinox | 130/73 | Autistopher |
 | event_points_shop | misc/event-shop | Event Shop | gap | Autistotle |
 | family_bonuses | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
@@ -59,10 +59,10 @@
 | item_filter | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | jelly_operator | world-7/jelly-operator | Jelly Operator | 157/35 | Autisticles |
 | killroy | world-2/killroy | Killroy | 167/15 | Autistacular, Autistastic, Autistocat |
-| lab_bonuses | world-4/laboratory | none (AutoReview does not rate it) | 623/545 | unassigned in jobs.yaml |
-| lab_chips | world-4/laboratory | none (AutoReview does not rate it) | 623/545 | unassigned in jobs.yaml |
-| lab_jewels | world-4/laboratory | none (AutoReview does not rate it) | 623/545 | unassigned in jobs.yaml |
-| lab_mainframe | world-4/laboratory | none (AutoReview does not rate it) | 623/545 | unassigned in jobs.yaml |
+| lab_bonuses | world-4/laboratory | none (AutoReview does not rate it) | 623/545 | Autistocat |
+| lab_chips | world-4/laboratory | none (AutoReview does not rate it) | 623/545 | Autistocat |
+| lab_jewels | world-4/laboratory | none (AutoReview does not rate it) | 623/545 | Autistocat |
+| lab_mainframe | world-4/laboratory | none (AutoReview does not rate it) | 623/545 | Autistocat |
 | legend_talents | world-7/legend-talents | Legend Talents | 310/25 | Autisticles |
 | library | GAP: no Toolbox page mapped | Library | 150/108 | Autistopher |
 | library_group_characters | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
@@ -70,13 +70,13 @@
 | max_subgroups | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | meals | world-4/cooking | Cooking | 646/622 | Autiszemo |
 | menagerie | world-7/menagerie | Luminous Menagerie | 290/156 | Autisticles |
-| meritocracy | GAP: no Toolbox page mapped | Meritocracy | 401/209 | Autistotle |
+| meritocracy | world-2/vote-ballot | Meritocracy | 401/209 | Autistotle |
 | merits | task-board/merits | none (AutoReview does not rate it) | 401/209 | unassigned in jobs.yaml |
 | minehead | world-7/minehead | none (AutoReview does not rate it) | 120/0 | unassigned in jobs.yaml |
 | npc_tokens | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | obols | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | owl | clickers/owl | Owl | 70/0 | Autistopher |
-| post_office | GAP: no Toolbox page mapped | Post Office | gap | Autiszemo |
+| post_office | GAP: no Toolbox page mapped | Post Office | gap | unassigned in jobs.yaml |
 | prayers | world-3/prayers | Prayers | 265/180 | unassigned in jobs.yaml |
 | printer | world-3/printer, tools/sampling-companion | Sampling | 750/677 | Autisticles, Autistomatic, Autistronaut, Autiszemo |
 | quests | misc/quests | none (AutoReview does not rate it) | 696/0 | unassigned in jobs.yaml |
@@ -109,6 +109,6 @@
 | zenith_market | world-7/zenith-market | Zenith Market | 39/26 | Autisticles |
 
 ## Gaps
-- no_toolbox: autoloot, basketball, class_kill_talents, cog_board, colo_scores, companions, coral_kid, crystal_spawn_chance, dancing_coral, darts, data_source, drop_rate, family_bonuses, friend_bonuses, guild_bonuses, highest_dmg, inventory, item_filter, library, library_group_characters, manual_tome_score, max_subgroups, meritocracy, npc_tokens, obols, post_office, reset_counters, shrines, statues, tabbed_advice_groups, version, world_progress
-- no_owner: basketball, darts, drop_rate, forge_upgrades, prayers, storage, world_progress
+- no_toolbox: autoloot, basketball, class_kill_talents, cog_board, colo_scores, companions, coral_kid, crystal_spawn_chance, dancing_coral, darts, data_source, drop_rate, family_bonuses, friend_bonuses, guild_bonuses, highest_dmg, inventory, item_filter, library, library_group_characters, manual_tome_score, max_subgroups, npc_tokens, obols, post_office, reset_counters, shrines, statues, tabbed_advice_groups, version, world_progress
+- no_owner: basketball, darts, drop_rate, forge_upgrades, post_office, prayers, storage, world_progress
 - thin_sources: the_button

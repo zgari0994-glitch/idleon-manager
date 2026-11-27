@@ -5,7 +5,7 @@ description: Lab Chips: state, how it works, links, plan, today
 # Lab Chips
 
 <!-- AUTO:START (tools/build_brain.py rewrites this block) -->
-- Owners: unassigned in jobs.yaml
+- Owners: Autistocat
 - Toolbox: world-4/laboratory (guide L112)
 - AutoReview: none (AutoReview does not rate it)
 - Planner: model/lab.py
@@ -26,7 +26,7 @@ ladder:
   - {tier: 2, target: "Missing chips owned: Grounded Motherboard 0, Grounded Processor 0, Conductive Motherboard 0, Silkrode Nanochip 0", source: "Toolbox", date: "2026-11-27"}
   - {tier: 3, target: "Grounded Nanochip 10 -> 11, Conductive Nanochip 5 -> 6", source: "Toolbox", date: "2026-11-27"}
 objective: {rung: 2, now: "4 chip types at 0", target: "1+ each", eta_days: null}
-check: {cadence: weekly, who: "UNASSIGNED (model/lab.py says Cat)", look_at: "chip repo rotation (now idx 5,3,2), mats for the next missing chip"}
+check: {cadence: weekly, who: "Autistocat", look_at: "chip repo rotation (now idx 5,3,2), mats for the next missing chip"}
 buffs:
   - {source: "Drop-rate chip: remove once DR passes 6x (Griffy 2026-10-16)", world: 4, owned: null, now: null, next: null, owner: "lab owner"}
 triggers:

@@ -5,7 +5,7 @@ description: Lab Jewels: state, how it works, links, plan, today
 # Lab Jewels
 
 <!-- AUTO:START (tools/build_brain.py rewrites this block) -->
-- Owners: unassigned in jobs.yaml
+- Owners: Autistocat
 - Toolbox: world-4/laboratory (guide L112)
 - AutoReview: none (AutoReview does not rate it)
 - Planner: model/lab.py
@@ -25,7 +25,7 @@ ladder:
   - {tier: 1, target: "North Winds Jewel + Eternal Energy Jewel: 1000 Dark Lantern, 10M Sticky Bun, 10K Bamboo Forest spice each", source: "Toolbox", date: "2026-11-27"}
   - {tier: 2, target: "Pure Opal Rhombol (boosts Depot Studies PhD): 5000 Tottoise, 100M Bill Jack Pep, 10K Lullaby Airway spice", source: "Toolbox", date: "2026-11-27"}
 objective: {rung: 1, now: "21/24", target: "23/24", eta_days: null}
-check: {cadence: weekly, who: "UNASSIGNED (model/lab.py says Cat)", look_at: "Dark Lantern, Sticky Bun and Bamboo Forest counts vs cost"}
+check: {cadence: weekly, who: "Autistocat", look_at: "Dark Lantern, Sticky Bun and Bamboo Forest counts vs cost"}
 buffs:
   - {source: "jewel spinner (Griffy: Sapphire Rhombol cost him 30 Golden Plops)", world: 4, owned: null, now: null, next: null, owner: "lab owner"}
 triggers:

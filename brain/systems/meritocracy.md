@@ -6,9 +6,9 @@ description: Meritocracy: state, how it works, links, plan, today
 
 <!-- AUTO:START (tools/build_brain.py rewrites this block) -->
 - Owners: Autistotle
-- Toolbox: GAP: no Toolbox page mapped
+- Toolbox: world-2/vote-ballot (guide L86)
 - AutoReview: Meritocracy
-- Planner: NONE (nothing checks this yet)
+- Planner: model/shops.py
 - Creator rows: 401
 - Findings: none
 - Checklist: [[ballot]] / [[meritocracy]]: pros and cons for him and for the server, never "vote X"

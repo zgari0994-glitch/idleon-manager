@@ -30,7 +30,6 @@ description: Every system, whether anything checks it, whether it has a plan
 | [[hat_rack]] | yes | NO | no | 1 |
 | [[inventory]] | yes | NO | no |  |
 | [[library]] | yes | NO | no |  |
-| [[meritocracy]] | yes | NO | no |  |
 | [[merits]] | yes | NO | no |  |
 | [[npc_tokens]] | yes | NO | no |  |
 | [[obols]] | yes | NO | no |  |
@@ -85,6 +84,7 @@ description: Every system, whether anything checks it, whether it has a plan
 | [[legend_talents]] | yes | yes | no | 1 |
 | [[meals]] | yes | yes | no | 1 |
 | [[menagerie]] | yes | yes | no | 4 |
+| [[meritocracy]] | yes | yes | no |  |
 | [[minehead]] | yes | yes | no |  |
 | [[owl]] | yes | yes | no |  |
 | [[post_office]] | yes | yes | no |  |
@@ -112,4 +112,4 @@ description: Every system, whether anything checks it, whether it has a plan
 | [[worship]] | yes | yes | no | 1 |
 | [[zenith_market]] | yes | yes | no | 1 |
 
-105 systems: 66 with a planner, 0 with a written plan, 9 unowned.
+105 systems: 67 with a planner, 0 with a written plan, 9 unowned.

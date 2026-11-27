@@ -5,7 +5,7 @@ description: Emperor: state, how it works, links, plan, today
 # Emperor
 
 <!-- AUTO:START (tools/build_brain.py rewrites this block) -->
-- Owners: Autistastic
+- Owners: Autistocat
 - Toolbox: world-6/emperor (guide L156)
 - AutoReview: Emperor
 - Planner: model/emperor.py

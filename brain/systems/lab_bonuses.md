@@ -5,7 +5,7 @@ description: Lab Bonuses: state, how it works, links, plan, today
 # Lab Bonuses
 
 <!-- AUTO:START (tools/build_brain.py rewrites this block) -->
-- Owners: unassigned in jobs.yaml
+- Owners: Autistocat
 - Toolbox: world-4/laboratory (guide L112)
 - AutoReview: none (AutoReview does not rate it)
 - Planner: model/lab.py
@@ -24,7 +24,7 @@ ladder:
   - {tier: 1, target: "Off now: Animal Farm, Gilded Cyclical Tubing, Viaduct of the Gods, My 1st Chemistry Set, Unadulterated Banking Fury, Sigils of Olden Alchemy, Viral Connection, Spiritual Growth, Depot Studies PhD", source: "Toolbox", date: "2026-11-27"}
   - {tier: 2, target: "Order them by what they feed (my read until a creator ranks them)", source: "my_read", date: "2026-11-27"}
 objective: {rung: 1, now: "9/18 on", target: null, eta_days: null}
-check: {cadence: weekly, who: "UNASSIGNED (model/lab.py says Cat)", look_at: "lab layout: which bonuses are lit"}
+check: {cadence: weekly, who: "Autistocat", look_at: "lab layout: which bonuses are lit"}
 buffs:
   - {source: "line width/range: breeding +5% line width, Wild Boar, summoning range, jewels", world: 4, owned: null, now: null, next: null, owner: "lab owner"}
 triggers:

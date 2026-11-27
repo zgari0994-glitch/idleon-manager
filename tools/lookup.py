@@ -139,6 +139,44 @@ def _compass_extra():
 SPEC['compass']['extra'] = _compass_extra
 SPEC['compass']['skip'] = {'maps', 'medallions', 'upgrades', 'groupedUpgrades', 'abominations'}
 SPEC['sailing'] ={'extra': _sailing_extra, 'skip': {'artifacts', 'boats', 'captains'}}
+
+
+def _lab_extra(kind):  # Zack 2026-11-27: each lab system gets its own view, not the same generic dump
+    def f():
+        L, out = D.account['lab'], []
+        cl = lambda s: str(s).replace('_', ' ')
+        req = lambda r: ', '.join(f"{fmt(x['amount'])} {cl(x['name'])}" for x in r)
+        if kind == 'chips':
+            ch = L['chips']
+            miss = [c for c in ch if not c['amount']]
+            out.append(f"chips: {len(ch) - len(miss)}/{len(ch)} types owned; raw chips {L.get('totalRawChips')}")
+            for c in ch:
+                out.append(f"  {cl(c['name'])}: own {c['amount']}" + (f" / {c['totalAmount']}" if (c.get('totalAmount') or 0) > 0 else '') + (f" | MISSING, cost: {req(c['requirements'])}" if not c['amount'] else ''))
+            rot = [cl(ch[int(i)]['name']) if int(i) < len(ch) else i for i in L.get('currentRotation') or []]
+            out.append(f"repo rotation now (index -> name is my read, verify in game): {rot}")
+        elif kind == 'jewels':
+            js = L['jewels']
+            out.append(f"jewels: {sum(1 for j in js if j['acquired'])}/{len(js)} acquired")
+            for j in js:
+                if not j['acquired']:
+                    out.append(f"  MISSING {cl(j['name'])}: {cl(j.get('description', ''))[:70]} | cost: {req(j['requirements'])}")
+        elif kind == 'bonuses':
+            bs = L['labBonuses']
+            out.append(f"lab bonuses: {sum(1 for b in bs if b.get('active'))}/{len(bs)} on")
+            out.append('  ON: ' + ', '.join(cl(b['name']) for b in bs if b.get('active')))
+            out.append('  OFF: ' + ', '.join(cl(b['name']) for b in bs if not b.get('active')) + '  (parser does not say range vs locked)')
+        else:
+            con = {p['name'] for p in L['connectedPlayers']}
+            out.append(f"mainframe: {len(con)}/{len(L['playersCords'])} players connected")
+            for p in L['playersCords']:
+                out.append(f"  {p['playerName']} ({cl(p.get('class'))}): {'CONNECTED' if p['playerName'] in con else 'not connected'}, line width {fmt(p.get('lineWidth'))}")
+        return out
+    return f
+
+
+_LAB_KEYS = {'chips', 'jewels', 'labBonuses', 'playersChips', 'playersCords', 'connectedPlayers', 'currentRotation'}
+for _k, _kind in [('lab_chips', 'chips'), ('lab_jewels', 'jewels'), ('lab_bonuses', 'bonuses'), ('lab_mainframe', 'mainframe')]:
+    SPEC[_k] = {'extra': _lab_extra(_kind), 'skip': _LAB_KEYS}
 GORD = {g: i for i, g in enumerate(['S+', 'S', 'S-', 'A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D', 'F'])}
 SKIP_KEYS = re.compile(r'^(x\d+|description|.*Description|sprite.*|Monster.*|imageName|xyPointer|save|layout|raw.*|rawDancingCoral|mapBonusRaw|expression|tree)$')
 

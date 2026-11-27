@@ -10,7 +10,7 @@ description: Tesseract: state, how it works, links, plan, today
 - AutoReview: The Tesseract
 - Planner: model/tesseract.py
 - Creator rows: 32
-- Findings: none
+- Findings: tesseract_plan
 - Open gaps: 12: How to push Tesseract; it needs active play until ~1,000 of its currency (Zack)
 <!-- AUTO:END -->
 

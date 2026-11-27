@@ -28,7 +28,7 @@ PLANNER = {
     'w7minis': ['legend_talents', 'jelly_operator', 'clam_work', 'sushi_station', 'minehead', 'glimbo', 'zenith_market', 'the_button'],
     'menagerie': ['menagerie'], 'research': ['research'], 'reef': ['coral_reef', 'dancing_coral', 'coral_kid'], 'gallery': ['gallery'],
     'emperor': ['emperor'], 'islands': ['islands'], 'arcade': ['arcade'], 'owl': ['owl'], 'killroy': ['killroy'], 'hole': ['caverns'],
-    'slab': ['slab'], 'beanstalk': ['beanstalk'], 'capevine': ['cape_vine'], 'shops': ['gemshop', 'ballot'], 'tome': ['tome'],
+    'slab': ['slab'], 'beanstalk': ['beanstalk'], 'capevine': ['cape_vine'], 'shops': ['gemshop', 'ballot', 'meritocracy'], 'tome': ['tome'],
     'maint': ['rift', 'star_signs'], 'postoffice': ['post_office'], 'supertalents': ['super_talents'], 'prayers': ['prayers'],
 }
 # AutoReview bookkeeping entries, not game systems: never counted as holes
