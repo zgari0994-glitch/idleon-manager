@@ -118,4 +118,6 @@ Drafts carry `status: DRAFT`; none approved or in the pipeline. ETAs null until 
   - Gaps found: lookup.py crashes on gaming (render_levels int.get); worship + prayers owners unassigned; cooking mastery + meal ribbon order unsourced; trapping worth-it unsourced.
 - Batch 2 (2026-11-27, same save): saltlick, armor_sets, dungeons, alchemy_bubbles, gemshop, printer, caverns, quests, drop_rate, farming. DRAFT.
   - Gaps found: dungeons, quests, drop_rate owners unassigned; dungeon RNG tiers only 2022 Griffy; OG crop threshold for our account unknown; Print timing unanswered.
-- Next: batch 3 = lab_bonuses, lab_chips, lab_jewels, lab_mainframe, breeding, spelunk, sailing, summoning, meritocracy, merits. Remaining partial after batch 3: 47.
+- Batch 3 (2026-11-27, save 20261127T2212): lab_bonuses, lab_chips, lab_jewels, lab_mainframe, breeding, spelunk, sailing, summoning, meritocracy, merits. DRAFT.
+  - Gaps found: lab_* + merits owners unassigned (model/lab.py says Cat); lookup.py gives all 4 lab files the same generic view; jobs.yaml Teal line stale (Chucklemire is done); meritocracy has no page/planner and shows 1.00x active; lab bonus off-reason (range vs locked) not in parser; no creator order for lab bonuses, amber shop, Teal battles.
+- Next: batch 4 = next 10 partial in audit order. Remaining partial after batch 3: 47.

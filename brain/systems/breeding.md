@@ -15,6 +15,30 @@ description: Breeding: state, how it works, links, plan, today
 - Checklist: [[breeding]]: all monsters unlocked/upgraded/spliced. DNA shop spend, how to get DNA faster, Crucible unlock, arena worth it, team comps per spice map (Crypt, Frosty Peaks, Twilight Desert), meta changes per location, heart pets on the fence (level 15 breedability), shiny-rate mobs for overnight shiny leveling, eggs vs upgrades, daily doable steps
 <!-- AUTO:END -->
 
+<!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
+<!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
+```yaml
+status: DRAFT
+role: feeder
+goal: "Shiny pets to their AutoReview targets, faster-shiny-rate pets to 20-25 first (Zack 2026-11-21), then by importance"
+coverage: partial
+ladder:
+  - {tier: 1, target: "Faster-shiny-rate shinies to Lv 20-25 (Faster Shiny Lv Up now +168%)", source: "Zack + Pulse", date: "2026-11-21"}
+  - {tier: 2, target: "AutoReview targets, e.g. Sheepie 5 -> 13 + Red Mushroom 5 -> 13 (meals), Mashed Potato/Sand Giant 5 -> 12 (skill eff), Choccie/Slime 5 -> 12 (DR)", source: "AutoReview", date: "2026-11-27"}
+  - {tier: 3, target: "Gene Splicing 15 -> 20; Grand Martial of Shinytown 44 -> 300", source: "Toolbox", date: "2026-11-27"}
+objective: {rung: 1, now: "507 total shiny Lv", target: null, eta_days: null}
+check: {cadence: daily, who: "Autistacular", look_at: "fence pets vs phase targets, overnight WW shiny leveling"}
+buffs:
+  - {source: "shiny rate: Faster Shiny Mob Lv Up +168% (breeding passives)", world: 4, owned: true, now: "168%", next: null, owner: "Autistacular"}
+triggers:
+  - {when: "a fence pet hits its phase target", then: "move its copies to the next pet in order"}
+stall: {pulls_no_progress: 3, eta_over_days: 30}
+tasks:
+  - {do: "Overnight WW shiny leveling (breeding_ww job)", stat: "shiny days", gain_pct: null, unblocks: [], source: "Pulse 6JgdYbiEKus 23:23", active_min: 2, wait_hr: 8, cost: null, urgent: false}
+# GAP 36 fence plan from his actual pets; GAP 37 Heart VII+ pets 0 -> 68; fence order still FAN (gameslikefinder)
+```
+<!-- GOAL:END -->
+
 ## How it works (mechanics, multipliers, formulas; cite source)
 
 ## Links
