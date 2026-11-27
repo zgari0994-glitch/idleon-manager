@@ -289,7 +289,22 @@ data_lines = ['\n## 1. DATA (Toolbox parser)']
 spec = SPEC.get(system, {})
 try:
     if path:
-        render(D.get(path, allow_empty=True), path, spec, 0, data_lines)
+        # Accept full paths (account.alchemy.x), system-relative (cauldrons.x) or bare (alchemy.x).
+        base = (MAP.get(system, {}).get('path') or '') if system else ''
+        cands = [path, f'account.{path}']
+        if base and not base.startswith('@'):
+            cands += [f'{base}.{path}', f'account.{base}.{path}']
+        hit = None
+        for c in dict.fromkeys(cands):
+            try:
+                hit = (c, D.get(c, allow_empty=True)); break
+            except DataMissing:
+                continue
+        if hit is None:
+            raise DataMissing(f"{path}: not found (tried {', '.join(dict.fromkeys(cands))}) ({D.stamp})")
+        if hit[0] != path:
+            data_lines.append(f"path resolved: {hit[0]}")
+        render(hit[1], hit[0], spec, 0, data_lines)
     elif system:
         v = D.system(system, allow_empty=True)
         data_lines.append(f"path: {MAP[system].get('path')}" + (f" | note: {spec['note']}" if spec.get('note') else ''))
