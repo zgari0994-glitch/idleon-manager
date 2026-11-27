@@ -244,6 +244,8 @@ def legend_step():
     from data import load
     L = load().system('legend_talents')
     left = L['pointsLeftToSpend']
+    if left < 0:  # 2026-11-27: Toolbox undercounts owned points (spent 68 > owned 58), so never show a negative balance
+        return {'do': f"Legend talents: Toolbox can't tell how many points are unspent (it counts {L['pointsSpent']} spent but only {L['pointsOwned']['value'] if isinstance(L['pointsOwned'], dict) else L['pointsOwned']} owned). Check Whallamus in game; if any are unspent, ask for the full pick list", 'why': 'data gap', 'sub': []}
     if not left: return {'do': 'Legend talents: nothing needed', 'why': '', 'sub': []}
     open_ = {t['name'].replace('_', ' '): (t['level'], t['maxLevel']) for t in L['talents']}
     sub = [f"{n} ({open_[n][0]}/{open_[n][1]}): {why}" for n, why in LEGEND_ORDER if n in open_ and open_[n][0] < open_[n][1]][:6]

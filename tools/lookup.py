@@ -65,8 +65,12 @@ def fmt(v):
     return s if len(s) < 70 else s[:67] + '...'
 
 
-def nm(d):
-    return str(d.get('name') or d.get('rawName') or d.get('index', '?')).replace('_', ' ').strip()
+def nm(d):  # 2026-11-27: arcade shop has no name (use effect), menagerie boosts use description
+    n = d.get('name') or d.get('rawName') or d.get('effect') or d.get('description') or d.get('index', '?')
+    return re.sub(r'\s+', ' ', str(n).replace('_', ' ').replace('{', '#').replace('}', '#')).strip()
+
+
+PLACEHOLDER = lambda d: d.get('name') == 'Name' and d.get('description') == 'desc'   # empty research grid cells
 
 
 # ---------- research level (gates Jelly upgrades) ----------
@@ -177,6 +181,37 @@ def _lab_extra(kind):  # Zack 2026-11-27: each lab system gets its own view, not
 _LAB_KEYS = {'chips', 'jewels', 'labBonuses', 'playersChips', 'playersCords', 'connectedPlayers', 'currentRotation'}
 for _k, _kind in [('lab_chips', 'chips'), ('lab_jewels', 'jewels'), ('lab_bonuses', 'bonuses'), ('lab_mainframe', 'mainframe')]:
     SPEC[_k] = {'extra': _lab_extra(_kind), 'skip': _LAB_KEYS}
+def _ach_extra():
+    A = D.account['achievements']
+    real = [a for a in A if a.get('name') and not str(a.get('name')).startswith('FILLERZZZ')]
+    done = [a for a in real if a.get('completed')]
+    out = [f"achievements: {len(done)}/{len(real)} done ({len(real) - len(done)} left, {sum(a.get('gems') or 0 for a in real if not a.get('completed'))} gems left)"]
+    return out
+
+
+def _rg_bal(d):
+    i = d.get('costResourceIndex')
+    st = D.account['royalGuardian'].get('resourceStorage') or []
+    return (st[i], f"resource #{i}") if isinstance(i, int) and 0 <= i < len(st) else (None, None)
+
+
+def _rg_cond(d):
+    A = D.account['royalGuardian']['armory']
+    need = d.get('shelfUnlockTotalLevels') or d.get('unlockTotalLevels')
+    return f"{fmt(need)} total armory levels (have {A['totalLevels']})" if need else None
+
+
+def _legend_extra():
+    L = D.account['legendTalents']
+    own, sp = L['pointsOwned']['value'] if isinstance(L['pointsOwned'], dict) else L['pointsOwned'], L['pointsSpent']
+    if sp > own:
+        return [f"LEGEND POINTS DON'T ADD UP: spent {sp} > owned {own} (Toolbox misses at least {sp - own} owned points from a source it doesn't read). Unspent = check in game."]
+    return []
+
+
+SPEC['legend_talents'] = {'extra': _legend_extra}
+SPEC['achievements'] = {'extra': _ach_extra, 'skip': {'achievements'}}
+SPEC['royal_armory'] = {'rowbal': _rg_bal, 'cond': _rg_cond}
 GORD = {g: i for i, g in enumerate(['S+', 'S', 'S-', 'A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D', 'F'])}
 SKIP_KEYS = re.compile(r'^(x\d+|description|.*Description|sprite.*|Monster.*|imageName|xyPointer|save|layout|raw.*|rawDancingCoral|mapBonusRaw|expression|tree)$')
 
@@ -236,6 +271,8 @@ def render_levels(key, lst, spec):
     bal, cur = (spec['bal']() if spec.get('bal') else (None, None))
     mxk = spec.get('max')
     rows, maxed, locked = [], 0, []
+    empty = sum(1 for d in lst if PLACEHOLDER(d))
+    lst = [d for d in lst if not PLACEHOLDER(d)]
     for d in lst:
         mx = d.get('maxLevel') if d.get('maxLevel') is not None else (d.get(mxk) if mxk else None)
         if isinstance(mx, (int, float)) and mx >= 99999:
@@ -243,6 +280,8 @@ def render_levels(key, lst, spec):
         lv = d.get('level') or 0
         is_locked = d.get('unlocked') is False
         cond = (spec.get('cond') or (lambda _: None))(d) or d.get('requirement') or d.get('unlockReq')
+        if spec.get('rowbal'):
+            bal, cur = spec['rowbal'](d)
         if is_locked:
             locked.append(f"    LOCKED {nm(d)} -> needs {cond or 'unlock condition not in parser'}" + (f", cost {fmt(d['cost'])}" if d.get('cost') else '') + item_grade(nm(d)))
             continue
@@ -260,7 +299,7 @@ def render_levels(key, lst, spec):
         rows.append(((g, cost if isinstance(cost, (int, float)) else 9e99),
                      f"    {nm(d)} Lv {fmt(lv)}/{fmt(mx) if mx is not None else '-'}" + (f" (bonus {fmt(b)})" if b not in (None, '', 0) else '') + c + ig))
     rows.sort(key=lambda x: x[0])          # creator tier grade first, then cheapest
-    head = f"  {key}: {len(lst)} total, {maxed} maxed, {len(rows)} open, {len(locked)} locked" + (f" | balance {fmt(bal)} {cur}" if bal is not None else '')
+    head = f"  {key}: {len(lst)} total, {maxed} maxed, {len(rows)} open, {len(locked)} locked" + (f" | balance {fmt(bal)} {cur}" if bal is not None and not spec.get('rowbal') else '') + (f" ({empty} empty grid cells hidden)" if empty else '')
     out = [head] + [r for _, r in rows[:ROWS]]
     if len(rows) > ROWS:
         cut.append(f"{key}: {len(rows) - ROWS} open rows (cheapest shown; --full for all)"); out.append(f"    ... TRUNCATED {len(rows) - ROWS} more open (cheapest first)")
