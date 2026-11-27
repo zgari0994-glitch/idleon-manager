@@ -23,7 +23,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: '3.13', cache: pip, cache-dependency-path: accounts/brother/requirements.txt}
       - uses: actions/setup-node@v4
-        with: {node-version: '20'}
+        with: {node-version: '22'}
       - name: Install
         run: |
           pip install -q -r accounts/brother/requirements.txt
