@@ -14,3 +14,18 @@ Moved verbatim from CLAUDE.md on 2026-11-26 (usage cleanup). Rules here still ap
 - The parse harness (tools/tbparse/zack.test.mjs) also adds website-computed values with Toolbox's own functions (prayer nextCost); add more there instead of scraping.
 - model/needs.py = goal status (lore bosses), ranked needs vs goal (flag), weekly Ballot/Meritocracy effects, personal goals, fluid parks (weekly overrides -> standing duties -> goal).
 - Sailing moves were rebuilt on parser data: verify in game before trusting a move.
+
+## Per-system goal standard (Zack 2026-11-27, approved; replaces the Plan: Now/Next/Stop/Waiting section)
+Every file in brain/systems/ gets one GOAL block (template: brain/systems/_TEMPLATE_goal.md). Mapping of the old fields: Now + Next -> objective + ladder; Stop point + Waiting on -> stall + triggers. Human notes stay below the block.
+1. role: blocker / feeder / independent vs the main goal. Blocker -> Law 1 (owner hard-focuses, every task aims at the unblock).
+2. goal: end state + why.
+3. ladder: measurable rungs from creator guidance, each with source + date. No creator coverage -> "my read" rungs from the data + log the gap.
+4. objective: next rung, now vs target, ETA from model/rates.py.
+5. check: daily or weekly, who, what to look at -> card Do line (Law 2).
+6. buffs: sources across W1-W7, owned/missing, owner + next level. Only for systems that are behind or need a push (split from model/buffs.md); timed self-running systems get one line.
+7. triggers: when X hits Y -> do Z (rung done, unlock, reserve freed, feed next system).
+8. stall: no progress in 3 pulls OR ETA over 30 days, whichever first. Card + report flag with reason; reason = another system -> Law 1 routes it.
+9. tasks: each with score inputs, ranked by docs/scoring.md.
+Plus coverage grade (sourced / partial / my read / none), used by the audit.
+
+Rollout: (1) standard [done 2026-11-27] -> (2) audit all brain/systems vs standard: has plan / partial / nothing, ranked backlog, plus which can't emit scored tasks yet -> (3) system by system (divinity, gaming, cooking stuck at 111, anvil + armor, vials vs trapping, Salt Lick, Bubba, stamps, cards to 6-star, golden food first), creator guidance pulled, plan approved, then into the pipeline. model/score.py build = its own approved step.

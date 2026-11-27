@@ -44,5 +44,6 @@ When a rule changes: update this file or its docs/ file, Project memory (`/proje
 - docs/pipeline.md: data layer v2 details, old usage rules, full Refresh, play-session flow, after-work pull steps (pipeline order, Active plan), retired bulk read.
 - docs/guidance.md: creators rules (stand-in/supplement, newest wins), sourced order beats math, shop buy orders, weekly confirmations, rinse goal, guidance layer, never say "no data", guiding before the KB is done, buff sources (model/buffs.md), talent levels (book cap 299).
 - docs/cards.md: card wording, Library rank, every system on its card daily, GOAL LOGIC detail + current goal, can't-miss, locked = target, clocks, brain/report/decision layer (cards4, reserves, super talent resets).
-- docs/planners.md: per-system planner standard, the done list (owners per system), order, need outweighs math, Pinchy, planner migration to data.py.
+- docs/planners.md: per-system GOAL standard (9 fields + template), per-system planner standard, the done list (owners per system), order, need outweighs math, Pinchy, planner migration to data.py.
 - docs/layout.md: repo layout, tagging pipeline, brother's account (accounts/brother, never mix), status + pending in-game checks, keep-rules-current origin.
+- docs/scoring.md: Task Score 0-100 (Impact x Reach x Confidence x Urgency / Effort), guardrails, calibration. model/score.py not built yet.
