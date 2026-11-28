@@ -15,32 +15,26 @@ description: Construction Buildings: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT synthesis 2026-11-28 batch 1 (claims DB, save 20261128T0256): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 6 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-role: independent
-goal: "Trapper Drone to 50 and shrines to 200, then Poisonic Elder and the other towers"
-coverage: partial       # building order sourced; spare tower levels = my read
+role: independent   # Law 2 duty for Tastic
+goal: "Talent Library + Death Note + Trapper Drone first, shrines to 200 next (Griffy 2026-10/11)"
+coverage: sourced
 ladder:
-  - {tier: 1, target: "Trapper Drone 27 -> 50 (Automation Arm alongside)", source: "Griffy", date: "2026-10-04"}
-  - {tier: 2, target: "Shrines to 200 (Undead 72, Clover 100, Pantheon 100, Summereading 100, Crescent 102)", source: "Pulse (push shrines + construction boost)", date: "2026-11-12"}
-  - {tier: 3, target: "Poisonic Elder 120 -> 240", source: "Griffy", date: "2026-09-27"}
-  - {tier: 4, target: "Talent Book Library 132 -> 201", source: "Griffy (Library + Automation Arm important)", date: "2026-07-26"}
-  - {tier: 5, target: "spare tower levels: Voidinator 67, Kraken 114, Stormcaller 119 -> 240", source: "my_read", date: "2026-11-28"}
-objective: {rung: 1, now: 27, target: 50, eta_days: null}
-check: {cadence: daily, who: "Autistastic", look_at: "build queue, Trapper Drone materials (Shiny Scorpions), shrine levels"}
+  - {tier: 1, target: "Talent Book Library 132 -> 201 (checkout speed)", source: "Griffy", date: "2026-10-28"}
+  - {tier: 2, target: "Death Note building while cheap; Trapper Drone 27 -> 50", source: "Griffy", date: "2026-11-07"}
+  - {tier: 3, target: "Shrines to 200 (Undead 72, Clover 100, Crescent 102, Pantheon 100, Summereading 100); Voidinator 67 -> 240", source: "AutoReview", date: "2026-11-28"}
+objective: {rung: 1, now: "Talent Book Library 132", target: "201", eta_days: null}
+check: {cadence: daily, who: "Autistastic", look_at: "build queue, build rate 6.62T"}
 buffs:
-  - {source: "Construction build-rate pellet doubler (very strong, meta)", world: 5, owned: null, now: null, next: null, owner: "Autistastic"}
-  - {source: "Jewel spinner Sapphire Rhinestone weeks (up to 2 trimmed slots)", world: 7, owned: null, now: null, next: null, owner: "Autistastic"}
-  - {source: "Inevitable Builder talent (extra trimmed slot, A tier)", world: 7, owned: null, now: null, next: null, owner: "Autistastic"}
+  - {source: "Shrine Collective Agreement (shrines keep XP when moved)", world: null, owned: null, now: null, next: null, owner: "Autistastic"}
 triggers:
-  - {when: "Trapper Drone 50", then: "queue Poisonic Elder"}
-  - {when: "all shrines 200", then: "spare levels to Voidinator / Kraken / Stormcaller (my read)"}
+  - {when: "a building finishes", then: "queue the next from the ladder"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Build Trapper Drone; gather Shiny Scorpions", stat: "Trapper Drone level", gain_pct: null, unblocks: ["trapping"], source: "Griffy 2026-09-27", active_min: 2, wait_hr: null, cost: null, urgent: false}
-  - {do: "Level lowest shrine (Undead 72)", stat: "shrine bonuses", gain_pct: null, unblocks: [], source: "Pulse 2026-11-12", active_min: 2, wait_hr: null, cost: null, urgent: false}
-# Pulse 2025-10-19 + 2026-10-18 yellow jellyfish meta lives in jelly_operator, not here.
+  - {do: "Keep Talent Book Library + Death Note + Trapper Drone in the build slots", stat: "library speed, multikill", gain_pct: null, unblocks: [library, death_note], source: "Griffy 2026-10-28 C2oiRVIpmq8 01:02:26", active_min: 5, wait_hr: null, cost: null, urgent: false}
+# GAP: building costs/build time not in lookup; cog board optimization not covered; Poisonic towers salt-gated (Griffy)
 ```
 <!-- GOAL:END -->
 

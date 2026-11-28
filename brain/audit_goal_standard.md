@@ -101,7 +101,7 @@ Rank: Zack called-out first, then emptiest, then most creator guidance (easiest 
 | 95 | tesseract | partial |  | Y | 32 | 12 | 0/4 | 0/0/0 | ok | Y | Autistocat |
 | 96 | emperor | partial |  | Y | 30 | 28 | 0/4 | 0/0/0 | ok | Y | Autistastic |
 | 97 | cape_vine | partial |  | Y | 27 | 0 | 0/4 | 0/0/0 | ok | Y | Autistachio |
-| 98 | glimbo | partial |  | Y | 25 | 0 | 0/4 | 0/0/0 | ok | Y | unassigned in jobs.yaml |
+| 98 | glimbo | partial |  | Y | 25 | 0 | 0/4 | 0/0/0 | ok | Y | Autisticles |
 | 99 | the_button | partial |  | Y | 7 | 0 | 0/4 | 0/0/0 | ok | Y | Autisticles |
 | 100 | ballot | partial |  | Y | 0 | 0 | 0/4 | 0/0/0 | ok | Y | Autistotle |
 | 101 | coral_kid | partial |  | Y | 0 | 0 | 0/4 | 0/0/0 | ok | Y | Autistabish |
@@ -129,4 +129,7 @@ Drafts carry `status: DRAFT`; none approved or in the pipeline. ETAs null until 
 - Batch 5 (2026-11-28, save 20261128T0256): alchemy_p2w, refinery, killroy, jelly_operator, library, storage, rift, equinox, compass, minehead. DRAFT (replaced the auto drafts).
   - Gaps found: storage + minehead owners unassigned; killroy has 3 owners (Cat lead is my read); rift is complete (65, 'cannot progress'), only Topher's Rift Super CHOW left; jelly Organelle Cell Cultivation (314K) affordable now; lookup shows cauldron data for alchemy_p2w, not the p2w block; library has no Toolbox page/planner and no checkout count; compass dust type + unlock conditions not in parser; minehead opponent HP not in parser, no Griffy guidance; no creator order for killroy permanents or jelly upgrades; equinox ladle need not in parser.
   - Fixed same day (Zack 23:50): storage -> Autistotle (he does greenstacks); killroy -> strongest fighter of the week's class (Cat mage, Tastic warrior, Tacular archer); alchemy_p2w all maxed, only a minor buy when the highest alchemy level rises; library checkouts tracked by Zack, card ranks next best max talent #1-55. minehead -> Autisticles (W7 minigames owner).
-- Next: batch 6 = next 10 partial in audit order (from tome). Remaining partial after batch 5: 27.
+- Batch 6 (2026-11-28, save 20261128T0256): tome, atom_collider, islands, vault, construction_buildings, slab, sushi_station, owl, advice_fish, grimoire. DRAFT (replaced the auto drafts).
+  - Gaps found: tome owner unassigned; Resource Grade 0/870 not checked; atoms show 61.9M particles unspent vs cheapest 93.6K (verify in game), lookup hides Boron/Helium/Neon costs; Fractal (570 bottles, 512 now, ~7 days) vs Griffy "skip Fractal for candy buyers" = Zack's call, trash balance not in parser; vault + advice fish costs shown without currency balance; guild awning ownership unknown; construction costs/build time + cog board not in lookup; slab has no cheapest-missing list; lookup.py crashes on sushi_station (render_levels int >= str, same bug as gaming), so its 88 creator rows went unseen and its block is my read; sushi fuel at cap + 4.22T bucks idle; owl nextLvReq=0 so feathers per restart unknown; advice fish has no creator order (Spelunk-first is my read); grimoire bone type per upgrade not shown, 107 levels to the 3,150 unlock.
+  - Fixed same day (Zack): glimbo -> Autisticles (jobs.yaml minehead job systems: [minehead, glimbo]).
+- Next: batch 7 = beanstalk, greenstacks, gallery, zenith_market, coral_reef, clam_work, tesseract, emperor, cape_vine, glimbo. Remaining partial after batch 6: 17.

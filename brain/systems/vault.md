@@ -14,25 +14,25 @@ description: Vault: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 6 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
 role: independent
-goal: "Additional money is valuable for vault progression."
+goal: "Coins into the cheapest open vault rows that feed live goals (Kitchen Dream-mare, Bubba, Wicked Smart)"
 coverage: sourced
 ladder:
-  - {tier: 1, target: "Additional money is valuable for vault progression.", source: "Griffy", date: "2026-10-04"}   # N5yJ4-tZLbY 00:29:09
-  - {tier: 2, target: "Prioritize sailing speed and artifact find chance because current sailing speed is very poor.", source: "Griffy", date: "2026-09-21"}   # KHuU392EW-4 00:59:32
-  - {tier: 3, target: "Improve carry capacity while the account lacks Ram.", source: "Griffy", date: "2026-09-21"}   # KHuU392EW-4 01:00:04
-objective: {rung: 1, now: "375", target: "387", eta_days: null}
-check: {cadence: weekly, who: "Autistopher", look_at: "python3 tools/lookup.py vault"}
-buffs: []   # only filled for systems behind / needing a push
+  - {tier: 1, target: "Kitchen Dream-mare 315 -> 327, Cooking Knowledge 400 -> 428", source: "Griffy + AutoReview", date: "2026-03-27"}
+  - {tier: 2, target: "Glimbo VIP pass: +2 max vault level per trade (S tier)", source: "Pulse", date: "2026-10-21"}
+  - {tier: 3, target: "Rest of open rows by AutoReview target (17 open, 73/90 maxed)", source: "AutoReview", date: "2026-11-28"}
+objective: {rung: 1, now: "73/90 maxed, 10.1K total levels", target: "Kitchen Dream-mare 327", eta_days: null}
+check: {cadence: daily, who: "Autistopher", look_at: "coins vs cheapest open row (Topheavy Charms 3.47e30)"}
+buffs:
+  - {source: "Guild awnings +25 max level (A tier)", world: null, owned: null, now: null, next: null, owner: "Autistopher"}
 triggers: []
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Additional money is valuable for vault progression.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: totalUpgradeLevels=10.1K; costReduction:
+  - {do: "Buy Kitchen Dream-mare, then cheapest open row the coins allow", stat: "meal speed", gain_pct: null, unblocks: [], source: "Griffy 2026-03-27 0qlwJ8Qm-4w 00:07:44", active_min: 3, wait_hr: null, cost: "1.22e32 coins", urgent: false}
+# GAP: coin balance not shown next to vault costs; whether guild awnings are owned unknown
 ```
 <!-- GOAL:END -->
 

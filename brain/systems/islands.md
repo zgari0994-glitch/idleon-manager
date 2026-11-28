@@ -15,25 +15,26 @@ description: Islands: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 6 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
 role: independent
-goal: "Wait until Seasalt Island is unlocked before making this fishing push."
+goal: "Hold bottles for Fractal (570), never spend on Rando; collect trash for island stamps"
 coverage: sourced
 ladder:
-  - {tier: 1, target: "Wait until Seasalt Island is unlocked before making this fishing push.", source: "Griffy", date: "2026-10-16"}   # yxgmoZQ59mY 00:06:48
-  - {tier: 2, target: "Prioritize Seasalt Island over gambling on Fractal's Nothing Trophy because sea salt helps gear upgrades.", source: "Griffy", date: "2026-09-21"}   # KHuU392EW-4 00:58:00
-  - {tier: 3, target: "Buy missing island stamps before duplicates; additional stamps also improve Elemental Sorcerer damage.", source: "Griffy", date: "2026-09-21"}   # KHuU392EW-4 00:58:30
-objective: {rung: 1, now: "0", target: "1", eta_days: null}
-check: {cadence: daily, who: "Autistastic", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+  - {tier: 1, target: "Collect trash, buy missing island stamps first (Golden Sixes)", source: "Griffy", date: "2026-09-21"}
+  - {tier: 2, target: "Unlock Fractal: 570 bottles", source: "data", date: "2026-11-28"}
+  - {tier: 3, target: "Shimmer weekly points -> skill efficiency", source: "Griffy", date: "2026-04-23"}
+objective: {rung: 2, now: "512 / 570 bottles, +9/day", target: "570", eta_days: 7}
+check: {cadence: weekly, who: "Autistastic", look_at: "bottles, trash, Shimmer points"}
+buffs: []
+triggers:
+  - {when: "bottles >= 570", then: "unlock Fractal (if Zack confirms)"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Wait until Seasalt Island is unlocked before making this fishing push.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: allShimmerBonus=4, bottles=512, bottlesPerDay=9, islandsUnlocked=5, numberOfDaysAfk=6, trashPerDay=11, trashPerDaysAfk=56; list: 6 items, unlocked 5
+  - {do: "Collect trash; buy any missing island stamp", stat: "stamps", gain_pct: null, unblocks: [], source: "Griffy 2026-09-21 KHuU392EW-4 00:58:30", active_min: 3, wait_hr: null, cost: null, urgent: false}
+  - {do: "Spend weekly Shimmer points on skill efficiency", stat: "skill eff", gain_pct: null, unblocks: [], source: "Griffy 2026-04-23 kD7KZ5zX6Ss 00:15:16", active_min: 3, wait_hr: null, cost: null, urgent: false}
+# GAP: Griffy 2026-04-23 says skip Fractal + Crystal for candy-buying accounts; Crystal already unlocked. Fractal yes/no = Zack's call. Trash balance not in parser.
 ```
 <!-- GOAL:END -->
 
