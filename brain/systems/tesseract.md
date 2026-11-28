@@ -26,6 +26,7 @@ ladder:
   - {tier: 2, target: "Inviting a Plus One above 200 (extra mob spawn)", source: "Pulse", date: "2026-09-13"}
   - {tier: 3, target: "2-min claims until claim multi ~50x, then the big claims", source: "Pulse", date: "2026-10-20"}
   - {tier: 4, target: "2050 (Arcanist Damage IV), 2350 (Eternal Stream), 2600, 2750 (Fractal Tesseract)", source: "data", date: "2026-11-28"}
+now_path: "tesseract.totalUpgradeLevels"
 objective: {rung: 1, now: "1932 total levels", target: 2000, eta_days: null}
 check: {cadence: daily, who: "Autistocat", look_at: "tesseract total levels + cheapest open upgrades"}
 buffs: []

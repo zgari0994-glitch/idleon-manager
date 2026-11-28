@@ -36,3 +36,17 @@ Rollout: (1) standard [done 2026-11-27] -> (2) audit all brain/systems vs standa
 - Owner = GOAL `check.who` (wins over jobs.yaml/system_index); multi-owner = shown on each named card as "shared: Zack decides". Mismatches print in `python3 model/goals.py`.
 - Retire: every rung done -> "maintained", tasks leave scoring. Numeric now >= target -> TARGET HIT flag. STALL: data fingerprint (data_map path) unchanged `pulls_no_progress` pulls (state/goal_history.json, recorded by the Action) or eta_days > eta_over_days.
 - GOAL tasks feed model/score.py (active_min = minutes, wait_hr, urgent or role blocker = urgency, unblocks add reach). Policy: brain/goal_policy.yaml.
+
+## Phase C A+B: live now, real stall, machine triggers, goal challenge (Zack 2026-11-28)
+- `now_path:` (top level of the GOAL yaml, optional `now_op: "<="` for spend-down targets) is resolved by model/livepath.py every pull.
+  Spec: `a.b[*].c|reducer` on the parsed account, `@Autiszemo.path` on a character, `metric:name` (syscheck2.metrics), or a number.
+  Tokens: key, `*`, `[N]`, `[*]`, `[k=v]`, `[k~v]` (contains), `[k>N]`, `[k<N]`. Reducers: min max sum len count first.
+- No now_path -> `now: not in save (last written: ...)`. Path set but missing -> `not in save (path ...)`. Never None, never a guess.
+- Stall fingerprint = hash of the live now only, history in state/goal_now_history.json (old goal_history.json retired: whole-blob hashes moved with timers). Data stall needs N fresh pulls to arm.
+- TARGET HIT (live): when now meets target (op, default >=) the rung is done and the next open rung becomes the target on the card; last rung = confirm maintained. Zack updates the md ladder when convenient.
+- Triggers (brain/triggers.yaml rows and GOAL block `triggers:`): `when_path`, `op` (>= <= > < == != truthy), `value` (number, path or metric:name), optional `target:` system. Fired -> "DO NOW: then" (GOAL: flag on the goal line); armed -> "next: when (now / value)"; when_path null -> check in game.
+- Goal challenge: objectives recompute each pull. Zack's plans (brain/plans.yaml) are never removed by the model; they show "challenge?" when a plan carries `challenge: {why, source}` (a sourced order found in research) or one of his scored tasks beats the plan's task by challenge_margin (15). Plans with no `task:` only get the sourced flag.
+- Tie-break: equal scores sort by impact x reach (`tie`), no effort floor.
+- Coverage 2026-11-28 (save 20261128T0256): 27/105 live: dungeons, cards, cog_board (<=), arcade (<=), grimoire, stamps, tome, tesseract, greenstacks, slab, islands, royal_armory, emperor, armor_sets, menagerie, library, equinox, clam_work, sushi_station, zenith_market, vault, spelunk, friend_bonuses, atom_collider, bribes, caverns, breeding (maxShinyLevel = my read).
+  Gate fails (written now did not match a candidate path, left unmapped): alchemy_vials (vials[level>0] 80 vs 77), saltlick, statues. The rest: Step C/D.
+- Trigger paths set: Gambit basePoints (my read on the field), Explorer = villagers[0].level, Bravery hours + rewardMulti, Crucible maxCrucibleLevel > 0, dungeons progress vs rankReq, Coralcave Guardian stars, new Fractal row (islands.bottles >= 570 -> trash shop list, Step D). Still null: Trapper Drone, cog booster XP, sneaking x2, faster-shiny pets all 24, last bubbles.

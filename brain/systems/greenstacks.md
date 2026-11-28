@@ -24,6 +24,7 @@ ladder:
   - {tier: 1, target: "200 greenstacks", source: "AutoReview", date: "2026-11-28"}
   - {tier: 2, target: "250 greenstacks (Griffy bingo square 230+)", source: "AutoReview + Griffy", date: "2024-10-17"}
   - {tier: 3, target: "400 greenstacks", source: "Pulse", date: "2026-11-16"}
+now_path: "storage.greenStacks|len"
 objective: {rung: 1, now: 182, target: 200, eta_days: null}
 check: {cadence: daily, who: "Autistotle", look_at: "storage.greenStacks count + closest items (model/greenstacks.py)"}
 buffs: []

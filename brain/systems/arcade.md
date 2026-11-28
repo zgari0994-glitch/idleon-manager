@@ -25,6 +25,8 @@ ladder:
   - {tier: 1, target: "Spend 292 balls on S tier (Tab 1 talent points first)", source: "Griffy", date: "2025-01-02"}
   - {tier: 2, target: "Spirit Reindeer companion: 2x gold ball shop bonuses (0 -> 1)", source: "Toolbox", date: "2026-11-27"}
   - {tier: 3, target: "First omega ball -> S tier bonus", source: "Pulse", date: "2026-10-21"}
+now_path: "arcade.balls"
+now_op: "<="
 objective: {rung: 1, now: 292, target: 0, eta_days: null}
 check: {cadence: daily, who: "Autisticles", look_at: "balls 292, gold 47, cosmic 53"}
 buffs:

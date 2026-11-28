@@ -24,6 +24,7 @@ ladder:
   - {tier: 1, target: "Kitchen Dream-mare 315 -> 327, Cooking Knowledge 400 -> 428", source: "Griffy + AutoReview", date: "2026-03-27"}
   - {tier: 2, target: "Glimbo VIP pass: +2 max vault level per trade (S tier)", source: "Pulse", date: "2026-10-21"}
   - {tier: 3, target: "Rest of open rows by AutoReview target (17 open, 73/90 maxed)", source: "AutoReview", date: "2026-11-28"}
+now_path: "upgradeVault.totalUpgradeLevels"
 objective: {rung: 1, now: "73/90 maxed, 10.1K total levels", target: "Kitchen Dream-mare 327", eta_days: null}
 check: {cadence: daily, who: "Autistopher", look_at: "bank 1.62e33 coins vs cheapest open row (Topheavy Charms 3.47e30)"}
 buffs:

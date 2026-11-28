@@ -281,20 +281,27 @@ def metrics():
 
 
 def c_triggers(name):
+    """brain/triggers.yaml (Phase C B, 2026-11-28): when_path + op + value read live every pull (model/livepath.py).
+    Card = row owner, or the owner of `target:` system when set. Fired = DO NOW; armed = next; no path = check in game."""
     f = ROOT / 'brain' / 'triggers.yaml'
     if not f.exists(): return None
-    T = yaml.safe_load(open(f)) or {}; m = metrics(); subs = []
+    import livepath as LP
+    T = yaml.safe_load(open(f)) or {}; subs = []
+    try:
+        import goals as GL; G = GL.load()['systems']
+    except Exception: G = {}
     for t in T.get('triggers') or []:
-        if name not in (t.get('owner') or '').split(','): continue
-        cur = m.get(t.get('metric')); goal = t.get('at')
-        if isinstance(goal, str) and goal in m: goal = m[goal]
-        if cur is None or goal is None:
-            subs.append(f"[{t['system']}] {t['when']}: no metric yet, check in game -> {t['then']}"); continue
-        hit = cur >= goal
-        subs.append(f"[{t['system']}] {'HIT' if hit else 'waiting'}: {t['when']} ({short(cur)} / {short(goal)}) -> {t['then'] if hit else 'then: ' + t['then']} ({t.get('source', 'my read')})")
+        g = G.get(t.get('target')) or {} if t.get('target') else {}
+        own = g.get('owners') if g.get('owners') else [x.strip() for x in str(t.get('owner') or '').split(',')]
+        if name not in own: continue
+        st, cur, val = LP.check(t); src = t.get('source', 'my read'); tag = f"[{t['system']}]"
+        if st == 'fired': subs.append(f"{tag} DO NOW: {t['then']} (fired: {t['when']}, {LP.fmt(cur)} / {LP.fmt(val)}) ({src})")
+        elif st == 'armed': subs.append(f"{tag} next: {t['when']} ({LP.fmt(cur)} / {LP.fmt(val)}) -> {t['then']} ({src})")
+        elif st == 'missing': subs.append(f"{tag} next: {t['when']}: {t.get('when_path')} not in save, check in game -> {t['then']} ({src})")
+        else: subs.append(f"{tag} next: {t['when']}: no path yet, check in game -> {t['then']} ({src})")
     if not subs: return None
-    hits = sum(1 for s in subs if ' HIT:' in s)
-    return ('triggers', f"Triggers: {hits} hit, {len(subs) - hits} waiting (do the HIT ones now)", sorted(subs, key=lambda s: ' HIT:' not in s))
+    fired = sum(' DO NOW:' in s for s in subs)
+    return ('triggers', f"Triggers: {fired} fired (do now), {len(subs) - fired} next", sorted(subs, key=lambda s: ' DO NOW:' not in s))
 
 
 # ---------- Rotation-aware weeks (pending L12) ----------

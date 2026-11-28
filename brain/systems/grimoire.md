@@ -24,6 +24,7 @@ ladder:
   - {tier: 1, target: "3,150 total upgrades (unlocks Talents for Me, not for Thee, 40.2K type-2 bones)", source: "AutoReview", date: "2026-11-28"}
   - {tier: 2, target: "Damage + accuracy so AFK Info hits the target map", source: "Griffy", date: "2026-10-16"}
   - {tier: 3, target: "4,100 then 4,600 total; Ribbon Winning 32 -> 50, Grey Tome Book 50 -> 90", source: "AutoReview", date: "2026-11-28"}
+now_path: "grimoire.totalUpgradeLevels"
 objective: {rung: 1, now: "3,043", target: "3,150", eta_days: null}
 check: {cadence: daily, who: "Autiszemo + Autistopher", look_at: "total upgrades, bones 309M/290M/291M/1.58B"}
 buffs: []

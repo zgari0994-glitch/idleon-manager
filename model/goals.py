@@ -8,9 +8,11 @@ Usage: python3 model/goals.py            summary + problems, writes model/goals.
 import re, json, sys, hashlib, datetime as dt
 from pathlib import Path
 import yaml
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import livepath as LP
 
 ROOT = Path(__file__).resolve().parent.parent
-SYS = ROOT / 'brain' / 'systems'; OUT = ROOT / 'model' / 'goals.json'; HIST = ROOT / 'state' / 'goal_history.json'
+SYS = ROOT / 'brain' / 'systems'; OUT = ROOT / 'model' / 'goals.json'; HIST = ROOT / 'state' / 'goal_now_history.json'  # v2: live now only (old goal_history.json retired 2026-11-28)
 POL = yaml.safe_load((ROOT / 'brain' / 'goal_policy.yaml').read_text()) or {}
 IDX = yaml.safe_load((ROOT / 'model' / 'system_index.yaml').read_text()) or {}
 JOBS = yaml.safe_load((ROOT / 'model' / 'jobs.yaml').read_text()) or {}
@@ -57,12 +59,21 @@ def short(s, n=110):
     s = re.sub(r'\s+', ' ', str(s)).strip(); return s if len(s) <= n else s[:n - 3] + '...'
 
 
-def fingerprint(slug):
-    D = data()
-    if not D: return None
-    try: v = D.system(slug)
+def now_spec(y): return y.get('now_path') or (y.get('objective') or {}).get('now_path')
+
+
+def live_now(y):
+    s = now_spec(y)
+    if not s: return None
+    try: return LP.resolve(s)
     except Exception: return None
-    return hashlib.sha1(json.dumps(v, sort_keys=True, default=str).encode()).hexdigest()[:12]
+
+
+def fingerprint(slug, y=None):
+    """Stall fingerprint = the live now value only (Phase C A, 2026-11-28), so timers can't fake progress. No now_path = None."""
+    if y is None: y = parse()[0].get(slug) or {}
+    v = live_now(y)
+    return None if v is None else hashlib.sha1(json.dumps(v, sort_keys=True, default=str).encode()).hexdigest()[:12]
 
 
 def hist():
@@ -94,31 +105,50 @@ def evaluate(slug, y, H):
     open_ = [t for t in lad if not tier_done(t) and t.get('tier', 0) >= start] or [t for t in lad if not tier_done(t)]
     cur = open_[0] if open_ else None
     on_obj = bool(cur) and cur.get('tier') == obj.get('rung')
-    now = obj.get('now') if on_obj else ('rung moved past the written objective: update now' if cur else 'all rungs done')
+    spec = now_spec(y); live = live_now(y) if spec else None
+    written = obj.get('now') if on_obj else None
+    if not cur: now, now_src = 'all rungs done', 'done'
+    elif spec and live is not None: now, now_src = live, 'live'
+    elif spec: now, now_src = f'not in save (path {spec})', 'missing'
+    else: now, now_src = 'not in save' + (f' (last written: {short(written, 50)})' if written not in (None, '') else ''), 'written'
     target = (obj.get('target') if on_obj and obj.get('target') is not None else None) or (cur or {}).get('target')
-    hit = num(now) is not None and num(target) is not None and num(now) >= num(target)
+    op = str(y.get('now_op') or '>=')
     kind, names = owners(chk.get('who'))
     flags = []
-    if hit: flags.append('TARGET HIT: confirm next rung')
+    if now_src == 'live' and num(now) is not None and num(target) is not None and LP.OPS.get(op, LP.OPS['>='])(num(now), num(target)):
+        nxt = next((t for t in open_ if t.get('tier', 0) > cur.get('tier', 0)), None)
+        if nxt:
+            flags.append(f"TARGET HIT (live {LP.fmt(now)} {op} {LP.fmt(target)}): rung {cur.get('tier')} done, now rung {nxt.get('tier')} -> {short(nxt.get('target'), 60)}")
+            cur, target = nxt, nxt.get('target')
+        else: flags.append(f"TARGET HIT (live {LP.fmt(now)} {op} {LP.fmt(target)}): last rung done, confirm maintained")
     eta, over = num(obj.get('eta_days')), num(stall.get('eta_over_days'))
     if eta is not None and over is not None and eta > over: flags.append(f'STALL: ETA {eta:g}d > {over:g}d')
-    n = int(stall.get('pulls_no_progress') or 0); fp = [x[1] for x in H.get(slug, [])][-(n + 1):] if n else []
-    if n and len(fp) == n + 1 and fp[0] is not None and len(set(fp)) == 1: flags.append(f'STALL: data unchanged {n} pulls')
+    n = int(stall.get('pulls_no_progress') or 0); fp = [x[1] for x in H.get(slug, [])][-(n + 1):] if n and spec else []
+    if n and len(fp) == n + 1 and fp[0] is not None and len(set(fp)) == 1: flags.append(f'STALL: live now unchanged {n} pulls')
+    trig = []
+    for t in (y.get('triggers') or []):
+        if not isinstance(t, dict): continue
+        st, c, v = LP.check(t); trig.append({**t, 'state': st, 'cur': c, 'val': v})
+        if st == 'fired': flags.append(f"TRIGGER fired ({short(t.get('when'), 50)}): {short(t.get('then'), 80)}")
     tasks = [t for t in (y.get('tasks') or []) if isinstance(t, dict) and t.get('do')]
     finished = cur is None
     return {'slug': slug, 'title': slug.replace('_', ' ').title(), 'role': str(y.get('role') or '?'), 'goal': y.get('goal'),
             'section': (IDX.get(slug, {}).get('autoreview') or [slug.replace('_', ' ').title()])[0],
-            'rung': (cur or {}).get('tier'), 'rungs': len(lad), 'now': now, 'target': target, 'src': (cur or {}).get('source'),
+            'rung': (cur or {}).get('tier'), 'rungs': len(lad), 'now': now, 'now_src': now_src, 'now_path': spec, 'op': op,
+            'target': target, 'src': (cur or {}).get('source'),
             'finished': finished, 'flags': flags, 'cadence': str(chk.get('cadence') or 'daily'), 'look_at': chk.get('look_at'),
             'who': chk.get('who'), 'owner_kind': kind, 'owners': names, 'minigame': slug in MINI,
-            'triggers': [t for t in (y.get('triggers') or []) if isinstance(t, dict)], 'tasks': tasks}
+            'triggers': trig, 'tasks': tasks}
 
 
 def summary(g):
     if g['finished']: return f"{g['title']}: maintained (every rung done)"
     nxt = g['tasks'][0] if g['tasks'] else None
-    s = f"{g['title']} [{g['role']}] rung {g['rung']}/{g['rungs']}: {short(g['now'], 90)} -> {short(g['target'], 90)}"
+    nowtxt = LP.fmt(g['now']) + (' (live)' if g.get('now_src') == 'live' else '')
+    s = f"{g['title']} [{g['role']}] rung {g['rung']}/{g['rungs']}: now {short(nowtxt, 90)} -> {short(g['target'], 90)}"
     if nxt: s += f". Next: {short(nxt['do'])} [{nxt.get('source') or '?'}]" + (f" (+{len(g['tasks']) - 1} more scored)" if len(g['tasks']) > 1 else '')
+    arm = [t for t in g.get('triggers') or [] if t.get('state') == 'armed']
+    if arm: s += f" | next: {short(arm[0].get('when'), 60)} ({LP.fmt(arm[0]['cur'])} / {LP.fmt(arm[0]['val'])})"
     if g['flags']: s += ' | ' + ' | '.join(g['flags'])
     return s
 
@@ -142,7 +172,7 @@ def build():
         if g['owner_kind'] in ('one', 'multi') and jo and set(jo) != set(g['owners']):
             mism.append(f"{s}: GOAL check.who {', '.join(NICK.get(n, n) for n in g['owners'])} vs system_index {', '.join(NICK.get(n, n) for n in jo)} (check.who wins)")
         if g['owner_kind'] == 'multi': multi.append(f"{s}: {g['who']}")
-    o = {'save': SAVE, 'day': str(DAY), 'systems': G, 'problems': problems, 'owner_mismatch': mism, 'multi_owner': multi}
+    o = {'v': 2, 'save': SAVE, 'day': str(DAY), 'systems': G, 'problems': problems, 'owner_mismatch': mism, 'multi_owner': multi}
     OUT.write_text(json.dumps(o, indent=1, default=str)); return o
 
 
@@ -151,7 +181,7 @@ def load():
     global _G
     if _G is None:
         try:
-            o = json.loads(OUT.read_text()); _G = o if o.get('save') == SAVE else build()
+            o = json.loads(OUT.read_text()); _G = o if o.get('save') == SAVE and o.get('v') == 2 else build()
         except Exception: _G = build()
     return _G
 
@@ -210,10 +240,10 @@ def account_lines():
 
 def record(save=SAVE):
     H = hist(); changed = False
-    for s in parse()[0]:
+    for s, y in parse()[0].items():
         h = H.setdefault(s, [])
         if h and h[-1][0] == save: continue
-        h.append([save, fingerprint(s)]); H[s] = h[-8:]; changed = True
+        h.append([save, fingerprint(s, y)]); H[s] = h[-8:]; changed = True
     if changed: HIST.parent.mkdir(exist_ok=True); HIST.write_text(json.dumps(H, indent=0))
     return H
 
@@ -222,7 +252,7 @@ if __name__ == '__main__':
     if '--record' in sys.argv: record()
     o = build(); G = o['systems']
     print(f"save {SAVE} ({DAY:%a}): {len(G)} systems wired, {sum(g['finished'] for g in G.values())} maintained, "
-          f"{sum(bool(g['flags']) for g in G.values())} flagged, {sum(len(g['tasks']) for g in G.values() if not g['finished'])} tasks to score")
+          f"{sum(g['now_src'] == 'live' for g in G.values())} live now, {sum(bool(g['flags']) for g in G.values())} flagged, {sum(len(g['tasks']) for g in G.values() if not g['finished'])} tasks to score")
     for k in ('problems', 'owner_mismatch', 'multi_owner'):
         if o[k]: print(f"{k} ({len(o[k])}):"); print('\n'.join('  ' + x for x in o[k]))
     for g in G.values():

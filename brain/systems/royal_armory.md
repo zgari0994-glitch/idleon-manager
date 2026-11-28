@@ -24,6 +24,7 @@ ladder:
   - {tier: 1, target: "Armory levels 226 -> 230 (next shelf)", source: "Toolbox", date: "2026-11-27"}
   - {tier: 2, target: "Unlock Resource Grades (cost 61.8K)", source: "Toolbox", date: "2026-11-27"}
   - {tier: 3, target: "Royal Talent Points I 66 -> 200", source: "Toolbox", date: "2026-11-27"}
+now_path: "royalGuardian.armory.totalLevels"
 objective: {rung: 1, now: 226, target: 230, eta_days: null}
 check: {cadence: daily, who: "Autistastic", look_at: "Royal Guardian orbs, outposts, marble"}
 buffs:

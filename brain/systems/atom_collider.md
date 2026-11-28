@@ -25,6 +25,7 @@ ladder:
   - {tier: 1, target: "Boron 40 -> 50 (alchemy upgrading)", source: "Griffy", date: "2026-04-23"}
   - {tier: 2, target: "Aluminium Stamp Supercharger 0 -> 50 (printer output feeds it)", source: "Griffy", date: "2026-01-29"}
   - {tier: 3, target: "AutoReview targets: Neon 32->50, Carbon 30->50, Fluoride 30->50, Oxygen 28->50, Magnesium 10->50", source: "AutoReview", date: "2026-11-28"}
+now_path: "atoms.atoms[name~Boron].level|first"
 objective: {rung: 1, now: "Boron 40/50 (next 410M), particles 61.9M", target: "Boron 50", eta_days: null}
 check: {cadence: daily, who: "Autistastic", look_at: "particles vs cheapest atom; Boron cost"}
 buffs:

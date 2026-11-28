@@ -27,6 +27,7 @@ ladder:
   - {tier: 3, target: "doubled slots (top left, bottom right) hold whichever multi gives the most DR", source: "Pulse", date: "2026-09-13"}
   - {tier: 4, target: "improve card collection to build card sets before buying more exaltations", source: "Griffy", date: "2026-10-28"}
   - {tier: 5, target: "accuracy/damage cards: Wood Mushroom 5 -> 6 (14.4K of 151K), Bloodbone 5 -> 6 (30.5K of 227K)", source: "Griffy 2025-12-15 / 2026-05-03; counts Toolbox", date: "2026-05-03"}
+now_path: "cards.Coralcave_Guardian.amount"
 objective: {rung: 1, now: 321, target: 400001, eta_days: null}
 check: {cadence: weekly, who: "Autistronaut", look_at: "DR multi card progress, doubled slots, preset per role"}
 done:

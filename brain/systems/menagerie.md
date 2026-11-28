@@ -25,6 +25,7 @@ ladder:
   - {tier: 1, target: "Rank 6 -> 7 (needs 3 shells, have 0)", source: "Toolbox", date: "2026-11-27"}
   - {tier: 2, target: "Mission 6: Worship best waves 961 -> 1100", source: "Toolbox", date: "2026-11-27"}
   - {tier: 3, target: "Buy next Black Star (owned 2)", source: "Pulse", date: "2026-11-16"}
+now_path: "menagerie.shells"
 objective: {rung: 1, now: 0, target: 3, eta_days: null}
 check: {cadence: daily, who: "Autisticles", look_at: "lumi (6.49K, +241), shells, missions"}
 buffs:

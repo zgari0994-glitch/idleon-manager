@@ -24,6 +24,7 @@ ladder:
   - {tier: 1, target: "No Tome-only pushes; rank follows account progress", source: "Griffy", date: "2026-04-23"}
   - {tier: 2, target: "Gaming is the main live score driver while others near caps", source: "Griffy", date: "2026-07-29"}
   - {tier: 3, target: "Biggest gaps: Total Bubble LV 310/1750, Lumi Menagerie Rank 144/1200, Arcade Gold Ball shop 155/1200, Menagerie boosts 139/1088, Resource Grade 0/870", source: "data", date: "2026-11-28"}
+now_path: "tome.totalPoints"
 objective: {rung: 1, now: "36,230 / 65,900 points", target: null, eta_days: null}
 check: {cadence: weekly, who: "Zack (weekly review, no owner, Zack 2026-11-28)", look_at: "total points + top 5 gaps"}
 buffs: []

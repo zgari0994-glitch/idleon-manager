@@ -26,6 +26,7 @@ ladder:
   - {tier: 2, target: "Total stamp levels 11,000", source: "Toolbox", date: "2026-11-27"}
   - {tier: 3, target: "Total stamp levels 13,000", source: "Toolbox", date: "2026-11-27"}
   - {tier: 4, target: "Crystalline Stamp exalted", source: "Griffy", date: "2026-10-28"}
+now_path: "stamps.*[*].level|sum"
 objective: {rung: 2, now: 9919, target: 11000, eta_days: null}
 check: {cadence: daily, who: "Autistopher", look_at: "next stamp buy vs reserves.yaml (souls got bricked once)"}
 buffs:

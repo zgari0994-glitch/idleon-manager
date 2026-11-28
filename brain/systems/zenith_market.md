@@ -25,6 +25,7 @@ ladder:
   - {tier: 1, target: "Cheap levels: Lamp Boost 6, True Zen 10, Double Cluster 15, Bubble Boost 15", source: "Pulse (cheap upgrades worthwhile)", date: "2026-11-15"}
   - {tier: 2, target: "Super Dupers Lv1 (50) and Kruk Bubbles Lv3 (74)", source: "my read", date: "2026-11-28"}
   - {tier: 3, target: "True Zen toward 250 (Pulse pushes his very high)", source: "Pulse", date: "2026-11-15"}
+now_path: "zenith.clusters"
 objective: {rung: 1, now: "11 clusters; TRUE ZEN 8, DOUBLE CLUSTER 3, KRUK 2, LAMP 1, rest 0", target: "tier 1 buys", eta_days: null}
 check: {cadence: daily, who: "Autisticles", look_at: "zenith.market costs vs clusters"}
 buffs: []

@@ -25,6 +25,8 @@ ladder:
   - {tier: 1, target: "Scrap junk: 126 spare cogs, 0 free small-cog slots; Griffy rates cog inventory F, just scrap cogs", source: "Griffy", date: "2024-04-27"}   # 25bteJumfjg 00:08:43, OLD
   - {tier: 2, target: "Board EXP mult above 1 (now 1, flaggy mult 4): place EXP cogs/boosters", source: "my_read", date: "2026-11-28"}
   - {tier: 3, target: "Build rate 6.62T -> next building tier need (from buildings.py)", source: "my_read", date: "2026-11-28"}
+now_path: "construction.spareCogs|len"
+now_op: "<="
 objective: {rung: 1, now: 126, target: 0, eta_days: null}   # spares to scrap/sort
 check: {cadence: weekly, who: "Autistastic", look_at: "construction.boardMultipliers, smallCogs.freeSlots, spareCogs"}
 buffs: []   # self-running

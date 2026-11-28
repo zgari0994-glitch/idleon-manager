@@ -24,6 +24,7 @@ ladder:
   - {tier: 1, target: "Book the card's #1-9 ranked talents to 328 (e.g. Archlord Of The Pirates 223, Dank Ranks 213)", source: "AutoReview", date: "2026-11-28"}
   - {tier: 2, target: "1000 checkouts for Checkout Takeout: +5 max book Lv", source: "Griffy", date: "2026-07-19"}
   - {tier: 3, target: "Talent Library building up for checkout speed (1362 now)", source: "Griffy", date: "2026-10-28"}
+now_path: "libraryTimes.bookCount"
 objective: {rung: 1, now: "58 books, max Lv 328, min 153", target: null, eta_days: null}
 check: {cadence: daily, who: "Autistopher", look_at: "book count, card's rank list"}
 buffs:

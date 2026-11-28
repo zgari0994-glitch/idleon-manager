@@ -14,11 +14,11 @@ Each step: digest first, Zack OK, build in one pass, dry run, commit + push. Est
 - Trophies (minigames): only have it / not yet, no how-to.
 
 ## Steps (in order)
-A. Live "now" + real stall [~8]
+A. Live "now" + real stall [~8] DONE 2026-11-28 (docs/planners.md Phase C A+B)
    - Add `now_path` per GOAL block (data_map path or a small resolver in goals.py), refreshed every pull. No path -> "now: not in save" (never None).
    - Stall fingerprint = the now_path value only (not the whole system blob), so timers can't fake progress. Fixes gap 8.
    - TARGET HIT works anywhere now + target are numbers.
-B. Machine triggers + goal challenge [~6]
+B. Machine triggers + goal challenge [~6] DONE 2026-11-28
    - Trigger rows get `when_path` + op/value; fired triggers put "then" on the target system owner's card, armed ones show as "next".
    - Rule: objectives recomputed each pull; Zack-written objectives kept but flagged "challenge?" when a sourced order or score says it's inefficient. Update CLAUDE.md LAWS/Card jobs, docs/planners.md, Project memory, give Zack Project description text.
    - Optional: tie-break equal scores by value (impact x reach) so the quick top 10 orders sensibly. No effort floor.

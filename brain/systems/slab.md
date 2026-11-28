@@ -24,6 +24,7 @@ ladder:
   - {tier: 1, target: "1,600 items (Slabo bonuses per 100)", source: "Griffy", date: "2026-09-21"}
   - {tier: 2, target: "Easy grabs: new fish, cheap catching tool, marbles, Bone Meal, Icebreaker", source: "Griffy", date: "2026-10-28"}
   - {tier: 3, target: "Quest items: Walupiggy Treasure Hunts 1-4, Royal Worm, Whattso, Worldo", source: "AutoReview", date: "2026-11-28"}
+now_path: "looty.lootedItems"
 objective: {rung: 1, now: "1,560 / 1,938 (357 missing)", target: "1,600", eta_days: null}
 check: {cadence: weekly, who: "Autistabish", look_at: "looted count"}
 buffs: []

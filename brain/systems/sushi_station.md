@@ -25,6 +25,7 @@ ladder:
   - {tier: 1, target: "Fuel off cap: Fuel Capacity III 0 -> 1 (319M), then Fuel Capacity II/I, Fastburn I/II", source: "data + AutoReview", date: "2026-11-28"}
   - {tier: 2, target: "Bonus tiers: triple Bubba meat slices (Griffy's top pick), triple spelunking POW", source: "Griffy", date: "2026-04-01"}
   - {tier: 3, target: "Griffy high-tier strategy (tier 54, Perfectos) needs research level 52 (Heat of the East Wind)", source: "Griffy", date: "2026-04-01"}
+now_path: "sushiStation.currency.bucks"
 objective: {rung: 1, now: "fuel 546K/546K cap, bucks 4.22T, +393B/hr, 0 Perfectos", target: "Fuel Capacity III 1", eta_days: 0}
 check: {cadence: daily, who: "Autisticles", look_at: "fuel vs cap, bucks vs cheapest upgrade"}
 buffs:

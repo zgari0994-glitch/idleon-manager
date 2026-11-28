@@ -25,6 +25,7 @@ ladder:
   - {tier: 2, target: "Prehistoric Set (W7 skill EXP)", source: "Toolbox", date: "2026-11-27"}
   - {tier: 3, target: "Emperor Set (ribbons + exalted stamps multi)", source: "Toolbox", date: "2026-11-27"}
   - {tier: 4, target: "Secret Set (gold food), Godshard Set (summoning winners); 19/19 sets", source: "Toolbox", date: "2026-11-27"}
+now_path: "armorSmithy.unlockedSets|len"
 objective: {rung: 1, now: "15/19 sets unlocked", target: 19, eta_days: null}
 check: {cadence: weekly, who: "Autistastic", look_at: "missing parts per set (model/armor.py)"}
 buffs:

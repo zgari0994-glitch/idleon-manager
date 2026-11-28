@@ -25,6 +25,7 @@ ladder:
   - {tier: 1, target: "Collect trash, buy missing island stamps first (Golden Sixes)", source: "Griffy", date: "2026-09-21"}
   - {tier: 2, target: "Unlock Fractal: 570 bottles", source: "data", date: "2026-11-28"}
   - {tier: 3, target: "Shimmer weekly points -> skill efficiency", source: "Griffy", date: "2026-04-23"}
+now_path: "islands.bottles"
 objective: {rung: 2, now: "512 / 570 bottles, +9/day", target: "570", eta_days: 7}
 check: {cadence: weekly, who: "Autistastic", look_at: "bottles, trash, Shimmer points"}
 buffs: []

@@ -28,6 +28,7 @@ ladder:
   - {tier: 3, target: "Crucible round 0 -> 250 (max bonuses, ~3 min run); gated by Luminous Menagerie (Ticles)", source: "Pulse 2026-10-19; gate Zack 2026-11-19", date: "2026-10-19"}
   - {tier: 4, target: "shiny pets for extra Infinite Star Signs", source: "Griffy", date: "2026-10-16"}
   - {tier: 5, target: "replace weak Fleeters, keep pushing Pet Arena (max arena now 247)", source: "Griffy", date: "2026-10-16"}
+now_path: "breeding.maxShinyLevel"
 objective: {rung: 1, now: 20, target: 24, eta_days: null}
 check: {cadence: daily, who: "Autistacular", look_at: "eggs not capped, shiny levels on faster-shiny pets, spices claimed, meals"}
 method:

@@ -25,6 +25,7 @@ ladder:
   - {tier: 2, target: "Fountain (cavern 16) pushed: study rate + Fountain EXP first, bucket a bit, treasure boost last", source: "Pulse", date: "2026-11-12"}
   - {tier: 3, target: "Explorer done -> most opals into Studies villager", source: "Griffy", date: "2026-01-29"}
   - {tier: 4, target: "Evertree + Trench layers (Evertree 13 now; Pulse example account at 29)", source: "Pulse", date: "2026-11-16"}
+now_path: "hole.villagers[0].level"
 objective: {rung: 1, now: 15, target: 20, eta_days: null}
 check: {cadence: daily, who: "Autistabish", look_at: "12 lanterns dropped, Bravery run, Bell coins + Lamp push, Gambit points vs 710K"}
 opal_split:             # villager opals now: Explorer 60, Engineer 40, Conjuror 30, Measurer 20, Studies 20

@@ -26,6 +26,7 @@ ladder:
   - {tier: 2, target: "Chucklemire boss (Teal Summoning)", source: "Toolbox", date: "2026-11-27", done: true}   # DONE
   - {tier: 3, target: "Lunarheim boss: +30 meal max Lv, +1 super talent pt, +2 gallery slots", source: "Toolbox", date: "2026-11-27"}
   - {tier: 4, target: "Bizarrio boss: Ethereal sigils, +0.2% Prisma bubble mult each", source: "Toolbox", date: "2026-11-27"}
+now_path: "spelunking.cavesUnlocked"
 objective: {rung: 3, now: "5 caves, best Lv 29/32/40/51/60", target: "Lunarheim boss", eta_days: null}
 check: {cadence: daily, who: "Autistomatic", look_at: "deepest cave Lv, stamina, amber shop next buy (57.8T amber)"}
 buffs:

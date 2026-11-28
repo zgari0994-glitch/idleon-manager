@@ -1,4 +1,5 @@
 {
+ "v": 2,
  "save": "20261128T0256",
  "day": "2026-11-28",
  "systems": {
@@ -10,7 +11,10 @@
    "section": "Achievements",
    "rung": 1,
    "rungs": 3,
-   "now": 0,
+   "now": "not in save (last written: 0)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 2,
    "src": "Toolbox",
    "finished": false,
@@ -26,7 +30,10 @@
    "triggers": [
     {
      "when": "Gaming Superbits unlocked",
-     "then": "achievements become major priority (Griffy 2026-10-16)"
+     "then": "achievements become major priority (Griffy 2026-10-16)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -42,7 +49,7 @@
      "urgent": false
     }
    ],
-   "summary": "Achievements [independent] rung 1/3: 0 -> 2. Next: Do W1 Two-Time Savior and W2 Two Desserts [Toolbox]"
+   "summary": "Achievements [independent] rung 1/3: now not in save (last written: 0) -> 2. Next: Do W1 Two-Time Savior and W2 Two Desserts [Toolbox]"
   },
   "advice_fish": {
    "slug": "advice_fish",
@@ -52,7 +59,10 @@
    "section": "Advice Fish",
    "rung": 1,
    "rungs": 3,
-   "now": "Being Tired 4, next 1.80e29",
+   "now": "not in save (last written: Being Tired 4, next 1.80e29)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Advice on Being Tired 4 -> up (Spelunking max stamina)",
    "src": "my read",
    "finished": false,
@@ -81,7 +91,7 @@
      "urgent": false
     }
    ],
-   "summary": "Advice Fish [independent] rung 1/3: Being Tired 4, next 1.80e29 -> Advice on Being Tired 4 -> up (Spelunking max stamina). Next: Buy Advice on Being Tired when affordable [Griffy 2026-08-29 IbKDBxBJRzQ 00:20:09 (my read on order)]"
+   "summary": "Advice Fish [independent] rung 1/3: now not in save (last written: Being Tired 4, next 1.80e29) -> Advice on Being Tired 4 -> up (Spelunking max stamina). Next: Buy Advice on Being Tired when affordable [Griffy 2026-08-29 IbKDBxBJRzQ 00:20:09 (my read on order)]"
   },
   "alchemy_bubbles": {
    "slug": "alchemy_bubbles",
@@ -91,7 +101,10 @@
    "section": "Bubbles",
    "rung": 1,
    "rungs": 3,
-   "now": 155,
+   "now": "not in save (last written: 155)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 160,
    "src": "Griffy",
    "finished": false,
@@ -107,7 +120,10 @@
    "triggers": [
     {
      "when": "160 bubbles unlocked",
-     "then": "move cauldron seats to liquids (checklist question, confirm with Zack)"
+     "then": "move cauldron seats to liquids (checklist question, confirm with Zack)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -125,7 +141,7 @@
      "urgent": false
     }
    ],
-   "summary": "Alchemy Bubbles [feeder] rung 1/3: 155 -> 160. Next: Level Warriors Rule toward 950 [Griffy]"
+   "summary": "Alchemy Bubbles [feeder] rung 1/3: now not in save (last written: 155) -> 160. Next: Level Warriors Rule toward 950 [Griffy]"
   },
   "alchemy_cauldrons": {
    "slug": "alchemy_cauldrons",
@@ -135,7 +151,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 3,
-   "now": 0,
+   "now": "not in save (last written: 0)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Quicc cauldron brew speed 0 -> brewing (697M/716M, 0 attempts)",
    "src": "Toolbox",
    "finished": false,
@@ -151,7 +170,10 @@
    "triggers": [
     {
      "when": "a cauldron shows brew speed 0",
-     "then": "assign a brewer"
+     "then": "assign a brewer",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -178,7 +200,7 @@
      "urgent": false
     }
    ],
-   "summary": "Alchemy Cauldrons [feeder] rung 1/3: 0 -> Quicc cauldron brew speed 0 -> brewing (697M/716M, 0 attempts). Next: Put a character on the Quicc cauldron [my_read] (+1 more scored)"
+   "summary": "Alchemy Cauldrons [feeder] rung 1/3: now not in save (last written: 0) -> Quicc cauldron brew speed 0 -> brewing (697M/716M, 0 attempts). Next: Put a character on the Quicc cauldron [my_read] (+1 more scored)"
   },
   "alchemy_p2w": {
    "slug": "alchemy_p2w",
@@ -188,7 +210,10 @@
    "section": "Pay2Win",
    "rung": 2,
    "rungs": 2,
-   "now": "maxed",
+   "now": "not in save (last written: maxed)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "next alchemy-level unlock",
    "src": "Zack",
    "finished": false,
@@ -204,7 +229,10 @@
    "triggers": [
     {
      "when": "highest alchemy level rises",
-     "then": "buy the new P2W level (minor, low score)"
+     "then": "buy the new P2W level (minor, low score)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -222,7 +250,7 @@
      "urgent": false
     }
    ],
-   "summary": "Alchemy P2W [independent] rung 2/2: maxed -> next alchemy-level unlock. Next: Buy a 90% Bargain Tag + Dense Water daily, spend most liquid each day [Griffy 2026-11-07 __0_dvPFI_E 24:41]"
+   "summary": "Alchemy P2W [independent] rung 2/2: now not in save (last written: maxed) -> next alchemy-level unlock. Next: Buy a 90% Bargain Tag + Dense Water daily, spend most liquid each day [Griffy 2026-11-07 __0_dvPFI_E 24:41]"
   },
   "alchemy_vials": {
    "slug": "alchemy_vials",
@@ -232,7 +260,10 @@
    "section": "Vials",
    "rung": 1,
    "rungs": 3,
-   "now": 77,
+   "now": "not in save (last written: 77)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 83,
    "src": "Griffy",
    "finished": false,
@@ -248,7 +279,10 @@
    "triggers": [
     {
      "when": "vial hits level 4",
-     "then": "next lowest vial"
+     "then": "next lowest vial",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -264,7 +298,7 @@
      "urgent": true
     }
    ],
-   "summary": "Alchemy Vials [feeder] rung 1/3: 77 -> 83. Next: Use all vial attempts [Griffy]"
+   "summary": "Alchemy Vials [feeder] rung 1/3: now not in save (last written: 77) -> 83. Next: Use all vial attempts [Griffy]"
   },
   "anvil": {
    "slug": "anvil",
@@ -274,7 +308,10 @@
    "section": "Anvil",
    "rung": 1,
    "rungs": 3,
-   "now": "unspent points: Ticles 29, Totle 11, Cat 4, Tacular 3, Matic 3, Bish 2, Naut 2; Topher -435 (bad read); Bish cap 0",
+   "now": "not in save (last written: unspent points: Ticles 29, Totle 11, Cat 4, Tac...)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "0 unspent on all 11, no cap 0",
    "src": "Griffy",
    "finished": false,
@@ -300,11 +337,17 @@
    "triggers": [
     {
      "when": "availablePoints > 0 on a character",
-     "then": "that card: spend anvil points (speed vs capacity = my read: capacity while anything caps)"
+     "then": "that card: spend anvil points (speed vs capacity = my read: capacity while anything caps)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Tab 4 unlocked",
-     "then": "switch production to Purple Screws / Lustre mats (Griffy 2026-11-07)"
+     "then": "switch production to Purple Screws / Lustre mats (Griffy 2026-11-07)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -355,7 +398,7 @@
      "urgent": false
     }
    ],
-   "summary": "Anvil [feeder] rung 1/3: unspent points: Ticles 29, Totle 11, Cat 4, Tacular 3, Matic 3, Bish 2, Naut 2; Topher ... -> 0 unspent on all 11, no cap 0. Next: Spend 29 anvil points on Ticles, 11 on Totle (then the 2-4 on the rest) [my_read (data)] (+3 more scored)"
+   "summary": "Anvil [feeder] rung 1/3: now not in save (last written: unspent points: Ticles 29, Totle 11, Cat 4, Tac...) -> 0 unspent on all 11, no cap 0. Next: Spend 29 anvil points on Ticles, 11 on Totle (then the 2-4 on the rest) [my_read (data)] (+3 more scored)"
   },
   "arcade": {
    "slug": "arcade",
@@ -365,7 +408,10 @@
    "section": "Arcade",
    "rung": 1,
    "rungs": 3,
-   "now": 292,
+   "now": 294,
+   "now_src": "live",
+   "now_path": "arcade.balls",
+   "op": "<=",
    "target": "Spend 292 balls on S tier (Tab 1 talent points first)",
    "src": "Griffy",
    "finished": false,
@@ -381,7 +427,10 @@
    "triggers": [
     {
      "when": "Pulse posts updated arcade tier list",
-     "then": "replace Griffy 2025 ladder"
+     "then": "replace Griffy 2025 ladder",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -397,7 +446,7 @@
      "urgent": false
     }
    ],
-   "summary": "Arcade [feeder] rung 1/3: 292 -> Spend 292 balls on S tier (Tab 1 talent points first). Next: Dump balls into Tab 1 talent points bonus [Griffy]"
+   "summary": "Arcade [feeder] rung 1/3: now 294 (live) -> Spend 292 balls on S tier (Tab 1 talent points first). Next: Dump balls into Tab 1 talent points bonus [Griffy]"
   },
   "armor_sets": {
    "slug": "armor_sets",
@@ -407,7 +456,10 @@
    "section": "Armor Sets",
    "rung": 1,
    "rungs": 4,
-   "now": "15/19 sets unlocked",
+   "now": 15,
+   "now_src": "live",
+   "now_path": "armorSmithy.unlockedSets|len",
+   "op": ">=",
    "target": 19,
    "src": "Griffy",
    "finished": false,
@@ -423,7 +475,10 @@
    "triggers": [
     {
      "when": "a set completes",
-     "then": "next set by bonus vs main goal (Prehistoric first if W7 skills on POW chain)"
+     "then": "next set by bonus vs main goal (Prehistoric first if W7 skills on POW chain)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -439,7 +494,7 @@
      "urgent": false
     }
    ],
-   "summary": "Armor Sets [feeder] rung 1/4: 15/19 sets unlocked -> 19. Next: Craft/farm the cheapest missing part of the lowest open rung [Griffy]"
+   "summary": "Armor Sets [feeder] rung 1/4: now 15 (live) -> 19. Next: Craft/farm the cheapest missing part of the lowest open rung [Griffy]"
   },
   "atom_collider": {
    "slug": "atom_collider",
@@ -449,7 +504,10 @@
    "section": "Atom Collider",
    "rung": 1,
    "rungs": 3,
-   "now": "Boron 40/50 (next 410M), particles 61.9M",
+   "now": 40,
+   "now_src": "live",
+   "now_path": "atoms.atoms[name~Boron].level|first",
+   "op": ">=",
    "target": "Boron 50",
    "src": "Griffy",
    "finished": false,
@@ -465,7 +523,10 @@
    "triggers": [
     {
      "when": "particles > cheapest open atom",
-     "then": "spend"
+     "then": "spend",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -481,7 +542,7 @@
      "urgent": true
     }
    ],
-   "summary": "Atom Collider [independent] rung 1/3: Boron 40/50 (next 410M), particles 61.9M -> Boron 50. Next: Boron is 410M, out of reach. Spend 51.5M of the 61.9M now: one level each of Aluminium, Lithium, Nitrogen, ... [Griffy 2026-04-23 kD7KZ5zX6Ss 00:19:52]"
+   "summary": "Atom Collider [independent] rung 1/3: now 40 (live) -> Boron 50. Next: Boron is 410M, out of reach. Spend 51.5M of the 61.9M now: one level each of Aluminium, Lithium, Nitrogen, ... [Griffy 2026-04-23 kD7KZ5zX6Ss 00:19:52]"
   },
   "autoloot": {
    "slug": "autoloot",
@@ -491,7 +552,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 1,
-   "now": "owned",
+   "now": "not in save (last written: owned)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "owned",
    "src": "Griffy",
    "finished": false,
@@ -504,7 +568,7 @@
    "minigame": false,
    "triggers": [],
    "tasks": [],
-   "summary": "Autoloot [independent] rung 1/1: owned -> owned"
+   "summary": "Autoloot [independent] rung 1/1: now not in save (last written: owned) -> owned"
   },
   "ballot": {
    "slug": "ballot",
@@ -514,7 +578,10 @@
    "section": "Bonus Ballot",
    "rung": 1,
    "rungs": 3,
-   "now": "this week Sailing Artifact Find (x1.84), votes carried from save 20261127T1704",
+   "now": "not in save (last written: this week Sailing Artifact Find (x1.84), votes ...)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "weekly read every reset",
    "src": "Griffy + Zack rule",
    "finished": false,
@@ -530,7 +597,10 @@
    "triggers": [
     {
      "when": "weekly reset",
-     "do": "pros/cons on Totle's card, then week plan on the owner of the voted system (e.g. sailing week -> Ticles long trips)"
+     "do": "pros/cons on Totle's card, then week plan on the owner of the voted system (e.g. sailing week -> Ticles long trips)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -548,7 +618,7 @@
      "urgent": false
     }
    ],
-   "summary": "Ballot [feeder] rung 1/3: this week Sailing Artifact Find (x1.84), votes carried from save 20261127T1704 -> weekly read every reset. Next: Get Poppy (companion): doubles Ballot + Meritocracy; Cuttlefish + Mashed Potato already owned (Zack 2026-11... [Griffy 2026-09-21 KHuU392EW-4 00:04:47]"
+   "summary": "Ballot [feeder] rung 1/3: now not in save (last written: this week Sailing Artifact Find (x1.84), votes ...) -> weekly read every reset. Next: Get Poppy (companion): doubles Ballot + Meritocracy; Cuttlefish + Mashed Potato already owned (Zack 2026-11... [Griffy 2026-09-21 KHuU392EW-4 00:04:47]"
   },
   "basketball": {
    "slug": "basketball",
@@ -558,7 +628,10 @@
    "section": "Basketball",
    "rung": 2,
    "rungs": 2,
-   "now": "high score 26, 317 total points",
+   "now": "not in save (last written: high score 26, 317 total points)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "my read: cheapest-gain first: Class EXP (cost 3), Damage (8), then Coins (403), Skill Eff (2,345)",
    "src": "my_read",
    "finished": false,
@@ -583,7 +656,7 @@
      "urgent": false
     }
    ],
-   "summary": "Basketball [independent] rung 2/2: high score 26, 317 total points -> my read: cheapest-gain first: Class EXP (cost 3), Damage (8), then Coins (403), Skill E.... Next: In game: check spendable hoops points; spend on Class EXP (3) and Damage (8) [my_read]"
+   "summary": "Basketball [independent] rung 2/2: now not in save (last written: high score 26, 317 total points) -> my read: cheapest-gain first: Class EXP (cost 3), Damage (8), then Coins (403), Skill E.... Next: In game: check spendable hoops points; spend on Class EXP (3) and Damage (8) [my_read]"
   },
   "beanstalk": {
    "slug": "beanstalk",
@@ -593,7 +666,10 @@
    "section": "Beanstalk",
    "rung": 1,
    "rungs": 3,
-   "now": "35 slots: 2 at 1M tier, 10 at 100K, 2 at 10K, 21 at 0",
+   "now": "not in save (last written: 35 slots: 2 at 1M tier, 10 at 100K, 2 at 10K, 2...)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "the 21 at 0 reach 10K",
    "src": "Griffy",
    "finished": false,
@@ -642,7 +718,7 @@
      "urgent": false
     }
    ],
-   "summary": "Beanstalk [feeder] rung 1/3: 35 slots: 2 at 1M tier, 10 at 100K, 2 at 10K, 21 at 0 -> the 21 at 0 reach 10K. Next: Stack golden food on one character (the active farmer) and deposit at 10K [Griffy 2026-11-07 __0_dvPFI_E 00:20:30] (+2 more scored)"
+   "summary": "Beanstalk [feeder] rung 1/3: now not in save (last written: 35 slots: 2 at 1M tier, 10 at 100K, 2 at 10K, 2...) -> the 21 at 0 reach 10K. Next: Stack golden food on one character (the active farmer) and deposit at 10K [Griffy 2026-11-07 __0_dvPFI_E 00:20:30] (+2 more scored)"
   },
   "breeding": {
    "slug": "breeding",
@@ -653,6 +729,9 @@
    "rung": 1,
    "rungs": 5,
    "now": 20,
+   "now_src": "live",
+   "now_path": "breeding.maxShinyLevel",
+   "op": ">=",
    "target": 24,
    "src": "Zack 2026-11-21 + Pulse",
    "finished": false,
@@ -668,11 +747,17 @@
    "triggers": [
     {
      "when": "faster-shiny pets all at Lv 24+",
-     "then": "move shiny time to meal-bonus pets"
+     "then": "move shiny time to meal-bonus pets",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Crucible unlocked",
-     "then": "run the cheese team to round 250 once"
+     "then": "run the cheese team to round 250 once",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -710,7 +795,7 @@
      "urgent": false
     }
    ],
-   "summary": "Breeding [feeder] rung 1/5: 20 -> 24. Next: Wind Walker active on W4 breeding for shiny over levels [Pulse 2026-11-09] (+2 more scored)"
+   "summary": "Breeding [feeder] rung 1/5: now 20 (live) -> 24. Next: Wind Walker active on W4 breeding for shiny over levels [Pulse 2026-11-09] (+2 more scored)"
   },
   "bribes": {
    "slug": "bribes",
@@ -721,6 +806,9 @@
    "rung": 2,
    "rungs": 2,
    "now": 40,
+   "now_src": "live",
+   "now_path": "bribes[state=bought]|len",
+   "op": ">=",
    "target": 41,
    "src": "Griffy",
    "finished": false,
@@ -736,7 +824,10 @@
    "triggers": [
     {
      "when": "The Art of the Flail becomes buyable",
-     "then": "Topher buys it"
+     "then": "Topher buys it",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -752,7 +843,7 @@
      "urgent": false
     }
    ],
-   "summary": "Bribes [independent] rung 2/2: 40 -> 41. Next: Find what unlocks The Art of the Flail (likely the next Island/W7 gate, my read) and check it in game [my_read]"
+   "summary": "Bribes [independent] rung 2/2: now 40 (live) -> 41. Next: Find what unlocks The Art of the Flail (likely the next Island/W7 gate, my read) and check it in game [my_read]"
   },
   "bubba": {
    "slug": "bubba",
@@ -762,7 +853,10 @@
    "section": "Bubba",
    "rung": 2,
    "rungs": 4,
-   "now": "3.24T slices, 13.6B/min; Megaflesh lv5 next costs 459T",
+   "now": "not in save (last written: 3.24T slices, 13.6B/min; Megaflesh lv5 next cos...)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "459T",
    "src": "Toolbox (parser)",
    "finished": false,
@@ -778,7 +872,10 @@
    "triggers": [
     {
      "when": "meatSlices >= 459T",
-     "then": "buy Megaflesh 6 (Salmon), then emulsify Hustle"
+     "then": "buy Megaflesh 6 (Salmon), then emulsify Hustle",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -805,7 +902,7 @@
      "urgent": false
     }
    ],
-   "summary": "Bubba [feeder] rung 2/4: 3.24T slices, 13.6B/min; Megaflesh lv5 next costs 459T -> 459T. Next: Buy the 12 affordable upgrades now (Dice Roll 1.4B, Buyer Grin 2.6B, Bargain 9.1B, Charisma 10B, Great Meat... [my_read (parser costs)] (+1 more scored)"
+   "summary": "Bubba [feeder] rung 2/4: now not in save (last written: 3.24T slices, 13.6B/min; Megaflesh lv5 next cos...) -> 459T. Next: Buy the 12 affordable upgrades now (Dice Roll 1.4B, Buyer Grin 2.6B, Bargain 9.1B, Charisma 10B, Great Meat... [my_read (parser costs)] (+1 more scored)"
   },
   "cape_vine": {
    "slug": "cape_vine",
@@ -815,7 +912,10 @@
    "section": "Cape Vine",
    "rung": 1,
    "rungs": 3,
-   "now": "15/23 capes, 1 golden vine (on Radiant Amarok Backstabber, +11.5% Defence)",
+   "now": "not in save (last written: 15/23 capes, 1 golden vine (on Radiant Amarok B...)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "23/23",
    "src": "AutoReview",
    "finished": false,
@@ -855,7 +955,7 @@
      "urgent": false
     }
    ],
-   "summary": "Cape Vine [multiplier] rung 1/3: 15/23 capes, 1 golden vine (on Radiant Amarok Backstabber, +11.5% Defence) -> 23/23. Next: Check Ask Cathy (top left) for free golden vines [Pulse 2026-11-01 7EkdEAkWYng 00:01:04] (+1 more scored)"
+   "summary": "Cape Vine [multiplier] rung 1/3: now not in save (last written: 15/23 capes, 1 golden vine (on Radiant Amarok B...) -> 23/23. Next: Check Ask Cathy (top left) for free golden vines [Pulse 2026-11-01 7EkdEAkWYng 00:01:04] (+1 more scored)"
   },
   "cards": {
    "slug": "cards",
@@ -866,6 +966,9 @@
    "rung": 1,
    "rungs": 5,
    "now": 321,
+   "now_src": "live",
+   "now_path": "cards.Coralcave_Guardian.amount",
+   "op": ">=",
    "target": 400001,
    "src": "Pulse",
    "finished": false,
@@ -881,7 +984,10 @@
    "triggers": [
     {
      "when": "Coralcave Guardian hits 1 star",
-     "then": "put it in a doubled slot"
+     "then": "put it in a doubled slot",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -908,7 +1014,7 @@
      "urgent": false
     }
    ],
-   "summary": "Cards [feeder] rung 1/5: 321 -> 400001. Next: Farm Coralcave Guardian cards with the DR preset [Pulse 2026-09-07] (+1 more scored)"
+   "summary": "Cards [feeder] rung 1/5: now 321 (live) -> 400001. Next: Farm Coralcave Guardian cards with the DR preset [Pulse 2026-09-07] (+1 more scored)"
   },
   "caverns": {
    "slug": "caverns",
@@ -919,6 +1025,9 @@
    "rung": 1,
    "rungs": 4,
    "now": 15,
+   "now_src": "live",
+   "now_path": "hole.villagers[0].level",
+   "op": ">=",
    "target": 20,
    "src": "Toolbox + Griffy (opals to Explorer first)",
    "finished": false,
@@ -934,15 +1043,24 @@
    "triggers": [
     {
      "when": "Gambit points 710K",
-     "then": "claim +2 bones on Deathbringer (Death Note / bones push)"
+     "then": "claim +2 bones on Deathbringer (Death Note / bones push)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Explorer 20 (all caverns found)",
-     "then": "move most opals to Studies"
+     "then": "move most opals to Studies",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Bravery 750 AFK hrs",
-     "then": "+1 sword; run it"
+     "then": "+1 sword; run it",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1006,7 +1124,7 @@
      "urgent": false
     }
    ],
-   "summary": "Caverns [independent] rung 1/4: 15 -> 20. Next: Drop 12 blinding lanterns [Pulse 2026-11-03] (+4 more scored)"
+   "summary": "Caverns [independent] rung 1/4: now 15 (live) -> 20. Next: Drop 12 blinding lanterns [Pulse 2026-11-03] (+4 more scored)"
   },
   "clam_work": {
    "slug": "clam_work",
@@ -1016,7 +1134,10 @@
    "section": "Clam Work",
    "rung": 1,
    "rungs": 3,
-   "now": "445K pearls, worker class 2, Scurge Lv1 (0 points)",
+   "now": 444936.965626986,
+   "now_src": "live",
+   "now_path": "clamWork.ownedPearls",
+   "op": ">=",
    "target": "Multi-Scalping Lv23",
    "src": "my read (costs from parser)",
    "finished": false,
@@ -1067,7 +1188,7 @@
      "urgent": false
     }
    ],
-   "summary": "Clam Work [feeder] rung 1/3: 445K pearls, worker class 2, Scurge Lv1 (0 points) -> Multi-Scalping Lv23. Next: Buy Multi-Scalping Lv23 (331K pearls) now [parser cost, my read] (+2 more scored)"
+   "summary": "Clam Work [feeder] rung 1/3: now 444,936.97 (live) -> Multi-Scalping Lv23. Next: Buy Multi-Scalping Lv23 (331K pearls) now [parser cost, my read] (+2 more scored)"
   },
   "cog_board": {
    "slug": "cog_board",
@@ -1078,6 +1199,9 @@
    "rung": 1,
    "rungs": 3,
    "now": 126,
+   "now_src": "live",
+   "now_path": "construction.spareCogs|len",
+   "op": "<=",
    "target": "Scrap junk: 126 spare cogs, 0 free small-cog slots; Griffy rates cog inventory F, just scrap cogs",
    "src": "Griffy",
    "finished": false,
@@ -1093,7 +1217,10 @@
    "triggers": [
     {
      "when": "a new cog maker roll finishes",
-     "then": "compare vs board, slot or scrap"
+     "then": "compare vs board, slot or scrap",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1120,7 +1247,7 @@
      "urgent": false
     }
    ],
-   "summary": "Cog Board [independent] rung 1/3: 126 -> Scrap junk: 126 spare cogs, 0 free small-cog slots; Griffy rates cog inventory F, just .... Next: Scrap/sort the 126 spare cogs, keep only upgrades [Griffy] (+1 more scored)"
+   "summary": "Cog Board [independent] rung 1/3: now 126 (live) -> Scrap junk: 126 spare cogs, 0 free small-cog slots; Griffy rates cog inventory F, just .... Next: Scrap/sort the 126 spare cogs, keep only upgrades [Griffy] (+1 more scored)"
   },
   "colo_scores": {
    "slug": "colo_scores",
@@ -1130,7 +1257,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 2,
    "rungs": 2,
-   "now": null,
+   "now": "not in save",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Farm W5 + W6 colos for golden foods",
    "src": "Griffy",
    "finished": false,
@@ -1144,7 +1274,10 @@
    "triggers": [
     {
      "when": "tickets >= 30",
-     "then": "spend on W6 colo for golden food"
+     "then": "spend on W6 colo for golden food",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1162,7 +1295,7 @@
      "urgent": false
     }
    ],
-   "summary": "Colo Scores [independent] rung 2/2: None -> Farm W5 + W6 colos for golden foods. Next: Spend tickets on W6 (and W5, lagging at 23.8M) for golden food [Griffy]"
+   "summary": "Colo Scores [independent] rung 2/2: now not in save -> Farm W5 + W6 colos for golden foods. Next: Spend tickets on W6 (and W5, lagging at 23.8M) for golden food [Griffy]"
   },
   "companions": {
    "slug": "companions",
@@ -1172,7 +1305,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 3,
-   "now": "rung moved past the written objective: update now",
+   "now": "not in save",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Every base pet owned (Zack 2026-11-28; Toolbox raw copy carries no companion data, tournament block has no team)",
    "src": "my_read",
    "finished": false,
@@ -1186,7 +1322,10 @@
    "triggers": [
     {
      "when": "new companion token",
-     "then": "spend on highest-tier unowned pet"
+     "then": "spend on highest-tier unowned pet",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1202,7 +1341,7 @@
      "urgent": false
     }
    ],
-   "summary": "Companions [independent] rung 1/3: rung moved past the written objective: update now -> Every base pet owned (Zack 2026-11-28; Toolbox raw copy carries no companion data, tour.... Next: Find a data source for owned pets (Toolbox companions page / separate companion doc) [my_read]"
+   "summary": "Companions [independent] rung 1/3: now not in save -> Every base pet owned (Zack 2026-11-28; Toolbox raw copy carries no companion data, tour.... Next: Find a data source for owned pets (Toolbox companions page / separate companion doc) [my_read]"
   },
   "compass": {
    "slug": "compass",
@@ -1212,7 +1351,10 @@
    "section": "Compass",
    "rung": 1,
    "rungs": 3,
-   "now": "Elemental 15/24, Medallion Drops 67, Ring Drops II 70",
+   "now": "not in save (last written: Elemental 15/24, Medallion Drops 67, Ring Drops...)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Elemental 20",
    "src": "Griffy",
    "finished": false,
@@ -1228,7 +1370,10 @@
    "triggers": [
     {
      "when": "Compass needed",
-     "then": "Tacular AFKs for Aethermoons (Zack 2026-11-27)"
+     "then": "Tacular AFKs for Aethermoons (Zack 2026-11-27)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1244,7 +1389,7 @@
      "urgent": false
     }
    ],
-   "summary": "Compass [blocker] rung 1/3: Elemental 15/24, Medallion Drops 67, Ring Drops II 70 -> Elemental 20. Next: Short daytime Tempest session: spend dust on dust-gain first, then Tempest damage/accuracy [Griffy 2026-11-07 __0_dvPFI_E 37:01]"
+   "summary": "Compass [blocker] rung 1/3: now not in save (last written: Elemental 15/24, Medallion Drops 67, Ring Drops...) -> Elemental 20. Next: Short daytime Tempest session: spend dust on dust-gain first, then Tempest damage/accuracy [Griffy 2026-11-07 __0_dvPFI_E 37:01]"
   },
   "construction_buildings": {
    "slug": "construction_buildings",
@@ -1254,7 +1399,10 @@
    "section": "Buildings",
    "rung": 1,
    "rungs": 3,
-   "now": "Talent Book Library 132",
+   "now": "not in save (last written: Talent Book Library 132)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "201",
    "src": "Griffy",
    "finished": false,
@@ -1270,7 +1418,10 @@
    "triggers": [
     {
      "when": "a building finishes",
-     "then": "queue the next from the ladder"
+     "then": "queue the next from the ladder",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1289,7 +1440,7 @@
      "urgent": false
     }
    ],
-   "summary": "Construction Buildings [independent] rung 1/3: Talent Book Library 132 -> 201. Next: Keep Talent Book Library + Death Note + Trapper Drone in the build slots [Griffy 2026-10-28 C2oiRVIpmq8 01:02:26]"
+   "summary": "Construction Buildings [independent] rung 1/3: now not in save (last written: Talent Book Library 132) -> 201. Next: Keep Talent Book Library + Death Note + Trapper Drone in the build slots [Griffy 2026-10-28 C2oiRVIpmq8 01:02:26]"
   },
   "cooking": {
    "slug": "cooking",
@@ -1299,7 +1450,10 @@
    "section": "Cooking",
    "rung": 1,
    "rungs": 4,
-   "now": 111,
+   "now": "not in save (last written: 111)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Turkey + Egg past 111 (Egg = meal cooking speed, Turkey toward a power-of-ten breakpoint)",
    "src": "Griffy",
    "finished": false,
@@ -1315,11 +1469,17 @@
    "triggers": [
     {
      "when": "max plates reach 150",
-     "then": "switch focus to NMLB triggers, then 180"
+     "then": "switch focus to NMLB triggers, then 180",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "a ribbon rank threshold hit (1/5/10/25)",
-     "then": "re-rank ribbon placement (gap 5)"
+     "then": "re-rank ribbon placement (gap 5)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1348,7 +1508,7 @@
      "urgent": false
     }
    ],
-   "summary": "Cooking [independent] rung 1/4: 111 -> Turkey + Egg past 111 (Egg = meal cooking speed, Turkey toward a power-of-ten breakpoint). Next: Spend on the cheapest kitchen speed upgrade [Griffy] (+1 more scored)"
+   "summary": "Cooking [independent] rung 1/4: now not in save (last written: 111) -> Turkey + Egg past 111 (Egg = meal cooking speed, Turkey toward a power-of-ten breakpoint). Next: Spend on the cheapest kitchen speed upgrade [Griffy] (+1 more scored)"
   },
   "coral_reef": {
    "slug": "coral_reef",
@@ -1358,7 +1518,10 @@
    "section": "Coral Reef",
    "rung": 1,
    "rungs": 3,
-   "now": "336 coral owned, 3 corals unlocked, Coral Kid total 16 levels",
+   "now": "not in save (last written: 336 coral owned, 3 corals unlocked, Coral Kid t...)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Coral Restoration owned",
    "src": "Griffy",
    "finished": false,
@@ -1396,7 +1559,7 @@
      "urgent": false
     }
    ],
-   "summary": "Coral Reef [feeder] rung 1/3: 336 coral owned, 3 corals unlocked, Coral Kid total 16 levels -> Coral Restoration owned. Next: Check Coral Restoration (Red 10) is owned; if not it's the first coral buy [Griffy 2025-11-10 GIs09k2bhkY 00:12:52] (+1 more scored)"
+   "summary": "Coral Reef [feeder] rung 1/3: now not in save (last written: 336 coral owned, 3 corals unlocked, Coral Kid t...) -> Coral Restoration owned. Next: Check Coral Restoration (Red 10) is owned; if not it's the first coral buy [Griffy 2025-11-10 GIs09k2bhkY 00:12:52] (+1 more scored)"
   },
   "crystal_spawn_chance": {
    "slug": "crystal_spawn_chance",
@@ -1406,7 +1569,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 2,
-   "now": 3,
+   "now": "not in save (last written: 3)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Lift the 3 low characters (Ticles, Naut, Tachio 0.674%) to the 1.46% the other 7 have",
    "src": "my_read",
    "finished": false,
@@ -1420,7 +1586,10 @@
    "triggers": [
     {
      "when": "all 10 non-Totle chars at 1.46%+",
-     "then": "rung 2"
+     "then": "rung 2",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1436,7 +1605,7 @@
      "urgent": false
     }
    ],
-   "summary": "Crystal Spawn Chance [feeder] rung 1/2: 3 -> Lift the 3 low characters (Ticles, Naut, Tachio 0.674%) to the 1.46% the other 7 have. Next: Find what the 7 have that Ticles/Naut/Tachio lack (talent, star sign, or class bonus) [my_read]"
+   "summary": "Crystal Spawn Chance [feeder] rung 1/2: now not in save (last written: 3) -> Lift the 3 low characters (Ticles, Naut, Tachio 0.674%) to the 1.46% the other 7 have. Next: Find what the 7 have that Ticles/Naut/Tachio lack (talent, star sign, or class bonus) [my_read]"
   },
   "dancing_coral": {
    "slug": "dancing_coral",
@@ -1446,7 +1615,10 @@
    "section": "Dancing Coral",
    "rung": 1,
    "rungs": 3,
-   "now": "159 Char Coral",
+   "now": "not in save (last written: 159 Char Coral)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "991",
    "src": "AutoReview",
    "finished": false,
@@ -1462,7 +1634,10 @@
    "triggers": [
     {
      "when": "Char Coral >= 991",
-     "do": "unlock Class EXP bonus, next target = Research EXP cost"
+     "do": "unlock Class EXP bonus, next target = Research EXP cost",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1491,7 +1666,7 @@
      "urgent": false
     }
    ],
-   "summary": "Dancing Coral [feeder] rung 1/3: 159 Char Coral -> 991. Next: Farm Char Coral to 991 for the Class EXP unlock [AutoReview] (+1 more scored)"
+   "summary": "Dancing Coral [feeder] rung 1/3: now not in save (last written: 159 Char Coral) -> 991. Next: Farm Char Coral to 991 for the Class EXP unlock [AutoReview] (+1 more scored)"
   },
   "darts": {
    "slug": "darts",
@@ -1501,7 +1676,10 @@
    "section": "Darts",
    "rung": 1,
    "rungs": 2,
-   "now": 199,
+   "now": "not in save (last written: 199)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Darter Trophy",
    "src": "Griffy",
    "finished": false,
@@ -1515,7 +1693,10 @@
    "triggers": [
     {
      "when": "Darter Trophy owned",
-     "then": "rung 2, spend points"
+     "then": "rung 2, spend points",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1531,7 +1712,7 @@
      "urgent": false
     }
    ],
-   "summary": "Darts [independent] rung 1/2: 199 -> Darter Trophy. Next: Check Darter Trophy status + spendable dart points in game [Griffy]"
+   "summary": "Darts [independent] rung 1/2: now not in save (last written: 199) -> Darter Trophy. Next: Check Darter Trophy status + spendable dart points in game [Griffy]"
   },
   "death_note": {
    "slug": "death_note",
@@ -1541,7 +1722,10 @@
    "section": "Death Note",
    "rung": 1,
    "rungs": 4,
-   "now": "90%",
+   "now": "not in save (last written: 90%)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "100%",
    "src": "Toolbox",
    "finished": false,
@@ -1557,7 +1741,10 @@
    "triggers": [
     {
      "when": "mob hits 100%",
-     "then": "move that AFK char to next closest"
+     "then": "move that AFK char to next closest",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1573,7 +1760,7 @@
      "urgent": false
     }
    ],
-   "summary": "Death Note [feeder] rung 1/4: 90% -> 100%. Next: Park a multikill AFK char on Gelatinous Cuboid [my_read]"
+   "summary": "Death Note [feeder] rung 1/4: now not in save (last written: 90%) -> 100%. Next: Park a multikill AFK char on Gelatinous Cuboid [my_read]"
   },
   "divinity": {
    "slug": "divinity",
@@ -1583,7 +1770,10 @@
    "section": "Divinity",
    "rung": 1,
    "rungs": 3,
-   "now": "Bagur 63 / Flutterbis 75 / Kattlekruk 88",
+   "now": "not in save (last written: Bagur 63 / Flutterbis 75 / Kattlekruk 88)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 100,
    "src": "Toolbox",
    "finished": false,
@@ -1599,7 +1789,10 @@
    "triggers": [
     {
      "when": "a blessing hits 100",
-     "then": "move points to the next lowest rung deity"
+     "then": "move points to the next lowest rung deity",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1615,7 +1808,7 @@
      "urgent": false
     }
    ],
-   "summary": "Divinity [independent] rung 1/3: Bagur 63 / Flutterbis 75 / Kattlekruk 88 -> 100. Next: Low offering + pray until high offering is 100% [Toolbox]"
+   "summary": "Divinity [independent] rung 1/3: now not in save (last written: Bagur 63 / Flutterbis 75 / Kattlekruk 88) -> 100. Next: Low offering + pray until high offering is 100% [Toolbox]"
   },
   "divinity_coral_kid": {
    "slug": "divinity_coral_kid",
@@ -1625,7 +1818,10 @@
    "section": "Coral Kid",
    "rung": 2,
    "rungs": 3,
-   "now": "volcano 13, blessing +2 levels, class EXP 1, rest 0; 3.21B points",
+   "now": "not in save (last written: volcano 13, blessing +2 levels, class EXP 1, re...)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "blessing + volcano + class EXP bought",
    "src": "my_read",
    "finished": false,
@@ -1641,7 +1837,10 @@
    "triggers": [
     {
      "when": "Total Divinity LV hits a gated upgrade's requirement",
-     "do": "add it to the buy list"
+     "do": "add it to the buy list",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1657,7 +1856,7 @@
      "urgent": false
     }
    ],
-   "summary": "Divinity Coral Kid [feeder] rung 2/3: volcano 13, blessing +2 levels, class EXP 1, rest 0; 3.21B points -> blessing + volcano + class EXP bought. Next: Buy Blessing max +4 (93.8M Div PTS) and volcano link (34.5M), then God Rank Class EXP (396M) (my read order) [my_read + Pulse 2026-10-13 PnEVVlBrUdQ]"
+   "summary": "Divinity Coral Kid [feeder] rung 2/3: now not in save (last written: volcano 13, blessing +2 levels, class EXP 1, re...) -> blessing + volcano + class EXP bought. Next: Buy Blessing max +4 (93.8M Div PTS) and volcano link (34.5M), then God Rank Class EXP (396M) (my read order) [my_read + Pulse 2026-10-13 PnEVVlBrUdQ]"
   },
   "drop_rate": {
    "slug": "drop_rate",
@@ -1667,7 +1866,10 @@
    "section": "Drop Rate",
    "rung": 1,
    "rungs": 4,
-   "now": null,
+   "now": "not in save",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "DR cards: Crystal Glunko 0 -> 7? stars, Ancient Golem 3 -> 7, Domeo Magmus 3 -> 7",
    "src": "Toolbox",
    "finished": false,
@@ -1681,7 +1883,10 @@
    "triggers": [
     {
      "when": "DR >= 30x",
-     "then": "start Marble statue progression (statues owner)"
+     "then": "start Marble statue progression (statues owner)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1700,7 +1905,7 @@
      "urgent": false
     }
    ],
-   "summary": "Drop Rate [feeder] rung 1/4: None -> DR cards: Crystal Glunko 0 -> 7? stars, Ancient Golem 3 -> 7, Domeo Magmus 3 -> 7. Next: Farm Crystal Glunko card (shared with cards rung 3) [Pulse]"
+   "summary": "Drop Rate [feeder] rung 1/4: now not in save -> DR cards: Crystal Glunko 0 -> 7? stars, Ancient Golem 3 -> 7, Domeo Magmus 3 -> 7. Next: Farm Crystal Glunko card (shared with cards rung 3) [Pulse]"
   },
   "dungeons": {
    "slug": "dungeons",
@@ -1710,7 +1915,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 5,
-   "now": 451000,
+   "now": 451419,
+   "now_src": "live",
+   "now_path": "dungeons.progress",
+   "op": ">=",
    "target": 490000,
    "src": "Toolbox",
    "finished": false,
@@ -1724,11 +1932,17 @@
    "triggers": [
     {
      "when": "rank 45 reached",
-     "then": "next rank target from Toolbox rankReq"
+     "then": "next rank target from Toolbox rankReq",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Happy Hour live",
-     "then": "join carried runs, spend credits on upgrades"
+     "then": "join carried runs, spend credits on upgrades",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1766,7 +1980,7 @@
      "urgent": false
     }
    ],
-   "summary": "Dungeons [independent] rung 1/5: 451000 -> 490000. Next: Spend flurbos on weapon power then class XP / accuracy [Griffy 2026-10-04] (+2 more scored)"
+   "summary": "Dungeons [independent] rung 1/5: now 451,419 (live) -> 490000. Next: Spend flurbos on weapon power then class XP / accuracy [Griffy 2026-10-04] (+2 more scored)"
   },
   "emperor": {
    "slug": "emperor",
@@ -1776,7 +1990,10 @@
    "section": "Emperor",
    "rung": 2,
    "rungs": 3,
-   "now": "highest showdown 77, 2/11 attempts banked",
+   "now": 77,
+   "now_src": "live",
+   "now_path": "emperor.highestEmperorShowdown",
+   "op": ">=",
    "target": 78,
    "src": "data",
    "finished": false,
@@ -1818,7 +2035,7 @@
      "urgent": false
     }
    ],
-   "summary": "Emperor [multiplier] rung 2/3: highest showdown 77, 2/11 attempts banked -> 78. Next: Emperor fights on Cat: stand on the small platform next to the boss and auto (skulls bounce) [Griffy 2026-08-03 ypb7kpQov30 00:05:36 + Pulse 2026-10-31 6JgdYbiEKus 00:14:18] (+1 more scored)"
+   "summary": "Emperor [multiplier] rung 2/3: now 77 (live) -> 78. Next: Emperor fights on Cat: stand on the small platform next to the boss and auto (skulls bounce) [Griffy 2026-08-03 ypb7kpQov30 00:05:36 + Pulse 2026-10-31 6JgdYbiEKus 00:14:18] (+1 more scored)"
   },
   "equinox": {
    "slug": "equinox",
@@ -1828,7 +2045,10 @@
    "section": "Equinox",
    "rung": 1,
    "rungs": 3,
-   "now": "21/76 dreams, bar 4.06K/5.49K at 822/hr",
+   "now": 21,
+   "now_src": "live",
+   "now_path": "equinox.completedClouds",
+   "op": ">=",
    "target": "Recommended upgrades: Equinox Symbols, Voter Rights, Nonstop Studies",
    "src": "AutoReview",
    "finished": false,
@@ -1844,11 +2064,17 @@
    "triggers": [
     {
      "when": "bar full",
-     "then": "spend on the next recommended upgrade"
+     "then": "spend on the next recommended upgrade",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Bob Joe Pickle count hits 100",
-     "then": "do the Equinox unlock (Zack 2026-11-21)"
+     "then": "do the Equinox unlock (Zack 2026-11-21)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1866,7 +2092,7 @@
      "urgent": false
     }
    ],
-   "summary": "Equinox [feeder] rung 1/3: 21/76 dreams, bar 4.06K/5.49K at 822/hr -> Recommended upgrades: Equinox Symbols, Voter Rights, Nonstop Studies. Next: Work the next dream (29 / 32 per AutoReview) and buy Laboratory Fuse when the bar fills [AutoReview]"
+   "summary": "Equinox [feeder] rung 1/3: now 21 (live) -> Recommended upgrades: Equinox Symbols, Voter Rights, Nonstop Studies. Next: Work the next dream (29 / 32 per AutoReview) and buy Laboratory Fuse when the bar fills [AutoReview]"
   },
   "event_points_shop": {
    "slug": "event_points_shop",
@@ -1876,7 +2102,10 @@
    "section": "Event Shop",
    "rung": 1,
    "rungs": 3,
-   "now": null,
+   "now": "not in save",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 1260,
    "src": "Toolbox (parser)",
    "finished": false,
@@ -1892,11 +2121,17 @@
    "triggers": [
     {
      "when": "event points cover the next off-rotation item",
-     "then": "Totle buys by rank"
+     "then": "Totle buys by rank",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Glimmerwick Candles in shop",
-     "then": "buy first"
+     "then": "buy first",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1912,7 +2147,7 @@
      "urgent": false
     }
    ],
-   "summary": "Event Points Shop [independent] rung 1/3: None -> 1260. Next: Rank the 42 unowned off-rotation items (Smiley Statue 1.30x statues, Golden Tome, Stamp Stack, Bubble Broth... [my_read]"
+   "summary": "Event Points Shop [independent] rung 1/3: now not in save -> 1260. Next: Rank the 42 unowned off-rotation items (Smiley Statue 1.30x statues, Golden Tome, Stamp Stack, Bubble Broth... [my_read]"
   },
   "family_bonuses": {
    "slug": "family_bonuses",
@@ -1922,7 +2157,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 2,
-   "now": "passive",
+   "now": "not in save (last written: passive)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Keep every character leveling (talent points + family bonus)",
    "src": "Griffy",
    "finished": false,
@@ -1936,11 +2174,14 @@
    "triggers": [
     {
      "when": "a class swap or new class is planned",
-     "then": "check which family bonus it raises or drops"
+     "then": "check which family bonus it raises or drops",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [],
-   "summary": "Family Bonuses [feeder] rung 1/2: passive -> Keep every character leveling (talent points + family bonus)"
+   "summary": "Family Bonuses [feeder] rung 1/2: now not in save (last written: passive) -> Keep every character leveling (talent points + family bonus)"
   },
   "farming": {
    "slug": "farming",
@@ -1950,7 +2191,10 @@
    "section": "Farming",
    "rung": 1,
    "rungs": 3,
-   "now": "208 crops found",
+   "now": "not in save (last written: 208 crops found)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "crop discoveries for OG unlock",
    "src": "Griffy",
    "finished": false,
@@ -1966,7 +2210,10 @@
    "triggers": [
     {
      "when": "OG unlocked",
-     "then": "switch spend to Rank Boost + exotic market"
+     "then": "switch spend to Rank Boost + exotic market",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -1982,7 +2229,7 @@
      "urgent": false
     }
    ],
-   "summary": "Farming [independent] rung 1/3: 208 crops found -> crop discoveries for OG unlock. Next: Spend 465 land rank points [Toolbox]"
+   "summary": "Farming [independent] rung 1/3: now not in save (last written: 208 crops found) -> crop discoveries for OG unlock. Next: Spend 465 land rank points [Toolbox]"
   },
   "forge_upgrades": {
    "slug": "forge_upgrades",
@@ -1992,7 +2239,10 @@
    "section": "Smithing",
    "rung": 1,
    "rungs": 4,
-   "now": 100,
+   "now": "not in save (last written: 100)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 240,
    "src": "AutoReview",
    "finished": false,
@@ -2006,7 +2256,10 @@
    "triggers": [
     {
      "when": "a new bar tier is needed (anvil tab 4, Lustre set)",
-     "then": "raise its forge slot count"
+     "then": "raise its forge slot count",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -2033,7 +2286,7 @@
      "urgent": false
     }
    ],
-   "summary": "Forge Upgrades [feeder] rung 1/4: 100 -> 240. Next: Level Forge Stamp toward 240 [AutoReview] (+1 more scored)"
+   "summary": "Forge Upgrades [feeder] rung 1/4: now not in save (last written: 100) -> 240. Next: Level Forge Stamp toward 240 [AutoReview] (+1 more scored)"
   },
   "friend_bonuses": {
    "slug": "friend_bonuses",
@@ -2044,6 +2297,9 @@
    "rung": 1,
    "rungs": 3,
    "now": 3,
+   "now_src": "live",
+   "now_path": "friendBonusStats.slots",
+   "op": ">=",
    "target": "3 slots in use, all IdleOnLech: Class EXP 13.5%, Drop Rate 11.2%, Coins 23.3%. Damage, Skill Eff, Skill EXP, Extra Kills = 0",
    "src": "Toolbox",
    "finished": false,
@@ -2068,7 +2324,7 @@
      "urgent": false
     }
    ],
-   "summary": "Friend Bonuses [independent] rung 1/3: 3 -> 3 slots in use, all IdleOnLech: Class EXP 13.5%, Drop Rate 11.2%, Coins 23.3%. Damage, .... Next: Decide slot picks (keep Drop Rate/Class EXP/Coins vs swap one to Total Damage or Skill Eff) [Griffy]"
+   "summary": "Friend Bonuses [independent] rung 1/3: now 3 (live) -> 3 slots in use, all IdleOnLech: Class EXP 13.5%, Drop Rate 11.2%, Coins 23.3%. Damage, .... Next: Decide slot picks (keep Drop Rate/Class EXP/Coins vs swap one to Total Damage or Skill Eff) [Griffy]"
   },
   "gallery": {
    "slug": "gallery",
@@ -2078,7 +2334,10 @@
    "section": "Gallery",
    "rung": 2,
    "rungs": 4,
-   "now": "15 podiums (11 Lv2, 2 Lv3, 0 Lv4), bonus multi 1.16",
+   "now": "not in save (last written: 15 podiums (11 Lv2, 2 Lv3, 0 Lv4), bonus multi ...)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Nine Dart Finish",
    "src": "Pulse",
    "finished": false,
@@ -2127,7 +2386,7 @@
      "urgent": false
     }
    ],
-   "summary": "Gallery [multiplier] rung 2/4: 15 podiums (11 Lv2, 2 Lv3, 0 Lv4), bonus multi 1.16 -> Nine Dart Finish. Next: Grind Nine Dart Finish (gets easier after a day or two; easier than Baller) [Pulse 2026-09-15 r43UqKC2axI 00:18:08] (+2 more scored)"
+   "summary": "Gallery [multiplier] rung 2/4: now not in save (last written: 15 podiums (11 Lv2, 2 Lv3, 0 Lv4), bonus multi ...) -> Nine Dart Finish. Next: Grind Nine Dart Finish (gets easier after a day or two; easier than Baller) [Pulse 2026-09-15 r43UqKC2axI 00:18:08] (+2 more scored)"
   },
   "gaming": {
    "slug": "gaming",
@@ -2137,7 +2396,10 @@
    "section": "Gaming",
    "rung": 2,
    "rungs": 4,
-   "now": 27,
+   "now": "not in save (last written: 27)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 28,
    "src": "Griffy 2026-02-14; Toolbox",
    "finished": false,
@@ -2153,11 +2415,17 @@
    "triggers": [
     {
      "when": "a Superbits upgrade is affordable",
-     "then": "buy it before imports (my read)"
+     "then": "buy it before imports (my read)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Nugget event week",
-     "then": "push nuggets"
+     "then": "push nuggets",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -2195,7 +2463,7 @@
      "urgent": false
     }
    ],
-   "summary": "Gaming [independent] rung 2/4: 27 -> 28. Next: Daily: log book, sprinkler, snail, mutate after harvest [Griffy 2023-11-20 + 2026-02-06] (+2 more scored)"
+   "summary": "Gaming [independent] rung 2/4: now not in save (last written: 27) -> 28. Next: Daily: log book, sprinkler, snail, mutate after harvest [Griffy 2023-11-20 + 2026-02-06] (+2 more scored)"
   },
   "gemshop": {
    "slug": "gemshop",
@@ -2205,7 +2473,10 @@
    "section": "Gem Shop",
    "rung": 1,
    "rungs": 3,
-   "now": null,
+   "now": "not in save",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Extra sample slot",
    "src": "Griffy",
    "finished": false,
@@ -2221,7 +2492,10 @@
    "triggers": [
     {
      "when": "gems >= next rung price",
-     "then": "buy it, next rung"
+     "then": "buy it, next rung",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -2239,7 +2513,7 @@
      "urgent": false
     }
    ],
-   "summary": "Gemshop [feeder] rung 1/3: None -> Extra sample slot. Next: Buy the next sample slot [Griffy]"
+   "summary": "Gemshop [feeder] rung 1/3: now not in save -> Extra sample slot. Next: Buy the next sample slot [Griffy]"
   },
   "glimbo": {
    "slug": "glimbo",
@@ -2249,7 +2523,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 3,
-   "now": "167 trades by parser sum (verify; Pulse's counts are in the thousands)",
+   "now": "not in save (last written: 167 trades by parser sum (verify; Pulse's count...)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 1000,
    "src": "data + Pulse spend rule",
    "finished": false,
@@ -2289,7 +2566,7 @@
      "urgent": false
     }
    ],
-   "summary": "Glimbo [feeder] rung 1/3: 167 trades by parser sum (verify; Pulse's counts are in the thousands) -> 1000. Next: Do every cheap Glimbo trade you can afford, except items reserved (Dreadnought+, candy) [Pulse 2026-11-16 glvAam8Mol8 00:04:53] (+1 more scored)"
+   "summary": "Glimbo [feeder] rung 1/3: now not in save (last written: 167 trades by parser sum (verify; Pulse's count...) -> 1000. Next: Do every cheap Glimbo trade you can afford, except items reserved (Dreadnought+, candy) [Pulse 2026-11-16 glvAam8Mol8 00:04:53] (+1 more scored)"
   },
   "greenstacks": {
    "slug": "greenstacks",
@@ -2300,6 +2577,9 @@
    "rung": 1,
    "rungs": 3,
    "now": 182,
+   "now_src": "live",
+   "now_path": "storage.greenStacks|len",
+   "op": ">=",
    "target": 200,
    "src": "AutoReview",
    "finished": false,
@@ -2348,7 +2628,7 @@
      "urgent": false
     }
    ],
-   "summary": "Greenstacks [feeder] rung 1/3: 182 -> 200. Next: Greenstack runs on the closest items (candy + skips) [Zack plan + Griffy Lt1hV8p84Oc 18:36] (+2 more scored)"
+   "summary": "Greenstacks [feeder] rung 1/3: now 182 (live) -> 200. Next: Greenstack runs on the closest items (candy + skips) [Zack plan + Griffy Lt1hV8p84Oc 18:36] (+2 more scored)"
   },
   "grimoire": {
    "slug": "grimoire",
@@ -2358,7 +2638,10 @@
    "section": "The Grimoire",
    "rung": 1,
    "rungs": 3,
-   "now": "3,043",
+   "now": 3043,
+   "now_src": "live",
+   "now_path": "grimoire.totalUpgradeLevels",
+   "op": ">=",
    "target": "3,150",
    "src": "AutoReview",
    "finished": false,
@@ -2375,7 +2658,10 @@
    "triggers": [
     {
      "when": "Grimoire not a top-10 need",
-     "then": "Death Bringers move to Spelunking (CLAUDE.md masterclass rule)"
+     "then": "Death Bringers move to Spelunking (CLAUDE.md masterclass rule)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -2402,7 +2688,7 @@
      "urgent": false
     }
    ],
-   "summary": "Grimoire [blocker] rung 1/3: 3,043 -> 3,150. Next: Buy every affordable level now (about 11 first levels: 6 on bone type 0, 3 on type 1, 2 on type 2), then fa... [AutoReview + Griffy 2026-10-16 yxgmoZQ59mY 00:46:35] (+1 more scored)"
+   "summary": "Grimoire [blocker] rung 1/3: now 3,043 (live) -> 3,150. Next: Buy every affordable level now (about 11 first levels: 6 on bone type 0, 3 on type 1, 2 on type 2), then fa... [AutoReview + Griffy 2026-10-16 yxgmoZQ59mY 00:46:35] (+1 more scored)"
   },
   "guild_bonuses": {
    "slug": "guild_bonuses",
@@ -2412,7 +2698,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 3,
-   "now": "no guild",
+   "now": "not in save (last written: no guild)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "in a guild",
    "src": "Griffy",
    "finished": false,
@@ -2426,7 +2715,10 @@
    "triggers": [
     {
      "when": "guild joined",
-     "then": "add daily GP line to every card"
+     "then": "add daily GP line to every card",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -2442,7 +2734,7 @@
      "urgent": true
     }
    ],
-   "summary": "Guild Bonuses [independent] rung 1/3: no guild -> in a guild. Next: Find and join an active guild (Griffy: Discord lists open guilds) [Griffy]"
+   "summary": "Guild Bonuses [independent] rung 1/3: now not in save (last written: no guild) -> in a guild. Next: Find and join an active guild (Griffy: Discord lists open guilds) [Griffy]"
   },
   "hat_rack": {
    "slug": "hat_rack",
@@ -2452,7 +2744,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 2,
    "rungs": 4,
-   "now": "1.51x",
+   "now": "not in save (last written: 1.51x)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "1.66x (Wild Boar)",
    "src": "Griffy",
    "finished": false,
@@ -2466,7 +2761,10 @@
    "triggers": [
     {
      "when": "new premium or sneaking hat found",
-     "then": "deposit it (Pulse 2026-10-16: deposited vanity ninja hats leave the drop table)"
+     "then": "deposit it (Pulse 2026-10-16: deposited vanity ninja hats leave the drop table)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -2482,7 +2780,7 @@
      "urgent": false
     }
    ],
-   "summary": "Hat Rack [independent] rung 2/4: 1.51x -> 1.66x (Wild Boar). Next: Ticles: push Minehead + Sushi hat-rack bonuses on his W7 minis lines (Zack 2026-11-28 approved) [Zack + parser breakdown]"
+   "summary": "Hat Rack [independent] rung 2/4: now not in save (last written: 1.51x) -> 1.66x (Wild Boar). Next: Ticles: push Minehead + Sushi hat-rack bonuses on his W7 minis lines (Zack 2026-11-28 approved) [Zack + parser breakdown]"
   },
   "inventory": {
    "slug": "inventory",
@@ -2492,7 +2790,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 2,
-   "now": null,
+   "now": "not in save",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Marble",
    "src": "Griffy",
    "finished": false,
@@ -2519,7 +2820,7 @@
      "urgent": false
     }
    ],
-   "summary": "Inventory [feeder] rung 1/2: None -> Marble. Next: Upgrade carry bags below Marble [Griffy]"
+   "summary": "Inventory [feeder] rung 1/2: now not in save -> Marble. Next: Upgrade carry bags below Marble [Griffy]"
   },
   "islands": {
    "slug": "islands",
@@ -2529,7 +2830,10 @@
    "section": "Islands",
    "rung": 2,
    "rungs": 3,
-   "now": "512 / 570 bottles, +9/day",
+   "now": 512.125,
+   "now_src": "live",
+   "now_path": "islands.bottles",
+   "op": ">=",
    "target": "570",
    "src": "data",
    "finished": false,
@@ -2545,7 +2849,10 @@
    "triggers": [
     {
      "when": "bottles >= 570",
-     "then": "unlock Fractal (my read, Zack 2026-11-28: he saves candy, so Griffy's candy reason to skip does not apply)"
+     "then": "unlock Fractal (my read, Zack 2026-11-28: he saves candy, so Griffy's candy reason to skip does not apply)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -2572,7 +2879,7 @@
      "urgent": false
     }
    ],
-   "summary": "Islands [independent] rung 2/3: 512 / 570 bottles, +9/day -> 570. Next: Collect trash; buy any missing island stamp [Griffy 2026-09-21 KHuU392EW-4 00:58:30] (+1 more scored)"
+   "summary": "Islands [independent] rung 2/3: now 512.12 (live) -> 570. Next: Collect trash; buy any missing island stamp [Griffy 2026-09-21 KHuU392EW-4 00:58:30] (+1 more scored)"
   },
   "jelly_operator": {
    "slug": "jelly_operator",
@@ -2582,7 +2889,10 @@
    "section": "Jelly Operator",
    "rung": 1,
    "rungs": 3,
-   "now": "3/8 cells",
+   "now": "not in save (last written: 3/8 cells)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "4/8",
    "src": "Toolbox",
    "finished": false,
@@ -2598,7 +2908,10 @@
    "triggers": [
     {
      "when": "Research level rises (Totle)",
-     "then": "re-check which jelly locks opened"
+     "then": "re-check which jelly locks opened",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -2614,7 +2927,7 @@
      "urgent": true
     }
    ],
-   "summary": "Jelly Operator [feeder] rung 1/3: 3/8 cells -> 4/8. Next: Buy Organelle Cell Cultivation now, then cheapest OK upgrades (Cell Biology 840K, Bloodletting I 1.07M, Dai... [Toolbox]"
+   "summary": "Jelly Operator [feeder] rung 1/3: now not in save (last written: 3/8 cells) -> 4/8. Next: Buy Organelle Cell Cultivation now, then cheapest OK upgrades (Cell Biology 840K, Bloodletting I 1.07M, Dai... [Toolbox]"
   },
   "killroy": {
    "slug": "killroy",
@@ -2624,7 +2937,10 @@
    "section": "Killroy",
    "rung": 1,
    "rungs": 3,
-   "now": 5,
+   "now": "not in save (last written: 5)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 16,
    "src": "AutoReview",
    "finished": false,
@@ -2642,7 +2958,10 @@
    "triggers": [
     {
      "when": "3rd weekly fight unlocked (1%/lvl perm)",
-     "then": "add a 3rd fight to the weekly"
+     "then": "add a 3rd fight to the weekly",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -2660,7 +2979,7 @@
      "urgent": false
     }
    ],
-   "summary": "Killroy [feeder] rung 1/3: 5 -> 16. Next: Weekly Killroy fights on Cat first; spend skulls on Skulls upgrade toward 16 [AutoReview + Griffy]"
+   "summary": "Killroy [feeder] rung 1/3: now not in save (last written: 5) -> 16. Next: Weekly Killroy fights on Cat first; spend skulls on Skulls upgrade toward 16 [AutoReview + Griffy]"
   },
   "lab_bonuses": {
    "slug": "lab_bonuses",
@@ -2670,7 +2989,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 2,
-   "now": "9/18 on",
+   "now": "not in save (last written: 9/18 on)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Off now: Animal Farm, Gilded Cyclical Tubing, Viaduct of the Gods, My 1st Chemistry Set, Unadulterated Banking Fury, Sigils of Olden Alchemy, Viral Connection, Spiritual Growth, Depot Studies PhD",
    "src": "Toolbox",
    "finished": false,
@@ -2686,7 +3008,10 @@
    "triggers": [
     {
      "when": "a lab-wide jewel or more line width lands",
-     "then": "re-layout and re-check which bonuses light"
+     "then": "re-layout and re-check which bonuses light",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -2702,7 +3027,7 @@
      "urgent": false
     }
    ],
-   "summary": "Lab Bonuses [feeder] rung 1/2: 9/18 on -> Off now: Animal Farm, Gilded Cyclical Tubing, Viaduct of the Gods, My 1st Chemistry Set.... Next: Confirm in game why each of the 9 is off (out of range vs not unlocked) [my_read]"
+   "summary": "Lab Bonuses [feeder] rung 1/2: now not in save (last written: 9/18 on) -> Off now: Animal Farm, Gilded Cyclical Tubing, Viaduct of the Gods, My 1st Chemistry Set.... Next: Confirm in game why each of the 9 is off (out of range vs not unlocked) [my_read]"
   },
   "lab_chips": {
    "slug": "lab_chips",
@@ -2712,7 +3037,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 2,
    "rungs": 3,
-   "now": "4 chip types at 0",
+   "now": "not in save (last written: 4 chip types at 0)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "1+ each",
    "src": "Toolbox",
    "finished": false,
@@ -2728,7 +3056,10 @@
    "triggers": [
     {
      "when": "a missing chip enters rotation",
-     "then": "buy it that week; it takes a long time to come back (Griffy)"
+     "then": "buy it that week; it takes a long time to come back (Griffy)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -2744,7 +3075,7 @@
      "urgent": false
     }
    ],
-   "summary": "Lab Chips [feeder] rung 2/3: 4 chip types at 0 -> 1+ each. Next: Check which missing chip is in rotation and stock its mats [Griffy]"
+   "summary": "Lab Chips [feeder] rung 2/3: now not in save (last written: 4 chip types at 0) -> 1+ each. Next: Check which missing chip is in rotation and stock its mats [Griffy]"
   },
   "lab_jewels": {
    "slug": "lab_jewels",
@@ -2754,7 +3085,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 2,
-   "now": "21/24",
+   "now": "not in save (last written: 21/24)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "23/24",
    "src": "Toolbox",
    "finished": false,
@@ -2770,11 +3104,17 @@
    "triggers": [
     {
      "when": "North Winds or Eternal Energy bought",
-     "then": "re-check which lab bonuses turn on (9 of 18 off now)"
+     "then": "re-check which lab bonuses turn on (9 of 18 off now)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Pure Opal Rhombol bought",
-     "then": "Depot Studies PhD bonus becomes worth wiring"
+     "then": "Depot Studies PhD bonus becomes worth wiring",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -2792,7 +3132,7 @@
      "urgent": false
     }
    ],
-   "summary": "Lab Jewels [feeder] rung 1/2: 21/24 -> 23/24. Next: Stock Sticky Bun (meal) + Bamboo Forest spice + Dark Lantern for the 2 lab-wide jewels [Toolbox]"
+   "summary": "Lab Jewels [feeder] rung 1/2: now not in save (last written: 21/24) -> 23/24. Next: Stock Sticky Bun (meal) + Bamboo Forest spice + Dark Lantern for the 2 lab-wide jewels [Toolbox]"
   },
   "lab_mainframe": {
    "slug": "lab_mainframe",
@@ -2802,7 +3142,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 2,
-   "now": 8,
+   "now": "not in save (last written: 8)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 11,
    "src": "Toolbox",
    "finished": false,
@@ -2818,7 +3161,10 @@
    "triggers": [
     {
      "when": "a character's AFK job frees up",
-     "then": "park them in lab if they connect"
+     "then": "park them in lab if they connect",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -2836,7 +3182,7 @@
      "urgent": false
     }
    ],
-   "summary": "Lab Mainframe [feeder] rung 1/2: 8 -> 11. Next: Name which 3 characters aren't connected and whether moving them costs a higher-score job [Toolbox]"
+   "summary": "Lab Mainframe [feeder] rung 1/2: now not in save (last written: 8) -> 11. Next: Name which 3 characters aren't connected and whether moving them costs a higher-score job [Toolbox]"
   },
   "legend_talents": {
    "slug": "legend_talents",
@@ -2846,7 +3192,10 @@
    "section": "Legend Talents",
    "rung": 1,
    "rungs": 3,
-   "now": 2,
+   "now": "not in save (last written: 2)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 3,
    "src": "Pulse",
    "finished": false,
@@ -2862,15 +3211,24 @@
    "triggers": [
     {
      "when": "points left > 0",
-     "then": "next rung"
+     "then": "next rung",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Zack finishes transcript review",
-     "then": "re-decide hold"
+     "then": "re-decide hold",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "legend points come up or are spendable",
-     "then": "full pick list from everything (tiers, goal chain, blockers), Zack 2026-11-27"
+     "then": "full pick list from everything (tiers, goal chain, blockers), Zack 2026-11-27",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -2886,7 +3244,7 @@
      "urgent": false
     }
    ],
-   "summary": "Legend Talents [feeder] rung 1/3: 2 -> 3. Next: Next point: Inevitable Builder 3/3 (Construction slot, 2.5x faster) [Pulse]"
+   "summary": "Legend Talents [feeder] rung 1/3: now not in save (last written: 2) -> 3. Next: Next point: Inevitable Builder 3/3 (Construction slot, 2.5x faster) [Pulse]"
   },
   "library": {
    "slug": "library",
@@ -2896,7 +3254,10 @@
    "section": "Library",
    "rung": 1,
    "rungs": 3,
-   "now": "58 books, max Lv 328, min 153",
+   "now": 58,
+   "now_src": "live",
+   "now_path": "libraryTimes.bookCount",
+   "op": ">=",
    "target": "Book the card's #1-9 ranked talents to 328 (e.g. Archlord Of The Pirates 223, Dank Ranks 213)",
    "src": "AutoReview",
    "finished": false,
@@ -2912,7 +3273,10 @@
    "triggers": [
     {
      "when": "a ranked talent hits 328",
-     "then": "it drops off; next rank moves up"
+     "then": "it drops off; next rank moves up",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -2928,7 +3292,7 @@
      "urgent": false
     }
    ],
-   "summary": "Library [feeder] rung 1/3: 58 books, max Lv 328, min 153 -> Book the card's #1-9 ranked talents to 328 (e.g. Archlord Of The Pirates 223, Dank Rank.... Next: Spend books on the top ranked talent (always show #1-55 rank) [AutoReview + Griffy 2026-10-04]"
+   "summary": "Library [feeder] rung 1/3: now 58 (live) -> Book the card's #1-9 ranked talents to 328 (e.g. Archlord Of The Pirates 223, Dank Rank.... Next: Spend books on the top ranked talent (always show #1-55 rank) [AutoReview + Griffy 2026-10-04]"
   },
   "meals": {
    "slug": "meals",
@@ -2938,7 +3302,10 @@
    "section": "Cooking",
    "rung": 1,
    "rungs": 3,
-   "now": "25/74 meals ribboned, lowest rank 4, highest 19",
+   "now": "not in save (last written: 25/74 meals ribboned, lowest rank 4, highest 19)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "ribbon the speed meals first (Egg, Turkey), lowest ribbon 4 -> higher",
    "src": "my_read",
    "finished": false,
@@ -2954,7 +3321,10 @@
    "triggers": [
     {
      "when": "shelf has 2 of the same ribbon",
-     "then": "combine and place on the top speed meal"
+     "then": "combine and place on the top speed meal",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -2972,7 +3342,7 @@
      "urgent": false
     }
    ],
-   "summary": "Meals [independent] rung 1/3: 25/74 meals ribboned, lowest rank 4, highest 19 -> ribbon the speed meals first (Egg, Turkey), lowest ribbon 4 -> higher. Next: Combine shelf ribbons and place on Egg/Turkey [Griffy]"
+   "summary": "Meals [independent] rung 1/3: now not in save (last written: 25/74 meals ribboned, lowest rank 4, highest 19) -> ribbon the speed meals first (Egg, Turkey), lowest ribbon 4 -> higher. Next: Combine shelf ribbons and place on Egg/Turkey [Griffy]"
   },
   "menagerie": {
    "slug": "menagerie",
@@ -2983,6 +3353,9 @@
    "rung": 1,
    "rungs": 3,
    "now": 0,
+   "now_src": "live",
+   "now_path": "menagerie.shells",
+   "op": ">=",
    "target": 3,
    "src": "Toolbox",
    "finished": false,
@@ -2998,11 +3371,17 @@
    "triggers": [
     {
      "when": "shell gained",
-     "then": "check rank-up"
+     "then": "check rank-up",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Black Star affordable",
-     "then": "buy it (Pulse: strongest, scales hard, 1-2 more)"
+     "then": "buy it (Pulse: strongest, scales hard, 1-2 more)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3031,7 +3410,7 @@
      "urgent": false
     }
    ],
-   "summary": "Menagerie [feeder] rung 1/3: 0 -> 3. Next: Buy cheapest boost (#4, Lv 6, 1.25K lumi) with the 6.49K on hand [my_read] (+1 more scored)"
+   "summary": "Menagerie [feeder] rung 1/3: now 0 (live) -> 3. Next: Buy cheapest boost (#4, Lv 6, 1.25K lumi) with the 6.49K on hand [my_read] (+1 more scored)"
   },
   "meritocracy": {
    "slug": "meritocracy",
@@ -3041,7 +3420,10 @@
    "section": "Meritocracy",
    "rung": 1,
    "rungs": 1,
-   "now": "28 options, active shows 1.00x (no vote read)",
+   "now": "not in save (last written: 28 options, active shows 1.00x (no vote read))",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "weekly vote read and weighed into that week's plan",
    "src": "Zack",
    "finished": false,
@@ -3057,7 +3439,10 @@
    "triggers": [
     {
      "when": "a winning option boosts a goal system",
-     "then": "flag it on that system's owner card for the week"
+     "then": "flag it on that system's owner card for the week",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3073,7 +3458,7 @@
      "urgent": false
     }
    ],
-   "summary": "Meritocracy [independent] rung 1/1: 28 options, active shows 1.00x (no vote read) -> weekly vote read and weighed into that week's plan. Next: Read the week's options, write pros/cons [Zack]"
+   "summary": "Meritocracy [independent] rung 1/1: now not in save (last written: 28 options, active shows 1.00x (no vote read)) -> weekly vote read and weighed into that week's plan. Next: Read the week's options, write pros/cons [Zack]"
   },
   "merits": {
    "slug": "merits",
@@ -3083,7 +3468,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 3,
-   "now": "19/20",
+   "now": "not in save (last written: 19/20)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "20/20",
    "src": "Toolbox",
    "finished": false,
@@ -3099,7 +3487,10 @@
    "triggers": [
     {
      "when": "all 64 maxed",
-     "then": "drop to a one-line check"
+     "then": "drop to a one-line check",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3115,7 +3506,7 @@
      "urgent": false
     }
    ],
-   "summary": "Merits [independent] rung 1/3: 19/20 -> 20/20. Next: Spend merit points: W5 Tab 4 last level, then W6 Tab 5 [my_read]"
+   "summary": "Merits [independent] rung 1/3: now not in save (last written: 19/20) -> 20/20. Next: Spend merit points: W5 Tab 4 last level, then W6 Tab 5 [my_read]"
   },
   "minehead": {
    "slug": "minehead",
@@ -3125,7 +3516,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 2,
    "rungs": 3,
-   "now": "9 beaten, best hit 2.85K, 1.18K currency at 103/hr",
+   "now": "not in save (last written: 9 beaten, best hit 2.85K, 1.18K currency at 103/hr)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Threadhead",
    "src": "Pulse",
    "finished": false,
@@ -3141,7 +3535,10 @@
    "triggers": [
     {
      "when": "an opponent falls",
-     "then": "note its bonus; re-check next opponent's HP"
+     "then": "note its bonus; re-check next opponent's HP",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3157,7 +3554,7 @@
      "urgent": false
     }
    ],
-   "summary": "Minehead [feeder] rung 2/3: 9 beaten, best hit 2.85K, 1.18K currency at 103/hr -> Threadhead. Next: Use 3 tries; spend currency on Base Damage I/Mega Damage I (cheapest damage) [Pulse 2026-09-02 oRTdKQdYJv0 26:01]"
+   "summary": "Minehead [feeder] rung 2/3: now not in save (last written: 9 beaten, best hit 2.85K, 1.18K currency at 103/hr) -> Threadhead. Next: Use 3 tries; spend currency on Base Damage I/Mega Damage I (cheapest damage) [Pulse 2026-09-02 oRTdKQdYJv0 26:01]"
   },
   "money": {
    "slug": "money",
@@ -3167,7 +3564,10 @@
    "section": "Money",
    "rung": 1,
    "rungs": 5,
-   "now": null,
+   "now": "not in save",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 4,
    "src": "Pulse",
    "finished": false,
@@ -3183,7 +3583,10 @@
    "triggers": [
     {
      "when": "Luminous Menagerie patch cost known",
-     "then": "set coin target to it"
+     "then": "set coin target to it",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3210,7 +3613,7 @@
      "urgent": false
     }
    ],
-   "summary": "Money [feeder] rung 1/5: None -> 4. Next: In-game: check Bling Pendant / Corsair / Rumble chip / Golden Bread / Draw Breaker on Matic [Pulse 2026-08-02..11-11] (+1 more scored)"
+   "summary": "Money [feeder] rung 1/5: now not in save -> 4. Next: In-game: check Bling Pendant / Corsair / Rumble chip / Golden Bread / Draw Breaker on Matic [Pulse 2026-08-02..11-11] (+1 more scored)"
   },
   "npc_tokens": {
    "slug": "npc_tokens",
@@ -3220,7 +3623,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 3,
-   "now": null,
+   "now": "not in save",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 10,
    "src": "Griffy",
    "finished": false,
@@ -3247,7 +3653,7 @@
      "urgent": false
     }
    ],
-   "summary": "Npc Tokens [feeder] rung 1/3: None -> 10. Next: Run Bellows quest 3 on characters that lack it [Griffy]"
+   "summary": "Npc Tokens [feeder] rung 1/3: now not in save -> 10. Next: Run Bellows quest 3 on characters that lack it [Griffy]"
   },
   "obols": {
    "slug": "obols",
@@ -3257,7 +3663,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 3,
-   "now": "124% family DR",
+   "now": "not in save (last written: 124% family DR)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Glacial Guard random event every time it shows (1/60 BiS drop-rate obol)",
    "src": "Griffy",
    "finished": false,
@@ -3283,7 +3692,10 @@
    "triggers": [
     {
      "when": "Glacial Guard event appears",
-     "then": "do it now"
+     "then": "do it now",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3310,7 +3722,7 @@
      "urgent": false
     }
    ],
-   "summary": "Obols [feeder] rung 1/3: 124% family DR -> Glacial Guard random event every time it shows (1/60 BiS drop-rate obol). Next: Each character: check own obol slots for upgrades/rerolls [my_read] (+1 more scored)"
+   "summary": "Obols [feeder] rung 1/3: now not in save (last written: 124% family DR) -> Glacial Guard random event every time it shows (1/60 BiS drop-rate obol). Next: Each character: check own obol slots for upgrades/rerolls [my_read] (+1 more scored)"
   },
   "owl": {
    "slug": "owl",
@@ -3320,7 +3732,10 @@
    "section": "Owl",
    "rung": 1,
    "rungs": 3,
-   "now": "Feather Restart 24",
+   "now": "not in save (last written: Feather Restart 24)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "28",
    "src": "AutoReview",
    "finished": false,
@@ -3336,7 +3751,10 @@
    "triggers": [
     {
      "when": "ballot has feather + fish production",
-     "then": "push Owl hard that week"
+     "then": "push Owl hard that week",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3352,7 +3770,7 @@
      "urgent": false
     }
    ],
-   "summary": "Owl [independent] rung 1/3: Feather Restart 24 -> 28. Next: Feather reset, then buy Shiny Feathers + the 5 cheap upgrades (all under 7e27, have 1.01e32) [Griffy 2026-09-21 KHuU392EW-4 00:49:43]"
+   "summary": "Owl [independent] rung 1/3: now not in save (last written: Feather Restart 24) -> 28. Next: Feather reset, then buy Shiny Feathers + the 5 cheap upgrades (all under 7e27, have 1.01e32) [Griffy 2026-09-21 KHuU392EW-4 00:49:43]"
   },
   "palette": {
    "slug": "palette",
@@ -3362,7 +3780,10 @@
    "section": "Palette",
    "rung": 1,
    "rungs": 3,
-   "now": "9/37 colors owned, black stars 2 (all on Light Cyan)",
+   "now": "not in save (last written: 9/37 colors owned, black stars 2 (all on Light ...)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Pick up a black star or two (first 8 doubler placements are solved)",
    "src": "Pulse",
    "finished": false,
@@ -3378,11 +3799,17 @@
    "triggers": [
     {
      "when": "palette week in ballot",
-     "then": "rung 2, spend on owned colors"
+     "then": "rung 2, spend on owned colors",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "a new black star is available",
-     "then": "place it (rung 1)"
+     "then": "place it (rung 1)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3398,7 +3825,7 @@
      "urgent": false
     }
    ],
-   "summary": "Palette [feeder] rung 1/3: 9/37 colors owned, black stars 2 (all on Light Cyan) -> Pick up a black star or two (first 8 doubler placements are solved). Next: Check black star count + where Pulse's doubler placements go; move/add stars [Pulse]"
+   "summary": "Palette [feeder] rung 1/3: now not in save (last written: 9/37 colors owned, black stars 2 (all on Light ...) -> Pick up a black star or two (first 8 doubler placements are solved). Next: Check black star count + where Pulse's doubler placements go; move/add stars [Pulse]"
   },
   "poppy": {
    "slug": "poppy",
@@ -3408,7 +3835,10 @@
    "section": "Poppy",
    "rung": 1,
    "rungs": 2,
-   "now": "pet Poppy not owned",
+   "now": "not in save (last written: pet Poppy not owned)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "owned",
    "src": "Pulse",
    "finished": false,
@@ -3424,15 +3854,21 @@
    "triggers": [
     {
      "when": "Poppy pet drops",
-     "then": "use the pet token on it, not Coral Cave Guardian"
+     "then": "use the pet token on it, not Coral Cave Guardian",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Fairy Friends Forever owned",
-     "then": "re-rate friend Poppy (11x per Pulse 2026-09-25)"
+     "then": "re-rate friend Poppy (11x per Pulse 2026-09-25)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [],
-   "summary": "Poppy [feeder] rung 1/2: pet Poppy not owned -> owned"
+   "summary": "Poppy [feeder] rung 1/2: now not in save (last written: pet Poppy not owned) -> owned"
   },
   "post_office": {
    "slug": "post_office",
@@ -3442,7 +3878,10 @@
    "section": "Post Office",
    "rung": 1,
    "rungs": 3,
-   "now": "Tacular 183, Matic/Naut/Topher/Tachio 0",
+   "now": "not in save (last written: Tacular 183, Matic/Naut/Topher/Tachio 0)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "400 each",
    "src": "Griffy",
    "finished": false,
@@ -3468,7 +3907,10 @@
    "triggers": [
     {
      "when": "a character has PO points",
-     "do": "spend on the lowest rung box on their card"
+     "do": "spend on the lowest rung box on their card",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3495,7 +3937,7 @@
      "urgent": false
     }
    ],
-   "summary": "Post Office [independent] rung 1/3: Tacular 183, Matic/Naut/Topher/Tachio 0 -> 400 each. Next: Potion Package to 400 on Tacular, Matic, Naut, Topher, Tachio [Griffy 2025-06-07 yCkTzQzeLn8] (+1 more scored)"
+   "summary": "Post Office [independent] rung 1/3: now not in save (last written: Tacular 183, Matic/Naut/Topher/Tachio 0) -> 400 each. Next: Potion Package to 400 on Tacular, Matic, Naut, Topher, Tachio [Griffy 2025-06-07 yCkTzQzeLn8] (+1 more scored)"
   },
   "prayers": {
    "slug": "prayers",
@@ -3505,7 +3947,10 @@
    "section": "Prayers",
    "rung": 2,
    "rungs": 3,
-   "now": "Midas 35, Unending 40",
+   "now": "not in save (last written: Midas 35, Unending 40)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 50,
    "src": "Toolbox",
    "finished": false,
@@ -3531,7 +3976,10 @@
    "triggers": [
     {
      "when": "worship unlocks a prayer",
-     "then": "add it to the on/off list"
+     "then": "add it to the on/off list",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3547,7 +3995,7 @@
      "urgent": false
     }
    ],
-   "summary": "Prayers [feeder] rung 2/3: Midas 35, Unending 40 -> 50. Next: Level Unending Energy to 50 [Toolbox]"
+   "summary": "Prayers [feeder] rung 2/3: now not in save (last written: Midas 35, Unending 40) -> 50. Next: Level Unending Energy to 50 [Toolbox]"
   },
   "printer": {
    "slug": "printer",
@@ -3557,7 +4005,10 @@
    "section": "Sampling",
    "rung": 1,
    "rungs": 3,
-   "now": null,
+   "now": "not in save",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "90%",
    "src": "Griffy",
    "finished": false,
@@ -3576,7 +4027,10 @@
    "triggers": [
     {
      "when": "sample size buff gained",
-     "then": "resample top refinery mats"
+     "then": "resample top refinery mats",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3594,7 +4048,7 @@
      "urgent": false
     }
    ],
-   "summary": "Printer [feeder] rung 1/3: None -> 90%. Next: Resample refinery monster drops on Wind Walker [Griffy]"
+   "summary": "Printer [feeder] rung 1/3: now not in save -> 90%. Next: Resample refinery monster drops on Wind Walker [Griffy]"
   },
   "quests": {
    "slug": "quests",
@@ -3604,7 +4058,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 2,
-   "now": null,
+   "now": "not in save",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 1,
    "src": "Griffy",
    "finished": false,
@@ -3618,7 +4075,10 @@
    "triggers": [
     {
      "when": "Chizoar keys unlocked",
-     "then": "add daily key to the owner card"
+     "then": "add daily key to the owner card",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3634,7 +4094,7 @@
      "urgent": false
     }
    ],
-   "summary": "Quests [independent] rung 1/2: None -> 1. Next: Kill a giant Neyeptune for Bellows quest 3 [Griffy]"
+   "summary": "Quests [independent] rung 1/2: now not in save -> 1. Next: Kill a giant Neyeptune for Bellows quest 3 [Griffy]"
   },
   "refinery": {
    "slug": "refinery",
@@ -3644,7 +4104,10 @@
    "section": "Refinery",
    "rung": 1,
    "rungs": 3,
-   "now": "4 salts in deficit, 7/9 unlocked",
+   "now": "not in save (last written: 4 salts in deficit, 7/9 unlocked)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "0 deficits",
    "src": "AutoReview",
    "finished": false,
@@ -3660,11 +4123,17 @@
    "triggers": [
     {
      "when": "a salt goes to excess",
-     "then": "rank it up or let it feed the next tier"
+     "then": "rank it up or let it feed the next tier",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "gear craft needs salts",
-     "then": "hold refining that salt until crafted"
+     "then": "hold refining that salt until crafted",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3682,7 +4151,7 @@
      "urgent": false
     }
    ],
-   "summary": "Refinery [feeder] rung 1/3: 4 salts in deficit, 7/9 unlocked -> 0 deficits. Next: Set auto-refine: Red off, Green off, Purple off; cover the Orange deficit first (largest) [Griffy 2026-10-04 N5yJ4-tZLbY 19:26]"
+   "summary": "Refinery [feeder] rung 1/3: now not in save (last written: 4 salts in deficit, 7/9 unlocked) -> 0 deficits. Next: Set auto-refine: Red off, Green off, Purple off; cover the Orange deficit first (largest) [Griffy 2026-10-04 N5yJ4-tZLbY 19:26]"
   },
   "research": {
    "slug": "research",
@@ -3692,7 +4161,10 @@
    "section": "Research",
    "rung": 1,
    "rungs": 4,
-   "now": 0,
+   "now": "not in save (last written: 0)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 1,
    "src": "Pulse",
    "finished": false,
@@ -3708,7 +4180,10 @@
    "triggers": [
     {
      "when": "research level up (grid point)",
-     "then": "spend on next ladder rung"
+     "then": "spend on next ladder rung",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3735,7 +4210,7 @@
      "urgent": false
     }
    ],
-   "summary": "Research [feeder] rung 1/4: 0 -> 1. Next: Use the 9 daily rolls [Toolbox] (+1 more scored)"
+   "summary": "Research [feeder] rung 1/4: now not in save (last written: 0) -> 1. Next: Use the 9 daily rolls [Toolbox] (+1 more scored)"
   },
   "rift": {
    "slug": "rift",
@@ -3745,7 +4220,10 @@
    "section": "Rift",
    "rung": 2,
    "rungs": 2,
-   "now": "no Super CHOW",
+   "now": "not in save (last written: no Super CHOW)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Super CHOW done",
    "src": "AutoReview",
    "finished": false,
@@ -3761,11 +4239,17 @@
    "triggers": [
     {
      "when": "a game update adds rifts",
-     "then": "re-open the ladder"
+     "then": "re-open the ladder",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Super CHOW done",
-     "then": "drop to a one-line check"
+     "then": "drop to a one-line check",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3781,7 +4265,7 @@
      "urgent": false
     }
    ],
-   "summary": "Rift [independent] rung 2/2: no Super CHOW -> Super CHOW done. Next: Fit the Rift Super CHOW into Topher's Super CHOW rotation [AutoReview]"
+   "summary": "Rift [independent] rung 2/2: now not in save (last written: no Super CHOW) -> Super CHOW done. Next: Fit the Rift Super CHOW into Topher's Super CHOW rotation [AutoReview]"
   },
   "royal_armory": {
    "slug": "royal_armory",
@@ -3789,13 +4273,18 @@
    "role": "feeder",
    "goal": "Reach the next armory shelf (230 levels) and open Resource Grades + Kingdom Expansions",
    "section": "Royal Armory",
-   "rung": 1,
+   "rung": 2,
    "rungs": 3,
-   "now": 226,
-   "target": 230,
+   "now": 230,
+   "now_src": "live",
+   "now_path": "royalGuardian.armory.totalLevels",
+   "op": ">=",
+   "target": "Unlock Resource Grades (cost 61.8K)",
    "src": "Toolbox",
    "finished": false,
-   "flags": [],
+   "flags": [
+    "TARGET HIT (live 230 >= 230): rung 1 done, now rung 2 -> Unlock Resource Grades (cost 61.8K)"
+   ],
    "cadence": "daily",
    "look_at": "Royal Guardian orbs, outposts, marble",
    "who": "Autistastic",
@@ -3807,11 +4296,17 @@
    "triggers": [
     {
      "when": "shelf 230 reached",
-     "then": "next rung"
+     "then": "next rung",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "marble found",
-     "then": "spend on statue unlocks (Griffy 2026-10-16)"
+     "then": "spend on statue unlocks (Griffy 2026-10-16)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3829,7 +4324,7 @@
      "urgent": false
     }
    ],
-   "summary": "Royal Armory [feeder] rung 1/3: 226 -> 230. Next: Buy 4 cheapest levels: Resource Replenish (6.35K), Solo Militia (9.94K), Anti-Rodent I (30.8K), Royal Talen... [my_read]"
+   "summary": "Royal Armory [feeder] rung 2/3: now 230 (live) -> Unlock Resource Grades (cost 61.8K). Next: Buy 4 cheapest levels: Resource Replenish (6.35K), Solo Militia (9.94K), Anti-Rodent I (30.8K), Royal Talen... [my_read] | TARGET HIT (live 230 >= 230): rung 1 done, now rung 2 -> Unlock Resource Grades (cost 61.8K)"
   },
   "sailing": {
    "slug": "sailing",
@@ -3839,7 +4334,10 @@
    "section": "Sailing",
    "rung": 1,
    "rungs": 3,
-   "now": "37/41 found",
+   "now": "not in save (last written: 37/41 found)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "41/41",
    "src": "AutoReview",
    "finished": false,
@@ -3855,7 +4353,10 @@
    "triggers": [
     {
      "when": "Teal summoning artifact-find battles won",
-     "then": "re-run odds; recheck which missing artifact is reachable"
+     "then": "re-run odds; recheck which missing artifact is reachable",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3871,7 +4372,7 @@
      "urgent": false
     }
    ],
-   "summary": "Sailing [feeder] rung 1/3: 37/41 found -> 41/41. Next: Daily captain shop/trades/boat upgrades per the card [Griffy + Toolbox]"
+   "summary": "Sailing [feeder] rung 1/3: now not in save (last written: 37/41 found) -> 41/41. Next: Daily captain shop/trades/boat upgrades per the card [Griffy + Toolbox]"
   },
   "saltlick": {
    "slug": "saltlick",
@@ -3881,7 +4382,10 @@
    "section": "Salt Lick",
    "rung": 1,
    "rungs": 3,
-   "now": 76,
+   "now": "not in save (last written: 76)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 100,
    "src": "Toolbox",
    "finished": false,
@@ -3897,7 +4401,10 @@
    "triggers": [
     {
      "when": "Explosive Salts hits 100",
-     "then": "switch buys to Nullo Salt, tell cooking owner"
+     "then": "switch buys to Nullo Salt, tell cooking owner",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3915,7 +4422,7 @@
      "urgent": false
     }
    ],
-   "summary": "Saltlick [feeder] rung 1/3: 76 -> 100. Next: Level Explosive Salts when salts aren't reserved for Refinery [Toolbox]"
+   "summary": "Saltlick [feeder] rung 1/3: now not in save (last written: 76) -> 100. Next: Level Explosive Salts when salts aren't reserved for Refinery [Toolbox]"
   },
   "shrines": {
    "slug": "shrines",
@@ -3925,7 +4432,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 4,
-   "now": "9/9 placed on map 150, world tour on, levels 22-25 (lowest 22: Crystal, Summereading, Undead, Primordial)",
+   "now": "not in save (last written: 9/9 placed on map 150, world tour on, levels 22...)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "All shrines on the farming map for damage + drop rate",
    "src": "Griffy",
    "finished": false,
@@ -3939,11 +4449,17 @@
    "triggers": [
     {
      "when": "where the roster AFKs changes",
-     "then": "re-pick the town with the most shrine XP, move (check Collective Agreement first)"
+     "then": "re-pick the town with the most shrine XP, move (check Collective Agreement first)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Shrine XP ballot week",
-     "then": "note it, no action needed"
+     "then": "note it, no action needed",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -3959,7 +4475,7 @@
      "urgent": false
     }
    ],
-   "summary": "Shrines [feeder] rung 1/4: 9/9 placed on map 150, world tour on, levels 22-25 (lowest 22: Crystal, Summereading, U... -> All shrines on the farming map for damage + drop rate. Next: Check which town gives the most shrine XP for where everyone is AFK now; move shrines there if map 150 is n... [Griffy]"
+   "summary": "Shrines [feeder] rung 1/4: now not in save (last written: 9/9 placed on map 150, world tour on, levels 22...) -> All shrines on the farming map for damage + drop rate. Next: Check which town gives the most shrine XP for where everyone is AFK now; move shrines there if map 150 is n... [Griffy]"
   },
   "slab": {
    "slug": "slab",
@@ -3969,7 +4485,10 @@
    "section": "Slab",
    "rung": 1,
    "rungs": 3,
-   "now": "1,560 / 1,938 (357 missing)",
+   "now": 1557,
+   "now_src": "live",
+   "now_path": "looty.lootedItems",
+   "op": ">=",
    "target": "1,600",
    "src": "Griffy",
    "finished": false,
@@ -3999,7 +4518,7 @@
      "urgent": false
     }
    ],
-   "summary": "Slab [independent] rung 1/3: 1,560 / 1,938 (357 missing) -> 1,600. Next: Grab 40 easy Slab items (fish, catching tool, marbles, Bone Meal, Icebreaker) [Griffy 2026-04-23 kD7KZ5zX6Ss 00:47:59]"
+   "summary": "Slab [independent] rung 1/3: now 1,557 (live) -> 1,600. Next: Grab 40 easy Slab items (fish, catching tool, marbles, Bone Meal, Icebreaker) [Griffy 2026-04-23 kD7KZ5zX6Ss 00:47:59]"
   },
   "snail_mail": {
    "slug": "snail_mail",
@@ -4009,7 +4528,10 @@
    "section": "Snail Mail",
    "rung": 1,
    "rungs": 3,
-   "now": 14,
+   "now": "not in save (last written: 14)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Snail Mail comes from Meadow runs: normal run (no shortcut), go as deep as possible, 3-4 characters",
    "src": "Pulse",
    "finished": false,
@@ -4038,7 +4560,7 @@
      "urgent": false
     }
    ],
-   "summary": "Snail Mail [feeder] rung 1/3: 14 -> Snail Mail comes from Meadow runs: normal run (no shortcut), go as deep as possible, 3-.... Next: Meadow run (normal, deepest) with 3-4 characters for Snail Mail + Blinding Lanterns [Pulse]"
+   "summary": "Snail Mail [feeder] rung 1/3: now not in save (last written: 14) -> Snail Mail comes from Meadow runs: normal run (no shortcut), go as deep as possible, 3-.... Next: Meadow run (normal, deepest) with 3-4 characters for Snail Mail + Blinding Lanterns [Pulse]"
   },
   "sneaking": {
    "slug": "sneaking",
@@ -4048,7 +4570,10 @@
    "section": "Sneaking",
    "rung": 1,
    "rungs": 5,
-   "now": "8.92e20",
+   "now": "not in save (last written: 8.92e20)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "4.0e23",
    "src": "Pulse",
    "finished": false,
@@ -4064,11 +4589,17 @@
    "triggers": [
     {
      "when": "flower stack hits the door break point",
-     "then": "swap breaker to lotus and break the door"
+     "then": "swap breaker to lotus and break the door",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "new mastery bottom floor",
-     "then": "black belts on everyone, sit for XP"
+     "then": "black belts on everyone, sit for XP",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -4106,7 +4637,7 @@
      "urgent": false
     }
    ],
-   "summary": "Sneaking [independent] rung 1/5: 8.92e20 -> 4.0e23. Next: Keep the sneaking window open while AFK, stack flowers [Pulse 2026-11-03] (+2 more scored)"
+   "summary": "Sneaking [independent] rung 1/5: now not in save (last written: 8.92e20) -> 4.0e23. Next: Keep the sneaking window open while AFK, stack flowers [Pulse 2026-11-03] (+2 more scored)"
   },
   "spelunk": {
    "slug": "spelunk",
@@ -4116,7 +4647,10 @@
    "section": "Spelunking",
    "rung": 3,
    "rungs": 4,
-   "now": "5 caves, best Lv 29/32/40/51/60",
+   "now": 5,
+   "now_src": "live",
+   "now_path": "spelunking.cavesUnlocked",
+   "op": ">=",
    "target": "Lunarheim boss",
    "src": "Toolbox",
    "finished": false,
@@ -4132,11 +4666,17 @@
    "triggers": [
     {
      "when": "Lunarheim boss down",
-     "then": "meals +30 max Lv -> cooking; +1 super talent pt; +2 gallery slots -> Tachio"
+     "then": "meals +30 max Lv -> cooking; +1 super talent pt; +2 gallery slots -> Tachio",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Bizarrio boss down",
-     "then": "Ethereal sigils -> alchemy owner"
+     "then": "Ethereal sigils -> alchemy owner",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -4156,7 +4696,7 @@
      "urgent": false
     }
    ],
-   "summary": "Spelunk [blocker] rung 3/4: 5 caves, best Lv 29/32/40/51/60 -> Lunarheim boss. Next: Push Lunarheim: amber shop buys ranked by POW per amber [Toolbox]"
+   "summary": "Spelunk [blocker] rung 3/4: now 5 (live) -> Lunarheim boss. Next: Push Lunarheim: amber shop buys ranked by POW per amber [Toolbox]"
   },
   "stamps": {
    "slug": "stamps",
@@ -4166,7 +4706,10 @@
    "section": "Stamps",
    "rung": 2,
    "rungs": 4,
-   "now": 9919,
+   "now": 9919.0,
+   "now_src": "live",
+   "now_path": "stamps.*[*].level|sum",
+   "op": ">=",
    "target": 11000,
    "src": "Toolbox",
    "finished": false,
@@ -4182,7 +4725,10 @@
    "triggers": [
     {
      "when": "Ladle hits 180",
-     "then": "tell cooking owner, re-rank new-recipe speed"
+     "then": "tell cooking owner, re-rank new-recipe speed",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -4200,7 +4746,7 @@
      "urgent": false
     }
    ],
-   "summary": "Stamps [feeder] rung 2/4: 9919 -> 11000. Next: Level Ladle stamp toward 180 if materials not reserved [Toolbox]"
+   "summary": "Stamps [feeder] rung 2/4: now 9,919 (live) -> 11000. Next: Level Ladle stamp toward 180 if materials not reserved [Toolbox]"
   },
   "star_signs": {
    "slug": "star_signs",
@@ -4210,7 +4756,10 @@
    "section": "Star Signs",
    "rung": 1,
    "rungs": 1,
-   "now": "80/81 infinite",
+   "now": "not in save (last written: 80/81 infinite)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "81 (Glimmer of Beyond unreachable)",
    "src": "Griffy",
    "finished": false,
@@ -4226,11 +4775,14 @@
    "triggers": [
     {
      "when": "a new star sign becomes reachable (count of unlocked rises)",
-     "do": "add it as a shiny-pet target on Tacular's breeding card"
+     "do": "add it as a shiny-pet target on Tacular's breeding card",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [],
-   "summary": "Star Signs [independent] rung 1/1: 80/81 infinite -> 81 (Glimmer of Beyond unreachable)"
+   "summary": "Star Signs [independent] rung 1/1: now not in save (last written: 80/81 infinite) -> 81 (Glimmer of Beyond unreachable)"
   },
   "statues": {
    "slug": "statues",
@@ -4240,7 +4792,10 @@
    "section": "Statues",
    "rung": 1,
    "rungs": 4,
-   "now": 27,
+   "now": "not in save (last written: 27)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 240,
    "src": "my_read",
    "finished": false,
@@ -4256,11 +4811,17 @@
    "triggers": [
     {
      "when": "Meritocracy statue bonus on the ballot",
-     "then": "vote it"
+     "then": "vote it",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "drop rate >= 30x",
-     "then": "start Marble statue progression (Griffy 2026-11-07)"
+     "then": "start Marble statue progression (Griffy 2026-11-07)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -4287,7 +4848,7 @@
      "urgent": false
     }
    ],
-   "summary": "Statues [feeder] rung 1/4: 27 -> 240. Next: Turn in Kachow statues first until it reaches 240 [my_read] (+1 more scored)"
+   "summary": "Statues [feeder] rung 1/4: now not in save (last written: 27) -> 240. Next: Turn in Kachow statues first until it reaches 240 [my_read] (+1 more scored)"
   },
   "storage": {
    "slug": "storage",
@@ -4297,7 +4858,10 @@
    "section": "Storage",
    "rung": 1,
    "rungs": 3,
-   "now": "46/50 chests, 539 slots",
+   "now": "not in save (last written: 46/50 chests, 539 slots)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Inventory Bag D on every character missing it (Baba Yaga quest, Zack rule)",
    "src": "AutoReview",
    "finished": false,
@@ -4313,11 +4877,17 @@
    "triggers": [
     {
      "when": "Baba Yaga up",
-     "then": "kill her on the next character in card order missing Bag D"
+     "then": "kill her on the next character in card order missing Bag D",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "storage tight",
-     "then": "dump cereal/butterflies first, easy to re-farm (Griffy 2026-10-28)"
+     "then": "dump cereal/butterflies first, easy to re-farm (Griffy 2026-10-28)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -4333,7 +4903,7 @@
      "urgent": false
     }
    ],
-   "summary": "Storage [feeder] rung 1/3: 46/50 chests, 539 slots -> Inventory Bag D on every character missing it (Baba Yaga quest, Zack rule). Next: Buy missing Loot Luggage from the vendor on each character that lacks it [AutoReview]"
+   "summary": "Storage [feeder] rung 1/3: now not in save (last written: 46/50 chests, 539 slots) -> Inventory Bag D on every character missing it (Baba Yaga quest, Zack rule). Next: Buy missing Loot Luggage from the vendor on each character that lacks it [AutoReview]"
   },
   "summoning": {
    "slug": "summoning",
@@ -4343,7 +4913,10 @@
    "section": "Summoning",
    "rung": 1,
    "rungs": 3,
-   "now": "0 Teal wins",
+   "now": "not in save (last written: 0 Teal wins)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "first Teal win",
    "src": "AutoReview",
    "finished": false,
@@ -4359,7 +4932,10 @@
    "triggers": [
     {
      "when": "Monty/Jojo/Mr. K won",
-     "then": "tell sailing (Autisticles): artifact odds change"
+     "then": "tell sailing (Autisticles): artifact odds change",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -4377,7 +4953,7 @@
      "urgent": false
     }
    ],
-   "summary": "Summoning [feeder] rung 1/3: 0 Teal wins -> first Teal win. Next: Attempt first Teal battle; buy essence upgrades that raise army DMG/HP [AutoReview]"
+   "summary": "Summoning [feeder] rung 1/3: now not in save (last written: 0 Teal wins) -> first Teal win. Next: Attempt first Teal battle; buy essence upgrades that raise army DMG/HP [AutoReview]"
   },
   "super_talents": {
    "slug": "super_talents",
@@ -4387,7 +4963,10 @@
    "section": "Super Talents",
    "rung": 1,
    "rungs": 3,
-   "now": "Topher + Totle have wrong supers",
+   "now": "not in save (last written: Topher + Totle have wrong supers)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "0 wrong supers",
    "src": "Zack rule 2026-11-21",
    "finished": false,
@@ -4413,11 +4992,17 @@
    "triggers": [
     {
      "when": "Royal Armory total levels +290",
-     "do": "RG supers unlock: Pit of Pages, Marble, Orb, Regal Intervention, Warbound Politics"
+     "do": "RG supers unlock: Pit of Pages, Marble, Orb, Regal Intervention, Warbound Politics",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Lunarheim lore boss down",
-     "do": "+1 point on every character, spend per planner"
+     "do": "+1 point on every character, spend per planner",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -4455,7 +5040,7 @@
      "urgent": false
     }
    ],
-   "summary": "Super Talents [feeder] rung 1/3: Topher + Totle have wrong supers -> 0 wrong supers. Next: Topher: reset the Siege Breaker supers, re-super per DB list [model/supertalents.py] (+2 more scored)"
+   "summary": "Super Talents [feeder] rung 1/3: now not in save (last written: Topher + Totle have wrong supers) -> 0 wrong supers. Next: Topher: reset the Siege Breaker supers, re-super per DB list [model/supertalents.py] (+2 more scored)"
   },
   "sushi_station": {
    "slug": "sushi_station",
@@ -4465,7 +5050,10 @@
    "section": "Sushi Station",
    "rung": 1,
    "rungs": 3,
-   "now": "fuel 546K/546K cap, bucks 4.22T, +393B/hr, 0 Perfectos",
+   "now": 4221107031193.3745,
+   "now_src": "live",
+   "now_path": "sushiStation.currency.bucks",
+   "op": ">=",
    "target": "Fuel Capacity III 1",
    "src": "data + AutoReview",
    "finished": false,
@@ -4481,11 +5069,17 @@
    "triggers": [
     {
      "when": "fuel at cap",
-     "then": "buy fuel capacity/fastburn"
+     "then": "buy fuel capacity/fastburn",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "research level 52",
-     "then": "start Griffy's high-tier sushi strategy"
+     "then": "start Griffy's high-tier sushi strategy",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -4501,7 +5095,7 @@
      "urgent": true
     }
    ],
-   "summary": "Sushi Station [independent] rung 1/3: fuel 546K/546K cap, bucks 4.22T, +393B/hr, 0 Perfectos -> Fuel Capacity III 1. Next: Buy Fuel Capacity III (319M), Sushi Tier Vision (1.07B), Shake N' Bake (1.31B), then Fuel Capacity II/I + F... [AutoReview + data]"
+   "summary": "Sushi Station [independent] rung 1/3: now 4.22e+12 (live) -> Fuel Capacity III 1. Next: Buy Fuel Capacity III (319M), Sushi Tier Vision (1.07B), Shake N' Bake (1.31B), then Fuel Capacity II/I + F... [AutoReview + data]"
   },
   "talents": {
    "slug": "talents",
@@ -4511,7 +5105,10 @@
    "section": "Talents",
    "rung": 1,
    "rungs": 3,
-   "now": "super points unspent: Totle 1, Tachio 4",
+   "now": "not in save (last written: super points unspent: Totle 1, Tachio 4)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "0 unspent",
    "src": "Griffy",
    "finished": false,
@@ -4537,15 +5134,24 @@
    "triggers": [
     {
      "when": "superTalentLeftToSpend > 0",
-     "then": "spend it; shown on the card until spent (cant_miss super_left)"
+     "then": "spend it; shown on the card until spent (cant_miss super_left)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "a character has no skilling/fighting preset pair",
-     "then": "flag it unless a masterclass/niche reason is on file"
+     "then": "flag it unless a masterclass/niche reason is on file",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "Library checkout done",
-     "then": "re-rank next max talent"
+     "then": "re-rank next max talent",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -4572,7 +5178,7 @@
      "urgent": false
     }
    ],
-   "summary": "Talents [feeder] rung 1/3: super points unspent: Totle 1, Tachio 4 -> 0 unspent. Next: Spend Totle's 1 + Tachio's 4 super talent points [Toolbox] (+1 more scored)"
+   "summary": "Talents [feeder] rung 1/3: now not in save (last written: super points unspent: Totle 1, Tachio 4) -> 0 unspent. Next: Spend Totle's 1 + Tachio's 4 super talent points [Toolbox] (+1 more scored)"
   },
   "tesseract": {
    "slug": "tesseract",
@@ -4582,7 +5188,10 @@
    "section": "The Tesseract",
    "rung": 1,
    "rungs": 4,
-   "now": "1932 total levels",
+   "now": 1932,
+   "now_src": "live",
+   "now_path": "tesseract.totalUpgradeLevels",
+   "op": ">=",
    "target": 2000,
    "src": "data",
    "finished": false,
@@ -4620,7 +5229,7 @@
      "urgent": false
     }
    ],
-   "summary": "Tesseract [masterclass] rung 1/4: 1932 total levels -> 2000. Next: Buy the cheapest open levels until 2000 total (68 to go): Ring Drops 1.02M, Arcanist Defence III 1.21M, Eth... [parser costs] (+1 more scored)"
+   "summary": "Tesseract [masterclass] rung 1/4: now 1,932 (live) -> 2000. Next: Buy the cheapest open levels until 2000 total (68 to go): Ring Drops 1.02M, Arcanist Defence III 1.21M, Eth... [parser costs] (+1 more scored)"
   },
   "the_button": {
    "slug": "the_button",
@@ -4630,7 +5239,10 @@
    "section": "The Button",
    "rung": 1,
    "rungs": 3,
-   "now": "locked (totalPresses 0, 0 insta skips/week)",
+   "now": "not in save (last written: locked (totalPresses 0, 0 insta skips/week))",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "unlocked",
    "src": "Toolbox/cards4",
    "finished": false,
@@ -4646,7 +5258,10 @@
    "triggers": [
     {
      "when": "totalPresses > 0",
-     "do": "switch check to the current task requirement + weekly 2 insta skips"
+     "do": "switch check to the current task requirement + weekly 2 insta skips",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -4676,7 +5291,7 @@
      "urgent": false
     }
    ],
-   "summary": "The Button [feeder] rung 1/3: locked (totalPresses 0, 0 insta skips/week) -> unlocked. Next: Totle: W7 map push + Research level to unlock Jelly Operator / The Button [cards4 2026-11-28] (+1 more scored)"
+   "summary": "The Button [feeder] rung 1/3: now not in save (last written: locked (totalPresses 0, 0 insta skips/week)) -> unlocked. Next: Totle: W7 map push + Research level to unlock Jelly Operator / The Button [cards4 2026-11-28] (+1 more scored)"
   },
   "tome": {
    "slug": "tome",
@@ -4686,7 +5301,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 3,
-   "now": "36,230 / 65,900 points",
+   "now": 36230,
+   "now_src": "live",
+   "now_path": "tome.totalPoints",
+   "op": ">=",
    "target": "No Tome-only pushes; rank follows account progress",
    "src": "Griffy",
    "finished": false,
@@ -4711,7 +5329,7 @@
      "urgent": false
     }
    ],
-   "summary": "Tome [independent] rung 1/3: 36,230 / 65,900 points -> No Tome-only pushes; rank follows account progress. Next: None standalone. When working Bubbles/Menagerie/Arcade, note the Tome gain [Griffy 2026-04-23 kD7KZ5zX6Ss 00:42:49]"
+   "summary": "Tome [independent] rung 1/3: now 36,230 (live) -> No Tome-only pushes; rank follows account progress. Next: None standalone. When working Bubbles/Menagerie/Arcade, note the Tome gain [Griffy 2026-04-23 kD7KZ5zX6Ss 00:42:49]"
   },
   "trapping": {
    "slug": "trapping",
@@ -4721,7 +5339,10 @@
    "section": "Trapping",
    "rung": 1,
    "rungs": 3,
-   "now": null,
+   "now": "not in save",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 11,
    "src": "Griffy",
    "finished": false,
@@ -4737,7 +5358,10 @@
    "triggers": [
     {
      "when": "vial critter cost covered",
-     "then": "Cat levels the vial (feed alchemy_vials)"
+     "then": "Cat levels the vial (feed alchemy_vials)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -4756,7 +5380,7 @@
      "urgent": false
     }
    ],
-   "summary": "Trapping [feeder] rung 1/3: None -> 11. Next: Put Nature traps on every character missing one [Griffy]"
+   "summary": "Trapping [feeder] rung 1/3: now not in save -> 11. Next: Put Nature traps on every character missing one [Griffy]"
   },
   "vault": {
    "slug": "vault",
@@ -4766,7 +5390,10 @@
    "section": "Upgrade Vault",
    "rung": 1,
    "rungs": 3,
-   "now": "73/90 maxed, 10.1K total levels",
+   "now": 10102,
+   "now_src": "live",
+   "now_path": "upgradeVault.totalUpgradeLevels",
+   "op": ">=",
    "target": "Kitchen Dream-mare 327",
    "src": "Griffy + AutoReview",
    "finished": false,
@@ -4793,7 +5420,7 @@
      "urgent": true
     }
    ],
-   "summary": "Vault [independent] rung 1/3: 73/90 maxed, 10.1K total levels -> Kitchen Dream-mare 327. Next: Buy Kitchen Dream-mare, then cheapest open row the coins allow [Griffy 2026-03-27 0qlwJ8Qm-4w 00:07:44]"
+   "summary": "Vault [independent] rung 1/3: now 10,102 (live) -> Kitchen Dream-mare 327. Next: Buy Kitchen Dream-mare, then cheapest open row the coins allow [Griffy 2026-03-27 0qlwJ8Qm-4w 00:07:44]"
   },
   "weekly_boss": {
    "slug": "weekly_boss",
@@ -4803,7 +5430,10 @@
    "section": "Weekly Boss",
    "rung": 1,
    "rungs": 2,
-   "now": "Unit T-31 (2026-11-26 to 2026-12-03)",
+   "now": "not in save (last written: Unit T-31 (2026-11-26 to 2026-12-03))",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "5 skulls + daily trophy",
    "src": "Weekly Boss Rotations sheet (fan)",
    "finished": false,
@@ -4819,11 +5449,17 @@
    "triggers": [
     {
      "when": "Thursday 00:00 GMT reset",
-     "then": "new boss; stored next week becomes current, refresh the sheet so the following week is stored too"
+     "then": "new boss; stored next week becomes current, refresh the sheet so the following week is stored too",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "weekly_boss.yaml has no week covering today",
-     "then": "card says stale, refresh before the run"
+     "then": "card says stale, refresh before the run",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -4839,7 +5475,7 @@
      "urgent": true
     }
    ],
-   "summary": "Weekly Boss [independent] rung 1/2: Unit T-31 (2026-11-26 to 2026-12-03) -> 5 skulls + daily trophy. Next: Weekly boss: daily run from the card line (sheet rotation) [Weekly Boss Rotations sheet]"
+   "summary": "Weekly Boss [independent] rung 1/2: now not in save (last written: Unit T-31 (2026-11-26 to 2026-12-03)) -> 5 skulls + daily trophy. Next: Weekly boss: daily run from the card line (sheet rotation) [Weekly Boss Rotations sheet]"
   },
   "world_bosses": {
    "slug": "world_bosses",
@@ -4849,7 +5485,10 @@
    "section": "World Bosses",
    "rung": 1,
    "rungs": 2,
-   "now": null,
+   "now": "not in save",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "daily",
    "src": "Pulse",
    "finished": false,
@@ -4878,7 +5517,7 @@
      "urgent": false
     }
    ],
-   "summary": "World Bosses [feeder] rung 1/2: None -> daily. Next: Daily world boss in a max party [Pulse]"
+   "summary": "World Bosses [feeder] rung 1/2: now not in save -> daily. Next: Daily world boss in a max party [Pulse]"
   },
   "world_progress": {
    "slug": "world_progress",
@@ -4888,7 +5527,10 @@
    "section": "Pinchy high",
    "rung": 3,
    "rungs": 4,
-   "now": "W7 not finished; current map not in parser",
+   "now": "not in save (last written: W7 not finished; current map not in parser)",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": "Litterfish",
    "src": "Griffy",
    "finished": false,
@@ -4902,11 +5544,17 @@
    "triggers": [
     {
      "when": "kills per kill wins the ballot",
-     "then": "push week: best fighter on the next W7 portal"
+     "then": "push week: best fighter on the next W7 portal",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "a W7 map gate blocks spelunking",
-     "then": "Law 1: map push becomes the blocker"
+     "then": "Law 1: map push becomes the blocker",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -4926,7 +5574,7 @@
      "urgent": false
     }
    ],
-   "summary": "World Progress [feeder] rung 3/4: W7 not finished; current map not in parser -> Litterfish. Next: Confirm current W7 map in game and whether Litterfish is reached [Griffy 2026-04-23 kD7KZ5zX6Ss 00:26:02]"
+   "summary": "World Progress [feeder] rung 3/4: now not in save (last written: W7 not finished; current map not in parser) -> Litterfish. Next: Confirm current W7 map in game and whether Litterfish is reached [Griffy 2026-04-23 kD7KZ5zX6Ss 00:26:02]"
   },
   "worship": {
    "slug": "worship",
@@ -4936,7 +5584,10 @@
    "section": "none (AutoReview does not rate it)",
    "rung": 1,
    "rungs": 4,
-   "now": null,
+   "now": "not in save",
+   "now_src": "written",
+   "now_path": null,
+   "op": ">=",
    "target": 10,
    "src": "my_read",
    "finished": false,
@@ -4962,11 +5613,17 @@
    "triggers": [
     {
      "when": "a totem rung wave reached",
-     "then": "route new prayer unlock to prayers owner (model/worship.py -> Autistacular)"
+     "then": "route new prayer unlock to prayers owner (model/worship.py -> Autistacular)",
+     "state": "manual",
+     "cur": null,
+     "val": null
     },
     {
      "when": "wave 14 reached on a totem",
-     "then": "souls obtainable there (Griffy 2026-10-28): add to soul cover on Bish"
+     "then": "souls obtainable there (Griffy 2026-10-28): add to soul cover on Bish",
+     "state": "manual",
+     "cur": null,
+     "val": null
     }
    ],
    "tasks": [
@@ -4986,7 +5643,7 @@
      "urgent": false
     }
    ],
-   "summary": "Worship [feeder] rung 1/4: None -> 10. Next: One proper push on Breezy Battle to wave 10 [my_read]"
+   "summary": "Worship [feeder] rung 1/4: now not in save -> 10. Next: One proper push on Breezy Battle to wave 10 [my_read]"
   },
   "zenith_market": {
    "slug": "zenith_market",
@@ -4996,7 +5653,10 @@
    "section": "Zenith Market",
    "rung": 1,
    "rungs": 3,
-   "now": "11 clusters; TRUE ZEN 8, DOUBLE CLUSTER 3, KRUK 2, LAMP 1, rest 0",
+   "now": 11,
+   "now_src": "live",
+   "now_path": "zenith.clusters",
+   "op": ">=",
    "target": "tier 1 buys",
    "src": "Pulse (cheap upgrades worthwhile)",
    "finished": false,
@@ -5034,7 +5694,7 @@
      "urgent": false
     }
    ],
-   "summary": "Zenith Market [feeder] rung 1/3: 11 clusters; TRUE ZEN 8, DOUBLE CLUSTER 3, KRUK 2, LAMP 1, rest 0 -> tier 1 buys. Next: Buy Lamp Boost (6 clusters) now [Pulse 2026-11-15 hSzyEAfqjMM 00:14:16 (cheap upgrades)] (+1 more scored)"
+   "summary": "Zenith Market [feeder] rung 1/3: now 11 (live) -> tier 1 buys. Next: Buy Lamp Boost (6 clusters) now [Pulse 2026-11-15 hSzyEAfqjMM 00:14:16 (cheap upgrades)] (+1 more scored)"
   }
  },
  "problems": [],

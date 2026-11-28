@@ -26,6 +26,7 @@ ladder:
   - {tier: 1, target: "Recommended upgrades: Equinox Symbols, Voter Rights, Nonstop Studies", source: "AutoReview", date: "2026-11-28"}
   - {tier: 2, target: "Laboratory Fuse 0 -> 10, Metal Detector 0 -> 20, Slow Roast Wiz 6 -> 19 cap, Matching Scims 20 -> 27 cap", source: "AutoReview", date: "2026-11-28"}
   - {tier: 3, target: "Dreams 22, 27, 29, 32, 33, 35 (raise upgrade caps); Nightmares need Research: Equinox Nightmares", source: "AutoReview", date: "2026-11-28"}
+now_path: "equinox.completedClouds"
 objective: {rung: 1, now: "21/76 dreams, bar 4.06K/5.49K at 822/hr", target: null, eta_days: null}
 check: {cadence: daily, who: "Autistopher", look_at: "bar full? which dream is next"}
 buffs:

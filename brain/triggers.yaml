@@ -1,34 +1,37 @@
 # Trigger map (pending L11, built 2026-11-28): every threshold-driven system, Divinity first.
-# Each row: system, owner (comma list of full names), metric (model/syscheck2.metrics), at (number or another metric),
+# Each row: system, owner (comma list of full names), when_path (model/livepath.py spec: parsed path, @Char.path or metric:name), op (>= <= > < == != truthy),
+# value (number, path or metric:name), optional target (system whose owner gets the line instead),
 # when / then (plain English), source. Evaluated every pull on the owner's card (syscheck2.c_triggers): HIT rows go first.
 # Add rows here; no code change needed unless a new metric is required.
 triggers:
+  # ---- Phase C (2026-11-28): Fractal -> trash shop buy list (step D fills the list) ----
+  - {system: islands, owner: Autistastic, when_path: "islands.bottles", op: ">=", value: 570, when: "Fractal opens (570 bottles)", then: "trash shop: Zack gets the buy list (Phase C step D)", source: "Toolbox"}
   # ---- Divinity (Bish) ----
-  - {system: divinity, owner: Autistabish, metric: blessings_maxed, at: deities, when: "every god's blessing at max", then: "spend Divinity PTS on Coral Kid instead of blessings", source: "my read"}
-  - {system: divinity, owner: Autistabish, metric: total_div_lv, at: "coral_kid_req:3", when: "total Divinity LV reaches Coral Kid #3", then: "buy Coral Kid #3 (Divinity Skill LV boosts minor links)", source: "Toolbox"}
-  - {system: divinity, owner: Autistabish, metric: total_div_lv, at: "coral_kid_req:4", when: "total Divinity LV reaches Coral Kid #4", then: "buy Coral Kid #4 (+Divinity PTS per Coral Reef upgrade)", source: "Toolbox"}
-  - {system: divinity, owner: Autistabish, metric: total_div_lv, at: "coral_kid_req:5", when: "total Divinity LV reaches Coral Kid #5", then: "buy Coral Kid #5 (more daily coral)", source: "Toolbox"}
-  - {system: divinity, owner: Autistabish, metric: total_div_lv, at: "coral_kid_req:7", when: "total Divinity LV reaches Coral Kid #7", then: "buy Coral Kid #7 (transmute base x higher)", source: "Toolbox"}
-  - {system: divinity, owner: Autistabish, metric: total_div_lv, at: "coral_kid_req:8", when: "total Divinity LV reaches Coral Kid #8", then: "buy Coral Kid #8 (Divinity EXP for all)", source: "Toolbox"}
-  - {system: divinity, owner: Autistabish, metric: total_div_lv, at: "coral_kid_req:9", when: "total Divinity LV reaches Coral Kid #9", then: "buy Coral Kid #9 (Time Elapsed from any AFK claim)", source: "Toolbox"}
-  - {system: divinity, owner: Autistabish, metric: total_div_lv, at: "coral_kid_req:10", when: "total Divinity LV reaches Coral Kid #10", then: "buy Coral Kid #10 (Lumi hourly gain)", source: "Toolbox"}
-  - {system: divinity, owner: Autistabish, metric: total_div_lv, at: "coral_kid_req:11", when: "total Divinity LV reaches Coral Kid #11", then: "buy Coral Kid #11 (DMG per God Rank above 25)", source: "Toolbox"}
-  - {system: divinity, owner: Autistabish, metric: god_rank, at: 25, when: "God Rank 25", then: "God Rank DMG bonus starts (Coral Kid #11); keep pushing to 30, Super week is when you push it", source: "Pulse (endgame 25-30)"}
-  - {system: divinity, owner: Autistachio, metric: "div_lv:Autistachio", at: 40, when: "Tachio Divinity 40", then: "move Tachio to Monuments (Zack's plan)", source: "Zack's plan"}
+  - {system: divinity, owner: Autistabish, when_path: "metric:blessings_maxed", op: ">=", value: "metric:deities", when: "every god's blessing at max", then: "spend Divinity PTS on Coral Kid instead of blessings", source: "my read"}
+  - {system: divinity, owner: Autistabish, when_path: "metric:total_div_lv", op: ">=", value: "metric:coral_kid_req:3", when: "total Divinity LV reaches Coral Kid #3", then: "buy Coral Kid #3 (Divinity Skill LV boosts minor links)", source: "Toolbox"}
+  - {system: divinity, owner: Autistabish, when_path: "metric:total_div_lv", op: ">=", value: "metric:coral_kid_req:4", when: "total Divinity LV reaches Coral Kid #4", then: "buy Coral Kid #4 (+Divinity PTS per Coral Reef upgrade)", source: "Toolbox"}
+  - {system: divinity, owner: Autistabish, when_path: "metric:total_div_lv", op: ">=", value: "metric:coral_kid_req:5", when: "total Divinity LV reaches Coral Kid #5", then: "buy Coral Kid #5 (more daily coral)", source: "Toolbox"}
+  - {system: divinity, owner: Autistabish, when_path: "metric:total_div_lv", op: ">=", value: "metric:coral_kid_req:7", when: "total Divinity LV reaches Coral Kid #7", then: "buy Coral Kid #7 (transmute base x higher)", source: "Toolbox"}
+  - {system: divinity, owner: Autistabish, when_path: "metric:total_div_lv", op: ">=", value: "metric:coral_kid_req:8", when: "total Divinity LV reaches Coral Kid #8", then: "buy Coral Kid #8 (Divinity EXP for all)", source: "Toolbox"}
+  - {system: divinity, owner: Autistabish, when_path: "metric:total_div_lv", op: ">=", value: "metric:coral_kid_req:9", when: "total Divinity LV reaches Coral Kid #9", then: "buy Coral Kid #9 (Time Elapsed from any AFK claim)", source: "Toolbox"}
+  - {system: divinity, owner: Autistabish, when_path: "metric:total_div_lv", op: ">=", value: "metric:coral_kid_req:10", when: "total Divinity LV reaches Coral Kid #10", then: "buy Coral Kid #10 (Lumi hourly gain)", source: "Toolbox"}
+  - {system: divinity, owner: Autistabish, when_path: "metric:total_div_lv", op: ">=", value: "metric:coral_kid_req:11", when: "total Divinity LV reaches Coral Kid #11", then: "buy Coral Kid #11 (DMG per God Rank above 25)", source: "Toolbox"}
+  - {system: divinity, owner: Autistabish, when_path: "metric:god_rank", op: ">=", value: 25, when: "God Rank 25", then: "God Rank DMG bonus starts (Coral Kid #11); keep pushing to 30, Super week is when you push it", source: "Pulse (endgame 25-30)"}
+  - {system: divinity, owner: Autistachio, when_path: "metric:div_lv:Autistachio", op: ">=", value: 40, when: "Tachio Divinity 40", then: "move Tachio to Monuments (Zack's plan)", source: "Zack's plan"}
   # ---- Alchemy (Cat) ----
-  - {system: alchemy, owner: Autistocat, metric: vials_maxed, at: 87, when: "every vial maxed", then: "stop vial rolls; free the print slots used for vial items", source: "my read"}
-  - {system: alchemy, owner: Autistocat, metric: null, at: null, when: "last bubbles unlocked", then: "move cauldron people to residuals, then liquids", source: "Zack"}
+  - {system: alchemy, owner: Autistocat, when_path: "metric:vials_maxed", op: ">=", value: 87, when: "every vial maxed", then: "stop vial rolls; free the print slots used for vial items", source: "my read"}
+  - {system: alchemy, owner: Autistocat, when_path: null, op: ">=", value: null, when: "last bubbles unlocked", then: "move cauldron people to residuals, then liquids", source: "Zack"}
   # ---- batch 1 synthesis 2026-11-28 (metric null = needs a syscheck2 metric; card shows when/then) ----
-  - {system: caverns, owner: Autistabish, metric: null, at: 710000, when: "Gambit points reach 710K", then: "claim +2 bones on Deathbringer", source: "Toolbox"}
-  - {system: caverns, owner: Autistabish, metric: null, at: 20, when: "Explorer villager 20 (all caverns found)", then: "move most opals to Studies", source: "Griffy 2026-01-29"}
-  - {system: caverns, owner: Autistabish, metric: null, at: 750, when: "Bravery 750 AFK hours", then: "+1 sword, run Bravery", source: "Toolbox"}
-  - {system: caverns, owner: Autistabish, metric: null, at: 3, when: "Bravery reward multi about 3x", then: "run it (diminishing past 3)", source: "Griffy 2026-03-10"}
-  - {system: construction_buildings, owner: Autistastic, metric: null, at: 50, when: "Trapper Drone 50", then: "queue Poisonic Elder", source: "Griffy 2026-09-27"}
-  - {system: cog_board, owner: Autistastic, metric: null, at: 65, when: "booster cog XP at 65% cap", then: "switch to jeweled cogs (Cog Lover)", source: "Griffy 2025-11-10"}
-  - {system: sneaking, owner: Autistacular, metric: null, at: null, when: "flower stack hits the door break point", then: "swap breaker to lotus, break the door", source: "Pulse 2026-11-10"}
-  - {system: sneaking, owner: Autistacular, metric: null, at: null, when: "new mastery bottom floor", then: "black belts on all, sit for XP", source: "Pulse 2026-11-03"}
+  - {system: caverns, owner: Autistabish, when_path: "hole.caverns.gambit.basePoints", op: ">=", value: 710000, when: "Gambit points reach 710K", then: "claim +2 bones on Deathbringer", source: "Toolbox"}
+  - {system: caverns, owner: Autistabish, when_path: "hole.villagers[0].level", op: ">=", value: 20, when: "Explorer villager 20 (all caverns found)", then: "move most opals to Studies", source: "Griffy 2026-01-29"}
+  - {system: caverns, owner: Autistabish, when_path: "hole.caverns.bravery.hours", op: ">=", value: 750, when: "Bravery 750 AFK hours", then: "+1 sword, run Bravery", source: "Toolbox"}
+  - {system: caverns, owner: Autistabish, when_path: "hole.caverns.bravery.rewardMulti", op: ">=", value: 3, when: "Bravery reward multi about 3x", then: "run it (diminishing past 3)", source: "Griffy 2026-03-10"}
+  - {system: construction_buildings, owner: Autistastic, when_path: null, op: ">=", value: 50, when: "Trapper Drone 50", then: "queue Poisonic Elder", source: "Griffy 2026-09-27"}
+  - {system: cog_board, owner: Autistastic, when_path: null, op: ">=", value: 65, when: "booster cog XP at 65% cap", then: "switch to jeweled cogs (Cog Lover)", source: "Griffy 2025-11-10"}
+  - {system: sneaking, owner: Autistacular, when_path: null, op: ">=", value: null, when: "flower stack hits the door break point", then: "swap breaker to lotus, break the door", source: "Pulse 2026-11-10"}
+  - {system: sneaking, owner: Autistacular, when_path: null, op: ">=", value: null, when: "new mastery bottom floor", then: "black belts on all, sit for XP", source: "Pulse 2026-11-03"}
   # ---- batch 2 synthesis 2026-11-28 (metric null = needs a syscheck2 metric) ----
-  - {system: breeding, owner: Autistacular, metric: null, at: 24, when: "faster-shiny pets all Lv 24+", then: "shiny time moves to meal-bonus pets", source: "Pulse 2026-10-31"}
-  - {system: breeding, owner: Autistacular, metric: null, at: 250, when: "Crucible unlocked (maxCrucibleLevel > 0)", then: "run the cheese team to round 250 once", source: "Pulse 2026-10-19"}
-  - {system: dungeons, owner: Autistomatic, metric: null, at: 490000, when: "dungeon progress reaches rankReq", then: "rank 45; next target from Toolbox rankReq", source: "Toolbox"}
-  - {system: cards, owner: Autistronaut, metric: null, at: 400001, when: "Coralcave Guardian card 1 star", then: "put it in a doubled card slot", source: "Pulse 2026-09-13"}
+  - {system: breeding, owner: Autistacular, when_path: null, op: ">=", value: 24, when: "faster-shiny pets all Lv 24+", then: "shiny time moves to meal-bonus pets", source: "Pulse 2026-10-31"}
+  - {system: breeding, owner: Autistacular, when_path: "breeding.maxCrucibleLevel", op: ">", value: 0, when: "Crucible unlocked (maxCrucibleLevel > 0)", then: "run the cheese team to round 250 once", source: "Pulse 2026-10-19"}
+  - {system: dungeons, owner: Autistomatic, when_path: "dungeons.progress", op: ">=", value: "dungeons.rankReq", when: "dungeon progress reaches rankReq", then: "rank 45; next target from Toolbox rankReq", source: "Toolbox"}
+  - {system: cards, owner: Autistronaut, when_path: "cards.Coralcave_Guardian.stars", op: ">=", value: 1, when: "Coralcave Guardian card 1 star", then: "put it in a doubled card slot", source: "Pulse 2026-09-13"}

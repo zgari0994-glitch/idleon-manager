@@ -93,6 +93,7 @@ def score(t):
     eff = max(1.0, t.get('minutes', 30)) / 30 + 0.1 * t.get('wait_h', 0) + t.get('cost_share', 0)
     raw = imp * reach * c * urg / eff
     t['inputs'] = {'impact': round(imp, 2), 'reach': round(reach, 2), 'conf': round(c, 2), 'urgency': urg, 'effort': round(eff, 2)}
+    t['tie'] = round(imp * reach, 3)   # Phase C B: equal scores order by impact x reach
     t['value'] = imp * reach * c * urg   # effort-free: night watch compares a full night either way
     t['score'] = round(100 * raw / (raw + W['K']), 1)
     return t
@@ -210,12 +211,31 @@ def cat_flag():
     return f"Night watch: frogs hold, streak {st.get('streak', 0)} (flags Zack at 2 pulls in a row)"
 
 
+CH_MARGIN = W.get('challenge_margin', 15)
+
+
+def challenge(p, name, T):
+    """Zack's plans stay, but get 'challenge?' when a sourced order (plans.yaml `challenge: {why, source}`) or the score
+    says another task of his beats it by CH_MARGIN points (Phase C B, 2026-11-28). Plans with no scored task: sourced flag only."""
+    why = []; c = p.get('challenge')
+    if c: why.append(f"{c.get('why')} [{c.get('source', 'my read')}]" if isinstance(c, dict) else str(c))
+    ids = p.get('task'); ids = ids if isinstance(ids, list) else [ids] if ids else []
+    pt = [score(dict(t)) for t in Y.get('active_tasks', []) if t.get('id') in ids]
+    mine = sorted([t for t in T if t['owner'] == name], key=lambda t: (-t['score'], -t.get('tie', 0)))
+    if pt and mine:
+        ps = max(x['score'] for x in pt)
+        if mine[0]['score'] >= ps + CH_MARGIN: why.append(f"score: {mine[0]['task'][:70]} {mine[0]['score']} vs this plan {ps} [{mine[0]['src']}]")
+    return '; '.join(why)
+
+
 def pick(name, T=None):
     T = T if T is not None else tasks()
     steps = []
     for p in plans_for(name):
         txt = p['do'] + (f"; then {p['then']}" if p.get('then') else '')
         if p.get('rule') == 'best_dr_rg': txt += " (whichever of Tastic / Matic has the higher drop rate: per-character DR isn't in the parser, check in game)"
+        ch = challenge(p, name, T)
+        if ch: txt += f" | challenge? {ch}"
         steps.append({'step': 'plan', 'text': f"Zack's plan ({p['date']}): {txt}", 'why': p.get('finish') or p.get('gap') or 'Zack set it', 'src': 'zack'})
     if name == P['slots'].get('overnight_active') and cat_flag():
         steps.append({'step': 'flag', 'text': cat_flag(), 'why': 'flag only, never switched', 'src': 'night watch'})
@@ -225,8 +245,8 @@ def pick(name, T=None):
     mine = [t for t in T if t['owner'] == name and not str(t.get('slot')) == 'morning']
     hold = is_db(name) and not grimoire_ok()
     if hold: mine = [t for t in mine if t.get('section') != 'Spelunking']
-    mine.sort(key=lambda t: -t['score'])
-    rank = sorted(T, key=lambda t: -t['score'])
+    mine.sort(key=lambda t: (-t['score'], -t.get('tie', 0)))
+    rank = sorted(T, key=lambda t: (-t['score'], -t.get('tie', 0)))
     if mine:
         t = mine[0]; r = rank.index(t) + 1
         steps.append({'step': 'scored', 'text': t['task'], 'why': t.get('why') or f"top task in his systems, score {t['score']} (#{r} of {len(T)})", 'src': t['src'], 'score': t['score']})
@@ -244,7 +264,7 @@ QUICK_MIN = 10   # Zack 2026-11-27: two top 10s, quick (< 10 min) and long (10+ 
 
 
 def top10(T, quick):
-    return sorted([t for t in T if (t.get('minutes', 30) < QUICK_MIN) == quick], key=lambda t: -t['score'])[:10]
+    return sorted([t for t in T if (t.get('minutes', 30) < QUICK_MIN) == quick], key=lambda t: (-t['score'], -t.get('tie', 0)))[:10]
 
 
 def build():

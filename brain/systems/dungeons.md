@@ -26,6 +26,7 @@ ladder:
   - {tier: 3, target: "-7 keychain at 10% (ideal double-6 = 12%); Diamond Hunk chain BiS with skill speed roll (~4%)", source: "Pulse", date: "2026-09-08"}
   - {tier: 4, target: "Happy Hour runs: Serrated Rex Rings for the characters", source: "Griffy", date: "2026-09-27"}
   - {tier: 5, target: "S-tier RNG items: Tax Ledger 0/8, Sneaky Cap 0/5, Super Soda 0/5", source: "Griffy (older: 2022-09 tier list)", date: "2022-09-24"}
+now_path: "dungeons.progress"
 objective: {rung: 1, now: 451000, target: 490000, eta_days: null}
 check: {cadence: weekly, who: "UNASSIGNED (DK runs it: Autistomatic is DK)", look_at: "Happy Hour, flurbo balance, daily world boss party"}
 method:

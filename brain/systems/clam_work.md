@@ -25,6 +25,7 @@ ladder:
   - {tier: 1, target: "Buy affordable pearl upgrades (Multi-Scalping 331K, Frugality 374K)", source: "my read (costs from parser)", date: "2026-11-28"}
   - {tier: 2, target: "Scurge: lion's share into Reckoning, few in Pearl Infection, Self Affliction as high as still one-shots", source: "Pulse", date: "2026-10-16"}
   - {tier: 3, target: "Worker class toward 12 (promotion 10M pearls, 12.5%)", source: "Pulse", date: "2026-10-19"}
+now_path: "clamWork.ownedPearls"
 objective: {rung: 1, now: "445K pearls, worker class 2, Scurge Lv1 (0 points)", target: "Multi-Scalping Lv23", eta_days: null}
 check: {cadence: daily, who: "Autisticles", look_at: "clamWork pearls vs next upgrade costs"}
 buffs: []

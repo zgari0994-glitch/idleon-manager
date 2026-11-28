@@ -23,6 +23,7 @@ coverage: sourced
 ladder:
   - {tier: 1, target: "40/41 bought", source: "Toolbox (parser)", date: "2026-11-28"}   # done
   - {tier: 2, target: "41/41: The Art of the Flail (last one); the Art of the Bail came via Trash Island expeditions", source: "Griffy", date: "2026-10-28"}   # C2oiRVIpmq8 00:03:25
+now_path: "bribes[state=bought]|len"
 objective: {rung: 2, now: 40, target: 41, eta_days: null}
 check: {cadence: weekly, who: "Autistopher", look_at: "bribes[].done (Maintenance job)"}
 buffs: []   # maintenance system

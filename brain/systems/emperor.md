@@ -25,6 +25,7 @@ ladder:
   - {tier: 1, target: "Use attempts before 11 cap (0 wasted)", source: "data", date: "2026-11-28"}
   - {tier: 2, target: "Showdown 78 (WW dust) -> 79 (+10% drop rate) -> 83 (AC tachyons) -> 85 (farming 20% cheaper)", source: "data", date: "2026-11-28"}
   - {tier: 3, target: "Big pushes in statue week with boost foods (Feasty + dragon statue multiply foods)", source: "Pulse", date: "2026-11-16"}
+now_path: "emperor.highestEmperorShowdown"
 objective: {rung: 2, now: "highest showdown 77, 2/11 attempts banked", target: 78, eta_days: null}
 check: {cadence: daily, who: "Autistocat", look_at: "emperor attempts + highestEmperorShowdown"}
 buffs: []
