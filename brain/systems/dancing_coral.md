@@ -16,7 +16,7 @@ description: Dancing Coral: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 8 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder   # +5% Spelunking POW and +3% amber per Isaccian/Crystal shrine level above 200 -> main goal
 goal: "Every Dancing Coral bonus unlocked in order; shrine levels above 200 feed them"
 coverage: partial   # Griffy: low coral limits progression; unlock order is the game's, no creator order

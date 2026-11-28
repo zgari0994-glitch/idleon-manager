@@ -16,7 +16,7 @@ description: Gallery: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 7 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: multiplier   # gallery multiplies trophy + nametag bonuses
 goal: "Fill gallery podiums with the strongest trophies and nametags; get Nine Dart Finish and relic nametags"
 coverage: partial

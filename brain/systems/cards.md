@@ -17,7 +17,7 @@ description: Cards: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT synthesis 2026-11-28 batch 2 (claims DB, save 20261128T0256): not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder
 goal: "Get one Drop Rate Multi card started and doubled (Coralcave Guardian first), then the other multi cards; card sets via faster collection"
 coverage: partial       # per-role presets + set-tier farming order thin (gap logged)

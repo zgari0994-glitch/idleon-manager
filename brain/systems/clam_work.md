@@ -17,7 +17,7 @@ description: Clam Work: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 7 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder   # pearls -> Clam Work upgrades; Scurge points -> Reckoning
 goal: "Active Clam Work on a Royal Guardian; pearls into Pollen Faction-style pearl gain, Scurge points mostly into Reckoning"
 coverage: partial

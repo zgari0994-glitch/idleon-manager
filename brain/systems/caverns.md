@@ -16,7 +16,7 @@ description: Caverns: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT synthesis 2026-11-28 batch 1 (claims DB, save 20261128T0256): not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: independent       # my read; feeds Spelunking via Gambit bones + monuments, not a blocker
 goal: "Explorer finishes cavern unlocks (16-20), then opals move to Studies; every cavern run on its cadence"
 coverage: sourced

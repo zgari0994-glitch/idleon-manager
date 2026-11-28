@@ -16,7 +16,7 @@ description: Npc Tokens: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 11 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder   # quests -> keys, stamps, star-talent damage, gaming bits multi
 goal: "Daily boss keys from quests: 10 daily Chizoar keys (Bellows quest 3) and Djonnut quest 2 key line"
 coverage: sourced

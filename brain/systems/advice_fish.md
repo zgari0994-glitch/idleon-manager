@@ -17,7 +17,7 @@ description: Advice Fish: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 6 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: independent   # feeds Spelunking (main goal)
 goal: "Spelunking lines first while Spelunking is the goal: Being Tired (stamina) then Sleeping (AFK gains)"
 coverage: sourced   # Griffy only says it's expensive; order is my read

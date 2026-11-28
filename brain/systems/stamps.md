@@ -17,7 +17,7 @@ description: Stamps: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder            # Ladle stamp feeds cooking; my read on POW link
 goal: "Total stamp levels 9,919 -> 11,000 -> 13,000 without spending reserved materials"
 coverage: partial

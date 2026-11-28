@@ -11,7 +11,7 @@ description: Money: coin farming, money gear, Vault / Menagerie coin targets
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT synthesis 2026-11-28 batch 2 (claims DB, save 20261128T0256): not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder
 goal: "Enough coins for Upgrade Vault, Luminous Menagerie and Pink Jellyfish; BiS money gear on the money farmer"
 coverage: partial       # gear ownership not in parser; best-item-owned vs unlock has no claims

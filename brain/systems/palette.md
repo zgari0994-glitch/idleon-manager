@@ -16,8 +16,8 @@ description: Palette / Black Star: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 12 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
-role: feeder   # gaming palette, account-wide multipliers
+status: APPROVED   # Zack 2026-11-28
+role: feeder   # gaming.palette, part of Gaming (Zack 2026-11-28); gaming palette, account-wide multipliers
 goal: "Black stars on the best colors, then level owned colors in palette weeks"
 coverage: partial
 ladder:
@@ -25,7 +25,7 @@ ladder:
   - {tier: 2, target: "Push palette levels during a palette week", source: "Pulse", date: "2026-11-16"}   # glvAam8Mol8 00:07:23
   - {tier: 3, target: "Bright Cyan (Artifact Find) with 2 black stars", source: "Pulse", date: "2026-10-31"}   # _wJJ9siUFLk 00:28:44
 objective: {rung: 1, now: "9/37 colors owned, black stars 2 (all on Light Cyan)", target: null, eta_days: null}
-check: {cadence: weekly, who: "gaming owner (jobs.yaml)", look_at: "account.gaming.palette + paletteLuck"}
+check: {cadence: weekly, who: "Autistastic"   # Gaming owner (data_map gaming), look_at: "account.gaming.palette + paletteLuck"}
 buffs: []
 triggers:
   - {when: "palette week in ballot", then: "rung 2, spend on owned colors"}

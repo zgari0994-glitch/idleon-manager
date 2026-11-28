@@ -16,7 +16,7 @@ description: Anvil production: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 9 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder   # smithing mats -> armor_sets, tools, forge
 goal: "No character's anvil idle or capped, all anvil points spent, production aimed at the next craft"
 coverage: partial   # creator routine + tab gates from Griffy's fresh-account series; no ladder for our stage

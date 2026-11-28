@@ -17,7 +17,7 @@ description: Atom Collider: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 6 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: independent
 goal: "Spend particles every day; Boron first (Griffy 2026-04-23), then cheapest useful atoms"
 coverage: sourced

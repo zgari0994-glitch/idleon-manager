@@ -16,7 +16,7 @@ description: Family Bonuses: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 11 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder   # passive: highest level per class feeds all characters
 goal: "Family bonuses rise as a side effect of leveling; no direct spend"
 coverage: partial

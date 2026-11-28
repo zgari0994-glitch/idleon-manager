@@ -17,7 +17,7 @@ description: Forge Upgrades: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 11 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder   # bars for anvil, armor, vials
 goal: "Forge capacity up (Griffy S tier); all 6 forge upgrades already maxed, 16/16 slots"
 coverage: sourced

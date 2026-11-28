@@ -18,7 +18,7 @@ description: Sneaking: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT synthesis 2026-11-28 batch 1 (claims DB, save 20261128T0256): not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: independent
 goal: "Break the floor-5 door with the flower stack + one breaker, fix charms, then climb masteries (now Mastery 2)"
 coverage: sourced       # BiS gear not in claims (gap logged)

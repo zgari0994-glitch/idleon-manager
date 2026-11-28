@@ -18,7 +18,7 @@ description: Cooking: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: independent       # my read: no direct POW link found; recheck if a meal hits Spelunking
 goal: "Raise meal cooking speed so meals clear 120 -> 150 -> 180, because total meal levels drive Blood Marrow and every meal bonus"
 coverage: partial

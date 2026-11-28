@@ -16,7 +16,7 @@ description: Coral Reef: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 7 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder   # coral -> Coral Kid / Dancing Coral upgrades (Divinity, Lumi, DMG)
 goal: "Grow daily coral (Coral Restoration +60% first) and buy the cheap Coral Kid levels"
 coverage: partial

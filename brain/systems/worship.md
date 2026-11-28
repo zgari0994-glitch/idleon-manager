@@ -18,7 +18,7 @@ description: Worship: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder            # Worship 500+ gates Equinox + Menagerie (gap 39)
 goal: "Totem waves high enough to unlock every TD prayer and reach Worship 500+ for Equinox and Menagerie"
 coverage: partial

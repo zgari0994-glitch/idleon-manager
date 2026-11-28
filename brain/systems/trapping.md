@@ -18,7 +18,7 @@ description: Trapping: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder            # critters feed vials + anvil tab 4 (Penguins); "vials vs trapping" open
 goal: "Nature traps on every character, critters routed to vials and anvil, a 24h set-and-forget loop"
 coverage: partial

@@ -16,7 +16,7 @@ description: Quests: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: independent
 goal: "Finish quests that unlock permanent things (Chizoar keys, Death Wish)"
 coverage: partial

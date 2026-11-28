@@ -16,7 +16,7 @@ description: Vault: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 6 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: independent
 goal: "Coins into the cheapest open vault rows that feed live goals (Kitchen Dream-mare, Bubba, Wicked Smart)"
 coverage: sourced

@@ -16,7 +16,7 @@ description: Armor Sets: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder            # set bonuses: Prehistoric = W7 skill EXP, Emperor = ribbons/exalted stamps multi
 goal: "Every armor set completed for its bonus even when not worn (Griffy 2026-10-28)"
 coverage: partial

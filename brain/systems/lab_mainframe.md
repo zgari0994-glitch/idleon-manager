@@ -17,7 +17,7 @@ description: Lab Mainframe: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder
 goal: "Max players connected and wired to the right bonuses (8 of 11 connected)"
 coverage: partial

@@ -16,7 +16,7 @@ description: Grimoire: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 6 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: blocker   # masterclass duty (Zemo + Topher)
 goal: "Total Grimoire upgrades 3,043 -> 3,150 to unlock Talents for Me, not for Thee; damage + accuracy first (Griffy)"
 coverage: sourced

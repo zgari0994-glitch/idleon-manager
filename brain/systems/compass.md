@@ -16,7 +16,7 @@ description: Compass: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 5 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: blocker   # masterclass duty, #3 account need
 goal: "Dust gains first, then damage + accuracy to reach Walking Sticks (Griffy 2026-11-07)"
 coverage: sourced

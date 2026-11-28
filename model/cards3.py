@@ -28,6 +28,15 @@ def cant_miss(name):
     for c in CM:
         if c['owner'] != name: continue
         extra = ''
+        if c.get('super_left'):
+            import gzip
+            ch = [x for x in json.load(gzip.open(ROOT / 'snapshots' / SAVE / 'tb_parsed.json.gz'))['characters'] if x.get('name') == name]
+            n = (ch[0].get('superTalentLeftToSpend') or 0) if ch else 0
+            if n <= 0: continue
+            extra = f" ({n} unspent)"
+        if c.get('weekly_boss'):
+            import subprocess
+            out.append(subprocess.run(['python3', str(ROOT / 'tools' / 'weekly_boss.py'), '--today'], capture_output=True, text=True).stdout.strip() + f". Why: {c['why']}"); continue
         if c.get('item'):
             n = item_count(c['item'])
             if n >= c.get('target', 0): continue

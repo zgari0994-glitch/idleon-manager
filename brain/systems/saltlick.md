@@ -17,7 +17,7 @@ description: Saltlick: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder            # Refinery Speed + Cooking Mastery lines feed other systems
 goal: "Max the 3 open Salt Lick lines, Refinery Speed first because Refinery is A-above-cooking (Griffy 2026-01-29)"
 coverage: partial

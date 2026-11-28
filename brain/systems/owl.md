@@ -17,7 +17,7 @@ description: Owl: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 6 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: independent
 goal: "Feather reset to 28 restarts (MF21), upgrade Shiny Feathers after each reset (Griffy 2026-09-21)"
 coverage: sourced

@@ -18,7 +18,7 @@ description: Breeding: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT synthesis 2026-11-28 batch 2 (claims DB, save 20261128T0256): not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder
 goal: "Faster-shiny pets to Lv 24-25 first, then meal-bonus shinies, then Crucible to round 250 once Luminous Menagerie opens it"
 coverage: sourced       # fence in/out list not in claims (gap logged)

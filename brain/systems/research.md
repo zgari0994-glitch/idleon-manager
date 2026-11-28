@@ -16,7 +16,7 @@ description: Research: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 4 2026-11-27 (save 20261127T2212): not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder
 goal: "Level Research and fill the grid by Pulse tiers (S first), find the other 21 observations"
 coverage: sourced

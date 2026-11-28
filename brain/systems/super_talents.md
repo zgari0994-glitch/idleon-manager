@@ -17,7 +17,7 @@ description: Super talents (both presets): state, how it works, links, plan, tod
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 8 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder   # efficiency and kill scaling on every character
 goal: "Every open super point spent on the creator pick for that preset; wrong supers reset (about 70 resets, only for a wrong super)"
 coverage: sourced   # model/supertalents.py: Griffy 2025-11-28 fo2WwEKsty0 + Pulse 2026-09

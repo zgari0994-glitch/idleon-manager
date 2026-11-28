@@ -17,7 +17,7 @@ description: Hat Rack: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 9 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: independent   # Griffy: not an immediate concern, strong later
 goal: "Grow the Hat Rack multi (now 1.51x) as hats and multi sources come in"
 coverage: partial

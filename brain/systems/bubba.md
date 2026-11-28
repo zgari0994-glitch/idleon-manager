@@ -17,7 +17,7 @@ description: Bubba (W1 clicker): state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 9 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder   # Build Rate 28% -> construction, Total DMG 42%, Soul Gain 14% -> worship, Critter 14% -> trapping, XP 11.2%, All Kills 2.8%, Atom Cost -4.2%
 goal: "Keep Bubba's slices spent and climb Megaflesh tiers (each tier multiplies all Bubba bonuses)"
 coverage: my_read   # only 3 Griffy mechanic claims, no order

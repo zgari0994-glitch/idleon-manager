@@ -16,7 +16,7 @@ description: Guild Bonuses: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 11 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: independent
 goal: "Join a guild: account is in no guild (level 1, 0 GP, 0 members, unlocked false), so all 18 guild bonuses are 0"
 coverage: sourced

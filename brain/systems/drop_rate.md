@@ -17,7 +17,7 @@ description: Drop Rate: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder            # cards, statues, crystals all ride on DR
 goal: "Total DR to 30x for Marble statues (Griffy 2026-09-27), via cards first (Pulse S tier)"
 coverage: partial

@@ -17,7 +17,7 @@ description: Gaming: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT synthesis 2026-11-28 batch 1 (claims DB, save 20261128T0256): not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: independent       # back burner but checked daily
 goal: "Bits up toward the next Superbits (27 of 72 owned), then Duper/Zuper; Snail and imports kept rolling"
 coverage: partial       # method sourced; exact Superbits order not in claims (gap logged)

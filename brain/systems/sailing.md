@@ -17,7 +17,7 @@ description: Sailing: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder
 goal: "Artifact find until the missing artifacts and tiers are reachable (Zack 2026-11-26)"
 coverage: partial

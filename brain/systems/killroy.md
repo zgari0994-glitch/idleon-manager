@@ -17,7 +17,7 @@ description: Killroy: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 5 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder
 goal: "Killroy skull ratio 21.7% -> 66.7% and permanent upgrades bought in the sourced order"
 coverage: partial

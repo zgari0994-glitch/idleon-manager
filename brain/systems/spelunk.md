@@ -17,7 +17,7 @@ description: Spelunk: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: blocker   # main account goal system
 goal: "Spelunking caves: Chucklemire (DONE) -> Lunarheim -> Bizarrio; each cave boss unlocks an account bonus"
 coverage: partial

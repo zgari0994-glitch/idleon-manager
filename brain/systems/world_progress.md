@@ -17,7 +17,7 @@ description: World Progress: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 9 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: feeder   # later W7 maps unlock spelunking progression, Glimbo trades, research mining (Griffy)
 goal: "Push W7 maps to the next useful unlock, then pause (Griffy)"
 coverage: partial

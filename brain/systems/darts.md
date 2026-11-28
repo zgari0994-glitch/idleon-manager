@@ -16,7 +16,7 @@ description: Darts: state, how it works, links, plan, today
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
 <!-- DRAFT Phase A batch 10 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
-status: DRAFT
+status: APPROVED   # Zack 2026-11-28
 role: independent   # W7 minigame, Baby Boa shop
 goal: "Darter Trophy, then level the dart shop (damage, talent pts, vault discount, move speed)"
 coverage: partial

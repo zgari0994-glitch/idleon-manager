@@ -16,24 +16,27 @@ description: W2 weekly boss: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT Phase A batch 12 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
+<!-- APPROVED 2026-11-28 (Zack): weekly boss set up from the rotation sheet -->
 ```yaml
-status: DRAFT
-role: independent
-goal: "Define first: parser only has weeklyBossesRaw (69 undecoded keys). No-op until decoded."
-coverage: none
+status: APPROVED
+role: independent   # weekly boss battle, rotation known ahead from the community sheet
+goal: "Never skip: 5 Skulls run on the first kill of the week, trophy run every other day, both from the sheet's 11-character rotation"
+coverage: sourced
 ladder:
-  - {tier: 1, target: "Find the Toolbox page + decode weeklyBossesRaw (d_*, UI_*)", source: "my_read", date: "2026-11-28"}
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: weekly, who: "unassigned", look_at: "none until defined"}
+  - {tier: 1, target: "5 Skulls run on the week's first kill", source: "Weekly Boss Rotations sheet (fan)", date: "2026-11-28"}
+  - {tier: 2, target: "Misc + Trophy run daily for the rest of the week", source: "Weekly Boss Rotations sheet (fan)", date: "2026-11-28"}
+objective: {rung: 1, now: "Unit T-31 (2026-11-26 to 2026-12-03)", target: "5 skulls + daily trophy", eta_days: null}
+check: {cadence: daily, who: "Autiszemo", look_at: "brain/weekly_boss.yaml via tools/weekly_boss.py --today"}   # runner = Zemo until Zack names another
 buffs: []
 triggers:
-  - {when: "decoded", then: "redraft with weekly kill/reward targets"}
-stall: {pulls_no_progress: 3, eta_over_days: 30}
+  - {when: "Thursday 00:00 GMT reset", then: "new boss; stored next week becomes current, refresh the sheet so the following week is stored too"}
+  - {when: "weekly_boss.yaml has no week covering today", then: "card says stale, refresh before the run"}
+stall: {pulls_no_progress: 99, eta_over_days: null}
 tasks:
-  - {do: "Check in game what the weekly boss is and whether it was done this week", stat: "unknown", gain_pct: null, unblocks: [], source: "my_read", active_min: 3, wait_hr: null, cost: null, urgent: false}
-# data: weeklyBossesRaw nonzero keys e.g. d_21 1, d_24 1296, d_28 175, d_33 7923, d_44 294.
-# gap: no creator claim names a weekly boss (Griffy undated boss rows are Amarok/Efaunt key bosses).
+  - {do: "Weekly boss: daily run from the card line (sheet rotation)", stat: "trophies", gain_pct: null, unblocks: [], source: "Weekly Boss Rotations sheet", active_min: 5, wait_hr: 24, cost: null, urgent: true}
+# source: Google Sheet 'Weekly Boss Rotations' (Drive 1z1P2ouvYhe2pryWoF0kIQE7QichYpJt1GaPPos-e-aw), Discord tab = current + next week. Fan source (roronoa_zoro93, DiamondDoge, Druzzt/Morgoth simulator).
+# digits = option picks (1 top, 2 middle, 3 bottom), read left to right; FR = full rewind. Requirements (e.g. "Laboratory lvl - 1, 2, 7, 11") as written by the sheet.
+# gap: weeklyBossesRaw (69 keys) still undecoded, so "first kill done" isn't read from the save; GitHub Action can't read the sheet (needs the Drive connector in a thread).
 ```
 <!-- GOAL:END -->
 
