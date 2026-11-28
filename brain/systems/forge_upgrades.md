@@ -35,7 +35,7 @@ stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
   - {do: "Level Forge Stamp toward 240", stat: "forge cap", gain_pct: null, unblocks: [], source: "AutoReview", active_min: 2, wait_hr: null, cost: null, urgent: false}
   - {do: "Check every character's thread/bar production in forge", stat: "bars", gain_pct: null, unblocks: [], source: "Griffy", active_min: 5, wait_hr: null, cost: null, urgent: false}   # GgGwaPlW90M 00:14:14
-# gap: owner unassigned (Ticles Siege Breaker smelting is my read); open gap 24 Siege Breaker forge AFK map; forge stamp cost not shown.
+# owner: none (Zack 2026-11-28, raised only when needed). gap: open gap 24 Siege Breaker forge AFK map; forge stamp cost not shown.
 ```
 <!-- GOAL:END -->
 
