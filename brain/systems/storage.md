@@ -5,7 +5,7 @@ description: Storage: state, how it works, links, plan, today
 # Storage
 
 <!-- AUTO:START (tools/build_brain.py rewrites this block) -->
-- Owners: Autistronaut
+- Owners: Autistomatic
 - Toolbox: misc/storage (guide L184)
 - AutoReview: Storage
 - Planner: NONE (nothing checks this yet)
@@ -25,7 +25,7 @@ ladder:
   - {tier: 2, target: "Vendor bags: Loot Luggage + Rucksack Of Riches on characters missing them", source: "AutoReview", date: "2026-11-28"}
   - {tier: 3, target: "Storage chests 46 -> 50", source: "Toolbox", date: "2026-11-28"}
 objective: {rung: 1, now: "46/50 chests, 539 slots", target: null, eta_days: null}
-check: {cadence: weekly, who: "Autistronaut", look_at: "free slots, missing bags per character"}
+check: {cadence: weekly, who: "Autistomatic", look_at: "free slots, missing bags per character"}
 buffs: []
 triggers:
   - {when: "Baba Yaga up", then: "kill her on the next character in card order missing Bag D"}

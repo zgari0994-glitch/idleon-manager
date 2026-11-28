@@ -94,7 +94,7 @@
 | stamps | world-1/stamps | Stamps | 490/519 | Autistopher |
 | star_signs | misc/constellations | Star Signs | gap | Autistopher |
 | statues | GAP: no Toolbox page mapped | Statues | 365/411 | Autistabish, Autistastic, Autisticles, Autistomatic |
-| storage | misc/storage | Storage | 148/549 | Autistronaut |
+| storage | misc/storage | Storage | 148/549 | Autistomatic |
 | summoning | world-6/summoning | Summoning | 416/233 | Autistocat |
 | sushi_station | world-7/sushi-station | Sushi Station | 88/49 | Autisticles |
 | tabbed_advice_groups | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |

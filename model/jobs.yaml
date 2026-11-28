@@ -98,6 +98,7 @@ characters:
     afk:
     active: [dk_crystals]
     jobs:
+      - {job: Storage, sections: [Storage], systems: [storage], basis: light, weekly: true, note: "Zack 2026-11-27: lightest load takes storage (bags, chests, free slots)"}
       - {job: "Construction #2", sections: [], basis: class, note: "Shares Tastic's Buildings list"}
       - {job: Ore prints, sections: [{s: Sampling, m: ":: .*\\bOre\\b"}], basis: griffy}
       - {job: "Statues: DK crystals", sections: [{s: Statues, m: "DK at"}], basis: griffy}
@@ -108,7 +109,6 @@ characters:
     afk:
       - {tier: job, world: W5, map: "Divinity altar", where: "W5 Divinity altar, Mindful style", why: "nobody else earns divinity points", finish: {kind: divpoints}, src: "Pulse 2026-11-09 (Mindful best style) + my read"}
     jobs:
-      - {job: Storage, sections: [Storage], systems: [storage], basis: light, weekly: true, note: "Zack 2026-11-27: lightest load takes storage (bags, chests, free slots)"}
       - {job: Merits, sections: [], systems: [merits], basis: light, weekly: true, note: "Zack 2026-11-27: lowest load takes merits. Left: W5 Tab 4 Talent Pts 19/20, W6 Tab 5 Talent Pts 8/20, W6 Emperor Recipes 4/9"}
       - {job: Cards, sections: [Cards], basis: griffy}
       - {job: Log prints, sections: [{s: Sampling, m: ":: .*\\bLogs?\\b"}], basis: class}
