@@ -533,6 +533,14 @@ def c_minigames():
         lock = [u for u in x.get('upgrades') or [] if not u.get('unlocked')]
         nxt = min((u.get('cost') or 1e99 for u in x.get('upgrades') or [] if u.get('unlocked')), default=None)
         subs.append(f"{lab}: best {x.get('score')}, {x.get('totalPoints')} points; cheapest next upgrade {short(nxt)}" + (f"; {len(lock)} locked (next at {lock[0].get('pointsToUnlock')} points)" if lock else ''))
+        try:
+            import trophies as _TR; tl = _TR.minigame_line(key)
+            if tl: subs.append(f"  trophy: {tl}")
+        except Exception: pass
+    try:
+        import trophies as _TR; tl = _TR.minigame_line('fishing')
+        if tl: subs.append(f"Fishing minigame trophy: {tl}")
+    except Exception: pass
     if not subs: return None
     return ('minigames', 'Minigames: points and upgrades (check spend in game)', subs)
 

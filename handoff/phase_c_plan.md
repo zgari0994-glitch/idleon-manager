@@ -11,7 +11,7 @@ Each step: digest first, Zack OK, build in one pass, dry run, commit + push. Est
 - Salt: only care that saltlick/refinery items are not stalling salt production.
 - Cog board: review vs newest creator guidance (things changed since 2024).
 - Advice Fish: add currency if it's in the save, else wing it.
-- Trophies (minigames): only have it / not yet, no how-to.
+- Trophies: gallery shows have / not yet; not-yet trophies mapped to how to get them (Zack 2026-11-28, replaces 'no how-to').
 
 ## Steps (in order)
 A. Live "now" + real stall [~8] DONE 2026-11-28 (docs/planners.md Phase C A+B)
@@ -22,8 +22,8 @@ B. Machine triggers + goal challenge [~6] DONE 2026-11-28
    - Trigger rows get `when_path` + op/value; fired triggers put "then" on the target system owner's card, armed ones show as "next".
    - Rule: objectives recomputed each pull; Zack-written objectives kept but flagged "challenge?" when a sourced order or score says it's inefficient. Update CLAUDE.md LAWS/Card jobs, docs/planners.md, Project memory, give Zack Project description text.
    - Optional: tie-break equal scores by value (impact x reach) so the quick top 10 orders sensibly. No effort floor.
-C. Anvil setup + lookup systems + trophies [~8]
-   - Anvil: decode anvilSelected/anvilProduction to item names (Toolbox item list in tools/tbparse) and point split (speed/cap/exp); per-character "producing X, Y; points S/C/E; unspent N" on Do 1. Gas Shard + Historium bars named once mapped. Verify Topher -435 / Bish cap 0.
+C. Anvil setup + lookup systems + trophies [~8, took ~16] DONE 2026-11-28 (docs/planners.md Phase C C)
+   - Anvil: decode anvilSelected/anvilProduction to item names (Toolbox item list in tools/tbparse) and point split (speed/cap/exp); per-character "producing X, Y; points S/C/E; unspent N" on Do 1. Gas Shard + Historium = Godshard + Prehistrium bars (forge), live. Verify Topher -435 / Bish cap 0.
    - lookup.py: add anvil, bubba, super_talents, palette, poppy, snail_mail, weekly_boss, world_bosses; fix shrines rows.
    - Trophies: read owned trophies from the save; minigame lines say "Darter Trophy: have / not yet" (basketball, darts, minehead, any other minigame trophy).
 D. Data gaps that still matter [~6]

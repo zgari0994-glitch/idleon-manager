@@ -43,5 +43,6 @@ Game save = `data.TimeAway.GlobalTime` (UTC epoch). Store UTC, show Eastern. Alw
 
 ## GOAL lines on cards (Phase B, Zack 2026-11-28)
 - Every owned system shows under "Goals (every owned system, from its GOAL block)": daily = full line every day; weekly = full line Thu, compact name other days; monthly = the 1st; flagged lines always full.
-- Do 1 = that character's own anvil (points unspent from the save). Anvil is daily for everyone; Gas Shard + Historium bars stockpile watched daily (Zack 2026-11-28).
+- Do 1 = that character's own anvil setup from model/anvil.py: hammers -> item names (Toolbox anvilProducts, brain/tb_static.json), points speed / cap / exp, unspent (negative = a points source Toolbox can't see: check in game; cap 0 flagged). Anvil is daily for everyone. Watch daily: Godshard + Prehistrium bars (Zack's "Gas Shard + Historium"), forge slots + storage, live (anvil.bars_line) (Zack 2026-11-28).
+- Trophies (Zack 2026-11-28): Gallery card (Tachio) lists have N/24 + every obtainable not-yet trophy with how to get it (brain/trophies.yaml, DigitalTQ fan src + Toolbox drop data). Minigame lines say '<Trophy>: have / not yet' (Baller = hoops 30+, Nine Dart Finish = darts, Megalodon = fishing).
 - Unowned + Zack systems: cards4 "## Account systems" on their cadence, tasks still scored (never left off). Minigames (basketball, darts, minehead) = suggested active tasks for trophies, no daily nag, kept out of night watch. `tools/card.py goal` prints it.

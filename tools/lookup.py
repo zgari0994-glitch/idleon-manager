@@ -212,6 +212,108 @@ def _legend_extra():
 SPEC['legend_talents'] = {'extra': _legend_extra}
 SPEC['achievements'] = {'extra': _ach_extra, 'skip': {'achievements'}}
 SPEC['royal_armory'] = {'rowbal': _rg_bal, 'cond': _rg_cond}
+
+
+# ---------- Phase C step C (Zack 2026-11-28): 8 systems + trophies + shrines fix ----------
+def _names():
+    return [c.get('name') for c in D.characters]
+
+
+def _anvil_extra():
+    import anvil as AV
+    out = [f"  {n}: {AV.line(n, D).replace('Anvil (daily): ', '')}" for n in _names()]
+    return out + ['  ' + AV.bars_line(D)]
+
+
+def _shrines_extra():
+    import json as _j
+    mn = _j.load(open(ROOT / 'brain' / 'tb_static.json'))['map_names']
+    out = []
+    for s in sorted(D.account['shrines'], key=lambda x: -(x.get('shrineLevel') or 0)):
+        m = s.get('mapId'); mp = mn[m] if isinstance(m, int) and 0 <= m < len(mn) and mn[m] else f'map {m}'
+        out.append(f"  {nm(s)} Lv {s.get('shrineLevel')} | bonus {fmt(s.get('bonus'))}% | {'placed on ' + mp if s.get('placed') else 'NOT PLACED'}"
+                   + (' | world tour' if s.get('worldTour') else '') + f" | {fmt(s.get('desc'))}")
+    eb = D.account.get('shrinesExpBonus')
+    if eb not in (None, {}, []):
+        out.append(f"  shrine exp bonus: {fmt(eb.get('total') if isinstance(eb, dict) else eb)}")
+    return out
+
+
+def _st_extra():
+    out = []
+    for c in D.characters:
+        i = c.get('superTalentsInfo') or {}
+        out.append(f"  {c['name']}: {len(i.get('talents') or [])} super talents set, bonus {fmt(i.get('bonus'))}%, {c.get('superTalentLeftToSpend')} left to spend"
+                   + (f" | talent ids {[t.get('talentIndex') for t in i.get('talents') or []]}" if i.get('talents') else ''))
+    return out + ['  note: talent names by id not mapped (Toolbox talent list), presetIndex shown in --path']
+
+
+def _poppy_extra():
+    k = D.account['kangaroo']
+    out = [f"  fish {fmt(k.get('fish'))}, total {fmt(k.get('totalFish'))}, tar fish {fmt(k.get('tarFishOwned'))}, unspent reset points {fmt(k.get('unspentResetPoints'))}, next reset at {fmt(k.get('nextResetPoints'))}"]
+    out += ['  bonuses: ' + ', '.join(f"{nm(b)} {fmt(b.get('bonus'))}" for b in (k.get('bonuses') or [])[:8])]
+    for key in ('upgrades', 'tarUpgrades', 'resetBonuses'):
+        if isinstance(k.get(key), list) and is_levelled(k[key]):
+            out += render_levels(key, k[key], {})
+    return out + ['  note: Poppy = Toolbox key "kangaroo" (my read of the mapping)']
+
+
+def _snail_extra():
+    g = D.account['gaming']; s = g.get('snail') or {}
+    return [f"  snail Lv {g.get('snailLevel')}/{s.get('maxLevel')}, encouragement {g.get('snailEncouragement')}, success {fmt((s.get('successChance') or 0) * 100)}%, reset {fmt((s.get('resetChance') or 0) * 100)}%, hole bonus {fmt(s.get('holeBonus'))}",
+            '  note: snail_mail = Gaming snail (no mail key in the save; my read)']
+
+
+def _wb_extra():
+    out = []
+    try:
+        W = yaml.safe_load(open(ROOT / 'brain' / 'weekly_boss.yaml'))
+        for wk, x in sorted((W.get('weeks') or {}).items()):
+            out.append(f"  week {wk}: {x.get('boss')} ({x.get('start')} -> {x.get('end')}) | 5 skulls {x.get('skulls5')} | trophy {x.get('trophy')}")
+        out.append(f"  source: {W.get('source')} fetched {W.get('fetched')} (fan src)")
+    except Exception as e:
+        out.append(f"  brain/weekly_boss.yaml not read: {e}")
+    raw = D.account.get('weeklyBossesRaw') or {}
+    out.append(f"  weeklyBossesRaw: {len(raw)} keys, not decoded (step D); done-state not read")
+    return out
+
+
+def _worldboss_raw():
+    r = json.load(gzip.open(ROOT / 'snapshots' / D.stamp / 'raw.json.gz')); d = r.get('data', r)
+    bi = d.get('BossInfo')
+    if not bi:
+        return ['  BossInfo not in raw save']
+    rows = [[x.get(str(i)) for i in range(x.get('length', 3))] if isinstance(x, dict) else x for x in bi]
+    return [f"  BossInfo: {len(rows)} rows [flag, hp, ?] raw, NOT decoded (step D):"] + [f"    {i}: {r_}" for i, r_ in enumerate(rows[:12])]
+
+
+def _trophy_extra():
+    import trophies as TR
+    return ['  ' + x for x in TR.gallery_lines(D)] + ['  have: ' + ', '.join(t['name'] for t in TR.status(D) if t['have'])]
+
+
+SPEC['anvil'] = {'extra': _anvil_extra, 'norender': True}
+SPEC['shrines'] = {'extra': _shrines_extra, 'norender': True}
+SPEC['super_talents'] = {'extra': _st_extra, 'norender': True}
+SPEC['poppy'] = {'extra': _poppy_extra, 'norender': True}
+SPEC['snail_mail'] = {'extra': _snail_extra, 'norender': True}
+SPEC['weekly_boss'] = {'extra': _wb_extra, 'norender': True}
+SPEC['world_bosses'] = {'raw': _worldboss_raw}
+SPEC['trophies'] = {'extra': _trophy_extra, 'norender': True}
+SPEC['bubba'] = {'skip': set()}
+def _palette_extra():
+    P = [x for x in D.account['gaming'].get('palette') or [] if isinstance(x, dict)]
+    on = [x for x in P if (x.get('level') or 0) > 0]
+    out = [f"  palette: {len(on)}/{len(P)} colours levelled, final bonus {fmt(D.account['gaming'].get('paletteFinalBonus'))}, luck {fmt(D.account['gaming'].get('paletteLuck'))}"]
+    for x in sorted(on, key=lambda x: -(x.get('level') or 0))[:ROWS]:
+        out.append(f"    {nm(x)} Lv {x.get('level')} | bonus {fmt(x.get('bonus'))} | {fmt(x.get('description'))}" + (f" | black stars {x.get('blackStars')}" if x.get('blackStars') else ''))
+    if len(on) > ROWS:
+        cut.append(f"palette: {len(on) - ROWS} levelled colours"); out.append(f"    ... TRUNCATED {len(on) - ROWS} more")
+    out.append('  not levelled: ' + ', '.join(nm(x) for x in P if not x.get('level'))[:240])
+    return out
+
+
+SPEC['palette'] = {'extra': _palette_extra, 'norender': True}
 GORD = {g: i for i, g in enumerate(['S+', 'S', 'S-', 'A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D', 'F'])}
 SKIP_KEYS = re.compile(r'^(x\d+|description|.*Description|sprite.*|Monster.*|imageName|xyPointer|save|layout|raw.*|rawDancingCoral|mapBonusRaw|expression|tree)$')
 
@@ -392,9 +494,14 @@ try:
         data_lines.append(f"path: {MAP[system].get('path')}" + (f" | note: {spec['note']}" if spec.get('note') else ''))
         if spec.get('extra'):
             data_lines += spec['extra']()
-        render(v, '', spec, 0, data_lines)
+        if not spec.get('norender'):
+            render(v, '', spec, 0, data_lines)
 except DataMissing as e:
-    data_lines.append(f"DATA MISSING: {e}")
+    if spec.get('raw') and not path:      # not in Toolbox's parser: read the raw save and say so
+        data_lines.append(f"not in Toolbox's parser, raw save read: {e}")
+        data_lines += spec['raw']()
+    else:
+        data_lines.append(f"DATA MISSING: {e}")
 DATA_CAP = 8000 if not FULL else 10 ** 9
 txt, kept = 0, []
 for ln in data_lines:

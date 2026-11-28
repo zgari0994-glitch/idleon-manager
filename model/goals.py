@@ -202,13 +202,14 @@ def tasks():
 
 
 def anvil_line(name):
-    D = data(); w = (POL.get('daily_watch') or {}).get('anvil', '')
-    try:
-        st = D.char(name)['anvil']['anvilStats']; pts, cap = int(st.get('availablePoints') or 0), st.get('capPoints')
-        s = f"Anvil (daily): {pts} points unspent, spend them" if pts > 0 else "Anvil (daily): 0 points unspent, grab production"
-        if pts < 0 or cap in (0, '0'): s += f" (odd read: points {pts}, cap {cap}; check in game)"
-    except Exception: s = 'Anvil (daily): grab production, spend points (anvil not read from this save)'
-    return s
+    """Phase C step C (2026-11-28): full anvil setup from model/anvil.py (hammers, S/C/E split, unspent)."""
+    import anvil as _AV
+    return _AV.line(name)
+
+
+def anvil_watch():
+    import anvil as _AV
+    return _AV.bars_line()
 
 
 def card_lines(name):
@@ -226,7 +227,7 @@ def card_lines(name):
 def account_lines():
     """Unowned + Zack systems on their cadence; minigames as suggested active tasks; daily watches."""
     L, later, mini = [], [], []
-    for k, v in (POL.get('daily_watch') or {}).items(): L.append(f"Watch daily ({k}): {v}")
+    for k, v in (POL.get('daily_watch') or {}).items(): L.append(anvil_watch() if k == 'anvil' else f"Watch daily ({k}): {v}")
     for s, g in sorted(load()['systems'].items()):
         if g['owner_kind'] not in ('unowned', 'zack'): continue
         who = 'Zack' if g['owner_kind'] == 'zack' else 'unowned'

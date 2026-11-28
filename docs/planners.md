@@ -50,3 +50,11 @@ Rollout: (1) standard [done 2026-11-27] -> (2) audit all brain/systems vs standa
 - Coverage 2026-11-28 (save 20261128T0256): 27/105 live: dungeons, cards, cog_board (<=), arcade (<=), grimoire, stamps, tome, tesseract, greenstacks, slab, islands, royal_armory, emperor, armor_sets, menagerie, library, equinox, clam_work, sushi_station, zenith_market, vault, spelunk, friend_bonuses, atom_collider, bribes, caverns, breeding (maxShinyLevel = my read).
   Gate fails (written now did not match a candidate path, left unmapped): alchemy_vials (vials[level>0] 80 vs 77), saltlick, statues. The rest: Step C/D.
 - Trigger paths set: Gambit basePoints (my read on the field), Explorer = villagers[0].level, Bravery hours + rewardMulti, Crucible maxCrucibleLevel > 0, dungeons progress vs rankReq, Coralcave Guardian stars, new Fractal row (islands.bottles >= 570 -> trash shop list, Step D). Still null: Trapper Drone, cog booster XP, sneaking x2, faster-shiny pets all 24, last bubbles.
+
+
+## Phase C step C (2026-11-28)
+- Anvil: model/anvil.py (setup per character, bars watch) -> goals.anvil_line / anvil_watch -> cards Do 1 + "Watch daily (forge)". Verified: Topher -435 = Toolbox sees 1300 earned (coins 600 + mats 700) vs 1832 spent, a points source it doesn't read (check in game); Bish cap 0 = all 1401 on speed (real, from the save).
+- Static Toolbox data copied to brain/tb_static.json (anvil products, map names) so the Action needs no Toolbox checkout.
+- lookup.py: anvil, bubba, super_talents, palette, poppy (= kangaroo, my read), snail_mail (= Gaming snail, my read), weekly_boss (brain/weekly_boss.yaml + raw count), world_bosses (raw BossInfo, not decoded: step D), trophies; shrines fixed (name, Lv, bonus, map, desc). New SPEC keys: norender, raw (fallback when the parser has no path).
+- Trophies: model/trophies.py (gallery.allTrophies isAcquired + brain/trophies.yaml). Gallery card + minigame lines (syscheck2.c_minigames).
+- Still open (step D): super talent names by id, BossInfo decode, weeklyBossesRaw decode.

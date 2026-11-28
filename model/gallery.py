@@ -19,6 +19,9 @@ def card_lines(o):
     if o['empty']: L.append(f"TOP: {o['empty']} empty podium slots: put trophies in them" + (f" (in your bags: {', '.join(o['spare_trophies'][:4])})." if o.get('spare_trophies') else '.'))
     L.append(f"Gallery {o['podiums']} podiums, bonus {o['multi']}. Nametags owned {len(o['tags_owned'])} (missing ones + sources in acquire.md).")
     ar = [i for i in o['ar'] if i.get('cur') != i.get('goal')][:4]
+    try:
+        import trophies as _TR; L += _TR.gallery_lines()
+    except Exception as e: L.append(f'Trophies: not read ({e.__class__.__name__})')
     if ar: L.append(f"AutoReview (tier {o['tier']}): " + '; '.join(f"{i['label'][:60]} {i['cur']}->{i['goal']}" for i in ar))
     return L
 

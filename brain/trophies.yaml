@@ -1,0 +1,30 @@
+# Trophy how-to (Zack 2026-11-28: gallery shows have / not yet, not-yet mapped to how to get them).
+# Source: DigitalTQ "Trophy Guide - IdleOn" 2026-09-22 (FAN SOURCE, no creator coverage found), cross-checked with
+# Toolbox entity-graph drops (Lucky Lad / Luckiest Lad mob drops). minigame: = highscores key that tracks it.
+source: 'DigitalTQ Trophy Guide 2026-09-22 (fan src) + Toolbox entity-graph drop data'
+trophies:
+  Trophy1:  {how: "Complete Picnic Stowaway daily quest 30 times"}
+  Trophy2:  {how: "Mob drop (super drop table, any world)"}
+  Trophy3:  {how: "Become a Beginner (Voidwalker questline)"}
+  Trophy4:  {how: "Unobtainable (dev trophy)", retired: true}
+  Trophy5:  {how: "Equip talent Roll Da Dice and roll a 1"}
+  Trophy6:  {how: "Scripticus questline reward"}
+  Trophy7:  {how: "Limited-time trophy, likely gone", retired: true}
+  Trophy8:  {how: "Gem Shop: Lava Supporter Pack"}
+  Trophy9:  {how: "Guild Giftboxes"}
+  Trophy10: {how: "Lord of the Hunt questline reward"}
+  Trophy11: {how: "Cowbo Jones questline reward"}
+  Trophy12: {how: "Fishing minigame: catch the Megalodon", minigame: fishing}
+  Trophy13: {how: "Become a Maestro (Voidwalker questline)"}
+  Trophy14: {how: "Gem Shop: Summer Bundle Pack"}
+  Trophy15: {how: "Hoggindaz questline reward"}
+  Trophy16: {how: "Idle Skilling crossover (Steam): beat Tee Hee 15, type the code in W1 town chat"}
+  Trophy17: {how: "Tired Mole questline reward"}
+  Trophy18: {how: "Random while AFK doing nothing"}
+  Trophy19: {how: "Royal Worm questline reward"}
+  Trophy20: {how: "Craft it: Anvil tab 3"}
+  Trophy21: {how: "Basketball minigame (W1 Valley of the Bean): score 30+", minigame: hoops, need: 30}
+  Trophy22: {how: "Centurion questline reward"}
+  Trophy23: {how: "Potti questline reward"}
+  Trophy24: {how: "Darts minigame (W1 Winding Willows): 9 dart finish", minigame: darts}
+  Trophy25: {how: "Mob drop: Crystal6 super drop table (Toolbox: about 1 in 100B per kill)"}

@@ -532,3 +532,50 @@ zenith_market:
   path: zenith
   tags:
   - zenith_market
+
+# Phase C step C (2026-11-28): lookup systems added
+anvil:
+  owners:
+  - every character (Do 1)
+  path: '@characters.anvil'
+  kw:
+  - anvil
+bubba:
+  owners:
+  - unassigned in jobs.yaml
+  path: bubba
+poppy:
+  owners:
+  - unassigned in jobs.yaml
+  path: kangaroo
+  kw:
+  - poppy
+  - kangaroo
+palette:
+  owners:
+  - Autistastic
+  path: gaming.palette
+snail_mail:
+  owners:
+  - Autistastic
+  path: gaming.snail
+  kw:
+  - snail
+super_talents:
+  owners:
+  - every character
+  path: '@characters.superTalentsInfo'
+weekly_boss:
+  owners:
+  - Autistastic
+  path: weeklyBossesRaw
+world_bosses:
+  owners:
+  - Autistastic
+  path: null
+trophies:
+  owners:
+  - Autistachio
+  path: gallery
+  kw:
+  - trophy
