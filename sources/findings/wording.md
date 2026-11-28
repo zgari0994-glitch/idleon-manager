@@ -162,7 +162,7 @@ One line per spot that keeps producing jargon/padding (count = lines this build,
 - Next goal: Adds another (1x): Next goal: Adds another shape to your Research Grid! 0 -> 1
 - Your call on the (1x): Your call on the free exalt: Pulse says the vendor shop stamp, AutoReview says Summoner Stone.
 - Greenstacks: Next goal: Collect (1x): Greenstacks: Next goal: Collect 200 Greenstacks 182 -> 200
-- Endangered Greenstacks: Next goal: (1x): Endangered Greenstacks: Next goal: Loomi's Room Key- Loominadi: Rhyming is Key! 0% -> 100%
+- Endangered Greenstacks: Next goal: (1x): Endangered Greenstacks: Next goal: Claiming Cashe- Goldric: Only Winners have Portraits 0% -> 100%
 - Event Shop: Next goal: (1x): Event Shop: Next goal: Golden Tome: Adds a new DMG Multi bonus type to the Tome in World 4 8 -> 35
 - Bonus Ballot: Next goal: (1x): Bonus Ballot: Next goal: Equinox: Voter Rights: +0/44% Ballot Bonus 0 -> 44
 - Meritocracy: Next goal: Multiplies (1x): Meritocracy: Next goal: Multiplies all Gaming Bits gained by 8x  -> 73%
@@ -208,7 +208,7 @@ One line per spot that keeps producing jargon/padding (count = lines this build,
 - Gallery: Next goal: King (1x): Gallery: Next goal: King of Food20% Food Effect 0 -> 1
 - Gallery: Next goal: Riftwalker (1x): Gallery: Next goal: Riftwalker Nametag63.15% Xp From MonstersLevel Multi: 1x 1 -> 5
 - Dancing Coral: Next goal: (1x): Dancing Coral: Next goal: 1.04x Class EXP gain per Pantheon Shrine level above 200Unlock for 991 Char Cora 159 -> 991
-- Equipped: none (prayers planner (1x): Equipped: none (prayers planner failed: 'list' object has no attribute 'get')
+- Prayers on: none. (1x): Prayers on: none.
 - Autistachio- Kill 1M Green (1x): Autistachio- Kill 1M Green Mushrooms for W2 Weekly Boss (255.87K -> 1000K)
 - Autistachio- Kill 1M Crabcakes (1x): Autistachio- Kill 1M Crabcakes for W2 Weekly Boss (26.04K -> 1000K)
 - Autistachio- Kill 1M Dedotated (1x): Autistachio- Kill 1M Dedotated Rams for W2 Weekly Boss (261.58K -> 1000K)

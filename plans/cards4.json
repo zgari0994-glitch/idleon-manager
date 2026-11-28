@@ -44,11 +44,6 @@
       "Pulse (Aug): for money, 10-15 points on Yummy Peach Ring and 5 on Bundt Cake",
       "Pulse: push mastery to 15, it scales hard after 10"
      ]
-    },
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
     }
    ],
    "do": [
@@ -60,7 +55,11 @@
      ]
     },
     {
-     "do": "Prayers: equipped: Midas Minded, Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
      "sub": []
     },
     {
@@ -68,17 +67,14 @@
      "sub": [
       "Spearfish at Pinpoint Summit: 100K kills left",
       "Coralcave Guardian at Coralcave Perimeter: 100K kills left",
-      "Nutto at The Roots: 100K kills left",
       "Dedotated Ram at Equinox Valley: 100K kills left"
      ]
     },
     {
      "do": "CHOWs: 98 of 108 done. Closest:",
      "sub": [
-      "Green Mushroom at Mummy Memorial: 864K kills left",
       "Spearfish at Pinpoint Summit: 1M kills left",
       "Coralcave Guardian at Coralcave Perimeter: 1M kills left",
-      "Nutto at The Roots: 1M kills left",
       "Dedotated Ram at Equinox Valley: 1M kills left"
      ]
     }
@@ -129,11 +125,6 @@
      "sub": []
     },
     {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
@@ -163,11 +154,15 @@
      "sub": []
     },
     {
-     "do": "Prayers: equipped: Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "sub": []
     },
     {
      "do": "Active play setup: autistocat- Kill 1M Stiltmoles for W2 Weekly Boss (75.00K -> 1000K)",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
      "sub": []
     },
     {
@@ -241,11 +236,6 @@
      "sub": []
     },
     {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Lab chips: end-goal chips missing, buy when they rotate in",
      "why": "chips rotate weekly; missed means wait",
      "sub": [
@@ -276,7 +266,11 @@
      ]
     },
     {
-     "do": "Prayers: equipped: Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
      "sub": []
     },
     {
@@ -319,9 +313,11 @@
    ],
    "spend": [
     {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
+     "do": "Super talents: spend the open points",
+     "why": "every pick is from Griffy or Pulse (resettable if needed)",
+     "sub": [
+      "Talent preset 1 (skilling): super Brute Efficiency (Griffy+Pulse: efficiency on skilling setups)"
+     ]
     },
     {
      "do": "Talents to level next (Library checkouts)",
@@ -341,7 +337,15 @@
      "sub": []
     },
     {
-     "do": "Prayers: equipped: Skilled Dimwit, The Royal Sampler, Vacuous Tissue (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
+     "sub": []
+    },
+    {
+     "do": "Talents: switch to talent preset 1 (skilling) for where he is parked",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 1, 3, 5, 6 not built to plan yet (card build session).",
      "sub": []
     }
    ],
@@ -364,7 +368,7 @@
    "bags": [
     "Loot Luggage: 1 slots (Vendor)"
    ],
-   "park": "[LAW] W7 Spelunking cave 4 (One Way Opening). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: Royal Guardian, level 66: RG talents suit the deepest cave. Finish: Chapter 4: % Max Stamina for All Players 0/22; cave 4 best depth 51. Source: goal review + spot rules (Zack 2026-11-27)\nnow: w7a11 on Coralcave Outskirts (?)\nretired: Cavern 15 Temple (Dragon Statue 187 / 150): target hit, removed",
+   "park": "[LAW] W7 Spelunking cave 4 (One Way Opening). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: Royal Guardian, level 66: RG talents suit the deepest cave. Finish: Chapter 4: % Max Stamina for All Players 0/22; cave 4 best depth 51. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Coralcave Crab on Coralcave Outskirts (FIGHTING)\nretired: Cavern 15 Temple (Dragon Statue 187 / 150): target hit, removed",
    "jobs": [
     "1. Zack's plan (2026-11-27): Bag sweep: farm each missing bag once, store it, every character pulls one (whichever of Tastic / Matic has the higher drop rate: per-character DR isn't in the parser, check in game) (Zack set it) [zack]",
     "2. Law 2 duties, every day: Construction, Gaming, Royal Guardian #1 (top unlock), Islands, Godshard set, World bosses + minibosses (DK drop rate), Statue: Dragon (AFK golems), Kilroy (weekly, warrior line) (focus never means neglect) [jobs.yaml]"
@@ -392,11 +396,6 @@
       "Blessing: Kattlekruk (+% Total Damage)",
       "God rank (you are 1): Pulse targets 20 (Menagerie challenge, next-patch content) then 25-30. Push it in Divinity week. No-RNG way (Pulse): roll offerings until one shows 100%, then take it. Griffy: use cheap offerings until a guaranteed one shows"
      ]
-    },
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
     },
     {
      "do": "Lab chips: end-goal chips missing, buy when they rotate in",
@@ -428,7 +427,7 @@
      "sub": []
     },
     {
-     "do": "Prayers: equipped: Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "sub": []
     },
     {
@@ -437,6 +436,14 @@
     },
     {
      "do": "Worship: charges much faster than the rest, probably from mage worship talents (my read)",
+     "sub": []
+    },
+    {
+     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
      "sub": []
     }
    ],
@@ -454,7 +461,7 @@
    "bags": [
     "Loot Luggage: 1 slots (Vendor)"
    ],
-   "park": "[LAW] W7 Spelunking cave 3 (Buried Church). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 59: cave 3 has the bigger open page need, Chapter 3 97% short (weakest % extra Overstim Fill Rate 0/550). Close call vs cave 4: your call in the moment. Finish: Chapter 3: % extra Overstim Fill Rate 0/550; cave 3 best depth 40. Source: goal review + spot rules (Zack 2026-11-27)\nnow: w7b4 on Sushi Perimeter (?)\nthen: [CLASS] Candy or Active ES on the statue mob. Why: ES clears statue mobs fast. Finish: finish line = GAP (no measurable target yet). Source: AutoReview  [STALE CHECK: no finish line]\nretired: Penguins map (Box Statue 223 / 40): target hit, removed\nretired: Cryosnakes map (Seesaw Statue 189 / 40): target hit, removed",
+   "park": "[LAW] W7 Spelunking cave 3 (Buried Church). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 59: cave 3 has the bigger open page need, Chapter 3 97% short (weakest % extra Overstim Fill Rate 0/550). Close call vs cave 4: your call in the moment. Finish: Chapter 3: % extra Overstim Fill Rate 0/550; cave 3 best depth 40. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Eggroll on Sushi Perimeter (FIGHTING)\nthen: [CLASS] Candy or Active ES on the statue mob. Why: ES clears statue mobs fast. Finish: finish line = GAP (no measurable target yet). Source: AutoReview  [STALE CHECK: no finish line]\nretired: Penguins map (Box Statue 223 / 40): target hit, removed\nretired: Cryosnakes map (Seesaw Statue 189 / 40): target hit, removed",
    "jobs": [
     "1. Law 2 duties, every day: Worship: souls (town), Divinity, The Hole (all 15 caverns + villagers), Slab, Statues: ES (Box, Seesaw) (focus never means neglect) [jobs.yaml]",
     "2. Statues: Box at Penguins, then Seesaw at Cryosnakes, 25 -> 40. (top task in his systems, score 19.4 (#20 of 22)) [AutoReview statue table]",
@@ -475,11 +482,6 @@
     {
      "do": "Sneaking: use today's charm rolls (4 symbol, 49 pristine left)",
      "why": "They don't carry over",
-     "sub": []
-    },
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
      "sub": []
     },
     {
@@ -508,7 +510,7 @@
      "sub": []
     },
     {
-     "do": "Prayers: equipped: The Royal Sampler, Shiny Snitch, Skilled Dimwit (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "sub": []
     },
     {
@@ -517,6 +519,10 @@
     },
     {
      "do": "Worship: runs the totems: spend charge on the prayer-unlock waves first, then the lowest totem",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
      "sub": []
     },
     {
@@ -546,10 +552,10 @@
    ],
    "park": "[MASTERCLASS] Fighting AFK (no candy) on a Stardust map, your pick (per-map AFK dust rates aren't in the data). Why: Compass is the #3 need and Stardust is the biggest gap to To reach Tier 5 (needs at least 1.3x your balance, next-level costs only, my read). idleon.wiki Wind Walker (fan wiki, flagged): dust + medallions drop only while ACTIVE in Tempest Form. AFK banks Aethermoons only from non-candy FIGHTING AFK, and only after 1000 Aether Fragments; 1 moon = 1h of dust at the AFK Info rate of the map he stands on when used (1 moon per 2h vs per 1h AFK: UNCONFIRMED). Spelunking AFK = 0 moons. Finish: Compass AutoReview 3/10 (To reach Tier 5); medallions 38; next abomination #19. Source: idleon.wiki Wind Walker (fan wiki, flagged) + save\nthen: [LAW] W7 Spelunking cave 3 (Buried Church). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; and 4 more",
    "jobs": [
-    "1. Law 2 duties, every day: Sneaking, Breeding, Trapping (collect + set), Worship totems (waves), Kilroy (weekly, archer line) (focus never means neglect) [jobs.yaml]",
-    "2. Masterclass: Compass: check tier vs account, short daytime Tempest Form session (next medallion + next abomination). NOW, alongside Spelunking (#3 need) (only a Wind Walker pushes Compass) [zack rule; mechanics idleon.wiki (fan, flagged)]",
-    "3. Tempest Form active session: medallion 38 -> 39 at Red Mushroom (W1 Birch Enclave) or Bop Box (W3 Overpass of Sound); then abomination #19 Bloodbane the Conglomerate (W3 Hell Hath Frozen Over, 459B HP, weak to Grass) (top task in his systems, score 69.0 (#10 of 22)) [save + idleon.wiki Wind Walker (fan, flagged)]",
-    "4. Main goal (Law 3, no personal goal): Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60,000,000,000,000 (you have 33,419,576,622,374)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!) [goalpick.py]"
+    "1. Zack's plan (2026-11-27): Compass: buy Exalted Stamps (1.46B stardust) before the next Elemental Path level (284M); check the stardust balance in game first (Exalted Stamps level bought (Compass tier target)) [zack]",
+    "2. Law 2 duties, every day: Sneaking, Breeding, Trapping (collect + set), Worship totems (waves), Kilroy (weekly, archer line) (focus never means neglect) [jobs.yaml]",
+    "3. Masterclass: Compass: check tier vs account, short daytime Tempest Form session (next medallion + next abomination). NOW, alongside Spelunking (#3 need) (only a Wind Walker pushes Compass) [zack rule; mechanics idleon.wiki (fan, flagged)]",
+    "4. Tempest Form active session: medallion 38 -> 39 at Red Mushroom (W1 Birch Enclave) or Bop Box (W3 Overpass of Sound); then abomination #19 Bloodbane the Conglomerate (W3 Hell Hath Frozen Over, 459B HP, weak to Grass) (top task in his systems, score 69.0 (#10 of 22)) [save + idleon.wiki Wind Walker (fan, flagged)]"
    ],
    "goal": [
     {
@@ -579,9 +585,14 @@
      ]
     },
     {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
+     "do": "Super talents: spend the open points",
+     "why": "every pick is from Griffy or Pulse (resettable if needed)",
+     "sub": [
+      "Talent preset 1 (fighting): Extra Bags is supered but isn't in his tree (left from an old class?). Reset it before spending",
+      "Talent preset 1 (fighting): 1 open, hold them (no sourced pick)",
+      "Talent preset 2 (skilling): Happy Dude is supered but isn't in his tree (left from an old class?). Reset it before spending",
+      "Talent preset 2 (skilling): super Right Hand Of Action (Griffy+Pulse: others get skill efficiency, bigger prints)"
+     ]
     },
     {
      "do": "Research: points and next level",
@@ -614,11 +625,19 @@
      ]
     },
     {
-     "do": "Prayers: equipped: The Royal Sampler, Skilled Dimwit (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "sub": []
     },
     {
      "do": "Greenstacks: your closest five you can farm yourself",
+     "sub": []
+    },
+    {
+     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
      "sub": []
     },
     {
@@ -666,11 +685,6 @@
    ],
    "spend": [
     {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
@@ -688,11 +702,19 @@
      "sub": []
     },
     {
-     "do": "Prayers: equipped: Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "sub": []
     },
     {
      "do": "Active play setup: autistomatic- Kill 1M Crabcakes for W2 Weekly Boss (7.05K -> 1000K)",
+     "sub": []
+    },
+    {
+     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3, 5, 6 not built to plan yet (card build session).",
      "sub": []
     },
     {
@@ -716,7 +738,7 @@
    "bags": [
     "Loot Luggage: 1 slots (Vendor)"
    ],
-   "park": "[LAW] W7 Spelunking cave 4 (One Way Opening). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: Royal Guardian, level 66: RG talents suit the deepest cave. Finish: Chapter 4: % Max Stamina for All Players 0/22; cave 4 best depth 51. Source: goal review + spot rules (Zack 2026-11-27)\nnow: w7a11 on Coralcave Outskirts (?)",
+   "park": "[LAW] W7 Spelunking cave 4 (One Way Opening). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: Royal Guardian, level 66: RG talents suit the deepest cave. Finish: Chapter 4: % Max Stamina for All Players 0/22; cave 4 best depth 51. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Coralcave Crab on Coralcave Outskirts (FIGHTING)",
    "jobs": [
     "1. Zack's plan (2026-11-27): Bag sweep: farm each missing bag once, store it, every character pulls one (whichever of Tastic / Matic has the higher drop rate: per-character DR isn't in the parser, check in game) (Zack set it) [zack]",
     "2. Zack's plan (2026-11-27): Redo all prints, Royal Sampler on (Zack set it) [zack]",
@@ -739,11 +761,6 @@
    ],
    "spend": [
     {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
@@ -765,7 +782,7 @@
      "sub": []
     },
     {
-     "do": "Prayers: equipped: The Royal Sampler, Skilled Dimwit (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "sub": []
     },
     {
@@ -774,6 +791,10 @@
     },
     {
      "do": "Worship: charges much faster than the rest, probably from mage worship talents (my read)",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
      "sub": []
     },
     {
@@ -800,7 +821,7 @@
     "Inventory Bag D: 2 slots (Quest)",
     "Loot Luggage: 1 slots (Vendor)"
    ],
-   "park": "[LAW] W7 Spelunking cave 2 (Decaying Crevasse). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 30: cave 2 has the bigger open page need, Chapter 2 81% short (weakest % Spelunking EXP gain 7.2/66). Close call vs cave 3: your call in the moment. Finish: Chapter 2: % Spelunking EXP gain 7.2/66; cave 2 best depth 32. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Divinity on Magma Rivertown (?)\nretired: W5 Divinity altar, Mindful style (divinity points 3.2B: next Coral Kid upgrade affordable): target hit, removed",
+   "park": "[LAW] W7 Spelunking cave 2 (Decaying Crevasse). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 30: cave 2 has the bigger open page need, Chapter 2 81% short (weakest % Spelunking EXP gain 7.2/66). Close call vs cave 3: your call in the moment. Finish: Chapter 2: % Spelunking EXP gain 7.2/66; cave 2 best depth 32. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Divinity on Magma Rivertown (DIVINITY)\nretired: W5 Divinity altar, Mindful style (divinity points 3.2B: next Coral Kid upgrade affordable): target hit, removed",
    "jobs": [
     "1. Law 2 duties, every day: Merits, Cards, Log prints, Lab #2 (focus never means neglect) [jobs.yaml]",
     "2. Main goal (Law 3, no personal goal): Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60,000,000,000,000 (you have 33,419,576,622,374)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!) [goalpick.py]"
@@ -847,11 +868,6 @@
      ]
     },
     {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Super talents: the save still shows Siege Breaker talents in his super slots (from before his class switch)",
      "why": "check in game whether they can be cleared; until then nothing is spent there",
      "sub": []
@@ -876,11 +892,15 @@
      ]
     },
     {
-     "do": "Prayers: equipped: Skilled Dimwit, Balance of Precision, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "sub": []
     },
     {
      "do": "Active play setup: autistopher- Kill 1M Crabcakes for W2 Weekly Boss (0.19K -> 1000K)",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
      "sub": []
     },
     {
@@ -937,9 +957,12 @@
    ],
    "spend": [
     {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
+     "do": "Super talents: spend the open points",
+     "why": "every pick is from Griffy or Pulse (resettable if needed)",
+     "sub": [
+      "Talent preset 1 (skilling): 4 open, hold them (no sourced pick)",
+      "Talent preset 2 (fighting): 4 open, hold them (no sourced pick)"
+     ]
     }
    ],
    "do": [
@@ -948,7 +971,7 @@
      "sub": []
     },
     {
-     "do": "Prayers: equipped: none (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: skilled Dimwit + Unending Energy: equip while PLACING traps, unequip after (snapshotted)",
      "sub": []
     },
     {
@@ -957,6 +980,10 @@
     },
     {
      "do": "Worship: lowest worship level on the account, sit at a totem for a few hours to catch up (my read)",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
      "sub": []
     },
     {
@@ -975,7 +1002,7 @@
     "Sack Of Success: 2 slots (Vendor)",
     "Loot Luggage: 1 slots (Vendor)"
    ],
-   "park": "[LAW] W7 Spelunking cave 1 (Fearful Tunnel). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 1: cave 1 is the deepest he runs well (my read). Finish: Chapter 1: % Faster Spelunking Speed 1.4/66; cave 1 best depth 29. Source: goal review + spot rules (Zack 2026-11-27)\nnow: w7a6 on The Clamworks (?)\nretired: Divinity (Divinity slippers) (Divinity 54 / 40): target hit, removed",
+   "park": "[LAW] W7 Spelunking cave 1 (Fearful Tunnel). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 1: cave 1 is the deepest he runs well (my read). Finish: Chapter 1: % Faster Spelunking Speed 1.4/66; cave 1 best depth 29. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Noble Clam on The Clamworks (FIGHTING)\nretired: Divinity (Divinity slippers) (Divinity 54 / 40): target hit, removed",
    "jobs": [
     "1. Zack's plan (2026-11-27): Divinity to 40, then Monuments: Justice 0, Wisdom 0, then Bravery 118 -> 300 (Zack set it) [zack]",
     "2. Law 2 duties, every day: Divinity to 40, Monuments (after Divinity), Traps, Gallery + capes, W7 reef (focus never means neglect) [jobs.yaml]",
@@ -986,11 +1013,9 @@
   }
  ],
  "holes": [
-  "stamps: planner broken",
   "trapping: nothing checks it (1 checklist item)",
   "weekly_boss: nothing checks it (1 checklist item)",
   "world_bosses: nothing checks it (1 checklist item)",
-  "super_talents: planner broken",
   "achievements: nothing checks it",
   "advice_fish: nothing checks it",
   "autoloot: nothing checks it",
@@ -1029,6 +1054,7 @@
   "construction_buildings: planner gives no reason",
   "rift: planner gives no reason",
   "star_signs: planner gives no reason",
+  "super_talents: planner gives no reason",
   "alchemy_bubbles: no written plan in brain",
   "alchemy_cauldrons: no written plan in brain",
   "alchemy_p2w: no written plan in brain",
@@ -1084,6 +1110,7 @@
   "slab: no written plan in brain",
   "sneaking: no written plan in brain",
   "spelunk: no written plan in brain",
+  "stamps: no written plan in brain",
   "star_signs: no written plan in brain",
   "statues: no written plan in brain",
   "summoning: no written plan in brain",
@@ -1094,6 +1121,7 @@
   "vault: no written plan in brain",
   "worship: no written plan in brain",
   "zenith_market: no written plan in brain",
+  "super_talents: no written plan in brain",
   "card_engine: no written plan in brain",
   "autoreview_alerts: no written plan in brain"
  ]

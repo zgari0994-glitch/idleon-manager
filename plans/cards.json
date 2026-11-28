@@ -74,13 +74,21 @@
      ]
     },
     {
-     "do": "Prayers: equipped: Midas Minded, Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "why": "wrong prayers cost gains",
-     "sub": []
+     "sub": [
+      "Prayers on: Midas Minded, Skilled Dimwit, The Royal Sampler",
+      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)"
+     ]
     },
     {
      "do": "Worship: worship level 98, charge full in 10d 19h",
      "why": "charge and souls keep worship moving",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
+     "why": "",
      "sub": []
     },
     {
@@ -99,7 +107,6 @@
      "sub": [
       "Spearfish at Pinpoint Summit: 100K kills left",
       "Coralcave Guardian at Coralcave Perimeter: 100K kills left",
-      "Nutto at The Roots: 100K kills left",
       "Dedotated Ram at Equinox Valley: 100K kills left"
      ]
     },
@@ -107,10 +114,8 @@
      "do": "CHOWs: 98 of 108 done. Closest:",
      "why": "counted on your best Barbarian (him)",
      "sub": [
-      "Green Mushroom at Mummy Memorial: 864K kills left",
       "Spearfish at Pinpoint Summit: 1M kills left",
       "Coralcave Guardian at Coralcave Perimeter: 1M kills left",
-      "Nutto at The Roots: 1M kills left",
       "Dedotated Ram at Equinox Valley: 1M kills left"
      ]
     }
@@ -124,11 +129,6 @@
       "Pulse (Aug): for money, 10-15 points on Yummy Peach Ring and 5 on Bundt Cake",
       "Pulse: push mastery to 15, it scales hard after 10"
      ]
-    },
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
     },
     {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
@@ -227,9 +227,14 @@
      "sub": []
     },
     {
-     "do": "Prayers: equipped: Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "why": "wrong prayers cost gains",
-     "sub": []
+     "sub": [
+      "Prayers on: Skilled Dimwit, The Royal Sampler",
+      "giant-monster prayers: remove before the weekly reset so giant-kill quests still count",
+      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)",
+      "Unending Energy: +Class & Skill EXP, but AFK caps at 10h: only when you claim within 10h"
+     ]
     },
     {
      "do": "Active play setup: autistocat- Kill 1M Stiltmoles for W2 Weekly Boss (75.00K -> 1000K)",
@@ -247,6 +252,11 @@
      "sub": []
     },
     {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
+     "why": "",
+     "sub": []
+    },
+    {
      "do": "Traps: nothing needed",
      "why": "",
      "sub": []
@@ -258,11 +268,6 @@
     }
    ],
    "house": [
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
-    },
     {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
      "why": "",
@@ -360,9 +365,12 @@
      ]
     },
     {
-     "do": "Prayers: equipped: Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "why": "wrong prayers cost gains",
-     "sub": []
+     "sub": [
+      "Prayers on: Skilled Dimwit, The Royal Sampler",
+      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)"
+     ]
     },
     {
      "do": "Worship: worship level 84, charge full in 13d 18h",
@@ -381,6 +389,11 @@
     {
      "do": "Legend talents: Toolbox can't tell how many points are unspent (it counts 68 spent but only 59 owned). Check Whallamus in game; if any are unspent, ask for the full pick list",
      "why": "data gap",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
+     "why": "",
      "sub": []
     },
     {
@@ -408,11 +421,6 @@
     {
      "do": "Zenith Market: 11 clusters. True Zen level 8 costs 10: buy it",
      "why": "Pulse: True Zen multiplies statue bonuses including the dragon statue, push it",
-     "sub": []
-    },
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
      "sub": []
     },
     {
@@ -540,9 +548,12 @@
      "sub": []
     },
     {
-     "do": "Prayers: equipped: Skilled Dimwit, The Royal Sampler, Vacuous Tissue (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "why": "wrong prayers cost gains",
-     "sub": []
+     "sub": [
+      "Prayers on: Skilled Dimwit, The Royal Sampler, Vacuous Tissue",
+      "giant-monster prayers: remove before the weekly reset so giant-kill quests still count"
+     ]
     },
     {
      "do": "Worship: worship level 101, charge full in 11d 16h",
@@ -551,6 +562,16 @@
     },
     {
      "do": "3D Printer slots: printing: Copper Ore (1.3B), Godshard Ore (8.5M) | samples held: Copper Ore 1.3B, Iron Ore 714M, Gold Ore 357M, Dementia Ore 97.2M, Void Ore 70.4M",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Talents: switch to talent preset 1 (skilling) for where he is parked",
+     "why": "the other preset holds the wrong talents for this job",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 1, 3, 5, 6 not built to plan yet (card build session).",
      "why": "",
      "sub": []
     },
@@ -567,9 +588,11 @@
    ],
    "house": [
     {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
+     "do": "Super talents: spend the open points",
+     "why": "every pick is from Griffy or Pulse (resettable if needed)",
+     "sub": [
+      "Talent preset 1 (skilling): super Brute Efficiency (Griffy+Pulse: efficiency on skilling setups)"
+     ]
     },
     {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
@@ -600,7 +623,7 @@
     }
    ],
    "part": [],
-   "park": "[LAW] W7 Spelunking cave 4 (One Way Opening). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: Royal Guardian, level 66: RG talents suit the deepest cave. Finish: Chapter 4: % Max Stamina for All Players 0/22; cave 4 best depth 51. Source: goal review + spot rules (Zack 2026-11-27)\nnow: w7a11 on Coralcave Outskirts (?)\nretired: Cavern 15 Temple (Dragon Statue 187 / 150): target hit, removed"
+   "park": "[LAW] W7 Spelunking cave 4 (One Way Opening). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: Royal Guardian, level 66: RG talents suit the deepest cave. Finish: Chapter 4: % Max Stamina for All Players 0/22; cave 4 best depth 51. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Coralcave Crab on Coralcave Outskirts (FIGHTING)\nretired: Cavern 15 Temple (Dragon Statue 187 / 150): target hit, removed"
   },
   {
    "name": "Autistabish",
@@ -657,9 +680,12 @@
      "sub": []
     },
     {
-     "do": "Prayers: equipped: Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "why": "wrong prayers cost gains",
-     "sub": []
+     "sub": [
+      "Prayers on: Skilled Dimwit, The Royal Sampler",
+      "Unending Energy: +Class & Skill EXP, but AFK caps at 10h: only when you claim within 10h"
+     ]
     },
     {
      "do": "Active play setup: autistabish- Kill 1M Crabcakes for W2 Weekly Boss (316.05K -> 1000K)",
@@ -682,6 +708,16 @@
      "sub": []
     },
     {
+     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
+     "why": "the other preset holds the wrong talents for this job",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
+     "why": "",
+     "sub": []
+    },
+    {
      "do": "Traps: nothing needed",
      "why": "",
      "sub": []
@@ -700,11 +736,6 @@
     }
    ],
    "house": [
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
-    },
     {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
      "why": "",
@@ -731,7 +762,7 @@
     }
    ],
    "part": [],
-   "park": "[LAW] W7 Spelunking cave 3 (Buried Church). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 59: cave 3 has the bigger open page need, Chapter 3 97% short (weakest % extra Overstim Fill Rate 0/550). Close call vs cave 4: your call in the moment. Finish: Chapter 3: % extra Overstim Fill Rate 0/550; cave 3 best depth 40. Source: goal review + spot rules (Zack 2026-11-27)\nnow: w7b4 on Sushi Perimeter (?)\nthen: [CLASS] Candy or Active ES on the statue mob. Why: ES clears statue mobs fast. Finish: finish line = GAP (no measurable target yet). Source: AutoReview  [STALE CHECK: no finish line]\nretired: Penguins map (Box Statue 223 / 40): target hit, removed\nretired: Cryosnakes map (Seesaw Statue 189 / 40): target hit, removed"
+   "park": "[LAW] W7 Spelunking cave 3 (Buried Church). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 59: cave 3 has the bigger open page need, Chapter 3 97% short (weakest % extra Overstim Fill Rate 0/550). Close call vs cave 4: your call in the moment. Finish: Chapter 3: % extra Overstim Fill Rate 0/550; cave 3 best depth 40. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Eggroll on Sushi Perimeter (FIGHTING)\nthen: [CLASS] Candy or Active ES on the statue mob. Why: ES clears statue mobs fast. Finish: finish line = GAP (no measurable target yet). Source: AutoReview  [STALE CHECK: no finish line]\nretired: Penguins map (Box Statue 223 / 40): target hit, removed\nretired: Cryosnakes map (Seesaw Statue 189 / 40): target hit, removed"
   },
   {
    "name": "Autistacular",
@@ -796,9 +827,15 @@
      "sub": []
     },
     {
-     "do": "Prayers: equipped: The Royal Sampler, Shiny Snitch, Skilled Dimwit (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "why": "wrong prayers cost gains",
-     "sub": []
+     "sub": [
+      "Prayers on: The Royal Sampler, Shiny Snitch, Skilled Dimwit",
+      "Skilled Dimwit + Unending Energy: equip while PLACING traps, unequip after (snapshotted)",
+      "Shiny Snitch: only while trapping (bundles of shiny critters; curse lowers shiny chance)",
+      "giant-monster prayers: remove before the weekly reset so giant-kill quests still count",
+      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)"
+     ]
     },
     {
      "do": "Active play setup: autistacular- Kill 1M Choccies for W2 Weekly Boss (125.12K -> 1000K)",
@@ -814,6 +851,11 @@
     },
     {
      "do": "3D Printer slots: printing: Spore Cap (1.4M), Spore Cap (1.4M) | samples held: Spore Cap 1.4M, Bullfrog Horn 238K, Pocket Sand 386K, Floof Ploof 173K, Cracked Glass 189K",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
      "why": "",
      "sub": []
     },
@@ -840,11 +882,6 @@
      "sub": [
       "Pulse: Verminous farms on the Insta castle map with Wind Walker + candy (mixed reports, test it)"
      ]
-    },
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
     },
     {
      "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
@@ -945,9 +982,12 @@
      "sub": []
     },
     {
-     "do": "Prayers: equipped: The Royal Sampler, Skilled Dimwit (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "why": "wrong prayers cost gains",
-     "sub": []
+     "sub": [
+      "Prayers on: The Royal Sampler, Skilled Dimwit",
+      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)"
+     ]
     },
     {
      "do": "Worship: worship level 113, charge full in 22d 13h",
@@ -971,6 +1011,16 @@
      ]
     },
     {
+     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
+     "why": "the other preset holds the wrong talents for this job",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
+     "why": "",
+     "sub": []
+    },
+    {
      "do": "Traps: move all to Honker at W3 Wam Wonderland, Royal traps, 40 hours",
      "why": "Goosey Glug 0% toward 9",
      "sub": [
@@ -986,9 +1036,14 @@
    ],
    "house": [
     {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
+     "do": "Super talents: spend the open points",
+     "why": "every pick is from Griffy or Pulse (resettable if needed)",
+     "sub": [
+      "Talent preset 1 (fighting): Extra Bags is supered but isn't in his tree (left from an old class?). Reset it before spending",
+      "Talent preset 1 (fighting): 1 open, hold them (no sourced pick)",
+      "Talent preset 2 (skilling): Happy Dude is supered but isn't in his tree (left from an old class?). Reset it before spending",
+      "Talent preset 2 (skilling): super Right Hand Of Action (Griffy+Pulse: others get skill efficiency, bigger prints)"
+     ]
     },
     {
      "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
@@ -1083,9 +1138,12 @@
      "sub": []
     },
     {
-     "do": "Prayers: equipped: Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "why": "wrong prayers cost gains",
-     "sub": []
+     "sub": [
+      "Prayers on: Skilled Dimwit, The Royal Sampler",
+      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)"
+     ]
     },
     {
      "do": "Active play setup: autistomatic- Kill 1M Crabcakes for W2 Weekly Boss (7.05K -> 1000K)",
@@ -1102,6 +1160,16 @@
      "sub": []
     },
     {
+     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
+     "why": "the other preset holds the wrong talents for this job",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3, 5, 6 not built to plan yet (card build session).",
+     "why": "",
+     "sub": []
+    },
+    {
      "do": "Traps: move all to Bunny at W3 Thermonuclear Climb, Royal traps, 40 hours",
      "why": "Bunny Brew 0% toward 8",
      "sub": [
@@ -1115,11 +1183,6 @@
     }
    ],
    "house": [
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
-    },
     {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
      "why": "",
@@ -1155,7 +1218,7 @@
      "sub": []
     }
    ],
-   "park": "[LAW] W7 Spelunking cave 4 (One Way Opening). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: Royal Guardian, level 66: RG talents suit the deepest cave. Finish: Chapter 4: % Max Stamina for All Players 0/22; cave 4 best depth 51. Source: goal review + spot rules (Zack 2026-11-27)\nnow: w7a11 on Coralcave Outskirts (?)"
+   "park": "[LAW] W7 Spelunking cave 4 (One Way Opening). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: Royal Guardian, level 66: RG talents suit the deepest cave. Finish: Chapter 4: % Max Stamina for All Players 0/22; cave 4 best depth 51. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Coralcave Crab on Coralcave Outskirts (FIGHTING)"
   },
   {
    "name": "Autistronaut",
@@ -1197,9 +1260,11 @@
      ]
     },
     {
-     "do": "Prayers: equipped: The Royal Sampler, Skilled Dimwit (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "why": "wrong prayers cost gains",
-     "sub": []
+     "sub": [
+      "Prayers on: The Royal Sampler, Skilled Dimwit"
+     ]
     },
     {
      "do": "Active play setup: autistronaut- Kill 1M Crabcakes for W2 Weekly Boss (0.72K -> 1000K)",
@@ -1216,6 +1281,11 @@
      ]
     },
     {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
+     "why": "",
+     "sub": []
+    },
+    {
      "do": "Traps: move all to Blobfish at W4 Hyperion Nebula, Cocoa Tunnel, Royal traps, 40 hours",
      "why": "Bloat Draft 17% toward 11",
      "sub": [
@@ -1224,11 +1294,6 @@
     }
    ],
    "house": [
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
-    },
     {
      "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
      "why": "",
@@ -1260,7 +1325,7 @@
     }
    ],
    "part": [],
-   "park": "[LAW] W7 Spelunking cave 2 (Decaying Crevasse). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 30: cave 2 has the bigger open page need, Chapter 2 81% short (weakest % Spelunking EXP gain 7.2/66). Close call vs cave 3: your call in the moment. Finish: Chapter 2: % Spelunking EXP gain 7.2/66; cave 2 best depth 32. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Divinity on Magma Rivertown (?)\nretired: W5 Divinity altar, Mindful style (divinity points 3.2B: next Coral Kid upgrade affordable): target hit, removed"
+   "park": "[LAW] W7 Spelunking cave 2 (Decaying Crevasse). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 30: cave 2 has the bigger open page need, Chapter 2 81% short (weakest % Spelunking EXP gain 7.2/66). Close call vs cave 3: your call in the moment. Finish: Chapter 2: % Spelunking EXP gain 7.2/66; cave 2 best depth 32. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Divinity on Magma Rivertown (DIVINITY)\nretired: W5 Divinity altar, Mindful style (divinity points 3.2B: next Coral Kid upgrade affordable): target hit, removed"
   },
   {
    "name": "Autistopher",
@@ -1335,9 +1400,12 @@
      "sub": []
     },
     {
-     "do": "Prayers: equipped: Skilled Dimwit, Balance of Precision, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: leave Royal Sampler on until print day",
      "why": "wrong prayers cost gains",
-     "sub": []
+     "sub": [
+      "Prayers on: Skilled Dimwit, Balance of Precision, The Royal Sampler",
+      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)"
+     ]
     },
     {
      "do": "Active play setup: autistopher- Kill 1M Crabcakes for W2 Weekly Boss (0.19K -> 1000K)",
@@ -1351,6 +1419,11 @@
     },
     {
      "do": "3D Printer slots: printing: Firefly (582K), Firefly (582K) | samples held: Fly 99.5M, Butterfly 4.9M, Sentient Cereal 2.8M, Fruitfly 1.6M, Mosquisnow 981K",
+     "why": "",
+     "sub": []
+    },
+    {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
      "why": "",
      "sub": []
     },
@@ -1379,11 +1452,6 @@
     }
    ],
    "house": [
-    {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
-    },
     {
      "do": "Missing bag: Rucksack Of Riches: 1 slots (Vendor)",
      "why": "",
@@ -1450,9 +1518,12 @@
      ]
     },
     {
-     "do": "Prayers: equipped: none (prayers planner failed: 'list' object has no attribute 'get')",
+     "do": "Prayers: skilled Dimwit + Unending Energy: equip while PLACING traps, unequip after (snapshotted)",
      "why": "wrong prayers cost gains",
-     "sub": []
+     "sub": [
+      "Prayers on: none",
+      "Shiny Snitch: only while trapping (bundles of shiny critters; curse lowers shiny chance)"
+     ]
     },
     {
      "do": "Active play setup: autistachio- Kill 1M Green Mushrooms for W2 Weekly Boss (255.87K -> 1000K)",
@@ -1476,6 +1547,11 @@
      "sub": []
     },
     {
+     "do": "Cards: presets 3 not built to plan yet (card build session).",
+     "why": "",
+     "sub": []
+    },
+    {
      "do": "Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours",
      "why": "Turtle Tisane",
      "sub": [
@@ -1490,9 +1566,12 @@
    ],
    "house": [
     {
-     "do": "Super talents: check failed (No module named 'utils')",
-     "why": "",
-     "sub": []
+     "do": "Super talents: spend the open points",
+     "why": "every pick is from Griffy or Pulse (resettable if needed)",
+     "sub": [
+      "Talent preset 1 (skilling): 4 open, hold them (no sourced pick)",
+      "Talent preset 2 (fighting): 4 open, hold them (no sourced pick)"
+     ]
     },
     {
      "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
@@ -1511,7 +1590,7 @@
     }
    ],
    "part": [],
-   "park": "[LAW] W7 Spelunking cave 1 (Fearful Tunnel). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 1: cave 1 is the deepest he runs well (my read). Finish: Chapter 1: % Faster Spelunking Speed 1.4/66; cave 1 best depth 29. Source: goal review + spot rules (Zack 2026-11-27)\nnow: w7a6 on The Clamworks (?)\nretired: Divinity (Divinity slippers) (Divinity 54 / 40): target hit, removed"
+   "park": "[LAW] W7 Spelunking cave 1 (Fearful Tunnel). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 1: cave 1 is the deepest he runs well (my read). Finish: Chapter 1: % Faster Spelunking Speed 1.4/66; cave 1 best depth 29. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Noble Clam on The Clamworks (FIGHTING)\nretired: Divinity (Divinity slippers) (Divinity 54 / 40): target hit, removed"
   }
  ]
 }
