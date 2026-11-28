@@ -15,25 +15,28 @@ description: Ballot: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 8 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: feeder
-goal: "Consider Poppy around World 7 for doubled Ballot and Meritocracy bonuses."
+role: feeder   # weekly multiplier on whatever system wins the vote
+goal: "Weekly vote decided with pros/cons for him and the server; vote multi (now x1.84) raised over time"
 coverage: sourced
 ladder:
-  - {tier: 1, target: "Consider Poppy around World 7 for doubled Ballot and Meritocracy bonuses.", source: "Griffy", date: "2026-09-21"}   # KHuU392EW-4 00:04:47
-  - {tier: 2, target: "He votes AFK gains over extra stats despite the latter helping accuracy; the vote ends in three days.", source: "Griffy", date: "2026-09-21"}   # KHuU392EW-4 00:56:56
-  - {tier: 3, target: "More spelunking levels before statue week make sense to increase stamina available for spending orange potions.", source: "Griffy", date: "2026-07-29"}   # _maMoJLg6YE 05:44:40
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: daily, who: "Autistotle", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+  - {tier: 1, target: "Every reset: card shows the options with Griffy's tier (S: kills per kill, nuggets, shrine XP; A top: refinery; F: guild points) + pros/cons, never 'vote X'", source: "Griffy + Zack rule", date: "2026-01-29"}   # Rr5KiEflTWE
+  - {tier: 2, target: "Pre-stack for strong weeks: bank AFK 24h before kills-per-kill week; pre-stack divinity before divinity week", source: "Griffy / Pulse", date: "2026-07-29"}   # _maMoJLg6YE 02:20:46; Pulse NlppEKJNCZM 00:16:17
+  - {tier: 3, target: "Vote multi up: Crystal Cuttlefish +40%, Mashed Potato +5%, Poppy doubles Ballot + Meritocracy (consider around W7)", source: "Griffy", date: "2026-09-21"}   # 8C9vFwK6bUg 00:15:15 / 00:11:13; KHuU392EW-4 00:04:47
+objective: {rung: 1, now: "this week Sailing Artifact Find (x1.84), votes carried from save 20261127T1704", target: "weekly read every reset", eta_days: null}
+check: {cadence: weekly, who: "Autistotle", look_at: "voteBallot.selectedBonus + voteMulti; phone saves carry votes (flag)"}
+buffs:
+  - {src: "Crystal Cuttlefish", gives: "+40% ballot multi", owned: "check in game", owner: "Autistotle"}
+  - {src: "Mashed Potato", gives: "+5% ballot multi", owned: "check in game", owner: "Autistotle"}
+  - {src: "Poppy (companion)", gives: "x2 Ballot + Meritocracy", owned: "check in game", owner: "account"}
+triggers:
+  - {when: "weekly reset", do: "pros/cons on Totle's card, then week plan on the owner of the voted system (e.g. sailing week -> Ticles long trips)"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Consider Poppy around World 7 for doubled Ballot and Meritocracy bonuses.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: meritocracyMult=1.2, voteMulti=1.84; bonuses: 35 items
+  - {do: "Confirm Crystal Cuttlefish / Mashed Potato / Poppy ownership in game (not in parser)", stat: "vote multi", gain_pct: null, unblocks: [], source: "Griffy 2026-07-19 8C9vFwK6bUg", active_min: 3, wait_hr: null, cost: null, urgent: false}
+# Never recommend a vote (Zack 2026-11-21): pros/cons only.
 ```
 <!-- GOAL:END -->
 

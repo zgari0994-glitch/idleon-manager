@@ -14,25 +14,26 @@ description: Dancing Coral: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 8 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: feeder
-goal: "Red 4 inevitable builder adds an extra gold construction slot (2.5x faster); a must for crafting new shrines f"
-coverage: sourced
+role: feeder   # +5% Spelunking POW and +3% amber per Isaccian/Crystal shrine level above 200 -> main goal
+goal: "Every Dancing Coral bonus unlocked in order; shrine levels above 200 feed them"
+coverage: partial   # Griffy: low coral limits progression; unlock order is the game's, no creator order
 ladder:
-  - {tier: 1, target: "Red 4 inevitable builder adds an extra gold construction slot (2.5x faster); a must for crafting new shrines for coral percent and spelunkin", source: "Griffy", date: "2025-11-10"}   # GIs09k2bhkY 00:08:44
-  - {tier: 2, target: "Red 10 coral restoration gives 60% more coral gained daily; one of the most time-gated mechanics in World 7 coral reef.", source: "Griffy", date: "2025-11-10"}   # GIs09k2bhkY 00:12:52
-  - {tier: 3, target: "Coral reef upgrades only give about 7%/5%/3% so a 60% increase is an absolute must with no questions.", source: "Griffy", date: "2025-11-10"}   # GIs09k2bhkY 00:13:23
-objective: {rung: 1, now: "Dropped by Coralc (159", target: "991", eta_days: null}
-check: {cadence: weekly, who: "Autistachio", look_at: "python3 tools/lookup.py dancing_coral"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+  - {tier: 1, target: "Unlock 1.04x Class EXP per Pantheon Shrine level above 200: 991 Char Coral (have 159)", source: "AutoReview", date: "2026-11-28"}
+  - {tier: 2, target: "Then Research EXP (Clover), Minehead DMG/Money (Summereading), Lumi (Crescent), in game order", source: "AutoReview", date: "2026-11-28"}
+  - {tier: 3, target: "Push Isaccian + Crystal shrines past 200 for POW/amber (Spelunking goal)", source: "my_read", date: "2026-11-28"}
+objective: {rung: 1, now: "159 Char Coral", target: "991", eta_days: null}
+check: {cadence: daily, who: "Autistachio", look_at: "coralReef.dancingCoral + Char Coral"}
+buffs: []
+triggers:
+  - {when: "Char Coral >= 991", do: "unlock Class EXP bonus, next target = Research EXP cost"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Red 4 inevitable builder adds an extra gold construction slot (2.5x faster); a must for crafting new shrines for coral p", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: coralKidUpgradeLevelTotal=16, grindTimeDaily=150, ownedCorals=336, unlockedCorals=3; coralKidUpgrades: 12 total, 0 maxed, 12 open, 0 locked
+  - {do: "Farm Char Coral to 991 for the Class EXP unlock", stat: "Class EXP", gain_pct: null, unblocks: [], source: "AutoReview", active_min: null, wait_hr: null, cost: 991, urgent: false}
+  - {do: "Shrine levels above 200 (Isaccian POW, Crystal amber): route to Autistastic's shrine work", stat: "Spelunking POW", gain_pct: null, unblocks: [spelunk], source: "my_read", active_min: null, wait_hr: null, cost: null, urgent: false}
+# Removed Griffy Red 4 / Red 10 rows: they're Coral Reef (batch 7). Drop source of Char Coral cut off in AutoReview ("Coralc...").
 ```
 <!-- GOAL:END -->
 

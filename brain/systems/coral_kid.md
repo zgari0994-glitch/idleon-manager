@@ -14,25 +14,25 @@ description: Coral Kid: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 8 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "Choose Doot to use Omniphau's AFK-time procs on the account's accumulated hours."
-coverage: sourced
+role: feeder   # divinity -> Class EXP, Blessing cap, Lumi, DMG, Time Elapse
+goal: "Coral Kid upgrades bought in a sourced order with divinity points (3.21B banked)"
+coverage: partial   # Griffy/Pulse say why it matters; no creator buy order
 ladder:
-  - {tier: 1, target: "Choose Doot to use Omniphau's AFK-time procs on the account's accumulated hours.", source: "Griffy", date: "2026-09-21"}   # KHuU392EW-4 00:03:47
-  - {tier: 2, target: "Divinity pearls help difficult skill levels and meeting tool requirements.", source: "Griffy", date: "2026-09-21"}   # KHuU392EW-4 00:10:54
-  - {tier: 3, target: "His setup levels Divinity alongside Laboratory to unlock more gods.", source: "Griffy", date: "2026-10-16"}   # yxgmoZQ59mY 01:03:13
-objective: {rung: 1, now: "0", target: "1", eta_days: null}
-check: {cadence: daily, who: "Autistabish", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+  - {tier: 1, target: "Keep a divinity point stack for Coral Kid; pre-stack in divinity ballot weeks", source: "Pulse", date: "2026-10-14"}   # NlppEKJNCZM 00:16:17 (he thinks points are the cost)
+  - {tier: 2, target: "my read: Blessing max +4 (93.8M) and volcano link 2.30x Div EXP (34.5M) first, then God Rank Class EXP (396M), then Minor Link (2.16B)", source: "my_read", date: "2026-11-28"}
+  - {tier: 3, target: "Unlock the Total Divinity LV gated upgrades (Transmute, Div EXP, Time Elapse on any AFK, Lumi, God Rank DMG)", source: "AutoReview", date: "2026-11-28"}
+objective: {rung: 2, now: "volcano 13, blessing +2 levels, class EXP 1, rest 0; 3.21B points", target: "blessing + volcano + class EXP bought", eta_days: null}
+check: {cadence: daily, who: "Autistabish", look_at: "coralReef.coralKidUpgrades vs divinity points"}
+buffs: []
+triggers:
+  - {when: "Total Divinity LV hits a gated upgrade's requirement", do: "add it to the buy list"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Choose Doot to use Omniphau's AFK-time procs on the account's accumulated hours.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: divinityPoints=3.21B, godRank=3, unlocked=True, unlockedDeities=13; blessingLevels: ['134', '134', '134', '133', '109', '103', '133', '75', '88', '63', '2']
+  - {do: "Verify in game that Coral Kid costs Divinity PTS, then buy the cheapest affordable upgrade (my read order)", stat: "divinity", gain_pct: null, unblocks: [], source: "my_read + Pulse 2026-10-13 PnEVVlBrUdQ", active_min: 3, wait_hr: null, cost: null, urgent: false}
+# Data lives at coralReef.coralKidUpgrades, but data_map.yaml points coral_kid at divinity (lookup shows divinity data). Griffy: Coral Kid makes divinity endgame relevant (2026-01-29), amplifies Arctis (2026-07-19).
 ```
 <!-- GOAL:END -->
 
