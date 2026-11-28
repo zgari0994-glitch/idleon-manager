@@ -20,6 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'model'))
 from data import load, DataMissing, MAP  # noqa: E402
+import phase_d as PD   # Phase C step D views
 import yaml  # noqa: E402
 
 IDX = yaml.safe_load(open(ROOT / 'model' / 'system_index.yaml'))
@@ -45,7 +46,7 @@ if system and system not in MAP:
     else:
         print(f"unknown system '{system}'. Close: {near or sorted(MAP)[:40]}"); sys.exit(2)
 
-D = load()
+D = load(); PD._D = D   # share the loaded save with phase_d
 cut = []                 # what got truncated
 ROWS = 999 if FULL else 14
 
@@ -108,7 +109,7 @@ SPEC = {
     'jelly_operator': {'bal': lambda: (D.account['jellyOperator'].get('bloodcells'), 'Bloodcells'), 'cond': _jelly_cond},
     'spelunk': {'bal': lambda: (D.account['spelunking'].get('currentAmber'), 'Amber')},
     'tesseract': {'max': 'x4', 'cond': _tess_cond, 'note': 'cost currency per upgrade (tachyon color) not in parser; balances in header'},
-    'compass': {'max': 'x4', 'skip': {'maps', 'medallions', 'upgrades'}, 'note': 'dust type per upgrade not in parser; dust balances in header'},
+    'compass': {'max': 'x4', 'skip': {'maps', 'medallions', 'upgrades'}, 'note': 'dust balances + dust type per upgrade first (phase_d)'},
 }
 def _rng(xs):
     xs = [x for x in xs if isinstance(x, (int, float))]
@@ -244,8 +245,8 @@ def _st_extra():
     for c in D.characters:
         i = c.get('superTalentsInfo') or {}
         out.append(f"  {c['name']}: {len(i.get('talents') or [])} super talents set, bonus {fmt(i.get('bonus'))}%, {c.get('superTalentLeftToSpend')} left to spend"
-                   + (f" | talent ids {[t.get('talentIndex') for t in i.get('talents') or []]}" if i.get('talents') else ''))
-    return out + ['  note: talent names by id not mapped (Toolbox talent list), presetIndex shown in --path']
+                   + (f" | {', '.join(PD.talent_name(t.get('talentIndex')) for t in i.get('talents') or [])}" if i.get('talents') else ''))
+    return out + ['  names: brain/talent_names.json (Toolbox talents.json skillIndex), presetIndex shown in --path']
 
 
 def _poppy_extra():
@@ -273,9 +274,7 @@ def _wb_extra():
         out.append(f"  source: {W.get('source')} fetched {W.get('fetched')} (fan src)")
     except Exception as e:
         out.append(f"  brain/weekly_boss.yaml not read: {e}")
-    raw = D.account.get('weeklyBossesRaw') or {}
-    out.append(f"  weeklyBossesRaw: {len(raw)} keys, not decoded (step D); done-state not read")
-    return out
+    return out + PD.weekly_raw_lines()
 
 
 def _worldboss_raw():
@@ -298,7 +297,27 @@ SPEC['super_talents'] = {'extra': _st_extra, 'norender': True}
 SPEC['poppy'] = {'extra': _poppy_extra, 'norender': True}
 SPEC['snail_mail'] = {'extra': _snail_extra, 'norender': True}
 SPEC['weekly_boss'] = {'extra': _wb_extra, 'norender': True}
-SPEC['world_bosses'] = {'raw': _worldboss_raw}
+SPEC['world_bosses'] = {'raw': PD.world_bosses}
+
+
+# ---------- Phase C step D (2026-11-28): extra views from model/phase_d.py ----------
+def _add_extra(key, fn, first=False):
+    sp = SPEC.setdefault(key, {}); old = sp.get('extra')
+    sp['extra'] = (lambda: fn() + (old() if old else [])) if first else (lambda: (old() if old else []) + fn())
+
+
+def _trash_view():
+    f, t, lines, plan = PD.trash_list()
+    return [f"  Trash shop buy list ({plan['source']}), fires when Fractal opens (now {'OPEN' if f.get('unlocked') else 'locked'}), trash {PD.short(t.get('trash'))}:"] + ['    ' + x for x in lines]
+
+
+_add_extra('refinery', PD.salt_lines, first=True)
+_add_extra('obols', PD.obol_lines)
+_add_extra('guild_bonuses', PD.guild_lines)
+_add_extra('compass', PD.compass_dust_lines, first=True)
+_add_extra('spelunk', PD.lore_lines, first=True)
+_add_extra('advice_fish', lambda: PD.FISH_NOTE)
+_add_extra('islands', _trash_view)
 SPEC['trophies'] = {'extra': _trophy_extra, 'norender': True}
 SPEC['bubba'] = {'skip': set()}
 def _palette_extra():

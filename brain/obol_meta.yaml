@@ -1,0 +1,6 @@
+# Obols: meta watch only (Zack 2026-11-28). Flag only when a newer Griffy/Pulse/Nocturne obol claim lands after `checked`.
+# When a flagged claim changes the setup: update setup + checked. Otherwise bump checked so the flag clears.
+setup: {silver: "Pop", gold: "Trip 6s", platinum: "Yahtzee 6s", molten: "Dead Divine"}
+scope: "every character + family"
+checked: "2026-11-28"
+basis: "Zack's setup as of Phase C; creator claims DB has no top-creator obol setup claim to compare"

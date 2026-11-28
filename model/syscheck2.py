@@ -139,6 +139,7 @@ def routed_alerts():
     out = {}
     for sec, a in (al.get('account') or {}).items():
         for key, v in _leaves(a, [sec]):
+            if key.startswith('World 3.construction.saltDeficit'): continue   # Zack 2026-11-28: salt flags only on a real stall (phase_d.salt_check)
             sysk, own = alert_owner(key)
             ln = _pretty(key, v)
             if ln: out.setdefault(own, []).append((sysk or 'unrouted', ln))
@@ -222,7 +223,11 @@ def c_fractal():
     if not f: return None
     b, bpd = isl.get('bottles') or 0, isl.get('bottlesPerDay') or 0
     if f.get('unlocked'):
-        return ('islands', f"Fractal Island: unlocked, {short(f.get('hoursAfk'))} AFK hours banked (spend on its rewards)", [])
+        import phase_d as PD
+        PD._D = D
+        _, t, tl, plan = PD.trash_list()
+        return ('islands', f"Fractal Island: unlocked, {short(f.get('hoursAfk'))} AFK hours banked (spend on its rewards)",
+                [f"DO NOW trash shop, buy in order ({plan['source']}, {short(t.get('trash'))} trash):"] + tl)
     gap = (f.get('cost') or 0) - b
     eta = f", ~{gap / bpd:.0f} days at {bpd}/day" if gap > 0 and bpd else ''
     return ('islands', f"Fractal Island: locked, {short(b)} / {short(f.get('cost'))} bottles" + (' (buy it now)' if gap <= 0 else eta),
@@ -406,7 +411,8 @@ def c_construction_slots():
     open_ = [b for b in bs if (b.get('level') or 0) < (b.get('maxLevel') or 0)]
     gated = [b for b in open_ if not (b.get('buildCost') or 0) > 0]   # cost 0 = level-gated (Toolbox gives no cost)
     open_ = [b for b in open_ if b not in gated]
-    salt = ', '.join(nm(x.get('saltName')) for x in (((Z.get('alerts') or {}).get('account') or {}).get('World 3') or {}).get('construction', {}).get('saltDeficit') or [])
+    import phase_d as PD; PD._D = D   # Zack 2026-11-28: only salts that stall (or are about to) count as short
+    salt = ', '.join(sorted({nm(r['salt']) for r in PD.salt_rows() if r['cycles'] < 1 or (r['deficit'] and r['cycles'] < PD.STALL_SOON_CYCLES)}))
     fmt = lambda b, why: (f"{nm(b['name'])} {b['level']}/{b['maxLevel']}" + (' [in trimmed slot]' if b.get('isSlotTrimmed') else ' [in a slot]' if b.get('slot', -1) != -1 else '')
                           + f", next level {_hrs(b.get('trimmedHoursLeft') if b.get('isSlotTrimmed') else b.get('hoursLeft'))}" + f" ({why})")
     order, subs = [], []
@@ -577,12 +583,20 @@ def c_talent_books(name):
     return ('talent_books', f"Talent books: perfect checkout = 2 a day on this character" + (f" ({books} books in the library now)" if books else ''), subs)
 
 
-CHECKS2 = {'alchemy_bubbles': c_bubbles, 'alchemy_vials': c_vials, 'islands': c_fractal, 'divinity_coral_kid': c_coral_kid,
+def _pd(fn_name):
+    def f():
+        import phase_d as PD
+        PD._D = D   # reuse the save syscheck already loaded
+        return getattr(PD, fn_name)()
+    return f
+
+
+CHECKS2 = {'refinery_salt': _pd('salt_check'), 'obol_meta': _pd('obol_check'), 'spelunk_lore': _pd('lore_check'),'alchemy_bubbles': c_bubbles, 'alchemy_vials': c_vials, 'islands': c_fractal, 'divinity_coral_kid': c_coral_kid,
            'lab_chars': c_lab_chars, 'rotation': c_rotation, 'quest_greenstacks': c_quest_gs, 'inventory': c_inventory,
            'construction_slots': c_construction_slots, 'drop_rate': c_drop_rate, 'atom_collider': c_atoms,
            'tesseract': c_tesseract_maps, 'spelunk': c_spelunk_opt, 'lab_chips': c_lab_shop, 'sneaking': c_ninja,
            'minehead': c_minehead, 'minigames': c_minigames, 'event_points_shop': c_event_shop}
-OWN2 = {'lab_chars': ['Autistocat'], 'rotation': ['Autistotle'], 'quest_greenstacks': [LIGHT], 'inventory': [LIGHT],
+OWN2 = {'refinery_salt': S1.owners('refinery'), 'obol_meta': [LIGHT], 'spelunk_lore': S1.owners('spelunk'),'lab_chars': ['Autistocat'], 'rotation': ['Autistotle'], 'quest_greenstacks': [LIGHT], 'inventory': [LIGHT],
         'construction_slots': ['Autistastic', 'Autistomatic'], 'alchemy_vials': ['Autistocat', 'Autistomatic'],
         'drop_rate': ['Autistastic', 'Autistomatic'], 'minehead': [LIGHT], 'minigames': [LIGHT]}
 PER_CHAR = {'toolbox_alerts': c_missables, 'triggers': c_triggers, 'talent_books': c_talent_books}

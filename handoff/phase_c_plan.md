@@ -26,7 +26,7 @@ C. Anvil setup + lookup systems + trophies [~8, took ~16] DONE 2026-11-28 (docs/
    - Anvil: decode anvilSelected/anvilProduction to item names (Toolbox item list in tools/tbparse) and point split (speed/cap/exp); per-character "producing X, Y; points S/C/E; unspent N" on Do 1. Gas Shard + Historium = Godshard + Prehistrium bars (forge), live. Verify Topher -435 / Bish cap 0.
    - lookup.py: add anvil, bubba, super_talents, palette, poppy, snail_mail, weekly_boss, world_bosses; fix shrines rows.
    - Trophies: read owned trophies from the save; minigame lines say "Darter Trophy: have / not yet" (basketball, darts, minehead, any other minigame trophy).
-D. Data gaps that still matter [~6]
+D. Data gaps that still matter [~6, took ~22] DONE 2026-11-28 (docs/planners.md Phase C step D)
    - Salt: flag only if a refinery/saltlick input is short and production stalls.
    - Trash shop: buy list on Fractal unlock (trigger from B).
    - Obols: meta watch only (source refresh compares Zack's setup above vs newest Griffy/Pulse; flag on change).

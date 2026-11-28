@@ -58,3 +58,15 @@ Rollout: (1) standard [done 2026-11-27] -> (2) audit all brain/systems vs standa
 - lookup.py: anvil, bubba, super_talents, palette, poppy (= kangaroo, my read), snail_mail (= Gaming snail, my read), weekly_boss (brain/weekly_boss.yaml + raw count), world_bosses (raw BossInfo, not decoded: step D), trophies; shrines fixed (name, Lv, bonus, map, desc). New SPEC keys: norender, raw (fallback when the parser has no path).
 - Trophies: model/trophies.py (gallery.allTrophies isAcquired + brain/trophies.yaml). Gallery card + minigame lines (syscheck2.c_minigames).
 - Still open (step D): super talent names by id, BossInfo decode, weeklyBossesRaw decode.
+
+## Phase C step D (2026-11-28): data gaps, model/phase_d.py (dry run: `python3 model/phase_d.py`)
+- Salt (Zack: only care that production doesn't stall): per active salt input, cost/cycle = Toolbox calcCost (floor(rank^(1.3 if salt input and salt index <= salt task level else 1.5)) x qty). Card flag (`refinery_salt`, Tastic) only when an input is under 1 cycle (STALLED, DO NOW) or a Toolbox-deficit salt input has under 24 cycles left (my read). Toolbox's saltDeficit alert and the construction "salt-short" sub are now gated the same way; full table in `lookup.py refinery`.
+- Trash shop: brain/trash_shop.yaml (my read, no creator coverage; the 4 stamps are already owned). Shows under Fractal on Tastic's card the pull Fractal is unlocked (trigger islands.bottles >= 570); always visible in `lookup.py islands`.
+- Obols: brain/obol_meta.yaml = Zack's setup + `checked` date. `obol_meta` (Tachio) flags only when a dated Griffy/Pulse/Nocturne obol claim newer than `checked` lands in sources/creators tags; bump `checked` (or the setup) to clear.
+- Advice Fish currency: not in the save as Toolbox reads it (getAdviceFish = levels + costs). Lookup says check in game.
+- World bosses: BossInfo[n] = [difficulty 0/1/2 Normal/Chaotic/Nightmare, hp, defence] for Amarok, Efaunt, Chizoar, Troll, Kattlekruk, Emperor (Toolbox speedrun.ts; Emperor pays out on Kattlekruk's difficulty). No done-state in BossInfo.
+- weeklyBossesRaw: c / g = week buffs (Class EXP / damage, cap 150), UI_x = skins owned. d_* done-state not decodable (Toolbox doesn't read it), so the weekly boss line stays daily.
+- Super talents: names from brain/talent_names.json (Toolbox talents.json skillIndex).
+- Guild: Zack IS in a guild. Toolbox shows Lv 0 / locked because its guild doc (Firestore) isn't in a Copy raw data paste; lookup reads bonus levels from the save's Guild[0].
+- Royal Armory: already reads fine (`lookup.py royal_armory`, Tastic). Compass dust type: dustNames[upgrade.x3]; lookup compass lists dust balances + cheapest open upgrades with their dust, OK/SHORT.
+- Lunarheim (next lore boss, #6): first discovery needs 60T POW (save 20261128T0256: 33.4T, x1.80 short); boss at cave level 50 (my read of foundAt). Shown on Matic's card (`spelunk_lore`) and first in `lookup.py spelunk`.

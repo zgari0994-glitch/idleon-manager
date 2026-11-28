@@ -5,7 +5,7 @@
 # Add rows here; no code change needed unless a new metric is required.
 triggers:
   # ---- Phase C (2026-11-28): Fractal -> trash shop buy list (step D fills the list) ----
-  - {system: islands, owner: Autistastic, when_path: "islands.bottles", op: ">=", value: 570, when: "Fractal opens (570 bottles)", then: "trash shop: Zack gets the buy list (Phase C step D)", source: "Toolbox"}
+  - {system: islands, owner: Autistastic, when_path: "islands.bottles", op: ">=", value: 570, when: "Fractal opens (570 bottles)", then: "buy the trash shop list in order (brain/trash_shop.yaml, shown under Fractal on this card)", source: "Toolbox"}
   # ---- Divinity (Bish) ----
   - {system: divinity, owner: Autistabish, when_path: "metric:blessings_maxed", op: ">=", value: "metric:deities", when: "every god's blessing at max", then: "spend Divinity PTS on Coral Kid instead of blessings", source: "my read"}
   - {system: divinity, owner: Autistabish, when_path: "metric:total_div_lv", op: ">=", value: "metric:coral_kid_req:3", when: "total Divinity LV reaches Coral Kid #3", then: "buy Coral Kid #3 (Divinity Skill LV boosts minor links)", source: "Toolbox"}
