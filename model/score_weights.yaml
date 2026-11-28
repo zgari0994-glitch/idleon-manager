@@ -1,6 +1,7 @@
 # Task Score weights (docs/scoring.md, Zack 2026-11-27). All "my read" until pull-to-pull calibration moves them.
 K: 5   # Zack 2026-11-28 calibration #1 (was 0.5: everything over Raw 5 bunched at 91-100)                 # Score = 100 x Raw / (Raw + K); fixed so scores mean the same every pull
 default_impact: 0.3    # a system not in the needs list
+kind_impact: {unlock: 1.0, multiplier_floor: 0.5, routine: 0.3, qol: 0.1}   # Zack 2026-11-28: unlock = new content/system, multiplier = permanent boost in a needs-list system, routine = dailies, qol = slots/filters/cosmetics
 goal_impact: 1.0       # the main goal's own section
 unblocks:              # systems each one unblocks (Reach = 1 + 0.5 each). Spelunking: Teal Summoning, meal levels, Ethereal Sigils (priority.py)
   Spelunking: 3

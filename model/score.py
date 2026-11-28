@@ -99,15 +99,33 @@ def fix_owner(t):
     t['owner'] = next((x for x in (_DM.get(k) or {}).get('owners') or [] if str(x).startswith('Autis')), 'every character')
 
 
+QOL_RE = re.compile(r'\b(filters?|cosmetic|nametag|skins?|storage chest|quality of life|qol)\b', re.I)
+UNLOCK_RE = re.compile(r'^\s*(unlock|open)\b|\bto unlock\b|\battempt first\b|\bfirst (teal|battle|discovery|kill|clear)\b|\bfor the [\w ]+ unlock\b', re.I)
+
+
+def kind_of(t):
+    if t.get('kind'): return t['kind']
+    if t.get('section') == goal(): return 'goal'
+    tx = str(t.get('task') or t.get('do') or '')
+    tx = tx.split(':', 1)[1] if ':' in tx[:30] else tx   # drop the 'Section:' prefix
+    if QOL_RE.search(tx): return 'qol'
+    if UNLOCK_RE.search(tx): return 'unlock'
+    return 'routine'
+
+
 def score(t):
     fix_owner(t)
     g, sec = goal(), t.get('section', '')
+    # Zack 2026-11-28: impact by what the task does (kind), not one flat default. GOAL task `kind:` overrides the auto tag.
+    t['kind'] = kind_of(t)
+    KI = W.get('kind_impact') or {}
     if 'impact' in t: imp = t['impact']
     elif sec == g: imp = W['goal_impact']
+    elif t['kind'] in ('qol', 'unlock'): imp = KI.get(t['kind'], W['default_impact'])
     else:
         n = next((x for x in needs() if x['section'] == sec), None)
         top = max([x['score'] for x in needs()] or [1])
-        imp = n['score'] / top if n else W['default_impact']
+        imp = max(KI.get('multiplier_floor', 0.5), n['score'] / top) if n else KI.get('routine', W['default_impact'])
     # calibration #2: section unblocks and the task's own list name the same systems; count once (max), not twice
     reach = 1 + 0.5 * max((W.get('unblocks') or {}).get(sec, 0), len(set(t.get('unblocks') or [])))
     if sec == g or sec in (W.get('goal_chain') or []): reach *= 2
