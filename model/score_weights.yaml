@@ -12,4 +12,4 @@ confidence: {griffy: 1.0, pulse: 0.9, nocturne: 0.9, toolbox: 0.8, wiki: 0.8, au
 default_confidence: 0.5
 active_only_sections: [Compass, The Tesseract, Emperor]   # purely active work, night-watch rivals
 night_watch: {impact: 0.6, section: Drop Rate, minutes: 480, src: zack}   # Cat's frogs, my read on impact
-challenge_margin: 15     # Phase C B: a Zack plan gets 'challenge?' when one of his tasks scores 15+ higher
+challenge_margin: 25     # Zack 2026-11-28: was 15 on the old K 0.5 scale; 25 on the K 5 scale
