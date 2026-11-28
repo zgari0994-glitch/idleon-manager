@@ -32,7 +32,7 @@ D. Data gaps that still matter [~6, took ~22] DONE 2026-11-28 (docs/planners.md 
    - Obols: meta watch only (source refresh compares Zack's setup above vs newest Griffy/Pulse; flag on change).
    - Advice Fish currency from raw save if present.
    - Still open: world bosses (not parsed), weeklyBossesRaw decode, guild reads as none (check in game), Royal Armory, compass dust type, Lunarheim boss POW requirement.
-E. Cog board review vs creator guidance [~5, research: ask first]
+E. Cog board review vs creator guidance [~5, took ~40] DONE 2026-11-28 (docs/planners.md Phase C step E)
    - Current board (126 spare cogs, EXP mult 1x) vs newest Griffy > Pulse = Nocturne layout guidance; report sourced vs my read.
 
 Suggested threads: 1 = A + B (~14). 2 = C (~8). 3 = D + E (~11).

@@ -1,0 +1,273 @@
+{
+ "source": "Idleon Toolbox constructionOptimizer (page defaults)",
+ "toolbox_file_date": null,
+ "now": {
+  "build": 6623565676797.5205,
+  "playerExp": 589859519006.3976,
+  "flaggy": 25952969494.616142
+ },
+ "spares": 2,
+ "maxCharacters": 2,
+ "weights": {
+  "totalBuildRate": 1,
+  "totalPlayerExpRate": 1,
+  "totalFlaggyRate": 1
+ },
+ "plans": [
+  {
+   "swaps": 1,
+   "gain": 0.011015626764921072,
+   "totals": {
+    "build": 6588713123808.595,
+    "playerExp": 612456318860.6083,
+    "flaggy": 25952969494.616142
+   },
+   "moves": [
+    {
+     "cog": "CogY",
+     "from": "R3C1",
+     "to": "R2C5",
+     "displaced": "Cog3le"
+    }
+   ]
+  },
+  {
+   "swaps": 4,
+   "gain": 0.024181786283201223,
+   "totals": {
+    "build": 6703399827340.426,
+    "playerExp": 625541498424.4569,
+    "flaggy": 25952968894.616142
+   },
+   "moves": [
+    {
+     "cog": "Cog3do",
+     "from": "R1C5",
+     "to": "R1C3",
+     "displaced": "Cog3do"
+    },
+    {
+     "cog": "CogY",
+     "from": "R3C1",
+     "to": "R2C5",
+     "displaced": "Cog3le"
+    },
+    {
+     "cog": "Cog3co",
+     "from": "R7C4",
+     "to": "R6C3",
+     "displaced": "Cog3co"
+    },
+    {
+     "cog": "Cog3A00",
+     "from": "Inv P1 R5C2",
+     "to": "R3C1",
+     "displaced": "Cog3le"
+    }
+   ]
+  },
+  {
+   "swaps": 10,
+   "gain": 0.028087153410960353,
+   "totals": {
+    "build": 6727076434538.051,
+    "playerExp": 630343847047.4424,
+    "flaggy": 25952968570.616142
+   },
+   "moves": [
+    {
+     "cog": "Cog3cr",
+     "from": "R5C6",
+     "to": "R1C1",
+     "displaced": "Cog3cr"
+    },
+    {
+     "cog": "Cog3do",
+     "from": "R1C5",
+     "to": "R1C2",
+     "displaced": "Cog3do"
+    },
+    {
+     "cog": "Cog3do",
+     "from": "R1C5",
+     "to": "R1C3",
+     "displaced": "Cog3do"
+    },
+    {
+     "cog": "Cog3ri",
+     "from": "R4C1",
+     "to": "R2C2",
+     "displaced": "Cog3ri"
+    },
+    {
+     "cog": "Cog3le",
+     "from": "R4C5",
+     "to": "R2C5",
+     "displaced": "Cog3le"
+    },
+    {
+     "cog": "Cog3le",
+     "from": "R4C5",
+     "to": "R2C6",
+     "displaced": "Cog3le"
+    },
+    {
+     "cog": "Cog3up",
+     "from": "R5C5",
+     "to": "R5C2",
+     "displaced": "Cog3up"
+    },
+    {
+     "cog": "Cog3co",
+     "from": "R7C4",
+     "to": "R6C3",
+     "displaced": "Cog3co"
+    },
+    {
+     "cog": "Cog3A00",
+     "from": "Inv P1 R5C2",
+     "to": "R3C1",
+     "displaced": "CogY"
+    },
+    {
+     "cog": "CogY",
+     "from": "Inv P1 R5C2",
+     "to": "R4C5",
+     "displaced": "Cog3le"
+    }
+   ]
+  },
+  {
+   "swaps": 20,
+   "gain": 0.028087154029039274,
+   "totals": {
+    "build": 6727076446819.712,
+    "playerExp": 630343847047.4424,
+    "flaggy": 25952968570.616142
+   },
+   "moves": [
+    {
+     "cog": "Cog3cr",
+     "from": "R5C6",
+     "to": "R1C1",
+     "displaced": "Cog3cr"
+    },
+    {
+     "cog": "Cog3do",
+     "from": "R1C5",
+     "to": "R1C2",
+     "displaced": "Cog3do"
+    },
+    {
+     "cog": "Cog3do",
+     "from": "R1C5",
+     "to": "R1C3",
+     "displaced": "Cog3do"
+    },
+    {
+     "cog": "Cog3ri",
+     "from": "R4C2",
+     "to": "R2C2",
+     "displaced": "Cog3ri"
+    },
+    {
+     "cog": "Cog3le",
+     "from": "R4C5",
+     "to": "R2C5",
+     "displaced": "Cog3le"
+    },
+    {
+     "cog": "Cog3le",
+     "from": "R4C5",
+     "to": "R2C6",
+     "displaced": "Cog3le"
+    },
+    {
+     "cog": "Cog3B0",
+     "from": "R7C9",
+     "to": "R2C7",
+     "displaced": "Cog3A00"
+    },
+    {
+     "cog": "Cog3ro",
+     "from": "R3C12",
+     "to": "R3C7",
+     "displaced": "Cog3ro"
+    },
+    {
+     "cog": "Cog3ro",
+     "from": "R3C9",
+     "to": "R3C8",
+     "displaced": "Cog3ro"
+    },
+    {
+     "cog": "Cog3ri",
+     "from": "R4C2",
+     "to": "R4C1",
+     "displaced": "Cog3ri"
+    },
+    {
+     "cog": "Cog3B1",
+     "from": "R5C11",
+     "to": "R4C7",
+     "displaced": "Cog3A00"
+    },
+    {
+     "cog": "Cog3up",
+     "from": "R5C5",
+     "to": "R5C2",
+     "displaced": "Cog3up"
+    },
+    {
+     "cog": "Cog3up",
+     "from": "R5C4",
+     "to": "R5C3",
+     "displaced": "Cog3up"
+    },
+    {
+     "cog": "Cog3co",
+     "from": "R7C4",
+     "to": "R6C3",
+     "displaced": "Cog3co"
+    },
+    {
+     "cog": "Cog3co",
+     "from": "R7C4",
+     "to": "R6C4",
+     "displaced": "Cog3co"
+    },
+    {
+     "cog": "Cog3co",
+     "from": "R8C3",
+     "to": "R7C3",
+     "displaced": "Cog3co"
+    },
+    {
+     "cog": "Cog3A00",
+     "from": "R7C9",
+     "to": "R7C8",
+     "displaced": "Cog3A00"
+    },
+    {
+     "cog": "Cog3A00",
+     "from": "Inv P1 R5C2",
+     "to": "R2C1",
+     "displaced": "Cog3ri"
+    },
+    {
+     "cog": "Cog3ri",
+     "from": "Inv P1 R5C2",
+     "to": "R3C1",
+     "displaced": "CogY"
+    },
+    {
+     "cog": "CogY",
+     "from": "Inv P1 R5C2",
+     "to": "R4C5",
+     "displaced": "Cog3le"
+    }
+   ]
+  }
+ ],
+ "best": 10
+}

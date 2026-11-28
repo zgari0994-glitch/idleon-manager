@@ -70,3 +70,9 @@ Rollout: (1) standard [done 2026-11-27] -> (2) audit all brain/systems vs standa
 - Guild: Zack IS in a guild. Toolbox shows Lv 0 / locked because its guild doc (Firestore) isn't in a Copy raw data paste; lookup reads bonus levels from the save's Guild[0].
 - Royal Armory: already reads fine (`lookup.py royal_armory`, Tastic). Compass dust type: dustNames[upgrade.x3]; lookup compass lists dust balances + cheapest open upgrades with their dust, OK/SHORT.
 - Lunarheim (next lore boss, #6): first discovery needs 60T POW (save 20261128T0256: 33.4T, x1.80 short); boss at cave level 50 (my read of foundAt). Shown on Matic's card (`spelunk_lore`) and first in `lookup.py spelunk`.
+
+## Phase C step E: cog board (2026-11-28)
+- Layout comes from Idleon Toolbox's own construction optimizer (parsers/world-3/constructionOptimizer.ts, updated 2026-11-28), run each pull by tools/cog_plan.mjs on the Toolbox parse -> snapshots/<save>/cog_plan.json. Page defaults: build / player con EXP / flaggy weighted 1:1:1, max 2 characters on board, swap budgets 1/4/10/20; card shows the best-value plan (Toolbox bestValuePlan) as drag-by-drag steps on the cog_board owner's card (model/cogs.py), plus the smallest plan with 80%+ of the gain (my read). Under +1% = "already at best", no moves.
+- monoblos Cogtimizer (Zack used it before) checked and dropped: last updated 2023-07, crashes on Excogia (CogZA0x) and small cogs, no "around" (Yang) radius.
+- Creator guidance: nothing newer than Griffy's 2024 tier list on layout (web 2026-11-28 = fan sites only). Logged gap; the optimizer is the sourced layout.
+- Fixes: "126 spare cogs" counted 115 empty slots + 9 shelf characters; real spares = 2 (scrap rung done). "Board EXP mult above 1" rung dropped (optimizer input, not placement; what raises it = gap).

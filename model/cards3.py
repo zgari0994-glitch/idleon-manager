@@ -139,6 +139,8 @@ for ch in C['chars']:
     seen += ' ' + ' '.join(k + ' ' + k.replace('_', ' ') for k, _, _ in _chk) + (' lab chips lab jewels lab bonuses meritocracy' if _chk else '')
     try:   # Phase B 2026-11-28: every owned system from its approved GOAL block (model/goals.py), replaces the 'no check yet' filler
         import goals as _GL; card['goals'] = _GL.card_lines(name); card['anvil'] = _GL.anvil_line(name)
+        if name in (_GL.load()['systems'].get('cog_board') or {}).get('owners', []):   # Phase C E: Toolbox optimizer plan
+            import cogs as _CG; card['goals'] += _CG.lines()
     except Exception as _e:
         card['goals'] = [f'goals failed: {_e}']; card['anvil'] = 'Grab anvil production if it is cranking'
     cards.append(card)

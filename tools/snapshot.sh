@@ -19,4 +19,6 @@ python3 -c "import json;json.dump(json.load(open('$W/review.json'))['meta'],open
 echo "$STAMP" > "$REPO/snapshots/LATEST"
 echo "saved snapshots/$STAMP"
 "$REPO/tools/tb_parse.sh" "$STAMP"          # Toolbox's own parser on this save (Zack 2026-11-25)
+TB=/home/claude/work/tbsrc/IdleonToolbox node --experimental-strip-types --no-warnings "$REPO/tools/cog_plan.mjs" "$D" 20 \
+  || echo "WARN: cog plan failed (Toolbox optimizer), cog board line will say so"   # Phase C E 2026-11-28
 python3 "$REPO/tools/check_data.py" "$STAMP" || echo "DATA CHECK FAILED: see snapshots/$STAMP/check.md"
