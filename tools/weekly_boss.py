@@ -31,10 +31,10 @@ def today_line(now=None):
     W = yaml.safe_load(open(OUT)) or {}; now = now or dt.datetime.now(dt.timezone.utc).date()
     cur = [w for w in W.get('weeks', {}).values() if w['start'] <= now.isoformat() < w['end']]
     if not cur: return f"Weekly boss: stored rotation is stale (fetched {W.get('fetched')}), refresh the sheet before the run"
-    w = cur[0]; first = now.isoformat() == w['start']
-    s = (f"Weekly boss {w['boss']} ({w['start']} to {w['end']}, resets 00:00 GMT): "
-         f"{'TODAY first kill = 5 Skulls run ' + w['skulls5'] + '; then ' if first else 'first kill of the week (if not done) = 5 Skulls ' + w['skulls5'] + '; '}"
-         f"daily trophy run = {w['trophy']} (trophies {w['trophies']}, class EXP {w['class_exp_pct']}%, dmg {w['dmg_pct']}%). Requirements: {'; '.join(w['requirements'])}")
+    w = cur[0]   # Zack 2026-11-28: done-state not readable, so remind daily with both runs until the boss changes
+    s = (f"Do the weekly boss today: {w['boss']} ({w['start']} to {w['end']}, resets 00:00 GMT). "
+         f"5 Skulls run: {w['skulls5']}. Trophy run: {w['trophy']} (trophies {w['trophies']}, class EXP {w['class_exp_pct']}%, dmg {w['dmg_pct']}%). "
+         f"Requirements: {'; '.join(w['requirements'])}")
     nxt = [x for x in W['weeks'].values() if x['start'] == w['end']]
     return s + (f". Next week: {nxt[0]['boss']}" if nxt else '. Next week not stored yet: refresh the sheet')
 
