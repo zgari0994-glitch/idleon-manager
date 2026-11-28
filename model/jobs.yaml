@@ -23,7 +23,8 @@ characters:
   Autiszemo:      # Death Bringer #1
     first: Farming   # Zack 2026-11-17: farming above cooking
     afk:   # ranked candidates (model/afk.py). Laws + live finish lines are added every pull
-      - {tier: job, exclusive: true, where: "Death Note ZOW/CHOW maps", why: "his ZOWs and CHOWs only count on him", finish: {kind: deathnote, set: ZOW}, src: zack, date: 2026-11-17, park_rule: "with Autiszemo"}
+      - {tier: job, exclusive: true, where: "Death Note ZOW/CHOW maps", why: "his ZOWs and CHOWs only count on him", finish: {kind: deathnote, set: ZOW}, src: zack, date: 2026-11-17, park_rule: "with Autiszemo", note: "Zack 2026-11-27: burst the small leftover kills first, then bones push"}
+      - {tier: job, where: "bones push map (Grimoire)", why: "Zack 2026-11-27: after the small Death Note kills, Zemo pushes bones", src: zack, date: 2026-11-27, gap: "bones map + finish line not set yet"}
     active: [crayon_crops]
     jobs:
       - {job: Farming, sections: [Farming, Beanstalk], basis: class, daily_fixed: ["Collect all crops, replant"]}
@@ -45,7 +46,7 @@ characters:
       - {job: "Kilroy (weekly, mage line)", sections: [Killroy], basis: zack, weekly: killroy}
   Autisticles:    # Siege Breaker
     afk:
-      - {tier: class, where: "his best kills/hr map", why: "Melting Every Day turns AFK kills into bars; feeds Copper Bar 1B shortage", src: "Griffy ypb7kpQov30 00:01 (2026-08-03)", gap: "exact map not sourced, compare kills/hr in AFK info"}
+      - {tier: job, world: W1, map: "Green Mushroom map (Spore Meadows)", mob: "Green Mushroom", why: "Smelting Every Day = chance per kill (multi-kill counts) of instant forge progress, so the easiest mob = most bars; side goal (Law 3), back to Spelunking when hit", finish: {kind: bars, item: CopperBar, label: "Copper Bars (Barium Mixture vial)", to: 1000000000}, src: "Griffy gWnmQ6u_2oY 03:03 (2024-08-01, map); mechanic Griffy ypb7kpQov30 01:31 (2026-08-03) + Pulse DWEVaYI4iWA 38:25 (2026-09-20)", gap: "no 2026 creator names a map; vial level costs not in parser", forge_plan: "Zack 2026-11-27: 1) max every bar vial (Barium Mixture Copper 12, Barley Brew Iron 11, Dreadnog Dreadlo 8, Dabar Special Godshard 9; max 13), park leftover slots on the bar furthest from a green stack (10M) 2) then crank Godshard until everyone's Gods armor/weapon upgrade is covered 3) then Prehistrium the same way. While on Godshard the LAST forge slot always runs Prehistrium for a head start. Use 1-hour candies only (Griffy rNBsiYzqBUk 04:03)"}
     jobs:
       - {job: Sailing, sections: [Sailing], basis: class}
       - {job: Bug prints, sections: [{s: Sampling, itype: BUG, levers: true}], basis: griffy}
@@ -118,7 +119,7 @@ characters:
     plan: "Elite Class Swap Token -> Bubonic Conjuror -> Arcane Cultist"
   Autistopher:    # Death Bringer #2
     afk:
-      - {tier: job, exclusive: true, where: "Death Note Super CHOW maps", why: "Super CHOWs and WOWs only count on him (cooking speed 1.1x each)", finish: {kind: deathnote, set: Super CHOW}, src: griffy, park_rule: "Super CHOWs with Autistopher"}
+      - {tier: job, exclusive: true, where: "Death Note Super CHOW maps", why: "Super CHOWs and WOWs only count on him (cooking speed 1.1x each)", finish: {kind: deathnote, set: Super CHOW}, src: griffy, park_rule: "Super CHOWs with Autistopher", note: "Zack 2026-11-27: Topher takes the big remaining kills, steady background job"}
     active: [achievements]
     jobs:
       - {job: "Super CHOWs (cooking speed 1.1x each, count only on him)", sections: [{s: Death Note, rest: true}], basis: griffy, feeds: priority, note: "WOWs skipped (Griffy: weak scaling). findings/death_note_two_dbs.md"}

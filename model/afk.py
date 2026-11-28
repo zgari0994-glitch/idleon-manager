@@ -122,6 +122,20 @@ def divinity_level(name):
     return float(v) if v is not None else None
 
 
+def bar_total(raw):
+    """Zack 2026-11-27: bars = storage + every inventory + forge slots (Automation Arm moves them between all three)."""
+    n = 0
+    for it in (_soft(lambda: D.get('account.storage.list'), []) or []):
+        if isinstance(it, dict) and it.get('rawName') == raw: n += it.get('amount') or it.get('quantity') or 0
+    for c in (_soft(lambda: D.get('characters'), []) or []):
+        for it in (c.get('inventory') or []) if isinstance(c, dict) else []:
+            if isinstance(it, dict) and it.get('rawName') == raw: n += it.get('amount') or 0
+    for sl in (_soft(lambda: D.get('account.forge.list'), []) or []):
+        b = (sl or {}).get('bar') or {}
+        if b.get('rawName') == raw: n += b.get('quantity') or 0
+    return n or None
+
+
 def finish(spec, name):
     """-> (text, done, measured). measured False = no number in the data (say so)."""
     if not spec: return ('finish line = GAP (no measurable target yet)', False, False)
@@ -156,6 +170,11 @@ def finish(spec, name):
         code = observed(name)['mob']
         moved = code != spec['code'] and re.match(r'w(\d)', code or '') and code > spec['code']
         return (f"unlock the map after {spec['label']} (save shows him on {code})", bool(moved), True)
+    if k == 'bars':   # Zack 2026-11-27: storage + inventories + forge
+        n = bar_total(spec['item'])
+        lbl = spec.get('label', spec['item'])
+        if n is None: return (f"{lbl}: not found in storage/inventory/forge (check in game, target {short(spec['to'])})", False, False)
+        return (f"{lbl} {short(n)} / {short(spec['to'])} ({n / spec['to']:.0%})", n >= spec['to'], True)
     if k == 'maestro':
         r = skill_ranks(name)
         if not r: return ('skill ranks not in the parser', False, False)
