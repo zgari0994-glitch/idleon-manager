@@ -65,6 +65,12 @@ def subs_for(st, keep_all):
 cards, md = [], [f'# Cards {SAVE}', '']
 _g = C.get('goal') or {}
 md += [f"## Account goal: {_g.get('name', '')}", f"- Now: {_g.get('now', '')}", f"- {_g.get('why', '')}"] + [f"- Need {x}" for x in _g.get('needs', [])] + ([f"- FLAG: {_g['flag']}"] if _g.get('flag') else []) + [f"- This week: {w}" for w in _g.get('weekly', [])] + ['']
+try:   # Zack 2026-11-27: two account top 10s, quick (< 10 min) and long (10+ min), same score
+    import score as _S0; _T0 = _S0.tasks()
+    for _q, _lbl in ((True, f'quick, under {_S0.QUICK_MIN} min'), (False, f'long, {_S0.QUICK_MIN}+ min')):
+        md += [f'### Top 10 ({_lbl})'] + [f"{_n}. {_S0.NICK.get(t['owner'], t['owner'])}: {t['task']} ({t.get('minutes', 30)} min, score {t['score']}, {t['src']})" for _n, t in enumerate(_S0.top10(_T0, _q), 1)] + ['']
+except Exception as _e:
+    md += [f'- FLAG: top 10 lists failed ({_e})', '']
 holes = D.get('holes', [])
 NICKS = {'Autiszemo': 'Zemo', 'Autistocat': 'Cat', 'Autisticles': 'Ticles', 'Autistastic': 'Tastic', 'Autistabish': 'Bish', 'Autistacular': 'Tacular', 'Autistotle': 'Totle', 'Autistomatic': 'Matic', 'Autistronaut': 'Naut', 'Autistopher': 'Topher', 'Autistachio': 'Tachio'}
 # Baba Yaga -> next character still missing Inventory Bag D (its quest needs a Baba kill), in card order (Zack 2026-11-25)

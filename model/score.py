@@ -7,7 +7,7 @@ Card job order (never overrides the Laws):
   4. top-scored task in that character's systems (Reach doubles on the goal chain). No personal goal -> main goal (Law 3).
 Night watch: an active-only task beating Cat's overnight frogs 2 pulls in a row -> Cat's card lists the top 3, "reconsider?". Flag only.
   python3 score.py          dry run, one line per character, writes nothing
-  python3 score.py --top    account top 10 with inputs
+  python3 score.py --top    account top 10s (quick < 10 min, long 10+ min) with inputs
 build() -> model/score.json; record(save) -> state/nightwatch.json (pull only)."""
 import json, sys
 from pathlib import Path
@@ -232,11 +232,19 @@ def card_lines(name, T=None):
     return [f"{i}. {s['text']} ({s['why']}) [{s['src']}]" for i, s in enumerate(pick(name, T), 1)]
 
 
+QUICK_MIN = 10   # Zack 2026-11-27: two top 10s, quick (< 10 min) and long (10+ min); same score, no floor
+
+
+def top10(T, quick):
+    return sorted([t for t in T if (t.get('minutes', 30) < QUICK_MIN) == quick], key=lambda t: -t['score'])[:10]
+
+
 def build():
     T = tasks()
     frog, beat = night_watch(T)
     o = {'save': SAVE, 'age_h': round(age_h(), 1), 'goal': goal(), 'picks': {n: pick(n, T) for n in Y['characters']},
-         'top10': [{k: t.get(k) for k in ('owner', 'task', 'section', 'score', 'inputs', 'src')} for t in sorted(T, key=lambda t: -t['score'])[:10]],
+         'top10_quick': [{k: t.get(k) for k in ('owner', 'task', 'section', 'score', 'minutes', 'inputs', 'src')} for t in top10(T, quick=True)],
+         'top10_long': [{k: t.get(k) for k in ('owner', 'task', 'section', 'score', 'minutes', 'inputs', 'src')} for t in top10(T, quick=False)],
          'night_watch': {'frog_value': round(frog, 3), 'beats_now': [t['task'] for t in beat], 'state': _nw_state()}}
     json.dump(o, open(ROOT / 'model' / 'score.json', 'w'), indent=1)
     return o
@@ -246,7 +254,9 @@ if __name__ == '__main__':
     T = tasks()
     print(f"save {SAVE} ({age_h():.1f}h old) | goal {goal()}: {goal_target()}")
     if '--top' in sys.argv:
-        for t in sorted(T, key=lambda t: -t['score'])[:10]: print(f"{t['score']:5} {NICK.get(t['owner'], t['owner'])}: {t['task']} {t['inputs']} [{t['src']}]")
+        for q, lbl in ((True, f'quick (under {QUICK_MIN} min)'), (False, f'long ({QUICK_MIN}+ min)')):
+            print(f'-- top 10 {lbl}')
+            for t in top10(T, q): print(f"{t['score']:5} {t.get('minutes', 30):>3}m {NICK.get(t['owner'], t['owner'])}: {t['task']} {t['inputs']} [{t['src']}]")
     else:
         for n in Y['characters']:
             st = pick(n, T); h = st[0]

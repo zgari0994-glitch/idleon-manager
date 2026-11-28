@@ -24,4 +24,4 @@ One score ranks every task across every system, so "what next" is not only Zack'
 - Sailing speed that unblocks 5 systems: high effort, Reach ~3.5 x2 on the chain -> ~97, top 3.
 
 ## Output
-- Card: each Do line carries its score. Report: account-wide top 10 with inputs shown.
+- Card: each Do line carries its score. Report: two account-wide top 10s, quick (under 10 min) and long (10+ min), same score, inputs shown (Zack 2026-11-27).
