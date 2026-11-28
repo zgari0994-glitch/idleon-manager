@@ -11,7 +11,7 @@ def build():
     ups = [(d(u['description']), u['level'], u.get('maxLevel') or 10**9, u['cost']) for u in C['reefUpgrades']]
     dance = [(d(x['coralName']), d(x['description']), d(x['tower']['name']), str(x['tower']['level']), d(x['dropResource']), '201') for x in C['dancingCoral']]
     kid = [(d(k['description'])[:70], k['level'], k['cost'], k.get('divinityLevelReq')) for k in C.get('coralKidUpgrades', [])]
-    return save('reef', {'coral': C['ownedCorals'], 'ups': ups, 'dance': dance, 'daily': (C.get('reefDayGains') or {}).get('value'), 'coral_kid': kid})
+    return save('reef', {'coral': C['ownedCorals'], 'ups': ups, 'dance': dance, 'daily': (C.get('reefDayGains') or {}).get('value'), 'divinity_coral_kid': kid})
 
 def card_lines(o):
     aff = sorted([u for u in o['ups'] if u[3] and u[3] <= o['coral'] and u[1] < u[2]], key=lambda u: u[3])

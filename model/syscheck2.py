@@ -242,7 +242,7 @@ def c_coral_kid():
         if tl < req: subs.append(f"#{u['index']} locked: total Divinity LV {tl} / {req} ({d})"); continue
         can = dp >= (u.get('cost') or 1e99)
         subs.append(f"#{u['index']} lv {u.get('level')}: next {short(u.get('cost'))} Divinity PTS" + (' (can buy)' if can else f" (have {short(dp)})") + f" ({d})")
-    return ('coral_kid', f"Coral Kid: {cr.get('coralKidUpgradeLevelTotal')} upgrade levels, {short(dp)} Divinity PTS banked, total Divinity LV {tl} (buy order = gap, my read: cheapest open first)", subs)
+    return ('divinity_coral_kid', f"Coral Kid: {cr.get('coralKidUpgradeLevelTotal')} upgrade levels, {short(dp)} Divinity PTS banked, total Divinity LV {tl} (buy order = gap, my read: cheapest open first)", subs)
 
 
 # ---------- Lab per character + jewel end goal (pending L10, L17) ----------
@@ -562,7 +562,7 @@ def c_talent_books(name):
     return ('talent_books', f"Talent books: perfect checkout = 2 a day on this character" + (f" ({books} books in the library now)" if books else ''), subs)
 
 
-CHECKS2 = {'alchemy_bubbles': c_bubbles, 'alchemy_vials': c_vials, 'islands': c_fractal, 'coral_kid': c_coral_kid,
+CHECKS2 = {'alchemy_bubbles': c_bubbles, 'alchemy_vials': c_vials, 'islands': c_fractal, 'divinity_coral_kid': c_coral_kid,
            'lab_chars': c_lab_chars, 'rotation': c_rotation, 'quest_greenstacks': c_quest_gs, 'inventory': c_inventory,
            'construction_slots': c_construction_slots, 'drop_rate': c_drop_rate, 'atom_collider': c_atoms,
            'tesseract': c_tesseract_maps, 'spelunk': c_spelunk_opt, 'lab_chips': c_lab_shop, 'sneaking': c_ninja,

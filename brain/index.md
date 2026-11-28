@@ -60,7 +60,7 @@ description: Every system, whether anything checks it, whether it has a plan
 | [[compass]] | yes | yes | no |  |
 | [[construction_buildings]] | yes | yes | no |  |
 | [[cooking]] | yes | yes | no | 3 |
-| [[coral_kid]] | yes | yes | no |  |
+| [[divinity_coral_kid]] | yes | yes | no |  |
 | [[coral_reef]] | yes | yes | no |  |
 | [[dancing_coral]] | yes | yes | no |  |
 | [[death_note]] | yes | yes | no | 2 |

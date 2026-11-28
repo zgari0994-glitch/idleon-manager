@@ -85,7 +85,7 @@ GAP: 2 | NO HOW-TO: 2 | THIN: 3 | OK: 17 | STRONG: 76
 | meals | Autiszemo | STRONG | 323 (170 / 59) | 196/286 | 106/106 | 21/184 | 2026-11-16 | yes |
 | forge_upgrades | unassigned in jobs.yaml | STRONG | 234 (171 / 67) | 213/272 | 18/18 | 3/113 | 2026-11-11 | yes |
 | divinity | abish | STRONG | 339 (177 / 77) | 144/172 | 190/190 | 5/166 | 2026-11-15 | yes |
-| coral_kid | abish | STRONG | 369 (186 / 79) | 151/179 | 213/213 | 5/166 | 2026-11-15 | yes |
+| divinity_coral_kid | abish | STRONG | 369 (186 / 79) | 151/179 | 213/213 | 5/166 | 2026-11-15 | yes |
 | summoning | ocat | STRONG | 351 (193 / 76) | 162/176 | 54/54 | 135/140 | 2026-11-16 | yes |
 | drop_rate | unassigned in jobs.yaml | STRONG | 380 (195 / 74) | 180/299 | 104/104 | 96/168 | 2026-11-13 | yes |
 | cards | ronaut | STRONG | 330 (201 / 90) | 267/478 | 50/50 | 13/170 | 2026-11-09 | yes |

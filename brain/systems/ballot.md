@@ -28,14 +28,14 @@ ladder:
 objective: {rung: 1, now: "this week Sailing Artifact Find (x1.84), votes carried from save 20261127T1704", target: "weekly read every reset", eta_days: null}
 check: {cadence: weekly, who: "Autistotle", look_at: "voteBallot.selectedBonus + voteMulti; phone saves carry votes (flag)"}
 buffs:
-  - {src: "Crystal Cuttlefish", gives: "+40% ballot multi", owned: "check in game", owner: "Autistotle"}
-  - {src: "Mashed Potato", gives: "+5% ballot multi", owned: "check in game", owner: "Autistotle"}
-  - {src: "Poppy (companion)", gives: "x2 Ballot + Meritocracy", owned: "check in game", owner: "account"}
+  - {src: "Crystal Cuttlefish", gives: "+40% ballot multi", owned: true, owner: "Autistotle"}
+  - {src: "Mashed Potato", gives: "+5% ballot multi", owned: true, owner: "Autistotle"}
+  - {src: "Poppy (companion)", gives: "x2 Ballot + Meritocracy", owned: false, owner: "account"}   # the one missing lever (Griffy: consider around W7)
 triggers:
   - {when: "weekly reset", do: "pros/cons on Totle's card, then week plan on the owner of the voted system (e.g. sailing week -> Ticles long trips)"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Confirm Crystal Cuttlefish / Mashed Potato / Poppy ownership in game (not in parser)", stat: "vote multi", gain_pct: null, unblocks: [], source: "Griffy 2026-07-19 8C9vFwK6bUg", active_min: 3, wait_hr: null, cost: null, urgent: false}
+  - {do: "Get Poppy (companion): doubles Ballot + Meritocracy; Cuttlefish + Mashed Potato already owned (Zack 2026-11-28)", stat: "vote multi x2", gain_pct: 100, unblocks: [meritocracy], source: "Griffy 2026-09-21 KHuU392EW-4 00:04:47", active_min: null, wait_hr: null, cost: null, urgent: false}
 # Never recommend a vote (Zack 2026-11-21): pros/cons only.
 ```
 <!-- GOAL:END -->

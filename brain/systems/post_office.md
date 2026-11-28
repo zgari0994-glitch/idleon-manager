@@ -18,14 +18,14 @@ description: Post Office: state, how it works, links, plan, today
 ```yaml
 status: DRAFT
 role: independent   # low tier (Griffy F/D, 2022-24); a few boxes feed live goals
-goal: "Boxes that feed live goals maxed on each character; the rest is a 'you have points' ping"
+goal: "Flag only: every character's card says when they have PO points; Zack spends them (Zack 2026-11-28)"
 coverage: sourced
 ladder:
   - {tier: 1, target: "Potion Package 400 on every character (+30s Cranium duration)", source: "Griffy", date: "2025-06-07"}   # yCkTzQzeLn8 00:01:32
   - {tier: 2, target: "Core boxes 400, Scurvy/Gaming 800 (Box of Gosh), new points into Myriad Crate", source: "history 2026-11-14", date: "2026-11-14"}
   - {tier: 3, target: "Myriad Crate toward 100K (AutoReview), slow burn", source: "AutoReview", date: "2026-11-28"}
 objective: {rung: 1, now: "Tacular 183, Matic/Naut/Topher/Tachio 0", target: "400 each", eta_days: null}
-check: {cadence: daily, who: "every character (own boxes)", look_at: "card line when a character has points (Zack 2026-11-21)"}
+check: {cadence: daily, who: "every character (own boxes)", look_at: "PO points available -> flag on that card, no spend advice"}
 buffs: []
 triggers:
   - {when: "a character has PO points", do: "spend on the lowest rung box on their card"}
@@ -33,7 +33,7 @@ stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
   - {do: "Potion Package to 400 on Tacular, Matic, Naut, Topher, Tachio", stat: "Cranium duration", gain_pct: null, unblocks: [], source: "Griffy 2025-06-07 yCkTzQzeLn8", active_min: 2, wait_hr: null, cost: null, urgent: false}
   - {do: "Allocate fishing boxes before taking fishing print samples", stat: "prints", gain_pct: null, unblocks: [], source: "Griffy 2026-03-27 0qlwJ8Qm-4w", active_min: 1, wait_hr: null, cost: null, urgent: false}
-# Owner in jobs.yaml unassigned; lookup header says Autiszemo. Griffy skip: PO reset (event drop).
+# Owner: every character, flag only (Zack 2026-11-28). Ladder kept as reference if he asks. Griffy skip: PO reset (event drop).
 ```
 <!-- GOAL:END -->
 

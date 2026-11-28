@@ -28,7 +28,7 @@
 | compass | class-specific/compass | Compass | 125/87 | Autistacular |
 | construction_buildings | world-3/buildings, world-3/construction | Buildings | 97/482 | Autistastic |
 | cooking | world-4/cooking | Cooking | 646/622 | Autiszemo |
-| coral_kid | GAP: no Toolbox page mapped | Coral Kid | gap | Autistabish |
+| divinity_coral_kid | GAP: no Toolbox page mapped | Coral Kid | gap | Autistabish |
 | coral_reef | world-7/coral-reef | Coral Reef | 38/82 | Autistachio |
 | crystal_spawn_chance | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | dancing_coral | GAP: no Toolbox page mapped | Dancing Coral | gap | Autistachio |
@@ -109,6 +109,6 @@
 | zenith_market | world-7/zenith-market | Zenith Market | 39/26 | Autisticles |
 
 ## Gaps
-- no_toolbox: autoloot, basketball, class_kill_talents, cog_board, colo_scores, companions, coral_kid, crystal_spawn_chance, dancing_coral, darts, data_source, drop_rate, family_bonuses, friend_bonuses, guild_bonuses, highest_dmg, inventory, item_filter, library, library_group_characters, manual_tome_score, max_subgroups, npc_tokens, obols, post_office, reset_counters, shrines, statues, tabbed_advice_groups, version, world_progress
+- no_toolbox: autoloot, basketball, class_kill_talents, cog_board, colo_scores, companions, divinity_coral_kid, crystal_spawn_chance, dancing_coral, darts, data_source, drop_rate, family_bonuses, friend_bonuses, guild_bonuses, highest_dmg, inventory, item_filter, library, library_group_characters, manual_tome_score, max_subgroups, npc_tokens, obols, post_office, reset_counters, shrines, statues, tabbed_advice_groups, version, world_progress
 - no_owner: basketball, darts, drop_rate, forge_upgrades, post_office, prayers, world_progress
 - thin_sources: the_button
