@@ -58,7 +58,7 @@ def weekly():
     tag = f" [votes from save {c}: phone save has none, confirm in game if a new week started]" if c else ''
     if not sb and not sm:
         tag = ' [NO vote data in this save: check the ballot in game]'
-    return {'ballot': f"{ballot} (x{VOTE.get('voteMulti')}){tag}", 'merit': f"{merit} (x{VOTE.get('meritocracyMult')}){tag}", 'notes': notes}
+    return {'ballot': f"{ballot} (x{round(VOTE.get('voteMulti') or 0, 2)}){tag}", 'merit': f"{merit} (x{round(VOTE.get('meritocracyMult') or 0, 2)}){tag}", 'notes': notes}
 
 
 _RANK = None

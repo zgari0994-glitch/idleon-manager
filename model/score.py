@@ -199,7 +199,7 @@ def cat_flag():
     st = _nw_state()
     if st.get('streak', 0) >= 2:
         return f"Night watch: {len(st['top3'])} active task(s) beat the frogs {st['streak']} pulls in a row. Reconsider? " + ' | '.join(st['top3'])
-    return None
+    return f"Night watch: frogs hold, streak {st.get('streak', 0)} (flags Zack at 2 pulls in a row)"
 
 
 def pick(name, T=None):

@@ -1,6 +1,6 @@
 # Report 20261128T0256 (game save 2026-11-28T02:56:00.663000+00:00)
 
-107 systems · 68 checked · 38 with nothing checking · 1 planner errors
+107 systems · 67 checked · 38 with nothing checking · 2 planner errors
 
 ## achievements  (Autistopher)  AR Achievements: 1/4/?
 - NO PLANNER (lean check only):
@@ -410,22 +410,64 @@
 - [Autistachio] Post Office: get Taped Up Timber to 400 (it's at 0).
 
 ## prayers  (unassigned in jobs.yaml)  AR Prayers: 5/7/?
-- PLANNER ERROR prayers: AttributeError: 'list' object has no attribute 'get'
+- Print day: Royal Sampler only comes off by clearing samples, so it waits for print day. Pulse uses statue week; Gold Relic is at 37 of 140 days.
+- Griffy before print day: book talents first, and the Royal Sampler EXP hit is smaller than it looks.
+- Prayer upgrades you can buy without eating into your soul reserve: Zerg Rushogen, Jawbreaker 1/50, Ruck Sack, Big Brain, Fibers of.
+- Locked prayers: Glitterbug needs Clash of Cans wave 131 (best 70).
+- Set each character's prayers to what they're doing today, the cards show each one.
+- [Autiszemo] Prayers on: Midas Minded, Skilled Dimwit, The Royal Sampler.
+- [Autiszemo] Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP).
+- [Autiszemo] Leave Royal Sampler on until print day.
+- [Autistocat] Prayers on: Skilled Dimwit, The Royal Sampler.
+- [Autistocat] giant-monster prayers: remove before the weekly reset so giant-kill quests still count.
+- [Autistocat] Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP).
+- [Autistocat] Unending Energy: +Class & Skill EXP, but AFK caps at 10h: only when you claim within 10h.
+- [Autistocat] Leave Royal Sampler on until print day.
+- [Autisticles] Prayers on: Skilled Dimwit, The Royal Sampler.
+- [Autisticles] Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP).
+- [Autisticles] Leave Royal Sampler on until print day.
+- [Autistastic] Prayers on: Skilled Dimwit, The Royal Sampler, Vacuous Tissue.
+- [Autistastic] giant-monster prayers: remove before the weekly reset so giant-kill quests still count.
+- [Autistastic] Leave Royal Sampler on until print day.
+- [Autistabish] Prayers on: Skilled Dimwit, The Royal Sampler.
+- [Autistabish] Unending Energy: +Class & Skill EXP, but AFK caps at 10h: only when you claim within 10h.
+- [Autistabish] Leave Royal Sampler on until print day.
+- [Autistacular] Prayers on: The Royal Sampler, Shiny Snitch, Skilled Dimwit.
+- [Autistacular] Skilled Dimwit + Unending Energy: equip while PLACING traps, unequip after (snapshotted).
+- [Autistacular] Shiny Snitch: only while trapping (bundles of shiny critters; curse lowers shiny chance).
+- [Autistacular] giant-monster prayers: remove before the weekly reset so giant-kill quests still count.
+- [Autistacular] Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP).
+- [Autistacular] Skilled Dimwit doesn't fit a fighting job, swap it.
+- [Autistacular] Leave Royal Sampler on until print day.
+- [Autistotle] Prayers on: The Royal Sampler, Skilled Dimwit.
+- [Autistotle] Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP).
+- [Autistotle] Leave Royal Sampler on until print day.
+- [Autistomatic] Prayers on: Skilled Dimwit, The Royal Sampler.
+- [Autistomatic] Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP).
+- [Autistomatic] Leave Royal Sampler on until print day.
+- [Autistronaut] Prayers on: The Royal Sampler, Skilled Dimwit.
+- [Autistronaut] Leave Royal Sampler on until print day.
+- [Autistopher] Prayers on: Skilled Dimwit, Balance of Precision, The Royal Sampler.
+- [Autistopher] Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP).
+- [Autistopher] Leave Royal Sampler on until print day.
+- [Autistachio] Prayers on: none.
+- [Autistachio] Skilled Dimwit + Unending Energy: equip while PLACING traps, unequip after (snapshotted).
+- [Autistachio] Shiny Snitch: only while trapping (bundles of shiny critters; curse lowers shiny chance).
 
 ## printer  (Autisticles, Autistomatic, Autistronaut, Autiszemo)  AR Sampling: 7/10/?
 - Gold Relic is at 37 of 140 days (3.59x print output). Taking any sample resets it, so hold off on new samples unless it's worth it (my read).
-- Print day is when all 6 print buffs are done. The day counters finish around Mar 11. Push these by then: Rift, Sample It bubble, Arcade Bonus 5.
+- Print day is when all 6 print buffs are done. The day counters finish around Mar 10. Push these by then: Rift, Sample It bubble, Arcade Bonus 5.
 - AutoReview wants one sample goal next: Oak Logs to 10B. That sample resets Gold Relic, so time it for print day.
-- [Autiszemo] Printing: Hermit Can (7.46e+07), Goldfish (1.12e+08) | samples held: Equinox Fish 2.18e+06, Goldfish 1.12e+08, Hermit Can 7.46e+07, Bloach 1.7e+07, Jellyfish 4.03e+07
-- [Autistocat] Printing: Jungle Logs (1.69e+09), Oak Logs (4.05e+09) | samples held: Oak Logs 4.05e+09, Bleach Logs 2.49e+09, Jungle Logs 1.69e+09, Potty Rolls 5.14e+08, Wispy Lumber 2.41e+08
-- [Autisticles] Printing: Fly (1.31e+08), Fly (1.31e+08) | samples held: Fly 1.31e+08, Butterfly 6.33e+07, Sentient Cereal 3.6e+07, Fruitfly 2.04e+07, Worker Bee 7.9e+06
-- [Autistastic] Printing: Copper Ore (1.3e+09), Godshard Ore (8.54e+06) | samples held: Copper Ore 1.3e+09, Iron Ore 7.14e+08, Gold Ore 3.57e+08, Dementia Ore 9.72e+07, Void Ore 7.04e+07
-- [Autistabish] Printing: Oak Logs (3.5e+09), Effervescent Logs (1.1e+07) | samples held: Oak Logs 3.5e+09, Bleach Logs 1.41e+09, Forest Fibres 6.25e+08, Potty Rolls 2.91e+08, Tropilogs 4.52e+08
-- [Autistacular] Printing: Spore Cap (1.44e+06), Spore Cap (1.44e+06) | samples held: Spore Cap 1.44e+06, Bullfrog Horn 2.38e+05, Pocket Sand 3.86e+05, Floof Ploof 1.73e+05, Cracked Glass 1.89e+05
-- [Autistotle] Printing: Spore Cap (1.2e+06), Spore Cap (1.2e+06) | samples held: Spore Cap 1.2e+06, Glublin Ear 2.71e+04, Snake Skin 2.96e+04
-- [Autistomatic] Printing: Dreadlo Ore (1.81e+07), Prehistrium Ore (2.54e+06) | samples held: Copper Ore 1.34e+09, Iron Ore 7.32e+08, Gold Ore 3.66e+08, Platinum Ore 1.8e+08, Void Ore 7.2e+07
-- [Autistronaut] Printing: Oak Logs (4.42e+09), Oak Logs (4.42e+09) | samples held: Oak Logs 4.42e+09, Bleach Logs 2.69e+08, Jungle Logs 1.83e+08, Potty Rolls 5.55e+07, Wispy Lumber 2.6e+07
-- [Autistopher] Printing: Firefly (5.82e+05), Firefly (5.82e+05) | samples held: Fly 9.95e+07, Butterfly 4.89e+06, Sentient Cereal 2.76e+06, Fruitfly 1.57e+06, Mosquisnow 9.81e+05
+- [Autiszemo] Printing: Fish2 (7.46e+07), Fish1 (1.12e+08) | samples held: Fish13 2.18e+06, Fish1 1.12e+08, Fish2 7.46e+07, Fish4 1.7e+07, Fish3 4.03e+07
+- [Autistocat] Printing: JungleTree (1.69e+09), OakTree (4.05e+09) | samples held: OakTree 4.05e+09, BirchTree 2.49e+09, JungleTree 1.69e+09, ToiletTree 5.14e+08, Tree7 2.41e+08
+- [Autisticles] Printing: Bug1 (1.31e+08), Bug1 (1.31e+08) | samples held: Bug1 1.31e+08, Bug2 6.33e+07, Bug3 3.6e+07, Bug4 2.04e+07, Bug7 7.9e+06
+- [Autistastic] Printing: Copper (1.3e+09), Godshard (8.54e+06) | samples held: Copper 1.3e+09, Iron 7.14e+08, Gold 3.57e+08, Dementia 9.72e+07, Void 7.04e+07
+- [Autistabish] Printing: OakTree (3.5e+09), Tree13 (1.1e+07) | samples held: OakTree 3.5e+09, BirchTree 1.41e+09, ForestTree 6.25e+08, ToiletTree 2.91e+08, PalmTree 4.52e+08
+- [Autistacular] Printing: Grasslands1 (1.44e+06), Grasslands1 (1.44e+06) | samples held: Grasslands1 1.44e+06, Forest3 2.38e+05, DesertA1 3.86e+05, SnowA1 1.73e+05, SnowB4 1.89e+05
+- [Autistotle] Printing: Grasslands1 (1.2e+06), Grasslands1 (1.2e+06) | samples held: Grasslands1 1.2e+06, Forest1 2.71e+04, Jungle2 2.96e+04
+- [Autistomatic] Printing: Dreadlo (1.81e+07), Prehistrium (2.54e+06) | samples held: Copper 1.34e+09, Iron 7.32e+08, Gold 3.66e+08, Plat 1.8e+08, Void 7.2e+07
+- [Autistronaut] Printing: OakTree (4.42e+09), OakTree (4.42e+09) | samples held: OakTree 4.42e+09, BirchTree 2.69e+08, JungleTree 1.83e+08, ToiletTree 5.55e+07, Tree7 2.6e+07
+- [Autistopher] Printing: Bug13 (5.82e+05), Bug13 (5.82e+05) | samples held: Bug1 9.95e+07, Bug2 4.89e+06, Bug3 2.76e+06, Bug4 1.57e+06, Bug5 9.81e+05
 - [Autistachio] No samples and no prints on this character: 2 print slots idle. Take samples on it (resets Gold Relic? unconfirmed per character; check before).
 
 ## quests  (unassigned in jobs.yaml)  AR not rated
@@ -522,9 +564,7 @@
 - [routed to Autistocat] Sigils gated by Spelunking cave Bizarrio (Autistomatic): Sigils can be upgraded a 4th time to Ethereal! Each one also gives +0.2% Prisma 
 
 ## stamps  (Autistopher)  AR Stamps: 15/20/?
-- Raise the max level on Ladle, Bugsack, Bag o Heads, Golden Apple, you have the materials.
-- Max-level raises still short: Multitool (24.7B more Dust Mote), Potion (750 more Icing Ironbite), Matty Bag (203 more Cramped Material Pouch).
-- If a stamp material is also used by another system, the card flags it. The Envelope Pile sigil makes max-level raises a lot cheaper.
+- PLANNER ERROR stamps: ModuleNotFoundError: No module named 'consts'
 
 ## star_signs  (Autistopher)  AR Star Signs: 6/6/?
 
@@ -659,6 +699,7 @@
   - No AutoReview section and no planner: needs a data source
 
 ## super_talents  (UNOWNED)  AR not rated
+- PLANNER ERROR supertalents: ModuleNotFoundError: No module named 'utils'
 
 ## card_engine  (UNOWNED)  AR not rated
 - [Autiszemo] Farming: hold 200 or more of every crop you've found (205 of 209 so far)
@@ -685,21 +726,24 @@
 - [Autiszemo] Fish prints: Print day is when all 6 print buffs are done
 - [Autiszemo] Prayers: equipped: Midas Minded, Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')
 - [Autiszemo] Worship: worship level 98, charge full in 10d 19h
-- [Autiszemo] Cards: presets 3 not built to plan yet (card build session).
 - [Autiszemo] Traps: nothing needed
 - [Autiszemo] Divinity: nothing needed (Doot gives every god to everyone)
 - [Autiszemo] ZOWs: 100 of 108 done. Closest:
 - [Autiszemo] ZOWs: Spearfish at Pinpoint Summit: 100K kills left
 - [Autiszemo] ZOWs: Coralcave Guardian at Coralcave Perimeter: 100K kills left
+- [Autiszemo] ZOWs: Nutto at The Roots: 100K kills left
 - [Autiszemo] ZOWs: Dedotated Ram at Equinox Valley: 100K kills left
 - [Autiszemo] CHOWs: 98 of 108 done. Closest:
+- [Autiszemo] CHOWs: Green Mushroom at Mummy Memorial: 864K kills left
 - [Autiszemo] CHOWs: Spearfish at Pinpoint Summit: 1M kills left
 - [Autiszemo] CHOWs: Coralcave Guardian at Coralcave Perimeter: 1M kills left
+- [Autiszemo] CHOWs: Nutto at The Roots: 1M kills left
 - [Autiszemo] CHOWs: Dedotated Ram at Equinox Valley: 1M kills left
 - [Autiszemo] Cooking mastery (level 5): points go onto meals
 - [Autiszemo] Cooking mastery (level 5): Points free: 0 (check in game which are free)
 - [Autiszemo] Cooking mastery (level 5): Pulse (Aug): for money, 10-15 points on Yummy Peach Ring and 5 on Bundt Cake
 - [Autiszemo] Cooking mastery (level 5): Pulse: push mastery to 15, it scales hard after 10
+- [Autiszemo] Super talents: check failed (No module named 'utils')
 - [Autiszemo] Missing bag: Loot Luggage: 1 slots (Vendor)
 - [Autiszemo] Cooking mastery level 5 (rank 2): use your ladles (75,428 owned)
 - [Autiszemo] Cooking mastery level 5 (rank 2): Use your ladles on Divorce Cake, one at a time, claiming each kitchen between (Griffy). That counts as ladles used and levels the cake (my read: both conditions at once)
@@ -741,9 +785,9 @@ then: [JOB] bones push map (Grimoire). Why: Zack 2026-11-27: after the small Dea
 - [Autistocat] Active play setup: autistocat- Kill 1M Stiltmoles for W2 Weekly Boss (75.00K -> 1000K)
 - [Autistocat] Worship: worship level 95, charge full in 21d 22h
 - [Autistocat] 3D Printer slots: printing: Jungle Logs (1.7B), Oak Logs (4B) | samples held: Oak Logs 4B, Bleach Logs 2.5B, Jungle Logs 1.7B, Potty Rolls 514M, Wispy Lumber 241M
-- [Autistocat] Cards: presets 3 not built to plan yet (card build session).
 - [Autistocat] Traps: nothing needed
 - [Autistocat] Divinity: nothing needed (Doot gives every god to everyone)
+- [Autistocat] Super talents: check failed (No module named 'utils')
 - [Autistocat] Missing bag: Loot Luggage: 1 slots (Vendor)
 - [Autistocat] Lab jewels: missing ones unlock from Royal Armory upgrades
 - [Autistocat] Lab jewels: Jewel of the North Winds: 68 more upgrades
@@ -791,7 +835,6 @@ then: [CLASS] Active-first (Cranium Cooking active). Why: master class progress 
 - [Autisticles] Sushi: Then Fastburn Fuel I and II (fuel per hour)
 - [Autisticles] Sushi: Then Hourly Wage Meter and Customer Surcharge I (more bucks)
 - [Autisticles] Legend talents: Toolbox can't tell how many points are unspent (it counts 68 spent but only 59 owned). Check Whallamus in game; if any are unspent, ask for the full pick list
-- [Autisticles] Cards: presets 3 not built to plan yet (card build session).
 - [Autisticles] Traps: nothing needed
 - [Autisticles] Divinity: nothing needed (Doot gives every god to everyone)
 - [Autisticles] Arcade: 294 balls, 47 gold balls. Spend gold balls in this order from the current rotation:
@@ -800,6 +843,7 @@ then: [CLASS] Active-first (Cranium Cooking active). Why: master class progress 
 - [Autisticles] Arcade: +% Deathbringer Bones (level 53) (Griffy: useful for the masterclass)
 - [Autisticles] Arcade: Griffy: wait for a gold-ball multiplier event before spending balls
 - [Autisticles] Zenith Market: 11 clusters. True Zen level 8 costs 10: buy it
+- [Autisticles] Super talents: check failed (No module named 'utils')
 - [Autisticles] Missing bag: Loot Luggage: 1 slots (Vendor)
 - [Autisticles] Lab chips: end-goal chips missing, buy when they rotate in
 - [Autisticles] Lab chips: Omega Nanochip: Pulse: doubled slot for the drop rate multi card
@@ -851,12 +895,9 @@ then: [CLASS] Active-first (Cranium Cooking active). Why: master class progress 
 - [Autistastic] Prayers: equipped: Skilled Dimwit, The Royal Sampler, Vacuous Tissue (prayers planner failed: 'list' object has no attribute 'get')
 - [Autistastic] Worship: worship level 101, charge full in 11d 16h
 - [Autistastic] 3D Printer slots: printing: Copper Ore (1.3B), Godshard Ore (8.5M) | samples held: Copper Ore 1.3B, Iron Ore 714M, Gold Ore 357M, Dementia Ore 97.2M, Void Ore 70.4M
-- [Autistastic] Talents: switch to talent preset 1 (skilling) for where he is parked
-- [Autistastic] Cards: presets 1, 3, 5, 6 not built to plan yet (card build session).
 - [Autistastic] Traps: nothing needed
 - [Autistastic] Divinity: nothing needed (Doot gives every god to everyone)
-- [Autistastic] Super talents: spend the open points
-- [Autistastic] Super talents: Talent preset 1 (skilling): super Brute Efficiency (Griffy+Pulse: efficiency on skilling setups)
+- [Autistastic] Super talents: check failed (No module named 'utils')
 - [Autistastic] Missing bag: Loot Luggage: 1 slots (Vendor)
 - [Autistastic] Royal Guardian super talents: locked, 290 more Royal Armory upgrade levels
 - [Autistastic] Royal Guardian super talents: Pit of Pages: Pulse: a 5-6x true multi, 100% worth a super on the scaling setup (feeds the POW goal)
@@ -871,7 +912,7 @@ then: [CLASS] Active-first (Cranium Cooking active). Why: master class progress 
 - [Autistastic] Talents to level next (Library checkouts): #37 Brute Efficiency 269 -> 328 (Pulse: Brute efficiency gives a lot of total efficiency; super it for skilling setups)
 - [Autistastic] Talents to level next (Library checkouts): #49 Built Different 100 -> 328 (Griffy: Built Different grants a large amount of base strength.)
 - [Autistastic] PARK: [LAW] W7 Spelunking cave 4 (One Way Opening). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: Royal Guardian, level 66: RG talents suit the deepest cave. Finish: Chapter 4: % Max Stamina for All Players 0/22; cave 4 best depth 51. Source: goal review + spot rules (Zack 2026-11-27)
-now: Coralcave Crab on Coralcave Outskirts (FIGHTING)
+now: w7a11 on Coralcave Outskirts (?)
 retired: Cavern 15 Temple (Dragon Statue 187 / 150): target hit, removed
 - [Autistabish] Top move (sourced): nothing needed
 - [Autistabish] Worship: souls (town): nothing needed
@@ -895,8 +936,6 @@ retired: Cavern 15 Temple (Dragon Statue 187 / 150): target hit, removed
 - [Autistabish] Worship: charges much faster than the rest, probably from mage worship talents (my read)
 - [Autistabish] Worship: Worship level 128, charge full in 8d 15h
 - [Autistabish] 3D Printer slots: printing: Oak Logs (3.5B), Effervescent Logs (11M) | samples held: Oak Logs 3.5B, Bleach Logs 1.4B, Forest Fibres 625M, Potty Rolls 291M, Tropilogs 452M
-- [Autistabish] Talents: switch to talent preset 2 (skilling) for where he is parked
-- [Autistabish] Cards: presets 3 not built to plan yet (card build session).
 - [Autistabish] Traps: nothing needed
 - [Autistabish] Divinity: buy these blessings, then god rank
 - [Autistabish] Divinity: Coral Kid next: Divinity Skill Lv boosts Minor Link Bonuses a bit more! (You... at 2.16B points (have 3.21B)
@@ -905,6 +944,7 @@ retired: Cavern 15 Temple (Dragon Statue 187 / 150): target hit, removed
 - [Autistabish] Divinity: Blessing: Goharut (+% Sailing Speed)
 - [Autistabish] Divinity: Blessing: Kattlekruk (+% Total Damage)
 - [Autistabish] Divinity: God rank (you are 1): Pulse targets 20 (Menagerie challenge, next-patch content) then 25-30. Push it in Divinity week. No-RNG way (Pulse): roll offerings until one shows 100%, then take it. Griffy: use cheap offerings until a guaranteed one shows
+- [Autistabish] Super talents: check failed (No module named 'utils')
 - [Autistabish] Missing bag: Loot Luggage: 1 slots (Vendor)
 - [Autistabish] Lab chips: end-goal chips missing, buy when they rotate in
 - [Autistabish] Lab chips: Omega Nanochip: Pulse: doubled slot for the drop rate multi card
@@ -916,7 +956,7 @@ retired: Cavern 15 Temple (Dragon Statue 187 / 150): target hit, removed
 - [Autistabish] Talents to level next (Library checkouts): #17 Leaf Thief 225 -> 328 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)
 - [Autistabish] Talents to level next (Library checkouts): #21 Deforesting All Doubt 228 -> 328 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)
 - [Autistabish] PARK: [LAW] W7 Spelunking cave 3 (Buried Church). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 59: cave 3 has the bigger open page need, Chapter 3 97% short (weakest % extra Overstim Fill Rate 0/550). Close call vs cave 4: your call in the moment. Finish: Chapter 3: % extra Overstim Fill Rate 0/550; cave 3 best depth 40. Source: goal review + spot rules (Zack 2026-11-27)
-now: Eggroll on Sushi Perimeter (FIGHTING)
+now: w7b4 on Sushi Perimeter (?)
 then: [CLASS] Candy or Active ES on the statue mob. Why: ES clears statue mobs fast. Finish: finish line = GAP (no measurable target yet). Source: AutoReview  [STALE CHECK: no finish line]
 retired: Penguins map (Box Statue 223 / 40): target hit, removed
 retired: Cryosnakes map (Seesaw Statue 189 / 40): target hit, removed
@@ -949,11 +989,12 @@ retired: Cryosnakes map (Seesaw Statue 189 / 40): target hit, removed
 - [Autistacular] Worship: runs the totems: spend charge on the prayer-unlock waves first, then the lowest totem
 - [Autistacular] Worship: Worship level 99, charge full in 11d 16h
 - [Autistacular] 3D Printer slots: printing: Spore Cap (1.4M), Spore Cap (1.4M) | samples held: Spore Cap 1.4M, Bullfrog Horn 238K, Pocket Sand 386K, Floof Ploof 173K, Cracked Glass 189K
-- [Autistacular] Cards: presets 3 not built to plan yet (card build session).
 - [Autistacular] Traps: nothing needed
 - [Autistacular] Divinity: nothing needed (Doot gives every god to everyone)
+- [Autistacular] Compass: Elemental Path's next level costs 284M stardust, you're 0 short. Your call: Exalted Stamps (1.46B stardust) gives one more stamp exalt, but it delays Elemental Path by the same amount. Griffy uses moons for an extra exalt.
 - [Autistacular] Card set: farm 1 Verminous card
 - [Autistacular] Card set: Pulse: Verminous farms on the Insta castle map with Wind Walker + candy (mixed reports, test it)
+- [Autistacular] Super talents: check failed (No module named 'utils')
 - [Autistacular] Missing bag: Inventory Bag D: 2 slots (Quest)
 - [Autistacular] Missing bag: Rucksack Of Riches: 1 slots (Vendor)
 - [Autistacular] Missing bag: Loot Luggage: 1 slots (Vendor)
@@ -998,17 +1039,11 @@ then: [LAW] W7 Spelunking cave 3 (Buried Church). Why: Law 1 goal Spelunking (lo
 - [Autistotle] Greenstacks: Pingy (24%): skill it
 - [Autistotle] Greenstacks: Eye of Koi (16%): farm the monster
 - [Autistotle] Greenstacks: Dung Beat (14%): skill it
-- [Autistotle] Talents: switch to talent preset 2 (skilling) for where he is parked
-- [Autistotle] Cards: presets 3 not built to plan yet (card build session).
 - [Autistotle] Traps: move all to Honker at W3 Wam Wonderland, Royal traps, 40 hours
 - [Autistotle] Traps: Now on Owlio
 - [Autistotle] Traps: 8 traps on a short timer, use 40 hours
 - [Autistotle] Divinity: nothing needed (Doot gives every god to everyone)
-- [Autistotle] Super talents: spend the open points
-- [Autistotle] Super talents: Talent preset 1 (fighting): Extra Bags is supered but isn't in his tree (left from an old class?). Reset it before spending
-- [Autistotle] Super talents: Talent preset 1 (fighting): 1 open, hold them (no sourced pick)
-- [Autistotle] Super talents: Talent preset 2 (skilling): Happy Dude is supered but isn't in his tree (left from an old class?). Reset it before spending
-- [Autistotle] Super talents: Talent preset 2 (skilling): super Right Hand Of Action (Griffy+Pulse: others get skill efficiency, bigger prints)
+- [Autistotle] Super talents: check failed (No module named 'utils')
 - [Autistotle] Missing bag: Inventory Bag D: 2 slots (Quest)
 - [Autistotle] Missing bag: Loot Luggage: 1 slots (Vendor)
 - [Autistotle] Research: points and next level
@@ -1046,11 +1081,10 @@ then: [LAW] W7 Spelunking cave 3 (Buried Church). Why: Law 1 goal Spelunking (lo
 - [Autistomatic] Active play setup: Autistomatic- Kill 1M Choccies for W2 Weekly Boss (133.57K -> 1000K)
 - [Autistomatic] Active play setup: Autistomatic- Kill 1M Stiltmoles for W2 Weekly Boss (77.08K -> 1000K)
 - [Autistomatic] Worship: worship level 87, charge full in 8d 13h
-- [Autistomatic] Talents: switch to talent preset 2 (skilling) for where he is parked
-- [Autistomatic] Cards: presets 3, 5, 6 not built to plan yet (card build session).
 - [Autistomatic] Traps: move all to Bunny at W3 Thermonuclear Climb, Royal traps, 40 hours
 - [Autistomatic] Traps: Now on Tuttle
 - [Autistomatic] Divinity: nothing needed (Doot gives every god to everyone)
+- [Autistomatic] Super talents: check failed (No module named 'utils')
 - [Autistomatic] Missing bag: Loot Luggage: 1 slots (Vendor)
 - [Autistomatic] Royal Guardian super talents: locked, 290 more Royal Armory upgrade levels
 - [Autistomatic] Royal Guardian super talents: Pit of Pages: Pulse: a 5-6x true multi, 100% worth a super on the scaling setup (feeds the POW goal)
@@ -1065,7 +1099,7 @@ then: [LAW] W7 Spelunking cave 3 (Buried Church). Why: Law 1 goal Spelunking (lo
 - [Autistomatic] Talents to level next (Library checkouts): #42 Copper Collector 274 -> 328 (Griffy: Mana stamp needs more copper but doesn't want to lose the copper collector buff.)
 - [Autistomatic] Talents to level next (Library checkouts): #50 Built Different 100 -> 328 (Griffy: Built Different grants a large amount of base strength.)
 - [Autistomatic] PARK: [LAW] W7 Spelunking cave 4 (One Way Opening). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: Royal Guardian, level 66: RG talents suit the deepest cave. Finish: Chapter 4: % Max Stamina for All Players 0/22; cave 4 best depth 51. Source: goal review + spot rules (Zack 2026-11-27)
-now: Coralcave Crab on Coralcave Outskirts (FIGHTING)
+now: w7a11 on Coralcave Outskirts (?)
 - [Autistronaut] Merits: zack 2026-11-27: lowest load takes merits
 - [Autistronaut] Cards: lever on Autistopher: Stamps - Card Stamp: +250% Card Drop Rate
 - [Autistronaut] Log prints: push Oak Logs to 10.0B (now 4.42B)
@@ -1079,9 +1113,9 @@ now: Coralcave Crab on Coralcave Outskirts (FIGHTING)
 - [Autistronaut] Active play setup: Autistronaut- Kill 1M Choccies for W2 Weekly Boss (127.60K -> 1000K)
 - [Autistronaut] Worship: charges much faster than the rest, probably from mage worship talents (my read)
 - [Autistronaut] Worship: Worship level 84, charge full in 3d 10h
-- [Autistronaut] Cards: presets 3 not built to plan yet (card build session).
 - [Autistronaut] Traps: move all to Blobfish at W4 Hyperion Nebula, Cocoa Tunnel, Royal traps, 40 hours
 - [Autistronaut] Traps: Now on Tuttle
+- [Autistronaut] Super talents: check failed (No module named 'utils')
 - [Autistronaut] Missing bag: Inventory Bag D: 2 slots (Quest)
 - [Autistronaut] Missing bag: Loot Luggage: 1 slots (Vendor)
 - [Autistronaut] If he ever becomes an Arcane Cultist: nothing moves by roster position
@@ -1094,7 +1128,7 @@ now: Coralcave Crab on Coralcave Outskirts (FIGHTING)
 - [Autistronaut] Talents to level next (Library checkouts): #34 Smart Efficiency 266 -> 328 (Griffy: Use Smart Efficiency and Mana Booster and Active AFKer because Hocus Choppus scales choppi)
 - [Autistronaut] Talents to level next (Library checkouts): #35 Leaf Thief 266 -> 328 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)
 - [Autistronaut] PARK: [LAW] W7 Spelunking cave 2 (Decaying Crevasse). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 30: cave 2 has the bigger open page need, Chapter 2 81% short (weakest % Spelunking EXP gain 7.2/66). Close call vs cave 3: your call in the moment. Finish: Chapter 2: % Spelunking EXP gain 7.2/66; cave 2 best depth 32. Source: goal review + spot rules (Zack 2026-11-27)
-now: Divinity on Magma Rivertown (DIVINITY)
+now: Divinity on Magma Rivertown (?)
 retired: W5 Divinity altar, Mindful style (divinity points 3.2B: next Coral Kid upgrade affordable): target hit, removed
 - [Autistopher] Stamps: raise the max level on Ladle, Bugsack, Bag o Heads, Golden Apple, you have the materials
 - [Autistopher] Stamps: Max-level raises still short: Multitool (24.7B more Dust Mote), Potion (750 more Icing Ironbite), Matty Bag (203 more Cramped Material Pouch)
@@ -1126,7 +1160,6 @@ retired: W5 Divinity altar, Mindful style (divinity points 3.2B: next Coral Kid 
 - [Autistopher] Active play setup: autistopher- Kill 1M Crabcakes for W2 Weekly Boss (0.19K -> 1000K)
 - [Autistopher] Worship: worship level 74, charge full in 8d 5h
 - [Autistopher] 3D Printer slots: printing: Firefly (582K), Firefly (582K) | samples held: Fly 99.5M, Butterfly 4.9M, Sentient Cereal 2.8M, Fruitfly 1.6M, Mosquisnow 981K
-- [Autistopher] Cards: presets 3 not built to plan yet (card build session).
 - [Autistopher] Traps: move all to Mousey at W1 Rats Nest, Royal traps, 40 hours
 - [Autistopher] Traps: Now on Tuttle
 - [Autistopher] Divinity: nothing needed (Doot gives every god to everyone)
@@ -1136,12 +1169,7 @@ retired: W5 Divinity altar, Mindful style (divinity points 3.2B: next Coral Kid 
 - [Autistopher] Super CHOWs: Trench Fish at Deep End of the Koipond: 60M kills left
 - [Autistopher] Super CHOWs: Gigafrog at Tucked Away: 69M kills left
 - [Autistopher] Super CHOWs: Balloonfish at Balloon Bay: 75M kills left
-- [Autistopher] WOWs: 11 of 80 done. Closest:
-- [Autistopher] WOWs: Biggole Mole at Miner Mole Outskirts: 131M kills left
-- [Autistopher] WOWs: Sandy Pot at Jar Bridge: 201M kills left
-- [Autistopher] WOWs: Choccie at Cocoa Tunnel: 359M kills left
-- [Autistopher] WOWs: Demonblub at Middle of Nowhere: 483M kills left
-- [Autistopher] WOWs: Litterfish at Plastic Basin: 741M kills left
+- [Autistopher] Super talents: check failed (No module named 'utils')
 - [Autistopher] Missing bag: Rucksack Of Riches: 1 slots (Vendor)
 - [Autistopher] Missing bag: Loot Luggage: 1 slots (Vendor)
 - [Autistopher] Super talents: the save still shows Siege Breaker talents in his super slots (from before his class switch)
@@ -1151,7 +1179,7 @@ retired: W5 Divinity altar, Mindful style (divinity points 3.2B: next Coral Kid 
 - [Autistopher] Talents to level next (Library checkouts): #32 Marauder Style 264 -> 328 (Griffy: Marauder Style grants wraith damage and accuracy per hundred Grimoire upgrades.)
 - [Autistopher] Talents to level next (Library checkouts): #36 Detonation 266 -> 328 (Griffy: Prioritize Sentinel Axes and Graveyard Shift and Detonation outside Wraith mode.)
 - [Autistopher] Talents to level next (Library checkouts): #39 Dank Ranks 272 -> 328 (Griffy: Dank Ranks strengthens every land-rank database bonus.)
-- [Autistopher] PARK: [LAW] Death Note Super CHOW maps. Why: Law 2, only he does this: Super CHOWs and WOWs only count on him (cooking speed 1.1x each). Finish: Pufferblob at Puffpuff Overpass: 44M kills left (22 of 26 Super CHOWs). Source: griffy
+- [Autistopher] PARK: [LAW] Death Note Super CHOW maps. Why: Law 2, only he does this: Super CHOWs only count on him (cooking speed 1.1x each). Finish: Pufferblob at Puffpuff Overpass: 44M kills left (22 of 26 Super CHOWs). Source: griffy
 - [Autistachio] Divinity to 40: nothing needed
 - [Autistachio] Monuments (after Divinity): nothing needed
 - [Autistachio] Gallery + capes: push King of Food20% Food Effect to 1 (now 0)
@@ -1172,18 +1200,15 @@ retired: W5 Divinity altar, Mindful style (divinity points 3.2B: next Coral Kid 
 - [Autistachio] Worship: lowest worship level on the account, sit at a totem for a few hours to catch up (my read)
 - [Autistachio] Worship: Worship level 70, charge full in 8d 9h
 - [Autistachio] 3D Printer slots: no samples and no prints on this character: 2 print slots idle
-- [Autistachio] Cards: presets 3 not built to plan yet (card build session).
 - [Autistachio] Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours
 - [Autistachio] Traps: Now on Froge
 - [Autistachio] Divinity: nothing needed (Doot gives every god to everyone)
-- [Autistachio] Super talents: spend the open points
-- [Autistachio] Super talents: Talent preset 1 (skilling): 4 open, hold them (no sourced pick)
-- [Autistachio] Super talents: Talent preset 2 (fighting): 4 open, hold them (no sourced pick)
+- [Autistachio] Super talents: check failed (No module named 'utils')
 - [Autistachio] Missing bag: Inventory Bag D: 2 slots (Quest)
 - [Autistachio] Missing bag: Sack Of Success: 2 slots (Vendor)
 - [Autistachio] Missing bag: Loot Luggage: 1 slots (Vendor)
 - [Autistachio] PARK: [LAW] W7 Spelunking cave 1 (Fearful Tunnel). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 1: cave 1 is the deepest he runs well (my read). Finish: Chapter 1: % Faster Spelunking Speed 1.4/66; cave 1 best depth 29. Source: goal review + spot rules (Zack 2026-11-27)
-now: Noble Clam on The Clamworks (FIGHTING)
+now: w7a6 on The Clamworks (?)
 retired: Divinity (Divinity slippers) (Divinity 54 / 40): target hit, removed
 
 ## autoreview_alerts  (UNOWNED)  AR not rated

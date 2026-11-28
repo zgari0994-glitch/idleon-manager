@@ -50,7 +50,7 @@ def build():
     Y = yaml.safe_load(open(ROOT / 'model' / 'jobs.yaml'))
     tasks = {}
     for cn, c in Y['characters'].items():
-        txt = ' '.join([str((c.get('afk') or {}).get('text', ''))] + [j['job'] for j in c.get('jobs', [])] + [str(a) for a in c.get('active', [])])
+        txt = ' '.join([' '.join(str(a.get('text', a) if isinstance(a, dict) else a) for a in (c.get('afk') if isinstance(c.get('afk'), list) else [c.get('afk') or {}]))] + [j['job'] for j in c.get('jobs', [])] + [str(a) for a in c.get('active', [])])
         tasks[cn] = txt
     ch = {c['character_name']: c for c in json.load(open(SNAP / 'chars.json'))['characters']}
     # AutoReview tier targets

@@ -115,7 +115,7 @@ characters:
     plan: "Elite Class Swap Token -> Bubonic Conjuror -> Arcane Cultist"
   Autistopher:    # Death Bringer #2
     afk:
-      - {tier: job, exclusive: true, where: "Death Note Super CHOW maps", why: "Super CHOWs and WOWs only count on him (cooking speed 1.1x each)", finish: {kind: deathnote, set: Super CHOW}, src: griffy, park_rule: "Super CHOWs with Autistopher", note: "Zack 2026-11-27: Topher takes the big remaining kills, steady background job"}
+      - {tier: job, exclusive: true, where: "Death Note Super CHOW maps", why: "Super CHOWs only count on him (cooking speed 1.1x each)", finish: {kind: deathnote, set: Super CHOW}, src: griffy, park_rule: "Super CHOWs with Autistopher", note: "Zack 2026-11-27: Topher takes the big remaining kills, steady background job"}
     active: [achievements]
     jobs:
       - {job: "Super CHOWs (cooking speed 1.1x each, count only on him)", sections: [{s: Death Note, rest: true}], basis: griffy, feeds: priority, note: "WOWs skipped (Griffy: weak scaling). findings/death_note_two_dbs.md"}

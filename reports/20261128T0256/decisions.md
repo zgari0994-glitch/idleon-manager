@@ -1,12 +1,13 @@
 # Decisions 20261128T0256
 
-DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
+DO 32 · HOLD 0 · NOTHING 35 · GLANCE 13 · BUILD 25 · FIX 2
 
 ## Biggest holes (fix the system, not just today)
-- prayers: planner broken
+- stamps: planner broken
 - trapping: nothing checks it (1 checklist item)
 - weekly_boss: nothing checks it (1 checklist item)
 - world_bosses: nothing checks it (1 checklist item)
+- super_talents: planner broken
 - achievements: nothing checks it
 - advice_fish: nothing checks it
 - autoloot: nothing checks it
@@ -27,7 +28,6 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - friend_bonuses: nothing checks it
 - guild_bonuses: nothing checks it
 - hat_rack: nothing checks it
-- inventory: nothing checks it
 
 ## Per character (goal first, then do, then holds). Claude reviews before cards.
 ### Autistopher
@@ -53,7 +53,6 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - card_engine: Prayers: equipped: Skilled Dimwit, Balance of Precision, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')
 - card_engine: Active play setup: autistopher- Kill 1M Crabcakes for W2 Weekly Boss (0.19K -> 1000K)
 - card_engine: Worship: worship level 74, charge full in 8d 5h
-- card_engine: Cards: presets 3 not built to plan yet (card build session).
 - card_engine: Traps: move all to Mousey at W1 Rats Nest, Royal traps, 40 hours
 - card_engine: Super CHOWs: 22 of 26 done. Closest:
 - card_engine: Super CHOWs: Pufferblob at Puffpuff Overpass: 44M kills left
@@ -61,12 +60,7 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - card_engine: Super CHOWs: Trench Fish at Deep End of the Koipond: 60M kills left
 - card_engine: Super CHOWs: Gigafrog at Tucked Away: 69M kills left
 - card_engine: Super CHOWs: Balloonfish at Balloon Bay: 75M kills left
-- card_engine: WOWs: 11 of 80 done. Closest:
-- card_engine: WOWs: Biggole Mole at Miner Mole Outskirts: 131M kills left
-- card_engine: WOWs: Sandy Pot at Jar Bridge: 201M kills left
-- card_engine: WOWs: Choccie at Cocoa Tunnel: 359M kills left
-- card_engine: WOWs: Demonblub at Middle of Nowhere: 483M kills left
-- card_engine: WOWs: Litterfish at Plastic Basin: 741M kills left
+- card_engine: Super talents: check failed (No module named 'utils')
 - card_engine: Missing bag: Rucksack Of Riches: 1 slots (Vendor)
 - card_engine: Super talents: the save still shows Siege Breaker talents in his super slots (from before his class switch)
 - card_engine: Talents to level next (Library checkouts)
@@ -112,13 +106,13 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - card_engine: Prayers: equipped: Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')
 - card_engine: Worship: worship level 84, charge full in 13d 18h
 - card_engine: Legend talents: Toolbox can't tell how many points are unspent (it counts 68 spent but only 59 owned). Check Whallamus in game; if any are unspent, ask for the full pick list
-- card_engine: Cards: presets 3 not built to plan yet (card build session).
 - card_engine: Arcade: 294 balls, 47 gold balls. Spend gold balls in this order from the current rotation:
 - card_engine: Arcade: +% Multikill per Tier (level 25) (Griffy: strong)
 - card_engine: Arcade: x Research XP (level 31) (Griffy: a must)
 - card_engine: Arcade: +% Deathbringer Bones (level 53) (Griffy: useful for the masterclass)
 - card_engine: Arcade: Griffy: wait for a gold-ball multiplier event before spending balls
 - card_engine: Zenith Market: 11 clusters. True Zen level 8 costs 10: buy it
+- card_engine: Super talents: check failed (No module named 'utils')
 - card_engine: Missing bag: Loot Luggage: 1 slots (Vendor)
 - card_engine: Lab chips: end-goal chips missing, buy when they rotate in
 - card_engine: Lab chips: Omega Nanochip: Pulse: doubled slot for the drop rate multi card
@@ -147,7 +141,7 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - card_engine: Prayers: equipped: Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')
 - card_engine: Active play setup: autistocat- Kill 1M Stiltmoles for W2 Weekly Boss (75.00K -> 1000K)
 - card_engine: Worship: worship level 95, charge full in 21d 22h
-- card_engine: Cards: presets 3 not built to plan yet (card build session).
+- card_engine: Super talents: check failed (No module named 'utils')
 - card_engine: Missing bag: Loot Luggage: 1 slots (Vendor)
 - card_engine: Lab jewels: missing ones unlock from Royal Armory upgrades
 - card_engine: Lab jewels: Jewel of the North Winds: 68 more upgrades
@@ -163,6 +157,7 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - alchemy_cauldrons: Seats follow the biggest need: move someone onto sigils only while something is waiting on them, and never empty the cauldrons. Griffy: finish unlocking bubbles before worrying about sigils.
 - glimbo: Clam: buy Multi-Scalping (330,591 pearls), Frugality (373,546 pearls).
 - glimbo: Minehead: buy Base Damage I, Bettah Numbahs, Mega Damage I, Miney Farmey I.
+- prayers: Set each character's prayers to what they're doing today, the cards show each one.
 - worship: Use charge from Autiszemo and Autistastic first, they fill up soonest.
 - worship: Griffy: get Voidinator early, Frozen as the last line, Kraken for small enemies. Pulse: Clash of Cans souls give the most worship EXP.
 - NOTE autoloot: No AutoReview section and no planner: needs a data source
@@ -177,6 +172,7 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - killroy: Get 2,000 kills in one room to finish an Equinox challenge (best so far 1,296).
 - post_office: Post Office: get Blacksmith Box to 400 (it's at 0).
 - post_office: Post Office: get Dwarven Supplies to 400 (it's at 0).
+- prayers: Skilled Dimwit + Unending Energy: equip while PLACING traps, unequip after (snapshotted).
 - worship: Runs the totems: spend charge on the prayer-unlock waves first, then the lowest totem.
 - card_engine: Sneaking: use today's charm rolls (4 symbol, 49 pristine left)
 - card_engine: Breeding: Eggs are full
@@ -196,9 +192,10 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - card_engine: Unlock: Aluminium Atom: compass Nomadic Path pos 32 (now 16/38)
 - card_engine: Prayers: equipped: The Royal Sampler, Shiny Snitch, Skilled Dimwit (prayers planner failed: 'list' object has no attribute 'get')
 - card_engine: Active play setup: autistacular- Kill 1M Choccies for W2 Weekly Boss (125.12K -> 1000K)
-- card_engine: Cards: presets 3 not built to plan yet (card build session).
+- card_engine: Compass: Elemental Path's next level costs 284M stardust, you're 0 short. Your call: Exalted Stamps (1.46B stardust) gives one more stamp exalt, but it delays Elemental Path by the same amount. Griffy uses moons for an extra exalt.
 - card_engine: Card set: farm 1 Verminous card
 - card_engine: Card set: Pulse: Verminous farms on the Insta castle map with Wind Walker + candy (mixed reports, test it)
+- card_engine: Super talents: check failed (No module named 'utils')
 - card_engine: Missing bag: Inventory Bag D: 2 slots (Quest)
 - card_engine: Missing bag: Rucksack Of Riches: 1 slots (Vendor)
 - card_engine: Talents to level next (Library checkouts)
@@ -220,8 +217,8 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - card_engine: Active play setup: Autistronaut- Kill 1M Choccies for W2 Weekly Boss (127.60K -> 1000K)
 - card_engine: Worship: charges much faster than the rest, probably from mage worship talents (my read)
 - card_engine: Worship: Worship level 84, charge full in 3d 10h
-- card_engine: Cards: presets 3 not built to plan yet (card build session).
 - card_engine: Traps: move all to Blobfish at W4 Hyperion Nebula, Cocoa Tunnel, Royal traps, 40 hours
+- card_engine: Super talents: check failed (No module named 'utils')
 - card_engine: Missing bag: Inventory Bag D: 2 slots (Quest)
 - card_engine: Missing bag: Loot Luggage: 1 slots (Vendor)
 - card_engine: If he ever becomes an Arcane Cultist: nothing moves by roster position
@@ -268,10 +265,7 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - card_engine: Unlock: Isotope Discovery superbit (+10 atom max): gaming superbits (20/72)
 - card_engine: Prayers: equipped: Skilled Dimwit, The Royal Sampler, Vacuous Tissue (prayers planner failed: 'list' object has no attribute 'get')
 - card_engine: Worship: worship level 101, charge full in 11d 16h
-- card_engine: Talents: switch to talent preset 1 (skilling) for where he is parked
-- card_engine: Cards: presets 1, 3, 5, 6 not built to plan yet (card build session).
-- card_engine: Super talents: spend the open points
-- card_engine: Super talents: Talent preset 1 (skilling): super Brute Efficiency (Griffy+Pulse: efficiency on skilling setups)
+- card_engine: Super talents: check failed (No module named 'utils')
 - card_engine: Missing bag: Loot Luggage: 1 slots (Vendor)
 - card_engine: Royal Guardian super talents: locked, 290 more Royal Armory upgrade levels
 - card_engine: Royal Guardian super talents: Marble talent: Pulse: 100% worth a super
@@ -307,8 +301,6 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - card_engine: Active play setup: Autistabish- Kill 1M Choccies for W2 Weekly Boss (120.47K -> 1000K)
 - card_engine: Worship: charges much faster than the rest, probably from mage worship talents (my read)
 - card_engine: Worship: Worship level 128, charge full in 8d 15h
-- card_engine: Talents: switch to talent preset 2 (skilling) for where he is parked
-- card_engine: Cards: presets 3 not built to plan yet (card build session).
 - card_engine: Divinity: buy these blessings, then god rank
 - card_engine: Divinity: Coral Kid next: Divinity Skill Lv boosts Minor Link Bonuses a bit more! (You... at 2.16B points (have 3.21B)
 - card_engine: Divinity: Blessing: Harriep (+% Divinity PTS Gain)
@@ -316,6 +308,7 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - card_engine: Divinity: Blessing: Goharut (+% Sailing Speed)
 - card_engine: Divinity: Blessing: Kattlekruk (+% Total Damage)
 - card_engine: Divinity: God rank (you are 1): Pulse targets 20 (Menagerie challenge, next-patch content) then 25-30. Push it in Divinity week. No-RNG way (Pulse): roll offerings until one shows 100%, then take it. Griffy: use cheap offerings until a guaranteed one shows
+- card_engine: Super talents: check failed (No module named 'utils')
 - card_engine: Missing bag: Loot Luggage: 1 slots (Vendor)
 - card_engine: Lab chips: end-goal chips missing, buy when they rotate in
 - card_engine: Lab chips: Omega Nanochip: Pulse: doubled slot for the drop rate multi card
@@ -346,15 +339,9 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - card_engine: Greenstacks: Pingy (24%): skill it
 - card_engine: Greenstacks: Eye of Koi (16%): farm the monster
 - card_engine: Greenstacks: Dung Beat (14%): skill it
-- card_engine: Talents: switch to talent preset 2 (skilling) for where he is parked
-- card_engine: Cards: presets 3 not built to plan yet (card build session).
 - card_engine: Traps: move all to Honker at W3 Wam Wonderland, Royal traps, 40 hours
 - card_engine: Traps: 8 traps on a short timer, use 40 hours
-- card_engine: Super talents: spend the open points
-- card_engine: Super talents: Talent preset 1 (fighting): Extra Bags is supered but isn't in his tree (left from an old class?). Reset it before spending
-- card_engine: Super talents: Talent preset 1 (fighting): 1 open, hold them (no sourced pick)
-- card_engine: Super talents: Talent preset 2 (skilling): Happy Dude is supered but isn't in his tree (left from an old class?). Reset it before spending
-- card_engine: Super talents: Talent preset 2 (skilling): super Right Hand Of Action (Griffy+Pulse: others get skill efficiency, bigger prints)
+- card_engine: Super talents: check failed (No module named 'utils')
 - card_engine: Missing bag: Inventory Bag D: 2 slots (Quest)
 - card_engine: Missing bag: Loot Luggage: 1 slots (Vendor)
 - card_engine: Research: points and next level
@@ -396,15 +383,16 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - card_engine: Fish prints: Print day is when all 6 print buffs are done
 - card_engine: Prayers: equipped: Midas Minded, Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')
 - card_engine: Worship: worship level 98, charge full in 10d 19h
-- card_engine: Cards: presets 3 not built to plan yet (card build session).
 - card_engine: ZOWs: 100 of 108 done. Closest:
 - card_engine: ZOWs: Spearfish at Pinpoint Summit: 100K kills left
 - card_engine: CHOWs: 98 of 108 done. Closest:
+- card_engine: CHOWs: Green Mushroom at Mummy Memorial: 864K kills left
 - card_engine: CHOWs: Spearfish at Pinpoint Summit: 1M kills left
 - card_engine: Cooking mastery (level 5): points go onto meals
 - card_engine: Cooking mastery (level 5): Points free: 0 (check in game which are free)
 - card_engine: Cooking mastery (level 5): Pulse (Aug): for money, 10-15 points on Yummy Peach Ring and 5 on Bundt Cake
 - card_engine: Cooking mastery (level 5): Pulse: push mastery to 15, it scales hard after 10
+- card_engine: Super talents: check failed (No module named 'utils')
 - card_engine: Missing bag: Loot Luggage: 1 slots (Vendor)
 - card_engine: Cooking mastery level 5 (rank 2): Pulse: the daily ladle system dumps all ladles on your lowest-timer meal, so do this before it runs
 - card_engine: Cooking mastery level 5 (rank 2): Pulse: push mastery to 15
@@ -432,9 +420,8 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - card_engine: Active play setup: Autistomatic- Kill 1M Choccies for W2 Weekly Boss (133.57K -> 1000K)
 - card_engine: Active play setup: Autistomatic- Kill 1M Stiltmoles for W2 Weekly Boss (77.08K -> 1000K)
 - card_engine: Worship: worship level 87, charge full in 8d 13h
-- card_engine: Talents: switch to talent preset 2 (skilling) for where he is parked
-- card_engine: Cards: presets 3, 5, 6 not built to plan yet (card build session).
 - card_engine: Traps: move all to Bunny at W3 Thermonuclear Climb, Royal traps, 40 hours
+- card_engine: Super talents: check failed (No module named 'utils')
 - card_engine: Missing bag: Loot Luggage: 1 slots (Vendor)
 - card_engine: Royal Guardian super talents: locked, 290 more Royal Armory upgrade levels
 - card_engine: Royal Guardian super talents: Marble talent: Pulse: 100% worth a super
@@ -452,6 +439,7 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - GOAL card_engine: Dancing Coral (Barnacle Curb, right side platform): Glowing Coral level 221: +3% Spelunking Amber gain
 - post_office: Post Office: get Dwarven Supplies to 400 (it's at 0).
 - post_office: Post Office: get Taped Up Timber to 400 (it's at 0).
+- prayers: Skilled Dimwit + Unending Energy: equip while PLACING traps, unequip after (snapshotted).
 - card_engine: Gallery + capes: Gallery 15 podiums, bonus 1.16x
 - card_engine: Dancing Coral (Barnacle Curb, right side platform): level these when you have the coral
 - card_engine: Dancing Coral (Barnacle Curb, right side platform): Reef Coral level 227: +2% Daily Reef Coral
@@ -463,10 +451,8 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 - card_engine: Worship: lowest worship level on the account, sit at a totem for a few hours to catch up (my read)
 - card_engine: Worship: Worship level 70, charge full in 8d 9h
 - card_engine: 3D Printer slots: no samples and no prints on this character: 2 print slots idle
-- card_engine: Cards: presets 3 not built to plan yet (card build session).
 - card_engine: Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours
-- card_engine: Super talents: spend the open points
-- card_engine: Super talents: Talent preset 1 (skilling): 4 open, hold them (no sourced pick)
+- card_engine: Super talents: check failed (No module named 'utils')
 - card_engine: Missing bag: Inventory Bag D: 2 slots (Quest)
 - card_engine: Missing bag: Sack Of Success: 2 slots (Vendor)
 - card_engine: Missing bag: Loot Luggage: 1 slots (Vendor)
@@ -545,7 +531,7 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 | obols | BUILD | lean AutoReview check only, no planner |  |  |  |  |
 | owl | DO |  | 1 | 0 | 0 | 1 |
 | post_office | DO |  | 20 | 0 | 0 |  |
-| prayers | FIX | prayers: AttributeError: 'list' object has no attribute 'get' |  |  |  |  |
+| prayers | DO |  | 3 | 40 | 0 | 1 |
 | printer | NOTHING | 14 info lines, no action | 0 | 14 | 0 | 1 |
 | quests | BUILD | lean AutoReview check only, no planner |  |  |  |  |
 | refinery | DO |  | 1 | 1 | 1 |  |
@@ -558,7 +544,7 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 | slab | NOTHING | 1 info lines, no action | 0 | 1 | 0 |  |
 | sneaking | NOTHING | 1 info lines, no action | 0 | 1 | 0 | 1 |
 | spelunk | NOTHING | 4 info lines, no action | 0 | 4 | 0 | 1 |
-| stamps | NOTHING | 3 info lines, no action | 0 | 3 | 0 | 1 |
+| stamps | FIX | stamps: ModuleNotFoundError: No module named 'consts' |  |  |  |  |
 | star_signs | NOTHING | planner returned nothing (needs a reason) | 0 | 0 | 0 |  |
 | statues | DO |  | 1 | 2 | 0 |  |
 | storage | GLANCE | lean AutoReview check only, no planner |  |  |  |  |
@@ -580,6 +566,6 @@ DO 31 · HOLD 0 · NOTHING 37 · GLANCE 13 · BUILD 25 · FIX 1
 | snail_mail | BUILD | lean AutoReview check only, no planner |  |  |  |  |
 | palette | BUILD | lean AutoReview check only, no planner |  |  |  |  |
 | talents | BUILD | lean AutoReview check only, no planner |  |  |  |  |
-| super_talents | NOTHING | planner returned nothing (needs a reason) | 0 | 0 | 0 |  |
-| card_engine | DO |  | 382 | 113 | 3 |  |
+| super_talents | FIX | supertalents: ModuleNotFoundError: No module named 'utils' |  |  |  |  |
+| card_engine | DO |  | 366 | 113 | 3 |  |
 | autoreview_alerts | NOTHING | 6 info lines, no action | 0 | 6 | 0 |  |

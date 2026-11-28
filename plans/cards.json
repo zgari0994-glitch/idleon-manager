@@ -20,7 +20,7 @@
   ],
   "flag": "",
   "weekly": [
-   "Bonus Ballot (W2): Boosts Artifact Find chance in Sailing by 1.31x (x1.8399999999999999) [votes from save 20261127T1704: phone save has none, confirm in game if a new week started]",
+   "Bonus Ballot (W2): Boosts Artifact Find chance in Sailing by 1.31x (x1.84) [votes from save 20261127T1704: phone save has none, confirm in game if a new week started]",
    "Meritocracy (W7): Multiplies how many Shiny Critters you get from Trapping by 5.80x (x1.2) [votes from save 20261127T1704: phone save has none, confirm in game if a new week started]",
    "Autisticles: Sailing bonus week: keep every boat on long trips and claim on time (ballot boosts artifact finds this week)"
   ]
@@ -84,11 +84,6 @@
      "sub": []
     },
     {
-     "do": "Cards: presets 3 not built to plan yet (card build session).",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Traps: nothing needed",
      "why": "",
      "sub": []
@@ -104,6 +99,7 @@
      "sub": [
       "Spearfish at Pinpoint Summit: 100K kills left",
       "Coralcave Guardian at Coralcave Perimeter: 100K kills left",
+      "Nutto at The Roots: 100K kills left",
       "Dedotated Ram at Equinox Valley: 100K kills left"
      ]
     },
@@ -111,8 +107,10 @@
      "do": "CHOWs: 98 of 108 done. Closest:",
      "why": "counted on your best Barbarian (him)",
      "sub": [
+      "Green Mushroom at Mummy Memorial: 864K kills left",
       "Spearfish at Pinpoint Summit: 1M kills left",
       "Coralcave Guardian at Coralcave Perimeter: 1M kills left",
+      "Nutto at The Roots: 1M kills left",
       "Dedotated Ram at Equinox Valley: 1M kills left"
      ]
     }
@@ -126,6 +124,11 @@
       "Pulse (Aug): for money, 10-15 points on Yummy Peach Ring and 5 on Bundt Cake",
       "Pulse: push mastery to 15, it scales hard after 10"
      ]
+    },
+    {
+     "do": "Super talents: check failed (No module named 'utils')",
+     "why": "",
+     "sub": []
     },
     {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
@@ -244,11 +247,6 @@
      "sub": []
     },
     {
-     "do": "Cards: presets 3 not built to plan yet (card build session).",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Traps: nothing needed",
      "why": "",
      "sub": []
@@ -260,6 +258,11 @@
     }
    ],
    "house": [
+    {
+     "do": "Super talents: check failed (No module named 'utils')",
+     "why": "",
+     "sub": []
+    },
     {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
      "why": "",
@@ -381,11 +384,6 @@
      "sub": []
     },
     {
-     "do": "Cards: presets 3 not built to plan yet (card build session).",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Traps: nothing needed",
      "why": "",
      "sub": []
@@ -410,6 +408,11 @@
     {
      "do": "Zenith Market: 11 clusters. True Zen level 8 costs 10: buy it",
      "why": "Pulse: True Zen multiplies statue bonuses including the dragon statue, push it",
+     "sub": []
+    },
+    {
+     "do": "Super talents: check failed (No module named 'utils')",
+     "why": "",
      "sub": []
     },
     {
@@ -552,16 +555,6 @@
      "sub": []
     },
     {
-     "do": "Talents: switch to talent preset 1 (skilling) for where he is parked",
-     "why": "the other preset holds the wrong talents for this job",
-     "sub": []
-    },
-    {
-     "do": "Cards: presets 1, 3, 5, 6 not built to plan yet (card build session).",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Traps: nothing needed",
      "why": "",
      "sub": []
@@ -574,11 +567,9 @@
    ],
    "house": [
     {
-     "do": "Super talents: spend the open points",
-     "why": "every pick is from Griffy or Pulse (resettable if needed)",
-     "sub": [
-      "Talent preset 1 (skilling): super Brute Efficiency (Griffy+Pulse: efficiency on skilling setups)"
-     ]
+     "do": "Super talents: check failed (No module named 'utils')",
+     "why": "",
+     "sub": []
     },
     {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
@@ -609,7 +600,7 @@
     }
    ],
    "part": [],
-   "park": "[LAW] W7 Spelunking cave 4 (One Way Opening). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: Royal Guardian, level 66: RG talents suit the deepest cave. Finish: Chapter 4: % Max Stamina for All Players 0/22; cave 4 best depth 51. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Coralcave Crab on Coralcave Outskirts (FIGHTING)\nretired: Cavern 15 Temple (Dragon Statue 187 / 150): target hit, removed"
+   "park": "[LAW] W7 Spelunking cave 4 (One Way Opening). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: Royal Guardian, level 66: RG talents suit the deepest cave. Finish: Chapter 4: % Max Stamina for All Players 0/22; cave 4 best depth 51. Source: goal review + spot rules (Zack 2026-11-27)\nnow: w7a11 on Coralcave Outskirts (?)\nretired: Cavern 15 Temple (Dragon Statue 187 / 150): target hit, removed"
   },
   {
    "name": "Autistabish",
@@ -691,16 +682,6 @@
      "sub": []
     },
     {
-     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
-     "why": "the other preset holds the wrong talents for this job",
-     "sub": []
-    },
-    {
-     "do": "Cards: presets 3 not built to plan yet (card build session).",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Traps: nothing needed",
      "why": "",
      "sub": []
@@ -719,6 +700,11 @@
     }
    ],
    "house": [
+    {
+     "do": "Super talents: check failed (No module named 'utils')",
+     "why": "",
+     "sub": []
+    },
     {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
      "why": "",
@@ -745,7 +731,7 @@
     }
    ],
    "part": [],
-   "park": "[LAW] W7 Spelunking cave 3 (Buried Church). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 59: cave 3 has the bigger open page need, Chapter 3 97% short (weakest % extra Overstim Fill Rate 0/550). Close call vs cave 4: your call in the moment. Finish: Chapter 3: % extra Overstim Fill Rate 0/550; cave 3 best depth 40. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Eggroll on Sushi Perimeter (FIGHTING)\nthen: [CLASS] Candy or Active ES on the statue mob. Why: ES clears statue mobs fast. Finish: finish line = GAP (no measurable target yet). Source: AutoReview  [STALE CHECK: no finish line]\nretired: Penguins map (Box Statue 223 / 40): target hit, removed\nretired: Cryosnakes map (Seesaw Statue 189 / 40): target hit, removed"
+   "park": "[LAW] W7 Spelunking cave 3 (Buried Church). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 59: cave 3 has the bigger open page need, Chapter 3 97% short (weakest % extra Overstim Fill Rate 0/550). Close call vs cave 4: your call in the moment. Finish: Chapter 3: % extra Overstim Fill Rate 0/550; cave 3 best depth 40. Source: goal review + spot rules (Zack 2026-11-27)\nnow: w7b4 on Sushi Perimeter (?)\nthen: [CLASS] Candy or Active ES on the statue mob. Why: ES clears statue mobs fast. Finish: finish line = GAP (no measurable target yet). Source: AutoReview  [STALE CHECK: no finish line]\nretired: Penguins map (Box Statue 223 / 40): target hit, removed\nretired: Cryosnakes map (Seesaw Statue 189 / 40): target hit, removed"
   },
   {
    "name": "Autistacular",
@@ -832,11 +818,6 @@
      "sub": []
     },
     {
-     "do": "Cards: presets 3 not built to plan yet (card build session).",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Traps: nothing needed",
      "why": "",
      "sub": []
@@ -849,11 +830,21 @@
    ],
    "house": [
     {
+     "do": "Compass: Elemental Path's next level costs 284M stardust, you're 0 short. Your call: Exalted Stamps (1.46B stardust) gives one more stamp exalt, but it delays Elemental Path by the same amount. Griffy uses moons for an extra exalt.",
+     "why": "Elemental Path is the Compass tier gate (save)",
+     "sub": []
+    },
+    {
      "do": "Card set: farm 1 Verminous card",
      "why": "Bosses n Nightmares set goes 24% to 30% damage, drop and EXP for everyone",
      "sub": [
       "Pulse: Verminous farms on the Insta castle map with Wind Walker + candy (mixed reports, test it)"
      ]
+    },
+    {
+     "do": "Super talents: check failed (No module named 'utils')",
+     "why": "",
+     "sub": []
     },
     {
      "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
@@ -980,16 +971,6 @@
      ]
     },
     {
-     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
-     "why": "the other preset holds the wrong talents for this job",
-     "sub": []
-    },
-    {
-     "do": "Cards: presets 3 not built to plan yet (card build session).",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Traps: move all to Honker at W3 Wam Wonderland, Royal traps, 40 hours",
      "why": "Goosey Glug 0% toward 9",
      "sub": [
@@ -1005,14 +986,9 @@
    ],
    "house": [
     {
-     "do": "Super talents: spend the open points",
-     "why": "every pick is from Griffy or Pulse (resettable if needed)",
-     "sub": [
-      "Talent preset 1 (fighting): Extra Bags is supered but isn't in his tree (left from an old class?). Reset it before spending",
-      "Talent preset 1 (fighting): 1 open, hold them (no sourced pick)",
-      "Talent preset 2 (skilling): Happy Dude is supered but isn't in his tree (left from an old class?). Reset it before spending",
-      "Talent preset 2 (skilling): super Right Hand Of Action (Griffy+Pulse: others get skill efficiency, bigger prints)"
-     ]
+     "do": "Super talents: check failed (No module named 'utils')",
+     "why": "",
+     "sub": []
     },
     {
      "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
@@ -1126,16 +1102,6 @@
      "sub": []
     },
     {
-     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
-     "why": "the other preset holds the wrong talents for this job",
-     "sub": []
-    },
-    {
-     "do": "Cards: presets 3, 5, 6 not built to plan yet (card build session).",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Traps: move all to Bunny at W3 Thermonuclear Climb, Royal traps, 40 hours",
      "why": "Bunny Brew 0% toward 8",
      "sub": [
@@ -1149,6 +1115,11 @@
     }
    ],
    "house": [
+    {
+     "do": "Super talents: check failed (No module named 'utils')",
+     "why": "",
+     "sub": []
+    },
     {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
      "why": "",
@@ -1184,7 +1155,7 @@
      "sub": []
     }
    ],
-   "park": "[LAW] W7 Spelunking cave 4 (One Way Opening). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: Royal Guardian, level 66: RG talents suit the deepest cave. Finish: Chapter 4: % Max Stamina for All Players 0/22; cave 4 best depth 51. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Coralcave Crab on Coralcave Outskirts (FIGHTING)"
+   "park": "[LAW] W7 Spelunking cave 4 (One Way Opening). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: Royal Guardian, level 66: RG talents suit the deepest cave. Finish: Chapter 4: % Max Stamina for All Players 0/22; cave 4 best depth 51. Source: goal review + spot rules (Zack 2026-11-27)\nnow: w7a11 on Coralcave Outskirts (?)"
   },
   {
    "name": "Autistronaut",
@@ -1245,11 +1216,6 @@
      ]
     },
     {
-     "do": "Cards: presets 3 not built to plan yet (card build session).",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Traps: move all to Blobfish at W4 Hyperion Nebula, Cocoa Tunnel, Royal traps, 40 hours",
      "why": "Bloat Draft 17% toward 11",
      "sub": [
@@ -1258,6 +1224,11 @@
     }
    ],
    "house": [
+    {
+     "do": "Super talents: check failed (No module named 'utils')",
+     "why": "",
+     "sub": []
+    },
     {
      "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
      "why": "",
@@ -1289,7 +1260,7 @@
     }
    ],
    "part": [],
-   "park": "[LAW] W7 Spelunking cave 2 (Decaying Crevasse). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 30: cave 2 has the bigger open page need, Chapter 2 81% short (weakest % Spelunking EXP gain 7.2/66). Close call vs cave 3: your call in the moment. Finish: Chapter 2: % Spelunking EXP gain 7.2/66; cave 2 best depth 32. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Divinity on Magma Rivertown (DIVINITY)\nretired: W5 Divinity altar, Mindful style (divinity points 3.2B: next Coral Kid upgrade affordable): target hit, removed"
+   "park": "[LAW] W7 Spelunking cave 2 (Decaying Crevasse). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 30: cave 2 has the bigger open page need, Chapter 2 81% short (weakest % Spelunking EXP gain 7.2/66). Close call vs cave 3: your call in the moment. Finish: Chapter 2: % Spelunking EXP gain 7.2/66; cave 2 best depth 32. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Divinity on Magma Rivertown (?)\nretired: W5 Divinity altar, Mindful style (divinity points 3.2B: next Coral Kid upgrade affordable): target hit, removed"
   },
   {
    "name": "Autistopher",
@@ -1384,11 +1355,6 @@
      "sub": []
     },
     {
-     "do": "Cards: presets 3 not built to plan yet (card build session).",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Traps: move all to Mousey at W1 Rats Nest, Royal traps, 40 hours",
      "why": "Bubonic Burp 22% toward 13",
      "sub": [
@@ -1410,20 +1376,14 @@
       "Gigafrog at Tucked Away: 69M kills left",
       "Balloonfish at Balloon Bay: 75M kills left"
      ]
-    },
-    {
-     "do": "WOWs: 11 of 80 done. Closest:",
-     "why": "his WOW count feeds the golden food bonus",
-     "sub": [
-      "Biggole Mole at Miner Mole Outskirts: 131M kills left",
-      "Sandy Pot at Jar Bridge: 201M kills left",
-      "Choccie at Cocoa Tunnel: 359M kills left",
-      "Demonblub at Middle of Nowhere: 483M kills left",
-      "Litterfish at Plastic Basin: 741M kills left"
-     ]
     }
    ],
    "house": [
+    {
+     "do": "Super talents: check failed (No module named 'utils')",
+     "why": "",
+     "sub": []
+    },
     {
      "do": "Missing bag: Rucksack Of Riches: 1 slots (Vendor)",
      "why": "",
@@ -1452,7 +1412,7 @@
     }
    ],
    "part": [],
-   "park": "[LAW] Death Note Super CHOW maps. Why: Law 2, only he does this: Super CHOWs and WOWs only count on him (cooking speed 1.1x each). Finish: Pufferblob at Puffpuff Overpass: 44M kills left (22 of 26 Super CHOWs). Source: griffy"
+   "park": "[LAW] Death Note Super CHOW maps. Why: Law 2, only he does this: Super CHOWs only count on him (cooking speed 1.1x each). Finish: Pufferblob at Puffpuff Overpass: 44M kills left (22 of 26 Super CHOWs). Source: griffy"
   },
   {
    "name": "Autistachio",
@@ -1516,11 +1476,6 @@
      "sub": []
     },
     {
-     "do": "Cards: presets 3 not built to plan yet (card build session).",
-     "why": "",
-     "sub": []
-    },
-    {
      "do": "Traps: move all to Tuttle at W6 Bamboo Laboredge, Royal traps, 40 hours",
      "why": "Turtle Tisane",
      "sub": [
@@ -1535,12 +1490,9 @@
    ],
    "house": [
     {
-     "do": "Super talents: spend the open points",
-     "why": "every pick is from Griffy or Pulse (resettable if needed)",
-     "sub": [
-      "Talent preset 1 (skilling): 4 open, hold them (no sourced pick)",
-      "Talent preset 2 (fighting): 4 open, hold them (no sourced pick)"
-     ]
+     "do": "Super talents: check failed (No module named 'utils')",
+     "why": "",
+     "sub": []
     },
     {
      "do": "Missing bag: Inventory Bag D: 2 slots (Quest)",
@@ -1559,7 +1511,7 @@
     }
    ],
    "part": [],
-   "park": "[LAW] W7 Spelunking cave 1 (Fearful Tunnel). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 1: cave 1 is the deepest he runs well (my read). Finish: Chapter 1: % Faster Spelunking Speed 1.4/66; cave 1 best depth 29. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Noble Clam on The Clamworks (FIGHTING)\nretired: Divinity (Divinity slippers) (Divinity 54 / 40): target hit, removed"
+   "park": "[LAW] W7 Spelunking cave 1 (Fearful Tunnel). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 1: cave 1 is the deepest he runs well (my read). Finish: Chapter 1: % Faster Spelunking Speed 1.4/66; cave 1 best depth 29. Source: goal review + spot rules (Zack 2026-11-27)\nnow: w7a6 on The Clamworks (?)\nretired: Divinity (Divinity slippers) (Divinity 54 / 40): target hit, removed"
   }
  ]
 }

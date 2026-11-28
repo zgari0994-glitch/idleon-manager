@@ -395,6 +395,12 @@ def build():
         tp = talent_preset_line(n)
         if tp: daily.append(tp)
         if n == 'Autistacular':
+            try:
+                import compass as _CP
+                _cl = [l for l in _CP.card_lines(_CP.build()) if l.startswith(("Elemental Path", "Your call: Exalted Stamps"))]
+                if _cl: house.append({'do': 'Compass: ' + ' '.join(_cl), 'why': 'Elemental Path is the Compass tier gate (save)', 'sub': []})
+            except Exception as ex:
+                house.append({'do': f'Compass Elemental Path check failed ({ex})', 'why': '', 'sub': []})
             house.append({'do': 'Card set: farm 1 Verminous card', 'why': 'Bosses n Nightmares set goes 24% to 30% damage, drop and EXP for everyone', 'sub': ['Pulse: Verminous farms on the Insta castle map with Wind Walker + candy (mixed reports, test it)']})
         # every-character checks, always shown
         for f in (cards_line, trap_line, divinity_line):
@@ -403,6 +409,7 @@ def build():
         # kill milestones
         m = ms.get(n, {})
         for kind in ('Super CHOW', 'WOW', 'ZOW', 'CHOW'):
+            if n == 'Autistopher' and kind != 'Super CHOW': continue   # Zack 2026-11-27: Topher Super CHOWs only, WOWs skipped
             if kind in m and m[kind]['next']:
                 h = m[kind]['have']
                 sub = [f"{mob} at {mp}: {short(rem)} kills left" for (mob, mp), (rem, cur) in m[kind]['next']]
