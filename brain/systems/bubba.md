@@ -15,23 +15,28 @@ description: Bubba (W1 clicker): state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 9 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "my read: keep bubba moving; no creator goal yet"
-coverage: none
+role: feeder   # Build Rate 28% -> construction, Total DMG 42%, Soul Gain 14% -> worship, Critter 14% -> trapping, XP 11.2%, All Kills 2.8%, Atom Cost -4.2%
+goal: "Keep Bubba's slices spent and climb Megaflesh tiers (each tier multiplies all Bubba bonuses)"
+coverage: my_read   # only 3 Griffy mechanic claims, no order
 ladder:
-  - {tier: 1, target: "my read: read bubba state every pull and push its cheapest open upgrade", source: "my_read", date: "2026-11-27"}
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: daily, who: "UNASSIGNED", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+  - {tier: 1, target: "Slices never idle: buy every affordable upgrade each check", source: "my_read", date: "2026-11-28"}
+  - {tier: 2, target: "Megaflesh 6 Salmon (emulsify a Charisma attribute for 3x)", source: "Toolbox (parser)", date: "2026-11-28"}
+  - {tier: 3, target: "Megaflesh 7 Golden (all Bubba bonuses 1.60x)", source: "Toolbox (parser)", date: "2026-11-28"}
+  - {tier: 4, target: "Santa's Little Helper triples Bubba bonuses (older 2026-02-14: clicker option does not affect Bubba)", source: "Griffy", date: "2026-07-19"}   # 8C9vFwK6bUg 00:29:11
+objective: {rung: 2, now: "3.24T slices, 13.6B/min; Megaflesh lv5 next costs 459T", target: "459T", eta_days: 23}   # my read: (459T-3.24T)/13.6B per min, no other spending
+check: {cadence: daily, who: "Autistopher", look_at: "bubba.meatSlices vs upgrades[].cost"}
+buffs:
+  - {source: "Santa's Little Helper", world: null, owned: null, now: null, next: "3x Bubba bonuses", owner: "account"}   # ownership not in parser
+triggers:
+  - {when: "meatSlices >= 459T", then: "buy Megaflesh 6 (Salmon), then emulsify Hustle"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "my read: read bubba state every pull and push its cheapest open upgrade", stat: "", gain_pct: null, unblocks: [], source: "my_read", active_min: null, wait_hr: null, cost: null, urgent: false}
-# gap: no creator coverage; rungs from AutoReview / my read (logged in brain/goal_gaps.md)
+  - {do: "Buy the 12 affordable upgrades now (Dice Roll 1.4B, Buyer Grin 2.6B, Bargain 9.1B, Charisma 10B, Great Meat 20B, 2nd Slice 67B, 1st Slice 104B, Happi Boi 117B, Good Meat 444B, Super Chart 661B, More Sides unlock 956B, Smoker/Open Gift 2.9T)", stat: "slices/min + bonuses", gain_pct: null, unblocks: [], source: "my_read (parser costs)", active_min: 3, wait_hr: null, cost: "3.24T slices", urgent: false}
+  - {do: "Decide: save for Megaflesh (459T, ~23 days) vs keep buying levels (my read: levels first, they raise slice rate)", stat: "", gain_pct: null, unblocks: [], source: "my_read", active_min: null, wait_hr: null, cost: null, urgent: false}
+# gap: lookup.py has no 'bubba' system; no creator upgrade order; Santa's Little Helper ownership unknown.
 ```
 <!-- GOAL:END -->
 

@@ -14,26 +14,23 @@ description: Basketball: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 9 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
 role: independent
-goal: "The shop is located in the Valley of the Beans (Bored Beans)"
-coverage: partial
+goal: "Hoops shop upgrades bought as points come in (Damage, Coins, Class EXP, Skill Efficiency, no caps)"
+coverage: none   # AutoReview lists the shop only; Griffy's only line says Goldric's hoops quest is the catching minigame
 ladder:
-  - {tier: 1, target: "The shop is located in the Valley of the Beans (Bored Beans)", source: "Toolbox", date: "2026-11-27"}   # AutoReview
-  - {tier: 2, target: "Upgrade 1: +80% Damage to Monsters (80 -> \u221e)", source: "Toolbox", date: "2026-11-27"}   # AutoReview
-  - {tier: 3, target: "Upgrade 2: +100% Coins dropped by monsters (100 -> \u221e)", source: "Toolbox", date: "2026-11-27"}   # AutoReview
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: weekly, who: "UNASSIGNED", look_at: "python3 tools/lookup.py basketball"}
-buffs: []   # only filled for systems behind / needing a push
+  - {tier: 1, target: "All 4 upgrades unlocked (done: 80/100/20/117)", source: "Toolbox (parser)", date: "2026-11-28"}
+  - {tier: 2, target: "my read: cheapest-gain first: Class EXP (cost 3), Damage (8), then Coins (403), Skill Eff (2,345)", source: "my_read", date: "2026-11-28"}
+objective: {rung: 2, now: "high score 26, 317 total points", target: null, eta_days: null}
+check: {cadence: weekly, who: "UNASSIGNED", look_at: "highscores.minigameHighscores hoops upgrades"}
+buffs: []   # minigame, low priority
 triggers: []
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "The shop is located in the Valley of the Beans (Bored Beans)", stat: "", gain_pct: null, unblocks: [], source: "Toolbox", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: DATA MISSING: 'basketball' is not in Toolbox's parser: use AutoReview / the raw save and say so
-# gap: thin creator coverage; rungs from AutoReview / my read (logged in brain/goal_gaps.md)
+  - {do: "In game: check spendable hoops points; spend on Class EXP (3) and Damage (8)", stat: "class exp / dmg", gain_pct: null, unblocks: [], source: "my_read", active_min: 2, wait_hr: null, cost: null, urgent: false}
+# gap: no creator coverage; spendable points (vs 317 total) not in parser; data_map basketball path null (real: highscores.minigameHighscores).
 ```
 <!-- GOAL:END -->
 

@@ -31,3 +31,11 @@ Each needs Griffy > Pulse = Nocturne guidance; until then rungs are AutoReview /
 - cards: per-role presets thin (3 roles); set-tier card farming order has no claims; Pulse's FOMO gem shop star purchase for Coral Guardian unconfirmed by him.
 - money: new money.md has no parser path / build_brain AUTO block; gear ownership (Bling Pendant, Corsair, Rumble chip, Golden Bread, Draw Breaker) not in parser = in-game check; "best item owned vs better to unlock" has no claims.
 - triggers.yaml: 4 batch-2 rows have metric null (fast_shiny_min_lv, crucible_lv, dungeon_progress, card:Coralcave_Guardian).
+
+## Batch 9 (2026-11-28)
+- anvil: no lookup system; tab level + slot item names not in parser; Topher -435 pts / Bish cap 0 unverified.
+- bubba: no lookup system; no creator upgrade order; Santa's Little Helper ownership unknown.
+- world_progress: W7 current map not in parser; owner unassigned.
+- bribes: Art of the Flail unlock condition unknown.
+- hat_rack: owned-not-deposited hats not in parser; owner unassigned.
+- basketball: no creator coverage; spendable points not in parser; data_map path null.

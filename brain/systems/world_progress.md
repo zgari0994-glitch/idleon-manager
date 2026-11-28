@@ -15,25 +15,29 @@ description: World Progress: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 9 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: feeder
-goal: "He suggests roughly two hundred to three hundred for the asked-about last-map stat target; the stat and units "
-coverage: sourced
+role: feeder   # later W7 maps unlock spelunking progression, Glimbo trades, research mining (Griffy)
+goal: "Push W7 maps to the next useful unlock, then pause (Griffy)"
+coverage: partial
 ladder:
-  - {tier: 1, target: "He suggests roughly two hundred to three hundred for the asked-about last-map stat target; the stat and units are unclear.", source: "Griffy", date: "2026-07-29"}   # _maMoJLg6YE 02:03:26
-  - {tier: 2, target: "Push to Litterfish for Billy and potentially Demon Blob for Meritocracy then pause further pushing.", source: "Griffy", date: "2026-04-23"}   # kD7KZ5zX6Ss 00:26:02
-  - {tier: 3, target: "A later name-tag milestone provides gains comparable to the top-point-one-percent tag.", source: "Griffy", date: "2026-04-23"}   # kD7KZ5zX6Ss 00:26:32
-objective: {rung: 1, now: "291", target: "294", eta_days: null}
-check: {cadence: weekly, who: "UNASSIGNED", look_at: "python3 tools/lookup.py world_progress"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+  - {tier: 1, target: "W1-W6 finished", source: "Toolbox (parser)", date: "2026-11-28"}   # done
+  - {tier: 2, target: "Push W7 instead of leveling every skill to 100; void tools on everyone first", source: "Griffy", date: "2026-01-29"}   # dliS5ZjijlA 01:39:59
+  - {tier: 3, target: "Push to Litterfish (Billy), maybe Demon Blob (Meritocracy), then pause", source: "Griffy", date: "2026-04-23"}   # kD7KZ5zX6Ss 00:26:02
+  - {tier: 4, target: "Later map goals: spelunking progression, Glimbo trades, research mining minigame", source: "Griffy", date: "2026-04-23"}   # kD7KZ5zX6Ss 00:27:02
+objective: {rung: 3, now: "W7 not finished; current map not in parser", target: "Litterfish", eta_days: null}
+check: {cadence: weekly, who: "UNASSIGNED", look_at: "finishedWorlds + W7 map kills (not in parser yet)"}
+buffs:
+  - {source: "Kills per kill ballot week", world: 2, owned: true, now: null, next: null, owner: "Autistotle"}   # Griffy 2026-01-29 dliS5ZjijlA 01:43:06
+triggers:
+  - {when: "kills per kill wins the ballot", then: "push week: best fighter on the next W7 portal"}
+  - {when: "a W7 map gate blocks spelunking", then: "Law 1: map push becomes the blocker"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "He suggests roughly two hundred to three hundred for the asked-about last-map stat target; the stat and units are unclea", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: World1=True, World2=True, World3=True, World4=True, World5=True, World6=True, World7=False
+  - {do: "Confirm current W7 map in game and whether Litterfish is reached", stat: "unlock", gain_pct: null, unblocks: [spelunk, glimbo, research], source: "Griffy 2026-04-23 kD7KZ5zX6Ss 00:26:02", active_min: 1, wait_hr: null, cost: null, urgent: false}
+# Old auto draft had Blood Marrow 291->294 as 'now'; that's an AutoReview talent line, not map progress (removed).
+# Pinchy = reference only, owned by no one. gap: W7 map progress not in parser; owner unassigned.
 ```
 <!-- GOAL:END -->
 

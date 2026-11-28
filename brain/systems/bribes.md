@@ -14,25 +14,24 @@ description: Bribes: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 9 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "Complete achievements and shop-access bribes to improve convenience."
+role: independent   # maintenance, Topher
+goal: "All 41 bribes bought (all are permanent account boosts)"
 coverage: sourced
 ladder:
-  - {tier: 1, target: "Complete achievements and shop-access bribes to improve convenience.", source: "Griffy", date: "2026-10-04"}   # N5yJ4-tZLbY 00:09:40
-  - {tier: 2, target: "Buy more bribes for total boost damage and total accuracy; now caught up on bribes", source: "Griffy", date: "2025-11-17"}   # JZVtqVNk5DI 01:24:31
-  - {tier: 3, target: "Buy bribes since they only cost money and get good; one gives 5% AFK gains fighting only; another 15% stamp drop", source: "Griffy", date: "2025-10-31"}   # Gkwf75q4NUk 00:47:10
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: weekly, who: "Autistopher", look_at: "python3 tools/lookup.py bribes"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+  - {tier: 1, target: "40/41 bought", source: "Toolbox (parser)", date: "2026-11-28"}   # done
+  - {tier: 2, target: "41/41: The Art of the Flail (last one); the Art of the Bail came via Trash Island expeditions", source: "Griffy", date: "2026-10-28"}   # C2oiRVIpmq8 00:03:25
+objective: {rung: 2, now: 40, target: 41, eta_days: null}
+check: {cadence: weekly, who: "Autistopher", look_at: "bribes[].done (Maintenance job)"}
+buffs: []   # maintenance system
+triggers:
+  - {when: "The Art of the Flail becomes buyable", then: "Topher buys it"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Complete achievements and shop-access bribes to improve convenience.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: : 41 items
+  - {do: "Find what unlocks The Art of the Flail (likely the next Island/W7 gate, my read) and check it in game", stat: "+41 effect", gain_pct: null, unblocks: [], source: "my_read", active_min: 2, wait_hr: null, cost: null, urgent: false}
+# gap: Flail unlock condition not in parser or creator rows.
 ```
 <!-- GOAL:END -->
 
