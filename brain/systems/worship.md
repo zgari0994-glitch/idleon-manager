@@ -5,7 +5,7 @@ description: Worship: state, how it works, links, plan, today
 # Worship
 
 <!-- AUTO:START (tools/build_brain.py rewrites this block) -->
-- Owners: unassigned in jobs.yaml
+- Owners: Autistabish
 - Toolbox: world-3/worship (guide L98)
 - AutoReview: none (AutoReview does not rate it)
 - Planner: model/worship.py

@@ -33,7 +33,7 @@ triggers:
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
   - {do: "Spend books on the top ranked talent (always show #1-55 rank)", stat: "talent Lv", gain_pct: null, unblocks: [], source: "AutoReview + Griffy 2026-10-04", active_min: 3, wait_hr: null, cost: null, urgent: false}
-# GAP: no Toolbox page mapped, no planner (audit); checkout count toward 1000 not in parser
+# Zack tracks checkouts toward 1000 himself (2026-11-27); the card ranks the next best max talent #1-55 each pull. GAP: no Toolbox page mapped, no planner
 ```
 <!-- GOAL:END -->
 

@@ -1,11 +1,11 @@
-# System index · 105 systems · save 20261127T2212
+# System index · 105 systems · save 20261128T0256
 
 | system | Toolbox | AutoReview | tagged/chunks | owners |
 |---|---|---|---|---|
 | achievements | task-board/achievements | Achievements | 274/250 | Autistopher |
 | advice_fish | world-7/advice-fish | Advice Fish | 68/2 | Autisticles |
 | alchemy_bubbles | world-2/bubbles | Bubbles | 1037/638 | Autistocat |
-| alchemy_cauldrons | world-2/cauldrons | none (AutoReview does not rate it) | 204/142 | unassigned in jobs.yaml |
+| alchemy_cauldrons | world-2/cauldrons | none (AutoReview does not rate it) | 204/142 | Autistocat |
 | alchemy_p2w | world-2/cauldrons | Pay2Win | 204/142 | Autistocat |
 | alchemy_vials | world-2/vials | Vials | 241/212 | Autistocat |
 | arcade | world-2/arcade-shop | Arcade | 221/112 | Autisticles |
@@ -94,7 +94,7 @@
 | stamps | world-1/stamps | Stamps | 490/519 | Autistopher |
 | star_signs | misc/constellations | Star Signs | gap | Autistopher |
 | statues | GAP: no Toolbox page mapped | Statues | 365/411 | Autistabish, Autistastic, Autisticles, Autistomatic |
-| storage | misc/storage | Storage | 148/549 | unassigned in jobs.yaml |
+| storage | misc/storage | Storage | 148/549 | Autistronaut |
 | summoning | world-6/summoning | Summoning | 416/233 | Autistocat |
 | sushi_station | world-7/sushi-station | Sushi Station | 88/49 | Autisticles |
 | tabbed_advice_groups | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
@@ -105,10 +105,10 @@
 | vault | misc/upgrade-vault | Upgrade Vault | 107/73 | Autistopher |
 | version | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | world_progress | GAP: no Toolbox page mapped | Pinchy high, Pinchy low, Pinchy all | 47/108 | unassigned in jobs.yaml |
-| worship | world-3/worship | none (AutoReview does not rate it) | 767/384 | unassigned in jobs.yaml |
+| worship | world-3/worship | none (AutoReview does not rate it) | 767/384 | Autistabish |
 | zenith_market | world-7/zenith-market | Zenith Market | 39/26 | Autisticles |
 
 ## Gaps
 - no_toolbox: autoloot, basketball, class_kill_talents, cog_board, colo_scores, companions, coral_kid, crystal_spawn_chance, dancing_coral, darts, data_source, drop_rate, family_bonuses, friend_bonuses, guild_bonuses, highest_dmg, inventory, item_filter, library, library_group_characters, manual_tome_score, max_subgroups, npc_tokens, obols, post_office, reset_counters, shrines, statues, tabbed_advice_groups, version, world_progress
-- no_owner: basketball, darts, drop_rate, forge_upgrades, post_office, prayers, storage, world_progress
+- no_owner: basketball, darts, drop_rate, forge_upgrades, post_office, prayers, world_progress
 - thin_sources: the_button

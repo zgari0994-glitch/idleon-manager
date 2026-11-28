@@ -5,7 +5,7 @@ description: Alchemy Cauldrons: state, how it works, links, plan, today
 # Alchemy Cauldrons
 
 <!-- AUTO:START (tools/build_brain.py rewrites this block) -->
-- Owners: unassigned in jobs.yaml
+- Owners: Autistocat
 - Toolbox: world-2/cauldrons (guide L79)
 - AutoReview: none (AutoReview does not rate it)
 - Planner: model/alchemy.py
