@@ -26,7 +26,7 @@ ladder:
   - {tier: 1, target: "5 Skulls run on the week's first kill", source: "Weekly Boss Rotations sheet (fan)", date: "2026-11-28"}
   - {tier: 2, target: "Misc + Trophy run daily for the rest of the week", source: "Weekly Boss Rotations sheet (fan)", date: "2026-11-28"}
 objective: {rung: 1, now: "Unit T-31 (2026-11-26 to 2026-12-03)", target: "5 skulls + daily trophy", eta_days: null}
-check: {cadence: daily, who: "Autiszemo", look_at: "brain/weekly_boss.yaml via tools/weekly_boss.py --today"}   # runner = Zemo until Zack names another
+check: {cadence: daily, who: "Autistastic", look_at: "brain/weekly_boss.yaml via tools/weekly_boss.py --today"}   # runner = whoever does world bosses (standing rule 2026-11-21)
 buffs: []
 triggers:
   - {when: "Thursday 00:00 GMT reset", then: "new boss; stored next week becomes current, refresh the sheet so the following week is stored too"}
