@@ -29,12 +29,13 @@ objective: {rung: 2, now: "512 / 570 bottles, +9/day", target: "570", eta_days: 
 check: {cadence: weekly, who: "Autistastic", look_at: "bottles, trash, Shimmer points"}
 buffs: []
 triggers:
-  - {when: "bottles >= 570", then: "unlock Fractal (if Zack confirms)"}
+  - {when: "bottles >= 570", then: "unlock Fractal (my read, Zack 2026-11-28: he saves candy, so Griffy's candy reason to skip does not apply)"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
   - {do: "Collect trash; buy any missing island stamp", stat: "stamps", gain_pct: null, unblocks: [], source: "Griffy 2026-09-21 KHuU392EW-4 00:58:30", active_min: 3, wait_hr: null, cost: null, urgent: false}
   - {do: "Spend weekly Shimmer points on skill efficiency", stat: "skill eff", gain_pct: null, unblocks: [], source: "Griffy 2026-04-23 kD7KZ5zX6Ss 00:15:16", active_min: 3, wait_hr: null, cost: null, urgent: false}
-# GAP: Griffy 2026-04-23 says skip Fractal + Crystal for candy-buying accounts; Crystal already unlocked. Fractal yes/no = Zack's call. Trash balance not in parser.
+# Trash shop costs: Golden Sixes Stamp 80, Bribe set 135, Garbage Gain 202, Stat Wallstreet 300, Filthy Damage book 450, Trash Tuna Nametag 1500
+# GAP: trash balance not in parser ('acquired' field meaning unclear)
 ```
 <!-- GOAL:END -->
 

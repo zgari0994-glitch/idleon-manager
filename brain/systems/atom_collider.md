@@ -25,7 +25,7 @@ ladder:
   - {tier: 1, target: "Boron 40 -> 50 (alchemy upgrading)", source: "Griffy", date: "2026-04-23"}
   - {tier: 2, target: "Aluminium Stamp Supercharger 0 -> 50 (printer output feeds it)", source: "Griffy", date: "2026-01-29"}
   - {tier: 3, target: "AutoReview targets: Neon 32->50, Carbon 30->50, Fluoride 30->50, Oxygen 28->50, Magnesium 10->50", source: "AutoReview", date: "2026-11-28"}
-objective: {rung: 1, now: "Boron 40/50, particles 61.9M unspent", target: "Boron 50", eta_days: null}
+objective: {rung: 1, now: "Boron 40/50 (next 410M), particles 61.9M", target: "Boron 50", eta_days: null}
 check: {cadence: daily, who: "Autistastic", look_at: "particles vs cheapest atom; Boron cost"}
 buffs:
   - {source: "Atom Collider building (Construction 130 -> 200)", world: 3, owned: true, now: 130, next: 200, owner: "Autistastic"}
@@ -33,8 +33,8 @@ triggers:
   - {when: "particles > cheapest open atom", then: "spend"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Spend the 61.9M particles: Boron if affordable, then Aluminium (93.6K), Silicon (117K), Phosphorus (187K), Sulfur (702K)", stat: "particles", gain_pct: null, unblocks: [], source: "Griffy 2026-04-23 kD7KZ5zX6Ss 00:19:52", active_min: 5, wait_hr: null, cost: "61.9M particles", urgent: true}
-# GAP: lookup hides the 3 priciest open rows (Helium, Neon, Boron); Boron next cost not shown. 61.9M unspent looks wrong, verify in game.
+  - {do: "Boron is 410M, out of reach. Spend 51.5M of the 61.9M now: one level each of Aluminium, Lithium, Nitrogen, Hydrogen, Beryllium, Carbon, Oxygen, Sodium, Magnesium (all AutoReview targets), then save for Boron", stat: "particles", gain_pct: null, unblocks: [], source: "Griffy 2026-04-23 kD7KZ5zX6Ss 00:19:52", active_min: 5, wait_hr: null, cost: "61.9M particles", urgent: true}
+# Filled 2026-11-28: Boron 410M, Helium 468M, Neon 44.8M. 61.9M is the parser value; confirm in game before spending
 ```
 <!-- GOAL:END -->
 

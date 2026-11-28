@@ -18,23 +18,24 @@ description: Sushi Station: state, how it works, links, plan, today
 <!-- DRAFT Phase A batch 6 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-role: independent
-goal: "Never sit at fuel cap; bucks into the cheapest upgrades; push Perfectos (0 so far)"
-coverage: data   # creator claims hidden by lookup crash, all below is my read
+role: independent   # feeds Spelunking (triple spelunking POW bonus) + Bubba
+goal: "Stop wasting capped fuel, then push tiers for the Bubba meat and Spelunking POW bonuses (Griffy 2026-04-01)"
+coverage: sourced
 ladder:
-  - {tier: 1, target: "Fuel below cap (now at cap 545.6K, 2.58M over-cap)", source: "data", date: "2026-11-28"}
-  - {tier: 2, target: "Spend 4.22T bucks on cheapest upgrades (cheapest 24.3B)", source: "data", date: "2026-11-28"}
-  - {tier: 3, target: "First Perfecto (0/20 unique, 60% odds)", source: "data", date: "2026-11-28"}
-objective: {rung: 1, now: "fuel 545.6K/545.6K, bucks 4.22T, +393B/hr", target: "fuel under cap", eta_days: null}
+  - {tier: 1, target: "Fuel off cap: Fuel Capacity III 0 -> 1 (319M), then Fuel Capacity II/I, Fastburn I/II", source: "data + AutoReview", date: "2026-11-28"}
+  - {tier: 2, target: "Bonus tiers: triple Bubba meat slices (Griffy's top pick), triple spelunking POW", source: "Griffy", date: "2026-04-01"}
+  - {tier: 3, target: "Griffy high-tier strategy (tier 54, Perfectos) needs research level 52 (Heat of the East Wind)", source: "Griffy", date: "2026-04-01"}
+objective: {rung: 1, now: "fuel 546K/546K cap, bucks 4.22T, +393B/hr, 0 Perfectos", target: "Fuel Capacity III 1", eta_days: 0}
 check: {cadence: daily, who: "Autisticles", look_at: "fuel vs cap, bucks vs cheapest upgrade"}
 buffs:
-  - {source: "Phosphorus atom (Sushi Bucks Generator) 0/50", world: 3, owned: true, now: 0, next: 1, owner: "Autistastic"}
+  - {source: "Phosphorus atom (Sushi Bucks Generator) 0/50, 187K particles", world: 3, owned: true, now: 0, next: 1, owner: "Autistastic"}
 triggers:
-  - {when: "fuel at cap", then: "spend fuel (next cost 1.77M)"}
+  - {when: "fuel at cap", then: "buy fuel capacity/fastburn"}
+  - {when: "research level 52", then: "start Griffy's high-tier sushi strategy"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Spend fuel + bucks: fuel is capped, 4.22T bucks idle", stat: "bucks", gain_pct: null, unblocks: [], source: "data (my read)", active_min: 5, wait_hr: null, cost: null, urgent: true}
-# GAP: lookup.py crashes on sushi_station (render_levels int >= str, same bug as gaming); 88 creator rows unseen; fireplace/slot setup not reviewed
+  - {do: "Buy Fuel Capacity III (319M), Sushi Tier Vision (1.07B), Shake N' Bake (1.31B), then Fuel Capacity II/I + Fastburn I/II: 4.22T covers all", stat: "fuel cap, bucks", gain_pct: null, unblocks: [], source: "AutoReview + data", active_min: 5, wait_hr: null, cost: "~300B", urgent: true}
+# Research is under level 50 (next unlock at 50), so the tier-54 strategy is 2+ levels away (Totle)
 ```
 <!-- GOAL:END -->
 

@@ -32,7 +32,8 @@ triggers: []
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
   - {do: "Buy Advice on Being Tired when affordable", stat: "spelunk stamina", gain_pct: null, unblocks: [spelunk], source: "Griffy 2026-08-29 IbKDBxBJRzQ 00:20:09 (my read on order)", active_min: 2, wait_hr: null, cost: "1.80e29", urgent: false}
-# GAP: Advice Fish currency + balance not in parser; no creator order
+# Zack 2026-11-28: no creator order, go with the Spelunk-first read. 73 total levels (data lives under Spelunking saveTotals)
+# GAP: Advice Fish currency + balance not exposed by the parser
 ```
 <!-- GOAL:END -->
 

@@ -31,9 +31,10 @@ triggers:
   - {when: "Grimoire not a top-10 need", then: "Death Bringers move to Spelunking (CLAUDE.md masterclass rule)"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Buy 107 cheapest levels (Ribbon Shelf 748, Wraith Crits 1.5M, Wraith Defence III 9.5M...) to hit 3,150", stat: "total upgrades", gain_pct: null, unblocks: [], source: "AutoReview + Griffy 2026-10-16 yxgmoZQ59mY 00:46:35", active_min: 10, wait_hr: null, cost: null, urgent: true}
+  - {do: "Buy every affordable level now (about 11 first levels: 6 on bone type 0, 3 on type 1, 2 on type 2), then farm bones toward 3,150 (107 levels)", stat: "total upgrades", gain_pct: null, unblocks: [], source: "AutoReview + Griffy 2026-10-16 yxgmoZQ59mY 00:46:35", active_min: 10, wait_hr: null, cost: null, urgent: true}
   - {do: "Charred Bones at peak gravestone count, just before expiry", stat: "bones", gain_pct: null, unblocks: [], source: "Griffy 2026-10-16 yxgmoZQ59mY 00:52:00", active_min: 5, wait_hr: null, cost: null, urgent: false}
-# GAP: bone type per upgrade not shown (can't confirm 107 levels affordable); locked unlock conditions not in parser
+# Filled 2026-11-28: bones 309M/290M/291M/1.58B by type 0-3; type 3 has no open upgrade. 107 levels is not affordable today, it's a bone grind
+# GAP: per-level cost growth + locked unlock conditions not in parser
 ```
 <!-- GOAL:END -->
 

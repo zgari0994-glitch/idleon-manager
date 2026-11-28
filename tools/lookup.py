@@ -277,7 +277,10 @@ def render_levels(key, lst, spec):
     lst = [d for d in lst if not PLACEHOLDER(d)]
     for d in lst:
         mx = d.get('maxLevel') if d.get('maxLevel') is not None else (d.get(mxk) if mxk else None)
-        if isinstance(mx, (int, float)) and mx >= 99999:
+        if isinstance(mx, str):  # parser uses 'Infinity' for uncapped rows (sushi, gaming)
+            try: mx = float(mx)
+            except ValueError: mx = None
+        if isinstance(mx, (int, float)) and (mx >= 99999 or mx != mx):
             mx = None
         lv = d.get('level') or 0
         is_locked = d.get('unlocked') is False
