@@ -14,25 +14,26 @@ description: Library: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 5 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "Book talents before taking new printer samples."
+role: feeder
+goal: "Max book level up (328 now) and every priority talent at max; work single-digit ranks first (Zack 2026-11-21)"
 coverage: sourced
 ladder:
-  - {tier: 1, target: "Book talents before taking new printer samples.", source: "Griffy", date: "2026-10-04"}   # N5yJ4-tZLbY 00:01:00
-  - {tier: 2, target: "Avoid spending books indiscriminately until talent priorities are clear.", source: "Griffy", date: "2026-10-04"}   # N5yJ4-tZLbY 00:58:18
-  - {tier: 3, target: "Summoning increases maximum talent levels needed for masterclasses and specific Rift challenges.", source: "Griffy", date: "2026-09-21"}   # KHuU392EW-4 00:21:14
-objective: {rung: 1, now: "295", target: "328", eta_days: null}
-check: {cadence: daily, who: "Autistopher", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+  - {tier: 1, target: "Book the card's #1-9 ranked talents to 328 (e.g. Archlord Of The Pirates 223, Dank Ranks 213)", source: "AutoReview", date: "2026-11-28"}
+  - {tier: 2, target: "1000 checkouts for Checkout Takeout: +5 max book Lv", source: "Griffy", date: "2026-07-19"}
+  - {tier: 3, target: "Talent Library building up for checkout speed (1362 now)", source: "Griffy", date: "2026-10-28"}
+objective: {rung: 1, now: "58 books, max Lv 328, min 153", target: null, eta_days: null}
+check: {cadence: daily, who: "Autistopher", look_at: "book count, card's rank list"}
+buffs:
+  - {source: "checkout time 1362: Talent Library construction (Tastic)", world: 3, owned: true, now: null, next: null, owner: "Autistastic"}
+triggers:
+  - {when: "a ranked talent hits 328", then: "it drops off; next rank moves up"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Book talents before taking new printer samples.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: baseFactor=44.8, bookCount=58, next=175; bookLvRange:
+  - {do: "Spend books on the top ranked talent (always show #1-55 rank)", stat: "talent Lv", gain_pct: null, unblocks: [], source: "AutoReview + Griffy 2026-10-04", active_min: 3, wait_hr: null, cost: null, urgent: false}
+# GAP: no Toolbox page mapped, no planner (audit); checkout count toward 1000 not in parser
 ```
 <!-- GOAL:END -->
 

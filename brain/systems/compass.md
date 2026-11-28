@@ -14,25 +14,26 @@ description: Compass: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 5 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "He defers the 62,000-cost upgrade and increases damage and accuracy to reach Walking Sticks."
+role: blocker   # masterclass duty, #3 account need
+goal: "Dust gains first, then damage + accuracy to reach Walking Sticks (Griffy 2026-11-07)"
 coverage: sourced
 ladder:
-  - {tier: 1, target: "He defers the 62,000-cost upgrade and increases damage and accuracy to reach Walking Sticks.", source: "Griffy", date: "2026-11-07"}   # __0_dvPFI_E 00:33:08
-  - {tier: 2, target: "He wants substantial investment in dust gains before progressing further.", source: "Griffy", date: "2026-11-07"}   # __0_dvPFI_E 00:37:01
-  - {tier: 3, target: "Use moons to obtain another Exalted Stamp purchase for the Crystalline Stamp.", source: "Griffy", date: "2026-11-07"}   # __0_dvPFI_E 00:31:50
-objective: {rung: 1, now: "15", target: "20", eta_days: null}
-check: {cadence: daily, who: "Autistacular", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+  - {tier: 1, target: "Dust-gain upgrades before progressing (Elemental path 15/24)", source: "Griffy", date: "2026-11-07"}
+  - {tier: 2, target: "Damage + accuracy to reach Walking Sticks; defer the 62K-cost upgrade", source: "Griffy", date: "2026-11-07"}
+  - {tier: 3, target: "Moons -> another Exalted Stamp buy for the Crystalline Stamp", source: "Griffy", date: "2026-11-07"}
+objective: {rung: 1, now: "Elemental 15/24, Medallion Drops 67, Ring Drops II 70", target: "Elemental 20", eta_days: null}
+check: {cadence: daily, who: "Autistacular", look_at: "dust balances vs cheapest dust upgrade, medallions found"}
+buffs:
+  - {source: "Medallion Drops 67, Medallion Magnate 3, The Luck Factor 4/25", world: 7, owned: true, now: null, next: null, owner: "Autistacular"}
+triggers:
+  - {when: "Compass needed", then: "Tacular AFKs for Aethermoons (Zack 2026-11-27)"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "He defers the 62,000-cost upgrade and increases damage and accuracy to reach Walking Sticks.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: Default path: 4 total, 4 maxed, 0 open, 0 locked; Elemental path: 25 total, 5 maxed, 11 open, 9 locked
+  - {do: "Short daytime Tempest session: spend dust on dust-gain first, then Tempest damage/accuracy", stat: "dust", gain_pct: null, unblocks: [], source: "Griffy 2026-11-07 __0_dvPFI_E 37:01", active_min: 15, wait_hr: null, cost: null, urgent: false}
+# GAP: dust type per upgrade + locked unlock conditions not in parser
 ```
 <!-- GOAL:END -->
 

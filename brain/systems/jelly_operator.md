@@ -15,25 +15,26 @@ description: Jelly Operator: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 5 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "Jelly operator boost is really strong."
-coverage: sourced
+role: feeder
+goal: "Unlock all 8 cells (3/8 now); each lock is a Research level gate (Research Lv 41)"
+coverage: partial
 ladder:
-  - {tier: 1, target: "Jelly operator boost is really strong.", source: "Pulse", date: "2026-11-12"}   # 6sAjlzBW2sk 00:14:52
-  - {tier: 2, target: "Sepsis buff went from 2x to 4x so it is highly recommended for normal farming runs.", source: "Pulse", date: "2026-10-31"}   # _wJJ9siUFLk 00:18:56
-  - {tier: 3, target: "G3 extra attempts per day (up to plus four) is S tier", source: "Pulse", date: "2026-09-22"}   # s5M5dcdwXc4 00:00:31
-objective: {rung: 1, now: "0", target: "1", eta_days: null}
-check: {cadence: daily, who: "Autisticles", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+  - {tier: 1, target: "Buy Organelle Cell Cultivation 0/1 (314K, affordable: 11.3M bloodcells)", source: "Toolbox", date: "2026-11-28"}
+  - {tier: 2, target: "Research 41 -> 42 (Organelle cell), 45-53 (Cell Mutilation, Immuno Weakening, Critical Status, Feverizer, Bloodletting II)", source: "Toolbox", date: "2026-11-28"}
+  - {tier: 3, target: "Research 55/64/75/82 for Immunoid, Virus, Mitochondria, Gigacyst", source: "Toolbox", date: "2026-11-28"}
+objective: {rung: 1, now: "3/8 cells", target: "4/8", eta_days: null}
+check: {cadence: daily, who: "Autisticles", look_at: "3 daily operations, bloodcells vs cheapest OK upgrade"}
+buffs:
+  - {source: "Bloodcell multi 41.8x: upgrades 13.7, event shop 2, DPS record 1.39", world: 7, owned: true, now: "41.8x", next: null, owner: "Autisticles"}
+triggers:
+  - {when: "Research level rises (Totle)", then: "re-check which jelly locks opened"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Jelly operator boost is really strong.", stat: "", gain_pct: null, unblocks: [], source: "Pulse", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: bloodcellDaily=4.58M, bloodcellMulti=41.8, bloodcells=11.3M, boardDps=7.57K, cellDamageMulti=9.18, cellExpMulti=4.2, cellLevelTotal=42, dailyOperations=3, dpsMulti=1.39, dpsRecord=10.4K, maxObstructio
+  - {do: "Buy Organelle Cell Cultivation now, then cheapest OK upgrades (Cell Biology 840K, Bloodletting I 1.07M, Daily Transfusion 7/20 1.53M)", stat: "bloodcells", gain_pct: null, unblocks: [], source: "Toolbox", active_min: 2, wait_hr: null, cost: "314K", urgent: true}
+# GAP 18 (Pink Jellyfish unlock) + 21 (unlock plan) still open; no creator upgrade order, cheapest-first is my read
 ```
 <!-- GOAL:END -->
 

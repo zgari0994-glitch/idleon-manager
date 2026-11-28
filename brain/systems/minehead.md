@@ -14,25 +14,25 @@ description: Minehead: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 5 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
 role: feeder
-goal: "Progress Minehead until unlocking another magnifying glass for simultaneous observation research."
-coverage: sourced
+goal: "Beat more Minehead opponents (9/32, next Threadhead) for its bonuses, 3 tries daily"
+coverage: partial
 ladder:
-  - {tier: 1, target: "Progress Minehead until unlocking another magnifying glass for simultaneous observation research.", source: "Griffy", date: "2026-02-21"}   # jvcxwsBebQI 00:05:36
-  - {tier: 2, target: "Reveal one tile and attack to reset the board; unlimited attacks allow a slower low-risk approach.", source: "Griffy", date: "2026-02-21"}   # jvcxwsBebQI 00:04:05
-  - {tier: 3, target: "Find the research-unlocked minigame on the Minefield map.", source: "Griffy", date: "2026-02-21"}   # jvcxwsBebQI 00:04:35
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: daily, who: "UNASSIGNED", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+  - {tier: 1, target: "3 daily tries used every day", source: "Toolbox", date: "2026-11-28"}
+  - {tier: 2, target: "Final-life damage all in (A tier, Pulse 2026-09-02) to beat Threadhead", source: "Pulse", date: "2026-09-02"}
+  - {tier: 3, target: "Extra Lives 1/7, Grid Expansion 4/16, Golden Tiles 1/16", source: "Toolbox", date: "2026-11-28"}
+objective: {rung: 2, now: "9 beaten, best hit 2.85K, 1.18K currency at 103/hr", target: "Threadhead", eta_days: null}
+check: {cadence: daily, who: "UNASSIGNED", look_at: "tries left, currency vs cheapest damage upgrade"}
+buffs: []
+triggers:
+  - {when: "an opponent falls", then: "note its bonus; re-check next opponent's HP"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Progress Minehead until unlocking another magnifying glass for simultaneous observation research.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: baseDMG=276, bestHit=2.85K, bluecrownOdds=0, currencyGain=103, dailyTriesLeft=0, dailyTriesMax=3, glimboTotalTrades=167, maxHP_You=4, mineCurrency=1.18K, opponentsBeat=9; baseDamageBreakdown: Base dam
+  - {do: "Use 3 tries; spend currency on Base Damage I/Mega Damage I (cheapest damage)", stat: "minehead dmg", gain_pct: null, unblocks: [], source: "Pulse 2026-09-02 oRTdKQdYJv0 26:01", active_min: 5, wait_hr: null, cost: "137-172", urgent: false}
+# GAP: owner unassigned; no Griffy guidance for Minehead; opponent HP not in parser; Pulse says rest of J6 points not worth it now
 ```
 <!-- GOAL:END -->
 

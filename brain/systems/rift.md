@@ -14,25 +14,24 @@ description: Rift: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 5 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
 role: independent
-goal: "He recommends beginning Rift progression at this stage and identifies a three-tear collection task within sixt"
+goal: "Rift is complete (65, 'cannot progress further'); only Topher's Super CHOW on the Rift is left"
 coverage: sourced
 ladder:
-  - {tier: 1, target: "He recommends beginning Rift progression at this stage and identifies a three-tear collection task within sixty minutes.", source: "Griffy", date: "2026-10-16"}   # yxgmoZQ59mY 00:23:59
-  - {tier: 2, target: "The Rift task requires defeating the healing mega-monster on four characters.", source: "Griffy", date: "2026-10-16"}   # yxgmoZQ59mY 00:26:01
-  - {tier: 3, target: "He leaves characters AFKing for a four-hundred-thousand-kill requirement; the preceding two-hundred requirement is unclear.", source: "Griffy", date: "2026-10-16"}   # yxgmoZQ59mY 00:43:44
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: weekly, who: "Autistopher", look_at: "python3 tools/lookup.py rift"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+  - {tier: 1, target: "Rift 65 cleared", source: "Toolbox", date: "2026-11-28"}   # DONE
+  - {tier: 2, target: "Super CHOW on the Rift monster (Autistopher)", source: "AutoReview", date: "2026-11-28"}
+objective: {rung: 2, now: "no Super CHOW", target: "Super CHOW done", eta_days: null}
+check: {cadence: weekly, who: "Autistopher", look_at: "Rift Super CHOW kill count"}
+buffs: []
+triggers:
+  - {when: "a game update adds rifts", then: "re-open the ladder"}
+  - {when: "Super CHOW done", then: "drop to a one-line check"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "He recommends beginning Rift progression at this stage and identifies a three-tear collection task within sixty minutes.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: chars=, currentProgress=0, currentRift=65; list: 70 items
+  - {do: "Fit the Rift Super CHOW into Topher's Super CHOW rotation", stat: "CHOW", gain_pct: null, unblocks: [], source: "AutoReview", active_min: null, wait_hr: null, cost: null, urgent: false}
 ```
 <!-- GOAL:END -->
 

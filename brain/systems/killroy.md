@@ -15,25 +15,26 @@ description: Killroy: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 5 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "Build Kilroy over time rather than buying expensive extra progress."
-coverage: sourced
+role: feeder
+goal: "Killroy skull ratio 21.7% -> 66.7% and permanent upgrades bought in the sourced order"
+coverage: partial
 ladder:
-  - {tier: 1, target: "Build Kilroy over time rather than buying expensive extra progress.", source: "Griffy", date: "2026-07-29"}   # _maMoJLg6YE 01:03:23
-  - {tier: 2, target: "He realizes he should be buying masterclass drops instead of more candy because he already has abundant candy.", source: "Griffy", date: "2026-07-29"}   # _maMoJLg6YE 01:50:18
-  - {tier: 3, target: "Run Killroy every week and purchase its doubling and reset options if already spending heavily.", source: "Griffy", date: "2026-04-23"}   # kD7KZ5zX6Ss 00:15:46
-objective: {rung: 1, now: "21.74%", target: "66.67%", eta_days: null}
-check: {cadence: daily, who: "Autistacular, Autistastic, Autistocat", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+  - {tier: 1, target: "Skulls upgrade 5 -> 16 (AutoReview target ratio)", source: "AutoReview", date: "2026-11-28"}
+  - {tier: 2, target: "Dungeon Credits and Pearls: exactly 1 level each once available", source: "AutoReview", date: "2026-11-28"}
+  - {tier: 3, target: "Permanent: Artifact Find 5 -> more (sailing), Masterclass Drops 10 -> more, then Jade/W7 EXP/Crop Evo", source: "AutoReview", date: "2026-11-28"}
+objective: {rung: 1, now: 5, target: 16, eta_days: null}
+check: {cadence: weekly, who: "Autistocat (best class per Griffy), Tacular + Tastic on their weekly fights", look_at: "skulls balance, permanent upgrade next costs"}
+buffs:
+  - {source: "Arcane Cultist best for Killroy: poisons + ghosts + screen coverage (Griffy 2026-08-03)", world: 2, owned: true, now: null, next: null, owner: "Autistocat"}
+triggers:
+  - {when: "3rd weekly fight unlocked (1%/lvl perm)", then: "add a 3rd fight to the weekly"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Build Kilroy over time rather than buying expensive extra progress.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: rooms=2, skulls=1, totalDamageMulti=1.47, totalKills=15.4K; list: 104 items
+  - {do: "Weekly Killroy fights on Cat first; spend skulls on Skulls upgrade toward 16", stat: "skull ratio", gain_pct: null, unblocks: ["sailing"], source: "AutoReview + Griffy", active_min: 5, wait_hr: null, cost: null, urgent: false}
+# GAP: no creator spend order for the permanent upgrades (AutoReview "Respawn: idk exacts yet"); 3 owners, Cat is my read for the lead
 ```
 <!-- GOAL:END -->
 
