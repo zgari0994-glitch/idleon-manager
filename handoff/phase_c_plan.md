@@ -36,6 +36,6 @@ E. Cog board review vs creator guidance [~5, took ~40] DONE 2026-11-28 (docs/pla
    - Current board (126 spare cogs, EXP mult 1x) vs newest Griffy > Pulse = Nocturne layout guidance; report sourced vs my read.
 
 Suggested threads: 1 = A + B (~14). 2 = C (~8). 3 = D + E (~11).
-Owner tie-breaks DONE 2026-11-28 (Grimoire Zemo + Topher bench, Killroy Zemo/Tacular/Cat locked, Printer everyone, mismatches matched, guild ignored). Was waiting on Zack: Grimoire (Zemo + Topher), Killroy (class of the week), Printer (Ticles, Matic, Naut, Zemo); mismatches cog_board, death_note, glimbo, grimoire, inventory, statues.
+Owner tie-breaks DONE 2026-11-28 (Grimoire Zemo + Topher bench, Killroy Tastic/Tacular/Cat locked, Printer everyone, mismatches matched, guild ignored). Was waiting on Zack: Grimoire (Zemo + Topher), Killroy (class of the week), Printer (Ticles, Matic, Naut, Zemo); mismatches cog_board, death_note, glimbo, grimoire, inventory, statues.
 
 Next: handoff/phase_c_finish_prompt.md (half-baked D items, Royal Armory, gap list, scoring calibration), then tests.
