@@ -55,6 +55,7 @@ characters:
       - {tier: job, world: W5, map: "Cavern 15 Temple", mob: "Ancient Golem", why: "Dragon Statue + golem card", finish: {kind: statue, name: Dragon, to: 150}, src: "AutoReview statue table"}
     jobs:
       - {job: Construction, sections: [Buildings, Atom Collider, Refinery], basis: class, note: "Collider ON at 1050M (Zack: OFF gains nothing)"}
+      - {job: "Cog board (construction branch)", sections: [], systems: [cog_board], basis: zack, note: "Zack 2026-11-28: Tastic owns the cog board (best construction, 1010)"}
       - {job: Gaming, sections: [Gaming], basis: class, note: "AutoReview covers snail only: fertilizer/mutations/imports/superbits/palette = Lane B gap"}
       - {job: "Royal Guardian #1 (top unlock)", sections: [Royal Armory], basis: griffy}
       - {job: "Islands", sections: [Islands], basis: zack, note: "Zack 11/17: Ticles can't reach the islands; Tastic does them"}

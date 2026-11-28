@@ -43,8 +43,8 @@ Each needs Griffy > Pulse = Nocturne guidance; until then rungs are AutoReview /
 ## Batch 10 (2026-11-28)
 - class_kill_talents: system undefined; no Toolbox page or data path; owner unassigned.
 - cog_board: no creator layout rule newer than 2024; no cog placement optimizer.
-- colo_scores: ticket count not in parser; golden food per colo not in creator rows.
-- companions: acquired flag unreliable (1 of 179); fix parser before ranking.
+- colo_scores: ticket count not in parser (Zack: big stockpile); golden food per colo not in creator rows.
+- companions: owned pets not in the pull at all (raw has no companion key, tournament has no team); Zack: every base pet + many specials.
 - crystal_spawn_chance: per-source breakdown not in parser; why 3 chars sit at 0.674%.
 - darts: score 199 + 279 points ARE in parser (minigameHighscores.darts); trophy ownership + Darter Trophy requirement not.
 - event_points_shop: stars earned + points balance not in parser; no creator buy order beyond Glimmerwick Candles.

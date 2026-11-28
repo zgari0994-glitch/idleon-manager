@@ -19,20 +19,21 @@ description: Companions: state, how it works, links, plan, today
 status: DRAFT
 role: independent
 goal: "Own the top creator pets: Doot (S), Rift Slug (A), Ancient Golem (A)"
-coverage: partial   # tiers sourced, owned data bad
+coverage: partial   # tiers sourced; ownership = Zack (save has no pet data)
 ladder:
-  - {tier: 1, target: "Fix data: parser shows only 1 acquired (Coralcave Guardian via token #141), almost certainly a bad read", source: "my_read", date: "2026-11-28"}
+  - {tier: 1, target: "Every base pet owned (Zack 2026-11-28; Toolbox raw copy carries no companion data, tournament block has no team)", source: "my_read", date: "2026-11-28"}   # done per Zack
   - {tier: 2, target: "Doot owned (S, early-to-late power, falls off endgame)", source: "Griffy", date: "2026-07-19"}   # 8C9vFwK6bUg 00:01:01
   - {tier: 3, target: "Rift Slug + Ancient Golem (A)", source: "Griffy", date: "2026-07-19"}
-objective: {rung: 1, now: 1, target: null, eta_days: null}
+objective: {rung: 4, now: null, target: null, eta_days: null}   # special pets; rungs 1-3 done per Zack
+# rung 4 (my read): special/event pets still missing, list from Zack until data exists
 check: {cadence: weekly, who: "unassigned", look_at: "companions.list[].acquired"}
 buffs: []
 triggers:
   - {when: "new companion token", then: "spend on highest-tier unowned pet"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Count owned pets in game, compare with parser (1)", stat: "data", gain_pct: null, unblocks: [], source: "my_read", active_min: 2, wait_hr: null, cost: null, urgent: true}
-# gap: acquired flag unreliable (storedPets 0, 179 open); fix parser before any pet ranking.
+  - {do: "Find a data source for owned pets (Toolbox companions page / separate companion doc)", stat: "data", gain_pct: null, unblocks: [], source: "my_read", active_min: 5, wait_hr: null, cost: null, urgent: false}
+# gap: owned pets not in the pull at all (raw.data has no companion key; tournament matches/leaderboard empty, Gold division day 283).
 ```
 <!-- GOAL:END -->
 

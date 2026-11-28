@@ -21,16 +21,16 @@ role: independent
 goal: "Run W5 + W6 Colosseums for golden food drops, stockpile tickets for expensive late entries"
 coverage: partial
 ladder:
-  - {tier: 1, target: "Stockpile tickets (W6 entry ~30 tickets)", source: "Griffy", date: "2026-11-07"}   # __0_dvPFI_E 00:58:55
+  - {tier: 1, target: "Stockpile tickets (W6 entry ~30 tickets)", source: "Griffy", date: "2026-11-07"}   # done: Zack has a big stockpile 2026-11-28   # __0_dvPFI_E 00:58:55
   - {tier: 2, target: "Farm W5 + W6 colos for golden foods", source: "Griffy", date: "2026-07-19"}   # aUdMKlRf_v4 00:25:30
-objective: {rung: 1, now: null, target: 30, eta_days: null}   # ticket count not in parser
+objective: {rung: 2, now: null, target: null, eta_days: null}   # spend tickets on W5/W6
 check: {cadence: weekly, who: "unassigned", look_at: "coloHighscores (W1 462K, W2 1.30M, W3 9.67M, W4 90.7M, W5 23.8M, W6 256M)"}
 buffs: []
 triggers:
   - {when: "tickets >= 30", then: "spend on W6 colo for golden food"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Check ticket count in game, then hold for W6 entries", stat: "golden food", gain_pct: null, unblocks: ["golden_food"], source: "Griffy", active_min: 2, wait_hr: null, cost: null, urgent: false}
+  - {do: "Spend tickets on W6 (and W5, lagging at 23.8M) for golden food", stat: "golden food", gain_pct: null, unblocks: ["golden_food"], source: "Griffy", active_min: 2, wait_hr: null, cost: null, urgent: false}
 # my read: W5 score (23.8M) is below W4 (90.7M), the one lagging; worth a run if a W5 golden food is still missing.
 # gap: ticket count not in parser; which golden foods drop where not in creator rows.
 ```
