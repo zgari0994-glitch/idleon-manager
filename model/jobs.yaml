@@ -22,7 +22,8 @@ priorities:   # Zack 2026-11-17, in order. Chains (goal trees) get built for the
 characters:
   Autiszemo:      # Death Bringer #1
     first: Farming   # Zack 2026-11-17: farming above cooking
-    afk: {text: "ZOW/CHOW targets W1-W6 (Death Note kills)", src: zack, park_rule: "with Autiszemo"}
+    afk:   # ranked candidates (model/afk.py). Laws + live finish lines are added every pull
+      - {tier: job, exclusive: true, where: "Death Note ZOW/CHOW maps", why: "his ZOWs and CHOWs only count on him", finish: {kind: deathnote, set: ZOW}, src: zack, date: 2026-11-17, park_rule: "with Autiszemo"}
     active: [crayon_crops]
     jobs:
       - {job: Farming, sections: [Farming, Beanstalk], basis: class, daily_fixed: ["Collect all crops, replant"]}
@@ -31,7 +32,9 @@ characters:
       - {job: Fish prints, sections: [{s: Sampling, itype: FISH}], basis: zack, note: "Zack 11/17: Zemo prints fish"}
       - {job: "ZOWs + CHOWs W1-W6", sections: [{s: Death Note, m: "Autiszemo|Eclipse Skull.*in W[1-6]\\b"}], basis: zack}
   Autistocat:     # Arcane Cultist
-    afk: {text: "Active-first class (master class progress is active-only without its AFK mechanic). Runs Cranium Cooking active; plain AFK spot = GAP", src: "Griffy N5yJ4-tZLbY 00:52 (2026-10-04)"}
+    afk:
+      - {tier: job, exclusive: true, where: "Arcanist Form push at his current map", why: "personal goal: Arcanist Form + Emperor. Drop crystals and kill the map's crystal-mob count before the timer to unlock the next map", finish: {kind: map_past, code: w5a1, label: "Naut Sake Perimeter (W5 map 1)"}, src: zack, date: 2026-11-27}
+      - {tier: class, where: "Active-first (Cranium Cooking active)", why: "master class progress is active-only without its AFK mechanic", src: "Griffy N5yJ4-tZLbY 00:52 (2026-10-04)", gap: "plain AFK spot not sourced"}
     active: [cranium]
     jobs:
       - {job: Alchemy, sections: [Bubbles, Vials, Sigils, Pay2Win], systems: [alchemy_cauldrons], basis: class, daily_fixed: ["Liquids: Equinox Liquidvestment 5 -> 11 first (approved 11/16)"], note: "Zack 2026-11-27: Cat owns cauldrons. Daily: bubbles, vials, liquids, sigils, P2W, cauldron boosts. Liquids: Equinox Liquidvestment 5 -> 11 first"}
@@ -41,7 +44,8 @@ characters:
       - {job: "Emperor showdowns", sections: [Emperor], basis: zack, note: "Zack 2026-11-25: Arcane Cultist owns Emperor (Griffy 2026-08 ypb7kpQov30 05:36 + Pulse 2026-10-31 6JgdYbiEKus 13:16: AC skulls bounce on the small platform next to the boss; Skull + Aura only; 2nd-page talents; boost foods). Pushes mostly in statue week (Pulse 2026-11-16)."}
       - {job: "Kilroy (weekly, mage line)", sections: [Killroy], basis: zack, weekly: killroy}
   Autisticles:    # Siege Breaker
-    afk: {text: "His best kills/hr map: Melting Every Day turns AFK kills into forge progress (bars). Feeds Copper Bar 1B shortage. Exact map = GAP", src: "Griffy ypb7kpQov30 00:01 (2026-08-03)"}
+    afk:
+      - {tier: class, where: "his best kills/hr map", why: "Melting Every Day turns AFK kills into bars; feeds Copper Bar 1B shortage", src: "Griffy ypb7kpQov30 00:01 (2026-08-03)", gap: "exact map not sourced, compare kills/hr in AFK info"}
     jobs:
       - {job: Sailing, sections: [Sailing], basis: class}
       - {job: Bug prints, sections: [{s: Sampling, itype: BUG, levers: true}], basis: griffy}
@@ -49,7 +53,8 @@ characters:
       - {job: "Luminous Menagerie (own intervention)", sections: [Luminous Menagerie], basis: zack, note: "Zack 2026-11-19: own job. Gates plate cap +10, Breeding Crucible, Shiny OverLVs, Night Marina artifact odds, Cooking T13 Blue Jellyfish"}
       - {job: "W7 minis", sections: [Sushi Station, Clam Work, Jelly Operator, The Button, Advice Fish, Zenith Market, Legend Talents, Arcade], basis: zack, minis_note: "Zack 2026-11-19: Minehead + Glimbo here too (W7 mini owner)", note: "Gate: Research level ~10 (Autistotle). Jelly/Button maps = W7 map push"}
   Autistastic:    # Divine Knight #1
-    afk: {text: "Cavern 15 Temple (Ancient Golems): Dragon Statue 4 -> 150 + golem card", src: "AutoReview statue table"}
+    afk:
+      - {tier: job, world: W5, map: "Cavern 15 Temple", mob: "Ancient Golem", why: "Dragon Statue + golem card", finish: {kind: statue, name: Dragon, to: 150}, src: "AutoReview statue table"}
     jobs:
       - {job: Construction, sections: [Buildings, Atom Collider, Refinery], basis: class, note: "Collider ON at 1050M (Zack: OFF gains nothing)"}
       - {job: Gaming, sections: [Gaming], basis: class, note: "AutoReview covers snail only: fertilizer/mutations/imports/superbits/palette = Lane B gap"}
@@ -60,7 +65,10 @@ characters:
       - {job: "Statue: Dragon (AFK golems)", sections: [{s: Statues, m: "Dragon"}], basis: autoreview}
       - {job: "Kilroy (weekly, warrior line)", sections: [Killroy], basis: zack, weekly: killroy}
   Autistabish:    # Elemental Sorcerer
-    afk: {text: "Penguins (Box Statue 25 -> 40), then Cryosnakes (Seesaw 25 -> 40). Candy or Active ES", src: "AutoReview statue table"}
+    afk:
+      - {tier: job, world: W3, map: "Penguins map", mob: "Penguin", why: "Box Statue (ES statue)", finish: {kind: statue, name: Box, to: 40}, src: "AutoReview statue table"}
+      - {tier: job, world: W3, map: "Cryosnakes map", mob: "Cryosnake", why: "Seesaw Statue (ES statue)", finish: {kind: statue, name: Seesaw, to: 40}, src: "AutoReview statue table"}
+      - {tier: class, where: "Candy or Active ES on the statue mob", why: "ES clears statue mobs fast", src: "AutoReview"}
     move: {text: "Move Well buckets onto the rock layer: Cobaltine 124,895 left gates #27, #30, #53", src: "Griffy gPQrOK53BDI + findings/hole_caverns_1-5.md"}
     jobs:
       - {job: "Worship: souls (town)", sections: [], systems: [worship], basis: zack, note: "Zack 2026-11-27: Bish drives Worship (system owner). Totem waves are Autistacular's. Prayers moved to every_character 2026-11-19"}
@@ -69,7 +77,8 @@ characters:
       - {job: Slab, sections: [Slab], basis: light, daily: ready_only, note: "Collection: items get picked up when you meet them, no daily action"}
       - {job: "Statues: ES (Box, Seesaw)", sections: [{s: Statues, m: "ES at"}], basis: autoreview}
   Autistacular:   # Wind Walker
-    afk: {text: "W7: push the cave until his tasks are planned", src: zack}
+    afk:
+      - {tier: read, where: "W7 Spelunking cave push", why: "until his tasks are planned", src: zack, date: 2026-11-18, gap: "no Wind Walker AFK spot sourced"}
     active: [compass_nomadic, breeding_ww]
     jobs:
       - {job: Sneaking, sections: [Sneaking], basis: class}
@@ -79,7 +88,8 @@ characters:
       - {job: "Worship totems (waves)", sections: [], basis: zack, note: "Beast Master runs the totems (Zack 2026-11-19). Menagerie 500-wave mission met (602)"}
       - {job: "Kilroy (weekly, archer line)", sections: [Killroy], basis: zack, weekly: killroy}
   Autistotle:     # Voidwalker
-    afk: {text: "Lab (Maestro Lab catch-up)", src: zack}
+    afk:
+      - {tier: job, where: "Maestro: AFK his worst-ranked skill (see finish)", why: "Maestro: #1 in every skill", finish: {kind: maestro}, src: zack, date: 2026-11-27}
     active: [greenstacks, observations]
     jobs:
       - {job: "Secret Class Path (Vman)", sections: [Secret Class Path], basis: zack, note: "Zack 2026-11-19: secret class = Vman"}
@@ -88,7 +98,7 @@ characters:
       - {job: Greenstacks, sections: [Greenstacks, Endangered Greenstacks], basis: light}
       - {job: "Gem / Event shops + votes", sections: [Gem Shop, Event Shop, Bonus Ballot, Meritocracy], basis: light}
   Autistomatic:   # Royal Guardian #2
-    afk: {text: "W7 Spelunking: furthest tunnel (RG perks help spelunking; Pulse: Pit of Pages works for RGs)", src: "zack + Pulse 6JgdYbiEKus 24:00"}
+    afk:
     active: [dk_crystals]
     jobs:
       - {job: "Construction #2", sections: [], basis: class, note: "Shares Tastic's Buildings list"}
@@ -98,7 +108,8 @@ characters:
       - {job: "Royal Guardian #2", sections: [], basis: griffy}
       - {job: Spelunking, sections: [Spelunking], basis: zack, note: "Zack 11/18: RG perks help spelunking (moved from Autistronaut)"}
   Autistronaut:   # Elemental Sorcerer
-    afk: {text: "AFK spot = GAP (was spelunking; moved to Autistomatic 11/18)", src: zack}
+    afk:
+      - {tier: job, world: W5, map: "Divinity altar", where: "W5 Divinity altar, Mindful style", why: "nobody else earns divinity points", finish: {kind: divpoints}, src: "Pulse 2026-11-09 (Mindful best style) + my read"}
     jobs:
       - {job: Merits, sections: [], systems: [merits], basis: light, weekly: true, note: "Zack 2026-11-27: lowest load takes merits. Left: W5 Tab 4 Talent Pts 19/20, W6 Tab 5 Talent Pts 8/20, W6 Emperor Recipes 4/9"}
       - {job: Cards, sections: [Cards], basis: griffy}
@@ -106,7 +117,8 @@ characters:
       - {job: "Lab #2", sections: [], basis: class}
     plan: "Elite Class Swap Token -> Bubonic Conjuror -> Arcane Cultist"
   Autistopher:    # Death Bringer #2
-    afk: {text: "His own Super CHOWs (100M)", src: griffy, park_rule: "Super CHOWs with Autistopher"}
+    afk:
+      - {tier: job, exclusive: true, where: "Death Note Super CHOW maps", why: "Super CHOWs and WOWs only count on him (cooking speed 1.1x each)", finish: {kind: deathnote, set: Super CHOW}, src: griffy, park_rule: "Super CHOWs with Autistopher"}
     active: [achievements]
     jobs:
       - {job: "Super CHOWs (cooking speed 1.1x each, count only on him)", sections: [{s: Death Note, rest: true}], basis: griffy, feeds: priority, note: "WOWs skipped (Griffy: weak scaling). findings/death_note_two_dbs.md"}
@@ -120,7 +132,8 @@ characters:
       - {job: "Tome (account-wide)", sections: [], basis: zack, note: "Zack 2026-11-19 approved"}
       - {job: "Maintenance (maxed tiers): Bribes, Rift, Star Signs", sections: [Bribes, Rift, Star Signs], basis: zack, note: "Zack: a Rift bonus may make all star signs active for all players (verify on Toolbox world-4/rift)"}
   Autistachio:    # Beginner
-    afk: {text: "Divinity (Divinity slippers)", src: zack}
+    afk:
+      - {tier: job, exclusive: true, where: "Divinity (Divinity slippers)", why: "Divinity to 40 first", finish: {kind: divinity_level, to: 40}, src: zack, date: 2026-11-17}
     jobs:
       - {job: Divinity to 40, sections: [], basis: autoreview}
       - {job: "Monuments (after Divinity)", sections: [], basis: zack, note: "Order: Justice 0, Wisdom 0, then Bravery 118 -> 300"}

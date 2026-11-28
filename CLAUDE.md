@@ -2,7 +2,7 @@
 Lean core, re-read every call: keep it small. Details live in docs/ and are opened ONLY when a task needs them (index at the bottom).
 
 ## LAWS (Zack 2026-11-21, override everything below)
-1. Goal chain: the main account goal is the biggest account blocker (measurable target). If another system blocks it, that system's owner makes the unblock their character goal and hard-focuses it, and every task in that system aims at the unblock. The account goal stays until its target is reached, then re-check.
+1. Goal chain: the main account goal is the biggest account need from the review each pull (model/goalpick.py on model/priority.py), with a measurable target. If another system blocks it, that system's owner makes the unblock their character goal and hard-focuses it, and every task in that system aims at the unblock. The goal stays until its target is hit OR another need outranks it on 2 pulls in a row; then the card asks "switch goal?" and Zack confirms (`tools/afk_pin.py goal <section>`). Spelunking's target is the next lore boss, not every boss (Zack 2026-11-27).
 2. Focus never means neglect: a character hard-focusing a blocker STILL does every other system and duty they own, every day. Example: if Construction is the blocker, Autistastic hard-focuses Construction AND still checks his Royal Guardian duties, Gaming and everything else on his card. Nothing drops off a card because something else is the focus.
 
 ## Usage budget (the weekly limit is the #1 constraint)
@@ -43,7 +43,7 @@ When a rule changes: update this file or its docs/ file, Project memory (`/proje
 ## Docs index (open only when the task needs it)
 - docs/pipeline.md: data layer v2 details, old usage rules, full Refresh, play-session flow, after-work pull steps (pipeline order, Active plan), retired bulk read.
 - docs/guidance.md: creators rules (stand-in/supplement, newest wins), sourced order beats math, shop buy orders, weekly confirmations, rinse goal, guidance layer, never say "no data", guiding before the KB is done, buff sources (model/buffs.md), talent levels (book cap 299).
-- docs/cards.md: card wording, Library rank, every system on its card daily, GOAL LOGIC detail + current goal, can't-miss, locked = target, clocks, brain/report/decision layer (cards4, reserves, super talent resets).
+- docs/cards.md: AFK park lines v2 (model/afk.py), card wording, Library rank, every system on its card daily, GOAL LOGIC detail + current goal, can't-miss, locked = target, clocks, brain/report/decision layer (cards4, reserves, super talent resets).
 - docs/planners.md: per-system GOAL standard (9 fields + template), per-system planner standard, the done list (owners per system), order, need outweighs math, Pinchy, planner migration to data.py.
 - docs/layout.md: repo layout, tagging pipeline, brother's account (accounts/brother, never mix), status + pending in-game checks, keep-rules-current origin.
 - docs/scoring.md: Task Score 0-100 (Impact x Reach x Confidence x Urgency / Effort), guardrails, calibration. model/score.py not built yet.

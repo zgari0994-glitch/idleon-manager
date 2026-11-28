@@ -49,6 +49,11 @@ for _w in review['worlds']:
                     for _b in (_a.get('items') or [_a]):
                         if _b.get('completed') and _b.get('label'): DONE.setdefault(_s['name'], []).append(GD.label_name(_b['label']))
 
+def _afk0(cfg):
+    a = cfg.get('afk') or {}
+    a = a[0] if isinstance(a, list) and a else a
+    return {'text': a.get('text') or a.get('where') or 'GAP', 'src': a.get('src', 'GAP'), **({'park_rule': a['park_rule']} if a.get('park_rule') else {})}
+
 def creator_take(sec, n=2):
     # skip narration ("he uses...") - not an instruction
     """Top creator claims for a whole system, minus ones about things already done."""
@@ -250,7 +255,7 @@ cards = []
 for name, cfg in Y['characters'].items():
     c = by_name[name]
     card = {'slot': c['character_index'] + 1, 'name': name, 'class': c['class_name'], 'level': c['combat_level'],
-            'afk': cfg.get('afk', {'text': 'GAP', 'src': 'GAP'}), 'save_map': f"W{c['world']} map {c['current_map_index']}",
+            'afk': _afk0(cfg), 'save_map': f"W{c['world']} map {c['current_map_index']}",
             'money': money.get(name, 0), 'jobs': [], 'flags': []}
     allitems = []
     for j in cfg['jobs']:
@@ -289,8 +294,8 @@ for name, cfg in Y['characters'].items():
     card['bags'] = bags(name)
     if cfg.get('plan'): card['flags'].append('PLAN: ' + cfg['plan'])
     # PARK: data rule (Zack-approved): DBs park on the open target with the fewest kills left
-    rule = cfg.get('afk', {}).get('park_rule')
-    card['park'] = {'text': cfg.get('afk', {}).get('text', 'GAP'), 'src': cfg.get('afk', {}).get('src', 'GAP')}
+    rule = _afk0(cfg).get('park_rule')
+    card['park'] = {'text': _afk0(cfg).get('text', 'GAP'), 'src': _afk0(cfg).get('src', 'GAP')}
     if rule:
         cand = []
         for g, path, a in leaves('Death Note'):

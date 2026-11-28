@@ -427,8 +427,8 @@ def build():
             pick = m['ZOW']['next'][0][0]
             park = f"W7 {pick[1]} ({pick[0]}) for his ZOW, then the next ZOW map on his list"
         import needs as _N
-        where, pwhy = _N.park(n, park)
-        park = f"{where}. Why: {pwhy}"
+        import afk as _AFK   # Zack 2026-11-27: AFK v2 park lines (model/afk.py)
+        park = '\n'.join(_AFK.park_text(n))
         pg = _N.personal(n)
         if pg: part.insert(0, pg)
         money = []

@@ -27,3 +27,10 @@ Game save = `data.TimeAway.GlobalTime` (UTC epoch). Store UTC, show Eastern. Alw
 - Super talents can be reset, but resets are limited (~70, Zack 2026-11-21): picks stay sourced only, suggest a reset only when the current super is wrong vs the sourced list, and say it costs one reset.
 - Super talents: preset role (fight/skill) comes from where that preset's regular talent points are spent, never from existing supers; no pick on both presets unless sourced; pick must be in the class tree with points on that preset.
 - Lesson 2026-11-21: the 40 gaps logged 11-17 were never closed and weekly boss / anvil / Jade / Bubba / Poppy fell out when the old docs system was replaced (Daily-Rotation step 9 and KB section 26 held the weekly boss how-to). When replacing anything, carry every checked item over and list what moved where.
+
+## AFK park lines v2 (Zack 2026-11-27, model/afk.py + model/goalpick.py)
+- Rebuilt every pull. Ranked candidates: LAW (weekly override, Law 2 duties only he does, Law 1 goal) > JOB (jobs.yaml afk list, live finish line) > CLASS (sourced spot) > MY READ (+ gap). Each line: world/map/mob, why, finish line, source.
+- Hit targets retire automatically (card "retired: X", state/retired.json) and never stay on a card. A line with no finish line is flagged. Goal target hit -> re-check.
+- "now: X" when the save shows him elsewhere. Same off-line spot 2 pulls -> "keep?" prompt. `tools/afk_pin.py <nick> active <activity>` pins 3 pulls, `<nick> clear` removes.
+- Spelunking spots (re-checked every pull): cave N drops Chapter N pages (1 Fearful Tunnel, 2 Decaying Crevasse, 3 Buried Church, 4 Coral cave, 5 Pirate Upper Deck cave). Every cave 1-4 covered; Royal Guardians + strongest on the deepest; everyone else on their most efficient cave (my read: level 50+ cave 4, 30+ cave 3, 10+ cave 2), then spread by page need, cave 1 fewest. Close calls flagged: Zack decides in the moment. Nobody fit for cave 4 -> goal card says what it takes. GAP: XP per cave not in the parser.
+- Not tracked (Zack 2026-11-27): monument placement outside monument week. Zemo bones-mob line removed.
