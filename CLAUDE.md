@@ -10,7 +10,7 @@ Lean core, re-read every call: keep it small. Details live in docs/ and are open
 - Order on every card: Zack's plan (brain/plans.yaml, his plans ONLY, dated, shown "Zack's plan") > Law 2 duties > masterclass duty (jobs.yaml masterclass:) > top-scored task in that character's systems (model/score.py). No personal goal -> main goal (Law 3).
 - Masterclass: Tacular Compass, Zemo + Topher Grimoire, Cat Tesseract (+ Arcanist map push). Daily, check tier vs account; top-10 need = work it NOW alongside Spelunking. A Death Bringer Spelunks only once Grimoire is not a top-10 need. Compass/Tesseract active work = short daytime sessions.
 - Overnight active slot = Cat only (frogs, Zack's plan). Night watch: an active-only task beating it 2 pulls in a row -> Cat's card lists the top 3 "reconsider?". Flag only.
-- Dry run: `python3 model/score.py` (one line per character, writes nothing); `--top` = account top 10 with inputs.
+- Dry run: `python3 model/score.py` (one line per character, writes nothing); `--top` = two account top 10s, quick (under 10 min) and long (10+ min), same score, inputs shown; also on cards4 under Account goal (`tools/card.py goal`). Zack 2026-11-27: no effort floor, quick wins stay high.
 
 ## Usage budget (the weekly limit is the #1 constraint)
 - A normal question gets at most 2 tool calls. Call 1 is always `python3 tools/lookup.py <system> [terms]`. Call 2 only if needed (`--path` drill-in, or a second system).
