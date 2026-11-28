@@ -25,7 +25,7 @@ ladder:
   - {tier: 1, target: "Pet Poppy: only missing ballot multi lever (batch 8); spend a pet token on it when it drops", source: "Pulse", date: "2026-11-07"}   # pj3l9w3oOp8 00:03:06 + 00:26:32
   - {tier: 2, target: "Friend Poppy: skip the first upgrade, it's been drowned out; monument/fountain come first", source: "Pulse", date: "2026-11-12"}   # 6sAjlzBW2sk 00:07:42 + 00:15:22
 objective: {rung: 1, now: "pet Poppy not owned", target: "owned", eta_days: null}
-check: {cadence: weekly, who: "Autistopher"   # clickers job (Owl, Bubba, Poppy), Zack 2026-11-28, look_at: "ballot + account.kangaroo"}
+check: {cadence: weekly, who: "Autistopher\"   # clickers job (Owl, Bubba, Poppy), Zack 2026-11-28", look_at: "ballot + account.kangaroo"}
 buffs: []
 triggers:
   - {when: "Poppy pet drops", then: "use the pet token on it, not Coral Cave Guardian"}

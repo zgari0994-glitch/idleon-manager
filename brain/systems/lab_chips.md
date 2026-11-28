@@ -22,7 +22,7 @@ role: feeder
 goal: "Own every chip worth slotting so each lab player runs its best chip (Griffy: farm a chip's mats before its rotation comes)"
 coverage: partial
 ladder:
-  - {tier: 1, target: "Chocolatey Chip owned (statue/crystal farming)", source: "Griffy", date: "2026-11-07"}   # DONE: 6 owned
+  - {tier: 1, target: "Chocolatey Chip owned (statue/crystal farming)", source: "Griffy", date: "2026-11-07", done: true}   # DONE: 6 owned
   - {tier: 2, target: "Missing chips owned: Grounded Motherboard 0, Grounded Processor 0, Conductive Motherboard 0, Silkrode Nanochip 0", source: "Toolbox", date: "2026-11-27"}
   - {tier: 3, target: "Grounded Nanochip 10 -> 11, Conductive Nanochip 5 -> 6", source: "Toolbox", date: "2026-11-27"}
 objective: {rung: 2, now: "4 chip types at 0", target: "1+ each", eta_days: null}

@@ -137,9 +137,10 @@ for ch in C['chars']:
     for _s, _l, _subs in _chk:
         card['systems'].append(_l + ''.join(f'\n   {chr(97 + j)}. {x}' for j, x in enumerate(_subs)))
     seen += ' ' + ' '.join(k + ' ' + k.replace('_', ' ') for k, _, _ in _chk) + (' lab chips lab jewels lab bonuses meritocracy' if _chk else '')
-    for s in owned(name):
-        if not any(w.lower() in seen for w in sys_words(s)):
-            card['systems'].append(f"{s.replace('_', ' ').title()}: no check yet, plan being built (owned by {name})")
+    try:   # Phase B 2026-11-28: every owned system from its approved GOAL block (model/goals.py), replaces the 'no check yet' filler
+        import goals as _GL; card['goals'] = _GL.card_lines(name); card['anvil'] = _GL.anvil_line(name)
+    except Exception as _e:
+        card['goals'] = [f'goals failed: {_e}']; card['anvil'] = 'Grab anvil production if it is cranking'
     cards.append(card)
 
     md.append(f'## {name}')
@@ -152,10 +153,11 @@ for ch in C['chars']:
         for i, s in enumerate(card['spend'], 1):
             md.append(f"{i}. {s['do']}"); md += [f"   {chr(97 + j)}. {x}" for j, x in enumerate(s['sub'])]
     else: md.append('- nothing open')
-    md.append('Do:'); md.append('1. Grab anvil production if it is cranking')
+    md.append('Do:'); md.append('1. ' + card['anvil'])
     for i, s in enumerate(card['do'], 2):
         md.append(f"{i}. {s['do']}"); md += [f"   {chr(97 + j)}. {x}" for j, x in enumerate(s['sub'])]
     if card['systems']: md.append('Systems (every day):'); md += [f'- {x}' for x in card['systems']]
+    if card.get('goals'): md.append('Goals (every owned system, from its GOAL block):'); md += [f'- {x}' for x in card['goals']]
     if card['bags']: md.append('Bags to pick up: ' + '; '.join(card['bags']))
     if card['dont']: md.append("Don't:"); md += [f'- {x}' for x in card['dont']]
     if card['toward']: md.append('Working toward (no step today):'); md += [f'- {x}' for x in card['toward']]
@@ -165,6 +167,9 @@ for ch in C['chars']:
     md.append(f"Park: {card['park'] or 'no park line (hole)'}"); md.append('')
 
 acct = D['by_char'].get('account', {})
+try:
+    import goals as _GL; md.append('## Account systems (unowned + Zack, on their cadence)'); md += [f'- {x}' for x in _GL.account_lines()]; md.append('')
+except Exception as _e: md.append(f'## Account systems\n- goals failed: {_e}')
 md.append('## Not checked by anything yet (being built)')
 md += [f'- {h}' for h in holes if 'nothing checks it' in h]
 if acct.get('notes'): md.append('## Account notes'); md += [f'- {x}' for x in acct['notes']]

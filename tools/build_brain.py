@@ -65,6 +65,9 @@ description: {title}: state, how it works, links, plan, today
 """
 
 def main():
+    import json
+    try: GJ = json.load(open(ROOT / 'model' / 'goals.json'))['systems']
+    except Exception: GJ = {}
     gaps = [l for l in (ROOT / 'sources' / 'findings' / 'gaps.md').read_text().splitlines() if l.startswith('|') and '| open |' in l]
     check = (BRAIN / 'checklist_2026-11-21.md').read_text().splitlines() if (BRAIN / 'checklist_2026-11-21.md').exists() else []
 
@@ -80,6 +83,7 @@ def main():
         ch = [x.strip()[6:] for x in check if f'[[{slug}]]' in x]
         tr = e.get('transcripts'); tr = tr if isinstance(tr, dict) else {}
         auto = '\n'.join([A0,
+            f"- GOAL: {GJ[slug]['summary'] if slug in GJ else 'no wired GOAL block'}",
             f"- Owners: {', '.join(e.get('owners') or []) or 'UNASSIGNED'}",
             f"- Toolbox: {'; '.join(e.get('toolbox') or []) or 'none mapped'}",
             f"- AutoReview: {', '.join(e.get('autoreview') or []) or 'not rated'}",

@@ -26,7 +26,7 @@ ladder:
   - {tier: 3, target: "Shrine Collective Agreement: moves keep shrine XP", source: "Griffy", date: "2026-11-07"}   # __0_dvPFI_E 00:18:44
   - {tier: 4, target: "Slow burn: Shrine XP ballot is S tier, shrines are time gated", source: "Griffy", date: "2026-01-29"}   # Rr5KiEflTWE 00:09:09
 objective: {rung: 1, now: "9/9 placed on map 150, world tour on, levels 22-25 (lowest 22: Crystal, Summereading, Undead, Primordial)", target: null, eta_days: null}
-check: {cadence: weekly, who: "anyone"   # Zack 2026-11-28: anyone moves them, look_at: "account.shrines"}
+check: {cadence: weekly, who: "anyone\"   # Zack 2026-11-28: anyone moves them", look_at: "account.shrines"}
 buffs: ["Shrine XP ballot week (S tier, Griffy 2026-01-29)"]
 triggers:
   - {when: "where the roster AFKs changes", then: "re-pick the town with the most shrine XP, move (check Collective Agreement first)"}

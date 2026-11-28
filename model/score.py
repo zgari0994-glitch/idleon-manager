@@ -87,7 +87,7 @@ def score(t):
         n = next((x for x in needs() if x['section'] == sec), None)
         top = max([x['score'] for x in needs()] or [1])
         imp = n['score'] / top if n else W['default_impact']
-    reach = 1 + 0.5 * (W.get('unblocks') or {}).get(sec, 0)
+    reach = 1 + 0.5 * ((W.get('unblocks') or {}).get(sec, 0) + len(t.get('unblocks') or []))
     if sec == g or sec in (W.get('goal_chain') or []): reach *= 2
     c = conf(t.get('src', '')); urg = 1.5 if t.get('urgent') else 1.0
     eff = max(1.0, t.get('minutes', 30)) / 30 + 0.1 * t.get('wait_h', 0) + t.get('cost_share', 0)
@@ -134,6 +134,13 @@ def dynamic():
     return T
 
 
+def goal_tasks():
+    """Approved GOAL block tasks (model/goals.py, Phase B 2026-11-28). Owner = GOAL check.who."""
+    try:
+        import goals as GL; return [dict(t) for t in GL.tasks()]
+    except Exception as e: print('goals failed:', e, file=sys.stderr); return []
+
+
 def tasks():
     skip, T = plan_task_ids(), []
     for t in Y.get('active_tasks', []):
@@ -142,6 +149,7 @@ def tasks():
         if t.get('owner') in (None, 'auto'): t['owner'] = owner_of(t.get('section')) or 'every character'
         T.append(t)
     T += dynamic()
+    T += goal_tasks()
     have = {(t['owner'], t.get('section')) for t in T}
     for i, n in enumerate(needs(), 1):
         for o in n['owners']:
@@ -177,7 +185,7 @@ def is_db(name): return any(m['who'] == name and m['section'] == 'The Grimoire' 
 def night_watch(T=None):
     T = T if T is not None else tasks()
     frog = score({'id': 'cat_frogs', **W['night_watch']})['value']
-    act = [t for t in T if t.get('active') or t.get('section') in W['active_only_sections']]
+    act = [t for t in T if (t.get('active') or t.get('section') in W['active_only_sections']) and not t.get('no_night')]
     return frog, sorted([t for t in act if t['value'] > frog], key=lambda t: -t['value'])[:3]
 
 

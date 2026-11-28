@@ -1,0 +1,7 @@
+# GOAL block policy (Zack 2026-11-28), read by model/goals.py.
+# Owners: GOAL check.who wins over jobs.yaml/system_index; multi-owner ties = Zack decides (flagged on the card).
+# Cadence: daily = full line every day; weekly = full line Thu (weekly reset), compact name the rest of the week; monthly = the 1st.
+# Unowned systems are never left off: they show in cards4 "## Account systems" on their cadence and their tasks are scored.
+minigames: [basketball, darts, minehead]   # suggested active tasks (trophies worth getting), weekly, no daily nag, kept out of night watch
+daily_watch:
+  anvil: "Gas Shard + Historium bars: months of grinding ahead, start stockpiling now (Zack 2026-11-28). Bar slot names not in parser yet."

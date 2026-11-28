@@ -21,7 +21,7 @@ role: independent
 goal: "Rift is complete (65, 'cannot progress further'); only Topher's Super CHOW on the Rift is left"
 coverage: sourced
 ladder:
-  - {tier: 1, target: "Rift 65 cleared", source: "Toolbox", date: "2026-11-28"}   # DONE
+  - {tier: 1, target: "Rift 65 cleared", source: "Toolbox", date: "2026-11-28", done: true}   # DONE
   - {tier: 2, target: "Super CHOW on the Rift monster (Autistopher)", source: "AutoReview", date: "2026-11-28"}
 objective: {rung: 2, now: "no Super CHOW", target: "Super CHOW done", eta_days: null}
 check: {cadence: weekly, who: "Autistopher", look_at: "Rift Super CHOW kill count"}

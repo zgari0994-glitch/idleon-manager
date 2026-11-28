@@ -1,0 +1,5054 @@
+{
+ "save": "20261128T0256",
+ "day": "2026-11-28",
+ "systems": {
+  "achievements": {
+   "slug": "achievements",
+   "title": "Achievements",
+   "role": "independent",
+   "goal": "Clear the open AutoReview achievements for respawn, divinity and shop bonuses",
+   "section": "Achievements",
+   "rung": 1,
+   "rungs": 3,
+   "now": 0,
+   "target": 2,
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "AutoReview achievement list",
+   "who": "Autistopher",
+   "owner_kind": "one",
+   "owners": [
+    "Autistopher"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Gaming Superbits unlocked",
+     "then": "achievements become major priority (Griffy 2026-10-16)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Do W1 Two-Time Savior and W2 Two Desserts",
+     "stat": "respawn",
+     "gain_pct": 5,
+     "unblocks": [],
+     "source": "Toolbox",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Achievements [independent] rung 1/3: 0 -> 2. Next: Do W1 Two-Time Savior and W2 Two Desserts [Toolbox]"
+  },
+  "advice_fish": {
+   "slug": "advice_fish",
+   "title": "Advice Fish",
+   "role": "independent",
+   "goal": "Spelunking lines first while Spelunking is the goal: Being Tired (stamina) then Sleeping (AFK gains)",
+   "section": "Advice Fish",
+   "rung": 1,
+   "rungs": 3,
+   "now": "Being Tired 4, next 1.80e29",
+   "target": "Advice on Being Tired 4 -> up (Spelunking max stamina)",
+   "src": "my read",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "currency vs next cost",
+   "who": "Autisticles",
+   "owner_kind": "one",
+   "owners": [
+    "Autisticles"
+   ],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Buy Advice on Being Tired when affordable",
+     "stat": "spelunk stamina",
+     "gain_pct": null,
+     "unblocks": [
+      "spelunk"
+     ],
+     "source": "Griffy 2026-08-29 IbKDBxBJRzQ 00:20:09 (my read on order)",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": "1.80e29",
+     "urgent": false
+    }
+   ],
+   "summary": "Advice Fish [independent] rung 1/3: Being Tired 4, next 1.80e29 -> Advice on Being Tired 4 -> up (Spelunking max stamina). Next: Buy Advice on Being Tired when affordable [Griffy 2026-08-29 IbKDBxBJRzQ 00:20:09 (my read on order)]"
+  },
+  "alchemy_bubbles": {
+   "slug": "alchemy_bubbles",
+   "title": "Alchemy Bubbles",
+   "role": "feeder",
+   "goal": "All bubbles unlocked, then big multi-resource bubbles toward caps",
+   "section": "Bubbles",
+   "rung": 1,
+   "rungs": 3,
+   "now": 155,
+   "target": 160,
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "cauldron seats: everyone with hard bubbles left sits in a cauldron",
+   "who": "Autistocat",
+   "owner_kind": "one",
+   "owners": [
+    "Autistocat"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "160 bubbles unlocked",
+     "then": "move cauldron seats to liquids (checklist question, confirm with Zack)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Level Warriors Rule toward 950",
+     "stat": "print output",
+     "gain_pct": null,
+     "unblocks": [
+      "printer"
+     ],
+     "source": "Griffy",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Alchemy Bubbles [feeder] rung 1/3: 155 -> 160. Next: Level Warriors Rule toward 950 [Griffy]"
+  },
+  "alchemy_cauldrons": {
+   "slug": "alchemy_cauldrons",
+   "title": "Alchemy Cauldrons",
+   "role": "feeder",
+   "goal": "Every cauldron brewing and liquids never capped; liquid is the current bottleneck (Griffy 2026-11-07)",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 3,
+   "now": 0,
+   "target": "Quicc cauldron brew speed 0 -> brewing (697M/716M, 0 attempts)",
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "brew speed per cauldron, liquids spent",
+   "who": "Autistocat",
+   "owner_kind": "one",
+   "owners": [
+    "Autistocat"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a cauldron shows brew speed 0",
+     "then": "assign a brewer"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Put a character on the Quicc cauldron",
+     "stat": "bubble unlock",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": true
+    },
+    {
+     "do": "Spend most liquid daily",
+     "stat": "liquids",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Alchemy Cauldrons [feeder] rung 1/3: 0 -> Quicc cauldron brew speed 0 -> brewing (697M/716M, 0 attempts). Next: Put a character on the Quicc cauldron [my_read] (+1 more scored)"
+  },
+  "alchemy_p2w": {
+   "slug": "alchemy_p2w",
+   "title": "Alchemy P2W",
+   "role": "independent",
+   "goal": "All P2W maxed (Zack 2026-11-27); only the small buy when the highest alchemy level rises",
+   "section": "Pay2Win",
+   "rung": 2,
+   "rungs": 2,
+   "now": "maxed",
+   "target": "next alchemy-level unlock",
+   "src": "Zack",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "highest alchemy level vs last P2W unlock",
+   "who": "Autistocat",
+   "owner_kind": "one",
+   "owners": [
+    "Autistocat"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "highest alchemy level rises",
+     "then": "buy the new P2W level (minor, low score)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Buy a 90% Bargain Tag + Dense Water daily, spend most liquid each day",
+     "stat": "alchemy",
+     "gain_pct": null,
+     "unblocks": [
+      "alchemy_bubbles"
+     ],
+     "source": "Griffy 2026-11-07 __0_dvPFI_E 24:41",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Alchemy P2W [independent] rung 2/2: maxed -> next alchemy-level unlock. Next: Buy a 90% Bargain Tag + Dense Water daily, spend most liquid each day [Griffy 2026-11-07 __0_dvPFI_E 24:41]"
+  },
+  "alchemy_vials": {
+   "slug": "alchemy_vials",
+   "title": "Alchemy Vials",
+   "role": "feeder",
+   "goal": "Unlock and level every vial, all to level 4+ first",
+   "section": "Vials",
+   "rung": 1,
+   "rungs": 3,
+   "now": 77,
+   "target": 83,
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "vial attempts used (Griffy forgets them, 2026-10-28)",
+   "who": "Autistocat",
+   "owner_kind": "one",
+   "owners": [
+    "Autistocat"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "vial hits level 4",
+     "then": "next lowest vial"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Use all vial attempts",
+     "stat": "vial levels",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": true
+    }
+   ],
+   "summary": "Alchemy Vials [feeder] rung 1/3: 77 -> 83. Next: Use all vial attempts [Griffy]"
+  },
+  "anvil": {
+   "slug": "anvil",
+   "title": "Anvil",
+   "role": "feeder",
+   "goal": "No character's anvil idle or capped, all anvil points spent, production aimed at the next craft",
+   "section": "Anvil",
+   "rung": 1,
+   "rungs": 3,
+   "now": "unspent points: Ticles 29, Totle 11, Cat 4, Tacular 3, Matic 3, Bish 2, Naut 2; Topher -435 (bad read); Bish cap 0",
+   "target": "0 unspent on all 11, no cap 0",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "characters[].anvil: producing, cap, availablePoints",
+   "who": "every character (own anvil)",
+   "owner_kind": "every",
+   "owners": [
+    "Autiszemo",
+    "Autistocat",
+    "Autisticles",
+    "Autistastic",
+    "Autistabish",
+    "Autistacular",
+    "Autistotle",
+    "Autistomatic",
+    "Autistronaut",
+    "Autistopher",
+    "Autistachio"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "availablePoints > 0 on a character",
+     "then": "that card: spend anvil points (speed vs capacity = my read: capacity while anything caps)"
+    },
+    {
+     "when": "Tab 4 unlocked",
+     "then": "switch production to Purple Screws / Lustre mats (Griffy 2026-11-07)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Spend 29 anvil points on Ticles, 11 on Totle (then the 2-4 on the rest)",
+     "stat": "anvil speed/cap",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read (data)",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "In game: Topher shows -435 available points and Bish cap 0; check both anvils",
+     "stat": "data check",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read (data)",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Confirm anvil tab level in game (Tab 4 gates Lustre + next tools per Griffy)",
+     "stat": "unlock",
+     "gain_pct": null,
+     "unblocks": [
+      "armor_sets"
+     ],
+     "source": "Griffy 2026-10-28 C2oiRVIpmq8 01:11:34",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Point spare anvil production at Gas Shard + Historium bars as soon as they are craftable; stockpile now, months of grinding before they gate progress",
+     "stat": "bars stockpile",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Zack 2026-11-28",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Anvil [feeder] rung 1/3: unspent points: Ticles 29, Totle 11, Cat 4, Tacular 3, Matic 3, Bish 2, Naut 2; Topher ... -> 0 unspent on all 11, no cap 0. Next: Spend 29 anvil points on Ticles, 11 on Totle (then the 2-4 on the rest) [my_read (data)] (+3 more scored)"
+  },
+  "arcade": {
+   "slug": "arcade",
+   "title": "Arcade",
+   "role": "feeder",
+   "goal": "Spend balls on S/A tier shop bonuses only, skip F tier",
+   "section": "Arcade",
+   "rung": 1,
+   "rungs": 3,
+   "now": 292,
+   "target": "Spend 292 balls on S tier (Tab 1 talent points first)",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "balls 292, gold 47, cosmic 53",
+   "who": "Autisticles",
+   "owner_kind": "one",
+   "owners": [
+    "Autisticles"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Pulse posts updated arcade tier list",
+     "then": "replace Griffy 2025 ladder"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Dump balls into Tab 1 talent points bonus",
+     "stat": "talent pts",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Arcade [feeder] rung 1/3: 292 -> Spend 292 balls on S tier (Tab 1 talent points first). Next: Dump balls into Tab 1 talent points bonus [Griffy]"
+  },
+  "armor_sets": {
+   "slug": "armor_sets",
+   "title": "Armor Sets",
+   "role": "feeder",
+   "goal": "Every armor set completed for its bonus even when not worn (Griffy 2026-10-28)",
+   "section": "Armor Sets",
+   "rung": 1,
+   "rungs": 4,
+   "now": "15/19 sets unlocked",
+   "target": 19,
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "missing parts per set (model/armor.py)",
+   "who": "Autistastic",
+   "owner_kind": "one",
+   "owners": [
+    "Autistastic"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a set completes",
+     "then": "next set by bonus vs main goal (Prehistoric first if W7 skills on POW chain)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Craft/farm the cheapest missing part of the lowest open rung",
+     "stat": "set bonus",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy",
+     "active_min": 10,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Armor Sets [feeder] rung 1/4: 15/19 sets unlocked -> 19. Next: Craft/farm the cheapest missing part of the lowest open rung [Griffy]"
+  },
+  "atom_collider": {
+   "slug": "atom_collider",
+   "title": "Atom Collider",
+   "role": "independent",
+   "goal": "Spend particles every day; Boron first (Griffy 2026-04-23), then cheapest useful atoms",
+   "section": "Atom Collider",
+   "rung": 1,
+   "rungs": 3,
+   "now": "Boron 40/50 (next 410M), particles 61.9M",
+   "target": "Boron 50",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "particles vs cheapest atom; Boron cost",
+   "who": "Autistastic",
+   "owner_kind": "one",
+   "owners": [
+    "Autistastic"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "particles > cheapest open atom",
+     "then": "spend"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Boron is 410M, out of reach. Spend 51.5M of the 61.9M now: one level each of Aluminium, Lithium, Nitrogen, Hydrogen, Beryllium, Carbon, Oxygen, Sodium, Magnesium (all AutoReview targets), then save for Boron",
+     "stat": "particles",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-04-23 kD7KZ5zX6Ss 00:19:52",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": "61.9M particles",
+     "urgent": true
+    }
+   ],
+   "summary": "Atom Collider [independent] rung 1/3: Boron 40/50 (next 410M), particles 61.9M -> Boron 50. Next: Boron is 410M, out of reach. Spend 51.5M of the 61.9M now: one level each of Aluminium, Lithium, Nitrogen, ... [Griffy 2026-04-23 kD7KZ5zX6Ss 00:19:52]"
+  },
+  "autoloot": {
+   "slug": "autoloot",
+   "title": "Autoloot",
+   "role": "independent",
+   "goal": "Autoloot owned (Griffy: the one pack to buy, S tier)",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 1,
+   "now": "owned",
+   "target": "owned",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "nothing (done)",
+   "who": "none",
+   "owner_kind": "unowned",
+   "owners": [],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [],
+   "summary": "Autoloot [independent] rung 1/1: owned -> owned"
+  },
+  "ballot": {
+   "slug": "ballot",
+   "title": "Ballot",
+   "role": "feeder",
+   "goal": "Weekly vote decided with pros/cons for him and the server; vote multi (now x1.84) raised over time",
+   "section": "Bonus Ballot",
+   "rung": 1,
+   "rungs": 3,
+   "now": "this week Sailing Artifact Find (x1.84), votes carried from save 20261127T1704",
+   "target": "weekly read every reset",
+   "src": "Griffy + Zack rule",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "voteBallot.selectedBonus + voteMulti; phone saves carry votes (flag)",
+   "who": "Autistotle",
+   "owner_kind": "one",
+   "owners": [
+    "Autistotle"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "weekly reset",
+     "do": "pros/cons on Totle's card, then week plan on the owner of the voted system (e.g. sailing week -> Ticles long trips)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Get Poppy (companion): doubles Ballot + Meritocracy; Cuttlefish + Mashed Potato already owned (Zack 2026-11-28)",
+     "stat": "vote multi x2",
+     "gain_pct": 100,
+     "unblocks": [
+      "meritocracy"
+     ],
+     "source": "Griffy 2026-09-21 KHuU392EW-4 00:04:47",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Ballot [feeder] rung 1/3: this week Sailing Artifact Find (x1.84), votes carried from save 20261127T1704 -> weekly read every reset. Next: Get Poppy (companion): doubles Ballot + Meritocracy; Cuttlefish + Mashed Potato already owned (Zack 2026-11... [Griffy 2026-09-21 KHuU392EW-4 00:04:47]"
+  },
+  "basketball": {
+   "slug": "basketball",
+   "title": "Basketball",
+   "role": "independent",
+   "goal": "Hoops shop upgrades bought as points come in (Damage, Coins, Class EXP, Skill Efficiency, no caps)",
+   "section": "Basketball",
+   "rung": 2,
+   "rungs": 2,
+   "now": "high score 26, 317 total points",
+   "target": "my read: cheapest-gain first: Class EXP (cost 3), Damage (8), then Coins (403), Skill Eff (2,345)",
+   "src": "my_read",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "highscores.minigameHighscores hoops upgrades",
+   "who": "UNASSIGNED",
+   "owner_kind": "unowned",
+   "owners": [],
+   "minigame": true,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "In game: check spendable hoops points; spend on Class EXP (3) and Damage (8)",
+     "stat": "class exp / dmg",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Basketball [independent] rung 2/2: high score 26, 317 total points -> my read: cheapest-gain first: Class EXP (cost 3), Damage (8), then Coins (403), Skill E.... Next: In game: check spendable hoops points; spend on Class EXP (3) and Damage (8) [my_read]"
+  },
+  "beanstalk": {
+   "slug": "beanstalk",
+   "title": "Beanstalk",
+   "role": "feeder",
+   "goal": "Every golden food deposited to the next tier, Griffy's 5 first (Ham, Cheese, Grilled Cheese, Hamsters, Dumplings)",
+   "section": "Beanstalk",
+   "rung": 1,
+   "rungs": 3,
+   "now": "35 slots: 2 at 1M tier, 10 at 100K, 2 at 10K, 21 at 0",
+   "target": "the 21 at 0 reach 10K",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "beanstalkData tiers + AutoReview Beanstalk rows",
+   "who": "Autiszemo",
+   "owner_kind": "one",
+   "owners": [
+    "Autiszemo"
+   ],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Stack golden food on one character (the active farmer) and deposit at 10K",
+     "stat": "golden food tier",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-11-07 __0_dvPFI_E 00:20:30",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Golden Cake 1.90K -> 10K (Smithing)",
+     "stat": "tier 1",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "AutoReview",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Golden Peanut 10.9K -> 100K and Golden Bread 15.2K -> 100K (Smithing; Bread W3 Colo efficient / W5 Colo fast)",
+     "stat": "tier 2",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "AutoReview + Nocturne 2024-03-02 2sZ62Yvmod4",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Beanstalk [feeder] rung 1/3: 35 slots: 2 at 1M tier, 10 at 100K, 2 at 10K, 21 at 0 -> the 21 at 0 reach 10K. Next: Stack golden food on one character (the active farmer) and deposit at 10K [Griffy 2026-11-07 __0_dvPFI_E 00:20:30] (+2 more scored)"
+  },
+  "breeding": {
+   "slug": "breeding",
+   "title": "Breeding",
+   "role": "feeder",
+   "goal": "Faster-shiny pets to Lv 24-25 first, then meal-bonus shinies, then Crucible to round 250 once Luminous Menagerie opens it",
+   "section": "Breeding",
+   "rung": 1,
+   "rungs": 5,
+   "now": 20,
+   "target": 24,
+   "src": "Zack 2026-11-21 + Pulse",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "eggs not capped, shiny levels on faster-shiny pets, spices claimed, meals",
+   "who": "Autistacular",
+   "owner_kind": "one",
+   "owners": [
+    "Autistacular"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "faster-shiny pets all at Lv 24+",
+     "then": "move shiny time to meal-bonus pets"
+    },
+    {
+     "when": "Crucible unlocked",
+     "then": "run the cheese team to round 250 once"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Wind Walker active on W4 breeding for shiny over levels",
+     "stat": "shiny levels",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-11-09",
+     "active_min": 30,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Fence the faster-shiny pets below Lv 24",
+     "stat": "Faster Shiny Lv Up",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-10-31 + my read",
+     "active_min": 3,
+     "wait_hr": 24,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Use eggs + claim spices before cap",
+     "stat": "eggs",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2025-12-27",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Breeding [feeder] rung 1/5: 20 -> 24. Next: Wind Walker active on W4 breeding for shiny over levels [Pulse 2026-11-09] (+2 more scored)"
+  },
+  "bribes": {
+   "slug": "bribes",
+   "title": "Bribes",
+   "role": "independent",
+   "goal": "All 41 bribes bought (all are permanent account boosts)",
+   "section": "Bribes",
+   "rung": 2,
+   "rungs": 2,
+   "now": 40,
+   "target": 41,
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "bribes[].done (Maintenance job)",
+   "who": "Autistopher",
+   "owner_kind": "one",
+   "owners": [
+    "Autistopher"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "The Art of the Flail becomes buyable",
+     "then": "Topher buys it"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Find what unlocks The Art of the Flail (likely the next Island/W7 gate, my read) and check it in game",
+     "stat": "+41 effect",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Bribes [independent] rung 2/2: 40 -> 41. Next: Find what unlocks The Art of the Flail (likely the next Island/W7 gate, my read) and check it in game [my_read]"
+  },
+  "bubba": {
+   "slug": "bubba",
+   "title": "Bubba",
+   "role": "feeder",
+   "goal": "Keep Bubba's slices spent and climb Megaflesh tiers (each tier multiplies all Bubba bonuses)",
+   "section": "Bubba",
+   "rung": 2,
+   "rungs": 4,
+   "now": "3.24T slices, 13.6B/min; Megaflesh lv5 next costs 459T",
+   "target": "459T",
+   "src": "Toolbox (parser)",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "bubba.meatSlices vs upgrades[].cost",
+   "who": "Autistopher",
+   "owner_kind": "one",
+   "owners": [
+    "Autistopher"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "meatSlices >= 459T",
+     "then": "buy Megaflesh 6 (Salmon), then emulsify Hustle"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Buy the 12 affordable upgrades now (Dice Roll 1.4B, Buyer Grin 2.6B, Bargain 9.1B, Charisma 10B, Great Meat 20B, 2nd Slice 67B, 1st Slice 104B, Happi Boi 117B, Good Meat 444B, Super Chart 661B, More Sides unlock 956B, Smoker/Open Gift 2.9T)",
+     "stat": "slices/min + bonuses",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read (parser costs)",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": "3.24T slices",
+     "urgent": false
+    },
+    {
+     "do": "Decide: save for Megaflesh (459T, ~23 days) vs keep buying levels (my read: levels first, they raise slice rate)",
+     "stat": "",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Bubba [feeder] rung 2/4: 3.24T slices, 13.6B/min; Megaflesh lv5 next costs 459T -> 459T. Next: Buy the 12 affordable upgrades now (Dice Roll 1.4B, Buyer Grin 2.6B, Bargain 9.1B, Charisma 10B, Great Meat... [my_read (parser costs)] (+1 more scored)"
+  },
+  "cape_vine": {
+   "slug": "cape_vine",
+   "title": "Cape Vine",
+   "role": "multiplier",
+   "goal": "Deposit every owned cape and put golden vines on the strongest capes",
+   "section": "Cape Vine",
+   "rung": 1,
+   "rungs": 3,
+   "now": "15/23 capes, 1 golden vine (on Radiant Amarok Backstabber, +11.5% Defence)",
+   "target": "23/23",
+   "src": "AutoReview",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "capeVine capesUsed + golden vine placement",
+   "who": "Autistachio",
+   "owner_kind": "one",
+   "owners": [
+    "Autistachio"
+   ],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Check Ask Cathy (top left) for free golden vines",
+     "stat": "golden vines",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-11-01 7EkdEAkWYng 00:01:04",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Move the golden vine off the Defence cape to the best damage or drop rate cape owned",
+     "stat": "damage/drop",
+     "gain_pct": null,
+     "unblocks": [
+      "emperor"
+     ],
+     "source": "my read",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Cape Vine [multiplier] rung 1/3: 15/23 capes, 1 golden vine (on Radiant Amarok Backstabber, +11.5% Defence) -> 23/23. Next: Check Ask Cathy (top left) for free golden vines [Pulse 2026-11-01 7EkdEAkWYng 00:01:04] (+1 more scored)"
+  },
+  "cards": {
+   "slug": "cards",
+   "title": "Cards",
+   "role": "feeder",
+   "goal": "Get one Drop Rate Multi card started and doubled (Coralcave Guardian first), then the other multi cards; card sets via faster collection",
+   "section": "Cards",
+   "rung": 1,
+   "rungs": 5,
+   "now": 321,
+   "target": 400001,
+   "src": "Pulse",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "DR multi card progress, doubled slots, preset per role",
+   "who": "Autistronaut",
+   "owner_kind": "one",
+   "owners": [
+    "Autistronaut"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Coralcave Guardian hits 1 star",
+     "then": "put it in a doubled slot"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Farm Coralcave Guardian cards with the DR preset",
+     "stat": "drop rate multi",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-09-07",
+     "active_min": null,
+     "wait_hr": 24,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Card farming on Elemental Sorcerer (Bish) when a slot is free",
+     "stat": "card drops",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-08-03",
+     "active_min": null,
+     "wait_hr": 8,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Cards [feeder] rung 1/5: 321 -> 400001. Next: Farm Coralcave Guardian cards with the DR preset [Pulse 2026-09-07] (+1 more scored)"
+  },
+  "caverns": {
+   "slug": "caverns",
+   "title": "Caverns",
+   "role": "independent",
+   "goal": "Explorer finishes cavern unlocks (16-20), then opals move to Studies; every cavern run on its cadence",
+   "section": "Villagers",
+   "rung": 1,
+   "rungs": 4,
+   "now": 15,
+   "target": 20,
+   "src": "Toolbox + Griffy (opals to Explorer first)",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "12 lanterns dropped, Bravery run, Bell coins + Lamp push, Gambit points vs 710K",
+   "who": "Autistabish",
+   "owner_kind": "one",
+   "owners": [
+    "Autistabish"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Gambit points 710K",
+     "then": "claim +2 bones on Deathbringer (Death Note / bones push)"
+    },
+    {
+     "when": "Explorer 20 (all caverns found)",
+     "then": "move most opals to Studies"
+    },
+    {
+     "when": "Bravery 750 AFK hrs",
+     "then": "+1 sword; run it"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Drop 12 blinding lanterns",
+     "stat": "daily lantern reward",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-11-03",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": true
+    },
+    {
+     "do": "Push Gambit 535K -> 710K",
+     "stat": "Gambit points",
+     "gain_pct": null,
+     "unblocks": [
+      "death_note"
+     ],
+     "source": "Toolbox 2026-11-28",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Run Bravery, take mining eff + reward multi",
+     "stat": "mining efficiency",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-01-29",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Bell: coins + Lamp push",
+     "stat": "Divinity pts via W5 wishes",
+     "gain_pct": null,
+     "unblocks": [
+      "divinity"
+     ],
+     "source": "Pulse 2026-11-12",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Buy Harp strings before rupies, keep C notes going",
+     "stat": "schematic resources",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-10-28",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Caverns [independent] rung 1/4: 15 -> 20. Next: Drop 12 blinding lanterns [Pulse 2026-11-03] (+4 more scored)"
+  },
+  "clam_work": {
+   "slug": "clam_work",
+   "title": "Clam Work",
+   "role": "feeder",
+   "goal": "Active Clam Work on a Royal Guardian; pearls into Pollen Faction-style pearl gain, Scurge points mostly into Reckoning",
+   "section": "Clam Work",
+   "rung": 1,
+   "rungs": 3,
+   "now": "445K pearls, worker class 2, Scurge Lv1 (0 points)",
+   "target": "Multi-Scalping Lv23",
+   "src": "my read (costs from parser)",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "clamWork pearls vs next upgrade costs",
+   "who": "Autisticles",
+   "owner_kind": "one",
+   "owners": [
+    "Autisticles"
+   ],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Buy Multi-Scalping Lv23 (331K pearls) now",
+     "stat": "multikill",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "parser cost, my read",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": "331K pearls",
+     "urgent": false
+    },
+    {
+     "do": "Active Clam Work on a Royal Guardian (late game)",
+     "stat": "pearls",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-10-19 DiimMepKdIs 00:15:26",
+     "active_min": 30,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Print the Clam Work resource on an early worker class before running (bigger print)",
+     "stat": "greenstack",
+     "gain_pct": null,
+     "unblocks": [
+      "greenstacks"
+     ],
+     "source": "Pulse 2026-10-31 6JgdYbiEKus 00:05:07",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Clam Work [feeder] rung 1/3: 445K pearls, worker class 2, Scurge Lv1 (0 points) -> Multi-Scalping Lv23. Next: Buy Multi-Scalping Lv23 (331K pearls) now [parser cost, my read] (+2 more scored)"
+  },
+  "cog_board": {
+   "slug": "cog_board",
+   "title": "Cog Board",
+   "role": "independent",
+   "goal": "Every cog slot EXP-positive, build rate up for buildings, flaggy for W3 flags; clean cog inventory",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 3,
+   "now": 126,
+   "target": "Scrap junk: 126 spare cogs, 0 free small-cog slots; Griffy rates cog inventory F, just scrap cogs",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "construction.boardMultipliers, smallCogs.freeSlots, spareCogs",
+   "who": "Autistastic",
+   "owner_kind": "one",
+   "owners": [
+    "Autistastic"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a new cog maker roll finishes",
+     "then": "compare vs board, slot or scrap"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Scrap/sort the 126 spare cogs, keep only upgrades",
+     "stat": "inventory",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy",
+     "active_min": 10,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Get board EXP mult off 1x (EXP cogs near players)",
+     "stat": "con exp",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read",
+     "active_min": 10,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Cog Board [independent] rung 1/3: 126 -> Scrap junk: 126 spare cogs, 0 free small-cog slots; Griffy rates cog inventory F, just .... Next: Scrap/sort the 126 spare cogs, keep only upgrades [Griffy] (+1 more scored)"
+  },
+  "colo_scores": {
+   "slug": "colo_scores",
+   "title": "Colo Scores",
+   "role": "independent",
+   "goal": "Run W5 + W6 Colosseums for golden food drops, stockpile tickets for expensive late entries",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 2,
+   "rungs": 2,
+   "now": null,
+   "target": "Farm W5 + W6 colos for golden foods",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "coloHighscores (W1 462K, W2 1.30M, W3 9.67M, W4 90.7M, W5 23.8M, W6 256M)",
+   "who": "unassigned",
+   "owner_kind": "unowned",
+   "owners": [],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "tickets >= 30",
+     "then": "spend on W6 colo for golden food"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Spend tickets on W6 (and W5, lagging at 23.8M) for golden food",
+     "stat": "golden food",
+     "gain_pct": null,
+     "unblocks": [
+      "golden_food"
+     ],
+     "source": "Griffy",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Colo Scores [independent] rung 2/2: None -> Farm W5 + W6 colos for golden foods. Next: Spend tickets on W6 (and W5, lagging at 23.8M) for golden food [Griffy]"
+  },
+  "companions": {
+   "slug": "companions",
+   "title": "Companions",
+   "role": "independent",
+   "goal": "Own the top creator pets: Doot (S), Rift Slug (A), Ancient Golem (A)",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 3,
+   "now": "rung moved past the written objective: update now",
+   "target": "Every base pet owned (Zack 2026-11-28; Toolbox raw copy carries no companion data, tournament block has no team)",
+   "src": "my_read",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "companions.list[].acquired",
+   "who": "unassigned",
+   "owner_kind": "unowned",
+   "owners": [],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "new companion token",
+     "then": "spend on highest-tier unowned pet"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Find a data source for owned pets (Toolbox companions page / separate companion doc)",
+     "stat": "data",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Companions [independent] rung 1/3: rung moved past the written objective: update now -> Every base pet owned (Zack 2026-11-28; Toolbox raw copy carries no companion data, tour.... Next: Find a data source for owned pets (Toolbox companions page / separate companion doc) [my_read]"
+  },
+  "compass": {
+   "slug": "compass",
+   "title": "Compass",
+   "role": "blocker",
+   "goal": "Dust gains first, then damage + accuracy to reach Walking Sticks (Griffy 2026-11-07)",
+   "section": "Compass",
+   "rung": 1,
+   "rungs": 3,
+   "now": "Elemental 15/24, Medallion Drops 67, Ring Drops II 70",
+   "target": "Elemental 20",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "dust balances vs cheapest dust upgrade, medallions found",
+   "who": "Autistacular",
+   "owner_kind": "one",
+   "owners": [
+    "Autistacular"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Compass needed",
+     "then": "Tacular AFKs for Aethermoons (Zack 2026-11-27)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Short daytime Tempest session: spend dust on dust-gain first, then Tempest damage/accuracy",
+     "stat": "dust",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-11-07 __0_dvPFI_E 37:01",
+     "active_min": 15,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Compass [blocker] rung 1/3: Elemental 15/24, Medallion Drops 67, Ring Drops II 70 -> Elemental 20. Next: Short daytime Tempest session: spend dust on dust-gain first, then Tempest damage/accuracy [Griffy 2026-11-07 __0_dvPFI_E 37:01]"
+  },
+  "construction_buildings": {
+   "slug": "construction_buildings",
+   "title": "Construction Buildings",
+   "role": "independent",
+   "goal": "Talent Library + Death Note + Trapper Drone first, shrines to 200 next (Griffy 2026-10/11)",
+   "section": "Buildings",
+   "rung": 1,
+   "rungs": 3,
+   "now": "Talent Book Library 132",
+   "target": "201",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "build queue, build rate 6.62T",
+   "who": "Autistastic",
+   "owner_kind": "one",
+   "owners": [
+    "Autistastic"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a building finishes",
+     "then": "queue the next from the ladder"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Keep Talent Book Library + Death Note + Trapper Drone in the build slots",
+     "stat": "library speed, multikill",
+     "gain_pct": null,
+     "unblocks": [
+      "library",
+      "death_note"
+     ],
+     "source": "Griffy 2026-10-28 C2oiRVIpmq8 01:02:26",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Construction Buildings [independent] rung 1/3: Talent Book Library 132 -> 201. Next: Keep Talent Book Library + Death Note + Trapper Drone in the build slots [Griffy 2026-10-28 C2oiRVIpmq8 01:02:26]"
+  },
+  "cooking": {
+   "slug": "cooking",
+   "title": "Cooking",
+   "role": "independent",
+   "goal": "Raise meal cooking speed so meals clear 120 -> 150 -> 180, because total meal levels drive Blood Marrow and every meal bonus",
+   "section": "Cooking",
+   "rung": 1,
+   "rungs": 4,
+   "now": 111,
+   "target": "Turkey + Egg past 111 (Egg = meal cooking speed, Turkey toward a power-of-ten breakpoint)",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "kitchens on speed meals, cheap kitchen upgrade, mastery points",
+   "who": "Autiszemo",
+   "owner_kind": "one",
+   "owners": [
+    "Autiszemo"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "max plates reach 150",
+     "then": "switch focus to NMLB triggers, then 180"
+    },
+    {
+     "when": "a ribbon rank threshold hit (1/5/10/25)",
+     "then": "re-rank ribbon placement (gap 5)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Spend on the cheapest kitchen speed upgrade",
+     "stat": "meal cooking speed",
+     "gain_pct": null,
+     "unblocks": [
+      "meals"
+     ],
+     "source": "Griffy",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Keep Egg on a kitchen until its next breakpoint",
+     "stat": "meal cooking speed",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Cooking [independent] rung 1/4: 111 -> Turkey + Egg past 111 (Egg = meal cooking speed, Turkey toward a power-of-ten breakpoint). Next: Spend on the cheapest kitchen speed upgrade [Griffy] (+1 more scored)"
+  },
+  "coral_reef": {
+   "slug": "coral_reef",
+   "title": "Coral Reef",
+   "role": "feeder",
+   "goal": "Grow daily coral (Coral Restoration +60% first) and buy the cheap Coral Kid levels",
+   "section": "Coral Reef",
+   "rung": 1,
+   "rungs": 3,
+   "now": "336 coral owned, 3 corals unlocked, Coral Kid total 16 levels",
+   "target": "Coral Restoration owned",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "coralReef owned + next Coral Kid costs",
+   "who": "Autistachio",
+   "owner_kind": "one",
+   "owners": [
+    "Autistachio"
+   ],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Check Coral Restoration (Red 10) is owned; if not it's the first coral buy",
+     "stat": "daily coral",
+     "gain_pct": 60,
+     "unblocks": [],
+     "source": "Griffy 2025-11-10 GIs09k2bhkY 00:12:52",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Buy the 3 cheapest Coral Kid levels (1, 9, 121)",
+     "stat": "Divinity PTS / EXP",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "parser costs, my read",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": "1 / 9 / 121",
+     "urgent": false
+    }
+   ],
+   "summary": "Coral Reef [feeder] rung 1/3: 336 coral owned, 3 corals unlocked, Coral Kid total 16 levels -> Coral Restoration owned. Next: Check Coral Restoration (Red 10) is owned; if not it's the first coral buy [Griffy 2025-11-10 GIs09k2bhkY 00:12:52] (+1 more scored)"
+  },
+  "crystal_spawn_chance": {
+   "slug": "crystal_spawn_chance",
+   "title": "Crystal Spawn Chance",
+   "role": "feeder",
+   "goal": "Substantial crystal spawn chance + ~30x drop rate before farming the Monolith requirement",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 2,
+   "now": 3,
+   "target": "Lift the 3 low characters (Ticles, Naut, Tachio 0.674%) to the 1.46% the other 7 have",
+   "src": "my_read",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "characters[].crystalSpawnChance",
+   "who": "unassigned",
+   "owner_kind": "unowned",
+   "owners": [],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "all 10 non-Totle chars at 1.46%+",
+     "then": "rung 2"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Find what the 7 have that Ticles/Naut/Tachio lack (talent, star sign, or class bonus)",
+     "stat": "crystal %",
+     "gain_pct": 117,
+     "unblocks": [],
+     "source": "my_read",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Crystal Spawn Chance [feeder] rung 1/2: 3 -> Lift the 3 low characters (Ticles, Naut, Tachio 0.674%) to the 1.46% the other 7 have. Next: Find what the 7 have that Ticles/Naut/Tachio lack (talent, star sign, or class bonus) [my_read]"
+  },
+  "dancing_coral": {
+   "slug": "dancing_coral",
+   "title": "Dancing Coral",
+   "role": "feeder",
+   "goal": "Every Dancing Coral bonus unlocked in order; shrine levels above 200 feed them",
+   "section": "Dancing Coral",
+   "rung": 1,
+   "rungs": 3,
+   "now": "159 Char Coral",
+   "target": "991",
+   "src": "AutoReview",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "coralReef.dancingCoral + Char Coral",
+   "who": "Autistachio",
+   "owner_kind": "one",
+   "owners": [
+    "Autistachio"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Char Coral >= 991",
+     "do": "unlock Class EXP bonus, next target = Research EXP cost"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Farm Char Coral to 991 for the Class EXP unlock",
+     "stat": "Class EXP",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "AutoReview",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": 991,
+     "urgent": false
+    },
+    {
+     "do": "Shrine levels above 200 (Isaccian POW, Crystal amber): route to Autistastic's shrine work",
+     "stat": "Spelunking POW",
+     "gain_pct": null,
+     "unblocks": [
+      "spelunk"
+     ],
+     "source": "my_read",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Dancing Coral [feeder] rung 1/3: 159 Char Coral -> 991. Next: Farm Char Coral to 991 for the Class EXP unlock [AutoReview] (+1 more scored)"
+  },
+  "darts": {
+   "slug": "darts",
+   "title": "Darts",
+   "role": "independent",
+   "goal": "Darter Trophy, then level the dart shop (damage, talent pts, vault discount, move speed)",
+   "section": "Darts",
+   "rung": 1,
+   "rungs": 2,
+   "now": 199,
+   "target": "Darter Trophy",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "AutoReview Darts upgrades",
+   "who": "unassigned",
+   "owner_kind": "unowned",
+   "owners": [],
+   "minigame": true,
+   "triggers": [
+    {
+     "when": "Darter Trophy owned",
+     "then": "rung 2, spend points"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Check Darter Trophy status + spendable dart points in game",
+     "stat": "trophy",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Darts [independent] rung 1/2: 199 -> Darter Trophy. Next: Check Darter Trophy status + spendable dart points in game [Griffy]"
+  },
+  "death_note": {
+   "slug": "death_note",
+   "title": "Death Note",
+   "role": "feeder",
+   "goal": "Push every mob to the next skull, closest first; kills feed damage, portals and Voidwalker",
+   "section": "Death Note",
+   "rung": 1,
+   "rungs": 4,
+   "now": "90%",
+   "target": "100%",
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "AFK maps of multikill chars vs closest mob",
+   "who": "Autistopher",
+   "owner_kind": "one",
+   "owners": [
+    "Autistopher"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "mob hits 100%",
+     "then": "move that AFK char to next closest"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Park a multikill AFK char on Gelatinous Cuboid",
+     "stat": "skull",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read",
+     "active_min": 1,
+     "wait_hr": 24,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Death Note [feeder] rung 1/4: 90% -> 100%. Next: Park a multikill AFK char on Gelatinous Cuboid [my_read]"
+  },
+  "divinity": {
+   "slug": "divinity",
+   "title": "Divinity",
+   "role": "independent",
+   "goal": "All deities blessed to 134, high offering only at 100% chance",
+   "section": "Divinity",
+   "rung": 1,
+   "rungs": 3,
+   "now": "Bagur 63 / Flutterbis 75 / Kattlekruk 88",
+   "target": 100,
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "offering: high only if 100% (Hearty Meal 61.76% now), else low + pray",
+   "who": "Autistabish",
+   "owner_kind": "one",
+   "owners": [
+    "Autistabish"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a blessing hits 100",
+     "then": "move points to the next lowest rung deity"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Low offering + pray until high offering is 100%",
+     "stat": "divinity points",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Toolbox",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Divinity [independent] rung 1/3: Bagur 63 / Flutterbis 75 / Kattlekruk 88 -> 100. Next: Low offering + pray until high offering is 100% [Toolbox]"
+  },
+  "divinity_coral_kid": {
+   "slug": "divinity_coral_kid",
+   "title": "Divinity Coral Kid",
+   "role": "feeder",
+   "goal": "Coral Kid shop (Divinity tree, paid in Divinity PTS) bought out in a sourced order; 3.21B banked",
+   "section": "Coral Kid",
+   "rung": 2,
+   "rungs": 3,
+   "now": "volcano 13, blessing +2 levels, class EXP 1, rest 0; 3.21B points",
+   "target": "blessing + volcano + class EXP bought",
+   "src": "my_read",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "coralReef.coralKidUpgrades vs divinity points",
+   "who": "Autistabish",
+   "owner_kind": "one",
+   "owners": [
+    "Autistabish"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Total Divinity LV hits a gated upgrade's requirement",
+     "do": "add it to the buy list"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Buy Blessing max +4 (93.8M Div PTS) and volcano link (34.5M), then God Rank Class EXP (396M) (my read order)",
+     "stat": "divinity",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read + Pulse 2026-10-13 PnEVVlBrUdQ",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Divinity Coral Kid [feeder] rung 2/3: volcano 13, blessing +2 levels, class EXP 1, rest 0; 3.21B points -> blessing + volcano + class EXP bought. Next: Buy Blessing max +4 (93.8M Div PTS) and volcano link (34.5M), then God Rank Class EXP (396M) (my read order) [my_read + Pulse 2026-10-13 PnEVVlBrUdQ]"
+  },
+  "drop_rate": {
+   "slug": "drop_rate",
+   "title": "Drop Rate",
+   "role": "feeder",
+   "goal": "Total DR to 30x for Marble statues (Griffy 2026-09-27), via cards first (Pulse S tier)",
+   "section": "Drop Rate",
+   "rung": 1,
+   "rungs": 4,
+   "now": null,
+   "target": "DR cards: Crystal Glunko 0 -> 7? stars, Ancient Golem 3 -> 7, Domeo Magmus 3 -> 7",
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "DR total vs 30x; plunderous kills stop ~1,000",
+   "who": "UNASSIGNED",
+   "owner_kind": "unowned",
+   "owners": [],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "DR >= 30x",
+     "then": "start Marble statue progression (statues owner)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Farm Crystal Glunko card (shared with cards rung 3)",
+     "stat": "drop rate",
+     "gain_pct": null,
+     "unblocks": [
+      "cards",
+      "statues"
+     ],
+     "source": "Pulse",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Drop Rate [feeder] rung 1/4: None -> DR cards: Crystal Glunko 0 -> 7? stars, Ancient Golem 3 -> 7, Domeo Magmus 3 -> 7. Next: Farm Crystal Glunko card (shared with cards rung 3) [Pulse]"
+  },
+  "dungeons": {
+   "slug": "dungeons",
+   "title": "Dungeons",
+   "role": "independent",
+   "goal": "Rank 44 -> 45, flurbos into weapon power + class XP/accuracy, roll a 10-12% keychain, daily world boss in a full party",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 5,
+   "now": 451000,
+   "target": 490000,
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "Happy Hour, flurbo balance, daily world boss party",
+   "who": "UNASSIGNED (DK runs it: Autistomatic is DK)",
+   "owner_kind": "unowned",
+   "owners": [],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "rank 45 reached",
+     "then": "next rank target from Toolbox rankReq"
+    },
+    {
+     "when": "Happy Hour live",
+     "then": "join carried runs, spend credits on upgrades"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Spend flurbos on weapon power then class XP / accuracy",
+     "stat": "dungeon dmg",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-10-04",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Daily world boss in a full party (Tastic's world boss job)",
+     "stat": "keychain rolls",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-09-08",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Happy Hour: Serrated Rex Rings",
+     "stat": "rings",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-09-27",
+     "active_min": 20,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Dungeons [independent] rung 1/5: 451000 -> 490000. Next: Spend flurbos on weapon power then class XP / accuracy [Griffy 2026-10-04] (+2 more scored)"
+  },
+  "emperor": {
+   "slug": "emperor",
+   "title": "Emperor",
+   "role": "multiplier",
+   "goal": "Never waste Emperor attempts; push showdowns with an Arcane Cultist, big pushes in statue week",
+   "section": "Emperor",
+   "rung": 2,
+   "rungs": 3,
+   "now": "highest showdown 77, 2/11 attempts banked",
+   "target": 78,
+   "src": "data",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "emperor attempts + highestEmperorShowdown",
+   "who": "Autistocat",
+   "owner_kind": "one",
+   "owners": [
+    "Autistocat"
+   ],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Emperor fights on Cat: stand on the small platform next to the boss and auto (skulls bounce)",
+     "stat": "showdown",
+     "gain_pct": null,
+     "unblocks": [
+      "compass",
+      "grimoire",
+      "tesseract"
+     ],
+     "source": "Griffy 2026-08-03 ypb7kpQov30 00:05:36 + Pulse 2026-10-31 6JgdYbiEKus 00:14:18",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": "1 attempt",
+     "urgent": false
+    },
+    {
+     "do": "Eat boost foods for the push (Cold Seekers, Midnight Cookies, Kebabs)",
+     "stat": "damage",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-10-31 6JgdYbiEKus 00:15:49",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Emperor [multiplier] rung 2/3: highest showdown 77, 2/11 attempts banked -> 78. Next: Emperor fights on Cat: stand on the small platform next to the boss and auto (skulls bounce) [Griffy 2026-08-03 ypb7kpQov30 00:05:36 + Pulse 2026-10-31 6JgdYbiEKus 00:14:18] (+1 more scored)"
+  },
+  "equinox": {
+   "slug": "equinox",
+   "title": "Equinox",
+   "role": "feeder",
+   "goal": "Dreams 21 -> 76 and Equinox upgrades to their caps; ladles held for Equinox needs",
+   "section": "Equinox",
+   "rung": 1,
+   "rungs": 3,
+   "now": "21/76 dreams, bar 4.06K/5.49K at 822/hr",
+   "target": "Recommended upgrades: Equinox Symbols, Voter Rights, Nonstop Studies",
+   "src": "AutoReview",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "bar full? which dream is next",
+   "who": "Autistopher",
+   "owner_kind": "one",
+   "owners": [
+    "Autistopher"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "bar full",
+     "then": "spend on the next recommended upgrade"
+    },
+    {
+     "when": "Bob Joe Pickle count hits 100",
+     "then": "do the Equinox unlock (Zack 2026-11-21)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Work the next dream (29 / 32 per AutoReview) and buy Laboratory Fuse when the bar fills",
+     "stat": "equinox",
+     "gain_pct": null,
+     "unblocks": [
+      "lab_bonuses"
+     ],
+     "source": "AutoReview",
+     "active_min": 5,
+     "wait_hr": 2,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Equinox [feeder] rung 1/3: 21/76 dreams, bar 4.06K/5.49K at 822/hr -> Recommended upgrades: Equinox Symbols, Voter Rights, Nonstop Studies. Next: Work the next dream (29 / 32 per AutoReview) and buy Laboratory Fuse when the bar fills [AutoReview]"
+  },
+  "event_points_shop": {
+   "slug": "event_points_shop",
+   "title": "Event Points Shop",
+   "role": "independent",
+   "goal": "Buy the permanent account boosts from the event shop each event, Glimmerwick Candles whenever offered",
+   "section": "Event Shop",
+   "rung": 1,
+   "rungs": 3,
+   "now": null,
+   "target": 1260,
+   "src": "Toolbox (parser)",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "_zack.web.eventShop (stars, owned)",
+   "who": "Autistotle",
+   "owner_kind": "one",
+   "owners": [
+    "Autistotle"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "event points cover the next off-rotation item",
+     "then": "Totle buys by rank"
+    },
+    {
+     "when": "Glimmerwick Candles in shop",
+     "then": "buy first"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Rank the 42 unowned off-rotation items (Smiley Statue 1.30x statues, Golden Tome, Stamp Stack, Bubble Broth first, my read)",
+     "stat": "account boosts",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Event Points Shop [independent] rung 1/3: None -> 1260. Next: Rank the 42 unowned off-rotation items (Smiley Statue 1.30x statues, Golden Tome, Stamp Stack, Bubble Broth... [my_read]"
+  },
+  "family_bonuses": {
+   "slug": "family_bonuses",
+   "title": "Family Bonuses",
+   "role": "feeder",
+   "goal": "Family bonuses rise as a side effect of leveling; no direct spend",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 2,
+   "now": "passive",
+   "target": "Keep every character leveling (talent points + family bonus)",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "characters[].familyBonuses",
+   "who": "UNASSIGNED",
+   "owner_kind": "unowned",
+   "owners": [],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a class swap or new class is planned",
+     "then": "check which family bonus it raises or drops"
+    }
+   ],
+   "tasks": [],
+   "summary": "Family Bonuses [feeder] rung 1/2: passive -> Keep every character leveling (talent points + family bonus)"
+  },
+  "farming": {
+   "slug": "farming",
+   "title": "Farming",
+   "role": "independent",
+   "goal": "Discover crops to unlock OG first, then land rank + shop upgrades (Griffy 2026-11-07)",
+   "section": "Farming",
+   "rung": 1,
+   "rungs": 3,
+   "now": "208 crops found",
+   "target": "crop discoveries for OG unlock",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "collect, land rank points (465 available), exotic market 2/6",
+   "who": "Autiszemo",
+   "owner_kind": "one",
+   "owners": [
+    "Autiszemo"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "OG unlocked",
+     "then": "switch spend to Rank Boost + exotic market"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Spend 465 land rank points",
+     "stat": "rank XP",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Toolbox",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Farming [independent] rung 1/3: 208 crops found -> crop discoveries for OG unlock. Next: Spend 465 land rank points [Toolbox]"
+  },
+  "forge_upgrades": {
+   "slug": "forge_upgrades",
+   "title": "Forge Upgrades",
+   "role": "feeder",
+   "goal": "Forge capacity up (Griffy S tier); all 6 forge upgrades already maxed, 16/16 slots",
+   "section": "Smithing",
+   "rung": 1,
+   "rungs": 4,
+   "now": 100,
+   "target": 240,
+   "src": "AutoReview",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "python3 tools/lookup.py forge_upgrades",
+   "who": "UNASSIGNED",
+   "owner_kind": "unowned",
+   "owners": [],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a new bar tier is needed (anvil tab 4, Lustre set)",
+     "then": "raise its forge slot count"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Level Forge Stamp toward 240",
+     "stat": "forge cap",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "AutoReview",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Check every character's thread/bar production in forge",
+     "stat": "bars",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Forge Upgrades [feeder] rung 1/4: 100 -> 240. Next: Level Forge Stamp toward 240 [AutoReview] (+1 more scored)"
+  },
+  "friend_bonuses": {
+   "slug": "friend_bonuses",
+   "title": "Friend Bonuses",
+   "role": "independent",
+   "goal": "Fill the empty friend bonuses: Total Damage + Skill Efficiency are 0 (Griffy: get them for damage and efficiency)",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 3,
+   "now": 3,
+   "target": "3 slots in use, all IdleOnLech: Class EXP 13.5%, Drop Rate 11.2%, Coins 23.3%. Damage, Skill Eff, Skill EXP, Extra Kills = 0",
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "monthly",
+   "look_at": "friendBonusStats",
+   "who": "Zack",
+   "owner_kind": "zack",
+   "owners": [],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Decide slot picks (keep Drop Rate/Class EXP/Coins vs swap one to Total Damage or Skill Eff)",
+     "stat": "dmg / eff",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Friend Bonuses [independent] rung 1/3: 3 -> 3 slots in use, all IdleOnLech: Class EXP 13.5%, Drop Rate 11.2%, Coins 23.3%. Damage, .... Next: Decide slot picks (keep Drop Rate/Class EXP/Coins vs swap one to Total Damage or Skill Eff) [Griffy]"
+  },
+  "gallery": {
+   "slug": "gallery",
+   "title": "Gallery",
+   "role": "multiplier",
+   "goal": "Fill gallery podiums with the strongest trophies and nametags; get Nine Dart Finish and relic nametags",
+   "section": "Gallery",
+   "rung": 2,
+   "rungs": 4,
+   "now": "15 podiums (11 Lv2, 2 Lv3, 0 Lv4), bonus multi 1.16",
+   "target": "Nine Dart Finish",
+   "src": "Pulse",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "gallery podiums + AutoReview Gallery missing trophies",
+   "who": "Autistachio",
+   "owner_kind": "one",
+   "owners": [
+    "Autistachio"
+   ],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Grind Nine Dart Finish (gets easier after a day or two; easier than Baller)",
+     "stat": "drop rate multi",
+     "gain_pct": 9,
+     "unblocks": [],
+     "source": "Pulse 2026-09-15 r43UqKC2axI 00:18:08",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Relic nametags: buy relic aquarium tags in W7 store, Cat hands them to Coral Cave Crab",
+     "stat": "nametag",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-09-04 ofuB4YV8gkM 00:08:48",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "King of Food trophy (Picnic Stowaway daily quest, already working)",
+     "stat": "20% food effect",
+     "gain_pct": 20,
+     "unblocks": [],
+     "source": "AutoReview + Zack",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Gallery [multiplier] rung 2/4: 15 podiums (11 Lv2, 2 Lv3, 0 Lv4), bonus multi 1.16 -> Nine Dart Finish. Next: Grind Nine Dart Finish (gets easier after a day or two; easier than Baller) [Pulse 2026-09-15 r43UqKC2axI 00:18:08] (+2 more scored)"
+  },
+  "gaming": {
+   "slug": "gaming",
+   "title": "Gaming",
+   "role": "independent",
+   "goal": "Bits up toward the next Superbits (27 of 72 owned), then Duper/Zuper; Snail and imports kept rolling",
+   "section": "Gaming",
+   "rung": 2,
+   "rungs": 4,
+   "now": 27,
+   "target": 28,
+   "src": "Griffy 2026-02-14; Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "log book, sprinkler, snail, mutation after each harvest, cheapest import",
+   "who": "Autistastic",
+   "owner_kind": "one",
+   "owners": [
+    "Autistastic"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a Superbits upgrade is affordable",
+     "then": "buy it before imports (my read)"
+    },
+    {
+     "when": "Nugget event week",
+     "then": "push nuggets"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Daily: log book, sprinkler, snail, mutate after harvest",
+     "stat": "bits",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2023-11-20 + 2026-02-06",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Alternate Sprout Speed / Sprout Value buys",
+     "stat": "bits/hr",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-11-07; Griffy 2026-10-16",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Buy the cheapest of Autumn Squirrel / Elegant Seashell / Snail",
+     "stat": "bits",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-11-07",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Gaming [independent] rung 2/4: 27 -> 28. Next: Daily: log book, sprinkler, snail, mutate after harvest [Griffy 2023-11-20 + 2026-02-06] (+2 more scored)"
+  },
+  "gemshop": {
+   "slug": "gemshop",
+   "title": "Gemshop",
+   "role": "feeder",
+   "goal": "Gems only on permanent multipliers: sample slots, Caverns conjuror/opal, card slots",
+   "section": "Gem Shop",
+   "rung": 1,
+   "rungs": 3,
+   "now": null,
+   "target": "Extra sample slot",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "gem balance vs next ladder item price",
+   "who": "Autistotle",
+   "owner_kind": "one",
+   "owners": [
+    "Autistotle"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "gems >= next rung price",
+     "then": "buy it, next rung"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Buy the next sample slot",
+     "stat": "print samples",
+     "gain_pct": null,
+     "unblocks": [
+      "printer"
+     ],
+     "source": "Griffy",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Gemshop [feeder] rung 1/3: None -> Extra sample slot. Next: Buy the next sample slot [Griffy]"
+  },
+  "glimbo": {
+   "slug": "glimbo",
+   "title": "Glimbo",
+   "role": "feeder",
+   "goal": "Trade spare resources to Glimbo (not reserved ones); push trades toward Pulse's 1000+",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 3,
+   "now": "167 trades by parser sum (verify; Pulse's counts are in the thousands)",
+   "target": 1000,
+   "src": "data + Pulse spend rule",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "minehead.glimbo cost vs owned",
+   "who": "Autisticles",
+   "owner_kind": "one",
+   "owners": [
+    "Autisticles"
+   ],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Do every cheap Glimbo trade you can afford, except items reserved (Dreadnought+, candy)",
+     "stat": "trades / vault max",
+     "gain_pct": null,
+     "unblocks": [
+      "vault"
+     ],
+     "source": "Pulse 2026-11-16 glvAam8Mol8 00:04:53",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Don't craft 24 HR candies for Glimbo",
+     "stat": null,
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-07-29 _maMoJLg6YE 01:51:21",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Glimbo [feeder] rung 1/3: 167 trades by parser sum (verify; Pulse's counts are in the thousands) -> 1000. Next: Do every cheap Glimbo trade you can afford, except items reserved (Dreadnought+, candy) [Pulse 2026-11-16 glvAam8Mol8 00:04:53] (+1 more scored)"
+  },
+  "greenstacks": {
+   "slug": "greenstacks",
+   "title": "Greenstacks",
+   "role": "feeder",
+   "goal": "Push greenstack count on the closest items: 200, then 250, then Pulse's 400",
+   "section": "Greenstacks",
+   "rung": 1,
+   "rungs": 3,
+   "now": 182,
+   "target": 200,
+   "src": "AutoReview",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "storage.greenStacks count + closest items (model/greenstacks.py)",
+   "who": "Autistotle",
+   "owner_kind": "one",
+   "owners": [
+    "Autistotle"
+   ],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Greenstack runs on the closest items (candy + skips)",
+     "stat": "greenstacks",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Zack plan + Griffy Lt1hV8p84Oc 18:36",
+     "active_min": 30,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Sample annoying craft resources (Clam Work resource, frisbees) for easy stacks",
+     "stat": "greenstacks",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-10-31 6JgdYbiEKus 00:05:37",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Turn in Equinox Dream 29 (greenstack dream)",
+     "stat": "equinox",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "AutoReview",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Greenstacks [feeder] rung 1/3: 182 -> 200. Next: Greenstack runs on the closest items (candy + skips) [Zack plan + Griffy Lt1hV8p84Oc 18:36] (+2 more scored)"
+  },
+  "grimoire": {
+   "slug": "grimoire",
+   "title": "Grimoire",
+   "role": "blocker",
+   "goal": "Total Grimoire upgrades 3,043 -> 3,150 to unlock Talents for Me, not for Thee; damage + accuracy first (Griffy)",
+   "section": "The Grimoire",
+   "rung": 1,
+   "rungs": 3,
+   "now": "3,043",
+   "target": "3,150",
+   "src": "AutoReview",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "total upgrades, bones 309M/290M/291M/1.58B",
+   "who": "Autiszemo + Autistopher",
+   "owner_kind": "multi",
+   "owners": [
+    "Autiszemo",
+    "Autistopher"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Grimoire not a top-10 need",
+     "then": "Death Bringers move to Spelunking (CLAUDE.md masterclass rule)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Buy every affordable level now (about 11 first levels: 6 on bone type 0, 3 on type 1, 2 on type 2), then farm bones toward 3,150 (107 levels)",
+     "stat": "total upgrades",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "AutoReview + Griffy 2026-10-16 yxgmoZQ59mY 00:46:35",
+     "active_min": 10,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": true
+    },
+    {
+     "do": "Charred Bones at peak gravestone count, just before expiry",
+     "stat": "bones",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-10-16 yxgmoZQ59mY 00:52:00",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Grimoire [blocker] rung 1/3: 3,043 -> 3,150. Next: Buy every affordable level now (about 11 first levels: 6 on bone type 0, 3 on type 1, 2 on type 2), then fa... [AutoReview + Griffy 2026-10-16 yxgmoZQ59mY 00:46:35] (+1 more scored)"
+  },
+  "guild_bonuses": {
+   "slug": "guild_bonuses",
+   "title": "Guild Bonuses",
+   "role": "independent",
+   "goal": "Join a guild: account is in no guild (level 1, 0 GP, 0 members, unlocked false), so all 18 guild bonuses are 0",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 3,
+   "now": "no guild",
+   "target": "in a guild",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "account.guild",
+   "who": "Zack",
+   "owner_kind": "zack",
+   "owners": [],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "guild joined",
+     "then": "add daily GP line to every card"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Find and join an active guild (Griffy: Discord lists open guilds)",
+     "stat": "all guild bonuses",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy",
+     "active_min": 15,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": true
+    }
+   ],
+   "summary": "Guild Bonuses [independent] rung 1/3: no guild -> in a guild. Next: Find and join an active guild (Griffy: Discord lists open guilds) [Griffy]"
+  },
+  "hat_rack": {
+   "slug": "hat_rack",
+   "title": "Hat Rack",
+   "role": "independent",
+   "goal": "Grow the Hat Rack multi (now 1.51x) as hats and multi sources come in",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 2,
+   "rungs": 4,
+   "now": "1.51x",
+   "target": "1.66x (Wild Boar)",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "hatRack.bonusMultiBreakdown + any new hat to deposit",
+   "who": "UNASSIGNED",
+   "owner_kind": "unowned",
+   "owners": [],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "new premium or sneaking hat found",
+     "then": "deposit it (Pulse 2026-10-16: deposited vanity ninja hats leave the drop table)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Ticles: push Minehead + Sushi hat-rack bonuses on his W7 minis lines (Zack 2026-11-28 approved)",
+     "stat": "hat multi",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Zack + parser breakdown",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Hat Rack [independent] rung 2/4: 1.51x -> 1.66x (Wild Boar). Next: Ticles: push Minehead + Sushi hat-rack bonuses on his W7 minis lines (Zack 2026-11-28 approved) [Zack + parser breakdown]"
+  },
+  "inventory": {
+   "slug": "inventory",
+   "title": "Inventory",
+   "role": "feeder",
+   "goal": "Carry capacity at least Void, preferably Marble, on every character; no useful gear sitting unused",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 2,
+   "now": null,
+   "target": "Marble",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "characters[].carryCapBags, inventorySlots (92-96 now)",
+   "who": "Autistotle",
+   "owner_kind": "one",
+   "owners": [
+    "Autistotle"
+   ],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Upgrade carry bags below Marble",
+     "stat": "carry cap",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy",
+     "active_min": 10,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Inventory [feeder] rung 1/2: None -> Marble. Next: Upgrade carry bags below Marble [Griffy]"
+  },
+  "islands": {
+   "slug": "islands",
+   "title": "Islands",
+   "role": "independent",
+   "goal": "Hold bottles for Fractal (570), never spend on Rando; collect trash for island stamps",
+   "section": "Islands",
+   "rung": 2,
+   "rungs": 3,
+   "now": "512 / 570 bottles, +9/day",
+   "target": "570",
+   "src": "data",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "bottles, trash, Shimmer points",
+   "who": "Autistastic",
+   "owner_kind": "one",
+   "owners": [
+    "Autistastic"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "bottles >= 570",
+     "then": "unlock Fractal (my read, Zack 2026-11-28: he saves candy, so Griffy's candy reason to skip does not apply)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Collect trash; buy any missing island stamp",
+     "stat": "stamps",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-09-21 KHuU392EW-4 00:58:30",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Spend weekly Shimmer points on skill efficiency",
+     "stat": "skill eff",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-04-23 kD7KZ5zX6Ss 00:15:16",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Islands [independent] rung 2/3: 512 / 570 bottles, +9/day -> 570. Next: Collect trash; buy any missing island stamp [Griffy 2026-09-21 KHuU392EW-4 00:58:30] (+1 more scored)"
+  },
+  "jelly_operator": {
+   "slug": "jelly_operator",
+   "title": "Jelly Operator",
+   "role": "feeder",
+   "goal": "Unlock all 8 cells (3/8 now); each lock is a Research level gate (Research Lv 41)",
+   "section": "Jelly Operator",
+   "rung": 1,
+   "rungs": 3,
+   "now": "3/8 cells",
+   "target": "4/8",
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "3 daily operations, bloodcells vs cheapest OK upgrade",
+   "who": "Autisticles",
+   "owner_kind": "one",
+   "owners": [
+    "Autisticles"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Research level rises (Totle)",
+     "then": "re-check which jelly locks opened"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Buy Organelle Cell Cultivation now, then cheapest OK upgrades (Cell Biology 840K, Bloodletting I 1.07M, Daily Transfusion 7/20 1.53M)",
+     "stat": "bloodcells",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Toolbox",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": "314K",
+     "urgent": true
+    }
+   ],
+   "summary": "Jelly Operator [feeder] rung 1/3: 3/8 cells -> 4/8. Next: Buy Organelle Cell Cultivation now, then cheapest OK upgrades (Cell Biology 840K, Bloodletting I 1.07M, Dai... [Toolbox]"
+  },
+  "killroy": {
+   "slug": "killroy",
+   "title": "Killroy",
+   "role": "feeder",
+   "goal": "Killroy skull ratio 21.7% -> 66.7% and permanent upgrades bought in the sourced order",
+   "section": "Killroy",
+   "rung": 1,
+   "rungs": 3,
+   "now": 5,
+   "target": 16,
+   "src": "AutoReview",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "skulls balance, permanent upgrade next costs",
+   "who": "class of the week: Autistocat (mage), Autistastic (warrior), Autistacular (archer)",
+   "owner_kind": "multi",
+   "owners": [
+    "Autistocat",
+    "Autistastic",
+    "Autistacular"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "3rd weekly fight unlocked (1%/lvl perm)",
+     "then": "add a 3rd fight to the weekly"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Weekly Killroy fights on Cat first; spend skulls on Skulls upgrade toward 16",
+     "stat": "skull ratio",
+     "gain_pct": null,
+     "unblocks": [
+      "sailing"
+     ],
+     "source": "AutoReview + Griffy",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Killroy [feeder] rung 1/3: 5 -> 16. Next: Weekly Killroy fights on Cat first; spend skulls on Skulls upgrade toward 16 [AutoReview + Griffy]"
+  },
+  "lab_bonuses": {
+   "slug": "lab_bonuses",
+   "title": "Lab Bonuses",
+   "role": "feeder",
+   "goal": "Every lab bonus that matters connected (9 of 18 off now)",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 2,
+   "now": "9/18 on",
+   "target": "Off now: Animal Farm, Gilded Cyclical Tubing, Viaduct of the Gods, My 1st Chemistry Set, Unadulterated Banking Fury, Sigils of Olden Alchemy, Viral Connection, Spiritual Growth, Depot Studies PhD",
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "lab layout: which bonuses are lit",
+   "who": "Autistocat",
+   "owner_kind": "one",
+   "owners": [
+    "Autistocat"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a lab-wide jewel or more line width lands",
+     "then": "re-layout and re-check which bonuses light"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Confirm in game why each of the 9 is off (out of range vs not unlocked)",
+     "stat": "lab",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Lab Bonuses [feeder] rung 1/2: 9/18 on -> Off now: Animal Farm, Gilded Cyclical Tubing, Viaduct of the Gods, My 1st Chemistry Set.... Next: Confirm in game why each of the 9 is off (out of range vs not unlocked) [my_read]"
+  },
+  "lab_chips": {
+   "slug": "lab_chips",
+   "title": "Lab Chips",
+   "role": "feeder",
+   "goal": "Own every chip worth slotting so each lab player runs its best chip (Griffy: farm a chip's mats before its rotation comes)",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 2,
+   "rungs": 3,
+   "now": "4 chip types at 0",
+   "target": "1+ each",
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "chip repo rotation (now idx 5,3,2), mats for the next missing chip",
+   "who": "Autistocat",
+   "owner_kind": "one",
+   "owners": [
+    "Autistocat"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a missing chip enters rotation",
+     "then": "buy it that week; it takes a long time to come back (Griffy)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Check which missing chip is in rotation and stock its mats",
+     "stat": "lab",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Lab Chips [feeder] rung 2/3: 4 chip types at 0 -> 1+ each. Next: Check which missing chip is in rotation and stock its mats [Griffy]"
+  },
+  "lab_jewels": {
+   "slug": "lab_jewels",
+   "title": "Lab Jewels",
+   "role": "feeder",
+   "goal": "All 24 jewels (21/24 now); North Winds + Eternal Energy boost the whole lab",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 2,
+   "now": "21/24",
+   "target": "23/24",
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "Dark Lantern, Sticky Bun and Bamboo Forest counts vs cost",
+   "who": "Autistocat",
+   "owner_kind": "one",
+   "owners": [
+    "Autistocat"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "North Winds or Eternal Energy bought",
+     "then": "re-check which lab bonuses turn on (9 of 18 off now)"
+    },
+    {
+     "when": "Pure Opal Rhombol bought",
+     "then": "Depot Studies PhD bonus becomes worth wiring"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Stock Sticky Bun (meal) + Bamboo Forest spice + Dark Lantern for the 2 lab-wide jewels",
+     "stat": "lab range",
+     "gain_pct": null,
+     "unblocks": [
+      "lab_bonuses"
+     ],
+     "source": "Toolbox",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": "2x (1000 / 10M / 10K)",
+     "urgent": false
+    }
+   ],
+   "summary": "Lab Jewels [feeder] rung 1/2: 21/24 -> 23/24. Next: Stock Sticky Bun (meal) + Bamboo Forest spice + Dark Lantern for the 2 lab-wide jewels [Toolbox]"
+  },
+  "lab_mainframe": {
+   "slug": "lab_mainframe",
+   "title": "Lab Mainframe",
+   "role": "feeder",
+   "goal": "Max players connected and wired to the right bonuses (8 of 11 connected)",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 2,
+   "now": 8,
+   "target": 11,
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "who sits in lab vs who is AFK elsewhere",
+   "who": "Autistocat",
+   "owner_kind": "one",
+   "owners": [
+    "Autistocat"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a character's AFK job frees up",
+     "then": "park them in lab if they connect"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Name which 3 characters aren't connected and whether moving them costs a higher-score job",
+     "stat": "lab",
+     "gain_pct": null,
+     "unblocks": [
+      "lab_bonuses"
+     ],
+     "source": "Toolbox",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Lab Mainframe [feeder] rung 1/2: 8 -> 11. Next: Name which 3 characters aren't connected and whether moving them costs a higher-score job [Toolbox]"
+  },
+  "legend_talents": {
+   "slug": "legend_talents",
+   "title": "Legend Talents",
+   "role": "feeder",
+   "goal": "Spend legend points down the Pulse tier list (S/A first), skip D tier",
+   "section": "Legend Talents",
+   "rung": 1,
+   "rungs": 3,
+   "now": 2,
+   "target": 3,
+   "src": "Pulse",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "legend points left to spend",
+   "who": "Autisticles",
+   "owner_kind": "one",
+   "owners": [
+    "Autisticles"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "points left > 0",
+     "then": "next rung"
+    },
+    {
+     "when": "Zack finishes transcript review",
+     "then": "re-decide hold"
+    },
+    {
+     "when": "legend points come up or are spendable",
+     "then": "full pick list from everything (tiers, goal chain, blockers), Zack 2026-11-27"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Next point: Inevitable Builder 3/3 (Construction slot, 2.5x faster)",
+     "stat": "construction",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Legend Talents [feeder] rung 1/3: 2 -> 3. Next: Next point: Inevitable Builder 3/3 (Construction slot, 2.5x faster) [Pulse]"
+  },
+  "library": {
+   "slug": "library",
+   "title": "Library",
+   "role": "feeder",
+   "goal": "Max book level up (328 now) and every priority talent at max; work single-digit ranks first (Zack 2026-11-21)",
+   "section": "Library",
+   "rung": 1,
+   "rungs": 3,
+   "now": "58 books, max Lv 328, min 153",
+   "target": "Book the card's #1-9 ranked talents to 328 (e.g. Archlord Of The Pirates 223, Dank Ranks 213)",
+   "src": "AutoReview",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "book count, card's rank list",
+   "who": "Autistopher",
+   "owner_kind": "one",
+   "owners": [
+    "Autistopher"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a ranked talent hits 328",
+     "then": "it drops off; next rank moves up"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Spend books on the top ranked talent (always show #1-55 rank)",
+     "stat": "talent Lv",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "AutoReview + Griffy 2026-10-04",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Library [feeder] rung 1/3: 58 books, max Lv 328, min 153 -> Book the card's #1-9 ranked talents to 328 (e.g. Archlord Of The Pirates 223, Dank Rank.... Next: Spend books on the top ranked talent (always show #1-55 rank) [AutoReview + Griffy 2026-10-04]"
+  },
+  "meals": {
+   "slug": "meals",
+   "title": "Meals",
+   "role": "independent",
+   "goal": "Ribbons on the meals that matter, all meals 150 then 180",
+   "section": "Cooking",
+   "rung": 1,
+   "rungs": 3,
+   "now": "25/74 meals ribboned, lowest rank 4, highest 19",
+   "target": "ribbon the speed meals first (Egg, Turkey), lowest ribbon 4 -> higher",
+   "src": "my_read",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "ribbon shelf (18 queued), combine two ribbons into a higher one (Griffy 2026-10-28)",
+   "who": "Autiszemo",
+   "owner_kind": "one",
+   "owners": [
+    "Autiszemo"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "shelf has 2 of the same ribbon",
+     "then": "combine and place on the top speed meal"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Combine shelf ribbons and place on Egg/Turkey",
+     "stat": "meal cooking speed",
+     "gain_pct": null,
+     "unblocks": [
+      "cooking"
+     ],
+     "source": "Griffy",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Meals [independent] rung 1/3: 25/74 meals ribboned, lowest rank 4, highest 19 -> ribbon the speed meals first (Egg, Turkey), lowest ribbon 4 -> higher. Next: Combine shelf ribbons and place on Egg/Turkey [Griffy]"
+  },
+  "menagerie": {
+   "slug": "menagerie",
+   "title": "Menagerie",
+   "role": "feeder",
+   "goal": "Rank up the Menagerie (rank 6) to open its gates: plate cap +10, Breeding Crucible, Shiny OverLVs, Night Marina odds, Cooking T13",
+   "section": "Luminous Menagerie",
+   "rung": 1,
+   "rungs": 3,
+   "now": 0,
+   "target": 3,
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "lumi (6.49K, +241), shells, missions",
+   "who": "Autisticles",
+   "owner_kind": "one",
+   "owners": [
+    "Autisticles"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "shell gained",
+     "then": "check rank-up"
+    },
+    {
+     "when": "Black Star affordable",
+     "then": "buy it (Pulse: strongest, scales hard, 1-2 more)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Buy cheapest boost (#4, Lv 6, 1.25K lumi) with the 6.49K on hand",
+     "stat": "boost",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": 1250,
+     "urgent": false
+    },
+    {
+     "do": "Push Worship waves 961 -> 1100 for Mission 6",
+     "stat": "mission",
+     "gain_pct": null,
+     "unblocks": [
+      "shells"
+     ],
+     "source": "Toolbox",
+     "active_min": 20,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Menagerie [feeder] rung 1/3: 0 -> 3. Next: Buy cheapest boost (#4, Lv 6, 1.25K lumi) with the 6.49K on hand [my_read] (+1 more scored)"
+  },
+  "meritocracy": {
+   "slug": "meritocracy",
+   "title": "Meritocracy",
+   "role": "independent",
+   "goal": "Each week: pros/cons for him and for the server, never what to vote (Zack 2026-11-21)",
+   "section": "Meritocracy",
+   "rung": 1,
+   "rungs": 1,
+   "now": "28 options, active shows 1.00x (no vote read)",
+   "target": "weekly vote read and weighed into that week's plan",
+   "src": "Zack",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "this week's options + which systems they hit",
+   "who": "Autistotle",
+   "owner_kind": "one",
+   "owners": [
+    "Autistotle"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a winning option boosts a goal system",
+     "then": "flag it on that system's owner card for the week"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Read the week's options, write pros/cons",
+     "stat": "weekly",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Zack",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Meritocracy [independent] rung 1/1: 28 options, active shows 1.00x (no vote read) -> weekly vote read and weighed into that week's plan. Next: Read the week's options, write pros/cons [Zack]"
+  },
+  "merits": {
+   "slug": "merits",
+   "title": "Merits",
+   "role": "independent",
+   "goal": "Max the last 3 merits (61/64 maxed)",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 3,
+   "now": "19/20",
+   "target": "20/20",
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "merit points available",
+   "who": "Autistronaut",
+   "owner_kind": "one",
+   "owners": [
+    "Autistronaut"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "all 64 maxed",
+     "then": "drop to a one-line check"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Spend merit points: W5 Tab 4 last level, then W6 Tab 5",
+     "stat": "talent pts",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Merits [independent] rung 1/3: 19/20 -> 20/20. Next: Spend merit points: W5 Tab 4 last level, then W6 Tab 5 [my_read]"
+  },
+  "minehead": {
+   "slug": "minehead",
+   "title": "Minehead",
+   "role": "feeder",
+   "goal": "Beat more Minehead opponents (9/32, next Threadhead) for its bonuses, 3 tries daily",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 2,
+   "rungs": 3,
+   "now": "9 beaten, best hit 2.85K, 1.18K currency at 103/hr",
+   "target": "Threadhead",
+   "src": "Pulse",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "tries left, currency vs cheapest damage upgrade",
+   "who": "Autisticles",
+   "owner_kind": "one",
+   "owners": [
+    "Autisticles"
+   ],
+   "minigame": true,
+   "triggers": [
+    {
+     "when": "an opponent falls",
+     "then": "note its bonus; re-check next opponent's HP"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Use 3 tries; spend currency on Base Damage I/Mega Damage I (cheapest damage)",
+     "stat": "minehead dmg",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-09-02 oRTdKQdYJv0 26:01",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": "137-172",
+     "urgent": false
+    }
+   ],
+   "summary": "Minehead [feeder] rung 2/3: 9 beaten, best hit 2.85K, 1.18K currency at 103/hr -> Threadhead. Next: Use 3 tries; spend currency on Base Damage I/Mega Damage I (cheapest damage) [Pulse 2026-09-02 oRTdKQdYJv0 26:01]"
+  },
+  "money": {
+   "slug": "money",
+   "title": "Money",
+   "role": "feeder",
+   "goal": "Enough coins for Upgrade Vault, Luminous Menagerie and Pink Jellyfish; BiS money gear on the money farmer",
+   "section": "Money",
+   "rung": 1,
+   "rungs": 5,
+   "now": null,
+   "target": 4,
+   "src": "Pulse",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "coin balance vs next Vault / Menagerie cost, money gear on",
+   "who": "Autistomatic",
+   "owner_kind": "one",
+   "owners": [
+    "Autistomatic"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Luminous Menagerie patch cost known",
+     "then": "set coin target to it"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "In-game: check Bling Pendant / Corsair / Rumble chip / Golden Bread / Draw Breaker on Matic",
+     "stat": "monster cash",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-08-02..11-11",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "AFK Matic on final map Pufferfins with the money setup",
+     "stat": "coins",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-10-31",
+     "active_min": 2,
+     "wait_hr": 24,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Money [feeder] rung 1/5: None -> 4. Next: In-game: check Bling Pendant / Corsair / Rumble chip / Golden Bread / Draw Breaker on Matic [Pulse 2026-08-02..11-11] (+1 more scored)"
+  },
+  "npc_tokens": {
+   "slug": "npc_tokens",
+   "title": "Npc Tokens",
+   "role": "feeder",
+   "goal": "Daily boss keys from quests: 10 daily Chizoar keys (Bellows quest 3) and Djonnut quest 2 key line",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 3,
+   "now": null,
+   "target": 10,
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "python3 tools/lookup.py npc_tokens",
+   "who": "UNASSIGNED",
+   "owner_kind": "unowned",
+   "owners": [],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Run Bellows quest 3 on characters that lack it",
+     "stat": "Chizoar keys",
+     "gain_pct": null,
+     "unblocks": [
+      "weekly_boss"
+     ],
+     "source": "Griffy",
+     "active_min": 15,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Npc Tokens [feeder] rung 1/3: None -> 10. Next: Run Bellows quest 3 on characters that lack it [Griffy]"
+  },
+  "obols": {
+   "slug": "obols",
+   "title": "Obols",
+   "role": "feeder",
+   "goal": "Obols toward best-in-slot drop rate; spend 6,009 fragments on rerolls; sort 116 loose obols",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 3,
+   "now": "124% family DR",
+   "target": "Glacial Guard random event every time it shows (1/60 BiS drop-rate obol)",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "characters[].obols + account.obols (family, inventory 116), currencies.ObolFragments 6009",
+   "who": "EVERY CHARACTER (own obol slots, Zack 2026-11-28); system unowned",
+   "owner_kind": "every",
+   "owners": [
+    "Autiszemo",
+    "Autistocat",
+    "Autisticles",
+    "Autistastic",
+    "Autistabish",
+    "Autistacular",
+    "Autistotle",
+    "Autistomatic",
+    "Autistronaut",
+    "Autistopher",
+    "Autistachio"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Glacial Guard event appears",
+     "then": "do it now"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Each character: check own obol slots for upgrades/rerolls",
+     "stat": "drop rate",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Sort the 116 loose obols: slot upgrades, trash junk",
+     "stat": "drop rate",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read",
+     "active_min": 10,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Obols [feeder] rung 1/3: 124% family DR -> Glacial Guard random event every time it shows (1/60 BiS drop-rate obol). Next: Each character: check own obol slots for upgrades/rerolls [my_read] (+1 more scored)"
+  },
+  "owl": {
+   "slug": "owl",
+   "title": "Owl",
+   "role": "independent",
+   "goal": "Feather reset to 28 restarts (MF21), upgrade Shiny Feathers after each reset (Griffy 2026-09-21)",
+   "section": "Owl",
+   "rung": 1,
+   "rungs": 3,
+   "now": "Feather Restart 24",
+   "target": "28",
+   "src": "AutoReview",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "restart count, feathers 1.01e32",
+   "who": "Autistopher",
+   "owner_kind": "one",
+   "owners": [
+    "Autistopher"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "ballot has feather + fish production",
+     "then": "push Owl hard that week"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Feather reset, then buy Shiny Feathers + the 5 cheap upgrades (all under 7e27, have 1.01e32)",
+     "stat": "all stat",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-09-21 KHuU392EW-4 00:49:43",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Owl [independent] rung 1/3: Feather Restart 24 -> 28. Next: Feather reset, then buy Shiny Feathers + the 5 cheap upgrades (all under 7e27, have 1.01e32) [Griffy 2026-09-21 KHuU392EW-4 00:49:43]"
+  },
+  "palette": {
+   "slug": "palette",
+   "title": "Palette",
+   "role": "feeder",
+   "goal": "Black stars on the best colors, then level owned colors in palette weeks",
+   "section": "Palette",
+   "rung": 1,
+   "rungs": 3,
+   "now": "9/37 colors owned, black stars 2 (all on Light Cyan)",
+   "target": "Pick up a black star or two (first 8 doubler placements are solved)",
+   "src": "Pulse",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "account.gaming.palette + paletteLuck",
+   "who": "Autistastic\"   # Gaming owner (data_map gaming)",
+   "owner_kind": "one",
+   "owners": [
+    "Autistastic"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "palette week in ballot",
+     "then": "rung 2, spend on owned colors"
+    },
+    {
+     "when": "a new black star is available",
+     "then": "place it (rung 1)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Check black star count + where Pulse's doubler placements go; move/add stars",
+     "stat": "palette",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Palette [feeder] rung 1/3: 9/37 colors owned, black stars 2 (all on Light Cyan) -> Pick up a black star or two (first 8 doubler placements are solved). Next: Check black star count + where Pulse's doubler placements go; move/add stars [Pulse]"
+  },
+  "poppy": {
+   "slug": "poppy",
+   "title": "Poppy",
+   "role": "feeder",
+   "goal": "Get pet Poppy for the ballot multi; friend Poppy upgrades are low priority",
+   "section": "Poppy",
+   "rung": 1,
+   "rungs": 2,
+   "now": "pet Poppy not owned",
+   "target": "owned",
+   "src": "Pulse",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "ballot + account.kangaroo",
+   "who": "Autistopher\"   # clickers job (Owl, Bubba, Poppy), Zack 2026-11-28",
+   "owner_kind": "one",
+   "owners": [
+    "Autistopher"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Poppy pet drops",
+     "then": "use the pet token on it, not Coral Cave Guardian"
+    },
+    {
+     "when": "Fairy Friends Forever owned",
+     "then": "re-rate friend Poppy (11x per Pulse 2026-09-25)"
+    }
+   ],
+   "tasks": [],
+   "summary": "Poppy [feeder] rung 1/2: pet Poppy not owned -> owned"
+  },
+  "post_office": {
+   "slug": "post_office",
+   "title": "Post Office",
+   "role": "independent",
+   "goal": "Flag only: every character's card says when they have PO points; Zack spends them (Zack 2026-11-28)",
+   "section": "Post Office",
+   "rung": 1,
+   "rungs": 3,
+   "now": "Tacular 183, Matic/Naut/Topher/Tachio 0",
+   "target": "400 each",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "PO points available -> flag on that card, no spend advice",
+   "who": "every character (own boxes)",
+   "owner_kind": "every",
+   "owners": [
+    "Autiszemo",
+    "Autistocat",
+    "Autisticles",
+    "Autistastic",
+    "Autistabish",
+    "Autistacular",
+    "Autistotle",
+    "Autistomatic",
+    "Autistronaut",
+    "Autistopher",
+    "Autistachio"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a character has PO points",
+     "do": "spend on the lowest rung box on their card"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Potion Package to 400 on Tacular, Matic, Naut, Topher, Tachio",
+     "stat": "Cranium duration",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2025-06-07 yCkTzQzeLn8",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Allocate fishing boxes before taking fishing print samples",
+     "stat": "prints",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-03-27 0qlwJ8Qm-4w",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Post Office [independent] rung 1/3: Tacular 183, Matic/Naut/Topher/Tachio 0 -> 400 each. Next: Potion Package to 400 on Tacular, Matic, Naut, Topher, Tachio [Griffy 2025-06-07 yCkTzQzeLn8] (+1 more scored)"
+  },
+  "prayers": {
+   "slug": "prayers",
+   "title": "Prayers",
+   "role": "feeder",
+   "goal": "Clear on/off per character, then level the prayers that matter",
+   "section": "Prayers",
+   "rung": 2,
+   "rungs": 3,
+   "now": "Midas 35, Unending 40",
+   "target": 50,
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "equipped prayers vs card on/off list",
+   "who": "every_character",
+   "owner_kind": "every",
+   "owners": [
+    "Autiszemo",
+    "Autistocat",
+    "Autisticles",
+    "Autistastic",
+    "Autistabish",
+    "Autistacular",
+    "Autistotle",
+    "Autistomatic",
+    "Autistronaut",
+    "Autistopher",
+    "Autistachio"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "worship unlocks a prayer",
+     "then": "add it to the on/off list"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Level Unending Energy to 50",
+     "stat": "AFK",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Toolbox",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Prayers [feeder] rung 2/3: Midas 35, Unending 40 -> 50. Next: Level Unending Energy to 50 [Toolbox]"
+  },
+  "printer": {
+   "slug": "printer",
+   "title": "Printer",
+   "role": "feeder",
+   "goal": "Samples near 90% size on the right items, refinery mats first (Griffy 2026-10-28)",
+   "section": "Sampling",
+   "rung": 1,
+   "rungs": 3,
+   "now": null,
+   "target": "90%",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "per-char slots; take new samples early, don't wait for pending bonuses",
+   "who": "Autisticles, Autistomatic, Autistronaut, Autiszemo",
+   "owner_kind": "multi",
+   "owners": [
+    "Autisticles",
+    "Autistomatic",
+    "Autistronaut",
+    "Autiszemo"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "sample size buff gained",
+     "then": "resample top refinery mats"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Resample refinery monster drops on Wind Walker",
+     "stat": "refinery mats",
+     "gain_pct": null,
+     "unblocks": [
+      "refinery"
+     ],
+     "source": "Griffy",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Printer [feeder] rung 1/3: None -> 90%. Next: Resample refinery monster drops on Wind Walker [Griffy]"
+  },
+  "quests": {
+   "slug": "quests",
+   "title": "Quests",
+   "role": "independent",
+   "goal": "Finish quests that unlock permanent things (Chizoar keys, Death Wish)",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 2,
+   "now": null,
+   "target": 1,
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "open quest steps; claim ghosts to inventory, not storage",
+   "who": "UNASSIGNED",
+   "owner_kind": "unowned",
+   "owners": [],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Chizoar keys unlocked",
+     "then": "add daily key to the owner card"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Kill a giant Neyeptune for Bellows quest 3",
+     "stat": "Chizoar keys",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy",
+     "active_min": 10,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Quests [independent] rung 1/2: None -> 1. Next: Kill a giant Neyeptune for Bellows quest 3 [Griffy]"
+  },
+  "refinery": {
+   "slug": "refinery",
+   "title": "Refinery",
+   "role": "feeder",
+   "goal": "Rank salts toward the next locked salt (7/9 unlocked) without starving gear crafts (Griffy 2026-10-04)",
+   "section": "Refinery",
+   "rung": 1,
+   "rungs": 3,
+   "now": "4 salts in deficit, 7/9 unlocked",
+   "target": "0 deficits",
+   "src": "AutoReview",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "auto-refine toggles, salt balance vs next rank cost",
+   "who": "Autistastic",
+   "owner_kind": "one",
+   "owners": [
+    "Autistastic"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a salt goes to excess",
+     "then": "rank it up or let it feed the next tier"
+    },
+    {
+     "when": "gear craft needs salts",
+     "then": "hold refining that salt until crafted"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Set auto-refine: Red off, Green off, Purple off; cover the Orange deficit first (largest)",
+     "stat": "salts",
+     "gain_pct": null,
+     "unblocks": [
+      "armor_sets"
+     ],
+     "source": "Griffy 2026-10-04 N5yJ4-tZLbY 19:26",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Refinery [feeder] rung 1/3: 4 salts in deficit, 7/9 unlocked -> 0 deficits. Next: Set auto-refine: Red off, Green off, Purple off; cover the Orange deficit first (largest) [Griffy 2026-10-04 N5yJ4-tZLbY 19:26]"
+  },
+  "research": {
+   "slug": "research",
+   "title": "Research",
+   "role": "feeder",
+   "goal": "Level Research and fill the grid by Pulse tiers (S first), find the other 21 observations",
+   "section": "Research",
+   "rung": 1,
+   "rungs": 4,
+   "now": 0,
+   "target": 1,
+   "src": "Pulse",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "daily rolls (9 left), grid points, research level 41",
+   "who": "Autistotle",
+   "owner_kind": "one",
+   "owners": [
+    "Autistotle"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "research level up (grid point)",
+     "then": "spend on next ladder rung"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Use the 9 daily rolls",
+     "stat": "observations",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Toolbox",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Next grid point -> Optical Monocle",
+     "stat": "kaleidoscope",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Research [feeder] rung 1/4: 0 -> 1. Next: Use the 9 daily rolls [Toolbox] (+1 more scored)"
+  },
+  "rift": {
+   "slug": "rift",
+   "title": "Rift",
+   "role": "independent",
+   "goal": "Rift is complete (65, 'cannot progress further'); only Topher's Super CHOW on the Rift is left",
+   "section": "Rift",
+   "rung": 2,
+   "rungs": 2,
+   "now": "no Super CHOW",
+   "target": "Super CHOW done",
+   "src": "AutoReview",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "Rift Super CHOW kill count",
+   "who": "Autistopher",
+   "owner_kind": "one",
+   "owners": [
+    "Autistopher"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a game update adds rifts",
+     "then": "re-open the ladder"
+    },
+    {
+     "when": "Super CHOW done",
+     "then": "drop to a one-line check"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Fit the Rift Super CHOW into Topher's Super CHOW rotation",
+     "stat": "CHOW",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "AutoReview",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Rift [independent] rung 2/2: no Super CHOW -> Super CHOW done. Next: Fit the Rift Super CHOW into Topher's Super CHOW rotation [AutoReview]"
+  },
+  "royal_armory": {
+   "slug": "royal_armory",
+   "title": "Royal Armory",
+   "role": "feeder",
+   "goal": "Reach the next armory shelf (230 levels) and open Resource Grades + Kingdom Expansions",
+   "section": "Royal Armory",
+   "rung": 1,
+   "rungs": 3,
+   "now": 226,
+   "target": 230,
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "Royal Guardian orbs, outposts, marble",
+   "who": "Autistastic",
+   "owner_kind": "one",
+   "owners": [
+    "Autistastic"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "shelf 230 reached",
+     "then": "next rung"
+    },
+    {
+     "when": "marble found",
+     "then": "spend on statue unlocks (Griffy 2026-10-16)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Buy 4 cheapest levels: Resource Replenish (6.35K), Solo Militia (9.94K), Anti-Rodent I (30.8K), Royal Talent Points I (39.5K)",
+     "stat": "armory levels",
+     "gain_pct": null,
+     "unblocks": [
+      "shelf 230"
+     ],
+     "source": "my_read",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": "~86.6K",
+     "urgent": false
+    }
+   ],
+   "summary": "Royal Armory [feeder] rung 1/3: 226 -> 230. Next: Buy 4 cheapest levels: Resource Replenish (6.35K), Solo Militia (9.94K), Anti-Rodent I (30.8K), Royal Talen... [my_read]"
+  },
+  "sailing": {
+   "slug": "sailing",
+   "title": "Sailing",
+   "role": "feeder",
+   "goal": "Artifact find until the missing artifacts and tiers are reachable (Zack 2026-11-26)",
+   "section": "Sailing",
+   "rung": 1,
+   "rungs": 3,
+   "now": "37/41 found",
+   "target": "41/41",
+   "src": "AutoReview",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "captain shop vs Griffy advice, trades, boat upgrades, boat->island sends",
+   "who": "Autisticles",
+   "owner_kind": "one",
+   "owners": [
+    "Autisticles"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Teal summoning artifact-find battles won",
+     "then": "re-run odds; recheck which missing artifact is reachable"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Daily captain shop/trades/boat upgrades per the card",
+     "stat": "artifact find",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy + Toolbox",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Sailing [feeder] rung 1/3: 37/41 found -> 41/41. Next: Daily captain shop/trades/boat upgrades per the card [Griffy + Toolbox]"
+  },
+  "saltlick": {
+   "slug": "saltlick",
+   "title": "Saltlick",
+   "role": "feeder",
+   "goal": "Max the 3 open Salt Lick lines, Refinery Speed first because Refinery is A-above-cooking (Griffy 2026-01-29)",
+   "section": "Salt Lick",
+   "rung": 1,
+   "rungs": 3,
+   "now": 76,
+   "target": 100,
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "Salt Lick buy-now line vs Refinery salt reserve",
+   "who": "Autistopher",
+   "owner_kind": "one",
+   "owners": [
+    "Autistopher"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Explosive Salts hits 100",
+     "then": "switch buys to Nullo Salt, tell cooking owner"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Level Explosive Salts when salts aren't reserved for Refinery",
+     "stat": "refinery speed",
+     "gain_pct": null,
+     "unblocks": [
+      "refinery"
+     ],
+     "source": "Toolbox",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Saltlick [feeder] rung 1/3: 76 -> 100. Next: Level Explosive Salts when salts aren't reserved for Refinery [Toolbox]"
+  },
+  "shrines": {
+   "slug": "shrines",
+   "title": "Shrines",
+   "role": "feeder",
+   "goal": "Shrines sit in the town that gives them the most shrine XP for what everyone is doing (Zack 2026-11-28); never move before a big claim",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 4,
+   "now": "9/9 placed on map 150, world tour on, levels 22-25 (lowest 22: Crystal, Summereading, Undead, Primordial)",
+   "target": "All shrines on the farming map for damage + drop rate",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "account.shrines",
+   "who": "anyone\"   # Zack 2026-11-28: anyone moves them",
+   "owner_kind": "unowned",
+   "owners": [],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "where the roster AFKs changes",
+     "then": "re-pick the town with the most shrine XP, move (check Collective Agreement first)"
+    },
+    {
+     "when": "Shrine XP ballot week",
+     "then": "note it, no action needed"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Check which town gives the most shrine XP for where everyone is AFK now; move shrines there if map 150 is not it",
+     "stat": "shrine",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Shrines [feeder] rung 1/4: 9/9 placed on map 150, world tour on, levels 22-25 (lowest 22: Crystal, Summereading, U... -> All shrines on the farming map for damage + drop rate. Next: Check which town gives the most shrine XP for where everyone is AFK now; move shrines there if map 150 is n... [Griffy]"
+  },
+  "slab": {
+   "slug": "slab",
+   "title": "Slab",
+   "role": "independent",
+   "goal": "Easy missing Slab items to the next 100 (1,600): Slabo bonuses + Jade Coin Magnetism scale per item",
+   "section": "Slab",
+   "rung": 1,
+   "rungs": 3,
+   "now": "1,560 / 1,938 (357 missing)",
+   "target": "1,600",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "looted count",
+   "who": "Autistabish",
+   "owner_kind": "one",
+   "owners": [
+    "Autistabish"
+   ],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Grab 40 easy Slab items (fish, catching tool, marbles, Bone Meal, Icebreaker)",
+     "stat": "slab items",
+     "gain_pct": null,
+     "unblocks": [
+      "sailing",
+      "sneaking"
+     ],
+     "source": "Griffy 2026-04-23 kD7KZ5zX6Ss 00:47:59",
+     "active_min": 20,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Slab [independent] rung 1/3: 1,560 / 1,938 (357 missing) -> 1,600. Next: Grab 40 easy Slab items (fish, catching tool, marbles, Bone Meal, Icebreaker) [Griffy 2026-04-23 kD7KZ5zX6Ss 00:47:59]"
+  },
+  "snail_mail": {
+   "slug": "snail_mail",
+   "title": "Snail Mail",
+   "role": "feeder",
+   "goal": "Keep leveling the Snail on Snail Mail from Meadow runs (no cap per Zack)",
+   "section": "Snail Mail",
+   "rung": 1,
+   "rungs": 3,
+   "now": 14,
+   "target": "Snail Mail comes from Meadow runs: normal run (no shortcut), go as deep as possible, 3-4 characters",
+   "src": "Pulse",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "account.gaming.snailLevel / snail",
+   "who": "Autistastic\"   # Gaming owner",
+   "owner_kind": "one",
+   "owners": [
+    "Autistastic"
+   ],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Meadow run (normal, deepest) with 3-4 characters for Snail Mail + Blinding Lanterns",
+     "stat": "snail",
+     "gain_pct": null,
+     "unblocks": [
+      "hole lanterns"
+     ],
+     "source": "Pulse",
+     "active_min": 10,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Snail Mail [feeder] rung 1/3: 14 -> Snail Mail comes from Meadow runs: normal run (no shortcut), go as deep as possible, 3-.... Next: Meadow run (normal, deepest) with 3-4 characters for Snail Mail + Blinding Lanterns [Pulse]"
+  },
+  "sneaking": {
+   "slug": "sneaking",
+   "title": "Sneaking",
+   "role": "independent",
+   "goal": "Break the floor-5 door with the flower stack + one breaker, fix charms, then climb masteries (now Mastery 2)",
+   "section": "Sneaking",
+   "rung": 1,
+   "rungs": 5,
+   "now": "8.92e20",
+   "target": "4.0e23",
+   "src": "Pulse",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "flower stack, door HP, daily charm rolls (49 pristine left), sneaking window open while AFK",
+   "who": "Autistacular",
+   "owner_kind": "one",
+   "owners": [
+    "Autistacular"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "flower stack hits the door break point",
+     "then": "swap breaker to lotus and break the door"
+    },
+    {
+     "when": "new mastery bottom floor",
+     "then": "black belts on everyone, sit for XP"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Keep the sneaking window open while AFK, stack flowers",
+     "stat": "door damage",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-11-03",
+     "active_min": 1,
+     "wait_hr": 24,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Use daily charm rolls on the lowest charms",
+     "stat": "charm levels",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-11-10",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Buy Sneak EXP / actions-per-hr upgrades with discount on",
+     "stat": "sneak EXP",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-11-07",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Sneaking [independent] rung 1/5: 8.92e20 -> 4.0e23. Next: Keep the sneaking window open while AFK, stack flowers [Pulse 2026-11-03] (+2 more scored)"
+  },
+  "spelunk": {
+   "slug": "spelunk",
+   "title": "Spelunk",
+   "role": "blocker",
+   "goal": "Spelunking caves: Chucklemire (DONE) -> Lunarheim -> Bizarrio; each cave boss unlocks an account bonus",
+   "section": "Spelunking",
+   "rung": 3,
+   "rungs": 4,
+   "now": "5 caves, best Lv 29/32/40/51/60",
+   "target": "Lunarheim boss",
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "deepest cave Lv, stamina, amber shop next buy (57.8T amber)",
+   "who": "Autistomatic",
+   "owner_kind": "one",
+   "owners": [
+    "Autistomatic"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Lunarheim boss down",
+     "then": "meals +30 max Lv -> cooking; +1 super talent pt; +2 gallery slots -> Tachio"
+    },
+    {
+     "when": "Bizarrio boss down",
+     "then": "Ethereal sigils -> alchemy owner"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Push Lunarheim: amber shop buys ranked by POW per amber",
+     "stat": "POW",
+     "gain_pct": null,
+     "unblocks": [
+      "cooking",
+      "super_talents",
+      "gallery"
+     ],
+     "source": "Toolbox",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Spelunk [blocker] rung 3/4: 5 caves, best Lv 29/32/40/51/60 -> Lunarheim boss. Next: Push Lunarheim: amber shop buys ranked by POW per amber [Toolbox]"
+  },
+  "stamps": {
+   "slug": "stamps",
+   "title": "Stamps",
+   "role": "feeder",
+   "goal": "Total stamp levels 9,919 -> 11,000 -> 13,000 without spending reserved materials",
+   "section": "Stamps",
+   "rung": 2,
+   "rungs": 4,
+   "now": 9919,
+   "target": 11000,
+   "src": "Toolbox",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "next stamp buy vs reserves.yaml (souls got bricked once)",
+   "who": "Autistopher",
+   "owner_kind": "one",
+   "owners": [
+    "Autistopher"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Ladle hits 180",
+     "then": "tell cooking owner, re-rank new-recipe speed"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Level Ladle stamp toward 180 if materials not reserved",
+     "stat": "cooking",
+     "gain_pct": null,
+     "unblocks": [
+      "cooking"
+     ],
+     "source": "Toolbox",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Stamps [feeder] rung 2/4: 9919 -> 11000. Next: Level Ladle stamp toward 180 if materials not reserved [Toolbox]"
+  },
+  "star_signs": {
+   "slug": "star_signs",
+   "title": "Star Signs",
+   "role": "independent",
+   "goal": "Every star sign infinite (passive, no equipping); DONE 80/81, the last one is 'unreachable for now'",
+   "section": "Star Signs",
+   "rung": 1,
+   "rungs": 1,
+   "now": "80/81 infinite",
+   "target": "81 (Glimmer of Beyond unreachable)",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "starSigns infinite count; only matters when a patch adds signs",
+   "who": "Autistopher",
+   "owner_kind": "one",
+   "owners": [
+    "Autistopher"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a new star sign becomes reachable (count of unlocked rises)",
+     "do": "add it as a shiny-pet target on Tacular's breeding card"
+    }
+   ],
+   "tasks": [],
+   "summary": "Star Signs [independent] rung 1/1: 80/81 infinite -> 81 (Glimmer of Beyond unreachable)"
+  },
+  "statues": {
+   "slug": "statues",
+   "title": "Statues",
+   "role": "feeder",
+   "goal": "Pull Kachow (Lv 27) up to the pack (240+) and keep every statue climbing; statues multiply damage, drop, skill power account-wide",
+   "section": "Statues",
+   "rung": 1,
+   "rungs": 4,
+   "now": 27,
+   "target": 240,
+   "src": "my_read",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "statue turn-ins (farmed by AFK chars)",
+   "who": "Autisticles",
+   "owner_kind": "one",
+   "owners": [
+    "Autisticles"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Meritocracy statue bonus on the ballot",
+     "then": "vote it"
+    },
+    {
+     "when": "drop rate >= 30x",
+     "then": "start Marble statue progression (Griffy 2026-11-07)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Turn in Kachow statues first until it reaches 240",
+     "stat": "Kachow Lv",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "my_read",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Level Startue Exp bubble 171 -> 240",
+     "stat": "statue exp",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Toolbox",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Statues [feeder] rung 1/4: 27 -> 240. Next: Turn in Kachow statues first until it reaches 240 [my_read] (+1 more scored)"
+  },
+  "storage": {
+   "slug": "storage",
+   "title": "Storage",
+   "role": "feeder",
+   "goal": "Every storage chest and bag owned (46/50 chests); never lose loot to full storage",
+   "section": "Storage",
+   "rung": 1,
+   "rungs": 3,
+   "now": "46/50 chests, 539 slots",
+   "target": "Inventory Bag D on every character missing it (Baba Yaga quest, Zack rule)",
+   "src": "AutoReview",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "free slots, missing bags per character",
+   "who": "Autistotle",
+   "owner_kind": "one",
+   "owners": [
+    "Autistotle"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Baba Yaga up",
+     "then": "kill her on the next character in card order missing Bag D"
+    },
+    {
+     "when": "storage tight",
+     "then": "dump cereal/butterflies first, easy to re-farm (Griffy 2026-10-28)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Buy missing Loot Luggage from the vendor on each character that lacks it",
+     "stat": "slots",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "AutoReview",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Storage [feeder] rung 1/3: 46/50 chests, 539 slots -> Inventory Bag D on every character missing it (Baba Yaga quest, Zack rule). Next: Buy missing Loot Luggage from the vendor on each character that lacks it [AutoReview]"
+  },
+  "summoning": {
+   "slug": "summoning",
+   "title": "Summoning",
+   "role": "feeder",
+   "goal": "Teal Summoning (unlocked by Chucklemire): win the Teal battles, artifact find + damage first",
+   "section": "Summoning",
+   "rung": 1,
+   "rungs": 3,
+   "now": "0 Teal wins",
+   "target": "first Teal win",
+   "src": "AutoReview",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "essence spend, Teal battle attempt, endless",
+   "who": "Autistocat",
+   "owner_kind": "one",
+   "owners": [
+    "Autistocat"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Monty/Jojo/Mr. K won",
+     "then": "tell sailing (Autisticles): artifact odds change"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Attempt first Teal battle; buy essence upgrades that raise army DMG/HP",
+     "stat": "army power",
+     "gain_pct": null,
+     "unblocks": [
+      "sailing"
+     ],
+     "source": "AutoReview",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Summoning [feeder] rung 1/3: 0 Teal wins -> first Teal win. Next: Attempt first Teal battle; buy essence upgrades that raise army DMG/HP [AutoReview]"
+  },
+  "super_talents": {
+   "slug": "super_talents",
+   "title": "Super Talents",
+   "role": "feeder",
+   "goal": "Every open super point spent on the creator pick for that preset; wrong supers reset (about 70 resets, only for a wrong super)",
+   "section": "Super Talents",
+   "rung": 1,
+   "rungs": 3,
+   "now": "Topher + Totle have wrong supers",
+   "target": "0 wrong supers",
+   "src": "Zack rule 2026-11-21",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "cards4 Spend: Super talents lines (model/supertalents.py)",
+   "who": "every character (own presets)",
+   "owner_kind": "every",
+   "owners": [
+    "Autiszemo",
+    "Autistocat",
+    "Autisticles",
+    "Autistastic",
+    "Autistabish",
+    "Autistacular",
+    "Autistotle",
+    "Autistomatic",
+    "Autistronaut",
+    "Autistopher",
+    "Autistachio"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Royal Armory total levels +290",
+     "do": "RG supers unlock: Pit of Pages, Marble, Orb, Regal Intervention, Warbound Politics"
+    },
+    {
+     "when": "Lunarheim lore boss down",
+     "do": "+1 point on every character, spend per planner"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Topher: reset the Siege Breaker supers, re-super per DB list",
+     "stat": "DB kills",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "model/supertalents.py",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Totle: reset Extra Bags (fight) and Happy Dude (skill), then spend",
+     "stat": "Maestro",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "model/supertalents.py",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Tastic: super Brute Efficiency (skilling preset)",
+     "stat": "efficiency",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy+Pulse",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Super Talents [feeder] rung 1/3: Topher + Totle have wrong supers -> 0 wrong supers. Next: Topher: reset the Siege Breaker supers, re-super per DB list [model/supertalents.py] (+2 more scored)"
+  },
+  "sushi_station": {
+   "slug": "sushi_station",
+   "title": "Sushi Station",
+   "role": "independent",
+   "goal": "Stop wasting capped fuel, then push tiers for the Bubba meat and Spelunking POW bonuses (Griffy 2026-04-01)",
+   "section": "Sushi Station",
+   "rung": 1,
+   "rungs": 3,
+   "now": "fuel 546K/546K cap, bucks 4.22T, +393B/hr, 0 Perfectos",
+   "target": "Fuel Capacity III 1",
+   "src": "data + AutoReview",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "fuel vs cap, bucks vs cheapest upgrade",
+   "who": "Autisticles",
+   "owner_kind": "one",
+   "owners": [
+    "Autisticles"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "fuel at cap",
+     "then": "buy fuel capacity/fastburn"
+    },
+    {
+     "when": "research level 52",
+     "then": "start Griffy's high-tier sushi strategy"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Buy Fuel Capacity III (319M), Sushi Tier Vision (1.07B), Shake N' Bake (1.31B), then Fuel Capacity II/I + Fastburn I/II: 4.22T covers all",
+     "stat": "fuel cap, bucks",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "AutoReview + data",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": "~300B",
+     "urgent": true
+    }
+   ],
+   "summary": "Sushi Station [independent] rung 1/3: fuel 546K/546K cap, bucks 4.22T, +393B/hr, 0 Perfectos -> Fuel Capacity III 1. Next: Buy Fuel Capacity III (319M), Sushi Tier Vision (1.07B), Shake N' Bake (1.31B), then Fuel Capacity II/I + F... [AutoReview + data]"
+  },
+  "talents": {
+   "slug": "talents",
+   "title": "Talents",
+   "role": "feeder",
+   "goal": "Each character runs their own talents: one skilling + one fighting preset (break the standard only for a reason: masterclass or a niche focus that helps), every talent at cap, super points spent, multikill on the AFK bar",
+   "section": "Talents",
+   "rung": 1,
+   "rungs": 3,
+   "now": "super points unspent: Totle 1, Tachio 4",
+   "target": "0 unspent",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "characters[].talents + superTalentLeftToSpend",
+   "who": "every character (own talents, Zack 2026-11-28)",
+   "owner_kind": "every",
+   "owners": [
+    "Autiszemo",
+    "Autistocat",
+    "Autisticles",
+    "Autistastic",
+    "Autistabish",
+    "Autistacular",
+    "Autistotle",
+    "Autistomatic",
+    "Autistronaut",
+    "Autistopher",
+    "Autistachio"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "superTalentLeftToSpend > 0",
+     "then": "spend it; shown on the card until spent (cant_miss super_left)"
+    },
+    {
+     "when": "a character has no skilling/fighting preset pair",
+     "then": "flag it unless a masterclass/niche reason is on file"
+    },
+    {
+     "when": "Library checkout done",
+     "then": "re-rank next max talent"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Spend Totle's 1 + Tachio's 4 super talent points",
+     "stat": "talent",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Toolbox",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "Check multikill talent is on every AFK character's bar",
+     "stat": "multikill",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Talents [feeder] rung 1/3: super points unspent: Totle 1, Tachio 4 -> 0 unspent. Next: Spend Totle's 1 + Tachio's 4 super talent points [Toolbox] (+1 more scored)"
+  },
+  "tesseract": {
+   "slug": "tesseract",
+   "title": "Tesseract",
+   "role": "masterclass",
+   "goal": "Raise total Tesseract levels to the next unlocks (2000 Jewel of the North Winds, 2050 Arcanist Damage IV)",
+   "section": "The Tesseract",
+   "rung": 1,
+   "rungs": 4,
+   "now": "1932 total levels",
+   "target": 2000,
+   "src": "data",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "tesseract total levels + cheapest open upgrades",
+   "who": "Autistocat",
+   "owner_kind": "one",
+   "owners": [
+    "Autistocat"
+   ],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Buy the cheapest open levels until 2000 total (68 to go): Ring Drops 1.02M, Arcanist Defence III 1.21M, Ethereal Opals 1.22M, Villager Indoctrination 1.38M, Fastcasting 1.76M...",
+     "stat": "total levels",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "parser costs",
+     "active_min": 5,
+     "wait_hr": null,
+     "cost": "~1M+ tachyons each",
+     "urgent": false
+    },
+    {
+     "do": "Push Inviting a Plus One 48 -> 200+",
+     "stat": "extra mob chance",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-09-13 hM-HC11gshI 00:14:26",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": "8.15M next",
+     "urgent": false
+    }
+   ],
+   "summary": "Tesseract [masterclass] rung 1/4: 1932 total levels -> 2000. Next: Buy the cheapest open levels until 2000 total (68 to go): Ring Drops 1.02M, Arcanist Defence III 1.21M, Eth... [parser costs] (+1 more scored)"
+  },
+  "the_button": {
+   "slug": "the_button",
+   "title": "The Button",
+   "role": "feeder",
+   "goal": "Unlock The Button, then press every task as it comes and use both weekly insta skips on walls",
+   "section": "The Button",
+   "rung": 1,
+   "rungs": 3,
+   "now": "locked (totalPresses 0, 0 insta skips/week)",
+   "target": "unlocked",
+   "src": "Toolbox/cards4",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "button.totalPresses + currentTask; until unlocked, the gate on Totle's card",
+   "who": "Autisticles",
+   "owner_kind": "one",
+   "owners": [
+    "Autisticles"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "totalPresses > 0",
+     "do": "switch check to the current task requirement + weekly 2 insta skips"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Totle: W7 map push + Research level to unlock Jelly Operator / The Button",
+     "stat": "unlock",
+     "gain_pct": null,
+     "unblocks": [
+      "the_button",
+      "jelly_operator"
+     ],
+     "source": "cards4 2026-11-28",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    },
+    {
+     "do": "After unlock: spend both weekly insta skips on the hardest wall (Pulse S tier)",
+     "stat": "presses",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-09-02 oRTdKQdYJv0 00:22:26",
+     "active_min": 2,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "The Button [feeder] rung 1/3: locked (totalPresses 0, 0 insta skips/week) -> unlocked. Next: Totle: W7 map push + Research level to unlock Jelly Operator / The Button [cards4 2026-11-28] (+1 more scored)"
+  },
+  "tome": {
+   "slug": "tome",
+   "title": "Tome",
+   "role": "independent",
+   "goal": "Tome is a byproduct: close the biggest point gaps only when the owning system is already being worked (Griffy 2026-04-23: don't chase Tome rank)",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 3,
+   "now": "36,230 / 65,900 points",
+   "target": "No Tome-only pushes; rank follows account progress",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "total points + top 5 gaps",
+   "who": "Zack (weekly review, no owner, Zack 2026-11-28)",
+   "owner_kind": "zack",
+   "owners": [],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "None standalone. When working Bubbles/Menagerie/Arcade, note the Tome gain",
+     "stat": "tome points",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-04-23 kD7KZ5zX6Ss 00:42:49",
+     "active_min": null,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Tome [independent] rung 1/3: 36,230 / 65,900 points -> No Tome-only pushes; rank follows account progress. Next: None standalone. When working Bubbles/Menagerie/Arcade, note the Tome gain [Griffy 2026-04-23 kD7KZ5zX6Ss 00:42:49]"
+  },
+  "trapping": {
+   "slug": "trapping",
+   "title": "Trapping",
+   "role": "feeder",
+   "goal": "Nature traps on every character, critters routed to vials and anvil, a 24h set-and-forget loop",
+   "section": "Trapping",
+   "rung": 1,
+   "rungs": 3,
+   "now": null,
+   "target": 11,
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "traps ready, reset long traps (Royal 40h / Wooden 5d)",
+   "who": "Autistacular",
+   "owner_kind": "one",
+   "owners": [
+    "Autistacular"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "vial critter cost covered",
+     "then": "Cat levels the vial (feed alchemy_vials)"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Put Nature traps on every character missing one",
+     "stat": "critter gain",
+     "gain_pct": null,
+     "unblocks": [
+      "alchemy_vials",
+      "anvil"
+     ],
+     "source": "Griffy",
+     "active_min": 10,
+     "wait_hr": 24,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Trapping [feeder] rung 1/3: None -> 11. Next: Put Nature traps on every character missing one [Griffy]"
+  },
+  "vault": {
+   "slug": "vault",
+   "title": "Vault",
+   "role": "independent",
+   "goal": "Coins into the cheapest open vault rows that feed live goals (Kitchen Dream-mare, Bubba, Wicked Smart)",
+   "section": "Upgrade Vault",
+   "rung": 1,
+   "rungs": 3,
+   "now": "73/90 maxed, 10.1K total levels",
+   "target": "Kitchen Dream-mare 327",
+   "src": "Griffy + AutoReview",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "bank 1.62e33 coins vs cheapest open row (Topheavy Charms 3.47e30)",
+   "who": "Autistopher",
+   "owner_kind": "one",
+   "owners": [
+    "Autistopher"
+   ],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Buy Kitchen Dream-mare, then cheapest open row the coins allow",
+     "stat": "meal speed",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Griffy 2026-03-27 0qlwJ8Qm-4w 00:07:44",
+     "active_min": 3,
+     "wait_hr": null,
+     "cost": "1.22e32 coins",
+     "urgent": true
+    }
+   ],
+   "summary": "Vault [independent] rung 1/3: 73/90 maxed, 10.1K total levels -> Kitchen Dream-mare 327. Next: Buy Kitchen Dream-mare, then cheapest open row the coins allow [Griffy 2026-03-27 0qlwJ8Qm-4w 00:07:44]"
+  },
+  "weekly_boss": {
+   "slug": "weekly_boss",
+   "title": "Weekly Boss",
+   "role": "independent",
+   "goal": "Never skip: 5 Skulls run on the first kill of the week, trophy run every other day, both from the sheet's 11-character rotation",
+   "section": "Weekly Boss",
+   "rung": 1,
+   "rungs": 2,
+   "now": "Unit T-31 (2026-11-26 to 2026-12-03)",
+   "target": "5 skulls + daily trophy",
+   "src": "Weekly Boss Rotations sheet (fan)",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "brain/weekly_boss.yaml via tools/weekly_boss.py --today",
+   "who": "Autistastic",
+   "owner_kind": "one",
+   "owners": [
+    "Autistastic"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "Thursday 00:00 GMT reset",
+     "then": "new boss; stored next week becomes current, refresh the sheet so the following week is stored too"
+    },
+    {
+     "when": "weekly_boss.yaml has no week covering today",
+     "then": "card says stale, refresh before the run"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Weekly boss: daily run from the card line (sheet rotation)",
+     "stat": "trophies",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Weekly Boss Rotations sheet",
+     "active_min": 5,
+     "wait_hr": 24,
+     "cost": null,
+     "urgent": true
+    }
+   ],
+   "summary": "Weekly Boss [independent] rung 1/2: Unit T-31 (2026-11-26 to 2026-12-03) -> 5 skulls + daily trophy. Next: Weekly boss: daily run from the card line (sheet rotation) [Weekly Boss Rotations sheet]"
+  },
+  "world_bosses": {
+   "slug": "world_bosses",
+   "title": "World Bosses",
+   "role": "feeder",
+   "goal": "Daily world boss in a max party",
+   "section": "World Bosses",
+   "rung": 1,
+   "rungs": 2,
+   "now": null,
+   "target": "daily",
+   "src": "Pulse",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "in game (not in parser)",
+   "who": "Autistastic\"   # World bosses + minibosses job (jobs.yaml)",
+   "owner_kind": "one",
+   "owners": [
+    "Autistastic"
+   ],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Daily world boss in a max party",
+     "stat": "loot",
+     "gain_pct": null,
+     "unblocks": [
+      "tome"
+     ],
+     "source": "Pulse",
+     "active_min": 5,
+     "wait_hr": 24,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "World Bosses [feeder] rung 1/2: None -> daily. Next: Daily world boss in a max party [Pulse]"
+  },
+  "world_progress": {
+   "slug": "world_progress",
+   "title": "World Progress",
+   "role": "feeder",
+   "goal": "Push W7 maps to the next useful unlock, then pause (Griffy)",
+   "section": "Pinchy high",
+   "rung": 3,
+   "rungs": 4,
+   "now": "W7 not finished; current map not in parser",
+   "target": "Litterfish",
+   "src": "Griffy",
+   "finished": false,
+   "flags": [],
+   "cadence": "weekly",
+   "look_at": "finishedWorlds + W7 map kills (not in parser yet)",
+   "who": "UNASSIGNED",
+   "owner_kind": "unowned",
+   "owners": [],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "kills per kill wins the ballot",
+     "then": "push week: best fighter on the next W7 portal"
+    },
+    {
+     "when": "a W7 map gate blocks spelunking",
+     "then": "Law 1: map push becomes the blocker"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "Confirm current W7 map in game and whether Litterfish is reached",
+     "stat": "unlock",
+     "gain_pct": null,
+     "unblocks": [
+      "spelunk",
+      "glimbo",
+      "research"
+     ],
+     "source": "Griffy 2026-04-23 kD7KZ5zX6Ss 00:26:02",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "World Progress [feeder] rung 3/4: W7 not finished; current map not in parser -> Litterfish. Next: Confirm current W7 map in game and whether Litterfish is reached [Griffy 2026-04-23 kD7KZ5zX6Ss 00:26:02]"
+  },
+  "worship": {
+   "slug": "worship",
+   "title": "Worship",
+   "role": "feeder",
+   "goal": "Totem waves high enough to unlock every TD prayer and reach Worship 500+ for Equinox and Menagerie",
+   "section": "none (AutoReview does not rate it)",
+   "rung": 1,
+   "rungs": 4,
+   "now": null,
+   "target": 10,
+   "src": "my_read",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "Worship level + charge on each card; owner does the totem push",
+   "who": "every_character",
+   "owner_kind": "every",
+   "owners": [
+    "Autiszemo",
+    "Autistocat",
+    "Autisticles",
+    "Autistastic",
+    "Autistabish",
+    "Autistacular",
+    "Autistotle",
+    "Autistomatic",
+    "Autistronaut",
+    "Autistopher",
+    "Autistachio"
+   ],
+   "minigame": false,
+   "triggers": [
+    {
+     "when": "a totem rung wave reached",
+     "then": "route new prayer unlock to prayers owner (model/worship.py -> Autistacular)"
+    },
+    {
+     "when": "wave 14 reached on a totem",
+     "then": "souls obtainable there (Griffy 2026-10-28): add to soul cover on Bish"
+    }
+   ],
+   "tasks": [
+    {
+     "do": "One proper push on Breezy Battle to wave 10",
+     "stat": "prayer unlocks",
+     "gain_pct": null,
+     "unblocks": [
+      "prayers",
+      "equinox",
+      "menagerie"
+     ],
+     "source": "my_read",
+     "active_min": 15,
+     "wait_hr": null,
+     "cost": null,
+     "urgent": false
+    }
+   ],
+   "summary": "Worship [feeder] rung 1/4: None -> 10. Next: One proper push on Breezy Battle to wave 10 [my_read]"
+  },
+  "zenith_market": {
+   "slug": "zenith_market",
+   "title": "Zenith Market",
+   "role": "feeder",
+   "goal": "Spend Zenith Clusters cheapest-high-value first; True Zen is the long push",
+   "section": "Zenith Market",
+   "rung": 1,
+   "rungs": 3,
+   "now": "11 clusters; TRUE ZEN 8, DOUBLE CLUSTER 3, KRUK 2, LAMP 1, rest 0",
+   "target": "tier 1 buys",
+   "src": "Pulse (cheap upgrades worthwhile)",
+   "finished": false,
+   "flags": [],
+   "cadence": "daily",
+   "look_at": "zenith.market costs vs clusters",
+   "who": "Autisticles",
+   "owner_kind": "one",
+   "owners": [
+    "Autisticles"
+   ],
+   "minigame": false,
+   "triggers": [],
+   "tasks": [
+    {
+     "do": "Buy Lamp Boost (6 clusters) now",
+     "stat": "Lamp bonus",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-11-15 hSzyEAfqjMM 00:14:16 (cheap upgrades)",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": "6 clusters",
+     "urgent": false
+    },
+    {
+     "do": "Then True Zen Lv9 (10) and Double Cluster Lv4 (15) as clusters come in",
+     "stat": "Zenith statues / cluster drops",
+     "gain_pct": null,
+     "unblocks": [],
+     "source": "Pulse 2026-11-15",
+     "active_min": 1,
+     "wait_hr": null,
+     "cost": "10 / 15 clusters",
+     "urgent": false
+    }
+   ],
+   "summary": "Zenith Market [feeder] rung 1/3: 11 clusters; TRUE ZEN 8, DOUBLE CLUSTER 3, KRUK 2, LAMP 1, rest 0 -> tier 1 buys. Next: Buy Lamp Boost (6 clusters) now [Pulse 2026-11-15 hSzyEAfqjMM 00:14:16 (cheap upgrades)] (+1 more scored)"
+  }
+ },
+ "problems": [],
+ "owner_mismatch": [
+  "cog_board: GOAL check.who Tastic vs system_index unassigned in jobs.yaml (check.who wins)",
+  "death_note: GOAL check.who Topher vs system_index Topher, Zemo (check.who wins)",
+  "glimbo: GOAL check.who Ticles vs system_index unassigned in jobs.yaml (check.who wins)",
+  "grimoire: GOAL check.who Zemo, Topher vs system_index Zemo (check.who wins)",
+  "inventory: GOAL check.who Totle vs system_index unassigned in jobs.yaml (check.who wins)",
+  "statues: GOAL check.who Ticles vs system_index Bish, Tastic, Ticles, Matic (check.who wins)"
+ ],
+ "multi_owner": [
+  "grimoire: Autiszemo + Autistopher",
+  "killroy: class of the week: Autistocat (mage), Autistastic (warrior), Autistacular (archer)",
+  "printer: Autisticles, Autistomatic, Autistronaut, Autiszemo"
+ ]
+}

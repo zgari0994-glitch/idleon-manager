@@ -25,7 +25,7 @@ ladder:
   - {tier: 2, target: "Push palette levels during a palette week", source: "Pulse", date: "2026-11-16"}   # glvAam8Mol8 00:07:23
   - {tier: 3, target: "Bright Cyan (Artifact Find) with 2 black stars", source: "Pulse", date: "2026-10-31"}   # _wJJ9siUFLk 00:28:44
 objective: {rung: 1, now: "9/37 colors owned, black stars 2 (all on Light Cyan)", target: null, eta_days: null}
-check: {cadence: weekly, who: "Autistastic"   # Gaming owner (data_map gaming), look_at: "account.gaming.palette + paletteLuck"}
+check: {cadence: weekly, who: "Autistastic\"   # Gaming owner (data_map gaming)", look_at: "account.gaming.palette + paletteLuck"}
 buffs: []
 triggers:
   - {when: "palette week in ballot", then: "rung 2, spend on owned colors"}

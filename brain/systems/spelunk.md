@@ -22,8 +22,8 @@ role: blocker   # main account goal system
 goal: "Spelunking caves: Chucklemire (DONE) -> Lunarheim -> Bizarrio; each cave boss unlocks an account bonus"
 coverage: partial
 ladder:
-  - {tier: 1, target: "POW 900K (Pillar Coral fish)", source: "Zack", date: "2026-11-21"}   # DONE
-  - {tier: 2, target: "Chucklemire boss (Teal Summoning)", source: "Toolbox", date: "2026-11-27"}   # DONE
+  - {tier: 1, target: "POW 900K (Pillar Coral fish)", source: "Zack", date: "2026-11-21", done: true}   # DONE
+  - {tier: 2, target: "Chucklemire boss (Teal Summoning)", source: "Toolbox", date: "2026-11-27", done: true}   # DONE
   - {tier: 3, target: "Lunarheim boss: +30 meal max Lv, +1 super talent pt, +2 gallery slots", source: "Toolbox", date: "2026-11-27"}
   - {tier: 4, target: "Bizarrio boss: Ethereal sigils, +0.2% Prisma bubble mult each", source: "Toolbox", date: "2026-11-27"}
 objective: {rung: 3, now: "5 caves, best Lv 29/32/40/51/60", target: "Lunarheim boss", eta_days: null}

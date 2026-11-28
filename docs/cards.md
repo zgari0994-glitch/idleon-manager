@@ -40,3 +40,8 @@ Game save = `data.TimeAway.GlobalTime` (UTC epoch). Store UTC, show Eastern. Alw
 - AFK engine tiers now: ZACK'S PLAN > MASTERCLASS (only while that system is a top-10 need: `when: top_need:<section>`) > LAW > JOB > CLASS > MY READ. needs.park() delegates to model/afk.py (no character special-cased, dead first-cave rule gone).
 - Compass (model/compass.py plan/park_fields, idleon.wiki Wind Walker only, flagged): dust + medallions only active in Tempest Form; AFK banks Aethermoons only from non-candy fighting AFK after 1000 Aether Fragments; 1 moon = 1h of dust at the AFK Info rate of the map he stands on when used (1 per 2h vs 1 per 1h unconfirmed); Spelunking AFK = 0. While Compass is a top-10 need Tacular parks fighting AFK on the dust type with the biggest gap; Zack picks the map. Daytime line = next medallion (easiest unfound, from the save) + next abomination.
 - State for 2-pulls rules is recorded on every phone pull before cards2: goalpick.record, afk.record, score.record (state/*.json). Before 2026-11-27 nothing called them.
+
+## GOAL lines on cards (Phase B, Zack 2026-11-28)
+- Every owned system shows under "Goals (every owned system, from its GOAL block)": daily = full line every day; weekly = full line Thu, compact name other days; monthly = the 1st; flagged lines always full.
+- Do 1 = that character's own anvil (points unspent from the save). Anvil is daily for everyone; Gas Shard + Historium bars stockpile watched daily (Zack 2026-11-28).
+- Unowned + Zack systems: cards4 "## Account systems" on their cadence, tasks still scored (never left off). Minigames (basketball, darts, minehead) = suggested active tasks for trophies, no daily nag, kept out of night watch. `tools/card.py goal` prints it.

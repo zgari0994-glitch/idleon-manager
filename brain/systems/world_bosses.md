@@ -26,7 +26,7 @@ ladder:
   - {tier: 1, target: "Daily world boss in a maxed party; teleporting multiplies boss HP + loot chance", source: "Pulse", date: "2026-09-08"}   # 0xjp2t-iukY 00:13:18
   - {tier: 2, target: "World boss multiplies flobbers + dungeon drops, feeds tome", source: "Pulse", date: "2026-09-08"}   # 0xjp2t-iukY 00:14:19
 objective: {rung: 1, now: null, target: "daily", eta_days: null}
-check: {cadence: daily, who: "Autistastic"   # World bosses + minibosses job (jobs.yaml), look_at: "in game (not in parser)"}
+check: {cadence: daily, who: "Autistastic\"   # World bosses + minibosses job (jobs.yaml)", look_at: "in game (not in parser)"}
 buffs: []
 triggers: []
 stall: {pulls_no_progress: 6, eta_over_days: 90}

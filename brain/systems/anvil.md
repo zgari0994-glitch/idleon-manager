@@ -35,6 +35,7 @@ tasks:
   - {do: "Spend 29 anvil points on Ticles, 11 on Totle (then the 2-4 on the rest)", stat: "anvil speed/cap", gain_pct: null, unblocks: [], source: "my_read (data)", active_min: 2, wait_hr: null, cost: null, urgent: false}
   - {do: "In game: Topher shows -435 available points and Bish cap 0; check both anvils", stat: "data check", gain_pct: null, unblocks: [], source: "my_read (data)", active_min: 2, wait_hr: null, cost: null, urgent: false}
   - {do: "Confirm anvil tab level in game (Tab 4 gates Lustre + next tools per Griffy)", stat: "unlock", gain_pct: null, unblocks: [armor_sets], source: "Griffy 2026-10-28 C2oiRVIpmq8 01:11:34", active_min: 1, wait_hr: null, cost: null, urgent: false}
+  - {do: "Point spare anvil production at Gas Shard + Historium bars as soon as they are craftable; stockpile now, months of grinding before they gate progress", stat: "bars stockpile", gain_pct: null, unblocks: [], source: "Zack 2026-11-28", active_min: 2, wait_hr: null, cost: null, urgent: false}
 # data now: all 11 produce item slot 2 (Tastic also slot 9; Totle, Matic, Naut, Topher run slot 9 too). Item names per slot not mapped.
 # gap: lookup.py has no 'anvil' system (data is characters[].anvil); tab level + item names not in parser.
 ```

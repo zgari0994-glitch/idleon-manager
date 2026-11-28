@@ -30,3 +30,9 @@ Every file in brain/systems/ gets one GOAL block (template: brain/systems/_TEMPL
 Plus coverage grade (sourced / partial / my read / none), used by the audit.
 
 Rollout: (1) standard [done 2026-11-27] -> (2) audit all brain/systems vs standard: has plan / partial / nothing, ranked backlog, plus which can't emit scored tasks yet -> (3) system by system (divinity, gaming, cooking stuck at 111, anvil + armor, vials vs trapping, Salt Lick, Bubba, stamps, cards to 6-star, golden food first), creator guidance pulled, plan approved, then into the pipeline. model/score.py build = its own approved step.
+
+## Phase B: GOAL blocks in the pipeline (Zack 2026-11-28)
+- model/goals.py reads every APPROVED block -> model/goals.json: current rung (first tier not `done: true`, `(done` in the target also counts), now/target, next task, owner, flags. MERGED blocks skipped.
+- Owner = GOAL `check.who` (wins over jobs.yaml/system_index); multi-owner = shown on each named card as "shared: Zack decides". Mismatches print in `python3 model/goals.py`.
+- Retire: every rung done -> "maintained", tasks leave scoring. Numeric now >= target -> TARGET HIT flag. STALL: data fingerprint (data_map path) unchanged `pulls_no_progress` pulls (state/goal_history.json, recorded by the Action) or eta_days > eta_over_days.
+- GOAL tasks feed model/score.py (active_min = minutes, wait_hr, urgent or role blocker = urgency, unblocks add reach). Policy: brain/goal_policy.yaml.

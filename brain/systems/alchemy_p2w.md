@@ -21,7 +21,7 @@ role: independent
 goal: "All P2W maxed (Zack 2026-11-27); only the small buy when the highest alchemy level rises"
 coverage: sourced
 ladder:
-  - {tier: 1, target: "All cauldron, liquid and vial P2W maxed", source: "Zack", date: "2026-11-27"}   # DONE
+  - {tier: 1, target: "All cauldron, liquid and vial P2W maxed", source: "Zack", date: "2026-11-27", done: true}   # DONE
   - {tier: 2, target: "Buy the new P2W level each time the highest character's alchemy level sets a new high (minor)", source: "Zack", date: "2026-11-27"}
 objective: {rung: 2, now: "maxed", target: "next alchemy-level unlock", eta_days: null}
 check: {cadence: weekly, who: "Autistocat", look_at: "highest alchemy level vs last P2W unlock"}

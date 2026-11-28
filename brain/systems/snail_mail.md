@@ -25,7 +25,7 @@ ladder:
   - {tier: 2, target: "Snail is the top gaming-gains upgrade", source: "Griffy", date: "2026-07-29"}   # _maMoJLg6YE 01:58:43
   - {tier: 3, target: "Skip the Double Snail Mail vote (about 8.5 extra/day)", source: "Pulse", date: "2026-11-13"}   # 0DX3KPt_VlM 00:01:40
 objective: {rung: 1, now: 14, target: null, eta_days: null}   # Zack 2026-11-28: no cap in game; parser maxLevel 30 meaning unknown
-check: {cadence: daily, who: "Autistastic"   # Gaming owner, look_at: "account.gaming.snailLevel / snail"}
+check: {cadence: daily, who: "Autistastic\"   # Gaming owner", look_at: "account.gaming.snailLevel / snail"}
 buffs: ["Pastel Yellow palette: +7.69% double Snail Mail"]
 triggers:
 stall: {pulls_no_progress: 4, eta_over_days: 60}

@@ -13,6 +13,7 @@ def sec(prefix): return next((s for s in secs if s.startswith('## '+prefix)), ''
 q = (sys.argv[1] if len(sys.argv) > 1 else 'goal').strip().lower()
 name = NICK.get(q) or next((v for v in NICK.values() if v.lower() == q), None)
 print(f'save {save}'); print(sec('Account goal').strip())
+if q in ('goal', 'account', 'unowned'): print(); print(sec('Account systems').strip())
 if name:
     print(); print(sec(name).strip() or f'no section for {name}')
 elif q != 'goal':
