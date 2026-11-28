@@ -22,13 +22,13 @@
 | caverns | world-5/hole | Villagers, Shallow Caverns, Glowshroom Tunnels, Underground Overgrowth | 717/3478 | Autistabish |
 | clam_work | world-7/clam-work | Clam Work | 34/76 | Autisticles |
 | class_kill_talents | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
-| cog_board | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
+| cog_board | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | Autistastic |
 | colo_scores | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | companions | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | compass | class-specific/compass | Compass | 125/87 | Autistacular |
 | construction_buildings | world-3/buildings, world-3/construction | Buildings | 97/482 | Autistastic |
 | cooking | world-4/cooking | Cooking | 646/622 | Autiszemo |
-| divinity_coral_kid | GAP: no Toolbox page mapped | Coral Kid | gap | Autistabish |
+| coral_kid | GAP: no Toolbox page mapped | Coral Kid | gap | Autistabish |
 | coral_reef | world-7/coral-reef | Coral Reef | 38/82 | Autistachio |
 | crystal_spawn_chance | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | dancing_coral | GAP: no Toolbox page mapped | Dancing Coral | gap | Autistachio |
@@ -48,17 +48,17 @@
 | gallery | world-7/gallery | Gallery | 48/219 | Autistachio |
 | gaming | world-5/gaming | Gaming | 397/429 | Autistastic |
 | gemshop | prem-currency/gem-shop | Gem Shop | 854/580 | Autistotle |
-| glimbo | world-7/glimbo | none (AutoReview does not rate it) | 25/18 | unassigned in jobs.yaml |
+| glimbo | world-7/glimbo | none (AutoReview does not rate it) | 25/18 | Autisticles |
 | greenstacks | misc/storage | Greenstacks, Endangered Greenstacks | 50/50 | Autistotle |
 | grimoire | class-specific/grimoire | The Grimoire | 68/167 | Autiszemo |
 | guild_bonuses | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | hat_rack | world-3/hat-rack | none (AutoReview does not rate it) | 16/0 | unassigned in jobs.yaml |
 | highest_dmg | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
-| inventory | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
+| inventory | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | Autistotle |
 | islands | world-2/islands | Islands | 109/0 | Autistastic |
 | item_filter | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | jelly_operator | world-7/jelly-operator | Jelly Operator | 157/35 | Autisticles |
-| killroy | world-2/killroy | Killroy | 167/15 | Autistacular, Autistastic, Autistocat |
+| killroy | world-2/killroy | Killroy | 167/15 | Autistacular, Autistocat, Autiszemo |
 | lab_bonuses | world-4/laboratory | none (AutoReview does not rate it) | 623/545 | Autistocat |
 | lab_chips | world-4/laboratory | none (AutoReview does not rate it) | 623/545 | Autistocat |
 | lab_jewels | world-4/laboratory | none (AutoReview does not rate it) | 623/545 | Autistocat |
@@ -109,6 +109,6 @@
 | zenith_market | world-7/zenith-market | Zenith Market | 39/26 | Autisticles |
 
 ## Gaps
-- no_toolbox: autoloot, basketball, class_kill_talents, cog_board, colo_scores, companions, divinity_coral_kid, crystal_spawn_chance, dancing_coral, darts, data_source, drop_rate, family_bonuses, friend_bonuses, guild_bonuses, highest_dmg, inventory, item_filter, library, library_group_characters, manual_tome_score, max_subgroups, npc_tokens, obols, post_office, reset_counters, shrines, statues, tabbed_advice_groups, version, world_progress
+- no_toolbox: autoloot, basketball, class_kill_talents, cog_board, colo_scores, companions, coral_kid, crystal_spawn_chance, dancing_coral, darts, data_source, drop_rate, family_bonuses, friend_bonuses, guild_bonuses, highest_dmg, inventory, item_filter, library, library_group_characters, manual_tome_score, max_subgroups, npc_tokens, obols, post_office, reset_counters, shrines, statues, tabbed_advice_groups, version, world_progress
 - no_owner: basketball, darts, drop_rate, forge_upgrades, post_office, prayers, world_progress
 - thin_sources: the_button

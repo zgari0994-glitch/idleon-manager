@@ -236,7 +236,7 @@ FISH_NOTE = ['  currency: not in Toolbox\'s read of the save (getAdviceFish has 
 if __name__ == '__main__':
     print(f"save {D().stamp}, {D().age_hours:.1f} h old")
     for title, fn in (('salt', salt_lines), ('obols', obol_lines), ('world bosses', world_bosses), ('weekly raw', weekly_raw_lines),
-                      ('guild', guild_lines), ('compass dust', compass_dust_lines), ('lore', lore_lines)):
+                      ('compass dust', compass_dust_lines), ('lore', lore_lines)):
         print('##', title); [print(x) for x in fn()]
     f, t, lines, plan = trash_list()
     print(f"## trash shop (Fractal unlocked={f.get('unlocked')}, trash {t.get('trash')})"); [print('  ' + x) for x in lines]

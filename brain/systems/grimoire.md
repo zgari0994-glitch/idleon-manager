@@ -26,7 +26,8 @@ ladder:
   - {tier: 3, target: "4,100 then 4,600 total; Ribbon Winning 32 -> 50, Grey Tome Book 50 -> 90", source: "AutoReview", date: "2026-11-28"}
 now_path: "grimoire.totalUpgradeLevels"
 objective: {rung: 1, now: "3,043", target: "3,150", eta_days: null}
-check: {cadence: daily, who: "Autiszemo + Autistopher", look_at: "total upgrades, bones 309M/290M/291M/1.58B"}
+check: {cadence: daily, who: "Autiszemo", helpers: ["Autistopher"]   # Zack 2026-11-28: Zemo owns, Topher bench only if a hard push needs him
+, look_at: "total upgrades, bones 309M/290M/291M/1.58B"}
 buffs: []
 triggers:
   - {when: "Grimoire not a top-10 need", then: "Death Bringers move to Spelunking (CLAUDE.md masterclass rule)"}

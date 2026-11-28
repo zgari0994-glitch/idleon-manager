@@ -26,7 +26,8 @@ ladder:
   - {tier: 2, target: "Oak Logs 4.42B -> 10B, Copper 1.34B -> 8B, Goldfish 111.85M -> 150M samples", source: "Toolbox", date: "2026-11-27"}
   - {tier: 3, target: "Spore Cap 1.44M -> 10M -> 20M, Fly 131M -> 454M", source: "Toolbox", date: "2026-11-27"}
 objective: {rung: 1, now: null, target: "90%", eta_days: null}
-check: {cadence: daily, who: "Autisticles, Autistomatic, Autistronaut, Autiszemo", look_at: "per-char slots; take new samples early, don't wait for pending bonuses"}
+check: {cadence: daily, who: "every character (own prints)"   # Zack 2026-11-28: everyone handles their own prints
+, look_at: "per-char slots; take new samples early, don't wait for pending bonuses"}
 buffs:
   - {source: "Royal Sampler ~lv11, Skilled Dimwit (prayers)", world: 3, owned: null, now: null, next: null, owner: "every_character"}
   - {source: "Warriors Rule bubble", world: 2, owned: true, now: 765, next: 950, owner: "Autistocat"}

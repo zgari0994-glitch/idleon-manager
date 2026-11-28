@@ -165,13 +165,15 @@ def today(g):
 def build():
     Y, problems = parse(); H = hist()
     G = {s: evaluate(s, y, H) for s, y in Y.items()}
+    for s, g in G.items():   # Zack 2026-11-28: helpers = work the system without owning it; split = owners Zack already decided
+        c = Y[s].get('check') or {}; g['helpers'] = c.get('helpers') or []; g['split'] = c.get('split')
     for g in G.values(): g['summary'] = summary(g)
     mism, multi = [], []
     for s, g in G.items():
         jo = IDX.get(s, {}).get('owners') or []
-        if g['owner_kind'] in ('one', 'multi') and jo and set(jo) != set(g['owners']):
+        if g['owner_kind'] in ('one', 'multi') and jo and set(jo) - set(g['helpers']) != set(g['owners']):
             mism.append(f"{s}: GOAL check.who {', '.join(NICK.get(n, n) for n in g['owners'])} vs system_index {', '.join(NICK.get(n, n) for n in jo)} (check.who wins)")
-        if g['owner_kind'] == 'multi': multi.append(f"{s}: {g['who']}")
+        if g['owner_kind'] == 'multi' and not g['split']: multi.append(f"{s}: {g['who']}")
     o = {'v': 2, 'save': SAVE, 'day': str(DAY), 'systems': G, 'problems': problems, 'owner_mismatch': mism, 'multi_owner': multi}
     OUT.write_text(json.dumps(o, indent=1, default=str)); return o
 
@@ -217,7 +219,7 @@ def card_lines(name):
     full, later = [], []
     for s, g in sorted(load()['systems'].items()):
         if name not in g['owners'] or s == 'anvil': continue
-        tag = ' (shared: Zack decides)' if g['owner_kind'] == 'multi' else (' (every character, own)' if g['owner_kind'] == 'every' else '')
+        tag = f" (split: {g['split']})" if g.get('split') else ' (shared: Zack decides)' if g['owner_kind'] == 'multi' else (' (every character, own)' if g['owner_kind'] == 'every' else '')
         if g['minigame'] and not g['flags']: later.append(f"{g['title']} (minigame, suggested active)"); continue
         (full if today(g) else later).append(g['summary'] + tag if today(g) else f"{g['title']} ({g['cadence']})")
     if later: full.append('Not due today (full line on its day, weekly = Thu): ' + ', '.join(later))

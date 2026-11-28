@@ -27,7 +27,8 @@ ladder:
   - {tier: 3, target: "Onyx Lantern artifact 4 -> 7", source: "Toolbox", date: "2026-11-27"}
   - {tier: 4, target: "Statues 700-800 range via Double Ain't Nothing legend talent", source: "Pulse", date: "2026-09-25"}
 objective: {rung: 1, now: 27, target: 240, eta_days: null}
-check: {cadence: daily, who: "Autisticles", look_at: "statue turn-ins (farmed by AFK chars)"}
+check: {cadence: daily, who: "Autisticles", helpers: ["Autistabish", "Autistastic", "Autistomatic"]   # farmers on their own cards
+, look_at: "statue turn-ins (farmed by AFK chars)"}
 buffs:
   - {source: "Meritocracy: all statues 1.5x", world: 0, owned: false, now: "not active", next: "vote when on ballot", owner: "Autistronaut"}
   - {source: "Smiley Statue (event shop)", world: 0, owned: false, now: 0, next: 1, owner: ""}

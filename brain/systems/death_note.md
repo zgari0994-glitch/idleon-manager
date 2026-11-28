@@ -27,7 +27,7 @@ ladder:
   - {tier: 3, target: "Soda Can, Flying Worm, Crawler ~62% (372-384M left)", source: "Toolbox", date: "2026-11-27"}
   - {tier: 4, target: "Eclipse skulls (1B kills, multiplicative damage)", source: "Griffy", date: "2026-10-28"}
 objective: {rung: 1, now: "90%", target: "100%", eta_days: null}
-check: {cadence: daily, who: "Autistopher", look_at: "AFK maps of multikill chars vs closest mob"}
+check: {cadence: daily, who: "Autiszemo + Autistopher", split: "Zemo ZOWs + CHOWs W1-W6, Topher Super CHOWs + big kills", look_at: "AFK maps of multikill chars vs closest mob"}
 buffs:
   - {source: "Death Note building (multikill)", world: 3, owned: true, now: null, next: null, owner: "Autistastic"}
   - {source: "Rift Joc (2x kills)", world: 4, owned: null, now: null, next: null, owner: ""}

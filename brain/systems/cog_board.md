@@ -20,7 +20,7 @@ description: Cog Board: state, how it works, links, plan, today
 status: APPROVED   # Zack 2026-11-28
 role: independent   # construction, owner Autistastic (best construction, Lv 1010)
 goal: "Every cog slot EXP-positive, build rate up for buildings, flaggy for W3 flags; clean cog inventory"
-coverage: partial   # Phase C E 2026-11-28: Toolbox optimizer = sourced layout, creators thin
+coverage: full   # Zack 2026-11-28: optimizer = what creators use
 ladder:
   - {tier: 1, target: "Scrap spare cogs the board doesn't use (done 2026-11-28: only 2 real spares, both used by the optimizer board; the old 126 counted 115 empty slots + 9 shelf characters); Griffy rates cog inventory F, just scrap cogs", source: "Griffy", date: "2024-04-27"}   # 25bteJumfjg 00:08:43, OLD
   - {tier: 2, target: "Board at Toolbox optimizer's best every week (best plan under +1%); 2026-11-28 save: 10 drags = +1.6% build, +6.9% player con EXP", source: "Toolbox", date: "2026-11-28"}   # tools/cog_plan.mjs, page defaults
@@ -35,7 +35,7 @@ stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
   - {do: "Do the Toolbox optimizer drags listed on the card", stat: "build + con exp", gain_pct: 2.8, unblocks: [], source: "Toolbox", active_min: 5, wait_hr: null, cost: null, urgent: false}
   - {do: "Scrap spare cogs the optimizer plan doesn't use", stat: "inventory", gain_pct: null, unblocks: [], source: "Griffy", active_min: 3, wait_hr: null, cost: null, urgent: false}
-# gap: no creator board layout guide newer than Griffy 2024 (web search 2026-11-28: fan sites only). Layout = Toolbox optimizer.
+# Zack 2026-11-28: the cog optimizer is what creators use; it IS the guidance, no creator layout needed.
 # dropped 2026-11-28: "board EXP mult above 1" (my read) - the multiplier is an input to the optimizer, not set by placement; what raises it is a gap.
 ```
 <!-- GOAL:END -->

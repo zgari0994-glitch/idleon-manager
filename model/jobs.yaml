@@ -27,6 +27,7 @@ characters:
       - {job: Cooking, sections: [Cooking], basis: class, feeds: priority, note: "Cooking speed matters (meals) but is ranked on merit, not pinned (Zack 2026-11-19)"}
       - {job: "Grimoire + Wraith Form (bones)", sections: [The Grimoire], basis: zack, daily_fixed: ["Wraith Form on (outfit buffs him)"], note: "Zemo always runs Wraith Form (outfit buffs him)"}
       - {job: Fish prints, sections: [{s: Sampling, itype: FISH}], basis: zack, note: "Zack 11/17: Zemo prints fish"}
+      - {job: "Kilroy (weekly, warrior line)", sections: [Killroy], basis: zack, note: "Zack 2026-11-28: Zemo is the warrior for Killroy", weekly: killroy}
       - {job: "ZOWs + CHOWs W1-W6", sections: [{s: Death Note, m: "Autiszemo|Eclipse Skull.*in W[1-6]\\b"}], basis: zack}
   Autistocat:     # Arcane Cultist
     afk:
@@ -62,7 +63,6 @@ characters:
       - {job: Godshard set, sections: [Armor Sets], basis: zack}
       - {job: "World bosses + minibosses (DK drop rate)", sections: [], systems: [world_bosses], basis: zack, timers: "Defecaus|Baba Yaga|Slush|Mutated Mush|Magmus|Spiritlord|boss", miniboss_max: {Dilapidated Slush: 10, Mutated Mush: 8, Domeo Magmus: 6, Demented Spiritlord: 6}, note: "Zack: minibosses only at max stored; bosses when up. Max stored from Toolbox source (misc.ts getMiniBossesData)"}
       - {job: "Statue: Dragon (AFK golems)", sections: [{s: Statues, m: "Dragon"}], basis: autoreview}
-      - {job: "Kilroy (weekly, warrior line)", sections: [Killroy], basis: zack, weekly: killroy}
   Autistabish:    # Elemental Sorcerer
     afk:
       - {tier: job, world: W3, map: "Penguins map", mob: "Penguin", why: "Box Statue (ES statue)", finish: {kind: statue, name: Box, to: 40}, src: "AutoReview statue table"}
@@ -91,7 +91,7 @@ characters:
       - {tier: job, where: "Maestro: AFK his worst-ranked skill (see finish)", why: "Maestro: #1 in every skill", finish: {kind: maestro}, src: zack, date: 2026-11-27}
     active: [greenstacks, observations]
     jobs:
-      - {job: Storage, sections: [Storage], systems: [storage], basis: light, weekly: true, note: "Zack 2026-11-27: Totle takes storage since he does greenstacks (bags, chests, free slots)"}
+      - {job: Storage, sections: [Storage], systems: [storage, inventory], basis: light, weekly: true, note: "Zack 2026-11-27: Totle takes storage since he does greenstacks (bags, chests, free slots)"}
       - {job: "Secret Class Path (Vman)", sections: [Secret Class Path], basis: zack, note: "Zack 2026-11-19: secret class = Vman"}
       - {job: "Maestro: #1 in every skill", sections: [], rule: maestro, basis: zack}
       - {job: Research, sections: [Research], basis: zack, note: "Gates W7 minis (Sushi, Jelly). The Maw G7 0 -> 4 = artifact finds"}
