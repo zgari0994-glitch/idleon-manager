@@ -7,6 +7,7 @@ Built items were removed. Built on 2026-11-27: model/syscheck.py (per-system "cu
 - Review + approve the 65 auto-drafted GOAL blocks (status: DRAFT, auto: true); 14 gaps listed in brain/goal_gaps.md.
 
 ## Gaps: need creator sources (Griffy > Pulse = Nocturne > Toolbox/wiki), data + "my read" until then
+Checked 2026-11-28: none are truly missing. The claims DB (sources/creators/*/tags, 32.6K claims) has 40-1500 claims per item; thin ones are Research grid (40, mostly Pulse) and Minehead/Clamworks (83, mostly Pulse). The work left is synthesis into each system's GOAL ladder, not fetching.
 - The Hole: per-cavern how it works / what to level / when to run / goal, opal split across villagers (was L122-138).
 - Gaming plan: bits, upgrades, superbits order, Snail, Duper/Zuper (was L82, L300).
 - Construction facelift: cogs, Polymerization, Flaggy, cog board vs meta, spare tower levels (was L299).
@@ -25,7 +26,7 @@ Built items were removed. Built on 2026-11-27: model/syscheck.py (per-system "cu
 
 ## Gaps: data the parser doesn't have
 Closed 2026-11-28 (harness now runs Toolbox's own page functions into account._zack.web, status lines in model/syscheck2.py): per-character drop rate (getDropRate: Tastic 229 vs Matic 139, Tastic sweeps), atom particles/hr (calcTotals), building time left + real max levels (Buildings page math), Tesseract tachyon per map + upgrade optimizer, Spelunking POW/amber optimizer, Lab chip shop rotation (lab.currentRotation), ninja knowledge upgrade costs (getJadeUpgCost), event shop rotation (getEventShopRotation), basketball (hoops) + darts (highscores.minigameHighscores, mapped in data_map.yaml), Minehead + Worship covered by parser status lines instead of AutoReview.
-- Green Mushroom kills -> coins rate: no game formula in Toolbox; needs one timed in-game test (kills + coins before/after) (was L176).
+- Green Mushroom kills -> coins: CLOSED 2026-11-28. Lab bonus Fungi Finger Pocketer = +2% monster cash per 1M Green Mushroom kills (linear, Toolbox parsers/world-4/lab.ts). 83.0B kills = +166,084% now; another 1M kills adds +2 points (~0.001% more cash), so it is not a reason to farm them (my math).
 - Votes on phone pulls: known limit. A bare Copy raw data has no serverVars; the workflow carries them from the last PC pull and flags "[votes from save X]". A new vote week needs a PC pull or an in-game check.
 
 ## In-game checks (Zack)
