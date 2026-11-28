@@ -67,7 +67,7 @@ jobs:
         run: |
           AR=/home/claude/work/ar/mysite; REPO="$PWD"
           pip install -q rapidfuzz
-          for s in model/ledger.py model/coins.py model/buffs.py model/mechanics.py rinse/rinse.py model/plan.py model/acquire.py; do
+          for s in model/ledger.py model/growth.py model/coins.py model/buffs.py model/mechanics.py rinse/rinse.py model/plan.py model/acquire.py; do
             python3 "$s" > /tmp/step.log 2>&1 && tail -1 /tmp/step.log | sed "s|^|[$s] |" || { echo "::warning::$s failed"; tail -5 /tmp/step.log; }
           done
           # state for "2 pulls in a row" rules: goal switch, AFK keep?/pins, night watch (Zack 2026-11-27)

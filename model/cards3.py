@@ -121,6 +121,13 @@ for ch in C['chars']:
             card['do'].append({'do': do, 'sub': subs_for(st, False)})
     card['notes'] += b.get('notes', [])
     seen = ' '.join([x if isinstance(x, str) else x.get('do', '') + ' ' + ' '.join(x.get('sub') or []) for k in ('systems', 'spend', 'do', 'toward', 'locked', 'dont', 'notes') for x in card[k]]).lower()
+    try:
+        import syscheck as _SC; _chk = _SC.lines(name)
+    except Exception as _e:
+        _chk = [('syscheck', f'syscheck failed: {_e}', [])]
+    for _s, _l, _subs in _chk:
+        card['systems'].append(_l + ''.join(f'\n   {chr(97 + j)}. {x}' for j, x in enumerate(_subs)))
+    seen += ' ' + ' '.join(k + ' ' + k.replace('_', ' ') for k, _, _ in _chk) + (' lab chips lab jewels lab bonuses meritocracy' if _chk else '')
     for s in owned(name):
         if not any(w.lower() in seen for w in sys_words(s)):
             card['systems'].append(f"{s.replace('_', ' ').title()}: no check yet, plan being built (owned by {name})")
