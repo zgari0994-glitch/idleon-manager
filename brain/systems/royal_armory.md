@@ -14,28 +14,27 @@ description: Royal Armory: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT Phase A batch 4 2026-11-27 (save 20261127T2212): not approved, not in the pipeline -->
 ```yaml
-status: APPROVED   # Zack 2026-11-28
+status: APPROVED   # Zack 2026-11-28 (rungs re-based Phase C finish: shelf 230 was hit on save 20261128T0256)
 role: feeder
-goal: "Reach the next armory shelf (230 levels) and open Resource Grades + Kingdom Expansions"
-coverage: partial
+goal: "Next armory shelf (260 levels), then unlock Resource Grades (270) and the next outpost (300)"
+coverage: partial   # all rungs from Toolbox data; no creator buy order found
 ladder:
-  - {tier: 1, target: "Armory levels 226 -> 230 (next shelf)", source: "Toolbox", date: "2026-11-27"}
-  - {tier: 2, target: "Unlock Resource Grades (cost 61.8K)", source: "Toolbox", date: "2026-11-27"}
-  - {tier: 3, target: "Royal Talent Points I 66 -> 200", source: "Toolbox", date: "2026-11-27"}
+  - {tier: 1, target: "Armory levels 230 -> 260 (next shelf)", source: "Toolbox", date: "2026-11-28"}
+  - {tier: 2, target: "270 levels unlocks Resource Grades (+1 Grade per refill: +50% max resources, +25% collection), then buy it (61.8K RGres10)", source: "Toolbox", date: "2026-11-28"}
+  - {tier: 3, target: "300 levels unlocks Yumyum Outpost PTS (104K RGres11)", source: "Toolbox", date: "2026-11-28"}
 now_path: "royalGuardian.armory.totalLevels"
-objective: {rung: 1, now: 226, target: 230, eta_days: null}
-check: {cadence: daily, who: "Autistastic", look_at: "Royal Guardian orbs, outposts, marble"}
+objective: {rung: 1, now: 230, target: 260, eta_days: null}
+check: {cadence: daily, who: "Autistastic", helpers: ["Autistomatic"], look_at: "Royal Guardian orbs, outposts, marble, idle deployments"}   # Zack 2026-11-28: Tastic RG #1 owns, Matic RG #2 helps (jobs.yaml)
 buffs:
   - {source: "Industrial Politics (outpost rate)", world: 0, owned: null, now: null, next: null, owner: "Autistastic"}
 triggers:
-  - {when: "shelf 230 reached", then: "next rung"}
+  - {when: "Resource Grades cost covered (61.8K RGres10)", when_path: "royalGuardian.resourceStorage[10]", op: ">=", value: 61824, then: "buy Resource Grades once 270 armory levels unlock it", source: "Toolbox"}
   - {when: "marble found", then: "spend on statue unlocks (Griffy 2026-10-16)"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Buy 4 cheapest levels: Resource Replenish (6.35K), Solo Militia (9.94K), Anti-Rodent I (30.8K), Royal Talent Points I (39.5K)", stat: "armory levels", gain_pct: null, unblocks: ["shelf 230"], source: "my_read", active_min: 2, wait_hr: null, cost: "~86.6K", urgent: false}
-# 64 locked upgrades, unlock conditions not in parser. Currency balance not shown by lookup.
+  - {do: "Buy the affordable armory levels each day (cheapest first, card lists them live), Royal Talent Points I 66 -> 200 when covered", stat: "armory levels", gain_pct: null, unblocks: ["shelf 260"], source: "Toolbox", active_min: 2, wait_hr: null, cost: null, urgent: false}
+# gap: resource names (RGres0-34) not named in the parser; no creator buy order (Griffy/Pulse) for armory upgrades.
 ```
 <!-- GOAL:END -->
 

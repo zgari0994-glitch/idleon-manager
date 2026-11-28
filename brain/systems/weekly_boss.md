@@ -36,7 +36,7 @@ tasks:
   - {do: "Weekly boss: daily run from the card line (sheet rotation)", stat: "trophies", gain_pct: null, unblocks: [], source: "Weekly Boss Rotations sheet", active_min: 5, wait_hr: 24, cost: null, urgent: true}
 # source: Google Sheet 'Weekly Boss Rotations' (Drive 1z1P2ouvYhe2pryWoF0kIQE7QichYpJt1GaPPos-e-aw), Discord tab = current + next week. Fan source (roronoa_zoro93, DiamondDoge, Druzzt/Morgoth simulator).
 # digits = option picks (1 top, 2 middle, 3 bottom), read left to right; FR = full rewind. Requirements (e.g. "Laboratory lvl - 1, 2, 7, 11") as written by the sheet.
-# gap: weeklyBossesRaw (69 keys) still undecoded, so "first kill done" isn't read from the save; GitHub Action can't read the sheet (needs the Drive connector in a thread).
+# gap: weeklyBossesRaw: Toolbox reads only c (Class EXP week buff); d_*/set* not read, so "first kill done" is not in the save; GitHub Action can't read the sheet (needs the Drive connector in a thread).
 ```
 <!-- GOAL:END -->
 

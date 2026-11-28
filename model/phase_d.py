@@ -151,16 +151,27 @@ def world_bosses():
     for i, r_ in enumerate(rows[:6]):
         d = int(round(float(r_[0] or 0)))
         pay = f", pays out on Kattlekruk's difficulty ({DIFF[int(round(float(rows[4][0] or 0)))]})" if i == 5 else ''
-        out.append(f"  {BOSSES[i]}: difficulty {DIFF[d] if d < 3 else d}, HP {short(r_[1])}, defence {short(r_[2])}{pay}")
-    return out + ['  source: Toolbox speedrun.ts (BossInfo[n] = [difficulty, hp, defence]); kill/done state is not in BossInfo']
+        pd = int(round(float(rows[4][0] or 0))) if i == 5 else d
+        out.append(f"  {BOSSES[i]}: difficulty {DIFF[d] if d < 3 else d}, HP {short(r_[1])}, defence {short(r_[2])}, {pd + 1} speedrun portal{'s' if pd else ''}{pay}")
+    return out + ['  source: Toolbox speedrun.ts (BossInfo[n] = [difficulty, hp, defence]; portals = difficulty + 1, needs BOSSING_VAIN); kill/done state is not in BossInfo']
+
+
+def world_boss_check():
+    """Tastic's card (world bosses owner). Difficulty read live; kills are not in the save, so the daily kill stays a check-in-game line."""
+    rows = world_bosses()[:6]
+    hard = [r.strip().split(',')[0].replace(': difficulty', ' on') for r in rows if 'Normal' not in r.split(',')[0]]
+    head = 'World bosses: daily kill in a max party (Pulse 2026-09-08); kills not in save, check in game'
+    return ('world_bosses', head + (f". Set above Normal: {', '.join(hard)} (Emperor pays out on Kattlekruk's)" if hard else ''), [])
 
 
 # ---------- Weekly boss raw ----------
 def weekly_raw_lines():
     w = A().get('weeklyBossesRaw') or {}
-    c, g = w.get('c') or 0, w.get('g') or 0
+    c = w.get('c') or 0
     skins = sorted(k[3:] for k, v in w.items() if k.startswith('UI_') and str(v) == '1')
-    return [f"  week buffs (Toolbox getWeeklyBossBuffs): tea break +{min(150, float(c)):.0f}% Class EXP, chilly hotdogs +{min(150, float(g)):.0f}% damage (cap 150)",
+    sets = ', '.join(f"{k}={v}" for k, v in sorted(w.items()) if k.startswith('set'))
+    return [f"  week buff: +{min(150, float(c)):.0f}% Class EXP (WeeklyBoss.c, cap 150, the only field Toolbox reads: character.ts){'' if c else ', none active in this save'}",
+            f"  not read by Toolbox: {sets or 'no set* keys'} (meaning unknown, not used)",
             f"  UI skins owned: {', '.join(skins) or 'none'}",
             f"  done-state: not decodable ({sum(1 for k in w if k.startswith('d_'))} d_* keys, Toolbox doesn't read them), so the daily line stays until the boss changes"]
 
@@ -219,7 +230,7 @@ def lore_lines():
         if b.get('defeated'): continue
         first = ds[0]['powerReq'] if ds else None
         out.append(f"  NEXT lore boss: {zones[i] if i < len(zones) else i} (#{i + 1}): first discovery needs {short(first)} POW "
-                   f"({'OK' if pw >= (first or 0) else 'SHORT x' + format((first or 0) / max(pw, 1), '.2f')}), boss found at cave level {b.get('foundAt')} (my read of foundAt), best cave {b.get('bestCaveLevel')}")
+                   f"({'OK' if pw >= (first or 0) else 'SHORT x' + format((first or 0) / max(pw, 1), '.2f')}), boss found at cave level {b.get('foundAt')} (game data, Toolbox spelunking.ts foundAt), best cave {b.get('bestCaveLevel')}")
         out.append(f"    reward: {nm(b.get('description'))[:110]}")
         break
     return out

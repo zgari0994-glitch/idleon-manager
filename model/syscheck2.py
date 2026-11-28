@@ -591,12 +591,12 @@ def _pd(fn_name):
     return f
 
 
-CHECKS2 = {'refinery_salt': _pd('salt_check'), 'obol_meta': _pd('obol_check'), 'spelunk_lore': _pd('lore_check'),'alchemy_bubbles': c_bubbles, 'alchemy_vials': c_vials, 'islands': c_fractal, 'divinity_coral_kid': c_coral_kid,
+CHECKS2 = {'world_bosses': _pd('world_boss_check'), 'refinery_salt': _pd('salt_check'), 'obol_meta': _pd('obol_check'), 'spelunk_lore': _pd('lore_check'),'alchemy_bubbles': c_bubbles, 'alchemy_vials': c_vials, 'islands': c_fractal, 'divinity_coral_kid': c_coral_kid,
            'lab_chars': c_lab_chars, 'rotation': c_rotation, 'quest_greenstacks': c_quest_gs, 'inventory': c_inventory,
            'construction_slots': c_construction_slots, 'drop_rate': c_drop_rate, 'atom_collider': c_atoms,
            'tesseract': c_tesseract_maps, 'spelunk': c_spelunk_opt, 'lab_chips': c_lab_shop, 'sneaking': c_ninja,
            'minehead': c_minehead, 'minigames': c_minigames, 'event_points_shop': c_event_shop}
-OWN2 = {'refinery_salt': S1.owners('refinery'), 'obol_meta': [LIGHT], 'spelunk_lore': S1.owners('spelunk'),'lab_chars': ['Autistocat'], 'rotation': ['Autistotle'], 'quest_greenstacks': [LIGHT], 'inventory': [LIGHT],
+OWN2 = {'world_bosses': ['Autistastic'], 'refinery_salt': S1.owners('refinery'), 'obol_meta': [LIGHT], 'spelunk_lore': S1.owners('spelunk'),'lab_chars': ['Autistocat'], 'rotation': ['Autistotle'], 'quest_greenstacks': [LIGHT], 'inventory': [LIGHT],
         'construction_slots': ['Autistastic', 'Autistomatic'], 'alchemy_vials': ['Autistocat', 'Autistomatic'],
         'drop_rate': ['Autistastic', 'Autistomatic'], 'minehead': [LIGHT], 'minigames': [LIGHT]}
 PER_CHAR = {'toolbox_alerts': c_missables, 'triggers': c_triggers, 'talent_books': c_talent_books}

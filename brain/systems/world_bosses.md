@@ -26,13 +26,13 @@ ladder:
   - {tier: 1, target: "Daily world boss in a maxed party; teleporting multiplies boss HP + loot chance", source: "Pulse", date: "2026-09-08"}   # 0xjp2t-iukY 00:13:18
   - {tier: 2, target: "World boss multiplies flobbers + dungeon drops, feeds tome", source: "Pulse", date: "2026-09-08"}   # 0xjp2t-iukY 00:14:19
 objective: {rung: 1, now: null, target: "daily", eta_days: null}
-check: {cadence: daily, who: "Autistastic\"   # World bosses + minibosses job (jobs.yaml)", look_at: "in game (not in parser)"}
+check: {cadence: daily, who: "Autistastic", look_at: "in game (kills not in save); difficulty from raw BossInfo on the card"}   # World bosses + minibosses job (jobs.yaml)
 buffs: []
 triggers: []
 stall: {pulls_no_progress: 6, eta_over_days: 90}
 tasks:
   - {do: "Daily world boss in a max party", stat: "loot", gain_pct: null, unblocks: ["tome"], source: "Pulse", active_min: 5, wait_hr: 24, cost: null, urgent: false}
-# gap: nothing in parser (no kill/daily flag); claims are 2025, nothing newer from Griffy.
+# gap: no kill/daily flag in the save (BossInfo = difficulty/hp/defence only, Toolbox speedrun.ts); no Griffy claim newer than Pulse 2026-09-08.
 ```
 <!-- GOAL:END -->
 
