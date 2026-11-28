@@ -89,6 +89,7 @@ characters:
       - {tier: job, where: "Maestro: AFK his worst-ranked skill (see finish)", why: "Maestro: #1 in every skill", finish: {kind: maestro}, src: zack, date: 2026-11-27}
     active: [greenstacks, observations]
     jobs:
+      - {job: Storage, sections: [Storage], systems: [storage], basis: light, weekly: true, note: "Zack 2026-11-27: Totle takes storage since he does greenstacks (bags, chests, free slots)"}
       - {job: "Secret Class Path (Vman)", sections: [Secret Class Path], basis: zack, note: "Zack 2026-11-19: secret class = Vman"}
       - {job: "Maestro: #1 in every skill", sections: [], rule: maestro, basis: zack}
       - {job: Research, sections: [Research], basis: zack, note: "Gates W7 minis (Sushi, Jelly). The Maw G7 0 -> 4 = artifact finds"}
@@ -98,7 +99,6 @@ characters:
     afk:
     active: [dk_crystals]
     jobs:
-      - {job: Storage, sections: [Storage], systems: [storage], basis: light, weekly: true, note: "Zack 2026-11-27: lightest load takes storage (bags, chests, free slots)"}
       - {job: "Construction #2", sections: [], basis: class, note: "Shares Tastic's Buildings list"}
       - {job: Ore prints, sections: [{s: Sampling, m: ":: .*\\bOre\\b"}], basis: griffy}
       - {job: "Statues: DK crystals", sections: [{s: Statues, m: "DK at"}], basis: griffy}
