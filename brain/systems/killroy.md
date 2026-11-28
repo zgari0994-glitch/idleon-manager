@@ -26,7 +26,7 @@ ladder:
   - {tier: 2, target: "Dungeon Credits and Pearls: exactly 1 level each once available", source: "AutoReview", date: "2026-11-28"}
   - {tier: 3, target: "Permanent: Artifact Find 5 -> more (sailing), Masterclass Drops 10 -> more, then Jade/W7 EXP/Crop Evo", source: "AutoReview", date: "2026-11-28"}
 objective: {rung: 1, now: 5, target: 16, eta_days: null}
-check: {cadence: weekly, who: "Autistocat", look_at: "skulls balance, permanent upgrade next costs"}
+check: {cadence: weekly, who: "class of the week: Autistocat (mage), Autistastic (warrior), Autistacular (archer)", look_at: "skulls balance, permanent upgrade next costs"}
 buffs:
   - {source: "Arcane Cultist best for Killroy: poisons + ghosts + screen coverage (Griffy 2026-08-03)", world: 2, owned: true, now: null, next: null, owner: "Autistocat"}
 triggers:
@@ -34,7 +34,7 @@ triggers:
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
   - {do: "Weekly Killroy fights on Cat first; spend skulls on Skulls upgrade toward 16", stat: "skull ratio", gain_pct: null, unblocks: ["sailing"], source: "AutoReview + Griffy", active_min: 5, wait_hr: null, cost: null, urgent: false}
-# GAP: no creator spend order for the permanent upgrades (AutoReview "Respawn: idk exacts yet"); Cat owns it: Arcane Cultist is the only mage for Killroy (Zack 2026-11-27)
+# GAP: no creator spend order for the permanent upgrades (AutoReview "Respawn: idk exacts yet"); weekly class rotates mage/warrior/archer: strongest fighter of that class gets the weekly check; AC is the mage (Zack 2026-11-27)
 ```
 <!-- GOAL:END -->
 

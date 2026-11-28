@@ -48,6 +48,7 @@ characters:
       - {job: Bug prints, sections: [{s: Sampling, itype: BUG, levers: true}], basis: griffy}
       - {job: "Statue turn-ins (farmed by others)", sections: [{s: Statues, rest: true}], systems: [statues], basis: zack, note: "Zack 2026-11-27: Ticles owns Statues; farmers stay on their own cards"}
       - {job: "Luminous Menagerie (own intervention)", sections: [Luminous Menagerie], basis: zack, note: "Zack 2026-11-19: own job. Gates plate cap +10, Breeding Crucible, Shiny OverLVs, Night Marina artifact odds, Cooking T13 Blue Jellyfish"}
+      - {job: Minehead, sections: [], systems: [minehead], basis: class, note: "Zack 2026-11-27: Minehead goes to whoever does the W7 minigames"}
       - {job: "W7 minis", sections: [Sushi Station, Clam Work, Jelly Operator, The Button, Advice Fish, Zenith Market, Legend Talents, Arcade], basis: zack, minis_note: "Zack 2026-11-19: Minehead + Glimbo here too (W7 mini owner)", note: "Gate: Research level ~10 (Autistotle). Jelly/Button maps = W7 map push"}
   Autistastic:    # Divine Knight #1
     afk:
