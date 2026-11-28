@@ -1,7 +1,7 @@
 """3D Printer planner: each character's print slots vs material needs, Gold Relic reset rule, AutoReview sample targets
 -> each print owner's prints block (jobs.yaml Fish/Bug/Ore/Log prints) + account lines.
 
-Inputs: raw save Print (5 samples + 2 printing per character), systems printer, model/ledger.json (needs), toolbox/printer.json.
+Inputs: raw save Print (5 samples + 2 printing per character), systems printer, model/ledger.json (needs), data.py (Toolbox parser).
 """
 import gzip, json, re
 from pathlib import Path

@@ -9,13 +9,14 @@ Moved verbatim from CLAUDE.md on 2026-11-26 (usage cleanup). Rules here still ap
 - Account priority = biggest current need, computed every pull by `model/priority.py` (Zack 2026-11-19: never pinned; cooking speed is one input). Need outweighs math (Zack 2026-11-19): when systems compete for the same thing (seats, characters, currency), focus goes to the bigger current NEED (account priority, blockers, prereqs other jobs wait on), not the most-behind tier or the best ratio. Focus it until it reaches an acceptable spot, never cripple the other side, then rebalance.
 - Pinchy = reference only (AutoReview account stage), owned by no one.
 
-## Planner migration (Zack 2026-11-25, option B: all of them)
+## Planner migration (Zack 2026-11-25, option B: all of them) - DONE 2026-11-28 (last one: sailing base odds -> model/sail_consts.json)
 - Every planner now reads Toolbox's parser through model/data.py. tbhelp.tb(), cards2.tbtext() and extras.tb() raise if anything tries the old page files.
 - The parse harness (tools/tbparse/zack.test.mjs) also adds website-computed values with Toolbox's own functions (prayer nextCost); add more there instead of scraping.
 - model/needs.py = goal status (lore bosses), ranked needs vs goal (flag), weekly Ballot/Meritocracy effects, personal goals, fluid parks (weekly overrides -> standing duties -> goal).
 - Sailing moves were rebuilt on parser data: verify in game before trusting a move.
 
 ## Per-system goal standard (Zack 2026-11-27, approved; replaces the Plan: Now/Next/Stop/Waiting section)
+Auto-drafts (2026-11-28): `python3 tools/draft_goals.py [system]` writes a DRAFT block (status: DRAFT, auto: true) from lookup (creator priority/target/how_to/blocker claims first, then AutoReview); non-sourced ones are logged in brain/goal_gaps.md. Drafts are never approved until Zack says so. Trigger rows live in brain/triggers.yaml (evaluated per owner card by model/syscheck2.py).
 Every file in brain/systems/ gets one GOAL block (template: brain/systems/_TEMPLATE_goal.md). Mapping of the old fields: Now + Next -> objective + ladder; Stop point + Waiting on -> stall + triggers. Human notes stay below the block.
 1. role: blocker / feeder / independent vs the main goal. Blocker -> Law 1 (owner hard-focuses, every task aims at the unblock).
 2. goal: end state + why.

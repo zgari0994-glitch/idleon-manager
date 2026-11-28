@@ -12,12 +12,6 @@ TB = SNAP / 'toolbox'
 def tb(page, tab=None):
     raise RuntimeError('extras.tb is retired: use model/data.py')
 
-def _old_tb(page, tab=None):
-    try:
-        o = json.load(open(TB / f'{page}.json'))
-        return o['tabs'][tab]['text'] if tab else '\n'.join(t['text'] for t in o['tabs'].values())
-    except Exception:
-        return ''
 
 REVIEW = gzip.open(SNAP / 'review.json.gz').read().decode()
 

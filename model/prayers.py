@@ -1,6 +1,6 @@
 """Prayers planner: fluid per-character loadouts (task-driven, creator rules), soul-safe upgrade buys, Royal Sampler print-day plan.
 
-Inputs: snapshots/<LATEST>/toolbox/prayers.txt (Toolbox prayers page), chars.json (equipped), jobs.yaml (afk/active tasks), model/printer.json.
+Inputs: data.py (Toolbox parser), chars.json (equipped), jobs.yaml (afk/active tasks), model/printer.json.
 Every rule cites its creator source; mapping a rule onto a character uses that character's own task text (jobs.yaml).
 """
 import json, re

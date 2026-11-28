@@ -3,7 +3,7 @@
 Inputs (per snapshot):
   systems.json.gz  sailing (artifact forms, islands, captains, boats)  [AutoReview parse]
   toolbox/sail_detail.txt       Toolbox Boats and Captains tab (details on)
-  toolbox/sail_breakdowns.json  Toolbox artifact odds / min travel / loot breakdowns + game constants
+  model/sail_consts.json  artifact base find odds (game constants); live breakdowns come from the parser
 Island find formula = Toolbox bundle (sources/toolbox/sailing_js_snippet.txt), calibrated to Toolbox's
 own per-boat 'Artifact chance'.
 Output: model/sailing.json + model/sailing.md
@@ -140,10 +140,7 @@ def build():
     sv = load().get('account.serverVars')
     X = sv.get('AncientOddPerIsland', 960); Y = sv.get('AncientArtiPCT', 0)
     # base_find = game constants (artifact base odds); read from the newest snapshot that has them
-    bd = {}
-    for d_ in sorted((ROOT / 'snapshots').iterdir(), reverse=True):
-        f_ = d_ / 'toolbox' / 'sail_breakdowns.json'
-        if f_.exists(): bd = json.load(open(f_)); break
+    bd = {'base_find': json.load(open(ROOT / 'model' / 'sail_consts.json'))['base_find']}   # game constants (L18 migration 2026-11-28)
     boats, caps, shop = from_parsed()
     # live breakdown numbers from the parser (replace the 11-19 page read; base_find stays as game constants)
     S_ = load().system('sailing')

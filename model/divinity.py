@@ -1,6 +1,6 @@
 """Divinity planner: points income, Coral Kid order, blessing buys ranked per currency, links, god rank -> Bish's Divinity block.
 
-Inputs: snapshots/<LATEST>/toolbox/divinity.json, systems.json.gz (divinity materials), chars.json (links).
+Inputs: data.py (Toolbox parser), systems.json.gz (divinity materials), chars.json (links).
 """
 import gzip, json, re
 from pathlib import Path

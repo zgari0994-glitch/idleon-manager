@@ -36,6 +36,7 @@ Lean core, re-read every call: keep it small. Details live in docs/ and are open
 
 ## Data layer
 - `model/data.py`: `load()` -> `.system(name)`, `.get('account.x.y')`, `.char(name)`, `.age_hours`. Reads Toolbox's own parser output `snapshots/<save>/tb_parsed.json.gz`; anything missing raises DataMissing. `model/data_map.yaml` = system -> parsed path (null = not in parser: use AutoReview / raw save and say so).
+- `account._zack` (added by tools/tbparse/zack.test.mjs with Toolbox's own functions): `bubbleCosts` (Bubbles page math) and `alerts` (Toolbox dashboard alerts). Status lines: model/syscheck.py + model/syscheck2.py; triggers: brain/triggers.yaml.
 - `tools/lookup.py <system> [terms]` = the one-shot answer tool, under ~4K tokens: save age + owner; DATA (levels, max, next cost vs balance OK/SHORT, LOCKED + exact unlock condition, creator tier grade per item); AutoReview open items; creator claims ranked with tier grades, date, video; findings; coverage; a final `TRUNCATED:` line saying what was cut. `--path a.b.c` drills in, `--full` lifts caps, `--terms "..."` free search. Answer from what it returned. Logs to state/lookups.log.
 
 ## Refresh (pull thread only, about 3 calls)

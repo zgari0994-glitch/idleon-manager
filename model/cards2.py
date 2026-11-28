@@ -20,13 +20,6 @@ chars = {c['character_name']: c for c in json.load(open(SNAP / 'chars.json'))['c
 def tbtext(page, tab=None):
     raise RuntimeError('tbtext is retired: use model/data.py')
 
-def _old_tbtext(page, tab=None):
-    try:
-        o = json.load(open(TB / f'{page}.json'))
-        tabs = o['tabs']
-        return tabs[tab]['text'] if tab else '\n'.join(t['text'] for t in tabs.values())
-    except Exception:
-        return ''
 
 def num(s):
     s = str(s).replace(',', '').strip()

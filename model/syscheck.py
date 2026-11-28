@@ -303,6 +303,13 @@ def lines(name, only=None):
             if r: out.append((fn_key, r[0], r[1]))
         except Exception as e:
             out.append((fn_key, f"{fn_key.replace('_', ' ').title()}: check failed ({type(e).__name__}: {str(e)[:60]}), fix in model/syscheck.py", []))
+    try:
+        import syscheck2 as _S2   # part 2 checks (pending_changes Left to build, 2026-11-28)
+        for k, l, subs in _S2.lines(name):
+            if only and k not in only: continue
+            out.append((k, l, subs))
+    except Exception as e:
+        out.append(('syscheck2', f"syscheck2 failed ({type(e).__name__}: {str(e)[:60]}), fix in model/syscheck2.py", []))
     lg = ledger_lines(name)
     if lg: out.append(('materials', 'Materials to watch (ledger): ' + lg[0], lg[1:]))
     return out

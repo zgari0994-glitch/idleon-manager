@@ -1,7 +1,7 @@
 """Alchemy planner: cauldron seats, sigil charge plan (hours per target at the measured rate), vial max/unlock order, bubble targets
 -> Autistocat's Alchemy block.
 
-Inputs: chars.json (alchemy_job_string), toolbox/alchemy.json (sigils page), toolbox/bubbles.json (daily levels), review.json.gz.
+Inputs: chars.json (alchemy_job_string), data.py (Toolbox parser), data.py (Toolbox parser), review.json.gz.
 Sigil rate per character measured from snapshots: Pea Pod 1178 -> 1632 in 7.2h = ~63/hr = Toolbox 'Sigil speed' x 1/hr.
 """
 import gzip, json, re

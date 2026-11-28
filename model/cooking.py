@@ -1,6 +1,6 @@
 """Cooking planner: plate cap path, which meal to cook, kitchen spice spends, mastery unlocks -> Zemo's Cooking block.
 
-Inputs: snapshots/<LATEST>/toolbox/cooking.json (tb_read.js), review.json.gz (AutoReview Cooking), model/sailing.json (Causticolumn odds).
+Inputs: data.py (Toolbox parser), review.json.gz (AutoReview Cooking), model/sailing.json (Causticolumn odds).
 """
 import gzip, json, re
 import spend

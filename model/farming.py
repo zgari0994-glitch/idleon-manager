@@ -1,6 +1,6 @@
 """Farming planner: GMO crop stacks, crop discovery math, Rank DB points, Night/Day/Exotic market -> Zemo's Farming block.
 
-Inputs: raw save (FarmCrop counts, FarmUpg levels+beans), snapshots/<LATEST>/toolbox/farming.json (tb_read.js).
+Inputs: raw save (FarmCrop counts, FarmUpg levels+beans), data.py (Toolbox parser).
 Output: model/farming.json ; card_lines(o) for plan.py.
 """
 import gzip, json, math, re

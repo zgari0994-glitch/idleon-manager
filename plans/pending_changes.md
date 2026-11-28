@@ -1,22 +1,10 @@
 # Pending changes (what's left; rewritten 2026-11-27 after the cleanup build)
 
-Built items were removed. Built on 2026-11-27: model/syscheck.py (per-system "current -> goal" lines on every owner's card: Hole per cavern + villagers + study, Slab, Achievements, Lab jewels/chips, Cape Vine, Gallery, Menagerie missions + claim now + boosts + next unlock, Alchemy liquids/vials/sigils, Research observations/rolls/magnifiers/grid, Worship totems + skulls, Killroy, Refinery, Salt Lick, Death Note, Ballot + Meritocracy, Gem Shop paid flags, Beanstalk, Equinox challenges, Dungeons status, Cooking meals vs cap, Artifacts, Breedability heart 7, Stamps by group, ledger material watch) and model/growth.py (rates, ETAs, bottleneck flags, weekly review, talent diffs -> plans/growth_<save>.md). Old line numbers below are "(was L#)" from the 11-16..11-25 file.
+Built items were removed. Built on 2026-11-27: model/syscheck.py (per-system "current -> goal" lines on every owner's card: Hole per cavern + villagers + study, Slab, Achievements, Lab jewels/chips, Cape Vine, Gallery, Menagerie missions + claim now + boosts + next unlock, Alchemy liquids/vials/sigils, Research observations/rolls/magnifiers/grid, Worship totems + skulls, Killroy, Refinery, Salt Lick, Death Note, Ballot + Meritocracy, Gem Shop paid flags, Beanstalk, Equinox challenges, Dungeons status, Cooking meals vs cap, Artifacts, Breedability heart 7, Stamps by group, ledger material watch) and model/growth.py (rates, ETAs, bottleneck flags, weekly review, talent diffs -> plans/growth_<save>.md). Built 2026-11-28 (the old "Left to build" list): tools/tbparse/zack.test.mjs now adds account._zack (bubbleCosts with Toolbox's Bubbles page math; alerts = Toolbox's own dashboard alerts with default trackers). model/syscheck2.py (wired into syscheck.lines, so it lands on cards at the next pull): Toolbox missables/alerts routed to owners (character alerts on their own card, unowned to Tachio), affordable bubble levels per bubble, vial-to-max + print-swap check (Cat + Matic), Fractal Island + Coral Kid lines, Lab position per character + jewel end goal, trigger map (brain/triggers.yaml, Divinity first), rotation-aware weeks (Ballot + Meritocracy: hard-focus / opportunistic / hold, on Totle), quest-only greenstacks (Tachio), inventory + storage + carry cap sweep (one session on Tachio), Construction trimmed-slot list (Griffy order, Tastic + Matic), talent books (2 checkouts a day per character + sub-200 bumps). tools/draft_goals.py drafted GOAL blocks for the 65 systems that had none. Planner migration finished: sailing reads model/sail_consts.json, dead toolbox page readers removed. Old line numbers below are "(was L#)" from the 11-16..11-25 file.
 
 ## Left to build (data is in the parser)
-- Alchemy: affordable levels per bubble vs materials; per-vial print-swap check to max it (was L10, L29).
-- Systems with only a status line get a full standing goal per docs/planners.md, one system at a time as found (was L6, L295).
-- Toolbox missables routed to owners (sailing -> Ticles) (was L13).
-- Fractal Island and Coral Kid status lines (was L49, L58, L68, L161).
-- Lab: per-character chip/jewel position check + jewel end goal (was L267, L273, L193).
-- Trigger map: every threshold-driven system mapped, Divinity first (was L272).
-- Rotation-aware weeks: hard-focus / opportunistic / hold slow tasks for a returning boost (was L258-260).
-- Quest-only greenstacks on Tachio: per item, which quest, still open?, farm rate, days to 10M (was L302).
-- Inventory + storage + carry capacity sweep, one active task on one character (was L171, L213).
-- Construction: trimmed-slot priority list shared by Tastic and Matic (was L170).
-- Talent books: perfect-checkout plan (2 talents/day/character), sub-200 bumps (was L148, L197).
-- Every-character systems still unchecked: Lab position per character (was L267).
-- Planner migration from toolbox/*.json page text to data.py, system by system (was L320).
 - Zack's call (brain/plans.yaml is his): Elite Class Swap Token day plan for Naut (was L194); 1M Green Mushroom kills for the W2 weekly boss (was L214).
+- Review + approve the 65 auto-drafted GOAL blocks (status: DRAFT, auto: true); 14 gaps listed in brain/goal_gaps.md.
 
 ## Gaps: need creator sources (Griffy > Pulse = Nocturne > Toolbox/wiki), data + "my read" until then
 - The Hole: per-cavern how it works / what to level / when to run / goal, opal split across villagers (was L122-138).

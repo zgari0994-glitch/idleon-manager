@@ -1,0 +1,20 @@
+# Trigger map (pending L11, built 2026-11-28): every threshold-driven system, Divinity first.
+# Each row: system, owner (comma list of full names), metric (model/syscheck2.metrics), at (number or another metric),
+# when / then (plain English), source. Evaluated every pull on the owner's card (syscheck2.c_triggers): HIT rows go first.
+# Add rows here; no code change needed unless a new metric is required.
+triggers:
+  # ---- Divinity (Bish) ----
+  - {system: divinity, owner: Autistabish, metric: blessings_maxed, at: deities, when: "every god's blessing at max", then: "spend Divinity PTS on Coral Kid instead of blessings", source: "my read"}
+  - {system: divinity, owner: Autistabish, metric: total_div_lv, at: "coral_kid_req:3", when: "total Divinity LV reaches Coral Kid #3", then: "buy Coral Kid #3 (Divinity Skill LV boosts minor links)", source: "Toolbox"}
+  - {system: divinity, owner: Autistabish, metric: total_div_lv, at: "coral_kid_req:4", when: "total Divinity LV reaches Coral Kid #4", then: "buy Coral Kid #4 (+Divinity PTS per Coral Reef upgrade)", source: "Toolbox"}
+  - {system: divinity, owner: Autistabish, metric: total_div_lv, at: "coral_kid_req:5", when: "total Divinity LV reaches Coral Kid #5", then: "buy Coral Kid #5 (more daily coral)", source: "Toolbox"}
+  - {system: divinity, owner: Autistabish, metric: total_div_lv, at: "coral_kid_req:7", when: "total Divinity LV reaches Coral Kid #7", then: "buy Coral Kid #7 (transmute base x higher)", source: "Toolbox"}
+  - {system: divinity, owner: Autistabish, metric: total_div_lv, at: "coral_kid_req:8", when: "total Divinity LV reaches Coral Kid #8", then: "buy Coral Kid #8 (Divinity EXP for all)", source: "Toolbox"}
+  - {system: divinity, owner: Autistabish, metric: total_div_lv, at: "coral_kid_req:9", when: "total Divinity LV reaches Coral Kid #9", then: "buy Coral Kid #9 (Time Elapsed from any AFK claim)", source: "Toolbox"}
+  - {system: divinity, owner: Autistabish, metric: total_div_lv, at: "coral_kid_req:10", when: "total Divinity LV reaches Coral Kid #10", then: "buy Coral Kid #10 (Lumi hourly gain)", source: "Toolbox"}
+  - {system: divinity, owner: Autistabish, metric: total_div_lv, at: "coral_kid_req:11", when: "total Divinity LV reaches Coral Kid #11", then: "buy Coral Kid #11 (DMG per God Rank above 25)", source: "Toolbox"}
+  - {system: divinity, owner: Autistabish, metric: god_rank, at: 25, when: "God Rank 25", then: "God Rank DMG bonus starts (Coral Kid #11); keep pushing to 30, Super week is when you push it", source: "Pulse (endgame 25-30)"}
+  - {system: divinity, owner: Autistachio, metric: "div_lv:Autistachio", at: 40, when: "Tachio Divinity 40", then: "move Tachio to Monuments (Zack's plan)", source: "Zack's plan"}
+  # ---- Alchemy (Cat) ----
+  - {system: alchemy, owner: Autistocat, metric: vials_maxed, at: 87, when: "every vial maxed", then: "stop vial rolls; free the print slots used for vial items", source: "my read"}
+  - {system: alchemy, owner: Autistocat, metric: null, at: null, when: "last bubbles unlocked", then: "move cauldron people to residuals, then liquids", source: "Zack"}

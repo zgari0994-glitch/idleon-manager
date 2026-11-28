@@ -1,7 +1,7 @@
 """Breeding planner: upgrade buys ranked for DNA efficiency, territory spice -> Cooking, eggs, shiny targets, Menagerie prereqs
 -> Autistacular's Breeding block.
 
-Inputs: snapshots/<LATEST>/toolbox/breeding.json, review.json.gz (AutoReview Breeding).
+Inputs: data.py (Toolbox parser), review.json.gz (AutoReview Breeding).
 GAP: Mobs tab was read with a filter on (fence only); per-pet shiny levels come from AutoReview until the reader clears filters.
 """
 import gzip, json, re

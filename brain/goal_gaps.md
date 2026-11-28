@@ -1,0 +1,18 @@
+# GOAL gaps (systems whose ladder is not creator-sourced)
+Each needs Griffy > Pulse = Nocturne guidance; until then rungs are AutoReview / my read.
+
+## 2026-11-27 auto-drafts (14 of 65)
+- anvil: none (owner UNASSIGNED)
+- autoloot: partial (owner unassigned in jobs.yaml)
+- basketball: partial (owner unassigned in jobs.yaml)
+- bubba: none (owner UNASSIGNED)
+- greenstacks: partial (owner Autistotle)
+- hat_rack: partial (owner unassigned in jobs.yaml)
+- palette: none (owner UNASSIGNED)
+- poppy: none (owner UNASSIGNED)
+- snail_mail: none (owner UNASSIGNED)
+- super_talents: none (owner UNASSIGNED)
+- sushi_station: none (owner UNASSIGNED)
+- talents: none (owner UNASSIGNED)
+- weekly_boss: none (owner UNASSIGNED)
+- world_bosses: none (owner UNASSIGNED)
