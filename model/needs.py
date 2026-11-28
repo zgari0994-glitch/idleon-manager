@@ -13,7 +13,6 @@ D = load()
 SPEL = D.system('spelunk')
 VOTE = D.system('ballot')
 CAVES = ['Pebble Cove', 'Sedimeadow', 'Rustbelt 03', 'Blushpit', 'Chucklemire', 'Lunarheim', 'Bizarrio', 'Glitter End', 'Scoutpost', 'Exiled Throne']
-FIRST_CAVE = 'the first cave'   # Zack 2026-11-21: Spelunking parks use the first cave
 cl = lambda x: str(x).replace('_', ' ').replace(' @ ', '; ')
 
 
@@ -88,17 +87,25 @@ def _div_points_needed():
     return (nxt[0], pts) if nxt and pts < nxt[0]['cost'] else (None, pts)
 
 
+_IN_PARK = set()
+
+
 def park(name, card_park=''):
-    """(where, why). Order: weekly overrides, Zack's standing duty rules, then the account goal."""
+    """(where, why). Weekly override, the Divinity-points rule, then the AFK engine's chosen line (model/afk.py, from jobs.yaml +
+    plans.yaml + Laws). No character is special-cased here (Zack 2026-11-27 clean-up)."""
     for who, do, why in weekly()['notes']:
         if who == name and 'parked' in do: return ('Monument (Hole) this week', why)
-    if name == 'Autistopher' and card_park and 'kills left' in card_park:
-        return (card_park, 'Super CHOWs and WOWs only count on him (account buffs)')
-    if name == 'Autiszemo' and card_park:
-        return (card_park, 'his ZOWs and CHOWs only count on him')
-    if name == 'Autistocat':
-        c = D.char(name); return (f"Arcanist Form push at {cl(c.get('currentMap', '?'))}, and Emperor on attempts", 'personal goal: Arcanist Form to W3 + Emperor (Zack 2026-11-25)')
     if name == 'Autistronaut':
         k, pts = _div_points_needed()
         if k: return ('W5 Divinity altar, Mindful style', f"divinity points {pts:,.0f}, next Coral Kid upgrade needs {k['cost']:,.0f} (Pulse: Mindful is the best style)")
-    return (f"Spelunking: {FIRST_CAVE}", f"account goal: {goal().get('next') or 'Spelunking'} (Pulse: most characters on Spelunking)")
+    if name not in _IN_PARK:
+        _IN_PARK.add(name)
+        try:
+            import afk as A
+            _r, c, _s, _x = A.pick(name)
+            if c: return (c.get('where') or ' / '.join(x for x in (c.get('world'), c.get('map'), c.get('mob')) if x) or (f"Spelunking cave {c['cave']}" if c.get('cave') else 'spot = GAP'), c.get('why', '?'))
+        except Exception:
+            pass
+        finally:
+            _IN_PARK.discard(name)
+    return (f"Spelunking: {goal().get('next') or 'next cave'}", f"account goal: {goal().get('next') or 'Spelunking'} (Law 3: no personal goal)")

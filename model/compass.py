@@ -109,3 +109,59 @@ if __name__ == '__main__':
     o = build()
     for l in card_lines(o): print(l)
     print(print_line(o))
+
+
+# ---------- Compass plan v2 (Zack 2026-11-27). Mechanics: idleon.wiki Wind Walker ONLY (fan wiki, flagged; no Griffy/Pulse) ----------
+AETHER = ("idleon.wiki Wind Walker (fan wiki, flagged): dust + medallions drop only while ACTIVE in Tempest Form. AFK banks Aethermoons only from "
+          "non-candy FIGHTING AFK, and only after 1000 Aether Fragments; 1 moon = 1h of dust at the AFK Info rate of the map he stands on when used "
+          "(1 moon per 2h vs per 1h AFK: UNCONFIRMED). Spelunking AFK = 0 moons")
+
+
+def plan():
+    """Next medallion + next abomination + biggest dust gap, all from this save."""
+    from data import load
+    C = load().system('compass')
+    names = [d['name'] for d in C['dusts']]; bal = {d['name']: d['value'] for d in C['dusts']}
+    mname = {str(m['mapIndex']): m['mapName'].replace('_', ' ') for m in C['maps']}
+    med = C['medallions']; off = 1 - int(med[0].get('worldIndex') or 0)   # Green Mushroom = W1
+    dn = lambda x: names[int(x)] if isinstance(x, (int, float)) and int(x) < len(names) else str(x)
+    miss = [m for m in med if not m.get('acquired') and m.get('AFKtype') != 'error' and m.get('SpecialType', '_') == '_' and not m['Name'].startswith('Crystal')
+            and m.get('worldIndex') is not None and str(m.get('mapIndex')) in mname]   # skip specials (crystals, Boops) and mobs with no map
+    miss.sort(key=lambda m: float(m.get('MonsterHPTotal') or 0))   # easiest kill first (lowest HP)
+    have = int(C.get('totalAcquiredMedallions') or 0)
+    nxt = [{'mob': m['Name'].replace('_', ' '), 'map': mname.get(str(m.get('mapIndex')), '?'), 'world': int(m.get('worldIndex') or 0) + off, 'dust': dn(m.get('dustType'))} for m in miss[:2]]
+    k = int(C.get('totalKilledAbominations') or 0); ab = C['abominations']
+    a = ab[k] if k < len(ab) else None
+    abom = {'n': k + 1, 'name': a['name'].replace('_', ' '), 'world': a['world'], 'map': a['map'].replace('_', ' '), 'hp': a['hp'],
+            'weak': (a.get('weakness') or {}).get('name'), 'unlocked': a.get('unlocked')} if a else None
+    o = json.load(open(ROOT / 'model' / 'compass.json'))
+    tab = o['targets'][0]['tab'] if o.get('targets') else None
+    gap = {}
+    for t in [t for t in o.get('targets', []) if t['tab'] == tab and t.get('up') and t['up'].get('cost')]:
+        lv = max(0, int(t['goal']) - int(t['cur'])); cu = t['up']['currency']
+        gap[cu] = gap.get(cu, 0) + lv * t['up']['cost']
+    ratio = {c: v / bal[c] for c, v in gap.items() if bal.get(c)}
+    worst = max(ratio, key=ratio.get) if ratio else None
+    ep = next((u for u in o['upgrades'] if u['name'] == 'Elemental Path'), None)
+    p = {'have': have, 'next_medallions': nxt, 'abom': abom, 'tier_tab': tab, 'ar_tier': o.get('ar_tier'), 'gap_ratio': ratio, 'worst_dust': worst,
+         'elemental_path': ({'lv': ep['lv'], 'max': ep['max'], 'cost': ep['cost'], 'stardust': bal.get('Stardust'), 'affordable_x': (bal.get('Stardust') or 0) / ep['cost']} if ep and ep.get('cost') else None)}
+    md = ' or '.join(f"{x['mob']} (W{x['world']} {x['map']})" for x in nxt) or 'all medallions found'
+    ab_t = f"abomination #{abom['n']} {abom['name']} (W{abom['world']} {abom['map']}, {h(abom['hp'])} HP, weak to {abom['weak']})" if abom else 'all abominations killed'
+    p['active_line'] = f"Tempest Form active session: medallion {have} -> {have + 1} at {md}; then {ab_t}"
+    return p
+
+
+def tier_line(p=None):
+    p = p or plan()
+    return f"Compass AutoReview {p['ar_tier']} ({p['tier_tab']}); medallions {p['have']}; next abomination #{p['abom']['n'] if p['abom'] else '-'}"
+
+
+def park_fields(p=None):
+    """Tacular's AFK park line while Compass is a top-10 need. Zack picks the map; per-map AFK rates aren't in the data."""
+    p = p or plan()
+    import score as S
+    r = S.need_rank('Compass')
+    d = p['worst_dust'] or 'Stardust'
+    return {'where': f"Fighting AFK (no candy) on a {d} map, your pick (per-map AFK dust rates aren't in the data)",
+            'why': f"Compass is the #{r} need and {d} is the biggest gap to {p['tier_tab']} (needs at least {p['gap_ratio'].get(d, 0):.1f}x your balance, next-level costs only, my read). {AETHER}",
+            'src': 'idleon.wiki Wind Walker (fan wiki, flagged) + save'}

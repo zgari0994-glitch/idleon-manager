@@ -1,0 +1,14 @@
+# Task Score weights (docs/scoring.md, Zack 2026-11-27). All "my read" until pull-to-pull calibration moves them.
+K: 0.5                 # Score = 100 x Raw / (Raw + K); fixed so scores mean the same every pull
+default_impact: 0.3    # a system not in the needs list
+goal_impact: 1.0       # the main goal's own section
+unblocks:              # systems each one unblocks (Reach = 1 + 0.5 each). Spelunking: Teal Summoning, meal levels, Ethereal Sigils (priority.py)
+  Spelunking: 3
+  Compass: 1
+  The Tesseract: 1
+  The Grimoire: 1
+goal_chain: []         # sections on the main goal's blocker chain (x2 Reach); the goal itself always counts
+confidence: {griffy: 1.0, pulse: 0.9, nocturne: 0.9, toolbox: 0.8, wiki: 0.8, autoreview: 0.8, zack: 0.8, save: 0.8, "guide sheet": 0.6, "2023": 0.6, "my read": 0.5, reddit: 0.4, discord: 0.4, fan: 0.4}
+default_confidence: 0.5
+active_only_sections: [Compass, The Tesseract, Emperor]   # purely active work, night-watch rivals
+night_watch: {impact: 0.6, section: Drop Rate, minutes: 480, src: zack}   # Cat's frogs, my read on impact

@@ -21,7 +21,7 @@ from data import load
 
 ROOT = Path(__file__).resolve().parent.parent
 STATE = ROOT / 'state' / 'afk_state.json'
-POW_TARGET = 900_000   # Zack 2026-11-27 Project description: main goal Spelunking POW 900K
+# POW 900K target retired 2026-11-27: Spelunking's target = the next lore boss (goalpick.target)
 PIN_PULLS = 3
 ACTIVE_PULLS = 2
 STALE_DAYS = 21
@@ -29,7 +29,7 @@ NICK = {'Zemo': 'Autiszemo', 'Cat': 'Autistocat', 'Ticles': 'Autisticles', 'Tast
         'Tacular': 'Autistacular', 'Totle': 'Autistotle', 'Matic': 'Autistomatic', 'Naut': 'Autistronaut', 'Topher': 'Autistopher',
         'Tachio': 'Autistachio'}
 NAME2NICK = {v: k for k, v in NICK.items()}
-TIER_ORDER = {'law': 0, 'job': 1, 'class': 2, 'read': 3}
+TIER_ORDER = {'plan': -2, 'master': -1, 'law': 0, 'job': 1, 'class': 2, 'read': 3}
 
 D = load()
 CFG = yaml.safe_load((ROOT / 'model' / 'jobs.yaml').read_text())
@@ -140,10 +140,13 @@ def finish(spec, name):
     """-> (text, done, measured). measured False = no number in the data (say so)."""
     if not spec: return ('finish line = GAP (no measurable target yet)', False, False)
     k = spec.get('kind')
-    if k == 'pow':
-        p = _soft(lambda: float(D.system('spelunk')['power']['value']))
-        if p is None: return ('POW not in this save', False, False)
-        return (f"POW {short(p)} / {short(POW_TARGET)} ({p / POW_TARGET:.0%})", p >= POW_TARGET, True)
+    if k == 'pow':   # Zack 2026-11-27: Spelunking target = next lore boss
+        t, hit = _soft(lambda: __import__('goalpick').target('Spelunking'), ('Spelunking target not in this save', False))
+        return (t, hit, True)
+    if k == 'plan': return (spec.get('text', "Zack's plan: runs until he changes it"), False, True)
+    if k == 'compass':
+        t = _soft(lambda: __import__('compass').tier_line())
+        return (t or 'Compass tier not in this save', False, bool(t))
     if k == 'statue':
         lv = statue(spec['name'])
         if lv is None: return (f"{spec['name']} Statue level not in the parser: check in game", False, False)
@@ -317,6 +320,10 @@ def candidates(name):
     rows, retired = [], []
     for c in law_lines(name) + [dict(x) for x in afk_cfg(name) if not x.get('exclusive')]:
         c.setdefault('tier', 'read')
+        if str(c.get('when', '')).startswith('top_need:'):   # only while that system is a top-10 need (score.need_rank)
+            r = _soft(lambda: __import__('score').need_rank(c['when'].split(':', 1)[1]))
+            if not r or r > 10: continue
+        if c.get('dyn') == 'compass': c.update(_soft(lambda: __import__('compass').park_fields(), {}) or {})
         c['fin'] = c.get('fin') or finish(c.get('finish'), name)
         if c['fin'][1]: retired.append(c); continue
         c['stale'] = stale(c) + ([] if c.get('finish') or c.get('fin', (0, 0, False))[2] or c['tier'] == 'law' else ['no finish line'])
@@ -327,7 +334,7 @@ def candidates(name):
 
 def fmt(c):
     loc = c.get('where') or ' / '.join(x for x in (c.get('world'), c.get('map'), c.get('mob')) if x) or 'spot = GAP'
-    tag = {'law': 'LAW', 'job': 'JOB', 'class': 'CLASS', 'read': 'MY READ'}[c['tier']]
+    tag = {'plan': "ZACK'S PLAN", 'master': 'MASTERCLASS', 'law': 'LAW', 'job': 'JOB', 'class': 'CLASS', 'read': 'MY READ'}[c['tier']]
     s = f"[{tag}] {loc}. Why: {c.get('why', '?')}. Finish: {c['fin'][0]}. Source: {c.get('src', 'GAP')}"
     if c.get('gap'): s += f". Gap: {c['gap']}"
     if c.get('stale'): s += f"  [STALE CHECK: {'; '.join(c['stale'])}]"

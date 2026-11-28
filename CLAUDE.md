@@ -6,6 +6,12 @@ Lean core, re-read every call: keep it small. Details live in docs/ and are open
 2. Focus never means neglect: a character hard-focusing a blocker STILL does every other system and duty they own, every day. Example: if Construction is the blocker, Autistastic hard-focuses Construction AND still checks his Royal Guardian duties, Gaming and everything else on his card. Nothing drops off a card because something else is the focus.
 3. Side goals (Zack 2026-11-27): a character may leave the main goal for a short personal goal that also helps the account (e.g. Ticles' bars), finish it fast, then go straight back. Anyone with no active personal goal works the main goal (now Spelunking). Death Bringers: Zemo bursts small Death Note kills then pushes bones; Topher grinds the big remaining kills.
 
+## Card jobs (Zack 2026-11-27): from the model, never hand-written
+- Order on every card: Zack's plan (brain/plans.yaml, his plans ONLY, dated, shown "Zack's plan") > Law 2 duties > masterclass duty (jobs.yaml masterclass:) > top-scored task in that character's systems (model/score.py). No personal goal -> main goal (Law 3).
+- Masterclass: Tacular Compass, Zemo + Topher Grimoire, Cat Tesseract (+ Arcanist map push). Daily, check tier vs account; top-10 need = work it NOW alongside Spelunking. A Death Bringer Spelunks only once Grimoire is not a top-10 need. Compass/Tesseract active work = short daytime sessions.
+- Overnight active slot = Cat only (frogs, Zack's plan). Night watch: an active-only task beating it 2 pulls in a row -> Cat's card lists the top 3 "reconsider?". Flag only.
+- Dry run: `python3 model/score.py` (one line per character, writes nothing); `--top` = account top 10 with inputs.
+
 ## Usage budget (the weekly limit is the #1 constraint)
 - A normal question gets at most 2 tool calls. Call 1 is always `python3 tools/lookup.py <system> [terms]`. Call 2 only if needed (`--path` drill-in, or a second system).
 - Anything bigger (builds, rewrites, multi-system reviews, research): ask Zack first with an estimated call count.
@@ -47,4 +53,4 @@ When a rule changes: update this file or its docs/ file, Project memory (`/proje
 - docs/cards.md: AFK park lines v2 (model/afk.py), card wording, Library rank, every system on its card daily, GOAL LOGIC detail + current goal, can't-miss, locked = target, clocks, brain/report/decision layer (cards4, reserves, super talent resets).
 - docs/planners.md: per-system GOAL standard (9 fields + template), per-system planner standard, the done list (owners per system), order, need outweighs math, Pinchy, planner migration to data.py.
 - docs/layout.md: repo layout, tagging pipeline, brother's account (accounts/brother, never mix), status + pending in-game checks, keep-rules-current origin.
-- docs/scoring.md: Task Score 0-100 (Impact x Reach x Confidence x Urgency / Effort), guardrails, calibration. model/score.py not built yet.
+- docs/scoring.md: Task Score 0-100 (Impact x Reach x Confidence x Urgency / Effort), guardrails, calibration. Built 2026-11-27: model/score.py (weights model/score_weights.yaml), card job picker + night watch.

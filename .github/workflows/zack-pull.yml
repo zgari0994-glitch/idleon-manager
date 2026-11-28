@@ -70,6 +70,8 @@ jobs:
           for s in model/ledger.py model/coins.py model/buffs.py model/mechanics.py rinse/rinse.py model/plan.py model/acquire.py; do
             python3 "$s" > /tmp/step.log 2>&1 && tail -1 /tmp/step.log | sed "s|^|[$s] |" || { echo "::warning::$s failed"; tail -5 /tmp/step.log; }
           done
+          # state for "2 pulls in a row" rules: goal switch, AFK keep?/pins, night watch (Zack 2026-11-27)
+          (cd "$AR" && PYTHONPATH=".:$REPO/model" python3 -c "import goalpick as G, afk as A, score as S; G.record(G.D.stamp); A.record(); S.record()") || echo "::warning::state record failed"
           (cd "$AR" && PYTHONPATH=".:$REPO/model" python3 "$REPO/model/cards2.py") || echo "::warning::cards2 failed"
           for s in report decide cards3; do
             (cd "$AR" && PYTHONPATH=".:$REPO/model" python3 "$REPO/model/$s.py") || { echo "::error::$s failed"; exit 1; }

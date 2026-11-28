@@ -355,7 +355,6 @@ def milestones():
     return res
 
 # ---------------- parking (Zack 2026-11-25: fluid, from current needs + standing rules; see model/needs.py park()) ----------------
-SPELUNK_CAVE = 'the first cave (Zack 2026-11-21)'
 
 # ---------------- build ----------------
 def build():

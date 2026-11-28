@@ -1,0 +1,62 @@
+# Zack's plans ONLY (Zack 2026-11-27 keep/remove review). Each one is dated and shows on the card as "Zack's plan".
+# Change only when Zack says so. Everything else on a card comes from the model (model/score.py).
+# Card job order: Zack's plan > Law 2 duties > masterclass duty > top-scored task in that character's systems on the goal chain.
+# Removed 2026-11-27 (scoring decides now): Cat Arcanist Form push line (now a masterclass duty), Tacular overnight breeding,
+# Tacular Compass Nomadic path, Tacular Spelunking placeholder, the 11-17 priorities list.
+slots:
+  overnight_active: Autistocat   # nobody else gets the overnight active slot unless Zack changes it
+plans:
+  - id: cat_frogs
+    who: Autistocat
+    slot: overnight_active
+    do: "Active overnight on W1 Froggy Fields (Frogs), boosting that map's crystal drop rate"
+    then: "AFK there for crystals while Zack is at work"
+    finish: "next map decided together later"
+    date: 2026-11-27
+  - id: cat_cranium
+    who: Autistocat
+    do: "Cranium Cooking on the Wurms, big alchemy days only"
+    task: cranium
+    date: 2026-11-27
+  - id: zemo_dn_bones
+    who: Autiszemo
+    do: "Burst the small Death Note kills, then push bones. Wraith Form always on"
+    gap: "bones map + finish line = GAP"
+    date: 2026-11-27
+  - id: topher_kills
+    who: Autistopher
+    do: "Grind the big remaining Super CHOW + WOW kills"
+    date: 2026-11-27
+  - id: topher_backup_db
+    who: Autistopher
+    do: "Backup Death Bringer for a hyper push (joins Zemo when called)"
+    date: 2026-11-27
+  - id: topher_achievements
+    who: Autistopher
+    do: "Knock out the easiest open achievements"
+    task: achievements
+    date: 2026-11-27
+  - id: ticles_bars
+    who: Autisticles
+    do: "Bars side goal (Law 3) on W1 Spore Meadows Green Mushrooms (full forge_plan in model/jobs.yaml)"
+    date: 2026-11-27
+  - id: totle_maestro
+    who: Autistotle
+    do: "Maestro: #1 in every skill; greenstack runs; daily Research observations"
+    task: [greenstacks, observations]
+    date: 2026-11-27
+  - id: tachio_div_monuments
+    who: Autistachio
+    do: "Divinity to 40, then Monuments: Justice 0, Wisdom 0, then Bravery 118 -> 300"
+    date: 2026-11-27
+  - id: rg_bag_sweep
+    who: [Autistastic, Autistomatic]
+    rule: best_dr_rg
+    do: "Bag sweep: farm each missing bag once, store it, every character pulls one"
+    task: bag_sweep
+    date: 2026-11-27
+  - id: matic_prints
+    who: Autistomatic
+    do: "Redo all prints, Royal Sampler on"
+    task: prints_redo
+    date: 2026-11-27

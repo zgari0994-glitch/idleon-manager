@@ -89,6 +89,10 @@ _baba_route(C['chars'])
 for ch in C['chars']:
     name = ch['name']; b = D['by_char'].get(name, {})
     card = {'name': name, 'systems': [], 'spend': [], 'do': [], 'toward': [], 'locked': [], 'dont': [], 'notes': [], 'bags': [], 'park': ch.get('park') or ''}
+    try:
+        import score as _S; card['jobs'] = _S.card_lines(name)
+    except Exception as _e:
+        card['jobs'] = [f'job picker failed: {_e}']
     card['goal'] = [{'do': p['do'], 'why': p.get('why', '')} for p in ch.get('part') or []]
     for blk in ('daily', 'house'):
         for st in ch.get(blk) or []:
@@ -135,6 +139,7 @@ for ch in C['chars']:
     if card['toward']: md.append('Working toward (no step today):'); md += [f'- {x}' for x in card['toward']]
     if card['locked']: md.append('Locked targets:'); md += [f'- {x}' for x in card['locked']]
     if card['notes']: md.append('Notes:'); md += [f'- {x}' for x in card['notes']]
+    md.append('Jobs (in order):'); md += [f'- {l}' for l in card.get('jobs', [])]
     md.append(f"Park: {card['park'] or 'no park line (hole)'}"); md.append('')
 
 acct = D['by_char'].get('account', {})

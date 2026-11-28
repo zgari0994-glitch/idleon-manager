@@ -14,10 +14,6 @@ exclude:   # leaves never shown (Zack's calls)
   - "^Blue Ribbon Certification|^Extended Database"   # Legend Talents held (Zack 11/16). Zack 2026-11-27: next time legend points come up or are spendable, give a full pick list from everything (tiers, goal chain, blockers) and re-decide these
 
 account_priority: {text: "auto: biggest current need (model/priority.py)", set_by: zack, date: 2026-11-19, note: "Zack 2026-11-19: priority is whatever holds the account back most. Cooking speed is one input, not pinned."}
-priorities:   # Zack 2026-11-17, in order. Chains (goal trees) get built for these first.
-  - "Cooking speed"
-  - "Start W7 activities not started yet"
-  - "Push W5 / W6 / W7 systems started but neglected during the hiatus (e.g. Spelunking)"
 
 characters:
   Autiszemo:      # Death Bringer #1
@@ -34,7 +30,7 @@ characters:
       - {job: "ZOWs + CHOWs W1-W6", sections: [{s: Death Note, m: "Autiszemo|Eclipse Skull.*in W[1-6]\\b"}], basis: zack}
   Autistocat:     # Arcane Cultist
     afk:
-      - {tier: job, exclusive: true, where: "Arcanist Form push at his current map", why: "personal goal: Arcanist Form + Emperor. Drop crystals and kill the map's crystal-mob count before the timer to unlock the next map", finish: {kind: map_past, code: w5a1, label: "Naut Sake Perimeter (W5 map 1)"}, src: zack, date: 2026-11-27}
+      - {tier: plan, world: W1, map: "Froggy Fields", mob: "Frog", why: "Zack's plan (brain/plans.yaml cat_frogs): AFK for crystals on the frog map while Zack is at work, active there overnight", finish: {kind: plan, text: "Zack's plan: until we pick the next map together"}, src: zack, date: 2026-11-27}
       - {tier: class, where: "Active-first (Cranium Cooking active)", why: "master class progress is active-only without its AFK mechanic", src: "Griffy N5yJ4-tZLbY 00:52 (2026-10-04)", gap: "plain AFK spot not sourced"}
     active: [cranium]
     jobs:
@@ -79,8 +75,8 @@ characters:
       - {job: "Statues: ES (Box, Seesaw)", sections: [{s: Statues, m: "ES at"}], basis: autoreview}
   Autistacular:   # Wind Walker
     afk:
-      - {tier: read, where: "W7 Spelunking cave push", why: "until his tasks are planned", src: zack, date: 2026-11-18, gap: "no Wind Walker AFK spot sourced"}
-    active: [compass_nomadic, breeding_ww]
+      - {tier: master, dyn: compass, when: "top_need:Compass", where: "Fighting AFK for Aethermoons (no candy)", why: "Compass is a top need", finish: {kind: compass}, src: "idleon.wiki Wind Walker (fan wiki, flagged; no Griffy/Pulse)", date: 2026-11-27}
+    active: []
     jobs:
       - {job: Sneaking, sections: [Sneaking], basis: class}
       - {job: Breeding, sections: [Breeding], basis: class}
@@ -170,20 +166,31 @@ every_character:   # Zack 2026-11-19: systems every character considers in its o
 
 unassigned:
 
-active_tasks:   # importance 1 = top. minutes = rough session length. Quick win = <= 15 min.
+active_tasks:   # Scorer candidates (model/score.py). Ids named in brain/plans.yaml show as Zack's plan instead. owner auto = jobs.yaml owner of the section. importance 1 = top. minutes = rough session length. Quick win = <= 15 min.
   - {id: quicc_brew, owner: Autistocat, task: "Quicc cauldron brew speed is 0 (697M/716M): put a brewer on it.", importance: 1, minutes: 5, src: "Toolbox 20261127T2212"}
   - {id: cranium, owner: Autistocat, daily: false, section: Bubbles, task: "Cranium Cooking on the Wurms. Only on big alchemy days, not every day.", importance: 1, minutes: 480, notes: ["Disconnect Viaduct of the Gods in Lab", "Move sigil char to a liquid", "Cauldron pts -> W7 bubble rolls"], src: zack}
-  - {id: compass_nomadic, owner: Autistacular, section: Compass, task: "Push the Compass Nomadic path. Spots 15, 17 and 32 unlock Atomic Cost Crash, Atomic Potential and the Aluminium atom.", importance: 1, minutes: 120, src: "AutoReview Compass + game"}
   - {id: statues_es, owner: Autistabish, section: Statues, task: "Statues: Box at Penguins, then Seesaw at Cryosnakes, 25 -> 40.", importance: 2, minutes: 60, src: "AutoReview statue table"}
   - {id: dk_crystals, owner: Autistomatic, section: Statues, task: "Farm DK crystals at the Minichiefs for the Essence statue, 2 -> 40.", importance: 2, minutes: 60, src: "AutoReview statue table"}
   - {id: greenstacks, owner: Autistotle, section: Greenstacks, task: "Greenstack runs on the closest items (use candy and skips).", importance: 3, minutes: 30, src: zack}
   - {id: observations, owner: Autistotle, section: Research, task: "Use the daily Research observation rolls.", importance: 2, minutes: 10, src: zack}
   - {id: achievements, owner: Autistopher, section: Achievements, task: "Knock out the easiest open achievements.", importance: 3, minutes: 30, src: zack}
-  - {id: breeding_ww, owner: Autistacular, section: Breeding, task: "Active Wind Walker breeding overnight (normal form, Whale Wallop on your bar). Fence one drop-rate shiny at a time up to 20: Slime 5, Choccie 5, Xylobone 10.", importance: 2, minutes: 480, notes: ["Method: Pulse 6JgdYbiEKus 23:23 (one type to cap, then next)", "Rate pets = ~0.2% faster per level (my math): low value, swapped off fence", "Night 1 (11/17): rate pets +18-21K shiny days each"], src: "Pulse + AutoReview + my read"}
   - {id: crayon_crops, owner: Autiszemo, section: Farming, task: "Discover new crop types (125 now). Each one boosts shiny rate, about double at 330, and 200 finishes a Menagerie mission.", importance: 1, minutes: 20, src: "AutoReview Shiny Rate sources + Menagerie"}
   - {id: bag_sweep, owner: "best-DR RG", task: "Bag sweep: farm each missing bag once, store it, every character pulls one.", importance: 3, minutes: 45, src: zack}
   - {id: green_mush, owner: Autistachio, task: "Kill 1M Green Mushrooms for the W2 weekly boss.", importance: 3, minutes: 240, src: AutoReview}
+  - {id: m_equinox, owner: auto, section: Equinox, slot: morning, task: "Spend the Equinox bar whenever you pass the PC.", importance: 3, minutes: 2, src: "Toolbox Equinox"}
+  - {id: m_arcade, owner: auto, section: Arcade, slot: morning, task: "Claim Arcade balls a couple of times (the bank caps).", importance: 2, minutes: 2, src: "Toolbox Arcade"}
+  - {id: m_gaming, owner: auto, section: Gaming, slot: morning, task: "Harvest the gaming garden every few hours (sprouts stop at 20).", importance: 2, minutes: 3, src: "Toolbox Gaming"}
+  - {id: m_hole, owner: auto, section: The Hole, slot: morning, task: "Check the Hole study timers and bump each level as it comes ready.", importance: 2, minutes: 3, src: "Toolbox Hole"}
+  - {id: m_owl, owner: auto, section: Owl, slot: morning, task: "Clickers: buy Owl, Bubba and Poppy upgrades as feathers stack up.", importance: 1, minutes: 3, src: "Toolbox Owl"}
+  - {id: m_prayers, owner: every character, section: Prayers, slot: morning, task: "Set prayers to what each character is doing today (AFK vs active).", importance: 1, minutes: 3, src: "zack: prayers stay fluid per task"}
   - {id: prints_redo, owner: Autistomatic, section: Sampling, task: "Redo all prints. Royal Sampler stays on for now (your call).", importance: 3, minutes: 20, src: zack}
+
+masterclass:   # Zack 2026-11-27: only these characters can push their masterclass system (all behind). Each works it daily and checks tier/state vs the account.
+  # Top-10 need -> owner works it NOW alongside Spelunking. A Death Bringer drops to Spelunking only when Grimoire is in a good spot (not a top-10 need).
+  - {who: Autistacular, section: Compass, do: "Compass: check tier vs account, short daytime Tempest Form session (next medallion + next abomination)", why: "only a Wind Walker pushes Compass", src: "zack rule; mechanics idleon.wiki (fan, flagged)"}
+  - {who: Autiszemo, section: The Grimoire, do: "Grimoire: Wraith Form bones, check tier vs account", why: "only a Death Bringer pushes Grimoire", src: zack}
+  - {who: Autistopher, section: The Grimoire, do: "Grimoire (backup Death Bringer): check tier vs account, join a hyper push when called", why: "second Death Bringer", src: zack}
+  - {who: Autistocat, section: The Tesseract, do: "Tesseract: short daytime active sessions + Arcanist Form map push (crystal mobs before the map timer)", why: "only an Arcane Cultist pushes Tesseract", src: "zack rule; Griffy N5yJ4-tZLbY 00:52"}
 
 locked:   # never hidden: what unlocks it + where that sits
   - {feature: "Aluminium Atom", unlock: "Compass Nomadic Path pos 32 (now 16/38)", owner: Autistacular}

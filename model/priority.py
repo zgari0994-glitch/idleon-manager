@@ -54,7 +54,7 @@ def build():
                             'why': f"its next {n} caves unlock things other systems are waiting on (Teal Summoning, +30 meal levels, Ethereal Sigils)"})
     except Exception: pass
     needs.sort(key=lambda x: -x['score'])
-    o = {'snapshot': SNAP.name, 'top': needs[0] if needs else None, 'needs': needs[:8]}
+    o = {'snapshot': SNAP.name, 'top': needs[0] if needs else None, 'needs': needs[:12]}
     json.dump(o, open(ROOT / 'model' / 'priority.json', 'w'), indent=1)
     return o
 
