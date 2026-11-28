@@ -26,7 +26,7 @@ One score ranks every task across every system, so "what next" is not only Zack'
 ## Output
 - Card: each Do line carries its score. Report: two account-wide top 10s, quick (under 10 min) and long (10+ min), same score, inputs shown (Zack 2026-11-27).
 
-## Calibration check 2026-11-28 (Phase C finish, save 20261128T0256): PROPOSED, not applied
+## Calibration 2026-11-28 (Phase C finish, save 20261128T0256): APPLIED (Zack "go" 2026-11-28; #1 = Fix B K 5, #2 = max of section/task unblocks)
 Run: `python3 model/score.py --top`. 166 tasks, 48 score 90+, 13 score 95+.
 1. Saturation (K 0.5): Score = 100 x Raw / (Raw + 0.5), so any Raw over ~5 lands at 91-100. A 1-minute task at the default impact 0.3 (Raw = 0.3 x 1 x 1 x 1 / 0.03 = 10) scores 95, above the main goal row (Matic Spelunking, Raw 1 x 5 x 0.8 x 1 / 2 = 2, score 80). Three-way tie at 97.8, four-way at 96.4. Fix A: rank each top 10 by `value` (Impact x Reach x Conf x Urgency, no effort) and keep Score as the cross-list number; Fix B: K 0.5 -> 5 (spreads 90-100 back out). No effort floor either way (Zack 2026-11-27).
 2. Reach double count: "Push Lunarheim amber buys" reach 8.0 = (1 + 0.5 x (3 section unblocks + 3 task unblocks [cooking, super_talents, gallery])) x 2. The goal row itself gets 5.0. Same unblocks counted twice. Fix: reach = 1 + 0.5 x len(set(section unblocks + task unblocks)).

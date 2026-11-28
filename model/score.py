@@ -9,7 +9,7 @@ Night watch: an active-only task beating Cat's overnight frogs 2 pulls in a row 
   python3 score.py          dry run, one line per character, writes nothing
   python3 score.py --top    account top 10s (quick < 10 min, long 10+ min) with inputs
 build() -> model/score.json; record(save) -> state/nightwatch.json (pull only)."""
-import json, sys
+import json, re, sys
 from pathlib import Path
 import yaml
 from data import load
@@ -75,11 +75,32 @@ def owner_of(section):
 def conf(src):
     s = str(src).lower(); v = [c for k, c in W['confidence'].items() if k in s]
     c = max(v) if v else W['default_confidence']
+    # Zack 2026-11-28 calibration #5: old claims lose 10%/year, floored at the next confidence tier down
+    import re as _re, datetime as _dt
+    m = _re.search(r'(20\d\d)-(\d\d)-(\d\d)', s)
+    if m:
+        yrs = max(0.0, (_dt.date.today() - _dt.date(*map(int, m.groups()))).days / 365)
+        lower = max([x for x in W['confidence'].values() if x < c] or [c * 0.5])
+        c = max(c * 0.9 ** yrs, lower) if yrs > 0 else c
     a = age_h()
     return c * max(0.5, 1 - (a - 24) / 96) if a > 24 else c
 
 
+_DM = None
+
+
+def fix_owner(t):
+    """calibration #4 (Zack 2026-11-28): no unowned rows; owner from data_map (system owners), else every character."""
+    global _DM
+    o = t.get('owner')
+    if o and not re.search(r'unowned|unassigned', str(o), re.I): return
+    if _DM is None: _DM = yaml.safe_load(open(Path(__file__).resolve().parent / 'data_map.yaml')) or {}
+    k = str(t.get('system') or t.get('section') or '').lower().replace(' ', '_')
+    t['owner'] = next((x for x in (_DM.get(k) or {}).get('owners') or [] if str(x).startswith('Autis')), 'every character')
+
+
 def score(t):
+    fix_owner(t)
     g, sec = goal(), t.get('section', '')
     if 'impact' in t: imp = t['impact']
     elif sec == g: imp = W['goal_impact']
@@ -87,8 +108,12 @@ def score(t):
         n = next((x for x in needs() if x['section'] == sec), None)
         top = max([x['score'] for x in needs()] or [1])
         imp = n['score'] / top if n else W['default_impact']
-    reach = 1 + 0.5 * ((W.get('unblocks') or {}).get(sec, 0) + len(t.get('unblocks') or []))
+    # calibration #2: section unblocks and the task's own list name the same systems; count once (max), not twice
+    reach = 1 + 0.5 * max((W.get('unblocks') or {}).get(sec, 0), len(set(t.get('unblocks') or [])))
     if sec == g or sec in (W.get('goal_chain') or []): reach *= 2
+    # calibration #3: a confirm/check-in-game row has no gain until done
+    _tx = str(t.get('task') or t.get('do') or '')
+    if re.search(r'(^|:\s*)(confirm|check)\b', _tx, re.I) and 'in game' in _tx.lower(): imp *= 0.5
     c = conf(t.get('src', '')); urg = 1.5 if t.get('urgent') else 1.0
     eff = max(1.0, t.get('minutes', 30)) / 30 + 0.1 * t.get('wait_h', 0) + t.get('cost_share', 0)
     raw = imp * reach * c * urg / eff
