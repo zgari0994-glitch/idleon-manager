@@ -27,3 +27,8 @@ triggers:
   - {system: cog_board, owner: Autistastic, metric: null, at: 65, when: "booster cog XP at 65% cap", then: "switch to jeweled cogs (Cog Lover)", source: "Griffy 2025-11-10"}
   - {system: sneaking, owner: Autistacular, metric: null, at: null, when: "flower stack hits the door break point", then: "swap breaker to lotus, break the door", source: "Pulse 2026-11-10"}
   - {system: sneaking, owner: Autistacular, metric: null, at: null, when: "new mastery bottom floor", then: "black belts on all, sit for XP", source: "Pulse 2026-11-03"}
+  # ---- batch 2 synthesis 2026-11-28 (metric null = needs a syscheck2 metric) ----
+  - {system: breeding, owner: Autistacular, metric: null, at: 24, when: "faster-shiny pets all Lv 24+", then: "shiny time moves to meal-bonus pets", source: "Pulse 2026-10-31"}
+  - {system: breeding, owner: Autistacular, metric: null, at: 250, when: "Crucible unlocked (maxCrucibleLevel > 0)", then: "run the cheese team to round 250 once", source: "Pulse 2026-10-19"}
+  - {system: dungeons, owner: Autistomatic, metric: null, at: 490000, when: "dungeon progress reaches rankReq", then: "rank 45; next target from Toolbox rankReq", source: "Toolbox"}
+  - {system: cards, owner: Autistronaut, metric: null, at: 400001, when: "Coralcave Guardian card 1 star", then: "put it in a doubled card slot", source: "Pulse 2026-09-13"}

@@ -14,26 +14,34 @@ description: Dungeons: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
+<!-- DRAFT synthesis 2026-11-28 batch 2 (claims DB, save 20261128T0256): not approved, not in the pipeline -->
 ```yaml
 status: DRAFT
 role: independent
-goal: "Dungeon rank up and every S-tier RNG item owned"
-coverage: partial
+goal: "Rank 44 -> 45, flurbos into weapon power + class XP/accuracy, roll a 10-12% keychain, daily world boss in a full party"
+coverage: sourced       # RNG item tier list is 2022 (old)
 ladder:
-  - {tier: 1, target: "Rank 44 -> 45 (progress 451K / 490K)", source: "Toolbox", date: "2026-11-27"}
-  - {tier: 2, target: "S-tier RNG items: Tax Ledger 0/8, Sneaky Cap 0/5, Super Soda 0/5", source: "Griffy", date: "2022-09 (OLD)"}
-  - {tier: 3, target: "A-tier: Shattered Mirror 0/5, Genesis Sphere, Recycler 12/30", source: "Griffy", date: "2022-01 (OLD)"}
+  - {tier: 1, target: "Dungeon rank 44 -> 45: 451K of 490K progress (39K left)", source: "Toolbox", date: "2026-11-28"}
+  - {tier: 2, target: "flurbos (14.9K) into weapon power and class XP / accuracy, not Mega Crit gambling", source: "Griffy", date: "2026-10-04"}
+  - {tier: 3, target: "-7 keychain at 10% (ideal double-6 = 12%); Diamond Hunk chain BiS with skill speed roll (~4%)", source: "Pulse", date: "2026-09-08"}
+  - {tier: 4, target: "Happy Hour runs: Serrated Rex Rings for the characters", source: "Griffy", date: "2026-09-27"}
+  - {tier: 5, target: "S-tier RNG items: Tax Ledger 0/8, Sneaky Cap 0/5, Super Soda 0/5", source: "Griffy (older: 2022-09 tier list)", date: "2022-09-24"}
 objective: {rung: 1, now: 451000, target: 490000, eta_days: null}
-check: {cadence: weekly, who: "UNASSIGNED", look_at: "credits 103K + flurbos 14.9K vs next RNG item; Happy Hour for Serrated Rex Rings"}
-buffs:
-  - {source: "More Mobs first (Griffy 2026-05-03)", world: 2, owned: null, now: null, next: null, owner: "UNASSIGNED"}
+check: {cadence: weekly, who: "UNASSIGNED (DK runs it: Autistomatic is DK)", look_at: "Happy Hour, flurbo balance, daily world boss party"}
+method:
+  - {rule: "Divine Knight for party dungeons (auto Shockwave Slash works in dungeons); Arcane Cultist can come close", source: "Griffy", date: "2026-08-03 / 2025-12-08"}
+  - {rule: "daily world boss in a maxed party; teleporting multiplies boss HP and loot chance; Pulse skips dungeon runs this way", source: "Pulse", date: "2026-09-08"}
+  - {rule: "wait for a full group: more players = more flurbos", source: "Griffy", date: "2025-12-08"}
+  - {rule: "ballot: flower bow dungeon drops vote helps keychain rolls (world bosses drop flower bows)", source: "Pulse", date: "2026-09-03"}
+buffs: []
 triggers:
-  - {when: "Happy Hour active", then: "run for Serrated Rex Rings (Griffy 2026-09-27)"}
-stall: {pulls_no_progress: 3, eta_over_days: 30}
+  - {when: "rank 45 reached", then: "next rank target from Toolbox rankReq"}
+  - {when: "Happy Hour live", then: "join carried runs, spend credits on upgrades"}
+stall: {pulls_no_progress: 4, eta_over_days: 45}
 tasks:
-  - {do: "Spend credits on Tax Ledger", stat: "monster cash", gain_pct: null, unblocks: [], source: "Griffy (2022, old)", active_min: 3, wait_hr: null, cost: null, urgent: false}
-# OWNER GAP + item tiers are 2022 Griffy (old): needs a newer source
+  - {do: "Spend flurbos on weapon power then class XP / accuracy", stat: "dungeon dmg", gain_pct: null, unblocks: [], source: "Griffy 2026-10-04", active_min: 3, wait_hr: null, cost: null, urgent: false}
+  - {do: "Daily world boss in a full party (Tastic's world boss job)", stat: "keychain rolls", gain_pct: null, unblocks: [], source: "Pulse 2026-09-08", active_min: 5, wait_hr: null, cost: null, urgent: false}
+  - {do: "Happy Hour: Serrated Rex Rings", stat: "rings", gain_pct: null, unblocks: [], source: "Griffy 2026-09-27", active_min: 20, wait_hr: null, cost: null, urgent: false}
 ```
 <!-- GOAL:END -->
 

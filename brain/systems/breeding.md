@@ -16,26 +16,35 @@ description: Breeding: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
+<!-- DRAFT synthesis 2026-11-28 batch 2 (claims DB, save 20261128T0256): not approved, not in the pipeline -->
 ```yaml
 status: DRAFT
 role: feeder
-goal: "Shiny pets to their AutoReview targets, faster-shiny-rate pets to 20-25 first (Zack 2026-11-21), then by importance"
-coverage: partial
+goal: "Faster-shiny pets to Lv 24-25 first, then meal-bonus shinies, then Crucible to round 250 once Luminous Menagerie opens it"
+coverage: sourced       # fence in/out list not in claims (gap logged)
 ladder:
-  - {tier: 1, target: "Faster-shiny-rate shinies to Lv 20-25 (Faster Shiny Lv Up now +168%)", source: "Zack + Pulse", date: "2026-11-21"}
-  - {tier: 2, target: "AutoReview targets, e.g. Sheepie 5 -> 13 + Red Mushroom 5 -> 13 (meals), Mashed Potato/Sand Giant 5 -> 12 (skill eff), Choccie/Slime 5 -> 12 (DR)", source: "AutoReview", date: "2026-11-27"}
-  - {tier: 3, target: "Gene Splicing 15 -> 20; Grand Martial of Shinytown 44 -> 300", source: "Toolbox", date: "2026-11-27"}
-objective: {rung: 1, now: "507 total shiny Lv", target: null, eta_days: null}
-check: {cadence: daily, who: "Autistacular", look_at: "fence pets vs phase targets, overnight WW shiny leveling"}
+  - {tier: 1, target: "faster-shiny-rate shinies Lv 20 -> 24-25 on every critter, then level critter by critter (Faster Shiny Lv Up now +168%)", source: "Zack 2026-11-21 + Pulse", date: "2026-10-31"}
+  - {tier: 2, target: "meal-bonus shinies next (meals = strongest shiny bonus; drop rate bonus negligible ~80 total)", source: "Pulse", date: "2026-10-19"}
+  - {tier: 3, target: "Crucible round 0 -> 250 (max bonuses, ~3 min run); gated by Luminous Menagerie (Ticles)", source: "Pulse 2026-10-19; gate Zack 2026-11-19", date: "2026-10-19"}
+  - {tier: 4, target: "shiny pets for extra Infinite Star Signs", source: "Griffy", date: "2026-10-16"}
+  - {tier: 5, target: "replace weak Fleeters, keep pushing Pet Arena (max arena now 247)", source: "Griffy", date: "2026-10-16"}
+objective: {rung: 1, now: 20, target: 24, eta_days: null}
+check: {cadence: daily, who: "Autistacular", look_at: "eggs not capped, shiny levels on faster-shiny pets, spices claimed, meals"}
+method:
+  - {rule: "Wind Walker active is fine for W4 breeding: Whale Wallop cuts breeding timers incl. eggs and shiny level up", source: "Pulse", date: "2026-11-09 / 2026-10-19"}
+  - {rule: "Crucible cheese: Rattler, Looter, Refiller, Burger front, Defender + Badom; fight to round 130-150 then toggle high performance off", source: "Pulse", date: "2026-10-19"}
+  - {rule: "daily: use eggs, claim spices, check meals, never sit egg-capped", source: "Griffy", date: "2025-12-27"}
+  - {rule: "fence: faster-shiny pets first, then meal shinies (my read from the shiny order; no creator fence list)", source: "my_read", date: "2026-11-28"}
 buffs:
-  - {source: "shiny rate: Faster Shiny Mob Lv Up +168% (breeding passives)", world: 4, owned: true, now: "168%", next: null, owner: "Autistacular"}
+  - {source: "Luminous Menagerie (Crucible + Shiny OverLVs gate)", world: 7, owned: false, now: null, next: null, owner: "Autisticles"}
 triggers:
-  - {when: "a fence pet hits its phase target", then: "move its copies to the next pet in order"}
+  - {when: "faster-shiny pets all at Lv 24+", then: "move shiny time to meal-bonus pets"}
+  - {when: "Crucible unlocked", then: "run the cheese team to round 250 once"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Overnight WW shiny leveling (breeding_ww job)", stat: "shiny days", gain_pct: null, unblocks: [], source: "Pulse 6JgdYbiEKus 23:23", active_min: 2, wait_hr: 8, cost: null, urgent: false}
-# GAP 36 fence plan from his actual pets; GAP 37 Heart VII+ pets 0 -> 68; fence order still FAN (gameslikefinder)
+  - {do: "Wind Walker active on W4 breeding for shiny over levels", stat: "shiny levels", gain_pct: null, unblocks: [], source: "Pulse 2026-11-09", active_min: 30, wait_hr: null, cost: null, urgent: false}
+  - {do: "Fence the faster-shiny pets below Lv 24", stat: "Faster Shiny Lv Up", gain_pct: null, unblocks: [], source: "Pulse 2026-10-31 + my read", active_min: 3, wait_hr: 24, cost: null, urgent: false}
+  - {do: "Use eggs + claim spices before cap", stat: "eggs", gain_pct: null, unblocks: [], source: "Griffy 2025-12-27", active_min: 2, wait_hr: null, cost: null, urgent: false}
 ```
 <!-- GOAL:END -->
 

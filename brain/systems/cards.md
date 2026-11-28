@@ -15,28 +15,35 @@ description: Cards: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
+<!-- DRAFT synthesis 2026-11-28 batch 2 (claims DB, save 20261128T0256): not approved, not in the pipeline -->
 ```yaml
 status: DRAFT
-role: feeder            # my read: 4 Spelunking cards at 0 stars feed Spelunking EXP/AFK (main goal chain)
-goal: "Spelunking cards first, then every slotted card to 6 stars, because cards are flat account stats players neglect (Griffy 2026-10-28)"
-coverage: partial
+role: feeder
+goal: "Get one Drop Rate Multi card started and doubled (Coralcave Guardian first), then the other multi cards; card sets via faster collection"
+coverage: partial       # per-role presets + set-tier farming order thin (gap logged)
 ladder:
-  - {tier: 1, target: "Spelunking cards One Way Opening, Plunder Cranny, Kelp Forest, Burned Tunnel at 1+ star (all 0 now)", source: "my_read", date: "2026-11-27"}
-  - {tier: 2, target: "Chaotic Troll 4 stars (all-skill efficiency)", source: "Griffy", date: "2026-10-28"}
-  - {tier: 3, target: "Crystal Glunko 1+ star (+42% DR passive at max, 0 now)", source: "Toolbox", date: "2026-11-27"}
-  - {tier: 4, target: "every slotted card 6 stars", source: "my_read", date: "2026-11-27"}
-objective: {rung: 1, now: "0/4 cards at 1 star", target: "4/4", eta_days: null}   # needs drop-rate based ETA, rates.py has no card income yet
-check: {cadence: daily, who: "Autistronaut", look_at: "card count of the current rung's card vs nextLevelReq"}
+  - {tier: 1, target: "Coralcave Guardian 321 / 400,001 -> 1 star, then double it (~7% DR multi doubled)", source: "Pulse", date: "2026-09-07 / 2026-09-04"}
+  - {tier: 2, target: "Mantaray 0 / 6,000,001 and Ancientfish 0 / 20,000,001 started; Ancientfish replaces the lowest additive DR card even at base", source: "Pulse", date: "2026-09-13"}
+  - {tier: 3, target: "doubled slots (top left, bottom right) hold whichever multi gives the most DR", source: "Pulse", date: "2026-09-13"}
+  - {tier: 4, target: "improve card collection to build card sets before buying more exaltations", source: "Griffy", date: "2026-10-28"}
+  - {tier: 5, target: "accuracy/damage cards: Wood Mushroom 5 -> 6 (14.4K of 151K), Bloodbone 5 -> 6 (30.5K of 227K)", source: "Griffy 2025-12-15 / 2026-05-03; counts Toolbox", date: "2026-05-03"}
+objective: {rung: 1, now: 321, target: 400001, eta_days: null}
+check: {cadence: weekly, who: "Autistronaut", look_at: "DR multi card progress, doubled slots, preset per role"}
+done:
+  - {item: "Chaotic Troll 6/6 (Griffy target 4 stars, all-skill efficiency)", source: "Griffy 2026-10-28", date: "2026-11-28"}
+  - {item: "card drop cards Gigafrog, Snelbie, Sir Stache all 6/6", source: "Griffy 2025-11-14", date: "2026-11-28"}
+presets:
+  - {role: "drop rate / farming", rule: "DR multi cards in doubled slots; swapping cards alone gave Pulse 50K+ DR", source: "Pulse", date: "2026-09-25"}
+  - {role: "EXP farming", rule: "active monster EXP cards are underrated", source: "Griffy", date: "2026-10-28"}
+  - {role: "skilling", rule: "Chaotic Troll all-skill efficiency card", source: "Griffy", date: "2026-04-23"}
 buffs:
-  - {source: "card drop rate (drop_rate system, Crystal Glunko)", world: 1, owned: false, now: null, next: null, owner: "Autistronaut"}
+  - {source: "card doubling: W7 + Demon Genie (6/6 owned)", world: 7, owned: true, now: null, next: null, owner: "Autistronaut"}
 triggers:
-  - {when: "a rung card hits its star target", then: "move Autistronaut's farm map to the next rung card"}
-  - {when: "all 4 Spelunking cards at 1 star", then: "re-rank Spelunking cards vs Chaotic Troll by POW impact"}
-stall: {pulls_no_progress: 3, eta_over_days: 30}
+  - {when: "Coralcave Guardian hits 1 star", then: "put it in a doubled slot"}
+stall: {pulls_no_progress: 4, eta_over_days: 60}
 tasks:
-  - {do: "Farm the cheapest Spelunking card to 1 star", stat: "Spelunking EXP", gain_pct: null, unblocks: [spelunk], source: "my_read", active_min: 5, wait_hr: null, cost: null, urgent: false}
-  - {do: "Farm Chaotic Troll toward 4 stars", stat: "all-skill efficiency", gain_pct: null, unblocks: [], source: "Griffy", active_min: 5, wait_hr: null, cost: null, urgent: false}
+  - {do: "Farm Coralcave Guardian cards with the DR preset", stat: "drop rate multi", gain_pct: null, unblocks: [], source: "Pulse 2026-09-07", active_min: null, wait_hr: 24, cost: null, urgent: false}
+  - {do: "Card farming on Elemental Sorcerer (Bish) when a slot is free", stat: "card drops", gain_pct: null, unblocks: [], source: "Griffy 2026-08-03", active_min: null, wait_hr: 8, cost: null, urgent: false}
 ```
 <!-- GOAL:END -->
 

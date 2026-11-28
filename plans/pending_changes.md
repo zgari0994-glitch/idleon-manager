@@ -12,12 +12,12 @@ Checked 2026-11-28: none are truly missing. The claims DB (sources/creators/*/ta
 - DONE 2026-11-28 batch 1 (GOAL DRAFT, needs approval): Gaming plan: bits, upgrades, superbits order, Snail, Duper/Zuper (was L82, L300).
 - DONE 2026-11-28 batch 1 (GOAL DRAFT, needs approval): Construction facelift: cogs, Polymerization, Flaggy, cog board vs meta, spare tower levels (was L299).
 - DONE 2026-11-28 batch 1 (GOAL DRAFT, needs approval): Sneaking/Jade: method, BiS, floors, point spend, Pristine Charms, daily charm rolls (was L149, L152, L306).
-- Breeding: shiny order after faster-shiny pets, fence plan, arena team past wave 120, spice (was L145, L305).
-- Dungeons planner (Pulse keychains, party world bosses, Griffy DK/RG party class) (was L285).
+- DONE 2026-11-28 batch 2 (GOAL DRAFT, needs approval): Breeding: shiny order after faster-shiny pets, fence plan, arena team past wave 120, spice (was L145, L305).
+- DONE 2026-11-28 batch 2 (GOAL DRAFT, needs approval): Dungeons planner (Pulse keychains, party world bosses, Griffy DK/RG party class) (was L285).
 - Minehead: what it is, upgrade plan (was L64, L205). Clamworks buy order (was L61-62).
 - Buy orders: Menagerie boosts, sigil charge order, refinery priority, every other shop beyond Spelunking amber (was L313).
-- Card presets per role + set-tier card farming (was L107, L192).
-- Money plan: rinse-and-repeat DK/RG money, best item owned vs better to unlock (was L172, L177, L184, L281).
+- DONE 2026-11-28 batch 2 (GOAL DRAFT, needs approval): Card presets per role + set-tier card farming (was L107, L192).
+- DONE 2026-11-28 batch 2 (GOAL DRAFT, needs approval): Money plan: rinse-and-repeat DK/RG money, best item owned vs better to unlock (was L172, L177, L184, L281).
 - Research grid path: node order, 1 vs 4, magnifier placement (was L157).
 - Cooking: cap sources with thresholds, mastery choice method, best bone-farm spot (was L19-20).
 - Alchemy: W7 bubble unlock condition, Luck vs rolling, cauldron upgrades, Summoning targets, Arcanist Form guidance (was L30-31).
