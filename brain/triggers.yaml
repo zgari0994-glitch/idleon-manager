@@ -18,3 +18,12 @@ triggers:
   # ---- Alchemy (Cat) ----
   - {system: alchemy, owner: Autistocat, metric: vials_maxed, at: 87, when: "every vial maxed", then: "stop vial rolls; free the print slots used for vial items", source: "my read"}
   - {system: alchemy, owner: Autistocat, metric: null, at: null, when: "last bubbles unlocked", then: "move cauldron people to residuals, then liquids", source: "Zack"}
+  # ---- batch 1 synthesis 2026-11-28 (metric null = needs a syscheck2 metric; card shows when/then) ----
+  - {system: caverns, owner: Autistabish, metric: null, at: 710000, when: "Gambit points reach 710K", then: "claim +2 bones on Deathbringer", source: "Toolbox"}
+  - {system: caverns, owner: Autistabish, metric: null, at: 20, when: "Explorer villager 20 (all caverns found)", then: "move most opals to Studies", source: "Griffy 2026-01-29"}
+  - {system: caverns, owner: Autistabish, metric: null, at: 750, when: "Bravery 750 AFK hours", then: "+1 sword, run Bravery", source: "Toolbox"}
+  - {system: caverns, owner: Autistabish, metric: null, at: 3, when: "Bravery reward multi about 3x", then: "run it (diminishing past 3)", source: "Griffy 2026-03-10"}
+  - {system: construction_buildings, owner: Autistastic, metric: null, at: 50, when: "Trapper Drone 50", then: "queue Poisonic Elder", source: "Griffy 2026-09-27"}
+  - {system: cog_board, owner: Autistastic, metric: null, at: 65, when: "booster cog XP at 65% cap", then: "switch to jeweled cogs (Cog Lover)", source: "Griffy 2025-11-10"}
+  - {system: sneaking, owner: Autistacular, metric: null, at: null, when: "flower stack hits the door break point", then: "swap breaker to lotus, break the door", source: "Pulse 2026-11-10"}
+  - {system: sneaking, owner: Autistacular, metric: null, at: null, when: "new mastery bottom floor", then: "black belts on all, sit for XP", source: "Pulse 2026-11-03"}

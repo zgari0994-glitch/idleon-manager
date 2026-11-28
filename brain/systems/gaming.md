@@ -15,25 +15,36 @@ description: Gaming: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT Phase A 2026-11-27: not approved, not in the pipeline -->
+<!-- DRAFT synthesis 2026-11-28 batch 1 (claims DB, save 20261128T0256): not approved, not in the pipeline -->
 ```yaml
 status: DRAFT
-role: independent       # back burner but checked daily (checklist)
-goal: "Daily Gaming loop that keeps bits growing toward the next superbit"
-coverage: my_read
+role: independent       # back burner but checked daily
+goal: "Bits up toward the next Superbits (27 of 72 owned), then Duper/Zuper; Snail and imports kept rolling"
+coverage: partial       # method sourced; exact Superbits order not in claims (gap logged)
 ladder:
-  - {tier: 1, target: "daily fertilizer vs mutation vs imports decision written on the card", source: "my_read", date: "2026-11-27"}
-  - {tier: 2, target: "next superbit (Rat King vs saving)", source: "my_read", date: "2026-11-27"}
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: daily, who: "Autistastic", look_at: "Gaming: fertilizer, mutation, imports, Royalty box path"}
+  - {tier: 1, target: "sprout time toward ~0.1s by pushing speed and base bit value about equally (Sprout Speed 528, Value 452)", source: "Pulse", date: "2026-11-07"}
+  - {tier: 2, target: "next Superbits, 27 -> 28+ of 72 (extra bits matter while W7 Superbits are unfinished)", source: "Griffy 2026-02-14; Toolbox", date: "2026-11-28"}
+  - {tier: 3, target: "Zuper Bits node: +25% lumi gains; takes substantial time", source: "Pulse 2026-10-16; Griffy 2026-02-21", date: "2026-10-16"}
+  - {tier: 4, target: "Snail 14 -> 25", source: "Griffy (recommends Snail 2026-07-29; 25 is a 2024 bingo square)", date: "2024-10-17"}
+objective: {rung: 2, now: 27, target: 28, eta_days: null}
+check: {cadence: daily, who: "Autistastic", look_at: "log book, sprinkler, snail, mutation after each harvest, cheapest import"}
+method:
+  - {rule: "alternate growth-time and base-value upgrades; attempt mutations whenever possible", source: "Griffy", date: "2026-10-16"}
+  - {rule: "collect one plant, upgrade, then collect the rest; sprinkler after full harvest", source: "Griffy", date: "2026-09-21"}
+  - {rule: "imports: Autumn Squirrel strong, nuts mostly into plant growth; Elegant Seashell good for bits", source: "Griffy", date: "2026-11-07"}
+  - {rule: "don't hard-focus Kitsune when other imports are much cheaper (older: 2026-10-04 keep pushing Kitsune)", source: "Griffy", date: "2026-11-07"}
+  - {rule: "Nugget week: push nuggets, a main way to raise bit income (best nugget 37.2K)", source: "Pulse", date: "2026-11-11"}
+  - {rule: "pellet doublers: Prisma + exalted stamp doublers are no-brainers; black star or two for the palette", source: "Pulse", date: "2026-11-12"}
 buffs:
-  - {source: "timed system: one line only", world: 5, owned: null, now: null, next: null, owner: "Autistastic"}
+  - {source: "timed system: one line only (Meritocracy bits option when behind, Pulse 2026-11-05)", world: 5, owned: null, now: null, next: null, owner: "Autistastic"}
 triggers:
-  - {when: "bits reach next superbit cost", then: "buy superbit, re-rank"}
+  - {when: "a Superbits upgrade is affordable", then: "buy it before imports (my read)"}
+  - {when: "Nugget event week", then: "push nuggets"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Daily Gaming check per card", stat: "bits", gain_pct: null, unblocks: [], source: "my_read", active_min: 2, wait_hr: null, cost: null, urgent: false}
-# GAP: tools/lookup.py gaming crashes (render_levels: int has no .get), no data pulled for this draft; creator rows 397 unread
+  - {do: "Daily: log book, sprinkler, snail, mutate after harvest", stat: "bits", gain_pct: null, unblocks: [], source: "Griffy 2023-11-20 + 2026-02-06", active_min: 3, wait_hr: null, cost: null, urgent: false}
+  - {do: "Alternate Sprout Speed / Sprout Value buys", stat: "bits/hr", gain_pct: null, unblocks: [], source: "Pulse 2026-11-07; Griffy 2026-10-16", active_min: 2, wait_hr: null, cost: null, urgent: false}
+  - {do: "Buy the cheapest of Autumn Squirrel / Elegant Seashell / Snail", stat: "bits", gain_pct: null, unblocks: [], source: "Griffy 2026-11-07", active_min: 1, wait_hr: null, cost: null, urgent: false}
 ```
 <!-- GOAL:END -->
 

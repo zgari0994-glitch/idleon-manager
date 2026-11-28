@@ -70,7 +70,7 @@ def nm(d):  # 2026-11-27: arcade shop has no name (use effect), menagerie boosts
     return re.sub(r'\s+', ' ', str(n).replace('_', ' ').replace('{', '#').replace('}', '#')).strip()
 
 
-PLACEHOLDER = lambda d: d.get('name') == 'Name' and d.get('description') == 'desc'   # empty research grid cells
+PLACEHOLDER = lambda d: isinstance(d, dict) and d.get('name') == 'Name' and d.get('description') == 'desc'   # empty research grid cells
 
 
 # ---------- research level (gates Jelly upgrades) ----------
@@ -271,6 +271,8 @@ def render_levels(key, lst, spec):
     bal, cur = (spec['bal']() if spec.get('bal') else (None, None))
     mxk = spec.get('max')
     rows, maxed, locked = [], 0, []
+    if not all(isinstance(d, dict) for d in lst):
+        return [f'{key}: {len(lst)} items (non-dict list)']
     empty = sum(1 for d in lst if PLACEHOLDER(d))
     lst = [d for d in lst if not PLACEHOLDER(d)]
     for d in lst:

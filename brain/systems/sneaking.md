@@ -16,29 +16,37 @@ description: Sneaking: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT Phase A batch 4 2026-11-27 (save 20261127T2212): not approved, not in the pipeline -->
+<!-- DRAFT synthesis 2026-11-28 batch 1 (claims DB, save 20261128T0256): not approved, not in the pipeline -->
 ```yaml
 status: DRAFT
-role: feeder
-goal: "Open the rest of the Jade Emporium (43/52) and start Moissanite, which multiplies every gemstone"
-coverage: partial
+role: independent
+goal: "Break the floor-5 door with the flower stack + one breaker, fix charms, then climb masteries (now Mastery 2)"
+coverage: sourced       # BiS gear not in claims (gap logged)
 ladder:
-  - {tier: 1, target: "Moissanite (Bonuses from Gemstones) Lv 0 -> started", source: "Toolbox", date: "2026-11-27"}
-  - {tier: 2, target: "Jade Emporium 43 -> 52 unlocked", source: "Toolbox", date: "2026-11-27"}
-  - {tier: 3, target: "Hats 12 -> 15, Pristine Charms 15 -> 23", source: "Toolbox", date: "2026-11-27"}
-  - {tier: 4, target: "Ninja mastery 2 -> 3", source: "my_read", date: "2026-11-27"}
-objective: {rung: 1, now: 0, target: 1, eta_days: null}
-check: {cadence: daily, who: "Autistacular", look_at: "jade balance vs next emporium cost, door 5 HP"}
+  - {tier: 1, target: "floor-5 door: 8.9e20 of 4.0e23 HP (stack funeral flowers, swap to lotus, one breaker)", source: "Pulse", date: "2026-11-10"}
+  - {tier: 2, target: "fix charms on all equipment (about half a week), symbols too", source: "Pulse", date: "2026-11-10"}
+  - {tier: 3, target: "Mastery 2 -> 3 and up; new mastery bottom floor = sit for XP in black belts (~100 lv each)", source: "Pulse", date: "2026-11-03"}
+  - {tier: 4, target: "gemstones up, Moissanite (bonuses from gemstones) 0 -> leveled; Pulse aims 100K on all", source: "Pulse 2026-11-10; Griffy 2026-04-23", date: "2026-11-10"}
+  - {tier: 5, target: "Jade Emporium 43 -> 52 (Science Junk, Laboratory Bling among them)", source: "Griffy 2026-02-21 + 2026-01-29", date: "2026-02-21"}
+objective: {rung: 1, now: 8.92e20, target: 4.0e23, eta_days: null}
+check: {cadence: daily, who: "Autistacular", look_at: "flower stack, door HP, daily charm rolls (49 pristine left), sneaking window open while AFK"}
+method:
+  - {rule: "only one pusher/breaker; everyone else stacks funeral flowers on the floor", source: "Pulse", date: "2026-11-10"}
+  - {rule: "funeral flowers only stack while the sneaking window is open: keep it open when AFK", source: "Pulse", date: "2026-11-03"}
+  - {rule: "point spend: Sneak EXP + actions/hr first; buy upgrades with the discount active", source: "Griffy", date: "2026-11-07 / 2026-10-16"}
+  - {rule: "Pristine Charms: best source is the W6 gem shop world bonus", source: "Pulse", date: "2026-11-05"}
+  - {rule: "weak Fractal Island progress explains trouble at masteries 7-9", source: "Pulse", date: "2026-11-15"}
 buffs:
-  - {source: "Wind Walker Tab 5 Generational Gemstones talent", world: 6, owned: true, now: 371, next: 389, owner: ""}
-  - {source: "Science Marker (8% jade per crop)", world: 6, owned: null, now: null, next: null, owner: ""}
+  - {source: "Moon of Sneak (~500 reachable)", world: 7, owned: null, now: null, next: null, owner: "Autistacular"}
+  - {source: "Land rank database stealth for ninja twins (exotic market)", world: 6, owned: null, now: null, next: null, owner: "Autistacular"}
 triggers:
-  - {when: "Jade Emporium 52/52", then: "shift to mastery 3 + pristine charms"}
+  - {when: "flower stack hits the door break point", then: "swap breaker to lotus and break the door"}
+  - {when: "new mastery bottom floor", then: "black belts on everyone, sit for XP"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Put first levels into Moissanite", stat: "gemstone multi", gain_pct: null, unblocks: [], source: "my_read", active_min: 2, wait_hr: null, cost: null, urgent: false}
-  - {do: "Buy next Jade Emporium upgrade when jade covers it", stat: "emporium", gain_pct: null, unblocks: [], source: "Toolbox", active_min: 1, wait_hr: null, cost: null, urgent: false}
-# Pulse 2026-11-05: extra jade not needed right now (Jade merit D tier). Emporium unlock costs not shown by lookup.
+  - {do: "Keep the sneaking window open while AFK, stack flowers", stat: "door damage", gain_pct: null, unblocks: [], source: "Pulse 2026-11-03", active_min: 1, wait_hr: 24, cost: null, urgent: false}
+  - {do: "Use daily charm rolls on the lowest charms", stat: "charm levels", gain_pct: null, unblocks: [], source: "Pulse 2026-11-10", active_min: 5, wait_hr: null, cost: null, urgent: false}
+  - {do: "Buy Sneak EXP / actions-per-hr upgrades with discount on", stat: "sneak EXP", gain_pct: null, unblocks: [], source: "Griffy 2026-11-07", active_min: 2, wait_hr: null, cost: null, urgent: false}
 ```
 <!-- GOAL:END -->
 

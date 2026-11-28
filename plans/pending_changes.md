@@ -8,10 +8,10 @@ Built items were removed. Built on 2026-11-27: model/syscheck.py (per-system "cu
 
 ## Gaps: need creator sources (Griffy > Pulse = Nocturne > Toolbox/wiki), data + "my read" until then
 Checked 2026-11-28: none are truly missing. The claims DB (sources/creators/*/tags, 32.6K claims) has 40-1500 claims per item; thin ones are Research grid (40, mostly Pulse) and Minehead/Clamworks (83, mostly Pulse). The work left is synthesis into each system's GOAL ladder, not fetching.
-- The Hole: per-cavern how it works / what to level / when to run / goal, opal split across villagers (was L122-138).
-- Gaming plan: bits, upgrades, superbits order, Snail, Duper/Zuper (was L82, L300).
-- Construction facelift: cogs, Polymerization, Flaggy, cog board vs meta, spare tower levels (was L299).
-- Sneaking/Jade: method, BiS, floors, point spend, Pristine Charms, daily charm rolls (was L149, L152, L306).
+- DONE 2026-11-28 batch 1 (GOAL DRAFT, needs approval): The Hole: per-cavern how it works / what to level / when to run / goal, opal split across villagers (was L122-138).
+- DONE 2026-11-28 batch 1 (GOAL DRAFT, needs approval): Gaming plan: bits, upgrades, superbits order, Snail, Duper/Zuper (was L82, L300).
+- DONE 2026-11-28 batch 1 (GOAL DRAFT, needs approval): Construction facelift: cogs, Polymerization, Flaggy, cog board vs meta, spare tower levels (was L299).
+- DONE 2026-11-28 batch 1 (GOAL DRAFT, needs approval): Sneaking/Jade: method, BiS, floors, point spend, Pristine Charms, daily charm rolls (was L149, L152, L306).
 - Breeding: shiny order after faster-shiny pets, fence plan, arena team past wave 120, spice (was L145, L305).
 - Dungeons planner (Pulse keychains, party world bosses, Griffy DK/RG party class) (was L285).
 - Minehead: what it is, upgrade plan (was L64, L205). Clamworks buy order (was L61-62).
