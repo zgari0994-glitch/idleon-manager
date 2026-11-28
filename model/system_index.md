@@ -58,7 +58,7 @@
 | islands | world-2/islands | Islands | 109/0 | Autistastic |
 | item_filter | GAP: no Toolbox page mapped | none (AutoReview does not rate it) | gap | unassigned in jobs.yaml |
 | jelly_operator | world-7/jelly-operator | Jelly Operator | 157/35 | Autisticles |
-| killroy | world-2/killroy | Killroy | 167/15 | Autistacular, Autistocat, Autiszemo |
+| killroy | world-2/killroy | Killroy | 167/15 | Autistacular, Autistastic, Autistocat |
 | lab_bonuses | world-4/laboratory | none (AutoReview does not rate it) | 623/545 | Autistocat |
 | lab_chips | world-4/laboratory | none (AutoReview does not rate it) | 623/545 | Autistocat |
 | lab_jewels | world-4/laboratory | none (AutoReview does not rate it) | 623/545 | Autistocat |
