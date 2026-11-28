@@ -200,7 +200,7 @@ def law_lines(name):
 
 # ---------- Spelunking spots (Zack 2026-11-27): a cave per character, with a reason ----------
 MAX_CAVE = 4   # Zack 2026-11-27: cave 4 is the deepest he runs now; 5 not yet
-CAVE_NAMES = ['Fearful Tunnel', 'Decaying Crevasse', 'Buried Church', 'Coral cave', 'Pirate Upper Deck cave']   # Zack 2026-11-27; 4 + 5 = his names, exact in-game name GAP
+CAVE_NAMES = ['Fearful Tunnel', 'Decaying Crevasse', 'Buried Church', 'One Way Opening', 'Plunder Cranny']   # idleon.wiki: Plunder Cranny (Pirate Upper Deck) drops Chapter Five; order per wiki tunnel list
 CAVE_CHAPTER = {c: c - 1 for c in range(1, 6)}   # Zack 2026-11-27: cave N drops Chapter N pages
 EFF_LEVELS = [(50, 4), (30, 3), (10, 2), (0, 1)]   # my read: Spelunking level -> deepest cave he runs well. XP per cave is not in the parser
 _SPOTS = None
@@ -264,6 +264,9 @@ def spelunk_spots():
     for c, ns in at.items():
         for n in ns:
             out[n] = (c, why[n], f"Chapter {c}: {chapter_need(CAVE_CHAPTER[c])[1]}; cave {c} best depth {S['bestCaveLevels'][c - 1]}")
+    if 'Autistotle' in out:   # Zack 2026-11-27: XP only matters for Totle (stays highest level)
+        c, w, f = out['Autistotle']
+        out['Autistotle'] = (c, w + f". CHECK IN GAME: open the AFK window on caves {max(1, c - 1)}-{MAX_CAVE} and keep him on the highest Spelunking EXP/hr (idleon.wiki: EXP comes from Spelunking Efficiency)", f)
     if not at[MAX_CAVE]:
         out['_gap'] = f"nobody runs cave {MAX_CAVE} well: raise Spelunking levels / POW (see goal card)"
     _SPOTS = out
