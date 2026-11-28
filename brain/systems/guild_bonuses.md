@@ -14,25 +14,25 @@ description: Guild Bonuses: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 11 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
 role: independent
-goal: "Guild leaders should prioritize Guild Gifts early because members gain gems and feel better rewarded for parti"
+goal: "Join a guild: account is in no guild (level 1, 0 GP, 0 members, unlocked false), so all 18 guild bonuses are 0"
 coverage: sourced
 ladder:
-  - {tier: 1, target: "Guild leaders should prioritize Guild Gifts early because members gain gems and feel better rewarded for participating.", source: "Griffy", date: "2026-11-07"}   # __0_dvPFI_E 01:14:35
-  - {tier: 2, target: "The Packlist guild bonuses probably need leveling.", source: "Griffy", date: "2026-07-29"}   # _maMoJLg6YE 01:19:41
-  - {tier: 3, target: "Log in and earn guild points.", source: "Griffy", date: "2026-01-29"}   # dliS5ZjijlA 00:03:40
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: daily, who: "UNASSIGNED", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
-stall: {pulls_no_progress: 3, eta_over_days: 30}
+  - {tier: 1, target: "Join an existing active guild (not start one); you get every bonus the guild has earned", source: "Griffy", date: "2026-01-29"}   # Rr5KiEflTWE 00:04:35; V7VpzEe0uek 00:03:34
+  - {tier: 2, target: "Log in daily on every character for guild points", source: "Griffy", date: "2026-01-29"}   # dliS5ZjijlA 00:03:40
+  - {tier: 3, target: "If leading or small guild: Guild Gifts first, then GP into bonuses", source: "Griffy", date: "2026-11-07"}   # __0_dvPFI_E 01:14:35
+objective: {rung: 1, now: "no guild", target: "in a guild", eta_days: null}
+check: {cadence: weekly, who: "Zack", look_at: "account.guild"}
+buffs: []
+triggers:
+  - {when: "guild joined", then: "add daily GP line to every card"}
+stall: {pulls_no_progress: 3, eta_over_days: 14}
 tasks:
-  - {do: "Guild leaders should prioritize Guild Gifts early because members gain gems and feel better rewarded for participating.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: level=1, levelReq=100, maxMembers=34, totalGp=0, unlocked=False; guildBonuses: 18 total, 1 maxed, 17 open, 0 locked
+  - {do: "Find and join an active guild (Griffy: Discord lists open guilds)", stat: "all guild bonuses", gain_pct: null, unblocks: [], source: "Griffy", active_min: 15, wait_hr: null, cost: null, urgent: true}
+# gap: confirm in game that the account really has no guild (parser could miss it); guild ballot = F tier (Griffy).
 ```
 <!-- GOAL:END -->
 

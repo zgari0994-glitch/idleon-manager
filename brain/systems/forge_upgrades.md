@@ -15,25 +15,27 @@ description: Forge Upgrades: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 11 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "Choose the forge-capacity upgrade because the other intended enhancement is already unlocked."
+role: feeder   # bars for anvil, armor, vials
+goal: "Forge capacity up (Griffy S tier); all 6 forge upgrades already maxed, 16/16 slots"
 coverage: sourced
 ladder:
-  - {tier: 1, target: "Choose the forge-capacity upgrade because the other intended enhancement is already unlocked.", source: "Griffy", date: "2026-10-04"}   # N5yJ4-tZLbY 01:13:07
-  - {tier: 2, target: "Check every character's Thread production after discovering one was not producing it.", source: "Griffy", date: "2026-09-27"}   # GgGwaPlW90M 00:14:14
-  - {tier: 3, target: "Penguins support Anvil Tab 4 and two remaining unnamed equipment pieces; the equipment name is garbled.", source: "Griffy", date: "2026-09-27"}   # GgGwaPlW90M 00:45:56
-objective: {rung: 1, now: "Passive) (5", target: "7", eta_days: null}
-check: {cadence: daily, who: "UNASSIGNED", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+  - {tier: 1, target: "Forge Stamp 100 -> 240 (+34.29% cap now)", source: "AutoReview", date: "2026-11-28"}
+  - {tier: 2, target: "Arcade Bonus 26 forge capacity 0 -> 101", source: "AutoReview", date: "2026-11-28"}
+  - {tier: 3, target: "Godshard Ore card 5 -> 7 stars, Beeg Beeg Forge 1 -> 5", source: "AutoReview", date: "2026-11-28"}
+  - {tier: 4, target: "Capacity keeps rising: forge cap is S tier, new bars and Godshard/Dreadlo vials need more", source: "Griffy", date: "2025-01-02"}   # 6Xx0tTVFLBE 00:09:47
+objective: {rung: 1, now: 100, target: 240, eta_days: null}   # forge stamp level; cap 2.09M
+check: {cadence: weekly, who: "UNASSIGNED", look_at: "python3 tools/lookup.py forge_upgrades"}
+buffs: []
+triggers:
+  - {when: "a new bar tier is needed (anvil tab 4, Lustre set)", then: "raise its forge slot count"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Choose the forge-capacity upgrade because the other intended enhancement is already unlocked.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: costToMaxAll=0, refillOn=True; list: 16 items
+  - {do: "Level Forge Stamp toward 240", stat: "forge cap", gain_pct: null, unblocks: [], source: "AutoReview", active_min: 2, wait_hr: null, cost: null, urgent: false}
+  - {do: "Check every character's thread/bar production in forge", stat: "bars", gain_pct: null, unblocks: [], source: "Griffy", active_min: 5, wait_hr: null, cost: null, urgent: false}   # GgGwaPlW90M 00:14:14
+# gap: owner unassigned (Ticles Siege Breaker smelting is my read); open gap 24 Siege Breaker forge AFK map; forge stamp cost not shown.
 ```
 <!-- GOAL:END -->
 

@@ -14,25 +14,23 @@ description: Family Bonuses: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 11 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "Leveling characters supplies talent points they currently lack."
-coverage: sourced
+role: feeder   # passive: highest level per class feeds all characters
+goal: "Family bonuses rise as a side effect of leveling; no direct spend"
+coverage: partial
 ladder:
-  - {tier: 1, target: "Leveling characters supplies talent points they currently lack.", source: "Griffy", date: "2026-10-04"}   # N5yJ4-tZLbY 00:01:00
-  - {tier: 2, target: "Get characters capable of farming Gloopies to begin leveling them effectively.", source: "Griffy", date: "2026-09-27"}   # GgGwaPlW90M 00:01:50
-  - {tier: 3, target: "Level Elemental Sorcerer and begin completing quests immediately.", source: "Griffy", date: "2026-07-26"}   # RnnRamcdjQ0 00:01:32
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: weekly, who: "UNASSIGNED", look_at: "python3 tools/lookup.py family_bonuses"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
-stall: {pulls_no_progress: 3, eta_over_days: 30}
-tasks:
-  - {do: "Leveling characters supplies talent points they currently lack.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: Autiszemo:; Arcane_Cultist=5.8, Archer=174, Barbarian=28.7, Beast_Master=4.09, Blood_Berserker=21.1, Bowman=34, Bubonic_Conjuror=4.09, Death_Bringer=38.6, Divine_Knight=42.5, Elemental_Sorcerer=14, Hu
+  - {tier: 1, target: "Keep every character leveling (talent points + family bonus)", source: "Griffy", date: "2026-10-04"}   # N5yJ4-tZLbY 00:01:00
+  - {tier: 2, target: "Lowest family values: Shaman 1.36, Voidwalker 3.76, Beast Master 4.09, Bubonic Conjuror 4.09, Royal Guardian 4.96 (gain per level not known)", source: "Toolbox", date: "2026-11-28"}
+objective: {rung: 1, now: "passive", target: null, eta_days: null}
+check: {cadence: weekly, who: "UNASSIGNED", look_at: "characters[].familyBonuses"}
+buffs: []
+triggers:
+  - {when: "a class swap or new class is planned", then: "check which family bonus it raises or drops"}
+stall: {pulls_no_progress: 6, eta_over_days: 90}
+tasks: []   # no direct action; Family Guy only buffs the character using it (Griffy 2026-10-04)
+# gap: family bonus formula per class not in model, so no "level X for +Y" ranking; Shaman/Beast Master/Bubonic have no roster character.
 ```
 <!-- GOAL:END -->
 

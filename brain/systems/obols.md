@@ -14,25 +14,25 @@ description: Obols: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 11 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "Complete Glacial Guard random events whenever available for the best-in-slot drop-rate obol."
+role: feeder   # drop rate, damage, stats
+goal: "Obols toward best-in-slot drop rate; spend 6,009 fragments on rerolls; sort 116 loose obols"
 coverage: sourced
 ladder:
-  - {tier: 1, target: "Complete Glacial Guard random events whenever available for the best-in-slot drop-rate obol.", source: "Griffy", date: "2026-10-28"}   # C2oiRVIpmq8 01:13:39
-  - {tier: 2, target: "The Glacial Guard event drops a best-in-slot drop-rate obol at a one-in-sixty chance.", source: "Griffy", date: "2026-10-28"}   # C2oiRVIpmq8 01:13:39
-  - {tier: 3, target: "An achievement requires equipping Efaunt armor and an Efaunt obol.", source: "Griffy", date: "2026-11-07"}   # __0_dvPFI_E 00:45:50
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: daily, who: "UNASSIGNED", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
-stall: {pulls_no_progress: 3, eta_over_days: 30}
+  - {tier: 1, target: "Glacial Guard random event every time it shows (1/60 BiS drop-rate obol)", source: "Griffy", date: "2026-10-28"}   # C2oiRVIpmq8 01:13:39
+  - {tier: 2, target: "Reroll bronze POP obols for +1% before upgrading (POP stops at silver); family board has 12 Silver POP", source: "Griffy", date: "2026-10-16"}   # yxgmoZQ59mY 00:01:41
+  - {tier: 3, target: "Keep rare non-droppable obols; skip Chizoar obol upgrade (expensive)", source: "Griffy", date: "2026-11-07"}   # __0_dvPFI_E 00:52:04 / 01:02:48
+objective: {rung: 1, now: "124% family DR", target: null, eta_days: null}
+check: {cadence: weekly, who: "UNASSIGNED", look_at: "account.obols (stats, inventory 116), currencies.ObolFragments 6009"}
+buffs: []
+triggers:
+  - {when: "Glacial Guard event appears", then: "do it now"}
+stall: {pulls_no_progress: 6, eta_over_days: 60}
 tasks:
-  - {do: "Complete Glacial Guard random events whenever available for the best-in-slot drop-rate obol.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: inventory: ["['ObolSilverChoppin', 'ObolSilverCatching', 'ObolSilverMining', 'Ob...", "['ObolHyperB3', 'ObolGoldChoppin', 'ObolGoldCatching', 'ObolGoldFis...", "['ObolPlatinumLuck', 'ObolPlatinumLuck'
+  - {do: "Sort the 116 loose obols: slot upgrades, trash junk", stat: "drop rate", gain_pct: null, unblocks: [], source: "my_read", active_min: 10, wait_hr: null, cost: null, urgent: false}
+# gap: per-character obol slots read as 0/3 filled (parser path wrong, not real); Efaunt obol achievement postponed per Griffy.
 ```
 <!-- GOAL:END -->
 
