@@ -36,6 +36,7 @@ stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
   - {do: "Buy the 12 affordable upgrades now (Dice Roll 1.4B, Buyer Grin 2.6B, Bargain 9.1B, Charisma 10B, Great Meat 20B, 2nd Slice 67B, 1st Slice 104B, Happi Boi 117B, Good Meat 444B, Super Chart 661B, More Sides unlock 956B, Smoker/Open Gift 2.9T)", stat: "slices/min + bonuses", gain_pct: null, unblocks: [], source: "my_read (parser costs)", active_min: 3, wait_hr: null, cost: "3.24T slices", urgent: false}
   - {do: "Decide: save for Megaflesh (459T, ~23 days) vs keep buying levels (my read: levels first, they raise slice rate)", stat: "", gain_pct: null, unblocks: [], source: "my_read", active_min: null, wait_hr: null, cost: null, urgent: false}
+# Zack 2026-11-28: there is known Bubba tech; find a source before ranking levels vs Megaflesh (task 2 on hold).
 # gap: lookup.py has no 'bubba' system; no creator upgrade order; Santa's Little Helper ownership unknown.
 ```
 <!-- GOAL:END -->

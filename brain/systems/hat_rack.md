@@ -36,7 +36,7 @@ triggers:
   - {when: "new premium or sneaking hat found", then: "deposit it (Pulse 2026-10-16: deposited vanity ninja hats leave the drop table)"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Route Minehead + Sushi hat-rack bonuses onto Ticles' W7 minis lines", stat: "hat multi", gain_pct: null, unblocks: [], source: "my_read (parser breakdown)", active_min: null, wait_hr: null, cost: null, urgent: false}
+  - {do: "Ticles: push Minehead + Sushi hat-rack bonuses on his W7 minis lines (Zack 2026-11-28 approved)", stat: "hat multi", gain_pct: null, unblocks: [], source: "Zack + parser breakdown", active_min: null, wait_hr: null, cost: null, urgent: false}
 # Most hats come from paid packs (Pulse 2026-11-01, fan opinion). gap: owned-not-deposited hats not in parser; owner unassigned.
 ```
 <!-- GOAL:END -->
