@@ -11,3 +11,5 @@
    d. Vial costs per level (Barium 12, Barley 11, Dreadnog 8) not in parser: source them.
    e. Zemo bones push: map + finish line not set (gap line in jobs.yaml).
    f. Ticles Smelting Every Day talent level not found in parser.
+
+- [PC pull, Zack 2026-11-28] Companions: read owned pets from the Toolbox Companions page in the built-in browser (raw copy has no companion data). Write owned list into the snapshot, then mark base/special pets in brain/systems/companions.md from real data.
