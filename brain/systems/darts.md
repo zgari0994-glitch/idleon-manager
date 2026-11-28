@@ -31,7 +31,7 @@ triggers:
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
   - {do: "Check Darter Trophy status + spendable dart points in game", stat: "trophy", gain_pct: null, unblocks: [], source: "Griffy", active_min: 3, wait_hr: null, cost: null, urgent: false}
-# gap: darts score/points not in minigameHighscores; trophy ownership not in parser; Darter Trophy requirement unknown.
+# data: darts score 199, 279 points (minigameHighscores.darts). gap: trophy ownership not in parser; Darter Trophy requirement unknown.
 ```
 <!-- GOAL:END -->
 

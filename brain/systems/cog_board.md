@@ -18,7 +18,7 @@ description: Cog Board: state, how it works, links, plan, today
 <!-- DRAFT Phase A batch 10 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-role: independent   # construction build/exp/flaggy
+role: independent   # construction, owner Autistastic (best construction, Lv 1010)
 goal: "Every cog slot EXP-positive, build rate up for buildings, flaggy for W3 flags; clean cog inventory"
 coverage: partial
 ladder:
@@ -26,7 +26,7 @@ ladder:
   - {tier: 2, target: "Board EXP mult above 1 (now 1, flaggy mult 4): place EXP cogs/boosters", source: "my_read", date: "2026-11-28"}
   - {tier: 3, target: "Build rate 6.62T -> next building tier need (from buildings.py)", source: "my_read", date: "2026-11-28"}
 objective: {rung: 1, now: 126, target: 0, eta_days: null}   # spares to scrap/sort
-check: {cadence: weekly, who: "unassigned", look_at: "construction.boardMultipliers, smallCogs.freeSlots, spareCogs"}
+check: {cadence: weekly, who: "Autistastic", look_at: "construction.boardMultipliers, smallCogs.freeSlots, spareCogs"}
 buffs: []   # self-running
 triggers:
   - {when: "a new cog maker roll finishes", then: "compare vs board, slot or scrap"}

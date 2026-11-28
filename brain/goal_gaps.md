@@ -46,6 +46,6 @@ Each needs Griffy > Pulse = Nocturne guidance; until then rungs are AutoReview /
 - colo_scores: ticket count not in parser; golden food per colo not in creator rows.
 - companions: acquired flag unreliable (1 of 179); fix parser before ranking.
 - crystal_spawn_chance: per-source breakdown not in parser; why 3 chars sit at 0.674%.
-- darts: no darts row in minigameHighscores; trophy ownership + spendable points not in parser.
+- darts: score 199 + 279 points ARE in parser (minigameHighscores.darts); trophy ownership + Darter Trophy requirement not.
 - event_points_shop: stars earned + points balance not in parser; no creator buy order beyond Glimmerwick Candles.
 - basketball (batch 9 correction): spendable hoops points are in parser (totalPoints 317).
