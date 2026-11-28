@@ -397,11 +397,18 @@ def build():
         if n == 'Autistacular':
             try:
                 import compass as _CP
-                _cl = [l for l in _CP.card_lines(_CP.build()) if l.startswith(("Elemental Path", "Your call: Exalted Stamps"))]
+                _cl = [l for l in _CP.card_lines(_CP.build()) if l.startswith(("Elemental Path", "Your call: Exalted Stamps", "Exalted Stamps ("))]
                 if _cl: house.append({'do': 'Compass: ' + ' '.join(_cl), 'why': 'Elemental Path is the Compass tier gate (save)', 'sub': []})
             except Exception as ex:
                 house.append({'do': f'Compass Elemental Path check failed ({ex})', 'why': '', 'sub': []})
             house.append({'do': 'Card set: farm 1 Verminous card', 'why': 'Bosses n Nightmares set goes 24% to 30% damage, drop and EXP for everyone', 'sub': ['Pulse: Verminous farms on the Insta castle map with Wind Walker + candy (mixed reports, test it)']})
+        if n == 'Autistomatic':
+            try:
+                import spelunking as _SPL
+                _al = [l for l in _SPL.card_lines(_SPL.build()) if l.startswith('Amber buys')]
+                if _al: house.append({'do': 'Amber spend: ' + _al[0].split(': ', 1)[1], 'why': 'POW upgrades first (Griffy Apr 2026; Zack 2026-11-27)', 'sub': []})
+            except Exception as ex:
+                house.append({'do': f'Amber spend check failed ({ex})', 'why': '', 'sub': []})
         # every-character checks, always shown
         for f in (cards_line, trap_line, divinity_line):
             x = f(n)

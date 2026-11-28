@@ -30,7 +30,10 @@ def from_parsed(rows, cur_names, bal, cur_key, max_key='x4'):
     # Zack 2026-11-25: same shape as upgrades(), from Toolbox's parser
     out = []
     for u in rows:
-        ci = u.get(cur_key); cur = cur_names[int(ci)] if isinstance(ci, (int, float)) and int(ci) < len(cur_names) else None
+        ci = u.get(cur_key)
+        try: ci = int(ci)
+        except (TypeError, ValueError): ci = None
+        cur = cur_names[ci] if ci is not None and 0 <= ci < len(cur_names) else None  # slot 0 = Stardust (Zack 2026-11-27)
         mx = u.get(max_key); lv = u.get('level', 0)
         out.append({'name': u['name'].replace('_', ' '), 'lv': lv, 'max': int(mx) if isinstance(mx, (int, float)) and mx < 999999 else None,
                     'maxed': isinstance(mx, (int, float)) and lv >= mx, 'next': None, 'cost': u.get('cost'), 'currency': cur,
@@ -54,8 +57,8 @@ def upgrades(text, cur_names, bal):
 def build():
     from data import load
     C = load().system('compass')
-    bal = {d['name']: d['value'] for d in C['dusts']}
-    names = [d['name'] for d in C['dusts']]
+    names = [d.get('name') or DUST[i] for i, d in enumerate(C['dusts'])]  # unnamed slot i -> DUST[i]; slot 0 = Stardust
+    bal = {nm: d['value'] for nm, d in zip(names, C['dusts'])}
     ups = from_parsed(C['upgrades'], names, bal, 'x3')
     by = {u['name']: u for u in ups}
     ar = _ar('Compass'); targets = []
@@ -86,11 +89,19 @@ def card_lines(o):
     nxt = [t for t in o['targets'] if t['tab'] == (o['targets'][0]['tab'] if o['targets'] else '')]
     if nxt: L.append('Next Compass tier needs: ' + ', '.join(f"{t['name']} {t['cur']} -> {t['goal']}" for t in nxt) + '.')
     ep = next((t['up'] for t in nxt if t['name'] == 'Elemental Path' and t['up']), None)
-    if ep and ep.get('cost'): L.append(f"Elemental Path's next level costs {h(ep['cost'])} stardust, you're {h(max(0, ep['cost'] - bal.get('Stardust', 0)))} short.")
+    sd = bal.get('Stardust', 0)
+    if ep and ep.get('cost'):
+        L.append(f"Elemental Path's next level costs {h(ep['cost'])} stardust" + (f", you have {h(sd)}: buy it." if sd >= ep['cost'] else f", you're {h(ep['cost'] - sd)} short."))
     cheapu = [u for u in o['upgrades'] if u['cost'] and u['currency'] and not u['maxed'] and u['cost'] <= 0.01 * bal[u['currency']]]
     if cheapu: L.append(f"{len(cheapu)} upgrades cost almost nothing right now, just buy them: " + ', '.join(u['name'] for u in sorted(cheapu, key=lambda u: u['cost'])[:6]) + '.')
     ex = next((u for u in o['upgrades'] if u['name'] == 'Exalted Stamps'), None)
-    if ex and ex['cost']: L.append(f"Your call: Exalted Stamps ({h(ex['cost'])} stardust) gives one more stamp exalt, but it delays Elemental Path by the same amount. Griffy uses moons for an extra exalt.")
+    if ex and ex['cost']:
+        # Zack 2026-11-27: check the balance first; only a trade-off if stardust can't cover both
+        both = ex['cost'] + (ep['cost'] if ep and ep.get('cost') else 0)
+        if ep and ep.get('cost') and sd >= both:
+            L.append(f"Exalted Stamps ({h(ex['cost'])}) + Elemental Path ({h(ep['cost'])}) = {h(both)} stardust, you have {h(sd)}: buy both, no trade-off.")
+        else:
+            L.append(f"Your call: Exalted Stamps ({h(ex['cost'])} stardust) gives one more stamp exalt, but it delays Elemental Path by the same amount (you have {h(sd)}). Griffy uses moons for an extra exalt.")
     if o['abom_next']: L.append(f"Kill {o['abom_next'][0]} next ({o['abom_next'][1].split(' · ')[-1]}). It's abomination #{o['abom_killed'] + 1} and it lets Tempest Form into the W3 town.")
     pl = print_line(o)
     if pl: L.append(pl)
