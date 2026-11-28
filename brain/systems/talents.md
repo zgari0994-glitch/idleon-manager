@@ -15,23 +15,29 @@ description: Talent points (both presets): state, how it works, links, plan, tod
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 12 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "my read: keep talents moving; no creator goal yet"
-coverage: none
+role: feeder   # every character, damage + skilling; MERGED class_kill_talents (2026-11-28)
+goal: "Every talent at its cap, super talent points spent, multikill on the AFK bar"
+coverage: partial
 ladder:
-  - {tier: 1, target: "my read: read talents state every pull and push its cheapest open upgrade", source: "my_read", date: "2026-11-27"}
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: weekly, who: "UNASSIGNED", look_at: "python3 tools/lookup.py talents"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
-stall: {pulls_no_progress: 3, eta_over_days: 30}
+  - {tier: 1, target: "Multikill talent on the bar when going AFK (else no extra multikill per tier)", source: "Griffy", date: "2025-11-20"}   # GFmPSIRIPX4 00:47:39
+  - {tier: 2, target: "Get the extra-kill talent for portals + Death Note", source: "Griffy", date: "2026-04-23"}   # kD7KZ5zX6Ss 01:01:14
+  - {tier: 3, target: "Raise caps: Library checkouts (rank #1-55, book cap 299)", source: "Toolbox", date: "2026-11-28"}
+objective: {rung: 1, now: "super points unspent: Totle 1, Tachio 4", target: "0 unspent", eta_days: null}
+check: {cadence: weekly, who: "each character (own talents)", look_at: "characters[].talents + superTalentLeftToSpend"}
+buffs: []
+triggers:
+  - {when: "superTalentLeftToSpend > 0", then: "spend it (see super_talents)"}
+  - {when: "Library checkout done", then: "re-rank next max talent"}
+stall: {pulls_no_progress: 4, eta_over_days: 60}
 tasks:
-  - {do: "my read: read talents state every pull and push its cheapest open upgrade", stat: "", gain_pct: null, unblocks: [], source: "my_read", active_min: null, wait_hr: null, cost: null, urgent: false}
-# gap: no creator coverage; rungs from AutoReview / my read (logged in brain/goal_gaps.md)
+  - {do: "Spend Totle's 1 + Tachio's 4 super talent points", stat: "talent", gain_pct: null, unblocks: [], source: "Toolbox", active_min: 3, wait_hr: null, cost: null, urgent: false}
+  - {do: "Check multikill talent is on every AFK character's bar", stat: "multikill", gain_pct: null, unblocks: [], source: "Griffy", active_min: 5, wait_hr: null, cost: null, urgent: false}
+# warning: stat-based kills-per-kill talent doesn't work in W7 after the nerf (Griffy 2025-11-28 fo2WwEKsty0 00:08:10).
+# data: talentPointsLeft per tab is large (e.g. Zemo 1436/1915/1471/311): points aren't the limit, caps are. account.talentPoints [8,8,12,7,0,3] meaning unknown.
+# gap: no per-talent "below cap" list in lookup; super_talents batch 8 flags Topher + Totle reset candidates.
 ```
 <!-- GOAL:END -->
 

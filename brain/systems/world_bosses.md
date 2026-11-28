@@ -16,23 +16,23 @@ description: World bosses (daily/weekly): state, how it works, links, plan, toda
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 12 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "my read: keep world bosses moving; no creator goal yet"
-coverage: none
+role: feeder   # loot, flobbers, dungeon drops, tome
+goal: "Daily world boss in a max party"
+coverage: partial
 ladder:
-  - {tier: 1, target: "my read: read world_bosses state every pull and push its cheapest open upgrade", source: "my_read", date: "2026-11-27"}
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: daily, who: "UNASSIGNED", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
+  - {tier: 1, target: "Daily world boss in a maxed party; teleporting multiplies boss HP + loot chance", source: "Pulse", date: "2026-09-08"}   # 0xjp2t-iukY 00:13:18
+  - {tier: 2, target: "World boss multiplies flobbers + dungeon drops, feeds tome", source: "Pulse", date: "2026-09-08"}   # 0xjp2t-iukY 00:14:19
+objective: {rung: 1, now: null, target: "daily", eta_days: null}
+check: {cadence: daily, who: "unassigned", look_at: "in game (not in parser)"}
+buffs: []
 triggers: []
-stall: {pulls_no_progress: 3, eta_over_days: 30}
+stall: {pulls_no_progress: 6, eta_over_days: 90}
 tasks:
-  - {do: "my read: read world_bosses state every pull and push its cheapest open upgrade", stat: "", gain_pct: null, unblocks: [], source: "my_read", active_min: null, wait_hr: null, cost: null, urgent: false}
-# gap: no creator coverage; rungs from AutoReview / my read (logged in brain/goal_gaps.md)
+  - {do: "Daily world boss in a max party", stat: "loot", gain_pct: null, unblocks: ["tome"], source: "Pulse", active_min: 5, wait_hr: 24, cost: null, urgent: false}
+# gap: nothing in parser (no kill/daily flag); claims are 2025, nothing newer from Griffy.
 ```
 <!-- GOAL:END -->
 

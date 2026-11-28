@@ -14,23 +14,27 @@ description: Palette / Black Star: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 12 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "my read: keep palette moving; no creator goal yet"
-coverage: none
+role: feeder   # gaming palette, account-wide multipliers
+goal: "Black stars on the best colors, then level owned colors in palette weeks"
+coverage: partial
 ladder:
-  - {tier: 1, target: "my read: read palette state every pull and push its cheapest open upgrade", source: "my_read", date: "2026-11-27"}
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: weekly, who: "UNASSIGNED", look_at: "python3 tools/lookup.py palette"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
-stall: {pulls_no_progress: 3, eta_over_days: 30}
+  - {tier: 1, target: "Pick up a black star or two (first 8 doubler placements are solved)", source: "Pulse", date: "2026-11-12"}   # 6sAjlzBW2sk 00:12:18
+  - {tier: 2, target: "Push palette levels during a palette week", source: "Pulse", date: "2026-11-16"}   # glvAam8Mol8 00:07:23
+  - {tier: 3, target: "Bright Cyan (Artifact Find) with 2 black stars", source: "Pulse", date: "2026-10-31"}   # _wJJ9siUFLk 00:28:44
+objective: {rung: 1, now: "9/37 colors owned, black stars 2 (all on Light Cyan)", target: null, eta_days: null}
+check: {cadence: weekly, who: "gaming owner (jobs.yaml)", look_at: "account.gaming.palette + paletteLuck"}
+buffs: []
+triggers:
+  - {when: "palette week in ballot", then: "rung 2, spend on owned colors"}
+  - {when: "a new black star is available", then: "place it (rung 1)"}
+stall: {pulls_no_progress: 4, eta_over_days: 60}
 tasks:
-  - {do: "my read: read palette state every pull and push its cheapest open upgrade", stat: "", gain_pct: null, unblocks: [], source: "my_read", active_min: null, wait_hr: null, cost: null, urgent: false}
-# gap: no creator coverage; rungs from AutoReview / my read (logged in brain/goal_gaps.md)
+  - {do: "Check black star count + where Pulse's doubler placements go; move/add stars", stat: "palette", gain_pct: null, unblocks: [], source: "Pulse", active_min: 5, wait_hr: null, cost: null, urgent: false}
+# data: active Minty Blue L23 (4.68x sprout speed), Offwhite L21 (3.52x bits), Light Cyan L18 (+83.72% double statues, 2 black stars); 6 more at L1; Bright Cyan L0. Palette Luck 3.55 (Rat King 1.75x), final bonus 68.
+# gap: color unlock condition, active slot count and black star source not in parser; Pulse's 8 placements not in our claims text.
 ```
 <!-- GOAL:END -->
 

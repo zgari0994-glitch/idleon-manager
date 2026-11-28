@@ -95,10 +95,19 @@ clam_work:
   - Autisticles
   path: clamWork
 class_kill_talents:
+  merged_into: talents
   kw:
   - kill talent
   owners:
   - unassigned in jobs.yaml
+  path: '@characters.talents'
+  tags:
+  - talent_points
+talents:
+  kw:
+  - talent
+  owners:
+  - every character
   path: '@characters.talents'
   tags:
   - talent_points

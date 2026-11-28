@@ -153,4 +153,9 @@ Drafts carry `status: DRAFT`; none approved or in the pipeline. ETAs null until 
   - Inventory vs storage split: storage.md = chests + bag unlocks (Totle); inventory.md = carry cap + clearing unused gear (Totle). No task in both.
   - Owners unassigned: family_bonuses, forge_upgrades (Ticles my read), npc_tokens, obols. Friend + guild = Zack.
   - Fixed same day (Zack 01:04): family_bonuses, forge_upgrades, npc_tokens, obols stay unowned, raised only when needed; obols are per character, so every card checks its own obol slots. Still open: friend bonus slot picks.
-- Next: batch 12 = palette, poppy, shrines, snail_mail, talents, weekly_boss, world_bosses (last 7). Check talents vs class_kill_talents first (same talent data in lookup).
+- Batch 12 (2026-11-28, save 20261128T0256): palette, poppy, shrines, snail_mail, talents, weekly_boss, world_bosses. DRAFT (replaced the auto drafts). Last 7 of the 28 "nothing": every system now has a real GOAL block.
+  - MERGED: class_kill_talents -> talents (same data characters[].talents, never defined as its own system; kill talents = multikill/extra-kill rows in talents). class_kill_talents.md is a MERGED stub; data_map has talents + merged_into.
+  - Gaps found: lookup.py has no palette, poppy, snail_mail, weekly_boss, world_bosses system (talents now mapped); shrines lookup shows "9 items" with no rows; palette color unlock, active slots, black star source not in parser; two Poppys (pet = ballot, friend = account.kangaroo), pet drop source unknown; Snail Mail balance not in parser (gaming.envelopes 0.05?), snail cap 30 vs Griffy "maxed at 49"; weeklyBossesRaw 69 keys undecoded, no creator claim names a weekly boss; world bosses not in parser at all; account.talentPoints [8,8,12,7,0,3] meaning unknown; shrine XP to next level + map 150 name not mapped.
+  - Found: super talent points unspent Totle 1, Tachio 4.
+  - Owners unassigned: poppy, shrines, weekly_boss, world_bosses. palette + snail_mail = gaming owner (jobs.yaml says "auto", so effectively unassigned). talents = each character.
+- Phase A done (batches 1-12). Next: Zack approvals, then Phase B.
