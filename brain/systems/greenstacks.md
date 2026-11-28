@@ -14,26 +14,26 @@ description: Greenstacks: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 7 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "Greenstacking every shiny in one week is unrealistic because one stack takes at least thirty hours."
-coverage: partial
+role: feeder   # greenstack count -> AutoReview milestones, Equinox Dream, bingo
+goal: "Push greenstack count on the closest items: 200, then 250, then Pulse's 400"
+coverage: sourced
 ladder:
-  - {tier: 1, target: "Greenstacking every shiny in one week is unrealistic because one stack takes at least thirty hours.", source: "Griffy", date: "2026-01-29"}   # dliS5ZjijlA 02:59:29
-  - {tier: 2, target: "Claiming Cashe- Goldric: Only Winners have Portraits (0% -> 100%)", source: "Toolbox", date: "2026-11-27"}   # AutoReview
-  - {tier: 3, target: "Strange Rock- Stiltzcho: No Stone Unturned (0% -> 100%)", source: "Toolbox", date: "2026-11-27"}   # AutoReview
-objective: {rung: 1, now: "0%", target: "100%", eta_days: null}
-check: {cadence: daily, who: "Autistotle", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
+  - {tier: 1, target: "200 greenstacks", source: "AutoReview", date: "2026-11-28"}
+  - {tier: 2, target: "250 greenstacks (Griffy bingo square 230+)", source: "AutoReview + Griffy", date: "2024-10-17"}
+  - {tier: 3, target: "400 greenstacks", source: "Pulse", date: "2026-11-16"}
+objective: {rung: 1, now: 182, target: 200, eta_days: null}
+check: {cadence: daily, who: "Autistotle", look_at: "storage.greenStacks count + closest items (model/greenstacks.py)"}
+buffs: []
 triggers: []
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Greenstacking every shiny in one week is unrealistic because one stack takes at least thirty hours.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: greenStacks: ['Copper', 'Iron', 'Gold', 'Dementia', 'Void', 'Lustre', 'Starfire', 'Marble', 'Godshard', 'Prehistrium', 'CopperBar', 'IronBar', 'GoldBar', 'OakTree', 'BirchTree'] ...(182); list: 511 it
-# gap: thin creator coverage; rungs from AutoReview / my read (logged in brain/goal_gaps.md)
+  - {do: "Greenstack runs on the closest items (candy + skips)", stat: "greenstacks", gain_pct: null, unblocks: [], source: "Zack plan + Griffy Lt1hV8p84Oc 18:36", active_min: 30, wait_hr: null, cost: null, urgent: false}
+  - {do: "Sample annoying craft resources (Clam Work resource, frisbees) for easy stacks", stat: "greenstacks", gain_pct: null, unblocks: [], source: "Pulse 2026-10-31 6JgdYbiEKus 00:05:37", active_min: null, wait_hr: null, cost: null, urgent: false}
+  - {do: "Turn in Equinox Dream 29 (greenstack dream)", stat: "equinox", gain_pct: null, unblocks: [], source: "AutoReview", active_min: 2, wait_hr: null, cost: null, urgent: false}
+# Griffy 2026-11-07: spending below 10M doesn't break a stack. Endangered greenstacks (item in a quest turn-in) are listed by AutoReview; protect list is model/protect.json.
 ```
 <!-- GOAL:END -->
 

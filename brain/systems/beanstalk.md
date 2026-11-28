@@ -14,25 +14,26 @@ description: Beanstalk: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 7 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "Concentrate golden food on one character, usually the active farmer, and deposit it for everyone once the thre"
+role: feeder   # golden food -> account-wide food bonuses
+goal: "Every golden food deposited to the next tier, Griffy's 5 first (Ham, Cheese, Grilled Cheese, Hamsters, Dumplings)"
 coverage: sourced
 ladder:
-  - {tier: 1, target: "Concentrate golden food on one character, usually the active farmer, and deposit it for everyone once the threshold is reached.", source: "Griffy", date: "2026-11-07"}   # __0_dvPFI_E 00:20:30
-  - {tier: 2, target: "Hand in one hundred thousand Golden Dumplings for account-wide benefits.", source: "Griffy", date: "2026-04-23"}   # kD7KZ5zX6Ss 00:54:36
-  - {tier: 3, target: "Aim to deposit one hundred thousand Golden Grilled Cheese.", source: "Griffy", date: "2026-04-23"}   # kD7KZ5zX6Ss 00:55:06
-objective: {rung: 1, now: "1.90K", target: "10K", eta_days: null}
-check: {cadence: daily, who: "Autiszemo", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
+  - {tier: 1, target: "Every owned golden food at 10K deposited (account-wide)", source: "Griffy", date: "2026-11-07"}
+  - {tier: 2, target: "Griffy's 5 to 100K (Ham, Cheese, Grilled Cheese, Hamsters, Dumplings)", source: "Griffy", date: "2026-04-23"}
+  - {tier: 3, target: "Every golden food to 100K, then 1M", source: "Griffy", date: "2026-11-07"}
+objective: {rung: 1, now: "35 slots: 2 at 1M tier, 10 at 100K, 2 at 10K, 21 at 0", target: "the 21 at 0 reach 10K", eta_days: null}
+check: {cadence: daily, who: "Autiszemo", look_at: "beanstalkData tiers + AutoReview Beanstalk rows"}
+buffs: []
 triggers: []
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Concentrate golden food on one character, usually the active farmer, and deposit it for everyone once the threshold is r", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: : ['1', '2', '2', '2', '2', '2', '2', '1', '2', '2', '3', '2', '3', '2', '0'] ...(35)
+  - {do: "Stack golden food on one character (the active farmer) and deposit at 10K", stat: "golden food tier", gain_pct: null, unblocks: [], source: "Griffy 2026-11-07 __0_dvPFI_E 00:20:30", active_min: 5, wait_hr: null, cost: null, urgent: false}
+  - {do: "Golden Cake 1.90K -> 10K (Smithing)", stat: "tier 1", gain_pct: null, unblocks: [], source: "AutoReview", active_min: null, wait_hr: null, cost: null, urgent: false}
+  - {do: "Golden Peanut 10.9K -> 100K and Golden Bread 15.2K -> 100K (Smithing; Bread W3 Colo efficient / W5 Colo fast)", stat: "tier 2", gain_pct: null, unblocks: [], source: "AutoReview + Nocturne 2024-03-02 2sZ62Yvmod4", active_min: null, wait_hr: null, cost: null, urgent: false}
+# Names of the 21 empty slots aren't mapped in the parser; some may be foods he doesn't own yet. Golden-food swap advice lives with golden food (Zack 2026-11-27).
 ```
 <!-- GOAL:END -->
 

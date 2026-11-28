@@ -14,25 +14,25 @@ description: Coral Reef: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 7 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: feeder
-goal: "Red 4 inevitable builder adds an extra gold construction slot (2.5x faster); a must for crafting new shrines f"
-coverage: sourced
+role: feeder   # coral -> Coral Kid / Dancing Coral upgrades (Divinity, Lumi, DMG)
+goal: "Grow daily coral (Coral Restoration +60% first) and buy the cheap Coral Kid levels"
+coverage: partial
 ladder:
-  - {tier: 1, target: "Red 4 inevitable builder adds an extra gold construction slot (2.5x faster); a must for crafting new shrines for coral percent and spelunkin", source: "Griffy", date: "2025-11-10"}   # GIs09k2bhkY 00:08:44
-  - {tier: 2, target: "Red 10 coral restoration gives 60% more coral gained daily; one of the most time-gated mechanics in World 7 coral reef.", source: "Griffy", date: "2025-11-10"}   # GIs09k2bhkY 00:12:52
-  - {tier: 3, target: "Coral reef upgrades only give about 7%/5%/3% so a 60% increase is an absolute must with no questions.", source: "Griffy", date: "2025-11-10"}   # GIs09k2bhkY 00:13:23
-objective: {rung: 1, now: "0", target: "13", eta_days: null}
-check: {cadence: daily, who: "Autistachio", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
+  - {tier: 1, target: "Coral Restoration (Red 10) +60% daily coral", source: "Griffy", date: "2025-11-10"}
+  - {tier: 2, target: "Coral Kid cheap levels: Transmute (1), Transmute base (9), Divinity EXP (121), Time Elapsed any AFK (2.2K)", source: "my read (costs from parser)", date: "2026-11-28"}
+  - {tier: 3, target: "Stack Divinity PTS ahead of Divinity ballot weeks for Coral Kid", source: "Pulse", date: "2026-10-14"}
+objective: {rung: 1, now: "336 coral owned, 3 corals unlocked, Coral Kid total 16 levels", target: "Coral Restoration owned", eta_days: null}
+check: {cadence: daily, who: "Autistachio", look_at: "coralReef owned + next Coral Kid costs"}
+buffs: []
 triggers: []
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Red 4 inevitable builder adds an extra gold construction slot (2.5x faster); a must for crafting new shrines for coral p", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: coralKidUpgradeLevelTotal=16, grindTimeDaily=150, ownedCorals=336, unlockedCorals=3; coralKidUpgrades: 12 total, 0 maxed, 12 open, 0 locked
+  - {do: "Check Coral Restoration (Red 10) is owned; if not it's the first coral buy", stat: "daily coral", gain_pct: 60, unblocks: [], source: "Griffy 2025-11-10 GIs09k2bhkY 00:12:52", active_min: 2, wait_hr: null, cost: null, urgent: false}
+  - {do: "Buy the 3 cheapest Coral Kid levels (1, 9, 121)", stat: "Divinity PTS / EXP", gain_pct: null, unblocks: [], source: "parser costs, my read", active_min: 2, wait_hr: null, cost: "1 / 9 / 121", urgent: false}
+# Coral Kid cost currency isn't named in the parser (verify in game). Pulse 2026-09-25 rates Coral Restoration C tier vs Griffy "absolute must"; newer is Pulse but Griffy ranks higher; flagged for Zack.
 ```
 <!-- GOAL:END -->
 

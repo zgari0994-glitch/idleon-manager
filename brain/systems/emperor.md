@@ -15,25 +15,25 @@ description: Emperor: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 7 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "Skulls repeatedly bouncing on the upper platform make Arcane Cultist strong at farming Emperor."
+role: multiplier   # Emperor bonuses = real multis (bones, dust, tachyons, bits, drop rate)
+goal: "Never waste Emperor attempts; push showdowns with an Arcane Cultist, big pushes in statue week"
 coverage: sourced
 ladder:
-  - {tier: 1, target: "Skulls repeatedly bouncing on the upper platform make Arcane Cultist strong at farming Emperor.", source: "Griffy", date: "2026-08-03"}   # ypb7kpQov30 00:05:36
-  - {tier: 2, target: "Increase damage to advance Emperor.", source: "Griffy", date: "2026-04-23"}   # kD7KZ5zX6Ss 00:56:07
-  - {tier: 3, target: "The weapons pack's 6x bigger damage on a golden vine now rapidly increases gains, which matters for emperor pushing.", source: "Pulse", date: "2026-11-01"}   # UcgdzLvBLMc 00:02:04
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: weekly, who: "Autistastic", look_at: "python3 tools/lookup.py emperor"}
-buffs: []   # only filled for systems behind / needing a push
+  - {tier: 1, target: "Use attempts before 11 cap (0 wasted)", source: "data", date: "2026-11-28"}
+  - {tier: 2, target: "Showdown 78 (WW dust) -> 79 (+10% drop rate) -> 83 (AC tachyons) -> 85 (farming 20% cheaper)", source: "data", date: "2026-11-28"}
+  - {tier: 3, target: "Big pushes in statue week with boost foods (Feasty + dragon statue multiply foods)", source: "Pulse", date: "2026-11-16"}
+objective: {rung: 2, now: "highest showdown 77, 2/11 attempts banked", target: 78, eta_days: null}
+check: {cadence: daily, who: "Autistocat", look_at: "emperor attempts + highestEmperorShowdown"}
+buffs: []
 triggers: []
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Skulls repeatedly bouncing on the upper platform make Arcane Cultist strong at farming Emperor.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: attempts=2, dailyAttempts=1, highestEmperorShowdown=77, maxAttempts=11, noWasteAttempts=9; bonusMulti: Bonus Multi = 1.03
+  - {do: "Emperor fights on Cat: stand on the small platform next to the boss and auto (skulls bounce)", stat: "showdown", gain_pct: null, unblocks: [compass, grimoire, tesseract], source: "Griffy 2026-08-03 ypb7kpQov30 00:05:36 + Pulse 2026-10-31 6JgdYbiEKus 00:14:18", active_min: 5, wait_hr: null, cost: "1 attempt", urgent: false}
+  - {do: "Eat boost foods for the push (Cold Seekers, Midnight Cookies, Kebabs)", stat: "damage", gain_pct: null, unblocks: [], source: "Pulse 2026-10-31 6JgdYbiEKus 00:15:49", active_min: null, wait_hr: null, cost: null, urgent: false}
+# Owner = Cat per jobs.yaml (Zack 2026-11-25); lookup header still says Autistastic (stale owner map). Profile memory said Zemo does Emperor; jobs.yaml is newer.
 ```
 <!-- GOAL:END -->
 

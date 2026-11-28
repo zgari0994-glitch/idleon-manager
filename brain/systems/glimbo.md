@@ -14,25 +14,25 @@ description: Glimbo: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 7 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "The account's fifteen hundred trades are low; he expects eighteen hundred to nineteen hundred at this strength"
+role: feeder   # trades -> vault max levels, drop rate, Tome
+goal: "Trade spare resources to Glimbo (not reserved ones); push trades toward Pulse's 1000+"
 coverage: sourced
 ladder:
-  - {tier: 1, target: "The account's fifteen hundred trades are low; he expects eighteen hundred to nineteen hundred at this strength.", source: "Pulse", date: "2026-11-16"}   # glvAam8Mol8 00:04:34
-  - {tier: 2, target: "Keep farming DB sanctum to 35 and at least 1k glimbo trades for drop rate.", source: "Pulse", date: "2026-09-04"}   # ofuB4YV8gkM 00:11:50
-  - {tier: 3, target: "Push glimbo trades to about 1000 for an extra 50 tome points.", source: "Pulse", date: "2026-09-04"}   # ofuB4YV8gkM 00:26:19
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: weekly, who: "UNASSIGNED", look_at: "python3 tools/lookup.py glimbo"}
-buffs: []   # only filled for systems behind / needing a push
+  - {tier: 1, target: "All cost-1 trades with the item on hand (Neon Coral, Deepsea Soul, Zenith Cluster, Pirate Anchor, Chapter Five)", source: "data + Pulse spend rule", date: "2026-11-16"}
+  - {tier: 2, target: "1000 trades (drop rate, +50 Tome points)", source: "Pulse", date: "2026-09-04"}
+  - {tier: 3, target: "1800-1900 trades at late strength", source: "Pulse", date: "2026-11-16"}
+objective: {rung: 1, now: "167 trades by parser sum (verify; Pulse's counts are in the thousands)", target: 1000, eta_days: null}
+check: {cadence: daily, who: "Autisticles", look_at: "minehead.glimbo cost vs owned"}
+buffs: []
 triggers: []
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "The account's fifteen hundred trades are low; he expects eighteen hundred to nineteen hundred at this strength.", stat: "", gain_pct: null, unblocks: [], source: "Pulse", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: : 22 items
+  - {do: "Do every cheap Glimbo trade you can afford, except items reserved (Dreadnought+, candy)", stat: "trades / vault max", gain_pct: null, unblocks: [vault], source: "Pulse 2026-11-16 glvAam8Mol8 00:04:53", active_min: 5, wait_hr: null, cost: null, urgent: false}
+  - {do: "Don't craft 24 HR candies for Glimbo", stat: null, gain_pct: null, unblocks: [], source: "Griffy 2026-07-29 _maMoJLg6YE 01:51:21", active_min: null, wait_hr: null, cost: null, urgent: false}
+# Pulse S tier: Glimbo VIP pass (+2 vault max per trade) and 1 point in Glimbo Insider. Dreadnought Captain makes prices 5x cheaper (Griffy 2026-07-19). Owned item counts not joined to the trade list = gap.
 ```
 <!-- GOAL:END -->
 

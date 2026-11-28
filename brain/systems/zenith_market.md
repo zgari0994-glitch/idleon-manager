@@ -15,25 +15,25 @@ description: Zenith Market: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 7 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "Raise divinity levels to maximize Arctis talent points as Zenith clusters amplify the bonus."
-coverage: sourced
+role: feeder   # Zenith Clusters -> market upgrades across systems
+goal: "Spend Zenith Clusters cheapest-high-value first; True Zen is the long push"
+coverage: partial
 ladder:
-  - {tier: 1, target: "Raise divinity levels to maximize Arctis talent points as Zenith clusters amplify the bonus.", source: "Griffy", date: "2026-04-23"}   # kD7KZ5zX6Ss 00:43:50
-  - {tier: 2, target: "Kattlecruk's bubble benefit is not useful yet because it needs the World 7 Zenith Market.", source: "Griffy", date: "2026-09-21"}   # KHuU392EW-4 00:11:26
-  - {tier: 3, target: "He considers pushing the shown Truzen? upgrades to one billion each.", source: "Pulse", date: "2026-11-15"}   # hSzyEAfqjMM 00:14:04
-objective: {rung: 1, now: "8", target: "250", eta_days: null}
-check: {cadence: daily, who: "Autisticles", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
+  - {tier: 1, target: "Cheap levels: Lamp Boost 6, True Zen 10, Double Cluster 15, Bubble Boost 15", source: "Pulse (cheap upgrades worthwhile)", date: "2026-11-15"}
+  - {tier: 2, target: "Super Dupers Lv1 (50) and Kruk Bubbles Lv3 (74)", source: "my read", date: "2026-11-28"}
+  - {tier: 3, target: "True Zen toward 250 (Pulse pushes his very high)", source: "Pulse", date: "2026-11-15"}
+objective: {rung: 1, now: "11 clusters; TRUE ZEN 8, DOUBLE CLUSTER 3, KRUK 2, LAMP 1, rest 0", target: "tier 1 buys", eta_days: null}
+check: {cadence: daily, who: "Autisticles", look_at: "zenith.market costs vs clusters"}
+buffs: []
 triggers: []
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Raise divinity levels to maximize Arctis talent points as Zenith clusters amplify the bonus.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: clusters=11; market: 12 total, 0 maxed, 12 open, 0 locked
+  - {do: "Buy Lamp Boost (6 clusters) now", stat: "Lamp bonus", gain_pct: null, unblocks: [], source: "Pulse 2026-11-15 hSzyEAfqjMM 00:14:16 (cheap upgrades)", active_min: 1, wait_hr: null, cost: "6 clusters", urgent: false}
+  - {do: "Then True Zen Lv9 (10) and Double Cluster Lv4 (15) as clusters come in", stat: "Zenith statues / cluster drops", gain_pct: null, unblocks: [], source: "Pulse 2026-11-15", active_min: 1, wait_hr: null, cost: "10 / 15 clusters", urgent: false}
+# Pulse 2026-10-20: Frogs is the best Zenith farming spot (Cat is already there overnight). Cluster income per day not in parser. Order between tier-1 rows is my read.
 ```
 <!-- GOAL:END -->
 

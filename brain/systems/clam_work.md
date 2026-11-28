@@ -15,25 +15,26 @@ description: Clam Work: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 7 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "Void Walker's additional rerolls improve the chance of stronger pearls from clams."
-coverage: sourced
+role: feeder   # pearls -> Clam Work upgrades; Scurge points -> Reckoning
+goal: "Active Clam Work on a Royal Guardian; pearls into Pollen Faction-style pearl gain, Scurge points mostly into Reckoning"
+coverage: partial
 ladder:
-  - {tier: 1, target: "Void Walker's additional rerolls improve the chance of stronger pearls from clams.", source: "Griffy", date: "2026-08-03"}   # ypb7kpQov30 00:12:11
-  - {tier: 2, target: "Clam works with new scourge works is good this week because damage is higher", source: "Pulse", date: "2026-11-03"}   # WlOf805X5uI 00:04:06
-  - {tier: 3, target: "Clam works scales to 12 though game doesn't show it; 12th buff is extra power, which he's pushing toward.", source: "Pulse", date: "2026-10-19"}   # DiimMepKdIs 00:12:49
-objective: {rung: 1, now: "0", target: "1", eta_days: null}
-check: {cadence: weekly, who: "Autisticles", look_at: "python3 tools/lookup.py clam_work"}
-buffs: []   # only filled for systems behind / needing a push
+  - {tier: 1, target: "Buy affordable pearl upgrades (Multi-Scalping 331K, Frugality 374K)", source: "my read (costs from parser)", date: "2026-11-28"}
+  - {tier: 2, target: "Scurge: lion's share into Reckoning, few in Pearl Infection, Self Affliction as high as still one-shots", source: "Pulse", date: "2026-10-16"}
+  - {tier: 3, target: "Worker class toward 12 (promotion 10M pearls, 12.5%)", source: "Pulse", date: "2026-10-19"}
+objective: {rung: 1, now: "445K pearls, worker class 2, Scurge Lv1 (0 points)", target: "Multi-Scalping Lv23", eta_days: null}
+check: {cadence: daily, who: "Autisticles", look_at: "clamWork pearls vs next upgrade costs"}
+buffs: []
 triggers: []
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Void Walker's additional rerolls improve the chance of stronger pearls from clams.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: blackPearlValue=400, clamHp=9.00e+18, mobs=12, ownedPearls=445K, pearlValue=105, promotionChance=0.125, promotionCost=10M, respawn=60, workerClass=2; blackPearlValueBreakdown: Black pearl value = 400
+  - {do: "Buy Multi-Scalping Lv23 (331K pearls) now", stat: "multikill", gain_pct: null, unblocks: [], source: "parser cost, my read", active_min: 1, wait_hr: null, cost: "331K pearls", urgent: false}
+  - {do: "Active Clam Work on a Royal Guardian (late game)", stat: "pearls", gain_pct: null, unblocks: [], source: "Pulse 2026-10-19 DiimMepKdIs 00:15:26", active_min: 30, wait_hr: null, cost: null, urgent: false}
+  - {do: "Print the Clam Work resource on an early worker class before running (bigger print)", stat: "greenstack", gain_pct: null, unblocks: [greenstacks], source: "Pulse 2026-10-31 6JgdYbiEKus 00:05:07", active_min: null, wait_hr: null, cost: null, urgent: false}
+# Pollen Faction (Pulse's top pearl upgrade) not found by that name in the parser. Locked upgrade unlock conditions not in parser. Owner Ticles (W7 minis) vs Pulse "use a Royal Guardian": Zack's call.
 ```
 <!-- GOAL:END -->
 

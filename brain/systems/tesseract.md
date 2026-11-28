@@ -15,25 +15,26 @@ description: Tesseract: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 7 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "Use the first Prisma bubble on Diamond Chef to greatly accelerate cooking."
+role: masterclass   # Arcane Cultist only; Cat's masterclass duty
+goal: "Raise total Tesseract levels to the next unlocks (2000 Jewel of the North Winds, 2050 Arcanist Damage IV)"
 coverage: sourced
 ladder:
-  - {tier: 1, target: "Use the first Prisma bubble on Diamond Chef to greatly accelerate cooking.", source: "Griffy", date: "2026-09-21"}   # KHuU392EW-4 00:25:24
-  - {tier: 2, target: "Level-200 talents should accelerate alchemy and unlock Prisma progression for cooking before further world pushing.", source: "Griffy", date: "2026-09-21"}   # KHuU392EW-4 01:08:51
-  - {tier: 3, target: "Move to another map rather than lingering beyond the threshold on ramps or Zeff.", source: "Griffy", date: "2025-11-28"}   # fo2WwEKsty0 00:35:08
-objective: {rung: 1, now: "1932", target: "2750", eta_days: null}
-check: {cadence: daily, who: "Autistocat", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
+  - {tier: 1, target: "2000 total levels (Jewel of the North Winds)", source: "data", date: "2026-11-28"}
+  - {tier: 2, target: "Inviting a Plus One above 200 (extra mob spawn)", source: "Pulse", date: "2026-09-13"}
+  - {tier: 3, target: "2-min claims until claim multi ~50x, then the big claims", source: "Pulse", date: "2026-10-20"}
+  - {tier: 4, target: "2050 (Arcanist Damage IV), 2350 (Eternal Stream), 2600, 2750 (Fractal Tesseract)", source: "data", date: "2026-11-28"}
+objective: {rung: 1, now: "1932 total levels", target: 2000, eta_days: null}
+check: {cadence: daily, who: "Autistocat", look_at: "tesseract total levels + cheapest open upgrades"}
+buffs: []
 triggers: []
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Use the first Prisma bubble on Diamond Chef to greatly accelerate cooking.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: crystalChargeReq=144, ringDropChance=0.002, ringQuality=125, totalTachyons=1.97B, totalUpgradeLevels=1.93K, weaponDropChance=0.00333, weaponQuality=335; tachyons: Purple 383M, Brown 1.58B, Green 644K,
+  - {do: "Buy the cheapest open levels until 2000 total (68 to go): Ring Drops 1.02M, Arcanist Defence III 1.21M, Ethereal Opals 1.22M, Villager Indoctrination 1.38M, Fastcasting 1.76M...", stat: "total levels", gain_pct: null, unblocks: [], source: "parser costs", active_min: 5, wait_hr: null, cost: "~1M+ tachyons each", urgent: false}
+  - {do: "Push Inviting a Plus One 48 -> 200+", stat: "extra mob chance", gain_pct: null, unblocks: [], source: "Pulse 2026-09-13 hM-HC11gshI 00:14:26", active_min: null, wait_hr: null, cost: "8.15M next", urgent: false}
+# Tachyons: Purple 383M, Brown 1.58B, Green 644K, Red 1.59M, Silver 4.98K, Gold 0. Which color each upgrade costs isn't in the parser, so "affordable" is unverified. Pulse's "One drops ~1200" doesn't match a parser name.
 ```
 <!-- GOAL:END -->
 
