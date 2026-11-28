@@ -1,0 +1,372 @@
+{
+ "module": "divinity",
+ "systems": [
+  "divinity"
+ ],
+ "ok": true,
+ "card_lines": [
+  "Trick from Pulse and Griffy: characters linked to Goharut who sit in Lab tubes count as meditating, so they earn Divinity and Lab EXP at the same time.",
+  "Coral Kid: buy the cheapest upgrade now (2.16B points): Divinity Skill Lv boosts Minor Link Bonuses a bit more.",
+  "Best blessing buys: Harriep, Goharut, Omniphau.",
+  "God rank 3. Pulse says endgame is rank 25 to 30, and Super week is when you push it.",
+  "God links are on the review list for later."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "snapshot": "20261128T0256",
+  "head": {
+   "God rank": 3,
+   "Total Divinity LV": null,
+   "Divinity points": "3,212,972,119",
+   "Divinity PTS/hr": null
+  },
+  "points": 3212972118.67179,
+  "gods": {
+   "Snehebatu": {
+    "lv": 134,
+    "max": 134,
+    "maxed": true,
+    "bless": 308.2,
+    "bless_stat": "+% Divinity PTS Gain",
+    "have": null,
+    "next": "MAX",
+    "to_max": null,
+    "material": null,
+    "linked_shown": []
+   },
+   "Arctis": {
+    "lv": 134,
+    "max": 134,
+    "maxed": true,
+    "bless": 462.29999999999995,
+    "bless_stat": "+% Divinity PTS Gain",
+    "have": null,
+    "next": "MAX",
+    "to_max": null,
+    "material": null,
+    "linked_shown": []
+   },
+   "Nobisect": {
+    "lv": 134,
+    "max": 134,
+    "maxed": true,
+    "bless": 6700,
+    "bless_stat": "+ All Skill Efficiency",
+    "have": null,
+    "next": "MAX",
+    "to_max": null,
+    "material": null,
+    "linked_shown": []
+   },
+   "Harriep": {
+    "lv": 133,
+    "max": 134,
+    "maxed": false,
+    "bless": 458.84999999999997,
+    "bless_stat": "+% Divinity PTS Gain",
+    "have": 2.750717968012982e+33,
+    "next": 9.276394579507035e+22,
+    "to_max": 7.135688138082335e+22,
+    "material": "coins",
+    "linked_shown": []
+   },
+   "Goharut": {
+    "lv": 109,
+    "max": 134,
+    "maxed": false,
+    "bless": 501.4,
+    "bless_stat": "+% Sailing Speed",
+    "have": 1.72965298958613e+54,
+    "next": 4.4367839051226676e+51,
+    "to_max": 2.5252748030991205e+61,
+    "material": "bits",
+    "linked_shown": []
+   },
+   "Omniphau": {
+    "lv": 103,
+    "max": 134,
+    "maxed": false,
+    "bless": 473.79999999999995,
+    "bless_stat": "+% Divinity PTS Gain",
+    "have": 61901313.8806293,
+    "next": 657119.510558843,
+    "to_max": 159171129.2646744,
+    "material": "particles",
+    "linked_shown": []
+   },
+   "Purrmep": {
+    "lv": 133,
+    "max": 134,
+    "maxed": false,
+    "bless": 458.84999999999997,
+    "bless_stat": "+% Sailing Speed",
+    "have": 2.750717968012982e+33,
+    "next": 2.9155801066976095e+26,
+    "to_max": 2.159688967924155e+26,
+    "material": "coins",
+    "linked_shown": []
+   },
+   "Flutterbis": {
+    "lv": 75,
+    "max": 134,
+    "maxed": false,
+    "bless": 86.25,
+    "bless_stat": "+% Total Damage",
+    "have": 61901313.8806293,
+    "next": 410237.98171922273,
+    "to_max": 9063697661.495255,
+    "material": "particles",
+    "linked_shown": []
+   },
+   "Kattlekruk": {
+    "lv": 88,
+    "max": 134,
+    "maxed": false,
+    "bless": 101.19999999999999,
+    "bless_stat": "+% Total Damage",
+    "have": 1.72965298958613e+54,
+    "next": 2.909321189362571e+51,
+    "to_max": 4.297522278585713e+72,
+    "material": "bits",
+    "linked_shown": []
+   },
+   "Bagur": {
+    "lv": 63,
+    "max": 134,
+    "maxed": false,
+    "bless": 362.25,
+    "bless_stat": "+% Sailing Speed",
+    "have": 61901313.8806293,
+    "next": 797036.9643991943,
+    "to_max": 476368513801.97284,
+    "material": "particles",
+    "linked_shown": []
+   }
+  },
+  "blessing_rank": {
+   "coins": [
+    {
+     "item": "Harriep blessing 133/134",
+     "currency": "coins",
+     "balance": 2.750717968012982e+33,
+     "cost": 9.276394579507035e+22,
+     "gain_pct": 0.6173391786704842,
+     "stat": "+% Divinity PTS Gain",
+     "note": "you can MAX it",
+     "share": 3.3723539408178447e-11,
+     "afford": true,
+     "score": 18305883353.41724
+    },
+    {
+     "item": "Purrmep blessing 133/134",
+     "currency": "coins",
+     "balance": 2.750717968012982e+33,
+     "cost": 2.9155801066976095e+26,
+     "gain_pct": null,
+     "stat": "+% Sailing Speed",
+     "note": "you can MAX it",
+     "share": 1.059934221029471e-07,
+     "afford": true,
+     "score": null
+    }
+   ],
+   "bits": [
+    {
+     "item": "Goharut blessing 109/134",
+     "currency": "bits",
+     "balance": 1.72965298958613e+54,
+     "cost": 4.4367839051226676e+51,
+     "gain_pct": 0.7648819421350183,
+     "stat": "+% Sailing Speed",
+     "note": "",
+     "share": 0.002565129498133783,
+     "afford": true,
+     "score": 298.18453325319257
+    },
+    {
+     "item": "Kattlekruk blessing 88/134",
+     "currency": "bits",
+     "balance": 1.72965298958613e+54,
+     "cost": 2.909321189362571e+51,
+     "gain_pct": null,
+     "stat": "+% Total Damage",
+     "note": "",
+     "share": 0.0016820259363461748,
+     "afford": true,
+     "score": null
+    }
+   ],
+   "particles": [
+    {
+     "item": "Omniphau blessing 103/134",
+     "currency": "particles",
+     "balance": 61901313.8806293,
+     "cost": 657119.510558843,
+     "gain_pct": 0.801673056814221,
+     "stat": "+% Divinity PTS Gain",
+     "note": "",
+     "share": 0.010615598754915518,
+     "afford": true,
+     "score": 75.5184022420788
+    },
+    {
+     "item": "Flutterbis blessing 75/134",
+     "currency": "particles",
+     "balance": 61901313.8806293,
+     "cost": 410237.98171922273,
+     "gain_pct": null,
+     "stat": "+% Total Damage",
+     "note": "",
+     "share": 0.006627290375618311,
+     "afford": true,
+     "score": null
+    },
+    {
+     "item": "Bagur blessing 63/134",
+     "currency": "particles",
+     "balance": 61901313.8806293,
+     "cost": 797036.9643991943,
+     "gain_pct": null,
+     "stat": "+% Sailing Speed",
+     "note": "",
+     "share": 0.012875929676326468,
+     "afford": true,
+     "score": null
+    }
+   ]
+  },
+  "coral": [
+   {
+    "lv": 13,
+    "desc": "Lets you click the volcano, linking the divinity of your choice to ALL players! Also, 2.30x Divinity EXP gain ",
+    "needs_lv": 0,
+    "cost": 34522712.14393104
+   },
+   {
+    "lv": 2,
+    "desc": "The Max Level of the ''Blessing'' upgrade for each Divinity is +4 levels higher!",
+    "needs_lv": 600,
+    "cost": 93750000
+   },
+   {
+    "lv": 1,
+    "desc": "God Rank now also gives 1.01x Class EXP to all players! Total Bonus:1.02x Class EXP",
+    "needs_lv": 900,
+    "cost": 396000000.00000006
+   },
+   {
+    "lv": 0,
+    "desc": "Divinity Skill Lv boosts Minor Link Bonuses a bit more! (Your Divinity LV of 203 boosts Minor Link Bonuses by ",
+    "needs_lv": 1200,
+    "cost": 2160000000
+   },
+   {
+    "lv": 0,
+    "desc": "Boosts Divinity PTS gain by +0% per Coral Reef upgrade! Total Bonus:+0% Divinity PTS",
+    "needs_lv": 1500,
+    "cost": 12960000000
+   },
+   {
+    "lv": 0,
+    "desc": "You now generate 0% more Daily Coral for the Coral Reef back in W7 town!",
+    "needs_lv": 1750,
+    "cost": 77760000000
+   },
+   {
+    "lv": 0,
+    "desc": "You can Transmute Divinity PTS into Singularity Spirals! Get Time Elapse by claiming Divinity AFK. Also, 1.00x",
+    "needs_lv": 500,
+    "cost": 1
+   },
+   {
+    "lv": 0,
+    "desc": "The base value of the Transmute, which is based on how many Divinity PTS you have, is now 1.00x higher!",
+    "needs_lv": 3000,
+    "cost": 9
+   },
+   {
+    "lv": 0,
+    "desc": "Your Divinity EXP gain for all characters is boosted by a staggering 1.00x",
+    "needs_lv": 5000,
+    "cost": 121
+   },
+   {
+    "lv": 0,
+    "desc": "You now get Time Elapsed when claiming any AFK Gains, not just from Divinity skill! However, you only get 0% a",
+    "needs_lv": 8000,
+    "cost": 2197
+   },
+   {
+    "lv": 0,
+    "desc": "Boosts your Lumi hourly gain over at the Luminous Menagerie by a massive 1.00x",
+    "needs_lv": 10000,
+    "cost": 28561
+   },
+   {
+    "lv": 0,
+    "desc": "Each God Rank above 25 now also gives 1.00x DMG to all players! Total Bonus:1.00x DMG Multi",
+    "needs_lv": 12000,
+    "cost": 759375
+   }
+  ],
+  "spirals": null,
+  "styles": {
+   "TranQi": {
+    "gives": "",
+    "used_by": [
+     "Autiszemo",
+     "Autistocat",
+     "Autisticles",
+     "Autistastic",
+     "Autistabish",
+     "Autistacular",
+     "Autistotle",
+     "Autistomatic",
+     "Autistopher"
+    ]
+   },
+   "Mindful": {
+    "gives": "",
+    "used_by": [
+     "Autistronaut"
+    ]
+   },
+   "Chakra": {
+    "gives": "",
+    "used_by": [
+     "Autistachio"
+    ]
+   }
+  },
+  "links": {
+   "Autiszemo": "Arctis",
+   "Autistocat": "Harriep",
+   "Autisticles": "Arctis",
+   "Autistastic": "Arctis",
+   "Autistabish": "Snehebatu",
+   "Autistacular": "Arctis",
+   "Autistotle": "Arctis",
+   "Autistomatic": "Arctis",
+   "Autistronaut": "Kattlekruk",
+   "Autistopher": "Arctis",
+   "Autistachio": "Arctis"
+  },
+  "pts_x1": [],
+  "offerings": [
+   {
+    "n": 1,
+    "chance": 10,
+    "cost": "1,040,414,093",
+    "afford": true
+   },
+   {
+    "n": 2,
+    "chance": 50,
+    "cost": "5,202,070,466",
+    "afford": false
+   }
+  ],
+  "purrmep_shown": []
+ }
+}

@@ -1,5 +1,5 @@
 {
- "save": "20261127T2212",
+ "save": "20261128T0256",
  "goal": {
   "name": "Spelunking caves: Chucklemire -> Lunarheim -> Bizarrio",
   "why": "Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!",
@@ -20,8 +20,9 @@
   ],
   "flag": "",
   "weekly": [
-   "Bonus Ballot (W2):  (x1.8399999999999999)",
-   "Meritocracy (W7):  (x1.2)"
+   "Bonus Ballot (W2): Boosts Artifact Find chance in Sailing by 1.31x (x1.8399999999999999) [votes from save 20261127T1704: phone save has none, confirm in game if a new week started]",
+   "Meritocracy (W7): Multiplies how many Shiny Critters you get from Trapping by 5.80x (x1.2) [votes from save 20261127T1704: phone save has none, confirm in game if a new week started]",
+   "Autisticles: Sailing bonus week: keep every boat on long trips and claim on time (ballot boosts artifact finds this week)"
   ]
  },
  "chars": [
@@ -31,11 +32,11 @@
    "class": "Death Bringer",
    "daily": [
     {
-     "do": "Farming: hold 200 or more of every crop you've found (204 of 208 so far)",
+     "do": "Farming: hold 200 or more of every crop you've found (205 of 209 so far)",
      "why": "Each one raises the chance to discover new crops. Lock them before bean trades so a trade can't empty them (Griffy does this)",
      "sub": [
       "Weakest families: Earthy (23 of 25), Bulbo (14 of 15), Mushie (22 of 23)",
-      "Spend 465 Land Rank points, Toolbox's optimizer puts them into the Evolution boosts",
+      "Spend 470 Land Rank points, Toolbox's optimizer puts them into the Evolution boosts",
       "Night Market (89.6K beans): buy Value Gmo, Exp Gmo, Og Fertilizer first",
       "Day Market is paid in crops and 5 upgrades are waiting on them",
       "Collect all crops, replant"
@@ -73,21 +74,13 @@
      ]
     },
     {
-     "do": "Prayers: leave Royal Sampler on until print day",
+     "do": "Prayers: equipped: Midas Minded, Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
      "why": "wrong prayers cost gains",
-     "sub": [
-      "Prayers on: Midas Minded, Skilled Dimwit, The Royal Sampler",
-      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)"
-     ]
-    },
-    {
-     "do": "Worship: worship level 98, charge full in 11d 8h",
-     "why": "charge and souls keep worship moving",
      "sub": []
     },
     {
-     "do": "Talents: switch to talent preset 1 (skilling) for where he is parked",
-     "why": "the other preset holds the wrong talents for this job",
+     "do": "Worship: worship level 98, charge full in 10d 19h",
+     "why": "charge and souls keep worship moving",
      "sub": []
     },
     {
@@ -152,22 +145,27 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#8 Detonation 201 -> 313 (Griffy: Prioritize Sentinel Axes and Graveyard Shift and Detonation outside Wraith mode.)",
-      "#14 Dank Ranks 213 -> 313 (Griffy: Dank Ranks strengthens every land-rank database bonus.)",
-      "#32 Worming Undercover 257 -> 313 (Griffy: Sets fishing talents: fishing XP AFK gains and worming undercover up to 10 or even 20 and )",
-      "#46 Overflowing Ladle 289 -> 313 (Griffy: Use ladles on Deathbringer because Overflowing Ladles in the Blood Berserker tab grants 60)",
-      "#48 Symbols of Beyond R 295 -> 300 (AutoReview library priority)"
+      "#6 Detonation 201 -> 328 (Griffy: Prioritize Sentinel Axes and Graveyard Shift and Detonation outside Wraith mode.)",
+      "#12 Dank Ranks 213 -> 328 (Griffy: Dank Ranks strengthens every land-rank database bonus.)",
+      "#31 Worming Undercover 257 -> 328 (Griffy: Sets fishing talents: fishing XP AFK gains and worming undercover up to 10 or even 20 and )",
+      "#45 Overflowing Ladle 289 -> 328 (Griffy: Use ladles on Deathbringer because Overflowing Ladles in the Blood Berserker tab grants 60)",
+      "#48 Symbols of Beyond R 295 -> 320 (AutoReview library priority)"
      ]
     }
    ],
    "part": [],
-   "park": "W7 Pinpoint Summit (Spearfish) for his ZOW, then the next ZOW map on his list. Why: his ZOWs and CHOWs only count on him"
+   "park": "[LAW] Death Note ZOW/CHOW maps. Why: Law 2, only he does this: his ZOWs and CHOWs only count on him. Finish: Spearfish at Pinpoint Summit: 100K kills left (100 of 108 ZOWs). Source: zack\nthen: [JOB] bones push map (Grimoire). Why: Zack 2026-11-27: after the small Death Note kills, Zemo pushes bones. Finish: finish line = GAP (no measurable target yet). Source: zack. Gap: bones map + finish line not set yet  [STALE CHECK: no finish line]"
   },
   {
    "name": "Autistocat",
    "money": [],
    "class": "Arcane Cultist",
    "daily": [
+    {
+     "do": "Unblocks other characters (do these first): autistronaut is waiting on you: UNLOCKED (Chucklemire boss done, save 2026-11-27): now fight the Teal battles, see brain/s (unlocks Teal Summoning battles)",
+     "why": "",
+     "sub": []
+    },
     {
      "do": "Alchemy: push Stronk Tools to 630 (now 615)",
      "why": "bubbles and vials are account-wide",
@@ -187,12 +185,11 @@
      ]
     },
     {
-     "do": "Summoning: claim the familiar EXP (22.4M EXP, 0.3d of it)",
+     "do": "Summoning: claim the familiar EXP (2.7M EXP, 0.0d of it)",
      "why": "winner bonuses are big multipliers",
      "sub": [
-      "22 upgrades are basically free right now: Unit Health, Green Summoning, Unit Wellness, Unit Constitution, Unit Ache Pea, Unit Hitpoints",
       "Push Zerg SurpriseReward to 101 (now 100)",
-      "Push 49.24x Total DMG to 360 (now 49.2)"
+      "Push 142.61x Total DMG to 360 (now 143)"
      ]
     },
     {
@@ -227,13 +224,9 @@
      "sub": []
     },
     {
-     "do": "Prayers: leave Royal Sampler on until print day",
+     "do": "Prayers: equipped: Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
      "why": "wrong prayers cost gains",
-     "sub": [
-      "Prayers on: Skilled Dimwit, The Royal Sampler",
-      "giant-monster prayers: remove before the weekly reset so giant-kill quests still count",
-      "Unending Energy: +Class & Skill EXP, but AFK caps at 10h: only when you claim within 10h"
-     ]
+     "sub": []
     },
     {
      "do": "Active play setup: autistocat- Kill 1M Stiltmoles for W2 Weekly Boss (75.00K -> 1000K)",
@@ -241,18 +234,13 @@
      "sub": []
     },
     {
-     "do": "Worship: worship level 95, charge full in 22d 14h",
+     "do": "Worship: worship level 95, charge full in 21d 22h",
      "why": "charge and souls keep worship moving",
      "sub": []
     },
     {
      "do": "3D Printer slots: printing: Jungle Logs (1.7B), Oak Logs (4B) | samples held: Oak Logs 4B, Bleach Logs 2.5B, Jungle Logs 1.7B, Potty Rolls 514M, Wispy Lumber 241M",
      "why": "",
-     "sub": []
-    },
-    {
-     "do": "Talents: switch to talent preset 1 (fighting) for where he is parked",
-     "why": "the other preset holds the wrong talents for this job",
      "sub": []
     },
     {
@@ -289,11 +277,11 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#4 Deforesting All Doubt 185 -> 313 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)",
-      "#27 Tesseract 240 -> 313 (Griffy: Tesseract supplies Prisma bubble bonuses and double gold-food and statue drop chances that)",
-      "#29 Smart Efficiency 251 -> 313 (Griffy: Use Smart Efficiency and Mana Booster and Active AFKer because Hocus Choppus scales choppi)",
-      "#35 Arcane Crystals 266 -> 313 (Griffy: Super Arcane Crystals to create more arcane monsters.)",
-      "#40 Essential Essence 271 -> 313 (Griffy: Super Essential Essences to reduce summoning upgrade costs and push Endless faster.)"
+      "#24 Tesseract 240 -> 328 (Griffy: Tesseract supplies Prisma bubble bonuses and double gold-food and statue drop chances that)",
+      "#28 Smart Efficiency 251 -> 328 (Griffy: Use Smart Efficiency and Mana Booster and Active AFKer because Hocus Choppus scales choppi)",
+      "#33 Arcane Crystals 266 -> 328 (Griffy: Super Arcane Crystals to create more arcane monsters.)",
+      "#38 Essential Essence 271 -> 328 (Griffy: Super Essential Essences to reduce summoning upgrade costs and push Endless faster.)",
+      "#44 Passion of the Summon 287 -> 328 (AutoReview library priority)"
      ]
     }
    ],
@@ -304,7 +292,7 @@
      "sub": []
     }
    ],
-   "park": "Arcanist Form push at Naut Sake Perimeter, and Emperor on attempts. Why: personal goal: Arcanist Form to W3 + Emperor (Zack 2026-11-25)"
+   "park": "[ZACK'S PLAN] W1 / Froggy Fields / Frog. Why: Zack's plan (brain/plans.yaml cat_frogs): AFK for crystals on the frog map while Zack is at work, active there overnight. Finish: Zack's plan: until we pick the next map together. Source: zack\nthen: [LAW] W7 Spelunking cave 2 (Decaying Crevasse). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 25: cave 2 is the deepest he runs well (my read). Finish: Chapter 2: % Spelunking EXP gain 7.2/66; cave 2 best depth 32. Source: goal review + spot rules (Zack 2026-11-27)\nthen: [CLASS] Active-first (Cranium Cooking active). Why: master class progress is active-only without its AFK mechanic. Finish: finish line = GAP (no measurable target yet). Source: Griffy N5yJ4-tZLbY 00:52 (2026-10-04). Gap: plain AFK spot not sourced  [STALE CHECK: no finish line]"
   },
   {
    "name": "Autisticles",
@@ -312,11 +300,14 @@
    "class": "Siege Breaker",
    "daily": [
     {
-     "do": "Sailing: push Fang of the Gods to 4 (now 0)",
-     "why": "artifacts and treasure",
+     "do": "Sailing: claim chests every time you're on",
+     "why": "The pile holds 30 and fills in about 48 minutes, and every chest is an artifact roll",
      "sub": [
-      "Push Anyone Minor Linked to Purrmep to 1 (now 0)",
-      "Push Moai HeadGet bonuses from all shrines from any map! You must be in same map/worl to 7 (now 6)"
+      "GOAL: raise artifact find so new tiers are reachable",
+      "1",
+      "2",
+      "3",
+      "4"
      ]
     },
     {
@@ -328,26 +319,27 @@
      ]
     },
     {
-     "do": "Statue turn-ins (farmed by others): push Artifact - The Onyx Lantern to 7 (now 4)",
+     "do": "Statue turn-ins (farmed by others): push Level 313/328 booked Orb of Remembrance talent (Divine Knight only) to 328 (now 313)",
      "why": "statues are account buffs",
      "sub": [
       "Statue goals:",
-      "Before farming Onyx: Startue Exp bubble"
+      "Before farming Onyx: Level 313/328 booked Orb of Remembrance talent (Divine Knight only) (313 -> 328); Startue Exp bubble",
+      "Push Artifact - The Onyx Lantern to 7 (now 4)"
      ]
     },
     {
-     "do": "Luminous Menagerie (own intervention): claim 2 missions",
+     "do": "Luminous Menagerie (own intervention): claim 3 missions",
      "why": "",
      "sub": [
-      "Buy more Menagerie Missions, Research EXP gains, Cooking Speed with Lumi (you have 6,492)",
+      "Buy more Menagerie Missions, Research EXP gains, Cooking Speed with Lumi (you have 7,607)",
       "Next rank unlocks: +0 Organic Labels to use in the Exotic Market (rank 8 required)",
-      "Missions in progress: Account LV 9,544 / 10,000, Sneaking Mastery 2 / 3, Total Depths, including Manic 212 / 500, Crops Discovered 208 / 225",
+      "Missions in progress: Account LV 9,604 / 10,000, Sneaking Mastery 2 / 3, Total Depths, including Manic 212 / 500, Crops Discovered 209 / 225",
       "Push Shells needed for Menagerie Rank 7 to 3 (now 0)",
-      "Push Mission 1 to 10000 (now 9544)"
+      "Push Mission 1 to 10000 (now 9604)"
      ]
     },
     {
-     "do": "W7 minis: spend -10 Legend Talent points: Coral Restoration first (Griffy: +60% daily coral, an absolute must)",
+     "do": "W7 minis: spend -9 Legend Talent points: Coral Restoration first (Griffy: +60% daily coral, an absolute must)",
      "why": "Keep Blue Ribbon and Extended Database on hold",
      "sub": [
       "TOP dailies: use 3 Jelly operations, spend Sushi fuel (nearly full)",
@@ -365,15 +357,12 @@
      ]
     },
     {
-     "do": "Prayers: leave Royal Sampler on until print day",
+     "do": "Prayers: equipped: Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
      "why": "wrong prayers cost gains",
-     "sub": [
-      "Prayers on: Skilled Dimwit, The Royal Sampler",
-      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)"
-     ]
+     "sub": []
     },
     {
-     "do": "Worship: worship level 84, charge full in 14d 3h",
+     "do": "Worship: worship level 84, charge full in 13d 18h",
      "why": "charge and souls keep worship moving",
      "sub": []
     },
@@ -387,16 +376,9 @@
      ]
     },
     {
-     "do": "Legend talents (Whallamus): -10 points unspent, spend in this order",
-     "why": "sourced order, best first",
-     "sub": [
-      "Picasso Gaming (4/5): Pulse: A+",
-      "Blue Ribbon Certification (0/4): Pulse: A",
-      "Best Story Ever Told (0/3): Pulse: mid A",
-      "Buy One Get One Free (0/2): Pulse: high A, needs the Exotic Market unlocked",
-      "Two Time Jelly Operation (0/6): Pulse: big progression but 12 points and needs Jelly unlocked",
-      "Minehead My Beloved (0/6): Pulse: big progression but 12 points and needs the Lumi mechanic"
-     ]
+     "do": "Legend talents: Toolbox can't tell how many points are unspent (it counts 68 spent but only 59 owned). Check Whallamus in game; if any are unspent, ask for the full pick list",
+     "why": "data gap",
+     "sub": []
     },
     {
      "do": "Cards: presets 3 not built to plan yet (card build session).",
@@ -416,9 +398,12 @@
    ],
    "house": [
     {
-     "do": "Arcade: 292 balls, 47 gold balls. Spend gold balls in this order from the current rotation:",
+     "do": "Arcade: 294 balls, 47 gold balls. Spend gold balls in this order from the current rotation:",
      "why": "arcade shop bonuses are account-wide",
      "sub": [
+      "+% Multikill per Tier (level 25) (Griffy: strong)",
+      "x Research XP (level 31) (Griffy: a must)",
+      "+% Deathbringer Bones (level 53) (Griffy: useful for the masterclass)",
       "Griffy: wait for a gold-ball multiplier event before spending balls"
      ]
     },
@@ -443,16 +428,16 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#28 Piercing Arrow 212 -> 285 (Griffy: Leveling sharpened ax, high polymer limbs, traps; piercing arrow 20 is fine.)",
-      "#30 Elusive Efficiency 254 -> 313 (Pulse: Elusive efficiency same notes as previous classes; great)",
-      "#33 Suppressing Fire 237 -> 288 (Pulse: Cannonball suppressing fire fire bomb great; pirate flag is how this works; yes great)",
-      "#44 Symbols of Beyond G 269 -> 300 (AutoReview library priority)",
-      "#45 Firebomb 244 -> 275 (AutoReview library priority)"
+      "#25 Suppressing Fire 237 -> 321 (Pulse: Cannonball suppressing fire fire bomb great; pirate flag is how this works; yes great)",
+      "#27 Firebomb 244 -> 325 (AutoReview library priority)",
+      "#29 Elusive Efficiency 254 -> 328 (Pulse: Elusive efficiency same notes as previous classes; great)",
+      "#43 Symbols of Beyond G 269 -> 320 (AutoReview library priority)",
+      "#47 Teleki-net-ic Logs 298 -> 328 (AutoReview library priority)"
      ]
     }
    ],
    "part": [],
-   "park": "Spelunking: the first cave. Why: account goal: Lunarheim (Pulse: most characters on Spelunking)"
+   "park": "[LAW] W7 Spelunking cave 2 (Decaying Crevasse). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 59: cave 2 has the bigger open page need, Chapter 2 81% short (weakest % Spelunking EXP gain 7.2/66). Close call vs cave 4: your call in the moment. Finish: Chapter 2: % Spelunking EXP gain 7.2/66; and 4 more"
   },
   {
    "name": "Autistastic",
@@ -471,7 +456,7 @@
      "why": "build rate and atoms",
      "sub": [
       "The salts use 2 Dune Soul per cycle and 5 Frigid Soul per cycle and 2 Breezy Soul per cycle",
-      "Salt Lick Refinery Speed is 76/100, Autistopher can buy 2 more now",
+      "Salt Lick Refinery Speed is 76/100, Autistopher can buy 1 more now",
       "Push Clover Shrine to 200 (now 100)",
       "Push Pantheon Shrine to 200 (now 100)",
       "Push Voidinator to 240 (now 67)"
@@ -482,7 +467,7 @@
      "why": "bits and nuggets",
      "sub": [
       "the garden is full, harvest it",
-      "Dig with the shovel and collect the squirrel's acorns, neither has been touched in 3h",
+      "Dig with the shovel and collect the squirrel's acorns, neither has been touched in 19h",
       "Snail is level 14 of 30 (66% success, 16% reset chance)",
       "Next superbit: Monument Infimulti at 9.0e54 bits (you have 1.7e54)"
      ]
@@ -493,8 +478,8 @@
      "sub": [
       "Next Royal statue to build: Plutus the Prosperous",
       "Armory upgrades to push: Royal Talent Points I, Solo Militia Status, Blunder Outpost PTS",
-      "Affordable Armory upgrades: Solo Militia Status, Anti-Rodent Power Move I, Mighty Militia",
-      "Armory levels 226 / 230 for the next shelf",
+      "Affordable Armory upgrades: Solo Militia Status, Mighty Militia",
+      "Armory levels 230 / 260 for the next shelf",
       "Push Plutus the Prosperous to 1 (now 0)"
      ]
     },
@@ -552,15 +537,12 @@
      "sub": []
     },
     {
-     "do": "Prayers: leave Royal Sampler on until print day",
+     "do": "Prayers: equipped: Skilled Dimwit, The Royal Sampler, Vacuous Tissue (prayers planner failed: 'list' object has no attribute 'get')",
      "why": "wrong prayers cost gains",
-     "sub": [
-      "Prayers on: Skilled Dimwit, The Royal Sampler, Vacuous Tissue",
-      "giant-monster prayers: remove before the weekly reset so giant-kill quests still count"
-     ]
+     "sub": []
     },
     {
-     "do": "Worship: worship level 101, charge full in 12d 0h",
+     "do": "Worship: worship level 101, charge full in 11d 16h",
      "why": "charge and souls keep worship moving",
      "sub": []
     },
@@ -575,7 +557,7 @@
      "sub": []
     },
     {
-     "do": "Cards: presets 3, 5, 6 not built to plan yet (card build session).",
+     "do": "Cards: presets 1, 3, 5, 6 not built to plan yet (card build session).",
      "why": "",
      "sub": []
     },
@@ -592,12 +574,19 @@
    ],
    "house": [
     {
+     "do": "Super talents: spend the open points",
+     "why": "every pick is from Griffy or Pulse (resettable if needed)",
+     "sub": [
+      "Talent preset 1 (skilling): super Brute Efficiency (Griffy+Pulse: efficiency on skilling setups)"
+     ]
+    },
+    {
      "do": "Missing bag: Loot Luggage: 1 slots (Vendor)",
      "why": "",
      "sub": []
     },
     {
-     "do": "Royal Guardian super talents: locked, 294 more Royal Armory upgrade levels",
+     "do": "Royal Guardian super talents: locked, 290 more Royal Armory upgrade levels",
      "why": "Griffy + Pulse: RG talents can only be supered after that shelf. Hold these picks for it",
      "sub": [
       "Pit of Pages: Pulse: a 5-6x true multi, 100% worth a super on the scaling setup (feeds the POW goal)",
@@ -611,16 +600,16 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#18 Copper Collector 225 -> 313 (Griffy: Mana stamp needs more copper but doesn't want to lose the copper collector buff.)",
-      "#22 Tool Proficiency 226 -> 313 (Pulse: Copper collector decent and mother load similar; tool proficiency weakest but still worth )",
-      "#24 Big Pick 231 -> 313 (Griffy: Big pick is the best mining talent; plus efficiency and firmly grasp it)",
-      "#39 Brute Efficiency 269 -> 313 (Pulse: Brute efficiency gives a lot of total efficiency; super it for skilling setups)",
-      "#49 Built Different 100 -> 313 (Griffy: Built Different grants a large amount of base strength.)"
+      "#16 Copper Collector 225 -> 328 (Griffy: Mana stamp needs more copper but doesn't want to lose the copper collector buff.)",
+      "#20 Tool Proficiency 226 -> 328 (Pulse: Copper collector decent and mother load similar; tool proficiency weakest but still worth )",
+      "#22 Big Pick 231 -> 328 (Griffy: Big pick is the best mining talent; plus efficiency and firmly grasp it)",
+      "#37 Brute Efficiency 269 -> 328 (Pulse: Brute efficiency gives a lot of total efficiency; super it for skilling setups)",
+      "#49 Built Different 100 -> 328 (Griffy: Built Different grants a large amount of base strength.)"
      ]
     }
    ],
    "part": [],
-   "park": "Spelunking: the first cave. Why: account goal: Lunarheim (Pulse: most characters on Spelunking)"
+   "park": "[LAW] W7 Spelunking cave 4 (One Way Opening). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: Royal Guardian, level 66: RG talents suit the deepest cave. Finish: Chapter 4: % Max Stamina for All Players 0/22; cave 4 best depth 51. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Coralcave Crab on Coralcave Outskirts (FIGHTING)\nretired: Cavern 15 Temple (Dragon Statue 187 / 150): target hit, removed"
   },
   {
    "name": "Autistabish",
@@ -657,7 +646,7 @@
      ]
     },
     {
-     "do": "Slab: slab: 358 items you've never picked up",
+     "do": "Slab: slab: 357 items you've never picked up",
      "why": "Each new one raises the slab bonus",
      "sub": []
     },
@@ -677,12 +666,9 @@
      "sub": []
     },
     {
-     "do": "Prayers: leave Royal Sampler on until print day",
+     "do": "Prayers: equipped: Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
      "why": "wrong prayers cost gains",
-     "sub": [
-      "Prayers on: Skilled Dimwit, The Royal Sampler",
-      "Unending Energy: +Class & Skill EXP, but AFK caps at 10h: only when you claim within 10h"
-     ]
+     "sub": []
     },
     {
      "do": "Active play setup: autistabish- Kill 1M Crabcakes for W2 Weekly Boss (316.05K -> 1000K)",
@@ -696,7 +682,7 @@
      "do": "Worship: charges much faster than the rest, probably from mage worship talents (my read)",
      "why": "charge and souls keep worship moving",
      "sub": [
-      "Worship level 128, charge full in 9d 4h"
+      "Worship level 128, charge full in 8d 15h"
      ]
     },
     {
@@ -750,16 +736,16 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#10 Log on Logs 212 -> 313 (Griffy: Prioritize Log On Logs and Leaf Thief and Deforesting All Doubt and Inner Peace before man)",
-      "#11 Smart Efficiency 212 -> 313 (Griffy: Use Smart Efficiency and Mana Booster and Active AFKer because Hocus Choppus scales choppi)",
-      "#12 Mana Is Life 212 -> 313 (Pulse: Mana is life is okay but no need to super)",
-      "#19 Leaf Thief 225 -> 313 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)",
-      "#23 Deforesting All Doubt 228 -> 313 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)"
+      "#8 Log on Logs 212 -> 328 (Griffy: Prioritize Log On Logs and Leaf Thief and Deforesting All Doubt and Inner Peace before man)",
+      "#9 Smart Efficiency 212 -> 328 (Griffy: Use Smart Efficiency and Mana Booster and Active AFKer because Hocus Choppus scales choppi)",
+      "#10 Mana Is Life 212 -> 328 (Pulse: Mana is life is okay but no need to super)",
+      "#17 Leaf Thief 225 -> 328 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)",
+      "#21 Deforesting All Doubt 228 -> 328 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)"
      ]
     }
    ],
    "part": [],
-   "park": "Spelunking: the first cave. Why: account goal: Lunarheim (Pulse: most characters on Spelunking)"
+   "park": "[LAW] W7 Spelunking cave 3 (Buried Church). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 59: cave 3 has the bigger open page need, Chapter 3 97% short (weakest % extra Overstim Fill Rate 0/550). Close call vs cave 4: your call in the moment. Finish: Chapter 3: % extra Overstim Fill Rate 0/550; cave 3 best depth 40. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Eggroll on Sushi Perimeter (FIGHTING)\nthen: [CLASS] Candy or Active ES on the statue mob. Why: ES clears statue mobs fast. Finish: finish line = GAP (no measurable target yet). Source: AutoReview  [STALE CHECK: no finish line]\nretired: Penguins map (Box Statue 223 / 40): target hit, removed\nretired: Cryosnakes map (Seesaw Statue 189 / 40): target hit, removed"
   },
   {
    "name": "Autistacular",
@@ -767,10 +753,10 @@
    "class": "Wind Walker",
    "daily": [
     {
-     "do": "Sneaking: use today's charm rolls (44 symbol, 89 pristine left)",
+     "do": "Sneaking: use today's charm rolls (4 symbol, 49 pristine left)",
      "why": "They don't carry over",
      "sub": [
-      "Push Wind Walker Tab 5 to 389 (now 371)",
+      "Push Wind Walker Tab 5 to 404 (now 371)",
       "Push Coral Conservationism:Boosts daily coral gain at the Coral Reef in World 7 in Sh to 1 (now 0)",
       "Push Each regular Charm found today lowers this, from 0.1% down to 0% at 120 found ( to 23 (now 15)"
      ]
@@ -783,7 +769,7 @@
       "Quickest shiny goals: Walking Stick for base critters per trap, Choccie for drop rate, Mashed Potato for base efficiency for all skills",
       "Zack's plan (2026-11-21): while pushing Dead DNA, hatch and trash as many eggs as possible (no multiplying focus)",
       "The Crucible (big cooking speed) opens through the Menagerie on Autisticles",
-      "Push Farming Crop Depot - Crayon:+3,134/4971.6% Mobs to 330 (now 208)"
+      "Push Farming Crop Depot - Crayon:+3,149/4971.6% Mobs to 330 (now 209)"
      ]
     },
     {
@@ -803,10 +789,10 @@
      ]
     },
     {
-     "do": "Worship totems (waves): use charge from Autistacular and Autiszemo first, they fill up soonest",
+     "do": "Worship totems (waves): use charge from Autiszemo and Autistastic first, they fill up soonest",
      "why": "charge and souls keep worship moving",
      "sub": [
-      "Worship level 99, charge full in 11d 21h",
+      "Worship level 99, charge full in 11d 16h",
       "Runs the totems: spend charge on the prayer-unlock waves first, then the lowest totem",
       "Closest prayer unlocks: Clash of Cans to wave 131 for Glitterbug"
      ]
@@ -824,15 +810,9 @@
      "sub": []
     },
     {
-     "do": "Prayers: leave Royal Sampler on until print day",
+     "do": "Prayers: equipped: The Royal Sampler, Shiny Snitch, Skilled Dimwit (prayers planner failed: 'list' object has no attribute 'get')",
      "why": "wrong prayers cost gains",
-     "sub": [
-      "Prayers on: The Royal Sampler, Shiny Snitch, Skilled Dimwit",
-      "Skilled Dimwit + Unending Energy: equip while PLACING traps, unequip after (snapshotted)",
-      "Shiny Snitch: only while trapping (bundles of shiny critters; curse lowers shiny chance)",
-      "giant-monster prayers: remove before the weekly reset so giant-kill quests still count",
-      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)"
-     ]
+     "sub": []
     },
     {
      "do": "Active play setup: autistacular- Kill 1M Choccies for W2 Weekly Boss (125.12K -> 1000K)",
@@ -843,17 +823,12 @@
      "do": "Worship: runs the totems: spend charge on the prayer-unlock waves first, then the lowest totem",
      "why": "charge and souls keep worship moving",
      "sub": [
-      "Worship level 99, charge full in 11d 21h"
+      "Worship level 99, charge full in 11d 16h"
      ]
     },
     {
      "do": "3D Printer slots: printing: Spore Cap (1.4M), Spore Cap (1.4M) | samples held: Spore Cap 1.4M, Bullfrog Horn 238K, Pocket Sand 386K, Floof Ploof 173K, Cracked Glass 189K",
      "why": "",
-     "sub": []
-    },
-    {
-     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
-     "why": "the other preset holds the wrong talents for this job",
      "sub": []
     },
     {
@@ -899,11 +874,11 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#9 Spirit Ballista 210 -> 313 (Griffy: Prioritize Spirit Ballista and Ten Commandments and the reindeer talent plus Unreal Agilit)",
-      "#20 Compass 225 -> 313 (Griffy: Upgrade stones have differing success chances; a Compass upgrade guarantees success when u)",
-      "#26 Invasive Species 235 -> 313 (AutoReview library priority)",
-      "#31 Eternal Hunt 256 -> 313 (Griffy: Eternal Hunt summons a reindeer whose death helps respawns and temporarily increases dust )",
-      "#47 Eagle Eye 290 -> 313 (Griffy: Next priority is another shiny frog to raise vial chance for higher Eagle Eye procs.)"
+      "#7 Spirit Ballista 210 -> 328 (Griffy: Prioritize Spirit Ballista and Ten Commandments and the reindeer talent plus Unreal Agilit)",
+      "#18 Compass 225 -> 328 (Griffy: Upgrade stones have differing success chances; a Compass upgrade guarantees success when u)",
+      "#23 Invasive Species 235 -> 328 (AutoReview library priority)",
+      "#30 Eternal Hunt 256 -> 328 (Griffy: Eternal Hunt summons a reindeer whose death helps respawns and temporarily increases dust )",
+      "#46 Eagle Eye 290 -> 328 (Griffy: Next priority is another shiny frog to raise vial chance for higher Eagle Eye procs.)"
      ]
     }
    ],
@@ -914,7 +889,7 @@
      "sub": []
     }
    ],
-   "park": "Spelunking: the first cave. Why: account goal: Lunarheim (Pulse: most characters on Spelunking)"
+   "park": "[MASTERCLASS] Fighting AFK (no candy) on a Stardust map, your pick (per-map AFK dust rates aren't in the data). Why: Compass is the #3 need and Stardust is the biggest gap to To reach Tier 5 (needs at least 1.3x your balance, next-level costs only, my read). idleon.wiki Wind Walker (fan wiki, flagged): dust + medallions drop only while ACTIVE in Tempest Form. AFK banks Aethermoons only from non-candy FIGHTING AFK, and only after 1000 Aether Fragments; 1 moon = 1h of dust at the AFK Info rate of the map he stands on when used (1 moon per 2h vs per 1h AFK: UNCONFIRMED). Spelunking AFK = 0 moons. Finish: Compass AutoReview 3/10 (To reach Tier 5); medallions 38; next abomination #19. Source: idleon.wiki Wind Walker (fan wiki, flagged) + save\nthen: [LAW] W7 Spelunking cave 3 (Buried Church). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; and 4 more"
   },
   {
    "name": "Autistotle",
@@ -944,7 +919,7 @@
      "do": "Research: level 50 unlocks Posty Note: adds another shape to your research grid",
      "why": "research unlocks W7 upgrades",
      "sub": [
-      "Research is level 41, next level in 39% of the level left",
+      "Research is level 41, next level in 22% of the level left",
       "Use today's 9 observation rolls (16 found)",
       "Push Daily Operating Procedure (G3):Gives you +1 more operations to start every day a to 4 (now 1)",
       "Push Oboe Coral Trio (Puffpuff Overpass)Found in World 7, half way up your climb to P to 1 (now 0)",
@@ -955,7 +930,7 @@
      "do": "Greenstacks: buy the daily vendor items that are closest to a greenstack: Potent Speed Potion, Potent Strength Potion, Potent EXP Potion, Potent Life Potion, Yeti Ham",
      "why": "greenstacks count for Equinox",
      "sub": [
-      "Close to a greenstack, don't spend these: Void Bar (80%), Spontaneity Salts (75%), Bonemeal (75%)",
+      "Close to a greenstack, don't spend these: Void Bar (79%), Spontaneity Salts (75%), Bonemeal (75%)",
       "8 quest items still need greenstacks while you can still get them",
       "Push Collect 200 Greenstacks to 200 (now 182)",
       "Push Potent Speed Potion (W4 Town) to 100% (now 64%)",
@@ -966,7 +941,7 @@
      "do": "Gem / Event shops + votes: push Conjuror Pts (Caverns) to 1 (now 0)",
      "why": "",
      "sub": [
-      "This week's Ballot bonus:  (x1.8399999999999999)",
+      "This week's Ballot bonus: Boosts Artifact Find chance in Sailing by 1.31x (x1.8399999999999999)",
       "Push Opal (Caverns) to 8 (now 0)",
       "Push Daily Teleports (Dailies N' Resets) to 10 (now 0)",
       "Push Golden Tome: Adds a new DMG Multi bonus type to the Tome in World 4 to 35 (now 8)",
@@ -979,15 +954,12 @@
      "sub": []
     },
     {
-     "do": "Prayers: leave Royal Sampler on until print day",
+     "do": "Prayers: equipped: The Royal Sampler, Skilled Dimwit (prayers planner failed: 'list' object has no attribute 'get')",
      "why": "wrong prayers cost gains",
-     "sub": [
-      "Prayers on: The Royal Sampler, Skilled Dimwit",
-      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)"
-     ]
+     "sub": []
     },
     {
-     "do": "Worship: worship level 113, charge full in 22d 21h",
+     "do": "Worship: worship level 113, charge full in 22d 13h",
      "why": "charge and souls keep worship moving",
      "sub": []
     },
@@ -1000,7 +972,7 @@
      "do": "Greenstacks: your closest five you can farm yourself",
      "why": "each one counts for Equinox",
      "sub": [
-      "Void Bar (80%): smelt in the Forge",
+      "Void Bar (79%): smelt in the Forge",
       "Bonemeal (75%): farm the monster",
       "Pingy (24%): skill it",
       "Eye of Koi (16%): farm the monster",
@@ -1060,32 +1032,39 @@
      ]
     },
     {
+     "do": "Voting: your pick (reset day)",
+     "why": "every option on the ballot, with why for and against",
+     "sub": [
+      "Bonus Ballot, on the ballot now:",
+      "Increases STR AGI WIS and LUK for all characters by +15% (50% now). needs checking",
+      "Increases Defence and Accuracy by +30% for all characters (7% now). needs checking",
+      "Increases Trapping EXP gain and Worship EXP gain by +54% (43% now). needs checking",
+      "Meritocracy, on the ballot now:",
+      "Multiplies all Gaming Bits gained by 9.40x (73% now). needs checking",
+      "Multiplies your chance to get Double Snail Mail each day by 2.80x (8% now). needs checking",
+      "All material costs for upgrading Stamp Max LV are 2.20x lower (19% now). needs checking"
+     ]
+    },
+    {
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#1 Void Trial Rerun 156 -> 313 (Griffy: Super Void Trial Rerun for more speedrun duration.)",
-      "#3 Gimme Gimme 179 -> 313 (Griffy: Book Gimme Gimme to increase the chance of double drops; his level-133 book produces a fif)",
-      "#5 Cmon Out Crystals 185 -> 313 (AutoReview library priority)",
-      "#15 One Step Ahead 213 -> 313 (Griffy: Maestro already has the Pawn One Step Ahead Checkmate ability.)",
-      "#25 Printer Go Brrr 217 -> 299 (Griffy: Printer Go Brrr grants printer progress with a cooldown-reset chance; both scale, reaching)"
+      "#1 Void Trial Rerun 156 -> 328 (Griffy: Super Void Trial Rerun for more speedrun duration.)",
+      "#2 Gimme Gimme 179 -> 328 (Griffy: Book Gimme Gimme to increase the chance of double drops; his level-133 book produces a fif)",
+      "#3 Cmon Out Crystals 185 -> 328 (AutoReview library priority)",
+      "#13 One Step Ahead 213 -> 328 (Griffy: Maestro already has the Pawn One Step Ahead Checkmate ability.)",
+      "#26 Printer Go Brrr 217 -> 299 (Griffy: Printer Go Brrr grants printer progress with a cooldown-reset chance; both scale, reaching)"
      ]
     }
    ],
    "part": [],
-   "park": "Spelunking: the first cave. Why: account goal: Lunarheim (Pulse: most characters on Spelunking)"
+   "park": "[LAW] W7 Spelunking cave 2 (Decaying Crevasse). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 68: cave 2 has the bigger open page need, Chapter 2 81% short (weakest % Spelunking EXP gain 7.2/66). Close call vs cave 4: your call in the moment. CHECK IN GAME: open the AFK window on caves 1-4 and keep him on the highest Spelunking EXP/hr (idleon.wiki: EXP comes from Spelunking Efficiency). Finish: Chapter 2: % Spelunking EXP gain 7.2/66; and 2 more"
   },
   {
    "name": "Autistomatic",
    "money": [],
    "class": "Royal Guardian",
    "daily": [
-    {
-     "do": "Unblocks other characters (do these first): autistronaut is waiting on you: Defeat the lore boss of Spelunking cave 5 Chucklemire (unlocks Teal Summoning battles)",
-     "why": "",
-     "sub": [
-      "Autistocat is waiting on you: Defeat the lore boss of Spelunking cave 5 Chucklemire (unlocks Teal Summoning battles)"
-     ]
-    },
     {
      "do": "Construction #2: nothing needed",
      "why": "",
@@ -1128,12 +1107,9 @@
      "sub": []
     },
     {
-     "do": "Prayers: leave Royal Sampler on until print day",
+     "do": "Prayers: equipped: Skilled Dimwit, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
      "why": "wrong prayers cost gains",
-     "sub": [
-      "Prayers on: Skilled Dimwit, The Royal Sampler",
-      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)"
-     ]
+     "sub": []
     },
     {
      "do": "Active play setup: autistomatic- Kill 1M Crabcakes for W2 Weekly Boss (7.05K -> 1000K)",
@@ -1145,7 +1121,7 @@
      ]
     },
     {
-     "do": "Worship: worship level 87, charge full in 8d 18h",
+     "do": "Worship: worship level 87, charge full in 8d 13h",
      "why": "charge and souls keep worship moving",
      "sub": []
     },
@@ -1179,7 +1155,7 @@
      "sub": []
     },
     {
-     "do": "Royal Guardian super talents: locked, 294 more Royal Armory upgrade levels",
+     "do": "Royal Guardian super talents: locked, 290 more Royal Armory upgrade levels",
      "why": "Griffy + Pulse: RG talents can only be supered after that shelf. Hold these picks for it",
      "sub": [
       "Pit of Pages: Pulse: a 5-6x true multi, 100% worth a super on the scaling setup (feeds the POW goal)",
@@ -1193,11 +1169,11 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#21 Big Pick 225 -> 313 (Griffy: Big pick is the best mining talent; plus efficiency and firmly grasp it)",
-      "#41 Tool Proficiency 273 -> 313 (Pulse: Copper collector decent and mother load similar; tool proficiency weakest but still worth )",
-      "#42 Brute Efficiency 274 -> 313 (Pulse: Brute efficiency gives a lot of total efficiency; super it for skilling setups)",
-      "#43 Copper Collector 274 -> 313 (Griffy: Mana stamp needs more copper but doesn't want to lose the copper collector buff.)",
-      "#50 Built Different 100 -> 313 (Griffy: Built Different grants a large amount of base strength.)"
+      "#19 Big Pick 225 -> 328 (Griffy: Big pick is the best mining talent; plus efficiency and firmly grasp it)",
+      "#40 Tool Proficiency 273 -> 328 (Pulse: Copper collector decent and mother load similar; tool proficiency weakest but still worth )",
+      "#41 Brute Efficiency 274 -> 328 (Pulse: Brute efficiency gives a lot of total efficiency; super it for skilling setups)",
+      "#42 Copper Collector 274 -> 328 (Griffy: Mana stamp needs more copper but doesn't want to lose the copper collector buff.)",
+      "#50 Built Different 100 -> 328 (Griffy: Built Different grants a large amount of base strength.)"
      ]
     }
    ],
@@ -1208,13 +1184,18 @@
      "sub": []
     }
    ],
-   "park": "Spelunking: the first cave. Why: account goal: Lunarheim (Pulse: most characters on Spelunking)"
+   "park": "[LAW] W7 Spelunking cave 4 (One Way Opening). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: Royal Guardian, level 66: RG talents suit the deepest cave. Finish: Chapter 4: % Max Stamina for All Players 0/22; cave 4 best depth 51. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Coralcave Crab on Coralcave Outskirts (FIGHTING)"
   },
   {
    "name": "Autistronaut",
    "money": [],
    "class": "Elemental Sorcerer",
    "daily": [
+    {
+     "do": "Merits: zack 2026-11-27: lowest load takes merits",
+     "why": "Left: W5 Tab 4 Talent Pts 19/20, W6 Tab 5 Talent Pts 8/20, W6 Emperor Recipes 4/9",
+     "sub": []
+    },
     {
      "do": "Cards: lever on Autistopher: Stamps - Card Stamp: +250% Card Drop Rate",
      "why": "",
@@ -1245,11 +1226,9 @@
      ]
     },
     {
-     "do": "Prayers: leave Royal Sampler on until print day",
+     "do": "Prayers: equipped: The Royal Sampler, Skilled Dimwit (prayers planner failed: 'list' object has no attribute 'get')",
      "why": "wrong prayers cost gains",
-     "sub": [
-      "Prayers on: The Royal Sampler, Skilled Dimwit"
-     ]
+     "sub": []
     },
     {
      "do": "Active play setup: autistronaut- Kill 1M Crabcakes for W2 Weekly Boss (0.72K -> 1000K)",
@@ -1262,7 +1241,7 @@
      "do": "Worship: charges much faster than the rest, probably from mage worship talents (my read)",
      "why": "charge and souls keep worship moving",
      "sub": [
-      "Worship level 84, charge full in 3d 14h"
+      "Worship level 84, charge full in 3d 10h"
      ]
     },
     {
@@ -1301,16 +1280,16 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#6 Lightning Barrage 190 -> 313 (Griffy: After reaching level 200 and allocating 100 Memorial Skulls points, invest more in Lightni)",
-      "#7 Radiant Chainbolt 199 -> 313 (Griffy: Lightning Barrage and Radiant Chainbolt plus Meteor Shower and Tornado provide strong clea)",
-      "#13 Deforesting All Doubt 212 -> 313 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)",
-      "#36 Smart Efficiency 266 -> 313 (Griffy: Use Smart Efficiency and Mana Booster and Active AFKer because Hocus Choppus scales choppi)",
-      "#37 Leaf Thief 266 -> 313 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)"
+      "#4 Lightning Barrage 190 -> 328 (Griffy: After reaching level 200 and allocating 100 Memorial Skulls points, invest more in Lightni)",
+      "#5 Radiant Chainbolt 199 -> 328 (Griffy: Lightning Barrage and Radiant Chainbolt plus Meteor Shower and Tornado provide strong clea)",
+      "#11 Deforesting All Doubt 212 -> 328 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)",
+      "#34 Smart Efficiency 266 -> 328 (Griffy: Use Smart Efficiency and Mana Booster and Active AFKer because Hocus Choppus scales choppi)",
+      "#35 Leaf Thief 266 -> 328 (Pulse: Leaf thief good; deforesting all doubt scales with wisdom and is good)"
      ]
     }
    ],
    "part": [],
-   "park": "Spelunking: the first cave. Why: account goal: Lunarheim (Pulse: most characters on Spelunking)"
+   "park": "[LAW] W7 Spelunking cave 2 (Decaying Crevasse). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 30: cave 2 has the bigger open page need, Chapter 2 81% short (weakest % Spelunking EXP gain 7.2/66). Close call vs cave 3: your call in the moment. Finish: Chapter 2: % Spelunking EXP gain 7.2/66; cave 2 best depth 32. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Divinity on Magma Rivertown (DIVINITY)\nretired: W5 Divinity altar, Mindful style (divinity points 3.2B: next Coral Kid upgrade affordable): target hit, removed"
   },
   {
    "name": "Autistopher",
@@ -1329,19 +1308,19 @@
      ]
     },
     {
-     "do": "Upgrade Vault: buy Wicked Smart first: 365 -> 387",
-     "why": "Autiszemo has the coins for about 19 levels",
+     "do": "Upgrade Vault: buy Wicked Smart first: 375 -> 387",
+     "why": "Autiszemo has the coins for about 12 levels",
      "sub": [
-      "Then Bullseye 479 -> 500",
       "Then Kitchen Dream-mare 315 -> 327",
       "Then Teh TOM 242 -> 261",
       "Then Cooking Knowledge 400 -> 428",
-      "Then Go Go Bubba the Seal 220 -> 247"
+      "Then Go Go Bubba the Seal 222 -> 247",
+      "Then Mega Bits 237 -> 246"
      ]
     },
     {
      "do": "Equinox: spend the Equinox bar",
-     "why": "It refills in about 370 minutes, so spend it every time you're on",
+     "why": "It refills in about 401 minutes, so spend it every time you're on",
      "sub": [
       "Faster bar: Defeat the Caustic Glaciaxus (0 / 1) gives +25% fill; Get 2000 kills in a single Killroy run (1296 / 2000) gives +35% fill",
       "Locked: Equinox Symbols, Voter Rights, Nonstop Studies, Hmm... (unlocks: Dream 29; Dream 32; Nightmare 1 (unlock with Research: Equinox Nightmares))",
@@ -1350,7 +1329,7 @@
      ]
     },
     {
-     "do": "Salt Lick: buy Salt Lick levels: Refinery Speed +2, Total Damage dealt. +2, Cooking Mastery EXP gain, a feature unlo +4",
+     "do": "Salt Lick: buy Salt Lick levels: Refinery Speed +1, Total Damage dealt. +1, Cooking Mastery EXP gain, a feature unlo +4",
      "why": "",
      "sub": [
       "Still to max: Refinery Speed 76/100, Total Damage dealt. 178/250, Cooking Mastery EXP gain, a feature unlo 35/100",
@@ -1358,7 +1337,7 @@
      ]
     },
     {
-     "do": "Library (account-wide): push Max Right Hand Of Action on any Maestro to 313 (now 295)",
+     "do": "Library (account-wide): push Max Right Hand Of Action on any Maestro to 328 (now 295)",
      "why": "",
      "sub": []
     },
@@ -1368,15 +1347,15 @@
      "sub": []
     },
     {
-     "do": "Clickers: Owl, Bubba, Poppy (all three): push MF21 to 28 (now 23)",
+     "do": "Clickers: Owl, Bubba, Poppy (all three): push MF21 to 28 (now 24)",
      "why": "",
      "sub": [
       "Owl: buy all 7 upgrades, you have way more feathers than they cost"
      ]
     },
     {
-     "do": "Tome (account-wide): nothing needed",
-     "why": "",
+     "do": "Tome (account-wide): tome is at 36,230 points, 1,588 short of the next bracket",
+     "why": "Every other card raises it",
      "sub": []
     },
     {
@@ -1385,12 +1364,9 @@
      "sub": []
     },
     {
-     "do": "Prayers: leave Royal Sampler on until print day",
+     "do": "Prayers: equipped: Skilled Dimwit, Balance of Precision, The Royal Sampler (prayers planner failed: 'list' object has no attribute 'get')",
      "why": "wrong prayers cost gains",
-     "sub": [
-      "Prayers on: Skilled Dimwit, Balance of Precision, The Royal Sampler",
-      "Midas Minded / Big Brain Time: drop rate / class EXP when you overkill the map (curse raises mob HP)"
-     ]
+     "sub": []
     },
     {
      "do": "Active play setup: autistopher- Kill 1M Crabcakes for W2 Weekly Boss (0.19K -> 1000K)",
@@ -1398,18 +1374,13 @@
      "sub": []
     },
     {
-     "do": "Worship: worship level 74, charge full in 8d 10h",
+     "do": "Worship: worship level 74, charge full in 8d 5h",
      "why": "charge and souls keep worship moving",
      "sub": []
     },
     {
      "do": "3D Printer slots: printing: Firefly (582K), Firefly (582K) | samples held: Fly 99.5M, Butterfly 4.9M, Sentient Cereal 2.8M, Fruitfly 1.6M, Mosquisnow 981K",
      "why": "",
-     "sub": []
-    },
-    {
-     "do": "Talents: switch to talent preset 2 (skilling) for where he is parked",
-     "why": "the other preset holds the wrong talents for this job",
      "sub": []
     },
     {
@@ -1472,16 +1443,16 @@
      "do": "Talents to level next (Library checkouts)",
      "why": "ranked across all 11 characters",
      "sub": [
-      "#2 Brute Efficiency 164 -> 313 (Pulse: Brute efficiency gives a lot of total efficiency; super it for skilling setups)",
-      "#16 Graveyard Shift 219 -> 313 (Griffy: Prioritize Sentinel Axes and Graveyard Shift and Detonation outside Wraith mode.)",
-      "#17 Grimoire 224 -> 313 (Griffy: Wraith mode has separate progression: farm bones and spend them on Grimoire upgrades.)",
-      "#34 Marauder Style 264 -> 313 (Griffy: Marauder Style grants wraith damage and accuracy per hundred Grimoire upgrades.)",
-      "#38 Detonation 266 -> 313 (Griffy: Prioritize Sentinel Axes and Graveyard Shift and Detonation outside Wraith mode.)"
+      "#14 Graveyard Shift 219 -> 328 (Griffy: Prioritize Sentinel Axes and Graveyard Shift and Detonation outside Wraith mode.)",
+      "#15 Grimoire 224 -> 328 (Griffy: Wraith mode has separate progression: farm bones and spend them on Grimoire upgrades.)",
+      "#32 Marauder Style 264 -> 328 (Griffy: Marauder Style grants wraith damage and accuracy per hundred Grimoire upgrades.)",
+      "#36 Detonation 266 -> 328 (Griffy: Prioritize Sentinel Axes and Graveyard Shift and Detonation outside Wraith mode.)",
+      "#39 Dank Ranks 272 -> 328 (Griffy: Dank Ranks strengthens every land-rank database bonus.)"
      ]
     }
    ],
    "part": [],
-   "park": "Spelunking: the first cave. Why: account goal: Lunarheim (Pulse: most characters on Spelunking)"
+   "park": "[LAW] Death Note Super CHOW maps. Why: Law 2, only he does this: Super CHOWs and WOWs only count on him (cooking speed 1.1x each). Finish: Pufferblob at Puffpuff Overpass: 44M kills left (22 of 26 Super CHOWs). Source: griffy"
   },
   {
    "name": "Autistachio",
@@ -1506,25 +1477,22 @@
       "Push Riftwalker Nametag63.15% Xp From MonstersLevel Multi: 1x to 5 (now 1)",
       "Push Easter Egg Backpack+10% Total DamageNot deposited to 1 (now 0)",
       "Push +1% Cape Vine Multi per deposited cape: +15% to 23 (now 15)",
-      "Push Golden Vines: 1Ask Cathie for the next one at class Lv 1000 to 1000 (now 940)"
+      "Push Golden Vines: 1Ask Cathie for the next one at class Lv 1000 to 1000 (now 943)"
      ]
     },
     {
      "do": "Dancing Coral (Barnacle Curb, right side platform): level these when you have the coral",
      "why": "raises shrine caps; Vibrant Coral is +5% POW",
      "sub": [
-      "Reef Coral level 226: +2% Daily Reef Coral",
-      "Vibrant Coral level 211: +5% Spelunking POW",
-      "Glowing Coral level 218: +3% Spelunking Amber gain"
+      "Reef Coral level 227: +2% Daily Reef Coral",
+      "Vibrant Coral level 212: +5% Spelunking POW",
+      "Glowing Coral level 221: +3% Spelunking Amber gain"
      ]
     },
     {
-     "do": "Prayers: skilled Dimwit + Unending Energy: equip while PLACING traps, unequip after (snapshotted)",
+     "do": "Prayers: equipped: none (prayers planner failed: 'list' object has no attribute 'get')",
      "why": "wrong prayers cost gains",
-     "sub": [
-      "Prayers on: none",
-      "Shiny Snitch: only while trapping (bundles of shiny critters; curse lowers shiny chance)"
-     ]
+     "sub": []
     },
     {
      "do": "Active play setup: autistachio- Kill 1M Green Mushrooms for W2 Weekly Boss (255.87K -> 1000K)",
@@ -1539,7 +1507,7 @@
      "do": "Worship: lowest worship level on the account, sit at a totem for a few hours to catch up (my read)",
      "why": "charge and souls keep worship moving",
      "sub": [
-      "Worship level 70, charge full in 8d 13h"
+      "Worship level 70, charge full in 8d 9h"
      ]
     },
     {
@@ -1591,7 +1559,7 @@
     }
    ],
    "part": [],
-   "park": "Spelunking: the first cave. Why: account goal: Lunarheim (Pulse: most characters on Spelunking)"
+   "park": "[LAW] W7 Spelunking cave 1 (Fearful Tunnel). Why: Law 1 goal Spelunking (lore boss 6/10 in cave 6 (boss at depth 50; cave 6 not entered yet; next unbroken object there needs POW 60T (you have 33.4T)). Unlocks: +30 Max LV for Cooking Meals!; +1 Super Talent PTS!; +2 Gallery Slots!). Why this cave: level 1: cave 1 is the deepest he runs well (my read). Finish: Chapter 1: % Faster Spelunking Speed 1.4/66; cave 1 best depth 29. Source: goal review + spot rules (Zack 2026-11-27)\nnow: Noble Clam on The Clamworks (FIGHTING)\nretired: Divinity (Divinity slippers) (Divinity 54 / 40): target hit, removed"
   }
  ]
 }

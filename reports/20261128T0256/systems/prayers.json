@@ -1,0 +1,9 @@
+{
+ "module": "prayers",
+ "systems": [
+  "prayers"
+ ],
+ "ok": false,
+ "error": "AttributeError: 'list' object has no attribute 'get'",
+ "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/idleon-manager/idleon-manager/model/report.py\", line 72, in <module>\n    o = m.build() if hasattr(m, 'build') else None\n        ~~~~~~~^^\n  File \"/home/runner/work/idleon-manager/idleon-manager/model/prayers.py\", line 53, in build\n    txt = ' '.join([str((c.get('afk') or {}).get('text', ''))] + [j['job'] for j in c.get('jobs', [])] + [str(a) for a in c.get('active', [])])\n                        ^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'list' object has no attribute 'get'\n"
+}

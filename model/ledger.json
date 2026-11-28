@@ -40,7 +40,7 @@
    "target": 100,
    "coins": 5881240195196,
    "material": "Golden Nomwich",
-   "owned": 564442,
+   "owned": 564458,
    "next_raise": 445773.00044028956,
    "total_mat": 10506509.91819525
   },
@@ -111,143 +111,36 @@
    "total_mat": 183679.3107411254
   }
  ],
- "stamp": "20261127T2212",
- "vs": "20261127T1704",
- "hours": 5.124130400021871,
+ "stamp": "20261128T0256",
+ "vs": "20261127T2212",
+ "hours": 4.728350155552229,
  "watch": [
   {
    "item": "Tangled Cords",
-   "owned": 7347092,
-   "rate_hr": 0.0,
+   "owned": 7444373,
+   "rate_hr": 20573.983905521156,
    "owner": "Autistocat",
    "why": "Dream of Ironfish 68 -> 70 (exact cost: check bubble cost)"
   },
   {
    "item": "Void Bar",
-   "owned": 8035853,
-   "rate_hr": 181222.94467682487,
+   "owned": 7977933,
+   "rate_hr": -12249.515813034253,
    "owner": "Autistastic",
-   "why": "ran out before (Zack); construction/printer use"
+   "why": "ran out before (Zack); construction/printer use",
+   "runout_days": 27.13689912921218
   },
   {
    "item": "Copper Bar",
    "owned": 285412989,
-   "rate_hr": 2140243.932893119,
+   "rate_hr": 0.0,
    "owner": "Autistocat",
    "why": "Barium Mixture 12 -> 13 needs 1B Copper Bars (Toolbox map finding)",
    "target": 1000000000,
    "shortage": 714587011,
-   "eta_days": 13.911712741742681
+   "eta_days": null,
+   "flag": "no net income: change producer"
   }
  ],
- "runout": [
-  {
-   "item": "Dragon Warrior Statue",
-   "owned": 0,
-   "rate_hr": -1046.4214571856162,
-   "runout_days": 0
-  },
-  {
-   "item": "Mutton Statue",
-   "owned": 0,
-   "rate_hr": -7.806202589971027,
-   "runout_days": 0
-  },
-  {
-   "item": "Cauldron Statue",
-   "owned": 0,
-   "rate_hr": -74908.71036349147,
-   "runout_days": 0
-  },
-  {
-   "item": "Oceanman Statue",
-   "owned": 0,
-   "rate_hr": -404337.87555272924,
-   "runout_days": 0
-  },
-  {
-   "item": "Box Statue",
-   "owned": 0,
-   "rate_hr": -1454.6858526411008,
-   "runout_days": 0
-  },
-  {
-   "item": "Pecunia Statue",
-   "owned": 0,
-   "rate_hr": -25797.93831933625,
-   "runout_days": 0
-  },
-  {
-   "item": "Twosoul Statue",
-   "owned": 0,
-   "rate_hr": -3381.2566518459503,
-   "runout_days": 0
-  },
-  {
-   "item": "Anvil Statue",
-   "owned": 0,
-   "rate_hr": -116520.84419972052,
-   "runout_days": 0
-  },
-  {
-   "item": "Exp Book Statue",
-   "owned": 0,
-   "rate_hr": -53475.61022233752,
-   "runout_days": 0
-  },
-  {
-   "item": "EhExPee Statue",
-   "owned": 0,
-   "rate_hr": -29678.011316681346,
-   "runout_days": 0
-  },
-  {
-   "item": "Ol Reliable Statue",
-   "owned": 41528,
-   "rate_hr": -390310.1294985513,
-   "runout_days": 0.004433226817752256
-  },
-  {
-   "item": "Thicc Skin Statue",
-   "owned": 56410,
-   "rate_hr": -390310.1294985513,
-   "runout_days": 0.00602192074719237
-  },
-  {
-   "item": "Bullseye Statue",
-   "owned": 3220,
-   "rate_hr": -21127.487309756583,
-   "runout_days": 0.006350337108223422
-  },
-  {
-   "item": "Seesaw Statue",
-   "owned": 2770,
-   "rate_hr": -4652.496743622732,
-   "runout_days": 0.024807468554356445
-  },
-  {
-   "item": "Power Statue",
-   "owned": 302481,
-   "rate_hr": -471707.3554548267,
-   "runout_days": 0.026718631486777753
-  },
-  {
-   "item": "Speed Statue",
-   "owned": 895132,
-   "rate_hr": -970186.0826919591,
-   "runout_days": 0.03844331240371831
-  },
-  {
-   "item": "Battleaxe Statue",
-   "owned": 13740,
-   "rate_hr": -4542.819597233639,
-   "runout_days": 0.12602305412889944
-  },
-  {
-   "item": "Glass Shard",
-   "owned": 8445,
-   "rate_hr": -179.5426595693336,
-   "runout_days": 1.9598406353344517
-  }
- ]
+ "runout": []
 }

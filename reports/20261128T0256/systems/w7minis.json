@@ -1,0 +1,276 @@
+{
+ "module": "w7minis",
+ "systems": [
+  "legend_talents",
+  "jelly_operator",
+  "clam_work",
+  "sushi_station",
+  "minehead",
+  "glimbo",
+  "zenith_market",
+  "the_button"
+ ],
+ "ok": true,
+ "card_lines": [
+  "TOP dailies: use 3 Jelly operations, spend Sushi fuel (nearly full).",
+  "Spend -9 Legend Talent points: Coral Restoration first (Griffy: +60% daily coral, an absolute must). Keep Blue Ribbon and Extended Database on hold.",
+  "Cheap Sushi upgrades: Hourly Wage Meter, Fastburn Fuel I, Fuel Capacity I, Customer Surcharge I, Fastburn Fuel II.",
+  "Clam: buy Multi-Scalping (330,591 pearls), Frugality (373,546 pearls).",
+  "Minehead: buy Base Damage I, Bettah Numbahs, Mega Damage I, Miney Farmey I.",
+  "Beat Threadhead next: +80 max lvs for blessing upgrades, for all divinities.",
+  "Glimbo: make 12 trades (Char Coral, Divinity Pearl, Dioxide Synthesis, Purple Salt...). Each one raises a Vault max level. Pulse: push to about 1,000 total trades (you're at 167)."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "legend": {
+   "points": 59,
+   "unspent": "-9"
+  },
+  "jelly": {
+   "ops": "3",
+   "next": null,
+   "removed": "12 / 71"
+  },
+  "clam": {
+   "pearls": 444936.965626986,
+   "ready": [
+    [
+     "Multi-Scalping",
+     22,
+     23,
+     "",
+     "330,591"
+    ],
+    [
+     "Frugality",
+     34,
+     35,
+     "",
+     "373,546"
+    ]
+   ]
+  },
+  "sushi": {
+   "fuel": [
+    "545,632",
+    "545,632"
+   ],
+   "next": null,
+   "bucks": 4221107031193.3745,
+   "unique": 20,
+   "cheap": [
+    [
+     "Hourly Wage Meter",
+     290,
+     24264167068.463127
+    ],
+    [
+     "Fastburn Fuel I",
+     247,
+     98912408393.05174
+    ],
+    [
+     "Fuel Capacity I",
+     294,
+     79226715408.57518
+    ],
+    [
+     "Customer Surcharge I",
+     165,
+     43418945097.86187
+    ],
+    [
+     "Fastburn Fuel II",
+     191,
+     104610513843.7447
+    ],
+    [
+     "Superior Sushi Skillz",
+     16,
+     95725846837.96786
+    ],
+    [
+     "Fuel Capacity II",
+     184,
+     27218495230.213085
+    ],
+    [
+     "Sushi Tier Vision",
+     73,
+     1072601046.9554584
+    ],
+    [
+     "Quickpay Fee",
+     11,
+     42865512623.134346
+    ],
+    [
+     "Fuel Capacity III",
+     0,
+     318996314.927349
+    ],
+    [
+     "Shake N' Bake",
+     0,
+     1313153760.6116924
+    ],
+    [
+     "Customer Surcharge III",
+     0,
+     7272060361.486243
+    ],
+    [
+     "Quality Freshness",
+     0,
+     41640061509.45507
+    ]
+   ]
+  },
+  "minehead": {
+   "tries": "0 / 3",
+   "cur": 1183.9549824606247,
+   "next": null,
+   "buy": [
+    [
+     "Base Damage I",
+     42,
+     136.9092480937327
+    ],
+    [
+     "Bettah Numbahs",
+     27,
+     195.9089167785229
+    ],
+    [
+     "Mega Damage I",
+     30,
+     171.70464028750877
+    ],
+    [
+     "Miney Farmey I",
+     25,
+     153.54043285561787
+    ],
+    [
+     "Base Damage II",
+     14,
+     305.3687346978877
+    ],
+    [
+     "Big Hit Combos",
+     1,
+     552.2302185430573
+    ]
+   ],
+   "opp": [
+    [
+     "Threadhead",
+     "tenth",
+     38164.32746680321,
+     "+80 Max LVs for blessing upgrades, for all Divinities"
+    ]
+   ]
+  },
+  "glimbo": {
+   "total": 167,
+   "trades": [
+    [
+     "Char Coral",
+     159,
+     18
+    ],
+    [
+     "Divinity Pearl",
+     13691,
+     105
+    ],
+    [
+     "Dioxide Synthesis",
+     1090835,
+     136
+    ],
+    [
+     "Purple Salt",
+     13863,
+     136
+    ],
+    [
+     "Neon Coral",
+     6,
+     1
+    ],
+    [
+     "Nullo Salt",
+     671501,
+     188
+    ],
+    [
+     "Diamond Duck",
+     245,
+     17
+    ],
+    [
+     "Crosslink Salt",
+     246,
+     7
+    ],
+    [
+     "Deepsea Soul",
+     0,
+     1
+    ],
+    [
+     "Zenith Cluster",
+     0,
+     1
+    ],
+    [
+     "Pirate Anchor",
+     0,
+     1
+    ],
+    [
+     "Voodofish",
+     2194,
+     3
+    ],
+    [
+     "Cooking Ladle",
+     75428,
+     16
+    ],
+    [
+     "Tuttle",
+     41847558,
+     624075
+    ],
+    [
+     "Chapter Five 'Sunken Plunder'",
+     0,
+     1
+    ],
+    [
+     "Silver Pen",
+     12564,
+     903
+    ]
+   ]
+  },
+  "gates": {
+   "zenith": false,
+   "button": false,
+   "button_req": [
+    [
+     "Find at least 500 items, as shown by the Slab",
+     "1557 / 500"
+    ]
+   ]
+  },
+  "zenith": {
+   "clusters": 11
+  },
+  "advice": null,
+  "snapshot": "20261128T0256"
+ }
+}

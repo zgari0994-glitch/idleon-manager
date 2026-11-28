@@ -1,0 +1,31 @@
+{
+ "module": "statues",
+ "systems": [
+  "statues"
+ ],
+ "ok": true,
+ "card_lines": [
+  "Statue goals: .",
+  "Before farming Onyx: Level 313/328 booked Orb of Remembrance talent (Divine Knight only) (313 -> 328); Startue Exp bubble.",
+  "Griffy: golden statues only keep the highest level, so stockpile them and turn them all in on one character. Turning in every statue at once can wipe stored greenstacks."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "snapshot": "20261128T0256",
+  "targets": [],
+  "prereq": [
+   "Level 313/328 booked Orb of Remembrance talent (Divine Knight only) (313 -> 328)",
+   "Startue Exp bubble: 18.506/20%+ minimum (171 -> 240)"
+  ],
+  "value": [
+   "Artifact - The Onyx Lantern: 3.2/4.1xHigher bonuses from Onyx or higher Statues (4 -> 7)",
+   "TRUE ZEN:1.16x higher bonuses from Zenith Statues (8 -> 250)",
+   "Event Shop - Smiley Statue: 1/1.3x (0 -> 1)"
+  ],
+  "onyx": [
+   "Onyx Kachow Statue: +397.2% Crit Damage (27 -> \u221e)"
+  ],
+  "tier": "11/11"
+ }
+}

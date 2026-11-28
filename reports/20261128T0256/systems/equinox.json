@@ -1,0 +1,269 @@
+{
+ "module": "equinox",
+ "systems": [
+  "equinox"
+ ],
+ "ok": true,
+ "card_lines": [
+  "TOP: spend the Equinox bar. It refills in about 401 minutes, so spend it every time you're on.",
+  "Faster bar: Defeat the Caustic Glaciaxus (0 / 1) gives +25% fill; Get 2000 kills in a single Killroy run (1296 / 2000) gives +35% fill.",
+  "Locked: Equinox Symbols, Voter Rights, Nonstop Studies, Hmm... (unlocks: Dream 29; Dream 32; Nightmare 1 (unlock with Research: Equinox Nightmares)).",
+  "AutoReview wants: Metal Detector 0 -> 20, Slow Roast Wiz 6 -> 25, Faux Jewels 0 -> 35, Matching Scims 20 -> 57, Laboratory Fuse 0 -> 10, Food Lust 0 -> 28."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "fill_hr": 822,
+  "bar": [
+   4063.638252293724,
+   5488.728529875592
+  ],
+  "upgrades": [
+   {
+    "name": "Equinox Dreams",
+    "lv": 5,
+    "max": 5,
+    "locked": false,
+    "unlock": null,
+    "progress": null
+   },
+   {
+    "name": "Equinox Resources",
+    "lv": 4,
+    "max": 4,
+    "locked": false,
+    "unlock": null,
+    "progress": null
+   },
+   {
+    "name": "Shades of K",
+    "lv": 3,
+    "max": 3,
+    "locked": false,
+    "unlock": null,
+    "progress": null
+   },
+   {
+    "name": "Liquidvestment",
+    "lv": 11,
+    "max": 11,
+    "locked": false,
+    "unlock": null,
+    "progress": null
+   },
+   {
+    "name": "Matching Scims",
+    "lv": 20,
+    "max": 27,
+    "locked": false,
+    "unlock": null,
+    "progress": null
+   },
+   {
+    "name": "Slow Roast Wiz",
+    "lv": 6,
+    "max": 19,
+    "locked": false,
+    "unlock": null,
+    "progress": null
+   },
+   {
+    "name": "Laboratory Fuse",
+    "lv": 0,
+    "max": 10,
+    "locked": false,
+    "unlock": null,
+    "progress": null
+   },
+   {
+    "name": "Metal Detector",
+    "lv": 0,
+    "max": 20,
+    "locked": false,
+    "unlock": null,
+    "progress": null
+   },
+   {
+    "name": "Faux Jewels",
+    "lv": 0,
+    "max": 20,
+    "locked": false,
+    "unlock": null,
+    "progress": null
+   },
+   {
+    "name": "Food Lust",
+    "lv": 0,
+    "max": 24,
+    "locked": false,
+    "unlock": null,
+    "progress": null
+   },
+   {
+    "name": "Equinox Symbols",
+    "lv": 0,
+    "max": 19,
+    "locked": true,
+    "unlock": null,
+    "progress": null
+   },
+   {
+    "name": "Voter Rights",
+    "lv": 0,
+    "max": 29,
+    "locked": true,
+    "unlock": null,
+    "progress": null
+   },
+   {
+    "name": "Nonstop Studies",
+    "lv": 0,
+    "max": 24,
+    "locked": true,
+    "unlock": null,
+    "progress": null
+   },
+   {
+    "name": "Hmm...",
+    "lv": 0,
+    "max": 2,
+    "locked": true,
+    "unlock": null,
+    "progress": null
+   }
+  ],
+  "challenges": [
+   {
+    "task": "Use a stack of 100,000 cooking Ladles in a single usage",
+    "state": null,
+    "reward": "+10 Max LV for 'Matching Scims' Equinox Upgrade",
+    "progress": "0 / 1"
+   },
+   {
+    "task": "Defeat the Caustic Glaciaxus in a party with others or alone. That's the 3rd and final W3 Dungeon boss",
+    "state": null,
+    "reward": "+25% Equinox Bar fill rate",
+    "progress": "0 / 1"
+   },
+   {
+    "task": "Upgrade the Bobjoepickle vial to Lv 2. It will still do nothing, but one can dream!",
+    "state": null,
+    "reward": "+5 Max LV for 'Faux Jewels' Equinox Upgrade",
+    "progress": "1 / 2"
+   },
+   {
+    "task": "Get 2000 kills in a single Killroy run. Seems like a lot, but compared to your deathnote, it really isn't huh...",
+    "state": null,
+    "reward": "+35% Equinox Bar fill rate",
+    "progress": "1296 / 2000"
+   },
+   {
+    "task": "Get a total of 100 BILLION Green Mushroom deathnote kills.",
+    "state": null,
+    "reward": "+4 Max LV for 'Food Lust' Equinox Upg",
+    "progress": "0 / 1"
+   }
+  ],
+  "ar_tier": "9/12",
+  "ar": [
+   {
+    "group": "Unlock more Equinox Bonuses",
+    "tab": "Complete Dreams",
+    "label": "Dream 29",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Unlock more Equinox Bonuses",
+    "tab": "Complete Dreams",
+    "label": "Dream 32",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Unlock more Equinox Bonuses",
+    "tab": "Complete Dreams",
+    "label": "Nightmare 1 (unlock with Research: Equinox Nightmares)",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Unlock more Equinox Bonuses",
+    "tab": "Complete Dreams",
+    "label": "Complete all 76 possible Dreams",
+    "cur": "21",
+    "goal": "76"
+   },
+   {
+    "group": "Unlock more Equinox Bonuses",
+    "tab": "Unlock Equinox Bonuses",
+    "label": "Equinox Symbols (Recommended)",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Unlock more Equinox Bonuses",
+    "tab": "Unlock Equinox Bonuses",
+    "label": "Voter Rights (Recommended)",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Unlock more Equinox Bonuses",
+    "tab": "Unlock Equinox Bonuses",
+    "label": "Nonstop Studies (Recommended)",
+    "cur": "",
+    "goal": "",
+    "completed": true
+   },
+   {
+    "group": "Upgrade more Equinox Bonuses",
+    "tab": "Recommended Upgrades: 46/305",
+    "label": "Metal Detector",
+    "cur": "0",
+    "goal": "20"
+   },
+   {
+    "group": "Upgrade more Equinox Bonuses",
+    "tab": "Recommended Upgrades: 46/305",
+    "label": "Slow Roast Wiz (Increase max level by completing Dream 33)",
+    "cur": "6",
+    "goal": "25"
+   },
+   {
+    "group": "Upgrade more Equinox Bonuses",
+    "tab": "Recommended Upgrades: 46/305",
+    "label": "Faux Jewels (Increase max level by completing Dream 22, Dream 27)",
+    "cur": "0",
+    "goal": "35"
+   },
+   {
+    "group": "Upgrade more Equinox Bonuses",
+    "tab": "Recommended Upgrades: 46/305",
+    "label": "Matching Scims (Increase max level by completing Dream 19, Dream 35, Nightmare 4)",
+    "cur": "20",
+    "goal": "57"
+   },
+   {
+    "group": "Upgrade more Equinox Bonuses",
+    "tab": "Optional Upgrades: 3/41",
+    "label": "Laboratory Fuse",
+    "cur": "0",
+    "goal": "10"
+   },
+   {
+    "group": "Upgrade more Equinox Bonuses",
+    "tab": "Optional Upgrades: 3/41",
+    "label": "Food Lust (Increase max level by completing Dream 26)",
+    "cur": "0",
+    "goal": "28"
+   }
+  ],
+  "snapshot": "20261128T0256"
+ }
+}

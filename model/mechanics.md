@@ -1,4 +1,4 @@
-# Mechanics layer · game save 2026-11-27 05:12 PM ET
+# Mechanics layer · game save 2026-11-27 09:56 PM ET
 
 Rule-changers and account-wide buffs you own. Facts from the save; sources for missing items added separately.
 
@@ -99,11 +99,11 @@ Rule-changers and account-wide buffs you own. Facts from the save; sources for m
 
 ## Kill-count talents
 - Archlord of the Pirates (Drop Rate and Class EXP): 6208 kills, value 16.55. Farm more Plunder Kills with Siege Breaker for Drop Rate Crystal Setup at W5 Citringes for ~20k per day
-- King of the Remembered (Printer Output): 2773382 kills, value 22.89. Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from
+- King of the Remembered (Printer Output): 2796426 kills, value 22.9. Farm more Orb stacks with Divine Knight for Printer Output Crystal Setup at any world you need Crystal loot from
 - Wormhole Emperor (Damage): 570665 kills, value 4.36. Farm more Wormhole kills with Elemental Sorcerer for Damage Generally alongside farming Rare Drops, such as Dark Lanterns
 
 ## Family bonuses (top level of each class, account-wide)
-- Journeyman 828; Maestro 828; Voidwalker 828; Warrior 940; Barbarian 940; Squire 869; Blood Berserker 940; Death Bringer 940; Divine Knight 869; Royal Guardian 869; Archer 877; Bowman 871; Hunter 877; Siege Breaker 871; Wind Walker 877; Beast Master 877; Mage 878; Wizard 870; Shaman 878; Elemental Sorcerer 870; Bubonic Conjuror 878; Arcane Cultist 878
+- Journeyman 828; Maestro 828; Voidwalker 828; Warrior 943; Barbarian 943; Squire 917; Blood Berserker 943; Death Bringer 943; Divine Knight 917; Royal Guardian 917; Archer 877; Bowman 871; Hunter 877; Siege Breaker 871; Wind Walker 877; Beast Master 877; Mage 879; Wizard 879; Shaman 878; Elemental Sorcerer 879; Bubonic Conjuror 878; Arcane Cultist 878
 
 ## Divinity blessings
 - Snehebatu None; Arctis None; Nobisect None; Harriep None; Goharut None; Omniphau None; Purrmep None; Flutterbis None; Kattlekruk None; Bagur None

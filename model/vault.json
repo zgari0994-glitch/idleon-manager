@@ -3,51 +3,23 @@
  "targets": [
   {
    "name": "Wicked Smart",
-   "cur": "365",
+   "cur": "375",
    "goal": "387",
    "coins": {
-    "buy_richest": 19,
-    "buy_cost": 2.9715291353123683e+32,
+    "buy_richest": 12,
+    "buy_cost": 4.752861964014575e+32,
     "i": 3,
     "name": "Wicked Smart",
-    "level": 365,
+    "level": 375,
     "max": 500,
-    "next": 1.8539180579956553e+30,
-    "to_max": 6.073834319505569e+41,
+    "next": 1.1781050173411423e+31,
+    "to_max": 6.073834319016811e+41,
     "next_ok": [
      "Autiszemo",
      "Autisticles",
      "Autistastic",
      "Autistabish",
      "Autistacular",
-     "Autistotle",
-     "Autistomatic",
-     "Autistopher"
-    ],
-    "max_ok": []
-   },
-   "need": false
-  },
-  {
-   "name": "Bullseye",
-   "cur": "479",
-   "goal": "500",
-   "coins": {
-    "buy_richest": 18,
-    "buy_cost": 2.843635049340113e+32,
-    "i": 4,
-    "name": "Bullseye",
-    "level": 479,
-    "max": 500,
-    "next": 3.6630951228080753e+30,
-    "to_max": 4.477438629559102e+32,
-    "next_ok": [
-     "Autiszemo",
-     "Autisticles",
-     "Autistastic",
-     "Autistabish",
-     "Autistacular",
-     "Autistotle",
      "Autistomatic",
      "Autistopher"
     ],
@@ -60,8 +32,8 @@
    "cur": "315",
    "goal": "327",
    "coins": {
-    "buy_richest": 4,
-    "buy_cost": 3.280707385080506e+32,
+    "buy_richest": 5,
+    "buy_cost": 4.54800907147093e+32,
     "i": 54,
     "name": "Kitchen Dream-mare",
     "level": 315,
@@ -69,7 +41,9 @@
     "next": 6.111600519023641e+31,
     "to_max": 1.3603748420357084e+47,
     "next_ok": [
-     "Autiszemo"
+     "Autiszemo",
+     "Autistastic",
+     "Autistabish"
     ],
     "max_ok": []
    },
@@ -80,8 +54,8 @@
    "cur": "242",
    "goal": "261",
    "coins": {
-    "buy_richest": 10,
-    "buy_cost": 2.9470579224226878e+32,
+    "buy_richest": 12,
+    "buy_cost": 4.804185638315622e+32,
     "i": 57,
     "name": "Teh TOM",
     "level": 242,
@@ -106,8 +80,8 @@
    "cur": "400",
    "goal": "428",
    "coins": {
-    "buy_richest": 13,
-    "buy_cost": 3.108569256695152e+32,
+    "buy_richest": 16,
+    "buy_cost": 4.9386913577268014e+32,
     "i": 60,
     "name": "Cooking Knowledge",
     "level": 400,
@@ -129,16 +103,16 @@
   },
   {
    "name": "Go Go Bubba the Seal",
-   "cur": "220",
+   "cur": "222",
    "goal": "247",
    "coins": {
     "buy_richest": 17,
-    "buy_cost": 3.152497714057101e+32,
+    "buy_cost": 4.7694137917029746e+32,
     "i": 65,
     "name": "Go Go Bubba the Seal",
-    "level": 220,
+    "level": 222,
     "max": 500,
-    "next": 2.213373679305963e+30,
+    "next": 3.348613039496405e+30,
     "to_max": 1.434690126443976e+56,
     "next_ok": [
      "Autiszemo",
@@ -155,47 +129,12 @@
    "need": false
   },
   {
-   "name": "Sailing Loot",
-   "cur": "195",
-   "goal": "200",
-   "coins": {
-    "buy_richest": 5,
-    "buy_cost": 9.621282420036598e+30,
-    "i": 67,
-    "name": "Sailing Loot",
-    "level": 195,
-    "max": 200,
-    "next": 1.1723218941025042e+30,
-    "to_max": 9.621282420036598e+30,
-    "next_ok": [
-     "Autiszemo",
-     "Autisticles",
-     "Autistastic",
-     "Autistabish",
-     "Autistacular",
-     "Autistotle",
-     "Autistomatic",
-     "Autistopher"
-    ],
-    "max_ok": [
-     "Autiszemo",
-     "Autisticles",
-     "Autistastic",
-     "Autistabish",
-     "Autistacular",
-     "Autistomatic",
-     "Autistopher"
-    ]
-   },
-   "need": false
-  },
-  {
    "name": "Mega Bits",
    "cur": "237",
    "goal": "246",
    "coins": {
-    "buy_richest": 3,
-    "buy_cost": 3.2560787610810315e+32,
+    "buy_richest": 4,
+    "buy_cost": 4.8504440146058816e+32,
     "i": 68,
     "name": "Mega Bits",
     "level": 237,
@@ -203,7 +142,9 @@
     "next": 8.780279260798004e+31,
     "to_max": 1.1009140300048496e+38,
     "next_ok": [
-     "Autiszemo"
+     "Autiszemo",
+     "Autistastic",
+     "Autistabish"
     ],
     "max_ok": []
    },
@@ -249,7 +190,9 @@
     "next": 9.50108676990123e+31,
     "to_max": 3.435592975996956e+35,
     "next_ok": [
-     "Autiszemo"
+     "Autiszemo",
+     "Autistastic",
+     "Autistabish"
     ],
     "max_ok": []
    },
@@ -257,24 +200,23 @@
   },
   {
    "name": "Croppius Evolvius",
-   "cur": "175",
+   "cur": "184",
    "goal": "203",
    "coins": {
-    "buy_richest": 18,
-    "buy_cost": 2.9620127313251205e+32,
+    "buy_richest": 12,
+    "buy_cost": 5.176922371979735e+32,
     "i": 78,
     "name": "Croppius Evolvius",
-    "level": 175,
+    "level": 184,
     "max": 250,
-    "next": 1.6811629246185632e+30,
-    "to_max": 4.043572620230035e+37,
+    "next": 1.0833176194478231e+31,
+    "to_max": 4.043568641093831e+37,
     "next_ok": [
      "Autiszemo",
      "Autisticles",
      "Autistastic",
      "Autistabish",
      "Autistacular",
-     "Autistotle",
      "Autistomatic",
      "Autistopher"
     ],
@@ -296,7 +238,8 @@
     "next": 1.219512730456696e+32,
     "to_max": 7.590449767795103e+103,
     "next_ok": [
-     "Autiszemo"
+     "Autiszemo",
+     "Autistabish"
     ],
     "max_ok": []
    },
@@ -307,8 +250,8 @@
    "cur": "170",
    "goal": "193",
    "coins": {
-    "buy_richest": 13,
-    "buy_cost": 3.267896267869009e+32,
+    "buy_richest": 15,
+    "buy_cost": 4.994076031956872e+32,
     "i": 81,
     "name": "Finders Keepers",
     "level": 170,
@@ -333,8 +276,8 @@
    "cur": "170",
    "goal": "196",
    "coins": {
-    "buy_richest": 15,
-    "buy_cost": 3.0762770281991375e+32,
+    "buy_richest": 18,
+    "buy_cost": 5.471253801474285e+32,
     "i": 83,
     "name": "White Essentials",
     "level": 170,
@@ -357,17 +300,17 @@
   },
   {
    "name": "Bigger Better Beans",
-   "cur": "30",
+   "cur": "31",
    "goal": "37",
    "coins": {
     "buy_richest": 4,
-    "buy_cost": 1.5138670515355827e+32,
+    "buy_cost": 3.784667628838957e+32,
     "i": 85,
     "name": "Bigger Better Beans",
-    "level": 30,
+    "level": 31,
     "max": 50,
-    "next": 5.965978528219046e+30,
-    "to_max": 3.6173505350976594e+38,
+    "next": 1.4914946320547613e+31,
+    "to_max": 3.6173504754378744e+38,
     "next_ok": [
      "Autiszemo",
      "Autisticles",
@@ -412,8 +355,8 @@
    "cur": "120",
    "goal": "150",
    "coins": {
-    "buy_richest": 19,
-    "buy_cost": 3.271213580170105e+32,
+    "buy_richest": 21,
+    "buy_cost": 4.757055697431573e+32,
     "i": 87,
     "name": "Rest of the Essentials",
     "level": 120,
@@ -439,8 +382,8 @@
    "cur": "70",
    "goal": "93",
    "coins": {
-    "buy_richest": 15,
-    "buy_cost": 2.8985749869221812e+32,
+    "buy_richest": 17,
+    "buy_cost": 4.938443897917953e+32,
     "i": 88,
     "name": "Topheavy Charms",
     "level": 70,
@@ -466,8 +409,8 @@
    "cur": "15",
    "goal": "21",
    "coins": {
-    "buy_richest": 4,
-    "buy_cost": 1.4154499171072405e+32,
+    "buy_richest": 5,
+    "buy_cost": 4.6290162988639884e+32,
     "i": 89,
     "name": "Vault Mastery III",
     "level": 15,
@@ -490,6 +433,6 @@
   }
  ],
  "richest": "Autiszemo",
- "money": 3.310548045207433e+32,
- "snapshot": "20261127T2212"
+ "money": 5.6785377427889085e+32,
+ "snapshot": "20261128T0256"
 }

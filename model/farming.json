@@ -1,18 +1,18 @@
 {
- "snapshot": "20261127T2212",
- "found": 208,
+ "snapshot": "20261128T0256",
+ "found": 209,
  "night_rank": [
   {
    "item": "Value Gmo 51/500",
    "currency": "beans",
    "balance": 89555.4224569779,
    "cost": 17560,
-   "gain_pct": 1.9534845190661074,
-   "stat": "+131.180464% crop value per per crop you",
+   "gain_pct": 1.9535438789230992,
+   "stat": "+131.61478% crop value per per crop you ",
    "weight": 1,
    "share": 0.19607969588257773,
    "afford": true,
-   "score": 9.962706797729588
+   "score": 9.963009531047918
   },
   {
    "item": "Super Gmo 42/50",
@@ -31,12 +31,12 @@
    "currency": "beans",
    "balance": 89555.4224569779,
    "cost": 112357,
-   "gain_pct": 1.4921283544905644,
-   "stat": "+1788.5303199999998% growth speed per cr",
+   "gain_pct": 1.4921322864984152,
+   "stat": "+1797.0889% growth speed per crop you ha",
    "weight": 1,
    "share": 1.2546085643666736,
    "afford": false,
-   "score": 1.1893178453183848
+   "score": 1.1893209793698831
   },
   {
    "item": "Exp Gmo 15/100",
@@ -44,7 +44,7 @@
    "balance": 89555.4224569779,
    "cost": 67,
    "gain_pct": null,
-   "stat": "+1345.528% farming EXP gain crop you hav",
+   "stat": "+1351.915% farming EXP gain crop you hav",
    "weight": 1,
    "share": 0.0007481400697114299,
    "afford": true,
@@ -76,10 +76,10 @@
   }
  ],
  "stacks": {
-  "Evolution GMO": 204,
-  "Speed GMO": 204,
-  "EXP GMO": 204,
-  "Value GMO": 204,
+  "Evolution GMO": 205,
+  "Speed GMO": 205,
+  "EXP GMO": 205,
+  "Value GMO": 205,
   "Super GMO": 198
  },
  "beans": 89555.4224569779,
@@ -112,9 +112,9 @@
   }
  ],
  "family_stacks": {
-  "Mushie": [
-   22,
-   23
+  "Basic": [
+   21,
+   21
   ],
   "Earthy": [
    23,
@@ -124,24 +124,24 @@
    14,
    15
   ],
+  "Sushi": [
+   23,
+   23
+  ],
+  "Mushie": [
+   22,
+   23
+  ],
   "Glassy": [
    75,
    75
   ],
   "Medal": [
-   26,
-   26
-  ],
-  "Sushi": [
-   23,
-   23
-  ],
-  "Basic": [
-   21,
-   21
+   27,
+   27
   ]
  },
- "rank_unspent": 465,
+ "rank_unspent": 470,
  "rank_plan": [],
  "night": [
   {
@@ -162,7 +162,7 @@
    "maxed": false,
    "have": 89555.4224569779,
    "cost": 112357,
-   "desc": "+1788.5303199999998% growth speed per crop you have 1000 of"
+   "desc": "+1797.0889% growth speed per crop you have 1000 of"
   },
   {
    "name": "Og Fertilizer",
@@ -182,7 +182,7 @@
    "maxed": false,
    "have": 89555.4224569779,
    "cost": 67,
-   "desc": "+1345.528% farming EXP gain crop you have 2500 of"
+   "desc": "+1351.915% farming EXP gain crop you have 2500 of"
   },
   {
    "name": "Value Gmo",
@@ -192,7 +192,7 @@
    "maxed": false,
    "have": 89555.4224569779,
    "cost": 17560,
-   "desc": "+131.180464% crop value per per crop you have 10000 of"
+   "desc": "+131.61478% crop value per per crop you have 10000 of"
   },
   {
    "name": "Super Gmo",
@@ -340,7 +340,7 @@
    "creator": null
   }
  ],
- "growth_speed": 44134.744153545515,
+ "growth_speed": 44345.940315217325,
  "crop_value": 10000,
  "vine": 4
 }

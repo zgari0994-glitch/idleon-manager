@@ -1,0 +1,36 @@
+{
+ "module": "research",
+ "systems": [
+  "research"
+ ],
+ "ok": true,
+ "card_lines": [
+  "Research is level 41, next level in 22% of the level left.",
+  "Level 50 unlocks Posty Note: adds another shape to your research grid.",
+  "Use today's 9 observation rolls (16 found)."
+ ],
+ "char_lines": {},
+ "routed": {},
+ "build": {
+  "level": "41 (Autiszemo)",
+  "to_level": "22% of the level left",
+  "grid": "0 free of 54",
+  "obs": 16,
+  "rolls": 9,
+  "posty": [
+   [
+    "Posty Note",
+    50,
+    "Adds another shape to your Research Grid!"
+   ],
+   [
+    "Posty Note",
+    60,
+    "You now get an additional Grid Point every 10 Research Levels!"
+   ]
+  ],
+  "grid_free": 0,
+  "next_unlock_lv": 50,
+  "snapshot": "20261128T0256"
+ }
+}
