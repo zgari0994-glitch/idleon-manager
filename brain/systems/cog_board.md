@@ -15,30 +15,26 @@ description: Cog Board: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT synthesis 2026-11-28 batch 1 (claims DB, save 20261128T0256): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 10 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-role: independent
-goal: "Every cog EXP%, directional cogs on the Divine Knights, booster XP at the 65% cap, then jeweled cogs past it"
-coverage: partial       # EXP rule sourced; Polymerization + Flaggy detail = my read (gap logged)
+role: independent   # construction build/exp/flaggy
+goal: "Every cog slot EXP-positive, build rate up for buildings, flaggy for W3 flags; clean cog inventory"
+coverage: partial
 ladder:
-  - {tier: 1, target: "all cogs EXP% (EXP over build rate: build rate trades long-term for short-term)", source: "Pulse 2026-09-12 + Griffy 2026-03-27", date: "2026-09-12"}
-  - {tier: 2, target: "only Divine Knights on the board; point every directional/booster cog at them", source: "Griffy 2026-04-23; Pulse 2026-09-12", date: "2026-09-12"}
-  - {tier: 3, target: "booster cog XP at the 65% cap", source: "Griffy", date: "2025-03-07"}
-  - {tier: 4, target: "Cog Lover: up to +5 jeweled cogs/day past the 65% cap", source: "Griffy 2025-11-10; Pulse 2026-09-25 (A tier)", date: "2026-09-25"}
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: daily, who: "Autistastic", look_at: "new cogs vs board, Tiny Cog daily, 126 spare cogs"}
-meta_vs_board:
-  - {rule: "yellow jellyfish week: directional + tiny cogs may flip to build rate for a day or two, then back to EXP", source: "Pulse 2026-10-19 (flip) + my read (flip back)", date: "2026-10-19"}
-  - {rule: "Polymerization + Flaggy: no creator claims; flaggy rate 26B with board flaggy multi 4, keep as-is", source: "my_read", date: "2026-11-28"}
-buffs:
-  - {source: "Cog Lover talent (jeweled cogs)", world: 7, owned: null, now: null, next: null, owner: "Autistastic"}
+  - {tier: 1, target: "Scrap junk: 126 spare cogs, 0 free small-cog slots; Griffy rates cog inventory F, just scrap cogs", source: "Griffy", date: "2024-04-27"}   # 25bteJumfjg 00:08:43, OLD
+  - {tier: 2, target: "Board EXP mult above 1 (now 1, flaggy mult 4): place EXP cogs/boosters", source: "my_read", date: "2026-11-28"}
+  - {tier: 3, target: "Build rate 6.62T -> next building tier need (from buildings.py)", source: "my_read", date: "2026-11-28"}
+objective: {rung: 1, now: 126, target: 0, eta_days: null}   # spares to scrap/sort
+check: {cadence: weekly, who: "unassigned", look_at: "construction.boardMultipliers, smallCogs.freeSlots, spareCogs"}
+buffs: []   # self-running
 triggers:
-  - {when: "booster XP hits 65%", then: "switch cog upgrades to jeweled cogs (Cog Lover)"}
+  - {when: "a new cog maker roll finishes", then: "compare vs board, slot or scrap"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Claim Tiny Cog before daily reset", stat: "tiny cogs", gain_pct: null, unblocks: [], source: "Griffy 2026-02-21", active_min: 1, wait_hr: null, cost: null, urgent: false}
-  - {do: "Swap any non-EXP cog for a higher EXP% cog; trash low spares", stat: "construction EXP", gain_pct: null, unblocks: [], source: "Griffy 2026-01-29 (trash spares: my read)", active_min: 3, wait_hr: null, cost: null, urgent: false}
+  - {do: "Scrap/sort the 126 spare cogs, keep only upgrades", stat: "inventory", gain_pct: null, unblocks: [], source: "Griffy", active_min: 10, wait_hr: null, cost: null, urgent: false}
+  - {do: "Get board EXP mult off 1x (EXP cogs near players)", stat: "con exp", gain_pct: null, unblocks: [], source: "my_read", active_min: 10, wait_hr: null, cost: null, urgent: false}
+# gap: no creator board layout rule newer than 2024; cog placement optimizer not in model.
 ```
 <!-- GOAL:END -->
 

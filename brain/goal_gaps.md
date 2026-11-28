@@ -39,3 +39,13 @@ Each needs Griffy > Pulse = Nocturne guidance; until then rungs are AutoReview /
 - bribes: Art of the Flail unlock condition unknown.
 - hat_rack: owned-not-deposited hats not in parser; owner unassigned.
 - basketball: no creator coverage; spendable points not in parser; data_map path null.
+
+## Batch 10 (2026-11-28)
+- class_kill_talents: system undefined; no Toolbox page or data path; owner unassigned.
+- cog_board: no creator layout rule newer than 2024; no cog placement optimizer.
+- colo_scores: ticket count not in parser; golden food per colo not in creator rows.
+- companions: acquired flag unreliable (1 of 179); fix parser before ranking.
+- crystal_spawn_chance: per-source breakdown not in parser; why 3 chars sit at 0.674%.
+- darts: no darts row in minigameHighscores; trophy ownership + spendable points not in parser.
+- event_points_shop: stars earned + points balance not in parser; no creator buy order beyond Glimmerwick Candles.
+- basketball (batch 9 correction): spendable hoops points are in parser (totalPoints 317).

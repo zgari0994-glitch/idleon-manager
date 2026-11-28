@@ -15,25 +15,26 @@ description: Event Points Shop: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 10 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "Take Glimmerwick Candles when events offer them; he believes their possible 0.1% nametag grants 20% multiplica"
-coverage: sourced
+role: independent   # Totle
+goal: "Buy the permanent account boosts from the event shop each event, Glimmerwick Candles whenever offered"
+coverage: partial
 ladder:
-  - {tier: 1, target: "Take Glimmerwick Candles when events offer them; he believes their possible 0.1% nametag grants 20% multiplicative drop rate and AFK gains.", source: "Griffy", date: "2026-09-27"}   # GgGwaPlW90M 00:14:51
-  - {tier: 2, target: "Save substantial gems for events because recent event upgrades are exceptionally powerful.", source: "Griffy", date: "2026-01-08"}   # Rh_Oj08oB8A 00:17:57
-  - {tier: 3, target: "Buy pile of processor chips in world force shop; collect three and consume to unlock chip repository bonus in laboratory", source: "Griffy", date: "2024-10-22"}   # _Uaktl6uOgk 00:01:00
-objective: {rung: 1, now: "8", target: "35", eta_days: null}
-check: {cadence: weekly, who: "Autistotle", look_at: "python3 tools/lookup.py event_points_shop"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+  - {tier: 1, target: "Halloween Event 2026 finished (1.26K stars to finish)", source: "Toolbox (parser)", date: "2026-11-28"}
+  - {tier: 2, target: "Off-rotation shop 14/56 -> more owned; Glimmerwick Candles when offered (0.1% nametag)", source: "Griffy", date: "2026-07-19"}
+  - {tier: 3, target: "Event tiers 1/3 -> 3/3", source: "Toolbox (parser)", date: "2026-11-28"}
+objective: {rung: 1, now: null, target: 1260, eta_days: null}   # stars earned not in parser
+check: {cadence: daily, who: "Autistotle", look_at: "_zack.web.eventShop (stars, owned)"}
+buffs: []
+triggers:
+  - {when: "event points cover the next off-rotation item", then: "Totle buys by rank"}
+  - {when: "Glimmerwick Candles in shop", then: "buy first"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Take Glimmerwick Candles when events offer them; he believes their possible 0.1% nametag grants 20% multiplicative drop ", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: DATA MISSING: 'event_points_shop' is not in Toolbox's parser: use AutoReview / the raw save and say so
+  - {do: "Rank the 42 unowned off-rotation items (Smiley Statue 1.30x statues, Golden Tome, Stamp Stack, Bubble Broth first, my read)", stat: "account boosts", gain_pct: null, unblocks: [], source: "my_read", active_min: 5, wait_hr: null, cost: null, urgent: false}
+# gap: no creator buy order beyond candles; stars earned + points balance not in parser; old objective 8->35 was an item cost, not progress.
 ```
 <!-- GOAL:END -->
 

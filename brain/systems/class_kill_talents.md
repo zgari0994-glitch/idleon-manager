@@ -15,25 +15,25 @@ description: Class Kill Talents: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 10 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: feeder
-goal: "Leveling characters supplies talent points they currently lack."
-coverage: sourced
+role: feeder   # my read: feeds damage/skilling via talent levels
+goal: "Define the system first: lookup maps it to plain talents (characters[].talents), not a kill-scaling counter. Until defined, it stays a no-op."
+coverage: none
 ladder:
-  - {tier: 1, target: "Leveling characters supplies talent points they currently lack.", source: "Griffy", date: "2026-10-04"}   # N5yJ4-tZLbY 00:01:00
-  - {tier: 2, target: "He favors Family Guy for additional refinery speed.", source: "Griffy", date: "2026-10-04"}   # N5yJ4-tZLbY 00:39:18
-  - {tier: 3, target: "Level Family Guy on everyone; leveling only three characters does not cover the whole account.", source: "Griffy", date: "2026-10-04"}   # N5yJ4-tZLbY 00:40:19
+  - {tier: 1, target: "Confirm what 'class kill talents' is in Toolbox (kill-scaling talents per class vs plain talent points)", source: "my_read", date: "2026-11-28"}
+  - {tier: 2, target: "If kill-scaling: per-character kill counter vs next talent breakpoint, read from parser", source: "my_read", date: "2026-11-28"}
 objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: weekly, who: "UNASSIGNED", look_at: "python3 tools/lookup.py class_kill_talents"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+check: {cadence: weekly, who: "unassigned", look_at: "none until defined"}
+buffs: []
+triggers:
+  - {when: "system defined + parser path found", then: "redraft ladder with real targets"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "Leveling characters supplies talent points they currently lack.", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: Autiszemo:; 0:
+  - {do: "Find the Toolbox page for class kill talents and the data path", stat: "unknown", gain_pct: null, unblocks: [], source: "my_read", active_min: 5, wait_hr: null, cost: null, urgent: false}
+# data seen: Zemo DB Grimoire 252/308, Marauder Style 151/308 (plain talents, not kill counters).
+# gap: no Toolbox page mapped; old auto draft goal ("leveling supplies talent points") was not a real source.
 ```
 <!-- GOAL:END -->
 

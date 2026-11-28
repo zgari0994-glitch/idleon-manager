@@ -15,25 +15,25 @@ description: Crystal Spawn Chance: state, how it works, links, plan, today
 <!-- AUTO:END -->
 
 <!-- GOAL:START (per-system standard, docs/planners.md; read by build_brain + cards) -->
-<!-- DRAFT auto 2026-11-27 (tools/draft_goals.py from lookup: creator claims + AutoReview): not approved, not in the pipeline -->
+<!-- DRAFT Phase A batch 10 2026-11-28: not approved, not in the pipeline (replaces the auto draft) -->
 ```yaml
 status: DRAFT
-auto: true
-role: independent
-goal: "He suggests about thirty-times drop rate and substantial crystal spawn chance before farming the Monolith requ"
-coverage: sourced
+role: feeder   # crystals -> drops/candy; Monolith farming
+goal: "Substantial crystal spawn chance + ~30x drop rate before farming the Monolith requirement"
+coverage: partial
 ladder:
-  - {tier: 1, target: "He suggests about thirty-times drop rate and substantial crystal spawn chance before farming the Monolith requirement reasonably.", source: "Griffy", date: "2026-11-07"}   # __0_dvPFI_E 00:28:29
-  - {tier: 2, target: "Golden Cakes are one of the largest sources of drop rate.", source: "Griffy", date: "2026-11-07"}   # __0_dvPFI_E 01:00:09
-  - {tier: 3, target: "Stop around one thousand plunderous kills now; one million is an eventual goal and unnecessary at this stage.", source: "Griffy", date: "2026-10-04"}   # N5yJ4-tZLbY 00:02:02
-objective: {rung: 1, now: null, target: null, eta_days: null}
-check: {cadence: daily, who: "UNASSIGNED", look_at: "card line (syscheck)"}
-buffs: []   # only filled for systems behind / needing a push
-triggers: []
+  - {tier: 1, target: "Lift the 3 low characters (Ticles, Naut, Tachio 0.674%) to the 1.46% the other 7 have", source: "my_read", date: "2026-11-28"}
+  - {tier: 2, target: "~30x drop rate + high crystal chance on the Monolith farmer", source: "Griffy", date: "2026-07-19"}   # old auto-draft claim
+objective: {rung: 1, now: 3, target: 0, eta_days: null}   # characters below 1.46%
+check: {cadence: weekly, who: "unassigned", look_at: "characters[].crystalSpawnChance"}
+buffs: []
+triggers:
+  - {when: "all 10 non-Totle chars at 1.46%+", then: "rung 2"}
 stall: {pulls_no_progress: 3, eta_over_days: 30}
 tasks:
-  - {do: "He suggests about thirty-times drop rate and substantial crystal spawn chance before farming the Monolith requirement re", stat: "", gain_pct: null, unblocks: [], source: "Griffy", active_min: null, wait_hr: null, cost: null, urgent: false}
-# data now: Autiszemo: 0.0146; Autistocat: 0.0146
+  - {do: "Find what the 7 have that Ticles/Naut/Tachio lack (talent, star sign, or class bonus)", stat: "crystal %", gain_pct: 117, unblocks: [], source: "my_read", active_min: 5, wait_hr: null, cost: null, urgent: false}
+# my read: Totle 4.46% is the best crystal farmer. Griffy rates the daily-first-kill crystal merit F (2025-04-29).
+# gap: crystal chance breakdown per source not in parser.
 ```
 <!-- GOAL:END -->
 
