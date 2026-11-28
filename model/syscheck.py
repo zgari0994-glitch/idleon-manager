@@ -26,6 +26,7 @@ nm = lambda s: re.sub(r'\s*[{}]x?', '', str(s or '').replace('_', ' ')).strip()
 def short(n):
     try: n = float(n)
     except (TypeError, ValueError): return str(n)
+    if abs(n) >= 1e18: return f"{n:.2e}"
     for u, v in (('Q', 1e15), ('T', 1e12), ('B', 1e9), ('M', 1e6), ('K', 1e3)):
         if abs(n) >= v: return f"{n / v:.3g}{u}"
     return f"{n:.0f}" if n == int(n) else f"{n:.2f}"

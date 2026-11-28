@@ -12,6 +12,54 @@ import { growth } from '@utility/helpers';
 import { baseTrackers } from '@utility/dashboard/baseTrackers';
 import * as AA from '@utility/dashboard/account';
 import * as CA from '@utility/dashboard/characters';
+import { getDropRate } from '@parsers/character';
+import { calcTotals } from '@parsers/world-3/printer';
+import { getBuildCost, getExtraMaxLevels, getGildedBoostioBonus, getTotalGildedSlots } from '@parsers/world-3/construction';
+import { getMaps, getOptimizedTesseractUpgrades, TESSERACT_UPGRADE_CATEGORIES } from '@parsers/class-specific/tesseract';
+import { getOptimizedSpelunkingPowerUpgrades, getOptimizedSpelunkingAmberGainUpgrades } from '@parsers/world-7/spelunking';
+import { getJadeUpgCost } from '@parsers/world-6/sneaking';
+import { getEventShopRotation } from '@parsers/misc';
+
+// ---- Zack 2026-11-28: numbers the website computes in its pages (pending "website-only" gaps)
+const safe = (fn, fb = null) => { try { return fn(); } catch (e) { return { error: String(e).slice(0, 120) }; } };
+const slim = (steps, n = 15) => (Array.isArray(steps) ? steps.slice(0, n).map((s) => {
+  const o = {}; for (const k of ['name', 'index', 'level', 'nextLevel', 'cost', 'resourceType', 'x3', 'boneType', 'statChanges', 'readyHours', 'efficiency', 'affordable', 'category'])
+    if (s?.[k] !== undefined) o[k] = s[k];
+  if (s?.upgrade) { o.name ??= s.upgrade.name; o.index ??= s.upgrade.index; o.level ??= s.upgrade.level; }
+  return o; }) : steps);
+const buildings = (account) => {
+  const speed = account?.construction?.totalBuildRate ?? 0;
+  const atom = account?.atoms?.atoms?.find(({ name }) => name === 'Carbon_-_Wizard_Maximizer');
+  const trimmed = getTotalGildedSlots(account); const boost = getGildedBoostioBonus(account);
+  return { trimmedSlots: trimmed, trimmedBoost: boost, buildRate: speed, list: (account?.towers?.data ?? []).map((tw) => {
+    const maxLevel = tw.maxLevel + getExtraMaxLevels(account, tw.maxLevel, atom?.level, tw?.index);
+    const buildCost = getBuildCost(account?.towers, tw.level, tw.bonusInc, tw?.index);
+    const isSlotTrimmed = tw.slot !== -1 && tw.slot < trimmed;
+    return { name: tw.name, index: tw.index, level: tw.level, maxLevel, slot: tw.slot, inProgress: tw.inProgress, isSlotTrimmed,
+      progress: tw.progress, buildCost, hoursLeft: speed ? (buildCost - tw.progress) / speed : null,
+      trimmedHoursLeft: speed && boost ? (buildCost - tw.progress) / (boost * speed) : null };
+  }) };
+};
+const websiteExtras = (account, characters) => {
+  const out = {};
+  out.dropRate = characters.map((c) => ({ name: c?.name, dropRate: safe(() => { const d = getDropRate(c, account, characters); return typeof d === 'object' ? (d?.dropRate ?? d?.value ?? d) : d; }) }));
+  out.atomParticlesPerHour = safe(() => calcTotals(account)?.atom?.atoms ?? 0);
+  out.buildings = safe(() => buildings(account));
+  const cat = characters.find((c) => /Arcane/i.test(String(c?.class)));
+  if (cat) {
+    out.tesseractMaps = safe(() => getMaps(account, characters, cat));
+    out.tesseractOptimizer = {};
+    for (const k of Object.keys(TESSERACT_UPGRADE_CATEGORIES)) out.tesseractOptimizer[k] = safe(() => slim(getOptimizedTesseractUpgrades(cat, account, k, 15, { onlyAffordable: false, sharedFarmingTime: true })));
+  }
+  const sp = [...characters].sort((a, b) => (b?.skillsInfo?.spelunking?.level ?? 0) - (a?.skillsInfo?.spelunking?.level ?? 0))[0];
+  if (sp) out.spelunkingOptimizer = { character: sp.name,
+    power: safe(() => slim(getOptimizedSpelunkingPowerUpgrades(sp, account, 15, {}))),
+    amber: safe(() => slim(getOptimizedSpelunkingAmberGainUpgrades(sp, account, 15, {}))) };
+  out.ninjaUpgradeCosts = safe(() => (account?.sneaking?.upgrades || []).map((u, i) => ({ index: i, name: u.name, level: u.level, unlocked: u.isUnlocked,
+    cost: safe(() => getJadeUpgCost(account, characters, i, u.level)) })));
+  out.eventShop = safe(() => getEventShopRotation(account));
+  return out;
+};
 
 // ---- Zack 2026-11-27: bubble costs, same math as Toolbox's Bubbles page (pages/account/world-2/bubbles.jsx materialCost)
 const CROPS = { W6item1: 4, W6item2: 30, W6item3: 46, W6item4: 72, W6item5: 99 };
@@ -90,6 +138,7 @@ it('parse save', () => {
   try { (account.prayers || []).forEach((p) => { p.nextCost = calcPrayerCost(p); }); } catch (e) { console.log('extra prayers failed', e); }
   account._zack = {};
   try { account._zack.bubbleCosts = bubbleCosts(account); } catch (e) { console.log('extra bubbleCosts failed', e); account._zack.bubbleCostsError = String(e); }
+  try { account._zack.web = websiteExtras(account, characters); } catch (e) { console.log('extra web failed', e); account._zack.webError = String(e); }
   try { account._zack.alerts = toolboxAlerts(account, characters, (t || Date.now() / 1000) * 1000); } catch (e) { console.log('extra alerts failed', e); account._zack.alertsError = String(e); }
   const out = clonePlain({ account, characters, _meta: { parsed_at_save_time: t, toolbox_commit: process.env.ZCOMMIT || '' } });
   fs.writeFileSync(process.env.ZOUT, zlib.gzipSync(JSON.stringify(out)));

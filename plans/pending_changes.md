@@ -24,12 +24,9 @@ Built items were removed. Built on 2026-11-27: model/syscheck.py (per-system "cu
 - Transcripts via Apify: compile Griffy/Pulse/Nocturne list, then fetch (was L216-219).
 
 ## Gaps: data the parser doesn't have
-- Toolbox website-only: Tesseract optimizer + tachyon per map, Spelunking optimizer, Lab chip/jewel shop rotation, ninja knowledge upgrade costs, building time left, atom particles/hr (now = change since last save) (was L323).
-- Green Mushroom kills -> coins rate (was L176).
-- Votes on phone pulls: a bare Copy raw data has no serverVars (carried from the last PC pull).
-- Per-character drop rate (bag sweep: check Tastic vs Matic in game).
-- No AutoReview section for Minehead or Worship.
-- basketball, darts, event points shop are now mapped in data_map.yaml: confirm they parse before planning them.
+Closed 2026-11-28 (harness now runs Toolbox's own page functions into account._zack.web, status lines in model/syscheck2.py): per-character drop rate (getDropRate: Tastic 229 vs Matic 139, Tastic sweeps), atom particles/hr (calcTotals), building time left + real max levels (Buildings page math), Tesseract tachyon per map + upgrade optimizer, Spelunking POW/amber optimizer, Lab chip shop rotation (lab.currentRotation), ninja knowledge upgrade costs (getJadeUpgCost), event shop rotation (getEventShopRotation), basketball (hoops) + darts (highscores.minigameHighscores, mapped in data_map.yaml), Minehead + Worship covered by parser status lines instead of AutoReview.
+- Green Mushroom kills -> coins rate: no game formula in Toolbox; needs one timed in-game test (kills + coins before/after) (was L176).
+- Votes on phone pulls: known limit. A bare Copy raw data has no serverVars; the workflow carries them from the last PC pull and flags "[votes from save X]". A new vote week needs a PC pull or an in-game check.
 
 ## In-game checks (Zack)
 - Fresh-save findings list from the Toolbox map (was L226).

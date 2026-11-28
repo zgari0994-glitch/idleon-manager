@@ -377,26 +377,168 @@ def c_inventory():
 
 
 # ---------- Construction trimmed-slot priority (pending L15), shared by Tastic + Matic ----------
+# Uses Toolbox's Buildings page math (account._zack.web.buildings): real max level incl. extra levels, build cost, hours left.
 GRIFFY_BUILD = [('Death_Note', 'Griffy 2026-11-07/10-28: upgrade while cheap, more multikill'),
-                ('Talent_Library', 'Griffy 2026-10-28: faster checkouts'),
+                ('Talent_Book_Library', 'Griffy 2026-10-28: faster checkouts'),
                 ('Automation_Arm', 'Griffy 2026-10-04: build toward it (unlocks the MSA)'),
                 ('Trapper_Drone', 'Griffy 2026-10-04: build toward it')]
+WEB = Z.get('web') or {}
+
+
+def _hrs(h):
+    if h is None: return '?'
+    if h <= 0: return 'READY: claim it'
+    if h < 0.1: return 'under 6 min'
+    return f"{h:.1f} h" if h < 48 else f"{h / 24:.0f} d"
 
 
 def c_construction_slots():
-    bs = (A.get('towers') or {}).get('data') or []
-    if not bs: return None
+    B = WEB.get('buildings') or {}
+    bs = B.get('list') or []
+    if not bs or isinstance(B, dict) and B.get('error'): return ('construction_slots', 'Construction: building data missing from this parse (re-run tools/tb_parse.sh)', [])
     open_ = [b for b in bs if (b.get('level') or 0) < (b.get('maxLevel') or 0)]
+    gated = [b for b in open_ if not (b.get('buildCost') or 0) > 0]   # cost 0 = level-gated (Toolbox gives no cost)
+    open_ = [b for b in open_ if b not in gated]
     salt = ', '.join(nm(x.get('saltName')) for x in (((Z.get('alerts') or {}).get('account') or {}).get('World 3') or {}).get('construction', {}).get('saltDeficit') or [])
+    fmt = lambda b, why: (f"{nm(b['name'])} {b['level']}/{b['maxLevel']}" + (' [in trimmed slot]' if b.get('isSlotTrimmed') else ' [in a slot]' if b.get('slot', -1) != -1 else '')
+                          + f", next level {_hrs(b.get('trimmedHoursLeft') if b.get('isSlotTrimmed') else b.get('hoursLeft'))}" + f" ({why})")
     order, subs = [], []
     for raw, why in GRIFFY_BUILD:
         b = next((x for x in open_ if x.get('name') == raw), None)
-        if b: order.append(b); subs.append(f"{len(order)}. {nm(b['name'])} {b['level']}/{b['maxLevel']}" + (' (building now)' if b.get('inProgress') else '') + f" ({why})")
-    rest = sorted((b for b in open_ if b not in order), key=lambda b: (b['maxLevel'] - b['level']))
-    for b in rest[:8]:
-        order.append(b); subs.append(f"{len(order)}. {nm(b['name'])} {b['level']}/{b['maxLevel']}" + (' (building now)' if b.get('inProgress') else '') + ' (my read: closest to max)')
+        if b: order.append(b); subs.append(f"{len(order)}. " + fmt(b, why))
+    # my read for the rest: shortest trimmed build first, since a trimmed slot is ~{boost}x faster
+    rest = sorted((b for b in open_ if b not in order), key=lambda b: (b.get('trimmedHoursLeft') if b.get('trimmedHoursLeft') is not None else 1e9))
+    for b in rest[:6]:
+        order.append(b); subs.append(f"{len(order)}. " + fmt(b, 'my read: quickest in a trimmed slot'))
+    ready = [nm(b['name']) for b in bs if b.get('slot', -1) != -1 and ((b.get('trimmedHoursLeft') if b.get('isSlotTrimmed') else b.get('hoursLeft')) or 1) <= 0]
+    if ready: subs.insert(0, 'READY to level now: ' + ', '.join(ready))
+    if gated: subs.append('no build cost yet (level-gated, check what unlocks the next level in game): ' + ', '.join(f"{nm(b['name'])} {b['level']}/{b['maxLevel']}" for b in gated))
     if salt: subs.append(f"salt-short (Griffy: build Boulder Rollers instead of Poisonic when salts run out): {salt}")
-    return ('construction_slots', f"Construction trimmed slots: put the top of this list in the trimmed slots ({len(open_)} buildings not maxed; Tastic + Matic share it)", subs)
+    return ('construction_slots', f"Construction: {B.get('trimmedSlots')} trimmed slots at {B.get('trimmedBoost', 0):.1f}x speed; {len(open_) + len(gated)} buildings not maxed (Tastic + Matic share this list)", subs)
+
+
+# ---------- website-only numbers, now from Toolbox's own functions (pending gaps, 2026-11-28) ----------
+def c_drop_rate():
+    dr = [d for d in WEB.get('dropRate') or [] if isinstance(d.get('dropRate'), (int, float))]
+    if not dr: return None
+    dr.sort(key=lambda d: -d['dropRate'])
+    rg = [d for d in dr if any(c.get('name') == d['name'] and 'Royal' in str(c.get('class')) for c in CH)]
+    best = rg[0] if rg else dr[0]
+    return ('drop_rate', f"Drop rate (Toolbox formula): best Royal Guardian = {best['name']} {best['dropRate']:.0f}% -> they do the bag sweep (Zack's plan)",
+            ['all: ' + ', '.join(f"{d['name']} {d['dropRate']:.0f}" for d in dr)])
+
+
+def c_atoms():
+    a = A.get('atoms') or {}; ph = WEB.get('atomParticlesPerHour')
+    if not a: return None
+    p = a.get('particles') or 0; subs = []
+    up = sorted((x for x in a.get('atoms') or [] if not x.get('locked') and (x.get('level') or 0) < (x.get('maxLevel') or 0)), key=lambda x: x.get('cost') or 1e99)
+    for x in up[:6]:
+        c = x.get('cost') or 0
+        when = 'can buy now' if p >= c else (f"in {(c - p) / ph:.0f} h" if isinstance(ph, (int, float)) and ph > 0 else 'rate unknown')
+        subs.append(f"{nm(x['name'])} {x['level']}/{x['maxLevel']}: next {short(c)} particles ({when})")
+    rate = f", +{short(ph)}/hr ({short(ph * 24)}/day)" if isinstance(ph, (int, float)) else ''
+    return ('atom_collider', f"Atoms: {short(p)} particles{rate}; cheapest next levels below (buy order = gap, my read: cheapest first)", subs)
+
+
+TACH = {0: 'Purple', 1: 'Brown', 2: 'Green', 3: 'Red', 4: 'Silver', 5: 'Gold'}
+
+
+def c_tesseract_maps():
+    mp = WEB.get('tesseractMaps')
+    if not isinstance(mp, list) or not mp: return None
+    try:
+        sys.path.insert(0, str(ROOT / 'model'))
+    except Exception: pass
+    best = {}
+    for m in mp:
+        if not m.get('unlocked'): continue
+        t_ = m.get('tachyonType'); q = m.get('tachyonQuantity') or 0
+        if t_ is None: continue
+        if q > best.get(t_, (0, ''))[0]: best[t_] = (q, nm(m.get('mapName')))
+    subs = [f"{TACH.get(k, k)} tachyon: best unlocked map {v[1]} ({v[0]:.2f} per drop)" for k, v in sorted(best.items())]
+    opt = WEB.get('tesseractOptimizer') or {}
+    for cat in ('damage', 'tachyons'):
+        st = opt.get(cat)
+        if isinstance(st, list) and st:
+            seen = []
+            for s in st:
+                n = nm(s.get('name'))
+                if n not in seen: seen.append(n)
+            subs.append(f"Toolbox optimizer ({cat}): " + ' > '.join(seen[:4]))
+    locked = sum(1 for m in mp if not m.get('unlocked'))
+    return ('tesseract', f"Tesseract: tachyon per map + Toolbox upgrade optimizer ({len(mp) - locked} maps open, {locked} locked)", subs)
+
+
+def c_spelunk_opt():
+    so = WEB.get('spelunkingOptimizer') or {}
+    subs = []
+    for k, lab in (('power', 'POW'), ('amber', 'amber gain')):
+        st = so.get(k)
+        if isinstance(st, list) and st:
+            seen = []
+            for s in st:
+                n = nm(s.get('name'))
+                if n not in seen: seen.append(n)
+            subs.append(f"{lab} buy order (Toolbox optimizer): " + ' > '.join(seen[:4]) + f" (next {short(st[0].get('cost'))} amber)")
+    if not subs: return None
+    return ('spelunk', f"Spelunking upgrades: Toolbox optimizer on {so.get('character')} (highest Spelunking)", subs)
+
+
+def c_lab_shop():
+    L = A.get('lab') or {}; rot = L.get('currentRotation') or []; chips = L.get('chips') or []
+    if not rot: return None
+    names = []
+    for i in rot:
+        c = next((x for x in chips if x.get('index') == i), None)
+        if c:
+            req = ', '.join(f"{short(r.get('amount'))} {nm(r.get('name'))}" for r in c.get('requirements') or [])
+            names.append(f"{nm(c.get('name'))} ({req})")
+    return ('lab_chips', f"Lab chip shop this rotation: {len(names)} chips", names)
+
+
+def c_ninja():
+    u = WEB.get('ninjaUpgradeCosts')
+    if not isinstance(u, list): return None
+    jade = (A.get('sneaking') or {}).get('jadeCoins') or 0
+    try: jade = float(jade)
+    except (TypeError, ValueError): jade = 0
+    ok = sorted((x for x in u if x.get('unlocked') and isinstance(x.get('cost'), (int, float))), key=lambda x: x['cost'])
+    aff = [x for x in ok if x['cost'] <= jade]
+    subs = [f"{nm(x['name'])} lv {x['level']}: {short(x['cost'])} jade" + (' (can buy)' if x['cost'] <= jade else '') for x in ok[:6]]
+    return ('sneaking', f"Ninja knowledge: {short(jade)} jade, {len(aff)} upgrades affordable (buy order = gap, my read: cheapest first)", subs)
+
+
+def c_minehead():
+    m = A.get('minehead') or {}
+    if not m: return None
+    aff = [x for x in m.get('upgrades') or [] if x.get('canAfford')]
+    subs = [f"affordable: {nm(x.get('description'))[:60]} ({short(x.get('cost'))})" for x in aff[:5]]
+    return ('minehead', f"Minehead: {m.get('dailyTriesLeft')} / {m.get('dailyTriesMax')} tries left today, {m.get('opponentsBeat')} / {len(m.get('opponents') or [])} opponents beaten, {short(m.get('mineCurrency'))} currency", subs)
+
+
+def c_minigames():
+    hs = {x.get('name'): x for x in (A.get('highscores') or {}).get('minigameHighscores') or []}
+    subs = []
+    for key, lab in (('hoops', 'Basketball (hoops)'), ('darts', 'Darts')):
+        x = hs.get(key)
+        if not x: continue
+        lock = [u for u in x.get('upgrades') or [] if not u.get('unlocked')]
+        nxt = min((u.get('cost') or 1e99 for u in x.get('upgrades') or [] if u.get('unlocked')), default=None)
+        subs.append(f"{lab}: best {x.get('score')}, {x.get('totalPoints')} points; cheapest next upgrade {short(nxt)}" + (f"; {len(lock)} locked (next at {lock[0].get('pointsToUnlock')} points)" if lock else ''))
+    if not subs: return None
+    return ('minigames', 'Minigames: points and upgrades (check spend in game)', subs)
+
+
+def c_event_shop():
+    ev = WEB.get('eventShop') or {}
+    if not ev or ev.get('error'): return None
+    stars = (A.get('accountOptions') or [None] * 999)
+    want = [b for t_ in ev.get('tiers') or [] for b in t_.get('bonuses') or [] if not b.get('owned')]
+    subs = [f"not owned this event: {nm(b.get('name'))} {b.get('price')} pts ({nm(b.get('description'))[:50]})" for b in want[:8]]
+    off = [b for b in ev.get('offRotation') or [] if not b.get('owned')]
+    if off: subs.append(f"off rotation (wait for it): " + ', '.join(nm(b.get('name')) for b in off[:6]))
+    return ('event_points_shop', f"Event shop: {ev.get('currentEvent')}, {len(want)} unowned in rotation" + (f", {ev.get('starsToFinish')} points to finish" if ev.get('starsToFinish') is not None else ''), subs)
 
 
 # ---------- Talent books: 2 checkouts / day / character + sub-200 bumps (pending L16) ----------
@@ -422,9 +564,12 @@ def c_talent_books(name):
 
 CHECKS2 = {'alchemy_bubbles': c_bubbles, 'alchemy_vials': c_vials, 'islands': c_fractal, 'coral_kid': c_coral_kid,
            'lab_chars': c_lab_chars, 'rotation': c_rotation, 'quest_greenstacks': c_quest_gs, 'inventory': c_inventory,
-           'construction_slots': c_construction_slots}
+           'construction_slots': c_construction_slots, 'drop_rate': c_drop_rate, 'atom_collider': c_atoms,
+           'tesseract': c_tesseract_maps, 'spelunk': c_spelunk_opt, 'lab_chips': c_lab_shop, 'sneaking': c_ninja,
+           'minehead': c_minehead, 'minigames': c_minigames, 'event_points_shop': c_event_shop}
 OWN2 = {'lab_chars': ['Autistocat'], 'rotation': ['Autistotle'], 'quest_greenstacks': [LIGHT], 'inventory': [LIGHT],
-        'construction_slots': ['Autistastic', 'Autistomatic'], 'alchemy_vials': ['Autistocat', 'Autistomatic']}
+        'construction_slots': ['Autistastic', 'Autistomatic'], 'alchemy_vials': ['Autistocat', 'Autistomatic'],
+        'drop_rate': ['Autistastic', 'Autistomatic'], 'minehead': [LIGHT], 'minigames': [LIGHT]}
 PER_CHAR = {'toolbox_alerts': c_missables, 'triggers': c_triggers, 'talent_books': c_talent_books}
 
 
